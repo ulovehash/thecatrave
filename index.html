@@ -5,7 +5,7 @@
   <title>thecatrave</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
-
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR6QX6MV5D"></script>
   <script>
@@ -14,88 +14,28 @@
     gtag('js', new Date());
     gtag('config', 'G-RR6QX6MV5D');
   </script>
-
-  <!-- Meta Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2001144366971787');
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2001144366971787&ev=PageView&noscript=1"/>
-  </noscript>
-
 </head>
 
 <body>
 
-  <!-- Background Pattern (Animated Particles) -->
-  <div class="interactive-background">
-    <div class="particle" style="top: 10%; left: 15%;"></div>
-    <div class="particle" style="top: 50%; left: 25%;"></div>
-    <div class="particle" style="top: 80%; left: 75%;"></div>
-  </div>
-
   <!-- Main Content Container -->
   <div id="computer-screen">
     <div id="screen-content">
+      <h1>Welcome to The Cat Rave</h1>
 
-      <p>Welcome, I'm Zhenya. I do things with music :)</p>
+      <!-- Spotify Artist Link -->
+      <h2 class="section-title">Listen on Spotify</h2>
+      <a href="https://open.spotify.com/artist/0Enu90TUHq8MQBz5WO6Ki0?si=8DTrE0nZTUW86sl8qhk-mg" class="button" target="_blank" aria-label="Spotify">Spotify</a>
 
-      <!-- Streaming Platforms Section -->
-      <h2 class="section-title">Streaming Platforms</h2>
-      <div class="buttons">
-        <a href="https://music.apple.com/us/album/no-genre-no-problem-single/1767755364" class="button" target="_blank" aria-label="Apple Music">Apple Music</a>
-        <a href="https://soundcloud.com/thecatrave" class="button" target="_blank" aria-label="SoundCloud">SoundCloud</a>
-      </div>
+      <!-- SoundCloud Link -->
+      <h2 class="section-title">Listen on SoundCloud</h2>
+      <a href="https://soundcloud.com/thecatrave" class="button" target="_blank" aria-label="SoundCloud">SoundCloud</a>
 
-      <!-- Pre-Save Single -->
-      <h2 class="section-title">New Music</h2>
-      <a href="https://distrokid.com/hyperfollow/thecatrave/no-genre-no-problem" class="button" target="_blank" aria-label="Pre-Save on DistroKid">No Genre No Problem</a>
-
-      <!-- Social Media Section -->
-      <h2 class="section-title">Social Media</h2>
-      <div class="buttons">
-        <a href="https://www.instagram.com/thecatrave" class="button" target="_blank" aria-label="Instagram">Instagram</a>
-        <a href="https://www.tiktok.com/@thecatrave" class="button" target="_blank" aria-label="TikTok">TikTok</a>
-        <a href="https://www.youtube.com/@lonelydecember7898" class="button" target="_blank" aria-label="YouTube">YouTube</a>
-      </div>
-
-      <!-- Spotify Playlists Section (Grouped into Row) -->
-      <h2 class="section-title">Spotify Playlists</h2>
-      <div class="embed-container playlist-row">
-        <iframe src="https://open.spotify.com/embed/playlist/6Oae9iAsgdnjluoDIxCqNx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe src="https://open.spotify.com/embed/playlist/5KxVyvFbGGv5JpW0RYo31t" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe src="https://open.spotify.com/embed/playlist/5bYqY4Su6WM50ijZTSxalc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </div>
-</div>
-    <footer></footer>
+      <!-- Pre-Save New Track Link -->
+      <h2 class="section-title">Pre-Save New Track</h2>
+      <a href="https://distrokid.com/hyperfollow/thecatrave/no-genre-no-problem" class="button" target="_blank" aria-label="Pre-Save">No Genre No Problem</a>
+    </div>
   </div>
 
-  <script>
-    // Smooth Scroll Section Highlighting
-    const navLinks = document.querySelectorAll('nav a');
-    const sections = document.querySelectorAll('.section-title');
-
-    window.addEventListener('scroll', () => {
-      sections.forEach((section, index) => {
-        const sectionTop = section.getBoundingClientRect().top;
-
-        if (sectionTop < window.innerHeight - 150) {
-          section.classList.add('visible');
-        } else {
-          section.classList.remove('visible');
-        }
-      });
-    });
-  </script>
 </body>
 </html>
