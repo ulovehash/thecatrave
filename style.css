@@ -28,6 +28,15 @@ body {
   overflow: hidden;
 }
 
+/* Headline Styling */
+.playlist-headline {
+  font-size: 1.2em;
+  color: #87cefa;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #00bfff, 0 0 10px #87cefa;
+}
+
 /* Spotify Embed Container Styling */
 .spotify-container {
   width: 100%;
@@ -48,6 +57,11 @@ body {
   #computer-screen {
     width: 95%;
     height: auto;
+  }
+
+  .playlist-headline {
+    font-size: 1em;
+    margin-bottom: 15px;
   }
 
   .spotify-iframe {
