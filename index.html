@@ -1,69 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>thecatrave</title>
-
-  <!-- Meta Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2001144366971787'); // Your Meta Pixel ID
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2001144366971787&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-
-  <!-- Google Analytics Code -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR6QX6MV5D"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-RR6QX6MV5D'); // Your Google Analytics ID
-  </script>
-  <!-- End Google Analytics Code -->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TheCatRave | Official</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- Main Content Container -->
-  <div id="computer-screen">
-    <div id="screen-content">
+  <header>
+    <h1>TheCatRave</h1>
+    <p>Electronic Music Producer & DJ</p>
+  </header>
 
-      <!-- Spotify and SoundCloud Links as Buttons -->
-      <div class="social-links">
-        <a href="https://open.spotify.com/artist/0Enu90TUHq8MQBz5WO6Ki0?si=8DTrE0nZTUW86sl8qhk-mg" class="button" target="_blank" aria-label="Spotify">Spotify</a>
-        <a href="https://soundcloud.com/thecatrave" class="button" target="_blank" aria-label="SoundCloud">SoundCloud</a>
-      </div>
+  <section id="latest-mix">
+    <h2>🎧 Latest Mix</h2>
 
-      <!-- Embedded Spotify Playlist -->
-      <div class="spotify-container">
-        <iframe
-          src="https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator"
-          class="spotify-iframe"
-          frameborder="0" allowtransparency="true" allow="encrypted-media"
-          title="Spotify Playlist - Bouncy Electronic Music">
-        </iframe>
-      </div>
+    <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
 
-    </div>
-  </div>
+    <iframe width="100%" height="315"
+      src="https://www.youtube.com/embed/A-tygkarHf8"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <iframe width="100%" height="120"
+      src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves%2F"
+      frameborder="0"></iframe>
+  </section>
+
+  <section id="spotify">
+    <h2>🔥 Spotify</h2>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0Enu90TUHq8MQBz5WO6Ki0?utm_source=generator"
+      width="100%" height="152" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator"
+      width="100%" height="152" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0U2HwRmau3EW1IXoRRa1JD?utm_source=generator"
+      width="100%" height="152" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  <section id="bandcamp">
+    <h2>💽 Bandcamp</h2>
+    <p><a href="https://thecatrave.bandcamp.com/" target="_blank">Visit my Bandcamp →</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 TheCatRave</p>
+  </footer>
 
 </body>
 </html>
