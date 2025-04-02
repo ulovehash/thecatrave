@@ -1,68 +1,80 @@
 body {
-  background: #000;
-  color: #eee;
-  font-family: 'Helvetica Neue', sans-serif;
+  background: url('https://i.imgur.com/nZ4eKzt.gif') repeat;
+  color: #0ff;
+  font-family: 'Comic Sans MS', 'Courier New', cursive;
+  text-align: center;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
 }
 
-header {
-  background: linear-gradient(135deg, #111, #222);
-  padding: 3rem 1rem;
-  text-align: center;
-  border-bottom: 2px solid #ff5500;
-}
-
-header h1 {
-  font-size: 3rem;
-  margin: 0;
-  color: #ff5500;
-  text-transform: uppercase;
-}
-
-header p {
-  font-size: 1.2rem;
-  color: #ccc;
-}
-
-section {
-  padding: 2rem 1rem;
-  max-width: 900px;
+.wrapper {
+  max-width: 800px;
   margin: auto;
-  background: #111;
-  border-radius: 10px;
-  margin-bottom: 2rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  border: 4px dashed #f0f;
+  box-shadow: 0 0 20px #f0f;
+  border-radius: 20px;
 }
 
-section h2 {
-  font-size: 1.8rem;
-  color: #ff5500;
+h1 {
+  font-size: 3rem;
+  color: #ff0;
+  text-shadow: 2px 2px #f0f;
+}
+
+.subtitle {
+  color: #0ff;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
-section iframe {
-  display: block;
-  width: 100%;
-  margin-bottom: 1.5rem;
-  border: none;
-  border-radius: 8px;
+marquee {
+  font-size: 1.2rem;
+  color: #fff;
+  background: #f0f;
+  padding: 0.5rem;
+  border: 2px dotted #0ff;
+  margin-bottom: 2rem;
+}
+
+.section {
+  background: #111;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 2px solid #0ff;
+  border-radius: 10px;
+}
+
+.section h2 {
+  color: #ff0;
+  text-shadow: 1px 1px #f0f;
+}
+
+iframe {
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff;
 }
 
 a {
-  color: #1db954;
+  color: #ff0;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
+  color: #f0f;
   text-decoration: underline;
 }
 
+.dj-cat {
+  width: 200px;
+  margin-top: 2rem;
+}
+
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #111;
-  border-top: 1px solid #333;
-  color: #777;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #ccc;
 }
