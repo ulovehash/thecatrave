@@ -50,6 +50,31 @@ iframe {
   border-radius: 6px;
 }
 
+.floating-block {
+  background-color: #1a1a1b;
+  border: 1px solid #333;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.social {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #d7dadc;
+}
+
+.social a {
+  margin: 0 1rem;
+  color: #50b5ff;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
 ul {
   padding-left: 1.5rem;
 }
