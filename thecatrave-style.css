@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  background: #0b1416;
+  color: #d7dadc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  background: #1a1a1b;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', monospace;
+  color: #87cefa;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #4fbcff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
