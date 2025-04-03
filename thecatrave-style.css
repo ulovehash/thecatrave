@@ -88,3 +88,38 @@ a {
 a:hover {
   text-decoration: underline;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  background: #0f1112;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1e1f22;
+  color: #66ccff;
+  text-align: left;
+  font-family: 'Press Start 2P', monospace;
+}
+
+th, td {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #121415;
+}
+
+tbody tr:hover {
+  background-color: #1c1f21;
+}
+
+td strong {
+  color: #ffffff;
+  font-weight: bold;
+}
