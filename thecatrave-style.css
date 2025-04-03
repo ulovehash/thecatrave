@@ -123,3 +123,44 @@ td strong {
   color: #ffffff;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  section, .floating-block {
+    padding: 1.2rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  table th, table td {
+    padding: 0.7rem;
+    font-size: 0.85rem;
+  }
+
+  iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .social {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
