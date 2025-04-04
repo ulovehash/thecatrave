@@ -244,50 +244,52 @@ td strong {
   margin-bottom: 1.2rem;
   display: block;
 }
-/* MailerLite Form Styling – Matching thecatrave aesthetic */
+/* Match MailerLite form to floating block style */
 .ml-form-embedContainer {
-  background: #0c0c0c !important;
-  border: none !important;
+  background: #1a1a1b !important;
+  padding: 1.5rem !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25) !important;
   font-family: 'Share Tech Mono', monospace !important;
   color: #d7dadc !important;
 }
 
 .ml-form-embedContainer h4 {
   color: #66ccff !important;
-  font-size: 1.5rem !important;
-  font-family: 'Share Tech Mono', monospace !important;
-  margin-bottom: 0.5rem;
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 0.75rem;
 }
 
 .ml-form-embedContainer p,
 .ml-form-embedContainer label,
-.ml-form-embedContainer input,
 .ml-form-embedContainer .label-description {
-  color: #d7dadc !important;
-  font-size: 14px !important;
+  color: #aaa !important;
+  font-size: 0.85rem !important;
+  line-height: 1.5;
   font-family: 'Share Tech Mono', monospace !important;
 }
 
-.ml-form-embedContainer input[type="email"] {
-  background-color: #111 !important;
-  border: 1px solid #333 !important;
+.ml-form-embedContainer input[type="email"],
+.ml-form-embedContainer input[type="checkbox"] {
+  background-color: #0f0f0f !important;
+  border: 1px solid #444 !important;
+  border-radius: 4px !important;
   color: #d7dadc !important;
   font-family: 'Share Tech Mono', monospace !important;
-}
-
-.ml-form-embedContainer .ml-form-checkboxRow p {
-  font-size: 13px !important;
-  color: #999 !important;
-  font-family: 'Share Tech Mono', monospace !important;
+  padding: 0.5rem !important;
 }
 
 .ml-form-embedContainer .ml-form-embedSubmit button.primary {
   background-color: #00d9ff !important;
   color: #000 !important;
-  font-weight: 600;
-  font-family: 'Share Tech Mono', monospace !important;
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
   border: none !important;
-  transition: background 0.3s;
+  border-radius: 4px;
+  padding: 0.5rem 1rem !important;
+  cursor: pointer;
 }
 
 .ml-form-embedContainer .ml-form-embedSubmit button.primary:hover {
