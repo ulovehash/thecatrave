@@ -55,6 +55,19 @@ iframe {
   border-radius: 6px;
 }
 
+figure {
+  margin: 2rem auto;
+  max-width: 512px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
 img {
   display: block;
   max-width: 100%;
