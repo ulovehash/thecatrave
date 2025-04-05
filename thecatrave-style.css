@@ -336,3 +336,49 @@ td strong {
   margin: 0;
   color: #ccc;
 }
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.article-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-row img {
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.article-row h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.1rem;
+}
+
+.article-row p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.article-row:hover {
+  background-color: #1a1a1a;
+  border-radius: 6px;
+}
+@media (max-width: 600px) {
+  .article-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .article-row img {
+    width: 100%;
+    height: auto;
+  }
+}
