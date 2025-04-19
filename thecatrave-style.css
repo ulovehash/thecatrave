@@ -6,11 +6,12 @@ body {
   background-color: #111;
   line-height: 1.6;
   font-size: 18px;
-  text-transform: lowercase;
+  /* removed text-transform */
 }
+
 h1, h2, h3, h4 {
   font-weight: 600;
-  text-transform: lowercase;
+  text-transform: none; /* allow normal casing */
   letter-spacing: -0.5px;
   margin-bottom: 0.75rem;
 }
