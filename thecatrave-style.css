@@ -416,3 +416,30 @@ td strong {
   border: none;
   border-radius: 6px;
 }
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.article-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #111;
+  padding: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.3s;
+}
+
+.article-row:hover {
+  background: #222;
+}
+
+.article-row img {
+  width: 96px;
+  height: auto;
+  border-radius: 4px;
+}
