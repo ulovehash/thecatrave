@@ -443,3 +443,19 @@ td strong {
   height: auto;
   border-radius: 4px;
 }
+#mouse-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+  margin-top: -100px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.15), rgba(0, 0, 0, 0));
+  pointer-events: none;
+  z-index: 0;
+  transition: transform 0.05s ease;
+  mix-blend-mode: screen;
+  filter: blur(40px);
+}
