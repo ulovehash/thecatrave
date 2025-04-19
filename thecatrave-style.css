@@ -459,3 +459,15 @@ td strong {
   mix-blend-mode: screen;
   filter: blur(40px);
 }
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  opacity: 0.12;
+  filter: blur(1px) brightness(1.1);
+  pointer-events: none;
+}
