@@ -483,13 +483,15 @@ td strong {
   pointer-events: none;
 }
 @media (max-width: 768px) {
-  #bg-video {
-    display: none;
-  }
-
-  body {
-    background-image: url('fallback-image.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-}
+	#bg-video {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  z-index: -1;
+	  opacity: 0.12;
+	  filter: blur(1px) brightness(1.1);
+	  pointer-events: none;
+	}
