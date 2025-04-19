@@ -1,6 +1,6 @@
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap');
-/* 🎛️ THECATRAVE ANALOG VIBES — POLISHED RESET */
 
+/* Base font and colors */
 body {
   background-color: #121212;
   color: #EAE3DA;
@@ -8,45 +8,49 @@ body {
   font-weight: 400;
 }
 
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/img/grain-texture.png');
-  opacity: 0.05;
-  pointer-events: none;
-  z-index: -1;
-}
-
 p {
   opacity: 0.85;
 }
 
+a {
+  color: #7FBBC5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-style: dotted;
+  text-transform: none;
+}
+
+a:hover {
+  color: #B3E8F1;
+}
+
+/* Headings — clean, no icons or borders */
 h1, h2, h3 {
   font-family: 'Satoshi', sans-serif;
   font-weight: 700;
   color: #EAE3DA;
   text-shadow: none;
+  letter-spacing: -0.2px;
+  margin-bottom: 1rem;
 }
 
 h1 {
-  border-bottom: 1px solid #68A6A7;
-  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
-  color: #68A6A7;
-  border-left: 4px solid #D97A4A;
-  padding-left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
 }
 
 h3 {
-  color: #A0C4B2;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 2rem;
 }
-
 a {
   color: #A0C4B2;
   text-decoration: underline;
