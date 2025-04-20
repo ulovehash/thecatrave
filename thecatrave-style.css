@@ -126,32 +126,17 @@ img {
 
 /* ========== EMBED STYLING ========== */
 .embed-wrapper {
-  margin: 1.5rem 0;
-  padding: 0;
-  border-radius: 12px;
-  overflow: hidden;
-  background: rgba(36, 36, 36, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(8px);
+  margin: 2rem 0;
+  width: 100%;
   max-width: 100%;
 }
 
 .embed-wrapper iframe {
   width: 100%;
-  display: block;
+  height: 152px;
+  max-width: 100%;
   border: none;
-  aspect-ratio: 16 / 9; /* ✅ Default */
-}
-
-/* 🟪 Optional: force square layout only when needed (e.g. Spotify) */
-.embed-wrapper.square iframe {
-  aspect-ratio: 1 / 1;
-}
-
-/* 🟦 Optional: tall content like TikTok/Reels */
-.embed-wrapper.tall iframe {
-  aspect-ratio: 9 / 16;
+  display: block;
 }
 
 /* ========== SOCIAL LINKS ========== */
