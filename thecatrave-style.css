@@ -13,18 +13,17 @@ p {
 }
 
 a {
-  color: #7FBBC5;
+  color: #A0C4B2;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-style: dotted;
-  text-transform: none;
 }
 
 a:hover {
-  color: #B3E8F1;
+  color: #D97A4A;
 }
 
-/* Headings — clean, no icons or borders */
+/* Headings */
 h1, h2, h3 {
   font-family: 'Satoshi', sans-serif;
   font-weight: 700;
@@ -41,67 +40,33 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-  font-weight: 600;
   margin-top: 2.5rem;
 }
 
 h3 {
   font-size: 1.1rem;
-  font-weight: 500;
-  font-style: normal;
   margin-top: 2rem;
 }
-a {
-  color: #A0C4B2;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-style: dotted;
-  text-transform: none;
-}
 
-a:hover {
-  color: #D97A4A;
-}
-
-/* Social links */
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 2rem 1rem;
-  flex-wrap: wrap;
-  font-size: 1rem;
-  text-align: center;
-  color: #d7dadc;
-}
-
-.social a {
-  color: #68A6A7;
-  text-decoration: none;
-}
-
-.social a:hover {
-  text-decoration: underline;
-  color: #D97A4A;
-}
-
-/* Sections */
+/* Container */
 .container {
   max-width: 860px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
+/* Floating Block */
 section, .floating-block {
-  background-color: #191919;
-  border: 1px solid #2a2a2a;
-  border-radius: 10px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  background: rgba(25, 25, 25, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.6rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  backdrop-filter: blur(6px);
 }
 
+/* Floating Inset */
 .floating-inset {
   background-color: #141414;
   border-left: 4px solid #68A6A7;
@@ -125,21 +90,16 @@ section, .floating-block {
   border-radius: 6px;
 }
 
-/* Typography */
-ul {
-  padding-left: 1.5rem;
-}
-
+/* Reading Time */
 .reading-time {
   font-size: 0.85rem;
   color: #888;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin-top: -0.3rem;
   margin-bottom: 1.2rem;
   display: block;
 }
 
-/* Images & Figures */
+/* Figures & Images */
 figure {
   margin: 2rem auto;
   max-width: 512px;
@@ -170,7 +130,29 @@ img {
 .full-bleed img {
   width: 100%;
   height: auto;
-  display: block;
+}
+
+/* Social */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  text-align: center;
+  color: #d7dadc;
+}
+
+.social a {
+  color: #68A6A7;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
+  color: #D97A4A;
 }
 
 /* Tables */
@@ -188,7 +170,6 @@ thead {
   background-color: #1e1f22;
   color: #66ccff;
   text-align: left;
-  font-family: 'Orbitron', sans-serif;
 }
 
 th, td {
@@ -206,25 +187,11 @@ tbody tr:hover {
 }
 
 td strong {
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 
-/* Iframes */
-iframe {
-  border: none;
-  width: 100%;
-  margin-top: 1rem;
-  border-radius: 6px;
-}
-
-/* Article Cards & Rows */
-.article-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-}
-
+/* Article Cards */
 .article-card {
   display: flex;
   gap: 1rem;
@@ -260,55 +227,6 @@ iframe {
   color: #ccc;
 }
 
-.article-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.article-row {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  background: #111;
-  padding: 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-  color: inherit;
-  transition: background 0.3s;
-}
-
-.article-row:hover {
-  background: #222;
-}
-
-.article-row img {
-  width: 96px;
-  height: auto;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-.article-row h3 {
-  margin: 0 0 0.3rem;
-  font-size: 1.1rem;
-}
-
-.article-row p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-/* MailerLite */
-.ml-form-embedContainer {
-  font-family: 'Share Tech Mono', monospace !important;
-}
-
-.ml-form-embedContainer h4 {
-  font-family: 'Orbitron', sans-serif !important;
-}
-
 /* Background Effects */
 #mouse-glow {
   position: fixed;
@@ -321,7 +239,7 @@ iframe {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(0, 217, 255, 0.15), rgba(0, 0, 0, 0));
   pointer-events: none;
-  z-index: -1;
+  z-index: -2;
   transition: transform 0.05s ease;
   mix-blend-mode: screen;
   filter: blur(40px);
@@ -334,23 +252,28 @@ iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: -3;
   opacity: 0.12;
   filter: blur(1px) brightness(1.1);
   pointer-events: none;
 }
 
-/* Responsive */
+/* Responsive Fixes */
 @media (max-width: 768px) {
   body {
     font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    line-height: 1.2;
   }
 
   .container {
     padding: 1rem;
   }
 
-  section, .floating-block {
+  .floating-block {
     padding: 1.2rem 1rem;
   }
 
@@ -364,25 +287,14 @@ iframe {
     aspect-ratio: 16 / 9;
   }
 
-  .social {
-    flex-direction: column;
-    gap: 0.75rem;
-    font-size: 1.1rem;
-  }
-
-  .social a {
-    display: inline-block;
-    font-size: 1rem;
-  }
-
   .article-row {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .article-row img {
-    width: 100%;
-    height: auto;
+  .article-row img,
+  .article-card img {
+    display: none;
   }
 
   section + section {
