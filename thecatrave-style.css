@@ -135,16 +135,11 @@ img {
   width: 100%;
   border: none;
   display: block;
-  height: 166px;
+  height: 166px; /* default height for single tracks */
 }
 
 .embed-wrapper.tall iframe {
-  height: 360px;
-}
-
-/* ⬆️ Override for YouTube and playlists */
-.embed-wrapper.tall iframe {
-  height: 360px;
+  height: 360px; /* taller height for YouTube + playlists */
 }
 
 /* ========== SOCIAL LINKS ========== */
@@ -227,4 +222,15 @@ img {
   section + section {
     margin-top: 2.5rem;
   }
+}
+.floating-image {
+  display: block;
+  margin: 2rem auto;
+  max-width: 512px;
+  text-align: center;
+}
+
+.floating-image img {
+  width: 100%;
+  border-radius: 6px;
 }
