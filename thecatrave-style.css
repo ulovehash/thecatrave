@@ -97,7 +97,7 @@ img {
 }
 
 .floating-image img {
-  height: 180px;       /* 🔧 control vertical space */
+  height: 480px;       /* 🔧 control vertical space */
   width: auto;         /* ✅ keep proportions */
   border-radius: 6px;
   display: block;
