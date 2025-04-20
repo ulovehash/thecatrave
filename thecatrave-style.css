@@ -140,8 +140,18 @@ img {
 .embed-wrapper iframe {
   width: 100%;
   display: block;
-  aspect-ratio: 1 / 1;
   border: none;
+  aspect-ratio: 16 / 9; /* ✅ Default */
+}
+
+/* 🟪 Optional: force square layout only when needed (e.g. Spotify) */
+.embed-wrapper.square iframe {
+  aspect-ratio: 1 / 1;
+}
+
+/* 🟦 Optional: tall content like TikTok/Reels */
+.embed-wrapper.tall iframe {
+  aspect-ratio: 9 / 16;
 }
 
 /* ========== SOCIAL LINKS ========== */
