@@ -92,15 +92,16 @@ img {
 .floating-image {
   display: block;
   margin: 2rem auto;
-  max-width: 100%;
+  width: auto;
   text-align: center;
 }
 
 .floating-image img {
-  width: 240px;         /* 🎯 This is the key change */
-  max-width: 100%;
+  height: 180px;       /* 🔧 control vertical space */
+  width: auto;         /* ✅ keep proportions */
   border-radius: 6px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 /* ========== ARTICLE LIST ========== */
 .article-list {
