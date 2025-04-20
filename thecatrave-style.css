@@ -89,7 +89,19 @@ img {
   height: auto;
   border-radius: 6px;
 }
+.floating-image {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  text-align: center;
+}
 
+.floating-image img {
+  width: 240px;         /* 🎯 This is the key change */
+  max-width: 100%;
+  border-radius: 6px;
+  display: inline-block;
+}
 /* ========== ARTICLE LIST ========== */
 .article-list {
   display: flex;
@@ -200,7 +212,11 @@ img {
   .container {
     padding: 1.5rem 1rem;
   }
-
+@media (max-width: 480px) {
+    .floating-image img {
+      width: 180px;
+    }
+  }
   h1 {
     font-size: 1.6rem;
   }
@@ -223,15 +239,4 @@ img {
   section + section {
     margin-top: 2.5rem;
   }
-}
-.floating-image {
-  display: block;
-  margin: 2rem auto;
-  max-width: 512px;
-  text-align: center;
-}
-
-.floating-image img {
-  width: 100%;
-  border-radius: 6px;
 }
