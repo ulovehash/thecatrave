@@ -16,11 +16,15 @@ a{color:inherit}
 .site-nav a:hover,.site-nav a:focus-visible,.footer-nav a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.3em}
 .header-socials{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:flex-end;gap:.35rem}
 .header-socials a{width:2.55rem;height:2.55rem;border:1px solid var(--ink);display:grid;place-items:center;text-decoration:none;transition:background-color .2s,color .2s}
-.header-socials a:hover,.header-socials a:focus-visible{background:var(--ink);color:var(--paper)}
+.header-socials a:hover,.header-socials a:focus-visible{color:#fff}
+.header-socials a:nth-child(1):hover,.header-socials a:nth-child(1):focus-visible{background:#f50;border-color:#f50}
+.header-socials a:nth-child(2):hover,.header-socials a:nth-child(2):focus-visible{background:#1da0c3;border-color:#1da0c3}
+.header-socials a:nth-child(3):hover,.header-socials a:nth-child(3):focus-visible{background:#1db954;border-color:#1db954}
+.header-socials a:nth-child(4):hover,.header-socials a:nth-child(4):focus-visible{background:linear-gradient(135deg,#833ab4,#fd1d1d 55%,#fcb045);border-color:#c13584}
 .header-socials svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .header-socials a:nth-child(2) svg,.header-socials a:nth-child(3) svg{fill:currentColor;stroke:none}
 .header-socials .spotify-waves{fill:none;stroke:var(--paper);stroke-width:1.35}
-.header-socials a:nth-child(3):hover .spotify-waves,.header-socials a:nth-child(3):focus-visible .spotify-waves{stroke:var(--ink)}
+.header-socials a:nth-child(3):hover .spotify-waves,.header-socials a:nth-child(3):focus-visible .spotify-waves{stroke:#1db954}
 .header-socials .instagram-dot{fill:currentColor;stroke:none}
 
 .hero{max-width:1440px;margin:auto;padding:2rem var(--gutter);display:grid;gap:2rem}
