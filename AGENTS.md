@@ -290,6 +290,10 @@ These rules are mandatory.
 ## 13. Repository and generation rules
 
 - Treat source drafts and generator files as the source of truth. Do not hand-edit generated HTML if a rebuild would overwrite the change.
+- Shared build-time page components live in `site-components.mjs`. Reuse these functions for headers, footers, social links, NOW PLAYING, author cards, Bandcamp CTAs, information banners, Read Next and analytics instead of copying markup.
+- Component usage and extension rules live in `SITE-COMPONENTS.md`.
+- The homepage keeps valid fallback HTML between explicit component markers and is refreshed with `build-home.mjs`.
+- After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion.
 - For the breakbeat article:
   - editorial source: `breakbeat-guide-draft.md`;
   - page generator: `build-breakbeat-article.mjs`;
