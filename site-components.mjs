@@ -47,6 +47,18 @@ export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} 
   return `<aside class="${classes}" aria-label="${escapeHtml(ariaLabel)}"><strong>${escapeHtml(label)}:</strong> ${bodyHtml}</aside>`;
 }
 
+export function articleListeningBand({platform = 'spotify', id, kicker, title, description, src, iframeTitle} = {}) {
+  if (!['spotify', 'soundcloud'].includes(platform)) throw new Error(`Unsupported listening platform: ${platform}`);
+  const player = platform === 'spotify'
+    ? `<iframe class="article-embed spotify-inline-embed" src="${escapeHtml(src)}" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${escapeHtml(iframeTitle)}"></iframe>`
+    : `<iframe src="${escapeHtml(src)}" title="${escapeHtml(iframeTitle)}" width="100%" height="166" scrolling="no" allow="autoplay" loading="lazy"></iframe>`;
+  return `<aside class="${platform}-feature article-listening-feature article-media-band" aria-labelledby="${escapeHtml(id)}"><div class="article-media-copy"><p class="article-kicker">${escapeHtml(kicker)}</p><h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p></div>${player}</aside>`;
+}
+
+export function articleYoutubeEmbed({src, title} = {}) {
+  return `<div class="classic-youtube-embed"><iframe src="${escapeHtml(src)}" title="${escapeHtml(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>`;
+}
+
 export function authorCard({filled = false} = {}) {
   const classes = `floating-inset author-card${filled ? ' author-card-filled' : ''}`;
   const copy = '<p class="article-kicker">About the author</p><h2 id="author-title">thecatrave</h2><p>Breakbeat, bass and rave DJ, producer and selector. Born in Eastern Europe, shaped by years in Berlin and Barcelona, and by raving around the world.</p>';

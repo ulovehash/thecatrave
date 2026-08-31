@@ -15,6 +15,8 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 
 - `nowPlayingBanner({title, meta, href, linkLabel})`: the black NOW PLAYING strip used under the homepage header.
 - `infoBanner({label, bodyHtml, ariaLabel, className})`: reusable editorial callout for definitions, meanings, factual summaries and similar labelled blocks.
+- `articleListeningBand({platform, id, kicker, title, description, src, iframeTitle})`: full-width Spotify or SoundCloud listening strip with contextual editorial copy and a directly playable embed.
+- `articleYoutubeEmbed({src, title})`: responsive, directly playable YouTube embed without a custom reveal layer.
 - `bandcampSupport({description, tracks})`: compact Bandcamp CTA or an expanded CTA with relevant embedded releases.
 
 ### Article navigation and identity
@@ -32,12 +34,22 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 - Shared component output must remain semantic, accessible and valid without CSS or JavaScript.
 - Do not place SEO-critical text exclusively inside a client-rendered component.
 
+## Reusable article layout contract
+
+- Listening strips use `.article-media-band`, `.article-media-copy` and `.article-listening-feature`. Their copy and player form a two-column band on desktop and one column at `760px` and below.
+- Jungle pages may extend a listening strip to the viewport edges, but the generic component names and semantic structure must remain unchanged.
+- YouTube examples use `.classic-youtube-embed`; the iframe stays visible, directly playable and at `16:9` on every viewport.
+- Spotify players use the compact `152px` embed. SoundCloud players use the compact `166px` embed.
+- Images and listening blocks must be separated by meaningful prose. Never stack a figure directly against a player.
+- Reusable media blocks must not introduce fixed desktop widths that cause mobile overflow. Images retain their intrinsic ratio and embedded players remain within their container.
+- Page-specific colour changes belong in article CSS, not duplicated component markup.
+
 ## Current integration
 
 - `build-home.mjs` refreshes the component regions inside `index.html` using explicit start/end markers.
 - `build-breakbeat-article.mjs` imports the shared article components.
 - `build-uk-article.mjs` imports the shared article components.
-- `jungle-music-guide.html` remains a legacy page and should be migrated when its editorial redesign is approved, not silently restyled as part of component maintenance.
+- `build-jungle-article.mjs` preserves the approved Jungle article body while assembling the current article shell and shared components.
 
 ## Build and verification
 
@@ -47,11 +59,15 @@ Run:
 node build-home.mjs
 node build-breakbeat-article.mjs
 node build-uk-article.mjs
+node build-jungle-article.mjs
 node audit-site-components.mjs
+node audit-jungle.mjs
 node audit-breakbeat.mjs
 ```
 
 `build-home.mjs` is idempotent: running it twice must produce no second change. Generated article pages should retain the same public HTML when only the internal component implementation changes.
+
+The Jungle generator refreshes every marked listening and YouTube block from the shared component functions. Update the component or its data in `build-jungle-article.mjs`; do not edit generated player markup in `jungle-music-guide.html` alone.
 
 ## Adding a new component
 

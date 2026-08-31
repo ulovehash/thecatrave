@@ -299,6 +299,83 @@
 }
 .article-listen p { margin: 0; }
 
+.article-embed {
+  display: block;
+  width: min(100%, 720px);
+  max-width: 100%;
+  margin: var(--media-space) auto;
+  border: 0;
+}
+.video-inline-embed { aspect-ratio: 16 / 9; height: auto; background: #0a0a0a; }
+.spotify-inline-embed { min-height: 152px; border-radius: 12px; }
+.jungle-page .article-section > ul { margin: 1.5rem 0; padding-left: 1.35rem; }
+.jungle-page .article-section > ul li { margin-bottom: .75rem; font-size: 1.02rem; line-height: 1.55; }
+.jungle-page .pull-quote { margin: 2rem 0; padding: 1.35rem 0 1.35rem 1.5rem; border-left: .45rem solid var(--acid); font-size: clamp(1.35rem, 3vw, 1.85rem); line-height: 1.25; }
+.jungle-page { --section-space: clamp(2.5rem, 4.5vw, 3.75rem); --media-space: clamp(1.75rem, 3vw, 2.5rem); }
+.jungle-page .article-image img { aspect-ratio: auto; }
+.jungle-page .awol-flyer { width: min(100%, 400px); max-width: 400px; }
+.jungle-page .awol-flyer img,
+.jungle-page .awol-flyer figcaption { box-sizing: border-box; }
+.jungle-page .awol-flyer img { width: 100%; }
+.jungle-page .awol-flyer figcaption { width: 100%; margin: .65rem auto 0; text-align: center; }
+.article-media-band {
+  position: relative;
+  left: 50%;
+  display: grid;
+  grid-template-columns: minmax(220px, .72fr) minmax(0, 1.5fr);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  align-items: center;
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  margin-block: clamp(1.75rem, 3vw, 2.5rem);
+  padding: clamp(1.2rem, 2.5vw, 1.6rem);
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  border: 1px solid currentColor;
+}
+.article-media-copy { min-width: 0; }
+.article-media-copy .article-kicker { margin-bottom: .55rem; }
+.article-media-copy h3 { margin: 0 0 .65rem; font-size: clamp(1.45rem, 2.5vw, 1.95rem); }
+.article-media-copy p:last-child { margin: 0; font-size: .98rem; line-height: 1.5; }
+.article-listening-feature .article-embed { width: 100%; height: 152px; min-height: 152px; margin: 0; }
+.jungle-page .article-listening-feature {
+  width: 100vw;
+  padding-right: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
+  padding-left: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
+  border-right: 0;
+  border-left: 0;
+}
+.jungle-page .tone-yellow .article-listening-feature { background: var(--cyan); }
+.jungle-page #jungle-mania { padding-bottom: 0; }
+.jungle-page #jungle-mania > .article-listening-feature:last-child { margin-bottom: 0; }
+.jungle-page .classic-youtube-embed {
+  position: relative;
+  left: 50%;
+  width: min(calc(100vw - (2 * var(--article-gutter))), 900px);
+  margin: clamp(1.75rem, 3vw, 2.5rem) 0;
+  transform: translateX(-50%);
+}
+.jungle-page .classic-youtube-embed iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; background: #0a0a0a; }
+.jungle-page .soundcloud-feature {
+  width: 100vw;
+  padding-right: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
+  padding-left: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
+  border-right: 0;
+  border-left: 0;
+  background: var(--cyan);
+}
+.jungle-page .soundcloud-feature iframe { display: block; width: 100%; height: 166px; border: 0; }
+.jungle-page .article-cta {
+  grid-template-columns: minmax(240px, 360px) minmax(0, 680px);
+  justify-content: center;
+  width: 100%;
+  padding: clamp(1.35rem, 2.5vw, 2rem) var(--article-gutter);
+  border-right: 0;
+  border-left: 0;
+}
+.jungle-page .article-cta h3 { max-width: none; font-size: clamp(1.8rem, 3vw, 2.35rem); }
+.jungle-page .article-cta p { max-width: 36ch; margin-bottom: 1.1rem; }
+.jungle-page code { font-family: "Space Mono", monospace; font-size: .9em; }
+
 .styles-section h3 {
   position: relative;
   margin-top: 3.5rem;
@@ -507,6 +584,10 @@
   .genre-map-mobile p { margin: 0; font-size: .95rem; line-height: 1.5; }
   .soundcloud-feature { margin-block: var(--media-space); padding: 1.15rem; }
   .spotify-feature { margin-block: var(--media-space); padding: 1.15rem; }
+  .article-media-band { grid-template-columns: 1fr; left: 50%; gap: 1rem; padding: 1rem; }
+  .jungle-page .article-listening-feature { width: 100vw; padding-inline: 1rem; }
+  .jungle-page .soundcloud-feature { width: 100vw; padding-inline: 1rem; }
+  .jungle-page .article-cta { grid-template-columns: 1fr; width: 100%; padding: 1.25rem 1rem; }
   .track-route li { grid-template-columns: 2.15rem minmax(0,1fr); font-size: .98rem; }
   .track-timeline { margin-top: 2.25rem; }
   .track-entry { grid-template-columns: 42px minmax(0, 1fr); gap: .8rem; padding: 1.25rem 0; }

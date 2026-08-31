@@ -290,7 +290,7 @@ These rules are mandatory.
 ## 13. Repository and generation rules
 
 - Treat source drafts and generator files as the source of truth. Do not hand-edit generated HTML if a rebuild would overwrite the change.
-- Shared build-time page components live in `site-components.mjs`. Reuse these functions for headers, footers, social links, NOW PLAYING, author cards, Bandcamp CTAs, information banners, Read Next and analytics instead of copying markup.
+- Shared build-time page components live in `site-components.mjs`. Reuse these functions for headers, footers, social links, NOW PLAYING, author cards, Bandcamp CTAs, information banners, contextual Spotify/SoundCloud listening bands, direct YouTube embeds, Read Next and analytics instead of copying markup.
 - Component usage and extension rules live in `SITE-COMPONENTS.md`.
 - The homepage keeps valid fallback HTML between explicit component markers and is refreshed with `build-home.mjs`.
 - After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion.
@@ -301,7 +301,12 @@ These rules are mandatory.
   - generated page: `breakbeat-guide.html`;
   - article styles: `thecatrave-article.css`;
   - automated audit: `audit-breakbeat.mjs`.
-- When changing the breakbeat article, update the appropriate source or generator, rebuild, then audit.
+- For the jungle article:
+  - page builder and migration source: `build-jungle-article.mjs`;
+  - generated page: `jungle-music-guide.html`;
+  - article styles: `thecatrave-article.css`;
+  - automated audit: `audit-jungle.mjs`.
+- When changing the breakbeat or Jungle article, update the appropriate source or generator, rebuild, then audit.
 - Keep media filenames descriptive and stable.
 - Do not remove old assets merely because they are unused unless deletion is explicitly requested.
 - Preserve unrelated worktree changes.
