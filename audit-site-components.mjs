@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {analytics, articleFooter, articleListeningBand, articleYoutubeEmbed, homeFooter, nowPlayingBanner, siteHeader} from './site-components.mjs';
+import {analytics, articleFooter, articleListeningBand, articleYoutubeEmbed, authorCard, homeFooter, nowPlayingBanner, siteHeader} from './site-components.mjs';
 
 const pages = {
   home: fs.readFileSync('index.html', 'utf8'),
@@ -24,6 +24,8 @@ const expectedNowPlaying = nowPlayingBanner({
   href:'https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves'
 });
 const expectedArticleHeader = siteHeader({variant:'article'});
+const expectedAuthorCard = authorCard({filled:true});
+const expectedCompactAuthorCard = authorCard();
 const expectedJungleListening = articleListeningBand({
   platform:'spotify', id:'jungle-listening-early-jungle', kicker:'Listen while you read',
   title:'Early jungle and hardcore.',
@@ -44,12 +46,15 @@ const checks = {
   breakbeatHeaderShared: pages.breakbeat.includes(expectedArticleHeader),
   breakbeatFooterShared: pages.breakbeat.includes(articleFooter()),
   breakbeatAnalyticsShared: pages.breakbeat.includes(analytics()),
+  breakbeatAuthorShared: pages.breakbeat.includes(expectedAuthorCard),
   ukHeaderShared: pages.uk.includes(expectedArticleHeader),
   ukFooterShared: pages.uk.includes(articleFooter()),
   ukAnalyticsShared: pages.uk.includes(analytics()),
+  ukAuthorShared: pages.uk.includes(expectedCompactAuthorCard),
   jungleHeaderShared: pages.jungle.includes(expectedArticleHeader),
   jungleFooterShared: pages.jungle.includes(articleFooter()),
   jungleAnalyticsShared: pages.jungle.includes(analytics()),
+  jungleAuthorShared: pages.jungle.includes(expectedAuthorCard),
   jungleListeningShared: pages.jungle.includes(expectedJungleListening),
   jungleYoutubeShared: pages.jungle.includes(expectedJungleYoutube),
   oneHeaderPerPage: Object.values(pages).every(page => (page.match(/<header class="site-header/g) || []).length === 1),

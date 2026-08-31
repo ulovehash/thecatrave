@@ -8,6 +8,7 @@ This file contains permanent project rules for writing, redesigning, rebuilding 
 - Every page must serve readers first while having a clear search intent and a credible route towards the artist's music, mixes or Bandcamp.
 - The visual identity should feel authored, underground, direct and contemporary. It must not resemble a generic SEO template or AI-generated magazine layout.
 - Preserve the artist's mystery and the name `thecatrave`. Do not foreground the artist's legal name unless the user explicitly requests it.
+- Brand spelling is non-negotiable: always write `thecatrave` as one word in lowercase in visible copy, metadata, alt text, structured data, components and internal documentation. Never write `The CatRave`, `The Cat Rave`, `Thecatrave` or any other capitalised or spaced variant.
 - Music is handmade in a DAW or mixed behind the decks. Do not describe generative AI as part of the creative process.
 - Do not use em dashes in editorial copy. Prefer commas, colons, parentheses or shorter sentences.
 - Avoid inflated metaphors, vague scene-setting, generic enthusiasm and synthetic phrases such as “a sonic journey”, “rich tapestry”, “pulsating rhythms” or “ever-evolving landscape”.

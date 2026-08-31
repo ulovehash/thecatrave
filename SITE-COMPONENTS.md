@@ -21,7 +21,7 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 
 ### Article navigation and identity
 
-- `authorCard({filled})`: standard author block with thecatrave biography and platform links.
+- `authorCard({filled})`: standard author block with the responsive thecatrave portrait, biography and platform links.
 - `readNext({items})`: related-article cards placed after the commercial CTA.
 - `socialLinks({icons, className, label})`: shared social/music links when a custom wrapper is needed.
 
@@ -39,6 +39,7 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 - Listening strips use `.article-media-band`, `.article-media-copy` and `.article-listening-feature`. Their copy and player form a two-column band on desktop and one column at `760px` and below.
 - Jungle pages may extend a listening strip to the viewport edges, but the generic component names and semantic structure must remain unchanged.
 - YouTube examples use `.classic-youtube-embed`; the iframe stays visible, directly playable and at `16:9` on every viewport.
+- Author cards use a single compact `Article by thecatrave` heading above the portrait and biography columns. The portrait, biography and first platform link begin on the same horizontal line. At `760px` and below, the heading spans the card, portrait and biography remain paired, and platform links move to a separate two-column row.
 - Spotify players use the compact `152px` embed. SoundCloud players use the compact `166px` embed.
 - Images and listening blocks must be separated by meaningful prose. Never stack a figure directly against a player.
 - Reusable media blocks must not introduce fixed desktop widths that cause mobile overflow. Images retain their intrinsic ratio and embedded players remain within their container.

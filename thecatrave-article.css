@@ -480,15 +480,27 @@
   border: 1px solid currentColor;
 }
 .author-card-filled {
-  display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(180px, .75fr);
-  gap: clamp(1.5rem, 4vw, 3rem);
-  align-items: end;
   background: var(--cyan);
 }
-.author-card h2 { margin: 0 0 .65rem; font-size: clamp(1.65rem, 3vw, 2.1rem); line-height: 1.08; }
-.author-card .author-copy > p:not(.article-kicker) { max-width: 600px; margin: 0; font-size: 1rem; line-height: 1.55; }
-.author-card nav { display: grid; gap: .55rem; margin: 0; font: 700 .78rem "Space Mono", monospace; text-transform: uppercase; }
+.author-card-grid {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr) minmax(140px, 170px);
+  grid-template-rows: auto auto;
+  column-gap: clamp(1.25rem, 3vw, 2rem);
+  row-gap: 1.35rem;
+  align-items: start;
+  min-width: 0;
+}
+.author-card h2 { grid-column: 1 / 3; grid-row: 1; margin: 0; font: 700 clamp(.9rem, 1.4vw, 1.1rem)/1.2 "Space Mono", monospace; text-transform: uppercase; letter-spacing: .01em; }
+.author-portrait { grid-column: 1; grid-row: 2; margin: 0; }
+.author-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid currentColor;
+}
+.author-bio { grid-column: 2; grid-row: 2; max-width: 600px; margin: 0; font-size: 1rem; line-height: 1.55; }
+.author-card nav { display: grid; grid-column: 3; grid-row: 2; gap: .65rem; margin: 0; font: 700 .78rem "Space Mono", monospace; text-transform: uppercase; }
 .author-card a { text-underline-offset: .2em; }
 
 .article-cta {
@@ -598,7 +610,11 @@
   .spotify-embed { height: 152px; }
   .context-listening { margin-top: 2.25rem; padding: 1rem; }
   .author-card { margin: 0 auto var(--section-space); padding: 1.25rem; }
-  .author-card-filled { grid-template-columns: 1fr; align-items: start; }
+  .author-card-grid { grid-template-columns: 112px minmax(0, 1fr); grid-template-rows: auto auto auto; column-gap: 1rem; row-gap: 1rem; }
+  .author-card h2 { grid-column: 1 / -1; grid-row: 1; }
+  .author-portrait { grid-column: 1; grid-row: 2; }
+  .author-bio { grid-column: 2; grid-row: 2; }
+  .author-card nav { grid-column: 1 / -1; grid-row: 3; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem 1rem; margin-top: 0; padding-top: 1rem; border-top: 1px solid rgba(10,10,10,.35); }
   .article-cta { margin: 0 auto var(--section-space); padding: 1.25rem; gap: 1.5rem; }
   .article-cta-copy { display: block; }
   .article-cta-copy .button { display: inline-flex; }

@@ -61,11 +61,9 @@ export function articleYoutubeEmbed({src, title} = {}) {
 
 export function authorCard({filled = false} = {}) {
   const classes = `floating-inset author-card${filled ? ' author-card-filled' : ''}`;
-  const copy = '<p class="article-kicker">About the author</p><h2 id="author-title">thecatrave</h2><p>Breakbeat, bass and rave DJ, producer and selector. Born in Eastern Europe, shaped by years in Berlin and Barcelona, and by raving around the world.</p>';
+  const portrait = '<figure class="author-portrait"><img src="img/thecatrave-author-800.jpg" srcset="img/thecatrave-author-400.jpg 400w, img/thecatrave-author-800.jpg 800w" sizes="(max-width: 760px) 112px, 160px" width="800" height="600" loading="lazy" alt="thecatrave as a child in front of an Eastern European apartment block"></figure>';
   const links = '<nav aria-label="Author links"><a href="https://soundcloud.com/thecatrave" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="https://thecatrave.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="https://open.spotify.com/artist/0Enu90TUHq8MQBz5WO6Ki0" target="_blank" rel="noopener noreferrer">Spotify ↗</a><a href="https://instagram.com/thecatrave" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav>';
-  return filled
-    ? `<aside class="${classes}" aria-labelledby="author-title"><div class="author-copy">${copy}</div>${links}</aside>`
-    : `<aside class="${classes}" aria-labelledby="author-title">${copy}${links}</aside>`;
+  return `<aside class="${classes}" aria-labelledby="author-title"><div class="author-card-grid"><h2 id="author-title">Article by thecatrave</h2>${portrait}<p class="author-bio">Breakbeat, bass and rave DJ, producer and selector. Born in Eastern Europe, shaped by years in Berlin and Barcelona, and by raving around the world.</p>${links}</div></aside>`;
 }
 
 export function bandcampSupport({description, tracks = []} = {}) {
