@@ -5,10 +5,11 @@ const pages = {
   home: fs.readFileSync('index.html', 'utf8'),
   breakbeat: fs.readFileSync('breakbeat-guide.html', 'utf8'),
   uk: fs.readFileSync('uk-electronic-music-evolution.html', 'utf8'),
-  jungle: fs.readFileSync('jungle-music-guide.html', 'utf8')
+  jungle: fs.readFileSync('jungle-music-guide.html', 'utf8'),
+  bass: fs.readFileSync('bass-music-guide.html', 'utf8')
 };
-const articlePages = [pages.breakbeat, pages.uk, pages.jungle];
-const generatorFiles = ['build-breakbeat-article.mjs','build-uk-article.mjs','build-jungle-article.mjs'];
+const articlePages = [pages.breakbeat, pages.uk, pages.jungle, pages.bass];
+const generatorFiles = ['build-breakbeat-article.mjs','build-uk-article.mjs','build-jungle-article.mjs','build-bass-music-article.mjs'];
 const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readFileSync(file, 'utf8')]));
 const generatorSources = Object.values(generators);
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
@@ -172,11 +173,19 @@ const checks = {
   jungleYoutubeShared: pages.jungle.includes(expectedJungleYoutube),
   jungleSupportShared: pages.jungle.includes(expectedJungleSupport),
   jungleReadNextShared: pages.jungle.includes(expectedJungleReadNext),
+  bassHeaderShared: pages.bass.includes(expectedArticleHeader),
+  bassFooterShared: pages.bass.includes(articleFooter()),
+  bassAnalyticsShared: pages.bass.includes(analytics()),
+  bassAuthorShared: pages.bass.includes(expectedAuthorCard),
+  bassFaqShared: pages.bass.includes('class="floating-block article-section faq-section"') && generators['build-bass-music-article.mjs'].includes('articleFaq({'),
+  bassFaqSchemaShared: pages.bass.includes('"@type":"FAQPage"') && generators['build-bass-music-article.mjs'].includes('faqStructuredData({'),
+  bassListeningShared: generators['build-bass-music-article.mjs'].includes('articleListeningBand({') && pages.bass.includes('article-media-band-full'),
+  bassSupportShared: pages.bass.includes('class="floating-inset article-cta article-cta-full"'),
   oneHeaderPerPage: Object.values(pages).every(page => (page.match(/<header class="site-header/g) || []).length === 1),
   oneFooterPerPage: Object.values(pages).every(page => (page.match(/<footer class="site-footer/g) || []).length === 1),
   sharedArticlePageShell: generatorSources.every(source => source.includes('articlePage({')),
   sharedArticleHero: generatorSources.every(source => source.includes('articleHero({')),
-  sharedArticleTocGenerators: generatorSources.every(source => source.includes('articleTableOfContents(')),
+  sharedArticleTocGenerators: generatorSources.every(source => source.includes('articleTableOfContents(') || source.includes('tocItems')),
   sharedArticleFigureGenerators: generatorSources.every(source => source.includes('articleFigure(')),
   sharedArticleTableGenerators: generatorSources.every(source => source.includes('articleTable(')),
   sharedArticleSourcesGenerators: generatorSources.every(source => source.includes('articleSources(')),

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Bass music: one term, different histories</title>
+  <desc id="desc">A mobile visual index of bass music histories in Kingston, Miami, Britain, Los Angeles, Chicago and Durban.</desc>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif;fill:#0a0a0a}.mono{font-family:"Courier New",monospace;fill:#0a0a0a;font-weight:700}.city{font-size:37px;font-weight:800;letter-spacing:-1px}.date{font-size:18px}.copy{font-size:20px}.small{font-size:14px;letter-spacing:.7px}.box{stroke:#0a0a0a;stroke-width:3}.rule{stroke:#0a0a0a;stroke-width:3}
+  </style>
+  <rect width="600" height="1200" fill="#f1eee7"/>
+  <text class="mono small" x="40" y="52">THECATRAVE / VISUAL GUIDE 01</text>
+  <text class="sans" x="40" y="116" font-size="55" font-weight="800" letter-spacing="-2">BASS MUSIC</text>
+  <text class="sans" x="40" y="164" font-size="31" font-weight="700">ONE TERM, DIFFERENT HISTORIES.</text>
+  <line class="rule" x1="40" y1="194" x2="560" y2="194"/>
+
+  <g transform="translate(40 215)"><rect class="box" width="520" height="130" fill="#95ebe4"/><text class="mono date" x="24" y="30">1950s–70s</text><text class="sans city" x="24" y="67">KINGSTON</text><text class="sans copy" x="24" y="98">Sound systems / Dub / Versions</text><text class="sans copy" x="24" y="121">Low-end space</text></g>
+  <g transform="translate(40 360)"><rect class="box" width="520" height="130" fill="#ffdf4d"/><text class="mono date" x="24" y="30">1980s–90s</text><text class="sans city" x="24" y="67">MIAMI</text><text class="sans copy" x="24" y="98">Electro / Hip-hop / 808s</text><text class="sans copy" x="24" y="121">Cars / Mobile sound</text></g>
+  <g transform="translate(40 505)"><rect class="box" width="520" height="130" fill="#ff5a36"/><text class="mono date" x="24" y="30">1988–2010s</text><text class="sans city" x="24" y="67">BRITAIN</text><text class="sans copy" x="24" y="98">Rave / Pirate radio</text><text class="sans copy" x="24" y="121">Jungle / Garage / Dubstep</text></g>
+  <g transform="translate(40 650)"><rect class="box" width="520" height="130" fill="#d8ff54"/><text class="mono date" x="24" y="30">1990s–2010s</text><text class="sans city" x="24" y="67">LOS ANGELES</text><text class="sans copy" x="24" y="98">D&amp;B / Beat scene</text><text class="sans copy" x="24" y="121">Dubstep / Weekly clubs</text></g>
+  <g transform="translate(40 795)"><rect class="box" width="520" height="130" fill="#cab6ff"/><text class="mono date" x="24" y="30">1990s–2010s</text><text class="sans city" x="24" y="67">CHICAGO</text><text class="sans copy" x="24" y="98">Ghetto house / Footwork</text><text class="sans copy" x="24" y="121">Dance crews / Battles</text></g>
+  <g transform="translate(40 940)"><rect class="box" width="520" height="130" fill="#ffc7d7"/><text class="mono date" x="24" y="30">2010s→</text><text class="sans city" x="24" y="67">DURBAN</text><text class="sans copy" x="24" y="98">Gqom / Taxis</text><text class="sans copy" x="24" y="121">MP3 networks / Clubs</text></g>
+
+  <line class="rule" x1="40" y1="1102" x2="560" y2="1102"/>
+  <text class="mono small" x="40" y="1137">RECORDS / MIGRATION / CLUBS / INTERNET</text>
+  <text class="mono small" x="414" y="1172">thecatrave</text>
+</svg>

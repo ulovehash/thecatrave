@@ -196,6 +196,83 @@
 .wide-archive-image { width: min(100%, 720px); max-width: 720px; }
 .wide-archive-image img { max-height: none; object-fit: contain; }
 .archive-image { margin-block: var(--media-space); }
+.bass-music-page {
+  --section-space: clamp(3.5rem, 6vw, 5.25rem);
+  --media-space: clamp(2.25rem, 4vw, 3.25rem);
+}
+.bass-music-page .article-hero h1 { max-width: 12ch; }
+.bass-music-page .article-summary { background: var(--cyan); }
+.bass-music-page .article-section > h3 {
+  position: relative;
+  margin-top: clamp(3rem, 6vw, 4.5rem);
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(10,10,10,.35);
+}
+.bass-music-page .article-section > h3::before {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 4rem;
+  height: .38rem;
+  content: "";
+  background: var(--acid);
+}
+.bass-music-page .article-section > h3:nth-of-type(3n+2)::before { background: var(--cyan); }
+.bass-music-page .article-section > h3:nth-of-type(3n)::before { background: var(--coral); }
+.bass-music-page .bass-history-visual {
+  position: relative;
+  left: 50%;
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  max-width: none;
+  transform: translateX(-50%);
+}
+.bass-music-page .bass-history-visual picture,
+.bass-music-page .bass-history-visual img { display: block; width: 100%; }
+.bass-music-page .bass-history-visual img { height: auto; border: 1px solid var(--ink); }
+.bass-music-page .bass-history-visual figcaption { max-width: 680px; }
+.bass-music-page .inline-term { font-family: "Space Mono", monospace; font-size: .88em; }
+.bass-music-page .article-note {
+  margin-block: 1.75rem;
+  padding: .9rem 0 .9rem 1rem;
+  border-left: .35rem solid var(--acid);
+}
+.bass-music-page .classic-youtube-embed { width: min(calc(100vw - (2 * var(--article-gutter))), 860px); }
+.bass-music-page #meanings .listening-block-full { background: var(--yellow); }
+.bass-music-page #types .genre-table,
+.bass-music-page #records .genre-table { background: var(--paper); }
+.bass-music-page .bass-scene-table th:first-child,
+.bass-music-page .bass-scene-table td:first-child { width: 25%; font-weight: 700; }
+.bass-music-page .bass-record-table th:first-child,
+.bass-music-page .bass-record-table td:first-child { width: 38%; font-weight: 700; }
+.bass-music-page .bass-starting-routes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  position: relative;
+  left: 50%;
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  margin: 2.5rem 0;
+  transform: translateX(-50%);
+  border: 1px solid var(--ink);
+  background: var(--ink);
+}
+.bass-music-page .bass-route-card {
+  min-width: 0;
+  padding: clamp(1.25rem, 2.8vw, 2rem);
+  background: var(--paper);
+}
+.bass-music-page .bass-route-card:nth-child(2) { background: var(--cyan); }
+.bass-music-page .bass-route-card:nth-child(3) { background: var(--yellow); }
+.bass-music-page .bass-starting-routes span {
+  display: block;
+  margin-bottom: 2.5rem;
+  font: 700 .75rem/1 "Space Mono", monospace;
+}
+.bass-music-page .article-section .bass-starting-routes h3 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+}
+.bass-music-page .article-section .bass-starting-routes p { margin: 0; font-size: .98rem; line-height: 1.55; }
 
 .listening-block {
   margin-top: 3.25rem;
@@ -584,6 +661,8 @@
 }
 
 @media (max-width: 900px) {
+  .bass-music-page .bass-starting-routes { grid-template-columns: 1fr; }
+  .bass-music-page .bass-starting-routes span { margin-bottom: 1.25rem; }
   .article-cta { grid-template-columns: 1fr; }
   .article-cta-copy { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .75rem 2rem; align-items: end; }
   .article-cta-copy h3,
@@ -604,6 +683,15 @@
   .article-section h2 { font-size: clamp(2rem, 10vw, 2.55rem); }
   .article-section p { font-size: 1.04rem; line-height: 1.62; }
   .article-intro > p:first-child { font-size: 1.2rem; }
+  .bass-music-page { --section-space: clamp(2.75rem, 12vw, 3.75rem); --media-space: 2rem; }
+  .bass-music-page .article-hero h1 { max-width: 11ch; }
+  .bass-music-page .article-section > h3 { margin-top: 3rem; }
+  .bass-music-page .bass-history-visual { width: calc(100vw - 2rem); }
+  .bass-music-page .bass-history-visual figcaption { padding-right: .5rem; }
+  .bass-music-page .bass-starting-routes { width: calc(100vw - 2rem); margin-block: 2rem; }
+  .bass-music-page .bass-route-card { padding: 1.25rem; }
+  .bass-music-page .bass-starting-routes span { margin-bottom: 1rem; }
+  .bass-music-page .classic-youtube-embed { width: calc(100vw - 2rem); }
   .article-image { margin-top: var(--media-space); }
   .article-image img {
     width: 100%;
