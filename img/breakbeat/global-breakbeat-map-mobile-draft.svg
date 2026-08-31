@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1800" role="img" aria-labelledby="mobile-title mobile-desc">
+  <title id="mobile-title">The Global Breakbeat Map, mobile edition</title>
+  <desc id="mobile-desc">A portrait editorial map showing New York roots and distinct breakbeat histories in the United Kingdom, Central Florida, the United States West Coast and Andalusia.</desc>
+  <defs>
+    <marker id="mobile-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#0a0a0a"/></marker>
+    <filter id="mobile-map-muted" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncR type="linear" slope="0.62" intercept="0.22"/><feFuncG type="linear" slope="0.62" intercept="0.20"/><feFuncB type="linear" slope="0.62" intercept="0.17"/><feFuncA type="linear" slope="0.34"/></feComponentTransfer>
+    </filter>
+    <style>
+      .sans{font-family:Satoshi,Arial,Helvetica,sans-serif;fill:#0a0a0a}.mono{font-family:"Space Mono","Courier New",monospace;fill:#0a0a0a;letter-spacing:.04em}
+      .display{font-size:68px;font-weight:700;letter-spacing:-.045em}.deck{font-size:30px}.kicker{font-size:21px;font-weight:700}.region{font-size:38px;font-weight:700;letter-spacing:-.025em}.meta{font-size:20px;font-weight:700}.body{font-size:27px}.place{font-size:25px;font-weight:700}
+      .route{fill:none;stroke:#0a0a0a;stroke-width:4;marker-end:url(#mobile-arrow)}.exchange{stroke-dasharray:13 11;stroke-width:3}.node{fill:#f1eee7;stroke:#0a0a0a;stroke-width:4}.label{fill:#f1eee7;stroke:#0a0a0a;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1080" height="1800" fill="#f1eee7"/>
+  <text class="mono kicker" x="38" y="53">THECATRAVE REFERENCE MAP / 01</text>
+  <text class="sans display" x="38" y="130">The Global</text>
+  <text class="sans display" x="38" y="202">Breakbeat Map</text>
+  <text class="sans deck" x="40" y="252">Four regional scenes. Four local histories.</text>
+
+  <rect x="38" y="292" width="1004" height="482" fill="#e8e4dc" stroke="#0a0a0a" stroke-width="3"/>
+  <text class="mono kicker" x="62" y="333">ROOT PRACTICE + ATLANTIC ROUTES</text>
+  <svg x="60" y="354" width="960" height="350" viewBox="306 128 1300 555" preserveAspectRatio="xMidYMid meet" overflow="hidden" aria-hidden="true">
+    <image x="0" y="0" width="2752.766" height="1537.631" xlink:href="world-equirectangular-base.svg" filter="url(#mobile-map-muted)"/>
+  </svg>
+  <path class="route" d="M433 538 C550 472 680 450 822 480"/>
+  <path class="route" d="M822 489 C682 505 564 561 391 614"/>
+  <path class="route" d="M822 492 C835 516 822 544 789 561"/>
+  <path class="route exchange" d="M382 621 C309 623 263 604 188 584"/>
+
+  <circle class="node" cx="433" cy="538" r="14"/><circle cx="433" cy="538" r="7" fill="#ff5a36"/>
+  <circle class="node" cx="822" cy="480" r="14"/><circle cx="822" cy="480" r="7" fill="#9ff5ed"/>
+  <circle class="node" cx="391" cy="614" r="14"/><circle cx="391" cy="614" r="7" fill="#ff9e88"/>
+  <circle class="node" cx="188" cy="584" r="14"/><circle cx="188" cy="584" r="7" fill="#f3dc78"/>
+  <circle class="node" cx="789" cy="561" r="14"/><circle cx="789" cy="561" r="7" fill="#ff5a36"/>
+
+  <rect class="label" x="292" y="489" width="272" height="38"/><text class="mono place" x="308" y="516">NEW YORK</text>
+  <rect class="label" x="772" y="427" width="230" height="38"/><text class="mono place" x="788" y="454">UK</text>
+  <rect class="label" x="337" y="635" width="210" height="38"/><text class="mono place" x="353" y="662">ORLANDO</text>
+  <rect class="label" x="74" y="606" width="226" height="38"/><text class="mono place" x="90" y="633">SF / LA</text>
+  <rect class="label" x="742" y="583" width="260" height="38"/><text class="mono place" x="758" y="610">ANDALUSIA</text>
+  <text class="mono meta" x="62" y="742">SOLID = STRONG INFLUENCE · DOTTED = EXCHANGE</text>
+
+  <g>
+    <rect x="38" y="802" width="1004" height="190" fill="#9ff5ed" stroke="#0a0a0a" stroke-width="3"/>
+    <text class="mono meta" x="66" y="839">01 / UNITED KINGDOM · LATE 1980s–2000s</text>
+    <text class="sans region" x="66" y="888">Rave accelerates the breaks.</text>
+    <text class="sans body" x="66" y="930">Hip-hop, acid house, techno, reggae and dub collide;</text>
+    <text class="sans body" x="66" y="966">hardcore opens into jungle, big beat and nu-skool.</text>
+  </g>
+  <g>
+    <rect x="38" y="1008" width="1004" height="190" fill="#ff9e88" stroke="#0a0a0a" stroke-width="3"/>
+    <text class="mono meta" x="66" y="1045">02 / CENTRAL FLORIDA · 1989–MID-1990s</text>
+    <text class="sans region" x="66" y="1094">Orlando builds a local identity.</text>
+    <text class="sans body" x="66" y="1136">Miami bass, freestyle, electro, hip-hop, house and UK</text>
+    <text class="sans body" x="66" y="1172">imports become a bass-heavy regional circuit.</text>
+  </g>
+  <g>
+    <rect x="38" y="1214" width="1004" height="190" fill="#f3dc78" stroke="#0a0a0a" stroke-width="3"/>
+    <text class="mono meta" x="66" y="1251">03 / US WEST COAST · 1990s–EARLY 2000s</text>
+    <text class="sans region" x="66" y="1300">A porous DJ and rave network.</text>
+    <text class="sans body" x="66" y="1342">Electro, hip-hop, house, acid and psychedelia overlap;</text>
+    <text class="sans body" x="66" y="1378">the scene remains useful without one fixed formula.</text>
+  </g>
+  <g>
+    <rect x="38" y="1420" width="1004" height="190" fill="#ff5a36" stroke="#0a0a0a" stroke-width="3"/>
+    <text class="mono meta" x="66" y="1457">04 / ANDALUSIA · 1992–2002 CENTRAL ARC</text>
+    <text class="sans region" x="66" y="1506">An import becomes mass culture.</text>
+    <text class="sans body" x="66" y="1548">British records, tourism, local DJs and large events</text>
+    <text class="sans body" x="66" y="1584">give breakbeat scale and a lasting regional identity.</text>
+  </g>
+
+  <rect x="38" y="1638" width="1004" height="102" fill="#0a0a0a"/>
+  <text x="66" y="1678" fill="#f1eee7" font-family="Space Mono, Courier New, monospace" font-size="20" font-weight="700">NOW / GLOBAL CIRCULATION</text>
+  <text x="66" y="1717" fill="#f1eee7" font-family="Satoshi, Arial, sans-serif" font-size="28">The scene label narrows. The rhythmic language keeps travelling.</text>
+  <text class="sans" x="38" y="1782" font-size="30" font-weight="700">thecatrave<tspan fill="#ff5a36">*</tspan></text>
+  <text class="mono meta" x="1042" y="1780" text-anchor="end">SELECTED HISTORIES · NOT AN EXHAUSTIVE WORLD ATLAS</text>
+</svg>

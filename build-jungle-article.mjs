@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {analytics, articleFooter, articleListeningBand, articleYoutubeEmbed, authorCard, bandcampSupport, infoBanner, readNext, siteHeader} from './site-components.mjs';
+import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
 
 const path = 'jungle-music-guide.html';
 const current = fs.readFileSync(path, 'utf8');
@@ -110,7 +110,13 @@ content = content
   .replace(/\s*<iframe\b[^>]*src="https:\/\/open\.spotify\.com\/embed\/artist\/5Wfn5sc1w3DhMTpU7oPJZL[^"]*"[\s\S]*?<\/iframe>/gi, '');
 
 function listeningFeature({key, kicker, heading, description, iframe}) {
-  return `<!-- jungle-listening:${key}:start -->\n<aside class="spotify-feature jungle-listening-feature jungle-media-band" aria-labelledby="jungle-listening-${key}">\n<div class="jungle-media-copy"><p class="article-kicker">${kicker}</p>\n<h3 id="jungle-listening-${key}">${heading}</h3>\n<p>${description}</p></div>\n${iframe}\n</aside>\n<!-- jungle-listening:${key}:end -->`;
+  const src = (iframe.match(/\ssrc="([^"]+)"/)?.[1] || '').replace(/&amp;/g, '&');
+  const iframeTitle = iframe.match(/\stitle="([^"]+)"/)?.[1] || `${heading} on Spotify`;
+  const feature = articleListeningBand({
+    platform:'spotify', id:`jungle-listening-${key}`, kicker, title:heading, description,
+    src, iframeTitle, fullBleed:true
+  });
+  return `<!-- jungle-listening:${key}:start -->\n${feature}\n<!-- jungle-listening:${key}:end -->`;
 }
 
 function placeListeningFeature(html, {key, srcNeedle, sectionId, paragraphMarker, kicker, heading, description}) {
@@ -157,11 +163,78 @@ function insertFeatureAfterParagraph(html, {key, sectionId, paragraphMarker, fea
 }
 
 function youtubeFeature({key, videoId, kicker, heading, description}) {
-  return `<div class="classic-youtube-embed"><iframe src="https://www.youtube.com/embed/${videoId}?rel=0&amp;origin=https%3A%2F%2Fthecatrave.com&amp;widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide" title="${heading}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>`;
+  return articleYoutubeEmbed({
+    src:`https://www.youtube.com/embed/${videoId}?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide`,
+    title:heading
+  });
 }
 
 function soundcloudFeature() {
-  return `<aside class="soundcloud-feature jungle-media-band" aria-labelledby="jungle-soundcloud-lana"><div class="jungle-media-copy"><p class="article-kicker">A contemporary jungle remix by thecatrave</p><h3 id="jungle-soundcloud-lana">Lana Del Rey — Art Deco (Jungle Remix).</h3><p>A current example of jungle’s breaks and bass pressure being used to reframe a pop vocal rather than simply reproduce a 1990s template.</p></div><iframe title="Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/art-deco-jungle-remix&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" loading="lazy"></iframe></aside>`;
+  return articleListeningBand({
+    platform:'soundcloud', id:'jungle-soundcloud-lana', kicker:'A contemporary jungle remix by thecatrave',
+    title:'Lana Del Rey — Art Deco (Jungle Remix).',
+    description:'A current example of jungle’s breaks and bass pressure being used to reframe a pop vocal rather than simply reproduce a 1990s template.',
+    src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/art-deco-jungle-remix&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
+    iframeTitle:'Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud',
+    fullBleed:true, tone:'cyan'
+  });
+}
+
+const legendaryJungleTracks = {
+  valley: {
+    year:'1993', artist:'Origin Unknown', title:'Valley of the Shadows',
+    note:'A sparse, ominous benchmark: sub-bass, chopped breaks and a sample that became part of jungle’s shared language.',
+    spotifyId:'3BDFLAvxTaWHpWgHkFpMsJ'
+  },
+  renegadeSnares: {
+    year:'1993', artist:'Omni Trio', title:'Renegade Snares',
+    note:'Rushy chords and intricately edited drums showing how emotional and rhythmically detailed early jungle could be.',
+    spotifyId:'72G1pFJW0poqDNUlGbzJOh'
+  },
+  incredible: {
+    year:'1994', artist:'M-Beat & General Levy', title:'Incredible',
+    note:'A defining meeting of jungle production and dancehall MC energy that carried the sound far beyond specialist clubs.',
+    spotifyId:'2fq7lLTvRHZjUPqh5a20n5'
+  },
+  innerCityLife: {
+    year:'1994', artist:'Goldie', title:'Inner City Life',
+    note:'Diane Charlemagne’s vocal and a sweeping arrangement pushed jungle towards album scale without flattening its rhythmic complexity.',
+    spotifyId:'4qw7xhiy8rWGDeffgSj7Ez'
+  },
+  babylon: {
+    year:'1995', artist:'Splash', title:'Babylon',
+    note:'A dark, dubwise pressure track whose bass, vocal fragments and break edits became a lasting jungle reference point.',
+    spotifyId:'05KgAsHP0YmiJ0KWP6Axf0'
+  }
+};
+
+function exactJungleTrackFeature(key, tone = '') {
+  const track = legendaryJungleTracks[key];
+  return articleListeningBand({
+    platform:'spotify', id:`jungle-track-${key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`)}`,
+    kicker:'Essential listening', title:`${track.artist} — ${track.title}.`,
+    description:`${track.year}. ${track.note}`,
+    src:`https://open.spotify.com/embed/track/${track.spotifyId}?utm_source=generator`,
+    iframeTitle:`${track.artist} — ${track.title} on Spotify`, tone
+  });
+}
+
+function insertFeatureAfterList(html, {key, sectionId, itemMarker, feature}) {
+  const startMarker = `<!-- jungle-feature:${key}:start -->`;
+  const endMarker = `<!-- jungle-feature:${key}:end -->`;
+  const existingSplitPattern = new RegExp(`\\s*<\\/ul>\\s*${startMarker}[\\s\\S]*?${endMarker}\\s*<ul>\\s*`);
+  const existingPattern = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
+  if (existingSplitPattern.test(html)) html = html.replace(existingSplitPattern, '\n');
+  else if (existingPattern.test(html)) html = html.replace(existingPattern, '');
+  html = html.replace(/<ul>\s*<\/ul>/g, '');
+  const sectionStart = html.indexOf(`id="${sectionId}"`);
+  const sectionEnd = html.indexOf('</section>', sectionStart);
+  const itemIndex = html.indexOf(itemMarker, sectionStart);
+  const itemEnd = html.indexOf('</li>', itemIndex) + '</li>'.length;
+  if (sectionStart < 0 || sectionEnd < 0 || itemIndex < 0 || itemEnd > sectionEnd) return html;
+  return html.slice(0, itemEnd)
+    + `\n</ul>\n${startMarker}\n${feature}\n${endMarker}\n<ul>`
+    + html.slice(itemEnd);
 }
 
 content = placeListeningFeature(content, {
@@ -169,23 +242,47 @@ content = placeListeningFeature(content, {
   srcNeedle: 'open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62',
   sectionId: 'underground-emergence',
   paragraphMarker: 'Darkcore is often seen as a crucial bridge',
-  kicker: 'Listen while you read',
-  heading: 'Early jungle and hardcore.',
-  description: 'A playable route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.'
+  kicker: 'Essential listening',
+  heading: 'Early jungle and hardcore: extended playlist.',
+  description: 'A longer route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.'
 });
 content = placeListeningFeature(content, {
   key: 'jungle-mania',
   srcNeedle: 'open.spotify.com/embed/playlist/4hvbZXAhxnqcybT7zNhHLn',
-  kicker: 'Jungle Mania listening',
-  heading: 'The sound of the breakthrough years.',
-  description: 'Pioneers, anthems and different sides of jungle from the period when the music moved beyond pirate radio without losing its underground language.'
+  kicker: 'Essential listening',
+  heading: 'The breakthrough years: extended playlist.',
+  description: 'A broader selection of pioneers, anthems and different sides of jungle from the period when the music moved beyond pirate radio without losing its underground language.'
 });
 content = placeListeningFeature(content, {
   key: 'essential-tracks',
   srcNeedle: 'open.spotify.com/embed/playlist/41q06ShCxQM2pnsM3yRz4G',
   kicker: 'Essential listening',
-  heading: 'Hear the pivotal tracks together.',
-  description: 'Use this playlist as a listening companion to the anthems and turning points described above.'
+  heading: 'Five records at the centre of classic jungle.',
+  description: 'Exact tracks that make the anthems and turning points described above immediately audible.'
+});
+
+content = insertFeatureAfterParagraph(content, {
+  key:'track-valley-of-the-shadows', sectionId:'underground-emergence',
+  paragraphMarker:'Early Jungle (often interchangeably called',
+  feature:exactJungleTrackFeature('valley', 'cyan')
+});
+content = insertFeatureAfterParagraph(content, {
+  key:'track-incredible', sectionId:'jungle-mania',
+  paragraphMarker:'Likewise, “Original Nuttah” became',
+  feature:exactJungleTrackFeature('incredible', 'cyan')
+});
+content = insertFeatureAfterList(content, {
+  key:'track-inner-city-life', sectionId:'pioneers', itemMarker:'<strong>Goldie</strong>',
+  feature:exactJungleTrackFeature('innerCityLife', 'coral')
+});
+content = insertFeatureAfterList(content, {
+  key:'track-renegade-snares', sectionId:'labels', itemMarker:'<strong>Moving Shadow</strong>',
+  feature:exactJungleTrackFeature('renegadeSnares', 'yellow')
+});
+content = insertFeatureAfterParagraph(content, {
+  key:'track-babylon', sectionId:'essential-tracks',
+  paragraphMarker:'Other classics include',
+  feature:exactJungleTrackFeature('babylon', 'cyan')
 });
 
 content = insertFeatureAfterParagraph(content, {
@@ -249,7 +346,7 @@ function relocateFigure(html, src, sectionId, paragraphMarker) {
 
 for (const [src, sectionId, marker] of [
   ['img/flyers-1200.webp', 'origins', 'Before breakbeat hardcore fully took over'],
-  ['img/pirate-radio-1200.webp', 'underground-emergence', 'Early Jungle (often interchangeably called'],
+  ['img/pirate-radio-1200.webp', 'underground-emergence', 'Meanwhile, <strong>pirate radio</strong>'],
   ['img/tapepack.png', 'underground-emergence', '<strong>Tape packs</strong>'],
   ['img/AWOL2.png', 'jungle-mania', 'In 1994, Jungle exploded'],
   ['img/fabio-1200.webp', 'pioneers', 'No history of Jungle is complete'],
@@ -282,36 +379,31 @@ content = content.replace(/[ \t]+$/gm, '').replace(/\n{3,}/g, '\n\n');
 for (const feature of [
   {
     marker:'jungle-listening:early-jungle', platform:'spotify', id:'jungle-listening-early-jungle',
-    kicker:'Listen while you read', title:'Early jungle and hardcore.',
-    description:'A playable route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.',
+    kicker:'Essential listening', title:'Early jungle and hardcore: extended playlist.',
+    description:'A longer route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.',
     src:'https://open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62?utm_source=generator',
-    iframeTitle:'Early jungle and hardcore playlist on Spotify'
+    iframeTitle:'Early jungle and hardcore playlist on Spotify', fullBleed:true
   },
   {
     marker:'jungle-listening:jungle-mania', platform:'spotify', id:'jungle-listening-jungle-mania',
-    kicker:'Jungle Mania listening', title:'The sound of the breakthrough years.',
-    description:'Pioneers, anthems and different sides of jungle from the period when the music moved beyond pirate radio without losing its underground language.',
+    kicker:'Essential listening', title:'The breakthrough years: extended playlist.',
+    description:'A broader selection of pioneers, anthems and different sides of jungle from the period when the music moved beyond pirate radio without losing its underground language.',
     src:'https://open.spotify.com/embed/playlist/4hvbZXAhxnqcybT7zNhHLn?utm_source=generator',
-    iframeTitle:'Jungle pioneers playlist on Spotify'
-  },
-  {
-    marker:'jungle-listening:essential-tracks', platform:'spotify', id:'jungle-listening-essential-tracks',
-    kicker:'Essential listening', title:'Hear the pivotal tracks together.',
-    description:'Use this playlist as a listening companion to the anthems and turning points described above.',
-    src:'https://open.spotify.com/embed/playlist/41q06ShCxQM2pnsM3yRz4G?utm_source=generator',
-    iframeTitle:'Essential jungle tracks playlist on Spotify'
+    iframeTitle:'Jungle pioneers playlist on Spotify', fullBleed:true, tone:'cyan'
   },
   {
     marker:'jungle-feature:lana-soundcloud', platform:'soundcloud', id:'jungle-soundcloud-lana',
     kicker:'A contemporary jungle remix by thecatrave', title:'Lana Del Rey — Art Deco (Jungle Remix).',
     description:'A current example of jungle’s breaks and bass pressure being used to reframe a pop vocal rather than simply reproduce a 1990s template.',
     src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/art-deco-jungle-remix&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
-    iframeTitle:'Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud'
+    iframeTitle:'Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud', fullBleed:true, tone:'cyan'
   }
 ]) {
   const {marker, ...options} = feature;
   content = replaceMarkedBlock(content, marker, articleListeningBand(options));
 }
+
+content = replaceMarkedBlock(content, 'jungle-listening:essential-tracks', '');
 
 for (const feature of [
   {
@@ -334,6 +426,91 @@ for (const feature of [
   content = replaceMarkedBlock(content, marker, articleYoutubeEmbed(options));
 }
 
+const decodeAttribute = value => String(value || '')
+  .replace(/&quot;/g, '"')
+  .replace(/&#39;|&#x27;/g, "'")
+  .replace(/&amp;/g, '&');
+const attribute = (markup, name) => decodeAttribute(markup.match(new RegExp(`\\s${name}="([^"]*)"`))?.[1] || '');
+
+// The Jungle article began as preserved legacy HTML. Normalise every repeated
+// editorial structure through the same component functions as the newer guides
+// so future component changes genuinely reach this page after a rebuild.
+content = content.replace(/<figure class="([^"]*\bfloating-image\b[^"]*)">([\s\S]*?)<\/figure>/g, (figure, classes, inner) => {
+  const image = inner.match(/<img\b([^>]*)>/)?.[1];
+  if (!image) return figure;
+  const caption = inner.match(/<figcaption>([\s\S]*?)<\/figcaption>/)?.[1]?.trim() || '';
+  const className = classes.split(/\s+/).filter(name => name && !['floating-image', 'article-image'].includes(name)).join(' ');
+  return articleFigure({
+    src:attribute(image, 'src'), srcset:attribute(image, 'srcset'),
+    sizes:attribute(image, 'sizes') || '(max-width: 760px) calc(100vw - 32px), 640px',
+    width:attribute(image, 'width'), height:attribute(image, 'height'),
+    alt:attribute(image, 'alt'), loading:attribute(image, 'loading') || 'lazy',
+    caption, className
+  });
+});
+
+content = content.replace(/<div class="genre-table-wrap"[^>]*>\s*<table class="([^"]*)">\s*<thead>\s*<tr>([\s\S]*?)<\/tr>\s*<\/thead>\s*<tbody>([\s\S]*?)<\/tbody>\s*<\/table>\s*<\/div>/g, (table, classes, head, body) => {
+  const headers = [...head.matchAll(/<th(?:\s[^>]*)?>([\s\S]*?)<\/th>/g)].map(match => match[1].trim());
+  const rows = [...body.matchAll(/<tr(?:\s[^>]*)?>([\s\S]*?)<\/tr>/g)].map(row =>
+    [...row[1].matchAll(/<td(?:\s[^>]*)?>([\s\S]*?)<\/td>/g)].map(cell => cell[1].trim())
+  );
+  const className = classes.split(/\s+/).filter(name => name && name !== 'genre-table').join(' ');
+  return headers.length && rows.length ? articleTable({headers, rows, className}) : table;
+});
+
+let resourcesBody = '';
+content = content.replace(/<section class="[^"]*\bsources-section\b[^"]*" id="sources">\s*<h2>Recommended Resources<\/h2>([\s\S]*?)<\/section>/, (section, body) => {
+  resourcesBody = body.trim();
+  return '';
+});
+if (!resourcesBody) content = content.replace(/\s*<h2>Recommended Resources<\/h2>\s*(<ul>[\s\S]*?<\/ul>)/, (block, list) => {
+  resourcesBody = list.trim();
+  return '';
+});
+if (resourcesBody) content = `${content.trimEnd()}\n${articleSources({title:'Recommended Resources', id:'sources', bodyHtml:resourcesBody})}`;
+
+content = content.replace(/<section class="([^"]*\bfloating-block\b[^"]*\barticle-section\b[^"]*)" id="([^"]+)">\s*<h2>([\s\S]*?)<\/h2>([\s\S]*?)<\/section>/g, (section, classes, id, title, bodyHtml) => {
+  const className = classes.split(/\s+/).filter(name => name && !['floating-block', 'article-section'].includes(name)).join(' ');
+  return articleSection({id, title:decodeAttribute(title.trim()), bodyHtml:bodyHtml.trim(), className});
+});
+
+const faqItems = [
+  {
+    question:'Where and when did jungle music originate?',
+    answer:'Jungle emerged in Britain in the early 1990s, with London as its main centre and important activity in cities including Bristol. Between roughly 1991 and 1993, producers and DJs pushed breakbeat hardcore towards faster chopped funk breaks, heavier sub-bass and stronger reggae, dub and dancehall influence. It developed across a scene rather than beginning with one universally agreed release date.'
+  },
+  {
+    question:'Who invented jungle music?',
+    answer:'No single person invented jungle. It formed through overlapping work by producers, DJs, MCs, pirate stations, sound systems and independent labels. Artists including Lennie De Ice, Shut Up and Dance, Rebel MC, 4hero, Fabio, Grooverider and many others are central to its early history, but naming one inventor would flatten a collective Black British rave culture.'
+  },
+  {
+    question:'Why is jungle music called jungle?',
+    answer:'The name has several competing histories. One widely repeated account connects “junglist” to Jamaican sound-system language and to Arnett Gardens in Kingston, an area known as the Jungle. Jamaican vocal samples, UK MCs, pirate radio and records then helped turn jungle and junglist into a scene identity. Exactly who first applied the name to the music remains disputed.'
+  },
+  {
+    question:'What came first, jungle or drum and bass?',
+    answer:'Jungle came first as a distinct scene and widely used name in the early 1990s. Drum and bass became more common as a broader label during the mid-1990s, when parts of the music moved towards more streamlined, technical or atmospheric production. Their histories overlap, and jungle did not simply disappear when drum and bass became established.'
+  },
+  {
+    question:'What BPM is jungle music?',
+    answer:'Classic jungle usually sits around 160 to 175 BPM, although early and modern tracks can fall outside that range. Speed alone does not define the genre: chopped funk breaks, syncopation, sub-bass, dub and dancehall influence, sampling and MC culture matter just as much.'
+  },
+  {
+    question:'What are the main jungle subgenres?',
+    answer:'Common branches and closely related styles include ragga jungle, darkside or darkcore, atmospheric or intelligent jungle, jump-up and modern revivalist jungle. These labels overlap and were not always used consistently at the time, so they work better as descriptions of scenes and tendencies than as rigid boxes.'
+  }
+].map(item => ({...item, answerHtml:`<p>${item.answer}</p>`}));
+
+const faqMarkerStart = '<!-- jungle-component:faq:start -->';
+const faqMarkerEnd = '<!-- jungle-component:faq:end -->';
+content = content
+  .replace(new RegExp(`\\s*${faqMarkerStart}[\\s\\S]*?${faqMarkerEnd}\\s*`), '\n')
+  .replace(/\s*<section class="[^"]*\bfaq-section\b[^"]*" id="faq">[\s\S]*?<\/section>\s*/, '\n');
+const faqHtml = `${faqMarkerStart}\n${articleFaq({items:faqItems, title:'Jungle Music FAQ.', id:'faq', openFirst:true})}\n${faqMarkerEnd}`;
+const acknowledgmentsIndex = content.indexOf('<section class="floating-block article-section" id="acknowledgments">');
+if (acknowledgmentsIndex < 0) throw new Error('Could not place the Jungle FAQ before acknowledgments.');
+content = `${content.slice(0, acknowledgmentsIndex).trimEnd()}\n${faqHtml}\n${content.slice(acknowledgmentsIndex)}`;
+
 const title = 'What Is Jungle Music? History, Sound & Essential Tracks';
 const h1 = 'What Is Jungle Music? A Guide to Its History, Sound and Culture.';
 const description = 'What is jungle music? Explore its early-90s UK origins, sound-system roots, defining breakbeats, key artists, essential tracks and modern revival.';
@@ -353,24 +530,18 @@ const toc = [
   ['breakbeats', 'Amen, Think, Apache and Hot Pants'],
   ['myths', 'Jungle vs drum and bass'],
   ['revival', 'The modern jungle revival'],
-  ['foundation-builders', 'Foundation builders and revivalists']
-].map(([id, label]) => `<li><a href="#${id}">${label}</a></li>`).join('');
+  ['foundation-builders', 'Foundation builders and revivalists'],
+  ['faq', 'Jungle music FAQ'],
+  ['sources', 'Recommended resources']
+].map(([id, label]) => ({id, label}));
 
-const structured = {
-  '@context':'https://schema.org', '@type':'Article', headline:h1, description,
-  datePublished:'2025-04-05', dateModified:'2026-08-31',
-  mainEntityOfPage:'https://thecatrave.com/jungle-music-guide',
-  image:'https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp',
-  author:{'@type':'Person',name:'thecatrave',url:'https://thecatrave.com/'},
-  publisher:{'@type':'Organization',name:'thecatrave',url:'https://thecatrave.com/'}, inLanguage:'en-GB'
-};
-const breadcrumbs = {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[
-  {'@type':'ListItem',position:1,name:'Home',item:'https://thecatrave.com/'},
-  {'@type':'ListItem',position:2,name:'Jungle music guide',item:'https://thecatrave.com/jungle-music-guide'}
-]};
+const structured = articleStructuredData({headline:h1,description,datePublished:'2025-04-05',dateModified:'2026-08-31',canonical:'https://thecatrave.com/jungle-music-guide',image:'https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp'});
+const breadcrumbs = breadcrumbStructuredData({name:'Jungle music guide',canonical:'https://thecatrave.com/jungle-music-guide'});
+const faqStructured = faqStructuredData({items:faqItems});
 
 const support = bandcampSupport({
   description:'My Lana Del Rey jungle remix belongs directly to the sound explored in this guide. Buying it supports the music and the writing directly.',
+  fullBleed:true,
   tracks:[{
     title:'thecatrave — You So Ghetto (Lana Del Rey Jungle Remix)',
     id:'3379956979',
@@ -383,6 +554,21 @@ const related = readNext({items:[
   {href:'/breakbeat-guide',label:'Breakbeat guide',title:'What Is Breakbeat?',description:'A guide to the genre, its history, regional scenes, artists and the broken club music being made now.'}
 ]});
 
-const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title}</title><meta name="description" content="${description}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://thecatrave.com/jungle-music-guide"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="article"><meta property="article:published_time" content="2025-04-05"><meta property="article:modified_time" content="2026-08-31"><meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="https://thecatrave.com/jungle-music-guide"><meta property="og:image" content="https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${description}"><meta name="twitter:image" content="https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400,700&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css"><script type="application/ld+json">${JSON.stringify(structured)}</script><script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script></head><body class="article-page jungle-page"><a class="skip-link" href="#main-content">Skip to content</a>${siteHeader({variant:'article'})}<main id="main-content"><article><header class="article-hero"><p class="article-kicker">Jungle music guide</p><h1>${h1}</h1><div class="article-meta"><p class="reading-time">~18 min read</p><p class="article-updated">Updated <time datetime="2026-08-31">31 August 2026</time></p></div><p class="subtitle article-deck">Pirate radio, dubplates, MCs, labels and the Black British rave culture behind one of the UK’s most influential electronic sounds.</p>${infoBanner({label:'JUNGLE MUSIC DEFINITION',bodyHtml:directAnswer,ariaLabel:'Jungle music definition',className:'article-summary'})}<nav class="article-toc" id="contents" aria-label="Contents"><h2>Contents</h2><ol>${toc}</ol></nav></header><!-- jungle-content:start -->${content}<!-- jungle-content:end -->${authorCard({filled:true})}${support}${related}</article></main>${articleFooter()}${analytics()}</body></html>`;
+const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title}</title><meta name="description" content="${description}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://thecatrave.com/jungle-music-guide"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="article"><meta property="article:published_time" content="2025-04-05"><meta property="article:modified_time" content="2026-08-31"><meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="https://thecatrave.com/jungle-music-guide"><meta property="og:image" content="https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${description}"><meta name="twitter:image" content="https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400,700&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css"><script type="application/ld+json">${JSON.stringify(structured)}</script><script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script></head><body class="article-page jungle-page"><a class="skip-link" href="#main-content">Skip to content</a>${siteHeader({variant:'article'})}<main id="main-content"><article><header class="article-hero"><p class="article-kicker">Jungle music guide</p><h1>${h1}</h1><div class="article-meta"><p class="reading-time">~18 min read</p><p class="article-updated">Updated <time datetime="2026-08-31">31 August 2026</time></p></div><p class="subtitle article-deck">Pirate radio, dubplates, MCs, labels and the Black British rave culture behind one of the UK’s most influential electronic sounds.</p>${infoBanner({label:'JUNGLE MUSIC DEFINITION',bodyHtml:directAnswer,ariaLabel:'Jungle music definition',className:'article-summary'})}${articleTableOfContents({items:toc})}</header><!-- jungle-content:start -->${content}<!-- jungle-content:end -->${authorCard({filled:true})}${support}${related}</article></main>${articleFooter()}${analytics()}</body></html>`;
 
-fs.writeFileSync(path, page);
+const jungleHero = articleHero({
+  kicker:'Jungle music guide', title:h1, readingTime:'~18 min read',
+  dateModified:'2026-08-31', dateLabel:'31 August 2026',
+  deck:'Pirate radio, dubplates, MCs, labels and the Black British rave culture behind one of the UK’s most influential electronic sounds.',
+  summaryHtml:infoBanner({label:'JUNGLE MUSIC DEFINITION',bodyHtml:directAnswer,ariaLabel:'Jungle music definition',className:'article-summary'}),
+  tocItems:toc
+});
+const jungleArticleHtml = page.match(/<main id="main-content"><article>([\s\S]*?)<\/article><\/main>/)?.[1]
+  .replace(/<header class="article-hero">[\s\S]*?<\/header>/, jungleHero);
+if (!jungleArticleHtml) throw new Error('Could not extract the generated jungle article body.');
+fs.writeFileSync(path, articlePage({
+  title, description, canonical:'https://thecatrave.com/jungle-music-guide',
+  ogImage:'https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994-320.webp', bodyClass:'article-page jungle-page',
+  datePublished:'2025-04-05', dateModified:'2026-08-31',
+  structuredData:[structured, breadcrumbs, faqStructured], articleHtml:jungleArticleHtml
+}));

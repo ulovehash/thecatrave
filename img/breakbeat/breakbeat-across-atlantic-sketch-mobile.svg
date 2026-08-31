@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Breakbeat Across the Atlantic, mobile sketch</title>
+  <desc id="desc">A mobile editorial map with the same five breakbeat locations followed by compact external labels.</desc>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:"Courier New",monospace}.ink{fill:#0a0a0a}.land{fill:#dcd8cf;stroke:#0a0a0a;stroke-width:2}.route{fill:none;stroke:#0a0a0a;stroke-width:2;stroke-dasharray:7 10;opacity:.42}.kicker{font-size:13px;font-weight:700;letter-spacing:1.5px}.headline{font-size:48px;font-weight:700;letter-spacing:-2px}.sub{font-size:20px}.place{font-size:23px;font-weight:700}.date{font-size:13px;font-weight:700}.copy{font-size:17px}.small{font-size:12px;font-weight:700;letter-spacing:1px}
+  </style>
+  <rect width="780" height="1280" fill="#f1eee7"/>
+  <text x="34" y="42" class="mono kicker ink">THECATRAVE / EDITORIAL MAP / SKETCH 01</text>
+  <text x="34" y="101" class="sans headline ink">Breakbeat Across</text><text x="34" y="151" class="sans headline ink">the Atlantic</text>
+  <text x="36" y="190" class="sans sub ink">How five places made broken rhythm local.</text>
+
+  <g transform="translate(18 220) scale(.48)">
+    <path class="land" d="M40 120 L116 75 220 70 312 105 430 96 538 142 620 207 694 236 741 300 690 360 608 378 561 447 471 474 365 442 282 380 188 351 111 290 57 210 Z"/>
+    <path class="land" d="M560 452 L630 467 678 521 669 598 630 681 582 760 533 700 515 612 522 526 Z"/>
+    <path class="land" d="M905 102 L1005 68 1091 80 1180 60 1280 87 1370 82 1460 121 1548 180 1571 253 1512 300 1410 285 1330 320 1248 302 1170 271 1090 247 1008 263 938 222 Z"/>
+    <path class="land" d="M1080 324 L1172 306 1260 346 1302 423 1271 521 1212 612 1150 700 1098 647 1080 548 1046 460 1053 378 Z"/>
+    <path class="route" d="M702 280 C850 172 1000 164 1117 208"/><path class="route" d="M701 282 C845 335 970 335 1074 302"/><path class="route" d="M697 289 C680 360 654 415 626 463"/><path class="route" d="M620 470 C493 509 367 441 238 341"/>
+    <circle cx="238" cy="341" r="20" fill="#ff5a36"/><circle cx="702" cy="280" r="25" fill="#92e8e5" stroke="#0a0a0a" stroke-width="5"/><circle cx="1117" cy="208" r="20" fill="#f3dc78" stroke="#0a0a0a" stroke-width="4"/><circle cx="626" cy="463" r="20" fill="#92e8e5" stroke="#0a0a0a" stroke-width="4"/><circle cx="1074" cy="302" r="20" fill="#ff9e88" stroke="#0a0a0a" stroke-width="4"/>
+  </g>
+  <text x="36" y="596" class="mono small ink">MAP KEY / DETAILS BELOW</text>
+
+  <g transform="translate(34 628)">
+    <line x1="0" y1="0" x2="712" y2="0" stroke="#0a0a0a" stroke-width="2"/>
+    <circle cx="12" cy="49" r="9" fill="#92e8e5" stroke="#0a0a0a" stroke-width="2"/><text x="38" y="43" class="sans place ink">New York</text><text x="38" y="65" class="mono date ink">1970s / SOURCE METHOD</text><text x="370" y="53" class="sans copy ink">DJs extend the break.</text>
+    <line x1="0" y1="92" x2="712" y2="92" stroke="#0a0a0a"/>
+    <circle cx="12" cy="141" r="9" fill="#f3dc78" stroke="#0a0a0a" stroke-width="2"/><text x="38" y="135" class="sans place ink">United Kingdom</text><text x="38" y="157" class="mono date ink">1988–2000s</text><text x="370" y="145" class="sans copy ink">Rave accelerates and branches.</text>
+    <line x1="0" y1="184" x2="712" y2="184" stroke="#0a0a0a"/>
+    <circle cx="12" cy="233" r="9" fill="#92e8e5" stroke="#0a0a0a" stroke-width="2"/><text x="38" y="227" class="sans place ink">Florida</text><text x="38" y="249" class="mono date ink">EARLY 1990s →</text><text x="370" y="237" class="sans copy ink">Bass cultures form a local scene.</text>
+    <line x1="0" y1="276" x2="712" y2="276" stroke="#0a0a0a"/>
+    <circle cx="12" cy="325" r="9" fill="#ff5a36"/><text x="38" y="319" class="sans place ink">US West Coast</text><text x="38" y="341" class="mono date ink">1990s</text><text x="370" y="329" class="sans copy ink">Electro, acid and rave stay porous.</text>
+    <line x1="0" y1="368" x2="712" y2="368" stroke="#0a0a0a"/>
+    <circle cx="12" cy="417" r="9" fill="#ff9e88" stroke="#0a0a0a" stroke-width="2"/><text x="38" y="411" class="sans place ink">Andalusia</text><text x="38" y="433" class="mono date ink">1992–2000s</text><text x="370" y="421" class="sans copy ink">Breaks become regional mass culture.</text>
+    <line x1="0" y1="460" x2="712" y2="460" stroke="#0a0a0a" stroke-width="2"/>
+  </g>
+  <text x="34" y="1140" class="sans copy ink">Dashed lines show circulation of records, DJs and shared vocabulary.</text>
+  <text x="34" y="1171" class="sans copy ink">They do not claim ownership or a single one-way lineage.</text>
+  <line x1="34" y1="1210" x2="746" y2="1210" stroke="#0a0a0a" stroke-width="2"/>
+  <text x="34" y="1244" class="mono small ink">SELECTED HUBS, NOT A COMPLETE WORLD CENSUS</text>
+  <text x="746" y="1244" text-anchor="end" class="mono small ink">THECATRAVE.COM</text>
+</svg>

@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1800 1200" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">The Global Breakbeat Map</title>
+  <desc id="map-desc">A branded editorial map showing how break-based DJ practice in New York connected with distinct breakbeat histories in the United Kingdom, Central Florida, the United States West Coast and Andalusia.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0a0a0a"/>
+    </marker>
+    <filter id="map-muted" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.62" intercept="0.22"/>
+        <feFuncG type="linear" slope="0.62" intercept="0.20"/>
+        <feFuncB type="linear" slope="0.62" intercept="0.17"/>
+        <feFuncA type="linear" slope="0.34"/>
+      </feComponentTransfer>
+    </filter>
+    <style>
+      .sans{font-family:Satoshi,Arial,Helvetica,sans-serif;fill:#0a0a0a}
+      .mono{font-family:"Space Mono","Courier New",monospace;fill:#0a0a0a;letter-spacing:.04em}
+      .display{font-size:72px;font-weight:700;letter-spacing:-.045em}
+      .deck{font-size:28px;font-weight:400}
+      .kicker{font-size:14px;font-weight:700}
+      .region{font-size:27px;font-weight:700;letter-spacing:-.025em}
+      .meta{font-size:14px;font-weight:700}
+      .body{font-size:17px;font-weight:400}
+      .small{font-size:13px;font-weight:700}
+      .place{font-size:16px;font-weight:700}
+      .route{fill:none;stroke:#0a0a0a;stroke-width:3;marker-end:url(#arrow)}
+      .route.exchange{stroke-dasharray:9 8;stroke-width:2.5}
+      .node-ring{fill:#f1eee7;stroke:#0a0a0a;stroke-width:3}
+      .node-core{fill:#ff5a36;stroke:#0a0a0a;stroke-width:2}
+      .label-bg{fill:#f1eee7;stroke:#0a0a0a;stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect width="1800" height="1200" fill="#f1eee7"/>
+
+  <g aria-label="Title">
+    <text class="mono kicker" x="48" y="55">THECATRAVE REFERENCE MAP / 01</text>
+    <text class="sans display" x="48" y="131">The Global Breakbeat Map</text>
+    <text class="sans deck" x="50" y="174">Four regional scenes that turned broken rhythms into local club culture.</text>
+  </g>
+
+  <g aria-label="Atlantic map and routes">
+    <rect x="48" y="210" width="1080" height="610" fill="#e8e4dc" stroke="#0a0a0a" stroke-width="2"/>
+    <text class="mono kicker" x="72" y="244">ROOT PRACTICE + ATLANTIC ROUTES</text>
+    <text class="mono small" x="1104" y="244" text-anchor="end">SOLID = STRONG INFLUENCE · DOTTED = EXCHANGE</text>
+
+    <svg x="70" y="260" width="1036" height="442" viewBox="306 128 1300 555" preserveAspectRatio="xMidYMid meet" overflow="hidden" aria-hidden="true">
+      <image x="0" y="0" width="2752.766" height="1537.631" xlink:href="world-equirectangular-base.svg" filter="url(#map-muted)"/>
+    </svg>
+
+    <path class="route" d="M472 493 C640 410 770 390 922 420"/>
+    <path class="route" d="M922 430 C760 455 610 525 427 575"/>
+    <path class="route" d="M922 432 C930 458 916 493 886 516"/>
+    <path class="route exchange" d="M417 584 C337 582 278 558 202 539"/>
+
+    <g aria-label="New York roots">
+      <circle class="node-ring" cx="472" cy="493" r="14"/>
+      <circle class="node-core" cx="472" cy="493" r="6"/>
+      <rect class="label-bg" x="354" y="437" width="238" height="42"/>
+      <text class="mono place" x="370" y="463">NEW YORK / SOUTH BRONX</text>
+    </g>
+    <g aria-label="United Kingdom">
+      <circle class="node-ring" cx="922" cy="420" r="14"/>
+      <circle cx="922" cy="420" r="6" fill="#9ff5ed" stroke="#0a0a0a" stroke-width="2"/>
+      <rect class="label-bg" x="892" y="355" width="194" height="42"/>
+      <text class="mono place" x="908" y="381">LONDON / BRIGHTON</text>
+    </g>
+    <g aria-label="Central Florida">
+      <circle class="node-ring" cx="427" cy="575" r="14"/>
+      <circle cx="427" cy="575" r="6" fill="#ff9e88" stroke="#0a0a0a" stroke-width="2"/>
+      <rect class="label-bg" x="390" y="600" width="148" height="42"/>
+      <text class="mono place" x="406" y="626">ORLANDO</text>
+    </g>
+    <g aria-label="United States West Coast">
+      <circle class="node-ring" cx="202" cy="539" r="14"/>
+      <circle cx="202" cy="539" r="6" fill="#f3dc78" stroke="#0a0a0a" stroke-width="2"/>
+      <rect class="label-bg" x="91" y="565" width="240" height="42"/>
+      <text class="mono place" x="107" y="591">SAN FRANCISCO / LA</text>
+    </g>
+    <g aria-label="Andalusia">
+      <circle class="node-ring" cx="886" cy="516" r="14"/>
+      <circle cx="886" cy="516" r="6" fill="#ff5a36" stroke="#0a0a0a" stroke-width="2"/>
+      <rect class="label-bg" x="824" y="542" width="262" height="42"/>
+      <text class="mono place" x="840" y="568">SEVILLE / MÁLAGA</text>
+    </g>
+
+    <g aria-label="Timeline">
+      <line x1="72" y1="759" x2="1104" y2="759" stroke="#0a0a0a" stroke-width="2"/>
+      <line x1="72" y1="749" x2="72" y2="769" stroke="#0a0a0a" stroke-width="2"/>
+      <line x1="380" y1="749" x2="380" y2="769" stroke="#0a0a0a" stroke-width="2"/>
+      <line x1="690" y1="749" x2="690" y2="769" stroke="#0a0a0a" stroke-width="2"/>
+      <line x1="1104" y1="749" x2="1104" y2="769" stroke="#0a0a0a" stroke-width="2"/>
+      <text class="mono small" x="72" y="794">1970s / DJ PRACTICE</text>
+      <text class="mono small" x="380" y="794">LATE 1980s / UK RAVE</text>
+      <text class="mono small" x="690" y="794">1990s / LOCAL SCENES</text>
+      <text class="mono small" x="1104" y="794" text-anchor="end">2000s → NOW</text>
+    </g>
+  </g>
+
+  <g aria-label="Regional scene summaries">
+    <g>
+      <rect x="1160" y="210" width="592" height="145" fill="#9ff5ed" stroke="#0a0a0a" stroke-width="2"/>
+      <text class="mono meta" x="1184" y="239">01 / UNITED KINGDOM · LATE 1980s–2000s</text>
+      <text class="sans region" x="1184" y="278">Rave accelerates the breaks.</text>
+      <text class="sans body" x="1184" y="310">Hip-hop, acid house, techno, reggae and dub collide;</text>
+      <text class="sans body" x="1184" y="334">hardcore later opens into jungle, big beat and nu-skool.</text>
+    </g>
+    <g>
+      <rect x="1160" y="365" width="592" height="145" fill="#ff9e88" stroke="#0a0a0a" stroke-width="2"/>
+      <text class="mono meta" x="1184" y="394">02 / CENTRAL FLORIDA · 1989–MID-1990s</text>
+      <text class="sans region" x="1184" y="433">Orlando builds a local identity.</text>
+      <text class="sans body" x="1184" y="465">Miami bass, freestyle, electro, hip-hop, house and UK</text>
+      <text class="sans body" x="1184" y="489">imports become a bass-heavy regional breaks circuit.</text>
+    </g>
+    <g>
+      <rect x="1160" y="520" width="592" height="145" fill="#f3dc78" stroke="#0a0a0a" stroke-width="2"/>
+      <text class="mono meta" x="1184" y="549">03 / US WEST COAST · 1990s–EARLY 2000s</text>
+      <text class="sans region" x="1184" y="588">A porous DJ and rave network.</text>
+      <text class="sans body" x="1184" y="620">Electro, hip-hop, house, acid and psychedelia overlap;</text>
+      <text class="sans body" x="1184" y="644">“West Coast breaks” stays useful without one formula.</text>
+    </g>
+    <g>
+      <rect x="1160" y="675" width="592" height="145" fill="#ff5a36" stroke="#0a0a0a" stroke-width="2"/>
+      <text class="mono meta" x="1184" y="704">04 / ANDALUSIA · 1992–2002 CENTRAL ARC</text>
+      <text class="sans region" x="1184" y="743">An import becomes mass culture.</text>
+      <text class="sans body" x="1184" y="775">British records, tourism, local DJs and large events give</text>
+      <text class="sans body" x="1184" y="799">breakbeat unusual regional scale and a lasting identity.</text>
+    </g>
+  </g>
+
+  <g aria-label="Contemporary circulation">
+    <rect x="48" y="852" width="1704" height="204" fill="#0a0a0a"/>
+    <text x="76" y="891" fill="#f1eee7" font-family="Space Mono, Courier New, monospace" font-size="14" font-weight="700" letter-spacing=".04em">NOW / GLOBAL CIRCULATION</text>
+    <text x="76" y="947" fill="#f1eee7" font-family="Satoshi, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-.025em">The scene label narrows. The rhythmic language keeps travelling.</text>
+    <text x="76" y="992" fill="#f1eee7" font-family="Satoshi, Arial, sans-serif" font-size="20">Breaks continue as a named scene while broken drums circulate through electro, garage, techno,</text>
+    <text x="76" y="1022" fill="#f1eee7" font-family="Satoshi, Arial, sans-serif" font-size="20">bass music, jungle and contemporary rave without becoming one unified global genre.</text>
+    <circle cx="1624" cy="948" r="50" fill="#9ff5ed"/>
+    <circle cx="1664" cy="918" r="34" fill="#f3dc78"/>
+    <circle cx="1686" cy="970" r="25" fill="#ff5a36"/>
+  </g>
+
+  <g aria-label="Branding and qualification">
+    <text class="sans" x="48" y="1112" font-size="31" font-weight="700">thecatrave<tspan fill="#ff5a36">*</tspan></text>
+    <text class="mono small" x="48" y="1141">THECATRAVE.COM/BREAKBEAT-GUIDE · UPDATED 2026</text>
+    <text class="mono small" x="1752" y="1109" text-anchor="end">SELECTED MAJOR REGIONAL HISTORIES COVERED IN THIS GUIDE.</text>
+    <text class="mono small" x="1752" y="1138" text-anchor="end">NOT AN EXHAUSTIVE MAP OF EVERY BREAKBEAT SCENE.</text>
+    <text class="mono small" x="1752" y="1170" text-anchor="end">FREE TO REPRODUCE WITH CREDIT + LINK TO THE ORIGINAL GUIDE.</text>
+  </g>
+</svg>

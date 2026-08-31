@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {analytics, articleFooter, authorCard, bandcampSupport, infoBanner, readNext, siteHeader} from './site-components.mjs';
+import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articleListeningCollection, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
 
 const source = fs.readFileSync('breakbeat-guide-draft.md', 'utf8');
 const esc = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -100,8 +100,8 @@ function renderNode(node) {
   if (node.type === 'table') {
     const cells = row => row.slice(1,-1).split('|').map(cell=>inline(cell.trim()));
     const head = cells(node.rows[0]);
-    const body = node.rows.slice(2).map(row=>`<tr>${cells(row).map(cell=>`<td>${cell}</td>`).join('')}</tr>`).join('');
-    return `<div class="genre-table-wrap"><table class="genre-table"><thead><tr>${head.map(cell=>`<th scope="col">${cell}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
+    const rows = node.rows.slice(2).map(cells);
+    return articleTable({headers:head, rows});
   }
   return '';
 }
@@ -128,32 +128,48 @@ function body(title, options={}) {
   return html + (options.end || '');
 }
 function section(title, id, options={}) {
-  return `<section class="floating-block article-section ${options.className || ''}" id="${id}"><h2>${options.heading || title}</h2>${body(title, options)}</section>`;
+  return articleSection({id,title:options.heading || title,bodyHtml:body(title, options),className:options.className || ''});
 }
 
-const image = (name, alt, caption='', extra='') => `<figure class="floating-image article-image ${extra}"><img src="${name}-1200.webp" srcset="${name}-320.webp 320w, ${name}-1200.webp 1200w" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${esc(alt)}" loading="lazy">${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
-const legacyImage = (full, small, alt, caption='', extra='') => `<figure class="floating-image article-image ${extra}"><img src="${full}" srcset="${small} 320w, ${full} 1200w" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${esc(alt)}" loading="lazy">${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
-const jpgImage = (name, alt, caption='', extra='') => `<figure class="floating-image article-image ${extra}"><img src="img/uk-electronic/${name}-1200.jpg" srcset="img/uk-electronic/${name}-480.jpg 480w, img/uk-electronic/${name}-1200.jpg 1200w" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${esc(alt)}" loading="lazy">${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
-const spotify = (type, id, title, copy) => `<aside class="floating-inset spotify-feature"><div><p class="article-kicker">Listen in context</p><h3>${title}</h3><p>${copy}</p></div><iframe title="${esc(title)} on Spotify" src="https://open.spotify.com/embed/${type}/${id}?utm_source=generator&theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></aside>`;
-const soundcloud = `<aside class="floating-inset soundcloud-feature"><p class="article-kicker">A contemporary route by thecatrave</p><h3>I Like to Smoke in Silence After Raves</h3><p>This set belongs here because it shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.</p><iframe title="I Like to Smoke in Silence After Raves by thecatrave on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" loading="lazy"></iframe></aside>`;
+const soundcloud = articleListeningBand({
+  platform:'soundcloud', id:'breakbeat-contemporary-mix', kicker:'A contemporary route by thecatrave',
+  title:'I Like to Smoke in Silence After Raves',
+  description:'This set belongs here because it shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.',
+  src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
+  iframeTitle:'I Like to Smoke in Silence After Raves by thecatrave on SoundCloud',
+  fullBleed:true, tone:'cyan'
+});
 
-const mediaImage = ({src, width, height, alt, caption, extra=''}) => `<figure class="floating-image article-image ${extra}"><img src="${src}" width="${width}" height="${height}" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${esc(alt)}" loading="lazy" decoding="async">${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
+const floridaBreaksPlaylist = articleListeningBand({
+  platform:'spotify', id:'breakbeat-florida-playlist', kicker:'Essential listening',
+  title:'Florida breaks: an extended regional playlist.',
+  description:'Use this after the individual DJ Icey example to hear the wider regional continuum: electro bass, freestyle, rolling breaks and the producers around Florida’s club circuit.',
+  src:'https://open.spotify.com/embed/playlist/0siRXruXSaatxiMoL41G1o?utm_source=generator',
+  iframeTitle:'Florida breaks and funky breaks playlist on Spotify', tone:'cyan'
+});
+
+const nuSkoolBreaksPlaylist = articleListeningBand({
+  platform:'spotify', id:'breakbeat-nu-skool-playlist', kicker:'Essential listening',
+  title:'Nu-skool breaks: an extended scene playlist.',
+  description:'A longer route beyond the single-track examples, with Freq Nasty, Plump DJs, Stanton Warriors and the dedicated breaks circuit around them.',
+  src:'https://open.spotify.com/embed/playlist/6BfYBqrSm30CXrqFwecv5d?utm_source=generator',
+  iframeTitle:'The Sound of Nu Skool Breaks playlist on Spotify', tone:'paper'
+});
+
+const mediaImage = ({src, width, height, alt, caption, extra=''}) => articleFigure({src,width,height,alt,caption,className:extra});
 const trackEmbed = track => {
   const title = `${track.artist} — ${track.title}`;
-  if (track.embed.type === 'spotify') return `<iframe class="track-embed spotify-embed" title="${esc(title)} on Spotify" src="https://open.spotify.com/embed/track/${track.embed.id}?utm_source=generator&theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-  if (track.embed.type === 'spotify-playlist') return `<iframe class="track-embed spotify-embed" title="${esc(title)} in a Spotify listening set" src="https://open.spotify.com/embed/playlist/${track.embed.id}?utm_source=generator&theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-  if (track.embed.type === 'soundcloud') return `<iframe class="track-embed soundcloud-embed" title="${esc(title)} on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=${track.embed.url}&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>`;
-  if (track.embed.type === 'bandcamp') return `<iframe class="track-embed bandcamp-embed" title="${esc(title)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${track.embed.id}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${track.embed.url}">${esc(title)}</a></iframe>`;
-  return `<div class="track-video"><iframe class="track-embed youtube-embed" title="${esc(title)} on YouTube" src="https://www.youtube-nocookie.com/embed/${track.embed.id}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`;
+  return articleTrackEmbed({platform:track.embed.type,id:track.embed.id,url:track.embed.url,title});
 };
 const trackGroup = (trackNumbers, label, intro, tone='cyan') => {
   const selected = trackNumbers.map(number => tracks[number - 1]);
   const id = `listen-${slug(label)}`;
-  return `<aside class="context-listening listening-${tone}" aria-labelledby="${id}"><div class="context-listening-intro"><p class="article-kicker">Essential listening</p><h3 id="${id}">${label}</h3><p>${intro}</p></div><div class="context-track-list">${selected.map(track => `<article class="track-entry" id="${track.anchor}"><div class="track-count"><time>${track.year}</time></div><div class="track-copy"><h4><span>${esc(track.artist)}</span>${esc(track.title)}</h4><p>${esc(track.note)}</p></div><div class="track-player">${trackEmbed(track)}</div></article>`).join('')}</div></aside>`;
+  return articleListeningCollection({id,title:label,description:intro,tone,items:selected.map(track=>({...track,playerHtml:trackEmbed(track)}))});
 };
 
 const bandcampSupportBlock = bandcampSupport({
   description: 'These releases sit closest to the breakbeat story in this article. Buying one supports my work directly.',
+  fullBleed: true,
   tracks: [
     {title:'thecatrave — Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},
     {title:'thecatrave — Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'},
@@ -181,16 +197,27 @@ function breakbeatMap() {
 }
 
 const faqTitles = ['What is breakbeat music?','Is breakbeat a genre or a rhythm?','What is the difference between breakbeat and breaks?','What BPM is breakbeat?','Is breakbeat the same as drum and bass?','Is jungle a type of breakbeat?','What is the difference between breakbeat and big beat?','Who are the best-known breakbeat artists?','Is breakbeat still being made today?'];
-const faq = faqTitles.map((title,index)=>`<details${index===0?' open':''}><summary>${title}</summary>${subsectionBody('Frequently Asked Questions',title)}</details>`).join('');
+const faq = articleFaq({items:faqTitles.map(question=>({question,answerHtml:subsectionBody('Frequently Asked Questions',question)}))});
 const description = 'What is breakbeat music? Trace its funk and hip-hop roots through UK rave, Florida and Spanish scenes, big beat, nu-skool breaks and today.';
 const title = 'What Is Breakbeat? Genre, History, Artists & Styles';
 const readingMinutes = Math.max(1, Math.round(source.replace(/<[^>]+>|https?:\/\/\S+|[#*|`]/g, ' ').trim().split(/\s+/).length / 225));
-const structured = {'@context':'https://schema.org','@type':'Article',headline:'What Is Breakbeat? A Guide to the Genre, History and Styles',description,datePublished:'2025-04-06',dateModified:'2026-08-30',mainEntityOfPage:'https://thecatrave.com/breakbeat-guide',image:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png',author:{'@type':'Person',name:'thecatrave','url':'https://thecatrave.com/'},publisher:{'@type':'Organization',name:'thecatrave',url:'https://thecatrave.com/'},inLanguage:'en-GB'};
-const faqStructured = {'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqTitles.map(name=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text:subsectionNodes('Frequently Asked Questions',name).filter(n=>n.type==='p').map(n=>n.text).join(' ')}}))};
-const breadcrumbStructured = {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://thecatrave.com/'},{'@type':'ListItem',position:2,name:'Breakbeat guide',item:'https://thecatrave.com/breakbeat-guide'}]};
+const structured = articleStructuredData({headline:'What Is Breakbeat? A Guide to the Genre, History and Styles',description,datePublished:'2025-04-06',dateModified:'2026-08-30',canonical:'https://thecatrave.com/breakbeat-guide',image:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png'});
+const faqStructured = faqStructuredData({items:faqTitles.map(question=>({question,answer:subsectionNodes('Frequently Asked Questions',question).filter(n=>n.type==='p').map(n=>n.text).join(' ')}))});
+const breadcrumbStructured = breadcrumbStructuredData({name:'Breakbeat guide',canonical:'https://thecatrave.com/breakbeat-guide'});
 
 const header = siteHeader({variant:'article'});
 const author = authorCard({filled:true});
+const tableOfContents = articleTableOfContents({items:[
+  {id:'definition',label:'Rhythm or genre?'},
+  {id:'origins',label:'Funk, hip-hop and samplers'},
+  {id:'history-map',label:'History map'},
+  {id:'club-history',label:'Regional club histories'},
+  {id:'styles',label:'Styles and related genres'},
+  {id:'comparison',label:'Genre comparison'},
+  {id:'today',label:'Breakbeat today'},
+  {id:'faq',label:'FAQ'},
+  {id:'sources',label:'Sources'}
+]});
 const relatedArticles = readNext({items:[
   {href:'/uk-electronic-music-evolution',label:'UK electronic music',title:'The Evolution of UK Electronic Music',description:'Acid house, bleep, jungle, garage, grime, dubstep and the scenes reshaping British club music.'},
   {href:'/jungle-music-guide',label:'Jungle guide',title:'Jungle Music: From Roots to Revival',description:'Pirate radio, dubplates, MC energy and the global return of a distinctly Black British sound.'}
@@ -230,14 +257,15 @@ ${section('How Breakbeat Became Club Music','club-history',{
     'By the late 1990s and early 2000s':editorialMedia.plumpDjs
   }
 })}
-${section('Breakbeat Styles: Hardcore, Florida, Big Beat, Nu-Skool and More','styles',{className:'styles-section tone-yellow'})}
+${section('Breakbeat Styles: Hardcore, Florida, Big Beat, Nu-Skool and More','styles',{className:'styles-section tone-yellow',afterParagraph:{'Florida breaks, also called':floridaBreaksPlaylist,'Nu-skool breaks became':nuSkoolBreaksPlaylist}})}
 ${section('Breakbeat vs Jungle, Drum and Bass, Big Beat and Broken Beat','comparison',{className:'comparison-section'})}
 ${section('Breakbeat Today','today',{className:'tone-coral',beforeHeading:{'Why breakbeat still travels between scenes':trackGroup([17,18,19,20,21],'Five contemporary routes','Rave memory, breakbeat techno, modern UK bass and progressive breaks show why the rhythm no longer needs one unified revival.','paper')},end:soundcloud})}
-<section class="floating-block article-section faq-section" id="faq"><h2>Frequently asked questions.</h2>${faq}</section>
+${faq}
 ${author}
-<section class="floating-block article-section sources-section" id="sources"><h2>Sources.</h2>${body('Sources')}</section>${bandcampSupportBlock}${relatedArticles}</article></main>${articleFooter()}${analytics()}</body></html>`;
+${articleSources({bodyHtml:body('Sources')})}${bandcampSupportBlock}${relatedArticles}</article></main>${articleFooter()}${analytics()}</body></html>`;
 
 const preservedPage = page
+  .replace(/<nav class="article-toc" id="contents"[\s\S]*?<\/nav>/, tableOfContents)
   .replace(
     '</head>',
     `<script type="application/ld+json">${JSON.stringify(breadcrumbStructured)}</script></head>`
@@ -255,12 +283,12 @@ const preservedPage = page
     `</p>${infoBanner({label:'BREAKBEAT DEFINITION',bodyHtml:inline(meta['Proposed direct answer']),ariaLabel:'Breakbeat definition',className:'article-summary'})}<nav class="article-toc" id="contents"`
   )
   .replace(
-    '<section class="floating-block article-section " id="definition">',
-    '<a id="structure"></a><section class="floating-block article-section " id="definition">'
+    '<section class="floating-block article-section" id="definition">',
+    '<a id="structure"></a><section class="floating-block article-section" id="definition">'
   )
   .replace(
-    '<aside class="context-listening listening-yellow" aria-labelledby="listen-the-breaks-before-the-genre">',
-    '<a id="tracks"></a><aside class="context-listening listening-yellow" aria-labelledby="listen-the-breaks-before-the-genre">'
+    '<aside class="context-listening context-listening-full listening-yellow" aria-labelledby="listen-the-breaks-before-the-genre">',
+    '<a id="tracks"></a><aside class="context-listening context-listening-full listening-yellow" aria-labelledby="listen-the-breaks-before-the-genre">'
   )
   .replace(
     '<section class="floating-block article-section history-section" id="club-history">',
@@ -275,4 +303,24 @@ const preservedPage = page
     '<a id="academia"></a><section class="floating-block article-section sources-section" id="sources">'
   );
 
-fs.writeFileSync('breakbeat-guide.html', preservedPage);
+const breakbeatHero = articleHero({
+  kicker:'Breakbeat music guide', title:'What Is Breakbeat? A Guide to the Genre, History and Styles',
+  readingTime:`~${readingMinutes} min read`, dateModified:'2026-08-30', dateLabel:'30 August 2026',
+  deck:'From funk breaks and Bronx hip-hop to British rave, Florida, Andalusia, big beat, nu-skool and the broken club music being made now.',
+  summaryHtml:infoBanner({label:'BREAKBEAT DEFINITION',bodyHtml:inline(meta['Proposed direct answer']),ariaLabel:'Breakbeat definition',className:'article-summary'}),
+  tocItems:[
+    {id:'definition',label:'Rhythm or genre?'},{id:'origins',label:'Funk, hip-hop and samplers'},
+    {id:'history-map',label:'History map'},{id:'club-history',label:'Regional club histories'},
+    {id:'styles',label:'Styles and related genres'},{id:'comparison',label:'Genre comparison'},
+    {id:'today',label:'Breakbeat today'},{id:'faq',label:'FAQ'},{id:'sources',label:'Sources'}
+  ]
+});
+const breakbeatArticleHtml = preservedPage.match(/<main id="main-content"><article>([\s\S]*?)<\/article><\/main>/)?.[1]
+  .replace(/<header class="article-hero">[\s\S]*?<\/header>/, breakbeatHero);
+if (!breakbeatArticleHtml) throw new Error('Could not extract the generated breakbeat article body.');
+fs.writeFileSync('breakbeat-guide.html', articlePage({
+  title, description, canonical:'https://thecatrave.com/breakbeat-guide',
+  ogImage:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png', bodyClass:'article-page breakbeat-page',
+  datePublished:'2025-04-06', dateModified:'2026-08-30',
+  structuredData:[structured, faqStructured, breadcrumbStructured], articleHtml:breakbeatArticleHtml
+}));

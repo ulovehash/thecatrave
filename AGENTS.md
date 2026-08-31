@@ -2,6 +2,8 @@
 
 This file contains permanent project rules for writing, redesigning, rebuilding and publishing pages on thecatrave.com. Treat these rules as defaults for every future task in this repository unless the user explicitly overrides them.
 
+Cold-start requirement: an agent beginning an article task must first read `ARTICLE-PRODUCTION-WORKFLOW.md`, then this file, `ARTICLE-EDITORIAL-REVIEW.md` and `SITE-COMPONENTS.md` completely. The workflow defines the required research evidence, approval gates, handoff artefacts and build sequence; this file defines the permanent quality rules.
+
 ## 1. Core product and editorial principles
 
 - thecatrave.com is an artist website and an independent electronic-music publication.
@@ -81,9 +83,12 @@ This file contains permanent project rules for writing, redesigning, rebuilding 
 - Write unique, concrete metadata that accurately describes the page.
 - Keep the canonical unchanged for an existing page unless explicitly instructed.
 - Use `Article` structured data for articles.
+- Repeated article structures must come from `site-components.mjs`, including the document shell, hero, contents, section wrapper, figures, data tables, Sources, listening players, author card, Bandcamp CTA, Read Next and footer. Do not merely copy their class names into page-local HTML: component structure changes must propagate after rebuilding every article.
+- A page does not need a semantically irrelevant block only for visual symmetry. For example, do not invent an FAQ or comparison table when the approved article has no such material. If the pattern is present, however, it must use its shared component.
 - Preserve the original `datePublished` when updating an existing article. Add a truthful visible update date using `<time datetime="YYYY-MM-DD">`, keep `dateModified` consistent in Article structured data and expose matching Open Graph article dates.
 - Add `BreadcrumbList` structured data when the page belongs to a clear site hierarchy.
 - Use `FAQPage` structured data only when the same questions and answers are visibly present on the page.
+- FAQ is not a mandatory ranking device. Add it only when Search Console, Ahrefs, the SERP or a demonstrated reader gap supports concise questions within the page's primary intent. For most non-government and non-health sites, do not expect Google to show an FAQ rich result; the visible answers must justify the block on their own.
 - Keep Open Graph and Twitter metadata aligned with the final page.
 - Provide descriptive alt text, intrinsic image dimensions and meaningful iframe titles.
 
@@ -236,6 +241,11 @@ These rules are mandatory.
 - Avoid manual line breaks in headings and descriptions. Let text wrap naturally according to the available width.
 - Use explicit max-widths to create deliberate line lengths, not accidental wrapping.
 - Use shared spacing variables for sections, media and text blocks.
+- Treat the shared CSS variables as the design system, not suggestions. Colours, spacing, content widths, type levels and motion durations must come from the tokens documented in `SITE-COMPONENTS.md`.
+- New long-form pages must use `articlePage()`, `articleHero()`, `articleSection()`, `articleFigure()`, `articleTableOfContents()`, `articleSources()` and the relevant shared listening components. When an FAQ is supported by the approved research, it must use `articleFaq()` plus matching `faqStructuredData()`. Do not add an FAQ only for visual symmetry, and do not begin a new article by copying the generated HTML of an older page.
+- Generated HTML is the publishable artefact; shared structure belongs in `site-components.mjs`, design rules belong in the shared stylesheets and page-specific content belongs in its generator or editorial source.
+- Use the standard content widths: text for prose, media for figures, wide for tables and listening collections, and full bleed only for explicitly approved listening or support bands.
+- Keep the established responsive breakpoints at 1000px, 900px and 760px unless a verified layout defect requires another breakpoint.
 - Maintain consistent space:
   - before and after headings;
   - between paragraphs;
@@ -292,6 +302,21 @@ These rules are mandatory.
 
 - Treat source drafts and generator files as the source of truth. Do not hand-edit generated HTML if a rebuild would overwrite the change.
 - Shared build-time page components live in `site-components.mjs`. Reuse these functions for headers, footers, social links, NOW PLAYING, author cards, Bandcamp CTAs, information banners, contextual Spotify/SoundCloud listening bands, direct YouTube embeds, Read Next and analytics instead of copying markup.
+- Approved reusable article blocks from the Jungle redesign are:
+  - `infoBanner()` for the direct definition or meaning near the hero;
+  - `articleListeningBand()` for contextual Spotify and SoundCloud listening stripes, using `fullBleed: true` when the block should span the viewport and an explicit contrasting `tone` inside coloured sections;
+  - all curated genre and historical players share the visible label `Essential listening`; distinguish an exact track, mix and extended playlist in the block title or description rather than inventing a second listening concept; a clearly promotional thecatrave mix or remix may retain a specific contextual label;
+  - every `Essential listening` block is full-bleed site-wide: `articleListeningBand()` applies `.article-media-band-full` automatically, `articleListeningCollection()` applies `.context-listening-full` by default, and `articleVideoCollection()` applies `.listening-block-full`; never override this per article;
+  - use exact embedded tracks as evidence for the records discussed in the text, then add playlists only as clearly labelled extended listening routes; genre guides should include both when suitable material exists;
+  - place an exact track directly after the prose that explains its artist, era or importance; do not collect the same examples far away in an end-of-article player block unless that collection adds a different editorial route;
+  - `articleYoutubeEmbed()` for a conventional visible 16:9 YouTube player without a reveal control or decorative wrapper;
+  - `articleTableOfContents()` for the single-column Contents block and its page-specific anchor list;
+  - `authorCard({filled:true})` for the cyan `Article by thecatrave` card with the responsive portrait, concise biography and platform links;
+  - `bandcampSupport({fullBleed:true})` for the low commercial stripe whose background and borders span the actual viewport; include one to three relevant Bandcamp releases when suitable music exists, and do not replace `100vw` with article-container `100%`;
+  - `readNext()` for article recommendations after the Bandcamp block;
+  - `articleFooter()` for the compact article footer.
+- These variants are site-wide patterns, not Jungle-only exceptions. Do not recreate their markup or width rules under a page-specific class. Pass content and visual variants through component parameters.
+- Current article consistency contract: Breakbeat, Jungle and UK Electronic Music must all consume `siteHeader()`, `articleTableOfContents()`, `authorCard({filled:true})`, `bandcampSupport()`, `readNext()` and `articleFooter()`. Any standalone contextual Spotify or SoundCloud feature must consume `articleListeningBand()`. A change to one of these shared types must be followed by rebuilding and auditing all three pages.
 - Component usage and extension rules live in `SITE-COMPONENTS.md`.
 - The homepage keeps valid fallback HTML between explicit component markers and is refreshed with `build-home.mjs`.
 - After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion.
@@ -324,6 +349,7 @@ These rules are mandatory.
 8. Obtain approval before a substantial rewrite.
 9. Write or revise the draft without artificial length targets.
 10. Perform specialist editorial review, factual review and language review.
+    Follow `ARTICLE-EDITORIAL-REVIEW.md` and retain its required review output with the article handoff.
 11. Verify every track example and select the correct direct embed.
 12. Research and prepare media that supports the narrative.
 13. Implement the layout in the project source files.

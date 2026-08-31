@@ -2,10 +2,16 @@
 
 The shared build-time component library lives in `site-components.mjs`. It returns complete semantic HTML strings, so published pages do not depend on client-side JavaScript and search engines receive the full page immediately.
 
+For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`, `AGENTS.md` and `ARTICLE-EDITORIAL-REVIEW.md`. This file documents implementation after the research direction, editorial structure and review requirements have been approved.
+
 ## Available components
 
 ### Global structure
 
+- `articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass, structuredData, articleHtml})`: complete SEO-safe article document shell. It owns the canonical, social metadata, article dates, fonts, stylesheets, shared header/footer and analytics.
+- `articleStructuredData({headline, description, canonical, image, datePublished, dateModified})`: consistent Article schema with thecatrave identity.
+- `breadcrumbStructuredData({name, canonical})`: two-level Home → Article breadcrumb schema.
+- `faqStructuredData({items})`: FAQ schema generated from the same approved visible questions and answers.
 - `siteHeader({variant, navItems})`: homepage or article header with the wordmark, optional navigation and shared social icons.
 - `homeFooter()`: homepage footer.
 - `articleFooter()`: compact article footer.
@@ -15,15 +21,29 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 
 - `nowPlayingBanner({title, meta, href, linkLabel})`: the black NOW PLAYING strip used under the homepage header.
 - `infoBanner({label, bodyHtml, ariaLabel, className})`: reusable editorial callout for definitions, meanings, factual summaries and similar labelled blocks.
-- `articleListeningBand({platform, id, kicker, title, description, src, iframeTitle})`: full-width Spotify or SoundCloud listening strip with contextual editorial copy and a directly playable embed.
+- `articleListeningBand({platform, id, kicker, title, description, src, iframeTitle, fullBleed, tone})`: Spotify or SoundCloud listening strip with contextual editorial copy and a directly playable embed. Curated genre and historical listening blocks use the shared kicker `Essential listening`; this label automatically activates the site-wide full-bleed geometry. Their title must say whether the player is an exact track, mix or extended playlist. Artist-promo embeds may instead use a specific contextual kicker. Set `fullBleed: true` manually for other viewport-wide stripes. `tone` accepts `paper`, `cyan`, `yellow` or `coral`.
 - `articleYoutubeEmbed({src, title})`: responsive, directly playable YouTube embed without a custom reveal layer.
-- `bandcampSupport({description, tracks})`: compact Bandcamp CTA or an expanded CTA with relevant embedded releases.
+- `bandcampSupport({description, tracks, fullBleed})`: compact Bandcamp CTA or an expanded CTA with relevant embedded releases. Set `fullBleed: true` for the approved low stripe that spans the actual viewport, not merely the article container. A genre or history article should normally include one to three directly relevant Bandcamp tracks when suitable releases exist.
 
 ### Article navigation and identity
 
+- `articleHero({kicker, title, deck, readingTime, dateModified, dateLabel, summaryHtml, tocItems})`: compact shared article hero with one H1, visible metadata, deck, optional direct answer and contents.
+- `articleSection({id, title, bodyHtml, kicker, className})`: semantic section wrapper that preserves the shared width, heading and spacing system.
+- `articleTableOfContents({items, title})`: the shared one-column article contents block. Each item accepts `id` and `label`, or an explicit `href` and `label`.
+- `articleFigure({src, srcset, sizes, width, height, alt, caption, className})`: responsive image and caption wrapper. Supply intrinsic dimensions for every raster image.
+- `articleTable({headers, rows, className})`: shared accessible, horizontally scrollable table wrapper with consistent row hover.
+- `articleFaq({items, title, id, openFirst})`: shared FAQ section; questions are plain text and answers are approved HTML.
+- `articleSources({bodyHtml, title, id})`: shared compact Sources section.
 - `authorCard({filled})`: standard author block with the responsive thecatrave portrait, biography and platform links.
 - `readNext({items})`: related-article cards placed after the commercial CTA.
 - `socialLinks({icons, className, label})`: shared social/music links when a custom wrapper is needed.
+
+### Listening collections
+
+- `articleTrackEmbed({platform, id, url, title})`: exact Spotify track/playlist, YouTube, SoundCloud or Bandcamp player primitive.
+- `articleListeningCollection({id, title, description, tone, items, fullBleed})`: dated multi-track route used when several exact embedded tracks explain one era or transition. It is full-bleed by default; use `fullBleed: false` only for an explicitly approved compact exception.
+- `articleVideoCard({youtubeId, genre, artist, title})`: captioned exact-track YouTube card.
+- `articleVideoCollection({items, description})`: contextual group of captioned video examples using the same full-bleed `Essential listening` geometry as Spotify and SoundCloud blocks.
 
 ## Page-building principles
 
@@ -36,10 +56,29 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 
 ## Reusable article layout contract
 
+### Design tokens
+
+- Global colour, type-family, spacing and motion tokens live in `thecatrave-home.css` under `:root`.
+- Article width, media width, text scale and vertical-rhythm tokens live in `.article-page` in `thecatrave-article.css`.
+- Never introduce a new raw colour when `--ink`, `--paper`, `--acid`, `--cyan`, `--yellow`, `--coral`, `--surface-muted` or `--line` expresses the intended role.
+- Use the shared `--space-*`, `--section-space` and `--media-space` scale before adding a one-off margin or padding.
+- Use `--article-text`, `--article-media` and `--article-wide` for text, figures and wide data/media respectively.
+- Responsive policy is desktop-first with structural changes at 1000px, 900px and 760px. New page-specific breakpoints require a demonstrated layout problem.
+
 - Listening strips use `.article-media-band`, `.article-media-copy` and `.article-listening-feature`. Their copy and player form a two-column band on desktop and one column at `760px` and below.
-- Jungle pages may extend a listening strip to the viewport edges, but the generic component names and semantic structure must remain unchanged.
+- The approved full-width listening stripe is the `fullBleed: true` variant and uses `.article-media-band-full`. It is reusable on any article and must not be recreated with a page-specific selector.
+- Every block labelled `Essential listening` is full-bleed across every article. Single-player bands receive `.article-media-band-full`, multi-track collections receive `.context-listening-full`, and video collections receive `.listening-block-full`. This is a component-level invariant, not a page-level styling choice.
+- When a listening stripe sits inside a coloured section, choose an explicit contrasting `tone`. The Jungle Mania example uses `tone: 'cyan'` so the player remains visibly distinct from the yellow section.
 - YouTube examples use `.classic-youtube-embed`; the iframe stays visible, directly playable and at `16:9` on every viewport.
+- Every article Table of Contents must use `articleTableOfContents()`. The shared block owns its semantic navigation markup, numbering, hover behaviour and responsive layout; generators provide only the page-specific anchors and labels.
 - Author cards use a single compact `Article by thecatrave` heading above the portrait and biography columns. The portrait, biography and first platform link begin on the same horizontal line. At `760px` and below, the heading spans the card, portrait and biography remain paired, and platform links move to a separate two-column row.
+- The approved full-width Bandcamp stripe is the `fullBleed: true` variant and uses `.article-cta-full`. It is centred at `100vw`, so both its background and borders reach the viewport edges on desktop and mobile. It keeps contextual copy, the `SUPPORT` button and one to three directly relevant releases inside one contained responsive band. Do not interpret `fullBleed` as `width: 100%` of the article container.
+- Every current long-form article uses the same shared author card, Bandcamp CTA, Read Next and article footer. Every standalone editorial Spotify or SoundCloud feature uses `articleListeningBand()`; do not add a hand-written `.soundcloud-feature` or `.spotify-feature` copy to an individual generator.
+- `Essential listening` is the only site-wide editorial label for curated genre and historical examples. Do not create parallel concepts such as `Listen while you read`, `Jungle Mania listening` or `Essential tracks`. A clearly promotional thecatrave mix or remix may use its own contextual label.
+- Exact tracks are the primary evidence for claims about an era, artist or turning point. Use `articleListeningCollection()` and `articleTrackEmbed()` for them, and place them near the passage they support.
+- When one exact track belongs to one specific paragraph, a compact `articleListeningBand()` may be used instead of collecting it again at the end of the article. Never make the reader jump from an artist or track discussion to a distant listening section unless the end section provides genuinely different value.
+- Playlists and mixes are optional extended routes. Use `articleListeningBand()`, identify them explicitly as an `extended playlist` or `mix` in the title or description, and never present a playlist as though it were one exact track.
+- A genre guide should normally contain both exact representative tracks and at least one wider playlist when a credible, relevant playlist is available. The individual tracks prove the editorial argument; the playlist lets the reader continue listening.
 - Spotify players use the compact `152px` embed. SoundCloud players use the compact `166px` embed.
 - Images and listening blocks must be separated by meaningful prose. Never stack a figure directly against a player.
 - Reusable media blocks must not introduce fixed desktop widths that cause mobile overflow. Images retain their intrinsic ratio and embedded players remain within their container.
@@ -50,7 +89,8 @@ The shared build-time component library lives in `site-components.mjs`. It retur
 - `build-home.mjs` refreshes the component regions inside `index.html` using explicit start/end markers.
 - `build-breakbeat-article.mjs` imports the shared article components.
 - `build-uk-article.mjs` imports the shared article components.
-- `build-jungle-article.mjs` preserves the approved Jungle article body while assembling the current article shell and shared components.
+- `build-jungle-article.mjs` preserves the approved Jungle editorial copy, then normalises its sections, figures, tables, Sources, listening blocks and YouTube embeds through the same shared components as the newer guides. The copy remains page-specific; repeated markup does not.
+- All three article generators publish through `articlePage()` and render their visible opening through `articleHero()`. A change to shared metadata, fonts, header/footer structure or hero semantics therefore reaches every current article after rebuilding.
 
 ## Build and verification
 
@@ -64,11 +104,14 @@ node build-jungle-article.mjs
 node audit-site-components.mjs
 node audit-jungle.mjs
 node audit-breakbeat.mjs
+node audit-uk.mjs
 ```
 
 `build-home.mjs` is idempotent: running it twice must produce no second change. Generated article pages should retain the same public HTML when only the internal component implementation changes.
 
-The Jungle generator refreshes every marked listening and YouTube block from the shared component functions. Update the component or its data in `build-jungle-article.mjs`; do not edit generated player markup in `jungle-music-guide.html` alone.
+The Jungle generator refreshes every section wrapper, figure, table, Sources block, marked listening block and YouTube embed from the shared component functions. Update the component or its page-specific data in `build-jungle-article.mjs`; do not edit generated repeated markup in `jungle-music-guide.html` alone.
+
+`audit-site-components.mjs` also checks the generators themselves. All current article generators must consume the shared page shell, hero, contents, figures, tables, Sources, author card, Bandcamp CTA and Read Next components. A block may be absent from a page when its editorial content is genuinely absent, such as an FAQ, but a hand-written duplicate of an existing shared pattern is not allowed.
 
 ## Adding a new component
 
@@ -80,3 +123,12 @@ The Jungle generator refreshes every marked listening and YouTube block from the
 6. Connect it to a page generator or marked region.
 7. Add a structural assertion to `audit-site-components.mjs`.
 8. Rebuild all consuming pages and perform visual QA at desktop, tablet and mobile widths.
+
+## Required quality contract for every generated article
+
+- Use `articlePage()` and `articleHero()` rather than writing a local document head or hero.
+- Keep exactly one H1, canonical, meta description, site header, article footer and `main#main-content`.
+- Include matching published/modified dates in Open Graph and structured data; show the modified date in the hero.
+- Give every image alt text and intrinsic width/height; give every iframe a descriptive title.
+- Use shared figure, table, Sources and listening primitives instead of copying their markup. When the approved article includes an FAQ, use the shared FAQ primitive and generate its structured data from the same content.
+- Run `audit-site-components.mjs`; it verifies the SEO shell, dates, landmarks, media accessibility, dimensions and design-token contract across all current articles.

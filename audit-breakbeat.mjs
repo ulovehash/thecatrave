@@ -13,6 +13,9 @@ const missingAssets = [...new Set(localAssets.filter(file=>!fs.existsSync(path.r
 const headings = [...html.matchAll(/<h([1-6])(?:\s[^>]*)?>/g)].map(m=>Number(m[1]));
 const hierarchyJumps = headings.flatMap((level,index)=>index && level>headings[index-1]+1 ? [`h${headings[index-1]}→h${level} at ${index+1}`] : []);
 const iframeTags = [...html.matchAll(/<iframe\b[^>]*>/g)].map(m=>m[0]);
+const essentialListeningClasses = [...html.matchAll(/<aside class="([^"]+)"[^>]*>[\s\S]*?<\/aside>/g)]
+  .filter(match => match[0].includes('<p class="article-kicker">Essential listening</p>'))
+  .map(match=>match[1]);
 const iframeSrcs = iframeTags.map(tag=>(tag.match(/\ssrc="([^"]+)"/)||[])[1]).filter(Boolean);
 const duplicateIframeSrcs = [...new Set(iframeSrcs.filter((src,index)=>iframeSrcs.indexOf(src)!==index))];
 const imgTags = [...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
@@ -22,6 +25,7 @@ const trackIds = ids.filter(id=>id.startsWith('track-'));
 const trackEmbeds = (html.match(/class="track-embed/g)||[]).length;
 const contextGroups = (html.match(/class="context-listening /g)||[]).length;
 const mixEmbedCount = (html.match(/soundcloud\.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves|soundcloud\.com\/thecatrave\/i-like-to-smoke-in-silence-after-raves/g)||[]).length;
+const extendedPlaylistBands = (html.match(/id="breakbeat-(?:florida|nu-skool)-playlist"/g)||[]).length;
 const sourceSection = (html.match(/<section class="floating-block article-section sources-section"[\s\S]*?<\/section>/)||[])[0] || '';
 const unlinkedSourceItems = [...sourceSection.matchAll(/<li>([\s\S]*?)<\/li>/g)].filter(match=>!/<a\b/.test(match[1]));
 const oldBreakbeatMedia = [...new Set([...html.matchAll(/img\/(amen|flyers|pirate-radio|old%20dubplate|uk-electronic\/atari)[^" ]*/g)].map(m=>m[0]))];
@@ -58,6 +62,9 @@ const result = {
   trackEmbeds,
   contextGroups,
   mixEmbedCount,
+  extendedPlaylistBands,
+  unifiedListeningLabel: !/Listen while you read|Jungle Mania listening/i.test(html),
+  allEssentialListeningFullBleed: essentialListeningClasses.length === 9 && essentialListeningClasses.every(classes => /(?:article-media-band-full|context-listening-full)/.test(classes)),
   unlinkedSourceItems: unlinkedSourceItems.length,
   trackJumpLinks: (html.match(/class="track-jump"/g)||[]).length,
   standaloneTrackSection: /Essential Breakbeat Tracks: A Listening Route/.test(html),
@@ -92,4 +99,4 @@ const result = {
   editorialNotesLeaked: /final design should|the final page should/i.test(html)
 };
 console.log(JSON.stringify(result,null,2));
-if (result.h1!==1 || result.trackEntries!==21 || result.trackEmbeds!==21 || result.contextGroups!==7 || result.mixEmbedCount!==1 || result.unlinkedSourceItems || result.trackJumpLinks || result.standaloneTrackSection || result.jsonLdAnswersEmpty || duplicateIds.length || duplicateIframeSrcs.length || missingAnchors.length || missingAssets.length || imagesMissingDimensions.length || iframesMissingTitles.length || oldBreakbeatMedia.length || result.figureBeforeEmbed || result.embedBeforeFigure || result.consecutiveFigures || !responsiveRulesPresent || !proportionalMobileImages || missingLegacyAnchors.length || missingPreservationPhrases.length || !originalPublicationDatePreserved || !readingTimePresent || !modifiedDateConsistent || !publishedDateConsistent || directAnswerWordCount < 80 || directAnswerWordCount > 120 || !directAnswerBeforeContents || !directAnswerCalloutStyled || !breadcrumbStructuredPresent || hierarchyJumps.length || result.editorialNotesLeaked) process.exitCode=1;
+if (result.h1!==1 || result.trackEntries!==21 || result.trackEmbeds!==21 || result.contextGroups!==7 || result.mixEmbedCount!==1 || result.extendedPlaylistBands!==2 || !result.unifiedListeningLabel || !result.allEssentialListeningFullBleed || result.unlinkedSourceItems || result.trackJumpLinks || result.standaloneTrackSection || result.jsonLdAnswersEmpty || duplicateIds.length || duplicateIframeSrcs.length || missingAnchors.length || missingAssets.length || imagesMissingDimensions.length || iframesMissingTitles.length || oldBreakbeatMedia.length || result.figureBeforeEmbed || result.embedBeforeFigure || result.consecutiveFigures || !responsiveRulesPresent || !proportionalMobileImages || missingLegacyAnchors.length || missingPreservationPhrases.length || !originalPublicationDatePreserved || !readingTimePresent || !modifiedDateConsistent || !publishedDateConsistent || directAnswerWordCount < 80 || directAnswerWordCount > 120 || !directAnswerBeforeContents || !directAnswerCalloutStyled || !breadcrumbStructuredPresent || hierarchyJumps.length || result.editorialNotesLeaked) process.exitCode=1;

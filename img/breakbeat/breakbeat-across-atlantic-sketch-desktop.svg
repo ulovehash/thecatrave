@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">Breakbeat Across the Atlantic, desktop sketch</title>
+  <desc id="desc">An Atlantic-centred editorial map showing New York as a source method and local breakbeat scenes in the United Kingdom, Florida, the US West Coast and Andalusia.</desc>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:"Courier New",monospace}.ink{fill:#0a0a0a}.land{fill:#dcd8cf;stroke:#0a0a0a;stroke-width:2}.coast{fill:none;stroke:#0a0a0a;stroke-width:2}.route{fill:none;stroke:#0a0a0a;stroke-width:2;stroke-dasharray:7 10;opacity:.45}.leader{fill:none;stroke:#0a0a0a;stroke-width:2}.place{font-size:24px;font-weight:700}.date{font-size:15px;font-weight:700}.copy{font-size:17px}.kicker{font-size:16px;font-weight:700;letter-spacing:2px}.headline{font-size:66px;font-weight:700;letter-spacing:-3px}.sub{font-size:23px}.small{font-size:13px;font-weight:700;letter-spacing:1px}
+  </style>
+  <rect width="1600" height="960" fill="#f1eee7"/>
+  <text x="70" y="62" class="mono kicker ink">THECATRAVE / EDITORIAL MAP / SKETCH 01</text>
+  <text x="70" y="135" class="sans headline ink">Breakbeat Across the Atlantic</text>
+  <text x="74" y="178" class="sans sub ink">How five places made broken rhythm local.</text>
+
+  <g aria-label="Map">
+    <path class="land" d="M55 272 L116 235 202 222 260 239 327 228 407 258 464 298 527 316 570 351 624 361 679 405 650 446 608 458 583 507 525 528 489 574 422 591 360 571 322 531 260 516 225 470 161 449 118 406 81 363 Z"/>
+    <path class="land" d="M501 575 L560 581 610 616 630 669 617 732 582 786 554 842 515 882 486 833 474 763 452 706 463 647 Z"/>
+    <path class="land" d="M930 252 L996 228 1050 239 1101 222 1161 235 1218 218 1276 247 1345 251 1421 279 1519 327 1538 387 1495 421 1410 405 1350 427 1299 411 1247 441 1184 427 1148 390 1090 380 1044 346 1005 357 970 328 936 321 Z"/>
+    <path class="land" d="M1048 437 L1124 424 1202 445 1244 493 1264 558 1237 621 1192 676 1168 747 1121 805 1078 768 1065 698 1034 643 1019 576 1027 505 Z"/>
+    <path class="coast" d="M1538 387 L1580 402"/>
+
+    <path class="route" d="M651 390 C790 268 918 247 1047 300"/>
+    <path class="route" d="M653 393 C770 438 901 449 1044 414"/>
+    <path class="route" d="M646 398 C618 461 608 520 584 578"/>
+    <path class="route" d="M576 584 C468 622 344 573 230 438"/>
+    <text x="747" y="247" class="mono small ink">RECORDS / DJS / SHARED VOCABULARY</text>
+
+    <g aria-label="West Coast">
+      <circle cx="228" cy="438" r="22" fill="#ff9e88" opacity=".42"/><circle cx="228" cy="438" r="9" fill="#ff5a36"/>
+      <path class="leader" d="M220 418 L183 362 L92 362"/>
+      <text x="92" y="326" class="sans place ink">US West Coast</text><text x="92" y="349" class="mono date ink">1990s</text>
+      <text x="92" y="388" class="sans copy ink">Electro, acid and rave</text><text x="92" y="411" class="sans copy ink">remain porous.</text>
+    </g>
+    <g aria-label="New York">
+      <circle cx="651" cy="390" r="28" fill="#92e8e5" opacity=".5"/><circle cx="651" cy="390" r="12" fill="#0a0a0a"/><circle cx="651" cy="390" r="20" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+      <path class="leader" d="M640 369 L607 342 L492 342"/>
+      <text x="510" y="252" class="mono small ink">SOURCE METHOD</text><text x="510" y="280" class="sans place ink">New York</text><text x="510" y="303" class="mono date ink">1970s</text>
+      <text x="510" y="332" class="sans copy ink">DJs extend the break.</text>
+    </g>
+    <g aria-label="United Kingdom">
+      <circle cx="1047" cy="300" r="23" fill="#f3dc78" opacity=".6"/><circle cx="1047" cy="300" r="9" fill="#0a0a0a"/>
+      <path class="leader" d="M1063 283 L1110 320 L1190 320"/>
+      <text x="1212" y="222" class="sans place ink">United Kingdom</text><text x="1212" y="247" class="mono date ink">1988–2000s</text>
+      <text x="1212" y="280" class="sans copy ink">Rave accelerates</text><text x="1212" y="303" class="sans copy ink">and branches.</text>
+    </g>
+    <g aria-label="Florida">
+      <circle cx="584" cy="578" r="23" fill="#92e8e5" opacity=".6"/><circle cx="584" cy="578" r="9" fill="#0a0a0a"/>
+      <path class="leader" d="M575 599 L545 658 L424 658"/>
+      <text x="424" y="684" class="sans place ink">Florida</text><text x="424" y="709" class="mono date ink">EARLY 1990s →</text>
+      <text x="424" y="742" class="sans copy ink">Bass cultures form</text><text x="424" y="765" class="sans copy ink">a regional scene.</text>
+    </g>
+    <g aria-label="Andalusia">
+      <circle cx="1044" cy="414" r="23" fill="#ff9e88" opacity=".55"/><circle cx="1044" cy="414" r="9" fill="#0a0a0a"/>
+      <path class="leader" d="M1060 430 L1120 570 L1180 570"/>
+      <text x="1200" y="562" class="sans place ink">Andalusia</text><text x="1200" y="587" class="mono date ink">1992–2000s</text>
+      <text x="1200" y="620" class="sans copy ink">Breaks become mass</text><text x="1200" y="643" class="sans copy ink">regional culture.</text>
+    </g>
+  </g>
+
+  <line x1="70" y1="884" x2="1530" y2="884" stroke="#0a0a0a" stroke-width="2"/>
+  <circle cx="82" cy="920" r="8" fill="#0a0a0a"/><text x="102" y="926" class="mono small ink">SOURCE METHOD</text>
+  <circle cx="287" cy="920" r="8" fill="#ff5a36"/><text x="307" y="926" class="mono small ink">LOCAL SCENE</text>
+  <line x1="480" y1="920" x2="525" y2="920" class="route"/><text x="540" y="926" class="mono small ink">CIRCULATION, NOT OWNERSHIP</text>
+  <text x="1458" y="926" text-anchor="end" class="mono small ink">THECATRAVE.COM</text>
+</svg>

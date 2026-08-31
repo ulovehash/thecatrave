@@ -1,9 +1,20 @@
 import fs from 'node:fs';
-import {analytics, articleFooter, authorCard, bandcampSupport, readNext, siteHeader} from './site-components.mjs';
+import {articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleVideoCard, articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, readNext} from './site-components.mjs';
 
 const markdown = fs.readFileSync('uk-electronic-music-evolution-draft.md', 'utf8');
 const escapeHtml = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const inline = value => escapeHtml(value).replace(/\*([^*]+)\*/g, '<em>$1</em>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+const plainText = value => value
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&')
+  .replace(/&lt;/g, '<')
+  .replace(/&gt;/g, '>')
+  .replace(/&quot;/g, '"')
+  .replace(/&#39;|&#x27;/g, "'")
+  .replace(/&#(\d+);/g, (entity, code) => String.fromCodePoint(Number(code)))
+  .replace(/&#x([0-9a-f]+);/gi, (entity, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+  .replace(/\s+/g, ' ')
+  .trim();
 const sections = new Map();
 let current = '';
 for (const line of markdown.split(/\r?\n/)) {
@@ -24,8 +35,8 @@ function table(title) {
   if (rows.length < 3) return '';
   const cells = line => line.trim().slice(1, -1).split('|').map(cell => inline(cell.trim()));
   const head = cells(rows[0]);
-  const body = rows.slice(2).map(row => `<tr>${cells(row).map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('');
-  return `<div class="genre-table-wrap"><table class="genre-table"><thead><tr>${head.map(cell => `<th scope="col">${cell}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
+  const body = rows.slice(2).map(cells);
+  return articleTable({headers:head, rows:body});
 }
 
 function linkList(title) {
@@ -33,7 +44,7 @@ function linkList(title) {
   return links.length ? `<ul class="source-list">${links.map(line => `<li>${inline(line.trim().slice(2))}</li>`).join('')}</ul>` : '';
 }
 function video(id, genre, artist, title) {
-  return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${id}" title="${escapeHtml(artist)} — ${escapeHtml(title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(artist)} — ${escapeHtml(title)}</strong></figcaption></figure>`;
+  return articleVideoCard({youtubeId:id,genre,artist,title});
 }
 const videos = {
   acid: [video('yCNpciIixbk','Acid house','Baby Ford','Oochy Koochy'),video('ML_FBvudqI0','Bleep','LFO','LFO (Leeds Warehouse Mix)')],
@@ -44,14 +55,22 @@ const videos = {
   early10s: [video('Aa_PDKKc2_A','Post-dubstep','Joy Orbison','Hyph Mngo'),video('uxtc8JawP2g','Instrumental grime','Mr Mitch','Don’t Leave'),video('pdMjV4OVmbI','Bristol club music','Peverelist','Roll With the Punches'),video('YG0ggHM1PLM','PC Music','A. G. Cook','Beautiful')],
   current: [video('1NXmpUrp5W8','New UK garage','Conducta','Whippet'),video('APPNBJqGJaA','Modern jungle','Tim Reaper','Give Me More'),video('PjCVcVw8f1Y','Jungle crossover','Nia Archives','Forbidden Feelingz'),video('rsFDOGwkSv8','UK club music','Joy Orbison','flight fm')]
 };
-const videoGrid = items => `<div class="video-grid">${items.join('')}</div>`;
-const listeningBlock = (items, copy) => `<div class="listening-block"><div class="listening-intro"><p class="article-kicker">Essential listening</p><p>${copy}</p></div>${videoGrid(items)}</div>`;
-const soundcloudFeature = (slug, title, copy) => `<aside class="floating-inset soundcloud-feature"><p class="article-kicker">A mix by thecatrave</p><h3>${title}</h3><p>${copy}</p><iframe title="${title} by thecatrave on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/${slug}&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" loading="lazy"></iframe></aside>`;
-const caption = value => value ? `<figcaption>${value}</figcaption>` : '';
-const image = (name, alt, text = '', extra = '') => `<figure class="floating-image article-image ${extra}"><img src="${name}-1200.webp" srcset="${name}-320.webp 320w, ${name}-1200.webp 1200w" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${escapeHtml(alt)}" loading="lazy">${caption(text)}</figure>`;
-const downloadedImage = (name, alt, text = '', extra = '') => `<figure class="floating-image article-image ${extra}"><img src="img/uk-electronic/${name}-1200.jpg" srcset="img/uk-electronic/${name}-480.jpg 480w, img/uk-electronic/${name}-1200.jpg 1200w" sizes="(max-width:760px) calc(100vw - 32px), 640px" alt="${escapeHtml(alt)}" loading="lazy">${caption(text)}</figure>`;
-const cutoutImage = (name, alt, text = '') => `<figure class="floating-image article-image cutout-image"><img src="img/uk-electronic/${name}-1200.png" srcset="img/uk-electronic/${name}-480.png 480w, img/uk-electronic/${name}-1200.png 1200w" sizes="(max-width:760px) calc(100vw - 32px), 560px" alt="${escapeHtml(alt)}" loading="lazy">${caption(text)}</figure>`;
-function era(id, years, title, body, tone = '') { return `<section class="floating-block article-section era ${tone}" id="${id}"><p class="era-years">${years}</p><h2>${title}</h2>${body}</section>`; }
+const listeningBlock = (items, copy) => articleVideoCollection({items,description:copy});
+const soundcloudFeature = (slug, title, copy) => articleListeningBand({
+  platform:'soundcloud', id:`uk-mix-${slug}`, kicker:'A mix by thecatrave', title, description:copy,
+  src:`https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/${slug}&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+  iframeTitle:`${title} by thecatrave on SoundCloud`, fullBleed:true, tone:'cyan'
+});
+const imageDimensions = {'img/people dancing':[1200,777],'img/flyers':[1200,675],'img/skream':[1200,900]};
+const downloadedDimensions = {'roland-tb303':[1200,590]};
+const cutoutDimensions = {'atari-1040st-cutout':[1200,816]};
+const image = (name, alt, text = '', extra = '') => {
+  const encodedName = name.replace(/ /g, '%20');
+  return articleFigure({src:`${encodedName}-1200.webp`,srcset:`${encodedName}-320.webp 320w, ${encodedName}-1200.webp 1200w`,width:imageDimensions[name]?.[0],height:imageDimensions[name]?.[1],alt,caption:text,className:extra});
+};
+const downloadedImage = (name, alt, text = '', extra = '') => articleFigure({src:`img/uk-electronic/${name}-1200.jpg`,srcset:`img/uk-electronic/${name}-480.jpg 480w, img/uk-electronic/${name}-1200.jpg 1200w`,width:downloadedDimensions[name]?.[0],height:downloadedDimensions[name]?.[1],alt,caption:text,className:extra});
+const cutoutImage = (name, alt, text = '') => articleFigure({src:`img/uk-electronic/${name}-1200.png`,srcset:`img/uk-electronic/${name}-480.png 480w, img/uk-electronic/${name}-1200.png 1200w`,sizes:'(max-width: 760px) calc(100vw - 32px), 560px',width:cutoutDimensions[name]?.[0],height:cutoutDimensions[name]?.[1],alt,caption:text,className:'cutout-image'});
+function era(id, years, title, body, tone = '') { return articleSection({id,kicker:years,title,bodyHtml:body,className:`era ${tone}`}); }
 
 function genreMap() {
   const node = (x, y, w, title, date) => `<g class="map-node" tabindex="0"><rect x="${x}" y="${y}" width="${w}" height="58" rx="2"/><text x="${x + 12}" y="${y + 23}"><tspan>${title}</tspan><tspan class="map-date" x="${x + 12}" dy="19">${date}</tspan></text></g>`;
@@ -59,22 +78,60 @@ function genreMap() {
 }
 
 const description = 'Explore the evolution of UK electronic music, from acid house and jungle to UK garage, grime, dubstep and today’s British club scenes.';
-const header = siteHeader({variant:'article'});
-const author = authorCard();
-const support = bandcampSupport({description:'If you want to support what I make directly, buying a track on Bandcamp makes the biggest difference.'});
+const readingMinutes = Math.max(1, Math.round(markdown.replace(/<[^>]+>|https?:\/\/\S+|[#*|`]/g, ' ').trim().split(/\s+/).length / 225));
+const author = authorCard({filled:true});
+const tableOfContents = articleTableOfContents({items:[
+  {id:'why-the-uk',label:'Why the UK produced so many scenes'},
+  {id:'genre-map',label:'Genre and date map'},
+  {id:'acid-and-bleep',label:'1987–91: acid house and bleep'},
+  {id:'hardcore-jungle-dnb',label:'1990–98: hardcore, jungle and D&B'},
+  {id:'uk-garage',label:'1993–2001: UK garage'},
+  {id:'other-1990s',label:'The other 1990s'},
+  {id:'dubstep-grime-funky',label:'2000–09: dubstep, grime and UK funky'},
+  {id:'hybrid-club',label:'2010–16: hybrid club music'},
+  {id:'current-era',label:'2017–present: renewed scenes'},
+  {id:'future',label:'What happens next?'},
+  {id:'genre-guide',label:'Genre guide and FAQ'}
+]});
+const support = bandcampSupport({
+  description:'These releases connect directly to the breaks, bass pressure and rave continuum explored in this article. Buying one supports my music and writing directly.',
+  fullBleed:true,
+  tracks:[
+    {
+      title:'thecatrave — Protect Ya Breaks', id:'3822639635',
+      url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',
+      linkText:'Protect Ya Breaks by thecatrave'
+    },
+    {
+      title:'thecatrave — Berlin Race 1909', id:'3192532299',
+      url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',
+      linkText:'Berlin Race 1909 by thecatrave'
+    }
+  ]
+});
 const relatedArticles = readNext({items:[
   {href:'/jungle-music-guide',label:'Jungle guide',title:'Jungle Music: From Roots to Revival',description:'Pirate radio, dubplates, MC energy and the global return of a distinctly Black British sound.'},
   {href:'/breakbeat-guide',label:'Breakbeat guide',title:'Breakbeat Music: History, Sound and Evolution',description:'From funk breaks and pirate radio to cracked VSTs and modern bass hybrids.'}
 ]});
-const page = `<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UK Electronic Music Evolution: Genres, Scenes and History</title><meta name="description" content="${description}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://thecatrave.com/uk-electronic-music-evolution"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png">
-<meta property="og:type" content="article"><meta property="og:site_name" content="thecatrave"><meta property="og:title" content="UK Electronic Music Evolution: Genres, Scenes and History"><meta property="og:description" content="${description}"><meta property="og:url" content="https://thecatrave.com/uk-electronic-music-evolution"><meta property="og:image" content="https://thecatrave.com/img/people%20dancing-1200.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="UK Electronic Music Evolution: Genres, Scenes and History"><meta name="twitter:description" content="${description}"><meta name="twitter:image" content="https://thecatrave.com/img/people%20dancing-1200.webp">
-<link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">
-<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:'The Evolution of UK Electronic Music',description,datePublished:'2025-04-04',dateModified:'2026-08-29',mainEntityOfPage:'https://thecatrave.com/uk-electronic-music-evolution',image:'https://thecatrave.com/img/people%20dancing-1200.webp',author:{'@type':'Person',name:'thecatrave',url:'https://thecatrave.com/'},publisher:{'@type':'Organization',name:'thecatrave',url:'https://thecatrave.com/'},inLanguage:'en-GB'})}</script></head>
-<body class="article-page"><a class="skip-link" href="#main-content">Skip to content</a>${header}
-<main id="main-content"><article><header class="article-hero"><p class="article-kicker">UK electronic music history</p><h1>The Evolution of UK Electronic Music</h1><p class="article-deck">From acid house and bleep to jungle, UK garage, grime, dubstep and the scenes reshaping British club music now.</p>
-<nav class="article-toc" id="contents" aria-label="Contents"><h2>Contents</h2><ol><li><a href="#why-the-uk">Why the UK produced so many scenes</a></li><li><a href="#genre-map">Genre and date map</a></li><li><a href="#acid-and-bleep">1987–91: acid house and bleep</a></li><li><a href="#hardcore-jungle-dnb">1990–98: hardcore, jungle and D&amp;B</a></li><li><a href="#uk-garage">1993–2001: UK garage</a></li><li><a href="#other-1990s">The other 1990s</a></li><li><a href="#dubstep-grime-funky">2000–09: dubstep, grime and UK funky</a></li><li><a href="#hybrid-club">2010–16: hybrid club music</a></li><li><a href="#current-era">2017–present: renewed scenes</a></li><li><a href="#future">What happens next?</a></li><li><a href="#genre-guide">Genre guide and FAQ</a></li></ol></nav></header>
+const faqQuestions = ['What electronic music genres originated in the UK?','Why did the UK create so many electronic music genres?','Did jungle come before drum and bass?','How did UK garage lead to grime and dubstep?','What role did pirate radio play in UK electronic music?','What happened to UK electronic music after dubstep?','Is UK garage still popular in 2026?','Who are the key UK electronic music artists?'];
+const faqItems = faqQuestions.map(question => {
+  const answerHtml = paragraphs(question);
+  return {question, answerHtml, answer:plainText(answerHtml)};
+});
+const ukStructured = articleStructuredData({headline:'The Evolution of UK Electronic Music',description,datePublished:'2025-04-04',dateModified:'2026-08-29',canonical:'https://thecatrave.com/uk-electronic-music-evolution',image:'https://thecatrave.com/img/people%20dancing-1200.webp'});
+const ukFaqStructured = faqStructuredData({items:faqItems});
+const ukBreadcrumbs = breadcrumbStructuredData({name:'UK electronic music history',canonical:'https://thecatrave.com/uk-electronic-music-evolution'});
+const page = articlePage({
+  title:'UK Electronic Music Evolution: Genres, Scenes and History', description,
+  canonical:'https://thecatrave.com/uk-electronic-music-evolution', ogImage:'https://thecatrave.com/img/people%20dancing-1200.webp',
+  datePublished:'2025-04-04', dateModified:'2026-08-29', structuredData:[ukStructured,ukFaqStructured,ukBreadcrumbs],
+  articleHtml:`${articleHero({kicker:'UK electronic music history',title:'The Evolution of UK Electronic Music',deck:'From acid house and bleep to jungle, UK garage, grime, dubstep and the scenes reshaping British club music now.',readingTime:`~${readingMinutes} min read`,dateModified:'2026-08-29',dateLabel:'29 August 2026',tocItems:[
+    {id:'why-the-uk',label:'Why the UK produced so many scenes'},{id:'genre-map',label:'Genre and date map'},
+    {id:'acid-and-bleep',label:'1987–91: acid house and bleep'},{id:'hardcore-jungle-dnb',label:'1990–98: hardcore, jungle and D&B'},
+    {id:'uk-garage',label:'1993–2001: UK garage'},{id:'other-1990s',label:'The other 1990s'},
+    {id:'dubstep-grime-funky',label:'2000–09: dubstep, grime and UK funky'},{id:'hybrid-club',label:'2010–16: hybrid club music'},
+    {id:'current-era',label:'2017–present: renewed scenes'},{id:'future',label:'What happens next?'},{id:'genre-guide',label:'Genre guide and FAQ'}
+  ]})}
 <section class="floating-block article-section article-intro">${paragraphs('The Evolution of UK Electronic Music',2)}${image('img/people dancing','Crowd dancing closely in a dark club','','feature-image')}</section>
 <section class="floating-block article-section" id="why-the-uk"><h2>Why did the UK produce so many electronic music scenes?</h2>${paragraphs('Why Did the UK Create So Many Electronic Music Genres?')}</section>
 ${genreMap()}
@@ -87,11 +144,9 @@ ${era('hybrid-club','2010–2016','After dubstep, the useful labels get wider an
 ${era('current-era','2017–present','UK garage, jungle and 140 return without becoming museum pieces.',paragraphs('New UK Garage and the Underground Jungle Revival, 2017 to 2019')+soundcloudFeature('i-like-to-smoke-in-silence-after-raves','I Like to Smoke in Silence After Raves','The recent revival is less about one genre winning than older rhythms meeting in new sets. I spent about four months arranging these 30 tracks into one long arc.')+paragraphs('Jungle and UK Garage Find a New Audience, 2020 to 2022')+paragraphs('UK Garage, Speed Garage, Jungle and 140 Converge, 2023 to 2024')+paragraphs('UK Garage, Jungle and Bass Music Expand Again, 2025 to 2026')+listeningBlock(videos.current,'These examples show revival as reuse rather than reenactment: garage swing, breakbeat science and 140 pressure circulate together.'))}
 <section class="floating-block article-section future-section" id="future"><p class="era-years">After 2026</p><h2>What happens next?</h2>${paragraphs('What Is Next for UK Electronic Music?',3)}</section>
 <section class="floating-block article-section" id="genre-guide"><h2>A quick guide to the main UK electronic music genres.</h2>${paragraphs('How to Recognise the Main UK Electronic Music Genres')}${table('How to Recognise the Main UK Electronic Music Genres')}</section>
-<section class="floating-block article-section faq-section" id="faq"><h2>Frequently asked questions.</h2>${['What electronic music genres originated in the UK?','Why did the UK create so many electronic music genres?','Did jungle come before drum and bass?','How did UK garage lead to grime and dubstep?','What role did pirate radio play in UK electronic music?','What happened to UK electronic music after dubstep?','Is UK garage still popular in 2026?','Who are the key UK electronic music artists?'].map((q,index)=>`<details${index === 0 ? ' open' : ''}><summary>${q}</summary>${paragraphs(q)}</details>`).join('')}</section>
+${articleFaq({items:faqItems})}
 ${author}
-<section class="floating-block article-section sources-section" id="sources"><h2>Sources.</h2>${linkList('Sources and Further Reading')}</section>
+${articleSources({bodyHtml:linkList('Sources and Further Reading')})}
 ${support}
-${relatedArticles}</article></main>
-${articleFooter()}
-${analytics()}</body></html>`;
+${relatedArticles}`});
 fs.writeFileSync('uk-electronic-music-evolution.html', page);
