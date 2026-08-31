@@ -1,8 +1,11 @@
 import fs from 'node:fs';
-import {analytics, homeFooter, nowPlayingBanner, siteHeader} from './site-components.mjs';
+import {homeArticlesWithReadingTimes} from './home-articles.mjs';
+import {analytics, homeArticlesSection, homeFooter, nowPlayingBanner, siteHeader} from './site-components.mjs';
 
 const path = 'index.html';
 let page = fs.readFileSync(path, 'utf8');
+
+const homeArticles = homeArticlesWithReadingTimes();
 
 function replaceComponent(name, html) {
   const start = `<!-- component:${name}:start -->`;
@@ -28,6 +31,7 @@ replaceComponent('now-playing', nowPlayingBanner({
   meta: '30 tracks / DJ mix',
   href: 'https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves'
 }));
+replaceComponent('home-articles', homeArticlesSection({items:homeArticles}));
 replaceComponent('home-footer', homeFooter());
 replaceComponent('analytics', analytics());
 

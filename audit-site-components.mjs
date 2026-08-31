@@ -1,5 +1,6 @@
 import fs from 'node:fs';
-import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
+import {homeArticlesWithReadingTimes} from './home-articles.mjs';
+import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
 
 const pages = {
   home: fs.readFileSync('index.html', 'utf8'),
@@ -62,6 +63,8 @@ const expectedNowPlaying = nowPlayingBanner({
   meta:'30 tracks / DJ mix',
   href:'https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves'
 });
+const currentHomeArticles = homeArticlesWithReadingTimes();
+const expectedHomeArticles = homeArticlesSection({items:currentHomeArticles});
 const expectedArticleHeader = siteHeader({variant:'article'});
 const expectedAuthorCard = authorCard({filled:true});
 const expectedBreakbeatToc = articleTableOfContents({items:[
@@ -147,6 +150,11 @@ const checks = {
   homeHeaderShared: pages.home.includes(expectedHomeHeader),
   homeFooterShared: pages.home.includes(homeFooter()),
   nowPlayingShared: pages.home.includes(expectedNowPlaying),
+  homeArticlesShared: pages.home.includes(expectedHomeArticles),
+  homeArticleCount: count(pages.home, /<span class="number">A0[1-4]<\/span>/g) === 4,
+  homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
+  homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
+  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
   homeAnalyticsShared: pages.home.includes(analytics()),
   breakbeatHeaderShared: pages.breakbeat.includes(expectedArticleHeader),
   breakbeatFooterShared: pages.breakbeat.includes(articleFooter()),
@@ -208,7 +216,7 @@ const checks = {
   }),
   essentialListeningFullBleedCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector)),
   bandcampTrueViewportWidth: ['position: relative','left: 50%','width: 100vw','transform: translateX(-50%)'].every(declaration => bandcampFullBleedRule.includes(declaration)),
-  homeMarkersComplete: ['home-header','now-playing','home-footer','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
+  homeMarkersComplete: ['home-header','now-playing','home-articles','home-footer','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
 };
 
 console.log(JSON.stringify(checks, null, 2));

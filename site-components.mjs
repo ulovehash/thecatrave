@@ -47,6 +47,29 @@ export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {
   return `<aside class="now-playing" aria-label="Featured DJ mix"><span><i></i> Now playing</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
 }
 
+export function homeArticlesSection({items = []} = {}) {
+  if (!items.length) throw new Error('homeArticlesSection requires at least one article.');
+  const cards = items.map((item, index) => {
+    requireFields('homeArticlesSection item', {
+      href:item.href,
+      type:item.type,
+      topic:item.topic,
+      readingTime:item.readingTime,
+      title:item.title,
+      description:item.description,
+      image:item.image,
+      width:item.width,
+      height:item.height,
+      alt:item.alt
+    });
+    const srcset = item.srcset ? ` srcset="${escapeHtml(item.srcset)}"` : '';
+    const sizes = item.sizes || '(max-width:767px) 100vw,50vw';
+    const number = `A${String(index + 1).padStart(2, '0')}`;
+    return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read article →</b></a></article>`;
+  }).join('');
+  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">05 / Articles</p><div><h2 id="articles-title">Notes from the underground.</h2><p>Long-form articles about the sounds, scenes, technology and communities behind underground club culture.</p></div></header><div class="article-grid">${cards}</div></section>`;
+}
+
 export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} = {}) {
   const classes = [className, 'article-listen'].filter(Boolean).join(' ');
   return `<aside class="${classes}" aria-label="${escapeHtml(ariaLabel)}"><strong>${escapeHtml(label)}:</strong> ${bodyHtml}</aside>`;
