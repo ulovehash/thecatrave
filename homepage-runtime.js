@@ -22,7 +22,7 @@
       loadFrame(entry.target);
       observer.unobserve(entry.target);
     });
-  }, {rootMargin:'160px 0px'});
+  }, {rootMargin:'40px 0px'});
 
   frames.forEach(frame => observer.observe(frame));
 })();
