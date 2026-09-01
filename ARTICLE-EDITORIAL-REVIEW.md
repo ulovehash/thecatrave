@@ -140,3 +140,15 @@ An article is ready for layout only when:
 - the review identifies no unresolved major structural issue.
 
 After layout, run the repository audits and visual QA described in `ARTICLE-PRODUCTION-WORKFLOW.md`. A strong editorial review does not replace technical, responsive or embed verification.
+
+## 8. Reconcile the review with implementation and publication
+
+The review remains part of the permanent handoff after layout. Before an authorised push, compare its recommendations with the implemented generator and generated page:
+
+- mark material recommendations as implemented, superseded or intentionally rejected;
+- record final media, listening, metadata and structural decisions when they differ from the reviewed proposal;
+- remove unresolved warnings only when evidence or user approval actually resolved them;
+- keep Search Console preservation requirements visible for later performance monitoring;
+- ensure the page-specific media or research record names the assets that were ultimately published, not only earlier candidates.
+
+After every authorised push, include this review and its related research artefacts in the documentation-parity check defined in `ARTICLE-PRODUCTION-WORKFLOW.md`. If the pushed page differs materially from the accepted review, the publishing cycle is not complete until the handoff explains that difference and any required follow-up push is explicitly authorised.

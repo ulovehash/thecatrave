@@ -4,6 +4,8 @@ import {analytics, homeArticlesSection, homeFooter, nowPlayingBanner, siteHeader
 
 const path = 'index.html';
 let page = fs.readFileSync(path, 'utf8');
+const homeStyles = fs.readFileSync('thecatrave-home.css', 'utf8').trim();
+const homeRuntime = fs.readFileSync('homepage-runtime.js', 'utf8').trim();
 
 const homeArticles = homeArticlesWithReadingTimes();
 
@@ -16,6 +18,7 @@ function replaceComponent(name, html) {
   page = `${page.slice(0, from)}${start}\n  ${html}\n  ${end}${page.slice(to + end.length)}`;
 }
 
+replaceComponent('home-styles', `<style>${homeStyles}</style>`);
 replaceComponent('home-header', siteHeader({
   variant: 'home',
   navItems: [
@@ -33,6 +36,7 @@ replaceComponent('now-playing', nowPlayingBanner({
 }));
 replaceComponent('home-articles', homeArticlesSection({items:homeArticles}));
 replaceComponent('home-footer', homeFooter());
+replaceComponent('home-runtime', `<script>${homeRuntime}</script>`);
 replaceComponent('analytics', analytics());
 
 fs.writeFileSync(path, page);

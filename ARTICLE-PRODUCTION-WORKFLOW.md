@@ -8,6 +8,8 @@ This is the cold-start guide for an agent working on a new or existing thecatrav
 - `ARTICLE-EDITORIAL-REVIEW.md`: the repeatable factual, senior-editor, language and SEO-preservation review protocol.
 - `SITE-COMPONENTS.md`: the reusable component API, design contract, build commands and integration rules.
 - `site-components.mjs`: shared semantic HTML components. Change a repeated pattern here, never in one generated page only.
+- `home-articles.mjs`: homepage article-card catalog and automatic reading-time source.
+- `build-home.mjs`: refreshes shared homepage regions, including the article section, from their source components.
 - `thecatrave-home.css`: global colours, fonts, spacing and motion tokens.
 - `thecatrave-article.css`: article widths, typography, section rhythm, media and responsive behaviour.
 - `build-*-article.mjs`: page-specific content and component assembly.
@@ -180,6 +182,8 @@ If a required pattern does not exist, extend `site-components.mjs` and its audit
 8. Perform visual QA at approximately 1440, 1024, 768, 430 and 390 CSS pixels.
 9. Inspect real embed loading, media quality, spacing and overflow.
 10. Compare the final page against the preservation inventory.
+11. When an article is published or materially updated, add or refresh its homepage catalog entry in `home-articles.mjs`, rebuild `index.html` and verify that the reading time is taken from the generated article rather than typed independently.
+12. When performance code, fonts, the LCP image, Analytics or homepage embeds change, compare the implementation with the relevant PageSpeed diagnostics. A new PageSpeed score is only meaningful after the updated files have been published.
 
 Do not claim browser or visual QA when the browser was unavailable or blocked.
 
@@ -212,3 +216,30 @@ For every major article project, retain:
 - automated audit.
 
 These artefacts make the reasoning reproducible. The generated page alone is not an adequate handoff.
+
+## 12. Documentation parity before a push
+
+Documentation is part of the implementation, not optional cleanup. Before any authorised push, inspect the complete diff and update the relevant records in the same commit:
+
+- shared component or layout change: `SITE-COMPONENTS.md`, and `AGENTS.md` or this workflow when the permanent rule changes;
+- new or substantially revised article: its research, preservation, editorial-review and media-research artefacts;
+- new homepage article or card behaviour: `home-articles.mjs`, `README.md` and the homepage section contract in `SITE-COMPONENTS.md`;
+- new audit or QA invariant: the appropriate audit script and the written QA checklist;
+- changed implementation decision: record the final choice in the page-specific handoff instead of leaving only an earlier candidate or proposal.
+
+Do not leave documentation describing only the pre-implementation plan when the published result differs. If documentation drift is discovered after pushing, the publishing cycle remains incomplete until the documentation is corrected and an explicitly authorised follow-up push is completed.
+
+## 13. Mandatory post-push verification
+
+Run this checklist after every authorised push to `main`:
+
+1. Read the remote `main` head through GitHub or fetch it directly.
+2. Confirm the remote commit message and SHA match the intended publication.
+3. Confirm local `HEAD` and `origin/main` resolve to the same SHA.
+4. Confirm the worktree is clean and no approved file was omitted.
+5. Recheck documentation parity against the pushed diff, including shared guides and page-specific research/handoff files.
+6. Confirm no unnecessary branch was created and no force update was used unless explicitly approved.
+7. If the push includes performance work, run a fresh mobile PageSpeed report against the live URL and record the new score, Core Web Vitals diagnostics and any remaining third-party limitations.
+7. Report the commit link, verification result and any deployment or visual checks that remain outstanding.
+
+The post-push check does not replace pre-push builds, audits or visual QA. It proves that the verified local result and its documentation are the result now present on remote `main`.

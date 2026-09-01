@@ -15,6 +15,7 @@ const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readF
 const generatorSources = Object.values(generators);
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
 const homeCss = fs.readFileSync('thecatrave-home.css', 'utf8');
+const homeRuntime = fs.readFileSync('homepage-runtime.js', 'utf8').trim();
 const bandcampFullBleedRule = articleCss.match(/\.article-cta-full\s*\{([^}]*)\}/)?.[1] || '';
 const count = (html, pattern) => (html.match(pattern) || []).length;
 const decodeHtmlText = value => String(value || '')
@@ -155,7 +156,13 @@ const checks = {
   homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
   homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
+  homeStylesInlined: pages.home.includes(`<style>${homeCss.trim()}</style>`),
+  homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 13 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
+  homeHeroOptimized: ['thecatrave-home-640.webp','thecatrave-home-720.webp','thecatrave-home-960.webp','thecatrave-home-1200.webp'].every(asset => fs.existsSync(`img/${asset}`) && pages.home.includes(asset)) && !pages.home.includes('src="img/thecatrave-1200.webp"'),
+  homeFontsNonBlocking: count(pages.home, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2,
   homeAnalyticsShared: pages.home.includes(analytics()),
+  analyticsAsyncEarly: Object.values(pages).every(page => page.includes('<script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script>') && page.indexOf('googletagmanager.com/gtag/js') < page.indexOf('</head>')),
+  articleFontsNonBlocking: articlePages.every(page => count(page, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2),
   breakbeatHeaderShared: pages.breakbeat.includes(expectedArticleHeader),
   breakbeatFooterShared: pages.breakbeat.includes(articleFooter()),
   breakbeatAnalyticsShared: pages.breakbeat.includes(analytics()),
@@ -216,7 +223,7 @@ const checks = {
   }),
   essentialListeningFullBleedCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector)),
   bandcampTrueViewportWidth: ['position: relative','left: 50%','width: 100vw','transform: translateX(-50%)'].every(declaration => bandcampFullBleedRule.includes(declaration)),
-  homeMarkersComplete: ['home-header','now-playing','home-articles','home-footer','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
+  homeMarkersComplete: ['home-styles','home-header','now-playing','home-articles','home-footer','home-runtime','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
 };
 
 console.log(JSON.stringify(checks, null, 2));

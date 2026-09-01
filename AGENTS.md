@@ -296,6 +296,11 @@ These rules are mandatory.
 - Prefer modern, appropriately sized assets. Do not ship a huge source file when the rendered image is small.
 - Lazy-load below-the-fold embeds and images where appropriate.
 - Avoid unnecessary third-party scripts and repeated platform embeds.
+- Native `loading="lazy"` is not sufficient for a homepage containing many Spotify, SoundCloud or Bandcamp players. Homepage players use `data-src` and the shared IntersectionObserver runtime so an embed loads only when it is within 160px of the viewport; it must still become a normal directly playable iframe before the reader reaches it.
+- The homepage LCP image must use a compressed responsive source set near its real rendered sizes, intrinsic dimensions, `fetchpriority="high"` and an image preload with matching `imagesrcset` and `imagesizes`. Do not restore the old 558KB hero as the displayed source.
+- Keep the small homepage stylesheet inline through `build-home.mjs`, while `thecatrave-home.css` remains the editable source of truth. External font stylesheets must not block the first render and must retain system fallbacks plus a `noscript` fallback.
+- Shared Analytics follows Google's standard early `async` installation in `<head>` so short visits and automatic page views are not lost. Give the external script `fetchpriority="low"` so it does not outrank the LCP image; do not add arbitrary interaction or multi-second delays.
+- Treat a supplied PageSpeed report as measured evidence: record the failing resources and diagnostics, fix their source rather than chasing the score, then run a fresh mobile report after publication.
 - Structured data, visible dates and metadata must agree. A schema date that differs from the visible update date is a failed QA check.
 
 ## 13. Repository and generation rules
@@ -316,9 +321,12 @@ These rules are mandatory.
   - `readNext()` for article recommendations after the Bandcamp block;
   - `articleFooter()` for the compact article footer.
 - These variants are site-wide patterns, not Jungle-only exceptions. Do not recreate their markup or width rules under a page-specific class. Pass content and visual variants through component parameters.
-- Current article consistency contract: Breakbeat, Jungle and UK Electronic Music must all consume `siteHeader()`, `articleTableOfContents()`, `authorCard({filled:true})`, `bandcampSupport()`, `readNext()` and `articleFooter()`. Any standalone contextual Spotify or SoundCloud feature must consume `articleListeningBand()`. A change to one of these shared types must be followed by rebuilding and auditing all three pages.
+- Current article consistency contract: Breakbeat, Jungle, UK Electronic Music and Bass Music must all consume `siteHeader()`, `articleTableOfContents()`, `authorCard({filled:true})`, `bandcampSupport()`, `readNext()` and `articleFooter()`. Any standalone contextual Spotify or SoundCloud feature must consume `articleListeningBand()`. A change to one of these shared types must be followed by rebuilding and auditing all four pages.
 - Component usage and extension rules live in `SITE-COMPONENTS.md`.
 - The homepage keeps valid fallback HTML between explicit component markers and is refreshed with `build-home.mjs`.
+- Homepage performance source files are `thecatrave-home.css`, `homepage-runtime.js` and the responsive `img/thecatrave-home-*.webp` hero set. `build-home.mjs` inlines the CSS and runtime into their marked regions; do not hand-edit those generated regions.
+- Homepage article cards must come from `homeArticlesSection()` and the catalog in `home-articles.mjs`. Reading time is extracted from each generated article; never maintain a second manual value in `index.html`.
+- The shared homepage card grid is one column on mobile, two on tablet and four on wide desktop. Card links fill the complete card and use one consistent cyan hover/focus state. Do not add a one-off first-card colour.
 - After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion.
 - For the breakbeat article:
   - editorial source: `breakbeat-guide-draft.md`;
@@ -332,6 +340,14 @@ These rules are mandatory.
   - generated page: `jungle-music-guide.html`;
   - article styles: `thecatrave-article.css`;
   - automated audit: `audit-jungle.mjs`.
+- For the bass music article:
+  - research and semantic kernel: `bass-music-research.md`;
+  - editorial review: `bass-music-editorial-review.md`;
+  - media research: `bass-music-media-research.md`;
+  - editorial source: `bass-music-draft.md`;
+  - page generator: `build-bass-music-article.mjs`;
+  - generated page: `bass-music-guide.html`;
+  - automated audit: `audit-bass-music.mjs`.
 - When changing the breakbeat or Jungle article, update the appropriate source or generator, rebuild, then audit.
 - Keep media filenames descriptive and stable.
 - Do not remove old assets merely because they are unused unless deletion is explicitly requested.
@@ -397,7 +413,16 @@ These rules are mandatory.
 - Breadcrumb and FAQ structured data match visible page content.
 - No unrequested push, merge, branch creation or deletion occurred.
 
-## 16. Breakbeat article build and verification
+## 16. Documentation parity and post-push verification
+
+- Documentation must be updated in the same commit as the code, research conclusion, component or design rule it describes whenever possible.
+- After every authorised push, inspect the pushed diff for documentation drift. Shared component changes require `SITE-COMPONENTS.md`; permanent workflow changes require this file and `ARTICLE-PRODUCTION-WORKFLOW.md`; final article decisions require the page-specific research, review or media handoff.
+- A push is not considered fully verified until the remote `main` SHA and commit message are confirmed, local `HEAD` equals `origin/main`, the worktree is clean and no approved file is missing.
+- Do not create a duplicate branch for this verification. Do not force-update `main` unless the user explicitly approves it.
+- If documentation drift is found only after the push, correct it locally and report that a follow-up push is still required. Never claim the publishing cycle is complete while the repository instructions describe an older system.
+- The completion message after a push must include the commit link and state whether remote synchronisation, documentation parity, audits and visual QA were verified.
+
+## 17. Breakbeat article build and verification
 
 For relevant changes, run:
 

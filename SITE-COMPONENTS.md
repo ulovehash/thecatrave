@@ -13,9 +13,10 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - `breadcrumbStructuredData({name, canonical})`: two-level Home → Article breadcrumb schema.
 - `faqStructuredData({items})`: FAQ schema generated from the same approved visible questions and answers.
 - `siteHeader({variant, navItems})`: homepage or article header with the wordmark, optional navigation and shared social icons.
+- `homeArticlesSection({items})`: complete homepage Articles section. Items provide URL, type, topic, title, description, image metadata and a reading-time value supplied by `home-articles.mjs`.
 - `homeFooter()`: homepage footer.
 - `articleFooter()`: compact article footer.
-- `analytics()`: shared Google Analytics markup.
+- `analytics()`: shared Google Analytics markup in `<head>`. It uses Google's standard early `async` installation so automatic page views and short visits are preserved, plus `fetchpriority="low"` so the analytics download does not outrank the LCP image.
 
 ### Banners and calls to action
 
@@ -86,11 +87,19 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 
 ## Current integration
 
-- `build-home.mjs` refreshes the component regions inside `index.html` using explicit start/end markers.
+- `home-articles.mjs` is the single source of truth for homepage article cards. `homeArticlesWithReadingTimes()` reads each generated article's visible `.reading-time` value and normalises it for the card label. Never type a second independent duration into `index.html`.
+- `build-home.mjs` refreshes the component regions inside `index.html` using explicit start/end markers, including `home-articles`.
+- `thecatrave-home.css` and `homepage-runtime.js` remain maintainable source files; `build-home.mjs` inlines them into the marked `home-styles` and `home-runtime` regions. This removes one render-blocking CSS request and one runtime request without creating a second manually maintained copy.
+- Homepage Spotify, SoundCloud and Bandcamp iframes keep their platform URL in `data-src`. `homepage-runtime.js` assigns the real `src` when a player approaches the viewport, preserving a directly playable embed while preventing every third-party player from loading during the initial visit.
+- The homepage hero uses `img/thecatrave-home-640.webp`, `-720.webp`, `-960.webp` and `-1200.webp`, plus a matching preload. These are display assets; the larger legacy social/source image must not return as the visible LCP source.
+- External font CSS is loaded without blocking first paint and retains system fallbacks. The shared article shell uses the same font-loading policy.
+- The homepage article grid uses one column on mobile, two columns from the tablet breakpoint and four columns on wide desktop. The wide layout keeps four current articles in one row so the section remains compact. Every card link fills the card's complete width and height; hover and keyboard focus use the same full-card cyan state. Do not add a different first-card colour.
+- Homepage card images use local responsive assets, intrinsic dimensions, descriptive alt text and `object-fit: cover`. The Bass Music card uses the local 480px and 1400px Loc Ace and Vic archive image; the article's global-history graphic remains an in-article explanatory visual rather than the card thumbnail.
 - `build-breakbeat-article.mjs` imports the shared article components.
 - `build-uk-article.mjs` imports the shared article components.
 - `build-jungle-article.mjs` preserves the approved Jungle editorial copy, then normalises its sections, figures, tables, Sources, listening blocks and YouTube embeds through the same shared components as the newer guides. The copy remains page-specific; repeated markup does not.
-- All three article generators publish through `articlePage()` and render their visible opening through `articleHero()`. A change to shared metadata, fonts, header/footer structure or hero semantics therefore reaches every current article after rebuilding.
+- `build-bass-music-article.mjs` assembles the Bass Music guide from the same shared article system.
+- All four article generators publish through `articlePage()` and render their visible opening through `articleHero()`. A change to shared metadata, fonts, header/footer structure or hero semantics therefore reaches every current article after rebuilding.
 
 ## Build and verification
 
@@ -101,10 +110,12 @@ node build-home.mjs
 node build-breakbeat-article.mjs
 node build-uk-article.mjs
 node build-jungle-article.mjs
+node build-bass-music-article.mjs
 node audit-site-components.mjs
 node audit-jungle.mjs
 node audit-breakbeat.mjs
 node audit-uk.mjs
+node audit-bass-music.mjs
 ```
 
 `build-home.mjs` is idempotent: running it twice must produce no second change. Generated article pages should retain the same public HTML when only the internal component implementation changes.
@@ -112,6 +123,8 @@ node audit-uk.mjs
 The Jungle generator refreshes every section wrapper, figure, table, Sources block, marked listening block and YouTube embed from the shared component functions. Update the component or its page-specific data in `build-jungle-article.mjs`; do not edit generated repeated markup in `jungle-music-guide.html` alone.
 
 `audit-site-components.mjs` also checks the generators themselves. All current article generators must consume the shared page shell, hero, contents, figures, tables, Sources, author card, Bandcamp CTA and Read Next components. A block may be absent from a page when its editorial content is genuinely absent, such as an FAQ, but a hand-written duplicate of an existing shared pattern is not allowed.
+
+The shared audit also verifies the homepage article component, card count, live reading-time values, local card assets, article links, the one/two/four-column responsive contract, inlined source CSS/runtime, deferred third-party players, non-blocking fonts, early asynchronous low-priority Analytics and the optimized hero source set.
 
 ## Adding a new component
 

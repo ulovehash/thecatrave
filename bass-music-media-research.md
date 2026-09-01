@@ -94,6 +94,8 @@ The shared author portrait is intentionally reusable only inside the shared auth
 
 **Candidate:** the archival Loc Ace and Vic photograph in front of the speaker wall, or the Chipman mobile-DJ scene. The source also documents Pac Jam, regulating, speaker builders and community events.
 
+**Implemented homepage treatment, 1 September 2026:** the Loc Ace and Vic photograph is the Bass Music article-card thumbnail. Local responsive files are stored at `img/bass-music/miami-bass-loc-ace-vic-480.jpg` and `img/bass-music/miami-bass-loc-ace-vic-1400.jpg`. The branded global-history SVG remains inside the article because it explains the page's parallel-history argument, but it is too diagrammatic for the compact homepage card.
+
 **Alternative artefact:** the [Miami Fresh Festival Globe poster](https://jointcustodydc.com/products/vintage-miami-fresh-festival-m-c-cool-rock-m-c-chaszy-chess-ice-man-ja-dynamix-ii-baron-davis-and-the-fresh-crew-globe-poster-printing-corp-show-poster), which includes Dynamix II and other regional bass acts.
 
 **Editorial job:** show Miami bass as a South Florida social and sound-system history that predates American dubstep.
