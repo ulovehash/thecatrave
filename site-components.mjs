@@ -220,3 +220,33 @@ export function homeFooter() {
 export function analytics() {
   return `<script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
 }
+
+
+export function articleMixEntry({
+  id,
+  index,
+  city,
+  format = 'DJ SET',
+  title,
+  youtubeId,
+  tone = 'paper',
+  backgroundWord = '',
+  genres = [],
+  moods = [],
+  metrics = [],
+  description,
+  tracklist = [],
+  tracklistLabel = 'Tracklist'
+} = {}) {
+  requireFields('articleMixEntry', {id,index,city,title,youtubeId,description});
+  const allowedTones = ['paper','cyan','yellow','coral','ink'];
+  if (!allowedTones.includes(tone)) throw new Error(`Unsupported mix tone: ${tone}`);
+  const tags = [...genres, ...moods].map(tag => `<span>${escapeHtml(tag)}</span>`).join('');
+  const meters = metrics.map(metric => {
+    const score = Math.max(0, Math.min(10, Number(metric.score) || 0));
+    return `<div class="mix-meter-row"><span>${escapeHtml(metric.label)}</span><i aria-hidden="true"><b style="--mix-score:${score * 10}%"></b></i><strong>${score.toFixed(score % 1 ? 1 : 0)}/10</strong></div>`;
+  }).join('');
+  const tracks = tracklist.map(item => `<li>${item.time ? `<time>${escapeHtml(item.time)}</time>` : ''}<span>${escapeHtml(item.track)}</span></li>`).join('');
+  const details = tracks ? `<details class="mix-tracklist"><summary>${escapeHtml(tracklistLabel)} <span aria-hidden="true">+</span></summary><ol>${tracks}</ol></details>` : '';
+  return `<section class="floating-block mix-poster mix-tone-${tone}" id="${escapeHtml(id)}">${backgroundWord ? `<span class="mix-poster-word" aria-hidden="true">${escapeHtml(backgroundWord)}</span>` : ''}<header class="mix-topline"><span>${String(index).padStart(2,'0')} / ${escapeHtml(city)}</span><span>${escapeHtml(format)}</span></header><div class="mix-poster-grid"><div class="mix-copy"><h2>${escapeHtml(title)}</h2><div class="mix-tags">${tags}</div><p>${escapeHtml(description)}</p>${meters ? `<div class="mix-meters">${meters}</div>` : ''}</div><div class="mix-video"><iframe data-src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(title)} on YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>${details}</section>`;
+}
