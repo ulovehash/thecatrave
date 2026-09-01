@@ -145,3 +145,16 @@ The shared audit also verifies the homepage article component, card count, live 
 - Give every image alt text and intrinsic width/height; give every iframe a descriptive title.
 - Use shared figure, table, Sources and listening primitives instead of copying their markup. When the approved article includes an FAQ, use the shared FAQ primitive and generate its structured data from the same content.
 - Run `audit-site-components.mjs`; it verifies the SEO shell, dates, landmarks, media accessibility, dimensions and design-token contract across all current articles.
+
+
+## Prototype component: articleMixEntry()
+
+The `prototype/best-dj-mixes` branch adds `articleMixEntry()` for the DJ-mix archive prototype. It renders one full-width, poster-like listening block with:
+
+- one visible YouTube player loaded from `data-src`;
+- sound and mood tags;
+- lightweight CSS mood meters;
+- an optional native `<details>` tracklist;
+- a scoped tone from the existing paper, cyan, yellow, coral and ink palette.
+
+The component is intentionally used only by the DJ-mixes prototype until the visual direction is approved. The page-specific CSS lives in `best-dj-mixes-prototype.css`, and `best-dj-mixes-prototype.js` only lazy-loads YouTube frames before they enter the viewport.
