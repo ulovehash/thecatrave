@@ -85,7 +85,7 @@ h1{max-width:15ch;margin-bottom:1.5rem;font-size:clamp(2.65rem,5.4vw,4.6rem)}
 .now-playing small{opacity:.6}
 .now-playing a{grid-column:2;grid-row:1;text-decoration:none;font-weight:700}
 
-.section-shell{max-width:1440px;margin:auto;padding:4.5rem var(--gutter);border-bottom:1px solid var(--line)}
+.section-shell{content-visibility:auto;contain-intrinsic-size:auto 900px;max-width:1440px;margin:auto;padding:4.5rem var(--gutter);border-bottom:1px solid var(--line)}
 .section-heading{margin-bottom:2.25rem}
 .section-heading>div{min-width:0}
 .section-heading h2,.bandcamp h2{margin-left:-.03em;margin-bottom:1.2rem;font-size:clamp(2.4rem,8vw,3.6rem)}
@@ -269,7 +269,7 @@ iframe[data-src]{transition:none}
       loadFrame(entry.target);
       observer.unobserve(entry.target);
     });
-  }, {rootMargin:'160px 0px'});
+  }, {rootMargin:'40px 0px'});
 
   frames.forEach(frame => observer.observe(frame));
 })();</script>
