@@ -144,6 +144,9 @@ Required principles:
 - Bandcamp belongs in the final support block;
 - the final Bandcamp block uses `fullBleed: true`, spans the viewport and normally embeds one to three releases that are genuinely relevant to the article; use a text-only CTA only when no suitable release has been selected;
 - images provide evidence, identity, geography, technology or chronology;
+- every image is Creative Commons, public domain or licensed to us; rights-reserved press, agency, magazine or label photographs are rejected even when a user supplies a direct URL and offers to sort out rights afterwards;
+- images are downloaded, converted to responsive `webp` (a wide variant plus `-320w`) and served from `img/<guide>/`; never hotlink;
+- `CC BY` / `CC BY-SA` images carry `Photograph: <author>, <licence>.` in the visible caption; other licensing plumbing stays in the media record;
 - text separates every image from every player or grouped media block;
 - images retain intrinsic proportions and include alt text, width and height;
 - do not reuse media from another article without a strong editorial reason.

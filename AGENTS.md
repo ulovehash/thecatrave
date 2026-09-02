@@ -201,9 +201,12 @@ These rules are mandatory.
   - never publish a baked checkerboard pretending to be transparency;
   - never add a dark halo or replacement background;
   - verify the asset actually renders when the article is opened locally and on the deployed site.
-- Do not add `Wikimedia Commons`, licensing instructions or media-credit housekeeping as visible captions unless the user specifically requests it.
+- Licensing is a hard gate. Only use images that are Creative Commons, public domain or explicitly licensed to us. Rights-reserved press, agency, magazine or label photographs (Getty, Guardian, Mixmag, DJ Mag, MusicRadar/Future, UKF and similar) are not usable even if a user supplies a direct URL and offers to handle rights afterwards.
+- Never hotlink. Download the source, convert to responsive `webp` (a wide variant plus a `-320w` variant) and serve it from `img/<guide>/`. A hotlinked image has already broken on the live site.
+- Attribution for `CC BY` / `CC BY-SA` images is legally required, so it goes in the visible caption as a short tail: `Photograph: <author>, <licence>.` This is the one licensing exception to the caption rule below — keep the "via Wikimedia Commons" plumbing and any longer instructions in the editorial record, not the caption.
+- Do not add other `Wikimedia Commons`, licensing-instruction or media-credit housekeeping to visible captions unless the user specifically requests it.
 - Captions should explain why the image matters to the argument, not merely repeat the alt text.
-- Keep source URLs and factual attribution available in editorial records or appropriate inline citations, but do not turn every public caption into licensing or archive housekeeping.
+- Keep source URLs and full factual attribution available in editorial records or appropriate inline citations, but do not turn every public caption into licensing or archive housekeeping.
 - Provide width and height attributes to prevent layout shift.
 - Use lazy loading for below-the-fold images. Treat the hero separately when performance testing supports eager loading.
 
@@ -253,8 +256,11 @@ These rules are mandatory.
   - around listening blocks;
   - between Sources, CTA, Read Next and footer.
 - A full-width colour block must have a clear purpose and must not become an arbitrary oversized banner.
-- Use colour to distinguish a small number of meaningful editorial modes, such as definition, listening route, present-day synthesis or future outlook. Do not alternate colours mechanically between every section.
+- One colour, site-wide. Body `articleSection`s are never toned: the `tone-cyan|yellow|coral` classes are retired from every build script and must not be reintroduced. Every Essential-listening block (`articleListeningCollection`, `articleListeningBand`, `articleVideoCollection`) is `tone: 'cyan'`, so a reader learns one signal: a cyan panel means "listen here". The only other colour is the cyan definition banner near the hero. `.listening-block` carries a cyan default background so video collections read as the same panel.
 - Definition blocks may reuse the cyan callout system established by `BREAKBEAT BEYOND THE CLUB`, but their visible label must describe their actual function and target language.
+- The section divider hairline (`.article-section` `border-top`) prints only between two sections on the same background. CSS drops it automatically after coloured content — a toned section, or a section ending flush with a full-bleed colour block (one bare `<a id>` anchor between is allowed for). Do not add per-section divider markup.
+- Essential-listening track rows: the artist is the mono kicker line on top, the track title is the `<h4>` with the release year appended as ` · YEAR` in a lighter span, then the note. A hairline sits between the intro header and the first track and between each pair of tracks. The row is a two-column `copy | player` grid that stacks below 1000px. Do not restore a separate floating year column.
+- Anchor targets sit flush: `.article-page [id] { scroll-margin-top: 0 }`. The article header is `position: static`, so a table-of-contents click lands the target's own top edge at the viewport top with nothing from the previous block showing. Do not add a large offset back.
 - Keep the table of contents compact, one-column and easy to scan. Hover states may use the site's accent colour. Do not underline every item by default.
 - Tables should have clear row hover states on pointer devices and remain horizontally usable on narrow screens.
 - Table-of-contents rows may use the same accent hover colour as data tables, but essential meaning must remain visible without hover.
@@ -309,7 +315,7 @@ These rules are mandatory.
 - Shared build-time page components live in `site-components.mjs`. Reuse these functions for headers, footers, social links, NOW PLAYING, author cards, Bandcamp CTAs, information banners, contextual Spotify/SoundCloud listening bands, direct YouTube embeds, Read Next and analytics instead of copying markup.
 - Approved reusable article blocks from the Jungle redesign are:
   - `infoBanner()` for the direct definition or meaning near the hero;
-  - `articleListeningBand()` for contextual Spotify and SoundCloud listening stripes, using `fullBleed: true` when the block should span the viewport and an explicit contrasting `tone` inside coloured sections;
+  - `articleListeningBand()` for contextual Spotify and SoundCloud listening stripes, using `fullBleed: true` when the block should span the viewport; `tone` is `cyan` for every Essential-listening block (see the one-colour rule in section 10 and `SITE-COMPONENTS.md`);
   - all curated genre and historical players share the visible label `Essential listening`; distinguish an exact track, mix and extended playlist in the block title or description rather than inventing a second listening concept; a clearly promotional thecatrave mix or remix may retain a specific contextual label;
   - every `Essential listening` block is full-bleed site-wide: `articleListeningBand()` applies `.article-media-band-full` automatically, `articleListeningCollection()` applies `.context-listening-full` by default, and `articleVideoCollection()` applies `.listening-block-full`; never override this per article;
   - use exact embedded tracks as evidence for the records discussed in the text, then add playlists only as clearly labelled extended listening routes; genre guides should include both when suitable material exists;
@@ -321,12 +327,12 @@ These rules are mandatory.
   - `readNext()` for article recommendations after the Bandcamp block;
   - `articleFooter()` for the compact article footer.
 - These variants are site-wide patterns, not Jungle-only exceptions. Do not recreate their markup or width rules under a page-specific class. Pass content and visual variants through component parameters.
-- Current article consistency contract: Breakbeat, Jungle, UK Electronic Music, Bass Music and Dubstep must all consume `siteHeader()`, `articleTableOfContents()`, `authorCard({filled:true})`, `bandcampSupport()`, `readNext()` and `articleFooter()`. `readNext()` is fed from `relatedArticles(currentPage)` in `home-articles.mjs`, not a hand-written per-page list, and renders the homepage cover-image card. Any standalone contextual Spotify or SoundCloud feature must consume `articleListeningBand()`; a dated multi-track block must consume `articleListeningCollection()` with `articleTrackEmbed()` players. A change to one of these shared types must be followed by rebuilding and auditing every page.
+- Current article consistency contract: Breakbeat, Jungle, UK Electronic Music, Bass Music, Dubstep and Drum and Bass must all consume `siteHeader()`, `articleTableOfContents()`, `authorCard({filled:true})`, `bandcampSupport()`, `readNext()` and `articleFooter()`. `readNext()` is fed from `relatedArticles(currentPage)` in `home-articles.mjs`, not a hand-written per-page list, and renders the homepage cover-image card. Any standalone contextual Spotify or SoundCloud feature must consume `articleListeningBand()`; a dated multi-track block must consume `articleListeningCollection()` with `articleTrackEmbed()` players. A change to one of these shared types must be followed by rebuilding and auditing every page.
 - Component usage and extension rules live in `SITE-COMPONENTS.md`.
 - The homepage keeps valid fallback HTML between explicit component markers and is refreshed with `build-home.mjs`.
 - Homepage performance source files are `thecatrave-home.css`, `homepage-runtime.js` and the responsive `img/thecatrave-home-*.webp` hero set. `build-home.mjs` inlines the CSS and runtime into their marked regions; do not hand-edit those generated regions.
-- Homepage article cards must come from `homeArticlesSection()` and the catalog in `home-articles.mjs` (currently five guides, cards A01 to A05). Reading time is extracted from each generated article; never maintain a second manual value in `index.html`. The same catalog feeds every article's Read Next block through `relatedArticles()`.
-- The shared card grid is one column on mobile and two on tablet. On wide desktop the in-article Read Next block is four across; the homepage Articles section (`#articles`) is five across so its five guides stay on one row. On tablet the homepage's odd last card spans the full row rather than leaving a half-width gap. Card links fill the complete card and use one consistent cyan hover/focus state. Do not add a one-off first-card colour.
+- Homepage article cards must come from `homeArticlesSection()` and the catalog in `home-articles.mjs` (currently six guides, cards A01 to A06). Reading time is extracted from each generated article; never maintain a second manual value in `index.html`. The same catalog feeds every article's Read Next block through `relatedArticles()`. `homeArticlesWithReadingTimes()` falls back to a placeholder time for a catalog entry whose page has not been built yet, so a new guide can be added to the catalog before its first build.
+- The shared card grid is one column on mobile and two on tablet. On wide desktop the in-article Read Next block is four across; the homepage Articles section (`#articles`) uses `repeat(auto-fit, minmax(min(100%, 12rem), 1fr))` so the row reflows as guides are added rather than being pinned to a fixed count. On tablet the homepage's odd last card spans the full row rather than leaving a half-width gap. Card links fill the complete card and use one consistent cyan hover/focus state. Do not add a one-off first-card colour.
 - After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion. Prefer `node audit-all.mjs` (rebuilds everything, runs every audit including `audit-seo.mjs`), or the full `npm run check` on Node 20.
 - For the breakbeat article:
   - editorial source: `breakbeat-guide-draft.md`;
@@ -348,6 +354,19 @@ These rules are mandatory.
   - page generator: `build-bass-music-article.mjs`;
   - generated page: `bass-music-guide.html`;
   - automated audit: `audit-bass-music.mjs`.
+- For the dubstep article:
+  - editorial source: `dubstep-guide-draft.md`;
+  - page generator: `build-dubstep-article.mjs`;
+  - generated page: `dubstep-guide.html`;
+  - automated audit: `audit-dubstep.mjs`.
+- For the drum and bass article:
+  - research and fact-check: `dnb-guide-research.md`, `dnb-guide-fact-check.md`;
+  - editorial review and permanent handoff: `drum-and-bass-guide-editorial-review.md`;
+  - editorial source: `drum-and-bass-guide-draft.md`;
+  - page generator: `build-dnb-article.mjs`;
+  - generated page: `drum-and-bass-guide.html`;
+  - automated audit: `audit-dnb.mjs`;
+  - pairs with the jungle guide: `drum-and-bass-guide` opens where jungle ends and links into jungle's permanent anchors `#myths`, `#breakbeats`, `#revival`; those anchors must not be renamed.
 - When changing the breakbeat or Jungle article, update the appropriate source or generator, rebuild, then audit.
 - Keep media filenames descriptive and stable.
 - Do not remove old assets merely because they are unused unless deletion is explicitly requested.

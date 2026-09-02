@@ -95,12 +95,14 @@ Before implementation, verify that the media matrix creates a readable rhythm:
 
 - exact tracks support specific claims and playlists are labelled as extended routes;
 - every player is directly playable and has a verified exact URL;
+- every Essential-listening block is `tone: 'cyan'` and no body section is toned (one-colour rule, `AGENTS.md` section 10);
 - images support evidence, identity, geography, technology or chronology;
+- every image is Creative Commons, public domain or licensed to us, localised to `img/<guide>/` as responsive `webp`, never hotlinked; rights-reserved press or agency photos are rejected regardless of a user offer to handle rights later;
 - the intended sequence contains meaningful text between figures and embeds;
 - image dimensions and natural aspect ratios suit their planned presentation;
 - low-resolution media is not enlarged beyond what its detail supports;
 - transparent artefacts have genuine transparency;
-- captions explain relevance rather than licensing housekeeping;
+- captions explain relevance rather than licensing housekeeping, except the required `Photograph: <author>, <licence>.` tail for `CC BY` / `CC BY-SA` images;
 - original graphics answer one clear question and have a mobile alternative.
 - the final Bandcamp stripe contains one to three releases that genuinely connect to the article, explains that connection in its copy and is planned as a true viewport-width block rather than a wide box inside the prose column.
 
