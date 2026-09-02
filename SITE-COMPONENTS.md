@@ -36,7 +36,7 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - `articleFaq({items, title, id, openFirst})`: shared FAQ section; questions are plain text and answers are approved HTML.
 - `articleSources({bodyHtml, title, id})`: shared compact Sources section.
 - `authorCard({filled})`: standard author block with the responsive thecatrave portrait, biography and platform links.
-- `readNext({items})`: related-article cards placed after the commercial CTA.
+- `readNext({items, title, kicker})`: related-article cards placed after the commercial CTA. Items are catalog rows (`href`, `type`, `topic`, `readingTime`, `title`, `description`, responsive `image`/`srcset`, `width`/`height`, `alt`, optional `number`) and render the same cover-image card as the homepage grid (`.article-grid` markup and CSS), one column on mobile, two on tablet, four on wide desktop. Feed it from `relatedArticles(currentPage)` in `home-articles.mjs` so every guide links to all the others from one source of truth; do not hand-write per-page item lists.
 - `socialLinks({icons, className, label})`: shared social/music links when a custom wrapper is needed.
 
 ### Listening collections
@@ -87,13 +87,13 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 
 ## Current integration
 
-- `home-articles.mjs` is the single source of truth for homepage article cards. `homeArticlesWithReadingTimes()` reads each generated article's visible `.reading-time` value and normalises it for the card label. Never type a second independent duration into `index.html`.
+- `home-articles.mjs` is the single source of truth for homepage article cards and for every article's Read Next block. `homeArticlesWithReadingTimes()` reads each generated article's visible `.reading-time` value and normalises it for the card label. `relatedArticles(currentPage)` returns the same catalog minus the current page, with a stable catalog-position `number`, for `readNext()`. Never type a second independent duration into `index.html` or a per-page related-links list into a generator.
 - `build-home.mjs` refreshes the component regions inside `index.html` using explicit start/end markers, including `home-articles`.
 - `thecatrave-home.css` and `homepage-runtime.js` remain maintainable source files; `build-home.mjs` inlines them into the marked `home-styles` and `home-runtime` regions. This removes one render-blocking CSS request and one runtime request without creating a second manually maintained copy.
 - Homepage Spotify, SoundCloud and Bandcamp iframes keep their platform URL in `data-src`. `homepage-runtime.js` assigns the real `src` when a player approaches the viewport, preserving a directly playable embed while preventing every third-party player from loading during the initial visit.
 - The homepage hero uses `img/thecatrave-home-640.webp`, `-720.webp`, `-960.webp` and `-1200.webp`, plus a matching preload. These are display assets; the larger legacy social/source image must not return as the visible LCP source.
 - External font CSS is loaded without blocking first paint and retains system fallbacks. The shared article shell uses the same font-loading policy.
-- The homepage article grid uses one column on mobile, two columns from the tablet breakpoint and four columns on wide desktop. The wide layout keeps four current articles in one row so the section remains compact. Every card link fills the card's complete width and height; hover and keyboard focus use the same full-card cyan state. Do not add a different first-card colour.
+- The homepage article grid uses one column on mobile and two from the tablet breakpoint. On wide desktop it is five columns so all five current guides sit in one row and the section stays compact; the in-article Read Next grid, sharing the same card, stays four columns. On tablet the homepage's odd last card spans the full row so there is no half-width gap. Every card link fills the card's complete width and height; hover and keyboard focus use the same full-card cyan state. Do not add a different first-card colour.
 - Homepage card images use local responsive assets, intrinsic dimensions, descriptive alt text and `object-fit: cover`. The Bass Music card uses the local 480px and 1400px Loc Ace and Vic archive image; the article's global-history graphic remains an in-article explanatory visual rather than the card thumbnail.
 - `build-breakbeat-article.mjs` imports the shared article components.
 - `build-uk-article.mjs` imports the shared article components.

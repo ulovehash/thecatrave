@@ -204,9 +204,27 @@ export function bandcampSupport({description, tracks = [], fullBleed = false} = 
   return `<aside class="${classes}"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
 }
 
-export function readNext({items} = {}) {
-  const cards = items.map(item => `<a href="${escapeHtml(item.href)}"><span>${escapeHtml(item.label)}</span><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.description)}</p><b>Read article →</b></a>`).join('');
-  return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">Continue reading</p><h2 id="read-next-title">Read next.</h2><div class="read-next-grid">${cards}</div></section>`;
+export function readNext({items = [], title = 'Read next.', kicker = 'Continue reading'} = {}) {
+  if (!items.length) throw new Error('readNext requires at least one article.');
+  const cards = items.map((item, index) => {
+    requireFields('readNext item', {
+      href:item.href,
+      type:item.type,
+      topic:item.topic,
+      readingTime:item.readingTime,
+      title:item.title,
+      description:item.description,
+      image:item.image,
+      width:item.width,
+      height:item.height,
+      alt:item.alt
+    });
+    const srcset = item.srcset ? ` srcset="${escapeHtml(item.srcset)}"` : '';
+    const sizes = item.sizes || '(max-width:767px) 100vw,50vw';
+    const number = item.number || `A${String(index + 1).padStart(2, '0')}`;
+    return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read article →</b></a></article>`;
+  }).join('');
+  return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
 }
 
 export function articleFooter() {

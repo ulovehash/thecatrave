@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import {articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleVideoCard, articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, readNext} from './site-components.mjs';
+import {relatedArticles as relatedArticlesFor} from './home-articles.mjs';
 
 const markdown = fs.readFileSync('uk-electronic-music-evolution-draft.md', 'utf8');
 const escapeHtml = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -109,10 +110,7 @@ const support = bandcampSupport({
     }
   ]
 });
-const relatedArticles = readNext({items:[
-  {href:'/jungle-music-guide',label:'Jungle guide',title:'Jungle Music: From Roots to Revival',description:'Pirate radio, dubplates, MC energy and the global return of a distinctly Black British sound.'},
-  {href:'/breakbeat-guide',label:'Breakbeat guide',title:'Breakbeat Music: History, Sound and Evolution',description:'From funk breaks and pirate radio to cracked VSTs and modern bass hybrids.'}
-]});
+const relatedArticles = readNext({items:relatedArticlesFor('uk-electronic-music-evolution.html')});
 const faqQuestions = ['What electronic music genres originated in the UK?','Why did the UK create so many electronic music genres?','Did jungle come before drum and bass?','How did UK garage lead to grime and dubstep?','What role did pirate radio play in UK electronic music?','What happened to UK electronic music after dubstep?','Is UK garage still popular in 2026?','Who are the key UK electronic music artists?'];
 const faqItems = faqQuestions.map(question => {
   const answerHtml = paragraphs(question);

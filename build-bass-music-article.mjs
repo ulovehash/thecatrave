@@ -5,6 +5,7 @@ import {
   articleVideoCard, articleVideoCollection, articleYoutubeEmbed, authorCard,
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
+import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('bass-music-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/bass-music-guide';
@@ -267,7 +268,7 @@ const articleHtml = [
   authorCard({filled:true}),
   articleSources({bodyHtml:`<ul><li><a href="https://www.gold.ac.uk/cucr/research/bass-culture/" target="_blank" rel="noopener noreferrer">Goldsmiths: Bass Culture Research</a></li><li><a href="https://mopop.emuseum.com/objects/95703/mci-mixing-console-formerly-owned-and-operated-by-king-tubby" target="_blank" rel="noopener noreferrer">MoPOP: King Tubby’s MCI mixing console</a></li><li><a href="https://daily.redbullmusicacademy.com/2019/09/miami-bass-mobile-djs-regulating-oral-history/" target="_blank" rel="noopener noreferrer">Red Bull Music Academy: Miami bass mobile DJs oral history</a></li><li><a href="https://djmag.com/features/rise-fall-and-revival-uk-dubplate-culture" target="_blank" rel="noopener noreferrer">DJ Mag: UK dubplate culture</a></li><li><a href="https://www.laweekly.com/a-history-of-bass-music-in-los-angeles/" target="_blank" rel="noopener noreferrer">LA Weekly: A history of bass music in Los Angeles</a></li><li><a href="https://www.npr.org/sections/therecord/2011/05/11/136209254/footwork-chicago-dance-music-with-a-need-for-speed" target="_blank" rel="noopener noreferrer">NPR: Chicago footwork</a></li><li><a href="https://ra.co/exchange/336" target="_blank" rel="noopener noreferrer">Resident Advisor Exchange: DJ Lag and Nan Kolè</a></li><li><a href="https://www.afropop.org/articles/distruction-boyz" target="_blank" rel="noopener noreferrer">Afropop Worldwide: Distruction Boyz and gqom</a></li><li><a href="https://mixmag.net/feature/a-trip-through-the-u-s-west-coast-bass-scene" target="_blank" rel="noopener noreferrer">Mixmag: The US West Coast bass scene</a></li></ul>`}),
   bandcampSupport({fullBleed:true,description:'These releases sit closest to the breakbeat and bass story in this article. Buying one supports my work directly.',tracks:[{title:'Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},{title:'Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'}]}),
-  readNext({items:[{href:'/jungle-music-guide',label:'Jungle',title:'Jungle Music Guide',description:'The breaks, sound systems, pirate radio and people that made jungle.'},{href:'/breakbeat-guide',label:'Breakbeat',title:'Breakbeat Music Guide',description:'A global history of breakbeat as a family of club music.'},{href:'/uk-electronic-music-evolution',label:'UK electronic music',title:'The Evolution of UK Electronic Music',description:'From acid house and bleep to jungle, garage, grime and dubstep.'}]})
+  readNext({items:relatedArticles('bass-music-guide.html')})
 ].join('\n');
 
 const structuredData = [

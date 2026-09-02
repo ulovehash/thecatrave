@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {homeArticlesWithReadingTimes} from './home-articles.mjs';
+import {homeArticlesWithReadingTimes, relatedArticles} from './home-articles.mjs';
 import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
 
 const pages = {
@@ -142,20 +142,17 @@ const expectedJungleSupport = bandcampSupport({
     linkText:'You So Ghetto (Lana Del Rey Jungle Remix) by thecatrave'
   }]
 });
-const expectedJungleReadNext = readNext({items:[
-  {href:'/uk-electronic-music-evolution',label:'UK electronic music',title:'The Evolution of UK Electronic Music',description:'Acid house, bleep, jungle, garage, grime, dubstep and the scenes reshaping British club music.'},
-  {href:'/breakbeat-guide',label:'Breakbeat guide',title:'What Is Breakbeat?',description:'A guide to the genre, its history, regional scenes, artists and the broken club music being made now.'}
-]});
+const expectedJungleReadNext = readNext({items:relatedArticles('jungle-music-guide.html')});
 
 const checks = {
   homeHeaderShared: pages.home.includes(expectedHomeHeader),
   homeFooterShared: pages.home.includes(homeFooter()),
   nowPlayingShared: pages.home.includes(expectedNowPlaying),
   homeArticlesShared: pages.home.includes(expectedHomeArticles),
-  homeArticleCount: count(pages.home, /<span class="number">A0[1-4]<\/span>/g) === 4,
+  homeArticleCount: count(pages.home, /<span class="number">A0[1-5]<\/span>/g) === 5,
   homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
-  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
+  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(5,1fr)}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
   homeStylesInlined: pages.home.includes(`<style>${homeCss.trim()}</style>`),
   homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 13 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
   homeHeroOptimized: ['thecatrave-home-640.webp','thecatrave-home-720.webp','thecatrave-home-960.webp','thecatrave-home-1200.webp'].every(asset => fs.existsSync(`img/${asset}`) && pages.home.includes(asset)) && !pages.home.includes('src="img/thecatrave-1200.webp"'),
@@ -212,7 +209,7 @@ const checks = {
   seoHeadComplete: articlePages.every(page => count(page, /<link rel="canonical"/g) === 1 && count(page, /<meta name="description"/g) === 1 && page.includes('max-image-preview:large')),
   articleDatesComplete: articlePages.every(page => page.includes('article:published_time') && page.includes('article:modified_time') && page.includes('class="article-updated"')),
   oneH1PerArticle: articlePages.every(page => count(page, /<h1(?:\s|>)/g) === 1),
-  semanticArticleLandmarks: articlePages.every(page => count(page, /<main id="main-content">/g) === 1 && count(page, /<article>/g) === 1),
+  semanticArticleLandmarks: articlePages.every(page => count(page, /<main id="main-content">/g) === 1 && count(page, /<main id="main-content"><article>/g) === 1),
   mediaAccessibility: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\balt="[^"]*"/.test(match[0])) && [...page.matchAll(/<iframe\b[^>]*>/g)].every(match => /\btitle="[^"]+"/.test(match[0]))),
   imageDimensions: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\bwidth="\d+"/.test(match[0]) && /\bheight="\d+"/.test(match[0]))),
   designTokensDefined: ['--space-xs','--space-sm','--space-md','--space-lg','--space-xl','--space-3xl','--yellow','--coral','--surface-muted','--motion-fast'].every(token => homeCss.includes(token)),

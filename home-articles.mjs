@@ -29,6 +29,14 @@ export const homeArticleCatalog = [
     image:'img/bass-music/miami-bass-loc-ace-vic-480.jpg',
     srcset:'img/bass-music/miami-bass-loc-ace-vic-480.jpg 480w,img/bass-music/miami-bass-loc-ace-vic-1400.jpg 1400w',
     width:1400, height:933, alt:'Miami bass artists Loc Ace and Vic in front of a club sound system in 1993'
+  },
+  {
+    page:'dubstep-guide.html', href:'/dubstep-guide', type:'Guide', topic:'Dubstep',
+    title:'What Is Dubstep? Origins, Sound and the Genre Split',
+    description:'From south London record shops and 200-capacity basements to a genre that split into two sounds sharing one name.',
+    image:'img/dubstep/dubplate-lathe-320.webp',
+    srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
+    width:961, height:540, alt:'A vinyl cutting lathe with an acetate disc on the platter'
   }
 ];
 
@@ -40,4 +48,15 @@ export function homeArticlesWithReadingTimes() {
     if (!minutes) throw new Error(`Could not read the article duration from ${item.page}`);
     return {...item, readingTime:`~${minutes} min`};
   });
+}
+
+// Related-article cards for the in-article Read Next block. Same catalog, same card
+// shape as the homepage grid, with the current article removed so a page never
+// recommends itself.
+export function relatedArticles(currentPage) {
+  const related = homeArticlesWithReadingTimes()
+    .map((item, index) => ({...item, number:`A${String(index + 1).padStart(2, '0')}`}))
+    .filter(item => item.page !== currentPage && item.href !== currentPage);
+  if (related.length === homeArticleCatalog.length) throw new Error(`relatedArticles received an unknown page: ${currentPage}`);
+  return related;
 }
