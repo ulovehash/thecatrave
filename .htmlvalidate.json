@@ -1,0 +1,23 @@
+{
+  "$schema": "https://html-validate.org/schemas/config.json",
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "no-inline-style": "off",
+    "require-sri": "off",
+    "prefer-native-element": "warn",
+    "no-trailing-whitespace": "off",
+    "attr-quotes": ["error", { "style": "double" }],
+    "void-style": "off",
+    "no-raw-characters": "off",
+    "element-required-attributes": "error",
+    "no-dup-id": "error",
+    "heading-level": "error",
+    "no-redundant-role": "error",
+    "wcag/h30": "error",
+    "wcag/h37": "error",
+    "wcag/h63": "error",
+    "wcag/h67": "error",
+    "input-missing-label": "error",
+    "meta-refresh": "error"
+  }
+}

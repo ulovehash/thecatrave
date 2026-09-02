@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# test + audit output
+test-results/
+playwright-report/
+blob-report/
+.unlighthouse/
+.lighthouseci/
+
+# tooling / editor
+.claude/
+.DS_Store

@@ -327,7 +327,7 @@ These rules are mandatory.
 - Homepage performance source files are `thecatrave-home.css`, `homepage-runtime.js` and the responsive `img/thecatrave-home-*.webp` hero set. `build-home.mjs` inlines the CSS and runtime into their marked regions; do not hand-edit those generated regions.
 - Homepage article cards must come from `homeArticlesSection()` and the catalog in `home-articles.mjs` (currently five guides, cards A01 to A05). Reading time is extracted from each generated article; never maintain a second manual value in `index.html`. The same catalog feeds every article's Read Next block through `relatedArticles()`.
 - The shared card grid is one column on mobile and two on tablet. On wide desktop the in-article Read Next block is four across; the homepage Articles section (`#articles`) is five across so its five guides stay on one row. On tablet the homepage's odd last card spans the full row rather than leaving a half-width gap. Card links fill the complete card and use one consistent cyan hover/focus state. Do not add a one-off first-card colour.
-- After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion.
+- After changing a shared component, rebuild every consuming page and run `audit-site-components.mjs` before reporting completion. Prefer `node audit-all.mjs` (rebuilds everything, runs every audit including `audit-seo.mjs`), or the full `npm run check` on Node 20.
 - For the breakbeat article:
   - editorial source: `breakbeat-guide-draft.md`;
   - page generator: `build-breakbeat-article.mjs`;
@@ -408,7 +408,8 @@ These rules are mandatory.
 - Desktop, tablet and mobile layouts have been visually inspected after the latest change.
 - Do not claim visual verification if browser inspection was blocked.
 - No internal editorial notes or implementation language leaked into published copy.
-- Automated audits pass.
+- Automated audits pass: `node audit-all.mjs` (zero dependency, any Node) and, on Node 20, the full `npm run check` (adds html-validate, linkinator, Playwright layout + axe + visual-regression, and Unlighthouse budgets). `TESTING.md` documents every layer. The same gate runs in CI on each pull request to `main`.
+- When browser inspection is blocked, `npm run check` (or at least `node audit-all.mjs`) is the substitute for hand-verification: its Playwright layer asserts overflow, responsive columns, tone-band matching and CLS deterministically. Update visual baselines only with `npm run check:layout -- --update-snapshots` and review the diff.
 - Visible and structured publication/update dates are truthful and consistent.
 - Breadcrumb and FAQ structured data match visible page content.
 - No unrequested push, merge, branch creation or deletion occurred.

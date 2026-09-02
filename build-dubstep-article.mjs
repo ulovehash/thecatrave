@@ -9,8 +9,8 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('dubstep-guide-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/dubstep-guide';
-const title = 'What Is Dubstep? Origins, Sound, and Why One Word Covers Two Genres';
-const description = 'Dubstep began in south London record shops and 200 capacity basements, then split into two genres sharing one name. The history, the sound, the scenes and where it is now.';
+const title = 'What Is Dubstep? Origins, Sound and Why One Word Means Two Genres';
+const description = 'Dubstep began in south London record shops and 200-capacity basements, then split into two genres sharing one name. The sound, the scenes and where it is now.';
 const date = '2026-09-01';
 const dateLabel = '1 September 2026';
 

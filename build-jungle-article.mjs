@@ -87,7 +87,12 @@ if (!preservedContent) for (const [src, [width, height]] of Object.entries(dimen
 
 content = content
   .replace(/img\/people dancing/g, 'img/people%20dancing')
-  .replace('title="YouTube video playlist"', 'title="Early jungle rave and pirate radio documentary playlist"');
+  .replace('title="YouTube video playlist"', 'title="Early jungle rave and pirate radio documentary playlist"')
+  // Preserved legacy anchors open in a new tab without rel; add the standard hardening.
+  .replace(/<a\b[^>]*>/g, tag =>
+    /\btarget="_blank"/.test(tag) && !/\brel=/.test(tag)
+      ? tag.replace(/>$/, ' rel="noopener noreferrer">')
+      : tag);
 
 const iframeTitles = {
   'https://open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62?utm_source=generator': 'Early jungle and hardcore playlist on Spotify',
