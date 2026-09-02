@@ -81,6 +81,7 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - Playlists and mixes are optional extended routes. Use `articleListeningBand()`, identify them explicitly as an `extended playlist` or `mix` in the title or description, and never present a playlist as though it were one exact track.
 - A genre guide should normally contain both exact representative tracks and at least one wider playlist when a credible, relevant playlist is available. The individual tracks prove the editorial argument; the playlist lets the reader continue listening.
 - Spotify players use the compact `152px` embed. SoundCloud players use the compact `166px` embed.
+- A full-bleed media block (`articleListeningCollection`, `articleListeningBand`, `articleVideoCollection`) placed inside a `tone-cyan|yellow|coral` `articleSection` must use the **same** `tone` or the neutral `paper` variant. A different saturated tone paints a clashing band while the section colour still shows through the block's top and bottom margins. `audit-site-components.mjs` and `audit-dubstep.mjs` enforce this.
 - Images and listening blocks must be separated by meaningful prose. Never stack a figure directly against a player.
 - Reusable media blocks must not introduce fixed desktop widths that cause mobile overflow. Images retain their intrinsic ratio and embedded players remain within their container.
 - Page-specific colour changes belong in article CSS, not duplicated component markup.

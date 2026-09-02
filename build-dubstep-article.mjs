@@ -168,7 +168,7 @@ const croydonListening = articleListeningCollection({
 });
 
 const builtListening = articleListeningCollection({
-  id: 'built-listening', tone: 'yellow',
+  id: 'built-listening', tone: 'cyan',
   title: 'Space and wobble at one tempo.',
   description: 'The two poles of the technique. One record is almost entirely space, the other is almost entirely wobble, and both sit at the same tempo with the same drum pattern.',
   items: listeningItems([
@@ -192,7 +192,7 @@ const dmzListening = articleListeningCollection({
 });
 
 const splitListening = articleListeningCollection({
-  id: 'split-listening', tone: 'coral',
+  id: 'split-listening', tone: 'yellow',
   title: 'One tempo, opposite priorities.',
   description: 'The distance in one place. Both records sit at the same tempo with the same drum pattern, and the second moves the weight from sub-bass into distorted mid-range. The first was made by a founder of DMZ.',
   items: listeningItems([
@@ -214,7 +214,7 @@ const bristolListening = articleListeningCollection({
 });
 
 const berlinListening = articleListeningCollection({
-  id: 'berlin-listening', tone: 'yellow',
+  id: 'berlin-listening', tone: 'cyan',
   title: 'Where the two cities meet.',
   description: 'The record where dubstep and Berlin techno meet. A Skull Disco track rebuilt by one of techno’s most idiosyncratic producers, running past eighteen minutes.',
   items: listeningItems([
@@ -224,7 +224,7 @@ const berlinListening = articleListeningCollection({
 });
 
 const subgenreListening = articleListeningCollection({
-  id: 'subgenre-listening', tone: 'paper',
+  id: 'subgenre-listening', tone: 'cyan',
   title: 'Two of the later branches.',
   description: 'Two of the later branches, so the table above has a sound attached to it rather than only a definition.',
   items: listeningItems([
@@ -244,7 +244,7 @@ const dubstepClassics = articleListeningBand({
   src: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX4arVIN5Cg4U?utm_source=generator',
   iframeTitle: 'Dubstep Classics playlist on Spotify',
   fullBleed: true,
-  tone: 'yellow'
+  tone: 'coral'
 });
 
 const bassweight = youtube('YVcX0Oc5j5E', 'Bassweight, a dubstep documentary');
@@ -259,7 +259,7 @@ const thecatraveTrack = articleListeningBand({
   src: `https://w.soundcloud.com/player/?url=${encodeURIComponent('https://soundcloud.com/thecatrave/mylene-farmer-degeneration')}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
   iframeTitle: 'Mylene Farmer, Degeneration remix by thecatrave on SoundCloud',
   fullBleed: true,
-  tone: 'cyan'
+  tone: 'coral'
 });
 
 const subgenreRows = [

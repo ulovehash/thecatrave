@@ -50,6 +50,25 @@ for (const [label, id] of Object.entries(requiredMedia)) {
   check(`Media present: ${label}`, html.includes(id));
 }
 
+// A full-bleed listening collection inside a tone-{x} section must carry the same
+// colour or the neutral -paper variant. A different saturated tone stacks clashing
+// bands with the section colour showing through the margins.
+const toneClashes = [];
+const sectionChunks = html.split(/(?=<section class="floating-block article-section)/).slice(1);
+for (const chunk of sectionChunks) {
+  const openTag = chunk.slice(0, chunk.indexOf('>') + 1);
+  const sectionTone = (openTag.match(/\btone-(cyan|yellow|coral)\b/) || [])[1];
+  if (!sectionTone) continue;
+  const body = chunk.slice(0, chunk.indexOf('</section>'));
+  for (const match of body.matchAll(/\blistening-(cyan|yellow|coral|paper)\b/g)) {
+    const blockTone = match[1];
+    if (blockTone !== 'paper' && blockTone !== sectionTone) {
+      toneClashes.push(`${openTag.match(/id="([^"]+)"/)?.[1] || 'section'}: tone-${sectionTone} contains a listening-${blockTone} block`);
+    }
+  }
+}
+check('No listening-collection tone clashes inside toned sections', toneClashes.length === 0, [...new Set(toneClashes)].join('; '));
+
 check('Subgenre table uses the shared class', html.includes('class="genre-table"'));
 // Every other guide labels its exact tracks with the site-wide Essential listening block.
 check('Essential listening blocks present', (html.match(/Essential listening/g) || []).length >= 2);

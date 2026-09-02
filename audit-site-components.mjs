@@ -219,6 +219,19 @@ const checks = {
     return classes.length > 0 && classes.every(value => /(?:article-media-band-full|context-listening-full|listening-block-full)/.test(value));
   }),
   essentialListeningFullBleedCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector)),
+  // A full-bleed listening collection inside a tone-{x} section must match that colour
+  // or be the neutral -paper variant; a different saturated tone stacks clashing bands
+  // with the section colour showing through the block's margins. (Compact promo bands
+  // may still accent.)
+  noToneClashInSections: articlePages.every(page => page
+    .split(/(?=<section class="floating-block article-section)/).slice(1)
+    .every(chunk => {
+      const tone = (chunk.slice(0, chunk.indexOf('>') + 1).match(/\btone-(cyan|yellow|coral)\b/) || [])[1];
+      if (!tone) return true;
+      const body = chunk.slice(0, chunk.indexOf('</section>'));
+      return [...body.matchAll(/\blistening-(cyan|yellow|coral|paper)\b/g)]
+        .every(m => m[1] === 'paper' || m[1] === tone);
+    })),
   bandcampTrueViewportWidth: ['position: relative','left: 50%','width: 100vw','transform: translateX(-50%)'].every(declaration => bandcampFullBleedRule.includes(declaration)),
   homeMarkersComplete: ['home-styles','home-header','now-playing','home-articles','home-footer','home-runtime','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
 };
