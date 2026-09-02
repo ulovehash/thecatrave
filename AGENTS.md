@@ -176,6 +176,7 @@ These rules are mandatory.
 - In generator-driven articles, assign images to explicit paragraph insertion points. Do not concatenate images and listening blocks into the same `beforeHeading` value.
 - After every rebuild, run an adjacency audit that fails on `figure + embed` and `embed + figure` pairs.
 - Treat a grid of videos, a grouped listening route and a promotional player as one media block for these adjacency rules.
+- When a section does not contain enough prose to separate its media properly, remove or relocate one media element rather than stack them.
 
 ## 8. Image selection and treatment
 
@@ -297,7 +298,7 @@ These rules are mandatory.
 - Every meaningful image needs useful alt text; decorative images should use empty alt text.
 - Preserve visible keyboard focus.
 - Do not rely on hover alone for essential information.
-- Keep text contrast sufficient across all coloured sections.
+- Keep text contrast sufficient on the cyan listening panels and the definition banner.
 - Set intrinsic image dimensions and avoid cumulative layout shift.
 - Prefer modern, appropriately sized assets. Do not ship a huge source file when the rendered image is small.
 - Lazy-load below-the-fold embeds and images where appropriate.
@@ -441,52 +442,3 @@ These rules are mandatory.
 - Do not create a duplicate branch for this verification. Do not force-update `main` unless the user explicitly approves it.
 - If documentation drift is found only after the push, correct it locally and report that a follow-up push is still required. Never claim the publishing cycle is complete while the repository instructions describe an older system.
 - The completion message after a push must include the commit link and state whether remote synchronisation, documentation parity, audits and visual QA were verified.
-
-## 17. Breakbeat article build and verification
-
-For relevant changes, run:
-
-```sh
-node build-cutout-assets.mjs
-node build-breakbeat-article.mjs
-node audit-breakbeat.mjs
-```
-
-Then inspect the rendered article and verify the media sequence manually. The desired pattern is:
-
-```text
-heading
-paragraph
-paragraph
-image
-paragraph
-paragraph
-listening block
-next heading
-```
-
-This is a model, not a rigid formula, but these arrangements are forbidden:
-
-```text
-image
-listening block
-```
-
-```text
-listening block
-image
-```
-
-```text
-image
-listening block
-image
-```
-
-```text
-heading
-image
-listening block
-```
-
-When the narrative does not contain enough text to separate media properly, remove or relocate one of the media elements instead of stacking them.
