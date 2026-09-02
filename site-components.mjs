@@ -186,8 +186,12 @@ export function articleVideoCard({youtubeId, genre, artist, title} = {}) {
   return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(label)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(label)}</strong></figcaption></figure>`;
 }
 
-export function articleVideoCollection({items = [], description} = {}) {
-  return `<aside class="listening-block listening-block-full"><div class="listening-intro"><p class="article-kicker">Essential listening</p><p>${escapeHtml(description)}</p></div><div class="video-grid">${items.join('')}</div></aside>`;
+export function articleVideoCollection({items = [], description, label = ''} = {}) {
+  // Complementary landmarks need a non-empty, unique accessible name; derive one
+  // from the label or the opening of the description when several sit on a page.
+  const name = (label || String(description).split(/(?<=[.:])\s/)[0] || 'tracks').slice(0, 80).replace(/[.:]\s*$/, '');
+  const ariaLabel = escapeHtml(`Essential listening: ${name}`);
+  return `<aside class="listening-block listening-block-full" aria-label="${ariaLabel}"><div class="listening-intro"><p class="article-kicker">Essential listening</p><p>${escapeHtml(description)}</p></div><div class="video-grid">${items.join('')}</div></aside>`;
 }
 
 export function authorCard({filled = false} = {}) {
@@ -199,9 +203,9 @@ export function authorCard({filled = false} = {}) {
 
 export function bandcampSupport({description, tracks = [], fullBleed = false} = {}) {
   const classes = `floating-inset article-cta${fullBleed ? ' article-cta-full' : ''}${tracks.length ? '' : ' article-cta-solo'}`;
-  const copyInner = `<h3>Support my music on Bandcamp.</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Support ↗</a>`;
+  const copyInner = `<h3 id="bandcamp-support-title">Support my music on Bandcamp.</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Support ↗</a>`;
   const players = tracks.map(track => `<iframe class="bandcamp-embed" title="${escapeHtml(track.title)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(track.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(track.url)}">${escapeHtml(track.linkText)}</a></iframe>`).join('');
-  return `<aside class="${classes}"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
+  return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
 }
 
 export function readNext({items = [], title = 'Read next.', kicker = 'Continue reading'} = {}) {

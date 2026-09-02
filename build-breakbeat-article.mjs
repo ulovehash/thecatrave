@@ -95,7 +95,9 @@ function renderNode(node) {
   if (node.type === 'raw') return /id="(?:faq|sources|today)"/.test(node.html) ? '' : node.html;
   if (node.type === 'h3') return `<h3>${inline(node.text)}</h3>`;
   if (node.type === 'p') return `<p>${inline(node.text)}</p>`;
-  if (node.type === 'quote') return `<aside class="article-listen">${inline(node.text)}</aside>`;
+  // A pull quote is a quote, not a complementary landmark; <blockquote> keeps the
+  // .article-listen styling without adding an unnamed landmark to the page.
+  if (node.type === 'quote') return `<blockquote class="article-listen">${inline(node.text)}</blockquote>`;
   if (node.type === 'ol') return `<ol class="track-route">${node.items.map(item=>`<li>${inline(item)}</li>`).join('')}</ol>`;
   if (node.type === 'ul') return `<ul class="source-list">${node.items.map(item=>`<li>${inline(item)}</li>`).join('')}</ul>`;
   if (node.type === 'table') {
