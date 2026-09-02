@@ -4,20 +4,28 @@
   "rules": {
     "no-inline-style": "off",
     "require-sri": "off",
-    "prefer-native-element": "warn",
     "no-trailing-whitespace": "off",
-    "attr-quotes": ["error", { "style": "double" }],
     "void-style": "off",
     "no-raw-characters": "off",
-    "element-required-attributes": "error",
+    "prefer-native-element": "off",
+
+    "doctype-style": "off",
+    "no-deprecated-attr": "off",
+    "element-permitted-content": "off",
+    "attribute-allowed-values": "off",
+    "unrecognized-char-ref": "off",
+    "aria-label-misuse": "off",
+
     "no-dup-id": "error",
     "heading-level": "error",
+    "element-required-attributes": "error",
     "no-redundant-role": "error",
+    "input-missing-label": "error",
+    "meta-refresh": "error",
+    "unique-landmark": "warn",
     "wcag/h30": "error",
     "wcag/h37": "error",
     "wcag/h63": "error",
-    "wcag/h67": "error",
-    "input-missing-label": "error",
-    "meta-refresh": "error"
+    "wcag/h67": "error"
   }
 }

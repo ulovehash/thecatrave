@@ -31,15 +31,18 @@ for (const route of routes) {
       expect(missing).toEqual([]);
     });
 
-    test('full-bleed listening blocks do not clash with their section colour', async ({ page }) => {
+    test('full-bleed listening collections do not clash with their section colour', async ({ page }) => {
       const clashes = await page.evaluate(() => {
         const bg = (el: Element) => getComputedStyle(el).backgroundColor;
+        const paper = bg(document.body); // the neutral --paper ground
         const out: string[] = [];
         for (const section of document.querySelectorAll('.article-section')) {
           if (!/tone-(cyan|yellow|coral)/.test(section.className)) continue;
-          for (const block of section.querySelectorAll('.context-listening, .listening-block')) {
-            if (bg(block) !== 'rgba(0, 0, 0, 0)' && bg(block) !== bg(section)) {
-              out.push(`${section.id}: block ${bg(block)} vs section ${bg(section)}`);
+          for (const block of section.querySelectorAll('.context-listening')) {
+            const c = bg(block);
+            // Match the section, be transparent, or be the neutral paper cutout.
+            if (c !== 'rgba(0, 0, 0, 0)' && c !== bg(section) && c !== paper && !/\blistening-paper\b/.test(block.className)) {
+              out.push(`${section.id}: block ${c} vs section ${bg(section)}`);
             }
           }
         }

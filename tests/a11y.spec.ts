@@ -10,6 +10,9 @@ for (const route of routes) {
     await page.goto(route.path, { waitUntil: 'networkidle' });
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+      // Third-party players (Spotify, SoundCloud, YouTube, Bandcamp) render their
+      // own DOM with their own a11y bugs; we can only fix our own markup.
+      .exclude('iframe')
       .analyze();
 
     const blocking = results.violations.filter(v => v.impact === 'serious' || v.impact === 'critical');
