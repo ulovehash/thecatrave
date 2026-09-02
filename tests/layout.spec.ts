@@ -53,25 +53,28 @@ for (const route of routes) {
   });
 }
 
-test('homepage article grid: 1 / 2 / 5 columns by viewport, no orphan', async ({ page }) => {
-  const columnsAt = async (width: number) => {
+test('homepage article grid: 1 / 2 columns then one full row, no orphan', async ({ page }) => {
+  const gridAt = async (width: number) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/', { waitUntil: 'networkidle' });
     return page.evaluate(() => {
       const grid = document.querySelector('#articles .article-grid') as HTMLElement;
-      return getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+      const cards = [...document.querySelectorAll('#articles .article-grid > article')];
+      return {
+        columns: getComputedStyle(grid).gridTemplateColumns.split(' ').length,
+        cardCount: cards.length,
+        rows: new Set(cards.map(c => Math.round(c.getBoundingClientRect().top))).size
+      };
     });
   };
-  expect(await columnsAt(375)).toBe(1);
-  expect(await columnsAt(834)).toBe(2);
-  expect(await columnsAt(1440)).toBe(5);
+  expect((await gridAt(375)).columns).toBe(1);
+  expect((await gridAt(834)).columns).toBe(2);
 
-  // On the widest layout all cards sit on one row.
-  const rows = await page.evaluate(() => {
-    const cards = [...document.querySelectorAll('#articles .article-grid > article')];
-    return new Set(cards.map(c => Math.round(c.getBoundingClientRect().top))).size;
-  });
-  expect(rows).toBe(1);
+  // Wide desktop: the auto-fit grid puts every guide card on one row with no
+  // half-width orphan, however many guides the catalog holds.
+  const wide = await gridAt(1440);
+  expect(wide.columns).toBe(wide.cardCount);
+  expect(wide.rows).toBe(1);
 });
 
 test('in-article Read Next grid: 1 / 2 / 4 columns by viewport', async ({ page }) => {

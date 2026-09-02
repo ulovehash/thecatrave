@@ -598,7 +598,9 @@
 }
 .track-copy h3,
 .track-copy h4 { margin: 0 0 .55rem; font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.1; letter-spacing: -.025em; }
-.track-copy h4 .track-year { font-weight: 400; letter-spacing: 0; opacity: .55; }
+/* Lighter weight, not lower opacity: opacity dropped this text below AA contrast
+   on the cyan block. The 400 weight against the bold title is enough hierarchy. */
+.track-copy h4 .track-year { font-weight: 400; letter-spacing: 0; }
 .track-copy p { margin: 0; font-size: .98rem; line-height: 1.5; }
 .track-player { min-width: 0; }
 .track-embed { display: block; width: 100%; border: 0; }
