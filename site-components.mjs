@@ -104,11 +104,14 @@ export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) cal
   return `<figure class="${classes}"><img src="${escapeHtml(src)}"${srcset ? ` srcset="${escapeHtml(srcset)}"` : ''} sizes="${escapeHtml(sizes)}"${dimensions} alt="${escapeHtml(alt)}" loading="${escapeHtml(loading)}" decoding="async">${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
 }
 
-export function articleTable({headers = [], rows = [], className = ''} = {}) {
+export function articleTable({headers = [], rows = [], className = '', label = ''} = {}) {
   const classes = ['genre-table', className].filter(Boolean).join(' ');
   const head = headers.map(cell => `<th scope="col">${cell}</th>`).join('');
   const body = rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('');
-  return `<div class="genre-table-wrap" role="region" aria-label="Scrollable data table" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  // The scrollable region needs a unique accessible name when a page has several
+  // tables; derive one from the column headers unless the caller supplies a label.
+  const name = label || `${headers.map(cell => String(cell).replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(', ')} table`;
+  return `<div class="genre-table-wrap" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 export function articleFaq({items = [], title = 'Frequently asked questions.', id = 'faq', openFirst = true} = {}) {

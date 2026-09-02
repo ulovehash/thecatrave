@@ -22,7 +22,7 @@
     "no-redundant-role": "error",
     "input-missing-label": "error",
     "meta-refresh": "error",
-    "unique-landmark": "warn",
+    "unique-landmark": "error",
     "wcag/h30": "error",
     "wcag/h37": "error",
     "wcag/h63": "error",
