@@ -33,7 +33,7 @@ const figureBeforeEmbed = [...html.matchAll(/<\/figure>\s*<aside class="(?:conte
 const embedBeforeFigure = [...html.matchAll(/<\/aside>\s*<figure class="floating-image article-image/g)];
 const consecutiveFigures = [...html.matchAll(/<\/figure>\s*<figure class="floating-image article-image/g)];
 const css = fs.readFileSync('thecatrave-article.css','utf8');
-const responsiveRulesPresent = /@media \(max-width: 1000px\)/.test(css) && /@media \(max-width: 760px\)/.test(css) && /\.track-player \{ grid-column: 1 \/ -1; \}/.test(css);
+const responsiveRulesPresent = /@media \(max-width: 1000px\)/.test(css) && /@media \(max-width: 760px\)/.test(css) && /\.track-entry \{ grid-template-columns: minmax\(0, 1fr\); \}/.test(css);
 const proportionalMobileImages = /@media \(max-width: 760px\)[\s\S]*?\.article-image img \{[\s\S]*?width: 100%;[\s\S]*?max-width: 100%;[\s\S]*?height: auto;[\s\S]*?max-height: none;[\s\S]*?aspect-ratio: auto;[\s\S]*?object-fit: contain;[\s\S]*?\}/.test(css);
 const legacyAnchors = ['what-is-breakbeat','pop-culture','structure','sound-design','sampling','make-breakbeat','timeline','revival','forums','djs','pioneers','today','culture','academia','tracks','faq'];
 const missingLegacyAnchors = legacyAnchors.filter(id=>!idSet.has(id));

@@ -133,10 +133,12 @@ h1{max-width:15ch;margin-bottom:1.5rem;font-size:clamp(2.65rem,5.4vw,4.6rem)}
 .footer-bottom{flex-direction:row;justify-content:space-between}
 }
 @media(min-width:70rem){.article-grid{grid-template-columns:repeat(4,1fr)}
-#articles .article-grid{grid-template-columns:repeat(5,1fr)}
+/* The Articles section holds a growing set of guides. auto-fit keeps them on as few
+   rows as fit, equal width, with no fixed-column orphan; a short last row is just
+   wider cards, not an L-shaped gap. */
+#articles .article-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))}
 }
-/* The Articles section carries five guides. On tablet the odd last card fills the row
-   instead of leaving a half-width gap; on wide desktop the row holds all five. */
+/* On tablet the odd last card fills the row instead of leaving a half-width gap. */
 @media(min-width:48rem) and (max-width:69.99rem){#articles .article-grid article:last-child:nth-child(odd){grid-column:1/-1}
 }
 @keyframes now-playing-pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.25);opacity:.55}}

@@ -37,11 +37,23 @@ export const homeArticleCatalog = [
     image:'img/dubstep/dubplate-lathe-320.webp',
     srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
     width:961, height:540, alt:'A vinyl cutting lathe with an acetate disc on the platter'
+  },
+  {
+    page:'drum-and-bass-guide.html', href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
+    title:'What Is Drum and Bass? History, Sound and Subgenres',
+    description:'The genre jungle became after the mid-1990s split: 174 BPM, chopped breaks and sub-bass, from Metalheadz to a global festival circuit.',
+    image:'img/dnb/dnb-cover-320.webp',
+    srcset:'img/dnb/dnb-cover-320.webp 320w,img/dnb/dnb-cover.webp 1200w',
+    width:1200, height:675, alt:'A chopped breakbeat waveform with the beat grid marked, labelled drum and bass, 174 BPM'
   }
 ];
 
 export function homeArticlesWithReadingTimes() {
   return homeArticleCatalog.map(item => {
+    // A page being generated for the first time does not exist on disk yet; fall
+    // back so the first build succeeds, then the real value is picked up on the
+    // rebuild that ARTICLE-PRODUCTION-WORKFLOW.md §9 already requires.
+    if (!fs.existsSync(item.page)) return {...item, readingTime:'~15 min'};
     const article = fs.readFileSync(item.page, 'utf8');
     const readingTime = article.match(/<p class="reading-time">([^<]+)<\/p>/)?.[1];
     const minutes = readingTime?.match(/(\d+)\s*min/i)?.[1];

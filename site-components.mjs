@@ -175,7 +175,7 @@ export function articleTrackEmbed({platform, id = '', url = '', title} = {}) {
 
 export function articleListeningCollection({id, title, description, tone = 'cyan', items = [], fullBleed = true} = {}) {
   if (!['paper', 'cyan', 'yellow', 'coral'].includes(tone)) throw new Error(`Unsupported listening collection tone: ${tone}`);
-  const tracks = items.map(item => `<article class="track-entry"${item.anchor ? ` id="${escapeHtml(item.anchor)}"` : ''}><div class="track-count"><time>${escapeHtml(item.year)}</time></div><div class="track-copy"><h4><span>${escapeHtml(item.artist)}</span>${escapeHtml(item.title)}</h4><p>${escapeHtml(item.note)}</p></div><div class="track-player">${item.playerHtml}</div></article>`).join('');
+  const tracks = items.map(item => `<article class="track-entry"${item.anchor ? ` id="${escapeHtml(item.anchor)}"` : ''}><div class="track-copy"><p class="track-meta">${escapeHtml(item.artist)}</p><h4>${escapeHtml(item.title)}<span class="track-year"> · <time>${escapeHtml(item.year)}</time></span></h4><p>${escapeHtml(item.note)}</p></div><div class="track-player">${item.playerHtml}</div></article>`).join('');
   const classes = ['context-listening', fullBleed ? 'context-listening-full' : '', `listening-${tone}`].filter(Boolean).join(' ');
   return `<aside class="${classes}" aria-labelledby="${escapeHtml(id)}"><div class="context-listening-intro"><p class="article-kicker">Essential listening</p><h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p></div><div class="context-track-list">${tracks}</div></aside>`;
 }

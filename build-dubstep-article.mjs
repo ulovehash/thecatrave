@@ -192,7 +192,7 @@ const dmzListening = articleListeningCollection({
 });
 
 const splitListening = articleListeningCollection({
-  id: 'split-listening', tone: 'yellow',
+  id: 'split-listening', tone: 'cyan',
   title: 'One tempo, opposite priorities.',
   description: 'The distance in one place. Both records sit at the same tempo with the same drum pattern, and the second moves the weight from sub-bass into distorted mid-range. The first was made by a founder of DMZ.',
   items: listeningItems([
@@ -244,7 +244,7 @@ const dubstepClassics = articleListeningBand({
   src: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX4arVIN5Cg4U?utm_source=generator',
   iframeTitle: 'Dubstep Classics playlist on Spotify',
   fullBleed: true,
-  tone: 'coral'
+  tone: 'cyan'
 });
 
 const bassweight = youtube('YVcX0Oc5j5E', 'Bassweight, a dubstep documentary');
@@ -259,7 +259,7 @@ const thecatraveTrack = articleListeningBand({
   src: `https://w.soundcloud.com/player/?url=${encodeURIComponent('https://soundcloud.com/thecatrave/mylene-farmer-degeneration')}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
   iframeTitle: 'Mylene Farmer, Degeneration remix by thecatrave on SoundCloud',
   fullBleed: true,
-  tone: 'coral'
+  tone: 'cyan'
 });
 
 const subgenreRows = [
@@ -274,15 +274,15 @@ const subgenreRows = [
 
 // Media rhythm. Every figure is separated from every player by at least one paragraph,
 // no figure follows a heading directly, and no two figures are adjacent.
-const croydonHtml = `${join(croydon.slice(0, 2))}${bigApple}${join(croydon.slice(2, 4))}${croydonListening}${join(croydon.slice(4))}`;
+const croydonHtml = `${join(croydon.slice(0, 2))}${bigApple}${join(croydon.slice(2))}${croydonListening}`;
 
 const builtHtml = `${join(built)}${builtListening}`;
 
-const sceneHtml = `${join(scene.slice(0, 3))}${dubplateLathe}${join(scene.slice(3, 5))}${bassweight}${join(scene.slice(5, 7))}${dmzListening}${join(scene.slice(7))}${burialPortrait}`;
+const sceneHtml = `${join(scene.slice(0, 3))}${dubplateLathe}${join(scene.slice(3, 5))}${bassweight}${join(scene.slice(5, 7))}${burialPortrait}${join(scene.slice(7))}${dmzListening}`;
 
 const splitHtml = `${join(split.slice(0, 3))}${splitListening}${join(split.slice(3, 5))}${homiesHateSkrillex}${join(split.slice(5))}`;
 
-const bristolHtml = `${join(bristol.slice(0, 2))}${bristolListening}${join(bristol.slice(2))}`;
+const bristolHtml = `${join(bristol)}${bristolListening}`;
 
 const berlinHtml = `${join(berlin.slice(0, 2))}${fwdBerlin}${join(berlin.slice(2))}${berlinListening}`;
 
@@ -309,13 +309,13 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'Two answers to the same question.', bodyHtml: render(intro), className: 'article-intro'}),
   articleSection({id: 'croydon', title: 'Croydon, Big Apple and a sound with no name.', kicker: 'Origins', bodyHtml: croydonHtml}),
-  articleSection({id: 'sound', title: 'How dubstep is built: 140 BPM, half-time and dubstep bass.', bodyHtml: builtHtml, className: 'tone-cyan'}),
+  articleSection({id: 'sound', title: 'How dubstep is built: 140 BPM, half-time and dubstep bass.', bodyHtml: builtHtml}),
   articleSection({id: 'scene', title: 'FWD>>, DMZ and the economics of a dubplate.', bodyHtml: sceneHtml}),
-  articleSection({id: 'split', title: 'How one word came to mean two things.', kicker: '2010 to 2012', bodyHtml: splitHtml, className: 'tone-yellow'}),
+  articleSection({id: 'split', title: 'How one word came to mean two things.', kicker: '2010 to 2012', bodyHtml: splitHtml}),
   articleSection({id: 'bristol', title: 'Bristol: the line that never broke.', bodyHtml: bristolHtml}),
-  articleSection({id: 'berlin', title: 'Berlin: dubstep meets techno.', bodyHtml: berlinHtml, className: 'tone-cyan'}),
+  articleSection({id: 'berlin', title: 'Berlin: dubstep meets techno.', bodyHtml: berlinHtml}),
   articleSection({id: 'subgenres', title: 'The subgenres and what they actually mean.', bodyHtml: subgenresHtml}),
-  articleSection({id: 'now', title: 'Where dubstep is now.', bodyHtml: nowHtml, className: 'tone-coral'}),
+  articleSection({id: 'now', title: 'Where dubstep is now.', bodyHtml: nowHtml}),
   articleFaq({items: faqItems, title: 'Dubstep FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>

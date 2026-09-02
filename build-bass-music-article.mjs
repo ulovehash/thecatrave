@@ -144,7 +144,7 @@ const hardcoreListening = articleListeningBand({
   title:'Lennie De Ice, We Are I.E.',
   description:'A threshold record where breakbeat hardcore, sound-system bass and the rhythmic language of jungle meet.',
   src:'https://open.spotify.com/embed/track/2aZ89R5oSEDTfjymiRjzpg?utm_source=generator',
-  iframeTitle:'Lennie De Ice, We Are I.E. on Spotify', fullBleed:true, tone:'coral'
+  iframeTitle:'Lennie De Ice, We Are I.E. on Spotify', fullBleed:true, tone:'cyan'
 });
 
 const laBeatListening = articleListeningBand({
@@ -152,7 +152,7 @@ const laBeatListening = articleListeningBand({
   title:'Flying Lotus, Zodiac Shit.',
   description:'Low End Theory’s Los Angeles beat culture heard through compressed hip-hop rhythm, psychedelic detail and unstable low end.',
   src:'https://open.spotify.com/embed/track/3v65IsDl6LDOHDu9bU4ZOn?utm_source=generator',
-  iframeTitle:'Flying Lotus, Zodiac Shit on Spotify', fullBleed:true, tone:'yellow'
+  iframeTitle:'Flying Lotus, Zodiac Shit on Spotify', fullBleed:true, tone:'cyan'
 });
 
 const originHtml = `
@@ -161,7 +161,7 @@ const originHtml = `
   ${youtube('oxAl3Jijs20','Augustus Pablo and King Tubby, King Tubby Meets Rockers Uptown')}
   <h3>Miami: electro, hip-hop and car systems</h3>
   ${p(miami[0])}${miamiMobile}${miami.slice(1).map(value=>p(value)).join('')}
-  ${articleListeningBand({platform:'spotify',id:'miami-bass-listening',kicker:'Essential listening',title:'2 Live Crew, Throw the D.',description:'The sustained 808, speed, chants and dance instruction place the record firmly inside Miami hip-hop.',src:'https://open.spotify.com/embed/track/01eKbKNxs6EogcCYONAmYI?utm_source=generator',iframeTitle:'2 Live Crew, Throw the D on Spotify',tone:'yellow'})}
+  ${articleListeningBand({platform:'spotify',id:'miami-bass-listening',kicker:'Essential listening',title:'2 Live Crew, Throw the D.',description:'The sustained 808, speed, chants and dance instruction place the record firmly inside Miami hip-hop.',src:'https://open.spotify.com/embed/track/01eKbKNxs6EogcCYONAmYI?utm_source=generator',iframeTitle:'2 Live Crew, Throw the D on Spotify',tone:'cyan'})}
   <h3>Britain: bleep, breakbeat hardcore and jungle</h3>
   ${p(britain[0])}${youtube('ML_FBvudqI0','LFO, LFO Leeds Warehouse Mix')}${britain.slice(1).map(value=>p(value)).join('')}${hardcoreListening}`;
 
@@ -198,7 +198,7 @@ const footworkListening = articleListeningBand({
   title:'RP Boo, Baby Come On.',
   description:'A foundational Chicago footwork record built for dancers, with clipped hip-hop sampling and syncopated drums.',
   src:'https://open.spotify.com/embed/track/0rzohlbJIrpvIHFAgPztfG?utm_source=generator',
-  iframeTitle:'RP Boo, Baby Come On on Spotify', fullBleed:true, tone:'coral'
+  iframeTitle:'RP Boo, Baby Come On on Spotify', fullBleed:true, tone:'cyan'
 });
 
 const gqomListening = articleListeningBand({
@@ -256,14 +256,14 @@ const articleHtml = [
   articleHero({kicker:'Bass music guide',title:'What is bass music?',deck:'A scene-led history across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',readingTime:`${Math.max(12,Math.round(draft.split(/\s+/).length/225))} min read`,dateModified:date,dateLabel:'31 August 2026',summaryHtml:infoBanner({label:'Bass music definition',bodyHtml:inline(definition[0]),className:'article-summary'}),tocItems}),
   articleSection({id:'introduction',title:'Bass music is not one sound.',bodyHtml:`${render(intro)}${p(definition[1])}${globalVisual}`,className:'article-intro'}),
   articleSection({id:'origins',title:'Where did bass music come from?',kicker:'Jamaica / Miami / Britain',bodyHtml:originHtml}),
-  articleSection({id:'umbrella',title:'How “bass music” became an umbrella term and travelled.',bodyHtml:umbrellaHtml,className:'tone-cyan'}),
+  articleSection({id:'umbrella',title:'How “bass music” became an umbrella term and travelled.',bodyHtml:umbrellaHtml}),
   articleSection({id:'meanings',title:'Why “bass music” means different things in different scenes.',bodyHtml:meaningsHtml}),
-  articleSection({id:'types',title:'Types of bass music: a scene-by-scene listening map.',bodyHtml:typesHtml,className:'tone-yellow'}),
+  articleSection({id:'types',title:'Types of bass music: a scene-by-scene listening map.',bodyHtml:typesHtml}),
   articleSection({id:'infrastructure',title:'How bass music lives: sound systems, pirate radio, clubs and labels.',bodyHtml:infrastructureHtml}),
   articleSection({id:'records',title:'Bass music artists and records that changed the culture.',bodyHtml:`${p('This is not a hall of fame. Each record is here because it changes the definition rather than merely representing a popular subgenre.')}${articleTable({headers:['Record','Why it matters'],rows:recordRows,className:'bass-record-table'})}`}),
-  articleSection({id:'today',title:'Bass music today: hybrid sets and blurred genre borders.',bodyHtml:todayHtml,className:'tone-coral'}),
+  articleSection({id:'today',title:'Bass music today: hybrid sets and blurred genre borders.',bodyHtml:todayHtml}),
   articleSection({id:'where-to-start',title:'Where to start with bass music: tracks, playlists and mixes.',bodyHtml:startingHtml}),
-  articleSection({id:'useful',title:'Is “bass music” still a useful term?',bodyHtml:render(useful),className:'tone-cyan'}),
+  articleSection({id:'useful',title:'Is “bass music” still a useful term?',bodyHtml:render(useful)}),
   articleFaq({items:faqItems,title:'Bass music FAQ.',openFirst:true}),
   authorCard({filled:true}),
   articleSources({bodyHtml:`<ul><li><a href="https://www.gold.ac.uk/cucr/research/bass-culture/" target="_blank" rel="noopener noreferrer">Goldsmiths: Bass Culture Research</a></li><li><a href="https://mopop.emuseum.com/objects/95703/mci-mixing-console-formerly-owned-and-operated-by-king-tubby" target="_blank" rel="noopener noreferrer">MoPOP: King Tubby’s MCI mixing console</a></li><li><a href="https://daily.redbullmusicacademy.com/2019/09/miami-bass-mobile-djs-regulating-oral-history/" target="_blank" rel="noopener noreferrer">Red Bull Music Academy: Miami bass mobile DJs oral history</a></li><li><a href="https://djmag.com/features/rise-fall-and-revival-uk-dubplate-culture" target="_blank" rel="noopener noreferrer">DJ Mag: UK dubplate culture</a></li><li><a href="https://www.laweekly.com/a-history-of-bass-music-in-los-angeles/" target="_blank" rel="noopener noreferrer">LA Weekly: A history of bass music in Los Angeles</a></li><li><a href="https://www.npr.org/sections/therecord/2011/05/11/136209254/footwork-chicago-dance-music-with-a-need-for-speed" target="_blank" rel="noopener noreferrer">NPR: Chicago footwork</a></li><li><a href="https://ra.co/exchange/336" target="_blank" rel="noopener noreferrer">Resident Advisor Exchange: DJ Lag and Nan Kolè</a></li><li><a href="https://www.afropop.org/articles/distruction-boyz" target="_blank" rel="noopener noreferrer">Afropop Worldwide: Distruction Boyz and gqom</a></li><li><a href="https://mixmag.net/feature/a-trip-through-the-u-s-west-coast-bass-scene" target="_blank" rel="noopener noreferrer">Mixmag: The US West Coast bass scene</a></li></ul>`}),

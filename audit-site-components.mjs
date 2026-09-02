@@ -127,7 +127,7 @@ const expectedJungleListening = articleListeningBand({
   title:'Early jungle and hardcore: extended playlist.',
   description:'A longer route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.',
   src:'https://open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62?utm_source=generator',
-  iframeTitle:'Early jungle and hardcore playlist on Spotify', fullBleed:true
+  iframeTitle:'Early jungle and hardcore playlist on Spotify', fullBleed:true, tone:'cyan'
 });
 const expectedJungleYoutube = articleYoutubeEmbed({
   src:'https://www.youtube.com/embed/gdQ4V245hG8?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
@@ -149,10 +149,10 @@ const checks = {
   homeFooterShared: pages.home.includes(homeFooter()),
   nowPlayingShared: pages.home.includes(expectedNowPlaying),
   homeArticlesShared: pages.home.includes(expectedHomeArticles),
-  homeArticleCount: count(pages.home, /<span class="number">A0[1-5]<\/span>/g) === 5,
+  homeArticleCount: count(pages.home, /<span class="number">A0[1-9]<\/span>/g) === currentHomeArticles.length,
   homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
-  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(5,1fr)}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
+  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
   homeStylesInlined: pages.home.includes(`<style>${homeCss.trim()}</style>`),
   homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 13 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
   homeHeroOptimized: ['thecatrave-home-640.webp','thecatrave-home-720.webp','thecatrave-home-960.webp','thecatrave-home-1200.webp'].every(asset => fs.existsSync(`img/${asset}`) && pages.home.includes(asset)) && !pages.home.includes('src="img/thecatrave-1200.webp"'),

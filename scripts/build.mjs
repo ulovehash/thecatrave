@@ -11,6 +11,7 @@ export const generators = [
   'build-uk-article.mjs',
   'build-bass-music-article.mjs',
   'build-dubstep-article.mjs',
+  'build-dnb-article.mjs',
   'build-home.mjs'
 ].filter(file => fs.existsSync(file));
 

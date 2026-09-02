@@ -46,17 +46,17 @@ if (!preservedContent) content = content
 const sectionMap = [
   ['From Sound System Roots to Breakbeat Future', 'introduction', 'article-intro'],
   ['Origins: The Birth of Jungle in Early 90s Britain', 'origins', ''],
-  ['Why “Jungle”? Etymology of the Name', 'name', 'tone-cyan'],
+  ['Why “Jungle”? Etymology of the Name', 'name', ''],
   ['1991–1993: The Underground Emergence', 'underground-emergence', ''],
-  ['1994–1995: Jungle Goes Mainstream (the “Jungle Mania” Era)', 'jungle-mania', 'tone-yellow'],
+  ['1994–1995: Jungle Goes Mainstream (the “Jungle Mania” Era)', 'jungle-mania', ''],
   ['Pioneers and Underground Legends', 'pioneers', ''],
   ['Iconic Jungle Labels', 'labels', ''],
   ['Pirate Radio, Dubplates & Pre-Internet Community', 'pirate-radio', ''],
-  ['Slang, Style & Rituals: The Jungle Subculture', 'culture', 'tone-cyan'],
+  ['Slang, Style & Rituals: The Jungle Subculture', 'culture', ''],
   ['Anthems and Pivotal Tracks', 'essential-tracks', ''],
   ['Breakbeat DNA: The Classic Drum Loops Behind Jungle', 'breakbeats', ''],
   ['Beefs, Drama & Mythos in the Jungle Scene', 'myths', ''],
-  ['The Jungle Revival and Today’s Scene', 'revival', 'tone-coral'],
+  ['The Jungle Revival and Today’s Scene', 'revival', ''],
   ['Conclusion', 'conclusion', ''],
   ['BONUS: Jungle Pioneers & Foundation Builders TL;DR Table', 'foundation-builders', ''],
   ['Jungle Revivalists & Modern Heroes', 'modern-artists', ''],
@@ -279,11 +279,11 @@ content = insertFeatureAfterParagraph(content, {
 });
 content = insertFeatureAfterList(content, {
   key:'track-inner-city-life', sectionId:'pioneers', itemMarker:'<strong>Goldie</strong>',
-  feature:exactJungleTrackFeature('innerCityLife', 'coral')
+  feature:exactJungleTrackFeature('innerCityLife', 'cyan')
 });
 content = insertFeatureAfterList(content, {
   key:'track-renegade-snares', sectionId:'labels', itemMarker:'<strong>Moving Shadow</strong>',
-  feature:exactJungleTrackFeature('renegadeSnares', 'yellow')
+  feature:exactJungleTrackFeature('renegadeSnares', 'cyan')
 });
 content = insertFeatureAfterParagraph(content, {
   key:'track-babylon', sectionId:'essential-tracks',
@@ -388,7 +388,7 @@ for (const feature of [
     kicker:'Essential listening', title:'Early jungle and hardcore: extended playlist.',
     description:'A longer route through the records connecting breakbeat hardcore, darkcore and the first recognisable jungle sound.',
     src:'https://open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62?utm_source=generator',
-    iframeTitle:'Early jungle and hardcore playlist on Spotify', fullBleed:true
+    iframeTitle:'Early jungle and hardcore playlist on Spotify', fullBleed:true, tone:'cyan'
   },
   {
     marker:'jungle-listening:jungle-mania', platform:'spotify', id:'jungle-listening-jungle-mania',

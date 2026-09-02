@@ -12,7 +12,8 @@ const pages = [
   {file: 'jungle-music-guide.html', path: '/jungle-music-guide', kind: 'guide'},
   {file: 'uk-electronic-music-evolution.html', path: '/uk-electronic-music-evolution', kind: 'guide'},
   {file: 'bass-music-guide.html', path: '/bass-music-guide', kind: 'guide'},
-  {file: 'dubstep-guide.html', path: '/dubstep-guide', kind: 'guide'}
+  {file: 'dubstep-guide.html', path: '/dubstep-guide', kind: 'guide'},
+  {file: 'drum-and-bass-guide.html', path: '/drum-and-bass-guide', kind: 'guide'}
 ];
 
 const failures = [];
