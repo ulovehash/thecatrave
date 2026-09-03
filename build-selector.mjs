@@ -58,7 +58,7 @@ const toolHtml = `
 const aboutHtml = `
 <p>The Selector solves one problem: you want to put on a proper DJ set and cannot decide which one. Press the button and it plays a full set, chosen at random from the live channels that actually publish them, currently ${escapeHtml(countLine)}.</p>
 <p>The pool is pulled from the YouTube channels of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands. Only long-form uploads are kept, so it is full sets rather than clips or trailers, and the list refreshes weekly as the channels post more.</p>
-<p>Filter by <strong>source</strong> or <strong>genre</strong>, or turn on <strong>Popular only</strong> to draw from the most-watched and most-liked sets in your selection. Genre is inferred from the artist's Last.fm tags, so some sets stay untagged. For the history rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
+<p>Filter by <strong>source</strong> or <strong>genre</strong>, or turn on <strong>Popular only</strong> to draw from the most-watched and most-liked sets in your selection. Genre is inferred from the artist's MusicBrainz tags, so some sets stay untagged. For the history rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
 `.trim();
 
 const articleHtml = [

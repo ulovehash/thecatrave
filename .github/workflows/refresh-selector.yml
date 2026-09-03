@@ -23,9 +23,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/fetch-sets.mjs
 
-      - name: Tag genres from Last.fm
-        env:
-          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+      - name: Tag genres from MusicBrainz
         run: node scripts/enrich-genres.mjs
 
       - name: Rebuild the page

@@ -1,23 +1,25 @@
-// Add a genres[] field to every set in selector-data.json using Last.fm artist
-// tags. Zero npm dependencies, runs on any Node >= 14. Needs a free Last.fm API
-// key (https://www.last.fm/api/account/create) in the environment:
+// Add a genres[] field to every set in selector-data.json using MusicBrainz.
+// No API key, no account: MusicBrainz only asks for a descriptive User-Agent and
+// one request per second.
 //
-//   export LASTFM_API_KEY='your-key'
 //   node scripts/enrich-genres.mjs
 //   node build-selector.mjs
 //
-// Results are cached in selector-genres-cache.json (artist -> genres), so a
-// re-run only looks up artists it has not seen. The key stays in your shell.
+// artist -> genres is cached in selector-genres-cache.json, so a re-run only
+// looks up artists it has not seen. The first full run is slow (rate limit);
+// after that the weekly refresh only resolves new names. Set MAX_LOOKUPS to do
+// a partial run and resume later from the cache.
 
 import fs from 'node:fs';
 import https from 'node:https';
 import { tagsToGenres } from './genre-vocab.mjs';
 
-const KEY = process.env.LASTFM_API_KEY;
-if (!KEY) {
-  console.error('Missing LASTFM_API_KEY. Get a free key at https://www.last.fm/api/account/create');
-  process.exit(1);
-}
+const UA = 'thecatrave-selector/1.0 ( https://thecatrave.com/selector )';
+const MB = 'https://musicbrainz.org/ws/2';
+const MIN_SETS = 2;                                  // skip artists that appear once (b2b guests)
+const MIN_SCORE = 88;                                // MusicBrainz search confidence
+const DELAY = 1100;                                  // >= 1 req/sec
+const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS) || Infinity;
 
 const CACHE_FILE = 'selector-genres-cache.json';
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
@@ -27,21 +29,24 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function get(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, res => {
+    const req = https.get(url, { headers: { 'user-agent': UA, accept: 'application/json' } }, res => {
       let b = '';
       res.setEncoding('utf8');
       res.on('data', c => { b += c; });
-      res.on('end', () => { try { resolve(JSON.parse(b)); } catch { reject(new Error('bad JSON')); } });
+      res.on('end', () => {
+        if (res.statusCode === 503) { reject(new Error('503')); return; }
+        if (res.statusCode < 200 || res.statusCode >= 300) { reject(new Error(`HTTP ${res.statusCode}`)); return; }
+        try { resolve(JSON.parse(b)); } catch { reject(new Error('bad JSON')); }
+      });
     });
     req.setTimeout(15000, () => req.destroy(new Error('timed out')));
     req.on('error', reject);
   });
 }
 
-// "Rrita Jashari invites Shelbatra", "Six Sex & MCR-T", "A b2b B" -> individual names
 function artistTokens(artist) {
   return String(artist)
-    .split(/\s+(?:b2b|b3b|f\/|feat\.?|featuring|invites|presents|vs\.?|x|&|\+|,|\/)\s+/i)
+    .split(/\s+(?:b2b|b3b|f\/|feat\.?|featuring|invites|presents|pres\.?|vs\.?|x|&|\+|,|\/|with)\s+/i)
     .map(s => s.trim())
     .filter(s => s.length > 1 && s.length < 60);
 }
@@ -49,28 +54,51 @@ function artistTokens(artist) {
 async function lookup(name) {
   const key = name.toLowerCase();
   if (key in cache) return cache[key];
-  const url = `https://ws.audioscrobbler.com/2.0/?method=artist.gettoptags&artist=${encodeURIComponent(name)}&api_key=${KEY}&autocorrect=1&format=json`;
+
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
   let genres = [];
   try {
-    const data = await get(url);
-    const tags = data?.toptags?.tag || [];
-    genres = tagsToGenres(tags.map(t => ({ name: t.name, count: t.count })));
-  } catch { /* leave empty, still cache so we do not retry every run */ }
+    const q = encodeURIComponent(`artist:"${name.replace(/"/g, '')}"`);
+    const search = await get(`${MB}/artist/?query=${q}&limit=5&fmt=json`);
+    await sleep(DELAY);
+    const arts = search.artists || [];
+    // MusicBrainz search scores are occasionally missing under load; fall back to
+    // an exact normalised name match.
+    const hit = arts.find(a => (a.score || 0) >= MIN_SCORE) || arts.find(a => norm(a.name) === norm(name));
+    if (hit) {
+      const detail = await get(`${MB}/artist/${hit.id}?inc=genres+tags&fmt=json`);
+      await sleep(DELAY);
+      const fromGenres = (detail.genres || []).map(g => ({ name: g.name, count: (g.count || 0) + 20 }));
+      const fromTags = (detail.tags || []).map(t => ({ name: t.name, count: t.count }));
+      genres = tagsToGenres([...fromGenres, ...fromTags].sort((a, b) => b.count - a.count));
+    }
+  } catch (err) {
+    if (err.message === '503') { await sleep(3000); return lookup(name); }   // back off and retry once
+    await sleep(DELAY);
+  }
   cache[key] = genres;
-  await sleep(220);
   return genres;
 }
 
-const uniqueTokens = new Set();
-for (const s of sets) for (const t of artistTokens(s.artist)) uniqueTokens.add(t);
-const todo = [...uniqueTokens].filter(t => !(t.toLowerCase() in cache));
-console.log(`${uniqueTokens.size} unique artist tokens, ${todo.length} to look up on Last.fm…\n`);
+// Count how many sets each artist token touches; only resolve the ones that matter.
+const tokenSets = new Map();
+for (const s of sets) for (const t of artistTokens(s.artist)) tokenSets.set(t, (tokenSets.get(t) || 0) + 1);
+const todo = [...tokenSets.entries()]
+  .filter(([t, n]) => n >= MIN_SETS && !(t.toLowerCase() in cache))
+  .sort((a, b) => b[1] - a[1])
+  .map(([t]) => t)
+  .slice(0, MAX_LOOKUPS);
+
+console.log(`${tokenSets.size} artist tokens, ${todo.length} to resolve on MusicBrainz (~${Math.ceil(todo.length * DELAY * 2 / 60000)} min)…\n`);
 
 let done = 0;
 for (const t of todo) {
   await lookup(t);
   done += 1;
-  if (done % 25 === 0) process.stdout.write(`\r  ${done}/${todo.length}`);
+  if (done % 20 === 0) {
+    process.stdout.write(`\r  ${done}/${todo.length}`);
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 0) + '\n');   // checkpoint
+  }
 }
 process.stdout.write(`\r  ${done}/${todo.length}\n`);
 fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 0) + '\n');
@@ -86,3 +114,4 @@ fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
 const pct = ((tagged / sets.length) * 100).toFixed(1);
 console.log(`\nTagged ${tagged}/${sets.length} sets (${pct}%). Cache: ${Object.keys(cache).length} artists.`);
+if (todo.length === MAX_LOOKUPS) console.log('Hit MAX_LOOKUPS — run again to resolve the rest (cache resumes).');
