@@ -29,7 +29,8 @@ const CACHE_FILE = 'selector-videos-cache.json';
 
 const MIN_SECONDS = 20 * 60;
 const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
-const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 500;
+const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 1200;
+const MAX_SETS = Number(process.env.MAX_SETS) || 12000;       // page-load budget for selector-data.json
 const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;
 const STOP_AFTER_KNOWN = 80;                                  // consecutive cached IDs = we have reached known territory
 const REFRESH_RECENT_DAYS = Number(process.env.REFRESH_RECENT_DAYS) || 0;   // 0 = never re-hydrate a cached video
@@ -154,7 +155,11 @@ for (const ch of channels) {
 
 fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 0) + '\n');
 
-// Rebuild selector-data.json from the whole cache: each channel's best PER_CHANNEL by likes+comments.
+// Rebuild selector-data.json from the whole cache. Each channel contributes its
+// best PER_CHANNEL by likes + comments*3; channels are filled in selector-
+// channels.mjs order, so when MAX_SETS is reached the tail channels are the ones
+// that get trimmed. `title` is dropped here (it lives in the cache) to keep the
+// fetched file small.
 const byBroadcaster = new Map();
 for (const [id, e] of Object.entries(cache)) {
   if (e.s < MIN_SECONDS) continue;
@@ -163,14 +168,24 @@ for (const [id, e] of Object.entries(cache)) {
   byBroadcaster.get(e.b).push({ id, ...e });
 }
 const heat = e => (e.l || 0) + (e.c || 0) * 3;
+const order = channels.map(c => c.broadcaster);
+const ordered = [...byBroadcaster.keys()].sort((a, z) => {
+  const ia = order.indexOf(a), iz = order.indexOf(z);
+  return (ia < 0 ? 1e9 : ia) - (iz < 0 ? 1e9 : iz);
+});
+
 const sets = [];
-for (const [b, entries] of byBroadcaster) {
+for (const b of ordered) {
+  if (sets.length >= MAX_SETS) break;
+  const entries = byBroadcaster.get(b);
   entries.sort((a, z) => heat(z) - heat(a) || (z.v || 0) - (a.v || 0));
-  for (const e of entries.slice(0, PER_CHANNEL)) {
-    sets.push({ id: e.id, title: e.t, artist: parseArtist(e.t, b), broadcaster: b, published: e.p, seconds: e.s, views: e.v, likes: e.l, comments: e.c });
+  const room = Math.min(PER_CHANNEL, MAX_SETS - sets.length);
+  for (const e of entries.slice(0, room)) {
+    sets.push({ id: e.id, artist: parseArtist(e.t, b), broadcaster: b, published: e.p, seconds: e.s, views: e.v, likes: e.l, comments: e.c });
   }
 }
 sets.sort((a, z) => (a.published < z.published ? 1 : -1));
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
-console.log(`\nCache: ${Object.keys(cache).length} videos. selector-data.json: ${sets.length} sets from ${byBroadcaster.size} channels.`);
+const mb = (fs.statSync('selector-data.json').size / 1048576).toFixed(2);
+console.log(`\nCache: ${Object.keys(cache).length} videos. selector-data.json: ${sets.length} sets, ${mb} MB.`);
