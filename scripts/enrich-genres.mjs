@@ -80,9 +80,13 @@ async function lookup(name) {
   return genres;
 }
 
+// BROADCASTER=... scopes the run to one channel (for a quick quality check).
+const ONLY = process.env.BROADCASTER || '';
+const inScope = s => !ONLY || s.broadcaster === ONLY;
+
 // Count how many sets each artist token touches; only resolve the ones that matter.
 const tokenSets = new Map();
-for (const s of sets) for (const t of artistTokens(s.artist)) tokenSets.set(t, (tokenSets.get(t) || 0) + 1);
+for (const s of sets) if (inScope(s)) for (const t of artistTokens(s.artist)) tokenSets.set(t, (tokenSets.get(t) || 0) + 1);
 const todo = [...tokenSets.entries()]
   .filter(([t, n]) => n >= MIN_SETS && !(t.toLowerCase() in cache))
   .sort((a, b) => b[1] - a[1])
@@ -103,15 +107,23 @@ for (const t of todo) {
 process.stdout.write(`\r  ${done}/${todo.length}\n`);
 fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 0) + '\n');
 
-let tagged = 0;
+let tagged = 0, scope = 0;
+const genreHist = new Map();
 for (const s of sets) {
+  if (!inScope(s)) continue;
+  scope += 1;
   const g = new Set();
   for (const t of artistTokens(s.artist)) for (const x of cache[t.toLowerCase()] || []) g.add(x);
   s.genres = [...g];
-  if (s.genres.length) tagged += 1;
+  if (s.genres.length) { tagged += 1; for (const x of s.genres) genreHist.set(x, (genreHist.get(x) || 0) + 1); }
 }
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
-const pct = ((tagged / sets.length) * 100).toFixed(1);
-console.log(`\nTagged ${tagged}/${sets.length} sets (${pct}%). Cache: ${Object.keys(cache).length} artists.`);
-if (todo.length === MAX_LOOKUPS) console.log('Hit MAX_LOOKUPS — run again to resolve the rest (cache resumes).');
+const pct = ((tagged / scope) * 100).toFixed(1);
+console.log(`\n${ONLY || 'All'}: tagged ${tagged}/${scope} sets (${pct}%). Cache: ${Object.keys(cache).length} artists.`);
+console.log('Top genres: ' + [...genreHist.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([g, n]) => `${g} ${n}`).join(', '));
+console.log('Samples:');
+for (const s of sets.filter(inScope).filter(s => s.genres && s.genres.length).slice(0, 12)) {
+  console.log(`  ${s.artist}  ->  ${s.genres.join(', ')}`);
+}
+if (todo.length === MAX_LOOKUPS) console.log('\nHit MAX_LOOKUPS — run again to resolve the rest (cache resumes).');

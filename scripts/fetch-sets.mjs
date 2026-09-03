@@ -17,6 +17,7 @@
 import fs from 'node:fs';
 import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
+import { parseArtist, NOT_A_SET } from './parse-artist.mjs';
 
 const KEY = process.env.YOUTUBE_API_KEY;
 if (!KEY) {
@@ -65,13 +66,6 @@ function isoToSeconds(iso) {
   return m ? (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0) : 0;
 }
 
-function parseArtist(title, broadcaster) {
-  let s = title.split(/\s+[@|·–—]\s+|\s+[-]\s+|:\s+/)[0].trim();
-  s = s.replace(new RegExp(`^${broadcaster.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*[:\\-|]?\\s*`, 'i'), '').trim();
-  s = s.replace(/\s*[([][^)\]]*[)\]]\s*$/, '').trim();
-  s = s.replace(/\s+\d{1,2}[./]\d{1,2}([./]\d{2,4})?$/, '').trim();
-  return s || title.trim();
-}
 
 async function uploadsPlaylist(entry) {
   const params = entry.handle
@@ -164,6 +158,7 @@ const byBroadcaster = new Map();
 for (const [id, e] of Object.entries(cache)) {
   if (e.s < MIN_SECONDS) continue;
   if (e.v != null && e.v < MIN_VIEWS) continue;
+  if (NOT_A_SET.test(e.t || '')) continue;
   if (!byBroadcaster.has(e.b)) byBroadcaster.set(e.b, []);
   byBroadcaster.get(e.b).push({ id, ...e });
 }
