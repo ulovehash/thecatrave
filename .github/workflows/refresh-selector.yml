@@ -21,16 +21,22 @@ jobs:
       - name: Rebuild the catalogue from the YouTube Data API
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: |
-          node scripts/fetch-sets.mjs
-          node build-selector.mjs
+        run: node scripts/fetch-sets.mjs
+
+      - name: Tag genres from Last.fm
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: node scripts/enrich-genres.mjs
+
+      - name: Rebuild the page
+        run: node build-selector.mjs
 
       - name: Commit if the catalogue changed
         run: |
-          if [ -n "$(git status --porcelain selector-data.json selector.html)" ]; then
+          if [ -n "$(git status --porcelain selector-data.json selector.html selector-genres-cache.json)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add selector-data.json selector.html
+            git add selector-data.json selector.html selector-genres-cache.json
             git commit -m "Refresh selector catalogue"
             git push
           else

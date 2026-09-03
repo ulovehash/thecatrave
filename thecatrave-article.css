@@ -812,16 +812,22 @@
 
 .selector-page .sel-controls {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: .6rem .9rem;
+  flex-direction: column;
+  gap: .8rem;
   margin-bottom: 1.1rem;
 }
-.selector-page .sel-sources {
+.selector-page .sel-chipset-label {
+  margin: 0 0 .45rem;
+  font: 700 .68rem/1 "Space Mono", monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .55;
+}
+.selector-page .sel-sources,
+.selector-page .sel-genres {
   display: flex;
   flex-wrap: wrap;
   gap: .45rem;
-  flex: 1 1 auto;
 }
 .selector-page .sel-chip {
   padding: .4rem .7rem;

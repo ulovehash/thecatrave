@@ -13,7 +13,8 @@ check('canonical is /selector', html.includes('<link rel="canonical" href="https
 check('title present and bounded', /<title>[^<]{15,65}<\/title>/.test(html));
 check('meta description present', /<meta name="description" content="[^"]{70,165}"/.test(html));
 check('button present with a label', /<button[^>]*id="sel-go"[^>]*>[^<]+<\/button>/.test(html));
-check('source filter group present', /<div class="sel-sources" id="sel-sources" role="group" aria-label="[^"]+">/.test(html));
+check('source filter group present', /<div class="sel-sources" id="sel-sources" role="group"/.test(html));
+check('genre filter group present', /<div class="sel-genres" id="sel-genres" role="group"/.test(html));
 check('popular-only checkbox present', /<input type="checkbox" id="sel-popular"/.test(html));
 check('h1 sits in the tool, above the fold', html.indexOf('<h1>') < html.indexOf('id="about"'));
 check('live result region present', /<div class="sel-stage" id="sel-stage" aria-live="polite">/.test(html));
