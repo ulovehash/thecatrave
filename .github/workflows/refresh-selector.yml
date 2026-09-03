@@ -31,10 +31,11 @@ jobs:
 
       - name: Commit if the catalogue changed
         run: |
-          if [ -n "$(git status --porcelain selector-data.json selector.html selector-genres-cache.json)" ]; then
+          FILES="selector-data.json selector.html selector-genres-cache.json selector-videos-cache.json"
+          if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add selector-data.json selector.html selector-genres-cache.json
+            git add $FILES
             git commit -m "Refresh selector catalogue"
             git push
           else

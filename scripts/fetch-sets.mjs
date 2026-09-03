@@ -1,13 +1,18 @@
-// Build selector-data.json from the YouTube Data API v3. Zero npm dependencies,
-// runs on any Node >= 14. Needs a key in the environment:
+// Incrementally build the set catalogue from the YouTube Data API. Zero npm
+// dependencies, runs on any Node >= 14. Needs a key in the environment:
 //
 //   export YOUTUBE_API_KEY='your-key'
 //   node scripts/fetch-sets.mjs
 //   node build-selector.mjs
 //
+// selector-videos-cache.json is the persistent index of every long-form set ever
+// seen (with its stats). Each run pages a channel's uploads newest-first, stops
+// once it hits a run of already-cached videos, and calls the expensive
+// videos.list only for the new ones. A cached video is never re-fetched just
+// because its like count moved — set REFRESH_RECENT_DAYS to re-pull stats for
+// recent uploads only.
+//
 // The key stays in your shell. Nothing about it is written to disk or committed.
-// Unlike the RSS feed, the API returns each video's duration, so short clips and
-// Shorts are filtered out and only real sets remain.
 
 import fs from 'node:fs';
 import https from 'node:https';
@@ -20,10 +25,15 @@ if (!KEY) {
 }
 
 const API = 'https://www.googleapis.com/youtube/v3';
-const MIN_SECONDS = 20 * 60;   // a set, not a clip
-const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 500;   // keep this many best sets per channel
-const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;       // drop near-zero duds
-const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;   // channels bury real sets under recent Shorts
+const CACHE_FILE = 'selector-videos-cache.json';
+
+const MIN_SECONDS = 20 * 60;
+const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
+const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 500;
+const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;
+const STOP_AFTER_KNOWN = 80;                                  // consecutive cached IDs = we have reached known territory
+const REFRESH_RECENT_DAYS = Number(process.env.REFRESH_RECENT_DAYS) || 0;   // 0 = never re-hydrate a cached video
+
 const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|shorts|preview|tickets|out now|full lineup|line-?up)\b/i;
 
 function api(path, params) {
@@ -38,8 +48,7 @@ function api(path, params) {
         let json = null;
         try { json = JSON.parse(body); } catch {}
         if (res.statusCode < 200 || res.statusCode >= 300) {
-          const msg = json?.error?.message || body.slice(0, 300);
-          reject(new Error(`${path} ${res.statusCode}: ${msg}`));
+          reject(new Error(`${path} ${res.statusCode}: ${json?.error?.message || body.slice(0, 300)}`));
           return;
         }
         resolve(json);
@@ -55,8 +64,6 @@ function isoToSeconds(iso) {
   return m ? (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0) : 0;
 }
 
-// Best-effort artist from a set title: text before the first separator, minus a
-// leading broadcaster mention and trailing dates / parentheticals.
 function parseArtist(title, broadcaster) {
   let s = title.split(/\s+[@|·–—]\s+|\s+[-]\s+|:\s+/)[0].trim();
   s = s.replace(new RegExp(`^${broadcaster.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*[:\\-|]?\\s*`, 'i'), '').trim();
@@ -66,9 +73,6 @@ function parseArtist(title, broadcaster) {
 }
 
 async function uploadsPlaylist(entry) {
-  // Prefer the handle: a hardcoded channelId can point at a small secondary
-  // channel (a Shorts feed, a Topic channel). forHandle always resolves the
-  // real one.
   const params = entry.handle
     ? { part: 'contentDetails', forHandle: entry.handle }
     : { part: 'contentDetails', id: entry.channelId };
@@ -81,20 +85,6 @@ async function uploadsPlaylist(entry) {
   return uploads || null;
 }
 
-async function allVideoIds(playlistId) {
-  const ids = [];
-  let pageToken;
-  do {
-    const data = await api('playlistItems', {
-      part: 'contentDetails', playlistId, maxResults: '50',
-      ...(pageToken ? { pageToken } : {})
-    });
-    for (const it of data.items || []) ids.push(it.contentDetails.videoId);
-    pageToken = data.nextPageToken;
-  } while (pageToken && ids.length < SCAN_CAP);
-  return ids;
-}
-
 async function hydrate(ids) {
   const out = [];
   for (let i = 0; i < ids.length; i += 50) {
@@ -105,10 +95,10 @@ async function hydrate(ids) {
         id: v.id,
         title: v.snippet.title,
         published: v.snippet.publishedAt,
-        live: v.snippet.liveBroadcastContent,   // 'none' | 'live' | 'upcoming'
+        live: v.snippet.liveBroadcastContent,
         seconds: isoToSeconds(v.contentDetails.duration),
         views: st.viewCount != null ? Number(st.viewCount) : null,
-        likes: st.likeCount != null ? Number(st.likeCount) : null,     // dislikeCount removed by YouTube in 2021
+        likes: st.likeCount != null ? Number(st.likeCount) : null,
         comments: st.commentCount != null ? Number(st.commentCount) : null
       });
     }
@@ -116,56 +106,71 @@ async function hydrate(ids) {
   return out;
 }
 
-const seen = new Set();
-const sets = [];
+const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')) : {};
+const today = new Date().toISOString().slice(0, 10);
+const recentCutoff = REFRESH_RECENT_DAYS ? Date.now() - REFRESH_RECENT_DAYS * 864e5 : 0;
 
-console.log(`Fetching from ${channels.length} channels via the YouTube Data API…\n`);
+console.log(`Cache has ${Object.keys(cache).length} videos. Scanning ${channels.length} channels…\n`);
 
 for (const ch of channels) {
   process.stdout.write(`  … ${ch.broadcaster}`);
   try {
     const playlist = await uploadsPlaylist(ch);
     if (!playlist) { process.stdout.write(`\r  ✗ ${ch.broadcaster}: could not resolve ${ch.handle || ch.channelId}\n`); continue; }
-    const ids = await allVideoIds(playlist);
-    const videos = await hydrate(ids);
 
-    // qualify, then keep this channel's best by likes (tiebreak views) so small
-    // stations are not drowned out by the big ones.
-    const qualified = videos.filter(v =>
-      (!v.live || v.live === 'none') &&
-      v.seconds >= MIN_SECONDS &&
-      !SKIP_TITLE.test(v.title) &&
-      (v.views == null || v.views >= MIN_VIEWS) &&
-      !seen.has(v.id)
-    );
-    const score = v => (v.likes || 0) + (v.comments || 0) * 3;
-    qualified.sort((a, b) => score(b) - score(a) || (b.views || 0) - (a.views || 0));
-    const keep = qualified.slice(0, PER_CHANNEL);
+    const ids = [];
+    let pageToken, scanned = 0, knownStreak = 0;
+    do {
+      const data = await api('playlistItems', { part: 'contentDetails', playlistId: playlist, maxResults: '50', ...(pageToken ? { pageToken } : {}) });
+      for (const it of data.items || []) {
+        const vid = it.contentDetails.videoId;
+        ids.push(vid);
+        scanned += 1;
+        knownStreak = (cache[vid] && cache[vid].b === ch.broadcaster) ? knownStreak + 1 : 0;
+      }
+      pageToken = data.nextPageToken;
+    } while (pageToken && scanned < SCAN_CAP && knownStreak < STOP_AFTER_KNOWN);
 
-    for (const v of keep) {
-      seen.add(v.id);
-      sets.push({
-        id: v.id,
-        title: v.title,
-        artist: parseArtist(v.title, ch.broadcaster),
-        broadcaster: ch.broadcaster,
-        published: v.published,
-        seconds: v.seconds,
-        views: v.views,
-        likes: v.likes,
-        comments: v.comments
-      });
+    const need = ids.filter(v => {
+      const c = cache[v];
+      if (!c) return true;
+      return recentCutoff && c.p && Date.parse(c.p) >= recentCutoff;
+    });
+    const hydrated = need.length ? await hydrate(need) : [];
+
+    let added = 0;
+    for (const v of hydrated) {
+      if (v.live && v.live !== 'none') continue;
+      if (v.seconds < MIN_SECONDS) continue;
+      if (SKIP_TITLE.test(v.title)) continue;
+      if (!cache[v.id]) added += 1;
+      cache[v.id] = { t: v.title, b: ch.broadcaster, p: v.published, s: v.seconds, v: v.views, l: v.likes, c: v.comments, f: today };
     }
-    process.stdout.write(`\r  ✓ ${ch.broadcaster}: ${keep.length} sets (${videos.length} scanned, ${qualified.length} qualified)\n`);
+    process.stdout.write(`\r  ✓ ${ch.broadcaster}: +${added} new (${scanned} scanned, ${need.length} hydrated)\n`);
   } catch (err) {
     process.stdout.write(`\r  ✗ ${ch.broadcaster}: ${err.message}\n`);
   }
 }
 
-sets.sort((a, b) => (a.published < b.published ? 1 : -1));
-fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
-console.log(`\nWrote selector-data.json — ${sets.length} sets from ${channels.length} channels.`);
-if (!sets.length) {
-  console.log('\nNo sets written. If every channel shows a 403, enable "YouTube Data API v3" for the');
-  console.log('project the key belongs to, and check the key has no HTTP-referrer restriction.');
+fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 0) + '\n');
+
+// Rebuild selector-data.json from the whole cache: each channel's best PER_CHANNEL by likes+comments.
+const byBroadcaster = new Map();
+for (const [id, e] of Object.entries(cache)) {
+  if (e.s < MIN_SECONDS) continue;
+  if (e.v != null && e.v < MIN_VIEWS) continue;
+  if (!byBroadcaster.has(e.b)) byBroadcaster.set(e.b, []);
+  byBroadcaster.get(e.b).push({ id, ...e });
 }
+const heat = e => (e.l || 0) + (e.c || 0) * 3;
+const sets = [];
+for (const [b, entries] of byBroadcaster) {
+  entries.sort((a, z) => heat(z) - heat(a) || (z.v || 0) - (a.v || 0));
+  for (const e of entries.slice(0, PER_CHANNEL)) {
+    sets.push({ id: e.id, title: e.t, artist: parseArtist(e.t, b), broadcaster: b, published: e.p, seconds: e.s, views: e.v, likes: e.l, comments: e.c });
+  }
+}
+sets.sort((a, z) => (a.published < z.published ? 1 : -1));
+fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
+
+console.log(`\nCache: ${Object.keys(cache).length} videos. selector-data.json: ${sets.length} sets from ${byBroadcaster.size} channels.`);
