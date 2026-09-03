@@ -34,7 +34,10 @@ const toolHtml = `
     <div class="sel-sources" id="sel-sources" role="group" aria-label="Filter by source"></div>
     <label class="sel-popular"><input type="checkbox" id="sel-popular" disabled> Popular only</label>
   </div>
-  <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
+  <div class="sel-go-wrap">
+    <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
+    <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
+  </div>
   <p class="sel-count" id="sel-count" hidden></p>
   <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
   <noscript><p class="sel-noscript">The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${

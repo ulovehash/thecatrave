@@ -75,12 +75,34 @@
     return pool[Math.floor(Math.random() * pool.length)];
   };
 
+  const burst = document.getElementById('sel-burst');
+  const SPARK_COLORS = ['var(--acid)', 'var(--cyan)', 'var(--yellow)', 'var(--coral)', 'var(--ink)'];
+  const salute = () => {
+    if (!burst) return;
+    burst.textContent = '';
+    const n = 14;
+    for (let i = 0; i < n; i += 1) {
+      const s = document.createElement('span');
+      s.className = 'sel-spark';
+      const angle = (Math.PI * 2 * i) / n + (Math.random() - 0.5) * 0.5;
+      const dist = 44 + Math.random() * 48;
+      s.style.setProperty('--tx', `${(Math.cos(angle) * dist).toFixed(1)}px`);
+      s.style.setProperty('--ty', `${(Math.sin(angle) * dist - 12).toFixed(1)}px`);
+      s.style.setProperty('--rot', `${((Math.random() * 2 - 1) * 220).toFixed(0)}deg`);
+      s.style.setProperty('--c', SPARK_COLORS[i % SPARK_COLORS.length]);
+      s.style.animationDelay = `${(Math.random() * 40).toFixed(0)}ms`;
+      burst.appendChild(s);
+    }
+    setTimeout(() => { burst.textContent = ''; }, 720);
+  };
+
   const go = () => {
     const item = pick();
     if (!item) return;
     if (!reduceMotion) {
       btn.dataset.spinning = 'true';
       setTimeout(() => { delete btn.dataset.spinning; }, 260);
+      salute();
     }
     render(item);
     setButton('Pick another', 'ready', false);
