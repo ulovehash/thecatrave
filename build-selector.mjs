@@ -27,7 +27,7 @@ const toolHtml = `
 <header class="article-hero selector-hero">
   <p class="article-kicker">Tool</p>
   <h1>The Selector</h1>
-  <p class="subtitle article-deck">One button. One random DJ set, from the channels that actually stream them.</p>
+  <p class="subtitle article-deck">Press the button to pick a random set.</p>
 </header>
 <div class="selector" id="selector">
   <div class="sel-controls">
@@ -56,9 +56,8 @@ const toolHtml = `
 // Below-the-fold context. Two internal links keep audit-seo's "main has >= 2
 // internal links" check happy.
 const aboutHtml = `
-<p>The Selector solves one problem: you want to put on a proper DJ set and cannot decide which one. Press the button and it plays a full set, chosen at random from the live channels that actually publish them, currently ${escapeHtml(countLine)}.</p>
-<p>The pool is pulled from the YouTube channels of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands. Only long-form uploads count, and only each channel's best by likes and comments, so it is full sets that landed rather than everything they ever posted. It refreshes weekly.</p>
-<p>Filter by <strong>source</strong> or <strong>genre</strong>, or turn on <strong>Popular only</strong> to draw from the most-watched and most-liked sets in your selection. Genre is inferred from the artist's MusicBrainz tags, so some sets stay untagged. For the history rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
+<p>Can't decide which DJ set to put on? Press the button for a full one at random, currently ${escapeHtml(countLine)}. Narrow it by <strong>source</strong>, or turn on <strong>Popular only</strong> for the most-liked.</p>
+<p>The pool is the long-form uploads of Boiler Room, HÖR, The Lot Radio, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands: real sets rather than clips, refreshed weekly. For the history behind the music, see the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a>.</p>
 `.trim();
 
 const articleHtml = [
