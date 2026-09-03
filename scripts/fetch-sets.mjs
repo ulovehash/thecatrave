@@ -1,6 +1,6 @@
 // Build selector-data.json from the YouTube channels in selector-channels.mjs.
-// Zero npm dependencies; needs Node >= 18 for global fetch and a YouTube Data
-// API v3 key in the environment:
+// Zero npm dependencies, runs on any Node >= 14. Needs a YouTube Data API v3
+// key in the environment:
 //
 //   export YOUTUBE_API_KEY='your-key'
 //   node scripts/fetch-sets.mjs
@@ -9,6 +9,7 @@
 // The key stays in your shell. Nothing about it is written to disk or committed.
 
 import fs from 'node:fs';
+import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
 
 const KEY = process.env.YOUTUBE_API_KEY;
@@ -16,21 +17,29 @@ if (!KEY) {
   console.error('Missing YOUTUBE_API_KEY. Run:  export YOUTUBE_API_KEY=... && node scripts/fetch-sets.mjs');
   process.exit(1);
 }
-if (typeof fetch !== 'function') {
-  console.error('This script needs Node >= 18 (global fetch). Try:  nvm use 20');
-  process.exit(1);
-}
 
 const API = 'https://www.googleapis.com/youtube/v3';
 const MIN_SECONDS = 20 * 60;                 // a DJ set, not a trailer or announcement
 const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|coming soon|out now)\b/i;
 
-async function api(path, params) {
+function api(path, params) {
   const url = new URL(`${API}/${path}`);
   url.search = new URLSearchParams({ ...params, key: KEY }).toString();
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${path} ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  return res.json();
+  return new Promise((resolve, reject) => {
+    https.get(url, res => {
+      let body = '';
+      res.setEncoding('utf8');
+      res.on('data', chunk => { body += chunk; });
+      res.on('end', () => {
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          reject(new Error(`${path} ${res.statusCode}: ${body.slice(0, 200)}`));
+          return;
+        }
+        try { resolve(JSON.parse(body)); }
+        catch { reject(new Error(`${path}: response was not JSON`)); }
+      });
+    }).on('error', reject);
+  });
 }
 
 // ISO 8601 duration (PT1H2M3S) -> seconds
