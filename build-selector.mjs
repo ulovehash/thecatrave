@@ -27,7 +27,7 @@ const countLine = sets.length
 // links keep audit-seo's "main has >= 2 internal links" happy.
 const introHtml = `
 <p>The Selector is a small tool for one problem: you want to put on a proper DJ set and you cannot decide which one. Press the button and it plays a full set, chosen at random from the live channels that actually publish them, currently ${escapeHtml(countLine)}.</p>
-<p>The pool is pulled from the YouTube uploads of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Dekmantel, Kiosk Radio and a dozen more radio stations and party brands. Only long-form sets are kept; trailers, interviews and short clips are filtered out. The list refreshes so new sets appear as the channels post them.</p>
+<p>The pool is pulled from the recent uploads of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands. Trailers, interviews and short clips are filtered out, and the list refreshes weekly so new sets appear as the channels post them.</p>
 <p>If you want the background rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
 `.trim();
 

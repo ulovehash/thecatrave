@@ -1,142 +1,84 @@
-// Build selector-data.json from the YouTube channels in selector-channels.mjs.
-// Zero npm dependencies, runs on any Node >= 14. Needs a YouTube Data API v3
-// key in the environment:
+// Build selector-data.json from the public YouTube RSS feed of each channel in
+// selector-channels.mjs. No API key, no npm dependencies, runs on any Node >= 14.
 //
-//   export YOUTUBE_API_KEY='your-key'
 //   node scripts/fetch-sets.mjs
 //   node build-selector.mjs
 //
-// The key stays in your shell. Nothing about it is written to disk or committed.
+// RSS gives roughly the 15 most recent uploads per channel, so the pool stays
+// fresh on its own. For deeper back-catalogue you would swap this for the
+// YouTube Data API, but the MVP does not need it.
 
 import fs from 'node:fs';
 import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
 
-const KEY = process.env.YOUTUBE_API_KEY;
-if (!KEY) {
-  console.error('Missing YOUTUBE_API_KEY. Run:  export YOUTUBE_API_KEY=... && node scripts/fetch-sets.mjs');
-  process.exit(1);
-}
+const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|coming soon|out now|tickets|full lineup|line-up|episode \d+ preview)\b/i;
 
-const API = 'https://www.googleapis.com/youtube/v3';
-const MIN_SECONDS = 20 * 60;                 // a DJ set, not a trailer or announcement
-const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|coming soon|out now)\b/i;
-
-function api(path, params) {
-  const url = new URL(`${API}/${path}`);
-  url.search = new URLSearchParams({ ...params, key: KEY }).toString();
+function get(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, res => {
+    const req = https.get(url, { headers: { 'user-agent': 'Mozilla/5.0 (selector catalogue build)' } }, res => {
+      if (res.statusCode === 301 || res.statusCode === 302) { get(res.headers.location).then(resolve, reject); return; }
       let body = '';
       res.setEncoding('utf8');
-      res.on('data', chunk => { body += chunk; });
+      res.on('data', c => { body += c; });
       res.on('end', () => {
-        if (res.statusCode < 200 || res.statusCode >= 300) {
-          reject(new Error(`${path} ${res.statusCode}: ${body.slice(0, 200)}`));
-          return;
-        }
-        try { resolve(JSON.parse(body)); }
-        catch { reject(new Error(`${path}: response was not JSON`)); }
+        if (res.statusCode < 200 || res.statusCode >= 300) { reject(new Error(`HTTP ${res.statusCode}`)); return; }
+        resolve(body);
       });
     });
-    req.setTimeout(20000, () => req.destroy(new Error(`${path}: timed out`)));
+    req.setTimeout(20000, () => req.destroy(new Error('timed out')));
     req.on('error', reject);
   });
 }
 
-// ISO 8601 duration (PT1H2M3S) -> seconds
-function isoToSeconds(iso) {
-  const m = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(iso || '');
-  if (!m) return 0;
-  return (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0);
-}
+const decode = s => String(s)
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+  .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n));
 
-// Best-effort artist from a set title: take the text before the first separator,
-// drop a leading broadcaster mention, trim dates and noise.
+const pick = (block, tag) => {
+  const m = new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`).exec(block);
+  return m ? decode(m[1].trim()) : '';
+};
+
+// Best-effort artist from a set title: text before the first separator, minus a
+// leading broadcaster mention and trailing dates / parentheticals.
 function parseArtist(title, broadcaster) {
-  let s = title.split(/\s+[@|–—]\s+| - |: /)[0].trim();
-  s = s.replace(new RegExp(`^${broadcaster}\\s*[:\\-|]?\\s*`, 'i'), '').trim();
-  s = s.replace(/\s*[\(\[][^\)\]]*[\)\]]\s*$/, '').trim();          // trailing (…) / […]
-  s = s.replace(/\s+\d{1,2}[./]\d{1,2}([./]\d{2,4})?$/, '').trim();  // trailing date
+  let s = title.split(/\s+[@|·–—]\s+|\s+[-]\s+|:\s+/)[0].trim();
+  s = s.replace(new RegExp(`^${broadcaster.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*[:\\-|]?\\s*`, 'i'), '').trim();
+  s = s.replace(/\s*[([][^)\]]*[)\]]\s*$/, '').trim();
+  s = s.replace(/\s+\d{1,2}[./]\d{1,2}([./]\d{2,4})?$/, '').trim();
   return s || title.trim();
-}
-
-async function resolveUploads(entry) {
-  const params = entry.id
-    ? { part: 'contentDetails,snippet', id: entry.id }
-    : { part: 'contentDetails,snippet', forHandle: entry.handle };
-  const data = await api('channels', params);
-  const ch = data.items?.[0];
-  if (!ch) return null;
-  return { uploads: ch.contentDetails.relatedPlaylists.uploads, channelTitle: ch.snippet.title };
-}
-
-async function playlistVideoIds(playlistId) {
-  const ids = [];
-  let pageToken;
-  do {
-    const data = await api('playlistItems', {
-      part: 'contentDetails', playlistId, maxResults: '50',
-      ...(pageToken ? { pageToken } : {})
-    });
-    for (const it of data.items || []) ids.push(it.contentDetails.videoId);
-    pageToken = data.nextPageToken;
-  } while (pageToken);
-  return ids;
-}
-
-async function hydrate(ids) {
-  const out = [];
-  for (let i = 0; i < ids.length; i += 50) {
-    const data = await api('videos', { part: 'snippet,contentDetails', id: ids.slice(i, i + 50).join(',') });
-    for (const v of data.items || []) {
-      out.push({
-        id: v.id,
-        title: v.snippet.title,
-        published: v.snippet.publishedAt,
-        seconds: isoToSeconds(v.contentDetails.duration)
-      });
-    }
-  }
-  return out;
 }
 
 const seen = new Set();
 const sets = [];
 
-console.log(`Fetching from ${channels.length} channels (this takes a minute or two)…\n`);
+console.log(`Fetching RSS for ${channels.length} channels…\n`);
 
-for (const entry of channels) {
-  const label = entry.broadcaster;
-  process.stdout.write(`  … ${label}`);
+for (const ch of channels) {
+  process.stdout.write(`  … ${ch.broadcaster}`);
   try {
-    const resolved = await resolveUploads(entry);
-    if (!resolved) { process.stdout.write(`\r  ✗ ${label}: could not resolve ${entry.handle || entry.id}\n`); continue; }
-    const ids = await playlistVideoIds(resolved.uploads);
-    const videos = await hydrate(ids);
+    const xml = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${ch.channelId}`);
+    const entries = xml.split('<entry>').slice(1);
     let kept = 0;
-    for (const v of videos) {
-      if (v.seconds < MIN_SECONDS) continue;
-      if (SKIP_TITLE.test(v.title)) continue;
-      if (seen.has(v.id)) continue;
-      seen.add(v.id);
-      sets.push({
-        id: v.id,
-        title: v.title,
-        artist: parseArtist(v.title, label),
-        broadcaster: label,
-        published: v.published,
-        seconds: v.seconds
-      });
+    for (const e of entries) {
+      const id = (/<yt:videoId>([\w-]{11})<\/yt:videoId>/.exec(e) || [])[1];
+      const title = pick(e, 'title');
+      const published = pick(e, 'published');
+      if (!id || !title) continue;
+      if (SKIP_TITLE.test(title)) continue;
+      if (seen.has(id)) continue;
+      seen.add(id);
+      sets.push({ id, title, artist: parseArtist(title, ch.broadcaster), broadcaster: ch.broadcaster, published });
       kept += 1;
     }
-    process.stdout.write(`\r  ✓ ${label}: ${kept} sets (${videos.length} videos scanned)\n`);
+    process.stdout.write(`\r  ✓ ${ch.broadcaster}: ${kept} sets\n`);
   } catch (err) {
-    process.stdout.write(`\r  ✗ ${label}: ${err.message}\n`);
+    process.stdout.write(`\r  ✗ ${ch.broadcaster}: ${err.message}\n`);
   }
 }
 
 sets.sort((a, b) => (a.published < b.published ? 1 : -1));
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
-
 console.log(`\nWrote selector-data.json — ${sets.length} sets from ${channels.length} channels.`);

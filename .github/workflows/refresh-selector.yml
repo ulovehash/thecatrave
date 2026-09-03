@@ -18,13 +18,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch sets from YouTube
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node scripts/fetch-sets.mjs
-
-      - name: Rebuild the page
-        run: node build-selector.mjs
+      - name: Rebuild the catalogue from channel RSS feeds
+        run: |
+          node scripts/fetch-sets.mjs
+          node build-selector.mjs
 
       - name: Commit if the catalogue changed
         run: |

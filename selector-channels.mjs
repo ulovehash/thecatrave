@@ -1,32 +1,22 @@
-// Source channels for The Selector. Each entry is one YouTube channel whose
-// uploads are DJ sets / live streams / radio shows worth pulling into the pool.
-// `scripts/fetch-sets.mjs` resolves each `handle` (or `id`) to its uploads
-// playlist and pulls every long-form video.
-//
-// Adjust this list freely. On the next `node scripts/fetch-sets.mjs` run the
-// script prints which handles it could not resolve so they are easy to fix.
-// Handles here are best guesses from public channels; verify against YouTube if
-// a channel comes back with 0 videos.
+// Source channels for The Selector. `scripts/fetch-sets.mjs` reads each channel's
+// public YouTube RSS feed (no API key) and pulls its recent uploads into the
+// pool. Add a channel by finding its ID: open the channel on youtube.com, View
+// Source, search for "externalId" or a /channel/UC... link.
 
 export const channels = [
-  {broadcaster: 'Boiler Room', handle: '@boilerroom'},
-  {broadcaster: 'HÖR', handle: '@HORBerlin'},
-  {broadcaster: 'The Lot Radio', handle: '@thelotradio'},
-  {broadcaster: 'Cercle', handle: '@Cercle'},
-  {broadcaster: 'Rinse FM', handle: '@RinseFMOfficial'},
-  {broadcaster: 'Mixmag', handle: '@Mixmag'},
-  {broadcaster: 'Keep Hush', handle: '@KeepHushLive'},
-  {broadcaster: 'Dekmantel', handle: '@DekmantelAmsterdam'},
-  {broadcaster: 'NTS Radio', handle: '@NTSRadio'},
-  {broadcaster: 'Dublab', handle: '@dublab'},
-  {broadcaster: 'My Analog Journal', handle: '@MyAnalogJournal'},
-  {broadcaster: 'Kiosk Radio', handle: '@kioskradiobxl'},
-  {broadcaster: 'Seoul Community Radio', handle: '@SeoulCommunityRadio'},
-  {broadcaster: 'Boxout.fm', handle: '@boxoutfm'},
-  {broadcaster: 'Bangkok Community Radio', handle: '@bangkokcommunityradio'},
-  {broadcaster: 'The Mudd Show', handle: '@themuddshow'},
-  {broadcaster: 'Groove Cartel', handle: '@GrooveCartelMusic'},
-  {broadcaster: 'MixMix TV', handle: '@MixMixTV'},
-  {broadcaster: 'Kindred', handle: '@KindredRadioUK'},
-  {broadcaster: 'Yoyaku', handle: '@yoyakuchannel'}
+  {broadcaster: 'Boiler Room',            channelId: 'UCG3tNuVRzPTlONMBp33O8xA'},
+  {broadcaster: 'HÖR',                    channelId: 'UCi3WG3NGWPDrfKjBDvM0niQ'},
+  {broadcaster: 'The Lot Radio',          channelId: 'UCJOtExbMu0RqIdiE4nMUPxQ'},
+  {broadcaster: 'Cercle',                 channelId: 'UC6EKNZeSDVNblZ8x9BUfeyA'},
+  {broadcaster: 'Rinse FM',               channelId: 'UC6nJJbVAcxH776nvTXvtMZA'},
+  {broadcaster: 'Mixmag',                 channelId: 'UC1t-hFvdIZn5PgsPZ-weKwg'},
+  {broadcaster: 'Keep Hush',              channelId: 'UCQAnY_suiNH0MvdTHk5GiBA'},
+  {broadcaster: 'NTS Radio',              channelId: 'UCpptwbTvG9rmn_JN-66v-hw'},
+  {broadcaster: 'My Analog Journal',      channelId: 'UC8TZwtZ17WKFJSmwTZQpBTA'},
+  {broadcaster: 'Kiosk Radio',            channelId: 'UCal_TyiLk79vN9-OzEzUM6A'},
+  {broadcaster: 'Seoul Community Radio',  channelId: 'UCB1uSWw2fMrJymFn8CY97MQ'},
+  {broadcaster: 'Boxout.fm',              channelId: 'UC3OYk2ppOP2GAqSrf37vXYw'},
+  {broadcaster: 'Bangkok Community Radio', channelId: 'UC_UYkAhKtMfBsuAEmHrtWeQ'},
+  {broadcaster: 'The Mudd Show',          channelId: 'UC1raAF6N6U-9cTCVirCYC1g'},
+  {broadcaster: 'MixMix TV',              channelId: 'UCBLlDWPcs4Fw3h3V_quVx8A'}
 ];
