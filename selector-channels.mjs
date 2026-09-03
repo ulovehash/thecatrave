@@ -1,7 +1,7 @@
-// Source channels for The Selector. `scripts/fetch-sets.mjs` reads each channel's
-// public YouTube RSS feed (no API key) and pulls its recent uploads into the
-// pool. Add a channel by finding its ID: open the channel on youtube.com, View
-// Source, search for "externalId" or a /channel/UC... link.
+// Source channels for The Selector. `scripts/fetch-sets.mjs` uses the YouTube
+// Data API to pull every long-form upload (>= 20 min) from each channelId below.
+// Add a channel by finding its ID: open the channel on youtube.com, View Source,
+// search for "externalId" or a /channel/UC... link.
 
 export const channels = [
   {broadcaster: 'Boiler Room',            channelId: 'UCG3tNuVRzPTlONMBp33O8xA'},
