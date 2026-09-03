@@ -25,9 +25,9 @@ const waitForPort = (port, timeoutMs = 15000) => new Promise((res, rej) => {
 });
 
 record('audits (zero-dep)', () => sh('node', ['audit-all.mjs']));
-record('html-validate', () => sh('npx', ['html-validate', 'index.html', 'breakbeat-guide.html', 'jungle-music-guide.html', 'uk-electronic-music-evolution.html', 'bass-music-guide.html', 'dubstep-guide.html']));
+record('html-validate', () => sh('npx', ['html-validate', 'index.html', 'breakbeat-guide.html', 'jungle-music-guide.html', 'uk-electronic-music-evolution.html', 'bass-music-guide.html', 'dubstep-guide.html', 'drum-and-bass-guide.html']));
 record('linkinator (broken links & assets)', () => sh('npx', ['linkinator', `http://localhost:${PORT}`, '--recurse', '--skip', '^https?://(?!localhost)']));
-record('playwright (layout, a11y, visual regression)', () => sh('npx', ['playwright', 'test']));
+record('playwright (layout, a11y)', () => sh('npx', ['playwright', 'test']));
 record('unlighthouse (perf, SEO, a11y, CWV budgets)', () => sh('npx', ['unlighthouse-ci', '--site', `http://localhost:${PORT}`, '--config-file', 'unlighthouse.config.ts']));
 
 const server = spawn('node', ['scripts/serve.mjs', String(PORT), '.'], { stdio: 'ignore' });

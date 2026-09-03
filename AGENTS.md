@@ -428,8 +428,8 @@ These rules are mandatory.
 - Desktop, tablet and mobile layouts have been visually inspected after the latest change.
 - Do not claim visual verification if browser inspection was blocked.
 - No internal editorial notes or implementation language leaked into published copy.
-- Automated audits pass: `node audit-all.mjs` (zero dependency, any Node) and, on Node 20, the full `npm run check` (adds html-validate, linkinator, Playwright layout + axe + visual-regression, and Unlighthouse budgets). `TESTING.md` documents every layer. The same gate runs in CI on each pull request to `main`.
-- When browser inspection is blocked, `npm run check` (or at least `node audit-all.mjs`) is the substitute for hand-verification: its Playwright layer asserts overflow, responsive columns, tone-band matching and CLS deterministically. Update visual baselines only with `npm run check:layout -- --update-snapshots` and review the diff.
+- Automated audits pass: `node audit-all.mjs` (zero dependency, any Node) and, on Node 20, the full `npm run check` (adds html-validate, linkinator, Playwright layout + axe, and Unlighthouse budgets). `TESTING.md` documents every layer. The same gate runs in CI on each pull request to `main`.
+- When browser inspection is blocked, `npm run check` (or at least `node audit-all.mjs`) is the substitute for hand-verification: its Playwright layer asserts overflow, responsive columns, tone-band matching and CLS deterministically.
 - Visible and structured publication/update dates are truthful and consistent.
 - Breadcrumb and FAQ structured data match visible page content.
 - No unrequested push, merge, branch creation or deletion occurred.
