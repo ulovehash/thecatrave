@@ -29,8 +29,8 @@ const CACHE_FILE = 'selector-videos-cache.json';
 
 const MIN_SECONDS = 20 * 60;
 const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
-const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 1200;
-const MAX_SETS = Number(process.env.MAX_SETS) || 12000;       // page-load budget for selector-data.json
+const PER_CHANNEL = Number(process.env.PER_CHANNEL) || Infinity;   // optional per-channel limiter
+const MAX_SETS = Number(process.env.MAX_SETS) || Infinity;        // optional overall limiter
 const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;
 const STOP_AFTER_KNOWN = 80;                                  // consecutive cached IDs = we have reached known territory
 const REFRESH_RECENT_DAYS = Number(process.env.REFRESH_RECENT_DAYS) || 0;   // 0 = never re-hydrate a cached video
@@ -174,6 +174,9 @@ const ordered = [...byBroadcaster.keys()].sort((a, z) => {
   return (ia < 0 ? 1e9 : ia) - (iz < 0 ? 1e9 : iz);
 });
 
+// Every qualifying set ships. PER_CHANNEL / MAX_SETS are optional limiters
+// (unset = no limit). Fields are trimmed to keep the file small: year only,
+// no comment count.
 const sets = [];
 for (const b of ordered) {
   if (sets.length >= MAX_SETS) break;
@@ -181,10 +184,10 @@ for (const b of ordered) {
   entries.sort((a, z) => heat(z) - heat(a) || (z.v || 0) - (a.v || 0));
   const room = Math.min(PER_CHANNEL, MAX_SETS - sets.length);
   for (const e of entries.slice(0, room)) {
-    sets.push({ id: e.id, artist: parseArtist(e.t, b), broadcaster: b, published: e.p, seconds: e.s, views: e.v, likes: e.l, comments: e.c });
+    sets.push({ id: e.id, artist: parseArtist(e.t, b), broadcaster: b, year: e.p ? +String(e.p).slice(0, 4) : null, seconds: e.s, views: e.v, likes: e.l });
   }
 }
-sets.sort((a, z) => (a.published < z.published ? 1 : -1));
+sets.sort((a, z) => (z.year || 0) - (a.year || 0));
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
 const mb = (fs.statSync('selector-data.json').size / 1048576).toFixed(2);
