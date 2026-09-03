@@ -5,13 +5,13 @@
 
 export const channels = [
   {broadcaster: 'Boiler Room',            handle: '@boilerroom',             channelId: 'UCGBpxWJr9FNOcFYA5GkKrMg'},
-  {broadcaster: 'HÖR',                    handle: '@HORBerlin',              channelId: 'UCi3WG3NGWPDrfKjBDvM0niQ'},
+  {broadcaster: 'HÖR',                    handle: '@hoer.berlin',            channelId: 'UCmfF7JZv26UUKyRedViGIlw'},
   {broadcaster: 'The Lot Radio',          handle: '@thelotradio',            channelId: 'UCJOtExbMu0RqIdiE4nMUPxQ'},
   {broadcaster: 'Cercle',                 handle: '@Cercle',                 channelId: 'UCPKT_csvP72boVX0XrMtagQ'},
   {broadcaster: 'Rinse FM',               handle: '@RinseFM',                channelId: 'UCgGfSxNOBkJDtCQ932iQU7Q'},
   {broadcaster: 'Mixmag',                 handle: '@Mixmag',                 channelId: 'UC1t-hFvdIZn5PgsPZ-weKwg'},
   {broadcaster: 'Keep Hush',              handle: '@keephush',               channelId: 'UCQAnY_suiNH0MvdTHk5GiBA'},
-  {broadcaster: 'NTS Radio',              handle: '@NTSRadio',               channelId: 'UCpptwbTvG9rmn_JN-66v-hw'},
+  {broadcaster: 'NTS Radio',              handle: '@NTSLIVEUK',              channelId: 'UCmqKuYoZCI7D6FQzDv5nKNw'},
   {broadcaster: 'My Analog Journal',      handle: '@MyAnalogJournal',        channelId: 'UC8TZwtZ17WKFJSmwTZQpBTA'},
   {broadcaster: 'Kiosk Radio',            handle: '@kioskradiobxl',          channelId: 'UCal_TyiLk79vN9-OzEzUM6A'},
   {broadcaster: 'Seoul Community Radio',  handle: '@SeoulCommunityRadio',    channelId: 'UCB1uSWw2fMrJymFn8CY97MQ'},
