@@ -26,7 +26,7 @@ function api(path, params) {
   const url = new URL(`${API}/${path}`);
   url.search = new URLSearchParams({ ...params, key: KEY }).toString();
   return new Promise((resolve, reject) => {
-    https.get(url, res => {
+    const req = https.get(url, res => {
       let body = '';
       res.setEncoding('utf8');
       res.on('data', chunk => { body += chunk; });
@@ -38,7 +38,9 @@ function api(path, params) {
         try { resolve(JSON.parse(body)); }
         catch { reject(new Error(`${path}: response was not JSON`)); }
       });
-    }).on('error', reject);
+    });
+    req.setTimeout(20000, () => req.destroy(new Error(`${path}: timed out`)));
+    req.on('error', reject);
   });
 }
 
@@ -101,13 +103,15 @@ async function hydrate(ids) {
 
 const seen = new Set();
 const sets = [];
-const summary = [];
+
+console.log(`Fetching from ${channels.length} channels (this takes a minute or two)…\n`);
 
 for (const entry of channels) {
   const label = entry.broadcaster;
+  process.stdout.write(`  … ${label}`);
   try {
     const resolved = await resolveUploads(entry);
-    if (!resolved) { summary.push(`  ✗ ${label}: could not resolve ${entry.handle || entry.id}`); continue; }
+    if (!resolved) { process.stdout.write(`\r  ✗ ${label}: could not resolve ${entry.handle || entry.id}\n`); continue; }
     const ids = await playlistVideoIds(resolved.uploads);
     const videos = await hydrate(ids);
     let kept = 0;
@@ -126,14 +130,13 @@ for (const entry of channels) {
       });
       kept += 1;
     }
-    summary.push(`  ✓ ${label}: ${kept} sets (${videos.length} videos scanned)`);
+    process.stdout.write(`\r  ✓ ${label}: ${kept} sets (${videos.length} videos scanned)\n`);
   } catch (err) {
-    summary.push(`  ✗ ${label}: ${err.message}`);
+    process.stdout.write(`\r  ✗ ${label}: ${err.message}\n`);
   }
 }
 
 sets.sort((a, b) => (a.published < b.published ? 1 : -1));
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
-console.log(summary.join('\n'));
 console.log(`\nWrote selector-data.json — ${sets.length} sets from ${channels.length} channels.`);
