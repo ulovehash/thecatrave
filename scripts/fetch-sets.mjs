@@ -86,14 +86,17 @@ async function allVideoIds(playlistId) {
 async function hydrate(ids) {
   const out = [];
   for (let i = 0; i < ids.length; i += 50) {
-    const data = await api('videos', { part: 'snippet,contentDetails', id: ids.slice(i, i + 50).join(',') });
+    const data = await api('videos', { part: 'snippet,contentDetails,statistics', id: ids.slice(i, i + 50).join(',') });
     for (const v of data.items || []) {
+      const st = v.statistics || {};
       out.push({
         id: v.id,
         title: v.snippet.title,
         published: v.snippet.publishedAt,
         live: v.snippet.liveBroadcastContent,   // 'none' | 'live' | 'upcoming'
-        seconds: isoToSeconds(v.contentDetails.duration)
+        seconds: isoToSeconds(v.contentDetails.duration),
+        views: st.viewCount != null ? Number(st.viewCount) : null,
+        likes: st.likeCount != null ? Number(st.likeCount) : null   // dislikeCount removed by YouTube in 2021
       });
     }
   }
@@ -126,7 +129,9 @@ for (const ch of channels) {
         artist: parseArtist(v.title, ch.broadcaster),
         broadcaster: ch.broadcaster,
         published: v.published,
-        seconds: v.seconds
+        seconds: v.seconds,
+        views: v.views,
+        likes: v.likes
       });
       kept += 1;
     }

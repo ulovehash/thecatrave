@@ -16,43 +16,44 @@ try {
   if (Array.isArray(parsed)) sets = parsed;
 } catch {}
 
-const runtime = fs.readFileSync('selector-runtime.js', 'utf8').trim();
-
 const broadcasters = [...new Set(channels.map(c => c.broadcaster))];
 const countLine = sets.length
   ? `${sets.length.toLocaleString('en-US')} sets from ${broadcasters.length} channels`
   : `${broadcasters.length} channels`;
 
-// Plain-text fallback and a crawlable reason for the page to exist. Two internal
-// links keep audit-seo's "main has >= 2 internal links" happy.
-const introHtml = `
-<p>The Selector is a small tool for one problem: you want to put on a proper DJ set and you cannot decide which one. Press the button and it plays a full set, chosen at random from the live channels that actually publish them, currently ${escapeHtml(countLine)}.</p>
-<p>The pool is pulled from the YouTube channels of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands. Only long-form uploads are kept, so it is full sets rather than clips or trailers, and the list refreshes weekly as the channels post more.</p>
-<p>If you want the background rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
-`.trim();
-
-const pickerHtml = `
+// The tool itself sits at the top of the page. It carries the H1 so the first
+// screen is the button, not an essay.
+const toolHtml = `
+<header class="article-hero selector-hero">
+  <p class="article-kicker">Tool</p>
+  <h1>The Selector</h1>
+  <p class="subtitle article-deck">One button. One random DJ set, from the channels that actually stream them.</p>
+</header>
 <div class="selector" id="selector">
-  <div class="sel-filter">
-    <label for="sel-source">Source</label>
-    <select id="sel-source" name="source" disabled>
-      <option value="">All sources</option>
-    </select>
+  <div class="sel-controls">
+    <div class="sel-sources" id="sel-sources" role="group" aria-label="Filter by source"></div>
+    <label class="sel-popular"><input type="checkbox" id="sel-popular" disabled> Popular only</label>
   </div>
   <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
   <p class="sel-count" id="sel-count" hidden></p>
   <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
+  <noscript><p class="sel-noscript">The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${
+    broadcasters.map(b => escapeHtml(b)).join(', ')
+  }.</p></noscript>
 </div>
 `.trim();
 
-const noscriptHtml = `<noscript><p>The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${
-  broadcasters.map(b => escapeHtml(b)).join(', ')
-}.</p></noscript>`;
+// Below-the-fold context. Two internal links keep audit-seo's "main has >= 2
+// internal links" check happy.
+const aboutHtml = `
+<p>The Selector solves one problem: you want to put on a proper DJ set and cannot decide which one. Press the button and it plays a full set, chosen at random from the live channels that actually publish them, currently ${escapeHtml(countLine)}.</p>
+<p>The pool is pulled from the YouTube channels of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Kiosk Radio and other radio stations and party brands. Only long-form uploads are kept, so it is full sets rather than clips or trailers, and the list refreshes weekly as the channels post more.</p>
+<p>Turn on <strong>Popular only</strong> to draw from the most-watched and most-liked sets in whatever sources you have selected. For the history rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p>
+`.trim();
 
 const articleHtml = [
-  `<header class="article-hero"><p class="article-kicker">Tool</p><h1>${escapeHtml('The Selector')}</h1><p class="subtitle article-deck">One button. One random DJ set, from the channels that actually stream them.</p></header>`,
-  articleSection({ id: 'about', title: 'What this is.', bodyHtml: introHtml }),
-  articleSection({ id: 'pick', title: 'Let the selector pick.', bodyHtml: pickerHtml + noscriptHtml }),
+  `<div class="selector-tool">${toolHtml}</div>`,
+  articleSection({ id: 'about', title: 'What this is.', bodyHtml: aboutHtml }),
   `<script src="selector-runtime.js" defer></script>`
 ].join('\n');
 

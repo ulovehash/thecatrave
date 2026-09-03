@@ -796,55 +796,102 @@
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 /* ---- The Selector (the /selector tool page) --------------------------------- */
-.selector-page .selector {
-  width: min(100%, var(--article-text));
-  margin: var(--media-space) auto 0;
+/* The tool sits on the first screen: a compact hero, then the controls and the
+   button, then (below the fold) the "What this is" section. */
+.selector-page .selector-tool {
+  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-text));
+  margin: 0 auto;
 }
-.selector-page .sel-filter {
+.selector-page .selector-hero {
+  width: 100%;
+  padding: clamp(2.25rem, 6vw, 3.5rem) 0 clamp(1.5rem, 3vw, 2.25rem);
+}
+.selector-page .selector-hero h1 { font-size: clamp(2.5rem, 6vw, 3.6rem); }
+.selector-page .selector-hero .article-deck { margin-top: 1rem; font-size: clamp(1.05rem, 1.8vw, 1.25rem); }
+.selector-page .selector { width: 100%; }
+
+.selector-page .sel-controls {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: .75rem;
-  margin-bottom: .9rem;
+  gap: .6rem .9rem;
+  margin-bottom: 1.1rem;
 }
-.selector-page .sel-filter label {
-  font: 700 .72rem/1.4 "Space Mono", monospace;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-}
-.selector-page .sel-filter select {
+.selector-page .sel-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
   flex: 1 1 auto;
-  min-width: 0;
-  padding: .55rem .7rem;
+}
+.selector-page .sel-chip {
+  padding: .4rem .7rem;
   border: 1px solid var(--ink);
   background: var(--paper);
   color: var(--ink);
-  font: 700 .82rem/1.2 "Space Mono", monospace;
-  border-radius: 0;
-}
-.selector-page .sel-filter select:disabled { opacity: .5; }
-.selector-page .sel-go {
-  display: block;
-  width: 100%;
-  padding: clamp(1.1rem, 3vw, 1.6rem) 1.5rem;
-  border: 1px solid var(--ink);
-  background: var(--acid);
-  color: var(--paper);
-  font: 700 clamp(1.05rem, 2.4vw, 1.35rem)/1 "Space Mono", monospace;
+  font: 700 .72rem/1 "Space Mono", monospace;
   letter-spacing: .02em;
-  text-transform: uppercase;
   cursor: pointer;
   transition: background var(--motion-fast, 160ms) ease, color var(--motion-fast, 160ms) ease;
 }
+.selector-page .sel-chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.selector-page .sel-chip:hover,
+.selector-page .sel-chip:focus-visible { background: var(--cyan); color: var(--ink); }
+.selector-page .sel-popular {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  font: 700 .72rem/1 "Space Mono", monospace;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.selector-page .sel-popular input:disabled { opacity: .4; }
+.selector-page .sel-popular:has(input:disabled) { opacity: .45; cursor: not-allowed; }
+
+.selector-page .sel-go {
+  display: block;
+  width: 100%;
+  padding: clamp(1.2rem, 3.5vw, 1.9rem) 1.5rem;
+  border: 2px solid var(--ink);
+  background: var(--acid);
+  color: var(--paper);
+  font: 700 clamp(1.15rem, 3vw, 1.6rem)/1 "Space Mono", monospace;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 var(--ink);
+  transition: transform 90ms ease, box-shadow 90ms ease, background 140ms ease, color 140ms ease;
+}
 .selector-page .sel-go:hover:not(:disabled),
 .selector-page .sel-go:focus-visible:not(:disabled) { background: var(--ink); color: var(--paper); }
-.selector-page .sel-go:disabled { background: var(--surface-muted); color: rgba(10, 10, 10, .55); cursor: default; }
+.selector-page .sel-go:active:not(:disabled) { transform: translate(4px, 4px); box-shadow: 2px 2px 0 var(--ink); }
+.selector-page .sel-go[data-spinning] { animation: sel-pop 260ms ease; }
+.selector-page .sel-go:disabled {
+  background: var(--surface-muted);
+  color: rgba(10, 10, 10, .5);
+  box-shadow: 6px 6px 0 rgba(10, 10, 10, .18);
+  cursor: default;
+}
+@keyframes sel-pop {
+  0% { transform: translate(4px, 4px) scale(.99); box-shadow: 2px 2px 0 var(--ink); }
+  55% { transform: translate(-1px, -1px) scale(1.015); box-shadow: 8px 8px 0 var(--ink); }
+  100% { transform: translate(0, 0) scale(1); box-shadow: 6px 6px 0 var(--ink); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .selector-page .sel-go { transition: background 140ms ease, color 140ms ease; }
+  .selector-page .sel-go:active:not(:disabled) { transform: none; }
+  .selector-page .sel-go[data-spinning] { animation: none; }
+}
+
 .selector-page .sel-count {
-  margin: .75rem 0 0;
+  margin: .8rem 0 0;
   font: 700 .72rem/1.4 "Space Mono", monospace;
   letter-spacing: .06em;
   text-transform: uppercase;
   opacity: .7;
 }
+.selector-page .sel-noscript { margin: 1rem 0 0; font-size: .95rem; }
 .selector-page .sel-stage:empty { display: none; }
 .selector-page .sel-card {
   margin-top: var(--media-space);
@@ -852,10 +899,7 @@
   box-sizing: border-box;
   background: var(--cyan);
 }
-.selector-page .sel-video {
-  aspect-ratio: 16 / 9;
-  background: #0a0a0a;
-}
+.selector-page .sel-video { aspect-ratio: 16 / 9; background: #0a0a0a; }
 .selector-page .sel-video iframe { display: block; width: 100%; height: 100%; border: 0; }
 .selector-page .sel-artist {
   margin: 1.15rem 0 .35rem;
