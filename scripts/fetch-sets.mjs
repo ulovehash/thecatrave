@@ -21,8 +21,9 @@ if (!KEY) {
 
 const API = 'https://www.googleapis.com/youtube/v3';
 const MIN_SECONDS = 20 * 60;   // a set, not a clip
-const PER_CHANNEL = 1200;      // keep this many most-recent sets per channel
-const SCAN_CAP = 4000;         // safety cap on videos scanned per channel
+const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 500;   // keep this many best sets per channel
+const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;       // drop near-zero duds
+const SCAN_CAP = 6000;         // safety cap on videos scanned per channel
 const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|shorts|preview|tickets|out now|full lineup|line-?up)\b/i;
 
 function api(path, params) {
@@ -96,7 +97,8 @@ async function hydrate(ids) {
         live: v.snippet.liveBroadcastContent,   // 'none' | 'live' | 'upcoming'
         seconds: isoToSeconds(v.contentDetails.duration),
         views: st.viewCount != null ? Number(st.viewCount) : null,
-        likes: st.likeCount != null ? Number(st.likeCount) : null   // dislikeCount removed by YouTube in 2021
+        likes: st.likeCount != null ? Number(st.likeCount) : null,     // dislikeCount removed by YouTube in 2021
+        comments: st.commentCount != null ? Number(st.commentCount) : null
       });
     }
   }
@@ -115,13 +117,21 @@ for (const ch of channels) {
     if (!playlist) { process.stdout.write(`\r  ✗ ${ch.broadcaster}: channel ${ch.channelId} not found\n`); continue; }
     const ids = await allVideoIds(playlist);
     const videos = await hydrate(ids);
-    let kept = 0;
-    for (const v of videos) {
-      if (kept >= PER_CHANNEL) break;
-      if (v.live && v.live !== 'none') continue;      // skip live/upcoming, keep finished streams
-      if (v.seconds < MIN_SECONDS) continue;
-      if (SKIP_TITLE.test(v.title)) continue;
-      if (seen.has(v.id)) continue;
+
+    // qualify, then keep this channel's best by likes (tiebreak views) so small
+    // stations are not drowned out by the big ones.
+    const qualified = videos.filter(v =>
+      (!v.live || v.live === 'none') &&
+      v.seconds >= MIN_SECONDS &&
+      !SKIP_TITLE.test(v.title) &&
+      (v.views == null || v.views >= MIN_VIEWS) &&
+      !seen.has(v.id)
+    );
+    const score = v => (v.likes || 0) + (v.comments || 0) * 3;
+    qualified.sort((a, b) => score(b) - score(a) || (b.views || 0) - (a.views || 0));
+    const keep = qualified.slice(0, PER_CHANNEL);
+
+    for (const v of keep) {
       seen.add(v.id);
       sets.push({
         id: v.id,
@@ -131,11 +141,11 @@ for (const ch of channels) {
         published: v.published,
         seconds: v.seconds,
         views: v.views,
-        likes: v.likes
+        likes: v.likes,
+        comments: v.comments
       });
-      kept += 1;
     }
-    process.stdout.write(`\r  ✓ ${ch.broadcaster}: ${kept} sets (${videos.length} videos scanned)\n`);
+    process.stdout.write(`\r  ✓ ${ch.broadcaster}: ${keep.length} sets (${videos.length} scanned, ${qualified.length} qualified)\n`);
   } catch (err) {
     process.stdout.write(`\r  ✗ ${ch.broadcaster}: ${err.message}\n`);
   }
