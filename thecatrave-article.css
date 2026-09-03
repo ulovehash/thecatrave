@@ -861,7 +861,7 @@
   padding: clamp(1.2rem, 3.5vw, 1.9rem) 1.5rem;
   border: 2px solid var(--ink);
   background: var(--acid);
-  color: var(--paper);
+  color: var(--ink);
   font: 700 clamp(1.15rem, 3vw, 1.6rem)/1 "Space Mono", monospace;
   letter-spacing: .03em;
   text-transform: uppercase;
