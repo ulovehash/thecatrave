@@ -23,7 +23,7 @@ const API = 'https://www.googleapis.com/youtube/v3';
 const MIN_SECONDS = 20 * 60;   // a set, not a clip
 const PER_CHANNEL = Number(process.env.PER_CHANNEL) || 500;   // keep this many best sets per channel
 const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;       // drop near-zero duds
-const SCAN_CAP = 6000;         // safety cap on videos scanned per channel
+const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;   // channels bury real sets under recent Shorts
 const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|shorts|preview|tickets|out now|full lineup|line-?up)\b/i;
 
 function api(path, params) {
@@ -65,9 +65,20 @@ function parseArtist(title, broadcaster) {
   return s || title.trim();
 }
 
-async function uploadsPlaylist(channelId) {
-  const data = await api('channels', { part: 'contentDetails', id: channelId });
-  return data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads || null;
+async function uploadsPlaylist(entry) {
+  // Prefer the handle: a hardcoded channelId can point at a small secondary
+  // channel (a Shorts feed, a Topic channel). forHandle always resolves the
+  // real one.
+  const params = entry.handle
+    ? { part: 'contentDetails', forHandle: entry.handle }
+    : { part: 'contentDetails', id: entry.channelId };
+  let data = await api('channels', params);
+  let uploads = data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
+  if (!uploads && entry.handle && entry.channelId) {
+    data = await api('channels', { part: 'contentDetails', id: entry.channelId });
+    uploads = data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
+  }
+  return uploads || null;
 }
 
 async function allVideoIds(playlistId) {
@@ -113,8 +124,8 @@ console.log(`Fetching from ${channels.length} channels via the YouTube Data API�
 for (const ch of channels) {
   process.stdout.write(`  … ${ch.broadcaster}`);
   try {
-    const playlist = await uploadsPlaylist(ch.channelId);
-    if (!playlist) { process.stdout.write(`\r  ✗ ${ch.broadcaster}: channel ${ch.channelId} not found\n`); continue; }
+    const playlist = await uploadsPlaylist(ch);
+    if (!playlist) { process.stdout.write(`\r  ✗ ${ch.broadcaster}: could not resolve ${ch.handle || ch.channelId}\n`); continue; }
     const ids = await allVideoIds(playlist);
     const videos = await hydrate(ids);
 
