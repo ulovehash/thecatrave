@@ -13,6 +13,7 @@ check('canonical is /selector', html.includes('<link rel="canonical" href="https
 check('title present and bounded', /<title>[^<]{15,65}<\/title>/.test(html));
 check('meta description present', /<meta name="description" content="[^"]{70,165}"/.test(html));
 check('button present with a label', /<button[^>]*id="sel-go"[^>]*>[^<]+<\/button>/.test(html));
+check('source filter present and labelled', /<label for="sel-source">[^<]+<\/label>\s*<select id="sel-source"/.test(html));
 check('live result region present', /<div class="sel-stage" id="sel-stage" aria-live="polite">/.test(html));
 check('runtime script linked', html.includes('<script src="selector-runtime.js" defer></script>'));
 check('noscript fallback present', /<noscript>[\s\S]*channels[\s\S]*<\/noscript>/i.test(html));

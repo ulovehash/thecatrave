@@ -800,6 +800,28 @@
   width: min(100%, var(--article-text));
   margin: var(--media-space) auto 0;
 }
+.selector-page .sel-filter {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: .9rem;
+}
+.selector-page .sel-filter label {
+  font: 700 .72rem/1.4 "Space Mono", monospace;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.selector-page .sel-filter select {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: .55rem .7rem;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font: 700 .82rem/1.2 "Space Mono", monospace;
+  border-radius: 0;
+}
+.selector-page .sel-filter select:disabled { opacity: .5; }
 .selector-page .sel-go {
   display: block;
   width: 100%;

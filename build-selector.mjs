@@ -33,6 +33,12 @@ const introHtml = `
 
 const pickerHtml = `
 <div class="selector" id="selector">
+  <div class="sel-filter">
+    <label for="sel-source">Source</label>
+    <select id="sel-source" name="source" disabled>
+      <option value="">All sources</option>
+    </select>
+  </div>
   <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
   <p class="sel-count" id="sel-count" hidden></p>
   <div class="sel-stage" id="sel-stage" aria-live="polite"></div>

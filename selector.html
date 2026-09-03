@@ -3,6 +3,12 @@
 <p>The pool is pulled from the YouTube uploads of Boiler Room, HÖR, The Lot Radio, Cercle, NTS, Rinse FM, Dekmantel, Kiosk Radio and a dozen more radio stations and party brands. Only long-form sets are kept; trailers, interviews and short clips are filtered out. The list refreshes so new sets appear as the channels post them.</p>
 <p>If you want the background rather than a set to put on, the <a href="/drum-and-bass-guide">drum and bass guide</a> and the <a href="/jungle-music-guide">jungle guide</a> cover where a lot of this music comes from.</p></section>
 <section class="floating-block article-section" id="pick"><h2>Let the selector pick.</h2><div class="selector" id="selector">
+  <div class="sel-filter">
+    <label for="sel-source">Source</label>
+    <select id="sel-source" name="source" disabled>
+      <option value="">All sources</option>
+    </select>
+  </div>
   <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
   <p class="sel-count" id="sel-count" hidden></p>
   <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
