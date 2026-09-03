@@ -6,5 +6,6 @@ export const routes = [
   { path: '/uk-electronic-music-evolution', name: 'uk' },
   { path: '/bass-music-guide', name: 'bass-music' },
   { path: '/dubstep-guide', name: 'dubstep' },
-  { path: '/drum-and-bass-guide', name: 'drum-and-bass' }
+  { path: '/drum-and-bass-guide', name: 'drum-and-bass' },
+  { path: '/selector', name: 'selector' }
 ];

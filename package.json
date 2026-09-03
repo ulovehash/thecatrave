@@ -10,7 +10,7 @@
     "build": "node scripts/build.mjs",
     "serve": "node scripts/serve.mjs 4173 .",
     "audit": "node audit-all.mjs",
-    "check:html": "html-validate index.html breakbeat-guide.html jungle-music-guide.html uk-electronic-music-evolution.html bass-music-guide.html dubstep-guide.html drum-and-bass-guide.html",
+    "check:html": "html-validate index.html breakbeat-guide.html jungle-music-guide.html uk-electronic-music-evolution.html bass-music-guide.html dubstep-guide.html drum-and-bass-guide.html selector.html",
     "check:links": "linkinator http://localhost:4173 --recurse --skip \"^https?://(?!localhost)\"",
     "check:layout": "playwright test",
     "check:vitals": "unlighthouse-ci --site http://localhost:4173 --config-file unlighthouse.config.ts",

@@ -8,6 +8,10 @@ blob-report/
 .unlighthouse/
 .lighthouseci/
 
+# secrets / local env
+.env
+.env.*
+
 # tooling / editor
 .claude/
 .DS_Store
