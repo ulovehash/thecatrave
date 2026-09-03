@@ -821,7 +821,7 @@
   font: 700 .68rem/1 "Space Mono", monospace;
   letter-spacing: .1em;
   text-transform: uppercase;
-  opacity: .55;
+  color: rgba(10, 10, 10, .75);
 }
 .selector-page .sel-sources,
 .selector-page .sel-genres {
@@ -852,8 +852,8 @@
   white-space: nowrap;
   cursor: pointer;
 }
-.selector-page .sel-popular input:disabled { opacity: .4; }
-.selector-page .sel-popular:has(input:disabled) { opacity: .45; cursor: not-allowed; }
+.selector-page .sel-popular input:disabled { opacity: .5; }
+.selector-page .sel-popular:has(input:disabled) { color: rgba(10, 10, 10, .62); cursor: not-allowed; }
 
 .selector-page .sel-go {
   display: block;
@@ -919,7 +919,7 @@
   font: 700 .72rem/1.4 "Space Mono", monospace;
   letter-spacing: .06em;
   text-transform: uppercase;
-  opacity: .7;
+  color: rgba(10, 10, 10, .78);
 }
 .selector-page .sel-noscript { margin: 1rem 0 0; font-size: .95rem; }
 .selector-page .sel-stage:empty { display: none; }
