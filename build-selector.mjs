@@ -15,7 +15,15 @@ try {
   if (Array.isArray(parsed)) sets = parsed;
 } catch {}
 
-const broadcasters = [...new Set(channels.map(c => c.broadcaster))];
+// Count the channels that actually have sets, not the ones configured. A new
+// entry in selector-channels.mjs reaches the catalogue only after the weekly
+// refresh has fetched it, and until then the page must not claim sets it does
+// not have. Config order is kept, because it is curated.
+const present = new Set(sets.map(s => s.broadcaster));
+const broadcasters = sets.length
+  ? channels.map(c => c.broadcaster).filter(b => present.has(b))
+      .concat([...present].filter(b => !channels.some(c => c.broadcaster === b)))
+  : [...new Set(channels.map(c => c.broadcaster))];
 const countLine = sets.length
   ? `${sets.length.toLocaleString('en-US')} sets from ${broadcasters.length} channels`
   : `${broadcasters.length} channels`;
@@ -46,7 +54,7 @@ const toolHtml = `
   <header class="sel-panel-head">
     <p class="article-kicker">The Selector</p>
     <h1>Press the button. Get a set.</h1>
-    <p class="sel-deck">One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and sixteen more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
+    <p class="sel-deck">One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and ${broadcasters.length - 4} more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
   </header>
   <div class="sel-action">
     <p class="sel-count" id="sel-count">${escapeHtml(setCount)} sets</p>
