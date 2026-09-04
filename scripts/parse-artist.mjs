@@ -3,7 +3,7 @@
 
 import { matchTag, VOCAB } from './genre-vocab.mjs';
 
-export const NOT_A_SET = /\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
+export const NOT_A_SET = /\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
 
 const COUNTRY = /\s*[([][^)\]]{0,30}(JP|NL|DE|UK|US|BR|FR|IT|ES|AR|KR|SW|Osaka|Tokyo|Berlin|London|Seoul)[^)\]]*[)\]]\s*$/i;
 const TRAIL = /\s*[–—-]?\s*\b(dj[ -]?set|live set|live in session|live|b2b set|closing set|opening set|full set|guest ?mix|guestmix|in-?studio( live)?|selects?)\b[\s.]*$/i;

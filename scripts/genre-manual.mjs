@@ -811,3 +811,26 @@ export const MANUAL = {
   'sofia rodina': ['hard techno', 'techno'],
   'лауд': ['hip-hop'],
 };
+
+// Channels whose whole output is one genre. Checked against their actual
+// upload titles, not assumed: Groove Cartel writes "Amapiano" in every title,
+// Stay True Sounds writes "Deep House", and Rampage, DnB Allstars and Hospital
+// Records are drum and bass labels and events with nothing else on the channel.
+//
+// These do double duty. They tag the channel's own sets, and they seed the
+// artists who play there, so a DJ first seen at Hospital Records carries drum
+// and bass onto their sets at HÖR or The Lot Radio, where nothing in the title
+// says what they played. That is the point: most of these DJs are specialists,
+// and the channel they play is the strongest hint we have.
+//
+// Only add a channel here when its uploads really are single-genre. A broad
+// channel would poison every artist who has ever appeared on it.
+export const CHANNEL_GENRES = {
+  'Rampage': ['drum and bass', 'dubstep'],
+  'DnB Allstars': ['drum and bass'],
+  'Hospital Records': ['drum and bass'],
+  'Outlook Festival': ['drum and bass', 'dubstep'],
+  'Groove Cartel': ['amapiano'],
+  'Stay True Sounds': ['deep house'],
+  'Kunye': ['afro house'],
+};

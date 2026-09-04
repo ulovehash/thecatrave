@@ -11,7 +11,7 @@
 
 import fs from 'node:fs';
 import { matchTag, VOCAB } from './genre-vocab.mjs';
-import { MANUAL } from './genre-manual.mjs';
+import { MANUAL, CHANNEL_GENRES } from './genre-manual.mjs';
 import { artistKeys, artistKey } from './artist-key.mjs';
 import { genresFromDesc } from './genre-text.mjs';
 
@@ -28,7 +28,23 @@ for (const [name, genres] of Object.entries(MANUAL)) {
   const row = registry[k] || (registry[k] = { display: name, sets: 0, broadcasters: [], genres: [], sources: [] });
   if (!row.genres || !row.genres.length) { row.genres = genres.slice(); row.sources = ['manual']; }
 }
+// Seed artists from the single-genre channels they played. An artist with no
+// genre from a stronger source inherits the channel's, which then travels with
+// them to every other channel in the catalogue.
+let seeded = 0;
+for (const s of sets) {
+  const chan = CHANNEL_GENRES[s.broadcaster];
+  if (!chan || !s.artist) continue;
+  for (const k of artistKeys(s.artist)) {
+    const row = registry[k];
+    if (!row || (row.genres && row.genres.length)) continue;
+    row.genres = chan.slice();
+    row.sources = [...new Set([...(row.sources || []), 'channel'])];
+    seeded += 1;
+  }
+}
 fs.writeFileSync('selector-artists.json', JSON.stringify(registry, null, 0) + '\n');
+console.log(`seeded ${seeded} artists from single-genre channels`);
 
 const order = arr => [...new Set(arr)].sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b)).slice(0, 4);
 const kwGenres = kws => {
@@ -39,7 +55,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, title: 0, channel: 0, keywords: 0, description: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -55,6 +71,10 @@ for (const s of sets) {
   if (!acc.length) {
     const kw = kwGenres(tagsCache[s.id]);
     if (kw.length) { acc.push(...kw); bySource.keywords += 1; }
+  }
+
+  if (!acc.length && CHANNEL_GENRES[s.broadcaster]) {
+    acc.push(...CHANNEL_GENRES[s.broadcaster]); bySource.channel += 1;
   }
 
   if (!acc.length && descCache[s.id]) {
