@@ -125,8 +125,8 @@ const expectedUkSupport = bandcampSupport({
   description:'These releases connect directly to the breaks, bass pressure and rave continuum explored in this article. Buying one supports my music and writing directly.',
   fullBleed:true,
   tracks:[
-    {title:'thecatrave — Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},
-    {title:'thecatrave — Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'}
+    {title:'thecatrave, Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},
+    {title:'thecatrave, Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'}
   ]
 });
 const expectedJungleListening = articleListeningBand({
@@ -138,13 +138,13 @@ const expectedJungleListening = articleListeningBand({
 });
 const expectedJungleYoutube = articleYoutubeEmbed({
   src:'https://www.youtube.com/embed/gdQ4V245hG8?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-  title:'DJ Hype — Jungle Massive.'
+  title:'DJ Hype, Jungle Massive.'
 });
 const expectedJungleSupport = bandcampSupport({
   description:'My Lana Del Rey jungle remix belongs directly to the sound explored in this guide. Buying it supports the music and the writing directly.',
   fullBleed:true,
   tracks:[{
-    title:'thecatrave — You So Ghetto (Lana Del Rey Jungle Remix)', id:'3379956979',
+    title:'thecatrave, You So Ghetto (Lana Del Rey Jungle Remix)', id:'3379956979',
     url:'https://thecatrave.bandcamp.com/track/you-so-ghetto-lana-del-rey-jungle-remix',
     linkText:'You So Ghetto (Lana Del Rey Jungle Remix) by thecatrave'
   }]
@@ -196,12 +196,7 @@ const checks = {
   // their own page: its track count, its section order, its exact dates.
   canonicalMatchesRoute: guidePages.every(page => page.html.includes(`<link rel="canonical" href="https://thecatrave.com${page.path}">`)),
   responsiveViewport: articlePages.every(page => page.includes('name="viewport" content="width=device-width,initial-scale=1"')),
-  // breakbeat, jungle and uk were published before the no-em-dash house rule and
-  // still carry 31 of them between them. Naming the debt here keeps the rule
-  // enforced on every other page, so nothing new can add one, instead of
-  // dropping the check and pretending the rule is met.
-  noEmDashInVisibleSource: guidePages.every(page =>
-    ['breakbeat', 'jungle', 'uk'].includes(page.name) || !page.html.includes('\u2014')),
+  noEmDashInVisibleSource: articlePages.every(page => !page.includes('\u2014')),
   brandStaysLowercase: articlePages.every(page => !/(?:The CatRave|TheCatRave|the cat rave)/.test(page)),
   noLeakedMediaPlaceholders: articlePages.every(page => !/\[(?:MEDIA|EMBED|ESSENTIAL LISTENING|MEDIA IMAGE|MEDIA VIDEO|TODO)/.test(page)),
   noDuplicateIds: articlePages.every(page => { const ids = idsOf(page); return new Set(ids).size === ids.length; }),

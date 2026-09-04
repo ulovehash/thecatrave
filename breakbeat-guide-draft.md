@@ -274,8 +274,8 @@ Yes. Producers still release music explicitly labelled as breaks, while breakbea
 - [Hardkiss, *The Magical Sound of the San Francisco Underground*](https://www.hardkiss.org/_files/ugd/502d5a_88604739932d41c5b2bd0087c98d4b90.pdf) on the early Bay Area rave network.
 - [Diario de Sevilla, interview with *Break Nation* director David Pareja](https://www.diariodesevilla.es/ocio/David-Pareja-breakbeat_0_1859814016.html) on the Andalusian scene from 1992 to 2002.
 - [Filmoteca de Andalucía, *Break Nation* programme and synopsis](https://www.filmotecadeandalucia.es/documents/282361/334099154/CO%2B-%2B2024-07-18-%2B%2820%2730%29%2B-%2BBreak%2BNation.pdf/33f0b15d-ce37-49fa-b1cd-129d026bfc97).
-- [Official Charts Company, Stanton Warriors — “Da Antidote”](https://www.officialcharts.com/songs/stanton-warriors-da-antidote/).
-- [Pitchfork, Skee Mask — “50 Euro to Break Boost”](https://pitchfork.com/reviews/tracks/skee-mask-50-euro-to-break-boost/).
+- [Official Charts Company, Stanton Warriors, “Da Antidote”](https://www.officialcharts.com/songs/stanton-warriors-da-antidote/).
+- [Pitchfork, Skee Mask, “50 Euro to Break Boost”](https://pitchfork.com/reviews/tracks/skee-mask-50-euro-to-break-boost/).
 - thecatrave's [history of UK electronic music](/uk-electronic-music-evolution) and [complete guide to jungle music](/jungle-music-guide).
 
 ## About the author

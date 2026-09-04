@@ -99,12 +99,12 @@ const support = bandcampSupport({
   fullBleed:true,
   tracks:[
     {
-      title:'thecatrave — Protect Ya Breaks', id:'3822639635',
+      title:'thecatrave, Protect Ya Breaks', id:'3822639635',
       url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',
       linkText:'Protect Ya Breaks by thecatrave'
     },
     {
-      title:'thecatrave — Berlin Race 1909', id:'3192532299',
+      title:'thecatrave, Berlin Race 1909', id:'3192532299',
       url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',
       linkText:'Berlin Race 1909 by thecatrave'
     }

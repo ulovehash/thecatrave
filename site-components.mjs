@@ -193,8 +193,12 @@ export function articleYoutubeEmbed({src, title} = {}) {
 }
 
 export function articleVideoCard({youtubeId, genre, artist, title} = {}) {
-  const label = `${artist} — ${title}`;
-  return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(label)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(label)}</strong></figcaption></figure>`;
+  // House convention, matching the guides written after the no-em-dash rule: a
+  // comma in the accessible name a screen reader reads aloud, a colon in the
+  // visible caption.
+  const spoken = `${artist}, ${title}`;
+  const label = `${artist} : ${title}`;
+  return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(spoken)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(label)}</strong></figcaption></figure>`;
 }
 
 export function articleVideoCollection({items = [], description, label = ''} = {}) {

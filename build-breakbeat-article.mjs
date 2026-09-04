@@ -161,7 +161,7 @@ const nuSkoolBreaksPlaylist = articleListeningBand({
 
 const mediaImage = ({src, width, height, alt, caption, extra=''}) => articleFigure({src,width,height,alt,caption,className:extra});
 const trackEmbed = track => {
-  const title = `${track.artist} — ${track.title}`;
+  const title = `${track.artist}, ${track.title}`;
   return articleTrackEmbed({platform:track.embed.type,id:track.embed.id,url:track.embed.url,title});
 };
 const trackGroup = (trackNumbers, label, intro, tone='cyan') => {
@@ -174,9 +174,9 @@ const bandcampSupportBlock = bandcampSupport({
   description: 'These releases sit closest to the breakbeat story in this article. Buying one supports my work directly.',
   fullBleed: true,
   tracks: [
-    {title:'thecatrave — Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},
-    {title:'thecatrave — Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'},
-    {title:'thecatrave — Mylène Farmer Dégénération remix',id:'467727105',url:'https://thecatrave.bandcamp.com/track/myl-ne-farmer-d-g-n-ration-electronica-breaks-dubstep-remix',linkText:'Mylène Farmer — Dégénération remix by thecatrave'}
+    {title:'thecatrave, Protect Ya Breaks',id:'3822639635',url:'https://thecatrave.bandcamp.com/track/protect-ya-breaks',linkText:'Protect Ya Breaks by thecatrave'},
+    {title:'thecatrave, Berlin Race 1909',id:'3192532299',url:'https://thecatrave.bandcamp.com/track/berlin-race-1909',linkText:'Berlin Race 1909 by thecatrave'},
+    {title:'thecatrave, Mylène Farmer Dégénération remix',id:'467727105',url:'https://thecatrave.bandcamp.com/track/myl-ne-farmer-d-g-n-ration-electronica-breaks-dubstep-remix',linkText:'Mylène Farmer, Dégénération remix by thecatrave'}
   ]
 });
 

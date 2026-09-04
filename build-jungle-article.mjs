@@ -178,10 +178,10 @@ function youtubeFeature({key, videoId, kicker, heading, description}) {
 function soundcloudFeature() {
   return articleListeningBand({
     platform:'soundcloud', id:'jungle-soundcloud-lana', kicker:'A contemporary jungle remix by thecatrave',
-    title:'Lana Del Rey — Art Deco (Jungle Remix).',
+    title:'Lana Del Rey : Art Deco (Jungle Remix).',
     description:'A current example of jungle’s breaks and bass pressure being used to reframe a pop vocal rather than simply reproduce a 1990s template.',
     src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/art-deco-jungle-remix&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
-    iframeTitle:'Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud',
+    iframeTitle:'Lana Del Rey, Art Deco (Jungle Remix) by thecatrave on SoundCloud',
     fullBleed:true, tone:'cyan'
   });
 }
@@ -218,10 +218,10 @@ function exactJungleTrackFeature(key, tone = '') {
   const track = legendaryJungleTracks[key];
   return articleListeningBand({
     platform:'spotify', id:`jungle-track-${key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`)}`,
-    kicker:'Essential listening', title:`${track.artist} — ${track.title}.`,
+    kicker:'Essential listening', title:`${track.artist} : ${track.title}.`,
     description:`${track.year}. ${track.note}`,
     src:`https://open.spotify.com/embed/track/${track.spotifyId}?utm_source=generator`,
-    iframeTitle:`${track.artist} — ${track.title} on Spotify`, tone
+    iframeTitle:`${track.artist}, ${track.title} on Spotify`, tone
   });
 }
 
@@ -299,7 +299,7 @@ content = insertFeatureAfterParagraph(content, {
     key: 'dj-hype',
     videoId: 'gdQ4V245hG8',
     kicker: 'Archive listening',
-    heading: 'DJ Hype — Jungle Massive.',
+    heading: 'DJ Hype, Jungle Massive.',
     description: 'A period compilation that turns the names and records in this section into a continuous listening route.'
   })
 });
@@ -311,7 +311,7 @@ content = insertFeatureAfterParagraph(content, {
     key: 'original-nuttah',
     videoId: '3QMiCBJ7yRM',
     kicker: 'Essential track',
-    heading: 'Shy FX & UK Apachi — Original Nuttah.',
+    heading: 'Shy FX & UK Apachi, Original Nuttah.',
     description: 'The 1994 crossover anthem discussed here, embedded at the exact point where it enters the story.'
   })
 });
@@ -323,7 +323,7 @@ content = insertFeatureAfterParagraph(content, {
     key: 'nia-archives',
     videoId: 'jO5JhZNSjUA',
     kicker: 'The revival in practice',
-    heading: 'Nia Archives — Boiler Room: London.',
+    heading: 'Nia Archives, Boiler Room: London.',
     description: 'A modern set connecting foundational jungle records, contemporary edits and the renewed energy described in this section.'
   })
 });
@@ -399,10 +399,10 @@ for (const feature of [
   },
   {
     marker:'jungle-feature:lana-soundcloud', platform:'soundcloud', id:'jungle-soundcloud-lana',
-    kicker:'A contemporary jungle remix by thecatrave', title:'Lana Del Rey — Art Deco (Jungle Remix).',
+    kicker:'A contemporary jungle remix by thecatrave', title:'Lana Del Rey : Art Deco (Jungle Remix).',
     description:'A current example of jungle’s breaks and bass pressure being used to reframe a pop vocal rather than simply reproduce a 1990s template.',
     src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/art-deco-jungle-remix&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
-    iframeTitle:'Lana Del Rey — Art Deco (Jungle Remix) by thecatrave on SoundCloud', fullBleed:true, tone:'cyan'
+    iframeTitle:'Lana Del Rey, Art Deco (Jungle Remix) by thecatrave on SoundCloud', fullBleed:true, tone:'cyan'
   }
 ]) {
   const {marker, ...options} = feature;
@@ -415,17 +415,17 @@ for (const feature of [
   {
     marker:'jungle-feature:dj-hype',
     src:'https://www.youtube.com/embed/gdQ4V245hG8?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'DJ Hype — Jungle Massive.'
+    title:'DJ Hype, Jungle Massive.'
   },
   {
     marker:'jungle-feature:original-nuttah',
     src:'https://www.youtube.com/embed/3QMiCBJ7yRM?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'Shy FX & UK Apachi — Original Nuttah.'
+    title:'Shy FX & UK Apachi, Original Nuttah.'
   },
   {
     marker:'jungle-feature:nia-archives',
     src:'https://www.youtube.com/embed/jO5JhZNSjUA?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'Nia Archives — Boiler Room: London.'
+    title:'Nia Archives, Boiler Room: London.'
   }
 ]) {
   const {marker, ...options} = feature;
@@ -549,7 +549,7 @@ const support = bandcampSupport({
   description:'My Lana Del Rey jungle remix belongs directly to the sound explored in this guide. Buying it supports the music and the writing directly.',
   fullBleed:true,
   tracks:[{
-    title:'thecatrave — You So Ghetto (Lana Del Rey Jungle Remix)',
+    title:'thecatrave, You So Ghetto (Lana Del Rey Jungle Remix)',
     id:'3379956979',
     url:'https://thecatrave.bandcamp.com/track/you-so-ghetto-lana-del-rey-jungle-remix',
     linkText:'You So Ghetto (Lana Del Rey Jungle Remix) by thecatrave'
