@@ -17,7 +17,7 @@
 import fs from 'node:fs';
 import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
-import { parseArtist, NOT_A_SET } from './parse-artist.mjs';
+import { parseArtist, genreFromTitle, NOT_A_SET } from './parse-artist.mjs';
 
 const KEY = process.env.YOUTUBE_API_KEY;
 if (!KEY) {
@@ -36,7 +36,7 @@ const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;
 const STOP_AFTER_KNOWN = 80;                                  // consecutive cached IDs = we have reached known territory
 const REFRESH_RECENT_DAYS = Number(process.env.REFRESH_RECENT_DAYS) || 0;   // 0 = never re-hydrate a cached video
 
-const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|shorts|preview|tickets|out now|full lineup|line-?up)\b/i;
+const SKIP_TITLE = /\b(trailer|teaser|announcement|recap|aftermovie|interview|documentary|#shorts|shorts|preview|tickets|out now|full lineup|line-?up|track premiere|premiere:|snippet|music video|\bMV\b|elevator pitch)\b/i;
 
 function api(path, params) {
   const url = new URL(`${API}/${path}`);
@@ -105,9 +105,16 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
 const today = new Date().toISOString().slice(0, 10);
 const recentCutoff = REFRESH_RECENT_DAYS ? Date.now() - REFRESH_RECENT_DAYS * 864e5 : 0;
 
-console.log(`Cache has ${Object.keys(cache).length} videos. Scanning ${channels.length} channels…\n`);
+// ONLY="Beatport,STVOL TV" limits the API scan to those broadcasters (or
+// handles). The rebuild at the end still covers the whole cache.
+const ONLY = (process.env.ONLY || '').split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+const scanList = ONLY.length
+  ? channels.filter(c => ONLY.includes(c.broadcaster.toLowerCase()) || ONLY.includes((c.handle || '').toLowerCase()))
+  : channels;
 
-for (const ch of channels) {
+console.log(`Cache has ${Object.keys(cache).length} videos. Scanning ${scanList.length} channel(s)${ONLY.length ? ` (ONLY: ${scanList.map(c => c.broadcaster).join(', ')})` : ''}…\n`);
+
+for (const ch of scanList) {
   process.stdout.write(`  … ${ch.broadcaster}`);
   try {
     const playlist = await uploadsPlaylist(ch);
@@ -179,7 +186,10 @@ for (const b of ordered) {
   entries.sort((a, z) => heat(z) - heat(a) || (z.v || 0) - (a.v || 0));
   const room = Math.min(PER_CHANNEL, MAX_SETS - sets.length);
   for (const e of entries.slice(0, room)) {
-    sets.push({ id: e.id, artist: parseArtist(e.t, b), broadcaster: b, year: e.p ? +String(e.p).slice(0, 4) : null, seconds: e.s, views: e.v, likes: e.l });
+    const rec = { id: e.id, artist: parseArtist(e.t, b), broadcaster: b, year: e.p ? +String(e.p).slice(0, 4) : null, seconds: e.s, views: e.v, likes: e.l };
+    const g = genreFromTitle(e.t, b);
+    if (g.length) rec.genres = g;
+    sets.push(rec);
   }
 }
 sets.sort((a, z) => (z.year || 0) - (a.year || 0));

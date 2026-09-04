@@ -795,153 +795,357 @@
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-/* ---- The Selector (the /selector tool page) --------------------------------- */
-/* The tool sits on the first screen: a compact hero, then the controls and the
-   button, then (below the fold) the "What this is" section. */
-.selector-page .selector-tool {
-  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-text));
-  margin: 0 auto;
-}
-.selector-page .selector-hero {
-  width: 100%;
-  padding: clamp(2.25rem, 6vw, 3.5rem) 0 clamp(1.5rem, 3vw, 2.25rem);
-}
-.selector-page .selector-hero h1 { font-size: clamp(2.5rem, 6vw, 3.6rem); }
-.selector-page .selector-hero .article-deck { margin-top: 1rem; font-size: clamp(1.05rem, 1.8vw, 1.25rem); }
-.selector-page .selector { width: 100%; }
 
-.selector-page .sel-controls {
+/* ---- The Selector (the /selector tool page) --------------------------------- */
+/* One instrument on the first screen: a bordered panel: head (name + one line),
+   body (the two filter clusters + Popular toggle), a full-width button bar. The
+   result slots in underneath. Type system: 2 families, 6 roles.
+     display  Satoshi 700  - the H1
+     body     Satoshi 400  - deck, prose
+     name     Satoshi 700  - the picked artist
+     eyebrow  Mono 700 up  - kickers, filter labels
+     ui       Mono 700     - chips, toggle, button, result pills
+     data     Mono 400     - pool count, the small facts (year/length/views)
+   Source chips read "outlined / cool", Genre chips "tinted / warm": same
+   interaction grammar, different material, so the two axes never blur. */
+.selector-page {
+  --sel-muted: #57534a;              /* tertiary text on paper/muted, passes AA */
+  --sel-genre-bg: #ece6d7;           /* warm tint that is clearly not --paper */
+}
+
+.selector-page .sel-panel {
+  box-sizing: border-box;
+  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide));
+  margin: clamp(1.75rem, 5vw, 3.25rem) auto clamp(2.5rem, 6vw, 4rem);
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  box-shadow: 9px 9px 0 var(--ink);
+}
+.selector-page .sel-panel-head {
+  padding: clamp(1.6rem, 4vw, 2.75rem);
+  border-bottom: 2px solid var(--ink);
+}
+
+/* role: eyebrow */
+.selector-page .sel-panel-head .article-kicker,
+.selector-page .sel-field-label {
+  margin: 0;
+  font: 700 .68rem/1.3 var(--mono);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.selector-page .sel-field-note {
+  font-weight: 400;
+  letter-spacing: .01em;
+  text-transform: none;
+  color: var(--sel-muted);
+}
+.selector-page .sel-panel-head .article-kicker { margin-bottom: .9rem; }
+.selector-page .sel-field-label { margin-bottom: .85rem; }
+
+/* role: display */
+.selector-page .sel-panel-head h1 {
+  margin: 0;
+  font: 700 clamp(2.6rem, 7vw, 4rem)/.98 var(--sans);
+  letter-spacing: -.025em;
+  color: var(--ink);
+}
+/* role: body */
+.selector-page .sel-deck {
+  max-width: 42ch;
+  margin: 1rem 0 0;
+  font: 400 clamp(1rem, 1.5vw, 1.1rem)/1.55 var(--sans);
+  color: var(--ink);
+}
+
+.selector-page .sel-body {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
-  margin-bottom: 1.1rem;
-}
-.selector-page .sel-chipset-label {
-  margin: 0 0 .45rem;
-  font: 700 .68rem/1 "Space Mono", monospace;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: rgba(10, 10, 10, .75);
+  gap: clamp(1.4rem, 3.5vw, 2rem);
+  padding: clamp(1.6rem, 4vw, 2.75rem);
 }
 .selector-page .sel-sources,
 .selector-page .sel-genres {
   display: flex;
   flex-wrap: wrap;
-  gap: .45rem;
+  gap: .5rem;
 }
+
+/* role: ui - chips. Shared grammar via custom props; each group overrides. */
 .selector-page .sel-chip {
-  padding: .4rem .7rem;
-  border: 1px solid var(--ink);
-  background: var(--paper);
+  --chip-bg: var(--paper);
+  --chip-bd: var(--ink);
+  --chip-hover: var(--cyan);
+  --chip-on-bg: var(--ink);
+  --chip-on-fg: var(--paper);
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: .45rem .9rem;
+  border: 1.5px solid var(--chip-bd);
+  background: var(--chip-bg);
   color: var(--ink);
-  font: 700 .72rem/1 "Space Mono", monospace;
-  letter-spacing: .02em;
+  font: 700 .8rem/1 var(--mono);
+  letter-spacing: .01em;
   cursor: pointer;
-  transition: background var(--motion-fast, 160ms) ease, color var(--motion-fast, 160ms) ease;
+  transition: background var(--motion-fast) ease, color var(--motion-fast) ease, border-color var(--motion-fast) ease;
 }
-.selector-page .sel-chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-.selector-page .sel-chip:hover,
-.selector-page .sel-chip:focus-visible { background: var(--cyan); color: var(--ink); }
+.selector-page .sel-chip-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: .5rem;
+  border: 1px solid var(--ink);
+  object-fit: cover;
+  flex: 0 0 auto;
+  filter: grayscale(1) contrast(1.04);
+}
+.selector-page .sel-chip[aria-pressed="true"] .sel-chip-logo { filter: none; }
+.selector-page .sel-chip:hover { background: var(--chip-hover); }
+.selector-page .sel-chip:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.selector-page .sel-chip[aria-pressed="true"] {
+  background: var(--chip-on-bg);
+  border-color: var(--chip-on-bg);
+  color: var(--chip-on-fg);
+}
+/* Source: outlined on paper, fills to solid ink. Cool. */
+.selector-page .sel-sources .sel-chip { --chip-hover: var(--cyan); }
+/* ...except a handful of channels with a real brand colour: the chip fills with
+   it on hover and when selected. Every pair is checked against WCAG AA. */
+.selector-page .sel-sources .sel-chip[data-value="Boiler Room"] { --chip-on-bg: #d6231f; --chip-on-fg: #fff; }
+.selector-page .sel-sources .sel-chip[data-value="Beatport"]    { --chip-on-bg: #01ff95; --chip-on-fg: var(--ink); }
+.selector-page .sel-sources .sel-chip[data-value="Mixmag"]      { --chip-on-bg: #f5e003; --chip-on-fg: var(--ink); }
+.selector-page .sel-sources .sel-chip[data-value="Cercle"]      { --chip-on-bg: #2f3de0; --chip-on-fg: #fff; }
+.selector-page .sel-sources .sel-chip[data-value="Keep Hush"]   { --chip-on-bg: #0f0f0f; --chip-on-fg: #b4ff3a; }
+.selector-page .sel-sources .sel-chip[data-value="HÖR"]         { --chip-on-bg: #a9d400; --chip-on-fg: var(--ink); }
+.selector-page .sel-sources .sel-chip[data-value="Rinse FM"]    { --chip-on-bg: #2c92ff; --chip-on-fg: var(--ink); }
+.selector-page .sel-sources .sel-chip[data-value="Seoul Community Radio"] { --chip-on-bg: #fa6b38; --chip-on-fg: var(--ink); }
+.selector-page .sel-sources .sel-chip[data-value="STVOL TV"]    { --chip-on-bg: #0e720d; --chip-on-fg: #fff; }
+.selector-page .sel-sources .sel-chip[data-value="Boiler Room"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Beatport"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Mixmag"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Cercle"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Keep Hush"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="HÖR"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Rinse FM"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="Seoul Community Radio"]:hover,
+.selector-page .sel-sources .sel-chip[data-value="STVOL TV"]:hover {
+  background: var(--chip-on-bg);
+  color: var(--chip-on-fg);
+}
+.selector-page .sel-sources .sel-chip:hover .sel-chip-logo { filter: none; }
+/* Genre: sits on a warm tint, fills to acid. Warm. */
+.selector-page .sel-genres .sel-chip {
+  --chip-bg: var(--sel-genre-bg);
+  --chip-hover: var(--yellow);
+  --chip-on-bg: var(--acid);
+  --chip-on-fg: var(--ink);
+}
+
+.selector-page .sel-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .7rem 1.25rem;
+  padding-top: clamp(1rem, 2.5vw, 1.4rem);
+  border-top: 1px solid #0a0a0a24;
+}
 .selector-page .sel-popular {
   display: inline-flex;
   align-items: center;
-  gap: .45rem;
-  font: 700 .72rem/1 "Space Mono", monospace;
-  letter-spacing: .04em;
+  flex-wrap: wrap;
+  gap: .3rem .55rem;
+  font: 700 .8rem/1.3 var(--mono);
+  letter-spacing: .08em;
   text-transform: uppercase;
-  white-space: nowrap;
   cursor: pointer;
 }
-.selector-page .sel-popular input:disabled { opacity: .5; }
-.selector-page .sel-popular:has(input:disabled) { color: rgba(10, 10, 10, .62); cursor: not-allowed; }
+.selector-page .sel-popular input { width: 1.05rem; height: 1.05rem; accent-color: var(--ink); }
+.selector-page .sel-popular-note {
+  font-weight: 400;
+  letter-spacing: .01em;
+  text-transform: none;
+  color: var(--sel-muted);
+}
+.selector-page .sel-popular:has(input:disabled) { color: var(--sel-muted); cursor: not-allowed; }
+/* role: data */
+.selector-page .sel-count {
+  margin: 0;
+  font: 400 .74rem/1 var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--sel-muted);
+}
 
+/* The primary action is a distinct object, not a strip of the panel: a bordered
+   block inset from the panel edges, sitting on its own hard offset shadow. The
+   press drives it 6px into that shadow (a real button travel); release springs
+   it back past rest. Only transform + the hard box-shadow animate, so it stays
+   on the compositor and holds 60fps on a mid phone. */
+.selector-page .sel-go-wrap {
+  position: relative;
+  display: grid;
+  padding: clamp(1.6rem, 4vw, 2.5rem) clamp(1.6rem, 4vw, 2.75rem);
+  border-bottom: 2px solid var(--ink);
+}
 .selector-page .sel-go {
-  display: block;
+  grid-area: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .65rem;
   width: 100%;
-  padding: clamp(1.2rem, 3.5vw, 1.9rem) 1.5rem;
+  padding: clamp(1.15rem, 3.6vw, 1.65rem) 1.5rem;
   border: 2px solid var(--ink);
   background: var(--acid);
   color: var(--ink);
-  font: 700 clamp(1.15rem, 3vw, 1.6rem)/1 "Space Mono", monospace;
-  letter-spacing: .03em;
+  font: 700 clamp(1.2rem, 3.3vw, 1.7rem)/1 var(--mono);
+  letter-spacing: .06em;
   text-transform: uppercase;
   cursor: pointer;
   box-shadow: 6px 6px 0 var(--ink);
-  transition: transform 90ms ease, box-shadow 90ms ease, background 140ms ease, color 140ms ease;
+  transition: transform 90ms cubic-bezier(.2, .8, .2, 1), box-shadow 90ms cubic-bezier(.2, .8, .2, 1);
 }
-.selector-page .sel-go:hover:not(:disabled),
-.selector-page .sel-go:focus-visible:not(:disabled) { background: var(--ink); color: var(--paper); }
-.selector-page .sel-go:active:not(:disabled) { transform: translate(4px, 4px); box-shadow: 2px 2px 0 var(--ink); }
-.selector-page .sel-go[data-spinning] { animation: sel-pop 260ms ease; }
+.selector-page .sel-go::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: .46em 0 .46em .74em;
+  border-color: transparent transparent transparent currentColor;
+  transition: transform 160ms cubic-bezier(.2, .8, .2, 1);
+}
+.selector-page .sel-go:not([data-state="ready"])::before { display: none; }
+
+.selector-page .sel-go:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: 8px 8px 0 var(--ink);
+}
+.selector-page .sel-go:hover:not(:disabled)::before { transform: translateX(2px); }
+.selector-page .sel-go:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.selector-page .sel-go:active:not(:disabled) {
+  transform: translate(6px, 6px);
+  box-shadow: 0 0 0 var(--ink);
+  transition-duration: 40ms;
+}
+.selector-page .sel-go[data-spinning] { animation: sel-kick 300ms cubic-bezier(.2, .8, .2, 1); }
 .selector-page .sel-go:disabled {
   background: var(--surface-muted);
-  color: rgba(10, 10, 10, .5);
-  box-shadow: 6px 6px 0 rgba(10, 10, 10, .18);
+  color: var(--sel-muted);
+  box-shadow: 4px 4px 0 rgba(10, 10, 10, .16);
   cursor: default;
 }
-.selector-page .sel-go-wrap { position: relative; }
+
 .selector-page .sel-burst {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  grid-area: 1 / 1;
+  place-self: center;
   width: 0;
   height: 0;
   pointer-events: none;
 }
 .selector-page .sel-spark {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: .5rem;
-  height: .5rem;
+  left: 0; top: 0;
+  width: .5rem; height: .5rem;
   margin: -.25rem 0 0 -.25rem;
   background: var(--c, var(--acid));
-  animation: sel-spark 640ms cubic-bezier(.2, .7, .3, 1) forwards;
+  animation: sel-spark 600ms cubic-bezier(.2, .7, .3, 1) forwards;
 }
 @keyframes sel-spark {
   0% { transform: translate(0, 0) rotate(0) scale(1); opacity: 1; }
   100% { transform: translate(var(--tx, 0), var(--ty, 0)) rotate(var(--rot, 0)) scale(.35); opacity: 0; }
 }
-@keyframes sel-pop {
-  0% { transform: translate(4px, 4px) scale(.99); box-shadow: 2px 2px 0 var(--ink); }
-  55% { transform: translate(-1px, -1px) scale(1.015); box-shadow: 8px 8px 0 var(--ink); }
-  100% { transform: translate(0, 0) scale(1); box-shadow: 6px 6px 0 var(--ink); }
+@keyframes sel-kick {
+  0%   { transform: translate(6px, 6px); box-shadow: 0 0 0 var(--ink); }
+  55%  { transform: translate(-2px, -2px); box-shadow: 9px 9px 0 var(--ink); }
+  100% { transform: translate(0, 0); box-shadow: 6px 6px 0 var(--ink); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .selector-page .sel-go { transition: background 140ms ease, color 140ms ease; }
-  .selector-page .sel-go:active:not(:disabled) { transform: none; }
+  .selector-page .sel-go,
+  .selector-page .sel-go::before { transition: none; }
+  .selector-page .sel-go:hover:not(:disabled),
+  .selector-page .sel-go:active:not(:disabled) { transform: none; box-shadow: 6px 6px 0 var(--ink); }
+  .selector-page .sel-go:active:not(:disabled) { background: var(--acid-text); color: var(--paper); }
+  .selector-page .sel-go:hover:not(:disabled)::before { transform: none; }
   .selector-page .sel-go[data-spinning] { animation: none; }
   .selector-page .sel-spark { display: none; }
 }
 
-.selector-page .sel-count {
-  margin: .8rem 0 0;
-  font: 700 .72rem/1.4 "Space Mono", monospace;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: rgba(10, 10, 10, .78);
-}
-.selector-page .sel-noscript { margin: 1rem 0 0; font-size: .95rem; }
+.selector-page .sel-noscript { margin: 0; padding: clamp(1.4rem, 4vw, 2.75rem); font: 400 .95rem/1.55 var(--sans); }
+
+/* result card: three tiers of importance */
 .selector-page .sel-stage:empty { display: none; }
 .selector-page .sel-card {
-  margin-top: var(--media-space);
-  padding: clamp(1.25rem, 3vw, 2rem);
   box-sizing: border-box;
+  padding: clamp(1.4rem, 3.5vw, 2.5rem);
+  border-bottom: 2px solid var(--ink);
   background: var(--cyan);
 }
-.selector-page .sel-video { aspect-ratio: 16 / 9; background: #0a0a0a; }
+.selector-page .sel-video { aspect-ratio: 16 / 9; border: 2px solid var(--ink); background: #0a0a0a; }
 .selector-page .sel-video iframe { display: block; width: 100%; height: 100%; border: 0; }
+
+/* tier 1 - who it is (role: name) */
 .selector-page .sel-artist {
-  margin: 1.15rem 0 .35rem;
-  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
-  line-height: 1.12;
+  margin: 1.15rem 0 .6rem;
+  font: 700 clamp(1.45rem, 3vw, 2.05rem)/1.08 var(--sans);
   letter-spacing: -.02em;
+  color: var(--ink);
 }
-.selector-page .sel-meta {
-  margin: 0;
-  font: 700 .72rem/1.4 "Space Mono", monospace;
+/* tier 2 - where and what (role: ui) */
+.selector-page .sel-tags { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0; }
+.selector-page .sel-tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .3rem .6rem;
+  border: 1.5px solid var(--ink);
+  font: 700 .72rem/1 var(--mono);
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-.selector-page .sel-links { margin: .9rem 0 0; font-size: .95rem; }
+.selector-page .sel-tags .sel-chip-logo { width: 14px; height: 14px; margin: 0; filter: none; }
+/* the source tag carries the channel's brand colour + logo, same as its chip */
+.selector-page .sel-tags .sel-tag-source {
+  background: var(--tag-bg, var(--ink));
+  color: var(--tag-fg, var(--cyan));
+  border-color: var(--tag-bg, var(--ink));
+}
+.selector-page .sel-tags .sel-tag-source[data-value="Boiler Room"] { --tag-bg: #d6231f; --tag-fg: #fff; }
+.selector-page .sel-tags .sel-tag-source[data-value="Beatport"]    { --tag-bg: #01ff95; --tag-fg: var(--ink); }
+.selector-page .sel-tags .sel-tag-source[data-value="Mixmag"]      { --tag-bg: #f5e003; --tag-fg: var(--ink); }
+.selector-page .sel-tags .sel-tag-source[data-value="Cercle"]      { --tag-bg: #2f3de0; --tag-fg: #fff; }
+.selector-page .sel-tags .sel-tag-source[data-value="Keep Hush"]   { --tag-bg: #0f0f0f; --tag-fg: #b4ff3a; }
+.selector-page .sel-tags .sel-tag-source[data-value="HÖR"]         { --tag-bg: #a9d400; --tag-fg: var(--ink); }
+.selector-page .sel-tags .sel-tag-source[data-value="Rinse FM"]    { --tag-bg: #2c92ff; --tag-fg: var(--ink); }
+.selector-page .sel-tags .sel-tag-source[data-value="Seoul Community Radio"] { --tag-bg: #fa6b38; --tag-fg: var(--ink); }
+.selector-page .sel-tags .sel-tag-source[data-value="STVOL TV"]    { --tag-bg: #0e720d; --tag-fg: #fff; }
+.selector-page .sel-tags .sel-tag-genre { background: transparent; color: var(--ink); }
+/* tier 3 - the small facts (role: data), labelled Year / Length / Views */
+.selector-page .sel-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem 1.15rem;
+  margin: .8rem 0 0;
+  font: 400 .76rem/1.4 var(--mono);
+  letter-spacing: .02em;
+  color: #34322c;
+}
+.selector-page .sel-facts b {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--sel-muted);
+}
+.selector-page .sel-links { margin: .95rem 0 0; font: 400 .82rem/1 var(--sans); }
+.selector-page .sel-links a { color: var(--ink); }
 
+.selector-page #about { margin-top: 0; }
+
+@media (max-width: 720px) {
+  .selector-page .sel-panel {
+    width: calc(100% - 2 * var(--article-gutter));
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  .selector-page .sel-toggle-row { justify-content: flex-start; }
+}

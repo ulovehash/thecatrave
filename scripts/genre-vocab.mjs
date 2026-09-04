@@ -48,9 +48,15 @@ const ALIAS = new Map(Object.entries({
   'afro beat': 'afrobeats', 'afrobeat': 'afrobeats',
   'funky house': 'house', 'soulful house': 'deep house', 'jackin house': 'house',
   'electronica': 'experimental', 'leftfield': 'experimental', 'avant-garde': 'experimental',
-  'new-wave': 'new wave', 'synthpop': 'synth-pop', 'synth pop': 'synth-pop', 'synthwave': 'synth-pop',
+  'new-wave': 'new wave', 'newwave': 'new wave', 'synthpop': 'synth-pop', 'synth pop': 'synth-pop', 'synthwave': 'synth-pop',
   'body music': 'ebm', 'electronic body music': 'ebm',
-  'raggae': 'dancehall', 'reggae': 'dub', 'roots reggae': 'dub'
+  'raggae': 'dancehall', 'reggae': 'dub', 'roots reggae': 'dub',
+  'trap': 'hip-hop', 'bruk': 'uk bass', 'liquid': 'drum and bass',
+  'liquid dnb': 'drum and bass', 'jump up roller dancefloor': 'drum and bass',
+  'funk brasileiro': 'baile funk', 'brazilian funk': 'baile funk', 'funk carioca': 'baile funk',
+  'deep techno': 'techno', 'deep tech': 'techno', 'groovy techno': 'techno',
+  'bass music': 'uk bass', 'breakbeat hardcore': 'breakbeat', 'oldschool': 'breakbeat',
+  'groovy house': 'house', 'organic house': 'afro house'
 }));
 
 const STRIP = /[\s._/-]+/g;

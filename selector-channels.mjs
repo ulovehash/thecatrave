@@ -18,5 +18,9 @@ export const channels = [
   {broadcaster: 'Bangkok Community Radio', handle: '@bangkokcommunityradio', channelId: 'UC_UYkAhKtMfBsuAEmHrtWeQ'},
   {broadcaster: 'The Mudd Show',          handle: '@themuddshow',            channelId: 'UC1raAF6N6U-9cTCVirCYC1g'},
   {broadcaster: 'Boxout.fm',              handle: '@boxoutfm',               channelId: 'UCU3LWJOboQXSQsjqLkUt5Hg'},
-  {broadcaster: 'MixMix TV',              handle: '@MixMixTV',               channelId: 'UCBLlDWPcs4Fw3h3V_quVx8A'}
+  {broadcaster: 'MixMix TV',              handle: '@MixMixTV',               channelId: 'UCBLlDWPcs4Fw3h3V_quVx8A'},
+  {broadcaster: 'STVOL TV',               handle: '@stvoltelevision',         channelId: 'UCL85kisatRecJyFRKbb7zkA'},
+  {broadcaster: "L'Atelier de Musique",   handle: '@Latelier__de__Musique',   channelId: 'UCiEzJ2MVFxBMSds9Axrz5mw'},
+  {broadcaster: 'Beatport',               handle: '@beatport',                channelId: 'UCyEMqKQPGdj8wKVKt2-agbQ'},
+  {broadcaster: 'Elevator Music',          handle: '@ElevatorMusicLive',       channelId: 'UCSN7R7sDkoXfrx8gRdITr0Q'}
 ];

@@ -6,7 +6,7 @@
 
 import fs from 'node:fs';
 import { channels } from '../selector-channels.mjs';
-import { parseArtist, NOT_A_SET } from './parse-artist.mjs';
+import { parseArtist, genreFromTitle, NOT_A_SET } from './parse-artist.mjs';
 
 const MIN_SECONDS = 20 * 60;
 const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
@@ -38,7 +38,10 @@ for (const b of ordered) {
   entries.sort((a, z) => heat(z) - heat(a) || (z.v || 0) - (a.v || 0));
   const room = Math.min(PER_CHANNEL, MAX_SETS - sets.length);
   for (const e of entries.slice(0, room)) {
-    sets.push({ id: e.id, artist: parseArtist(e.t, b), broadcaster: b, year: e.p ? +String(e.p).slice(0, 4) : null, seconds: e.s, views: e.v, likes: e.l });
+    const rec = { id: e.id, artist: parseArtist(e.t, b), broadcaster: b, year: e.p ? +String(e.p).slice(0, 4) : null, seconds: e.s, views: e.v, likes: e.l };
+    const g = genreFromTitle(e.t, b);
+    if (g.length) rec.genres = g;
+    sets.push(rec);
   }
 }
 sets.sort((a, z) => (z.year || 0) - (a.year || 0));

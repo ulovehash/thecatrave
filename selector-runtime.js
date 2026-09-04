@@ -18,6 +18,9 @@
 
   const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  let sourceLogos = {};
+  try { sourceLogos = JSON.parse(document.getElementById('sel-source-logos').textContent) || {}; } catch {}
+
   const setButton = (label, state, disabled) => {
     btn.textContent = label;
     btn.dataset.state = state;
@@ -36,14 +39,26 @@
   const escapeAttr = v => escapeText(v).replace(/"/g, '&quot;');
 
   const render = item => {
-    const label = item.title || `${item.artist} — ${item.broadcaster}`;
-    const meta = [
-      item.broadcaster,
-      item.year || '',
-      fmtDuration(item.seconds),
-      item.views != null ? `${fmtCount(item.views)} views` : '',
-      (item.genres || [])[0]
-    ].filter(Boolean).join(' · ');
+    const name = item.artist || item.broadcaster;
+    const label = item.title || (item.artist ? `${item.artist} · ${item.broadcaster}` : item.broadcaster);
+    // show every genre tag, leading with the one the pool was filtered by
+    const gs = item.genres || [];
+    const matched = gs.find(x => activeGenres.has(x));
+    const genreList = matched ? [matched, ...gs.filter(x => x !== matched)] : gs;
+    const facts = [
+      item.year ? ['Year', String(item.year)] : null,
+      item.seconds ? ['Length', fmtDuration(item.seconds)] : null,
+      item.views != null ? ['Views', fmtCount(item.views)] : null
+    ].filter(Boolean)
+      .map(([k, v]) => `<span><b>${k}:</b> ${escapeText(v)}</span>`)
+      .join('');
+    const tags = [];
+    if (item.artist) {
+      const lg = sourceLogos[item.broadcaster];
+      const img = lg ? `<img class="sel-chip-logo" src="${escapeAttr(lg)}" width="14" height="14" alt="" loading="lazy" decoding="async">` : '';
+      tags.push(`<span class="sel-tag-source" data-value="${escapeAttr(item.broadcaster)}">${img}${escapeText(item.broadcaster)}</span>`);
+    }
+    for (const g of genreList) tags.push(`<span class="sel-tag-genre">${escapeText(g)}</span>`);
     stage.innerHTML = `
       <div class="sel-card">
         <div class="sel-video">
@@ -51,8 +66,9 @@
                   title="${escapeAttr(label)}" loading="lazy"
                   allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
         </div>
-        <p class="sel-artist">${escapeText(item.artist || label)}</p>
-        <p class="sel-meta">${escapeText(meta)}</p>
+        <p class="sel-artist">${escapeText(name)}</p>
+        ${tags.length ? `<p class="sel-tags">${tags.join('')}</p>` : ''}
+        ${facts ? `<p class="sel-facts">${facts}</p>` : ''}
         <p class="sel-links"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
       </div>`;
     try { history.replaceState(null, '', '#' + item.id); } catch {}
@@ -81,27 +97,28 @@
       count.textContent = `${pool.length.toLocaleString('en-US')} sets${bits.length ? ' · ' + bits.join(' · ') : ''}`;
       count.hidden = false;
     }
-    if (!pool.length) setButton('Nothing matches — widen the filter', 'empty', true);
+    if (!pool.length) setButton('Nothing matches, widen the filter', 'empty', true);
     else if (btn.dataset.state !== 'ready') setButton(recent.length ? 'Pick another' : 'Pick me a set', 'ready', false);
   };
 
   const SPARK_COLORS = ['var(--acid)', 'var(--cyan)', 'var(--yellow)', 'var(--coral)', 'var(--ink)'];
+  const SPARKS = 12;
   const salute = () => {
     if (!burst) return;
     burst.textContent = '';
-    for (let i = 0; i < 14; i += 1) {
+    for (let i = 0; i < SPARKS; i += 1) {
       const s = document.createElement('span');
       s.className = 'sel-spark';
-      const angle = (Math.PI * 2 * i) / 14 + (Math.random() - 0.5) * 0.5;
-      const dist = 44 + Math.random() * 48;
+      const angle = (Math.PI * 2 * i) / SPARKS + (Math.random() - 0.5) * 0.5;
+      const dist = 46 + Math.random() * 50;
       s.style.setProperty('--tx', `${(Math.cos(angle) * dist).toFixed(1)}px`);
-      s.style.setProperty('--ty', `${(Math.sin(angle) * dist - 12).toFixed(1)}px`);
+      s.style.setProperty('--ty', `${(Math.sin(angle) * dist - dist * 0.35).toFixed(1)}px`);   // bias the spray upward
       s.style.setProperty('--rot', `${((Math.random() * 2 - 1) * 220).toFixed(0)}deg`);
       s.style.setProperty('--c', SPARK_COLORS[i % SPARK_COLORS.length]);
       s.style.animationDelay = `${(Math.random() * 40).toFixed(0)}ms`;
       burst.appendChild(s);
     }
-    setTimeout(() => { burst.textContent = ''; }, 720);
+    setTimeout(() => { burst.textContent = ''; }, 660);
   };
 
   const pick = () => {
@@ -122,7 +139,7 @@
     if (!item) return;
     if (!reduceMotion) {
       btn.dataset.spinning = 'true';
-      setTimeout(() => { delete btn.dataset.spinning; }, 260);
+      setTimeout(() => { delete btn.dataset.spinning; }, 300);
       salute();
     }
     render(item);
@@ -131,7 +148,7 @@
   btn.addEventListener('click', go);
   if (popular) popular.addEventListener('change', rebuildPool);
 
-  function makeChips(container, entries, activeSet) {
+  function makeChips(container, entries, activeSet, iconFor) {
     if (!container) return;
     container.textContent = '';
     const chip = (label, value, pressed) => {
@@ -140,7 +157,9 @@
       b.className = 'sel-chip';
       b.dataset.value = value;
       b.setAttribute('aria-pressed', pressed ? 'true' : 'false');
-      b.textContent = label;
+      const icon = iconFor ? iconFor(value) : '';
+      if (icon) b.innerHTML = `${icon}<span>${escapeText(label)}</span>`;
+      else b.textContent = label;
       container.appendChild(b);
       return b;
     };
@@ -169,15 +188,17 @@
       if (!g.length) untaggedCount += 1;
       for (const x of g) genCounts.set(x, (genCounts.get(x) || 0) + 1);
     }
+    const sourceIcon = value => {
+      const src = sourceLogos[value];
+      return src ? `<img class="sel-chip-logo" src="${escapeAttr(src)}" width="18" height="18" alt="" loading="lazy" decoding="async">` : '';
+    };
     makeChips(sourcesEl,
       [...srcCounts.keys()].sort((a, b) => a.localeCompare(b)).map(n => [`${n} (${srcCounts.get(n)})`, n]),
-      activeSources);
-    if (genCounts.size) {
-      const genres = [...genCounts.entries()]
-        .filter(([, n]) => n >= 5)
-        .sort((a, b) => b[1] - a[1])
-        .map(([g, n]) => [`${g} (${n})`, g]);
-      if (untaggedCount) genres.push([`untagged (${untaggedCount})`, UNTAGGED]);
+      activeSources, sourceIcon);
+    const ranked = [...genCounts.entries()].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]);
+    if (ranked.length) {
+      const genres = ranked.slice(0, 18).map(([g, n]) => [`${g} (${n})`, g]);
+      if (untaggedCount) genres.push(['untagged', UNTAGGED]);
       makeChips(genresEl, genres, activeGenres);
       if (genresWrap) genresWrap.hidden = false;
     }
