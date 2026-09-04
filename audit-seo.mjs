@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { pages } from './pages.mjs';
+import { imageSizeForUrl } from './scripts/image-size.mjs';
 
 // Zero-dependency SEO and content audit for every built page. Deterministic string
 // and structure checks only: the fundamentals that decide whether a page can be
@@ -83,6 +84,20 @@ for (const {file, path, kind} of pages) {
     check(file, `has ${key}`, !!meta(html, key, 'property'));
   }
   check(file, 'og:image is absolute https', /^https:\/\//.test(meta(html, 'og:image', 'property') || ''));
+  // Declared dimensions are worse than none if they disagree with the file, so
+  // measure the image the build actually wrote and compare.
+  const ogImage = meta(html, 'og:image', 'property');
+  let real = null;
+  try { real = imageSizeForUrl(ogImage); } catch {}
+  check(file, 'og:image file is readable', Boolean(real), ogImage);
+  if (real) {
+    check(file, 'og:image:width matches the file',
+      meta(html, 'og:image:width', 'property') === String(real.width),
+      `declared ${meta(html, 'og:image:width', 'property')}, file ${real.width}`);
+    check(file, 'og:image:height matches the file',
+      meta(html, 'og:image:height', 'property') === String(real.height),
+      `declared ${meta(html, 'og:image:height', 'property')}, file ${real.height}`);
+  }
   for (const key of ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image']) {
     check(file, `has ${key}`, !!meta(html, key, 'name') || !!meta(html, key, 'property'));
   }
