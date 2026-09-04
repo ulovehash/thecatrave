@@ -15,3 +15,7 @@ blob-report/
 # tooling / editor
 .claude/
 .DS_Store
+
+# fonts fetched by scripts/build-og-selector.py
+.cache/
+__pycache__/
