@@ -65,7 +65,12 @@ a{color:inherit}
 .eyebrow,.section-index,.label,.number,figcaption,.footer-nav p,.newsletter label,.newsletter small{font:400 var(--utility)/1.4 var(--mono);letter-spacing:.02em;text-transform:uppercase}
 h1,h2,h3,p{margin-top:0}
 h1,h2,h3{line-height:.98;letter-spacing:-.055em}
-h1{max-width:15ch;margin-bottom:1.5rem;font-size:clamp(2.65rem,5.4vw,4.6rem)}
+/* The tight display measure belongs to the home hero, which is where it was designed. As a bare h1 selector it applied to every page that loads this file, which is all of them: any heading longer than fifteen characters was broken into short lines however much room it had. */
+.hero h1{max-width:15ch}
+h1{margin-bottom:1.5rem;font-size:clamp(2.65rem,5.4vw,4.6rem)}
+/* One rule instead of hand-tuning each heading: the browser spreads the words evenly across the lines it needs and stops leaving a single word alone on the last one. `pretty` does the same for body copy. Both are ignored by browsers that do not have them, which costs nothing. */
+h1,h2,h3{text-wrap:balance}
+p,li{text-wrap:pretty}
 .hero-intro{max-width:42rem;font-size:1.125rem;line-height:1.5}
 .hero-lore{max-width:42rem;margin-top:1.5rem;display:grid;gap:.35rem;font-size:1.125rem;line-height:1.5}
 .hero-lore p:last-child{margin-top:.8rem;padding:1rem;border:1px solid var(--ink);background:var(--cyan);font:400 var(--utility)/1.5 var(--mono)}
