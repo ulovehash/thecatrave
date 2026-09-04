@@ -1017,14 +1017,25 @@
   box-shadow: 6px 6px 0 var(--ink);
   transition: transform 90ms cubic-bezier(.2, .8, .2, 1), box-shadow 90ms cubic-bezier(.2, .8, .2, 1);
 }
+/* A pixel cat beside a record. Drawn as a mask rather than an inline SVG so
+   the art inherits the button's own colour in every state, and so the runtime
+   can keep setting the label with textContent without wiping it. Two frames:
+   on press the cat drops onto the deck. Grids and generator: scripts/build-cat-icon.mjs. */
 .selector-page .sel-go::before {
+  --cat-rest: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2014'%20shape-rendering='crispEdges'%3E%3Crect%20x='0'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='14'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='13'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='0'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='12'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='0'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='11'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='0'%20y='4'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='5'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='6'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='6'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='6'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='7'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='7'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='7'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='8'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='9'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='0'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='10'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='0'%20y='11'%20width='16'%20height='1'/%3E%3Crect%20x='1'%20y='12'%20width='14'%20height='1'/%3E%3Crect%20x='3'%20y='13'%20width='10'%20height='1'/%3E%3C/svg%3E");
+  --cat-press: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2014'%20shape-rendering='crispEdges'%3E%3Crect%20x='0'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='14'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='13'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='0'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='12'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='0'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='11'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='0'%20y='4'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='5'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='6'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='7'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='7'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='7'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='8'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='9'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='0'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='10'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='0'%20y='11'%20width='16'%20height='1'/%3E%3Crect%20x='1'%20y='12'%20width='14'%20height='1'/%3E%3Crect%20x='3'%20y='13'%20width='10'%20height='1'/%3E%3C/svg%3E");
   content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: .46em 0 .46em .74em;
-  border-color: transparent transparent transparent currentColor;
-  transition: transform 160ms cubic-bezier(.2, .8, .2, 1);
+  width: 1.44em;
+  height: 1.26em;
+  flex: 0 0 auto;
+  background: currentColor;
+  -webkit-mask: var(--cat-rest) center / contain no-repeat;
+  mask: var(--cat-rest) center / contain no-repeat;
+}
+.selector-page .sel-go:active:not(:disabled)::before,
+.selector-page .sel-go[data-spinning]::before {
+  -webkit-mask-image: var(--cat-press);
+  mask-image: var(--cat-press);
 }
 .selector-page .sel-go:not([data-state="ready"])::before { display: none; }
 
@@ -1032,7 +1043,8 @@
   transform: translate(-1px, -1px);
   box-shadow: 8px 8px 0 var(--ink);
 }
-.selector-page .sel-go:hover:not(:disabled)::before { transform: translateX(2px); }
+/* the cat perks up rather than sliding sideways, which is what the old play triangle did */
+.selector-page .sel-go:hover:not(:disabled)::before { transform: translateY(-2px); }
 .selector-page .sel-go:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
 .selector-page .sel-go:active:not(:disabled) {
   transform: translate(6px, 6px);
