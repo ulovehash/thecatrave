@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { routes } from './routes';
+import { openRoute } from './open-route';
 
 // Deterministic layout assertions. These catch the classes of regression that a
 // string audit cannot see: horizontal overflow, clashing full-bleed colour
@@ -9,7 +10,7 @@ import { routes } from './routes';
 for (const route of routes) {
   test.describe(route.name, () => {
     test.beforeEach(async ({ page }) => {
-      await page.goto(route.path, { waitUntil: 'networkidle' });
+      await openRoute(page, route.path);
     });
 
     test('no horizontal overflow', async ({ page }) => {
@@ -56,7 +57,7 @@ for (const route of routes) {
 test('homepage article grid: 1 / 2 columns then one full row, no orphan', async ({ page }) => {
   const gridAt = async (width: number) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto('/', { waitUntil: 'networkidle' });
+    await openRoute(page, '/');
     return page.evaluate(() => {
       const grid = document.querySelector('#articles .article-grid') as HTMLElement;
       const cards = [...document.querySelectorAll('#articles .article-grid > article')];
@@ -80,7 +81,7 @@ test('homepage article grid: 1 / 2 columns then one full row, no orphan', async 
 test('in-article Read Next grid: 1 / 2 / 4 columns by viewport', async ({ page }) => {
   const columnsAt = async (width: number) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto('/breakbeat-guide', { waitUntil: 'networkidle' });
+    await openRoute(page, '/breakbeat-guide');
     return page.evaluate(() => {
       const grid = document.querySelector('.read-next-grid') as HTMLElement;
       return getComputedStyle(grid).gridTemplateColumns.split(' ').length;

@@ -1,13 +1,14 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { routes } from './routes';
+import { openRoute } from './open-route';
 
 // WCAG 2.1 A/AA scan on every route. Fails on serious or critical violations;
 // moderate/minor are reported but not blocking so the gate stays actionable.
 
 for (const route of routes) {
   test(`${route.name} has no serious accessibility violations`, async ({ page }, testInfo) => {
-    await page.goto(route.path, { waitUntil: 'networkidle' });
+    await openRoute(page, route.path);
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
       // Third-party players (Spotify, SoundCloud, YouTube, Bandcamp) render their
