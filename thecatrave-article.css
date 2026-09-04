@@ -901,6 +901,15 @@
   filter: grayscale(1) contrast(1.04);
 }
 .selector-page .sel-chip[aria-pressed="true"] .sel-chip-logo { filter: none; }
+/* The count sits behind the name: lighter, spaced, and it follows the chip's
+   own colour once the chip is filled so it stays legible on every brand tint. */
+.selector-page .sel-chip-n {
+  margin-left: .45rem;
+  font-weight: 400;
+  color: var(--sel-muted);
+}
+.selector-page .sel-chip[aria-pressed="true"] .sel-chip-n,
+.selector-page .sel-chip:hover .sel-chip-n { color: inherit; }
 .selector-page .sel-chip:hover { background: var(--chip-hover); }
 .selector-page .sel-chip:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 /* Source and Genre chips are toggles (aria-pressed); Mode chips are radios
@@ -1154,7 +1163,7 @@
 @media (min-width: 64rem) {
   .selector-page .sel-panel {
     display: grid;
-    grid-template-columns: minmax(0, 22rem) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 29rem) minmax(0, 1fr);
     align-items: start;
   }
   .selector-page .sel-panel-head { grid-column: 1 / -1; }
@@ -1171,6 +1180,22 @@
     top: 0;
   }
   .selector-page .sel-noscript { grid-column: 1 / -1; }
+  /* The sidebar is a fixed-width column, so it gets the same dense chip metrics
+     as a phone regardless of how wide the window is. Without this every channel
+     took a row of its own and the filter list ran longer than the page. The
+     count stays: unlike on a phone there is room for it. */
+  .selector-page .sel-body .sel-chip {
+    min-height: 1.95rem;
+    padding: .3rem .5rem;
+    font-size: .71rem;
+    letter-spacing: 0;
+  }
+  .selector-page .sel-body .sel-chip-logo { width: 13px; height: 13px; margin-right: .32rem; border-width: 1px; }
+  .selector-page .sel-body .sel-chip-n { margin-left: .3rem; }
+  .selector-page .sel-sources,
+  .selector-page .sel-genres,
+  .selector-page .sel-modes { gap: .35rem; }
+  .selector-page .sel-modes .sel-chip-note { font-size: .63rem; }
 }
 
 /* Narrow screens: pack the filter chips. The count drops out, the logo and the
