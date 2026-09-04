@@ -49,6 +49,7 @@ const toolHtml = `
     <p class="sel-deck">A random DJ set picker. Press the button for one full set at random from ${escapeHtml(countLine)}. Pick a mode for the most-watched sets, the underrated ones or the ones nobody has found yet, then filter to the source or genre you want.</p>
   </header>
   <div class="sel-action">
+    <p class="sel-count" id="sel-count">${escapeHtml(setCount)} sets</p>
     <div class="sel-go-wrap">
       <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
       <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
@@ -68,7 +69,6 @@ const toolHtml = `
       <p class="sel-field-label" id="sel-genres-label">Genre${genreNote}</p>
       <div class="sel-genres" id="sel-genres" role="group" aria-labelledby="sel-genres-label"></div>
     </div>
-    <p class="sel-count" id="sel-count" hidden></p>
   </div>
   <noscript><p class="sel-noscript">The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${
     broadcasters.map(b => escapeHtml(b)).join(', ')
