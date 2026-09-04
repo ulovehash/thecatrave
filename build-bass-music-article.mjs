@@ -272,10 +272,10 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline:title,description,canonical,image:'https://thecatrave.com/img/bass-music/bass-music-global-history.svg',datePublished:date,dateModified:date}),
+  articleStructuredData({headline:title,description,canonical,image:'https://thecatrave.com/img/bass-music/miami-bass-loc-ace-vic-1400.jpg',datePublished:date,dateModified:date}),
   breadcrumbStructuredData({name:'Bass Music Guide',canonical}), faqStructuredData({items:faqItems})
 ];
 
-const html = articlePage({title,description,canonical,ogImage:'https://thecatrave.com/img/bass-music/bass-music-global-history.svg',datePublished:date,dateModified:date,bodyClass:'article-page bass-music-page',structuredData,articleHtml}).replace(/—/g, ':');
+const html = articlePage({title,description,canonical,ogImage:'https://thecatrave.com/img/bass-music/miami-bass-loc-ace-vic-1400.jpg',datePublished:date,dateModified:date,bodyClass:'article-page bass-music-page',structuredData,articleHtml}).replace(/—/g, ':');
 fs.writeFileSync('bass-music-guide.html', html);
 console.log('Built bass-music-guide.html');

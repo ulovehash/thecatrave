@@ -853,7 +853,7 @@
 }
 /* role: body */
 .selector-page .sel-deck {
-  max-width: 42ch;
+  max-width: 76ch;
   margin: 1rem 0 0;
   font: 400 clamp(1rem, 1.5vw, 1.1rem)/1.55 var(--sans);
   color: var(--ink);
@@ -903,7 +903,10 @@
 .selector-page .sel-chip[aria-pressed="true"] .sel-chip-logo { filter: none; }
 .selector-page .sel-chip:hover { background: var(--chip-hover); }
 .selector-page .sel-chip:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.selector-page .sel-chip[aria-pressed="true"] {
+/* Source and Genre chips are toggles (aria-pressed); Mode chips are radios
+   (aria-checked). Same painted "on" state either way. */
+.selector-page .sel-chip[aria-pressed="true"],
+.selector-page .sel-chip[aria-checked="true"] {
   background: var(--chip-on-bg);
   border-color: var(--chip-on-bg);
   color: var(--chip-on-fg);
@@ -942,36 +945,27 @@
   --chip-on-fg: var(--ink);
 }
 
-.selector-page .sel-toggle-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: .7rem 1.25rem;
-  padding-top: clamp(1rem, 2.5vw, 1.4rem);
-  border-top: 1px solid #0a0a0a24;
+/* Mode chips carry a second line explaining what the mode actually does. */
+.selector-page .sel-modes { display: flex; flex-wrap: wrap; gap: .5rem; }
+.selector-page .sel-modes .sel-chip {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .18rem;
+  padding: .45rem .8rem;
 }
-.selector-page .sel-popular {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: .3rem .55rem;
-  font: 700 .8rem/1.3 var(--mono);
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.selector-page .sel-popular input { width: 1.05rem; height: 1.05rem; accent-color: var(--ink); }
-.selector-page .sel-popular-note {
-  font-weight: 400;
+.selector-page .sel-modes .sel-chip-note {
+  font: 400 .68rem/1.2 var(--mono);
   letter-spacing: .01em;
   text-transform: none;
   color: var(--sel-muted);
 }
-.selector-page .sel-popular:has(input:disabled) { color: var(--sel-muted); cursor: not-allowed; }
+.selector-page .sel-modes .sel-chip[aria-checked="true"] .sel-chip-note,
+.selector-page .sel-modes .sel-chip:hover .sel-chip-note { color: inherit; }
 /* role: data */
 .selector-page .sel-count {
   margin: 0;
+  padding-top: clamp(.9rem, 2.2vw, 1.3rem);
+  border-top: 1px solid #0a0a0a24;
   font: 400 .74rem/1 var(--mono);
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -1147,5 +1141,69 @@
     width: calc(100% - 2 * var(--article-gutter));
     box-shadow: 6px 6px 0 var(--ink);
   }
-  .selector-page .sel-toggle-row { justify-content: flex-start; }
 }
+
+/* On mobile the action wrapper is invisible: button and result stay in the
+   panel's own flow, action first. */
+.selector-page .sel-action { display: contents; }
+
+/* Desktop: the filters sit beside the action instead of under it, so they are
+   visible the moment the page loads rather than something you scroll to find.
+   The action column sticks, so the button and the picked set stay in view while
+   the long filter column scrolls. */
+@media (min-width: 64rem) {
+  .selector-page .sel-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 22rem) minmax(0, 1fr);
+    align-items: start;
+  }
+  .selector-page .sel-panel-head { grid-column: 1 / -1; }
+  .selector-page .sel-body {
+    grid-column: 1;
+    grid-row: 2;
+    border-right: 2px solid var(--ink);
+  }
+  .selector-page .sel-action {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    position: sticky;
+    top: 0;
+  }
+  .selector-page .sel-noscript { grid-column: 1 / -1; }
+}
+
+/* Narrow screens: pack the filter chips. The count drops out, the logo and the
+   type shrink, so several channels fit per row instead of one each. */
+@media (max-width: 40rem) {
+  .selector-page .sel-sources,
+  .selector-page .sel-genres,
+  .selector-page .sel-modes { gap: .3rem; }
+  .selector-page .sel-chip {
+    min-height: 1.95rem;
+    padding: .3rem .5rem;
+    font-size: .71rem;
+    letter-spacing: 0;
+  }
+  .selector-page .sel-chip-n { display: none; }
+  .selector-page .sel-chip-logo { width: 13px; height: 13px; margin-right: .32rem; border-width: 1px; }
+  .selector-page .sel-modes .sel-chip-note { font-size: .63rem; }
+}
+
+/* Mode is the first and most consequential filter, so each option carries a
+   colour bar: the four modes become individually recognisable rather than four
+   identical grey chips. Decorative only, so no contrast requirement. */
+.selector-page .sel-modes .sel-chip { position: relative; padding-left: 1.15rem; }
+.selector-page .sel-modes .sel-chip::before {
+  position: absolute;
+  left: .45rem;
+  top: .45rem;
+  bottom: .45rem;
+  width: 4px;
+  content: "";
+  background: var(--mode-accent, var(--sel-muted));
+}
+.selector-page .sel-modes .sel-chip[data-value="any"] { --mode-accent: #8d8779; }
+.selector-page .sel-modes .sel-chip[data-value="popular"] { --mode-accent: var(--acid); }
+.selector-page .sel-modes .sel-chip[data-value="gems"] { --mode-accent: var(--cyan); }
+.selector-page .sel-modes .sel-chip[data-value="deep"] { --mode-accent: var(--yellow); }

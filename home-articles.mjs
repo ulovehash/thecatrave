@@ -42,9 +42,9 @@ export const homeArticleCatalog = [
     page:'drum-and-bass-guide.html', href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
     title:'What Is Drum and Bass? History, Sound and Subgenres',
     description:'The genre jungle became after the mid-1990s split: 174 BPM, chopped breaks and sub-bass, from Metalheadz to a global festival circuit.',
-    image:'img/dnb/dnb-cover-320.webp',
-    srcset:'img/dnb/dnb-cover-320.webp 320w,img/dnb/dnb-cover.webp 1200w',
-    width:1200, height:675, alt:'A chopped breakbeat waveform with the beat grid marked, labelled drum and bass, 174 BPM'
+    image:'img/dnb/roni-size-320.webp',
+    srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
+    width:1120, height:747, alt:'Roni Size DJing under green stage light'
   }
 ];
 

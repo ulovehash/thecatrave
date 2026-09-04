@@ -46,14 +46,20 @@ const toolHtml = `
   <header class="sel-panel-head">
     <p class="article-kicker">Tool</p>
     <h1>The Selector</h1>
-    <p class="sel-deck">A random DJ set picker. Press the button for one full set at random from ${escapeHtml(countLine)}, or filter to the source or genre you want.</p>
+    <p class="sel-deck">A random DJ set picker. Press the button for one full set at random from ${escapeHtml(countLine)}. Pick a mode for the most-watched sets, the underrated ones or the ones nobody has found yet, then filter to the source or genre you want.</p>
   </header>
-  <div class="sel-go-wrap">
-    <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
-    <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
+  <div class="sel-action">
+    <div class="sel-go-wrap">
+      <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>Loading catalogue…</button>
+      <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
+    </div>
+    <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
   </div>
-  <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
   <div class="sel-body">
+    <div class="sel-field">
+      <p class="sel-field-label" id="sel-modes-label">Mode</p>
+      <div class="sel-modes" id="sel-modes" role="radiogroup" aria-labelledby="sel-modes-label"></div>
+    </div>
     <div class="sel-field">
       <p class="sel-field-label" id="sel-sources-label">Source</p>
       <div class="sel-sources" id="sel-sources" role="group" aria-labelledby="sel-sources-label"></div>
@@ -62,10 +68,7 @@ const toolHtml = `
       <p class="sel-field-label" id="sel-genres-label">Genre${genreNote}</p>
       <div class="sel-genres" id="sel-genres" role="group" aria-labelledby="sel-genres-label"></div>
     </div>
-    <div class="sel-toggle-row">
-      <label class="sel-popular"><input type="checkbox" id="sel-popular" checked disabled> Popular only <span class="sel-popular-note">(most-liked third of the catalogue)</span></label>
-      <p class="sel-count" id="sel-count" hidden></p>
-    </div>
+    <p class="sel-count" id="sel-count" hidden></p>
   </div>
   <noscript><p class="sel-noscript">The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${
     broadcasters.map(b => escapeHtml(b)).join(', ')
@@ -78,7 +81,14 @@ const toolHtml = `
 // I listen to". Keep the channel names as plain text so they read as entities.
 const aboutHtml = `
 <p>The Selector is for when you want a DJ set but don't want to choose one. Press the button and it plays a full set picked at random from a catalogue of ${escapeHtml(countLine)}. Press it again for another. Nothing is saved and nothing is personalised.</p>
-<p>Two filters narrow the pool before it picks. <strong>Source</strong> limits it to one channel, so you can pull a random ${escapeHtml(broadcasters[0])} set, or an ${escapeHtml(broadcasters[1] || 'HÖR')} set, or one from ${escapeHtml(broadcasters.slice(2, 6).join(', '))}. <strong>Popular only</strong> keeps just the most-liked third of the catalogue, which is the closest thing here to a "best sets" list. <strong>Genre</strong> covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop and disco where a set is tagged.</p>
+<p>Three filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
+<ul>
+  <li><strong>Anything</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
+  <li><strong>Popular</strong> sticks to sets that already found a big audience. This is the one for a best-of: a popular ${escapeHtml(broadcasters[0])} set, a popular techno set, something you can put on knowing a lot of people rated it.</li>
+  <li><strong>Hidden gems</strong> looks at how loved a set is next to how many people actually saw it. You get the ones a small crowd rated highly rather than the ones that simply got pushed.</li>
+  <li><strong>Niche sets</strong> is the opposite end of Popular: the quiet part of the catalogue, where most artists have almost no audience yet. Worth it if you like getting there first.</li>
+</ul>
+<p>The other two filters stack on top of any mode. <strong>Source</strong> limits the pool to one channel, so you can pull a random ${escapeHtml(broadcasters[0])} set, or an ${escapeHtml(broadcasters[1] || 'HÖR')} set, or one from ${escapeHtml(broadcasters.slice(2, 6).join(', '))}. <strong>Genre</strong> covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop and disco where a set is tagged.</p>
 <p>The pool is the long-form uploads of ${escapeHtml(channelList)}: real sets rather than clips, refreshed weekly. For the history behind the music, read the <a href="/drum-and-bass-guide">drum and bass guide</a>, the <a href="/jungle-music-guide">jungle guide</a>, the <a href="/breakbeat-guide">breakbeat guide</a> and the <a href="/dubstep-guide">dubstep guide</a>.</p>
 `.trim();
 
@@ -95,8 +105,13 @@ const faqItems = [
   },
   {
     question: 'How do I find the best or most popular sets?',
-    answer: `Turn on Popular only. It limits the pool to the most-liked third of the catalogue before the random pick, so every result is a set that already has a big audience. Combine it with a Source or Genre filter for the most-liked techno set, the most-liked HÖR set, and so on.`,
-    answerHtml: `<p>Turn on <strong>Popular only</strong>. It limits the pool to the most-liked third of the catalogue before the random pick, so every result is a set that already has a big audience. Combine it with a Source or Genre filter for the most-liked techno set, the most-liked HÖR set, and so on.</p>`
+    answer: `Pick the Popular mode. It keeps the pool to sets that already have a big audience, so every result is one a lot of people have watched and rated. Combine it with a Source or Genre filter for a popular techno set, a popular HÖR set, and so on. Hidden gems does the opposite: it favours sets that are loved out of proportion to how many people saw them, so you get what a small crowd rated highly instead of what simply got pushed. Niche sets goes to the quiet end of the catalogue, where most of the artists have almost no audience yet.`,
+    answerHtml: `<p>Pick the <strong>Popular</strong> mode. It keeps the pool to sets that already have a big audience, so every result is one a lot of people have watched and rated. Combine it with a Source or Genre filter for a popular techno set, a popular HÖR set, and so on.</p><p><strong>Hidden gems</strong> does the opposite: it favours sets that are loved out of proportion to how many people saw them, so you get what a small crowd rated highly instead of what simply got pushed. <strong>Niche sets</strong> goes to the quiet end of the catalogue, where most of the artists have almost no audience yet.</p>`
+  },
+  {
+    question: 'What is the difference between Popular, Hidden gems and Niche sets?',
+    answer: `It comes down to how much of an audience a set already has. Popular gives you the well-watched end of whatever you have filtered to, Niche sets the quiet end. Hidden gems sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. Anything drops the weighting and shuffles the full catalogue.`,
+    answerHtml: `<p>It comes down to how much of an audience a set already has. <strong>Popular</strong> gives you the well-watched end of whatever you have filtered to, <strong>Niche sets</strong> the quiet end. <strong>Hidden gems</strong> sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. <strong>Anything</strong> drops the weighting and shuffles the full catalogue.</p>`
   },
   {
     question: 'Which channels does it pull from?',
@@ -137,7 +152,7 @@ const structuredData = [
       'Random DJ set picker',
       'Filter by source channel (Boiler Room, HÖR, NTS, Beatport, Rinse FM and more)',
       'Filter by genre',
-      'Popular only mode for the most-liked sets'
+      'Pick modes: popular, hidden gems and niche sets'
     ],
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
   },
@@ -147,7 +162,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
-  ogImage: 'https://thecatrave.com/img/thecatrave-home-1200.webp',
+  ogImage: 'https://thecatrave.com/img/selector/selector-og.png',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page selector-page',
   structuredData, articleHtml

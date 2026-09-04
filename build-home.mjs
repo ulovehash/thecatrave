@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {homeArticlesWithReadingTimes} from './home-articles.mjs';
-import {analytics, homeArticlesSection, homeFooter, nowPlayingBanner, siteHeader} from './site-components.mjs';
+import {analytics, homeArticlesSection, homeFooter, homeSelectorPromo, nowPlayingBanner, siteHeader} from './site-components.mjs';
+import {channels} from './selector-channels.mjs';
 
 const path = 'index.html';
 let page = fs.readFileSync(path, 'utf8');
@@ -34,6 +35,17 @@ replaceComponent('now-playing', nowPlayingBanner({
   title: 'I Like to Smoke in Silence After Raves',
   meta: '30 tracks / DJ mix',
   href: 'https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves'
+}));
+// The Selector promo pulls its numbers and channel logos from the tool's own data.
+const slug = s => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+let selectorSets = 0;
+try { const d = JSON.parse(fs.readFileSync('selector-data.json', 'utf8')); if (Array.isArray(d)) selectorSets = d.length; } catch {}
+const broadcasters = [...new Set(channels.map(c => c.broadcaster))];
+const selectorLogos = broadcasters.map(b => `img/selector/${slug(b)}.png`).filter(p => fs.existsSync(p));
+replaceComponent('home-selector', homeSelectorPromo({
+  sets: selectorSets,
+  channels: broadcasters.length,
+  logos: selectorLogos
 }));
 replaceComponent('home-articles', homeArticlesSection({items:homeArticles}));
 replaceComponent('home-footer', homeFooter());

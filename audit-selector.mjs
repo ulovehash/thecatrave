@@ -15,10 +15,19 @@ check('meta description present', /<meta name="description" content="[^"]{70,165
 check('button present with a label', /<button[^>]*id="sel-go"[^>]*>[^<]+<\/button>/.test(html));
 check('source filter group present', /<div class="sel-sources" id="sel-sources" role="group"/.test(html));
 check('genre filter group present', /<div class="sel-genres" id="sel-genres" role="group"/.test(html));
-check('popular-only checkbox present', /<input type="checkbox" id="sel-popular"/.test(html));
+// Mode is one-of-four, so it must be a radiogroup, not a row of toggle buttons
+check('mode filter is a radiogroup', /<div class="sel-modes" id="sel-modes" role="radiogroup"/.test(html));
 check('h1 sits in the tool, above the fold', html.indexOf('<h1>') < html.indexOf('id="about"'));
 check('live result region present', /<div class="sel-stage" id="sel-stage" aria-live="polite">/.test(html));
 check('runtime script linked', html.includes('<script src="selector-runtime.js" defer></script>'));
+// every pick mode the runtime offers, including the long-tail one
+const runtime = fs.readFileSync('selector-runtime.js', 'utf8');
+for (const m of ['any', 'popular', 'gems', 'deep']) {
+  check(`pick mode "${m}" wired`, runtime.includes(`'${m}'`));
+}
+// The copy describes what each mode gives you, never the thresholds behind it,
+// so tuning the ranking never leaves the page telling a lie. Keep it that way.
+check('copy does not hard-code ranking internals', !/(most-watched|least-watched) third|likes per view/.test(html));
 check('noscript fallback present', /<noscript>[\s\S]*channels[\s\S]*<\/noscript>/i.test(html));
 check('WebApplication structured data', html.includes('"@type":"WebApplication"'));
 check('no em dash in visible source', !html.includes('—'));

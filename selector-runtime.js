@@ -5,7 +5,8 @@
   const sourcesEl = document.getElementById('sel-sources');
   const genresEl = document.getElementById('sel-genres');
   const genresWrap = document.getElementById('sel-genres-wrap');
-  const popular = document.getElementById('sel-popular');
+  const modesEl = document.getElementById('sel-modes');
+  const GEM_MIN_VIEWS = 3000;
   const burst = document.getElementById('sel-burst');
   if (!btn || !stage) return;
 
@@ -15,6 +16,17 @@
   const activeSources = new Set();
   const activeGenres = new Set();
   const UNTAGGED = ' untagged';
+
+  // How the pool is narrowed before the random pick. "deep" exists so the long
+  // tail of artists gets played too, not just whatever already has an audience.
+  // Name is the hook, note says plainly what you will actually get back.
+  const MODES = [
+    ['Anything', 'any', ''],
+    ['Popular', 'popular', 'the most-watched sets'],
+    ['Hidden gems', 'gems', 'underrated sets'],
+    ['Niche sets', 'deep', 'hear them first']
+  ];
+  let mode = 'popular';
 
   const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -34,7 +46,6 @@
     return h ? `${h}h ${m}m` : `${m}m`;
   };
   const fmtCount = n => (n == null ? '' : n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `${Math.round(n / 1e3)}K` : String(n));
-  const heat = s => s.likes || 0;
   const escapeText = v => { const d = document.createElement('div'); d.textContent = v == null ? '' : String(v); return d.innerHTML; };
   const escapeAttr = v => escapeText(v).replace(/"/g, '&quot;');
 
@@ -83,9 +94,22 @@
         return g.some(x => activeGenres.has(x)) || (activeGenres.has(UNTAGGED) && g.length === 0);
       });
     }
-    if (popular && popular.checked && next.some(s => s.likes != null)) {
-      const scored = next.filter(s => s.likes != null).slice().sort((a, b) => heat(b) - heat(a));
-      next = scored.slice(0, Math.max(1, Math.ceil(scored.length / 3)));
+    const third = list => list.slice(0, Math.max(1, Math.ceil(list.length / 3)));
+    if (mode === 'gems') {
+      // loved per view rather than most-watched: the sets that punch above
+      // their audience. Needs a views floor or tiny uploads dominate.
+      const scored = next.filter(s => s.likes != null && s.views >= GEM_MIN_VIEWS)
+        .slice().sort((a, b) => (b.likes / b.views) - (a.likes / a.views));
+      if (scored.length) next = third(scored);
+    } else if (mode === 'deep') {
+      // the quiet end of the catalogue, so the long tail of artists gets played
+      const scored = next.filter(s => s.views != null).slice().sort((a, b) => a.views - b.views);
+      if (scored.length) next = third(scored);
+    } else if (mode === 'popular') {
+      // "most-watched" taken literally, so the label, the chip note and the copy
+      // all describe the same thing. The exact mirror of "deep".
+      const scored = next.filter(s => s.views != null).slice().sort((a, b) => b.views - a.views);
+      if (scored.length) next = third(scored);
     }
     pool = next;
     if (count) {
@@ -93,7 +117,8 @@
       if (activeSources.size === 1) bits.push([...activeSources][0]);
       else if (activeSources.size) bits.push(`${activeSources.size} sources`);
       if (activeGenres.size) bits.push([...activeGenres].map(g => (g === UNTAGGED ? 'untagged' : g)).join(' / '));
-      if (popular && popular.checked) bits.push('popular');
+      const label = (MODES.find(m => m[1] === mode) || [])[0];
+      if (mode !== 'any' && label) bits.push(label.toLowerCase());
       count.textContent = `${pool.length.toLocaleString('en-US')} sets${bits.length ? ' · ' + bits.join(' · ') : ''}`;
       count.hidden = false;
     }
@@ -146,25 +171,74 @@
     setButton('Pick another', 'ready', false);
   };
   btn.addEventListener('click', go);
-  if (popular) popular.addEventListener('change', rebuildPool);
+
+  // Mode is one-of-four, unlike Source and Genre which are multi-select. So it is
+  // a radio group, not a row of independent toggles: role="radio"/aria-checked,
+  // a single tab stop, and arrow keys to move between the options.
+  function buildModeChips() {
+    if (!modesEl) return;
+    modesEl.textContent = '';
+    const chips = MODES.map(([label, value, note]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'sel-chip';
+      b.setAttribute('role', 'radio');
+      b.dataset.value = value;
+      b.setAttribute('aria-checked', value === mode ? 'true' : 'false');
+      b.tabIndex = value === mode ? 0 : -1;
+      // the unfiltered option states the real size of the catalogue
+      const line = value === 'any' ? `all ${all.length.toLocaleString('en-US')} sets` : note;
+      b.innerHTML = `<span class="sel-chip-name">${escapeText(label)}</span>${
+        line ? `<span class="sel-chip-note">${escapeText(line)}</span>` : ''}`;
+      modesEl.appendChild(b);
+      return b;
+    });
+    const select = (chip, focus) => {
+      mode = chip.dataset.value;
+      chips.forEach(x => {
+        const on = x === chip;
+        x.setAttribute('aria-checked', on ? 'true' : 'false');
+        x.tabIndex = on ? 0 : -1;
+      });
+      if (focus) chip.focus();
+      rebuildPool();
+    };
+    const STEP = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
+    chips.forEach((c, i) => {
+      c.addEventListener('click', () => select(c));
+      c.addEventListener('keydown', e => {
+        if (e.key === 'Home' || e.key === 'End') {
+          e.preventDefault();
+          select(chips[e.key === 'Home' ? 0 : chips.length - 1], true);
+          return;
+        }
+        const step = STEP[e.key];
+        if (!step) return;
+        e.preventDefault();
+        select(chips[(i + step + chips.length) % chips.length], true);
+      });
+    });
+  }
 
   function makeChips(container, entries, activeSet, iconFor) {
     if (!container) return;
     container.textContent = '';
-    const chip = (label, value, pressed) => {
+    // name and count are separate so narrow screens can drop the count and fit
+    // more chips per row
+    const chip = (name, value, pressed, n) => {
       const b = document.createElement('button');
       b.type = 'button';
       b.className = 'sel-chip';
       b.dataset.value = value;
       b.setAttribute('aria-pressed', pressed ? 'true' : 'false');
       const icon = iconFor ? iconFor(value) : '';
-      if (icon) b.innerHTML = `${icon}<span>${escapeText(label)}</span>`;
-      else b.textContent = label;
+      b.innerHTML = `${icon}<span class="sel-chip-name">${escapeText(name)}</span>${
+        n == null ? '' : `<span class="sel-chip-n">(${escapeText(n)})</span>`}`;
       container.appendChild(b);
       return b;
     };
     const allChip = chip('All', '', !activeSet.size);
-    const chips = entries.map(([label, value]) => chip(label, value, activeSet.has(value)));
+    const chips = entries.map(([name, value, n]) => chip(name, value, activeSet.has(value), n));
     const sync = () => {
       allChip.setAttribute('aria-pressed', activeSet.size ? 'false' : 'true');
       chips.forEach(c => c.setAttribute('aria-pressed', activeSet.has(c.dataset.value) ? 'true' : 'false'));
@@ -193,16 +267,16 @@
       return src ? `<img class="sel-chip-logo" src="${escapeAttr(src)}" width="18" height="18" alt="" loading="lazy" decoding="async">` : '';
     };
     makeChips(sourcesEl,
-      [...srcCounts.keys()].sort((a, b) => a.localeCompare(b)).map(n => [`${n} (${srcCounts.get(n)})`, n]),
+      [...srcCounts.keys()].sort((a, b) => a.localeCompare(b)).map(n => [n, n, srcCounts.get(n)]),
       activeSources, sourceIcon);
     const ranked = [...genCounts.entries()].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]);
     if (ranked.length) {
-      const genres = ranked.slice(0, 18).map(([g, n]) => [`${g} (${n})`, g]);
+      const genres = ranked.slice(0, 18).map(([g, n]) => [g, g, n]);
       if (untaggedCount) genres.push(['untagged', UNTAGGED]);
       makeChips(genresEl, genres, activeGenres);
       if (genresWrap) genresWrap.hidden = false;
     }
-    if (popular && all.some(s => s.likes != null)) popular.disabled = false;
+    if (all.some(s => s.likes != null)) buildModeChips();
   }
 
   fetch('selector-data.json', { cache: 'no-cache' })

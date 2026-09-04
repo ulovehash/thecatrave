@@ -47,6 +47,14 @@ export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {
   return `<aside class="now-playing" aria-label="Featured DJ mix"><span><i></i> Now playing</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
 }
 
+export function homeSelectorPromo({sets = 0, channels = 0, logos = []} = {}) {
+  const count = sets ? `${sets.toLocaleString('en-US')} sets` : 'thousands of sets';
+  const wall = logos.length
+    ? `<div class="selector-promo-wall" aria-hidden="true">${logos.map(src => `<img src="${escapeHtml(src)}" width="28" height="28" alt="" loading="lazy" decoding="async">`).join('')}</div>`
+    : '';
+  return `<aside class="selector-promo" aria-labelledby="selector-promo-title"><div class="selector-promo-copy"><p class="label">Tool</p><h2 id="selector-promo-title">Can't decide what to put on?</h2><p>The Selector plays one full DJ set at random from ${escapeHtml(count)} across ${channels} channels: Boiler Room, HÖR, NTS, Beatport, The Lot Radio and more. Narrow it by source or genre, or dig for hidden gems.</p><a class="button primary" href="/selector">Open The Selector →</a></div>${wall}</aside>`;
+}
+
 export function homeArticlesSection({items = []} = {}) {
   if (!items.length) throw new Error('homeArticlesSection requires at least one article.');
   const cards = items.map((item, index) => {
