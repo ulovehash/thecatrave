@@ -3,7 +3,7 @@ import { articlePage, articleSection, articleFaq, faqStructuredData, breadcrumbS
 import { channels } from './selector-channels.mjs';
 
 const canonical = 'https://thecatrave.com/selector';
-const title = 'Random DJ Set Picker: Boiler Room, HÖR, NTS, Beatport';
+const title = 'Find a DJ Set to Watch: Boiler Room, NTS, Cercle and More';
 const date = '2026-09-04';
 
 const escapeHtml = value => String(value)
@@ -44,9 +44,9 @@ const description = sets.length
 const toolHtml = `
 <section class="sel-panel" id="selector" aria-label="The Selector">
   <header class="sel-panel-head">
-    <p class="article-kicker">Tool</p>
-    <h1>The Selector</h1>
-    <p class="sel-deck">A random DJ set picker. Press the button for one full set at random from ${escapeHtml(countLine)}. Pick a mode for the most-watched sets, the underrated ones or the ones nobody has found yet, then filter to the source or genre you want.</p>
+    <p class="article-kicker">The Selector</p>
+    <h1>Press the button. Get a set.</h1>
+    <p class="sel-deck">One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and sixteen more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
   </header>
   <div class="sel-action">
     <p class="sel-count" id="sel-count">${escapeHtml(setCount)} sets</p>
@@ -80,7 +80,9 @@ const toolHtml = `
 // "random DJ set", "random Boiler Room set", "best HÖR sets", "what set should
 // I listen to". Keep the channel names as plain text so they read as entities.
 const aboutHtml = `
-<p>The Selector is for when you want a DJ set but don't want to choose one. Press the button and it plays a full set picked at random from a catalogue of ${escapeHtml(countLine)}. Press it again for another. Nothing is saved and nothing is personalised.</p>
+<p>Finding a good DJ set has never been the difficulty. Nineteen channels put up more of them than anyone could get through, and that is the problem: with ${escapeHtml(setCount)} in front of you, picking one becomes its own small chore, and you end up watching nothing.</p>
+<p>The Selector is for exactly that. Press the button and it plays a full set at random from ${escapeHtml(countLine)}. Press it again for another. Nothing is saved and nothing is personalised.</p>
+<p>A DJ set is one continuous mix played by one DJ, usually an hour or more, recorded live in a club, a radio studio or a festival tent. It is not a playlist: the order, the blends and the pacing are the performance.</p>
 <p>Three filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
 <ul>
   <li><strong>Anything</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
@@ -132,7 +134,7 @@ const faqItems = [
 
 const articleHtml = [
   toolHtml,
-  articleSection({ id: 'about', title: 'What this is.', bodyHtml: aboutHtml }),
+  articleSection({ id: 'about', title: 'Choosing is the hard part.', bodyHtml: aboutHtml }),
   articleFaq({ id: 'faq', title: 'Questions about picking a set.', items: faqItems }),
   `<script type="application/json" id="sel-source-logos">${JSON.stringify(sourceLogos).replace(/</g, '\\u003c')}</script>`,
   `<script src="selector-runtime.js" defer></script>`
