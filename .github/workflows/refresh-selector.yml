@@ -1,8 +1,9 @@
 name: refresh selector catalogue
 
+# Manual only. There was a weekly cron here; it was never asked for, and an
+# unattended job that commits and pushes to a branch Pages publishes from is
+# not something to run on a timer.
 on:
-  schedule:
-    - cron: '17 6 * * 1'   # Mondays 06:17 UTC
   workflow_dispatch:
 
 permissions:

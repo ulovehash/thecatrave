@@ -28,8 +28,32 @@ const countLine = sets.length
   ? `${sets.length.toLocaleString('en-US')} sets from ${broadcasters.length} channels`
   : `${broadcasters.length} channels`;
 const setCount = sets.length ? sets.length.toLocaleString('en-US') : 'thousands of';
+
+// The browser gets a compact copy, not the working file. Broadcaster and genre
+// names are interned into two lookup tables and each set becomes a tuple, which
+// roughly halves what the phone has to download and parse. selector-data.json
+// stays exactly as it is, because thirteen build and enrichment scripts read
+// it and none of them should have to learn a second format.
+if (sets.length) {
+  const bIndex = new Map(), gIndex = new Map();
+  const intern = (map, value) => {
+    if (!map.has(value)) map.set(value, map.size);
+    return map.get(value);
+  };
+  const rows = sets.map(s => {
+    const row = [s.id, s.artist || '', intern(bIndex, s.broadcaster), s.year || 0,
+                 s.seconds || 0, s.views || 0, s.likes == null ? -1 : s.likes];
+    if (s.genres && s.genres.length) row.push(s.genres.map(g => intern(gIndex, g)));
+    return row;
+  });
+  fs.writeFileSync('selector-data.min.json', JSON.stringify({
+    b: [...bIndex.keys()], g: [...gIndex.keys()], s: rows
+  }) + '\n');
+}
 const channelList = broadcasters.join(', ');
 const slug = s => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+let sourceColors = {};
+try { sourceColors = JSON.parse(fs.readFileSync('selector-channel-colors.json', 'utf8')); } catch {}
 const sourceLogos = {};
 for (const b of broadcasters) {
   const p = `img/selector/${slug(b)}.png`;
@@ -93,7 +117,7 @@ const aboutHtml = `
 <p>A DJ set is one continuous mix played by one DJ, usually an hour or more, recorded live in a club, a radio studio or a festival tent. It is not a playlist: the order, the blends and the pacing are the performance.</p>
 <p>Three filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
 <ul>
-  <li><strong>Anything</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
+  <li><strong>All</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
   <li><strong>Popular</strong> sticks to sets that already found a big audience. This is the one for a best-of: a popular ${escapeHtml(broadcasters[0])} set, a popular techno set, something you can put on knowing a lot of people rated it.</li>
   <li><strong>Hidden gems</strong> looks at how loved a set is next to how many people actually saw it. You get the ones a small crowd rated highly rather than the ones that simply got pushed.</li>
   <li><strong>Niche sets</strong> is the opposite end of Popular: the quiet part of the catalogue, where most artists have almost no audience yet. Worth it if you like getting there first.</li>
@@ -120,8 +144,8 @@ const faqItems = [
   },
   {
     question: 'What is the difference between Popular, Hidden gems and Niche sets?',
-    answer: `It comes down to how much of an audience a set already has. Popular gives you the well-watched end of whatever you have filtered to, Niche sets the quiet end. Hidden gems sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. Anything drops the weighting and shuffles the full catalogue.`,
-    answerHtml: `<p>It comes down to how much of an audience a set already has. <strong>Popular</strong> gives you the well-watched end of whatever you have filtered to, <strong>Niche sets</strong> the quiet end. <strong>Hidden gems</strong> sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. <strong>Anything</strong> drops the weighting and shuffles the full catalogue.</p>`
+    answer: `It comes down to how much of an audience a set already has. Popular gives you the well-watched end of whatever you have filtered to, Niche sets the quiet end. Hidden gems sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. All drops the weighting and shuffles the full catalogue.`,
+    answerHtml: `<p>It comes down to how much of an audience a set already has. <strong>Popular</strong> gives you the well-watched end of whatever you have filtered to, <strong>Niche sets</strong> the quiet end. <strong>Hidden gems</strong> sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. <strong>All</strong> drops the weighting and shuffles the full catalogue.</p>`
   },
   {
     question: 'Which channels does it pull from?',
@@ -145,6 +169,7 @@ const articleHtml = [
   articleSection({ id: 'about', title: 'Choosing is the hard part.', bodyHtml: aboutHtml }),
   articleFaq({ id: 'faq', title: 'Questions about picking a set.', items: faqItems }),
   `<script type="application/json" id="sel-source-logos">${JSON.stringify(sourceLogos).replace(/</g, '\\u003c')}</script>`,
+  `<script type="application/json" id="sel-source-colors">${JSON.stringify(sourceColors).replace(/</g, '\\u003c')}</script>`,
   `<script src="selector-runtime.js" defer></script>`
 ].join('\n');
 

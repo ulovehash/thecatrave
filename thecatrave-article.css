@@ -922,28 +922,15 @@
 }
 /* Source: outlined on paper, fills to solid ink. Cool. */
 .selector-page .sel-sources .sel-chip { --chip-hover: var(--cyan); }
-/* ...except a handful of channels with a real brand colour: the chip fills with
-   it on hover and when selected. Every pair is checked against WCAG AA. */
-.selector-page .sel-sources .sel-chip[data-value="Boiler Room"] { --chip-on-bg: #d6231f; --chip-on-fg: #fff; }
-.selector-page .sel-sources .sel-chip[data-value="Beatport"]    { --chip-on-bg: #01ff95; --chip-on-fg: var(--ink); }
-.selector-page .sel-sources .sel-chip[data-value="Mixmag"]      { --chip-on-bg: #f5e003; --chip-on-fg: var(--ink); }
-.selector-page .sel-sources .sel-chip[data-value="Cercle"]      { --chip-on-bg: #2f3de0; --chip-on-fg: #fff; }
-.selector-page .sel-sources .sel-chip[data-value="Keep Hush"]   { --chip-on-bg: #0f0f0f; --chip-on-fg: #b4ff3a; }
-.selector-page .sel-sources .sel-chip[data-value="HÖR"]         { --chip-on-bg: #a9d400; --chip-on-fg: var(--ink); }
-.selector-page .sel-sources .sel-chip[data-value="Rinse FM"]    { --chip-on-bg: #2c92ff; --chip-on-fg: var(--ink); }
-.selector-page .sel-sources .sel-chip[data-value="Seoul Community Radio"] { --chip-on-bg: #fa6b38; --chip-on-fg: var(--ink); }
-.selector-page .sel-sources .sel-chip[data-value="STVOL TV"]    { --chip-on-bg: #0e720d; --chip-on-fg: #fff; }
-.selector-page .sel-sources .sel-chip[data-value="Boiler Room"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Beatport"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Mixmag"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Cercle"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Keep Hush"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="HÖR"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Rinse FM"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="Seoul Community Radio"]:hover,
-.selector-page .sel-sources .sel-chip[data-value="STVOL TV"]:hover {
-  background: var(--chip-on-bg);
-  color: var(--chip-on-fg);
+/* Every source chip carries its own channel colour, set inline by the runtime
+   from selector-channel-colors.json. Nine of those are the brands' real
+   colours, the rest come from the logo or, for the black-and-white wordmarks,
+   from an evenly spread palette. The generator forces each pair to WCAG AA, so
+   there is no per-channel rule to keep in step here any more. */
+.selector-page .sel-sources .sel-chip:hover {
+  background: var(--chip-hover);
+  color: var(--chip-hover-fg, inherit);
+  border-color: var(--chip-hover);
 }
 .selector-page .sel-sources .sel-chip:hover .sel-chip-logo { filter: none; }
 /* Genre: sits on a warm tint, fills to acid. Warm. */

@@ -19,9 +19,14 @@ import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
 import { parseArtist, genreFromTitle, NOT_A_SET } from './parse-artist.mjs';
 
+// SKIP_FETCH rebuilds selector-data.json from the existing cache without
+// touching the API. Use it after changing a filter, so a threshold can be
+// tried out without spending quota or waiting on a full crawl.
+const SKIP_FETCH = process.env.SKIP_FETCH === '1';
 const KEY = process.env.YOUTUBE_API_KEY;
-if (!KEY) {
+if (!KEY && !SKIP_FETCH) {
   console.error('Missing YOUTUBE_API_KEY. Run:  export YOUTUBE_API_KEY=your-key && node scripts/fetch-sets.mjs');
+  console.error('Or rebuild from the cache alone:  SKIP_FETCH=1 node scripts/fetch-sets.mjs');
   process.exit(1);
 }
 
@@ -29,7 +34,10 @@ const API = 'https://www.googleapis.com/youtube/v3';
 const CACHE_FILE = 'selector-videos-cache.json';
 
 const MIN_SECONDS = 20 * 60;
-const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
+// No floor. The whole point of the tool is the sets nobody has found, and a
+// 500-view minimum was cutting 17,385 of them out of the catalogue before
+// "hidden gems" and "niche sets" ever saw them.
+const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 0;
 const PER_CHANNEL = Number(process.env.PER_CHANNEL) || Infinity;   // optional per-channel limiter
 const MAX_SETS = Number(process.env.MAX_SETS) || Infinity;        // optional overall limiter
 const SCAN_CAP = Number(process.env.SCAN_CAP) || 15000;
@@ -112,9 +120,9 @@ const scanList = ONLY.length
   ? channels.filter(c => ONLY.includes(c.broadcaster.toLowerCase()) || ONLY.includes((c.handle || '').toLowerCase()))
   : channels;
 
-console.log(`Cache has ${Object.keys(cache).length} videos. Scanning ${scanList.length} channel(s)${ONLY.length ? ` (ONLY: ${scanList.map(c => c.broadcaster).join(', ')})` : ''}…\n`);
+console.log(`Cache has ${Object.keys(cache).length} videos. ${SKIP_FETCH ? 'Rebuilding from cache only, no API calls' : `Scanning ${scanList.length} channel(s)`}${ONLY.length ? ` (ONLY: ${scanList.map(c => c.broadcaster).join(', ')})` : ''}…\n`);
 
-for (const ch of scanList) {
+for (const ch of SKIP_FETCH ? [] : scanList) {
   process.stdout.write(`  … ${ch.broadcaster}`);
   try {
     const playlist = await uploadsPlaylist(ch);

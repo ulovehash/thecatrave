@@ -1,0 +1,187 @@
+{
+ "Bangkok Community Radio": {
+  "bg": "#a63030",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Beatport": {
+  "bg": "#01ff95",
+  "fg": "var(--ink)",
+  "src": "brand"
+ },
+ "Boiler Room": {
+  "bg": "#d6231f",
+  "fg": "#fff",
+  "src": "brand"
+ },
+ "Boxout.fm": {
+  "bg": "#5484cc",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Bresh": {
+  "bg": "#cc9cb4",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Cercle": {
+  "bg": "#2f3de0",
+  "fg": "#fff",
+  "src": "brand"
+ },
+ "Club Space": {
+  "bg": "#a65430",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Dekmantel": {
+  "bg": "#a67730",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "DnB Allstars": {
+  "bg": "#a69a30",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Elevator Music": {
+  "bg": "#8ea630",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Groove Cartel": {
+  "bg": "#e45454",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Hong Kong Community Radio": {
+  "bg": "#ccfc0c",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Hospital Records": {
+  "bg": "#6ba630",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "HÖR": {
+  "bg": "#a9d400",
+  "fg": "var(--ink)",
+  "src": "brand"
+ },
+ "Intercell": {
+  "bg": "#48a630",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Keep Hush": {
+  "bg": "#0f0f0f",
+  "fg": "#fff",
+  "src": "brand"
+ },
+ "Kiosk Radio": {
+  "bg": "#ccb484",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Kunye": {
+  "bg": "#30a63c",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "L'Atelier de Musique": {
+  "bg": "#e46c24",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Manila Community Radio": {
+  "bg": "#30a65f",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "MixMix TV": {
+  "bg": "#e4b4b4",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
+ "Mixmag": {
+  "bg": "#f5e003",
+  "fg": "var(--ink)",
+  "src": "brand"
+ },
+ "My Analog Journal": {
+  "bg": "#30a683",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "NTS Radio": {
+  "bg": "#30a6a6",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Outlook Festival": {
+  "bg": "#3083a6",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Radio Rudina": {
+  "bg": "#305fa6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Rampage": {
+  "bg": "#0c543c",
+  "fg": "#fff",
+  "src": "logo"
+ },
+ "Rinse FM": {
+  "bg": "#2c92ff",
+  "fg": "var(--ink)",
+  "src": "brand"
+ },
+ "Rinse France": {
+  "bg": "#303ca6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "STVOL TV": {
+  "bg": "#0e720d",
+  "fg": "#fff",
+  "src": "brand"
+ },
+ "Seoul Community Radio": {
+  "bg": "#fa6b38",
+  "fg": "var(--ink)",
+  "src": "brand"
+ },
+ "Stay True Sounds": {
+  "bg": "#4830a6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "The Concourse Project": {
+  "bg": "#6b30a6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "The Lot Radio": {
+  "bg": "#8e30a6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "The Mudd Show": {
+  "bg": "#a6309a",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Under Club": {
+  "bg": "#a63077",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Yoyaku": {
+  "bg": "#a63054",
+  "fg": "#fff",
+  "src": "derived"
+ }
+}
