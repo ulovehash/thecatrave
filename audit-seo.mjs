@@ -91,6 +91,10 @@ for (const {file, path, kind} of pages) {
   try { real = imageSizeForUrl(ogImage); } catch {}
   check(file, 'og:image file is readable', Boolean(real), ogImage);
   if (real) {
+    // 1200x630 is what Telegram, Twitter, Slack and Facebook all lay out for.
+    // Anything else gets cropped by the feed, and a square card loses its subject.
+    check(file, 'og:image is 1200x630',
+      real.width === 1200 && real.height === 630, `${real.width}x${real.height}`);
     check(file, 'og:image:width matches the file',
       meta(html, 'og:image:width', 'property') === String(real.width),
       `declared ${meta(html, 'og:image:width', 'property')}, file ${real.width}`);

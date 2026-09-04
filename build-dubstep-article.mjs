@@ -346,7 +346,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
-  ogImage: 'https://thecatrave.com/img/dubstep/dubplate-lathe.webp',
+  ogImage: 'https://thecatrave.com/img/og/dubstep.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page dubstep-page',
   structuredData, articleHtml

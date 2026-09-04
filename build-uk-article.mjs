@@ -121,7 +121,7 @@ const ukFaqStructured = faqStructuredData({items:faqItems});
 const ukBreadcrumbs = breadcrumbStructuredData({name:'UK electronic music history',canonical:'https://thecatrave.com/uk-electronic-music-evolution'});
 const page = articlePage({
   title:'UK Electronic Music Evolution: Genres, Scenes and History', description,
-  canonical:'https://thecatrave.com/uk-electronic-music-evolution', ogImage:'https://thecatrave.com/img/people%20dancing-1200.webp',
+  canonical:'https://thecatrave.com/uk-electronic-music-evolution', ogImage:'https://thecatrave.com/img/og/uk.jpg',
   datePublished:'2025-04-04', dateModified:'2026-08-29', structuredData:[ukStructured,ukFaqStructured,ukBreadcrumbs],
   articleHtml:`${articleHero({kicker:'UK electronic music history',title:'The Evolution of UK Electronic Music',deck:'From acid house and bleep to jungle, UK garage, grime, dubstep and the scenes reshaping British club music now.',readingTime:`~${readingMinutes} min read`,dateModified:'2026-08-29',dateLabel:'29 August 2026',tocItems:[
     {id:'why-the-uk',label:'Why the UK produced so many scenes'},{id:'genre-map',label:'Genre and date map'},

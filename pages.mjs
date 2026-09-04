@@ -11,14 +11,14 @@
 // the tool and the home page carry their own.
 
 export const pages = [
-  { name: 'home',          file: 'index.html',                         path: '/',                             kind: 'home',  generator: 'build-home.mjs' },
-  { name: 'breakbeat',     file: 'breakbeat-guide.html',               path: '/breakbeat-guide',              kind: 'guide', generator: 'build-breakbeat-article.mjs' },
-  { name: 'jungle',        file: 'jungle-music-guide.html',            path: '/jungle-music-guide',           kind: 'guide', generator: 'build-jungle-article.mjs' },
-  { name: 'uk',            file: 'uk-electronic-music-evolution.html', path: '/uk-electronic-music-evolution', kind: 'guide', generator: 'build-uk-article.mjs' },
-  { name: 'bass-music',    file: 'bass-music-guide.html',              path: '/bass-music-guide',             kind: 'guide', generator: 'build-bass-music-article.mjs' },
-  { name: 'dubstep',       file: 'dubstep-guide.html',                 path: '/dubstep-guide',                kind: 'guide', generator: 'build-dubstep-article.mjs' },
-  { name: 'drum-and-bass', file: 'drum-and-bass-guide.html',           path: '/drum-and-bass-guide',          kind: 'guide', generator: 'build-dnb-article.mjs' },
-  { name: 'selector',      file: 'selector.html',                      path: '/selector',                     kind: 'tool',  generator: 'build-selector.mjs' }
+  { name: 'home',          file: 'index.html',                         path: '/',                             kind: 'home',  generator: 'build-home.mjs', card: { title: 'thecatrave', caption: "Breakbeat, bass and rave. DJ, producer, selector." } },
+  { name: 'breakbeat',     file: 'breakbeat-guide.html',               path: '/breakbeat-guide',              kind: 'guide', generator: 'build-breakbeat-article.mjs', card: { title: 'Breakbeat', caption: "Funk breaks, pirate radio and the sound that never left." } },
+  { name: 'jungle',        file: 'jungle-music-guide.html',            path: '/jungle-music-guide',           kind: 'guide', generator: 'build-jungle-article.mjs', card: { title: 'Jungle', caption: "Dubplates, MC energy and a Black British sound that came back." } },
+  { name: 'uk',            file: 'uk-electronic-music-evolution.html', path: '/uk-electronic-music-evolution', kind: 'guide', generator: 'build-uk-article.mjs', card: { title: 'UK electronic', caption: "Ten sounds that went from regional scenes to global culture." } },
+  { name: 'bass-music',    file: 'bass-music-guide.html',              path: '/bass-music-guide',             kind: 'guide', generator: 'build-bass-music-article.mjs', card: { title: 'Bass music', caption: "Jamaica, Miami, Britain, Durban. One idea, many accents." } },
+  { name: 'dubstep',       file: 'dubstep-guide.html',                 path: '/dubstep-guide',                kind: 'guide', generator: 'build-dubstep-article.mjs', card: { title: 'Dubstep', caption: "South London basements to one word meaning two genres." } },
+  { name: 'drum-and-bass', file: 'drum-and-bass-guide.html',           path: '/drum-and-bass-guide',          kind: 'guide', generator: 'build-dnb-article.mjs', card: { title: 'Drum and bass', caption: "174 BPM, chopped breaks and sub-bass, from Metalheadz on." } },
+  { name: 'selector',      file: 'selector.html',                      path: '/selector',                     kind: 'tool',  generator: 'build-selector.mjs', card: { title: 'The Selector', caption: "Press the button, pick a random DJ set." } }
 ];
 
 export const guides = pages.filter(page => page.kind === 'guide');

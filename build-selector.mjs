@@ -162,7 +162,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
-  ogImage: 'https://thecatrave.com/img/selector/selector-og.png',
+  ogImage: 'https://thecatrave.com/img/og/selector.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page selector-page',
   structuredData, articleHtml

@@ -320,7 +320,7 @@ const breakbeatArticleHtml = preservedPage.match(/<main id="main-content"><artic
 if (!breakbeatArticleHtml) throw new Error('Could not extract the generated breakbeat article body.');
 fs.writeFileSync('breakbeat-guide.html', articlePage({
   title, description, canonical:'https://thecatrave.com/breakbeat-guide',
-  ogImage:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png', bodyClass:'article-page breakbeat-page',
+  ogImage:'https://thecatrave.com/img/og/breakbeat.jpg', bodyClass:'article-page breakbeat-page',
   datePublished:'2025-04-06', dateModified:'2026-08-30',
   structuredData:[structured, faqStructured, breadcrumbStructured], articleHtml:breakbeatArticleHtml
 }));

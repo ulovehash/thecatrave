@@ -280,7 +280,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
-  ogImage: 'https://thecatrave.com/img/dnb/dnb-cover.webp',
+  ogImage: 'https://thecatrave.com/img/og/drum-and-bass.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page dnb-page',
   structuredData, articleHtml

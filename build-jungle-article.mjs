@@ -571,7 +571,7 @@ const jungleArticleHtml = page.match(/<main id="main-content"><article>([\s\S]*?
 if (!jungleArticleHtml) throw new Error('Could not extract the generated jungle article body.');
 fs.writeFileSync(path, articlePage({
   title, description, canonical:'https://thecatrave.com/jungle-music-guide',
-  ogImage:'https://thecatrave.com/img/UK%20Rave%20flyers%20from%201991-1994.webp', bodyClass:'article-page jungle-page',
+  ogImage:'https://thecatrave.com/img/og/jungle.jpg', bodyClass:'article-page jungle-page',
   datePublished:'2025-04-05', dateModified:'2026-08-31',
   structuredData:[structured, breadcrumbs, faqStructured], articleHtml:jungleArticleHtml
 }));
