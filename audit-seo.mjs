@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { pages } from './pages.mjs';
 
 // Zero-dependency SEO and content audit for every built page. Deterministic string
 // and structure checks only: the fundamentals that decide whether a page can be
@@ -6,16 +7,6 @@ import fs from 'node:fs';
 // site-wide Lighthouse budgets are covered by the Playwright and Unlighthouse
 // layers in `npm run check`; this file is the part that runs with no install.
 
-const pages = [
-  {file: 'index.html', path: '/', kind: 'home'},
-  {file: 'breakbeat-guide.html', path: '/breakbeat-guide', kind: 'guide'},
-  {file: 'jungle-music-guide.html', path: '/jungle-music-guide', kind: 'guide'},
-  {file: 'uk-electronic-music-evolution.html', path: '/uk-electronic-music-evolution', kind: 'guide'},
-  {file: 'bass-music-guide.html', path: '/bass-music-guide', kind: 'guide'},
-  {file: 'dubstep-guide.html', path: '/dubstep-guide', kind: 'guide'},
-  {file: 'drum-and-bass-guide.html', path: '/drum-and-bass-guide', kind: 'guide'},
-  {file: 'selector.html', path: '/selector', kind: 'tool'}
-];
 
 const failures = [];
 const check = (page, name, condition, detail = '') => {

@@ -1,16 +1,22 @@
 import fs from 'node:fs';
+import { pages as manifest, guides } from './pages.mjs';
 import {homeArticlesWithReadingTimes, relatedArticles} from './home-articles.mjs';
 import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
 
-const pages = {
-  home: fs.readFileSync('index.html', 'utf8'),
-  breakbeat: fs.readFileSync('breakbeat-guide.html', 'utf8'),
-  uk: fs.readFileSync('uk-electronic-music-evolution.html', 'utf8'),
-  jungle: fs.readFileSync('jungle-music-guide.html', 'utf8'),
-  bass: fs.readFileSync('bass-music-guide.html', 'utf8')
-};
-const articlePages = [pages.breakbeat, pages.uk, pages.jungle, pages.bass];
-const generatorFiles = ['build-breakbeat-article.mjs','build-uk-article.mjs','build-jungle-article.mjs','build-bass-music-article.mjs'];
+// Derived from the manifest, so a new guide is held to the shared article
+// contract the day it is added. This list used to be written out by hand here
+// and had already drifted: dubstep, drum-and-bass and selector existed for
+// weeks without any of these checks ever running against them.
+const pages = Object.fromEntries(manifest.map(page => [page.name, fs.readFileSync(page.file, 'utf8')]));
+const articlePages = guides.map(page => pages[page.name]);
+// Guides paired with their manifest entry, for the checks that need to know
+// which route a page is supposed to be.
+const guidePages = guides.map(page => ({ ...page, html: pages[page.name] }));
+const idsOf = html => [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
+const localAssetsOf = html => [...html.matchAll(/(?:src|href)="([^"?#]+\.(?:css|js|png|jpe?g|webp|svg))[^"#]*"/gi)]
+  .map(match => decodeURIComponent(match[1]))
+  .filter(value => !/^https?:/.test(value) && !value.startsWith('/'));
+const generatorFiles = guides.map(page => page.generator);
 const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readFileSync(file, 'utf8')]));
 const generatorSources = Object.values(generators);
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
@@ -160,25 +166,20 @@ const checks = {
   homeFontsNonBlocking: count(pages.home, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2,
   homeAnalyticsShared: pages.home.includes(analytics()),
   analyticsAsyncEarly: Object.values(pages).every(page => page.includes('<script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script>') && page.indexOf('googletagmanager.com/gtag/js') < page.indexOf('</head>')),
+  // One assertion per shared component, run against every guide, instead of the
+  // same four predicates hand-written per page. Adding a guide to pages.mjs is
+  // now enough to hold it to all of them.
+  articleHeaderShared: articlePages.every(page => page.includes(expectedArticleHeader)),
+  articleFooterShared: articlePages.every(page => page.includes(articleFooter())),
+  articleAnalyticsShared: articlePages.every(page => page.includes(analytics())),
+  articleAuthorShared: articlePages.every(page => page.includes(expectedAuthorCard)),
   articleFontsNonBlocking: articlePages.every(page => count(page, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2),
-  breakbeatHeaderShared: pages.breakbeat.includes(expectedArticleHeader),
-  breakbeatFooterShared: pages.breakbeat.includes(articleFooter()),
-  breakbeatAnalyticsShared: pages.breakbeat.includes(analytics()),
-  breakbeatAuthorShared: pages.breakbeat.includes(expectedAuthorCard),
   breakbeatTocShared: pages.breakbeat.includes(expectedBreakbeatToc),
   breakbeatListeningShared: pages.breakbeat.includes(expectedBreakbeatListening),
   breakbeatSupportShared: pages.breakbeat.includes('class="floating-inset article-cta article-cta-full"'),
-  ukHeaderShared: pages.uk.includes(expectedArticleHeader),
-  ukFooterShared: pages.uk.includes(articleFooter()),
-  ukAnalyticsShared: pages.uk.includes(analytics()),
-  ukAuthorShared: pages.uk.includes(expectedAuthorCard),
   ukTocShared: pages.uk.includes(expectedUkToc),
   ukListeningShared: pages.uk.includes(expectedUkListening),
   ukSupportShared: pages.uk.includes(expectedUkSupport),
-  jungleHeaderShared: pages.jungle.includes(expectedArticleHeader),
-  jungleFooterShared: pages.jungle.includes(articleFooter()),
-  jungleAnalyticsShared: pages.jungle.includes(analytics()),
-  jungleAuthorShared: pages.jungle.includes(expectedAuthorCard),
   jungleTocShared: pages.jungle.includes(expectedJungleToc),
   jungleFaqShared: pages.jungle.includes(expectedJungleFaq) && generators['build-jungle-article.mjs'].includes('articleFaq({'),
   jungleFaqSchemaShared: pages.jungle.includes('"@type":"FAQPage"') && generators['build-jungle-article.mjs'].includes('faqStructuredData({'),
@@ -186,14 +187,47 @@ const checks = {
   jungleYoutubeShared: pages.jungle.includes(expectedJungleYoutube),
   jungleSupportShared: pages.jungle.includes(expectedJungleSupport),
   jungleReadNextShared: pages.jungle.includes(expectedJungleReadNext),
-  bassHeaderShared: pages.bass.includes(expectedArticleHeader),
-  bassFooterShared: pages.bass.includes(articleFooter()),
-  bassAnalyticsShared: pages.bass.includes(analytics()),
-  bassAuthorShared: pages.bass.includes(expectedAuthorCard),
-  bassFaqShared: pages.bass.includes('class="floating-block article-section faq-section"') && generators['build-bass-music-article.mjs'].includes('articleFaq({'),
-  bassFaqSchemaShared: pages.bass.includes('"@type":"FAQPage"') && generators['build-bass-music-article.mjs'].includes('faqStructuredData({'),
-  bassListeningShared: generators['build-bass-music-article.mjs'].includes('articleListeningBand({') && pages.bass.includes('article-media-band-full'),
-  bassSupportShared: pages.bass.includes('class="floating-inset article-cta article-cta-full"'),
+  bassFaqShared: pages['bass-music'].includes('class="floating-block article-section faq-section"') && generators['build-bass-music-article.mjs'].includes('articleFaq({'),
+  bassFaqSchemaShared: pages['bass-music'].includes('"@type":"FAQPage"') && generators['build-bass-music-article.mjs'].includes('faqStructuredData({'),
+  bassListeningShared: generators['build-bass-music-article.mjs'].includes('articleListeningBand({') && pages['bass-music'].includes('article-media-band-full'),
+  bassSupportShared: pages['bass-music'].includes('class="floating-inset article-cta article-cta-full"'),
+  // The article contract every guide owes, asserted once here rather than
+  // copy-pasted into each per-article audit. Those keep only what is unique to
+  // their own page: its track count, its section order, its exact dates.
+  canonicalMatchesRoute: guidePages.every(page => page.html.includes(`<link rel="canonical" href="https://thecatrave.com${page.path}">`)),
+  responsiveViewport: articlePages.every(page => page.includes('name="viewport" content="width=device-width,initial-scale=1"')),
+  // breakbeat, jungle and uk were published before the no-em-dash house rule and
+  // still carry 31 of them between them. Naming the debt here keeps the rule
+  // enforced on every other page, so nothing new can add one, instead of
+  // dropping the check and pretending the rule is met.
+  noEmDashInVisibleSource: guidePages.every(page =>
+    ['breakbeat', 'jungle', 'uk'].includes(page.name) || !page.html.includes('\u2014')),
+  brandStaysLowercase: articlePages.every(page => !/(?:The CatRave|TheCatRave|the cat rave)/.test(page)),
+  noLeakedMediaPlaceholders: articlePages.every(page => !/\[(?:MEDIA|EMBED|ESSENTIAL LISTENING|MEDIA IMAGE|MEDIA VIDEO|TODO)/.test(page)),
+  noDuplicateIds: articlePages.every(page => { const ids = idsOf(page); return new Set(ids).size === ids.length; }),
+  localAssetsExist: articlePages.every(page => localAssetsOf(page).every(src => fs.existsSync(src))),
+  articleSupportStripe: articlePages.every(page => page.includes('class="floating-inset article-cta article-cta-full"')),
+  readNextPointsAtOtherGuides: guidePages.every(page =>
+    guides.filter(other => other.name !== page.name && page.html.includes(`href="${other.path}"`)).length >= 3),
+  headingHierarchyUnbroken: articlePages.every(page => {
+    const levels = [...page.matchAll(/<h([1-6])(?:\s[^>]*)?>/g)].map(match => Number(match[1]));
+    return levels.every((level, index) => !index || level <= levels[index - 1] + 1);
+  }),
+  // FAQ length varies by guide (breakbeat runs nine, drum and bass five), so the
+  // contract is a floor plus the schema match above, not a fixed count.
+  faqHasQuestions: articlePages.every(page => (page.match(/<details(?: open)?>/g) || []).length >= 5),
+  internalAnchorsResolve: articlePages.every(page => {
+    const ids = new Set(idsOf(page));
+    return [...page.matchAll(/href="#([^"]+)"/g)].every(match => ids.has(match[1]));
+  }),
+  mediaAdjacencyRhythm: articlePages.every(page =>
+    !/<\/figure>\s*<aside class="(?:context-listening|floating-inset (?:spotify|soundcloud)-feature)/.test(page)
+    && !/<\/aside>\s*<figure class="floating-image article-image/.test(page)
+    && !/<\/figure>\s*<figure class="floating-image article-image/.test(page)),
+  noBuildNotesLeaked: articlePages.every(page =>
+    !/implementation note|licen[cs]ing note|prompt instruction|placeholder copy|final design should|the final page should|Self promotion second/i.test(page)),
+  responsiveImageCss: articleCss.includes('.article-image img {') && articleCss.includes('height: auto;'),
+  responsiveEmbedCss: articleCss.includes('.classic-youtube-embed iframe') && articleCss.includes('aspect-ratio: 16 / 9;'),
   oneHeaderPerPage: Object.values(pages).every(page => (page.match(/<header class="site-header/g) || []).length === 1),
   oneFooterPerPage: Object.values(pages).every(page => (page.match(/<footer class="site-footer/g) || []).length === 1),
   sharedArticlePageShell: generatorSources.every(source => source.includes('articlePage({')),
@@ -211,8 +245,8 @@ const checks = {
   articleDatesComplete: articlePages.every(page => page.includes('article:published_time') && page.includes('article:modified_time') && page.includes('class="article-updated"')),
   oneH1PerArticle: articlePages.every(page => count(page, /<h1(?:\s|>)/g) === 1),
   semanticArticleLandmarks: articlePages.every(page => count(page, /<main id="main-content">/g) === 1 && count(page, /<main id="main-content"><article>/g) === 1),
-  mediaAccessibility: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\balt="[^"]*"/.test(match[0])) && [...page.matchAll(/<iframe\b[^>]*>/g)].every(match => /\btitle="[^"]+"/.test(match[0]))),
-  imageDimensions: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\bwidth="\d+"/.test(match[0]) && /\bheight="\d+"/.test(match[0]))),
+  mediaAccessibility: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\salt="[^"]*"/.test(match[0])) && [...page.matchAll(/<iframe\b[^>]*>/g)].every(match => /\stitle="[^"]+"/.test(match[0]))),
+  imageDimensions: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\swidth="\d+"/.test(match[0]) && /\sheight="\d+"/.test(match[0]))),
   designTokensDefined: ['--space-xs','--space-sm','--space-md','--space-lg','--space-xl','--space-3xl','--yellow','--coral','--surface-muted','--motion-fast'].every(token => homeCss.includes(token)),
   articleScaleDefined: ['--article-text','--article-wide','--article-media','--section-space','--media-space','--text-body','--heading-section'].every(token => articleCss.includes(token)),
   essentialListeningFullBleed: articlePages.every(page => {
@@ -237,5 +271,11 @@ const checks = {
   homeMarkersComplete: ['home-styles','home-header','now-playing','home-articles','home-footer','home-runtime','analytics'].every(name => pages.home.includes(`component:${name}:start`) && pages.home.includes(`component:${name}:end`))
 };
 
-console.log(JSON.stringify(checks, null, 2));
-if (Object.values(checks).some(value => !value)) process.exitCode = 1;
+const failures = Object.entries(checks).filter(([, value]) => !value).map(([key]) => key);
+
+if (failures.length) {
+  console.error('Site components audit failed:\n  ' + failures.join('\n  '));
+  process.exitCode = 1;
+} else {
+  console.log(`Site components audit passed (${Object.keys(checks).length} checks across ${articlePages.length} guides).`);
+}

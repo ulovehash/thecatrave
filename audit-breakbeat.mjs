@@ -4,23 +4,13 @@ import path from 'node:path';
 const html = fs.readFileSync('breakbeat-guide.html','utf8');
 const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
 const idSet = new Set(ids);
-const duplicateIds = [...new Set(ids.filter((id,index)=>ids.indexOf(id)!==index))];
 const anchors = [...html.matchAll(/href="#([^"]+)"/g)].map(m=>m[1]);
-const missingAnchors = [...new Set(anchors.filter(id=>!idSet.has(id)))];
-const localAssets = [...html.matchAll(/(?:src|href)="([^"?#]+\.(?:css|png|jpe?g|webp|svg))[^"#]*"/gi)]
-  .map(m=>decodeURIComponent(m[1])).filter(value=>!/^https?:/.test(value) && !value.startsWith('/'));
-const missingAssets = [...new Set(localAssets.filter(file=>!fs.existsSync(path.resolve(file))))];
-const headings = [...html.matchAll(/<h([1-6])(?:\s[^>]*)?>/g)].map(m=>Number(m[1]));
-const hierarchyJumps = headings.flatMap((level,index)=>index && level>headings[index-1]+1 ? [`h${headings[index-1]}→h${level} at ${index+1}`] : []);
 const iframeTags = [...html.matchAll(/<iframe\b[^>]*>/g)].map(m=>m[0]);
 const essentialListeningClasses = [...html.matchAll(/<aside class="([^"]+)"[^>]*>[\s\S]*?<\/aside>/g)]
   .filter(match => match[0].includes('<p class="article-kicker">Essential listening</p>'))
   .map(match=>match[1]);
 const iframeSrcs = iframeTags.map(tag=>(tag.match(/\ssrc="([^"]+)"/)||[])[1]).filter(Boolean);
 const duplicateIframeSrcs = [...new Set(iframeSrcs.filter((src,index)=>iframeSrcs.indexOf(src)!==index))];
-const imgTags = [...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
-const imagesMissingDimensions = imgTags.filter(tag=>!/\swidth="\d+"/.test(tag)||!/\sheight="\d+"/.test(tag));
-const iframesMissingTitles = iframeTags.filter(tag=>!/\stitle="[^"]+"/.test(tag));
 const trackIds = ids.filter(id=>id.startsWith('track-'));
 const trackEmbeds = (html.match(/class="track-embed/g)||[]).length;
 const contextGroups = (html.match(/class="context-listening /g)||[]).length;
@@ -29,9 +19,6 @@ const extendedPlaylistBands = (html.match(/id="breakbeat-(?:florida|nu-skool)-pl
 const sourceSection = (html.match(/<section class="floating-block article-section sources-section"[\s\S]*?<\/section>/)||[])[0] || '';
 const unlinkedSourceItems = [...sourceSection.matchAll(/<li>([\s\S]*?)<\/li>/g)].filter(match=>!/<a\b/.test(match[1]));
 const oldBreakbeatMedia = [...new Set([...html.matchAll(/img\/(amen|flyers|pirate-radio|old%20dubplate|uk-electronic\/atari)[^" ]*/g)].map(m=>m[0]))];
-const figureBeforeEmbed = [...html.matchAll(/<\/figure>\s*<aside class="(?:context-listening|floating-inset (?:spotify|soundcloud)-feature)/g)];
-const embedBeforeFigure = [...html.matchAll(/<\/aside>\s*<figure class="floating-image article-image/g)];
-const consecutiveFigures = [...html.matchAll(/<\/figure>\s*<figure class="floating-image article-image/g)];
 const css = fs.readFileSync('thecatrave-article.css','utf8');
 const responsiveRulesPresent = /@media \(max-width: 1000px\)/.test(css) && /@media \(max-width: 760px\)/.test(css) && /\.track-entry \{ grid-template-columns: minmax\(0, 1fr\); \}/.test(css);
 const proportionalMobileImages = /@media \(max-width: 760px\)[\s\S]*?\.article-image img \{[\s\S]*?width: 100%;[\s\S]*?max-width: 100%;[\s\S]*?height: auto;[\s\S]*?max-height: none;[\s\S]*?aspect-ratio: auto;[\s\S]*?object-fit: contain;[\s\S]*?\}/.test(css);
@@ -52,51 +39,48 @@ const directAnswerWordCount = directAnswer.replace(/<[^>]+>/g,' ').trim().split(
 const directAnswerBeforeContents = html.indexOf('class="article-summary article-listen"') > -1 && html.indexOf('class="article-summary article-listen"') < html.indexOf('id="contents"');
 const directAnswerCalloutStyled = /<aside class="article-summary article-listen"[^>]*><strong>BREAKBEAT DEFINITION:<\/strong>/.test(html);
 const breadcrumbStructuredPresent = /"@type":"BreadcrumbList"/.test(html) && /"position":1,"name":"Home","item":"https:\/\/thecatrave\.com\/"/.test(html) && /"position":2,"name":"Breakbeat guide","item":"https:\/\/thecatrave\.com\/breakbeat-guide"/.test(html);
-const result = {
-  h1: (html.match(/<h1(?:\s|>)/g)||[]).length,
-  h2: (html.match(/<h2(?:\s|>)/g)||[]).length,
-  faqItems: (html.match(/<details/g)||[]).length,
-  iframes: (html.match(/<iframe/g)||[]).length,
-  images: (html.match(/<img/g)||[]).length,
-  trackEntries: trackIds.length,
-  trackEmbeds,
-  contextGroups,
-  mixEmbedCount,
-  extendedPlaylistBands,
-  unifiedListeningLabel: !/Listen while you read|Jungle Mania listening/i.test(html),
-  allEssentialListeningFullBleed: essentialListeningClasses.length === 9 && essentialListeningClasses.every(classes => /(?:article-media-band-full|context-listening-full)/.test(classes)),
-  unlinkedSourceItems: unlinkedSourceItems.length,
-  trackJumpLinks: (html.match(/class="track-jump"/g)||[]).length,
-  standaloneTrackSection: /Essential Breakbeat Tracks: A Listening Route/.test(html),
-  jsonLdAnswersEmpty: /"text":""/.test(html),
-  duplicateIds,
-  duplicateIframeSrcs,
-  missingAnchors,
-  missingAssets,
-  imagesMissingDimensions: imagesMissingDimensions.length,
-  iframesMissingTitles: iframesMissingTitles.length,
-  oldBreakbeatMedia,
-  figureBeforeEmbed: figureBeforeEmbed.length,
-  embedBeforeFigure: embedBeforeFigure.length,
-  consecutiveFigures: consecutiveFigures.length,
-  responsiveRulesPresent,
-  proportionalMobileImages,
-  missingLegacyAnchors,
-  missingPreservationPhrases,
-  originalPublicationDatePreserved,
-  readingTimePresent,
-  visibleModifiedDate,
-  structuredModifiedDate,
-  openGraphModifiedDate,
-  openGraphPublishedDate,
-  modifiedDateConsistent,
-  publishedDateConsistent,
-  directAnswerWordCount,
-  directAnswerBeforeContents,
-  directAnswerCalloutStyled,
-  breadcrumbStructuredPresent,
-  hierarchyJumps,
-  editorialNotesLeaked: /final design should|the final page should/i.test(html)
+const failures = [];
+const check = (name, condition, detail = '') => {
+  if (!condition) failures.push(`${name}${detail ? ` (${detail})` : ''}`);
 };
-console.log(JSON.stringify(result,null,2));
-if (result.h1!==1 || result.trackEntries!==21 || result.trackEmbeds!==21 || result.contextGroups!==7 || result.mixEmbedCount!==1 || result.extendedPlaylistBands!==2 || !result.unifiedListeningLabel || !result.allEssentialListeningFullBleed || result.unlinkedSourceItems || result.trackJumpLinks || result.standaloneTrackSection || result.jsonLdAnswersEmpty || duplicateIds.length || duplicateIframeSrcs.length || missingAnchors.length || missingAssets.length || imagesMissingDimensions.length || iframesMissingTitles.length || oldBreakbeatMedia.length || result.figureBeforeEmbed || result.embedBeforeFigure || result.consecutiveFigures || !responsiveRulesPresent || !proportionalMobileImages || missingLegacyAnchors.length || missingPreservationPhrases.length || !originalPublicationDatePreserved || !readingTimePresent || !modifiedDateConsistent || !publishedDateConsistent || directAnswerWordCount < 80 || directAnswerWordCount > 120 || !directAnswerBeforeContents || !directAnswerCalloutStyled || !breadcrumbStructuredPresent || hierarchyJumps.length || result.editorialNotesLeaked) process.exitCode=1;
+
+// Generic article contract (one H1, alt text, iframe titles, image dimensions,
+// duplicate ids, local assets, heading hierarchy, canonical, dates, viewport,
+// em dash, brand case) lives in audit-site-components.mjs and runs against every
+// guide. What stays here is what only this page can be wrong about.
+
+check('21 track entries', trackIds.length === 21, String(trackIds.length));
+check('21 track embeds', trackEmbeds === 21, String(trackEmbeds));
+check('7 context listening groups', contextGroups === 7, String(contextGroups));
+check('one mix embed', mixEmbedCount === 1, String(mixEmbedCount));
+check('two extended playlist bands', extendedPlaylistBands === 2, String(extendedPlaylistBands));
+check('listening label unified', !/Listen while you read|Jungle Mania listening/i.test(html));
+check('every essential listening band is full bleed',
+  essentialListeningClasses.length === 9 && essentialListeningClasses.every(classes => /(?:article-media-band-full|context-listening-full)/.test(classes)),
+  `${essentialListeningClasses.length} bands`);
+check('every source item is linked', unlinkedSourceItems.length === 0, String(unlinkedSourceItems.length));
+check('no leftover track jump links', (html.match(/class="track-jump"/g) || []).length === 0);
+check('no standalone track section', !/Essential Breakbeat Tracks: A Listening Route/.test(html));
+check('no empty JSON-LD answers', !/"text":""/.test(html));
+check('no duplicate iframe sources', duplicateIframeSrcs.length === 0, duplicateIframeSrcs.join(', '));
+check('no retired breakbeat media', oldBreakbeatMedia.length === 0, oldBreakbeatMedia.join(', '));
+check('responsive CSS rules present', responsiveRulesPresent);
+check('mobile images scale proportionally', proportionalMobileImages);
+check('legacy anchors preserved', missingLegacyAnchors.length === 0, missingLegacyAnchors.join(', '));
+check('preservation phrases present', missingPreservationPhrases.length === 0, missingPreservationPhrases.join(', '));
+check('reading time present', readingTimePresent);
+check('modified date agrees across visible, structured and OG',
+  modifiedDateConsistent, `visible ${visibleModifiedDate}, ld ${structuredModifiedDate}, og ${openGraphModifiedDate}`);
+check('published date preserved from the original',
+  publishedDateConsistent, `og ${openGraphPublishedDate}`);
+check('direct answer is 80-120 words', directAnswerWordCount >= 80 && directAnswerWordCount <= 120, String(directAnswerWordCount));
+check('direct answer sits before the contents', directAnswerBeforeContents);
+check('direct answer is styled as a callout', directAnswerCalloutStyled);
+check('breadcrumb structured data present', breadcrumbStructuredPresent);
+
+if (failures.length) {
+  console.error('Breakbeat audit failed:\n  ' + failures.join('\n  '));
+  process.exitCode = 1;
+} else {
+  console.log('Breakbeat audit passed.');
+}

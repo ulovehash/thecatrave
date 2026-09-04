@@ -1,11 +1,7 @@
 // Every indexable route, addressed the way production serves it.
-export const routes = [
-  { path: '/', name: 'home' },
-  { path: '/breakbeat-guide', name: 'breakbeat' },
-  { path: '/jungle-music-guide', name: 'jungle' },
-  { path: '/uk-electronic-music-evolution', name: 'uk' },
-  { path: '/bass-music-guide', name: 'bass-music' },
-  { path: '/dubstep-guide', name: 'dubstep' },
-  { path: '/drum-and-bass-guide', name: 'drum-and-bass' },
-  { path: '/selector', name: 'selector' }
-];
+// The list itself lives in pages.mjs so the browser tests, the audits, the
+// build and html-validate can never disagree about which pages exist.
+// @ts-expect-error - plain ESM module, no type declarations by design
+import { routes as manifestRoutes } from '../pages.mjs';
+
+export const routes: { path: string; name: string }[] = manifestRoutes;

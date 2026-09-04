@@ -3,7 +3,12 @@
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
+import { pages } from '../pages.mjs';
 
+// Ordered, because order is a real constraint the page list cannot express:
+// cut-out assets come first, and the home page comes last because it reads the
+// finished articles for their reading times. Coverage is asserted below, so a
+// page added to pages.mjs cannot be left unbuilt.
 export const generators = [
   'build-cutout-assets.mjs',
   'build-breakbeat-article.mjs',
@@ -17,6 +22,10 @@ export const generators = [
 ].filter(file => fs.existsSync(file));
 
 export function build() {
+  const missing = pages.filter(page => !generators.includes(page.generator));
+  if (missing.length) {
+    throw new Error(`pages.mjs lists pages with no generator in the build order: ${missing.map(p => `${p.name} (${p.generator})`).join(', ')}`);
+  }
   for (const file of generators) {
     process.stdout.write(`▸ ${file}\n`);
     execFileSync('node', [file], { stdio: 'inherit' });
