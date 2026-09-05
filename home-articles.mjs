@@ -39,6 +39,14 @@ export const homeArticleCatalog = [
     width:961, height:540, alt:'A vinyl cutting lathe with an acetate disc on the platter'
   },
   {
+    page:'uk-garage-guide.html', href:'/uk-garage-guide', type:'Guide', topic:'UK garage',
+    title:'What Is UK Garage? The Sound, 2-Step, Speed Garage and Bassline',
+    description:'London played an American record too fast until the beat broke. The branches it split into, and the numbers behind its revival.',
+    image:'img/skream-320.webp',
+    srcset:'img/skream-320.webp 320w,img/skream-1200.webp 1200w',
+    width:1200, height:900, alt:'Skream playing a DJ set'
+  },
+  {
     page:'drum-and-bass-guide.html', href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
     title:'What Is Drum and Bass? History, Sound and Subgenres',
     description:'The genre jungle became after the mid-1990s split: 174 BPM, chopped breaks and sub-bass, from Metalheadz to a global festival circuit.',

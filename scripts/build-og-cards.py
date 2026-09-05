@@ -57,6 +57,7 @@ HERO = {
     "bass-music": "img/bass-music/miami-bass-loc-ace-vic-1400.jpg",
     "dubstep": "img/dubstep/dubplate-lathe.webp",
     "drum-and-bass": "img/dnb/dnb-cover.webp",
+    "uk-garage": "img/skream-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
 }
 KICKER = {"home": "thecatrave.com", "tool": "Tool", "guide": "Guide"}

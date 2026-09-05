@@ -17,6 +17,7 @@ export const generators = [
   'build-bass-music-article.mjs',
   'build-dubstep-article.mjs',
   'build-dnb-article.mjs',
+  'build-uk-garage-article.mjs',
   'build-selector.mjs',
   // last, because its dates come from the pages the generators above produce
   'build-sitemap.mjs',

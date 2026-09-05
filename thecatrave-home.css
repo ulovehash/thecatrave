@@ -141,7 +141,13 @@ p,li{text-wrap:pretty}
 /* The Articles section holds a growing set of guides. auto-fit keeps them on as few
    rows as fit, equal width, with no fixed-column orphan; a short last row is just
    wider cards, not an L-shaped gap. */
-#articles .article-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))}
+/* The column count comes from the card count, not from auto-fit. auto-fit
+   could not do it: 1fr will not shrink a track below its content, so the
+   tracks stayed about 220px wide and the seventh guide dropped to a row of
+   its own however small the minmax floor went. minmax(0,1fr) lets them
+   share the width evenly instead, which is what the no-orphan layout test
+   asks for however many guides the catalog holds. */
+#articles .article-grid{grid-template-columns:repeat(var(--article-cards,4),minmax(0,1fr))}
 }
 /* On tablet the odd last card fills the row instead of leaving a half-width gap. */
 @media(min-width:48rem) and (max-width:69.99rem){#articles .article-grid article:last-child:nth-child(odd){grid-column:1/-1}

@@ -77,7 +77,7 @@ export function homeArticlesSection({items = []} = {}) {
     const number = `A${String(index + 1).padStart(2, '0')}`;
     return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read article →</b></a></article>`;
   }).join('');
-  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">05 / Articles</p><div><h2 id="articles-title">Notes from the underground.</h2><p>Long-form articles about the sounds, scenes, technology and communities behind underground club culture.</p></div></header><div class="article-grid">${cards}</div></section>`;
+  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">05 / Articles</p><div><h2 id="articles-title">Notes from the underground.</h2><p>Long-form articles about the sounds, scenes, technology and communities behind underground club culture.</p></div></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div></section>`;
 }
 
 export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} = {}) {
