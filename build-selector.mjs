@@ -3,7 +3,7 @@ import { articlePage, articleSection, articleFaq, faqStructuredData, breadcrumbS
 import { channels } from './selector-channels.mjs';
 
 const canonical = 'https://thecatrave.com/selector';
-const title = 'Find a DJ Set to Watch: Boiler Room, NTS, Cercle and More';
+const title = 'Discover New Music: One Button, One Random DJ Set';
 const date = '2026-09-04';
 
 const escapeHtml = value => String(value)
@@ -66,8 +66,8 @@ const genreNote = taggedCount
   : '';
 
 const description = sets.length
-  ? `Can't decide what DJ set to watch? One button plays a random full set from ${setCount} Boiler Room, HÖR, NTS, Beatport and Rinse FM uploads. Filter by source or genre.`
-  : 'Can\'t decide what DJ set to watch? Press one button for a random full set from Boiler Room, HÖR, NTS, Beatport, Rinse FM and more. Filter by source or genre.';
+  ? `Discover new music without choosing it. One button plays a full DJ set at random from ${setCount}: Boiler Room, NTS, Cercle and community radio worldwide.`
+  : 'Discover new music without choosing it. One button plays a full DJ set at random from Boiler Room, NTS, Cercle and community radio worldwide.';
 
 // The whole tool is one panel on the first screen: title, then the primary
 // action (the button, and the picked set right under it), then the filters that
@@ -78,7 +78,7 @@ const toolHtml = `
   <header class="sel-panel-head">
     <p class="article-kicker">The Selector</p>
     <h1>Press the button. Get a set.</h1>
-    <p class="sel-deck">One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and ${broadcasters.length - 4} more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
+    <p class="sel-deck">A way to find new music without choosing it. One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and ${broadcasters.length - 4} more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
   </header>
   <div class="sel-action">
     <p class="sel-count" id="sel-count">${escapeHtml(setCount)} sets</p>
@@ -128,6 +128,16 @@ const aboutHtml = `
 
 const faqItems = [
   {
+    question: 'How do you discover new music without an algorithm?',
+    answer: 'You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a full DJ set at random from 37 channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.',
+    answerHtml: '<p>You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a full DJ set at random from 37 channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.</p>',
+  },
+  {
+    question: 'What is the best way to find new music you have never heard?',
+    answer: 'Listen to a DJ you do not know. A set is an hour of tracks someone spent years selecting, so one good set introduces you to more music than an afternoon of skipping through singles. Set the Selector to Niche sets and it will only play from the quiet end of the catalogue, where the sets almost nobody has found are.',
+    answerHtml: '<p>Listen to a DJ you do not know. A set is an hour of tracks someone spent years selecting, so one good set introduces you to more music than an afternoon of skipping through singles. Set the Selector to <strong>Niche sets</strong> and it will only play from the quiet end of the catalogue, where the sets almost nobody has found are.</p>',
+  },
+  {
     question: 'How does The Selector pick a set?',
     answer: `You press one button and it plays a full DJ set chosen at random from its catalogue of ${countLine}. Press again for another. There is no algorithm learning your taste and no history kept.`,
     answerHtml: `<p>You press one button and it plays a full DJ set chosen at random from its catalogue of ${escapeHtml(countLine)}. Press again for another. There is no algorithm learning your taste and no history kept.</p>`
@@ -167,7 +177,7 @@ const faqItems = [
 const articleHtml = [
   toolHtml,
   articleSection({ id: 'about', title: 'Choosing is the hard part.', bodyHtml: aboutHtml }),
-  articleFaq({ id: 'faq', title: 'Questions about picking a set.', items: faqItems }),
+  articleFaq({ id: 'faq', title: 'Questions about finding new music.', items: faqItems }),
   `<script type="application/json" id="sel-source-logos">${JSON.stringify(sourceLogos).replace(/</g, '\\u003c')}</script>`,
   `<script type="application/json" id="sel-source-colors">${JSON.stringify(sourceColors).replace(/</g, '\\u003c')}</script>`,
   `<script src="selector-runtime.js" defer></script>`
