@@ -78,7 +78,7 @@ const toolHtml = `
   <header class="sel-panel-head">
     <p class="article-kicker">The Selector</p>
     <h1>Press the button. Get a set.</h1>
-    <p class="sel-deck">A way to find new music without choosing it. One full DJ set at random out of ${escapeHtml(countLine)}: Boiler Room, NTS, Cercle, HÖR and ${broadcasters.length - 4} more. Pick a mode for the most-watched, the underrated or the ones nobody has found yet, then narrow it to a source or a genre.</p>
+    <p class="sel-deck">Find new music without choosing it: one random DJ set out of ${escapeHtml(setCount)}, from Boiler Room, NTS, HÖR and ${broadcasters.length - 3} more channels.</p>
   </header>
   <div class="sel-action">
     <p class="sel-count" id="sel-count">${escapeHtml(setCount)} sets</p>
@@ -101,6 +101,10 @@ const toolHtml = `
       <p class="sel-field-label" id="sel-genres-label">Genre${genreNote}</p>
       <div class="sel-genres" id="sel-genres" role="group" aria-labelledby="sel-genres-label"></div>
     </div>
+    <div class="sel-field" id="sel-lengths-wrap" hidden>
+      <p class="sel-field-label" id="sel-lengths-label">Length</p>
+      <div class="sel-lengths" id="sel-lengths" role="group" aria-labelledby="sel-lengths-label"></div>
+    </div>
   </div>
   <noscript><p class="sel-noscript">The Selector needs JavaScript to shuffle and embed a player. The source channels are on YouTube: ${
     broadcasters.map(b => escapeHtml(b)).join(', ')
@@ -112,17 +116,17 @@ const toolHtml = `
 // "random DJ set", "random Boiler Room set", "best HÖR sets", "what set should
 // I listen to". Keep the channel names as plain text so they read as entities.
 const aboutHtml = `
-<p>Finding a good DJ set has never been the difficulty. Nineteen channels put up more of them than anyone could get through, and that is the problem: with ${escapeHtml(setCount)} in front of you, picking one becomes its own small chore, and you end up watching nothing.</p>
+<p>Finding a good DJ set has never been the difficulty. ${broadcasters.length} channels put up more of them than anyone could get through, and that is the problem: with ${escapeHtml(setCount)} in front of you, picking one becomes its own small chore, and you end up watching nothing.</p>
 <p>The Selector is for exactly that. Press the button and it plays a full set at random from ${escapeHtml(countLine)}. Press it again for another. Nothing is saved and nothing is personalised.</p>
 <p>A DJ set is one continuous mix played by one DJ, usually an hour or more, recorded live in a club, a radio studio or a festival tent. It is not a playlist: the order, the blends and the pacing are the performance.</p>
-<p>Three filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
+<p>Four filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
 <ul>
   <li><strong>All</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
   <li><strong>Popular</strong> sticks to sets that already found a big audience. This is the one for a best-of: a popular ${escapeHtml(broadcasters[0])} set, a popular techno set, something you can put on knowing a lot of people rated it.</li>
   <li><strong>Hidden gems</strong> looks at how loved a set is next to how many people actually saw it. You get the ones a small crowd rated highly rather than the ones that simply got pushed.</li>
   <li><strong>Niche sets</strong> is the opposite end of Popular: the quiet part of the catalogue, where most artists have almost no audience yet. Worth it if you like getting there first.</li>
 </ul>
-<p>The other two filters stack on top of any mode. <strong>Source</strong> limits the pool to one channel, so you can pull a random ${escapeHtml(broadcasters[0])} set, or an ${escapeHtml(broadcasters[1] || 'HÖR')} set, or one from ${escapeHtml(broadcasters.slice(2, 6).join(', '))}. <strong>Genre</strong> covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop and disco where a set is tagged.</p>
+<p>The other three filters stack on top of any mode. <strong>Source</strong> limits the pool to one channel, so you can pull a random ${escapeHtml(broadcasters[0])} set, or an ${escapeHtml(broadcasters[1] || 'HÖR')} set, or one from ${escapeHtml(broadcasters.slice(2, 6).join(', '))}. <strong>Genre</strong> covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop and disco where a set is tagged. <strong>Length</strong> answers the other question you actually have, which is how much time you have got: most of this catalogue is the radio hour, so the filter is really there for the two ends, the under-45-minute sets and the ones that run past an hour and a quarter.</p>
 <p>The pool is the long-form uploads of ${escapeHtml(channelList)}: real sets rather than clips, refreshed weekly. For the history behind the music, read the <a href="/drum-and-bass-guide">drum and bass guide</a>, the <a href="/jungle-music-guide">jungle guide</a>, the <a href="/breakbeat-guide">breakbeat guide</a> and the <a href="/dubstep-guide">dubstep guide</a>.</p>
 `.trim();
 
@@ -197,6 +201,7 @@ const structuredData = [
       'Random DJ set picker',
       'Filter by source channel (Boiler Room, HÖR, NTS, Beatport, Rinse FM and more)',
       'Filter by genre',
+      'Filter by set length',
       'Pick modes: popular, hidden gems and niche sets'
     ],
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }

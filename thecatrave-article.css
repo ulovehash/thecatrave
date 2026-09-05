@@ -727,7 +727,12 @@
 
 @media (max-width: 760px) {
   .article-page { --article-gutter: 1rem; }
-  .article-footer .article-footer-nav { grid-template-columns: 1fr; }
+  .article-footer .article-footer-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    gap: 1.5rem;
+  }
   .article-hero { padding-top: 3.25rem; }
   .article-hero h1 { max-width: 13ch; font-size: clamp(2.35rem, 10.5vw, 2.65rem); }
   .article-deck { font-size: 1.16rem; }
@@ -811,11 +816,18 @@
 .selector-page {
   --sel-muted: #57534a;              /* tertiary text on paper/muted, passes AA */
   --sel-genre-bg: #ece6d7;           /* warm tint that is clearly not --paper */
+  /* The panel is a player, not prose, so the reading measure that caps every
+     other wide block is the wrong limit for it. At --article-wide the video came
+     out 492px on a 1920 screen, a quarter of the width, with the rest of the
+     column spent on nothing. The filter column stays 29rem either way, so every
+     extra pixel here goes to the video. Prose on this page still uses
+     --article-text; only the panel gets this. */
+  --sel-panel-w: 1360px;
 }
 
 .selector-page .sel-panel {
   box-sizing: border-box;
-  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide));
+  width: min(calc(100% - (2 * var(--article-gutter))), var(--sel-panel-w));
   margin: clamp(1.75rem, 5vw, 3.25rem) auto clamp(2.5rem, 6vw, 4rem);
   border: 2px solid var(--ink);
   background: var(--paper);
@@ -844,10 +856,11 @@
 .selector-page .sel-panel-head .article-kicker { margin-bottom: .9rem; }
 .selector-page .sel-field-label { margin-bottom: .85rem; }
 
+
 /* role: display */
 .selector-page .sel-panel-head h1 {
   margin: 0;
-  font: 700 clamp(2.6rem, 7vw, 4rem)/.98 var(--sans);
+  font: 700 clamp(2.05rem, 9.4vw, 4rem)/1 var(--sans);
   letter-spacing: -.025em;
   color: var(--ink);
 }
@@ -866,13 +879,16 @@
   padding: clamp(1.6rem, 4vw, 2.75rem);
 }
 .selector-page .sel-sources,
-.selector-page .sel-genres {
+.selector-page .sel-genres,
+.selector-page .sel-lengths {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
 }
 
 /* role: ui - chips. Shared grammar via custom props; each group overrides. */
+/* the chip's own display beats the hidden attribute, so say it explicitly */
+.selector-page .sel-chip[hidden] { display: none; }
 .selector-page .sel-chip {
   --chip-bg: var(--paper);
   --chip-bd: var(--ink);
@@ -941,13 +957,52 @@
   --chip-on-fg: var(--ink);
 }
 
+/* Length: the third multi-select group, so it needs its own fill to stay
+   tellable apart from Genre at a glance. Cool, against the genre row's warm. */
+.selector-page .sel-lengths .sel-chip {
+  --chip-bg: var(--sel-genre-bg);
+  --chip-hover: var(--cyan);
+  --chip-on-bg: var(--cyan);
+  --chip-on-fg: var(--ink);
+}
+
 /* Mode chips carry a second line explaining what the mode actually does. */
+/* "+32 more" opens the rest of the list, so it has to read as a control rather
+   than as a filter value. The dashed outline it started with read as disabled,
+   and a phone has no hover to correct that impression, so it carries a fill and
+   a chevron of its own. Yellow because acid is what a chosen genre looks like
+   and a channel tint is what a chosen source looks like. */
+.selector-page .sel-body .sel-chip.sel-chip-more {
+  --chip-bg: var(--yellow);
+  --chip-bd: var(--ink);
+  --chip-hover: var(--ink);
+  --chip-hover-fg: var(--paper);
+  --chip-on-bg: var(--yellow);
+  --chip-on-fg: var(--ink);
+  font-weight: 700;
+}
+.selector-page .sel-chip-more::after {
+  content: "";
+  flex: none;
+  margin-left: .45rem;
+  width: .4rem;
+  height: .4rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-.12em) rotate(45deg);
+}
+.selector-page .sel-chip-more[aria-expanded="true"]::after {
+  transform: translateY(.12em) rotate(-135deg);
+}
+
 .selector-page .sel-modes { display: flex; flex-wrap: wrap; gap: .5rem; }
 .selector-page .sel-modes .sel-chip {
   flex-direction: column;
   align-items: flex-start;
   gap: .18rem;
   padding: .45rem .8rem;
+  /* the chip centres its label; a note long enough to wrap needs the left edge */
+  text-align: left;
 }
 .selector-page .sel-modes .sel-chip-note {
   font: 400 .68rem/1.2 var(--mono);
@@ -1151,6 +1206,13 @@
 
 .selector-page #about { margin-top: 0; }
 
+@media (max-width: 63.99rem) {
+  .selector-page .sel-field-note { display: none; }
+  /* Every line here is a line the button sits below, so the deck runs tighter
+     on a phone than it does beside the filters on a desktop. */
+  .selector-page .sel-deck { font-size: .95rem; line-height: 1.45; margin-top: .8rem; }
+}
+
 @media (max-width: 720px) {
   .selector-page .sel-panel {
     width: calc(100% - 2 * var(--article-gutter));
@@ -1200,8 +1262,16 @@
   .selector-page .sel-body .sel-chip-n { margin-left: .3rem; }
   .selector-page .sel-sources,
   .selector-page .sel-genres,
+  .selector-page .sel-lengths,
   .selector-page .sel-modes { gap: .35rem; }
   .selector-page .sel-modes .sel-chip-note { font-size: .63rem; }
+  /* The four modes carry notes of very different lengths, so wrapping left two
+     of them alone on a row and the group read as a ragged stack. On a phone it
+     is a 2x2 block instead, which also equalises the chip heights. */
+  .selector-page .sel-modes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Narrow screens: pack the filter chips. The count drops out, the logo and the
@@ -1209,6 +1279,7 @@
 @media (max-width: 40rem) {
   .selector-page .sel-sources,
   .selector-page .sel-genres,
+  .selector-page .sel-lengths,
   .selector-page .sel-modes { gap: .3rem; }
   .selector-page .sel-chip {
     min-height: 1.95rem;
@@ -1219,6 +1290,13 @@
   .selector-page .sel-chip-n { display: none; }
   .selector-page .sel-chip-logo { width: 13px; height: 13px; margin-right: .32rem; border-width: 1px; }
   .selector-page .sel-modes .sel-chip-note { font-size: .63rem; }
+  /* The four modes carry notes of very different lengths, so wrapping left two
+     of them alone on a row and the group read as a ragged stack. On a phone it
+     is a 2x2 block instead, which also equalises the chip heights. */
+  .selector-page .sel-modes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Mode is the first and most consequential filter, so each option carries a

@@ -5,8 +5,13 @@
   const sourcesEl = document.getElementById('sel-sources');
   const genresEl = document.getElementById('sel-genres');
   const genresWrap = document.getElementById('sel-genres-wrap');
+  const lengthsEl = document.getElementById('sel-lengths');
+  const lengthsWrap = document.getElementById('sel-lengths-wrap');
   const modesEl = document.getElementById('sel-modes');
   const GEM_MIN_VIEWS = 3000;
+  // roughly two rows on a phone, which is enough for the group to read as a list
+  const SOURCE_PEEK = 5;
+  const GENRE_PEEK = 8;
   const burst = document.getElementById('sel-burst');
   if (!btn || !stage) return;
 
@@ -15,7 +20,20 @@
   const recent = [];
   const activeSources = new Set();
   const activeGenres = new Set();
+  const activeLengths = new Set();
   const UNTAGGED = ' untagged';
+
+  // Durations barely vary: 73% of the catalogue sits between 45 and 75 minutes,
+  // because a radio hour is a radio hour. Even buckets would put three quarters
+  // of everything under one chip and narrow nothing, so the boundaries are drawn
+  // around that spike rather than on round numbers. The filter earns its place
+  // at the two ends — the short slot and the long haul — which are otherwise
+  // unreachable: ask for 25 minutes today and you get an hour nine times in ten.
+  const LENGTHS = [
+    ['Under 45 min', 'short', 0, 45 * 60],
+    ['45–75 min', 'hour', 45 * 60, 75 * 60],
+    ['Over 75 min', 'long', 75 * 60, Infinity]
+  ];
 
   // How the pool is narrowed before the random pick. "deep" exists so the long
   // tail of artists gets played too, not just whatever already has an audience.
@@ -38,6 +56,16 @@
   // new channel is coloured the moment it appears, with no stylesheet to edit.
   let sourceColors = {};
   try { sourceColors = JSON.parse(document.getElementById('sel-source-colors').textContent) || {}; } catch {}
+
+  // Below the two-column layout the filters sit under the button, and 37 source
+  // chips put a screen of scrolling between the reader and the rest of the page.
+  // So the long groups show their first rows and park the rest behind a chip
+  // that says how many are hidden: the row has to look like a lid, not like the
+  // whole shelf. Anything switched on stays visible however far down the list it
+  // sits, or a filter you set would vanish when you collapsed the group.
+  const NARROW = window.matchMedia && window.matchMedia('(max-width: 63.99rem)');
+  const isNarrow = () => (NARROW ? NARROW.matches : false);
+  const repeek = [];
 
   const setButton = (label, state, disabled) => {
     btn.textContent = label;
@@ -100,6 +128,10 @@
         return g.some(x => activeGenres.has(x)) || (activeGenres.has(UNTAGGED) && g.length === 0);
       });
     }
+    if (activeLengths.size) {
+      const ranges = LENGTHS.filter(l => activeLengths.has(l[1]));
+      next = next.filter(s => s.seconds > 0 && ranges.some(([, , lo, hi]) => s.seconds >= lo && s.seconds < hi));
+    }
     const third = list => list.slice(0, Math.max(1, Math.ceil(list.length / 3)));
     if (mode === 'gems') {
       // loved per view rather than most-watched: the sets that punch above
@@ -123,6 +155,7 @@
       if (activeSources.size === 1) bits.push([...activeSources][0]);
       else if (activeSources.size) bits.push(`${activeSources.size} sources`);
       if (activeGenres.size) bits.push([...activeGenres].map(g => (g === UNTAGGED ? 'untagged' : g)).join(' / '));
+      if (activeLengths.size) bits.push(LENGTHS.filter(l => activeLengths.has(l[1])).map(l => l[0]).join(' / '));
       const label = (MODES.find(m => m[1] === mode) || [])[0];
       if (mode !== 'any' && label) bits.push(label.toLowerCase());
       count.textContent = `${pool.length.toLocaleString('en-US')} sets${bits.length ? ' · ' + bits.join(' · ') : ''}`;
@@ -226,7 +259,7 @@
     });
   }
 
-  function makeChips(container, entries, activeSet, iconFor, paintFor) {
+  function makeChips(container, entries, activeSet, iconFor, paintFor, peek) {
     if (!container) return;
     container.textContent = '';
     // name and count are separate so narrow screens can drop the count and fit
@@ -252,9 +285,34 @@
     };
     const allChip = chip('All', '', !activeSet.size);
     const chips = entries.map(([name, value, n]) => chip(name, value, activeSet.has(value), n));
+
+    let expanded = false;
+    let more = null;
+    if (peek && chips.length > peek) {
+      more = document.createElement('button');
+      more.type = 'button';
+      more.className = 'sel-chip sel-chip-more';
+      more.addEventListener('click', () => { expanded = !expanded; applyPeek(); });
+      container.appendChild(more);
+    }
+    const applyPeek = () => {
+      if (!more) return;
+      const clamp = isNarrow() && !expanded;
+      chips.forEach((c, i) => { c.hidden = clamp && i >= peek && !activeSet.has(c.dataset.value); });
+      const hidden = chips.filter(c => c.hidden).length;
+      more.hidden = !isNarrow() || (!hidden && !expanded);
+      more.textContent = hidden ? `+${hidden} more` : 'Show fewer';
+      more.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+      more.setAttribute('aria-label', hidden
+        ? `Show ${hidden} more, ${chips.length} in total`
+        : `Show fewer, ${chips.length} in total`);
+    };
+    if (more) { repeek.push(applyPeek); applyPeek(); }
+
     const sync = () => {
       allChip.setAttribute('aria-pressed', activeSet.size ? 'false' : 'true');
       chips.forEach(c => c.setAttribute('aria-pressed', activeSet.has(c.dataset.value) ? 'true' : 'false'));
+      applyPeek();
       rebuildPool();
     };
     allChip.addEventListener('click', () => { activeSet.clear(); sync(); });
@@ -279,17 +337,27 @@
       const src = sourceLogos[value];
       return src ? `<img class="sel-chip-logo" src="${escapeAttr(src)}" width="18" height="18" alt="" loading="lazy" decoding="async">` : '';
     };
+    // biggest channel first, the same ordering the genre chips use, so the row
+    // reads as a ranking rather than an alphabet nobody scans
     makeChips(sourcesEl,
-      [...srcCounts.keys()].sort((a, b) => a.localeCompare(b)).map(n => [n, n, srcCounts.get(n)]),
-      activeSources, sourceIcon, value => sourceColors[value] || null);
+      [...srcCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([n, c]) => [n, n, c]),
+      activeSources, sourceIcon, value => sourceColors[value] || null, SOURCE_PEEK);
     const ranked = [...genCounts.entries()].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]);
     if (ranked.length) {
       const genres = ranked.slice(0, 18).map(([g, n]) => [g, g, n]);
       if (untaggedCount) genres.push(['untagged', UNTAGGED]);
-      makeChips(genresEl, genres, activeGenres);
+      makeChips(genresEl, genres, activeGenres, null, null, GENRE_PEEK);
       if (genresWrap) genresWrap.hidden = false;
     }
+    const lenCounts = LENGTHS.map(([name, value, lo, hi]) =>
+      [name, value, all.filter(s => s.seconds >= lo && s.seconds < hi).length]);
+    if (lenCounts.some(l => l[2])) {
+      makeChips(lengthsEl, lenCounts.filter(l => l[2]), activeLengths);
+      if (lengthsWrap) lengthsWrap.hidden = false;
+    }
     if (all.some(s => s.likes != null)) buildModeChips();
+    if (NARROW && NARROW.addEventListener) NARROW.addEventListener('change', () => repeek.forEach(f => f()));
   }
 
   // selector-data.min.json is the compact build of selector-data.json: names

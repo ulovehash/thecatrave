@@ -15,6 +15,7 @@ check('meta description present', /<meta name="description" content="[^"]{70,165
 check('button present with a label', /<button[^>]*id="sel-go"[^>]*>[^<]+<\/button>/.test(html));
 check('source filter group present', /<div class="sel-sources" id="sel-sources" role="group"/.test(html));
 check('genre filter group present', /<div class="sel-genres" id="sel-genres" role="group"/.test(html));
+check('length filter group present', /<div class="sel-lengths" id="sel-lengths" role="group"/.test(html));
 // Mode is one-of-four, so it must be a radiogroup, not a row of toggle buttons
 check('mode filter is a radiogroup', /<div class="sel-modes" id="sel-modes" role="radiogroup"/.test(html));
 check('h1 sits in the tool, above the fold', html.indexOf('<h1>') < html.indexOf('id="about"'));
