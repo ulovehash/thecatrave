@@ -6,7 +6,7 @@
   --section-space: var(--space-3xl);
   --media-space: clamp(2.5rem, 4.5vw, 3.5rem);
   --text-label: .82rem;
-  --text-caption: .72rem;
+  --text-caption: .81rem;            /* .72 was 11.5px: mono, muted and tiny at once */
   --text-body: 1.12rem;
   --text-lead: 1.35rem;
   --leading-body: 1.66;
@@ -40,16 +40,33 @@
 
 .article-hero h1 {
   max-width: var(--article-text);
-  margin: 0;
   font-size: clamp(2.75rem, 5.2vw, 4rem);
   line-height: .98;
   letter-spacing: -.05em;
 }
 
+/* The fill must grow outwards. Padding narrows the measure and pushes a one-line
+   headline onto two; a negative margin meant to cancel it did not, and took 358px
+   of text width down to 340. A spread shadow takes no part in layout at all, so
+   the headline keeps every pixel of its measure and breaks exactly where it broke
+   before. Filling each line rather than the block was tried and fails here: at a
+   line-height of .98 the per-line boxes overlap and clip the type. */
+.article-masthead {
+  background: var(--coral);
+  /* Edge to edge at any width. A spread grows in every direction at once, so
+     one wide enough to reach the sides of a desktop would also run 100vw down
+     the page; the clip trims it back to 1.1rem above and below while leaving it
+     unbounded left and right. Still no effect on layout, which is the whole
+     point: the headline keeps its measure. */
+  box-shadow: 0 0 0 100vw var(--coral);
+  clip-path: inset(-1.1rem -100vw);
+}
+.article-masthead .article-kicker { margin-bottom: .9rem; }
+
 .article-hero .article-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs) 1.1rem;
+  gap: var(--space-xs) 1.5rem;
   margin: 1.15rem 0 0;
 }
 
@@ -58,10 +75,15 @@
   margin: 0;
   font-family: var(--mono);
   font-size: var(--text-label);
-  font-weight: 700;
   letter-spacing: .04em;
   text-transform: uppercase;
 }
+/* Two facts of unequal worth. Set identically they read as one string with a
+   wide word space in it, which is what they looked like. Weight and colour do
+   the separating rather than a bullet between them: the row wraps on a narrow
+   screen, and a separator would be left hanging at the end of the first line. */
+.article-hero .reading-time { font-weight: 700; }
+.article-hero .article-updated { font-weight: 400; color: #34322c; }
 
 .article-deck {
   max-width: var(--article-text);
@@ -76,6 +98,21 @@
   width: 100%;
   max-width: var(--article-text);
   margin: 1.75rem 0 0;
+}
+
+/* The definition sits directly under the headline and carried a cyan fill and a
+   full border, the same treatment as a listening callout further down. Measured,
+   it covered 110,624 square pixels against the headline's 16,145: the biggest,
+   only filled, only boxed thing on the opening screen was not the title of the
+   article. A rule down the left says "read this closely" without out-ranking
+   what it sits beneath, and keeps it distinct from the outlined contents box
+   below it. Scoped to the summary, so listening callouts inside the article
+   keep the fill that tells them apart from body copy. */
+.article-summary.article-listen {
+  padding: .35rem 0 .35rem 1.1rem;
+  border: 0;
+  border-left: 3px solid var(--ink);
+  background: none;
 }
 
 .article-summary strong {
@@ -230,7 +267,6 @@
   --media-space: clamp(2.25rem, 4vw, 3.25rem);
 }
 .bass-music-page .article-hero h1 { max-width: 12ch; }
-.bass-music-page .article-summary { background: var(--cyan); }
 .bass-music-page .article-section > h3 {
   position: relative;
   margin-top: clamp(3rem, 6vw, 4.5rem);
@@ -738,8 +774,24 @@
   .article-deck { font-size: 1.16rem; }
   .article-toc { padding: 1.15rem; }
   .article-toc ol { grid-template-columns: 1fr; }
+  /* 56px of air above and below a 1px rule, on a screen 320px wide, and flat
+     across every phone because the 6vw term does not reach 3.5rem until 933px.
+     10.6vw reaches this floor at 340px, so the gap grows with the screen the
+     way it was meant to, and starts a third smaller. */
+  .article-page { --section-space: clamp(2.25rem, 10.6vw, 3.5rem); }
   .article-section { padding: var(--section-space) 0; }
-  .article-section h2 { font-size: clamp(2rem, 10vw, 2.55rem); }
+  /* A clamp only starts to move at 1600 * floor / vw pixels wide, so a floor
+     picked for desktop leaves the size pinned across every phone. Sized the
+     other way round here: 7.9vw reaches this floor at 340px, so the step is
+     live from the narrowest phone up.
+
+     At 2.55rem this heading was 37.5px against an h1 of 39.4px, which is a
+     ratio of 1.05: on a phone there was no telling a page title from a section
+     heading, and the longest h2 needed three lines with a short word alone on
+     the last. Both come from the same number. 1.9rem restores the 1.44 ratio
+     the desktop layout already has, and the same heading fits two lines. */
+  .article-section h2,
+  .read-next > h2 { font-size: clamp(1.45rem, 7.9vw, 1.9rem); }
   .article-section p { font-size: 1.04rem; line-height: 1.62; }
   .article-intro > p:first-child { font-size: 1.2rem; }
   .bass-music-page { --section-space: clamp(2.75rem, 12vw, 3.75rem); --media-space: 2rem; }
@@ -1023,7 +1075,7 @@
      grid cell, and a second child there would fire the sparks from this line
      instead of the button. */
   padding: clamp(1.6rem, 4vw, 2.5rem) clamp(1.6rem, 4vw, 2.75rem) 0;
-  font: 400 .74rem/1 var(--mono);
+  font: 400 .74rem/1.4 var(--mono);
   letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--sel-muted);
@@ -1034,6 +1086,8 @@
    press drives it 6px into that shadow (a real button travel); release springs
    it back past rest. Only transform + the hard box-shadow animate, so it stays
    on the compositor and holds 60fps on a mid phone. */
+/* the count is a list of parts; a phone should wrap between them, not inside */
+.selector-page .sel-count span { white-space: nowrap; }
 .selector-page .sel-count:not([hidden]) + .sel-go-wrap { padding-top: .85rem; }
 .selector-page .sel-go-wrap {
   position: relative;

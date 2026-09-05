@@ -98,7 +98,9 @@ export function articleHero({kicker, title, deck, readingTime, dateModified, dat
   const meta = readingTime || dateModified
     ? `<div class="article-meta">${readingTime ? `<p class="reading-time">${escapeHtml(readingTime)}</p>` : ''}${dateModified ? `<p class="article-updated">Updated <time datetime="${escapeHtml(dateModified)}">${escapeHtml(dateLabel || dateModified)}</time></p>` : ''}</div>`
     : '';
-  return `<header class="article-hero"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}<p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${articleTableOfContents({items:tocItems})}</header>`;
+  // kicker, title and the reading line share one filled ground, so they need one
+  // element to paint. The deck stays outside it.
+  return `<header class="article-hero"><div class="article-masthead"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}</div><p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${articleTableOfContents({items:tocItems})}</header>`;
 }
 
 export function articleSection({id = '', title, bodyHtml = '', kicker = '', className = ''} = {}) {
