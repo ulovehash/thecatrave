@@ -10,6 +10,8 @@ Dubstep is a bass-led electronic style that formed in south London in the early 
 
 ## Croydon, Big Apple and a sound with no name
 
+Dubstep did not appear from nowhere. It is one branch of a lineage this site traces in full in the [UK electronic music guide](/uk-electronic-music-evolution), running from rave through hardcore and jungle to everything that came after.
+
 Croydon is not where anyone would set a story about the future of dance music. Mala described the place he grew up in without decoration: "I remember growing up and thinking that the sky was grey, the streets were grey, and the buildings were grey." The town sits at the southern edge of London, close enough to matter, far enough to be left alone.
 
 What Croydon had was a record shop. Big Apple Records sold garage and hardcore to a small local crowd, and by the early 2000s the people behind the counter and the people loitering in front of it were the same people making the records. Hatcha worked there. So did Hijak, and so did a teenage Skream. Mala, Loefah, Coki and Benga all had early releases on the shop's label, which launched in 2002 with Artwork's "Red".
@@ -21,6 +23,8 @@ The name arrived from outside the room. It is usually credited to Neil Jolliffe 
 None of this began in Croydon in the deeper sense. The idea that a record is a physical event, that bass is something a room does to your body rather than something a speaker plays, arrives in south London through Caribbean sound-system culture, through dub, through decades of Jamaican practice reworked by British children of that migration. Dubstep did not invent bass weight. It inherited it, and the wider inheritance is the subject of the bass music guide.
 
 ## How dubstep is built: 140 BPM, half-time and dubstep bass
+Dubstep BPM is 140, and the whole trick of the genre is that it does not feel like 140.
+
 
 The technical description is simple enough to be worth knowing. Dubstep runs between roughly 138 and 142 beats per minute, and almost everything is written at 140. Loefah described the working method plainly: "We all started writing bassline music at around 138BPM, then meeting up on Fridays and playing them to each other."
 

@@ -17,6 +17,8 @@ By 1994 jungle had reached the UK charts and daytime radio, and the version of i
 The argument about what was gained and lost in that rename, who got left behind, and what General Levy did or did not say, is the jungle scene's own story, and [the jungle guide tells it as an epilogue](/jungle-music-guide#myths). For drum and bass it is the opposite: the starting point. Everything after this section assumes the split already happened.
 
 ## How drum and bass is built: 174 BPM, the break and the low end
+Drum and bass BPM sits at 174, give or take a couple either side, and almost everything else about the genre follows from that number.
+
 
 The tempo is the first fact. Drum and bass sits between 160 and 180 beats per minute and has settled, since about 1996, on 174 as a de facto standard. That is fast, and it is why the drums matter so much: at that speed a producer cannot lean on a four-to-the-floor kick, so the rhythm is carried by a breakbeat, a sampled and rearranged drum passage from a funk or soul record. The break most associated with the genre is the Amen, six seconds of drums from a 1969 B-side, timestretched and cut apart into new patterns. That editing technique, and the copyright story around the break, is the subject of [the breakbeat guide](/breakbeat-guide); the way jungle producers first weaponised it at speed is covered in [the jungle guide](/jungle-music-guide#breakbeats).
 
@@ -38,7 +40,7 @@ The dark turn was one answer to 1995. Another ran through a club night called Sp
 
 The other centre of the melodic version was not in London at all. In Bristol, Roni Size, Krust, Die and Suv formed the collective Reprazent, and Bristol labels, Full Cycle and the V Recordings axis run by Bryan Gee and Jumpin Jack Frost, built a rolling, jazz-inflected sound with a live-band feel. In 1997 Reprazent's New Forms won the Mercury Prize, beating OK Computer, and for a moment the sound of British music writing about itself was a drum and bass record made in Bristol. "Brown Paper Bag", from that album, is the track that reached people who owned no other record in the genre.
 
-By 2000 the melodic branch had a name of its own, liquid, after a Fabio mix CD called Liquid Funk, and it became the genre's most exportable form: soulful, vocal, built on rolling two-step, carried by Calibre, High Contrast, Marcus Intalex and, later, the Hospital Records roster. Grooverider and Fabio took the whole spread of it onto national radio, holding a Radio 1 drum and bass show from 1998 that ran for two decades.
+By 2000 the melodic branch had a name of its own, liquid drum and bass, after a Fabio mix CD called Liquid Funk, and it became the genre's most exportable form: soulful, vocal, built on rolling two-step, carried by Calibre, High Contrast, Marcus Intalex and, later, the Hospital Records roster. Grooverider and Fabio took the whole spread of it onto national radio, holding a Radio 1 drum and bass show from 1998 that ran for two decades.
 
 ## The subgenres and what they mean
 
@@ -55,6 +57,8 @@ The music also kept moving between the deep side and the loud side without ever 
 Since 2021 there has been a resurgence, and this time the numbers are attached to it: Spotify reported drum and bass streams up around 94 per cent between 2021 and 2024, with most of those listeners under 34, and Pitchfork wrote in 2021 about a rising zoomer affinity for the genre. Nia Archives is the name most attached to the revival; her 2024 album Silence Is Loud reached number 16 on the UK albums chart, and it does the thing the whole guide keeps circling back to, folding jungle's breakbeats and reggae feel back into a drum and bass record. [The jungle guide covers that revival from the other end](/jungle-music-guide#revival).
 
 ## Where drum and bass is now
+The drum and bass artists who define the current moment are not the ones who defined 1997, and the list turns over faster than it used to.
+
 
 Drum and bass is no longer a scene that has to be defended or explained. It has a festival circuit, a streaming audience that skews young, a technical school that produces engineers as much as artists, and a back catalogue deep enough that a new listener can spend a year inside 1995 alone. The split with jungle that started this story has, in practice, closed: the artists driving the current wave treat jungle and drum and bass as one toolkit, which is roughly where the two words started.
 

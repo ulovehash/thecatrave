@@ -71,11 +71,13 @@ test('homepage article grid: 1 / 2 columns then one full row, no orphan', async 
   expect((await gridAt(375)).columns).toBe(1);
   expect((await gridAt(834)).columns).toBe(2);
 
-  // Wide desktop: the auto-fit grid puts every guide card on one row with no
-  // half-width orphan, however many guides the catalog holds.
+  // Wide desktop: four across, so the guides read as full rows rather than one
+  // thin strip. What matters is that the last row is not a lone orphan, which
+  // is what the count used to guarantee by putting everything on one line.
   const wide = await gridAt(1440);
-  expect(wide.columns).toBe(wide.cardCount);
-  expect(wide.rows).toBe(1);
+  expect(wide.columns).toBe(4);
+  const lastRow = wide.cardCount % wide.columns;
+  expect(lastRow === 0 || lastRow > 1).toBe(true);
 });
 
 test('in-article Read Next grid: 1 / 2 / 4 columns by viewport', async ({ page }) => {

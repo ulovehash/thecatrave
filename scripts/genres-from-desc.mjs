@@ -1,31 +1,29 @@
-// Tag sets with genres pulled from the video *description*. Run it for every
-// channel: BROADCASTER="" node scripts/genres-from-desc.mjs
+// Tag sets with genres pulled from the video *description*. Run it only for the
+// channels in DEFAULT below:
 //
-// This used to default to four channels on the belief that "HÖR, The Lot Radio,
-// Rinse and Cercle put no genre in the description". That is not true. Measured
-// on 60 untagged sets drawn evenly across all 37 channels, 59 had a description
-// and 14 of them named a genre - 23%, the best signal left after the artist
-// registry. The Lot Radio's own Summer School Radio blurbs say "r&b"; Kiosk
-// Radio's Gay Haze says "house, electro, and progressive trance".
+//   node scripts/genres-from-desc.mjs
 //
-// An earlier measurement put descriptions at 2%. It was taken over the existing
-// cache, which held only the four channels above plus boilerplate, and it was
-// wrong for the catalogue as a whole.
+// Do not widen it. This header once said that HOR, The Lot Radio, Rinse and
+// Cercle put no genre in their descriptions. That was overruled in September
+// 2026 on the strength of a 60-set sample that scored 23%, the scope was opened
+// to all 37 channels, and 23,102 descriptions were fetched.
 //
-//   BROADCASTER="Elevator Music,NTS Radio,Kiosk Radio,Beatport" node scripts/genres-from-desc.mjs
-//   node scripts/apply-genres.mjs && node build-selector.mjs
+// The result was zero. Of those, 9,082 were empty and 3,009 named a genre, but
+// every one of the 3,009 belonged to a set that the artist registry, the title
+// rules or Discogs had already tagged. Fifteen thousand untagged sets had a
+// cached description by the end and not one of them yielded a genre.
 //
-// Raw descriptions are cached per video id in selector-desc-cache.json, so a
-// re-run only fetches new videos and parsing-rule changes cost nothing.
+// The sample was not wrong when it was taken. It was taken before the Discogs
+// pass and before declaredGenresInTitle, and those two filled exactly the sets
+// the descriptions would have filled. The original header was right.
 
 import fs from 'node:fs';
 import https from 'node:https';
 import { genresFromDesc } from './genre-text.mjs';
 
 const DEFAULT = ['Elevator Music', 'NTS Radio', 'Kiosk Radio', 'Beatport'];
-const ONLY = (process.env.BROADCASTER === undefined ? DEFAULT.join(',') : process.env.BROADCASTER).split(',').map(s => s.trim()).filter(Boolean);
-// empty BROADCASTER means every channel, matching genres-from-tags.mjs
-const inScope = s => !ONLY.length || ONLY.includes(s.broadcaster);
+const ONLY = (process.env.BROADCASTER || DEFAULT.join(',')).split(',').map(s => s.trim()).filter(Boolean);
+const inScope = s => ONLY.includes(s.broadcaster);
 const DELAY = 130;
 const CACHE_FILE = 'selector-desc-cache.json';
 

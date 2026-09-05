@@ -13,7 +13,7 @@ import fs from 'node:fs';
 import { matchTag, VOCAB } from './genre-vocab.mjs';
 import { MANUAL, CHANNEL_GENRES } from './genre-manual.mjs';
 import { artistKeys, artistKey } from './artist-key.mjs';
-import { genresFromDesc } from './genre-text.mjs';
+import { genresFromDesc, declaredGenresInTitle } from './genre-text.mjs';
 import { SERIES, seriesKey } from './genre-series.mjs';
 
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
@@ -73,7 +73,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, series: 0, channel: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, title: 0, declared: 0, series: 0, channel: 0, keywords: 0, description: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -85,6 +85,13 @@ for (const s of sets) {
   if (fromArtist) bySource.artist += 1;
 
   if (!acc.length && s.genres && s.genres.length) { acc.push(...s.genres); bySource.title += 1; }
+
+  // A genre the title states outright, which the fetch-time parser misses:
+  // "SOLARDO naughty tech house set in the Lab LDN" was going untagged.
+  if (!acc.length) {
+    const declared = declaredGenresInTitle(titles[s.id]);
+    if (declared.length) { acc.push(...declared); bySource.declared += 1; }
+  }
 
   if (!acc.length) {
     const kw = kwGenres(tagsCache[s.id]);

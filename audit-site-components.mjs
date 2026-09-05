@@ -159,10 +159,11 @@ const checks = {
   homeArticleCount: count(pages.home, /<span class="number">A0[1-9]<\/span>/g) === currentHomeArticles.length,
   homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
-  // Not auto-fit any more. With seven guides the tracks would not shrink below
-  // their content, so the seventh dropped to a row of its own and the layout
-  // test's no-orphan rule failed. The count now comes from the card count.
-  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(var(--article-cards,4),minmax(0,1fr))}') && pages.home.includes('style="--article-cards:') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
+  // Fixed at four. auto-fit could not shrink tracks below their content, and
+  // driving the count from the card count only postponed the problem: at ten
+  // articles a single row is unreadable. Two rows of four, and past eight
+  // articles the answer is a separate /articles page.
+  homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(4,minmax(0,1fr))}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
   homeStylesInlined: pages.home.includes(`<style>${homeCss.trim()}</style>`),
   homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 13 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
   homeHeroOptimized: ['thecatrave-home-640.webp','thecatrave-home-720.webp','thecatrave-home-960.webp','thecatrave-home-1200.webp'].every(asset => fs.existsSync(`img/${asset}`) && pages.home.includes(asset)) && !pages.home.includes('src="img/thecatrave-1200.webp"'),

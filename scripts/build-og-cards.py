@@ -58,6 +58,7 @@ HERO = {
     "dubstep": "img/dubstep/dubplate-lathe.webp",
     "drum-and-bass": "img/dnb/dnb-cover.webp",
     "uk-garage": "img/skream-1200.webp",
+    "how-to-find-new-music": "img/NOW-1024.webp",
     "selector": None,             # its hero is the wall of channel logos
 }
 KICKER = {"home": "thecatrave.com", "tool": "Tool", "guide": "Guide"}

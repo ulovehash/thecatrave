@@ -2,28 +2,28 @@ import fs from 'node:fs';
 
 export const homeArticleCatalog = [
   {
-    page:'breakbeat-guide.html', href:'/breakbeat-guide', type:'Guide', topic:'Breakbeat',
+    page:'breakbeat-guide.html', tags:['breaks','uk','nineties','sampling'], href:'/breakbeat-guide', type:'Guide', topic:'Breakbeat',
     title:'Breakbeat Music: History, Sound and Evolution',
     description:'From funk breaks and pirate radio to cracked VSTs and modern bass hybrids.',
     image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
     width:1200, height:800, alt:'The Amen break waveform and drum pattern'
   },
   {
-    page:'jungle-music-guide.html', href:'/jungle-music-guide', type:'Guide', topic:'Jungle',
+    page:'jungle-music-guide.html', tags:['breaks','uk','nineties','soundsystem'], href:'/jungle-music-guide', type:'Guide', topic:'Jungle',
     title:'Jungle Music: From Roots to Revival',
     description:'Pirate radio, dubplates, MC energy and the global return of a distinctly Black British sound.',
     image:'img/Dubplates-320.png', srcset:'img/Dubplates-320.png 320w,img/Dubplates.png 1024w',
     width:1024, height:1024, alt:'Illustrated dubplates representing jungle music culture'
   },
   {
-    page:'uk-electronic-music-evolution.html', href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
+    page:'uk-electronic-music-evolution.html', tags:['uk','history','overview'], href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
     title:'The Evolution of UK Electronic Music',
     description:'Ten sounds that travelled from regional underground scenes into global culture.',
     image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
     width:1024, height:683, alt:'British electronic music artists performing in a dark club'
   },
   {
-    page:'bass-music-guide.html', href:'/bass-music-guide', type:'Guide', topic:'Bass music',
+    page:'bass-music-guide.html', tags:['bass','global','soundsystem'], href:'/bass-music-guide', type:'Guide', topic:'Bass music',
     title:'What Is Bass Music? History, Genres and Essential Tracks',
     description:'A global history connecting Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',
     image:'img/bass-music/miami-bass-loc-ace-vic-480.jpg',
@@ -31,7 +31,7 @@ export const homeArticleCatalog = [
     width:1400, height:933, alt:'Miami bass artists Loc Ace and Vic in front of a club sound system in 1993'
   },
   {
-    page:'dubstep-guide.html', href:'/dubstep-guide', type:'Guide', topic:'Dubstep',
+    page:'dubstep-guide.html', tags:['bass','uk','twothousands','soundsystem'], href:'/dubstep-guide', type:'Guide', topic:'Dubstep',
     title:'What Is Dubstep? Origins, Sound and the Genre Split',
     description:'From south London record shops and 200-capacity basements to a genre that split into two sounds sharing one name.',
     image:'img/dubstep/dubplate-lathe-320.webp',
@@ -39,7 +39,15 @@ export const homeArticleCatalog = [
     width:961, height:540, alt:'A vinyl cutting lathe with an acetate disc on the platter'
   },
   {
-    page:'uk-garage-guide.html', href:'/uk-garage-guide', type:'Guide', topic:'UK garage',
+    page:'how-to-find-new-music.html', tags:['discovery','tools'], href:'/how-to-find-new-music', type:'Guide', topic:'Music discovery',
+    title:'How to Find New Music: 10 Ways That Are Not an Algorithm',
+    description:'Ten ways to hear something you have not heard before, from community radio to record credits, ordered by how much work they take.',
+    image:'img/NOW-320.webp',
+    srcset:'img/NOW-320.webp 320w,img/NOW-1024.webp 1024w',
+    width:1024, height:1024, alt:'A record shop listening station'
+  },
+  {
+    page:'uk-garage-guide.html', tags:['uk','nineties','house','bass'], href:'/uk-garage-guide', type:'Guide', topic:'UK garage',
     title:'What Is UK Garage? The Sound, 2-Step, Speed Garage and Bassline',
     description:'London played an American record too fast until the beat broke. The branches it split into, and the numbers behind its revival.',
     image:'img/skream-320.webp',
@@ -47,7 +55,7 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'Skream playing a DJ set'
   },
   {
-    page:'drum-and-bass-guide.html', href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
+    page:'drum-and-bass-guide.html', tags:['breaks','uk','nineties','bass'], href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
     title:'What Is Drum and Bass? History, Sound and Subgenres',
     description:'The genre jungle became after the mid-1990s split: 174 BPM, chopped breaks and sub-bass, from Metalheadz to a global festival circuit.',
     image:'img/dnb/roni-size-320.webp',
@@ -73,10 +81,37 @@ export function homeArticlesWithReadingTimes() {
 // Related-article cards for the in-article Read Next block. Same catalog, same card
 // shape as the homepage grid, with the current article removed so a page never
 // recommends itself.
+// Related means related, not "everything else". This used to return the whole
+// catalogue minus the current page, which was seven cards per article at eight
+// articles and would have been nineteen at twenty. Now it scores by shared
+// tags and keeps the best few.
+//
+// Ties break towards the article that appears earlier in the catalogue, which
+// is the order the site already treats as editorial priority. A page whose tags
+// match nothing still gets RELATED_MIN cards so the block is never empty or
+// lonely: the discovery guide shares no tags with any genre guide, and a
+// dangling single card looks like a mistake rather than a choice.
+const RELATED_MAX = 4;
+const RELATED_MIN = 3;
+
 export function relatedArticles(currentPage) {
-  const related = homeArticlesWithReadingTimes()
-    .map((item, index) => ({...item, number:`A${String(index + 1).padStart(2, '0')}`}))
-    .filter(item => item.page !== currentPage && item.href !== currentPage);
-  if (related.length === homeArticleCatalog.length) throw new Error(`relatedArticles received an unknown page: ${currentPage}`);
-  return related;
+  const all = homeArticlesWithReadingTimes()
+    .map((item, index) => ({...item, number:`A${String(index + 1).padStart(2, '0')}`}));
+  const current = all.find(item => item.page === currentPage || item.href === currentPage);
+  if (!current) throw new Error(`relatedArticles received an unknown page: ${currentPage}`);
+
+  const mine = new Set(current.tags || []);
+  const others = all.filter(item => item !== current);
+  const scored = others.map((item, index) => ({
+    item,
+    index,
+    shared: (item.tags || []).filter(tag => mine.has(tag)).length
+  }));
+
+  scored.sort((a, b) => b.shared - a.shared || a.index - b.index);
+  const withTags = scored.filter(entry => entry.shared > 0).slice(0, RELATED_MAX);
+  const chosen = withTags.length >= RELATED_MIN
+    ? withTags
+    : scored.slice(0, RELATED_MIN);
+  return chosen.map(entry => entry.item);
 }

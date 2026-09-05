@@ -14,7 +14,7 @@
 // uk garage bpm 450, what is uk garage 350.
 import fs from 'node:fs';
 import {
-  articleFaq, articleFigure, articleHero, articleListeningBand, articlePage,
+  articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleVideoCard, articleVideoCollection,
   articleSection, articleSources, articleStructuredData, articleTable, authorCard,
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
@@ -67,7 +67,11 @@ const revival = paras(getSection('The revival, in numbers'));
 // FAQ questions come from the draft's "### " headings so the copy and the
 // structured data can never drift apart.
 const faqSection = getSection('FAQ');
-const faqItems = faqSection.split(/\n### /).slice(1).map(block => {
+// Split on the heading marker wherever it is, not only after a newline: the
+// first question sits at the very start of the section, so splitting on
+// "\n### " and dropping element zero silently swallowed it. Both new guides
+// shipped a draft with one more question than the page showed.
+const faqItems = faqSection.split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
   const body = rest.join('\n').trim();
   return {
@@ -96,6 +100,26 @@ const tempoRows = [
   ['Jungle and drum and bass', '160 to 175 BPM', 'Chopped breakbeat']
 ];
 
+// Both from Wikimedia Commons, downloaded and served locally rather than
+// hotlinked, credited in the caption as the licences require.
+const paradiseFigure = articleFigure({
+  src: 'img/uk-garage/paradise-garage-1200.webp',
+  srcset: 'img/uk-garage/paradise-garage-320.webp 320w, img/uk-garage/paradise-garage-1200.webp 1200w',
+  width: 1200, height: 1475,
+  alt: 'The entrance to the Paradise Garage in New York',
+  caption: 'Paradise Garage, King Street, New York. It closed in 1987, and British DJs named a genre after it that sounds nothing like anything Larry Levan played there. Photograph in the public domain, via Wikimedia Commons.',
+  className: 'wide-archive-image'
+});
+
+const craigDavidFigure = articleFigure({
+  src: 'img/uk-garage/craig-david-1200.webp',
+  srcset: 'img/uk-garage/craig-david-320.webp 320w, img/uk-garage/craig-david-1200.webp 1200w',
+  width: 1200, height: 1277,
+  alt: 'Craig David performing',
+  caption: 'Craig David sang on "Re-Rewind" at eighteen. It reached number two at the end of 1999 and took 2-step out of pirate radio and onto daytime television. Photograph by Raph_PH, CC BY 2.0, via Wikimedia Commons.',
+  className: 'wide-archive-image'
+});
+
 const skreamFigure = articleFigure({
   src: 'img/skream-1200.webp',
   srcset: 'img/skream-320.webp 320w, img/skream-1200.webp 1200w',
@@ -118,6 +142,68 @@ const garageClassics = articleListeningBand({
   iframeTitle: 'UK Garage Classics playlist on Spotify',
   fullBleed: true,
   tone: 'cyan'
+});
+
+// Every video id below is from this site's own catalogue, so each one is a set
+// that exists, is over twenty minutes and is still public. That is the one
+// media advantage the guide has over a Wikipedia article: it can show the
+// records being played rather than list their titles.
+// Each record sits in the section that argues about it, rather than collected
+// into one wall at the end: the reader hears Ripgroove while reading about
+// speed garage, not four sections later. Every id is the label's or the
+// artist's own upload, not a reupload.
+const speedGarageListening = articleVideoCollection({
+  label: 'Speed garage',
+  description: 'The record the section is about. A four to the floor kick, an enormous bass slide, and almost nothing else.',
+  items: [articleVideoCard({youtubeId: 'uR3Vw8J8vUo', genre: 'SPEED GARAGE, 1997', artist: 'Double 99', title: 'RIP Groove'})]
+});
+
+const twoStepListening = articleVideoCollection({
+  label: '2-step',
+  description: 'Four records that show what removing two kicks from the bar does. The crossover, the vocal everybody knows, the one with an arrangement, and the bassline every producer since has been rewriting.',
+  items: [
+    articleVideoCard({youtubeId: 'M0wv_cQv8As', genre: '2-STEP, 1999', artist: 'Artful Dodger and Craig David', title: 'Re-Rewind'}),
+    articleVideoCard({youtubeId: 'iR2tIyj8_y8', genre: '2-STEP, 2000', artist: 'Sweet Female Attitude', title: 'Flowers'}),
+    articleVideoCard({youtubeId: 'DXCtYUtjDYU', genre: '2-STEP, 1998', artist: 'MJ Cole', title: 'Sincere'}),
+    articleVideoCard({youtubeId: '-15oU-lNSnc', genre: '2-STEP, 2000', artist: 'Wookie', title: 'Battle'})
+  ]
+});
+
+const basslineListening = articleVideoCollection({
+  label: 'Bassline',
+  description: 'Sheffield\'s crossover, three weeks at number two in 2007 and the moment the northern branch got its due.',
+  items: [articleVideoCard({youtubeId: 'KG28976TmDM', genre: 'BASSLINE, 2007', artist: 'T2 and Jodie Aysha', title: 'Heartbroken'})]
+});
+
+const afterListening = articleVideoCollection({
+  label: 'What garage turned into',
+  description: 'Not garage by any strict definition, and the clearest evidence of where garage went once the vocals came off.',
+  items: [articleVideoCard({youtubeId: '8k_f2QK77ew', genre: 'AFTER GARAGE, 2007', artist: 'Burial', title: 'Archangel'})]
+});
+
+const revivalRecord = articleVideoCollection({
+  label: 'The revival, in one record',
+  description: 'Five weeks at number one, the 1,400th number one in the history of the UK chart, and unmistakably a garage record.',
+  items: [articleVideoCard({youtubeId: 'KtGFByAJRQQ', genre: 'REVIVAL, 2022', artist: 'Eliza Rose and Interplanetary Criminal', title: 'B.O.T.A.'})]
+});
+
+const napaFilm = articleVideoCollection({
+  label: 'Ayia Napa on film',
+  description: 'Boiler Room made a documentary about the four summers when the London garage scene relocated to a Cypriot resort town, which is more of the genre\'s memory than any record carries.',
+  items: [
+    articleVideoCard({youtubeId: 'yczsC9M5C5w', genre: 'DOCUMENTARY', artist: 'Boiler Room', title: 'Sun, Sea and UKG'})
+  ]
+});
+
+const revivalListening = articleVideoCollection({
+  label: 'The current generation',
+  description: 'The names that come up most across the 736 garage sets in the catalogue, in their most-watched appearances. Sammy Virji and Interplanetary Criminal are the two most likely to be playing on a night out this year.',
+  items: [
+    articleVideoCard({youtubeId: '6zPr1rk0Ans', genre: 'UK GARAGE', artist: 'Sammy Virji', title: 'Boiler Room, 2024'}),
+    articleVideoCard({youtubeId: 'qVzW8WpOpvw', genre: 'UK GARAGE', artist: 'Interplanetary Criminal', title: 'Boiler Room, 2025'}),
+    articleVideoCard({youtubeId: 'AWZ5F00eG_k', genre: 'UK GARAGE', artist: 'Yung Singh', title: 'Boiler Room, 2022'}),
+    articleVideoCard({youtubeId: '8vaEYbsuZu8', genre: 'UK GARAGE', artist: 'Anz', title: 'Boiler Room, 2022'})
+  ]
 });
 
 const soundHtml = `${join(sound)}${articleTable({
@@ -160,16 +246,16 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'A misunderstanding that became a genre.', bodyHtml: join(intro), className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is UK garage?', bodyHtml: join(whatIs)}),
-  articleSection({id: 'naming', title: 'Why it is called garage, and what New York has to do with it.', kicker: 'The name', bodyHtml: join(naming)}),
+  articleSection({id: 'naming', title: 'Why it is called garage, and what New York has to do with it.', kicker: 'The name', bodyHtml: `${join(naming.slice(0, 2))}${paradiseFigure}${join(naming.slice(2))}`}),
   articleSection({id: 'sound', title: 'The sound: 130 BPM and a beat that will not sit still.', bodyHtml: soundHtml}),
-  articleSection({id: 'speed-garage', title: 'Speed garage: the branch that kept the four to the floor.', kicker: '1995 to 1998', bodyHtml: join(speed)}),
-  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${skreamFigure}${join(twoStep.slice(2))}`}),
-  articleSection({id: 'bassline', title: 'Bassline: what happened when garage went north.', kicker: 'Sheffield', bodyHtml: branchesHtml}),
+  articleSection({id: 'speed-garage', title: 'Speed garage: the branch that kept the four to the floor.', kicker: '1995 to 1998', bodyHtml: `${join(speed.slice(0, 2))}${speedGarageListening}${join(speed.slice(2))}`}),
+  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${craigDavidFigure}${join(twoStep.slice(2))}${twoStepListening}`}),
+  articleSection({id: 'bassline', title: 'Bassline: what happened when garage went north.', kicker: 'Sheffield', bodyHtml: `${branchesHtml}${basslineListening}`}),
   articleSection({id: 'vs-house', title: 'Garage and house: what is actually different.', bodyHtml: join(vsHouse)}),
-  articleSection({id: 'ayia-napa', title: 'Ayia Napa: four summers in Cyprus.', bodyHtml: join(napa)}),
-  articleSection({id: 'dubstep-grime', title: 'How garage became dubstep and grime.', kicker: '2001 to 2005', bodyHtml: join(became)}),
-  articleSection({id: 'classics', title: 'The classics, and what each one explains.', bodyHtml: `${join(classics)}${garageClassics}`}),
-  articleSection({id: 'now', title: 'Who is playing it now.', bodyHtml: join(nowPlaying)}),
+  articleSection({id: 'ayia-napa', title: 'Ayia Napa: four summers in Cyprus.', bodyHtml: `${join(napa.slice(0, 2))}${napaFilm}${join(napa.slice(2))}`}),
+  articleSection({id: 'dubstep-grime', title: 'How garage became dubstep and grime.', kicker: '2001 to 2005', bodyHtml: `${join(became.slice(0, 3))}${skreamFigure}${join(became.slice(3))}${afterListening}`}),
+  articleSection({id: 'classics', title: 'The classics, and what each one explains.', bodyHtml: `${join(classics)}${revivalRecord}`}),
+  articleSection({id: 'now', title: 'Who is playing it now.', bodyHtml: `${join(nowPlaying.slice(0, 2))}${revivalListening}${join(nowPlaying.slice(2))}`}),
   articleSection({id: 'revival', title: 'The revival, in numbers.', bodyHtml: join(revival)}),
   articleFaq({items: faqItems, title: 'UK garage FAQ.', openFirst: true}),
   authorCard({filled: true}),

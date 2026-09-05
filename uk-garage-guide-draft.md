@@ -4,13 +4,13 @@
 
 UK garage is what happened when London got hold of an American record and played it wrong on purpose.
 
-The American original was garage house: warm, gospel-inflected dance music named after Paradise Garage, the New York club where Larry Levan played through the seventies and eighties. It arrived in British record shops in the early nineties as a b-side curiosity. What London did with it over the next decade produced a genre that sounds nothing like its parent, and then produced two more genres that sound nothing like it either.
+The American original was garage music in its first sense: warm, gospel-inflected house named after Paradise Garage, the New York club where Larry Levan played through the seventies and eighties. It arrived in British record shops in the early nineties as a b-side curiosity. What London did with it over the next decade produced a genre that sounds nothing like its parent, and then produced two more genres that sound nothing like it either.
 
 This guide covers the sound, where the name came from, the three branches the music split into, the moment it turned into dubstep and grime, and why more UK garage is being played now than at any point since 1999.
 
 ## What is UK garage
 
-UK garage is dance music built at roughly 130 beats per minute on a beat that refuses to sit straight. Where house puts a kick on every quarter note and lets you count it without trying, garage pulls the beat apart and leaves gaps in it. The swing is heavy, the bass is loud and short, and the vocals are usually sped up and cut into pieces.
+UK garage is dance music built at roughly 130 beats per minute on a beat that refuses to sit straight. As a garage music genre it sits between house and jungle and belongs to neither. Where house puts a kick on every quarter note and lets you count it without trying, garage pulls the beat apart and leaves gaps in it. The swing is heavy, the bass is loud and short, and the vocals are usually sped up and cut into pieces.
 
 The name is a British misunderstanding that stuck. It points at Paradise Garage in New York, but the music it describes is a London invention with almost nothing in common with what Larry Levan played there. By the time the word settled, "garage" in Britain meant something the Americans who inspired it would not have recognised.
 
@@ -28,7 +28,7 @@ This is why the qualifier matters. "Garage" in America means Larry Levan. "UK ga
 
 ## The sound: tempo, swing and the broken beat
 
-UK garage runs at 130 to 135 BPM. That number is the first thing to know about it, because the tempo is doing more work than it looks.
+UK garage BPM runs at 130 to 135. That number is the first thing to know about it, because the tempo is doing more work than it looks.
 
 At 120 you have house, which walks. At 170 you have jungle, which sprints. 130 is a specific and slightly awkward speed: fast enough to feel urgent, slow enough that you can hear every element separately. It is the tempo of a dance you can do in good shoes.
 
@@ -98,7 +98,7 @@ This is why the three genres are usually explained together. They are not neighb
 
 ## The classics
 
-A short list of records that do the explaining better than any paragraph can.
+A short list of old school garage records. Every UK garage classics playlist draws on these, and these UK garage songs do the explaining better than any paragraph can.
 
 Double 99, "Ripgroove", 1997. Speed garage in its purest form.
 
@@ -116,7 +116,7 @@ Burial, "Archangel", 2007. Not garage by any strict definition, and the clearest
 
 ## Who is playing it now
 
-The current generation is easier to describe with numbers than with adjectives.
+The current generation of UK garage artists is easier to describe with numbers than with adjectives.
 
 Across a catalogue of 62,877 recorded DJ sets from 37 channels, 736 are tagged as UK garage, 2-step, speed garage or bassline. The names that come up most often across those sets are Neffa-T, Coziest, Cromby, Yung Singh, Oneman, Conducta, Anz, Interplanetary Criminal, Introspekt and Eliza Rose.
 
@@ -152,7 +152,7 @@ Because of Paradise Garage, a New York club. British DJs were playing American g
 
 130 to 135 BPM. House sits lower, around 120 to 128, and jungle and drum and bass sit much higher, around 170.
 
-### What is the difference between UK garage and 2-step
+### What is 2 step garage, and how is it different from UK garage
 
 2-step is a branch of UK garage, not a separate genre. It is the version that removes two of the four kicks from the bar, which is what makes the beat skip. Speed garage, the other main branch, keeps all four.
 
