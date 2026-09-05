@@ -8,7 +8,31 @@
   const lengthsEl = document.getElementById('sel-lengths');
   const lengthsWrap = document.getElementById('sel-lengths-wrap');
   const modesEl = document.getElementById('sel-modes');
-  const GEM_MIN_VIEWS = 3000;
+  // Popular makes an absolute claim, so it takes a real slice off the top rather
+  // than a third. At a third the floor was 7K views, which nobody would call
+  // popular; at a tenth it is 62K. 6,266 sets is still more than anyone will get
+  // through, and because the share is taken from the filtered pool, asking for
+  // popular inside one channel still gives that channel's top rather than
+  // nothing.
+  const POPULAR_SHARE = 0.1;
+
+  // Hidden gems makes a relative claim by definition, so likes-per-view is the
+  // right measure. The views floor was not: at 3,000 it admitted 98% of Boiler
+  // Room and one set out of 228 from Manila, which quietly turned the mode into
+  // a channel filter. Smoothing does the job the floor was there for. A set with
+  // 10 views and 3 likes cannot score 30% because the pseudo-views drag it back
+  // to the catalogue average, and no channel gets excluded wholesale.
+  const GEM_SMOOTHING = 200;
+  let gemPrior = 0.024;                // replaced with the measured median at load
+
+  // Niche is about being overlooked, not about being new. On raw views it was
+  // largely the latter: 56% of 2026 uploads landed in it against 2% of 2016,
+  // because a set posted in May has not had time to be found yet. Views per year
+  // since upload asks the question the name asks. Year is the finest date the
+  // catalogue carries, so a set is treated as mid-year and never younger than
+  // four months.
+  const NOW = new Date().getFullYear() + new Date().getMonth() / 12;
+  const perYear = s => s.views / Math.max(0.35, NOW - ((s.year || 2020) + 0.5));
   // roughly two rows on a phone, which is enough for the group to read as a list
   const SOURCE_PEEK = 5;
   const GENRE_PEEK = 8;
@@ -44,7 +68,10 @@
     ['Hidden gems', 'gems', 'underrated sets'],
     ['Niche sets', 'deep', 'hear them first']
   ];
-  let mode = 'popular';
+  // All, not Popular. Popular is a tenth of the catalogue, so opening on it
+  // would mean the first press of the button never reaches the other nine, and
+  // the deck promises a set out of all 62,877.
+  let mode = 'any';
 
   const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -135,19 +162,20 @@
     const third = list => list.slice(0, Math.max(1, Math.ceil(list.length / 3)));
     if (mode === 'gems') {
       // loved per view rather than most-watched: the sets that punch above
-      // their audience. Needs a views floor or tiny uploads dominate.
-      const scored = next.filter(s => s.likes != null && s.views >= GEM_MIN_VIEWS)
-        .slice().sort((a, b) => (b.likes / b.views) - (a.likes / a.views));
+      // their audience, smoothed so a handful of views cannot fake a high rate
+      const smoothed = s => (s.likes + GEM_SMOOTHING * gemPrior) / (s.views + GEM_SMOOTHING);
+      const scored = next.filter(s => s.likes != null && s.views != null)
+        .slice().sort((a, b) => smoothed(b) - smoothed(a));
       if (scored.length) next = third(scored);
     } else if (mode === 'deep') {
       // the quiet end of the catalogue, so the long tail of artists gets played
-      const scored = next.filter(s => s.views != null).slice().sort((a, b) => a.views - b.views);
+      const scored = next.filter(s => s.views != null).slice().sort((a, b) => perYear(a) - perYear(b));
       if (scored.length) next = third(scored);
     } else if (mode === 'popular') {
       // "most-watched" taken literally, so the label, the chip note and the copy
-      // all describe the same thing. The exact mirror of "deep".
+      // all describe the same thing
       const scored = next.filter(s => s.views != null).slice().sort((a, b) => b.views - a.views);
-      if (scored.length) next = third(scored);
+      if (scored.length) next = scored.slice(0, Math.max(1, Math.ceil(scored.length * POPULAR_SHARE)));
     }
     pool = next;
     if (count) {
@@ -158,7 +186,10 @@
       if (activeLengths.size) bits.push(LENGTHS.filter(l => activeLengths.has(l[1])).map(l => l[0]).join(' / '));
       const label = (MODES.find(m => m[1] === mode) || [])[0];
       if (mode !== 'any' && label) bits.push(label.toLowerCase());
-      count.textContent = `${pool.length.toLocaleString('en-US')} sets${bits.length ? ' · ' + bits.join(' · ') : ''}`;
+      // each part is its own unbreakable run, so a narrow screen wraps between
+      // "popular" and "from 7K views" instead of between "from" and "7K"
+      count.innerHTML = [`${pool.length.toLocaleString('en-US')} sets`, ...bits]
+        .map(b => `<span>${escapeText(b)}</span>`).join(' · ');
       count.hidden = false;
     }
     if (!pool.length) setButton('Nothing matches, widen the filter', 'empty', true);
@@ -324,6 +355,9 @@
   }
 
   function buildFilters() {
+    const rates = all.filter(s => s.likes != null && s.views >= 1000)
+      .map(s => s.likes / s.views).sort((a, b) => a - b);
+    if (rates.length) gemPrior = rates[rates.length >> 1];
     const srcCounts = new Map();
     const genCounts = new Map();
     let untaggedCount = 0;
