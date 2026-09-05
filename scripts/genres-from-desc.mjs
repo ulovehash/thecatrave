@@ -1,10 +1,16 @@
-// Tag sets with genres pulled from the video *description*. Only worth running
-// for channels that describe the music there:
-//   Elevator Music - an explicit "Electronic, Hyperpop, Experimental" line
-//   NTS Radio      - #hashtags and prose ("French house", "#newwave")
-//   Kiosk Radio    - prose ("moves through dubstep", "reggaeton, tribal")
-//   Beatport       - artist-bio prose
-// HÖR / The Lot Radio / Rinse / Cercle put no genre in the description.
+// Tag sets with genres pulled from the video *description*. Run it for every
+// channel: BROADCASTER="" node scripts/genres-from-desc.mjs
+//
+// This used to default to four channels on the belief that "HÖR, The Lot Radio,
+// Rinse and Cercle put no genre in the description". That is not true. Measured
+// on 60 untagged sets drawn evenly across all 37 channels, 59 had a description
+// and 14 of them named a genre - 23%, the best signal left after the artist
+// registry. The Lot Radio's own Summer School Radio blurbs say "r&b"; Kiosk
+// Radio's Gay Haze says "house, electro, and progressive trance".
+//
+// An earlier measurement put descriptions at 2%. It was taken over the existing
+// cache, which held only the four channels above plus boilerplate, and it was
+// wrong for the catalogue as a whole.
 //
 //   BROADCASTER="Elevator Music,NTS Radio,Kiosk Radio,Beatport" node scripts/genres-from-desc.mjs
 //   node scripts/apply-genres.mjs && node build-selector.mjs
@@ -17,8 +23,9 @@ import https from 'node:https';
 import { genresFromDesc } from './genre-text.mjs';
 
 const DEFAULT = ['Elevator Music', 'NTS Radio', 'Kiosk Radio', 'Beatport'];
-const ONLY = (process.env.BROADCASTER || DEFAULT.join(',')).split(',').map(s => s.trim()).filter(Boolean);
-const inScope = s => ONLY.includes(s.broadcaster);
+const ONLY = (process.env.BROADCASTER === undefined ? DEFAULT.join(',') : process.env.BROADCASTER).split(',').map(s => s.trim()).filter(Boolean);
+// empty BROADCASTER means every channel, matching genres-from-tags.mjs
+const inScope = s => !ONLY.length || ONLY.includes(s.broadcaster);
 const DELAY = 130;
 const CACHE_FILE = 'selector-desc-cache.json';
 

@@ -14,10 +14,13 @@ import { matchTag, VOCAB } from './genre-vocab.mjs';
 import { MANUAL, CHANNEL_GENRES } from './genre-manual.mjs';
 import { artistKeys, artistKey } from './artist-key.mjs';
 import { genresFromDesc } from './genre-text.mjs';
+import { SERIES, seriesKey } from './genre-series.mjs';
 
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
 const readJson = f => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {});
 const registry = readJson('selector-artists.json');
+const videoCache = readJson('selector-videos-cache.json');
+const titles = Object.fromEntries(Object.entries(videoCache).map(([id, e]) => [id, e && e.t]));
 const tagsCache = readJson('selector-tags-cache.json');   // { videoId: [rawKeyword] }
 const descCache = readJson('selector-desc-cache.json');   // { videoId: descriptionText }
 
@@ -28,6 +31,21 @@ for (const [name, genres] of Object.entries(MANUAL)) {
   const row = registry[k] || (registry[k] = { display: name, sets: 0, broadcasters: [], genres: [], sources: [] });
   if (!row.genres || !row.genres.length) { row.genres = genres.slice(); row.sources = ['manual']; }
 }
+// Discogs: the styles on an artist's own releases, gathered by
+// scripts/genres-from-discogs.mjs behind three guards against matching a
+// namesake. Seeded into the registry like any other artist source, so it
+// travels to that artist's sets on every channel.
+let fromDiscogs = 0;
+for (const [k, rec] of Object.entries(readJson('selector-discogs-cache.json'))) {
+  if (!rec || !rec.genres || !rec.genres.length) continue;
+  const row = registry[k];
+  if (!row || (row.genres && row.genres.length)) continue;
+  row.genres = rec.genres.slice();
+  row.sources = [...new Set([...(row.sources || []), 'discogs'])];
+  fromDiscogs += 1;
+}
+console.log(`seeded ${fromDiscogs} artists from Discogs`);
+
 // Seed artists from the single-genre channels they played. An artist with no
 // genre from a stronger source inherits the channel's, which then travels with
 // them to every other channel in the catalogue.
@@ -55,7 +73,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, channel: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, title: 0, series: 0, channel: 0, keywords: 0, description: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -71,6 +89,14 @@ for (const s of sets) {
   if (!acc.length) {
     const kw = kwGenres(tagsCache[s.id]);
     if (kw.length) { acc.push(...kw); bySource.keywords += 1; }
+  }
+
+  // a recurring show's own genre, which beats the channel default because it
+  // is specific: Kiosk Radio is everything, its Amen break series is jungle
+  if (!acc.length) {
+    const t = titles[s.id];
+    const g = t && SERIES[seriesKey(t)];
+    if (g && g.length) { acc.push(...g); bySource.series += 1; }
   }
 
   if (!acc.length && CHANNEL_GENRES[s.broadcaster]) {

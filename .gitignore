@@ -19,3 +19,6 @@ blob-report/
 # fonts fetched by scripts/build-og-selector.py
 .cache/
 __pycache__/
+
+# Launch assets: screenshots for Product Hunt and similar, regenerated on demand
+img/launch/

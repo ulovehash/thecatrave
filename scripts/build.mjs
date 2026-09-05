@@ -18,6 +18,8 @@ export const generators = [
   'build-dubstep-article.mjs',
   'build-dnb-article.mjs',
   'build-selector.mjs',
+  // last, because its dates come from the pages the generators above produce
+  'build-sitemap.mjs',
   'build-home.mjs'
 ].filter(file => fs.existsSync(file));
 

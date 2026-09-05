@@ -3,7 +3,12 @@
 
 import { matchTag, VOCAB } from './genre-vocab.mjs';
 
-export const NOT_A_SET = /\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
+// Talk that reached the catalogue because it runs over twenty minutes. Only
+// unambiguous markers belong here: "workshop" is a Boiler Room label,
+// "masterclass" and "album launch" are how some real sets are billed, "Common
+// Poetry" is an act on HÖR, and 312 titles say "podcast" while being mixes.
+// Filtering those would cost more music than it removes talk.
+export const NOT_A_SET = /\((talk|interview)\)|\blecture\b|\bbook launch\b|swiss jazz hour|\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
 
 const COUNTRY = /\s*[([][^)\]]{0,30}(JP|NL|DE|UK|US|BR|FR|IT|ES|AR|KR|SW|Osaka|Tokyo|Berlin|London|Seoul)[^)\]]*[)\]]\s*$/i;
 const TRAIL = /\s*[–—-]?\s*\b(dj[ -]?set|live set|live in session|live|b2b set|closing set|opening set|full set|guest ?mix|guestmix|in-?studio( live)?|selects?)\b[\s.]*$/i;
