@@ -1,29 +1,36 @@
-// Tag sets with genres pulled from the video *description*. Run it only for the
-// channels in DEFAULT below:
+// Tag sets with genres pulled from the video *description*.
 //
-//   node scripts/genres-from-desc.mjs
+//   BROADCASTER="" node scripts/genres-from-desc.mjs   (every channel)
 //
-// Do not widen it. This header once said that HOR, The Lot Radio, Rinse and
-// Cercle put no genre in their descriptions. That was overruled in September
-// 2026 on the strength of a 60-set sample that scored 23%, the scope was opened
-// to all 37 channels, and 23,102 descriptions were fetched.
+// This header has been wrong twice, in opposite directions, and both times the
+// error was in how the result was measured rather than in the source.
 //
-// The result was zero. Of those, 9,082 were empty and 3,009 named a genre, but
-// every one of the 3,009 belonged to a set that the artist registry, the title
-// rules or Discogs had already tagged. Fifteen thousand untagged sets had a
-// cached description by the end and not one of them yielded a genre.
+// It first said HOR, The Lot Radio, Rinse and Cercle put no genre in their
+// descriptions, so the script only ran for four channels. That was overruled on
+// a 60-set sample scoring 23%, and 23,102 descriptions were fetched.
 //
-// The sample was not wrong when it was taken. It was taken before the Discogs
-// pass and before declaredGenresInTitle, and those two filled exactly the sets
-// the descriptions would have filled. The original header was right.
+// The fetch was then declared a total failure: zero untagged sets gained a
+// genre. That measurement was taken against a selector-data.json which several
+// earlier runs of apply-genres had already written to, and apply-genres reads
+// the same field it writes. Every set the descriptions could have filled was
+// already full, so the source looked worthless.
+//
+// Rebuilt from the cache with SKIP_FETCH=1, so the file holds only fetch-time
+// genres again, descriptions account for 1,911 tagged sets, the second largest
+// source after the artist registry. The pass was worth running. Widening the
+// scope was right.
+//
+// The lesson is not about descriptions. It is that a source cannot be measured
+// against a file that another source has already filled in.
 
 import fs from 'node:fs';
 import https from 'node:https';
 import { genresFromDesc } from './genre-text.mjs';
 
 const DEFAULT = ['Elevator Music', 'NTS Radio', 'Kiosk Radio', 'Beatport'];
-const ONLY = (process.env.BROADCASTER || DEFAULT.join(',')).split(',').map(s => s.trim()).filter(Boolean);
-const inScope = s => ONLY.includes(s.broadcaster);
+const ONLY = (process.env.BROADCASTER === undefined ? DEFAULT.join(',') : process.env.BROADCASTER).split(',').map(s => s.trim()).filter(Boolean);
+// empty BROADCASTER means every channel, which is what it should be
+const inScope = s => !ONLY.length || ONLY.includes(s.broadcaster);
 const DELAY = 130;
 const CACHE_FILE = 'selector-desc-cache.json';
 

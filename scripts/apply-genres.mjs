@@ -17,6 +17,9 @@ import { genresFromDesc, declaredGenresInTitle } from './genre-text.mjs';
 import { SERIES, seriesKey } from './genre-series.mjs';
 
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
+// Snapshot the fetch-time genres before anything overwrites them, so a re-run
+// evaluates the same rules against the same inputs as the first run did.
+const fetchGenres = Object.fromEntries(sets.map(s => [s.id, (s.genres || []).slice()]));
 const readJson = f => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {});
 const registry = readJson('selector-artists.json');
 const videoCache = readJson('selector-videos-cache.json');
@@ -73,7 +76,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, declared: 0, series: 0, channel: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, title: 0, b2b: 0, declared: 0, series: 0, channel: 0, keywords: 0, description: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -84,7 +87,31 @@ for (const s of sets) {
   }
   if (fromArtist) bySource.artist += 1;
 
-  if (!acc.length && s.genres && s.genres.length) { acc.push(...s.genres); bySource.title += 1; }
+  // Only the genre the fetch parser put here, not whatever a previous run of
+  // this script wrote back. apply-genres reads and writes selector-data.json,
+  // so without this every rule below it was dead on the second run: the file
+  // already had an answer and no later source ever fired.
+  const fromFetch = fetchGenres[s.id];
+  if (!acc.length && fromFetch && fromFetch.length) { acc.push(...fromFetch); bySource.title += 1; }
+
+  // Two names on one set: if one of them is known, the other almost certainly
+  // played the same music that night. Measured at 349 sets across the
+  // catalogue. The length guard is there because splitting on "and" turns
+  // "drum and bass set" into a lookup for "drum", which matched an artist.
+  if (!acc.length && s.artist && /\s+(?:b2b|back to back|vs\.?|x|&|and|\+)\s+/i.test(s.artist)) {
+    for (const part of s.artist.split(/\s+(?:b2b|back to back|vs\.?|x|&|and|\+)\s+/i)) {
+      const name = part.trim();
+      // splitting on "and" turns "drum and bass set" into "drum", which matches
+      // an artist of that name, so a part that is itself a genre word is skipped
+      if (name.length < 4 || matchTag(name.toLowerCase())) continue;
+      let found = null;
+      for (const k of artistKeys(name)) {
+        const row = registry[k];
+        if (row && row.genres && row.genres.length) { found = row.genres; break; }
+      }
+      if (found) { acc.push(...found); bySource.b2b += 1; break; }
+    }
+  }
 
   // A genre the title states outright, which the fetch-time parser misses:
   // "SOLARDO naughty tech house set in the Lab LDN" was going untagged.
