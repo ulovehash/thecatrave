@@ -21,3 +21,21 @@ the list. It was caught by a reader, not by the research.
 here and absent from the page fails the audit, so drop a term rather than stuff
 it: an entry removed on purpose is honest, a phrase wedged into a sentence to
 satisfy a checker is not.
+
+## Expanding a map that already exists
+
+The lists are not finished when a page ships. Every few weeks, or whenever a
+page is edited substantially, run `keywords-explorer-related-terms` on the
+`seed` again and compare what comes back against `terms`.
+
+Record the decision either way. A term you add goes in `terms` and the audit
+then forces the page to contain it. A term you decide against goes in
+`rejected` with a one-line `why`, so the next person does not spend units
+rediscovering that "music garage" is mostly people looking for a rehearsal
+room. `expansion_checked` says when the seed was last expanded and with what.
+
+The judgement is intent, not volume. "armand van helden" at 7,000 a month
+earned a sentence in the UK garage guide because his Spin Spin Sugar remix is
+genuinely part of the speed garage story and the sentence is one a reader
+wants. "garage uk" at 1,400 did not, because it is "uk garage" with the words
+swapped and writing it out would read like a machine wrote it.

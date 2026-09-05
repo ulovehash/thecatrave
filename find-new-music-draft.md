@@ -6,7 +6,7 @@ You have a problem that would have sounded absurd twenty years ago: there is too
 
 The reason is not laziness. It is that almost every route into music now runs through a recommendation engine, and a recommendation engine can only work from what you already played. It is built to be right, and being right means giving you a version of what you liked last week. That is a useful machine for a commute and a terrible one for finding anything you did not already half know.
 
-Everything below is a way around that: ten music discovery methods that do not depend on a machine knowing your history. None of it requires deleting Spotify. It is a new music discovery routine rather than a single trick, and the methods are ordered by how much work they take, starting with the ones where somebody else has already done the listening.
+Everything below is a way around that: ten ways to discover new music that do not depend on a machine knowing your history. None of it requires deleting Spotify. It is a new music discovery routine rather than a single trick, and the methods are ordered by how much work they take, starting with the ones where somebody else has already done the listening.
 
 ## Radio
 
@@ -48,7 +48,7 @@ Look at a record you love and find who produced it. Then find everything else th
 
 This works better than following artists because artists are a brand and producers are a taste. An artist's back catalogue mostly sounds like that artist. A producer's back catalogue is twenty artists filtered through one pair of ears.
 
-Discogs credits are the easiest way to do this. Look up a release, read the credits, follow the names.
+If you want to find similar music to a record you already love, the credits are a better route than any recommendation engine. Discogs is the easiest way to read them: look up a release, read the credits, follow the names.
 
 ## Every Noise at Once
 

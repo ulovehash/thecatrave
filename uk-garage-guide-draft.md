@@ -42,6 +42,8 @@ Speed garage came first, around 1995 to 1997, and it is the branch that kept the
 
 It took the pitched-up American vocal house that started the whole thing and added a jungle bassline underneath: the wobbling, sliding low end that British producers had spent the early nineties perfecting on a different tempo. The result was a record you could mix with house but which had a bottom end from a completely different world.
 
+Speed garage has a second origin story, and it runs through New York. Armand van Helden's 1996 remix of Sneaker Pimps' "Spin Spin Sugar" put a rolling, sub-heavy bassline under a British vocal, and it is often credited with breaking speed garage into the mainstream.
+
 Double 99's "Ripgroove" is the record most people reach for. It is a four to the floor kick, an enormous bass slide, and almost nothing else, and it explains the genre in about thirty seconds.
 
 Speed garage was the sound of 1997, and it burned out fast. Within two years the scene had moved to a broken beat and speed garage looked briefly like a dead end. It was not: it came back through bassline a decade later, and again through the current revival, which has more speed garage in it than any period since.

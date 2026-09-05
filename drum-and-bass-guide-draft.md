@@ -6,7 +6,7 @@ This guide covers where that turn happened, how the music is put together, the b
 
 ## DRUM AND BASS DEFINITION
 
-Drum and bass is a British electronic style that runs at roughly 174 beats per minute, built from chopped breakbeats over deep sub-bass. It formed in the mid-1990s out of jungle: as jungle moved into the charts, a part of the scene distanced itself from the ragga-heavy sound and the name, and the term drum and bass, often written DnB or d&b, took its place. What began as a rebrand became a genre with its own production techniques, labels, subgenres and global circuit. Jungle is the scene of 1991 to 1995; drum and bass is what most of it became.
+Drum and bass is a British electronic style that runs at roughly 174 beats per minute, built from chopped breakbeats over deep sub-bass. It is written drum n bass as often as drum and bass, and shortened to dnb in most places people actually talk about it. It formed in the mid-1990s out of jungle: as jungle moved into the charts, a part of the scene distanced itself from the ragga-heavy sound and the name, and the term drum and bass, often written DnB or d&b, took its place. What began as a rebrand became a genre with its own production techniques, labels, subgenres and global circuit. Jungle is the scene of 1991 to 1995; drum and bass is what most of it became.
 
 ## Where jungle ended
 

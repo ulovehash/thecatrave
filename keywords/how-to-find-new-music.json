@@ -3,20 +3,81 @@
   "seed": "find new music",
   "source": "ahrefs keywords-explorer, September 2026, global volume",
   "terms": [
-    {"term": "music discovery", "volume": 1800},
-    {"term": "how to find new music", "volume": 1400},
-    {"term": "discover new music", "volume": 1100},
-    {"term": "find new music", "volume": 900},
-    {"term": "how to discover new music", "volume": 900},
-    {"term": "discover new artists", "volume": 300},
-    {"term": "music discovery websites", "volume": 300},
-    {"term": "music discovery apps", "volume": 200},
-    {"term": "how to find new music on spotify", "volume": 200},
-    {"term": "best way to discover new music", "volume": 150},
-    {"term": "new music discovery", "volume": 150},
-    {"term": "how to find new artists", "volume": 100},
-    {"term": "how to find music you like", "volume": 90},
-    {"term": "music discovery tools", "volume": 70},
-    {"term": "how to find underground music", "volume": 40}
+    {
+      "term": "music discovery",
+      "volume": 1800
+    },
+    {
+      "term": "how to find new music",
+      "volume": 1400
+    },
+    {
+      "term": "discover new music",
+      "volume": 1100
+    },
+    {
+      "term": "find new music",
+      "volume": 900
+    },
+    {
+      "term": "how to discover new music",
+      "volume": 900
+    },
+    {
+      "term": "discover new artists",
+      "volume": 300
+    },
+    {
+      "term": "music discovery websites",
+      "volume": 300
+    },
+    {
+      "term": "music discovery apps",
+      "volume": 200
+    },
+    {
+      "term": "how to find new music on spotify",
+      "volume": 200
+    },
+    {
+      "term": "best way to discover new music",
+      "volume": 150
+    },
+    {
+      "term": "new music discovery",
+      "volume": 150
+    },
+    {
+      "term": "how to find new artists",
+      "volume": 100
+    },
+    {
+      "term": "how to find music you like",
+      "volume": 90
+    },
+    {
+      "term": "music discovery tools",
+      "volume": 70
+    },
+    {
+      "term": "how to find underground music",
+      "volume": 40
+    },
+    {
+      "term": "ways to discover new music",
+      "volume": 90
+    },
+    {
+      "term": "find similar music",
+      "volume": 60
+    }
+  ],
+  "expansion_checked": "keywords-explorer-related-terms on 'find new music', September 2026",
+  "rejected": [
+    {
+      "term": "new music finder",
+      "volume": 70,
+      "why": "reads like a product name, no natural sentence"
+    }
   ]
 }

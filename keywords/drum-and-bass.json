@@ -3,13 +3,54 @@
   "seed": "drum and bass",
   "source": "ahrefs keywords-explorer, September 2026, global volume",
   "terms": [
-    {"term": "drum and bass", "volume": 19000},
-    {"term": "dnb", "volume": 350000},
-    {"term": "drum and bass artists", "volume": 2300},
-    {"term": "neurofunk", "volume": 1400},
-    {"term": "liquid drum and bass", "volume": 1000},
-    {"term": "drum and bass bpm", "volume": 700},
-    {"term": "what is drum and bass", "volume": 350},
-    {"term": "jump up", "volume": 150}
+    {
+      "term": "drum and bass",
+      "volume": 19000
+    },
+    {
+      "term": "dnb",
+      "volume": 350000
+    },
+    {
+      "term": "drum and bass artists",
+      "volume": 2300
+    },
+    {
+      "term": "neurofunk",
+      "volume": 1400
+    },
+    {
+      "term": "liquid drum and bass",
+      "volume": 1000
+    },
+    {
+      "term": "drum and bass bpm",
+      "volume": 700
+    },
+    {
+      "term": "what is drum and bass",
+      "volume": 350
+    },
+    {
+      "term": "jump up",
+      "volume": 150
+    },
+    {
+      "term": "drum n bass",
+      "volume": 3000
+    }
+  ],
+  "expansion_checked": "keywords-explorer-related-terms on 'drum and bass', September 2026",
+  "rejected": [
+    {
+      "term": "amen break",
+      "volume": 17000,
+      "why": "SERP is Wikipedia at 497 refdomains plus sample packs; covered in the breakbeat guide where it belongs"
+    },
+    {
+      "term": "dnb pattern",
+      "volume": 150,
+      "why": "production intent, and this site is written for listeners"
+    }
   ]
 }
