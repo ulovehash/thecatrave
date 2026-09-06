@@ -167,7 +167,8 @@
     },
     {
       "title": "Feel My Love — Matt \"Jam\" Lamont & Justin Cantor, 1991",
-      "why": "now named in the prose with the story of its six-year delay, but no legitimate embed exists: the 1991 original is on neither YouTube nor Spotify, only Discogs release 180712"
+      "why": "now named in the prose with the story of its six-year delay, but no legitimate embed exists: the 1991 original is on neither YouTube nor Spotify, only Discogs release 180712",
+      "no_embed_reason": true
     }
   ]
 }

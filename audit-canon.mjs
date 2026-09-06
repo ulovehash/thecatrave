@@ -11,6 +11,11 @@
 // in the prose and never embedded, which reads as a guide describing a record it
 // could not be bothered to play.
 //
+// A record with no_embed_reason is one nothing can legitimately play: a website
+// rather than a record, or a release with no upload on the label's or artist's
+// own channel. The reason is written down instead of the warning being ignored,
+// because a warning that everybody scrolls past is the same as no warning.
+//
 // Named but not embedded is a separate failure from absent, and is reported
 // separately, because they are different mistakes: one is an oversight in
 // research, the other in production.
@@ -72,7 +77,7 @@ for (const guide of pages.filter(p => p.kind === 'guide')) {
         failures.push(`${map.page}: "${rec.title}" (${rec.artist}) is required and absent — ${rec.why}`);
       } else if (rec.embed_id && !played) {
         failures.push(`${map.page}: "${rec.title}" is named but its embed is missing`);
-      } else if (!rec.embed_id) {
+      } else if (!rec.embed_id && !rec.no_embed_reason) {
         warnings.push(`${map.page}: "${rec.title}" is named but has no embed_id in the map`);
       }
     }

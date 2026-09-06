@@ -8,56 +8,76 @@
       "title": "Every Noise at Once",
       "year": null,
       "why": "article feature: 'Every Noise at Once aggregates critic and user scores across publications and is a fast way to see what a year looked like from outside your own listening.' Named as a primary tool for music discovery",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     },
     {
       "title": "Bandcamp",
       "year": null,
       "why": "article feature: dedicated Bandcamp section with multiple references. The page opens with 'Bandcamp is the only place left where you can bet on an artist you have never heard of.' Central to independent music discovery",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     },
     {
       "title": "Discogs",
       "year": null,
       "why": "article feature: alongside RateYourMusic in the databases section as canonical for collecting and discovery. 'Discogs and RateYourMusic are the two places people actually go to read about records.'",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     },
     {
       "title": "RateYourMusic",
       "year": null,
       "why": "article feature: paired with Discogs as essential database for record discovery and cultural mood. 'RateYourMusic is where you see what people are arguing about.'",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     },
     {
       "title": "NTS Radio",
       "year": null,
       "why": "article feature: opening line of the radio section: 'NTS Radio is the one most often named.' Described as the reference point for online community radio. Has embedded Spotify show player.",
-      "sources": ["article"],
+      "sources": [
+        "article"
+      ],
       "embed_id": "2BOLPpDNlSjFrjrTJdOMSb"
     },
     {
       "title": "Boiler Room",
       "year": null,
       "why": "article feature: 'The place to find them is YouTube, where Boiler Room, HÖR, Cercle, Dekmantel, Keep Hush and every radio station above upload full recordings.' Named as canonical DJ set platform",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     },
     {
       "title": "Album of the Year",
       "year": null,
       "why": "article feature: 'Album of the Year aggregates critic and user scores across publications and is a fast way to see what a year looked like from outside your own listening. End-of-year lists are best read the following spring.'",
-      "sources": ["article"],
-      "embed_id": null
+      "sources": [
+        "article"
+      ],
+      "embed_id": null,
+      "no_embed_reason": "a website, not a record. WRITING.md forbids screenshotting a third party's site, and there is nothing else to embed, which is why this guide draws diagrams instead."
     }
   ],
   "known_gaps": [
     {
-      "title": "Rinse FM, The Lot Radio, Kiosk Radio, Seoul Community Radio, Manila Community Radio, Radio Rudina, Boxout.fm",
-      "why": "source: article. 'Then there are the ones nobody outside their city talks about, and this is where it gets interesting. Kiosk Radio broadcasts from a wooden shack in a Brussels park. Seoul Community Radio, Bangkok Community Radio, Manila Community Radio, Radio Rudina in the Balkans and Boxout.fm in Delhi all do the same job for their own scenes.' These stations are named to make the argument about geography but have no player embeds to demonstrate the claim"
+      "title": "Correction: the stations do have players",
+      "why": "The recorded gap said the named stations had no embeds to demonstrate the geography claim. The guide already carries two collections for exactly that: one set each from NTS, Rinse FM and The Lot Radio, and a second block of Kiosk Radio, Seoul Community Radio and Manila Community Radio. Only Radio Rudina and Boxout.fm are named without a player, and 'three hours from three cities' is a deliberate limit rather than an omission."
     },
     {
       "title": "Genius.com, Genius annotations",
