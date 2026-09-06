@@ -228,6 +228,17 @@
         "file": "uk-electronic-music-evolution-draft.md",
         "contains": "The sound is usually credited to DJ Pierre and Phuture"
       }
+    },
+    {
+      "id": "diagrams-drawn-without-measuring",
+      "found": "2026-09-06",
+      "by": "owner",
+      "what": "Both diagrams in the how-to-find-new-music guide were drawn by hand with coordinates typed straight into the SVG and never checked against the text they had to hold. The taste-loop had a label three pixels wider than its box, so 'more of the same' was clipped by its own border; a second label read 'a station, a set,' because the phrase had been truncated mid-sentence and never finished; a stray empty text element sat in the middle of it; and the two columns had different box widths and wildly different gaps to the divider. The producer graph was worse: the artist A box started at x=262 with the dashed divider at x=330, so the right column's content ran through the line meant to separate it from the left. FIXED: both redrawn on a mirrored grid, every label measured against its box and every path checked against the divider.",
+      "should_have_caught": "nothing; html-validate does not read inside an SVG and the layout suite measures the figure, not its contents",
+      "fix": {
+        "file": "img/find-new-music/taste-loop.svg",
+        "contains": "a station, a set, a shop"
+      }
     }
   ]
 }

@@ -7,29 +7,35 @@
   .ts{font:400 13px "Space Mono",ui-monospace,monospace;fill:#0a0a0a;opacity:.7}
   .ln{stroke:#0a0a0a;stroke-width:2;fill:none}
 </style>
-<text x="40" y="40" class="th">FOLLOW THE ARTIST</text>
-<rect x="40" y="70" width="150" height="46" rx="2" class="boxa"/><text x="58" y="99" class="t">one artist</text>
-<path d="M115 116 L115 156" class="ln" marker-end="url(#b)"/>
-<rect x="40" y="156" width="150" height="46" rx="2" class="box"/><text x="58" y="185" class="t">their records</text>
-<text x="40" y="240" class="ts">which mostly sound</text>
-<text x="40" y="260" class="ts">like that artist.</text>
 
-<line x1="330" y1="24" x2="330" y2="396" stroke="#0a0a0a" stroke-width="1" stroke-dasharray="4 6" opacity=".4"/>
+<text x="60" y="44" class="th">FOLLOW THE ARTIST</text>
+<rect x="60" y="80" width="220" height="48" rx="2" class="boxa"/><text x="78" y="110" class="t">one artist</text>
+<path d="M170 128 L170 170" class="ln" marker-end="url(#b)"/>
+<rect x="60" y="172" width="220" height="48" rx="2" class="box"/><text x="78" y="202" class="t">their records</text>
+<text x="60" y="256" class="ts">which mostly sound</text>
+<text x="60" y="278" class="ts">like that artist.</text>
 
-<text x="390" y="40" class="th">FOLLOW THE PRODUCER</text>
-<rect x="390" y="70" width="170" height="46" rx="2" class="boxa"/><text x="408" y="99" class="t">one producer</text>
-<path d="M475 116 L475 140 L620 140 L620 172" class="ln" marker-end="url(#b)"/>
-<path d="M475 116 L475 172" class="ln" marker-end="url(#b)"/>
-<path d="M475 116 L475 140 L330 140 L330 172" class="ln" marker-end="url(#b)"/>
-<rect x="262" y="172" width="136" height="44" rx="2" class="box"/><text x="280" y="200" class="t">artist A</text>
-<rect x="410" y="172" width="136" height="44" rx="2" class="box"/><text x="428" y="200" class="t">artist B</text>
-<rect x="558" y="172" width="136" height="44" rx="2" class="box"/><text x="576" y="200" class="t">artist C</text>
-<path d="M330 216 L330 244 L475 244 L475 274" class="ln" marker-end="url(#b)"/>
-<path d="M620 216 L620 244 L475 244" class="ln"/>
-<path d="M478 216 L478 244" class="ln"/>
-<rect x="390" y="274" width="170" height="46" rx="2" class="box"/><text x="408" y="303" class="t">their labels</text>
-<text x="390" y="356" class="ts">and every label is another</text>
-<text x="390" y="376" class="ts">catalogue somebody else</text>
-<text x="390" y="396" class="ts">already filtered for you.</text>
+<line x1="390" y1="24" x2="390" y2="400" stroke="#0a0a0a" stroke-width="1" stroke-dasharray="4 6" opacity=".4"/>
+
+<text x="500" y="44" class="th">FOLLOW THE PRODUCER</text>
+<rect x="610" y="80" width="220" height="48" rx="2" class="boxa"/><text x="628" y="110" class="t">one producer</text>
+
+<path d="M720 128 L720 150 L565 150 L565 170" class="ln" marker-end="url(#b)"/>
+<path d="M720 128 L720 170" class="ln" marker-end="url(#b)"/>
+<path d="M720 128 L720 150 L875 150 L875 170" class="ln" marker-end="url(#b)"/>
+
+<rect x="500" y="172" width="130" height="44" rx="2" class="box"/><text x="518" y="200" class="t">artist A</text>
+<rect x="655" y="172" width="130" height="44" rx="2" class="box"/><text x="673" y="200" class="t">artist B</text>
+<rect x="810" y="172" width="130" height="44" rx="2" class="box"/><text x="828" y="200" class="t">artist C</text>
+
+<path d="M565 216 L565 240 L718 240" class="ln"/>
+<path d="M875 216 L875 240 L722 240" class="ln"/>
+<path d="M720 216 L720 264" class="ln" marker-end="url(#b)"/>
+
+<rect x="610" y="266" width="220" height="48" rx="2" class="box"/><text x="628" y="296" class="t">their labels</text>
+<text x="500" y="352" class="ts">and every label is another</text>
+<text x="500" y="374" class="ts">catalogue somebody else</text>
+<text x="500" y="396" class="ts">already filtered for you.</text>
+
 <defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0a0a0a"/></marker></defs>
 </svg>

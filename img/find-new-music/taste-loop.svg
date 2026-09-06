@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-label="Two diagrams. On the left a closed loop: what you played feeds a recommender, which suggests more of the same, which you play, narrowing the circle each time. On the right an open line: an unpersonalised source plays something with no connection to your history, which widens what you might play next.">
 <style>
-  .ink{fill:#0a0a0a}.acid{fill:#ff5a36}
   .box{fill:#f1eee7;stroke:#0a0a0a;stroke-width:2}
   .boxa{fill:#ff5a36;stroke:#0a0a0a;stroke-width:2}
   .t{font:600 17px "Space Mono",ui-monospace,monospace;fill:#0a0a0a}
@@ -8,30 +7,31 @@
   .ts{font:400 14px "Space Mono",ui-monospace,monospace;fill:#0a0a0a;opacity:.7}
   .ln{stroke:#0a0a0a;stroke-width:2;fill:none}
 </style>
-<text x="40" y="42" class="th">THE LOOP</text>
-<text x="40" y="66" class="ts">a recommender, repeated</text>
-<rect x="40" y="96" width="180" height="52" rx="2" class="box"/><text x="60" y="128" class="t">what you played</text>
-<path d="M130 148 L130 196" class="ln" marker-end="url(#a)"/>
-<rect x="40" y="196" width="180" height="52" rx="2" class="box"/><text x="60" y="228" class="t">the recommender</text>
-<path d="M130 248 L130 296" class="ln" marker-end="url(#a)"/>
-<rect x="40" y="296" width="180" height="52" rx="2" class="boxa"/><text x="60" y="328" class="t">more of the same</text>
-<path d="M40 322 L18 322 L18 122 L40 122" class="ln" marker-end="url(#a)"/>
-<text x="40" y="392" class="ts">each turn is closer to</text>
-<text x="40" y="412" class="ts">the last. the circle</text>
-<text x="40" y="432" class="ts">tightens.</text>
 
-<line x1="480" y1="30" x2="480" y2="430" stroke="#0a0a0a" stroke-width="1" stroke-dasharray="4 6" opacity=".4"/>
+<text x="110" y="46" class="th">THE LOOP</text>
+<text x="110" y="72" class="ts">a recommender, repeated</text>
+<rect x="110" y="110" width="300" height="56" rx="2" class="box"/><text x="130" y="144" class="t">what you played</text>
+<path d="M260 166 L260 208" class="ln" marker-end="url(#a)"/>
+<rect x="110" y="210" width="300" height="56" rx="2" class="box"/><text x="130" y="244" class="t">the recommender</text>
+<path d="M260 266 L260 308" class="ln" marker-end="url(#a)"/>
+<rect x="110" y="310" width="300" height="56" rx="2" class="boxa"/><text x="130" y="344" class="t">more of the same</text>
+<path d="M110 338 L78 338 L78 138 L108 138" class="ln" marker-end="url(#a)"/>
+<text x="110" y="404" class="ts">each turn is closer to</text>
+<text x="110" y="426" class="ts">the last. the circle</text>
+<text x="110" y="448" class="ts">tightens.</text>
 
-<text x="560" y="42" class="th">THE WAY OUT</text>
-<text x="560" y="66" class="ts">a source that does not know you</text>
-<rect x="560" y="96" width="230" height="52" rx="2" class="box"/><text x="580" y="128" class="t">a station, a set,</text>
-<rect x="560" y="196" width="230" height="52" rx="2" class="boxa"/><text x="580" y="228" class="t">something unheard</text>
-<text x="580" y="118" class="t"> </text>
-<path d="M675 148 L675 196" class="ln" marker-end="url(#a)"/>
-<path d="M675 248 L675 296" class="ln" marker-end="url(#a)"/>
-<rect x="560" y="296" width="230" height="52" rx="2" class="box"/><text x="580" y="328" class="t">a wider next play</text>
-<text x="560" y="392" class="ts">nothing loops back. the</text>
-<text x="560" y="412" class="ts">source has no record of</text>
-<text x="560" y="432" class="ts">what you liked before.</text>
+<line x1="500" y1="30" x2="500" y2="440" stroke="#0a0a0a" stroke-width="1" stroke-dasharray="4 6" opacity=".4"/>
+
+<text x="590" y="46" class="th">THE WAY OUT</text>
+<text x="590" y="72" class="ts">a source that does not know you</text>
+<rect x="590" y="110" width="300" height="56" rx="2" class="box"/><text x="610" y="144" class="t">a station, a set, a shop</text>
+<path d="M740 166 L740 208" class="ln" marker-end="url(#a)"/>
+<rect x="590" y="210" width="300" height="56" rx="2" class="boxa"/><text x="610" y="244" class="t">something unheard</text>
+<path d="M740 266 L740 308" class="ln" marker-end="url(#a)"/>
+<rect x="590" y="310" width="300" height="56" rx="2" class="box"/><text x="610" y="344" class="t">a wider next play</text>
+<text x="590" y="404" class="ts">nothing loops back. the</text>
+<text x="590" y="426" class="ts">source has no record of</text>
+<text x="590" y="448" class="ts">what you liked before.</text>
+
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0a0a0a"/></marker></defs>
 </svg>
