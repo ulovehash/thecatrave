@@ -276,6 +276,14 @@ export function homeFooter() {
 //
 // It is per browser and per device, because localStorage is. Two browsers means
 // visiting the URL twice, and a cleared site-data wipe means visiting it again.
+//
+// The second switch is the one that mattered. Every page carried this tag on
+// localhost too, so `npm run check:layout` — 126 Playwright tests, each loading
+// a real page in a real browser — reported itself to GA4 as 126 direct visits,
+// on every single run. So did every preview server. The host check kills all of
+// it at the source: the tag sends nothing unless the page is actually being
+// served from the live domain. Referrals from AI answers are untouched, because
+// those land on thecatrave.com like anybody else.
 export function analytics() {
-  return `<script>(function(){try{var q=new URLSearchParams(location.search);if(q.has('ga')){q.get('ga')==='off'?localStorage.setItem('tcr-no-ga','1'):localStorage.removeItem('tcr-no-ga');}if(localStorage.getItem('tcr-no-ga')){window['ga-disable-G-0WW1QS0DW4']=true;}}catch(e){}})();</script><script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
+  return `<script>(function(){try{var h=location.hostname;if(h!=='thecatrave.com'&&h!=='www.thecatrave.com'){window['ga-disable-G-0WW1QS0DW4']=true;return;}var q=new URLSearchParams(location.search);if(q.has('ga')){q.get('ga')==='off'?localStorage.setItem('tcr-no-ga','1'):localStorage.removeItem('tcr-no-ga');}if(localStorage.getItem('tcr-no-ga')){window['ga-disable-G-0WW1QS0DW4']=true;}}catch(e){}})();</script><script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
 }
