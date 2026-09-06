@@ -64,6 +64,8 @@ The records came out on labels small enough to move at the speed of the scene. L
 
 The classic 2-step record is a sped-up soul or R&B vocal over that skipping beat, with a bass that answers the vocal rather than sitting under it. Artful Dodger and Craig David's "Re-Rewind" reached number two in 1999 and put a garage record on every radio in the country. MJ Cole made records that were closer to orchestral arrangement than dance production. Sweet Female Attitude's "Flowers" is a pop song and a rhythm exercise at the same time.
 
+Behind a good deal of that is one producer with three names. Grant Nelson made garage as Bump & Flex and as N'n'G, and hardcore before that as Wishdokta, and the scene calls him the godfather of UK garage. "Long Time Coming", in 1998, is the Bump & Flex record that still gets played; "Right Before My Eyes", as N'n'G in 2000, reached number twelve; his Bump & Flex remix of Mis-Teeq's "B with Me" went to number five. He and Wookie are the only two acts every consensus list of this genre contains, which makes it worth asking why one of them is on every write-up and the other is not.
+
 2-step is also where garage stops being underground. Between 1999 and 2001 it was on daytime radio, in the charts and on television, and the backlash that followed was as much about that as about the music. Clubs that had run garage nights for years began policing the door: Twice as Nice, the most famous of them, moved from a dress code to a metal detector. A shooting outside a So Solid Crew show in 2001 handed promoters and licensing committees the reason they had been waiting for, and bookings dried up for acts who had done nothing at all.
 
 ## Bassline
@@ -129,6 +131,8 @@ DJ Luck & MC Neat, "A Little Bit of Luck", 1999. The MC as a fixture rather than
 Sweet Female Attitude, "Flowers", 2000. The 2-step vocal record most likely to be recognised by someone who has never heard the word garage.
 
 MJ Cole, "Sincere", 1998. Proof that the genre could carry an arrangement.
+
+Bump & Flex, "Long Time Coming", 1998. Grant Nelson under one of his three names, and the record the godfather title is attached to.
 
 Wookie, "Battle", 2000. The bassline that a generation of producers has been rewriting ever since.
 

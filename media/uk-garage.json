@@ -162,8 +162,9 @@
   ],
   "known_gaps": [
     {
-      "title": "Bump & Flex",
-      "why": "the only act on all four consensus lists, and absent"
+      "title": "Bump & Flex: named, not embedded",
+      "why": "Now named in the 2-step section and in the classics list, with Grant Nelson's three aliases, the godfather title the scene gives him, and the point that he and Wookie are the only two acts on all four consensus lists. No player: there is no upload on the artist's or the label's own channel, only fan rips, and this guide's media is a grid of YouTube cards throughout. Spotify carries the Big Up Version (4B9wuHr3WgJJvlVex8eAmH) rather than the original mix, so dropping a lone Spotify player of a different edit into that grid is two decisions at once, not a repair.",
+      "no_embed_reason": true
     },
     {
       "title": "Feel My Love — Matt \"Jam\" Lamont & Justin Cantor, 1991",
