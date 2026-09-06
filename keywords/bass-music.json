@@ -1,0 +1,219 @@
+{
+  "page": "bass-music-guide.html",
+  "seed": "bass music",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "note": "65 unique rows, 89,800/mo global. Listener intent 17,900. Collision 62,000 — more than two thirds of the demand for this phrase is not this subject. Navigational 8,200, all of it Ernie Ball Music Man brand queries ('music man bass' 3,600 and nine variants). Production or file intent 1,700 ('play that funky music bass tab', 'music theory for the bass player pdf', two Russian 'скачать' download rows, 'music bass booster'), out under WRITING.md and not counted as an opportunity. The collision is three separate things and worth naming: the bass guitar as an instrument, where 'music man' is a manufacturer and not a description; music theory and notation, where bass is a register or a clef ('bass sheet music' 1,200, 'bass in music' 1,300, 'bass clef sheet music', 'bass clarinet music', 'bass baritone music', and 'how to read accordion sheet music bass and treble' at 3,300); and car audio, where 'bass boosted' 4,000 and the whole 'songs with a lot of bass' family (4,100 + 2,900 + 1,500 + 1,400 + 1,300 + 1,100 + 1,100 + 900) means speaker-testing tracks, not a genre. Fishing did not surface here because every matching row carries the word 'music', but it leaks into the related terms where the word stands alone: 'bass meaning' 5,000, 'basses' 3,600, 'what is a bass' 1,000 are split between the fish, the instrument and the frequency. Also present: 'azeri bass music' 350, a separate regional genre with the same name. Only two rows survived the presence check; the page also carries 'uk bass', 'sub bass', 'bass weight' and 'bass music genre', which this expansion did not return volumes for, so they are left out rather than given a number from memory — measure them on the next pass.",
+  "terms": [
+    {
+      "term": "bass music",
+      "volume": 7300
+    },
+    {
+      "term": "what is bass music?",
+      "volume": 6200
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (match_mode=terms, us, top 40 by global volume) and keywords-explorer-related-terms (also_rank_for, view_for=top_100, us, top 25) on 'bass music', 6 September 2026",
+  "rejected": [
+    {
+      "term": "bass meaning",
+      "volume": 5000,
+      "why": "collision: the fish, the instrument and the word, in unknown proportion. Absent from the page"
+    },
+    {
+      "term": "songs with a lot of bass",
+      "volume": 4100,
+      "why": "collision: car-audio and speaker-testing intent, not a genre question. Absent"
+    },
+    {
+      "term": "bass boosted",
+      "volume": 4000,
+      "why": "collision: bass-boosted edits for car systems. Absent"
+    },
+    {
+      "term": "bass sound",
+      "volume": 3900,
+      "why": "collision: acoustics and audio equipment. Absent"
+    },
+    {
+      "term": "music man bass",
+      "volume": 3600,
+      "why": "navigational: Ernie Ball Music Man, a bass guitar manufacturer. Nine further brand variants (stingray, sterling, ray4, ray34) total 8,200/mo and are all the same query"
+    },
+    {
+      "term": "basses",
+      "volume": 3600,
+      "why": "collision: plural of the fish and of the instrument. Absent"
+    },
+    {
+      "term": "best bass songs",
+      "volume": 3500,
+      "why": "collision: lists of notable bass guitar lines. Absent"
+    },
+    {
+      "term": "how to read accordion sheet music bass and treble",
+      "volume": 3300,
+      "why": "collision: notation, and not even the same instrument family. Absent"
+    },
+    {
+      "term": "bass songs",
+      "volume": 3100,
+      "why": "collision: shares the ambiguity of 'best bass songs'. Absent"
+    },
+    {
+      "term": "songs with good bass",
+      "volume": 2900,
+      "why": "collision: speaker-testing intent. Absent"
+    },
+    {
+      "term": "what is bass",
+      "volume": 2300,
+      "why": "collision: fish, instrument or frequency range. It matches the page only as a substring of the h1, which is not the same query"
+    },
+    {
+      "term": "bass instruments",
+      "volume": 2200,
+      "why": "collision: orchestral and band instruments. Absent"
+    },
+    {
+      "term": "best electro music with bass drops",
+      "volume": 2100,
+      "why": "listener intent, but a playlist request the guide does not answer, and the phrase is absent"
+    },
+    {
+      "term": "popular songs with a lot of bass",
+      "volume": 1500,
+      "why": "collision: same speaker-testing family. Absent"
+    },
+    {
+      "term": "what is bass in music",
+      "volume": 1400,
+      "why": "collision: music theory. Asks what the bass register is, not what the genre is. Absent"
+    },
+    {
+      "term": "good bass songs",
+      "volume": 1400,
+      "why": "collision: same family. Absent"
+    },
+    {
+      "term": "songs with bass",
+      "volume": 1400,
+      "why": "collision: same family. Absent"
+    },
+    {
+      "term": "history of bass in electronic music",
+      "volume": 1300,
+      "why": "genuine listener intent and the closest miss in the set, but the exact phrase is absent and the rule is to drop a term rather than wedge it into published copy"
+    },
+    {
+      "term": "bass in music",
+      "volume": 1300,
+      "why": "collision: music theory, the bass part. Absent"
+    },
+    {
+      "term": "bass heavy songs",
+      "volume": 1300,
+      "why": "collision: speaker-testing. Absent"
+    },
+    {
+      "term": "bass sheet music",
+      "volume": 1200,
+      "why": "collision: notation. Absent"
+    },
+    {
+      "term": "bass frequency",
+      "volume": 1200,
+      "why": "collision: acoustics. Absent"
+    },
+    {
+      "term": "bass definition",
+      "volume": 1000,
+      "why": "collision: dictionary intent across all three meanings. Absent"
+    },
+    {
+      "term": "music bass",
+      "volume": 900,
+      "why": "word order variant with the same ambiguity, and absent"
+    },
+    {
+      "term": "drum and bass music",
+      "volume": 700,
+      "why": "listener intent, but it belongs to drum-and-bass-guide.html, and the phrase is absent here"
+    },
+    {
+      "term": "bass guitar sheet music",
+      "volume": 700,
+      "why": "collision: notation for a different instrument. Absent"
+    },
+    {
+      "term": "bass clarinet sheet music",
+      "volume": 700,
+      "why": "collision: notation, woodwind. Absent"
+    },
+    {
+      "term": "музыка в машину bass boosted car music",
+      "volume": 600,
+      "why": "collision plus wrong language: Russian car-audio compilations"
+    },
+    {
+      "term": "bass meaning in music",
+      "volume": 500,
+      "why": "collision: music theory. Absent"
+    },
+    {
+      "term": "music bass or base",
+      "volume": 500,
+      "why": "collision: a spelling question about the theory term. Absent"
+    },
+    {
+      "term": "bass music instrument",
+      "volume": 450,
+      "why": "collision: reads as instrument research, not genre. Absent"
+    },
+    {
+      "term": "play that funky music bass tab",
+      "volume": 400,
+      "why": "production intent under WRITING.md: a tab is a file that teaches you to play it. Out regardless of volume"
+    },
+    {
+      "term": "azeri bass music",
+      "volume": 350,
+      "why": "collision: a distinct Azerbaijani genre that shares the name. Absent"
+    },
+    {
+      "term": "bass boosted car music скачать",
+      "volume": 350,
+      "why": "file handout ('скачать' is 'download') and wrong language. Out under WRITING.md"
+    },
+    {
+      "term": "music bass booster",
+      "volume": 350,
+      "why": "a tool query: audio-boosting apps. Out under the no-files rule and absent anyway"
+    },
+    {
+      "term": "car bass music скачать",
+      "volume": 300,
+      "why": "file handout, wrong language. Out under WRITING.md"
+    },
+    {
+      "term": "music theory for the bass player pdf",
+      "volume": 300,
+      "why": "file handout plus instrument tuition. Out under WRITING.md"
+    },
+    {
+      "term": "what is bass music",
+      "volume": 300,
+      "why": "the same query without the question mark, which Ahrefs counts as a separate row. The punctuated form at 6,200 is the one targeted; listing both would be one phrase claimed twice"
+    },
+    {
+      "term": "bass baritone music",
+      "volume": 300,
+      "why": "collision: a vocal range. Absent"
+    },
+    {
+      "term": "bass guitar music",
+      "volume": 300,
+      "why": "collision: the instrument. Absent"
+    }
+  ]
+}

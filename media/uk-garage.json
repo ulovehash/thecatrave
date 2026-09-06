@@ -1,0 +1,173 @@
+{
+  "page": "uk-garage-guide.html",
+  "seed": "uk garage",
+  "source": "FIGURES.md six-source pass, September 2026",
+  "note": "Source 1, the search-volume source, returned zero names across forty rows: thirty-six were literal garages and the rest were garage rock. Every founder below came from source 5. That is the whole argument for keeping source 5 separate.",
+  "required_records": [
+    {
+      "title": "The Praise",
+      "artist": "Todd Edwards",
+      "year": 1995,
+      "why": "the record DJ EZ sped up to 130, and the chopping method the genre is built on",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "OhqS5khLQ8U"
+    },
+    {
+      "title": "Gabriel",
+      "artist": "Roy Davis Jr ft Peven Everett",
+      "year": 1996,
+      "why": "on three of four consensus lists",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "FwxpMIEZ9fg"
+    },
+    {
+      "title": "Ripgroove",
+      "artist": "Double 99",
+      "year": 1997,
+      "why": "the record that defines speed garage, released on Ice Cream Records",
+      "sources": [
+        "consensus 2/4",
+        "originators"
+      ],
+      "embed_id": "uR3Vw8J8vUo"
+    },
+    {
+      "title": "Never Gonna Let You Go",
+      "artist": "Tina Moore (Kelly G dub)",
+      "year": 1997,
+      "why": "Wikipedia: arguably the earliest example of a 2-step track",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "W2IKwskvl2s"
+    },
+    {
+      "title": "Sincere",
+      "artist": "MJ Cole",
+      "year": 1998,
+      "why": "MJ Cole is named in the Wikipedia origins section and on two consensus lists",
+      "sources": [
+        "consensus 2/4",
+        "originators"
+      ],
+      "embed_id": "DXCtYUtjDYU"
+    },
+    {
+      "title": "Re-Rewind",
+      "artist": "Artful Dodger ft Craig David",
+      "year": 1999,
+      "why": "the crossover record; Wikipedia names Artful Dodger as one of the two duos that took the genre to the charts",
+      "sources": [
+        "also_talk_about",
+        "consensus 2/4",
+        "originators"
+      ],
+      "embed_id": "M0wv_cQv8As"
+    },
+    {
+      "title": "Sweet Like Chocolate",
+      "artist": "Shanks & Bigfoot",
+      "year": 1999,
+      "why": "the first UK garage record to reach number one",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "OQCQnARnKbc"
+    },
+    {
+      "title": "Neighbourhood",
+      "artist": "Zed Bias",
+      "year": 1999,
+      "why": "on three of four consensus lists, Locked On roster",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "mXyeObIl9t4"
+    },
+    {
+      "title": "Flowers",
+      "artist": "Sweet Female Attitude",
+      "year": 2000,
+      "why": "on three of four consensus lists; the 2-step record that crossed over without a rapper",
+      "sources": [
+        "consensus 3/4",
+        "originators"
+      ],
+      "embed_id": "iR2tIyj8_y8"
+    },
+    {
+      "title": "Battle",
+      "artist": "Wookie",
+      "year": 2000,
+      "why": "the only act on all four consensus lists besides Bump & Flex",
+      "sources": [
+        "consensus 4/4",
+        "originators"
+      ],
+      "embed_id": "-15oU-lNSnc"
+    },
+    {
+      "title": "Bound 4 Da Reload",
+      "artist": "Oxide & Neutrino",
+      "year": 2000,
+      "why": "the number one at the garage-to-grime hinge",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "q5T1EIiDSmo"
+    },
+    {
+      "title": "Do You Really Like It",
+      "artist": "DJ Pied Piper & the Masters of Ceremonies",
+      "year": 2001,
+      "why": "the second number one",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "khW5leL19SA"
+    },
+    {
+      "title": "Heartbroken",
+      "artist": "T2 ft Jodie Aysha",
+      "year": 2007,
+      "why": "bassline's chart moment and the genre's survival between waves",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "KG28976TmDM"
+    },
+    {
+      "title": "Archangel",
+      "artist": "Burial",
+      "year": 2007,
+      "why": "the record at the garage-to-dubstep hinge the guide describes",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "8k_f2QK77ew"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Bump & Flex",
+      "why": "the only act on all four consensus lists, and absent"
+    },
+    {
+      "title": "Feel My Love — Matt \"Jam\" Lamont & Justin Cantor, 1991",
+      "why": "now named in the prose with the story of its six-year delay, but no legitimate embed exists: the 1991 original is on neither YouTube nor Spotify, only Discogs release 180712"
+    }
+  ]
+}

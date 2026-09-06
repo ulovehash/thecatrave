@@ -9,8 +9,14 @@
 //
 // See keywords/README.md for where the lists have to come from, and WRITING.md for the rule
 // this enforces.
+//
+// It walks pages.mjs rather than the keywords directory, because walking the
+// directory is the same fault pages.mjs was written to fix: a guide with no map
+// was not unguarded-and-loud, it was invisible. Breakbeat and jungle went
+// seventeen months that way, and they are the two pages that earn the traffic.
 import fs from 'node:fs';
 import path from 'node:path';
+import {pages} from './pages.mjs';
 
 const DIR = 'keywords';
 const failures = [];
@@ -25,8 +31,17 @@ const text = html => html
   .replace(/\s+/g, ' ')
   .toLowerCase();
 
-for (const file of fs.readdirSync(DIR).filter(f => f.endsWith('.json'))) {
-  const map = JSON.parse(fs.readFileSync(path.join(DIR, file), 'utf8'));
+const guides = pages.filter(p => p.kind === 'guide');
+const maps = fs.readdirSync(DIR).filter(f => f.endsWith('.json'))
+  .map(f => [f, JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'))]);
+
+for (const guide of guides) {
+  if (!maps.some(([, m]) => m.page === guide.file)) {
+    failures.push(`${guide.file}: no keyword map in ${DIR}/. Write one from Ahrefs expansion, not from memory. See KEYWORD-METHOD.md`);
+  }
+}
+
+for (const [file, map] of maps) {
   if (!fs.existsSync(map.page)) { failures.push(`${file}: page ${map.page} does not exist`); continue; }
   const body = text(fs.readFileSync(map.page, 'utf8'));
   checked += 1;

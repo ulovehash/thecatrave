@@ -1,0 +1,100 @@
+{
+  "page": "drum-and-bass-guide.html",
+  "seed": "drum and bass",
+  "source": "FIGURES.md six-source pass, September 2026",
+  "note": "Source 1 returned thirty rows and not one proper name: every row was a modifier on 'drum and bass artists' (best, top, liquid, female, polish, japanese). Source 2 returned no person at all — its highest music-specific rows were 'amen break' (6,300), 'sound system' (5,700) and 'jungle' (50,000), which is a genre boundary, not a canon. Source 3's People Also Ask rows were 'Who is the biggest DNB artist?', 'Who are some of the best drum and bass artists?', 'Is DNB a subgenre of EDM?' and 'Who are some famous bass drum players?' — the last one is about drum kits, which is how thin this SERP is. Source 4 is a 2022 snapshot (TicketFairy: Jam Thieves, Dunk, Camo & Krooked, Lens, Tom Finster, Sl8r, Iyre, Visages, Nia Archives, Alix Perez, Pyxis, The Caracal Project, Elipsa, Kimyan Law, Noisia) and names no founder. So for the third genre running every founder below comes from source 5, en.wikipedia.org/wiki/Drum_and_bass. Source 6 ranks S.P.Y (10 sets), London Elektricity (9), Flava D (8), Nia Archives (7), Tim Reaper (7), Machinedrum (7), Krakota (7). GENRE ATTRIBUTION, stated because this is the guide the mistake was made in: source 5 names 'Original Nuttah' by Shy FX & UK Apache only in its soundtrack-appearances list, and places the record's own scene in jungle. It is not required here and is not in this list. Its home is media/jungle.json, where source 5 for jungle returned it directly.",
+  "required_records": [
+    {
+      "title": "Inner City Life",
+      "artist": "Goldie",
+      "year": 1994,
+      "why": "source 5's crediting sentence for the genre's arrival is about the album this single opens — \"The earliest mainstream drum and bass releases include Goldie's album Timeless from 1995\" — and Goldie is one of the five names in its list of early producers who shaped the sound. Timeless is named in the prose; this is the record that plays it",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "i-P98B2skts"
+    },
+    {
+      "title": "Shadow Boxing",
+      "artist": "Doc Scott",
+      "year": 1996,
+      "why": "source 5: \"Early producers including 4hero, Doc Scott, LTJ Bukem, Goldie, and Grooverider began shaping the sound by stripping away elements of hardcore rave music and emphasising bass and complex drum patterns.\" Doc Scott is the second name in that sentence and this is the record the techstep section is built on",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "7Z-6e3zIE2k"
+    },
+    {
+      "title": "Music",
+      "artist": "LTJ Bukem",
+      "year": 1993,
+      "why": "third name in source 5's early-producers sentence, and the melodic pole the whole 1993-1996 argument needs at the opposite end from Shadow Boxing. Weak title match — the audit will find the word 'music' anywhere on the page — so the embed id is the half of this check that is actually doing work",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "hp8DkZyE9h8"
+    },
+    {
+      "title": "Brown Paper Bag",
+      "artist": "Roni Size and Reprazent",
+      "year": 1997,
+      "why": "source 5: \"Roni Size & Reprazent's album New Forms (1997) won the Mercury Prize, signalling wider critical recognition.\" New Forms is named in the prose; this is the single that plays it, and the moment the genre stopped being an underground argument",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "3ZQs8RHO3lPZoUwpavPENL"
+    },
+    {
+      "title": "Mystic",
+      "artist": "Calibre",
+      "year": 2001,
+      "why": "source 5 names exactly two liquid funk pioneers — \"more melodic and accessible forms like liquid funk emerged, pioneered by artists such as High Contrast and Calibre\" — and this is one of the two. The liquid section rests on this sentence",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "yenh56lBQoU"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "4hero, and Reinforced Records",
+      "why": "the most serious omission on the page. 4hero is the FIRST name in source 5's only sentence about who shaped drum and bass, and source 5 separately credits Marc Mac and Dego of 4hero with founding Reinforced Records and names their Mercury-nominated Two Pages (1998). The page returns zero hits for '4hero', '4 Hero' and 'Reinforced'. Its four sentence-mates — Doc Scott, LTJ Bukem, Goldie, Grooverider — are all present, three of them with players. A guide that carries four fifths of the founding sentence and drops the label that pressed the records reads as a list somebody half-remembered."
+    },
+    {
+      "title": "Hot Right Now — DJ Fresh featuring Rita Ora, 2012",
+      "why": "source 5: \"In 2012, drum and bass achieved its first UK No. 1 single, Hot Right Now.\" Absent from the page entirely, along with DJ Fresh. This is the genre's number one and the page will not say so — the exact class of hole that shipped in the UK garage guide, where two number ones were missing while every check was green."
+    },
+    {
+      "title": "Andy C and RAM Records; DJ Hype and Playaz; London Elektricity",
+      "why": "source 5 names all three as label founders. Andy C returns zero hits, DJ Hype returns zero, RAM returns zero, Playaz returns zero. Hospital Records is named on the page but London Elektricity, who founded it, is not — and he is also ninth in our own catalogue at 9 sets, so he is one of only two names returned by both source 5 and source 6 and absent anyway. Andy C is the most-booked DJ the genre has produced; a reader who knows one drum and bass name often knows that one, and the page does not contain it."
+    },
+    {
+      "title": "Hold Your Colour — Pendulum, 2005",
+      "why": "source 5 calls it \"the best-selling drum and bass album\". Neither the record nor Pendulum appears. Whatever the page thinks of Pendulum, the best-selling album in a genre is a fact a guide has to handle rather than skip."
+    },
+    {
+      "title": "Rudimental; Sigma; Chase & Status featuring Stormzy, BACKBONE, 2024; Kenya Grace, Strangers, 2023",
+      "why": "source 5 devotes a run of sentences to the chart lineage after Hot Right Now — Feel the Love (2012), Waiting All Night (2013), Nobody to Love (2014), Changing (2014), Strangers (2023), BACKBONE (2024). Not one of these acts or titles is on the page. The guide runs from 1993 to Nia Archives and steps over the decade in which drum and bass was the most commercially successful it has ever been."
+    },
+    {
+      "title": "Rage at Heaven",
+      "why": "source 5 names the Rage nights at Heaven as where fast breakbeat play happened. The page's two 'rage' hits are both false positives — a URL query string and the word 'garage' in an image srcset — and 'Heaven' returns nothing. Fabio and Grooverider are on the page; the room they did it in is not."
+    },
+    {
+      "title": "High Contrast",
+      "why": "named but no player. Source 5 names exactly two liquid funk pioneers and the page gives one of them a record and the other a mention, so the section makes a claim about a sound with half of its evidence audible."
+    },
+    {
+      "title": "S.P.Y; Flava D; Krakota; Machinedrum; Tim Reaper",
+      "why": "catalogue-only, and by FIGURES.md that makes them differentiators rather than errors: the five most-played drum and bass names in 62,877 sets that no competing guide's canon list contains. S.P.Y at 10 sets is the highest-ranked real artist in the genre's catalogue slice and returns zero hits on the page. Recorded so the next pass does not re-derive them."
+    },
+    {
+      "title": "Incredible — M-Beat featuring General Levy, 1994",
+      "why": "not a gap, a flag. This record is embedded on this page and is also a required record in media/jungle.json, where source 5 for jungle names it as the track that took jungle to the charts. Two guides playing the same 1994 record is defensible at the jungle-to-drum-and-bass hinge, but it is the exact seam where the Original Nuttah mistake was made, so it is written down rather than left for somebody to notice twice."
+    },
+    {
+      "title": "Pulp Fiction — Alex Reece; The Angels Fell — Dillinja; Machine Gun — Noisia; LK — DJ Marky & XRS; Silence Is Loud — Nia Archives",
+      "why": "not gaps. All five are embedded on the page and none was returned by three sources or by source 5, so they are recorded here to stop a later pass reading their absence from the required list as an error. Noisia and Nia Archives each came back from two sources (source 4 and the catalogue), one short. They are the writer's judgement, which the algorithm does not overrule."
+    }
+  ]
+}

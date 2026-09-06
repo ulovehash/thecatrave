@@ -1,0 +1,73 @@
+{
+  "page": "jungle-music-guide.html",
+  "seed": "jungle music",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "terms": [
+    {
+      "term": "jungle music",
+      "volume": 5100
+    },
+    {
+      "term": "jungle music genre",
+      "volume": 400
+    },
+    {
+      "term": "jungle genre",
+      "volume": 300
+    },
+    {
+      "term": "what is jungle music",
+      "volume": 200
+    },
+    {
+      "term": "jungle music artists",
+      "volume": 150
+    },
+    {
+      "term": "jungle dnb",
+      "volume": 150
+    },
+    {
+      "term": "jungle vs drum and bass",
+      "volume": 10
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (phrase) and related-terms on 'jungle music', September 2026",
+  "rejected": [
+    {
+      "term": "jungle",
+      "volume": 232000,
+      "why": "the rainforest, the London band, and Jumanji. The bare word is not this music by search intent, and the expansion returns water parks and resorts before it returns a record"
+    },
+    {
+      "term": "jungle music group",
+      "volume": 300,
+      "why": "the band Jungle, who release under this exact phrase. Navigational and not ours"
+    },
+    {
+      "term": "electric jungle music festival",
+      "volume": 200,
+      "why": "a festival in China with a name collision"
+    },
+    {
+      "term": "jungle music download",
+      "volume": 150,
+      "why": "piracy intent, which this site does not serve"
+    },
+    {
+      "term": "royalty free jungle music",
+      "volume": 100,
+      "why": "the AudioJungle stock marketplace, a different product entirely"
+    },
+    {
+      "term": "how to make jungle music",
+      "volume": 50,
+      "why": "production intent, and this site is written for listeners"
+    },
+    {
+      "term": "alocasia jungle music",
+      "volume": 30,
+      "why": "a houseplant cultivar. Recorded because it looks like a music term in a keyword list and is not one"
+    }
+  ]
+}

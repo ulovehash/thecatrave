@@ -1,0 +1,97 @@
+{
+  "page": "bass-music-guide.html",
+  "seed": "uk bass, dubstep, grime, garage, bass music",
+  "source": "FIGURES.md six-source pass, September 2026",
+  "required_records": [
+    {
+      "title": "King Tubby Meets Rockers Uptown",
+      "artist": "Augustus Pablo and King Tubby",
+      "year": 1974,
+      "why": "source 5: dub reggae foundation for UK bass sound; both Augustus Pablo and King Tubby are cited as originators of the dub philosophy UK bass producers inherit",
+      "sources": ["originators"],
+      "embed_id": "oxAl3Jijs20"
+    },
+    {
+      "title": "Anti War Dub",
+      "artist": "Digital Mystikz",
+      "year": 2006,
+      "why": "source 5: 'Digital Mystikz brought an expanded palette of sounds and influences to the genre, most prominently reggae and dub.' Mala is the definitive dubstep founder; this track demonstrates the reggae-dub ancestry that runs through all UK bass",
+      "sources": ["originators"],
+      "embed_id": "--jr22La8Nk"
+    },
+    {
+      "title": "Hyph Mngo",
+      "artist": "Joy Orbison",
+      "year": 2010,
+      "why": "source 5 and 6: Joy Orbison bridges dubstep and future garage; appears in the catalogue at 5 sets. Hyph Mngo is the canonical 2010s UK bass sound",
+      "sources": ["originators", "catalogue"],
+      "embed_id": "Aa_PDKKc2_A"
+    },
+    {
+      "title": "Scary Monsters and Nice Sprites",
+      "artist": "Skrillex",
+      "year": 2011,
+      "why": "source 5: 'the harsher electro-house and heavy metal-influenced variant brostep, led by American producers such as Skrillex, boosted dubstep's popularity in the United States.' The page's umbrella covers both UK dubstep origins and international brostep; this is the second half of that story",
+      "sources": ["originators"],
+      "embed_id": "WSeNSzJ2-Jw"
+    },
+    {
+      "title": "Love Dub",
+      "artist": "Cooly G",
+      "year": 2012,
+      "why": "source 6: Cooly G appears at 5 sets in the catalogue and is catalogue-only, absent from all competing canonical lists. Hyperdub artist representing the female producers and singers UK bass depends on",
+      "sources": ["catalogue"],
+      "embed_id": "iIbkC1NMM1k"
+    },
+    {
+      "title": "Eskimo",
+      "artist": "Wiley",
+      "year": 2004,
+      "why": "source 5: grime's founding moment; Wiley's early tracks define grime's emergence from UK garage and its percussion-first philosophy, central to understanding UK bass as an umbrella",
+      "sources": ["originators"],
+      "embed_id": "LkdEOY0bf4U"
+    },
+    {
+      "title": "Original Nuttah",
+      "artist": "Shy FX & UK Apache",
+      "year": 1994,
+      "why": "source 5 and source 6: jungle's amen break breakpoint; Shy FX carries jungle's percussive assault into UK garage and bass culture, making this the ancestral record for the whole umbrella",
+      "sources": ["originators", "catalogue"],
+      "embed_id": "_VFf6434lto"
+    },
+    {
+      "title": "Inner City Life",
+      "artist": "Goldie",
+      "year": 1995,
+      "why": "source 5 and source 6: drum and bass pioneer; this liquid drum and bass track is the sound-world parent for UK garage's synth sensibilities and bass music's melodic possibilities",
+      "sources": ["originators", "catalogue"],
+      "embed_id": "i-P98B2skts"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "James Blake, Benga, Burial, SBTRKT, Sophie, Rustie, Zomby (UK bass founders)",
+      "why": "source 5 opens UK bass with: 'The term came into use as artists began ambiguously blending the sounds of these defined genres while maintaining an emphasis on percussive, bass-led rhythm.' Burial is mentioned on the page once without a player; James Blake is absent despite being explicitly named in Wikipedia as a key founder; Sophie, Rustie, Zomby, SBTRKT and Benga are not on the page at all"
+    },
+    {
+      "title": "Rinse FM, Sub.FM (radio stations)",
+      "why": "source 5: 'Outside nightclubs, the genre was primarily promoted through internet radio: Sub.FM and Rinse FM.' The stations that broadcast UK bass to the world appear nowhere on a guide claiming to document its history"
+    },
+    {
+      "title": "Skream — Midnight Request Line",
+      "why": "source 5: Skream is named twice as foundational dubstep, and 'Midnight Request Line' is the record Wikipedia credits with the dubstep pivot. Skream appears twice on the page but this canonical record is absent"
+    },
+    {
+      "title": "Benga and Coki — Night",
+      "why": "source 5: 'Benga and Coki scoring a crossover hit (in a similar manner to Skream's 'Midnight Request Line') with the track 'Night'.' The second key dubstep crossover moment is unnamed and unembedded"
+    },
+    {
+      "title": "Plastician, Filthy Dub night",
+      "why": "source 5: 'At the end of 2003, running independently from the pioneering FWD night, an event called Filthy Dub, co promoted by Plastician.' Source 6: Plastician at 4 sets. Two sources, one the originators source, and the page has no mention of either Plastician or Filthy Dub despite it being the rival founding event to Forward>>"
+    },
+    {
+      "title": "El-B, Steve Gurley, Zed Bias (proto-dubstep 1999-2000)",
+      "why": "source 5: 'The early sounds of proto-dubstep originally came out of productions during 1999-2000 by producers such as Oris Jay, El-B, Steve Gurley and Zed Bias.' Three quarters of this founding sentence are absent from the page; El-B in particular represents the earliest generation and appears nowhere"
+    }
+  ]
+}

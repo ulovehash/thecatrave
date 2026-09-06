@@ -1,0 +1,118 @@
+{
+  "page": "uk-electronic-music-evolution.html",
+  "seed": "uk electronic music",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "note": "The finding is the size, not the split. Forty matching rows carry 350/mo globally between them, twenty-one of them at zero, and related-terms (also_rank_for, top_100) returned nothing at all — no page ranking for this phrase ranks for anything else worth naming. Listener intent 70 ('uk electronic music' 30, 'uk electronic music artists' 20, 'uk electronic music genres' 10, 'electronic music uk' 10). Collision 190, almost all of it festival listings ('electronic music festivals uk' 80 plus dated variants back to 2013 and forward to 2026), which is ticket and lineup intent this page does not serve; the rest is 'uk electronic music band 7 little words' 10, a crossword clue, and a homework question about the bill that targeted raves. Navigational 50: labels, radio stations, magazines and charts, plus 'uk electronic music industry value 2024', which wants the trade body's report. Production intent 40, all of it courses and degrees ('electronic music production degree uk'), out under WRITING.md and not an opportunity. The collision anticipated before the pull — electronics retailers — did not appear, because every row Ahrefs returned contains the word 'music'; the actual competition for the phrase is a festival calendar. So the page cannot be justified on this seed's volume, and should not be. It earns its traffic through the named genres it covers, each of which has its own map and its own guide, and this file exists to record that the head phrase was measured and is nearly empty rather than leaving the next person to spend units finding out.",
+  "terms": [
+    {
+      "term": "uk electronic music",
+      "volume": 30
+    },
+    {
+      "term": "uk electronic music artists",
+      "volume": 20
+    },
+    {
+      "term": "uk electronic music genres",
+      "volume": 10
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (match_mode=terms, us, top 40 by global volume) and keywords-explorer-related-terms (also_rank_for, view_for=top_100, us, top 25 — returned zero rows) on 'uk electronic music', 6 September 2026",
+  "rejected": [
+    {
+      "term": "electronic music festivals uk",
+      "volume": 80,
+      "why": "collision: the largest row in the set and it wants a listings calendar with dates and lineups. Five dated variants (2013, 2014, 2022, 2025, 2026) plus 'electronic music festival uk' 30 and 'uk electronic music festivals' 20 carry the same intent, 180/mo in total. Absent"
+    },
+    {
+      "term": "electronic music production degree uk",
+      "volume": 40,
+      "why": "production intent: course and degree shopping. Out under WRITING.md whatever the volume, and it is 40"
+    },
+    {
+      "term": "electronic music uk",
+      "volume": 10,
+      "why": "the seed with the words swapped. Writing it out in that order would read like a machine wrote it, the same call made on 'garage uk' in the UK garage map. Absent"
+    },
+    {
+      "term": "electronic music record labels uk",
+      "volume": 10,
+      "why": "navigational: wants a list of labels to submit to or buy from. Absent"
+    },
+    {
+      "term": "electronic music labels uk",
+      "volume": 10,
+      "why": "navigational, same intent as above. Absent"
+    },
+    {
+      "term": "uk electronic music news",
+      "volume": 10,
+      "why": "navigational: wants a publication, not a history. Absent"
+    },
+    {
+      "term": "electronic music radio station uk",
+      "volume": 10,
+      "why": "navigational: wants a station to tune into. Absent"
+    },
+    {
+      "term": "uk electronic music industry value 2024",
+      "volume": 10,
+      "why": "navigational: wants the trade body's figure. The page carries 'uk electronic music industry' but not this phrase, and it is not a claim the guide should make without the source"
+    },
+    {
+      "term": "uk electronic music band 7 little words",
+      "volume": 10,
+      "why": "collision: a crossword puzzle clue. Nothing on this page answers it"
+    },
+    {
+      "term": "electronic music festivals uk 2026",
+      "volume": 10,
+      "why": "collision: dated listings intent, and a date that will be stale. Absent"
+    },
+    {
+      "term": "uk electronic music scene",
+      "volume": 0,
+      "why": "no measurable volume, and absent from the page"
+    },
+    {
+      "term": "best uk electronic music",
+      "volume": 0,
+      "why": "no measurable volume, and absent"
+    },
+    {
+      "term": "early uk electronic music",
+      "volume": 0,
+      "why": "no measurable volume, and absent. Closest in intent to what the page actually does, which says something about how thin this seed is"
+    },
+    {
+      "term": "uk electronic music producers",
+      "volume": 0,
+      "why": "no measurable volume, and the plausible intent behind it is people wanting to become one"
+    },
+    {
+      "term": "electronic music production course uk",
+      "volume": 0,
+      "why": "production intent, out under WRITING.md, and zero volume besides"
+    },
+    {
+      "term": "electronic music course uk",
+      "volume": 0,
+      "why": "production intent, out under WRITING.md"
+    },
+    {
+      "term": "uk electronic music magazine",
+      "volume": 0,
+      "why": "navigational, zero volume, absent"
+    },
+    {
+      "term": "electronic music charts uk",
+      "volume": 0,
+      "why": "navigational: wants a current chart. Absent"
+    },
+    {
+      "term": "the uk there was a bill passed that primarily focused on electronic music and raves",
+      "volume": 0,
+      "why": "a homework or quiz question about the Criminal Justice and Public Order Act. Zero volume, and the phrase is not one anyone types twice"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "note": "Every defect found in shipped work, what should have caught it, and what changed so it cannot happen again. audit-defects.mjs verifies the change is really in the file it claims, so a rule cannot be quietly removed and a fix cannot be claimed without being made. Open entries print on every build until they are closed.",
+  "defects": [
+    {
+      "id": "uk-garage-no-founder",
+      "found": "2026-09-05",
+      "by": "agent",
+      "what": "The UK garage guide shipped with every check green and no mention of Matt Jam Lamont or Justin Cantor, whose Feel My Love (1991) is the earliest record of the genre Wikipedia names, nor Todd Edwards, whose record DJ EZ sped up to make the tempo. 24 of 26 required names absent.",
+      "should_have_caught": "a figures research stage, which did not exist",
+      "fix": {
+        "file": "FIGURES.md",
+        "contains": "The consensus list is popularity, not history"
+      }
+    },
+    {
+      "id": "canon-from-memory",
+      "found": "2026-09-05",
+      "by": "owner",
+      "what": "A canon list produced from recollection put Original Nuttah, a 1994 jungle record, in the required list for the drum and bass guide, and was being used to argue the guides had gaps.",
+      "should_have_caught": "the same rule that already forbade researching keywords from memory, which had never been extended to people",
+      "fix": {
+        "file": "FIGURES.md",
+        "contains": "Memory produces the famous"
+      }
+    },
+    {
+      "id": "audits-walk-directories",
+      "found": "2026-09-05",
+      "by": "assistant, under pressure",
+      "what": "audit-keywords.mjs iterated the keywords directory rather than the page list, so a guide with no map was invisible instead of loud. Breakbeat and jungle, the two pages that earn the traffic, went seventeen months unguarded. audit-canon.mjs was written with the identical fault an hour after the first was found.",
+      "should_have_caught": "pages.mjs, whose own header describes this exact failure and which neither audit imported",
+      "fix": {
+        "file": "audit-keywords.mjs",
+        "contains": "walks pages.mjs rather than the keywords directory"
+      }
+    },
+    {
+      "id": "media-reused-across-guides",
+      "found": "2026-09-05",
+      "by": "assistant",
+      "what": "The UK garage guide shipped with five of seven images borrowed from other guides. ARTICLE-PRODUCTION-WORKFLOW.md already forbade this in section 7 and had not been read.",
+      "should_have_caught": "the workflow, which is 13KB and loaded only by remembering it exists",
+      "fix": {
+        "file": "CLAUDE.md",
+        "contains": "Never reuse media from another guide"
+      }
+    },
+    {
+      "id": "verdicts-on-partial-research",
+      "found": "2026-09-05",
+      "by": "owner",
+      "what": "Three contradicting verdicts were given on breakcore in one evening, each from a fragment: one SERP, then a differentiation question treated as a veto, then the question-form SERP that the first pass had missed. Grime was then called the larger opportunity while researched to a quarter of the depth.",
+      "should_have_caught": "nothing existed",
+      "fix": {
+        "file": "TOPIC-RESEARCH.md",
+        "contains": "Never compare topics researched to different depths"
+      }
+    },
+    {
+      "id": "producer-intent-reopened",
+      "found": "2026-09-05",
+      "by": "owner",
+      "what": "The instructional slice of the amen break's production demand was proposed as an opportunity on the grounds that a producer could credibly teach it, after the site had already settled that it writes for listeners.",
+      "should_have_caught": "WRITING.md, which carried the audience rule but not the prohibition in a form that could survive a large number",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "The size of a number is not a reason to become a different site"
+      }
+    },
+    {
+      "id": "invented-embed-ids",
+      "found": "2026-09-05",
+      "by": "audit-canon.mjs",
+      "what": "Three YouTube ids were written into media/uk-garage.json that no source had supplied. They were invented.",
+      "should_have_caught": "audit-canon.mjs, which did, on the same run it was written",
+      "fix": {
+        "file": "audit-canon.mjs",
+        "contains": "Named but not embedded is a separate failure"
+      }
+    },
+    {
+      "id": "warnings-hidden-by-exit",
+      "found": "2026-09-05",
+      "by": "assistant",
+      "what": "audit-canon.mjs printed known gaps after the failure exit, so thirteen documented gaps were invisible whenever anything else failed.",
+      "should_have_caught": "nothing",
+      "fix": {
+        "file": "audit-canon.mjs",
+        "contains": "Warnings print before the exit"
+      }
+    },
+    {
+      "id": "stale-catalogue-numbers",
+      "found": "2026-09-05",
+      "by": "agent",
+      "what": "The UK garage guide states 736 sets tagged as UK garage, 2-step, speed garage or bassline. The catalogue was re-tagged the same evening and the figure is now 864. Any guide quoting our own statistics goes stale silently, and quoting our own statistics is the strategy for being cited rather than synthesised. FIXED for this page only: nothing still checks numbers in prose against the catalogue, so the class of error remains open.",
+      "should_have_caught": "nothing checks numbers in prose against selector-data.json",
+      "fix": {
+        "file": "uk-garage-guide-draft.md",
+        "contains": "864 are tagged as UK garage"
+      }
+    },
+    {
+      "id": "uk-garage-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent",
+      "what": "Thirteen canon gaps in the live UK garage guide, including the genre's founder, its first number one and the record that set its tempo. Recorded in media/uk-garage.json rather than fixed, because editing published copy needs the owner's approval on wording. FIXED: 25 of 25 names now present, seven canon records embedded in two new listening collections, two gaps remain in media/uk-garage.json (Bump & Flex, and Feel My Love which has no legitimate embed).",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "uk-garage-guide-draft.md",
+        "contains": "Matt \"Jam\" Lamont and Justin Cantor cut \"Feel My Love\" in 1991"
+      }
+    },
+    {
+      "id": "ledger-match-broke-on-wrapping",
+      "found": "2026-09-05",
+      "by": "audit-defects.mjs, on its first run",
+      "what": "The ledger matched a rule by plain substring against hard-wrapped markdown, so a phrase spanning a line break reported the rule as removed when it was sitting in the file.",
+      "should_have_caught": "nothing; the audit found its own fault the first time it was run against a real file",
+      "fix": {
+        "file": "audit-defects.mjs",
+        "contains": "Whitespace is collapsed on both sides before matching"
+      }
+    },
+    {
+      "id": "catalogue-numbers-unchecked",
+      "found": "2026-09-05",
+      "by": "assistant",
+      "what": "No audit compares statistics quoted in guide prose against selector-data.json. The UK garage figure was corrected by hand; the next one will go stale the same way.",
+      "should_have_caught": "nothing exists",
+      "fix": null
+    }
+  ]
+}

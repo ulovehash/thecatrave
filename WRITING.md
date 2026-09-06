@@ -29,7 +29,30 @@ contain. Drop a term from the file rather than wedging the phrase into a
 sentence: an entry removed on purpose is honest, a phrase stuffed to satisfy a
 checker is not.
 
-## Media illustrates the paragraph beside it
+## This site does not teach people to make the music, and hands out no files
+
+The guides are informational and historical. They explain where a music came
+from, what it sounds like, who made it and why it mattered. They do not teach
+anyone to make it.
+
+That means no chopping samples, no bass design, no processing chains, no drum
+programming, no "how to make" of any kind. It also means no downloads: no sample
+packs, no drum kits, no loops, no MIDI, no stems.
+
+Both hold until the owner says otherwise. They are not preferences to be weighed
+against a keyword's volume.
+
+The rule is written down because volume argues against it constantly. The amen
+break carries about 7,700 searches a month for a file and another 1,150 for
+instruction, against roughly 2,030 on the listener side. Breakcore's sample-pack
+cluster is around 4,900. Every keyword pass will surface these, correctly
+measured and correctly large, and the answer is the same every time. A research
+step that reports them as an opportunity has not made a discovery, it has failed
+to apply this page.
+
+It has already been argued the wrong way once here: that an owner who produces
+could credibly teach, so the instructional slice was ours after all. The size of
+a number is not a reason to become a different site.
 
 Not the article in general. If a section argues about a record, the record goes
 in that section, not into a wall of embeds at the end. The reader should be able

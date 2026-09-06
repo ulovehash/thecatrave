@@ -1,0 +1,81 @@
+{
+  "page": "breakbeat-guide.html",
+  "seed": "breakbeat",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "terms": [
+    {
+      "term": "breakbeat",
+      "volume": 5900
+    },
+    {
+      "term": "big beat",
+      "volume": 1700
+    },
+    {
+      "term": "breakbeats",
+      "volume": 1000
+    },
+    {
+      "term": "break beat",
+      "volume": 800
+    },
+    {
+      "term": "breakbeat music",
+      "volume": 600
+    },
+    {
+      "term": "what is breakbeat",
+      "volume": 300
+    },
+    {
+      "term": "breakbeat meaning",
+      "volume": 80
+    },
+    {
+      "term": "breakbeat definition",
+      "volume": 20
+    },
+    {
+      "term": "breakbeat genre",
+      "volume": 10
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms and related-terms on 'breakbeat', September 2026, us and id",
+  "rejected": [
+    {
+      "term": "amen break",
+      "volume": 17000,
+      "why": "the largest term this page touches, and it is named once in passing. Kept out on purpose: the SERP wants a page about the break itself, not a section inside a genre guide. Claiming it here would pass the audit on one mention and answer nobody"
+    },
+    {
+      "term": "breakbeat artinya",
+      "volume": 1400,
+      "why": "Indonesian. Measured September 2026: the surrounding terms are 'arti breakbeat dalam hubungan' and 'breakbeat artinya dalam bahasa gaul', so the intent is the slang sense of the word and the lyrics of local remixes, not the genre. An Indonesian page about the music would fail the same way this one does at 0.03% CTR"
+    },
+    {
+      "term": "apa itu breakbeat",
+      "volume": 1000,
+      "why": "same Indonesian cluster, same intent"
+    },
+    {
+      "term": "breakbeat adalah",
+      "volume": 900,
+      "why": "same Indonesian cluster, same intent"
+    },
+    {
+      "term": "break beats",
+      "volume": 1100,
+      "why": "the spaced plural is absent from the page while 'breakbeats' and 'break beat' are both present. A real variant, but adding it is an edit to published copy and needs deciding rather than stuffing"
+    },
+    {
+      "term": "breakbeat samples",
+      "volume": 400,
+      "why": "production intent. This site is written for listeners, and the anchor aimed at producers drew 1,649 impressions and no clicks"
+    },
+    {
+      "term": "what are breakbeats",
+      "volume": 20,
+      "why": "too small to justify wording of its own, and the plural is already covered"
+    }
+  ]
+}

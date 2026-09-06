@@ -2,6 +2,13 @@
 
 A repeatable pass. Every step exists because skipping it cost something.
 
+This covers finding and judging keywords. The other algorithms:
+`TOPIC-RESEARCH.md` decides whether a topic is worth a page and carries the
+roster of review roles; `FIGURES.md` decides which people a genre guide cannot
+omit; `WRITING.md` carries the rules no audit can enforce.
+
+Each of them exists because the work was once done from memory and was wrong.
+
 ## First, what this cannot do
 
 There is no search demand for the artist. "thecatrave" is not in Ahrefs at all;
@@ -57,7 +64,10 @@ arrive and leave. Four traps, all seen on this site:
   means an Indonesian page, not an English one.
 - **Wrong audience.** Production tutorials are the biggest UK garage videos on
   YouTube, around 700,000 views. Our own "#make-breakbeat" anchor drew 1,649
-  impressions and zero clicks, because this site is written for listeners.
+  impressions and zero clicks. Read that narrowly: it shows a producer landing on
+  a listener page does not click, not that producers are unreachable. The reason
+  production terms are out is the rule in `WRITING.md`, which does not weigh them
+  against volume. Classify them, subtotal them, and drop them.
 
 ## 4. Score winnability from the weakest page in the top ten
 
@@ -71,14 +81,40 @@ hundreds, and no keyword difficulty score will tell you that.
 A topic where the weakest top-ten page has under about twenty referring domains
 is winnable. One where every result is Wikipedia and Spotify is not.
 
-## 5. Ask whether it is ours
+Then read what kind of results hold the top ten, which matters as much as their
+link counts. Count the slots an article could take at all. Breakcore has one:
+allmusic at seven, with two referring domains, while Wikipedia, Reddit, YouTube
+and Spotify hold the other nine. Grime has three, at four, five and fifteen
+domains. Same method, same thresholds, opposite answer, and the difference is
+not the numbers but the shape. Where the page types in the top ten are forums,
+videos and playlists, Google is not asking for an article and writing a better
+one does not change that.
+
+## 5. Ask what will make this page different
 
 Two assets nobody else has: a catalogue of 62,877 sets that can answer questions
-with counts, and an owner who makes this music. If a topic cannot use either,
-the page will be a worse version of something that already exists.
+with counts, and an owner who makes this music. Ask which of them the page will
+use, and if neither, what will take their place.
 
-The UK garage guide passes: it proves the revival with upload counts per year
-rather than asserting it. An artist page for a DJ with three sets does not.
+The UK garage guide answers it: it proves the revival with upload counts per
+year rather than asserting it.
+
+**This is not a veto and it is not about ranking.** Google cannot see the
+catalogue and does not care that it exists. Wikipedia holds position one for
+breakcore without one. A topic with no sets behind it can still be written well
+and still rank, from research and from embeds like anyone else's.
+
+What the question decides is whether the page is worth the reader's time next to
+the page already at position two, and whether anything on it can be cited rather
+than absorbed. Both of those were measured: models synthesise the ordinary
+without attribution, and the small sites Wikipedia links to are cited for
+interviews, archives and tools, never for explanations.
+
+Recorded because it was applied wrongly. Breakcore has no sets in the catalogue,
+that was treated as settling the matter, and step 4 was left to argue second when
+it held the actual reason. Half the rule went unchecked too: it says *neither*
+asset, and whether the owner had standing in a genre descended from jungle and
+hardcore was never asked.
 
 ## 6. Write the map before the article
 

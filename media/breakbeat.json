@@ -1,0 +1,102 @@
+{
+  "page": "breakbeat-guide.html",
+  "seed": "breakbeat",
+  "source": "FIGURES.md six-source pass, September 2026",
+  "note": "Source 1 (matching terms on 'breakbeat artists, breakbeat pioneers') returned thirty rows and not one artist name: every row was a query template ('top breakbeat artists 2019', 'melodic breakbeat artists') with volume 0-50. Source 3's SERP is Reddit threads and a Wikipedia category, so source 4's consensus list is Category:Breakbeat_musicians, which is an alphabetical membership list rather than a canon and returns each name exactly once. Nearly everything required below therefore comes from source 2 (also_talk_about, which found the amen/funk-break cluster) and source 5 (en.wikipedia.org/wiki/Breakbeat and /wiki/Amen_break). Source 6, the catalogue, returned Escaflowne, Black Rave Culture, Mor Elian, Anz, HAAi, X-Coast and Ciel — twenty-five living breaks DJs, none of whom appear in sources 1-5. Those are the differentiators, not omissions.",
+  "required_records": [
+    {
+      "title": "Amen, Brother",
+      "artist": "The Winstons",
+      "year": 1969,
+      "why": "the source of the amen break; every source but the keyword tool returned it, and the whole genre's rhythmic vocabulary starts in Gregory Coleman's six seconds",
+      "sources": [
+        "also_talk_about (amen break 6,300/mo; amen brother 900/mo)",
+        "originators",
+        "paa"
+      ],
+      "embed_id": "2jnj8onRgXr1uErISf3F9j"
+    },
+    {
+      "title": "Funky Drummer",
+      "artist": "James Brown",
+      "year": 1970,
+      "why": "Wikipedia's breakbeat origins section names it first among the funk breaks DJs extended; the second most sampled break in the music",
+      "sources": [
+        "also_talk_about (funky drummer 600/mo)",
+        "originators"
+      ],
+      "embed_id": "61D6PGXxHI5iB10tQGgOEv"
+    },
+    {
+      "title": "Think (About It)",
+      "artist": "Lyn Collins",
+      "year": 1972,
+      "why": "the third of the four canonical source breaks; the 'Yeah! Woo!' stab is the sound a reader recognises without knowing its name",
+      "sources": [
+        "also_talk_about (lyn collins 250/mo)",
+        "originators"
+      ],
+      "embed_id": "1kG2PZ8geznbDA8I6iWeDi"
+    },
+    {
+      "title": "Apache",
+      "artist": "Incredible Bongo Band",
+      "year": 1973,
+      "why": "the record Kool Herc's merry-go-round was built on; named in the origins section and returned as its own entity by also_talk_about",
+      "sources": [
+        "also_talk_about (incredible bongo band 250/mo)",
+        "originators"
+      ],
+      "embed_id": "2ZvUoTx8BggYceQJz24xgG"
+    },
+    {
+      "title": "Chemical Beats",
+      "artist": "The Chemical Brothers",
+      "year": 1995,
+      "why": "Wikipedia credits the Chemical Brothers by name with pioneering big beat — \"It was pioneered by the Chemical Brothers and James Lavelle's Mo'Wax imprint\" — and the styles section cannot make that claim without playing one",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "2uFngE6ePszeJV3Cbtrfpc"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "King of the Beats — Mantronix, 1988",
+      "why": "returned by source 5 twice, from two separate articles: the breakbeat page lists it among the named tracks and the amen break page calls it the \"influential track\" that edited the break into a reusable shape. Absent from the page entirely. The reader is told the amen break spread and never shown the record that taught producers how to cut it."
+    },
+    {
+      "title": "James Lavelle / Mo'Wax",
+      "why": "half of source 5's one explicit crediting sentence for big beat, and the only label named as an originator anywhere in the breakbeat article. Absent. The styles section credits the Chemical Brothers alone, which is the version of the story every competing guide already tells."
+    },
+    {
+      "title": "I Desire — Salt-N-Pepa, 1986",
+      "why": "source 5 calls it \"one of the first tracks to sample the Amen break\". Absent. Without it the page has the break sitting on Ultimate Breaks and Beats and then appearing in British rave, with the hip hop decade in between unevidenced."
+    },
+    {
+      "title": "Grand Wizard Theodore",
+      "why": "named in the same sentence as Afrika Bambaataa in the origins section — \"copied and improved upon by early hip-hop DJs Afrika Bambaataa and Grand Wizard Theodore\". Bambaataa is on the page and Theodore is not, so the sentence has been half-quoted."
+    },
+    {
+      "title": "Straight Outta Compton — N.W.A, 1988; Keep It Going Now — Rob Base & DJ E-Z Rock, 1988",
+      "why": "source 5's two other named 1988 amen uses. Both absent. Together with King of the Beats they are the evidence that the break was mainstream in American rap before Britain ever pitched it up."
+    },
+    {
+      "title": "Richard Lewis Spencer",
+      "why": "the Winstons' bandleader, who holds the copyright on the most reused rhythm in recorded music and was paid nothing for it. Gregory Coleman is credited on the page by name; Spencer is not, so the ownership half of the amen story is missing."
+    },
+    {
+      "title": "Timeless — Goldie, 1995; Anti EP — Autechre, 1994",
+      "why": "both named in source 5's history section as breakbeat's outward routes. Goldie appears on the page as a name with no record; Autechre does not appear at all. The reader loses the two records that show breaks leaving the dancefloor."
+    },
+    {
+      "title": "Give It Up or Turnit a Loose — James Brown, 1969",
+      "why": "the second James Brown break named by source 5, absent. Lower cost than the others: Funky Drummer is present and carries the same point."
+    },
+    {
+      "title": "Grandmaster Flash's quick-mix theory",
+      "why": "Flash is on the page, but source 5 credits him specifically with the named method — \"Grandmaster Flash perfected this idea with what he called the 'quick-mix theory'\". The page has the person without the technique he is credited for."
+    }
+  ]
+}
