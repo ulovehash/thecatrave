@@ -263,6 +263,19 @@ export function homeFooter() {
   return `<footer class="site-footer"><div class="footer-top"><a class="footer-wordmark" href="/">thecatrave*</a><p>Handmade dance music.</p></div><nav class="footer-nav" aria-label="Footer navigation"><div><p>Explore</p><a href="#music">Music</a><a href="#articles">Articles</a></div><div><p>Listen</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>Follow</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><p>Handmade dance music</p><a href="#main-content">Back to top ↑</a></div></footer>`;
 }
 
+// The owner's own visits are the largest single source of noise on a site this
+// size, and GA4's own "internal traffic" filter matches on IP, which is no use
+// to somebody on a laptop with a domestic connection.
+//
+// So the switch lives in the browser instead. Visiting any page with ?ga=off
+// stores a flag and sets window['ga-disable-<id>'], which is Google's own
+// documented opt-out: gtag.js still downloads, and sends nothing. ?ga=on clears
+// it. The flag has to be set before the tag runs, which is why this block comes
+// first and why the tag itself is left exactly as it was: audit-site-components
+// requires that literal string, early in the head, for load performance.
+//
+// It is per browser and per device, because localStorage is. Two browsers means
+// visiting the URL twice, and a cleared site-data wipe means visiting it again.
 export function analytics() {
-  return `<script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
+  return `<script>(function(){try{var q=new URLSearchParams(location.search);if(q.has('ga')){q.get('ga')==='off'?localStorage.setItem('tcr-no-ga','1'):localStorage.removeItem('tcr-no-ga');}if(localStorage.getItem('tcr-no-ga')){window['ga-disable-G-0WW1QS0DW4']=true;}}catch(e){}})();</script><script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
 }
