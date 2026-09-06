@@ -22,6 +22,10 @@ Paradise Garage closed in 1987. The music played there by Larry Levan, a mix of 
 
 British DJs in the early nineties were buying American house imports and playing the more soulful, vocal-led records at a slightly faster speed. Speeding up a record raises its pitch and tightens its groove, and playing a New York garage house record at 130 rather than 120 made it sharper and more urgent. That habit, pitched-up American vocal house, is the actual beginning.
 
+The record usually placed at that moment is Todd Edwards's "The Praise (God In His Hand)". Edwards worked out of New Jersey and built tracks from dozens of tiny vocal fragments, a method that had no name at the time. In 1994 DJ EZ played it in a Greenwich club at 130 rather than its own tempo, and what came back out was no longer American house. Edwards's chopping is still the central technique of the genre thirty years later, which is a strange thing to say about a producer who never lived in London.
+
+An earlier British record exists and almost nobody has heard it. Matt "Jam" Lamont and Justin Cantor cut "Feel My Love" in 1991 on a four-track with a Cheetah sampler. It sat unreleased for six years until Unda-Vybe pressed it in 1997, by which time the scene it had predicted was already happening without it.
+
 Then British producers started making records that only worked at that speed. They kept the diva vocals and threw out the four to the floor kick, replacing it with a shuffling, broken pattern borrowed from jungle. Within about three years the music had stopped resembling its American parent entirely, but the name had already stuck.
 
 This is why the qualifier matters. "Garage" in America means Larry Levan. "UK garage" means the thing London built and then named after a club most of its audience had never been to.
@@ -54,9 +58,13 @@ Speed garage was the sound of 1997, and it burned out fast. Within two years the
 
 The name describes what it did to the drums. A four to the floor beat has four kicks per bar. 2-step removes two of them, leaving a kick on the one and a snare on the three, and the missing beats leave holes that the bass and the hi-hats fall into. The result skips rather than pounds. It is the reason garage can be played loud in a club and still sound light.
 
+The template arrives in 1997 and it is a remix. Kelly G took "Never Gonna Let You Go", an American R&B record Tina Moore had released two years earlier, and rebuilt it around a beat with the kicks pulled out. It is the earliest track most histories are willing to call 2-step, and it was an American producer working on an American vocal, which is a fitting way for a British genre to start.
+
+The records came out on labels small enough to move at the speed of the scene. Locked On was started in 1996 by Peter Worthington and the brothers Tarik and Ziad Nashnush, run out of Pure Groove, their shop in north London, and it carried Zed Bias and Artful Dodger. Ice Cream Records put out "Ripgroove", True Steppers and Kele Le Roc's "My Love". Neither label lasted the decade, which is normal for the form and is why so much of this music is hard to find legally.
+
 The classic 2-step record is a sped-up soul or R&B vocal over that skipping beat, with a bass that answers the vocal rather than sitting under it. Artful Dodger and Craig David's "Re-Rewind" reached number two in 1999 and put a garage record on every radio in the country. MJ Cole made records that were closer to orchestral arrangement than dance production. Sweet Female Attitude's "Flowers" is a pop song and a rhythm exercise at the same time.
 
-2-step is also where garage stops being underground. Between 1999 and 2001 it was on daytime radio, in the charts and on television, and the backlash that followed was as much about that as about the music.
+2-step is also where garage stops being underground. Between 1999 and 2001 it was on daytime radio, in the charts and on television, and the backlash that followed was as much about that as about the music. Clubs that had run garage nights for years began policing the door: Twice as Nice, the most famous of them, moved from a dress code to a metal detector. A shooting outside a So Solid Crew show in 2001 handed promoters and licensing committees the reason they had been waiting for, and bookings dried up for acts who had done nothing at all.
 
 ## Bassline
 
@@ -94,6 +102,8 @@ Around 2001 the mainstream success of 2-step created a split. The music on dayti
 
 Two things came out of that. One went down in tempo and up in weight, kept the broken 2-step beat, dropped everything melodic and became dubstep. The other kept the energy, added MCs and became grime. Both were made by people who had been making garage a year earlier, on the same equipment, in the same part of London.
 
+The instrumental wing had names. Horsepower Productions made 2-step with the vocal removed and the sub-bass promoted to the subject of the record, and Steve Gurley arrived at something similar from the other direction. The room where those records were played was Forward>>, running from 2001 in a basement off Charing Cross Road, and the label that grew out of it was Steve Goodman's Hyperdub. Dubstep did not appear from nowhere in 2005. It had been booked into a club four years earlier.
+
 If you listen to a 2001 dark garage instrumental next to a 2005 dubstep record, the family resemblance is obvious: the same skipping drums, the same space around the bass, the same refusal to fill every bar. Grime is harder to hear as garage until you notice that the tempo is identical and the drum patterns are the same ones with the swing taken out.
 
 This is why the three genres are usually explained together. They are not neighbours. They are the same scene at three different moments.
@@ -102,15 +112,29 @@ This is why the three genres are usually explained together. They are not neighb
 
 A short list of old school garage records. Every UK garage classics playlist draws on these, and these UK garage songs do the explaining better than any paragraph can.
 
+Roy Davis Jr featuring Peven Everett, "Gabriel", 1996. Chicago house with a live vocal, and the record London kept playing until it turned into something else.
+
 Double 99, "Ripgroove", 1997. Speed garage in its purest form.
 
+Tina Moore, "Never Gonna Let You Go" (Kelly G Bump-N-Go Dub), 1997. The first 2-step record, arrived at sideways.
+
 Artful Dodger featuring Craig David, "Re-Rewind", 1999. The record that took garage to number two and made Craig David a household name.
+
+Shanks & Bigfoot, "Sweet Like Chocolate", 1999. The first UK garage record to reach number one, and the moment the genre stopped belonging only to the people who made it.
+
+Zed Bias, "Neighbourhood", 1999. What the underground was doing while "Sweet Like Chocolate" was on daytime radio.
+
+DJ Luck & MC Neat, "A Little Bit of Luck", 1999. The MC as a fixture rather than a guest.
 
 Sweet Female Attitude, "Flowers", 2000. The 2-step vocal record most likely to be recognised by someone who has never heard the word garage.
 
 MJ Cole, "Sincere", 1998. Proof that the genre could carry an arrangement.
 
 Wookie, "Battle", 2000. The bassline that a generation of producers has been rewriting ever since.
+
+Oxide & Neutrino, "Bound 4 Da Reload (Casualty)", 2000. A number one built on the theme from a hospital drama, and the clearest sound of garage turning into grime.
+
+DJ Pied Piper & the Masters of Ceremonies, "Do You Really Like It?", 2001. The second number one, and the last one for a long time.
 
 T2 featuring Jodie Aysha, "Heartbroken", 2007. Three weeks at number two, held off the top by Leona Lewis. Bassline's crossover, and the moment Sheffield got its due.
 
@@ -120,7 +144,7 @@ Burial, "Archangel", 2007. Not garage by any strict definition, and the clearest
 
 The current generation of UK garage artists is easier to describe with numbers than with adjectives.
 
-Across a catalogue of 62,877 recorded DJ sets from 37 channels, 736 are tagged as UK garage, 2-step, speed garage or bassline. The names that come up most often across those sets are Neffa-T, Coziest, Cromby, Yung Singh, Oneman, Conducta, Anz, Interplanetary Criminal, Introspekt and Eliza Rose.
+Across a catalogue of 62,877 recorded DJ sets from 37 channels, 864 are tagged as UK garage, 2-step, speed garage or bassline. The names that come up most often across those sets are Neffa-T, Coziest, Cromby, Yung Singh, Oneman, Conducta, Anz, Interplanetary Criminal, Introspekt and Eliza Rose.
 
 Some of those names are worth knowing for specific reasons. Interplanetary Criminal and Eliza Rose made "B.O.T.A. (Baddest of Them All)", which spent five weeks at number one in the UK in 2022. It was the 1,400th number one single in the history of the chart, and it was the country's number one on the day Queen Elizabeth II died. It is also, unmistakably, a garage record. Sammy Virji has four sets in the catalogue and the most-watched of them has over 1.6 million views. Anz has 116 sets across all genres, more than almost anyone, and moves between garage, techno and everything adjacent.
 

@@ -158,6 +158,32 @@ const speedGarageListening = articleVideoCollection({
   items: [articleVideoCard({youtubeId: 'uR3Vw8J8vUo', genre: 'SPEED GARAGE, 1997', artist: 'Double 99', title: 'RIP Groove'})]
 });
 
+// The three records the genre is actually built from, none of them British and
+// two of them older than the scene. FIGURES.md source 5 named all three; the
+// search-volume source returned no names at all.
+const originsListening = articleVideoCollection({
+  label: 'Where it came from',
+  description: 'The American record DJ EZ sped up to 130, the American vocal an American producer rebuilt into the first 2-step track, and the Chicago house record London kept playing until it turned into something else.',
+  items: [
+    articleVideoCard({youtubeId: 'OhqS5khLQ8U', genre: 'GARAGE HOUSE, 1995', artist: 'Todd Edwards', title: 'The Praise (God In His Hand)'}),
+    articleVideoCard({youtubeId: 'W2IKwskvl2s', genre: 'PROTO 2-STEP, 1997', artist: 'Tina Moore', title: 'Never Gonna Let You Go (Kelly G Dub)'}),
+    articleVideoCard({youtubeId: 'FwxpMIEZ9fg', genre: 'GARAGE HOUSE, 1996', artist: 'Roy Davis Jr', title: 'Gabriel'})
+  ]
+});
+
+// The chart era the guide describes and did not play: two number ones and the
+// underground record running alongside them.
+const chartListening = articleVideoCollection({
+  label: 'The number ones',
+  description: 'Garage at the top of the charts, and what the underground was doing in the same years.',
+  items: [
+    articleVideoCard({youtubeId: 'OQCQnARnKbc', genre: '2-STEP, 1999', artist: 'Shanks & Bigfoot', title: 'Sweet Like Chocolate'}),
+    articleVideoCard({youtubeId: 'khW5leL19SA', genre: '2-STEP, 2001', artist: 'DJ Pied Piper', title: 'Do You Really Like It?'}),
+    articleVideoCard({youtubeId: 'q5T1EIiDSmo', genre: 'GARAGE TO GRIME, 2000', artist: 'Oxide & Neutrino', title: 'Bound 4 Da Reload'}),
+    articleVideoCard({youtubeId: 'mXyeObIl9t4', genre: 'DARK GARAGE, 1999', artist: 'Zed Bias', title: 'Neighbourhood'})
+  ]
+});
+
 const twoStepListening = articleVideoCollection({
   label: '2-step',
   description: 'Four records that show what removing two kicks from the bar does. The crossover, the vocal everybody knows, the one with an arrangement, and the bassline every producer since has been rewriting.',
@@ -197,7 +223,7 @@ const napaFilm = articleVideoCollection({
 
 const revivalListening = articleVideoCollection({
   label: 'The current generation',
-  description: 'The names that come up most across the 736 garage sets in the catalogue, in their most-watched appearances. Sammy Virji and Interplanetary Criminal are the two most likely to be playing on a night out this year.',
+  description: 'The names that come up most across the 864 garage sets in the catalogue, in their most-watched appearances. Sammy Virji and Interplanetary Criminal are the two most likely to be playing on a night out this year.',
   items: [
     articleVideoCard({youtubeId: '6zPr1rk0Ans', genre: 'UK GARAGE', artist: 'Sammy Virji', title: 'Boiler Room, 2024'}),
     articleVideoCard({youtubeId: 'qVzW8WpOpvw', genre: 'UK GARAGE', artist: 'Interplanetary Criminal', title: 'Boiler Room, 2025'}),
@@ -246,10 +272,10 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'A misunderstanding that became a genre.', bodyHtml: join(intro), className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is UK garage?', bodyHtml: join(whatIs)}),
-  articleSection({id: 'naming', title: 'Why it is called garage, and what New York has to do with it.', kicker: 'The name', bodyHtml: `${join(naming.slice(0, 2))}${paradiseFigure}${join(naming.slice(2))}`}),
+  articleSection({id: 'naming', title: 'Why it is called garage, and what New York has to do with it.', kicker: 'The name', bodyHtml: `${join(naming.slice(0, 2))}${paradiseFigure}${join(naming.slice(2, 4))}${originsListening}${join(naming.slice(4))}`}),
   articleSection({id: 'sound', title: 'The sound: 130 BPM and a beat that will not sit still.', bodyHtml: soundHtml}),
   articleSection({id: 'speed-garage', title: 'Speed garage: the branch that kept the four to the floor.', kicker: '1995 to 1998', bodyHtml: `${join(speed.slice(0, 2))}${speedGarageListening}${join(speed.slice(2))}`}),
-  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${craigDavidFigure}${join(twoStep.slice(2))}${twoStepListening}`}),
+  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${craigDavidFigure}${join(twoStep.slice(2, 5))}${twoStepListening}${join(twoStep.slice(5))}${chartListening}`}),
   articleSection({id: 'bassline', title: 'Bassline: what happened when garage went north.', kicker: 'Sheffield', bodyHtml: `${branchesHtml}${basslineListening}`}),
   articleSection({id: 'vs-house', title: 'Garage and house: what is actually different.', bodyHtml: join(vsHouse)}),
   articleSection({id: 'ayia-napa', title: 'Ayia Napa: four summers in Cyprus.', bodyHtml: `${join(napa.slice(0, 2))}${napaFilm}${join(napa.slice(2))}`}),
