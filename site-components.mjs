@@ -284,6 +284,25 @@ export function homeFooter() {
 // it at the source: the tag sends nothing unless the page is actually being
 // served from the live domain. Referrals from AI answers are untouched, because
 // those land on thecatrave.com like anybody else.
+// Four events beyond page_view, chosen so that each one answers a question the
+// site actually has, and no more than that:
+//
+//   selector_deal    the button was pressed. Carries the mode and how many
+//                    filters were on, which is the only way to learn whether
+//                    narrowing the catalogue makes anybody press it twice.
+//   set_opened       the outbound click. The set left with them.
+//   filter_used      facet and value. This is what decides whether a filter row
+//                    earns the screen it costs; the city filter died of a
+//                    question like this before it was ever built.
+//   guide_read       half the article in view and 45 seconds elapsed, fired
+//                    once. GA4's own scroll event fires at 90%, which almost
+//                    nobody reaches in a 5,000-word guide, so it reports every
+//                    guide as unread.
+//
+// selector_deal, set_opened and guide_read are the three worth marking as key
+// events in GA4. filter_used is for reading, not for scoring: a filter is not a
+// goal and counting it as one would make the number meaningless.
+//
 export function analytics() {
-  return `<script>(function(){try{var h=location.hostname;if(h!=='thecatrave.com'&&h!=='www.thecatrave.com'){window['ga-disable-G-0WW1QS0DW4']=true;return;}var q=new URLSearchParams(location.search);if(q.has('ga')){q.get('ga')==='off'?localStorage.setItem('tcr-no-ga','1'):localStorage.removeItem('tcr-no-ga');}if(localStorage.getItem('tcr-no-ga')){window['ga-disable-G-0WW1QS0DW4']=true;}}catch(e){}})();</script><script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script>`;
+  return `<script>(function(){try{var h=location.hostname;if(h!=='thecatrave.com'&&h!=='www.thecatrave.com'){window['ga-disable-G-0WW1QS0DW4']=true;return;}var q=new URLSearchParams(location.search);if(q.has('ga')){q.get('ga')==='off'?localStorage.setItem('tcr-no-ga','1'):localStorage.removeItem('tcr-no-ga');}if(localStorage.getItem('tcr-no-ga')){window['ga-disable-G-0WW1QS0DW4']=true;}}catch(e){}})();</script><script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0WW1QS0DW4');</script><script>(function(){function t(n,p){try{if(window.gtag)window.gtag('event',n,p||{})}catch(e){}}window.tcrTrack=t;document.addEventListener('DOMContentLoaded',function(){document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.host===location.host&&a.pathname.indexOf('selector')>-1&&location.pathname.indexOf('selector')<0)t('selector_opened',{from:location.pathname});},true);var art=document.querySelector('.article-page article');if(!art)return;var start=Date.now(),done=false;function c(){if(done)return;var r=art.getBoundingClientRect(),seen=(window.innerHeight-r.top)/Math.max(1,r.height);if(seen>=0.5&&Date.now()-start>=45000){done=true;t('guide_read',{page:location.pathname});window.removeEventListener('scroll',c)}}window.addEventListener('scroll',c,{passive:true});setTimeout(c,45000)})})();</script>`;
 }

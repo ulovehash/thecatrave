@@ -229,9 +229,26 @@
     return pool[Math.floor(Math.random() * pool.length)];
   };
 
+  // Analytics must never be load-bearing. gtag is absent on localhost by design
+  // and disabled in the owner's browser, so every call here has to be a no-op
+  // rather than a thrown error inside a click handler.
+  const track = (name, params) => { try { if (window.gtag) window.gtag('event', name, params || {}); } catch {} };
+  let current = null;
+
   const go = () => {
     const item = pick();
     if (!item) return;
+    current = item;
+    // What the button is for. The parameters are the question worth asking of
+    // it: does anyone narrow the catalogue before pressing, and does narrowing
+    // make them press again.
+    track('selector_deal', {
+      mode,
+      sources: activeSources.size,
+      genres: activeGenres.size,
+      lengths: activeLengths.size,
+      pool: pool.length
+    });
     if (!reduceMotion) {
       btn.dataset.spinning = 'true';
       setTimeout(() => { delete btn.dataset.spinning; }, 300);
@@ -241,6 +258,13 @@
     setButton('Pick another', 'ready', false);
   };
   btn.addEventListener('click', go);
+
+  // The outbound click is the one that means something: the set was taken away
+  // rather than left playing in the corner of a tab.
+  if (stage) stage.addEventListener('click', e => {
+    const a = e.target && e.target.closest ? e.target.closest('.sel-links a') : null;
+    if (a) track('set_opened', {mode, source: current ? current.broadcaster : '', id: current ? current.id : ''});
+  });
 
   // Mode is one-of-four, unlike Source and Genre which are multi-select. So it is
   // a radio group, not a row of independent toggles: role="radio"/aria-checked,
@@ -265,6 +289,7 @@
     });
     const select = (chip, focus) => {
       mode = chip.dataset.value;
+      track('filter_used', {facet: 'mode', value: mode});
       chips.forEach(x => {
         const on = x === chip;
         x.setAttribute('aria-checked', on ? 'true' : 'false');
@@ -290,7 +315,7 @@
     });
   }
 
-  function makeChips(container, entries, activeSet, iconFor, paintFor, peek) {
+  function makeChips(container, entries, activeSet, iconFor, paintFor, peek, facet) {
     if (!container) return;
     container.textContent = '';
     // name and count are separate so narrow screens can drop the count and fit
@@ -346,10 +371,11 @@
       applyPeek();
       rebuildPool();
     };
-    allChip.addEventListener('click', () => { activeSet.clear(); sync(); });
+    allChip.addEventListener('click', () => { activeSet.clear(); track('filter_used', {facet, value: 'all'}); sync(); });
     chips.forEach(c => c.addEventListener('click', () => {
       const v = c.dataset.value;
       if (activeSet.has(v)) activeSet.delete(v); else activeSet.add(v);
+      track('filter_used', {facet, value: v, on: activeSet.has(v)});
       sync();
     }));
   }
@@ -376,18 +402,18 @@
     makeChips(sourcesEl,
       [...srcCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
         .map(([n, c]) => [n, n, c]),
-      activeSources, sourceIcon, value => sourceColors[value] || null, SOURCE_PEEK);
+      activeSources, sourceIcon, value => sourceColors[value] || null, SOURCE_PEEK, 'source');
     const ranked = [...genCounts.entries()].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]);
     if (ranked.length) {
       const genres = ranked.slice(0, 18).map(([g, n]) => [g, g, n]);
       if (untaggedCount) genres.push(['untagged', UNTAGGED]);
-      makeChips(genresEl, genres, activeGenres, null, null, GENRE_PEEK);
+      makeChips(genresEl, genres, activeGenres, null, null, GENRE_PEEK, 'genre');
       if (genresWrap) genresWrap.hidden = false;
     }
     const lenCounts = LENGTHS.map(([name, value, lo, hi]) =>
       [name, value, all.filter(s => s.seconds >= lo && s.seconds < hi).length]);
     if (lenCounts.some(l => l[2])) {
-      makeChips(lengthsEl, lenCounts.filter(l => l[2]), activeLengths);
+      makeChips(lengthsEl, lenCounts.filter(l => l[2]), activeLengths, null, null, null, 'length');
       if (lengthsWrap) lengthsWrap.hidden = false;
     }
     if (all.some(s => s.likes != null)) buildModeChips();
