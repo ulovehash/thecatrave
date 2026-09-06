@@ -178,9 +178,12 @@
       "id": "jungle-youtube-feature-drops-its-copy",
       "found": "2026-09-06",
       "by": "assistant, closing the jungle canon gaps",
-      "what": "youtubeFeature() in build-jungle-article.mjs takes kicker, heading and description and renders none of them: it returns a bare articleYoutubeEmbed. Three embeds on the live jungle guide have carefully written copy in the builder that no reader has ever seen, and the guide's other listening blocks all carry a visible Essential listening label and a heading. Not fixed here, because changing it alters three published blocks and that is a wording decision, not a repair.",
+      "what": "youtubeFeature() in build-jungle-article.mjs took kicker, heading and description and rendered none of them. The real cause was worse than a missing parameter: a second loop lower in the same file rewrote three of the four blocks with a bare articleYoutubeEmbed after the first path had already placed them, so the file held two sources of truth for the same embeds and the later one won. Four videos sat on the live page as unlabelled rectangles while every Spotify block beside them carried a label, a title and a line saying why it was there. FIXED: the second loop is gone, the copy renders, and the embed no longer bleeds twice inside a band.",
       "should_have_caught": "nothing; the parameters are accepted and silently discarded, which no audit can see",
-      "fix": null
+      "fix": {
+        "file": "build-jungle-article.mjs",
+        "contains": "Two sources of truth for the same three embeds, and the later one won"
+      }
     },
     {
       "id": "jungle-canon-unfixed",

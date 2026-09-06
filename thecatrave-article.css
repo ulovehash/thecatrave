@@ -536,6 +536,11 @@
   transform: translateX(-50%);
 }
 .classic-youtube-embed iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; background: #0a0a0a; }
+/* On its own the YouTube embed is a full-bleed element: it centres itself on the
+   viewport and takes 900px or the window, whichever is smaller. Inside a
+   listening band that bleed is applied twice and the page scrolls sideways, so
+   in that context it goes back to being an ordinary block filling its cell. */
+.article-listening-feature .classic-youtube-embed { position: static; left: auto; width: 100%; margin: 0; transform: none; }
 .jungle-page code { font-family: "Space Mono", monospace; font-size: .9em; }
 
 .styles-section h3 {

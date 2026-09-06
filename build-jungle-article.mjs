@@ -168,11 +168,25 @@ function insertFeatureAfterParagraph(html, {key, sectionId, paragraphMarker, fea
   return html.slice(0, paragraphEnd) + `\n${startMarker}\n${feature}\n${endMarker}` + html.slice(paragraphEnd);
 }
 
+// This took a kicker, a heading and a description and rendered none of them: it
+// returned a bare embed and threw the copy away. Four videos sat on the live
+// page as unlabelled rectangles while every Spotify block beside them carried a
+// label, a title and a line saying why it was there. The copy had been written
+// for all four and no reader had ever seen it.
+//
+// Same aside as articleListeningBand produces, because the point is that these
+// look like the rest of the page's listening blocks rather than like an
+// afterthought.
+const escapeCopy = value => String(value)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
 function youtubeFeature({key, videoId, kicker, heading, description}) {
-  return articleYoutubeEmbed({
+  const player = articleYoutubeEmbed({
     src:`https://www.youtube.com/embed/${videoId}?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide`,
     title:heading
   });
+  const id = `jungle-video-${key}`;
+  return `<aside class="video-feature article-listening-feature article-media-band article-media-band-full article-media-band-cyan" aria-labelledby="${id}"><div class="article-media-copy"><p class="article-kicker">${escapeCopy(kicker)}</p><h3 id="${id}">${escapeCopy(heading)}</h3><p>${escapeCopy(description)}</p></div>${player}</aside>`;
 }
 
 function soundcloudFeature() {
@@ -423,26 +437,11 @@ for (const feature of [
 
 content = replaceMarkedBlock(content, 'jungle-listening:essential-tracks', '');
 
-for (const feature of [
-  {
-    marker:'jungle-feature:dj-hype',
-    src:'https://www.youtube.com/embed/gdQ4V245hG8?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'DJ Hype, Jungle Massive.'
-  },
-  {
-    marker:'jungle-feature:original-nuttah',
-    src:'https://www.youtube.com/embed/3QMiCBJ7yRM?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'Shy FX & UK Apachi, Original Nuttah.'
-  },
-  {
-    marker:'jungle-feature:nia-archives',
-    src:'https://www.youtube.com/embed/jO5JhZNSjUA?rel=0&origin=https%3A%2F%2Fthecatrave.com&widget_referrer=https%3A%2F%2Fthecatrave.com%2Fjungle-music-guide',
-    title:'Nia Archives, Boiler Room: London.'
-  }
-]) {
-  const {marker, ...options} = feature;
-  content = replaceMarkedBlock(content, marker, articleYoutubeEmbed(options));
-}
+// A second loop used to sit here rewriting these three blocks with a bare
+// articleYoutubeEmbed, after insertFeatureAfterParagraph had already placed
+// them. Two sources of truth for the same three embeds, and the later one won:
+// that is why the kicker, heading and description written for them upstream
+// were never on the page. The upstream call owns them now.
 
 const decodeAttribute = value => String(value || '')
   .replace(/&quot;/g, '"')
