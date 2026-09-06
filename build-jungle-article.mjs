@@ -328,6 +328,18 @@ content = insertFeatureAfterParagraph(content, {
   })
 });
 content = insertFeatureAfterParagraph(content, {
+  key: 'tim-reaper',
+  sectionId: 'revival',
+  paragraphMarker: 'the other name that comes back from every direction at once',
+  feature: youtubeFeature({
+    key: 'tim-reaper',
+    videoId: 'FJGYUwdGEeg',
+    kicker: 'Essential listening',
+    heading: 'Tim Reaper, rare groove inspired jungle mix.',
+    description: 'Recorded for NTS. A DJ rather than a record, so the evidence is a set: an hour of what the revival actually sounds like.'
+  })
+});
+content = insertFeatureAfterParagraph(content, {
   key: 'lana-soundcloud',
   sectionId: 'revival',
   paragraphMarker: 'have brought Jungle back into the limelight',

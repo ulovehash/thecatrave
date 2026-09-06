@@ -19,7 +19,11 @@ const checks = {
   classicYoutubeEmbeds: (html.match(/class="classic-youtube-embed"/g) || []).length,
   youtubeFallbacks: (html.match(/class="youtube-local-fallback"/g) || []).length,
   labelledSpotifyFeatures: (html.match(/class="spotify-feature article-listening-feature article-media-band article-media-band-full/g) || []).length,
-  allEssentialListeningFullBleed: essentialListeningClasses.length === 7 && essentialListeningClasses.every(classes => /(?:article-media-band-full|context-listening-full)/.test(classes)),
+  // The name is the assertion: every essential-listening block is full bleed.
+  // It used to also require exactly seven of them, so closing a canon gap by
+  // adding a record failed this audit, which is a check punishing the repair it
+  // exists to demand. The floor still stops blocks being deleted.
+  allEssentialListeningFullBleed: essentialListeningClasses.length >= 7 && essentialListeningClasses.every(classes => /(?:article-media-band-full|context-listening-full)/.test(classes)),
   exactLegendaryTrackEntries: (html.match(/id="jungle-track-(?:valley|renegade-snares|incredible|inner-city-life|babylon)"/g) || []).length,
   exactLegendaryTrackEmbeds: (html.match(/open\.spotify\.com\/embed\/track\/(?:3BDFLAvxTaWHpWgHkFpMsJ|72G1pFJW0poqDNUlGbzJOh|2fq7lLTvRHZjUPqh5a20n5|4qw7xhiy8rWGDeffgSj7Ez|05KgAsHP0YmiJ0KWP6Axf0)/g) || []).length,
   unifiedListeningLabel: !/Listen while you read|Jungle Mania listening/i.test(html),
@@ -48,15 +52,22 @@ const checks = {
 // and failures are named.
 const expectedCounts = {
   h1: 1,
-  classicYoutubeEmbeds: 3,
-  labelledSpotifyFeatures: 7,
   exactLegendaryTrackEntries: 5,
   exactLegendaryTrackEmbeds: 5
+};
+
+// Media counts are floors, not fixtures. The five legendary tracks above are
+// still pinned by id and by embed, so nothing can be quietly dropped; these two
+// only have to stop going down.
+const minimumCounts = {
+  classicYoutubeEmbeds: 3,
+  labelledSpotifyFeatures: 7
 };
 const mustBeFalse = ['editorialNotesLeaked'];
 const failures = Object.entries(checks)
   .filter(([key, value]) => {
     if (key in expectedCounts) return value !== expectedCounts[key];
+    if (key in minimumCounts) return value < minimumCounts[key];
     if (mustBeFalse.includes(key)) return Boolean(value);
     if (Array.isArray(value)) return value.length > 0;
     if (typeof value === 'number') return value !== 0;

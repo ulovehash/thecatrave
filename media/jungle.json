@@ -36,29 +36,41 @@
         "originators"
       ],
       "embed_id": "4qw7xhiy8rWGDeffgSj7Ez"
+    },
+    {
+      "title": "We Are I.E.",
+      "artist": "Lennie De Ice",
+      "year": 1991,
+      "why": "source 5: 'The track We Are I.E. by Lennie De Ice is often credited as being the track that laid down the foundations for jungle.' It was named in the prose with no player anywhere on the page.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "7Li4jlU5MVqS5f3J2ooviA"
+    },
+    {
+      "title": "28 Gun Bad Boy",
+      "artist": "A Guy Called Gerald",
+      "year": 1993,
+      "why": "returned by source 5 as a named track and by source 6 at 7 sets. Gerald was on the page and the record was not, so the bridge from Manchester acid house to London jungle had no sound.",
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
+      "embed_id": "2RGpGw2lWRs51knftCnos0"
+    },
+    {
+      "title": "Tim Reaper",
+      "artist": "Tim Reaper",
+      "year": 2025,
+      "why": "returned by three sources. Named on the page with no player, so the revival section described a living scene the reader could not hear. A DJ, so the medium is a set rather than a record: an NTS mix from our own catalogue.",
+      "sources": [
+        "consensus",
+        "catalogue"
+      ],
+      "embed_id": "FJGYUwdGEeg"
     }
   ],
   "known_gaps": [
-    {
-      "title": "We Are I.E. — Lennie De Ice, 1989",
-      "why": "the single most load-bearing gap on the page. Source 5's crediting sentence is unambiguous: \"The track 'We Are I.E.' by Lennie De Ice is often credited as being the track that laid down the foundations for jungle.\" It is named in the prose and there is no player anywhere on the page. A guide whose origins section rests on one record and will not play it is asking the reader to take the founding claim on trust."
-    },
-    {
-      "title": "Original Nuttah — UK Apachi & Shy FX, 1994",
-      "why": "named by source 5 and the only jungle record source 2 returned as its own search entity ('nuttah shy fx'). Named in the prose, no embed. This is the record most readers arrive already half-knowing, and the page gives them nothing to press play on."
-    },
-    {
-      "title": "Paul Ibiza and Ibiza Records",
-      "why": "source 5's other founding sentence — \"Paul Ibiza and the Rebel MC were arguably the first to bring the sound system influence solidly into releases\" — and he is absent from the page entirely, along with his label. Rebel MC is present, so half of the sentence that explains how sound system culture entered jungle records has been carried and half dropped. Founders are often not famous; this is exactly the name the algorithm exists to catch."
-    },
-    {
-      "title": "28 Gun Bad Boy — A Guy Called Gerald, 1993",
-      "why": "returned by source 5 as a named track and by source 6 at 7 sets, one of only two names to come back from both history and the live catalogue. Gerald is on the page; the record is not. The reader loses the bridge between Manchester acid house and London jungle."
-    },
-    {
-      "title": "Crackman — DJ Ron",
-      "why": "source 5 names DJ Ron twice, once as a track credit and once among the AWOL/Roast/Telepathy DJs who championed the sound. Neither the record nor the man appears on the page, while DJ Hype and DJ Randall from the same sentence both do."
-    },
     {
       "title": "Burial — Leviticus, 1994",
       "why": "named by source 5 among the defining tracks. Both artist and title appear in the page text, but with no player, and 'Burial' on a jungle page reads as the dubstep producer unless a 1994 Philly Blunt record is playing next to it."
@@ -68,20 +80,16 @@
       "why": "named by source 5, present in the prose, no embed. Lowest cost of the source 5 records: it is a scene-setting citation rather than a record the argument depends on."
     },
     {
-      "title": "Telepathy; Renk Records; Rush FM",
-      "why": "three of source 5's named institutions absent while their sentence-mates are present — AWOL and Roast are on the page but Telepathy is not; Moving Shadow, V Recordings and Suburban Base are there but Renk is not; Kool FM, Don FM and Rude FM are there but Rush is not. Each omission is small; together they make the infrastructure sections look like a list somebody typed from memory rather than the four labels and four stations the sources actually name."
-    },
-    {
-      "title": "Nia Archives; Tim Reaper",
-      "why": "the only two names returned by three sources each — both consensus lists and the catalogue (7 sets apiece). Both are named on the page and neither has a player, so the revival section describes a living scene the reader cannot hear. This is the cheapest gap on the list to close: both have current records on Spotify."
-    },
-    {
       "title": "4am Kru; Samurai Breaks; Napes; Om Unit; Mani Festo; Mantra",
       "why": "returned by the Clash consensus feature or the catalogue and absent from the page. Not required — one source each — but recorded so the next pass does not re-litigate them. Om Unit, Mani Festo and Mantra are catalogue-only, which by FIGURES.md makes them differentiators rather than gaps: names we can write about that the competing guides cannot."
     },
     {
       "title": "Renegade Snares — Omni Trio, 1993; Babylon — Splash, 1995",
       "why": "not a gap. Both are embedded on the page and neither was returned by any of the six sources, so they are recorded here to stop a later pass reading their absence from the required list as an error. They are the writer's judgement, which the algorithm does not overrule."
+    },
+    {
+      "title": "Corrections to this file, 6 September 2026",
+      "why": "Two recorded gaps were false. 'Original Nuttah' was already embedded on the page, and Nia Archives already carried a Boiler Room set. Both were written down as missing players. A research note that overstates is the same failure as one that misses, so the corrections stay here rather than being deleted."
     }
   ]
 }

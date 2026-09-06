@@ -173,6 +173,25 @@
         "file": "dubstep-guide-draft.md",
         "contains": "Forward>> also ran a show on Rinse FM, the east London pirate station"
       }
+    },
+    {
+      "id": "jungle-youtube-feature-drops-its-copy",
+      "found": "2026-09-06",
+      "by": "assistant, closing the jungle canon gaps",
+      "what": "youtubeFeature() in build-jungle-article.mjs takes kicker, heading and description and renders none of them: it returns a bare articleYoutubeEmbed. Three embeds on the live jungle guide have carefully written copy in the builder that no reader has ever seen, and the guide's other listening blocks all carry a visible Essential listening label and a heading. Not fixed here, because changing it alters three published blocks and that is a wording decision, not a repair.",
+      "should_have_caught": "nothing; the parameters are accepted and silently discarded, which no audit can see",
+      "fix": null
+    },
+    {
+      "id": "jungle-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The jungle guide's origins section rested on 'We Are I.E.' and would not play it. Paul Ibiza, named by the source in the same sentence as Rebel MC as arguably the first to put sound system influence onto vinyl, was absent with his label. So were DJ Ron and 'Crackman', the club Telepathy, the label Renk and the station Rush, each one dropped while its sentence-mates were kept. A Guy Called Gerald was on the page without '28 Gun Bad Boy'. FIXED: seven gaps closed, three verified embeds added.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "jungle-music-guide.html",
+        "contains": "is named alongside Rebel MC as arguably the first to put that influence solidly onto vinyl"
+      }
     }
   ]
 }
