@@ -203,6 +203,28 @@
         "file": "breakbeat-guide-draft.md",
         "contains": "belonged to the Winstons' bandleader Richard Lewis Spencer, not to Coleman"
       }
+    },
+    {
+      "id": "bass-music-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The bass music guide argued about an umbrella term and named almost nobody it covered: James Blake, SBTRKT, Sophie, Rustie and Zomby were absent, and Burial appeared once. The two internet radio stations its source says the music was mostly promoted on, Rinse FM and Sub.FM, were not on the page. The dubstep records the argument leans on were unnamed. FIXED: all six gaps closed in prose, no new embeds: Midnight Request Line, Night and the proto-dubstep records live on the dubstep guide and running them twice would break the rule against reusing media across guides, so this guide names them and links there.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "bass-music-draft.md",
+        "contains": "James Blake, Benga, Burial, SBTRKT, Sophie, Rustie, Zomby and Skream are the artists the histories list"
+      }
+    },
+    {
+      "id": "uk-electronic-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The UK electronic guide's acid house section described the TB-303 without naming Phuture or DJ Pierre or Acid Tracks, and its Second Summer of Love section named Shoom and the Hacienda without naming a single DJ who ran them. The Prodigy was named three times with no record to hear, and Fabio and Grooverider were named with nothing at all. FIXED: four gaps closed, two verified embeds added. One recorded gap was wrong: it claimed Rinse FM was absent, and the page carries it twice.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "uk-electronic-music-evolution-draft.md",
+        "contains": "The sound is usually credited to DJ Pierre and Phuture"
+      }
     }
   ]
 }

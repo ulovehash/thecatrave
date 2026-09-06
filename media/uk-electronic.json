@@ -8,7 +8,9 @@
       "artist": "Baby Ford",
       "year": 1989,
       "why": "source 5 credits acid house pioneers in the London context; Baby Ford appears in early electronic synthpop-to-acid histories as a parallel development",
-      "sources": ["catalogue"],
+      "sources": [
+        "catalogue"
+      ],
       "embed_id": "yCNpciIixbk"
     },
     {
@@ -16,7 +18,10 @@
       "artist": "LFO",
       "year": 1990,
       "why": "source 5 documents breakbeat hardcore emergence in UK rave scene; LFO's warehouse mix is canonical for early 1990s hard house/breakbeat",
-      "sources": ["originators", "catalogue"],
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
       "embed_id": "ML_FBvudqI0"
     },
     {
@@ -24,7 +29,9 @@
       "artist": "SL2",
       "year": 1992,
       "why": "foundational breakbeat hardcore track from SL2, part of the 1990-1993 consolidation of UK rave sound",
-      "sources": ["originators"],
+      "sources": [
+        "originators"
+      ],
       "embed_id": "PaBLXLn8cOY"
     },
     {
@@ -32,7 +39,10 @@
       "artist": "Shy FX & UK Apache",
       "year": 1994,
       "why": "source 5 and catalogue: jungle's breakthrough moment on the amen break; one of the genre's most sampled records",
-      "sources": ["originators", "catalogue"],
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
       "embed_id": "_VFf6434lto"
     },
     {
@@ -40,7 +50,10 @@
       "artist": "Goldie",
       "year": 1995,
       "why": "source 5 credits Goldie as the mainline between hard breakbeat and liquid drum and bass; this track is the definition of the crossover",
-      "sources": ["originators", "catalogue"],
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
       "embed_id": "i-P98B2skts"
     },
     {
@@ -48,7 +61,9 @@
       "artist": "Massive Attack",
       "year": 1998,
       "why": "source 5 places Massive Attack in post-rave electronica; Unfinished Sympathy is the group's most influential track spanning UK dance and art-world contexts",
-      "sources": ["originators"],
+      "sources": [
+        "originators"
+      ],
       "embed_id": "ZWmrfgj0MZI"
     },
     {
@@ -56,7 +71,9 @@
       "artist": "The Chemical Brothers",
       "year": 1997,
       "why": "parallel to Massive Attack; The Chemical Brothers carry big beat out of rave context into the crossover moment of the late 1990s",
-      "sources": ["originators"],
+      "sources": [
+        "originators"
+      ],
       "embed_id": "_GfcIprkuvw"
     },
     {
@@ -64,7 +81,10 @@
       "artist": "Aphex Twin",
       "year": 1992,
       "why": "source 5 and source 6: Aphex Twin appears in ambient and intelligent dance music histories as the IDM founder; Xtal is from Selected Ambient Works 85-92",
-      "sources": ["originators", "catalogue"],
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
       "embed_id": "uXpKC8TIAxE"
     },
     {
@@ -72,30 +92,41 @@
       "artist": "Digital Mystikz",
       "year": 2006,
       "why": "source 5: founders of 2000s UK bass movement; Mala's production work on Anti War Dub defines the dubstep half-step bass philosophy",
-      "sources": ["originators"],
+      "sources": [
+        "originators"
+      ],
       "embed_id": "--jr22La8Nk"
+    },
+    {
+      "title": "Firestarter",
+      "artist": "The Prodigy",
+      "year": 1996,
+      "why": "source 5 credits The Prodigy repeatedly as the bridge from breakbeat hardcore to 1990s crossover. The group was named three times on the page with no record of theirs to hear. Not Charly, which the breakbeat guide carries: media is not reused across guides.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "wmin5WkOuPw"
+    },
+    {
+      "title": "Journey Down The Thames",
+      "artist": "Fabio & Grooverider",
+      "year": 2022,
+      "why": "source 5 documents both as the DJs who consolidated breakbeat hardcore on radio and in clubs. Both were named on the page with nothing to hear. DJs, so the evidence is a set, and this one is on Hospital Records' own channel and in our catalogue.",
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
+      "embed_id": "0TlxCWYn-B8"
     }
   ],
   "known_gaps": [
     {
-      "title": "Acid Tracks — Phuture",
-      "why": "source 5's opening origins sentence: 'Acid house is an electronic music genre that originated in the mid-1980s Chicago house scene. The sound's defining characteristic came from the Roland TB-303 synthesizer, and is often credited to DJ Pierre and Phuture.' Phuture invented acid house, but 'Acid Tracks' (1987) has no embedded player on the page."
+      "title": "Acid Tracks — Phuture, 1987: named, not embedded",
+      "why": "Now named in the prose with DJ Pierre and Trax Records, which closes the absence. No embed: every YouTube upload found is a fan vinyl rip and there is no upload on the label's or artist's own channel, so under WRITING.md none of them qualifies. Spotify has the track (7BKjoKthIrz3m2XxIrLCtG) but this guide's media is YouTube video cards throughout, and mixing one Spotify player into that grid is a design decision, not a repair."
     },
     {
-      "title": "Danny Rampling, Paul Oakenfold, Nicky Holloway, Mike Pickering, Graeme Park (Second Summer of Love venues/DJs)",
-      "why": "source 5: 'Five British DJs inspired by an Ibiza holiday in summer 1987 launched the movement.' Named founders of Shoom, Future/Spectrum, Trip, and Haçienda are absent from the page despite being mentioned in prose."
-    },
-    {
-      "title": "The Prodigy — Firestarter or Smack My Bitch Up",
-      "why": "source 5 credits The Prodigy multiple times as bridge between breakbeat hardcore and 1990s crossover; The Prodigy is named but no signature track is embedded despite carrying the narrative of rave to mainstream."
-    },
-    {
-      "title": "Fabio & Grooverider (breakbeat hardcore founding DJs)",
-      "why": "source 5: the article documents Fabio and Grooverider as the key DJs consolidating breakbeat hardcore on radio and in clubs. Both appear on the page but neither has a mix or signature record embedded."
-    },
-    {
-      "title": "Rinse FM",
-      "why": "source 5 places Rinse FM as essential to UK bass and dubstep history in the 2000s—'Forward>> also ran a radio show on east London pirate station Rinse FM'—but the page has no reference to the station that broadcast the scene."
+      "title": "Correction: Rinse FM was never missing from this page",
+      "why": "The recorded gap said the page had no reference to the station. It has two, one of them a linked Guardian piece on twenty years of Rinse. The note was wrong and is kept as a correction rather than deleted."
     }
   ]
 }
