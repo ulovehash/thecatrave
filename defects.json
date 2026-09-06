@@ -151,6 +151,17 @@
         "file": "site-components.mjs",
         "contains": "a reader could finish 5,000 words on jungle and"
       }
+    },
+    {
+      "id": "dnb-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The drum and bass guide shipped without 4hero or Reinforced Records, the first name in the only sentence its source writes about who shaped the genre and the label the rest of that sentence's names came through; without the genre's first UK number one; without RAM, Playaz or Hospital; and without the room at Heaven where the tempo came from. High Contrast was named as one of two liquid pioneers with no record to hear. FIXED: six of the eight recorded gaps closed, three verified embeds added, three notes left that are flags rather than gaps.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "drum-and-bass-guide-draft.md",
+        "contains": "The label most of that generation passed through was Reinforced Records"
+      }
     }
   ]
 }

@@ -147,6 +147,16 @@ const splitListening = articleListeningCollection({
   ])
 });
 
+const reinforcedListening = articleListeningCollection({
+  id: 'reinforced-listening', tone: 'cyan',
+  title: 'The album the label already had.',
+  description: 'Reinforced was four years old when the rename happened, and 4hero had already made the record the new name was reaching for.',
+  items: listeningItems([
+    {year: '1994', artist: '4hero', title: 'Parallel Universe', spotify: '0MMBVUug4IJy0pUL2mRmPf',
+      note: 'Made in Dollis Hill and released on their own label. Widely called the first drum and bass album, four years before Two Pages was shortlisted for the Mercury Prize.'}
+  ])
+});
+
 const soundListening = articleListeningCollection({
   id: 'sound-listening', tone: 'cyan',
   title: 'Two-step and rolling.',
@@ -172,12 +182,14 @@ const metalheadzListening = articleListeningCollection({
 const atmosphericListening = articleListeningCollection({
   id: 'atmospheric-listening', tone: 'cyan',
   title: 'The other answer to 1995.',
-  description: 'The jazz-facing branch, from the Good Looking blueprint to the record that won the Mercury Prize.',
+  description: 'The jazz-facing branch, from the Good Looking blueprint to the Mercury Prize and on into liquid.',
   items: listeningItems([
     {year: '1993', artist: 'LTJ Bukem', title: 'Music', youtube: 'hp8DkZyE9h8',
       note: 'Strings, a soft break and no drop in the modern sense. The reference point for what got marketed as intelligent drum and bass.'},
     {year: '1997', artist: 'Roni Size and Reprazent', title: 'Brown Paper Bag', spotify: '3ZQs8RHO3lPZoUwpavPENL',
-      note: 'From New Forms, made in Bristol, Mercury Prize 1997. The drum and bass record owned by people who owned no other.'}
+      note: 'From New Forms, made in Bristol, Mercury Prize 1997. The drum and bass record owned by people who owned no other.'},
+    {year: '2004', artist: 'High Contrast', title: 'The Basement Track', youtube: 'C5XGKcvFOJc',
+      note: 'The Hospital end of the same lineage: soul samples kept, built for a big room, and still played.'}
   ])
 });
 
@@ -200,6 +212,16 @@ const subgenreListening = articleListeningCollection({
       note: 'Liquid: rolling, warm, soulful, and the version of drum and bass that travelled furthest.'},
     {year: '2010', artist: 'Noisia', title: 'Machine Gun', spotify: '6s9XbbtulHcMwMDzsyoEO7',
       note: 'Neurofunk built in Groningen and played worldwide: the sound as a precision-engineering exercise.'}
+  ])
+});
+
+const chartListening = articleListeningCollection({
+  id: 'chart-listening', tone: 'cyan',
+  title: 'The first number one.',
+  description: 'The record that took drum and bass to the top of the UK singles chart, seventeen years after Timeless.',
+  items: listeningItems([
+    {year: '2012', artist: 'DJ Fresh featuring Rita Ora', title: 'Hot Right Now', youtube: 'N7OPZOBJZyI',
+      note: 'The genre\u2019s first UK number one, and the opening of a decade in which it kept returning to the chart.'}
   ])
 });
 
@@ -244,12 +266,12 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The music jungle turned into.', bodyHtml: join(paragraphs(intro)), className: 'article-intro'}),
-  articleSection({id: 'where-jungle-ended', title: 'Where jungle ended.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene)}${splitListening}`}),
+  articleSection({id: 'where-jungle-ended', title: 'Where jungle ended.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene.slice(0, 4))}${reinforcedListening}${join(splitScene.slice(4))}${splitListening}`}),
   articleSection({id: 'sound', title: 'How drum and bass is built: 174 BPM, the break and the low end.', bodyHtml: `${join(built)}${soundListening}`}),
   articleSection({id: 'metalheadz', title: 'Metalheadz and the dark turn.', bodyHtml: `${join(metalheadz.slice(0, 3))}${metalheadzListening}${join(metalheadz.slice(3))}`}),
   articleSection({id: 'atmospheric', title: 'The atmospheric line: Speed, Bristol and Good Looking.', bodyHtml: `${join(atmospheric.slice(0, 2))}${roniSizeFigure}${join(atmospheric.slice(2))}${atmosphericListening}`}),
   articleSection({id: 'subgenres', title: 'The subgenres and what they mean.', bodyHtml: subgenresHtml}),
-  articleSection({id: 'global', title: 'How drum and bass stopped being British.', kicker: '2000s onward', bodyHtml: `${join(global.slice(0, 2))}${markyFigure}${join(global.slice(2))}${globalListening}`}),
+  articleSection({id: 'global', title: 'How drum and bass stopped being British.', kicker: '2000s onward', bodyHtml: `${join(global.slice(0, 2))}${markyFigure}${join(global.slice(2, 4))}${chartListening}${join(global.slice(4))}${globalListening}`}),
   articleSection({id: 'now', title: 'Where drum and bass is now.', bodyHtml: `${join(now)}${massivePlaylist}`}),
   articleFaq({items: faqItems, title: 'Drum and bass FAQ.', openFirst: true}),
   authorCard({filled: true}),

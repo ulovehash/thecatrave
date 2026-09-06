@@ -28,7 +28,13 @@ const requiredMedia = {
   'Noisia, Machine Gun (Spotify)': '6s9XbbtulHcMwMDzsyoEO7',
   'DJ Marky and XRS, LK (Spotify)': '1fIZzCIwKKGBRDkLA8VukW',
   'Nia Archives, Silence Is Loud (Spotify)': '1LqFMtMW44W8XQ1OtV43gg',
-  'Massive Drum & Bass playlist (Spotify)': '37i9dQZF1DX5wDmLW735Yd'
+  'Massive Drum & Bass playlist (Spotify)': '37i9dQZF1DX5wDmLW735Yd',
+  // Added when the canon gaps were closed: the founding label's own album, the
+  // genre's first UK number one, and the second of the two liquid pioneers the
+  // page named without ever letting the reader hear him.
+  '4hero, Parallel Universe (Spotify)': '0MMBVUug4IJy0pUL2mRmPf',
+  'DJ Fresh feat. Rita Ora, Hot Right Now (YouTube)': 'N7OPZOBJZyI',
+  'High Contrast, The Basement Track (YouTube)': 'C5XGKcvFOJc'
 };
 for (const [label, id] of Object.entries(requiredMedia)) {
   check(`Media present: ${label}`, html.includes(id));
@@ -55,7 +61,14 @@ check('No listening-collection tone clashes inside toned sections', toneClashes.
 check('Subgenre table uses the shared class', html.includes('class="genre-table"'));
 check('Essential listening blocks present', (html.match(/Essential listening/g) || []).length >= 5);
 check('Essential listening is full bleed', html.includes('context-listening context-listening-full'));
-check('Essential listening uses the dated collection', (html.match(/class="context-track-list"/g) || []).length === 6);
+// Every essential-listening block on the page is a dated collection except the
+// one playlist band, so the two counts move together. Written as a relation
+// rather than the literal 6 it used to be: that number failed the build the
+// first time a canon gap was closed by adding a record, which is the audit
+// punishing the repair it exists to demand.
+const listeningBlocks = (html.match(/Essential listening/g) || []).length;
+const datedCollections = (html.match(/class="context-track-list"/g) || []).length;
+check('Essential listening uses the dated collection', datedCollections === listeningBlocks - 1, `${datedCollections} dated of ${listeningBlocks} blocks`);
 check('Extended playlist present', html.includes('open.spotify.com/embed/playlist/'));
 check('Two Bandcamp tracks', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 2);
 

@@ -53,37 +53,39 @@
         "originators"
       ],
       "embed_id": "yenh56lBQoU"
+    },
+    {
+      "title": "Parallel Universe",
+      "artist": "4hero",
+      "year": 1994,
+      "why": "source 5's early-producers sentence opens with 4hero, and source 5 separately credits Marc Mac and Dego with founding Reinforced Records. Widely called the first drum and bass album.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "0MMBVUug4IJy0pUL2mRmPf"
+    },
+    {
+      "title": "Hot Right Now",
+      "artist": "DJ Fresh featuring Rita Ora",
+      "year": 2012,
+      "why": "source 5: 'In 2012, drum and bass achieved its first UK No. 1 single, Hot Right Now, by DJ Fresh.' A genre's first number one is not optional.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "N7OPZOBJZyI"
+    },
+    {
+      "title": "The Basement Track",
+      "artist": "High Contrast",
+      "year": 2004,
+      "why": "source 5 names exactly two liquid funk pioneers; Calibre had a player and High Contrast had a mention, so the section made a claim with half its evidence audible.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "C5XGKcvFOJc"
     }
   ],
   "known_gaps": [
-    {
-      "title": "4hero, and Reinforced Records",
-      "why": "the most serious omission on the page. 4hero is the FIRST name in source 5's only sentence about who shaped drum and bass, and source 5 separately credits Marc Mac and Dego of 4hero with founding Reinforced Records and names their Mercury-nominated Two Pages (1998). The page returns zero hits for '4hero', '4 Hero' and 'Reinforced'. Its four sentence-mates — Doc Scott, LTJ Bukem, Goldie, Grooverider — are all present, three of them with players. A guide that carries four fifths of the founding sentence and drops the label that pressed the records reads as a list somebody half-remembered."
-    },
-    {
-      "title": "Hot Right Now — DJ Fresh featuring Rita Ora, 2012",
-      "why": "source 5: \"In 2012, drum and bass achieved its first UK No. 1 single, Hot Right Now.\" Absent from the page entirely, along with DJ Fresh. This is the genre's number one and the page will not say so — the exact class of hole that shipped in the UK garage guide, where two number ones were missing while every check was green."
-    },
-    {
-      "title": "Andy C and RAM Records; DJ Hype and Playaz; London Elektricity",
-      "why": "source 5 names all three as label founders. Andy C returns zero hits, DJ Hype returns zero, RAM returns zero, Playaz returns zero. Hospital Records is named on the page but London Elektricity, who founded it, is not — and he is also ninth in our own catalogue at 9 sets, so he is one of only two names returned by both source 5 and source 6 and absent anyway. Andy C is the most-booked DJ the genre has produced; a reader who knows one drum and bass name often knows that one, and the page does not contain it."
-    },
-    {
-      "title": "Hold Your Colour — Pendulum, 2005",
-      "why": "source 5 calls it \"the best-selling drum and bass album\". Neither the record nor Pendulum appears. Whatever the page thinks of Pendulum, the best-selling album in a genre is a fact a guide has to handle rather than skip."
-    },
-    {
-      "title": "Rudimental; Sigma; Chase & Status featuring Stormzy, BACKBONE, 2024; Kenya Grace, Strangers, 2023",
-      "why": "source 5 devotes a run of sentences to the chart lineage after Hot Right Now — Feel the Love (2012), Waiting All Night (2013), Nobody to Love (2014), Changing (2014), Strangers (2023), BACKBONE (2024). Not one of these acts or titles is on the page. The guide runs from 1993 to Nia Archives and steps over the decade in which drum and bass was the most commercially successful it has ever been."
-    },
-    {
-      "title": "Rage at Heaven",
-      "why": "source 5 names the Rage nights at Heaven as where fast breakbeat play happened. The page's two 'rage' hits are both false positives — a URL query string and the word 'garage' in an image srcset — and 'Heaven' returns nothing. Fabio and Grooverider are on the page; the room they did it in is not."
-    },
-    {
-      "title": "High Contrast",
-      "why": "named but no player. Source 5 names exactly two liquid funk pioneers and the page gives one of them a record and the other a mention, so the section makes a claim about a sound with half of its evidence audible."
-    },
     {
       "title": "S.P.Y; Flava D; Krakota; Machinedrum; Tim Reaper",
       "why": "catalogue-only, and by FIGURES.md that makes them differentiators rather than errors: the five most-played drum and bass names in 62,877 sets that no competing guide's canon list contains. S.P.Y at 10 sets is the highest-ranked real artist in the genre's catalogue slice and returns zero hits on the page. Recorded so the next pass does not re-derive them."
