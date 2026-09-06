@@ -59,44 +59,17 @@
         "consensus"
       ],
       "embed_id": "2uFngE6ePszeJV3Cbtrfpc"
+    },
+    {
+      "title": "King of the Beats",
+      "artist": "Mantronix",
+      "year": 1988,
+      "why": "returned by source 5 twice from two separate articles: the breakbeat page lists it among the named tracks and the amen break page calls it the influential track that made the break central rather than a rhythmic bedding.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "5odEZsaNzWnNihJjibL49h"
     }
   ],
-  "known_gaps": [
-    {
-      "title": "King of the Beats — Mantronix, 1988",
-      "why": "returned by source 5 twice, from two separate articles: the breakbeat page lists it among the named tracks and the amen break page calls it the \"influential track\" that edited the break into a reusable shape. Absent from the page entirely. The reader is told the amen break spread and never shown the record that taught producers how to cut it."
-    },
-    {
-      "title": "James Lavelle / Mo'Wax",
-      "why": "half of source 5's one explicit crediting sentence for big beat, and the only label named as an originator anywhere in the breakbeat article. Absent. The styles section credits the Chemical Brothers alone, which is the version of the story every competing guide already tells."
-    },
-    {
-      "title": "I Desire — Salt-N-Pepa, 1986",
-      "why": "source 5 calls it \"one of the first tracks to sample the Amen break\". Absent. Without it the page has the break sitting on Ultimate Breaks and Beats and then appearing in British rave, with the hip hop decade in between unevidenced."
-    },
-    {
-      "title": "Grand Wizard Theodore",
-      "why": "named in the same sentence as Afrika Bambaataa in the origins section — \"copied and improved upon by early hip-hop DJs Afrika Bambaataa and Grand Wizard Theodore\". Bambaataa is on the page and Theodore is not, so the sentence has been half-quoted."
-    },
-    {
-      "title": "Straight Outta Compton — N.W.A, 1988; Keep It Going Now — Rob Base & DJ E-Z Rock, 1988",
-      "why": "source 5's two other named 1988 amen uses. Both absent. Together with King of the Beats they are the evidence that the break was mainstream in American rap before Britain ever pitched it up."
-    },
-    {
-      "title": "Richard Lewis Spencer",
-      "why": "the Winstons' bandleader, who holds the copyright on the most reused rhythm in recorded music and was paid nothing for it. Gregory Coleman is credited on the page by name; Spencer is not, so the ownership half of the amen story is missing."
-    },
-    {
-      "title": "Timeless — Goldie, 1995; Anti EP — Autechre, 1994",
-      "why": "both named in source 5's history section as breakbeat's outward routes. Goldie appears on the page as a name with no record; Autechre does not appear at all. The reader loses the two records that show breaks leaving the dancefloor."
-    },
-    {
-      "title": "Give It Up or Turnit a Loose — James Brown, 1969",
-      "why": "the second James Brown break named by source 5, absent. Lower cost than the others: Funky Drummer is present and carries the same point."
-    },
-    {
-      "title": "Grandmaster Flash's quick-mix theory",
-      "why": "Flash is on the page, but source 5 credits him specifically with the named method — \"Grandmaster Flash perfected this idea with what he called the 'quick-mix theory'\". The page has the person without the technique he is credited for."
-    }
-  ]
+  "known_gaps": []
 }

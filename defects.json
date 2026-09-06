@@ -192,6 +192,17 @@
         "file": "jungle-music-guide.html",
         "contains": "is named alongside Rebel MC as arguably the first to put that influence solidly onto vinyl"
       }
+    },
+    {
+      "id": "breakbeat-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The breakbeat guide credited Gregory Coleman for the Amen break and never named Richard Lewis Spencer, who owned the copyright, so the half of the story about who was paid was missing. It had the break sitting on Ultimate Breaks & Beats and then appearing in British rave with the American decade between them unevidenced: Salt-N-Pepa 1986, Mantronix 1988, N.W.A and Rob Base the same year, all absent. Grand Wizard Theodore was dropped from a sentence he shares with Bambaataa, Grandmaster Flash was on the page without the quick-mix theory he is credited for, and big beat was credited to the Chemical Brothers alone while the source names Mo'Wax beside them. FIXED: all nine gaps closed, one verified embed added.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "breakbeat-guide-draft.md",
+        "contains": "belonged to the Winstons' bandleader Richard Lewis Spencer, not to Coleman"
+      }
     }
   ]
 }

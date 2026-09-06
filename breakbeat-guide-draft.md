@@ -26,9 +26,9 @@ The site's [history of UK electronic music](/uk-electronic-music-evolution) plac
 
 ### Funk records and the breaks DJs wanted to extend
 
-Breakbeat history starts before anyone used the word as a dance-music genre. Records such as the Winstons' “Amen, Brother”, James Brown's “Funky Drummer”, the Incredible Bongo Band's version of “Apache” and Lyn Collins' “Think (About It)” contained exposed drum passages that DJs and producers could isolate.
+Breakbeat history starts before anyone used the word as a dance-music genre. Records such as the Winstons' “Amen, Brother”, James Brown's “Funky Drummer” and “Give It Up or Turnit a Loose”, the Incredible Bongo Band's version of “Apache” and Lyn Collins' “Think (About It)” contained exposed drum passages that DJs and producers could isolate.
 
-These records are not early breakbeat tracks in the modern genre sense. They are sources. Gregory Coleman's six-second solo in “Amen, Brother”, now known as the Amen break, became one of the most reused pieces of recorded rhythm, especially after producers began pitching, chopping and resequencing it.
+These records are not early breakbeat tracks in the modern genre sense. They are sources. Gregory Coleman's six-second solo in “Amen, Brother”, now known as the Amen break, became one of the most reused pieces of recorded rhythm, especially after producers began pitching, chopping and resequencing it. The copyright to the record, and so to the break, belonged to the Winstons' bandleader Richard Lewis Spencer, not to Coleman. Naming the drummer and not the copyright holder tells half of a story whose other half is about who got paid, which is nobody.
 
 Clyde Stubblefield's playing on “Funky Drummer” offered a different kind of movement, full of small accents and human timing. “Think (About It)” supplied the famous “Woo! Yeah!” vocal and a drum break that could be cut into countless variations. “Apache” connected percussion-heavy funk with the routines of early b-boys and DJs.
 
@@ -36,9 +36,11 @@ The enduring point is not that four records invented everything that followed. I
 
 ### Hip-hop DJs turn the break into a method
 
-Kool Herc's use of two copies made the break longer for dancers. Grandmaster Flash and other DJs refined the timing and control of switching between records. This was more than playing a favourite section twice. It turned the playback equipment into an instrument and the structure of an existing record into material for a new performance.
+Kool Herc's use of two copies made the break longer for dancers, and the approach was taken up and sharpened by Afrika Bambaataa and Grand Wizard Theodore. Grandmaster Flash is credited with the method that made it repeatable, which he called the quick-mix theory: he marked the start and end of the break on the record in crayon so he could find it again by spinning the disc, without touching the tone arm. This was more than playing a favourite section twice. It turned the playback equipment into an instrument and the structure of an existing record into material for a new performance.
 
 Hip-hop producers carried the same logic into recorded music. A break could be looped as a groove, chopped into separate hits or combined with other fragments. Compilation series such as *Ultimate Breaks & Beats* made many sought-after drum passages easier to find, while sampling technology made them easier to transform.
+
+The Amen break spent a decade in American rap before Britain ever pitched it up. Salt-N-Pepa's “I Desire”, in 1986, is one of the first records to sample it. In 1988 Mantronix released “King of the Beats”, which edited and processed the break until it was the track rather than the bed underneath one, and the same year it turned up on N.W.A's “Straight Outta Compton” and Rob Base & DJ E-Z Rock's “Keep It Going Now”. By the time British rave producers found it, it was already a standard.
 
 <a id="sampling"></a>
 <a id="sound-design"></a>
@@ -54,6 +56,8 @@ The technology mattered, but it did not dictate one style. Hip-hop producers mig
 ### Broken rhythms enter electronic dance music
 
 During the late 1980s and early 1990s, British producers combined lessons from hip-hop with acid house, techno, reggae, dub and the rapidly changing rave scene. Straight kicks did not disappear overnight. Many transitional records used a four-on-the-floor foundation and breaks at the same time. Others let the sampled drums take over completely.
+
+Two records mark the point where the same drums stopped being dancefloor material. Goldie's *Timeless*, in 1995, put chopped breaks inside an hour-long album designed to be listened to; Autechre's *Anti EP*, in 1994, used them in a direct response to the Criminal Justice and Public Order Act, whose definition of a rave turned on music with repetitive beats. Neither is a club record, and both are made of the same six seconds.
 
 This is where breakbeat stops being only the history of a technique and becomes the history of scenes. The records were tested in clubs, raves and pirate-radio sets. DJs needed tracks that could move large systems. Producers responded with faster breaks, heavier bass and arrangements designed around drops, rewinds and mixable sections.
 
@@ -119,7 +123,7 @@ The scene's scale contracted after that peak, but its memory did not disappear. 
 
 Big beat was not simply jungle slowed down or a direct continuation of every hardcore idea. It was a parallel 1990s answer to what break-driven dance music could become, drawing openly from hip-hop loops, acid, rock, funk and festival-scale production.
 
-The Chemical Brothers made breaks feel huge without hiding their psychedelic and club roots. Fatboy Slim turned sample collage into pop architecture. Propellerheads and Bentley Rhythm Ace approached the idea from different angles, while the Prodigy's later crossover records shared audiences and press language with big beat without fitting neatly inside it.
+The usual credit for big beat goes to the Chemical Brothers alone, which is the version every competing guide tells; the fuller one names James Lavelle's Mo'Wax alongside them, a label rather than a duo, and the only imprint any source credits as an originator of this branch. The Chemical Brothers made breaks feel huge without hiding their psychedelic and club roots. Fatboy Slim turned sample collage into pop architecture. Propellerheads and Bentley Rhythm Ace approached the idea from different angles, while the Prodigy's later crossover records shared audiences and press language with big beat without fitting neatly inside it.
 
 The commercial success of these artists made broken drums familiar to listeners who might never have bought a jungle twelve-inch or attended a breaks night. It also caused a lasting terminology problem: for some listeners, “breakbeat” still means any 1990s electronic record with loud sampled drums. The dedicated breaks scene was narrower and developed its own identity.
 
