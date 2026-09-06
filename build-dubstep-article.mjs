@@ -179,6 +179,16 @@ const builtListening = articleListeningCollection({
   ])
 });
 
+const rinseListening = articleListeningCollection({
+  id: 'rinse-listening', tone: 'cyan',
+  title: 'The station, not the basement.',
+  description: 'Two of the DJs this section names, on the pirate station that carried the sound out of south London, in a show from our own catalogue rather than an archive clip.',
+  items: listeningItems([
+    {year: 'Rinse FM', artist: 'Plastician, Hatcha and Crazy D', title: 'I LOVE: DUBSTEP', youtube: 'S1s2XvfHfhU',
+      note: 'Hatcha used Rinse through 2003 to push the sound past the records; Plastician was running Filthy Dub at the same time. The station is how anyone outside those rooms heard either of them.'}
+  ])
+});
+
 const dmzListening = articleListeningCollection({
   id: 'dmz-listening', tone: 'cyan',
   title: 'The DMZ years, and after.',
@@ -235,6 +245,16 @@ const subgenreListening = articleListeningCollection({
   ])
 });
 
+const deepMediListening = articleListeningCollection({
+  id: 'deep-medi-listening', tone: 'cyan',
+  title: 'What the label sounds like.',
+  description: 'Deep Medi named as a roster rather than as its founder, with the album from it the label is still measured by.',
+  items: listeningItems([
+    {year: '2009', artist: 'Silkie', title: 'Concrete Jungle', youtube: 'fIHrJa0bWbY',
+      note: 'The opening track of City Limits Vol. 1, the west London producer\u2019s debut album and the Deep Medi record that made the label a catalogue.'}
+  ])
+});
+
 const dubstepClassics = articleListeningBand({
   platform: 'spotify',
   id: 'dubstep-classics-playlist',
@@ -274,11 +294,11 @@ const subgenreRows = [
 
 // Media rhythm. Every figure is separated from every player by at least one paragraph,
 // no figure follows a heading directly, and no two figures are adjacent.
-const croydonHtml = `${join(croydon.slice(0, 2))}${bigApple}${join(croydon.slice(2))}${croydonListening}`;
+const croydonHtml = `${join(croydon.slice(0, 3))}${bigApple}${join(croydon.slice(3))}${croydonListening}`;
 
 const builtHtml = `${join(built)}${builtListening}`;
 
-const sceneHtml = `${join(scene.slice(0, 3))}${dubplateLathe}${join(scene.slice(3, 5))}${bassweight}${join(scene.slice(5, 7))}${burialPortrait}${join(scene.slice(7))}${dmzListening}`;
+const sceneHtml = `${join(scene.slice(0, 3))}${rinseListening}${join(scene.slice(3, 7))}${dubplateLathe}${join(scene.slice(7, 9))}${bassweight}${join(scene.slice(9, 11))}${burialPortrait}${join(scene.slice(11))}${dmzListening}`;
 
 const splitHtml = `${join(split.slice(0, 3))}${splitListening}${join(split.slice(3, 5))}${homiesHateSkrillex}${join(split.slice(5))}`;
 
@@ -292,7 +312,7 @@ const subgenresHtml = `${join(subgenres)}${articleTable({
   rows: subgenreRows
 })}${subgenreListening}`;
 
-const nowHtml = `${join(now.slice(0, 2))}${soundSystem}${join(now.slice(2, 3))}${thecatraveTrack}${join(now.slice(3))}${dubstepClassics}`;
+const nowHtml = `${join(now.slice(0, 2))}${soundSystem}${join(now.slice(2, 3))}${deepMediListening}${join(now.slice(3, 4))}${thecatraveTrack}${join(now.slice(4))}${dubstepClassics}`;
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
 

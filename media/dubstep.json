@@ -65,45 +65,30 @@
         "consensus"
       ],
       "embed_id": "4rwpZEcnalkuhPyGkEdhu0"
+    },
+    {
+      "title": "Concrete Jungle",
+      "artist": "Silkie",
+      "year": 2009,
+      "why": "source 5 calls City Limits Vol. 1 'an influential album' on Deep Medi Musik. The label was named twice on the page and represented by nobody but its founder; this is the album's opening track, from the artist's official channel.",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "fIHrJa0bWbY"
+    },
+    {
+      "title": "I LOVE: DUBSTEP",
+      "artist": "Plastician, Hatcha and Crazy D",
+      "year": 2013,
+      "why": "source 5 credits Rinse twice in the sentences that matter and the page returned zero hits for the station. A scene is described, so the medium is a set from our own catalogue rather than a record: this Rinse show carries Hatcha and Plastician, both of whom the page had dropped.",
+      "sources": [
+        "originators",
+        "catalogue"
+      ],
+      "embed_id": "S1s2XvfHfhU"
     }
   ],
   "known_gaps": [
-    {
-      "title": "Rinse FM",
-      "why": "the most serious omission on the page, and an odd one, because everything around it is present. Source 5 credits Rinse twice in the sentences that matter: \"Forward>> also ran a radio show on east London pirate station Rinse FM, hosted by Kode9\" and \"All throughout 2003, DJ Hatcha pioneered a new direction for dubstep on Rinse FM and through his sets at Forward>>.\" The page returns zero hits for the string 'Rinse' anywhere. FWD>>, Plastic People, DMZ, Big Apple, Tempa, Hatcha and Kode9 are all there; the station that broadcast it is not, so the guide describes a scene with a club, a shop and a label and no way for anyone outside London to have heard it."
-    },
-    {
-      "title": "El-B; Steve Gurley; Zed Bias",
-      "why": "source 5's first origins sentence is \"The early sounds of proto-dubstep originally came out of productions during 1999-2000 by producers such as Oris Jay, El-B, Steve Gurley and Zed Bias.\" One of those four is on the page. Oris Jay is quoted at length; El-B, Steve Gurley and Zed Bias return zero hits each. Three quarters of the sentence that says where the music came from has been dropped, and El-B in particular is the name the 1999-2000 section exists to carry. Zed Bias is also in the original Forward>> line-up sentence, so source 5 returns him twice."
-    },
-    {
-      "title": "Plastician, and the Filthy Dub night",
-      "why": "returned by source 5 — \"At the end of 2003, running independently from the pioneering FWD night, an event called Filthy Dub, co promoted by Plastician\" — and by source 6 at 4 sets. Two sources, one of them the originators source, and zero hits on the page. He is the only name besides Skream to come back from both the history and the live catalogue, which makes him a founder we can still book."
-    },
-    {
-      "title": "Youngsta; DJ Slimzee; Slaughter Mob; Jay Da Flex",
-      "why": "source 5 lists the original Forward>> line-up by name: \"Hatcha, Youngsta, Kode 9, Zed Bias, Oris Jay, Slaughter Mob, Jay Da Flex, DJ Slimzee, and others\". The page carries Hatcha, Kode9 and Oris Jay and drops the other five. Youngsta held the Rinse residency for a decade. Each omission is small; the pattern is a line-up typed from the famous end."
-    },
-    {
-      "title": "City Limits Vol. 1 — Silkie, 2009",
-      "why": "source 5 calls it \"an influential album\" released on Deep Medi Musik. Deep Medi is named on the page twice and its roster is represented by nobody except its founder, so the label reads as a name rather than a catalogue."
-    },
-    {
-      "title": "Grime and Grime 2 — Rephlex, 2004; The Roots of Dubstep — Ammunition",
-      "why": "the two compilations source 5 names as how the music left London on physical formats — Richard James' Rephlex pressing dubstep under a misleading title in 2004, and Ammunition's own retrospective of the 2000-2004 era. Ammunition is on the page; neither compilation is. These are how a reader in 2004 outside the M25 actually heard any of this."
-    },
-    {
-      "title": "John Peel",
-      "why": "source 5: \"BBC Radio 1 DJ John Peel started playing dubstep in 2003\" — three years before Dubstep Warz. Mary Anne Hobbs and Dubstep Warz are both on the page and Peel is not, so the guide dates national radio support to 2006 when its own source dates it to 2003."
-    },
-    {
-      "title": "Swamp81",
-      "why": "source 5: \"Loefah stopped playing and producing dubstep and moved on to UK bass, founding his record label Swamp81.\" Loefah appears six times on the page with a player; the label he left dubstep to start does not appear at all, which removes the ending from one of the page's better stories."
-    },
-    {
-      "title": "Nero; Rusko's brostep quote",
-      "why": "source 5 gives brostep a named author and a confession — \"The producer known as Rusko himself claimed in an interview on BBC Radio 1Xtra that 'brostep is sort of my fault, but now I've started to hate it'\" — and Rusko is on the page once, without it. Nero, who source 5 credits with a UK number one and two La Roux remixes and who source 4 also returns, is absent entirely. The brostep half of the page is carried almost wholly by Skrillex."
-    },
     {
       "title": "Trois-Quarts Taxi System; Amaliah; Scuba; Hodge; Spray; Martyn; James Blake; Appleblim; Cooly G",
       "why": "catalogue-only, and by FIGURES.md differentiators rather than errors: the names actually playing this music across 62,877 sets, none of which appears on any competing canon list. Cooly G in particular is a Hyperdub artist the histories skip and the catalogue does not. Recorded so the next pass does not re-derive them."

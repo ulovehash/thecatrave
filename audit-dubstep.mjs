@@ -32,6 +32,10 @@ const requiredMedia = {
   'Pinch, Qawwali (Spotify)': '36tSNnMctCGaxQp0JVGBLC',
   'Skrillex, Scary Monsters and Nice Sprites (Spotify)': '4rwpZEcnalkuhPyGkEdhu0',
   'Dubstep Classics playlist (Spotify)': '37i9dQZF1DX4arVIN5Cg4U',
+  // Added when the canon gaps were closed: the album that made Deep Medi a
+  // roster rather than a name, and the station the page had no word for.
+  'Silkie, Concrete Jungle from City Limits Vol. 1 (YouTube)': 'fIHrJa0bWbY',
+  'Plastician, Hatcha and Crazy D on Rinse FM (YouTube)': 'S1s2XvfHfhU',
   'Bassweight documentary': 'YVcX0Oc5j5E',
   'All My Homies Hate Skrillex': '-hLlVVKRwk0',
   'thecatrave remix on SoundCloud': 'mylene-farmer-degeneration'

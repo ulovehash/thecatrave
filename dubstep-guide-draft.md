@@ -12,6 +12,8 @@ Dubstep is a bass-led electronic style that formed in south London in the early 
 
 Dubstep did not appear from nowhere. It is one branch of a lineage this site traces in full in the [UK electronic music guide](/uk-electronic-music-evolution), running from rave through hardcore and jungle to everything that came after.
 
+The first records that sound like this were not made in Croydon either. Between 1999 and 2000, four producers working at the dark end of UK garage, Oris Jay, El-B, Steve Gurley and Zed Bias, were already stripping the vocals out, slowing the swing and letting the bass take the space that was left. El-B set up Ghost Recordings in 2000 to put that darker garage out. This guide quotes Oris Jay later without saying where he came from; he came from there, and so did the records the shop's second generation grew up hearing.
+
 Croydon is not where anyone would set a story about the future of dance music. Mala described the place he grew up in without decoration: "I remember growing up and thinking that the sky was grey, the streets were grey, and the buildings were grey." The town sits at the southern edge of London, close enough to matter, far enough to be left alone.
 
 What Croydon had was a record shop. Big Apple Records sold garage and hardcore to a small local crowd, and by the early 2000s the people behind the counter and the people loitering in front of it were the same people making the records. Hatcha worked there. So did Hijak, and so did a teenage Skream. Mala, Loefah, Coki and Benga all had early releases on the shop's label, which launched in 2002 with Artwork's "Red".
@@ -38,6 +40,14 @@ The other technique worth naming is the wobble. Run a low-frequency oscillator o
 
 A scene needs somewhere to happen. FWD>> started in 2001 at the Velvet Rooms and moved in 2005 to Plastic People, a Shoreditch basement holding about two hundred people and a sound system disproportionate to the space. Sarah Lockhart programmed the night and ran Tempa; Ade Fakile ran the club itself. In January 2006 Mary Anne Hobbs put the sound on BBC Radio 1 with a broadcast called "Dubstep Warz", and two hours of national radio did what four years of basements had not.
 
+A basement holding two hundred people is not a scene on its own. Forward>> also ran a show on Rinse FM, the east London pirate station, hosted by Kode9, and through 2003 Hatcha used Rinse to push the sound somewhere the records had not gone yet. That is the answer to the obvious question about music made in south London basements: anybody who did not live within reach of one heard it because a pirate station put it in the air. National radio came earlier than Dubstep Warz, too. John Peel was playing dubstep in 2003, three years before Radio 1 gave it two hours.
+
+The line-ups were longer than the names that survived. The original Forward>> bills included Hatcha, Youngsta, Kode9, Zed Bias, Oris Jay, Slaughter Mob, Jay Da Flex and DJ Slimzee. Youngsta, a resident from the beginning and Sarah Lockhart's brother, did A&R for Tempa and pushed Skream to put "Midnight Request Line" out on it, which makes him responsible for the one record most people can name from this scene without being able to name him.
+
+FWD>> was not the only night, either. At the end of 2003 Plastician and David Carlisle started Filthy Dub, running independently of it and running regularly. The tidy version of this history has one club, one shop and one label in it; the untidy version is the true one.
+
+Leaving London took a physical format. In 2004 Richard James' label Rephlex released two compilations carrying dubstep tracks under the title Grime, a word already being used for something else, and Ammunition followed with The Roots of Dubstep, the first retrospective of the 2000 to 2004 period. For a listener in 2004 with no way of getting to a Shoreditch basement, those records were the scene.
+
 The usual telling of this story is a list of male producers. Oris Jay corrected it in one sentence: "If it weren't for Sarah Lockhart and Mary Anne Hobbs, there wouldn't be any of this." The people who built the infrastructure are not the people whose names ended up on the records.
 
 Getting music into a club was its own problem. Before a track was released, and often instead of releasing it at all, a DJ would have it cut to acetate. A dubplate cost thirty or forty pounds. The discs were made from master lacquers that had failed quality control, drilled a second time and sold at a discount, and they survived around fifty plays before the grooves gave out. DJ Hype described the price as a filter: if you are paying to cut a track, you make certain the track is worth cutting.
@@ -63,6 +73,8 @@ Start with the record. When Dazed listed the five tracks that define brostep, th
 Then the commission. When fabric went looking for a dubstep mix CD, several established figures in the scene turned it down before Caspa and Rusko accepted, according to the same oral history. The record that introduced dubstep to a general audience was made by the two people willing to make it. Some of those who later objected to how the genre was represented had been offered the microphone first.
 
 Skrillex released the "Scary Monsters and Nice Sprites" EP in 2010 and moved the weight from sub-bass into distorted mid-range, where a festival field can actually hear it. The result was enormous. At the 2012 ceremony he won three Grammy awards, including Best Dance Recording and Best Dance/Electronica Album. It also did something the London scene had never managed: it made the music legible to people who had never heard of Croydon.
+
+Skrillex was not alone at that end. Nero's Welcome Reality went straight in at number one on the UK albums chart in 2011, which is a measure of how large the loud version of this music got and how fast.
 
 Rusko, whose "O.M.G!" appeared the same year, did not blame anyone else. He told BBC 1Xtra: "Brostep is sort of my fault, I took it there and now everybody else has taken it too far." Nobody knows who coined the word brostep, and the publications that use it most freely do not claim to know. The Guardian called the result "blindingly obvious, lowest common denominator electro".
 
@@ -94,9 +106,11 @@ Deep dubstep is not a subgenre invented later. It is the original sound, and the
 
 There is no single revival, and any account that promises one is simplifying.
 
-Several things are true at once. The deep lineage in Bristol and around Deep Medi never stopped and therefore cannot be revived. DMZ still runs, though its tenth anniversary in 2015 produced a real argument when tickets reached thirty pounds and a scene raised on eight pound entry said so at volume. "Gone are the days it was £8" is a complaint about ticket prices and also about what happens when an underground institution survives long enough to become an institution.
+Several things are true at once. The deep lineage in Bristol and around Deep Medi never stopped and therefore cannot be revived.
 
-Mala went somewhere else entirely, recording with Cuban and Peruvian musicians rather than defending a genre boundary. The American side kept its festival circuit and its own economics. And the techniques themselves, half-time drums at 140, sub-bass as the lead voice, space treated as an instrument, have travelled far past anything anyone calls dubstep, into records by producers who would not describe themselves as dubstep artists.
+Deep Medi is a catalogue rather than a name attached to its founder. Silkie's City Limits Vol. 1, released on it in 2009, is the record from that roster the label is still measured by, and it was made in west London by somebody who was never part of the Croydon shop. DMZ still runs, though its tenth anniversary in 2015 produced a real argument when tickets reached thirty pounds and a scene raised on eight pound entry said so at volume. "Gone are the days it was £8" is a complaint about ticket prices and also about what happens when an underground institution survives long enough to become an institution.
+
+Mala went somewhere else entirely, recording with Cuban and Peruvian musicians rather than defending a genre boundary. Loefah went further: he stopped playing and producing dubstep altogether and moved into UK bass, founding Swamp81 to do it. One of the three people who put "meditate on bass weight" on a wall in Brixton left the music he had helped define, and took a label with him. The American side kept its festival circuit and its own economics. And the techniques themselves, half-time drums at 140, sub-bass as the lead voice, space treated as an instrument, have travelled far past anything anyone calls dubstep, into records by producers who would not describe themselves as dubstep artists.
 
 Dubstep stopped being a scene and became a set of tools. Genres that work tend to end up there.
 

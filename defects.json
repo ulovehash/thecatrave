@@ -162,6 +162,17 @@
         "file": "drum-and-bass-guide-draft.md",
         "contains": "The label most of that generation passed through was Reinforced Records"
       }
+    },
+    {
+      "id": "dubstep-canon-unfixed",
+      "found": "2026-09-05",
+      "by": "agent, in the figures pass",
+      "what": "The dubstep guide described a scene with a club, a shop, a label and a mastering room, and no radio: 'Rinse' returned zero hits on a page carrying FWD>>, Plastic People, DMZ, Big Apple, Tempa, Hatcha and Kode9. Three quarters of its source's proto-dubstep sentence were missing, five of the eight names in the original Forward>> line-up were missing, and John Peel playing dubstep in 2003 was absent while the page dated national radio to 2006. FIXED: nine recorded gaps closed, two verified embeds added. One gap note was itself wrong: it claimed Rusko's brostep quote was absent, and a different wording of it had been on the page all along.",
+      "should_have_caught": "the figures stage, before the guide shipped",
+      "fix": {
+        "file": "dubstep-guide-draft.md",
+        "contains": "Forward>> also ran a show on Rinse FM, the east London pirate station"
+      }
     }
   ]
 }
