@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { routes } from './routes';
-import { openRoute } from './open-route';
+import { openRoute, pageErrors } from './open-route';
 
 // Deterministic layout assertions. These catch the classes of regression that a
 // string audit cannot see: horizontal overflow, clashing full-bleed colour
@@ -11,6 +11,10 @@ for (const route of routes) {
   test.describe(route.name, () => {
     test.beforeEach(async ({ page }) => {
       await openRoute(page, route.path);
+    });
+
+    test('no uncaught script errors', async ({ page }) => {
+      expect(pageErrors(page)).toEqual([]);
     });
 
     test('no horizontal overflow', async ({ page }) => {

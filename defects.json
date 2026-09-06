@@ -129,6 +129,17 @@
       "what": "No audit compares statistics quoted in guide prose against selector-data.json. The UK garage figure was corrected by hand; the next one will go stale the same way.",
       "should_have_caught": "nothing exists",
       "fix": null
+    },
+    {
+      "id": "inline-script-syntax-unchecked",
+      "found": "2026-09-06",
+      "by": "assistant, in the browser",
+      "what": "A regex written into the analytics component contained \\/ , which a JavaScript template literal turns into a bare / , so every page on the site shipped an inline script that failed to parse. The whole analytics event block never ran. Thirteen audits, html-validate, 126 Playwright tests and the link checker all passed on pages whose script threw SyntaxError before the first statement.",
+      "should_have_caught": "the layout suite, which loads every page in a real browser and was not listening for uncaught errors",
+      "fix": {
+        "file": "tests/open-route.ts",
+        "contains": "a broken page however correct its markup"
+      }
     }
   ]
 }
