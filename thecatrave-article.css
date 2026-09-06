@@ -1370,3 +1370,26 @@
 .selector-page .sel-modes .sel-chip[data-value="popular"] { --mode-accent: var(--acid); }
 .selector-page .sel-modes .sel-chip[data-value="gems"] { --mode-accent: var(--cyan); }
 .selector-page .sel-modes .sel-chip[data-value="deep"] { --mode-accent: var(--yellow); }
+
+/* Promo bar
+   A thin strip above the header on every guide, pointing at the Selector.
+   Ink on paper text, mono, the same register as the now-playing banner on the
+   homepage, so it reads as part of the site's furniture rather than an advert
+   bought on it. Removed from the DOM when dismissed, not hidden, so the header
+   below is genuinely at the top of the page for anybody who closed it. */
+.promo-bar { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr auto; align-items: center; background: var(--ink); color: var(--paper); font: 400 .78rem/1.35 var(--mono); }
+.promo-bar a { min-height: 2.6rem; padding: .45rem 0 .45rem var(--gutter); display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem .55rem; color: inherit; text-decoration: none; }
+.promo-bar b { font-weight: 700; }
+.promo-bar > a > span { opacity: .68; }
+.promo-bar em { font-style: normal; font-weight: 700; color: var(--yellow); white-space: nowrap; }
+.promo-bar a:hover em { text-decoration: underline; }
+.promo-bar-close { width: 2.6rem; height: 2.6rem; margin-right: max(0px, calc(var(--gutter) - 1.3rem)); padding: 0; border: 0; background: none; color: inherit; font: 400 1.2rem/1 var(--mono); opacity: .55; cursor: pointer; }
+.promo-bar-close:hover, .promo-bar-close:focus-visible { opacity: 1; }
+
+/* Under 48rem everything marked .wide goes, leaving one sentence that still
+   says what the thing is, and the way in. */
+@media (max-width: 47.99rem) {
+  .promo-bar { font-size: .75rem; }
+  .promo-bar .wide { display: none; }
+  .promo-bar a { padding-left: var(--gutter); }
+}

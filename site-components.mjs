@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 
 const escapeHtml = value => String(value)
@@ -10,6 +11,16 @@ const requireFields = (component, values) => {
   const missing = Object.entries(values).filter(([, value]) => value === undefined || value === null || value === '').map(([name]) => name);
   if (missing.length) throw new Error(`${component} requires: ${missing.join(', ')}`);
 };
+
+// Read from the catalogue, never typed. A guide already shipped quoting a set
+// count that went stale the same evening it was written, and a promo bar on
+// every page is the worst possible place for a number nobody re-checks.
+const selectorSetCount = (() => {
+  try {
+    const data = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
+    return Array.isArray(data) ? data.length : 0;
+  } catch { return 0; }
+})();
 
 export const siteLinks = {
   home: '/',
@@ -47,6 +58,25 @@ export function siteHeader({variant = 'article', navItems = []} = {}) {
 
 export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {}) {
   return `<aside class="now-playing" aria-label="Featured DJ mix"><span><i></i> Now playing</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
+}
+
+// A thin strip above the header, on every guide, pointing at the one thing on
+// this site that is not an article. Seven of the eight guides linked to the
+// Selector nowhere at all, so a reader could finish 5,000 words on jungle and
+// never learn the tool existed.
+//
+// Dismissal is remembered, and the script that honours it sits immediately
+// after the markup rather than in the head: it runs while the parser is still
+// on this element, so a returning reader never sees the bar flash and the page
+// below it never moves. A head script would work too and would be one more
+// thing to keep in sync with a class name.
+//
+// It is removed, not hidden, so nothing measures or announces a bar that is not
+// there. Without JavaScript it simply stays, which is the correct failure: a
+// link that cannot be closed beats no link.
+export function selectorPromoBar() {
+  const count = selectorSetCount ? selectorSetCount.toLocaleString('en-US') : 'thousands';
+  return `<aside class="promo-bar" id="promo-bar" aria-label="The Selector"><a href="/selector"><b>I made a tool that picks you a DJ set<span class="wide"> to listen to</span>.</b><span class="wide">${count} of them, at random.</span><em>Try it \u2192</em></a><button type="button" class="promo-bar-close" aria-label="Dismiss this message">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
 }
 
 export function homeSelectorPromo({sets = 0, channels = 0, logos = []} = {}) {
@@ -145,7 +175,7 @@ export function articlePage({title, description, canonical, ogImage, datePublish
   const ogImageSize = `<meta property="og:image:width" content="${width}"><meta property="og:image:height" content="${height}">`;
   const articleTimes = `${datePublished ? `<meta property="article:published_time" content="${escapeHtml(datePublished)}">` : ''}${dateModified ? `<meta property="article:modified_time" content="${escapeHtml(dateModified)}">` : ''}`;
   const schemas = structuredData.filter(Boolean).map(data => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`).join('');
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="article">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">Skip to content</a>${siteHeader({variant:'article'})}<main id="main-content"><article>${articleHtml}</article></main>${articleFooter()}</body></html>`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="article">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">Skip to content</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar()}${siteHeader({variant:'article'})}<main id="main-content"><article>${articleHtml}</article></main>${articleFooter()}</body></html>`;
 }
 
 export function articleStructuredData({headline, description, canonical, image, datePublished, dateModified} = {}) {

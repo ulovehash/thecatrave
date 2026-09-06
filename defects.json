@@ -140,6 +140,17 @@
         "file": "tests/open-route.ts",
         "contains": "a broken page however correct its markup"
       }
+    },
+    {
+      "id": "guides-never-link-the-selector",
+      "found": "2026-09-06",
+      "by": "assistant, while wiring the analytics funnel",
+      "what": "Seven of the eight guides contained no link to the Selector, and the eighth had one buried in its body. A reader could finish 5,000 words on jungle without learning that the site's only tool existed. The funnel event written to measure that traffic could never have fired, because the traffic had nowhere to come from.",
+      "should_have_caught": "nothing; no check asks whether the pages that earn the traffic point at the thing the traffic is for",
+      "fix": {
+        "file": "site-components.mjs",
+        "contains": "a reader could finish 5,000 words on jungle and"
+      }
     }
   ]
 }
