@@ -82,7 +82,7 @@ export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {
 // question and the button fit, so the question has to carry it alone.
 export function selectorPromoBar() {
   const more = selectorChannelCount > 3 ? ` and ${selectorChannelCount - 3} more channels` : '';
-  return `<aside class="promo-bar" id="promo-bar" aria-label="The Selector"><a href="/selector"><b>Can't pick what to play?</b><span class="wide">Press one button, get a full DJ set. From Boiler Room, NTS, H\u00d6R${more}.</span><em>Get a set \u2192</em></a><button type="button" class="promo-bar-close" aria-label="Dismiss this message">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
+  return `<aside class="promo-bar" id="promo-bar" aria-label="The Selector"><a href="/selector"><b>Don't know what to listen to?</b><span class="wide">Press one button, get a full DJ set. From Boiler Room, NTS, H\u00d6R${more}.</span><em>Get a set \u2192</em></a><button type="button" class="promo-bar-close" aria-label="Dismiss this message">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
 }
 
 export function homeSelectorPromo({sets = 0, channels = 0, logos = []} = {}) {

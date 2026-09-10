@@ -18,7 +18,7 @@ export const homeArticleCatalog = [
   {
     // Off the homepage grid since 2026-09-10 (owner): nine cards left one alone
     // on the last row of four. The oldest guide went. It stays in Read Next.
-    page:'uk-electronic-music-evolution.html', onHome:false, tags:['uk','history','overview'], href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
+    page:'uk-electronic-music-evolution.html', tags:['uk','history','overview'], href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
     title:'The Evolution of UK Electronic Music',
     description:'Ten sounds that travelled from regional underground scenes into global culture.',
     image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
@@ -71,6 +71,14 @@ export const homeArticleCatalog = [
     image:'img/boiler-room/carl-cox-320.webp',
     srcset:'img/boiler-room/carl-cox-320.webp 320w,img/boiler-room/carl-cox-1200.webp 1200w',
     width:1200, height:800, alt:'Carl Cox DJing at Amsterdam Dance Event'
+  },
+  {
+    page:'what-is-burning-man.html', tags:['house','history','discovery'], href:'/what-is-burning-man', type:'Guide', topic:'Burning Man',
+    title:'What Is Burning Man? The Event, the City and the Music',
+    description:'A city built in the Nevada desert for a week, with no lineup and nothing for sale, and the sound camps that play anyway.',
+    image:'img/burning-man/robot-heart-320.webp',
+    srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
+    width:1200, height:799, alt:'The Robot Heart art car on the playa at Burning Man'
   }
 ];
 
@@ -94,6 +102,14 @@ export function homeArticlesWithReadingTimes() {
 // catalogue later. Read Next keeps catalogue order: its tie-breaking and card
 // numbers depend on it, and they should not shift every time something is
 // published.
+//
+// The grid always shows exactly HOME_CARDS, two full rows of four: when a new
+// article is published, the oldest one drops off the homepage (owner,
+// 2026-09-10). It stays in the catalogue, so Read Next still links to it.
+// This replaced a per-article onHome:false flag, which had to be moved by hand
+// every time the count changed.
+const HOME_CARDS = 8;
+
 export function homeArticlesNewestFirst() {
   const published = item => {
     if (!fs.existsSync(item.page)) return '9999-12-31';
@@ -101,12 +117,10 @@ export function homeArticlesNewestFirst() {
     if (!date) throw new Error(`Could not read the publication date from ${item.page}`);
     return date;
   };
-  // An entry with onHome:false is left off the grid only; Read Next still uses it.
   return homeArticlesWithReadingTimes()
-    .map((item, index) => ({item, index}))
-    .filter(({item}) => item.onHome !== false)
-    .map(({item, index}) => ({item, index, date: published(item)}))
+    .map((item, index) => ({item, index, date: published(item)}))
     .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)
+    .slice(0, HOME_CARDS)
     .map(entry => entry.item);
 }
 

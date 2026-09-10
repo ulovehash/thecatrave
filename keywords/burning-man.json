@@ -1,0 +1,26 @@
+{
+  "page": "what-is-burning-man.html",
+  "seed": "burning man",
+  "source": "ahrefs keywords-explorer, September 2026, US volume",
+  "terms": [
+    { "term": "what is burning man", "volume": 22000 },
+    { "term": "where is burning man", "volume": 8300 },
+    { "term": "black rock city", "volume": 7800 },
+    { "term": "what happens at burning man", "volume": 3600 },
+    { "term": "mayan warrior", "volume": 3600 },
+    { "term": "robot heart", "volume": 700 },
+    { "term": "burning man art", "volume": 500 },
+    { "term": "is burning man a music festival", "volume": 300 },
+    { "term": "burning man history", "volume": 250 },
+    { "term": "burning man principles", "volume": 250 },
+    { "term": "baker beach", "volume": 6400 },
+    { "term": "black rock desert", "volume": 7900 },
+    { "term": "larry harvey", "volume": 500 }
+  ],
+  "expansion_checked": "keywords-explorer-overview on the information and music forms; keywords-explorer-related-terms (also_talk_about) on 'burning man'; serp-overview on 'what is burning man' and 'what happens at burning man'; September 2026. See TOPIC-DOSSIERS.md, Фестивали. Stage 5 (competitor organic keywords) not run.",
+  "rejected": [
+    { "term": "burning man 2026", "volume": 8800, "why": "dated news intent, official site holds it" },
+    { "term": "burning man tickets", "volume": 2700, "why": "transactional; answered in one FAQ line" },
+    { "term": "burning man dj", "volume": 10, "why": "no demand" }
+  ]
+}

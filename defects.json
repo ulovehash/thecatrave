@@ -250,6 +250,39 @@
         "file": "CLAUDE.md",
         "contains": "a term listed there is taken, never research it again"
       }
+    },
+    {
+      "id": "og-cards-no-boiler-room-hero",
+      "found": "2026-09-10",
+      "by": "agent",
+      "what": "scripts/build-og-cards.py crashed with KeyError 'best-boiler-room-sets': the Boiler Room guide was added to pages.mjs without an entry in the script's HERO map, so every card after it in the manifest, including the next new guide, could not be regenerated. Found while adding the Burning Man guide.",
+      "should_have_caught": "the page-adding steps; the OG card script is not run by the build, so a missing entry fails only when someone next runs it by hand",
+      "fix": {
+        "file": "scripts/build-og-cards.py",
+        "contains": "\"best-boiler-room-sets\": \"img/boiler-room/carl-cox-1200.webp\""
+      }
+    },
+    {
+      "id": "build-skips-sitemap",
+      "found": "2026-09-10",
+      "by": "agent",
+      "what": "scripts/build.mjs listed the sitemap generator as 'build-sitemap.mjs', but the file lives at scripts/build-sitemap.mjs. The list is filtered by fs.existsSync, so the step was dropped without a word and sitemap.xml was never rebuilt by the build: a new guide failed audit-seo's 'canonical in sitemap' check, and every lastmod had stayed at 5 September.",
+      "should_have_caught": "the existsSync filter in the build order, which turns a wrong path into a silent skip instead of an error",
+      "fix": {
+        "file": "scripts/build.mjs",
+        "contains": "'scripts/build-sitemap.mjs',"
+      }
+    },
+    {
+      "id": "home-card-count-stops-at-nine",
+      "found": "2026-09-10",
+      "by": "agent",
+      "what": "audit-site-components.mjs counted homepage cards with /A0[1-9]/, so the tenth card, numbered A10, was invisible to it and the count check failed the moment the homepage grid reached ten articles.",
+      "should_have_caught": "nothing: the pattern was written when there were fewer than ten guides",
+      "fix": {
+        "file": "audit-site-components.mjs",
+        "contains": "/<span class=\"number\">A\\d\\d<\\/span>/g"
+      }
     }
   ]
 }

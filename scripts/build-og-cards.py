@@ -59,6 +59,8 @@ HERO = {
     "drum-and-bass": "img/dnb/dnb-cover.webp",
     "uk-garage": "img/skream-1200.webp",
     "how-to-find-new-music": "img/NOW-1024.webp",
+    "best-boiler-room-sets": "img/boiler-room/carl-cox-1200.webp",
+    "burning-man": "img/burning-man/robot-heart-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
 }
 KICKER = {"home": "thecatrave.com", "tool": "Tool", "guide": "Guide"}

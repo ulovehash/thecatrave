@@ -156,7 +156,8 @@ const checks = {
   homeFooterShared: pages.home.includes(homeFooter()),
   nowPlayingShared: pages.home.includes(expectedNowPlaying),
   homeArticlesShared: pages.home.includes(expectedHomeArticles),
-  homeArticleCount: count(pages.home, /<span class="number">A0[1-9]<\/span>/g) === currentHomeArticles.length,
+  // Two digits, not A0[1-9]: the tenth card is A10, and the old pattern stopped counting at nine.
+  homeArticleCount: count(pages.home, /<span class="number">A\d\d<\/span>/g) === currentHomeArticles.length,
   homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`${item.type} / ${item.topic} / ${item.readingTime}`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
   // Fixed at four. auto-fit could not shrink tracks below their content, and

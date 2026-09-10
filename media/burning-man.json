@@ -1,0 +1,12 @@
+{
+  "page": "what-is-burning-man.html",
+  "seed": "burning man music",
+  "source": "Adapted cross-reference, September 2026: search demand (mayan warrior 3,600, robot heart 700, US), Burning Man Journal and Project pages on sound camps, Billboard, Wikipedia. This site's catalogue holds no Burning Man sets, so source 6 of FIGURES.md returned nothing.",
+  "required_records": [
+    { "title": "Robot Heart", "artist": "Lee Burridge", "year": 2019, "why": "the sound camp most associated with music at Burning Man; its own search demand; the sunrise-set tradition", "sources": ["search", "wikipedia", "billboard"], "embed_id": "XwK7sA9PuCE" },
+    { "title": "Mayan Warrior", "artist": "YAMAGUCCI", "year": 2025, "why": "the most-searched sound camp (3,600); Mexico City's art car", "sources": ["search", "billboard", "burning-man-journal"], "embed_id": "MNkApftw_iM" }
+  ],
+  "known_gaps": [
+    { "title": "Other large sound camps", "why": "no source list yet; camps such as Opulent Temple and Dancetronauts appear only in the 2015 policy dispute and are not named on the page" }
+  ]
+}
