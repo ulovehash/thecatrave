@@ -29,8 +29,8 @@ is filled in, for every candidate being compared.
 
 Six stages. A topic that has not been through all six has no verdict, only notes.
 
-**1. Seeds** — from the catalogue, from what already ranks, from competitor SERPs.
-Never from memory. See `KEYWORD-METHOD.md`.
+**1. Seeds** — from what already ranks, from competitor SERPs. Never from
+memory. See `KEYWORD-METHOD.md`.
 
 **2. Matching terms** — `keywords-explorer-matching-terms`, `match_mode=terms` on
 the bare head term, then `phrase` on the two-word form. Every term returned is

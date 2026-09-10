@@ -1,0 +1,469 @@
+# Topic dossiers — накопленный ресерч по кандидатам в темы
+
+Дополняет `TOPIC-RESEARCH.md` и `KEYWORD-METHOD.md`. Те два файла говорят, *как*
+собирать и *как* выносить вердикт. Этот — *куда складывать то, что уже собрано*,
+чтобы стадии не переделывались с нуля на каждом заходе.
+
+## Как этим пользоваться
+
+Перед стадией 1 по любому кандидату — сначала прочитать его запись здесь, если
+она есть.
+
+- Если стадия уже закрыта и данные не протухли (SERP/related — раз в ~90 дней,
+  volume можно не обновлять, если порядок величины не критичен) — не повторять
+  Ahrefs-вызов, использовать записанное.
+- Продолжать с первой незакрытой стадии, а не с начала.
+- Кандидаты, по которым стадия 6 дала «не писать» или «писать уже», тоже
+  остаются здесь — это не только очередь, это ещё и защита от повторного
+  ресерча одного и того же отказа.
+- `keywords/<page>.json` — это выход шага 6 `KEYWORD-METHOD.md` для тем,
+  получивших вердикт «писать» и реализованных. Этот файл — на уровень выше:
+  сырые находки по кандидату, независимо от вердикта.
+- Стадия 6 (Validation) выносится отдельным проходом, не тем, кто собирал
+  стадии 1–5 (см. промпт валидации в `TOPIC-RESEARCH.md`). Пока стадия 6 не
+  пройдена отдельно — у темы нет вердикта, только заметки, и это фиксируется
+  явно, а не подразумевается.
+- После каждой сессии, даже частичной, — дописать/обновить запись ниже:
+  дата, что сделано, что нет, сколько вызовов Ahrefs ушло.
+
+Кандидатов в темы искать по `KEYWORD-METHOD.md` §1 (что уже ранжируется на
+thecatrave.com, SERP конкурентов) — никогда по памяти. Каталог (62 877 сетов)
+больше не источник кандидатов и не критерий отбора темы — см. правку §1/§5
+`KEYWORD-METHOD.md`: он остаётся активом для самой статьи (цифры для цитаты),
+но не для решения, писать ли про тему. Ловушки §3 того же файла (navigational
+brand queries, ambiguous words, wrong-language demand, wrong audience/
+production intent) применимы к любому кандидату — производственный контент
+(сэмплы, дровка, MIDI, курсы) не пишем независимо от объёма, см. `WRITING.md`.
+
+---
+
+## Boiler Room
+- Стадии: 1–5 из 6 (страна — только US). Стадия 6 (Validation) не пройдена.
+- **1. Сиды.** thecatrave.com не ранжируется ни по одному запросу, содержащему
+  «boiler» — 0 совпадений.
+- **2. Matching terms.** Голова «boiler room» — 14 000 US / 44 000 global, но
+  термин перегружен коллизиями сильнее, чем любая тема из прошлых досье:
+  фильм 2000 года, HVAC/промышленные бойлерные, финансовый скам-термин
+  «boiler room» (бойлерная = мошеннический call-центр — от него и произошло
+  название фильма), комнаты в видеоиграх (RE2/RE7/RE9, Tarkov, Stardew Valley,
+  Alone in the Dark, Luigi's Mansion 3, Black Ops 6, Backrooms), бары/рестораны
+  «The Boiler Room» в десятках городов США. Из 250 идей (весь список,
+  match_mode=terms) музыкально релевантное — меньшинство: разрозненные
+  городские ивент-запросы (Chicago 600, под-мостом-ивент 90, Nottingham/
+  Sydney/Köln и другие — в основном global, почти без US-объёма) и
+  информационный кластер «what is/meaning» (расписан в related/mining ниже).
+  Кластер сравнений по другим темам не применим. Другие языки: «was ist
+  boiler room»/«…ein boiler room» (40+80 gv, DE), «boiler room перевод»
+  (20 gv, RU) — не преследуем. Репутационные запросы («boiler room palestine
+  controversy», «why boycott boiler room») присутствуют, но не как контент-
+  угол.
+- **3. Related terms.** also_rank_for дал реальный сигнал: «whats a boiler
+  room» 300/500(!), «what is a boiler room set» 250/400, «boiler room chicago»
+  600/600 (венью, не платформа), «boiler room rave» 150/250, «boiler room
+  paris» 20/1300 (почти весь спрос вне US). also_talk_about — в основном шум
+  (боилерплейт сайтов, топонимы, общие слова вроде «privacy notice», «room»,
+  «angeles»); единственный релевантный сигнал — «diy sound» (DIY Sound
+  System, нью-йоркский саунд-систем краю, смежный breakbeat/jungle-сцене).
+- **4. SERP shape and PAA** (US). «boiler room» (14 000): **0 слотов** под
+  статью — топ-10 органики это boilerroom.tv (DR72, 2226 RD), IMDb (фильм,
+  DR94), Wikipedia (фильм), YouTube-канал, Instagram, Rotten Tomatoes ×2,
+  Reddit-тред. 100% бренд + фильм + соцсети. PAA: What is the boiler room? /
+  Is a boiler room a rave? / Where is the boiler room in NYC? / Why is it
+  called a boiler room? — «whats a boiler room» (300): ловушка неоднозначного
+  слова подтверждена буквально — AI Overview и оба редакционных слота
+  отвечают про **не ту** boiler room: Runwise (HVAC-гайд, DR40, 0 RD,
+  позиция 7) и raadmanburner (про финансовый скам, DR8, 0 RD, позиция 8).
+  Музыкальный смысл — только Reddit-тред (поз. 3, 490 визитов) и сам
+  boilerroom.tv. Не таргетировать эту формулировку. — «what is a boiler room
+  set» (250): чистая, по теме выдача. **2 слота**: UP Magazine (DR15, 1 RD,
+  поз. 8, 41 визит) и Point Blank Music School (DR62, 4 RD, поз. 10,
+  134 визита). Reddit r/EDM держит поз. 2 с 490 визитами — реальный спрос на
+  нормальный объясняющий текст. — «best boiler room sets» (500, найден на
+  стадии 5, добит SERP для полноты): **2 слота**: Point Blank Music School
+  (DR62, 4 RD, поз. 3, 134 визита) и whynow.co.uk (DR54, 3 RD, поз. 7,
+  47 визитов). Остальное — Reddit×2, Facebook×2, YouTube×2, Instagram, TikTok,
+  собственная страница чартов boilerroom.tv.
+- **5. Competitor mining** (mode=exact). **Point Blank Music School** —
+  самый сильный конкурент по теме в целом: поз. 2–3 по «best boiler room
+  sets» (500, 78 визитов) И поз. 7 по «boiler room set» (700(!), 17 визитов)
+  И поз. 3 по «what is a boiler room set» (250, 9 визитов) плюс хвост
+  «best boiler room set(s)»/«top boiler room sets». Одна статья закрывает
+  несколько углов. **UP Magazine** (DR15, самый слабый из трёх) — поз. 1 по
+  «what is a boiler room set» (250, 18 визитов), плюс хвост «boiler room
+  rave»/«style»/«outfit(s)» — угол одежды/дресс-кода Boiler Room, самая
+  выигрышная по авторитету страница из всех. **doubleclap.dance** — поз. 1 по
+  «what is a boiler room set» (по AI Overview) и «boiler room theme»/«…meaning
+  dj» (40/80/30), но слабо (поз. 8–11) держит «boiler room meaning»
+  (**250 vol, никем не занята прочно**). Новые ключи, пойманные только здесь
+  (стадии 2–4 их не вернули): «boiler room set» (700 — крупнейший
+  по-теме ключ во всём досье), «best boiler room sets» (500), «boiler room
+  meaning» (250, не занята), «boiler room set meaning» (90), «boiler room
+  meaning dj» / «dj meaning» (80/30), «boiler room theme» (40), «boiler room
+  outfit(s)» (угол моды).
+- Чего нет: PAA для «best boiler room sets» и «boiler room meaning» отдельно
+  не сняты (собраны только по трём запросам выше); только US, UK/другие
+  страны не проверялись; SERP по «boiler room outfit/style» (мода) не снята
+  напрямую — угол виден только через competitor mining; вопрос про owner's
+  standing (§5 `KEYWORD-METHOD.md`) — credibility писать про Boiler Room
+  именно у этого автора (не производственная, а сценовая/документальная) —
+  не задан.
+- Ahrefs: ~11 вызовов (site-explorer-organic-keywords ×1, keywords-explorer-
+  overview ×1, matching-terms ×1, related-terms ×2, serp-overview ×4,
+  site-explorer-organic-keywords exact ×3).
+- **Дозакрыто 2026-09-10** (2 вызова: serp-overview ×1, overview ×1, US).
+  PAA по «best boiler room sets» дословно: What is the best Boiler Room set
+  ever? / What is the most viewed Boiler Room set? / What is the Boiler Room
+  controversy? / What are some of the best Boiler Room sets to study to?
+  Объёмы FAQ-кандидатов (US/global): charli xcx boiler room 700/1100 (TP 350,
+  свой parent topic — отдельный интент, но крупный), boiler room controversy
+  70/200, best boiler room sets of all time 90/200, most viewed boiler room
+  set 10/30, most popular boiler room set 10/20, boiler room palestine 10/20,
+  why boycott boiler room 0/10. Каталог: 8 206 сетов Boiler Room (2012–2026)
+  с просмотрами и лайками — позволяет ранжирование по измеренным данным.
+- Вердикт: не выносился. Владелец 2026-09-10 дал структуру статьи «Best Boiler
+  Room Sets of All Time» — запрос на написание, стадия 6 формально не пройдена.
+
+### Черновая карта ключей для «best boiler room sets» (шаг 6 KEYWORD-METHOD.md, до вердикта)
+
+Формат — как в `keywords/*.json`. Не записана в `keywords/` и не привязана к
+странице: стадия 6 (Validation) `TOPIC-RESEARCH.md` не пройдена, страницы не
+существует. Черновик — чтобы не пересобирать при переходе к стадии 6.
+
+**Проверка интента (доснято отдельно).** SERP по всем четырём ключам с самым
+большим объёмом — «boiler room set» (1200), «boiler room sets» (450),
+«boiler room dj set» (300), «best boiler room sets» (1100) — чистые, без
+HVAC/скам/фильм-коллизий: везде boilerroom.tv, YouTube-канал, Reddit,
+SoundCloud, редакционные листиклы. Ни одного результата про промышленные
+бойлерные или про финансовый boiler room ни в одной из четырёх выдач.
+
+Два новых конкурента, пойманных при этой проверке (не было в исходном
+досье): **dirtydiscoradio.com** (DR30) — #1 по «boiler room dj set» (100,
+9 визитов), «boiler room dj setup» (20); слабый хвост по «best boiler room
+sets»/«boiler room sets». **zipdj.com** (DR37, 1 RD) — «10 Best Boiler Room
+Sets of All Time (2026 Rankings)», держит только поз. 10 по «boiler room set»
+(700, 9 визитов) — почти не индексируется по объёму, слабейший конкурент из
+всех пяти найденных.
+
+Итого конкурентов по кластеру: Point Blank Music School (DR62, 4 RD —
+сильнейший, держит почти все варианты), whynow.co.uk (DR54, 3 RD),
+dirtydiscoradio.com (DR30), zipdj.com (DR37, 1 RD), UP Magazine (DR15, 1 RD —
+другой интент, «what is»). Все — single-digit RD или низкий DR: winnable по
+правилу §4 `KEYWORD-METHOD.md`.
+
+```json
+{
+  "page": "TBD — не создана, ждёт вердикта стадии 6",
+  "seed": "boiler room sets",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "terms": [
+    { "term": "boiler room set", "volume": 1200 },
+    { "term": "best boiler room sets", "volume": 1100 },
+    { "term": "boiler room sets", "volume": 450 },
+    { "term": "boiler room dj set", "volume": 300 },
+    { "term": "best boiler room", "volume": 150 },
+    { "term": "best boiler rooms", "volume": 100 },
+    { "term": "best boiler room set", "volume": 80 },
+    { "term": "top boiler room sets", "volume": 50 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (terms) и keywords-explorer-related-terms (also_rank_for/also_talk_about) на 'boiler room', site-explorer-organic-keywords exact на 3 конкурентах, September 2026",
+  "rejected": [
+    {
+      "term": "boiler room",
+      "volume": 44000,
+      "why": "0 слотов под статью в топ-10 — boilerroom.tv, IMDb, Wikipedia (фильм), YouTube, Instagram, Rotten Tomatoes, Reddit. Бренд плюс фильм плюс соцсети"
+    },
+    {
+      "term": "whats a boiler room",
+      "volume": 500,
+      "why": "ловушка неоднозначного слова: AI Overview и оба редакционных слота — про HVAC-бойлерные и финансовый скам, не про музыку"
+    },
+    {
+      "term": "boiler room chicago",
+      "volume": 600,
+      "why": "конкретный бар/венью в Чикаго с этим названием, не платформа"
+    },
+    {
+      "term": "boiler room paris",
+      "volume": 1300,
+      "why": "почти весь объём вне US, город-специфичный ивент-запрос"
+    },
+    {
+      "term": "what is a boiler room set",
+      "volume": 400,
+      "why": "объясняющий интент, не рейтинг — выигрывают другие страницы (UP Magazine, doubleclap.dance). Кандидат на отдельную статью, не на эту"
+    },
+    {
+      "term": "boiler room meaning",
+      "volume": 1300,
+      "why": "тот же случай, крупнее чем казалось (1300 global) и никем прочно не занят — отдельная страница-кандидат, не эта"
+    }
+  ]
+}
+```
+
+## Breakcore
+- Стадии: 1–5 из 6. Стадия 6 (Validation) не пройдена — вердикта нет.
+- **1. Сиды.** Сайт не ранжируется ни по одному запросу темы. (Счёт сетов в
+  каталоге проверялся в исходном проходе как критерий — по правке
+  `KEYWORD-METHOD.md` §1/§5 каталог больше не критерий отбора темы, запись
+  сохранена для истории.)
+- **2. Matching terms.** Режим terms на голом «breakcore», порог ≥30 global,
+  взят весь список (98 строк). Проход в режиме phrase по двухсловной форме не
+  запускался — он дал бы подмножество того же списка. Классы: голова 12 000;
+  продакшен 6 030 (57% хвоста: samples 1 300, drum kit 700, sample pack 600,
+  drums 400, maker 300); слушатель/инфо 2 790 (26%: what is breakcore 400,
+  breakcore music 400, breakcore artists 400, definition 150); визуальная
+  коллизия 760 (7%: pfp, aesthetic, wallpaper); другие языки 430 (4%);
+  мемная коллизия 340 (3%: windows breakcore, 404 breakcore); конкретные
+  треки 260 (2%). Parent topic «breakcore samples» = «breakcore». Кластер
+  сравнений (jungle/dnb/breakbeat vs breakcore) — 9 формулировок, 610 global.
+- **3. Related terms.** also_rank_for пуст и на top10, и на top100 — топ
+  держат платформенные URL. also_talk_about (только музыкальные сущности):
+  amen break 17 000, venetian snares 1 800, happy hardcore 1 500, IDM 1 100,
+  hardcore techno 1 000, digital hardcore 500, industrial noise 500, ragga
+  dancehall 300, energy flash 250, breakbeat hardcore 150, club cyberia 100.
+- **4. SERP shape and PAA** (US only — UK не снималась). «breakcore» (7 400):
+  1 слот под статью, слабейшая allmusic #7 (2 RD, 375 визитов), остальное —
+  YouTube×4/Reddit/Spotify/X/AI Overview. «what is breakcore» (200): 5 слотов,
+  слабейшие wknc #5 и thetonearm #9 (DR 41–42, по 2 RD), плюс
+  Wikipedia/Reddit/RYM/AI Overview. «jungle vs breakcore» (90): 2 слота,
+  beloit #5 (0 RD), imusician #9 (1 RD); выдачу держат Reddit (из 6 тредов) /
+  AI Overview / TikTok / Wikipedia / Spotify. PAA дословно —
+  breakcore: What actually is breakcore? / Why do autistic people like
+  breakcore? / What is the most famous breakcore song? / Is Femtanyl a
+  breakcore artist? — what is breakcore: Is breakcore noise music? / Who is
+  the most popular breakcore artist? / Why is breakcore called that? / What
+  bpm is breakcore? — jungle vs breakcore: Are jungle and breakcore the same
+  thing? / Is jungle the same as breakbeat? / Are jungle and DnB the same? /
+  Are DnB and breakcore the same?
+- **5. Competitor mining** (mode=exact). Wikipedia /Breakcore — ~620 визитов
+  US/мес, 534 из них с головы на 2-й позиции; #1 по «breakcore artists» (200),
+  но 1 визит. wknc — лучшая редакционная статья по «what is breakcore»,
+  ~18 визитов/мес суммарно. Доп. хвост сверх стадий 2–4: «brake core» 40,
+  «break core» 30, «best breakcore artists» 30.
+- Чего нет: ответ на вопрос из §5 `KEYWORD-METHOD.md` — есть ли у owner'а
+  статус в этом жанре (родственном jungle/hardcore); выдача по UK.
+- Ahrefs-вызовов: не зафиксировано в исходном проходе — фиксировать со
+  следующего раза.
+
+## Сайты для меломанов (Every Noise, Ishkur, «music discovery»)
+- Стадии: 2 из 6 (Matching terms целиком, SERP shape частично). Стадия 6 не
+  пройдена.
+- **1. Сиды.** Не пройдена.
+- **2. Matching terms.** Навигационные (не наши): radio garden 97 000, every
+  noise at once 3 700, gnoosic 3 300, everynoise 2 500, ishkur 1 000 global —
+  поиск самого сайта. Коллизии: «music websites» (21 000, KD 93, parent Apple
+  Music), школьные/нотные/стоковые запросы — не наша аудитория. DJ-угол:
+  «websites for djs» пусто от 40 global. Живой интент подборки: best music
+  websites 200 (500 global), KD 12; top music websites 100 (150), KD 14;
+  websites for music lovers 40 (100), KD 5; every noise at once alternative
+  60 (250), KD нет — Every Noise не обновлялся с конца 2023.
+- **3. Related terms.** Не пройдена.
+- **4. SERP shape and PAA.** Частично: «cool music websites» — 4 слота под
+  списки-статьи, слабейшая epikmusicvideos (DR 19, 0 RD, позиция 2); топовые
+  списки — 60–100 визитов/мес. PAA не снималась.
+- **5. Competitor mining.** Не пройдена.
+- Риск каннибализации: `/how-to-find-new-music` уже держит «music discovery
+  websites» (300) и «music discovery tools» (70); на 3-м месте по «cool music
+  websites» — статья с тем же интентом («Cool Sites for Real Music
+  Discovery»). Перед выбором между отдельной страницей и разделом гайда нужна
+  выдача по «music discovery websites» — не снята, это и есть следующий шаг.
+- Ahrefs-вызовов на весь блок: 12.
+
+---
+
+## Фестивали (направление владельца, 2026-09-10)
+
+Владелец хочет собирать трафик гайдами по фестивалям. Шаг 0: в
+`TAKEN-KEYWORDS.md` фестивалей нет. Стадии пройдены: 1 (затравки), 2
+(overview по голове и информационным формам), 4 (SERP по лучшей
+информационной форме). Стадии 3, 5 и 6 не пройдены, вердикта нет.
+
+**Главная ловушка.** Головы фестивалей навигационные (`KEYWORD-METHOD.md` §3):
+tomorrowland 361 000, coachella 520 000, lollapalooza 348 000, glastonbury
+191 000. В выдаче официальные сайты, Wikipedia и соцсети. Статья может встать
+только по информационным формам («what is», «where», «cost») и по
+спискам-хабам.
+
+**Затравки из расширения** (also_rank_for top 100 по tomorrowland и burning
+man, matching terms «festival» ≥20 000, related по edm/techno festival):
+Burning Man, Tomorrowland, Glastonbury, EDC, Fyre, Roskilde, Fusion, Boom,
+Nocturnal Wonderland, Movement Detroit, Time Warp, North Coast, Insomnia.
+**Добавлены по названию** (расширение их не вернуло): Ultra, Creamfields,
+Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
+
+- **Burning Man.** Информационный срез: what is burning man 22 000 (TP 72 000),
+  what is burning man festival 12 000, where is burning man 8 300, black rock
+  city 7 800, what happens at burning man 3 600, how long 2 000, cost/how much
+  около 1 900. SERP «what is burning man»: explorehere.app (DR19, 0 RD, 5 607
+  визитов, поз. 2), inthesetimes (2 RD), Reddit, Facebook answers,
+  journal.burningman (0 RD), sfih.us (DR10, 0 RD). PAA: What is the purpose of
+  the Burning Man? / How much does it cost to attend? / Why is Burning Man so
+  controversial? / What actually happens at Burning Man? Самые слабые
+  конкуренты при самом большом информационном спросе пула. Это не музыкальный
+  фестиваль в первую очередь: вопрос standing открыт.
+- **Tomorrowland.** Where is 6 000, lineup 5 600, what is 4 000 (TP 12 000),
+  how much are tickets 1 400. SERP «what is tomorrowland»: официальный сайт ×3,
+  Wikipedia (267 RD), Instagram, magicoftomorrowland (374 RD). Статейного
+  слота практически нет.
+- **EDC.** edc las vegas 25 000 (TP 75 000), what is edc 7 200, electric daisy
+  carnival 4 400. «what is edc» — коллизия: EDC = everyday carry (ножи,
+  снаряжение), фестиваль только на 6-м месте (Wikipedia). SERP «edc las vegas»
+  не снят.
+- **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
+  Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
+  LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get
+  refunded? Статейная выдача со слабыми RD, но это история провала, а не
+  музыкальная тема.
+- **Glastonbury.** 191 000 навигационный, what is glastonbury 500. SERP (GB):
+  официальный сайт (7 669 RD), Wikipedia, Instagram, Guardian, Facebook,
+  glastonburytips (371 RD). Шансы низкие.
+- **Movement Detroit.** 3 900 (TP 6 300). SERP: официальный, edmidentity
+  (3 RD), Reddit, Instagram, Mixmag «How to survive Movement Detroit» (4 RD),
+  SeatGeek. PAA: What kind of music is Movement? / How much does it cost?
+  Выигрываемо и ближе всех к профилю сайта (детройтское техно).
+- **Boom.** 24 000 global (US 1 200). SERP: официальный (778 RD), соцсети,
+  Wikipedia (44 RD), MusicFestivalWizard. Статей нет, навигационный.
+- **Roskilde.** 56 000 global, спрос датский, выдача: официальные датские
+  страницы. Ловушка чужого языка.
+- **Nocturnal Wonderland.** 5 400. SERP: официальный, Reddit, форумы,
+  Instagram, SoundCloud. Статей нет, PAA «Is Nocturnal Wonderland worth it?».
+- **Хабы-списки.** best electro music festivals in europe 4 000: electricsunsets
+  (DR14, 0 RD, 708 визитов, поз. 2), new-east-archive (0 RD), hotels.com
+  (0 RD), ticketswap (0 RD), traveltriangle (1 RD). biggest edm festivals 700:
+  Reddit, edmtrain (63 RD, 5 226 визитов), doubleclap (1 RD), thedjrevolution
+  (1 RD), MFW (3 RD), borninstockholm (DR20, 1 RD, 551 визит). edm festivals
+  5 100, music festivals 87 000 (parent «festivals near me», локальный).
+- **Добавленные по названию** (только объёмы, SERP не снимались): creamfields
+  43 000 (в основном UK), ultra music festival 13 000 (TP 6 800), untold
+  11 000, defqon 1 11 000, dekmantel 8 000, awakenings 6 500, exit 5 500,
+  sonar 3 900.
+- Каталог: канал Dekmantel (77 сетов), Outlook Festival (12). Счётчики
+  фестивальных сетов по имени — в отчёте владельцу за 2026-09-10.
+- Ahrefs: 21 вызов (related ×3, matching ×1, overview ×3, serp ×14).
+
+---
+
+## Пул кандидатов 2026-09-10 (после Boiler Room)
+
+Контекст: владелец 2026-09-10 разрешил продюсерский интент, если в топе по
+частотным продюсерским запросам стоят редакционные статьи, а не туториалы и
+файлы. Как делать звук сайт по-прежнему не объясняет и файлы не раздаёт.
+Правка `WRITING.md` ещё не внесена: формулировка показана владельцу.
+
+**Сняты как занятые (владелец, 2026-09-10).** Эти головы уже заявлены в
+`TAKEN-KEYWORDS.md`: amen break (breakbeat, dnb), drum and bass artists (dnb),
+brostep (dubstep), dnb/dubstep/uk garage bpm (три гайда), big beat
+(breakbeat). Как новые кандидаты не рассматриваются, ресерч по ним не вести.
+Записи ниже оставлены как история. Живыми остаются acid house, drum breaks,
+dubstep artists, what is a boiler room set и breakcore.
+
+**Глубина всех кандидатов одинаковая:** стадия 1 (общие затравки), стадия 2
+(matching terms с классами), стадия 4 (только SERP головы, US). Стадии 3, 5 и
+6 не пройдены. Вердикта нет ни по одному.
+
+**Стадия 1, затравки (общие для пула).** thecatrave.com ранжируется только по
+breakbeat-кластеру: «breakbeat» 1 800 (поз. 26), «arti breakbeat» 1 400
+(поз. 7, индонезийский спрос), «breakbeat music» 300 (поз. 1). Остальные
+гайды в Ahrefs почти не видны. `also_talk_about` по голове пяти гайдов: amen
+break 17 000, acid house 6 000, progressive house 6 900, drum breaks 2 800,
+big beat 1 700, funky drummer 1 000. `also_rank_for` (top 100): dnb meaning
+6 400, dnb bpm 2 400, drum and bass artists 2 300, dubstep artists 1 700,
+brostep 1 100, dnb radio 800.
+
+- **Acid house.** Стадия 2: голова 6 000, «what is acid house?» 6 100 (US
+  3 500), «acid house music» 500. Коллизии мелкие: фильм и книга «The Acid
+  House» (1 000), бытовая химия. Продакшен около 300 (samples, loops, presets).
+  Стадия 4: Wikipedia (326 RD), Spotify, Reddit, RYM (5 RD, поз. 6), YouTube-
+  плейлист, Apple Music, MasterClass (3 RD, поз. 10). PAA: Why is it called
+  acid house? / Who is considered the father of acid house? / Was acid house
+  invented in India? / What type of music is acid house? Каннибализации нет:
+  термин не заявлен ни в одной карте `keywords/`. У `uk-electronic` открыт
+  known gap по Acid Tracks.
+- **Acid house против house music (владелец спросил, не поджанр ли это,
+  2026-09-10).** Голову родительского жанра в первом проходе не проверяли:
+  это пробел метода. Дозакрыто (overview ×1, serp ×2, US).
+  - Объёмы: house music 58 000 (US 21 000), what is house music 10 000,
+    house music genre 1 500 (TP 8 000), history of house music 450 (TP 8 200).
+    Поджанры со своим parent topic: deep house 30 000, tech house 11 000,
+    acid house 6 000 + what is acid house? 6 100, chicago house 1 800.
+    uk house music 70.
+  - SERP «house music»: Wikipedia (893 RD), Armada «What Is House Music?»
+    (17 RD, 1 613 визитов), Spotify-плейлист, Splice «What is House Music?
+    History, Artists, and Subgenres» (12 RD, 897 визитов), Reddit, SoundCloud,
+    Billboard «50 Best House Songs» (40 RD). Три редакционных места, слабейшее
+    с 12 RD. PAA: What is considered house music? / What is the biggest house
+    song ever? / Is house music LGBTQ? / What's the most popular house music?
+  - SERP «what is acid house?»: только страницы про acid house: Wikipedia,
+    Museum of Youth Culture (31 RD), MasterClass (3 RD), Music Gateway (7 RD),
+    RYM (5 RD), Britannica (24 RD). Ни одной общей страницы про хаус. PAA:
+    What's the difference between house and acid house?
+  - Вывод по данным (не вердикт): у acid house и у house music разные parent
+    topic и непересекающиеся выдачи, то есть это два разных интента. House
+    music — отдельный кандидат уровня жанрового гайда, в `TAKEN-KEYWORDS.md`
+    его нет. Правило на будущее: у кандидата-поджанра проверять голову
+    родительского жанра.
+- **Amen break.** Стадия 2: голова 17 000. Производственный хвост (sample
+  3 200, download 1 100, sample pack 900, midi, vst, sheet music, waveform)
+  около 7 700, остальное слушательское. Стадия 4: Wikipedia (497 RD),
+  samplefocus (файл), Reddit r/drums, ethanhein (8 RD, поз. 6), elephantdrums
+  (DR13, поз. 8, урок для барабанщиков), YouTube Mixmag (48 RD), rhythm-lab
+  (4 RD, файлы). PAA: What does Amen Break mean? / Why is the Amen Break so
+  famous? / What songs use Amen Break? / What is the most famous drum break of
+  all time? **Каннибализация:** «amen break» заявлен в `keywords/breakbeat.json`
+  и `keywords/drum-and-bass.json`, но сайт по нему не ранжируется вообще.
+- **Самые известные брейки (drum breaks).** Стадия 2: «drum breaks» 2 800
+  (смешанный, в основном поиск файлов), «famous drum breaks» 150, «what are
+  drum breaks» 100, «best drum breaks» 70, «most sampled drum breaks» 50.
+  Коллизия с тормозами «drum brakes». Стадия 4: Reddit (коллекция на
+  скачивание), магазины сэмплов ×4, Micro-Chop substack «100 Drum Breaks»
+  (0 RD, поз. 4, редакционный). PAA: What are the top 5 drum breaks of all
+  time? / What is the name of the most famous drum break? Под новое правило
+  владельца подходит как история без файлов.
+- **Drum and bass artists.** Стадия 2: голова 2 300, best 300, top 150,
+  uk 100, famous 100. Стадия 4: самая слабая выдача пула: dnb2day.ru (DR0,
+  0 RD), bestdrumandbass (0 RD), ticketfairy (0 RD), drumandbassuk (DR24).
+  PAA: Who is the biggest DNB artist? / Who are some of the best drum and bass
+  artists? **Каннибализация:** термин заявлен в `keywords/drum-and-bass.json`.
+- **Dubstep artists.** Стадия 2: голова 1 700, best 300. Стадия 4: Reddit,
+  Wikipedia list (24 RD), iflyer (1 RD), themetalverse (5 RD, поз. 6), IMDb,
+  firstfloor substack (1 RD). PAA: Who is the biggest dubstep artist? / Who
+  are the OGs of dubstep? Каннибализации нет: «artists» в `dubstep.json` не
+  заявлен.
+- **Brostep.** Стадия 2: голова 1 100, what is 300, brostep vs dubstep 380
+  (с обратным порядком слов). Стадия 4: Reddit, Wikipedia Dubstep, RYM
+  (5 RD), Spotify, Dazed (15 RD, поз. 7), Fandom (0 RD). PAA: Is Skrillex
+  brostep or dubstep? / What's the difference between brostep and dubstep?
+  **Каннибализация:** «brostep» заявлен в `keywords/dubstep.json`, гайд
+  упоминает термин трижды.
+- **BPM по жанрам** (DJ и продюсерский интент). Стадия 2 (overview списком):
+  dnb bpm 2 400 (US 40), techno bpm 1 600, house music bpm 1 100, dubstep bpm
+  800, drum and bass bpm 700, uk garage bpm 450, jungle bpm 250, breakbeat bpm
+  150, в сумме около 7 450 global. «bpm of music genres» 0. Стадия 4 (drum and
+  bass bpm): Reddit, Wikipedia, edmprod (6 RD), mixgraph (1 RD), BPM Supreme,
+  melodycraft (DR8, 1 RD). Dubstep bpm: dj.studio (5 RD), Ableton Learning
+  Music (98 RD), digitaldjtips. **Каннибализация:** dnb/dubstep/uk garage bpm
+  заявлены в трёх гайдах.
+- **Boiler room meaning / what is a boiler room set.** Стадия 2 (overview):
+  boiler room meaning 1 300 global (US 250), parent topic «what is a boiler
+  room set». Стадия 4 (boiler room meaning, дозакрыто сегодня): коллизия
+  подтверждена. Wikipedia (финансовый скам, 153 RD), dictionary.com,
+  Cambridge, Merriam-Webster, Runwise (HVAC) в AI Overview, Wikipedia про
+  бойлерную. Музыкальный смысл: Reddit r/EDM «boiler room style» (490 визитов),
+  boilerroom.tv/about (26 RD), TikTok. PAA: What is boiler room slang for? /
+  What is the concept of boiler room? / What is the boiler room party? / Is a
+  boiler room a rave? Остальное — в записи «Boiler Room» выше.
+- **Breakcore.** Стадии 1–5 закрыты ранее, см. запись выше. Для сравнения в
+  пуле используется только глубина стадий 1, 2 и 4.
+- **Big beat.** Стадия 2: голова 1 700. Коллизии: песня Billy Squier «The Big
+  Beat» (1 100), Big Beat Records, опечатки «big bear», тарелки Paiste.
+  Слушательская часть около 200. Стадия 4: Wikipedia (209 RD), Reddit,
+  Instagram лейбла, John's Guide substack (1 RD, поз. 7), Apple, bigbeat.com,
+  NPR (142 RD). PAA: What happened to big beat? / Is Chemical Brothers big
+  beat? / Who started big beat?
+- **Отброшено на стадии 2: dnb meaning** (6 400). Ловушка неоднозначного
+  слова: Urban Dictionary (сленг), ставки «draw no bet», медицинская степень
+  DNB, бизнес. Музыкальная часть («dnb music meaning» 200) — меньше 5%.
+  Выдача: Urban Dictionary, Wiktionary, AcronymFinder.
+- Ahrefs: 24 вызова (organic-keywords ×1, related-terms ×2, matching-terms ×8,
+  serp-overview ×11, overview ×2).

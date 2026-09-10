@@ -13,7 +13,7 @@ remembering they exist.
 |---|---|
 | Writing or editing a guide | `ARTICLE-PRODUCTION-WORKFLOW.md`, then `AGENTS.md` §7–§9 |
 | Reviewing a draft | `ARTICLE-EDITORIAL-REVIEW.md` |
-| Deciding what to write next | `TOPIC-RESEARCH.md` |
+| Deciding what to write next | `TAKEN-KEYWORDS.md` first: a term listed there is taken, never research it again. Then `TOPIC-DOSSIERS.md` (check for existing progress), then `TOPIC-RESEARCH.md` |
 | Finding keywords | `KEYWORD-METHOD.md` |
 | Deciding who a guide must name | `FIGURES.md`, then write `media/<guide>.json` |
 | Anything touching prose | `WRITING.md` |

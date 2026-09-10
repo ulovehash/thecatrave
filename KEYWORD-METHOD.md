@@ -25,15 +25,16 @@ The same applies to the Selector. Its own category does not exist: random dj
 set, dj set picker, dj set finder all return no rows. It is reached through
 topics adjacent to it, which is why the discovery guide exists.
 
-## 1. Seeds, from three places and never from memory
+## 1. Seeds, from two places and never from memory
 
-- **The catalogue.** 62,877 sets carry genres, channels, cities and years.
-  Anything with a few hundred sets behind it is a subject the site can write
-  about with numbers nobody else has.
 - **What already ranks.** `site-explorer-organic-keywords` for thecatrave.com,
   and Search Console. A page at position 20 for something is a page that could
   be at position 8.
 - **Competitor SERPs** for topics already nearby.
+
+The catalogue used to be a third seed source here (set counts per genre). It
+was dropped — see the note at the end of §5. It is not a criterion for what to
+write about.
 
 Writing candidate phrases by hand skips this step and measures only what you
 already thought of. That shipped an article titled "how to find new music"
@@ -92,17 +93,12 @@ one does not change that.
 
 ## 5. Ask what will make this page different
 
-Two assets nobody else has: a catalogue of 62,877 sets that can answer questions
-with counts, and an owner who makes this music. Ask which of them the page will
-use, and if neither, what will take their place.
+One asset nobody else has: an owner who makes this music. Ask whether the page
+will use that, and if not, what will take its place.
 
-The UK garage guide answers it: it proves the revival with upload counts per
-year rather than asserting it.
-
-**This is not a veto and it is not about ranking.** Google cannot see the
-catalogue and does not care that it exists. Wikipedia holds position one for
-breakcore without one. A topic with no sets behind it can still be written well
-and still rank, from research and from embeds like anyone else's.
+**This is not a veto and it is not about ranking.** Wikipedia holds position one
+for breakcore without it. A topic can still be written well and still rank, from
+research and from embeds like anyone else's.
 
 What the question decides is whether the page is worth the reader's time next to
 the page already at position two, and whether anything on it can be cited rather
@@ -110,11 +106,14 @@ than absorbed. Both of those were measured: models synthesise the ordinary
 without attribution, and the small sites Wikipedia links to are cited for
 interviews, archives and tools, never for explanations.
 
-Recorded because it was applied wrongly. Breakcore has no sets in the catalogue,
-that was treated as settling the matter, and step 4 was left to argue second when
-it held the actual reason. Half the rule went unchecked too: it says *neither*
-asset, and whether the owner had standing in a genre descended from jungle and
-hardcore was never asked.
+Recorded because it was applied wrongly. The catalogue used to be this
+question's other asset, and a set count settled whether to write about breakcore
+before step 4 had a say — even though a count says nothing about demand or
+winnability, and Google cannot see the catalogue and does not care that it
+exists. The catalogue is dropped from this question for that reason; it stays
+useful once a page is being written, as numbers to cite, not as a reason to
+write it or not. Whether the owner had standing in a genre descended from jungle
+and hardcore was never asked either, and still should be.
 
 ## 6. Write the map before the article
 

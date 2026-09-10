@@ -239,6 +239,17 @@
         "file": "img/find-new-music/taste-loop.svg",
         "contains": "a station, a set, a shop"
       }
+    },
+    {
+      "id": "researched-taken-keywords",
+      "found": "2026-09-10",
+      "by": "owner",
+      "what": "A topic-research pass for the next articles spent Ahrefs calls on amen break, drum and bass artists, brostep, big beat and genre BPM, and presented them as new-article candidates, although existing guides had already been written for every one of those terms in keywords/*.json. It then argued the overlap did not matter because the site does not rank for them. A term in a guide's map is taken, ranking or not.",
+      "should_have_caught": "a step zero in topic research that checks the terms existing guides already target; none existed, and the maps were scattered across nine files",
+      "fix": {
+        "file": "CLAUDE.md",
+        "contains": "a term listed there is taken, never research it again"
+      }
     }
   ]
 }

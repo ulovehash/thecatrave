@@ -85,6 +85,29 @@ it would be for an article about that site.
 This is not caution for its own sake. Stock agencies scan for unlicensed images
 automatically and invoice for them.
 
+## A PAA question is not a headline
+
+Recorded because it shipped almost verbatim, once, before a person caught it.
+A best-of draft for Boiler Room proposed the section "What Makes a Set a
+Boiler Room Set?" — lifted straight out of PAA. The honest answer to that
+question is circular: a set is a Boiler Room set because Boiler Room filmed
+and published it. That teaches the reader nothing, and the section under it
+would have read like it existed to contain the phrase, not to answer anything.
+
+PAA gives you the literal words people search, not a section a reader wants.
+Before a PAA phrase becomes a heading, answer it honestly in one sentence. If
+that sentence just restates the question back — X is a Y because it is a Y —
+the heading is empty and the section under it will be too. Find the real
+question underneath instead. What actually made a set a Boiler Room set was
+never "who filmed it" — it's the format: DJ facing the crowd, no barrier, one
+room. The section worth writing is what makes a set *great* within that
+format, which has an answer with content in it, not what makes it a Boiler
+Room set at all.
+
+The test: could a stranger answer the heading correctly without reading the
+section? If yes, drop it or rewrite it around the question that survives the
+test.
+
 ## Never edit published copy silently
 
 Adding a phrase to a live article to satisfy a keyword check is an editorial
