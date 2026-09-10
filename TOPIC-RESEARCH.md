@@ -29,8 +29,9 @@ is filled in, for every candidate being compared.
 
 Six stages. A topic that has not been through all six has no verdict, only notes.
 
-**1. Seeds** — from what already ranks, from competitor SERPs. Never from
-memory. See `KEYWORD-METHOD.md`.
+**1. Seeds** — from the owner's topic and competitor SERPs. Never from
+memory. See `KEYWORD-METHOD.md`. Do not pull thecatrave.com's own rankings for
+each new topic; the owner asked for that step to be dropped.
 
 **2. Matching terms** — `keywords-explorer-matching-terms`, `match_mode=terms` on
 the bare head term, then `phrase` on the two-word form. Every term returned is
@@ -71,7 +72,9 @@ evidence. Not by the person who gathered it.
 > a topic somebody wants to write about. You did not gather it and you have no
 > stake in the answer.
 >
-> The site: thecatrave.com, long-form guides on UK dance music genres, written for
+> The site: thecatrave.com, about its owner and whatever interests them —
+> long-form guides on dance music and club culture, UK genres so far but not
+> limited to them. A topic outside the UK is not a reason to drop it. Written for
 > listeners rather than producers, by a working breakbeat and jungle producer. It
 > has nine pages, one of which earns almost all its traffic. Its assets are a
 > catalogue of 62,877 recorded DJ sets that can answer questions with counts, and

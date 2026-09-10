@@ -26,8 +26,9 @@
 - После каждой сессии, даже частичной, — дописать/обновить запись ниже:
   дата, что сделано, что нет, сколько вызовов Ahrefs ушло.
 
-Кандидатов в темы искать по `KEYWORD-METHOD.md` §1 (что уже ранжируется на
-thecatrave.com, SERP конкурентов) — никогда по памяти. Каталог (62 877 сетов)
+Кандидатов в темы искать по `KEYWORD-METHOD.md` §1 (тема владельца, SERP
+конкурентов) — никогда по памяти. Собственные позиции thecatrave.com для
+каждой новой темы не снимать. Каталог (62 877 сетов)
 больше не источник кандидатов и не критерий отбора темы — см. правку §1/§5
 `KEYWORD-METHOD.md`: он остаётся активом для самой статьи (цифры для цитаты),
 но не для решения, писать ли про тему. Ловушки §3 того же файла (navigational
@@ -302,6 +303,11 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   controversial? / What actually happens at Burning Man? Самые слабые
   конкуренты при самом большом информационном спросе пула. Это не музыкальный
   фестиваль в первую очередь: вопрос standing открыт.
+  Дополнено 2026-09-10: mayan warrior 3 600, robot heart 700, is burning man a
+  music festival 300, burning man 2026 8 800, tickets 2 700, history 250
+  (TP 35 000). SERP «what happens at burning man»: Reddit, sfih.us (0 RD),
+  Minot Daily News (0 RD), Quora, Facebook. В каталоге сетов с Burning Man
+  ноль. Структура по запросу владельца: `burning-man-research.md`.
 - **Tomorrowland.** Where is 6 000, lineup 5 600, what is 4 000 (TP 12 000),
   how much are tickets 1 400. SERP «what is tomorrowland»: официальный сайт ×3,
   Wikipedia (267 RD), Instagram, magicoftomorrowland (374 RD). Статейного
@@ -467,3 +473,305 @@ brostep 1 100, dnb radio 800.
   Выдача: Urban Dictionary, Wiktionary, AcronymFinder.
 - Ahrefs: 24 вызова (organic-keywords ×1, related-terms ×2, matching-terms ×8,
   serp-overview ×11, overview ×2).
+
+---
+
+## История немецкой электронной музыки (German electronic music)
+- Дата: 2026-09-10. Стадии: 1–5 из 6 (страна — только US). Стадия 6
+  (Validation) не пройдена. Задумано по образцу `uk-electronic-music-evolution.html`.
+- **1. Сиды.** thecatrave.com не ранжируется ни по одному запросу с german /
+  berlin / kraut / deutsch / kraftwerk — 0 строк.
+- **2. Matching terms.** «german electronic music» (terms, топ-40): голова
+  70 US / 90 global, «german electronic music artists» 40/150, «german
+  krautrock band embraced electronic music» 10/20 (кроссворд), остальные
+  ~35 строк — 0–10. Та же картина, что у UK: голова почти пустая. Phrase
+  «german electronic»: слушательское — «german electronic artists» 80/150,
+  «german electronic band» 30/50, «…bands» 10/20; коллизии — электроника-
+  магазины и бренды (brands 90, store 60, store online/stores/shop по 30,
+  company/companies 50), «german electronic residence permit (eAT card)»
+  ~80 суммарно, переводчик. Коллизии по сумме больше, чем слушательская часть.
+  Производственного интента в выдаче нет.
+  — **german techno** (terms, ≥20 gv): голова 250/500, **«german techno
+  artists» 200/400** (крупнейшая слушательская фраза в теме), dj/djs по 100,
+  club 100, bands 70, festival 50, outfit 50 (одежда — коллизия), girl 40
+  (мем), 90s/2000s artists по 20–30, super troopers soundtrack ×2 (сцена из
+  фильма, коллизия), train 20 (мем).
+  — **krautrock** (terms, ≥30 gv): голова **1 400 / 4 400**, bands 90/500,
+  best krautrock albums 100/250, albums 70/100, what is krautrock 40/80,
+  can krautrock 20/60, neu krautrock 10/30. Немецкоязычный спрос заметен
+  (was ist krautrock 100, die besten krautrock bands 100, bands liste 60+50)
+  — не наш язык. Krautrock festival ludwigshafen 100 — ивент.
+- **3. Related terms** («german electronic music»). also_rank_for (top_100):
+  german techno 500, famous german djs 150, german house music 100, german
+  rave 100, german edm 80/100, famous german dj 90, berlin techno artists 70,
+  german raves 60, german electronic band 50, 90s german techno 20, german
+  electronic music 1970s 0. also_talk_about (top_10): kraftwerk 76 000 gv,
+  tangerine dream 18 000, love parade 11 000, berlin wall, east berlin,
+  avant garde, ambient music, synth pop, progressive rock, guru guru, techno
+  music — это сущности, которые страница обязана покрыть; объём у них
+  навигационный (бренды групп), не нашей страницы.
+- **4. SERP и PAA** (US).
+  — «german electronic music» (70): AI Overview; Wikipedia (20 RD, поз. 2),
+  Reddit, Spotify-плейлист, **makeyourowntaste.com (DR9, 3 RD, поз. 6)**,
+  обсуждения (Reddit/Renoise/Quora), YouTube-плейлист, **RBMA oral history
+  East Germany (DR74, 9 RD, поз. 10)**. Редакционных слотов: 3 (Wikipedia,
+  makeyourowntaste, RBMA). Слабейшая редакционная — 3 RD. PAA: What is German
+  electronic music called? / Who are the German electronic music artists? /
+  What is the viral German song called? / Who is the most famous German DJ?
+  — «german techno» (250): AI Overview с сайтлинками (Vice про Tresor/
+  «Der Klang der Familie», orte-der-einheit Tresor, medium). Органика:
+  Reddit, Spotify, Wikipedia German electronic music (поз. 5), **feralclo
+  (блог магазина одежды, DR8, 19 RD, поз. 6)**, блок видео/соцсетей,
+  YouTube ×2, SoundCloud. Редакционных: 2. PAA: What is German techno
+  called? / Is Germany known for EDM? / Who was the original German techno
+  band? / What is the most popular German techno club?
+  — «german techno artists» (200): Reddit «pioneers of German techno» (95
+  визитов), musicmetricsvault (0 RD), Wikipedia Category (1 RD), Spotify,
+  YouTube, **ranker (3 RD)**, samplesoundmusic (52 RD), **yourghostproduction
+  (DR13, 0 RD, поз. 10)**. Списочный интент, слотов под статью-список ~4,
+  слабейшие 0–3 RD. PAA: Who is the most famous German DJ? / Who are the best
+  German EDM artists? / Who are the top techno artists? / Is techno popular
+  in Germany?
+  — «krautrock» (1 400): Wikipedia (478 RD), Reddit ×2, RYM (8 RD), BBC
+  Culture (40 RD, поз. 7), Spotify Goethe-Institut, linenoise substack (1 RD,
+  поз. 9), r/Krautrock. Редакционных: 2–3 (BBC, substack). PAA: What is the
+  meaning of krautrock? / Did Pink Floyd influence krautrock? / Which bands
+  were influenced by krautrock? / Was krautrock popular in Germany?
+  — «what is krautrock» (40): Wikipedia, findwords (0 RD), XLR8R (29 RD),
+  youtubemusicsucks (DR21, 1 RD), rock.fandom (2 RD), classicrockhistory
+  (1 RD), UMich Press (книга), Culture Trip (1 RD). Редакционных ~6,
+  слабейшие 1–2 RD. PAA: Is krautrock progressive rock? / Who created
+  Krautrock? / Where did the term Krautrock come from? / Where do I start with
+  Krautrock?
+- **5. Competitor mining** (exact URL, US).
+  — Wikipedia German_electronic_music: german techno 150 (поз. 2), german
+  edm 80 (1), german electronic music 60 (1), german electronic band 40 (1),
+  german rave/raves, german electronic music artists, german house music,
+  berlin techno artists, 90s german techno, german techno music — всего 13
+  строк, ~45 визитов. То есть страница-история в этой нише забирает кластер
+  «german techno / edm / rave», а не «history».
+  — feralclo: только «german techno» (поз. 1 в своей выборке, 4 визита).
+  — RBMA East Germany: german electronic music (10), german electronic
+  band (7). Нового, чего не дали стадии 2–4, майнинг не принёс.
+- **Не проверено:** страны кроме US (у krautrock 2/3 спроса вне US);
+  matching по «berlin techno», «kosmische», «neue deutsche welle», «love
+  parade», «history of techno» — всплыли в related/SERP, но не расширены;
+  SERP «german edm» и «famous german djs»; объём фраз «history of german
+  electronic music» / «german electronic music history» (в matching-выдаче
+  их нет вовсе, т.е. <10). Production-интент в теме не встретился.
+  Owner's standing: немецкая сцена не breakbeat/jungle — вопрос §5 не задан.
+- Ahrefs: 15 вызовов (organic-keywords ×4, matching-terms ×4, related-terms
+  ×2, serp-overview ×5), ~6 000 units.
+
+---
+
+## Клубы Берлина (Berlin clubs)
+- Дата: 2026-09-10. Стадии: 1–5 из 6 (страна — только US). Стадия 6
+  (Validation) не пройдена. Идея владельца: «статья про все клубы Берлина».
+- **1. Сиды.** thecatrave.com не ранжируется ни по чему с «berlin» (проверено
+  в записи «История немецкой электронной музыки» выше, тот же день).
+- **2. Matching terms.** «berlin clubs» (terms, ≥50 gv, топ-40): berlin clubs
+  600 US / 6 100 global, clubs berlin 70/6 900, clubs in berlin 250/2 600,
+  **best clubs in berlin 250/1 600**, berlin techno clubs 200/1 200, techno
+  clubs berlin 60/1 200, best clubs berlin 100/800, berlin night clubs
+  150/700, best techno clubs in berlin 150/350, top clubs in berlin 100/250,
+  famous clubs in berlin 40/200, berlin underground clubs 40/200. Спрос в
+  основном вне US (US ≈ 10% global). Коллизии: секс/свингер/стрип/fkk/kinky
+  клубы ~3 800 gv суммарно, футбольные клубы ~1 150, гей-клубы ~1 500
+  (слушательский спрос, но отдельный угол), jazz 250, cannabis clubs 150;
+  немецкоязычное «clubs berlin heute» 350, «beste clubs berlin» 300 (сегодня
+  = афиша). Производственного интента нет.
+  — «berlin techno» (terms, ≥50 gv): techno club berlin 50/2 600, berlin
+  techno 200/2 000, techno berlin 100/1 700, berlin techno club 150/1 500,
+  berlin techno events 450 gv и techno party berlin 400 gv (афиша), berlin
+  techno outfit 350 + fashion 200 (одежда — коллизия), berlin techno club
+  crowd 90/300 + interior/exterior (картинки), berlin techno scene 30/150,
+  «techno ballet berlin» 300+300 (спектакль — коллизия).
+- **3. Related terms** (also_rank_for, top_100): berghain 23 000 / 198 000
+  (навигационный бренд), berlin nightlife **1 700 / 5 200**, остальное — шум
+  тревел-доменов (seatguru, lonelyplanet, tripadvisor): топ выдачи — тревел-
+  сайты. also_talk_about не снимался.
+- **4. SERP и PAA** (US).
+  — «berlin clubs» (600): **local pack** (Berghain, Maxxim, Matrix), visitberlin
+  (1 906 RD), Reddit r/Techno, **RA guide «Best Clubs in Berlin 2026» (DR87,
+  13 RD, 354 визита)**, Tripadvisor, Wikipedia Berghain (265 RD), berlin.de
+  «Clubs A to Z», Lonely Planet «23 of Berlin's best clubs». Слотов под
+  статью: 2–3 (RA, Lonely Planet, частично visitberlin), все у сильных
+  тревел/медиа-доменов. PAA: What are the most famous clubs in Berlin? / What
+  is the famous club in Berlin? / Why is Berghain so hard to get into? / Is
+  Berlin good for clubbing?
+  — «best techno clubs in berlin» (150): Reddit (215 визитов), RA (13 RD),
+  Yelp, **top10berlin (DR54, 3 RD)**, visitberlin/en (9 RD), **lingoda блог
+  (DR71, 4 RD, поз. 9)**, TikTok. Статей-списков ~4, слабейшие 3–4 RD. PAA
+  есть, тексты вопросов Ahrefs не вернул.
+  — «berlin techno clubs» (200): PAA (SMH «пытался попасть в Berghain», KLM
+  про Berghain), Reddit, RA, Wikipedia Berghain, visitberlin, Yelp,
+  top10berlin (3 RD), tresorberlin.com.
+  — «berlin techno» (200, историко-сценовый угол): Reddit «Is Berlin techno
+  an actual sub genre», Spotify, RA events, **BBC Travel «UNESCO status» (42
+  RD, поз. 6)**, **enharmonicmagazine (DR7, 0 RD, поз. 7)**, Yelp, **medium
+  (1 RD)**, safestay (1 RD). Редакционных ~4, слабейшие 0–1 RD. PAA: What is
+  the famous techno club in Berlin? / What is German techno music called? /
+  Are there any techno raves happening in Berlin in 2026? / What is a famous
+  German techno song?
+- **5. Competitor mining** (exact URL, US).
+  — RA clubs-in-berlin: berlin nightlife 1 800 (поз. 13), berlin clubs 600
+  (6), berlin club 400 (10), berlin nightclub 300 (9), berlin germany
+  nightlife 250 (1), best clubs in berlin 250 (4) + ~20 вариантов. **Новое,
+  чего не дала стадия 2:** «berlin nightlife» 1 800, «berlin club» 400,
+  «berlin nightclub» 300 — страница-гайд по клубам кормится запросами
+  про ночную жизнь.
+  — BBC Travel UNESCO: berlin techno 200, berlin techno club 100, techno
+  berlin 90, berlin rave scene 30, techno capital of the world 20, berlin
+  techno scene 20 — историко-культурный угол забирает «berlin techno».
+- **Наблюдения без оценки:** «все клубы» в выдаче — это справочники
+  (berlin.de A–Z, visitberlin, Tripadvisor, Yelp, local pack) и тревел-
+  гайды с годом в заголовке (RA «2026»): листинговый интент со сроком
+  годности. Историко-сценовый угол («berlin techno») — другая выдача, с
+  редакционными слотами на 0–1 RD. Две разные страницы, не одна.
+- **Не проверено:** страны кроме US (90% спроса вне US — прежде всего DE и
+  UK); SERP «berlin nightlife» и «best clubs in berlin»; also_talk_about;
+  mining Lonely Planet (URL не вернулся) и visitberlin; тексты PAA по «best
+  techno clubs in berlin». Owner's standing по Берлину — вопрос §5 не задан.
+- Ahrefs: 9 вызовов (matching-terms ×2, related-terms ×1, serp-overview ×4,
+  organic-keywords ×2), ~3 750 units.
+- **6. Validation** (2026-09-10, отдельный агент, без новых данных):
+  **писать уже.** «Все клубы Берлина» не писать: справочники, local pack,
+  тревел-гиганты, RA-гид с годом в заголовке; рядом с RA наша страница была
+  бы «похожей, но хуже осведомлённой». Писать берлинский техно как сцену и
+  историю, клубы (Tresor, E-Werk, Ostgut/Berghain) — как институции этой
+  истории. Главная фраза «berlin techno» (200/2 000; ~4 редакционных слота,
+  слабейшие 0–1 RD); вторичные: berlin techno scene, famous clubs in berlin,
+  berlin techno club. Перед написанием нужно: SERP «berlin nightlife»
+  (главный пробел), UK/DE-выдача «berlin techno» и «berlin clubs», подытоги
+  по классам для кластера «berlin techno», история объёма (всплеск от
+  новости про UNESCO?), счёт берлинских сетов в каталоге и решение о
+  слиянии с досье «История немецкой электронной музыки» (Wikipedia German
+  electronic music уже забирает german/berlin techno — риск каннибализации).
+  Пересмотр: широкий гид — если в «berlin nightlife» или UK-выдаче есть
+  редакционные слоты <20 RD; отказ — если в UK/DE «berlin techno» занята
+  так же плотно, как «berlin clubs» в US.
+- **Закрытие пробелов после стадии 6** (2026-09-10, тот же день).
+  — **Спрос по странам.** berlin clubs: DE 2 800, UK 700, US 600, NL 150,
+  AT 150, AU 100. berlin techno: DE 450, US 200, UK 100, PL 100, FR 100,
+  ES 80.
+  — **История объёма «berlin techno» (US, 2022–2026).** Рос с ~130 (начало
+  2022) до ~250 в 2023–2024. Пик 371 в марте 2024 (новость об UNESCO),
+  в апреле уже 273. Спад до ~150–175 в 2025, сейчас 200–235. Всплеск от
+  новости был разовым, базовый спрос стабилен около 200.
+  — **Подытоги кластера «berlin techno»** (global, из matching-выдачи
+  выше). Информационный (сцена/история): berlin techno 2 000 + techno
+  berlin 1 700 + berlin techno scene 150 = **~3 850**. Поиск клуба
+  (листинг): techno club berlin, berlin techno club(s), best techno clubs…
+  и перестановки, включая фр. «boite techno berlin» = **~9 200**. Афиша
+  (events/party/heute/festival/parade) **~1 800**. Коллизии (outfit/fashion,
+  techno ballet ×2, crowd/interior/exterior — картинки) **~1 850**.
+  Производственного интента нет.
+  — **SERP «berlin nightlife»** (US, 1 700): local pack (Berghain, Maxxim,
+  House of Weekend), Reddit r/askberliners (1 RD, 283 визита), visitberlin
+  (166 RD), Tripadvisor (5 RD), **meininger-hotels блог (DR67, 3 RD, поз.
+  7)**, **berlin.de «Berlin Club Culture» (35 RD, поз. 8)**, **seekingneverland
+  (DR12, 2 RD, поз. 9)**. Тревел-интент (есть, пить, куда пойти), но слоты
+  под текст есть, слабейшие 2–3 RD. PAA: Does Berlin have good nightlife? /
+  What happens in KitKatClub Berlin? / What are the unspoken rules of Berlin
+  clubs? / Why is Berghain so famous?
+  — **SERP «berlin clubs» (UK):** та же форма, что в US: local pack,
+  visitberlin (9 RD), RA-гид (13 RD), Tripadvisor UK (0 RD), Wikipedia
+  Berghain, Reddit, berlin.de A–Z (0 RD), **tv-turm.de (DR67, 1 RD)**,
+  **questoapp (DR63, 2 RD, «2026»)**. Слабейшие 0–2 RD, но все — списки
+  с годом. PAA: What are the most famous clubs in Berlin? / What is the
+  most famous nightclub in Berlin? / Is Berlin good for clubbing? / What
+  happens at KitKatClub Berlin?
+  — **SERP «berlin techno» (UK):** Spotify, Reddit, RA events, BBC Travel
+  (42 RD), Eventbrite (1 RD), UNESCO ICH «Techno-Walk» (39 RD),
+  tresorberlin.com. Слабых эссе из US-выдачи (enharmonic, medium) в UK нет.
+  Редакционных 1–2, и те сильные. PAA: What is the famous techno club in
+  Berlin? / Who are the top techno artists in Berlin? / Is Berlin the
+  capital of techno?
+  — **SERP «berlin techno» (DE, 450):** RA events (de), top10berlin (3 RD),
+  Reddit, unesco.de «Technokultur in Berlin» (94 RD), VOID Club, eventim,
+  safestay/de (0 RD). Выдача немецкоязычная и афишная: для английской
+  страницы это спрос на чужом языке (§3).
+  — **Каталог.** Поля площадки в `selector-data.json` нет (есть id, artist,
+  broadcaster, year, seconds, views, likes, genres). Посчитать сеты по
+  клубам (Berghain, Tresor…) из него нельзя. Зато broadcaster «HÖR» дал
+  **9 708 из 62 877 сетов (15%)**. HÖR — берлинская стрим-студия (проверить
+  по источнику перед цитированием). Это цифра для статьи о берлинской
+  сцене, не довод писать её.
+  — **Слияние с «Историей немецкой электронной музыки»** — не решено. Это
+  решение владельца, данных для него хватает: обе темы тянут одну и ту же
+  выдачу «german/berlin techno», которую держит Wikipedia German electronic
+  music.
+- Ahrefs (закрытие пробелов): 7 вызовов (serp-overview ×4, volume-history
+  ×1, volume-by-country ×2), ~1 230 units.
+- **Цель владельца (2026-09-10):** в первую очередь трафик людей, которые
+  ищут лучшие и легендарные клубы Берлина. Угол задал владелец, не
+  валидатор; дальше ресерч под эту цель.
+  — **Matching** (berlin club/clubs/nightclub/nightclubs, фильтр best/famous/
+  top/legendary/iconic/history/oldest/most, ≥20 gv), global.
+  **«Лучшие» ~5 360**: best clubs in berlin 1 600 (US 250), best clubs
+  berlin 800, best club in berlin 350, best berlin clubs 350, best techno
+  clubs in berlin 350, best nightclubs in berlin 300, top clubs in berlin
+  250, berlin best clubs 250, best techno clubs berlin 250 и хвост.
+  **«Знаменитые» ~3 770**: berlin famous club 600, famous club in berlin
+  500, famous berlin club 450 (US 150), famous nightclub in berlin 300,
+  famous berlin nightclub 300, most famous club in berlin 200, famous clubs
+  in berlin 200, most exclusive club in berlin 80… Parent topic почти у
+  всех «знаменитых» — **Berghain**: люди ищут ответ «Berghain».
+  «legendary/iconic/history/oldest» — ни одной строки ≥20; «legendary berlin
+  clubs» 0. Слово «легендарные» годится для заголовка, не как ключ.
+  Вне цели: немецкоязычные (beste/besten clubs…) ~880, гей-клубы ~250.
+  — **Overview вопросов** (US/global): **how to get into berghain 600/1 800**,
+  **what is berghain 400/800**, berlin club dress code 40/150, berlin club
+  culture 20/100, berghain door policy 20/60, berghain rules 10/60, why is
+  berghain so famous 10/40, berlin club rules 0.
+  — **SERP «best clubs in berlin» (UK):** Reddit (door policy, 177 визитов),
+  RA (13 RD), visitberlin nightlife (166 RD), Tripadvisor UK (0 RD),
+  **tv-turm.de (1 RD, поз. 7)**, **funktionevents stag-do (DR38, 0 RD,
+  поз. 8)**, Time Out nightlife (5 RD), Instagram. PAA: What is the hottest
+  club in Berlin? / What is the most famous nightclub in Berlin? / Is
+  Berghain hard to get into? / Where are the best clubs in Berlin?
+  — **SERP «famous clubs in berlin» (US):** Reddit, Wikipedia Berghain,
+  visitberlin (9 RD), **questoapp (2 RD, поз. 7)**, RA, Tripadvisor (2 RD),
+  tv-turm (1 RD). PAA: What is the most famous club in Berlin? / What is the
+  most popular nightclub in Berlin? / Why is Berghain so famous? / Is
+  Berghain actually hard to get into?
+  — **SERP «famous berlin club» (US):** Wikipedia Berghain, berghain.berlin,
+  RA, visitberlin, Time Out «17 best clubs 2025» (1 866 RD на домене-странице,
+  поз. 9), questoapp (2 RD, поз. 10). PAA добавил: How much is entry to
+  Berghain?
+  — **Mining questoapp** («5 Berlin nightlife legends», DR63, 2 RD): 22
+  запроса на поз. 6–12 по всему кластеру — best clubs in berlin (8), clubs
+  in berlin (8), berlin night clubs (7), famous berlin club (10), top clubs
+  in berlin (9), best nightclubs in berlin (7), famous nightclub in berlin
+  (8), famous clubs in berlin (7)… Страница-список «легенд» с 2 RD держит
+  первую страницу почти по всему кластеру.
+  — **Наблюдения без оценки:** слабейшие редакционные страницы в «best» и
+  «famous» — 0–2 RD (tv-turm, funktionevents, questoapp), рядом RA, Time Out,
+  visitberlin, Tripadvisor. Berghain-вопросы (how to get in, what is,
+  famous why) — самый крупный информационный спрос в теме: ~2 700 global.
+- Ahrefs (под цель владельца): 6 вызовов (matching-terms ×1, serp-overview
+  ×3, organic-keywords ×1, overview ×1), ~2 220 units.
+- **6. Validation, второй проход** (2026-09-10, отдельный агент, без новых
+  данных): **писать, в форме владельца.** Гид «лучшие и знаменитые клубы
+  Берлина»: легенды + открытые сейчас + послушать. Главная фраза «best clubs
+  in berlin» (1 600 / 250 US). Первый вердикт («berlin techno» как главная)
+  **снят**: сработали оба его условия пересмотра. «berlin techno» остаётся
+  абзацем здесь и ключом для гида по немецкой истории. Потолок без ссылок —
+  поз. 6–10, как у questoapp. Отличие от RA: закрытые клубы и история, сеты
+  на странице, взгляд продюсера (последнее — только если у владельца есть
+  берлинский опыт). Форма: H1 без года, видимая дата проверки и статус
+  открыт/закрыт; первый абзац отвечает «Berghain», дальше Tresor; раздел
+  про Berghain (что это, почему знаменит, дверь); правила и дресс-код.
+  Вторичные и отклонённые фразы — в ответе валидатора, переносятся в
+  `keywords/berlin-clubs.json`. Незакрыто: US-выдача «best clubs in
+  berlin», выдача «how to get into berghain», история объёма best/famous,
+  also_talk_about, mining RA/Time Out/visitberlin, список легенд из
+  `FIGURES.md`, лицензии фото (внутри Berghain съёмка запрещена), проверка
+  HÖR, берлинский опыт владельца.
+- **Пакет перед написанием** (2026-09-10): `berlin-clubs-research.md`.
+  Внутри: SERP «best clubs in berlin» (US) и «how to get into berghain»
+  (текст берёт, слабейшие 0 RD), also_talk_about, черновик карты ключей,
+  список клубов по шести источникам FIGURES.md (адаптировано под клубы).
+  Ahrefs: 5 вызовов (serp-overview ×2, related-terms ×1, overview ×2),
+  ~1 760 units.

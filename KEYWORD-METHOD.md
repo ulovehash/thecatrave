@@ -25,12 +25,15 @@ The same applies to the Selector. Its own category does not exist: random dj
 set, dj set picker, dj set finder all return no rows. It is reached through
 topics adjacent to it, which is why the discovery guide exists.
 
-## 1. Seeds, from two places and never from memory
+## 1. Seeds, never from memory
 
-- **What already ranks.** `site-explorer-organic-keywords` for thecatrave.com,
-  and Search Console. A page at position 20 for something is a page that could
-  be at position 8.
+- **The owner's topic**, expanded through Ahrefs in §2.
 - **Competitor SERPs** for topics already nearby.
+
+The site's own rankings (`site-explorer-organic-keywords` for thecatrave.com,
+Search Console) are not pulled for each new topic; the owner asked for that
+step to be dropped. Use them when optimising an existing page, where a
+position-20 term is a page that could be at position 8.
 
 The catalogue used to be a third seed source here (set counts per genre). It
 was dropped — see the note at the end of §5. It is not a criterion for what to
