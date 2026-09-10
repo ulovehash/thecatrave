@@ -51,7 +51,7 @@ export function socialLinks({icons = false, className = icons ? 'header-socials'
 
 // Every guide links to the full list of articles from its header, so a reader
 // who lands on one guide from search can see there are others.
-const articleNavItems = [{href:'/articles', label:'Articles'}];
+const articleNavItems = [{href:'/articles', label:'Articles'}, {href:'/selector', label:'Selector', className:'selector-link'}];
 
 export function siteHeader({variant = 'article', navItems = variant === 'article' ? articleNavItems : []} = {}) {
   const classes = variant === 'article' ? 'site-header article-site-header' : 'site-header';

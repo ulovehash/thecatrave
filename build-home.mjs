@@ -28,7 +28,7 @@ replaceComponent('home-header', siteHeader({
     {href:'#music',label:'Tracks'},
     {href:'#playlists',label:'Playlists'},
     {href:'/articles',label:'Articles'},
-    {href:'/selector',label:'Selector'}
+    {href:'/selector',label:'Selector',className:'selector-link'}
   ]
 }));
 replaceComponent('now-playing', nowPlayingBanner({
