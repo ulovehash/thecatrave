@@ -49,8 +49,8 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
-  // The site's own card: this page has no subject of its own beyond the site.
-  ogImage: 'https://thecatrave.com/img/og/home.jpg',
+  // Built by scripts/build-og-cards.py from the articles' own card covers.
+  ogImage: 'https://thecatrave.com/img/og/articles.jpg',
   ogType: 'website',
   bodyClass: 'article-page articles-page',
   structuredData, articleHtml

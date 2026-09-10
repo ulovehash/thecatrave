@@ -62,8 +62,9 @@ HERO = {
     "best-boiler-room-sets": "img/boiler-room/carl-cox-1200.webp",
     "burning-man": "img/burning-man/robot-heart-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
+    "articles": None,             # its hero is a wall of the articles' own card covers
 }
-KICKER = {"home": "thecatrave.com", "tool": "Tool", "guide": "Guide"}
+KICKER = {"home": "thecatrave.com", "tool": "Tool", "guide": "Guide", "index": "thecatrave.com"}
 
 _cache = {}
 
@@ -140,6 +141,23 @@ def channel_logos():
     return paths
 
 
+def article_covers(count=9):
+    """The card images of the most recently added articles, straight from the
+    catalogue in home-articles.mjs, so the wall shows what the page lists
+    rather than one guide's photo standing in for all of them."""
+    source = open("home-articles.mjs", encoding="utf-8").read()
+    paths = [p for p in re.findall(r"\bimage:'([^']+)'", source) if os.path.exists(p)]
+    return paths[-count:]
+
+
+def cover(path, size):
+    """Crop to fill a square, the way the site's own article cards crop."""
+    image = Image.open(path).convert("RGB")
+    side = min(image.width, image.height)
+    left, top = (image.width - side) // 2, (image.height - side) // 2
+    return image.crop((left, top, left + side, top + side)).resize((size, size), Image.LANCZOS)
+
+
 def draw_panel(card, name):
     """The image is fitted to its own size inside the panel area, not letterboxed
     onto a fixed block: a wide flyer photo and a square sleeve then both sit at
@@ -157,6 +175,18 @@ def draw_panel(card, name):
             x = left + (index % cols) * (tile + gap)
             y = start_y + (index // cols) * (tile + gap)
             card.paste(Image.open(path).convert("RGB").resize((tile, tile), Image.LANCZOS), (x, y))
+        return
+    if name == "articles":
+        covers, cols, gap = article_covers(), 3, 10
+        tile = (height - (cols - 1) * gap) // cols
+        grid_w = cols * tile + (cols - 1) * gap
+        start_x = left + (width - grid_w) // 2
+        start_y = top + (height - grid_w) // 2
+        for index, path in enumerate(covers):
+            x = start_x + (index % cols) * (tile + gap)
+            y = start_y + (index // cols) * (tile + gap)
+            card.paste(cover(path, tile), (x, y))
+            draw.rectangle([x - 1, y - 1, x + tile, y + tile], outline=INK, width=1)
         return
     hero = Image.open(HERO[name]).convert("RGB")
     # contain, never cover: a 1.91:1 crop would cut the subject out of half of these
@@ -199,8 +229,13 @@ def build(page):
 
 
 def main():
+    # `python3 scripts/build-og-cards.py articles` rebuilds only that card, so
+    # adding one page does not re-save every other card in the set.
+    only = set(sys.argv[1:])
     os.makedirs(OUT_DIR, exist_ok=True)
     for page in read_manifest():
+        if only and page["name"] not in only:
+            continue
         out, kb = build(page)
         print(f"{out:<32} {W}x{H}  {kb} KB")
 
