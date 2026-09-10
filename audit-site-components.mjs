@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import { pages as manifest, guides } from './pages.mjs';
-import {homeArticlesWithReadingTimes, relatedArticles} from './home-articles.mjs';
+import {homeArticlesNewestFirst, relatedArticles} from './home-articles.mjs';
 import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
 
 // Derived from the manifest, so a new guide is held to the shared article
@@ -71,7 +71,7 @@ const expectedNowPlaying = nowPlayingBanner({
   meta:'30 tracks / DJ mix',
   href:'https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves'
 });
-const currentHomeArticles = homeArticlesWithReadingTimes();
+const currentHomeArticles = homeArticlesNewestFirst();
 const expectedHomeArticles = homeArticlesSection({items:currentHomeArticles});
 const expectedArticleHeader = siteHeader({variant:'article'});
 const expectedAuthorCard = authorCard({filled:true});

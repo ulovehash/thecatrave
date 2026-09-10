@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {homeArticlesWithReadingTimes} from './home-articles.mjs';
+import {homeArticlesNewestFirst} from './home-articles.mjs';
 import {analytics, homeArticlesSection, homeFooter, homeSelectorPromo, nowPlayingBanner, siteHeader} from './site-components.mjs';
 import {channels} from './selector-channels.mjs';
 
@@ -8,7 +8,7 @@ let page = fs.readFileSync(path, 'utf8');
 const homeStyles = fs.readFileSync('thecatrave-home.css', 'utf8').trim();
 const homeRuntime = fs.readFileSync('homepage-runtime.js', 'utf8').trim();
 
-const homeArticles = homeArticlesWithReadingTimes();
+const homeArticles = homeArticlesNewestFirst();
 
 function replaceComponent(name, html) {
   const start = `<!-- component:${name}:start -->`;

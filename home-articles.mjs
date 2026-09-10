@@ -16,7 +16,9 @@ export const homeArticleCatalog = [
     width:1024, height:1024, alt:'Illustrated dubplates representing jungle music culture'
   },
   {
-    page:'uk-electronic-music-evolution.html', tags:['uk','history','overview'], href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
+    // Off the homepage grid since 2026-09-10 (owner): nine cards left one alone
+    // on the last row of four. The oldest guide went. It stays in Read Next.
+    page:'uk-electronic-music-evolution.html', onHome:false, tags:['uk','history','overview'], href:'/uk-electronic-music-evolution', type:'Timeline', topic:'UK music',
     title:'The Evolution of UK Electronic Music',
     description:'Ten sounds that travelled from regional underground scenes into global culture.',
     image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
@@ -61,6 +63,14 @@ export const homeArticleCatalog = [
     image:'img/dnb/roni-size-320.webp',
     srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
     width:1120, height:747, alt:'Roni Size DJing under green stage light'
+  },
+  {
+    page:'best-boiler-room-sets.html', tags:['uk','house','bass','discovery'], href:'/best-boiler-room-sets', type:'List', topic:'Boiler Room',
+    title:'Best Boiler Room Sets of All Time, Ranked and Measured',
+    description:'Eighteen sets picked for what happens in them, beside the ten most-watched, counted across 8,206 Boiler Room recordings.',
+    image:'img/boiler-room/carl-cox-320.webp',
+    srcset:'img/boiler-room/carl-cox-320.webp 320w,img/boiler-room/carl-cox-1200.webp 1200w',
+    width:1200, height:800, alt:'Carl Cox DJing at Amsterdam Dance Event'
   }
 ];
 
@@ -76,6 +86,28 @@ export function homeArticlesWithReadingTimes() {
     if (!minutes) throw new Error(`Could not read the article duration from ${item.page}`);
     return {...item, readingTime:`~${minutes} min`};
   });
+}
+
+// The homepage lists articles newest first, by the datePublished each generated
+// page already declares, so a new article goes to the top without anyone
+// reordering the catalogue by hand. Same-day ties go to the entry added to the
+// catalogue later. Read Next keeps catalogue order: its tie-breaking and card
+// numbers depend on it, and they should not shift every time something is
+// published.
+export function homeArticlesNewestFirst() {
+  const published = item => {
+    if (!fs.existsSync(item.page)) return '9999-12-31';
+    const date = fs.readFileSync(item.page, 'utf8').match(/article:published_time" content="([^"]+)"/)?.[1];
+    if (!date) throw new Error(`Could not read the publication date from ${item.page}`);
+    return date;
+  };
+  // An entry with onHome:false is left off the grid only; Read Next still uses it.
+  return homeArticlesWithReadingTimes()
+    .map((item, index) => ({item, index}))
+    .filter(({item}) => item.onHome !== false)
+    .map(({item, index}) => ({item, index, date: published(item)}))
+    .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)
+    .map(entry => entry.item);
 }
 
 // Related-article cards for the in-article Read Next block. Same catalog, same card

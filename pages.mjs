@@ -20,6 +20,7 @@ export const pages = [
   { name: 'how-to-find-new-music', file: 'how-to-find-new-music.html',            path: '/how-to-find-new-music',               kind: 'guide', generator: 'build-find-new-music-article.mjs', card: { title: 'How to find new music', caption: "Ten ways to hear something new, none of them an algorithm." } },
   { name: 'uk-garage',     file: 'uk-garage-guide.html',                path: '/uk-garage-guide',              kind: 'guide', generator: 'build-uk-garage-article.mjs', card: { title: 'UK garage', caption: "London played an American record too fast and broke the beat." } },
   { name: 'drum-and-bass', file: 'drum-and-bass-guide.html',           path: '/drum-and-bass-guide',          kind: 'guide', generator: 'build-dnb-article.mjs', card: { title: 'Drum and bass', caption: "174 BPM, chopped breaks and sub-bass, from Metalheadz on." } },
+  { name: 'best-boiler-room-sets', file: 'best-boiler-room-sets.html',     path: '/best-boiler-room-sets',        kind: 'guide', generator: 'build-boiler-room-article.mjs', card: { title: 'Boiler Room', caption: "The best sets of all time, beside the most watched." } },
   { name: 'selector',      file: 'selector.html',                      path: '/selector',                     kind: 'tool',  generator: 'build-selector.mjs', card: { title: 'The Selector', caption: "Press the button, pick a random DJ set." } }
 ];
 

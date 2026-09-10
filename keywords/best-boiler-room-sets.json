@@ -1,0 +1,25 @@
+{
+  "page": "best-boiler-room-sets.html",
+  "seed": "boiler room sets",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "terms": [
+    { "term": "boiler room set", "volume": 1200 },
+    { "term": "best boiler room sets", "volume": 1100 },
+    { "term": "charli xcx boiler room", "volume": 1100 },
+    { "term": "boiler room sets", "volume": 450 },
+    { "term": "boiler room dj set", "volume": 300 },
+    { "term": "best boiler room sets of all time", "volume": 200 },
+    { "term": "top boiler room sets", "volume": 50 },
+    { "term": "most viewed boiler room set", "volume": 30 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (terms) and keywords-explorer-related-terms (also_rank_for, also_talk_about) on 'boiler room'; site-explorer-organic-keywords exact on three competitors; serp-overview and PAA on 'best boiler room sets'; September 2026. See TOPIC-DOSSIERS.md, Boiler Room",
+  "rejected": [
+    { "term": "boiler room", "volume": 44000, "why": "no article slot in the top ten: boilerroom.tv, the 2000 film, social platforms" },
+    { "term": "whats a boiler room", "volume": 500, "why": "ambiguous: the AI Overview and both editorial slots answer about HVAC boiler rooms and the financial scam" },
+    { "term": "boiler room chicago", "volume": 600, "why": "a bar of that name in Chicago, not the broadcaster" },
+    { "term": "boiler room paris", "volume": 1300, "why": "city event query, almost all outside the US" },
+    { "term": "what is a boiler room set", "volume": 400, "why": "definition intent, a separate page candidate; answering it here would cannibalise that page" },
+    { "term": "boiler room meaning", "volume": 1300, "why": "definition intent, unclaimed, a separate page candidate" },
+    { "term": "boiler room controversy", "volume": 200, "why": "reputational intent; left out by the owner, 2026-09-10" }
+  ]
+}

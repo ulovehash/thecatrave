@@ -1,0 +1,18 @@
+{
+  "page": "best-boiler-room-sets.html",
+  "seed": "best boiler room sets",
+  "source": "FIGURES.md cross-reference adapted to sets, September 2026: Boiler Room's own all-time chart (most viewed), whynow editorial top ten, Point Blank top five (search snippets only, page returned 403), this site's catalogue of 8,206 Boiler Room sets by views, likes and like rate. The Reddit consensus thread could not be read.",
+  "required_records": [
+    { "title": "Fred again..", "artist": "Fred again..", "year": 2022, "why": "most-liked Boiler Room set in the catalogue; third by views", "sources": ["boiler-room-chart", "point-blank", "catalogue-views", "catalogue-likes"], "embed_id": "c0-hvjV2A5Y" },
+    { "title": "Solomun", "artist": "Solomun", "year": 2015, "why": "most-viewed Boiler Room set; answers the PAA question", "sources": ["boiler-room-chart", "catalogue-views", "catalogue-likes"], "embed_id": "bk6Xst6euQk" },
+    { "title": "Carl Cox", "artist": "Carl Cox", "year": 2013, "why": "second most-viewed; on whynow's list", "sources": ["boiler-room-chart", "whynow", "catalogue-views", "catalogue-likes"], "embed_id": "vy-k0FopsmY" },
+    { "title": "Sama' Abdulhadi", "artist": "Sama' Abdulhadi", "year": 2018, "why": "top ten by views, on whynow's list, the career-making set", "sources": ["boiler-room-chart", "whynow", "catalogue-views", "catalogue-likes"], "embed_id": "x9VYKrtziSg" },
+    { "title": "Kaytranada", "artist": "Kaytranada", "year": 2013, "why": "fourth by views, fifth by likes", "sources": ["boiler-room-chart", "catalogue-views", "catalogue-likes"], "embed_id": "-5EQIiabJvk" },
+    { "title": "Chase & Status", "artist": "Chase & Status", "year": 2023, "why": "only drum and bass set in the top ten", "sources": ["boiler-room-chart", "catalogue-views", "catalogue-likes"], "embed_id": "Zy_JR9_Y8dE" },
+    { "title": "¥ØU$UK€ ¥UK1MAT$U", "artist": "¥ØU$UK€ ¥UK1MAT$U", "year": 2025, "why": "fifth by views, second by likes", "sources": ["boiler-room-chart", "point-blank", "catalogue-views", "catalogue-likes"], "embed_id": "T1tcUfUhR5U" },
+    { "title": "Charli xcx", "artist": "Charli xcx", "year": 2024, "why": "FAQ question with its own search demand (1,100); record RSVP count", "sources": ["point-blank", "catalogue-likes", "search"], "embed_id": "rKPBq_j4buQ" }
+  ],
+  "known_gaps": [
+    { "title": "Reddit r/electronicmusic consensus", "why": "the thread holding position 1 could not be fetched; the editorial list was not checked against it" }
+  ]
+}
