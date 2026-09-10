@@ -90,6 +90,7 @@ p,li{text-wrap:pretty}
 .article-grid img{width:100%;height:6.25rem;margin-bottom:.85rem;object-fit:cover;border-bottom:1px solid var(--ink);filter:saturate(.85) contrast(1.05)}
 .article-grid h3{font-size:clamp(1.35rem,3.5vw,1.8rem)}
 .article-grid .number{margin-bottom:.7rem;font-weight:700}
+.articles-all{margin:1.25rem 0 0;display:flex;justify-content:center}
 .article-grid .label{margin-bottom:.55rem}
 .article-grid p{max-width:33rem;margin-bottom:.6rem;font-size:.92rem;line-height:1.4}
 .article-grid b{margin-top:auto;margin-bottom:1rem;padding-top:.8rem;font:700 var(--utility) var(--mono);text-transform:uppercase}

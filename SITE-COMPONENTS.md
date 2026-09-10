@@ -14,6 +14,7 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - `faqStructuredData({items})`: FAQ schema generated from the same approved visible questions and answers.
 - `siteHeader({variant, navItems})`: homepage or article header with the wordmark, optional navigation and shared social icons.
 - `homeArticlesSection({items})`: complete homepage Articles section. Items provide URL, type, topic, title, description, image metadata and a reading-time value supplied by `home-articles.mjs`.
+- `articlesIndex({items, title})`: the full-catalogue grid on `/articles` (`articles.html`, built by `build-articles-page.mjs` from `allArticlesNewestFirst()`). Same card as the homepage and Read Next, with the catalogue `number`. A new catalogue entry appears there on the next build with no other edit. The article header (`siteHeader({variant:'article'})`), both footers, the home header and a button under the homepage grid all link to `/articles`.
 - `homeFooter()`: homepage footer.
 - `articleFooter()`: compact article footer.
 - `analytics()`: shared Google Analytics markup in `<head>`. It uses Google's standard early `async` installation so automatic page views and short visits are preserved, plus `fetchpriority="low"` so the analytics download does not outrank the LCP image.

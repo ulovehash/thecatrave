@@ -111,6 +111,12 @@ export function homeArticlesWithReadingTimes() {
 const HOME_CARDS = 8;
 
 export function homeArticlesNewestFirst() {
+  return allArticlesNewestFirst().slice(0, HOME_CARDS);
+}
+
+// Every article, newest first, for the /articles page. Each carries its
+// catalogue-position number, the same one Read Next shows.
+export function allArticlesNewestFirst() {
   const published = item => {
     if (!fs.existsSync(item.page)) return '9999-12-31';
     const date = fs.readFileSync(item.page, 'utf8').match(/article:published_time" content="([^"]+)"/)?.[1];
@@ -118,9 +124,8 @@ export function homeArticlesNewestFirst() {
     return date;
   };
   return homeArticlesWithReadingTimes()
-    .map((item, index) => ({item, index, date: published(item)}))
+    .map((item, index) => ({item:{...item, number:`A${String(index + 1).padStart(2, '0')}`}, index, date: published(item)}))
     .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)
-    .slice(0, HOME_CARDS)
     .map(entry => entry.item);
 }
 

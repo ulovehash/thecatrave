@@ -751,12 +751,15 @@
 .article-cta-solo .article-cta-copy { max-width: 900px; }
 .article-cta-solo p { max-width: 54ch; }
 .sources-section { padding-bottom: clamp(2.25rem, 4vw, 3.25rem); }
-.read-next {
+.read-next,
+.articles-index {
   width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide));
   margin: 0 auto var(--section-space);
 }
+.articles-index > h2 { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .read-next > .article-kicker { margin: 0 0 .6rem; }
-.read-next > h2 { margin: 0 0 1.5rem; font-size: clamp(2rem, 3.7vw, 2.8rem); line-height: 1.04; letter-spacing: -.04em; }
+.read-next > h2,
+.articles-index > h2 { margin: 0 0 1.5rem; font-size: clamp(2rem, 3.7vw, 2.8rem); line-height: 1.04; letter-spacing: -.04em; }
 /* The Read Next grid reuses the homepage article-card system (.article-grid in
    thecatrave-home.css): one column on mobile, two on tablet, four on wide desktop,
    shared cyan hover/focus and the compact cover-image card. */
@@ -816,7 +819,8 @@
      the last. Both come from the same number. 1.9rem restores the 1.44 ratio
      the desktop layout already has, and the same heading fits two lines. */
   .article-section h2,
-  .read-next > h2 { font-size: clamp(1.45rem, 7.9vw, 1.9rem); }
+  .read-next > h2,
+  .articles-index > h2 { font-size: clamp(1.45rem, 7.9vw, 1.9rem); }
   .article-section p { font-size: 1.04rem; line-height: 1.62; }
   .article-intro > p:first-child { font-size: 1.2rem; }
   .bass-music-page { --section-space: clamp(2.75rem, 12vw, 3.75rem); --media-space: 2rem; }

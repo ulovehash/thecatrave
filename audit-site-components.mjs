@@ -62,7 +62,7 @@ const expectedHomeHeader = siteHeader({
     {href:'#mixes',label:'Mixes'},
     {href:'#music',label:'Tracks'},
     {href:'#playlists',label:'Playlists'},
-    {href:'#articles',label:'Articles'},
+    {href:'/articles',label:'Articles'},
     {href:'/selector',label:'Selector'}
   ]
 });
