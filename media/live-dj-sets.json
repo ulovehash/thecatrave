@@ -1,0 +1,155 @@
+{
+  "page": "live-dj-sets.html",
+  "seed": "live dj sets",
+  "source": "Platforms: the grooveify list of DJ-set channels (consensus), the web search for platforms like Boiler Room, the dossier's brand volumes, and this site's catalogue of 62,877 sets from 37 channels (counts and views). Every embed checked against YouTube oEmbed title and channel on 2026-09-11; none is embedded on best-boiler-room-sets.html.",
+  "required_records": [
+    {
+      "title": "Grime Show",
+      "artist": "Rinse FM",
+      "year": 2014,
+      "why": "Rinse's most-watched upload; the pirate station that started filming",
+      "sources": [
+        "catalogue-views",
+        "wikipedia"
+      ],
+      "embed_id": "1wk3uOxQ5F4",
+      "youtube_title": "Grime Show: P Money, D Double E, Big Narstie & Jammer"
+    },
+    {
+      "title": "Floating Points",
+      "artist": "Floating Points",
+      "year": 2024,
+      "why": "played Boiler Room's lost second show in 2010; this one was kept",
+      "sources": [
+        "wikipedia",
+        "catalogue"
+      ],
+      "embed_id": "kiy05zewUpg",
+      "youtube_title": "Floating Points (5 Hour Set), Boiler Room New York"
+    },
+    {
+      "title": "Nina Kraviz",
+      "artist": "Nina Kraviz",
+      "year": 2017,
+      "why": "filmed in the container, in the station's first year",
+      "sources": [
+        "catalogue"
+      ],
+      "embed_id": "oC969p-rxfo",
+      "youtube_title": "Nina Kraviz @ The Lot Radio (March 21, 2017)"
+    },
+    {
+      "title": "Acid Arab",
+      "artist": "Acid Arab",
+      "year": 2020,
+      "why": "Kiosk Radio's most-watched set filmed in the kiosk itself",
+      "sources": [
+        "catalogue-views"
+      ],
+      "embed_id": "kumeF99xnoM",
+      "youtube_title": "Acid Arab @ Kiosk Radio 23.01.2020"
+    },
+    {
+      "title": "Black Coffee",
+      "artist": "Black Coffee",
+      "year": 2014,
+      "why": "The Lab in London, where it began",
+      "sources": [
+        "catalogue-views"
+      ],
+      "embed_id": "f0coQKqxzU0",
+      "youtube_title": "BLACK COFFEE house DJ set in The Lab LDN"
+    },
+    {
+      "title": "To Van Kao",
+      "artist": "To Van Kao",
+      "year": 2016,
+      "why": "Cercle's own upload of its first show, which is not the Eiffel Tower broadcast usually cited",
+      "sources": [
+        "catalogue",
+        "wikipedia"
+      ],
+      "embed_id": "ttFxqD8qWYg",
+      "youtube_title": "Cercle: the first show | To Van Kao in Derek's living room (Paris)"
+    },
+    {
+      "title": "Tasha",
+      "artist": "Tasha",
+      "year": 2019,
+      "why": "Keep Hush's jungle side, the closest to this site's own music",
+      "sources": [
+        "catalogue-genres"
+      ],
+      "embed_id": "zzoxXIHJcFI",
+      "youtube_title": "Tasha (All Vinyl Jungle Set) | Keep Hush Live: 1985 Music Takeover 2"
+    },
+    {
+      "title": "Streaming From Isolation",
+      "artist": "Disclosure",
+      "year": 2020,
+      "why": "Boiler Room's 2020 fundraising series; its most-watched 2020 upload",
+      "sources": [
+        "catalogue-views",
+        "boilerroom.tv"
+      ],
+      "embed_id": "QA0EdK2RjPg",
+      "youtube_title": "Disclosure | Boiler Room: Streaming From Isolation | #13"
+    },
+    {
+      "title": "Ellen Allien",
+      "artist": "Ellen Allien",
+      "year": 2020,
+      "why": "HÖR in the first weeks of lockdown",
+      "sources": [
+        "catalogue-views"
+      ],
+      "embed_id": "GG2IQguY-J0",
+      "youtube_title": "TTT X HÖR - Ellen Allien / April 4"
+    },
+    {
+      "title": "Boris Brejcha",
+      "artist": "Boris Brejcha",
+      "year": 2019,
+      "why": "Cercle's most-watched set; carries the numbers section's finding",
+      "sources": [
+        "catalogue-views"
+      ],
+      "embed_id": "vqz8c4ZP3Wg",
+      "youtube_title": "Boris Brejcha at Grand Palais in Paris, France for Cercle"
+    }
+  ],
+  "images": [
+    {
+      "file": "img/live-dj-sets/rinse-studio-900.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Khadejia_Hosting_Rinse.jpg",
+      "author": "Khadejia",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "file": "img/live-dj-sets/red-light-radio-612.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Interview_at_Red_Light_Radio_in_Amsterdam.jpg",
+      "author": "Kars Alfrink",
+      "licence": "CC BY 2.0"
+    },
+    {
+      "file": "img/live-dj-sets/the-lot-radio-1200.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Daria_Kolomiec_%E2%80%93_The_Lot_Radio_2.jpg",
+      "author": "Ohwellimhere",
+      "licence": "CC BY-SA 4.0"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Kiosk Radio photograph",
+      "why": "Commons has the Parc Royal's cast-iron bandstand, not the wooden kiosk the station broadcasts from"
+    },
+    {
+      "title": "HÖR, Cercle, Boiler Room, Keep Hush photographs",
+      "why": "no openly licensed photograph found on Commons"
+    },
+    {
+      "title": "Goethe-Institut history of DJ livestreaming",
+      "why": "goethe.de returned 403 to WebFetch and to the browser"
+    }
+  ]
+}

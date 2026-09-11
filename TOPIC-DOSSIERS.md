@@ -940,3 +940,78 @@ brostep 1 100, dnb radio 800.
   сетов условием гейта; это вычеркнуто из пакета и из промпта валидации
   (`TOPIC-RESEARCH.md`, дефект `catalogue-as-topic-criterion`). Сеты
   каталога — дополнение к готовой странице, на выбор темы не влияют.
+
+---
+
+## История платформ DJ-сетов (Boiler Room и подобные) — 2026-09-11
+
+- Тема владельца: история Boiler Room, Cercle, HÖR, NTS, Rinse, Keep Hush и
+  т. п. плюс поиск новых каналов для каталога. Стадии 1, 2, 4 частично, 3
+  частично, 5 — нечего майнить. Стадия 6 не пройдена, вердикта нет.
+  «Boiler Room» (голова, best boiler room sets, meaning) — см. записи выше,
+  не повторялось.
+- **1–2. Затравки и matching terms (US + global).** Категория как запрос
+  почти не существует: boiler room alternatives 20 gv, boiler room history
+  20, boiler room founder 20, boiler room owner 70, boiler room ownership 20.
+  «sites like boiler room», «best boiler room alternatives» — нет данных.
+  «Like boiler room» — только «movies like boiler room» (фильм, 100).
+  Бренды платформ — навигационные: nts radio 35 000, cercle 23 000 (почти
+  всё — французское слово, Cercle Brugge, математика; «cercle sets» 60,
+  «cercle music» 250, «best cercle sets» 30, «what is cercle» 10), dekmantel
+  8 000, the lot radio 4 500, hor berlin 4 000 (TP 5 700, parent «hor»;
+  «what is hor berlin» 50). Общие: dj sets 3 400 (parent «dj setup» —
+  коллизия с оборудованием), best dj sets 400 + best dj set 250 + best dj
+  sets of all time 250, live dj sets 300, dj live stream 150 (parent
+  «mixcloud live»), dj streaming 300 (parent «beatport dj»), dj streaming
+  service 150. «dj set online» 2 100 и «online dj set» 400 — коллизия, это
+  DJ-софт в браузере. Мусор: «best of … dj mix» (нигерийский mp3-спрос),
+  «dj sets download mp3» 1 800 — файлы, не наш интент.
+- **3. Related (best dj sets, top 10, all).** Почти всё — оборудование
+  (контроллеры, xdj az, standalone, pioneer). Из музыкального: boiler room
+  44 000, boiler room london 1 800, john digweed 4 300, electronic music
+  19 000 (parent «history of electronic music»).
+- **4. SERP.** «best dj sets» (US): 0 редакционных статей в топ-10. Reddit
+  ×2 (r/EDM), YouTube-плейлист, Spotify-плейлист, SoundCloud-аккаунт,
+  YouTube-компиляция, форум drownedinsound, Reddit/Instagram в news; AI
+  Overview отвечает про оборудование (digitaldjtips). Форма «форумы и
+  плейлисты» — по §4 `KEYWORD-METHOD.md` Google статью здесь не просит. PAA:
+  What are some of the best DJ sets? / What is the best DJ set to buy? /
+  What is the rule of 32 in DJing? / What are the top 5 DJs? — «boiler room
+  alternatives»: SERP в Ahrefs пустой. «dj set online»: you.dj, dj.app,
+  tribexr, beatport dj — только софт.
+- **5. Конкуренты.** Текстового гайда в топ-3 ни по одному запросу нет —
+  майнить нечего.
+- Каталог (цифры для статьи, не критерий): The Lot Radio 9 998, HÖR 9 708,
+  Kiosk 8 558, Boiler Room 8 206, Seoul Community Radio 5 894, Rinse France
+  3 054 … Cercle 178, Dekmantel 77. Всего 62 877, 37 каналов.
+- Не проверено: SERP «live dj sets», «dj live stream», «dj streaming
+  service»; другие страны; вопросные формы («where to watch dj sets»);
+  запросы про livestream-эпоху 2020 года.
+- Ahrefs: 9 вызовов (matching-terms ×3, related-terms ×1, overview ×1,
+  serp-overview ×3; doc ×3 не считаются).
+- **Решение владельца (2026-09-11).** Шаблоны ключей Boiler Room применить ко
+  всем платформам; где не найдём — писать всё равно. Расширение коллекции —
+  не сейчас. Проверка шаблонов: у других платформ спроса нет (what is cercle
+  10, what is hor berlin 50, best cercle sets 30); коллизии nts meaning
+  3 200, hor meaning. Найден вопросный кластер Boiler Room: what is a boiler
+  room 1 800 (смешанный), what is boiler room 900, what is a boiler room set
+  400, …party 400, …music 350, …techno 250, who owns boiler room 80. SERP
+  «what is boiler room» и «…party»: ни одной сторонней статьи в топ-10
+  (бренд, Wikipedia 60 RD, Reddit, Instagram). «what does nts stand for» 200 —
+  Wikipedia, acronym-сайты. Стадия 5: mneemo (история BR) — 1 ключ; dirtydisco
+  HÖR — «hoer» 900 поз. 1. Пакет: `boiler-room-platforms-research.md`.
+  Ahrefs за вторую часть: 7 вызовов (matching ×2, related ×1, serp ×3,
+  organic-keywords ×2 → итого по теме 16).
+- **Название под категорию (владелец: статья про все платформы, не про BR).**
+  Категорийные ключи: live sets 400, edm live sets 400, live dj sets 300 (TP
+  600), live dj set 250; «where to watch …» — 0. SERP «live dj sets»:
+  слушательский интент, слабые edmliveset DR3, timessquarenyc 5 RD; PAA «Where
+  can I watch live DJ sets?». Отброшены: dj sets 3 400 (магазины
+  оборудования), house music radio 1 000 (сайты станций), dj live stream 150
+  (как стримить самому), best electro radio stations 600 (SERP пуст). Скандалы
+  не включать (владелец). Ahrefs +8 (итого по теме 24).
+- **Страница собрана (2026-09-11)** — `/live-dj-sets`, генератор
+  `build-live-dj-sets-article.mjs`, пакет `live-dj-sets-research.md`, ревью
+  `live-dj-sets-editorial-review.md` (самопроверка; независимый проход ещё
+  должен быть). Все проверки зелёные, кроме чужого `audit-connections`
+  (artist-connections другой сессии). Не закоммичено, не запушено.

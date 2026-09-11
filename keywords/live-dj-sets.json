@@ -1,0 +1,32 @@
+{
+  "page": "live-dj-sets.html",
+  "seed": "live dj sets",
+  "source": "ahrefs keywords-explorer, September 2026, global volume",
+  "terms": [
+    { "term": "what is boiler room", "volume": 900 },
+    { "term": "live sets", "volume": 400 },
+    { "term": "what is a boiler room set", "volume": 400 },
+    { "term": "what is a boiler room party", "volume": 400 },
+    { "term": "live dj sets", "volume": 300 },
+    { "term": "live dj set", "volume": 250 },
+    { "term": "what does nts stand for", "volume": 200 },
+    { "term": "who owns boiler room", "volume": 80 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (terms, phrase, questions) on boiler room, dj sets, dj live stream, dj set, dj mix, the platform names, online radio and electronic radio; related-terms (also_rank_for, also_talk_about) on best dj sets, boiler room, live dj sets, dj live stream; serp-overview on best dj sets, boiler room alternatives, dj set online, what does nts stand for, what is boiler room, what is a boiler room party, dj sets, live dj sets, house music radio (GB), dj live stream; site-explorer-organic-keywords exact on mneemo, dirtydiscoradio and grooveify. September 2026. See TOPIC-DOSSIERS.md, 'История платформ DJ-сетов', and live-dj-sets-research.md",
+  "rejected": [
+    { "term": "dj sets", "volume": 3400, "why": "gear intent: Amazon, Guitar Center and Sweetwater hold the SERP" },
+    { "term": "dj set online", "volume": 2100, "why": "browser DJ software (you.dj, dj.app), not listening" },
+    { "term": "what is a boiler room", "volume": 1800, "why": "mixed: the parent topic answers about HVAC boiler rooms; covered by 'what is boiler room' instead" },
+    { "term": "boiler room meaning", "volume": 1300, "why": "the financial scam and dictionary senses dominate the SERP" },
+    { "term": "house music radio", "volume": 1000, "why": "navigational: station home pages hold the SERP" },
+    { "term": "edm live sets", "volume": 400, "why": "download sites (globaldjmix, edmliveset); this site hands out no files" },
+    { "term": "best dj sets", "volume": 400, "why": "no article in the top ten: Reddit, playlists, SoundCloud, forums" },
+    { "term": "boiler room set", "volume": 1200, "why": "taken by best-boiler-room-sets.html" },
+    { "term": "dj live stream", "volume": 150, "why": "DJs looking to stream themselves: Serato, Twitch, digitaldjtips" },
+    { "term": "nts radio", "volume": 35000, "why": "navigational, every searcher wants nts.live" },
+    { "term": "hor berlin", "volume": 4000, "why": "navigational; HÖR is named in the copy but not targeted" },
+    { "term": "the lot radio", "volume": 4500, "why": "navigational" },
+    { "term": "boiler room alternatives", "volume": 20, "why": "too small to target; the page answers it anyway" },
+    { "term": "boiler room controversy", "volume": 200, "why": "left out by the owner, 2026-09-11: a short history, no gossip" }
+  ]
+}

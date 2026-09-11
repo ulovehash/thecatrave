@@ -63,6 +63,7 @@ HERO = {
     "burning-man": "img/burning-man/robot-heart-1200.webp",
     "berlin-clubs": "img/berlin-clubs/berghain-1200.webp",
     "london-clubs": "img/london-clubs/fabric-1200.webp",
+    "live-dj-sets": "img/live-dj-sets/the-lot-radio-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

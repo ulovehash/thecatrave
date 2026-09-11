@@ -95,6 +95,14 @@ export const homeArticleCatalog = [
     image:'img/london-clubs/fabric-320.webp',
     srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
     width:1200, height:810, alt:'The entrance to fabric on Charterhouse Street, London'
+  },
+  {
+    page:'live-dj-sets.html', tags:['discovery','history','uk','jungle'], href:'/live-dj-sets', type:'Guide', topic:'Live DJ sets',
+    title:"Live DJ Sets: Where They're Filmed, From Boiler Room to HÖR",
+    description:'Pirate radio, Boiler Room, NTS, The Lot, Cercle, Kiosk and HÖR: a short history of the platforms that film DJ sets, and the numbers behind 62,877 of them.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
   }
 ];
 
