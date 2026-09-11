@@ -3,7 +3,10 @@ import { defineConfig, devices } from '@playwright/test';
 // Layout and accessibility checks against a local server that mirrors GitHub
 // Pages (extensionless routes).
 
-const PORT = 4173;
+// `npm run check` starts the server itself on a free port and passes it here,
+// so the two never race for 4173 or, worse, quietly reuse a server that is
+// publishing a different checkout of this site.
+const PORT = Number(process.env.CHECK_PORT) || 4173;
 
 export default defineConfig({
   testDir: 'tests',

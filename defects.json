@@ -283,6 +283,28 @@
         "file": "audit-site-components.mjs",
         "contains": "/<span class=\"number\">A\\d\\d<\\/span>/g"
       }
+    },
+    {
+      "id": "table-flush-against-next-paragraph",
+      "found": "2026-09-11",
+      "by": "owner",
+      "what": "The shared table wrapper .genre-table-wrap in thecatrave-article.css carried margin-top: 2.5rem and no bottom margin, so the paragraph after every articleTable() sat 0px below the table border. Measured at 0px on /best-clubs-in-berlin and /what-is-burning-man at 1440px. Every guide with a table shipped it: a figure is spaced on both sides by --media-space, a table was spaced on one.",
+      "should_have_caught": "nothing: the layout suite measured overflow, image dimensions and column counts, but no check looked at the gap between a media block and the prose after it, and a one-off 2.5rem hid the omission by looking deliberate",
+      "fix": {
+        "file": "thecatrave-article.css",
+        "contains": "A table is media: it gets the same gap under it as over it, on the shared --media-space scale, so the next paragraph never sits flush against the table border."
+      }
+    },
+    {
+      "id": "checks-reuse-a-foreign-server",
+      "found": "2026-09-11",
+      "by": "agent",
+      "what": "scripts/check.mjs hard-coded port 4173 and spawned its server with stdio ignore, and playwright.config.ts set reuseExistingServer: true on the same fixed port. A server left running from another checkout answered first, its own server died unseen with EADDRINUSE, and the link and layout layers measured the other checkout's files. Found while fixing table-flush-against-next-paragraph: Playwright reported the repaired CSS as still broken because the pages it loaded came from the main working copy, not this worktree.",
+      "should_have_caught": "nothing: every layer reported a pass or a fail as usual, and neither the port nor the directory under test was ever printed",
+      "fix": {
+        "file": "scripts/check.mjs",
+        "contains": "const PORT = Number(process.env.CHECK_PORT) || await freePort();"
+      }
     }
   ]
 }
