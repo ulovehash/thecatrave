@@ -47,6 +47,11 @@ FONTS = {
                 "https://github.com/googlefonts/spacemono/raw/main/fonts/ttf/SpaceMono-Regular.ttf"),
 }
 
+# A share card is this script's output, never a file placed by hand. A card
+# swapped in by hand survives only until the next run, which overwrites it
+# without a word: best-boiler-room-sets.jpg was a raw photograph on main until
+# 2026-09-12 (defect og-card-hand-replaced). To change a card, change HERO.
+#
 # The hero each card carries. Kept here rather than in pages.mjs because it is
 # only ever the card's business; the page picks its own in-article images.
 HERO = {

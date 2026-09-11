@@ -327,6 +327,25 @@
         "file": "unlighthouse.config.ts",
         "contains": "site: `http://localhost:${Number(process.env.CHECK_PORT) || 4173}`,"
       }
+    },
+    {
+      "id": "og-card-hand-replaced",
+      "found": "2026-09-12",
+      "by": "agent",
+      "what": "img/og/best-boiler-room-sets.jpg on main was not the script's card: it was the article's Fred again.. photograph dropped in whole, with no title, kicker or brand, while HERO in scripts/build-og-cards.py names carl-cox-1200.webp. Nothing recorded why. It was found because running the script on 2026-09-11 for the London clubs guide silently replaced it with the Carl Cox card, which is what any later run would also do: a hand-placed card lives only until the next time someone runs the script.",
+      "should_have_caught": "a written rule that share cards are the script's output, which did not exist",
+      "fix": {
+        "file": "scripts/build-og-cards.py",
+        "contains": "A share card is this script's output, never a file placed by hand"
+      }
+    },
+    {
+      "id": "articles-card-stale-after-new-guide",
+      "found": "2026-09-12",
+      "by": "agent",
+      "what": "img/og/articles.jpg on main showed the wall of covers from before the Live DJ sets guide (fb6676d): the new guide's cover was missing and the oldest cover, which should have dropped off the nine-card wall, was still there. The card is drawn from home-articles.mjs, but only when someone runs scripts/build-og-cards.py by hand, and adding a guide does not make anyone do that.",
+      "should_have_caught": "the build, which does not run the card script, so every card that depends on the catalogue goes stale the moment a guide is added",
+      "fix": null
     }
   ]
 }
