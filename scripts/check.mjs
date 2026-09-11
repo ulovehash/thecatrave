@@ -50,7 +50,7 @@ record('audit', 'audits (zero-dep)', () => sh('node', ['audit-all.mjs']));
 record('html', 'html-validate', () => sh('npx', ['html-validate', ...files]));
 record('links', 'linkinator (broken links & assets)', () => sh('npx', ['linkinator', `http://localhost:${PORT}`, '--recurse', '--skip', '^https?://(?!localhost)']));
 record('layout', 'playwright (layout, a11y)', () => sh('npx', ['playwright', 'test'], { CHECK_PORT: String(PORT) }));
-record('vitals', 'unlighthouse (perf, SEO, a11y, CWV budgets)', () => sh('npx', ['unlighthouse-ci', '--site', `http://localhost:${PORT}`, '--config-file', 'unlighthouse.config.ts']));
+record('vitals', 'unlighthouse (perf, SEO, a11y, CWV budgets)', () => sh('npx', ['unlighthouse-ci', '--site', `http://localhost:${PORT}`, '--config-file', 'unlighthouse.config.ts'], { CHECK_PORT: String(PORT) }));
 
 const only = process.argv.slice(2);
 const unknown = only.filter(id => !steps.some(step => step.id === id));
