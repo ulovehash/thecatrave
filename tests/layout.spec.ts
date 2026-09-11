@@ -36,6 +36,31 @@ for (const route of routes) {
       expect(missing).toEqual([]);
     });
 
+    // A table is media, and media is separated from the prose around it. The
+    // shared wrapper once carried a top margin only, so the paragraph after
+    // every table sat 0px below its border on every guide. Measure the real
+    // gap rather than trusting the declaration: the wrapper is full-bleed and
+    // transformed, so a margin can be there and still not show up as space.
+    test('a paragraph after a table is not flush against it', async ({ page }) => {
+      const tight = await page.evaluate(() => {
+        const out: string[] = [];
+        for (const wrap of document.querySelectorAll('.genre-table-wrap')) {
+          const next = wrap.nextElementSibling;
+          if (!next) continue;
+          const declared = parseFloat(getComputedStyle(wrap).marginBottom) || 0;
+          // The smallest --media-space any page sets (dnb at 390px) is 28px.
+          const required = Math.max(declared, 24);
+          const gap = next.getBoundingClientRect().top - wrap.getBoundingClientRect().bottom;
+          if (gap < required - 1) {
+            out.push(`${wrap.getAttribute('aria-label')}: ${Math.round(gap)}px before ` +
+              `${next.tagName.toLowerCase()}, wanted ${Math.round(required)}px`);
+          }
+        }
+        return out;
+      });
+      expect(tight).toEqual([]);
+    });
+
     test('full-bleed listening collections do not clash with their section colour', async ({ page }) => {
       const clashes = await page.evaluate(() => {
         const bg = (el: Element) => getComputedStyle(el).backgroundColor;

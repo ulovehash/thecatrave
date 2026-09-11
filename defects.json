@@ -136,7 +136,10 @@
       "by": "assistant, visual QA of best-clubs-in-berlin",
       "what": "The paragraph after every data table sits flush against its border. The shared wrapper genre-table-wrap has margin-top 2.5rem and no bottom margin, so the paragraph after every articleTable() sits 0px below the table's border. Measured on best-clubs-in-berlin and on what-is-burning-man: both 0px. Every audit and all 216 layout tests pass, because none measures the gap after a table.",
       "should_have_caught": "the adjacency checks in audit-site-components, which cover figures and players but not tables",
-      "fix": null
+      "fix": {
+        "file": "thecatrave-article.css",
+        "contains": "A table is media: it gets the same gap under it as over it, on the shared --media-space scale, so the next paragraph never sits flush against the table border."
+      }
     },
     {
       "id": "inline-script-syntax-unchecked",
@@ -301,6 +304,28 @@
       "fix": {
         "file": "TOPIC-RESEARCH.md",
         "contains": "The catalogue is not evidence about a topic"
+      }
+    },
+    {
+      "id": "checks-reuse-a-foreign-server",
+      "found": "2026-09-11",
+      "by": "agent",
+      "what": "scripts/check.mjs hard-coded port 4173 and spawned its server with stdio ignore, and playwright.config.ts set reuseExistingServer: true on the same fixed port. A server left running from another checkout answered first, its own server died unseen with EADDRINUSE, and the link and layout layers measured the other checkout's files. Found while fixing table-flush-against-next-paragraph: Playwright reported the repaired CSS as still broken because the pages it loaded came from the main working copy, not this worktree.",
+      "should_have_caught": "nothing: every layer reported a pass or a fail as usual, and neither the port nor the directory under test was ever printed",
+      "fix": {
+        "file": "scripts/check.mjs",
+        "contains": "const PORT = Number(process.env.CHECK_PORT) || await freePort();"
+      }
+    },
+    {
+      "id": "vitals-scans-hardcoded-port",
+      "found": "2026-09-11",
+      "by": "agent",
+      "what": "The fix for checks-reuse-a-foreign-server moved scripts/check.mjs to a free port and handed it to Playwright, but unlighthouse.config.ts still set site: 'http://localhost:4173', and that setting overrides the --site flag check.mjs passes. In CI nothing listened on 4173, so the vitals layer hung and the quality gate on PR #8 ran into its 20-minute timeout twice. Locally it passed, because a leftover server from the main checkout was on 4173 and got scanned instead.",
+      "should_have_caught": "running the whole gate before pushing: only the audit, html, layout and links layers were run locally, and the vitals layer, the one CI runs and the local pass skipped, was the one still reading the old port",
+      "fix": {
+        "file": "unlighthouse.config.ts",
+        "contains": "site: `http://localhost:${Number(process.env.CHECK_PORT) || 4173}`,"
       }
     }
   ]

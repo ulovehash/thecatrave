@@ -3,7 +3,11 @@
 // `unlighthouse-ci` exits non-zero if any budget is missed.
 
 export default {
-  site: 'http://localhost:4173',
+  // The site set here wins over the --site flag scripts/check.mjs passes, so it
+  // has to read the same port check.mjs chose, or Unlighthouse scans whatever
+  // answers on 4173: another checkout locally, and nothing at all in CI, where
+  // the scan hung until the job timed out.
+  site: `http://localhost:${Number(process.env.CHECK_PORT) || 4173}`,
   scanner: {
     device: 'mobile',
     throttle: true,
