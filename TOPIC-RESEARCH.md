@@ -65,6 +65,15 @@ is a keyword we would have shipped without.
 **6. Validation** — a separate pass, by the prompt below, over the filled-in
 evidence. Not by the person who gathered it.
 
+The catalogue is not evidence about a topic. How many sets it holds for a
+genre, a club or an artist says nothing about demand or winnability, and Google
+cannot see it. It is a supplement to a page once the page is being written, not
+a stage, a criterion, a differentiator or a gate. A validator that makes a set
+count a condition — "if the count comes back thin, send it back" — has used the
+catalogue as a metric, and the ruling is to be discarded on that point. The
+owner's decision, 11 September 2026, after exactly that happened on the London
+clubs verdict.
+
 ## The validation prompt
 
 > You are a search strategist with fifteen years of it, the kind who is hired to
@@ -76,9 +85,8 @@ evidence. Not by the person who gathered it.
 > long-form guides on dance music and club culture, UK genres so far but not
 > limited to them. A topic outside the UK is not a reason to drop it. Written for
 > listeners rather than producers, by a working breakbeat and jungle producer. It
-> has nine pages, one of which earns almost all its traffic. Its assets are a
-> catalogue of 62,877 recorded DJ sets that can answer questions with counts, and
-> an owner with standing in this music.
+> has nine pages, one of which earns almost all its traffic. Its asset is an
+> owner with standing in this music.
 >
 > Your job is one verdict: **write it, write something narrower, or drop it.**
 >

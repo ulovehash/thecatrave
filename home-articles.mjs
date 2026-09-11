@@ -87,6 +87,14 @@ export const homeArticleCatalog = [
     image:'img/berlin-clubs/berghain-320.webp',
     srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
     width:1200, height:800, alt:'The entrance to Berghain in Berlin'
+  },
+  {
+    page:'clubs-in-london.html', tags:['jungle','history','discovery'], href:'/clubs-in-london', type:'Guide', topic:'London clubs',
+    title:'Clubs in London: The Legends and the Best Ones Open Now',
+    description:'The London clubs that made acid house, jungle, garage and dubstep, from Heaven to the Blue Note, and the best clubs in London open now.',
+    image:'img/london-clubs/fabric-320.webp',
+    srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
+    width:1200, height:810, alt:'The entrance to fabric on Charterhouse Street, London'
   }
 ];
 
