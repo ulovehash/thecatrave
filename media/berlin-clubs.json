@@ -1,0 +1,30 @@
+{
+  "page": "best-clubs-in-berlin.html",
+  "seed": "best clubs in berlin",
+  "source": "FIGURES.md adapted from people to clubs, 10 September 2026. S1 search demand (Ahrefs overview on club names); S2 also_talk_about on 'best clubs in berlin'; S3 People Also Ask; S4 the consensus lists actually read (RA's 2026 guide, Time Out, tv-turm.de); S5 history (en/de Wikipedia for Tresor, Berghain, E-Werk, KitKatClub, Bar 25, Kater Blau, Watergate, Wilde Renate, Sisyphos; the VICE interview with Felix Denk); S6 the catalogue, which has no venue field and so cannot count sets per club. Rule: required means 3+ sources or S5 at all. Sisyphos is required by owner decision. Clubs are listed as records so the audit checks every one is named; none of them is a record, so none carries an embed of its own.",
+  "required_records": [
+    { "title": "UFO", "artist": "club, 1988-1990", "why": "the first room of Berlin house and techno (S5); no competitor list names it", "sources": ["wikipedia"], "no_embed_reason": "a club, closed 1990" },
+    { "title": "Tresor", "artist": "club, 1991-", "why": "opened March 1991; the Detroit link through Tresor Records (S1, S4 x2, S5)", "sources": ["search", "ra", "timeout", "wikipedia"], "no_embed_reason": "a club; its label's record is carried below" },
+    { "title": "Der Klang der Familie", "artist": "3 Phase featuring Dr. Motte", "year": 1992, "why": "Tresor Records' sixth release and the title of the Berlin techno oral history; the room's sound", "sources": ["wikipedia", "vice"], "embed_id": "3phase-feat-dr-motte-der-klang", "embed_note": "Dr. Motte's own SoundCloud, the original release remastered 2010; oEmbed author checked 2026-09-11" },
+    { "title": "E-Werk", "artist": "club, 1993-1997", "why": "a transformer station turned club (S5); absent from every competitor list", "sources": ["wikipedia-de", "vice"], "no_embed_reason": "a club, closed 1997" },
+    { "title": "Reichsbahnbunker", "artist": "club, 1992-1996", "why": "the bunker parties (S5, Berghain article)", "sources": ["wikipedia"], "no_embed_reason": "a club, closed 1996" },
+    { "title": "Ostgut", "artist": "club, 1998-2003", "why": "Berghain's predecessor (S5)", "sources": ["wikipedia"], "no_embed_reason": "a club, closed 2003" },
+    { "title": "Berghain", "artist": "club, 2004-", "why": "the answer to every 'famous' query (S1, S2, S3, S4 x3, S5)", "sources": ["search", "also_talk_about", "paa", "ra", "timeout", "tv-turm", "wikipedia"], "no_embed_reason": "a club that allows no recording inside" },
+    { "title": "Panorama Bar", "artist": "club, 2000-", "why": "S1 2,500, S2", "sources": ["search", "also_talk_about", "wikipedia"], "no_embed_reason": "a club" },
+    { "title": "KitKatClub", "artist": "club, 1994-", "why": "S1, S3 (PAA twice), S4 x2, S5", "sources": ["search", "paa", "timeout", "tv-turm", "wikipedia"], "no_embed_reason": "a club" },
+    { "title": "Bar 25", "artist": "club, 2003-2010", "why": "S1, S4 via Kater, S5", "sources": ["search", "wikipedia"], "no_embed_reason": "a club, closed 2010" },
+    { "title": "Kater", "artist": "club, 2014-", "why": "formerly Kater Blau (S1 6,500, S4 x3, S5)", "sources": ["search", "ra", "timeout", "tv-turm", "wikipedia-de"], "no_embed_reason": "a club" },
+    { "title": "Watergate", "artist": "club, 2002-2024", "why": "S1 5,900, S4 (Time Out on its closure), S5", "sources": ["search", "timeout", "wikipedia-de"], "no_embed_reason": "a club, closed 2024" },
+    { "title": "Club der Visionaere", "artist": "club", "why": "S1, S4 x2", "sources": ["search", "ra", "timeout"], "no_embed_reason": "a club" },
+    { "title": "Wilde Renate", "artist": "club, 2007-", "why": "S1 3,800, S4 x2; lease extended December 2025", "sources": ["search", "timeout", "tv-turm", "wikipedia-de"], "no_embed_reason": "a club" },
+    { "title": "OST", "artist": "club", "why": "S1, S4 x2", "sources": ["search", "ra", "timeout"], "no_embed_reason": "a club" },
+    { "title": "Sisyphos", "artist": "club, 2009-", "why": "owner's favourite club; S1 14,000, S4, S5. A set recorded on its floor, from Drumcode's own channel", "sources": ["owner", "search", "timeout", "wikipedia-de", "tagesspiegel", "faze"], "embed_id": "zjfPd4jNZao" },
+    { "title": "Ellen Allien", "artist": "HÖR Berlin", "why": "a Berlin set from the catalogue's largest Berlin source, on HÖR's own channel", "sources": ["catalogue"], "embed_id": "GG2IQguY-J0" }
+  ],
+  "known_gaps": [
+    { "title": "questoapp and visitberlin lists", "why": "the two remaining S4 lists; fetches failed with 429 and closed sockets three times each. A club they both name and this page omits would be an S4 gap" },
+    { "title": "Sisyphos door guidelines", "why": "linked from the club's footer by a script; not read. The page makes no claim about the Sisyphos door" },
+    { "title": "OST opening year", "why": "no source read gives one; the table says n/a" },
+    { "title": "Sisyphos as a dog-biscuit factory", "why": "de.wikipedia only; the archived hundekuchenfabrik.de page could not be fetched" }
+  ]
+}

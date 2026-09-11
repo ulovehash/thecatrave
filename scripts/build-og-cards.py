@@ -61,6 +61,7 @@ HERO = {
     "how-to-find-new-music": "img/NOW-1024.webp",
     "best-boiler-room-sets": "img/boiler-room/carl-cox-1200.webp",
     "burning-man": "img/burning-man/robot-heart-1200.webp",
+    "berlin-clubs": "img/berlin-clubs/berghain-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

@@ -131,6 +131,14 @@
       "fix": null
     },
     {
+      "id": "table-flush-against-next-paragraph",
+      "found": "2026-09-11",
+      "by": "assistant, visual QA of best-clubs-in-berlin",
+      "what": "The paragraph after every data table sits flush against its border. The shared wrapper genre-table-wrap has margin-top 2.5rem and no bottom margin, so the paragraph after every articleTable() sits 0px below the table's border. Measured on best-clubs-in-berlin and on what-is-burning-man: both 0px. Every audit and all 216 layout tests pass, because none measures the gap after a table.",
+      "should_have_caught": "the adjacency checks in audit-site-components, which cover figures and players but not tables",
+      "fix": null
+    },
+    {
       "id": "inline-script-syntax-unchecked",
       "found": "2026-09-06",
       "by": "assistant, in the browser",

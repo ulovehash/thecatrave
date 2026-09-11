@@ -79,6 +79,14 @@ export const homeArticleCatalog = [
     image:'img/burning-man/robot-heart-320.webp',
     srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
     width:1200, height:799, alt:'The Robot Heart art car on the playa at Burning Man'
+  },
+  {
+    page:'best-clubs-in-berlin.html', tags:['techno','history','discovery'], href:'/best-clubs-in-berlin', type:'Guide', topic:'Berlin clubs',
+    title:'Best Clubs in Berlin: The Legends and the Ones Still Open',
+    description:'The rooms that made Berlin a techno city, the famous clubs that closed, and the best clubs in Berlin that are still open.',
+    image:'img/berlin-clubs/berghain-320.webp',
+    srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
+    width:1200, height:800, alt:'The entrance to Berghain in Berlin'
   }
 ];
 

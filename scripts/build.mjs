@@ -21,6 +21,7 @@ export const generators = [
   'build-find-new-music-article.mjs',
   'build-boiler-room-article.mjs',
   'build-burning-man-article.mjs',
+  'build-berlin-clubs-article.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',
