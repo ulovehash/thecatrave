@@ -131,6 +131,17 @@
       "fix": null
     },
     {
+      "id": "table-flush-against-next-paragraph",
+      "found": "2026-09-11",
+      "by": "assistant, visual QA of best-clubs-in-berlin",
+      "what": "The paragraph after every data table sits flush against its border. The shared wrapper genre-table-wrap has margin-top 2.5rem and no bottom margin, so the paragraph after every articleTable() sits 0px below the table's border. Measured on best-clubs-in-berlin and on what-is-burning-man: both 0px. Every audit and all 216 layout tests pass, because none measures the gap after a table.",
+      "should_have_caught": "the adjacency checks in audit-site-components, which cover figures and players but not tables",
+      "fix": {
+        "file": "thecatrave-article.css",
+        "contains": "A table is media: it gets the same gap under it as over it, on the shared --media-space scale, so the next paragraph never sits flush against the table border."
+      }
+    },
+    {
       "id": "inline-script-syntax-unchecked",
       "found": "2026-09-06",
       "by": "assistant, in the browser",
@@ -282,17 +293,6 @@
       "fix": {
         "file": "audit-site-components.mjs",
         "contains": "/<span class=\"number\">A\\d\\d<\\/span>/g"
-      }
-    },
-    {
-      "id": "table-flush-against-next-paragraph",
-      "found": "2026-09-11",
-      "by": "owner",
-      "what": "The shared table wrapper .genre-table-wrap in thecatrave-article.css carried margin-top: 2.5rem and no bottom margin, so the paragraph after every articleTable() sat 0px below the table border. Measured at 0px on /best-clubs-in-berlin and /what-is-burning-man at 1440px. Every guide with a table shipped it: a figure is spaced on both sides by --media-space, a table was spaced on one.",
-      "should_have_caught": "nothing: the layout suite measured overflow, image dimensions and column counts, but no check looked at the gap between a media block and the prose after it, and a one-off 2.5rem hid the omission by looking deliberate",
-      "fix": {
-        "file": "thecatrave-article.css",
-        "contains": "A table is media: it gets the same gap under it as over it, on the shared --media-space scale, so the next paragraph never sits flush against the table border."
       }
     },
     {

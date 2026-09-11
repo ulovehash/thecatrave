@@ -1,0 +1,43 @@
+{
+  "page": "best-clubs-in-berlin.html",
+  "seed": "best clubs in berlin",
+  "source": "ahrefs keywords-explorer, September 2026, global volume. Stage 6 verdict and the full trail in TOPIC-DOSSIERS.md («Клубы Берлина»); package in berlin-clubs-research.md",
+  "note": "The owner's goal: traffic from people looking for the best and famous clubs in Berlin. 'best' ~5,360 and 'famous' ~3,770 global across their variants, US only 10-15%. The 'famous' queries have Berghain as their parent topic, so the page answers 'Berghain' in its first sentence instead of chasing the brand. 'legendary', 'iconic', 'oldest' and 'history' return nothing at 20+ a month: the word is in the title, not the map. The weakest editorial pages in the best and famous SERPs hold 0-2 referring domains (questoapp, tv-turm, trip.com), and a list page with 2 RD ranks 6-12 across 22 of these queries, which is the realistic ceiling without links.",
+  "terms": [
+    { "term": "best clubs in berlin", "volume": 1600 },
+    { "term": "best berlin clubs", "volume": 350 },
+    { "term": "top clubs in berlin", "volume": 250 },
+    { "term": "famous clubs in berlin", "volume": 200 },
+    { "term": "most famous club in berlin", "volume": 200 },
+    { "term": "best techno clubs in berlin", "volume": 350 },
+    { "term": "berlin techno clubs", "volume": 1200 },
+    { "term": "berlin night clubs", "volume": 700 },
+    { "term": "berlin clubs", "volume": 6100 },
+    { "term": "how to get into berghain", "volume": 1800 },
+    { "term": "what is berghain", "volume": 800 },
+    { "term": "berghain door policy", "volume": 60 },
+    { "term": "berlin club dress code", "volume": 150 },
+    { "term": "berlin club culture", "volume": 100 },
+    { "term": "berlin nightlife", "volume": 5200 },
+    { "term": "berlin techno", "volume": 2000 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (berlin clubs, berlin techno, berlin club/clubs/nightclub/nightclubs filtered to best/famous/top/legendary/iconic/history/oldest/most, sisyphos), related-terms (also_rank_for on berlin clubs; also_talk_about on best clubs in berlin), overview on the Berghain questions and on club names, 10 September 2026",
+  "rejected": [
+    { "term": "best clubs berlin", "volume": 800, "why": "the head phrase with 'in' dropped. Written out it reads like a machine wrote it, the same call as 'garage uk'. Absent on purpose" },
+    { "term": "berghain", "volume": 198000, "why": "navigational: everyone wants berghain.berlin" },
+    { "term": "legendary berlin clubs", "volume": 0, "why": "no volume; the word is for the title only" },
+    { "term": "clubs berlin heute", "volume": 350, "why": "German-language listings intent" },
+    { "term": "beste clubs berlin", "volume": 300, "why": "German-language; ~880 across all beste/besten variants" },
+    { "term": "clubs berlin", "volume": 6900, "why": "German word order, 70 US; mostly DE listings demand" },
+    { "term": "berlin techno events", "volume": 450, "why": "listings" },
+    { "term": "berlin sex clubs", "volume": 1200, "why": "collision; ~3,800 across sex/swinger/strip/fkk/kinky" },
+    { "term": "berlin football clubs", "volume": 800, "why": "collision" },
+    { "term": "gay clubs berlin", "volume": 800, "why": "a separate angle, ~1,500 in total; not this page" },
+    { "term": "berlin techno outfit", "volume": 350, "why": "clothing" },
+    { "term": "techno ballet berlin", "volume": 300, "why": "a stage show" },
+    { "term": "berlin techno club crowd", "volume": 300, "why": "image intent, as are interior and exterior" },
+    { "term": "kitkat club", "volume": 23000, "why": "collision with the Cabaret musical; the page uses 'KitKatClub'" },
+    { "term": "rso berlin", "volume": 22000, "why": "probably the Rundfunk-Sinfonieorchester, not the club; unverified, and RSO is not on the page" },
+    { "term": "sisyphos dress code", "volume": 600, "why": "real demand (~2,150 across dresscode/outfit variants, mostly German) but the club publishes no dress code we could read; the page covers the Berlin club dress code instead" }
+  ]
+}

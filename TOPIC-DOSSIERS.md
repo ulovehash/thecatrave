@@ -775,3 +775,9 @@ brostep 1 100, dnb radio 800.
   список клубов по шести источникам FIGURES.md (адаптировано под клубы).
   Ahrefs: 5 вызовов (serp-overview ×2, related-terms ×1, overview ×2),
   ~1 760 units.
+- **Свёрстано** (2026-09-11): `best-clubs-in-berlin.html` из
+  `berlin-clubs-draft.md` генератором `build-berlin-clubs-article.mjs`;
+  карта `keywords/berlin-clubs.json` (16 фраз), `media/berlin-clubs.json`
+  (17 обязательных клубов/записей), ревью `berlin-clubs-editorial-review.md`.
+  Голос владельца — только в «двери» и Sisyphos. Опубликовано по команде
+  владельца 2026-09-11, формулировки как в черновике.
