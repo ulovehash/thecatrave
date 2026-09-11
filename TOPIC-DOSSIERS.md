@@ -781,3 +781,162 @@ brostep 1 100, dnb radio 800.
   (17 обязательных клубов/записей), ревью `berlin-clubs-editorial-review.md`.
   Голос владельца — только в «двери» и Sisyphos. Опубликовано по команде
   владельца 2026-09-11, формулировки как в черновике.
+
+## Клубы Лондона (London clubs) — 2026-09-11
+
+- **Стадии 2–6 пройдены** (Ahrefs, страна GB + global); стадия 6 — отдельным
+  проходом, не тем, кто собирал. Пакет — `london-clubs-research.md`. Канон клубов по
+  `FIGURES.md` не начат.
+- **1. Главное.** Национальная рамка не существует как спрос.
+  best clubs in the uk 30, clubbing in the uk 10, uk club culture 10,
+  uk superclubs 0, nightclubs closing uk 0, uk nightlife 100,
+  best cities for nightlife uk 90.
+- **2. Matching terms.** Семейство `uk clubs / uk club / uk nightclub /
+  british clubs`, фильтр ≥100: **120 строк, ни одной про ночную жизнь** —
+  sofa club, vape club, calendar club, kennel club, гольф, вино, книжные,
+  футбольные, свингер- и стрип-клубы. «uk clubs» — коллизия целиком.
+  Спрос в Лондоне: clubs in london 3 300, **best clubs in london 2 500 /
+  3 700 global (сам себе parent topic)**, night clubs london 1 400,
+  london club 1 400, best clubs london 900, nightclub london 900,
+  night clubs in london 800, best nightclubs in london 600,
+  best club in london 600, london night clubs 600, clubs in central london
+  400, best london clubs 350, clubbing in london 350, top 10 night clubs in
+  london 250, where to go out in london 250, top clubs in london 200,
+  famous clubs in london 100. Итого **~15 000/мес GB** против ~40 у
+  национальной формулировки. Второй город: best clubs in manchester 800
+  (свой parent topic), дальше Бристоль 300, Лидс 250, Глазго 200.
+  Имена клубов тяжелее категорий: ministry of sound 7 100 / 16 000,
+  fabric london 5 900 / 9 000, hacienda manchester 3 500 / 4 300,
+  the hacienda 1 200 / 3 400, cream nightclub 30. «legendary/iconic uk
+  clubs» — ничего ≥100, как и в Берлине: слово для заголовка, не ключ.
+- **3. also_talk_about (best clubs in london).** Набор требует имён:
+  Dalston Superstore 2 900, The Carpet Shop 2 900, Home House 2 900,
+  Cirque le Soir 2 800, Brixton Jamm 1 700, Cuckoo Club 1 500, ball pit
+  9 100 (Ballie Ballerson), плюс east london 14 000, mayfair london 5 800,
+  sound system 1 800. **Это две разные аудитории в одной выдаче**:
+  bottle-service Мейфэр против музыкальных мест. Главное нерешённое
+  редакционное противоречие темы.
+- **4. SERP.** `best clubs in london`: local pack на 1, PAA на 3, дальше
+  восемь органических слотов, почти все редакционные. Слабейшие по RD:
+  collegiate-ac поз. 7 — **1 RD**, tripadvisor поз. 9 — 1 RD,
+  luxlifelondon поз. 4 — 3 RD, RA поз. 5 — 4 RD. По порогу
+  `KEYWORD-METHOD.md` §4 (<20 RD) выигрываемо, и типы страниц — статьи.
+  PAA дословно: What is the hottest club in London? / What are the top 10
+  nightclubs in London? / Which one is the best club in London? / Where is
+  the best nightlife in London?
+  `hacienda manchester`: AI Overview, Wikipedia поз. 2, дальше сайт самого
+  бренда, билеты на Hacienda Classical, Facebook, Warehouse Project.
+  Редакционных слотов два, оба без ссылок: cutlerandgross поз. 6 — **0 RD**,
+  radiox поз. 9 — 7 RD. PAA: What happened to Hacienda Manchester? / Is the
+  Hacienda still open in Manchester? / Has the Hacienda reopened? / Did
+  Oasis ever play at the Hacienda? — четыре исторических вопроса про клуб,
+  которого нет с 1997 года, и отвечает на них страница с нулём ссылок.
+  Это лучшая найденная щель под «легендарную» половину темы.
+- **5. Competitor mining** (cntraveller best-clubs-in-london, поз. 2, exact).
+  **Новое, чего не дали стадии 2–4: «clubs in london» 3 300 (поз. 1)** —
+  больше, чем «best»-голова. Плюс night clubs london 1 400 (6), london club
+  1 400 (18), nightclub london 900 (6), night clubs in london 800 (2),
+  london nightclubs 700 (6), clubs in central london 400 (7), clubbing in
+  london 350 (1), where to go out in london 250 (1). Страница под «best
+  clubs in london» на практике — страница под «clubs in london».
+- **Охват решён 2026-09-11 после измерений: Лондон.** Национальная рамка
+  снята. Манчестер (800, свой parent topic) и Haciеnda (3 500, конкурент с
+  0 RD) — отдельная вторая страница, не строки в этой; в лондонском гайде
+  Haciеnda только как сравнение в исторической секции.
+- URL и H1 писать как «clubs in London», не только «best clubs in London»:
+  стадия 5 показала, что категорийный запрос — бо́льшая половина.
+- Соседи: `uk-electronic-music-evolution` (главный риск дублирования),
+  `uk-garage-guide`, `jungle-music-guide`, `best-clubs-in-berlin`.
+- Вопрос §5 (личное standing владельца) не задан.
+- Не поднято: SERP по fabric и ministry of sound.
+- **Вердикт стадии 6 (2026-09-11): писать у́же** — исторический гайд по
+  клубам Лондона, URL и H1 под `clubs in london`, тема — комнаты, сделавшие
+  музыку; таблица открытых мест короткая, с названным критерием, а не
+  best-of на двенадцать точек. Против Condé Nast Traveller (поз. 2,
+  лондонская редакция) наша версия best-of была бы «похожей и хуже» —
+  предупреждение по `KEYWORD-METHOD.md` §5 — плюс постоянный долг
+  обслуживания колонки статуса, которого пакет не посчитал.
+  Топ-10: восемь органических слотов, все статьи (два журнальных листикла,
+  два институциональных гайда, две гестлист-воронки, один UGC, один
+  контент-маркетинг). Форумов и платформенной стены нет.
+- **Пробелы, названные стадией 6:** SERP по `clubs in london` не снят, хотя
+  вся рекомендация стадии 5 на него опирается; стадия 4 не завершена по
+  собственному правилу (нужны головной запрос + минимум две вопросительные
+  формы, выдачи по PAA не сняты); доля
+  кликов, доходящая до органики, не измерена; 2 500 GB против 3 700 global
+  = примерно треть спроса это приезжие, другой читатель.
+- **Условия до черновика:** снять SERP `clubs in london` и минимум две
+  вопросительные формы; канон по шести источникам `FIGURES.md` →
+  `media/london-clubs.json` до прозы; развести `uk-electronic-music-evolution` до черновика, а не после.
+- **Ранжирование:** 1) Лондон, 2) Манчестер/Haciеnda — **по процедуре, не по
+  возможности**: у Haciеnda ни одной пройденной стадии как у своей темы.
+  Стадия 6 ожидает, что Haciеnda обгонит (3 500 на неколлизионном термине,
+  четыре исторических PAA, 0 RD на поз. 6, нечего обслуживать); держит её
+  AI Overview, Википедия на 2 и только два редакционных слота. Обгонит,
+  если по вопросительным формам найдётся два+ редакционных слота слабее
+  ~10 RD и AI Overview не съедает клик.
+- **Две аудитории — решение:** сущности на странице есть, рекомендаций нет.
+  Критерий («комната здесь из-за того, что в ней играет, а не из-за столика»)
+  проговаривается в первых ста словах. Cirque le Soir, Cuckoo Club, Home
+  House, Ballie Ballerson названы один раз, одним абзацем живой прозы, как
+  «другой Лондон», с прямой фразой, что гайд не о нём. Не список из четырёх
+  названий подряд: так это подсовывание ключей с алиби, что уже закрыто
+  `WRITING.md`.
+- **Стадия 4 дозакрыта (2026-09-11).** `clubs in london` (3 300): AI Overview
+  на 1 (цитирует cntraveller, RA, londonnightguide), local pack на 2 (Carwash,
+  fabric, XOYO), PAA на 3, органика начинается **с 4-й** — всего семь слотов.
+  cntraveller 4 (600 RD), tripadvisor 5 (**1 RD**), luxlifelondon 6
+  (**3 RD**), rumbalondon — сайт одного клуба — 7, londonnightguide 8,
+  visitlondon 9, YouTube 10. **Билетных платформ нет** (Skiddle, Fatsoma,
+  DICE) — условие стадии 6, при котором Лондон падал ниже Haciеnda, не
+  сработало. RA и collegiate из этой выдачи выпали. PAA дословно: What is
+  the most popular nightclub in London? / Where's the best place to go
+  clubbing in London? / Are clubs free in London? / What are the top 10
+  nightclubs in the UK?
+  **Вопросительные формы: требование стадии 4 данными SERP не выполнимо, и
+  это само по себе вывод.** Формулировки PAA в Ahrefs пустые — это язык
+  Google, не ищущих. `terms=questions` по лондонскому семейству (≥30):
+  where was the blitz club in london 90, where is the nightlife in london
+  70, who is the biggest club in london 60, what time do clubs close in
+  london 40, where is kit kat club london 40; остальное — Club L (одежда),
+  Queen's Club (теннис), Премьер-лига. SERP у Ahrefs нет и для них. Спрос
+  на вопросы 40–90 на формулировку — отдельной выдачи, в отличие от
+  брейккора, тут нет, вся игра в головном запросе. Blitz Club (90) —
+  крупнейший вопрос в наборе и это история закрытого клуба: слабый, но
+  измеренный сигнал в сторону суженного вердикта.
+- **Канон клубов собран (2026-09-11)** — `london-clubs-canon.json` (черновик;
+  в `media/london-clubs.json` переезжает вместе со страницей, потому что
+  `audit-canon.mjs` валит карту без страницы). S4 прочитаны: RA, Time Out
+  (40, от 29.07.2026), Condé Nast (через curl), ICMP «A History of London
+  Nightclubs». Не прочитаны: visitlondon, tripadvisor (403), luxlife.
+  S5: Википедия — Acid house, Second Summer of Love, Heaven, Jungle music,
+  Dubstep, UK garage, Blitz Kids. S6 неприменим. **30 обязательных**
+  (истоки: Heaven, Shoom, Trip, Clink Street, Four Aces, Blitz, Plastic
+  People, Scala, Colosseum, Gass Club, Frog & Nightgown, Twice as Nice,
+  AWOL/Roast/Telepathy, Corsica Studios; сейчас: fabric, Ministry, The
+  Cause, FOLD, Drumsheds, Carpet Shop, Dalston Superstore, Phonox, MOT,
+  XOYO, Brixton Jamm, The Box, Colour Factory, Ormside, Night Tales, KOKO),
+  15 опциональных, остальное отклонено с причиной. **Вероятнее всего
+  ошибочно отклонены The End и Blue Note (Metalheadz)** — по одному
+  источнику (ICMP); один источник, в т.ч. опыт владельца, переводит их в
+  опциональные. **Дифференциатор:** Rage, Trip, Clink Street, Twice as
+  Nice, Sunday Scene, AWOL/Roast/Telepathy нет ни у кого в выдаче — и это
+  джангл и гэридж, музыка владельца. Проверить до печати: даты Trip
+  (конфликт 1987/1988), статус Corsica Studios (RA: закрылась 28 марта),
+  адреса Colosseum/Gass/Frog & Nightgown, где шли Twice as Nice и
+  AWOL/Roast/Telepathy; связь Rage с джанглом — только в формулировке
+  статьи Heaven.
+- **Страница собрана (2026-09-11)** — `/clubs-in-london`, генератор
+  `build-london-clubs-article.mjs`, черновик `london-clubs-draft.md`, ревью
+  `london-clubs-editorial-review.md`, канон `media/london-clubs.json` (The End
+  и Blue Note обязательны по решению владельца), ключи
+  `keywords/london-clubs.json`. Title «Clubs in London: The Legends and the
+  Best Ones Open Now». Проверка фактов исправила: Trip — конец мая 1988
+  (не 1987), The End закрылся в 2009 (не 2008), Printworks — 2023 (не 2022),
+  Drumsheds — Эдмонтон. Rage → Goldie → Metalheadz → Blue Note теперь по двум
+  статьям Википедии. Не закрыто: личный голос владельца (§5), адреса
+  Colosseum / Gass Club / Frog & Nightgown. Не запушено.
+- **Каталог — не критерий (владелец, 2026-09-11).** Стадия 6 сделала счёт
+  сетов условием гейта; это вычеркнуто из пакета и из промпта валидации
+  (`TOPIC-RESEARCH.md`, дефект `catalogue-as-topic-criterion`). Сеты
+  каталога — дополнение к готовой странице, на выбор темы не влияют.

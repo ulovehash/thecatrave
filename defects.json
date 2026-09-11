@@ -296,6 +296,17 @@
       }
     },
     {
+      "id": "catalogue-as-topic-criterion",
+      "found": "2026-09-11",
+      "by": "owner",
+      "what": "The stage 6 validation prompt in TOPIC-RESEARCH.md still named the catalogue of 62,877 sets as one of the site's two assets for judging a topic, so the validation pass on the London clubs topic made a set count a gate condition: 'count the catalogue's sets per required club and let a thin result send this back to the gate.' KEYWORD-METHOD.md had already dropped the catalogue from the differentiation question for exactly this reason, in its own words: a count says nothing about demand or winnability and Google cannot see it. The rule was written in one file and left standing in the other, so it came back the first time a validator was run.",
+      "should_have_caught": "the note in KEYWORD-METHOD.md §5 that dropped the catalogue as a criterion, which was never carried into the validation prompt it governs",
+      "fix": {
+        "file": "TOPIC-RESEARCH.md",
+        "contains": "The catalogue is not evidence about a topic"
+      }
+    },
+    {
       "id": "checks-reuse-a-foreign-server",
       "found": "2026-09-11",
       "by": "agent",

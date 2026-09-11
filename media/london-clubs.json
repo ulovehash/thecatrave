@@ -1,0 +1,534 @@
+{
+  "page": "clubs-in-london.html",
+  "seed": "clubs in london",
+  "source": "FIGURES.md adapted from people to clubs, 11 September 2026. S1 search demand: Ahrefs GB, a name counts when it is searched in its own right at GB >= 100 or global >= 500, collisions excluded. S2 also_talk_about on 'best clubs in london' and 'clubs in london'. S3 People Also Ask and the questions pull (Blitz is the only club named). S4 the consensus lists actually read: RA guide (13 clubs), Time Out 'best clubs in London' updated 29 July 2026 (40), Conde Nast Traveller (12, via curl), ICMP 'A History of London Nightclubs' (30, ranks 6 for famous clubs in london). Not read: visitlondon (403), tripadvisor (403), luxlifelondon (bot wall). S5 English Wikipedia: Acid house, Second Summer of Love, Heaven (nightclub), Jungle music, Dubstep, UK garage, Blitz Kids (New Romantics). S6 the catalogue: not applicable, it has no venue field, and by the owner's rule of 11 September 2026 it is not a criterion. The End and the Blue Note are required by owner decision (2026-09-11), the owner's standing counting as a source as it did for Sisyphos. Facts re-checked 2026-09-11 against Wikipedia: Nicky Holloway, London Astoria, Shoom, Metalheadz, The End (club), Fabric (club), Ministry of Sound, Corsica Studios, The Cause (London), Printworks (London), Fold (nightclub), Drumsheds, The Four Aces Club, Scala (club), Trash (nightclub). Rule: required means 3+ sources or S5 at all; optional 2; rejected 1 and not S5. The Wikipedia category 'Nightclubs in London' and Google's local pack were read as coverage checks and are not counted as sources.",
+  "required_records": [
+    {
+      "title": "Heaven",
+      "artist": "club, Charing Cross, 1979-",
+      "why": "opened December 1979 by Jeremy Norman; Spectrum (Oakenfold, Ian St Paul, Apr 1988-1990), Rage (Kevin Millins, Oct 1988-1993, Fabio & Grooverider), The Land of Oz, Megatripolis; also a garage room (S5). The single room that carries acid house, jungle and garage. Rage's place in jungle has a second source: the Metalheadz article says Kemistry took Goldie to Rage and it shaped him",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "timeout",
+        "cntraveller",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Shoom",
+      "artist": "club night, 1987-",
+      "why": "opened by Danny Rampling and Jenny Rampling, November 1987 (S5 Acid house)",
+      "sources": [
+        "search-global",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Trip",
+      "artist": "club night at the London Astoria, 1988",
+      "why": "Nicky Holloway at the Astoria, Charing Cross Road, from the end of May 1988 (Nicky Holloway and London Astoria articles; Acid house says June 1988); one of the first legal acid house clubs. The Shoom article's 'June 1987' is outvoted and not used",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Clink Street",
+      "artist": "club, South East London",
+      "why": "a former jail; RIP warehouse parties (S5 Acid house)",
+      "sources": [
+        "search",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "The Four Aces Club",
+      "artist": "club, Dalston",
+      "why": "Labrynth, Second Summer of Love (S5); 'home for Black music of all kinds' (ICMP)",
+      "sources": [
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Blitz",
+      "artist": "club night, Covent Garden, 1979-1980",
+      "why": "Steve Strange and Rusty Egan's Tuesday night at the Blitz wine bar, Great Queen Street; launched the New Romantics (S5). The largest question in the set",
+      "sources": [
+        "search",
+        "question",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Plastic People",
+      "artist": "club, Shoreditch, 2000-2015",
+      "why": "FWD>> from 2001, where dubstep was promoted (S5 Dubstep)",
+      "sources": [
+        "search",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club, closed"
+    },
+    {
+      "title": "Scala",
+      "artist": "club, King's Cross",
+      "why": "named among the venues 'especially associated with garage' (S5 UK garage)",
+      "sources": [
+        "search",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "The End",
+      "artist": "club, West End, 1995-2009",
+      "why": "required by owner decision. Opened 2 December 1995 by Layo Paskin and Mr C; drum and bass and breakbeat on Fridays; Roni Size in residence when he won the Mercury in 1997; home of Trash; closed 2009 with a 24-hour party (Wikipedia)",
+      "sources": [
+        "owner",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club, closed 2009"
+    },
+    {
+      "title": "Blue Note",
+      "artist": "club, Hoxton",
+      "why": "required by owner decision. Metalheadz Sunday Sessions from July 1995 'achieved legendary status at London's Blue Note club' (Wikipedia Metalheadz); Hoxton and Eddie Piller from ICMP",
+      "sources": [
+        "owner",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "The Colosseum",
+      "artist": "club",
+      "why": "garage venue (S5 UK garage). London address unverified",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "The Gass Club",
+      "artist": "club",
+      "why": "garage venue (S5 UK garage). London address unverified",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "Frog & Nightgown",
+      "artist": "venue",
+      "why": "Sunday events where the Sunday Scene began (S5 UK garage). Location unverified",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "Twice as Nice",
+      "artist": "club night",
+      "why": "dress code, later a metal detector (S5 UK garage). Venue unverified; S1 not counted, 14,000 global is a collision",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "AWOL",
+      "artist": "club night",
+      "why": "where jungle was championed (S5 Jungle music). Venue not stated in the source",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Roast",
+      "artist": "club night",
+      "why": "where jungle was championed (S5 Jungle music). Venue not stated in the source",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Telepathy",
+      "artist": "club night",
+      "why": "where jungle was championed (S5 Jungle music). Venue not stated in the source",
+      "sources": [
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club night"
+    },
+    {
+      "title": "Corsica Studios",
+      "artist": "club, Elephant and Castle, 2002-2026",
+      "why": "Funktion-One from 2007; regular jungle nights (S5 Jungle music). Closing in its current form announced September 2025 (Wikipedia); RA records the last night on 28 March. Listed as closed",
+      "sources": [
+        "search",
+        "ra",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Ministry of Sound",
+      "artist": "club, Elephant and Castle, 1991-",
+      "why": "a converted bus garage, built around its sound system (ICMP); a garage venue (S5)",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "timeout",
+        "cntraveller",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "fabric",
+      "artist": "club, Farringdon, 1999-",
+      "why": "on every consensus list read (4 of 4); a garage venue (S5)",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "ra",
+        "timeout",
+        "cntraveller",
+        "icmp",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "The Cause",
+      "artist": "club, Tottenham Hale 2018-2022, Silvertown from 2023",
+      "why": "4 of 4 lists; Stuart Glen and Eugene Wild; reopened at 60 Dock Road, Silvertown in 2023 (Wikipedia)",
+      "sources": [
+        "search",
+        "ra",
+        "timeout",
+        "cntraveller",
+        "icmp"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "FOLD",
+      "artist": "club, Canning Town, 2018-",
+      "why": "4 of 4 lists; opened 18 August 2018 with a 24-hour licence (Wikipedia)",
+      "sources": [
+        "search",
+        "ra",
+        "timeout",
+        "cntraveller",
+        "icmp"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Drumsheds",
+      "artist": "venue, Edmonton, 2023-",
+      "why": "12,000 GB, three lists; a former IKEA store, capacity 15,000 (Wikipedia)",
+      "sources": [
+        "search",
+        "timeout",
+        "cntraveller",
+        "icmp"
+      ],
+      "no_embed_reason": "a venue"
+    },
+    {
+      "title": "The Carpet Shop",
+      "artist": "club, Peckham",
+      "why": "three lists",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "ra",
+        "timeout",
+        "cntraveller"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Dalston Superstore",
+      "artist": "club, Dalston",
+      "why": "three lists",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "ra",
+        "timeout",
+        "cntraveller"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Phonox",
+      "artist": "club, Brixton",
+      "why": "three lists",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "ra",
+        "timeout",
+        "cntraveller"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "MOT",
+      "artist": "club, South Bermondsey",
+      "why": "three lists",
+      "sources": [
+        "search",
+        "ra",
+        "timeout",
+        "cntraveller"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "XOYO",
+      "artist": "club, Shoreditch, 2010-",
+      "why": "Time Out and ICMP; in the local pack of both head SERPs",
+      "sources": [
+        "search",
+        "timeout",
+        "icmp"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Brixton Jamm",
+      "artist": "club, Brixton",
+      "why": "S1, S2, Conde Nast Traveller",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "cntraveller"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "The Box",
+      "artist": "club, Soho",
+      "why": "S1, S2, Time Out. Bottle-service side: named in the 'other London' paragraph under the stage 6 ruling, not recommended",
+      "sources": [
+        "search",
+        "also_talk_about",
+        "timeout"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Colour Factory",
+      "artist": "club, Hackney Wick",
+      "why": "RA and Time Out",
+      "sources": [
+        "search",
+        "ra",
+        "timeout"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Ormside Projects",
+      "artist": "club, South Bermondsey",
+      "why": "RA and Time Out",
+      "sources": [
+        "search",
+        "ra",
+        "timeout"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "Night Tales",
+      "artist": "club, Hackney Central",
+      "why": "RA and Time Out",
+      "sources": [
+        "search",
+        "ra",
+        "timeout"
+      ],
+      "no_embed_reason": "a club"
+    },
+    {
+      "title": "KOKO",
+      "artist": "venue, Camden",
+      "why": "RA and Time Out",
+      "sources": [
+        "search",
+        "ra",
+        "timeout"
+      ],
+      "no_embed_reason": "a venue"
+    }
+  ],
+  "optional": [
+    {
+      "title": "Printworks",
+      "sources": [
+        "search",
+        "icmp"
+      ],
+      "note": "closed; ICMP gives 2017-2022"
+    },
+    {
+      "title": "Moth Club",
+      "sources": [
+        "search",
+        "timeout"
+      ]
+    },
+    {
+      "title": "Village Underground",
+      "sources": [
+        "search",
+        "timeout"
+      ]
+    },
+    {
+      "title": "Palais",
+      "sources": [
+        "search",
+        "timeout"
+      ],
+      "note": "Peckham, opened 2026"
+    },
+    {
+      "title": "Club Cheek",
+      "sources": [
+        "search",
+        "timeout"
+      ]
+    },
+    {
+      "title": "Electrowerkz",
+      "sources": [
+        "search",
+        "timeout"
+      ]
+    },
+    {
+      "title": "Notting Hill Arts Club",
+      "sources": [
+        "search",
+        "timeout"
+      ]
+    },
+    {
+      "title": "Freedom Bar",
+      "sources": [
+        "search",
+        "cntraveller"
+      ]
+    },
+    {
+      "title": "Madame Jojo's",
+      "sources": [
+        "search",
+        "icmp"
+      ]
+    },
+    {
+      "title": "Number 90",
+      "sources": [
+        "timeout",
+        "icmp"
+      ]
+    },
+    {
+      "title": "Egg London",
+      "sources": [
+        "search",
+        "also_talk_about"
+      ]
+    },
+    {
+      "title": "Cirque le Soir",
+      "sources": [
+        "search",
+        "also_talk_about"
+      ],
+      "note": "bottle service: the 'other London' paragraph"
+    },
+    {
+      "title": "Cuckoo Club",
+      "sources": [
+        "search",
+        "also_talk_about"
+      ],
+      "note": "bottle service: the 'other London' paragraph"
+    },
+    {
+      "title": "Home House",
+      "sources": [
+        "search",
+        "also_talk_about"
+      ],
+      "note": "a members' club: the 'other London' paragraph"
+    },
+    {
+      "title": "Dear Darling",
+      "sources": [
+        "search",
+        "also_talk_about"
+      ],
+      "note": "bottle service: the 'other London' paragraph"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Turnmills",
+      "why": "S1 20; in the Wikipedia category only, which is not counted"
+    },
+    {
+      "title": "Ballie Ballerson",
+      "why": "S2 only, via 'ball pit'"
+    },
+    {
+      "title": "Carwash",
+      "why": "S1 1,000 and the local pack; the pack is not a counted source"
+    },
+    {
+      "title": "Coven, Unit 58, The Glove That Fits, Om, The Social, Low Profile Studios, Avalon Cafe, HERE at Outernet, The Divine, The Waiting Room, Rae's, 93 Feet East, EartH, Hootananny, The Lion and Lamb, The Jago, The Prince of Wales",
+      "why": "Time Out only"
+    },
+    {
+      "title": "43 Club, Silver Slipper, Manhattan, Shim Sham, Astor Club, Ronnie Scott's, The Flamingo, The Marquee, The Roxy, Scandals, Crackers, Cable, The Bath House, Vauxhall Gardens",
+      "why": "ICMP only. Most are pre-DJ nightlife (1920s clubs, jazz, rock, punk) outside a page about the rooms that made the music"
+    },
+    {
+      "title": "Bagleys",
+      "why": "S1 is an estate agent collision; no other source"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "visitlondon, tripadvisor and luxlifelondon lists",
+      "why": "the unread S4 lists (403, 403, bot wall). A club they all name and this page omits would be an S4 gap"
+    },
+    {
+      "title": "Frog & Nightgown, The Colosseum, The Gass Club, Twice as Nice",
+      "why": "named in Wikipedia's UK garage article with no address; the page names them as the article does and does not place them"
+    }
+  ]
+}
