@@ -89,7 +89,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The entrance to Berghain in Berlin'
   },
   {
-    page:'clubs-in-london.html', tags:['jungle','history','discovery'], href:'/clubs-in-london', type:'Guide', topic:'London clubs',
+    page:'best-electronic-music-clubs-in-london.html', tags:['jungle','history','discovery'], href:'/best-electronic-music-clubs-in-london', type:'Guide', topic:'London clubs',
     title:'Clubs in London: The Legends and the Best Ones Open Now',
     description:'The London clubs that made acid house, jungle, garage and dubstep, from Heaven to the Blue Note, and the best clubs in London open now.',
     image:'img/london-clubs/fabric-320.webp',

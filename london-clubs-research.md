@@ -588,3 +588,21 @@ the club). Nothing is borrowed from another guide.
 
 `/jungle-music-guide`, `/drum-and-bass-guide`, `/uk-garage-guide`,
 `/dubstep-guide`, `/selector`; Read Next from `relatedArticles()`.
+
+## URL moved, 2026-09-11
+
+The page shipped at `/clubs-in-london` and was live for about an hour. The
+owner asked for an address that tells everyone the page is about the best
+electronic music clubs in London, not London nightlife in general.
+
+Measured before choosing (Ahrefs GB, 11 September 2026): `electronic music
+clubs london` 40, `electronic clubs london` 30, `best electronic clubs london`
+0, `dance music clubs london` 0, `techno clubs london` 200, `dance clubs
+london` 150 (parent topic "clubs near me"), `underground clubs london` 80. No
+"electronic" phrasing carries demand of its own, so the slug is for clarity,
+not for a keyword. It keeps "best" and "clubs in london" from the head terms
+(3,300 and 2,500), which is where the demand is.
+
+New URL: **`/best-electronic-music-clubs-in-london`**. The old address is a
+redirect stub written by the generator (instant refresh, canonical to the new
+URL, noindex). Title, H1 and copy are unchanged.

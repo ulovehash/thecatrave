@@ -935,7 +935,15 @@ brostep 1 100, dnb radio 800.
   (не 1987), The End закрылся в 2009 (не 2008), Printworks — 2023 (не 2022),
   Drumsheds — Эдмонтон. Rage → Goldie → Metalheadz → Blue Note теперь по двум
   статьям Википедии. Не закрыто: личный голос владельца (§5), адреса
-  Colosseum / Gass Club / Frog & Nightgown. Не запушено.
+  Colosseum / Gass Club / Frog & Nightgown. Запушено 2026-09-11 (`f138640`),
+  quality gate и деплой зелёные.
+- **URL перенесён (2026-09-11)** по просьбе владельца: адрес должен говорить,
+  что страница про клубы электронной музыки. Новый —
+  `/best-electronic-music-clubs-in-london`; со старого `/clubs-in-london`
+  заглушка-редирект (refresh, canonical, noindex). Проверено: «electronic
+  music clubs london» 40, «electronic clubs london» 30, «best electronic
+  clubs london» 0, «techno clubs london» 200. Своего спроса у «electronic»
+  нет, слаг ради ясности; «best» и «clubs in london» из головы сохранены.
 - **Каталог — не критерий (владелец, 2026-09-11).** Стадия 6 сделала счёт
   сетов условием гейта; это вычеркнуто из пакета и из промпта валидации
   (`TOPIC-RESEARCH.md`, дефект `catalogue-as-topic-criterion`). Сеты

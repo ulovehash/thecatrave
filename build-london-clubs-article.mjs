@@ -1,4 +1,9 @@
-// Build clubs-in-london.html from london-clubs-draft.md.
+// Build best-electronic-music-clubs-in-london.html from london-clubs-draft.md.
+//
+// The URL was /clubs-in-london for its first hour. The owner moved it on
+// 2026-09-11 so the address says what the page is: electronic music clubs,
+// not London nightlife. It keeps 'best' and 'clubs in london' from the head
+// terms. The old address is written below as a redirect stub.
 //
 // Asked for by the owner on 2026-09-11 as a guide to the UK's legendary and
 // best clubs. Measured, the national framing had no search demand (best clubs
@@ -27,7 +32,7 @@ import {
 import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('london-clubs-draft.md', 'utf8').replace(/—/g, ':');
-const canonical = 'https://thecatrave.com/clubs-in-london';
+const canonical = 'https://thecatrave.com/best-electronic-music-clubs-in-london';
 const title = 'Clubs in London: The Legends and the Best Ones Open Now';
 const description = 'Heaven, Shoom, the Blue Note and fabric: the London clubs that made acid house, jungle, garage and dubstep, and the best clubs in London open now.';
 const date = '2026-09-11';
@@ -215,7 +220,7 @@ ${sourceLink('https://www.cntraveller.com/article/best-clubs-in-london', 'Condé
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'}
     ]
   }),
-  readNext({items: relatedArticles('clubs-in-london.html')})
+  readNext({items: relatedArticles('best-electronic-music-clubs-in-london.html')})
 ].join('\n');
 
 const unused = Object.keys(media).filter(k => !used.has(k));
@@ -235,5 +240,13 @@ const html = articlePage({
   structuredData, articleHtml
 }).replace(/—/g, ':');
 
-fs.writeFileSync('clubs-in-london.html', html);
-console.log('Built clubs-in-london.html');
+fs.writeFileSync('best-electronic-music-clubs-in-london.html', html);
+console.log('Built best-electronic-music-clubs-in-london.html');
+
+// The first URL, live for about an hour on 2026-09-11 and linked from the
+// homepage, /articles, Read Next and the sitemap in that time. GitHub Pages
+// has no server redirects, so this stub sends people on and tells search
+// engines where the page lives. It is not in pages.mjs, so no audit, sitemap
+// or card treats it as a page.
+fs.writeFileSync('clubs-in-london.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved: ${title}</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="${canonical}"><meta http-equiv="refresh" content="0; url=${canonical}"></head><body><p>This page has moved to <a href="${canonical}">${canonical}</a>.</p></body></html>\n`);
+console.log('Wrote clubs-in-london.html as a redirect stub');
