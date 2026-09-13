@@ -1,0 +1,62 @@
+{
+  "page": "ultra-music-festival.html",
+  "seed": "ultra music festival music",
+  "source": "Adapted cross-reference, September 2026: Miami New Times, 'Best Ultra Music Festival Performances of All Time' (Jose D. Duran, 25 March 2026), found by web search for 'best Ultra Music Festival sets of all time'; Wikipedia (Ultra Music Festival; Ultra Europe) for the bills by year; view counts read from YouTube search data on 13 September 2026. UMF TV's own most-viewed uploads are aftermovies (Relive Ultra Miami 2012, 38 million), so the full sets come from the artists' own channels. Every player oEmbed-checked 13 September 2026. This site's catalogue (source 6 of FIGURES.md) was not used as a criterion.",
+  "required_records": [
+    {
+      "title": "Skrillex",
+      "artist": "Skrillex",
+      "year": 2015,
+      "set": "SKRILLEX LIVE @ ULTRA MUSIC FESTIVAL 2015",
+      "why": "the most-watched Ultra set found, 94.3 million views on his own channel (2026-09-13); on Miami New Times' list of Ultra's best performances",
+      "sources": ["youtube-views", "miami-new-times"],
+      "embed_id": "V2VmcuOEqEg"
+    },
+    {
+      "title": "Hardwell",
+      "artist": "Hardwell",
+      "year": 2013,
+      "set": "Hardwell live at Ultra Music Festival 2013 - FULL HD Broadcast by UMF.TV",
+      "why": "35.7 million views on his own channel (2026-09-13); on Miami New Times' list of Ultra's best performances",
+      "sources": ["youtube-views", "miami-new-times"],
+      "embed_id": "jXOgYxUf6Ts"
+    },
+    {
+      "title": "Pendulum",
+      "artist": "Pendulum / Knife Party",
+      "year": 2016,
+      "set": "Pendulum / Knife Party Headline Set Ultra, 2016",
+      "why": "closed Ultra 2016 (Miami New Times); the drum and bass evidence in the music section; 2.4 million views on Pendulum's own channel (pendulumlive, @pendulum)",
+      "sources": ["miami-new-times", "youtube-views"],
+      "embed_id": "EYMJizj3Qq8"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Swedish House Mafia, 2018 reunion",
+      "why": "the full 2018 set is only on fan channels (CREME FRENCH, 2.1 million), which are rejected; Swedish House Mafia's own channel carries their Ultra 2023 (3.8 million) and 2026 (1.8 million) sets, not 2018"
+    },
+    {
+      "title": "Martin Garrix, 2015",
+      "why": "38.8 million views on his channel, second only to Skrillex; not on the best-performances list read, so named in the text and not embedded"
+    },
+    {
+      "title": "Jack Ü closing, 2015",
+      "why": "UMF TV's most-viewed set upload (10.2 million), but a 20-minute closing segment rather than a full set; named, not embedded"
+    },
+    {
+      "title": "LTJ Bukem (1999), Andy C (2001)",
+      "why": "on the first Ultra bill and at the first Bayfront Park edition (Miami New Times); no recordings on an official channel found"
+    }
+  ],
+  "images": [
+    { "file": "img/ultra/bayfront-2014", "commons": "File:Bayfront Park, Miami, FL, USA - 2014 Ultra Music Festival.jpg", "author": "Pietro", "licence": "CC BY-SA 3.0" },
+    { "file": "img/ultra/bayfront-2013", "commons": "File:Panoramic View of Bayfront Park during the 2013 Ultra Music Festival in Miami, Florida.jpg", "author": "Robert Giordano", "licence": "CC BY-SA 3.0" },
+    { "file": "img/ultra/bicentennial-2011", "commons": "File:Ultra Music Festival 20110326.jpg", "author": "Averette", "licence": "CC BY 3.0" },
+    { "file": "img/ultra/swedish-house-mafia-2018", "commons": "File:Swedish House Mafia on Platform During ULTRA Miami 2018.jpg", "author": "HollywoodAdam78", "licence": "CC BY-SA 4.0" },
+    { "file": "img/ultra/poljud-2015", "commons": "File:Split, Ultra Europe 2015 (4).jpg", "author": "Shadster", "licence": "CC BY-SA 4.0" }
+  ],
+  "images_rejected": [
+    { "commons": "File:Ultra Music Festival year 2000.jpg and File:Ultra Music Festival -2 Year 2000.jpg", "why": "scans of the printed 2000 flyer uploaded as 'own work'; the uploader is unlikely to hold the designer's copyright, so the licence is not trusted" }
+  ]
+}

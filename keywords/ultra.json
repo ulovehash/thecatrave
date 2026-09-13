@@ -1,0 +1,38 @@
+{
+  "page": "ultra-music-festival.html",
+  "seed": "ultra music festival",
+  "source": "ahrefs keywords-explorer and site-explorer, September 2026. US volume unless 'market' says otherwise; global in TOPIC-DOSSIERS.md. Ultra Europe demand is spread across Europe, so its forms carry the market where it is largest.",
+  "terms": [
+    { "term": "ultra miami", "volume": 6900 },
+    { "term": "ultra music festival", "volume": 4300 },
+    { "term": "ultra europe", "volume": 1600 },
+    { "term": "ultra split", "volume": 900, "market": "HR (global 2,700, TP 2,300 in HR)" },
+    { "term": "ultra music festival miami", "volume": 500 },
+    { "term": "ultra festival", "volume": 500 },
+    { "term": "ultra croatia", "volume": 500 },
+    { "term": "what is ultra", "volume": 250 },
+    { "term": "ultra festival croatia", "volume": 250, "market": "GB" },
+    { "term": "ultra europe split", "volume": 200, "market": "HR" },
+    { "term": "ultra festival split", "volume": 150, "market": "DE" },
+    { "term": "where is ultra music festival", "volume": 90 },
+    { "term": "ultra music festival location", "volume": 80 },
+    { "term": "when is ultra miami", "volume": 80 },
+    { "term": "what is ultra music festival", "volume": 50 },
+    { "term": "ultra miami location", "volume": 50 }
+  ],
+  "expansion_checked": "Web search first ('what is Ultra Music Festival Miami guide history', 'Ultra Music Festival history Bayfront Park Virginia Key', 'what is Ultra Europe festival Split Croatia guide', 'best Ultra Music Festival sets of all time'); site-explorer-organic-keywords (exact) on the Ultra Music Festival and Ultra Europe Wikipedia articles, We Rave You's Ultra history, Techno Airlines' Ultra guide and Adventures n Sunsets' Ultra Europe guide; keywords-explorer-matching-terms on 'ultra music festival' (US); keywords-explorer-overview in US, DE and HR; serp-overview (US) on 'ultra music festival', 'ultra miami' and 'ultra europe'; 13 September 2026. See ultra-research.md.",
+  "rejected": [
+    { "term": "ultra", "volume": 1900, "why": "collision: the word, Ultra Records, running and a dozen products; the festival is one sense of many (HR 1,100 is the only market where it leans to the festival)" },
+    { "term": "ultra music festival 2026", "volume": 1900, "why": "dated; the official site holds it" },
+    { "term": "ultra lineup", "volume": 350, "why": "dated, changes every year" },
+    { "term": "edc miami", "volume": 350, "why": "collision: a different promoter's brand; Wikipedia's Ultra page ranks for it by accident" },
+    { "term": "ultra music festival tickets", "volume": 300, "why": "transactional; answered once, dated, in the FAQ" },
+    { "term": "miami edm festival", "volume": 300, "why": "generic; the page answers it without the phrase sitting in a sentence" },
+    { "term": "ultra music festival 2026 lineup", "volume": 300, "why": "dated" },
+    { "term": "ultra music festival miami 2026 dates", "volume": 200, "why": "dated; the page gives the March rule instead" },
+    { "term": "ultra music festival 2019", "volume": 200, "why": "dated; the Virginia Key year is covered as history without the exact phrase" },
+    { "term": "ultra music festival outfits", "volume": 100, "why": "shopping" },
+    { "term": "ultra music festival livestream", "volume": 100, "why": "dated schedule intent; the livestream is mentioned, not scheduled" },
+    { "term": "ultra music festival pl", "volume": 150, "why": "navigational junk; parent topic is the bare 'ultra'" }
+  ]
+}

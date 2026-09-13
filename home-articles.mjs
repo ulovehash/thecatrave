@@ -135,6 +135,14 @@ export const homeArticleCatalog = [
     image:'img/parookaville/mainstage-aerial-2022-320.webp',
     srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
     width:1200, height:900, alt:'The Parookaville Mainstage from the air in 2022, with the crowd in front of it and wind turbines on the horizon'
+  },
+  {
+    page:'ultra-music-festival.html', tags:['discovery','history','bass'], href:'/ultra-music-festival', type:'Guide', topic:'Ultra',
+    title:'Ultra Music Festival: Miami, Ultra Europe and the Music',
+    description:'Bayfront Park in downtown Miami every March: where Ultra happens, how a 1999 beach party grew to 165,000 people, Ultra Europe in Split, and what plays beyond the Main Stage.',
+    image:'img/ultra/bayfront-2014-320.webp',
+    srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
+    width:1200, height:900, alt:'Bayfront Park in Miami seen from above during Ultra Music Festival 2014'
   }
 ];
 

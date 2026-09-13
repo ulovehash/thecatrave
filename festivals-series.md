@@ -15,7 +15,7 @@ September 2026.
 | 2 | EDC Las Vegas | 25,000 | 20,000 | **published** `/edc-las-vegas` |
 | 3 | Creamfields | 43,000 | 1,500 | **published** `/creamfields-festival` |
 | 4 | Parookaville | 37,000 | 700 | **published** `/parookaville-festival` |
-| 5 | Ultra Music Festival (+ Ultra Europe as a section) | 12,000 + 6,600 | 4,300 | volumes only; TP 6,800 |
+| 5 | Ultra Music Festival (+ Ultra Europe as a section) | 12,000 + 6,600 | 4,300 | **published** `/ultra-music-festival` |
 | 6 | Untold | 11,000 | 700 | volumes only |
 | 7 | Defqon.1 | 11,000 | 700 | volumes only |
 | 8 | Dekmantel | 8,000 | 500 | volumes only |
@@ -36,7 +36,9 @@ order may shift then. Below 3,500 (Sonus, Sunburn, Kappa FuturFestival, Time
 Warp) not in the series unless the owner adds them.
 
 Ultra Europe is an edition of Ultra, as Winter and Thailand are of
-Tomorrowland: a section, not its own page. Owner to confirm.
+Tomorrowland: a section, not its own page. The owner confirmed this on
+13 September 2026; it is the "Ultra Europe, in Split" section of
+`/ultra-music-festival`.
 
 ## Per festival, before a structure is proposed
 
