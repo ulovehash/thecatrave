@@ -78,7 +78,7 @@ const media = {
     'The Mainstage in 2008, three years into the festival and long before it became the stage people know from the livestream. Photograph: TheWorldIsMine, CC BY-SA 2.0.'),
   '2014 Main Stage': figure('mainstage-2014', 1200, 708,
     'The Tomorrowland 2014 Mainstage, a vast themed stage set above the crowd',
-    'The Mainstage in 2014, the tenth edition. The stage is designed around each year\'s theme. Photograph: sergejf, CC BY 2.0.'),
+    'The Mainstage in 2014, the tenth edition. Photograph: sergejf, CC BY 2.0.'),
   'Brussels Airport': figure('brussels-airport-2013', 1200, 795,
     'Brussels Airport arrivals hall decorated for Tomorrowland visitors in 2013',
     'Brussels Airport dressed for Tomorrowland arrivals in 2013. Global Journey packages fly visitors in with Brussels Airlines. Photograph: Brussels Airport, CC BY-SA 2.0.'),

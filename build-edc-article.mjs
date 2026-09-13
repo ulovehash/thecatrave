@@ -12,7 +12,7 @@
 //
 // The catalogue behind the Selector holds Mixmag's 2016 Lab sets from the
 // festival, but not on the festival's or an artist's own channel, so the
-// players come from Insomniac's and Sub Focus's own YouTube channels.
+// players come from the artists' own YouTube channels.
 //
 // Media sits in the draft as [Image: ...], [Embed: ...] and [Table: ...]
 // placeholder lines, so placement is decided in the draft and only rendered
