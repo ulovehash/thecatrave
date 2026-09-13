@@ -27,6 +27,13 @@ topics adjacent to it, which is why the discovery guide exists.
 
 ## 1. Seeds, never from memory
 
+- **Start with a web search, not with Ahrefs.** Search the topic the way a
+  reader would, take the articles that come back, then run
+  `site-explorer-organic-keywords` (`mode=exact`) on each. Their rankings are
+  the seed list. Guessing phrases into Ahrefs first measures only the words
+  you typed: "breakbeat festival" returned 10 searches, while the pages about
+  those festivals rank for the festivals' names. The owner's correction,
+  13 September 2026.
 - **The owner's topic**, expanded through Ahrefs in §2.
 - **Competitor SERPs** for topics already nearby.
 

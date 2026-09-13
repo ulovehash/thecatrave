@@ -1,0 +1,32 @@
+{
+  "page": "tomorrowland-festival.html",
+  "seed": "tomorrowland",
+  "source": "ahrefs keywords-explorer, September 2026, US volume (global in TOPIC-DOSSIERS.md)",
+  "terms": [
+    { "term": "tomorrowland festival", "volume": 2100 },
+    { "term": "where is tomorrowland", "volume": 1900 },
+    { "term": "tomorrowland belgium", "volume": 1700 },
+    { "term": "tomorrowland thailand", "volume": 3500 },
+    { "term": "tomorrowland winter", "volume": 1300 },
+    { "term": "what is tomorrowland", "volume": 800 },
+    { "term": "tomorrowland location", "volume": 700 },
+    { "term": "when is tomorrowland", "volume": 500 },
+    { "term": "tomorrowland fire", "volume": 450 },
+    { "term": "tomorrowland music festival", "volume": 400 },
+    { "term": "tomorrowland usa", "volume": 400 },
+    { "term": "tomorrowland attendance", "volume": 400 },
+    { "term": "how much are tomorrowland tickets", "volume": 300 },
+    { "term": "how many people go to tomorrowland", "volume": 100 },
+    { "term": "who owns tomorrowland", "volume": 90 },
+    { "term": "tomorrowland capacity", "volume": 80 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (terms and questions) and related-terms (also_talk_about) on 'tomorrowland'; serp-overview on 'where is tomorrowland', 'tomorrowland festival', 'how many people go to tomorrowland'; site-explorer-organic-keywords on the Wikipedia article and festivawl.com; 13 September 2026. See tomorrowland-research.md and TOPIC-DOSSIERS.md.",
+  "rejected": [
+    { "term": "tomorrowland 2026", "volume": 8500, "why": "dated; the official site holds it" },
+    { "term": "tomorrowland lineup", "volume": 1300, "why": "dated, changes every year" },
+    { "term": "tomorrowland tickets", "volume": 1000, "why": "transactional; answered in one FAQ" },
+    { "term": "tomorrowland movie", "volume": 20000, "why": "collision: the 2015 film" },
+    { "term": "tomorrowland transit authority peoplemover", "volume": 13000, "why": "collision: Disney park ride" },
+    { "term": "tomorrowland live stream", "volume": 300, "why": "dated schedule intent" }
+  ]
+}

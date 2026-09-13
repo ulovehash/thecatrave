@@ -103,6 +103,14 @@ export const homeArticleCatalog = [
     image:'img/live-dj-sets/the-lot-radio-320.webp',
     srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
     width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  },
+  {
+    page:'tomorrowland-festival.html', tags:['discovery','history','bass'], href:'/tomorrowland-festival', type:'Guide', topic:'Tomorrowland',
+    title:'Tomorrowland Festival: Where It Is, How Big, and the Music',
+    description:'A park in Boom, Belgium, that most of the world knows through a livestream: where Tomorrowland happens, how big it is, who owns it, and what plays off the Mainstage.',
+    image:'img/tomorrowland/mainstage-2014-320.webp',
+    srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
+    width:1200, height:708, alt:'The Tomorrowland Mainstage in 2014'
   }
 ];
 

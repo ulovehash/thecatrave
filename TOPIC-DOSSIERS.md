@@ -312,6 +312,24 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   how much are tickets 1 400. SERP «what is tomorrowland»: официальный сайт ×3,
   Wikipedia (267 RD), Instagram, magicoftomorrowland (374 RD). Статейного
   слота практически нет.
+  Дополнено 2026-09-13 (стадии 1–5 пройдены, 6 нет). Цифры выше — global; US:
+  голова 42 000 (global 363 000), where is 1 900, what is 800, tomorrowland
+  festival 2 100 (TP 32 000), belgium 1 700, location 700, when 500, attendance
+  400, usa 400, who owns 90. Классы топ-50 matching (US, ≥150): коллизия
+  Disney-парк и фильм 2015 ~52 600, датированные/транзакционные ~27 200,
+  слушательские вечные ~10 150, навигационный мусор ~1 800, продюсерских 0.
+  SERP «tomorrowland festival»: festivawl (DR17, 0 RD, поз. 4), Pollstar,
+  Reddit, Yahoo (пожар сцены), Instagram ×2 — самая слабая выдача кластера.
+  SERP «where is»: официальные ×5, Wikipedia, Tripadvisor (2 RD, поз. 9).
+  SERP «how many people go»: Wikipedia, DJ Mag (11 RD), официальный (6 RD),
+  eventplanner (13 RD), Pollstar (3 RD). PAA: цена билета, США, почему так
+  знаменит, вместимость, крупнейший ли, vs Glastonbury, сколько платят DJ.
+  Стадия 5: Wikipedia держит 1-е место почти по всему инфокластеру, но
+  1 271 визит/мес; новое — attendance 400, capacity 80, logo 350. festivawl
+  зарабатывает только «tomorrowland festival» (91 визит). Каталог: 0 сетов.
+  Вопрос standing открыт (mainstage EDM). Структура: `tomorrowland-research.md`.
+  Ahrefs: 10 вызовов (matching ×3, related ×1, overview ×1, serp ×3,
+  organic ×2).
 - **EDC.** edc las vegas 25 000 (TP 75 000), what is edc 7 200, electric daisy
   carnival 4 400. «what is edc» — коллизия: EDC = everyday carry (ножи,
   снаряжение), фестиваль только на 6-м месте (Wikipedia). SERP «edc las vegas»
@@ -344,6 +362,57 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   43 000 (в основном UK), ultra music festival 13 000 (TP 6 800), untold
   11 000, defqon 1 11 000, dekmantel 8 000, awakenings 6 500, exit 5 500,
   sonar 3 900.
+- **Брейкбит/джангл/dnb-фестивали** (2026-09-13, GB, global в скобках).
+  breakbeat festival 0 (10), SERP пустой; jungle festival 10 (250), в основном
+  коллизии (electric jungle, urban jungle, cheese festival). drum and bass
+  festival 100 (400), drum and bass festivals 200 (300), dnb festival 70
+  (350), drum and bass festivals uk 100 (150). SERP «drum and bass festival»:
+  letitroll.eu (626 RD), MusicFestivalWizard, drumandbassuk (1 RD, 1 230
+  визитов), Skiddle «best dnb festivals 2026» (6 RD), paulrobinspromotions
+  (1 RD), Facebook, festivalfinder (1 RD). PAA: What is the biggest DnB
+  festival in the world? / Where is DnB Allstars 2026? Названия из выдачи:
+  let it roll 250 (5 200; голова многозначна), let it roll festival 100 (700),
+  dnb allstars 700 (1 200), worried about henry 900 (1 000), wah in the city
+  150. Жанровый спрос копеечный, живёт только в названиях. Ahrefs: 4 вызова
+  (matching ×1, serp ×2, overview ×1). Стадии 3, 5, 6 не пройдены.
+  Переделано по методу владельца (2026-09-13: сначала веб-поиск, потом ключи
+  найденных статей). Веб-поиск «best breakbeat festivals», «breakbeat festival
+  Europe», «best jungle and drum and bass festivals». Статьи и их видимость
+  (organic keywords, все страны): grooveist breakbeat, festnav breakbeat,
+  Beatportal «Spanish breakbeat renaissance», grooveist dnb, LoveThatBass
+  «best d&b holidays» — **ноль ключей**. Skiddle «best dnb festivals 2026» —
+  только общий dnb-кластер GB (drum and bass festival/festivals/uk по 150,
+  dnb festival 80, dnb festivals 90; ~100 визитов на всё). Wikipedia Breakfest
+  — «breakfest» (AU 250 поз. 1, CA 450, US 5 500 поз. 16 — вероятно коллизия,
+  не проверено). Названия из веб-выдачи, global (GB): monegros festival 7 800
+  (250), monegros desert festival 4 300, dreambeach 2 800, breakfest 7 100
+  (100), rampage open air 1 400, hospitality on the beach 1 000 (600), glade
+  festival 80, beat-herder 80 (TP 1 800), sunandbass 60. По вебу: Breakfest
+  (Перт, 2001–2022; и чешский Breakfest, 20 лет в 2026), Glade (UK, брейкбит
+  на главной сцене), Beat-Herder, испанские Monegros и Dreambeach с брейкбитом
+  на сценах (Beatportal). Ahrefs этого прохода: 8 вызовов (organic ×7,
+  overview ×1).
+- **Самые популярные фестивали электроники в мире** (2026-09-13, метод
+  «сначала веб»). Веб-поиск: «biggest electronic music festivals in the
+  world», «best EDM festivals in the world list», «best techno festivals in
+  the world». Видимость статей-списков (organic, все страны): thedjrevolution
+  «57 best» — ноль; ticketswap best-edm — generic (edm festivals 2026 US 2 600
+  поз. 23, best electro music festivals in europe CA 500 поз. 7, european
+  music festivals GB 300); edmhousenetwork и holafly — «biggest/largest edm
+  festival in the world» ~100 (поз. 1), по 5–15 визитов; boldlygo — 1 ключ;
+  MFW techno europe — techno festival DK/NO/SE, techno festivals europe 40;
+  ticketswap techno — techno festivals US 200 поз. 1; jonesaroundtheworld —
+  ноль. Списочный спрос копеечный, спрос живёт в названиях. Global volume
+  названий из этих списков (US в скобках): tomorrowland 363 000 (42 000;
+  голова с коллизией Disney/фильм), creamfields 43 000 (1 500), parookaville
+  37 000 (700), edc las vegas 25 000 (20 000, TP 75 000), ultra music
+  festival 12 000 (4 300), untold festival 11 000, defqon 1 11 000, dekmantel
+  8 000, amsterdam dance event 7 900, monegros festival 7 800, ultra europe
+  6 600, awakenings festival 6 500, exit festival 5 200, electric daisy
+  carnival 4 400, movement detroit 4 300 (4 000, TP 6 300), sonar festival
+  3 800, sonus festival 3 500, sunburn festival 2 800, kappa futurfestival
+  2 500, time warp festival 1 000 (голова «timewarp» не снята). Ahrefs:
+  10 вызовов (organic ×8, overview ×2).
 - Каталог: канал Dekmantel (77 сетов), Outlook Festival (12). Счётчики
   фестивальных сетов по имени — в отчёте владельцу за 2026-09-10.
 - Ahrefs: 21 вызов (related ×3, matching ×1, overview ×3, serp ×14).

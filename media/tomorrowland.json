@@ -1,0 +1,14 @@
+{
+  "page": "tomorrowland-festival.html",
+  "seed": "tomorrowland music",
+  "source": "Adapted cross-reference, September 2026: also-talk-about for 'what is tomorrowland' (Dimitri Vegas, Martin Garrix, Armin van Buuren, David Guetta, Swedish House Mafia, Carl Cox), Wikipedia's list of regular headliners, 2026 festival reports (Bandwagon, Pollstar), 1001Tracklists for the drum and bass sets. This site's catalogue holds no Tomorrowland sets, so source 6 of FIGURES.md returned nothing; every player comes from Tomorrowland's or the artist's own channel, oEmbed-checked 13 September 2026.",
+  "required_records": [
+    { "title": "Dimitri Vegas & Like Mike", "artist": "Dimitri Vegas & Like Mike", "year": 2025, "set": "Live At Tomorrowland 2025 Mainstage", "why": "the duo most tied to the Mainstage and its official anthems; also-talk-about entity", "sources": ["search", "wikipedia"], "embed_id": "WdWnCTkqIRs" },
+    { "title": "Chase & Status", "artist": "Chase & Status", "year": 2026, "set": "Chase & Status (DJ set) WE2, Tomorrowland 2026", "why": "UK drum and bass on the Mainstage; the page's own angle", "sources": ["1001tracklists", "tomorrowland-youtube"], "embed_id": "jSJEkiV3cCs" },
+    { "title": "Tomorrowland Belgium 2017", "artist": "Camo & Krooked", "year": 2017, "why": "drum and bass on the Netsky & Friends hosted stage", "sources": ["1001tracklists", "tomorrowland-youtube"], "embed_id": "hGNQQbzAXG8" }
+  ],
+  "known_gaps": [
+    { "title": "Carl Cox set", "why": "photographed at the 2008 edition; no official full set checked" },
+    { "title": "Armin van Buuren, Martin Garrix, David Guetta", "why": "named in text as Mainstage regulars (Wikipedia); no players, to keep media on the page's argument. Hardwell and Tiësto dropped from the text: the verbatim Wikipedia pass did not confirm them" }
+  ]
+}

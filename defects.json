@@ -346,6 +346,17 @@
       "what": "img/og/articles.jpg on main showed the wall of covers from before the Live DJ sets guide (fb6676d): the new guide's cover was missing and the oldest cover, which should have dropped off the nine-card wall, was still there. The card is drawn from home-articles.mjs, but only when someone runs scripts/build-og-cards.py by hand, and adding a guide does not make anyone do that.",
       "should_have_caught": "the build, which does not run the card script, so every card that depends on the catalogue goes stale the moment a guide is added",
       "fix": null
+    },
+    {
+      "id": "seeds-typed-into-ahrefs",
+      "found": "2026-09-13",
+      "by": "owner",
+      "what": "Asked whether breakbeat festivals exist, the agent typed guessed phrases (breakbeat festival, jungle festival, dnb festival) into Ahrefs matching terms and concluded there was almost no demand. The owner: search the web first, take the articles that come back, then check in Ahrefs which keywords those articles are visible for. A guessed phrase measures only the words typed; pages about the festivals rank for the festivals names.",
+      "should_have_caught": "KEYWORD-METHOD.md §1 listed Ahrefs expansion of the owner topic as the first seed source, so a phrase guessed from the topic looked like following the method",
+      "fix": {
+        "file": "KEYWORD-METHOD.md",
+        "contains": "Start with a web search, not with Ahrefs"
+      }
     }
   ]
 }

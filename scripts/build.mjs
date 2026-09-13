@@ -24,6 +24,7 @@ export const generators = [
   'build-berlin-clubs-article.mjs',
   'build-london-clubs-article.mjs',
   'build-live-dj-sets-article.mjs',
+  'build-tomorrowland-article.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',
