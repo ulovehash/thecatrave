@@ -72,6 +72,7 @@ HERO = {
     "tomorrowland": "img/tomorrowland/mainstage-2014-1200.webp",
     "edc": "img/edc/kinetic-field-2024-1200.webp",
     "creamfields": "img/creamfields/steel-yard-2017-1200.webp",
+    "parookaville": "img/parookaville/mainstage-aerial-2022-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

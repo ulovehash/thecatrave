@@ -127,6 +127,14 @@ export const homeArticleCatalog = [
     image:'img/creamfields/steel-yard-2017-320.webp',
     srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
     width:1200, height:801, alt:'The empty interior of the Steel Yard at Creamfields, an arched steel structure lit orange'
+  },
+  {
+    page:'parookaville-festival.html', tags:['discovery','history','bass'], href:'/parookaville-festival', type:'Guide', topic:'Parookaville',
+    title:'Parookaville Festival: Where It Is, Who Runs It, the Music',
+    description:'A festival staged as a city on an old RAF airbase at Weeze: where Parookaville happens, how three friends built it, how many people go, who runs it, and what plays there.',
+    image:'img/parookaville/mainstage-aerial-2022-320.webp',
+    srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'The Parookaville Mainstage from the air in 2022, with the crowd in front of it and wind turbines on the horizon'
   }
 ];
 

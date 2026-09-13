@@ -1,0 +1,34 @@
+{
+  "page": "parookaville-festival.html",
+  "seed": "parookaville",
+  "source": "ahrefs keywords-explorer matching-terms (DE and US) and site-explorer-organic-keywords (exact) on en.wikipedia and de.wikipedia, September 2026. Global volume (12-month average) unless stated. Demand is German: the head term is 31,000 DE of 37,000 global (84%); with AT 500 and CH 450, German-speaking countries carry about 86%. The page is written in English like the whole site, so it targets the English forms and leaves the German ones (besucherzahlen, wo findet ... statt, gelände) to be answered in English without the German phrase.",
+  "terms": [
+    { "term": "parookaville festival", "volume": 900 },
+    { "term": "parookaville weeze", "volume": 250 },
+    { "term": "parookaville mainstage", "volume": 200 },
+    { "term": "bill parooka", "volume": 150 },
+    { "term": "parookaville location", "volume": 30 },
+    { "term": "where is parookaville", "volume": 10 }
+  ],
+  "expansion_checked": "Web search first ('what is Parookaville festival', 'Parookaville Festival Weeze Geschichte Besucher'); site-explorer-organic-keywords (exact) on en.wikipedia.org/wiki/Parookaville (all countries), de.wikipedia.org/wiki/Parookaville (DE) and the Frontstage festival guide; keywords-explorer-matching-terms on 'parookaville' (DE and US); keywords-explorer-volume-by-country on 'parookaville'; serp-overview on 'parookaville' (DE and US) and 'parookaville festival' (DE); 13 September 2026. 'parookaville festival' is 600 DE, 50 US, TP 2,700 in DE. 'bill parooka' is the DE latest-month figure from the de.wikipedia pull. See parookaville-research.md.",
+  "rejected": [
+    { "term": "parookaville", "volume": 37000, "why": "the head term, navigational: the official site takes 24,866 visits a month from it in DE, TP 6,200; present on the page anyway, not targeted" },
+    { "term": "parookaville 2026", "volume": 14000, "why": "dated; the official site holds it" },
+    { "term": "parookaville 2025", "volume": 2200, "why": "dated" },
+    { "term": "parookaville tickets", "volume": 1300, "why": "transactional; one dated FAQ answer" },
+    { "term": "parookaville 2026 lineup", "volume": 1300, "why": "dated, changes every year" },
+    { "term": "parookaville 2027", "volume": 1200, "why": "dated, next year's dates" },
+    { "term": "parookaville line up", "volume": 1000, "why": "dated" },
+    { "term": "parookaville 2027 datum", "volume": 900, "why": "German-language and dated" },
+    { "term": "parookaville 2026 livestream", "volume": 800, "why": "dated; the page describes the livestream as history" },
+    { "term": "parookaville besucherzahlen", "volume": 500, "why": "German-language; the attendance table answers it in English" },
+    { "term": "timetable parookaville 2026", "volume": 500, "why": "dated schedule intent" },
+    { "term": "weeze parookaville", "volume": 450, "why": "same intent as parookaville weeze; the word order does not read in an English sentence" },
+    { "term": "parookaville outfit", "volume": 300, "why": "fashion intent" },
+    { "term": "parookaville jobs", "volume": 300, "why": "a different intent" },
+    { "term": "parookaville logo", "volume": 300, "why": "image intent" },
+    { "term": "parookaville gelände", "volume": 300, "why": "German-language; the site is described in English" },
+    { "term": "parookaville shuttle fahrplan", "volume": 150, "why": "travel, dated, German-language" },
+    { "term": "paruka vill", "volume": 1000, "why": "misspelling (DE latest-month), with parookavile, parukaville and parokaville; not written into the page" }
+  ]
+}

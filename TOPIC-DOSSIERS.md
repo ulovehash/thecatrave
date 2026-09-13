@@ -378,6 +378,38 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   число побед UK Festival Awards (8 в таблице Wikipedia против «шесть раз» в статье
   о Cream); сделка Live Nation 2012 (Billboard за пейволлом, по Wikipedia); цены 2026
   приблизительные (FestivalMates); стадия 6 нет.
+- **Parookaville** (2026-09-13, стадии 1–5 пройдены, 6 нет). Спрос немецкий:
+  голова 31 000 DE из 37 000 global (84%), с AT 500 и CH 450 немецкоязычные страны
+  ~86%; US 700, GB 250. Веб-поиск первым («what is Parookaville festival»,
+  «Parookaville Festival Weeze Geschichte Besucher»): статей почти нет — официальный
+  сайт, Wikipedia (en, de), листинги (Music Festival Wizard, JamBase, Frontstage,
+  viberate), немецкая пресса (Aachener Zeitung, WDR, Nordevents). Organic (exact):
+  en.wikipedia — parookaville DE 11 000 (поз. 15, 0 визитов), NL 800 (11), US 600
+  (2), FI 300 (1); всего около 470 визитов в месяц, почти всё вне Германии.
+  de.wikipedia (DE, latest month) — parookaville 11 000 (3, 831 визит),
+  parookaville besucherzahlen 1 200 (1), parookaville weeze 1 200 (4), wo findet
+  parookaville statt 900 (5), parooka festival 800 (3), wie viele besucher 400 (1),
+  bill parooka 150 (3). Frontstage — только датированные. Matching (DE, ≥100, 50
+  строк): датированные/транзакционные ~26 000 (2026 — 11 000, 2025 — 1 700,
+  tickets 1 200, 2027 — 1 100, line up 900, livestream 2026 — 800), слушательские
+  вечные ~1 700 (parookaville festival 600 с TP 2 700, besucherzahlen 500, weeze
+  parookaville 400, von oben 150, was ist das 150), практические/прочие ~1 200
+  (outfit, jobs, logo, gelände, shuttle), коллизий и продюсерских нет, опечатки
+  (paruka vill 1 000, parookavile 1 000). Matching (US): голова 700 (TP 40),
+  parookaville festival 50, where is parookaville 10. SERP DE «parookaville»:
+  официальный (478 RD, 24 866 визитов), de.wikipedia (3), Instagram, WDR (5 RD),
+  festivalsunited (3 RD, листинг), Facebook, Trustpilot, festivalstuff (DR14, 0 RD).
+  «parookaville festival» (DE): то же, mitvergnuegen (DR73, 0 RD) на 10. SERP US
+  «parookaville»: официальный, Wikipedia (4), Instagram, видео, Apple Music, Spotify.
+  PAA DE: Wo findet Parookaville 2026 statt? / In welcher Stadt ist Parookaville? /
+  Was kostet der Eintritt bei Parookaville? / Was ist besser, Tomorrowland oder
+  Parookaville? / Was ist das besondere am Parookaville Festival? PAA US: Where is
+  Parookaville located? / What does Parookaville mean? URL /parookaville-festival.
+  Опубликовано 2026-09-13 (parookaville-research.md). Ahrefs: 9 вызовов. Английская
+  страница реально берёт немного: потолок — порядка того, что сейчас получает
+  en.wikipedia (~470 визитов в месяц). Не проверено: цены 2026; расхождение таблиц
+  посещаемости en и de Wikipedia; сцена Pendulum в 2026 (только сводки поиска);
+  стадия 6 нет.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

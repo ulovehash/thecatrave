@@ -1,0 +1,66 @@
+{
+  "page": "parookaville-festival.html",
+  "seed": "parookaville music",
+  "source": "Adapted cross-reference, September 2026: the headliners by year on de.wikipedia (2015 to 2024), Pollstar on the 2019 bill, Nordevents on 2025, EDM House Network on 2026, the official artist page for Pendulum in 2026, and view counts read from the festival's own YouTube channel (PAROOKAVILLE, @parookavilleTV) across its DJ-set playlists for 2015 to 2019 and 2022 to 2025. This site's catalogue (source 6 of FIGURES.md) holds no Parookaville set, so every player comes from the festival's or the artist's own channel, oEmbed-checked 13 September 2026.",
+  "required_records": [
+    {
+      "title": "Paul Elstak",
+      "artist": "Paul Elstak",
+      "year": 2022,
+      "set": "PAROOKAVILLE 2022 | PAUL ELSTAK",
+      "why": "the hardcore end of the bill, on the festival's own channel, 728,553 views (2026-09-13); evidence for the music section",
+      "sources": [
+        "parookaville-youtube",
+        "youtube-views"
+      ],
+      "embed_id": "QeifZyGcZmY"
+    },
+    {
+      "title": "W&W",
+      "artist": "W&W",
+      "year": 2022,
+      "set": "PAROOKAVILLE 2022 | W&W",
+      "why": "the most watched DJ set on the festival's own channel, 1,257,135 views (2026-09-13), ahead of Finch 2022 (1,246,324) and Gestört aber Geil 2024 (1,021,261); W&W sets also lead the 2019 to 2024 playlists more often than any other act's; Essential listening",
+      "sources": [
+        "parookaville-youtube",
+        "youtube-views"
+      ],
+      "embed_id": "lnOjzIlm1_g"
+    },
+    {
+      "title": "Steve Aoki",
+      "artist": "Steve Aoki",
+      "year": 2025,
+      "set": "PAROOKAVILLE 2025 | STEVE AOKI",
+      "why": "the most watched Parookaville set found anywhere, about 1.7 million views on his own channel (the official 2025 playlist listing, 2026-09-13; the exact count could not be read because YouTube answered with a CAPTCHA page), ahead of Armin van Buuren 2024 at 1,102,636; a headliner of the first edition in 2015; Essential listening",
+      "sources": [
+        "artist-youtube",
+        "youtube-views",
+        "de-wikipedia-headliners"
+      ],
+      "embed_id": "rWcNs6LcNpM"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Finch 2022 and Gestört aber Geil 2024",
+      "why": "second and third most watched on the festival's channel (1,246,324 and 1,021,261); named in the text with their counts, not embedded, so the listening stays at two sets"
+    },
+    {
+      "title": "Pendulum, 2026",
+      "why": "on the 2026 bill under drum and bass (official artist page); the Power Plant stage and Friday slot appear only in search summaries of set-time listings, so the page does not name the stage; no full set found on the festival's or the band's channel"
+    },
+    {
+      "title": "Armin van Buuren, 2024",
+      "why": "1,102,636 views on his own channel (2026-09-13), the second most watched artist upload; a 2015 and 2026 headliner, named in the text; left out of the listening for Steve Aoki's larger count"
+    },
+    {
+      "title": "Hardwell",
+      "why": "a headliner in 2018 and 2023 and on the 2024 to 2026 bills; carried by the 2024 photograph rather than a player, to keep the listening to the two most watched sets"
+    },
+    {
+      "title": "Dimitri Vegas & Like Mike",
+      "why": "2015 headliners; their 2023 and 2024 Mainstage sets turned up on YouTube, but the channels were not checked as theirs or the festival's, so not used"
+    }
+  ]
+}

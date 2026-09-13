@@ -14,7 +14,7 @@ September 2026.
 | 1 | Tomorrowland | 363,000* | 42,000 | **published** `/tomorrowland-festival` |
 | 2 | EDC Las Vegas | 25,000 | 20,000 | **published** `/edc-las-vegas` |
 | 3 | Creamfields | 43,000 | 1,500 | **published** `/creamfields-festival` |
-| 4 | Parookaville | 37,000 | 700 | volumes only |
+| 4 | Parookaville | 37,000 | 700 | **published** `/parookaville-festival` |
 | 5 | Ultra Music Festival (+ Ultra Europe as a section) | 12,000 + 6,600 | 4,300 | volumes only; TP 6,800 |
 | 6 | Untold | 11,000 | 700 | volumes only |
 | 7 | Defqon.1 | 11,000 | 700 | volumes only |
