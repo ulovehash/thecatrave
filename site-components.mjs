@@ -65,6 +65,28 @@ export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {
   return `<aside class="now-playing" aria-label="Featured DJ mix"><span><i></i> Now playing</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
 }
 
+// The owner's own DJ mixes, both of them. The festival guides list other
+// people's sets; every one also plays the owner's, as SoundCloud players:
+// the first in the middle of the guide, the second before the FAQ (owner,
+// 2026-09-13: "нужно рекламировать оба", then "в виде ск эмбедов").
+export const ownSets = [
+  {slug: 'i-like-to-smoke-in-silence-after-raves', title: 'I Like to Smoke in Silence After Raves',
+    description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.'},
+  {slug: 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more', title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
+    description: 'A loud and restless mix about going out again even when you know better.'}
+];
+
+export function ownSetListening(index) {
+  const set = ownSets[index];
+  if (!set) throw new Error(`No own set at index ${index}`);
+  return articleListeningBand({
+    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: 'A DJ mix by thecatrave',
+    title: `${set.title}: a DJ mix.`, description: set.description,
+    src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${set.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
+    iframeTitle: `${set.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'
+  });
+}
+
 // A thin strip above the header, on every guide, pointing at the one thing on
 // this site that is not an article. Seven of the eight guides linked to the
 // Selector nowhere at all, so a reader could finish 5,000 words on jungle and

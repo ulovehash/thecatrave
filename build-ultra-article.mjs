@@ -20,7 +20,7 @@
 // asset with no placeholder.
 import fs from 'node:fs';
 import {
-  articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
+  ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
   articleYoutubeEmbed, authorCard, bandcampSupport,
   breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
@@ -184,7 +184,9 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The festival that closes Miami Music Week.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
-  ...sectionHtml,
+  // the owner's two mixes: one mid-guide after the history, one before the FAQ
+  ...sectionHtml.flatMap((html, i) => sections[i].id === 'history' ? [html, ownSetListening(0)] : [html]),
+  ownSetListening(1),
   articleFaq({items: faqItems, title: 'Ultra Music Festival FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>

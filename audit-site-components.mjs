@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { pages as manifest, guides } from './pages.mjs';
 import {homeArticlesNewestFirst, relatedArticles} from './home-articles.mjs';
-import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, readNext, siteHeader} from './site-components.mjs';
+import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, ownSetListening, readNext, siteHeader} from './site-components.mjs';
 
 // Derived from the manifest, so a new guide is held to the shared article
 // contract the day it is added. This list used to be written out by hand here
@@ -239,6 +239,12 @@ const checks = {
   currentFaqGeneratorsShared: generatorSources.every(source => source.includes('articleFaq(') && source.includes('faqStructuredData(')),
   faqStructuredDataMatchesVisibleContent: articlePages.every(faqMatchesVisibleContent),
   firstFaqItemOpen: articlePages.every(page => /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
+  // Both of the owner's sets, on every festival guide (owner, 2026-09-13).
+  // The first mid-guide, straight after the history section; the second before the FAQ.
+  festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra'].every(name => {
+    const html = pages[name], first = html.indexOf(ownSetListening(0)), second = html.indexOf(ownSetListening(1));
+    return first > html.indexOf('id="history"') && first < html.indexOf('id="music"') && second > html.indexOf('id="from-home"') && second < html.indexOf('id="faq"');
+  }),
   sharedArticleEndBlocks: generatorSources.every(source => source.includes('authorCard({') && source.includes('bandcampSupport(') && source.includes('readNext(')),
   jungleLegacyStructuresNormalised: ['articleSection(','articleFigure(','articleTable(','articleSources('].every(component => generators['build-jungle-article.mjs'].includes(component)),
   seoHeadComplete: articlePages.every(page => count(page, /<link rel="canonical"/g) === 1 && count(page, /<meta name="description"/g) === 1 && page.includes('max-image-preview:large')),
