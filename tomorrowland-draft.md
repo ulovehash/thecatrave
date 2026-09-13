@@ -94,9 +94,9 @@ For a listener who comes from breaks, jungle or techno, that is the useful thing
 
 ## Hearing Tomorrowland from home
 
-Tomorrowland films its stages and puts whole sets on its own YouTube channel, which is a large part of why the livestream numbers are so big. The two below are from the stages this guide argues for: Chase & Status on the 2026 Mainstage, and Camo & Krooked on Netsky's stage in 2017.
+Tomorrowland films its stages and puts whole sets online, which is a large part of why the livestream numbers are so big. The two below are among the most watched: Hardwell on the Mainstage in 2013, more than 28 million views on his own channel, the year DJ Mag's Top 100 voted him number one; and Swedish House Mafia on the Mainstage in 2025.
 
-[Embed: Chase & Status and Camo & Krooked, Tomorrowland's own YouTube channel, jSJEkiV3cCs]
+[Embed: Hardwell 2013 and Swedish House Mafia 2025, ZG1AT6tylA4]
 
 For the festival that is the opposite of Tomorrowland, a city with no lineup and nothing for sale, read [our guide to Burning Man](/what-is-burning-man). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
 

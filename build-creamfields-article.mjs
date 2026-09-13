@@ -87,13 +87,17 @@ const media = {
     'A DJ seen from behind at the decks at Cream in Liverpool, facing a packed dancefloor under balloons',
     'LilRockit DJing at Cream in Liverpool in December 2015, months before the building was demolished. Photograph: Leighroy4, CC BY-SA 4.0.'),
   'fVKywXvEl9g': youtube('fVKywXvEl9g', 'Creamfields 2019 After Series, Bass, Drum and Bass, on the Creamfields Official Page YouTube channel'),
-  // The closing listening: two full 2025 sets from the festival's own channel.
-  'UBqb6F7Jlho': articleVideoCollection({
-    label: 'Creamfields sets from home',
-    description: 'Two full sets from Creamfields 2025, both from the festival\'s own YouTube channel: Pete Tong, and Josh Baker, who was booked for his Arc Stage debut in 2026.',
+  // The closing listening: legendary and most-watched sets rather than the
+  // site's own angle (the owner, 2026-09-13). Views read from YouTube on
+  // 2026-09-13: Ewan McVicar 2023 235,000 (his channel; his 2022 and 2023
+  // Beatport uploads have fewer), Pete Tong 2025 (the festival's channel), who
+  // played the first Creamfields in 1998.
+  'BvXj6mCK0X4': articleVideoCollection({
+    label: 'Creamfields, then and now',
+    description: 'Ewan McVicar on the Steel Yard in 2023, the most watched of his Creamfields sets, on his own channel; and Pete Tong in 2025, from the festival\'s channel, who was on the first Creamfields bill in 1998.',
     items: [
-      articleVideoCard({youtubeId: 'UBqb6F7Jlho', genre: 'Creamfields, 2025', artist: 'Pete Tong', title: 'DJ set, Creamfields 2025'}),
-      articleVideoCard({youtubeId: 'JbcGjhsIqOw', genre: 'Creamfields, 2025', artist: 'Josh Baker', title: 'DJ set, Creamfields 2025'})
+      articleVideoCard({youtubeId: 'BvXj6mCK0X4', genre: 'Steel Yard, 2023', artist: 'Ewan McVicar', title: 'Steel Yard, Creamfields North 2023'}),
+      articleVideoCard({youtubeId: 'UBqb6F7Jlho', genre: 'Creamfields, 2025', artist: 'Pete Tong', title: 'DJ set, Creamfields 2025'})
     ]
   }),
   // Weekend totals from Wikipedia's edition summary (multi-day passes counted
@@ -197,6 +201,7 @@ ${sourceLink('https://www.skiddle.com/news/all/All-you-need-to-know-about-Creamf
 ${sourceLink('https://discover.ticketmaster.co.uk/festivals/creamfields-2025-line-up-deep-dive-64595/', 'Ticketmaster Discover: Creamfields 2025, line-up deep dive')}
 ${sourceLink('https://discover.ticketmaster.co.uk/festivals/creamfields-delivers-two-new-stages-and-an-all-star-line-up-for-2025-66551/', 'Ticketmaster Discover: Creamfields delivers two new stages and an all-star line-up for 2025')}
 ${sourceLink('https://www.festivalmates.com/blog/creamfields-2026-first-timers-guide', "FestivalMates: Creamfields 2026, the complete first-timer's guide")}
+${sourceLink('https://www.skiddle.com/news/all/The-Best-DJ-Sets-of-All-Time/57700/', 'Skiddle: The Best DJ Sets of All Time')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

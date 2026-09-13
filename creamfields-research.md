@@ -159,3 +159,9 @@ Structure, mirroring Tomorrowland:
   left out.
 - Media: `media/creamfields.json`. Images: `img/creamfields/`, 5 Commons files,
   new to the site.
+
+
+## Listening changed (2026-09-13)
+
+The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
+Ewan McVicar 2023 (235K) replaces Josh Baker 2025; Pete Tong 2025 stays.

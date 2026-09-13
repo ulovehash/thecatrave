@@ -81,14 +81,16 @@ const media = {
   'Camo&Krooked': figure('camo-krooked-2014', 1200, 471,
     'Camo & Krooked seen from behind the decks at EDC Las Vegas in 2014, flame cannons over a large crowd',
     'Camo & Krooked at EDC Las Vegas in 2014, the year they were booked on bassPOD, the stage Bassrush hosts for drum and bass and dubstep. Photograph: Uafmusic VIE, CC BY-SA 4.0.'),
-  // The closing listening: drum and bass on the main stage, and the rave act the
-  // music section argues for, both from 2026.
-  'RwEV5Mo7fY8': articleVideoCollection({
-    label: 'EDC Las Vegas 2026',
-    description: 'Two full sets from the stages this guide argues for: Sub Focus playing drum and bass on kineticFIELD, from his own channel, and Underworld on cosmicMEADOW, from Insomniac\'s. Both from the 30th anniversary in 2026.',
+  // The closing listening: the festival's legendary and most-watched sets, not
+  // the site's own angle (the owner, 2026-09-13). Both on Stage Hoppers' list of
+  // EDC's best sets; views read from YouTube on 2026-09-13: Above & Beyond 4.8
+  // million (their channel), Alison Wonderland 2.1 million (her channel).
+  'SaUN0QHOkHk': articleVideoCollection({
+    label: 'EDC\'s most watched',
+    description: 'Two full kineticFIELD sets: Above & Beyond in 2015, nearly five million views on the trio\'s own channel, and Alison Wonderland in 2016, more than two million on hers.',
     items: [
-      articleVideoCard({youtubeId: 'RwEV5Mo7fY8', genre: 'kineticFIELD, 2026', artist: 'Sub Focus', title: 'EDC Las Vegas 2026'}),
-      articleVideoCard({youtubeId: '4wzyC3J6-NU', genre: 'cosmicMEADOW, 2026', artist: 'Underworld', title: 'Live at EDC Las Vegas 2026'})
+      articleVideoCard({youtubeId: 'SaUN0QHOkHk', genre: 'kineticFIELD, 2015', artist: 'Above & Beyond', title: 'Live at EDC Las Vegas 2015'}),
+      articleVideoCard({youtubeId: 'zqjLaOONheg', genre: 'kineticFIELD, 2016', artist: 'Alison Wonderland', title: 'EDC Las Vegas 2016, full set'})
     ]
   }),
   // Attendance, from Wikipedia and 2026 reports (Beatportal). Typed, not computed.
@@ -198,6 +200,7 @@ ${sourceLink('https://mymodernmet.com/edc-2026-recap/', 'My Modern Met: EDC 2026
 ${sourceLink('https://www.bandwagon.asia/articles/tomorrowland-belgium-2026-wraps-with-400-000-fans-calvin-harris-debut-record-livestreams-festival-report', 'Bandwagon: Tomorrowland Belgium 2026 wraps with 400,000 fans')}
 ${sourceLink('https://lasvegasweekly.com/ae/music/2025/aug/28/insomniac-and-tomorrowland-go-b2b-for-unity-sphere/', 'Las Vegas Weekly: Insomniac and Tomorrowland go b2b for Unity at Sphere')}
 ${sourceLink('https://www.youtube.com/watch?v=QjaVBJJ7xhE', 'Mixmag on YouTube: Rusko (jungle set) in The Lab at EDC Las Vegas')}
+${sourceLink('https://stagehoppers.com/edc-las-vegas-all-time-best-sets/', 'Stage Hoppers: EDC Las Vegas All Time Best Sets')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

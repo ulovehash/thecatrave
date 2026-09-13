@@ -158,3 +158,9 @@ channel).
   both are given, attributed.
 - No GB SERP checked: demand is 80% US (20,000 of 25,000).
 - Stage 6 validation not run.
+
+
+## Listening changed (2026-09-13)
+
+The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
+Above & Beyond 2015 (4.8M) and Alison Wonderland 2016 (2.1M) replace Sub Focus and Underworld 2026.

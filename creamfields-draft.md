@@ -92,9 +92,9 @@ For a listener who comes from breaks, jungle or drum and bass, that is the usefu
 
 Creamfields films its stages. Beatport has streamed and filmed whole sets there: of the 62,877 DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz. None of the drum and bass acts named above is among them.
 
-The festival also puts full sets on its own channel. The two below are from 2025: Pete Tong, and Josh Baker, who was booked for his Arc Stage debut in 2026.
+The festival also puts full sets on its own channel, and some artists post their own. The two below are Ewan McVicar on the Steel Yard in 2023, the most watched of his Creamfields sets, on his own channel; and Pete Tong in 2025, on the festival's, who was on the first Creamfields bill in 1998.
 
-[Embed: Pete Tong and Josh Baker, Creamfields Official Page YouTube channel, UBqb6F7Jlho]
+[Embed: Ewan McVicar 2023 and Pete Tong 2025, BvXj6mCK0X4]
 
 Creamfields and Tomorrowland once shared a Steel Yard, for a one-off Garden of Madness event in Liverpool in 2018; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). For where Chase & Status and Andy C come from, read [the drum and bass guide](/drum-and-bass-guide) and [the jungle guide](/jungle-music-guide). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
 

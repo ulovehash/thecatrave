@@ -3,12 +3,43 @@
   "seed": "edc las vegas music",
   "source": "Adapted cross-reference, September 2026: DJ Mag's 2026 line-up and streaming reports, We Rave You on The Prodigy's first EDC, RaverRafting's 2014 stage review, Discotech's stage guide, Wikipedia (Electric Daisy Carnival; Insomniac). Source 6 of FIGURES.md, this site's catalogue, holds Mixmag's 2016 Lab sets filmed at EDC Las Vegas (Rusko's jungle set among them), which are on Mixmag's channel, not the festival's or an artist's, so they are named in the text and not embedded. Players oEmbed-checked 13 September 2026: Sub Focus on his own channel, Underworld on Insomniac's.",
   "required_records": [
-    { "title": "Sub Focus", "artist": "Sub Focus", "year": 2026, "set": "Sub Focus @ EDC Las Vegas 2026 (kineticFIELD)", "why": "UK drum and bass on the main stage; the page's own angle", "sources": ["sub-focus-youtube", "search"], "embed_id": "RwEV5Mo7fY8" },
-    { "title": "Underworld", "artist": "Underworld", "year": 2026, "set": "Underworld Live at EDC Las Vegas 2026 (Official Full Set)", "why": "a cosmicMEADOW headliner at the 30th anniversary, the rave lineage this site comes from", "sources": ["djmag", "insomniac-youtube"], "embed_id": "4wzyC3J6-NU" }
+    {
+      "title": "Above & Beyond",
+      "artist": "Above & Beyond",
+      "year": 2015,
+      "set": "Above & Beyond Live At EDC Las Vegas 2015 (Full HD Set)",
+      "why": "on Stage Hoppers' list of EDC's best sets; 4.8 million views on their channel (2026-09-13)",
+      "sources": [
+        "stagehoppers",
+        "youtube-views"
+      ],
+      "embed_id": "SaUN0QHOkHk"
+    },
+    {
+      "title": "Alison Wonderland",
+      "artist": "Alison Wonderland",
+      "year": 2016,
+      "set": "Alison Wonderland - EDC Las Vegas 2016 - Full Set (Official Video)",
+      "why": "on Stage Hoppers' list of EDC's best sets; 2.1 million views on her channel (2026-09-13)",
+      "sources": [
+        "stagehoppers",
+        "youtube-views"
+      ],
+      "embed_id": "zqjLaOONheg"
+    }
   ],
   "known_gaps": [
-    { "title": "The Prodigy", "why": "first EDC in 2026 on cosmicMEADOW (We Rave You); no upload on Insomniac's or The Prodigy's channel found on 13 September 2026, only fan recordings, which are rejected" },
-    { "title": "Camo & Krooked", "why": "photographed at bassPOD in 2014 (RaverRafting confirms the booking); no official full set checked" },
-    { "title": "Rusko (jungle set)", "why": "Mixmag's Lab at EDC Las Vegas 2016, in the Selector catalogue; on Mixmag's channel, so named, not embedded, pending the owner's call" }
+    {
+      "title": "The Prodigy",
+      "why": "first EDC in 2026 on cosmicMEADOW (We Rave You); no upload on Insomniac's or The Prodigy's channel found on 13 September 2026, only fan recordings, which are rejected"
+    },
+    {
+      "title": "Camo & Krooked",
+      "why": "photographed at bassPOD in 2014 (RaverRafting confirms the booking); no official full set checked"
+    },
+    {
+      "title": "Rusko (jungle set)",
+      "why": "Mixmag's Lab at EDC Las Vegas 2016, in the Selector catalogue; on Mixmag's channel, so named, not embedded, pending the owner's call"
+    }
   ]
 }

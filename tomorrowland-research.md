@@ -191,3 +191,9 @@ the listening block has to come from Tomorrowland's own channel, oEmbed-checked.
 - FAQ dropped "How much does a DJ get paid" (no source). Added "Is Tomorrowland
   coming to the USA?" (PAA on "tomorrowland festival").
 - Bandcamp: the owner's two tracks, as on the Burning Man guide.
+
+
+## Listening changed (2026-09-13)
+
+The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
+Hardwell 2013 (28.4M) and Swedish House Mafia 2025 (375K) replace Chase & Status 2026 and Camo & Krooked 2017.

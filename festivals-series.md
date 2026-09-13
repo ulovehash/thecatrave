@@ -64,6 +64,12 @@ Budget: about 8–12 Ahrefs calls per festival. One or two festivals per session
   FAQ from PAA, Read Next linking the rest of the series.
 - Dated intents (lineups, tickets, set times, next year's dates) excluded
   from every guide.
+- Listening: the festival's legendary and most popular sets (evidence: view
+  counts on the official channel, "best sets" lists found by web search), from
+  the festival's or artist's own channel, oEmbed-checked. Drum and bass or
+  jungle only where it genuinely belongs to the festival, not forced in as the
+  site's angle (the owner, 13 September 2026, after the first three guides
+  built their listening around it).
 - Images: openly licensed, new per guide; nothing borrowed between festival
   guides (`ARTICLE-PRODUCTION-WORKFLOW.md` §7).
 - Figures per guide sourced through `FIGURES.md`, never from memory.

@@ -3,14 +3,57 @@
   "seed": "creamfields music",
   "source": "Adapted cross-reference, September 2026: Wikipedia's edition summary of headliners 1998 to 2022, 2025 and 2026 line-up reporting (Ticketmaster Discover, Skiddle, Electronic Groove, the official 2025 history page, the festival's own YouTube titles), NME for the 2012 bill. This site's catalogue (source 6 of FIGURES.md) holds 52 Creamfields sets, 51 from Beatport and 1 from Mixmag, none by the drum and bass acts the page names; the players come from the festival's own channel (Creamfields Official Page), oEmbed-checked 13 September 2026.",
   "required_records": [
-    { "title": "After Series", "artist": "Creamfields", "year": 2019, "set": "CREAMFIELDS 2019 AFTER SERIES - BASS, DRUM & BASS", "why": "the festival's own film of its bass and drum and bass crowd; evidence for the music section's argument", "sources": ["creamfields-youtube"], "embed_id": "fVKywXvEl9g" },
-    { "title": "Pete Tong", "artist": "Pete Tong", "year": 2025, "set": "Pete Tong DJ Set, Rockstar Energy presents Creamfields 2025", "why": "full set on the festival's own channel; Essential listening", "sources": ["creamfields-youtube", "selector-catalogue"], "embed_id": "UBqb6F7Jlho" },
-    { "title": "Josh Baker", "artist": "Josh Baker", "year": 2025, "set": "Josh Baker DJ Set, Rockstar Energy presents Creamfields 2025", "why": "full set on the festival's own channel; booked for his Arc Stage debut in 2026 (festival's own channel)", "sources": ["creamfields-youtube"], "embed_id": "JbcGjhsIqOw" }
+    {
+      "title": "After Series",
+      "artist": "Creamfields",
+      "year": 2019,
+      "set": "CREAMFIELDS 2019 AFTER SERIES - BASS, DRUM & BASS",
+      "why": "the festival's own film of its bass and drum and bass crowd; evidence for the music section's argument",
+      "sources": [
+        "creamfields-youtube"
+      ],
+      "embed_id": "fVKywXvEl9g"
+    },
+    {
+      "title": "Pete Tong",
+      "artist": "Pete Tong",
+      "year": 2025,
+      "set": "Pete Tong DJ Set, Rockstar Energy presents Creamfields 2025",
+      "why": "full set on the festival's own channel; Essential listening",
+      "sources": [
+        "creamfields-youtube",
+        "selector-catalogue"
+      ],
+      "embed_id": "UBqb6F7Jlho"
+    },
+    {
+      "title": "Ewan McVicar",
+      "artist": "Ewan McVicar",
+      "year": 2023,
+      "set": "Ewan McVicar @ Steel Yard Stage: Creamfields North 2023",
+      "why": "the most-watched of his Creamfields sets, 235,000 views on his channel (2026-09-13); his 2022 Steel Yard set is widely called one of the festival's most iconic",
+      "sources": [
+        "youtube-views"
+      ],
+      "embed_id": "BvXj6mCK0X4"
+    }
   ],
   "known_gaps": [
-    { "title": "Chase & Status, Arc Stage 2025", "why": "headlined the Arc on the Friday (Ticketmaster, official Facebook); no full set found on the festival's or the duo's own channel" },
-    { "title": "Andy C at Creamfields", "why": "a 2019 set with Tonn Piper exists on YouTube (o6c0Dfs7cuE) but on a third-party channel, The DnB Experience; rejected. Andy C's own channel carries only a short 'Creamfields 2026' clip" },
-    { "title": "Sub_Aural stage", "why": "the drum and bass stage's name appears only in search summaries and a fan upload's description; no fetched source, so the page does not name it" },
-    { "title": "Carl Cox, Armin van Buuren, Paul van Dyk, Swedish House Mafia", "why": "named in text as headliners (Wikipedia); Carl Cox sets exist in the catalogue on Beatport's channel, not the festival's or his own, so no player" }
+    {
+      "title": "Chase & Status, Arc Stage 2025",
+      "why": "headlined the Arc on the Friday (Ticketmaster, official Facebook); no full set found on the festival's or the duo's own channel"
+    },
+    {
+      "title": "Andy C at Creamfields",
+      "why": "a 2019 set with Tonn Piper exists on YouTube (o6c0Dfs7cuE) but on a third-party channel, The DnB Experience; rejected. Andy C's own channel carries only a short 'Creamfields 2026' clip"
+    },
+    {
+      "title": "Sub_Aural stage",
+      "why": "the drum and bass stage's name appears only in search summaries and a fan upload's description; no fetched source, so the page does not name it"
+    },
+    {
+      "title": "Carl Cox, Armin van Buuren, Paul van Dyk, Swedish House Mafia",
+      "why": "named in text as headliners (Wikipedia); Carl Cox sets exist in the catalogue on Beatport's channel, not the festival's or his own, so no player"
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "source": "Adapted cross-reference, September 2026: also-talk-about for 'what is tomorrowland' (Dimitri Vegas, Martin Garrix, Armin van Buuren, David Guetta, Swedish House Mafia, Carl Cox), Wikipedia's list of regular headliners, 2026 festival reports (Bandwagon, Pollstar), 1001Tracklists for the drum and bass sets. This site's catalogue holds no Tomorrowland sets, so source 6 of FIGURES.md returned nothing; every player comes from Tomorrowland's or the artist's own channel, oEmbed-checked 13 September 2026.",
   "required_records": [
     { "title": "Dimitri Vegas & Like Mike", "artist": "Dimitri Vegas & Like Mike", "year": 2025, "set": "Live At Tomorrowland 2025 Mainstage", "why": "the duo most tied to the Mainstage and its official anthems; also-talk-about entity", "sources": ["search", "wikipedia"], "embed_id": "WdWnCTkqIRs" },
-    { "title": "Chase & Status", "artist": "Chase & Status", "year": 2026, "set": "Chase & Status (DJ set) WE2, Tomorrowland 2026", "why": "UK drum and bass on the Mainstage; the page's own angle", "sources": ["1001tracklists", "tomorrowland-youtube"], "embed_id": "jSJEkiV3cCs" },
-    { "title": "Tomorrowland Belgium 2017", "artist": "Camo & Krooked", "year": 2017, "why": "drum and bass on the Netsky & Friends hosted stage", "sources": ["1001tracklists", "tomorrowland-youtube"], "embed_id": "hGNQQbzAXG8" }
+    { "title": "Hardwell", "artist": "Hardwell", "year": 2013, "set": "Hardwell Live @ Tomorrowland 2013", "why": "the most-watched Tomorrowland set found, 28.4 million views on his channel (2026-09-13); named among the festival's iconic sets by We Rave You", "sources": ["youtube-views", "weraveyou"], "embed_id": "ZG1AT6tylA4" },
+    { "title": "Swedish House Mafia", "artist": "Swedish House Mafia", "year": 2025, "set": "Tomorrowland 2025 | Swedish House Mafia at the MainStage", "why": "also-talk-about entity for the festival; Mainstage set on Tomorrowland's channel, 375,000 views", "sources": ["search", "tomorrowland-youtube"], "embed_id": "H1b8hXkGyTo" }
   ],
   "known_gaps": [
     { "title": "Carl Cox set", "why": "photographed at the 2008 edition; no official full set checked" },

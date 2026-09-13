@@ -86,14 +86,16 @@ const media = {
     'Carl Cox DJing at Tomorrowland in 2008',
     'Carl Cox at Tomorrowland in 2008. Techno has had a stage at the festival since its early years. Photograph: TheWorldIsMine, CC BY-SA 2.0.'),
   'WdWnCTkqIRs': youtube('WdWnCTkqIRs', "Dimitri Vegas & Like Mike, Live At Tomorrowland 2025 Mainstage, on Dimitri Vegas & Like Mike's YouTube channel"),
-  // The closing listening: the two drum and bass sets the music section argues
-  // for, both on Tomorrowland's own channel.
-  'jSJEkiV3cCs': articleVideoCollection({
-    label: 'Drum and bass at Tomorrowland',
-    description: 'Two full sets from the stages this guide argues for: Chase & Status on the Mainstage on the second weekend of 2026, and Camo & Krooked on Netsky\'s hosted stage in 2017. Both from Tomorrowland\'s own channel.',
+  // The closing listening: the festival's legendary and most-watched sets, not
+  // the site's own angle (the owner, 2026-09-13). View counts read from YouTube
+  // on 2026-09-13: Hardwell 28.4 million (his channel), Swedish House Mafia
+  // 375,000 (Tomorrowland's channel).
+  'ZG1AT6tylA4': articleVideoCollection({
+    label: 'Tomorrowland\'s most watched',
+    description: 'Two full Mainstage sets: Hardwell in 2013, more than 28 million views on his own channel, and Swedish House Mafia in 2025, from Tomorrowland\'s.',
     items: [
-      articleVideoCard({youtubeId: 'jSJEkiV3cCs', genre: 'Mainstage, 2026', artist: 'Chase & Status', title: 'DJ set, weekend two, Tomorrowland 2026'}),
-      articleVideoCard({youtubeId: 'hGNQQbzAXG8', genre: 'Netsky & Friends, 2017', artist: 'Camo & Krooked', title: 'Tomorrowland Belgium 2017'})
+      articleVideoCard({youtubeId: 'ZG1AT6tylA4', genre: 'Mainstage, 2013', artist: 'Hardwell', title: 'Live at Tomorrowland 2013'}),
+      articleVideoCard({youtubeId: 'H1b8hXkGyTo', genre: 'Mainstage, 2025', artist: 'Swedish House Mafia', title: 'Tomorrowland 2025, Mainstage'})
     ]
   }),
   // Attendance, from Wikipedia and 2026 reports (Pollstar). Typed, not computed.
@@ -184,6 +186,7 @@ ${sourceLink('https://consciouselectronic.com/2026/07/25/tomorrowland-las-vegas-
 ${sourceLink('https://lasvegasweekly.com/ae/music/2025/aug/28/insomniac-and-tomorrowland-go-b2b-for-unity-sphere/', 'Las Vegas Weekly: Insomniac and Tomorrowland go b2b for Unity at Sphere')}
 ${sourceLink('https://www.1001tracklists.com/tracklist/p3duwuk/chase-status-mainstage-tomorrowland-weekend-2-belgium-2026-07-26.html', '1001Tracklists: Chase & Status, Mainstage, Tomorrowland weekend 2, 2026')}
 ${sourceLink('https://www.1001tracklists.com/tracklist/2rpp1hzt/camo-and-krooked-netsky-and-friends-stage-tomorrowland-weekend-2-belgium-2017-07-28.html', '1001Tracklists: Camo & Krooked, Netsky & Friends stage, Tomorrowland 2017')}
+${sourceLink('https://weraveyou.com/2019/07/tomorrowland-iconic-sets-ever/', 'We Rave You: Tomorrowland, the most iconic sets of all time')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
