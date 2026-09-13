@@ -70,6 +70,8 @@ HERO = {
     "london-clubs": "img/london-clubs/fabric-1200.webp",
     "live-dj-sets": "img/live-dj-sets/the-lot-radio-1200.webp",
     "tomorrowland": "img/tomorrowland/mainstage-2014-1200.webp",
+    "edc": "img/edc/kinetic-field-2024-1200.webp",
+    "creamfields": "img/creamfields/steel-yard-2017-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

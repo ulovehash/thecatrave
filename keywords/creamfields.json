@@ -1,0 +1,35 @@
+{
+  "page": "creamfields-festival.html",
+  "seed": "creamfields",
+  "source": "ahrefs keywords-explorer matching-terms, GB volume (12-month average), September 2026. Demand is mostly UK: head 29,000 GB of 43,000 global.",
+  "terms": [
+    { "term": "creamfields south", "volume": 3100 },
+    { "term": "where is creamfields", "volume": 1900 },
+    { "term": "creamfields location", "volume": 1200 },
+    { "term": "creamfields festival", "volume": 1100 },
+    { "term": "when is creamfields", "volume": 450 },
+    { "term": "creamfields capacity", "volume": 350 },
+    { "term": "how old do you have to be to go to creamfields", "volume": 300 },
+    { "term": "creamfields warrington", "volume": 300 },
+    { "term": "where is creamfields festival", "volume": 300 },
+    { "term": "creamfields steel yard", "volume": 250 },
+    { "term": "creamfields uk", "volume": 200 },
+    { "term": "how much are creamfields tickets", "volume": 150 },
+    { "term": "creamfields attendance", "volume": 150 },
+    { "term": "what is creamfields", "volume": 100 }
+  ],
+  "expansion_checked": "Web search first ('what is Creamfields festival', 'Creamfields festival guide history Daresbury'); site-explorer-organic-keywords (exact, GB) on the Wikipedia article and creamfieldsfestival.co.uk; keywords-explorer-matching-terms on 'creamfields' (terms and questions, GB); serp-overview (GB) on 'creamfields festival', 'where is creamfields', 'creamfields location', 'what is creamfields'; 13 September 2026. Steel yard, uk and attendance volumes are latest-month figures from the Wikipedia organic pull. See creamfields-research.md.",
+  "rejected": [
+    { "term": "creamfields 2026", "volume": 32000, "why": "dated; the official site holds it" },
+    { "term": "creamfields 2026 lineup", "volume": 8000, "why": "dated, changes every year" },
+    { "term": "creamfields tickets", "volume": 2800, "why": "transactional; answered once, dated, in the FAQ" },
+    { "term": "creamfields lineup", "volume": 2300, "why": "dated" },
+    { "term": "creamfields 2026 dates", "volume": 2800, "why": "dated; the page gives the bank holiday rule instead" },
+    { "term": "hotels near creamfields", "volume": 700, "why": "travel and accommodation, a different intent" },
+    { "term": "creamfields festival cancelled", "volume": 600, "why": "news intent tied to a given year; the 2012 and 2026 weather is covered as history" },
+    { "term": "creamfields postcode", "volume": 450, "why": "the official travel page gives no site postcode and warns against sat-navs; not stated rather than guessed" },
+    { "term": "creamfields set times 2026", "volume": 350, "why": "dated schedule intent" },
+    { "term": "creamfields outfits", "volume": 250, "why": "fashion intent" },
+    { "term": "cream liverpool", "volume": 200, "why": "navigational to the club brand; the club is covered as history without the exact phrase" }
+  ]
+}

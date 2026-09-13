@@ -334,6 +334,50 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   carnival 4 400. «what is edc» — коллизия: EDC = everyday carry (ножи,
   снаряжение), фестиваль только на 6-м месте (Wikipedia). SERP «edc las vegas»
   не снят.
+- **EDC Las Vegas** (2026-09-13, стадии 1–5 пройдены, 6 нет; метод «сначала веб»).
+  Веб: «what is EDC Las Vegas», «EDC Las Vegas guide», «Electric Daisy Carnival
+  history» → Visit Las Vegas, Las Vegas Sun (история), iHeartRaves, vibewithade.
+  Organic (exact, US): Wikipedia — edc 80 000 (поз. 14, 0 визитов), edc las vegas
+  11 000 (4), what is edc 3 100 (1, 65 визитов — коллизия видна по CTR), edc vegas
+  2 300, edc mexico 2 200, electric daisy carnival 1 700 (1), edclv 600, edc stages
+  400; Visit Las Vegas — голова (4, 769 визитов) и формы «what is/when is»; LV Sun —
+  when did edc start 100, when was the first edc 100; iHeartRaves — только edc tips.
+  Matching «edc las vegas» (US ≥150, 47 строк, голова 20 000 без учёта):
+  датированные/транзакционные ~17 850 (из них розыгрыши VIP ~4 500), слушательские
+  вечные ~3 700 (what is edc las vegas 1 100, TP 76 000), шопинг ~600, продюсерских 0.
+  Вопросы по «edc»: коллизия everyday carry ~12 150 (what is edc 3 700, what does
+  edc stand for 1 700). electric daisy carnival 2 400, orlando 450.
+  SERP «edc las vegas»: официальные, Wikipedia (9), Visit Las Vegas (10, DR76).
+  «what is edc las vegas»: vibewithade (10, DR30, 47 RD). «how many people attend
+  edc»: fox35 (8, 2 RD), Facebook (1 RD). «what does edc stand for festival»: Visit
+  Las Vegas «5 ways» (9, 1 RD), danielmiessler (10, 0 RD). PAA: rave или festival,
+  цена билетов, сколько людей в день, крупнейший ли в США, больше ли Coachella,
+  почему EDC, dress code, средний возраст.
+  URL /edc-las-vegas. Опубликовано 2026-09-13 (edc-research.md). Ahrefs: 11 вызовов.
+  Не проверено: LV Sun (402), Insomniac (403); посещаемость 2026 «больше 500 000»;
+  17 сцен (DJ Mag) против девяти (Wikipedia); SERP GB не снимался; стадия 6 нет.
+- **Creamfields** (2026-09-13, стадии 1–5 пройдены, 6 нет). Спрос национальный:
+  голова 29 000 GB из 43 000 global, всё снято по GB. Веб-поиск первым: статей почти
+  нет — официальный сайт, Wikipedia, билетные и листинги, неофициальный гид
+  creamfieldsfestival.co.uk. Organic (GB): Wikipedia — creamfields location 9 900
+  (поз. 7), warrington 2 100 (3), when is 1 700 (6), creamfields festival 1 000 (1),
+  steel yard 250 (1), capacity 200 (1), attendance 150 (1). Matching (GB, топ-50 без
+  головы): датированные/транзакционные ~75 000 (2026 — 32 000, lineup 2026 — 8 000,
+  tickets 2 800), слушательские вечные ~9 250 (creamfields south 3 100, where is
+  1 900, location 1 200, festival 1 100 с TP 13 000, when is 450, capacity 350, how
+  old 300, warrington 300), практические ~1 900 (hotels 700, postcode 450),
+  коллизий и продюсерских нет. what is creamfields 100 (TP 8 900). SERP GB
+  «creamfields festival»: официальный (1 231 RD), Wikipedia (103), Instagram,
+  festivalcalendar.uk (DR11, 1 RD, поз. 7), Ticketmaster (5 RD), Tripadvisor (0 RD).
+  «where is creamfields»: соцсети, dollar.co.uk (0 RD, поз. 4), liverpoolworld
+  (49 RD). PAA: Where is Creamfields festival located? / Is Creamfields a rave? / Is
+  Creamfields closer to Liverpool or Manchester? / Where did Creamfields used to be? /
+  What is Creamfields known for? / How much is a 1 day Creamfields ticket? / Can 16
+  year olds go to Creamfields? URL /creamfields-festival. Опубликовано 2026-09-13
+  (creamfields-research.md). Ahrefs: 8 вызовов. Не проверено: название dnb-сцены;
+  число побед UK Festival Awards (8 в таблице Wikipedia против «шесть раз» в статье
+  о Cream); сделка Live Nation 2012 (Billboard за пейволлом, по Wikipedia); цены 2026
+  приблизительные (FestivalMates); стадия 6 нет.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

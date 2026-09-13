@@ -12,8 +12,8 @@ September 2026.
 |---|---|---:|---:|---|
 | — | Burning Man | — | — | **published** `/what-is-burning-man` |
 | 1 | Tomorrowland | 363,000* | 42,000 | **published** `/tomorrowland-festival` |
-| 2 | EDC Las Vegas | 25,000 | 20,000 | volumes only; TP 75,000, the highest in the list; "what is edc" collides with everyday carry |
-| 3 | Creamfields | 43,000 | 1,500 | volumes only |
+| 2 | EDC Las Vegas | 25,000 | 20,000 | **published** `/edc-las-vegas` |
+| 3 | Creamfields | 43,000 | 1,500 | **published** `/creamfields-festival` |
 | 4 | Parookaville | 37,000 | 700 | volumes only |
 | 5 | Ultra Music Festival (+ Ultra Europe as a section) | 12,000 + 6,600 | 4,300 | volumes only; TP 6,800 |
 | 6 | Untold | 11,000 | 700 | volumes only |

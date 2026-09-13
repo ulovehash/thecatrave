@@ -111,6 +111,22 @@ export const homeArticleCatalog = [
     image:'img/tomorrowland/mainstage-2014-320.webp',
     srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
     width:1200, height:708, alt:'The Tomorrowland Mainstage in 2014'
+  },
+  {
+    page:'edc-las-vegas.html', tags:['discovery','history','bass'], href:'/edc-las-vegas', type:'Guide', topic:'EDC Las Vegas',
+    title:'EDC Las Vegas: What It Is, How Big, and the Music',
+    description:'Electric Daisy Carnival at the Las Vegas Motor Speedway: where EDC happens, how half a million people a year grew out of a field in Chino, and what plays past kineticFIELD.',
+    image:'img/edc/kinetic-field-2024-320.webp',
+    srcset:'img/edc/kinetic-field-2024-320.webp 320w,img/edc/kinetic-field-2024-1200.webp 1200w',
+    width:1200, height:900, alt:'kineticFIELD at EDC Las Vegas in 2024'
+  },
+  {
+    page:'creamfields-festival.html', tags:['discovery','history','uk','bass'], href:'/creamfields-festival', type:'Guide', topic:'Creamfields',
+    title:'Creamfields Festival: Where It Is, How It Grew, the Music',
+    description:'Four days on the Daresbury estate every August bank holiday: where Creamfields happens, how a Liverpool house night grew into it, who owns it, and what plays beyond the Arc Stage.',
+    image:'img/creamfields/steel-yard-2017-320.webp',
+    srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
+    width:1200, height:801, alt:'The empty interior of the Steel Yard at Creamfields, an arched steel structure lit orange'
   }
 ];
 

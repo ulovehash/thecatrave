@@ -1,0 +1,33 @@
+{
+  "page": "edc-las-vegas.html",
+  "seed": "edc las vegas",
+  "source": "ahrefs keywords-explorer and site-explorer, September 2026, US volume (global in TOPIC-DOSSIERS.md)",
+  "terms": [
+    { "term": "edc las vegas", "volume": 20000 },
+    { "term": "electric daisy carnival", "volume": 2400 },
+    { "term": "edc vegas", "volume": 2300 },
+    { "term": "edc mexico", "volume": 2200 },
+    { "term": "what does edc stand for", "volume": 1700 },
+    { "term": "what is edc las vegas", "volume": 1100 },
+    { "term": "edclv", "volume": 600 },
+    { "term": "electric daisy carnival orlando", "volume": 450 },
+    { "term": "edc stages", "volume": 400 },
+    { "term": "when is edc las vegas", "volume": 350 },
+    { "term": "where is edc las vegas", "volume": 300 },
+    { "term": "edc las vegas location", "volume": 250 },
+    { "term": "how many people attend edc", "volume": 200 },
+    { "term": "when did edc start", "volume": 100 }
+  ],
+  "expansion_checked": "Web search first ('what is EDC Las Vegas', 'EDC Las Vegas guide', 'Electric Daisy Carnival history'); site-explorer-organic-keywords (exact) on the Wikipedia article, visitlasvegas.com's guide, the Las Vegas Sun history and iHeartRaves' guide; keywords-explorer-matching-terms on 'edc las vegas', 'electric daisy carnival' and questions on 'edc'; serp-overview on 'edc las vegas', 'what is edc las vegas', 'how many people attend edc', 'what does edc stand for festival'; 13 September 2026. See edc-research.md.",
+  "rejected": [
+    { "term": "edc", "volume": 80000, "why": "collision: everyday carry; Wikipedia's festival page sits at 14" },
+    { "term": "what is edc", "volume": 3700, "why": "collision: everyday carry; the festival answer lives in 'what is edc las vegas'" },
+    { "term": "edc las vegas 2026", "volume": 4100, "why": "dated; the official site holds it" },
+    { "term": "edc las vegas free vip passes", "volume": 1100, "why": "giveaway, transactional" },
+    { "term": "edc parade las vegas", "volume": 1100, "why": "a dated event on the Strip" },
+    { "term": "edc las vegas 2026 lineup", "volume": 700, "why": "dated, changes every year" },
+    { "term": "what is edc festival", "volume": 600, "why": "listener intent, but the phrase does not sit in a sentence; covered by the answer block" },
+    { "term": "edc las vegas tickets", "volume": 450, "why": "transactional; answered in one FAQ" },
+    { "term": "edc las vegas outfits", "volume": 450, "why": "shopping" }
+  ]
+}
