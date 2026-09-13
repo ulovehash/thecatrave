@@ -378,6 +378,35 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   число побед UK Festival Awards (8 в таблице Wikipedia против «шесть раз» в статье
   о Cream); сделка Live Nation 2012 (Billboard за пейволлом, по Wikipedia); цены 2026
   приблизительные (FestivalMates); стадия 6 нет.
+- **Ultra Music Festival + Ultra Europe** (2026-09-13, стадии 1–5 пройдены, 6 нет;
+  Ultra Europe — раздел той же страницы, владелец подтвердил 2026-09-13). Веб:
+  «what is Ultra Music Festival Miami guide history», «Ultra Music Festival history
+  Bayfront Park Virginia Key», «what is Ultra Europe festival Split Croatia guide»,
+  «best Ultra Music Festival sets of all time» → We Rave You (история), Techno
+  Airlines, Adventures n Sunsets (Ultra Europe), Miami New Times (лучшие сеты, 2026).
+  Organic (exact): Wikipedia UMF (US) — ultra miami 3 900 (поз. 6, 0 визитов),
+  what is ultra 250 (8), ultra music festival miami 250 (6), when is ultra miami 80,
+  ultra miami location 50 (4), edc miami 350 (коллизия); Wikipedia Ultra Europe (все
+  страны) — ultra europe US 2 200, DE 1 300, HR 800; ultra split HR 1 500, BA 1 000;
+  ultra croatia US 300; ultra festival croatia GB 250; We Rave You и Techno Airlines —
+  ноль ключей; Adventures n Sunsets — только ultra croatia 300. Matching «ultra music
+  festival» (US ≥70, 29 строк, голова 4 300 без учёта): датированные/транзакционные
+  ~4 530 (2026 — 1 900), слушательские ~670 (miami 500, where is 90, location 80),
+  практические ~450, шопинг ~170, продюсерских 0. Overview US: ultra miami 6 900
+  (global 11 000, TP 7 100), ultra music festival 4 300 (12 000, TP 6 800), ultra
+  europe 1 600 (6 600), ultra festival 500 (TP 10 000), ultra croatia 500, what is
+  ultra 250. TP в Хорватии: ultra split 900 (TP 2 300), ultra europe 700 (TP 2 300);
+  в Германии всё ≤450, TP ≤250. SERP US «ultra music festival»: bayeight (DR19, 0 RD,
+  поз. 5), 5mag (2 RD, 6), Yahoo (0 RD, 8) — три статейных слота; «ultra miami» —
+  статейных слотов нет; «ultra europe» — официальные, соцсети, Wikipedia (6), MFW (9).
+  PAA: Is Ultra a rave or festival? / Why is Ultra so expensive? / How much are tickets
+  / Where is Ultra Europe / What date is Miami Music Week. URL /ultra-music-festival.
+  Опубликовано 2026-09-13 (ultra-research.md). Ahrefs: 12 вызовов (organic ×5,
+  matching ×1, overview ×3, serp ×3). Сеты: Skrillex 2015 (94,3 млн, его канал),
+  Hardwell 2013 (35,7 млн, его канал), Pendulum/Knife Party 2016 (2,4 млн, канал
+  Pendulum). Не проверено: дата первого Ultra (13 или 12 марта 1999), посещаемость
+  2012 (155 000 или 165 000), первый год Resistance (2015 или 2016), посещаемость Ultra
+  Europe 2026; стадия 6 нет.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

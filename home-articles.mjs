@@ -127,6 +127,14 @@ export const homeArticleCatalog = [
     image:'img/creamfields/steel-yard-2017-320.webp',
     srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
     width:1200, height:801, alt:'The empty interior of the Steel Yard at Creamfields, an arched steel structure lit orange'
+  },
+  {
+    page:'ultra-music-festival.html', tags:['discovery','history','bass'], href:'/ultra-music-festival', type:'Guide', topic:'Ultra',
+    title:'Ultra Music Festival: Miami, Ultra Europe and the Music',
+    description:'Bayfront Park in downtown Miami every March: where Ultra happens, how a 1999 beach party grew to 165,000 people, Ultra Europe in Split, and what plays beyond the Main Stage.',
+    image:'img/ultra/bayfront-2014-320.webp',
+    srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
+    width:1200, height:900, alt:'Bayfront Park in Miami seen from above during Ultra Music Festival 2014'
   }
 ];
 
