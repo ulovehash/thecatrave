@@ -1,0 +1,34 @@
+{
+  "page": "sonar-festival-barcelona.html",
+  "seed": "sonar festival",
+  "source": "ahrefs keywords-explorer matching-terms (phrase) and overview, GB volume (12-month average), global in the 'why' notes, September 2026. Demand is spread across Europe: head terms 450 and 500 GB of 3,800 and 3,100 global. Terms are written as the page spells them; Google folds the accent, so 'sónar 2027' is measured as 'sonar 2027'.",
+  "terms": [
+    { "term": "sonar barcelona", "volume": 500 },
+    { "term": "sonar festival", "volume": 450 },
+    { "term": "off sónar", "volume": 300 },
+    { "term": "sónar festival barcelona", "volume": 100 },
+    { "term": "offsónar", "volume": 90 },
+    { "term": "sónar lisbon", "volume": 30 },
+    { "term": "sónar festival location", "volume": 20 },
+    { "term": "where is sónar festival in barcelona", "volume": 10 },
+    { "term": "sónar by night", "volume": 10 },
+    { "term": "what is the sonar festival", "volume": 0 },
+    { "term": "sónar 2027", "volume": 0 },
+    { "term": "sónar istanbul", "volume": 0 },
+    { "term": "sónar+d", "volume": 0 },
+    { "term": "sónar by day", "volume": 0 }
+  ],
+  "expansion_checked": "Web search first ('what is Sónar festival Barcelona guide history', 'Sonar festival Barcelona by Day by Night guide', 'best Sónar sets of all time'); site-explorer-organic-keywords (exact) on barcelona-tourist-guide, Time Out, Mixmag, barcelonaurbana and spanishexpress, plus the owner's exports for Wikipedia and sonar.es/en; keywords-explorer-matching-terms (phrase and questions, GB); serp-overview (GB) on 'sonar festival' and 'sonar barcelona'; keywords-explorer-overview for next-year, OFFSónar, Sónar+D, edition and ownership forms; 14 September 2026. Global: sonar 2027 30, sónar istanbul 350, sónar+d 30, sónar by day 20, what is sonar festival 10 and a PAA question. See sonar-research.md.",
+  "rejected": [
+    { "term": "sonar", "volume": 4400, "why": "collision with the technology; sonar.es sits at 18" },
+    { "term": "sonar festival 2014 lineup", "volume": 150, "why": "dated past line-up" },
+    { "term": "sonar festival 2026", "volume": 50, "why": "dated; the page covers 2026 as history and targets 2027" },
+    { "term": "off sonar barcelona", "volume": 60, "why": "served by 'off sónar' and 'offsónar'; the exact phrase would be forced" },
+    { "term": "sonar lineup", "volume": 40, "why": "dated line-up intent; the official site holds it" },
+    { "term": "sonar music festival", "volume": 30, "why": "same intent as the head; the exact phrase reads unnaturally" },
+    { "term": "sonar tickets", "volume": 20, "why": "transactional; one dated FAQ answer instead" },
+    { "term": "sonar fechas", "volume": 150, "why": "Spanish-language demand (ES); a Spanish page, not this one" },
+    { "term": "dj aya", "volume": 500, "why": "navigational to an artist (DE)" },
+    { "term": "sonar kkr", "volume": 0, "why": "30 global; ownership is covered in the history section without the phrase" }
+  ]
+}

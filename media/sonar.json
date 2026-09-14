@@ -1,0 +1,74 @@
+{
+  "page": "sonar-festival-barcelona.html",
+  "seed": "sonar festival music",
+  "source": "Adapted cross-reference, September 2026: Wikipedia's list of past performers, the festival's own site and YouTube titles (2026 bill), sonar.es on ARTE at Sónar 2024, Deep House Amsterdam on Laurent Garnier and RBMA, Commons photographs of named performers. This site's catalogue (source 6 of FIGURES.md) holds 13 sets that mention Sónar, none from the festival itself; four are Beatport's OFFSónar streams. Players come from official broadcast partners' channels (ARTE Concert, Resident Advisor, DJ Mag), checked by YouTube oEmbed author and watch-page data (playable, embeddable, view count) on 14 September 2026. Fan uploads rejected even where they are the most viewed.",
+  "required_records": [
+    {
+      "title": "Ben Böhmer live",
+      "artist": "Ben Böhmer",
+      "year": 2024,
+      "set": "Ben Böhmer - Festival Sónar 2024 - ARTE Concert",
+      "why": "the most watched of ARTE's Sónar Barcelona films, 215,512 views (2026-09-14); Essential listening",
+      "sources": ["arte-concert-youtube", "sonar-es-arte-2024"],
+      "embed_id": "JaiCMTWjkJI"
+    },
+    {
+      "title": "DEX EFX X0X",
+      "artist": "Richie Hawtin",
+      "year": 2024,
+      "set": "Richie Hawtin - Festival Sónar 2024 - ARTE Concert",
+      "why": "first European outing of DEX EFX X0X, SonarClub (sonar.es); 105,085 views; Essential listening",
+      "sources": ["arte-concert-youtube", "sonar-es-arte-2024"],
+      "embed_id": "kECNP2JMqC0"
+    },
+    {
+      "title": "Kerri Chandler",
+      "artist": "Kerri Chandler",
+      "year": 2016,
+      "set": "Kerri Chandler - Live from RA's stage at Sónar, Barcelona",
+      "why": "Resident Advisor's own film of its stage inside the festival, published 22 August 2016; music section",
+      "sources": ["resident-advisor-youtube"],
+      "embed_id": "ZnPUW6XJ--8"
+    },
+    {
+      "title": "Paul Kalkbrenner at Sónar Lisboa",
+      "artist": "Paul Kalkbrenner",
+      "year": 2024,
+      "set": "Paul Kalkbrenner @ Sónar Lisboa 2024",
+      "why": "the most watched Sónar set found on an official channel, 1,989,530 views (DJ Mag, 2026-09-14); Sónar around the world",
+      "sources": ["dj-mag-youtube"],
+      "embed_id": "_YPbpWeIx2Q"
+    },
+    {
+      "title": "Adam Beyer b2b Enrico Sangiuliano",
+      "artist": "Adam Beyer, Enrico Sangiuliano",
+      "year": 2019,
+      "set": "Adam Beyer B2B Enrico Sangiuliano EPIC Techno DJ Set From Drumcode Off Sonar Barcelona",
+      "why": "Off Sónar party, published by DJ Mag 19 July 2019, 1,067,300 views; OFFSónar section",
+      "sources": ["dj-mag-youtube"],
+      "embed_id": "IeKlNAuzW8A"
+    }
+  ],
+  "figures": [
+    {"name": "Ricard Robles, Enric Palau, Sergio Caballero", "why": "founders, 1994; left October 2025", "sources": ["wikipedia", "dj-mag-2025"]},
+    {"name": "Laurent Garnier", "why": "played the first edition, 1994; Laurent plays Garnier, 2018", "sources": ["deephouseamsterdam", "sonar-es-2023-search-snippet"]},
+    {"name": "Richie Hawtin", "why": "DEX EFX X0X, first in Europe, 2024", "sources": ["sonar-es-arte-2024"]},
+    {"name": "Björk, the Chemical Brothers, Kraftwerk", "why": "past performers with years (2002; 2005 and 2015; 3D show 2013)", "sources": ["wikipedia"]},
+    {"name": "François Jozic", "why": "CEO from October 2025; Centris Group runs OFFSónar", "sources": ["dj-mag-2025"]}
+  ],
+  "images": [
+    {"file": "img/sonar/sonar-by-day-2016", "commons": "File:Sónar by Day 2016.jpg", "author": "Nachetere", "licence": "CC BY-SA 4.0", "date": "2016-06-16"},
+    {"file": "img/sonar/sonar-d-2026", "commons": "File:SONAR-D 2026.jpeg", "author": "Zblace", "licence": "CC BY-SA 4.0", "date": "2026-06-19", "note": "Llotja de Mar inferred from the file's GPS coordinates, 41°22′56″N 2°10′57″E, which match the building"},
+    {"file": "img/sonar/beastie-boys-2007", "commons": "File:Beastie Boys Sonar 2007 Barcelona Catalonia.jpg", "author": "bakameh", "licence": "CC BY 2.0", "date": "2007-06-15", "note": "Commons description names Ad-Rock"},
+    {"file": "img/sonar/justice-2008", "commons": "File:Justice Sónar 2008 - 2600809995.jpg", "author": "Gerard Romans Camps", "licence": "CC BY 2.0", "date": "2008-06-20"},
+    {"file": "img/sonar/moodymann-2010", "commons": "File:Sonar 2010 - Moodymann.jpg", "author": "acidpolly", "licence": "CC BY-SA 2.0", "date": "2010-06-19", "note": "Red Bull Music Academy logo on the DJ table"}
+  ],
+  "known_gaps": [
+    {"title": "Moderat, Sónar 2017 (1.39M views); Paul Kalkbrenner, Sónar 2013 (1.2M); Nicolas Jaar, SonarLab 2012 (540K); Fat Freddy's Drop, SónarVillage 2016 (264K)", "why": "fan uploads (Carl Halligan, UschiChannelCologne, Pedro Correia, Pedro Thomas); rejected"},
+    {"title": "Sónar's own YouTube channel", "why": "21.2K subscribers; its most viewed uploads are 2026 highlights under 1,000 views, no full historic sets"},
+    {"title": "Kraftwerk 1998", "why": "the claim that Sónar 1998 was their first show in 12 years is contradicted by Tribal Gathering, May 1997; left out"},
+    {"title": "Laurent Garnier's sunrise set, Chic 2006", "why": "only in Time Out's summary, no date or primary source; left out"},
+    {"title": "Miss Kittin 2006 photograph", "why": "CC BY 2.0 but dark and watermarked; rejected"},
+    {"title": "Sónar 94 and Sónar 95 catalogue scans", "why": "uploader's CC licence on the festival's own printed design is doubtful; rejected"}
+  ]
+}

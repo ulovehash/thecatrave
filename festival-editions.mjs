@@ -21,5 +21,6 @@ export const festivalEditions = [
   // Miami ends first; the block has to be rewritten once it has happened, even
   // though Ultra Europe (9 to 11 July) is still ahead.
   {page: 'ultra-music-festival.html', heading: 'Ultra Miami 2027 and Ultra Europe 2027', ends: '2027-03-28'},
-  {page: 'creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'}
+  {page: 'creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
+  {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'}
 ];

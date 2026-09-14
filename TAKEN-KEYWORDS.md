@@ -273,6 +273,23 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - parookaville location
 - where is parookaville
 
+## sonar-festival-barcelona.html
+
+- sonar barcelona
+- sonar festival
+- off sónar
+- sónar festival barcelona
+- offsónar
+- sónar lisbon
+- sónar festival location
+- where is sónar festival in barcelona
+- sónar by night
+- what is the sonar festival
+- sónar 2027
+- sónar istanbul
+- sónar+d
+- sónar by day
+
 ## tomorrowland-festival.html
 
 - tomorrowland 2027

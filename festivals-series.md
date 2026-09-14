@@ -24,7 +24,7 @@ September 2026.
 | 11 | Awakenings | 6,500 | 700 | volumes only |
 | 12 | EXIT | 5,200 | 400 | volumes only |
 | 13 | Movement Detroit | 4,300 | 4,000 | SERP checked: weak; TP 6,300 |
-| 14 | Sónar | 3,800 | 250 | volumes only |
+| 14 | Sónar | 3,800 | 250 | **published** `/sonar-festival-barcelona`, 2026-09-14, the owner's pick from two exports (`sonar-research.md`); related terms and stage 6 not run |
 
 \* Includes Disney's Tomorrowland land and the 2015 film.
 

@@ -378,6 +378,20 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   число побед UK Festival Awards (8 в таблице Wikipedia против «шесть раз» в статье
   о Cream); сделка Live Nation 2012 (Billboard за пейволлом, по Wikipedia); цены 2026
   приблизительные (FestivalMates); стадия 6 нет.
+- **Sónar** (2026-09-14, стадии 1, 2, 4, 5 пройдены, 3 частично, 6 нет). Владелец
+  выбрал его выгрузками Ahrefs (Wikipedia и sonar.es/en). GB (global): sonar
+  barcelona 500 (3 100, TP 700), sonar festival 450 (3 800), sonar festival
+  barcelona 100 (450), off sonar 300 (1 000), offsonar 90 (400), sonar istanbul
+  0 (350), sonar 2027 0 (30), вопросы около нуля. Статьи из веб-выдачи (Time Out,
+  Mixmag, barcelonaurbana, spanishexpress) — ноль ключей; barcelona-tourist-guide —
+  головы на поз. 6–11, ~7 визитов. SERP GB «sonar festival»: sonar.es ×5,
+  offsonar.co, YouTube, Instagram, Wikipedia (10) — статей нет. «sonar barcelona»:
+  barcelona-tourist-guide (7, 5 RD), Tripadvisor (8, 0 RD), MFW (10). PAA: What is
+  the Sonar Festival? / Is the Sonar Festival worth it? / How much do Sonar
+  Barcelona tickets cost? / What date is off Sónar 2026? Каталог: 13 сетов с
+  «Sónar», с самого фестиваля ноль (4 OFFSónar от Beatport). URL
+  /sonar-festival-barcelona одобрен владельцем, опубликовано 2026-09-14
+  (sonar-research.md). Ahrefs: 11 вызовов, ~2 600 units.
 - **Parookaville** (2026-09-13, стадии 1–5 пройдены, 6 нет). Спрос немецкий:
   голова 31 000 DE из 37 000 global (84%), с AT 500 и CH 450 немецкоязычные страны
   ~86%; US 700, GB 250. Веб-поиск первым («what is Parookaville festival»,

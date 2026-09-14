@@ -175,6 +175,14 @@ export const homeArticleCatalog = [
     image:'img/glastonbury/night-2025-320.webp',
     srcset:'img/glastonbury/night-2025-320.webp 320w,img/glastonbury/night-2025-1200.webp 1200w',
     width:1200, height:800, alt:'People on a hillside at night looking over the lit stages of Glastonbury in 2025'
+  },
+  {
+    page:'sonar-festival-barcelona.html', tags:['discovery','history','bass'], href:'/sonar-festival-barcelona', type:'Guide', topic:'Sónar',
+    title:'Sónar Festival Barcelona: History, Music and 2027 Dates',
+    description:'Three days every June in Barcelona since 1994: where Sónar happens, how a festival of advanced music grew to 150,000 people, who owns it now, OFFSónar, and Sónar 2027.',
+    image:'img/sonar/sonar-by-day-2016-320.webp',
+    srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
+    width:1200, height:801, alt:'A crowd at the SonarVillage stage at Fira Montjuïc, with the Palau Nacional behind'
   }
 ];
 

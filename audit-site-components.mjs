@@ -241,7 +241,7 @@ const checks = {
   firstFaqItemOpen: articlePages.every(page => /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
   // Both of the owner's sets, on every festival guide (owner, 2026-09-13).
   // The first mid-guide, straight after the history section; the second before the FAQ.
-  festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra','untold','coachella','lollapalooza','glastonbury'].every(name => {
+  festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra','untold','coachella','lollapalooza','glastonbury','sonar'].every(name => {
     const html = pages[name], first = html.indexOf(ownSetListening(0)), second = html.indexOf(ownSetListening(1));
     return first > html.indexOf('id="history"') && first < html.indexOf('id="music"') && second > html.indexOf('id="from-home"') && second < html.indexOf('id="faq"');
   }),
