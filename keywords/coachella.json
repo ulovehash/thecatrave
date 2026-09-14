@@ -1,0 +1,41 @@
+{
+  "page": "what-is-coachella.html",
+  "seed": "what is coachella",
+  "source": "ahrefs keywords-explorer matching-terms (US, 12-month average, 2026-09-14) and the owner's export of www.coachella.com organic keywords (subdomains, US, latest month, September 2026, marked 'export'). The export's figures are off-season and run below the 12-month averages (what is coachella 9,300 latest month against 35,000 average).",
+  "terms": [
+    { "term": "what is coachella", "volume": 35000 },
+    { "term": "where is coachella", "volume": 17000 },
+    { "term": "when is coachella", "volume": 16000 },
+    { "term": "coachella 2027", "volume": 14000, "note": "next edition, targeted by the owner's rule of 14 September 2026 (TP 5,900); refresh yearly (festival-editions.mjs)" },
+    { "term": "how long is coachella", "volume": 7200 },
+    { "term": "coachella valley", "volume": 6600 },
+    { "term": "where is coachella held", "volume": 3600 },
+    { "term": "when is coachella 2027", "volume": 3500, "note": "export" },
+    { "term": "coachella 2027 dates", "volume": 1900, "note": "export" },
+    { "term": "who owns coachella", "volume": 1800 },
+    { "term": "how many people attend coachella", "volume": 1700 },
+    { "term": "how many days is coachella", "volume": 1300 },
+    { "term": "coachella festival", "volume": 1300, "note": "export" },
+    { "term": "where does coachella take place", "volume": 1200, "note": "export" },
+    { "term": "what is coachella festival", "volume": 1200 },
+    { "term": "when did coachella start", "volume": 1100 },
+    { "term": "coachella stages", "volume": 900, "note": "export" },
+    { "term": "coachella location", "volume": 600, "note": "export" },
+    { "term": "coachella music festival", "volume": 350, "note": "export" }
+  ],
+  "expansion_checked": "Web search first ('what is Coachella festival', 'Coachella festival guide history Empire Polo Club Indio'); keywords-explorer-matching-terms on 'coachella' (US, all and questions); the owner's Ahrefs export of coachella.com organic keywords, 723 rows; 14 September 2026. TOPIC-RESEARCH.md stages 2 (competitor pages), 3 (related terms), 4 (SERP) and 6 were not run: the Ahrefs API units ran out, and the owner asked for the structure to be built from this and the page written. See coachella-research.md.",
+  "rejected": [
+    { "term": "coachella", "volume": 151000, "why": "the head term, navigational: the official site ranks 1; present on the page anyway, not targeted" },
+    { "term": "coachella 2026", "volume": 292000, "why": "dated, the past edition" },
+    { "term": "coachella 2026 lineup", "volume": 110000, "why": "dated line-up" },
+    { "term": "justin bieber coachella", "volume": 53000, "why": "an artist pairing, a different intent (so are sabrina carpenter, karol g, katseye coachella)" },
+    { "term": "coachella lineup", "volume": 42000, "why": "line-up, changes every year" },
+    { "term": "coachella tickets", "volume": 32000, "why": "transactional; ticket prices are out by the series rule" },
+    { "term": "when is coachella 2026", "volume": 26000, "why": "dated, the past edition" },
+    { "term": "coachella weekend 2", "volume": 25000, "why": "mostly dated line-up and set times; the two-weekend format is explained without targeting it" },
+    { "term": "coachella schedule", "volume": 15000, "why": "set times, dated" },
+    { "term": "coachella outfits", "volume": 9700, "why": "fashion intent" },
+    { "term": "how much are coachella tickets", "volume": 4800, "why": "ticket prices are out by the series rule" },
+    { "term": "coachella merch", "volume": 3900, "why": "shopping intent" }
+  ]
+}

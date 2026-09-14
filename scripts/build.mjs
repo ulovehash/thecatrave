@@ -30,6 +30,7 @@ export const generators = [
   'build-parookaville-article.mjs',
   'build-ultra-article.mjs',
   'build-untold-article.mjs',
+  'build-coachella-article.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',

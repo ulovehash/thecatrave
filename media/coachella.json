@@ -1,0 +1,52 @@
+{
+  "page": "what-is-coachella.html",
+  "seed": "coachella music",
+  "source": "Adapted cross-reference, September 2026: en.wikipedia's history of the festival and its headliners, 'best Coachella performances' lists found by web search (A.V. Club, Numéro, Yahoo, Men's Journal: Beyoncé 2018, Daft Punk 2006, the Cure 2009, Radiohead 2004), and view counts read from YouTube on 2026-09-14: the festival's own channel (Coachella, @Coachella) sorted by popularity and searched for 'live at coachella', 'full set' and 'sahara'; Beyoncé's and Fatboy Slim's channels searched for 'coachella'. This site's catalogue (source 6 of FIGURES.md) holds no Coachella set. Every player is oEmbed-checked 14 September 2026.",
+  "required_records": [
+    {
+      "title": "Diljit Dosanjh",
+      "artist": "Diljit Dosanjh",
+      "year": 2023,
+      "set": "Diljit Dosanjh - G.O.A.T. - Live at Coachella 2023",
+      "why": "about 10 million views on the festival's channel (2026-09-14); played in the Sahara tent on Saturday 15 April 2023 per the video description; evidence for the breadth of the Sahara in the music section",
+      "sources": ["coachella-youtube", "youtube-views"],
+      "embed_id": "o0QGw1LZpxM"
+    },
+    {
+      "title": "Losing It",
+      "artist": "FISHER",
+      "year": 2019,
+      "set": "FISHER - Losing It - Live at Coachella 2019 Friday April 12, 2019",
+      "why": "the most watched video on the festival's own channel, about 77 million views (2026-09-14); a single track rather than a full set; Essential listening",
+      "sources": ["coachella-youtube", "youtube-views"],
+      "embed_id": "oUbpmjOgmmU"
+    },
+    {
+      "title": "Fatboy Slim",
+      "artist": "Fatboy Slim",
+      "year": 2026,
+      "set": "Fatboy Slim - Coachella 2026",
+      "why": "a full set, 1:56:47, about 1.1 million views on his own channel (2026-09-14), footage by Goldenvoice; Essential listening",
+      "sources": ["artist-youtube", "youtube-views"],
+      "embed_id": "fQqusBEnwM4"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Beyoncé, 2018",
+      "why": "the performance every best-of list puts first; released as the Netflix film Homecoming, and a search for 'coachella' on her YouTube channel returned no upload of it; named in the text with the livestream figure, not embedded"
+    },
+    {
+      "title": "Daft Punk, 2006",
+      "why": "cited by Wikipedia as one of the festival's most memorable shows; no official upload found on the festival's channel; named in the text"
+    },
+    {
+      "title": "Coachella 2026 full sets",
+      "why": "the festival's channel carries 2026 playlists of full sets (Yuma, and Quasar, Do LaB, Day 0 and Sahara DJ sets, with HUGEL and Mahmut Orhan); their view counts were not read, so the listening uses the two most watched items found"
+    },
+    {
+      "title": "Sabrina Carpenter x Madonna, 2026",
+      "why": "915,000 views on the festival's channel; a pop moment, not a set, and the listening block keeps to the festival's most watched and a full set"
+    }
+  ]
+}

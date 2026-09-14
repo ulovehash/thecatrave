@@ -457,10 +457,41 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   (59 RD, 5), yourope, MFW, Trustpilot, Skiddle — статей нет. PAA: Is Untold the
   biggest festival in the world? / Where is UNTOLD Festival? / Where does the UNTOLD
   Festival take place? / Who is performing at Untold 2026? Каталог: 2 сета (Pan-Pot
-  2018, HOSH). URL /untold-festival (untold-research.md). Структура одобрена и статья
-  написана 2026-09-14, не запушена. Ahrefs: 11 вызовов (matching ×2, organic ×4, serp ×2,
-  overview ×3). Не проверено: «дело Богдана Буты» из заголовка YouTube в выдаче;
-  «крупнейший город Трансильвании» без источника; стадии 3 и 6 нет.
+  2018, HOSH). URL /untold-festival (untold-research.md). Опубликовано 2026-09-14
+  (d6683c1). Стадия 3 пройдена после вопроса владельца (новых ключей нет, 4 имени
+  добавлены), стадия 6 нет. Ahrefs: 13 вызовов. Не проверено: «дело Богдана Буты» из
+  заголовка YouTube в выдаче; «крупнейший город Трансильвании» без источника.
+- **Defqon.1** (2026-09-14, стадии 1–5 и 3 пройдены, 6 ждёт разрешения владельца на
+  отдельного агента). «defqon 1» 11 000 global: DE 4 100, NL 1 800, FR 1 000, US 700, BE
+  500, GB 450, AT 400; «defqon» 9 600: NL 4 000, DE 1 900. Спрос — название фестиваля в
+  DE и NL, нидерландский хвост на нидерландском (afgelast 1 500, hitte 800, wanneer is
+  2026 800, waar is 400): картина Parookaville. Коллизия DEFCON (defcon 1 US 9 700).
+  Английские формы (global): defqon festival 1 400 (parent «defcon 1»), defqon 1 location
+  600 (TP 800), defqon 2027 600, defqon 1 festival 350 (TP 800), defqon 1 cancelled 300,
+  defqon australia 250, where is defqon 1 200 (TP 600), stages 200. Related: q dance
+  1 400, hardstyle 9 300 (гайда нет, в TAKEN нет). Wikipedia EN «Defqon.1»: в DE/NL на
+  2–3 странице; поз. 1 по where is defqon 1 GB, defqon 1 festival US, defqon australia AU.
+  NL Wikipedia держит нидерландские формы. SERP US «defqon 1» — Q-dance ×4, Instagram,
+  Wikipedia, Reddit, статей нет; US «where is defqon 1» — Tripadvisor 1 RD поз. 7; GB
+  «defqon 1 location» — Tripadvisor 0 RD поз. 6; DE «defqon 1» — плейлисты YouTube,
+  мерч Q-dance, переведённый Reddit, статей нет. PAA: Why did Defqon.1 get cancelled? /
+  What does Defqon.1 mean? / Is Defqon.1 the biggest festival? / Is Defqon.1 only
+  hardstyle? / Where is Defqon.1 hosted? + 4 немецких. 2026 отменён 26 июня из-за первого
+  в NL красного уровня жары; 2027 — 24–27 июня (по прессе, страница Q-dance без JS
+  пустая). Предложен URL /defqon-1-festival (defqon-research.md). Ahrefs: 15 вызовов.
+  Отложен владельцем 2026-09-14 ради более популярных фестивалей.
+- **Coachella** (2026-09-14, начато; стадии 1 и 3-matching пройдены, остальные нет:
+  кончился лимит Ahrefs, 2 единицы, сброс 2026-09-20). Голова 151 000 US (523 000
+  global, TP 205 000, parent «coachella lineup»). Слушательские вечные US: what is
+  coachella 35 000 (TP 16 000, свой parent topic — паттерн Burning Man), where is
+  17 000, when is 16 000, how long 7 200, where is coachella held 3 600, who owns 1 800,
+  how many people attend 1 700, when did coachella start 1 100; coachella 2027 14 000
+  (TP 5 900). Датированные и артистские пары — сотни тысяч, исключаются. Владелец
+  прислал выгрузку ключей coachella.com (723 строки): официальный сайт 1-й по where-
+  формам (/getting-here), 3-й по when is, 4-й по what is coachella. По его решению
+  статья написана 2026-09-14 без стадий 2, 4, 6: URL /what-is-coachella, не запушена
+  (coachella-research.md). После сброса 20.09: organic Wikipedia/Britannica, related,
+  SERP what is/where is, стадия 6. PAA не сняты: Google отдал CAPTCHA.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

@@ -16,8 +16,8 @@ September 2026.
 | 3 | Creamfields | 43,000 | 1,500 | **published** `/creamfields-festival` |
 | 4 | Parookaville | 37,000 | 700 | **published** `/parookaville-festival` |
 | 5 | Ultra Music Festival (+ Ultra Europe as a section) | 12,000 + 6,600 | 4,300 | **published** `/ultra-music-festival` |
-| 6 | Untold | 11,000 | 700 | **written** `/untold-festival`, 2026-09-14, not pushed (`untold-research.md`) |
-| 7 | Defqon.1 | 11,000 | 700 | volumes only |
+| 6 | Untold | 11,000 | 700 | **published** `/untold-festival` |
+| 7 | Defqon.1 | 11,000 | 700 | researched 2026-09-14 (stages 1 to 5 and 3), then parked by the owner the same day in favour of more popular festivals (`defqon-research.md`) |
 | 8 | Dekmantel | 8,000 | 500 | volumes only |
 | 9 | Amsterdam Dance Event | 7,900 | 700 | volumes only |
 | 10 | Monegros | 7,800 | 100 | volumes only |
@@ -27,6 +27,48 @@ September 2026.
 | 14 | Sónar | 3,800 | 250 | volumes only |
 
 \* Includes Disney's Tomorrowland land and the 2015 film.
+
+### More popular festivals, measured 2026-09-14
+
+The owner asked for festivals more popular than the rest of the list above.
+Names from web searches for "biggest music festivals in the world" (RateHawk,
+Crewfare, Guitar Lobby's thirty, Festivism and others), measured in Ahrefs
+(overview, global volume, US volume, US traffic potential). Genre as the lists
+give it. Not yet researched beyond the head term.
+
+| Festival | Global | US | TP (US) | Genre |
+|---|---:|---:|---:|---|
+| Coachella | 523,000 | 151,000 | 205,000 | pop, rock, hip-hop, EDM |
+| Lollapalooza | 340,000 | 130,000 | 95,000 | alt-rock, hip-hop, EDM |
+| Glastonbury | 193,000 | 20,000 | 11,000 | multiple |
+| Rock in Rio | 94,000 | 1,200 | 250 | rock, pop |
+| Hellfest | 93,000 | 6,000 | 1,100 | metal |
+| Roskilde | 56,000 | 1,400 | 1,200 | multiple |
+| Rock am Ring | 50,000 | 1,300 | 1,100 | rock, metal |
+| Download | 41,000 | 1,100 | 80 | metal |
+| Primavera Sound | 37,000 | 3,400 | 3,200 | indie |
+| Reading | 35,000 | 1,200 | 150 | rock |
+| Isle of Wight | 33,000 | 700 | 70 | pop, rock |
+| Bonnaroo | 32,000 | 27,000 | 43,000 | multiple |
+| Rock Werchter | 25,000 | 350 | 0 | rock, pop |
+| Outside Lands | 24,000 | 22,000 | 27,000 | multiple |
+| Boom | 24,000 | 1,100 | 700 | psytrance |
+| NOS Alive | 24,000 | 400 | 30 | multiple |
+| Benicàssim | 19,000 | 300 | 70 | multiple |
+| Summerfest | 15,000 | 11,000 | 15,000 | multiple |
+| Sziget | 12,000 | 900 | 900 | multiple |
+| Green Man | 12,000 | 350 | 70 | indie |
+
+Below 11,000: Donauinselfest 10,000, Mad Cool 8,500, Governors Ball 7,600
+(TP 40,000), New Orleans Jazz Fest 7,400 (TP 35,000), Fuji Rock 5,000,
+Pol'and'Rock 3,600, Montreal Jazz Festival 3,300, Mawazine 2,900, Austin City
+Limits 1,300 (TP 68,000, parent "acl lineup 2026"). Ahrefs: 3 calls.
+
+The owner chose Coachella first (2026-09-14). The Ahrefs units ran out after
+stage 1; the owner sent an export of coachella.com's keywords and asked for the
+page to be built from it. **Written** `/what-is-coachella`, 2026-09-14, not
+pushed (`coachella-research.md`); stages 2, 4 and 6 to run after the units
+reset on 2026-09-20.
 
 Order: by search volume and traffic potential, never by whether the demand
 is American (the owner, 13 September 2026). EDC sits above Creamfields and

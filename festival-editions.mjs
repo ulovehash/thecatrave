@@ -9,6 +9,7 @@
 // official site, read on 2026-09-14.
 export const festivalEditions = [
   {page: 'untold-festival.html', heading: 'Untold 2027', ends: '2027-08-08'},
+  {page: 'what-is-coachella.html', heading: 'Coachella 2027', ends: '2027-04-18'},
   {page: 'tomorrowland-festival.html', heading: 'Tomorrowland 2027', ends: null},
   {page: 'edc-las-vegas.html', heading: 'EDC Las Vegas 2027', ends: '2027-05-23'},
   {page: 'what-is-burning-man.html', heading: 'Burning Man 2027', ends: '2027-09-06'},

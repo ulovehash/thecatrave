@@ -151,6 +151,14 @@ export const homeArticleCatalog = [
     image:'img/untold/main-stage-2019-320.webp',
     srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
     width:1200, height:900, alt:'A packed crowd with phone lights in front of the Untold main stage at night in 2019'
+  },
+  {
+    page:'what-is-coachella.html', tags:['discovery','history','bass'], href:'/what-is-coachella', type:'Guide', topic:'Coachella',
+    title:'What Is Coachella? Where It Is, When, and the Music',
+    description:'Two weekends every April at the Empire Polo Club in Indio: when Coachella 2027 is, how long it lasts, how a festival that lost money in 1999 grew, and what plays in the Sahara.',
+    image:'img/coachella/grounds-2018-320.webp',
+    srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
+    width:1200, height:677, alt:'Festivalgoers on the grass at Coachella in 2018, palm trees and desert mountains behind them'
   }
 ];
 

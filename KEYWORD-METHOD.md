@@ -52,6 +52,16 @@ without anyone checking that phrase, worth 1,400 a month.
 
 ## 2. Expand
 
+Check the Ahrefs balance before a pass. `subscription-info-limits-and-usage`
+is free; call it before the first Ahrefs request of a session, tell the owner
+what share of the month's units is already used, report it again after each
+topic, and stop to warn at 50, 75 and 90 per cent with what the remaining work
+would cost. The pool is shared with other keys in the workspace (400,000 units
+a month, reset on the 20th), and one `serp-overview` costs about 2,000. On
+14 September 2026 a session emptied it without a single check and the
+Coachella research stopped after stage 1 (`defects.json`,
+ahrefs-units-unwatched).
+
 `keywords-explorer-related-terms` on each seed, then
 `keywords-explorer-matching-terms` when it is working. Take what comes back,
 not what you expected.

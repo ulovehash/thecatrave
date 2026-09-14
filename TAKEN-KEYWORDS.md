@@ -68,6 +68,28 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - black rock desert
 - larry harvey
 
+## what-is-coachella.html
+
+- what is coachella
+- where is coachella
+- when is coachella
+- coachella 2027
+- how long is coachella
+- coachella valley
+- where is coachella held
+- when is coachella 2027
+- coachella 2027 dates
+- who owns coachella
+- how many people attend coachella
+- how many days is coachella
+- coachella festival
+- where does coachella take place
+- what is coachella festival
+- when did coachella start
+- coachella stages
+- coachella location
+- coachella music festival
+
 ## creamfields-festival.html
 
 - creamfields 2027

@@ -390,6 +390,17 @@
         "file": "festivals-series.md",
         "contains": "No drum and bass written in where nobody asked for it"
       }
+    },
+    {
+      "id": "ahrefs-units-unwatched",
+      "found": "2026-09-14",
+      "by": "owner",
+      "what": "A long session (Untold, the 2027 blocks, Defqon.1, the more-popular-festivals measurement, Coachella) ran the Ahrefs workspace pool from unknown to 399,998 of 400,000 units without once checking the balance or telling the owner how much was left. The Coachella research stopped after stage 1, six days before the reset. The balance check, subscription-info-limits-and-usage, is free and was found only after the limit was hit.",
+      "should_have_caught": "KEYWORD-METHOD.md and research-token-economy asked for small pulls but never for the balance, so economy per call looked like enough while the pool, shared with other keys, emptied",
+      "fix": {
+        "file": "KEYWORD-METHOD.md",
+        "contains": "Check the Ahrefs balance before a pass"
+      }
     }
   ]
 }
