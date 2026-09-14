@@ -1,0 +1,69 @@
+{
+  "page": "untold-festival.html",
+  "seed": "untold music",
+  "source": "Adapted cross-reference, September 2026: the headliners by year on en.wikipedia (2015 to 2026), Pollstar on 2026, DJ Mag on Armin van Buuren's 2019 set, arminvanbuuren.com on his 2017 set, and view counts read from YouTube on 2026-09-14: the festival's own channel (UNTOLD, @untoldfestival) sorted by popularity, and searches for 'untold' on the channels of Armin van Buuren, Steve Aoki, Dimitri Vegas & Like Mike and David Guetta. This site's catalogue (source 6 of FIGURES.md) holds two Untold sets, both Mixmag techno films from 2018. Every player is oEmbed-checked 14 September 2026.",
+  "required_records": [
+    {
+      "title": "official aftermovie from 2018",
+      "artist": "UNTOLD",
+      "year": 2018,
+      "set": "UNTOLD Festival 2018 | Official Aftermovie (4K)",
+      "why": "the most watched video on the festival's own channel, about 3 million views (2026-09-14); evidence for why the festival is famous, and the edition the 2018 photograph shows",
+      "sources": ["untold-youtube", "youtube-views"],
+      "embed_id": "o1u2sT8ah58"
+    },
+    {
+      "title": "Pan-Pot",
+      "artist": "Pan-Pot",
+      "year": 2018,
+      "set": "PAN-POT techno set @ Untold, Romania 2018",
+      "why": "one of the two Untold sets in the catalogue, on Mixmag's channel, 153,212 views in selector-data; evidence for the techno stage in the music section",
+      "sources": ["catalogue", "mixmag-youtube"],
+      "embed_id": "rk3SYpd5HSc"
+    },
+    {
+      "title": "Armin van Buuren",
+      "artist": "Armin van Buuren",
+      "year": 2017,
+      "set": "Armin van Buuren live at Untold Festival 2017",
+      "why": "the most watched Untold set found anywhere, about 7.9 million views on his own channel (2026-09-14), a five-and-a-half-hour main stage set of 125 trance tracks on 5 August 2017; he headlined each of the first five editions; Essential listening",
+      "sources": ["artist-youtube", "youtube-views", "en-wikipedia-headliners"],
+      "embed_id": "DjQCkSSblIk"
+    },
+    {
+      "title": "Steve Aoki",
+      "artist": "Steve Aoki",
+      "year": 2021,
+      "set": "Steve Aoki Untold Festival Headline Set 2021",
+      "why": "about 532,000 views on his own channel (2026-09-14), the most watched Untold set by an artist other than Armin found in the channel searches; on almost every bill since 2017; Essential listening",
+      "sources": ["artist-youtube", "youtube-views", "en-wikipedia-headliners"],
+      "embed_id": "402OrPvfYlU"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Armin van Buuren, 2019",
+      "why": "the seven-and-a-half-hour set of more than 130 tracks (DJ Mag), on his channel as cFqWyWr-SII; named in the text, not embedded, so the listening is not two Armin sets"
+    },
+    {
+      "title": "Armin van Buuren, 2025",
+      "why": "522,000 views on his channel; left out for the 2017 set's larger count"
+    },
+    {
+      "title": "Lost Frequencies, UNTOLD Overnight",
+      "why": "the most watched full set on the festival's channel (430,000), but a stream from 1 May 2020, not the festival"
+    },
+    {
+      "title": "Martin Garrix, 2026",
+      "why": "a full 2026 set is on YouTube, but on a fan channel (Joey Garrix), not his or the festival's, so not used"
+    },
+    {
+      "title": "Dimitri Vegas & Like Mike, David Guetta",
+      "why": "headliners of the first edition; a search for 'untold' on their channels returned no Untold set"
+    },
+    {
+      "title": "HOSH",
+      "why": "the other catalogue set from Untold (Mixmag, 2018, 76,720 views); left out for Pan-Pot's larger count"
+    }
+  ]
+}

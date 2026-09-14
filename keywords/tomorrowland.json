@@ -3,6 +3,7 @@
   "seed": "tomorrowland",
   "source": "ahrefs keywords-explorer, September 2026, US volume (global in TOPIC-DOSSIERS.md)",
   "terms": [
+    { "term": "tomorrowland 2027", "volume": 16000, "note": "next edition, targeted by the owner's rule of 14 September 2026; dates not announced when written; refresh yearly (festival-editions.mjs)" },
     { "term": "tomorrowland festival", "volume": 2100 },
     { "term": "where is tomorrowland", "volume": 1900 },
     { "term": "tomorrowland belgium", "volume": 1700 },

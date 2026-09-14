@@ -9,6 +9,25 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - bass music
 - what is bass music?
 
+## best-clubs-in-berlin.html
+
+- best clubs in berlin
+- best berlin clubs
+- top clubs in berlin
+- famous clubs in berlin
+- most famous club in berlin
+- best techno clubs in berlin
+- berlin techno clubs
+- berlin night clubs
+- berlin clubs
+- how to get into berghain
+- what is berghain
+- berghain door policy
+- berlin club dress code
+- berlin club culture
+- berlin nightlife
+- berlin techno
+
 ## best-boiler-room-sets.html
 
 - boiler room set
@@ -32,6 +51,41 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - breakbeat definition
 - breakbeat genre
 
+## what-is-burning-man.html
+
+- what is burning man
+- burning man 2027
+- where is burning man
+- black rock city
+- what happens at burning man
+- mayan warrior
+- robot heart
+- burning man art
+- is burning man a music festival
+- burning man history
+- burning man principles
+- baker beach
+- black rock desert
+- larry harvey
+
+## creamfields-festival.html
+
+- creamfields 2027
+- creamfields south
+- where is creamfields
+- creamfields location
+- creamfields festival
+- when is creamfields
+- creamfields capacity
+- how old do you have to be to go to creamfields
+- creamfields warrington
+- where is creamfields festival
+- creamfields steel yard
+- creamfields uk
+- how much are creamfields tickets
+- creamfields attendance
+- what is creamfields
+
 ## drum-and-bass-guide.html
 
 - drum and bass
@@ -54,6 +108,24 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - riddim
 - future garage
 - dubstep meaning
+
+## edc-las-vegas.html
+
+- edc las vegas
+- edc las vegas 2027
+- electric daisy carnival
+- edc vegas
+- edc mexico
+- what does edc stand for
+- what is edc las vegas
+- edclv
+- electric daisy carnival orlando
+- edc stages
+- when is edc las vegas
+- where is edc las vegas
+- edc las vegas location
+- how many people attend edc
+- when did edc start
 
 ## how-to-find-new-music.html
 
@@ -85,6 +157,59 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - jungle dnb
 - jungle vs drum and bass
 
+## live-dj-sets.html
+
+- what is boiler room
+- live sets
+- what is a boiler room set
+- what is a boiler room party
+- live dj sets
+- live dj set
+- what does nts stand for
+- who owns boiler room
+
+## best-electronic-music-clubs-in-london.html
+
+- clubs in london
+- best clubs in london
+- london clubs
+- night clubs in london
+- london nightclubs
+- best nightclubs in london
+- clubbing in london
+- famous clubs in london
+- ministry of sound
+
+## parookaville-festival.html
+
+- parookaville festival
+- parookaville 2027
+- parookaville weeze
+- parookaville mainstage
+- bill parooka
+- parookaville location
+- where is parookaville
+
+## tomorrowland-festival.html
+
+- tomorrowland 2027
+- tomorrowland festival
+- where is tomorrowland
+- tomorrowland belgium
+- tomorrowland thailand
+- tomorrowland winter
+- what is tomorrowland
+- tomorrowland location
+- when is tomorrowland
+- tomorrowland fire
+- tomorrowland music festival
+- tomorrowland usa
+- tomorrowland attendance
+- how much are tomorrowland tickets
+- how many people go to tomorrowland
+- who owns tomorrowland
+- tomorrowland capacity
+
 ## uk-electronic-music-evolution.html
 
 - uk electronic music
@@ -108,3 +233,39 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - uk garage classics
 - garage house
 - armand van helden
+
+## ultra-music-festival.html
+
+- ultra miami
+- ultra miami 2027
+- ultra europe 2027
+- ultra music festival
+- ultra europe
+- ultra split
+- ultra music festival miami
+- ultra festival
+- ultra croatia
+- what is ultra
+- ultra festival croatia
+- ultra europe split
+- ultra festival split
+- where is ultra music festival
+- ultra music festival location
+- when is ultra miami
+- what is ultra music festival
+- ultra miami location
+
+## untold-festival.html
+
+- untold festival
+- untold 2027
+- untold cluj
+- untold festival 2027
+- untold festival romania
+- untold music festival
+- untold live
+- untold festival cluj
+- untold cluj napoca
+- untold festival location
+- where is untold festival
+- what is untold festival

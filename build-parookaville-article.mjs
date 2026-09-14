@@ -142,6 +142,16 @@ function render(text) {
   }).join('\n');
 }
 
+// A section whose body carries ### subsections renders each as its own H3.
+function renderWithSubsections(text, anchors) {
+  const [lead, ...blocks] = text.split(/\n### /);
+  if (blocks.length !== anchors.length) throw new Error(`Expected ${anchors.length} subsections, found ${blocks.length}`);
+  return [render(lead), ...blocks.map((block, i) => {
+    const [heading, ...rest] = block.split('\n');
+    return `<h3 id="${anchors[i]}">${inline(heading.trim())}</h3>\n${render(rest.join('\n'))}`;
+  })].join('\n');
+}
+
 const answer = paras(getSection('Answer'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
@@ -150,7 +160,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where Parookaville happens', title: 'Where Parookaville happens.'},
+  {id: 'where', heading: 'Where Parookaville happens', title: 'Where Parookaville happens.', subsections: ['parookaville-2027']},
   {id: 'how-big', heading: 'How big Parookaville is', title: 'How big Parookaville is.'},
   {id: 'history', heading: 'A short history, and who owns Parookaville', title: 'A short history, and who owns Parookaville.'},
   {id: 'famous', heading: 'Why Parookaville is famous', title: 'Why Parookaville is famous.'},
@@ -162,7 +172,8 @@ const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {i
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const sectionHtml = sections.map(s => articleSection({
-  id: s.id, title: s.title, kicker: s.kicker, bodyHtml: render(getSection(s.heading))
+  id: s.id, title: s.title, kicker: s.kicker,
+  bodyHtml: s.subsections ? renderWithSubsections(getSection(s.heading), s.subsections) : render(getSection(s.heading))
 }));
 
 const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;

@@ -141,7 +141,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'black-rock-city', heading: 'Black Rock City', title: 'Black Rock City.'},
+  {id: 'black-rock-city', heading: 'Black Rock City', title: 'Black Rock City.', subsections: ['burning-man-2027']},
   {id: 'what-happens', heading: 'What happens at Burning Man', title: 'What happens at Burning Man.'},
   {id: 'principles', heading: 'The ten principles', title: 'The ten principles.'},
   {id: 'music', heading: 'Is Burning Man a music festival?', title: 'Is Burning Man a music festival?', kicker: 'The music', subsections: ['sound-camps', 'robot-heart', 'mayan-warrior']},

@@ -38,6 +38,10 @@ Mexico City has also been where new ideas are tried first. In 2022 EDC Mexico de
 
 EDC UK ran from 2013 to 2016, by its third year at the National Bowl in Milton Keynes; the 2017 edition was cancelled. Other editions have come and gone: Puerto Rico from 2009, São Paulo in 2015, New Delhi in 2016, Chiba in Japan in 2018 and 2019, Seoul Land in South Korea in 2019, and Phuket in Thailand from 2025. In 2023 Insomniac added EDSea, a festival cruise from Miami to the Bahamas.
 
+### EDC Las Vegas 2027
+
+EDC Las Vegas 2027 runs over two weekends for the first time: EDC Dusk on 14 to 16 May and EDC Dawn on 21 to 23 May 2027, at the Las Vegas Motor Speedway. The festival calls the whole stretch, 13 to 24 May, the Dusk Till Dawn experience.
+
 ## How big EDC Las Vegas is
 
 How many people attend EDC? More than 500,000 over the three nights. The record is 525,000, set in 2023, and the 2026 edition, the 30th anniversary, sold out and welcomed more than 500,000 again. Wikipedia describes EDC Las Vegas as the largest electronic dance music festival worldwide.

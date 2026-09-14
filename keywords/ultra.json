@@ -4,6 +4,8 @@
   "source": "ahrefs keywords-explorer and site-explorer, September 2026. US volume unless 'market' says otherwise; global in TOPIC-DOSSIERS.md. Ultra Europe demand is spread across Europe, so its forms carry the market where it is largest.",
   "terms": [
     { "term": "ultra miami", "volume": 6900 },
+    { "term": "ultra miami 2027", "volume": 800, "note": "next edition, targeted by the owner's rule of 14 September 2026 (TP 3,800); refresh yearly (festival-editions.mjs)" },
+    { "term": "ultra europe 2027", "volume": 200, "note": "next edition, same rule" },
     { "term": "ultra music festival", "volume": 4300 },
     { "term": "ultra europe", "volume": 1600 },
     { "term": "ultra split", "volume": 900, "market": "HR (global 2,700, TP 2,300 in HR)" },

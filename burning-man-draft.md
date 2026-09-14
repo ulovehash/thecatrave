@@ -20,6 +20,10 @@ The city is laid out as an arc, like most of a clock face. Radial streets are na
 
 Almost everything in Black Rock City is brought by the people who live in it. Groups register as theme camps and build something for everyone else: a bar that gives drinks away, a dome, a stage, a kitchen. There is a gate, a ticket and an organising body, the Burning Man Project, a nonprofit since 2013. Most of the rest is built by participants.
 
+### Burning Man 2027
+
+Burning Man 2027 runs from 29 August to 6 September 2027, and its theme is Spellbound.
+
 ## What happens at Burning Man
 
 The honest answer to "what do you actually do at Burning Man" is: whatever the city offers that day, and whatever you brought to offer it back. There is no schedule from the organisers beyond the burns. Days are spent on bicycles crossing the playa to look at art, visiting camps, sheltering from heat and dust storms. Nights are when the art cars come out and the sound camps start.

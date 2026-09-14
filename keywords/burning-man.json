@@ -4,6 +4,7 @@
   "source": "ahrefs keywords-explorer, September 2026, US volume",
   "terms": [
     { "term": "what is burning man", "volume": 22000 },
+    { "term": "burning man 2027", "volume": 1700, "note": "next edition, targeted by the owner's rule of 14 September 2026; refresh yearly (festival-editions.mjs)" },
     { "term": "where is burning man", "volume": 8300 },
     { "term": "black rock city", "volume": 7800 },
     { "term": "what happens at burning man", "volume": 3600 },

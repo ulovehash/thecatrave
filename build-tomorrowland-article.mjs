@@ -142,7 +142,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where Tomorrowland happens', title: 'Where Tomorrowland happens.', subsections: ['winter', 'thailand', 'brasil', 'usa']},
+  {id: 'where', heading: 'Where Tomorrowland happens', title: 'Where Tomorrowland happens.', subsections: ['winter', 'thailand', 'brasil', 'usa', 'tomorrowland-2027']},
   {id: 'how-big', heading: 'How big Tomorrowland is', title: 'How big Tomorrowland is.'},
   {id: 'history', heading: 'A short history, and who owns Tomorrowland', title: 'A short history, and who owns Tomorrowland.'},
   {id: 'famous', heading: 'Why Tomorrowland got so famous', title: 'Why Tomorrowland got so famous.'},

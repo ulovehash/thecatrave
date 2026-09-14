@@ -143,6 +143,14 @@ export const homeArticleCatalog = [
     image:'img/ultra/bayfront-2014-320.webp',
     srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
     width:1200, height:900, alt:'Bayfront Park in Miami seen from above during Ultra Music Festival 2014'
+  },
+  {
+    page:'untold-festival.html', tags:['discovery','history','bass'], href:'/untold-festival', type:'Guide', topic:'Untold',
+    title:'Untold Festival: Where It Is, How Big, and the Music',
+    description:'Four days every August in Cluj-Napoca: when Untold 2027 is, where it happens, how a European Youth Capital party reached 500,000 admissions, and what plays past the main stage.',
+    image:'img/untold/main-stage-2019-320.webp',
+    srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'A packed crowd with phone lights in front of the Untold main stage at night in 2019'
   }
 ];
 

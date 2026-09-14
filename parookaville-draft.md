@@ -20,6 +20,10 @@ Some of the base is part of the show. The Cloud Factory stage is built into an o
 
 When is Parookaville? Every year in the middle of July, over three days from Friday to Sunday. In 2026 that was 17 to 19 July. It is for adults only: the festival's terms admit ticket holders who are 18 or over, and ask for a printed ticket and valid ID at the first entry.
 
+### Parookaville 2027
+
+Parookaville 2027 is on 16 to 18 July 2027, Friday to Sunday, at Weeze Airport.
+
 ## How big Parookaville is
 
 Parookaville capacity is about 75,000 people a day, the figure reported for 2024 and 2025, and the festival reports 225,000 admissions across its three days. The Mainstage alone holds 45,000.

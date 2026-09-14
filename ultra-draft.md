@@ -22,6 +22,10 @@ The timing is the point. Ultra is held alongside the Winter Music Conference, th
 
 The Ultra Miami location is also a matter of rules. The licence the city of Miami approved in 2019 caps the event site at 55,000 people, a figure that can only rise with the city's approval, and requires at least $2 million a year in payments to the city. In 2022 Billboard reported that Ultra would stay at Bayfront Park through 2027.
 
+### Ultra Miami 2027 and Ultra Europe 2027
+
+Ultra Miami 2027 is on 26 to 28 March 2027 at Bayfront Park. Ultra Europe 2027 follows on 9 to 11 July 2027 in Split.
+
 ## How big Ultra is
 
 How many people go to Ultra Music Festival? About 165,000 across the three days: the figure reported for every edition at Bayfront Park since 2014, and again for 2026, when visitors came from 100 countries. It is not a crowd that is ever in one place. Split evenly, 165,000 over three days is 55,000 a day, the same number as the cap in the city's licence.

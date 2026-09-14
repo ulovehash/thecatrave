@@ -29,6 +29,7 @@ export const generators = [
   'build-creamfields-article.mjs',
   'build-parookaville-article.mjs',
   'build-ultra-article.mjs',
+  'build-untold-article.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',

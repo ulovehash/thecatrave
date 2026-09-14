@@ -439,6 +439,28 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   Pendulum). Не проверено: дата первого Ultra (13 или 12 марта 1999), посещаемость
   2012 (155 000 или 165 000), первый год Resistance (2015 или 2016), посещаемость Ultra
   Europe 2026; стадия 6 нет.
+- **Untold** (2026-09-14, стадии 1, 2, 4, 5 пройдены; 3 и 6 нет). Голова «untold»
+  29 000 global, RO 14 000, коллизии Dracula Untold (65 000 global) и Club de Nuit
+  Untold (духи, 29 000). «untold festival» — английская форма без коллизий, 11 000
+  global, RO всего 1 000; по Wikipedia EN (последний месяц): RO 3 100, IT/PL/GB по
+  2 000, ES 1 600, US/CA по 900, MX 600, NL 500, NO 450. В отличие от Parookaville,
+  английская форма международная. Веб: «what is Untold festival Cluj-Napoca»,
+  «Untold festival guide history» → официальный, Wikipedia, листинги, гиды Romanian
+  Friend, Welcome Pickups, Take Your Backpack. Organic (exact): Wikipedia EN — поз. 1
+  по untold festival в US/CA/AU/GR, трафик малый; Romanian Friend — untold festival CA
+  900 (поз. 1), NO 450 (3), untold romania GB 100 (1); Welcome Pickups и Take Your
+  Backpack — ноль. Matching RO (≥100, топ-50): датированные/транзакционные ~20 000,
+  слушательские ~2 000 (untold festival 1 000, TP 25 000), спонсоры и артисты ~2 700,
+  коллизии ~800, продюсерских 0. Matching US: untold festival 700 (TP 350), music
+  festival 100, romania 90, остальное ≤70. SERP US «untold festival»: статей нет;
+  соцсети, форумы, youbeat tag (DR10, 0 RD, поз. 10). SERP GB: официальный, Wikipedia
+  (59 RD, 5), yourope, MFW, Trustpilot, Skiddle — статей нет. PAA: Is Untold the
+  biggest festival in the world? / Where is UNTOLD Festival? / Where does the UNTOLD
+  Festival take place? / Who is performing at Untold 2026? Каталог: 2 сета (Pan-Pot
+  2018, HOSH). URL /untold-festival (untold-research.md). Структура одобрена и статья
+  написана 2026-09-14, не запушена. Ahrefs: 11 вызовов (matching ×2, organic ×4, serp ×2,
+  overview ×3). Не проверено: «дело Богдана Буты» из заголовка YouTube в выдаче;
+  «крупнейший город Трансильвании» без источника; стадии 3 и 6 нет.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

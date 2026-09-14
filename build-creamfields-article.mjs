@@ -151,7 +151,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where Creamfields happens', title: 'Where Creamfields happens.', subsections: ['south', 'international']},
+  {id: 'where', heading: 'Where Creamfields happens', title: 'Where Creamfields happens.', subsections: ['south', 'international', 'creamfields-2027']},
   {id: 'how-big', heading: 'How big Creamfields is', title: 'How big Creamfields is.'},
   {id: 'history', heading: 'A short history, and who owns Creamfields', title: 'A short history, and who owns Creamfields.'},
   {id: 'famous', heading: 'Why Creamfields is famous', title: 'Why Creamfields is famous.'},

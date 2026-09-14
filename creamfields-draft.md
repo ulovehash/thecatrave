@@ -32,6 +32,10 @@ Outside Creamfields UK, the name has been used for editions in more than twenty 
 
 The editions abroad are separate events with their own dates and bills. The rest of this guide is about the original, in Cheshire.
 
+### Creamfields 2027
+
+Creamfields 2027 is on Thursday 26 to Sunday 29 August 2027 at Daresbury, the August bank holiday weekend as usual. The festival is billing it as 30 years of Creamfields.
+
 ## How big Creamfields is
 
 Creamfields capacity is 70,000 people a day, the figure Wikipedia gives, and reports on the 2026 edition put the crowd at more than 80,000 across the four days.

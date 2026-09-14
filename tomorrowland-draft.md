@@ -38,6 +38,10 @@ There is no Tomorrowland USA festival at the time of writing, in September 2026.
 
 During the 2026 festival, a banner in DreamVille read "Tomorrowland Uniting the World in 2027" and listed Las Vegas among its destinations. Tomorrowland has not announced a Las Vegas festival, dates or a venue, and when asked, its representatives pointed to UNITY.
 
+### Tomorrowland 2027
+
+Tomorrowland 2027 dates have not been announced yet, as of September 2026. The festival now takes the last two weekends of July, Friday to Sunday, and the official site will publish the dates first.
+
 ## How big Tomorrowland is
 
 Tomorrowland capacity is 200,000 people per weekend. Two weekends give the familiar total of 400,000, the figure for 2017 to 2019, for 2023 and 2024, and again for 2026, when visitors came from more than 200 countries.

@@ -1,0 +1,42 @@
+{
+  "page": "untold-festival.html",
+  "seed": "untold festival",
+  "source": "ahrefs keywords-explorer matching-terms (RO on 'untold', US on 'untold festival'), keywords-explorer-overview (US, global volume) and site-explorer-organic-keywords (exact) on en.wikipedia and the Romanian Friend guide, September 2026. Global volume (12-month average) unless stated. The bare head 'untold' is Romanian-served and collides with a film and a perfume; 'untold festival' is the clean English form, 11,000 global with Romania only 1,000, the rest spread across IT, PL, GB, ES, US, CA and others.",
+  "terms": [
+    { "term": "untold festival", "volume": 11000 },
+    { "term": "untold 2027", "volume": 1100, "note": "next edition, targeted by the owner's rule of 14 September 2026; refresh to the following year when Untold 2027 ends" },
+    { "term": "untold cluj", "volume": 800 },
+    { "term": "untold festival 2027", "volume": 60 },
+    { "term": "untold festival romania", "volume": 600 },
+    { "term": "untold music festival", "volume": 400 },
+    { "term": "untold live", "volume": 300 },
+    { "term": "untold festival cluj", "volume": 150 },
+    { "term": "untold cluj napoca", "volume": 100 },
+    { "term": "untold festival location", "volume": 90 },
+    { "term": "where is untold festival", "volume": 40 },
+    { "term": "what is untold festival", "volume": 10 }
+  ],
+  "entities": [
+    { "term": "neversea", "volume": 8300, "note": "sister festival, named in an H3; US 90, TP 10; its own page would be a separate decision" },
+    { "term": "untold dubai", "volume": 5300, "note": "sister edition, named in the same H3; US 60, TP 30" },
+    { "term": "neversea festival", "volume": 600 }
+  ],
+  "expansion_checked": "Web search first ('what is Untold festival Cluj-Napoca', 'Untold festival guide history'); site-explorer-organic-keywords (exact) on en.wikipedia.org/wiki/Untold_Festival, the Romanian Friend, Welcome Pickups and Take Your Backpack guides (the last two: no keywords); keywords-explorer-matching-terms on 'untold' (RO) and 'untold festival' (US); keywords-explorer-overview on ten question and entity forms (US); serp-overview on 'untold festival' (US and GB); 14 September 2026. 'untold festival attendance' 10, 'how many people go to untold' 0, 'is untold the biggest festival in the world' and 'untold vs ultra europe' not in the database: the how-big section and FAQ carry them as PAA questions, not as measured terms. See untold-research.md.",
+  "rejected": [
+    { "term": "untold", "volume": 29000, "why": "the head term: Romanian-served, navigational, and it collides with Dracula Untold and Club de Nuit Untold; present on the page anyway, not targeted" },
+    { "term": "untold 2026", "volume": 8900, "why": "dated; the official site holds it" },
+    { "term": "untold 2025", "volume": 2900, "why": "dated" },
+    { "term": "untold festival 2026", "volume": 2300, "why": "dated" },
+    { "term": "bilete untold", "volume": 1400, "why": "Romanian-language and transactional" },
+    { "term": "program untold 2026", "volume": 1400, "why": "Romanian-language, dated schedule" },
+    { "term": "untold lineup", "volume": 700, "why": "dated, changes every year" },
+    { "term": "animal x untold", "volume": 700, "why": "sponsor pairing, a different intent" },
+    { "term": "untold tickets", "volume": 450, "why": "transactional; at most one dated FAQ answer" },
+    { "term": "iqos untold", "volume": 450, "why": "sponsor, a different intent" },
+    { "term": "sadhguru untold", "volume": 400, "why": "one appearance, a different intent" },
+    { "term": "untold logo", "volume": 200, "why": "image intent" },
+    { "term": "unde se tine untold 2026", "volume": 150, "why": "Romanian-language and dated; the where section answers it in English" },
+    { "term": "dracula untold", "volume": 65000, "why": "collision: a 2014 film" },
+    { "term": "club de nuit untold", "volume": 29000, "why": "collision: an Armaf perfume" }
+  ]
+}

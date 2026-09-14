@@ -4,6 +4,7 @@
   "source": "ahrefs keywords-explorer matching-terms (DE and US) and site-explorer-organic-keywords (exact) on en.wikipedia and de.wikipedia, September 2026. Global volume (12-month average) unless stated. Demand is German: the head term is 31,000 DE of 37,000 global (84%); with AT 500 and CH 450, German-speaking countries carry about 86%. The page is written in English like the whole site, so it targets the English forms and leaves the German ones (besucherzahlen, wo findet ... statt, gelände) to be answered in English without the German phrase.",
   "terms": [
     { "term": "parookaville festival", "volume": 900 },
+    { "term": "parookaville 2027", "volume": 1200, "note": "next edition, targeted by the owner's rule of 14 September 2026; refresh to the following year when Parookaville 2027 ends" },
     { "term": "parookaville weeze", "volume": 250 },
     { "term": "parookaville mainstage", "volume": 200 },
     { "term": "bill parooka", "volume": 150 },
@@ -17,7 +18,6 @@
     { "term": "parookaville 2025", "volume": 2200, "why": "dated" },
     { "term": "parookaville tickets", "volume": 1300, "why": "transactional; one dated FAQ answer" },
     { "term": "parookaville 2026 lineup", "volume": 1300, "why": "dated, changes every year" },
-    { "term": "parookaville 2027", "volume": 1200, "why": "dated, next year's dates" },
     { "term": "parookaville line up", "volume": 1000, "why": "dated" },
     { "term": "parookaville 2027 datum", "volume": 900, "why": "German-language and dated" },
     { "term": "parookaville 2026 livestream", "volume": 800, "why": "dated; the page describes the livestream as history" },

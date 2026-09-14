@@ -357,6 +357,39 @@
         "file": "KEYWORD-METHOD.md",
         "contains": "Start with a web search, not with Ahrefs"
       }
+    },
+    {
+      "id": "festival-next-year-excluded",
+      "found": "2026-09-14",
+      "by": "owner",
+      "what": "Festival guides excluded next year's edition as a dated intent, so \"untold 2027\" (1,100 a month) was rejected in the Untold keyword map and none of the six published festival guides carries its 2027 dates, though tomorrowland 2027 alone is 16,000 a month. The owner: take the next-year traffic and update it every year, for every festival.",
+      "should_have_caught": "festivals-series.md said \"Dated intents (lineups, tickets, set times, next year's dates) excluded from every guide\", which made rejecting the term look like following the method",
+      "fix": {
+        "file": "festivals-series.md",
+        "contains": "Next year's edition is targeted"
+      }
+    },
+    {
+      "id": "festival-research-skipped-stages",
+      "found": "2026-09-14",
+      "by": "owner",
+      "what": "Every festival guide (Tomorrowland, EDC Las Vegas, Creamfields, Parookaville, Ultra, Untold) went to a structure and a page with TOPIC-RESEARCH.md stage 3 (related terms, also_rank_for and also_talk_about) and stage 6 (validation by someone who did not gather the evidence) not run. Each research file admitted it (\"stage 6 not run\") and the work went ahead anyway. The owner asked why.",
+      "should_have_caught": "festivals-series.md listed its own per-festival steps, which left out stages 3 and 6, so following the series file looked like following the method while TOPIC-RESEARCH.md says a topic that has not been through all six has no verdict",
+      "fix": {
+        "file": "festivals-series.md",
+        "contains": "Related terms, `also_rank_for` and `also_talk_about`"
+      }
+    },
+    {
+      "id": "dnb-written-in-uninvited",
+      "found": "2026-09-14",
+      "by": "owner",
+      "what": "The Untold draft carried a paragraph on how little drum and bass the festival books, written in the owner's voice for listeners from breaks, jungle or drum and bass, a drum and bass line in the Bandcamp copy and a link to the drum and bass guide, although the owner had already said on 13 September not to force drum and bass into festival guides. The earlier festival guides carry the same kind of paragraph. The owner: nobody asked for it.",
+      "should_have_caught": "festivals-series.md asked every guide for \"the music with the owner's voice\" and the 13 September rule only covered the listening, so a drum and bass paragraph in the prose looked allowed",
+      "fix": {
+        "file": "festivals-series.md",
+        "contains": "No drum and bass written in where nobody asked for it"
+      }
     }
   ]
 }

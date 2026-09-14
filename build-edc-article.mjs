@@ -141,7 +141,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where EDC Las Vegas happens', title: 'Where EDC Las Vegas happens.', subsections: ['orlando', 'mexico', 'abroad']},
+  {id: 'where', heading: 'Where EDC Las Vegas happens', title: 'Where EDC Las Vegas happens.', subsections: ['orlando', 'mexico', 'abroad', 'edc-2027']},
   {id: 'how-big', heading: 'How big EDC Las Vegas is', title: 'How big EDC Las Vegas is.'},
   {id: 'history', heading: 'A short history, and who owns EDC', title: 'A short history, and who owns EDC.'},
   {id: 'famous', heading: 'Why EDC got so famous', title: 'Why EDC got so famous.'},
