@@ -70,6 +70,11 @@ page to be built from it. **Written** `/what-is-coachella`, 2026-09-14, not
 pushed (`coachella-research.md`); stages 2, 4 and 6 to run after the units
 reset on 2026-09-20.
 
+Lollapalooza next (2026-09-14): structure built from the owner's export of
+Wikipedia's rankings (`lollapalooza-research.md`), approved, and **written**
+`/lollapalooza-festival` the same day; 2027 dates given as expected until the
+festival confirms them.
+
 Order: by search volume and traffic potential, never by whether the demand
 is American (the owner, 13 September 2026). EDC sits above Creamfields and
 Parookaville on traffic potential. TP is measured per country, so each

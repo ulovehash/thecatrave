@@ -190,6 +190,31 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - what does nts stand for
 - who owns boiler room
 
+## lollapalooza-festival.html
+
+- lollapalooza location
+- when does lollapalooza end
+- lollapalooza attendance
+- when is lollapalooza
+- how many people go to lollapalooza
+- lollapalooza dates
+- is lollapalooza only in chicago
+- how many people attend lollapalooza
+- lollapalooza india
+- lolla chicago
+- lollapalooza history
+- how many days is lollapalooza
+- what is lollapalooza
+- lollapalooza festival
+- lollapalooza stages
+- lollapalooza locations
+- how long is lollapalooza
+- first lollapalooza
+- lollapalooza capacity
+- grant park lollapalooza
+- lollapalooza meaning
+- where is lollapalooza in chicago
+
 ## best-electronic-music-clubs-in-london.html
 
 - clubs in london

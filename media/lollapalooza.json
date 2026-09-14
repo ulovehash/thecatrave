@@ -1,0 +1,48 @@
+{
+  "page": "lollapalooza-festival.html",
+  "seed": "lollapalooza music",
+  "source": "Adapted cross-reference, September 2026: en.wikipedia's history and international editions, reports of Lady Gaga's 2010 appearance (Billboard, BMI, Aceshowbiz), Choose Chicago on 2026, and view counts read from YouTube on 2026-09-14: the festival's own channel (lollapalooza, @lollapalooza) sorted by popularity, and a YouTube search for 'lollapalooza chicago full set' filtered to artists' own channels. This site's catalogue (source 6 of FIGURES.md) holds no Lollapalooza set. Every player is oEmbed-checked 14 September 2026.",
+  "required_records": [
+    {
+      "title": "John Summit",
+      "artist": "John Summit",
+      "year": 2026,
+      "set": "JOHN SUMMIT LIVE @ LOLLAPALOOZA CHICAGO 2026",
+      "why": "about 1 million views on his own channel within a month (2026-09-14); evidence for dance music at the festival in the music section",
+      "sources": ["artist-youtube", "youtube-views"],
+      "embed_id": "9TKqqBCmDHA"
+    },
+    {
+      "title": "Semi Precious Weapons",
+      "artist": "Lady Gaga with Semi Precious Weapons",
+      "year": 2010,
+      "set": "Lady Gaga with Semi Precious Weapons (Official)",
+      "why": "the most watched video on the festival's own channel, about 44 million views (2026-09-14); Lady Gaga joined the band on 6 August 2010, played drums on Magnetic Baby and stage-dived; Essential listening",
+      "sources": ["lollapalooza-youtube", "youtube-views"],
+      "embed_id": "EGh9zlN6eLo"
+    },
+    {
+      "title": "The Chainsmokers",
+      "artist": "The Chainsmokers",
+      "year": 2019,
+      "set": "The Chainsmokers - Lollapalooza Chicago 2019 - Official Live Set",
+      "why": "the most watched full set found on an artist's own channel, about 3.9 million views (2026-09-14); Essential listening",
+      "sources": ["artist-youtube", "youtube-views"],
+      "embed_id": "zns830Yl1b0"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "SIDEPIECE, 2026",
+      "why": "posted on their channel as 'Live @lollapalooza Perry Stage 2026' (54,000 views); cited for the stage's name, not embedded"
+    },
+    {
+      "title": "Joshua Homme, LOLLA2020",
+      "why": "2.1 million views on the festival's channel, from the 2020 livestream rather than a festival in the park"
+    },
+    {
+      "title": "Fan-uploaded full sets",
+      "why": "The Smashing Pumpkins 2026, KATSEYE 2025, Olivia Rodrigo 2025 and others are on fan channels, which are rejected"
+    }
+  ]
+}

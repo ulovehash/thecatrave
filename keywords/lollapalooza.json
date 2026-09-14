@@ -1,0 +1,42 @@
+{
+  "page": "lollapalooza-festival.html",
+  "seed": "lollapalooza",
+  "source": "The owner's Ahrefs export of en.wikipedia.org/wiki/Lollapalooza organic keywords (US, latest month, September 2026, 397 rows), 14 September 2026. Latest-month figures just after the festival, not 12-month averages; the Ahrefs API units were exhausted, so no matching-terms or overview pass backs them.",
+  "terms": [
+    { "term": "lollapalooza location", "volume": 3600 },
+    { "term": "when does lollapalooza end", "volume": 1800 },
+    { "term": "lollapalooza attendance", "volume": 1500 },
+    { "term": "when is lollapalooza", "volume": 1300 },
+    { "term": "how many people go to lollapalooza", "volume": 1100 },
+    { "term": "lollapalooza dates", "volume": 1100 },
+    { "term": "is lollapalooza only in chicago", "volume": 1000 },
+    { "term": "how many people attend lollapalooza", "volume": 1000 },
+    { "term": "lollapalooza india", "volume": 1000 },
+    { "term": "lolla chicago", "volume": 1000 },
+    { "term": "lollapalooza history", "volume": 800 },
+    { "term": "how many days is lollapalooza", "volume": 800 },
+    { "term": "what is lollapalooza", "volume": 800 },
+    { "term": "lollapalooza festival", "volume": 600 },
+    { "term": "lollapalooza stages", "volume": 600 },
+    { "term": "lollapalooza locations", "volume": 500 },
+    { "term": "how long is lollapalooza", "volume": 500 },
+    { "term": "first lollapalooza", "volume": 450 },
+    { "term": "lollapalooza capacity", "volume": 450 },
+    { "term": "grant park lollapalooza", "volume": 450 },
+    { "term": "lollapalooza meaning", "volume": 450 },
+    { "term": "where is lollapalooza in chicago", "volume": 400 }
+  ],
+  "expansion_checked": "Web search first ('what is Lollapalooza festival', 'Lollapalooza 2027 dates announced Grant Park Chicago'), the owner's export of Wikipedia's rankings, and en.wikipedia's article. Not run: matching terms, related terms, SERP, stage 6 (Ahrefs units exhausted until 2026-09-20). 'lollapalooza 2027' is not in the export and not measured; the next-edition section follows the owner's rule of 14 September 2026 and is measured after the reset.",
+  "rejected": [
+    { "term": "lollapalooza", "volume": 58000, "why": "the head term, navigational: the official site holds it; present on the page anyway" },
+    { "term": "lollapalooza 2025 lineup", "volume": 3300, "why": "dated line-up" },
+    { "term": "lollapalooza 2022", "volume": 1900, "why": "a past edition" },
+    { "term": "lalapolooza", "volume": 1500, "why": "misspelling (with lolapalooza, lola palooza, la la palooza, lalapoloza and others); not written into the page" },
+    { "term": "lollapalooza line up", "volume": 1000, "why": "line-up, changes every year" },
+    { "term": "lollapalooza address", "volume": 700, "why": "the official 'Where is the festival located?' page returned 403, and no sourced street address was found; the page says Grant Park and stops there" },
+    { "term": "lolla map", "volume": 700, "why": "a practical map, redrawn every year by the festival" },
+    { "term": "lollapalooza today", "volume": 600, "why": "dated, the day's schedule" },
+    { "term": "lollapalooza logo", "volume": 500, "why": "image intent" },
+    { "term": "lollapalooza news", "volume": 450, "why": "news intent" }
+  ]
+}

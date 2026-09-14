@@ -492,6 +492,17 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   статья написана 2026-09-14 без стадий 2, 4, 6: URL /what-is-coachella, не запушена
   (coachella-research.md). После сброса 20.09: organic Wikipedia/Britannica, related,
   SERP what is/where is, стадия 6. PAA не сняты: Google отдал CAPTCHA.
+  Опубликовано 2026-09-14 (850f879).
+- **Lollapalooza** (2026-09-14, по выгрузке владельца: ключи Wikipedia EN, US, последний
+  месяц, 397 строк; Ahrefs 0 вызовов). Голова 58 000 (Wikipedia поз. 2). Главный
+  информационный вопрос — где: lollapalooza location 3 600, lolla chicago 1 000, address
+  700; сколько людей: attendance 1 500, how many people go 1 100 / attend 1 000; когда:
+  when does lollapalooza end 1 800, when is 1 300, dates 1 100, how many days 800; только
+  ли в Чикаго 1 000, india 1 000; history 800, meaning 450, first 450; what is — всего
+  800. Официальные даты 2027 не объявлены; по решению владельца в статье ожидаемые
+  29 июля – 1 августа 2027 с оговоркой. URL /lollapalooza-festival, структура одобрена,
+  статья написана 2026-09-14 (lollapalooza-research.md). Стадии 3, 4, 6 после сброса
+  лимита Ahrefs.
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

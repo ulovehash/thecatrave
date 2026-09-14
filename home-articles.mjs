@@ -159,6 +159,14 @@ export const homeArticleCatalog = [
     image:'img/coachella/grounds-2018-320.webp',
     srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
     width:1200, height:677, alt:'Festivalgoers on the grass at Coachella in 2018, palm trees and desert mountains behind them'
+  },
+  {
+    page:'lollapalooza-festival.html', tags:['discovery','history','bass'], href:'/lollapalooza-festival', type:'Guide', topic:'Lollapalooza',
+    title:'Lollapalooza: Location, Dates, History and the Music',
+    description:'Four days every summer in Grant Park, Chicago: where Lollapalooza is and where else it plays, when it runs, how many people go, what the name means, and what plays.',
+    image:'img/lollapalooza/skyline-2017-320.webp',
+    srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'A Lollapalooza crowd in Grant Park with the Chicago skyline behind it in 2017'
   }
 ];
 
