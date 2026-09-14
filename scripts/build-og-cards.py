@@ -77,6 +77,7 @@ HERO = {
     "untold": "img/untold/main-stage-2019-1200.webp",
     "coachella": "img/coachella/grounds-2018-1200.webp",
     "lollapalooza": "img/lollapalooza/skyline-2017-1200.webp",
+    "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

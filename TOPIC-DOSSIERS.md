@@ -503,6 +503,15 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   29 июля – 1 августа 2027 с оговоркой. URL /lollapalooza-festival, структура одобрена,
   статья написана 2026-09-14 (lollapalooza-research.md). Стадии 3, 4, 6 после сброса
   лимита Ahrefs.
+- **Glastonbury** (2026-09-14, по выгрузкам владельца, UK, последний месяц: Wikipedia
+  215 строк, официальный сайт 933, Reddit 443; Ahrefs 0 вызовов). glastonbury 2027
+  18 000 (официальный поз. 1), glastonbury festival 13 000, why is there no glastonbury
+  this year 2 600 (Wikipedia 9, официальный 6 — самая слабая точка), is glastonbury on
+  this year 2 500, headliners by year 2 400, where is 2 000, 2027 dates 1 800, when is
+  2027 1 700, how many people go 1 600, when does it finish 1 300. Исключены registration
+  19 000, билеты, составы, карта, глэмпинг. 2027: 23–27 июня, официально. URL
+  /glastonbury-festival, структура одобрена, статья написана 2026-09-14
+  (glastonbury-research.md).
 - **Fyre Festival.** 100 000 (TP 38 000). SERP: Reddit, Elle «Fyre Festival
   Explained» (1 RD, 8 710 визитов), Forbes (16 RD), Stereogum (2 RD),
   LinkedIn, YouTube. PAA: Why was Fyre Festival a failure? / Did anyone get

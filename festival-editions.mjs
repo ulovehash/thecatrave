@@ -13,6 +13,7 @@ export const festivalEditions = [
   // Expected 29 July to 1 August 2027 from listings; null until the festival
   // confirms, so the build keeps reminding.
   {page: 'lollapalooza-festival.html', heading: 'Lollapalooza 2027', ends: null},
+  {page: 'glastonbury-festival.html', heading: 'Glastonbury 2027', ends: '2027-06-27'},
   {page: 'tomorrowland-festival.html', heading: 'Tomorrowland 2027', ends: null},
   {page: 'edc-las-vegas.html', heading: 'EDC Las Vegas 2027', ends: '2027-05-23'},
   {page: 'what-is-burning-man.html', heading: 'Burning Man 2027', ends: '2027-09-06'},

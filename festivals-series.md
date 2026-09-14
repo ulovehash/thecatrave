@@ -75,6 +75,11 @@ Wikipedia's rankings (`lollapalooza-research.md`), approved, and **written**
 `/lollapalooza-festival` the same day; 2027 dates given as expected until the
 festival confirms them.
 
+Glastonbury next (2026-09-14): structure built from the owner's UK exports of
+the Wikipedia article, the official site and the subreddit
+(`glastonbury-research.md`), approved, and **written** `/glastonbury-festival`
+the same day.
+
 Order: by search volume and traffic potential, never by whether the demand
 is American (the owner, 13 September 2026). EDC sits above Creamfields and
 Parookaville on traffic potential. TP is measured per country, so each

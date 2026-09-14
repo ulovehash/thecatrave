@@ -149,6 +149,42 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people attend edc
 - when did edc start
 
+## glastonbury-festival.html
+
+- glastonbury 2027
+- glastonbury festival
+- why is there no glastonbury this year
+- is glastonbury on this year
+- glastonbury headliners by year
+- where is glastonbury
+- glastonbury 2027 dates
+- when is glastonbury 2027
+- how many people go to glastonbury
+- when does glastonbury finish
+- glastonbury headliners
+- glastonbury dates
+- arcadia glastonbury
+- glasto
+- glastonbury pyramid stage
+- pyramid stage
+- worthy farm
+- how many people attend glastonbury
+- glastonbury location
+- glastonbury attendance
+- glastonbury capacity
+- how many stages at glastonbury
+- when does glastonbury end
+- how big is glastonbury festival
+- glastonbury live
+- when is the next glastonbury
+- fallow year meaning
+- where is glastonbury festival
+- glastonbury festival location
+- first glastonbury festival
+- how often is glastonbury
+- fallow year
+- glastonbury fallow years
+
 ## how-to-find-new-music.html
 
 - music discovery

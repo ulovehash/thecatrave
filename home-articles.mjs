@@ -167,6 +167,14 @@ export const homeArticleCatalog = [
     image:'img/lollapalooza/skyline-2017-320.webp',
     srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
     width:1200, height:900, alt:'A Lollapalooza crowd in Grant Park with the Chicago skyline behind it in 2017'
+  },
+  {
+    page:'glastonbury-festival.html', tags:['discovery','history','bass'], href:'/glastonbury-festival', type:'Guide', topic:'Glastonbury',
+    title:'Glastonbury Festival: 2027, Fallow Years and Headliners',
+    description:'Five days most Junes at Worthy Farm in Somerset: when Glastonbury 2027 is, why there was no festival this year, where it is, how big it is, and every headliner by year.',
+    image:'img/glastonbury/night-2025-320.webp',
+    srcset:'img/glastonbury/night-2025-320.webp 320w,img/glastonbury/night-2025-1200.webp 1200w',
+    width:1200, height:800, alt:'People on a hillside at night looking over the lit stages of Glastonbury in 2025'
   }
 ];
 

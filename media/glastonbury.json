@@ -1,0 +1,48 @@
+{
+  "page": "glastonbury-festival.html",
+  "seed": "glastonbury music",
+  "source": "Adapted cross-reference, September 2026: en.wikipedia's history and line-ups table, and view counts read from YouTube on 2026-09-14 from a search for 'glastonbury full set pyramid stage', filtered to official channels (BBC Music, which broadcasts the festival, and the artists' own). This site's catalogue (source 6 of FIGURES.md) holds no Glastonbury set. Every player is oEmbed-checked 14 September 2026.",
+  "required_records": [
+    {
+      "title": "Breathe",
+      "artist": "The Prodigy",
+      "year": 2025,
+      "set": "The Prodigy - Breathe | Glastonbury 2025",
+      "why": "about 3.8 million views on BBC Music's channel (2026-09-14); The Prodigy headlined in 1997; evidence for dance music at the festival in the music section",
+      "sources": ["bbc-music-youtube", "youtube-views", "en-wikipedia-headliners"],
+      "embed_id": "1n6GvSfjE8M"
+    },
+    {
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "year": 2024,
+      "set": "Coldplay - Fix You | Glastonbury 2024",
+      "why": "the most watched Glastonbury upload found, about 67 million views on BBC Music's channel (2026-09-14); Coldplay hold the record of five headline sets, the fifth in 2024; Essential listening",
+      "sources": ["bbc-music-youtube", "youtube-views", "en-wikipedia"],
+      "embed_id": "kM-94LhhQTs"
+    },
+    {
+      "title": "R.E.M.",
+      "artist": "R.E.M.",
+      "year": 1999,
+      "set": "R.E.M. - Live from Glastonbury Festival, 1999 (Complete BBC Broadcast)",
+      "why": "a complete headline set as the BBC broadcast it, about 2.2 million views on the band's own channel (2026-09-14); Essential listening",
+      "sources": ["artist-youtube", "youtube-views", "en-wikipedia-headliners"],
+      "embed_id": "DurDZkK58VE"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Lewis Capaldi, 2025",
+      "why": "\"Someone You Loved\" has about 31 million views on BBC Music; a pop moment, and the listening keeps to the most watched clip and a full set"
+    },
+    {
+      "title": "Orbital, 1994; Radiohead, 1997",
+      "why": "named in the text as the festival's most remembered sets; no official upload was checked"
+    },
+    {
+      "title": "Fan-uploaded full sets",
+      "why": "U2 2011, Beyoncé 2011, Muse 2004, Gorillaz 2010 and others are on fan or archive channels, which are rejected"
+    }
+  ]
+}
