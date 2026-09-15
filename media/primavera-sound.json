@@ -1,0 +1,88 @@
+{
+  "page": "primavera-sound-barcelona.html",
+  "seed": "primavera sound music festival",
+  "source": "Official festival and broadcaster channels plus Wikimedia Commons. YouTube video ownership and embeddability checked before publication. Images selected from Commons and transformed only into responsive WebP sizes; licences and authors are retained in captions.",
+  "required_records": [
+    {
+      "title": "DJ Ramon Sucesso",
+      "artist": "DJ Ramon Sucesso",
+      "year": 2024,
+      "set": "DJ Ramon Sucesso | Boiler Room x Primavera Sound Barcelona x CUPRA",
+      "why": "A high-reach official Boiler Room film from a stage inside the Barcelona festival; demonstrates the electronic and global side of the music cluster.",
+      "sources": ["boiler-room-youtube", "boiler-room-primavera-page"],
+      "embed_id": "uhAp3o71U48"
+    },
+    {
+      "title": "Badsista",
+      "artist": "Badsista",
+      "year": 2022,
+      "set": "Badsista | Boiler Room x Primavera Sound Barcelona x Cupra",
+      "why": "Official Boiler Room film from the festival; pairs with DJ Ramon Sucesso to show the Brazilian and queer club-music thread in the programme.",
+      "sources": ["boiler-room-youtube", "boiler-room-primavera-page"],
+      "embed_id": "KkhwjIVDHGc"
+    },
+    {
+      "title": "Alan Sparhawk",
+      "artist": "Alan Sparhawk",
+      "year": 2025,
+      "set": "Alan Sparhawk - Primavera Sound Porto 2025 (Official Full Set)",
+      "why": "Official artist-channel full set supplied by Primavera Sound Porto; supports the separate Porto cluster.",
+      "sources": ["alan-sparhawk-youtube", "primavera-sound-porto"],
+      "embed_id": "srV4AgUc104"
+    }
+  ],
+  "images": [
+    {
+      "file": "img/primavera-sound/festival-crowd",
+      "commons": "File:Primavera stage crowd.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Jwslubbock (John Lubbock)",
+      "date": "2019-05-31"
+    },
+    {
+      "file": "img/primavera-sound/created-in-barcelona",
+      "commons": "File:Primavera Sound main stages area at night.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Jwslubbock (John Lubbock)",
+      "date": "2019"
+    },
+    {
+      "file": "img/primavera-sound/parc-forum",
+      "commons": "File:Parc del Fòrum - 20191213 143043.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Pere López Brosa",
+      "date": "2019-12-13"
+    },
+    {
+      "file": "img/primavera-sound/peggy-gou",
+      "commons": "File:Peggy Gou, Ray-Ban stage.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Jwslubbock (John Lubbock)",
+      "date": "2019"
+    },
+    {
+      "file": "img/primavera-sound/primavera-pro",
+      "commons": "File:Samantha Hudson and John Waters in Primavera Pro.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Nacaru",
+      "date": "2022"
+    },
+    {
+      "file": "img/primavera-sound/porto-stage",
+      "commons": "File:Fontaines D.C performing at Primavera Sound Porto 2025.tif",
+      "licence": "CC BY 4.0",
+      "author": "Boredintheevening",
+      "date": "2025"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Historic Poble Espanyol image",
+      "why": "No festival-specific image with a sufficiently clear reusable licence was selected; the history stays in text and the milestone table."
+    },
+    {
+      "title": "Current line-up performances",
+      "why": "Rejected because the page does not target line-up intent and would date immediately."
+    }
+  ]
+}

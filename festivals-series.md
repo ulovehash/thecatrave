@@ -6,6 +6,9 @@ music festival. The list comes from the web-first pass logged in
 taken from the ranking articles, then measured in Ahrefs. Global volume,
 September 2026.
 
+The current full DJ Mag audit and no-Ahrefs working queue are maintained in
+`djmag-festival-priorities.md`.
+
 ## The list and the proposed order
 
 | # | Festival | Global | US | Status |
@@ -25,6 +28,7 @@ September 2026.
 | 12 | EXIT | 5,200 | 400 | volumes only |
 | 13 | Movement Detroit | 4,300 | 4,000 | SERP checked: weak; TP 6,300 |
 | 14 | Sónar | 3,800 | 250 | **published** `/sonar-festival-barcelona`, 2026-09-14, the owner's pick from two exports (`sonar-research.md`); related terms and stage 6 not run |
+| — | Mysteryland | 20,000 | 150 | **written**, build prepared as `/mysteryland-festival`, 2026-09-14, the owner's pick from two exports (`mysteryland-research.md`); no 2026 edition, 2027 first; stage 6 not run |
 
 \* Includes Disney's Tomorrowland land and the 2015 film.
 
@@ -46,7 +50,7 @@ give it. Not yet researched beyond the head term.
 | Roskilde | 56,000 | 1,400 | 1,200 | multiple |
 | Rock am Ring | 50,000 | 1,300 | 1,100 | rock, metal |
 | Download | 41,000 | 1,100 | 80 | metal |
-| Primavera Sound | 37,000 | 3,400 | 3,200 | indie |
+| Primavera Sound | 37,000 | 3,400 | 3,200 | **written**, build prepared as `/primavera-sound-barcelona`, 2026-09-15 from owner export (`primavera-sound-research.md`); all 2026 intent excluded; stage 6 not run |
 | Reading | 35,000 | 1,200 | 150 | rock |
 | Isle of Wight | 33,000 | 700 | 70 | pop, rock |
 | Bonnaroo | 32,000 | 27,000 | 43,000 | multiple |

@@ -34,6 +34,8 @@ export const generators = [
   'build-lollapalooza-article.mjs',
   'build-glastonbury-article.mjs',
   'build-sonar-article.mjs',
+  'build-mysteryland-article.mjs',
+  'build-primavera-sound-article.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',

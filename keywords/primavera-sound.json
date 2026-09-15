@@ -1,0 +1,47 @@
+{
+  "page": "primavera-sound-barcelona.html",
+  "seed": "primavera sound",
+  "source": "Owner-supplied country-level organic-keyword export for en.wikipedia.org/wiki/Primavera_Sound, received 15 September 2026. Duplicate phrases were aggregated across country rows to create directional totals. Three other supplied CSVs were organic-position histories, not keyword exports. People Also Ask questions came from the owner's screenshot. No Ahrefs request was made, and all 2026 intent was excluded by owner instruction.",
+  "terms": [
+    { "term": "primavera sound", "volume": 1730 },
+    { "term": "primavera sound barcelona", "volume": 1370 },
+    { "term": "primavera festival", "volume": 630 },
+    { "term": "primavera sound location", "volume": 250 },
+    { "term": "primavera sound festival", "volume": 90 },
+    { "term": "primavera a la ciutat", "volume": 80 },
+    { "term": "primavera sound porto", "volume": 30 },
+    { "term": "what is primavera sound", "volume": 20 }
+  ],
+  "people_also_ask": [
+    { "question": "What is the Primavera Sound?", "volume": null, "use": "direct answer" },
+    { "question": "Is Primavera Sound 18+?", "volume": null, "use": "FAQ" },
+    { "question": "Where will the Primavera Sound 2027 be held?", "volume": null, "use": "current answer and FAQ" },
+    { "question": "What does Primavera mean literally?", "volume": null, "use": "FAQ" },
+    { "question": "Do people camp at Primavera Sound?", "volume": null, "use": "FAQ" },
+    { "question": "How many people go to Primavera Sound?", "volume": null, "use": "scale section and FAQ" }
+  ],
+  "expansion_checked": "Web search for the entity, history, official venue, age conditions, attendance and 2027 dates; owner-supplied Wikipedia organic-keyword export; owner-supplied People Also Ask screenshot. See primavera-sound-research.md.",
+  "rejected": [
+    { "term": "primavera", "volume": 2840, "why": "ambiguous collision with the word for spring and unrelated entities" },
+    { "term": "primavera sound lineup", "volume": 580, "why": "dated line-up intent; official programme should own it" },
+    { "term": "primavera lineup", "volume": 160, "why": "dated line-up intent" },
+    { "term": "primavera line up", "volume": 150, "why": "dated line-up intent and duplicate spelling" },
+    { "term": "primavera sound line up", "volume": 130, "why": "dated line-up intent and duplicate spelling" },
+    { "term": "primavera barcelona lineup", "volume": 100, "why": "dated line-up intent" },
+    { "term": "barcelona music festival", "volume": 650, "why": "too broad for this entity page" },
+    { "term": "barcelona festival", "volume": 490, "why": "too broad for this entity page" },
+    { "term": "music festival barcelona", "volume": 210, "why": "too broad for this entity page" },
+    { "term": "primavera barcelona", "volume": 750, "why": "covered semantically by the exact entity 'Primavera Sound Barcelona'; not forced into copy as an incomplete brand name" },
+    { "term": "primavera music festival", "volume": 300, "why": "covered by the music section; awkward incomplete entity phrase is not inserted literally" },
+    { "term": "primavera location", "volume": 190, "why": "covered by the stronger exact entity phrase 'Primavera Sound location'" },
+    { "term": "where is primavera barcelona", "volume": 150, "why": "covered by the location section; incomplete brand-name variant" },
+    { "term": "primavera barcelona location", "volume": 140, "why": "covered by the stronger exact entity phrase 'Primavera Sound location'" },
+    { "term": "primavera porto", "volume": 110, "why": "covered by the official entity name 'Primavera Sound Porto'" },
+    { "term": "where is primavera sound", "volume": 100, "why": "covered by the location section and 2027 venue FAQ without forcing question syntax into prose" },
+    { "term": "primavera dates", "volume": 100, "why": "covered by the dates-and-location heading; incomplete brand-name variant" },
+    { "term": "primavera sound barcelona lineup", "volume": 70, "why": "dated line-up intent; official programme should own it" },
+    { "term": "prima vera", "volume": 390, "why": "misspelling and semantic collision" },
+    { "term": "all queries containing 2026", "volume": null, "why": "explicitly excluded by the owner; none appeared in the usable keyword CSV, and five appeared in the People Also Ask screenshot" },
+    { "term": "what is the largest festival in Barcelona", "volume": null, "why": "broad superlative with year- and methodology-dependent answers" }
+  ]
+}

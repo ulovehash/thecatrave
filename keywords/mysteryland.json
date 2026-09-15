@@ -1,0 +1,31 @@
+{
+  "page": "mysteryland-festival.html",
+  "seed": "mysteryland",
+  "source": "ahrefs keywords-explorer matching-terms and overview (country NL, global_volume column, 12-month average), September 2026, plus the owner's organic-keyword exports for en.wikipedia.org/wiki/Mysteryland and www.mysteryland.nl (14 September 2026). Demand is mostly Dutch: head 13,000 NL of 20,000 global, and most NL modifiers are Dutch-language.",
+  "terms": [
+    { "term": "mysteryland 2026", "volume": 3600 },
+    { "term": "mysteryland 2025", "volume": 1800 },
+    { "term": "mysteryland 2027", "volume": 1100 },
+    { "term": "mysteryland festival", "volume": 800 },
+    { "term": "mysteryland tickets", "volume": 700 },
+    { "term": "mysteryland location", "volume": 100 },
+    { "term": "mysteryland chile", "volume": 100 },
+    { "term": "mysteryland netherlands", "volume": 60 },
+    { "term": "where is mysteryland", "volume": 40 },
+    { "term": "mysteryland usa", "volume": 20 }
+  ],
+  "expansion_checked": "Web search first ('what is Mysteryland festival history Haarlemmermeer', 'Mysteryland festival guide oldest dance festival Netherlands', 'Mysteryland 2027 return'); organic keywords of the Wikipedia article and the official site from the owner's CSV exports; site-explorer-organic-keywords (exact) on the Venga Store 2027 guide (one keyword, 0 volume); keywords-explorer-matching-terms on 'mysteryland' (terms and questions, NL); serp-overview on 'mysteryland festival' (NL, DE) and 'mysteryland 2027' (NL, no data); 14 September 2026. See mysteryland-research.md.",
+  "rejected": [
+    { "term": "mysteryland line up", "volume": 700, "why": "dated; the 2027 line-up is unannounced and the official site holds it" },
+    { "term": "mysteryland locatie", "volume": 1200, "why": "Dutch-language query; an English page answers the same question as 'mysteryland location'" },
+    { "term": "waar is mysteryland", "volume": 90, "why": "Dutch-language query" },
+    { "term": "mysteryland timetable", "volume": 300, "why": "dated schedule intent" },
+    { "term": "ticketswap mysteryland", "volume": 200, "why": "navigational to a resale platform" },
+    { "term": "mysteryland camping", "volume": 150, "why": "practical, changes per edition; camping is mentioned, not targeted" },
+    { "term": "mysteryland plattegrond", "volume": 100, "why": "Dutch-language, site-map intent" },
+    { "term": "mysteryland adres", "volume": 150, "why": "Dutch-language address intent; the official site gives no street address" },
+    { "term": "mysteryland haarlemmermeer", "volume": 50, "why": "Haarlemmermeer is covered in the location section, but the exact phrase does not fit a sentence naturally; dropped rather than wedged in" },
+    { "term": "mystery land festival", "volume": 90, "why": "spelling variant (GB 50, US 40 in the Wikipedia export); the page uses the festival's own spelling" },
+    { "term": "misteryland", "volume": 1300, "why": "misspelling" }
+  ]
+}

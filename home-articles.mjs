@@ -183,6 +183,22 @@ export const homeArticleCatalog = [
     image:'img/sonar/sonar-by-day-2016-320.webp',
     srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
     width:1200, height:801, alt:'A crowd at the SonarVillage stage at Fira Montjuïc, with the Palau Nacional behind'
+  },
+  {
+    page:'mysteryland-festival.html', tags:['discovery','history','bass'], href:'/mysteryland-festival', type:'Guide', topic:'Mysteryland',
+    title:'Mysteryland Festival: Where It Is, Its History, and 2027',
+    description:'The oldest dance festival in the Netherlands by its own count, on the old Floriade grounds in Haarlemmermeer: when Mysteryland 2027 is, why it skipped 2026, who owns it, and what it plays.',
+    image:'img/mysteryland/site-aerial-2018-320.webp',
+    srcset:'img/mysteryland/site-aerial-2018-320.webp 320w,img/mysteryland/site-aerial-2018-1200.webp 1200w',
+    width:1200, height:675, alt:'Mysteryland from the air in 2018, the main stage by a lake with a crowd in front of it'
+  },
+  {
+    page:'primavera-sound-barcelona.html', tags:['discovery','history','house'], href:'/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
+    title:'Primavera Sound Barcelona: Location, Dates and Music',
+    description:'A city festival on the Mediterranean: its Parc del Fòrum location, confirmed 2027 dates, scale, music, Primavera a la Ciutat and Porto.',
+    image:'img/primavera-sound/festival-crowd-320.webp',
+    srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
+    width:1200, height:800, alt:'Festivalgoers gathered beside the waterfront at Primavera Sound Barcelona in 2019'
   }
 ];
 

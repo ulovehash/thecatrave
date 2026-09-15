@@ -1,0 +1,55 @@
+{
+  "page": "mysteryland-festival.html",
+  "seed": "mysteryland music",
+  "source": "Dutch Wikipedia's history of Mysteryland (areas, hosts, headliners by year), the official site, and the festival's own YouTube channel (Mysteryland), view counts read on 14 September 2026 and oEmbed-checked. This site's catalogue (source 6 of FIGURES.md) holds 2 Mysteryland sets, both Mixmag 2016 (Franky Rizardo; Surgeon & Lady Starlight); the players come from the festival's own channel.",
+  "required_records": [
+    {
+      "title": "Sunday Drone Endshow",
+      "artist": "Mysteryland",
+      "year": 2025,
+      "set": "Mysteryland 2025 | Sunday Drone Endshow | Powered by BUD",
+      "why": "the finale of the last edition in the festival's current form; 674,000 views on the festival's channel",
+      "sources": ["mysteryland-youtube"],
+      "embed_id": "z4cO-cpjPoU"
+    },
+    {
+      "title": "Hardwell",
+      "artist": "Hardwell",
+      "year": 2023,
+      "set": "Hardwell - Main Stage - Mysteryland 2023",
+      "why": "the most watched full set among the channel's recent uploads, 2.8 million views; Essential listening",
+      "sources": ["mysteryland-youtube"],
+      "embed_id": "_8acHa-APa8"
+    },
+    {
+      "title": "Charlotte de Witte",
+      "artist": "Charlotte de Witte",
+      "year": 2024,
+      "set": "Charlotte de Witte - Mainstage - Mysteryland 2024",
+      "why": "techno on the main stage, 2.4 million views on the festival's channel; Essential listening",
+      "sources": ["mysteryland-youtube"],
+      "embed_id": "mao2oVsWSxA"
+    }
+  ],
+  "images": [
+    { "file": "img/mysteryland/site-aerial-2018", "commons": "File:Mysteryland 2018.jpg", "licence": "CC BY-SA 4.0", "author": "Niels de Vries (per the file description; uploaded by Marrleen)", "date": "2018-08-25" },
+    { "file": "img/mysteryland/floriade-pano-2007", "commons": "File:ML2007-pano.jpg", "licence": "Public domain", "author": "not stated", "date": "2007 (per the English Wikipedia caption: view from the large pyramid)" },
+    { "file": "img/mysteryland/cocoon-2019", "commons": "File:Mysteryland 2019 - Cocoon Floor.jpg", "licence": "CC BY-SA 4.0", "author": "Gerard.koymans", "date": "2019-08-24" },
+    { "file": "img/mysteryland/q-dance-2019", "commons": "File:Mysteryland 2019 - Qdance floor 01.jpg", "licence": "CC BY-SA 4.0", "author": "Gerard.koymans", "date": "2019-08-24" },
+    { "file": "img/mysteryland/hardwell-2014", "commons": "File:Hardwell @ Mysteryland 2014.jpg", "licence": "CC BY 2.0", "author": "Nicoalsemgeest.com", "date": "2014-08-23" }
+  ],
+  "known_gaps": [
+    {
+      "title": "Tiësto's helicopter entrance",
+      "why": "in the Dutch Wikipedia for 2004 or 2005 without the year pinned down; no film found on the festival's or Tiësto's channel"
+    },
+    {
+      "title": "1990s hardcore editions",
+      "why": "the festival's channel has a 'Mysteryland Through The 90's' playlist, not yet read for exact sets"
+    },
+    {
+      "title": "Mysteryland Chile venue",
+      "why": "the English Wikipedia names Picarquín, Mostazal, but only through an archived page not fetched; the page gives the year only"
+    }
+  ]
+}

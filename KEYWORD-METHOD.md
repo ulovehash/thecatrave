@@ -62,6 +62,13 @@ a month, reset on the 20th), and one `serp-overview` costs about 2,000. On
 Coachella research stopped after stage 1 (`defects.json`,
 ahrefs-units-unwatched).
 
+No paid Ahrefs call without the owner's explicit yes to that pass and its cost.
+"Write the article" is not a yes: later on 14 September 2026 it was read as one
+and 3,534 units went on the Mysteryland pass (`defects.json`,
+ahrefs-spent-without-permission). Without a yes, work from the owner's exports
+and earlier pulls. The limit read 800,000 that afternoon, so take
+`units_limit_workspace` from the call rather than the figure above.
+
 `keywords-explorer-related-terms` on each seed, then
 `keywords-explorer-matching-terms` when it is working. Take what comes back,
 not what you expected.
