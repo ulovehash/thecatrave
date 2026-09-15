@@ -1,9 +1,9 @@
 # Parookaville: editorial review
 
-Protocol: `ARTICLE-EDITORIAL-REVIEW.md`. Draft: `parookaville-draft.md`,
-13 September 2026. New page, so no Search Console preservation inventory
-exists. The review was written by the same session that wrote the draft; the
-owner reviews next.
+Protocol: `ARTICLE-EDITORIAL-REVIEW.md`. Draft: `parookaville-draft.md`, first
+published 13 September 2026 and reviewed against current primary sources on
+15 September 2026. No fresh Search Console query evidence was supplied for this
+maintenance pass, so metadata and intent are preserved.
 
 ## 1. Verdict
 
@@ -22,7 +22,8 @@ the generator.
   festival's own pages and de.wikipedia, not from impressions.
 - The music section is honest about the site's angle: drum and bass is a guest
   (Pendulum in 2026), and the page says so rather than inflating it.
-- Dated intents are kept out. Prices appear once, dated to 2025, in the FAQ.
+- Dated intents are kept out. The ticket FAQ points readers to the current 2027
+  official sale without freezing a price that will age.
 
 ## 3. Priority revisions (applied)
 
@@ -55,6 +56,21 @@ the generator.
   booking.
 - **Minor**: the FAZE Magazin source link was http, which audit-seo rejects;
   now https.
+- **Blocker, corrected 2026-09-15**: ownership was described as the founders'
+  company. KKR's release states that Superstruct owns Parookaville; the copy now
+  separates ownership from Parookaville GmbH's role as legal organiser and uses
+  the current imprint representatives.
+- **Blocker, corrected 2026-09-15**: the Mainstage was assigned a 45,000
+  capacity. Meyer Sound documents a 70,000-capacity audience area for 2024; the
+  2022 image caption no longer projects either figure backwards.
+- **Major, corrected 2026-09-15**: printed-ticket advice conflicted with the
+  official digital-ticket guidance. The page now states personalisation,
+  digital entry and the valid-ID check.
+- **Major, corrected 2026-09-15**: stale 2025 third-party ticket prices were
+  removed. The FAQ links the current 2027 sale and gives the official day-visa
+  sale date.
+- **Major, updated 2026-09-15**: the completed, sold-out 2026 edition is now in
+  the past tense, with more than 300 acts and 225,000 admissions.
 
 ## 4. Fact-check ledger
 
@@ -66,9 +82,9 @@ the generator.
 | Cloud Factory in an old hangar; Power Plant and Time Lab in former shelters | fact | official Stages page (hangar); de.wikipedia (shelters) | medium | keep |
 | "turns up in listings as Parookaville Weeze" | interpretation | Ahrefs term | medium | keep as framing |
 | Mid-July, three days, Friday to Sunday; 2026 on 17 to 19 July | fact | en.wikipedia; Pollstar (19 to 21 July 2019); official Pendulum listing | high | keep |
-| Over-18s only; printed ticket and valid ID at first entry | fact | ticket terms (AGB) | high | keep |
-| About 75,000 a day (2024, 2025); 225,000 admissions | fact | de.wikipedia text; Nordevents 2025; WDR headline 2026 | medium | keep |
-| Mainstage holds 45,000; redesigned every year | fact | de.wikipedia | medium | keep |
+| Over-18s only; personalised 2027 visa; digital ticket accepted; valid ID checked | fact | official tickets, Future City and data-privacy pages | high | corrected 2026-09-15 |
+| About 75,000 on each show day; 225,000 cumulative admissions, confirmed in 2025 and 2026 | fact | WDR 2025 and 2026 | high | updated 2026-09-15 |
+| 2024 Mainstage audience area had 70,000 capacity; stage redesigned every year | fact | Meyer Sound; official Stages page | high | corrected 2026-09-15 |
 | Admissions table 2015 to 2024 | fact | de.wikipedia table; 2019 matches Pollstar | medium; en.wikipedia disagrees (50,000 in 2015, 160,000 in 2017) | keep de.wikipedia, qualified in text |
 | First edition a 25,000-capacity event | fact | Pollstar | medium | keep, attributed |
 | 2019: 85,000 tickets, more than 210,000 entries, 70,000 a day | fact | Pollstar | high | keep |
@@ -79,8 +95,9 @@ the generator.
 | Bill's Factory since 2016 | fact | de.wikipedia | medium | keep |
 | 2017 rain: 80,000 fans, tractors free of charge, 8,000 cars next morning, about 100 stuck | fact | FAZE Magazin, 24 July 2017 | high | keep |
 | 2018 drought, water restricted at times | fact | de.wikipedia | medium | keep |
-| Superstruct investment and partnership agreement with Next Events, August 2019; terms undisclosed; founders stay; Sziget and Sónar in portfolio | fact | Pollstar, 7 August 2019 | high | keep |
-| Parookaville GmbH, Weeze, as organiser | fact | ticket terms (AGB) | high | keep |
+| Superstruct investment and partnership agreement with Next Events, August 2019; terms undisclosed; founders stayed at the time | fact | Pollstar, 7 August 2019 | high | keep as history |
+| Superstruct owns Parookaville; KKR acquired Superstruct and CVC invested alongside it in 2024 | fact | KKR, 28 October 2024 | high | corrected 2026-09-15 |
+| Parookaville GmbH is the organiser; current representatives Bernd Dicks and Johannes Bergers | fact | official imprint | high | corrected 2026-09-15 |
 | 2020 cancelled; LIVE from the City, 100 guests a day by lottery, streamed; 70% kept tickets | fact | de.wikipedia; Dancing Astronaut headline | medium | keep |
 | 2021 cancelled in early May, moved to 22 to 24 July 2022 | fact | de.wikipedia | medium | keep |
 | City of Dreams, Bill Parooka, his one rule | fact | official "The City of Dreams" page | high | keep |
@@ -89,9 +106,9 @@ the generator.
 | Mainstage 2024 greenhouse with waterfalls; 2025 steam locomotive | fact | official Stages page; de.wikipedia | medium | keep |
 | Stage descriptions (Bill's Factory, Cloud Factory, Power Plant, Desert Valley, Brain Wash) | fact | official Stages page | high | keep |
 | LEA 2015 Festival of the Year; Helga! 2015 Best National Festival; European Festival Awards nominations 2015 to 2019 | fact | de.wikipedia | medium | keep |
-| DJ Mag Top 100 Festivals: 15th 2019, 13th 2024, 10th 2026 (+8); Tomorrowland 1st, EDC 2nd, Creamfields 7th | fact | de.wikipedia; DJ Mag Germany, 2 July 2026 | high | keep |
+| DJ Mag Top 100 Festivals: 15th 2019, 13th 2024, 10th 2026 (+8); Tomorrowland 1st, EDC 2nd, Creamfields 7th | fact | de.wikipedia; DJ Mag official 2026 result | high | keep |
 | Headliners 2018, 2019, 2023; techno bookings 2017, 2022, 2024; stage hosts; Lost Identity resident | fact | de.wikipedia | medium | keep |
-| 2026: about 300 acts; Armin van Buuren, Charlotte de Witte, The Chainsmokers, Timmy Trumpet | fact | EDM House Network, 3 June 2026 | medium | keep |
+| 2026: sold out, 225,000 admissions, more than 300 acts led by Hardwell, Armin van Buuren, The Chainsmokers, Charlotte de Witte, Scooter, Axwell, Fisher, Argy and R3hab | fact | WDR and Pollstar, July 2026 | high | updated 2026-09-15 |
 | Hardwell on the 2025 and 2026 bills | fact | 1001Tracklists set pages (search results) | medium | caption only |
 | Brennan Heart, Headhunterz and Wildstylez at Parookaville | fact | FAZE 2017; festival channel uploads (2018, 2023) | medium | keep |
 | Paul Elstak: Dutch hardcore, gabber and happy hardcore DJ, active since 1987 | fact | Wikipedia "Paul Elstak" | high | keep |
@@ -102,12 +119,13 @@ the generator.
 | Jungle came out of UK breakbeat hardcore | fact | this site's jungle guide | high | keep |
 | Gabber and breakbeat hardcore grew from the same early-nineties rave | interpretation | the author | n/a | owner to approve |
 | No Parookaville set in the catalogue | fact | `selector-data.json` (0 matches) | high | keep |
-| 2025 prices: weekend €259, VIP from €409 | fact, dated | Nordevents, 1 July 2025 | medium | keep, dated and attributed |
+| 2027 ticket sale open; day visas on sale 4 October 2026 | fact, dated | official 2027 tickets page | high | replace stale 2025 prices |
 
 ## 5. SEO preservation
 
-A new page. Every term in `keywords/parookaville.json` must survive editing,
-and `audit-keywords.mjs` enforces it. The terms most at risk in a later edit,
+The page had no prior query record at original publication. Every term in
+`keywords/parookaville.json` must survive editing, and the targeted keyword
+check enforces it. The terms most at risk in a later edit,
 because they read least naturally, are "parookaville weeze" and "parookaville
 location". The page answers the German evergreen questions (where, how many
 visitors, what is special) in English; the German phrases are deliberately not
@@ -157,7 +175,7 @@ author Steve Aoki). Rejected: Dimitri Vegas & Like Mike 2023 and 2024 uploads
 - The Bandcamp copy ties the owner's tracks to Pendulum's 2026 booking; the
   owner to confirm.
 - Whether to make a German-language page.
-- Stage 6 validation was not run.
+- Targeted validation was run after the 2026-09-15 maintenance build.
 
 ## 10. Final acceptance checklist
 

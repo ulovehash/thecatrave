@@ -1,13 +1,18 @@
 # Ultra Music Festival: editorial review
 
-Protocol: `ARTICLE-EDITORIAL-REVIEW.md`. Draft: `ultra-draft.md`, 13 September
-2026. New page, so no Search Console preservation inventory exists. Reviewed by
-the same session that wrote the draft; the owner reviews next.
+Protocol: `ARTICLE-EDITORIAL-REVIEW.md`. Draft: `ultra-draft.md`, initially
+published 13 September 2026 and critically revalidated 15 September 2026. No
+fresh Search Console or GA4 dataset was supplied for this page, and no Ahrefs
+evidence was used for the revision.
 
 ## 1. Verdict
 
 Ready after revisions. The revisions below are applied in the draft and the
 generator.
+
+The 15 September approval preserves the URL, canonical, title, meta description,
+H1, original publication date, IDs, structure and media. Only the approved
+factual and currency corrections were added.
 
 ## 2. What already works
 
@@ -70,6 +75,21 @@ generator.
   $479.15"), not the tier and VIP prices from a search summary.
 - **Minor, corrected**: 1999 "in the week of the Winter Music Conference" and
   the FAQ's "roots in the parties around" it. Only "held alongside" is sourced.
+- **Blocker, corrected 15 September**: `165,000 tickets` and unqualified people
+  counts. The number is now identified as reported admissions summed across
+  three days, about 55,000 per day, not unique visitors or tickets.
+- **Blocker, updated 15 September**: the 2022 Bayfront agreement through 2027
+  was superseded in April 2026. The page now records the agreement that can run
+  through 2046, its four-fifths revocation route and five-year reviews.
+- **Blocker, corrected 15 September**: the unsupported claim that Faibisch and
+  Russakoff alone own the festival. The copy now distinguishes Event
+  Entertainment Group as organiser, its current officers, and Ultra Enterprises
+  as the documented intellectual-property holder without inventing shares.
+- **Major, corrected 15 September**: the Swedish House Mafia sentence now
+  distinguishes the Saturday takeover, Eric Prydz joining the group's set and
+  Armand Van Helden's separate guest segment.
+- **Major, updated 15 September**: the stale fixed 2026 ticket price was removed.
+  The FAQ links to the official live GA/VIP status for 2027.
 
 ## 4. Fact-check ledger
 
@@ -80,18 +100,18 @@ generator.
 | On the edge of Biscayne Bay | fact | Miami & Beaches event page (search result); the 2014 photograph | medium | keep |
 | Bayfront 2001–05, 2012–18, 2022–; Collins Park 1999–2000; Bicentennial 2006–11; Virginia Key 2019 | fact | Wikipedia infobox | high | keep |
 | 2022, 2024, 2026 dates | fact | Wikipedia | high | keep |
-| 165,000 from 100 countries, 2026; stream 42.5 million; 28 March Ultra Music Festival Day | fact | Electric Feels, 1 April 2026 | high | keep |
+| 165,000 summed admissions across three days, about 55,000 daily, from 100 countries; stream reach 42.5 million; 28 March Ultra Music Festival Day | fact and methodology | Event reporting carried by Electric Feels; city licence cap | high | keep with methodology explicit |
 | 165,000 every Bayfront edition since 2014; 2019 170,000; 2013 330,000 | fact | Wikipedia table | medium | keep |
-| 55,000 a day = licence cap | arithmetic | derived from Wikipedia's figures | n/a | labelled as a split |
+| About 55,000 admissions a day = licence cap | arithmetic | 165,000 three-day reported total and city licence cap | n/a | labelled as a split, not unique people |
 | 2019 licence: cap 55,000, $2 million minimum; 3–2 vote July 2019 | fact | Wikipedia (Miami Herald, Miami New Times) | high | keep |
-| Stay at Bayfront through 2027 | fact | Billboard headline (2022) | medium | attributed |
+| Agreement can run through 2046; revocable before a future event by four-fifths vote; five-year reviews | fact, current | Miami commission reporting, 24 April 2026 | high | replace superseded 2022 term |
 | 1999 10,000; 2001 21,000; 2006 48,000; 2011 100,000 | fact | Wikipedia table | medium | keep |
 | First sell-out 2010, over 100,000, two days | fact | PR Newswire title, cited in Wikipedia | medium | "by its own count" |
 | $995 million since 2012, $168 million in 2018 | fact | Wikipedia (Billboard) | medium | attributed to the city |
 | Founders Faibisch, Omes, Navarro; named after Depeche Mode's Ultra; lost $10,000–20,000 | fact | Wikipedia (Miami New Times 2013) | high | keep |
-| Russakoff since 2005, executive producer and talent buyer | fact | Wikipedia (Forbes) | high | keep |
-| Faibisch runs it today with Russakoff | fact | Wikipedia; Billboard Power 100 listing | medium | keep |
-| Corporate name Ultra Enterprises, Inc. | fact | Wikipedia | medium | attributed |
+| Event Entertainment Group, Inc. organises Ultra Miami | fact, current | Official 2027 ticketing terms | high | keep |
+| Faibisch is director, president, chairman and CEO; Russakoff is a director | fact, current | Florida Division of Corporations | high | keep |
+| Ultra Enterprises holds Ultra festival IP; current personal shares are not established | legal/corporate | *Omes v. Ultra Enterprises, Inc.*; current corporate filings | high | distinguish IP from organiser and avoid ownership claim |
 | Ultra Records: court, settled 2012, "global alliance" | fact | Wikipedia (Billboard, Business Wire) | high | keep |
 | Omes left 2010, died January 2015 aged 43 | fact | Wikipedia (Miami Herald) | high | keep |
 | 2012 back to Bayfront for the Miami Art Museum; live stream from 2012 | fact | Wikipedia | high | keep |
@@ -115,7 +135,7 @@ generator.
 | 2026: twelfth edition, 10–12 July; Calvin Harris's first time | fact | Croatia Week; a YouTube upload of his 2026 set | medium | keep |
 | Joe Bašić since founding; "strategically important" | fact | Wikipedia | high | keep |
 | Avicii's finished "Levels" 2011; Holo and Jack Ü 2014; Cube v3 2019 | fact | Miami New Times 2026; Wikipedia | high | keep |
-| Madonna 2012; SHM farewell 2013, reunion 2018, 2026 Saturday close with Prydz and Van Helden | fact | Wikipedia; Electric Feels | high | keep |
+| Madonna 2012; SHM farewell 2013, reunion 2018; 2026 Saturday takeover with Prydz joining SHM and Van Helden in a separate guest segment | fact | DJ Mag; event video | high | corrected roles |
 | Hardwell and Garrix sets 2023–26 on their channels | fact | YouTube search data, 13 September 2026 | high | keep |
 | 2026 stages named | fact | Electric Feels | high | keep |
 | Carl Cox arena since 2005, not 2024; ASOT since 2011, 500 episodes; Resistance 2015 | fact | Miami New Times; Wikipedia | medium | Resistance attributed to Wikipedia (Miami New Times says 2016) |
@@ -125,7 +145,7 @@ generator.
 | Knife Party closing 2016 into Pendulum, Tom Morello | fact | Miami New Times; the set's title on Pendulum's channel | medium | keep, reworded |
 | Skrillex 2015 94.3M; Hardwell 2013 35.7M; Garrix 2015 38.8M | fact | YouTube, 13 September 2026 | high | keep |
 | Diplo and Bieber in Skrillex's set; Dyro in Hardwell's | fact | Miami New Times 2026 | high | keep |
-| Tickets from $479.15, 2026 | fact, dated | Miami New Times, 26 March 2026 | high | keep, dated |
+| 2027 GA waitlist and VIP coming soon; three-day passes | fact, current | Official Ultra festival page | high | link live status; no fixed price |
 
 ## 5. SEO preservation
 

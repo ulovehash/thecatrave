@@ -31,8 +31,9 @@ const draft = fs.readFileSync('ultra-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/ultra-music-festival';
 const title = 'Ultra Music Festival: Miami, Ultra Europe and the Music';
 const description = 'Ultra in Miami every March: where it happens at Bayfront Park, how big it is, who owns it, Ultra Europe in Split, and what plays beyond the Main Stage.';
-const date = '2026-09-13';
-const dateLabel = '13 September 2026';
+const datePublished = '2026-09-13';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -103,8 +104,8 @@ const media = {
       articleVideoCard({youtubeId: 'jXOgYxUf6Ts', genre: 'Main Stage, 2013', artist: 'Hardwell', title: 'Live at Ultra Music Festival 2013'})
     ]
   }),
-  // Attendance, from Wikipedia's table and its lead, and Electric Feels for
-  // 2026. Typed, not computed.
+  // Attendance totals are summed admissions across each multi-day edition,
+  // not unique visitors or ticket counts. Typed, not computed.
   'Table: attendance': articleTable({
     headers: ['Year', 'Attendance', 'Where, and what happened'],
     rows: [
@@ -114,10 +115,10 @@ const media = {
       ['2010', 'over 100,000 (Ultra\'s figure)', 'First sell-out, two days; Wikipedia\'s table gives 93,000'],
       ['2011', '100,000', 'First three-day edition'],
       ['2013', '330,000', 'Two weekends, the fifteenth anniversary'],
-      ['2014 to 2018', '165,000', 'Bayfront Park, three days'],
+      ['2014 to 2018', '165,000 admissions', 'Bayfront Park, summed across three days'],
       ['2019', '170,000', 'Virginia Key, its only year there'],
       ['2020 and 2021', 'none', 'Cancelled for the pandemic'],
-      ['2022 to 2026', '165,000', 'Back at Bayfront Park; 100 countries in 2026']
+      ['2022 to 2026', '165,000 admissions', 'Summed across three days; attendees from 100 countries in 2026']
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -147,7 +148,11 @@ const answer = paras(getSection('Answer'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
   const body = rest.join('\n').trim();
-  return {question: q.trim().replace(/\?*$/, '?'), answer: body.replace(/\s+/g, ' '), answerHtml: render(body)};
+  return {
+    question: q.trim().replace(/\?*$/, '?'),
+    answer: body.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' '),
+    answerHtml: render(body)
+  };
 });
 
 const sections = [
@@ -169,7 +174,7 @@ const sectionHtml = sections.map(s => articleSection({
   bodyHtml: s.subsections ? renderWithSubsections(getSection(s.heading), s.subsections) : render(getSection(s.heading))
 }));
 
-const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
+const sourceLink = (href, label) => `<li><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
 
 // Until the page has its catalogue entry in home-articles.mjs, relatedArticles()
 // does not know it and throws, and readNext() refuses an empty list. Borrow the
@@ -189,7 +194,7 @@ const articleHtml = [
     title: 'Ultra Music Festival',
     deck: 'A park on Biscayne Bay at the end of Miami Music Week, and a name that now runs festivals from Split to São Paulo. Where Ultra happens, how big it really is, who owns it, and what plays away from the Main Stage.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Ultra Music Festival', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -201,14 +206,17 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Ultra Music Festival FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-${sourceLink('https://en.wikipedia.org/wiki/Ultra_Music_Festival', 'Wikipedia: Ultra Music Festival')}
-${sourceLink('https://en.wikipedia.org/wiki/Ultra_Europe', 'Wikipedia: Ultra Europe')}
+${sourceLink('https://ultramusicfestival.com/ticketing-terms-and-conditions-2027', 'Ultra Music Festival: 2027 Ticketing Terms and Conditions')}
+${sourceLink('https://ultramusicfestival.com/', 'Ultra Music Festival: official 2027 dates and current ticket status')}
+${sourceLink('https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryDirectionType=PreviousRecord&InquiryType=EntityName&SearchNameOrder=EVENTENTS+L120000583930', 'Florida Division of Corporations: Event Entertainment Group, Inc.')}
+${sourceLink('https://law.justia.com/cases/florida/third-district-court-of-appeal/2017/3d16-0338.html', 'Florida Third District Court of Appeal: Omes v. Ultra Enterprises, Inc.')}
+${sourceLink('https://www.miamiherald.com/news/local/community/miami-dade/article315519662.html', "Miami Herald: Miami Extends Ultra's Run at Bayfront Park")}
+${sourceLink('https://djmag.com/news/watch-swedish-house-mafias-set-ultra-miami-2026', "DJ Mag: Watch Swedish House Mafia's Set from Ultra Miami 2026")}
 ${sourceLink('https://www.miaminewtimes.com/music/best-ultra-music-festival-performances-of-all-time-22695840/', 'Miami New Times: Best Ultra Music Festival Performances of All Time')}
-${sourceLink('https://www.miaminewtimes.com/music/ultra-music-festival-reveals-lineup-for-its-2026-miami-return-40493345/', 'Miami New Times: Ultra Music Festival 2026, Lineup, Tickets, and What to Know')}
 ${sourceLink('https://www.miaminewtimes.com/music/ultra-music-festival-facing-10-million-lawsuit-from-injured-security-guard-erica-mack-6442197', 'Miami New Times: Ultra Music Festival Facing $10 Million Lawsuit From Injured Security Guard Erica Mack')}
 ${sourceLink('https://www.electricfeels.com/2026/04/01/ultra-music-festival-closes-out-triumphant-2026-edition-as-miami-dade-county-proclaims-march-28-as-ultra-music-festival-day/', 'Electric Feels: Ultra Music Festival Closes Out Triumphant 2026 Edition')}
-${sourceLink('https://www.billboard.com/music/music-news/ultra-music-festival-miami-bayfront-park-2027-1235070318/', "Billboard: Ultra Music Festival Will Stay in Miami's Bayfront Park Through 2027")}
 ${sourceLink('https://ultraeurope.com/worldwide/ultra-europe-concludes-ninth-edition-in-split-croatia-with-attendees-from-140-countries/', 'Ultra Europe: Ultra Europe concludes ninth edition in Split, Croatia with attendees from 140+ countries')}
+${sourceLink('https://ultraeurope.com/tickets/festival', 'Ultra Europe: official 2027 dates and tickets')}
 ${sourceLink('https://www.croatiaweek.com/ultra-europe-2026-split-calvin-harris/', 'Croatia Week: Calvin Harris to headline ULTRA Europe 2026 in Split')}
 </ul>`}),
   bandcampSupport({
@@ -226,7 +234,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Ultra Music Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -239,7 +247,7 @@ if (ogFile !== 'img/og/ultra.jpg') console.warn('img/og/ultra.jpg missing: run s
 const html = articlePage({
   title, description, canonical,
   ogImage: `https://thecatrave.com/${ogFile}`,
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page ultra-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

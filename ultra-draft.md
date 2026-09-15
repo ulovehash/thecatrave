@@ -2,11 +2,11 @@
 
 ## Answer
 
-Ultra Music Festival is an electronic music festival held every March at Bayfront Park in downtown Miami, Florida, over three days, Friday to Sunday. The 2026 edition drew 165,000 people from 100 countries across the weekend. Russell Faibisch and Alex Omes started it in 1999 as a one-day beach party in Miami Beach, and Faibisch runs it today with his partner Adam Russakoff. Ultra closes Miami Music Week, and the name travels: its editions abroad include Ultra Europe, held every July in Split, Croatia.
+Ultra Music Festival is an electronic music festival held every March at Bayfront Park in downtown Miami, Florida, over three days, Friday to Sunday. The reported 2026 total was 165,000 admissions across the weekend, about 55,000 a day, with attendees from 100 countries. Russell Faibisch and Alex Omes started it in 1999 as a one-day beach party in Miami Beach. Today Event Entertainment Group, Inc. organises the Miami festival, with Faibisch as its president and CEO and Adam Russakoff as a director. Ultra closes Miami Music Week, and the name travels: its editions abroad include Ultra Europe, held every July in Split, Croatia.
 
 ## Introduction
 
-What is Ultra, for people who have never been? A festival in a park on the water in downtown Miami, at the end of Miami Music Week, when the Winter Music Conference brings the dance music industry to town. Far more people watch it than go: in 2026 the #ULTRALIVE stream reached 42.5 million, against 165,000 tickets.
+What is Ultra, for people who have never been? A festival in a park on the water in downtown Miami, at the end of Miami Music Week, when the Winter Music Conference brings the dance music industry to town. Far more people watch it than can enter the park: in 2026 the #ULTRALIVE stream reached a reported global audience of 42.5 million, while the festival reported 165,000 admissions summed across three days.
 
 This guide covers where Ultra happens and when, how big it really is, who started it and who owns it now, and how a beach party became a brand with editions on several continents, Ultra Europe among them. Then the question this site is here for: under the Main Stage fireworks, what does the Ultra festival actually play? One thing first. Ultra here is the festival, not Ultra Records, the dance label with a similar name. The two were once opponents in court, and settled in 2012 with what they called a "global alliance".
 
@@ -20,7 +20,7 @@ When is Ultra Miami? In March, over three days, Friday to Sunday, the format sin
 
 The timing is the point. Ultra is held alongside the Winter Music Conference, the electronic music industry's gathering in Miami, and Miami Music Week, the wider program of concerts and parties across the region. Both lead into Ultra, which closes the week. In 2018 Ultra bought the Winter Music Conference outright.
 
-The Ultra Miami location is also a matter of rules. The licence the city of Miami approved in 2019 caps the event site at 55,000 people, a figure that can only rise with the city's approval, and requires at least $2 million a year in payments to the city. In 2022 Billboard reported that Ultra would stay at Bayfront Park through 2027.
+The Ultra Miami location is also a matter of rules. The licence the city of Miami approved in 2019 caps the event site at 55,000 people, a figure that can only rise with the city's approval, and requires at least $2 million a year in payments to the city. In April 2026 the city commission approved a new agreement with Event Entertainment Group that can run through 2046. It is not an unconditional guarantee: the city can cancel it without cause before a future edition with a four-fifths commission vote, and the agreement returns for review every five years.
 
 ### Ultra Miami 2027 and Ultra Europe 2027
 
@@ -28,7 +28,7 @@ Ultra Miami 2027 is on 26 to 28 March 2027 at Bayfront Park. Ultra Europe 2027 f
 
 ## How big Ultra is
 
-How many people go to Ultra Music Festival? About 165,000 across the three days: the figure reported for every edition at Bayfront Park since 2014, and again for 2026, when visitors came from 100 countries. It is not a crowd that is ever in one place. Split evenly, 165,000 over three days is 55,000 a day, the same number as the cap in the city's licence.
+How many people go to Ultra Music Festival? Ultra reports about 165,000 admissions summed across the three days, the figure published for every edition at Bayfront Park since 2014 and again for 2026, when attendees came from 100 countries. It is not 165,000 unique people or tickets, nor a crowd ever present in one place. Divided across the weekend, the reported total is about 55,000 admissions a day, the same number as the cap in the city's licence.
 
 The record is 330,000, from 2013, when Ultra celebrated its fifteenth anniversary over two weekends, the only year it has done so. In 2019, its one year on Virginia Key, it reported 170,000.
 
@@ -42,7 +42,7 @@ The money is the other measure. The city of Miami has estimated that Ultra gener
 
 ## A short history, and who owns Ultra
 
-Who owns Ultra Music Festival? Its co-founder Russell Faibisch, with Adam Russakoff, who joined him in 2005 and has since been executive producer and talent buyer for Ultra and for Ultra Worldwide, the brand its editions abroad run under. Wikipedia gives the festival's formal corporate name as Ultra Enterprises, Inc.
+Who owns Ultra Music Festival? The public record is clearer about the companies and their officers than about current personal shareholdings. Ultra's 2027 ticket terms name Event Entertainment Group, Inc. as the Miami festival's organiser. Florida's corporate register lists co-founder Russell Faibisch as its director, president, chairman and CEO, and Adam Russakoff as a director. A Florida appeals-court decision identifies Ultra Enterprises, Inc. as the company that holds the festival's trademarks and other intellectual property. Current public filings do not establish that Faibisch and Russakoff alone own Ultra.
 
 Faibisch and Alex Omes, with a third partner, Ray Navarro, put on the first Ultra in March 1999, and named it after Depeche Mode's 1997 album Ultra. It was a one-day beach party at Collins Park in Miami Beach. About 10,000 people came, and the partners still lost between $10,000 and $20,000 on it. The festival came back to Collins Park in 2000, and in 2001, having outgrown the beach, it moved across the causeway to Bayfront Park.
 
@@ -82,7 +82,7 @@ Three things made Ultra famous beyond Miami, and the first is that artists use i
 
 The second is the screen. Ultra began its own live stream in 2012, and its YouTube channel's most-watched videos are not sets but aftermovies: the one for 2012 has about 38 million views. By 2026 the #ULTRALIVE stream reached 42.5 million. As with Tomorrowland, the Ultra most people know is the one they watched.
 
-The third is the surprise. In 2012 Madonna walked on to introduce Avicii. In 2013 Swedish House Mafia played the last two shows of their farewell tour at Ultra, and in 2018 they reunited there, closing the festival in their first live appearance as a group since 2013. They came back to close the Saturday in 2026, with back-to-back sets alongside Eric Prydz and Armand Van Helden.
+The third is the surprise. In 2012 Madonna walked on to introduce Avicii. In 2013 Swedish House Mafia played the last two shows of their farewell tour at Ultra, and in 2018 they reunited there, closing the festival in their first live appearance as a group since 2013. In 2026 they headlined a Saturday Main Stage takeover: Eric Prydz joined Swedish House Mafia during their set, while Armand Van Helden played a separate guest segment in the wider takeover.
 
 [Image: Swedish House Mafia on Platform During ULTRA Miami 2018, HollywoodAdam78. Caption: Swedish House Mafia on their platform at Ultra in 2018, closing the festival in their first live appearance as a group since 2013. Photograph: HollywoodAdam78, CC BY-SA 4.0.]
 
@@ -116,7 +116,7 @@ A festival. It is ticketed, held in a public park under a licence from the city 
 
 ### How much are tickets for Ultra?
 
-For 2026, tickets started at $479.15, sold through the festival's own site.
+Ultra sells three-day GA and VIP passes, with prices and availability changing by sales tier. The official 2027 page currently has a GA waitlist and lists VIP as coming soon, so check the [festival's ticket page](https://ultramusicfestival.com/) for the live status rather than relying on an old price.
 
 ### When is Ultra Miami?
 
@@ -128,7 +128,7 @@ In Split, Croatia, at the Park Mladeži stadium since 2019 and at the Poljud Sta
 
 ### Who founded Ultra Music Festival?
 
-Russell Faibisch and Alex Omes, with Ray Navarro, in 1999. Omes left in 2010. Faibisch runs Ultra and Ultra Worldwide with his partner Adam Russakoff, who joined in 2005. Ultra Europe is organised by Joe Bašić.
+Russell Faibisch and Alex Omes, with Ray Navarro, in 1999. Omes left in 2010. Today Faibisch is president and CEO of the Miami organiser, Event Entertainment Group, and Adam Russakoff is a director. Ultra Europe is organised by Joe Bašić.
 
 ### What is Miami Music Week?
 
@@ -136,12 +136,14 @@ A week of electronic music concerts and parties across Miami each March, held al
 
 ## Sources
 
-- Wikipedia, "Ultra Music Festival" (founders, venues, attendance by year, the 2014 incident, Virginia Key, licence terms, Ultra Worldwide, Road to Ultra)
-- Wikipedia, "Ultra Europe" (editions, venues, Destination Ultra, organiser)
+- Ultra Music Festival, 2027 ticketing terms and current festival page (organiser, venue, dates, ticket status)
+- Florida Division of Corporations, Event Entertainment Group, Inc. (current officers and status)
+- Florida Third District Court of Appeal, *Omes v. Ultra Enterprises, Inc.* (Ultra Enterprises and the festival's intellectual property)
+- Miami Herald, "Miami extends Ultra's run at Bayfront Park", 24 April 2026 (new agreement and review/termination terms)
+- DJ Mag, "Watch Swedish House Mafia's set from Ultra Miami 2026" (Main Stage takeover and guest roles)
 - Miami New Times, "Best Ultra Music Festival Performances of All Time", 25 March 2026
-- Miami New Times, "Ultra Music Festival 2026: Lineup, Tickets, and What to Know", 26 March 2026
 - Miami New Times, "Ultra Music Festival Facing $10 Million Lawsuit From Injured Security Guard Erica Mack"
 - Electric Feels, "Ultra Music Festival Closes Out Triumphant 2026 Edition", 1 April 2026
-- Billboard, "Ultra Music Festival Will Stay in Miami's Bayfront Park Through 2027"
 - Ultra Europe, "Ultra Europe concludes ninth edition in Split, Croatia with attendees from 140+ countries", 19 July 2023
+- Ultra Europe, official 2027 ticket page (dates and current ticket status)
 - Croatia Week, "Calvin Harris to headline ULTRA Europe 2026 in Split"

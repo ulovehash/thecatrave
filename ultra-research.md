@@ -1,15 +1,57 @@
 # Ultra Music Festival: research package and structure
 
 Status: drafted and built (`ultra-draft.md`, `build-ultra-article.mjs`,
-`ultra-music-festival.html`). Evidence dated 2026-09-13, US unless stated.
+`ultra-music-festival.html`). Original evidence dated 2026-09-13, US unless
+stated; critical facts revalidated against current sources on 2026-09-15.
 `TOPIC-RESEARCH.md` stages 1–5 done; stage 6 (validation) not run. The owner's
 festivals series (`festivals-series.md`, #5) is the decision to proceed; the
 owner confirmed Ultra Europe as a section of this page, not its own page, on
 13 September 2026.
 
+The keyword and competitor tables below are retained as the original research
+record. They were not used as current evidence for the 2026-09-15 revision.
+No new Ahrefs evidence was consulted, and no fresh GSC or GA4 dataset was
+provided for this page.
+
 ## Preservation inventory
 
-A new page, so no preservation inventory exists.
+- URL and canonical: `https://thecatrave.com/ultra-music-festival`.
+- SEO title: `Ultra Music Festival: Miami, Ultra Europe and the Music`.
+- Meta description: `Ultra in Miami every March: where it happens at Bayfront
+  Park, how big it is, who owns it, Ultra Europe in Split, and what plays beyond
+  the Main Stage.`
+- H1: `Ultra Music Festival`.
+- `datePublished`: `2026-09-13`.
+- Existing IDs: `promo-bar`, `main-content`, `contents`, `introduction`, `where`,
+  `ultra-2027`, `how-big`, `history`, `own-set-1`, `worldwide`, `ultra-europe`,
+  `famous`, `music`, `from-home`, `own-set-2`, `faq`, `author-title`, `sources`,
+  `bandcamp-support-title`, `read-next-title`.
+- Preserve five article figures, the Pendulum / Knife Party embed, the
+  Skrillex and Hardwell video collection, and both thecatrave SoundCloud sets.
+- Preserve the internal routes to Tomorrowland, EDC Las Vegas, Live DJ Sets and
+  Selector.
+
+## Critical revalidation, 15 September 2026
+
+- Ultra's reported `165,000` is a summed three-day attendance/admissions total,
+  not a count of unique people or tickets. At the 55,000 site cap it represents
+  about 55,000 admissions per day.
+- The 2022 agreement ending in 2027 is no longer current. Miami approved a new
+  agreement with Event Entertainment Group in April 2026 that can run through
+  2046, remains revocable before a future edition by a four-fifths commission
+  vote, and returns for review every five years.
+- Ultra's current ticket terms identify Event Entertainment Group, Inc. as the
+  Miami event organiser. Florida's corporate register lists Russell Faibisch as
+  director, president, chairman and CEO and Adam Russakoff as a director. The
+  Florida appellate decision in *Omes v. Ultra Enterprises, Inc.* identifies
+  Ultra Enterprises as the holder of the festival's intellectual property; the
+  current public corporate record does not establish personal shareholdings.
+- The 2026 Saturday programme was a Swedish House Mafia-led Main Stage takeover.
+  Eric Prydz joined the group during its set; Armand Van Helden appeared in a
+  separate guest segment within the wider takeover.
+- The official Miami page confirms 26–28 March 2027 and currently shows a GA
+  waitlist with VIP coming soon. The official Ultra Europe page confirms
+  9–11 July 2027.
 
 ## Stage 1: web search first
 
@@ -137,7 +179,8 @@ collisions, **edc miami** and the bare **ultra**.
    Miami Music Week.
 3. How big Ultra is: attendance table 1999–2026, the 55,000 cap.
 4. A short history, and who owns Ultra: 1999 beach, Bicentennial, 2013 two
-   weekends, 2014 incident, Virginia Key, pandemic, return.
+   weekends, 2014 incident, Virginia Key, pandemic, return, and the documented
+   distinction between organiser, officers and intellectual-property holder.
 5. Ultra around the world: Ultra Worldwide, Road to Ultra.
 6. Ultra Europe, in Split: Poljud, Park Mladeži, Destination Ultra, size.
 7. Why Ultra got so famous: livestream, surprise guests, reunions.
@@ -149,7 +192,8 @@ collisions, **edc miami** and the bare **ultra**.
 ## Excluded intents
 
 - Lineups, set times, dated editions, next year's dates: official sites.
-- Tickets: one FAQ answer, dated.
+- Tickets: one FAQ answer linking to the official live GA/VIP status, without a
+  stale price.
 - Outfits, hotels, what to bring.
 - Ultra Records: one line.
 
@@ -182,5 +226,6 @@ the prose argues it.
   the Wikipedia text, so not used.
 - Ultra Europe 2026 attendance: only a preview figure ("more than 150,000
   expected", portal.hr); the page uses the official 2023 figure.
-- Ticket prices: no readable 2026 source; see the FAQ decision in the review.
+- Current 2027 ticket status is sourced to the official festival page; no fixed
+  price is stated because tiers and availability change.
 - Stage 6 validation not run.

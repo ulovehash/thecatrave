@@ -18,7 +18,7 @@ Some of the base is part of the show. The Cloud Factory stage is built into an o
 
 [Image: Parookaville stage construction, Tama66. Caption: A Parookaville stage going up on the airfield in July 2016, the festival's second year: mock town buildings, a chimney and scaffolding. Photograph: Tama66, CC0.]
 
-When is Parookaville? Every year in the middle of July, over three days from Friday to Sunday. In 2026 that was 17 to 19 July. It is for adults only: the festival's terms admit ticket holders who are 18 or over, and ask for a printed ticket and valid ID at the first entry.
+When is Parookaville? Every year in the middle of July, over three days from Friday to Sunday. In 2026 that was 17 to 19 July. It is for adults only. For 2027 all visas must be personalised to the ticket holder, and the festival accepts a digital ticket at the entrance; valid ID is required for the age and identity check.
 
 ### Parookaville 2027
 
@@ -26,7 +26,7 @@ Parookaville 2027 is on 16 to 18 July 2027, Friday to Sunday, at Weeze Airport.
 
 ## How big Parookaville is
 
-Parookaville capacity is about 75,000 people a day, the figure reported for 2024 and 2025, and the festival reports 225,000 admissions across its three days. The Mainstage alone holds 45,000.
+Parookaville admits about 75,000 people on each of its three show days and reports 225,000 admissions across them, confirmed again for 2025 and 2026. For the 2024 edition, audio supplier Meyer Sound described the Mainstage audience area as having a 70,000 capacity.
 
 Those totals count admissions, not people: someone with a weekend ticket is counted once for each day they come in. That is why the tickets and the totals in the table below are so far apart. In 2019 about 85,000 tickets were sold and more than 210,000 entries were counted, with some 70,000 people on site each day.
 
@@ -34,7 +34,7 @@ Those totals count admissions, not people: someone with a weekend ticket is coun
 
 The first edition, by Pollstar's account, was a 25,000-capacity event. Ticket sales more than tripled in four years, and since the pandemic the festival has held its admissions at 225,000.
 
-[Image: ParookavilleMainLuftbild22, Timo. Caption: The Parookaville Mainstage from the air in July 2022, the first edition after the pandemic. It holds 45,000 people and is rebuilt to a new design every year. Photograph: Timo, CC BY-SA 4.0.]
+[Image: ParookavilleMainLuftbild22, Timo. Caption: The Parookaville Mainstage from the air in July 2022, the first edition after the pandemic. The stage is rebuilt to a new design every year. Photograph: Timo, CC BY-SA 4.0.]
 
 The audience at home is bigger again. Since 2019 the festival has streamed on YouTube, and for that first year Wikipedia's German article reports 7.5 million viewers.
 
@@ -46,7 +46,7 @@ The third edition, in 2017, ended in mud. Heavy rain on the Sunday evening held 
 
 [Image: Parookaville 2017 Regen, Ss279. Caption: Standing water in front of the Parookaville sign in 2017, the year rain left cars stuck on the camping ground. Photograph: Ss279, CC BY-SA 4.0.]
 
-Who owns Parookaville? Its founders' company. In August 2019 Superstruct Entertainment, a festival group whose other events then included Sziget in Hungary and Sónar in Spain, entered an investment and partnership agreement with Next Events, the company behind Parookaville. The terms were not disclosed, and Dicks, Bergers and van Wickeren stayed in charge. The festival's ticket terms now name Parookaville GmbH, based in Weeze, as the organiser.
+Who owns Parookaville? Superstruct Entertainment lists Parookaville among the festivals it owns. Superstruct first entered an investment and partnership agreement with Next Events in 2019; in 2024 KKR acquired Superstruct and CVC invested alongside KKR. Parookaville GmbH remains the legal organiser in Weeze, and its current imprint names Bernd Dicks and Johannes Bergers as company representatives.
 
 The 2020 edition was cancelled for the pandemic. In its place the festival built a small part of its city on the site for two nights, LIVE from the City, with 100 guests a night drawn by lottery and the sets streamed. Seven in ten ticket holders kept their tickets for the next year. In early May 2021 that edition was cancelled too and moved to 22 to 24 July 2022, when Parookaville came back at 225,000 admissions.
 
@@ -66,7 +66,7 @@ The third is its record. In its first year Parookaville won Festival of the Year
 
 ## What the music actually is
 
-Parookaville books the European festival mainstream, and a lot of it. The 2015 headliners were Armin van Buuren, Alesso, Dimitri Vegas & Like Mike and Steve Aoki. Martin Garrix, Hardwell and Zedd headlined in 2018, The Chainsmokers, Alan Walker, Above & Beyond and KSHMR in 2019, Hardwell, Kygo and Alok in 2023. The 2026 edition announced about 300 acts, with Armin van Buuren, Charlotte de Witte, The Chainsmokers and Timmy Trumpet at the top.
+Parookaville books the European festival mainstream, and a lot of it. The 2015 headliners were Armin van Buuren, Alesso, Dimitri Vegas & Like Mike and Steve Aoki. Martin Garrix, Hardwell and Zedd headlined in 2018, The Chainsmokers, Alan Walker, Above & Beyond and KSHMR in 2019, Hardwell, Kygo and Alok in 2023. The sold-out 2026 edition featured more than 300 acts, led by Hardwell, Armin van Buuren, The Chainsmokers, Charlotte de Witte, Scooter, Axwell, Fisher, Argy and R3hab.
 
 Techno has a corner of its own. Paul Kalkbrenner headlined in 2017 and 2024, Amelie Lens and Fisher in 2022, Boris Brejcha in 2024, and the Cocoon label has hosted a stage. Other stages go to hosts from the radio station 1Live and the Cologne club Bootshaus to Spinnin' Records and I AM Hardstyle.
 
@@ -102,11 +102,11 @@ It is the name of a city that exists for one weekend a year. The festival presen
 
 ### How many people go to Parookaville?
 
-About 75,000 a day, and 225,000 admissions over the three days, the figure the festival has reported since 2022. Around 75,000 tickets are sold, and a weekend ticket counts once for each day.
+About 75,000 on each show day, and 225,000 cumulative admissions across the three show days, the total reported again in 2026. That is a cumulative admission count, not 225,000 people on site at once.
 
 ### Who owns Parookaville?
 
-Its founders' company, Parookaville GmbH in Weeze, run by Bernd Dicks, Norbert Bergers and Georg van Wickeren, who started the festival in 2015. In 2019 Superstruct Entertainment entered an investment and partnership agreement with Next Events, the founders' company behind the festival; the terms were not disclosed.
+Superstruct Entertainment lists Parookaville among the festivals it owns. Superstruct first entered an investment and partnership agreement with Next Events in 2019; in 2024 KKR acquired Superstruct and CVC invested alongside KKR. Parookaville GmbH remains the legal organiser in Weeze, and its current imprint names Bernd Dicks and Johannes Bergers as company representatives.
 
 ### Is Parookaville better than Tomorrowland?
 
@@ -114,16 +114,18 @@ DJ Mag's readers ranked Tomorrowland first in the 2026 Top 100 Festivals and Par
 
 ### How much are Parookaville tickets?
 
-For 2025 a weekend visa, as the festival calls its ticket, cost €259, and VIP options started at €409, according to Nordevents. The official site lists current prices.
+Parookaville 2027 ticket sales are open. Prices and availability vary by visa and package, so check the official Parookaville ticket page and its linked TicketPAY shop; day visas go on sale on 4 October 2026.
 
 ## Sources
 
 - Wikipedia, "Parookaville" (English: location, three days, organiser Next Events, 2026 dates) and German (founders, attendance by year, stages, headliners, awards, weather in 2017 and 2018, 2020 and 2021, the city, weddings, livestream, stage hosts, residents)
 - Wikipedia, "Weeze Airport" (distances, RAF Laarbruch, civilian from 2003)
-- Parookaville, "The City of Dreams"; "Stages"; ticket terms (AGB); artist page, Pendulum
+- Parookaville, "The City of Dreams"; "Stages"; 2027 tickets; "Future City"; data privacy; imprint; artist page, Pendulum
 - Pollstar, "Superstruct Entertainment Invests In German Parookaville Promoter Next Events", 7 August 2019
+- KKR, "CVC joins KKR in the acquisition of Superstruct Entertainment", 28 October 2024
+- Meyer Sound, "Parookaville 2024", 5 November 2024
+- WDR, "Veranstalter und Polizei ziehen Parookaville-Bilanz", 19 July 2026
+- Pollstar, "German Fests: Lollapalooza Berlin & Parookaville Hail Successful Editions", 21 July 2026
 - FAZE Magazin, "Das war Parookaville 2017", 24 July 2017
-- Nordevents, "Parookaville 2025: Wo Bass regiert und die Realität Pause macht", 1 July 2025
-- DJ Mag Germany, "DJ Mag Top 100 Festivals 2026", 2 July 2026
-- EDM House Network, "Parookaville 2026 Full Lineup Announced", 3 June 2026
+- DJ Mag, "Top 100 Festivals 2026: Parookaville", July 2026
 - Wikipedia, "Paul Elstak"; "W&W"

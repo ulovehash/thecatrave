@@ -1,14 +1,17 @@
 # Parookaville: research package and structure
 
-Status: research done and page drafted in one session, 2026-09-13, for the
-festivals series (`festivals-series.md`). Demand is German, so the Ahrefs work
-is DE unless stated. `TOPIC-RESEARCH.md` stages 1 to 5 done; stage 6
-(validation) not run. Owner approval of the structure is still pending.
-Ahrefs: 9 calls.
+Status: published 2026-09-13 and fact-checked against current primary sources on
+2026-09-15. The historical demand research below records the original production
+session; it was not refreshed or used as current evidence for the maintenance
+pass. The 2026-09-15 revisions use official Parookaville pages, KKR, Meyer Sound,
+WDR, Pollstar and DJ Mag.
 
 ## Preservation inventory
 
-A new page, so no preservation inventory exists.
+Preserve `/parookaville-festival`, its canonical, title `Parookaville Festival:
+Where It Is, Who Runs It, the Music`, meta description, H1 `Parookaville
+Festival`, `datePublished` 2026-09-13, all existing IDs and all six Commons
+figures, three YouTube players, two SoundCloud mixes and two Bandcamp players.
 
 ## The German question
 
@@ -166,8 +169,9 @@ Structure, mirroring Creamfields:
 1. Answer block ("What is Parookaville"): what, where, when, how big, founders.
 2. Where Parookaville happens: Weeze Airport, the RAF Laarbruch base, the
    hangars and shelters used as stages, mid-July, over-18s.
-3. How big Parookaville is: daily capacity, admissions table (de.wikipedia,
-   qualified as admissions), the 2019 livestream.
+3. How big Parookaville is: daily attendance, admissions table (de.wikipedia,
+   qualified as admissions), the documented 70,000-capacity Mainstage audience
+   area in 2024, and the 2019 livestream.
 4. A short history, and who owns Parookaville: the founders, 2015, the 2017
    mud, the 2018 drought, Superstruct in 2019, 2020 and 2021.
 5. Why Parookaville is famous: the city and Bill Parooka, the weddings, the
@@ -182,14 +186,17 @@ Structure, mirroring Creamfields:
 ## Excluded intents
 
 - Line-ups, set times, dated editions, livestream schedules: official site.
-- Tickets: one dated FAQ answer (2025 prices).
+- Tickets: one concise current FAQ answer that points to the official 2027 sale;
+  no price table or transactional guide.
 - Travel, shuttles, camping, outfits.
 - German-language phrasing of the evergreen questions: answered in English.
 
 ## Open
 
-- Stage 6 validation not run.
-- Owner approval of the structure, and of the owner-voice paragraph in section 6.
+- The original production session did not run stage 6; targeted validation was
+  completed after the approved 2026-09-15 maintenance build.
+- The 2026-09-15 factual maintenance was approved. The existing structure and
+  owner-voice paragraph in section 6 were preserved.
 - Whether a German-language page is worth making: the owner's decision, not
   researched here beyond the share above.
 - en.wikipedia and de.wikipedia disagree on attendance (en: 50,000 in 2015,
@@ -199,3 +206,24 @@ Structure, mirroring Creamfields:
   says only that they were on the 2026 bill.
 - Media: `media/parookaville.json`. Images: `img/parookaville/`, 6 Commons
   files, new to the site.
+
+## Maintenance fact-check, 2026-09-15
+
+- Superstruct Entertainment owns Parookaville; KKR acquired Superstruct in 2024
+  and CVC invested alongside it. Parookaville GmbH remains the organiser, whose
+  current imprint names Bernd Dicks and Johannes Bergers as representatives.
+- Meyer Sound describes the 2024 Mainstage audience area as having a 70,000
+  capacity. The earlier 45,000 claim is not retained.
+- The official 2027 ticket page requires personalised visas, and the official
+  Future City page says a digital ticket is accepted at the entrance. Entry is
+  18-plus and identity is checked.
+- The 2027 ticket sale is open; day visas go on sale on 4 October 2026. The
+  stale 2025 third-party prices are removed.
+- The sold-out 2026 edition reported 225,000 admissions across three show days
+  and more than 300 acts. The article now describes the completed edition in the
+  past tense.
+
+Primary/current sources: Parookaville 2027 tickets, Future City, data privacy and
+imprint; KKR's 28 October 2024 acquisition release; Meyer Sound's Parookaville
+2024 case study; WDR's 19 July 2026 attendance report; Pollstar's 21 July 2026
+festival report; and DJ Mag's official 2026 Parookaville result.
