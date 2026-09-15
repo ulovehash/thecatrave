@@ -112,3 +112,34 @@ Airport, CC BY-SA 2.0). Three players, oEmbed-checked: Dimitri Vegas & Like Mike
 - Media: pass (licences checked, players oEmbed-checked, no reuse).
 - Implementation readiness: pass when `npm run check:layout` and
   `npm run check:links` are green.
+
+## 11. Post-publication reconciliation, 15 September 2026
+
+Verdict: ready after a limited snippet and accuracy revision. The GSC window
+ended on the publication date, so 109 impressions at average position 6.3 and
+0 clicks are not enough evidence for a structural rewrite. GA4 recorded no
+users or organic sessions through 15 September and was used only as page-level
+analytics. Ahrefs was not used for this revision.
+
+- **Major, corrected:** the official Tomorrowland history dates the first
+  edition to 14 August 2005, not 15 August. Attendance is now described as
+  about 10,000 instead of the weaker 8,700–10,000 range.
+- **Major, corrected:** the official Tomorrowland Winter history dates its
+  first edition to 9–16 March 2019, not 13–15 March.
+- **Major, clarified:** the ownership answer now says that founders Manu and
+  Michiel Beers organise and own Tomorrowland through WEAREONE.world.
+- **Major, removed:** the unsupported absolute claim that Tomorrowland has the
+  most elaborate main stage of any festival. The replacement names the themed
+  Mainstage, aftermovies and livestreams without a global superlative.
+- **SEO snippet:** title and meta description now state the festival's
+  location, scale, history, ownership and music more concretely. The H1, URL,
+  canonical and all existing anchors remain unchanged.
+- **Current-information boundary:** the 2027 paragraph cites the official
+  promise of more information at year-end and labels July timing as precedent,
+  not a confirmed schedule.
+- **Media reconciliation:** the published Essential listening block contains
+  Hardwell 2013 and Swedish House Mafia 2025, replacing the earlier Chase &
+  Status and Camo & Krooked proposal. The standalone Dimitri Vegas & Like Mike
+  2025 player remains unchanged.
+- **Dates:** original `datePublished` remains 2026-09-13; visible and structured
+  `dateModified` becomes 2026-09-15.

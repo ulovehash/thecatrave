@@ -197,3 +197,32 @@ the listening block has to come from Tomorrowland's own channel, oEmbed-checked.
 
 The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
 Hardwell 2013 (28.4M) and Swedish House Mafia 2025 (375K) replace Chase & Status 2026 and Camo & Krooked 2017.
+
+## Post-publication SEO and factual update (2026-09-15)
+
+- GSC for 17 August to 13 September: 109 impressions, 0 clicks, 0% CTR and
+  average position 6.3. Because the page was published on 13 September, this
+  window contains at most its launch day and does not justify a structural
+  rewrite. No query-level breakdown was supplied, so no individual phrase is
+  described as proven GSC language.
+- GA4 for 1 to 15 September: 0 users and 0 organic sessions. This confirms that
+  the page had not yet produced measurable visits; it is not used to determine
+  the editorial queue.
+- Ahrefs was not used for this update. The older Ahrefs research above remains
+  only as the dated pre-publication record.
+- Primary intent remains the evergreen Tomorrowland festival explainer. URL,
+  canonical, H1, structure and anchors are preserved.
+- The title and description were rewritten for a clearer search snippet:
+  `Tomorrowland Festival: Location, Size, History and Music`, followed by a
+  direct description naming Boom, Belgium, attendance, ownership, history and
+  music.
+- Official Tomorrowland histories correct the first Belgian edition to 14
+  August 2005 with about 10,000 visitors, and the first Tomorrowland Winter to
+  9–16 March 2019. Official press information confirms that Manu and Michiel
+  Beers organise and own Tomorrowland through WEAREONE.world.
+- The unsupported claim that Tomorrowland has the most elaborate main stage of
+  any festival was replaced with verifiable detail about the themed Mainstage,
+  aftermovies and livestreams.
+- The Tomorrowland Belgium 2027 paragraph now distinguishes the official
+  year-end information promise from the unconfirmed assumption that the event
+  will again occupy the last two weekends of July.

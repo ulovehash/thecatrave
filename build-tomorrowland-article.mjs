@@ -28,10 +28,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('tomorrowland-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/tomorrowland-festival';
-const title = 'Tomorrowland Festival: Where It Is, How Big, and the Music';
-const description = "Belgium's festival in a park in Boom: where Tomorrowland happens, its editions abroad, how many people go, who owns it, and what plays beyond the Mainstage.";
-const date = '2026-09-13';
-const dateLabel = '13 September 2026';
+const title = 'Tomorrowland Festival: Location, Size, History and Music';
+const description = 'Tomorrowland is an electronic music festival in Boom, Belgium. Learn where it is, how many people attend, who owns it, its history and what music it plays.';
+const datePublished = '2026-09-13';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -102,7 +103,7 @@ const media = {
   'Table: attendance': articleTable({
     headers: ['Year', 'Attendance', 'What happened'],
     rows: [
-      ['2005', '8,700 to 10,000', 'First edition, 15 August; sources differ'],
+      ['2005', 'About 10,000', 'First edition, 14 August'],
       ['2010', '180,000', ''],
       ['2017 to 2019', '400,000', 'Two weekends'],
       ['2020 and 2021', 'none', 'Cancelled for the pandemic'],
@@ -166,7 +167,7 @@ const articleHtml = [
     title: 'Tomorrowland Festival',
     deck: 'A festival in a Belgian park that most of the world knows through a screen. Where it happens, how big it really is, who owns it, and what plays away from the Mainstage.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Tomorrowland', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -178,6 +179,10 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Tomorrowland FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
+${sourceLink('https://belgium.tomorrowland.com/en/welcome/down-memory-lane/', 'Tomorrowland Belgium: Down Memory Lane')}
+${sourceLink('https://winter.tomorrowland.com/en/welcome/down-memory-lane/', 'Tomorrowland Winter: Down Memory Lane')}
+${sourceLink('https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place', 'Tomorrowland Belgium: Where and when will the 2027 edition take place?')}
+${sourceLink('https://press.tomorrowland.com/', 'Tomorrowland press information: ownership and organisation')}
 ${sourceLink('https://en.wikipedia.org/wiki/Tomorrowland_(festival)', 'Wikipedia: Tomorrowland (festival)')}
 ${sourceLink('https://news.pollstar.com/2026/07/29/tomorrowland-breaks-own-livestream-record/', 'Pollstar: Tomorrowland Breaks Own Livestream Record')}
 ${sourceLink('https://www.bandwagon.asia/articles/tomorrowland-belgium-2026-wraps-with-400-000-fans-calvin-harris-debut-record-livestreams-festival-report', 'Bandwagon: Tomorrowland Belgium 2026 wraps with 400,000 fans')}
@@ -205,7 +210,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Tomorrowland Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -213,7 +218,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/tomorrowland.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page tomorrowland-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

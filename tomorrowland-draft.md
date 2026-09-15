@@ -2,7 +2,7 @@
 
 ## Answer
 
-Tomorrowland is an electronic music festival held every July in De Schorre, a provincial recreation park in Boom, Belgium, about 16 km south of Antwerp and 32 km north of Brussels. It runs over the last two weekends of the month, Friday to Sunday: in 2026, 17 to 19 and 24 to 26 July. Each weekend holds up to 200,000 people, and the 2026 edition drew 400,000 from more than 200 countries. The Belgian brothers Manu and Michiel Beers started it in 2005. It is known for the most elaborate main stage of any festival, tickets that sell out in minutes, and a Mainstage lineup built from the biggest names in EDM.
+Tomorrowland is an electronic music festival held every July in De Schorre, a provincial recreation park in Boom, Belgium, about 16 km south of Antwerp and 32 km north of Brussels. It runs over the last two weekends of the month, Friday to Sunday: in 2026, 17 to 19 and 24 to 26 July. Each weekend holds up to 200,000 people, and the 2026 edition drew 400,000 from more than 200 countries. The Belgian brothers Manu and Michiel Beers started it in 2005. It is known for its themed Mainstage, widely watched aftermovies and livestreams, and tickets that sell out in minutes.
 
 ## Introduction
 
@@ -22,7 +22,7 @@ The Belgian festival is the original. Since 2013 the name has travelled, and the
 
 ### Tomorrowland Winter
 
-Tomorrowland Winter has run since 2019 in Alpe d'Huez, a ski resort in the French Alps. The first edition was on 13 to 15 March 2019, and it takes the second or third week of March.
+Tomorrowland Winter began in 2019 in Alpe d'Huez, a ski resort in the French Alps. The first edition ran from 9 to 16 March 2019. It has since returned as a week-long festival each March, apart from the pandemic cancellations.
 
 ### Tomorrowland Thailand
 
@@ -40,13 +40,13 @@ During the 2026 festival, a banner in DreamVille read "Tomorrowland Uniting the 
 
 ### Tomorrowland 2027
 
-Tomorrowland 2027 dates have not been announced yet, as of September 2026. The festival now takes the last two weekends of July, Friday to Sunday, and the official site will publish the dates first.
+Tomorrowland Belgium 2027 dates have not been announced yet, as of September 2026. The festival's official FAQ says more information will be available at the end of the year. Recent Belgian editions have taken place over the last two weekends of July, but those dates are not confirmation of the 2027 schedule.
 
 ## How big Tomorrowland is
 
 Tomorrowland capacity is 200,000 people per weekend. Two weekends give the familiar total of 400,000, the figure for 2017 to 2019, for 2023 and 2024, and again for 2026, when visitors came from more than 200 countries.
 
-Tomorrowland attendance has grown in steps rather than in a straight line. The first edition, in 2005, drew somewhere between 8,700 and 10,000 people, depending on the source. By 2010 it was 180,000. In 2022, the first edition after two years lost to the pandemic, it ran over three weekends and reached 600,000, its record.
+Tomorrowland attendance has grown in steps rather than in a straight line. The first edition, on 14 August 2005, drew about 10,000 people. By 2010 it was 180,000. In 2022, the first edition after two years lost to the pandemic, it ran over three weekends and reached 600,000, its record.
 
 [Table: attendance]
 
@@ -56,7 +56,7 @@ The audience that never comes is bigger still. Tomorrowland's livestreams drew 1
 
 ## A short history, and who owns Tomorrowland
 
-Tomorrowland began on 15 August 2005, organised by Manu and Michiel Beers with ID&T. It grew in the same park, and by 2010 it was drawing 180,000 people.
+Tomorrowland began on 14 August 2005, organised by Manu and Michiel Beers with ID&T. It grew in the same park, and by 2010 it was drawing 180,000 people.
 
 [Image: Tomorrowland Main Stage 2008, TheWorldIsMine. Caption: The Mainstage in 2008, three years into the festival and long before it became the stage people know from the livestream. Photograph: TheWorldIsMine, CC BY-SA 2.0.]
 
@@ -64,13 +64,13 @@ In 2013 the name went abroad for the first time, with TomorrowWorld in Georgia. 
 
 The Tomorrowland fire of 2025 came two days before the gates opened. On 16 July the Mainstage was destroyed. Nobody was hurt, and DJ Mag later reported the likely cause as an ethanol spill while subcontractors tested the fire bowls for the stage's pyrotechnics. The festival opened on schedule on 18 July, on a smaller replacement stage built in two days with speakers that had also been used for Metallica's shows, and the charred frame of the old stage still in view.
 
-Who owns Tomorrowland? The founders have stayed with it from the start, and the company behind it today is WEAREONE.world, which commissioned the independent safety review after the fire as Tomorrowland's parent company.
+Who owns Tomorrowland? The festival is organised and owned by its founders, Manu and Michiel Beers, through WEAREONE.world. The company commissioned the independent safety review after the 2025 fire as Tomorrowland's parent company.
 
 ## Why Tomorrowland got so famous
 
 Three things made Tomorrowland famous, and the music is only one of them.
 
-The first is the stage. The Mainstage is built around a theme, and Wikipedia calls it the largest and most elaborate stage of any festival. For 2026, under the theme Consciencia, it stood more than 43 metres tall and 140 metres wide, with waterfalls, fountains and six giant sculptures, one for each of the emotions the theme was built on: wonder, love, anger, joy, desire and sadness.
+The first is the stage. Tomorrowland builds its Mainstage around a new theme and makes it the visual centre of the festival's aftermovies and livestreams. For 2026, under the theme Consciencia, it stood more than 43 metres tall and 140 metres wide, with waterfalls, fountains and six giant sculptures, one for each of the emotions the theme was built on: wonder, love, anger, joy, desire and sadness.
 
 [Image: Tomorrowland 2014 Main Stage, sergejf. Caption: The Mainstage in 2014, the tenth edition. Photograph: sergejf, CC BY 2.0.]
 
@@ -124,7 +124,7 @@ In De Schorre, a provincial recreation park in Boom, Belgium, about 16 km south 
 
 ### Who owns Tomorrowland?
 
-Tomorrowland was founded by the brothers Manu and Michiel Beers and first organised with ID&T. Its parent company today is WEAREONE.world.
+Tomorrowland is organised and owned by its founders, Manu and Michiel Beers, through WEAREONE.world. The first edition was organised with ID&T.
 
 ### Is Tomorrowland coming to the USA?
 
