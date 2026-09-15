@@ -29,8 +29,9 @@ const draft = fs.readFileSync('burning-man-draft.md', 'utf8').replace(/—/g, ':
 const canonical = 'https://thecatrave.com/what-is-burning-man';
 const title = 'What Is Burning Man? The Event, the City and the Music';
 const description = 'A week-long city in the Nevada desert, not a festival with a lineup. What happens there, where it is, what it costs, and what the sound camps actually play.';
-const date = '2026-09-10';
-const dateLabel = '10 September 2026';
+const datePublished = '2026-09-10';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -164,9 +165,9 @@ const articleHtml = [
   articleHero({
     kicker: 'Burning Man',
     title: 'What Is Burning Man?',
-    deck: 'A city built in the Nevada desert for one week a year, with no lineup and nothing for sale. What happens there, and what its sound camps actually play.',
+    deck: 'A participant-built city in the Nevada desert, with no central lineup or main stage. What happens there, and what its sound camps actually play.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Burning Man', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -179,6 +180,12 @@ const articleHtml = [
 ${sourceLink('https://burningman.org/black-rock-city/preparation/first-timers-guide/', "Burning Man Project: First-Timers' Guide")}
 ${sourceLink('https://burningman.org/about/10-principles/', 'Burning Man Project: The 10 Principles of Burning Man')}
 ${sourceLink('https://burningman.org/black-rock-city/preparation/infrastructure/sound-policy/', 'Burning Man Project: Sound Policy in Black Rock City')}
+${sourceLink('https://journal.burningman.org/2023/08/black-rock-city/building-brc/sound-policy-update/', 'Burning Man Journal: Sound Policy Update')}
+${sourceLink('https://survival.burningman.org/city-infrastructure/on-playa-resources/', 'Burning Man Survival Guide 2026: On-Playa Resources')}
+${sourceLink('https://burningman.org/podcast/return-to-black-rock-city/', 'Burning Man Project: Return to Black Rock City')}
+${sourceLink('https://survival.burningman.org/survival-health-and-safety/consent-and-sexual-misconduct/', 'Burning Man Survival Guide 2026: Consent and Sexual Misconduct')}
+${sourceLink('https://burningman.org/black-rock-city/preparation/playa-living/weather/', 'Burning Man Project: Weather')}
+${sourceLink('https://burningman.org/black-rock-city/black-rock-city-2026/2026-camps/', 'Burning Man Project: 2026 Camps')}
 ${sourceLink('https://burningman.org/black-rock-city/ticketing-information/', 'Burning Man Project: Ticketing Information')}
 ${sourceLink('https://burningman.org/black-rock-city/bring-your-art/art-grants-programs/temple/brc-temple-grant-history/', 'Burning Man Project: Temple History and Meaning')}
 ${sourceLink('https://journal.burningman.org/2021/11/black-rock-city/tales-from-the-playa/burning-mans-first-sound-camp/', "Burning Man Journal: Meet the DJs Who Started Burning Man's First Sound Camp")}
@@ -193,7 +200,7 @@ ${sourceLink('https://en.wikipedia.org/wiki/Burning_Man_2023', 'Wikipedia: Burni
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'Nobody books the DJs at Burning Man; they bring the music themselves. This is mine, from the breaks and bass side. Buying a track supports my work directly.',
+    description: 'Burning Man has no central festival bill; camps and art-car crews programme the music themselves. This is mine, from the breaks and bass side. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}
@@ -206,7 +213,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'What Is Burning Man?', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -214,7 +221,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/burning-man.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page burning-man-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

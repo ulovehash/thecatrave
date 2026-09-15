@@ -94,6 +94,16 @@ content = content
       ? tag.replace(/>$/, ' rel="noopener noreferrer">')
       : tag);
 
+// Complete the approved contextual handoff now that the D&B guide is live.
+// Keep the legacy #myths section and its wording; link only the first relevant
+// in-body mention so the relationship is useful without turning into link noise.
+if (!content.includes('href="/drum-and-bass-guide">drum and bass</a> became an umbrella')) {
+  content = content.replace(
+    'while drum and bass became an umbrella',
+    'while <a href="/drum-and-bass-guide">drum and bass</a> became an umbrella'
+  );
+}
+
 const iframeTitles = {
   'https://open.spotify.com/embed/playlist/63AoNfdevveMbVyzF9CL62?utm_source=generator': 'Early jungle and hardcore playlist on Spotify',
   'https://open.spotify.com/embed/artist/5Wfn5sc1w3DhMTpU7oPJZL?utm_source=generator': 'Shy FX on Spotify',

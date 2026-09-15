@@ -7,7 +7,7 @@ Prepared per `ARTICLE-PRODUCTION-WORKFLOW.md` §3–4. Companion to
 
 ## 1. Preservation inventory
 
-**No preservation inventory exists — this is a new page.** No `thecatrave.com/drum-and-bass-guide` URL, no Search Console history, nothing to protect.
+**At launch, no preservation inventory existed because this was a new page.** The page is now live at `thecatrave.com/drum-and-bass-guide`; its URL, canonical, original publication date, H1 and legacy anchors are protected.
 
 Adjacent asset that must not be cannibalised: `jungle-music-guide` (`/jungle-music-guide`). Its fixed anchors, confirmed present, that D&B will link into and that must never change: `#myths`, `#breakbeats`, `#revival`, `#pioneers`.
 
@@ -17,7 +17,7 @@ Adjacent asset that must not be cannibalised: `jungle-music-guide` (`/jungle-mus
 
 | Query cluster | US vol | Global | Difficulty | Traffic potential | Intent | SERP page types | Best fit for this page? |
 |---|---:|---:|---:|---:|---|---|---|
-| **dnb music** | **8,300** | 13,000 | **3** | 3,400 | informational | Wikipedia, streaming playlists, Reddit, one weak guide (bassgorilla DR38) | **Yes — primary. Parent topic of the whole cluster.** |
+| **dnb music** | **8,300** | 13,000 | **3** | 3,400 | mixed listening / navigation | Streaming platforms, video, downloads, Reddit and radio | **Secondary wording only. Not the primary intent of a long-form guide.** |
 | drum and bass | 3,300 | 19,000 | 2 | 1,700 | informational | as above; AI overview + PAA | Yes — co-primary phrasing |
 | **dnb meaning** | **2,300** | 6,500 | **0** | 150 | informational | Urban Dictionary, Wiktionary, Reddit, PAA, one weak guide (theghostproduction DR21). **SERP is music/slang, not the bank — confirmed by live SERP check.** | Yes — FAQ target, easiest keyword in the set |
 | drum and bass artists | 600 | 2,300 | 0 | 350 | informational | AI overview, PAA, video | Yes — "global genre" + pioneers sections |
@@ -82,12 +82,16 @@ Adjacent asset that must not be cannibalised: `jungle-music-guide` (`/jungle-mus
 **Create a new page.** Not a split of an existing page (jungle stays intact; only two surgical edits there, made *after* D&B publishes). Confirmed low risk: jungle guide has effectively no ranking weight to lose yet.
 
 ### Primary intent / excluded intents
-Primary: informational "what is drum & bass / dnb music". Excluded: production how-to; the bank/acronym; in-depth 1991–95 jungle history.
+Primary: informational `what is drum and bass` / `what is drum and bass music`. `dnb music` is secondary wording because its live SERP is dominated by listening and navigation. Excluded: production how-to; the bank/acronym; in-depth 1991–95 jungle history.
+
+### Post-publication validation, 16 August–12 September 2026
+
+GSC recorded 807 impressions, 0 clicks and an average position of 10.1. Proven wording includes `what is drum and bass`, `what is drum and bass music`, `drum and bass bpm`, `drum and bass meaning`, `drum and bass genre`, British origin and invention timing. The page had been live for only about 11 days within this window, so the approved response is a limited snippet and accuracy update, not a structural rewrite. GSC remains the source of truth; the Ahrefs table above is preserved as the dated pre-publication research record.
 
 ### Approved metadata (direction approved 2 Sep 2026; title trimmed per feedback — "and DnB" suffix read as unnatural)
 - **URL / canonical:** `https://thecatrave.com/drum-and-bass-guide`
-- **Title (≤ 65 chars):** `What Is Drum and Bass? History, Sound and Subgenres` (50)
-- **Meta description (≤ 165):** `Drum and bass is what jungle became after the mid-1990s split: 174 BPM, breakbeats and sub-bass built into a global genre. The history, the sound, the subgenres.` (159)
+- **Title (updated 15 Sep 2026):** `What Is Drum and Bass? 174 BPM, History and Subgenres`
+- **Meta description (updated 15 Sep 2026):** `Drum and bass is a British electronic music genre built on fast breakbeats and deep sub-bass, usually at 170–180 BPM. Hear its history, artists and subgenres.`
 - **H1:** `What is drum and bass?`
 - **"dnb music" / "dnb meaning" / "what is drum and bass"** are carried by the H1, the definition block, the section H2s and the FAQ — they do not need to sit in the `<title>` to rank for the parent topic.
 
@@ -96,12 +100,12 @@ Primary: informational "what is drum & bass / dnb music". Excluded: production h
 | # | Section (working H2) | Reader job | SEO job | Jungle / cross-link |
 |---|---|---|---|---|
 | — | Intro + definition block (`infoBanner`) | One-paragraph answer: DnB = the form jungle became; 174 BPM; breaks + sub-bass; now global | what is drum and bass, dnb music, dnb meaning | — |
-| 1 | Where jungle ended (the split) — **the prologue** | The mid-90s rift as the story's start; what changed in the records; why some read it as a betrayal; Goldie / those who stayed | drum and bass (partial) | **link → jungle `#myths`** |
+| 1 | When jungle and drum and bass diverged — **the prologue** | The mid-90s divergence as the story's start; what changed in the records; why some read it as a betrayal; Goldie / those who stayed | drum and bass (partial) | **link → jungle `#myths`** |
 | 2 | How drum and bass is built: 174 BPM, the break, the low end | Tempo, two-step vs rolling drums, timestretching, sub/Reese bass; contrast with 140 half-time dubstep | drum and bass bpm, what is drum and bass | link → jungle `#breakbeats`; link → `/dubstep-guide` |
 | 3 | Metalheadz and the dark turn | Institutionalisation; Goldie, *Timeless*; No U-Turn, Ed Rush & Optical, techstep | techstep | link → jungle `#pioneers` |
 | 4 | The atmospheric line: Bukem, Good Looking, Logical Progression | The other 1995 direction; intelligent / liquid roots; Roni Size Mercury 1997 | liquid drum and bass | — |
 | 5 | The subgenres and what they mean | `articleTable`: liquid, jump-up, neurofunk, techstep, darkstep, drumfunk, halftime — 1-line each + relationship | drum and bass subgenres, neurofunk, jump up | — |
-| 6 | How it stopped being British | Brazil / sambass, Europe (Prague, Moscow), Australia/NZ, South Africa, USA; festival circuit; 2020s streaming resurgence and Nia Archives | drum and bass artists | link → jungle `#revival` |
+| 6 | How drum and bass became global | Brazil / sambass, Europe (Prague, Moscow), Australia/NZ, South Africa, USA; festival circuit; 2020s streaming resurgence and Nia Archives | drum and bass artists | link → jungle `#revival` |
 | 7 | Where drum and bass is now | Short present-tense close; the resurgence, the split healed or not | — | — |
 | FAQ | `articleFaq` (+ matching `faqStructuredData`) | 4–5 retrieval-friendly Qs | dnb meaning, drum and bass bpm | — |
 | — | `authorCard` · `bandcampSupport({fullBleed:true})` · `readNext` · footer | shared shell | — | Read Next includes jungle, breakbeat, bass-music, dubstep |

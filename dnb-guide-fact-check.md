@@ -28,7 +28,7 @@ Research date: 2 September 2026.
 
 ## Neurofunk
 
-- **Neurofunk** = the funk/jazz-informed evolution of techstep: sub-bass replaced by "snarling midrange", heavy sound-design, precise editing. — Wikipedia *Drum and bass*; Beatportal ("replaced the pressurized sub-bass of jungle with snarling midrange"). Confidence: high for the description.
+- **Neurofunk** = a funk-informed evolution of techstep: prominent midrange bass modulation, low-end weight, heavy sound design and precise editing. Describing the midrange as replacing sub-bass altogether is too categorical for the range of records filed under the term. — Beatportal; genre practice. Confidence: high for the lineage, medium for any one timbral definition.
 - The **term "neurofunk"** is commonly credited to writer **Kodwo Eshin** in *More Brilliant Than the Sun* (1998), describing the No U-Turn / Virus sound. Draft: attribute to Eshin's book, note it was a critic's coinage. Confidence: medium-high — verify the exact wording/page before quoting; if not verified, say "coined by the writer Kodwo Eshun" without a quote.
 - **Noisia** (Groningen, Netherlands) and **Black Sun Empire** carried neurofunk internationally in the 2000s. — Beatportal. Confidence: high.
 
@@ -44,10 +44,11 @@ Research date: 2 September 2026.
 |---|---|---|---|
 | Drum and bass (the core) | 1994 onward | ~174 BPM, breakbeats, sub-bass; the form jungle became | The source |
 | Liquid / liquid funk | 2000 onward | Melodic, soulful, two-step rolls; vocals and chords | The mellow line, named after Fabio's 2000 mix |
-| Jump-up | mid-1990s onward | Big, cartoonish basslines, simple breaks, party function | Split early from "breakbeat science"; DJ Zinc, Aphrodite |
-| Techstep | 1996–99 | Machine-led, industrial, sci-fi; No U-Turn / *Torque* | The hard turn away from jazz |
-| Neurofunk | late 1990s onward | Techstep plus funk precision and mid-range design | Descends from techstep; Ed Rush & Optical, Noisia |
-| Darkstep / drumfunk | late 1990s onward | Very fast dark drums / dense edited breaks | Wings of the same tree; drumfunk is a Photek/Paradox lineage |
+| Jump-up | mid-1990s onward | Hook-led basslines, direct drops, dancefloor-first arrangement | Party-facing branch; DJ Zinc, Aphrodite |
+| Techstep | mid-1990s onward | Machine-led, industrial, sci-fi; No U-Turn / *Torque* | Formative peak in 1996–99, not an end date |
+| Neurofunk | late 1990s onward | Techstep-derived bass modulation, precise drums, prominent midrange over low-end weight | Descends from techstep; Ed Rush & Optical, Noisia |
+| Darkstep | late 1990s onward | Dark atmospheres, aggressive bass, hard-edged drums | Overlaps with techstep and later neurofunk |
+| Drumfunk | late 1990s onward | Dense, hand-edited breaks and rhythmic variation | Break-focused Photek/Paradox lineage |
 | Halftime | 2010s onward | D&B sub-bass and sound design at a half-time drum feel (~85–87 felt) | The point where D&B and dubstep tempo logic meet |
 
 Verify DJ Zinc "Super Sharp Shooter" (1995) / "Pranksters" and Aphrodite dates individually if named in the draft.

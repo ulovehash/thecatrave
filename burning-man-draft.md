@@ -2,13 +2,13 @@
 
 ## Answer
 
-Burning Man is a week-long temporary city built every summer in the Black Rock Desert of northern Nevada, about 100 miles north-northeast of Reno. It runs for the nine days up to and including the American Labor Day holiday, which in 2026 meant 30 August to 7 September. Around 70,000 people build Black Rock City from nothing, live in it, and take every trace of it away again. There is no lineup, nothing is sold except ice and coffee, and nobody is booked to entertain anyone. The event is named after its centrepiece, a large wooden figure of a man that is burned on the second-to-last night.
+Burning Man is a temporary city built every summer in the Black Rock Desert of northern Nevada, about 100 miles north-northeast of Reno. It runs for nine days up to and including the American Labor Day holiday, which in 2026 meant 30 August to 7 September. Around 70,000 people build Black Rock City, live in it and take every trace of it away again. It is not a conventional music festival: there is no central lineup or main stage, although camps and art-car crews programme their own music. Almost nothing is sold inside the city; the official 2026 guide lists ice sales at Arctica. The event is named after its centrepiece, a large wooden figure burned on the second-to-last night.
 
 ## Introduction
 
 Most descriptions of Burning Man start with the photographs: the dust, the costumes, the art cars lit up at night. They are accurate and they miss the part that makes it strange. Burning Man is not a festival that happens to be in a desert. It is a city that exists for a week, run on its own rules.
 
-That is also why the music at Burning Man is so hard to describe from outside. Lee Burridge has played sunrise sets at the Robot Heart sound camp for more than a decade, and nobody at Burning Man ever booked him. This guide covers what Burning Man is, where it happens, what people do there and what it costs, and then answers the question this site is here for: is it a music festival, and what do its sound camps actually play?
+That is also why the music at Burning Man is so hard to describe from outside. Lee Burridge has played sunrise sets at Robot Heart for more than a decade, but he is not part of an event-wide festival bill. This guide covers what Burning Man is, where it happens, what people do there and what it costs, and then answers the question this site is here for: is it a music festival, and what do its sound camps actually play?
 
 ## Black Rock City
 
@@ -40,11 +40,11 @@ Then the city is taken down. The principle is called Leaving No Trace, and it is
 
 The Burning Man principles were written down by co-founder Larry Harvey in 2004, eighteen years after the first burn. They were meant to describe what the event had already become rather than to design it. The ten are radical inclusion, gifting, decommodification, radical self-reliance, radical self-expression, communal effort, civic responsibility, leaving no trace, participation and immediacy.
 
-In practice, three of them shape the week more than the rest. Decommodification is why there is no vending and no advertising: nothing is sold except ice and coffee. Gifting is what replaces it: you are not handed things in exchange for anything, and you are expected to give back. Radical self-reliance is why you arrive with all your own water, food and shelter for a week in a desert where daytime highs passed 100°F (38°C) as recently as 2022.
+In practice, three of them shape the week more than the rest. Decommodification is why ordinary vending and advertising are absent. The centrally operated coffee shop ended in 2022; the official 2026 survival guide lists ice at Arctica as the principal on-playa sale. Gifting is what replaces commerce: people offer food, drinks, workshops and performances without charging at the point of use. Radical self-reliance is why you still arrive with your own water, food and shelter for a week in a desert where daytime highs passed 100°F (38°C) as recently as 2022.
 
 ## Is Burning Man a music festival?
 
-No, and the organisers are firm about it. Burning Man's own guide for first-timers says it is "not a festival", and it has no booked entertainment of any kind. There is no main stage and no lineup, and pre-announcing DJs has been discouraged. In 2015 the Burning Man Project put it plainly: Burning Man doesn't have headliners.
+Not in the conventional sense. Burning Man has no central music lineup, main stage or event-wide headliners. The Burning Man Project does not programme the city as a promoter would: theme camps and mutant-vehicle crews build their own spaces, organise parties and choose the DJs who play them. Music is therefore a major part of Black Rock City without defining the whole event.
 
 It is also, in this site's view, one of the places that shaped a particular strain of melodic house and techno. Both things can be true, and the tension between them is the story of music at Burning Man.
 
@@ -52,9 +52,9 @@ It is also, in this site's view, one of the places that shaped a particular stra
 
 Electronic music was not welcome at first. The first sound camp arrived in 1992, run by Craig Ellenwood and Terbo Ted with four Peavey speakers, two turntables and a generator. Larry Harvey asked them to set up a mile from the centre of camp, with the speakers facing out into the empty desert. According to the Burning Man Journal's own history, some participants tried to slash the speakers.
 
-The rave camp stayed on the edge through the 1990s, and later became known as the Techno Ghetto. Today the geography is formalised. Large sound camps must sit in the large-scale sound zones along the 2:00 and 10:00 avenues, at the two ends of the arc, with every speaker pointed away from the city and towards the open playa. Elsewhere, sound must stay below 75 decibels at the edge of the neighbouring camp. Since 2015 the biggest mobile systems play in the Deep Playa Music Zone, far out beyond the Man.
+The rave camp stayed on the edge through the 1990s, and later became known as the Techno Ghetto. Today the geography is formalised. Large sound camps must sit in the large-scale sound zones along the 2:00 and 10:00 avenues, at the two ends of the arc, facing towards the open playa. Within the city, the current policy defines conversational level as 60 dBA at the border of the nearest neighbouring camp or the centre of the nearest street; low-frequency bass is negotiated between neighbours. Since 2015 the biggest mobile systems have played in the Deep Playa Music Zone, far out beyond the Man.
 
-So the music at Burning Man still lives where it was first sent: at the edges and out in the dark, on systems nobody booked.
+So the music at Burning Man still lives where it was first sent: at the edges and out in the dark, on systems built and programmed by participants rather than an event-wide promoter.
 
 ### Robot Heart
 
@@ -98,7 +98,7 @@ Music has been part of the argument too. Big-name DJs, filmed sets and camps wit
 
 ## Hearing Burning Man from home
 
-The story of music at Burning Man is a story of being sent to the edge: a mile out in 1992, onto the 2:00 and 10:00 avenues now, into the deep playa after dark. What grew there is a sound made for the hours nobody schedules, the long stretch from the middle of the night into sunrise, played by DJs who were not booked and often not announced.
+The story of music at Burning Man is a story of being sent to the edge: a mile out in 1992, onto the 2:00 and 10:00 avenues now, into the deep playa after dark. What grew there is music made for the long stretch from the middle of the night into sunrise, programmed camp by camp rather than through one public festival bill.
 
 Most of it is only half-available afterwards. Some camps and DJs film their sets and upload them, as Robot Heart and Mayan Warrior do, and the rest exists only for the people who were standing there. Lee Burridge put the whole of his 2025 Saturday sunrise at Robot Heart online, three hours of it, which is as close as a recording gets to the week.
 
@@ -122,17 +122,23 @@ On the dry lake bed of the Black Rock Desert in Pershing County, Nevada, about 1
 
 ### Is Burning Man a nudist event?
 
-No. Clothing is optional and nudity is common enough not to be remarked on, but most people wear clothes, often elaborate ones. Heat, sun and dust make covering up the practical choice for most of the day.
+No. Nudity may be visible, but it is not the purpose of the event and it never overrides consent. Burning Man's guidance says to ask before taking a photograph or video, and permission to record someone is not permission to publish the image. The desert also brings intense sun, alkaline dust, high winds and cold nights, so protective clothing, goggles and a dust mask are practical equipment rather than a dress code.
 
-### How many people have died at Burning Man?
+### Is Burning Man a rave?
 
-The organisers do not publish a running total. Deaths have been reported in most recent years, from medical emergencies, vehicle accidents and, in 2017, a man who ran into the fire of the Man burn. Three people died in connection with the 2026 event.
+Not as a whole. Burning Man contains raves, sound camps and art cars playing house, techno and many other styles, sometimes throughout the night. But it is a participant-built temporary city centred on art, communal projects and two ceremonial burns, with no central lineup or main stage. Calling it only a rave leaves most of the event out.
 
 ## Sources
 
 - Burning Man Project, "First-Timers' Guide", burningman.org
 - Burning Man Project, "The 10 Principles of Burning Man", burningman.org
 - Burning Man Project, "Sound Policy in Black Rock City", burningman.org
+- Burning Man Journal, "Sound Policy Update", 7 August 2023
+- Burning Man Project, "On-Playa Resources", Survival Guide 2026
+- Burning Man Project, "Return to Black Rock City", 2022 (Center Camp coffee change)
+- Burning Man Project, "Consent & Sexual Misconduct", Survival Guide 2026
+- Burning Man Project, "Weather", burningman.org
+- Burning Man Project, "2026 Camps", burningman.org
 - Burning Man Project, "Ticketing Information", burningman.org
 - Burning Man Journal, "Meet the DJs Who Started Burning Man's First Sound Camp", 2021
 - Burning Man Journal, "What's Actually Going On with Dance Music at Burning Man", 27 July 2015

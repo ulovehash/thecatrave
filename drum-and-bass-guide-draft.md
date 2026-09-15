@@ -1,16 +1,16 @@
 # What is drum and bass?
 
-Drum and bass is the music jungle turned into. Same city, same tempo range, same drum vocabulary, but by the second half of the 1990s a large part of the scene had stopped calling itself jungle and started building something with a technical school, a set of institutions and, eventually, festivals on five continents.
+Drum and bass emerged from the same British rave continuum as jungle. It kept the fast breakbeats and sub-bass, then developed a technical school, its own institutions and, eventually, festivals on five continents.
 
 This guide covers where that turn happened, how the music is put together, the branches it grew, and how a sound made in Britain ended up being made everywhere.
 
 ## DRUM AND BASS DEFINITION
 
-Drum and bass is a British electronic style that runs at roughly 174 beats per minute, built from chopped breakbeats over deep sub-bass. It is written drum n bass as often as drum and bass, and shortened to dnb in most places people actually talk about it. It formed in the mid-1990s out of jungle: as jungle moved into the charts, a part of the scene distanced itself from the ragga-heavy sound and the name, and the term drum and bass, often written DnB or d&b, took its place. What began as a rebrand became a genre with its own production techniques, labels, subgenres and global circuit. Jungle is the scene of 1991 to 1995; drum and bass is what most of it became.
+Drum and bass is a British electronic music genre built around fast breakbeats, heavy sub-bass and tempos usually between 170 and 180 BPM. It emerged from the same early-1990s rave continuum as jungle. By the mid-1990s, drum and bass increasingly described newer directions that often placed more emphasis on production detail and less on ragga samples, but the boundary was never fixed. Jungle continued as a living style, and the two terms still overlap. Drum and bass is also written drum n bass or d&b and commonly shortened to DnB.
 
-## Where jungle ended
+## When jungle and drum and bass diverged
 
-The two DJs who ended up carrying the genre longest had been doing the thing it is named after since before it had the name. Fabio and Grooverider held the Rage nights at Heaven, off Charing Cross, where the practice was to play hardcore records as fast as a pair of Technics would go, pitching them up on the deck until the break turned into something else. That is where the tempo came from, and it is why two DJs rather than two producers ended up holding drum and bass's national radio show for two decades.
+The two DJs who ended up carrying the genre longest had been doing the thing it is named after since before it had the name. Fabio and Grooverider held the Rage nights at Heaven, off Charing Cross, where the practice was to play hardcore records as fast as a pair of Technics would go, pitching them up on the deck until the break turned into something else. That is where the tempo came from, and it helps explain why two DJs rather than two producers ended up holding drum and bass's national Radio 1 show [from 1998 until 2012](https://djmag.com/features/bob-2015-fabio-grooverider-outstanding-contribution).
 
 There is no clean date for the split, and any account that gives you one is tidying up. Through 1994 and 1995 the change happened gradually and unevenly, and it was as much about the name as the music.
 
@@ -18,7 +18,7 @@ By 1994 jungle had reached the UK charts and daytime radio, and the version of i
 
 Goldie did not arrive from nowhere, and neither did the rename. The label most of that generation passed through was Reinforced Records, founded in 1989 in Dollis Hill by Marc Mac and Gus Lawrence, later joined by Dego McFarlane and Ian Bardouille. Marc Mac and Dego are 4hero, and their "Mr Kirk's Nightmare" sold more than 24,000 copies and paid for the label. Goldie drew Reinforced's artwork before he made records for it, released as Rufige Kru, and ended up running its A&R. When anybody lists the producers who shaped drum and bass, 4hero is usually the first name, and the reason is the address rather than any single record: between 1991 and 1994 the darker, faster end of hardcore was posted to Dollis Hill. Their own Parallel Universe, in 1994, has been called the first drum and bass album, and Two Pages, in 1998, was shortlisted for the Mercury Prize and won a MOBO.
 
-The argument about what was gained and lost in that rename, who got left behind, and what General Levy did or did not say, is the jungle scene's own story, and [the jungle guide tells it as an epilogue](/jungle-music-guide#myths). For drum and bass it is the opposite: the starting point. Everything after this section assumes the split already happened.
+The argument about what was gained and lost in that rename, who got left behind, and what General Levy did or did not say, is the jungle scene's own story, and [the jungle guide tells it as an epilogue](/jungle-music-guide#myths). For drum and bass it is the starting point, but not a clean ending for jungle. Everything after this section follows the directions that increasingly travelled under the newer name.
 
 ## How drum and bass is built: 174 BPM, the break and the low end
 Drum and bass BPM sits at 174, give or take a couple either side, and almost everything else about the genre follows from that number.
@@ -44,7 +44,7 @@ The dark turn was one answer to 1995. Another ran through a club night called Sp
 
 The other centre of the melodic version was not in London at all. In Bristol, Roni Size, Krust, Die and Suv formed the collective Reprazent, and Bristol labels, Full Cycle and the V Recordings axis run by Bryan Gee and Jumpin Jack Frost, built a rolling, jazz-inflected sound with a live-band feel. In 1997 Reprazent's New Forms won the Mercury Prize, beating OK Computer, and for a moment the sound of British music writing about itself was a drum and bass record made in Bristol. "Brown Paper Bag", from that album, is the track that reached people who owned no other record in the genre.
 
-By 2000 the melodic branch had a name of its own, liquid drum and bass, after a Fabio mix CD called Liquid Funk, and it became the genre's most exportable form: soulful, vocal, built on rolling two-step, carried by Calibre, High Contrast, Marcus Intalex and, later, the Hospital Records roster. High Contrast, a Welsh producer signed to Hospital, is the version of liquid that kept the soul samples and the big room at the same time; "The Basement Track" is the one that still gets played. Grooverider and Fabio took the whole spread of it onto national radio, holding a Radio 1 drum and bass show from 1998 that ran for two decades.
+By 2000 the melodic branch had a name of its own, liquid drum and bass, after a Fabio mix CD called Liquid Funk, and it became one of the genre's most exportable forms: soulful, vocal, built on rolling two-step, carried by Calibre, High Contrast, Marcus Intalex and, later, the Hospital Records roster. High Contrast, a Welsh producer signed to Hospital, is the version of liquid that kept the soul samples and the big room at the same time; "The Basement Track" is the one that still gets played. Grooverider and Fabio took the whole spread of it onto national radio, holding a weekly Radio 1 drum and bass show from 1998 until 2012.
 
 ## The subgenres and what they mean
 
@@ -52,29 +52,28 @@ Drum and bass argues about terminology as much as jungle does, and most of the a
 
 None of these are sealed boxes. A liquid producer will make a jump-up record; a neurofunk engineer will cut something almost ambient. The labels describe tendencies and scenes more than they describe rules.
 
-## How drum and bass stopped being British
+## How drum and bass became global
 
-Drum and bass was a London and Bristol music that, within a decade, was being made in places with no connection to either. Brazil built the first major scene outside Britain: DJ Marky, XRS and Patife, connected to the UK through Bryan Gee's V Recordings, and Marky's crossover with "LK", made with XRS and the MC Stamina in 2002, put a Brazilian record in every British club that year. Continental Europe followed, and by the 2010s the largest events were not in Britain at all: Rampage in Antwerp indoors, Let It Roll in the Czech Republic outdoors, each billed as the biggest of its kind. Toronto is usually named as the strongest early North American scene.
+Drum and bass was rooted in London and Bristol, but within a decade it was being made far beyond either city. Brazil built one of the first major scenes outside Britain: DJ Marky, XRS and Patife connected to the UK through Bryan Gee's V Recordings, and Marky's crossover with "LK", made with XRS and Stamina MC in 2002, became a UK club staple. Continental Europe followed, and by the 2010s major events included Rampage in Antwerp and Let It Roll in the Czech Republic. Toronto is often cited as an important early North American centre.
 
 The music also kept moving between the deep side and the loud side without ever fully resolving. The Bristol and liquid lineages carried the melodic version; jump-up held the dancefloor; neurofunk went to the Netherlands with Noisia and Black Sun Empire and became a global technical benchmark.
 
-None of that travelled on its own. It travelled on labels, and the ones that mattered had a single person's taste behind them. Andy C founded RAM Records in 1992 with Ant Miles, and RAM became the shortest route between a good dancefloor record and a full room; Andy C is also the most booked DJ the genre has produced, which is why a reader who knows exactly one drum and bass name usually knows that one. DJ Hype's Playaz did the same job for jump-up, the loud, hook-led branch that fills rooms and gets written about least. Hospital Records, started in 1996 by Tony Colman of London Elektricity and Chris Goss, turned the liquid end into a catalogue, a festival and a touring show. Between them those three have pressed and booked a large share of everything anyone has actually heard.
+None of that travelled on its own. It travelled through labels and touring networks, often shaped by a small number of people with a clear taste. Andy C founded RAM Records in 1992 with Ant Miles, and RAM became a durable route from dancefloor records to international rooms. DJ Hype's Playaz did similar work for jump-up, the loud, hook-led branch that fills rooms and gets written about least. Hospital Records, started in 1996 by Tony Colman of London Elektricity and Chris Goss, turned the liquid end into a catalogue, a festival and a touring show. Together, those institutions helped make distinct branches of drum and bass legible outside their original local scenes.
 
-The other thing that happened in those years is that the music kept turning up in the singles chart, which the scene has never quite known what to do with. Pendulum's Hold Your Colour, made in Perth by Rob Swire, Gareth McGrillen and Paul Harding and released in 2005, is the best-selling drum and bass album there has been. In 2012 the genre took its first UK number one, DJ Fresh's "Hot Right Now" with Rita Ora, and the run did not stop there: Rudimental's "Feel the Love" the same year and "Waiting All Night" in 2013, Sigma's "Nobody to Love" and "Changing" in 2014, Kenya Grace's "Strangers" in 2023, Chase & Status and Stormzy's "BACKBONE" in 2024. A guide is allowed to prefer other records and still has to count these: this is the stretch in which drum and bass was heard by the most people, and an account that runs from Metalheadz straight to Nia Archives has stepped over a decade.
+The other thing that happened in those years is that the music kept turning up in the singles chart, which the scene has never quite known what to do with. Pendulum's Hold Your Colour, made in Perth by Rob Swire, Gareth McGrillen and Paul Harding and released in 2005, became one of the genre's best-selling albums. In 2012 the genre took its first UK number one, DJ Fresh's "Hot Right Now" with Rita Ora, and the run did not stop there: Rudimental's "Feel the Love" the same year and "Waiting All Night" in 2013, Sigma's "Nobody to Love" and "Changing" in 2014, Kenya Grace's "Strangers" in 2023, Chase & Status and Stormzy's "BACKBONE" in 2024. A guide is allowed to prefer other records and still has to count these. They document a sustained crossover that an account running from Metalheadz straight to Nia Archives would miss.
 
-Since 2021 there has been a resurgence, and this time the numbers are attached to it: Spotify reported drum and bass streams up around 94 per cent between 2021 and 2024, with most of those listeners under 34, and Pitchfork wrote in 2021 about a rising zoomer affinity for the genre. Nia Archives is the name most attached to the revival; her 2024 album Silence Is Loud reached number 16 on the UK albums chart, and it does the thing the whole guide keeps circling back to, folding jungle's breakbeats and reggae feel back into a drum and bass record. [The jungle guide covers that revival from the other end](/jungle-music-guide#revival).
+Since 2021 there has been a resurgence, and this time the numbers are attached to it: [Spotify reported drum and bass streams up around 94 per cent between 2021 and 2024](https://djmag.com/news/drum-bass-streams-increased-94-past-three-years-spotify-reports), with most of those listeners under 34, and Pitchfork wrote in 2021 about a rising zoomer affinity for the genre. Nia Archives is the name most attached to the revival; her 2024 album Silence Is Loud reached number 16 on the UK albums chart, and it does the thing the whole guide keeps circling back to, folding jungle's breakbeats and reggae feel back into a drum and bass record. [The jungle guide covers that revival from the other end](/jungle-music-guide#revival).
 
 ## Where drum and bass is now
-The drum and bass artists who define the current moment are not the ones who defined 1997, and the list turns over faster than it used to.
+There is no single contemporary drum and bass sound. Festival-facing dancefloor records, jungle-informed breakwork, jump-up and deeper label-led music share the same international circuit without forming one unified revival.
 
-
-Drum and bass is no longer a scene that has to be defended or explained. It has a festival circuit, a streaming audience that skews young, a technical school that produces engineers as much as artists, and a back catalogue deep enough that a new listener can spend a year inside 1995 alone. The split with jungle that started this story has, in practice, closed: the artists driving the current wave treat jungle and drum and bass as one toolkit, which is roughly where the two words started.
+Today's drum and bass artists do not form one movement. The chart-facing records, Nia Archives' jungle-informed work, international neurofunk and long-running liquid and jump-up scenes described above coexist rather than replacing one another. The overlap with jungle is visible again, but the two identities have not collapsed into one. Drum and bass also has a back catalogue deep enough that a new listener can spend a year inside 1995 alone, while current producers keep using the same break-and-bass framework for different rooms and audiences.
 
 ## Drum and bass FAQ
 
 ### What does DnB stand for?
 
-DnB stands for drum and bass, also written d&b, drum & bass or drum'n'bass. It is a UK electronic genre that runs at around 174 beats per minute. The same three letters are used for unrelated things, including a Norwegian bank and the business-data firm Dun & Bradstreet, but in a music context DnB always means drum and bass.
+DnB stands for drum and bass, also written d&b, drum & bass or drum'n'bass. It is a British electronic music genre that usually runs between 170 and 180 BPM, often around 174.
 
 ### What BPM is drum and bass?
 
@@ -82,11 +81,15 @@ Usually between 170 and 180, and most often 174. Because the kick and snare are 
 
 ### Is drum and bass the same as jungle?
 
-The difference is one of scene and era more than sound. Jungle is the breakbeat-and-reggae scene of roughly 1991 to 1995; drum and bass is the wider genre that most of that scene turned into after distancing itself from the ragga sound and the name. They share a tempo, a drum vocabulary and a lineage, and many current artists treat the two as one thing again.
+The difference is partly musical and partly cultural. Jungle emerged first and remains closely tied to chopped breakbeats, reggae, dub, MCs and sound-system culture. Drum and bass became a broader label during the mid-1990s as technical, atmospheric and other directions developed. Their histories, tempos and production language overlap, but jungle did not end when drum and bass became established.
 
-### Is drum and bass EDM?
+### Is drum and bass British?
 
-Not in the way the term is normally used. Drum and bass predates the American "EDM" marketing category by about fifteen years and developed on its own in Britain. The two now share festival bills, but drum and bass came from rave and jungle, not from the US festival-house lineage.
+Yes. Drum and bass developed in Britain during the mid-1990s from the same rave continuum as jungle, with London and Bristol as major centres. It later became a global genre, but its breakbeat, bass and sound-system foundations remain rooted in British club culture.
+
+### When was drum and bass invented?
+
+There is no single invention date. The name and a more distinct drum and bass identity became increasingly common during 1994 and 1995 as parts of the jungle scene moved towards technical, atmospheric and less ragga-led production. Producers, DJs, labels, pirate stations and clubs shaped that change collectively rather than one person inventing the genre.
 
 ### What are the main drum and bass subgenres?
 

@@ -8,11 +8,11 @@ const check = (name, condition, detail = '') => {
 const count = pattern => (html.match(pattern) || []).length;
 
 check('Published date', html.includes('article:published_time" content="2026-09-02"'));
-check('Modified date', html.includes('article:modified_time" content="2026-09-02"'));
-check('Visible updated date', html.includes('<time datetime="2026-09-02">2 September 2026</time>'));
-check('Title in head', html.includes('<title>What Is Drum and Bass? History, Sound and Subgenres</title>'));
+check('Modified date', html.includes('article:modified_time" content="2026-09-15"'));
+check('Visible updated date', html.includes('<time datetime="2026-09-15">15 September 2026</time>'));
+check('Title in head', html.includes('<title>What Is Drum and Bass? 174 BPM, History and Subgenres</title>'));
 
-check('FAQ has five visible questions', count(/<details(?: open)?>/g) === 5, String(count(/<details(?: open)?>/g)));
+check('FAQ has six visible questions', count(/<details(?: open)?>/g) === 6, String(count(/<details(?: open)?>/g)));
 
 // Essential listening evidence. Exact records use a verified YouTube upload of the
 // original; the extended route is one official Spotify playlist.
@@ -83,7 +83,7 @@ check('In-body link to jungle #pioneers', html.includes('href="/jungle-music-gui
 check('In-body link to dubstep guide', /<a href="\/dubstep-guide">/.test(html));
 
 // Semantic coverage required by the approved research.
-check('Answers "what is drum and bass" early', /Drum and bass is a British electronic style/.test(html));
+check('Answers "what is drum and bass" early', /Drum and bass is a British electronic music genre/.test(html));
 check('States the BPM', /174/.test(html));
 check('Covers the mid-1990s split', /jungle became|jungle turned into|the split/i.test(html));
 check('Covers Metalheadz', /Metalheadz/.test(html));

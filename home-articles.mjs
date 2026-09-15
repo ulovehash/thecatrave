@@ -58,8 +58,8 @@ export const homeArticleCatalog = [
   },
   {
     page:'drum-and-bass-guide.html', tags:['breaks','uk','nineties','bass'], href:'/drum-and-bass-guide', type:'Guide', topic:'Drum and bass',
-    title:'What Is Drum and Bass? History, Sound and Subgenres',
-    description:'The genre jungle became after the mid-1990s split: 174 BPM, chopped breaks and sub-bass, from Metalheadz to a global festival circuit.',
+    title:'What Is Drum and Bass? 174 BPM, History and Subgenres',
+    description:'Fast breakbeats, deep sub-bass and the British rave continuum behind a global genre usually played between 170 and 180 BPM.',
     image:'img/dnb/roni-size-320.webp',
     srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
     width:1120, height:747, alt:'Roni Size DJing under green stage light'
@@ -75,7 +75,7 @@ export const homeArticleCatalog = [
   {
     page:'what-is-burning-man.html', tags:['house','history','discovery'], href:'/what-is-burning-man', type:'Guide', topic:'Burning Man',
     title:'What Is Burning Man? The Event, the City and the Music',
-    description:'A city built in the Nevada desert for a week, with no lineup and nothing for sale, and the sound camps that play anyway.',
+    description:'A participant-built city in the Nevada desert, with no central lineup or main stage, and the sound camps and art cars that programme their own music.',
     image:'img/burning-man/robot-heart-320.webp',
     srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
     width:1200, height:799, alt:'The Robot Heart art car on the playa at Burning Man'

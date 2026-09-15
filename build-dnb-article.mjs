@@ -9,10 +9,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('drum-and-bass-guide-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/drum-and-bass-guide';
-const title = 'What Is Drum and Bass? History, Sound and Subgenres';
-const description = 'Drum and bass is what jungle became after the mid-1990s split: 174 BPM, breakbeats and sub-bass built into a global genre. The history, the sound, the subgenres.';
-const date = '2026-09-02';
-const dateLabel = '2 September 2026';
+const title = 'What Is Drum and Bass? 174 BPM, History and Subgenres';
+const description = 'Drum and bass is a British electronic music genre built on fast breakbeats and deep sub-bass, usually at 170–180 BPM. Hear its history, artists and subgenres.';
+const datePublished = '2026-09-02';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -56,12 +57,12 @@ const join = list => list.map(p).join('');
 const introEnd = draft.indexOf('\n## DRUM AND BASS DEFINITION');
 const intro = draft.slice(draft.indexOf('\n', draft.indexOf('# What is drum and bass?')) + 1, introEnd).trim();
 const definition = paragraphs(getSection('DRUM AND BASS DEFINITION'));
-const splitScene = paragraphs(getSection('Where jungle ended'));
+const splitScene = paragraphs(getSection('When jungle and drum and bass diverged'));
 const built = paragraphs(getSection('How drum and bass is built: 174 BPM, the break and the low end'));
 const metalheadz = paragraphs(getSection('Metalheadz and the dark turn'));
 const atmospheric = paragraphs(getSection('The atmospheric line: Speed, Bristol and Good Looking'));
 const subgenres = paragraphs(getSection('The subgenres and what they mean'));
-const global = paragraphs(getSection('How drum and bass stopped being British'));
+const global = paragraphs(getSection('How drum and bass became global'));
 const now = paragraphs(getSection('Where drum and bass is now'));
 
 const faqText = getSection('Drum and bass FAQ');
@@ -72,12 +73,12 @@ const faqItems = faqHeadings.map(question => {
 });
 
 const tocItems = [
-  ['where-jungle-ended', 'Where jungle ended'],
+  ['where-jungle-ended', 'When jungle and drum and bass diverged'],
   ['sound', 'How drum and bass is built'],
   ['metalheadz', 'Metalheadz and the dark turn'],
   ['atmospheric', 'Speed, Bristol and Good Looking'],
   ['subgenres', 'The subgenres explained'],
-  ['global', 'How it stopped being British'],
+  ['global', 'How drum and bass became global'],
   ['now', 'Where drum and bass is now'],
   ['faq', 'Drum and bass FAQ']
 ].map(([id, label]) => ({id, label}));
@@ -117,7 +118,7 @@ const markyFigure = articleFigure({
   srcset: 'img/dnb/dj-marky-320.webp 320w, img/dnb/dj-marky.webp 1120w',
   width: 1120, height: 840,
   alt: 'DJ Marky playing a record at the Lov.e club in Sao Paulo',
-  caption: 'DJ Marky at Lov.e, Sao Paulo, 2008. LK routed a Brazilian record through a Bristol label and into every British club that year. Photograph: Moretti, CC BY-SA 3.0.',
+  caption: 'DJ Marky at Lov.e, Sao Paulo, 2008. LK routed a Brazilian record through a Bristol label and became a UK club staple. Photograph: Moretti, CC BY-SA 3.0.',
   className: 'wide-archive-image'
 });
 
@@ -194,12 +195,13 @@ const atmosphericListening = articleListeningCollection({
 });
 
 const subgenreRows = [
-  ['Drum and bass (the core)', '1994 onward', 'Around 174 BPM, breakbeats, sub-bass as a lead voice', 'The source: the form jungle became'],
+  ['Drum and bass (the core)', '1994 onward', 'Around 174 BPM, breakbeats, sub-bass as a lead voice', 'A broader genre that emerged from the same continuum as jungle'],
   ['Liquid, or liquid funk', '2000 onward', 'Melodic and soulful, rolling two-step, vocals and chords', 'The mellow line, named after Fabio’s 2000 mix CD'],
-  ['Jump-up', 'Mid-1990s onward', 'Big cartoonish basslines, simple breaks, built for the party', 'Split early from breakbeat science; DJ Zinc, Aphrodite'],
-  ['Techstep', '1996 to 1999', 'Machine-led, industrial, sci-fi; distortion and compression', 'The hard turn away from jazz; No U-Turn and Torque'],
-  ['Neurofunk', 'Late 1990s onward', 'Techstep with funk precision and mid-range design, not sub-bass', 'Descends from techstep; Ed Rush and Optical, then Noisia'],
-  ['Darkstep and drumfunk', 'Late 1990s onward', 'Very fast dark drums; dense hand-edited breaks', 'Wings of the same tree; drumfunk is the Photek and Paradox lineage'],
+  ['Jump-up', 'Mid-1990s onward', 'Hook-led basslines, direct drops and dancefloor-first arrangements', 'A party-facing branch associated with DJ Zinc and Aphrodite'],
+  ['Techstep', 'Mid-1990s onward', 'Machine-led, industrial and sci-fi; distortion and compression', 'Its formative 1996–99 period centred on No U-Turn and Torque'],
+  ['Neurofunk', 'Late 1990s onward', 'Techstep-derived bass modulation, precise drums and prominent midrange layered over low-end weight', 'Descends from techstep; Ed Rush and Optical, then Noisia'],
+  ['Darkstep', 'Late 1990s onward', 'Dark atmospheres, aggressive bass and hard-edged drums', 'A heavier branch overlapping with techstep and later neurofunk'],
+  ['Drumfunk', 'Late 1990s onward', 'Dense, hand-edited breakbeats with detailed rhythmic variation', 'A break-focused lineage associated with Photek and Paradox'],
   ['Halftime', '2010s onward', 'Drum and bass sound design at a half-time drum feel', 'The point where its tempo logic meets dubstep’s']
 ];
 
@@ -231,7 +233,7 @@ const globalListening = articleListeningCollection({
   description: 'A São Paulo record routed through a Bristol label, and, twenty years later, jungle folded back into a drum and bass album.',
   items: listeningItems([
     {year: '2002', artist: 'DJ Marky and XRS featuring Stamina MC', title: 'LK', spotify: '1fIZzCIwKKGBRDkLA8VukW',
-      note: 'Built on a Jorge Ben sample, released through Bryan Gee’s V Recordings, and in every British club that year.'},
+      note: 'Built on a Jorge Ben sample, released through Bryan Gee’s V Recordings, and a UK club staple in 2002.'},
     {year: '2024', artist: 'Nia Archives', title: 'Silence Is Loud', spotify: '1LqFMtMW44W8XQ1OtV43gg',
       note: 'The title track of the 2024 album that reached number 16 in the UK, folding jungle’s breaks and reggae feel back in.'}
   ])
@@ -258,20 +260,20 @@ const articleHtml = [
   articleHero({
     kicker: 'Drum and bass guide',
     title: 'What is drum and bass?',
-    deck: 'How jungle became a genre: 174 BPM, chopped breaks and sub-bass, a technical school, a set of institutions and, within a decade, festivals on five continents.',
+    deck: 'Fast breakbeats, deep sub-bass and the British rave continuum behind a global genre usually played between 170 and 180 BPM.',
     readingTime: `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Drum and bass definition', bodyHtml: inline(definition[0]), className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'The music jungle turned into.', bodyHtml: join(paragraphs(intro)), className: 'article-intro'}),
-  articleSection({id: 'where-jungle-ended', title: 'Where jungle ended.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene.slice(0, 4))}${reinforcedListening}${join(splitScene.slice(4))}${splitListening}`}),
+  articleSection({id: 'introduction', title: 'From a British rave continuum to a global genre.', bodyHtml: join(paragraphs(intro)), className: 'article-intro'}),
+  articleSection({id: 'where-jungle-ended', title: 'When jungle and drum and bass diverged.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene.slice(0, 4))}${reinforcedListening}${join(splitScene.slice(4))}${splitListening}`}),
   articleSection({id: 'sound', title: 'How drum and bass is built: 174 BPM, the break and the low end.', bodyHtml: `${join(built)}${soundListening}`}),
   articleSection({id: 'metalheadz', title: 'Metalheadz and the dark turn.', bodyHtml: `${join(metalheadz.slice(0, 3))}${metalheadzListening}${join(metalheadz.slice(3))}`}),
   articleSection({id: 'atmospheric', title: 'The atmospheric line: Speed, Bristol and Good Looking.', bodyHtml: `${join(atmospheric.slice(0, 2))}${roniSizeFigure}${join(atmospheric.slice(2))}${atmosphericListening}`}),
   articleSection({id: 'subgenres', title: 'The subgenres and what they mean.', bodyHtml: subgenresHtml}),
-  articleSection({id: 'global', title: 'How drum and bass stopped being British.', kicker: '2000s onward', bodyHtml: `${join(global.slice(0, 2))}${markyFigure}${join(global.slice(2, 4))}${chartListening}${join(global.slice(4))}${globalListening}`}),
+  articleSection({id: 'global', title: 'How drum and bass became global.', kicker: '2000s onward', bodyHtml: `${join(global.slice(0, 2))}${markyFigure}${join(global.slice(2, 4))}${chartListening}${join(global.slice(4))}${globalListening}`}),
   articleSection({id: 'now', title: 'Where drum and bass is now.', bodyHtml: `${join(now)}${massivePlaylist}`}),
   articleFaq({items: faqItems, title: 'Drum and bass FAQ.', openFirst: true}),
   authorCard({filled: true}),
@@ -295,7 +297,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, image: 'https://thecatrave.com/img/dnb/dnb-cover.webp', datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, image: 'https://thecatrave.com/img/dnb/dnb-cover.webp', datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Drum and Bass Guide', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -303,7 +305,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/drum-and-bass.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page dnb-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

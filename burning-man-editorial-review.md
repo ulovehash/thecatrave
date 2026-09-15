@@ -186,5 +186,37 @@ drafted; the three keyword phrases go into the body.
 - Rev. 6 (FAQ extra facts): **not done**; no sourced gate hours or Reno drive
   time yet.
 
-Still open: ledger 2, 4, 13, 14, 21–24 second sources; `media/burning-man.json`;
-competitor matrix; generator.
+Still open from the original review: ledger 2, 4, 13, 14 and 21–24 need
+stronger second sources; the competitor matrix was not built. The media record
+and generator now exist.
+
+## Critical accuracy and search-intent revision (2026-09-15)
+
+Owner approved implementation with the instruction `правь burning man` after
+reviewing the proposed critical changes. The URL, canonical, SEO title, meta
+description, H1, main article structure and legacy anchors were preserved.
+
+- **Commerce:** corrected the obsolete claim that ice and coffee are sold.
+  Burning Man's 2022 official briefing introduced a Center Camp without a
+  centrally operated coffee shop; the 2026 Survival Guide lists ice sales at
+  Arctica. The copy now distinguishes ordinary vending from participant gifts.
+- **Music programming:** replaced the categorical claim that nobody books DJs.
+  Burning Man Project does not publish an event-wide lineup, while individual
+  camps and mutant-vehicle crews programme their own music.
+- **Sound policy:** replaced the obsolete 75 dB sentence with the 2023 policy:
+  conversational level is 60 dBA at the nearest neighbouring-camp border or
+  street centre, with low-frequency bass negotiated between neighbours.
+- **Search Console language:** added a direct, useful answer to `is burning man
+  a rave`, while retaining the existing music-festival H2 and music entities.
+- **Nudity and climate:** revised the FAQ to centre consent, photography and
+  the practical effects of sun, alkaline dust, high winds and cold nights.
+- **FAQ:** removed the weak deaths question. The replacement stays inside the
+  article's defining intent and is generated into both visible FAQ markup and
+  matching FAQ structured data.
+- **Dates:** retained `datePublished` as 2026-09-10 and changed the visible,
+  Open Graph and Article-schema modification date to 2026-09-15.
+
+Evidence used: Burning Man's 2026 Survival Guide pages for On-Playa Resources
+and Consent, the Burning Man Project weather page, its 2022 Return to Black
+Rock City briefing, the 2023 Sound Policy Update and the 2026 camps directory.
+No Ahrefs API call was used for this revision.
