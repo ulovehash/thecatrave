@@ -1,10 +1,11 @@
 # EDC Las Vegas: research package and structure
 
-Status: drafted and built locally (`edc-draft.md`, `build-edc-article.mjs`,
-`edc-las-vegas.html`); not in `pages.mjs` or the catalogue yet. Evidence dated
-2026-09-13, US unless stated. `TOPIC-RESEARCH.md` stages 1–5 done; stage 6
-(validation) not run. The owner's festivals series (`festivals-series.md`) is
-the decision to proceed.
+Status: published. Original research is dated 2026-09-13, US unless stated.
+The Ahrefs figures below are retained as historical research only and were not
+used as current evidence for the 2026-09-15 editorial update. No fresh GSC or
+GA4 page data was supplied for this update, so title, meta description, H1,
+URL, canonical and structure were preserved. The owner's festivals series
+(`festivals-series.md`) is the decision to proceed.
 
 ## Preservation inventory
 
@@ -148,9 +149,11 @@ channel).
 
 ## Not verified
 
-- The Las Vegas Sun history (HTTP 402), Insomniac's own page and the official
-  stages page (HTTP 403) could not be read; their facts come from Wikipedia,
-  DJ Mag, Beatportal and Discotech instead.
+- During the original 2026-09-13 research, the Las Vegas Sun history (HTTP 402),
+  Insomniac's own page and the official stages page (HTTP 403) could not be
+  read. The 2026-09-15 update subsequently checked Insomniac's official history
+  and press material; the older secondary-only limitations no longer govern
+  the corrected origin, Bassrush, scale or 2027 claims.
 - 2026 attendance is "more than 500,000" (Beatportal, My Modern Met); an exact
   2026 figure (525,000 in some reports) was not read in a source that could be
   fetched.
@@ -164,3 +167,39 @@ channel).
 
 The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
 Above & Beyond 2015 (4.8M) and Alison Wonderland 2016 (2.1M) replace Sub Focus and Underworld 2026.
+
+## Critical factual update (2026-09-15)
+
+No Ahrefs data was consulted for this update. Current official and primary-led
+checks found five corrections that do not change the page's search intent:
+
+- The 525,000 attendance record belongs to 2024. Las Vegas Sun reported
+  Insomniac's 2023 estimate as 520,000; Digital Music News reported 525,000 in
+  2024.
+- The early EDC history is not a single-founder story. Festival Insider's
+  interview and Las Vegas Weekly credit Stephen Hauptfuhr and Gary Richards
+  with the early Southern California events beginning in 1991. Sources differ
+  on Chino versus Pomona, so the published copy does not force a city. The
+  official Insomniac timeline begins its own EDC lineage at the Shrine Expo
+  Hall in 1997.
+- Insomniac's official history dates the Bassrush brand and the first Bassrush
+  Arena at EDC to 2002, not Hansen Dam in 2001.
+- Insomniac publicly described its 2013 Live Nation deal as a creative
+  partnership and retained creative control. Because the companies did not
+  publish the investment terms, the article no longer calls the deal "not an
+  acquisition" or reduces the ownership answer to Insomniac alone.
+- Insomniac's press material calls EDC Las Vegas the largest dance music
+  festival in North America. That replaces the unsupported worldwide
+  superlative and the non-comparable Tomorrowland attendance sentence. Its
+  official 2026 recap reports more than 450 artists across 18 music areas and
+  art cars, replacing conflicting secondary stage counts.
+
+Primary and direct sources checked:
+
+- https://press.insomniac.com/festival-assets/electric-daisy-carnival
+- https://www.insomniac.com/who-we-are/how-it-all-began/
+- https://press.insomniac.com/blog/edc-las-vegas-introduces-new-dusk-till-dawn-2027-12-day-festival-concept-spanning-two-consecutive-weekends
+- https://festivalinsider.com/articles/electric-daisy-legacy-meet-the-man-behind-the-first-edc
+- https://lasvegasweekly.com/news/2016/jun/16/looking-back-edc-electric-daisy-carnival/
+- https://lasvegassun.com/news/2023/may/23/edcs-scale-difficult-to-imagine-until-you-experien/
+- https://www.digitalmusicnews.com/2024/05/23/edc-las-vegas-2024/

@@ -1,14 +1,27 @@
 # Creamfields: research package and structure
 
-Status: research done and page drafted in one session, 2026-09-13, for the
-festivals series (`festivals-series.md`). Evidence is GB unless stated,
-because demand is national: the head term is 29,000 GB of 43,000 global.
-`TOPIC-RESEARCH.md` stages 1 to 5 done; stage 6 (validation) not run. Owner
-approval of the structure is still pending.
+Status: published 2026-09-13 and factually revised with owner approval on
+2026-09-15 for the festivals series (`festivals-series.md`). The keyword and
+SERP figures below are an archival record of the original research, not current
+evidence for the 2026-09-15 revision. No fresh page-level GSC or GA4 export was
+supplied, so title, meta description, H1 and search intent were preserved.
 
 ## Preservation inventory
 
-A new page, so no preservation inventory exists.
+The page is now an existing URL. Preserve:
+
+- URL and canonical: `https://thecatrave.com/creamfields-festival`;
+- title: `Creamfields Festival: Where It Is, How It Grew, the Music`;
+- meta description: `Where Creamfields happens in Cheshire, how a Liverpool house night became a four-day festival, how many people go, who owns it, and what plays beyond the Arc Stage.`;
+- H1: `Creamfields Festival`;
+- original `datePublished`: `2026-09-13`;
+- legacy IDs: `contents`, `introduction`, `where`, `south`, `international`,
+  `creamfields-2027`, `how-big`, `history`, `own-set-1`, `famous`, `music`,
+  `from-home`, `own-set-2`, `faq`, `author-title`, `sources`,
+  `bandcamp-support-title`, `read-next-title`;
+- the five licensed local figures, three editorial video examples, two approved
+  thecatrave mixes and the internal links to the Selector, Tomorrowland, drum
+  and bass and jungle guides.
 
 ## Stage 1: web search first
 
@@ -139,22 +152,23 @@ Structure, mirroring Tomorrowland:
    bass as the site's angle (2012, 2016, 2020, 2025 Arc headline, 2026 bill).
    Official 2019 drum and bass film as the player.
 7. Hearing Creamfields from home: catalogue numbers; Essential listening with
-   two full 2025 sets from the festival's channel (Pete Tong, Josh Baker).
+   Ewan McVicar's 2023 Steel Yard set and Pete Tong's 2025 festival set.
 8. FAQ (six, from PAA and question terms).
 9. Author, Sources, Bandcamp (the owner's two tracks), Read Next.
 
 ## Excluded intents
 
 - Line-ups, set times, dated editions, weather forecasts: official site.
-- Tickets: one dated FAQ answer.
+- Transactional ticket coverage: the FAQ points to the official live prices
+  without preserving a stale annual price range.
 - Travel, hotels, postcode, outfits, what to bring.
 - Alcohol, sleeping in cars, what is not allowed: practical rules that change
   from year to year.
 
 ## Open
 
-- Stage 6 validation not run.
-- Owner approval of structure, and of the owner-voice paragraph in section 6.
+- No fresh page-level GSC or GA4 data was supplied for the 2026-09-15 pass.
+- Stage 6 validation from the original research was not run.
 - The drum and bass stage's name (Sub_Aural) has no fetched source, so it is
   left out.
 - Media: `media/creamfields.json`. Images: `img/creamfields/`, 5 Commons files,
@@ -165,3 +179,31 @@ Structure, mirroring Tomorrowland:
 
 The owner: listening carries the festival's legendary and most popular sets, not drum and bass forced in as the site's angle. Essential listening replaced after publication, with the exact wording shown to the owner first; view counts read from YouTube on 2026-09-13.
 Ewan McVicar 2023 (235K) replaces Josh Baker 2025; Pete Tong 2025 stays.
+
+## Approved critical revision (2026-09-15)
+
+- Preserved the primary intent, excluded intents, URL, canonical, title, meta,
+  H1, IDs, media and links because no new query or traffic evidence was
+  available.
+- Replaced the stale `70,000 per day` statement and `more than 80,000` report
+  with Cheshire Constabulary's completed-event figure: a capacity crowd of
+  80,000 people, around 55,000 camping.
+- Qualified the historical attendance table because its older multi-day totals
+  and the 2026 people count do not use one consistent method.
+- Corrected the claim that every English Creamfields since 1999 happened in
+  August. It now refers to the original festival and notes the 2020 cancellation.
+- Replaced the simplified ownership claim with primary evidence: Live Nation's
+  2012 Form 10-K records a 90% acquisition of Cream Holdings; Companies House
+  records Cream Global under Ticketmaster Europe Holdco, itself controlled by
+  Live Nation Entertainment.
+- Removed the stale 2026 price range. The FAQ now links to Creamfields' current
+  official ticket page.
+
+Primary sources used:
+
+- https://www.cheshire.police.uk/news/cheshire/news/articles/2026/9/constabulary-supports-successful-creamfields-operation/
+- https://investors.livenationentertainment.com/sec-filings/annual-reports/content/0001193125-13-077102/d466140d10k.htm
+- https://find-and-update.company-information.service.gov.uk/company/03110532/persons-with-significant-control
+- https://find-and-update.company-information.service.gov.uk/company/06704345/persons-with-significant-control
+- https://creamfields.com/tickets/
+- https://creamfields.com/welcome/

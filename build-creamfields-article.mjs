@@ -3,11 +3,10 @@
 // Festivals series (festivals-series.md), after Burning Man and Tomorrowland.
 // The structure and the evidence behind it are in creamfields-research.md.
 //
-// Keywords (GB volume, September 2026): creamfields south 3,100, where is
-// creamfields 1,900, creamfields location 1,200, creamfields festival 1,100
-// (TP 13,000), when is creamfields 450, creamfields capacity 350. Lineups,
-// dated editions, set times, weather and tickets are excluded on purpose; one
-// dated price answer sits in the FAQ. See keywords/creamfields.json.
+// The original September 2026 keyword research is retained as an archival
+// record in keywords/creamfields.json. It was not used as current evidence for
+// the 15 September factual revision. Lineups, dated editions, set times,
+// weather and transactional ticket coverage remain excluded on purpose.
 //
 // The catalogue behind the Selector holds 52 Creamfields sets, 51 of them
 // Beatport's streams and none drum and bass, so the players come from the
@@ -30,8 +29,9 @@ const draft = fs.readFileSync('creamfields-draft.md', 'utf8').replace(/—/g, ':
 const canonical = 'https://thecatrave.com/creamfields-festival';
 const title = 'Creamfields Festival: Where It Is, How It Grew, the Music';
 const description = 'Where Creamfields happens in Cheshire, how a Liverpool house night became a four-day festival, how many people go, who owns it, and what plays beyond the Arc Stage.';
-const date = '2026-09-13';
-const dateLabel = '13 September 2026';
+const datePublished = '2026-09-13';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -100,10 +100,12 @@ const media = {
       articleVideoCard({youtubeId: 'UBqb6F7Jlho', genre: 'Creamfields, 2025', artist: 'Pete Tong', title: 'DJ set, Creamfields 2025'})
     ]
   }),
-  // Weekend totals from Wikipedia's edition summary (multi-day passes counted
-  // once per day); 2026 from Brit Brief and Skiddle. Typed, not computed.
+  // Historic published totals come from the edition summary cited in the
+  // research record and use inconsistent counting methods. The 2026 figure is
+  // the completed-event count reported by Cheshire Constabulary. Typed, not
+  // computed, and explicitly qualified in the article copy.
   'Table: attendance': articleTable({
-    headers: ['Year', 'Where', 'Days', 'Attendance'],
+    headers: ['Year', 'Where', 'Days', 'Published attendance'],
     rows: [
       ['1998', 'Winchester', '1', '25,000'],
       ['1999 to 2005', 'Old Liverpool airport, Speke', '1', '50,000'],
@@ -117,7 +119,7 @@ const media = {
       ['2016', 'Daresbury', '4', '200,000'],
       ['2017 to 2019', 'Daresbury', '4', '280,000'],
       ['2020', 'none', '0', 'Cancelled for the pandemic'],
-      ['2026', 'Daresbury', '4', 'More than 80,000 people, reported'],
+      ['2026', 'Daresbury', '4', '80,000 people; around 55,000 camping'],
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -147,7 +149,8 @@ const answer = paras(getSection('Answer'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
   const body = rest.join('\n').trim();
-  return {question: q.trim().replace(/\?*$/, '?'), answer: body.replace(/\s+/g, ' '), answerHtml: render(body)};
+  const answer = body.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' ');
+  return {question: q.trim().replace(/\?*$/, '?'), answer, answerHtml: render(body)};
 });
 
 const sections = [
@@ -175,7 +178,7 @@ const articleHtml = [
     title: 'Creamfields Festival',
     deck: 'A Liverpool club night\'s day out that became four days in a Cheshire field every August bank holiday. Where it happens, how big it is, who owns it, and what plays beyond the Arc Stage.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Creamfields', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -195,14 +198,18 @@ ${sourceLink('https://creamfields.com/history/2025-new-era/', 'Creamfields: Crea
 ${sourceLink('https://creamfields.com/info/where-is-the-festival/', 'Creamfields: Where is the festival?')}
 ${sourceLink('https://creamfields.com/info/car/', 'Creamfields: How do I travel to the festival by car?')}
 ${sourceLink('https://creamfields.com/info/what-age-do-you-need-to-be-to-attend/', 'Creamfields: What age do you need to be to attend?')}
+${sourceLink('https://creamfields.com/welcome/', 'Creamfields: Welcome to Creamfields 2027')}
+${sourceLink('https://creamfields.com/tickets/', 'Creamfields: Current tickets and prices')}
+${sourceLink('https://www.cheshire.police.uk/news/cheshire/news/articles/2026/9/constabulary-supports-successful-creamfields-operation/', 'Cheshire Constabulary: Creamfields 2026 attendance and camping')}
+${sourceLink('https://investors.livenationentertainment.com/sec-filings/annual-reports/content/0001193125-13-077102/d466140d10k.htm', 'Live Nation Entertainment: 2012 Form 10-K')}
+${sourceLink('https://find-and-update.company-information.service.gov.uk/company/03110532/persons-with-significant-control', 'Companies House: Cream Global Ltd control')}
+${sourceLink('https://find-and-update.company-information.service.gov.uk/company/06704345/persons-with-significant-control', 'Companies House: Ticketmaster Europe Holdco control')}
 ${sourceLink('https://www.nme.com/news/music/various-artists-2616-1250661', 'NME: Creamfields ends early following heavy flooding')}
 ${sourceLink('https://www.aol.co.uk/articles/creamfields-2026-chaos-stages-shut-081530000.html', 'Mirror via AOL: Creamfields 2026 chaos as stages shut down due to Bank Holiday storms')}
-${sourceLink('https://britbrief.co.uk/entertainment/festivals/creamfields-2026-ends-with-80000-fans-at-daresbury.html', 'Brit Brief: Creamfields 2026 ends with 80,000 fans at Daresbury site')}
 ${sourceLink('https://electronicgroove.com/creamfields-marks-20-years-at-daresbury-with-2026-line-up/', 'Electronic Groove: Creamfields marks 20 years at Daresbury with 2026 line-up')}
 ${sourceLink('https://www.skiddle.com/news/all/All-you-need-to-know-about-Creamfields-2026/60796/', 'Skiddle: All you need to know about Creamfields 2026')}
 ${sourceLink('https://discover.ticketmaster.co.uk/festivals/creamfields-2025-line-up-deep-dive-64595/', 'Ticketmaster Discover: Creamfields 2025, line-up deep dive')}
 ${sourceLink('https://discover.ticketmaster.co.uk/festivals/creamfields-delivers-two-new-stages-and-an-all-star-line-up-for-2025-66551/', 'Ticketmaster Discover: Creamfields delivers two new stages and an all-star line-up for 2025')}
-${sourceLink('https://www.festivalmates.com/blog/creamfields-2026-first-timers-guide', "FestivalMates: Creamfields 2026, the complete first-timer's guide")}
 ${sourceLink('https://www.skiddle.com/news/all/The-Best-DJ-Sets-of-All-Time/57700/', 'Skiddle: The Best DJ Sets of All Time')}
 </ul>`}),
   bandcampSupport({
@@ -220,7 +227,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Creamfields Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -228,7 +235,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/creamfields.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page creamfields-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

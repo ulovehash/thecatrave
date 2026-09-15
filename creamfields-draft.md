@@ -2,7 +2,7 @@
 
 ## Answer
 
-Creamfields is an electronic dance music festival held every August bank holiday weekend on the Daresbury estate in Cheshire, in the countryside between Liverpool and Manchester. It runs for four days, Thursday to Sunday, with camping on site, and holds about 70,000 people a day; the 2026 edition, its 20th year at Daresbury, drew more than 80,000. It began in 1998 as the festival of Cream, a weekly house night at a Liverpool club called Nation, and Live Nation has run it since buying Cream's company in 2012. Its best-known stages are the Arc and the Steel Yard, and its bill runs from EDM headliners to trance, techno and drum and bass.
+Creamfields is an electronic dance music festival held every August bank holiday weekend on the Daresbury estate in Cheshire, in the countryside between Liverpool and Manchester. It runs for four days, Thursday to Sunday, with camping on site. The 2026 event, its 20th year at Daresbury, attracted a capacity crowd of 80,000 people, around 55,000 of them camping. It began in 1998 as the festival of Cream, a weekly house night at a Liverpool club called Nation, and is now operated by Cream Global under Live Nation control. Its best-known stages are the Arc and the Steel Yard, and its bill runs from EDM headliners to trance, techno and drum and bass.
 
 ## Introduction
 
@@ -38,9 +38,9 @@ Creamfields 2027 is on Thursday 26 to Sunday 29 August 2027 at Daresbury, the Au
 
 ## How big Creamfields is
 
-Creamfields capacity is 70,000 people a day, the figure Wikipedia gives, and reports on the 2026 edition put the crowd at more than 80,000 across the four days.
+The current Creamfields capacity is 80,000 people. Cheshire Constabulary reported that the 2026 edition attracted a capacity crowd of 80,000, with around 55,000 camping on site across the four-day festival.
 
-Creamfields attendance is usually quoted as a weekend total, and those totals count admissions, not people: someone with a four-day ticket is counted four times. That is how the published figure reached 280,000 from 2017 to 2019. Read the table below with that in mind. The growth came in steps, each one a day added to the weekend.
+Historical Creamfields attendance figures are not measured consistently. Published multi-day totals often sum admissions across the festival days, while the 2026 police figure describes people at the event. Read the table as a record of the figures published at the time, not as a direct year-by-year comparison. The growth still came in visible steps as days were added to the weekend.
 
 [Table: attendance]
 
@@ -56,11 +56,11 @@ Creamfields grew out of Cream, a weekly house night at Nation, a club in Wolsten
 
 The first Creamfields was a one-day event on 2 May 1998 in Winchester, with Sasha, Paul van Dyk, Daft Punk and Tony De Vit at the top of the bill. The next year it came home to Liverpool, and in 2006 it moved to Daresbury. For its tenth anniversary, in 2008, it became a two-day event.
 
-Who owns Creamfields? Live Nation, since 2012, when it bought Cream Holdings, the company that owned the festival. The same year brought the festival's worst weekend. On Sunday 26 August 2012, the third and final day, the organisers cancelled everything after overnight rain flooded the site, with Calvin Harris, deadmau5, Axwell, Sub Focus and Tiësto still to play. The next year £500,000 went into protecting the site against bad weather, and in 2019 another £2 million into safety, security and the site's environmental impact.
+Who owns Creamfields? The festival is operated by Cream Global Ltd under Live Nation control. Live Nation acquired a 90% interest in Cream Holdings in May 2012; the company was renamed Cream Global in 2020. The same year as the acquisition brought the festival's worst weekend. On Sunday 26 August 2012, the third and final day, the organisers cancelled everything after overnight rain flooded the site, with Calvin Harris, deadmau5, Axwell, Sub Focus and Tiësto still to play. The next year £500,000 went into protecting the site against bad weather, and in 2019 another £2 million into safety, security and the site's environmental impact.
 
 Cream's own home did not last. The Nation building was demolished in 2016, and the brand carried on running the festival without it. The 2020 edition was cancelled for the pandemic and replaced by a virtual festival; 2021 went ahead, and sold out in record time.
 
-In 2026, the 20th year at Daresbury, thunderstorms under a yellow weather warning stopped the music across the site on the Friday night. The festival carried on through the weekend and reported more than 80,000 people.
+In 2026, the 20th year at Daresbury, thunderstorms under a yellow weather warning stopped the music across the site on the Friday night. The festival carried on through the weekend and attracted a capacity crowd of 80,000 people.
 
 ## Why Creamfields is famous
 
@@ -72,7 +72,7 @@ The Steel Yard came in 2016: a 15,000-capacity steel structure built by Acorn Ev
 
 The second is its record. Creamfields was named Best Dance Festival at the UK Festival Awards several times between 2004 and 2015, and Best Major Festival in 2016. The DJ Awards gave it Best International Dance Music Festival in 2014, and DJ Mag placed it 13th in its list of the world's best festivals in 2019.
 
-The third is that it has lasted. The first edition was in 1998, and since 1999 every Creamfields in England has been held at the end of August.
+The third is that it has lasted. The first edition was in 1998, and the original festival has occupied the August bank holiday since 1999, apart from the cancelled 2020 edition.
 
 ## What the music actually is
 
@@ -122,7 +122,7 @@ The first edition, in 1998, was in Winchester. From 1999 to 2005 it was held on 
 
 ### How much are Creamfields tickets?
 
-For 2026, a day ticket cost roughly £80 to £100 and a standard four-day weekend with camping roughly £250 to £280, according to FestivalMates. The official site lists current prices.
+Prices vary by day and ticket level. The [official Creamfields ticket page](https://creamfields.com/tickets/) lists the current prices and booking fees.
 
 ### What is Creamfields known for?
 
@@ -134,11 +134,12 @@ Its stages, above all the Arc Stage and the Steel Yard; a long run of UK Festiva
 - Wikipedia, "Cream (nightclub)" (Nation, Wolstenholme Square, the promoters, 1992 to 2002, demolition)
 - Wikipedia, "Daresbury" (Borough of Halton, Warrington post town)
 - Creamfields, "The History of Creamfields UK"; "Creamfields 2025: A New Era of the Fields"
-- Creamfields info: "Where is the festival?", "How do I travel to the festival by car?", "What age do you need to be to attend?"
+- Creamfields info: "Where is the festival?", "How do I travel to the festival by car?", "What age do you need to be to attend?", tickets and 2027 welcome page
+- Cheshire Constabulary, "Constabulary supports successful Creamfields operation", 1 September 2026
+- Live Nation Entertainment, 2012 Form 10-K (90% acquisition of Cream Holdings)
+- Companies House, Cream Global Ltd and Ticketmaster Europe Holdco persons with significant control
 - NME, "Creamfields ends early following heavy flooding", 26 August 2012
 - Mirror via AOL, Creamfields 2026 stages shut by storms, 28 August 2026
-- Brit Brief, "Creamfields 2026 ends with 80,000 fans at Daresbury site", 31 August 2026
 - Electronic Groove, "Creamfields marks 20 years at Daresbury with 2026 line-up", 17 August 2026
 - Skiddle, "All you need to know about Creamfields 2026", 4 March 2026
 - Ticketmaster Discover, "Creamfields 2025: line-up deep dive", 2 April 2025; "Creamfields delivers two new stages and an all-star line-up for 2025", 26 August 2025
-- FestivalMates, "Creamfields 2026: the complete first-timer's guide", 7 April 2026

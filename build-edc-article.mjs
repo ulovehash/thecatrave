@@ -31,8 +31,9 @@ const draft = fs.readFileSync('edc-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/edc-las-vegas';
 const title = 'EDC Las Vegas: What It Is, How Big, and the Music';
 const description = 'Electric Daisy Carnival at the Las Vegas Motor Speedway: what EDC is, how many people go, how it left Los Angeles, and what plays beyond kineticFIELD.';
-const date = '2026-09-13';
-const dateLabel = '13 September 2026';
+const datePublished = '2026-09-13';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -97,7 +98,7 @@ const media = {
   'Table: attendance': articleTable({
     headers: ['Year', 'Attendance', 'Where, and what happened'],
     rows: [
-      ['1991', '3,500', 'Chino, California: Stephen Hauptfuhr\'s first Electric Daisy Carnival'],
+      ['1991', 'about 3,000–3,500', 'Early Southern California EDC organised by Stephen Hauptfuhr and Gary Richards'],
       ['2000', '24,000', 'Tulare, California; noise complaints ended the contract'],
       ['2010', 'about 185,000', 'Los Angeles Memorial Coliseum, two days'],
       ['2011', '230,000 (reported)', 'First year at the Las Vegas Motor Speedway, three days'],
@@ -106,7 +107,7 @@ const media = {
       ['2018', 'about 411,400', 'First year in May; camping added'],
       ['2019', '465,000', ''],
       ['2020', 'none', 'Cancelled for the pandemic'],
-      ['2023', '525,000', 'The record'],
+      ['2024', '525,000', 'The record'],
       ['2026', 'more than 500,000', '30th anniversary, sold out']
     ].map(row => row.map(escapeHtml))
   })
@@ -175,9 +176,9 @@ const articleHtml = [
   articleHero({
     kicker: 'Electric Daisy Carnival',
     title: 'EDC Las Vegas',
-    deck: 'Three nights at a racetrack in the desert, and more people than any other electronic music festival. Where it happens, how big it really is, who owns it, and what plays away from kineticFIELD.',
+    deck: 'Three nights at a racetrack in the desert, home to North America\'s largest dance music festival. Where it happens, how big it really is, who owns it, and what plays away from kineticFIELD.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is EDC Las Vegas', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -198,11 +199,16 @@ ${sourceLink('https://djmag.com/news/heres-how-stream-edc-las-vegas-2026-home', 
 ${sourceLink('https://weraveyou.com/2026/05/the-prodigy-edc-las-vegas-2026-first-time-cosmicmeadow/', 'We Rave You: The Prodigy to play EDC Las Vegas for the first time ever')}
 ${sourceLink('https://raverrafting.com/epic-stages-edc-las-vegas-2014/2014/07/16/', 'RaverRafting: The Epic Stages of EDC Las Vegas 2014')}
 ${sourceLink('https://discotech.me/festivals/guide-to-edc-las-vegas-stages/', 'Discotech: Guide to EDC Las Vegas Stages')}
-${sourceLink('https://mymodernmet.com/edc-2026-recap/', 'My Modern Met: EDC 2026, Half a Million People Under One Electric Sky')}
-${sourceLink('https://www.bandwagon.asia/articles/tomorrowland-belgium-2026-wraps-with-400-000-fans-calvin-harris-debut-record-livestreams-festival-report', 'Bandwagon: Tomorrowland Belgium 2026 wraps with 400,000 fans')}
 ${sourceLink('https://lasvegasweekly.com/ae/music/2025/aug/28/insomniac-and-tomorrowland-go-b2b-for-unity-sphere/', 'Las Vegas Weekly: Insomniac and Tomorrowland go b2b for Unity at Sphere')}
 ${sourceLink('https://www.youtube.com/watch?v=QjaVBJJ7xhE', 'Mixmag on YouTube: Rusko (jungle set) in The Lab at EDC Las Vegas')}
 ${sourceLink('https://stagehoppers.com/edc-las-vegas-all-time-best-sets/', 'Stage Hoppers: EDC Las Vegas All Time Best Sets')}
+${sourceLink('https://press.insomniac.com/festival-assets/electric-daisy-carnival', 'Insomniac: Electric Daisy Carnival')}
+${sourceLink('https://www.insomniac.com/who-we-are/how-it-all-began/', 'Insomniac: How It All Began')}
+${sourceLink('https://press.insomniac.com/blog/edc-las-vegas-introduces-new-dusk-till-dawn-2027-12-day-festival-concept-spanning-two-consecutive-weekends', "Insomniac Press: EDC Las Vegas Introduces New 'Dusk Till Dawn' 2027")}
+${sourceLink('https://festivalinsider.com/articles/electric-daisy-legacy-meet-the-man-behind-the-first-edc', 'Festival Insider: Electric Daisy Legacy')}
+${sourceLink('https://lasvegasweekly.com/news/2016/jun/16/looking-back-edc-electric-daisy-carnival/', 'Las Vegas Weekly: Looking back across two decades of EDC')}
+${sourceLink('https://lasvegassun.com/news/2023/may/23/edcs-scale-difficult-to-imagine-until-you-experien/', "Las Vegas Sun: EDC's scale difficult to imagine")}
+${sourceLink('https://www.digitalmusicnews.com/2024/05/23/edc-las-vegas-2024/', 'Digital Music News: EDC Las Vegas 2024')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
@@ -219,7 +225,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'EDC Las Vegas', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -232,7 +238,7 @@ if (ogFile !== 'img/og/edc.jpg') console.warn('img/og/edc.jpg missing: run scrip
 const html = articlePage({
   title, description, canonical,
   ogImage: `https://thecatrave.com/${ogFile}`,
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page edc-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');
