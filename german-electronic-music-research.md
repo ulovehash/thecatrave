@@ -103,7 +103,7 @@ electronic traditions before dance music arrived from Detroit and Chicago.
 | Cologne | the scale of the WDR studio | Stockhausen in the WDR Studio, 1991, Kathinka Pasveer, CC BY-SA 3.0 | after studio explanation | proportional image | yes |
 | city network | regional differences | original schematic route graphic | after city argument | vertical text alternative | facts checked |
 | Düsseldorf | audible electronic pop turn | Kraftwerk, `Autobahn`, official YouTube, id `qWkzS0Vg9hg` | after explanatory prose | responsive video | official artist channel |
-| 1980s | electronic body music | DAF, `Der Mussolini`, Mute YouTube, id `lpiTuX4aeD0` | after DAF prose | responsive video | label page links it |
+| 1980s | electronic body music | DAF, `Der Mussolini`, DAF Topic YouTube, id `6bWw2bzXmY0` | after DAF prose | responsive video | public label-supplied upload |
 | techno | techno becoming a mass public culture | Love Parade Berlin, 1998, Ago76, public domain | after Berlin and Frankfurt comparison | proportional image | yes |
 | Berlin-Detroit | the Tresor sound | 3 Phase feat. Dr. Motte, `Der Klang der Familie`, Dr. Motte SoundCloud | after a separating paragraph | responsive audio | artist account checked in Berlin article |
 | 1990s routes | Frankfurt trance and Berlin dub techno | Sven Väth `L'Esperanza`, Paul van Dyk `For An Angel`, Basic Channel `Phylyps Trak II` | after route explanation | stacked players | Spotify releases checked |

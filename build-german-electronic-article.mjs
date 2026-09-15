@@ -77,7 +77,7 @@ const kraftwerkListening = articleVideoCollection({
 const dafListening = articleVideoCollection({
   label: 'DAF, Der Mussolini',
   description: "A severe drum pattern, a short electronic sequence and Gabi Delgado's command: DAF made machine music physical.",
-  items: [articleVideoCard({youtubeId: 'lpiTuX4aeD0', genre: 'Düsseldorf, 1981', artist: 'DAF', title: 'Der Mussolini'})]
+  items: [articleVideoCard({youtubeId: '6bWw2bzXmY0', genre: 'Düsseldorf, 1981', artist: 'DAF', title: 'Der Mussolini'})]
 });
 
 const klangListening = articleListeningBand({

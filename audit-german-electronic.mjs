@@ -31,7 +31,7 @@ const checks = {
   licensedImages: ['kraftwerk-stage', 'stockhausen-wdr', 'love-parade-1998'].every(name => html.includes(`img/german-electronic/${name}-320.webp`) && html.includes(`img/german-electronic/${name}-1200.webp`)),
   imageDimensions: html.includes('width="1200" height="901"') && html.includes('width="1200" height="806"') && html.includes('width="1200" height="810"'),
   mapAndDownload: html.includes('class="genre-map german-scene-map"') && html.includes('/img/german-electronic/german-scenes-route.png'),
-  exactListening: ['qWkzS0Vg9hg', 'lpiTuX4aeD0', '3phase-feat-dr-motte-der-klang', '2ElEFB1EjjklpSVF7YJP90', '5NmBv6Z81UjuvCxVgBXJOP'].every(id => html.includes(id)),
+  exactListening: ['qWkzS0Vg9hg', '6bWw2bzXmY0', '3phase-feat-dr-motte-der-klang', '2ElEFB1EjjklpSVF7YJP90', '5NmBv6Z81UjuvCxVgBXJOP'].every(id => html.includes(id)),
   spotifyAlbumSupport: html.includes('/embed/album/6b9yPxKdRjGJQXwXoabl3r') && html.includes('/embed/album/5NmBv6Z81UjuvCxVgBXJOP'),
   internalLinks: ['/best-clubs-in-berlin', '/uk-electronic-music-evolution', '/live-dj-sets'].every(path => html.includes(`href="${path}"`)),
   bandcamp: (html.match(/class="bandcamp-embed"/g) || []).length === 1 && html.includes('track=3192532299')

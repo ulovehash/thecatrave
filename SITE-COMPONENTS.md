@@ -46,7 +46,7 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - `articleTrackEmbed({platform, id, url, title})`: exact Spotify track, album or playlist, YouTube, SoundCloud or Bandcamp player primitive. Use `spotify-album` only when the release itself is the evidence and label it honestly.
 - `articleListeningCollection({id, title, description, tone, items, fullBleed})`: dated multi-track route used when several exact embedded tracks explain one era or transition. It is full-bleed by default; use `fullBleed: false` only for an explicitly approved compact exception. Each `items[]` row renders as a two-column `.track-entry` (`copy | player`, top-aligned). Inside the copy: the artist is the mono `.track-meta` kicker line on top, then the track title as `<h4>` with the release year appended as ` · YEAR` in a lighter `.track-year <time>` span, then the note. A hairline (`border-top` on every `.track-entry`) sits between the intro header and the first track and between each pair of tracks — all on the one block colour, so it reads as a list.
 - `articleVideoCard({youtubeId, genre, artist, title})`: captioned exact-track YouTube card.
-- `articleVideoCollection({items, description})`: contextual group of captioned video examples using the same full-bleed `Essential listening` geometry as Spotify and SoundCloud blocks.
+- `articleVideoCollection({items, description})`: contextual group of captioned video examples using the same full-bleed `Essential listening` geometry as Spotify and SoundCloud blocks. A single video spans the full grid width; two or more videos use the standard two-column desktop grid.
 
 ## Page-building principles
 
