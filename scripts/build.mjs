@@ -14,6 +14,7 @@ export const generators = [
   'build-breakbeat-article.mjs',
   'build-jungle-article.mjs',
   'build-uk-article.mjs',
+  'build-german-electronic-article.mjs',
   'build-bass-music-article.mjs',
   'build-dubstep-article.mjs',
   'build-dnb-article.mjs',

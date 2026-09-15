@@ -1,0 +1,54 @@
+{
+  "page": "german-electronic-music.html",
+  "checked": "2026-09-15",
+  "images": [
+    {
+      "title": "Kraftwerk on stage",
+      "files": ["img/german-electronic/kraftwerk-stage-320.webp", "img/german-electronic/kraftwerk-stage-1200.webp", "img/og/german-electronic.jpg"],
+      "source": "https://commons.wikimedia.org/wiki/File:Kraftwerk_on_stage.jpg",
+      "author": "Mike Mantin",
+      "license": "CC BY 2.0",
+      "use": "article opening and social image",
+      "dimensions": "2513x1887 original; rendered 1200x901 and 320x240; social crop 1200x630"
+    },
+    {
+      "title": "Karlheinz Stockhausen in the WDR Studio, 1991",
+      "files": ["img/german-electronic/stockhausen-wdr-320.webp", "img/german-electronic/stockhausen-wdr-1200.webp"],
+      "source": "https://commons.wikimedia.org/wiki/File:Stockhausen_1991_Studio.jpg",
+      "author": "Kathinka Pasveer",
+      "license": "CC BY-SA 3.0",
+      "use": "Cologne studio section",
+      "dimensions": "2206x1482 original; rendered 1200x806 and 320x215"
+    },
+    {
+      "title": "Love Parade, Berlin 1998",
+      "files": ["img/german-electronic/love-parade-1998-320.webp", "img/german-electronic/love-parade-1998-1200.webp"],
+      "source": "https://commons.wikimedia.org/wiki/File:Berlino_Love_Parade_1998.jpg",
+      "author": "Ago76",
+      "license": "Public domain",
+      "use": "post-Wall techno section",
+      "dimensions": "1313x886 original; rendered 1200x810 and 320x216"
+    },
+    {
+      "title": "German electronic music by city and era",
+      "files": ["img/german-electronic/german-scenes-route.svg", "img/german-electronic/german-scenes-route.png"],
+      "source": "original editorial graphic",
+      "author": "thecatrave",
+      "license": "site-owned",
+      "use": "city-led history map",
+      "dimensions": "1200x700 SVG; 2400x1400 PNG"
+    }
+  ],
+  "embeds": [
+    { "title": "Autobahn", "artist": "Kraftwerk", "platform": "youtube", "id": "qWkzS0Vg9hg", "verification": "official Kraftwerk artist channel" },
+    { "title": "Der Mussolini", "artist": "DAF", "platform": "youtube", "id": "lpiTuX4aeD0", "verification": "linked by Mute Records" },
+    { "title": "Der Klang der Familie", "artist": "3 Phase featuring Dr. Motte", "platform": "soundcloud", "url": "https://soundcloud.com/dr-motte/sets/3phase-feat-dr-motte-der-klang", "verification": "Dr. Motte account, previously checked for the Berlin guide" },
+    { "title": "L'Esperanza", "artist": "Sven Väth", "platform": "spotify", "id": "6b9yPxKdRjGJQXwXoabl3r", "verification": "original 1993 EP page" },
+    { "title": "For An Angel", "artist": "Paul van Dyk", "platform": "spotify", "id": "2ElEFB1EjjklpSVF7YJP90", "verification": "artist track page; listing identifies the original mix" },
+    { "title": "Phylyps Trak II", "artist": "Basic Channel", "platform": "spotify-album", "id": "5NmBv6Z81UjuvCxVgBXJOP", "verification": "two-track release page" }
+  ],
+  "known_gaps": [
+    { "title": "Phaedra exact embed", "why": "the official Bandcamp page is a 2010 revisited recording, not the 1974 master; the article links the official history instead" },
+    { "title": "Basic Channel exact track iframe", "why": "Spotify exposes the original two-track release as an album embed, so the player is labelled as the release" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "page": "german-electronic-music.html",
+  "seed": "german electronic music",
+  "source": "Ahrefs connector, US database with global volume, checked 15 September 2026; SERP data 28 and 31 July 2026",
+  "terms": [
+    { "term": "german electronic music", "volume": 90 },
+    { "term": "german techno", "volume": 500 },
+    { "term": "german electronic music artists", "volume": 100 }
+  ],
+  "rejected": [
+    { "term": "german techno artists", "volume": 400, "why": "artist-list intent; future page" },
+    { "term": "german techno club", "volume": 100, "why": "local and travel intent; covered by the Berlin clubs guide" },
+    { "term": "german techno djs", "volume": 100, "why": "list and discovery intent rather than history" },
+    { "term": "german techno festivals", "volume": 0, "why": "events and travel intent" },
+    { "term": "history of german techno", "volume": 0, "why": "zero-volume wording; the history is covered without forcing the phrase" },
+    { "term": "berlin techno history", "volume": 20, "why": "supporting concept, but the exact phrase would compete with the broader national framing" },
+    { "term": "german techno music", "volume": 20, "why": "awkward variant of the stronger german techno query" },
+    { "term": "german electronic music genres", "volume": 0, "why": "zero-volume wording; the page explains scenes rather than forcing a genre-list phrase" }
+  ]
+}

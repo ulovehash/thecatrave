@@ -25,6 +25,14 @@ export const homeArticleCatalog = [
     width:1024, height:683, alt:'British electronic music artists performing in a dark club'
   },
   {
+    page:'german-electronic-music.html', tags:['techno','history','overview'], href:'/german-electronic-music', type:'Timeline', topic:'German music',
+    title:'German Electronic Music: From Kraftwerk to Techno',
+    description:'Cologne studios, Düsseldorf electronic pop, Frankfurt trance and the Detroit-Berlin alliance.',
+    image:'img/german-electronic/kraftwerk-stage-320.webp',
+    srcset:'img/german-electronic/kraftwerk-stage-320.webp 320w,img/german-electronic/kraftwerk-stage-1200.webp 1200w',
+    width:1200, height:901, alt:'Kraftwerk performing behind electronic consoles'
+  },
+  {
     page:'bass-music-guide.html', tags:['bass','global','soundsystem'], href:'/bass-music-guide', type:'Guide', topic:'Bass music',
     title:'What Is Bass Music? History, Genres and Essential Tracks',
     description:'A global history connecting Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',

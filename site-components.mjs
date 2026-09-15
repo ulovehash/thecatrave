@@ -258,9 +258,10 @@ export function articleListeningBand({platform = 'spotify', id, kicker, title, d
 
 export function articleTrackEmbed({platform, id = '', url = '', title} = {}) {
   const safeTitle = escapeHtml(title);
-  if (platform === 'spotify' || platform === 'spotify-playlist') {
-    const type = platform === 'spotify' ? 'track' : 'playlist';
-    return `<iframe class="track-embed spotify-embed" title="${safeTitle}${platform === 'spotify' ? ' on Spotify' : ' in a Spotify listening set'}" src="https://open.spotify.com/embed/${type}/${escapeHtml(id)}?utm_source=generator&theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
+  if (platform === 'spotify' || platform === 'spotify-playlist' || platform === 'spotify-album') {
+    const type = platform === 'spotify' ? 'track' : platform === 'spotify-album' ? 'album' : 'playlist';
+    const context = platform === 'spotify' ? ' on Spotify' : platform === 'spotify-album' ? ' release on Spotify' : ' in a Spotify listening set';
+    return `<iframe class="track-embed spotify-embed" title="${safeTitle}${context}" src="https://open.spotify.com/embed/${type}/${escapeHtml(id)}?utm_source=generator&theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
   }
   if (platform === 'soundcloud') return `<iframe class="track-embed soundcloud-embed" title="${safeTitle} on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=${escapeHtml(url)}&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>`;
   if (platform === 'bandcamp') return `<iframe class="track-embed bandcamp-embed" title="${safeTitle} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(url)}">${safeTitle}</a></iframe>`;
