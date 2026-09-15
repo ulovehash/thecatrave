@@ -234,11 +234,16 @@
   // rather than a thrown error inside a click handler.
   const track = (name, params) => { try { if (window.gtag) window.gtag('event', name, params || {}); } catch {} };
   let current = null;
+  let dealCount = 0;
+
+  const selectedValue = active => active.size === 0 ? 'none' : active.size === 1 ? [...active][0] : 'multiple';
+  const poolBucket = size => size <= 50 ? '1-50' : size <= 500 ? '51-500' : size <= 5000 ? '501-5000' : '5000+';
 
   const go = () => {
     const item = pick();
     if (!item) return;
     current = item;
+    dealCount += 1;
     // What the button is for. The parameters are the question worth asking of
     // it: does anyone narrow the catalogue before pressing, and does narrowing
     // make them press again.
@@ -247,7 +252,15 @@
       sources: activeSources.size,
       genres: activeGenres.size,
       lengths: activeLengths.size,
-      pool: pool.length
+      pool: pool.length,
+      pick_number: Math.min(dealCount, 4),
+      filtered: !!(activeSources.size || activeGenres.size || activeLengths.size || mode !== 'any'),
+      selected_source: selectedValue(activeSources),
+      selected_genre: selectedValue(activeGenres),
+      selected_length: selectedValue(activeLengths),
+      result_source: item.broadcaster || '',
+      result_genre: item.genres && item.genres.length ? item.genres[0] : 'untagged',
+      pool_bucket: poolBucket(pool.length)
     });
     if (!reduceMotion) {
       btn.dataset.spinning = 'true';
@@ -263,7 +276,12 @@
   // rather than left playing in the corner of a tab.
   if (stage) stage.addEventListener('click', e => {
     const a = e.target && e.target.closest ? e.target.closest('.sel-links a') : null;
-    if (a) track('set_opened', {mode, source: current ? current.broadcaster : '', id: current ? current.id : ''});
+    if (a) track('set_opened', {
+      mode,
+      source: current ? current.broadcaster : '',
+      id: current ? current.id : '',
+      pick_number: Math.min(dealCount, 4)
+    });
   });
 
   // Mode is one-of-four, unlike Source and Genre which are multi-select. So it is

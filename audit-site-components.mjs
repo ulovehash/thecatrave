@@ -22,6 +22,8 @@ const generatorSources = Object.values(generators);
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
 const homeCss = fs.readFileSync('thecatrave-home.css', 'utf8');
 const homeRuntime = fs.readFileSync('homepage-runtime.js', 'utf8').trim();
+const analyticsRuntime = fs.readFileSync('analytics-runtime.js', 'utf8');
+const selectorRuntime = fs.readFileSync('selector-runtime.js', 'utf8');
 const bandcampFullBleedRule = articleCss.match(/\.article-cta-full\s*\{([^}]*)\}/)?.[1] || '';
 const count = (html, pattern) => (html.match(pattern) || []).length;
 const decodeHtmlText = value => String(value || '')
@@ -171,6 +173,10 @@ const checks = {
   homeFontsNonBlocking: count(pages.home, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2,
   homeAnalyticsShared: pages.home.includes(analytics()),
   analyticsAsyncEarly: Object.values(pages).every(page => page.includes('<script async fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-0WW1QS0DW4"></script>') && page.indexOf('googletagmanager.com/gtag/js') < page.indexOf('</head>')),
+  analyticsRuntimeShared: Object.values(pages).every(page => page.includes('<script src="/analytics-runtime.js" defer></script>')),
+  analyticsOutcomesTracked: ['soundcloud_play','soundcloud_click','bandcamp_click','spotify_click','guide_read','selector_opened'].every(event => analyticsRuntime.includes(`'${event}'`)),
+  analyticsGuideReadExcludesTools: analyticsRuntime.includes(".article-page:not(.selector-page) article") && analyticsRuntime.includes('document.hidden'),
+  selectorOutcomeContextTracked: ['pick_number','filtered','selected_source','selected_genre','selected_length','result_source','result_genre','pool_bucket'].every(parameter => selectorRuntime.includes(parameter)),
   // One assertion per shared component, run against every guide, instead of the
   // same four predicates hand-written per page. Adding a guide to pages.mjs is
   // now enough to hold it to all of them.
