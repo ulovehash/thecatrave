@@ -26,6 +26,11 @@ const videoCache = readJson('selector-videos-cache.json');
 const titles = Object.fromEntries(Object.entries(videoCache).map(([id, e]) => [id, e && e.t]));
 const tagsCache = readJson('selector-tags-cache.json');   // { videoId: [rawKeyword] }
 const descCache = readJson('selector-desc-cache.json');   // { videoId: descriptionText }
+const youtubeGenreCache = readJson('selector-youtube-genre-cache.json');
+const reviewed = readJson('selector-genre-decisions.json');
+const order = arr => [...new Set(arr.map(matchTag).filter(Boolean))]
+  .sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b))
+  .slice(0, 4);
 
 // seed the registry with the hand map (keyed the same way), and persist it so
 // selector-artists.json is the full picture (manual + title + wikidata).
@@ -34,20 +39,46 @@ for (const [name, genres] of Object.entries(MANUAL)) {
   const row = registry[k] || (registry[k] = { display: name, sets: 0, broadcasters: [], genres: [], sources: [] });
   if (!row.genres || !row.genres.length) { row.genres = genres.slice(); row.sources = ['manual']; }
 }
-// Discogs: the styles on an artist's own releases, gathered by
-// scripts/genres-from-discogs.mjs behind three guards against matching a
-// namesake. Seeded into the registry like any other artist source, so it
-// travels to that artist's sets on every channel.
-let fromDiscogs = 0;
-for (const [k, rec] of Object.entries(readJson('selector-discogs-cache.json'))) {
-  if (!rec || !rec.genres || !rec.genres.length) continue;
-  const row = registry[k];
-  if (!row || (row.genres && row.genres.length)) continue;
-  row.genres = rec.genres.slice();
-  row.sources = [...new Set([...(row.sources || []), 'discogs'])];
-  fromDiscogs += 1;
+
+// Explicit reviewed decisions are auditable and take precedence over
+// automated sources. Each row keeps its supporting links in the decisions
+// file rather than publishing research plumbing in the Selector UI.
+for (const [key, decision] of Object.entries(reviewed)) {
+  const genres = order(decision.genres || []);
+  if (!genres.length) continue;
+  const row = registry[key] || (registry[key] = {
+    display: decision.display || key,
+    sets: 0,
+    broadcasters: [],
+    genres: [],
+    sources: []
+  });
+  row.genres = genres;
+  row.sources = ['reviewed'];
 }
-console.log(`seeded ${fromDiscogs} artists from Discogs`);
+// Release-catalogue styles are accepted only after the collector has rejected
+// namesakes, non-club catalogues and one-off style tags. The local bulk cache
+// is checked first; the older API cache remains useful for previous matches.
+for (const row of Object.values(registry)) {
+  if (row.sources?.length === 1 && row.sources[0] === 'catalog') {
+    row.genres = [];
+    row.sources = [];
+  }
+}
+function seedCatalogue(file, source) {
+  let seeded = 0;
+  for (const [k, rec] of Object.entries(readJson(file))) {
+    if (!rec?.genres?.length) continue;
+    const row = registry[k];
+    if (!row || row.genres?.length) continue;
+    row.genres = rec.genres.slice();
+    row.sources = [...new Set([...(row.sources || []), source])];
+    seeded += 1;
+  }
+  console.log(`seeded ${seeded} artists from ${source}`);
+}
+seedCatalogue('selector-catalog-cache.json', 'catalog');
+seedCatalogue('selector-discogs-cache.json', 'discogs');
 
 // Seed artists from the single-genre channels they played. An artist with no
 // genre from a stronger source inherits the channel's, which then travels with
@@ -67,7 +98,9 @@ for (const s of sets) {
 fs.writeFileSync('selector-artists.json', JSON.stringify(registry, null, 0) + '\n');
 console.log(`seeded ${seeded} artists from single-genre channels`);
 
-const order = arr => [...new Set(arr)].sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b)).slice(0, 4);
+// Canonicalise every source at the final boundary. This prevents aliases or
+// stale values from leaking into the public filter even when a source bypasses
+// matchTag (for example a hand-authored recurring-series rule).
 const kwGenres = kws => {
   const out = [];
   for (const k of kws || []) { const g = matchTag(k); if (g && !out.includes(g)) out.push(g); }
@@ -76,7 +109,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, b2b: 0, declared: 0, series: 0, channel: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, title: 0, b2b: 0, declared: 0, youtube: 0, series: 0, channel: 0, keywords: 0, description: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -118,6 +151,11 @@ for (const s of sets) {
   if (!acc.length) {
     const declared = declaredGenresInTitle(titles[s.id]);
     if (declared.length) { acc.push(...declared); bySource.declared += 1; }
+  }
+
+  if (!acc.length && youtubeGenreCache[s.id]?.genres?.length) {
+    acc.push(...youtubeGenreCache[s.id].genres);
+    bySource.youtube += 1;
   }
 
   if (!acc.length) {

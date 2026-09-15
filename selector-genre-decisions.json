@@ -1,0 +1,72 @@
+{
+  "boris brejcha": {
+    "display": "Boris Brejcha",
+    "genres": ["minimal", "techno", "progressive house"],
+    "confidence": "high",
+    "evidence": [
+      "https://www.borisbrejcha.de/bio",
+      "https://music.apple.com/us/artist/boris-brejcha/202970860"
+    ]
+  },
+  "black coffee": {
+    "display": "Black Coffee",
+    "genres": ["afro house", "deep house", "house"],
+    "confidence": "high",
+    "evidence": [
+      "https://old.samro.org.za/wp-content/uploads/2022/11/SAMRO-Notes-Vol-2-Final-Spread-Hi-res.pdf",
+      "https://old.samro.org.za/wp-content/uploads/2022/11/samroNotes-december2013.pdf"
+    ]
+  },
+  "ben bohmer": {
+    "display": "Ben Böhmer",
+    "genres": ["progressive house", "deep house"],
+    "confidence": "high",
+    "evidence": [
+      "https://music.apple.com/us/artist/ben-b%C3%B6hmer/794108530",
+      "https://benbohmer.bandcamp.com/album/breathing"
+    ]
+  },
+  "adriatique": {
+    "display": "Adriatique",
+    "genres": ["house", "techno", "tech house"],
+    "confidence": "high",
+    "evidence": [
+      "https://ra.co/dj/adriatique/biography",
+      "https://www.allmusic.com/artist/adriatique-mn0002758561"
+    ]
+  },
+  "amelie lens": {
+    "display": "Amelie Lens",
+    "genres": ["techno"],
+    "confidence": "high",
+    "evidence": [
+      "https://www.sonymusic.co.uk/artist/amelie-lens/"
+    ]
+  },
+  "nora en pure": {
+    "display": "Nora En Pure",
+    "genres": ["deep house", "progressive house", "tech house"],
+    "confidence": "high",
+    "evidence": [
+      "https://www.grammy.com/news/interview-deep-house-dj-nora-en-pure-her-signature-sound-photography-more/",
+      "https://ra.co/dj/noraenpure/biography"
+    ]
+  },
+  "alison wonderland": {
+    "display": "Alison Wonderland",
+    "genres": ["hip-hop"],
+    "confidence": "high",
+    "evidence": [
+      "https://www.insomniac.com/music/artists/alison-wonderland/",
+      "https://music.apple.com/us/artist/alison-wonderland/669831761"
+    ]
+  },
+  "lee burridge": {
+    "display": "Lee Burridge",
+    "genres": ["deep house"],
+    "confidence": "high",
+    "evidence": [
+      "https://en.wikipedia.org/wiki/Lee_Burridge"
+    ]
+  }
+}

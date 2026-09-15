@@ -15,7 +15,7 @@
 export const SERIES = {
   // The Lot Radio, New York
   'love injection': ['disco', 'house'],              // the NYC disco zine and party
-  'darker than wax fm': ['broken beat', 'jazz'],     // Singapore collective, jazz-leaning club
+  'darker than wax fm': ['breakbeat', 'jazz'],       // Singapore collective, jazz-leaning club
   'moods & grooves': ['deep house'],                 // Norm Talley's Detroit house label
 
   // Kiosk Radio, Brussels

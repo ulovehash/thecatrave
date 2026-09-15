@@ -13,13 +13,21 @@ import { matchTag, VOCAB } from './genre-vocab.mjs';
 
 const REG = 'selector-artists.json';
 const CACHE = 'selector-wd-cache.json';
-const BATCH = 40;
+const BATCH = Math.max(1, Number(process.env.WIKIDATA_BATCH_SIZE || 100));
 const DELAY = 1500;
+const CONCURRENCY = Math.max(1, Number(process.env.WIKIDATA_CONCURRENCY || 2));
+const RETRIES = Math.max(0, Number(process.env.WIKIDATA_RETRIES || 2));
 const MIN_SETS = Number(process.env.MIN_SETS) || 1;
-const MAX_BATCHES = Number(process.env.MAX_BATCHES) || Infinity;
+const MAX_BATCHES = process.env.MAX_BATCHES === undefined
+  ? Infinity
+  : Math.max(0, Number(process.env.MAX_BATCHES));
 
 const reg = JSON.parse(fs.readFileSync(REG, 'utf8'));
 const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE, 'utf8')) : {};
+const reviewQueue = fs.existsSync('selector-genre-review-queue.json')
+  ? JSON.parse(fs.readFileSync('selector-genre-review-queue.json', 'utf8'))
+  : [];
+const priority = new Map(reviewQueue.map((row, index) => [row.key, index]));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const MUSIC_OCC = ['Q130857', 'Q183945', 'Q639669', 'Q36834', 'Q177220', 'Q158852', 'Q855091', 'Q753110'];
@@ -48,15 +56,16 @@ const lit = s => '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '
 // candidates: has >= MIN_SETS sets, no genres yet, not already cached
 const todo = Object.entries(reg)
   .filter(([k, r]) => r.sets >= MIN_SETS && !(r.genres && r.genres.length) && !(k in cache))
-  .sort((a, b) => b[1].sets - a[1].sets)
+  .sort((a, b) => (priority.get(a[0]) ?? Infinity) - (priority.get(b[0]) ?? Infinity) || b[1].sets - a[1].sets)
   .map(([k, r]) => ({ key: k, name: r.display }));
 
-console.log(`${todo.length} artists to look up, ${Math.ceil(todo.length / BATCH)} batches (~${Math.ceil(todo.length / BATCH * DELAY / 60000)} min).`);
+const chunks = [];
+for (let i = 0; i < todo.length && chunks.length < MAX_BATCHES; i += BATCH) chunks.push(todo.slice(i, i + BATCH));
+console.log(`${todo.length} artists to look up, ${chunks.length} batches of up to ${BATCH}, ${CONCURRENCY} concurrent.`);
 
 let done = 0;
 let hits = 0;
-for (let i = 0; i < todo.length && i / BATCH < MAX_BATCHES; i += BATCH) {
-  const chunk = todo.slice(i, i + BATCH);
+async function lookup(chunk, attempt = 0) {
   const values = chunk.map(c => `${lit(c.name)}@en`).join(' ');
   const query = `
 SELECT ?name ?genreLabel WHERE {
@@ -67,30 +76,40 @@ SELECT ?name ?genreLabel WHERE {
   ?s wdt:P136 ?g .
   ?g rdfs:label ?genreLabel . FILTER(LANG(?genreLabel) = "en")
 }`;
-  let rows = [];
   try {
     const json = await sparql(query);
-    rows = json.results.bindings;
+    return { chunk, rows: json.results.bindings };
   } catch (e) {
-    process.stdout.write(`\n  batch ${i / BATCH} failed: ${e.message}\n`);
-    await sleep(DELAY * 3);
-    continue;
+    if (attempt < RETRIES) {
+      await sleep(DELAY * (attempt + 2));
+      return lookup(chunk, attempt + 1);
+    }
+    return { chunk, error: e.message };
   }
+}
 
-  const byName = new Map();
-  for (const r of rows) {
-    const nm = r.name.value.toLowerCase();
-    const g = matchTag(r.genreLabel.value);
-    if (!g) continue;
-    const arr = byName.get(nm) || byName.set(nm, []).get(nm);
-    if (!arr.includes(g)) arr.push(g);
+for (let i = 0; i < chunks.length; i += CONCURRENCY) {
+  const results = await Promise.all(chunks.slice(i, i + CONCURRENCY).map(lookup));
+  for (const result of results) {
+    if (result.error) {
+      process.stdout.write(`\n  batch failed: ${result.error}\n`);
+      continue;
+    }
+    const byName = new Map();
+    for (const r of result.rows) {
+      const nm = r.name.value.toLowerCase();
+      const g = matchTag(r.genreLabel.value);
+      if (!g) continue;
+      const arr = byName.get(nm) || byName.set(nm, []).get(nm);
+      if (!arr.includes(g)) arr.push(g);
+    }
+    for (const c of result.chunk) {
+      const g = byName.get(c.name.toLowerCase());
+      cache[c.key] = g ? g.sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b)).slice(0, 4) : [];
+      if (g) hits += 1;
+    }
+    done += result.chunk.length;
   }
-  for (const c of chunk) {
-    const g = byName.get(c.name.toLowerCase());
-    cache[c.key] = g ? g.sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b)).slice(0, 4) : [];
-    if (g) hits += 1;
-  }
-  done += chunk.length;
   process.stdout.write(`\r  ${done}/${todo.length}  (${hits} with a genre)`);
   fs.writeFileSync(CACHE, JSON.stringify(cache, null, 0) + '\n');
   await sleep(DELAY);

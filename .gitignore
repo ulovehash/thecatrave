@@ -11,6 +11,8 @@ blob-report/
 # secrets / local env
 .env
 .env.*
+analytics-export/
+analytics-credentials.json
 
 # tooling / editor
 .claude/

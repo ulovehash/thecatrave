@@ -104,9 +104,40 @@ function takeAfterWith(s) {
   return s;
 }
 
+// A few video channels put a clean artist credit first and then append the
+// venue, event or presentation as ordinary prose. Keeping that prose creates a
+// different registry key for every appearance ("Fatboy Slim at ..."), so a set
+// cannot inherit the genre already known for Fatboy Slim. These cuts are kept
+// channel-local below: applying them to every broadcaster would damage real
+// act names and radio-show titles.
+const beforePerformanceContext = s => String(s)
+  .split(/\s+@\s*|\s+(?:(?:live\s+)?(?:at|above|under)|live\s+from)\s+/i)[0]
+  .trim();
+
+const MIXMAG_QUALIFIERS = /\b(?:live|vinyl|classic|rolling|sunset|sunrise|spiritual|melodic|deep|epic|huge|global|massive|special|eclectic|tough|bumpin['’]?|jackin['’]?|old\s+school|brazilian|90s?|\d+\s*(?:min|minute))\b/gi;
+const MIXMAG_EXTRA_GENRE = /^(?:bass|d['’]?n['’]?b)$/i;
+
+function stripMixmagSetDescription(raw) {
+  const s = String(raw);
+  const marker = /\s+(?:dj\s+)?sets?\b|\s+mix\b/i.exec(s);
+  if (!marker) return s;
+  const head = s.slice(0, marker.index).trim();
+  const starts = [...head.matchAll(/\s+/g)].map(m => m.index + m[0].length);
+  for (const start of starts) {
+    const suffix = head.slice(start).replace(MIXMAG_QUALIFIERS, ' ').replace(/\s{2,}/g, ' ').trim();
+    if (!suffix) return head.slice(0, start).trim();
+    const parts = suffix.split(/\s*[,/&+]\s*|\s+and\s+/i).map(x => x.trim()).filter(Boolean);
+    if (parts.length && parts.every(x => matchTag(x) || MIXMAG_EXTRA_GENRE.test(x))) {
+      return head.slice(0, start).trim();
+    }
+  }
+  return s.replace(/\s+(?:dj\s+)?set\s+(?:from|at|in)\b.*$/i, '');
+}
+
 export function parseArtist(title, broadcaster) {
   const t = String(title || '').replace(INVIS, '').trim();
   if (!t) return '';
+  if (broadcaster === 'Cercle' && /^cercle story\b/i.test(t)) return '';
   let a;
 
   if (broadcaster === 'Boiler Room') {
@@ -150,7 +181,9 @@ export function parseArtist(title, broadcaster) {
     let s = t.split(/\s*[–—-]\s*elevator music|\s*\(/i)[0].replace(/^@/, '').replace(/@(\w)/g, '$1');
     a = clean(s);
   } else if (broadcaster === 'Beatport') {
+    const surfaceFeature = /^game changers by microsoft surface\s*\/\//i.test(t);
     let s = t
+      .replace(/^game changers by microsoft surface\s*\/\/\s*/i, '')
       .replace(/\s*\|\s*@?beatport\b.*$/i, '')
       .replace(/\s+(dj set|full set|live set|live)\s*[–—-].*$/i, '')          // "X DJ set - <series/event>"
       .replace(/\s*[–—-]\s*(miller mix|creamfields|the block|sunset|psy-?techno|monegros|dune|reconnect|link\b|absolut|dessert|solidarity)\b.*$/i, '')
@@ -158,6 +191,12 @@ export function parseArtist(title, broadcaster) {
       .replace(TAG_TAIL, '');
     const segs = s.split(/\s*\|\s*/).map(x => x.trim()).filter(Boolean);
     s = segs.find(x => /\S+\s+(dj set|full set)\b/i.test(x) || /\bb2b\b/i.test(x)) || segs[0] || s;
+    if (surfaceFeature) s = s.split(/\s+[–—-]\s+/)[0];
+    // Once the presentation has been removed, these forms all begin with the
+    // artist: "Nora En Pure DJ set LIVE from...", "Monolink Live set - ...",
+    // "Carl Cox Hybrid Set - ...". Stop before the performance description.
+    s = s.split(/\s+(?:dj\s+set|full\s+set|live\s+set|hybrid\s+set|sunrise\s+set|sunset\s+set|all\s+day\s+long|live)\b/i)[0];
+    s = s.split(/\s*:\s*['‘’"]/)[0];
     s = s.replace(/^@/, '').replace(/@(\w)/g, '$1');
     if (/^[A-Za-z][A-Za-z0-9]*$/.test(s) && /[a-z][A-Z0-9]/.test(s)) {   // de-camelCase a @handle
       s = s.replace(/([a-z])([A-Z0-9])/g, '$1 $2').replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2');
@@ -176,13 +215,29 @@ export function parseArtist(title, broadcaster) {
   } else if (broadcaster === 'Rinse FM') {
     a = clean(t.split(/\s*\|\s*(live from|rinse )/i)[0]);
   } else if (broadcaster === 'Mixmag') {
-    a = clean(t.split(/\s*\|\s*mixmag/i)[0]);
+    let s = t.split(/\s*\|\s*/)[0]
+      .replace(/^\s*\d+\s*(?:minute|min)\s+/i, '');
+    s = s.split(/\s+in\s+the\s+lab\b|\s+returns?\s+in\s+the\s+lab\b|\s+@\s*|\s+at\s+|\s*:\s+/i)[0];
+    s = stripMixmagSetDescription(s)
+      .replace(/\s+\S+\s+takeover$/i, '')
+      .replace(/\s+bends genres\b.*$/i, '');
+    a = clean(s);
+  } else if (broadcaster === 'Dekmantel' && /^dekmantel\s+ten\s*[-–—]/i.test(t)) {
+    // "Dekmantel Ten" is the festival's anniversary banner, not an act.
+    const s = t.replace(/^dekmantel\s+ten\s*[-–—]\s*/i, '').split(/\s*\|\s*/)[0];
+    a = clean(s);
   } else if (broadcaster === 'Bangkok Community Radio') {
     a = clean(t.split(/\s+-\s+\d|\s*\|\s*bangkok/i)[0]);
   } else if (broadcaster === 'The Mudd Show') {
     a = clean(t.split(/\s*\|\s*themuddshow/i)[0]);
   } else if (broadcaster === 'Cercle') {
-    a = clean(t.split(/\s+(?:live at|live in|live from|at|for)\s+(?:parque|cercle|the |a |an )/i)[0]);
+    if (/^cercle story\b/i.test(t)) a = '';
+    else {
+      let s = t.split(/\s+(?:live\s+)?for\s+cercle\b/i)[0];
+      s = beforePerformanceContext(s);
+      s = s.replace(/\s+vinyl\s+dj\s+set\b.*$/i, '');
+      a = clean(s);
+    }
   } else if (broadcaster === 'My Analog Journal') {
     let s = takeAfterWith(t.split(/\s*[|/]\s*/)[0]);
     s = s.split(/:\s/)[0];

@@ -37,7 +37,7 @@ const ALIAS = new Map(Object.entries({
   'nu disco': 'nu-disco', 'nudisco': 'nu-disco',
   'italo': 'italo disco', 'italo-disco': 'italo disco',
   'acid house': 'acid', 'acid-house': 'acid',
-  'breaks': 'breakbeat', 'breakcore': 'breakbeat', 'nu skool breaks': 'breakbeat', 'bigbeat': 'big beat',
+  'breaks': 'breakbeat', 'broken beat': 'breakbeat', 'breakcore': 'breakbeat', 'nu skool breaks': 'breakbeat', 'bigbeat': 'big beat',
   'psy trance': 'psytrance', 'psychedelic trance': 'psytrance', 'goa': 'psytrance', 'goa trance': 'psytrance',
   'happy hardcore': 'hardcore', 'uk hardcore': 'hardcore', 'gabba': 'gabber', 'frenchcore': 'gabber',
   'trip hop': 'trip-hop', 'triphop': 'trip-hop',

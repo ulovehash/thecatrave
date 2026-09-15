@@ -8,6 +8,9 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
+    "analytics:export": "node scripts/export-organic-analytics.mjs",
+    "genres:catalog": "node scripts/genres-from-catalog-dump.mjs",
+    "genres:youtube": "node scripts/genres-from-youtube-metadata.mjs",
     "serve": "node scripts/serve.mjs 4173 .",
     "audit": "node audit-all.mjs",
     "check:html": "node scripts/check.mjs html",

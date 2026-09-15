@@ -53,6 +53,10 @@ const get = url => new Promise(res => {
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
 const registry = JSON.parse(fs.readFileSync('selector-artists.json', 'utf8'));
 const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')) : {};
+const reviewQueue = fs.existsSync('selector-genre-review-queue.json')
+  ? JSON.parse(fs.readFileSync('selector-genre-review-queue.json', 'utf8'))
+  : [];
+const priority = new Map(reviewQueue.map((row, index) => [row.key, index]));
 
 // untagged artists only, skipping the strings that are two names stuck together
 const counts = new Map();
@@ -72,7 +76,7 @@ for (const s of sets) {
 }
 const queue = [...counts.entries()]
   .filter(([k, v]) => v.n >= MIN_SETS && !(k in cache))
-  .sort((a, z) => z[1].n - a[1].n)
+  .sort((a, z) => (priority.get(a[0]) ?? Infinity) - (priority.get(z[0]) ?? Infinity) || z[1].n - a[1].n)
   .slice(0, LIMIT);
 
 console.log(`${queue.length} artists to look up (${Object.keys(cache).length} already cached), about ${Math.round(queue.length * DELAY * 2 / 60000)} minutes.`);

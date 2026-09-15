@@ -14,6 +14,9 @@ const PER_CHANNEL = Number(process.env.PER_CHANNEL) || Infinity;
 const MAX_SETS = Number(process.env.MAX_SETS) || Infinity;
 
 const cache = JSON.parse(fs.readFileSync('selector-videos-cache.json', 'utf8'));
+const previous = fs.existsSync('selector-data.json')
+  ? JSON.parse(fs.readFileSync('selector-data.json', 'utf8'))
+  : [];
 
 const byBroadcaster = new Map();
 for (const [id, e] of Object.entries(cache)) {
@@ -44,8 +47,18 @@ for (const b of ordered) {
     sets.push(rec);
   }
 }
+
+// Some catalogue rows are imported from sources other than the video API and
+// therefore have no entry in selector-videos-cache.json. A parser refresh must
+// not silently delete them.
+let preserved = 0;
+for (const row of previous) {
+  if (!row.id || cache[row.id]) continue;
+  sets.push(row);
+  preserved += 1;
+}
 sets.sort((a, z) => (z.year || 0) - (a.year || 0));
 fs.writeFileSync('selector-data.json', JSON.stringify(sets, null, 0) + '\n');
 
 const mb = (fs.statSync('selector-data.json').size / 1048576).toFixed(2);
-console.log(`selector-data.json: ${sets.length} sets from ${byBroadcaster.size} channels, ${mb} MB.`);
+console.log(`selector-data.json: ${sets.length} sets from ${byBroadcaster.size} cached channels, ${preserved} imported rows preserved, ${mb} MB.`);
