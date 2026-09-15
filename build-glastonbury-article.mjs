@@ -35,8 +35,9 @@ const draft = fs.readFileSync('glastonbury-draft.md', 'utf8').replace(/—/g, ':
 const canonical = 'https://thecatrave.com/glastonbury-festival';
 const title = 'Glastonbury Festival: 2027, Fallow Years and Headliners';
 const description = 'Glastonbury Festival at Worthy Farm: when Glastonbury 2027 is, why there is no festival this year, where it is, how big it is, and the headliners by year.';
-const date = '2026-09-14';
-const dateLabel = '14 September 2026';
+const datePublished = '2026-09-14';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -209,7 +210,7 @@ const articleHtml = [
     title: 'Glastonbury Festival',
     deck: 'Five days most Junes on a dairy farm in Somerset. When the next one is, why there was none this year, where it happens, how big it is, and who has headlined.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Glastonbury', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -224,6 +225,12 @@ const articleHtml = [
 ${sourceLink('https://en.wikipedia.org/wiki/Glastonbury_Festival', 'Wikipedia: Glastonbury Festival')}
 ${sourceLink('https://www.glastonburyfestivals.co.uk/info/', 'Glastonbury Festival: Info')}
 ${sourceLink('https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/', 'Glastonbury Festival: Glastonbury 2027 ticket information confirmed')}
+${sourceLink('https://www.somerset.gov.uk/community-leisure-and-tourism/glastonbury-festival/', 'Somerset Council: Glastonbury Festival licensing and event management')}
+${sourceLink('https://somerset.moderngov.co.uk/documents/s60202/Glastonbury%20Scruitiny%20Report%202025%20FINAL%20for%20Committee.pdf', 'Somerset Council: Glastonbury Festival 2025 scrutiny report')}
+${sourceLink('https://apnews.com/article/e70d38801ed7ab25d836048de6deda78', 'Associated Press: Glastonbury 2025, by the numbers')}
+${sourceLink('https://glastonburyfestivals.co.uk/anti-slavery-statement/', 'Glastonbury Festival: Anti-Slavery Statement')}
+${sourceLink('https://www.theguardian.com/uk/2001/oct/22/glastonbury2002.glastonbury', 'The Guardian: Glastonbury organisers bid for expansion')}
+${sourceLink('https://www.theguardian.com/music/2020/jun/26/from-bowie-to-beyonce-glastonburys-50-greatest-moments', 'The Guardian: From Bowie to Beyoncé, Glastonbury\'s 50 greatest moments')}
 ${sourceLink('https://en.wikipedia.org/wiki/Arcadia_Spectacular', 'Wikipedia: Arcadia Spectacular')}
 ${sourceLink('https://www.ingenia.org.uk/articles/the-arcadia-spider-from-junk-to-spectacle/', 'Ingenia: The Arcadia spider, from junk to spectacle')}
 ${sourceLink('https://www.wallpaper.com/art/glastonbury-arcadia-dragonfly-interview', 'Wallpaper: The story behind Arcadia\'s new Dragonfly stage')}
@@ -243,7 +250,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Glastonbury Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -251,7 +258,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/glastonbury.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page glastonbury-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

@@ -5,11 +5,33 @@ Status: 2026-09-14, the third of the more popular festivals
 then a UK set of the Wikipedia article, the official site and the subreddit),
 a web search, the official site and Wikipedia; the Ahrefs API units ran out
 earlier the same day. `TOPIC-RESEARCH.md` stages 3, 4 and 6 not run. Ahrefs:
-0 calls. Structure awaits the owner's approval.
+0 calls. The owner approved the structure and the page was published on
+2026-09-14; the factual corrections below were approved on 2026-09-15.
 
 ## Preservation inventory
 
-A new page, so no preservation inventory exists.
+The page was published on 2026-09-14, after the latest Search Console export
+ended on 2026-09-13. Its absence from that export is therefore an absence of
+observation, not zero performance. Preserve the URL, canonical, title, meta
+description, H1, primary intent, publication date, anchors, media and useful
+internal links.
+
+On 2026-09-15 a factual audit against current primary and authoritative sources
+identified four material corrections without changing the approved search
+direction:
+
+- Somerset Council's 2025 scrutiny report states that the current licence allows
+  up to 210,000 people, rather than more than 210,000. Associated Press clarifies
+  that this on-site total includes ticket holders, staff and performers.
+- Glastonbury Festival's current company statement says Glastonbury Festival
+  Events Ltd stages the festival while Glastonbury Festivals Ltd manages the
+  site and infrastructure. Michael and Emily Eavis are directors of the events
+  company.
+- The frequently repeated 300,000 estimate for the Levellers in 1994 is not a
+  counted audience. Contemporary reporting put the 2000 total at about 200,000
+  against a 105,000 licence, while later retrospectives commonly cite 250,000.
+- The Pyramid Stage hosts the three principal festival headliners; other stages
+  also have their own headliners.
 
 ## Stage 1: web search first
 
@@ -88,8 +110,25 @@ from the air, June 2022 (Lewis Clarke, CC BY-SA 2.0); the Pyramid Stage in
 "Fix You", 2024 (BBC Music, 67M); R.E.M., complete BBC broadcast, 1999
 (remhq, 2.2M); The Prodigy, "Breathe", 2025 (BBC Music, 3.8M).
 
+## 2026-09-15 fact-check sources
+
+- Glastonbury Festival, Anti-Slavery Statement:
+  https://glastonburyfestivals.co.uk/anti-slavery-statement/
+- Somerset Council, Glastonbury Festival licensing and event management:
+  https://www.somerset.gov.uk/community-leisure-and-tourism/glastonbury-festival/
+- Somerset Council, 2025 scrutiny report:
+  https://somerset.moderngov.co.uk/documents/s60202/Glastonbury%20Scruitiny%20Report%202025%20FINAL%20for%20Committee.pdf
+- Associated Press, 2025 capacity explainer:
+  https://apnews.com/article/e70d38801ed7ab25d836048de6deda78
+- The Guardian, contemporary 2001 report on the 2000 attendance estimate:
+  https://www.theguardian.com/uk/2001/oct/22/glastonbury2002.glastonbury
+- The Guardian, 2020 retrospective qualifying the Levellers estimate:
+  https://www.theguardian.com/music/2020/jun/26/from-bowie-to-beyonce-glastonburys-50-greatest-moments
+- Glastonbury Festival, Other Stage history:
+  https://www.glastonburyfestivals.co.uk/areas/other-stage/
+
 ## Open
 
-- Arcadia needs a source before it is described.
 - Pyramid Stage headliners by year: from Wikipedia's line-ups section.
-- SERP, related terms and stage 6 after 2026-09-20.
+- No post-publication Search Console observation exists yet. Reassess search
+  performance only after the URL has had a meaningful observation window.

@@ -1,27 +1,45 @@
 # Lollapalooza: research package and proposed structure
 
-Status: 2026-09-14, the second of the more popular festivals
+Status: updated 2026-09-15, the second of the more popular festivals
 (`festivals-series.md`). Built from the owner's export of the Wikipedia
 article's rankings, a web search and the Wikipedia article itself, because the
 Ahrefs API units ran out earlier the same day. `TOPIC-RESEARCH.md` stages 2
 (beyond Wikipedia), 3, 4 and 6 not run. Ahrefs: 0 calls. The owner approved the structure on 2026-09-14
 and asked for the 2027 dates to be written in (they are given as expected,
 since the festival had not confirmed them), and for the page to be written and
-published the same day. "lollapalooza address" was dropped: the official
-address page returned 403.
+published the same day. A factual and SEO-preservation review on 2026-09-15
+replaced the unsupported attendance range and several Wikipedia-led claims
+with current official, municipal and first-party evidence. "lollapalooza
+address" was dropped: the official address page returned 403.
 
 ## Preservation inventory
 
-A new page, so no preservation inventory exists.
+The page was published on 2026-09-14, one day after the supplied Search
+Console export ended. The export covers 2026-08-17 to 2026-09-13 and contains
+no observations for this URL; that means there was no observation period, not
+zero performance. Preserve:
+
+- URL and canonical: `https://thecatrave.com/lollapalooza-festival`;
+- SEO title: `Lollapalooza: Location, Dates, History and the Music`;
+- meta description: `Where Lollapalooza is in Chicago and where else it plays, when it happens and how long it lasts, how many people go, what the name means, and what plays.`;
+- H1: `Lollapalooza Festival`;
+- `datePublished`: `2026-09-14`;
+- anchors: `introduction`, `lollapalooza-2027`, `where`, `only-chicago`,
+  `when`, `how-big`, `meaning`, `history`, `stages`, `music`, `from-home`,
+  `faq`, `sources`, plus the shared component anchors;
+- the four local Commons photographs, three editorial YouTube players, two
+  thecatrave SoundCloud mixes, two Bandcamp players and the existing useful
+  internal links.
 
 ## Stage 1: web search first
 
 "what is Lollapalooza festival": Britannica (an article and a "What is
 Lollapalooza?" answer page), a ZipRecruiter Q&A, a Holafly guide, Berlin.de,
 the official site, Choose Chicago. "Lollapalooza 2027 dates announced": the
-official site shows only 2026 (30 July to 2 August, "Thank You, Chicago");
-the 2027 dates on Music Festival Wizard, outside.so and a fan site
-(lollapaloozachicago.org) are not from the festival and are not used.
+official schedule still shows 2026 (30 July to 2 August) and asks readers to
+sign up for 2027 dates. The likely 29 July to 1 August 2027 window is therefore
+labelled an editorial projection, not a festival announcement; aggregator and
+fan-site dates are not used as confirmation.
 
 ## What Wikipedia earns (the owner's export, US, latest month)
 
@@ -42,20 +60,29 @@ forms group as:
 Unlike Coachella, "what is lollapalooza" is small (800); the biggest
 informational question is where it is.
 
-## Facts from en.wikipedia (to check further before drafting)
+## Current factual evidence
 
-Four days in Grant Park, Chicago, every summer since 2005 (two days in 2005,
-three from 2006, four from 2016); about 400,000 people; capacity 115,000 a
-day. Founded in 1991 by Perry Farrell, with Ted Gardner, Don Muller and Marc
-Geiger, as a touring farewell for Jane's Addiction; first date Phoenix, 18 July
-1991; toured to 1997, revived as a tour in 2003, the 2004 tour cancelled. In
-2005 Farrell, the William Morris Agency and Capital Sports & Entertainment (now
-C3 Presents) made it a Chicago festival; Live Nation bought a controlling
-interest in C3 in 2014. The name: late-19th-century American slang for an
-extraordinary thing, also a large lollipop; the original logo's character
-holds one. Abroad: Chile from 2011, Brazil 2012, Argentina 2014, Germany
-(Berlin) 2014, then Sweden, France, Israel and India. 2020 cancelled and
-streamed; back in 2021; Hulu streamed it from 2022. Kidzapalooza since 2005.
+- The official festival site describes the Chicago edition as four days,
+  more than 170 artists and eight stages. Its schedule confirms 30 July to
+  2 August 2026 and says the 2027 dates are still to be announced.
+- Live Nation reported nearly 460,000 admissions in 2026. The current
+  Chicago Park District agreement caps attendance at 115,000 per day, runs
+  from 2023 through 2032 and has a five-year extension option.
+- Chicago Park District records identify C3 Presents as the producer. Live
+  Nation's 2014 announcement says it acquired a controlling stake in C3.
+- Phoenix New Times' oral history places the first concert at Compton Terrace
+  in Chandler, in the Phoenix metropolitan area, on 18 July 1991. The 2003
+  revival tour took place; the planned 2004 tour was cancelled before it began.
+- C3 Presents and Lolla Global currently list seven locations: Chicago,
+  Santiago, São Paulo, Buenos Aires, Berlin, Paris and Mumbai. SVT reported in
+  December 2023 that Live Nation had paused Stockholm for 2024; it did not
+  announce an indefinite hiatus.
+- Santiago returned to Parque O'Higgins in 2026. Berlin's current site is the
+  Olympiastadion and Olympiapark. Stockholm editions ran in 2019, 2022 and
+  2023.
+- Wikipedia remains a supporting chronology for the name, early agreements,
+  tickets, Kidzapalooza and criticism, not the primary source for current
+  dates, attendance, capacity, ownership or locations.
 
 ## Proposed structure, with the keywords each part carries
 
@@ -82,8 +109,9 @@ the map, the logo, misspellings. No drum and bass (`festivals-series.md`).
 
 ## Open
 
-- SERP, related terms and stage 6 after the Ahrefs reset (2026-09-20); the
-  title may change once the SERP for "lollapalooza location" is seen.
-- "lollapalooza 2027" unmeasured; official 2027 dates unannounced.
-- Stages, the music section and the listening need sources: the official site
-  and YouTube channel.
+- The supplied GSC export predates publication. Reassess the page only after a
+  meaningful observation period; do not treat its absence as zero performance.
+- "lollapalooza 2027" is unmeasured and the official 2027 Chicago dates remain
+  unannounced as of 2026-09-15.
+- Do not change the title, meta description, H1 or primary intent without new
+  page-level GSC evidence or another critical reason.

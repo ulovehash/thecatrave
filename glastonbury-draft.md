@@ -2,7 +2,7 @@
 
 ## Answer
 
-Glastonbury Festival, known as Glasto, is a five-day festival of music and the performing arts held in most summers at Worthy Farm, between the villages of Pilton and Pylle in Somerset, six miles east of the town of Glastonbury. The farmer Michael Eavis started it in 1970, and he and his daughter Emily Eavis run it through Glastonbury Festivals Ltd. The official site lists more than 4,000 performances across more than 100 stages, from the Pyramid Stage to theatre, comedy and circus fields, and around 200,000 people attend. Every few years it takes a fallow year to rest the land: there was no festival in 2026, and the next one runs from 23 to 27 June 2027.
+Glastonbury Festival, known as Glasto, is a five-day festival of music and the performing arts held in most summers at Worthy Farm, between the villages of Pilton and Pylle in Somerset, six miles east of the town of Glastonbury. The farmer Michael Eavis started it in 1970. He and Emily Eavis are directors of Glastonbury Festival Events Ltd, which stages the festival; Glastonbury Festivals Ltd manages the site and infrastructure. The official site lists more than 4,000 performances across more than 100 stages, from the Pyramid Stage to theatre, comedy and circus fields, and around 200,000 people attend. Every few years it takes a fallow year to rest the land: there was no festival in 2026, and the next one runs from 23 to 27 June 2027.
 
 ## Introduction
 
@@ -42,11 +42,11 @@ When does Glastonbury finish? On the Sunday night, when the Pyramid Stage headli
 
 ## How big Glastonbury is
 
-How many people go to Glastonbury? Around 200,000. Wikipedia gives a capacity of 210,000 in 2022 and more than 210,000 on site in 2023, when 142,000 tickets were sold. The Glastonbury capacity has grown under licence from the local council, which set the first crowd limit at 30,000 in 1983.
+How many people go to Glastonbury? Up to 210,000 people can be on site under the current licence, including ticket holders, staff and performers. That total is not the number of public tickets. The Glastonbury capacity has grown under licence from the local council, which set the first crowd limit at 30,000 in 1983.
 
 [Image: Glastonbury Festival 2025 - Night, Raph_PH. Caption: The festival at night on 26 June 2025, seen from the hillside above the site, with the lit stages and fields spread across the valley. Photograph: Raph_PH, CC BY 4.0.]
 
-How many people attend Glastonbury when the fence fails? More than the licence allows. In 1994 the Levellers played to as many as 300,000 people, and in 2000 about 100,000 gatecrashers pushed the Glastonbury attendance to an estimated 250,000, which led the council to refuse further licences until the problem was solved. The answer, from 2002, was a "superfence" around the site.
+Asking how many people attend Glastonbury becomes harder for the years before the modern fence: historical Glastonbury attendance estimates are rough. The Levellers' 1994 Pyramid set is often reported at 300,000, but that is an unverified estimate rather than a counted audience. For 2000, contemporary council reporting put total attendance at about 200,000 against a 105,000 licence, while later accounts commonly cite 250,000. The safety and licensing fallout led to the high-security perimeter introduced in 2002.
 
 How big is Glastonbury Festival on the ground? It covers some 1,500 acres of farmland, with its own water supply from two reservoirs, more than 4,000 toilets and generators providing over 27 megawatts of electricity.
 
@@ -58,11 +58,11 @@ From 1981 Eavis ran the festival himself, with the Campaign for Nuclear Disarmam
 
 Dance music arrived from the edges. In 1989 unofficial sound systems played acid house around the clock, and in 1994 Orbital's set, broadcast live on Channel 4, made dance music part of the main event; a dance tent followed in 1995 and the Dance Village in 1997.
 
-Who runs Glastonbury? Glastonbury Festivals Ltd, the company of Michael Eavis, who ran it with his wife Jean until her death in 1999 and now with his daughter Emily Eavis and her husband. From 2002 to 2012 Festival Republic managed the logistics and security; since then the festival has been independent. Most of the people working on it are volunteers, and most of its profits go to charity.
+Who runs Glastonbury? Glastonbury Festival Events Ltd stages the festival, while Glastonbury Festivals Ltd manages the site and infrastructure. Michael and Emily Eavis are directors of the events company. From 2002 to 2012 Festival Republic managed the logistics and security; since then the festival has been independent. Most of the people working on it are volunteers, and most of its profits go to charity.
 
 ## The Pyramid Stage and the rest of the site
 
-The Glastonbury Pyramid Stage is the main stage, 25 metres tall, and the one every headliner plays. The first pyramid stood on the site in 1971; the 1981 version doubled as a hay barn and cowshed through the winter, and the present Pyramid Stage dates from 2000.
+The Glastonbury Pyramid Stage is the main stage, 25 metres tall, and hosts the festival's three principal headliners. The first pyramid stood on the site in 1971; the 1981 version doubled as a hay barn and cowshed through the winter, and the present Pyramid Stage dates from 2000.
 
 [Image: The Pyramid Stage - Glastonbury 2008, Sharon Loxton. Caption: The Pyramid Stage on a clear evening in June 2008, flags and a seated crowd in the field in front of it. Photograph: Sharon Loxton, CC BY-SA 2.0.]
 
@@ -118,7 +118,7 @@ At Worthy Farm, between Pilton and Pylle in Somerset, six miles east of the town
 
 ### How many people go to Glastonbury?
 
-Around 200,000: Wikipedia gives a capacity of 210,000 in 2022 and more than 210,000 in 2023, when 142,000 tickets were sold.
+Up to 210,000 people can be on site under the current licence, including ticket holders, staff and performers. That total is not the number of public tickets.
 
 ### When does Glastonbury finish?
 
@@ -126,7 +126,11 @@ On the Sunday night, when the last Pyramid Stage headliner plays; the site empti
 
 ## Sources
 
-- Wikipedia, "Glastonbury Festival" (history, fallow years, organisation, location, attendance, stages, headliners and tickets by year, BBC coverage)
+- Somerset Council, "Glastonbury Festival licensing and event management" and the 2025 scrutiny report (licensee, current capacity and attendance controls)
+- Associated Press, "Glastonbury 2025, by the numbers" (who the on-site capacity includes)
+- Glastonbury Festival, "Anti-Slavery Statement" (the roles of Glastonbury Festival Events Ltd and Glastonbury Festivals Ltd)
+- Wikipedia, "Glastonbury Festival" (history, fallow years, location, stages, headliners and tickets by year, BBC coverage)
 - Glastonbury Festival, official site: "Info" (2027 dates, stages and performances) and "Glastonbury 2027 ticket information confirmed", 8 September 2026
+- The Guardian, "Glastonbury organisers bid for expansion" and "From Bowie to Beyoncé: Glastonbury's 50 greatest moments" (contemporary and retrospective crowd estimates)
 - Arcadia Spectacular, Wikipedia; Ingenia, "The Arcadia spider: from junk to spectacle"; Wallpaper, "The story behind Arcadia's new Dragonfly stage", 2024
 - BBC Music and R.E.M. on YouTube (view counts, 2026-09-14)

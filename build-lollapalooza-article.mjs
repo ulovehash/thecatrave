@@ -36,8 +36,9 @@ const draft = fs.readFileSync('lollapalooza-draft.md', 'utf8').replace(/—/g, '
 const canonical = 'https://thecatrave.com/lollapalooza-festival';
 const title = 'Lollapalooza: Location, Dates, History and the Music';
 const description = 'Where Lollapalooza is in Chicago and where else it plays, when it happens and how long it lasts, how many people go, what the name means, and what plays.';
-const date = '2026-09-14';
-const dateLabel = '14 September 2026';
+const datePublished = '2026-09-14';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -94,12 +95,12 @@ const media = {
     headers: ['City', 'Venue', 'First edition'],
     rows: [
       ['Chicago, United States', 'Grant Park', '2005 (a touring festival from 1991)'],
-      ['Santiago, Chile', '', '2011'],
+      ['Santiago, Chile', 'Parque O\'Higgins', '2011'],
       ['São Paulo, Brazil', 'Jockey Club, then Interlagos from 2014', '2012'],
       ['Buenos Aires, Argentina', 'Hipódromo de San Isidro', '2014'],
-      ['Berlin, Germany', 'Tempelhof, Treptower Park, Olympiapark from 2018', '2015'],
+      ['Berlin, Germany', 'Tempelhof, Treptower Park, Olympiastadion and Olympiapark from 2018', '2015'],
       ['Paris, France', 'Longchamp Racecourse', '2017'],
-      ['Stockholm, Sweden', '', '2019 (on hiatus since 2024)'],
+      ['Stockholm, Sweden', 'Gärdet', '2019 (editions in 2019, 2022 and 2023; paused for 2024)'],
       ['Mumbai, India', 'Mahalaxmi Racecourse', '2023'],
     ].map(row => row.map(escapeHtml))
   }),
@@ -179,7 +180,7 @@ const articleHtml = [
     title: 'Lollapalooza Festival',
     deck: 'Four days every summer in Grant Park, on the Chicago lakefront. When the next one is, where it happens and where else it plays, how big it is, what the name means, and what plays.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Lollapalooza', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -191,12 +192,20 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Lollapalooza FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-${sourceLink('https://en.wikipedia.org/wiki/Lollapalooza', 'Wikipedia: Lollapalooza')}
 ${sourceLink('https://www.youtube.com/@lollapalooza', 'Lollapalooza on YouTube (channel description, view counts)')}
 ${sourceLink('https://www.lollapalooza.com/', 'Lollapalooza: official site')}
+${sourceLink('https://www.lollapalooza.com/schedule', 'Lollapalooza: official schedule and 2027 announcement status')}
+${sourceLink('https://support.lollapalooza.com/hc/en-us/articles/4402035626260-What-are-the-dates-and-hours-for-Lollapalooza-2026', 'Lollapalooza: official 2026 dates and hours')}
+${sourceLink('https://itsbetterlive.livenationforbrands.com/at-lollapalooza-everyone-had-a-plan-nobody-stuck-to-it/', 'Live Nation: Lollapalooza 2026 attendance')}
+${sourceLink('https://www.prnewswire.com/news-releases/live-nation-entertainment-expands-festival-portfolio-with-c3-presents-300012666.html', 'Live Nation: controlling stake in C3 Presents')}
+${sourceLink('https://www.c3presents.com/festivals', 'C3 Presents: festivals and current Lollapalooza locations')}
+${sourceLink('https://www.chicagoparkdistrict.com/about-us/news/chicago-park-district-celebrates-strong-2024-accomplishments-and-touts-progress', 'Chicago Park District: Lollapalooza daily attendance')}
+${sourceLink('https://www.wbez.org/culture-the-arts/2022/08/01/lightfoot-announces-deal-to-keep-lollapalooza-in-grant-park-for-another-decade', 'WBEZ: current Grant Park agreement and attendance cap')}
+${sourceLink('https://www.phoenixnewtimes.com/music/first-lollapalooza-concert-1991-phoenix-30th-anniversary-oral-history-perry-farrell-11591298/', 'Phoenix New Times: oral history of the first Lollapalooza concert')}
+${sourceLink('https://www.svt.se/kultur/inget-lollapalooza-i-stockholm-nasta-ar--fkxone', 'SVT: Lollapalooza Stockholm pauses for 2024')}
 ${sourceLink('https://www.choosechicago.com/articles/festivals-special-events/lollapalooza/', 'Choose Chicago: Lollapalooza Chicago')}
 ${sourceLink('https://www.billboard.com/photos/lady-gaga-fires-up-lollapalooza-stage-dives-426763/', 'Billboard: Lady Gaga fires up Lollapalooza, stage-dives')}
-${sourceLink('https://www.musicfestivalwizard.com/festivals/lollapalooza-chicago-2027/', 'Music Festival Wizard: Lollapalooza Chicago 2027 (expected dates)')}
+${sourceLink('https://en.wikipedia.org/wiki/Lollapalooza', 'Wikipedia: Lollapalooza (supporting chronology)')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
@@ -213,7 +222,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Lollapalooza Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -221,7 +230,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/lollapalooza.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page lollapalooza-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

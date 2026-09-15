@@ -8,7 +8,8 @@ structure and asked for the page to be written and published.
 
 ## 1. Verdict
 
-Ready after revisions, applied before layout.
+Ready after revisions. The original pre-layout revisions and the approved
+2026-09-15 factual corrections are applied.
 
 ## 2. What already works
 
@@ -26,6 +27,16 @@ Ready after revisions, applied before layout.
 
 ## 3. Priority revisions (applied)
 
+- Major, 2026-09-15: replaced the Wikipedia-derived attendance wording with the
+  current licensed maximum of 210,000 people on site, explicitly distinguishing
+  that total from public tickets.
+- Major, 2026-09-15: corrected the organiser description. Glastonbury Festival
+  Events Ltd stages the festival; Glastonbury Festivals Ltd manages the site and
+  infrastructure; Michael and Emily Eavis are directors of the events company.
+- Major, 2026-09-15: qualified the disputed 1994 and 2000 crowd estimates rather
+  than presenting 300,000 and 250,000 as counted facts.
+- Major, 2026-09-15: clarified that the Pyramid Stage hosts the three principal
+  headliners, because other stages also have their own headliners.
 - Major: "the London Olympics took the police, toilets and attention" came
   from memory; now only what Wikipedia says, that the Olympics moved the
   fallow sequence.
@@ -49,15 +60,24 @@ Ready after revisions, applied before layout.
 | Arcadia spider: 50 tonnes, 15 metres, 2010; Dragonfly 2024 | fact | Ingenia; Wallpaper; Arcadia Spectacular (Wikipedia) | medium | keep |
 | Headliners by year | fact | en.wikipedia line-ups table | high | keep |
 | View counts (67M, 3.8M, 2.2M) | fact | YouTube, read 2026-09-14 | high | keep |
+| Current on-site capacity is up to 210,000, including ticket holders, staff and performers | fact | Somerset Council 2025 scrutiny report; AP 2025 | high | correct body and FAQ |
+| GFEL stages the festival; GFL manages the site and infrastructure | fact | Glastonbury Festival Anti-Slavery Statement; Somerset Council | high | correct answer and organisation section |
+| Levellers 1994 at 300,000; 2000 at 250,000 | disputed estimates | Guardian 2020 retrospective; Guardian 2001 contemporary report | medium | qualify and show the conflicting estimates |
+| Pyramid Stage is where every headliner plays | interpretation | official Other Stage history | high | specify three principal headliners |
 
 ## 5. SEO preservation
 
-A new page. Every term in `keywords/glastonbury.json` is present (audit
-passes). FAQ questions are measured UK question forms.
+The page was published on 2026-09-14, one day after the latest Search Console
+export ended, so that dataset provides no observation window for this URL. Its
+absence is not zero performance. Every term in `keywords/glastonbury.json` is
+present (audit passes). FAQ questions are measured UK question forms. Preserve
+the URL, canonical, title, meta description, H1, primary intent, original
+publication date, anchors, media and useful internal links.
 
 ## 6. Coverage gaps
 
-- The UK SERP was not inspected; the title may change after 2026-09-20.
+- No metadata change is justified without post-publication Search Console data
+  or another critical reason.
 
 ## 7. Cuts or merges
 
