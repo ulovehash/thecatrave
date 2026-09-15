@@ -5,6 +5,11 @@ Draft: `untold-draft.md`, 2026-09-14. Research and approved structure:
 Structure approved by the owner on 2026-09-14, with the keyword map and the
 2027 section. Stage 6 validation (`TOPIC-RESEARCH.md`) was not run.
 
+Critical factual refresh approved and applied 2026-09-15. The supplied GSC
+export ends 2026-09-13, one day before publication, and contains no Untold page
+or query row. It therefore provides no observation of the page and no basis
+for changing the approved intent, title, meta or H1.
+
 ## 1. Verdict
 
 Ready after revisions. The revisions below were applied to the draft before
@@ -41,18 +46,27 @@ layout; none is open.
 - Minor: Omnipass described as "a network of benefits for students", closer to
   the source than "student discounts"; the 2027 sales sentence no longer implies
   a date ("within weeks") the source does not give.
+- Critical refresh: the current organiser is Untold Live S.R.L.; SHARE is kept
+  only as 2015 launch context, and Bogdan Buta's current title is founder and
+  CEO of Untold Universe.
+- Critical refresh: UNTOLD's official retrospective replaces the conflicting
+  Wikipedia values with 340,000 for 2017 and more than 355,000 for 2018.
+- Critical refresh: the 2027 section now uses the official date, Star Edition
+  name and ticket shop, and records that no lineup was published on the
+  official site as of 2026-09-15. Sales counts and the unnamed-headliner teaser
+  were removed as volatile.
 
 ## 4. Fact-check ledger
 
 | Claim | Type | Best source | Confidence | Action |
 |---|---|---|---|---|
 | 5 to 8 August 2027, Star Edition | fact | untold.com, read 2026-09-14 | high | keep |
-| Founded by Bogdan Buta, general director | fact | Republica interview | high | keep |
-| SHARE Cluj-Napoca Federation organiser; Untold SRL | fact | en.wikipedia infobox; ro.wikipedia infobox | medium | keep |
+| Founded by Bogdan Buta; founder and CEO, Untold Universe | fact | Republica interview; current UNTOLD investment page | high | update title |
+| SHARE in 2015 launch context; Untold Live S.R.L. current organiser | fact | Republica interview; official UNTOLD 2027 terms | high | correct present-tense organiser |
 | More than 500,000 admissions in 2026, nine stages | fact | Pollstar, 10 August 2026 | high | keep |
 | Daily 120,000 / 130,000 / 135,000 / 120,000 | fact | ro.wikipedia, citing organiser reports | medium | keep, attributed to the organisers |
-| Attendance table 2015 to 2026 | fact | en.wikipedia line-up table | medium | keep; 2018 is 335,000 there, 355,000 in one aftermovie write-up |
-| Third in DJ Mag Top 100 Festivals 2024, 2025, 2026 | fact | en.wikipedia (2024, 2025); DJ Mag Germany (2026) | high | keep |
+| Attendance table 2015 to 2026 | fact | UNTOLD official retrospective (2015 to 2018); documented sources for later years | high for 2015 to 2018 | correct 2017 to 340,000 and 2018 to more than 355,000 |
+| Third in DJ Mag Top 100 Festivals 2024, 2025, 2026 | fact | en.wikipedia (2024, 2025); DJ Mag canonical result (2026) | high | keep |
 | Cluj Arena 30,355 seats, opened 2011; BTarena 10,000 | fact | en.wikipedia | high | keep |
 | Court of Auditors, 2016, illegal funding | fact | Digi24, 27 July 2016 (headline) | medium | keep, as the finding reported |
 | Armin van Buuren 2017, 5.5 hours, 125 tracks, 7.9M views | fact | arminvanbuuren.com; YouTube, 2026-09-14 | high | keep |

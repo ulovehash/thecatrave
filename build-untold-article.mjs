@@ -35,8 +35,9 @@ const draft = fs.readFileSync('untold-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/untold-festival';
 const title = 'Untold Festival: Where It Is, How Big, and the Music';
 const description = 'Untold festival in Cluj-Napoca, Romania: when Untold 2027 is, where it happens, how it reached 500,000 admissions, who runs it, and what plays.';
-const date = '2026-09-14';
-const dateLabel = '14 September 2026';
+const datePublished = '2026-09-14';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -112,16 +113,16 @@ const media = {
       articleVideoCard({youtubeId: '402OrPvfYlU', genre: 'Untold, 2021', artist: 'Steve Aoki', title: 'Untold headline set 2021'})
     ]
   }),
-  // Admissions from en.wikipedia's line-up table, which counts each day's
-  // entry. 2018 is 335,000 there; one 2018 aftermovie write-up says 355,000.
-  // Typed, not computed.
+  // Admissions are typed, not computed. UNTOLD's official retrospective gives
+  // 340,000 for 2017 and more than 355,000 for 2018; later years retain the
+  // documented sources in untold-research.md.
   'Table: attendance': articleTable({
     headers: ['Year', 'Dates', 'Admissions'],
     rows: [
       ['2015', '30 July to 2 August', '240,000'],
       ['2016', '4 to 7 August', '300,000'],
-      ['2017', '3 to 6 August', '330,000'],
-      ['2018', '2 to 5 August', '335,000'],
+      ['2017', '3 to 6 August', '340,000'],
+      ['2018', '2 to 5 August', 'more than 355,000'],
       ['2019', '1 to 4 August', '370,000'],
       ['2020', '', 'Cancelled for the pandemic'],
       ['2021', '9 to 12 September', '265,000'],
@@ -190,7 +191,7 @@ const articleHtml = [
     title: 'Untold Festival',
     deck: 'Four days every August in a football stadium and a city park in Transylvania. When the next one is, where it happens, how big it is, who runs it, and what plays past the main stage.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Untold Festival', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -208,9 +209,12 @@ ${sourceLink('https://en.wikipedia.org/wiki/Cluj_Arena', 'Wikipedia: Cluj Arena'
 ${sourceLink('https://en.wikipedia.org/wiki/BTarena', 'Wikipedia: BTarena')}
 ${sourceLink('https://web.archive.org/web/20230205200231/https://republica.ro/cum-a-devenit-romania-cool-pentru-cei-mai-mari-dj-ai-lumii-fondatorul-untold-despre-povestea-nespusa-a', 'Republica: interview with Bogdan Buta, founder of UNTOLD (Romanian, archived)')}
 ${sourceLink('https://news.pollstar.com/2026/08/10/untold-festival-romania-counts-more-than-500000-visitors-across-four-days/', 'Pollstar: Untold Festival Romania counts more than 500,000 visitors across four days')}
-${sourceLink('https://www.romania-insider.com/untold-dates-passes-star-edition-2027', 'Romania Insider: UNTOLD announces dates, sells passes for 2027 Star Edition')}
 ${sourceLink('https://untold.com/', 'UNTOLD: official site')}
-${sourceLink('https://www.djmag.de/einzelnews/dj-mag-top-100-festivals-2026-ergebnis', 'DJ Mag Germany: DJ Mag Top 100 Festivals 2026')}
+${sourceLink('https://tickets.untold.com/?_lang=en', 'UNTOLD: official ticket shop for 2027')}
+${sourceLink('https://www.untold.com/info/547d8741-5739-485b-a1a4-85fb0552f93c', 'UNTOLD: official terms for the 2027 festival')}
+${sourceLink('https://untold.com/news/c313b7e0-60c6-4968-a63e-44126e59a43c', 'UNTOLD: official festival history and attendance')}
+${sourceLink('https://invest.untold.com/', 'UNTOLD: investment page and leadership')}
+${sourceLink('https://djmag.com/top100festivals/2026/3/untold-festival', 'DJ Mag: Untold Festival, Top 100 Festivals 2026')}
 ${sourceLink('https://djmag.com/news/armin-van-buuren-shares-full-seven-hour-untold-festival-set-watch', 'DJ Mag: Armin van Buuren shares full seven-hour Untold Festival set')}
 ${sourceLink('https://www.arminvanbuuren.com/videos/armin-van-buuren-live-at-untold-festival-2017-55-hours-set/', 'Armin van Buuren: Live at Untold Festival 2017 (5,5 hours set)')}
 ${sourceLink('https://www.digi24.ro/stiri/actualitate/evenimente/curtea-de-conturi-untold-finantat-ilegal-de-autoritati-542323', 'Digi24: Curtea de Conturi: UNTOLD, finanțat ilegal de autorități (Romanian)')}
@@ -231,7 +235,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Untold Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -239,7 +243,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/untold.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page untold-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

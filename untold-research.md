@@ -9,9 +9,35 @@ section; page drafted and built the same day (`untold-draft.md`,
 not pushed. Ahrefs: 11 calls (matching ×2, organic ×4, serp ×2, overview ×3,
 two of them shared with the other festival guides' 2027 terms).
 
-## Preservation inventory
+## 2026-09-15 critical refresh and preservation inventory
 
-A new page, so no preservation inventory exists.
+The supplied Search Console export covers 2026-08-17 to 2026-09-13. It has
+no page row for `/untold-festival` and no query containing `untold`. The page
+was published on 2026-09-14, after the export ended, so the export provides no
+observation of this page and no query evidence for changing its intent or
+metadata. Historical third-party keyword-tool figures below are retained only
+as the record of the original research; they are not current evidence for this
+refresh.
+
+Preserve `/untold-festival`, its canonical, the title `Untold Festival: Where
+It Is, How Big, and the Music`, meta description, H1 `Untold Festival`,
+`datePublished` 2026-09-14, all existing IDs, structure and media. The approved
+refresh changes only the current organiser and Bogdan Buta's title, the 2017
+and 2018 attendance values, the stable 2027 wording and the source list.
+
+Current primary evidence checked 2026-09-15:
+
+- UNTOLD's 2027 terms name Untold Live S.R.L. as organiser and confirm 5 to 8
+  August 2027.
+- UNTOLD's current investment page names Bogdan Buta founder and CEO of Untold
+  Universe. SHARE Cluj-Napoca Federation remains historical launch context,
+  not the present organiser.
+- UNTOLD's official retrospective gives 340,000 for 2017 and more than 355,000
+  for 2018.
+- The official site and ticket shop describe 2027 as the Star Edition and sell
+  four-day passes; the official site had no 2027 lineup on 2026-09-15.
+- DJ Mag's canonical 2026 result places Untold third. Pollstar supports more
+  than 500,000 admissions across four days and nine stages in 2026.
 
 ## The language question, and why it differs from Parookaville
 
@@ -117,11 +143,12 @@ The one finding is the spread of the English form across ten-plus countries.
 
 ## Facts gathered so far (en.wikipedia, fetched 2026-09-14)
 
-Founded 2015, organised by the SHARE Cluj-Napoca Federation, in the year
-Cluj-Napoca was European Youth Capital. Cluj Arena (main stage), BTarena
+Founded 2015 in the year Cluj-Napoca was European Youth Capital, with the
+SHARE Cluj-Napoca Federation in the launch context. The official 2027 terms
+name Untold Live S.R.L. as the current organiser. Cluj Arena (main stage), BTarena
 (Galaxy Stage), Central Park. Close to homes and exempt from the curfew, cited.
 Best Major Festival, European Festival Awards 2015, cited. Attendance table:
-2015 240,000; 2016 300,000; 2017 330,000; 2024 427,000; 2025 470,000; 2026
+2015 240,000; 2016 300,000; 2017 340,000; 2018 more than 355,000; 2024 427,000; 2025 470,000; 2026
 500,000 (admissions over four days). Sister events: Neversea (Constanța,
 2017), Massif (Poiana Brașov, 2023), Untold Dubai (February 2024), Kapital
 (Bucharest, 2025). A 2019 study on noise, waste, traffic and cost of living,
@@ -183,7 +210,8 @@ the festival actually books.
 
 - Stage 3 related terms and stage 6 validation not run.
 - Owner approval of the structure.
-- Attendance for 2018 to 2023 and the "3rd best festival in the world" claim
-  on the official site: need a source.
+- Attendance for 2019 to 2023 still relies on the documented secondary
+  sources. UNTOLD's official retrospective now supplies 2017 and 2018, and
+  DJ Mag's canonical 2026 result supplies the current third-place claim.
 - Listening: view counts not yet read.
 - Images: Commons files for Untold, new to the site, not yet searched.

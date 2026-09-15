@@ -2,7 +2,7 @@
 
 ## Answer
 
-Untold Festival is an electronic music festival held every August in Cluj-Napoca, in Transylvania, north-western Romania. It runs for four days, Thursday to Sunday, with its main stage built inside the Cluj Arena football stadium and more stages in the Central Park beside it. Bogdan Buta started it in 2015, the year Cluj-Napoca was European Youth Capital, with the SHARE Cluj-Napoca Federation as organiser; it counted 240,000 admissions that first year and more than 500,000 in 2026. DJ Mag's readers have voted it the third best festival in the world three years running. Its bill puts the biggest EDM DJs next to pop and rock stars, with techno, trance and house on the smaller stages.
+Untold Festival is an electronic music festival held every August in Cluj-Napoca, in Transylvania, north-western Romania. It runs for four days, Thursday to Sunday, with its main stage built inside the Cluj Arena football stadium and more stages in the Central Park beside it. Bogdan Buta started it in 2015, the year Cluj-Napoca was European Youth Capital; it counted 240,000 admissions that first year and more than 500,000 in 2026. DJ Mag's readers have voted it the third best festival in the world three years running. Its bill puts the biggest EDM DJs next to pop and rock stars, with techno, trance and house on the smaller stages.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ What is Untold Festival to someone who has never been to Romania? This guide cov
 
 ## Untold 2027: dates and the Star Edition
 
-Untold 2027 is on 5 to 8 August 2027, Thursday to Sunday, in Cluj-Napoca. The festival calls it the Star Edition, its twelfth. Passes for the Untold festival 2027 went on sale on 8 August 2026, while the edition before it was still running, and by Romania Insider's count more than 40,000 had been sold since. The organisers said they had booked a first headliner, without naming them.
+Untold Festival 2027 is on 5 to 8 August 2027, Thursday to Sunday, at Cluj Arena in Cluj-Napoca. The festival calls it the Star Edition, its twelfth, and four-day passes are on sale through the official ticket shop. The official site had not published a 2027 lineup as of 15 September 2026.
 
 ## Where Untold happens
 
@@ -42,7 +42,7 @@ Is Untold the biggest festival in the world? Not by any official measure. It is 
 
 ## A short history, and who runs Untold
 
-Untold was started by Bogdan Buta, who is still its general director. He had studied at the Technical University of Cluj-Napoca, where he took a doctorate in engineering and management, and had set up Omnipass, a network of benefits for students, in 2009. He also helped Cluj-Napoca win the title of European Youth Capital for 2015, and Untold was built for that year. The SHARE Cluj-Napoca Federation is named as its organiser, with a company, Untold SRL, behind it.
+Untold was started by Bogdan Buta, now founder and CEO of Untold Universe. He had studied at the Technical University of Cluj-Napoca, where he took a doctorate in engineering and management, and had set up Omnipass, a network of benefits for students, in 2009. He also helped Cluj-Napoca win the title of European Youth Capital for 2015, and Untold was built for that year. The SHARE Cluj-Napoca Federation belonged to that launch context, but it is not the current organiser: the official terms for 2027 name Untold Live S.R.L.
 
 The first edition ran from 30 July to 2 August 2015, mainly in Cluj Arena, with Armin van Buuren, Avicii, David Guetta, Dimitri Vegas & Like Mike and ATB at the top of the bill. It counted 240,000 admissions over four days. That winter it was named Best Major Festival at the European Festival Awards, the first time, the festival says, that the prize went to a first edition.
 
@@ -118,13 +118,15 @@ They are different trips. Untold is four days in a Transylvanian city every Augu
 
 ## Sources
 
-- Wikipedia, "Untold Festival" (English: editions, dates, attendance by year, headliners, stages, awards, reception and criticism, tourism, Untold Dubai) and Romanian (organiser, daily attendance for 2025 and 2026)
+- Wikipedia, "Untold Festival" (English: editions, dates, residual attendance years, headliners, stages, awards, reception and criticism, tourism, Untold Dubai) and Romanian (daily attendance for 2025 and 2026)
 - Wikipedia, "Cluj Arena" (capacity, opening); "BTarena" (capacity, location)
 - Republica, interview with Bogdan Buta, founder of UNTOLD (founder, background, 2016 budget, European Youth Capital)
+- UNTOLD, official 2027 terms (current organiser, dates)
+- UNTOLD, official festival retrospective (2015 to 2018 attendance)
+- UNTOLD investment page (Bogdan Buta's current title)
 - Pollstar, "Untold Festival Romania Counts More Than 500,000 Visitors Across Four Days", 10 August 2026
-- Romania Insider, "UNTOLD announces dates, sells passes for 2027 Star Edition in Cluj-Napoca"
-- untold.com (2027 dates, Star Edition)
-- DJ Mag Germany, "DJ Mag Top 100 Festivals 2026", 2 July 2026
+- untold.com and the official ticket shop (2027 dates, Star Edition, passes)
+- DJ Mag, official Top 100 Festivals 2026 result
 - DJ Mag, "Armin van Buuren shares full seven-hour Untold Festival set", August 2019; arminvanbuuren.com, "Live at Untold Festival 2017 (5,5 Hours Set)"
 - Digi24, "Curtea de Conturi: UNTOLD, finanțat ilegal de autorități", 27 July 2016
 - Moisescu, Yallop, Gică and Coroș, "The UNTOLD story: Event tourism's negative impact on residents' community life and well-being", Worldwide Hospitality and Tourism Themes, 2019

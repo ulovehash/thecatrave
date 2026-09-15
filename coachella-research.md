@@ -1,15 +1,80 @@
-# Coachella: research package (in progress)
+# Coachella: research package
 
-Status: started 2026-09-14 at the owner's request ("давай про коачеллу"),
-after the more-popular-festivals measurement in `festivals-series.md`. Stages
-1 and 3 (matching terms) done. Stages 2, 3 (related terms), 4, 5 and 6 not
-done: the Ahrefs API unit limit ran out partway (2 units left; one SERP costs
-about 2,000). Ahrefs so far: 2 calls (matching ×2), plus the head volume from
-the overview in `festivals-series.md`.
+Status: created 2026-09-14 and fact-checked against current and primary
+sources on 2026-09-15. The 2026-09-15 update used the supplied Google Search
+Console export and did not use Ahrefs. Historical keyword notes below record
+the inputs used when the new page was first planned; they are not current
+performance evidence for this update.
 
-## Preservation inventory
+## Preservation inventory, 2026-09-15
 
-A new page, so no preservation inventory exists.
+- URL and canonical: `https://thecatrave.com/what-is-coachella`.
+- SEO title: `What Is Coachella? Where It Is, When, and the Music`.
+- Meta description: `What is Coachella: the festival at the Empire Polo Club
+  in Indio, California, when Coachella 2027 is, how long it lasts, how big it
+  is, who owns it, and what plays.`
+- H1: `What Is Coachella?`.
+- Original `datePublished`: `2026-09-14`.
+- IDs: `promo-bar`, `main-content`, `contents`, `introduction`,
+  `coachella-2027`, `where`, `when`, `how-big`, `history`, `own-set-1`,
+  `stages`, `famous`, `music`, `from-home`, `own-set-2`, `faq`,
+  `author-title`, `sources`, `bandcamp-support-title`, `read-next-title`.
+- Preserve the four local figures, three YouTube IDs, two SoundCloud blocks,
+  two Bandcamp embeds, internal article links and Selector link.
+
+## Google Search Console observation boundary
+
+The supplied Web export covers 17 August to 13 September 2026. `Pages.csv`
+contains 34 page rows and no `/what-is-coachella` row; `Queries.csv` contains
+885 query rows and no Coachella query. Git records the page's first addition
+on 14 September 2026, after the export ended. This is no observation, not
+evidence of zero impressions. It supplies no query or CTR reason to change the
+URL, canonical, title, meta description or H1.
+
+## Primary intent and exclusions
+
+Primary intent: an evergreen answer to “what is Coachella”, supported by
+where, when, duration, scale, history, operator, stages and music. The next
+edition's dates are a supporting freshness section.
+
+Excluded: live line-up and set-time coverage, ticket-price or sale guides,
+travel, camping and hotels, outfits and merchandise, and individual artist or
+celebrity news.
+
+## Current factual verification, 2026-09-15
+
+- Official Coachella hospitality lists 9–11 and 16–18 April 2027; the official
+  site has a 2027 waitlist but no published 2027 line-up at the time checked.
+- The official FAQ says the same line-up is the plan except at Quasar and that
+  line-ups and set times are subject to change.
+- City of Indio material lists 125,000 daily capacity and 250,000 attendance
+  across two weekends. It does not state the counting method, so the previous
+  245,000 estimate and methodology explanation were removed.
+- AEG states that Goldenvoice is owned by AEG Presents, the Haagen family owns
+  the Empire Polo Club, and Goldenvoice has year-round operational control
+  under a long-term lease. Current City of Indio material describes the
+  arrangement as continuing through 2050. This private venue arrangement is
+  distinct from the 2013 municipal festival agreement through 2030.
+- Elation Lighting's production account records Sahara's new location and
+  nearly 100-foot, 40-foot-wider structure in 2024.
+- Anyma was billed as a special additional 2026 headliner. Wind cancelled the
+  first-weekend set; the second-weekend set took place.
+- Current industry reporting describes Coachella's radius clause as applying
+  to competing Southern California appearances in a defined window, with
+  terms and exceptions varying by artist, year and contract. A universal
+  North-America-wide rule is not asserted.
+
+Primary/current sources:
+
+- <https://hospitality.coachella.com/>
+- <https://www.coachella.com/waitlist>
+- <https://www.coachella.com/faq/>
+- <https://www.indio.org/home/showpublisheddocument/1068/637874349323400000>
+- <https://www.indio.org/home/showpublisheddocument/5517/638828367145700000>
+- <https://aegworldwide.com/press-center/press-releases/goldenvoice-assume-operations-empire-polo-club-long-term-agreement>
+- <https://www.goldenvoice.com/festivals/>
+- <https://www.elationlighting.com/blogs/news/1300-elation-lights-dazzle-coachella-2024>
+- <https://ca.billboard.com/business/touring/justin-bieber-coachella-radius-claus>
 
 ## Stage 1: web search first
 
@@ -88,15 +153,9 @@ measured question terms instead.
 Excluded: line-ups, set times, tickets and prices, artist pairings, outfits,
 merch. No drum and bass (`festivals-series.md`).
 
-## Still to do when Ahrefs units are back
+## Evidence boundary
 
-- Stage 2: organic keywords (exact) on en.wikipedia.org/wiki/Coachella,
-  Britannica, EBSCO, and the articles that hold "what is coachella".
-- Stage 3: related terms, also_rank_for and also_talk_about, on "what is
-  coachella".
-- Stage 4: SERP (US) for "what is coachella", "where is coachella" and the
-  head; People Also Ask verbatim.
-- Stage 5: the US is the main market; one more country only if stage 2 shows
-  demand elsewhere.
-- Stage 6 with the owner's go; then the structure with keywords per part,
-  including coachella 2027.
+No current query evidence exists for this page because it was published after
+the supplied GSC window. Reassess wording only after the page has accumulated
+page-level and query-level GSC data; do not treat the historical planning
+metrics above as current performance evidence.

@@ -1,10 +1,9 @@
 // Build what-is-coachella.html from coachella-draft.md.
 //
-// Festivals series (festivals-series.md), the first of the more popular
-// festivals the owner asked for after Defqon.1 was parked. The structure and
-// the evidence behind it are in coachella-research.md; TOPIC-RESEARCH.md
-// stages 2, 4 and 6 were not run because the Ahrefs units ran out, and the
-// owner asked for the page to be built from what was measured.
+// Festivals series (festivals-series.md). The structure and evidence are in
+// coachella-research.md. The 2026-09-15 update used the supplied GSC export
+// only to establish that the page had no observation in its pre-publication
+// date range, plus current official and primary factual sources.
 //
 // Keywords (US, 12-month average, September 2026): what is coachella 35,000
 // (TP 16,000, its own parent topic), where is coachella 17,000, when is
@@ -36,8 +35,9 @@ const draft = fs.readFileSync('coachella-draft.md', 'utf8').replace(/—/g, ':')
 const canonical = 'https://thecatrave.com/what-is-coachella';
 const title = 'What Is Coachella? Where It Is, When, and the Music';
 const description = 'What is Coachella: the festival at the Empire Polo Club in Indio, California, when Coachella 2027 is, how long it lasts, how big it is, who owns it, and what plays.';
-const date = '2026-09-14';
-const dateLabel = '14 September 2026';
+const datePublished = '2026-09-14';
+const dateModified = '2026-09-15';
+const dateLabel = '15 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -104,8 +104,9 @@ const media = {
       articleVideoCard({youtubeId: 'fQqusBEnwM4', genre: 'Coachella, 2026', artist: 'Fatboy Slim', title: 'Coachella 2026, full set'})
     ]
   }),
-  // Attendance and gross from en.wikipedia's history section, which counts
-  // admissions across the days of each edition. Typed, not computed.
+  // Historical attendance and gross, typed rather than computed. Current
+  // capacity belongs in the prose because the City of Indio reports daily
+  // capacity and two-weekend attendance on different bases.
   'Table: attendance': articleTable({
     headers: ['Year', 'Format', 'Attendance', 'Gross'],
     rows: [
@@ -120,7 +121,6 @@ const media = {
       ['2014', 'Two weekends', '96,500 a day', '$78.3 million'],
       ['2017', 'Two weekends', '250,000', '$114.6 million'],
       ['2020 and 2021', '', 'Cancelled for the pandemic', ''],
-      ['2025', 'Two weekends', 'about 245,000 (estimate)', ''],
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -172,7 +172,7 @@ const articleHtml = [
     title: 'What Is Coachella?',
     deck: 'Two weekends every April on a polo field in the California desert. When the next one is, where it happens, how big it is, who owns it, and what plays in the Sahara tent.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Coachella', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -184,11 +184,16 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Coachella FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-${sourceLink('https://en.wikipedia.org/wiki/Coachella', 'Wikipedia: Coachella')}
-${sourceLink('https://en.wikipedia.org/wiki/Empire_Polo_Club', 'Wikipedia: Empire Polo Club')}
-${sourceLink('https://www.youtube.com/@Coachella', 'Coachella on YouTube (2027 dates, view counts)')}
-${sourceLink('https://djmag.com/news/coachella-announces-2027-dates', 'DJ Mag: Coachella announces 2027 dates')}
-${sourceLink('https://news.pollstar.com/2026/04/20/coachella-unveils-2027-dates-ticket-info/', 'Pollstar: Coachella unveils 2027 dates and ticket info')}
+${sourceLink('https://hospitality.coachella.com/', 'Coachella: 2027 dates and enhanced experiences')}
+${sourceLink('https://www.coachella.com/waitlist', 'Coachella: 2027 waitlist')}
+${sourceLink('https://www.coachella.com/faq/', 'Coachella: official Support & FAQ')}
+${sourceLink('https://www.indio.org/home/showpublisheddocument/1068/637874349323400000', 'City of Indio: annual events attendance')}
+${sourceLink('https://www.indio.org/home/showpublisheddocument/5517/638828367145700000', 'City of Indio: economic-development brochure')}
+${sourceLink('https://aegworldwide.com/press-center/press-releases/goldenvoice-assume-operations-empire-polo-club-long-term-agreement', 'AEG Worldwide: Goldenvoice and Empire Polo Club agreement')}
+${sourceLink('https://www.goldenvoice.com/festivals/', 'Goldenvoice: festivals')}
+${sourceLink('https://www.elationlighting.com/blogs/news/1300-elation-lights-dazzle-coachella-2024', 'Elation Lighting: Sahara at Coachella 2024')}
+${sourceLink('https://ca.billboard.com/business/touring/justin-bieber-coachella-radius-claus', 'Billboard Canada: Coachella radius clause')}
+${sourceLink('https://www.youtube.com/@Coachella', 'Coachella on YouTube (performances and view counts)')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
@@ -205,7 +210,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'What Is Coachella?', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -213,7 +218,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/coachella.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page coachella-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

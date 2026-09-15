@@ -2,7 +2,7 @@
 
 ## Answer
 
-Coachella, in full the Coachella Valley Music and Arts Festival, is a music and arts festival held every April at the Empire Polo Club in Indio, California, in the desert about 125 miles east of Los Angeles. It runs over two consecutive weekends, Friday to Sunday, with the same line-up both times. Goldenvoice, a promoter owned by AEG, puts it on; Paul Tollett and Rick Van Santen founded it in 1999. The city allows up to 125,000 people a day, and the 2025 edition drew an estimated 245,000 across its two weekends. Its bill mixes rock, pop, hip-hop, Latin and electronic music, and the Sahara tent is given to the biggest electronic acts.
+Coachella, in full the Coachella Valley Music and Arts Festival, is a music and arts festival held every April at the Empire Polo Club in Indio, California, in the desert about 125 miles east of Los Angeles. It runs over two consecutive weekends, Friday to Sunday. The plan is the same line-up both times except at Quasar, though the line-up and set times can change. Goldenvoice, a promoter owned by AEG Presents, produces it; Paul Tollett and Rick Van Santen founded it in 1999. The city lists capacity at up to 125,000 people a day and attendance at 250,000 across the two weekends. Its bill mixes rock, pop, hip-hop, Latin and electronic music, and the Sahara tent is given to the biggest electronic acts.
 
 ## Introduction
 
@@ -12,13 +12,13 @@ What is Coachella festival to someone who has never been? This guide covers when
 
 ## Coachella 2027: dates
 
-Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026, and advance passes went on sale on 1 May 2026. The line-up had not been announced by mid-September 2026; Coachella usually releases its poster close to New Year's Day.
+Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026, and advance passes went on sale on 1 May 2026. As of 15 September 2026, the official site had opened its 2027 waitlist but had not announced the line-up.
 
 ## Where Coachella is
 
 Where is Coachella? At the Empire Polo Club, 81-800 Avenue 51 in Indio, California, in the Coachella Valley of Riverside County, within the Colorado Desert. The Coachella location is about 125 miles east of Los Angeles and around half an hour's drive from Palm Springs, and the festival takes its name from the valley.
 
-The polo club covers about 1,000 acres and has twelve polo fields. The festival itself uses 78 acres of it, and with parking and camping the event covers some 642 acres. Goldenvoice has leased the grounds every year since 1993; in 2013 it bought 280 acres around the club, including the neighbouring Eldorado Polo Club, and in 2021 it signed a 28-year lease giving it full control of the site. The polo fields closed that November.
+The polo club covers about 1,000 acres and has twelve polo fields. The festival itself uses 78 acres of it, and with parking and camping the event covers some 642 acres. The Haagen family owns the Empire Polo Club. Goldenvoice has used the grounds since its 1993 Pearl Jam concert, bought 280 acres around the club in 2013, including the neighbouring Eldorado Polo Club, and signed a long-term lease in 2021 that gave it year-round operational control. Current City of Indio material describes that private arrangement as running through 2050. The polo fields closed that November.
 
 [Image: Coachella18W1-18, Raph_PH. Caption: The festival grounds in April 2018: palm trees, desert mountains, a coloured tower and the Ferris wheel. Photograph: Raph_PH, CC BY 2.0.]
 
@@ -26,13 +26,13 @@ Where does Coachella take place when it is not Coachella? The same field hosts S
 
 ## When Coachella is, and how long it lasts
 
-When is Coachella? In April, over two consecutive weekends. How long is Coachella? Three days each weekend, Friday to Sunday, with an identical line-up, so how many days is Coachella comes out as six festival days over nine calendar days. The two-weekend format began in 2012, when Goldenvoice chose a second, separately ticketed weekend over squeezing more people into the first; before that it was one weekend, of one, two and, from 2007, three days.
+When is Coachella? In April, over two consecutive weekends. How long is Coachella? Three days each weekend, Friday to Sunday, so how many days is Coachella comes out as six festival days over nine calendar days. The organiser plans the same line-up for both weekends except at Quasar, but line-ups and set times are subject to change. The two-weekend format began in 2012, when Goldenvoice chose a second, separately ticketed weekend over squeezing more people into the first; before that it was one weekend, of one, two and, from 2007, three days.
 
 The first Coachella, in 1999, was held in October, and the move to spring in 2001 was made to beat the desert heat. Music stops at 1 a.m. on Fridays and Saturdays and at midnight on Sundays. Under a 2013 agreement with Indio, Goldenvoice pays $20,000 if a set overruns the curfew by five minutes and $1,000 for every minute after that.
 
 ## How big Coachella is
 
-How many people attend Coachella? The city of Indio caps the festival at 125,000 people a day, a limit it raised from 99,000 in 2016, and the 2025 edition drew an estimated 245,000 over its two weekends. Those are admissions: someone with a weekend pass is counted once for that weekend.
+How many people attend Coachella? Current City of Indio material lists capacity at 125,000 people a day and attendance at 250,000 across the two weekends. The two figures use different time frames; the city document does not explain its counting method.
 
 [Table: attendance]
 
@@ -46,17 +46,17 @@ The site came first. On 5 November 1993 Pearl Jam, then boycotting venues tied t
 
 When did Coachella start? On 9 and 10 October 1999, with Beck, Tool and Rage Against the Machine at the top of the bill and the Chemical Brothers and Underworld on it. About 17,000 tickets were sold for the first day and 20,000 for the second, well short of the 70,000 the promoters hoped for, and Goldenvoice lost $850,000. There was no Coachella in 2000.
 
-It came back as a single day in April 2001, headlined by Jane's Addiction. That March, Tollett had sold Goldenvoice to AEG, Philip Anschutz's Anschutz Entertainment Group, for $7 million. Camping arrived in 2003. Rick Van Santen died that December, aged 41, and in 2004 AEG took a controlling interest in the festival itself. The 2004 edition, with Radiohead and the Cure, was Coachella's first sellout, with 110,000 people over two days; Tollett credits Radiohead with changing how artists saw it.
+It came back as a single day in April 2001, headlined by Jane's Addiction. That March, Tollett sold Goldenvoice to AEG, Philip Anschutz's Anschutz Entertainment Group, for $7 million. Camping arrived in 2003. Rick Van Santen died that December, aged 41. The 2004 edition, with Radiohead and the Cure, was Coachella's first sellout, with 110,000 people over two days; Tollett credits Radiohead with changing how artists saw it.
 
 [Image: Coachella 2006, Barry Mulling. Caption: A set under one of the tents at Coachella in April 2006, the year of Daft Punk's pyramid and Madonna's set in the dance tent. Photograph: Barry Mulling, CC BY-SA 2.0.]
 
-The festival became three days in 2007, two weekends in 2012, and in 2013 Goldenvoice agreed with Indio to keep Coachella and Stagecoach in the city through 2030. The pandemic cancelled 2020 and 2021, and Coachella returned in April 2022.
+The festival became three days in 2007 and two weekends in 2012. A 2013 agreement with the City of Indio covered the festivals through 2030. That municipal agreement is separate from Goldenvoice's later private lease with the Haagen family, which gave the promoter year-round operational control of the Empire Polo Club; current city material describes the venue arrangement as running through 2050. The pandemic cancelled 2020 and 2021, and Coachella returned in April 2022.
 
-Who owns Coachella? Goldenvoice, which has belonged to AEG since 2001, and Tollett still books its line-up. The ownership has been a controversy of its own: in 2017 reports that Anschutz had given money to anti-LGBTQ and climate-denial causes led to calls for a boycott, which Anschutz called fake news, saying he would stop funding any such group he learned of.
+Who owns Coachella? Goldenvoice produces and promotes the festival and is owned by AEG Presents. Paul Tollett remains Goldenvoice's president and chief executive. That is separate from the land: the Haagen family owns the Empire Polo Club, while Goldenvoice operates it under a long-term lease. The ownership has been a controversy of its own: in 2017 reports that Anschutz had given money to anti-LGBTQ and climate-denial causes led to calls for a boycott, which Anschutz called fake news, saying he would stop funding any such group he learned of.
 
 ## The Coachella stages
 
-The Coachella stages have kept their names since the early years. The Coachella Stage is the main outdoor stage, where the headliners play. Beside it is the Outdoor Theatre, a smaller open-air stage. The tents are named after deserts: Mojave and Gobi, two mid-size tents with acts from every genre, and the Sahara, a hangar-sized tent for the top electronic acts, enlarged to 80 feet high in 2013 and rebuilt a quarter bigger near the entrance in 2018.
+The Coachella stages have kept their names since the early years. The Coachella Stage is the main outdoor stage, where the headliners play. Beside it is the Outdoor Theatre, a smaller open-air stage. The tents are named after deserts: Mojave and Gobi, two mid-size tents with acts from every genre, and the Sahara, a hangar-sized tent for the top electronic acts. Sahara was enlarged to 80 feet high in 2013, rebuilt a quarter bigger near the entrance in 2018, then moved again in 2024 into a new steel structure nearly 100 feet tall and 40 feet wider than its predecessor.
 
 [Image: Coachella 2014 Weekend 2 Day 1 - Outdoor Theatre, Shawn Ahmed. Caption: The Outdoor Theatre at dusk on the second weekend of 2014. Photograph: Shawn Ahmed, CC BY 2.0.]
 
@@ -64,7 +64,7 @@ Smaller rooms have come and gone around them. Yuma, a small indoor tent opened i
 
 ## Why Coachella is famous
 
-The first reason is the poster. Goldenvoice releases the line-up as close to New Year's Day as it can, so Coachella is the first big festival of the year to announce, and the size of each name on the poster is argued over by agents because it sets future fees. A radius clause stops its acts from playing other North American festivals between mid-December and May.
+The first reason is the poster. Its billing order is argued over by agents because the size of each name can affect future fees. Coachella's contracts are also known for a radius clause. Current industry reporting describes restrictions on competing appearances in and around Southern California between mid-December and early May, while stressing that the dates, distance and exceptions vary by artist, year and contract.
 
 The second is the moments. Daft Punk's 2006 show on a pyramid-shaped stage is cited as one of the most memorable in the festival's history. In 2012 a projection of Tupac Shakur performed with Dr. Dre and Snoop Dogg. In 2018 Beyoncé became the first Black woman to headline, with a show built around the marching bands of historically Black colleges that critics called historic.
 
@@ -72,7 +72,7 @@ The third is the record. Coachella won Billboard's Top Festival award four years
 
 ## What the music actually is
 
-Coachella is not a dance festival, but it has always had one inside it. The Chemical Brothers and Underworld were on the first bill in 1999, Daft Punk's pyramid is its most remembered show, and electronic acts have headlined the main stage: Calvin Harris in 2016, Swedish House Mafia in 2022, and Anyma in 2026. In 2023 the festival closed with Skrillex, Four Tet and Fred Again, added the day before its second weekend.
+Coachella is not a dance festival, but it has always had one inside it. The Chemical Brothers and Underworld were on the first bill in 1999, Daft Punk's pyramid is its most remembered show, and electronic acts have reached the top of the main-stage bill: Calvin Harris in 2016 and Swedish House Mafia in 2022. Anyma was billed as a special additional headliner in 2026. Wind cancelled his first-weekend set, but he performed on the second weekend. In 2023 the festival closed with Skrillex, Four Tet and Fred Again, added the day before its second weekend.
 
 [Image: Coachella 2014 Week 2 Day 2 - Sahara Tent, Shawn Ahmed. Caption: The Sahara tent at night on the second weekend of 2014, the stage built for Coachella's electronic headliners. Photograph: Shawn Ahmed, CC BY 2.0.]
 
@@ -88,7 +88,7 @@ Coachella streams live on YouTube, several stages at once, and its channel keeps
 
 [Embed: FISHER 2019 and Fatboy Slim 2026, oUbpmjOgmmU]
 
-Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival), whose Miami weekend is one of the few festivals Coachella's radius clause lets its acts announce early, and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 
@@ -98,7 +98,7 @@ On Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Emp
 
 ### How long is Coachella?
 
-Two weekends of three days, Friday to Sunday, with the same line-up each weekend: six festival days over nine calendar days in April.
+Two weekends of three days, Friday to Sunday: six festival days over nine calendar days in April. The organiser plans the same line-up for both weekends except at Quasar, but line-ups and set times can change.
 
 ### Where is Coachella held?
 
@@ -106,11 +106,11 @@ At the Empire Polo Club, 81-800 Avenue 51, Indio, California, in the Coachella V
 
 ### How many people go to Coachella?
 
-Up to 125,000 a day, the cap the city of Indio set in 2016. The 2025 edition drew an estimated 245,000 over its two weekends.
+Current City of Indio material lists capacity at up to 125,000 a day and attendance at 250,000 across the two weekends. It does not explain the counting method.
 
 ### Who owns Coachella?
 
-Goldenvoice, the promoter that founded it, which has been part of AEG, Philip Anschutz's Anschutz Entertainment Group, since 2001. AEG took a controlling interest in the festival in 2004, and Paul Tollett still books it.
+Goldenvoice produces and promotes Coachella and is owned by AEG Presents. The Haagen family owns the Empire Polo Club; Goldenvoice operates the site under a long-term lease.
 
 ### When did Coachella start?
 
@@ -118,6 +118,10 @@ On 9 and 10 October 1999, at the Empire Polo Club, with Beck, Tool and Rage Agai
 
 ## Sources
 
-- Wikipedia, "Coachella" (history, attendance and gross by year, location and stages, organisation and curfew, talent booking and the radius clause, impact, criticism) and "Empire Polo Club" (address, size, lease, other events)
-- Coachella YouTube channel (2027 dates in the channel description; view counts, 2026-09-14)
-- DJ Mag, "Coachella announces 2027 dates"; Pollstar, "Coachella unveils 2027 dates and ticket info", 20 April 2026
+- Coachella, official 2027 enhanced experiences, waitlist and Support & FAQ pages (2027 dates and status; the two-weekend line-up plan, Quasar exception and change caveat)
+- City of Indio, annual events attendance sheet (125,000 daily capacity; 250,000 across two weekends) and current economic-development brochure (Empire Polo Club arrangement through 2050)
+- AEG Worldwide, "Goldenvoice to Assume Operations of Empire Polo Club in Long-Term Agreement" (Goldenvoice ownership, Haagen family site ownership and year-round operational control)
+- Goldenvoice, festivals directory (Coachella producer and 78-acre festival footprint)
+- Elation Lighting, "1300+ Elation Lights Dazzle Coachella 2024" (Sahara's 2024 location and structure)
+- Billboard Canada, "How Did Justin Bieber Play a Concert in L.A. Before Coachella (And What Is a Radius Clause)?" (current reported scope and variability of the clause)
+- Coachella and artist YouTube channels (performance records and view counts, checked 2026-09-14)

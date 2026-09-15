@@ -1,27 +1,47 @@
 # What Is Coachella: editorial review
 
-Draft: `coachella-draft.md`, 2026-09-14. Research and structure:
+Draft: `coachella-draft.md`, updated 2026-09-15. Research and structure:
 `coachella-research.md`; keywords `keywords/coachella.json`; media
-`media/coachella.json`. The owner asked for the structure to be built from the
-measured data and his export and the page written; `TOPIC-RESEARCH.md` stages
-2, 4 and 6 were not run (Ahrefs units exhausted).
+`media/coachella.json`. The 2026-09-15 fact-check used the supplied GSC export
+and current official or primary sources. Ahrefs was not used for this update.
 
 ## 1. Verdict
 
-Ready after revisions. The revisions below were applied before layout.
+Ready. The approved critical revisions were applied and rebuilt on
+2026-09-15.
 
 ## 2. What already works
 
 - The answer block says what, where, when, how big, who runs it and what plays
   in one paragraph; the next edition's dates come first.
-- Attendance is given as the city's daily cap and the two-weekend estimate,
-  with a table from the festival's history, rather than a single headline.
+- Attendance distinguishes the city's daily capacity from its two-weekend
+  attendance figure without inventing a counting method.
 - The history answers "when did Coachella start" and "who owns Coachella" in
   plain sentences, and keeps the Anschutz controversy in.
 - The music section is about what Coachella books, electronic and otherwise,
   with no drum and bass added (`festivals-series.md`).
 
-## 3. Priority revisions (applied)
+## 3. Priority revisions applied on 2026-09-15
+
+- Kept the official 2027 dates and recorded the official waitlist/no-line-up
+  status as checked on 15 September 2026; removed the obsolete New Year's Day
+  announcement prediction.
+- Qualified the repeated-weekend promise with the official Quasar exception
+  and change caveat in the answer, body and FAQ.
+- Replaced the unverified 245,000 estimate and unsupported counting method
+  with City of Indio's 125,000 daily capacity and 250,000 two-weekend figure.
+- Distinguished Goldenvoice as producer/promoter owned by AEG Presents, the
+  Haagen family as site owner, and Goldenvoice as long-term site operator.
+  Removed the unsupported 2004 controlling-interest claim and separated the
+  2013 city agreement from the later private lease and through-2050 context.
+- Updated Sahara through its 2024 relocation and rebuilt structure.
+- Described Anyma accurately as a special additional 2026 headliner whose
+  first-weekend set was cancelled by wind and whose second-weekend set ran.
+- Replaced the universal North-America radius-clause claim with current,
+  qualified Southern California wording and contract variability.
+- Replaced the weak Sources list with official, primary and current records.
+
+Earlier launch revisions retained:
 
 - Major: a caption named the "San Jacinto foothills" from memory; now "desert
   mountains".
@@ -40,10 +60,14 @@ Ready after revisions. The revisions below were applied before layout.
 
 | Claim | Type | Best source | Confidence | Action |
 |---|---|---|---|---|
-| 9 to 11 and 16 to 18 April 2027 | fact | Coachella YouTube channel description; DJ Mag; Pollstar | high | keep |
-| Advance passes on sale 1 May 2026 | fact | search summaries of the 2027 announcement | medium | keep, flagged |
-| 125,000 a day cap, raised from 99,000 in 2016 | fact | en.wikipedia (Indio council) | high | keep |
-| 245,000 in 2025 (estimate) | fact | en.wikipedia infobox | medium | keep, marked estimate |
+| 9 to 11 and 16 to 18 April 2027; waitlist open | fact | official Coachella hospitality and waitlist | high | keep |
+| Same line-up plan, except Quasar; subject to change | fact | official Coachella FAQ | high | qualify throughout |
+| 125,000 daily capacity; 250,000 across two weekends | fact | City of Indio annual events sheet | high | keep without inferred methodology |
+| Goldenvoice/AEG, Haagen ownership and operational control | fact | AEG long-term agreement | high | distinguish entities |
+| Venue arrangement through 2050 | fact | current City of Indio economic brochure | high | distinguish from 2013 city agreement |
+| Sahara's 2024 move and rebuild | fact | Elation Lighting production account | high | update stage history |
+| Radius-clause scope varies | fact | Billboard Canada, current agent reporting | medium-high | qualify, do not universalise |
+| Anyma special billing, W1 cancellation and W2 performance | fact | official festival billing and contemporary coverage | high | correct wording |
 | $850,000 loss in 1999; $7 million AEG deal in 2001 | fact | en.wikipedia, citing the promoters | high | keep |
 | $114.6 million gross in 2017, first recurring festival over $100 million | fact | en.wikipedia | high | keep |
 | Curfew and fines | fact | en.wikipedia (2013 agreement) | high | keep |
@@ -52,15 +76,14 @@ Ready after revisions. The revisions below were applied before layout.
 
 ## 5. SEO preservation
 
-A new page. Every term in `keywords/coachella.json` is present (audit passes).
-FAQ questions are measured question terms; People Also Ask could not be read
-(Google returned a CAPTCHA).
+Preserve URL, canonical, title, meta description, H1, original publication
+date, IDs, media and internal links. The supplied GSC window ended one day
+before the page was published and contains no page or query row for Coachella,
+so there is no performance evidence for a metadata change.
 
 ## 6. Coverage gaps
 
-- The SERP for "what is coachella" was not inspected: which three pages rank
-  above the official site is unknown until the Ahrefs units reset on
-  2026-09-20.
+- No post-publication GSC observation is available yet.
 - Stagecoach and Desert Trip are mentioned only as uses of the same field.
 
 ## 7. Cuts or merges
@@ -78,14 +101,14 @@ player.
 
 ## 9. Unresolved questions
 
-- Stages 2, 4 and 6 after 2026-09-20, and whether the title should change once
-  the SERP is seen.
+- Reassess title and query coverage only after post-publication page/query GSC
+  data exists.
 - The Coachella 2027 section moves to 2028 after 18 April 2027;
   `audit-festival-editions.mjs` will say so on every build.
 
 ## 10. Final acceptance checklist
 
-- Facts: pass, with one medium item flagged.
+- Facts: pass, with the reported radius-clause variability clearly qualified.
 - Editorial quality: pass.
 - SEO: pass (keyword and SEO audits).
 - Media: pass (media and canon audits).
