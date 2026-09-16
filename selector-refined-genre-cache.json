@@ -1,0 +1,4269 @@
+{
+  "SQafz5PSEjA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5tGN88sTEcI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "BIozJskSHOI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "7bTlKxH3CgI": {
+    "genres": [
+      "ambient"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "ambient",
+        "sources": [
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ykreaqn3Zmo": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ItH7hUKRtBk": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "uOwoWvUlzYs": {
+    "genres": [
+      "cumbia"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "cumbia",
+        "sources": [
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "OgxCpS-_hl4": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "svo3Bf-7Qlg": {
+    "genres": [
+      "dancehall"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dancehall",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "OiaCnFtYjDQ": {
+    "genres": [
+      "dub"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dub",
+        "sources": [
+          "youtube",
+          "official-bandcamp"
+        ]
+      }
+    ]
+  },
+  "7neyZZ_7THo": {
+    "genres": [
+      "dub",
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dub",
+        "sources": [
+          "youtube",
+          "openMetadata",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "openMetadata"
+        ]
+      }
+    ]
+  },
+  "0xEfg2rVuX4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "iQ4LYerP36o": {
+    "genres": [
+      "house",
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "21vlwWFUb8o": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "b5wfC-_FeE4": {
+    "genres": [
+      "house",
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "BhYwzsA4Vfo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Olm-MtmwrwE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "cQ1x8eV6SdQ": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "EaHOeQrvZiU": {
+    "genres": [
+      "ambient",
+      "downtempo"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "ambient",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "downtempo",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "hrRyw4O7a60": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "JobiT2oC8vY": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Osii79VzO_A": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "0-RRZzIBZ3A": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZZFcbNzQBE0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zaEzpCV0IlM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "V3A1wj9GGEw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "_vjQF5gE1Kw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "UyX3yvLnelg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "_iTZTd68ufQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "P8FejhbCQgE": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Ue2TvOHBX8I": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "9ny_WKmVSf8": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "9paU8XIApT0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "9PU_mO9tN60": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "55Iax7SDPyM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LCIzqMjeXl0": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Y1C_C63kp_8": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "2QX6xIusjzk": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FDk1UadkZto": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "lRP5cmvLxLc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "BhqR1wqtz7U": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "8x9ypsCKmXU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "XWw6U3qBKrk": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZcReAYDlhiM": {
+    "genres": [
+      "hardcore"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "hardcore",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "a10RjXnw8kU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "bzZK0PdFziI": {
+    "genres": [
+      "electro",
+      "disco",
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "disco",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "cT5Chj3N2Hs": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "beO5-OytdYo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "tLKLaovLfbE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "bdFRyvVUi0k": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "o929TwAqWTE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "SGmZRzAc_xY": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "u3YdTgyxahM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "YVqaGzUpvc0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "TiKNw3EoWmU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZTVeQEuutgI": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "crt5oDAQt7w": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "OvcYjzF98MY": {
+    "genres": [
+      "house",
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vYbj1m_YvUM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Br_UVkMIDWU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5YW0uD9lGuI": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "amlzJPqMJPM": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "rKFB8EDQesQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "q29j2rfO5EY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "trQEe_eqHo4": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "RriwodKbVBk": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "PYrdFb5bTa8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ibfZxp0pdXw": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Rr65OLsjz8U": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "CRZWXqo1ZCg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pbPiIcFBoCQ": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LkSMeShh4OA": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "UBhCpbDeufg": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Fd93y8DsUMQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "YnLMAd5AdXQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "e0HdADnHYls": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FjfOecUD5e4": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zdDxw2JShaY": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GAddH4Y0x8I": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Oz1UQ2N1CHs": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GssBmogkq5A": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Werfu7Ti-Kw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "7zp2l10WfxU": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "AylsE1ymiCw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "S5KbCvM8Bs4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pSE-H-cm5cQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata"
+        ]
+      }
+    ]
+  },
+  "oWjXhrUJpfg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "aP92gD2bPm0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "73MSWM69b4Y": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "thWSSFboMPU": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pPGiNi3kJm4": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "TXusVl3yw6U": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "HvKSsMNvZEo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "fwMIFW1qaAU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pzyp4M2xnlQ": {
+    "genres": [
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "BwPutifkAhE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "hGHvbF5SkxA": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "kmGzkqAfDhI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "kTYoB-H8l_s": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pemDMKk4NEM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "82vFj4LV5to": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GgEGRGH36Ds": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NKQcImaw7uw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "m1cfP-Hd-VY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "PCsyd5w3ffo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FVQGr3MLhF0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "k9SOoYDsPGs": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Rk6OnuJDpa8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "JhyKL7LklXw": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "fhOiumbIf_c": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "3oULoPSP5Ys": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "DbhFWERm6fg": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Z99FOVSbW2M": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GceBG1siPG8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "WK40IYmeUso": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "1Yd7UXtjeHo": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zKoj9Dq3T88": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "sjKYKxy85cw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "qDpD5iuGp0k": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "tXlMm0xlAt0": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "JRx-g-qjO5Q": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "3-59j9WE8dU": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NFmuWxLYx78": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "oAhHQ7Ap2Og": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Qeqoi9wYhrk": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "6yDRi_YBY7U": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GuhJtfpKna0": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "eTgVrAGshKo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LoVIpwdMPEw": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZIIXKDa-VuE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "WIhiZSFzBhQ": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "pWj4oVJ1yrI": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "emG8pRR4LjM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "dVUBevcRjZY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "MdpqdXcE2Y0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "IQ4qhq4vWZ8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "OWjxyBzDRsQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "TMSY7YG38d0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "hv_IeUslnfA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "WqxkGqLug_A": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "openMetadata"
+        ]
+      }
+    ]
+  },
+  "srMywWK_ess": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "qQ_OvIw3eEw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "VGogvp56LjE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "hd29x-Lw_k8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "rnId8xuZKWY": {
+    "genres": [
+      "house",
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "_2MtBYZ2qEg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "dZ5VzolLqoM": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Lj7TlmqEK6s": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "7zrdYmhSMzY": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "2Wm89oWSefQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "DMmU9zeWv5c": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ILwhI3qyl8I": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "I_OEPJad6qE": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "YSMHCGxjMGo": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LGxDHZQqOVI": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "GL12n2XqdAg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LjugfGsM06M": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NKJSjXLwCPA": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ViC6X8I_E2Q": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NtiYd-qRhVo": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Aca3M8jvJ3o": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "AmKk-Ua7d3I": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "1-txxHJhGTM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "nwYpwKOimXQ": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zR8kPmgwql8": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "V5YI_a0SycI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "O-fQUksx5CE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Zhg2yBfiSZ4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "37ZJh-fDAxQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "w3BrcZECR6A": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "MaH4oCx1CnM": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "RQ8TMLEwiQc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "IWChDEpzLxo": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "4DcFFAeMZTQ": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "D9AjyZd3HCM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5oUL3cC_aRU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "yIZEbNm--9g": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ExPKjca7Kh8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "VSD63QZtRbM": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "-UEWxE1EdJw": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "qsWeuqYDboM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "eF15SG5ZHnM": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "IylYzdtYs6c": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "E-aDfGdzH2E": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZlHcNf6DVuY": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vvV1QsOaBfc": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "0Cg5VzC6eaM": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "LtXi8nm8V8I": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "4E_7-UMfY8I": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "A4mNxgmImPI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "SI2x_xAI4KQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "QZTXByqutwI": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "i8yc8JMnqlg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "MpB9V7OYOpg": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "MglUM5oAoBA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "i_DiRky5o_c": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NTbKOmBQ2TQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "TfFr4huqVrc": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "JFgufi0L3Kw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NSOFZb37f4U": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "C6tAjwYP88A": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Lw7HvvFV_bA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "u3KieyEA_uk": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "CESdnHhDTQk": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "kydr9p3GZsk": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "J7fpJu0HYjc": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "KMKbQ6y88sE": {
+    "genres": [
+      "uk garage"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "uk garage",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "EBmteEJkeEM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5CrwuVY4GOg": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "XkvTz-0dS5Y": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "S50dq9SYuIY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vbl9KrZxOF8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "gk7iMtJaZj4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "cnaDHy_PZWk": {
+    "genres": [
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "3CV90QFJQI4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5XZNpuzaEbs": {
+    "genres": [
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "sDF38duqkuY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "W7ijJKN5jaM": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FV5WeLUOz8c": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "yheWsaf1k8Y": {
+    "genres": [
+      "disco"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "disco",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "JeLbP26qXL4": {
+    "genres": [
+      "disco"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "disco",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "HtWGKwmGRCs": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5kIi3SoHqWw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zNizV1g6idM": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Pj1ji9fLZD8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "r613-SmfcyY": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "6DopTBf_qTY": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "V0Q05GhLRdc": {
+    "genres": [
+      "dubstep",
+      "ambient"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dubstep",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "ambient",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "j89Ckfsm_zc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "oZfM8FKbbJk": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "u8TzFiAl7GQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "mISEno6X2ak": {
+    "genres": [
+      "dubstep",
+      "ambient"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dubstep",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "ambient",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vKxAD2_JuG8": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Cp1hg9R8ul0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ug5SkUh2xN0": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ZgzyF-WemYw": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "9sv28VCgc9U": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "yYIbpkdlM6U": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5Px1vxWcVEQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FDlwPBP8OVU": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vrqVrdMokNs": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "TP98Z8XV3K8": {
+    "genres": [
+      "electro",
+      "disco",
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "disco",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vsy-WtFsM0U": {
+    "genres": [
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "mitqU8Mc20c": {
+    "genres": [
+      "house",
+      "downtempo"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "downtempo",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "VWWzllmBsDA": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "WidscFgCsXw": {
+    "genres": [
+      "dubstep",
+      "ambient"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dubstep",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "ambient",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "1zzioJ2XFis": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "Vpt2hmLmsRs": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "KTEwYU9o3vQ": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "gXm_8lDHoGk": {
+    "genres": [
+      "dubstep"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dubstep",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "8X5lrpeLTn8": {
+    "genres": [
+      "hardcore"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "hardcore",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "NmxntDoOIfw": {
+    "genres": [
+      "minimal"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "minimal",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "llYxUVAdCJc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "RF771qSf4Jc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "FC17mV3hqAw": {
+    "genres": [
+      "minimal",
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "minimal",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "5aSggY8MMEU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "obXT1jZcxVg": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "oCyXWSS4N0M": {
+    "genres": [
+      "minimal"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "minimal",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ybo1Zmk6QP4": {
+    "genres": [
+      "dubstep",
+      "ambient"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "dubstep",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "ambient",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "PLcQdND6MrE": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "DEl99zg6SIE": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "vz--83xUQ84": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "ulb1wG5Yq0A": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "mvpI4etQEdM": {
+    "genres": [
+      "minimal"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "minimal",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "W5wWHbBmr6A": {
+    "genres": [
+      "minimal",
+      "hip-hop"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "minimal",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "hip-hop",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "6KDdpeOA8rA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "dMr87SjKJ1w": {
+    "genres": [
+      "uk garage"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "uk garage",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "9eAcL-Sy0zI": {
+    "genres": [
+      "house",
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "VMuUZ5Q1iHw": {
+    "genres": [
+      "house",
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      },
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "RZxFSVIv_h4": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "techno",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "og869LNvMDw": {
+    "genres": [
+      "electro"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "electro",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "HSlnj8quWb4": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "83ywADrnCLs": {
+    "genres": [
+      "house"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "house",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  },
+  "zHHqANNX7E0": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": "two-source-consensus",
+    "evidence": [
+      {
+        "genre": "experimental",
+        "sources": [
+          "youtube",
+          "discogs"
+        ]
+      }
+    ]
+  }
+}

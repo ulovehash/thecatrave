@@ -11,22 +11,32 @@
 
 import fs from 'node:fs';
 import { matchTag, VOCAB } from './genre-vocab.mjs';
-import { MANUAL, CHANNEL_GENRES } from './genre-manual.mjs';
+import { MANUAL, CHANNEL_FALLBACK_GENRES, CHANNEL_GENRES } from './genre-manual.mjs';
 import { artistKeys, artistKey } from './artist-key.mjs';
-import { genresFromDesc, declaredGenresInTitle } from './genre-text.mjs';
+import { contextualGenresInTitle, genresFromDesc, declaredGenresInTitle } from './genre-text.mjs';
 import { SERIES, seriesKey } from './genre-series.mjs';
+import { genreFromTitle } from './parse-artist.mjs';
 
 const sets = JSON.parse(fs.readFileSync('selector-data.json', 'utf8'));
-// Snapshot the fetch-time genres before anything overwrites them, so a re-run
-// evaluates the same rules against the same inputs as the first run did.
-const fetchGenres = Object.fromEntries(sets.map(s => [s.id, (s.genres || []).slice()]));
 const readJson = f => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {});
 const registry = readJson('selector-artists.json');
 const videoCache = readJson('selector-videos-cache.json');
 const titles = Object.fromEntries(Object.entries(videoCache).map(([id, e]) => [id, e && e.t]));
+// Recompute the fetch-time title signal from the immutable video cache. Using
+// selector-data.json here made a previous run's fallback look like original
+// evidence and prevented a later, stronger source from replacing it.
+const fetchGenres = Object.fromEntries(sets.map(set => [
+  set.id,
+  videoCache[set.id] ? genreFromTitle(videoCache[set.id].t, set.broadcaster) : (set.genres || []).slice()
+]));
 const tagsCache = readJson('selector-tags-cache.json');   // { videoId: [rawKeyword] }
 const descCache = readJson('selector-desc-cache.json');   // { videoId: descriptionText }
 const youtubeGenreCache = readJson('selector-youtube-genre-cache.json');
+const openGenreCache = readJson('selector-open-genre-cache.json');
+const titleArtistCache = readJson('selector-title-artist-cache.json');
+const storeGenreCache = readJson('selector-store-genre-cache.json');
+const refinedGenreCache = readJson('selector-refined-genre-cache.json');
+const priorityGenreCache = readJson('selector-priority-genre-cache.json');
 const reviewed = readJson('selector-genre-decisions.json');
 const order = arr => [...new Set(arr.map(matchTag).filter(Boolean))]
   .sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b))
@@ -109,7 +119,7 @@ const kwGenres = kws => {
 
 let tagged = 0;
 const hist = new Map();
-const bySource = { artist: 0, title: 0, b2b: 0, declared: 0, youtube: 0, series: 0, channel: 0, keywords: 0, description: 0 };
+const bySource = { artist: 0, titleArtist: 0, refined: 0, priority: 0, store: 0, title: 0, b2b: 0, declared: 0, contextual: 0, open: 0, youtube: 0, series: 0, channel: 0, keywords: 0, description: 0, channelFallback: 0 };
 
 for (const s of sets) {
   const acc = [];
@@ -119,6 +129,26 @@ for (const s of sets) {
     if (row && row.genres && row.genres.length) { acc.push(...row.genres); fromArtist = true; }
   }
   if (fromArtist) bySource.artist += 1;
+
+  if (!acc.length && titleArtistCache[s.id]?.genres?.length) {
+    acc.push(...titleArtistCache[s.id].genres);
+    bySource.titleArtist += 1;
+  }
+
+  if (!acc.length && refinedGenreCache[s.id]?.genres?.length) {
+    acc.push(...refinedGenreCache[s.id].genres);
+    bySource.refined += 1;
+  }
+
+  if (!acc.length && priorityGenreCache[s.id]?.genres?.length) {
+    acc.push(...priorityGenreCache[s.id].genres);
+    bySource.priority += 1;
+  }
+
+  if (!acc.length && storeGenreCache[s.id]?.genres?.length) {
+    acc.push(...storeGenreCache[s.id].genres);
+    bySource.store += 1;
+  }
 
   // Only the genre the fetch parser put here, not whatever a previous run of
   // this script wrote back. apply-genres reads and writes selector-data.json,
@@ -153,6 +183,18 @@ for (const s of sets) {
     if (declared.length) { acc.push(...declared); bySource.declared += 1; }
   }
 
+  if (!acc.length) {
+    const contextual = contextualGenresInTitle(titles[s.id], s.broadcaster);
+    if (contextual.length) { acc.push(...contextual); bySource.contextual += 1; }
+  }
+
+  // Strictly promoted background results require the same genre from an
+  // exact open-metadata artist match and an independent YouTube signal.
+  if (!acc.length && openGenreCache[s.id]?.genres?.length) {
+    acc.push(...openGenreCache[s.id].genres);
+    bySource.open += 1;
+  }
+
   if (!acc.length && youtubeGenreCache[s.id]?.genres?.length) {
     acc.push(...youtubeGenreCache[s.id].genres);
     bySource.youtube += 1;
@@ -178,6 +220,11 @@ for (const s of sets) {
   if (!acc.length && descCache[s.id]) {
     const dg = genresFromDesc(descCache[s.id]);
     if (dg.length) { acc.push(...dg); bySource.description += 1; }
+  }
+
+  if (!acc.length && CHANNEL_FALLBACK_GENRES[s.broadcaster]) {
+    acc.push(...CHANNEL_FALLBACK_GENRES[s.broadcaster]);
+    bySource.channelFallback += 1;
   }
 
   if (acc.length) {

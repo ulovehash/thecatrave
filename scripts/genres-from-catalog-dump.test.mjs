@@ -41,3 +41,17 @@ test('rejects multiple profiles even when one has the literal unsuffixed name', 
   });
   assert.deepEqual(chooseCandidate([profile('1', true), profile('2', false)]).genres, []);
 });
+
+test('accepts the only genre-qualified profile among same-name candidates', () => {
+  const electronic = {
+    id: '1', literal: true, releases: 4,
+    genreCounts: new Map([['Electronic', 4]]),
+    styleCounts: new Map([['Jazzy Hip-Hop', 4]])
+  };
+  const namesake = {
+    id: '2', literal: false, releases: 4,
+    genreCounts: new Map([['Rock', 4]]),
+    styleCounts: new Map([['Indie Rock', 4]])
+  };
+  assert.deepEqual(chooseCandidate([electronic, namesake]).genres, ['hip-hop']);
+});

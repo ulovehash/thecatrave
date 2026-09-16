@@ -1,0 +1,969 @@
+{
+  "2OHFgjuy3DI": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "bMCiAKNUpTY": {
+    "genres": [
+      "techno",
+      "experimental"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "techno",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      },
+      {
+        "genre": "experimental",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "YgWnrIC8X-k": {
+    "genres": [
+      "dub"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "dub",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "aiGBY5DA398": {
+    "genres": [
+      "house"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "house",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "uhAp3o71U48": {
+    "genres": [
+      "baile funk"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "baile funk",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "of3dLxEVCgU": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "FMbGZ3o1qik": {
+    "genres": [
+      "afrobeats"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "afrobeats",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "LBK_ixr32Cw": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "ricAlf5xOCQ": {
+    "genres": [
+      "soul"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "soul",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "U0ODVhUbXWI": {
+    "genres": [
+      "soul",
+      "hip-hop"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      },
+      {
+        "genre": "soul",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "QcyumAFFouA": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "iIsjV0nxFc4": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "techno",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "TGTEvirlecE": {
+    "genres": [
+      "experimental"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "experimental",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "7tBvHNOQAJA": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "oCidnnOVU7M": {
+    "genres": [
+      "jazz"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "jazz",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "otR3Hk7P1Rg": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "Fh_dWEJlZYI": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "wfh-rh41Qew": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "u0AM8N_H7wA": {
+    "genres": [
+      "jazz"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "jazz",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "5U8aY3g459c": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "gEaMbMMZKmE": {
+    "genres": [
+      "electro",
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electro",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      },
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "TaxP4llBQ1I": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "nSEb0tmZRwI": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "c0KPm41OlQM": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "80y-nrLm9rc": {
+    "genres": [
+      "house"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "house",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "x7RlDUs1Jn4": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "KS6KPNusfFQ": {
+    "genres": [
+      "pop"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "pop",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "k38hEIoJu8g": {
+    "genres": [
+      "electronic",
+      "classical"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      },
+      {
+        "genre": "classical",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "7bTlKxH3CgI": {
+    "genres": [
+      "classical"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "classical",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "athq9QlhdnU": {
+    "genres": [
+      "pop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "pop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "9rDXmwVWwd8": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "muHOpsTmRp0": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "kwJLkkzsHNU": {
+    "genres": [
+      "house"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "house",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "2aH0zALB2sA": {
+    "genres": [
+      "house"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "house",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "ergoCcGOX3o": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "8lZpxzXt930": {
+    "genres": [
+      "techno"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "techno",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "5oeqJdb9RQA": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "0xEfg2rVuX4": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "ISR35x4e_Gg": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "08ctUR90WrM": {
+    "genres": [
+      "ambient"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "ambient",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "NZtFZuOL7Mo": {
+    "genres": [
+      "dancehall"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "dancehall",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "yDlWdKVC0OQ": {
+    "genres": [
+      "punk"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "punk",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "7neyZZ_7THo": {
+    "genres": [
+      "dub",
+      "experimental",
+      "rock"
+    ],
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "genre": "experimental",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      },
+      {
+        "genre": "dub",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      },
+      {
+        "genre": "rock",
+        "confidence": 0.94,
+        "sources": [
+          "open-metadata",
+          "youtube-description"
+        ]
+      }
+    ]
+  },
+  "uOwoWvUlzYs": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "Y6kkesWd758": {
+    "genres": [
+      "ambient"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "ambient",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "8CwmfGagok8": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "Cb1B8nHQiak": {
+    "genres": [
+      "rock"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "rock",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "SWc1MZoQvqQ": {
+    "genres": [
+      "classical"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "classical",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "l_Yx-cWkYWo": {
+    "genres": [
+      "jazz"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "jazz",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "Q9hqXAZTZsI": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "eyWUFNLwuQM": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "fzVpcVJsOBg": {
+    "genres": [
+      "metal"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "metal",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "96QVuNUPq5M": {
+    "genres": [
+      "hip-hop"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "hip-hop",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "ggjQ2BxK9Ok": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "xih8aiacRSk": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "ZDTtylsPEe8": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  },
+  "HYsvlJgtAgY": {
+    "genres": [
+      "electronic"
+    ],
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "genre": "electronic",
+        "confidence": 0.96,
+        "sources": [
+          "open-metadata",
+          "youtube-tag"
+        ]
+      }
+    ]
+  }
+}

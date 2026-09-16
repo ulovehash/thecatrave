@@ -8,7 +8,7 @@ import { matchTag, VOCAB } from './genre-vocab.mjs';
 // "masterclass" and "album launch" are how some real sets are billed, "Common
 // Poetry" is an act on HÖR, and 312 titles say "podcast" while being mixes.
 // Filtering those would cost more music than it removes talk.
-export const NOT_A_SET = /\((talk|interview)\)|\blecture\b|\bbook launch\b|swiss jazz hour|\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
+export const NOT_A_SET = /^digging with\b|\((talk|interview)\)|\|\s*gasworks\s*$|\blecture\b|\bbook launch\b|swiss jazz hour|\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
 
 const COUNTRY = /\s*[([][^)\]]{0,30}(JP|NL|DE|UK|US|BR|FR|IT|ES|AR|KR|SW|Osaka|Tokyo|Berlin|London|Seoul)[^)\]]*[)\]]\s*$/i;
 const TRAIL = /\s*[–—-]?\s*\b(dj[ -]?set|live set|live in session|live|b2b set|closing set|opening set|full set|guest ?mix|guestmix|in-?studio( live)?|selects?)\b[\s.]*$/i;

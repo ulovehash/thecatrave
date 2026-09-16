@@ -48,10 +48,45 @@ export function declaredGenresInTitle(title) {
   for (const genre of vocab) {
     const escaped = genre.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const declared = new RegExp(
-      `(?:\\b${escaped}\\s+(?:dj\\s+)?(?:set|mix|selection)\\b)` +
+      `(?:\\b${escaped}\\s+(?:dj\\s+)?(?:set|mix|mixtape|selection|records?|vinyl\\s+set)\\b)` +
       `|(?:[(\\[]\\s*${escaped}\\s*[)\\]])` +
       `|(?:^${escaped}\\s*[-:|])`, 'i');
     if (declared.test(text) && !out.includes(genre)) out.push(genre);
   }
   return out.slice(0, 3);
+}
+
+// Some channels publish editorial, genre-led titles rather than an artist-led
+// title. These channel-specific zones avoid treating artist names such as
+// Soul Clap, Funk Tribu or Acid Mothers Temple as genre evidence.
+export function contextualGenresInTitle(title, broadcaster) {
+  const text = String(title || '');
+  let zone = '';
+  if (broadcaster === 'My Analog Journal') {
+    if (/\s+with\s+/i.test(text)) zone = text.split(/\s+with\s+/i)[0];
+    else if (/\b(?:on vinyl|vinyl set|records?|grooves?)\b/i.test(text)) zone = text;
+  } else if (broadcaster === 'Bresh') {
+    const parts = text.split(/\|/).map(part => part.trim());
+    const marker = parts.findIndex(part => /\bbresh\s+mix\b/i.test(part));
+    if (marker >= 0) zone = parts.slice(marker + 1).join(' ');
+  } else if (broadcaster === 'Keep Hush') {
+    zone = text.split(/\b(?:on keep hush|keep hush live)\b/i)[0]
+      .split(/\bDJs?\b/i).slice(1).join(' ');
+  } else if (broadcaster === 'Intercell') {
+    zone = text.split(/\s[-|]\s/).slice(1).join(' ');
+  } else if (broadcaster === 'Boiler Room') {
+    // Boiler Room's right-hand event label sometimes states the style:
+    // "SYSTEM: Amapiano London", "Singeli Vibes". Never inspect the artist
+    // credit on the left of the pipe here.
+    zone = text.split('|').slice(1).join(' ');
+  } else if (broadcaster === 'NTS Radio') {
+    if (/\bNTS GUIDE TO\b/i.test(text)) zone = text;
+    else if (/\bNTS RUSH MIX\b/i.test(text)) return ['electronic'];
+  }
+  if (!zone) return declaredGenresInTitle(text);
+  const contextual = genresFromDesc(zone).filter(genre => {
+    const escaped = genre.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return !new RegExp(`\\b${escaped}['’]s\\b`, 'i').test(zone);
+  });
+  return [...new Set([...declaredGenresInTitle(text), ...contextual])].slice(0, 4);
 }

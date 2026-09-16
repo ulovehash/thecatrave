@@ -74,12 +74,10 @@ function evaluate(candidate) {
 }
 
 export function chooseCandidate(candidates) {
-  if (candidates.length > 1) {
-    return { genres: [], reject: `ambiguous name: ${candidates.length} profiles` };
-  }
   const evaluated = candidates.map(candidate => ({ candidate, result: evaluate(candidate) }));
   const passing = evaluated.filter(row => row.result.genres?.length);
   if (passing.length === 1) return { ...passing[0].result, artistId: passing[0].candidate.id };
+  if (passing.length > 1) return { genres: [], reject: `ambiguous name: ${passing.length} qualifying profiles` };
   return { genres: [], reject: 'no qualifying artist profile' };
 }
 
@@ -151,6 +149,9 @@ async function main() {
   for (const [key, row] of targetRows) {
     const profiles = [...(candidates.get(key)?.values() || [])];
     const result = chooseCandidate(profiles);
+    // A partial or damaged archive may omit newer releases near its tail.
+    // Never replace a previously accepted result with an empty recheck.
+    if (!result.genres?.length && previousCache[key]?.genres?.length) continue;
     cache[key] = {
       name: row.artist,
       sets: row.sets,

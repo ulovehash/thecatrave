@@ -834,3 +834,36 @@ export const CHANNEL_GENRES = {
   'Stay True Sounds': ['deep house'],
   'Kunye': ['afro house'],
 };
+
+// Broad last-resort labels for platforms whose catalogue is consistently
+// electronic but not single-genre. Unlike CHANNEL_GENRES these never seed an
+// artist profile, so a Cercle appearance cannot label that artist's unrelated
+// live or radio appearances elsewhere.
+export const CHANNEL_FALLBACK_GENRES = {
+  'Boiler Room': ['electronic'],
+  'NTS Radio': ['electronic'],
+  'Keep Hush': ['electronic'],
+  'HÖR': ['electronic'],
+  'Mixmag': ['electronic'],
+  'Beatport': ['electronic'],
+  'Intercell': ['electronic'],
+  'Club Space': ['electronic'],
+  'The Concourse Project': ['electronic'],
+  'Cercle': ['electronic'],
+  'STVOL TV': ['electronic'],
+  'MixMix TV': ['electronic'],
+  'The Mudd Show': ['electronic'],
+  'Elevator Music': ['electronic'],
+  'Yoyaku': ['electronic'],
+  'Dekmantel': ['electronic'],
+  'Under Club': ['electronic'],
+  'Rinse FM': ['electronic'],
+  'Rinse France': ['electronic'],
+  'The Lot Radio': ['electronic'],
+  'Radio Rudina': ['electronic'],
+  'Kiosk Radio': ['electronic'],
+  'Seoul Community Radio': ['electronic'],
+  'Bresh': ['pop', 'latin'],
+  'My Analog Journal': ['global'],
+  "L'Atelier de Musique": ['global']
+};

@@ -21,6 +21,7 @@ const MIN_SETS = Number(process.env.MIN_SETS) || 1;
 const MAX_BATCHES = process.env.MAX_BATCHES === undefined
   ? Infinity
   : Math.max(0, Number(process.env.MAX_BATCHES));
+const RECHECK = process.env.RECHECK === '1';
 
 const reg = JSON.parse(fs.readFileSync(REG, 'utf8'));
 const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE, 'utf8')) : {};
@@ -55,7 +56,7 @@ const lit = s => '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '
 
 // candidates: has >= MIN_SETS sets, no genres yet, not already cached
 const todo = Object.entries(reg)
-  .filter(([k, r]) => r.sets >= MIN_SETS && !(r.genres && r.genres.length) && !(k in cache))
+  .filter(([k, r]) => r.sets >= MIN_SETS && !(r.genres && r.genres.length) && (RECHECK || !(k in cache)))
   .sort((a, b) => (priority.get(a[0]) ?? Infinity) - (priority.get(b[0]) ?? Infinity) || b[1].sets - a[1].sets)
   .map(([k, r]) => ({ key: k, name: r.display }));
 
@@ -68,7 +69,7 @@ let hits = 0;
 async function lookup(chunk, attempt = 0) {
   const values = chunk.map(c => `${lit(c.name)}@en`).join(' ');
   const query = `
-SELECT ?name ?genreLabel WHERE {
+SELECT ?s ?name ?genreLabel WHERE {
   VALUES ?name { ${values} }
   ?s rdfs:label|skos:altLabel ?name .
   { ?s wdt:P106 ?occ . VALUES ?occ { ${MUSIC_OCC.map(q => 'wd:' + q).join(' ')} } }
@@ -100,11 +101,14 @@ for (let i = 0; i < chunks.length; i += CONCURRENCY) {
       const nm = r.name.value.toLowerCase();
       const g = matchTag(r.genreLabel.value);
       if (!g) continue;
-      const arr = byName.get(nm) || byName.set(nm, []).get(nm);
+      const profiles = byName.get(nm) || byName.set(nm, new Map()).get(nm);
+      const entity = r.s.value;
+      const arr = profiles.get(entity) || profiles.set(entity, []).get(entity);
       if (!arr.includes(g)) arr.push(g);
     }
     for (const c of result.chunk) {
-      const g = byName.get(c.name.toLowerCase());
+      const profiles = [...(byName.get(c.name.toLowerCase())?.values() || [])];
+      const g = profiles.length === 1 ? profiles[0] : null;
       cache[c.key] = g ? g.sort((a, b) => VOCAB.indexOf(a) - VOCAB.indexOf(b)).slice(0, 4) : [];
       if (g) hits += 1;
     }
