@@ -40,6 +40,8 @@ export const generators = [
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',
+  // after every article generator: it reads their dates, descriptions and art
+  'scripts/build-feed.mjs',
   // last, because its dates come from the pages the generators above produce
   'scripts/build-sitemap.mjs',
   'build-home.mjs'

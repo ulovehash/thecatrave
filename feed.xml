@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>thecatrave</title>
+  <link>https://thecatrave.com/</link>
+  <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
+  <image>
+    <url>https://thecatrave.com/favicon.png</url>
+    <title>thecatrave</title>
+    <link>https://thecatrave.com/</link>
+  </image>
+  <item>
+    <title>Primavera Sound Barcelona: Location, Dates and Music</title>
+    <link>https://thecatrave.com/primavera-sound-barcelona</link>
+    <guid isPermaLink="true">https://thecatrave.com/primavera-sound-barcelona</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A city festival on the Mediterranean: its Parc del Fòrum location, confirmed 2027 dates, scale, music, Primavera a la Ciutat and Porto.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>house</category>
+    <media:content url="https://thecatrave.com/img/og/primavera-sound.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>German Electronic Music: From Kraftwerk to Techno</title>
+    <link>https://thecatrave.com/german-electronic-music</link>
+    <guid isPermaLink="true">https://thecatrave.com/german-electronic-music</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Cologne studios, Düsseldorf electronic pop, Frankfurt trance and the Detroit-Berlin alliance.</description>
+    <category>techno</category>
+    <category>history</category>
+    <category>overview</category>
+    <media:content url="https://thecatrave.com/img/og/german-electronic.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Mysteryland Festival: Where It Is, Its History, and 2027</title>
+    <link>https://thecatrave.com/mysteryland-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/mysteryland-festival</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The oldest dance festival in the Netherlands by its own count, on the old Floriade grounds in Haarlemmermeer: when Mysteryland 2027 is, why it skipped 2026, who owns it, and what it plays.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/mysteryland.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Sónar Festival Barcelona: History, Music and 2027 Dates</title>
+    <link>https://thecatrave.com/sonar-festival-barcelona</link>
+    <guid isPermaLink="true">https://thecatrave.com/sonar-festival-barcelona</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Three days every June in Barcelona since 1994: where Sónar happens, how a festival of advanced music grew to 150,000 people, who owns it now, OFFSónar, and Sónar 2027.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/sonar.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Glastonbury Festival: 2027, Fallow Years and Headliners</title>
+    <link>https://thecatrave.com/glastonbury-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/glastonbury-festival</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Five days most Junes at Worthy Farm in Somerset: when Glastonbury 2027 is, why there was no festival this year, where it is, how big it is, and every headliner by year.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/glastonbury.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Lollapalooza: Location, Dates, History and the Music</title>
+    <link>https://thecatrave.com/lollapalooza-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/lollapalooza-festival</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Four days every summer in Grant Park, Chicago: where Lollapalooza is and where else it plays, when it runs, how many people go, what the name means, and what plays.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/lollapalooza.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Coachella? Where It Is, When, and the Music</title>
+    <link>https://thecatrave.com/what-is-coachella</link>
+    <guid isPermaLink="true">https://thecatrave.com/what-is-coachella</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Two weekends every April at the Empire Polo Club in Indio: when Coachella 2027 is, how long it lasts, how a festival that lost money in 1999 grew, and what plays in the Sahara.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/coachella.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Untold Festival: Where It Is, How Big, and the Music</title>
+    <link>https://thecatrave.com/untold-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/untold-festival</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Four days every August in Cluj-Napoca: when Untold 2027 is, where it happens, how a European Youth Capital party reached 500,000 admissions, and what plays past the main stage.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/untold.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Ultra Music Festival: Miami, Ultra Europe and the Music</title>
+    <link>https://thecatrave.com/ultra-music-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/ultra-music-festival</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Bayfront Park in downtown Miami every March: where Ultra happens, how a 1999 beach party grew to 165,000 people, Ultra Europe in Split, and what plays beyond the Main Stage.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/ultra.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Parookaville Festival: Where It Is, Who Runs It, the Music</title>
+    <link>https://thecatrave.com/parookaville-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/parookaville-festival</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A festival staged as a city on an old RAF airbase at Weeze: where Parookaville happens, how three friends built it, how many people go, who runs it, and what plays there.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/parookaville.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Creamfields Festival: Where It Is, How It Grew, the Music</title>
+    <link>https://thecatrave.com/creamfields-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/creamfields-festival</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Four days on the Daresbury estate every August bank holiday: where Creamfields happens, how a Liverpool house night grew into it, who owns it, and what plays beyond the Arc Stage.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>uk</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/creamfields.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>EDC Las Vegas: What It Is, How Big, and the Music</title>
+    <link>https://thecatrave.com/edc-las-vegas</link>
+    <guid isPermaLink="true">https://thecatrave.com/edc-las-vegas</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Electric Daisy Carnival at the Las Vegas Motor Speedway: where EDC happens, how half a million people a year grew out of a field in Chino, and what plays past kineticFIELD.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/edc.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Tomorrowland Festival: Where It Is, How Big, and the Music</title>
+    <link>https://thecatrave.com/tomorrowland-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/tomorrowland-festival</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A park in Boom, Belgium, that most of the world knows through a livestream: where Tomorrowland happens, how big it is, who owns it, and what plays off the Mainstage.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/tomorrowland.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Live DJ Sets: Where They&apos;re Filmed, From Boiler Room to HÖR</title>
+    <link>https://thecatrave.com/live-dj-sets</link>
+    <guid isPermaLink="true">https://thecatrave.com/live-dj-sets</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Pirate radio, Boiler Room, NTS, The Lot, Cercle, Kiosk and HÖR: a short history of the platforms that film DJ sets, and the numbers behind 62,877 of them.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>uk</category>
+    <category>jungle</category>
+    <media:content url="https://thecatrave.com/img/og/live-dj-sets.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Clubs in London: The Legends and the Best Ones Open Now</title>
+    <link>https://thecatrave.com/best-electronic-music-clubs-in-london</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-electronic-music-clubs-in-london</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The London clubs that made acid house, jungle, garage and dubstep, from Heaven to the Blue Note, and the best clubs in London open now.</description>
+    <category>jungle</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/london-clubs.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Clubs in Berlin: The Legends and the Ones Still Open</title>
+    <link>https://thecatrave.com/best-clubs-in-berlin</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-clubs-in-berlin</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The rooms that made Berlin a techno city, the famous clubs that closed, and the best clubs in Berlin that are still open.</description>
+    <category>techno</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/berlin-clubs.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Burning Man? The Event, the City and the Music</title>
+    <link>https://thecatrave.com/what-is-burning-man</link>
+    <guid isPermaLink="true">https://thecatrave.com/what-is-burning-man</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A participant-built city in the Nevada desert, with no central lineup or main stage, and the sound camps and art cars that programme their own music.</description>
+    <category>house</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/burning-man.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Boiler Room Sets of All Time, Ranked and Measured</title>
+    <link>https://thecatrave.com/best-boiler-room-sets</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-boiler-room-sets</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Eighteen sets picked for what happens in them, beside the ten most-watched, counted across 8,206 Boiler Room recordings.</description>
+    <category>uk</category>
+    <category>house</category>
+    <category>bass</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/best-boiler-room-sets.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is UK Garage? The Sound, 2-Step, Speed Garage and Bassline</title>
+    <link>https://thecatrave.com/uk-garage-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/uk-garage-guide</guid>
+    <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>London played an American record too fast until the beat broke. The branches it split into, and the numbers behind its revival.</description>
+    <category>uk</category>
+    <category>nineties</category>
+    <category>house</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/uk-garage.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>How to Find New Music: 10 Ways That Are Not an Algorithm</title>
+    <link>https://thecatrave.com/how-to-find-new-music</link>
+    <guid isPermaLink="true">https://thecatrave.com/how-to-find-new-music</guid>
+    <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Ten ways to hear something you have not heard before, from community radio to record credits, ordered by how much work they take.</description>
+    <category>discovery</category>
+    <category>tools</category>
+    <media:content url="https://thecatrave.com/img/og/how-to-find-new-music.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Drum and Bass? 174 BPM, History and Subgenres</title>
+    <link>https://thecatrave.com/drum-and-bass-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/drum-and-bass-guide</guid>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Fast breakbeats, deep sub-bass and the British rave continuum behind a global genre usually played between 170 and 180 BPM.</description>
+    <category>breaks</category>
+    <category>uk</category>
+    <category>nineties</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/drum-and-bass.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Dubstep? Origins, Sound and the Genre Split</title>
+    <link>https://thecatrave.com/dubstep-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/dubstep-guide</guid>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>From south London record shops and 200-capacity basements to a genre that split into two sounds sharing one name.</description>
+    <category>bass</category>
+    <category>uk</category>
+    <category>twothousands</category>
+    <category>soundsystem</category>
+    <media:content url="https://thecatrave.com/img/og/dubstep.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Bass Music? History, Genres and Essential Tracks</title>
+    <link>https://thecatrave.com/bass-music-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/bass-music-guide</guid>
+    <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A global history connecting Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.</description>
+    <category>bass</category>
+    <category>global</category>
+    <category>soundsystem</category>
+    <media:content url="https://thecatrave.com/img/og/bass-music.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Breakbeat Music: History, Sound and Evolution</title>
+    <link>https://thecatrave.com/breakbeat-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/breakbeat-guide</guid>
+    <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>From funk breaks and pirate radio to cracked VSTs and modern bass hybrids.</description>
+    <category>breaks</category>
+    <category>uk</category>
+    <category>nineties</category>
+    <category>sampling</category>
+    <media:content url="https://thecatrave.com/img/og/breakbeat.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Jungle Music: From Roots to Revival</title>
+    <link>https://thecatrave.com/jungle-music-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/jungle-music-guide</guid>
+    <pubDate>Sat, 05 Apr 2025 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Pirate radio, dubplates, MC energy and the global return of a distinctly Black British sound.</description>
+    <category>breaks</category>
+    <category>uk</category>
+    <category>nineties</category>
+    <category>soundsystem</category>
+    <media:content url="https://thecatrave.com/img/og/jungle.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>The Evolution of UK Electronic Music</title>
+    <link>https://thecatrave.com/uk-electronic-music-evolution</link>
+    <guid isPermaLink="true">https://thecatrave.com/uk-electronic-music-evolution</guid>
+    <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Ten sounds that travelled from regional underground scenes into global culture.</description>
+    <category>uk</category>
+    <category>history</category>
+    <category>overview</category>
+    <media:content url="https://thecatrave.com/img/og/uk.jpg" medium="image" width="1200" height="630" />
+  </item>
+</channel>
+</rss>

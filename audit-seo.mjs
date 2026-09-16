@@ -15,6 +15,8 @@ const check = (page, name, condition, detail = '') => {
 };
 
 const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
+const feed = fs.existsSync('feed.xml') ? fs.readFileSync('feed.xml', 'utf8') : '';
+const feedItemCount = (feed.match(/<item>/g) || []).length;
 const robots = fs.existsSync('robots.txt') ? fs.readFileSync('robots.txt', 'utf8') : '';
 const titles = new Map();
 const descriptions = new Map();
@@ -68,6 +70,8 @@ for (const {file, path, kind} of pages) {
   check(file, 'canonical is absolute https', /^https:\/\//.test(canonicalHref || ''));
   check(file, 'canonical is self-referential', canonicalHref === canonical, `${canonicalHref} vs ${canonical}`);
   check(file, 'canonical in sitemap', sitemap.includes(`<loc>${canonical}</loc>`) || (path === '/' && sitemap.includes('<loc>https://thecatrave.com/</loc>')));
+  const feedLink = head.match(/<link[^>]*rel="alternate"[^>]*type="application\/rss\+xml"[^>]*>/i)?.[0] || '';
+  check(file, 'advertises the RSS feed', attr(feedLink, 'href') === 'https://thecatrave.com/feed.xml');
 
   // Headings
   const h1s = html.match(/<h1[\s>]/g) || [];
@@ -144,6 +148,10 @@ for (const {file, path, kind} of pages) {
 check('robots.txt', 'exists', robots.length > 0);
 check('robots.txt', 'references the sitemap', /sitemap:\s*https?:\/\//i.test(robots));
 check('sitemap.xml', 'is well-formed xml', sitemap.trim().startsWith('<?xml') && sitemap.includes('</urlset>'));
+check('feed.xml', 'exists', feed.length > 0);
+check('feed.xml', 'has an RSS 2.0 root', /<rss\s[^>]*version="2\.0"/.test(feed) && feed.includes('</rss>'));
+check('feed.xml', 'has a self link', feed.includes('<atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />'));
+check('feed.xml', 'contains every article', feedItemCount === pages.filter(page => page.kind === 'guide').length, `${feedItemCount} items`);
 
 if (failures.length) {
   console.error(`SEO audit failed (${failures.length}):`);
