@@ -5,56 +5,93 @@
 // comes from home-articles.mjs, the same catalogue as the homepage and Read
 // Next: publishing a new article puts it at the top here with no edit to this
 // file.
+//
+// One index per language, from that language's catalogue. A German reader who
+// arrives on a translated guide and follows "Artikel" in the header gets the
+// German list, not the English one.
 import fs from 'node:fs';
+import path from 'node:path';
 import {allArticlesNewestFirst} from './home-articles.mjs';
 import {articleHero, articlePage, articlesIndex, breadcrumbStructuredData} from './site-components.mjs';
+import {t} from './i18n.mjs';
 
-const canonical = 'https://thecatrave.com/articles';
-const title = 'All Articles: Guides to Dance Music and Club Culture';
-const description = 'Every thecatrave article in one place, newest first: long guides to dance music genres, club culture, DJ sets and the scenes behind them.';
-const items = allArticlesNewestFirst();
-
-const articleHtml = [
-  articleHero({
-    kicker: 'Articles',
-    title: 'All articles.',
-    deck: 'Long guides to dance music and club culture, written for listeners.'
-  }),
-  // The heading is for screen readers and the h1 > h2 > h3 outline only; the
-  // hero already says what the list is.
-  articlesIndex({items, title: 'Every article'})
-].join('\n');
-
-const structuredData = [
+const indexes = [
   {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    name: title,
-    description,
-    url: canonical,
-    inLanguage: 'en-GB',
-    mainEntity: {
-      '@type': 'ItemList',
-      numberOfItems: items.length,
-      itemListElement: items.map((item, index) => ({
-        '@type': 'ListItem',
-        position: index + 1,
-        url: `https://thecatrave.com${item.href}`,
-        name: item.title
-      }))
-    }
+    lang: 'en',
+    file: 'articles.html',
+    canonical: 'https://thecatrave.com/articles',
+    title: 'All Articles: Guides to Dance Music and Club Culture',
+    description: 'Every thecatrave article in one place, newest first: long guides to dance music genres, club culture, DJ sets and the scenes behind them.',
+    kicker: 'Articles',
+    heading: 'All articles.',
+    deck: 'Long guides to dance music and club culture, written for listeners.',
+    listTitle: 'Every article',
+    breadcrumb: 'Articles'
   },
-  breadcrumbStructuredData({name: 'Articles', canonical})
+  {
+    lang: 'de',
+    file: 'de/artikel.html',
+    canonical: 'https://thecatrave.com/de/artikel',
+    title: 'Alle Artikel: Guides zu Dance Music und Clubkultur',
+    description: 'Alle deutschsprachigen Artikel von thecatrave, die neuesten zuerst: ausführliche Guides zu Festivals, Dance Music und Clubkultur.',
+    kicker: 'Artikel',
+    heading: 'Alle Artikel.',
+    deck: 'Ausführliche Guides zu Dance Music und Clubkultur, geschrieben für Hörerinnen und Hörer.',
+    listTitle: 'Alle Artikel',
+    breadcrumb: 'Artikel'
+  }
 ];
 
-const html = articlePage({
-  title, description, canonical,
-  // Built by scripts/build-og-cards.py from the articles' own card covers.
-  ogImage: 'https://thecatrave.com/img/og/articles.jpg',
-  ogType: 'website',
-  bodyClass: 'article-page articles-page',
-  structuredData, articleHtml
-});
+for (const index of indexes) {
+  const items = allArticlesNewestFirst(index.lang);
+  const {lang, canonical, title, description} = index;
 
-fs.writeFileSync('articles.html', html);
-console.log(`Built articles.html — ${items.length} articles`);
+  const articleHtml = [
+    articleHero({
+      lang,
+      kicker: index.kicker,
+      title: index.heading,
+      deck: index.deck
+    }),
+    // The heading is for screen readers and the h1 > h2 > h3 outline only; the
+    // hero already says what the list is.
+    articlesIndex({items, title: index.listTitle})
+  ].join('\n');
+
+  const structuredData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: title,
+      description,
+      url: canonical,
+      inLanguage: t(lang).inLanguage,
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: items.length,
+        itemListElement: items.map((item, position) => ({
+          '@type': 'ListItem',
+          position: position + 1,
+          url: `https://thecatrave.com${item.href}`,
+          name: item.title
+        }))
+      }
+    },
+    breadcrumbStructuredData({lang, name: index.breadcrumb, canonical})
+  ];
+
+  const html = articlePage({
+    lang,
+    alternates: indexes.map(other => ({lang: other.lang, href: other.canonical})),
+    title, description, canonical,
+    // Built by scripts/build-og-cards.py from the articles' own card covers.
+    ogImage: 'https://thecatrave.com/img/og/articles.jpg',
+    ogType: 'website',
+    bodyClass: 'article-page articles-page',
+    structuredData, articleHtml
+  });
+
+  fs.mkdirSync(path.dirname(index.file), {recursive: true});
+  fs.writeFileSync(index.file, html);
+  console.log(`Built ${index.file} — ${items.length} articles`);
+}

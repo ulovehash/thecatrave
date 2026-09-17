@@ -152,3 +152,30 @@ The shared audit also verifies the homepage article component, card count, live 
 - Give every image alt text and intrinsic width/height; give every iframe a descriptive title.
 - Use shared figure, table, Sources and listening primitives instead of copying their markup. When the approved article includes an FAQ, use the shared FAQ primitive and generate its structured data from the same content.
 - Run `audit-site-components.mjs`; it verifies the SEO shell, dates, landmarks, media accessibility, dimensions and design-token contract across all current articles.
+
+## Translations
+
+Every shared component takes a `lang`, defaulting to `en`. It switches only the
+strings the component writes itself: navigation, contents, the author card, the
+Bandcamp call to action, the footer, the Selector bar, the reading line and the
+`Essential listening` label. They live in `i18n.mjs`, one block per language.
+A page's own editorial copy never comes from there.
+
+- `articlePage({lang, alternates})` sets the document's `lang`, writes the
+  `hreflang` links for the translations passed in, and makes the stylesheet and
+  `img/` paths root-relative when the page sits in a subdirectory (`/de/...`).
+  Both sides of a pair must declare each other, so English generators take their
+  `alternates` from `alternatesFor(path)` in `pages.mjs` and translated pages
+  declare theirs from their content module.
+- A translated guide is two files: `de/<name>-draft.md`, the article with the
+  same media placeholders as the English draft, and `content/de/<name>.mjs`,
+  the metadata, section list, assets, sources and CTA copy.
+  `build-localized-articles.mjs` renders every content module under `content/`,
+  so a further translation is two new files and no new generator.
+- `pages.mjs` carries `lang` and `translationOf` for translated entries. The
+  gate reads them: each page is held to the chrome of its own language, to its
+  own keyword map (`keywords/de-<name>.json`), to its own index and Read Next
+  block, and to the media map of the page it was translated from.
+- Each language has its own articles index, built by `build-articles-page.mjs`
+  from that language's catalogue in `home-articles.mjs`. The RSS feed and the
+  homepage stay English.

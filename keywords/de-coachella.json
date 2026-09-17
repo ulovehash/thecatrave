@@ -1,0 +1,74 @@
+{
+  "page": "de/coachella-festival.html",
+  "seed": "coachella",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, 17 September 2026 (TRANSLATION-RESEARCH.md)",
+  "terms": [
+    {
+      "term": "coachella",
+      "volume": 26000
+    },
+    {
+      "term": "was ist coachella",
+      "volume": 2000
+    },
+    {
+      "term": "coachella festival",
+      "volume": 3500
+    },
+    {
+      "term": "coachella 2027",
+      "volume": 500,
+      "note": "next edition, 9 to 11 and 16 to 18 April 2027; refresh yearly"
+    },
+    {
+      "term": "wo findet coachella statt",
+      "volume": 500,
+      "note": "the \"wo ist coachella\" cluster, as a question"
+    },
+    {
+      "term": "wie lange dauert coachella",
+      "volume": 350
+    },
+    {
+      "term": "wann ist coachella",
+      "volume": 600,
+      "note": "\"wann ist coachella 2026\" 600"
+    },
+    {
+      "term": "wem gehört coachella",
+      "volume": 100
+    },
+    {
+      "term": "wie viele besucher hat coachella",
+      "volume": 200
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the festival name, country de, volume filter, 17 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "coachella 2026",
+      "volume": 16000,
+      "why": "dated; the 2026 edition is over"
+    },
+    {
+      "term": "coachella outfit",
+      "volume": 1400,
+      "why": "shopping intent; a fashion page would be a different site"
+    },
+    {
+      "term": "justin bieber coachella",
+      "volume": 4900,
+      "why": "one artist, one year; news intent"
+    },
+    {
+      "term": "coachella lineup 2026",
+      "volume": 2000,
+      "why": "dated and changes every year"
+    },
+    {
+      "term": "coachella parfum",
+      "volume": 350,
+      "why": "product collision"
+    }
+  ]
+}

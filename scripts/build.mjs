@@ -37,6 +37,10 @@ export const generators = [
   'build-sonar-article.mjs',
   'build-mysteryland-article.mjs',
   'build-primavera-sound-article.mjs',
+  // after the English generators: a translation's Read Next reads its own
+  // language's catalogue, but its reading times are taken from the pages the
+  // localized generator itself writes, so it only has to precede the indexes
+  'build-localized-articles.mjs',
   'build-selector.mjs',
   // after every article generator: it reads their reading times and dates
   'build-articles-page.mjs',

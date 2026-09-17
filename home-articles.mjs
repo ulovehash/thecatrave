@@ -210,8 +210,69 @@ export const homeArticleCatalog = [
   }
 ];
 
-export function homeArticlesWithReadingTimes() {
-  return homeArticleCatalog.map(item => {
+// The German guides. They are a separate catalogue, not flags on the English
+// one: the homepage, the RSS feed and the English Read Next blocks all read
+// that list, and a translated page has no business in any of them. Cards link
+// to German readers' own index and to each other.
+//
+// The images are the English guides' images, on purpose. A translation
+// illustrates the same festival with the same evidence, and a German reader is
+// not served by a different photograph of the same stage. This is the "strong
+// editorial reason" ARTICLE-PRODUCTION-WORKFLOW.md §7 asks for, stated rather
+// than assumed, and the captions are translated with the prose.
+export const germanArticleCatalog = [
+  {
+    page:'de/tomorrowland-festival.html', tags:['discovery','history','bass'], href:'/de/tomorrowland-festival', type:'Guide', topic:'Tomorrowland',
+    title:'Tomorrowland 2027: Wo es stattfindet, wie groß es ist, welche Musik läuft',
+    description:'Ein Park in Boom, Belgien, den die Welt vor allem im Livestream kennt: wo Tomorrowland stattfindet, wie viele Besucher kommen, wem es gehört und was abseits der Mainstage läuft.',
+    image:'img/tomorrowland/mainstage-2014-320.webp',
+    srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
+    width:1200, height:708, alt:'Die Tomorrowland-Mainstage im Jahr 2014'
+  },
+  {
+    page:'de/parookaville-festival.html', tags:['discovery','history','bass'], href:'/de/parookaville-festival', type:'Guide', topic:'Parookaville',
+    title:'Parookaville 2027: Gelände, Geschichte, Besucherzahlen und Musik',
+    description:'Ein Festival als Stadt auf dem Flughafen Weeze: wo Parookaville liegt, wie drei Freunde es aufgebaut haben, wie viele Menschen kommen und was auf den Bühnen läuft.',
+    image:'img/parookaville/mainstage-aerial-2022-320.webp',
+    srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Die Parookaville-Mainstage aus der Luft im Jahr 2022, davor das Publikum, am Horizont Windräder'
+  },
+  {
+    page:'de/coachella-festival.html', tags:['discovery','history','bass'], href:'/de/coachella-festival', type:'Guide', topic:'Coachella',
+    title:'Was ist Coachella? Termine 2027, Ort und Musik',
+    description:'Zwei Wochenenden im April im Empire Polo Club in Indio: wann Coachella 2027 stattfindet, wo es liegt, wie aus einem Verlustgeschäft von 1999 ein Milliardenfestival wurde und was im Sahara-Zelt läuft.',
+    image:'img/coachella/grounds-2018-320.webp',
+    srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
+    width:1200, height:677, alt:'Festivalbesucher auf der Wiese von Coachella 2018, dahinter Palmen und die Berge der Wüste'
+  },
+  {
+    page:'de/mysteryland-festival.html', tags:['discovery','history','bass'], href:'/de/mysteryland-festival', type:'Guide', topic:'Mysteryland',
+    title:'Mysteryland 2027: Gelände, Geschichte und Musik',
+    description:'Nach eigener Zählung das älteste Dance-Festival der Niederlande, auf dem früheren Floriade-Gelände in Haarlemmermeer: wann Mysteryland 2027 stattfindet, warum 2026 ausfiel und was gespielt wird.',
+    image:'img/mysteryland/site-aerial-2018-320.webp',
+    srcset:'img/mysteryland/site-aerial-2018-320.webp 320w,img/mysteryland/site-aerial-2018-1200.webp 1200w',
+    width:1200, height:675, alt:'Mysteryland aus der Luft im Jahr 2018, die Hauptbühne an einem See, davor das Publikum'
+  },
+  {
+    page:'de/untold-festival.html', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
+    title:'Untold Festival 2027: Ort, Größe und Musik',
+    description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
+    image:'img/untold/main-stage-2019-320.webp',
+    srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'Dichtes Publikum mit Handylichtern vor der Untold-Hauptbühne bei Nacht im Jahr 2019'
+  }
+];
+
+export const catalogs = {en: homeArticleCatalog, de: germanArticleCatalog};
+
+const catalogFor = lang => {
+  const catalog = catalogs[lang];
+  if (!catalog) throw new Error(`No article catalogue for language: ${lang}`);
+  return catalog;
+};
+
+export function homeArticlesWithReadingTimes(lang = 'en') {
+  return catalogFor(lang).map(item => {
     // A page being generated for the first time does not exist on disk yet; fall
     // back so the first build succeeds, then the real value is picked up on the
     // rebuild that ARTICLE-PRODUCTION-WORKFLOW.md §9 already requires.
@@ -244,14 +305,14 @@ export function homeArticlesNewestFirst() {
 
 // Every article, newest first, for the /articles page. Each carries its
 // catalogue-position number, the same one Read Next shows.
-export function allArticlesNewestFirst() {
+export function allArticlesNewestFirst(lang = 'en') {
   const published = item => {
     if (!fs.existsSync(item.page)) return '9999-12-31';
     const date = fs.readFileSync(item.page, 'utf8').match(/article:published_time" content="([^"]+)"/)?.[1];
     if (!date) throw new Error(`Could not read the publication date from ${item.page}`);
     return date;
   };
-  return homeArticlesWithReadingTimes()
+  return homeArticlesWithReadingTimes(lang)
     .map((item, index) => ({item:{...item, number:`A${String(index + 1).padStart(2, '0')}`}, index, date: published(item)}))
     .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)
     .map(entry => entry.item);
@@ -273,8 +334,8 @@ export function allArticlesNewestFirst() {
 const RELATED_MAX = 4;
 const RELATED_MIN = 3;
 
-export function relatedArticles(currentPage) {
-  const all = homeArticlesWithReadingTimes()
+export function relatedArticles(currentPage, lang = 'en') {
+  const all = homeArticlesWithReadingTimes(lang)
     .map((item, index) => ({...item, number:`A${String(index + 1).padStart(2, '0')}`}));
   const current = all.find(item => item.page === currentPage || item.href === currentPage);
   if (!current) throw new Error(`relatedArticles received an unknown page: ${currentPage}`);

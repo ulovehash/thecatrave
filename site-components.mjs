@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
+import { t, defaultLang, locales } from './i18n.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;')
@@ -38,7 +39,7 @@ const socialIcons = {
   instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle class="instagram-dot" cx="17.4" cy="6.8" r="1"/></svg>'
 };
 
-export function socialLinks({icons = false, className = icons ? 'header-socials' : '', label = 'Listen and follow'} = {}) {
+export function socialLinks({icons = false, className = icons ? 'header-socials' : '', lang = defaultLang, label = t(lang).socialsLabel} = {}) {
   const items = ['soundcloud', 'bandcamp', 'spotify', 'instagram'];
   const links = items.map(name => {
     const title = {soundcloud:'SoundCloud',bandcamp:'Bandcamp',spotify:'Spotify',instagram:'Instagram'}[name];
@@ -51,14 +52,20 @@ export function socialLinks({icons = false, className = icons ? 'header-socials'
 
 // Every guide links to the full list of articles from its header, so a reader
 // who lands on one guide from search can see there are others.
-const articleNavItems = [{href:'/articles', label:'Articles'}, {href:'/selector', label:'Selector', className:'selector-link'}];
+// The labels and the articles link follow the page's language: a German guide
+// sends its reader to the German index, not to the English one.
+const articleNavItems = lang => {
+  const copy = t(lang);
+  return [{href: copy.articlesPath, label: copy.navArticles}, {href:'/selector', label: copy.navSelector, className:'selector-link'}];
+};
 
-export function siteHeader({variant = 'article', navItems = variant === 'article' ? articleNavItems : []} = {}) {
+export function siteHeader({variant = 'article', lang = defaultLang, navItems = variant === 'article' ? articleNavItems(lang) : []} = {}) {
+  const copy = t(lang);
   const classes = variant === 'article' ? 'site-header article-site-header' : 'site-header';
   const nav = navItems.length
-    ? `<nav class="site-nav" aria-label="Primary navigation">${navItems.map(item => `<a${item.className ? ` class="${escapeHtml(item.className)}"` : ''} href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join('')}</nav>`
+    ? `<nav class="site-nav" aria-label="${escapeHtml(copy.primaryNavLabel)}">${navItems.map(item => `<a${item.className ? ` class="${escapeHtml(item.className)}"` : ''} href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join('')}</nav>`
     : '';
-  return `<header class="${classes}"><a class="wordmark" href="/" aria-label="thecatrave home">thecatrave<span>*</span></a>${nav}${socialLinks({icons:true})}</header>`;
+  return `<header class="${classes}"><a class="wordmark" href="/" aria-label="${escapeHtml(copy.homeLabel)}">thecatrave<span>*</span></a>${nav}${socialLinks({icons:true, lang})}</header>`;
 }
 
 export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {}) {
@@ -71,17 +78,25 @@ export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {
 // 2026-09-13: "нужно рекламировать оба", then "в виде ск эмбедов").
 export const ownSets = [
   {slug: 'i-like-to-smoke-in-silence-after-raves', title: 'I Like to Smoke in Silence After Raves',
-    description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.'},
+    description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.',
+    de: {suffix: 'ein DJ-Mix.',
+      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigener Set, für eine Pause vom Festival.'}},
   {slug: 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more', title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
-    description: 'A loud and restless mix about going out again even when you know better.'}
+    description: 'A loud and restless mix about going out again even when you know better.',
+    de: {suffix: 'ein DJ-Mix.',
+      description: 'Ein lauter, rastloser Mix darüber, wieder loszuziehen, obwohl man es besser weiß.'}}
 ];
 
-export function ownSetListening(index) {
+export function ownSetListening(index, lang = defaultLang) {
   const set = ownSets[index];
   if (!set) throw new Error(`No own set at index ${index}`);
+  const copy = t(lang);
+  const translated = lang === defaultLang ? null : set[lang];
+  if (lang !== defaultLang && !translated) throw new Error(`Own set ${index} has no ${lang} copy`);
   return articleListeningBand({
-    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: 'A DJ mix by thecatrave',
-    title: `${set.title}: a DJ mix.`, description: set.description,
+    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: copy.ownSetKicker,
+    title: `${set.title}: ${translated ? translated.suffix : 'a DJ mix.'}`,
+    description: translated ? translated.description : set.description,
     src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${set.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
     iframeTitle: `${set.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'
   });
@@ -106,9 +121,10 @@ export function ownSetListening(index) {
 // same breath, because "I made a tool that picks you a DJ set" left people
 // guessing what the tool actually did (owner, 2026-09-10). On mobile only the
 // question and the button fit, so the question has to carry it alone.
-export function selectorPromoBar() {
-  const more = selectorChannelCount > 3 ? ` and ${selectorChannelCount - 3} more channels` : '';
-  return `<aside class="promo-bar" id="promo-bar" aria-label="The Selector"><a href="/selector"><b>Don't know what to listen to?</b><span class="wide">Press one button, get a full DJ set. From Boiler Room, NTS, H\u00d6R${more}.</span><em>Get a set \u2192</em></a><button type="button" class="promo-bar-close" aria-label="Dismiss this message">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
+export function selectorPromoBar(lang = defaultLang) {
+  const copy = t(lang);
+  const more = selectorChannelCount > 3 ? copy.promoMore(selectorChannelCount - 3) : '';
+  return `<aside class="promo-bar" id="promo-bar" aria-label="${escapeHtml(copy.promoLabel)}"><a href="/selector"><b>${escapeHtml(copy.promoTitle)}</b><span class="wide">${escapeHtml(copy.promoBody(more))}</span><em>${escapeHtml(copy.promoCta)}</em></a><button type="button" class="promo-bar-close" aria-label="${escapeHtml(copy.promoDismiss)}">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
 }
 
 export function homeSelectorPromo({sets = 0, channels = 0, logos = []} = {}) {
@@ -160,7 +176,7 @@ export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} 
   return `<aside class="${classes}" aria-label="${escapeHtml(ariaLabel)}"><strong>${escapeHtml(label)}:</strong> ${bodyHtml}</aside>`;
 }
 
-export function articleTableOfContents({items = [], title = 'Contents'} = {}) {
+export function articleTableOfContents({items = [], lang = defaultLang, title = t(lang).contents} = {}) {
   const rows = items.map(item => {
     const href = item.href || `#${item.id}`;
     return `<li><a href="${escapeHtml(href)}">${escapeHtml(item.label)}</a></li>`;
@@ -168,14 +184,15 @@ export function articleTableOfContents({items = [], title = 'Contents'} = {}) {
   return `<nav class="article-toc" id="contents" aria-label="${escapeHtml(title)}"><h2>${escapeHtml(title)}</h2><ol>${rows}</ol></nav>`;
 }
 
-export function articleHero({kicker, title, deck, readingTime, dateModified, dateLabel, summaryHtml = '', tocItems = []} = {}) {
+export function articleHero({kicker, title, deck, readingTime, dateModified, dateLabel, summaryHtml = '', tocItems = [], lang = defaultLang} = {}) {
   requireFields('articleHero', {kicker,title,deck});
+  const copy = t(lang);
   const meta = readingTime || dateModified
-    ? `<div class="article-meta">${readingTime ? `<p class="reading-time">${escapeHtml(readingTime)}</p>` : ''}${dateModified ? `<p class="article-updated">Updated <time datetime="${escapeHtml(dateModified)}">${escapeHtml(dateLabel || dateModified)}</time></p>` : ''}</div>`
+    ? `<div class="article-meta">${readingTime ? `<p class="reading-time">${escapeHtml(readingTime)}</p>` : ''}${dateModified ? `<p class="article-updated">${escapeHtml(copy.updated)} <time datetime="${escapeHtml(dateModified)}">${escapeHtml(dateLabel || dateModified)}</time></p>` : ''}</div>`
     : '';
   // kicker, title and the reading line share one filled ground, so they need one
   // element to paint. The deck stays outside it.
-  return `<header class="article-hero"><div class="article-masthead"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}</div><p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${tocItems.length ? articleTableOfContents({items:tocItems}) : ''}</header>`;
+  return `<header class="article-hero"><div class="article-masthead"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}</div><p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${tocItems.length ? articleTableOfContents({items:tocItems, lang}) : ''}</header>`;
 }
 
 export function articleSection({id = '', title, bodyHtml = '', kicker = '', className = ''} = {}) {
@@ -201,19 +218,34 @@ export function articleTable({headers = [], rows = [], className = '', label = '
   return `<div class="genre-table-wrap" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
-export function articleFaq({items = [], title = 'Frequently asked questions.', id = 'faq', openFirst = true} = {}) {
+export function articleFaq({items = [], lang = defaultLang, title = t(lang).faqTitle, id = 'faq', openFirst = true} = {}) {
   const questions = items.map((item, index) => `<details${openFirst && index === 0 ? ' open' : ''}><summary>${escapeHtml(item.question)}</summary>${item.answerHtml}</details>`).join('');
   return articleSection({id, title, bodyHtml:questions, className:'faq-section'});
 }
 
-export function articleSources({bodyHtml, title = 'Sources.', id = 'sources'} = {}) {
+export function articleSources({bodyHtml, lang = defaultLang, title = t(lang).sourcesTitle, id = 'sources'} = {}) {
   return articleSection({id, title, bodyHtml, className:'sources-section'});
 }
 
 // ogType 'website' is for pages that are not themselves an article, such as
 // the /articles list: they carry no article dates.
-export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article'} = {}) {
+//
+// `lang` switches every string the shell writes itself and the document's own
+// language tag. `alternates` are the translations of this exact page: each one
+// is announced to search engines with `hreflang`, in both directions, and the
+// English page is the `x-default`.
+//
+// A page that does not sit at the site root (a German guide lives under /de/)
+// cannot keep the relative `img/...` and stylesheet paths the generators write,
+// so they are made root-relative here rather than in every caller.
+export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article', lang = defaultLang, alternates = []} = {}) {
   requireFields('articlePage', {title,description,canonical,ogImage,articleHtml});
+  const copy = t(lang);
+  const inSubdirectory = new URL(canonical).pathname.replace(/^\/|\/$/g, '').includes('/');
+  const hreflang = alternates.length
+    ? alternates.map(alternate => `<link rel="alternate" hreflang="${escapeHtml(t(alternate.lang).htmlLang)}" href="${escapeHtml(alternate.href)}">`).join('')
+      + `<link rel="alternate" hreflang="x-default" href="${escapeHtml((alternates.find(alternate => alternate.lang === defaultLang) || {href: canonical}).href)}">`
+    : '';
   if (ogType === 'article') requireFields('articlePage', {datePublished,dateModified});
   if (!/^https:\/\//.test(canonical) || !/^https:\/\//.test(ogImage)) throw new Error('articlePage canonical and ogImage must be absolute HTTPS URLs.');
   // Declared from the file the build just wrote, so the numbers cannot drift
@@ -223,25 +255,41 @@ export function articlePage({title, description, canonical, ogImage, datePublish
   const ogImageSize = `<meta property="og:image:width" content="${width}"><meta property="og:image:height" content="${height}">`;
   const articleTimes = `${datePublished ? `<meta property="article:published_time" content="${escapeHtml(datePublished)}">` : ''}${dateModified ? `<meta property="article:modified_time" content="${escapeHtml(dateModified)}">` : ''}`;
   const schemas = structuredData.filter(Boolean).map(data => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`).join('');
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}"><link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">Skip to content</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar()}${siteHeader({variant:'article'})}<main id="main-content"><article>${articleHtml}</article></main>${articleFooter()}</body></html>`;
+  const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="1024x1024" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang})}<main id="main-content"><article>${articleHtml}</article></main>${articleFooter(lang)}</body></html>`;
+  return inSubdirectory ? rootRelativeAssets(html) : html;
 }
 
-export function articleStructuredData({headline, description, canonical, image, datePublished, dateModified} = {}) {
-  return {'@context':'https://schema.org','@type':'Article',headline,description,datePublished,dateModified,mainEntityOfPage:canonical,image,author:{'@type':'Person',name:'thecatrave',url:'https://thecatrave.com/'},publisher:{'@type':'Organization',name:'thecatrave',url:'https://thecatrave.com/'},inLanguage:'en-GB'};
+export function articleStructuredData({headline, description, canonical, image, datePublished, dateModified, lang = defaultLang} = {}) {
+  return {'@context':'https://schema.org','@type':'Article',headline,description,datePublished,dateModified,mainEntityOfPage:canonical,image,author:{'@type':'Person',name:'thecatrave',url:'https://thecatrave.com/'},publisher:{'@type':'Organization',name:'thecatrave',url:'https://thecatrave.com/'},inLanguage:t(lang).inLanguage};
 }
 
-export function breadcrumbStructuredData({name, canonical} = {}) {
-  return {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://thecatrave.com/'},{'@type':'ListItem',position:2,name,item:canonical}]};
+export function breadcrumbStructuredData({name, canonical, lang = defaultLang} = {}) {
+  return {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:t(lang).footerHome,item:'https://thecatrave.com/'},{'@type':'ListItem',position:2,name,item:canonical}]};
 }
 
 export function faqStructuredData({items = []} = {}) {
   return {'@context':'https://schema.org','@type':'FAQPage',mainEntity:items.map(item=>({'@type':'Question',name:item.question,acceptedAnswer:{'@type':'Answer',text:item.answer}}))};
 }
 
+const essentialListeningLabels = new Set(Object.values(locales).map(locale => locale.essentialListening.toLowerCase()));
+
+// The generators write `img/...` and the two stylesheets relative to the site
+// root, which is where every English page sits. A page one directory down
+// resolves those against its own directory and gets nothing, so the paths are
+// made root-relative for it here. `img/` is the only relative directory the
+// pages reference; everything else is already absolute.
+export function rootRelativeAssets(html) {
+  return html
+    .replace(/(src|href)="(img\/|thecatrave-home\.css|thecatrave-article\.css)/g, '$1="/$2')
+    .replace(/srcset="([^"]*)"/g, (match, value) => `srcset="${value.replace(/(^|,\s*)img\//g, '$1/img/')}"`);
+}
+
 export function articleListeningBand({platform = 'spotify', id, kicker, title, description, src, iframeTitle, fullBleed = false, tone = ''} = {}) {
   if (!['spotify', 'soundcloud'].includes(platform)) throw new Error(`Unsupported listening platform: ${platform}`);
   if (tone && !['paper', 'cyan', 'yellow', 'coral'].includes(tone)) throw new Error(`Unsupported listening tone: ${tone}`);
-  const essentialListening = String(kicker).trim().toLowerCase() === 'essential listening';
+  // The label is translated per language (i18n.mjs), and the full-bleed
+  // geometry follows the label in every one of them.
+  const essentialListening = essentialListeningLabels.has(String(kicker).trim().toLowerCase());
   const useFullBleed = fullBleed || essentialListening;
   const classes = [
     `${platform}-feature`,
@@ -269,11 +317,11 @@ export function articleTrackEmbed({platform, id = '', url = '', title} = {}) {
   throw new Error(`Unsupported track platform: ${platform}`);
 }
 
-export function articleListeningCollection({id, title, description, tone = 'cyan', items = [], fullBleed = true} = {}) {
+export function articleListeningCollection({id, title, description, tone = 'cyan', items = [], fullBleed = true, lang = defaultLang} = {}) {
   if (!['paper', 'cyan', 'yellow', 'coral'].includes(tone)) throw new Error(`Unsupported listening collection tone: ${tone}`);
   const tracks = items.map(item => `<article class="track-entry"${item.anchor ? ` id="${escapeHtml(item.anchor)}"` : ''}><div class="track-copy"><p class="track-meta">${escapeHtml(item.artist)}</p><h4>${escapeHtml(item.title)}<span class="track-year"> · <time>${escapeHtml(item.year)}</time></span></h4><p>${escapeHtml(item.note)}</p></div><div class="track-player">${item.playerHtml}</div></article>`).join('');
   const classes = ['context-listening', fullBleed ? 'context-listening-full' : '', `listening-${tone}`].filter(Boolean).join(' ');
-  return `<aside class="${classes}" aria-labelledby="${escapeHtml(id)}"><div class="context-listening-intro"><p class="article-kicker">Essential listening</p><h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p></div><div class="context-track-list">${tracks}</div></aside>`;
+  return `<aside class="${classes}" aria-labelledby="${escapeHtml(id)}"><div class="context-listening-intro"><p class="article-kicker">${escapeHtml(t(lang).essentialListening)}</p><h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p></div><div class="context-track-list">${tracks}</div></aside>`;
 }
 
 export function articleYoutubeEmbed({src, title} = {}) {
@@ -289,36 +337,40 @@ export function articleVideoCard({youtubeId, genre, artist, title} = {}) {
   return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(spoken)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(label)}</strong></figcaption></figure>`;
 }
 
-export function articleVideoCollection({items = [], description, label = ''} = {}) {
+export function articleVideoCollection({items = [], description, label = '', lang = defaultLang} = {}) {
+  const listening = t(lang).essentialListening;
   // Complementary landmarks need a non-empty, unique accessible name; derive one
   // from the label or the opening of the description when several sit on a page.
   const name = (label || String(description).split(/(?<=[.:])\s/)[0] || 'tracks').slice(0, 80).replace(/[.:]\s*$/, '');
-  const ariaLabel = escapeHtml(`Essential listening: ${name}`);
-  return `<aside class="listening-block listening-block-full" aria-label="${ariaLabel}"><div class="listening-intro"><p class="article-kicker">Essential listening</p><p>${escapeHtml(description)}</p></div><div class="video-grid">${items.join('')}</div></aside>`;
+  const ariaLabel = escapeHtml(`${listening}: ${name}`);
+  return `<aside class="listening-block listening-block-full" aria-label="${ariaLabel}"><div class="listening-intro"><p class="article-kicker">${escapeHtml(listening)}</p><p>${escapeHtml(description)}</p></div><div class="video-grid">${items.join('')}</div></aside>`;
 }
 
-export function authorCard({filled = false} = {}) {
+export function authorCard({filled = false, lang = defaultLang} = {}) {
+  const copy = t(lang);
   const classes = `floating-inset author-card${filled ? ' author-card-filled' : ''}`;
-  const portrait = '<figure class="author-portrait"><img src="img/thecatrave-author-800.jpg" srcset="img/thecatrave-author-400.jpg 400w, img/thecatrave-author-800.jpg 800w" sizes="(max-width: 760px) 112px, 160px" width="800" height="600" loading="lazy" alt="thecatrave as a child in front of an Eastern European apartment block"></figure>';
-  const links = '<nav aria-label="Author links"><a href="https://soundcloud.com/thecatrave" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="https://thecatrave.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="https://open.spotify.com/artist/0Enu90TUHq8MQBz5WO6Ki0" target="_blank" rel="noopener noreferrer">Spotify ↗</a><a href="https://instagram.com/thecatrave" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav>';
-  return `<aside class="${classes}" aria-labelledby="author-title"><div class="author-card-grid"><h2 id="author-title">Article by thecatrave</h2>${portrait}<p class="author-bio">Breakbeat, bass and rave DJ, producer and selector. Born in Eastern Europe, shaped by years in Berlin and Barcelona, and by raving around the world.</p>${links}</div></aside>`;
+  const portrait = `<figure class="author-portrait"><img src="img/thecatrave-author-800.jpg" srcset="img/thecatrave-author-400.jpg 400w, img/thecatrave-author-800.jpg 800w" sizes="(max-width: 760px) 112px, 160px" width="800" height="600" loading="lazy" alt="${escapeHtml(copy.authorPortraitAlt)}"></figure>`;
+  const links = `<nav aria-label="${escapeHtml(copy.authorLinksLabel)}"><a href="https://soundcloud.com/thecatrave" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="https://thecatrave.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="https://open.spotify.com/artist/0Enu90TUHq8MQBz5WO6Ki0" target="_blank" rel="noopener noreferrer">Spotify ↗</a><a href="https://instagram.com/thecatrave" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav>`;
+  return `<aside class="${classes}" aria-labelledby="author-title"><div class="author-card-grid"><h2 id="author-title">${escapeHtml(copy.authorTitle)}</h2>${portrait}<p class="author-bio">${escapeHtml(copy.authorBio)}</p>${links}</div></aside>`;
 }
 
-export function bandcampSupport({description, tracks = [], fullBleed = false} = {}) {
+export function bandcampSupport({description, tracks = [], fullBleed = false, lang = defaultLang} = {}) {
+  const copy = t(lang);
   const classes = `floating-inset article-cta${fullBleed ? ' article-cta-full' : ''}${tracks.length ? '' : ' article-cta-solo'}`;
-  const copyInner = `<h3 id="bandcamp-support-title">Support my music on Bandcamp.</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Support ↗</a>`;
+  const copyInner = `<h3 id="bandcamp-support-title">${escapeHtml(copy.supportTitle)}</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a>`;
   const players = tracks.map(track => `<iframe class="bandcamp-embed" title="${escapeHtml(track.title)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(track.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(track.url)}">${escapeHtml(track.linkText)}</a></iframe>`).join('');
   return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
 }
 
-export function readNext({items = [], title = 'Read next.', kicker = 'Continue reading'} = {}) {
+export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {
   if (!items.length) throw new Error('readNext requires at least one article.');
   const cards = items.map((item, index) => articleCard(item, item.number || `A${String(index + 1).padStart(2, '0')}`, 'readNext item')).join('');
   return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
 }
 
-export function articleFooter() {
-  return `<footer class="site-footer article-footer"><nav class="footer-nav article-footer-nav" aria-label="Footer navigation"><div><p>Home</p><a href="/">thecatrave.com</a><a href="/articles">All articles</a></div><div><p>Listen</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>Follow</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><a href="#main-content">Back to top ↑</a></div></footer>`;
+export function articleFooter(lang = defaultLang) {
+  const copy = t(lang);
+  return `<footer class="site-footer article-footer"><nav class="footer-nav article-footer-nav" aria-label="${escapeHtml(copy.footerNavLabel)}"><div><p>${escapeHtml(copy.footerHome)}</p><a href="/">thecatrave.com</a><a href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.footerAllArticles)}</a></div><div><p>${escapeHtml(copy.footerListen)}</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>${escapeHtml(copy.footerFollow)}</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><a href="#main-content">${escapeHtml(copy.footerTop)}</a></div></footer>`;
 }
 
 export function homeFooter() {

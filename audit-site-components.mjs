@@ -1,7 +1,8 @@
 import fs from 'node:fs';
-import { pages as manifest, guides } from './pages.mjs';
+import { pages as manifest, guides, langOf } from './pages.mjs';
+import { locales } from './i18n.mjs';
 import {homeArticlesNewestFirst, relatedArticles} from './home-articles.mjs';
-import {analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, ownSetListening, readNext, siteHeader} from './site-components.mjs';
+import {rootRelativeAssets, analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, ownSetListening, readNext, siteHeader} from './site-components.mjs';
 
 // Derived from the manifest, so a new guide is held to the shared article
 // contract the day it is added. This list used to be written out by hand here
@@ -12,13 +13,22 @@ const articlePages = guides.map(page => pages[page.name]);
 // Guides paired with their manifest entry, for the checks that need to know
 // which route a page is supposed to be.
 const guidePages = guides.map(page => ({ ...page, html: pages[page.name] }));
+const inPageForm = (page, html) => page.path.replace(/^\/|\/$/g, '').includes('/') ? rootRelativeAssets(html) : html;
 const idsOf = html => [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
 const localAssetsOf = html => [...html.matchAll(/(?:src|href)="([^"?#]+\.(?:css|js|png|jpe?g|webp|svg))[^"#]*"/gi)]
   .map(match => decodeURIComponent(match[1]))
   .filter(value => !/^https?:/.test(value) && !value.startsWith('/'));
 const generatorFiles = guides.map(page => page.generator);
 const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readFileSync(file, 'utf8')]));
-const generatorSources = Object.values(generators);
+// A translated guide's page-specific code is its content module; the generator
+// it shares with the other translations holds only the assembly. Both count as
+// that page's source, or the shared-component checks below would read the
+// assembly file and find no figures, tables or sources in it.
+const contentModuleFor = page => `content/${langOf(page)}/${page.name.replace(/^[a-z]{2}-/, '')}.mjs`;
+const generatorSources = guides.map(page => {
+  const module = contentModuleFor(page);
+  return generators[page.generator] + (fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '');
+});
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
 const homeCss = fs.readFileSync('thecatrave-home.css', 'utf8');
 const homeRuntime = fs.readFileSync('homepage-runtime.js', 'utf8').trim();
@@ -53,8 +63,11 @@ const faqMatchesVisibleContent = html => {
     item.question === schema[index].question && item.answer === schema[index].answer
   );
 };
+// The label is translated per language (i18n.mjs), so the scan looks for any
+// of them: the full-bleed rule is about the block, not about English.
+const listeningLabels = Object.values(locales).map(locale => locale.essentialListening);
 const essentialListeningClasses = html => [...html.matchAll(/<aside class="([^"]+)"[^>]*>[\s\S]*?<\/aside>/g)]
-  .filter(match => match[0].includes('<p class="article-kicker">Essential listening</p>'))
+  .filter(match => listeningLabels.some(label => match[0].includes(`<p class="article-kicker">${label}</p>`)))
   .map(match => match[1]);
 
 const expectedHomeHeader = siteHeader({
@@ -76,7 +89,6 @@ const expectedNowPlaying = nowPlayingBanner({
 const currentHomeArticles = homeArticlesNewestFirst();
 const expectedHomeArticles = homeArticlesSection({items:currentHomeArticles});
 const expectedArticleHeader = siteHeader({variant:'article'});
-const expectedAuthorCard = authorCard({filled:true});
 const expectedBreakbeatToc = articleTableOfContents({items:[
   {id:'definition',label:'Rhythm or genre?'},{id:'origins',label:'Funk, hip-hop and samplers'},
   {id:'history-map',label:'History map'},{id:'club-history',label:'Regional club histories'},
@@ -180,10 +192,20 @@ const checks = {
   // One assertion per shared component, run against every guide, instead of the
   // same four predicates hand-written per page. Adding a guide to pages.mjs is
   // now enough to hold it to all of them.
-  articleHeaderShared: articlePages.every(page => page.includes(expectedArticleHeader)),
-  articleFooterShared: articlePages.every(page => page.includes(articleFooter())),
+  articleHeaderShared: guidePages.every(page => page.html.includes(siteHeader({variant:'article', lang: langOf(page)}))),
+  articleFooterShared: guidePages.every(page => page.html.includes(articleFooter(langOf(page)))),
   articleAnalyticsShared: articlePages.every(page => page.includes(analytics())),
-  articleAuthorShared: articlePages.every(page => page.includes(expectedAuthorCard)),
+  // A page below the site root serves the shared chrome with root-relative
+  // asset paths, so the expectation is transformed the same way the page was.
+  articleAuthorShared: guidePages.every(page => page.html.includes(inPageForm(page, authorCard({filled:true, lang: langOf(page)})))),
+  // A translation says which page it translates, and the English page says it
+  // back. One-sided hreflang is ignored by search engines.
+  translationsDeclareEachOther: guidePages.filter(page => page.translationOf).every(page => {
+    const english = guidePages.find(other => other.path === page.translationOf);
+    return Boolean(english)
+      && page.html.includes(`hreflang="en" href="https://thecatrave.com${page.translationOf}"`)
+      && english.html.includes(`hreflang="${langOf(page)}" href="https://thecatrave.com${page.path}"`);
+  }),
   articleFontsNonBlocking: articlePages.every(page => count(page, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2),
   breakbeatTocShared: pages.breakbeat.includes(expectedBreakbeatToc),
   breakbeatListeningShared: pages.breakbeat.includes(expectedBreakbeatListening),

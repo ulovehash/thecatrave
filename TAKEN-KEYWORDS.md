@@ -108,6 +108,64 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - creamfields attendance
 - what is creamfields
 
+## de/coachella-festival.html
+
+- coachella
+- was ist coachella
+- coachella festival
+- coachella 2027
+- wo findet coachella statt
+- wie lange dauert coachella
+- wann ist coachella
+- wem gehört coachella
+- wie viele besucher hat coachella
+
+## de/mysteryland-festival.html
+
+- mysteryland
+- mysteryland festival
+- mysteryland 2027
+- wo findet mysteryland statt
+- wie viele besucher hat mysteryland
+- was kosten tickets für mysteryland
+
+## de/parookaville-festival.html
+
+- parookaville
+- parookaville festival
+- parookaville 2027
+- parookaville weeze
+- parookaville gelände
+- parookaville besucherzahlen
+- wie viele besucher hat parookaville
+- was kosten tickets für parookaville
+- wem gehört parookaville
+- wo liegt parookaville
+
+## de/tomorrowland-festival.html
+
+- tomorrowland
+- tomorrowland festival
+- tomorrowland 2027
+- wo ist tomorrowland
+- tomorrowland belgien
+- tomorrowland winter
+- tomorrowland thailand
+- tomorrowland mainstage
+- wie viele besucher hat tomorrowland
+- was kosten tickets für tomorrowland
+- wem gehört tomorrowland
+- wann ist tomorrowland
+
+## de/untold-festival.html
+
+- untold festival
+- untold 2027
+- wo findet das untold festival statt
+- wie viele besucher hat untold
+- ist untold das größte festival der welt
+- untold cluj
+
 ## drum-and-bass-guide.html
 
 - drum and bass
@@ -148,6 +206,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - edc las vegas location
 - how many people attend edc
 - when did edc start
+
+## german-electronic-music.html
+
+- german electronic music
+- german techno
+- german electronic music artists
 
 ## glastonbury-festival.html
 
@@ -263,6 +327,19 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - famous clubs in london
 - ministry of sound
 
+## mysteryland-festival.html
+
+- mysteryland 2026
+- mysteryland 2025
+- mysteryland 2027
+- mysteryland festival
+- mysteryland tickets
+- mysteryland location
+- mysteryland chile
+- mysteryland netherlands
+- where is mysteryland
+- mysteryland usa
+
 ## parookaville-festival.html
 
 - parookaville festival
@@ -272,6 +349,17 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - bill parooka
 - parookaville location
 - where is parookaville
+
+## primavera-sound-barcelona.html
+
+- primavera sound
+- primavera sound barcelona
+- primavera festival
+- primavera sound location
+- primavera sound festival
+- primavera a la ciutat
+- primavera sound porto
+- what is primavera sound
 
 ## sonar-festival-barcelona.html
 

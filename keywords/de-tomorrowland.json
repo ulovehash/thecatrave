@@ -1,0 +1,82 @@
+{
+  "page": "de/tomorrowland-festival.html",
+  "seed": "tomorrowland",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, 17 September 2026 (TRANSLATION-RESEARCH.md)",
+  "terms": [
+    {
+      "term": "tomorrowland",
+      "volume": 35000
+    },
+    {
+      "term": "tomorrowland festival",
+      "volume": 450
+    },
+    {
+      "term": "tomorrowland 2027",
+      "volume": 1600,
+      "note": "next edition; dates not announced when written; refresh yearly"
+    },
+    {
+      "term": "wo ist tomorrowland",
+      "volume": 700
+    },
+    {
+      "term": "tomorrowland belgien",
+      "volume": 700
+    },
+    {
+      "term": "tomorrowland winter",
+      "volume": 1800
+    },
+    {
+      "term": "tomorrowland thailand",
+      "volume": 1000
+    },
+    {
+      "term": "tomorrowland mainstage",
+      "volume": 700
+    },
+    {
+      "term": "wie viele besucher hat tomorrowland",
+      "volume": 700,
+      "note": "the \"tomorrowland besucher\" cluster, as a question"
+    },
+    {
+      "term": "was kosten tickets für tomorrowland",
+      "volume": 800,
+      "note": "the \"tomorrowland tickets preise\" cluster, as a question"
+    },
+    {
+      "term": "wem gehört tomorrowland",
+      "volume": 100
+    },
+    {
+      "term": "wann ist tomorrowland",
+      "volume": 1200,
+      "note": "\"wann ist tomorrowland 2026\" 1,200"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the festival name, country de, volume filter, 17 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "tomorrowland 2026",
+      "volume": 50000,
+      "why": "dated; the official site holds it, and the 2026 edition is over"
+    },
+    {
+      "term": "tomorrowland film",
+      "volume": 1600,
+      "why": "collision: the 2015 film"
+    },
+    {
+      "term": "tomorrowland 2026 tickets",
+      "volume": 2400,
+      "why": "transactional; answered in one FAQ, not targeted"
+    },
+    {
+      "term": "jbl flip 7 tomorrowland",
+      "volume": 400,
+      "why": "product collision"
+    }
+  ]
+}

@@ -39,9 +39,33 @@ export const pages = [
   { name: 'mysteryland',   file: 'mysteryland-festival.html',          path: '/mysteryland-festival',         kind: 'guide', generator: 'build-mysteryland-article.mjs', card: { title: 'Mysteryland', caption: "A 1993 rave that settled in Haarlemmermeer, back in August 2027." } },
   { name: 'primavera-sound', file: 'primavera-sound-barcelona.html',    path: '/primavera-sound-barcelona',    kind: 'guide', generator: 'build-primavera-sound-article.mjs', card: { title: 'Primavera Sound', caption: "Barcelona's waterfront festival: location, dates, scale and music." } },
   { name: 'articles',      file: 'articles.html',                      path: '/articles',                     kind: 'index', generator: 'build-articles-page.mjs', card: { title: 'All articles', caption: "Long guides to dance music and club culture." } },
+  // German. `lang` is what the gate reads to hold a page to its own language:
+  // the chrome it must carry, the keyword map it must satisfy, the index and
+  // the Read Next block it belongs to. A page without it is English, which is
+  // what every page was until September 2026.
+  { name: 'de-tomorrowland', lang: 'de', translationOf: '/tomorrowland-festival', file: 'de/tomorrowland-festival.html', path: '/de/tomorrowland-festival', kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Tomorrowland', caption: "Ein Park in Belgien, den die Welt im Stream kennt." } },
+  { name: 'de-parookaville', lang: 'de', translationOf: '/parookaville-festival', file: 'de/parookaville-festival.html', path: '/de/parookaville-festival', kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Parookaville', caption: "Ein Festival als Stadt auf dem Flughafen Weeze." } },
+  { name: 'de-coachella',    lang: 'de', translationOf: '/what-is-coachella', file: 'de/coachella-festival.html',    path: '/de/coachella-festival',    kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Coachella', caption: "Zwei Wochenenden im April in der Wüste von Kalifornien." } },
+  { name: 'de-mysteryland',  lang: 'de', translationOf: '/mysteryland-festival', file: 'de/mysteryland-festival.html',  path: '/de/mysteryland-festival',  kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Mysteryland', caption: "Ein Rave von 1993, der in Haarlemmermeer sesshaft wurde." } },
+  { name: 'de-untold',       lang: 'de', translationOf: '/untold-festival', file: 'de/untold-festival.html',       path: '/de/untold-festival',       kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Untold', caption: "Vier Tage im August in Cluj-Napoca, Siebenbürgen." } },
+  { name: 'de-articles',     lang: 'de', translationOf: '/articles', file: 'de/artikel.html',               path: '/de/artikel',               kind: 'index', generator: 'build-articles-page.mjs', card: { title: 'Alle Artikel', caption: "Ausführliche Guides zu Dance Music und Clubkultur." } },
   { name: 'selector',     file: 'selector.html',                      path: '/selector',                     kind: 'tool',  generator: 'build-selector.mjs', card: { title: 'The Selector', caption: "Press the button, pick a random DJ set." } }
 ];
 
+export const langOf = page => page.lang || 'en';
+
+// Which pages are the same page in another language. A translated entry names
+// the English path it was translated from; both sides then announce each other
+// with hreflang, which only counts when it is declared in both directions.
+export function alternatesFor(path) {
+  const translations = pages.filter(page => page.translationOf);
+  const english = translations.find(page => page.path === path)?.translationOf || path;
+  const family = translations.filter(page => page.translationOf === english);
+  if (!family.length) return [];
+  return [{lang: 'en', path: english}, ...family.map(page => ({lang: langOf(page), path: page.path}))]
+    .map(entry => ({lang: entry.lang, href: `https://thecatrave.com${entry.path}`}));
+}
 export const guides = pages.filter(page => page.kind === 'guide');
+export const guidesIn = lang => guides.filter(page => langOf(page) === lang);
 export const files = pages.map(page => page.file);
 export const routes = pages.map(({ path, name }) => ({ path, name }));

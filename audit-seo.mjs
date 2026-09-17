@@ -151,7 +151,9 @@ check('sitemap.xml', 'is well-formed xml', sitemap.trim().startsWith('<?xml') &&
 check('feed.xml', 'exists', feed.length > 0);
 check('feed.xml', 'has an RSS 2.0 root', /<rss\s[^>]*version="2\.0"/.test(feed) && feed.includes('</rss>'));
 check('feed.xml', 'has a self link', feed.includes('<atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />'));
-check('feed.xml', 'contains every article', feedItemCount === pages.filter(page => page.kind === 'guide').length, `${feedItemCount} items`);
+// English guides only: the feed is advertised from the English pages and its
+// items are their URLs. A German feed would be its own file, at its own link.
+check('feed.xml', 'contains every article', feedItemCount === pages.filter(page => page.kind === 'guide' && !page.lang).length, `${feedItemCount} items`);
 
 if (failures.length) {
   console.error(`SEO audit failed (${failures.length}):`);

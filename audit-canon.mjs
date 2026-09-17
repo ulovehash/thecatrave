@@ -56,7 +56,13 @@ const maps = fs.existsSync(DIR)
   : [];
 
 for (const guide of pages.filter(p => p.kind === 'guide')) {
-  if (!maps.some(([, m]) => m.page === guide.file)) {
+  // A translated guide carries the media of the page it was translated from,
+  // which is a decision recorded in home-articles.mjs rather than a second
+  // selection to make: it is held to that page's map, not to a map of its own.
+  const source = guide.translationOf
+    ? pages.find(page => page.path === guide.translationOf)?.file
+    : guide.file;
+  if (!maps.some(([, m]) => m.page === source)) {
     failures.push(`${guide.file}: no media map in ${DIR}/. Run the six sources in FIGURES.md; a list from memory put a jungle record in the drum and bass canon`);
   }
 }

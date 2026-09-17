@@ -1,0 +1,55 @@
+{
+  "page": "de/untold-festival.html",
+  "seed": "untold festival",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, 17 September 2026 (TRANSLATION-RESEARCH.md)",
+  "terms": [
+    {
+      "term": "untold festival",
+      "volume": 1100
+    },
+    {
+      "term": "untold 2027",
+      "volume": 100,
+      "note": "next edition, 5 to 8 August 2027, the Star Edition; refresh yearly"
+    },
+    {
+      "term": "wo findet das untold festival statt",
+      "volume": 200
+    },
+    {
+      "term": "wie viele besucher hat untold",
+      "volume": 150
+    },
+    {
+      "term": "ist untold das größte festival der welt",
+      "volume": 50
+    },
+    {
+      "term": "untold cluj",
+      "volume": 100
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the festival name, country de, volume filter, 17 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "studio untold",
+      "volume": 9400,
+      "why": "collision: a clothing label"
+    },
+    {
+      "term": "dracula untold",
+      "volume": 6200,
+      "why": "collision: the 2014 film"
+    },
+    {
+      "term": "club de nuit untold",
+      "volume": 300,
+      "why": "collision: a perfume"
+    },
+    {
+      "term": "untold festival 2026",
+      "volume": 250,
+      "why": "dated; the 2026 edition is over"
+    }
+  ]
+}

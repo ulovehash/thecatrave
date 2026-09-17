@@ -1,0 +1,78 @@
+{
+  "page": "de/parookaville-festival.html",
+  "seed": "parookaville",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, 17 September 2026 (TRANSLATION-RESEARCH.md)",
+  "terms": [
+    {
+      "term": "parookaville",
+      "volume": 31000
+    },
+    {
+      "term": "parookaville festival",
+      "volume": 600
+    },
+    {
+      "term": "parookaville 2027",
+      "volume": 1100,
+      "note": "next edition, dated 16 to 18 July 2027; refresh yearly"
+    },
+    {
+      "term": "parookaville weeze",
+      "volume": 200
+    },
+    {
+      "term": "parookaville gelände",
+      "volume": 300
+    },
+    {
+      "term": "parookaville besucherzahlen",
+      "volume": 350
+    },
+    {
+      "term": "wie viele besucher hat parookaville",
+      "volume": 350,
+      "note": "the besucherzahlen cluster, as a question"
+    },
+    {
+      "term": "was kosten tickets für parookaville",
+      "volume": 1200,
+      "note": "the \"parookaville tickets\" cluster, as a question"
+    },
+    {
+      "term": "wem gehört parookaville",
+      "volume": 100
+    },
+    {
+      "term": "wo liegt parookaville",
+      "volume": 200
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the festival name, country de, volume filter, 17 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "parookaville 2026",
+      "volume": 11000,
+      "why": "dated; the 2026 edition is over"
+    },
+    {
+      "term": "parookaville 2026 lineup",
+      "volume": 1700,
+      "why": "dated and changes every year"
+    },
+    {
+      "term": "parookaville outfit",
+      "volume": 300,
+      "why": "shopping intent; this site writes about music"
+    },
+    {
+      "term": "parookaville jobs",
+      "volume": 300,
+      "why": "different intent"
+    },
+    {
+      "term": "timetable parookaville 2026",
+      "volume": 500,
+      "why": "dated; a running order we cannot keep current"
+    }
+  ]
+}

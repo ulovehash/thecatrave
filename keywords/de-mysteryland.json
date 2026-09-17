@@ -1,0 +1,46 @@
+{
+  "page": "de/mysteryland-festival.html",
+  "seed": "mysteryland",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, 17 September 2026 (TRANSLATION-RESEARCH.md)",
+  "terms": [
+    {
+      "term": "mysteryland",
+      "volume": 2000
+    },
+    {
+      "term": "mysteryland festival",
+      "volume": 200
+    },
+    {
+      "term": "mysteryland 2027",
+      "volume": 100,
+      "note": "next edition, 27 to 29 August 2027; refresh yearly"
+    },
+    {
+      "term": "wo findet mysteryland statt",
+      "volume": 100
+    },
+    {
+      "term": "wie viele besucher hat mysteryland",
+      "volume": 50
+    },
+    {
+      "term": "was kosten tickets für mysteryland",
+      "volume": 50,
+      "note": "the \"mysteryland tickets\" cluster, as a question"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the festival name, country de, volume filter, 17 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "mysteryland 2026",
+      "volume": 200,
+      "why": "there is no 2026 edition; the page says so rather than targeting the phrase"
+    },
+    {
+      "term": "mysteryland 2025",
+      "volume": 300,
+      "why": "dated; the last edition in its old form is over"
+    }
+  ]
+}
