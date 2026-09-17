@@ -14,6 +14,8 @@ What is the Sonar festival to someone who has never been? This guide covers when
 
 Sónar 2027 is on Thursday 17, Friday 18 and Saturday 19 June 2027, in Barcelona, according to the festival's own site. The line-up and the site plan had not been published when this guide was written in September 2026; the official site at sonar.es carries both once they are announced.
 
+If you are comparing Barcelona's June festivals, [Primavera Sound Barcelona](/primavera-sound-barcelona) runs earlier in the month and covers a broader mix of rock, pop, hip-hop, electronic and experimental music.
+
 The dates follow the usual pattern: a Thursday, Friday and Saturday in the middle of June, 12 to 14 June in 2025 and 18 to 20 June in 2026. This guide is updated when the next year's dates are announced.
 
 ## Where is Sónar festival in Barcelona?

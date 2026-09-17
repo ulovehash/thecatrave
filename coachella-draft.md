@@ -2,7 +2,7 @@
 
 ## Answer
 
-Coachella, in full the Coachella Valley Music and Arts Festival, is a music and arts festival held every April at the Empire Polo Club in Indio, California, in the desert about 125 miles east of Los Angeles. It runs over two consecutive weekends, Friday to Sunday. The plan is the same line-up both times except at Quasar, though the line-up and set times can change. Goldenvoice, a promoter owned by AEG Presents, produces it; Paul Tollett and Rick Van Santen founded it in 1999. The city lists capacity at up to 125,000 people a day and attendance at 250,000 across the two weekends. Its bill mixes rock, pop, hip-hop, Latin and electronic music, and the Sahara tent is given to the biggest electronic acts.
+Coachella, in full the Coachella Valley Music and Arts Festival, is held at the Empire Polo Club in Indio, California, about 125 miles east of Los Angeles. Coachella 2027 runs on 9 to 11 April and 16 to 18 April, with broadly the same line-up across both weekends except at Quasar. Goldenvoice, a promoter owned by AEG Presents, produces it; Paul Tollett and Rick Van Santen founded it in 1999. The city lists capacity at up to 125,000 people a day and attendance at 250,000 across the two weekends. The bill mixes rock, pop, hip-hop, Latin and electronic music, with the Sahara tent and Quasar carrying much of the electronic programme.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ What is Coachella festival to someone who has never been? This guide covers when
 
 ## Coachella 2027: dates
 
-Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026, and advance passes went on sale on 1 May 2026. As of 15 September 2026, the official site had opened its 2027 waitlist but had not announced the line-up.
+Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026, and advance passes went on sale on 1 May 2026. As of 17 September 2026, the official site had opened its 2027 waitlist but had not announced the line-up.
 
 ## Where Coachella is
 

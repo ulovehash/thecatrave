@@ -27,10 +27,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('live-dj-sets-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/live-dj-sets';
-const title = "Live DJ Sets: Where They're Filmed, From Boiler Room to HÖR";
-const description = 'Where live DJ sets are filmed and streamed: a short history of Rinse, Boiler Room, NTS, The Lot, Cercle, Kiosk and HÖR, with numbers from 62,877 sets.';
-const date = '2026-09-11';
-const dateLabel = '11 September 2026';
+const title = 'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More';
+const description = 'Where to watch live DJ sets online, from Boiler Room and HÖR to NTS, Rinse FM, The Lot Radio, Kiosk and Cercle, with links and listening routes.';
+const datePublished = '2026-09-11';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -218,12 +219,12 @@ const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))}
 const articleHtml = [
   articleHero({
     kicker: 'Live DJ sets',
-    title: 'Live DJ Sets: The Platforms That Film Them',
-    deck: 'Pirate radio, a webcam in London, a shipping container in Brooklyn and a white-tiled room in Berlin: who films DJ sets, since when, and what 62,877 of their recordings add up to.',
+    title: 'Where to Watch Live DJ Sets Online',
+    deck: 'Boiler Room, HÖR, NTS, Rinse FM and the independent channels that film complete DJ sets, plus a way to choose from 62,877 recordings without an algorithm.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
-    summaryHtml: infoBanner({label: 'Live DJ sets', bodyHtml: inline(answer[0]), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'WHERE TO WATCH LIVE DJ SETS', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Where to put the camera.', bodyHtml: join(intro), className: 'article-intro'}),
@@ -268,7 +269,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Live DJ Sets', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -276,7 +277,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/live-dj-sets.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page live-dj-sets-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

@@ -28,11 +28,11 @@ const preservationPhrases = ['breakbeat music genre','breakbeat genre','breakbea
 const missingPreservationPhrases = preservationPhrases.filter(phrase=>!html.toLowerCase().includes(phrase.toLowerCase()));
 const originalPublicationDatePreserved = /"datePublished":"2025-04-06"/.test(html);
 const readingTimePresent = /<p class="reading-time">~\d+ min read<\/p>/.test(html);
-const visibleModifiedDate = (html.match(/<time datetime="([^"]+)">30 August 2026<\/time>/)||[])[1];
+const visibleModifiedDate = (html.match(/<time datetime="([^"]+)">17 September 2026<\/time>/)||[])[1];
 const structuredModifiedDate = (html.match(/"dateModified":"([^"]+)"/)||[])[1];
 const openGraphModifiedDate = (html.match(/property="article:modified_time" content="([^"]+)"/)||[])[1];
 const openGraphPublishedDate = (html.match(/property="article:published_time" content="([^"]+)"/)||[])[1];
-const modifiedDateConsistent = visibleModifiedDate === '2026-08-30' && structuredModifiedDate === visibleModifiedDate && openGraphModifiedDate === visibleModifiedDate;
+const modifiedDateConsistent = visibleModifiedDate === '2026-09-17' && structuredModifiedDate === visibleModifiedDate && openGraphModifiedDate === visibleModifiedDate;
 const publishedDateConsistent = openGraphPublishedDate === '2025-04-06' && originalPublicationDatePreserved;
 const directAnswer = (html.match(/<aside class="article-summary article-listen"[^>]*><strong>BREAKBEAT DEFINITION:<\/strong>\s*([\s\S]*?)<\/aside>/)||[])[1] || '';
 const directAnswerWordCount = directAnswer.replace(/<[^>]+>/g,' ').trim().split(/\s+/).filter(Boolean).length;

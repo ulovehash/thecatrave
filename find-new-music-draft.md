@@ -28,7 +28,7 @@ That is the argument in one sentence. When you skip through singles you are audi
 
 It is also the most efficient way to discover new artists there is. One good hour can introduce you to twenty artists, and you will remember the ones that stood out because you heard them in a sequence rather than as a thumbnail.
 
-The place to find them is YouTube, where Boiler Room, HÖR, Cercle, Dekmantel, Keep Hush and every radio station above upload full recordings. The problem is the same one you started with: there are tens of thousands of them, the names mean nothing to you, and you cannot tell from a name whether an hour is worth your evening.
+The place to find them is YouTube, where Boiler Room, HÖR, Cercle, Dekmantel, Keep Hush and every radio station above upload full recordings. This guide to [where to watch live DJ sets](/live-dj-sets) explains how the main archives differ, while [the best Boiler Room sets](/best-boiler-room-sets) gives you a shorter starting list. The problem is the same one you started with: there are tens of thousands of them, the names mean nothing to you, and you cannot tell from a name whether an hour is worth your evening.
 
 ## The Selector
 

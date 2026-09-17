@@ -33,11 +33,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('coachella-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/what-is-coachella';
-const title = 'What Is Coachella? Where It Is, When, and the Music';
-const description = 'What is Coachella: the festival at the Empire Polo Club in Indio, California, when Coachella 2027 is, how long it lasts, how big it is, who owns it, and what plays.';
+const title = 'What Is Coachella? 2027 Dates, Location and Music';
+const description = 'Coachella 2027 runs 9 to 11 and 16 to 18 April at the Empire Polo Club in Indio, California. Learn its location, scale, ownership and music.';
 const datePublished = '2026-09-14';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

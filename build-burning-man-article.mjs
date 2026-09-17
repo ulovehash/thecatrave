@@ -30,8 +30,8 @@ const canonical = 'https://thecatrave.com/what-is-burning-man';
 const title = 'What Is Burning Man? The Event, the City and the Music';
 const description = 'A week-long city in the Nevada desert, not a festival with a lineup. What happens there, where it is, what it costs, and what the sound camps actually play.';
 const datePublished = '2026-09-10';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -154,6 +154,18 @@ const sections = [
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
+const festivalComparison = articleTable({
+  headers: ['Festival expectation', 'Burning Man reality'],
+  rows: [
+    ['A central lineup', 'No event-wide lineup; camps and art cars programme their own music'],
+    ['A main stage', 'No main stage; sound is distributed across the city'],
+    ['Food and drink vendors', 'Participants bring what they need; only limited essentials are sold'],
+    ['An audience watching a production', 'Participants build camps, art, services and events'],
+    ['A permanent venue', 'Black Rock City is built in the Nevada desert and removed after the event'],
+    ['Leave when the final act ends', 'The city culminates in the Man burn and Temple burn, then disappears']
+  ].map(row => row.map(escapeHtml))
+});
+
 const sectionHtml = sections.map(s => articleSection({
   id: s.id, title: s.title, kicker: s.kicker,
   bodyHtml: s.subsections ? renderWithSubsections(getSection(s.heading), s.subsections) : render(getSection(s.heading))
@@ -172,7 +184,7 @@ const articleHtml = [
     summaryHtml: infoBanner({label: 'What is Burning Man', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'A city, not a festival.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
+  articleSection({id: 'introduction', title: 'A city, not a festival.', bodyHtml: `${render(getSection('Introduction'))}${festivalComparison}`, className: 'article-intro'}),
   ...sectionHtml,
   articleFaq({items: faqItems, title: 'Burning Man FAQ.', openFirst: true}),
   authorCard({filled: true}),

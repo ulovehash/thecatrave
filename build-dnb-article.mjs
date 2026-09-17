@@ -12,8 +12,8 @@ const canonical = 'https://thecatrave.com/drum-and-bass-guide';
 const title = 'What Is Drum and Bass? 174 BPM, History and Subgenres';
 const description = 'Drum and bass is a British electronic music genre built on fast breakbeats and deep sub-bass, usually at 170–180 BPM. Hear its history, artists and subgenres.';
 const datePublished = '2026-09-02';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

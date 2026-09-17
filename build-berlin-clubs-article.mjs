@@ -28,8 +28,9 @@ const draft = fs.readFileSync('berlin-clubs-draft.md', 'utf8').replace(/—/g, '
 const canonical = 'https://thecatrave.com/best-clubs-in-berlin';
 const title = 'Best Clubs in Berlin: The Legends and the Ones Still Open';
 const description = 'Berghain, Tresor, KitKat and the clubs that came before them: the best clubs in Berlin, how each became famous, and the sets to hear before you go.';
-const date = '2026-09-10';
-const dateLabel = '10 September 2026';
+const datePublished = '2026-09-10';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -110,16 +111,16 @@ const media = {
   // Status from RA's 2026 guide, Time Out and the clubs' Wikipedia articles,
   // checked 2026-09-10. Typed, not computed. Revisit every six months.
   'Table: now': articleTable({
-    headers: ['Club', 'Where', 'Opened', 'Known for', 'Status, September 2026'],
+    headers: ['Club', 'Area', 'Music and character', 'Best for', 'Entry model'],
     rows: [
-      ['Tresor', 'Köpenicker Straße, Mitte', '1991 (here since 2007)', 'Detroit and Berlin techno; its own label since 1991', 'Open'],
-      ['Berghain / Panorama Bar', 'Friedrichshain', '2004', 'Techno and house; no photographs', 'Open'],
-      ['KitKatClub', 'Brückenstraße, Mitte', '1994 (here since 2007)', 'Techno; a strict fetish and glamour dress code', 'Open'],
-      ['Kater (formerly Kater Blau)', 'North bank of the Spree, Friedrichshain', '2014', 'Marathon parties; the Bar 25 family', 'Open'],
-      ['Sisyphos', 'Hauptstraße, Rummelsburg', '2009', 'Friday night to Monday morning; five floors', 'Open'],
-      ['Club der Visionaere', 'Alt-Treptow, on the canal', 'Early 2000s', 'Minimal', 'Open'],
-      ['OST', 'A former power station', 'n/a', 'Several rooms in one industrial building', 'Open'],
-      ['Wilde Renate', 'Near the Elsenbrücke, Friedrichshain', '2007', 'Theme parties in a former apartment building', 'Open; lease extended December 2025']
+      ['Tresor', 'Mitte', 'Detroit and Berlin techno in a former power station', 'History and hard-edged techno', 'Ticket or door sale, event dependent'],
+      ['Berghain / Panorama Bar', 'Friedrichshain', 'Techno downstairs, house upstairs; no photographs', 'A long weekend and a focused music policy', 'Door selection; advance tickets only for some events'],
+      ['KitKatClub', 'Mitte', 'Techno with fetish, latex, leather and glamour codes', 'Sex-positive themed nights', 'Strict event-specific dress code'],
+      ['Kater', 'Friedrichshain', 'House and techno with the Bar 25 family\'s playful character', 'Marathon parties by the Spree', 'Door sale; programme varies'],
+      ['Sisyphos', 'Rummelsburg', 'Five floors and outdoor space in a former factory', 'A full weekend rather than one room', 'Door selection; long weekend hours'],
+      ['Club der Visionaere', 'Alt-Treptow', 'Minimal and intimate canal-side sessions', 'Smaller-scale summer clubbing', 'Event and capacity dependent'],
+      ['OST', 'Friedrichshain', 'Multi-room electronic programming in an industrial building', 'Larger warehouse nights', 'Usually event ticket or door sale'],
+      ['Wilde Renate', 'Friedrichshain', 'House, techno and themed rooms in a former apartment building', 'Exploring several rooms', 'Door selection; check the current event']
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -178,7 +179,7 @@ const articleHtml = [
     title: 'The best clubs in Berlin, and the legends behind them',
     deck: 'From UFO and Tresor to Berghain and Sisyphos: the rooms that made Berlin a techno city, the famous clubs that closed, and the ones still open.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best clubs in Berlin', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -220,7 +221,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Best Clubs in Berlin', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -228,7 +229,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/berlin-clubs.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page berlin-clubs-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

@@ -33,10 +33,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('london-clubs-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-electronic-music-clubs-in-london';
-const title = 'Clubs in London: The Legends and the Best Ones Open Now';
-const description = 'Heaven, Shoom, the Blue Note and fabric: the London clubs that made acid house, jungle, garage and dubstep, and the best clubs in London open now.';
-const date = '2026-09-11';
-const dateLabel = '11 September 2026';
+const title = 'Best Electronic Music Clubs in London: History and Where to Go';
+const description = 'The best electronic music clubs in London, from fabric and FOLD to Phonox and The Cause, plus the rooms that shaped acid house, jungle, garage and dubstep.';
+const datePublished = '2026-09-11';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -110,24 +111,24 @@ const media = {
   // years only where a source gives one. Typed, not computed. Revisit every
   // six months.
   'Table: now': articleTable({
-    headers: ['Club', 'Where', 'Opened', 'Named by', 'Status, September 2026'],
+    headers: ['Club', 'Area', 'Music and character', 'Best for', 'Entry note'],
     rows: [
-      ['fabric', 'Farringdon', '1999', 'RA, Time Out, Condé Nast', 'Open'],
-      ['The Cause', 'Silvertown', '2018 (here since 2023)', 'RA, Time Out, Condé Nast', 'Open'],
-      ['FOLD', 'Canning Town', '2018', 'RA, Time Out, Condé Nast', 'Open'],
-      ['The Carpet Shop', 'Peckham', 'n/a', 'RA, Time Out, Condé Nast', 'Open'],
-      ['Dalston Superstore', 'Dalston', 'n/a', 'RA, Time Out, Condé Nast', 'Open'],
-      ['Phonox', 'Brixton', 'n/a', 'RA, Time Out, Condé Nast', 'Open'],
-      ['MOT', 'South Bermondsey', 'n/a', 'RA, Time Out, Condé Nast', 'Open'],
-      ['Drumsheds', 'Edmonton', 'n/a', 'Time Out, Condé Nast', 'Open'],
-      ['Ministry of Sound', 'Elephant and Castle', '1991', 'Time Out, Condé Nast', 'Open'],
-      ['Heaven', 'Charing Cross', '1979', 'Time Out, Condé Nast', 'Open'],
-      ['Colour Factory', 'Hackney Wick', 'n/a', 'RA, Time Out', 'Open'],
-      ['Ormside Projects', 'South Bermondsey', 'n/a', 'RA, Time Out', 'Open'],
-      ['Night Tales', 'Hackney Central', 'n/a', 'RA, Time Out', 'Open'],
-      ['KOKO', 'Camden', 'n/a', 'RA, Time Out', 'Open'],
-      ['XOYO', 'Shoreditch', '2010', 'Time Out', 'Open'],
-      ['Brixton Jamm', 'Brixton', 'n/a', 'Condé Nast', 'Open']
+      ['fabric', 'Farringdon', 'House, techno, bass and drum and bass across three rooms', 'A landmark London club with a broad programme', 'Book the specific night'],
+      ['The Cause', 'Silvertown', 'Independent multi-room electronic events', 'Long, community-minded parties', 'Location and hours vary by event'],
+      ['FOLD', 'Canning Town', 'Techno and experimental club music; floor-level booth', '24-hour events and focused crowds', 'Advance ticket recommended'],
+      ['The Carpet Shop', 'Peckham', 'Intimate basement programming', 'Smaller south London nights', 'Check the promoter and event listing'],
+      ['Dalston Superstore', 'Dalston', 'Queer bar and club with mixed electronic programming', 'A social night with DJs', 'Late capacity can be tight'],
+      ['Phonox', 'Brixton', 'House, techno and bass in a single-room club', 'A clear one-room programme', 'Book the named resident or promoter'],
+      ['MOT', 'South Bermondsey', 'Independent warehouse events', 'Underground lineups', 'Check transport and event details'],
+      ['Drumsheds', 'Edmonton', 'Large-scale electronic shows in the former IKEA', 'Arena-scale production', 'Ticketed events; plan the journey'],
+      ['Ministry of Sound', 'Elephant and Castle', 'House-led programming and a purpose-built sound system', 'A historic large London club', 'Choose by lineup, not name alone'],
+      ['Heaven', 'Charing Cross', 'Queer club nights and live shows', 'A central historic venue', 'Programme changes by night'],
+      ['Colour Factory', 'Hackney Wick', 'Independent multi-space music and arts venue', 'East London mixed programming', 'Check the named event'],
+      ['Ormside Projects', 'South Bermondsey', 'Small independent venue with underground electronic bookings', 'Close, low-capacity nights', 'Advance details come from the promoter'],
+      ['Night Tales', 'Hackney Central', 'House-led club and terrace programming', 'A social late-night venue', 'Programme changes by night'],
+      ['KOKO', 'Camden', 'Restored theatre hosting live music and club events', 'Large productions in a historic room', 'Ticketed programme'],
+      ['XOYO', 'Shoreditch', 'House, techno and bass-led residencies', 'Named DJ residencies', 'Book by lineup'],
+      ['Brixton Jamm', 'Brixton', 'Live music, DJs and outdoor space', 'Mixed-format south London nights', 'Check the room and event format']
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -172,12 +173,12 @@ const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="
 const articleHtml = [
   articleHero({
     kicker: 'London clubs',
-    title: 'Clubs in London: the rooms that made the music, and the best ones now',
+    title: 'Best Electronic Music Clubs in London',
     deck: 'From the Four Aces and the Blitz to Rage, the Blue Note and fabric: the London clubs behind acid house, jungle, garage and dubstep, and the ones worth your weekend now.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
-    summaryHtml: infoBanner({label: 'Clubs in London', bodyHtml: inline(answer[0]), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'BEST ELECTRONIC MUSIC CLUBS IN LONDON', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The music first, then next weekend.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
@@ -227,7 +228,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Clubs in London', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -235,7 +236,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/london-clubs.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page london-clubs-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

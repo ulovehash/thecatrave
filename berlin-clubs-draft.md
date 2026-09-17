@@ -70,6 +70,8 @@ Wilde Renate nearly joined this list. In August 2024 the club said it would have
 
 These are the best Berlin clubs that are open now, as of September 2026: the clubs every serious list agrees on, plus the rooms this page's history leads to. Most are among the best techno clubs in Berlin, but not every one is a techno room. Of the Berlin techno clubs below, Tresor is the oldest. If you want a shorter list of Berlin night clubs to start from, the first four rows are it.
 
+For the history behind those rooms, from Düsseldorf and Cologne to the Detroit-Berlin alliance, read [the history of German electronic music](/german-electronic-music).
+
 [Table: now]
 
 Opening hours and door prices change too often to print here. Check each club's own site or its Resident Advisor listing on the week you go.

@@ -38,8 +38,9 @@ const draft = fs.readFileSync('find-new-music-draft.md', 'utf8').replace(/—/g,
 const canonical = 'https://thecatrave.com/how-to-find-new-music';
 const title = 'How to Find New Music: 10 Ways That Are Not an Algorithm';
 const description = 'Ten music discovery methods that do not depend on a machine knowing your listening history, from community radio to record credits, ordered by effort.';
-const date = '2026-09-05';
-const dateLabel = '5 September 2026';
+const datePublished = '2026-09-05';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -95,20 +96,20 @@ const faqItems = faqSection.split(/(?:^|\n)### /).filter(Boolean).map(block => {
 // The summary table is the part an answer engine can lift whole, and the part a
 // reader screenshots. Effort is the honest axis: the list is ordered by it.
 const methodRows = [
-  ['Community radio', 'None', 'NTS, Rinse FM, The Lot Radio, and the city stations nobody outside their city hears'],
-  ['A whole DJ set', 'None', 'An hour of records somebody spent years learning to sequence'],
-  ['The Selector', 'One click', '62,877 sets from 37 channels, picked at random, nothing remembered about you'],
-  ['Producer credits', 'A minute', 'One producer leads sideways into a whole scene'],
-  ['Every Noise at Once', 'A minute', 'A map of nearly 6,000 genres. Data frozen since 2023'],
-  ['Record labels', 'An afternoon', 'A narrow label is a filter somebody else maintains for free'],
-  ['Bandcamp', 'An afternoon', 'Artist-written tags, and the collections of people who bought the record'],
-  ['Critics and AOTY', 'Ongoing', 'Find writers, not publications. Read the lists in spring'],
-  ['Forums and Discord', 'Ongoing', 'The part of music recommendation that is still people'],
-  ['Discogs and RateYourMusic', 'Ongoing', 'Databases that connect records to records, not listeners to listeners']
+  ['Community radio', 'Local scenes and specialist selectors', 'None', 'NTS, Rinse FM or a station outside your city'],
+  ['A whole DJ set', 'Finding many artists in context', 'None', 'Watch a full set instead of skipping clips'],
+  ['The Selector', 'Serendipity without a profile', 'One click', 'Play one of 62,877 sets at random'],
+  ['Producer credits', 'Following a sound across artists', 'A minute', 'Open the credits on one record you love'],
+  ['Every Noise at Once', 'Exploring unfamiliar genre names', 'A minute', 'Use the frozen genre map as a starting point'],
+  ['Record labels', 'Going deeper into a coherent scene', 'An afternoon', 'Follow the label behind one strong release'],
+  ['Bandcamp', 'Underground releases and buyer trails', 'An afternoon', 'Browse tags, labels and public collections'],
+  ['Critics and AOTY', 'Writers with a consistent point of view', 'Ongoing', 'Follow a critic, not a publication'],
+  ['Forums and Discord', 'Human recommendations and scene detail', 'Ongoing', 'Join a focused community and ask precisely'],
+  ['Discogs and RateYourMusic', 'Release history and adjacent records', 'Ongoing', 'Trace labels, credits and user-made lists']
 ];
 
 const introHtml = `${join(intro)}${articleTable({
-  headers: ['Method', 'Effort', 'What it is'],
+  headers: ['Method', 'Best for', 'Effort', 'Start here'],
   rows: methodRows
 })}`;
 
@@ -221,9 +222,9 @@ const articleHtml = [
     title: 'How to find new music',
     deck: 'Ten ways to hear something you have not heard before, none of which depend on a machine knowing what you played last week. Ordered by how much work they take.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
-    summaryHtml: infoBanner({label: 'The short version', bodyHtml: inline('Put on a community radio station. When you find a show you like, listen to the whole thing. And when you cannot face choosing, let something else choose for you.'), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'HOW TO FIND NEW MUSIC', bodyHtml: inline('The most reliable way to find new music is to follow people and scenes instead of letting one recommendation feed repeat your history. Start with community radio, listen to a complete DJ set, then trace one record through its producer credits, label and Bandcamp supporters. For a decision-free route, use [the Selector](/selector), which plays one of 62,877 archived sets at random. The ten methods below range from one-click listening to deeper research in Discogs, RateYourMusic, forums and label catalogues. Each creates a different kind of discovery, so combine a low-effort habit with one method that makes you investigate where a record came from.'), className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Too much music, and you keep playing the same things.', bodyHtml: introHtml, className: 'article-intro'}),
@@ -263,7 +264,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'How to Find New Music', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -271,7 +272,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/how-to-find-new-music.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page find-new-music-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

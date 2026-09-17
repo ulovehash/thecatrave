@@ -14,7 +14,7 @@ requireText('60 dBA', 'current sound-policy limit');
 requireText('ice sales at Arctica', 'current commerce wording');
 requireText('permission to record someone is not permission to publish', 'consent guidance');
 requireText('article:published_time" content="2026-09-10', 'original publication date');
-requireText('article:modified_time" content="2026-09-15', 'current modification date');
+requireText('article:modified_time" content="2026-09-17', 'current modification date');
 forbidText('nothing is sold except ice and coffee', 'ice-and-coffee claim');
 forbidText('below 75 decibels', '75-decibel policy');
 forbidText('Nobody books the DJs at Burning Man', 'categorical DJ-booking claim');

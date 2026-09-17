@@ -17,10 +17,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('german-electronic-music-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/german-electronic-music';
-const title = 'German Electronic Music: From Kraftwerk to Techno';
+const title = 'German Electronic Music History: From Kraftwerk to Techno';
 const description = "How German electronic music developed from Cologne's post-war studio and Kraftwerk to Berlin School, techno, trance, minimal and today's club culture.";
-const date = '2026-09-15';
-const dateLabel = '15 September 2026';
+const datePublished = '2026-09-15';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -177,10 +178,10 @@ const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))}
 const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
 const articleHtml = [
   articleHero({
-    kicker: 'German electronic music history', title: 'The Evolution of German Electronic Music',
+    kicker: 'German electronic music history', title: 'The History of German Electronic Music',
     deck: 'From Cologne tape studios and Kraftwerk to Frankfurt trance, the Detroit-Berlin alliance, minimal techno and the tools that travelled worldwide.',
-    readingTime, dateModified: date, dateLabel,
-    summaryHtml: infoBanner({label: 'German electronic music', bodyHtml: 'Germany did not produce one electronic sound. Cologne built a post-war studio tradition, Düsseldorf turned machines into pop, West Berlin developed sequencer music, Frankfurt built an early club network, and post-Wall Berlin formed a lasting alliance with Detroit techno.', className: 'article-summary'}),
+    readingTime, dateModified, dateLabel,
+    summaryHtml: infoBanner({label: 'GERMAN ELECTRONIC MUSIC HISTORY', bodyHtml: 'Germany did not produce one electronic sound. Cologne built a post-war studio tradition, Düsseldorf turned machines into pop, West Berlin developed sequencer music, Frankfurt built an early club network, and post-Wall Berlin formed a lasting alliance with Detroit techno.', className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Several histories, connected by machines and places.', bodyHtml: render(introText()), className: 'article-intro'}),
@@ -214,7 +215,7 @@ const unused = Object.keys(media).filter(key => !used.has(key));
 if (unused.length) throw new Error(`Assets with no placeholder: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: 'The Evolution of German Electronic Music', description, canonical, image: 'https://thecatrave.com/img/german-electronic/kraftwerk-stage-1200.webp', datePublished: date, dateModified: date}),
+  articleStructuredData({headline: 'The History of German Electronic Music', description, canonical, image: 'https://thecatrave.com/img/german-electronic/kraftwerk-stage-1200.webp', datePublished, dateModified}),
   breadcrumbStructuredData({name: 'German electronic music history', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -222,7 +223,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/german-electronic.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page german-electronic-page', structuredData, articleHtml
 }).replace(/—/g, ':');
 

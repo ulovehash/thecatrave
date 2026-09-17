@@ -16,7 +16,7 @@ const structuredFaq = (faqSchema?.mainEntity || []).map(item => ({
 
 const checks = {
   oneH1: (html.match(/<h1\b/g) || []).length === 1,
-  exactTitle: html.includes('<title>German Electronic Music: From Kraftwerk to Techno</title>'),
+  exactTitle: html.includes('<title>German Electronic Music History: From Kraftwerk to Techno</title>'),
   canonical: html.includes('<link rel="canonical" href="https://thecatrave.com/german-electronic-music">'),
   noEmDash: !html.includes('—'),
   noPlaceholders: !/\[(?:Image|Graphic|Embed|Listening|Table):/.test(html),
@@ -27,7 +27,7 @@ const checks = {
   firstFaqOpen: /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(html),
   articleSchema: schemas.some(schema => schema['@type'] === 'Article'),
   breadcrumbSchema: schemas.some(schema => schema['@type'] === 'BreadcrumbList'),
-  datesAgree: html.includes('article:published_time" content="2026-09-15"') && html.includes('article:modified_time" content="2026-09-15"') && html.includes('<time datetime="2026-09-15">15 September 2026</time>'),
+  datesAgree: html.includes('article:published_time" content="2026-09-15"') && html.includes('article:modified_time" content="2026-09-17"') && html.includes('<time datetime="2026-09-17">17 September 2026</time>'),
   licensedImages: ['kraftwerk-stage', 'stockhausen-wdr', 'love-parade-1998'].every(name => html.includes(`img/german-electronic/${name}-320.webp`) && html.includes(`img/german-electronic/${name}-1200.webp`)),
   imageDimensions: html.includes('width="1200" height="901"') && html.includes('width="1200" height="806"') && html.includes('width="1200" height="810"'),
   mapAndDownload: html.includes('class="genre-map german-scene-map"') && html.includes('/img/german-electronic/german-scenes-route.png'),

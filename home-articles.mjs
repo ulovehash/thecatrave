@@ -26,7 +26,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'german-electronic-music.html', tags:['techno','history','overview'], href:'/german-electronic-music', type:'Timeline', topic:'German music',
-    title:'German Electronic Music: From Kraftwerk to Techno',
+    title:'German Electronic Music History: From Kraftwerk to Techno',
     description:'Cologne studios, Düsseldorf electronic pop, Frankfurt trance and the Detroit-Berlin alliance.',
     image:'img/german-electronic/kraftwerk-stage-320.webp',
     srcset:'img/german-electronic/kraftwerk-stage-320.webp 320w,img/german-electronic/kraftwerk-stage-1200.webp 1200w',
@@ -98,16 +98,16 @@ export const homeArticleCatalog = [
   },
   {
     page:'best-electronic-music-clubs-in-london.html', tags:['jungle','history','discovery'], href:'/best-electronic-music-clubs-in-london', type:'Guide', topic:'London clubs',
-    title:'Clubs in London: The Legends and the Best Ones Open Now',
-    description:'The London clubs that made acid house, jungle, garage and dubstep, from Heaven to the Blue Note, and the best clubs in London open now.',
+    title:'Best Electronic Music Clubs in London: History and Where to Go',
+    description:'The best electronic music clubs in London now, plus the rooms that shaped acid house, jungle, garage and dubstep.',
     image:'img/london-clubs/fabric-320.webp',
     srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
     width:1200, height:810, alt:'The entrance to fabric on Charterhouse Street, London'
   },
   {
     page:'live-dj-sets.html', tags:['discovery','history','uk','jungle'], href:'/live-dj-sets', type:'Guide', topic:'Live DJ sets',
-    title:"Live DJ Sets: Where They're Filmed, From Boiler Room to HÖR",
-    description:'Pirate radio, Boiler Room, NTS, The Lot, Cercle, Kiosk and HÖR: a short history of the platforms that film DJ sets, and the numbers behind 62,877 of them.',
+    title:'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More',
+    description:'Where to watch complete DJ sets online, how the main platforms differ, and a route through 62,877 archived recordings.',
     image:'img/live-dj-sets/the-lot-radio-320.webp',
     srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
     width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
@@ -146,8 +146,8 @@ export const homeArticleCatalog = [
   },
   {
     page:'ultra-music-festival.html', tags:['discovery','history','bass'], href:'/ultra-music-festival', type:'Guide', topic:'Ultra',
-    title:'Ultra Music Festival: Miami, Ultra Europe and the Music',
-    description:'Bayfront Park in downtown Miami every March: where Ultra happens, how a 1999 beach party grew to 165,000 people, Ultra Europe in Split, and what plays beyond the Main Stage.',
+    title:'Ultra Music Festival 2027: Miami Dates, Location and Music',
+    description:'Ultra returns to Bayfront Park in Miami on 26 to 28 March 2027: the location, scale, history and music beyond the Main Stage.',
     image:'img/ultra/bayfront-2014-320.webp',
     srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
     width:1200, height:900, alt:'Bayfront Park in Miami seen from above during Ultra Music Festival 2014'
@@ -162,7 +162,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'what-is-coachella.html', tags:['discovery','history','bass'], href:'/what-is-coachella', type:'Guide', topic:'Coachella',
-    title:'What Is Coachella? Where It Is, When, and the Music',
+    title:'What Is Coachella? 2027 Dates, Location and Music',
     description:'Two weekends every April at the Empire Polo Club in Indio: when Coachella 2027 is, how long it lasts, how a festival that lost money in 1999 grew, and what plays in the Sahara.',
     image:'img/coachella/grounds-2018-320.webp',
     srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
@@ -170,8 +170,8 @@ export const homeArticleCatalog = [
   },
   {
     page:'lollapalooza-festival.html', tags:['discovery','history','bass'], href:'/lollapalooza-festival', type:'Guide', topic:'Lollapalooza',
-    title:'Lollapalooza: Location, Dates, History and the Music',
-    description:'Four days every summer in Grant Park, Chicago: where Lollapalooza is and where else it plays, when it runs, how many people go, what the name means, and what plays.',
+    title:'Lollapalooza Chicago: Location, History and the Music',
+    description:'Four days every summer in Grant Park, Chicago: where Lollapalooza happens, how it grew from a farewell tour and what plays across its stages.',
     image:'img/lollapalooza/skyline-2017-320.webp',
     srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
     width:1200, height:900, alt:'A Lollapalooza crowd in Grant Park with the Chicago skyline behind it in 2017'
@@ -202,8 +202,8 @@ export const homeArticleCatalog = [
   },
   {
     page:'primavera-sound-barcelona.html', tags:['discovery','history','house'], href:'/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
-    title:'Primavera Sound Barcelona: Location, Dates and Music',
-    description:'A city festival on the Mediterranean: its Parc del Fòrum location, confirmed 2027 dates, scale, music, Primavera a la Ciutat and Porto.',
+    title:'Primavera Sound Barcelona 2027: Dates, Location and Music',
+    description:'The Barcelona festival returns to Parc del Fòrum on 3 to 5 June 2027: its waterfront location, scale, music and city programme.',
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
     width:1200, height:800, alt:'Festivalgoers gathered beside the waterfront at Primavera Sound Barcelona in 2019'

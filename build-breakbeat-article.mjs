@@ -205,7 +205,7 @@ const faq = articleFaq({items:faqTitles.map(question=>({question,answerHtml:subs
 const description = 'What is breakbeat music? Trace its funk and hip-hop roots through UK rave, Florida and Spanish scenes, big beat, nu-skool breaks and today.';
 const title = 'What Is Breakbeat? Genre, History, Artists & Styles';
 const readingMinutes = Math.max(1, Math.round(source.replace(/<[^>]+>|https?:\/\/\S+|[#*|`]/g, ' ').trim().split(/\s+/).length / 225));
-const structured = articleStructuredData({headline:'What Is Breakbeat? A Guide to the Genre, History and Styles',description,datePublished:'2025-04-06',dateModified:'2026-08-30',canonical:'https://thecatrave.com/breakbeat-guide',image:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png'});
+const structured = articleStructuredData({headline:'What Is Breakbeat? A Guide to the Genre, History and Styles',description,datePublished:'2025-04-06',dateModified:'2026-09-17',canonical:'https://thecatrave.com/breakbeat-guide',image:'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png'});
 const faqStructured = faqStructuredData({items:faqTitles.map(question=>({question,answer:subsectionNodes('Frequently Asked Questions',question).filter(n=>n.type==='p').map(n=>n.text).join(' ')}))});
 const breadcrumbStructured = breadcrumbStructuredData({name:'Breakbeat guide',canonical:'https://thecatrave.com/breakbeat-guide'});
 
@@ -259,7 +259,7 @@ ${section('How Breakbeat Became Club Music','club-history',{
   }
 })}
 ${section('Breakbeat Styles: Hardcore, Florida, Big Beat, Nu-Skool and More','styles',{className:'styles-section',afterParagraph:{'Florida breaks, also called':floridaBreaksPlaylist,'Nu-skool breaks became':nuSkoolBreaksPlaylist}})}
-${section('Breakbeat vs Jungle, Drum and Bass, Big Beat and Broken Beat','comparison',{className:'comparison-section'})}
+${section('Breakbeat vs Jungle, Drum and Bass, Big Beat and Broken Beat','comparison',{className:'comparison-section',end:'<p>For the faster British branch in full, read the <a href="/drum-and-bass-guide">drum and bass guide</a>, including its 170–180 BPM range, history and subgenres.</p>'})}
 ${section('Breakbeat Today','today',{beforeHeading:{'Why breakbeat still travels between scenes':trackGroup([17,18,19,20,21],'Five contemporary routes','Rave memory, breakbeat techno, modern UK bass and progressive breaks show why the rhythm no longer needs one unified revival.')},end:soundcloud})}
 ${faq}
 ${author}
@@ -306,7 +306,7 @@ const preservedPage = page
 
 const breakbeatHero = articleHero({
   kicker:'Breakbeat music guide', title:'What Is Breakbeat? A Guide to the Genre, History and Styles',
-  readingTime:`~${readingMinutes} min read`, dateModified:'2026-08-30', dateLabel:'30 August 2026',
+  readingTime:`~${readingMinutes} min read`, dateModified:'2026-09-17', dateLabel:'17 September 2026',
   deck:'From funk breaks and Bronx hip-hop to British rave, Florida, Andalusia, big beat, nu-skool and the broken club music being made now.',
   summaryHtml:infoBanner({label:'BREAKBEAT DEFINITION',bodyHtml:inline(meta['Proposed direct answer']),ariaLabel:'Breakbeat definition',className:'article-summary'}),
   tocItems:[
@@ -322,6 +322,6 @@ if (!breakbeatArticleHtml) throw new Error('Could not extract the generated brea
 fs.writeFileSync('breakbeat-guide.html', articlePage({
   title, description, canonical:'https://thecatrave.com/breakbeat-guide',
   ogImage:'https://thecatrave.com/img/og/breakbeat.jpg', bodyClass:'article-page breakbeat-page',
-  datePublished:'2025-04-06', dateModified:'2026-08-30',
+  datePublished:'2025-04-06', dateModified:'2026-09-17',
   structuredData:[structured, faqStructured, breadcrumbStructured], articleHtml:breakbeatArticleHtml
 }));

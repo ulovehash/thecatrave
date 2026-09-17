@@ -34,11 +34,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('lollapalooza-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/lollapalooza-festival';
-const title = 'Lollapalooza: Location, Dates, History and the Music';
-const description = 'Where Lollapalooza is in Chicago and where else it plays, when it happens and how long it lasts, how many people go, what the name means, and what plays.';
+const title = 'Lollapalooza Chicago: Location, History and the Music';
+const description = 'Lollapalooza is a four-day festival in Grant Park, Chicago. Learn its location, history, scale, international editions and the music on Perry\'s Stage.';
 const datePublished = '2026-09-14';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -153,7 +153,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 // The next-edition section comes first: its year is refreshed every August
 // when the festival ends (festival-editions.mjs reminds the build).
 const sections = [
-  {id: 'lollapalooza-2027', heading: 'Lollapalooza 2027', title: 'Lollapalooza 2027.'},
+  {id: 'lollapalooza-2027', heading: 'Lollapalooza 2027 date status', title: 'Lollapalooza 2027 date status.'},
   {id: 'where', heading: 'Where Lollapalooza is', title: 'Where Lollapalooza is.', subsections: ['only-chicago']},
   {id: 'when', heading: 'When Lollapalooza is, and how long it lasts', title: 'When Lollapalooza is, and how long it lasts.'},
   {id: 'how-big', heading: 'How big Lollapalooza is', title: 'How big Lollapalooza is.'},
@@ -177,8 +177,8 @@ const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="
 const articleHtml = [
   articleHero({
     kicker: 'Lollapalooza',
-    title: 'Lollapalooza Festival',
-    deck: 'Four days every summer in Grant Park, on the Chicago lakefront. When the next one is, where it happens and where else it plays, how big it is, what the name means, and what plays.',
+    title: 'Lollapalooza Chicago',
+    deck: 'Four days every summer in Grant Park on the Chicago lakefront. Where it happens, how a farewell tour became a permanent festival, and what plays across its stages.',
     readingTime,
     dateModified,
     dateLabel,

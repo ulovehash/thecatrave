@@ -1,4 +1,4 @@
-# The Evolution of German Electronic Music
+# The History of German Electronic Music
 
 German electronic music is not one national sound. It is a chain of local
 experiments: radio studios in Cologne, electronic pop in Düsseldorf, sequencer

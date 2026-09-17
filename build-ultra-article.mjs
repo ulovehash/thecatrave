@@ -29,11 +29,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('ultra-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/ultra-music-festival';
-const title = 'Ultra Music Festival: Miami, Ultra Europe and the Music';
-const description = 'Ultra in Miami every March: where it happens at Bayfront Park, how big it is, who owns it, Ultra Europe in Split, and what plays beyond the Main Stage.';
+const title = 'Ultra Music Festival 2027: Miami Dates, Location and Music';
+const description = 'Ultra Music Festival 2027 runs 26 to 28 March at Bayfront Park in Miami. Find the location, age rule, Miami Music Week context and music beyond the Main Stage.';
 const datePublished = '2026-09-13';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -191,8 +191,8 @@ try {
 const articleHtml = [
   articleHero({
     kicker: 'Ultra Music Festival',
-    title: 'Ultra Music Festival',
-    deck: 'A park on Biscayne Bay at the end of Miami Music Week, and a name that now runs festivals from Split to São Paulo. Where Ultra happens, how big it really is, who owns it, and what plays away from the Main Stage.',
+    title: 'Ultra Music Festival Miami',
+    deck: 'Ultra returns to Bayfront Park on 26 to 28 March 2027, at the end of Miami Music Week. Here is where it happens, who can attend and what plays away from the Main Stage.',
     readingTime,
     dateModified,
     dateLabel,

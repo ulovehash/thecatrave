@@ -1,8 +1,8 @@
-# Live DJ Sets: The Platforms That Film Them
+# Where to Watch Live DJ Sets Online
 
 ## Answer
 
-Live DJ sets are filmed and streamed by a small group of broadcasters, and nearly all of them keep their archives free on YouTube. Boiler Room, from London since 2010, films the DJ with the crowd standing behind the decks. NTS and Rinse FM are London radio stations that put cameras in the studio. The Lot Radio streams from a shipping container in Brooklyn, Kiosk Radio from a wooden kiosk in a Brussels park, and HÖR from a white-tiled room in Berlin. Cercle takes DJs to landmarks, and Mixmag films The Lab. This site's Selector plays one of 62,877 of their recordings at random.
+You can watch live DJ sets free on the YouTube channels of Boiler Room, HÖR, NTS, Rinse FM, The Lot Radio, Kiosk Radio, Cercle and Mixmag's The Lab. Start with [the best Boiler Room sets](/best-boiler-room-sets) if you want a curated shortlist, or use [the Selector](/selector) to play one of 62,877 archived sets at random. Boiler Room puts the crowd behind the decks, HÖR films in a compact Berlin studio, NTS and Rinse preserve radio sessions, and Cercle pairs DJs with landmark locations. Each platform has a distinct format, scene and archive, so the best place to watch depends on whether you want club energy, radio depth or location-led spectacle.
 
 ## Introduction
 

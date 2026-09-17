@@ -8,6 +8,8 @@ The most-watched Boiler Room set is Solomun's in Tulum in 2015, at 76 million vi
 
 Boiler Room has filmed more than 8,000 performances since 2010. This site's catalogue holds 8,206 of them, with 1.77 billion YouTube views between them. Most lists of the best Boiler Room sets are one person's memory with embeds attached, so this page keeps two lists apart.
 
+If you want the broader map before the ranking, the guide to [where to watch live DJ sets](/live-dj-sets) compares Boiler Room with HÖR, NTS, Rinse FM, The Lot Radio, Kiosk and Cercle.
+
 The first is measured: the most-watched Boiler Room sets, counted from those view figures. The second is a judgement: eighteen sets picked for what happens in them, each with the reason it is here and the set itself to play.
 
 ## What makes a Boiler Room set great

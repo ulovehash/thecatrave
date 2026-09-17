@@ -27,8 +27,9 @@ const draft = fs.readFileSync('best-boiler-room-sets-draft.md', 'utf8').replace(
 const canonical = 'https://thecatrave.com/best-boiler-room-sets';
 const title = 'Best Boiler Room Sets of All Time, Ranked and Measured';
 const description = 'The best Boiler Room sets, from Carl Cox in Ibiza to Fred again.. in London, beside the most-watched sets counted across 8,206 recordings.';
-const date = '2026-09-10';
-const dateLabel = '10 September 2026';
+const datePublished = '2026-09-10';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -225,7 +226,7 @@ const articleHtml = [
     title: 'Best Boiler Room Sets of All Time',
     deck: 'Two lists, kept apart: the ten most-watched Boiler Room sets as measured across 8,206 recordings, and eighteen picked for what actually happens in them.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best Boiler Room sets', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -261,7 +262,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Best Boiler Room Sets', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -269,7 +270,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/best-boiler-room-sets.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page boiler-room-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

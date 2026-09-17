@@ -16,10 +16,11 @@ import {relatedArticles} from './home-articles.mjs';
 
 const draft = fs.readFileSync('primavera-sound-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/primavera-sound-barcelona';
-const title = 'Primavera Sound Barcelona: Location, Dates and Music';
-const description = 'What Primavera Sound is, where it happens in Barcelona, its confirmed 2027 dates, how big it is, what music it plays, Primavera a la Ciutat and Porto.';
-const date = '2026-09-15';
-const dateLabel = '15 September 2026';
+const title = 'Primavera Sound Barcelona 2027: Dates, Location and Music';
+const description = 'Primavera Sound Barcelona 2027 runs 3 to 5 June at Parc del Fòrum. Find its waterfront location, scale, music, Primavera a la Ciutat and Porto edition.';
+const datePublished = '2026-09-15';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -144,9 +145,9 @@ const articleHtml = [
   articleHero({
     kicker: 'Primavera Sound',
     title: 'Primavera Sound Barcelona',
-    deck: 'A city festival on the Mediterranean: where it happens, its confirmed 2027 dates, how big it is, what it plays, and how Barcelona connects to Porto.',
+    deck: 'The main Barcelona programme returns to Parc del Fòrum on 3, 4 and 5 June 2027. Here is the waterfront location, scale, music and connection to Porto.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Primavera Sound', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -156,7 +157,7 @@ const articleHtml = [
   ownSetListening(1),
   articleFaq({items: faqItems, title: 'Primavera Sound FAQ.', openFirst: true}),
   authorCard({filled: true}),
-  articleSources({title: '🔗 Recommended Resources.', bodyHtml: `<ul>
+  articleSources({bodyHtml: `<ul>
 ${sourceLink('https://www.primaverasound.com/en/barcelona', 'Primavera Sound Barcelona: official site')}
 ${sourceLink('https://assets.primaverasound.com/psb/docs/condicionesEntradas_en.html', 'Primavera Sound Barcelona: official ticket and age conditions')}
 ${sourceLink('https://parcdelforum.barcelona/en/parc-forum/the-park', 'Parc del Fòrum: official venue guide')}
@@ -183,7 +184,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Primavera Sound Barcelona', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -191,7 +192,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/primavera-sound.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page primavera-sound-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

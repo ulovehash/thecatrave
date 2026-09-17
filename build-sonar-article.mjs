@@ -32,8 +32,9 @@ const draft = fs.readFileSync('sonar-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/sonar-festival-barcelona';
 const title = 'Sónar Festival Barcelona: History, Music and 2027 Dates';
 const description = 'What Sónar is, where it happens in Barcelona, how a 1994 festival of 6,000 grew to 150,000, who owns it now, OFFSónar, and Sónar 2027 on 17 to 19 June.';
-const date = '2026-09-14';
-const dateLabel = '14 September 2026';
+const datePublished = '2026-09-14';
+const dateModified = '2026-09-17';
+const dateLabel = '17 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -180,7 +181,7 @@ const articleHtml = [
     title: 'Sónar Festival Barcelona',
     deck: 'Three days every June in Barcelona since 1994, by day and by night. Where it happens, how big it has grown, who owns it now, and what it sounds like.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'What is Sónar', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
@@ -222,7 +223,7 @@ const unused = Object.keys(media).filter(k => !used.has(k));
 if (unused.length) throw new Error(`Assets with no placeholder in the draft: ${unused.join(', ')}`);
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Sónar Festival Barcelona', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -230,7 +231,7 @@ const structuredData = [
 const html = articlePage({
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/sonar.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page sonar-page',
   structuredData, articleHtml
 }).replace(/—/g, ':');

@@ -1,8 +1,8 @@
-# Ultra Music Festival
+# Ultra Music Festival Miami
 
 ## Answer
 
-Ultra Music Festival is an electronic music festival held every March at Bayfront Park in downtown Miami, Florida, over three days, Friday to Sunday. The reported 2026 total was 165,000 admissions across the weekend, about 55,000 a day, with attendees from 100 countries. Russell Faibisch and Alex Omes started it in 1999 as a one-day beach party in Miami Beach. Today Event Entertainment Group, Inc. organises the Miami festival, with Faibisch as its president and CEO and Adam Russakoff as a director. Ultra closes Miami Music Week, and the name travels: its editions abroad include Ultra Europe, held every July in Split, Croatia.
+Ultra Music Festival Miami is an 18-and-over electronic music festival at Bayfront Park in downtown Miami, Florida. The 2027 edition runs from Friday 26 to Sunday 28 March, closing Miami Music Week beside Biscayne Bay. It reports about 165,000 admissions across three days, roughly 55,000 a day. Russell Faibisch and Alex Omes started Ultra in 1999 as a one-day beach party in Miami Beach. Event Entertainment Group, Inc. now organises the Miami festival. The Main Stage centres global EDM, while Resistance, the Live Stage, A State of Trance and other areas cover techno, house, trance and live electronic music. Ultra Europe follows in Split, Croatia, from 9 to 11 July 2027.
 
 ## Introduction
 
