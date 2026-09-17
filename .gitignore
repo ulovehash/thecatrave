@@ -1,5 +1,11 @@
 # dependencies
 node_modules/
+# and the name on its own: a symlink named node_modules is not a directory,
+# so the rule above does not match one. A worktree that linked node_modules to
+# another checkout's copy committed the link, every check passed, and GitHub
+# Pages then failed to deploy on a dangling path (defects.json,
+# node-modules-symlink-committed).
+node_modules
 
 # test + audit output
 test-results/

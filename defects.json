@@ -401,6 +401,17 @@
         "file": "KEYWORD-METHOD.md",
         "contains": "Check the Ahrefs balance before a pass"
       }
+    },
+    {
+      "id": "node-modules-symlink-committed",
+      "found": "2026-09-17",
+      "by": "agent",
+      "what": "The German translation batch was built in a git worktree, where node_modules was linked to the main checkout's copy so the browser checks could run. .gitignore lists node_modules/ with a trailing slash, which ignores a directory and not a symlink of that name, so `git add -A` committed the link. Every audit and check passed locally and in the quality gate; GitHub Pages then failed to deploy, because Jekyll follows the entry and finds nothing: 'No such file or directory - /github/workspace/node_modules'. The site kept serving the previous commit.",
+      "should_have_caught": "nothing did: the gate never looks at what deploys, and .gitignore matched a directory rather than a name",
+      "fix": {
+        "file": ".gitignore",
+        "contains": "a symlink named node_modules is not a directory"
+      }
     }
   ]
 }
