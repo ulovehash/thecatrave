@@ -86,7 +86,7 @@ export default {
     'ZG1AT6tylA4': articleVideoCollection({
       lang: 'fr',
       label: 'Les sets les plus vus de Tomorrowland',
-      description: 'Deux sets complets de la Mainstage : Hardwell en 2013, plus de 28 millions de vues sur sa propre chaîne, et Swedish House Mafia en 2025, sur la chaîne du festival.',
+      description: 'Deux sets de la Mainstage : Hardwell en 2013, plus de 28 millions de vues sur sa propre chaîne, et Swedish House Mafia en 2025, sur la chaîne du festival.',
       items: [
         articleVideoCard({youtubeId: 'ZG1AT6tylA4', genre: 'Mainstage, 2013', artist: 'Hardwell', title: 'Live à Tomorrowland 2013'}),
         articleVideoCard({youtubeId: 'H1b8hXkGyTo', genre: 'Mainstage, 2025', artist: 'Swedish House Mafia', title: 'Tomorrowland 2025, Mainstage'})

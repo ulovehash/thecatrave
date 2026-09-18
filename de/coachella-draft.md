@@ -84,11 +84,11 @@ Wie weit diese Spanne reicht, zeigt die Sahara. Diljit Dosanjh spielte dort am e
 
 ## Coachella von zu Hause hören
 
-Coachella streamt live auf YouTube, mehrere Bühnen gleichzeitig, und der Kanal bewahrt Clips aus jedem Jahr. Das meistgesehene Coachella-Video dort ist FISHER mit "Losing It" am Freitag, dem 12. April 2019, mit rund 77 Millionen Aufrufen. Komplette Sets landen meist auf den Kanälen der Künstler. Das vollständige Set von Fatboy Slim aus 2026, fast zwei Stunden, vom Festival gefilmt, hat auf seinem Kanal rund 1,1 Millionen Aufrufe.
+Coachella streamt live auf YouTube, mehrere Bühnen gleichzeitig, und der Kanal bewahrt Clips aus jedem Jahr. Das meistgesehene Coachella-Video dort ist FISHER mit "Losing It" am Freitag, dem 12. April 2019, mit rund 77 Millionen Aufrufen. Sets landen meist auf den Kanälen der Künstler. Das Set von Fatboy Slim aus 2026, fast zwei Stunden, vom Festival gefilmt, hat auf seinem Kanal rund 1,1 Millionen Aufrufe.
 
 [Embed: FISHER 2019 und Fatboy Slim 2026, oUbpmjOgmmU]
 
-Wie Coachella liegt auch [Parookaville](/de/parookaville-festival) ein Wochenende lang in einer eigenen Welt, nur eben im Westen Deutschlands. Und [der Selector](/selector) spielt einen kompletten DJ-Set nach dem Zufallsprinzip, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Wie Coachella liegt auch [Parookaville](/de/parookaville-festival) ein Wochenende lang in einer eigenen Welt, nur eben im Westen Deutschlands. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

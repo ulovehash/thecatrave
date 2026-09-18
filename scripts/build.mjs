@@ -46,9 +46,11 @@ export const generators = [
   'build-articles-page.mjs',
   // after every article generator: it reads their dates, descriptions and art
   'scripts/build-feed.mjs',
-  // last, because its dates come from the pages the generators above produce
+  // after every article generator: it reads their reading times
+  'build-home.mjs',
+  // last, because its dates come from the pages the generators above produce,
+  // the home pages included
   'scripts/build-sitemap.mjs',
-  'build-home.mjs'
 ].filter(file => fs.existsSync(file));
 
 export function build() {

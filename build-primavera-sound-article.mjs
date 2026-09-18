@@ -88,7 +88,7 @@ const media = {
       articleVideoCard({youtubeId: 'KkhwjIVDHGc', genre: 'Boiler Room, 2022', artist: 'Badsista', title: 'Primavera Sound Barcelona'})
     ]
   }),
-  'srV4AgUc104': youtube('srV4AgUc104', 'Alan Sparhawk, official full set at Primavera Sound Porto 2025'),
+  'srV4AgUc104': youtube('srV4AgUc104', 'Alan Sparhawk, official set at Primavera Sound Porto 2025'),
   'Table: milestones': articleTable({
     headers: ['Year', 'What changed'],
     rows: [

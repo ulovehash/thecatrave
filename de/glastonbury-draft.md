@@ -92,11 +92,11 @@ Das Festival pflegt auch seine eigene Geschichte. Ein Platz am Sonntag, der "Leg
 
 Die BBC überträgt Glastonbury seit 1997, als sie von Channel 4 übernahm, und deshalb sehen die meisten das Festival live bei der BBC. 2020, im Jahr des abgesagten 50. Jubiläums, zeigte sie stattdessen klassische Sets, darunter Taylor Swift, Adele, Beyoncé, die Rolling Stones und R.E.M.
 
-Das meistgesehene Glastonbury-Video auf dem YouTube-Kanal von BBC Music ist Coldplay mit "Fix You" beim Festival 2024, mit rund 67 Millionen Aufrufen. Wer ein ganzes Set hören will: R.E.M. haben die komplette BBC-Übertragung ihres Headliner-Auftritts von 1999 auf ihren eigenen Kanal gestellt, wo sie rund 2,2 Millionen Aufrufe hat.
+Das meistgesehene Glastonbury-Video auf dem YouTube-Kanal von BBC Music ist Coldplay mit "Fix You" beim Festival 2024, mit rund 67 Millionen Aufrufen. R.E.M. haben die BBC-Übertragung ihres Headliner-Sets von 1999 auf ihren eigenen Kanal gestellt, wo sie rund 2,2 Millionen Aufrufe hat.
 
 [Embed: Coldplay 2024 and R.E.M. 1999, kM-94LhhQTs]
 
-Glastonbury ist das älteste der Festivals auf dieser Seite. Unsere Guides behandeln auch [Coachella](/de/coachella-festival) in Amerika und [Tomorrowland](/de/tomorrowland-festival) in Belgien, und auf Englisch [Creamfields](/creamfields-festival), das andere große englische Festival. Und [der Selector](/selector) spielt ein komplettes DJ-Set nach dem Zufallsprinzip, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Glastonbury ist das älteste der Festivals auf dieser Seite. Unsere Guides behandeln auch [Coachella](/de/coachella-festival) in Amerika und [Tomorrowland](/de/tomorrowland-festival) in Belgien, und auf Englisch [Creamfields](/creamfields-festival), das andere große englische Festival. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

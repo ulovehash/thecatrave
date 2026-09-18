@@ -428,6 +428,39 @@
       "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently.",
       "should_have_caught": "the feature was built in selector-runtime.js and build-selector.mjs without grepping the page copy for claims about saving",
       "fix": null
+    },
+    {
+      "id": "translated-cards-read-article-english",
+      "found": "2026-09-18",
+      "by": "claude",
+      "what": "Every article card on the German and French pages (the /de/artikel and /fr/articles indexes and each guide's Read Next block) ended in the English \"Read article →\": articleCard() in site-components.mjs wrote the label itself and took no language. Found while translating the home page, whose grid uses the same card.",
+      "should_have_caught": "audit-site-components.mjs holds translated guides to their own language's header, footer and author card, but not to the card label, and no check looks for English chrome on a German or French page",
+      "fix": {
+        "file": "site-components.mjs",
+        "contains": "<b>${escapeHtml(t(lang).readArticle)}</b>"
+      }
+    },
+    {
+      "id": "german-promo-bar-set-gender",
+      "found": "2026-09-18",
+      "by": "claude",
+      "what": "The Selector bar on every German page reads \"Ein Klick, ein kompletter DJ-Set\" (i18n.mjs, promoBody). \"Set\" is neuter in German: \"ein komplettes DJ-Set\", as the new German home page and Selector write it. Published copy, so the one-word change waits for the owner.",
+      "should_have_caught": "nothing: no check reads German grammar",
+      "fix": {
+        "file": "i18n.mjs",
+        "contains": "Ein Klick, ein DJ-Set."
+      }
+    },
+    {
+      "id": "full-dj-set-padding",
+      "found": "2026-09-18",
+      "by": "owner",
+      "what": "Pages in all three languages say the Selector plays \"one full DJ set\" (\"ein komplettes DJ-Set\", \"un DJ set complet\"), and the German and French translations copied it. The owner: a DJ set never needs to be called full, in any language. The owner approved removing it everywhere (2026-09-18): the Selector sentence on every guide, the Selector page and bar in all three languages, and the \"full set\" / \"komplettes Set\" / \"set complet\" captions on the festival listening blocks.",
+      "should_have_caught": "nothing: the rule was not written anywhere, so every translation reproduced the English",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "This is about the emphasis, not the word."
+      }
     }
   ]
 }

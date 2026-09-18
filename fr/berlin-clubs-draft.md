@@ -106,7 +106,7 @@ HÖR est un studio de streaming berlinois sur la Karl-Marx-Allee qui diffuse des
 
 [Embed: Ellen Allien HÖR]
 
-Pour le reste, [le Selector](/selector) lance un set complet au hasard parmi les 62 877, et [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, présente l’autre façon célèbre de filmer un club. La techno berlinoise sonne toujours comme les salles où elle a été faite. La meilleure façon de l’entendre, c’est d’y aller, et si la porte dit non, de revenir un autre soir.
+Pour le reste, [le Selector](/selector) lance un set au hasard parmi les 62 877, et [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, présente l’autre façon célèbre de filmer un club. La techno berlinoise sonne toujours comme les salles où elle a été faite. La meilleure façon de l’entendre, c’est d’y aller, et si la porte dit non, de revenir un autre soir.
 
 ## FAQ
 

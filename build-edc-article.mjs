@@ -91,7 +91,7 @@ const media = {
     description: 'Two full kineticFIELD sets: Above & Beyond in 2015, nearly five million views on the trio\'s own channel, and Alison Wonderland in 2016, more than two million on hers.',
     items: [
       articleVideoCard({youtubeId: 'SaUN0QHOkHk', genre: 'kineticFIELD, 2015', artist: 'Above & Beyond', title: 'Live at EDC Las Vegas 2015'}),
-      articleVideoCard({youtubeId: 'zqjLaOONheg', genre: 'kineticFIELD, 2016', artist: 'Alison Wonderland', title: 'EDC Las Vegas 2016, full set'})
+      articleVideoCard({youtubeId: 'zqjLaOONheg', genre: 'kineticFIELD, 2016', artist: 'Alison Wonderland', title: 'EDC Las Vegas 2016'})
     ]
   }),
   // Attendance, from Wikipedia and 2026 reports (Beatportal). Typed, not computed.

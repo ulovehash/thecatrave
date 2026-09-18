@@ -102,11 +102,11 @@ La musique fait aussi partie du débat. Les grands noms de DJ, les sets filmés 
 
 L’histoire de la musique à Burning Man est celle d’une musique envoyée à la marge : à un kilomètre et demi en 1992, sur les avenues 2:00 et 10:00 aujourd’hui, dans la deep playa une fois la nuit tombée. Ce qui y a poussé est une musique faite pour la longue traversée du milieu de la nuit jusqu’au lever du soleil, programmée camp par camp plutôt qu’à travers une affiche publique.
 
-La plus grande partie n’est disponible qu’à moitié ensuite. Certains camps et DJ filment leurs sets et les mettent en ligne, comme Robot Heart et Mayan Warrior, et le reste n’existe que pour ceux qui étaient là. Lee Burridge a publié l’intégralité de son lever de soleil du samedi 2025 à Robot Heart, trois heures, et un enregistrement ne s’approche pas plus de cette semaine.
+La plus grande partie n’est disponible qu’à moitié ensuite. Certains camps et DJ filment leurs sets et les mettent en ligne, comme Robot Heart et Mayan Warrior, et le reste n’existe que pour ceux qui étaient là. Lee Burridge a publié son lever de soleil du samedi 2025 à Robot Heart, trois heures, et un enregistrement ne s’approche pas plus de cette semaine.
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, S7OBT3kQAHQ]
 
-Le reste de l’écoute est ailleurs. Pour le format opposé, où la caméra est l’objet même, [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, en classe dix-huit. Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, ce qui ressemble le plus, en ligne, à traverser la playa la nuit et à s’arrêter là où il y a du son.
+Le reste de l’écoute est ailleurs. Pour le format opposé, où la caméra est l’objet même, [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, en classe dix-huit. Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, ce qui ressemble le plus, en ligne, à traverser la playa la nuit et à s’arrêter là où il y a du son.
 
 ## FAQ
 

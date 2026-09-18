@@ -11,7 +11,7 @@
 // Lineups, dated editions and tickets are excluded on purpose, and the Ultra
 // Records collision gets one line. See keywords/ultra.json.
 //
-// The festival's own channel (UMF TV) is mostly aftermovies, so the full sets
+// The festival's own channel (UMF TV) is mostly aftermovies, so the sets
 // come from the artists' own YouTube channels.
 //
 // Media sits in the draft as [Image: ...], [Embed: ...] and [Table: ...]

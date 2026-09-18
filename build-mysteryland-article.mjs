@@ -90,12 +90,12 @@ const media = {
     'The Q-dance stage at Mysteryland 2019, a winged structure with a skull at its centre, seen from a grassy slope crowded with people',
     'The Q-dance hardstyle stage at Mysteryland 2019, with the crowd on the slope above it. Photograph: Gerard Koymans, CC BY-SA 4.0.'),
   'z4cO-cpjPoU': youtube('z4cO-cpjPoU', 'Mysteryland 2025, Sunday Drone Endshow, on the Mysteryland YouTube channel'),
-  // Essential listening: the two most-watched full sets among the channel's
+  // Essential listening: the two most-watched sets among the channel's
   // recent uploads, views read on 2026-09-14 (Hardwell 2.8M, Charlotte de
   // Witte 2.4M), both on the festival's own channel.
   '_8acHa-APa8': articleVideoCollection({
     label: 'The same main stage, a year apart',
-    description: 'Hardwell on the Mysteryland main stage in 2023 and Charlotte de Witte on it in 2024, the two most watched full sets among the festival\'s recent uploads on its own channel.',
+    description: 'Hardwell on the Mysteryland main stage in 2023 and Charlotte de Witte on it in 2024, the two most watched sets among the festival\'s recent uploads on its own channel.',
     items: [
       articleVideoCard({youtubeId: '_8acHa-APa8', genre: 'Main Stage, 2023', artist: 'Hardwell', title: 'Main Stage, Mysteryland 2023'}),
       articleVideoCard({youtubeId: 'mao2oVsWSxA', genre: 'Mainstage, 2024', artist: 'Charlotte de Witte', title: 'Mainstage, Mysteryland 2024'})

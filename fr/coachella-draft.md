@@ -84,11 +84,11 @@ La Sahara montre jusqu’où va cet éventail. Diljit Dosanjh a joué sous la te
 
 ## Écouter Coachella depuis chez soi
 
-Coachella est diffusé en direct sur YouTube, plusieurs scènes à la fois, et sa chaîne garde des extraits de chaque année. La vidéo de Coachella la plus vue est FISHER jouant « Losing It » le vendredi 12 avril 2019, avec environ 77 millions de vues. Les sets complets sont plutôt publiés sur les chaînes des artistes. Le set complet de Fatboy Slim en 2026, près de deux heures filmées par le festival, compte environ 1,1 million de vues sur la sienne.
+Coachella est diffusé en direct sur YouTube, plusieurs scènes à la fois, et sa chaîne garde des extraits de chaque année. La vidéo de Coachella la plus vue est FISHER jouant « Losing It » le vendredi 12 avril 2019, avec environ 77 millions de vues. Les sets sont plutôt publiés sur les chaînes des artistes. Le set de Fatboy Slim en 2026, près de deux heures filmées par le festival, compte environ 1,1 million de vues sur la sienne.
 
 [Embed: FISHER 2019 et Fatboy Slim 2026, oUbpmjOgmmU]
 
-Nos guides couvrent aussi [Tomorrowland](/fr/festival-tomorrowland) et [Burning Man](/fr/burning-man), et, en anglais, [EDC Las Vegas](/edc-las-vegas), qui partage le désert américain avec Coachella, et [Ultra](/ultra-music-festival). Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Nos guides couvrent aussi [Tomorrowland](/fr/festival-tomorrowland) et [Burning Man](/fr/burning-man), et, en anglais, [EDC Las Vegas](/edc-las-vegas), qui partage le désert américain avec Coachella, et [Ultra](/ultra-music-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

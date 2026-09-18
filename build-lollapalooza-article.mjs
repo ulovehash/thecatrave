@@ -110,11 +110,11 @@ const media = {
   // 2026-09-13). Views read from YouTube on 2026-09-14: Lady Gaga with Semi
   // Precious Weapons, 6 August 2010, about 44 million on the festival's
   // channel, its most watched video; The Chainsmokers' official 2019 set, about
-  // 3.9 million on theirs, the most watched full set found on an artist's own
+  // 3.9 million on theirs, the most watched set found on an artist's own
   // channel.
   'EGh9zlN6eLo': articleVideoCollection({
     label: 'Lollapalooza, most watched',
-    description: 'Lady Gaga joining Semi Precious Weapons in 2010, the most watched video on the festival\'s channel; and The Chainsmokers\' official 2019 set, the most watched full set on an artist\'s own channel.',
+    description: 'Lady Gaga joining Semi Precious Weapons in 2010, the most watched video on the festival\'s channel; and The Chainsmokers\' official 2019 set, the most watched set on an artist\'s own channel.',
     items: [
       articleVideoCard({youtubeId: 'EGh9zlN6eLo', genre: 'Lollapalooza, 2010', artist: 'Lady Gaga with Semi Precious Weapons', title: 'Lollapalooza 2010'}),
       articleVideoCard({youtubeId: 'zns830Yl1b0', genre: 'Lollapalooza, 2019', artist: 'The Chainsmokers', title: 'Official live set, Lollapalooza Chicago 2019'})

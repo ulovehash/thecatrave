@@ -84,7 +84,7 @@ Primavera Sound Porto est l’édition portugaise du festival. Elle a commencé 
 
 Le contraste entre les deux lieux fait partie de l’attrait. Barcelone, au Fòrum, c’est du béton, de l’architecture et la mer ; Porto, c’est de l’herbe et des arbres dans un parc qui s’étend jusqu’à l’Atlantique. Certains artistes jouent aux deux éditions, mais les programmes ne sont pas identiques et un billet pour l’une ne vaut pas pour l’autre.
 
-Le set complet officiel d’Alan Sparhawk à Porto montre le côté plus intime du nom du festival : un concert entier plutôt qu’un montage de la grande scène.
+Le set officiel d’Alan Sparhawk à Porto montre le côté plus intime du nom du festival, loin de la grande scène.
 
 [Embed: Alan Sparhawk at Primavera Sound Porto 2025, srV4AgUc104]
 

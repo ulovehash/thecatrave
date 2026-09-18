@@ -56,7 +56,7 @@ export function socialLinks({icons = false, className = icons ? 'header-socials'
 // sends its reader to the German index, not to the English one.
 const articleNavItems = lang => {
   const copy = t(lang);
-  return [{href: copy.articlesPath, label: copy.navArticles}, {href:'/selector', label: copy.navSelector, className:'selector-link'}];
+  return [{href: copy.articlesPath, label: copy.navArticles}, {href: copy.selectorPath, label: copy.navSelector, className:'selector-link'}];
 };
 
 // The language switcher: the same page in every language it exists in, from
@@ -86,14 +86,21 @@ export function languageSwitch({lang = defaultLang, alternates = []} = {}) {
 export function siteHeader({variant = 'article', lang = defaultLang, alternates = [], navItems = variant === 'article' ? articleNavItems(lang) : []} = {}) {
   const copy = t(lang);
   const classes = variant === 'article' ? 'site-header article-site-header' : 'site-header';
+  // The home page's six links scroll sideways on a phone, and a dropdown inside
+  // a scrolling row is either clipped or pushes the page wider than the screen.
+  // So on the home header the switcher is its own cell of the header grid; the
+  // article header has two links and keeps it at the end of the nav.
+  const inNav = variant !== 'home';
   const nav = navItems.length
-    ? `<nav class="site-nav" aria-label="${escapeHtml(copy.primaryNavLabel)}">${navItems.map(item => `<a${item.className ? ` class="${escapeHtml(item.className)}"` : ''} href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join('')}${languageSwitch({lang, alternates})}</nav>`
+    ? `<nav class="site-nav" aria-label="${escapeHtml(copy.primaryNavLabel)}">${navItems.map(item => `<a${item.className ? ` class="${escapeHtml(item.className)}"` : ''} href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join('')}${inNav ? languageSwitch({lang, alternates}) : ''}</nav>`
     : '';
-  return `<header class="${classes}"><a class="wordmark" href="/" aria-label="${escapeHtml(copy.homeLabel)}">thecatrave<span>*</span></a>${nav}${socialLinks({icons:true, lang})}</header>`;
+  const headerSwitch = inNav ? '' : languageSwitch({lang, alternates});
+  return `<header class="${classes}"><a class="wordmark" href="${escapeHtml(copy.homePath)}" aria-label="${escapeHtml(copy.homeLabel)}">thecatrave<span>*</span></a>${nav}${headerSwitch}${socialLinks({icons:true, lang})}</header>`;
 }
 
-export function nowPlayingBanner({title, meta, href, linkLabel = 'Play ↗'} = {}) {
-  return `<aside class="now-playing" aria-label="Featured DJ mix"><span><i></i> Now playing</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
+export function nowPlayingBanner({title, meta, href, lang = defaultLang, linkLabel = t(lang).nowPlayingPlay} = {}) {
+  const copy = t(lang);
+  return `<aside class="now-playing" aria-label="${escapeHtml(copy.nowPlayingLabel)}"><span><i></i> ${escapeHtml(copy.nowPlaying)}</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
 }
 
 // The owner's own DJ mixes, both of them. The festival guides list other
@@ -152,20 +159,21 @@ export function ownSetListening(index, lang = defaultLang) {
 export function selectorPromoBar(lang = defaultLang) {
   const copy = t(lang);
   const more = selectorChannelCount > 3 ? copy.promoMore(selectorChannelCount - 3) : '';
-  return `<aside class="promo-bar" id="promo-bar" aria-label="${escapeHtml(copy.promoLabel)}"><a href="/selector"><b>${escapeHtml(copy.promoTitle)}</b><span class="wide">${escapeHtml(copy.promoBody(more))}</span><em>${escapeHtml(copy.promoCta)}</em></a><button type="button" class="promo-bar-close" aria-label="${escapeHtml(copy.promoDismiss)}">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
+  return `<aside class="promo-bar" id="promo-bar" aria-label="${escapeHtml(copy.promoLabel)}"><a href="${escapeHtml(copy.selectorPath)}"><b>${escapeHtml(copy.promoTitle)}</b><span class="wide">${escapeHtml(copy.promoBody(more))}</span><em>${escapeHtml(copy.promoCta)}</em></a><button type="button" class="promo-bar-close" aria-label="${escapeHtml(copy.promoDismiss)}">\u00d7</button></aside><script>(function(){var b=document.getElementById('promo-bar');if(!b)return;try{if(localStorage.getItem('tcr-bar')==='off'){b.remove();return}}catch(e){}b.querySelector('.promo-bar-close').addEventListener('click',function(){b.remove();try{localStorage.setItem('tcr-bar','off')}catch(e){}})})();<\/script>`;
 }
 
-export function homeSelectorPromo({sets = 0, channels = 0, logos = []} = {}) {
-  const count = sets ? `${sets.toLocaleString('en-US')} sets` : 'thousands of sets';
+export function homeSelectorPromo({sets = 0, channels = 0, logos = [], lang = defaultLang} = {}) {
+  const copy = t(lang);
+  const count = copy.homeSelectorCount(sets ? sets.toLocaleString(copy.numberLocale) : 0);
   const wall = logos.length
     ? `<div class="selector-promo-wall" aria-hidden="true">${logos.map(src => `<img src="${escapeHtml(src)}" width="28" height="28" alt="" loading="lazy" decoding="async">`).join('')}</div>`
     : '';
-  return `<aside class="selector-promo" aria-labelledby="selector-promo-title"><div class="selector-promo-copy"><p class="label">Tool</p><h2 id="selector-promo-title">Can't decide what to put on?</h2><p>The Selector plays one full DJ set at random from ${escapeHtml(count)} across ${channels} channels: Boiler Room, HÖR, NTS, Beatport, The Lot Radio and more. Narrow it by source or genre, or dig for hidden gems.</p><a class="button primary" href="/selector">Open The Selector →</a></div>${wall}</aside>`;
+  return `<aside class="selector-promo" aria-labelledby="selector-promo-title"><div class="selector-promo-copy"><p class="label">${escapeHtml(copy.homeSelectorKicker)}</p><h2 id="selector-promo-title">${escapeHtml(copy.homeSelectorTitle)}</h2><p>${escapeHtml(copy.homeSelectorBody(count, channels))}</p><a class="button primary" href="${escapeHtml(copy.selectorPath)}">${escapeHtml(copy.homeSelectorCta)}</a></div>${wall}</aside>`;
 }
 
 // One cover-image card, shared by the homepage grid, Read Next and the
 // /articles page, so the three can never drift apart.
-function articleCard(item, number, component) {
+function articleCard(item, number, component, lang = defaultLang) {
   requireFields(component, {
     href:item.href,
     type:item.type,
@@ -180,22 +188,23 @@ function articleCard(item, number, component) {
   });
   const srcset = item.srcset ? ` srcset="${escapeHtml(item.srcset)}"` : '';
   const sizes = item.sizes || '(max-width:767px) 100vw,50vw';
-  return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read article →</b></a></article>`;
+  return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>${escapeHtml(t(lang).readArticle)}</b></a></article>`;
 }
 
-export function homeArticlesSection({items = []} = {}) {
+export function homeArticlesSection({items = [], lang = defaultLang} = {}) {
   if (!items.length) throw new Error('homeArticlesSection requires at least one article.');
-  const cards = items.map((item, index) => articleCard(item, `A${String(index + 1).padStart(2, '0')}`, 'homeArticlesSection item')).join('');
-  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">05 / Articles</p><div><h2 id="articles-title">Notes from the underground.</h2><p>Long-form articles about the sounds, scenes, technology and communities behind underground club culture.</p></div></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div><p class="articles-all"><a class="button" href="/articles">All articles →</a></p></section>`;
+  const copy = t(lang);
+  const cards = items.map((item, index) => articleCard(item, `A${String(index + 1).padStart(2, '0')}`, 'homeArticlesSection item', lang)).join('');
+  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">${escapeHtml(copy.homeArticlesIndex)}</p><div><h2 id="articles-title">${escapeHtml(copy.homeArticlesTitle)}</h2><p>${escapeHtml(copy.homeArticlesBody)}</p></div></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div><p class="articles-all"><a class="button" href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.homeArticlesAll)}</a></p></section>`;
 }
 
 // The /articles page: every article in the catalogue, not only the newest eight
 // the homepage has room for. Items carry their catalogue `number`, the same one
 // Read Next shows, so a guide is A03 everywhere it appears.
-export function articlesIndex({items = [], title} = {}) {
+export function articlesIndex({items = [], title, lang = defaultLang} = {}) {
   if (!items.length) throw new Error('articlesIndex requires at least one article.');
   requireFields('articlesIndex', {title});
-  const cards = items.map(item => articleCard(item, item.number, 'articlesIndex item')).join('');
+  const cards = items.map(item => articleCard(item, item.number, 'articlesIndex item', lang)).join('');
   return `<section class="articles-index" aria-labelledby="articles-index-title"><h2 id="articles-index-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
 }
 
@@ -292,7 +301,7 @@ export function articleStructuredData({headline, description, canonical, image, 
 }
 
 export function breadcrumbStructuredData({name, canonical, lang = defaultLang} = {}) {
-  return {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:t(lang).footerHome,item:'https://thecatrave.com/'},{'@type':'ListItem',position:2,name,item:canonical}]};
+  return {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:t(lang).footerHome,item:`https://thecatrave.com${t(lang).homePath}`},{'@type':'ListItem',position:2,name,item:canonical}]};
 }
 
 export function faqStructuredData({items = []} = {}) {
@@ -308,7 +317,7 @@ const essentialListeningLabels = new Set(Object.values(locales).map(locale => lo
 // pages reference; everything else is already absolute.
 export function rootRelativeAssets(html) {
   return html
-    .replace(/(src|href)="(img\/|thecatrave-home\.css|thecatrave-article\.css)/g, '$1="/$2')
+    .replace(/(src|href)="(img\/|thecatrave-home\.css|thecatrave-article\.css|selector-runtime\.js)/g, '$1="/$2')
     .replace(/srcset="([^"]*)"/g, (match, value) => `srcset="${value.replace(/(^|,\s*)img\//g, '$1/img/')}"`);
 }
 
@@ -392,17 +401,18 @@ export function bandcampSupport({description, tracks = [], fullBleed = false, la
 
 export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {
   if (!items.length) throw new Error('readNext requires at least one article.');
-  const cards = items.map((item, index) => articleCard(item, item.number || `A${String(index + 1).padStart(2, '0')}`, 'readNext item')).join('');
+  const cards = items.map((item, index) => articleCard(item, item.number || `A${String(index + 1).padStart(2, '0')}`, 'readNext item', lang)).join('');
   return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
 }
 
 export function articleFooter(lang = defaultLang) {
   const copy = t(lang);
-  return `<footer class="site-footer article-footer"><nav class="footer-nav article-footer-nav" aria-label="${escapeHtml(copy.footerNavLabel)}"><div><p>${escapeHtml(copy.footerHome)}</p><a href="/">thecatrave.com</a><a href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.footerAllArticles)}</a></div><div><p>${escapeHtml(copy.footerListen)}</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>${escapeHtml(copy.footerFollow)}</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><a href="#main-content">${escapeHtml(copy.footerTop)}</a></div></footer>`;
+  return `<footer class="site-footer article-footer"><nav class="footer-nav article-footer-nav" aria-label="${escapeHtml(copy.footerNavLabel)}"><div><p>${escapeHtml(copy.footerHome)}</p><a href="${escapeHtml(copy.homePath)}">thecatrave.com</a><a href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.footerAllArticles)}</a></div><div><p>${escapeHtml(copy.footerListen)}</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>${escapeHtml(copy.footerFollow)}</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><a href="#main-content">${escapeHtml(copy.footerTop)}</a></div></footer>`;
 }
 
-export function homeFooter() {
-  return `<footer class="site-footer"><div class="footer-top"><a class="footer-wordmark" href="/">thecatrave*</a><p>Handmade dance music.</p></div><nav class="footer-nav" aria-label="Footer navigation"><div><p>Explore</p><a href="#music">Music</a><a href="/articles">Articles</a></div><div><p>Listen</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>Follow</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><p>Handmade dance music</p><a href="#main-content">Back to top ↑</a></div></footer>`;
+export function homeFooter(lang = defaultLang) {
+  const copy = t(lang);
+  return `<footer class="site-footer"><div class="footer-top"><a class="footer-wordmark" href="${escapeHtml(copy.homePath)}">thecatrave*</a><p>${escapeHtml(copy.footerTagline)}.</p></div><nav class="footer-nav" aria-label="${escapeHtml(copy.footerNavLabel)}"><div><p>${escapeHtml(copy.footerExplore)}</p><a href="#music">${escapeHtml(copy.footerMusic)}</a><a href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.footerArticles)}</a></div><div><p>${escapeHtml(copy.footerListen)}</p><a href="${siteLinks.soundcloud}" target="_blank" rel="noopener noreferrer">SoundCloud ↗</a><a href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">Bandcamp ↗</a><a href="${siteLinks.spotify}" target="_blank" rel="noopener noreferrer">Spotify ↗</a></div><div><p>${escapeHtml(copy.footerFollow)}</p><a href="${siteLinks.instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></nav><div class="footer-bottom"><p>© 2026 thecatrave</p><p>${escapeHtml(copy.footerTagline)}</p><a href="#main-content">${escapeHtml(copy.footerTop)}</a></div></footer>`;
 }
 
 // The owner's own visits are the largest single source of noise on a site this

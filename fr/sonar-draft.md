@@ -108,7 +108,7 @@ Depuis 2024, ARTE, la chaîne franco-allemande, filme des concerts entiers à S�
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
-Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland) et, en anglais, d’[EDC Las Vegas](/edc-las-vegas) et de [Creamfields](/creamfields-festival). Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland) et, en anglais, d’[EDC Las Vegas](/edc-las-vegas) et de [Creamfields](/creamfields-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

@@ -67,7 +67,7 @@ for (const index of indexes) {
     }),
     // The heading is for screen readers and the h1 > h2 > h3 outline only; the
     // hero already says what the list is.
-    articlesIndex({items, title: index.listTitle})
+    articlesIndex({items, title: index.listTitle, lang})
   ].join('\n');
 
   const structuredData = [

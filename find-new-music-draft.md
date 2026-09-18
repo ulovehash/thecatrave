@@ -20,7 +20,7 @@ Then there are the ones nobody outside their own city talks about, and this is w
 
 The catch with radio is that it is live and you are not always free at 3pm on a Tuesday. Which is what the next two methods solve.
 
-## Whole DJ sets
+## DJ sets
 
 A DJ set is an hour or more of records that somebody spent years learning how to put next to each other.
 
@@ -110,7 +110,7 @@ If you only take one thing from the list, take the first three. Put a community 
 
 ### What is the best way to discover new music
 
-Community radio, because somebody has already done the listening for you. NTS, Rinse FM and The Lot Radio are the most named, and dozens of smaller city stations do the same job for their own scenes. If you cannot listen live, the same stations upload full DJ sets to YouTube.
+Community radio, because somebody has already done the listening for you. NTS, Rinse FM and The Lot Radio are the most named, and dozens of smaller city stations do the same job for their own scenes. If you cannot listen live, the same stations upload their DJ sets to YouTube.
 
 ### How to discover new music without an algorithm
 
@@ -146,4 +146,4 @@ Follow credits. Find who produced, mixed or featured on a record you love, then 
 
 ### What is the fastest way to hear something completely new
 
-Play a full DJ set from a station in a city you have never been to. One hour, twenty artists, none of them chosen by anything that knows who you are.
+Play a DJ set from a station in a city you have never been to. One hour, twenty artists, none of them chosen by anything that knows who you are.

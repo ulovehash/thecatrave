@@ -84,7 +84,7 @@ La troisième, c’est la rareté. Avec 200 000 places par week-end et des achet
 
 Tomorrowland n’est pas un festival d’un seul genre, et la Mainstage n’en est pas le tout. La Mainstage, c’est de l’EDM big room : les noms qui reviennent d’édition en édition sont Armin van Buuren, David Guetta et Martin Garrix, et le duo belge Dimitri Vegas & Like Mike a signé plusieurs hymnes officiels du festival. En 2026, Calvin Harris a fait ses débuts en Belgique en clôturant la Mainstage les deux samedis.
 
-Dimitri Vegas & Like Mike sont le son de cette scène plus que quiconque. Leur set de 2025, l’année où la scène d’origine a brûlé, montre la Mainstage dans son entier.
+Dimitri Vegas & Like Mike sont le son de cette scène plus que quiconque. Leur set de 2025, l’année où la scène d’origine a brûlé, montre à quoi ressemble cette scène.
 
 [Embed: Dimitri Vegas & Like Mike, Live At Tomorrowland 2025 Mainstage, WdWnCTkqIRs]
 
@@ -102,7 +102,7 @@ Tomorrowland filme ses scènes et met des sets entiers en ligne, ce qui explique
 
 [Embed: Hardwell 2013 et Swedish House Mafia 2025, ZG1AT6tylA4]
 
-Pour le festival qui est l’exact opposé de Tomorrowland, une ville sans programmation et où rien n’est à vendre, lisez [notre guide de Burning Man](/fr/burning-man). [Notre guide des DJ sets en live](/live-dj-sets), en anglais, présente ceux qui filment aussi la musique. Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Pour le festival qui est l’exact opposé de Tomorrowland, une ville sans programmation et où rien n’est à vendre, lisez [notre guide de Burning Man](/fr/burning-man). [Notre guide des DJ sets en live](/live-dj-sets), en anglais, présente ceux qui filment aussi la musique. Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

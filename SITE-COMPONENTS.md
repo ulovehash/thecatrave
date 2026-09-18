@@ -198,5 +198,29 @@ A page's own editorial copy never comes from there.
   inline script close it on an outside click and on Escape. The gate checks the
   header against the family and that English-only pages carry no switcher.
 - Each language has its own articles index, built by `build-articles-page.mjs`
-  from that language's catalogue in `home-articles.mjs`. The RSS feed and the
-  homepage stay English.
+  from that language's catalogue in `home-articles.mjs`. The RSS feed stays
+  English.
+- The home page and the Selector exist in German and French too (`/de/`,
+  `/fr/`, `/de/selector`, `/fr/selector`, from 2026-09-18), built by their own
+  generators, not by `build-localized-articles.mjs`:
+  - `build-home.mjs` treats `index.html` as the template. The component regions
+    take `lang`; every hand-written English string outside them is paired with
+    its translation in `content/<lang>/home.mjs` and swapped whole (as a text
+    node or a quoted value). The build fails if a pair is no longer found or if
+    any English text node is left over, so an edit to the English home page
+    must be made in both content modules as well. Names that stay the same (the
+    mix titles) are listed in `keep`.
+  - `build-selector.mjs` holds the English copy; `content/<lang>/selector.mjs`
+    exports the same shape as a function of the live numbers, plus `ui`, the
+    words `selector-runtime.js` writes itself (modes, lengths, buttons, the
+    Saved list). The generator writes `ui` into a `#sel-i18n` JSON block and the
+    runtime falls back to its English for anything missing. The runtime loads
+    `/selector-data.min.json` root-relative so every language shares one file.
+  - Chrome that points somewhere follows the language: the wordmark, the
+    footer's home link and the breadcrumb go to `homePath`, the header link and
+    the Selector bar to `selectorPath` (`i18n.mjs`). Article cards end in the
+    language's own `readArticle`.
+  - On the home header the language switcher is its own cell of the header
+    grid, not the last item of the nav: the home nav has six links and scrolls
+    sideways on a phone, and a dropdown inside a scrolling row either gets
+    clipped or widens the page. The article header keeps it inside the nav.

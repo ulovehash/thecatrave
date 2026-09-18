@@ -220,7 +220,7 @@ const articleHtml = [
   articleHero({
     kicker: 'Live DJ sets',
     title: 'Where to Watch Live DJ Sets Online',
-    deck: 'Boiler Room, HÖR, NTS, Rinse FM and the independent channels that film complete DJ sets, plus a way to choose from 62,877 recordings without an algorithm.',
+    deck: 'Boiler Room, HÖR, NTS, Rinse FM and the independent channels that film DJ sets, plus a way to choose from 62,877 recordings without an algorithm.',
     readingTime,
     dateModified,
     dateLabel,

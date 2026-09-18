@@ -243,3 +243,31 @@ Decisions:
   questions; they stay with the English pages, as in German.
 - Untold (450) and the smaller guides wait: the French demand below this batch
   is 450 and less.
+
+## Published: home page and Selector, German and French (2026-09-18)
+
+`/de/`, `/fr/`, `/de/selector`, `/fr/selector`, at the owner's request. Every
+page of both families now declares en, de and fr in hreflang, and the header of
+each carries the language switcher.
+
+No Ahrefs units spent, and **no keyword research behind these four pages**: the
+titles and descriptions are translations of the English ones ("Neue Musik
+entdecken: ein Knopf, ein zufälliges DJ-Set", "Découvrir de la musique : un
+bouton, un DJ set au hasard"), not measured German or French phrasings. A
+stage 2 pass on the Selector's seeds in de and fr is owed before these titles
+are treated as targeting anything.
+
+Decisions:
+
+- The German and French Selector say what the tool does now: nothing is
+  personalised, and saved and recently played sets stay in the browser. The
+  English still says "Nothing is saved" (open: `selector-nothing-saved-copy`).
+- Their internal links go to the translated drum and bass and dubstep guides;
+  jungle and breakbeat have no German or French page.
+- Mode names: Beliebt, Geheimtipps, Nischen-Sets; Populaires, Pépites
+  cachées, Sets de niche. German addresses the reader as du, like the German
+  guides; French as vous.
+- Found on the way: the article cards on every German and French page ended in
+  English "Read article →" (fixed, `translated-cards-read-article-english`),
+  and the German Selector bar says "ein kompletter DJ-Set" (open, waits for the
+  owner: `german-promo-bar-set-gender`).

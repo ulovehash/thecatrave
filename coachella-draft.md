@@ -84,11 +84,11 @@ The Sahara shows how far that spread goes. Diljit Dosanjh played the tent on the
 
 ## Hearing Coachella from home
 
-Coachella streams live on YouTube, several stages at once, and its channel keeps clips from each year. The most watched Coachella video there is FISHER playing "Losing It" on Friday 12 April 2019, with about 77 million views. Full sets tend to go up on the artists' own channels. Fatboy Slim's full set from 2026, nearly two hours, shot by the festival, has about 1.1 million views on his.
+Coachella streams live on YouTube, several stages at once, and its channel keeps clips from each year. The most watched Coachella video there is FISHER playing "Losing It" on Friday 12 April 2019, with about 77 million views. Sets tend to go up on the artists' own channels. Fatboy Slim's set from 2026, nearly two hours, shot by the festival, has about 1.1 million views on his.
 
 [Embed: FISHER 2019 and Fatboy Slim 2026, oUbpmjOgmmU]
 
-Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 

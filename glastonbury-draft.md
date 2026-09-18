@@ -92,11 +92,11 @@ The festival also plays its own history. A Sunday "legends" slot is kept for old
 
 The BBC has televised Glastonbury since 1997, when it took over from Channel 4, so most people watch Glastonbury live on the BBC. In 2020, the year of the cancelled 50th anniversary, it broadcast classic sets instead, among them Taylor Swift, Adele, Beyoncé, the Rolling Stones and R.E.M.
 
-The most watched Glastonbury video on BBC Music's YouTube channel is Coldplay playing "Fix You" at the 2024 festival, with about 67 million views. For a whole set, R.E.M. have posted the complete BBC broadcast of their 1999 headline show on their own channel, where it has about 2.2 million views.
+The most watched Glastonbury video on BBC Music's YouTube channel is Coldplay playing "Fix You" at the 2024 festival, with about 67 million views. R.E.M. have posted the BBC broadcast of their 1999 headline set on their own channel, where it has about 2.2 million views.
 
 [Embed: Coldplay 2024 and R.E.M. 1999, kM-94LhhQTs]
 
-Glastonbury is the oldest of the festivals on this site. Our guides also cover [Creamfields](/creamfields-festival), the other big English festival, [Coachella](/what-is-coachella) and [Lollapalooza](/lollapalooza-festival) in America, and [Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+Glastonbury is the oldest of the festivals on this site. Our guides also cover [Creamfields](/creamfields-festival), the other big English festival, [Coachella](/what-is-coachella) and [Lollapalooza](/lollapalooza-festival) in America, and [Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 

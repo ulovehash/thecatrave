@@ -95,7 +95,7 @@ export default {
     }),
     'srV4AgUc104': articleYoutubeEmbed({
       src: 'https://www.youtube-nocookie.com/embed/srV4AgUc104',
-      title: 'Alan Sparhawk, set complet officiel à Primavera Sound Porto 2025'
+      title: 'Alan Sparhawk, set officiel à Primavera Sound Porto 2025'
     }),
     'Table: milestones': articleTable({
       headers: ['Année', 'Ce qui a changé'],

@@ -84,11 +84,11 @@ The festival also keeps a foot in the art world it started with: its channel car
 
 ## Hearing Lollapalooza from home
 
-Lollapalooza has been streamed on Hulu since 2022, alongside Austin City Limits and Bonnaroo, and in 2020 the whole festival was a free livestream on YouTube. The most watched video on the festival's own YouTube channel, at about 44 million views, is from 6 August 2010: Lady Gaga joining Semi Precious Weapons on stage, playing drums on "Magnetic Baby" and diving into the crowd, hours before her own set. Full sets go up on the artists' channels; the most watched we found is The Chainsmokers' official set from 2019, with about 3.9 million views.
+Lollapalooza has been streamed on Hulu since 2022, alongside Austin City Limits and Bonnaroo, and in 2020 the whole festival was a free livestream on YouTube. The most watched video on the festival's own YouTube channel, at about 44 million views, is from 6 August 2010: Lady Gaga joining Semi Precious Weapons on stage, playing drums on "Magnetic Baby" and diving into the crowd, hours before her own set. Sets go up on the artists' channels; the most watched we found is The Chainsmokers' official set from 2019, with about 3.9 million views.
 
 [Embed: Lady Gaga 2010 and The Chainsmokers 2019, EGh9zlN6eLo]
 
-Lollapalooza's closest relative on this site is [Coachella](/what-is-coachella), whose radius clause lets its acts announce Lollapalooza early; our guides also cover [EDC Las Vegas](/edc-las-vegas), [Tomorrowland](/tomorrowland-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+Lollapalooza's closest relative on this site is [Coachella](/what-is-coachella), whose radius clause lets its acts announce Lollapalooza early; our guides also cover [EDC Las Vegas](/edc-las-vegas), [Tomorrowland](/tomorrowland-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 

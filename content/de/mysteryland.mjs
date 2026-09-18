@@ -83,7 +83,7 @@ export default {
     '_8acHa-APa8': articleVideoCollection({
       lang: 'de',
       label: 'Dieselbe Hauptbühne, ein Jahr später',
-      description: 'Hardwell 2023 auf der Hauptbühne von Mysteryland und Charlotte de Witte 2024 auf derselben Bühne, die beiden meistgesehenen kompletten Sets unter den jüngeren Uploads des Festivals.',
+      description: 'Hardwell 2023 auf der Hauptbühne von Mysteryland und Charlotte de Witte 2024 auf derselben Bühne, die beiden meistgesehenen Sets unter den jüngeren Uploads des Festivals.',
       items: [
         articleVideoCard({youtubeId: '_8acHa-APa8', genre: 'Main Stage, 2023', artist: 'Hardwell', title: 'Main Stage, Mysteryland 2023'}),
         articleVideoCard({youtubeId: 'mao2oVsWSxA', genre: 'Mainstage, 2024', artist: 'Charlotte de Witte', title: 'Mainstage, Mysteryland 2024'})

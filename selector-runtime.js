@@ -39,6 +39,42 @@
   const burst = document.getElementById('sel-burst');
   if (!btn || !stage) return;
 
+  // Every word the tool writes itself. The English is here; a translated page
+  // (/de/selector, /fr/selector) overrides it with the #sel-i18n block that
+  // build-selector.mjs writes from content/<lang>/selector.mjs. Anything the
+  // block leaves out stays English rather than going blank.
+  const L = {
+    numberLocale: 'en-US',
+    modes: { any: ['All', ''], popular: ['Popular', 'the most-watched sets'], gems: ['Hidden gems', 'underrated sets'], deep: ['Niche sets', 'hear them first'] },
+    lengths: { short: 'Under 45 min', hour: '45–75 min', long: 'Over 75 min' },
+    allSets: 'all {n} sets',
+    sets: '{n} sets',
+    sources: '{n} sources',
+    untagged: 'untagged',
+    all: 'All',
+    more: '+{n} more',
+    fewer: 'Show fewer',
+    moreLabel: 'Show {n} more, {total} in total',
+    fewerLabel: 'Show fewer, {total} in total',
+    pickMe: 'Pick me a set',
+    pickAnother: 'Pick another',
+    nothingMatches: 'Nothing matches, widen the filter',
+    stillBuilding: 'Catalogue is still being built',
+    loadFailed: 'Catalogue failed to load — reload the page',
+    year: 'Year',
+    length: 'Length',
+    views: 'Views',
+    watch: 'Watch on YouTube ↗',
+    save: '♡ Save',
+    saved: '♥ Saved',
+    emptySaved: 'Nothing saved yet. Press ♡ Save under a set to keep it here.',
+    emptyRecent: 'Nothing played yet.',
+    remove: 'Remove {name} from saved'
+  };
+  try { Object.assign(L, JSON.parse(document.getElementById('sel-i18n').textContent) || {}); } catch {}
+  const fill = (text, values) => text.replace(/\{(\w+)\}/g, (m, k) => (k in values ? values[k] : m));
+  const num = n => n.toLocaleString(L.numberLocale);
+
   let all = [];
   let pool = [];
   const recent = [];
@@ -54,20 +90,15 @@
   // at the two ends — the short slot and the long haul — which are otherwise
   // unreachable: ask for 25 minutes today and you get an hour nine times in ten.
   const LENGTHS = [
-    ['Under 45 min', 'short', 0, 45 * 60],
-    ['45–75 min', 'hour', 45 * 60, 75 * 60],
-    ['Over 75 min', 'long', 75 * 60, Infinity]
+    [L.lengths.short, 'short', 0, 45 * 60],
+    [L.lengths.hour, 'hour', 45 * 60, 75 * 60],
+    [L.lengths.long, 'long', 75 * 60, Infinity]
   ];
 
   // How the pool is narrowed before the random pick. "deep" exists so the long
   // tail of artists gets played too, not just whatever already has an audience.
   // Name is the hook, note says plainly what you will actually get back.
-  const MODES = [
-    ['All', 'any', ''],
-    ['Popular', 'popular', 'the most-watched sets'],
-    ['Hidden gems', 'gems', 'underrated sets'],
-    ['Niche sets', 'deep', 'hear them first']
-  ];
+  const MODES = ['any', 'popular', 'gems', 'deep'].map(value => [L.modes[value][0], value, L.modes[value][1]]);
   // All, not Popular. Popular is a tenth of the catalogue, so opening on it
   // would mean the first press of the button never reaches the other nine, and
   // the deck promises a set out of all 62,877.
@@ -118,9 +149,9 @@
     const matched = gs.find(x => activeGenres.has(x));
     const genreList = matched ? [matched, ...gs.filter(x => x !== matched)] : gs;
     const facts = [
-      item.year ? ['Year', String(item.year)] : null,
-      item.seconds ? ['Length', fmtDuration(item.seconds)] : null,
-      item.views != null ? ['Views', fmtCount(item.views)] : null
+      item.year ? [L.year, String(item.year)] : null,
+      item.seconds ? [L.length, fmtDuration(item.seconds)] : null,
+      item.views != null ? [L.views, fmtCount(item.views)] : null
     ].filter(Boolean)
       .map(([k, v]) => `<span><b>${k}:</b> ${escapeText(v)}</span>`)
       .join('');
@@ -141,7 +172,7 @@
         <p class="sel-artist">${escapeText(name)}</p>
         ${tags.length ? `<p class="sel-tags">${tags.join('')}</p>` : ''}
         ${facts ? `<p class="sel-facts">${facts}</p>` : ''}
-        <p class="sel-links">${saveButton(item)}<a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
+        <p class="sel-links">${saveButton(item)}<a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer">${escapeText(L.watch)}</a></p>
       </div>`;
     try { history.replaceState(null, '', '#' + item.id); } catch {}
     remember(item);
@@ -182,19 +213,19 @@
     if (count) {
       const bits = [];
       if (activeSources.size === 1) bits.push([...activeSources][0]);
-      else if (activeSources.size) bits.push(`${activeSources.size} sources`);
-      if (activeGenres.size) bits.push([...activeGenres].map(g => (g === UNTAGGED ? 'untagged' : g)).join(' / '));
+      else if (activeSources.size) bits.push(fill(L.sources, {n: activeSources.size}));
+      if (activeGenres.size) bits.push([...activeGenres].map(g => (g === UNTAGGED ? L.untagged : g)).join(' / '));
       if (activeLengths.size) bits.push(LENGTHS.filter(l => activeLengths.has(l[1])).map(l => l[0]).join(' / '));
       const label = (MODES.find(m => m[1] === mode) || [])[0];
-      if (mode !== 'any' && label) bits.push(label.toLowerCase());
+      if (mode !== 'any' && label) bits.push(label.toLocaleLowerCase(L.numberLocale));
       // each part is its own unbreakable run, so a narrow screen wraps between
       // "popular" and "from 7K views" instead of between "from" and "7K"
-      count.innerHTML = [`${pool.length.toLocaleString('en-US')} sets`, ...bits]
+      count.innerHTML = [fill(L.sets, {n: num(pool.length)}), ...bits]
         .map(b => `<span>${escapeText(b)}</span>`).join(' · ');
       count.hidden = false;
     }
-    if (!pool.length) setButton('Nothing matches, widen the filter', 'empty', true);
-    else if (btn.dataset.state !== 'ready') setButton(recent.length ? 'Pick another' : 'Pick me a set', 'ready', false);
+    if (!pool.length) setButton(L.nothingMatches, 'empty', true);
+    else if (btn.dataset.state !== 'ready') setButton(recent.length ? L.pickAnother : L.pickMe, 'ready', false);
   };
 
   const SPARK_COLORS = ['var(--acid)', 'var(--cyan)', 'var(--yellow)', 'var(--coral)', 'var(--ink)'];
@@ -269,7 +300,7 @@
       salute();
     }
     render(item);
-    setButton('Pick another', 'ready', false);
+    setButton(L.pickAnother, 'ready', false);
   };
   btn.addEventListener('click', go);
 
@@ -304,7 +335,7 @@
 
   function saveButton(item) {
     const on = isSaved(item.id);
-    return `<button type="button" class="sel-save" aria-pressed="${on}" data-id="${escapeAttr(item.id)}">${on ? '♥ Saved' : '♡ Save'}</button>`;
+    return `<button type="button" class="sel-save" aria-pressed="${on}" data-id="${escapeAttr(item.id)}">${escapeText(on ? L.saved : L.save)}</button>`;
   }
 
   function renderLibrary() {
@@ -321,8 +352,8 @@
     const list = libView === 'saved' ? saved : played;
     if (!list.length) {
       libList.innerHTML = `<li class="sel-library-empty">${libView === 'saved'
-        ? 'Nothing saved yet. Press ♡ Save under a set to keep it here.'
-        : 'Nothing played yet.'}</li>`;
+        ? escapeText(L.emptySaved)
+        : escapeText(L.emptyRecent)}</li>`;
       return;
     }
     libList.innerHTML = list.map(s => {
@@ -330,7 +361,7 @@
       const sub = s.artist ? s.broadcaster : '';
       const playing = current && current.id === s.id;
       const remove = libView === 'saved'
-        ? `<button type="button" class="sel-library-remove" data-id="${escapeAttr(s.id)}" aria-label="Remove ${escapeAttr(name)} from saved">×</button>`
+        ? `<button type="button" class="sel-library-remove" data-id="${escapeAttr(s.id)}" aria-label="${escapeAttr(fill(L.remove, {name}))}">×</button>`
         : '';
       return `<li${playing ? ' aria-current="true"' : ''}><button type="button" class="sel-library-play" data-id="${escapeAttr(s.id)}"><span class="sel-library-name">${escapeText(name)}</span>${
         sub ? `<span class="sel-library-src">${escapeText(sub)}</span>` : ''}</button>${remove}</li>`;
@@ -380,7 +411,7 @@
     stage.querySelectorAll('.sel-save').forEach(b => {
       if (b.dataset.id !== id) return;
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
-      b.textContent = on ? '♥ Saved' : '♡ Save';
+      b.textContent = on ? L.saved : L.save;
       if (on) floatHearts(b);
     });
     renderLibrary();
@@ -394,7 +425,7 @@
     recent.push(item.id);
     if (recent.length > 15) recent.shift();
     render(known || { ...item });
-    if (all.length) setButton('Pick another', 'ready', false);
+    if (all.length) setButton(L.pickAnother, 'ready', false);
     const top = stage.getBoundingClientRect().top;
     if (top < 0 || top > window.innerHeight * 0.5) {
       stage.scrollIntoView({ block: 'start', behavior: reduceMotion ? 'auto' : 'smooth' });
@@ -457,7 +488,7 @@
       b.setAttribute('aria-checked', value === mode ? 'true' : 'false');
       b.tabIndex = value === mode ? 0 : -1;
       // the unfiltered option states the real size of the catalogue
-      const line = value === 'any' ? `all ${all.length.toLocaleString('en-US')} sets` : note;
+      const line = value === 'any' ? fill(L.allSets, {n: num(all.length)}) : note;
       b.innerHTML = `<span class="sel-chip-name">${escapeText(label)}</span>${
         line ? `<span class="sel-chip-note">${escapeText(line)}</span>` : ''}`;
       modesEl.appendChild(b);
@@ -515,7 +546,7 @@
       container.appendChild(b);
       return b;
     };
-    const allChip = chip('All', '', !activeSet.size);
+    const allChip = chip(L.all, '', !activeSet.size);
     const chips = entries.map(([name, value, n]) => chip(name, value, activeSet.has(value), n));
 
     let expanded = false;
@@ -533,11 +564,9 @@
       chips.forEach((c, i) => { c.hidden = clamp && i >= peek && !activeSet.has(c.dataset.value); });
       const hidden = chips.filter(c => c.hidden).length;
       more.hidden = !isNarrow() || (!hidden && !expanded);
-      more.textContent = hidden ? `+${hidden} more` : 'Show fewer';
+      more.textContent = hidden ? fill(L.more, {n: hidden}) : L.fewer;
       more.setAttribute('aria-expanded', hidden ? 'false' : 'true');
-      more.setAttribute('aria-label', hidden
-        ? `Show ${hidden} more, ${chips.length} in total`
-        : `Show fewer, ${chips.length} in total`);
+      more.setAttribute('aria-label', fill(hidden ? L.moreLabel : L.fewerLabel, {n: hidden, total: chips.length}));
     };
     if (more) { repeek.push(applyPeek); applyPeek(); }
 
@@ -582,7 +611,7 @@
     const ranked = [...genCounts.entries()].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]);
     if (ranked.length) {
       const genres = ranked.slice(0, 18).map(([g, n]) => [g, g, n]);
-      if (untaggedCount) genres.push(['untagged', UNTAGGED]);
+      if (untaggedCount) genres.push([L.untagged, UNTAGGED]);
       makeChips(genresEl, genres, activeGenres, null, null, GENRE_PEEK, 'genre');
       if (genresWrap) genresWrap.hidden = false;
     }
@@ -612,17 +641,17 @@
     }).filter(s => s && s.id);
   };
 
-  fetch('selector-data.min.json', { cache: 'no-cache' })
+  fetch('/selector-data.min.json', { cache: 'no-cache' })
     .then(r => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
     .then(data => {
       all = expand(data);
-      if (!all.length) { setButton('Catalogue is still being built', 'empty', true); return; }
+      if (!all.length) { setButton(L.stillBuilding, 'empty', true); return; }
       buildFilters();
       rebuildPool();
-      setButton('Pick me a set', 'ready', false);
+      setButton(L.pickMe, 'ready', false);
       const hashId = decodeURIComponent((location.hash || '').replace(/^#/, ''));
       const fromHash = hashId && all.find(s => s.id === hashId);
-      if (fromHash) { recent.push(fromHash.id); render(fromHash); setButton('Pick another', 'ready', false); }
+      if (fromHash) { recent.push(fromHash.id); render(fromHash); setButton(L.pickAnother, 'ready', false); }
     })
-    .catch(() => setButton('Catalogue failed to load — reload the page', 'error', true));
+    .catch(() => setButton(L.loadFailed, 'error', true));
 })();

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import { pages as manifest, guides, langOf, alternatesFor } from './pages.mjs';
-import { locales } from './i18n.mjs';
+import { locales, t } from './i18n.mjs';
 import {homeArticlesNewestFirst, relatedArticles} from './home-articles.mjs';
 import {rootRelativeAssets, analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, ownSetListening, readNext, siteHeader} from './site-components.mjs';
 
@@ -70,17 +70,27 @@ const essentialListeningClasses = html => [...html.matchAll(/<aside class="([^"]
   .filter(match => listeningLabels.some(label => match[0].includes(`<p class="article-kicker">${label}</p>`)))
   .map(match => match[1]);
 
-const expectedHomeHeader = siteHeader({
-  variant:'home',
-  navItems:[
-    {href:'#bandcamp',label:'Bandcamp',className:'support-link'},
-    {href:'#mixes',label:'Mixes'},
-    {href:'#music',label:'Tracks'},
-    {href:'#playlists',label:'Playlists'},
-    {href:'/articles',label:'Articles'},
-    {href:'/selector',label:'Selector',className:'selector-link'}
-  ]
-});
+// The home page exists in every language of its hreflang family (/, /de/,
+// /fr/); each one carries its own language's header and footer, with the
+// language switcher, and the rest of the checks below read the English one.
+const homePages = manifest.filter(page => page.kind === 'home');
+const homeHeaderFor = lang => {
+  const copy = t(lang);
+  return siteHeader({
+    variant:'home',
+    lang,
+    alternates: alternatesFor('/'),
+    navItems:[
+      {href:'#bandcamp',label:'Bandcamp',className:'support-link'},
+      {href:'#mixes',label:copy.homeNavMixes},
+      {href:'#music',label:copy.homeNavTracks},
+      {href:'#playlists',label:copy.homeNavPlaylists},
+      {href:copy.articlesPath,label:copy.navArticles},
+      {href:copy.selectorPath,label:copy.navSelector,className:'selector-link'}
+    ]
+  });
+};
+const expectedHomeHeader = homeHeaderFor('en');
 const expectedNowPlaying = nowPlayingBanner({
   title:'I Like to Smoke in Silence After Raves',
   meta:'30 tracks / DJ mix',
@@ -168,6 +178,8 @@ const expectedJungleReadNext = readNext({items:relatedArticles('jungle-music-gui
 const checks = {
   homeHeaderShared: pages.home.includes(expectedHomeHeader),
   homeFooterShared: pages.home.includes(homeFooter()),
+  translatedHomesShared: homePages.every(page => pages[page.name].includes(homeHeaderFor(langOf(page))) && pages[page.name].includes(homeFooter(langOf(page))) && pages[page.name].includes(`<html lang="${t(langOf(page)).htmlLang}">`)),
+  homeHreflangBothWays: homePages.every(page => homePages.every(other => pages[page.name].includes(`hreflang="${langOf(other)}" href="https://thecatrave.com${other.path}"`))),
   nowPlayingShared: pages.home.includes(expectedNowPlaying),
   homeArticlesShared: pages.home.includes(expectedHomeArticles),
   // Two digits, not A0[1-9]: the tenth card is A10, and the old pattern stopped counting at nine.

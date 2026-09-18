@@ -92,7 +92,7 @@ Die beiden unten sind die meistgesehenen. Das Set von Armin van Buuren vom 5. Au
 
 [Embed: Armin van Buuren 2017 und Steve Aoki 2021, DjQCkSSblIk]
 
-Untold teilt sich die obersten drei Plätze beim DJ Mag mit [Tomorrowland](/de/tomorrowland-festival), und in derselben Liste steht [Parookaville](/de/parookaville-festival) auf Platz zehn. Und [der Selector](/selector) spielt einen kompletten DJ-Set nach dem Zufallsprinzip, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Untold teilt sich die obersten drei Plätze beim DJ Mag mit [Tomorrowland](/de/tomorrowland-festival), und in derselben Liste steht [Parookaville](/de/parookaville-festival) auf Platz zehn. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

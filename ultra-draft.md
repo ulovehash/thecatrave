@@ -102,11 +102,11 @@ That is the thing worth knowing, for a listener who comes from breaks, jungle or
 
 ## Hearing Ultra from home
 
-Ultra streams its stages live as #ULTRALIVE, and the artists put their full sets online afterwards. The most-watched Ultra set found is Skrillex's in 2015, more than 94 million views on his own channel, the set Miami New Times remembers for Diplo and Justin Bieber joining him. Also on that list of the festival's best performances is Hardwell's in 2013, more than 35 million views on his channel, in which he brought out Dyro for their collaboration "Never Say Goodbye". Martin Garrix's 2015 set sits between them on views, with nearly 39 million.
+Ultra streams its stages live as #ULTRALIVE, and the artists put their sets online afterwards. The most-watched Ultra set found is Skrillex's in 2015, more than 94 million views on his own channel, the set Miami New Times remembers for Diplo and Justin Bieber joining him. Also on that list of the festival's best performances is Hardwell's in 2013, more than 35 million views on his channel, in which he brought out Dyro for their collaboration "Never Say Goodbye". Martin Garrix's 2015 set sits between them on views, with nearly 39 million.
 
 [Embed: Skrillex 2015 and Hardwell 2013, V2VmcuOEqEg]
 
-For the festival in a Belgian park that most of the world knows through a screen, read [our Tomorrowland guide](/tomorrowland-festival); for the one at a racetrack in the desert, [our EDC Las Vegas guide](/edc-las-vegas). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+For the festival in a Belgian park that most of the world knows through a screen, read [our Tomorrowland guide](/tomorrowland-festival); for the one at a racetrack in the desert, [our EDC Las Vegas guide](/edc-las-vegas). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 

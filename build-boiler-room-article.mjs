@@ -111,7 +111,7 @@ const lenFakiBand = articleListeningBand({
   platform: 'soundcloud',
   id: 'len-faki-audio',
   kicker: 'Essential listening',
-  title: 'Len Faki, Boiler Room Berlin, 2014. The full mix.',
+  title: 'Len Faki, Boiler Room Berlin, 2014.',
   description: 'Boiler Room\'s own audio upload of the set ranked eleventh below. Ninety-three minutes of techno, and the fairest test of whether a set works without the picture.',
   src: 'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/platform/len-faki&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false',
   iframeTitle: 'Len Faki Boiler Room Berlin DJ Set on SoundCloud',

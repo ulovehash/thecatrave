@@ -82,13 +82,13 @@ La drum and bass est invitée ici. Pendulum était à l’affiche 2026, classé 
 
 ## Écouter Parookaville depuis chez soi
 
-Parookaville met ses sets en ligne. La chaîne du festival a une playlist de DJ sets complets pour chaque édition depuis 2017, et beaucoup d’artistes publient les leurs. Aucun des 62 877 DJ sets derrière [le Selector](/selector) ne vient de Parookaville, donc les lecteurs ici viennent de ces chaînes.
+Parookaville met ses sets en ligne. La chaîne du festival a une playlist de DJ sets pour chaque édition depuis 2017, et beaucoup d’artistes publient les leurs. Aucun des 62 877 DJ sets derrière [le Selector](/selector) ne vient de Parookaville, donc les lecteurs ici viennent de ces chaînes.
 
 Les deux ci-dessous sont les plus vus. Le set de W&W en 2022 est le plus vu de la chaîne du festival, avec 1 257 135 vues ; le duo néerlandais a joué à Parookaville à maintes reprises, et ses sets de 2023 et 2024 font aussi partie des plus vus de la chaîne. Steve Aoki, tête d’affiche de la première édition en 2015, a publié son set de 2025 sur sa propre chaîne, où il compte environ 1,7 million de vues, plus que tout autre set de Parookaville que nous avons trouvé.
 
 [Embed: W&W 2022 et Steve Aoki 2025, lnOjzIlm1_g]
 
-Les fondateurs de Parookaville ont pris [Tomorrowland](/fr/festival-tomorrowland) comme l’un de leurs modèles, et [Burning Man](/fr/burning-man) comme un autre ; nos guides couvrent les deux, ainsi que, en anglais, [EDC Las Vegas](/edc-las-vegas) et [Creamfields](/creamfields-festival), ses voisins dans le classement 2026. Pour savoir d’où vient la drum and bass, lisez [le guide de la drum and bass](/fr/drum-and-bass). Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Les fondateurs de Parookaville ont pris [Tomorrowland](/fr/festival-tomorrowland) comme l’un de leurs modèles, et [Burning Man](/fr/burning-man) comme un autre ; nos guides couvrent les deux, ainsi que, en anglais, [EDC Las Vegas](/edc-las-vegas) et [Creamfields](/creamfields-festival), ses voisins dans le classement 2026. Pour savoir d’où vient la drum and bass, lisez [le guide de la drum and bass](/fr/drum-and-bass). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

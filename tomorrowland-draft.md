@@ -84,7 +84,7 @@ The third is scarcity. With 200,000 places a weekend and buyers from more than 2
 
 Tomorrowland is not a genre festival, and the Mainstage is not the whole of it. The Mainstage is big-room EDM: the names that come back edition after edition include Armin van Buuren, David Guetta and Martin Garrix, and the Belgian duo Dimitri Vegas & Like Mike have written several of the festival's official anthems. In 2026 Calvin Harris made his Belgian debut, closing the Mainstage on both Saturdays.
 
-Dimitri Vegas & Like Mike are the sound of that stage more than anyone. Their 2025 set, from the year the original stage burned, is the Mainstage in full.
+Dimitri Vegas & Like Mike are the sound of that stage more than anyone. Their 2025 set, from the year the original stage burned, shows what that stage sounds like.
 
 [Embed: Dimitri Vegas & Like Mike, Live At Tomorrowland 2025 Mainstage, Dimitri Vegas & Like Mike's own YouTube channel, WdWnCTkqIRs]
 
@@ -98,11 +98,11 @@ For a listener who comes from breaks, jungle or techno, that is the useful thing
 
 ## Hearing Tomorrowland from home
 
-Tomorrowland films its stages and puts whole sets online, which is a large part of why the livestream numbers are so big. The two below are among the most watched: Hardwell on the Mainstage in 2013, more than 28 million views on his own channel, the year DJ Mag's Top 100 voted him number one; and Swedish House Mafia on the Mainstage in 2025.
+Tomorrowland films its stages and puts the sets online, which is a large part of why the livestream numbers are so big. The two below are among the most watched: Hardwell on the Mainstage in 2013, more than 28 million views on his own channel, the year DJ Mag's Top 100 voted him number one; and Swedish House Mafia on the Mainstage in 2025.
 
 [Embed: Hardwell 2013 and Swedish House Mafia 2025, ZG1AT6tylA4]
 
-For the festival that is the opposite of Tomorrowland, a city with no lineup and nothing for sale, read [our guide to Burning Man](/what-is-burning-man). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays one full DJ set at random from 62,877, if you would rather not choose.
+For the festival that is the opposite of Tomorrowland, a city with no lineup and nothing for sale, read [our guide to Burning Man](/what-is-burning-man). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
 
 ## FAQ
 

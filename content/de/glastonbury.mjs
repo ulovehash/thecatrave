@@ -147,7 +147,7 @@ export default {
     'kM-94LhhQTs': articleVideoCollection({
       lang: 'de',
       label: 'Glastonbury, am meisten gesehen',
-      description: 'Coldplay mit "Fix You" beim Festival 2024, auf dem Kanal von BBC Music, und das komplette Headliner-Set von R.E.M. aus dem Jahr 1999, wie die BBC es übertrug, auf dem Kanal der Band.',
+      description: 'Coldplay mit "Fix You" beim Festival 2024, auf dem Kanal von BBC Music, und das Headliner-Set von R.E.M. aus dem Jahr 1999, wie die BBC es übertrug, auf dem Kanal der Band.',
       items: [
         articleVideoCard({youtubeId: 'kM-94LhhQTs', genre: 'Glastonbury, 2024', artist: 'Coldplay', title: 'Fix You, Glastonbury 2024'}),
         articleVideoCard({youtubeId: 'DurDZkK58VE', genre: 'Glastonbury, 1999', artist: 'R.E.M.', title: 'Live vom Glastonbury Festival, 1999'})

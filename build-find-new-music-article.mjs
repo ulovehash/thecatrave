@@ -3,7 +3,7 @@
 // This is the one article on the site where the Selector belongs in the body
 // rather than in a promo band, because the article is a list of ways to find
 // music and the tool is one of them. It sits third, after radio and after
-// whole DJ sets, so it reads as the conclusion of the two methods above it
+// DJ sets, so it reads as the conclusion of the two methods above it
 // rather than as an advert in position one. Every other entry is a real method
 // that costs us nothing and sends the reader elsewhere, which is the price of
 // the page being worth reading at all.
@@ -19,7 +19,7 @@
 // The method list is not invented. The two most-watched videos on the subject,
 // at 563,000 and 105,000 views, between them cover journalism, influencers,
 // forums, NTS, labels, Every Noise at Once, following producers, critics and
-// AOTY. Those are all here. What is added: whole DJ sets, the Selector,
+// AOTY. Those are all here. What is added: DJ sets, the Selector,
 // Bandcamp, Discogs and RateYourMusic, and one correction neither video makes,
 // which is that Every Noise at Once stopped updating in 2023.
 import fs from 'node:fs';
@@ -67,7 +67,7 @@ const render = text => join(paras(text));
 
 const intro = paras(getSection('Introduction'));
 const radio = paras(getSection('Radio'));
-const djSets = paras(getSection('Whole DJ sets'));
+const djSets = paras(getSection('DJ sets'));
 const selector = paras(getSection('The Selector'));
 const producers = paras(getSection('Follow the producer, not the artist'));
 const everyNoise = paras(getSection('Every Noise at Once'));
@@ -97,7 +97,7 @@ const faqItems = faqSection.split(/(?:^|\n)### /).filter(Boolean).map(block => {
 // reader screenshots. Effort is the honest axis: the list is ordered by it.
 const methodRows = [
   ['Community radio', 'Local scenes and specialist selectors', 'None', 'NTS, Rinse FM or a station outside your city'],
-  ['A whole DJ set', 'Finding many artists in context', 'None', 'Watch a full set instead of skipping clips'],
+  ['A DJ set', 'Finding many artists in context', 'None', 'Let one DJ choose for an hour'],
   ['The Selector', 'Serendipity without a profile', 'One click', 'Play one of 62,877 sets at random'],
   ['Producer credits', 'Following a sound across artists', 'A minute', 'Open the credits on one record you love'],
   ['Every Noise at Once', 'Exploring unfamiliar genre names', 'A minute', 'Use the frozen genre map as a starting point'],
@@ -202,7 +202,7 @@ const bandcampExample = articleTrackEmbed({
 
 const tocItems = [
   {id: 'radio', label: 'Community radio'},
-  {id: 'dj-sets', label: 'Whole DJ sets'},
+  {id: 'dj-sets', label: 'DJ sets'},
   {id: 'selector', label: 'The Selector'},
   {id: 'producers', label: 'Follow the producer'},
   {id: 'every-noise', label: 'Every Noise at Once'},
@@ -224,12 +224,12 @@ const articleHtml = [
     readingTime,
     dateModified,
     dateLabel,
-    summaryHtml: infoBanner({label: 'HOW TO FIND NEW MUSIC', bodyHtml: inline('The most reliable way to find new music is to follow people and scenes instead of letting one recommendation feed repeat your history. Start with community radio, listen to a complete DJ set, then trace one record through its producer credits, label and Bandcamp supporters. For a decision-free route, use [the Selector](/selector), which plays one of 62,877 archived sets at random. The ten methods below range from one-click listening to deeper research in Discogs, RateYourMusic, forums and label catalogues. Each creates a different kind of discovery, so combine a low-effort habit with one method that makes you investigate where a record came from.'), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'HOW TO FIND NEW MUSIC', bodyHtml: inline('The most reliable way to find new music is to follow people and scenes instead of letting one recommendation feed repeat your history. Start with community radio, listen to a DJ set, then trace one record through its producer credits, label and Bandcamp supporters. For a decision-free route, use [the Selector](/selector), which plays one of 62,877 archived sets at random. The ten methods below range from one-click listening to deeper research in Discogs, RateYourMusic, forums and label catalogues. Each creates a different kind of discovery, so combine a low-effort habit with one method that makes you investigate where a record came from.'), className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Too much music, and you keep playing the same things.', bodyHtml: introHtml, className: 'article-intro'}),
   articleSection({id: 'radio', title: '1. Community radio.', kicker: 'No effort', bodyHtml: `${join(radio.slice(0, 3))}${stationsListening}${join(radio.slice(3))}${radioListening}`}),
-  articleSection({id: 'dj-sets', title: '2. Whole DJ sets, not singles.', kicker: 'No effort', bodyHtml: `${join(djSets.slice(0, 2))}${smallStations}${join(djSets.slice(2))}`}),
+  articleSection({id: 'dj-sets', title: '2. DJ sets, not singles.', kicker: 'No effort', bodyHtml: `${join(djSets.slice(0, 2))}${smallStations}${join(djSets.slice(2))}`}),
   articleSection({id: 'selector', title: '3. The Selector.', kicker: 'One click', bodyHtml: `${join(selector.slice(0, 2))}${selectorFigure}${join(selector.slice(2))}`}),
   articleSection({id: 'producers', title: '4. Follow the producer, not the artist.', kicker: 'A minute', bodyHtml: `${join(producers.slice(0, 2))}${producerFigure}${join(producers.slice(2))}`}),
   articleSection({id: 'every-noise', title: '5. Every Noise at Once.', kicker: 'A minute', bodyHtml: join(everyNoise)}),

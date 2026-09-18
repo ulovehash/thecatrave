@@ -93,7 +93,7 @@ export default {
     'S7OBT3kQAHQ': articleVideoCollection({
       lang: 'de',
       label: 'Burning Man 2025, zwei Camps',
-      description: 'Zwei komplette Sets von Burning Man 2025, eines aus jedem Camp oben: Lee Burridges Sonnenaufgang am Samstag bei Robot Heart und John Summit auf Mayan Warrior. Lange Aufnahmen, gemacht für die Stunden, die niemand plant.',
+      description: 'Zwei Sets von Burning Man 2025, eines aus jedem Camp oben: Lee Burridges Sonnenaufgang am Samstag bei Robot Heart und John Summit auf Mayan Warrior. Lange Aufnahmen, gemacht für die Stunden, die niemand plant.',
       items: [
         articleVideoCard({youtubeId: 'S7OBT3kQAHQ', genre: 'Robot Heart, 2025', artist: 'Lee Burridge', title: 'Live von Robot Heart, Burning Man 2025'}),
         articleVideoCard({youtubeId: 'd8zUK6nAbr8', genre: 'Mayan Warrior, 2025', artist: 'John Summit', title: 'Mayan Warrior, Burning Man 2025'})

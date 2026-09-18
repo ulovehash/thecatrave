@@ -107,7 +107,7 @@ export const homeArticleCatalog = [
   {
     page:'live-dj-sets.html', tags:['discovery','history','uk','jungle'], href:'/live-dj-sets', type:'Guide', topic:'Live DJ sets',
     title:'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More',
-    description:'Where to watch complete DJ sets online, how the main platforms differ, and a route through 62,877 archived recordings.',
+    description:'Where to watch DJ sets online, how the main platforms differ, and a route through 62,877 archived recordings.',
     image:'img/live-dj-sets/the-lot-radio-320.webp',
     srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
     width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
@@ -448,8 +448,8 @@ export function homeArticlesWithReadingTimes(lang = 'en') {
 // every time the count changed.
 const HOME_CARDS = 8;
 
-export function homeArticlesNewestFirst() {
-  return allArticlesNewestFirst().slice(0, HOME_CARDS);
+export function homeArticlesNewestFirst(lang = 'en') {
+  return allArticlesNewestFirst(lang).slice(0, HOME_CARDS);
 }
 
 // Every article, newest first, for the /articles page. Each carries its

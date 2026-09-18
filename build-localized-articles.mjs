@@ -183,6 +183,10 @@ export async function buildAllLocalizedArticles() {
     if (!fs.statSync(dir).isDirectory()) continue;
     for (const file of fs.readdirSync(dir).filter(name => name.endsWith('.mjs')).sort()) {
       const module = await import(`./${path.join(dir, file)}`);
+      // home.mjs and selector.mjs sit here too, as the copy of the translated
+      // home page and Selector; their own generators build them, and a guide's
+      // module is the only kind that exports a page object
+      if (!module.default || typeof module.default !== 'object') continue;
       built.push(buildLocalizedArticle(module.default));
     }
   }

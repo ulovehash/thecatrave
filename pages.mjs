@@ -69,6 +69,13 @@ export const pages = [
   { name: 'fr-parookaville', lang: 'fr', translationOf: '/parookaville-festival', file: 'fr/festival-parookaville.html', path: '/fr/festival-parookaville', kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Parookaville', caption: "Un festival mis en scène comme une ville, à l’aéroport de Weeze." } },
   { name: 'fr-sonar',        lang: 'fr', translationOf: '/sonar-festival-barcelona', file: 'fr/sonar-barcelone.html', path: '/fr/sonar-barcelone', kind: 'guide', generator: 'build-localized-articles.mjs', card: { title: 'Sónar', caption: "Le festival de musique avancée de Barcelone, le jour et la nuit depuis 1994." } },
   { name: 'fr-articles',     lang: 'fr', translationOf: '/articles', file: 'fr/articles.html', path: '/fr/articles', kind: 'index', generator: 'build-articles-page.mjs', card: { title: 'Tous les articles', caption: "Des guides sur la dance music et la culture club." } },
+  // The home page and the Selector, translated on 2026-09-18. Built by the same
+  // generators as the English pages, from content/<lang>/home.mjs and
+  // content/<lang>/selector.mjs.
+  { name: 'de-home',     lang: 'de', translationOf: '/', file: 'de/index.html', path: '/de/', kind: 'home', generator: 'build-home.mjs', card: { title: 'thecatrave', caption: "Breakbeat, Bass und Rave. DJ, Produzent, Selector." } },
+  { name: 'fr-home',     lang: 'fr', translationOf: '/', file: 'fr/index.html', path: '/fr/', kind: 'home', generator: 'build-home.mjs', card: { title: 'thecatrave', caption: "Breakbeat, bass et rave. DJ, producteur, sélecteur." } },
+  { name: 'de-selector', lang: 'de', translationOf: '/selector', file: 'de/selector.html', path: '/de/selector', kind: 'tool', generator: 'build-selector.mjs', card: { title: 'Der Selector', caption: "Knopf drücken, zufälliges DJ-Set bekommen." } },
+  { name: 'fr-selector', lang: 'fr', translationOf: '/selector', file: 'fr/selector.html', path: '/fr/selector', kind: 'tool', generator: 'build-selector.mjs', card: { title: 'Le Selector', caption: "Un bouton, un DJ set au hasard." } },
   { name: 'selector',     file: 'selector.html',                      path: '/selector',                     kind: 'tool',  generator: 'build-selector.mjs', card: { title: 'The Selector', caption: "Press the button, pick a random DJ set." } }
 ];
 

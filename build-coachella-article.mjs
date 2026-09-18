@@ -101,10 +101,10 @@ const media = {
   // headline set among its most watched uploads.
   'oUbpmjOgmmU': articleVideoCollection({
     label: 'Coachella, most watched',
-    description: 'FISHER playing "Losing It" in 2019, the most watched video on the festival\'s own channel; and Fatboy Slim\'s full set from 2026, nearly two hours, on his.',
+    description: 'FISHER playing "Losing It" in 2019, the most watched video on the festival\'s own channel; and Fatboy Slim\'s set from 2026, nearly two hours, on his.',
     items: [
       articleVideoCard({youtubeId: 'oUbpmjOgmmU', genre: 'Coachella, 2019', artist: 'FISHER', title: 'Losing It, Live at Coachella 2019'}),
-      articleVideoCard({youtubeId: 'fQqusBEnwM4', genre: 'Coachella, 2026', artist: 'Fatboy Slim', title: 'Coachella 2026, full set'})
+      articleVideoCard({youtubeId: 'fQqusBEnwM4', genre: 'Coachella, 2026', artist: 'Fatboy Slim', title: 'Coachella 2026'})
     ]
   }),
   // Historical attendance and gross, typed rather than computed. Current

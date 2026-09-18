@@ -87,10 +87,10 @@ export default {
     'oUbpmjOgmmU': articleVideoCollection({
       lang: 'fr',
       label: 'Coachella, les vidéos les plus vues',
-      description: 'FISHER jouant « Losing It » en 2019, la vidéo la plus vue de la chaîne du festival, et le set complet de Fatboy Slim en 2026, près de deux heures, sur sa propre chaîne.',
+      description: 'FISHER jouant « Losing It » en 2019, la vidéo la plus vue de la chaîne du festival, et le set de Fatboy Slim en 2026, près de deux heures, sur sa propre chaîne.',
       items: [
         articleVideoCard({youtubeId: 'oUbpmjOgmmU', genre: 'Coachella, 2019', artist: 'FISHER', title: 'Losing It, en live à Coachella 2019'}),
-        articleVideoCard({youtubeId: 'fQqusBEnwM4', genre: 'Coachella, 2026', artist: 'Fatboy Slim', title: 'Coachella 2026, set complet'})
+        articleVideoCard({youtubeId: 'fQqusBEnwM4', genre: 'Coachella, 2026', artist: 'Fatboy Slim', title: 'Coachella 2026'})
       ]
     }),
     'Table: attendance': articleTable({

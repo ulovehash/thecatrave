@@ -108,6 +108,20 @@ The test: could a stranger answer the heading correctly without reading the
 section? If yes, drop it or rewrite it around the question that survives the
 test.
 
+## A DJ set is never "full"
+
+Do not make a point of the reader getting a whole DJ set, in any language. A
+DJ set is the whole thing by definition and everybody knows it, so selling its
+completeness ("one full DJ set", "ein komplettes DJ-Set", "un DJ set complet",
+"a complete performance rather than a montage", "the whole set, not a clip")
+only pads the sentence and sounds like an advert. The Selector plays "a DJ set
+at random" (owner, 2026-09-18).
+
+This is about the emphasis, not the word. Deleting "full" and keeping the idea
+in other words ("filmed as it was played", "from start to finish", "in one
+piece") breaks the rule the same way. Say what the set is, where it was
+played and why it is worth hearing, and leave its length to the player.
+
 ## Never edit published copy silently
 
 Adding a phrase to a live article to satisfy a keyword check is an editorial

@@ -84,7 +84,7 @@ Das dritte ist die Knappheit. Bei 200.000 Plätzen pro Wochenende und Käufern a
 
 Tomorrowland ist kein Genre-Festival, und die Mainstage ist nicht das ganze Festival. Die Mainstage ist Big-Room-EDM: Zu den Namen, die Ausgabe für Ausgabe wiederkommen, gehören Armin van Buuren, David Guetta und Martin Garrix, und das belgische Duo Dimitri Vegas & Like Mike hat mehrere der offiziellen Festivalhymnen geschrieben. 2026 gab Calvin Harris sein belgisches Debüt und schloss an beiden Samstagen die Mainstage ab.
 
-Dimitri Vegas & Like Mike sind der Sound dieser Bühne wie sonst niemand. Ihr Set von 2025, aus dem Jahr, in dem die ursprüngliche Bühne abbrannte, ist die Mainstage in voller Länge.
+Dimitri Vegas & Like Mike sind der Sound dieser Bühne wie sonst niemand. Ihr Set von 2025, aus dem Jahr, in dem die ursprüngliche Bühne abbrannte, zeigt, wie diese Bühne klingt.
 
 [Embed: Dimitri Vegas & Like Mike, Live At Tomorrowland 2025 Mainstage, eigener YouTube-Kanal des Duos, WdWnCTkqIRs]
 
@@ -98,11 +98,11 @@ Für Hörerinnen und Hörer, die von Breaks, Jungle oder Techno kommen, ist das 
 
 ## Tomorrowland von zu Hause hören
 
-Tomorrowland filmt seine Bühnen und stellt ganze Sets online, was ein großer Teil der Erklärung für die hohen Livestream-Zahlen ist. Die beiden folgenden gehören zu den meistgesehenen: Hardwell auf der Mainstage 2013, mehr als 28 Millionen Aufrufe auf seinem eigenen Kanal, im Jahr seiner Wahl auf Platz eins der Top 100 von DJ Mag, und Swedish House Mafia auf der Mainstage 2025.
+Tomorrowland filmt seine Bühnen und stellt die Sets online, was ein großer Teil der Erklärung für die hohen Livestream-Zahlen ist. Die beiden folgenden gehören zu den meistgesehenen: Hardwell auf der Mainstage 2013, mehr als 28 Millionen Aufrufe auf seinem eigenen Kanal, im Jahr seiner Wahl auf Platz eins der Top 100 von DJ Mag, und Swedish House Mafia auf der Mainstage 2025.
 
 [Embed: Hardwell 2013 und Swedish House Mafia 2025, ZG1AT6tylA4]
 
-Für das Festival, das das genaue Gegenteil von Tomorrowland ist, eine Stadt ohne Line-up und ohne Verkauf, gibt es [unseren Guide zu Burning Man](/what-is-burning-man) auf Englisch. [Der Selector](/selector) spielt einen kompletten DJ-Set nach dem Zufallsprinzip, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Für das Festival, das das genaue Gegenteil von Tomorrowland ist, eine Stadt ohne Line-up und ohne Verkauf, gibt es [unseren Guide zu Burning Man](/what-is-burning-man) auf Englisch. [Der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

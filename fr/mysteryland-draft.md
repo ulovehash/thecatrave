@@ -90,11 +90,11 @@ Le hip hop a sa place depuis le passage d’Opgezwolle en 2006. Ce qu’il est u
 
 Mysteryland est à peine présent dans le Selector : sur les 62 877 DJ sets derrière [le Selector](/selector), deux y ont été enregistrés, tous deux filmés par Mixmag en 2016. L’un est le set house de Franky Rizardo, l’autre un live de Surgeon et Lady Starlight.
 
-Le festival filme sa propre grande scène. Les deux sets ci-dessous sont les sets complets les plus vus parmi ses mises en ligne récentes : Hardwell en 2023, avec 2,8 millions de vues, et Charlotte de Witte en 2024, avec 2,4 millions, en septembre 2026.
+Le festival filme sa propre grande scène. Les deux sets ci-dessous sont les sets les plus vus parmi ses mises en ligne récentes : Hardwell en 2023, avec 2,8 millions de vues, et Charlotte de Witte en 2024, avec 2,4 millions, en septembre 2026.
 
 [Embed: Hardwell 2023 et Charlotte de Witte 2024, _8acHa-APa8]
 
-Mysteryland et Tomorrowland partagent un arbre généalogique à travers ID&T ; pour le festival belge, lisez [notre guide de Tomorrowland](/fr/festival-tomorrowland). Et [le Selector](/selector) lance un DJ set complet au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Mysteryland et Tomorrowland partagent un arbre généalogique à travers ID&T ; pour le festival belge, lisez [notre guide de Tomorrowland](/fr/festival-tomorrowland). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

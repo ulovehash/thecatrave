@@ -30,7 +30,7 @@ Half of the ten were filmed between 2012 and 2014, and three of them were record
 
 The second pattern is in the likes. The biggest sets by views are rarely the most loved by the people watching them. Solomun's Tulum set has 5.9 likes per thousand views, less than half the median of 12.0 for sets uploaded in 2015. Our reading, and it is only a reading, is that a set with 76 million views reached most of them through recommendations, from people who were not Boiler Room viewers to begin with. The most-liked set in the catalogue is Fred again..'s, with 766,903 likes on 21 million fewer views.
 
-Every number on this page comes from the catalogue behind [the Selector](/selector), the tool on this site that plays one full DJ set at random. It holds 62,877 sets from 37 channels, 8,206 of them Boiler Room's, each with its views, likes and length, which is how a like rate can be worked out for every one of them. It is also the quickest way to hear what these lists leave out: narrow it to Boiler Room and it hands you a set you did not choose.
+Every number on this page comes from the catalogue behind [the Selector](/selector), the tool on this site that plays a DJ set at random. It holds 62,877 sets from 37 channels, 8,206 of them Boiler Room's, each with its views, likes and length, which is how a like rate can be worked out for every one of them. It is also the quickest way to hear what these lists leave out: narrow it to Boiler Room and it hands you a set you did not choose.
 
 Solomun played Tulum on 14 January 2015, at Papaya Playa Project. The set runs just over two hours, which is part of why the view count is so large: it is the kind of video that stays on in the background.
 

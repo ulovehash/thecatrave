@@ -94,7 +94,7 @@ const media = {
   // MayanWarrior's own channel). Different sets from the two in the body.
   'S7OBT3kQAHQ': articleVideoCollection({
     label: 'Burning Man 2025, two camps',
-    description: 'Two full sets from Burning Man 2025, one from each camp above: Lee Burridge\'s Saturday sunrise at Robot Heart, and John Summit on Mayan Warrior. Long recordings, made for the hours nobody schedules.',
+    description: 'Two sets from Burning Man 2025, one from each camp above: Lee Burridge\'s Saturday sunrise at Robot Heart, and John Summit on Mayan Warrior. Long recordings, made for the hours nobody schedules.',
     items: [
       articleVideoCard({youtubeId: 'S7OBT3kQAHQ', genre: 'Robot Heart, 2025', artist: 'Lee Burridge', title: 'Live From Robot Heart, Burning Man 2025'}),
       articleVideoCard({youtubeId: 'd8zUK6nAbr8', genre: 'Mayan Warrior, 2025', artist: 'John Summit', title: 'Mayan Warrior, Burning Man 2025'})
