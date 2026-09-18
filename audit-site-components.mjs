@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { pages as manifest, guides, langOf } from './pages.mjs';
+import { pages as manifest, guides, langOf, alternatesFor } from './pages.mjs';
 import { locales } from './i18n.mjs';
 import {homeArticlesNewestFirst, relatedArticles} from './home-articles.mjs';
 import {rootRelativeAssets, analytics, articleFaq, articleFooter, articleListeningBand, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, homeArticlesSection, homeFooter, nowPlayingBanner, ownSetListening, readNext, siteHeader} from './site-components.mjs';
@@ -192,7 +192,10 @@ const checks = {
   // One assertion per shared component, run against every guide, instead of the
   // same four predicates hand-written per page. Adding a guide to pages.mjs is
   // now enough to hold it to all of them.
-  articleHeaderShared: guidePages.every(page => page.html.includes(siteHeader({variant:'article', lang: langOf(page)}))),
+  // The header carries the language switcher wherever a page has translations,
+  // and only there: the expectation is built from the same hreflang family.
+  articleHeaderShared: guidePages.every(page => page.html.includes(siteHeader({variant:'article', lang: langOf(page), alternates: alternatesFor(page.path)}))),
+  languageSwitchOnlyWhereTranslated: guidePages.every(page => page.html.includes('class="lang-switch"') === (alternatesFor(page.path).length > 1)),
   articleFooterShared: guidePages.every(page => page.html.includes(articleFooter(langOf(page)))),
   articleAnalyticsShared: articlePages.every(page => page.includes(analytics())),
   // A page below the site root serves the shared chrome with root-relative

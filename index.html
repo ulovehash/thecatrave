@@ -52,6 +52,17 @@ a{color:inherit}
 .site-nav .support-link{color:var(--acid-text)}
 .site-nav .selector-link{padding:.15rem .5rem;background:var(--ink);color:var(--yellow)}
 .site-nav a:hover,.site-nav a:focus-visible,.footer-nav a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.3em}
+.site-nav:has(.lang-switch){overflow:visible}
+.lang-switch{position:relative;padding-left:1rem;border-left:1px solid var(--line)}
+.lang-switch summary{list-style:none;cursor:pointer;font-size:var(--utility);font-weight:700;text-transform:uppercase}
+.lang-switch summary::-webkit-details-marker{display:none}
+.lang-switch summary::after{content:" ▾"}
+.lang-switch[open] summary::after{content:" ▴"}
+.lang-switch summary:hover,.lang-switch summary:focus-visible{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.3em}
+.lang-switch ul{position:absolute;right:0;top:calc(100% + .5rem);z-index:20;min-width:9rem;margin:0;padding:.35rem 0;list-style:none;background:var(--paper);border:1px solid var(--ink)}
+.site-nav .lang-switch a{display:block;padding:.45rem .8rem;text-transform:none;font-weight:400}
+.site-nav .lang-switch a[aria-current="page"]{font-weight:700}
+.site-nav .lang-switch a:hover,.site-nav .lang-switch a:focus-visible{background:var(--ink);color:var(--paper);text-decoration:none}
 .header-socials{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:flex-end;gap:.35rem}
 .header-socials a{width:2.55rem;height:2.55rem;border:1px solid var(--ink);display:grid;place-items:center;text-decoration:none;transition:background-color .2s,color .2s}
 .header-socials a:hover,.header-socials a:focus-visible{color:#fff}

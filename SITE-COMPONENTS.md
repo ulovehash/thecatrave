@@ -191,6 +191,12 @@ A page's own editorial copy never comes from there.
   and the pages. French was added this way on 2026-09-18 (`/fr/`,
   `/fr/articles`). Translated pages take their hreflang links from
   `alternatesFor()`, so every page of a family names every language.
+- The header carries a language switcher, `languageSwitch()`, on every page
+  whose hreflang family has more than one language, and on no other: a
+  `<details>` dropdown showing the current language, listing the same page in
+  each language by its own name (`languageName` in `i18n.mjs`). A few lines of
+  inline script close it on an outside click and on Escape. The gate checks the
+  header against the family and that English-only pages carry no switcher.
 - Each language has its own articles index, built by `build-articles-page.mjs`
   from that language's catalogue in `home-articles.mjs`. The RSS feed and the
   homepage stay English.
