@@ -420,6 +420,14 @@
       "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Condé Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner.",
       "should_have_caught": "nothing: no audit compares counts stated in prose with each other",
       "fix": null
+    },
+    {
+      "id": "selector-nothing-saved-copy",
+      "found": "2026-09-18",
+      "by": "claude",
+      "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently.",
+      "should_have_caught": "the feature was built in selector-runtime.js and build-selector.mjs without grepping the page copy for claims about saving",
+      "fix": null
     }
   ]
 }

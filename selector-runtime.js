@@ -141,9 +141,10 @@
         <p class="sel-artist">${escapeText(name)}</p>
         ${tags.length ? `<p class="sel-tags">${tags.join('')}</p>` : ''}
         ${facts ? `<p class="sel-facts">${facts}</p>` : ''}
-        <p class="sel-links"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
+        <p class="sel-links">${saveButton(item)}<a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
       </div>`;
     try { history.replaceState(null, '', '#' + item.id); } catch {}
+    remember(item);
   };
 
   const rebuildPool = () => {
@@ -271,6 +272,163 @@
     setButton('Pick another', 'ready', false);
   };
   btn.addEventListener('click', go);
+
+  // Saved and Recently played. The first thing a listener asked for: they moved
+  // on to the next set, refreshed, and the one they liked was gone. The site is
+  // static with no accounts, so both lists live in this browser's localStorage.
+  // Every read and write is guarded, because a private window or blocked site
+  // data throws rather than coming back empty, and the button has to keep
+  // working either way. A snapshot is stored rather than a bare id, so a set
+  // that drops out of a later catalogue refresh still has a name and still plays.
+  const SAVED_KEY = 'sel-saved';
+  const PLAYED_KEY = 'sel-played';
+  const PLAYED_MAX = 20;
+  const readList = key => {
+    try {
+      const v = JSON.parse(localStorage.getItem(key) || '[]');
+      return Array.isArray(v) ? v.filter(x => x && typeof x.id === 'string') : [];
+    } catch { return []; }
+  };
+  const writeList = (key, list) => { try { localStorage.setItem(key, JSON.stringify(list)); } catch {} };
+  const snapshot = item => ({ id: item.id, artist: item.artist || '', broadcaster: item.broadcaster || '' });
+  let saved = readList(SAVED_KEY);
+  let played = readList(PLAYED_KEY);
+  const isSaved = id => saved.some(s => s.id === id);
+
+  const library = document.getElementById('sel-library');
+  const libList = document.getElementById('sel-library-list');
+  const libTabs = library ? [...library.querySelectorAll('.sel-library-tab')] : [];
+  const savedN = document.getElementById('sel-saved-n');
+  const playedN = document.getElementById('sel-recent-n');
+  let libView = saved.length ? 'saved' : 'recent';
+
+  function saveButton(item) {
+    const on = isSaved(item.id);
+    return `<button type="button" class="sel-save" aria-pressed="${on}" data-id="${escapeAttr(item.id)}">${on ? '♥ Saved' : '♡ Save'}</button>`;
+  }
+
+  function renderLibrary() {
+    if (!library || !libList) return;
+    library.hidden = !saved.length && !played.length;
+    if (savedN) savedN.textContent = String(saved.length);
+    if (playedN) playedN.textContent = String(played.length);
+    libTabs.forEach(t => {
+      const on = t.dataset.list === libView;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      if (on) libList.setAttribute('aria-labelledby', t.id);
+    });
+    const list = libView === 'saved' ? saved : played;
+    if (!list.length) {
+      libList.innerHTML = `<li class="sel-library-empty">${libView === 'saved'
+        ? 'Nothing saved yet. Press ♡ Save under a set to keep it here.'
+        : 'Nothing played yet.'}</li>`;
+      return;
+    }
+    libList.innerHTML = list.map(s => {
+      const name = s.artist || s.broadcaster || s.id;
+      const sub = s.artist ? s.broadcaster : '';
+      const playing = current && current.id === s.id;
+      const remove = libView === 'saved'
+        ? `<button type="button" class="sel-library-remove" data-id="${escapeAttr(s.id)}" aria-label="Remove ${escapeAttr(name)} from saved">×</button>`
+        : '';
+      return `<li${playing ? ' aria-current="true"' : ''}><button type="button" class="sel-library-play" data-id="${escapeAttr(s.id)}"><span class="sel-library-name">${escapeText(name)}</span>${
+        sub ? `<span class="sel-library-src">${escapeText(sub)}</span>` : ''}</button>${remove}</li>`;
+    }).join('');
+  }
+
+  function remember(item) {
+    current = item;
+    played = [snapshot(item), ...played.filter(s => s.id !== item.id)].slice(0, PLAYED_MAX);
+    writeList(PLAYED_KEY, played);
+    renderLibrary();
+  }
+
+  // The same salute the deal button gets, in the save button's own register:
+  // a few hearts drift up out of it and fade. Only on saving, never on unsaving.
+  const HEART_COLORS = ['var(--coral)', 'var(--acid)', 'var(--yellow)', 'var(--cyan)', 'var(--ink)'];
+  const floatHearts = button => {
+    if (reduceMotion) return;
+    for (let i = 0; i < 5; i += 1) {
+      const h = document.createElement('span');
+      h.className = 'sel-heart';
+      h.setAttribute('aria-hidden', 'true');
+      h.textContent = '♥';
+      h.style.setProperty('--dx', `${((Math.random() - 0.5) * 70).toFixed(0)}px`);
+      h.style.setProperty('--rot', `${((Math.random() - 0.5) * 50).toFixed(0)}deg`);
+      h.style.setProperty('--s', (0.8 + Math.random() * 0.7).toFixed(2));
+      h.style.setProperty('--c', HEART_COLORS[i % HEART_COLORS.length]);
+      h.style.animationDelay = `${i * 60}ms`;
+      button.appendChild(h);
+      h.addEventListener('animationend', () => h.remove());
+    }
+  };
+
+  const toggleSave = id => {
+    const on = !isSaved(id);
+    if (on) {
+      const item = (current && current.id === id ? current : null) || all.find(s => s.id === id);
+      if (!item) return;
+      saved = [snapshot(item), ...saved];
+      // the first save is the moment the list becomes worth looking at
+      libView = 'saved';
+    } else {
+      saved = saved.filter(s => s.id !== id);
+    }
+    writeList(SAVED_KEY, saved);
+    track('set_saved', { on, source: current ? current.broadcaster : '' });
+    stage.querySelectorAll('.sel-save').forEach(b => {
+      if (b.dataset.id !== id) return;
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.textContent = on ? '♥ Saved' : '♡ Save';
+      if (on) floatHearts(b);
+    });
+    renderLibrary();
+  };
+
+  const playFromLibrary = id => {
+    const known = all.find(s => s.id === id);
+    const item = known || saved.find(s => s.id === id) || played.find(s => s.id === id);
+    if (!item) return;
+    track('library_play', { list: libView, source: item.broadcaster || '' });
+    recent.push(item.id);
+    if (recent.length > 15) recent.shift();
+    render(known || { ...item });
+    if (all.length) setButton('Pick another', 'ready', false);
+    const top = stage.getBoundingClientRect().top;
+    if (top < 0 || top > window.innerHeight * 0.5) {
+      stage.scrollIntoView({ block: 'start', behavior: reduceMotion ? 'auto' : 'smooth' });
+    }
+  };
+
+  if (library) {
+    library.addEventListener('click', e => {
+      const t = e.target && e.target.closest ? e.target : null;
+      if (!t) return;
+      const tab = t.closest('.sel-library-tab');
+      if (tab) { libView = tab.dataset.list; renderLibrary(); return; }
+      const rm = t.closest('.sel-library-remove');
+      if (rm) { toggleSave(rm.dataset.id); return; }
+      const play = t.closest('.sel-library-play');
+      if (play) playFromLibrary(play.dataset.id);
+    });
+    // two tabs, one tab stop, arrows move between them
+    libTabs.forEach(tab => tab.addEventListener('keydown', e => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
+      e.preventDefault();
+      const next = libTabs.find(x => x !== tab);
+      if (!next) return;
+      libView = next.dataset.list;
+      renderLibrary();
+      next.focus();
+    }));
+  }
+  renderLibrary();
+
+  if (stage) stage.addEventListener('click', e => {
+    const b = e.target && e.target.closest ? e.target.closest('.sel-save') : null;
+    if (b) toggleSave(b.dataset.id);
+  });
 
   // The outbound click is the one that means something: the set was taken away
   // rather than left playing in the corner of a tab.

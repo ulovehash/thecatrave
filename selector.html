@@ -11,6 +11,14 @@
       <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
     </div>
     <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
+    <div class="sel-library" id="sel-library" hidden>
+      <div class="sel-library-tabs" role="tablist" aria-label="Your sets">
+        <button type="button" class="sel-library-tab" id="sel-tab-saved" role="tab" aria-selected="true" aria-controls="sel-library-list" data-list="saved">Saved <span class="sel-library-n" id="sel-saved-n">0</span></button>
+        <button type="button" class="sel-library-tab" id="sel-tab-recent" role="tab" aria-selected="false" aria-controls="sel-library-list" data-list="recent" tabindex="-1">Recently played <span class="sel-library-n" id="sel-recent-n">0</span></button>
+      </div>
+      <ol class="sel-library-list" id="sel-library-list" role="tabpanel"></ol>
+      <p class="sel-library-note">Kept in this browser only.</p>
+    </div>
   </div>
   <div class="sel-body">
     <div class="sel-field">
