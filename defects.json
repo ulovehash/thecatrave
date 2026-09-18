@@ -461,6 +461,17 @@
         "file": "WRITING.md",
         "contains": "This is about the emphasis, not the word."
       }
+    },
+    {
+      "id": "unlighthouse-skips-i18n-home",
+      "found": "2026-09-18",
+      "by": "claude",
+      "what": "The quality gate for cffcd7c (German and French home page and Selector) hung in the Unlighthouse step until the 20-minute job limit cancelled it. The home page now declares hreflang with x-default https://thecatrave.com/; Unlighthouse skips a page whose x-default is another URL and queues that URL, so from localhost it dropped its only seed and chased the live domain. Every other layer had passed; the pages deployed.",
+      "should_have_caught": "the local check before pushing ran check:html, the audits, check:links and check:layout, but not the vitals layer, which is the one that reads hreflang",
+      "fix": {
+        "file": "unlighthouse.config.ts",
+        "contains": "ignoreI18nPages: false"
+      }
     }
   ]
 }
