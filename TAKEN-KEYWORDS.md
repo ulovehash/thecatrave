@@ -108,6 +108,24 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - creamfields attendance
 - what is creamfields
 
+## de/clubs-berlin.html
+
+- clubs berlin
+- berlin clubs
+- clubs in berlin
+- techno clubs berlin
+- die besten clubs in berlin
+- bekannte clubs berlin
+- berghain türsteher
+
+## de/burning-man-festival.html
+
+- burning man
+- burning man festival
+- burning man tickets
+- was ist burning man
+- burning man 2027
+
 ## de/coachella-festival.html
 
 - coachella
@@ -119,6 +137,31 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wann ist coachella
 - wem gehört coachella
 - wie viele besucher hat coachella
+
+## de/drum-and-bass.html
+
+- drum and bass
+- liquid drum and bass
+- was ist drum and bass
+
+## de/dubstep.html
+
+- dubstep
+- dubstep musik
+- was ist dubstep
+
+## de/glastonbury-festival.html
+
+- glastonbury
+- glastonbury festival
+- glastonbury festival 2027
+- glastonbury 2027
+
+## de/clubs-london.html
+
+- clubs london
+- clubs in london
+- london clubs
 
 ## de/mysteryland-festival.html
 
@@ -141,6 +184,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was kosten tickets für parookaville
 - wem gehört parookaville
 - wo liegt parookaville
+
+## de/primavera-sound-barcelona.html
+
+- primavera sound
+- primavera sound barcelona
+- primavera sound porto
+- primavera sound festival
+- primavera sound 2027
 
 ## de/tomorrowland-festival.html
 

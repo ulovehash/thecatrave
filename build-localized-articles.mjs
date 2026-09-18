@@ -17,6 +17,16 @@
 //
 // Nothing here is page-specific. A sixth German guide is a draft and a content
 // module, and no change to this file.
+//
+// Optional fields, for guides whose English page is not shaped like a festival
+// guide (the genre and club guides, Burning Man):
+//
+//   ownSetAfter          section id the owner's first mix follows; the second
+//                        sits before the FAQ. Omitted: no mixes, as on the
+//                        English pages that carry none.
+//   sections[].tocLabel  contents label when it differs from the heading
+//   minReadingMinutes    floor for the reading time (default 8)
+//   image                image for the Article structured data
 import fs from 'node:fs';
 import path from 'node:path';
 import {
@@ -68,7 +78,9 @@ export function buildLocalizedArticle(content) {
 
   const render = text => paras(text).map(paragraph => {
     if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) return `<p>${inline(paragraph)}</p>`;
-    const key = Object.keys(media).find(name => paragraph.includes(name));
+    // Longest match wins, as in the English generators: "Sisyphos" is also
+    // inside "Teenage Mutants live from Sisyphos".
+    const key = Object.keys(media).filter(name => paragraph.includes(name)).sort((a, b) => b.length - a.length)[0];
     if (!key) throw new Error(`${content.draft}: no asset for placeholder ${paragraph.slice(0, 80)}`);
     used.add(key);
     return media[key];
@@ -89,13 +101,14 @@ export function buildLocalizedArticle(content) {
     const body = rest.join('\n').trim();
     return {
       question: question.trim().replace(/\?*$/, '?'),
-      answer: body.replace(/\s+/g, ' '),
+      // Schema text is plain: links and emphasis are kept only in the visible answer.
+      answer: body.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*/g, '').replace(/\s+/g, ' '),
       answerHtml: render(body)
     };
   });
 
-  const tocItems = [...content.sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: content.faqLabel || 'FAQ'}];
-  const minutes = Math.max(8, Math.round(draft.split(/\s+/).length / 225));
+  const tocItems = [...content.sections.map(({id, heading, tocLabel}) => ({id, label: tocLabel || heading})), {id: 'faq', label: content.faqLabel || 'FAQ'}];
+  const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
   const sectionHtml = content.sections.map(section => articleSection({
     id: section.id, title: section.title, kicker: section.kicker,
@@ -120,9 +133,10 @@ export function buildLocalizedArticle(content) {
     }),
     articleSection({id: 'introduction', title: content.introTitle, bodyHtml: render(getSection(content.introSection)), className: 'article-intro'}),
     // The owner's two mixes, in the same two places as on every festival guide:
-    // one mid-guide after the history section, one before the FAQ.
-    ...sectionHtml.flatMap((html, index) => content.sections[index].id === content.ownSetAfter ? [html, ownSetListening(0, lang)] : [html]),
-    ownSetListening(1, lang),
+    // one mid-guide after the history section, one before the FAQ. Only where
+    // the English page carries them.
+    ...sectionHtml.flatMap((html, index) => content.ownSetAfter && content.sections[index].id === content.ownSetAfter ? [html, ownSetListening(0, lang)] : [html]),
+    ...(content.ownSetAfter ? [ownSetListening(1, lang)] : []),
     articleFaq({lang, items: faqItems, title: content.faqTitle, openFirst: true}),
     authorCard({filled: true, lang}),
     articleSources({lang, bodyHtml: `<ul>\n${content.sources.map(sourceLink).join('\n')}\n</ul>`}),
@@ -147,7 +161,7 @@ export function buildLocalizedArticle(content) {
     dateModified: content.dateModified,
     bodyClass: content.bodyClass,
     structuredData: [
-      articleStructuredData({lang, headline: content.title, description: content.description, canonical: content.canonical, datePublished: content.datePublished, dateModified: content.dateModified}),
+      articleStructuredData({lang, headline: content.title, description: content.description, canonical: content.canonical, ...(content.image ? {image: content.image} : {}), datePublished: content.datePublished, dateModified: content.dateModified}),
       breadcrumbStructuredData({lang, name: content.breadcrumbName, canonical: content.canonical}),
       faqStructuredData({items: faqItems})
     ],

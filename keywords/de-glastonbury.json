@@ -1,0 +1,93 @@
+{
+  "page": "de/glastonbury-festival.html",
+  "seed": "glastonbury",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "glastonbury",
+      "volume": 6300
+    },
+    {
+      "term": "glastonbury festival",
+      "volume": 2600
+    },
+    {
+      "term": "glastonbury festival 2027",
+      "volume": 200,
+      "note": "next edition, 23 to 27 June 2027; refresh yearly"
+    },
+    {
+      "term": "glastonbury 2027",
+      "volume": 100,
+      "note": "next edition; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "glastonbury tor",
+      "volume": 500,
+      "why": "collision: the hill in the town of Glastonbury; named once as a landmark, not targeted"
+    },
+    {
+      "term": "glastonbury 2025",
+      "volume": 500,
+      "why": "dated; the edition is over"
+    },
+    {
+      "term": "glastonbury 2026",
+      "volume": 400,
+      "why": "dated; 2026 was a fallow year, answered in the fallow-year section without targeting the phrase"
+    },
+    {
+      "term": "glastonbury festival 2025",
+      "volume": 200,
+      "why": "dated"
+    },
+    {
+      "term": "glastonbury festival 2026",
+      "volume": 150,
+      "why": "dated"
+    },
+    {
+      "term": "glastonbury webcam",
+      "volume": 150,
+      "why": "a live camera the page does not have"
+    },
+    {
+      "term": "glastonbury 2025 lineup",
+      "volume": 100,
+      "why": "dated line-up"
+    },
+    {
+      "term": "glastonbury 2027 lineup",
+      "volume": 50,
+      "why": "line-up not announced; belongs to the official programme"
+    },
+    {
+      "term": "glastonbury abbey",
+      "volume": 80,
+      "why": "collision: the abbey in the town"
+    },
+    {
+      "term": "glastonbury avalon",
+      "volume": 70,
+      "why": "collision: the Avalon legend"
+    },
+    {
+      "term": "glastonbury tickets",
+      "volume": 60,
+      "why": "transactional; the ticket dates are given in the 2027 section, not targeted"
+    },
+    {
+      "term": "david bowie glastonbury 2000",
+      "volume": 70,
+      "why": "a single performance; Bowie's 2000 headline is in the table"
+    },
+    {
+      "term": "olivia rodrigo live from glastonbury",
+      "volume": 50,
+      "why": "a record release, not the festival"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page": "de/dubstep.html",
+  "seed": "dubstep",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "dubstep",
+      "volume": 1500
+    },
+    {
+      "term": "dubstep musik",
+      "volume": 250,
+      "note": "as \"Dubstep-Musik\""
+    },
+    {
+      "term": "was ist dubstep",
+      "volume": 80
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "what is dubstep?",
+      "volume": 250,
+      "why": "English phrasing; the English page's territory"
+    },
+    {
+      "term": "what is dubstep bass?",
+      "volume": 250,
+      "why": "English phrasing"
+    },
+    {
+      "term": "what is dubstep vs electro",
+      "volume": 250,
+      "why": "English phrasing"
+    },
+    {
+      "term": "what is deep dubstep?",
+      "volume": 150,
+      "why": "English phrasing; deep dubstep is explained in the subgenres section"
+    },
+    {
+      "term": "lizenzfreie dubstep musik",
+      "volume": 80,
+      "why": "a request for files; this site hands out none (WRITING.md)"
+    },
+    {
+      "term": "dubstep songs",
+      "volume": 60,
+      "why": "a song list; the page embeds records where it argues about them"
+    },
+    {
+      "term": "dubstep dance",
+      "volume": 50,
+      "why": "a dance style, not the music"
+    },
+    {
+      "term": "king of bass dubstep boom",
+      "volume": 50,
+      "why": "a product"
+    }
+  ]
+}

@@ -172,6 +172,15 @@ A page's own editorial copy never comes from there.
   the metadata, section list, assets, sources and CTA copy.
   `build-localized-articles.mjs` renders every content module under `content/`,
   so a further translation is two new files and no new generator.
+- Guides not shaped like a festival guide use the same generator. The English
+  genre guides place listening blocks by paragraph index in code; the German
+  draft places them with `[Embed: <key>]` lines at the same positions, and the
+  content module builds the blocks (`articleListeningCollection({lang})`, so
+  the label is `Zum Reinhören`). Optional module fields: `ownSetAfter` (omit it
+  and the page carries no mixes of the owner's, as the club, genre and Burning
+  Man pages do in English), `sections[].tocLabel`, `minReadingMinutes` and
+  `image` for the Article schema. Placeholder keys match longest first, as in
+  the English generators.
 - `pages.mjs` carries `lang` and `translationOf` for translated entries. The
   gate reads them: each page is held to the chrome of its own language, to its
   own keyword map (`keywords/de-<name>.json`), to its own index and Read Next

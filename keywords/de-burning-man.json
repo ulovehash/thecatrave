@@ -1,0 +1,92 @@
+{
+  "page": "de/burning-man-festival.html",
+  "seed": "burning man",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "burning man",
+      "volume": 11000
+    },
+    {
+      "term": "burning man festival",
+      "volume": 3200
+    },
+    {
+      "term": "burning man tickets",
+      "volume": 350,
+      "note": "as the FAQ on what tickets cost; 2026 prices from the English page"
+    },
+    {
+      "term": "was ist burning man",
+      "volume": 100
+    },
+    {
+      "term": "burning man 2027",
+      "volume": 100,
+      "note": "next edition, 29 August to 6 September 2027; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "burning man 2025",
+      "volume": 1600,
+      "why": "dated"
+    },
+    {
+      "term": "burning man 2026",
+      "volume": 600,
+      "why": "dated; the event is over"
+    },
+    {
+      "term": "cara delevingne burning man",
+      "volume": 800,
+      "why": "celebrity news"
+    },
+    {
+      "term": "burning man nude",
+      "volume": 500,
+      "why": "adult searches; the FAQ answers whether it is a nudist event without targeting them"
+    },
+    {
+      "term": "burning man sex",
+      "volume": 350,
+      "why": "adult"
+    },
+    {
+      "term": "burning man porn",
+      "volume": 250,
+      "why": "adult"
+    },
+    {
+      "term": "burning man orgy dome",
+      "volume": 80,
+      "why": "adult"
+    },
+    {
+      "term": "burning man outfit damen",
+      "volume": 350,
+      "why": "clothes shopping; the page is about the event and its music"
+    },
+    {
+      "term": "burning man outfit",
+      "volume": 300,
+      "why": "clothes shopping"
+    },
+    {
+      "term": "burning man leiche",
+      "volume": 300,
+      "why": "news of a death at the 2025 event, not covered by the English page"
+    },
+    {
+      "term": "the burning man",
+      "volume": 100,
+      "why": "likely the 2011 film; ambiguous"
+    },
+    {
+      "term": "burning man nevada",
+      "volume": 70,
+      "why": "answered in the where section; the exact phrase does not fit a German sentence"
+    }
+  ]
+}

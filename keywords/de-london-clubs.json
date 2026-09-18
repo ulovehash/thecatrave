@@ -1,0 +1,48 @@
+{
+  "page": "de/clubs-london.html",
+  "seed": "clubs london",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "clubs london",
+      "volume": 500,
+      "note": "as \"die Clubs Londons\""
+    },
+    {
+      "term": "clubs in london",
+      "volume": 400
+    },
+    {
+      "term": "london clubs",
+      "volume": 350
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "london fussball clubs",
+      "volume": 600,
+      "why": "collision: football"
+    },
+    {
+      "term": "premier league clubs london",
+      "volume": 600,
+      "why": "collision: football"
+    },
+    {
+      "term": "london football clubs",
+      "volume": 600,
+      "why": "collision: football"
+    },
+    {
+      "term": "london premier league clubs",
+      "volume": 300,
+      "why": "collision: football"
+    },
+    {
+      "term": "best clubs in london",
+      "volume": 50,
+      "why": "the English phrasing; the German page says \"die besten Clubs in London\""
+    }
+  ]
+}

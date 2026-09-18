@@ -6,6 +6,9 @@ import {
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+// The German translation of this page announces itself here, and this page
+// announces it back: hreflang only counts when both sides declare it.
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('drum-and-bass-guide-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/drum-and-bass-guide';
@@ -303,6 +306,7 @@ const structuredData = [
 ];
 
 const html = articlePage({
+  alternates: alternatesFor('/drum-and-bass-guide'),
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/drum-and-bass.jpg',
   datePublished, dateModified,

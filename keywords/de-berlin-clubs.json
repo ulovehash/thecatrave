@@ -1,0 +1,120 @@
+{
+  "page": "de/clubs-berlin.html",
+  "seed": "clubs berlin",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "clubs berlin",
+      "volume": 5500
+    },
+    {
+      "term": "berlin clubs",
+      "volume": 2800
+    },
+    {
+      "term": "clubs in berlin",
+      "volume": 1300
+    },
+    {
+      "term": "techno clubs berlin",
+      "volume": 800
+    },
+    {
+      "term": "die besten clubs in berlin",
+      "volume": 90,
+      "note": "the \"beste clubs berlin\" cluster (250) in the form German grammar allows in a heading"
+    },
+    {
+      "term": "bekannte clubs berlin",
+      "volume": 80
+    },
+    {
+      "term": "berghain türsteher",
+      "volume": 3100,
+      "note": "from the berghain pull; the English section on the door answers it"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "berghain",
+      "volume": 59000,
+      "why": "navigational, as on the English page"
+    },
+    {
+      "term": "berghain berlin",
+      "volume": 19000,
+      "why": "navigational"
+    },
+    {
+      "term": "rosalia berghain",
+      "volume": 6600,
+      "why": "collision: the song"
+    },
+    {
+      "term": "berghain simulator",
+      "volume": 5200,
+      "why": "collision: a browser game"
+    },
+    {
+      "term": "berghain von innen",
+      "volume": 3000,
+      "why": "pictures from inside; the club allows none and the page has none"
+    },
+    {
+      "term": "berghain outfit",
+      "volume": 1900,
+      "why": "what to wear to pass the door; the English page says there is no system, and outfit lists are not written"
+    },
+    {
+      "term": "elon musk berghain",
+      "volume": 2800,
+      "why": "celebrity news"
+    },
+    {
+      "term": "clubs berlin heute",
+      "volume": 350,
+      "why": "what is on tonight: a listings intent the guide does not cover"
+    },
+    {
+      "term": "gay clubs berlin",
+      "volume": 350,
+      "why": "a different listing; not covered by the English guide"
+    },
+    {
+      "term": "sex clubs berlin",
+      "volume": 250,
+      "why": "a different listing; KitKatClub is in the table as a techno club"
+    },
+    {
+      "term": "beste clubs berlin",
+      "volume": 250,
+      "why": "same cluster as \"die besten clubs in berlin\"; the bare form is not a German sentence"
+    },
+    {
+      "term": "swinger clubs berlin",
+      "volume": 200,
+      "why": "a different listing"
+    },
+    {
+      "term": "jazz clubs berlin",
+      "volume": 200,
+      "why": "a different music"
+    },
+    {
+      "term": "comedy clubs berlin",
+      "volume": 100,
+      "why": "collision"
+    },
+    {
+      "term": "clubs ab 16 berlin",
+      "volume": 100,
+      "why": "an age question the guide does not answer"
+    },
+    {
+      "term": "berlin football clubs",
+      "volume": 80,
+      "why": "collision: football"
+    }
+  ]
+}

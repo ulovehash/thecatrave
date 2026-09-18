@@ -412,6 +412,14 @@
         "file": ".gitignore",
         "contains": "a symlink named node_modules is not a directory"
       }
+    },
+    {
+      "id": "london-clubs-list-count-inconsistent",
+      "found": "2026-09-18",
+      "by": "agent",
+      "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Condé Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner.",
+      "should_have_caught": "nothing: no audit compares counts stated in prose with each other",
+      "fix": null
     }
   ]
 }

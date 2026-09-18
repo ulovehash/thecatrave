@@ -1,0 +1,83 @@
+{
+  "page": "de/drum-and-bass.html",
+  "seed": "drum and bass",
+  "source": "ahrefs keywords-explorer-matching-terms, country de, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, batch 2)",
+  "terms": [
+    {
+      "term": "drum and bass",
+      "volume": 1600
+    },
+    {
+      "term": "liquid drum and bass",
+      "volume": 70
+    },
+    {
+      "term": "was ist drum and bass",
+      "volume": 0,
+      "note": "under the 50 filter; the owner asked it checked. Kept as the H1, the English page's question"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country de, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "dnb",
+      "volume": 2900,
+      "why": "collision: Deutsche Nationalbibliothek and DNB Bank (Ahrefs parent topic)"
+    },
+    {
+      "term": "what is liquid drum and bass?",
+      "volume": 250,
+      "why": "English phrasing; the English page's territory"
+    },
+    {
+      "term": "dnb music",
+      "volume": 250,
+      "why": "English phrasing"
+    },
+    {
+      "term": "dnb bpm",
+      "volume": 150,
+      "why": "answered in the FAQ on BPM; the abbreviation does not fit the German text"
+    },
+    {
+      "term": "dnb allstars mannheim",
+      "volume": 200,
+      "why": "an event"
+    },
+    {
+      "term": "drum and bass party",
+      "volume": 80,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass hamburg",
+      "volume": 70,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass münchen",
+      "volume": 60,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass köln",
+      "volume": 60,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass berlin",
+      "volume": 60,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass leipzig",
+      "volume": 50,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass bpm",
+      "volume": 50,
+      "why": "answered in the FAQ \"Wie viele BPM hat Drum and Bass?\"; the bare phrase is not a German sentence"
+    }
+  ]
+}

@@ -76,3 +76,74 @@ The five English pages changed only in the head: each now carries the
 
 Next by measured German traffic potential: Glastonbury (1,000), Primavera Sound
 (700), Berlin clubs (600), Burning Man (350), London clubs (350).
+
+## Stage 2: German keywords, batch 2 (2026-09-18)
+
+`keywords-explorer-matching-terms`, country de, volume ≥ 50, no SERP. Seven
+seeds plus two checks the batch needed (`dnb`, `berghain`). Cost 4,158 units
+(22 per row), against ~6,300 approved; the pool stood at 59.8% of 800,000
+afterwards. Maps: `keywords/de-*.json`.
+
+| Guide | German URL | Head term | Volume | Also targeted |
+|---|---|---|---:|---|
+| Glastonbury | `/de/glastonbury-festival` | glastonbury | 6,300 | glastonbury festival 2,600, glastonbury festival 2027 200, glastonbury 2027 100 |
+| Primavera Sound | `/de/primavera-sound-barcelona` | primavera sound | 700 | barcelona 350, porto 90, festival 60, 2027 (under 50, next edition) |
+| Berlin clubs | `/de/clubs-berlin` | clubs berlin | 5,500 | berlin clubs 2,800, clubs in berlin 1,300, techno clubs berlin 800, berghain türsteher 3,100, die besten clubs in berlin 90, bekannte clubs berlin 80 |
+| Burning Man | `/de/burning-man-festival` | burning man | 11,000 | burning man festival 3,200, burning man tickets 350, was ist burning man 100, burning man 2027 100 |
+| London clubs | `/de/clubs-london` | clubs london | 500 | clubs in london 400, london clubs 350 |
+| Drum and bass | `/de/drum-and-bass` | drum and bass | 1,600 | liquid drum and bass 70 |
+| Dubstep | `/de/dubstep` | dubstep | 1,500 | dubstep musik 250, was ist dubstep 80 |
+
+Intent check, before translating: all seven German demands are about what the
+English guides cover, so none was replaced (Lollapalooza, in batch 1, was).
+
+- **Berlin clubs.** German demand is larger and more practical than the English
+  guide: berghain 59,000 and berghain berlin 19,000 (navigational), berghain
+  outfit 1,900, berghain von innen 3,000, clubs berlin heute 350, and the gay,
+  sex and swinger listings. Only what the English guide answers was targeted;
+  berghain türsteher is the door section. The rest is rejected in the map.
+- **Burning Man.** Collisions rejected: the adult searches, Cara Delevingne
+  (800), the outfit cluster, a 2025 death in the news, and "the burning man"
+  (probably the 2011 film).
+- **London clubs.** The seed's German SERP is half football (premier league
+  clubs london 600, london fussball clubs 600). The nightlife terms are small
+  but match the guide.
+- **Drum and bass.** No German phrasing has volume: "was ist drum and bass" is
+  under 50, and "dnb" (2,900) is the Deutsche Nationalbibliothek. City party
+  searches are event listings.
+- **Dubstep.** "dubstep musik" is the one German phrasing. The English questions
+  in the German pull ("what is dubstep?" 250) stay with the English page;
+  "lizenzfreie dubstep musik" asks for files (WRITING.md).
+
+Dated editions, line-ups, tickets as a purchase and outfits are rejected in
+every map with a reason, as in batch 1.
+
+Structure decisions:
+
+- `build-localized-articles.mjs` now renders the non-festival guides too:
+  optional owner's mixes, contents labels, a reading-time floor, the Article
+  image, and longest-first placeholder matching (SITE-COMPONENTS.md). The genre
+  guides' listening blocks, placed by paragraph index in the English
+  generators, are placed by `[Embed: ...]` lines in the German drafts.
+- No SVG with English text sits in any of the seven bodies. The drum and bass
+  schematic (`img/dnb/dnb-cover.webp`) is only the card and share image, and
+  the German card uses the Roni Size photograph, as the English one does.
+- The Burning Man comparison table, appended to the introduction in the English
+  generator, is a `[Tabelle: Vergleich]` placeholder at the end of the German
+  introduction.
+- Imperial units converted (Glastonbury, Burning Man); quotations in the
+  dubstep guide translated, sources unchanged.
+- One English inconsistency found while translating: the London guide counts
+  its lists as three and as four. Logged in defects.json
+  (`london-clubs-list-count-inconsistent`), open until the owner approves the
+  English wording; the German avoids the number.
+
+## Published, batch 2
+
+`/de/glastonbury-festival`, `/de/primavera-sound-barcelona`,
+`/de/clubs-berlin`, `/de/burning-man-festival`, `/de/clubs-london`,
+`/de/drum-and-bass`, `/de/dubstep`, listed on `/de/artikel`. The seven English
+pages changed in the head only (hreflang).
+
+Next by measured German traffic potential (stage 1): Sónar (200), Ultra (100),
+UK garage (70), breakbeat (70), EDC (60).

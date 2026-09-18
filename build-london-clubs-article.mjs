@@ -30,6 +30,9 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+// The German translation of this page announces itself here, and this page
+// announces it back: hreflang only counts when both sides declare it.
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('london-clubs-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-electronic-music-clubs-in-london';
@@ -234,6 +237,7 @@ const structuredData = [
 ];
 
 const html = articlePage({
+  alternates: alternatesFor('/best-electronic-music-clubs-in-london'),
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/london-clubs.jpg',
   datePublished, dateModified,

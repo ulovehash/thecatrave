@@ -260,6 +260,62 @@ export const germanArticleCatalog = [
     image:'img/untold/main-stage-2019-320.webp',
     srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
     width:1200, height:900, alt:'Dichtes Publikum mit Handylichtern vor der Untold-Hauptbühne bei Nacht im Jahr 2019'
+  },
+  {
+    page:'de/glastonbury-festival.html', tags:['discovery','history','bass'], href:'/de/glastonbury-festival', type:'Guide', topic:'Glastonbury',
+    title:'Glastonbury Festival 2027: Termine, Brachjahre und Headliner',
+    description:'Fünf Tage in den meisten Junis auf der Worthy Farm in Somerset: wann Glastonbury 2027 stattfindet, warum 2026 ein Brachjahr war, wie groß es ist und wer Headliner war.',
+    image:'img/glastonbury/night-2025-320.webp',
+    srcset:'img/glastonbury/night-2025-320.webp 320w,img/glastonbury/night-2025-1200.webp 1200w',
+    width:1200, height:800, alt:'Das Glastonbury Festival bei Nacht 2025, vom Hang über dem Tal aus gesehen'
+  },
+  {
+    page:'de/primavera-sound-barcelona.html', tags:['discovery','history','house'], href:'/de/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
+    title:'Primavera Sound Barcelona 2027: Termine, Ort und Musik',
+    description:'Das Festival in Barcelona kehrt vom 3. bis 5. Juni 2027 in den Parc del Fòrum zurück: das Gelände am Meer, die Größe, die Musik und das Programm in der Stadt.',
+    image:'img/primavera-sound/festival-crowd-320.webp',
+    srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
+    width:1200, height:800, alt:'Festivalbesucher am Wasser bei Primavera Sound Barcelona 2019'
+  },
+  {
+    page:'de/burning-man-festival.html', tags:['house','history','discovery'], href:'/de/burning-man-festival', type:'Guide', topic:'Burning Man',
+    title:'Was ist Burning Man? Die Stadt in der Wüste und ihre Musik',
+    description:'Eine von den Teilnehmern gebaute Stadt in der Wüste Nevadas, ohne Line-up und ohne Hauptbühne: was dort passiert, was es kostet und was die Sound-Camps wie Robot Heart spielen.',
+    image:'img/burning-man/robot-heart-320.webp',
+    srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
+    width:1200, height:799, alt:'Das Art Car von Robot Heart auf der Playa bei Burning Man'
+  },
+  {
+    page:'de/clubs-berlin.html', tags:['techno','history','discovery'], href:'/de/clubs-berlin', type:'Guide', topic:'Clubs in Berlin',
+    title:'Die besten Clubs in Berlin: Legenden und die, die noch offen sind',
+    description:'Vom UFO und dem Tresor bis zum Berghain und dem Sisyphos: die Räume, die Berlin zur Techno-Stadt gemacht haben, die Clubs, die geschlossen haben, und die, die noch offen sind.',
+    image:'img/berlin-clubs/berghain-320.webp',
+    srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
+    width:1200, height:800, alt:'Der Eingang des Berghain in Berlin'
+  },
+  {
+    page:'de/clubs-london.html', tags:['jungle','history','discovery'], href:'/de/clubs-london', type:'Guide', topic:'Clubs in London',
+    title:'Clubs in London für elektronische Musik: Geschichte und heute',
+    description:'Vom Four Aces und dem Blitz bis zu Rage, dem Blue Note und fabric: die Londoner Clubs hinter Acid House, Jungle, Garage und Dubstep, und die, die heute ein Wochenende wert sind.',
+    image:'img/london-clubs/fabric-320.webp',
+    srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
+    width:1200, height:810, alt:'Der Eingang von fabric an der Charterhouse Street, London'
+  },
+  {
+    page:'de/drum-and-bass.html', tags:['breaks','uk','nineties','bass'], href:'/de/drum-and-bass', type:'Guide', topic:'Drum and Bass',
+    title:'Was ist Drum and Bass? 174 BPM, Geschichte und Subgenres',
+    description:'Schnelle Breakbeats, tiefer Sub-Bass und das britische Rave-Kontinuum hinter einem globalen Genre: wie sich Drum and Bass vom Jungle trennte, wie es gebaut ist und wohin es ging.',
+    image:'img/dnb/roni-size-320.webp',
+    srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
+    width:1120, height:747, alt:'Roni Size legt unter grünem Bühnenlicht auf'
+  },
+  {
+    page:'de/dubstep.html', tags:['bass','uk','twothousands','soundsystem'], href:'/de/dubstep', type:'Guide', topic:'Dubstep',
+    title:'Was ist Dubstep? Herkunft, Sound und ein Wort für zwei Genres',
+    description:'Ein Wort für zwei sehr verschiedene Musiken: wie sich ein Sound aus einem Plattenladen in Croydon in zwei Hälften teilte, und was aus der Version wurde, die nie verschwand.',
+    image:'img/dubstep/dubplate-lathe-320.webp',
+    srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
+    width:961, height:540, alt:'Eine Schneidemaschine für Vinyl mit einer Acetatscheibe auf dem Plattenteller'
   }
 ];
 
