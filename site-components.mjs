@@ -80,11 +80,15 @@ export const ownSets = [
   {slug: 'i-like-to-smoke-in-silence-after-raves', title: 'I Like to Smoke in Silence After Raves',
     description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.',
     de: {suffix: 'ein DJ-Mix.',
-      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigener Set, für eine Pause vom Festival.'}},
+      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigener Set, für eine Pause vom Festival.'},
+    fr: {suffix: 'un DJ mix.',
+      description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'}},
   {slug: 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more', title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
     description: 'A loud and restless mix about going out again even when you know better.',
     de: {suffix: 'ein DJ-Mix.',
-      description: 'Ein lauter, rastloser Mix darüber, wieder loszuziehen, obwohl man es besser weiß.'}}
+      description: 'Ein lauter, rastloser Mix darüber, wieder loszuziehen, obwohl man es besser weiß.'},
+    fr: {suffix: 'un DJ mix.',
+      description: 'Un mix bruyant et agité sur le fait de ressortir alors qu’on sait qu’on ne devrait pas.'}}
 ];
 
 export function ownSetListening(index, lang = defaultLang) {

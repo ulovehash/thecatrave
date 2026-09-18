@@ -1,0 +1,82 @@
+{
+  "page": "fr/burning-man.html",
+  "seed": "burning man",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "burning man",
+      "volume": 13000
+    },
+    {
+      "term": "burning man festival",
+      "volume": 1700
+    },
+    {
+      "term": "festival burning man",
+      "volume": 800
+    },
+    {
+      "term": "burning man 2027",
+      "volume": 150,
+      "note": "next edition, 29 August to 6 September 2027; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "burning man 2025",
+      "volume": 1900,
+      "why": "dated"
+    },
+    {
+      "term": "burning man 2026",
+      "volume": 1100,
+      "why": "dated; the event is over"
+    },
+    {
+      "term": "burning man prix",
+      "volume": 500,
+      "why": "answered in the FAQ on cost; the reversed order does not fit a French sentence"
+    },
+    {
+      "term": "cara delevingne burning man",
+      "volume": 400,
+      "why": "celebrity news"
+    },
+    {
+      "term": "burning man nude",
+      "volume": 300,
+      "why": "adult; the FAQ answers whether it is a nudist event without targeting it"
+    },
+    {
+      "term": "burning man porn",
+      "volume": 250,
+      "why": "adult"
+    },
+    {
+      "term": "burning man sex",
+      "volume": 200,
+      "why": "adult"
+    },
+    {
+      "term": "burning man festival tenue",
+      "volume": 250,
+      "why": "costumes"
+    },
+    {
+      "term": "deguisement burning man",
+      "volume": 150,
+      "why": "costumes"
+    },
+    {
+      "term": "burning man mort",
+      "volume": 200,
+      "why": "deaths at the event; not covered by the English page"
+    },
+    {
+      "term": "tour eiffel burning man",
+      "volume": 150,
+      "why": "a 2026 art piece, not covered"
+    }
+  ]
+}

@@ -39,6 +39,18 @@ const indexes = [
     deck: 'Ausführliche Guides zu Dance Music und Clubkultur, geschrieben für Hörerinnen und Hörer.',
     listTitle: 'Alle Artikel',
     breadcrumb: 'Artikel'
+  },
+  {
+    lang: 'fr',
+    file: 'fr/articles.html',
+    canonical: 'https://thecatrave.com/fr/articles',
+    title: 'Tous les articles : guides de la dance music et des clubs',
+    description: 'Tous les articles de thecatrave en français, du plus récent au plus ancien : des guides détaillés sur les festivals, la dance music et la culture club.',
+    kicker: 'Articles',
+    heading: 'Tous les articles.',
+    deck: 'Des guides détaillés sur la dance music et la culture club, écrits pour celles et ceux qui écoutent.',
+    listTitle: 'Tous les articles',
+    breadcrumb: 'Articles'
   }
 ];
 

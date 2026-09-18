@@ -36,6 +36,7 @@ import {
 } from './site-components.mjs';
 import { relatedArticles } from './home-articles.mjs';
 import { t } from './i18n.mjs';
+import { alternatesFor } from './pages.mjs';
 
 const CONTENT_DIR = 'content';
 
@@ -149,10 +150,9 @@ export function buildLocalizedArticle(content) {
 
   const html = articlePage({
     lang,
-    alternates: [
-      {lang: 'en', href: `https://thecatrave.com${content.englishPath}`},
-      {lang, href: content.canonical}
-    ],
+    // Every language of the family, not only this page and the English: with
+    // German and French both translating a guide, each page names all three.
+    alternates: alternatesFor(content.englishPath),
     title: content.title,
     description: content.description,
     canonical: content.canonical,

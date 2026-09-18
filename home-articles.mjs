@@ -319,7 +319,52 @@ export const germanArticleCatalog = [
   }
 ];
 
-export const catalogs = {en: homeArticleCatalog, de: germanArticleCatalog};
+// The French guides, on the same terms as the German ones above: their own
+// catalogue, the English guides' images with translated captions.
+export const frenchArticleCatalog = [
+  {
+    page:'fr/festival-tomorrowland.html', tags:['discovery','history','bass'], href:'/fr/festival-tomorrowland', type:'Guide', topic:'Tomorrowland',
+    title:'Tomorrowland 2027 : lieu, fréquentation, histoire et musique',
+    description:'Un parc de Boom, en Belgique, que le monde connaît surtout par le livestream : où a lieu Tomorrowland, combien de personnes y vont, à qui il appartient et ce qui se joue loin de la Mainstage.',
+    image:'img/tomorrowland/mainstage-2014-320.webp',
+    srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
+    width:1200, height:708, alt:'La Mainstage de Tomorrowland en 2014'
+  },
+  {
+    page:'fr/festival-coachella.html', tags:['discovery','history','bass'], href:'/fr/festival-coachella', type:'Guide', topic:'Coachella',
+    title:'Qu’est-ce que Coachella ? Dates 2027, lieu, taille et musique',
+    description:'Deux week-ends d’avril à l’Empire Polo Club d’Indio : quand a lieu Coachella 2027, où il se trouve, comment une perte de 1999 est devenue un festival géant, et ce qui se joue sous la tente Sahara.',
+    image:'img/coachella/grounds-2018-320.webp',
+    srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
+    width:1200, height:677, alt:'Des festivaliers sur la pelouse de Coachella en 2018, derrière eux des palmiers et les montagnes du désert'
+  },
+  {
+    page:'fr/burning-man.html', tags:['house','history','discovery'], href:'/fr/burning-man', type:'Guide', topic:'Burning Man',
+    title:'Qu’est-ce que Burning Man ? La ville du désert et sa musique',
+    description:'Une ville construite par ses participants dans le désert du Nevada, sans affiche ni grande scène : ce qui s’y passe, ce que ça coûte et ce que jouent les sound camps comme Robot Heart.',
+    image:'img/burning-man/robot-heart-320.webp',
+    srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
+    width:1200, height:799, alt:'L’art car de Robot Heart sur la playa de Burning Man'
+  },
+  {
+    page:'fr/festival-glastonbury.html', tags:['discovery','history','bass'], href:'/fr/festival-glastonbury', type:'Guide', topic:'Glastonbury',
+    title:'Glastonbury 2027 : dates, années de jachère et têtes d’affiche',
+    description:'Cinq jours la plupart des mois de juin à Worthy Farm, dans le Somerset : quand a lieu Glastonbury 2027, pourquoi 2026 était une année de jachère, sa taille et ses têtes d’affiche.',
+    image:'img/glastonbury/night-2025-320.webp',
+    srcset:'img/glastonbury/night-2025-320.webp 320w,img/glastonbury/night-2025-1200.webp 1200w',
+    width:1200, height:800, alt:'Le festival de Glastonbury la nuit en 2025, vu de la colline au-dessus de la vallée'
+  },
+  {
+    page:'fr/boite-de-nuit-berlin.html', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-berlin', type:'Guide', topic:'Clubs de Berlin',
+    title:'Boite de nuit Berlin : les meilleurs clubs et leurs légendes',
+    description:'De l’UFO et du Tresor au Berghain et au Sisyphos : les salles qui ont fait de Berlin une ville techno, les clubs célèbres qui ont fermé, et ceux qui sont encore ouverts.',
+    image:'img/berlin-clubs/berghain-320.webp',
+    srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
+    width:1200, height:800, alt:'L’entrée du Berghain à Berlin'
+  }
+];
+
+export const catalogs = {en: homeArticleCatalog, de: germanArticleCatalog, fr: frenchArticleCatalog};
 
 const catalogFor = lang => {
   const catalog = catalogs[lang];

@@ -1,0 +1,91 @@
+{
+  "page": "fr/festival-tomorrowland.html",
+  "seed": "tomorrowland",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "tomorrowland",
+      "volume": 32000
+    },
+    {
+      "term": "tomorrowland winter",
+      "volume": 9300
+    },
+    {
+      "term": "prix tomorrowland",
+      "volume": 600,
+      "note": "as the FAQ on ticket prices; 2026 prices from the English page"
+    },
+    {
+      "term": "festival tomorrowland",
+      "volume": 500
+    },
+    {
+      "term": "tomorrowland thailand",
+      "volume": 500
+    },
+    {
+      "term": "tomorrowland 2027",
+      "volume": 0,
+      "note": "below the top 20 of the pull; the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "tomorrowland 2026",
+      "volume": 19000,
+      "why": "dated; the edition is over"
+    },
+    {
+      "term": "tomorrowland 2024",
+      "volume": 4800,
+      "why": "dated"
+    },
+    {
+      "term": "tomorrowland 2025",
+      "volume": 3800,
+      "why": "dated"
+    },
+    {
+      "term": "tomorrowland 2026 prix",
+      "volume": 1600,
+      "why": "dated prices"
+    },
+    {
+      "term": "tomorrowland film",
+      "volume": 1200,
+      "why": "collision: the 2015 film, named once in the introduction"
+    },
+    {
+      "term": "tomorrowland prix",
+      "volume": 1100,
+      "why": "same cluster as \"prix tomorrowland\"; the reversed order does not fit a French sentence"
+    },
+    {
+      "term": "tomorrowland 2027 prix",
+      "volume": 700,
+      "why": "2027 prices are not announced"
+    },
+    {
+      "term": "tomorrowland 2026 date",
+      "volume": 700,
+      "why": "dated"
+    },
+    {
+      "term": "programme tomorrowland 2026",
+      "volume": 600,
+      "why": "dated line-up"
+    },
+    {
+      "term": "tomorrowland live",
+      "volume": 500,
+      "why": "the livestream itself, not a page"
+    },
+    {
+      "term": "tomorrowland lieu",
+      "volume": 450,
+      "why": "answered by \"Où se trouve Tomorrowland\"; the bare phrase is not French prose"
+    }
+  ]
+}

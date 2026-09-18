@@ -185,6 +185,12 @@ A page's own editorial copy never comes from there.
   gate reads them: each page is held to the chrome of its own language, to its
   own keyword map (`keywords/de-<name>.json`), to its own index and Read Next
   block, and to the media map of the page it was translated from.
+- A new language is a locale block in `i18n.mjs`, an entry in
+  `build-articles-page.mjs`, a catalogue in `home-articles.mjs` (`catalogs`),
+  its own copy of the owner's two mixes in `ownSets` (`site-components.mjs`),
+  and the pages. French was added this way on 2026-09-18 (`/fr/`,
+  `/fr/articles`). Translated pages take their hreflang links from
+  `alternatesFor()`, so every page of a family names every language.
 - Each language has its own articles index, built by `build-articles-page.mjs`
   from that language's catalogue in `home-articles.mjs`. The RSS feed and the
   homepage stay English.

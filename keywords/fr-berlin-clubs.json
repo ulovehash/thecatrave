@@ -1,0 +1,65 @@
+{
+  "page": "fr/boite-de-nuit-berlin.html",
+  "seed": "berlin, filtered to club, boite, techno, berghain",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "kitkat club berlin",
+      "volume": 1100,
+      "note": "as the FAQ on the KitKatClub"
+    },
+    {
+      "term": "boite de nuit berlin",
+      "volume": 400,
+      "note": "the H1; \"boite\" without circumflex, as searched and as the 1990 reform allows"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "berghain berlin",
+      "volume": 1900,
+      "why": "navigational, as on the English and German pages"
+    },
+    {
+      "term": "kit kat club berlin",
+      "volume": 1100,
+      "why": "same query spelled apart; the club writes KitKatClub"
+    },
+    {
+      "term": "club berlin",
+      "volume": 400,
+      "why": "only appears inside \"KitKat Club Berlin\"; not claimed"
+    },
+    {
+      "term": "boite berlin",
+      "volume": 300,
+      "why": "shorthand of \"boite de nuit berlin\""
+    },
+    {
+      "term": "club techno berlin",
+      "volume": 150,
+      "why": "French puts a preposition in; covered by the techno sections"
+    },
+    {
+      "term": "tresor club berlin",
+      "volume": 150,
+      "why": "navigational"
+    },
+    {
+      "term": "berghain berlin videur",
+      "volume": 150,
+      "why": "the doorman by name; the door section does not name him, as in English"
+    },
+    {
+      "term": "club foot berlin",
+      "volume": 150,
+      "why": "collision: football"
+    },
+    {
+      "term": "club libertin berlin",
+      "volume": 100,
+      "why": "a different listing"
+    }
+  ]
+}

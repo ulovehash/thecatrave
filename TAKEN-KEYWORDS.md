@@ -258,6 +258,41 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people attend edc
 - when did edc start
 
+## fr/boite-de-nuit-berlin.html
+
+- kitkat club berlin
+- boite de nuit berlin
+
+## fr/burning-man.html
+
+- burning man
+- burning man festival
+- festival burning man
+- burning man 2027
+
+## fr/festival-coachella.html
+
+- coachella
+- festival coachella
+- coachella 2027
+
+## fr/festival-glastonbury.html
+
+- glastonbury
+- glastonbury festival
+- festival glastonbury
+- festival de glastonbury
+- glastonbury 2027
+
+## fr/festival-tomorrowland.html
+
+- tomorrowland
+- tomorrowland winter
+- prix tomorrowland
+- festival tomorrowland
+- tomorrowland thailand
+- tomorrowland 2027
+
 ## german-electronic-music.html
 
 - german electronic music

@@ -1,0 +1,61 @@
+{
+  "page": "fr/festival-glastonbury.html",
+  "seed": "glastonbury",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "glastonbury",
+      "volume": 5400
+    },
+    {
+      "term": "glastonbury festival",
+      "volume": 1300
+    },
+    {
+      "term": "festival glastonbury",
+      "volume": 400
+    },
+    {
+      "term": "festival de glastonbury",
+      "volume": 100
+    },
+    {
+      "term": "glastonbury 2027",
+      "volume": 100,
+      "note": "next edition, 23 to 27 June 2027; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "glastonbury 2026",
+      "volume": 500,
+      "why": "dated; 2026 was a fallow year, answered without targeting the phrase"
+    },
+    {
+      "term": "glastonbury tor",
+      "volume": 250,
+      "why": "collision: the hill in the town"
+    },
+    {
+      "term": "glastonbury festival 2026",
+      "volume": 200,
+      "why": "dated"
+    },
+    {
+      "term": "glastonbury 2025",
+      "volume": 150,
+      "why": "dated"
+    },
+    {
+      "term": "glastonbury ville",
+      "volume": 50,
+      "why": "collision: the town"
+    },
+    {
+      "term": "glastonbury avalon",
+      "volume": 50,
+      "why": "collision: the legend"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page": "fr/festival-coachella.html",
+  "seed": "coachella",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "coachella",
+      "volume": 28000
+    },
+    {
+      "term": "festival coachella",
+      "volume": 1600
+    },
+    {
+      "term": "coachella 2027",
+      "volume": 800,
+      "note": "next edition, 9 to 11 and 16 to 18 April 2027; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "coachella 2026",
+      "volume": 11000,
+      "why": "dated"
+    },
+    {
+      "term": "coachella tenue",
+      "volume": 1600,
+      "why": "outfits: this site writes about music"
+    },
+    {
+      "term": "tenue coachella",
+      "volume": 1100,
+      "why": "outfits"
+    },
+    {
+      "term": "tenue coachella homme",
+      "volume": 1000,
+      "why": "outfits"
+    },
+    {
+      "term": "tenue coachella femme",
+      "volume": 900,
+      "why": "outfits"
+    },
+    {
+      "term": "theme coachella",
+      "volume": 800,
+      "why": "dress theme, outfits"
+    },
+    {
+      "term": "justin bieber coachella 2026",
+      "volume": 1600,
+      "why": "a dated performance"
+    },
+    {
+      "term": "madonna coachella 2026",
+      "volume": 800,
+      "why": "a dated performance"
+    },
+    {
+      "term": "coachella prix",
+      "volume": 1500,
+      "why": "prices: the English page gives none, and none is invented here"
+    },
+    {
+      "term": "coachella 2026 prix",
+      "volume": 900,
+      "why": "dated prices"
+    },
+    {
+      "term": "coachella festival",
+      "volume": 1000,
+      "why": "same query as \"festival coachella\" in English order"
+    },
+    {
+      "term": "coachella lieu",
+      "volume": 450,
+      "why": "answered by \"Où se trouve Coachella\"; the bare phrase is not French prose"
+    }
+  ]
+}

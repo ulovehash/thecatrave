@@ -147,3 +147,73 @@ pages changed in the head only (hreflang).
 
 Next by measured German traffic potential (stage 1): Sónar (200), Ultra (100),
 UK garage (70), breakbeat (70), EDC (60).
+
+## Stage 2: French main keywords, all 26 guides (2026-09-18)
+
+`keywords-explorer-matching-terms`, country fr, volume ≥ 50, one call per
+guide (two repeated), no SERP. Cost 5,942 units; pool 60.6% of 800,000 after.
+Festivals seeded by name; the others by their core word, filtered to rows on
+topic. Two filters with a space in the substring (`uk garage`, `bass music`)
+were silently ignored by the API and returned auto garages and fish (660 units
+lost); use single-word substrings.
+
+| Guide | French head term | Volume | Relevant cluster | Intent fit |
+|---|---|---:|---|---|
+| Tomorrowland | tomorrowland | 32,000 | winter 9,300, prix 1,100, prix tomorrowland 600, festival tomorrowland 500, thailand 500, lieu 450, 2027 prix 700 | yes |
+| Coachella | coachella | 28,000 | festival coachella 1,600, coachella festival 1,000, 2027 800, lieu 450 | yes; tenue/outfit 1,600+, Bieber, Madonna rejected |
+| Lollapalooza | lollapalooza | 21,000 | lollapalooza paris 6,900 (parent: festival longchamp), chicago 250 | **no**: French demand is Paris, the guide is Chicago |
+| Burning Man | burning man | 13,000 | burning man festival 1,700, festival burning man 800, prix 500, 2027 150 | yes; adult, costume, Cara Delevingne rejected |
+| Glastonbury | glastonbury | 5,400 | glastonbury festival 1,300, festival glastonbury 400, festival de glastonbury 100, 2027 100 | yes |
+| Berlin clubs | berghain berlin | 1,900 | kitkat club berlin 1,100, kit kat club berlin 1,100, club berlin 400, boite de nuit berlin 400, boite berlin 300, club techno berlin 150, tresor club berlin 150, berghain berlin videur 150 | yes: Berghain, KitKat and Tresor are the guide's clubs |
+| Live DJ sets | dj set | 1,400 | set dj 250 | partial: dj set jeu 2,700 is a board game |
+| Boiler Room | boiler room | 1,300 | boiler room paris 1,200, lyon 700 (events) | partial: the guide ranks sets |
+| Mysteryland | mysteryland | 1,100 | 2027 60 | yes |
+| Parookaville | parookaville | 1,100 | festival 60 | yes |
+| Primavera Sound | primavera sound | 800 | festival 150, barcelona 100 | yes |
+| Sónar | sonar festival | 700 | sonar barcelone 400, sonar barcelona 100 | yes |
+| Drum and bass | drum and bass | 700 | drum n bass 100 | yes |
+| Dubstep | dubstep | 600 | English questions only | yes |
+| London clubs | club londres | 600 | boite de nuit londres 400; the rest is football | weak |
+| Untold | untold festival | 450 | – | yes |
+| Jungle | jungle music | 300 | parent topic is the band Jungle | collision |
+| UK garage, Ultra, EDC, Creamfields | 200 each | | ultra miami 100, edc festival 150 | yes, small |
+| Breakbeat, bass music | 100, 80 | | | small |
+| German / UK electronic | musique électronique | 500 | no French row names Germany or the UK | no match |
+| Find new music | nouvelle musique | 150 | generic | no match |
+
+Stage 1 French traffic potential for the heads, for comparison: Burning Man
+3,500, Lollapalooza 3,200, Tomorrowland 2,300, Primavera 1,000, Coachella 700,
+Mysteryland 700, Glastonbury 600, Sónar 500.
+
+## Published, French batch 1 (2026-09-18)
+
+The top French demand whose intent matches the English guide, from the table
+above: `/fr/festival-tomorrowland`, `/fr/festival-coachella`,
+`/fr/burning-man`, `/fr/festival-glastonbury`, `/fr/boite-de-nuit-berlin`,
+listed on `/fr/articles`. Lollapalooza was left out for the same reason as in
+German: French demand is Lollapalooza Paris (6,900), the guide is Chicago.
+No Ahrefs units beyond the 5,942 of the French keyword check. Maps:
+`keywords/fr-*.json`.
+
+| Guide | Targeted |
+|---|---|
+| Tomorrowland | tomorrowland 32,000, tomorrowland winter 9,300, prix tomorrowland 600, festival tomorrowland 500, tomorrowland thailand 500, tomorrowland 2027 |
+| Coachella | coachella 28,000, festival coachella 1,600, coachella 2027 800 |
+| Burning Man | burning man 13,000, burning man festival 1,700, festival burning man 800, burning man 2027 150 |
+| Glastonbury | glastonbury 5,400, glastonbury festival 1,300, festival glastonbury 400, festival de glastonbury 100, glastonbury 2027 100 |
+| Berlin clubs | kitkat club berlin 1,100, boite de nuit berlin 400 |
+
+Decisions:
+
+- French is a locale in `i18n.mjs` like German, with its own index and
+  catalogue; the owner's two mixes got French copy. Every translated page now
+  lists the whole family in hreflang (en, de, fr), through `alternatesFor()`.
+- Berlin: French searchers write "boite" without the circumflex, which the 1990
+  spelling reform allows, so the page does. "berghain berlin" (1,900) stays
+  rejected as navigational, as in English and German.
+- French shorthand queries with the words reversed ("tomorrowland prix",
+  "coachella lieu") are answered by the sections but not claimed: the phrases
+  do not occur in French prose. Coachella prices are not given because the
+  English page gives none.
+- The five English pages and the German translations of the same guides
+  changed in the head only (hreflang).
