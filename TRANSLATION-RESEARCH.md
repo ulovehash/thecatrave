@@ -217,3 +217,29 @@ Decisions:
   English page gives none.
 - The five English pages and the German translations of the same guides
   changed in the head only (hreflang).
+
+## Published, French batch 2 (2026-09-18)
+
+The next French demand whose intent matches the English guide, from the French
+keyword table above; no Ahrefs units spent. Maps: `keywords/fr-*.json`.
+
+| Guide | URL | Targeted |
+|---|---|---|
+| Mysteryland | `/fr/festival-mysteryland` | mysteryland 1,100, mysteryland festival 70, mysteryland 2027 60 |
+| Parookaville | `/fr/festival-parookaville` | parookaville 1,100, parookaville festival 60, parookaville 2027 |
+| Primavera Sound | `/fr/primavera-sound-barcelona` | primavera sound 800, primavera sound barcelona 100, primavera sound 2027 |
+| Sónar | `/fr/sonar-barcelone` | sonar festival 700, sonar barcelone 400, sónar 2027 |
+| Drum and bass | `/fr/drum-and-bass` | drum and bass 700, drum n bass 100 |
+| Dubstep | `/fr/dubstep` | dubstep 600 |
+
+Decisions:
+
+- Sónar is the first guide translated into French before German. Its English
+  generator now declares the French page (hreflang, head only).
+- French searchers write Sonar without the accent. The page quotes the reader's
+  question in that form ("le Sonar festival", "Sonar Barcelone") and otherwise
+  keeps Sónar.
+- The drum and bass and dubstep pulls in France are mostly English-language
+  questions; they stay with the English pages, as in German.
+- Untold (450) and the smaller guides wait: the French demand below this batch
+  is 450 and less.

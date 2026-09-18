@@ -361,6 +361,54 @@ export const frenchArticleCatalog = [
     image:'img/berlin-clubs/berghain-320.webp',
     srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
     width:1200, height:800, alt:'L’entrée du Berghain à Berlin'
+  },
+  {
+    page:'fr/primavera-sound-barcelona.html', tags:['discovery','history','house'], href:'/fr/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
+    title:'Primavera Sound Barcelona 2027 : dates, lieu et musique',
+    description:'Le festival de Barcelone revient au Parc del Fòrum du 3 au 5 juin 2027 : son site face à la mer, sa taille, sa musique et son programme en ville.',
+    image:'img/primavera-sound/festival-crowd-320.webp',
+    srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
+    width:1200, height:800, alt:'Des festivaliers au bord de l’eau à Primavera Sound Barcelona en 2019'
+  },
+  {
+    page:'fr/drum-and-bass.html', tags:['breaks','uk','nineties','bass'], href:'/fr/drum-and-bass', type:'Guide', topic:'Drum and bass',
+    title:'Qu’est-ce que la drum and bass ? 174 BPM, histoire et sous-genres',
+    description:'Des breakbeats rapides, une sub-bass profonde et le continuum rave britannique derrière un genre mondial : comment la drum and bass s’est séparée de la jungle, comment elle est construite et où elle est allée.',
+    image:'img/dnb/roni-size-320.webp',
+    srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
+    width:1120, height:747, alt:'Roni Size aux platines sous une lumière de scène verte'
+  },
+  {
+    page:'fr/dubstep.html', tags:['bass','uk','twothousands','soundsystem'], href:'/fr/dubstep', type:'Guide', topic:'Dubstep',
+    title:'Qu’est-ce que le dubstep ? Origines, son et deux genres, un mot',
+    description:'Un mot pour deux musiques très différentes : comment un son né chez un disquaire de Croydon s’est scindé en deux, et ce qu’est devenue la version qui n’a jamais disparu.',
+    image:'img/dubstep/dubplate-lathe-320.webp',
+    srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
+    width:961, height:540, alt:'Un tour de gravure vinyle avec un disque acétate sur le plateau'
+  },
+  {
+    page:'fr/festival-mysteryland.html', tags:['discovery','history','bass'], href:'/fr/festival-mysteryland', type:'Guide', topic:'Mysteryland',
+    title:'Mysteryland 2027 : dates, site, histoire et musique',
+    description:'Le plus ancien festival de musique électronique des Pays-Bas selon lui-même, sur l’ancien site de la Floriade : quand Mysteryland 2027 a lieu, pourquoi 2026 est en pause et ce qu’on y joue.',
+    image:'img/mysteryland/site-aerial-2018-320.webp',
+    srcset:'img/mysteryland/site-aerial-2018-320.webp 320w,img/mysteryland/site-aerial-2018-1200.webp 1200w',
+    width:1200, height:675, alt:'Mysteryland vu du ciel en 2018, la grande scène au bord d’un lac avec le public devant'
+  },
+  {
+    page:'fr/festival-parookaville.html', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',
+    title:'Parookaville 2027 : site, fréquentation, histoire et musique',
+    description:'Un festival mis en scène comme une ville sur l’aéroport de Weeze : où se trouve Parookaville, comment trois amis l’ont bâti, combien de monde y vient et ce qui passe sur ses scènes.',
+    image:'img/parookaville/mainstage-aerial-2022-320.webp',
+    srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'La Mainstage de Parookaville vue du ciel en 2022, le public devant et des éoliennes à l’horizon'
+  },
+  {
+    page:'fr/sonar-barcelone.html', tags:['discovery','history','bass'], href:'/fr/sonar-barcelone', type:'Guide', topic:'Sónar',
+    title:'Sónar Barcelone : histoire, musique et dates 2027',
+    description:'Trois jours chaque mois de juin à Barcelone depuis 1994, le jour et la nuit : où a lieu Sónar, comment il a grandi, à qui il appartient aujourd’hui, et Sónar 2027 du 17 au 19 juin.',
+    image:'img/sonar/sonar-by-day-2016-320.webp',
+    srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
+    width:1200, height:801, alt:'Une foule devant la scène SonarVillage à Fira Montjuïc, avec le Palau Nacional derrière'
   }
 ];
 

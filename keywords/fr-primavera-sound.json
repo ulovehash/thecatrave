@@ -1,0 +1,48 @@
+{
+  "page": "fr/primavera-sound-barcelona.html",
+  "seed": "primavera sound",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "primavera sound",
+      "volume": 800
+    },
+    {
+      "term": "primavera sound barcelona",
+      "volume": 100
+    },
+    {
+      "term": "primavera sound 2027",
+      "volume": 0,
+      "note": "under the 50 filter; the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "primavera sound 2026",
+      "volume": 700,
+      "why": "dated"
+    },
+    {
+      "term": "primavera sound barcelona 2026",
+      "volume": 200,
+      "why": "dated"
+    },
+    {
+      "term": "primavera sound festival",
+      "volume": 150,
+      "why": "same query as the head in English order; the French text says \"le festival Primavera Sound\""
+    },
+    {
+      "term": "primavera sound 2025",
+      "volume": 70,
+      "why": "dated"
+    },
+    {
+      "term": "primavera sound 2026 lineup",
+      "volume": 50,
+      "why": "dated line-up"
+    }
+  ]
+}

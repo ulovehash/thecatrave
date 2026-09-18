@@ -1,0 +1,33 @@
+{
+  "page": "fr/festival-parookaville.html",
+  "seed": "parookaville",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "parookaville",
+      "volume": 1100
+    },
+    {
+      "term": "parookaville festival",
+      "volume": 60
+    },
+    {
+      "term": "parookaville 2027",
+      "volume": 0,
+      "note": "under the 50 filter; the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "parookaville 2026",
+      "volume": 250,
+      "why": "dated"
+    },
+    {
+      "term": "parookaville 2025",
+      "volume": 70,
+      "why": "dated"
+    }
+  ]
+}

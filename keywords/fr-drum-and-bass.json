@@ -1,0 +1,48 @@
+{
+  "page": "fr/drum-and-bass.html",
+  "seed": "drum bass",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "drum and bass",
+      "volume": 700
+    },
+    {
+      "term": "drum n bass",
+      "volume": 100
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "what is liquid drum and bass?",
+      "volume": 250,
+      "why": "English phrasing; the English page's territory"
+    },
+    {
+      "term": "bass drum",
+      "volume": 150,
+      "why": "collision: the instrument"
+    },
+    {
+      "term": "bass drum of death",
+      "volume": 80,
+      "why": "collision: a band"
+    },
+    {
+      "term": "dnb drum and bass",
+      "volume": 70,
+      "why": "shorthand of the head"
+    },
+    {
+      "term": "drum and bass paris",
+      "volume": 50,
+      "why": "event listings"
+    },
+    {
+      "term": "drum and bass artists",
+      "volume": 50,
+      "why": "English phrasing"
+    }
+  ]
+}

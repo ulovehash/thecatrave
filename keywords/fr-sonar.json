@@ -1,0 +1,40 @@
+{
+  "page": "fr/sonar-barcelone.html",
+  "seed": "sonar, filtered to festival and barcelon",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "sonar festival",
+      "volume": 700,
+      "note": "unaccented, as the reader's question is quoted in the introduction and FAQ"
+    },
+    {
+      "term": "sonar barcelone",
+      "volume": 400,
+      "note": "in the FAQ on ticket prices"
+    },
+    {
+      "term": "sónar 2027",
+      "volume": 0,
+      "note": "below the pull; the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "sonar barcelona",
+      "volume": 100,
+      "why": "the Spanish and English spelling; the French page says Barcelone"
+    },
+    {
+      "term": "sonar festival 2026",
+      "volume": 100,
+      "why": "dated"
+    },
+    {
+      "term": "sonar barcelone 2026",
+      "volume": 80,
+      "why": "dated"
+    }
+  ]
+}

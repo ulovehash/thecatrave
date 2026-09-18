@@ -276,6 +276,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival coachella
 - coachella 2027
 
+## fr/drum-and-bass.html
+
+- drum and bass
+- drum n bass
+
+## fr/dubstep.html
+
+- dubstep
+
 ## fr/festival-glastonbury.html
 
 - glastonbury
@@ -283,6 +292,30 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival glastonbury
 - festival de glastonbury
 - glastonbury 2027
+
+## fr/festival-mysteryland.html
+
+- mysteryland
+- mysteryland festival
+- mysteryland 2027
+
+## fr/festival-parookaville.html
+
+- parookaville
+- parookaville festival
+- parookaville 2027
+
+## fr/primavera-sound-barcelona.html
+
+- primavera sound
+- primavera sound barcelona
+- primavera sound 2027
+
+## fr/sonar-barcelone.html
+
+- sonar festival
+- sonar barcelone
+- sónar 2027
 
 ## fr/festival-tomorrowland.html
 

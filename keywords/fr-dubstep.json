@@ -1,0 +1,49 @@
+{
+  "page": "fr/dubstep.html",
+  "seed": "dubstep",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "dubstep",
+      "volume": 600
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "what is dubstep bass?",
+      "volume": 300,
+      "why": "English phrasing; the English page's territory"
+    },
+    {
+      "term": "what is dubstep?",
+      "volume": 300,
+      "why": "English phrasing"
+    },
+    {
+      "term": "what is deep dubstep?",
+      "volume": 250,
+      "why": "English phrasing; deep dubstep is explained in the subgenres section"
+    },
+    {
+      "term": "what is dubstep wobbles?",
+      "volume": 150,
+      "why": "English phrasing"
+    },
+    {
+      "term": "what is dubstep vs electro",
+      "volume": 150,
+      "why": "English phrasing"
+    },
+    {
+      "term": "fond d écran dubstep",
+      "volume": 70,
+      "why": "wallpapers"
+    },
+    {
+      "term": "dubstep def",
+      "volume": 60,
+      "why": "shorthand; the answer box is the definition"
+    }
+  ]
+}

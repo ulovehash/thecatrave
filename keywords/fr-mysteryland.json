@@ -1,0 +1,33 @@
+{
+  "page": "fr/festival-mysteryland.html",
+  "seed": "mysteryland",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French stage 2)",
+  "terms": [
+    {
+      "term": "mysteryland",
+      "volume": 1100
+    },
+    {
+      "term": "mysteryland festival",
+      "volume": 70
+    },
+    {
+      "term": "mysteryland 2027",
+      "volume": 60,
+      "note": "27 to 29 August 2027; refresh yearly"
+    }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",
+  "rejected": [
+    {
+      "term": "mysteryland 2026",
+      "volume": 200,
+      "why": "dated; there is no 2026 edition, answered in the 2027 section without targeting the phrase"
+    },
+    {
+      "term": "mysteryland 2025",
+      "volume": 60,
+      "why": "dated"
+    }
+  ]
+}
