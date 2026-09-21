@@ -1518,17 +1518,20 @@
 .selector-page .sel-modes .sel-chip[data-value="gems"] { --mode-accent: var(--cyan); }
 .selector-page .sel-modes .sel-chip[data-value="deep"] { --mode-accent: var(--yellow); }
 
-/* Playlist recommendations: copy beside a compact official Spotify sample.
-   The fixed height keeps each row to roughly three visible tracks; the full
-   playlist remains available through the explicit link. */
+/* Playlist recommendations: a short editorial reason beside an official
+   Spotify preview. The iframe is intentionally only tall enough for a small
+   track sample; the complete list opens on Spotify. */
 .playlist-preview-list {
-  width: min(var(--article-wide), calc(100% - 2 * var(--gutter)));
+  position: relative;
+  left: 50%;
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
   margin: var(--media-space) auto 0;
+  transform: translateX(-50%);
   border-top: 1.5px solid var(--ink);
 }
 .playlist-preview {
   display: grid;
-  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: clamp(1.25rem, 4vw, 3rem);
   align-items: start;
   padding: clamp(1.5rem, 4vw, 2.6rem) 0;
@@ -1548,15 +1551,16 @@
   letter-spacing: .04em;
 }
 .playlist-preview-link {
-  display: block;
+  display: inline-block;
   width: fit-content;
   margin-top: 1rem;
   font: 700 .76rem/1.35 var(--mono);
   color: var(--ink);
+  white-space: nowrap;
 }
 .playlist-preview-player {
   display: block;
-  height: 300px;
+  height: 152px;
   border: 0;
   border-radius: 12px;
   background: var(--ink);
@@ -1565,8 +1569,7 @@
   .playlist-preview { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
-  .playlist-preview-list { width: min(var(--article-wide), calc(100% - 2 * var(--gutter-mobile))); }
-  .playlist-preview-player { height: 280px; }
+  .playlist-preview-list { width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide)); }
 }
 
 /* Promo bar

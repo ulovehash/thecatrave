@@ -108,21 +108,22 @@ const figure = articleFigure({
   className: 'wide-archive-image'
 });
 
+const playlistTableLink = (title, id) => `<a href="https://open.spotify.com/playlist/${id}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)} ↗</a>`;
 const comparisonTable = articleTable({
   headers: ['Playlist', 'Curator', 'Best for'],
   rows: [
-    ['New This Week', 'KEXP', 'A broad current release feed'],
-    ["Pitchfork's Best New Music", 'Pitchfork', 'Music tied to published reviews'],
-    ['Pigeons & Planes', 'Pigeons & Planes', 'Emerging hip-hop and alternative pop'],
-    ['GemsOnVHS Monthly', 'GemsOnVHS', 'Country, folk and roots discoveries'],
-    ['Rare Electronic Music', 'thecatrave', 'Breaks, techno and leftfield club music'],
-    ['Emotional Electronic Music', 'thecatrave', 'Melodic club music with weight'],
-    ['Feel My Bicep', 'Bicep', 'A working dance-music record bag'],
-    ["Four Tet's playlist", 'Four Tet', 'A deep, genre-resistant archive'],
-    ['Altar', 'Spotify', 'Current alternative electronic music'],
-    ['Toolroom Tech House', 'Toolroom Records', 'Focused weekly tech house'],
-    ["Danny L Harle's HUGE PLAYLIST", 'Danny L Harle', 'Trance, hardcore and maximal pop'],
-    ['UKF Drum & Bass', 'UKF', 'Current accessible drum and bass']
+    [playlistTableLink('New This Week', overallMeta[0].id), 'KEXP', 'A broad current release feed'],
+    [playlistTableLink("Pitchfork's Best New Music", overallMeta[1].id), 'Pitchfork', 'Music tied to published reviews'],
+    [playlistTableLink('Pigeons & Planes', overallMeta[2].id), 'Pigeons & Planes', 'Emerging hip-hop and alternative pop'],
+    [playlistTableLink('GemsOnVHS Monthly', overallMeta[3].id), 'GemsOnVHS', 'Country, folk and roots discoveries'],
+    [playlistTableLink('Rare Electronic Music', electronicMeta[0].id), 'thecatrave', 'Breaks, techno and leftfield club music'],
+    [playlistTableLink('Emotional Electronic Music', electronicMeta[1].id), 'thecatrave', 'Melodic club music with weight'],
+    [playlistTableLink('Feel My Bicep', electronicMeta[2].id), 'Bicep', 'A working dance-music record bag'],
+    [playlistTableLink("Four Tet's playlist", electronicMeta[3].id), 'Four Tet', 'A deep, genre-resistant archive'],
+    [playlistTableLink('Altar', electronicMeta[4].id), 'Spotify', 'Current alternative electronic music'],
+    [playlistTableLink('Toolroom Tech House', electronicMeta[5].id), 'Toolroom Records', 'Focused weekly tech house'],
+    [playlistTableLink("Danny L Harle's HUGE PLAYLIST", electronicMeta[6].id), 'Danny L Harle', 'Trance, hardcore and maximal pop'],
+    [playlistTableLink('UKF Drum & Bass', electronicMeta[7].id), 'UKF', 'Current accessible drum and bass']
   ]
 });
 

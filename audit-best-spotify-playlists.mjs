@@ -11,8 +11,9 @@ const checks = {
   oneH1: count(/<h1(?:\s|>)/g) === 1,
   expectedH1: html.includes('<h1>The best Spotify playlists worth following</h1>'),
   twelveCompactPreviews: count(/class="playlist-preview-player"/g) === 12
-    && count(/height="300"/g) === 12
+    && count(/height="152"/g) === 12
     && !html.includes('height="420"'),
+  tableLinksToEveryPlaylist: count(/<td><a href="https:\/\/open\.spotify\.com\/playlist\/[^"]+" target="_blank" rel="noopener noreferrer">[^<]+ ↗<\/a><\/td>/g) === 12,
   ownedPlaylistsPresent: html.includes('74KiWnE4fmEPigOa4SARz2')
     && html.includes('0U2HwRmau3EW1IXoRRa1JD')
     && count(/Curated by thecatrave/g) === 2,

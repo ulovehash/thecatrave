@@ -46,7 +46,7 @@ None material. A “most followed” table would answer a different query and is
 ## 8. Media actions
 
 - Use the original generated still life once in the introduction.
-- Use one compact official Spotify playlist player per entry, with approximately three track rows visible.
+- Use one compact 152px official Spotify playlist player per entry, with the opening track rows visible and no empty black lower half.
 - Keep prose between the figure and the first playlist player.
 - Use the standard author, Sources, Bandcamp and Read Next sequence.
 

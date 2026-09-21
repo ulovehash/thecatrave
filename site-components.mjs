@@ -391,13 +391,13 @@ export function articleTrackEmbed({platform, id = '', url = '', title} = {}) {
 
 // A ranked or recommended playlist is not an exact-track listening row. Keep
 // its curator, editorial reason and destination visible, then let Spotify show
-// a short playable sample of the list. The fixed frame height is deliberately
-// lower than the 420px homepage players: it exposes roughly three rows without
-// turning an article into twelve full track lists.
+// a short playable sample of the list. The compact frame is deliberately lower
+// than the 420px homepage players, so the article does not become twelve full
+// track lists or leave a large empty area below Spotify's preview controls.
 export function articlePlaylistPreview({id, title, curator, description, anchor, owned = false} = {}) {
   requireFields('articlePlaylistPreview', {id, title, curator, description, anchor});
   const disclosure = owned ? '<span class="playlist-preview-owned">Curated by thecatrave</span>' : '';
-  return `<article class="playlist-preview" id="${escapeHtml(anchor)}"><div class="playlist-preview-copy"><p class="article-kicker">${escapeHtml(curator)}</p><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p>${disclosure}<a class="playlist-preview-link" href="https://open.spotify.com/playlist/${escapeHtml(id)}" target="_blank" rel="noopener noreferrer">Open full playlist on Spotify ↗</a></div><iframe class="playlist-preview-player" title="Preview ${escapeHtml(title)} on Spotify" src="https://open.spotify.com/embed/playlist/${escapeHtml(id)}?utm_source=generator&amp;theme=0" width="100%" height="300" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></article>`;
+  return `<article class="playlist-preview" id="${escapeHtml(anchor)}"><div class="playlist-preview-copy"><p class="article-kicker">${escapeHtml(curator)}</p><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p>${disclosure}<a class="playlist-preview-link" href="https://open.spotify.com/playlist/${escapeHtml(id)}" target="_blank" rel="noopener noreferrer">Open full playlist on Spotify&nbsp;↗</a></div><iframe class="playlist-preview-player" title="Preview ${escapeHtml(title)} on Spotify" src="https://open.spotify.com/embed/playlist/${escapeHtml(id)}?utm_source=generator&amp;theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></article>`;
 }
 
 export function articleListeningCollection({id, title, description, tone = 'cyan', items = [], fullBleed = true, lang = defaultLang} = {}) {
