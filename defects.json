@@ -472,6 +472,17 @@
         "file": "unlighthouse.config.ts",
         "contains": "ignoreI18nPages: false"
       }
+    },
+    {
+      "id": "breakbeat-protect-ya-breaks-unrendered",
+      "found": "2026-09-21",
+      "by": "agent",
+      "what": "build-breakbeat-article.mjs declares Protect Ya Breaks as track 22 of its listening list, but no trackGroup() call includes 22, so the owner's progressive breaks track never reached breakbeat-guide.html. An agent then told the owner the track was already placed in the guide, from reading the builder instead of the published page.",
+      "should_have_caught": "nothing checks that a track declared in a builder is rendered; claims about where a track sits were made from the builder, not from the generated HTML",
+      "fix": {
+        "file": "build-breakbeat-article.mjs",
+        "contains": "ownTrackListening('protect-ya-breaks'"
+      }
     }
   ]
 }

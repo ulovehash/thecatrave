@@ -92,7 +92,7 @@ Le festival cultive aussi sa propre histoire. Un créneau du dimanche, le « Leg
 
 La BBC diffuse Glastonbury depuis 1997, date à laquelle elle a pris le relais de Channel 4, et la plupart des gens regardent donc le festival en direct sur la BBC. En 2020, l’année du cinquantième anniversaire annulé, elle a diffusé à la place des sets classiques, dont ceux de Taylor Swift, Adele, Beyoncé, des Rolling Stones et de R.E.M.
 
-La vidéo de Glastonbury la plus vue sur la chaîne YouTube de BBC Music est Coldplay jouant « Fix You » au festival 2024, avec environ 67 millions de vues. Pour un set entier, R.E.M. ont publié sur leur propre chaîne la diffusion complète de la BBC de leur concert de 1999 en tête d’affiche, qui compte environ 2,2 millions de vues.
+La vidéo de Glastonbury la plus vue sur la chaîne YouTube de BBC Music est Coldplay jouant « Fix You » au festival 2024, avec environ 67 millions de vues. R.E.M. ont publié sur leur propre chaîne la diffusion par la BBC de leur concert de 1999 en tête d’affiche, qui compte environ 2,2 millions de vues.
 
 [Embed: Coldplay 2024 et R.E.M. 1999, kM-94LhhQTs]
 

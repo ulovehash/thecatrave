@@ -20,7 +20,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection,
   articleSources, articleStructuredData, articleTable, articleYoutubeEmbed, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 // The German translation of this page announces itself here, and this page
@@ -107,6 +107,10 @@ const media = {
     fullBleed: true,
     tone: 'cyan'
   }),
+  // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+  // 1909 wherever a guide touches Germany, at least two own players a guide).
+  'thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'Breakbeat drums under dub techno space. My own track, named after this city.'),
+  'thecatrave mix I Lost So Many Weekends': ownSetListening(1, 'en', 'Breaks and techno for the hours before the queue. My own mix.'),
   'Teenage Mutants live from Sisyphos': youtube('zjfPd4jNZao',
     "Teenage Mutants live from Sisyphos, Berlin, Drumcode Radio Live DCR829, on Drumcode's YouTube channel"),
   'Ellen Allien HÖR': youtube('GG2IQguY-J0',

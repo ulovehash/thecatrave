@@ -76,6 +76,8 @@ For the history behind those rooms, from Düsseldorf and Cologne to the Detroit-
 
 Opening hours and door prices change too often to print here. Check each club's own site or its Resident Advisor listing on the week you go.
 
+[Embed: thecatrave Berlin Race 1909]
+
 ### Sisyphos
 
 Sisyphos is my favourite club in Berlin, and it is the one on this list that least resembles the others.
@@ -107,6 +109,8 @@ HÖR is a Berlin streaming studio on Karl-Marx-Allee that broadcasts DJ sets six
 [Embed: Ellen Allien HÖR]
 
 For the rest, [the Selector](/selector) plays a set at random from all 62,877, and [our guide to the best Boiler Room sets](/best-boiler-room-sets) covers the other famous way of filming a club. Berlin techno still sounds like the rooms it was made in. The best way to hear that is to go, and if the door says no, to come back another night.
+
+[Embed: thecatrave mix I Lost So Many Weekends]
 
 ## FAQ
 

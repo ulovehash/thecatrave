@@ -183,6 +183,8 @@ techno culture to the national inventory of intangible cultural heritage,
 recognising the social practice around the music, not a German claim to its
 invention.
 
+[Embed: thecatrave Berlin Race 1909]
+
 For the rooms, closures and door policies that sit outside this national
 history, see thecatrave's [guide to the best clubs in Berlin](/best-clubs-in-berlin).
 
@@ -231,6 +233,8 @@ released the first version of Live in 2001. Its loop-based interface was built
 for composition and performance without stopping the music. The software
 became part of electronic production worldwide, a reminder that scenes also
 travel through tools.
+
+[Embed: thecatrave No Genre No Problem]
 
 Germany today still cannot be summarised by Berlin techno. Hamburg's Helena
 Hauff connects electro, acid, EBM and rough analogue recording. Cologne's

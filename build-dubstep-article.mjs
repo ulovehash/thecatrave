@@ -3,7 +3,7 @@ import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articleListeningCollection,
   articlePage, articleSection, articleSources, articleStructuredData, articleTable,
   articleTrackEmbed, articleYoutubeEmbed, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 // The German translation of this page announces itself here, and this page
@@ -307,7 +307,11 @@ const splitHtml = `${join(split.slice(0, 3))}${splitListening}${join(split.slice
 
 const bristolHtml = `${join(bristol)}${bristolListening}`;
 
-const berlinHtml = `${join(berlin.slice(0, 2))}${fwdBerlin}${join(berlin.slice(2))}${berlinListening}`;
+// The owner's own track in the Berlin section (owner, 2026-09-21: Berlin Race
+// 1909 wherever a guide touches Germany), after the opening paragraph so a
+// paragraph separates it from the photograph.
+const berlinRaceTrack = ownTrackListening('berlin-race-1909', 'Techno space and broken drums from the same Berlin crossover. My own track.');
+const berlinHtml = `${join(berlin.slice(0, 1))}${berlinRaceTrack}${join(berlin.slice(1, 2))}${fwdBerlin}${join(berlin.slice(2))}${berlinListening}`;
 
 // The shared genre-table class carries the styling, as on the breakbeat, jungle and UK guides.
 const subgenresHtml = `${join(subgenres)}${articleTable({

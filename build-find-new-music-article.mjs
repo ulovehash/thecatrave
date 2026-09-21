@@ -27,7 +27,7 @@ import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage,
   articleSection, articleSources, articleStructuredData, articleTable, articleTrackEmbed, articleVideoCard,
   articleVideoCollection, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -193,6 +193,10 @@ const shopFigure = articleFigure({
 // A Bandcamp player in the Bandcamp section: the platform hands out this embed
 // code for exactly this, so it is licensed use rather than a borrowed asset,
 // and it demonstrates the argument of the paragraph beside it.
+// The owner's own track closing the producer method: one producer to follow
+// (owner, 2026-09-21: at least two own players a guide).
+const producerTrack = ownTrackListening('no-genre-no-problem', 'One producer to follow, since you are here: glitch, IDM and ambient. My own track.');
+
 const bandcampExample = articleTrackEmbed({
   platform: 'bandcamp',
   id: '3822639635',
@@ -231,7 +235,7 @@ const articleHtml = [
   articleSection({id: 'radio', title: '1. Community radio.', kicker: 'No effort', bodyHtml: `${join(radio.slice(0, 3))}${stationsListening}${join(radio.slice(3))}${radioListening}`}),
   articleSection({id: 'dj-sets', title: '2. DJ sets, not singles.', kicker: 'No effort', bodyHtml: `${join(djSets.slice(0, 2))}${smallStations}${join(djSets.slice(2))}`}),
   articleSection({id: 'selector', title: '3. The Selector.', kicker: 'One click', bodyHtml: `${join(selector.slice(0, 2))}${selectorFigure}${join(selector.slice(2))}`}),
-  articleSection({id: 'producers', title: '4. Follow the producer, not the artist.', kicker: 'A minute', bodyHtml: `${join(producers.slice(0, 2))}${producerFigure}${join(producers.slice(2))}`}),
+  articleSection({id: 'producers', title: '4. Follow the producer, not the artist.', kicker: 'A minute', bodyHtml: `${join(producers.slice(0, 2))}${producerFigure}${join(producers.slice(2))}${producerTrack}`}),
   articleSection({id: 'every-noise', title: '5. Every Noise at Once.', kicker: 'A minute', bodyHtml: join(everyNoise)}),
   articleSection({id: 'labels', title: '6. Labels that stick to one sound.', kicker: 'An afternoon', bodyHtml: `${join(labels.slice(0, 2))}${shopFigure}${join(labels.slice(2))}`}),
   articleSection({id: 'bandcamp', title: '7. Bandcamp.', kicker: 'An afternoon', bodyHtml: `${join(bandcamp.slice(0, 2))}${bandcampExample}${join(bandcamp.slice(2))}`}),

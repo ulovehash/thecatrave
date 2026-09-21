@@ -19,7 +19,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage,
   articleSection, articleSources, articleStructuredData, articleTable, articleYoutubeEmbed,
-  authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -176,7 +176,11 @@ if (entryBlocks.length !== sets.length) {
   throw new Error(`Draft ranks ${entryBlocks.length} sets, generator has players for ${sets.length}`);
 }
 
-const bestHtml = [join(paras(bestIntro)), ...entryBlocks.map((block, index) => {
+// The owner's two mixes (owner, 2026-09-21: at least two own players a
+// guide): one where the measured list hands over to the ranked one, one with
+// the onward routes.
+const betweenListsMix = ownSetListening(0, 'en', 'Between the two lists, one set that was never filmed: breaks moving through garage, bass music, techno and grime. My own mix.');
+const bestHtml = [join(paras(bestIntro)), betweenListsMix, ...entryBlocks.map((block, index) => {
   const [heading, ...rest] = block.split('\n');
   const set = sets[index];
   if (!heading.startsWith(`#${index + 1} `)) throw new Error(`Rank out of order at "${heading}"`);
@@ -235,7 +239,7 @@ const articleHtml = [
   articleSection({id: 'what-makes', title: 'What makes a Boiler Room set great.', bodyHtml: greatHtml}),
   articleSection({id: 'most-watched', title: 'The most-watched Boiler Room sets.', kicker: 'Measured', bodyHtml: watchedHtml}),
   articleSection({id: 'best', title: 'The best Boiler Room sets.', kicker: 'Ranked', bodyHtml: bestHtml}),
-  articleSection({id: 'where-next', title: 'Where to go from here.', bodyHtml: join(onward)}),
+  articleSection({id: 'where-next', title: 'Where to go from here.', bodyHtml: `${join(onward)}${ownSetListening(1)}`}),
   articleFaq({items: faqItems, title: 'Boiler Room sets FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>

@@ -3,7 +3,7 @@ import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articleListeningCollection,
   articlePage, articleSection, articleSources, articleStructuredData, articleTable,
   articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData,
-  faqStructuredData, infoBanner, readNext
+  faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 // The German translation of this page announces itself here, and this page
@@ -183,6 +183,12 @@ const metalheadzListening = articleListeningCollection({
   ])
 });
 
+// The owner's own tracks, inside the text rather than only in the Bandcamp
+// block (owner, 2026-09-21: art deco and late summer cloud dance in the drum
+// and bass guides). Each sits between paragraphs, away from the other media.
+const artDecoListening = ownTrackListening('art-deco', 'The jungle side of the split, heard today: my remix at 150 BPM.');
+const lateSummerListening = ownTrackListening('late-summer-cloud-dance', 'A short liquid breakbeat piece in the atmospheric spirit of this section. My own track.');
+
 const atmosphericListening = articleListeningCollection({
   id: 'atmospheric-listening', tone: 'cyan',
   title: 'The other answer to 1995.',
@@ -271,10 +277,10 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'From a British rave continuum to a global genre.', bodyHtml: join(paragraphs(intro)), className: 'article-intro'}),
-  articleSection({id: 'where-jungle-ended', title: 'When jungle and drum and bass diverged.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene.slice(0, 4))}${reinforcedListening}${join(splitScene.slice(4))}${splitListening}`}),
+  articleSection({id: 'where-jungle-ended', title: 'When jungle and drum and bass diverged.', kicker: '1994 to 1995', bodyHtml: `${join(splitScene.slice(0, 3))}${artDecoListening}${join(splitScene.slice(3, 4))}${reinforcedListening}${join(splitScene.slice(4))}${splitListening}`}),
   articleSection({id: 'sound', title: 'How drum and bass is built: 174 BPM, the break and the low end.', bodyHtml: `${join(built)}${soundListening}`}),
   articleSection({id: 'metalheadz', title: 'Metalheadz and the dark turn.', bodyHtml: `${join(metalheadz.slice(0, 3))}${metalheadzListening}${join(metalheadz.slice(3))}`}),
-  articleSection({id: 'atmospheric', title: 'The atmospheric line: Speed, Bristol and Good Looking.', bodyHtml: `${join(atmospheric.slice(0, 2))}${roniSizeFigure}${join(atmospheric.slice(2))}${atmosphericListening}`}),
+  articleSection({id: 'atmospheric', title: 'The atmospheric line: Speed, Bristol and Good Looking.', bodyHtml: `${join(atmospheric.slice(0, 1))}${lateSummerListening}${join(atmospheric.slice(1, 2))}${roniSizeFigure}${join(atmospheric.slice(2))}${atmosphericListening}`}),
   articleSection({id: 'subgenres', title: 'The subgenres and what they mean.', bodyHtml: subgenresHtml}),
   articleSection({id: 'global', title: 'How drum and bass became global.', kicker: '2000s onward', bodyHtml: `${join(global.slice(0, 2))}${markyFigure}${join(global.slice(2, 4))}${chartListening}${join(global.slice(4))}${globalListening}`}),
   articleSection({id: 'now', title: 'Where drum and bass is now.', bodyHtml: `${join(now)}${massivePlaylist}`}),

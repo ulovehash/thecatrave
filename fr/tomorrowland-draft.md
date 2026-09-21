@@ -98,7 +98,7 @@ Pour quelqu’un qui vient des breaks, de la jungle ou de la techno, c’est ce 
 
 ## Écouter Tomorrowland depuis chez soi
 
-Tomorrowland filme ses scènes et met des sets entiers en ligne, ce qui explique en grande partie ses chiffres de livestream. Les deux ci-dessous font partie des plus vus : Hardwell sur la Mainstage en 2013, plus de 28 millions de vues sur sa propre chaîne, l’année où le Top 100 de DJ Mag l’a élu numéro un ; et Swedish House Mafia sur la Mainstage en 2025.
+Tomorrowland filme ses scènes et met les sets en ligne, ce qui explique en grande partie ses chiffres de livestream. Les deux ci-dessous font partie des plus vus : Hardwell sur la Mainstage en 2013, plus de 28 millions de vues sur sa propre chaîne, l’année où le Top 100 de DJ Mag l’a élu numéro un ; et Swedish House Mafia sur la Mainstage en 2025.
 
 [Embed: Hardwell 2013 et Swedish House Mafia 2025, ZG1AT6tylA4]
 

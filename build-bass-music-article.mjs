@@ -3,7 +3,7 @@ import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage,
   articleSection, articleSources, articleStructuredData, articleTable,
   articleVideoCard, articleVideoCollection, articleYoutubeEmbed, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -223,13 +223,16 @@ const contemporaryTypesListening = articleVideoCollection({
   ]
 });
 
+// The owner's own track after the first paragraph on future bass and the
+// hybrids (owner, 2026-09-21: own tracks inside every guide's text).
+const lookTrack = ownTrackListening('look', 'Future bass, glitch and breakbeat at 140 BPM, one of the hybrids on this map. My own track.');
 const typesHtml = `${p(paragraphs(types)[0])}
   ${articleTable({headers:['Scene','Historical setting','Starting points'],rows:typeRows,className:'bass-scene-table'})}
   <h3>Dub and the sound-system lineage</h3>${render(getSubsection(types,'Dub and the sound-system lineage'))}
   <h3>Jungle, drum and bass, UK garage, grime and dubstep</h3>${render(getSubsection(types,'Jungle, drum and bass, UK garage, grime and dubstep'))}${britishSceneListening}
   <h3>Miami bass, trap and American low-end culture</h3>${render(getSubsection(types,'Miami bass, trap and American low-end culture'))}
   <h3>Footwork, gqom and cross-border club exchange</h3>${render(getSubsection(types,'Footwork, gqom and cross-border club exchange'))}${footworkListening}${gqomListening}
-  <h3>Bass house, future bass and contemporary hybrids</h3>${render(getSubsection(types,'Bass house, future bass and contemporary hybrids'))}${contemporaryTypesListening}`;
+  <h3>Bass house, future bass and contemporary hybrids</h3>${render(getSubsection(types,'Bass house, future bass and contemporary hybrids')).replace('</p>', `</p>${lookTrack}`)}${contemporaryTypesListening}`;
 
 const recordRows = [
   ['Augustus Pablo and King Tubby, King Tubby Meets Rockers Uptown','Dub as arrangement, version and low-end space.'],

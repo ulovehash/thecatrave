@@ -21,7 +21,7 @@ import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
   articleYoutubeEmbed, authorCard, bandcampSupport,
-  breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 // The German translation of this page announces itself here, and this page
@@ -74,6 +74,10 @@ const youtube = (id, label) => articleYoutubeEmbed({
 // checked against YouTube's oEmbed author on 2026-09-10: Robot Heart's own
 // channel and MayanWarrior's own channel.
 const media = {
+  // The owner's two mixes inside the text (owner, 2026-09-21: at least two
+  // own players a guide).
+  'thecatrave mix I Lost So Many Weekends': ownSetListening(1, 'en', 'Breaks and techno for a night on an art car. My own mix.'),
+  'thecatrave mix I Like to Smoke': ownSetListening(0, 'en', 'For the morning after: breaks moving through garage, bass music and techno. My own mix.'),
   'Earth from Space': figure('esa', 1004, 753,
     'Satellite image of Black Rock City in the Nevada desert, an arc of streets around an open centre',
     'Black Rock City from orbit during Burning Man 2024. The arc of streets and the open centre, where the Man stands, are visible from space. Contains modified Copernicus Sentinel data (2024), processed by ESA.'),

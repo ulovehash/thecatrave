@@ -96,7 +96,7 @@ const media = {
   // 375,000 (Tomorrowland's channel).
   'ZG1AT6tylA4': articleVideoCollection({
     label: 'Tomorrowland\'s most watched',
-    description: 'Two full Mainstage sets: Hardwell in 2013, more than 28 million views on his own channel, and Swedish House Mafia in 2025, from Tomorrowland\'s.',
+    description: 'Two Mainstage sets: Hardwell in 2013, more than 28 million views on his own channel, and Swedish House Mafia in 2025, from Tomorrowland\'s.',
     items: [
       articleVideoCard({youtubeId: 'ZG1AT6tylA4', genre: 'Mainstage, 2013', artist: 'Hardwell', title: 'Live at Tomorrowland 2013'}),
       articleVideoCard({youtubeId: 'H1b8hXkGyTo', genre: 'Mainstage, 2025', artist: 'Swedish House Mafia', title: 'Tomorrowland 2025, Mainstage'})

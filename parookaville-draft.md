@@ -80,6 +80,8 @@ Paul Elstak is the hardest end of it. He is a Dutch hardcore, gabber and happy h
 
 Drum and bass is a guest here. Pendulum were on the 2026 bill, listed by the festival under drum and bass, and the channel carries bass sets such as Modestep, Barely Alive and Virtual Riot from 2019, but none of the stage hosts is a drum and bass label or night. For a listener who comes from breaks, jungle or drum and bass, that is the honest picture: Parookaville is not a festival for this music. The nearest thing on its bill is the hardcore, and it is a distant relative. Dutch gabber and the UK's breakbeat hardcore, which jungle came out of, both grew from the rave of the early nineties before one went to the kick drum and the other to the break.
 
+[Embed: thecatrave Berlin Race 1909]
+
 ## Hearing Parookaville from home
 
 Parookaville puts its sets online. The festival's channel has a playlist of DJ sets for every edition since 2017, and many artists post their own. None of the 62,877 DJ sets behind [the Selector](/selector) is from Parookaville, so the players here come from those channels.

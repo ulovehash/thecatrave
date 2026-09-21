@@ -21,7 +21,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleYoutubeEmbed, authorCard, bandcampSupport,
-  breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -135,7 +135,7 @@ const pirateBand = articleListeningBand({
   platform: 'soundcloud',
   id: 'rinse-2001',
   kicker: 'Essential listening',
-  title: 'Pay As U Go Cartel on Slimzee\'s show, Rinse FM, 2001. The full show.',
+  title: 'Pay As U Go Cartel on Slimzee\'s show, Rinse FM, 2001.',
   description: 'A pirate broadcast from nine years before Rinse was legal, MCs over garage, uploaded by the station\'s co-founder himself.',
   src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103244834&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false',
   iframeTitle: 'Pay As U Go Cartel, Slew Show, Rinse FM 2001, on Slimzee\'s SoundCloud',
@@ -163,7 +163,10 @@ const radioHtml = [
   youtube('oC969p-rxfo', 'Nina Kraviz at The Lot Radio, 21 March 2017, on The Lot Radio\'s YouTube channel'),
   join(radio.slice(4, 5)),
   youtube('kumeF99xnoM', 'Acid Arab at Kiosk Radio, Brussels, 23 January 2020, on Kiosk Radio\'s YouTube channel'),
-  join(radio.slice(5))
+  join(radio.slice(5)),
+  // The owner's two mixes (owner, 2026-09-21: at least two own players a
+  // guide), each closing a section so a paragraph separates it from a video.
+  ownSetListening(0, 'en', 'Not every set needs a camera: thirty tracks of breaks, garage, bass and grime. My own mix.')
 ].join('\n');
 
 const other = section('Other ways to film a set: The Lab, Cercle and Keep Hush', 5);
@@ -182,7 +185,8 @@ const lockdownHtml = [
   youtube('QA0EdK2RjPg', 'Disclosure, Boiler Room: Streaming From Isolation #13, on Boiler Room\'s YouTube channel, 2020'),
   join(lockdown.slice(2, 3)),
   youtube('GG2IQguY-J0', 'Ellen Allien at HÖR Berlin, 4 April 2020, on HÖR\'s YouTube channel'),
-  join(lockdown.slice(3))
+  join(lockdown.slice(3)),
+  ownSetListening(1, 'en', 'A mix recorded for listening at home, the way 2020 made everyone listen. My own set.')
 ].join('\n');
 
 const owners = section('Who owns the platforms now', 2);

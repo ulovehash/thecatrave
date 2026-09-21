@@ -144,7 +144,7 @@ export default {
     'kM-94LhhQTs': articleVideoCollection({
       lang: 'fr',
       label: 'Glastonbury, les plus vus',
-      description: 'Coldplay jouant « Fix You » au festival 2024, sur la chaîne de BBC Music, et le concert complet de R.E.M. en tête d’affiche en 1999, tel que la BBC l’a diffusé, sur la chaîne du groupe.',
+      description: 'Coldplay jouant « Fix You » au festival 2024, sur la chaîne de BBC Music, et le concert de R.E.M. en tête d’affiche en 1999, tel que la BBC l’a diffusé, sur la chaîne du groupe.',
       items: [
         articleVideoCard({youtubeId: 'kM-94LhhQTs', genre: 'Glastonbury, 2024', artist: 'Coldplay', title: 'Fix You, Glastonbury 2024'}),
         articleVideoCard({youtubeId: 'DurDZkK58VE', genre: 'Glastonbury, 1999', artist: 'R.E.M.', title: 'En direct du Glastonbury Festival, 1999'})

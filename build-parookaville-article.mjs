@@ -19,7 +19,7 @@
 // asset with no placeholder.
 import fs from 'node:fs';
 import {
-  ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
+  ownSetListening, ownTrackListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
   articleYoutubeEmbed, authorCard, bandcampSupport,
   breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
@@ -74,6 +74,9 @@ const youtube = (id, label) => articleYoutubeEmbed({
 // Keyed by a phrase from the placeholder line in the draft. Video ids checked
 // against YouTube's oEmbed author on 2026-09-13.
 const media = {
+  // The owner's own track inside the text (owner, 2026-09-21: Berlin Race
+  // 1909 wherever a guide touches Germany).
+  'thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'Not what the main stages play: a German city in breakbeat and dub techno. My own track.'),
   'Parookaville stage construction': figure('stage-build-2016', 1200, 752,
     'A stage facade of mock town buildings with scaffolding and a red and white chimney, cranes and forklifts in front, on the Parookaville site in 2016',
     'A Parookaville stage going up on the airfield in July 2016, the festival\'s second year: mock town buildings, a chimney and scaffolding. Photograph: Tama66, CC0.'),

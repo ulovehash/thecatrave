@@ -27,7 +27,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection,
   articleSources, articleStructuredData, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 // The German translation of this page announces itself here, and this page
@@ -82,6 +82,11 @@ const youtube = (id, label) => articleYoutubeEmbed({
 // was checked against YouTube's oEmbed author on 2026-09-11: Mixmag, Beatport
 // and Rinse FM's own channels. All four sets are in the Selector catalogue.
 const media = {
+  // The owner's own tracks inside the text (owner, 2026-09-21: at least two
+  // own players a guide), each a paragraph away from the other media.
+  'thecatrave Art Deco': ownTrackListening('art-deco', 'The sound those rooms were built for, made now: my jungle remix of a Lana Del Rey song.'),
+  'thecatrave Degeneration': ownTrackListening('degeneration', 'Garage and dubstep as tools rather than borders: my remix with breaks under a French pop vocal.'),
+  'thecatrave Protect Ya Breaks': ownTrackListening('protect-ya-breaks', 'Progressive breaks at 128 BPM with chopped rap vocals and a downtempo switch-up. My own track.'),
   'Blitz site': figure('blitz-site', 900, 1200,
     'The former Blitz club building at 4 Great Queen Street, Covent Garden, with a plaque for Spandau Ballet by the door',
     "4 Great Queen Street in 2019. The Blitz's Tuesday night ran here in 1979 and 1980; the plaque by the door marks Spandau Ballet's first gig. Photograph: Spudgun67, CC BY-SA 4.0.",

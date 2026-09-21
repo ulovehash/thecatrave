@@ -104,7 +104,7 @@ Our own catalogue shows the same pattern. Of the 62,877 DJ sets behind [the Sele
 
 ## Essential listening
 
-Since 2024 ARTE, the Franco-German broadcaster, has filmed full shows at Sónar and put them on its ARTE Concert channel. The two below come from the same Friday night on SonarClub in 2024: Ben Böhmer live, the most watched of ARTE's Sónar Barcelona films at about 215,000 views in September 2026, and Richie Hawtin's DEX EFX X0X.
+Since 2024 ARTE, the Franco-German broadcaster, has filmed shows at Sónar and put them on its ARTE Concert channel. The two below come from the same Friday night on SonarClub in 2024: Ben Böhmer live, the most watched of ARTE's Sónar Barcelona films at about 215,000 views in September 2026, and Richie Hawtin's DEX EFX X0X.
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 

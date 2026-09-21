@@ -98,7 +98,7 @@ const media = {
   // (his channel), Hardwell 35.7 million (his channel, UMF.TV's broadcast).
   'V2VmcuOEqEg': articleVideoCollection({
     label: 'Ultra\'s most watched',
-    description: 'Two full Main Stage sets: Skrillex in 2015, more than 94 million views on his own channel, and Hardwell in 2013, more than 35 million on his.',
+    description: 'Two Main Stage sets: Skrillex in 2015, more than 94 million views on his own channel, and Hardwell in 2013, more than 35 million on his.',
     items: [
       articleVideoCard({youtubeId: 'V2VmcuOEqEg', genre: 'Main Stage, 2015', artist: 'Skrillex', title: 'Live at Ultra Music Festival 2015'}),
       articleVideoCard({youtubeId: 'jXOgYxUf6Ts', genre: 'Main Stage, 2013', artist: 'Hardwell', title: 'Live at Ultra Music Festival 2013'})

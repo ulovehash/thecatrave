@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
+import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleYoutubeEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext, siteHeader} from './site-components.mjs';
 import {relatedArticles as relatedArticlesFor} from './home-articles.mjs';
 
 const path = 'jungle-music-guide.html';
@@ -291,6 +291,14 @@ content = placeListeningFeature(content, {
   description: 'Exact tracks that make the anthems and turning points described above immediately audible.'
 });
 
+// The owner's own track beside the drum and bass rename (owner, 2026-09-21:
+// art deco and late summer cloud dance in the drum and bass guides; art deco
+// already plays in the revival section).
+content = insertFeatureAfterParagraph(content, {
+  key:'own-track-late-summer', sectionId:'myths',
+  paragraphMarker:'As the music evolved, the term <strong>drum',
+  feature:ownTrackListening('late-summer-cloud-dance', 'Breakbeat on the liquid side of the split. My own track.')
+});
 content = insertFeatureAfterParagraph(content, {
   key:'track-valley-of-the-shadows', sectionId:'underground-emergence',
   paragraphMarker:'Early Jungle (often interchangeably called',

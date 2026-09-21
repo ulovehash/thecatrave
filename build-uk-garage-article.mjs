@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleVideoCard, articleVideoCollection,
   articleSection, articleSources, articleStructuredData, articleTable, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -132,6 +132,11 @@ const skreamFigure = articleFigure({
 // Full bleed and cyan, matching the other guides: the shared-components audit
 // requires every article to carry at least one listening band, and requires it
 // to be full bleed so it does not sit in a narrow column mid-article.
+// The owner's own tracks inside the text (owner, 2026-09-21: at least two
+// own players a guide), each a paragraph away from the other media.
+const sixtyHoursTrack = ownTrackListening('60-hours-of-mistakes', 'Future garage, IDM and breaks: where this rhythm ended up years later. My own track.');
+const degenerationTrack = ownTrackListening('degeneration', 'Garage, dubstep and breaks in one remix, 132 BPM. My own remix.');
+
 const garageClassics = articleListeningBand({
   platform: 'spotify',
   id: 'uk-garage-classics-playlist',
@@ -275,11 +280,11 @@ const articleHtml = [
   articleSection({id: 'naming', title: 'Why it is called garage, and what New York has to do with it.', kicker: 'The name', bodyHtml: `${join(naming.slice(0, 2))}${paradiseFigure}${join(naming.slice(2, 4))}${originsListening}${join(naming.slice(4))}`}),
   articleSection({id: 'sound', title: 'The sound: 130 BPM and a beat that will not sit still.', bodyHtml: soundHtml}),
   articleSection({id: 'speed-garage', title: 'Speed garage: the branch that kept the four to the floor.', kicker: '1995 to 1998', bodyHtml: `${join(speed.slice(0, 2))}${speedGarageListening}${join(speed.slice(2))}`}),
-  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${craigDavidFigure}${join(twoStep.slice(2, 5))}${twoStepListening}${join(twoStep.slice(5))}${chartListening}`}),
+  articleSection({id: 'two-step', title: '2-step: the two missing kicks that made it famous.', kicker: '1997 to 2002', bodyHtml: `${join(twoStep.slice(0, 2))}${craigDavidFigure}${join(twoStep.slice(2, 5))}${twoStepListening}${join(twoStep.slice(5, 6))}${sixtyHoursTrack}${join(twoStep.slice(6))}${chartListening}`}),
   articleSection({id: 'bassline', title: 'Bassline: what happened when garage went north.', kicker: 'Sheffield', bodyHtml: `${branchesHtml}${basslineListening}`}),
   articleSection({id: 'vs-house', title: 'Garage and house: what is actually different.', bodyHtml: join(vsHouse)}),
   articleSection({id: 'ayia-napa', title: 'Ayia Napa: four summers in Cyprus.', bodyHtml: `${join(napa.slice(0, 2))}${napaFilm}${join(napa.slice(2))}`}),
-  articleSection({id: 'dubstep-grime', title: 'How garage became dubstep and grime.', kicker: '2001 to 2005', bodyHtml: `${join(became.slice(0, 3))}${skreamFigure}${join(became.slice(3))}${afterListening}`}),
+  articleSection({id: 'dubstep-grime', title: 'How garage became dubstep and grime.', kicker: '2001 to 2005', bodyHtml: `${join(became.slice(0, 3))}${skreamFigure}${join(became.slice(3, 5))}${degenerationTrack}${join(became.slice(5))}${afterListening}`}),
   articleSection({id: 'classics', title: 'The classics, and what each one explains.', bodyHtml: `${join(classics)}${revivalRecord}`}),
   articleSection({id: 'now', title: 'Who is playing it now.', bodyHtml: `${join(nowPlaying.slice(0, 2))}${revivalListening}${join(nowPlaying.slice(2))}`}),
   articleSection({id: 'revival', title: 'The revival, in numbers.', bodyHtml: join(revival)}),

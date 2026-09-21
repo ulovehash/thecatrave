@@ -88,7 +88,7 @@ const media = {
   // million (their channel), Alison Wonderland 2.1 million (her channel).
   'SaUN0QHOkHk': articleVideoCollection({
     label: 'EDC\'s most watched',
-    description: 'Two full kineticFIELD sets: Above & Beyond in 2015, nearly five million views on the trio\'s own channel, and Alison Wonderland in 2016, more than two million on hers.',
+    description: 'Two kineticFIELD sets: Above & Beyond in 2015, nearly five million views on the trio\'s own channel, and Alison Wonderland in 2016, more than two million on hers.',
     items: [
       articleVideoCard({youtubeId: 'SaUN0QHOkHk', genre: 'kineticFIELD, 2015', artist: 'Above & Beyond', title: 'Live at EDC Las Vegas 2015'}),
       articleVideoCard({youtubeId: 'zqjLaOONheg', genre: 'kineticFIELD, 2016', artist: 'Alison Wonderland', title: 'EDC Las Vegas 2016'})

@@ -11,7 +11,7 @@ import {
   articleListeningCollection, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleTrackEmbed, articleVideoCard,
   articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData,
-  faqStructuredData, infoBanner, readNext
+  faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
@@ -140,6 +140,10 @@ const media = {
     'A large crowd filling Straße des 17. Juni during the Love Parade in Berlin in 1998',
     'Love Parade on Straße des 17. Juni in 1998, after an underground demonstration had become a mass event. Photograph: Ago76, public domain.'),
   'Embed: Der Klang der Familie': klangListening,
+  // The owner's own tracks inside the text (owner, 2026-09-21: Berlin Race
+  // 1909 wherever a guide touches Germany, at least two own players a guide).
+  'Embed: thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'A present-day Berlin route: breakbeat drums with dub techno echo and space. My own track.'),
+  'Embed: thecatrave No Genre No Problem': ownTrackListening('no-genre-no-problem', 'Glitch, IDM and ambient without one scene to belong to. My own track.'),
   'Listening: Three routes through the 1990s': routesListening,
   'Table: German electronic music scenes': sceneTable
 };

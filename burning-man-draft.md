@@ -56,6 +56,8 @@ The rave camp stayed on the edge through the 1990s, and later became known as th
 
 So the music at Burning Man still lives where it was first sent: at the edges and out in the dark, on systems built and programmed by participants rather than an event-wide promoter.
 
+[Embed: thecatrave mix I Lost So Many Weekends]
+
 ### Robot Heart
 
 Robot Heart is the sound camp most people mean when they talk about music at Burning Man. It began in 2008, when George "Geo" Mueller turned an old double-decker bus into a mobile sound system. The bus, crowned with a giant illuminated heart, drives into the deep playa at night, and its sets play on until well after sunrise.
@@ -105,6 +107,8 @@ Most of it is only half-available afterwards. Some camps and DJs film their sets
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, Lee Burridge's own YouTube channel, S7OBT3kQAHQ]
 
 The rest of the listening is elsewhere. For the opposite format, where the camera is the point, [our guide to the best Boiler Room sets](/best-boiler-room-sets) ranks eighteen of them. And [the Selector](/selector) plays a DJ set at random from 62,877, which is the nearest thing online to crossing the playa at night and stopping wherever the sound is.
+
+[Embed: thecatrave mix I Like to Smoke]
 
 ## FAQ
 

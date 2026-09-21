@@ -157,7 +157,7 @@ const media = {
   // artist's own channel.
   'kM-94LhhQTs': articleVideoCollection({
     label: 'Glastonbury, most watched',
-    description: 'Coldplay playing "Fix You" at the 2024 festival, on BBC Music\'s channel; and R.E.M.\'s whole 1999 headline set, as the BBC broadcast it, on theirs.',
+    description: 'Coldplay playing "Fix You" at the 2024 festival, on BBC Music\'s channel; and R.E.M.\'s 1999 headline set, as the BBC broadcast it, on theirs.',
     items: [
       articleVideoCard({youtubeId: 'kM-94LhhQTs', genre: 'Glastonbury, 2024', artist: 'Coldplay', title: 'Fix You, Glastonbury 2024'}),
       articleVideoCard({youtubeId: 'DurDZkK58VE', genre: 'Glastonbury, 1999', artist: 'R.E.M.', title: 'Live from Glastonbury Festival, 1999'})

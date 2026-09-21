@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articleListeningCollection, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
+import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articleListeningCollection, ownTrackListening, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
 import {relatedArticles as relatedArticlesFor} from './home-articles.mjs';
 
 const source = fs.readFileSync('breakbeat-guide-draft.md', 'utf8');
@@ -28,7 +28,6 @@ const tracks = [
   {year:'2018', artist:'Skee Mask', title:'50 Euro to Break Boost', note:'Breakbeat movement operating inside a techno framework.', embed:{type:'soundcloud', url:'https%3A//soundcloud.com/ilian-tape/skee-mask-50-euro-to-break-boost'}},
   {year:'2021', artist:'Overmono', title:'So U Kno', note:'A modern meeting point for garage, techno, vocal fragments and breaks.', embed:{type:'youtube', id:'SRVxRUJxITY'}},
   {year:'2024', artist:'thecatrave', title:'Berlin Race 1909', note:'A long-form breakbeat route with a colder Berlin atmosphere and room for the rhythm to keep changing.', embed:{type:'spotify', id:'1iq7tX1EWPR7INIjkxhGSu'}},
-  {year:'2025', artist:'thecatrave', title:'Protect Ya Breaks', note:'Progressive breaks at 128 BPM, moving through bass, garage and techno without settling into one revival style.', embed:{type:'spotify', id:'6qxmmgfWlT4yrWu60elEFZ'}}
 ].map((track, index) => ({...track, index:index + 1, anchor:`track-${slug(`${track.artist}-${track.title}`)}`}));
 
 function inline(value) {
@@ -144,6 +143,10 @@ const soundcloud = articleListeningBand({
   fullBleed:true, tone:'cyan'
 });
 
+// Protect Ya Breaks used to be track 22 of the list above and was never
+// rendered: no group asked for it (defects.json, breakbeat-protect-ya-breaks-
+// unrendered). It sits under progressive breaks, the style it belongs to.
+const protectYaBreaksTrack = ownTrackListening('protect-ya-breaks', 'Progressive breaks at 128 BPM with chopped rap vocals and a downtempo switch-up. My own track.');
 const floridaBreaksPlaylist = articleListeningBand({
   platform:'spotify', id:'breakbeat-florida-playlist', kicker:'Essential listening',
   title:'Florida breaks: an extended regional playlist.',
@@ -258,7 +261,7 @@ ${section('How Breakbeat Became Club Music','club-history',{
     'By the late 1990s and early 2000s':editorialMedia.plumpDjs
   }
 })}
-${section('Breakbeat Styles: Hardcore, Florida, Big Beat, Nu-Skool and More','styles',{className:'styles-section',afterParagraph:{'Florida breaks, also called':floridaBreaksPlaylist,'Nu-skool breaks became':nuSkoolBreaksPlaylist}})}
+${section('Breakbeat Styles: Hardcore, Florida, Big Beat, Nu-Skool and More','styles',{className:'styles-section',afterParagraph:{'Florida breaks, also called':floridaBreaksPlaylist,'Nu-skool breaks became':nuSkoolBreaksPlaylist,'Acid breaks joins':protectYaBreaksTrack}})}
 ${section('Breakbeat vs Jungle, Drum and Bass, Big Beat and Broken Beat','comparison',{className:'comparison-section',end:'<p>For the faster British branch in full, read the <a href="/drum-and-bass-guide">drum and bass guide</a>, including its 170–180 BPM range, history and subgenres.</p>'})}
 ${section('Breakbeat Today','today',{beforeHeading:{'Why breakbeat still travels between scenes':trackGroup([17,18,19,20,21],'Five contemporary routes','Rave memory, breakbeat techno, modern UK bass and progressive breaks show why the rhythm no longer needs one unified revival.')},end:soundcloud})}
 ${faq}

@@ -122,7 +122,10 @@ export const ownSets = [
       description: 'Un mix bruyant et agité sur le fait de ressortir alors qu’on sait qu’on ne devrait pas.'}}
 ];
 
-export function ownSetListening(index, lang = defaultLang) {
+// A guide outside the festival set may give the mix its own line, saying why
+// it belongs at that point; the festival guides keep the default. The line is
+// English: a translated page passes its own or keeps the translated default.
+export function ownSetListening(index, lang = defaultLang, description = '') {
   const set = ownSets[index];
   if (!set) throw new Error(`No own set at index ${index}`);
   const copy = t(lang);
@@ -131,9 +134,38 @@ export function ownSetListening(index, lang = defaultLang) {
   return articleListeningBand({
     platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: copy.ownSetKicker,
     title: `${set.title}: ${translated ? translated.suffix : 'a DJ mix.'}`,
-    description: translated ? translated.description : set.description,
+    description: description || (translated ? translated.description : set.description),
     src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${set.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
     iframeTitle: `${set.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'
+  });
+}
+
+// The owner's own releases that may sit inside a guide's text, not only in
+// the Bandcamp block at its end. The list is the owner's (2026-09-21): only
+// these, at least two per guide counting the mixes, and never the one-minute
+// preview of look, because the full track exists. Keyed by a short name so a
+// builder reads ownTrackListening('berlin-race-1909', ...), and the title here
+// is what analytics-runtime.js reports as track_title.
+export const ownTracks = {
+  'protect-ya-breaks': {slug: 'no-id', title: 'Protect Ya Breaks'},
+  'berlin-race-1909': {slug: 'berlin-race-1909', title: 'Berlin Race 1909'},
+  'degeneration': {slug: 'mylene-farmer-degeneration', title: 'Mylène Farmer, Dégénération (Remix)', remix: true},
+  'art-deco': {slug: 'art-deco-jungle-remix', title: 'Lana Del Rey, Art Deco (Jungle Remix)', remix: true},
+  '60-hours-of-mistakes': {slug: '60-hours-of-mistakes', title: '60 hours of mistakes'},
+  'look': {slug: 'look-1', title: 'look'},
+  'late-summer-cloud-dance': {slug: 'late-summer-cloud-dance', title: 'late summer cloud dance'},
+  'no-genre-no-problem': {slug: 'no-genre-no-problem', title: 'No Genre No Problem'}
+};
+
+export function ownTrackListening(key, description) {
+  const track = ownTracks[key];
+  if (!track) throw new Error(`No own track called ${key}`);
+  requireFields('ownTrackListening', {description});
+  return articleListeningBand({
+    platform: 'soundcloud', id: `own-track-${key}`, kicker: track.remix ? 'A remix by thecatrave' : 'A track by thecatrave',
+    title: `${track.title}.`, description,
+    src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${track.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
+    iframeTitle: `${track.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'
   });
 }
 
