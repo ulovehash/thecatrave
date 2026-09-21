@@ -8,7 +8,7 @@
 // The demand is small next to the other German guides, and the 2026 pause is
 // most of what a German reader is looking for: the page leads with it.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -60,7 +60,11 @@ export default {
     {id: 'from-home', heading: 'Mysteryland von zu Hause hören', title: 'Mysteryland von zu Hause hören.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Main stage by the lake': figure('site-aerial-2018', 1200, 675,
       'Mysteryland 2018 aus der Luft: eine riesige geschmückte Hauptbühne am Ufer eines Sees, davor dichtes Publikum, ringsum Wald, Zelte und Wege',
       'Die Hauptbühne am See auf dem früheren Floriade-Gelände, aus der Luft, bei Mysteryland 2018. Foto: Niels de Vries, CC BY-SA 4.0.'),

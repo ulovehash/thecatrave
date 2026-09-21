@@ -82,6 +82,8 @@ Coldplay halten den Rekord mit fünf Headliner-Auftritten, der fünfte 2024. The
 
 Glastonbury ist kein Genre-Festival. Auf seiner Hauptbühne ging es von Tyrannosaurus Rex und David Bowie zu Oasis, Radiohead und Coldplay, dann zu Jay-Z 2008, Beyoncé 2011, Stormzy 2019 und Billie Eilish, der jüngsten Headlinerin, 2022. Rund um die Pyramid Stage stehen mehr als 100 Bühnen für alles andere: Folk, Jazz, Weltmusik, Comedy und Theater.
 
+[Embed: thecatrave berlin-race-1909]
+
 Die Dance Music hat seit Orbital 1994 einen immer größeren Platz. The Prodigy waren 1997 Headliner und die Chemical Brothers 2000, und die Bereiche für die späte Nacht laufen heute bis zum Morgen. The Prodigy kamen 2025 zurück, und der Mitschnitt der BBC von "Breathe" aus diesem Set hat rund 3,8 Millionen Aufrufe.
 
 [Embed: The Prodigy, Breathe, Glastonbury 2025, BBC Music YouTube channel, 1n6GvSfjE8M]

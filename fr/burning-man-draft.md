@@ -58,6 +58,8 @@ Le camp rave est resté en marge tout au long des années 1990 et a ensuite ét�
 
 La musique de Burning Man vit donc toujours là où on l’a envoyée au départ : aux marges et au loin dans le noir, sur des systèmes construits et programmés par les participants plutôt que par un promoteur.
 
+[Embed: thecatrave mix I Lost So Many Weekends]
+
 ### Robot Heart
 
 Robot Heart est le sound camp auquel la plupart des gens pensent quand ils parlent de musique à Burning Man. Il a commencé en 2008, quand George « Geo » Mueller a transformé un vieux bus à impériale en sound system mobile. Le bus, surmonté d’un cœur géant illuminé, part la nuit vers la deep playa, et ses sets durent jusque bien après le lever du soleil.
@@ -107,6 +109,8 @@ La plus grande partie n’est disponible qu’à moitié ensuite. Certains camps
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, S7OBT3kQAHQ]
 
 Le reste de l’écoute est ailleurs. Pour le format opposé, où la caméra est l’objet même, [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, en classe dix-huit. Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, ce qui ressemble le plus, en ligne, à traverser la playa la nuit et à s’arrêter là où il y a du son.
+
+[Embed: thecatrave mix I Like to Smoke]
 
 ## FAQ
 

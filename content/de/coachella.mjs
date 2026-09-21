@@ -14,7 +14,7 @@
 // Imperial units in the English draft are converted, not carried over: a German
 // reader measures a festival site in hectares and a drive in kilometres.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -68,7 +68,11 @@ export default {
     {id: 'from-home', heading: 'Coachella von zu Hause hören', title: 'Coachella von zu Hause hören.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Coachella18W1-18': figure('grounds-2018', 1200, 677,
       'Festivalbesucher auf der Wiese von Coachella 2018, dahinter Palmen und ein hoher Turm aus farbigen Platten, am Horizont Wüstenberge und das Riesenrad',
       'Das Festivalgelände im April 2018: Palmen, Wüstenberge, ein farbiger Turm und das Riesenrad. Foto: Raph_PH, CC BY 2.0.'),

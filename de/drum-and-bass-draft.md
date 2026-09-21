@@ -18,6 +18,8 @@ Ein sauberes Datum für die Trennung gibt es nicht, und jede Darstellung, die ei
 
 1994 hatte Jungle die britischen Charts und das Tagesradio erreicht, und die Version, die dort ankam, war Ragga Jungle: jamaikanische Vocal-Samples, Reggae-Basslines, MC-Energie. Manche Produzenten wollten ihre Platten nicht darunter abgelegt sehen, teils wegen des Sounds und teils, weil das Wort Jungle inzwischen Assoziationen trug, über Klasse, über Herkunft, über Gewalt auf bestimmten Raves, die mit dem, was sie machten, wenig zu tun hatten. Der Begriff Drum and Bass bot ihnen einen Ausweg. Goldie gründete Metalheadz 1994 mit Kemistry und Storm, und das Label beschrieb sein Ziel so, Breakbeat und Jungle "into a new dimension, drum 'n' bass" zu überführen. Sein Album Timeless, im August 1995 erschienen, machte diesen Anspruch für Menschen lesbar, die nie auf einem Rave gewesen waren.
 
+[Embed: thecatrave art-deco]
+
 Goldie kam nicht aus dem Nichts, und die Umbenennung auch nicht. Das Label, durch das der größte Teil dieser Generation ging, war Reinforced Records, 1989 in Dollis Hill von Marc Mac und Gus Lawrence gegründet, später kamen Dego McFarlane und Ian Bardouille dazu. Marc Mac und Dego sind 4hero, und ihr "Mr Kirk's Nightmare" verkaufte mehr als 24.000 Exemplare und bezahlte das Label. Goldie zeichnete die Artworks von Reinforced, bevor er dort Platten machte, erschienen als Rufige Kru, und leitete am Ende dessen A&R. Wenn jemand die Produzenten aufzählt, die Drum and Bass geprägt haben, ist 4hero meist der erste Name, und der Grund ist eher die Adresse als eine einzelne Platte: Zwischen 1991 und 1994 wurde das dunklere, schnellere Ende des Hardcore nach Dollis Hill geschickt. Ihr eigenes Parallel Universe von 1994 gilt als erstes Drum-and-Bass-Album, und Two Pages kam 1998 auf die Shortlist des Mercury Prize und gewann einen MOBO.
 
 [Embed: reinforced-listening]
@@ -51,6 +53,8 @@ Die härtere Richtung wird meist auf No U-Turn zurückgeführt, das Studio und L
 ## Die atmosphärische Linie: Speed, Bristol und Good Looking
 
 Die dunkle Wende war eine Antwort auf 1995. Eine andere lief über eine Clubnacht namens Speed in der Mars Bar im Zentrum Londons, wo Fabio und LTJ Bukem das jazzige, melodische Ende der Musik vor einem Raum spielten, der lieber zuhörte als rannte. Bukems Label Good Looking und seine Compilation-Reihe Logical Progression, deren erste 1996 erschien, gaben diesem Sound einen Katalog. Sein Track "Music" von 1993 ist der übliche Bezugspunkt: Streicher, ein weicher Break, kein Drop im heutigen Sinn. Einige Jahre lang wurde dieser Zweig als "Intelligent Drum and Bass" vermarktet, ein Etikett, das damals einen echten Unterschied markierte und inzwischen peinlich gealtert ist, weil es unterstellte, der Rest des Genres sei es nicht.
+
+[Embed: thecatrave late-summer-cloud-dance]
 
 Das andere Zentrum der melodischen Version lag gar nicht in London. In Bristol gründeten Roni Size, Krust, Die und Suv das Kollektiv Reprazent, und Bristoler Labels, Full Cycle und die von Bryan Gee und Jumpin Jack Frost geführte Achse um V Recordings, bauten einen rollenden, jazzgefärbten Sound mit dem Gefühl einer Live-Band. 1997 gewann New Forms von Reprazent den Mercury Prize, vor OK Computer, und für einen Moment war der Klang, mit dem die britische Musikpresse über sich selbst schrieb, eine Drum-and-Bass-Platte aus Bristol. "Brown Paper Bag" von diesem Album ist der Track, der Menschen erreichte, die sonst keine einzige Platte des Genres besaßen.
 

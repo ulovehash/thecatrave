@@ -16,7 +16,7 @@
 // The images are the English guide's, in img/burning-man/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownSetListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -72,7 +72,12 @@ export default {
     {id: 'from-home', heading: 'Écouter Burning Man depuis chez soi', title: 'Écouter Burning Man depuis chez soi.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave mix I Lost So Many Weekends': ownSetListening(1, lang, 'Des breaks et de la techno pour une nuit sur un art car. Mon propre mix.'),
+    'thecatrave mix I Like to Smoke': ownSetListening(0, lang, 'Pour le lendemain matin : des breaks qui traversent le garage, la bass music et la techno. Mon propre mix.'),
     'Earth from Space': figure('esa', 1004, 753,
       'Image satellite de Black Rock City dans le désert du Nevada, un arc de rues autour d’un centre vide',
       'Black Rock City vue de l’orbite pendant Burning Man 2024. L’arc des rues et le centre vide, où se dresse le Man, sont visibles depuis l’espace. Contient des données Copernicus Sentinel modifiées (2024), traitées par l’ESA.'),

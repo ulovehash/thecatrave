@@ -111,7 +111,7 @@ export const ownSets = [
   {slug: 'i-like-to-smoke-in-silence-after-raves', title: 'I Like to Smoke in Silence After Raves',
     description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.',
     de: {suffix: 'ein DJ-Mix.',
-      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigener Set, für eine Pause vom Festival.'},
+      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigenes Set, für eine Pause vom Festival.'},
     fr: {suffix: 'un DJ mix.',
       description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'}},
   {slug: 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more', title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
@@ -157,12 +157,15 @@ export const ownTracks = {
   'no-genre-no-problem': {slug: 'no-genre-no-problem', title: 'No Genre No Problem'}
 };
 
-export function ownTrackListening(key, description) {
+// The description is in the page's language; the title is the release's own
+// name in every language.
+export function ownTrackListening(key, description, lang = defaultLang) {
   const track = ownTracks[key];
   if (!track) throw new Error(`No own track called ${key}`);
   requireFields('ownTrackListening', {description});
+  const copy = t(lang);
   return articleListeningBand({
-    platform: 'soundcloud', id: `own-track-${key}`, kicker: track.remix ? 'A remix by thecatrave' : 'A track by thecatrave',
+    platform: 'soundcloud', id: `own-track-${key}`, kicker: track.remix ? copy.ownRemixKicker : copy.ownTrackKicker,
     title: `${track.title}.`, description,
     src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${track.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
     iframeTitle: `${track.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'

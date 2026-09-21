@@ -13,7 +13,7 @@
 // unanswered, as in the English guide: a page that promises a 2027 running
 // order it cannot keep is worse than one that does not.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -64,7 +64,11 @@ export default {
     {id: 'from-home', heading: 'Parookaville von zu Hause hören', title: 'Parookaville von zu Hause hören.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Parookaville stage construction': figure('stage-build-2016', 1200, 752,
       'Eine Bühnenfassade aus nachgebauten Stadthäusern mit Gerüsten und einem rot-weißen Schornstein, davor Kräne und Gabelstapler, auf dem Parookaville-Gelände 2016',
       'Eine Parookaville-Bühne im Aufbau auf dem Flugplatz, Juli 2016, im zweiten Jahr des Festivals: nachgebaute Stadthäuser, ein Schornstein und Gerüste. Foto: Tama66, CC0.'),

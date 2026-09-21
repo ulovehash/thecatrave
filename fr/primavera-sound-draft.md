@@ -54,6 +54,8 @@ La taille a rendu Primavera international sans effacer son cadre barcelonais. Le
 
 Primavera Sound est un festival de musique qui repose sur l’indie rock et propose une programmation moderne volontairement large. Son histoire compte des passages répétés d’artistes comme Shellac, Sonic Youth, PJ Harvey, The National et Arcade Fire, mais les mêmes scènes ont accueilli Kendrick Lamar, Rosalía, Tyler, the Creator, Charli XCX, Bad Bunny, Grace Jones et une longue série d’artistes électroniques.
 
+[Embed: thecatrave degeneration]
+
 Pour qui écoute de la musique électronique, le détail important est que la musique de club n’est pas cantonnée à une tente dance symbolique. House, techno, electro, ambient et électronique live aventureuse jouent tard, souvent sur des scènes proches de la mer. Boiler Room a tenu une scène dans le festival, et des diffuseurs et plateformes comme NTS et ARTE y ont enregistré des concerts.
 
 [Image: Peggy Gou at the Ray-Ban stage, Primavera Sound 2019]

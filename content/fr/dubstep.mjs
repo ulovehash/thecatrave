@@ -13,8 +13,7 @@
 // The images are the English guide's, in img/dubstep/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleListeningBand, articleListeningCollection, articleTable,
-  articleTrackEmbed, articleYoutubeEmbed
+  articleFigure, articleListeningBand, articleListeningCollection, articleTable, articleTrackEmbed, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 import {t} from '../../i18n.mjs';
 
@@ -88,6 +87,10 @@ export default {
   ],
 
   media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'L’espace de la techno et des rythmiques brisées : la même rencontre berlinoise, écoutée aujourd’hui. Mon propre morceau.', lang),
     'Big Apple Records': figure({name: 'big-apple-records', width: 720, height: 482,
       alt: 'La devanture de Big Apple Records à Croydon vers l’an 2000',
       caption: 'Big Apple Records, Croydon, vers 2000. Ceux qui servaient, ceux qui traînaient là et ceux qui faisaient les disques étaient en grande partie les mêmes. Photo : Bigapplerecords, CC BY-SA 3.0.'}),

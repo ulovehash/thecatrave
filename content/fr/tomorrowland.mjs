@@ -12,7 +12,7 @@
 // The images are the English guide's, in img/tomorrowland/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -63,7 +63,11 @@ export default {
     {id: 'from-home', heading: 'Écouter Tomorrowland depuis chez soi', title: 'Écouter Tomorrowland depuis chez soi.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Retreat to Dreamville': figure('dreamville-2014', 1200, 795,
       'Des tentes et des festivaliers à DreamVille, le camping de Tomorrowland, en 2014',
       'DreamVille, le camping de Tomorrowland, en 2014. Ses formules se vendent avec le billet du festival. Photo : sergejf, CC BY 2.0.'),

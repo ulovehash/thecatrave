@@ -76,6 +76,8 @@ Cela fait de Mysteryland un ensemble de petits festivals à l’intérieur d’u
 
 Mysteryland a commencé comme une fête house et est devenu, volontairement, quelque chose de beaucoup plus large : la Wikipedia néerlandaise le décrit comme un festival de nombreux styles pensé pour attirer un public plus large. Sa propre liste de genres va de la techno, de la house et de la trance au hardstyle, au hip hop et à l’urbain.
 
+[Embed: thecatrave degeneration]
+
 Les éditions des années 1990 s’appuyaient sur le hardcore. La nuit de 1996 à Eindhoven était construite autour de lui, et ID&T avait sa propre marque hardcore, Thunderdome, depuis 1992. Au milieu des années 2000, Tiësto a fait son entrée en hélicoptère, et dans les années 2010 la grande scène appartenait à l’EDM big room : Steve Aoki, Fedde le Grand et Steve Angello étaient à l’affiche de l’édition complète de 2013.
 
 [Image: Hardwell at Mysteryland 2014.]

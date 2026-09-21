@@ -76,6 +76,8 @@ Damit ist Mysteryland eine Sammlung kleiner Festivals in einem großen. 2003 gab
 
 Mysteryland begann als House-Party und wurde absichtlich viel breiter: Die niederländische Wikipedia beschreibt, wie daraus ein Festival vieler Stile wurde, das ein größeres Publikum ansprechen sollte. Die eigene Genreliste reicht von Techno, House und Trance bis Hardstyle, Hip-Hop und Urban.
 
+[Embed: thecatrave berlin-race-1909]
+
 Die Ausgaben der Neunziger lehnten sich an Hardcore an. Die Nacht in Eindhoven 1996 war darum herum gebaut, und ID&T betrieb seit 1992 mit Thunderdome eine eigene Hardcore-Marke. Mitte der 2000er kam Tiësto per Hubschrauber, und in den 2010ern gehörte die Hauptbühne dem Big-Room-EDM: Steve Aoki, Fedde le Grand und Steve Angello standen auf dem ausverkauften Line-up von 2013.
 
 [Bild: Hardwell at Mysteryland 2014. Caption: Hardwell bei Mysteryland im August 2014. 2023 stand er wieder auf der Hauptbühne. Foto: Nicoalsemgeest.com, CC BY 2.0.]

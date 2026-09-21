@@ -76,6 +76,8 @@ Für die Geschichte hinter diesen Räumen, von Düsseldorf und Köln bis zur All
 
 Öffnungszeiten und Eintrittspreise ändern sich zu oft, um sie hier abzudrucken. In der Woche, in der man hingeht, lohnt ein Blick auf die Website des Clubs oder auf sein Listing bei Resident Advisor.
 
+[Embed: thecatrave berlin-race-1909]
+
 ### Sisyphos
 
 Das Sisyphos ist mein Lieblingsclub in Berlin, und es ist der auf dieser Liste, der den anderen am wenigsten ähnelt.
@@ -107,6 +109,8 @@ HÖR ist ein Berliner Streaming-Studio an der Karl-Marx-Allee, das an sechs Tage
 [Embed: Ellen Allien HÖR]
 
 Für den Rest spielt [der Selector](/selector) ein zufälliges Set aus allen 62.877, und [unser Guide zu den besten Boiler-Room-Sets](/best-boiler-room-sets), auf Englisch, behandelt die andere berühmte Art, einen Club zu filmen. Berliner Techno klingt noch immer wie die Räume, in denen er gemacht wurde. Am besten hört man das, indem man hingeht, und wenn die Tür Nein sagt, an einem anderen Abend wiederkommt.
+
+[Embed: thecatrave mix I Lost So Many Weekends]
 
 ## FAQ
 

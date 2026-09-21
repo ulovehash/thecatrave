@@ -17,7 +17,7 @@
 // The images are the English guide's, in img/london-clubs/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -76,6 +76,12 @@ export default {
   sections,
 
   media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave art-deco': ownTrackListening('art-deco', 'Der Sound, für den diese Räume gebaut wurden, neu gemacht: mein Jungle-Remix eines Songs von Lana Del Rey.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Garage und Dubstep als Werkzeuge statt als Grenzen: mein Remix mit Breaks unter einer französischen Popstimme.', lang),
+    'thecatrave protect-ya-breaks': ownTrackListening('protect-ya-breaks', 'Progressive Breaks bei 128 BPM, mit zerhackten Rap-Vocals und einem Wechsel ins Downtempo. Mein eigener Track.', lang),
     'Blitz site': figure('blitz-site', 900, 1200,
       'Das frühere Gebäude des Blitz Club in der Great Queen Street 4, Covent Garden, mit einer Plakette für Spandau Ballet neben der Tür',
       'Die Great Queen Street 4 im Jahr 2019. Der Dienstagabend im Blitz lief hier 1979 und 1980; die Plakette neben der Tür erinnert an den ersten Auftritt von Spandau Ballet. Foto: Spudgun67, CC BY-SA 4.0.',

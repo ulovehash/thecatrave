@@ -76,6 +76,8 @@ Pour l’histoire derrière ces salles, de Düsseldorf et Cologne jusqu’à l�
 
 Les horaires et les prix d’entrée changent trop souvent pour être imprimés ici. Consultez le site de chaque club ou sa page Resident Advisor la semaine où vous y allez.
 
+[Embed: thecatrave berlin-race-1909]
+
 ### Sisyphos
 
 Le Sisyphos est mon club préféré à Berlin, et c’est celui de cette liste qui ressemble le moins aux autres.
@@ -102,11 +104,15 @@ Et le week-end est long. Le Sisyphos tourne du vendredi soir au lundi matin, le 
 
 La moitié de cette page parle de salles qu’on ne peut pas photographier, et de certaines qu’on ne peut plus visiter. La musique est plus facile d’accès.
 
+[Embed: thecatrave degeneration]
+
 HÖR est un studio de streaming berlinois sur la Karl-Marx-Allee qui diffuse des DJ sets six jours par semaine. C’est l’une des deux plus grandes sources du catalogue derrière le Selector de ce site : 9 708 de ses 62 877 sets, depuis 2019. L’heure d’Ellen Allien là-bas fait partie des quatre sets de HÖR les plus vus du catalogue, et c’est une meilleure introduction à la nuit berlinoise que n’importe quelle liste.
 
 [Embed: Ellen Allien HÖR]
 
 Pour le reste, [le Selector](/selector) lance un set au hasard parmi les 62 877, et [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, présente l’autre façon célèbre de filmer un club. La techno berlinoise sonne toujours comme les salles où elle a été faite. La meilleure façon de l’entendre, c’est d’y aller, et si la porte dit non, de revenir un autre soir.
+
+[Embed: thecatrave mix I Lost So Many Weekends]
 
 ## FAQ
 

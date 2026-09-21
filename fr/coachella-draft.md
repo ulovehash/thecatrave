@@ -78,6 +78,8 @@ Coachella n’est pas un festival de dance music, mais il en a toujours contenu 
 
 Le reste de l’affiche va très loin. Les têtes d’affiche rock l’ont construite, de Radiohead et les Cure à Rage Against the Machine ; le hip-hop et la pop ont pris le haut de l’affiche, de Jay-Z et Kendrick Lamar à Lady Gaga, Ariana Grande et Sabrina Carpenter. Bad Bunny et Blackpink ont été ses premières têtes d’affiche latino et asiatique en 2023, et Karol G la première tête d’affiche latina en 2026.
 
+[Embed: thecatrave degeneration]
+
 La Sahara montre jusqu’où va cet éventail. Diljit Dosanjh a joué sous la tente le premier samedi de 2023, et l’extrait de « G.O.A.T. » publié par le festival compte environ 10 millions de vues sur sa chaîne YouTube.
 
 [Embed: Diljit Dosanjh, G.O.A.T., Live at Coachella 2023, o0QGw1LZpxM]

@@ -10,7 +10,7 @@
 // nuit untold (a perfume). Only the phrase with "festival" is this page's, and
 // the title carries it rather than the bare brand.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -62,7 +62,11 @@ export default {
     {id: 'from-home', heading: 'Untold von zu Hause hören', title: 'Untold von zu Hause hören.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Cluj-Napoca Cluj Arena 1': figure('cluj-arena', 1200, 799,
       'Die Cluj Arena von innen, ein ovales Fußballstadion mit geschwungenem Dach über grauen Sitzen, grünem Rasen und einer Laufbahn, unter blauem Himmel',
       'Die Cluj Arena, das Fußballstadion mit 30.355 Plätzen, in dem die Hauptbühne von Untold steht, an einem gewöhnlichen Tag im September 2014. Foto: Валерий Дед, CC BY 3.0.'),

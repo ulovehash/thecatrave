@@ -14,7 +14,7 @@
 // The images are the English guide's, in img/berlin-clubs/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleListeningBand, articleTable, articleYoutubeEmbed
+  articleFigure, articleListeningBand, articleTable, articleYoutubeEmbed, ownTrackListening, ownSetListening
 } from '../../site-components.mjs';
 import {t} from '../../i18n.mjs';
 
@@ -71,6 +71,12 @@ export default {
   ],
 
   media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Des breaks dans l’écho et l’espace du dub techno. Mon propre morceau, qui porte le nom de cette ville.', lang),
+    'thecatrave mix I Lost So Many Weekends': ownSetListening(1, lang, 'Des breaks et de la techno pour les heures qui précèdent la file d’attente. Mon propre mix.'),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Une voix française sur des breaks et des basses héritées du dubstep, à écouter avant de rejoindre la file. Mon propre remix.', lang),
     'Tresor 2003': figure('tresor-2003', 1200, 900,
       'L’entrée du Tresor d’origine sur la Leipziger Strasse, à Berlin, en 2003',
       'La première adresse du Tresor, sur la Leipziger Strasse, en septembre 2003. Le club y a fermé deux ans plus tard. Photo : MichaelBrossmann, domaine public.'),

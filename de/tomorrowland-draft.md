@@ -94,6 +94,8 @@ Abseits davon gab es 2026 sechzehn Bühnen, gebaut um die sechs Emotionen des Th
 
 Drum and Bass ist der Teil, der diese Seite am meisten interessiert, und er ist bei Tomorrowland länger zu Hause, als die Mainstage vermuten lässt. 2017 betreute Netsky eine eigene Bühne, mit Camo & Krooked darauf. 2026 spielten Chase & Status am ersten Wochenende auf der Freedom-by-Bud-Bühne und am zweiten auf der Mainstage: ein britisches Drum-and-Bass-Duo auf der Bühne, die für die größten Namen des EDM gebaut ist. Camo & Krooked waren in jenem Jahr zurück, und Bassrush übernahm den Rose Garden mit Dubstep.
 
+[Embed: thecatrave berlin-race-1909]
+
 Für Hörerinnen und Hörer, die von Breaks, Jungle oder Techno kommen, ist das die nützliche Information. Tomorrowland lohnt sich für den Park und die Produktion, und die Musik, für die sich die Fahrt quer durch Europa lohnt, läuft auf den gehosteten Bühnen, nicht nur unter dem Feuerwerk.
 
 ## Tomorrowland von zu Hause hören

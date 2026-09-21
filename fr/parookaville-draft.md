@@ -74,6 +74,8 @@ La techno a son propre coin. Paul Kalkbrenner a été tête d’affiche en 2017 
 
 Le festival filme presque tout, et sa propre chaîne YouTube montre ce que le public revient voir. Les sets les plus vus ne sont pas toujours ceux des têtes d’affiche : celui de Finch en 2022 compte 1 246 324 vues, et celui de Gestört aber Geil en 2024, 1 021 261. Le hardstyle a un résident, Lost Identity, et une place stable à l’affiche, de Brennan Heart à Headhunterz et Wildstylez.
 
+[Embed: thecatrave degeneration]
+
 Paul Elstak en est l’extrémité la plus dure. C’est un DJ néerlandais de hardcore, de gabber et de happy hardcore qui joue depuis 1987, et son set de 2022 sur la chaîne du festival compte 728 553 vues.
 
 [Embed: Paul Elstak, Parookaville 2022, QeifZyGcZmY]

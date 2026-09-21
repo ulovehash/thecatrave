@@ -78,6 +78,8 @@ Coachella ist kein Dance-Festival, aber es hatte immer eines in sich. Die Chemic
 
 Der Rest des Programms ist weit gefasst. Rock-Headliner haben es aufgebaut, von Radiohead und The Cure bis Rage Against the Machine; Hip-Hop und Pop übernahmen die oberen Zeilen, von Jay-Z und Kendrick Lamar bis Lady Gaga, Ariana Grande und Sabrina Carpenter. Bad Bunny und Blackpink waren 2023 die ersten lateinamerikanischen und asiatischen Headliner, Karol G 2026 die erste Latina an der Spitze.
 
+[Embed: thecatrave berlin-race-1909]
+
 Wie weit diese Spanne reicht, zeigt die Sahara. Diljit Dosanjh spielte dort am ersten Samstag 2023, und der Clip des Festivals zu "G.O.A.T." aus diesem Set hat auf dessen YouTube-Kanal rund 10 Millionen Aufrufe.
 
 [Embed: Diljit Dosanjh, G.O.A.T., Live at Coachella 2023, Coachella YouTube-Kanal, o0QGw1LZpxM]

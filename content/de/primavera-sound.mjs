@@ -13,7 +13,7 @@
 // The images are the English guide's, in img/primavera-sound/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -67,7 +67,11 @@ export default {
     {id: 'porto', heading: 'Primavera Sound Porto', title: 'Primavera Sound Porto.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Primavera stage crowd': figure('festival-crowd', 1200, 800,
       'Festivalbesucher am Wasser bei Primavera Sound Barcelona 2019 unter klarem blauem Himmel',
       `Das Publikum bei Primavera Sound Barcelona 2019, ringsum das offene Gelände am Wasser. Foto: John Lubbock, CC BY-SA 4.0. ${commonsLink('Primavera stage crowd.jpg')}`,

@@ -116,6 +116,8 @@ Les producteurs le plus souvent cités aujourd’hui pour le côté profond vien
 
 La troisième ville où le dubstep a pris racine est celle que presque toutes les histoires oublient.
 
+[Embed: thecatrave berlin-race-1909]
+
 Kode9 a joué pour la première fois à Berlin en 2002, invité par Tricky D. À partir de 2004, la série Grime Time au WMF a fait découvrir le grime et le dubstep londoniens au public berlinois. En 2006, FWD>> a organisé des soirées au Raumklang avec Skream, Kode9 et Loefah, et Freak Camp a organisé sa première fête dans une salle des coffres d’une banque. En 2008, Sub:Stance avait été lancé au Berghain, et les organisateurs ont trouvé quinze cents personnes prêtes à venir à une soirée dubstep dans une institution de la techno.
 
 [Image: FWD Berlin]

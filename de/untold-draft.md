@@ -78,6 +78,8 @@ Die Hauptbühne gehört dem EDM und den DJs an der Spitze der Umfrage des DJ Mag
 
 Die kleineren Bühnen haben jeweils einen eigenen Sound. Galaxy in der BTarena ist die Techno-Bühne; Fortune gehört dem Trance; Daydreaming dem Chill und Afro House; Alchemy der urbanen Musik und dem Trap. Retro spielt alte Hits, und die Tram-Bühne ist in eine Straßenbahn gebaut und gehört lokalen DJs. Carl Cox, Solomun, Paul Kalkbrenner, Eric Prydz und Fisher sind unter den Techno- und House-Namen, die dort gespielt haben.
 
+[Embed: thecatrave berlin-race-1909]
+
 Mixmag filmte 2018 Techno bei Untold. Das Set von Pan-Pot ist eines von nur zwei Untold-Sets unter den 62.877 DJ-Sets hinter [dem Selector](/selector) und hat nach Zählung des Katalogs 153.212 Aufrufe auf dem Kanal von Mixmag.
 
 [Embed: Pan-Pot, Untold 2018, YouTube-Kanal von Mixmag, rk3SYpd5HSc]

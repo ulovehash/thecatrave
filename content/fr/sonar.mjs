@@ -12,7 +12,7 @@
 // The images are the English guide's, in img/sonar/, with translated captions;
 // see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -69,7 +69,11 @@ export default {
     {id: 'from-home', heading: 'À écouter', title: 'À écouter.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'SonarVillage at Fira Montjuïc': figure('sonar-by-day-2016', 1200, 801,
       'Une foule qui remplit la scène en plein air SonarVillage à Fira Montjuïc sous le soleil de l’après-midi, avec le Palau Nacional et sa coupole sur la colline derrière',
       'SonarVillage à Fira Montjuïc pendant Sónar by Day en juin 2016, sous le Palau Nacional. Le programme de jour a quitté ce site en 2026. Photo : Nachetere, CC BY-SA 4.0.'),

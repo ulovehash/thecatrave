@@ -82,6 +82,8 @@ Coldplay détient le record, avec cinq passages en tête d’affiche, le cinqui�
 
 Glastonbury n’est pas un festival d’un seul genre. Sa grande scène est passée de Tyrannosaurus Rex et David Bowie à Oasis, Radiohead et Coldplay, puis à Jay-Z en 2008, Beyoncé en 2011, Stormzy en 2019 et Billie Eilish, la plus jeune tête d’affiche, en 2022. Autour de la Pyramid Stage, plus de 100 scènes accueillent tout le reste : folk, jazz, musiques du monde, humour et théâtre.
 
+[Embed: thecatrave degeneration]
+
 La dance music a pris une place de plus en plus grande depuis Orbital en 1994. The Prodigy ont été têtes d’affiche en 1997 et les Chemical Brothers en 2000, et les espaces de fin de nuit tournent aujourd’hui jusqu’au matin. The Prodigy sont revenus en 2025, et l’extrait de « Breathe » publié par la BBC compte environ 3,8 millions de vues.
 
 [Embed: The Prodigy, Breathe, Glastonbury 2025, BBC Music YouTube channel, 1n6GvSfjE8M]

@@ -18,7 +18,7 @@
 // captions. Same festival, same evidence; see home-articles.mjs for why a
 // translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -69,7 +69,11 @@ export default {
     {id: 'from-home', heading: 'Tomorrowland von zu Hause hören', title: 'Tomorrowland von zu Hause hören.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Retreat to Dreamville': figure('dreamville-2014', 1200, 795,
       'Zelte und Festivalbesucher in DreamVille, dem Campingplatz von Tomorrowland, im Jahr 2014',
       'DreamVille, der Campingplatz von Tomorrowland, im Jahr 2014. Die Pakete werden zusammen mit dem Festivalticket verkauft. Foto: sergejf, CC BY 2.0.'),

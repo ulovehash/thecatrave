@@ -74,6 +74,8 @@ Techno hat eine eigene Ecke. Paul Kalkbrenner war 2017 und 2024 Headliner, Ameli
 
 Das Festival filmt fast alles, und sein eigener YouTube-Kanal zeigt, wozu das Publikum zurückkehrt. Die meistgesehenen Sets dort sind nicht immer die der Headliner: Das Set von Finch aus 2022 hat 1.246.324 Aufrufe, das von Gestört aber Geil aus 2024 kommt auf 1.021.261. Hardstyle hat mit Lost Identity einen Residenten und einen festen Platz im Programm, von Brennan Heart über Headhunterz bis Wildstylez.
 
+[Embed: thecatrave berlin-race-1909]
+
 Paul Elstak markiert das härteste Ende. Der niederländische Hardcore-, Gabber- und Happy-Hardcore-DJ legt seit 1987 auf, und sein Set von 2022 auf dem Kanal des Festivals hat 728.553 Aufrufe.
 
 [Embed: Paul Elstak, Parookaville 2022, PAROOKAVILLE YouTube-Kanal, QeifZyGcZmY]

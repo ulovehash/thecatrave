@@ -9,7 +9,7 @@
 // The images are the English guide's, in img/mysteryland/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -61,7 +61,11 @@ export default {
     {id: 'from-home', heading: 'Écouter Mysteryland depuis chez soi', title: 'Écouter Mysteryland depuis chez soi.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Main stage by the lake': figure('site-aerial-2018', 1200, 675,
       'Mysteryland 2018 vu du ciel : une immense grande scène décorée au bord d’un lac, une foule dense devant, des bois, des tentes et des chemins autour',
       'La grande scène au bord du lac, sur l’ancien site de la Floriade, vue du ciel à Mysteryland 2018. Photo : Niels de Vries, CC BY-SA 4.0.'),

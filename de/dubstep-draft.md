@@ -116,6 +116,8 @@ Die Produzenten, die heute am häufigsten für die tiefe Seite genannt werden, s
 
 Die dritte Stadt, in der Dubstep Wurzeln schlug, ist die, die fast jede Geschichte auslässt.
 
+[Embed: thecatrave berlin-race-1909]
+
 Kode9 spielte seinen ersten Auftritt in Berlin 2002, gebucht von Tricky D. Ab 2004 brachte die Reihe Grime Time im WMF Londoner Grime und Dubstep zum Berliner Publikum. 2006 veranstaltete FWD>> Nächte im Raumklang mit Skream, Kode9 und Loefah, und Freak Camp feierte seine erste Party in einem Banktresor. 2008 war Sub:Stance im Berghain gestartet, und die Veranstalter fanden fünfzehnhundert Menschen, die zu einer Dubstep-Nacht in einer Techno-Institution wollten.
 
 [Bild: FWD Berlin]

@@ -76,6 +76,8 @@ Les éditions à l’étranger ont leurs propres dates et affiches. Le reste de 
 
 L’idée de Sónar, dès son premier nom, était la musique avancée : la musique électronique traitée comme un art qui mérite un festival, avec de la place pour l’expérimental à côté de la piste de danse. La liste des artistes passés montre jusqu’où cela est allé : Björk en 2002, les Chemical Brothers en 2005 et 2015, Kraftwerk avec un spectacle en 3D en 2013, et Thom Yorke, Jean-Michel Jarre, Duran Duran, Gorillaz et Skrillex parmi bien d’autres.
 
+[Embed: thecatrave degeneration]
+
 La nuit a toujours appartenu à la dance music. La house et la techno de Laurent Garnier traversent trois décennies du festival, et en 2024 Richie Hawtin a présenté DEX EFX X0X, un spectacle sur les origines de la techno et de la culture club, sur SonarClub, sa première en Europe. Justice, le duo français, a joué en 2008.
 
 [Image: Justice at Sónar 2008, Gerard Romans Camps]

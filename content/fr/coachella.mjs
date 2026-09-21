@@ -13,7 +13,7 @@
 // The images are the English guide's, in img/coachella/, with translated
 // captions; see home-articles.mjs for why a translation may reuse them.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed
+  articleFigure, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, ownTrackListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -67,7 +67,11 @@ export default {
     {id: 'from-home', heading: 'Écouter Coachella depuis chez soi', title: 'Écouter Coachella depuis chez soi.'}
   ],
 
-  media: () => ({
+  media: ({lang}) => ({
+    // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
+    // 1909 on the German pages, Dégénération on the French, and art deco with
+    // late summer cloud dance in the drum and bass guides).
+    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Coachella18W1-18': figure('grounds-2018', 1200, 677,
       'Des festivaliers sur la pelouse de Coachella en 2018, derrière eux des palmiers et une haute tour de panneaux colorés, à l’horizon les montagnes du désert et la grande roue',
       'Le site du festival en avril 2018 : palmiers, montagnes du désert, une tour colorée et la grande roue. Photo : Raph_PH, CC BY 2.0.'),

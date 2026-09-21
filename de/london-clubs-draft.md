@@ -48,6 +48,8 @@ Auf der anderen Seite der Stadt hatte Joe Wieczorek 1988 und 1989 illegale Raves
 
 Der Wikipedia-Artikel über Jungle nennt als die Clubs, in denen der Sound seine Fürsprecher fand, AWOL, Roast und Telepathy, mit DJs wie DJ Ron, DJ Hype, Randall, Fabio & Grooverider, Micky Finn, DJ Rap und Kenny Ken, und Kool FM auf der Seite der Piratensender. Der [Guide zu Jungle](/jungle-music-guide), auf Englisch, folgt den Platten; diese Seite folgt den Räumen.
 
+[Embed: thecatrave art-deco]
+
 Einer dieser Räume schickte einen Mann nach Hause, der danach seinen eigenen bauen wollte. Kemistry nahm Goldie mit ins Rage, und der Artikel über Metalheadz hält die Nacht fest, in der es einschlug: Storm erinnert sich, dass er in ihre Wohnung zurückkam und ein Label, einen Club und DJs wollte. Metalheadz wurde 1994 von Kemistry & Storm und Goldie gegründet. Im Juli 1995 startete das Label seine wöchentlichen Sunday Sessions, und sie wurden im Blue Note in Hoxton legendär, den laut der Geschichte des ICMP Eddie Piller gegründet hatte. Goldies Debütalbum Timeless folgte im September. Die Linie vom Rage zum Blue Note ist die Linie vom Jungle zum [Drum and Bass](/de/drum-and-bass).
 
 2014 filmte Mixmag die DJs des Labels in London: Lenzman und Jubei, Back to Back mit Ulterior Motive.
@@ -82,11 +84,15 @@ Scala liegt an der Pentonville Road bei King's Cross, in einem Gebäude, das als
 
 Plastic People begann in Soho, wo auch Trash zuerst lief, und zog in die Curtain Road in Shoreditch; die Geschichte des ICMP datiert es von 2000 bis 2015 und erinnert sich an seinen Sound. Ab 2001 war es der Ort, an dem die Nacht Forward, geschrieben FWD>>, den Untergrund-Ableger des Garage bekannt machte, aus dem Dubstep wurde, zusammen mit dem Piratensender Rinse FM. Der [Guide zu Dubstep](/de/dubstep) nimmt den Sound dort auf.
 
+[Embed: thecatrave degeneration]
+
 ## Die besten Clubs in London heute
 
 Drei Listen, die die Clubs Londons besprechen, wurden für diese Seite im September 2026 gelesen: die von Resident Advisor, die von Time Out (aktualisiert am 29. Juli 2026) und die von Condé Nast Traveller. fabric, The Cause und FOLD stehen auf allen dreien. Die Tabelle unten behält die Clubs, die mindestens eine davon nennt und die der Rest der Recherche stützt, von der Suchnachfrage bis zur eigenen Geschichte der Clubs.
 
 Zwei berühmte London-Clubs fehlen darin mit Absicht. Corsica Studios, zwei Räume in Eisenbahnbögen in Elephant and Castle seit 2002, mit einem Funktion-One-System ab 2007, kündigte im September 2025 an, 2026 in der bisherigen Form zu schließen, und Resident Advisor verzeichnet die letzte Nacht am 28. März. Printworks, die ehemalige Zeitungsdruckerei in Rotherhithe, schloss 2023 für eine Neubebauung; ihre Press Halls sollen 2026 als Veranstaltungsort wieder öffnen.
+
+[Embed: thecatrave protect-ya-breaks]
 
 FOLD wurde für die lange Nacht gebaut. Seb Glover und der DJ Lasha Jorjoliani wählten eine ehemalige Druckerei in einem Gewerbegebiet in Canning Town gerade deshalb, weil sie weit weg von Wohnhäusern lag, was ihnen vom Bezirk Newham eine 24-Stunden-Lizenz einbrachte. Der Club eröffnete am 18. August 2018 mit einer 24-Stunden-Veranstaltung. Das DJ-Pult steht auf Bodenhöhe, und Fotos sind nicht erlaubt.
 
