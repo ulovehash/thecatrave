@@ -1,0 +1,20 @@
+{
+  "page": "best-spotify-playlists.html",
+  "seed": "best spotify playlists",
+  "source": "three user-supplied competitor organic-keyword exports, 21 September 2026",
+  "terms": [
+    { "term": "best spotify playlists", "volume": "3400-4070" },
+    { "term": "best spotify playlist", "volume": "3260-3570" },
+    { "term": "good playlists on spotify", "volume": "1450-1620" },
+    { "term": "best playlist on spotify", "volume": "180-930" },
+    { "term": "top playlists on spotify", "volume": "400-700" },
+    { "term": "popular spotify playlists", "volume": "500-520" },
+    { "term": "spotify playlist recommendations", "volume": "80-100" }
+  ],
+  "rejected": [
+    { "term": "music playlists", "volume_range": "74010-96320", "why": "too broad and ambiguous" },
+    { "term": "spotify playlist", "volume": 34020, "why": "broad navigational intent" },
+    { "term": "most followed spotify playlists", "volume": 20, "why": "different volatile ranking intent" },
+    { "term": "how to find new music on spotify", "why": "already owned by /how-to-find-new-music" }
+  ]
+}

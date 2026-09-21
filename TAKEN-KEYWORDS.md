@@ -39,6 +39,16 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top boiler room sets
 - most viewed boiler room set
 
+## best-spotify-playlists.html
+
+- best spotify playlists
+- best spotify playlist
+- good playlists on spotify
+- best playlist on spotify
+- top playlists on spotify
+- popular spotify playlists
+- spotify playlist recommendations
+
 ## breakbeat-guide.html
 
 - breakbeat

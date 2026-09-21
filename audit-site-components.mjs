@@ -239,6 +239,9 @@ const checks = {
   bassFaqSchemaShared: pages['bass-music'].includes('"@type":"FAQPage"') && generators['build-bass-music-article.mjs'].includes('faqStructuredData({'),
   bassListeningShared: generators['build-bass-music-article.mjs'].includes('articleListeningBand({') && pages['bass-music'].includes('article-media-band-full'),
   bassSupportShared: pages['bass-music'].includes('class="floating-inset article-cta article-cta-full"'),
+  spotifyPlaylistPreviewShared: generators['build-best-spotify-playlists-article.mjs'].includes('articlePlaylistPreview(')
+    && count(pages['best-spotify-playlists'], /class="playlist-preview"/g) === 12
+    && count(pages['best-spotify-playlists'], /class="playlist-preview-player"/g) === 12,
   // The article contract every guide owes, asserted once here rather than
   // copy-pasted into each per-article audit. Those keep only what is unique to
   // their own page: its track count, its section order, its exact dates.
@@ -300,7 +303,8 @@ const checks = {
   articleScaleDefined: ['--article-text','--article-wide','--article-media','--section-space','--media-space','--text-body','--heading-section'].every(token => articleCss.includes(token)),
   essentialListeningFullBleed: articlePages.every(page => {
     const classes = essentialListeningClasses(page);
-    return classes.length > 0 && classes.every(value => /(?:article-media-band-full|context-listening-full|listening-block-full)/.test(value));
+    return (classes.length > 0 && classes.every(value => /(?:article-media-band-full|context-listening-full|listening-block-full)/.test(value)))
+      || page.includes('class="playlist-preview-list"');
   }),
   essentialListeningFullBleedCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector)),
   // A full-bleed listening collection inside a tone-{x} section must match that colour

@@ -207,6 +207,14 @@ export const homeArticleCatalog = [
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
     width:1200, height:800, alt:'Festivalgoers gathered beside the waterfront at Primavera Sound Barcelona in 2019'
+  },
+  {
+    page:'best-spotify-playlists.html', tags:['discovery','tools','house','bass'], href:'/best-spotify-playlists', type:'List', topic:'Spotify playlists',
+    title:'Best Spotify Playlists: 12 Human-Curated Picks',
+    description:'Twelve playlists with an identifiable point of view, from KEXP and Pitchfork to Four Tet, Bicep and the electronic underground.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Wired headphones, a portable music player and translucent cases on a scratched club table'
   }
 ];
 

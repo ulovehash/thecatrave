@@ -8,13 +8,26 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best Spotify Playlists: 12 Human-Curated Picks</title>
+    <link>https://thecatrave.com/best-spotify-playlists</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-spotify-playlists</guid>
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Twelve playlists with an identifiable point of view, from KEXP and Pitchfork to Four Tet, Bicep and the electronic underground.</description>
+    <category>discovery</category>
+    <category>tools</category>
+    <category>house</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/best-spotify-playlists.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Primavera Sound Barcelona 2027: Dates, Location and Music</title>
     <link>https://thecatrave.com/primavera-sound-barcelona</link>

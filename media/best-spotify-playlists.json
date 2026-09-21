@@ -1,0 +1,21 @@
+{
+  "page": "best-spotify-playlists.html",
+  "seed": "best spotify playlists",
+  "source": "Playlist-specific adaptation of the FIGURES.md method, 21 September 2026: three user-supplied competitor keyword exports, direct inspection of all twelve Spotify playlist pages, publisher and curator identity checks, and comparison against RouteNote, Audiohype, British GQ, SoundCampaign and MidderMusic. The required objects are playlists, not individual records.",
+  "note": "Each recommendation must be named and playable as the playlist itself. Compact official Spotify embeds are intentional: the page recommends curated lists and exposes a short sample without loading 36 separate track players.",
+  "required_records": [
+    { "title": "New This Week", "artist": "KEXP", "why": "broad current release feed from an identifiable radio curator", "sources": ["spotify", "kexp"], "embed_id": "60VayqPuLXaftoj2Wrqpti" },
+    { "title": "Pitchfork's Best New Music", "artist": "Pitchfork", "why": "editorial choices connect to published reviews", "sources": ["spotify", "pitchfork"], "embed_id": "7q503YgioHAbo1iOIa67M8" },
+    { "title": "Pigeons & Planes", "artist": "Pigeons & Planes", "why": "distinct emerging hip-hop and alternative pop route", "sources": ["spotify", "pigeons-and-planes"], "embed_id": "65xSncKQzG6Suseh5gfYP1" },
+    { "title": "GemsOnVHS Monthly", "artist": "GemsOnVHS", "why": "monthly roots and country discovery from a specialist publisher", "sources": ["spotify", "gemsonvhs"], "embed_id": "7DMq5SZqREiM7qMbHoFw0j" },
+    { "title": "Rare Electronic Music", "artist": "thecatrave", "why": "owner-curated leftfield electronic selection required by the brief", "sources": ["spotify", "thecatrave-homepage"], "embed_id": "74KiWnE4fmEPigOa4SARz2" },
+    { "title": "Emotional Electronic Music", "artist": "thecatrave", "why": "owner-curated melodic electronic selection required by the brief", "sources": ["spotify", "thecatrave-homepage"], "embed_id": "0U2HwRmau3EW1IXoRRa1JD" },
+    { "title": "Feel My Bicep", "artist": "Bicep", "why": "artist-led dance-music record bag with durable depth", "sources": ["spotify", "feel-my-bicep"], "embed_id": "4ac1R7BdsmDVK78bv3YAOT" },
+    { "title": "Four Tet's symbol-titled playlist", "artist": "Four Tet", "why": "deep artist archive that resists simple genre labelling", "sources": ["spotify", "four-tet"], "embed_id": "2uzbATYxs9V8YQi5lf89WG" },
+    { "title": "Altar", "artist": "Spotify", "why": "current alternative electronic editorial feed", "sources": ["spotify"], "embed_id": "37i9dQZF1DXa71eg5j9dKZ" },
+    { "title": "Toolroom Tech House", "artist": "Toolroom Records", "why": "focused label-led route into current tech house", "sources": ["spotify", "toolroom"], "embed_id": "6J1r02xyO2qkMA9dDNZytJ" },
+    { "title": "Danny L Harle's HUGE PLAYLIST", "artist": "Danny L Harle", "why": "artist-led route through trance, hardcore and maximal pop", "sources": ["spotify", "danny-l-harle"], "embed_id": "5wtqmpRl17iVz2nW8U6njL" },
+    { "title": "UKF Drum & Bass", "artist": "UKF", "why": "specialist publisher route into current accessible drum and bass", "sources": ["spotify", "ukf"], "embed_id": "4oOZJEq1TBUti6PSouTo5M" }
+  ],
+  "known_gaps": []
+}
