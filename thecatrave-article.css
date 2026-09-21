@@ -1551,7 +1551,7 @@
   letter-spacing: .04em;
 }
 .playlist-preview-link {
-  display: inline-block;
+  display: block;
   width: fit-content;
   margin-top: 1rem;
   font: 700 .76rem/1.35 var(--mono);
