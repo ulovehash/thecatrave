@@ -26,7 +26,7 @@ Heaven opened in December 1979 in the arches beneath Charing Cross station, in a
 
 ## 1988: acid house finds its London rooms
 
-In the summer of 1987 four London DJs went to Ibiza on holiday: Paul Oakenfold, Nicky Holloway, Johnny Walker and Danny Rampling. What they heard there, at Amnesia and Space, came home with them, and within a year three of them had London nights built on it.
+In the summer of 1987 four London DJs went to Ibiza on holiday: Paul Oakenfold, Nicky Holloway, Johnny Walker and Danny Rampling. What they heard there, at Amnesia and Space, came home with them, and within a year three of them had London nights built on it. Where the music itself came from is in the [acid house guide](/acid-house-guide).
 
 Rampling's came first. Shoom opened on a Saturday in November 1987 in a basement fitness centre gym on Southwark Street, south of the river, with room for about 300 people. The first night was billed as Klub Schoom and the name was cut to Shoom by the second. Rampling borrowed from family and friends to pay for it and asked Carl Cox for the sound system. Jenni Rampling ran the door, and ran it strictly. Shoom closed early in 1990, after drug use at the club began to draw police attention.
 

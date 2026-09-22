@@ -90,7 +90,7 @@ The two below are the most watched. W&W's 2022 set is the most watched on the fe
 
 [Embed: W&W 2022 and Steve Aoki 2025, lnOjzIlm1_g]
 
-Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. For where drum and bass comes from, read [the drum and bass guide](/drum-and-bass-guide). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. For where drum and bass comes from, read [the drum and bass guide](/drum-and-bass-guide). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

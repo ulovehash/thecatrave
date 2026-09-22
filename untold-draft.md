@@ -92,7 +92,7 @@ The two below are the most watched. Armin van Buuren's set from 5 August 2017, f
 
 [Embed: Armin van Buuren 2017 and Steve Aoki 2021, DjQCkSSblIk]
 
-Untold shares DJ Mag's top three with [Tomorrowland](/tomorrowland-festival) and [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Ultra](/ultra-music-festival), whose European edition in Split is the summer trip many weigh against it, [Creamfields](/creamfields-festival) and [Parookaville](/parookaville-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Untold shares DJ Mag's top three with [Tomorrowland](/tomorrowland-festival) and [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Ultra](/ultra-music-festival), whose European edition in Split is the summer trip many weigh against it, [Creamfields](/creamfields-festival) and [Parookaville](/parookaville-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

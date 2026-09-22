@@ -106,7 +106,7 @@ Ultra streams its stages live as #ULTRALIVE, and the artists put their sets onli
 
 [Embed: Skrillex 2015 and Hardwell 2013, V2VmcuOEqEg]
 
-For the festival in a Belgian park that most of the world knows through a screen, read [our Tomorrowland guide](/tomorrowland-festival); for the one at a racetrack in the desert, [our EDC Las Vegas guide](/edc-las-vegas). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+For the festival in a Belgian park that most of the world knows through a screen, read [our Tomorrowland guide](/tomorrowland-festival); for the one at a racetrack in the desert, [our EDC Las Vegas guide](/edc-las-vegas). [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

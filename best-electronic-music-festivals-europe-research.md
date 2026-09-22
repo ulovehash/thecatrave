@@ -79,3 +79,35 @@ Scale is given only where sourced; four rows say "Not published here".
   approval: one line in each European festival guide's FAQ or closing section,
   "Comparing it with other festivals? See the [best electronic music festivals
   in Europe](/best-electronic-music-festivals-europe)."
+
+## Smaller festivals section (added 2026-09-22, owner request)
+
+The owner asked for Garbicz and other underground festivals "even though they
+can have low SEO volume". They are held to their own test, stated on the page:
+electronic core, a 2026 edition held, and named in at least two independent
+roundups of underground or boutique European festivals. Roundups read:
+Telekom Electronic Beats "20 European techno festivals" (2019), Dirty Disco
+"Top 10 boutique festivals Europe" (2026), Fresh Island "Best underground
+techno festivals in Europe 2026", Internet Tattoo "Europe's coolest
+underground electronic dance music festivals", and a DJ Mag 2026 poll summary
+(Houghton's highest climber award).
+
+| Festival | 2027 | Key sources |
+|---|---|---|
+| Garbicz | not announced (2026: 30 July to 3 August); ticket phase 5 opens 25 September 2026 | garbiczfestival.com; Electronic Groove interview with Juval Dieziger (23 July 2026: founded 2013, ~900 first year, ~11,000 now) |
+| NACHTI (Nachtdigital team) | 30 July to 1 August, Bungalowdorf Olganitz | nachtdigital.de; RA (Nachtdigital's 3,000-ticket limit; last Nachtdigital 2019) |
+| Houghton | not announced (2026: 6–9 August, sold out) | Festnav (24-hour licence, 10,000 a day, since 2017); Mixmag |
+| Draaimolen | not announced (2026: 4–5 September, MOB-complex, Tilburg, 12:00–00:30, sold out) | listings (partyflock, festivalfans); the old draaimolenfestival.nl domain is for sale |
+| Waking Life | listings give mid-June 2027 (16–21 or 16–22 June); official site unreadable, so labelled unconfirmed | Trippin (2025 edition 18–23 June, camping and tipis, Associação Waking Life) |
+| Kala | 2–9 June, Dhërmi | kala.al (six beach stages, hotel included) |
+| Freerotation | not announced (2026: 10–12 July, Baskerville Hall, Clyro) | RA, Skiddle, freerotation.com FAQ via search (members only, invitation, lottery) |
+| Fusion | no 2027 edition; returns 28 June to 2 July 2028 | fusion-festival.de newsletter, November 2025 |
+
+Considered and left out: Terraforma (no 2026 or 2027 edition found; the last
+at Villa Arconati was 2023), Dimensions, Horst, Field Maneuvers, Gottwood,
+Butik, Love International (one roundup each, or status not verified).
+
+Media: Nachtdigital 2014 photograph (Robert Richter for Nachtdigital, CC BY
+2.0); Ezio Aguiar's Garbicz 2025 sunrise set from the artist's own channel,
+oEmbed-checked. A Commons aerial of Garbicz village was considered and not
+used: it shows the village, not the festival.

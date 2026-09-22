@@ -94,7 +94,7 @@ The festival films its own main stage. The two sets below are the most watched s
 
 [Embed: Hardwell 2023 and Charlotte de Witte 2024, _8acHa-APa8]
 
-Mysteryland and Tomorrowland share a family tree through ID&T; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Mysteryland and Tomorrowland share a family tree through ID&T; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

@@ -24,7 +24,7 @@ These dates mark the point at which a sound became recognisable, not the day it 
 
 ### Acid House and the Second Summer of Love, 1987 to 1989
 
-Acid house began in Chicago, where producers used the Roland TB-303 bass synthesiser to create the squelching patterns that defined the style. The sound is usually credited to DJ Pierre and Phuture, whose “Acid Tracks”, released on Trax Records in 1987, is the record the whole genre is dated from. The British contribution was not the invention of acid house, but the speed and scale with which it became the centre of a new youth culture.
+Acid house began in Chicago, where producers used the Roland TB-303 bass synthesiser to create the squelching patterns that defined the style. The sound is usually credited to DJ Pierre and Phuture, whose “Acid Tracks”, released on Trax Records in 1987, is the record the whole genre is dated from. The British contribution was not the invention of acid house, but the speed and scale with which it became the centre of a new youth culture. The [acid house guide](/acid-house-guide) tells the Chicago story and the naming dispute in full.
 
 By 1987 and 1988, clubs such as Shoom in London and The Haçienda in Manchester were bringing together imported house records, all-night dancing and a crowd that did not fit traditional club divisions. The rooms had names attached to them: Shoom was Danny Rampling's, Future was Paul Oakenfold's and Spectrum was Oakenfold with Ian St Paul, Trip was Nicky Holloway's, and the Haçienda's dancefloor was held by Mike Pickering and Graeme Park. Five DJs said they started these nights after a 1987 holiday in Ibiza with their friend Johnny Walker, which is a small enough origin story to be worth stating exactly. The summer of 1988 became known as the Second Summer of Love. As demand outgrew licensed venues, parties moved into warehouses and fields, connected through phone lines, flyers and motorway meeting points.
 
@@ -126,7 +126,7 @@ Dubstep and grime shared garage and jungle roots, pirate-radio infrastructure an
 
 ### Grime and East London Pirate Radio, 2001 to 2005
 
-Grime developed as young producers and MCs pushed away from the smoother end of UK garage. Its instrumentals often sat around 140 BPM, with sparse drums, abrasive synthesiser sounds and enough open space for competing voices. The music drew from garage, jungle MC culture, dancehall and hip-hop, but its language and production reflected early 2000s London.
+Grime developed as young producers and MCs pushed away from the smoother end of UK garage. Its instrumentals often sat around 140 BPM, with sparse drums, abrasive synthesiser sounds and enough open space for competing voices. The music drew from garage, jungle MC culture, dancehall and hip-hop, but its language and production reflected early 2000s London. The [grime guide](/grime-music-guide) covers the producers, the clashes and the naming argument in full.
 
 Pirate stations [including Rinse FM and Deja Vu](https://www.theguardian.com/music/2014/nov/27/jungle-garage-and-grime-20-years-of-rinse-fm) gave crews a place to test unfinished tracks, clash and build local audiences. Software such as FruityLoops helped young producers work in bedrooms and on shared computers. Wiley’s eski sound, Musical Mob’s “Pulse X”, Ruff Sqwad’s melodic instrumentals and the early work of Dizzee Rascal showed that grime was never a single formula.
 

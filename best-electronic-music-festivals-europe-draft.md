@@ -15,7 +15,7 @@ A festival is on this list when all four of these are true:
 - It has held its main edition in Europe recently and has either confirmed a 2027 edition or has given no sign of stopping.
 - It adds something the others do not: a different sound, a different setting or a different way of spending the weekend.
 
-Only the European home edition of each festival counts. Tomorrowland Winter, Ultra's editions outside Europe and Time Warp's in the Americas are left out, and so are several excellent festivals that fall outside one of the tests. They are listed near the end, with the reason.
+A second, smaller group further down is held to a different test, because a poll will never find it. Only the European home edition of each festival counts. Tomorrowland Winter, Ultra's editions outside Europe and Time Warp's in the Americas are left out, and so are several excellent festivals that fall outside one of the tests. They are listed near the end, with the reason.
 
 Scale figures come from the festivals or from reporting on them. Some festivals count admissions, adding each day's crowd together, and some count people. The difference is noted where it matters.
 
@@ -91,11 +91,46 @@ Monegros is one night in the desert near Fraga, in Aragón: in 2026 it ran from 
 
 Boomtown, near Winchester in Hampshire, is built as a fictional city with themed districts, street sets and dozens of hidden venues, with theatre running through the whole site. The music is the broadest on this list: reggae, dub, ska, drum and bass, techno, house and live bands. After a planning decision in 2025 it can hold more than 75,000 people. Boomtown 2027 is on 11 to 15 August, with camping. It suits people who want a festival to be a world of its own rather than a line-up.
 
+## Smaller festivals worth the trip
+
+The list above is held to a readers' poll, which favours festivals with big audiences. Some of the most loved festivals in Europe will never top a poll, because they are small on purpose, book DJs who rarely headline anywhere else and spend nothing on marketing. They have their own test here: electronic music at the core, a 2026 edition held, and a place in at least two independent roundups of Europe's underground and boutique festivals (Telekom Electronic Beats, Dirty Disco, Fresh Island and Internet Tattoo, among others).
+
+### Garbicz, Poland
+
+Garbicz is held in an old forest beside a lake in western Poland, about ninety minutes from Berlin, and it feels like a Berlin party that moved to the countryside, which is roughly what it is. It was started in 2013 by people from Bar25, Holzmarkt and the Bachstelzen collective, and grew from about 900 people in its first year to around 11,000, according to its founder Juval Dieziger in 2026. Stages are run by different collectives and play through the night into the morning, and everyone camps. The 2026 edition ran from 30 July to 3 August; the 2027 dates have not been announced, and the next ticket phase opens on 25 September 2026. It suits people who want long sets in the woods more than big names.
+
+### NACHTI, Germany
+
+The team behind Nachtdigital, one of Germany's best-loved small festivals since 1998, still runs a festival at Bungalowdorf Olganitz, a holiday bungalow village by a lake near Leipzig, now under the name NACHTI. Nachtdigital kept its tickets to about 3,000 to hold on to its holiday-camp feeling, and guests stay on site in the bungalows or camp beside them. NACHTI 2027 is on 30 July to 1 August. It suits listeners who want a small, carefully booked weekend and do not mind being far from a city.
+
+### Houghton, England
+
+Houghton is held in the grounds of Houghton Hall, a country house in Norfolk, and is curated by Craig Richards, the long-serving fabric resident. Since 2017 its selling point has been a rare licence for music around the clock, so the sets run long and the best ones happen at hours other festivals are closed. It holds about 10,000 people, with camping on site. The 2026 edition ran from 6 to 9 August and sold out; the 2027 dates have not been announced.
+
+### Draaimolen, Netherlands
+
+Draaimolen, in Tilburg, is two days of techno, ambient and experimental club music with unusual care over sound and staging. It is a day festival: in 2026 it ran from midday to half past midnight on 4 and 5 September, at the MOB-complex, and sold out. The 2027 dates have not been announced. It suits techno listeners who find the big Dutch festivals too big, and it is one of the last festivals of the season.
+
+### Waking Life, Portugal
+
+Waking Life is a gathering of about six days around the summer solstice in the Alentejo countryside near Crato, run by a non-profit association, with camping and tipis on site. The programme mixes electronic producers with experimental and world music, and in 2025 it ran from 18 to 23 June. Festival listings give mid-June 2027 for the next edition, but the dates could not be confirmed on the festival's own site when this page was checked.
+
+### Kala, Albania
+
+Kala takes over the beach at Dhërmi, on the Albanian Riviera, for a week: six open-air stages with wooden dancefloors on the sand, and a ticket that includes a hotel. Kala 2027 is on 2 to 9 June. It suits people who want a small festival and a beach holiday in one booking, early in the summer.
+
+### Freerotation, Wales
+
+Freerotation is the hardest of all of these to get into. It is held at Baskerville Hall in Clyro, over the Welsh border from Hay-on-Wye, run on a not-for-profit basis by the DJs Steevio and Suzybee, and tickets are sold only to members, who have to be invited by an existing member. Its line-ups are among the most respected in Britain for deep house and techno. The 2026 edition was on 10 to 12 July; the 2027 dates have not been announced.
+
+One more belongs here, with a warning: Fusion, the countercultural festival on a former airfield at Lärz in northern Germany, which does not publish a line-up and sells tickets by lottery. It is taking 2027 off and returns from 28 June to 2 July 2028.
+
 ## Not on this list, and why
 
 - **Primavera Sound and Glastonbury** book plenty of electronic music but are multi-genre festivals, so they fail the first test. This site has guides to both: [Primavera Sound](/primavera-sound-barcelona) and [Glastonbury](/glastonbury-festival).
 - **EXIT** left the Petrovaradin Fortress in Serbia after its 2025 edition, citing pressure from the Serbian authorities, and held its 2026 edition in Ulcinj, Montenegro. Its 2027 home had not been confirmed when this page was checked.
 - **Sziget** in Budapest is one of Europe's largest festivals but is built around pop and rock headliners.
+- **Fusion** in Germany is taking 2027 off; it is described with the smaller festivals above.
 - **Amsterdam Dance Event** in October is a conference and hundreds of club nights across a city rather than one festival site.
 - **Franchise editions** such as Tomorrowland Winter, and Time Warp outside Germany, are left out in favour of each festival's home edition.
 
@@ -104,6 +139,8 @@ Boomtown, near Winchester in Hampshire, is built as a fictional city with themed
 Start with the music. The single biggest difference between these festivals is what they play: big-room EDM at Tomorrowland, Untold, Parookaville and Creamfields; hardstyle at Defqon.1; techno at Awakenings, Time Warp and Kappa FuturFestival; a wider and stranger programme at Dekmantel and Sónar; everything at once at Boomtown.
 
 Then decide how you want to sleep. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings and Boomtown have camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival and Sónar are city festivals, where you book a hotel or a flat. Time Warp and Monegros are single long nights.
+
+If the crowds at the big festivals put you off, start with the smaller group: Garbicz, NACHTI, Houghton and Waking Life have camping, Kala comes with a hotel, and Draaimolen is a day festival in a city.
 
 Then look at the calendar. The European season runs from Time Warp in April to Creamfields and Mysteryland at the end of August. Several of these festivals sell their cheapest tickets in autumn for the following summer, well before the line-ups are announced, so it pays to decide early. This page does not list prices, which change by ticket phase.
 
@@ -127,8 +164,8 @@ Outside the festival season, electronic music in Europe lives in clubs, above al
 
 ### When are 2027 festival dates announced?
 
-Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was last checked, on 22 September 2026. The table above is updated as they do.
+Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was last checked, on 22 September 2026, and nor had Garbicz, Houghton, Draaimolen or Freerotation. The table above is updated as they do.
 
 ### Which European electronic music festivals have camping?
 
-Of the festivals on this list, Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings and Boomtown have camping on or next to the site. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival and Sónar are city festivals. Time Warp is a single indoor night, and Monegros sells tents as a VIP option.
+Of the festivals on this list, Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings and Boomtown have camping on or next to the site. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival and Sónar are city festivals. Time Warp is a single indoor night, and Monegros sells tents as a VIP option. Among the smaller festivals, Garbicz, NACHTI, Houghton and Waking Life have camping, and Kala's tickets include a hotel.

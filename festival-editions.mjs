@@ -23,9 +23,11 @@ export const festivalEditions = [
   {page: 'ultra-music-festival.html', heading: 'Ultra Miami 2027 and Ultra Europe 2027', ends: '2027-03-28'},
   {page: 'creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
   {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'},
-  // The Europe comparison carries fourteen festivals. null while any of them
-  // has no 2027 date (Tomorrowland, Dekmantel and Monegros on 2026-09-22);
-  // once all are confirmed, set it to the last one to end (Creamfields and
-  // Mysteryland, 29 August 2027), then roll the page to 2028.
+  // The Europe comparison carries fourteen festivals and seven smaller ones.
+  // null while any of them has no 2027 date (on 2026-09-22: Tomorrowland,
+  // Dekmantel, Monegros, Garbicz, Houghton, Draaimolen, Freerotation, and
+  // Waking Life unconfirmed on its own site); once all are confirmed, set it
+  // to the last one to end (Draaimolen, early September), then roll the page
+  // to 2028. Fusion returns in 2028 (28 June to 2 July).
   {page: 'best-electronic-music-festivals-europe.html', heading: '2027 dates at a glance', ends: null}
 ];

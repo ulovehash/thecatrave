@@ -25,7 +25,7 @@ import {relatedArticles} from './home-articles.mjs';
 const draft = fs.readFileSync('best-electronic-music-festivals-europe-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/best-electronic-music-festivals-europe';
 const title = 'Best Electronic Music Festivals in Europe 2027, Compared';
-const description = 'Fourteen European electronic music festivals for 2027 compared by sound, scale, setting and dates, with what is confirmed and what is still unannounced.';
+const description = 'Fourteen major and seven smaller European electronic music festivals for 2027, compared by sound, scale, setting and dates, confirmed or not.';
 const date = '2026-09-22';
 const dateLabel = '22 September 2026';
 
@@ -72,6 +72,7 @@ const bigStages = paras(getSection('Big stages'));
 const hard = paras(getSection('Hard dance'));
 const techno = paras(getSection('Techno and house'));
 const desert = paras(getSection('Desert and themed cities'));
+const smaller = paras(getSection('Smaller festivals worth the trip'));
 const notListed = paras(getSection('Not on this list, and why'));
 const choose = paras(getSection('How to choose'));
 
@@ -101,7 +102,24 @@ const festivals = [
   ['Boomtown', 'Near Winchester, England', '11 to 15 August', 'Reggae and dub to techno, live bands', 'Licensed for 75,000+', 'Camping', 'A festival as a world of its own']
 ];
 
+const smallerFestivals = [
+  ['Garbicz', 'Near Torzym, Poland', 'Not announced (30 July to 3 August in 2026)', 'House, techno, ambient, live acts', 'About 11,000 (2026)', 'Camping', 'Long sets in the woods'],
+  ['NACHTI', 'Olganitz, Germany', '30 July to 1 August', 'Electronic club music and live acts', 'About 3,000 (Nachtdigital years)', 'Bungalows and camping', 'A small, carefully booked weekend'],
+  ['Houghton', 'Houghton Hall, Norfolk, England', 'Not announced (August)', 'House, techno, leftfield', 'About 10,000', 'Camping', 'Music around the clock'],
+  ['Draaimolen', 'Tilburg, Netherlands', 'Not announced (early September)', 'Techno, ambient, experimental', 'Not published here', 'City, day festival', 'Techno without the crowds'],
+  ['Waking Life', 'Crato, Portugal', 'Mid-June (not yet on the official site)', 'Electronic, experimental, world', 'Not published here', 'Camping and tipis', 'A solstice week in the countryside'],
+  ['Kala', 'Dhërmi, Albania', '2 to 9 June', 'Dance music, DJs and live acts', 'Not published here', 'Hotel included', 'A beach week'],
+  ['Freerotation', 'Clyro, Wales', 'Not announced (July)', 'Deep house, techno', 'Not published here', 'Members only', 'If someone invites you']
+];
+
+const smallerTable = articleTable({
+  label: 'Smaller European festivals compared, 2027',
+  headers: ['Festival', 'Where', '2027 dates', 'Sound', 'Scale', 'Stay', 'Best for'],
+  rows: smallerFestivals
+});
+
 const festivalTable = articleTable({
+  label: 'Major European festivals compared, 2027',
   headers: ['Festival', 'Where', '2027 dates', 'Sound', 'Scale', 'Stay', 'Best for'],
   rows: festivals.map(([name, ...rest]) => [name, ...rest])
 });
@@ -135,6 +153,23 @@ const monegrosFigure = articleFigure({
   className: 'wide-archive-image'
 });
 
+const nachtiFigure = articleFigure({
+  src: 'img/europe-festivals/nachtdigital-2014-1200.webp',
+  srcset: 'img/europe-festivals/nachtdigital-2014-320.webp 320w, img/europe-festivals/nachtdigital-2014-1200.webp 1200w',
+  width: 1200, height: 675,
+  alt: 'A DJ playing under blue light and strip lights in a dark room at Nachtdigital in 2014',
+  caption: 'Nachtdigital at Bungalowdorf Olganitz in 2014, when the festival still carried that name. Photograph: Robert Richter for Nachtdigital, CC BY 2.0.',
+  className: 'wide-archive-image'
+});
+
+// The Garbicz set is the artist's own upload (none is in the catalogue),
+// oEmbed-checked on 2026-09-22.
+const garbiczSet = articleVideoCollection({
+  label: 'Garbicz, heard from home',
+  description: 'Ezio Aguiar\'s sunrise set at Garbicz in 2025, uploaded by the artist. The festival runs through the night, and the morning sets are the ones people talk about.',
+  items: [articleVideoCard({youtubeId: 'IhBa3o5YYME', genre: 'GARBICZ, 2025', artist: 'Ezio Aguiar', title: 'Sunrise set'})]
+});
+
 // Sets from this site's catalogue, uploaded by the festival or the host that
 // filmed them. Both passed YouTube oEmbed on 2026-09-22.
 const dekmantelSet = articleVideoCollection({
@@ -158,6 +193,7 @@ const secondMix = ownSetListening(1);
 const after = (list, heading) => list.findIndex(block => block === `### ${heading}`);
 const techIdx = {time: after(techno, 'Time Warp, Germany'), sonar: after(techno, 'Sónar, Spain')};
 const desertIdx = after(desert, 'Boomtown, England');
+const smallIdx = {nachti: after(smaller, 'NACHTI, Germany'), houghton: after(smaller, 'Houghton, England')};
 
 const tocItems = [
   {id: 'criteria', label: 'How this list was chosen'},
@@ -166,19 +202,20 @@ const tocItems = [
   {id: 'hard-dance', label: 'Hard dance'},
   {id: 'techno-house', label: 'Techno and house'},
   {id: 'desert-cities', label: 'Desert and themed cities'},
+  {id: 'smaller', label: 'Smaller festivals worth the trip'},
   {id: 'not-listed', label: 'Not on this list, and why'},
   {id: 'choose', label: 'How to choose'}
 ];
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
-const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: one night at Monegros in the Spanish desert, or the themed city of Boomtown. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was checked.';
+const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: one night at Monegros in the Spanish desert, or the themed city of Boomtown. For smaller, more underground weekends: Garbicz in Poland, NACHTI in Germany, Houghton in England, Waking Life in Portugal and Kala in Albania. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was checked.';
 
 const articleHtml = [
   articleHero({
     kicker: 'Festival guide, 2027',
     title: 'The best electronic music festivals in Europe in 2027',
-    deck: 'Fourteen festivals compared by what they play, how big they are, where you sleep and when they are, with the 2027 dates that are confirmed and the ones that are not.',
+    deck: 'Fourteen major festivals and seven smaller ones, compared by what they play, how big they are, where you sleep and when they are, with the 2027 dates that are confirmed and the ones that are not.',
     readingTime,
     dateModified: date,
     dateLabel,
@@ -192,6 +229,7 @@ const articleHtml = [
   articleSection({id: 'hard-dance', title: 'Hard dance.', bodyHtml: `${join(hard)}${defqonFigure}`}),
   articleSection({id: 'techno-house', title: 'Techno and house.', bodyHtml: `${join(techno.slice(0, techIdx.time))}${dekmantelSet}${join(techno.slice(techIdx.time, techIdx.sonar))}${kappaFigure}${join(techno.slice(techIdx.sonar))}`}),
   articleSection({id: 'desert-cities', title: 'Desert and themed cities.', bodyHtml: `${join(desert.slice(0, desertIdx))}${monegrosFigure}${join(desert.slice(desertIdx))}${boomtownSet}`}),
+  articleSection({id: 'smaller', title: 'Smaller festivals worth the trip.', kicker: 'Underground and boutique', bodyHtml: `${join(smaller.slice(0, 1))}${smallerTable}${join(smaller.slice(1, smallIdx.nachti))}${garbiczSet}${join(smaller.slice(smallIdx.nachti, smallIdx.houghton))}${nachtiFigure}${join(smaller.slice(smallIdx.houghton))}`}),
   articleSection({id: 'not-listed', title: 'Not on this list, and why.', bodyHtml: join(notListed)}),
   articleSection({id: 'choose', title: 'How to choose.', bodyHtml: `${join(choose)}${secondMix}`}),
   articleFaq({items: faqItems, title: 'European electronic music festivals FAQ.', openFirst: true}),

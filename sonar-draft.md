@@ -108,7 +108,7 @@ Since 2024 ARTE, the Franco-German broadcaster, has filmed shows at Sónar and p
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
-For the other festivals in this series, read our guides to [Tomorrowland](/tomorrowland-festival), [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+For the other festivals in this series, read our guides to [Tomorrowland](/tomorrowland-festival), [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

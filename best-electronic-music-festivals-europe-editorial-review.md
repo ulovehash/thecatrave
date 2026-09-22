@@ -33,3 +33,16 @@ Self-review against `ARTICLE-EDITORIAL-REVIEW.md`.
    one-line links from the European festival guides.
 10. **Final acceptance checklist:** facts pass for 22 September 2026; editorial
     pass; SEO pass; media pass; implementation pass.
+
+## Addendum, 2026-09-22: smaller festivals section
+
+Added at the owner's request: Garbicz, NACHTI, Houghton, Draaimolen, Waking
+Life, Kala and Freerotation, with Fusion's 2027 break noted. Held to a
+separate, stated test (two independent underground roundups), not the DJ Mag
+poll. Checks applied: Freerotation described as hardest to get into rather
+than "smallest" (no capacity figure); Waking Life's 2027 dates labelled
+unconfirmed because listings disagree and the official site could not be read;
+genre cells for NACHTI and Kala kept general because no line-up source was
+read; the Garbicz village aerial was dropped because it does not show the
+festival. Two festival sites (Houghton, Freerotation) sit behind bot checks and
+were not bypassed; their facts come from published reporting.

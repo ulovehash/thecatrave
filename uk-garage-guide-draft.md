@@ -102,7 +102,7 @@ The most-asked question about UK garage is not what it is. It is where it went.
 
 Around 2001 the mainstream success of 2-step created a split. The music on daytime radio got softer, more vocal and more polished, and the producers who were not interested in that started making the opposite: instrumental, darker, stripped of the diva vocal entirely.
 
-Two things came out of that. One went down in tempo and up in weight, kept the broken 2-step beat, dropped everything melodic and became dubstep. The other kept the energy, added MCs and became grime. Both were made by people who had been making garage a year earlier, on the same equipment, in the same part of London.
+Two things came out of that. One went down in tempo and up in weight, kept the broken 2-step beat, dropped everything melodic and became dubstep. The other kept the energy, added MCs and became grime. The [grime guide](/grime-music-guide) picks the story up from there. Both were made by people who had been making garage a year earlier, on the same equipment, in the same part of London.
 
 The instrumental wing had names. Horsepower Productions made 2-step with the vocal removed and the sub-bass promoted to the subject of the record, and Steve Gurley arrived at something similar from the other direction. The room where those records were played was Forward>>, running from 2001 in a basement off Charing Cross Road, and the label that grew out of it was Steve Goodman's Hyperdub. Dubstep did not appear from nowhere in 2005. It had been booked into a club four years earlier.
 

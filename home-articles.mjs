@@ -235,7 +235,7 @@ export const homeArticleCatalog = [
   {
     page:'best-electronic-music-festivals-europe.html', tags:['discovery','techno','house','history'], href:'/best-electronic-music-festivals-europe', type:'List', topic:'Europe festivals',
     title:'Best Electronic Music Festivals in Europe 2027, Compared',
-    description:'Fourteen festivals compared by sound, scale, setting and 2027 dates, with what is confirmed and what is still unannounced.',
+    description:'Fourteen major festivals and seven smaller ones, from Tomorrowland to Garbicz, compared by sound, scale, setting and 2027 dates.',
     image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
     srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
     width:1200, height:900, alt:'A daytime crowd under the steel canopy of the Futur Stage at Kappa FuturFestival in Turin'

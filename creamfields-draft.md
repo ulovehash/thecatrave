@@ -100,7 +100,7 @@ The festival also puts sets on its own channel, and some artists post their own.
 
 [Embed: Ewan McVicar 2023 and Pete Tong 2025, BvXj6mCK0X4]
 
-Creamfields and Tomorrowland once shared a Steel Yard, for a one-off Garden of Madness event in Liverpool in 2018; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). For where Chase & Status and Andy C come from, read [the drum and bass guide](/drum-and-bass-guide) and [the jungle guide](/jungle-music-guide). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Creamfields and Tomorrowland once shared a Steel Yard, for a one-off Garden of Madness event in Liverpool in 2018; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). For where Chase & Status and Andy C come from, read [the drum and bass guide](/drum-and-bass-guide) and [the jungle guide](/jungle-music-guide). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 
