@@ -1,0 +1,16 @@
+{
+  "page": "best-electronic-music-festivals-europe.html",
+  "seed": "electronic music festivals europe",
+  "source": "Owner-supplied Ahrefs research, September 2026: global volume. No new Ahrefs calls were made for this page (owner instruction, 2026-09-22).",
+  "note": "Viable Europe-focused matching terms total about 220 a month; about 100 more sit in stale or year-specific variants. The parent intent is the wider festival category ('EDM festivals' 5,000, 'techno festival' 3,100, 'electronic music festivals' 1,100), which a Europe-only page cannot claim and does not target. An earlier pass (electronic-music-festivals-research.md, 2026-09-10) recorded 'best electro music festivals in europe' at 4,000; that figure was not re-measured and is not used. People Also Ask (What is the biggest EDM music festival in Europe? / What are the top 10 electronic music festivals in the world? / What are the top 10 music festivals in Europe? / Where can I find EDM concerts in Europe?) is answered in the FAQ and not listed as terms, because none was measured separately.",
+  "terms": [
+    { "term": "electronic music festivals in europe", "volume": 90 }
+  ],
+  "expansion_checked": "Owner-supplied matching terms, related terms, SERP, People Also Ask and competitor mining (Dirty Disco 35 keywords, Jetpac 29, TicketSwap 31), September 2026.",
+  "rejected": [
+    { "term": "electronic music festivals europe", "volume": 80, "why": "same intent as the 'in europe' form; the phrase without 'in' does not fit a sentence and is not forced onto the page" },
+    { "term": "edm festivals", "volume": 5000, "why": "parent category, largely local and US listings; not addressable by a Europe-only page" },
+    { "term": "techno festival", "volume": 3100, "why": "global category; the techno festivals here are a subset, not an answer to the whole query" },
+    { "term": "electronic music festivals 2026", "volume": null, "why": "stale year variant; the page carries next year's edition (festival-next-year-targeted)" }
+  ]
+}

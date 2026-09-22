@@ -1,0 +1,40 @@
+{
+  "page": "acid-house-guide.html",
+  "seed": "acid house",
+  "source": "Owner-supplied Ahrefs research, September 2026: global volume. No new Ahrefs calls were made for this page (owner instruction, 2026-09-22). Earlier pass in TOPIC-DOSSIERS.md (2026-09-10) agrees: acid house 6,000, what is acid house? 6,100.",
+  "note": "The filtered listener-intent subtotal was about 15,200 across 72 terms, but it double counts punctuation variants ('what is acid house?' 6,300 beside 'what is acid house' 250), so it is not a unique audience. The planning number is the head term plus the question form. House music (58,000) is a separate intent with its own SERP and is not targeted here. People Also Ask questions (why is it called acid house, father of acid house, was acid house invented in India, what type of music is acid house, difference between house and acid house) are answered in the FAQ but not listed as terms, because none was measured separately.",
+  "terms": [
+    {
+      "term": "acid house",
+      "volume": 5900,
+      "note": "KD about 4, TP about 350"
+    },
+    {
+      "term": "what is acid house",
+      "volume": 6300,
+      "note": "the question form with a question mark; the unpunctuated form is 250. Same text on the page"
+    },
+    {
+      "term": "acid house music",
+      "volume": 500
+    }
+  ],
+  "expansion_checked": "Owner-supplied matching terms (72 listener terms), SERP and People Also Ask, competitor mining (Wikipedia 17 keywords, MasterClass 3, Museum of Youth Culture 7), September 2026. Stage 3 (related terms) was not supplied and not run.",
+  "rejected": [
+    {
+      "term": "house music",
+      "volume": 58000,
+      "why": "separate intent and parent topic; a candidate guide of its own"
+    },
+    {
+      "term": "the acid house",
+      "volume": 1000,
+      "why": "collision: the 1998 film and Irvine Welsh book"
+    },
+    {
+      "term": "acid house samples",
+      "volume": null,
+      "why": "production intent: samples, loops, presets and 303 programming are out under WRITING.md (not measured)"
+    }
+  ]
+}

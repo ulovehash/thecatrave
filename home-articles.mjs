@@ -215,6 +215,30 @@ export const homeArticleCatalog = [
     image:'img/spotify-playlists/playlist-still-life-320.webp',
     srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
     width:1200, height:800, alt:'Wired headphones, a portable music player and translucent cases on a scratched club table'
+  },
+  {
+    page:'acid-house-guide.html', tags:['history','uk','house','techno'], href:'/acid-house-guide', type:'Guide', topic:'Acid house',
+    title:'What Is Acid House? From Chicago\'s TB-303 to the UK Rave Boom',
+    description:'A $40 bass machine, three friends in Chicago, a DJ who played their tape four times in a night, and the British movement that borrowed the name.',
+    image:'img/acid-house/roland-tb303-1982-320.webp',
+    srcset:'img/acid-house/roland-tb303-1982-320.webp 320w,img/acid-house/roland-tb303-1982-1200.webp 1200w',
+    width:1200, height:800, alt:'Close-up of a Roland TB-303 Bass Line panel'
+  },
+  {
+    page:'grime-music-guide.html', tags:['uk','history','bass','jungle'], href:'/grime-music-guide', type:'Guide', topic:'Grime',
+    title:'What Is Grime Music? Its Sound, History, Artists and Tracks',
+    description:'Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.',
+    image:'img/grime/wiley-flowdan-2005-320.webp',
+    srcset:'img/grime/wiley-flowdan-2005-320.webp 320w,img/grime/wiley-flowdan-2005-1200.webp 1200w',
+    width:1200, height:796, alt:'Two Roll Deep MCs on a dark stage in New York in 2005'
+  },
+  {
+    page:'best-electronic-music-festivals-europe.html', tags:['discovery','techno','house','history'], href:'/best-electronic-music-festivals-europe', type:'List', topic:'Europe festivals',
+    title:'Best Electronic Music Festivals in Europe 2027, Compared',
+    description:'Fourteen festivals compared by sound, scale, setting and 2027 dates, with what is confirmed and what is still unannounced.',
+    image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
+    srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'A daytime crowd under the steel canopy of the Futur Stage at Kappa FuturFestival in Turin'
   }
 ];
 

@@ -1,0 +1,42 @@
+{
+  "page": "grime-music-guide.html",
+  "seed": "grime music",
+  "source": "Owner-supplied Ahrefs research, September 2026: global volume, safer latest-12-month average. No new Ahrefs calls were made for this page (owner instruction, 2026-09-22).",
+  "note": "'grime music' is 3,600 on the 12-month average; competitor mining showed 10,000 in the latest month, treated as a possible spike and not used for planning. The bare word 'grime' is not counted: it collides with dirt, cleaning products and the Canadian musician Grimes. Filtered listener-intent subtotal about 5,180. People Also Ask (What is considered grime music? / Why is British rap called grime? / Is Stormzy grime or drill? / What are the top 10 grime songs? / How is grime different from rap? / Who are the most famous grime artists? / What are some famous grime songs?) is answered in the FAQ and body; none was measured separately, so none is listed as a term.",
+  "terms": [
+    {
+      "term": "grime music",
+      "volume": 3600
+    },
+    {
+      "term": "what is grime music",
+      "volume": 700
+    },
+    {
+      "term": "grime genre",
+      "volume": 250
+    },
+    {
+      "term": "grime artists",
+      "volume": 150
+    }
+  ],
+  "expansion_checked": "Owner-supplied matching terms, SERP and People Also Ask, competitor mining (Wikipedia 45 keywords, MasterClass 17, Britannica 5), September 2026. Stage 3 (related terms) was not supplied and not run.",
+  "rejected": [
+    {
+      "term": "grime",
+      "volume": null,
+      "why": "not counted as addressable: the bare word collides with non-musical meanings; the page contains it anyway (not measured)"
+    },
+    {
+      "term": "grime beats",
+      "volume": null,
+      "why": "production intent (type beats, instrumentals to download); out under WRITING.md (not measured)"
+    },
+    {
+      "term": "uk drill",
+      "volume": null,
+      "why": "a different genre and intent; answered only as a comparison (not measured)"
+    }
+  ]
+}

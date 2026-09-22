@@ -4,6 +4,12 @@ Every term an existing guide is already written for, pulled from `keywords/*.jso
 
 Regenerate: `node scripts/taken-keywords.mjs`
 
+## acid-house-guide.html
+
+- acid house
+- what is acid house
+- acid house music
+
 ## bass-music-guide.html
 
 - bass music
@@ -127,6 +133,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - die besten clubs in berlin
 - bekannte clubs berlin
 - berghain türsteher
+
+## de/beste-spotify-playlists.html
+
+- beste spotify playlists
+- gute spotify playlists
+- spotify playlist empfehlungen
 
 ## de/burning-man-festival.html
 
@@ -268,6 +280,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people attend edc
 - when did edc start
 
+## best-electronic-music-festivals-europe.html
+
+- electronic music festivals in europe
+
 ## fr/boite-de-nuit-berlin.html
 
 - kitkat club berlin
@@ -302,6 +318,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival glastonbury
 - festival de glastonbury
 - glastonbury 2027
+
+## fr/meilleures-playlists-spotify.html
+
+- meilleures playlists spotify
+- bonnes playlists spotify
+- recommandations de playlists spotify
 
 ## fr/festival-mysteryland.html
 
@@ -377,6 +399,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how often is glastonbury
 - fallow year
 - glastonbury fallow years
+
+## grime-music-guide.html
+
+- grime music
+- what is grime music
+- grime genre
+- grime artists
 
 ## how-to-find-new-music.html
 

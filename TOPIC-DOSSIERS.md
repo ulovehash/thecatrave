@@ -1284,3 +1284,15 @@ brostep 1 100, dnb radio 800.
   `live-dj-sets-editorial-review.md` (самопроверка; независимый проход ещё
   должен быть). Все проверки зелёные, кроме чужого `audit-connections`
   (artist-connections другой сессии). Не закоммичено, не запушено.
+
+## Грайм, эсид-хаус, фестивали Европы 2027 — написаны (2026-09-22)
+
+Исследование Ahrefs прислал владелец (новых вызовов не было). Написаны и
+собраны, не запушены: `/acid-house-guide` (`acid-house-research.md`),
+`/grime-music-guide` (`grime-research.md`),
+`/best-electronic-music-festivals-europe`
+(`best-electronic-music-festivals-europe-research.md`, заменяет предложение
+из `electronic-music-festivals-research.md`). Стадия 3 и источники 1–2
+FIGURES.md не запускались по указанию владельца. Breakbeat hardcore и UK
+pirate radio отдельными страницами не делать: только внутри существующих
+гайдов (решение портфеля 2026-09-22).

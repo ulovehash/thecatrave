@@ -1,0 +1,215 @@
+{
+  "page": "grime-music-guide.html",
+  "seed": "grime music",
+  "source": "FIGURES.md pass, September 2026, run on sources 3 to 6. Sources 1 and 2 (Ahrefs matching terms on 'grime artists', also_talk_about) were not run: the owner asked for no new Ahrefs calls (2026-09-22). Source 3 is the owner-supplied People Also Ask, which names Stormzy and asks for famous artists and songs.",
+  "note": "Source 4, the consensus lists: Wikipedia's early contenders for the first grime record, Time Out 'A brief history of grime', Museum of Youth Culture 'Time of Grime', DMY 'The 10 best Lord of the Mics clashes, according to Jammer'. Source 5, the originators: Wikipedia 'Grime music', 'Boy in da Corner', 'Lord of the Mics', 'Form 696', Emma Warren's RBMA feature on Wiley (2015), Martin Clark's Hyperdub interview with Wiley (2003). Source 6, the catalogue: 705 of 62,877 sets tagged grime; most frequent artists Oneman (11), Spooky (11), Madam X (10), Logan Sama (9), Grandmixxer (8). Every embed below passed YouTube oEmbed on 2026-09-22 and is from the label's, the artist's, VEVO or the Topic channel.",
+  "required_records": [
+    {
+      "title": "Know We",
+      "artist": "Pay As U Go",
+      "year": 2000,
+      "why": "source 5: an early contender for the first grime record, from Wiley's garage crew",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "LWc5vFPAOmg"
+    },
+    {
+      "title": "Eskimo",
+      "artist": "Wiley",
+      "year": 2002,
+      "why": "sources 4 and 5: the eskibeat record that defined the sound",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "LkdEOY0bf4U",
+      "reuse": "Also embedded on the bass music guide; reused with the owner's approval, 2026-09-22."
+    },
+    {
+      "title": "Pulse X",
+      "artist": "Youngstar (Musical Mob)",
+      "year": 2002,
+      "why": "sources 4 and 5: early contender for the first grime record",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "4bMQTU2iI1E",
+      "reuse": "Also embedded on the UK electronic timeline; reused with the owner's approval, 2026-09-22."
+    },
+    {
+      "title": "Cock Back",
+      "artist": "Terror Danjah",
+      "year": 2003,
+      "why": "source 5: producer-led grime with four MCs",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "SqdJuhC16Zw"
+    },
+    {
+      "title": "I Luv U",
+      "artist": "Dizzee Rascal",
+      "year": 2003,
+      "why": "sources 3, 4 and 5: the first single from the Mercury-winning album",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "YH0KWX2a8zY"
+    },
+    {
+      "title": "Wot Do U Call It?",
+      "artist": "Wiley",
+      "year": 2004,
+      "why": "source 5: the record about the naming argument",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "tvCaWKqyKjg"
+    },
+    {
+      "title": "Functions on the Low",
+      "artist": "Ruff Sqwad",
+      "year": 2004,
+      "why": "sources 4 and 5: the instrumental under Stormzy's Shut Up",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "-uy0XIlnz4U"
+    },
+    {
+      "title": "P's and Q's",
+      "artist": "Kano",
+      "year": 2004,
+      "why": "sources 3 and 4: Kano's breakthrough",
+      "sources": [
+        "paa",
+        "consensus"
+      ],
+      "embed_id": "Mznv4ACjkzc"
+    },
+    {
+      "title": "Pow! (Forward)",
+      "artist": "Lethal Bizzle",
+      "year": 2004,
+      "why": "source 5: first grime top-20 single, banned from venues",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "nlmhlWECMUk"
+    },
+    {
+      "title": "Murkle Man",
+      "artist": "Jammer",
+      "year": 2005,
+      "why": "source 5 and the Lord of the Mics founder",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "_mxxpgNyV54"
+    },
+    {
+      "title": "German Whip",
+      "artist": "Meridian Dan",
+      "year": 2014,
+      "why": "source 5: the record that started the 2014 return",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "HNnrW54xPaY"
+    },
+    {
+      "title": "That's Not Me",
+      "artist": "Skepta",
+      "year": 2014,
+      "why": "sources 3, 4 and 5",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "_xQKWnvtg6c"
+    },
+    {
+      "title": "Shut Up",
+      "artist": "Stormzy",
+      "year": 2015,
+      "why": "sources 3 (Is Stormzy grime or drill?), 4 and 5",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "RqQGUJK7Na4"
+    }
+  ],
+  "figures": [
+    {
+      "name": "Wiley",
+      "for": "founder: eskibeat, crews, photograph (with Flowdan, 2005)",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Dizzee Rascal",
+      "for": "the breakthrough record, embedded",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Jammer",
+      "for": "Lord of the Mics; the heritage plaque photographed",
+      "sources": [
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Skepta",
+      "for": "the return; photograph (Field Day 2016)",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Stormzy",
+      "for": "People Also Ask; the first grime number one album",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Kano, JME, D Double E, Ghetts, Flowdan, Ruff Sqwad, Terror Danjah, Logan Sama",
+      "for": "named in context",
+      "sources": [
+        "consensus",
+        "originators",
+        "catalogue"
+      ]
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "1wk3uOxQ5F4",
+      "title": "Rinse FM Grime Show: P Money, D Double E, Big Narstie and Jammer, 2014"
+    },
+    {
+      "id": "vuh71pbNFC8",
+      "title": "Rinse FM: 20 years of Boy in da Corner, 2023"
+    }
+  ]
+}

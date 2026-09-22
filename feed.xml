@@ -8,13 +8,52 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 21 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best Electronic Music Festivals in Europe 2027, Compared</title>
+    <link>https://thecatrave.com/best-electronic-music-festivals-europe</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-electronic-music-festivals-europe</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Fourteen festivals compared by sound, scale, setting and 2027 dates, with what is confirmed and what is still unannounced.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <category>house</category>
+    <category>history</category>
+    <media:content url="https://thecatrave.com/img/og/europe-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Grime Music? Its Sound, History, Artists and Tracks</title>
+    <link>https://thecatrave.com/grime-music-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/grime-music-guide</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.</description>
+    <category>uk</category>
+    <category>history</category>
+    <category>bass</category>
+    <category>jungle</category>
+    <media:content url="https://thecatrave.com/img/og/grime.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Acid House? From Chicago&apos;s TB-303 to the UK Rave Boom</title>
+    <link>https://thecatrave.com/acid-house-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/acid-house-guide</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>A $40 bass machine, three friends in Chicago, a DJ who played their tape four times in a night, and the British movement that borrowed the name.</description>
+    <category>history</category>
+    <category>uk</category>
+    <category>house</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/acid-house.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Spotify Playlists: 12 Human-Curated Picks</title>
     <link>https://thecatrave.com/best-spotify-playlists</link>

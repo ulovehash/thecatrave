@@ -22,5 +22,10 @@ export const festivalEditions = [
   // though Ultra Europe (9 to 11 July) is still ahead.
   {page: 'ultra-music-festival.html', heading: 'Ultra Miami 2027 and Ultra Europe 2027', ends: '2027-03-28'},
   {page: 'creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
-  {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'}
+  {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'},
+  // The Europe comparison carries fourteen festivals. null while any of them
+  // has no 2027 date (Tomorrowland, Dekmantel and Monegros on 2026-09-22);
+  // once all are confirmed, set it to the last one to end (Creamfields and
+  // Mysteryland, 29 August 2027), then roll the page to 2028.
+  {page: 'best-electronic-music-festivals-europe.html', heading: '2027 dates at a glance', ends: null}
 ];
