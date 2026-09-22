@@ -17,6 +17,7 @@ import {
   infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('best-spotify-playlists-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-spotify-playlists';
@@ -179,6 +180,7 @@ const structuredData = [
 ];
 
 const html = articlePage({
+  alternates:alternatesFor('/best-spotify-playlists'),
   title, description, canonical,
   ogImage:'https://thecatrave.com/img/og/best-spotify-playlists.jpg',
   datePublished, dateModified,

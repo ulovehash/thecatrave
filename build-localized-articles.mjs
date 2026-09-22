@@ -30,7 +30,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
-  ownSetListening, articleFaq, articleHero, articlePage, articleSection, articleSources,
+  ownSetListening, articleFaq, articleHero, articlePage, articlePlaylistPreview, articleSection, articleSources,
   articleStructuredData, authorCard, bandcampSupport, breadcrumbStructuredData,
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
@@ -96,6 +96,24 @@ export function buildLocalizedArticle(content) {
     })].join('\n');
   };
 
+  const renderPlaylistSection = (text, metadata) => {
+    const entries = text.split(/(?:^|\n)### /).filter(Boolean).map(block => {
+      const [entryTitle, ...body] = block.split('\n');
+      const notes = paras(body.join('\n'));
+      if (notes.length !== 1) throw new Error(`${content.draft}: ${entryTitle} must have one editorial paragraph`);
+      return {
+        entryTitle: entryTitle.trim(),
+        description: notes[0].replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*/g, '')
+      };
+    });
+    if (entries.length !== metadata.length) throw new Error(`${content.draft}: ${entries.length} playlist entries for ${metadata.length} metadata rows`);
+    return `<div class="playlist-preview-list">${entries.map((entry, index) => {
+      const item = metadata[index];
+      if (!entry.entryTitle.includes(item.title)) throw new Error(`${content.draft}: playlist heading "${entry.entryTitle}" does not match "${item.title}"`);
+      return articlePlaylistPreview({...item, description: entry.description, lang});
+    }).join('\n')}</div>`;
+  };
+
   const answer = paras(getSection(content.answerSection));
   const faqItems = getSection(content.faqSection).split(/(?:^|\n)### /).filter(Boolean).map(block => {
     const [question, ...rest] = block.split('\n');
@@ -113,7 +131,9 @@ export function buildLocalizedArticle(content) {
 
   const sectionHtml = content.sections.map(section => articleSection({
     id: section.id, title: section.title, kicker: section.kicker,
-    bodyHtml: section.subsections
+    bodyHtml: section.playlists
+      ? renderPlaylistSection(getSection(section.heading), section.playlists)
+      : section.subsections
       ? renderWithSubsections(getSection(section.heading), section.subsections)
       : render(getSection(section.heading))
   }));

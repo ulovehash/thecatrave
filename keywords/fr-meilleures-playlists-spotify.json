@@ -1,0 +1,16 @@
+{
+  "page": "fr/meilleures-playlists-spotify.html",
+  "seed": "meilleures playlists spotify",
+  "source": "free live French SERP qualification, 22 September 2026; Ahrefs volume deliberately not requested",
+  "terms": [
+    {"term": "meilleures playlists spotify", "volume": "not measured"},
+    {"term": "bonnes playlists spotify", "volume": "not measured"},
+    {"term": "recommandations de playlists spotify", "volume": "not measured"}
+  ],
+  "expansion_checked": "Free French SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it.",
+  "rejected": [
+    {"term": "playlists spotify les plus populaires", "volume": "not measured", "why": "popularity ranking intent, not editorial recommendation"},
+    {"term": "créer une playlist spotify", "volume": "not measured", "why": "creation intent"},
+    {"term": "soumettre musique playlist spotify", "volume": "not measured", "why": "artist submission intent"}
+  ]
+}

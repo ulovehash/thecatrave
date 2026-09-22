@@ -1,0 +1,16 @@
+{
+  "page": "de/beste-spotify-playlists.html",
+  "seed": "beste spotify playlists",
+  "source": "free live German SERP qualification, 22 September 2026; Ahrefs volume deliberately not requested",
+  "terms": [
+    {"term": "beste spotify playlists", "volume": "not measured"},
+    {"term": "gute spotify playlists", "volume": "not measured"},
+    {"term": "spotify playlist empfehlungen", "volume": "not measured"}
+  ],
+  "expansion_checked": "Free German SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it.",
+  "rejected": [
+    {"term": "beliebteste spotify playlists", "volume": "not measured", "why": "follower-count ranking intent, not editorial recommendation"},
+    {"term": "spotify playlist erstellen", "volume": "not measured", "why": "creation intent"},
+    {"term": "spotify playlist einreichen", "volume": "not measured", "why": "artist submission intent"}
+  ]
+}

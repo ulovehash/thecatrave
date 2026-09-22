@@ -63,3 +63,11 @@ None. The owner explicitly required both homepage playlists in the electronic an
 - Ready for implementation: pass.
 - Generated page audit: pass, 14 page-specific checks.
 - Full site build, HTML validation, links, accessibility and responsive layout: pass at 375px, 834px and 1440px.
+
+## Translation acceptance, 22 September 2026
+
+- German and French preserve the approved intent, twelve selections, ownership disclosures, compact players and linked comparison table.
+- Shared player labels and iframe titles are localised through `i18n.mjs`; neither translation carries English component chrome.
+- The complete English, German and French hreflang family is present on all three pages.
+- Paid Ahrefs expansion was intentionally deferred. Free live-SERP qualification and the unmeasured keyword maps are documented in `best-spotify-playlists-translation-research.md`.
+- Translation review, keyword audit, shared component audit, HTML validation, internal link crawl, accessibility and responsive layout: pass.

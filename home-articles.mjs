@@ -324,6 +324,14 @@ export const germanArticleCatalog = [
     image:'img/dubstep/dubplate-lathe-320.webp',
     srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
     width:961, height:540, alt:'Eine Schneidemaschine für Vinyl mit einer Acetatscheibe auf dem Plattenteller'
+  },
+  {
+    page:'de/beste-spotify-playlists.html', tags:['discovery','tools','house','bass'], href:'/de/beste-spotify-playlists', type:'Liste', topic:'Spotify-Playlists',
+    title:'Beste Spotify-Playlists: 12 von Menschen kuratierte Empfehlungen',
+    description:'Zwölf Playlists mit erkennbarem Standpunkt, von KEXP und Pitchfork bis Four Tet, Bicep und dem elektronischen Underground.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Kabelkopfhörer, ein tragbarer Musikplayer und transparente Hüllen auf einem zerkratzten Clubtisch'
   }
 ];
 
@@ -417,6 +425,14 @@ export const frenchArticleCatalog = [
     image:'img/sonar/sonar-by-day-2016-320.webp',
     srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
     width:1200, height:801, alt:'Une foule devant la scène SonarVillage à Fira Montjuïc, avec le Palau Nacional derrière'
+  },
+  {
+    page:'fr/meilleures-playlists-spotify.html', tags:['discovery','tools','house','bass'], href:'/fr/meilleures-playlists-spotify', type:'Liste', topic:'Playlists Spotify',
+    title:'Meilleures playlists Spotify : 12 sélections humaines',
+    description:'Douze playlists au point de vue reconnaissable, de KEXP et Pitchfork à Four Tet, Bicep et l’underground électronique.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Un casque filaire, un lecteur de musique portable et des boîtiers translucides sur une table de club rayée'
   }
 ];
 

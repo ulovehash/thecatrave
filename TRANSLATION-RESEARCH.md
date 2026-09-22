@@ -1,5 +1,15 @@
 # Translation research
 
+## Cost-controlled playlist translation (2026-09-22)
+
+The Best Spotify Playlists article was translated into German and French at
+`/de/beste-spotify-playlists` and `/fr/meilleures-playlists-spotify`. Following
+the revised `KEYWORD-METHOD.md`, the wording and result types were qualified in
+the free live SERP first. No Ahrefs units were spent. The keyword maps record
+unmeasured terms honestly and defer paid expansion until Search Console data or
+a real editorial decision makes it necessary. Full decisions and preservation
+requirements are in `best-spotify-playlists-translation-research.md`.
+
 ## Stage 1: choosing the language (2026-09-17)
 
 Ahrefs `keywords-explorer-overview`, one call per country, the 26 guide seeds

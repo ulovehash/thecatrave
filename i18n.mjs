@@ -34,6 +34,9 @@ export const locales = {
     updated: 'Updated',
     readingTime: minutes => `${minutes} min read`,
     essentialListening: 'Essential listening',
+    playlistOwned: 'Curated by thecatrave',
+    playlistOpen: 'Open full playlist on Spotify\u00a0↗',
+    playlistPreviewTitle: title => `Preview ${title} on Spotify`,
     faqTitle: 'Frequently asked questions.',
     sourcesTitle: 'Sources.',
     readNextTitle: 'Read next.',
@@ -105,6 +108,9 @@ export const locales = {
     // The German counterpart of the site-wide "Essential listening" label. One
     // label per language, as in SITE-COMPONENTS.md: no parallel concepts.
     essentialListening: 'Zum Reinhören',
+    playlistOwned: 'Kuratiert von thecatrave',
+    playlistOpen: 'Vollständige Playlist auf Spotify öffnen\u00a0↗',
+    playlistPreviewTitle: title => `Vorschau von ${title} auf Spotify`,
     faqTitle: 'Häufige Fragen.',
     sourcesTitle: 'Quellen.',
     readNextTitle: 'Weiterlesen.',
@@ -173,6 +179,9 @@ export const locales = {
     readingTime: minutes => `${minutes} min de lecture`,
     // The French counterpart of the site-wide "Essential listening" label.
     essentialListening: 'À écouter',
+    playlistOwned: 'Sélectionnée par thecatrave',
+    playlistOpen: 'Ouvrir la playlist complète sur Spotify\u00a0↗',
+    playlistPreviewTitle: title => `Aperçu de ${title} sur Spotify`,
     faqTitle: 'Questions fréquentes.',
     sourcesTitle: 'Sources.',
     readNextTitle: 'À lire ensuite.',

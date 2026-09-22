@@ -1,8 +1,11 @@
 import fs from 'node:fs';
 
 const html = fs.readFileSync('best-spotify-playlists.html', 'utf8');
+const de = fs.readFileSync('de/beste-spotify-playlists.html', 'utf8');
+const fr = fs.readFileSync('fr/meilleures-playlists-spotify.html', 'utf8');
 const generator = fs.readFileSync('build-best-spotify-playlists-article.mjs', 'utf8');
 const count = pattern => (html.match(pattern) || []).length;
+const countIn = (source, pattern) => (source.match(pattern) || []).length;
 const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
 
 const checks = {
@@ -20,6 +23,12 @@ const checks = {
   electronicPlacement: html.indexOf('id="electronic"') < html.indexOf('id="rare-electronic-music"')
     && html.indexOf('id="rare-electronic-music"') < html.indexOf('id="emotional-electronic-music"'),
   sharedComponent: generator.includes('articlePlaylistPreview('),
+  translationsHaveTwelveCompactPreviews: [de, fr].every(page => countIn(page, /class="playlist-preview-player"/g) === 12 && countIn(page, /height="152"/g) === 12),
+  translationsLinkEveryPlaylist: [de, fr].every(page => countIn(page, /<td><a href="https:\/\/open\.spotify\.com\/playlist\/[^\"]+" target="_blank" rel="noopener noreferrer">[^<]+ ↗<\/a><\/td>/g) === 12),
+  translatedPreviewChrome: countIn(de, /Kuratiert von thecatrave/g) === 2
+    && countIn(fr, /Sélectionnée par thecatrave/g) === 2
+    && !/Open full playlist|Curated by thecatrave/.test(`${de}${fr}`),
+  hreflangFamily: [html, de, fr].every(page => ['hreflang="en"','hreflang="de"','hreflang="fr"'].every(value => page.includes(value))),
   faq: count(/<details(?: open)?>/g) === 5 && html.includes('"@type":"FAQPage"'),
   datesAgree: html.includes('article:published_time" content="2026-09-21"')
     && html.includes('article:modified_time" content="2026-09-21"')
