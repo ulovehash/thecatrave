@@ -25,12 +25,72 @@ The same applies to the Selector. Its own category does not exist: random dj
 set, dj set picker, dj set finder all return no rows. It is reached through
 topics adjacent to it, which is why the discovery guide exists.
 
+## 0. Spend units only on decisions
+
+The default research pass is a funnel. Most topics should be rejected before
+an expensive Ahrefs call. Do not collect a complete SEO report and decide what
+it means afterwards. Name the decision first, then request only the fields that
+can change it.
+
+The minimum pass is:
+
+1. **Free qualification.** Inspect the live search results, decide whether the
+   result set contains article-shaped openings, check that an existing page
+   does not already own the intent, and state the editorial value thecatrave
+   can add. Stop here when the answer is no.
+2. **Cheap discovery.** Run one `keywords-explorer-matching-terms` request for
+   one broad seed derived from the live result set. Request `keyword` only and
+   cap the result at 40 to 50 rows. For singular/plural or word-order variants,
+   batch the variants in the same request rather than running separate calls.
+3. **Manual intent filter.** Classify the returned phrases before buying any
+   metrics. Keep at most 8 to 12 candidates that the proposed page can answer.
+   Record the useful rejected clusters too, so they are not researched again.
+4. **Metrics for finalists.** Batch the shortlist through
+   `keywords-explorer-overview` with `keyword`, local `volume` and, only when a
+   page-boundary decision is unclear, `parent_topic`. For an English page with
+   an international audience, request `global_volume` only for the two or three
+   possible head terms, not for the whole discovery set.
+5. **One conditional SERP.** Run `serp-overview` only for the final head term,
+   and only when the free result inspection did not already settle
+   winnability. Request `position`, `url`, `title`, `page_type` and
+   `refdomains`, limited to the top ten organic results.
+
+The default pass does **not** request difficulty, traffic potential, CPC, CPS,
+device shares, monthly history, SERP features, automatic intent labels or word
+count. `related-terms` is not a default expansion step. Use it only when the
+matching-terms result is demonstrably too narrow, and ask for a new spending
+approval before doing so.
+
+Stop the pass when any of these is true:
+
+- the live result set offers almost no slot for an article;
+- the query is navigational, transactional or aimed at files, tools, tickets,
+  timetables or another product the page will not provide;
+- an existing page already owns the same intent;
+- the apparent demand belongs to another language or another meaning;
+- the relevant shortlist has no measurable demand;
+- answering the cluster would require a volatile ranking, price list, lineup or
+  schedule that the site cannot keep current.
+
+Expected budget for one new topic:
+
+- about 200 to 300 units when the free SERP inspection is sufficient;
+- about 2,200 units when one Ahrefs SERP is genuinely needed;
+- zero units when the free qualification gate rejects the topic.
+
+These are planning ceilings, not permission to spend. Check the real balance
+before the pass and after every paid stage. Record endpoint, seed, country,
+selected fields, row limit, balance before, balance after and the decision the
+call changed. Stop when a stage exceeds its approved ceiling.
+
 ## 1. Seeds, never from memory
 
 - **Start with a web search, not with Ahrefs.** Search the topic the way a
-  reader would, take the articles that come back, then run
-  `site-explorer-organic-keywords` (`mode=exact`) on each. Their rankings are
-  the seed list. Guessing phrases into Ahrefs first measures only the words
+  reader would and inspect the result titles, page types and wording. Those
+  results supply the first seed and may reject the topic for free. Do not pull
+  `site-explorer-organic-keywords` for every ranking page by default. Use one
+  exact competitor page only when the live results do not reveal the query
+  cluster clearly. Guessing phrases into Ahrefs first measures only the words
   you typed: "breakbeat festival" returned 10 searches, while the pages about
   those festivals rank for the festivals' names. The owner's correction,
   13 September 2026.
@@ -54,11 +114,12 @@ without anyone checking that phrase, worth 1,400 a month.
 
 Check the Ahrefs balance before a pass. `subscription-info-limits-and-usage`
 is free; call it before the first Ahrefs request of a session, tell the owner
-what share of the month's units is already used, report it again after each
-topic, and stop to warn at 50, 75 and 90 per cent with what the remaining work
-would cost. The pool is shared with other keys in the workspace (400,000 units
-a month, reset on the 20th), and one `serp-overview` costs about 2,000. On
-14 September 2026 a session emptied it without a single check and the
+what share of the month's units is already used, report it again after every
+paid stage, and stop to warn at 50, 75 and 90 per cent with what the remaining
+work would cost. The pool is shared with other keys in the workspace and its
+limit can change, so always read `units_limit_workspace` instead of copying an
+old monthly figure. One `serp-overview` costs about 2,000 units. On 14
+September 2026 a session emptied the pool without a single check and the
 Coachella research stopped after stage 1 (`defects.json`,
 ahrefs-units-unwatched).
 
@@ -66,16 +127,21 @@ No paid Ahrefs call without the owner's explicit yes to that pass and its cost.
 "Write the article" is not a yes: later on 14 September 2026 it was read as one
 and 3,534 units went on the Mysteryland pass (`defects.json`,
 ahrefs-spent-without-permission). Without a yes, work from the owner's exports
-and earlier pulls. The limit read 800,000 that afternoon, so take
-`units_limit_workspace` from the call rather than the figure above.
+and earlier pulls.
 
-`keywords-explorer-related-terms` on each seed, then
-`keywords-explorer-matching-terms` when it is working. Take what comes back,
-not what you expected.
+Start with `keywords-explorer-matching-terms`, `select: keyword`, and a 40 to
+50 row ceiling. Take what comes back, not what you expected. Filter it by intent
+before buying volume for the shortlist. Do not request expensive fields merely
+because the endpoint supports them.
+
+`keywords-explorer-related-terms` is a conditional recovery step, not the first
+call. It is justified when matching terms misses a clearly visible adjacent
+query cluster, not when a large export would be convenient.
 
 Note: `keywords-explorer-overview` returns HTTP 500 whenever `difficulty` is in
-`select` for a keyword with no KD value. Leave `difficulty` out and batch ten
-keywords at a time; it is also three times cheaper per row that way.
+`select` for a keyword with no KD value. Difficulty is not part of the default
+method anyway. Batch the 8 to 12 finalists and request local volume only, plus
+`parent_topic` when it will decide whether two intents need separate pages.
 
 ## 3. Filter on intent before anything else
 
@@ -99,7 +165,12 @@ arrive and leave. Four traps, all seen on this site:
 
 ## 4. Score winnability from the weakest page in the top ten
 
-Not from KD. Pull `serp-overview` and read `refdomains` for positions 7 to 10.
+Not from KD. First inspect the live SERP for free. If it already contains no
+article-shaped opening, stop. If winnability remains uncertain after the topic
+and head term have survived every earlier gate, pull one `serp-overview` for
+that final head term. Select only `position`, `url`, `title`, `page_type` and
+`refdomains`, limited to the top ten organic results, then read `refdomains`
+for positions 7 to 10.
 
 That number is the whole answer. ujam.com holds position 8 for "breakbeat"
 (1,800 a month) with three referring domains. rateyourmusic holds 7 with ten.
