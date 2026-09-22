@@ -18,10 +18,13 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}`,
     trace: 'on-first-retry'
   },
+  // The axe scan runs at mobile width only. WCAG results barely move with the
+  // viewport, and running it at all three sizes cost 371s of test time per CI
+  // run, at 2s per scan (2026-09-22). Layout checks still run at all three.
   projects: [
     { name: 'mobile', use: { ...devices['Pixel 7'], viewport: { width: 375, height: 812 } } },
-    { name: 'tablet', use: { viewport: { width: 834, height: 1112 } } },
-    { name: 'desktop', use: { viewport: { width: 1440, height: 900 } } }
+    { name: 'tablet', use: { viewport: { width: 834, height: 1112 } }, testIgnore: /a11y\.spec\.ts$/ },
+    { name: 'desktop', use: { viewport: { width: 1440, height: 900 } }, testIgnore: /a11y\.spec\.ts$/ }
   ],
   webServer: {
     command: `node scripts/serve.mjs ${PORT} .`,

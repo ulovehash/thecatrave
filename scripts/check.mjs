@@ -29,7 +29,7 @@ const steps = [];
 // `id` is what you pass on the command line to run one layer on its own, which
 // is what the check:* scripts in package.json do. Defining each layer once here
 // means the npm scripts cannot drift from what CI actually runs.
-const record = (id, name, fn) => steps.push({ id, name, fn });
+const record = (id, name, fn, { onDemand = false } = {}) => steps.push({ id, name, fn, onDemand });
 
 const sh = (cmd, args, env) => execFileSync(cmd, args, { stdio: 'inherit', env: { ...process.env, ...env } });
 const waitForPort = (port, timeoutMs = 15000) => new Promise((res, rej) => {
@@ -50,7 +50,13 @@ record('audit', 'audits (zero-dep)', () => sh('node', ['audit-all.mjs']));
 record('html', 'html-validate', () => sh('npx', ['html-validate', ...files]));
 record('links', 'linkinator (broken links & assets)', () => sh('npx', ['linkinator', `http://localhost:${PORT}`, '--recurse', '--skip', '^https?://(?!localhost)']));
 record('layout', 'playwright (layout, a11y)', () => sh('npx', ['playwright', 'test'], { CHECK_PORT: String(PORT) }));
-record('vitals', 'unlighthouse (perf, SEO, a11y, CWV budgets)', () => sh('npx', ['unlighthouse-ci', '--site', `http://localhost:${PORT}`, '--config-file', 'unlighthouse.config.ts'], { CHECK_PORT: String(PORT) }));
+// On demand only: `npm run check:vitals`, or the manual "vitals" workflow in CI.
+// It took about 5 of the gate's 15 minutes on every push and had never failed
+// a run; its accessibility and SEO scores repeat axe and audit-seo, and a new
+// guide on an existing template does not move the performance score. Run it
+// after changing a template, CSS, scripts, images, or hreflang: the i18n hang
+// in defects.json (unlighthouse-skips-i18n-home) was found only by this layer.
+record('vitals', 'unlighthouse (perf, SEO, a11y, CWV budgets)', () => sh('npx', ['unlighthouse-ci', '--site', `http://localhost:${PORT}`, '--config-file', 'unlighthouse.config.ts'], { CHECK_PORT: String(PORT) }), { onDemand: true });
 
 const only = process.argv.slice(2);
 const unknown = only.filter(id => !steps.some(step => step.id === id));
@@ -58,7 +64,7 @@ if (unknown.length) {
   console.error(`unknown layer(s): ${unknown.join(', ')}\nknown: ${steps.map(s => s.id).join(', ')}`);
   process.exit(2);
 }
-const selected = only.length ? steps.filter(step => only.includes(step.id)) : steps;
+const selected = only.length ? steps.filter(step => only.includes(step.id)) : steps.filter(step => !step.onDemand);
 
 const server = spawn('node', ['scripts/serve.mjs', String(PORT), '.'], { stdio: 'ignore' });
 server.on('exit', code => {

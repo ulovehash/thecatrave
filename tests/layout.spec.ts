@@ -6,18 +6,23 @@ import { openRoute, pageErrors } from './open-route';
 // string audit cannot see: horizontal overflow, clashing full-bleed colour
 // bands, wrong responsive column counts, and layout-shift risk from images
 // without intrinsic dimensions.
+//
+// One test per route and viewport, opening the page once. These used to be five
+// tests sharing a beforeEach, so every page and its embeds loaded five times:
+// each test took about 0.73s, all of it page load, and the checks themselves
+// took milliseconds (1,104 tests, 9.1 minutes in CI on 2026-09-22). Each check
+// is a soft assertion under its own step, so one failing check still reports
+// the others instead of hiding them.
 
 for (const route of routes) {
-  test.describe(route.name, () => {
-    test.beforeEach(async ({ page }) => {
-      await openRoute(page, route.path);
+  test(`${route.name} layout`, async ({ page }) => {
+    await openRoute(page, route.path);
+
+    await test.step('no uncaught script errors', async () => {
+      expect.soft(pageErrors(page), 'uncaught script errors').toEqual([]);
     });
 
-    test('no uncaught script errors', async ({ page }) => {
-      expect(pageErrors(page)).toEqual([]);
-    });
-
-    test('no horizontal overflow', async ({ page }) => {
+    await test.step('no horizontal overflow', async () => {
       const overflow = await page.evaluate(() => {
         const doc = document.documentElement;
         const wide = [...document.querySelectorAll('body *')]
@@ -25,15 +30,15 @@ for (const route of routes) {
           .map(el => el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : ''));
         return { scrollW: doc.scrollWidth, clientW: doc.clientWidth, wide: [...new Set(wide)].slice(0, 5) };
       });
-      expect(overflow.scrollW, `offenders: ${overflow.wide.join(', ')}`).toBeLessThanOrEqual(overflow.clientW + 1);
+      expect.soft(overflow.scrollW, `horizontal overflow, offenders: ${overflow.wide.join(', ')}`).toBeLessThanOrEqual(overflow.clientW + 1);
     });
 
-    test('every raster image ships intrinsic width and height', async ({ page }) => {
+    await test.step('every raster image ships intrinsic width and height', async () => {
       const missing = await page.$$eval('img', imgs => imgs
         .filter(img => /\.(jpe?g|png|webp|avif)(\?|$)/i.test(img.getAttribute('src') || ''))
         .filter(img => !img.getAttribute('width') || !img.getAttribute('height'))
         .map(img => img.getAttribute('src')));
-      expect(missing).toEqual([]);
+      expect.soft(missing, 'raster images without width/height').toEqual([]);
     });
 
     // A table is media, and media is separated from the prose around it. The
@@ -41,7 +46,7 @@ for (const route of routes) {
     // every table sat 0px below its border on every guide. Measure the real
     // gap rather than trusting the declaration: the wrapper is full-bleed and
     // transformed, so a margin can be there and still not show up as space.
-    test('a paragraph after a table is not flush against it', async ({ page }) => {
+    await test.step('a paragraph after a table is not flush against it', async () => {
       const tight = await page.evaluate(() => {
         const out: string[] = [];
         for (const wrap of document.querySelectorAll('.genre-table-wrap')) {
@@ -58,10 +63,10 @@ for (const route of routes) {
         }
         return out;
       });
-      expect(tight).toEqual([]);
+      expect.soft(tight, 'paragraph flush against a table').toEqual([]);
     });
 
-    test('full-bleed listening collections do not clash with their section colour', async ({ page }) => {
+    await test.step('full-bleed listening collections do not clash with their section colour', async () => {
       const clashes = await page.evaluate(() => {
         const bg = (el: Element) => getComputedStyle(el).backgroundColor;
         const paper = bg(document.body); // the neutral --paper ground
@@ -78,7 +83,7 @@ for (const route of routes) {
         }
         return out;
       });
-      expect(clashes).toEqual([]);
+      expect.soft(clashes, 'listening block clashes with its section colour').toEqual([]);
     });
   });
 }

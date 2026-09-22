@@ -1,0 +1,37 @@
+name: vitals
+
+# Unlighthouse budgets (performance, accessibility, best practices, SEO, Core
+# Web Vitals) on every route. Manual only: it left the push gate on 2026-09-22
+# because it took about 5 of its 15 minutes and had never failed a run. Run it
+# after changing a template, CSS, scripts, images or hreflang.
+on:
+  workflow_dispatch:
+
+jobs:
+  vitals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Unlighthouse
+        run: npm run check:vitals
+
+      - name: Upload report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitals-report
+          path: .unlighthouse/
+          retention-days: 7
+          if-no-files-found: ignore
