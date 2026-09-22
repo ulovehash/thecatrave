@@ -98,6 +98,22 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The entrance to Berghain in Berlin'
   },
   {
+    page:'best-clubs-in-paris.html', tags:['techno','history','discovery'], href:'/best-clubs-in-paris', type:'Guide', topic:'Paris clubs',
+    title:'Best Clubs in Paris: From Le Palace to Rex Club',
+    description:'Le Palace, Les Bains Douches and Rex Club: the clubs that made Paris nightlife, how each became famous, and the best clubs in Paris open now.',
+    image:'img/paris-clubs/les-bains-douches-entrance-320.webp',
+    srcset:'img/paris-clubs/les-bains-douches-entrance-320.webp 320w,img/paris-clubs/les-bains-douches-entrance-1280.webp 1280w',
+    width:1280, height:1707, alt:"The entrance to the former Les Bains Douches nightclub at 7 rue du Bourg-l'Abbé, Paris"
+  },
+  {
+    page:'best-clubs-in-barcelona.html', tags:['techno','history','discovery'], href:'/best-clubs-in-barcelona', type:'Guide', topic:'Barcelona clubs',
+    title:'Best Clubs in Barcelona: From Zeleste to Razzmatazz',
+    description:"Razzmatazz, Nitsa and Macarena Club: how Barcelona's biggest club grew out of a 1970s live venue, and the best clubs in Barcelona open now.",
+    image:'img/barcelona-clubs/razzmatazz-exterior-320.webp',
+    srcset:'img/barcelona-clubs/razzmatazz-exterior-320.webp 320w,img/barcelona-clubs/razzmatazz-exterior-1280.webp 1280w',
+    width:1280, height:822, alt:'The exterior of Sala Razzmatazz in the Poblenou district of Barcelona'
+  },
+  {
     page:'best-electronic-music-clubs-in-london.html', tags:['jungle','history','discovery'], href:'/best-electronic-music-clubs-in-london', type:'Guide', topic:'London clubs',
     title:'Best Electronic Music Clubs in London: History and Where to Go',
     description:'The best electronic music clubs in London now, plus the rooms that shaped acid house, jungle, garage and dubstep.',
@@ -327,6 +343,22 @@ export const germanArticleCatalog = [
     width:1200, height:800, alt:'Der Eingang des Berghain in Berlin'
   },
   {
+    page:'de/clubs-paris.html', tags:['techno','history','discovery'], href:'/de/clubs-paris', type:'Guide', topic:'Clubs in Paris',
+    title:'Die besten Clubs in Paris: Von Le Palace bis zum Rex Club',
+    description:"Le Palace, Les Bains Douches und der Rex Club: die Clubs, die Paris' Nachtleben geprägt haben, wie jeder berühmt wurde, und die besten Clubs in Paris heute.",
+    image:'img/paris-clubs/les-bains-douches-entrance-320.webp',
+    srcset:'img/paris-clubs/les-bains-douches-entrance-320.webp 320w,img/paris-clubs/les-bains-douches-entrance-1280.webp 1280w',
+    width:1280, height:1707, alt:"Der Eingang des ehemaligen Nachtclubs Les Bains Douches an der 7 Rue du Bourg-l'Abbé, Paris"
+  },
+  {
+    page:'de/clubs-barcelona.html', tags:['techno','history','discovery'], href:'/de/clubs-barcelona', type:'Guide', topic:'Clubs in Barcelona',
+    title:'Die besten Clubs in Barcelona: Von Zeleste bis Razzmatazz',
+    description:'Razzmatazz, Nitsa und Macarena Club: wie Barcelonas größter Club aus einem Live-Venue der 1970er wuchs, und die besten Clubs in Barcelona heute.',
+    image:'img/barcelona-clubs/razzmatazz-exterior-320.webp',
+    srcset:'img/barcelona-clubs/razzmatazz-exterior-320.webp 320w,img/barcelona-clubs/razzmatazz-exterior-1280.webp 1280w',
+    width:1280, height:822, alt:'Die Außenansicht von Sala Razzmatazz im Stadtteil Poblenou, Barcelona'
+  },
+  {
     page:'de/clubs-london.html', tags:['jungle','history','discovery'], href:'/de/clubs-london', type:'Guide', topic:'Clubs in London',
     title:'Clubs in London für elektronische Musik: Geschichte und heute',
     description:'Vom Four Aces und dem Blitz bis zu Rage, dem Blue Note und fabric: die Londoner Clubs hinter Acid House, Jungle, Garage und Dubstep, und die, die heute ein Wochenende wert sind.',
@@ -426,6 +458,22 @@ export const frenchArticleCatalog = [
     image:'img/berlin-clubs/berghain-320.webp',
     srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
     width:1200, height:800, alt:'L’entrée du Berghain à Berlin'
+  },
+  {
+    page:'fr/boite-de-nuit-paris.html', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-paris', type:'Guide', topic:'Boite de nuit Paris',
+    title:'Boite de nuit Paris : les meilleures boîtes, du Palace au Rex Club',
+    description:"Le Palace, Les Bains Douches et le Rex Club : les boîtes qui ont façonné la nuit parisienne, comment chacune est devenue célèbre, et les meilleures boîtes de nuit à Paris aujourd'hui.",
+    image:'img/paris-clubs/les-bains-douches-entrance-320.webp',
+    srcset:'img/paris-clubs/les-bains-douches-entrance-320.webp 320w,img/paris-clubs/les-bains-douches-entrance-1280.webp 1280w',
+    width:1280, height:1707, alt:"L'entrée de l'ancienne boîte de nuit Les Bains Douches, 7 rue du Bourg-l'Abbé, Paris"
+  },
+  {
+    page:'fr/boite-de-nuit-barcelone.html', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-barcelone', type:'Guide', topic:'Boite de nuit Barcelone',
+    title:'Boite de nuit Barcelone : les meilleures boîtes, de Zeleste à Razzmatazz',
+    description:"Razzmatazz, Nitsa et Macarena Club : comment la plus grande boîte de Barcelone est née d'une salle de concerts des années 1970, et les meilleures boîtes de nuit à Barcelone aujourd'hui.",
+    image:'img/barcelona-clubs/razzmatazz-exterior-320.webp',
+    srcset:'img/barcelona-clubs/razzmatazz-exterior-320.webp 320w,img/barcelona-clubs/razzmatazz-exterior-1280.webp 1280w',
+    width:1280, height:822, alt:'La façade de Sala Razzmatazz dans le quartier de Poblenou, Barcelone'
   },
   {
     page:'fr/primavera-sound-barcelona.html', tags:['discovery','history','house'], href:'/fr/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',

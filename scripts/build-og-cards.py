@@ -86,6 +86,8 @@ HERO = {
     "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "sonar": "img/sonar/sonar-by-day-2016-1200.webp",
     "primavera-sound": "img/primavera-sound/festival-crowd-1200.webp",
+    "paris-clubs": "img/paris-clubs/les-bains-douches-entrance-1280.webp",
+    "barcelona-clubs": "img/barcelona-clubs/razzmatazz-exterior-1280.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

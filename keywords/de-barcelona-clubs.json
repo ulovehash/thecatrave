@@ -1,0 +1,13 @@
+{
+  "page": "de/clubs-barcelona.html",
+  "seed": "beste clubs in barcelona",
+  "source": "Google Ads Keyword Planner, owner's account, country Germany, 22 September 2026 (tool switch, KEYWORD-METHOD.md). Ranges, not points: the account has no ad spend.",
+  "note": "Same pattern as the Paris page: the tool merged 'beste clubs in barcelona' into the English-phrased row, and the page's actual grammar is 'die besten Clubs in Barcelona'.",
+  "terms": [
+    { "term": "besten clubs in barcelona", "volume": "100-1K" },
+    { "term": "clubs in barcelona", "volume": "1K-10K" }
+  ],
+  "rejected": [
+    { "term": "barcelona nightlife", "volume": "100-1K", "why": "English phrase, no natural German sentence uses it; dropped rather than forced in" }
+  ]
+}

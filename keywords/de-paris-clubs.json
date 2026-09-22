@@ -1,0 +1,13 @@
+{
+  "page": "de/clubs-paris.html",
+  "seed": "beste clubs in paris",
+  "source": "Google Ads Keyword Planner, owner's account, country Germany, 22 September 2026 (tool switch, KEYWORD-METHOD.md). Ranges, not points: the account has no ad spend.",
+  "note": "German searchers use the same 'clubs in paris' phrasing as English rather than a German-only term; 'beste clubs in paris' typed into the tool returned the same row as 'best clubs in paris' rather than a separate German-language match. The page's actual grammar is 'die besten Clubs in Paris' (inflected superlative), not the bare phrase 'beste clubs in paris', so the map targets the string that is really on the page.",
+  "terms": [
+    { "term": "besten clubs in paris", "volume": "100-1K" },
+    { "term": "clubs in paris", "volume": "100-1K" }
+  ],
+  "rejected": [
+    { "term": "paris nightlife", "volume": "10-100", "why": "English phrase, no natural German sentence uses it; dropped rather than forced in" }
+  ]
+}

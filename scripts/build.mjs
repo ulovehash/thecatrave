@@ -41,6 +41,8 @@ export const generators = [
   'build-acid-house-article.mjs',
   'build-grime-article.mjs',
   'build-europe-festivals-article.mjs',
+  'build-paris-clubs-article.mjs',
+  'build-barcelona-clubs-article.mjs',
   // after the English generators: a translation's Read Next reads its own
   // language's catalogue, but its reading times are taken from the pages the
   // localized generator itself writes, so it only has to precede the indexes

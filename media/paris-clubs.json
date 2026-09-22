@@ -1,0 +1,23 @@
+{
+  "page": "best-clubs-in-paris.html",
+  "seed": "best clubs in paris",
+  "source": "FIGURES.md adapted from people to clubs, 2026-09-22, tool switch in effect: search demand from Google Ads Keyword Planner and live Google search rather than Ahrefs (KEYWORD-METHOD.md). S1 search demand; S4 the consensus lists actually read (RA's 2026 guide, Time Out Paris, Do It In Paris, Tripadvisor's 15 Best, access.sb's Top 10, read only as an aggregate web-search snippet, not each list in full); S5 history (English Wikipedia and press for Le Palace, Les Bains Douches, Fabrice Emaer; Resident Advisor, DJ Mag and Calrave for Rex Club). Rule: required means 3+ sources or S5 at all.",
+  "required_records": [
+    { "title": "Le Palace", "artist": "club, 1978-early 1980s", "why": "opened 1 March 1978 by Fabrice Emaer, one of the two rooms that invented Paris nightclubbing as spectacle (S5)", "sources": ["wikipedia", "musee-ysl", "guardian"], "no_embed_reason": "a club, closed; no working room or recording survives" },
+    { "title": "Les Bains Douches", "artist": "club, 1978-2010", "why": "opened December 1978 in a former 1885 bathhouse; the Studio 54 of Paris (S5)", "sources": ["wikipedia", "culture-crush", "metropolis-magazine", "guardian"], "embed_note": "exterior photograph only; the interior no longer exists as a club" },
+    { "title": "Rex Club", "artist": "club, 1988-", "why": "opened 1988 at the start of the acid house wave; the only club on this page open continuously since (S1, S4 via RA, S5)", "sources": ["search", "ra", "djmag", "calrave"], "no_embed_reason": "a club; its French connection is carried by the Dégénération remix below" },
+    { "title": "Dégénération (Remix)", "artist": "Mylène Farmer, remixed by thecatrave", "why": "the owner's own remix of a major French pop record, placed beside Rex Club as the page's French musical connection, not as a claim that the original was played there", "sources": ["owner"], "embed_id": "mylene-farmer-degeneration" },
+    { "title": "Badaboum", "why": "named by 2 of the 4 consensus lists read this pass (RA, Tripadvisor), with a real description read from RA rather than a name-only mention", "sources": ["ra", "tripadvisor"], "no_embed_reason": "a club" },
+    { "title": "Essaim", "why": "named by 2 of the 4 consensus lists read this pass (RA, Do It In Paris), both via the Canal Saint-Martin cluster, with a real description read from RA", "sources": ["ra", "doitinparis"], "no_embed_reason": "a club" },
+    { "title": "La Station", "why": "named once (RA), included on strength of a distinctive, actually-read description (a former coal train station, Gare des Mines, queer and grassroots collectives) rather than the site's usual 3-source bar", "sources": ["ra"], "no_embed_reason": "a club" }
+  ],
+  "optional_records": [
+    { "title": "Fvtvr", "sources": ["ra", "doitinparis"], "why": "named by 2 of the 4 consensus lists read this pass, but no description was read for it; left out of the visible table for that reason" },
+    { "title": "La Java", "sources": ["ra"], "why": "named once, no description read; left out of the visible table" }
+  ],
+  "known_gaps": [
+    { "title": "Time Out Paris and access.sb full lists", "why": "read only as aggregate web-search snippets, not opened and read in full; a name either list carries that this page omits would be a real gap, not yet checked" },
+    { "title": "Rex Club and specific artists (Daft Punk, Laurent Garnier)", "why": "one low-authority ticketing site (outgoing.world) names them as having 'made history' at Rex Club; not corroborated by a second source, so the claim is left out of the article rather than printed on one source" },
+    { "title": "Le Palace's closing date", "why": "sources agree Emaer died in 1983 after falling ill in 1982, but no source read gives an exact closing date for the club itself" }
+  ]
+}

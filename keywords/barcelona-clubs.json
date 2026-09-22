@@ -1,0 +1,25 @@
+{
+  "page": "best-clubs-in-barcelona.html",
+  "seed": "best clubs in barcelona",
+  "source": "Two tools disagree by an order of magnitude and both are on record. Ahrefs keywords-explorer (2026-09-22): best clubs in barcelona 400 US / 2,000 global, clubs in barcelona 600 US / 3,000 global, barcelona nightlife 1,900 US / 5,300 global (the single largest head term across every city checked that day). Google Ads Keyword Planner, same day, owner's account, US, no ad spend so returned as ranges: best clubs in barcelona 1K-10K, clubs in barcelona 1K-10K, barcelona nightlife 100-1K. The numbers below are the Ahrefs global-volume points, kept for the existing keywords/*.json convention; the Keyword Planner ranges are the record of what the other tool showed, not merged into one figure. Full trail in TOPIC-DOSSIERS.md and barcelona-clubs-research.md.",
+  "note": "Barcelona has the widest open SERP of the three cities checked: several editorial pages in the top 10 for 'best clubs in barcelona' carry 0 referring domains. 'Clubs' collides with cannabis/weed clubs, sex/swinger clubs, padel clubs, wine clubs and social clubs in the matching-terms data, all excluded below. This page's intent is distinct from the site's existing /sonar-festival-barcelona and /primavera-sound-barcelona pages, which target festivals, not year-round clubs.",
+  "terms": [
+    { "term": "best clubs in barcelona", "volume": 2000 },
+    { "term": "clubs in barcelona", "volume": 3000 },
+    { "term": "barcelona nightlife", "volume": 5300 },
+    { "term": "best techno clubs in barcelona", "volume": 30 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (best clubs in barcelona, US, 50 rows), Google Ads Keyword Planner (best clubs in barcelona, clubs in barcelona, barcelona nightlife, US, owner's account), live Google SERP and PAA on 'best clubs in barcelona', 2026-09-22",
+  "rejected": [
+    { "term": "best cannabis clubs in barcelona", "volume": 0, "why": "collision, a different kind of club entirely" },
+    { "term": "best weed clubs in barcelona", "volume": 0, "why": "collision" },
+    { "term": "best gay clubs in barcelona", "volume": 0, "why": "a separate angle, not this page" },
+    { "term": "best swinger clubs in barcelona", "volume": 0, "why": "collision" },
+    { "term": "best padel clubs in barcelona", "volume": 0, "why": "sports clubs, a pure collision on the word 'clubs'" },
+    { "term": "best wine clubs in barcelona", "volume": 0, "why": "collision" },
+    { "term": "best social clubs in barcelona", "volume": 0, "why": "collision" },
+    { "term": "best underground clubs in barcelona", "volume": 0, "why": "no measurable volume despite matching intent" },
+    { "term": "best clubs in barcelona for tourists", "volume": 0, "why": "no measurable volume despite matching intent" },
+    { "term": "best clubs in barcelona reddit", "volume": 0, "why": "navigational toward a specific forum thread, not this page" }
+  ]
+}

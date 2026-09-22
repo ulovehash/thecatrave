@@ -1296,3 +1296,181 @@ brostep 1 100, dnb radio 800.
 FIGURES.md не запускались по указанию владельца. Breakbeat hardcore и UK
 pirate radio отдельными страницами не делать: только внутри существующих
 гайдов (решение портфеля 2026-09-22).
+
+---
+
+## Клубы Парижа, Брюсселя, Барселоны + сезонные фестивали (2026-09-22)
+
+Кандидаты по запросу владельца: best clubs in Paris/Brussels/Barcelona, best
+winter/autumn/spring/summer festivals. Шаг 0: ни один термин не в
+TAKEN-KEYWORDS.md. Стадии пройдены везде: 1 (веб-поиск), 2 (matching terms с
+классами), 4 (SERP головы, US, только для жизнеспособных кандидатов). Стадии
+3, 5 и 6 не пройдены нигде — вердикта нет.
+
+- Best clubs in Paris. Веб первым: RA (ra.co/guides/clubs-in-paris: Essaim,
+  La Station, Badaboum, Rex Club), Timeout, Tripadvisor, access.sb,
+  doitinparis, europenightlife.com. Overview US: best clubs in paris 200
+  (1 000 global), clubs in paris 300 (1 700), paris nightlife 700 (1 900);
+  GB: 150/300/400. Matching terms (US, 50 строк) — голова перегружена
+  неоднозначным словом clubs: jazz clubs (150, parent «jazz club paris» —
+  отдельный интент), strip/swinger/sex clubs, track & field/padel clubs,
+  comedy clubs, gay clubs. Слушательский хвост тонкий и почти без объёма:
+  best night clubs in paris 30 (150), best edm clubs in paris 0, best clubs
+  in paris for tourists 0, the best clubs in paris 0 — весь реальный объём
+  сидит в голове, не в хвосте. SERP US best clubs in paris: 3 статейных слота
+  у слабых страниц — RA (поз. 4, 1 RD), Timeout (поз. 5, 13 RD), doitinparis
+  (поз. 10, 2 RD); Reddit держит поз. 2 и 7 (UGC), Tripadvisor (поз. 6, 1 807
+  RD) и access.sb (поз. 9, 1 789 RD) — агрегаторы-листинги, не редакционные
+  гайды. PAA: What is the best nightclub in Paris? / Where is the best
+  nightlife in Paris? / Is Paris good for clubbing? / What is the most
+  exclusive club in Paris? Winnable по правилу §4 (слабейшая редакционная
+  страница — RA с 1 RD). Похоже на паттерн Berlin/London
+  (keywords/berlin-clubs.json, best-electronic-music-clubs-in-london.html) —
+  оба уже написаны и одобрены. Не проверено: also_talk_about/also_rank_for
+  (стадия 3), competitor mining RA/Timeout/doitinparis (стадия 5), GB SERP.
+- Best clubs in Barcelona. Веб: RA (ra.co/guides/clubs-in-barcelona:
+  Macarena Club, Input, Nitsa Club, Sala Razzmatazz), Timeout, barcelonahacks,
+  barcelona-life, studentfy. Overview US: best clubs in barcelona 400
+  (2 000 global), clubs in barcelona 600 (3 000), barcelona nightlife 1 900
+  (5 300 global) — самая крупная голова из трёх городов, сопоставима по
+  порядку величины с «berlin nightlife»/«london clubs». GB: 300/500/800.
+  Matching terms — та же ловушка clubs: swinger/sex/cannabis/weed/padel/wine/
+  social clubs, gay clubs. Жанрово релевантный хвост найден, но без объёма:
+  best techno clubs in barcelona 10 (30), best underground clubs in
+  barcelona 0 — подтверждает, что объём живёт в голове. SERP US best clubs in
+  barcelona: больше открытых слотов, чем в Париже — studentfy (поз. 6, 0
+  RD), barcelona.com (поз. 7, 31 RD), wherestherooftop (поз. 8, 3 RD),
+  youbarcelona (поз. 9, 0 RD, но Landing Page, не статья), savoringtravel
+  (поз. 10, 0 RD); barcelona-life (поз. 5, 39 RD) сильнее остальных;
+  Tripadvisor (поз. 4, 4 RD) слабый листинг. PAA: What is the most popular
+  nightclub in Barcelona? / Which club is the best in Barcelona? / Is
+  Barcelona good for clubbing? / What is the best area in Barcelona for
+  nightlife? Winnable, самый выигрышный из трёх городов и по объёму головы, и
+  по числу слотов с RD=0. Не проверено: стадии 3 и 5, GB SERP, пересечение с
+  уже написанным /sonar-festival-barcelona и /primavera-sound-barcelona
+  (разный интент — фестиваль vs клубы, один город, проверить каннибализацию
+  на стадии 6).
+- Best clubs in Brussels. Веб: Fuse, C12, Bloody Louis, Mirano Continental.
+  Overview US: best clubs in brussels 10 (150 global), clubs in brussels 40
+  (350), brussels nightlife 150 (1 200); GB: 20/70/300. На порядок меньше
+  Парижа и Барселоны при том же объёме работы. Matching terms — почти весь
+  хвост про brussels nightlife (районы, дресс-код, сравнение с Амстердамом),
+  жанровый хвост (techno clubs in brussels, edm clubs in brussels) без
+  измеримого объёма. SERP US brussels nightlife: winnable (accor Limitless
+  поз. 5, 2 RD; Tripadvisor поз. 6, 18 RD; getyourguide поз. 10, 0 RD;
+  eventbrite поз. 9, 0 RD), но потолок трафика намного ниже — сопоставимо с
+  самыми слабыми фрагментами берлинского/лондонского досье, не с их головой.
+  Кандидат слабый как отдельная страница; рассмотреть как раздел внутри более
+  широкого Benelux/Belgium гайда, а не отдельный URL. Стадии 3, 5, 6 не
+  пройдены.
+- Best winter/autumn/spring/summer festivals. Отклонено на стадии 2 —
+  «relevant shortlist has no measurable demand» (KEYWORD-METHOD.md §0).
+  Overview US/global: best winter festivals 20 (30, parent topic «winter
+  activities» — коллизия, не про фестивали), winter music festivals 200
+  (300), best summer festivals 40 (70, parent «best summer festivals in the
+  us»), summer music festivals 900 (1 300, parent topic «music festivals
+  2026» — датированный/навигационный кластер, не собственный интент), best
+  autumn festivals 0, autumn music festivals 0, fall music festivals 150
+  (150, весь спрос US), best spring festivals 0, spring music festivals 90
+  (100). Головы либо нулевые, либо поглощены посторонним parent topic. Веб-
+  поиск подтверждает второй провал независимо от объёма: результаты по всем
+  четырём сезонам (EF, Timeout US, Garden & Gun, TicketSwap, authentikusa,
+  vocal.media) — это жанрово-смешанные списки (рок, кантри, джаз, EDM
+  вперемешку: Bonnaroo, Stagecoach, ACL, Louder Than Life, Jazz Fest), не
+  электронная музыка — тот же wrong-audience-intent трюк, что и
+  производственный контент, только по жанру, а не по интенту слушатель/
+  продюсер. Правильный масштаб этой идеи уже сделан точнее:
+  /best-electronic-music-festivals-europe (опубликован 2026-09-22,
+  электронный жанр + регион вместо жанрово-смешанного сезона. Дальнейшие
+  стадии не нужны — объёма для отдельной сезонной страницы нет ни при каком
+  угле.
+- Ahrefs этого прохода: 9 вызовов (overview ×4, matching-terms ×4,
+  serp-overview ×3), ~1 485 units. Баланс после: workspace 87 410/800 000
+  (~11%), сброс 2026-10-20.
+- **Google Ads Keyword Planner (браузер, реальный аккаунт владельца
+  299-844-2842, US, All languages, Google, за 12 мес, 2026-09-22)** — по
+  прямой просьбе владельца, вместо Ahrefs. Аккаунт без активных расходов,
+  поэтому Google отдаёт диапазоны, не точные числа: best clubs in paris
+  1K–10K, clubs in paris 1K–10K, paris nightlife 100–1K, best clubs in
+  barcelona 1K–10K, clubs in barcelona 1K–10K, barcelona nightlife 100–1K,
+  best clubs in brussels 10–100, clubs in brussels 100–1K, brussels
+  nightlife 100–1K, best winter festivals 10–100, winter music festivals
+  100–1K, best summer festivals 10–100, summer music festivals 1K–10K, best
+  autumn festivals 100–1K, fall music festivals 100–1K, best spring
+  festivals 10–100, spring music festivals 10–100. Не совпадает точечно с
+  Ahrefs (пример: best clubs in paris здесь 1K–10K против 200 в Ahrefs; best
+  autumn festivals здесь 100–1K против 0 в Ahrefs) — ожидаемо, разная
+  методология (broad-match у Google Ads без расходов на аккаунте против
+  clickstream exact-match у Ahrefs), не повод выбрасывать любой из двух.
+  Вывод по сезонным фестивалям не меняется несмотря на более высокие цифры
+  Google Ads: живой Google SERP (см. выше) для всех четырёх сезонов не
+  содержит танцевальной музыки на голове вообще — объём здесь принадлежит
+  катку/тюльпанам/тыквам/кантри-фестивалям, не жанру сайта.
+- **Решение владельца 2026-09-22: писать 3 статьи** — best clubs in Paris,
+  best clubs in Barcelona (Brussels отложен, слишком маленький объём), и
+  winter festivals. Исследовательские пакеты (SERP/PAA живым Google,
+  Google Ads Keyword Planner вместо Ahrefs, консенсус-листы конкурентов,
+  историческая привязка, черновой decision gate по §4
+  `ARTICLE-PRODUCTION-WORKFLOW.md`) — в `paris-clubs-research.md`,
+  `barcelona-clubs-research.md`, `best-winter-music-festivals-research.md`.
+  Для winter festivals голая фраза «best winter festivals» отклонена (0
+  музыки в живой выдаче, см. выше); страница переориентирована на «winter
+  music festivals» / «best winter music festivals» по образцу
+  `best-electronic-music-festivals-europe` — жанровый скоуп, не сезонный.
+  «tomorrowland winter» уже занят `tomorrowland-festival.html` и
+  `fr/festival-tomorrowland.html` — фестиваль можно назвать в списке, но не
+  таргетировать фразу. Ни одна из трёх тем не прошла стадию 6 (Validation)
+  и не получила окончательного decision gate — три файла выше это черновики
+  для обсуждения с владельцем, не одобренный план.
+- **Реализовано 2026-09-22: Paris и Barcelona clubs, en/de/fr.** Владелец
+  одобрил Paris и Barcelona (Brussels и winter festivals отложены).
+  Опубликованы (собраны, не запушены до отдельного разрешения):
+  `/best-clubs-in-paris`, `/best-clubs-in-barcelona`,
+  `/de/clubs-paris`, `/de/clubs-barcelona`,
+  `/fr/boite-de-nuit-paris`, `/fr/boite-de-nuit-barcelone`.
+  Артефакты: `paris-clubs-draft.md`/`barcelona-clubs-draft.md` +
+  `de/`/`fr/` черновики, `build-paris-clubs-article.mjs`/
+  `build-barcelona-clubs-article.mjs`, `keywords/*paris-clubs*.json` и
+  `*barcelona-clubs*.json` (en/de/fr, Google Ads Keyword Planner вместо
+  Ahrefs), `media/paris-clubs.json`/`media/barcelona-clubs.json`
+  (FIGURES.md адаптация под клубы). Картинки: Rex Club/Nicolas Jaar (CC BY
+  2.0), Les Bains Douches entrance (CC BY-SA 4.0), Razzmatazz exterior (CC0)
+  — все с Wikimedia Commons, лицензии проверены, скачаны в img/paris-clubs/
+  и img/barcelona-clubs/. OG-карточки сгенерированы штатным
+  `scripts/build-og-cards.py`. `node scripts/build.mjs` и все 19 audit'ов
+  (`node audit-all.mjs`) зелёные, `npm run check:html` и
+  `npm run check:layout` (286 тестов) зелёные. Незакрыто: своя стадия 6
+  (Validation) ни по одной из тем не пройдена отдельным проходом; Time Out
+  Paris и access.sb полные списки не читались целиком (только агрегированные
+  сниппеты веб-поиска); каннибализация с `/sonar-festival-barcelona` и
+  `/primavera-sound-barcelona` не проверена напрямую.
+- **Решение владельца 2026-09-22: перевод остальных 16 гайдов без de/fr
+  (breakbeat, jungle, uk-electronic, german-electronic, bass-music,
+  how-to-find-new-music, uk-garage, best-boiler-room-sets, live-dj-sets, edc,
+  creamfields, ultra, lollapalooza, acid-house, grime, europe-festivals)
+  отложен на отдельную сессию — слишком большой объём для этого прохода.
+- **Живая проверка PAA в Google (браузер, US/en, 2026-09-22)** — по просьбе
+  владельца, вместо/в дополнение к PAA из Ahrefs SERP. «best clubs in
+  paris»: What is the best nightclub in Paris? / What area of Paris is best
+  for nightlife? / What is the #1 nightclub in the world? / What are the
+  coolest bars in Paris? — не совпадает с PAA из Ahrefs (та выдача менялась
+  между снятиями, ожидаемо). «best clubs in barcelona»: те же 4 вопроса, что
+  и в Ahrefs (совпало). «brussels nightlife»: What are the top 5 nightlife
+  cities in Europe? / Is the Red Light District in Brussels? / Is the
+  nightlife good in Brussels? / Do and don'ts in Belgium? — один из
+  комментариев Reddit в живой выдаче: «We have 3 dedicated techno club» —
+  анекдотическое подтверждение техно-сцены, не объём. Сезонные фестивали:
+  живой SERP подтверждает и усиливает отказ Ahrefs — «best winter festivals»
+  топ-10 целиком про снежные/ледовые ивенты и туризм штатов (Quebec Winter
+  Carnival, Ouray Ice Festival, Zehnder's Snowfest) — ни одного музыкального
+  результата; «best autumn festivals» целиком про урожай/тыквы/окуумарин
+  (corn mazes, Oktoberfest, Diwali, Day of the Dead) — тоже без музыки;
+  «best spring festivals» — цветение вишни, тюльпаны, Fiesta San Antonio,
+  New Orleans Jazz Fest как единственный музыкальный пункт среди
+  цветочных ивентов; «best summer festivals» — жанрово смешано (CMA Fest,
+  Bonnaroo, Newport Folk/Jazz, Summerfest), но здесь хотя бы «best EDM music
+  festivals in the US» всплыл в «people also search for» — потенциальный
+  отдельный жанрово-скоуп­нутый кандидат на будущее (не то, что просили
+  сейчас). Вывод не меняется: ни один из четырёх сезонов не даёт слота для
+  танцевальной музыки на голове; отклонение подтверждено дважды, разными
+  источниками.

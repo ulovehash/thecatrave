@@ -1,0 +1,25 @@
+{
+  "page": "best-clubs-in-paris.html",
+  "seed": "best clubs in paris",
+  "source": "Two tools disagree by an order of magnitude and both are on record. Ahrefs keywords-explorer (2026-09-22): best clubs in paris 200 US / 1,000 global, clubs in paris 300 US / 1,700 global, paris nightlife 700 US / 1,900 global. Google Ads Keyword Planner, same day, owner's account, US, no ad spend so returned as ranges: best clubs in paris 1K-10K, clubs in paris 1K-10K, paris nightlife 100-1K. The numbers below are the Ahrefs global-volume points, kept for the existing keywords/*.json convention; the Keyword Planner ranges are the record of what the other tool showed, not merged into one figure. Full trail in TOPIC-DOSSIERS.md and paris-clubs-research.md.",
+  "note": "'Clubs' is an overloaded word in Paris matching-terms data: jazz clubs, comedy clubs, strip/swinger clubs, track and field clubs and gay clubs all share the head phrase and are excluded below. The real volume sits in the three head terms, not in the long tail: 'best night clubs in paris', 'best clubs in paris for tourists' and 'best edm clubs in paris' all measured at 0-150, so the page's headings stay close to the head terms rather than chasing thin variants.",
+  "terms": [
+    { "term": "best clubs in paris", "volume": 1000 },
+    { "term": "clubs in paris", "volume": 1700 },
+    { "term": "paris nightlife", "volume": 1900 },
+    { "term": "best night clubs in paris", "volume": 150 },
+    { "term": "the best clubs in paris", "volume": 0 }
+  ],
+  "expansion_checked": "keywords-explorer-matching-terms (best clubs in paris, best clubs in barcelona, US, 50 rows each), Google Ads Keyword Planner (best clubs in paris, clubs in paris, paris nightlife, US, owner's account), live Google SERP and PAA on 'best clubs in paris', 2026-09-22",
+  "rejected": [
+    { "term": "best jazz clubs in paris", "volume": 300, "why": "a different genre; jazz clubs, not electronic or dance" },
+    { "term": "best gay clubs in paris", "volume": 0, "why": "a separate angle, not this page" },
+    { "term": "best swinger clubs in paris", "volume": 0, "why": "collision, not a nightclub query" },
+    { "term": "best strip clubs in paris", "volume": 0, "why": "collision" },
+    { "term": "best clubs track and field in paris", "volume": 0, "why": "sports clubs, a pure collision on the word 'clubs'" },
+    { "term": "best comedy clubs in paris", "volume": 0, "why": "collision" },
+    { "term": "best clubs in paris for tourists", "volume": 0, "why": "no measurable volume despite matching intent" },
+    { "term": "best edm clubs in paris", "volume": 0, "why": "no measurable volume; the genre angle exists in search phrasing but not at scale" },
+    { "term": "best clubs in paris reddit", "volume": 0, "why": "navigational toward a specific forum thread, not this page" }
+  ]
+}

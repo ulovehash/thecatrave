@@ -1,0 +1,23 @@
+{
+  "page": "best-clubs-in-barcelona.html",
+  "seed": "best clubs in barcelona",
+  "source": "FIGURES.md adapted from people to clubs, 2026-09-22, tool switch in effect: search demand from Google Ads Keyword Planner and live Google search rather than Ahrefs (KEYWORD-METHOD.md). S1 search demand; S4 the consensus lists actually read (RA's 2026 guide, Tripadvisor's 15 Best, barcelona-life, barcelona.com, read only as aggregate web-search snippets, not each list in full); S5 history (Wikipedia and trade press for Razzmatazz and Zeleste; Sala Apolo's own site, Primavera Sound's retrospective and The New Barcelona Post for Sala Apolo/Nitsa; Resident Advisor's own feature and Barcelona Tourist Guide for Macarena Club). Rule: required means 3+ sources or S5 at all.",
+  "required_records": [
+    { "title": "Zeleste", "artist": "venue, 1973-2000", "why": "the live-music room Razzmatazz was built to replace (S5)", "sources": ["webarcelona", "turisme-catalunya"], "no_embed_reason": "closed; no recording from the venue itself was found" },
+    { "title": "Razzmatazz", "artist": "club, 2000-", "why": "Barcelona's biggest club, five rooms; S1 5,300 (barcelona nightlife, its parent topic), S4 x3, S5", "sources": ["search", "ra", "tripadvisor", "barcelona.com", "wikipedia"], "no_embed_reason": "a club; the exterior photograph carries this entry" },
+    { "title": "Sala Apolo", "artist": "venue since early 1900s", "why": "the building Nitsa runs inside, S5", "sources": ["new-barcelona-post"], "no_embed_reason": "a venue; the club night inside it is the record below" },
+    { "title": "Nitsa", "artist": "club night, 1993-", "why": "one of Barcelona's first electronic club nights, S4, S5", "sources": ["ra", "djmag", "primavera-sound", "sala-apolo"], "no_embed_reason": "a club night; no set from it was verified against a licensed embed this pass" },
+    { "title": "Macarena Club", "artist": "club, refurbished 2001 on a site used since the 1920s", "why": "S4 x4, the most-corroborated venue outside Razzmatazz", "sources": ["ra", "tripadvisor", "crowdmate", "barcelona-tourist-guide"], "no_embed_reason": "a club; small enough that no verified set embed was found" },
+    { "title": "Moog", "artist": "club", "why": "S4 x3", "sources": ["ra", "tripadvisor", "barcelona.com"], "no_embed_reason": "a club" }
+  ],
+  "optional_records": [
+    { "title": "Input", "sources": ["ra"], "why": "named once, on RA's own guide" },
+    { "title": "La Terrrazza", "sources": ["ra", "barcelona.com"], "why": "named by 2 of the 4 consensus lists read this pass" },
+    { "title": "Opium Barcelona / Opium Mar", "sources": ["tripadvisor", "barcelona.com"], "why": "named by 2 of the 4 consensus lists read this pass; a beach-club angle, kept out of the main table for that reason" }
+  ],
+  "known_gaps": [
+    { "title": "Nitsa's founding year", "why": "DJ Mag and Primavera Sound's own retrospective say 1994; Sala Apolo's current site says 1993. Recorded as 'unresolved between sources' in the article rather than silently picking one." },
+    { "title": "Full Tripadvisor and barcelona.com lists", "why": "read only as aggregate web-search snippets, not opened and read in full; a name either list carries that this page omits would be a real gap, not yet checked" },
+    { "title": "Cannibalisation with /sonar-festival-barcelona and /primavera-sound-barcelona", "why": "both are festival pages, a different intent from year-round clubs, but no direct check for overlapping anchors, FAQ questions or keywords has been run" }
+  ]
+}

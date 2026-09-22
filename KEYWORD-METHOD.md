@@ -9,6 +9,43 @@ omit; `WRITING.md` carries the rules no audit can enforce.
 
 Each of them exists because the work was once done from memory and was wrong.
 
+## Tool switch, 2026-09-22
+
+Everything below describes the Ahrefs-based pass and stays as the documented
+method: it is the fallback, and the reasoning about intent traps, winnability
+and stopping points applies regardless of which tool supplies the numbers.
+
+Going forward, the default source for volume and People Also Ask is no longer
+the Ahrefs API. The owner's instruction: use Google Ads Keyword Planner
+(signed into the owner's own account, driven live through the browser) for
+volume, and a live Google search in the browser for PAA, related searches and
+SERP composition, instead of `keywords-explorer-overview`/`matching-terms`/
+`serp-overview`. Reasons observed the same day: Keyword Planner without
+account spend returns bucketed ranges rather than points, which is coarser
+than Ahrefs but comes straight from Google rather than a third-party
+clickstream model; the two disagreed by an order of magnitude on more than one
+term in the first side-by-side (e.g. "best clubs in paris": 200/mo in Ahrefs,
+1K-10K in Keyword Planner; "best autumn festivals": 0 in Ahrefs, 100-1K in
+Keyword Planner), so neither is a silent stand-in for the other and a dossier
+entry should say which one a number came from.
+
+Practical differences this changes:
+- No Ahrefs unit budget to track for a browser-only pass; skip the
+  `subscription-info-limits-and-usage` balance check for passes that use only
+  Keyword Planner and live search.
+- Matching-terms/related-terms expansion is replaced by reading Keyword
+  Planner's own keyword-idea suggestions (when using "Discover new keywords")
+  and Google's "People also search for" / "People also ask" boxes on the live
+  SERP, read with the browser tools, not pulled through the Ahrefs connector.
+- Competitor mining (`site-explorer-organic-keywords`, stage 5) has no direct
+  Google Ads equivalent; keep doing it by reading the live SERP and the
+  competitor pages themselves in the browser.
+- Still batch keywords into one Keyword Planner submission per pass rather
+  than one keyword per query, for the same reason batching mattered for
+  Ahrefs: fewer round trips, one comparable table.
+- Log which tool produced each number in `TOPIC-DOSSIERS.md`. Do not merge an
+  Ahrefs figure and a Keyword Planner figure into one unlabelled value.
+
 ## First, what this cannot do
 
 There is no search demand for the artist. "thecatrave" is not in Ahrefs at all;
