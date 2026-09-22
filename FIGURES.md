@@ -48,8 +48,8 @@ history and origins sections, its cited sources, and the earliest releases on
 Discogs. Founders often released a handful of records on a label that folded.
 This source exists because sources 1 to 4 are all biased towards the famous.
 
-**6. Our own catalogue.** Artists carrying the genre tag across 62,877 sets,
-ranked by how many sets each has. Nobody else has this. It cannot find founders,
+**6. Our own catalogue.** Artists carrying the genre tag across every set in
+`selector-data.json`, ranked by how many sets each has. Nobody else has this. It cannot find founders,
 because the catalogue starts in 2012, but it does show who is playing the music
 now, which is the half a historical guide usually gets wrong.
 

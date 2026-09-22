@@ -2,8 +2,9 @@
 
 A static site about its owner and whatever interests them: long guides on dance
 music and club culture (UK genres so far, but not limited to them), plus the
-Selector, a tool that plays one of 62,877 recorded DJ sets at random. Written
-for **listeners**. The owner is a working breakbeat and jungle producer.
+Selector, a tool that plays one of the recorded DJ sets in `selector-data.json`
+at random. Written for **listeners**. The owner is a working breakbeat and
+jungle producer.
 
 ## Read the file that governs the task, before starting it
 
