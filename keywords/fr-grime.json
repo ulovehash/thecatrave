@@ -1,0 +1,25 @@
+{
+  "page": "fr/grime.html",
+  "seed": "grime musique",
+  "source": "free live French SERP qualification in DuckDuckGo's France region, 22 September 2026, because google.fr answered with a bot check; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "grime",
+      "volume": "not measured",
+      "note": "fr.wikipedia 'Grime' ranks first"
+    },
+    {
+      "term": "musique grime",
+      "volume": "not measured",
+      "note": "the query 'grime musique' in natural French order; the FAQ asks 'Qu’est-ce que la musique grime ?'"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/grime.json.",
+  "rejected": [
+    {
+      "term": "grime beats",
+      "volume": "not measured",
+      "why": "production intent, out under WRITING.md"
+    }
+  ]
+}

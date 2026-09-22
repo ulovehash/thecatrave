@@ -357,6 +357,30 @@ export const germanArticleCatalog = [
     image:'img/spotify-playlists/playlist-still-life-320.webp',
     srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
     width:1200, height:800, alt:'Kabelkopfhörer, ein tragbarer Musikplayer und transparente Hüllen auf einem zerkratzten Clubtisch'
+  },
+  {
+    page:'de/acid-house.html', tags:['history','uk','house','techno'], href:'/de/acid-house', type:'Guide', topic:'Acid House',
+    title:'Was ist Acid House? Von der TB-303 in Chicago zum britischen Rave',
+    description:'Eine Bassmaschine für 40 Dollar, drei Freunde in Chicago, ein DJ, der ihr Band in einer Nacht viermal spielte, und die britische Bewegung, die sich den Namen lieh.',
+    image:'img/acid-house/roland-tb303-1982-320.webp',
+    srcset:'img/acid-house/roland-tb303-1982-320.webp 320w,img/acid-house/roland-tb303-1982-1200.webp 1200w',
+    width:1200, height:800, alt:'Nahaufnahme des Bedienfelds einer Roland TB-303 Bass Line'
+  },
+  {
+    page:'de/grime.html', tags:['uk','history','bass','jungle'], href:'/de/grime', type:'Guide', topic:'Grime',
+    title:'Was ist Grime? Sound, Geschichte, Künstler und wichtige Tracks',
+    description:'Kalte Instrumentals bei 140 BPM, Piratenradio, Crews und Clashes aus dem Osten Londons, und der nie beigelegte Streit darüber, wer damit anfing.',
+    image:'img/grime/wiley-flowdan-2005-320.webp',
+    srcset:'img/grime/wiley-flowdan-2005-320.webp 320w,img/grime/wiley-flowdan-2005-1200.webp 1200w',
+    width:1200, height:796, alt:'Zwei MCs von Roll Deep 2005 auf einer dunklen Bühne in New York'
+  },
+  {
+    page:'de/electro-festivals-europa.html', tags:['discovery','techno','house','history'], href:'/de/electro-festivals-europa', type:'Liste', topic:'Festivals in Europa',
+    title:'Die besten Electro-Festivals in Europa 2027 im Vergleich',
+    description:'Vierzehn große und sieben kleinere Festivals, von Tomorrowland bis Garbicz, verglichen nach Sound, Größe, Umgebung und Terminen 2027.',
+    image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
+    srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'Publikum bei Tag unter dem Stahldach der Futur Stage beim Kappa FuturFestival in Turin'
   }
 ];
 
@@ -458,6 +482,30 @@ export const frenchArticleCatalog = [
     image:'img/spotify-playlists/playlist-still-life-320.webp',
     srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
     width:1200, height:800, alt:'Un casque filaire, un lecteur de musique portable et des boîtiers translucides sur une table de club rayée'
+  },
+  {
+    page:'fr/acid-house.html', tags:['history','uk','house','techno'], href:'/fr/acid-house', type:'Guide', topic:'Acid house',
+    title:'Qu’est-ce que l’acid house ? De la TB-303 aux raves britanniques',
+    description:'Une machine à basse à 40 dollars, trois amis à Chicago, un DJ qui a passé leur cassette quatre fois dans la nuit, et le mouvement britannique qui a repris le nom.',
+    image:'img/acid-house/roland-tb303-1982-320.webp',
+    srcset:'img/acid-house/roland-tb303-1982-320.webp 320w,img/acid-house/roland-tb303-1982-1200.webp 1200w',
+    width:1200, height:800, alt:'Gros plan sur le panneau d’une Roland TB-303 Bass Line'
+  },
+  {
+    page:'fr/grime.html', tags:['uk','history','bass','jungle'], href:'/fr/grime', type:'Guide', topic:'Grime',
+    title:'Le grime, c’est quoi ? Son, histoire, artistes et morceaux clés',
+    description:'Des instrumentaux froids à 140 BPM, la radio pirate, les crews et les clashs de l’est de Londres, et la dispute jamais tranchée sur qui l’a lancé.',
+    image:'img/grime/wiley-flowdan-2005-320.webp',
+    srcset:'img/grime/wiley-flowdan-2005-320.webp 320w,img/grime/wiley-flowdan-2005-1200.webp 1200w',
+    width:1200, height:796, alt:'Deux MC de Roll Deep sur une scène sombre à New York en 2005'
+  },
+  {
+    page:'fr/festivals-electro-europe.html', tags:['discovery','techno','house','history'], href:'/fr/festivals-electro-europe', type:'Liste', topic:'Festivals en Europe',
+    title:'Les meilleurs festivals électro en Europe en 2027, comparés',
+    description:'Quatorze grands festivals et sept plus petits, de Tomorrowland à Garbicz, comparés par son, taille, cadre et dates 2027.',
+    image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
+    srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'Un public en plein jour sous la charpente d’acier de la Futur Stage au Kappa FuturFestival, à Turin'
   }
 ];
 

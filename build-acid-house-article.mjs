@@ -16,6 +16,7 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('acid-house-guide-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/acid-house-guide';
@@ -242,6 +243,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/acid-house-guide'),
   ogImage: 'https://thecatrave.com/img/og/acid-house.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page acid-house-page',

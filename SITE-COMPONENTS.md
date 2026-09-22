@@ -181,7 +181,13 @@ A page's own editorial copy never comes from there.
   and the page carries no mixes of the owner's, as the club, genre and Burning
   Man pages do in English), `sections[].tocLabel`, `minReadingMinutes` and
   `image` for the Article schema. Placeholder keys match longest first, as in
-  the English generators.
+  the English generators. A draft paragraph of `- ` lines renders as a list, a
+  section may open straight on its first `###` subheading, `sources[]` entries
+  may be `{html}` when one line groups several links, and `sourcesNote` adds a
+  last Sources line that is not a link (the Europe festivals, acid house and
+  grime translations, 2026-09-22). A translated festival page with next-year
+  dates also needs its own entry in `festival-editions.mjs`, under its
+  translated heading.
 - `pages.mjs` carries `lang` and `translationOf` for translated entries. The
   gate reads them: each page is held to the chrome of its own language, to its
   own keyword map (`keywords/de-<name>.json`), to its own index and Read Next

@@ -1,0 +1,55 @@
+{
+  "page": "de/grime.html",
+  "seed": "grime musik",
+  "source": "free live google.de SERP qualification (results, 'Weitere Fragen', 'Wird auch oft gesucht'), 22 September 2026; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "grime",
+      "volume": "not measured",
+      "note": "de.wikipedia 'Grime' ranks first for the music queries"
+    },
+    {
+      "term": "grime musik",
+      "volume": "not measured",
+      "note": "the query as typed; the page writes 'Grime-Musik'"
+    },
+    {
+      "term": "was ist grime",
+      "volume": "not measured",
+      "note": "the question form"
+    },
+    {
+      "term": "grime künstler",
+      "volume": "not measured",
+      "note": "'Wird auch oft gesucht'; the FAQ asks for the best-known artists"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/grime.json.",
+  "rejected": [
+    {
+      "term": "grime bedeutung",
+      "volume": "not measured",
+      "why": "'Wird auch oft gesucht'; the page explains where the name came from, but the literal meaning of the English word is not on the English page, so it is not claimed"
+    },
+    {
+      "term": "grime deutsch",
+      "volume": "not measured",
+      "why": "German-language grime; not covered by the English page"
+    },
+    {
+      "term": "grime spiel",
+      "volume": "not measured",
+      "why": "collision: the video game GRIME"
+    },
+    {
+      "term": "grime chimney",
+      "volume": "not measured",
+      "why": "collision"
+    },
+    {
+      "term": "grime beats",
+      "volume": "not measured",
+      "why": "production intent (type beats), out under WRITING.md"
+    }
+  ]
+}

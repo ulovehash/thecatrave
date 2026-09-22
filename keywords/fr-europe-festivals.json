@@ -1,0 +1,30 @@
+{
+  "page": "fr/festivals-electro-europe.html",
+  "seed": "festivals électro europe",
+  "source": "free live French SERP qualification in DuckDuckGo's France region, 22 September 2026, because google.fr answered with a bot check; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "festivals électro en europe",
+      "volume": "not measured",
+      "note": "Generation Voyage, Tunetrail and eurotravelo result titles"
+    },
+    {
+      "term": "festivals de musique électronique en europe",
+      "volume": "not measured",
+      "note": "Red Bull France and eurotravelo result titles; the H1 wording"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/europe-festivals.json.",
+  "rejected": [
+    {
+      "term": "festival électro france",
+      "volume": "not measured",
+      "why": "French festivals, a different intent; none is on the English list"
+    },
+    {
+      "term": "festival electro 2026",
+      "volume": "not measured",
+      "why": "stale year variant; the page carries 2027"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('grime-music-guide-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/grime-music-guide';
@@ -255,6 +256,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/grime-music-guide'),
   ogImage: 'https://thecatrave.com/img/og/grime.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page grime-page',

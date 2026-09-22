@@ -21,6 +21,7 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('best-electronic-music-festivals-europe-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/best-electronic-music-festivals-europe';
@@ -260,6 +261,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/best-electronic-music-festivals-europe'),
   ogImage: 'https://thecatrave.com/img/og/europe-festivals.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page europe-festivals-page',

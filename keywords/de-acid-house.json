@@ -1,0 +1,35 @@
+{
+  "page": "de/acid-house.html",
+  "seed": "acid house",
+  "source": "free live google.de SERP qualification (results, 'Weitere Fragen', 'Wird auch oft gesucht'), 22 September 2026; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "acid house",
+      "volume": "not measured",
+      "note": "de.wikipedia ranks first; German writes the genre 'Acid House'"
+    },
+    {
+      "term": "was ist acid house",
+      "volume": "not measured",
+      "note": "the question form; result titles on google.de (Soundtaxi)"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/acid-house.json.",
+  "rejected": [
+    {
+      "term": "acid jazz",
+      "volume": "not measured",
+      "why": "a different genre, shown under 'Weitere Fragen'"
+    },
+    {
+      "term": "acid house 80er",
+      "volume": "not measured",
+      "why": "the searches for decade classics want mixes and playlists, not a history"
+    },
+    {
+      "term": "house musik",
+      "volume": "not measured",
+      "why": "separate intent, as 'house music' is on the English page"
+    }
+  ]
+}

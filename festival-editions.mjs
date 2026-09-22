@@ -29,5 +29,9 @@ export const festivalEditions = [
   // Waking Life unconfirmed on its own site); once all are confirmed, set it
   // to the last one to end (Draaimolen, early September), then roll the page
   // to 2028. Fusion returns in 2028 (28 June to 2 July).
-  {page: 'best-electronic-music-festivals-europe.html', heading: '2027 dates at a glance', ends: null}
+  {page: 'best-electronic-music-festivals-europe.html', heading: '2027 dates at a glance', ends: null},
+  // The German and French translations carry the same dates and roll with the
+  // English page.
+  {page: 'de/electro-festivals-europa.html', heading: 'Termine 2027 im Überblick', ends: null},
+  {page: 'fr/festivals-electro-europe.html', heading: 'Les dates 2027 en un coup d’œil', ends: null}
 ];

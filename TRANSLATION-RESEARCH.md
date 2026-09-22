@@ -1,5 +1,19 @@
 # Translation research
 
+## Acid house, grime and Europe festivals, German and French (2026-09-22)
+
+Six pages: `/de/acid-house`, `/fr/acid-house`, `/de/grime`, `/fr/grime`,
+`/de/electro-festivals-europa` and `/fr/festivals-electro-europe`, listed on
+`/de/artikel` and `/fr/articles`. No Ahrefs units spent: German wording from
+the live google.de results, French from DuckDuckGo's France region because
+google.fr answered with a bot check. Every term is `not measured` in
+`keywords/de-*.json` and `keywords/fr-*.json`. The three English pages changed
+in the head only (hreflang and the language switcher). The Europe pages are
+registered in `festival-editions.mjs`; the earlier festival translations are
+not, logged open as `translated-festival-guides-no-editions-entry`. Decisions:
+`acid-house-translation-research.md`, `grime-translation-research.md`,
+`best-electronic-music-festivals-europe-translation-research.md`.
+
 ## Cost-controlled playlist translation (2026-09-22)
 
 The Best Spotify Playlists article was translated into German and French at

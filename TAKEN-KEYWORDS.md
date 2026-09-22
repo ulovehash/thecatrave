@@ -124,6 +124,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - creamfields attendance
 - what is creamfields
 
+## de/acid-house.html
+
+- acid house
+- was ist acid house
+
 ## de/clubs-berlin.html
 
 - clubs berlin
@@ -172,12 +177,24 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - dubstep musik
 - was ist dubstep
 
+## de/electro-festivals-europa.html
+
+- electro festivals in europa
+- festivals für elektronische musik in europa
+
 ## de/glastonbury-festival.html
 
 - glastonbury
 - glastonbury festival
 - glastonbury festival 2027
 - glastonbury 2027
+
+## de/grime.html
+
+- grime
+- grime musik
+- was ist grime
+- grime künstler
 
 ## de/clubs-london.html
 
@@ -284,6 +301,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - electronic music festivals in europe
 
+## fr/acid-house.html
+
+- acid house
+- l’acid house
+- qu’est-ce que l’acid house
+
 ## fr/boite-de-nuit-berlin.html
 
 - kitkat club berlin
@@ -311,6 +334,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - dubstep
 
+## fr/festivals-electro-europe.html
+
+- festivals électro en europe
+- festivals de musique électronique en europe
+
 ## fr/festival-glastonbury.html
 
 - glastonbury
@@ -318,6 +346,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival glastonbury
 - festival de glastonbury
 - glastonbury 2027
+
+## fr/grime.html
+
+- grime
+- musique grime
 
 ## fr/meilleures-playlists-spotify.html
 

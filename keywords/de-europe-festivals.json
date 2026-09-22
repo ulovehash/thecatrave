@@ -1,0 +1,40 @@
+{
+  "page": "de/electro-festivals-europa.html",
+  "seed": "elektronische musik festivals europa",
+  "source": "free live google.de SERP qualification (results, 'Weitere Fragen', 'Wird auch oft gesucht'), 22 September 2026; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "electro festivals in europa",
+      "volume": "not measured",
+      "note": "the page title; 'Electro Festivals' is the category name at Festival Alarm and in the related searches"
+    },
+    {
+      "term": "festivals für elektronische musik in europa",
+      "volume": "not measured",
+      "note": "Dance-Charts result title 'Die besten Festivals für EDM in Europa' and the H1 wording"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/europe-festivals.json.",
+  "rejected": [
+    {
+      "term": "techno festivals europa",
+      "volume": "not measured",
+      "why": "'Wird auch oft gesucht'; the techno festivals here are a subset, as 'techno festival' is rejected on the English page"
+    },
+    {
+      "term": "techno festival deutschland",
+      "volume": "not measured",
+      "why": "local German listings, a different intent"
+    },
+    {
+      "term": "elektro festival 2026 europa",
+      "volume": "not measured",
+      "why": "stale year variant; the page carries 2027"
+    },
+    {
+      "term": "festivals europa",
+      "volume": "not measured",
+      "why": "multi-genre travel lists (Reisevergnügen); not this page's intent"
+    }
+  ]
+}

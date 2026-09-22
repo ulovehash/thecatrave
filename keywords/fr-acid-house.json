@@ -1,0 +1,35 @@
+{
+  "page": "fr/acid-house.html",
+  "seed": "acid house",
+  "source": "free live French SERP qualification in DuckDuckGo's France region, 22 September 2026, because google.fr answered with a bot check; Ahrefs volume deliberately not requested (owner, 2026-09-22)",
+  "terms": [
+    {
+      "term": "acid house",
+      "volume": "not measured",
+      "note": "fr.wikipedia ranks first"
+    },
+    {
+      "term": "l’acid house",
+      "volume": "not measured",
+      "note": "French writes the genre with the feminine article"
+    },
+    {
+      "term": "qu’est-ce que l’acid house",
+      "volume": "not measured",
+      "note": "the question form; a French result title (playhousesound.com/fr)"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 22 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/acid-house.json.",
+  "rejected": [
+    {
+      "term": "acid house film",
+      "volume": "not measured",
+      "why": "collision: the 1998 film, fr.wikipedia 'Acid House (film)'"
+    },
+    {
+      "term": "acid house samples",
+      "volume": "not measured",
+      "why": "production intent, out under WRITING.md"
+    }
+  ]
+}

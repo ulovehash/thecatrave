@@ -27,6 +27,8 @@
 //   sections[].tocLabel  contents label when it differs from the heading
 //   minReadingMinutes    floor for the reading time (default 8)
 //   image                image for the Article structured data
+//   sourcesNote          a last Sources line that is not a link, such as where
+//                        the set counts come from
 import fs from 'node:fs';
 import {withCatalogue} from './catalogue.mjs';
 import path from 'node:path';
@@ -79,6 +81,10 @@ export function buildLocalizedArticle(content) {
   const used = new Set();
 
   const render = text => paras(text).map(paragraph => {
+    // "- " lists, as the English Europe festivals generator renders them.
+    if (paragraph.startsWith('- ')) {
+      return `<ul>${paragraph.split(/\n(?=- )/).map(item => `<li>${inline(item.slice(2).replace(/\s+/g, ' '))}</li>`).join('')}</ul>`;
+    }
     if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) return `<p>${inline(paragraph)}</p>`;
     // Longest match wins, as in the English generators: "Sisyphos" is also
     // inside "Teenage Mutants live from Sisyphos".
@@ -89,7 +95,9 @@ export function buildLocalizedArticle(content) {
   }).join('\n');
 
   const renderWithSubsections = (text, anchors) => {
-    const [lead, ...blocks] = text.split(/\n### /);
+    // A section may open straight on its first subheading (the Europe festivals
+    // guide's Hard dance), so the lead can be empty.
+    const [lead, ...blocks] = text.split(/(?:^|\n)### /);
     if (blocks.length !== anchors.length) throw new Error(`${content.draft}: expected ${anchors.length} subsections, found ${blocks.length}`);
     return [render(lead), ...blocks.map((block, index) => {
       const [heading, ...rest] = block.split('\n');
@@ -139,7 +147,9 @@ export function buildLocalizedArticle(content) {
       : render(getSection(section.heading))
   }));
 
-  const sourceLink = ({href, label}) => `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
+  // A source is one link, or approved HTML when one line groups several links,
+  // as the English Europe festivals page does for the official sites.
+  const sourceLink = ({href, label, html}) => html ? `<li>${html}</li>` : `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
 
   const articleHtml = [
     articleHero({
@@ -161,7 +171,7 @@ export function buildLocalizedArticle(content) {
     ...(content.ownSetAfter ? [ownSetListening(1, lang)] : []),
     articleFaq({lang, items: faqItems, title: content.faqTitle, openFirst: true}),
     authorCard({filled: true, lang}),
-    articleSources({lang, bodyHtml: `<ul>\n${content.sources.map(sourceLink).join('\n')}\n</ul>`}),
+    articleSources({lang, bodyHtml: `<ul>\n${content.sources.map(sourceLink).join('\n')}${content.sourcesNote ? `\n<li>${escapeHtml(content.sourcesNote)}</li>` : ''}\n</ul>`}),
     bandcampSupport({lang, fullBleed: true, description: content.bandcamp.description, tracks: content.bandcamp.tracks}),
     readNext({lang, items: relatedArticles(content.file, lang)})
   ].join('\n');

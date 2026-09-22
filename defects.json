@@ -514,6 +514,14 @@
         "file": "build-breakbeat-article.mjs",
         "contains": "ownTrackListening('protect-ya-breaks'"
       }
+    },
+    {
+      "id": "translated-festival-guides-no-editions-entry",
+      "found": "2026-09-22",
+      "by": "agent",
+      "what": "None of the German or French festival translations (de/tomorrowland-festival, de/parookaville-festival, de/coachella-festival, de/mysteryland-festival, de/untold-festival, de/glastonbury-festival, de/primavera-sound-barcelona, de/burning-man-festival and the French pages for Tomorrowland, Coachella, Burning Man, Glastonbury, Mysteryland, Parookaville, Primavera Sound and Sónar) is registered in festival-editions.mjs, so nothing reminds anyone to move their 2027 dates on when the English page moves. Found while adding the translated Europe festivals pages, which are registered.",
+      "should_have_caught": "festival-editions.mjs is keyed by page file and lists English pages only; the translation checklist in SITE-COMPONENTS.md does not mention it",
+      "fix": null
     }
   ]
 }
