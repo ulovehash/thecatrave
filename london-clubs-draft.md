@@ -66,7 +66,7 @@ fabric opened on 29 October 1999, founded by Keith Reilly and Cameron Leslie in 
 
 [Image: fabric front]
 
-DJ Magazine's poll voted it the best club in the world in 2007 and 2008. In September 2016 Islington Council revoked its licence after two drug-related deaths; a campaign to save it followed, and it reopened with more security and stricter conditions. It is on all four lists this guide read, and only The Cause and FOLD can say the same.
+DJ Magazine's poll voted it the best club in the world in 2007 and 2008. In September 2016 Islington Council revoked its licence after two drug-related deaths; a campaign to save it followed, and it reopened with more security and stricter conditions. It is on all three club lists this guide read, and only The Cause and FOLD can say the same.
 
 Keith Reilly, the founder, was still playing in 2024. This set, billed as a fabric special, is Reilly with Terry Francis and Howie B, filmed for Beatport at the Brighton Music Conference in 2024.
 
@@ -116,7 +116,7 @@ For something you did not choose, the [Selector](/selector) plays one of 62,877 
 
 ### What is the most popular nightclub in London?
 
-By searches, Ministry of Sound: about 7,100 a month in the UK, against 5,900 for fabric (Ahrefs, September 2026). By the lists that review clubs there is no single winner: fabric, The Cause and FOLD are on all four this guide read.
+By searches, Ministry of Sound: about 7,100 a month in the UK, against 5,900 for fabric (Ahrefs, September 2026). By the lists that review clubs there is no single winner: fabric, The Cause and FOLD are on all three.
 
 ### Where's the best place to go clubbing in London?
 

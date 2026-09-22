@@ -19,6 +19,7 @@ rather than vendored, because the site serves it from Google Fonts and the
 only thing this script produces, the PNGs, are committed. Licence: OFL 1.1.
 """
 
+import json
 import os
 import re
 import subprocess
@@ -39,6 +40,7 @@ ACID = (255, 90, 54)
 MUTED = (87, 83, 74)
 
 OUT_DIR = "img/og"
+COVERS_RECORD = "scripts/og-articles-covers.json"
 FONT_CACHE = ".cache/fonts"
 FONTS = {
     "bold": ("SpaceMono-Bold.ttf",
@@ -165,12 +167,17 @@ def channel_logos():
 
 
 def article_covers(count=9):
-    """The card images of the most recently added articles, straight from the
-    catalogue in home-articles.mjs, so the wall shows what the page lists
-    rather than one guide's photo standing in for all of them."""
-    source = open("home-articles.mjs", encoding="utf-8").read()
-    paths = [p for p in re.findall(r"\bimage:'([^']+)'", source) if os.path.exists(p)]
-    return paths[-count:]
+    """The card images of the newest English guides, in the order the /articles
+    page lists them, so the wall shows what the page lists rather than one
+    guide's photo standing in for all of them.
+
+    Asked of home-articles.mjs itself, not read out of its text: a regex over
+    the file took the last nine `image:` entries, and once the German and
+    French catalogues were added below the English one, those were French."""
+    script = ("import('./home-articles.mjs').then(m => console.log(JSON.stringify("
+              "m.allArticlesNewestFirst('en').map(a => a.image))))")
+    images = json.loads(subprocess.check_output(["node", "--input-type=module", "-e", script], text=True))
+    return [p for p in images if os.path.exists(p)][:count]
 
 
 def cover(path, size):
@@ -201,6 +208,13 @@ def draw_panel(card, name):
         return
     if name == "articles":
         covers, cols, gap = article_covers(), 3, 10
+        # Record which covers this card was drawn from. audit-og-cards.mjs
+        # compares the record with home-articles.mjs on every build, so a new
+        # guide without a redrawn card fails instead of shipping a stale wall
+        # (defects.json: articles-card-stale-after-new-guide).
+        with open(COVERS_RECORD, "w", encoding="utf-8") as record:
+            json.dump(covers, record, indent=2)
+            record.write("\n")
         tile = (height - (cols - 1) * gap) // cols
         grid_w = cols * tile + (cols - 1) * gap
         start_x = left + (width - grid_w) // 2

@@ -345,7 +345,21 @@
       "by": "agent",
       "what": "img/og/articles.jpg on main showed the wall of covers from before the Live DJ sets guide (fb6676d): the new guide's cover was missing and the oldest cover, which should have dropped off the nine-card wall, was still there. The card is drawn from home-articles.mjs, but only when someone runs scripts/build-og-cards.py by hand, and adding a guide does not make anyone do that.",
       "should_have_caught": "the build, which does not run the card script, so every card that depends on the catalogue goes stale the moment a guide is added",
-      "fix": null
+      "fix": {
+        "file": "audit-og-cards.mjs",
+        "contains": "OG card audit failed: img/og/articles.jpg no longer shows the newest guides."
+      }
+    },
+    {
+      "id": "og-articles-card-french-covers",
+      "found": "2026-09-22",
+      "by": "claude",
+      "what": "scripts/build-og-cards.py chose the articles card's covers with a regex taking the last nine image: entries in home-articles.mjs. Since the German and French catalogues were added below the English one, those were the French guides' covers, and the newest English guides (acid house, grime, Europe festivals) could never appear on the card. Found while closing articles-card-stale-after-new-guide.",
+      "should_have_caught": "nothing: the card was only ever checked by eye, and a wall of nine festival and club photos looks right whichever nine they are",
+      "fix": {
+        "file": "scripts/build-og-cards.py",
+        "contains": "m.allArticlesNewestFirst('en').map(a => a.image)"
+      }
     },
     {
       "id": "seeds-typed-into-ahrefs",
@@ -417,17 +431,23 @@
       "id": "london-clubs-list-count-inconsistent",
       "found": "2026-09-18",
       "by": "agent",
-      "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Condé Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner.",
+      "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Condé Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner. Closed 2026-09-22 with the owner's approval: the research read four sources (RA, Time Out, Condé Nast Traveller and ICMP's history of London nightclubs), but the page presents only the first three as lists that review London clubs, so both places now say three.",
       "should_have_caught": "nothing: no audit compares counts stated in prose with each other",
-      "fix": null
+      "fix": {
+        "file": "london-clubs-draft.md",
+        "contains": "It is on all three club lists this guide read"
+      }
     },
     {
       "id": "selector-nothing-saved-copy",
       "found": "2026-09-18",
       "by": "claude",
-      "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently.",
+      "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently. The FAQ answer \"no history kept\" was false for the same reason. Closed 2026-09-22 in the owner's words; the FAQ now says the list of sets played stays in the browser.",
       "should_have_caught": "the feature was built in selector-runtime.js and build-selector.mjs without grepping the page copy for claims about saving",
-      "fix": null
+      "fix": {
+        "file": "build-selector.mjs",
+        "contains": "No need to register, and I don't need any of your personal data"
+      }
     },
     {
       "id": "translated-cards-read-article-english",
