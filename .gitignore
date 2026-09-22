@@ -19,6 +19,10 @@ blob-report/
 .env.*
 analytics-export/
 analytics-credentials.json
+# Outreach: campaign drafts, contact lists and the contacts database.
+# People's names and emails, never for a public repository.
+outreach/
+outputs/
 
 # tooling / editor
 .claude/
