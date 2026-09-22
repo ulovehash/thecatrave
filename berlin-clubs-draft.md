@@ -104,11 +104,11 @@ And the weekend is long. Sisyphos runs from Friday night to Monday morning, Kate
 
 Half of this page is about rooms you cannot photograph, and some you can no longer visit. The music is easier to reach.
 
-HÖR is a Berlin streaming studio on Karl-Marx-Allee that broadcasts DJ sets six days a week. It is one of the two largest sources in the catalogue behind this site's Selector: 9,708 of its 62,877 sets, from 2019 on. Ellen Allien's hour there is one of the four most watched HÖR sets in the catalogue, and a better introduction to Berlin nightlife than any list.
+HÖR is a Berlin streaming studio on Karl-Marx-Allee that broadcasts DJ sets six days a week. It is one of the two largest sources in the catalogue behind this site's Selector: 9,708 of its sets, from 2019 on. Ellen Allien's hour there is one of the four most watched HÖR sets in the catalogue, and a better introduction to Berlin nightlife than any list.
 
 [Embed: Ellen Allien HÖR]
 
-For the rest, [the Selector](/selector) plays a set at random from all 62,877, and [our guide to the best Boiler Room sets](/best-boiler-room-sets) covers the other famous way of filming a club. Berlin techno still sounds like the rooms it was made in. The best way to hear that is to go, and if the door says no, to come back another night.
+For the rest, [the Selector](/selector) plays a set at random from all {{catalogue-sets}}, and [our guide to the best Boiler Room sets](/best-boiler-room-sets) covers the other famous way of filming a club. Berlin techno still sounds like the rooms it was made in. The best way to hear that is to go, and if the door says no, to come back another night.
 
 [Embed: thecatrave mix I Lost So Many Weekends]
 

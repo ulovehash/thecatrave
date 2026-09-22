@@ -108,7 +108,7 @@ La plus grande partie n’est disponible qu’à moitié ensuite. Certains camps
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, S7OBT3kQAHQ]
 
-Le reste de l’écoute est ailleurs. Pour le format opposé, où la caméra est l’objet même, [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, en classe dix-huit. Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, ce qui ressemble le plus, en ligne, à traverser la playa la nuit et à s’arrêter là où il y a du son.
+Le reste de l’écoute est ailleurs. Pour le format opposé, où la caméra est l’objet même, [notre guide des meilleurs sets Boiler Room](/best-boiler-room-sets), en anglais, en classe dix-huit. Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, ce qui ressemble le plus, en ligne, à traverser la playa la nuit et à s’arrêter là où il y a du son.
 
 [Embed: thecatrave mix I Like to Smoke]
 

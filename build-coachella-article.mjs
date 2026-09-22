@@ -23,6 +23,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -34,7 +35,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('coachella-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('coachella-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/what-is-coachella';
 const title = 'What Is Coachella? 2027 Dates, Location and Music';
 const description = 'Coachella 2027 runs 9 to 11 and 16 to 18 April at the Empire Polo Club in Indio, California. Learn its location, scale, ownership and music.';

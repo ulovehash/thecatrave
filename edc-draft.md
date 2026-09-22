@@ -104,7 +104,7 @@ Insomniac streams EDC live on its YouTube channel, six stages at once in 2026, a
 
 [Embed: Above & Beyond 2015 and Alison Wonderland 2016, SaUN0QHOkHk]
 
-Insomniac also works with Tomorrowland: the two co-produce UNITY at Sphere in Las Vegas, which [our Tomorrowland guide](/tomorrowland-festival) covers with the rest of that festival. [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from 62,877, among them the sets Mixmag filmed at EDC Las Vegas in 2016.
+Insomniac also works with Tomorrowland: the two co-produce UNITY at Sphere in Las Vegas, which [our Tomorrowland guide](/tomorrowland-festival) covers with the rest of that festival. [Our guide to live DJ sets](/live-dj-sets) covers who else films the music. And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, among them the sets Mixmag filmed at EDC Las Vegas in 2016.
 
 ## FAQ
 

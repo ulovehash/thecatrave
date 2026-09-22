@@ -34,7 +34,7 @@ The place to find them is YouTube, where Boiler Room, HÖR, Cercle, Dekmantel, K
 
 This is our own tool, and it exists because of the paragraph above.
 
-It holds 62,877 recorded DJ sets from 37 channels, which is the radio and the DJ set method in one place. Press the button and one plays. Press it again and you get a different one. There is no account, no history, and it does not learn your taste, which is the entire point rather than a feature we have not built yet.
+It holds {{catalogue-sets}} recorded DJ sets from 37 channels, which is the radio and the DJ set method in one place. Press the button and one plays. Press it again and you get a different one. There is no account, no history, and it does not learn your taste, which is the entire point rather than a feature we have not built yet.
 
 You can narrow it first if you want. Pick a channel, pick a genre, or pick a mode: everything, the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them. Then hand the decision over.
 

@@ -96,7 +96,7 @@ The most watched Glastonbury video on BBC Music's YouTube channel is Coldplay pl
 
 [Embed: Coldplay 2024 and R.E.M. 1999, kM-94LhhQTs]
 
-Glastonbury is the oldest of the festivals on this site. Our guides also cover [Creamfields](/creamfields-festival), the other big English festival, [Coachella](/what-is-coachella) and [Lollapalooza](/lollapalooza-festival) in America, and [Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Glastonbury is the oldest of the festivals on this site. Our guides also cover [Creamfields](/creamfields-festival), the other big English festival, [Coachella](/what-is-coachella) and [Lollapalooza](/lollapalooza-festival) in America, and [Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose.
 
 ## FAQ
 

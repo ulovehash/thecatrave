@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {catalogueSets} from './catalogue.mjs';
 
 export const homeArticleCatalog = [
   {
@@ -107,7 +108,7 @@ export const homeArticleCatalog = [
   {
     page:'live-dj-sets.html', tags:['discovery','history','uk','jungle'], href:'/live-dj-sets', type:'Guide', topic:'Live DJ sets',
     title:'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More',
-    description:'Where to watch DJ sets online, how the main platforms differ, and a route through 62,877 archived recordings.',
+    description:`Where to watch DJ sets online, how the main platforms differ, and a route through ${catalogueSets()} archived recordings.`,
     image:'img/live-dj-sets/the-lot-radio-320.webp',
     srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
     width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'

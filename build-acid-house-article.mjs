@@ -221,7 +221,7 @@ const articleHtml = [
 <li><a href="https://en.wikipedia.org/wiki/We_Call_It_Acieed" target="_blank" rel="noopener noreferrer">Wikipedia: We Call It Acieed</a></li>
 <li><a href="https://www.vice.com/en/article/history-smiley-face-acid-house-rave-culture/" target="_blank" rel="noopener noreferrer">Vice: A brief history of the smiley face, rave culture's most ubiquitous symbol</a></li>
 <li><a href="https://mixmag.net/feature/the-history-of-acid-house-in-100-tracks" target="_blank" rel="noopener noreferrer">Mixmag: The history of acid house in 100 tracks</a></li>
-<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,877 recorded DJ sets, as of September 2026.</li>
+<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,824 recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -101,7 +101,7 @@
   const MODES = ['any', 'popular', 'gems', 'deep'].map(value => [L.modes[value][0], value, L.modes[value][1]]);
   // All, not Popular. Popular is a tenth of the catalogue, so opening on it
   // would mean the first press of the button never reaches the other nine, and
-  // the deck promises a set out of all 62,877.
+  // the deck promises a set out of the whole catalogue.
   let mode = 'any';
 
   const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

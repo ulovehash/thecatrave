@@ -88,7 +88,7 @@ Coachella streams live on YouTube, several stages at once, and its channel keeps
 
 [Embed: FISHER 2019 and Fatboy Slim 2026, oUbpmjOgmmU]
 
-Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Coachella shares the American desert with [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Tomorrowland](/tomorrowland-festival), [Ultra](/ultra-music-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose.
 
 ## FAQ
 

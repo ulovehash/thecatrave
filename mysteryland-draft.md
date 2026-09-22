@@ -88,13 +88,13 @@ Hip hop has had a place since Opgezwolle played in 2006. The useful thing for a 
 
 ## Hearing Mysteryland from home
 
-Mysteryland is barely in the Selector: of the 62,877 DJ sets behind [the Selector](/selector), two were recorded there, both filmed by Mixmag in 2016. One is Franky Rizardo's house set, the other a live set by Surgeon and Lady Starlight.
+Mysteryland is barely in the Selector: of the DJ sets behind [the Selector](/selector), two were recorded there, both filmed by Mixmag in 2016. One is Franky Rizardo's house set, the other a live set by Surgeon and Lady Starlight.
 
 The festival films its own main stage. The two sets below are the most watched sets among its recent uploads: Hardwell in 2023, at 2.8 million views, and Charlotte de Witte in 2024, at 2.4 million, as of September 2026.
 
 [Embed: Hardwell 2023 and Charlotte de Witte 2024, _8acHa-APa8]
 
-Mysteryland and Tomorrowland share a family tree through ID&T; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Mysteryland and Tomorrowland share a family tree through ID&T; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

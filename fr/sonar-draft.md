@@ -102,7 +102,7 @@ Les fêtes Off Sónar sont l’endroit où une grande partie de la musique de cl
 
 [Embed: Adam Beyer b2b Enrico Sangiuliano, Drumcode Off Sónar, DJ Mag, IeKlNAuzW8A]
 
-Notre propre catalogue montre le même schéma. Sur les 62 877 DJ sets derrière [le Selector](/selector), 13 mentionnent Sónar et aucun ne vient du festival lui-même. Quatre sont des diffusions de Beatport depuis Brunch Electronik et Circoloco à OFFSónar, menées par Miss Monique en 2023, avec 788 000 vues.
+Notre propre catalogue montre le même schéma. Sur les DJ sets derrière [le Selector](/selector), 13 mentionnent Sónar et aucun ne vient du festival lui-même. Quatre sont des diffusions de Beatport depuis Brunch Electronik et Circoloco à OFFSónar, menées par Miss Monique en 2023, avec 788 000 vues.
 
 ## À écouter
 
@@ -110,7 +110,7 @@ Depuis 2024, ARTE, la chaîne franco-allemande, filme des concerts entiers à S�
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
-Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland) et, en anglais, d’[EDC Las Vegas](/edc-las-vegas) et de [Creamfields](/creamfields-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland) et, en anglais, d’[EDC Las Vegas](/edc-las-vegas) et de [Creamfields](/creamfields-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

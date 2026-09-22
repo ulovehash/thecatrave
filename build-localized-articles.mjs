@@ -28,6 +28,7 @@
 //   minReadingMinutes    floor for the reading time (default 8)
 //   image                image for the Article structured data
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import path from 'node:path';
 import {
   ownSetListening, articleFaq, articleHero, articlePage, articlePlaylistPreview, articleSection, articleSources,
@@ -61,7 +62,7 @@ const paras = text => text.split(/\n{2,}/).map(paragraph => paragraph.trim()).fi
 export function buildLocalizedArticle(content) {
   const {lang} = content;
   const copy = t(lang);
-  const draft = noEmDash(fs.readFileSync(content.draft, 'utf8'));
+  const draft = withCatalogue(noEmDash(fs.readFileSync(content.draft, 'utf8')), lang);
 
   function getSection(heading) {
     const start = draft.indexOf(`\n## ${heading}\n`);

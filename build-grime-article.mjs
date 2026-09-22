@@ -234,7 +234,7 @@ const articleHtml = [
 <li><a href="https://ra.co/news/40408" target="_blank" rel="noopener noreferrer">Resident Advisor: Form 696 scrapped by London's Metropolitan Police (2017)</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Konnichiwa_(Skepta_album)" target="_blank" rel="noopener noreferrer">Wikipedia: Konnichiwa (Skepta album)</a></li>
 <li><a href="https://djmag.com/news/grammys-2024-skrillex-flowdan-fred-agains-rumble-wins-best-danceelectronic-recording" target="_blank" rel="noopener noreferrer">DJ Mag: Rumble wins Best Dance/Electronic Recording at the 2024 Grammys</a></li>
-<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,877 recorded DJ sets, as of September 2026.</li>
+<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,824 recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

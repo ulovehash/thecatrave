@@ -104,11 +104,11 @@ Und das Wochenende ist lang. Das Sisyphos läuft von Freitagnacht bis Montagmorg
 
 Die Hälfte dieser Seite handelt von Räumen, die man nicht fotografieren kann, und von manchen, die man nicht mehr besuchen kann. Die Musik ist leichter zu erreichen.
 
-HÖR ist ein Berliner Streaming-Studio an der Karl-Marx-Allee, das an sechs Tagen pro Woche DJ-Sets überträgt. Es ist eine der beiden größten Quellen im Katalog hinter dem Selector dieser Seite: 9.708 der 62.877 Sets, ab 2019. Die Stunde von Ellen Allien dort gehört zu den vier meistgesehenen HÖR-Sets im Katalog und ist eine bessere Einführung ins Berliner Nachtleben als jede Liste.
+HÖR ist ein Berliner Streaming-Studio an der Karl-Marx-Allee, das an sechs Tagen pro Woche DJ-Sets überträgt. Es ist eine der beiden größten Quellen im Katalog hinter dem Selector dieser Seite: 9.708 seiner Sets, ab 2019. Die Stunde von Ellen Allien dort gehört zu den vier meistgesehenen HÖR-Sets im Katalog und ist eine bessere Einführung ins Berliner Nachtleben als jede Liste.
 
 [Embed: Ellen Allien HÖR]
 
-Für den Rest spielt [der Selector](/selector) ein zufälliges Set aus allen 62.877, und [unser Guide zu den besten Boiler-Room-Sets](/best-boiler-room-sets), auf Englisch, behandelt die andere berühmte Art, einen Club zu filmen. Berliner Techno klingt noch immer wie die Räume, in denen er gemacht wurde. Am besten hört man das, indem man hingeht, und wenn die Tür Nein sagt, an einem anderen Abend wiederkommt.
+Für den Rest spielt [der Selector](/selector) ein zufälliges Set aus allen {{catalogue-sets}}, und [unser Guide zu den besten Boiler-Room-Sets](/best-boiler-room-sets), auf Englisch, behandelt die andere berühmte Art, einen Club zu filmen. Berliner Techno klingt noch immer wie die Räume, in denen er gemacht wurde. Am besten hört man das, indem man hingeht, und wenn die Tür Nein sagt, an einem anderen Abend wiederkommt.
 
 [Embed: thecatrave mix I Lost So Many Weekends]
 

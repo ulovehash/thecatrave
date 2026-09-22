@@ -104,7 +104,7 @@ Tomorrowland filme ses scènes et met les sets en ligne, ce qui explique en gran
 
 [Embed: Hardwell 2013 et Swedish House Mafia 2025, ZG1AT6tylA4]
 
-Pour le festival qui est l’exact opposé de Tomorrowland, une ville sans programmation et où rien n’est à vendre, lisez [notre guide de Burning Man](/fr/burning-man). [Notre guide des DJ sets en live](/live-dj-sets), en anglais, présente ceux qui filment aussi la musique. Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Pour le festival qui est l’exact opposé de Tomorrowland, une ville sans programmation et où rien n’est à vendre, lisez [notre guide de Burning Man](/fr/burning-man). [Notre guide des DJ sets en live](/live-dj-sets), en anglais, présente ceux qui filment aussi la musique. Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

@@ -100,7 +100,7 @@ The Off Sónar parties are where much of the week's club music gets filmed. Drum
 
 [Embed: Adam Beyer b2b Enrico Sangiuliano, Drumcode Off Sónar, DJ Mag, IeKlNAuzW8A]
 
-Our own catalogue shows the same pattern. Of the 62,877 DJ sets behind [the Selector](/selector), 13 mention Sónar and none is from the festival itself. Four are Beatport's streams from Brunch Electronik and Circoloco at OFFSónar, led by Miss Monique in 2023, at 788,000 views.
+Our own catalogue shows the same pattern. Of the DJ sets behind [the Selector](/selector), 13 mention Sónar and none is from the festival itself. Four are Beatport's streams from Brunch Electronik and Circoloco at OFFSónar, led by Miss Monique in 2023, at 788,000 views.
 
 ## Essential listening
 
@@ -108,7 +108,7 @@ Since 2024 ARTE, the Franco-German broadcaster, has filmed shows at Sónar and p
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
-For the other festivals in this series, read our guides to [Tomorrowland](/tomorrowland-festival), [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+For the other festivals in this series, read our guides to [Tomorrowland](/tomorrowland-festival), [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

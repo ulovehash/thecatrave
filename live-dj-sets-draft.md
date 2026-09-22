@@ -2,7 +2,7 @@
 
 ## Answer
 
-You can watch live DJ sets free on the YouTube channels of Boiler Room, HÖR, NTS, Rinse FM, The Lot Radio, Kiosk Radio, Cercle and Mixmag's The Lab. Start with [the best Boiler Room sets](/best-boiler-room-sets) if you want a curated shortlist, or use [the Selector](/selector) to play one of 62,877 archived sets at random. Boiler Room puts the crowd behind the decks, HÖR films in a compact Berlin studio, NTS and Rinse preserve radio sessions, and Cercle pairs DJs with landmark locations. Each platform has a distinct format, scene and archive, so the best place to watch depends on whether you want club energy, radio depth or location-led spectacle.
+You can watch live DJ sets free on the YouTube channels of Boiler Room, HÖR, NTS, Rinse FM, The Lot Radio, Kiosk Radio, Cercle and Mixmag's The Lab. Start with [the best Boiler Room sets](/best-boiler-room-sets) if you want a curated shortlist, or use [the Selector](/selector) to play one of {{catalogue-sets}} archived sets at random. Boiler Room puts the crowd behind the decks, HÖR films in a compact Berlin studio, NTS and Rinse preserve radio sessions, and Cercle pairs DJs with landmark locations. Each platform has a distinct format, scene and archive, so the best place to watch depends on whether you want club energy, radio depth or location-led spectacle.
 
 ## Introduction
 
@@ -80,7 +80,7 @@ Others grew sideways. Rinse took over the running of Kool FM in 2023 and relaunc
 
 ## Live DJ sets by the numbers
 
-This site's Selector plays one of 62,877 recorded DJ sets at random, every one of them an upload of more than twenty minutes from a broadcaster's own YouTube channel, 37 channels in all. Counted by platform, they show something the histories above do not: how many sets a platform films and how many people watch them have little to do with each other.
+This site's Selector plays one of {{catalogue-sets}} recorded DJ sets at random, every one of them an upload of more than twenty minutes from a broadcaster's own YouTube channel, 37 channels in all. Counted by platform, they show something the histories above do not: how many sets a platform films and how many people watch them have little to do with each other.
 
 Cercle has 178 sets in this catalogue, about 2% of Boiler Room's count, and they have been watched 984 million times, more than half as often as all 8,206 of Boiler Room's put together. The picture probably explains it: a set at Petra works as something to leave on a television, which a set in a basement rarely does. Boris Brejcha at the Grand Palais in Paris, from 2019, has 68.4 million views on its own.
 

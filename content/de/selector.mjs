@@ -5,8 +5,10 @@
 // Two sentences differ from the English on purpose. The English says "Nothing
 // is saved" and "no history kept", which stopped being true when Saved and
 // Recently played shipped (defects.json, selector-nothing-saved-copy). The
-// German says what the tool does now: nothing is personalised, and what is
-// saved stays in the browser.
+// German says what the tool does now, in the owner's words (2026-09-22): no
+// need to register, no ads, saved lists stay in the browser. It does not claim
+// no personal data: every page loads Google Analytics, which under GDPR collects
+// some.
 //
 // Internal links go to the German guides that exist (drum and bass, dubstep);
 // jungle and breakbeat have no German page yet.
@@ -45,7 +47,7 @@ export default function copy({total, tagged, broadcasters, channelList, escapeHt
     aboutTitle: 'Das Schwierige ist die Auswahl.',
     aboutHtml: `
 <p>Ein gutes DJ-Set zu finden war nie das Problem. ${channels} Kanäle stellen mehr davon online, als irgendwer je durchhören könnte, und genau das ist das Problem: Mit ${escapeHtml(setCount)} Sets vor dir wird die Auswahl zur eigenen kleinen Aufgabe, und am Ende schaust du gar nichts.</p>
-<p>Genau dafür gibt es den Selector. Drück den Knopf, und er spielt ein zufälliges Set aus ${escapeHtml(countLine)}. Drück noch einmal für das nächste. Nichts wird personalisiert, und was du speicherst, bleibt nur in deinem Browser.</p>
+<p>Genau dafür gibt es den Selector. Drück den Knopf, und er spielt ein zufälliges Set aus ${escapeHtml(countLine)}. Drück noch einmal für das nächste. Du musst dich nicht registrieren, es gibt keine Werbung, und deine gespeicherten Listen bleiben nur in deinem Browser.</p>
 <p>Ein DJ-Set ist ein durchgehender Mix, gespielt von einer DJ oder einem DJ, meist eine Stunde oder länger, live aufgenommen in einem Club, einem Radiostudio oder einem Festivalzelt. Es ist keine Playlist: Die Reihenfolge, die Übergänge und das Tempo sind die eigentliche Performance.</p>
 <p>Vier Filter grenzen die Auswahl ein, bevor gezogen wird, und <strong>Modus</strong> ist der, der den Charakter des Ergebnisses verändert. Er bestimmt, wie groß das Publikum eines Sets schon sein soll.</p>
 <ul>

@@ -126,8 +126,19 @@
       "id": "catalogue-numbers-unchecked",
       "found": "2026-09-05",
       "by": "assistant",
-      "what": "No audit compares statistics quoted in guide prose against selector-data.json. The UK garage figure was corrected by hand; the next one will go stale the same way.",
+      "what": "No audit compares statistics quoted in guide prose against selector-data.json. The UK garage figure was corrected by hand; the next one will go stale the same way. On 2026-09-22 22 pages in three languages still said 62,877 six days after the refresh of 2026-09-16 made it 62,824; the acid house and grime guides quoted 62,877, the figure in CLAUDE.md, beside counts measured on the new data. Closed with the owner's choice: the size is live from catalogue.mjs ({{catalogue-sets}} in drafts), a measured total must carry its date, and sentences pairing a measured count with the total no longer quote the total.",
       "should_have_caught": "nothing exists",
+      "fix": {
+        "file": "audit-catalogue-numbers.mjs",
+        "contains": "Write ${CATALOGUE_TOKEN} for the live size, or date a measured total"
+      }
+    },
+    {
+      "id": "catalogue-subcounts-undated",
+      "found": "2026-09-22",
+      "by": "claude",
+      "what": "Counts measured from selector-data.json (Boiler Room's 8,206 sets in live-dj-sets, 52 Creamfields sets, 13 Sónar mentions, two Untold and two Mysteryland sets, 864 UK garage sets) are typed snapshots in the present tense, and the festival guides carry no methods note dating them. Boiler Room is 8,173 since the refresh of 2026-09-16. audit-catalogue-numbers.mjs checks only the whole catalogue's total.",
+      "should_have_caught": "nothing: no audit recomputes a measured count, and most of them cannot be recomputed from selector-data.json alone",
       "fix": null
     },
     {
@@ -442,11 +453,11 @@
       "id": "selector-nothing-saved-copy",
       "found": "2026-09-18",
       "by": "claude",
-      "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently. The FAQ answer \"no history kept\" was false for the same reason. Closed 2026-09-22 in the owner's words; the FAQ now says the list of sets played stays in the browser.",
+      "what": "The Selector page copy says \"Nothing is saved and nothing is personalised\", which became untrue when Saved and Recently played shipped on 18 September after a listener (Tom Rolfe) asked for a way to keep sets. Replacement wording was proposed to the owner and awaits approval, since published copy is never edited silently. The FAQ answer \"no history kept\" was false for the same reason. Closed 2026-09-22 in the owner's words, without claiming no personal data because Google Analytics runs on every page; the FAQ now says the list of sets played stays in the browser.",
       "should_have_caught": "the feature was built in selector-runtime.js and build-selector.mjs without grepping the page copy for claims about saving",
       "fix": {
         "file": "build-selector.mjs",
-        "contains": "No need to register, and I don't need any of your personal data"
+        "contains": "No need to register, no ads, and your saved lists stay only in your browser."
       }
     },
     {

@@ -24,6 +24,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -32,7 +33,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('lollapalooza-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('lollapalooza-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/lollapalooza-festival';
 const title = 'Lollapalooza Chicago: Location, History and the Music';
 const description = 'Lollapalooza is a four-day festival in Grant Park, Chicago. Learn its location, history, scale, international editions and the music on Perry\'s Stage.';

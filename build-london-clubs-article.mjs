@@ -24,6 +24,7 @@
 // placeholder lines. A placeholder with no matching asset, or an asset with no
 // placeholder, fails the build.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection,
   articleSources, articleStructuredData, articleTable, articleVideoCard, articleVideoCollection, articleYoutubeEmbed, authorCard,
@@ -34,7 +35,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('london-clubs-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('london-clubs-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-electronic-music-clubs-in-london';
 const title = 'Best Electronic Music Clubs in London: History and Where to Go';
 const description = 'The best electronic music clubs in London, from fabric and FOLD to Phonox and The Cause, plus the rooms that shaped acid house, jungle, garage and dubstep.';

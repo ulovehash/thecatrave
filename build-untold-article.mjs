@@ -23,6 +23,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -34,7 +35,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('untold-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('untold-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/untold-festival';
 const title = 'Untold Festival: Where It Is, How Big, and the Music';
 const description = 'Untold festival in Cluj-Napoca, Romania: when Untold 2027 is, where it happens, how it reached 500,000 admissions, who runs it, and what plays.';

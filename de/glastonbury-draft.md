@@ -98,7 +98,7 @@ Das meistgesehene Glastonbury-Video auf dem YouTube-Kanal von BBC Music ist Cold
 
 [Embed: Coldplay 2024 and R.E.M. 1999, kM-94LhhQTs]
 
-Glastonbury ist das älteste der Festivals auf dieser Seite. Unsere Guides behandeln auch [Coachella](/de/coachella-festival) in Amerika und [Tomorrowland](/de/tomorrowland-festival) in Belgien, und auf Englisch [Creamfields](/creamfields-festival), das andere große englische Festival. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Glastonbury ist das älteste der Festivals auf dieser Seite. Unsere Guides behandeln auch [Coachella](/de/coachella-festival) in Amerika und [Tomorrowland](/de/tomorrowland-festival) in Belgien, und auf Englisch [Creamfields](/creamfields-festival), das andere große englische Festival. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

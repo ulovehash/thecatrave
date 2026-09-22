@@ -104,7 +104,7 @@ Tomorrowland filmt seine Bühnen und stellt die Sets online, was ein großer Tei
 
 [Embed: Hardwell 2013 und Swedish House Mafia 2025, ZG1AT6tylA4]
 
-Für das Festival, das das genaue Gegenteil von Tomorrowland ist, eine Stadt ohne Line-up und ohne Verkauf, gibt es [unseren Guide zu Burning Man](/what-is-burning-man) auf Englisch. [Der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Für das Festival, das das genaue Gegenteil von Tomorrowland ist, eine Stadt ohne Line-up und ohne Verkauf, gibt es [unseren Guide zu Burning Man](/what-is-burning-man) auf Englisch. [Der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

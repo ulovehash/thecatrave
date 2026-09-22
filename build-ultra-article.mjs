@@ -19,6 +19,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -27,7 +28,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('ultra-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('ultra-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/ultra-music-festival';
 const title = 'Ultra Music Festival 2027: Miami Dates, Location and Music';
 const description = 'Ultra Music Festival 2027 runs 26 to 28 March at Bayfront Park in Miami. Find the location, age rule, Miami Music Week context and music beyond the Main Stage.';

@@ -19,6 +19,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -30,7 +31,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('mysteryland-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('mysteryland-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/mysteryland-festival';
 const title = 'Mysteryland Festival: Where It Is, Its History, and 2027';
 const description = 'Mysteryland skips 2026 and returns to Haarlemmermeer on 27 to 29 August 2027. Where it happens, how a 1993 rave grew into it, who owns it, and what it plays.';

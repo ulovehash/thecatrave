@@ -106,7 +106,7 @@ Most of it is only half-available afterwards. Some camps and DJs film their sets
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, Lee Burridge's own YouTube channel, S7OBT3kQAHQ]
 
-The rest of the listening is elsewhere. For the opposite format, where the camera is the point, [our guide to the best Boiler Room sets](/best-boiler-room-sets) ranks eighteen of them. And [the Selector](/selector) plays a DJ set at random from 62,877, which is the nearest thing online to crossing the playa at night and stopping wherever the sound is.
+The rest of the listening is elsewhere. For the opposite format, where the camera is the point, [our guide to the best Boiler Room sets](/best-boiler-room-sets) ranks eighteen of them. And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, which is the nearest thing online to crossing the playa at night and stopping wherever the sound is.
 
 [Embed: thecatrave mix I Like to Smoke]
 

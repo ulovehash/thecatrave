@@ -205,7 +205,7 @@ const selectorFigure = articleFigure({
   srcset: 'img/boiler-room/selector-320.webp 320w, img/boiler-room/selector-1200.webp 1200w',
   width: 1200, height: 690,
   alt: 'The Selector on thecatrave, with the source narrowed to Boiler Room',
-  caption: 'The Selector narrowed to Boiler Room, the source of every number on this page. <a href="/selector">Open it</a> and press the button: one of 8,206 Boiler Room sets, or of all 62,877, chosen for you.',
+  caption: 'The Selector narrowed to Boiler Room, the source of every number on this page. <a href="/selector">Open it</a> and press the button: a Boiler Room set, or one from the whole catalogue, chosen for you.',
   className: 'wide-archive-image'
 });
 

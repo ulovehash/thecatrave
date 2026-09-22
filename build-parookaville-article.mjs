@@ -18,6 +18,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, ownTrackListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -29,7 +30,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('parookaville-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('parookaville-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/parookaville-festival';
 const title = 'Parookaville Festival: Where It Is, Who Runs It, the Music';
 const description = 'Where Parookaville happens on an old RAF airbase at Weeze, how three friends built a festival staged as a city, how many people go, who runs it, and what plays.';

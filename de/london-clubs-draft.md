@@ -110,7 +110,7 @@ Die Räume sind leichter zu hören als zu besuchen. Rinse filmte Oneman live aus
 
 [Embed: London sets]
 
-Für etwas, das man nicht selbst ausgesucht hat, spielt der [Selector](/selector) eines von 62.877 aufgezeichneten DJ-Sets nach dem Zufallsprinzip, von Keep Hush im The Cause über Rinse im Phonox bis zu Hospital Records in den Drumsheds. Die Londoner Clubs auf dieser Seite sind darin enthalten, neben jedem anderen Raum, den diese Kanäle gefilmt haben.
+Für etwas, das man nicht selbst ausgesucht hat, spielt der [Selector](/selector) eines von {{catalogue-sets}} aufgezeichneten DJ-Sets nach dem Zufallsprinzip, von Keep Hush im The Cause über Rinse im Phonox bis zu Hospital Records in den Drumsheds. Die Londoner Clubs auf dieser Seite sind darin enthalten, neben jedem anderen Raum, den diese Kanäle gefilmt haben.
 
 ## FAQ
 

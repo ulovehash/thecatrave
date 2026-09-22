@@ -19,6 +19,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -27,7 +28,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('edc-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('edc-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/edc-las-vegas';
 const title = 'EDC Las Vegas: What It Is, How Big, and the Music';
 const description = 'Electric Daisy Carnival at the Las Vegas Motor Speedway: what EDC is, how many people go, how it left Los Angeles, and what plays beyond kineticFIELD.';

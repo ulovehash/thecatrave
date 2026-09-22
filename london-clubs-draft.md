@@ -110,7 +110,7 @@ The rooms are easier to hear than to visit. Rinse filmed Oneman live from Phonox
 
 [Embed: London sets]
 
-For something you did not choose, the [Selector](/selector) plays one of 62,877 recorded DJ sets at random, from Keep Hush at The Cause to Rinse at Phonox and Hospital Records at Drumsheds. The London clubs on this page are in there, alongside every other room those channels have filmed.
+For something you did not choose, the [Selector](/selector) plays one of {{catalogue-sets}} recorded DJ sets at random, from Keep Hush at The Cause to Rinse at Phonox and Hospital Records at Drumsheds. The London clubs on this page are in there, alongside every other room those channels have filmed.
 
 ## FAQ
 

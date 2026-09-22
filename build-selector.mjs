@@ -106,7 +106,7 @@ function englishCopy({total, tagged, broadcasters, channelList, escapeHtml}) {
     // I listen to". Keep the channel names as plain text so they read as entities.
     aboutHtml: `
 <p>Finding a good DJ set has never been the difficulty. ${broadcasters.length} channels put up more of them than anyone could get through, and that is the problem: with ${escapeHtml(setCount)} in front of you, picking one becomes its own small chore, and you end up watching nothing.</p>
-<p>The Selector is for exactly that. Press the button and it plays a set at random from ${escapeHtml(countLine)}. Press it again for another. No need to register, and I don't need any of your personal data: your saved lists stay only in your browser.</p>
+<p>The Selector is for exactly that. Press the button and it plays a set at random from ${escapeHtml(countLine)}. Press it again for another. No need to register, no ads, and your saved lists stay only in your browser.</p>
 <p>A DJ set is one continuous mix played by one DJ, usually an hour or more, recorded live in a club, a radio studio or a festival tent. It is not a playlist: the order, the blends and the pacing are the performance.</p>
 <p>Four filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
 <ul>

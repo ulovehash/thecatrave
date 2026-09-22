@@ -88,7 +88,7 @@ Lollapalooza has been streamed on Hulu since 2022, alongside Austin City Limits 
 
 [Embed: Lady Gaga 2010 and The Chainsmokers 2019, EGh9zlN6eLo]
 
-Lollapalooza's closest relative on this site is [Coachella](/what-is-coachella), whose radius clause lets its acts announce Lollapalooza early; our guides also cover [EDC Las Vegas](/edc-las-vegas), [Tomorrowland](/tomorrowland-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose.
+Lollapalooza's closest relative on this site is [Coachella](/what-is-coachella), whose radius clause lets its acts announce Lollapalooza early; our guides also cover [EDC Las Vegas](/edc-las-vegas), [Tomorrowland](/tomorrowland-festival) and [Burning Man](/what-is-burning-man). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose.
 
 ## FAQ
 

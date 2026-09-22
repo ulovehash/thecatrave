@@ -78,7 +78,7 @@ The main stage belongs to EDM and to the DJs at the top of the DJ Mag poll: Armi
 
 The smaller stages each have a sound. Galaxy, in the BTarena, is the techno stage; Fortune is for trance; Daydreaming for chill and afro house; Alchemy for urban music and trap. Retro plays old hits, and the Tram stage is built into a tram and given to local DJs. Carl Cox, Solomun, Paul Kalkbrenner, Eric Prydz and Fisher are among the techno and house names who have played.
 
-Mixmag filmed techno at Untold in 2018. Pan-Pot's set is one of only two Untold sets among the 62,877 DJ sets behind [the Selector](/selector), and by the catalogue's count it has 153,212 views on Mixmag's channel.
+Mixmag filmed techno at Untold in 2018. Pan-Pot's set is one of only two Untold sets among the DJ sets behind [the Selector](/selector), and by the catalogue's count it has 153,212 views on Mixmag's channel.
 
 [Embed: Pan-Pot, Untold 2018, Mixmag YouTube channel, rk3SYpd5HSc]
 
@@ -86,13 +86,13 @@ That is the shape of the festival: EDM and pop on a stadium stage, and the techn
 
 ## Hearing Untold from home
 
-The festival's own channel is mostly aftermovies and announcements. The Untold live sets worth hearing are on the artists' channels, and only two of the 62,877 DJ sets behind [the Selector](/selector) are from Untold, both Mixmag techno films from 2018. So the players here come from the artists.
+The festival's own channel is mostly aftermovies and announcements. The Untold live sets worth hearing are on the artists' channels, and only two of the DJ sets behind [the Selector](/selector) are from Untold, both Mixmag techno films from 2018. So the players here come from the artists.
 
 The two below are the most watched. Armin van Buuren's set from 5 August 2017, five and a half hours and 125 trance tracks on the main stage, has about 7.9 million views on his own channel, more than any other Untold set we found. He went further two years later, with a set of about seven and a half hours and more than 130 tracks at the 2019 edition. Steve Aoki posted his 2021 headline set, from the September edition after the pandemic, on his channel, where it has about 532,000 views.
 
 [Embed: Armin van Buuren 2017 and Steve Aoki 2021, DjQCkSSblIk]
 
-Untold shares DJ Mag's top three with [Tomorrowland](/tomorrowland-festival) and [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Ultra](/ultra-music-festival), whose European edition in Split is the summer trip many weigh against it, [Creamfields](/creamfields-festival) and [Parookaville](/parookaville-festival). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Untold shares DJ Mag's top three with [Tomorrowland](/tomorrowland-festival) and [EDC Las Vegas](/edc-las-vegas), and our guides cover both, as well as [Ultra](/ultra-music-festival), whose European edition in Split is the summer trip many weigh against it, [Creamfields](/creamfields-festival) and [Parookaville](/parookaville-festival). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

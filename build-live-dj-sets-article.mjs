@@ -18,6 +18,7 @@
 // channel, filmed in that platform's own room where the section is about the
 // room, and none of them is a video the best-sets page already embeds.
 import fs from 'node:fs';
+import {catalogueSets, withCatalogue} from './catalogue.mjs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleYoutubeEmbed, authorCard, bandcampSupport,
@@ -25,7 +26,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('live-dj-sets-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('live-dj-sets-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/live-dj-sets';
 const title = 'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More';
 const description = 'Where to watch live DJ sets online, from Boiler Room and HÖR to NTS, Rinse FM, The Lot Radio, Kiosk and Cercle, with links and listening routes.';
@@ -224,7 +225,7 @@ const articleHtml = [
   articleHero({
     kicker: 'Live DJ sets',
     title: 'Where to Watch Live DJ Sets Online',
-    deck: 'Boiler Room, HÖR, NTS, Rinse FM and the independent channels that film DJ sets, plus a way to choose from 62,877 recordings without an algorithm.',
+    deck: `Boiler Room, HÖR, NTS, Rinse FM and the independent channels that film DJ sets, plus a way to choose from ${catalogueSets()} recordings without an algorithm.`,
     readingTime,
     dateModified,
     dateLabel,

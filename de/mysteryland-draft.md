@@ -90,13 +90,13 @@ Hip-Hop hat seinen Platz, seit Opgezwolle 2006 spielte. Für Hörerinnen und Hö
 
 ## Mysteryland von zu Hause hören
 
-Im Selector kommt Mysteryland kaum vor: Von den 62.877 DJ-Sets hinter [dem Selector](/selector) wurden zwei dort aufgenommen, beide 2016 von Mixmag gefilmt. Das eine ist ein House-Set von Franky Rizardo, das andere ein Live-Set von Surgeon und Lady Starlight.
+Im Selector kommt Mysteryland kaum vor: Von den DJ-Sets hinter [dem Selector](/selector) wurden zwei dort aufgenommen, beide 2016 von Mixmag gefilmt. Das eine ist ein House-Set von Franky Rizardo, das andere ein Live-Set von Surgeon und Lady Starlight.
 
 Seine Hauptbühne filmt das Festival selbst. Die beiden Sets unten sind die meistgesehenen Sets unter den jüngeren Uploads: Hardwell 2023 mit 2,8 Millionen Aufrufen und Charlotte de Witte 2024 mit 2,4 Millionen, Stand September 2026.
 
 [Embed: Hardwell 2023 und Charlotte de Witte 2024, _8acHa-APa8]
 
-Mysteryland und Tomorrowland teilen über ID&T einen Stammbaum; zum belgischen Festival gibt es [unseren Guide zu Tomorrowland](/de/tomorrowland-festival). Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Mysteryland und Tomorrowland teilen über ID&T einen Stammbaum; zum belgischen Festival gibt es [unseren Guide zu Tomorrowland](/de/tomorrowland-festival). Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

@@ -5,8 +5,10 @@
 // Two sentences differ from the English on purpose. The English says "Nothing
 // is saved" and "no history kept", which stopped being true when Saved and
 // Recently played shipped (defects.json, selector-nothing-saved-copy). The
-// French says what the tool does now: nothing is personalised, and what is
-// saved stays in the browser.
+// French says what the tool does now, in the owner's words (2026-09-22): no
+// need to register, no ads, saved lists stay in the browser. It does not claim
+// no personal data: every page loads Google Analytics, which under GDPR collects
+// some.
 //
 // Internal links go to the French guides that exist (drum and bass, dubstep);
 // jungle and breakbeat have no French page yet.
@@ -45,7 +47,7 @@ export default function copy({total, tagged, broadcasters, channelList, escapeHt
     aboutTitle: 'Le plus dur, c’est de choisir.',
     aboutHtml: `
 <p>Trouver un bon DJ set n’a jamais été la difficulté. ${channels} chaînes en publient plus que quiconque ne pourrait en écouter, et c’est justement le problème : avec ${escapeHtml(setCount)} sets devant vous, en choisir un devient une petite corvée, et on finit par ne rien regarder.</p>
-<p>Le Selector est fait pour ça. Appuyez sur le bouton et il lance un set au hasard parmi ${escapeHtml(countLine)}. Appuyez encore pour un autre. Rien n’est personnalisé, et ce que vous enregistrez reste dans votre navigateur.</p>
+<p>Le Selector est fait pour ça. Appuyez sur le bouton et il lance un set au hasard parmi ${escapeHtml(countLine)}. Appuyez encore pour un autre. Pas besoin de vous inscrire, pas de publicité, et vos listes enregistrées restent uniquement dans votre navigateur.</p>
 <p>Un DJ set, c’est un mix continu joué par un ou une DJ, en général une heure ou plus, enregistré en direct dans un club, un studio de radio ou sous une tente de festival. Ce n’est pas une playlist : l’ordre, les transitions et le rythme sont la performance elle-même.</p>
 <p>Quatre filtres réduisent la sélection avant le tirage, et <strong>Mode</strong> est celui qui change le caractère du résultat. Il décide de la taille du public qu’un set doit déjà avoir.</p>
 <ul>

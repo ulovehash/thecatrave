@@ -90,7 +90,7 @@ Coachella est diffusé en direct sur YouTube, plusieurs scènes à la fois, et s
 
 [Embed: FISHER 2019 et Fatboy Slim 2026, oUbpmjOgmmU]
 
-Nos guides couvrent aussi [Tomorrowland](/fr/festival-tomorrowland) et [Burning Man](/fr/burning-man), et, en anglais, [EDC Las Vegas](/edc-las-vegas), qui partage le désert américain avec Coachella, et [Ultra](/ultra-music-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi 62 877 enregistrements, si vous préférez ne pas choisir.
+Nos guides couvrent aussi [Tomorrowland](/fr/festival-tomorrowland) et [Burning Man](/fr/burning-man), et, en anglais, [EDC Las Vegas](/edc-las-vegas), qui partage le désert américain avec Coachella, et [Ultra](/ultra-music-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

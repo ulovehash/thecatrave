@@ -100,7 +100,7 @@ The TB-303 did not go away when the word "acid house" went out of fashion. In 19
 
 Acid never became a closed genre after that. It is a sound that other styles borrow: acid techno, acid trance, acid lines in electro and in drum and bass. Most DJs who play it now do so inside techno or electro sets rather than as a genre of its own.
 
-This site's catalogue of recorded DJ sets reflects that. Of the 62,877 sets it holds, 688 are tagged acid. The names that appear most often are Love Letters and Mike Servito, Abby Echiverri, DJ Pierre and A Guy Called Gerald, with Helena Hauff among the most watched: a spread from the original Chicago and Manchester producers to DJs who were not born when "Acid Tracks" came out.
+This site's catalogue of recorded DJ sets reflects that. Of the sets it holds, 688 are tagged acid. The names that appear most often are Love Letters and Mike Servito, Abby Echiverri, DJ Pierre and A Guy Called Gerald, with Helena Hauff among the most watched: a spread from the original Chicago and Manchester producers to DJs who were not born when "Acid Tracks" came out.
 
 Gerald still performs live. His 2013 Boiler Room show is a good place to hear what the Manchester side of the story became: machines played in real time rather than records mixed.
 

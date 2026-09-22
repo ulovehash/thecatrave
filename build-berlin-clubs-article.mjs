@@ -17,6 +17,7 @@
 // placeholder lines. A placeholder with no matching asset, or an asset with no
 // placeholder, fails the build.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage, articleSection,
   articleSources, articleStructuredData, articleTable, articleYoutubeEmbed, authorCard,
@@ -27,7 +28,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('berlin-clubs-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('berlin-clubs-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-berlin';
 const title = 'Best Clubs in Berlin: The Legends and the Ones Still Open';
 const description = 'Berghain, Tresor, KitKat and the clubs that came before them: the best clubs in Berlin, how each became famous, and the sets to hear before you go.';

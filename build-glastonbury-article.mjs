@@ -23,6 +23,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -34,7 +35,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('glastonbury-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('glastonbury-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/glastonbury-festival';
 const title = 'Glastonbury Festival: 2027, Fallow Years and Headliners';
 const description = 'Glastonbury Festival at Worthy Farm: when Glastonbury 2027 is, why there is no festival this year, where it is, how big it is, and the headliners by year.';

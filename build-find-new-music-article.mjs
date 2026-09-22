@@ -23,6 +23,7 @@
 // Bandcamp, Discogs and RateYourMusic, and one correction neither video makes,
 // which is that Every Noise at Once stopped updating in 2023.
 import fs from 'node:fs';
+import {catalogueSets, withCatalogue} from './catalogue.mjs';
 import {
   articleFaq, articleFigure, articleHero, articleListeningBand, articlePage,
   articleSection, articleSources, articleStructuredData, articleTable, articleTrackEmbed, articleVideoCard,
@@ -31,7 +32,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('find-new-music-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('find-new-music-draft.md', 'utf8')).replace(/—/g, ':');
 // The slug is the query: "how to find new music" is 1,400 a month worldwide,
 // second only to "music discovery" in this cluster and ahead of both
 // "how to discover new music" and "find new music" at 900 each.
@@ -98,7 +99,7 @@ const faqItems = faqSection.split(/(?:^|\n)### /).filter(Boolean).map(block => {
 const methodRows = [
   ['Community radio', 'Local scenes and specialist selectors', 'None', 'NTS, Rinse FM or a station outside your city'],
   ['A DJ set', 'Finding many artists in context', 'None', 'Let one DJ choose for an hour'],
-  ['The Selector', 'Serendipity without a profile', 'One click', 'Play one of 62,877 sets at random'],
+  ['The Selector', 'Serendipity without a profile', 'One click', `Play one of ${catalogueSets()} sets at random`],
   ['Producer credits', 'Following a sound across artists', 'A minute', 'Open the credits on one record you love'],
   ['Every Noise at Once', 'Exploring unfamiliar genre names', 'A minute', 'Use the frozen genre map as a starting point'],
   ['Record labels', 'Going deeper into a coherent scene', 'An afternoon', 'Follow the label behind one strong release'],
@@ -118,7 +119,7 @@ const selectorFigure = articleFigure({
   srcset: 'img/og/selector.jpg 1200w',
   width: 1200, height: 630,
   alt: 'The Selector: one button that plays a random DJ set',
-  caption: 'The Selector holds 62,877 sets from 37 channels. It keeps no account and no history, which is why it cannot narrow your taste the way a recommendation engine does.',
+  caption: `The Selector holds ${catalogueSets()} sets from 37 channels. No account, no ads, and what you save never leaves your browser.`,
   className: 'wide-archive-image'
 });
 
@@ -228,7 +229,7 @@ const articleHtml = [
     readingTime,
     dateModified,
     dateLabel,
-    summaryHtml: infoBanner({label: 'HOW TO FIND NEW MUSIC', bodyHtml: inline('The most reliable way to find new music is to follow people and scenes instead of letting one recommendation feed repeat your history. Start with community radio, listen to a DJ set, then trace one record through its producer credits, label and Bandcamp supporters. For a decision-free route, use [the Selector](/selector), which plays one of 62,877 archived sets at random. The ten methods below range from one-click listening to deeper research in Discogs, RateYourMusic, forums and label catalogues. Each creates a different kind of discovery, so combine a low-effort habit with one method that makes you investigate where a record came from.'), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'HOW TO FIND NEW MUSIC', bodyHtml: inline(`The most reliable way to find new music is to follow people and scenes instead of letting one recommendation feed repeat your history. Start with community radio, listen to a DJ set, then trace one record through its producer credits, label and Bandcamp supporters. For a decision-free route, use [the Selector](/selector), which plays one of ${catalogueSets()} archived sets at random. The ten methods below range from one-click listening to deeper research in Discogs, RateYourMusic, forums and label catalogues. Each creates a different kind of discovery, so combine a low-effort habit with one method that makes you investigate where a record came from.`), className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Too much music, and you keep playing the same things.', bodyHtml: introHtml, className: 'article-intro'}),

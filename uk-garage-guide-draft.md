@@ -148,7 +148,7 @@ Burial, "Archangel", 2007. Not garage by any strict definition, and the clearest
 
 The current generation of UK garage artists is easier to describe with numbers than with adjectives.
 
-Across a catalogue of 62,877 recorded DJ sets from 37 channels, 864 are tagged as UK garage, 2-step, speed garage or bassline. The names that come up most often across those sets are Neffa-T, Coziest, Cromby, Yung Singh, Oneman, Conducta, Anz, Interplanetary Criminal, Introspekt and Eliza Rose.
+Across a catalogue of recorded DJ sets from 37 channels, 864 are tagged as UK garage, 2-step, speed garage or bassline. The names that come up most often across those sets are Neffa-T, Coziest, Cromby, Yung Singh, Oneman, Conducta, Anz, Interplanetary Criminal, Introspekt and Eliza Rose.
 
 Some of those names are worth knowing for specific reasons. Interplanetary Criminal and Eliza Rose made "B.O.T.A. (Baddest of Them All)", which spent five weeks at number one in the UK in 2022. It was the 1,400th number one single in the history of the chart, and it was the country's number one on the day Queen Elizabeth II died. It is also, unmistakably, a garage record. Sammy Virji has four sets in the catalogue and the most-watched of them has over 1.6 million views. Anz has 116 sets across all genres, more than almost anyone, and moves between garage, techno and everything adjacent.
 

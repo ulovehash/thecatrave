@@ -17,6 +17,7 @@
 // so the placement is decided by the writer in the draft and only rendered
 // here. A placeholder with no matching asset fails the build.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -28,7 +29,7 @@ import {relatedArticles} from './home-articles.mjs';
 // announces it back: hreflang only counts when both sides declare it.
 import {alternatesFor} from './pages.mjs';
 
-const draft = fs.readFileSync('burning-man-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('burning-man-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/what-is-burning-man';
 const title = 'What Is Burning Man? The Event, the City and the Music';
 const description = 'A week-long city in the Nevada desert, not a festival with a lineup. What happens there, where it is, what it costs, and what the sound camps actually play.';

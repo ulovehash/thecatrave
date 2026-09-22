@@ -84,13 +84,13 @@ Drum and bass is a guest here. Pendulum were on the 2026 bill, listed by the fes
 
 ## Hearing Parookaville from home
 
-Parookaville puts its sets online. The festival's channel has a playlist of DJ sets for every edition since 2017, and many artists post their own. None of the 62,877 DJ sets behind [the Selector](/selector) is from Parookaville, so the players here come from those channels.
+Parookaville puts its sets online. The festival's channel has a playlist of DJ sets for every edition since 2017, and many artists post their own. None of the DJ sets behind [the Selector](/selector) is from Parookaville, so the players here come from those channels.
 
 The two below are the most watched. W&W's 2022 set is the most watched on the festival's own channel, at 1,257,135 views; the Dutch duo have played Parookaville again and again, and their 2023 and 2024 sets are among the channel's most watched too. Steve Aoki, who headlined the first edition in 2015, posted his 2025 set on his own channel, where it has about 1.7 million views, more than any other Parookaville set we found.
 
 [Embed: W&W 2022 and Steve Aoki 2025, lnOjzIlm1_g]
 
-Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. For where drum and bass comes from, read [the drum and bass guide](/drum-and-bass-guide). And [the Selector](/selector) plays a DJ set at random from 62,877, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. For where drum and bass comes from, read [the drum and bass guide](/drum-and-bass-guide). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

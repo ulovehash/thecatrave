@@ -80,7 +80,7 @@ Die kleineren Bühnen haben jeweils einen eigenen Sound. Galaxy in der BTarena i
 
 [Embed: thecatrave berlin-race-1909]
 
-Mixmag filmte 2018 Techno bei Untold. Das Set von Pan-Pot ist eines von nur zwei Untold-Sets unter den 62.877 DJ-Sets hinter [dem Selector](/selector) und hat nach Zählung des Katalogs 153.212 Aufrufe auf dem Kanal von Mixmag.
+Mixmag filmte 2018 Techno bei Untold. Das Set von Pan-Pot ist eines von nur zwei Untold-Sets unter den DJ-Sets hinter [dem Selector](/selector) und hat nach Zählung des Katalogs 153.212 Aufrufe auf dem Kanal von Mixmag.
 
 [Embed: Pan-Pot, Untold 2018, YouTube-Kanal von Mixmag, rk3SYpd5HSc]
 
@@ -88,13 +88,13 @@ Das ist die Form dieses Festivals: EDM und Pop auf einer Stadionbühne, und Tech
 
 ## Untold von zu Hause hören
 
-Der eigene Kanal des Festivals besteht überwiegend aus Aftermovies und Ankündigungen. Die Live-Sets von Untold, die sich lohnen, liegen auf den Kanälen der Künstler, und nur zwei der 62.877 DJ-Sets hinter [dem Selector](/selector) stammen von Untold, beide Techno-Filme von Mixmag aus 2018. Die Player hier kommen deshalb von den Künstlern.
+Der eigene Kanal des Festivals besteht überwiegend aus Aftermovies und Ankündigungen. Die Live-Sets von Untold, die sich lohnen, liegen auf den Kanälen der Künstler, und nur zwei der DJ-Sets hinter [dem Selector](/selector) stammen von Untold, beide Techno-Filme von Mixmag aus 2018. Die Player hier kommen deshalb von den Künstlern.
 
 Die beiden unten sind die meistgesehenen. Das Set von Armin van Buuren vom 5. August 2017, fünfeinhalb Stunden und 125 Trance-Tracks auf der Hauptbühne, hat auf seinem eigenen Kanal rund 7,9 Millionen Aufrufe, mehr als jedes andere Untold-Set, das wir gefunden haben. Zwei Jahre später ging er noch weiter, mit einem Set von rund siebeneinhalb Stunden und mehr als 130 Tracks bei der Ausgabe 2019. Steve Aoki veröffentlichte sein Headline-Set von 2021, aus der September-Ausgabe nach der Pandemie, auf seinem Kanal, wo es rund 532.000 Aufrufe hat.
 
 [Embed: Armin van Buuren 2017 und Steve Aoki 2021, DjQCkSSblIk]
 
-Untold teilt sich die obersten drei Plätze beim DJ Mag mit [Tomorrowland](/de/tomorrowland-festival), und in derselben Liste steht [Parookaville](/de/parookaville-festival) auf Platz zehn. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Untold teilt sich die obersten drei Plätze beim DJ Mag mit [Tomorrowland](/de/tomorrowland-festival), und in derselben Liste steht [Parookaville](/de/parookaville-festival) auf Platz zehn. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

@@ -90,7 +90,7 @@ Coachella streamt live auf YouTube, mehrere Bühnen gleichzeitig, und der Kanal 
 
 [Embed: FISHER 2019 und Fatboy Slim 2026, oUbpmjOgmmU]
 
-Wie Coachella liegt auch [Parookaville](/de/parookaville-festival) ein Wochenende lang in einer eigenen Welt, nur eben im Westen Deutschlands. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, falls die Wahl schwerfällt.
+Wie Coachella liegt auch [Parookaville](/de/parookaville-festival) ein Wochenende lang in einer eigenen Welt, nur eben im Westen Deutschlands. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, falls die Wahl schwerfällt.
 
 ## FAQ
 

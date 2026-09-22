@@ -272,8 +272,8 @@ Decisions:
 - The German and French Selector say what the tool does now: nothing is
   personalised, and saved and recently played sets stay in the browser. The
   English matched them on 2026-09-22 (`selector-nothing-saved-copy`), in the
-  owner's words: no need to register, no personal data, saved lists stay in
-  the browser.
+  owner's words: no need to register, no ads, saved lists stay in the
+  browser. Not "no personal data": Google Analytics runs on every page.
 - Their internal links go to the translated drum and bass and dubstep guides;
   jungle and breakbeat have no German or French page.
 - Mode names: Beliebt, Geheimtipps, Nischen-Sets; Populaires, Pépites

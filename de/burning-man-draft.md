@@ -108,7 +108,7 @@ Das meiste davon gibt es danach nur zur Hälfte. Manche Camps und DJs filmen ihr
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, Lee Burridge's own YouTube channel, S7OBT3kQAHQ]
 
-Der Rest zum Hören liegt anderswo. Für das entgegengesetzte Format, bei dem die Kamera der Sinn der Sache ist, ordnet [unser Guide zu den besten Boiler-Room-Sets](/best-boiler-room-sets) achtzehn davon, auf Englisch. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus 62.877 Aufnahmen, das Nächste, was es online dazu gibt, nachts über die Playa zu fahren und dort anzuhalten, wo die Musik ist.
+Der Rest zum Hören liegt anderswo. Für das entgegengesetzte Format, bei dem die Kamera der Sinn der Sache ist, ordnet [unser Guide zu den besten Boiler-Room-Sets](/best-boiler-room-sets) achtzehn davon, auf Englisch. Und [der Selector](/selector) spielt ein zufälliges DJ-Set, aus {{catalogue-sets}} Aufnahmen, das Nächste, was es online dazu gibt, nachts über die Playa zu fahren und dort anzuhalten, wo die Musik ist.
 
 [Embed: thecatrave mix I Like to Smoke]
 

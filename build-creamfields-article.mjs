@@ -17,6 +17,7 @@
 // here. A placeholder with no matching asset fails the build, and so does an
 // asset with no placeholder.
 import fs from 'node:fs';
+import {withCatalogue} from './catalogue.mjs';
 import {
   ownSetListening, articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources,
   articleStructuredData, articleTable, articleVideoCard, articleVideoCollection,
@@ -25,7 +26,7 @@ import {
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 
-const draft = fs.readFileSync('creamfields-draft.md', 'utf8').replace(/—/g, ':');
+const draft = withCatalogue(fs.readFileSync('creamfields-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/creamfields-festival';
 const title = 'Creamfields Festival: Where It Is, How It Grew, the Music';
 const description = 'Where Creamfields happens in Cheshire, how a Liverpool house night became a four-day festival, how many people go, who owns it, and what plays beyond the Arc Stage.';
