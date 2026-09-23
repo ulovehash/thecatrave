@@ -1,0 +1,75 @@
+{
+  "page": "fr/uk-garage.html",
+  "seed": "uk garage",
+  "source": "French stage 2 Ahrefs volume for the head terms (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from the free live Google SERP for France ('Autres questions', result titles) and Bing fr-FR related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "uk garage",
+      "volume": 200,
+      "note": "France, French stage 2; fr.wikipedia ranks first"
+    },
+    {
+      "term": "c’est quoi le uk garage",
+      "volume": "not measured",
+      "note": "result titles on Google France; title, H1 and the definition section"
+    },
+    {
+      "term": "le uk garage",
+      "volume": "not measured",
+      "note": "French writes the genre masculine"
+    },
+    {
+      "term": "quel est le style musical garage",
+      "volume": "not measured",
+      "note": "'Autres questions'; the first FAQ"
+    },
+    {
+      "term": "2 step garage",
+      "volume": "not measured",
+      "note": "fr.wikipedia's own page title ('2-step garage'); section and FAQ"
+    },
+    {
+      "term": "speed garage",
+      "volume": "not measured",
+      "note": "its own section"
+    },
+    {
+      "term": "classiques du uk garage",
+      "volume": "not measured",
+      "note": "result titles (playlists of classics); the classics section"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/uk-garage.json.",
+  "rejected": [
+    {
+      "term": "qu’est-ce que le rock garage",
+      "volume": "not measured",
+      "why": "'Autres questions', a different genre"
+    },
+    {
+      "term": "quel est le type de musique house",
+      "volume": "not measured",
+      "why": "'Autres questions', house is only the comparison here"
+    },
+    {
+      "term": "quelle est la musique britannique la plus connue",
+      "volume": "not measured",
+      "why": "'Autres questions', off topic"
+    },
+    {
+      "term": "musique uk garage playlist",
+      "volume": "not measured",
+      "why": "wants a playlist, not a guide"
+    },
+    {
+      "term": "uk garage drum kit",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "why do they call it uk garage",
+      "volume": "not measured",
+      "why": "English question Google shows in France; stays with the English page"
+    }
+  ]
+}

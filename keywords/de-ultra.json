@@ -1,0 +1,80 @@
+{
+  "page": "de/ultra-music-festival.html",
+  "seed": "ultra music festival",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from the free live google.de SERP ('Weitere Fragen', 'Wird auch oft gesucht', result titles) and Bing de-DE related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "ultra music festival",
+      "volume": 400,
+      "note": "Germany, stage 1; title, H1 and throughout"
+    },
+    {
+      "term": "ultra miami",
+      "volume": "not measured",
+      "note": "google.de 'Weitere Fragen' asks both 'Was ist Ultra Miami?' and 'Wann ist Ultra Miami?'"
+    },
+    {
+      "term": "was ist ultra miami",
+      "volume": "not measured",
+      "note": "'Weitere Fragen'; the introduction opens on it"
+    },
+    {
+      "term": "wann ist ultra miami",
+      "volume": "not measured",
+      "note": "'Weitere Fragen'; the where section and the FAQ"
+    },
+    {
+      "term": "ultra europe",
+      "volume": "not measured",
+      "note": "its own section"
+    },
+    {
+      "term": "wo findet ultra europe statt",
+      "volume": "not measured",
+      "note": "'Weitere Fragen' on google.de for 'ultra europe'; section and FAQ"
+    },
+    {
+      "term": "ultra festival kroatien",
+      "volume": "not measured",
+      "note": "Bing de-DE related search, and 'Wann findet das Ultra Music Festival Europe in Kroatien statt?' in 'Weitere Fragen'"
+    },
+    {
+      "term": "ultra miami 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    },
+    {
+      "term": "ultra europe 2027",
+      "volume": "not measured",
+      "note": "the next edition of Ultra Europe; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/ultra.json.",
+  "rejected": [
+    {
+      "term": "ultra miami 2026 lineup",
+      "volume": "not measured",
+      "why": "dated line-up, as on the English page"
+    },
+    {
+      "term": "ultra europe tickets",
+      "volume": "not measured",
+      "why": "a purchase; the official ticket page answers it"
+    },
+    {
+      "term": "welches techno-festival ist das größte",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', a ranking question the page does not answer"
+    },
+    {
+      "term": "was sind die 3 größten festivals der welt",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', a ranking question the page does not answer"
+    },
+    {
+      "term": "ultra split karte",
+      "volume": "not measured",
+      "why": "a site map for festivalgoers"
+    }
+  ]
+}

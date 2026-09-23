@@ -1,0 +1,65 @@
+{
+  "page": "de/edc-las-vegas.html",
+  "seed": "edc las vegas",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from the free live google.de SERP ('Weitere Fragen', 'Wird auch oft gesucht', result titles) and Bing de-DE related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "edc las vegas",
+      "volume": 350,
+      "note": "Germany, stage 1; title, H1 and throughout"
+    },
+    {
+      "term": "was ist das edc in las vegas",
+      "volume": "not measured",
+      "note": "'Weitere Fragen'; the introduction opens on it"
+    },
+    {
+      "term": "was ist das edc",
+      "volume": "not measured",
+      "note": "'Weitere Fragen'; German writes 'das EDC'"
+    },
+    {
+      "term": "wann ist das edc las vegas",
+      "volume": "not measured",
+      "note": "'Weitere Fragen'; the where section and the FAQ"
+    },
+    {
+      "term": "electric daisy carnival",
+      "volume": "not measured",
+      "note": "de.wikipedia's title for the festival"
+    },
+    {
+      "term": "edc las vegas 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/edc.json.",
+  "rejected": [
+    {
+      "term": "was kostet ein ticket für sphere las vegas",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', a different venue"
+    },
+    {
+      "term": "wer tritt momentan in las vegas auf",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', a listings question"
+    },
+    {
+      "term": "was ist das größte edm-festival der welt",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', a world ranking the page does not make; the North American claim is answered in the FAQ"
+    },
+    {
+      "term": "edc festival outfits",
+      "volume": "not measured",
+      "why": "outfits, rejected on every festival guide"
+    },
+    {
+      "term": "edc italia",
+      "volume": "not measured",
+      "why": "Bing related search, a different brand"
+    }
+  ]
+}

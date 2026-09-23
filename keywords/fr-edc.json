@@ -1,0 +1,55 @@
+{
+  "page": "fr/edc-las-vegas.html",
+  "seed": "edc las vegas",
+  "source": "French stage 2 Ahrefs volume for the head terms (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from the free live Google SERP for France ('Autres questions', result titles) and Bing fr-FR related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "edc las vegas",
+      "volume": 200,
+      "note": "France, French stage 2; title, H1 and throughout"
+    },
+    {
+      "term": "festival edc",
+      "volume": "not measured",
+      "note": "Bing fr-FR suggestion; the introduction"
+    },
+    {
+      "term": "quel est le prix d’un billet pour edc las vegas",
+      "volume": "not measured",
+      "note": "'Autres questions', asked in those words by the ticket FAQ"
+    },
+    {
+      "term": "electric daisy carnival",
+      "volume": "not measured",
+      "note": "the festival's full name"
+    },
+    {
+      "term": "edc las vegas 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/edc.json.",
+  "rejected": [
+    {
+      "term": "edc festival",
+      "volume": 150,
+      "why": "the words reversed; French prose says 'le festival EDC', which answers it, and it is not claimed, as with the reversed shorthand in French batch 1"
+    },
+    {
+      "term": "quel est le prix d’un billet pour un concert à las vegas",
+      "volume": "not measured",
+      "why": "'Autres questions', concerts in general"
+    },
+    {
+      "term": "quels concerts sont prévus à las vegas en 2027",
+      "volume": "not measured",
+      "why": "'Autres questions', listings"
+    },
+    {
+      "term": "johnny hallyday a-t-il donné un concert à las vegas",
+      "volume": "not measured",
+      "why": "'Autres questions', unrelated"
+    }
+  ]
+}

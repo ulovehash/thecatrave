@@ -27,6 +27,7 @@ import {
   breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('ultra-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/ultra-music-festival';
@@ -247,6 +248,7 @@ if (ogFile !== 'img/og/ultra.jpg') console.warn('img/og/ultra.jpg missing: run s
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/ultra-music-festival'),
   ogImage: `https://thecatrave.com/${ogFile}`,
   datePublished, dateModified,
   bodyClass: 'article-page ultra-page',

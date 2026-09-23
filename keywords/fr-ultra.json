@@ -1,0 +1,75 @@
+{
+  "page": "fr/ultra-music-festival.html",
+  "seed": "ultra music festival",
+  "source": "French stage 2 Ahrefs volume for the head terms (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from the free live Google SERP for France ('Autres questions', result titles) and Bing fr-FR related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "ultra music festival",
+      "volume": 200,
+      "note": "France, French stage 2; title, H1 and throughout"
+    },
+    {
+      "term": "ultra miami",
+      "volume": 100,
+      "note": "France, French stage 2"
+    },
+    {
+      "term": "quand a lieu l’ultra miami",
+      "volume": "not measured",
+      "note": "'Autres questions' asks when Ultra Miami 2027 takes place; the where section and the FAQ"
+    },
+    {
+      "term": "quel est le prix d’un billet pour l’ultra music festival",
+      "volume": "not measured",
+      "note": "'Autres questions', asked in those words by the ticket FAQ"
+    },
+    {
+      "term": "festival ultra",
+      "volume": "not measured",
+      "note": "Bing fr-FR suggestion 'festival ultra miami'"
+    },
+    {
+      "term": "ultra europe",
+      "volume": "not measured",
+      "note": "its own section"
+    },
+    {
+      "term": "ultra festival en croatie",
+      "volume": "not measured",
+      "note": "Bing fr-FR 'ultra festival croatie'; French prose needs the preposition"
+    },
+    {
+      "term": "ultra miami 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    },
+    {
+      "term": "ultra europe 2027",
+      "volume": "not measured",
+      "note": "the next edition of Ultra Europe; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/ultra.json.",
+  "rejected": [
+    {
+      "term": "quels sont les 10 plus gros festivals du monde",
+      "volume": "not measured",
+      "why": "'Autres questions', a ranking the page does not make"
+    },
+    {
+      "term": "qui sera au festival 2026",
+      "volume": "not measured",
+      "why": "'Autres questions', dated line-up"
+    },
+    {
+      "term": "ultra music festival programmation",
+      "volume": "not measured",
+      "why": "line-up, as on the English page"
+    },
+    {
+      "term": "ultra europe line up",
+      "volume": "not measured",
+      "why": "line-up, as on the English page"
+    }
+  ]
+}

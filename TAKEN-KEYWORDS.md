@@ -10,6 +10,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - what is acid house
 - acid house music
 
+## best-clubs-in-barcelona.html
+
+- best clubs in barcelona
+- clubs in barcelona
+- barcelona nightlife
+- best techno clubs in barcelona
+
 ## bass-music-guide.html
 
 - bass music
@@ -129,6 +136,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - acid house
 - was ist acid house
 
+## de/clubs-barcelona.html
+
+- besten clubs in barcelona
+- clubs in barcelona
+
 ## de/clubs-berlin.html
 
 - clubs berlin
@@ -177,6 +189,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - dubstep musik
 - was ist dubstep
 
+## de/edc-las-vegas.html
+
+- edc las vegas
+- was ist das edc in las vegas
+- was ist das edc
+- wann ist das edc las vegas
+- electric daisy carnival
+- edc las vegas 2027
+
 ## de/electro-festivals-europa.html
 
 - electro festivals in europa
@@ -210,6 +231,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wo findet mysteryland statt
 - wie viele besucher hat mysteryland
 - was kosten tickets für mysteryland
+
+## de/clubs-paris.html
+
+- besten clubs in paris
+- clubs in paris
 
 ## de/parookaville-festival.html
 
@@ -246,6 +272,29 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was kosten tickets für tomorrowland
 - wem gehört tomorrowland
 - wann ist tomorrowland
+
+## de/uk-garage.html
+
+- uk garage
+- was ist uk garage
+- was für eine musikrichtung ist uk garage
+- speed garage
+- 2 step garage
+- uk garage klassiker
+- uk garage songs
+- bassline
+
+## de/ultra-music-festival.html
+
+- ultra music festival
+- ultra miami
+- was ist ultra miami
+- wann ist ultra miami
+- ultra europe
+- wo findet ultra europe statt
+- ultra festival kroatien
+- ultra miami 2027
+- ultra europe 2027
 
 ## de/untold-festival.html
 
@@ -307,6 +356,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - l’acid house
 - qu’est-ce que l’acid house
 
+## fr/boite-de-nuit-barcelone.html
+
+- boite de nuit barcelone
+
 ## fr/boite-de-nuit-berlin.html
 
 - kitkat club berlin
@@ -333,6 +386,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 ## fr/dubstep.html
 
 - dubstep
+
+## fr/edc-las-vegas.html
+
+- edc las vegas
+- festival edc
+- quel est le prix d’un billet pour edc las vegas
+- electric daisy carnival
+- edc las vegas 2027
 
 ## fr/festivals-electro-europe.html
 
@@ -364,6 +425,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - mysteryland festival
 - mysteryland 2027
 
+## fr/boite-de-nuit-paris.html
+
+- boite de nuit paris
+
 ## fr/festival-parookaville.html
 
 - parookaville
@@ -390,6 +455,28 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival tomorrowland
 - tomorrowland thailand
 - tomorrowland 2027
+
+## fr/uk-garage.html
+
+- uk garage
+- c’est quoi le uk garage
+- le uk garage
+- quel est le style musical garage
+- 2 step garage
+- speed garage
+- classiques du uk garage
+
+## fr/ultra-music-festival.html
+
+- ultra music festival
+- ultra miami
+- quand a lieu l’ultra miami
+- quel est le prix d’un billet pour l’ultra music festival
+- festival ultra
+- ultra europe
+- ultra festival en croatie
+- ultra miami 2027
+- ultra europe 2027
 
 ## german-electronic-music.html
 
@@ -530,6 +617,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - mysteryland netherlands
 - where is mysteryland
 - mysteryland usa
+
+## best-clubs-in-paris.html
+
+- best clubs in paris
+- clubs in paris
+- paris nightlife
+- best night clubs in paris
+- the best clubs in paris
 
 ## parookaville-festival.html
 

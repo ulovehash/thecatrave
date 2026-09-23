@@ -19,6 +19,7 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('uk-garage-guide-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/uk-garage-guide';
@@ -318,6 +319,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/uk-garage-guide'),
   ogImage: 'https://thecatrave.com/img/og/uk-garage.jpg',
   datePublished: date, dateModified: date,
   bodyClass: 'article-page uk-garage-page',

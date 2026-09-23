@@ -522,6 +522,14 @@
       "what": "None of the German or French festival translations (de/tomorrowland-festival, de/parookaville-festival, de/coachella-festival, de/mysteryland-festival, de/untold-festival, de/glastonbury-festival, de/primavera-sound-barcelona, de/burning-man-festival and the French pages for Tomorrowland, Coachella, Burning Man, Glastonbury, Mysteryland, Parookaville, Primavera Sound and Sónar) is registered in festival-editions.mjs, so nothing reminds anyone to move their 2027 dates on when the English page moves. Found while adding the translated Europe festivals pages, which are registered.",
       "should_have_caught": "festival-editions.mjs is keyed by page file and lists English pages only; the translation checklist in SITE-COMPONENTS.md does not mention it",
       "fix": null
+    },
+    {
+      "id": "uk-garage-skream-photo-uncredited",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The Skream photograph in the UK garage guide (img/skream-1200.webp, caption 'Skream, who made dubstep records as a teenager...') has no photographer or licence in its caption, and nothing in the repository records where it came from (added in commit f220880, 2025-04-04; media/uk-garage.json does not list it). CLAUDE.md requires images to be openly licensed and credited in the caption. Found while translating the guide into German and French; the translations carry the same caption without a credit rather than a guessed one. The same file is the card image of the UK garage guide in home-articles.mjs and appears on other pages.",
+      "should_have_caught": "audit-media.mjs checks the media maps, not whether every figure caption on a page carries a credit",
+      "fix": null
     }
   ]
 }

@@ -27,6 +27,7 @@ import {
   breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('edc-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/edc-las-vegas';
@@ -238,6 +239,7 @@ if (ogFile !== 'img/og/edc.jpg') console.warn('img/og/edc.jpg missing: run scrip
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/edc-las-vegas'),
   ogImage: `https://thecatrave.com/${ogFile}`,
   datePublished, dateModified,
   bodyClass: 'article-page edc-page',

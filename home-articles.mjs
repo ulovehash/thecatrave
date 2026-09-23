@@ -413,6 +413,30 @@ export const germanArticleCatalog = [
     image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
     srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
     width:1200, height:900, alt:'Publikum bei Tag unter dem Stahldach der Futur Stage beim Kappa FuturFestival in Turin'
+  },
+  {
+    page:'de/ultra-music-festival.html', tags:['discovery','history','bass'], href:'/de/ultra-music-festival', type:'Guide', topic:'Ultra',
+    title:'Ultra Music Festival 2027: Miami, Termine, Ort und Musik',
+    description:'Ultra kehrt vom 26. bis 28. März 2027 in den Bayfront Park in Miami zurück: Ort, Größe, Geschichte, Ultra Europe in Split und die Musik jenseits der Main Stage.',
+    image:'img/ultra/bayfront-2014-320.webp',
+    srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
+    width:1200, height:900, alt:'Der Bayfront Park in Miami von oben während des Ultra Music Festivals 2014'
+  },
+  {
+    page:'de/edc-las-vegas.html', tags:['discovery','history','bass'], href:'/de/edc-las-vegas', type:'Guide', topic:'EDC Las Vegas',
+    title:'EDC Las Vegas 2027: Was das EDC ist, wie groß, welche Musik',
+    description:'Der Electric Daisy Carnival auf dem Las Vegas Motor Speedway: wo das EDC stattfindet, wie daraus eine halbe Million Menschen im Jahr wurden und was jenseits von kineticFIELD läuft.',
+    image:'img/edc/kinetic-field-2024-320.webp',
+    srcset:'img/edc/kinetic-field-2024-320.webp 320w,img/edc/kinetic-field-2024-1200.webp 1200w',
+    width:1200, height:900, alt:'kineticFIELD bei EDC Las Vegas 2024'
+  },
+  {
+    page:'de/uk-garage.html', tags:['uk','nineties','house','bass'], href:'/de/uk-garage', type:'Guide', topic:'UK Garage',
+    title:'Was ist UK Garage? Sound, 2-Step, Speed Garage und Bassline',
+    description:'London spielte eine amerikanische Platte zu schnell, bis der Beat brach. Die Zweige, in die sich UK Garage teilte, und die Zahlen hinter seinem Revival.',
+    image:'img/skream-320.webp',
+    srcset:'img/skream-320.webp 320w,img/skream-1200.webp 1200w',
+    width:1200, height:900, alt:'Skream bei einem DJ-Set'
   }
 ];
 
@@ -554,6 +578,30 @@ export const frenchArticleCatalog = [
     image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
     srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
     width:1200, height:900, alt:'Un public en plein jour sous la charpente d’acier de la Futur Stage au Kappa FuturFestival, à Turin'
+  },
+  {
+    page:'fr/ultra-music-festival.html', tags:['discovery','history','bass'], href:'/fr/ultra-music-festival', type:'Guide', topic:'Ultra',
+    title:'Ultra Music Festival 2027 : dates, lieu à Miami et musique',
+    description:'L’Ultra revient au Bayfront Park de Miami du 26 au 28 mars 2027 : le lieu, la taille, l’histoire, Ultra Europe à Split et la musique loin de la Main Stage.',
+    image:'img/ultra/bayfront-2014-320.webp',
+    srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
+    width:1200, height:900, alt:'Le Bayfront Park de Miami vu d’en haut pendant l’Ultra Music Festival 2014'
+  },
+  {
+    page:'fr/edc-las-vegas.html', tags:['discovery','history','bass'], href:'/fr/edc-las-vegas', type:'Guide', topic:'EDC Las Vegas',
+    title:'EDC Las Vegas 2027 : le festival, sa taille et sa musique',
+    description:'L’Electric Daisy Carnival au Las Vegas Motor Speedway : où a lieu l’EDC, comment il est arrivé à un demi-million de personnes par an et ce qui se joue loin de kineticFIELD.',
+    image:'img/edc/kinetic-field-2024-320.webp',
+    srcset:'img/edc/kinetic-field-2024-320.webp 320w,img/edc/kinetic-field-2024-1200.webp 1200w',
+    width:1200, height:900, alt:'kineticFIELD à EDC Las Vegas en 2024'
+  },
+  {
+    page:'fr/uk-garage.html', tags:['uk','nineties','house','bass'], href:'/fr/uk-garage', type:'Guide', topic:'UK garage',
+    title:'C’est quoi le UK garage ? Son, 2-step, speed garage, bassline',
+    description:'Londres a joué un disque américain trop vite, jusqu’à casser le beat. Les branches entre lesquelles le UK garage s’est partagé, et les chiffres de son revival.',
+    image:'img/skream-320.webp',
+    srcset:'img/skream-320.webp 320w,img/skream-1200.webp 1200w',
+    width:1200, height:900, alt:'Skream pendant un DJ set'
   }
 ];
 

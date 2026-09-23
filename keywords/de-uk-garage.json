@@ -1,0 +1,80 @@
+{
+  "page": "de/uk-garage.html",
+  "seed": "uk garage",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from the free live google.de SERP ('Weitere Fragen', 'Wird auch oft gesucht', result titles) and Bing de-DE related searches, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "uk garage",
+      "volume": 300,
+      "note": "Germany, stage 1; de.wikipedia ranks first and writes 'UK Garage'"
+    },
+    {
+      "term": "was ist uk garage",
+      "volume": "not measured",
+      "note": "title, H1 and the definition section"
+    },
+    {
+      "term": "was für eine musikrichtung ist uk garage",
+      "volume": "not measured",
+      "note": "'Weitere Fragen' asks 'Was ist Garage für eine Musikrichtung?'; the first FAQ"
+    },
+    {
+      "term": "speed garage",
+      "volume": "not measured",
+      "note": "'Wird auch oft gesucht'; its own section"
+    },
+    {
+      "term": "2 step garage",
+      "volume": "not measured",
+      "note": "'Wird auch oft gesucht' ('2step Garage'); section and FAQ"
+    },
+    {
+      "term": "uk garage klassiker",
+      "volume": "not measured",
+      "note": "'Wird auch oft gesucht' ('UK Garage classics'); the classics section"
+    },
+    {
+      "term": "uk garage songs",
+      "volume": "not measured",
+      "note": "'Wird auch oft gesucht' and Bing de-DE; the classics section"
+    },
+    {
+      "term": "bassline",
+      "volume": "not measured",
+      "note": "its own section"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/uk-garage.json.",
+  "rejected": [
+    {
+      "term": "uk garage drum kit",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "uk garage sample pack",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "uk garage drum pattern",
+      "volume": "not measured",
+      "why": "production teaching (WRITING.md)"
+    },
+    {
+      "term": "garage rock",
+      "volume": "not measured",
+      "why": "'Wird auch oft gesucht', a different genre"
+    },
+    {
+      "term": "wie nennt man eine garage noch",
+      "volume": "not measured",
+      "why": "'Weitere Fragen', the building"
+    },
+    {
+      "term": "garage house",
+      "volume": "not measured",
+      "why": "the American parent; explained in the naming section, not targeted"
+    }
+  ]
+}

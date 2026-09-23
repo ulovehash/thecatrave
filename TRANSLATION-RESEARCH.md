@@ -1,5 +1,15 @@
 # Translation research
 
+## Ultra, EDC Las Vegas and UK garage, German and French (2026-09-23)
+
+Six pages: `/de/ultra-music-festival`, `/fr/ultra-music-festival`,
+`/de/edc-las-vegas`, `/fr/edc-las-vegas`, `/de/uk-garage` and `/fr/uk-garage`,
+the next three guides with no translation by measured DE + FR demand. No Ahrefs
+units spent: head terms keep their stage 1 and French stage 2 volumes, the
+wording and the FAQs come from the live Google "People also ask" boxes and Bing,
+23 September. The English pages changed in the head only. Decisions:
+`ultra-edc-uk-garage-translation-research.md`. Next: breakbeat.
+
 ## Acid house, grime and Europe festivals, German and French (2026-09-22)
 
 Six pages: `/de/acid-house`, `/fr/acid-house`, `/de/grime`, `/fr/grime`,
