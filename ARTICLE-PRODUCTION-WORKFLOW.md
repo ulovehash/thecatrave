@@ -121,6 +121,14 @@ Write the article around eras, scenes, records, people, technologies and contest
 - explain uncertainty instead of forcing a neat origin myth;
 - sound like an informed listener and journalist, not a glossary assembled for search engines.
 
+Before the reviews, run the draft through the `humanizer` skill (`.claude/skills/humanizer/`, from [blader/humanizer](https://github.com/blader/humanizer); `.claude/` is gitignored, so reinstall it from there on a new machine). It removes AI writing tells: not-X-but-Y contrasts, one-line closers, forced triads, dash habits, inflated significance, stock AI vocabulary and decorative bold. Give it a published guide as the voice sample. Its rewrite must keep:
+
+- every measured keyword phrase and every title, H2, H3 and FAQ question built on one, word for word, since the audit fails a page that claims a term it no longer contains;
+- every fact, name, date, record and quote, with nothing added;
+- proper names, record titles and quotations, even where they contain a watched word.
+
+It is for drafts. On a published guide, including a translation, show the exact before and after wording and wait for approval, as for any other edit to live copy.
+
 Complete three reviews before layout:
 
 1. factual and timeline review;
