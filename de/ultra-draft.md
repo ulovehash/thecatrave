@@ -100,8 +100,6 @@ Das deutlichste Beispiel kam 2016. Knife Party, das Nebenprojekt von Rob Swire u
 
 [Embed: Pendulum / Knife Party Headline Set Ultra 2016, Pendulums eigener YouTube-Kanal, EYMJizj3Qq8]
 
-Das ist das Wissenswerte für alle, die von Breaks, Jungle oder Drum and Bass kommen. Der Ruf von Ultra ist die EDM-Main-Stage und das Wiedersehen unter dem Feuerwerk, und dieser Ruf ist verdient. Aber das Festival buchte LTJ Bukem, bevor es irgendetwas davon buchte, und es beendete seine Ausgabe 2016 mit einer Drum-and-Bass-Band.
-
 ## Ultra von zu Hause hören
 
 Ultra streamt seine Bühnen live als #ULTRALIVE, und die Künstler stellen ihre Sets danach online. Das meistgesehene Ultra-Set, das sich finden ließ, ist das von Skrillex 2015, mehr als 94 Millionen Aufrufe auf seinem eigenen Kanal, das Set, an das sich Miami New Times erinnert, weil Diplo und Justin Bieber dazukamen. Ebenfalls auf dieser Liste der besten Auftritte des Festivals steht Hardwell 2013, mehr als 35 Millionen Aufrufe auf seinem Kanal, der dabei Dyro für ihre gemeinsame Nummer „Never Say Goodbye“ auf die Bühne holte. Das Set von Martin Garrix von 2015 liegt bei den Aufrufen dazwischen, mit fast 39 Millionen.

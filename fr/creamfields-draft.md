@@ -92,8 +92,6 @@ Le film du festival tiré de son After Series 2019 montre deux minutes de ce pub
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, chaîne YouTube Creamfields Official Page, fVKywXvEl9g]
 
-Pour qui vient des breaks, de la jungle ou de la drum and bass, voilà ce qui est utile à savoir. Creamfields n’est pas un festival de drum and bass, et l’Arc Stage appartient surtout à l’EDM. Mais la musique d’où vient ce site a une vraie place à son affiche depuis au moins 2012, et en 2025 elle était en tête d’affiche de l’Arc.
-
 ## Écouter Creamfields depuis chez soi
 
 Creamfields filme ses scènes. Beatport y a diffusé et filmé des sets : parmi les DJ sets derrière [le Selector](/fr/selector), 52 viennent de Creamfields, dont 51 de Beatport, de Carl Cox et Adam Beyer à CamelPhat et Eric Prydz. Aucun des artistes de drum and bass cités plus haut n’en fait partie.
@@ -102,7 +100,7 @@ Le festival publie aussi des sets sur sa propre chaîne, et certains artistes pu
 
 [Embed: Ewan McVicar 2023 et Pete Tong 2025, BvXj6mCK0X4]
 
-Creamfields et Tomorrowland ont un jour partagé un Steel Yard, pour un événement unique appelé Garden of Madness à Liverpool en 2018 ; pour le festival belge, lisez [notre guide de Tomorrowland](/fr/festival-tomorrowland). Pour savoir d’où viennent Chase & Status et Andy C, lisez [le guide de la drum and bass](/fr/drum-and-bass) et [le guide de la jungle](/fr/jungle). Et [le Selector](/fr/selector) joue un DJ set au hasard parmi {{catalogue-sets}}, si vous préférez ne pas choisir. Vous comparez avec d’autres festivals ? Voyez [les meilleurs festivals électro en Europe](/fr/festivals-electro-europe).
+Creamfields et Tomorrowland ont un jour partagé un Steel Yard, pour un événement unique appelé Garden of Madness à Liverpool en 2018 ; pour le festival belge, lisez [notre guide de Tomorrowland](/fr/festival-tomorrowland). Et [le Selector](/fr/selector) joue un DJ set au hasard parmi {{catalogue-sets}}, si vous préférez ne pas choisir. Vous comparez avec d’autres festivals ? Voyez [les meilleurs festivals électro en Europe](/fr/festivals-electro-europe).
 
 ## FAQ
 

@@ -140,7 +140,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'Parookaville est loin des breaks et des basses d’où vient ma propre musique, mais la venue de Pendulum a mis la drum and bass à l’affiche en 2026. Acheter un morceau soutient directement mon travail.',
+    description: 'Parookaville est loin du breakbeat que je fais moi-même. Acheter un morceau soutient directement mon travail.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks par thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 par thecatrave'}

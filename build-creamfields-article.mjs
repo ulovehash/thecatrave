@@ -216,7 +216,7 @@ ${sourceLink('https://www.skiddle.com/news/all/The-Best-DJ-Sets-of-All-Time/5770
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'Creamfields has made room for drum and bass beside its house and techno, and my own music comes out of the same breaks and bass lineage. Buying a track supports my work directly.',
+    description: 'The music I make myself is breakbeat. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}

@@ -135,7 +135,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'Der Drum and Bass auf den gehosteten Bühnen von Tomorrowland kommt aus derselben Linie von Breaks und Bass wie meine eigene Musik. Wer einen Track kauft, unterstützt meine Arbeit direkt.',
+    description: 'Meine eigene Musik ist Breakbeat, weit weg von der Mainstage. Wer einen Track kauft, unterstützt meine Arbeit direkt.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks von thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 von thecatrave'}

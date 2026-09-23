@@ -96,9 +96,7 @@ Beim EDC reicht Drum and Bass weiter zurück, als die Hauptbühne vermuten läss
 
 Auch Jungle tauchte auf: 2016 filmte The Lab von Mixmag auf dem Festival Rusko bei einem Jungle-Set. Und 2026 brachte Sub Focus Drum and Bass auf kineticFIELD selbst, die Bühne, die für die größten Namen des EDM gebaut ist.
 
-Das 30. Jubiläum buchte außerdem die Platten, aus denen die Musik dieser Seite wächst. The Prodigy spielten zum ersten Mal beim EDC Las Vegas, am Samstagabend auf cosmicMEADOW, der Bühne, die HARD ausrichtete, und auch Underworld gehörten zu den Headlinern dieser Bühne.
-
-Für alle, die von Breaks, Jungle oder Drum and Bass kommen, ist das das Nützliche daran. Das EDC lohnt die Reise wegen des Jahrmarkts und der Größe, und die Musik, für die man einen Ozean überquert, läuft auf bassPOD und cosmicMEADOW, nicht nur unter dem Feuerwerk von kineticFIELD.
+Das 30. Jubiläum buchte außerdem ältere britische Namen. The Prodigy spielten zum ersten Mal beim EDC Las Vegas, am Samstagabend auf cosmicMEADOW, der Bühne, die HARD ausrichtete, und auch Underworld gehörten zu den Headlinern dieser Bühne.
 
 ## EDC von zu Hause hören
 

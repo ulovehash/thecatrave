@@ -134,7 +134,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'LTJ Bukem sur la première affiche de l’Ultra et Pendulum en clôture de l’édition 2016 viennent de la même lignée de breaks et de basses que ma propre musique. Acheter un morceau soutient directement mon travail.',
+    description: 'Ce que je fais moi-même, c’est du breakbeat, loin du Bayfront Park. Acheter un morceau soutient directement mon travail.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks par thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 par thecatrave'}

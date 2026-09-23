@@ -98,8 +98,6 @@ The clearest case came in 2016. Knife Party, Rob Swire and Gareth McGrillen's si
 
 [Embed: Pendulum / Knife Party Headline Set Ultra 2016, Pendulum's own YouTube channel, EYMJizj3Qq8]
 
-That is the thing worth knowing, for a listener who comes from breaks, jungle or drum and bass. Ultra's reputation is the EDM Main Stage and the reunion under the fireworks, and that reputation is earned. But the festival booked LTJ Bukem before it booked any of that, and it ended its 2016 edition on a drum and bass band.
-
 ## Hearing Ultra from home
 
 Ultra streams its stages live as #ULTRALIVE, and the artists put their sets online afterwards. The most-watched Ultra set found is Skrillex's in 2015, more than 94 million views on his own channel, the set Miami New Times remembers for Diplo and Justin Bieber joining him. Also on that list of the festival's best performances is Hardwell's in 2013, more than 35 million views on his channel, in which he brought out Dyro for their collaboration "Never Say Goodbye". Martin Garrix's 2015 set sits between them on views, with nearly 39 million.

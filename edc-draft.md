@@ -94,9 +94,7 @@ At EDC, drum and bass goes back further than the main stage suggests. Bassrush i
 
 Jungle has turned up too: in 2016 Mixmag's Lab at the festival filmed Rusko playing a jungle set. And in 2026 Sub Focus took drum and bass to kineticFIELD itself, the stage built for EDM's biggest names.
 
-The 30th anniversary also booked the records this site's music grows from. The Prodigy played EDC Las Vegas for the first time, on cosmicMEADOW on the Saturday night, which HARD hosted, and Underworld were among that stage's headliners too.
-
-For a listener who comes from breaks, jungle or drum and bass, that is the useful thing to know. EDC is worth the trip for the carnival and the scale, and the music worth crossing an ocean for is on bassPOD and cosmicMEADOW, not only under the fireworks at kineticFIELD.
+The 30th anniversary also booked older British names. The Prodigy played EDC Las Vegas for the first time, on cosmicMEADOW on the Saturday night, which HARD hosted, and Underworld were among that stage's headliners too.
 
 ## Hearing EDC from home
 

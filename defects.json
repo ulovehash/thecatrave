@@ -642,6 +642,17 @@
         "file": "jungle-music-guide.html",
         "contains": "it features memorably in <strong>Ali G Indahouse</strong>, in 2002"
       }
+    },
+    {
+      "id": "festival-guides-breaks-jungle-dnb-framing",
+      "found": "2026-09-23",
+      "by": "owner",
+      "what": "Five festival guides (Tomorrowland, Creamfields, EDC Las Vegas, Ultra, Parookaville) and their German and French translations frame the music section around breaks, jungle and drum and bass: an aside to \"a listener who comes from breaks, jungle or drum and bass\" in each, \"the records this site's music grows from\" in EDC, a Parookaville paragraph on how little drum and bass it books, links from Creamfields and Parookaville to the drum and bass and jungle guides, and Bandcamp copy that ties each festival's drum and bass to the owner's music. festivals-series.md has forbidden all of this since 14 September 2026 (\"No drum and bass written in where nobody asked for it\"), and the guides were not brought into line. The owner, 23 September: \"i dont want to make every article about breaks jungle or drum and bass\". The factual drum and bass booking paragraphs stay, by the owner's decision. Published copy in three languages: the wording goes to the owner first. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "the rule lived only in festivals-series.md, which is read when a festival guide is planned, not when one is edited; no audit greps for the aside or for drum and bass guide links on festival pages",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "The wider rule: not every article is about breaks, jungle or drum and bass."
+      }
     }
   ]
 }

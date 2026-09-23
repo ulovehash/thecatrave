@@ -96,8 +96,6 @@ La drum and bass est présente à Tomorrowland depuis plus longtemps que la Main
 
 [Embed: thecatrave degeneration]
 
-Pour quelqu’un qui vient des breaks, de la jungle ou de la techno, c’est ce qu’il faut savoir. Tomorrowland vaut le déplacement pour le parc et la production, et la musique qui justifie de traverser l’Europe se trouve sur les scènes invitées, pas seulement sous les feux d’artifice.
-
 ## Écouter Tomorrowland depuis chez soi
 
 Tomorrowland filme ses scènes et met les sets en ligne, ce qui explique en grande partie ses chiffres de livestream. Les deux ci-dessous font partie des plus vus : Hardwell sur la Mainstage en 2013, plus de 28 millions de vues sur sa propre chaîne, l’année où le Top 100 de DJ Mag l’a élu numéro un ; et Swedish House Mafia sur la Mainstage en 2025.

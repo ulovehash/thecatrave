@@ -80,8 +80,6 @@ Paul Elstak markiert das härteste Ende. Der niederländische Hardcore-, Gabber-
 
 [Embed: Paul Elstak, Parookaville 2022, PAROOKAVILLE YouTube-Kanal, QeifZyGcZmY]
 
-Drum and Bass ist hier zu Gast. Pendulum standen 2026 im Line-up, vom Festival unter Drum and Bass geführt, und der Kanal hat Bass-Sets wie Modestep, Barely Alive und Virtual Riot aus 2019, aber keiner der Bühnengastgeber ist ein Drum-and-Bass-Label oder eine Drum-and-Bass-Reihe. Für Hörerinnen und Hörer, die von Breaks, Jungle oder Drum and Bass kommen, ist das die ehrliche Auskunft: Parookaville ist kein Festival für diese Musik. Am nächsten kommt der Hardcore im Programm, und der ist ein entfernter Verwandter. Der niederländische Gabber und der britische Breakbeat-Hardcore, aus dem Jungle hervorging, wuchsen beide aus dem Rave der frühen Neunziger, bevor der eine zur Bassdrum ging und der andere zum Break.
-
 ## Parookaville von zu Hause hören
 
 Parookaville stellt seine Sets online. Der Kanal des Festivals hat für jede Ausgabe seit 2017 eine Playlist mit DJ-Sets, und viele Künstler laden ihre eigenen hoch. Keines der DJ-Sets hinter [dem Selector](/selector) stammt aus Parookaville, deshalb kommen die Player hier von diesen Kanälen.

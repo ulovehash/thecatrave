@@ -90,8 +90,6 @@ The festival's own film from its 2019 After Series is two minutes of that crowd,
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, Creamfields Official Page YouTube channel, fVKywXvEl9g]
 
-For a listener who comes from breaks, jungle or drum and bass, that is the useful thing to know. Creamfields is not a drum and bass festival, and the Arc Stage mostly belongs to EDM. But the music this site comes from has had a real place on its bill since at least 2012, and in 2025 it headlined the Arc.
-
 ## Hearing Creamfields from home
 
 Creamfields films its stages. Beatport has streamed and filmed sets there: of the DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz. None of the drum and bass acts named above is among them.
@@ -100,7 +98,7 @@ The festival also puts sets on its own channel, and some artists post their own.
 
 [Embed: Ewan McVicar 2023 and Pete Tong 2025, BvXj6mCK0X4]
 
-Creamfields and Tomorrowland once shared a Steel Yard, for a one-off Garden of Madness event in Liverpool in 2018; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). For where Chase & Status and Andy C come from, read [the drum and bass guide](/drum-and-bass-guide) and [the jungle guide](/jungle-music-guide). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Creamfields and Tomorrowland once shared a Steel Yard, for a one-off Garden of Madness event in Liverpool in 2018; for the Belgian festival, read [our guide to Tomorrowland](/tomorrowland-festival). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

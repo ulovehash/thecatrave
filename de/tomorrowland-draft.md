@@ -96,8 +96,6 @@ Drum and Bass ist bei Tomorrowland länger zu Hause, als die Mainstage vermuten 
 
 [Embed: thecatrave berlin-race-1909]
 
-Für Hörerinnen und Hörer, die von Breaks, Jungle oder Techno kommen, ist das die nützliche Information. Tomorrowland lohnt sich für den Park und die Produktion, und die Musik, für die sich die Fahrt quer durch Europa lohnt, läuft auf den gehosteten Bühnen, nicht nur unter dem Feuerwerk.
-
 ## Tomorrowland von zu Hause hören
 
 Tomorrowland filmt seine Bühnen und stellt die Sets online, was ein großer Teil der Erklärung für die hohen Livestream-Zahlen ist. Die beiden folgenden gehören zu den meistgesehenen: Hardwell auf der Mainstage 2013, mehr als 28 Millionen Aufrufe auf seinem eigenen Kanal, im Jahr seiner Wahl auf Platz eins der Top 100 von DJ Mag, und Swedish House Mafia auf der Mainstage 2025.

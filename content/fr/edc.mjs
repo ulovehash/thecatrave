@@ -135,7 +135,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'La drum and bass de bassPOD et le breakbeat que The Prodigy a apporté sur cosmicMEADOW viennent de la même lignée de breaks et de basses que ma propre musique. Acheter un morceau soutient directement mon travail.',
+    description: 'Après trois nuits sur le circuit, quelque chose de plus petit : mon propre breakbeat. Acheter un morceau soutient directement mon travail.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks par thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 par thecatrave'}

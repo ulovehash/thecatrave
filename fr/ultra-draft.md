@@ -100,8 +100,6 @@ L’exemple le plus net date de 2016. Knife Party, le projet parallèle de Rob S
 
 [Embed: Pendulum / Knife Party Headline Set Ultra 2016, la chaîne YouTube de Pendulum, EYMJizj3Qq8]
 
-Voilà ce qu’il faut savoir quand on vient des breaks, de la jungle ou de la drum and bass. La réputation de l’Ultra, c’est la Main Stage EDM et les retrouvailles sous les feux d’artifice, et cette réputation est méritée. Mais le festival a programmé LTJ Bukem avant tout cela, et il a terminé son édition 2016 sur un groupe de drum and bass.
-
 ## Écouter l’Ultra depuis chez soi
 
 L’Ultra diffuse ses scènes en direct sous le nom #ULTRALIVE, et les artistes mettent leurs sets en ligne ensuite. Le set de l’Ultra le plus vu que l’on trouve est celui de Skrillex en 2015, plus de 94 millions de vues sur sa propre chaîne, le set dont Miami New Times se souvient pour Diplo et Justin Bieber venus le rejoindre. Sur la même liste des meilleures prestations du festival figure celui de Hardwell en 2013, plus de 35 millions de vues sur sa chaîne, pendant lequel il a fait monter Dyro pour leur morceau commun « Never Say Goodbye ». Le set de Martin Garrix en 2015 se place entre les deux, avec près de 39 millions de vues.

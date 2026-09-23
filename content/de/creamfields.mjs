@@ -143,7 +143,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'Creamfields hat neben House und Techno Platz für Drum and Bass gemacht, und meine eigene Musik kommt aus derselben Linie aus Breaks und Bass. Wer einen Track kauft, unterstützt meine Arbeit direkt.',
+    description: 'Die Musik, die ich selbst mache, ist Breakbeat. Wer einen Track kauft, unterstützt meine Arbeit direkt.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks von thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 von thecatrave'}

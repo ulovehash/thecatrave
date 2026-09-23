@@ -96,9 +96,7 @@ Ailleurs, les scènes de l’EDC sont classées par son plus clairement que dans
 
 La jungle est passée par là aussi : en 2016, The Lab de Mixmag a filmé Rusko au festival dans un set jungle. Et en 2026, Sub Focus a porté la drum and bass sur kineticFIELD même, la scène construite pour les plus grands noms de l’EDM.
 
-Le 30e anniversaire a aussi programmé les disques d’où vient la musique de ce site. The Prodigy a joué pour la première fois à EDC Las Vegas, sur cosmicMEADOW le samedi soir, scène animée par HARD, et Underworld figurait aussi parmi les têtes d’affiche de cette scène.
-
-Pour qui vient des breaks, de la jungle ou de la drum and bass, voilà ce qui est utile à savoir. L’EDC vaut le voyage pour la fête foraine et l’échelle, et la musique pour laquelle on traverse un océan est sur bassPOD et cosmicMEADOW, pas seulement sous les feux d’artifice de kineticFIELD.
+Le 30e anniversaire a aussi programmé des noms britanniques plus anciens. The Prodigy a joué pour la première fois à EDC Las Vegas, sur cosmicMEADOW le samedi soir, scène animée par HARD, et Underworld figurait aussi parmi les têtes d’affiche de cette scène.
 
 ## Écouter l’EDC depuis chez soi
 

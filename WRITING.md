@@ -132,6 +132,15 @@ claim anywhere (owner, 2026-09-23). When a festival guide covers drum and bass,
 jungle or breaks, say what was booked, where and when, and let the bookings
 make the point.
 
+The wider rule: not every article is about breaks, jungle or drum and bass. A
+guide about a festival, a club or a city covers what that place is known for.
+No aside addressed to "a listener who comes from breaks, jungle or drum and
+bass", no "the music this site comes from", no paragraph on how little drum and
+bass a place books, no link to the drum and bass or jungle guide unless the
+page is about that music, and no drum and bass line in the Bandcamp copy. The
+owner's own music may be named in the Bandcamp card, because that card is
+about it (owner, 14 and 23 September 2026; `festivals-series.md`).
+
 ## Never edit published copy silently
 
 Adding a phrase to a live article to satisfy a keyword check is an editorial

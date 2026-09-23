@@ -80,8 +80,6 @@ Paul Elstak en est l’extrémité la plus dure. C’est un DJ néerlandais de h
 
 [Embed: Paul Elstak, Parookaville 2022, QeifZyGcZmY]
 
-La drum and bass est invitée ici. Pendulum était à l’affiche 2026, classé par le festival en drum and bass, et la chaîne propose des sets bass comme ceux de Modestep, Barely Alive et Virtual Riot en 2019, mais aucun des hôtes de scène n’est un label ou une soirée drum and bass. Pour quelqu’un qui vient des breaks, de la jungle ou de la drum and bass, voilà le portrait honnête : Parookaville n’est pas un festival pour cette musique. Ce qui s’en rapproche le plus sur son affiche est le hardcore, et c’est un parent éloigné. Le gabber néerlandais et le breakbeat hardcore britannique, d’où est sortie la jungle, sont tous deux nés de la rave du début des années 1990 avant que l’un parte vers la grosse caisse et l’autre vers le break.
-
 ## Écouter Parookaville depuis chez soi
 
 Parookaville met ses sets en ligne. La chaîne du festival a une playlist de DJ sets pour chaque édition depuis 2017, et beaucoup d’artistes publient les leurs. Aucun des DJ sets derrière [le Selector](/selector) ne vient de Parookaville, donc les lecteurs ici viennent de ces chaînes.
@@ -90,7 +88,7 @@ Les deux ci-dessous sont les plus vus. Le set de W&W en 2022 est le plus vu de l
 
 [Embed: W&W 2022 et Steve Aoki 2025, lnOjzIlm1_g]
 
-Les fondateurs de Parookaville ont pris [Tomorrowland](/fr/festival-tomorrowland) comme l’un de leurs modèles, et [Burning Man](/fr/burning-man) comme un autre ; nos guides couvrent les deux, ainsi que, en anglais, [EDC Las Vegas](/edc-las-vegas) et [Creamfields](/creamfields-festival), ses voisins dans le classement 2026. Pour savoir d’où vient la drum and bass, lisez [le guide de la drum and bass](/fr/drum-and-bass). Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
+Les fondateurs de Parookaville ont pris [Tomorrowland](/fr/festival-tomorrowland) comme l’un de leurs modèles, et [Burning Man](/fr/burning-man) comme un autre ; nos guides couvrent les deux, ainsi que, en anglais, [EDC Las Vegas](/edc-las-vegas) et [Creamfields](/creamfields-festival), ses voisins dans le classement 2026. Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
 
 ## FAQ
 

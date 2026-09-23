@@ -223,7 +223,7 @@ ${sourceLink('https://en.wikipedia.org/wiki/W%26W', 'Wikipedia: W&W')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'Parookaville is a long way from the breaks and bass my own music comes out of, but Pendulum\'s booking in 2026 put drum and bass on its bill. Buying a track supports my work directly.',
+    description: 'Parookaville is a long way from the breakbeat I make myself. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}

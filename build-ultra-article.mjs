@@ -223,7 +223,7 @@ ${sourceLink('https://www.croatiaweek.com/ultra-europe-2026-split-calvin-harris/
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'LTJ Bukem on the first Ultra bill and Pendulum closing the 2016 edition come out of the same breaks and bass lineage as my own music. Buying a track supports my work directly.',
+    description: 'What I make myself is breakbeat, well away from Bayfront Park. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}

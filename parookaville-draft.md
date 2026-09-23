@@ -78,8 +78,6 @@ Paul Elstak is the hardest end of it. He is a Dutch hardcore, gabber and happy h
 
 [Embed: Paul Elstak, Parookaville 2022, PAROOKAVILLE YouTube channel, QeifZyGcZmY]
 
-Drum and bass is a guest here. Pendulum were on the 2026 bill, listed by the festival under drum and bass, and the channel carries bass sets such as Modestep, Barely Alive and Virtual Riot from 2019, but none of the stage hosts is a drum and bass label or night. For a listener who comes from breaks, jungle or drum and bass, that is the honest picture: Parookaville is not a festival for this music. The nearest thing on its bill is the hardcore, and it is a distant relative. Dutch gabber and the UK's breakbeat hardcore, which jungle came out of, both grew from the rave of the early nineties before one went to the kick drum and the other to the break.
-
 [Embed: thecatrave Berlin Race 1909]
 
 ## Hearing Parookaville from home
@@ -90,7 +88,7 @@ The two below are the most watched. W&W's 2022 set is the most watched on the fe
 
 [Embed: W&W 2022 and Steve Aoki 2025, lnOjzIlm1_g]
 
-Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. For where drum and bass comes from, read [the drum and bass guide](/drum-and-bass-guide). And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Parookaville's founders took [Tomorrowland](/tomorrowland-festival) as one of their models, and [Burning Man](/what-is-burning-man) as another; our guides cover both, and [EDC Las Vegas](/edc-las-vegas) and [Creamfields](/creamfields-festival), its neighbours in the 2026 chart. And [the Selector](/selector) plays a DJ set at random from {{catalogue-sets}}, if you would rather not choose. Comparing it with other festivals? See the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ## FAQ
 

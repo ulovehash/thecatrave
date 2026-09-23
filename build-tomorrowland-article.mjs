@@ -201,7 +201,7 @@ ${sourceLink('https://weraveyou.com/2019/07/tomorrowland-iconic-sets-ever/', 'We
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'The drum and bass on Tomorrowland\'s hosted stages comes out of the same breaks and bass lineage as my own music. Buying a track supports my work directly.',
+    description: 'My own music is breakbeat, a long way from the Mainstage. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}

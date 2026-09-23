@@ -214,7 +214,7 @@ ${sourceLink('https://www.digitalmusicnews.com/2024/05/23/edc-las-vegas-2024/', 
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'The drum and bass on bassPOD and the breakbeat The Prodigy brought to cosmicMEADOW come out of the same breaks and bass lineage as my own music. Buying a track supports my work directly.',
+    description: 'After three nights at the speedway, something smaller: my own breakbeat. Buying a track supports my work directly.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'}
