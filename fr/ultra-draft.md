@@ -18,7 +18,7 @@ Quand a lieu l’Ultra Miami ? En mars, sur trois jours, du vendredi au dimanche
 
 [Image: Bayfront Park, 2014 Ultra Music Festival, Pietro]
 
-La date n’a rien d’un hasard. L’Ultra se tient en même temps que la Winter Music Conference, le rendez-vous de l’industrie de la musique électronique à Miami, et la Miami Music Week, le programme plus large de concerts et de fêtes dans toute la région. Les deux mènent à l’Ultra, qui clôt la semaine. En 2018, l’Ultra a racheté la Winter Music Conference.
+L’Ultra se tient en même temps que la Winter Music Conference, le rendez-vous de l’industrie de la musique électronique à Miami, et la Miami Music Week, le programme plus large de concerts et de fêtes dans toute la région. Les deux mènent à l’Ultra, qui clôt la semaine. En 2018, l’Ultra a racheté la Winter Music Conference.
 
 Le lieu de l’Ultra Miami est aussi une affaire de règles. La licence approuvée par la ville de Miami en 2019 limite le site à 55 000 personnes, un chiffre qui ne peut augmenter qu’avec l’accord de la ville, et impose au moins 2 millions de dollars de paiements par an à la ville. En avril 2026, la commission municipale a approuvé un nouvel accord avec Event Entertainment Group qui peut courir jusqu’en 2046. Ce n’est pas une garantie sans condition : la ville peut l’annuler sans motif avant une future édition par un vote des quatre cinquièmes de la commission, et l’accord est réexaminé tous les cinq ans.
 

@@ -33,9 +33,9 @@ const copy = {
     'babylon': '1995. Un morceau sombre et dub, tout en pression, dont la basse, les fragments de voix et les edits de break sont devenus une référence durable de la jungle.'
   },
   images: {
-    flyers: ['Une sélection de flyers de raves jungle britanniques du début des années 90', 'Collage de flyers jungle (1991-94) : l’énergie underground sur papier.'],
-    'pirate-radio': ['Du matériel d’émission de radio pirate de l’époque jungle', 'Une installation de radio pirate : l’énergie brute de l’antenne.'],
-    'tape-pack': ['Un tape pack World Dance de 1994', 'Un tape pack : la culture de la basse en cassette.'],
+    flyers: ['Une sélection de flyers de raves jungle britanniques du début des années 90', 'Collage de flyers jungle, 1991-94.'],
+    'pirate-radio': ['Du matériel d’émission de radio pirate de l’époque jungle', 'Une installation de radio pirate.'],
+    'tape-pack': ['Un tape pack World Dance de 1994', 'Un tape pack.'],
     awol: ['Flyer d’une rave jungle à l’AWOL', 'Flyer de rave de l’AWOL.'],
     fabio: ['Fabio aux platines aux débuts de la jungle', 'Fabio aux commandes, un pionnier qui a aidé à façonner le son jungle.'],
     'kool-fm': ['Flyer des 3 ans de Kool FM, jungle, 1994', 'Flyer de Kool FM (1994) : la fête d’anniversaire d’une radio pirate.'],

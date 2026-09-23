@@ -76,7 +76,7 @@ const copy = {
   },
   popCulture: {
     label: 'LE BREAKBEAT HORS DU CLUB :',
-    html: 'Les jeux et les films ont porté la musique électronique fondée sur les breaks bien au-delà des disquaires spécialisés. <em>Wipeout 2097</em> a placé les Chemical Brothers, The Prodigy et Future Sound of London dans un monde de course futuriste ; <em>SSX Tricky</em> a fait du big beat, du hip-hop et des breaks une part de l’excitation physique du jeu ; et la bande originale de <em>Matrix</em> a utilisé des artistes comme The Prodigy et Propellerheads pour rendre les batteries cassées inséparables de la vitesse et de la tension. Ces bandes originales n’ont pas défini le breakbeat, mais elles ont fait découvrir son énergie à des auditeurs qui n’avaient jamais mis les pieds dans une rave.'
+    html: 'Les jeux et les films ont porté la musique électronique fondée sur les breaks bien au-delà des disquaires spécialisés. <em>Wipeout 2097</em> a placé les Chemical Brothers, The Prodigy et Future Sound of London dans un monde de course futuriste ; <em>SSX Tricky</em> a fait du big beat, du hip-hop et des breaks une part de l’excitation physique du jeu ; et la bande originale de <em>Matrix</em> a utilisé des artistes comme The Prodigy et Propellerheads pour rendre les batteries cassées inséparables de la vitesse et de la tension. Ces bandes originales ont fait découvrir l’énergie du breakbeat à des auditeurs qui n’avaient jamais mis les pieds dans une rave.'
   },
   map: {
     title: 'Carte de l’histoire du breakbeat',

@@ -8,7 +8,7 @@ Les meilleures playlists Spotify ont un point de vue reconnaissable. New This We
 
 Spotify sait déjà vous donner davantage de ce que vous avez écouté hier. C’est utile, mais ce n’est pas la seule fonction d’une playlist. Un bon programmateur peut faire un saut que le fil de recommandations éviterait, placer un petit disque à côté d’un titre célèbre ou garder une scène au premier plan assez longtemps pour que ses détails apparaissent.
 
-Cette sélection privilégie les playlists portées par une personne, une radio, un média ou un label. Certaines changent chaque semaine. D’autres sont de longues archives indisciplinées, de plus en plus utiles à mesure qu’elles grandissent. Les choix humains ne sont pas automatiquement meilleurs. La différence, c’est que l’on peut entendre le raisonnement derrière eux.
+Cette sélection privilégie les playlists portées par une personne, une radio, un média ou un label. Certaines changent chaque semaine. D’autres sont de longues archives indisciplinées, de plus en plus utiles à mesure qu’elles grandissent. Les choix humains ne sont pas automatiquement meilleurs, mais on peut entendre le raisonnement derrière eux.
 
 [Image: nature morte playlists]
 
@@ -56,11 +56,11 @@ Le titre est un buisson de planètes, de cercles et de symboles. Il est donc plu
 
 ### Altar
 
-Altar est une playlist éditoriale de Spotify. C’est l’exception à l’accent mis sur les programmateurs nommés, pas une contradiction. Elle fait partie des propositions électroniques les plus claires de la plateforme: de la musique de club contemporaine hors de l’axe EDM de grande scène, avec une place pour l’alternative pop et la production expérimentale. Prenez-la comme un instantané actuel, pas comme une archive.
+Altar est une playlist éditoriale de Spotify, la seule exception à la règle des programmateurs nommés dans cette liste. Elle fait partie des propositions électroniques les plus claires de la plateforme: de la musique de club contemporaine hors de l’axe EDM de grande scène, avec une place pour l’alternative pop et la production expérimentale. Prenez-la comme un instantané actuel, pas comme une archive.
 
 ### Toolroom Tech House
 
-La playlist de Toolroom fait exactement ce qu’une liste de label devrait faire. Elle reste proche des disques que le label comprend : house fonctionnelle, lignes de basse roulantes et morceaux conçus pour une salle pleine. Cette concentration fait sa valeur. Elle n’explique pas toute la house, mais offre un contrôle hebdomadaire fiable sur une partie active du genre.
+La playlist de Toolroom fait exactement ce qu’une liste de label devrait faire. Elle reste proche des disques que le label comprend : house fonctionnelle, lignes de basse roulantes et morceaux conçus pour une salle pleine. Elle n’explique pas toute la house, mais offre un contrôle hebdomadaire fiable sur une partie active du genre.
 
 ### Danny L Harle's HUGE PLAYLIST
 
@@ -74,7 +74,7 @@ UKF documente la drum and bass en ligne depuis 2009. Sa playlist fonctionne dés
 
 Commencez par le programmateur, pas par le nombre d’abonnés. Une playlist de radio est utile pour suivre des nouveautés changeantes. La liste d’un média relie les morceaux aux critiques. Une playlist d’artiste expose des influences et des disques emportés dans les DJ sets. Une playlist de label reste plus étroite, mais cette précision est justement son intérêt.
 
-Enregistrez une liste souvent mise à jour et une longue archive qui n’en a pas besoin. La première vous garde dans le présent, la seconde permet d’entrer ailleurs que tout en haut. Si vous voulez une heure construite comme une véritable séquence plutôt qu’une liste en lecture aléatoire, passez aux [DJ sets en direct](/live-dj-sets) ou laissez [le Selector](/fr/selector) choisir un set complet au hasard.
+Enregistrez une liste souvent mise à jour et une longue archive qui n’en a pas besoin. La première vous garde dans le présent, la seconde permet d’entrer ailleurs que tout en haut. Si vous voulez une heure construite comme une véritable séquence plutôt qu’une liste en lecture aléatoire, passez aux [DJ sets en direct](/live-dj-sets) ou laissez [le Selector](/fr/selector) choisir un set au hasard.
 
 [Table: comparaison des playlists]
 

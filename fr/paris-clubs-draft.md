@@ -26,7 +26,7 @@ Le Rex Club ouvre en 1988 dans le sous-sol du cinéma Grand Rex, au 5 boulevard 
 
 Le Rex Club reste la réponse la plus claire à ce à quoi ressemble une boite de nuit techno à Paris : une salle basse, un système de son dans lequel le club investit depuis des décennies, et une programmation restée plus proche de la techno et de la house que la plupart des clubs autour de lui.
 
-La pop française et la musique électronique française ont toujours été plus proches qu'on ne le croit, l'une de l'autre. Dégénération, de Mylène Farmer, produit avec Laurent Boutonnat, en est un des exemples les plus clairs : un single grand public construit sur une pulsation électronique.
+La pop française et la musique électronique française ont toujours été plus proches qu'on ne le croit, l'une de l'autre. Dégénération, de Mylène Farmer, produit avec Laurent Boutonnat, en est un bon exemple : un single grand public construit sur une pulsation électronique.
 
 [Embed: Mylène Farmer Degeneration original]
 

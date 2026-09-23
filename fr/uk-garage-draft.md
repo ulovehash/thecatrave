@@ -120,7 +120,7 @@ C’est un chapitre étrange et important. C’est à Ayia Napa que le garage a 
 
 ## Comment le garage est devenu le dubstep et le grime
 
-La question qu’on pose le plus sur le UK garage n’est pas ce qu’il est. C’est où il est passé.
+La question qu’on pose le plus sur le UK garage, c’est où il est passé.
 
 Vers 2001, le succès grand public du 2-step a créé une fracture. La musique de la radio en journée est devenue plus douce, plus chantée et plus lisse, et les producteurs que cela n’intéressait pas ont commencé à faire l’inverse : instrumental, plus sombre, débarrassé de la voix de diva.
 

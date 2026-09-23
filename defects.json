@@ -653,6 +653,14 @@
         "file": "WRITING.md",
         "contains": "The wider rule: not every article is about breaks, jungle or drum and bass."
       }
+    },
+    {
+      "id": "translations-miss-english-humanizer-edits",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The owner-approved humanizer edits of 2026-09-23 changed only the English sources. The French translations (and the German, not yet checked) still carry the old wording those edits removed: the French jungle guide still opens \"Bienvenue dans le grand guide de la jungle music, un voyage façon documentaire…\", the French breakbeat and bass music guides keep every \"ce n’est pas X, c’est Y\" pair cut from the English, and the French Spotify page still says \"choisir un set complet au hasard\", breaking WRITING.md's full-set rule. Found when the owner asked for all the French to be checked. Published copy: the French wording goes to the owner first.",
+      "should_have_caught": "nothing propagates copy edits from an English source to its translations; the humanizer step in ARTICLE-PRODUCTION-WORKFLOW.md §6 names no translation step",
+      "fix": null
     }
   ]
 }

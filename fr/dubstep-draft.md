@@ -66,7 +66,7 @@ Faire entrer la musique en club était un problème en soi. Avant qu’un morcea
 
 Une grande partie de cette gravure se faisait chez Transition Mastering, où Jason Goz a travaillé tour à tour la jungle, le garage, le grime et le dubstep. Il gravait des plates à prix réduit pour un Benga de quinze ans qui économisait l’argent de ses repas. Il refusait aussi de graver des basses spatialisées et exigeait le mono, parce qu’une basse placée dans une seule enceinte s’effondre sur un système de club. Sa règle pour tout le processus tenait en une phrase : « Si la fréquence est juste, tout le reste, c’est du remplissage. »
 
-La rareté a façonné la musique au lieu de simplement l’entourer. Loefah : « Pendant un temps, il y avait peut-être 50 morceaux de dubstep dans le monde entier. Si cinq d’entre eux sont à moi, je ne vais pas les balancer comme ça. »
+La rareté a façonné la musique. Loefah : « Pendant un temps, il y avait peut-être 50 morceaux de dubstep dans le monde entier. Si cinq d’entre eux sont à moi, je ne vais pas les balancer comme ça. »
 
 [Embed: Bassweight]
 

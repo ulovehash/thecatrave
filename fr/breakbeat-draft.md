@@ -18,7 +18,7 @@ Le genre breakbeat est moins un son fixe qu’une famille de scènes club constr
 
 On entend en général la différence avant de pouvoir la nommer. Un groove house ou techno droit place la grosse caisse à des endroits réguliers de la mesure ; un motif breakbeat laisse la grosse caisse, la caisse claire et les accents plus discrets se répondre de façon inégale, ce qui crée un va-et-vient plutôt qu’une marche constante. Ce mouvement audible est le principe commun, pas un BPM ou un motif de batterie obligatoire.
 
-Cet article suit le genre et les cultures qui l’entourent plutôt que d’enseigner la programmation de batterie. Pour un compagnon d’écoute interactif, on peut explorer [Optimal Breaks](https://www.optimalbreaks.com/en), dont les pages d’artistes et d’histoire permettent de passer d’un style à l’autre en écoutant de la musique représentative. Pour ce guide, la distinction importante est simple : un break de batterie est un matériau de départ, tandis que le breakbeat est devenu à la fois une façon d’utiliser ce matériau et le nom de plusieurs traditions club liées entre elles.
+Pour un compagnon d’écoute interactif, on peut explorer [Optimal Breaks](https://www.optimalbreaks.com/en), dont les pages d’artistes et d’histoire permettent de passer d’un style à l’autre en écoutant de la musique représentative. Pour ce guide, la distinction importante est simple : un break de batterie est un matériau de départ, tandis que le breakbeat est devenu à la fois une façon d’utiliser ce matériau et le nom de plusieurs traditions club liées entre elles.
 
 L’[histoire de la musique électronique britannique](/uk-electronic-music-evolution) (en anglais) de ce site place ces traditions à côté des autres scènes qui se développaient autour d’elles.
 
@@ -34,13 +34,13 @@ Ces disques ne sont pas des morceaux breakbeat des débuts au sens actuel du gen
 
 Le jeu de Clyde Stubblefield sur « Funky Drummer » offrait un autre type de mouvement, plein de petits accents et de placement humain. « Think (About It) » a fourni le célèbre « Woo! Yeah! » et un break de batterie qu’on pouvait découper en variations innombrables. « Apache » a relié un funk riche en percussions aux routines des premiers b-boys et DJ.
 
-Ce qui reste, ce n’est pas que quatre disques aient inventé tout ce qui a suivi. C’est que des batteurs enregistrés sont devenus un vocabulaire officieux. Les producteurs pouvaient citer ce vocabulaire, le réarranger et faire parler une seule interprétation dans plusieurs langues musicales.
+Ensemble, ces disques ont fait des batteurs enregistrés un vocabulaire officieux. Les producteurs pouvaient citer ce vocabulaire, le réarranger et faire parler une seule interprétation dans plusieurs langues musicales.
 
 [Embed: breaks-before-genre]
 
 ### Les DJ hip-hop font du break une méthode
 
-Kool Herc utilisait deux exemplaires du même disque pour prolonger le break pour les danseurs, et l’approche a été reprise et affûtée par Afrika Bambaataa et Grand Wizard Theodore. On attribue à Grandmaster Flash la méthode qui l’a rendue reproductible, qu’il appelait la quick-mix theory : il marquait au crayon gras le début et la fin du break sur le disque, pour le retrouver en faisant tourner le vinyle, sans toucher au bras. C’était plus que rejouer deux fois un passage préféré. Cela faisait de l’équipement de lecture un instrument et de la structure d’un disque existant la matière d’une nouvelle performance.
+Kool Herc utilisait deux exemplaires du même disque pour prolonger le break pour les danseurs, et l’approche a été reprise et affûtée par Afrika Bambaataa et Grand Wizard Theodore. On attribue à Grandmaster Flash la méthode qui l’a rendue reproductible, qu’il appelait la quick-mix theory : il marquait au crayon gras le début et la fin du break sur le disque, pour le retrouver en faisant tourner le vinyle, sans toucher au bras. Cela faisait de l’équipement de lecture un instrument et de la structure d’un disque existant la matière d’une nouvelle performance.
 
 [Image: hip-hop-pioneers]
 
@@ -84,7 +84,7 @@ Il n’existait pas une lignée club unique qui attendait d’être exportée da
 
 L’explosion rave britannique n’a pas commencé comme une scène purement breakbeat. L’acid house, la techno de Detroit, la new beat belge, la hip-house, l’electro et le hip-hop britannique passaient tous par les mêmes clubs, entrepôts et collections de disques. Les producteurs empruntaient librement. À mesure que les tempos montaient, les breaks samplés ont commencé à percer à travers les riffs de piano, les hoovers, les stabs, la sub-basse et des voix montées bien au-delà de leur registre naturel.
 
-Shut Up and Dance a été décisif, parce que sa musique reliait la production hip-hop britannique à la rave avant que ces histoires ne soient couramment racontées comme une seule. « DJs Take Control » et « On a Ragga Tip » de SL2 ont placé breaks, basses et voix samplées dans des disques passés des raves aux classements. « Bombscare » de 2 Bad Mice est devenu un modèle pour la pression sombre et aérée du breakbeat hardcore.
+Shut Up and Dance compte ici parce que sa musique reliait la production hip-hop britannique à la rave avant que ces histoires ne soient couramment racontées comme une seule. « DJs Take Control » et « On a Ragga Tip » de SL2 ont placé breaks, basses et voix samplées dans des disques passés des raves aux classements. « Bombscare » de 2 Bad Mice est devenu un modèle pour la pression sombre et aérée du breakbeat hardcore.
 
 [Image: prodigy]
 
@@ -108,7 +108,7 @@ Cette histoire commune explique pourquoi la jungle et la drum and bass ont leur 
 
 La culture breakbeat tenait ensemble par autre chose que des motifs de batterie. Les radios pirates donnaient aux DJ un endroit pour tester des disques inachevés et aux auditeurs un accès à une musique ignorée par les radios autorisées. Les disquaires servaient de lieux de rencontre et de systèmes de classement informels. Les dubplates permettaient aux producteurs d’entendre un morceau sur un système son avant de s’engager dans une vraie sortie. Les tape packs portaient les sets au-delà de la rave elle-même.
 
-Le DJing breakbeat reposait sur les rewinds, les double drops, le mix rapide et les boucles faites à la main. Ce n’étaient pas des astuces flottant au-dessus de la scène ; c’était la façon dont les disques étaient testés, mémorisés et transmis. Cette circulation est ensuite passée en ligne, sur des forums, des réseaux de partage de fichiers et des blogs spécialisés, mais elle servait un but familier : garder la musique en mouvement avant que les grandes plateformes ne sachent comment l’appeler.
+Le DJing breakbeat reposait sur les rewinds, les double drops, le mix rapide et les boucles faites à la main. C’était la façon dont les disques étaient testés, mémorisés et transmis. Cette circulation est ensuite passée en ligne, sur des forums, des réseaux de partage de fichiers et des blogs spécialisés, mais elle servait un but familier : garder la musique en mouvement avant que les grandes plateformes ne sachent comment l’appeler.
 
 ### Les Florida breaks construisent un son régional américain
 
@@ -118,7 +118,7 @@ L’histoire dépassait un seul artiste. Kimball Collins, Dave Cannalte, DJ Styl
 
 [Image: dj-icey]
 
-Le parcours d’Icey montre comment cette culture locale est devenue un réseau de production et de labels. Sa [biographie officielle](https://www.djicey.com/bio) retrace ses influences à travers les dub mixes freestyle, la Miami bass, les premiers breakbeats britanniques, le hip-hop et la house, suivis d’une résidence à l’Edge et du lancement de Zone Records en 1993. Ces détails comptent, parce que les Florida breaks n’étaient pas seulement un son. Des clubs, des magasins, des labels et un public régional lui ont donné un nom et un endroit où se développer.
+Le parcours d’Icey montre comment cette culture locale est devenue un réseau de production et de labels. Sa [biographie officielle](https://www.djicey.com/bio) retrace ses influences à travers les dub mixes freestyle, la Miami bass, les premiers breakbeats britanniques, le hip-hop et la house, suivis d’une résidence à l’Edge et du lancement de Zone Records en 1993. Des clubs, des magasins, des labels et un public régional ont donné aux Florida breaks un nom et un endroit où se développer.
 
 La Floride complique tout récit où le breakbeat voyage dans une seule direction, de New York vers la Grande-Bretagne puis vers le reste du monde. Le même langage rythmique était réorganisé à travers d’autres cultures de la basse, d’autres collections de disques et d’autres pistes de danse. Écouter une production de Floride à côté d’un morceau nu-skool britannique rend cette différence plus claire qu’une nouvelle liste d’adjectifs de genre.
 
@@ -128,7 +128,7 @@ La Floride complique tout récit où le breakbeat voyage dans une seule directio
 
 La Floride était la scène breaks américaine la mieux identifiée, mais pas le seul endroit où des disques de club cassés ont pris racine. Dans les années 1990, les DJ de la côte Ouest passaient de l’electro au hip-hop, à la house, à l’acid et aux imports britanniques sans toujours traiter ces catégories comme des pièces séparées. Des labels, des disquaires et des raves autour de San Francisco et de Los Angeles ont aidé à installer « West Coast breaks » comme un terme utile, quoique lâche, pour les DJ et les bacs à disques.
 
-L’histoire du collectif Hardkiss, à San Francisco au début des années 1990, montre à quel point cet environnement était poreux. Leurs fêtes et leurs disques étaient en général discutés à travers la house, la techno, le psychédélisme et la culture rave au sens large plutôt qu’à travers une formule breaks stricte. D’autres producteurs et DJ associés à la côte Ouest, dont Bassbin Twins, Überzone et Simply Jeff, ont poussé plus fort vers l’electro, le funk et des breakbeats portés par la basse. Il ne s’agit pas d’inventer un genre West Coast unifié. Il s’agit de reconnaître une route américaine située hors de l’identité d’Orlando comme de la lignée hardcore britannique.
+L’histoire du collectif Hardkiss, à San Francisco au début des années 1990, montre à quel point cet environnement était poreux. Leurs fêtes et leurs disques étaient en général discutés à travers la house, la techno, le psychédélisme et la culture rave au sens large plutôt qu’à travers une formule breaks stricte. D’autres producteurs et DJ associés à la côte Ouest, dont Bassbin Twins, Überzone et Simply Jeff, ont poussé plus fort vers l’electro, le funk et des breakbeats portés par la basse. Ensemble, ils forment une route américaine située hors de l’identité d’Orlando comme de la lignée hardcore britannique, sans constituer un genre West Coast unique.
 
 L’acid breaks et le progressive breaks étaient eux aussi des catégories qui se recoupaient plutôt que des mouvements fermés. L’acid breaks posait le son de basse résonant et glissant de la Roland TB-303 sur des batteries syncopées ; le progressive breaks étirait la forme vers des montées plus longues, des passages atmosphériques et une tension progressive. Selon le magasin et le DJ, les disques pouvaient aussi être vendus comme funky breaks, chemical beats, progressive house ou simplement breaks. [Le guide du genre de MusicRadar](https://www.musicradar.com/news/the-beginners-guide-to-breaks) saisit cette instabilité en décrivant l’acid breaks chargé de 303, les Florida breaks teintés d’electro et d’autres styles à qualificatif formés autour du terme plus large.
 
@@ -140,15 +140,15 @@ L’une des histoires régionales les plus importantes du breakbeat s’est jou�
 
 [Image: cordoba]
 
-Ce n’était pas une simple note de bas de page espagnole d’un genre britannique. Les DJ et producteurs locaux ont construit leur propre langage autour du nu-skool, du progressive, de l’acid et de breaks plus durs, tandis que le public donnait à cette musique une intensité et une longévité qu’elle n’avait pas partout ailleurs. Le documentaire *Break Nation* de David Pareja, sorti en 2023, qualifie la période de développement collectif sans équivalent ailleurs en Europe du Sud ; le [synopsis de la Filmoteca de Andalucía](https://www.filmotecadeandalucia.es/documents/282361/334099154/CO%2B-%2B2024-07-18-%2B%2820%2730%29%2B-%2BBreak%2BNation.pdf/33f0b15d-ce37-49fa-b1cd-129d026bfc97) situe son arc central de 1992 à 2002.
+Les DJ et producteurs locaux ont construit leur propre langage autour du nu-skool, du progressive, de l’acid et de breaks plus durs, tandis que le public donnait à cette musique une intensité et une longévité qu’elle n’avait pas partout ailleurs. Le documentaire *Break Nation* de David Pareja, sorti en 2023, qualifie la période de développement collectif sans équivalent ailleurs en Europe du Sud ; le [synopsis de la Filmoteca de Andalucía](https://www.filmotecadeandalucia.es/documents/282361/334099154/CO%2B-%2B2024-07-18-%2B%2820%2730%29%2B-%2BBreak%2BNation.pdf/33f0b15d-ce37-49fa-b1cd-129d026bfc97) situe son arc central de 1992 à 2002.
 
 [Image: andalusia]
 
-La scène s’est réduite après ce sommet, mais sa mémoire n’a pas disparu. Le breakbeat reste exceptionnellement lié à l’identité régionale en Andalousie, porté par des soirées de retrouvailles, des DJ, des archives et de jeunes producteurs. Cette continuité compte, parce qu’elle montre que l’histoire d’un genre ne se mesure pas seulement à la presse britannique ou au succès international dans les classements.
+La scène s’est réduite après ce sommet, mais sa mémoire n’a pas disparu. Le breakbeat reste exceptionnellement lié à l’identité régionale en Andalousie, porté par des soirées de retrouvailles, des DJ, des archives et de jeunes producteurs.
 
 ### Le big beat rend visible la musique club portée par les breaks
 
-Le big beat n’était pas simplement de la jungle ralentie ni la suite directe de chaque idée hardcore. C’était une réponse parallèle des années 1990 à ce que pouvait devenir une musique de danse portée par les breaks, puisant ouvertement dans les boucles hip-hop, l’acid, le rock, le funk et une production à l’échelle des festivals.
+Le big beat était une réponse parallèle des années 1990 à ce que pouvait devenir une musique de danse portée par les breaks, puisant ouvertement dans les boucles hip-hop, l’acid, le rock, le funk et une production à l’échelle des festivals.
 
 On attribue en général le big beat aux seuls Chemical Brothers, la version que raconte chaque guide concurrent ; la version plus complète nomme à côté d’eux Mo’Wax, le label de James Lavelle, un label plutôt qu’un duo, et le seul label qu’une source crédite comme origine de cette branche. Les Chemical Brothers ont donné aux breaks une ampleur énorme sans cacher leurs racines psychédéliques et club. Fatboy Slim a fait du collage de samples une architecture pop. Propellerheads et Bentley Rhythm Ace ont abordé l’idée sous d’autres angles, tandis que les disques crossover ultérieurs de The Prodigy partageaient le public et le vocabulaire de presse du big beat sans y entrer tout à fait.
 
@@ -164,7 +164,7 @@ Le succès commercial de ces artistes a rendu les batteries cassées familières
 
 C’était une musique faite pour ses propres soirées, ses labels, ses rayons chez les disquaires et ses prix. Finger Lickin’ Records a été étroitement associé au versant le plus funky du son. Marine Parade, TCR et Botchit & Scarper ont aidé à installer d’autres variantes. La catégorie n’a jamais été uniforme, mais elle était plus précise que le sens historique large du breakbeat.
 
-Sa perte de visibilité grand public par la suite ne doit pas être transformée en simple récit de mort et de résurrection. Des scènes se sont réduites, des labels ont changé et d’autres sons club sont devenus dominants, mais les breaks ont continué dans des communautés locales, chez des producteurs et des DJ. Le rythme a aussi continué à voyager sous d’autres noms.
+Des scènes se sont réduites, des labels ont changé et d’autres sons club sont devenus dominants, mais les breaks ont continué dans des communautés locales, chez des producteurs et des DJ. Le rythme a aussi continué à voyager sous d’autres noms.
 
 [Embed: nu-skool-group]
 
@@ -174,7 +174,7 @@ La scène breaks du début des années 2000 avait l’infrastructure d’un genr
 
 Aucun événement unique n’a tué le genre. Certaines de ses habitudes de production les plus reconnaissables étaient liées à une époque précise ; les labels indépendants ont subi l’effondrement général de l’économie du vinyle ; et des producteurs autrefois réunis sous « breaks » apparaissaient de plus en plus sous electro, bass music, techno, garage ou dubstep. Les outils avaient aussi changé. Quand l’édition détaillée est devenue la norme dans les DAW, les batteries cassées ont cessé de signaler aussi clairement l’appartenance à une scène spécialisée.
 
-Le résultat a été une perte de poids de la catégorie, pas la disparition de la musique. La Floride et l’Andalousie ont gardé une forte mémoire locale. Les artistes établis ont continué à tourner. De nouveaux disques ont continué à sortir, mais « breakbeat » était moins souvent la bannière unique sous laquelle se rassemblaient tous les artistes, organisateurs et auditeurs apparentés. Cette distinction explique comment un genre peut quitter le centre du grand public tandis que ses méthodes se répandent presque partout.
+Le résultat a été une perte de poids de la catégorie, pas la disparition de la musique. La Floride et l’Andalousie ont gardé une forte mémoire locale. Les artistes établis ont continué à tourner. De nouveaux disques ont continué à sortir, mais « breakbeat » était moins souvent la bannière unique sous laquelle se rassemblaient tous les artistes, organisateurs et auditeurs apparentés.
 
 ## Les styles de breakbeat : hardcore, Florida, big beat, nu-skool et autres
 
@@ -236,7 +236,7 @@ Pour la branche britannique plus rapide dans son ensemble, lisez le [guide de la
 
 Les batteries cassées sont redevenues plus visibles dans la musique électronique, mais aucune organisation, ville ou son ne possède ce retour. Certains producteurs présentent leurs morceaux comme des breaks. D’autres travaillent à travers l’electro, la UK bass, la techno, le garage, la jungle ou la rave, et choisissent simplement une pulsation cassée quand le morceau en a besoin.
 
-Cette distinction compte. Appeler chaque disque club syncopé « le revival breakbeat » fait paraître le présent plus ordonné qu’il ne l’est. Bicep, Overmono et Special Request peuvent tous apparaître dans une conversation sur les breaks, mais ils viennent d’histoires différentes et ne font pas le même genre.
+Appeler chaque disque club syncopé « le revival breakbeat » fait paraître le présent plus ordonné qu’il ne l’est. Bicep, Overmono et Special Request peuvent tous apparaître dans une conversation sur les breaks, mais ils viennent d’histoires différentes et ne font pas le même genre.
 
 Les DJ techno d’aujourd’hui mélangent de plus en plus disques droits et disques cassés dans un même set. Les producteurs de garage étirent le swing vers une bass music plus lourde. L’electro continue d’offrir une alternative à la structure four-on-the-floor du club. De jeunes producteurs rave réutilisent les signes du hardcore tout en travaillant avec des basses modernes et une édition beaucoup plus propre.
 
@@ -248,7 +248,7 @@ Le présent est aussi géographiquement plus large que ne le laisse croire le r�
 
 Le breakbeat survit en partie parce qu’il n’exige pas de fidélité à une seule scène. Un producteur peut utiliser des batteries découpées pour un morceau et revenir à une grosse caisse droite pour le suivant. Un DJ peut se servir d’un disque breakbeat pour changer le mouvement physique d’un set sans changer toute sa direction musicale.
 
-Cette souplesse convainc davantage que les discours sur un revival universel. Le breakbeat ne cesse de refaire surface parce qu’il change la façon dont une salle bouge : il peut assouplir un set techno rigide, faire le pont entre garage et electro, ou rappeler l’histoire rave sans reproduire tel quel un vieux disque. La continuité n’est pas celle d’une scène qui revient intacte. C’est celle d’une idée rythmique qui trouve de nouvelles scènes où travailler.
+Le breakbeat ne cesse de refaire surface parce qu’il change la façon dont une salle bouge : il peut assouplir un set techno rigide, faire le pont entre garage et electro, ou rappeler l’histoire rave sans reproduire tel quel un vieux disque. Ce qui continue, c’est une idée rythmique qui trouve de nouvelles scènes où travailler.
 
 [Embed: contemporary-mix]
 

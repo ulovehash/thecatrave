@@ -6,11 +6,9 @@ La jungle est une forme rapide de musique électronique britannique, portée par
 
 ## Introduction
 
-Bienvenue dans le **grand guide de la jungle music**, un voyage façon documentaire à travers l’une des scènes underground les plus vivantes du Royaume-Uni. Née de l’explosion rave du début des années 90 et de la culture des sound systems caribéens, la jungle se reconnaît à ses **breakbeats frénétiques**, ses basses grondantes et son esprit rebelle.
+La jungle music est née de la scène rave britannique du début des années 90 et de la culture des sound systems caribéens. Elle est rapide, construite sur des breakbeats funk découpés et portée par une sub-basse lourde.
 
-Ce qui a commencé comme un son local dans la jungle urbaine de Londres est vite devenu un mouvement culturel, avec son argot, sa mode et une communauté farouche. Dans ce guide, nous suivons la chronologie de la jungle de sa naissance à aujourd’hui, nous plongeons dans ses origines et l’histoire de son nom, nous rendons hommage aux pionniers et aux labels qui l’ont définie, et nous racontons les histoires méconnues des ravers et des DJ qui ont gardé vivant l’esprit **junglist**.
-
-Que vous soyez un raver aguerri nostalgique des tape packs ou un nouveau venu curieux de ces breakbeats « *wicked, wicked* », ce guide vous plonge dans **la vraie culture jungle**, passée, présente et future.
+Elle a commencé comme un son londonien et, en quelques années, avait son propre argot, ses vêtements et son public. Ce guide la suit des premiers disques au revival actuel : d’où vient le nom, qui l’a faite, les labels et les lieux qui l’ont portée, et les ravers et DJ qui l’ont fait vivre.
 
 Si l’histoire rave britannique est nouvelle pour vous, lisez [notre guide de l’évolution de la musique électronique britannique](/uk-electronic-music-evolution) (en anglais) : il retrace tout le chemin, de la techno industrielle au dubstep.
 
@@ -18,7 +16,7 @@ Si l’histoire rave britannique est nouvelle pour vous, lisez [notre guide de l
 
 La jungle est apparue **au début des années 1990 au Royaume-Uni**, comme une nouvelle mutation de la scène rave qui avait dominé la fin des années 80. À l’aube des années 90, la musique rave britannique, le **breakbeat hardcore**, se divisait dans plusieurs directions. Certains producteurs ont pris la voie euphorique, portée par le piano, qui a mené au happy hardcore ; d’autres sont devenus plus sombres et plus lourds, et ont posé les bases de ce qui allait devenir la jungle.
 
-Dans cette *fragmentation*, les morceaux ont commencé à mettre en avant des *breaks de batterie funk découpés* (comme le célèbre break « Amen ») autour de 160 BPM, associés à des basses reggae profondes et à des samples de reggae dancehall. Un morceau proto-jungle souvent cité est **« We Are I.E. » (1991)** de Lennie De Ice, un titre britannique qui mêlait une lourde basse de dub reggae à des breaks hardcore, semant la graine du son jungle. Quand des DJ et des producteurs d’origine caribéenne ont commencé à injecter leur héritage dans la musique rave, le reggae, le dancehall, la **pression des basses des sound systems**, la jungle est née.
+Dans cette *fragmentation*, les morceaux ont commencé à utiliser des *breaks de batterie funk découpés* (comme le célèbre break « Amen ») autour de 160 BPM, associés à des basses reggae profondes et à des samples de reggae dancehall. Un morceau proto-jungle souvent cité est **« We Are I.E. » (1991)** de Lennie De Ice, un disque britannique qui posait une lourde basse de dub reggae sous des breaks hardcore. Quand des DJ et des producteurs d’origine caribéenne ont commencé à injecter leur héritage dans la musique rave, le reggae, le dancehall, la **pression des basses des sound systems**, la jungle est née.
 
 [Embed: we-are-ie]
 
@@ -26,15 +24,15 @@ Avant que le breakbeat hardcore ne prenne toute la place, beaucoup de futurs pio
 
 [Image: flyers]
 
-Il est tentant de définir la jungle comme une simple fusion du breakbeat hardcore et du dancehall, mais la réalité a plus de couches. Les DJ des radios pirates passaient alors un mélange très large : rare groove, hip-hop, reggae, techno naissante et hardcore. Des artistes comme **4hero** exploraient le jazz et la soul dans leurs breakbeats, tandis que **LTJ Bukem** faisait entrer la techno ambient de Detroit dans son « intelligent jungle ». La jungle était le produit de plusieurs scènes underground qui convergeaient en temps réel.
+La jungle a puisé dans bien plus que le breakbeat hardcore et le dancehall. Les DJ des radios pirates passaient alors un mélange très large : rare groove, hip-hop, reggae, techno naissante et hardcore. Des artistes comme **4hero** exploraient le jazz et la soul dans leurs breakbeats, tandis que **LTJ Bukem** faisait entrer la techno ambient de Detroit dans son « intelligent jungle ».
 
-Le hip-hop a servi de modèle fondateur à la jungle, pas seulement dans le son mais dans l’esprit. Son usage du sample, du remix et du collage culturel a profondément inspiré les producteurs jungle. En réutilisant des breaks funk, des voix dancehall, des synthés de Detroit et l’énergie des pirates britanniques, ils ont créé un son qui reflétait leur vie urbaine de l’époque. Cette approche en patchwork a donné à la jungle la liberté d’absorber et de remixer d’autres genres tout en restant cohérente et puissante.
+Le hip-hop a donné à la jungle sa méthode : sampler, remixer et construire des morceaux à partir d’autres disques. Les producteurs jungle ont fait de même avec des breaks funk, des voix dancehall, des synthés de Detroit et le son des pirates, et le résultat reflétait la ville où ils vivaient. Travailler ainsi a permis à la jungle d’absorber sans cesse d’autres genres sans perdre sa propre forme.
 
-Avant que la jungle n’apparaisse vraiment, **les communautés noires britanniques façonnaient déjà le paysage rave du Royaume-Uni**. Tandis que la presse de l’époque se focalisait sur l’essor de l’acid house comme une sous-culture largement blanche, beaucoup des **premières raves underground britanniques passaient de la house et de la techno américaines**, devant un public majoritairement noir. Des pionniers comme **A Guy Called Gerald** inventaient déjà une version typiquement britannique de la musique de danse hardcore, ancrée dans l’expérience de la classe ouvrière noire. Son **« 28 Gun Bad Boy »** (1993), fait à Manchester, est le disque qui relie cette lignée acid house à ce que Londres allait en faire. Ces scènes parallèles ont posé les **bases culturelles et sonores** sur lesquelles la jungle allait devenir **le premier genre électronique britannique spécifiquement noir**.
+Avant que la jungle n’apparaisse vraiment, **les communautés noires britanniques façonnaient déjà la scène rave du Royaume-Uni**. Tandis que la presse de l’époque se focalisait sur l’essor de l’acid house comme une sous-culture largement blanche, beaucoup des **premières raves underground britanniques passaient de la house et de la techno américaines**, devant un public majoritairement noir. Des pionniers comme **A Guy Called Gerald** inventaient déjà une version typiquement britannique de la musique de danse hardcore, ancrée dans l’expérience de la classe ouvrière noire. Son **« 28 Gun Bad Boy »** (1993), fait à Manchester, est le disque qui relie cette lignée acid house à ce que Londres allait en faire. Ces scènes parallèles ont posé les **bases culturelles et sonores** sur lesquelles la jungle allait devenir **le premier genre électronique britannique spécifiquement noir**.
 
 [Embed: 28-gun-bad-boy]
 
-Londres était l’épicentre : le mélange multiculturel de la ville, nourri par l’héritage musical de la **génération Windrush**, offrait un terrain fertile à un hybride entre la culture des sound systems jamaïcains et l’énergie rave britannique. Des pionniers du breakbeat comme **Shut Up and Dance** et **Rebel MC** (futur Congo Natty) ont fait entrer l’esprit sound system dans des morceaux hardcore dès 1990. **Paul Ibiza** est cité aux côtés de Rebel MC comme sans doute le premier à avoir gravé solidement cette influence sur vinyle, et son label **Ibiza Records** pressait les disques que personne d’autre ne voulait presser : le genre de fondateur qui dirige le label plutôt que de figurer sur le disque, et qui n’apparaît donc presque jamais dans les listes. En **1992-93**, un style distinct, que la scène appelait « *jungle techno* » ou « *hardcore jungle* », prenait forme.
+Londres était le centre. Les communautés caribéennes de la ville, marquées par la musique de la **génération Windrush**, ont fait entrer la culture des sound systems jamaïcains dans la rave britannique. Des pionniers du breakbeat comme **Shut Up and Dance** et **Rebel MC** (futur Congo Natty) ont fait entrer l’esprit sound system dans des morceaux hardcore dès 1990. **Paul Ibiza** est cité aux côtés de Rebel MC comme sans doute le premier à avoir gravé solidement cette influence sur vinyle, et son label **Ibiza Records** pressait les disques que personne d’autre ne voulait presser : le genre de fondateur qui dirige le label plutôt que de figurer sur le disque, et qui n’apparaît donc presque jamais dans les listes. En **1992-93**, un style distinct, que la scène appelait « *jungle techno* » ou « *hardcore jungle* », prenait forme.
 
 ## Pourquoi appelle-t-on cette musique jungle ?
 
@@ -46,13 +44,13 @@ Le mot *« junglist »* lui-même n’a pas été inventé à Londres : il vient
 
 [Embed: quote-pirate-radio]
 
-Imaginez l’est de Londres en 1992 : dans un appartement de tour éclairé par la radio pirate, un jeune DJ penché sur ses platines mélange des breakbeats hip-hop et des basses reggae à une vitesse folle. C’était la **naissance chaotique** de la jungle, ce que le journaliste Simon Reynolds a appelé « l’équivalent britannique du hip-hop américain », pour sa créativité faite maison et fondée sur le sample.
+Simon Reynolds a appelé la jungle des débuts « l’équivalent britannique du hip-hop américain », pour sa façon d’être faite : maison et construite à partir de samples.
 
-La jungle des débuts (souvent appelée indifféremment **« jungle techno »**) était en fait *de la musique rave qui devenait plus sombre, plus rapide et plus influencée par la Jamaïque*. Des morceaux de fin 1992 comme **« Darkage » de DJ Solo** ou **« Valley of the Shadows » (Origin Unknown)** illustraient ce virage avec des sonorités inquiétantes et des breakbeats plus lourds. Au même moment, des producteurs comme **X Project** (« Lion of Judah », un alias de **Congo Natty**) et **Noise Factory** chargeaient leurs morceaux breakbeat de voix reggae et de basses dub.
+La jungle des débuts (souvent appelée indifféremment **« jungle techno »**) était en fait *de la musique rave qui devenait plus sombre, plus rapide et plus influencée par la Jamaïque*. Des morceaux de fin 1992 comme **« Darkage » de DJ Solo** ou **« Valley of the Shadows » (Origin Unknown)** étaient le son de ce virage : des sonorités inquiétantes et des breakbeats plus lourds. Au même moment, des producteurs comme **X Project** (« Lion of Judah », un alias de **Congo Natty**) et **Noise Factory** chargeaient leurs morceaux breakbeat de voix reggae et de basses dub.
 
 [Embed: valley-of-the-shadows]
 
-En parallèle de la jungle naissante, une branche plus sombre du hardcore appelée **darkcore** apparaissait, avec des nappes inquiétantes, des samples sinistres et des edits de batterie minimalistes. Des artistes comme **Rufige Kru** (Goldie), **Foul Play** et **Doc Scott** faisaient des morceaux qui poussaient la musique rave vers des territoires plus sombres. Le darkcore est souvent vu comme un pont essentiel entre le hardcore et la jungle des débuts.
+En parallèle de la jungle naissante, une branche plus sombre du hardcore appelée **darkcore** apparaissait, avec des nappes inquiétantes, des samples sinistres et des edits de batterie minimalistes. Des artistes comme **Rufige Kru** (Goldie), **Foul Play** et **Doc Scott** faisaient des morceaux qui poussaient la musique rave vers des territoires plus sombres. Le darkcore est souvent vu comme le pont entre le hardcore et la jungle des débuts.
 
 [Embed: early-jungle-playlist]
 
@@ -60,23 +58,23 @@ En parallèle de la jungle naissante, une branche plus sombre du hardcore appel�
 
 Les meilleurs selectors contrôlaient ces précieux morceaux *« VIP »* : **Goldie** pouvait ne donner son dernier titre qu’à Grooverider et Doc Scott, pour que seuls quelques DJ d’élite aient « les pires tunes » pour retourner la soirée. Cette culture du dubplate signifiait que si l’on voulait entendre la jungle la plus fraîche en 1993, **il fallait être à la rave ou collé à la radio pirate** au bon moment.
 
-Pendant ce temps, la **radio pirate** était la bouée de sauvetage de la jungle à Londres. Des stations comme **Kool FM, Don FM, Rush** et **Rude FM** diffusaient des sets jungle à tous ceux qui savaient installer une antenne sur leur toit. C’était un travail de passion : des DJ et des MC risquaient l’arrestation pour apporter de la nouvelle musique au plus grand nombre. Avant Internet, *« les pirates étaient le cœur battant de la musique de danse underground »*, apportant la jungle et la drum & bass naissante aux ravers comme aux DJ de chambre.
+Pendant ce temps, la **radio pirate** était la bouée de sauvetage de la jungle à Londres. Des stations comme **Kool FM, Don FM, Rush** et **Rude FM** diffusaient des sets jungle à tous ceux qui savaient installer une antenne sur leur toit. Des DJ et des MC risquaient l’arrestation pour le faire. Avant Internet, *« les pirates étaient le cœur battant de la musique de danse underground »*, apportant la jungle et la drum & bass naissante aux ravers comme aux DJ de chambre.
 
 [Image: pirate-radio]
 
-Parmi les DJ de radio pirate les plus importants, il y avait **DJ Hype**, dont les coupes rapides, les routines de scratch et la sélection sur des stations comme Fantasy FM ont aidé à définir le son jungle des pirates. Sa capacité à marier le turntablism et l’énergie brute de la jungle en a fait un favori du public et l’un des grands prescripteurs de la première scène.
+Parmi les DJ de radio pirate les plus importants, il y avait **DJ Hype**, dont les coupes rapides, les routines de scratch et la sélection sur des stations comme Fantasy FM ont aidé à définir le son jungle des pirates. Son mélange de turntablism et de jungle brute en a fait l’un des selectors les plus suivis de la première scène.
 
 [Embed: dj-hype]
 
-Les **tape packs** sont aussi devenus incontournables : les fans enregistraient ces émissions de radio ou achetaient des coffrets de cassettes d’enregistrements live de raves, puis les échangeaient de main en main avec leurs amis. *« C’était une époque d’avant Internet, d’avant les smartphones »*, rappelle un documentaire sur la jungle. **Les jeunes écoutaient la radio pirate pour connaître le lieu de la fête du soir et s’échangeaient des cassettes des enregistrements**. Autrement dit, la scène jungle a construit son propre réseau social analogique fait d’**ondes radio, de flyers de rave et de cassettes**.
+Les **tape packs** sont aussi devenus incontournables : les fans enregistraient ces émissions de radio ou achetaient des coffrets de cassettes d’enregistrements live de raves, puis les échangeaient de main en main avec leurs amis. *« C’était une époque d’avant Internet, d’avant les smartphones »*, rappelle un documentaire sur la jungle. **Les jeunes écoutaient la radio pirate pour connaître le lieu de la fête du soir et s’échangeaient des cassettes des enregistrements**.
 
 [Image: tape-pack]
 
-En 1993, la jungle s’était cristallisée en un genre et une **communauté** reconnaissables. Des soirées rave consacrées uniquement à la jungle apparaissaient, et l’ambiance était un peu différente de celle des premières fêtes acid house. Les soirées jungle comptaient souvent une plus grande proportion de public noir : *« Si la jungle était pour les jeunes noirs de la classe ouvrière, alors l’acid house était pour les jeunes blancs de la classe ouvrière »*, résumait un observateur. L’énergie sur la piste était intense : des MC chauffant la foule en patois au débit de mitraillette, sur une basse si lourde qu’elle faisait vibrer la cage thoracique, tandis que des **gunfingers** (des fans pointant littéralement des pistolets avec leurs doigts) saluaient chaque rewind. Une nouvelle sous-culture se formait, avec les **junglists** en son centre.
+En 1993, la jungle s’était cristallisée en un genre et une **communauté** reconnaissables. Des soirées rave consacrées uniquement à la jungle apparaissaient, et l’ambiance était un peu différente de celle des premières fêtes acid house. Les soirées jungle comptaient souvent une plus grande proportion de public noir : *« Si la jungle était pour les jeunes noirs de la classe ouvrière, alors l’acid house était pour les jeunes blancs de la classe ouvrière »*, résumait un observateur. L’énergie sur la piste était intense : des MC chauffant la foule en patois au débit de mitraillette, sur une basse si lourde qu’elle faisait vibrer la cage thoracique, tandis que des **gunfingers** (des fans pointant littéralement des pistolets avec leurs doigts) saluaient chaque rewind.
 
 ## 1994-1995 : la jungle devient grand public
 
-En 1994, la jungle a explosé de l’underground vers le grand public britannique, apparemment du jour au lendemain. Après avoir mijoté sur les radios pirates et chez les disquaires spécialisés, cette musique a soudain eu des **hymnes en tête des classements** que toute la jeunesse britannique semblait connaître. Deux morceaux ont surtout marqué ce crossover : **« Original Nuttah » de Shy FX (feat. UK Apachi)** et **« Incredible » de M-Beat (feat. General Levy)**. Sortis tous les deux en 1994, ils résumaient l’énergie de la jungle avec des voix ragga accrocheuses et des beats vertigineux, et ils ont pris d’assaut les clubs comme les classements. *« Incredible » a concentré le potentiel grand public latent de la jungle et en a fait quelque chose de gigantesque* : soudain, on entendait le cri iconique **« Wicked! Wicked! Junglist massive! »** résonner dans les autoradios et jusque dans des comédies de cinéma (il apparaît de façon mémorable dans le film d’**Ali G**).
+En 1994, la jungle a explosé de l’underground vers le grand public britannique, apparemment du jour au lendemain. Après avoir mijoté sur les radios pirates et chez les disquaires spécialisés, cette musique a soudain eu des **hymnes en tête des classements** que toute la jeunesse britannique semblait connaître. Deux morceaux ont surtout marqué ce crossover : **« Original Nuttah » de Shy FX (feat. UK Apachi)** et **« Incredible » de M-Beat (feat. General Levy)**. Sortis tous les deux en 1994, ils résumaient l’énergie de la jungle avec des voix ragga accrocheuses et des beats vertigineux, et ils ont pris d’assaut les clubs comme les classements. « Incredible » a fait de ce potentiel quelque chose de bien plus grand. Soudain, on entendait le cri iconique **« Wicked! Wicked! Junglist massive! »** résonner dans les autoradios et jusque dans des comédies de cinéma (il apparaît de façon mémorable dans le film d’**Ali G**).
 
 [Image: awol]
 
@@ -88,7 +86,7 @@ De même, « Original Nuttah » est devenu un hymne bien au-delà des junglists 
 
 [Embed: incredible]
 
-La popularité a apporté **l’attention de la presse et l’intérêt des majors**. Des compilations comme *Jungle Mania* et *Jungle Hits* s’arrachaient dans les magasins, faisant découvrir les grands morceaux du genre aux auditeurs occasionnels. Les **médias britanniques** alternaient entre présenter la jungle comme « la prochaine grande chose » et attiser une *panique morale* sur ses liens supposés avec la violence ou les gangs. Malgré la mauvaise presse, le milieu des années 90 a été **l’âge d’or de la jungle**. Presque chaque semaine sortait un morceau qui allait devenir un classique. Les junglists avaient l’embarras du choix, du ragga rugueux de **Remarc** et **Congo Natty** à la jungle « intelligente », douce et jazzy, que défendait **LTJ Bukem**.
+La popularité a apporté **l’attention de la presse et l’intérêt des majors**. Des compilations comme *Jungle Mania* et *Jungle Hits* s’arrachaient dans les magasins, faisant découvrir les grands morceaux du genre aux auditeurs occasionnels. Les **médias britanniques** alternaient entre présenter la jungle comme « la prochaine grande chose » et attiser une *panique morale* sur ses liens supposés avec la violence ou les gangs. Le milieu des années 90 a tout de même été la meilleure période de la jungle. Presque chaque semaine sortait un morceau qui allait devenir un classique. Les junglists avaient l’embarras du choix, du ragga rugueux de **Remarc** et **Congo Natty** à la jungle « intelligente », douce et jazzy, que défendait **LTJ Bukem**.
 
 Parmi les **grands hymnes de 1994-95**, il y avait *« Burial »* de Leviticus (avec son sample vocal iconique *« Burial! »*), *« Helicopter Tune »* de Deep Blue (nommé d’après son break vrombissant comme un hélicoptère), *« Champion DJ »* de Congo Natty (un exemple de jungle d’influence rastafari), et **l’incontournable bombe de club « Lighter »** de DJ SS (qui sample un motif de musique classique avant de plonger dans des basses lourdes). Côté mélodique, des morceaux de **LTJ Bukem** comme « Horizons » ont apporté des nappes atmosphériques et des riffs jazz, lui valant l’étiquette *« ambient jungle »*. En 1995, la jungle avait même une émission nationale hebdomadaire : **« One in the Jungle » sur BBC Radio 1** faisait passer des sets à la manière des pirates sur une station légale, offrant une nouvelle scène à des artistes comme Roni Size, Hype et Grooverider.
 
@@ -100,7 +98,7 @@ Cette période a aussi vu **l’apogée des sous-genres propres à la jungle**. 
 
 ## Artistes, producteurs et pionniers de la jungle
 
-Aucune histoire de la jungle n’est complète sans rendre hommage aux **pionniers** : les DJ, producteurs et MC qui ont façonné le son et porté le mouvement sur leurs épaules. Voici quelques-unes des **figures clés** dont les noms résonnent dans la légende jungle, et ce qui les a rendues essentielles :
+Voici les DJ, producteurs et MC qui ont façonné le son, et ce que chacun a apporté :
 
 [Image: fabio]
 
@@ -118,7 +116,7 @@ Aucune histoire de la jungle n’est complète sans rendre hommage aux **pionnie
 
 ## Labels jungle et infrastructure de la scène
 
-Ces labels n’étaient pas seulement des entreprises musicales, c’étaient des **centres culturels** du mouvement jungle :
+Les labels qui ont porté le son :
 
 - **Reinforced Records** : fondé par 4hero. Connu pour l’innovation et la première science du breakbeat.
 - **Moving Shadow** : le label de Rob Playford. A sorti des classiques fondateurs d’Omni Trio et d’autres.
@@ -138,33 +136,33 @@ Les lieux comptaient autant que les labels. Le son était défendu dans des club
 
 [Embed: quote-dj-storm]
 
-L’un des aspects les plus fascinants de la scène jungle, c’est la façon dont sa communauté a prospéré **avant Internet et les réseaux sociaux**. Au début et au milieu des années 90, s’intéresser à la jungle voulait dire entrer dans un réseau bien réel. La **radio pirate** en était le sang : des stations comme **Kool FM (94.5)** étaient faites par la communauté, pour la communauté. Les fans réglaient des antennes sur les toits rien que pour capter un signal. Ces émissions n’étaient pas légales, mais elles étaient essentielles. Tard dans la nuit, les auditeurs écoutaient en cachette pour découvrir de nouveaux dubplates et entendre leur nom à l’antenne.
+La scène jungle fonctionnait sans Internet ni réseaux sociaux. Au début et au milieu des années 90, s’intéresser à la jungle voulait dire entrer dans un réseau bien réel. La **radio pirate** en était le sang : des stations comme **Kool FM (94.5)** étaient faites par la communauté, pour la communauté. Les fans réglaient des antennes sur les toits rien que pour capter un signal. Ces émissions étaient illégales. Tard dans la nuit, les auditeurs écoutaient en cachette pour découvrir de nouveaux dubplates et entendre leur nom à l’antenne.
 
 [Image: kool-fm]
 
 La **culture du dubplate** venait des traditions des sound systems jamaïcains. Dans la jungle, les producteurs faisaient graver des morceaux exclusifs sur acétate dans des lieux comme le *Music House*, à Londres. Les DJ faisaient la queue des heures, se liaient et échangeaient des idées. Ces dubplates s’usaient vite, mais d’autres morceaux les remplaçaient entre-temps. C’étaient des symboles de statut : votre sélection montrait votre crew et votre histoire. Comme le disait DJ Storm : *« Les dubplates que tu avais dans ton sac montraient d’où tu venais. »*
 
-La promotion des raves reposait aussi sur **le bouche-à-oreille et les flyers**. Un rituel typique consistait à appeler une ligne d’info depuis une cabine téléphonique et à suivre des indices jusqu’à des lieux secrets. La communauté se suffisait à elle-même : pas de Google Maps, pas d’identification de morceaux sur YouTube. Les fans fredonnaient des lignes de basse aux vendeurs des disquaires ou s’échangeaient des mixtapes pour retrouver des morceaux. Cet effort d’avant le numérique a créé un public soudé et passionné, dont beaucoup gardent encore un souvenir ému.
+La promotion des raves reposait aussi sur **le bouche-à-oreille et les flyers**. Un rituel typique consistait à appeler une ligne d’info depuis une cabine téléphonique et à suivre des indices jusqu’à des lieux secrets. La communauté se suffisait à elle-même : pas de Google Maps, pas d’identification de morceaux sur YouTube. Les fans fredonnaient des lignes de basse aux vendeurs des disquaires ou s’échangeaient des mixtapes pour retrouver des morceaux.
 
 ## Argot, style et rituels : la sous-culture jungle
 
-La jungle n’était pas qu’une musique, c’était une **sous-culture**. Elle a développé son propre **argot, sa mode et ses rituels**, qui lui donnaient l’allure d’une tribu soudée. Son vocabulaire venait de l’argot de rue caribéen et londonien. Des mots comme *« boh! »* (une exclamation d’enthousiasme), *« rewind »* (un morceau relancé à la demande du public) et *« Junglist massive »* sont entrés dans le langage de tous les jours des fans.
+La jungle avait son propre argot, sa mode et ses rituels. Son vocabulaire venait de l’argot de rue caribéen et londonien. Des mots comme *« boh! »* (une exclamation d’enthousiasme), *« rewind »* (un morceau relancé à la demande du public) et *« Junglist massive »* sont entrés dans le langage de tous les jours des fans.
 
-Les MC ont été essentiels pour répandre cet argot. Sur des beats chargés en basses, ils chauffaient la foule avec des cris comme *« Big up all crew inside! »* et *« Dis one’s dangerous! »*. Ce MCing rituel, marqué par le patois, a donné à la jungle son ambiance unique. Le public répondait par des **gunfingers** (des pistolets mimés avec les doigts), des rewinds et des chants, créant une boucle d’énergie entre le DJ, le MC et les ravers.
+Les MC ont été essentiels pour répandre cet argot. Sur des beats chargés en basses, ils chauffaient la foule avec des cris comme *« Big up all crew inside! »* et *« Dis one’s dangerous! »*. Le public répondait aux MC par des **gunfingers** (des pistolets mimés avec les doigts), des rewinds et des chants.
 
-La **mode** comptait tout autant. L’uniforme typique du junglist comprenait **jeans larges, motifs camouflage, Nike Air Max ou Timberland, sweats à capuche et blousons bombers**. Les blousons d’aviateur MA-1 avec logos de crew ou écussons Metalheadz étaient particulièrement emblématiques. Ce style urbain reflétait les racines brutes et ouvrières de la jungle, en rupture avec la scène rave fluo.
+La **mode** comptait tout autant. L’uniforme typique du junglist comprenait **jeans larges, motifs camouflage, Nike Air Max ou Timberland, sweats à capuche et blousons bombers**. Les blousons d’aviateur MA-1 avec logos de crew ou écussons Metalheadz étaient particulièrement emblématiques. C’était un streetwear ouvrier, très loin du fluo des premières raves.
 
 [Image: dancing]
 
-L’art des flyers reflétait aussi le style de la scène. Les organisateurs commandaient des visuels façon graffiti avec des lions, des feuillages de jungle, des couleurs rasta ou des images de science-fiction. Des artistes comme **Junior Tomlin** ont créé des visuels psychédéliques et futuristes devenus depuis des objets culturels de collection.
+L’art des flyers reflétait aussi le style de la scène. Les organisateurs commandaient des visuels façon graffiti avec des lions, des feuillages de jungle, des couleurs rasta ou des images de science-fiction. Des artistes comme **Junior Tomlin** ont créé des flyers psychédéliques et futuristes que l’on collectionne aujourd’hui.
 
-Les **identités régionales** comptaient aussi. Londres était le cœur battant de la jungle, mais Bristol y a ajouté des vibes dub, et des villes comme Manchester et Birmingham avaient leurs fidèles. Les MC saluaient les différents quartiers de la ville, rassemblant un public varié tout en gardant la fierté locale.
+Les **identités régionales** comptaient aussi. Londres était le cœur battant de la jungle, mais Bristol y a ajouté des vibes dub, et des villes comme Manchester et Birmingham avaient leurs fidèles. Les MC saluaient les différents quartiers de la ville.
 
-Les rituels de la piste ont rendu les raves jungle légendaires. Le **rewind** était la réponse suprême du public : quand l’intro d’un morceau adoré tombait, les fans hurlaient pour que le DJ la relance. Gunfingers, samples de corne de brume et ambiance de sound clash faisaient de chaque rave une fête de la culture. L’argot jungle comme *« junglist soldier », « sound murderation »* et *« badman DJ »* est devenu une monnaie culturelle, comprise seulement par **ceux qui savaient**.
+Le **rewind** était la réponse suprême du public : quand l’intro d’un morceau adoré tombait, les fans hurlaient pour que le DJ la relance. Des mots comme *« junglist soldier », « sound murderation »* et *« badman DJ »* n’étaient compris que de ceux qui étaient dans la scène.
 
 ## Les morceaux essentiels de la jungle
 
-L’histoire de la jungle se raconte à travers ses **hymnes** : des morceaux qui ont marqué des moments et mis les pistes en transe. Certains sont devenus des légendes, d’autres des favoris de niche, mais tous ont joué un rôle essentiel dans la formation du **genre jungle**.
+Voici les disques qui ont façonné le **genre jungle**, des premiers plans aux tubes crossover.
 
 - **« We Are I.E. », Lennie De Ice (1991)** : souvent cité comme le plan de la jungle. Avec sa sub-basse profonde, ses breakbeats hip-hop et ses samples ragga, il a posé les bases de tout ce qui a suivi.
 - **« Valley of the Shadows », Origin Unknown (1993)** : un chef-d’œuvre minimaliste et inquiétant, avec le célèbre sample « 31 seconds ». Une sortie typique de RAM Records et une bombe proto-jungle.
@@ -175,20 +173,20 @@ L’histoire de la jungle se raconte à travers ses **hymnes** : des morceaux qu
 - **« Super Sharp Shooter », DJ Zinc (1996)** : un exemple de jungle jump-up, funky, fait pour la piste et énorme dans tous les sets.
 - **« Brown Paper Bag », Roni Size/Reprazent (1997)** : techniquement de la drum and bass, mais imprégné de racines jungle. Les instruments live rencontrent l’énergie du breakbeat.
 
-Parmi les autres classiques, *« Babylon »* de Splash, *« Lord of the Null Lines (Foul Play Remix) »*, *« The Licence »* de Krome & Time et *« Chopper »* de Shy FX. Ces morceaux sont devenus des **rites de passage** pour les nouveaux ravers et des rewinds sacrés pour les vétérans. Chaque hymne capture un moment, un souvenir ou un mouvement, des grésillements de la radio pirate au sommet d’une rave jungle des années 90.
+Parmi les autres classiques, *« Babylon »* de Splash, *« Lord of the Null Lines (Foul Play Remix) »*, *« The Licence »* de Krome & Time et *« Chopper »* de Shy FX. Ces morceaux sont devenus des **rites de passage** pour les nouveaux ravers et des rewinds sacrés pour les vétérans.
 
 [Embed: babylon]
 
 ## Les breakbeats de la jungle : Amen, Think, Apache et Hot Pants
 
-Au cœur de la jungle, il y a les **breakbeats** : des boucles de batterie samplées que les producteurs découpaient, étiraient et reprogrammaient en percussions folles à grande vitesse. Ces breaks n’étaient pas que des outils rythmiques, ils sont devenus des références culturelles à part entière.
+La jungle repose sur les **breakbeats** : des boucles de batterie samplées que les producteurs découpaient, étiraient et reprogrammaient à grande vitesse.
 
 - **Amen Break** : tiré de « Amen, Brother » de The Winstons (1969). La boucle de batterie la plus samplée de l’histoire. Ses caisses claires sèches et ses charleys nets sont devenus la colonne vertébrale d’innombrables morceaux jungle.
 - **Think Break** : tiré de « Think (About It) » de Lyn Collins (1972). Connu pour son groove roulant et son « Woo! » iconique, il a apporté du rebond et du funk à de nombreux premiers morceaux jungle.
-- **Apache Break** : tiré de « Apache » de The Incredible Bongo Band (1973). Plein d’énergie et de caractère tribal, ce break donnait aux morceaux jungle une sensation sauvage de batterie live.
+- **Apache Break** : tiré de « Apache » de The Incredible Bongo Band (1973). Un break chargé en percussions qui donnait aux morceaux jungle une sensation de batterie live.
 - **Hot Pants Break** : tiré de « Hot Pants » de Bobby Byrd (1971). Une boucle sèche et funky que les producteurs jungle aimaient superposer dans les transitions et les edits.
 
-Les producteurs ne se contentaient pas de sampler ces breaks, ils les **travaillaient de façon obsessionnelle** : étirés, inversés, découpés en minuscules morceaux, jusqu’à créer de nouveaux vocabulaires rythmiques qui ont défini la jungle. Une partie de la puissance du genre venait du fait de **reprendre ces boucles à la soul et au funk** pour les mêler à des basses reggae et au chaos numérique.
+Les producteurs retravaillaient ces breaks de façon obsessionnelle : étirés, inversés, découpés en minuscules morceaux, jusqu’à créer de nouveaux vocabulaires rythmiques qui ont défini la jungle. Une partie de la puissance du genre venait du fait de **reprendre ces boucles à la soul et au funk** pour les mêler à des basses reggae et au chaos numérique.
 
 ## Jungle et drum and bass : quelle différence ?
 
@@ -200,7 +198,7 @@ La jungle et la drum and bass partagent une histoire, une plage de tempo et un l
 
 [Embed: thecatrave late-summer-cloud-dance]
 
-Un autre facteur de cette transition a été la **violence dans les soirées jungle**. Pas partout, mais dans certaines villes, comme Manchester, les incidents avec des coups de couteau ou des armes dans les raves se sont multipliés. Selon *la biographie posthume de Marcus Intalex*, ce climat instable a poussé certains organisateurs, ravers et artistes à prendre leurs distances avec la scène. La drum & bass offrait une nouvelle étiquette plus polie, qui se débarrassait de l’association avec la violence et reconquérait un public plus large. Cela dit, ces problèmes dépendaient souvent *du lieu*, et beaucoup de raves londoniennes sont restées communautaires et festives.
+Un autre facteur de cette transition a été la **violence dans les soirées jungle**. Pas partout, mais dans certaines villes, comme Manchester, les incidents avec des coups de couteau ou des armes dans les raves se sont multipliés. Selon *la biographie posthume de Marcus Intalex*, ce climat instable a poussé certains organisateurs, ravers et artistes à prendre leurs distances avec la scène. La drum & bass offrait un nom plus propre, libre de l’association avec la violence et ouvert à un public plus large. Cela dit, ces problèmes dépendaient souvent *du lieu*, et beaucoup de raves londoniennes sont restées communautaires et festives.
 
 ### La controverse General Levy.
 
@@ -212,21 +210,21 @@ En 1994, au sommet du succès d’*« Incredible »*, **General Levy** a donné 
 - Dans une rave organisée dans une patinoire à roulettes, quelqu’un a déclenché une vraie corne de brume, et la moitié du public a cru à une descente de police.
 - Pendant une coupure de courant, un MC a plaisanté : « Qui a oublié de payer l’électricité ? », et le public a chanté du Bob Marley jusqu’au retour de la lumière.
 
-Ces histoires, certaines vraies, d’autres exagérées, font **partie du folklore jungle**. Elles reflètent le chaos, la communauté et la nature sans filtre de la scène. Même l’argot et les rivalités entre crews sont entrés dans l’ADN culturel, faisant de la jungle non seulement un son mais un **univers mythique**, avec ses héros et ses antihéros.
+Certaines de ces histoires sont vraies, d’autres exagérées. Toutes font partie du folklore jungle.
 
 ## La jungle existe-t-elle encore ? Le revival actuel
 
-Si la jungle a disparu des classements et des grands médias britanniques après 1997, elle n’est jamais vraiment morte. Au début des années 2000, un revival de la ragga jungle couvait dans les cercles underground d’Amérique du Nord, gardant les breakbeats en vie sur un autre continent. Et les années 2020 ont vu un véritable **revival jungle**, porté par une nouvelle vague de producteurs, de DJ et de fans désireux de renouer avec l’énergie brute et la riche histoire du genre.
+La jungle a disparu des classements et des grands médias britanniques après 1997, mais elle ne s’est pas éteinte. Au début des années 2000, un revival de la ragga jungle couvait dans les cercles underground d’Amérique du Nord, gardant les breakbeats en vie sur un autre continent. Les années 2020 ont apporté un vrai revival, avec de nouveaux producteurs, DJ et fans revenus aux disques et à l’histoire du genre.
 
 ### Une nouvelle génération d’artistes
 
-Des artistes comme **Tim Reaper**, **Sully**, **Coco Bryce** et **Amygdala** mènent un mouvement qui honore le passé tout en expérimentant avec la production moderne. Des labels comme *Future Retro* et *7th Storey Projects* rééditent des vinyles jungle rares et sortent de nouveaux disques.
+Des artistes comme **Tim Reaper**, **Sully**, **Coco Bryce** et **Amygdala** mènent un revival qui puise dans les vieux disques et utilise la production moderne. Des labels comme *Future Retro* et *7th Storey Projects* rééditent des vinyles jungle rares et sortent de nouveaux disques.
 
 [Embed: nia-archives]
 
 ### La scène britannique des années 2020
 
-**Sherelle** et **Nia Archives** sont deux figures marquantes qui redessinent le paysage jungle. Sherelle mêle la jungle au footwork et à des hybrides à 160 BPM, tandis que Nia Archives nourrit ses breakbeats de voix soul et d’une écriture introspective. Les nominations de Nia aux MOBO et au Mercury Prize ont remis la jungle sous les projecteurs.
+**Sherelle** et **Nia Archives** sont deux des artistes les plus visibles de la jungle aujourd’hui. Sherelle mêle la jungle au footwork et à des hybrides à 160 BPM, tandis que Nia Archives nourrit ses breakbeats de voix soul et d’une écriture introspective. Les nominations de Nia aux MOBO et au Mercury Prize ont ramené l’attention nationale sur la jungle.
 
 **Tim Reaper** est l’autre nom qui revient de tous les côtés à la fois : dans les listes de référence, et dans notre propre catalogue de DJ sets, où il apparaît plus souvent que presque n’importe qui d’autre faisant cette musique aujourd’hui.
 
@@ -244,27 +242,25 @@ Aujourd’hui, la jungle n’est plus seulement une affaire britannique. Elle a 
 
 ### Respecter les racines
 
-Surtout, la nouvelle vague insiste sur le fait d’**honorer les racines noires de la jungle**. Des organisations comme la **Black Junglist Alliance** et des DJ comme **Flight, Storm et DJ Rap** veillent à ce que la scène rende aux fondateurs le respect qui leur est dû. La diversité et l’équité sont au cœur de cette nouvelle ère de la jungle.
+La nouvelle vague tient à honorer les racines noires de la jungle. Des organisations comme la **Black Junglist Alliance** et des DJ comme **Flight, Storm et DJ Rap** veillent à ce que la scène rende aux fondateurs le respect qui leur est dû.
 
 ## Conclusion
 
-Des antennes pirates de Londres aux scènes des festivals du monde entier, la **jungle music** a fait un voyage puissant et cyclique. Elle a commencé comme une **voix de résistance underground** : une forme brute et hybride, ancrée dans les breakbeats, la basse et l’identité noire britannique. Avec le temps, elle a évolué, s’est divisée, est devenue grand public, puis est revenue plus forte que jamais grâce à l’énergie du revival et aux réinterprétations modernes.
+La **jungle music** est née sur les antennes pirates de Londres, comme une musique underground et hybride fondée sur les breakbeats, la basse et l’identité noire britannique. Elle s’est divisée, est entrée dans les classements, en est sortie, puis est revenue dans les années 2020 avec une nouvelle génération.
 
-Les junglists d’aujourd’hui ont un profond respect pour les racines du genre. Les nouveaux artistes, fans et communautés ne se contentent pas de reproduire le passé, ils **construisent un avenir** où la jungle reste vivante, dynamique et ouverte. Que vous relanciez un classique de 94, que vous raviez sur un set rapide de Sherelle ou que vous exploriez la section jungle de Bandcamp à 2 heures du matin, vous faites partie d’un héritage qui continue d’inspirer des générations.
-
-Alors si quelqu’un vous demande **« c’est quoi la jungle music ? »**, vous savez maintenant que c’est plus qu’un genre. C’est une culture, une communauté, un sound system, une vibe, une chronologie, un mouvement.
+Les nouveaux artistes et fans prennent les racines au sérieux, et ils font de nouveaux disques plutôt que de copier les anciens. Que vous relanciez un classique de 94, que vous alliez voir un set de Sherelle ou que vous fouilliez la section jungle de Bandcamp à 2 heures du matin, cette musique se fait toujours.
 
 *« Big up all the Junglist massive : past, present, and future. »*
 
 ## Artistes, DJ et MC jungle : les bâtisseurs
 
-*Voici les architectes de la jungle : les DJ, MC et producteurs qui ont façonné le son dans les années 90.*
+*Les DJ, MC et producteurs qui ont façonné le son dans les années 90.*
 
 [Table: foundation-builders]
 
 ## Artistes jungle actuels et revivalistes
 
-*La nouvelle école qui garde la flamme de la jungle allumée dans les années 2020 et au-delà.*
+*Les artistes qui font la jungle dans les années 2020.*
 
 [Table: modern-artists]
 

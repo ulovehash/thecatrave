@@ -6,9 +6,9 @@ La bass music est un terme parapluie qui désigne plusieurs formes de musique é
 
 ## Introduction
 
-Cherchez « bass music » et les résultats tirent dans plusieurs directions à la fois. Une auditrice pense au dubstep. Un autre parle de jungle, de UK garage ou de grime. À Miami, l’expression a une histoire liée à l’électro, au hip-hop, aux voitures et à la Roland TR-808. Sur le circuit des festivals américains, elle peut couvrir la trap, le riddim, le glitch-hop et d’autres styles électroniques lourds. Ce désaccord n’est pas un problème à régler avant de pouvoir apprécier la musique. Il fait partie de l’histoire.
+Cherchez « bass music » et les résultats tirent dans plusieurs directions à la fois. Une auditrice pense au dubstep. Un autre parle de jungle, de UK garage ou de grime. À Miami, l’expression a une histoire liée à l’électro, au hip-hop, aux voitures et à la Roland TR-808. Sur le circuit des festivals américains, elle peut couvrir la trap, le riddim, le glitch-hop et d’autres styles électroniques lourds. Ce désaccord fait partie de l’histoire.
 
-La bass music est devenue utile justement parce que les DJ, les labels, les organisateurs et les auditeurs avaient besoin d’un nom souple pour des disques qui franchissaient sans cesse les frontières établies. Cette souplesse rend aussi le terme facile à mal employer. Le chemin ne passe pas par une énième liste interminable de sous-genres. Il consiste à suivre les scènes, les salles et les systèmes qui ont donné à l’expression des sens différents.
+La bass music est devenue utile justement parce que les DJ, les labels, les organisateurs et les auditeurs avaient besoin d’un nom souple pour des disques qui franchissaient sans cesse les frontières établies. Cette souplesse rend aussi le terme facile à mal employer. Le chemin consiste à suivre les scènes, les salles et les systèmes qui ont donné à l’expression des sens différents.
 
 Une histoire mondiale ne peut donc pas commencer et finir avec la UK bass. La pratique jamaïcaine du sound system et du dub, l’électro et le hip-hop de Miami, les lignées de la rave britannique, la culture beat de Los Angeles, le footwork de Chicago et le gqom de Durban ne forment pas un arbre généalogique bien rangé. Ce sont des histoires distinctes qui se sont rencontrées par la migration, les disques, les clubs, les DJ, la radio, les tournées et les plateformes numériques. Le terme parapluie n’est utile que si ces noms locaux restent visibles en dessous.
 
@@ -24,7 +24,7 @@ Le dub a fait du studio une partie de cette performance. Des ingénieurs du son 
 
 [Image: King Tubby console]
 
-> **Ce qu’il faut écouter :** la basse ne soutient pas simplement l’arrangement. Elle tient l’espace vide ensemble pendant que les percussions, le mélodica et l’écho apparaissent autour d’elle.
+> **Ce qu’il faut écouter :** la basse tient l’espace vide ensemble pendant que les percussions, le mélodica et l’écho apparaissent autour d’elle.
 
 L’arrivée de la musique jamaïcaine et de la pratique du sound system en Grande-Bretagne a changé les clubs, les lieux communautaires et la musique populaire. Le [projet Bass Culture de Goldsmiths](https://www.gold.ac.uk/cucr/research/bass-culture/) décrit cette histoire comme une partie de la formation de la culture urbaine britannique d’après-guerre, et non comme un simple ensemble de techniques de production empruntées plus tard par des artistes électroniques. Les soirées reggae, les blues parties, les selectors, les MC, les dubplates et la distribution indépendante offraient à la fois un langage musical et une manière de s’organiser en dehors des institutions dominantes.
 
@@ -48,7 +48,7 @@ En Grande-Bretagne, une autre route vers les basses se formait autour des fêtes
 
 [Embed: LFO Leeds Warehouse Mix]
 
-Aucun de ces disques n’avait besoin du terme parapluie venu plus tard pour avoir un sens dans sa propre scène. Cette distinction compte. La bass music n’est pas arrivée toute faite dans une ville ou en une année. Son vocabulaire final a été assemblé à partir de cultures plus anciennes, parfois parallèles, qui avaient leurs propres noms et leurs propres priorités.
+Aucun de ces disques n’avait besoin du terme parapluie venu plus tard pour avoir un sens dans sa propre scène. La bass music n’est pas arrivée toute faite dans une ville ou en une année. Son vocabulaire final a été assemblé à partir de cultures plus anciennes, parfois parallèles, qui avaient leurs propres noms et leurs propres priorités.
 
 [Embed: We Are I.E.]
 
@@ -60,9 +60,9 @@ Les disques qui ont ouvert la porte sont nommés ici sans leurs lecteurs, parce 
 
 [Image: Night Slugs]
 
-Le langage autour de Night Slugs saisit ce déplacement. La soirée a commencé en 2008 avec une ligne décrite comme « heavy bass music and global gutter house ». En janvier 2010, [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) la présentait comme un centre de la bass music post-garage et rapprochait le producteur londonien Bok Bok de Kingdom, de New York. Il ne s’agissait pas de dire que les deux villes avaient soudain découvert le même genre. Les échanges sur Internet, les tournées et les disques partagés faisaient se percuter plus vite des langages club locaux.
+Le langage autour de Night Slugs saisit ce déplacement. La soirée a commencé en 2008 avec une ligne décrite comme « heavy bass music and global gutter house ». En janvier 2010, [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) la présentait comme un centre de la bass music post-garage et rapprochait le producteur londonien Bok Bok de Kingdom, de New York. Aucune des deux villes n’avait découvert un nouveau genre : les échanges sur Internet, les tournées et les disques partagés faisaient se percuter plus vite des langages club locaux.
 
-En 2010 et 2011, des disquaires et des publications de musique électronique employaient « UK bass music » pour des sorties qui puisaient dans le grime, le funky, la house et le dubstep. En 2011, [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) pouvait placer « post-dubstep », « future garage » et « UK bass music » côte à côte tout en admettant que personne ne savait exactement comment appeler ce domaine. Night Slugs, Hyperdub, Hessle Audio, Hotflush et Swamp81 étaient centraux, non parce qu’ils s’accordaient sur un style, mais parce que chacun créait une structure dans laquelle des styles instables pouvaient circuler.
+En 2010 et 2011, des disquaires et des publications de musique électronique employaient « UK bass music » pour des sorties qui puisaient dans le grime, le funky, la house et le dubstep. En 2011, [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) pouvait placer « post-dubstep », « future garage » et « UK bass music » côte à côte tout en admettant que personne ne savait exactement comment appeler ce domaine. Night Slugs, Hyperdub, Hessle Audio, Hotflush et Swamp81 étaient centraux parce que chacun créait une structure dans laquelle des styles instables pouvaient circuler, même s’ils ne s’accordaient sur aucun style.
 
 Rien ne prouve vraiment qu’une personne ait inventé l’expression. Elle s’est imposée par accumulation : descriptions de disquaires, critiques, annonces de soirées, catégories de festivals et DJ qui avaient besoin de décrire des sets traversant plusieurs tempos. « Bass music » fonctionnait comme un dossier pratique. « UK bass » a aussi pris un sens plus étroit pour des disques club d’après le dubstep qui mêlaient des éléments de garage, de grime, de funky, de house, de techno et de juke.
 
@@ -116,8 +116,6 @@ Le footwork de Chicago vient de la house, de la ghetto house, des crews de danse
 
 Le gqom est né à Durban des traditions house locales, des fêtes des townships, de la culture des taxis et d’une distribution numérique informelle. Des labels internationaux et des collaborations avec des clubs britanniques l’ont ensuite placé à côté de musiques tournées vers la basse. [La conversation de Resident Advisor avec DJ Lag et Nan Kolè](https://ra.co/exchange/336) rend l’infrastructure locale claire : les sites de MP3, les groupes Facebook, WhatsApp et la diffusion dans les taxis ont été centraux dans la croissance de ce son.
 
-Ensemble, le footwork et le gqom montrent comment des réseaux club tournés vers la basse échangent des rythmes sans faire de scènes locales distinctes des personnages secondaires d’une histoire universelle.
-
 [Image: gqom Distruction Boyz]
 
 ## Les types de bass music : une carte d’écoute, scène par scène
@@ -128,7 +126,7 @@ Il n’existe pas de liste définitive des genres de la bass music. La catégori
 
 ### Le dub et la lignée du sound system
 
-Cette route commence avec les sound systems jamaïcains, la culture de la version et le dub, puis continue à travers le reggae britannique, la jungle, le grime et le dubstep. Le principe commun n’est pas un rythme. C’est le fait de traiter la musique enregistrée comme un matériau qu’on peut décliner en versions, faire porter par une voix, graver en exclusivité et tester sur un système.
+Cette route commence avec les sound systems jamaïcains, la culture de la version et le dub, puis continue à travers le reggae britannique, la jungle, le grime et le dubstep. Ce que ces scènes partagent, c’est une façon de traiter la musique enregistrée : comme un matériau qu’on peut décliner en versions, faire porter par une voix, graver en exclusivité et tester sur un système.
 
 > **Pour commencer :** King Tubby, Scientist, Jah Shaka, Adrian Sherwood, Digital Mystikz et Kode9.
 
@@ -172,7 +170,7 @@ Une liste de genres ne peut pas expliquer pourquoi le même disque a du sens dan
 
 Un sound system fait des basses une expérience publique. La salle, la conception des enceintes, les limites de volume et le public influencent tous ce que les producteurs laissent dans un mix. L’Outlook Festival a construit son identité autour de systèmes faits sur mesure et d’une programmation reliant le dub, la jungle, la drum and bass, le garage, le grime et le dubstep. Le chercheur Ivan Mouraviev le décrit comme une convergence de technologies, de pratiques et de valeurs, et pas seulement comme une collection d’artistes aux basses lourdes. Son travail de terrain montre aussi le conflit : des limites sonores strictes peuvent affaiblir l’expérience même que l’événement promet.
 
-Les dubplates ont rendu la circulation compétitive. Un DJ pouvait tester une musique inachevée, récompenser un public avec une version introuvable ailleurs et forcer d’autres producteurs à répondre. Les radios pirates rendaient les scènes locales audibles au-delà d’un seul club tout en gardant les voix des DJ et des MC. Pour la UK bass en particulier, ces stations étaient Rinse FM et Sub.FM, et en dehors des boîtes de nuit, c’est surtout là que la musique était promue et jouée. Nommer les clubs sans nommer les stations revient à décrire une scène comme si tout le monde vivait à un trajet de bus. Les disquaires reliaient auditeurs, producteurs et labels. Des soirées comme FWD>>, DMZ, Low End Theory, Niche et Night Slugs n’étaient pas des contenants neutres. Leur programmation, leur salle et leur public ont aidé à définir la musique qu’on leur associe.
+Les dubplates ont rendu la circulation compétitive. Un DJ pouvait tester une musique inachevée, récompenser un public avec une version introuvable ailleurs et forcer d’autres producteurs à répondre. Les radios pirates rendaient les scènes locales audibles au-delà d’un seul club tout en gardant les voix des DJ et des MC. Pour la UK bass en particulier, ces stations étaient Rinse FM et Sub.FM, et en dehors des boîtes de nuit, c’est surtout là que la musique était promue et jouée. Nommer les clubs sans nommer les stations revient à décrire une scène comme si tout le monde vivait à un trajet de bus. Les disquaires reliaient auditeurs, producteurs et labels. Dans des soirées comme FWD>>, DMZ, Low End Theory, Niche et Night Slugs, la programmation, la salle et le public ont aidé à définir la musique qu’on leur associe.
 
 Les plateformes numériques ont changé la vitesse et la géographie de ce processus. Des chaînes YouTube ont aidé à faire connaître le dubstep et la drum and bass à des auditeurs qui n’avaient pas accès aux clubs sur place. SoundCloud a fait voyager à l’international des mixes, des edits et des morceaux inachevés. WhatsApp et les réseaux de MP3 ont joué un autre rôle dans la scène gqom de Durban. Les services de streaming ont rendu les catégories de genre plus visibles tout en réduisant souvent le contexte régional à des métadonnées de playlist.
 
