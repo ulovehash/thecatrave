@@ -18,7 +18,7 @@ Wann ist Ultra Miami? Im März, an drei Tagen von Freitag bis Sonntag, so das Fo
 
 [Bild: Bayfront Park, 2014 Ultra Music Festival, Pietro]
 
-Der Termin ist kein Zufall. Ultra läuft parallel zur Winter Music Conference, dem Branchentreffen der elektronischen Musik in Miami, und zur Miami Music Week, dem größeren Programm aus Konzerten und Partys in der ganzen Region. Beide führen auf Ultra zu, das die Woche abschließt. 2018 kaufte Ultra die Winter Music Conference komplett.
+Ultra läuft parallel zur Winter Music Conference, dem Branchentreffen der elektronischen Musik in Miami, und zur Miami Music Week, dem größeren Programm aus Konzerten und Partys in der ganzen Region. Beide führen auf Ultra zu, das die Woche abschließt. 2018 kaufte Ultra die Winter Music Conference komplett.
 
 Der Standort von Ultra Miami ist auch eine Frage von Regeln. Die Genehmigung, die die Stadt Miami 2019 erteilte, begrenzt das Gelände auf 55.000 Menschen, eine Zahl, die nur mit Zustimmung der Stadt steigen darf, und verlangt Zahlungen von mindestens 2 Millionen US-Dollar im Jahr an die Stadt. Im April 2026 genehmigte die Stadtkommission einen neuen Vertrag mit der Event Entertainment Group, der bis 2046 laufen kann. Eine bedingungslose Garantie ist das nicht: Die Stadt kann ihn vor einer künftigen Ausgabe ohne Angabe von Gründen kündigen, mit einer Mehrheit von vier Fünfteln der Kommission, und der Vertrag kommt alle fünf Jahre auf den Prüfstand.
 

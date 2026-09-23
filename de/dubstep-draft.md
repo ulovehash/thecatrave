@@ -66,7 +66,7 @@ Musik in einen Club zu bringen, war ein eigenes Problem. Bevor ein Track veröff
 
 Viel von diesem Schneiden geschah bei Transition Mastering, wo Jason Goz nacheinander mit Jungle, Garage, Grime und Dubstep arbeitete. Einem fünfzehnjährigen Benga, der sein Essensgeld sparte, schnitt er Plates zum Sonderpreis. Er weigerte sich auch, Basslines im Stereopanorama zu schneiden, und bestand auf Mono, weil ein Bass, der nur in einem Lautsprecher sitzt, auf einer Clubanlage in sich zusammenfällt. Seine Regel für den ganzen Vorgang bestand aus einem Satz: "Wenn die Frequenz stimmt, ist alles andere Füllstoff."
 
-Die Knappheit formte die Musik, statt sie nur zu umgeben. Loefah: "Eine Zeit lang gab es auf der ganzen Welt vielleicht 50 Dubstep-Tracks. Wenn fünf davon meine sind, werfe ich sie nicht einfach raus."
+Die Knappheit formte die Musik. Loefah: "Eine Zeit lang gab es auf der ganzen Welt vielleicht 50 Dubstep-Tracks. Wenn fünf davon meine sind, werfe ich sie nicht einfach raus."
 
 [Embed: Bassweight]
 

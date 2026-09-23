@@ -129,6 +129,8 @@ Before the reviews, run the draft through the `humanizer` skill (`.claude/skills
 
 It is for drafts. On a published guide, including a translation, show the exact before and after wording and wait for approval, as for any other edit to live copy.
 
+An approved change to a guide's English copy is carried to its German and French translations in the same pass, with the translated wording shown for approval too. On 2026-09-23 the English humanizer edits went live while both translations kept the old wording (`defects.json`, `translations-miss-english-humanizer-edits`).
+
 Complete three reviews before layout:
 
 1. factual and timeline review;

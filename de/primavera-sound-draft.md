@@ -64,7 +64,7 @@ Peggy Gou, die 2019 eine volle Bühne beschließt, ist eine Version von Primaver
 
 [Embed: DJ Ramon Sucesso and Badsista at Boiler Room x Primavera Sound Barcelona, uhAp3o71U48]
 
-Genau diese Bandbreite ist der Punkt. Primavera ist kein EDM-Festival, obwohl elektronische Musik zentral ist, und es lässt sich auch nicht mehr zutreffend als reines Indie-Rock-Festival beschreiben. Es verhält sich eher wie mehrere benachbarte Festivals, die sich ein Gelände und ein Publikum teilen. Für ein Festival in Barcelona, das sich enger auf elektronische Musik und Technologie konzentriert, gibt es [unseren Guide zu Sónar](/sonar-festival-barcelona) auf Englisch.
+Primavera ist kein EDM-Festival, obwohl elektronische Musik zentral ist, und es lässt sich auch nicht mehr zutreffend als reines Indie-Rock-Festival beschreiben. Es verhält sich eher wie mehrere benachbarte Festivals, die sich ein Gelände und ein Publikum teilen. Für ein Festival in Barcelona, das sich enger auf elektronische Musik und Technologie konzentriert, gibt es [unseren Guide zu Sónar](/sonar-festival-barcelona) auf Englisch.
 
 ## Primavera a la Ciutat
 

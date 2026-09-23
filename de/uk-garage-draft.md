@@ -120,7 +120,7 @@ Es ist ein seltsames Kapitel und ein wichtiges. In Ayia Napa hörte Garage auf, 
 
 ## Wie aus Garage Dubstep und Grime wurden
 
-Die meistgestellte Frage zu UK Garage ist nicht, was er ist. Sondern wo er hinging.
+Die meistgestellte Frage zu UK Garage ist, wo er hinging.
 
 Um 2001 erzeugte der Mainstream-Erfolg von 2-Step eine Spaltung. Die Musik im Tagesradio wurde weicher, gesanglicher und polierter, und die Produzenten, die daran kein Interesse hatten, begannen das Gegenteil zu machen: instrumental, dunkler, ganz ohne den Diva-Gesang.
 

@@ -8,7 +8,7 @@ Die besten Spotify-Playlists haben einen erkennbaren Standpunkt. KEXPs New This 
 
 Spotify weiß bereits, wie es dir mehr von dem geben kann, was du gestern gehört hast. Das ist nützlich, aber nicht die einzige Aufgabe einer Playlist. Ein guter Kurator kann einen Sprung wagen, den der Empfehlungsfeed vermeiden würde, eine kleine Platte neben eine berühmte stellen oder eine Szene lange genug im Fokus halten, damit ihre Einzelheiten hörbar werden.
 
-Diese Auswahl bevorzugt Playlists, hinter denen eine Person, ein Sender, eine Publikation oder ein Label steht. Manche werden jede Woche aktualisiert. Andere sind lange, unordentliche Archive, die mit der Zeit nützlicher werden. Menschliche Entscheidungen sind nicht automatisch besser. Der Unterschied ist, dass man die Idee hinter der Auswahl hören kann.
+Diese Auswahl bevorzugt Playlists, hinter denen eine Person, ein Sender, eine Publikation oder ein Label steht. Manche werden jede Woche aktualisiert. Andere sind lange, unordentliche Archive, die mit der Zeit nützlicher werden. Menschliche Entscheidungen sind nicht automatisch besser, aber man kann die Idee hinter der Auswahl hören.
 
 [Bild: Playlist-Stillleben]
 
@@ -56,11 +56,11 @@ Der Titel ist ein Dickicht aus Planeten, Kreisen und Symbolen. Deshalb ist es ei
 
 ### Altar
 
-Altar ist eine redaktionelle Spotify-Playlist und damit die Ausnahme vom Schwerpunkt auf namentlich erkennbaren menschlichen Kuratoren, kein Widerspruch dazu. Sie ist eines der klareren elektronischen Angebote der Plattform: aktuelle Clubmusik außerhalb der Mainstage-EDM-Spur, mit Platz für Alternative Pop und experimentelle Produktion. Nutze sie als Momentaufnahme, nicht als Archiv.
+Altar ist eine redaktionelle Spotify-Playlist, die einzige Ausnahme von der Regel der namentlich erkennbaren Kuratoren auf dieser Liste. Sie ist eines der klareren elektronischen Angebote der Plattform: aktuelle Clubmusik außerhalb der Mainstage-EDM-Spur, mit Platz für Alternative Pop und experimentelle Produktion. Nutze sie als Momentaufnahme, nicht als Archiv.
 
 ### Toolroom Tech House
 
-Die Playlist von Toolroom tut genau das, was eine labelgeführte Liste tun sollte. Sie bleibt nah an den Platten, die das Label versteht: funktionaler House, rollende Basslines und Tracks für einen vollen Raum. Dieser Fokus ist ihr Wert. Sie erklärt nicht die gesamte House Music, ist aber eine verlässliche wöchentliche Kontrolle eines aktiven Ausschnitts davon.
+Die Playlist von Toolroom tut genau das, was eine labelgeführte Liste tun sollte. Sie bleibt nah an den Platten, die das Label versteht: funktionaler House, rollende Basslines und Tracks für einen vollen Raum. Sie erklärt nicht die gesamte House Music, ist aber eine verlässliche wöchentliche Kontrolle eines aktiven Ausschnitts davon.
 
 ### Danny L Harle's HUGE PLAYLIST
 
@@ -74,7 +74,7 @@ UKF dokumentiert Drum and Bass seit 2009 online, lange genug, dass seine Playlis
 
 Beginne beim Kurator, nicht bei der Zahl der Follower. Eine Sender-Playlist ist nützlich, wenn du einen wechselnden Feed mit Neuerscheinungen willst. Eine Publikationsliste verbindet Songs mit Rezensionen. Eine Künstler-Playlist zeigt Einflüsse und Platten, die in DJ-Sets landen. Eine Label-Playlist ist enger, doch genau diese Enge ist der Punkt.
 
-Speichere eine Liste, die oft aktualisiert wird, und ein langes Archiv, das das nicht braucht. Die erste hält dich auf dem Laufenden, die zweite lässt dich an einer anderen Stelle als ganz oben einsteigen. Wenn du eine Stunde mit einer echten Dramaturgie statt einer Liste im Shuffle-Modus willst, geh zu den [Live-DJ-Sets](/live-dj-sets) oder lass [den Selector](/de/selector) ein vollständiges Set zufällig auswählen.
+Speichere eine Liste, die oft aktualisiert wird, und ein langes Archiv, das das nicht braucht. Die erste hält dich auf dem Laufenden, die zweite lässt dich an einer anderen Stelle als ganz oben einsteigen. Wenn du eine Stunde mit einer echten Dramaturgie statt einer Liste im Shuffle-Modus willst, geh zu den [Live-DJ-Sets](/live-dj-sets) oder lass [den Selector](/de/selector) ein Set zufällig auswählen.
 
 [Tabelle: Playlist-Vergleich]
 

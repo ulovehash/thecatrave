@@ -6,9 +6,9 @@ Bass Music ist ein Sammelbegriff für mehrere Formen elektronischer Tanzmusik un
 
 ## Einleitung
 
-Wer nach Bass Music sucht, bekommt Ergebnisse, die in mehrere Richtungen zugleich ziehen. Die eine Hörerin meint Dubstep. Ein anderer spricht über Jungle, UK Garage oder Grime. In Miami hat der Ausdruck eine Geschichte, die an Electro, Hip-Hop, Autos und die Roland TR-808 gebunden ist. Auf dem amerikanischen Festivalkreislauf kann er Trap, Riddim, Glitch-Hop und andere schwere elektronische Stile abdecken. Diese Uneinigkeit ist kein Problem, das man lösen müsste, bevor man die Musik genießen kann. Sie ist Teil der Geschichte.
+Wer nach Bass Music sucht, bekommt Ergebnisse, die in mehrere Richtungen zugleich ziehen. Die eine Hörerin meint Dubstep. Ein anderer spricht über Jungle, UK Garage oder Grime. In Miami hat der Ausdruck eine Geschichte, die an Electro, Hip-Hop, Autos und die Roland TR-808 gebunden ist. Auf dem amerikanischen Festivalkreislauf kann er Trap, Riddim, Glitch-Hop und andere schwere elektronische Stile abdecken. Diese Uneinigkeit ist Teil der Geschichte.
 
-Bass Music wurde gerade deshalb nützlich, weil DJs, Labels, Veranstalter und Hörer einen lockeren Namen für Platten brauchten, die immer wieder etablierte Grenzen überschritten. Diese Lockerheit macht den Begriff auch leicht zu missbrauchen. Der Weg hindurch ist nicht noch eine riesige Liste von Subgenres. Er besteht darin, den Szenen, Räumen und Systemen zu folgen, die dem Ausdruck unterschiedliche Bedeutungen gaben.
+Bass Music wurde gerade deshalb nützlich, weil DJs, Labels, Veranstalter und Hörer einen lockeren Namen für Platten brauchten, die immer wieder etablierte Grenzen überschritten. Diese Lockerheit macht den Begriff auch leicht zu missbrauchen. Der Weg hindurch besteht darin, den Szenen, Räumen und Systemen zu folgen, die dem Ausdruck unterschiedliche Bedeutungen gaben.
 
 Eine weltweite Geschichte kann deshalb nicht mit UK Bass beginnen und enden. Die jamaikanische Soundsystem- und Dub-Praxis, Electro und Hip-Hop in Miami, die britischen Rave-Linien, die Beat-Kultur von Los Angeles, Footwork aus Chicago und Gqom aus Durban bilden keinen ordentlichen Stammbaum. Es sind eigene Geschichten, die sich über Migration, Platten, Clubs, DJs, Radio, Tourneen und digitale Plattformen begegneten. Der Sammelbegriff taugt nur, wenn diese lokalen Namen darunter sichtbar bleiben.
 
@@ -24,7 +24,7 @@ Dub machte das Studio zu einem Teil dieser Darbietung. Toningenieure und Produze
 
 [Bild: King Tubby console]
 
-> **Worauf man hört:** Der Bass stützt das Arrangement nicht einfach. Er hält den leeren Raum zusammen, während Percussion, Melodica und Echo um ihn herum auftauchen.
+> **Worauf man hört:** Der Bass hält den leeren Raum zusammen, während Percussion, Melodica und Echo um ihn herum auftauchen.
 
 Die Bewegung jamaikanischer Musik und Soundsystem-Praxis nach Großbritannien veränderte Clubs, Gemeinschaftsräume und Popmusik. Das [Bass-Culture-Projekt von Goldsmiths](https://www.gold.ac.uk/cucr/research/bass-culture/) beschreibt diese Geschichte als Teil der Entstehung der britischen Stadtkultur nach dem Krieg, nicht bloß als Sammlung von Produktionstechniken, die spätere elektronische Künstler übernahmen. Reggae-Tanzveranstaltungen, Blues Parties, Selectors, MCs, Dubplates und unabhängiger Vertrieb boten zugleich eine musikalische Sprache und eine Art, sich außerhalb der etablierten Institutionen zu organisieren.
 
@@ -48,7 +48,7 @@ In Großbritannien bildete sich ein anderer Weg in die Tiefen, rund um Lagerhall
 
 [Embed: LFO Leeds Warehouse Mix]
 
-Keine dieser Platten brauchte den späteren Sammelnamen, um in ihrer eigenen Szene Sinn zu ergeben. Diese Unterscheidung ist wichtig. Bass Music kam nicht fertig in einer Stadt oder in einem Jahr an. Ihr späteres Vokabular wurde aus älteren, manchmal parallelen Kulturen zusammengesetzt, die ihre eigenen Namen und Prioritäten hatten.
+Keine dieser Platten brauchte den späteren Sammelnamen, um in ihrer eigenen Szene Sinn zu ergeben. Bass Music kam nicht fertig in einer Stadt oder in einem Jahr an. Ihr späteres Vokabular wurde aus älteren, manchmal parallelen Kulturen zusammengesetzt, die ihre eigenen Namen und Prioritäten hatten.
 
 [Embed: We Are I.E.]
 
@@ -60,9 +60,9 @@ Die Platten, die die Tür öffneten, werden hier ohne ihre Player genannt, weil 
 
 [Bild: Night Slugs]
 
-Die Sprache rund um Night Slugs fängt die Verschiebung ein. Die Party begann 2008 mit einem Auftrag, der als „heavy bass music and global gutter house“ beschrieben wurde. Im Januar 2010 nannte [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) sie ein Zentrum der Post-Garage-Bass-Music und verband den Londoner Produzenten Bok Bok mit Kingdom aus New York. Es ging nicht darum, dass beide Städte plötzlich dasselbe Genre entdeckt hätten. Austausch im Internet, Tourneen und gemeinsame Platten ließen lokale Clubsprachen schneller aufeinanderprallen.
+Die Sprache rund um Night Slugs fängt die Verschiebung ein. Die Party begann 2008 mit einem Auftrag, der als „heavy bass music and global gutter house“ beschrieben wurde. Im Januar 2010 nannte [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) sie ein Zentrum der Post-Garage-Bass-Music und verband den Londoner Produzenten Bok Bok mit Kingdom aus New York. Keine der beiden Städte hatte ein neues Genre entdeckt: Austausch im Internet, Tourneen und gemeinsame Platten ließen lokale Clubsprachen schneller aufeinanderprallen.
 
-Um 2010 und 2011 benutzten Händler und Publikationen über elektronische Musik den Ausdruck UK Bass Music für Veröffentlichungen, die aus Grime, Funky, House und Dubstep schöpften. 2011 konnte [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) Post-Dubstep, Future Garage und UK Bass Music nebeneinanderstellen und dabei zugeben, dass niemand genau wusste, wie man das Feld nennen sollte. Night Slugs, Hyperdub, Hessle Audio, Hotflush und Swamp81 standen im Zentrum, nicht weil sie sich auf einen Stil einigten, sondern weil jedes eine Struktur schuf, in der instabile Stile zirkulieren konnten.
+Um 2010 und 2011 benutzten Händler und Publikationen über elektronische Musik den Ausdruck UK Bass Music für Veröffentlichungen, die aus Grime, Funky, House und Dubstep schöpften. 2011 konnte [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) Post-Dubstep, Future Garage und UK Bass Music nebeneinanderstellen und dabei zugeben, dass niemand genau wusste, wie man das Feld nennen sollte. Night Slugs, Hyperdub, Hessle Audio, Hotflush und Swamp81 standen im Zentrum, weil jedes eine Struktur schuf, in der instabile Stile zirkulieren konnten, auch ohne dass sie sich auf einen Stil einigten.
 
 Es gibt keinen guten Beleg dafür, dass eine einzelne Person den Ausdruck erfunden hat. Er fiel durch Anhäufung auf: Beschreibungen in Plattenläden, Rezensionen, Clubankündigungen, Festivalkategorien und DJs, die Sets über mehrere Tempi hinweg beschreiben mussten. Bass Music funktionierte als praktischer Ordner. UK Bass entwickelte außerdem eine engere Bedeutung für Clubplatten nach dem Dubstep, die Elemente von Garage, Grime, Funky, House, Techno und Juke verbanden.
 
@@ -116,8 +116,6 @@ Footwork aus Chicago kam aus House, Ghetto House, Tanzcrews und Battles. Die Pro
 
 Gqom entstand in Durban aus lokalen House-Traditionen, Partys in den Townships, der Taxikultur und informellem digitalem Vertrieb. Internationale Labels und Kooperationen mit britischen Clubs stellten ihn später neben basslastige Musik. [Das Gespräch von Resident Advisor mit DJ Lag und Nan Kolè](https://ra.co/exchange/336) macht die lokale Infrastruktur deutlich: MP3-Seiten, Facebook-Gruppen, WhatsApp und die Wiedergabe in Taxis standen im Zentrum des Wachstums dieses Sounds.
 
-Zusammen zeigen Footwork und Gqom, wie basslastige Clubnetzwerke Rhythmen austauschen, ohne eigenständige lokale Szenen zu Nebenfiguren in einer universellen Geschichte zu machen.
-
 [Bild: gqom Distruction Boyz]
 
 ## Arten von Bass Music: eine Hörkarte, Szene für Szene
@@ -128,7 +126,7 @@ Es gibt keine endgültige Liste der Genres der Bass Music. Die Kategorie wird gr
 
 ### Dub und die Soundsystem-Linie
 
-Dieser Weg beginnt mit jamaikanischen Soundsystems, Versionskultur und Dub und führt dann durch britischen Reggae, Jungle, Grime und Dubstep. Das gemeinsame Prinzip ist kein einzelner Rhythmus. Es ist der Umgang mit aufgenommener Musik als Material, das man neu versionieren, mit Stimme versehen, exklusiv schneiden und auf einem System testen kann.
+Dieser Weg beginnt mit jamaikanischen Soundsystems, Versionskultur und Dub und führt dann durch britischen Reggae, Jungle, Grime und Dubstep. Gemeinsam ist diesen Szenen ein Umgang mit aufgenommener Musik: als Material, das man neu versionieren, mit Stimme versehen, exklusiv schneiden und auf einem System testen kann.
 
 > **Einstieg:** King Tubby, Scientist, Jah Shaka, Adrian Sherwood, Digital Mystikz und Kode9.
 
@@ -172,7 +170,7 @@ Eine Genreliste kann nicht erklären, warum dieselbe Platte in einer Szene Sinn 
 
 Ein Soundsystem macht die Tiefen zu einer öffentlichen Erfahrung. Der Raum, die Lautsprecherbauweise, die Lautstärkegrenzen und das Publikum beeinflussen alle, was Produzenten in einem Mix lassen. Das Outlook Festival baute seine Identität um eigens gebaute Systeme und ein Programm, das Dub, Jungle, Drum and Bass, Garage, Grime und Dubstep verband. Der Forscher Ivan Mouraviev beschreibt es als Zusammenlaufen von Technologien, Praktiken und Werten, nicht nur als Sammlung basslastiger Acts. Seine Feldforschung zeigt auch den Konflikt: Strenge Lautstärkegrenzen können genau die Erfahrung schwächen, die die Veranstaltung verspricht.
 
-Dubplates machten den Umlauf zum Wettbewerb. Ein DJ konnte unfertige Musik testen, ein Publikum mit einer Version belohnen, die es sonst nirgends gab, und andere Produzenten zu einer Antwort zwingen. Piratenradio machte lokale Szenen über einen einzelnen Club hinaus hörbar und bewahrte dabei die Stimmen von DJs und MCs. Für UK Bass im Besonderen waren das Rinse FM und Sub.FM, und außerhalb der Clubs wurde die Musik vor allem dort beworben und gespielt. Wer die Clubs nennt und die Sender nicht, beschreibt eine Szene so, als lebten alle eine Busfahrt davon entfernt. Plattenläden verbanden Hörer, Produzenten und Labels. Nächte wie FWD>>, DMZ, Low End Theory, Niche und Night Slugs waren keine neutralen Behälter. Ihre Buchungen, ihr Raum und ihr Publikum halfen, die Musik zu bestimmen, die mit ihnen verbunden wurde.
+Dubplates machten den Umlauf zum Wettbewerb. Ein DJ konnte unfertige Musik testen, ein Publikum mit einer Version belohnen, die es sonst nirgends gab, und andere Produzenten zu einer Antwort zwingen. Piratenradio machte lokale Szenen über einen einzelnen Club hinaus hörbar und bewahrte dabei die Stimmen von DJs und MCs. Für UK Bass im Besonderen waren das Rinse FM und Sub.FM, und außerhalb der Clubs wurde die Musik vor allem dort beworben und gespielt. Wer die Clubs nennt und die Sender nicht, beschreibt eine Szene so, als lebten alle eine Busfahrt davon entfernt. Plattenläden verbanden Hörer, Produzenten und Labels. In Nächten wie FWD>>, DMZ, Low End Theory, Niche und Night Slugs halfen Buchungen, Raum und Publikum, die Musik zu bestimmen, die mit ihnen verbunden wurde.
 
 Digitale Plattformen veränderten Tempo und Geografie dieses Prozesses. YouTube-Kanäle halfen, Dubstep und Drum and Bass zu Hörern ohne Zugang zu den Clubs vor Ort zu bringen. SoundCloud ließ Mixe, Edits und unfertige Tracks international wandern. WhatsApp und MP3-Netzwerke spielten in der Gqom-Szene von Durban eine andere Rolle. Streamingdienste machten Genrekategorien sichtbarer und reduzierten dabei den regionalen Zusammenhang oft auf Playlist-Metadaten.
 

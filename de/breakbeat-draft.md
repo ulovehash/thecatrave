@@ -18,7 +18,7 @@ Das Musikgenre Breakbeat, oft einfach Breakbeat-Genre genannt, ist weniger ein f
 
 Den Unterschied hört man meist, bevor man ihn benennen kann. Ein gerader House- oder Techno-Groove setzt die Kick an regelmäßige Stellen im Takt; ein Breakbeat-Muster lässt Kick, Snare und leisere Akzente einander ungleichmäßig antworten und erzeugt so ein Ziehen und Schieben statt eines stetigen Marsches. Diese hörbare Bewegung ist das gemeinsame Prinzip, nicht ein vorgeschriebenes BPM oder Drum-Muster.
 
-Dieser Artikel folgt dem Genre und den Kulturen darum herum, statt das Programmieren von Drums zu lehren. Wer einen interaktiven Begleiter zum Hören sucht, kann [Optimal Breaks](https://www.optimalbreaks.com/en) erkunden, dessen Künstler- und Geschichtsseiten es erlauben, zwischen Stilen zu wechseln und beim Stöbern typische Musik zu hören. Für diesen Guide ist die wichtige Unterscheidung einfach: Ein Drumbreak ist Ausgangsmaterial, während Breakbeat sowohl eine Art wurde, dieses Material zu benutzen, als auch der Name mehrerer verbundener Clubtraditionen.
+Wer einen interaktiven Begleiter zum Hören sucht, kann [Optimal Breaks](https://www.optimalbreaks.com/en) erkunden, dessen Künstler- und Geschichtsseiten es erlauben, zwischen Stilen zu wechseln und beim Stöbern typische Musik zu hören. Für diesen Guide ist die wichtige Unterscheidung einfach: Ein Drumbreak ist Ausgangsmaterial, während Breakbeat sowohl eine Art wurde, dieses Material zu benutzen, als auch der Name mehrerer verbundener Clubtraditionen.
 
 Die [Geschichte der britischen elektronischen Musik](/uk-electronic-music-evolution) (auf Englisch) auf dieser Seite stellt diese Traditionen neben die anderen Szenen, die sich um sie herum entwickelten.
 
@@ -34,13 +34,13 @@ Diese Platten sind keine frühen Breakbeat-Tracks im heutigen Sinn des Genres. S
 
 Clyde Stubblefields Spiel auf „Funky Drummer“ bot eine andere Art von Bewegung, voller kleiner Akzente und menschlichen Timings. „Think (About It)“ lieferte das berühmte „Woo! Yeah!“ und einen Drumbreak, der sich in unzählige Varianten schneiden ließ. „Apache“ verband percussionlastigen Funk mit den Routinen der frühen B-Boys und DJs.
 
-Der bleibende Punkt ist nicht, dass vier Platten alles erfanden, was folgte. Sondern dass aufgenommene Schlagzeuger zu einem inoffiziellen Vokabular wurden. Produzenten konnten dieses Vokabular zitieren, neu ordnen und eine einzige Darbietung in mehreren musikalischen Sprachen sprechen lassen.
+Zusammen machten diese Platten aufgenommene Schlagzeuger zu einem inoffiziellen Vokabular. Produzenten konnten dieses Vokabular zitieren, neu ordnen und eine einzige Darbietung in mehreren musikalischen Sprachen sprechen lassen.
 
 [Embed: breaks-before-genre]
 
 ### Hip-Hop-DJs machen den Break zur Methode
 
-Kool Herc verlängerte den Break mit zwei Exemplaren derselben Platte für die Tanzenden, und Afrika Bambaataa und Grand Wizard Theodore griffen den Ansatz auf und schärften ihn. Grandmaster Flash gilt als Urheber der Methode, die ihn wiederholbar machte und die er Quick-Mix-Theorie nannte: Er markierte Anfang und Ende des Breaks mit Wachsmalstift auf der Platte, damit er ihn durch Drehen der Scheibe wiederfinden konnte, ohne den Tonarm anzufassen. Das war mehr, als einen Lieblingsteil zweimal zu spielen. Es machte das Abspielgerät zum Instrument und die Struktur einer bestehenden Platte zum Material für eine neue Darbietung.
+Kool Herc verlängerte den Break mit zwei Exemplaren derselben Platte für die Tanzenden, und Afrika Bambaataa und Grand Wizard Theodore griffen den Ansatz auf und schärften ihn. Grandmaster Flash gilt als Urheber der Methode, die ihn wiederholbar machte und die er Quick-Mix-Theorie nannte: Er markierte Anfang und Ende des Breaks mit Wachsmalstift auf der Platte, damit er ihn durch Drehen der Scheibe wiederfinden konnte, ohne den Tonarm anzufassen. Es machte das Abspielgerät zum Instrument und die Struktur einer bestehenden Platte zum Material für eine neue Darbietung.
 
 [Bild: hip-hop-pioneers]
 
@@ -84,7 +84,7 @@ Es gab keine einzige Clublinie, die nur darauf wartete, in die Welt exportiert z
 
 Die britische Rave-Explosion begann nicht als reine Breakbeat-Szene. Acid House, Detroit Techno, belgischer New Beat, Hip-House, Electro und britischer Hip-Hop liefen alle durch dieselben Clubs, Lagerhallen und Plattensammlungen. Produzenten bedienten sich frei. Mit steigendem Tempo begannen gesampelte Breaks durch Piano-Riffs, Hoover-Sounds, Stabs, Subbass und über ihre natürliche Lage hinaus gepitchte Stimmen zu schneiden.
 
-Shut Up and Dance waren entscheidend, weil ihre Musik die britische Hip-Hop-Produktion mit dem Rave verband, bevor diese Geschichten routinemäßig als eine erzählt wurden. „DJs Take Control“ und „On a Ragga Tip“ von SL2 setzten Breaks, Bass und gesampelte Stimmen in Platten, die von den Raves in die Charts wechselten. „Bombscare“ von 2 Bad Mice wurde zum Vorbild für den dunklen, weiträumigen Druck des Breakbeat Hardcore.
+Shut Up and Dance gehören hierher, weil ihre Musik die britische Hip-Hop-Produktion mit dem Rave verband, bevor diese Geschichten routinemäßig als eine erzählt wurden. „DJs Take Control“ und „On a Ragga Tip“ von SL2 setzten Breaks, Bass und gesampelte Stimmen in Platten, die von den Raves in die Charts wechselten. „Bombscare“ von 2 Bad Mice wurde zum Vorbild für den dunklen, weiträumigen Druck des Breakbeat Hardcore.
 
 [Bild: prodigy]
 
@@ -108,7 +108,7 @@ Diese gemeinsame Geschichte ist der Grund, warum Jungle und Drum and Bass in ein
 
 Die Breakbeat-Kultur wurde von mehr als Drum-Mustern zusammengehalten. Piratensender gaben DJs einen Ort, um unfertige Platten zu testen, und gaben Hörern Zugang zu Musik, die das lizenzierte Radio ignorierte. Plattenläden waren Treffpunkte und informelle Ordnungssysteme. Dubplates ließen Produzenten einen Track auf einer Anlage hören, bevor sie sich auf eine Veröffentlichung festlegten. Tape Packs trugen Sets über den Rave hinaus.
 
-Breakbeat-DJing beruhte auf Rewinds, Double-Drops, schnellem Mixen und manuellem Loopen. Das waren keine Tricks, die über der Szene schwebten; es waren die Wege, auf denen Platten getestet, erinnert und weitergegeben wurden. Dieser Kreislauf zog später in Foren, Tauschbörsen und spezialisierte Blogs um, erfüllte aber einen vertrauten Zweck: Musik in Bewegung zu halten, bevor größere Plattformen wussten, wie sie sie nennen sollten.
+Breakbeat-DJing beruhte auf Rewinds, Double-Drops, schnellem Mixen und manuellem Loopen. Auf diesen Wegen wurden Platten getestet, erinnert und weitergegeben. Dieser Kreislauf zog später in Foren, Tauschbörsen und spezialisierte Blogs um, erfüllte aber einen vertrauten Zweck: Musik in Bewegung zu halten, bevor größere Plattformen wussten, wie sie sie nennen sollten.
 
 ### Florida Breaks baut einen amerikanischen Regionalsound
 
@@ -118,7 +118,7 @@ Die Geschichte war größer als ein einzelner Künstler. Kimball Collins, Dave C
 
 [Bild: dj-icey]
 
-Iceys Weg zeigt, wie diese lokale Kultur zu einem Netz aus Produktion und Label wurde. Seine [offizielle Biografie](https://www.djicey.com/bio) führt seine Einflüsse über Freestyle-Dub-Mixe, Miami Bass, frühen britischen Breakbeat, Hip-Hop und House, gefolgt von einer Residency im Edge und der Gründung von Zone Records 1993. Diese Details zählen, weil Florida Breaks nicht nur ein Sound war. Clubs, Läden, Labels und ein regionales Publikum gaben ihm einen Namen und einen Ort, sich zu entwickeln.
+Iceys Weg zeigt, wie diese lokale Kultur zu einem Netz aus Produktion und Label wurde. Seine [offizielle Biografie](https://www.djicey.com/bio) führt seine Einflüsse über Freestyle-Dub-Mixe, Miami Bass, frühen britischen Breakbeat, Hip-Hop und House, gefolgt von einer Residency im Edge und der Gründung von Zone Records 1993. Clubs, Läden, Labels und ein regionales Publikum gaben Florida Breaks einen Namen und einen Ort, sich zu entwickeln.
 
 Florida macht jede Geschichte komplizierter, in der Breakbeat in nur einer Richtung von New York nach Großbritannien und dann hinaus reist. Dieselbe rhythmische Sprache wurde über andere Basskulturen, Plattensammlungen und Tanzflächen neu geordnet. Eine Produktion aus Florida neben einem britischen Nu-Skool-Track zu hören, macht diesen Unterschied klarer als eine weitere Liste von Genre-Adjektiven.
 
@@ -128,7 +128,7 @@ Florida macht jede Geschichte komplizierter, in der Breakbeat in nur einer Richt
 
 Florida war die am klarsten benannte amerikanische Breaks-Szene, aber nicht der einzige Ort, an dem gebrochene Clubplatten Wurzeln schlugen. In den 1990ern wechselten DJs an der Westküste zwischen Electro, Hip-Hop, House, Acid und britischen Importen, ohne diese Kategorien immer als getrennte Räume zu behandeln. Labels, Plattenläden und Raves rund um San Francisco und Los Angeles halfen, „West Coast Breaks“ als nützlichen, wenn auch lockeren Begriff für DJs und Plattenfächer zu etablieren.
 
-Die Geschichte des Hardkiss-Kollektivs im San Francisco der frühen 1990er zeigt, wie durchlässig dieses Umfeld war. Ihre Partys und Platten wurden meist über House, Techno, Psychedelia und die breitere Rave-Kultur besprochen statt über eine strenge Breaks-Formel. Andere mit der Westküste verbundene Produzenten und DJs, darunter Bassbin Twins, Überzone und Simply Jeff, drängten stärker zu Electro, Funk und basslastigen Breakbeats. Es geht nicht darum, ein einheitliches West-Coast-Genre zu erfinden. Sondern darum, einen amerikanischen Weg zu erkennen, der außerhalb der Identität Orlandos und der britischen Hardcore-Linie lag.
+Die Geschichte des Hardkiss-Kollektivs im San Francisco der frühen 1990er zeigt, wie durchlässig dieses Umfeld war. Ihre Partys und Platten wurden meist über House, Techno, Psychedelia und die breitere Rave-Kultur besprochen statt über eine strenge Breaks-Formel. Andere mit der Westküste verbundene Produzenten und DJs, darunter Bassbin Twins, Überzone und Simply Jeff, drängten stärker zu Electro, Funk und basslastigen Breakbeats. Zusammen bilden sie einen amerikanischen Weg außerhalb der Identität Orlandos und der britischen Hardcore-Linie, ohne ein einheitliches West-Coast-Genre zu ergeben.
 
 Acid Breaks und Progressive Breaks waren ebenfalls sich überschneidende Kategorien statt abgeschlossener Bewegungen. Acid Breaks legte den resonanten, gleitenden Bass der Roland TB-303 über synkopierte Drums; Progressive Breaks dehnte die Form zu längeren Steigerungen, atmosphärischen Passagen und allmählicher Spannung. Platten konnten je nach Laden und DJ auch als Funky Breaks, Chemical Beats, Progressive House oder einfach Breaks verkauft werden. [MusicRadars Genre-Guide](https://www.musicradar.com/news/the-beginners-guide-to-breaks) fängt diese Unbeständigkeit ein, indem er 303-lastige Acid Breaks, von Electro durchzogene Florida Breaks und andere Stile beschreibt, die sich mit Zusätzen um den breiteren Begriff bildeten.
 
@@ -140,15 +140,15 @@ Eine der wichtigsten regionalen Geschichten des Breakbeat spielte sich in Südsp
 
 [Bild: cordoba]
 
-Das war keine bloße spanische Fußnote zu einem britischen Genre. Lokale DJs und Produzenten bauten ihre eigene Sprache aus Nu-Skool, Progressive, Acid und härteren Breaks, während das Publikum der Musik eine Intensität und Langlebigkeit gab, die sie nicht überall hatte. David Parejas Dokumentarfilm *Break Nation* von 2023 nennt die Zeit eine kollektive Entwicklung ohne Entsprechung anderswo in Südeuropa; die [Inhaltsangabe der Filmoteca de Andalucía](https://www.filmotecadeandalucia.es/documents/282361/334099154/CO%2B-%2B2024-07-18-%2B%2820%2730%29%2B-%2BBreak%2BNation.pdf/33f0b15d-ce37-49fa-b1cd-129d026bfc97) datiert ihren zentralen Bogen von 1992 bis 2002.
+Lokale DJs und Produzenten bauten ihre eigene Sprache aus Nu-Skool, Progressive, Acid und härteren Breaks, während das Publikum der Musik eine Intensität und Langlebigkeit gab, die sie nicht überall hatte. David Parejas Dokumentarfilm *Break Nation* von 2023 nennt die Zeit eine kollektive Entwicklung ohne Entsprechung anderswo in Südeuropa; die [Inhaltsangabe der Filmoteca de Andalucía](https://www.filmotecadeandalucia.es/documents/282361/334099154/CO%2B-%2B2024-07-18-%2B%2820%2730%29%2B-%2BBreak%2BNation.pdf/33f0b15d-ce37-49fa-b1cd-129d026bfc97) datiert ihren zentralen Bogen von 1992 bis 2002.
 
 [Bild: andalusia]
 
-Nach diesem Höhepunkt schrumpfte die Szene, aber ihre Erinnerung verschwand nicht. Breakbeat bleibt in Andalusien ungewöhnlich eng mit regionaler Identität verbunden, getragen von Wiedersehensveranstaltungen, DJs, Archiven und jüngeren Produzenten. Diese Kontinuität zählt, weil sie zeigt, dass Genregeschichte nicht nur an der britischen Presse oder an internationalem Charterfolg gemessen wird.
+Nach diesem Höhepunkt schrumpfte die Szene, aber ihre Erinnerung verschwand nicht. Breakbeat bleibt in Andalusien ungewöhnlich eng mit regionaler Identität verbunden, getragen von Wiedersehensveranstaltungen, DJs, Archiven und jüngeren Produzenten.
 
 ### Big Beat macht breakgetriebene Clubmusik sichtbar
 
-Big Beat war nicht einfach verlangsamter Jungle oder die direkte Fortsetzung jeder Hardcore-Idee. Er war eine parallele Antwort der 1990er darauf, was breakgetriebene Tanzmusik werden konnte, und bediente sich offen bei Hip-Hop-Loops, Acid, Rock, Funk und einer Produktion im Festivalmaßstab.
+Big Beat war eine parallele Antwort der 1990er darauf, was breakgetriebene Tanzmusik werden konnte, und bediente sich offen bei Hip-Hop-Loops, Acid, Rock, Funk und einer Produktion im Festivalmaßstab.
 
 Den Big Beat schreibt man meist allein den Chemical Brothers zu, und diese Version erzählt jeder konkurrierende Guide; die vollständigere nennt neben ihnen James Lavelles Mo’Wax, ein Label statt eines Duos, und das einzige Label, das irgendeine Quelle als Urheber dieses Zweigs nennt. Die Chemical Brothers ließen Breaks riesig klingen, ohne ihre psychedelischen und clubbigen Wurzeln zu verstecken. Fatboy Slim machte aus Sample-Collage eine Pop-Architektur. Propellerheads und Bentley Rhythm Ace näherten sich der Idee aus anderen Richtungen, während die Crossover-Platten, die The Prodigy später machten, Publikum und Pressesprache mit dem Big Beat teilten, ohne sauber hineinzupassen.
 
@@ -164,7 +164,7 @@ Ende der 1990er und Anfang der 2000er meinte „Breaks“ oft einen klarer umris
 
 Das war Musik für eigene Nächte, Labels, Abteilungen in Plattenläden und Preise. Finger Lickin’ Records wurde eng mit dem funkigeren Ende des Sounds verbunden. Marine Parade, TCR und Botchit & Scarper halfen, andere Varianten zu etablieren. Die Kategorie war nie einheitlich, aber sie war spezifischer als die breite historische Bedeutung von Breakbeat.
 
-Dass sie später an Sichtbarkeit im Mainstream verlor, sollte man nicht in eine einfache Geschichte von Tod und Wiedergeburt verwandeln. Szenen schrumpften, Labels veränderten sich und andere Clubsounds wurden dominant, aber Breaks lebten in lokalen Gemeinschaften, bei Produzenten und DJs weiter. Der Rhythmus reiste außerdem unter anderen Namen weiter.
+Szenen schrumpften, Labels veränderten sich und andere Clubsounds wurden dominant, aber Breaks lebten in lokalen Gemeinschaften, bei Produzenten und DJs weiter. Der Rhythmus reiste außerdem unter anderen Namen weiter.
 
 [Embed: nu-skool-group]
 
@@ -174,7 +174,7 @@ Die Breaks-Szene der frühen 2000er hatte die Infrastruktur eines reifen Genres:
 
 Kein einzelnes Ereignis tötete das Genre. Einige seiner erkennbarsten Produktionsgewohnheiten waren an eine bestimmte Zeit gebunden; unabhängige Labels bekamen den allgemeinen Zusammenbruch der Vinyl-Ökonomie zu spüren; und Produzenten, die einst gemeinsam unter „Breaks“ standen, erschienen zunehmend unter Electro, Bass Music, Techno, Garage oder Dubstep. Auch die Werkzeuge hatten sich verändert. Als detailliertes Bearbeiten in DAWs zum Standard wurde, zeigten gebrochene Drums die Zugehörigkeit zu einer Spezialszene nicht mehr so deutlich an wie früher.
 
-Das Ergebnis war ein Verlust an Kraft der Kategorie, nicht das Verschwinden der Musik. Florida und Andalusien bewahrten eine starke lokale Erinnerung. Etablierte Künstler tourten weiter. Neue Platten erschienen weiter, aber „Breakbeat“ war seltener das einzige Banner, unter dem sich jeder verwandte Künstler, Veranstalter und Hörer versammelte. Diese Unterscheidung erklärt, wie ein Genre das Zentrum des Mainstreams verlassen kann, während sich seine Methoden fast überallhin verbreiten.
+Das Ergebnis war ein Verlust an Kraft der Kategorie, nicht das Verschwinden der Musik. Florida und Andalusien bewahrten eine starke lokale Erinnerung. Etablierte Künstler tourten weiter. Neue Platten erschienen weiter, aber „Breakbeat“ war seltener das einzige Banner, unter dem sich jeder verwandte Künstler, Veranstalter und Hörer versammelte.
 
 ## Breakbeat-Stile: Hardcore, Florida, Big Beat, Nu-Skool und mehr
 
@@ -236,7 +236,7 @@ Den schnelleren britischen Zweig im Ganzen erklärt der [Drum-and-Bass-Guide](/d
 
 Gebrochene Drums sind in der elektronischen Musik wieder sichtbarer geworden, aber keine einzelne Organisation, Stadt oder kein einzelner Sound besitzt diese Rückkehr. Manche Produzenten bezeichnen ihre Tracks als Breaks. Andere arbeiten über Electro, UK Bass, Techno, Garage, Jungle oder Rave und wählen einfach einen gebrochenen Puls, wenn der Track einen braucht.
 
-Diese Unterscheidung zählt. Jede synkopierte Clubplatte „das Breakbeat-Revival“ zu nennen, lässt die Gegenwart ordentlicher aussehen, als sie ist. Bicep, Overmono und Special Request können alle in einem Gespräch über Breaks vorkommen, aber sie kamen über verschiedene Geschichten und machen nicht dasselbe Genre.
+Jede synkopierte Clubplatte „das Breakbeat-Revival“ zu nennen, lässt die Gegenwart ordentlicher aussehen, als sie ist. Bicep, Overmono und Special Request können alle in einem Gespräch über Breaks vorkommen, aber sie kamen über verschiedene Geschichten und machen nicht dasselbe Genre.
 
 Heutige Techno-DJs mischen zunehmend gerade und gebrochene Platten in einem Set. Garage-Produzenten dehnen den Swing zu schwererer Bass Music. Electro bietet weiterhin eine Alternative zur Four-on-the-Floor-Struktur des Clubs. Jüngere Rave-Produzenten verwenden Erkennungszeichen des Hardcore wieder, arbeiten aber mit modernem Tiefenregister und viel saubererer Bearbeitung.
 
@@ -248,7 +248,7 @@ Die Gegenwart ist auch geografisch breiter, als die sichtbarste britische Erzäh
 
 Breakbeat überlebt auch deshalb, weil er keine Treue zu einer einzigen Szene verlangt. Ein Produzent kann für einen Track zerhackte Drums benutzen und beim nächsten zur geraden Kick zurückkehren. Ein DJ kann eine Breakbeat-Platte nutzen, um die körperliche Bewegung eines Sets zu verändern, ohne die ganze musikalische Richtung zu wechseln.
 
-Diese Flexibilität überzeugt mehr als die Rede von einem einzigen universellen Revival. Breakbeat taucht immer wieder auf, weil er verändert, wie sich ein Raum bewegt: Er kann ein starres Techno-Set lockern, Garage und Electro verbinden oder an die Rave-Geschichte erinnern, ohne eine alte Platte einfach nachzubauen. Die Kontinuität ist nicht eine Szene, die unversehrt zurückkehrt. Sie ist eine rhythmische Idee, die neue Szenen findet, in denen sie arbeiten kann.
+Breakbeat taucht immer wieder auf, weil er verändert, wie sich ein Raum bewegt: Er kann ein starres Techno-Set lockern, Garage und Electro verbinden oder an die Rave-Geschichte erinnern, ohne eine alte Platte einfach nachzubauen. Was weitergeht, ist eine rhythmische Idee, die neue Szenen findet, in denen sie arbeiten kann.
 
 [Embed: contemporary-mix]
 

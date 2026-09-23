@@ -84,8 +84,6 @@ Mixmag filmte 2018 Techno bei Untold. Das Set von Pan-Pot ist eines von nur zwei
 
 [Embed: Pan-Pot, Untold 2018, YouTube-Kanal von Mixmag, rk3SYpd5HSc]
 
-Das ist die Form dieses Festivals: EDM und Pop auf einer Stadionbühne, und Techno, Trance und House in den Räumen darum herum.
-
 ## Untold von zu Hause hören
 
 Der eigene Kanal des Festivals besteht überwiegend aus Aftermovies und Ankündigungen. Die Live-Sets von Untold, die sich lohnen, liegen auf den Kanälen der Künstler, und nur zwei der DJ-Sets hinter [dem Selector](/de/selector) stammen von Untold, beide Techno-Filme von Mixmag aus 2018. Die Player hier kommen deshalb von den Künstlern.

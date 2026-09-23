@@ -104,7 +104,7 @@ Auch die Musik ist Teil des Streits. Große DJ-Namen, gefilmte Sets und Camps mi
 
 Die Geschichte der Musik bei Burning Man ist eine Geschichte des Weggeschicktwerdens an den Rand: anderthalb Kilometer hinaus 1992, auf die Avenues 2:00 und 10:00 heute, in die Deep Playa nach Einbruch der Dunkelheit. Was dort wuchs, ist Musik für die lange Strecke von der Mitte der Nacht bis zum Sonnenaufgang, Camp für Camp programmiert statt über ein öffentliches Festivalprogramm.
 
-Das meiste davon gibt es danach nur zur Hälfte. Manche Camps und DJs filmen ihre Sets und laden sie hoch, wie Robot Heart und Mayan Warrior, und der Rest existiert nur für die, die dort standen. Lee Burridge hat seinen ganzen Sonnenaufgang vom Samstag 2025 bei Robot Heart online gestellt, drei Stunden lang, und näher kommt eine Aufnahme an diese Woche nicht heran.
+Das meiste davon gibt es danach nur zur Hälfte. Manche Camps und DJs filmen ihre Sets und laden sie hoch, wie Robot Heart und Mayan Warrior, und der Rest existiert nur für die, die dort standen. Lee Burridge hat seinen Sonnenaufgang vom Samstag 2025 bei Robot Heart online gestellt, und näher kommt eine Aufnahme an diese Woche nicht heran.
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, Lee Burridge's own YouTube channel, S7OBT3kQAHQ]
 

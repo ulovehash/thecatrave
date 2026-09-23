@@ -75,7 +75,7 @@ const copy = {
   },
   popCulture: {
     label: 'BREAKBEAT JENSEITS DES CLUBS:',
-    html: 'Spiele und Filme trugen breakgetriebene elektronische Musik weit über die Spezialläden hinaus. <em>Wipeout 2097</em> setzte die Chemical Brothers, The Prodigy und Future Sound of London in eine futuristische Rennwelt; <em>SSX Tricky</em> machte Big Beat, Hip-Hop und Breaks zu einem Teil der körperlichen Aufregung des Spielens; und der Soundtrack von <em>Matrix</em> ließ mit Künstlern wie The Prodigy und Propellerheads gebrochene Drums untrennbar von Tempo und Spannung klingen. Diese Soundtracks definierten Breakbeat nicht, aber sie brachten seine Energie zu Hörern, die nie einen Rave betreten hatten.'
+    html: 'Spiele und Filme trugen breakgetriebene elektronische Musik weit über die Spezialläden hinaus. <em>Wipeout 2097</em> setzte die Chemical Brothers, The Prodigy und Future Sound of London in eine futuristische Rennwelt; <em>SSX Tricky</em> machte Big Beat, Hip-Hop und Breaks zu einem Teil der körperlichen Aufregung des Spielens; und der Soundtrack von <em>Matrix</em> ließ mit Künstlern wie The Prodigy und Propellerheads gebrochene Drums untrennbar von Tempo und Spannung klingen. Diese Soundtracks brachten die Energie des Breakbeat zu Hörern, die nie auf einem Rave gewesen waren.'
   },
   map: {
     title: 'Karte der Breakbeat-Geschichte',
