@@ -86,7 +86,7 @@ Techno hat seine eigenen Arenen. Carl Cox war seit 2007 immer wieder Headliner, 
 
 [Embed: thecatrave berlin-race-1909]
 
-Drum and Bass ist der Teil, der dieser Seite am meisten bedeutet, und Creamfields bucht ihn schon länger, als seine Plakate vermuten lassen. Sub Focus sollte am überfluteten Sonntag 2012 spielen. Chase & Status gehörten 2016 zu den Headlinern, und Pendulum standen auf dem Programm für 2020, bevor die Pandemie es absagte. 2025 waren Chase & Status, die im Jungle anfingen, bevor sie zum Drum and Bass kamen, zum ersten Mal Headliner der Arc Stage am Freitag, mit Sub Focus und Andy C, dem Gründer von RAM Records, ebenfalls auf dem Programm. Das Programm 2026 hatte wieder Andy C, dazu Shy FX, Hybrid Minds und Hedex.
+Creamfields bucht Drum and Bass schon länger, als seine Plakate vermuten lassen. Sub Focus sollte am überfluteten Sonntag 2012 spielen. Chase & Status gehörten 2016 zu den Headlinern, und Pendulum standen auf dem Programm für 2020, bevor die Pandemie es absagte. 2025 waren Chase & Status, die im Jungle anfingen, bevor sie zum Drum and Bass kamen, zum ersten Mal Headliner der Arc Stage am Freitag, mit Sub Focus und Andy C, dem Gründer von RAM Records, ebenfalls auf dem Programm. Das Programm 2026 hatte wieder Andy C, dazu Shy FX, Hybrid Minds und Hedex.
 
 Der eigene Film des Festivals aus seiner After Series 2019 zeigt zwei Minuten dieses Publikums, das Zelt für Bass und Drum and Bass bis an den Rand gefüllt.
 

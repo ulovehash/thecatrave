@@ -86,7 +86,7 @@ La techno a ses propres arènes. Carl Cox a été tête d’affiche à maintes r
 
 [Embed: thecatrave degeneration]
 
-La drum and bass est la partie qui compte le plus pour ce site, et Creamfields la programme depuis plus longtemps que ses affiches ne le laissent penser. Sub Focus devait jouer le dimanche inondé de 2012. Chase & Status faisaient partie des têtes d’affiche de 2016, et Pendulum était à l’affiche de 2020 avant que la pandémie ne l’annule. En 2025, Chase & Status, qui ont commencé dans la jungle avant de passer à la drum and bass, ont été têtes d’affiche de l’Arc Stage le vendredi pour la première fois, avec Sub Focus et Andy C, le fondateur de RAM Records, également à l’affiche. La programmation 2026 comptait de nouveau Andy C, avec Shy FX, Hybrid Minds et Hedex.
+Creamfields programme la drum and bass depuis plus longtemps que ses affiches ne le laissent penser. Sub Focus devait jouer le dimanche inondé de 2012. Chase & Status faisaient partie des têtes d’affiche de 2016, et Pendulum était à l’affiche de 2020 avant que la pandémie ne l’annule. En 2025, Chase & Status, qui ont commencé dans la jungle avant de passer à la drum and bass, ont été têtes d’affiche de l’Arc Stage le vendredi pour la première fois, avec Sub Focus et Andy C, le fondateur de RAM Records, également à l’affiche. La programmation 2026 comptait de nouveau Andy C, avec Shy FX, Hybrid Minds et Hedex.
 
 Le film du festival tiré de son After Series 2019 montre deux minutes de ce public, la tente bass et drum and bass pleine à craquer.
 

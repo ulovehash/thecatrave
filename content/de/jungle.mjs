@@ -87,7 +87,7 @@ const copy = {
         ['Krust', 'Experimenteller Produzent und Teil der Crew von Reprazent'],
         ['Andy C', 'Chef von RAM Records, produzierte „Valley of the Shadows“ mit 16'],
         ['M-Beat', 'Produzierte „Incredible“ mit General Levy, einen riesigen Jungle-Hit'],
-        ['Leviticus (Ray Keith)', 'Schöpfer von „Burial“, Gründer von Dread Recordings'],
+        ['Leviticus (Jumpin Jack Frost)', 'Schöpfer von „Burial“, Mitgründer von V Recordings'],
         ['Adam F', 'Bekannt für „Circles“, einen melodischen, souligen Jungle-Klassiker'],
         ['Deep Blue', 'Machte den Rave-Standard mit Hubschrauber-Sample, „Helicopter Tune“'],
         ['Marcus Intalex', 'Führte Jungle in einen tiefen, flüssigen Drum and Bass über'],

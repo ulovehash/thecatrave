@@ -92,7 +92,7 @@ Away from it, there were sixteen stages in 2026, built around the theme's six em
 
 [Image: Tomorrowland 2008, Carl Cox, TheWorldIsMine. Caption: Carl Cox at Tomorrowland in 2008. Photograph: TheWorldIsMine, CC BY-SA 2.0.]
 
-Drum and bass is the part this site cares about most, and it has been at Tomorrowland longer than the Mainstage suggests. In 2017 Netsky hosted a stage of his own, with Camo & Krooked on it. In 2026 Chase & Status played the Freedom by Bud stage on the first weekend and the Mainstage on the second: a UK drum and bass duo on the stage built for EDM's biggest names. Camo & Krooked were back that year, and Bassrush took over the Rose Garden with dubstep.
+Drum and bass has been at Tomorrowland longer than the Mainstage suggests. In 2017 Netsky hosted a stage of his own, with Camo & Krooked on it. In 2026 Chase & Status played the Freedom by Bud stage on the first weekend and the Mainstage on the second: a UK drum and bass duo on the stage built for EDM's biggest names. Camo & Krooked were back that year, and Bassrush took over the Rose Garden with dubstep.
 
 For a listener who comes from breaks, jungle or techno, that is the useful thing to know. Tomorrowland is worth going to for the park and the production, and the music worth crossing Europe for is on the hosted stages, not only under the fireworks.
 

@@ -90,7 +90,7 @@ Ailleurs, les scènes de l’EDC sont classées par son plus clairement que dans
 
 [Embed: thecatrave degeneration]
 
-La drum and bass est la partie qui compte le plus pour ce site, et à l’EDC elle remonte plus loin que la scène principale ne le laisse croire. Bassrush est la marque drum and bass et dubstep d’Insomniac, et Insomniac date la première Bassrush Arena à l’EDC de 2002. Sur bassPOD en 2014, dans le coin le plus éloigné du speedway, Camo & Krooked ont joué dans une série qui comprenait aussi Datsik, Destroid et 12th Planet.
+À l’EDC, la drum and bass remonte plus loin que la scène principale ne le laisse croire. Bassrush est la marque drum and bass et dubstep d’Insomniac, et Insomniac date la première Bassrush Arena à l’EDC de 2002. Sur bassPOD en 2014, dans le coin le plus éloigné du speedway, Camo & Krooked ont joué dans une série qui comprenait aussi Datsik, Destroid et 12th Planet.
 
 [Image: Camo&Krooked, EDC Las Vegas 2014, Uafmusic VIE]
 

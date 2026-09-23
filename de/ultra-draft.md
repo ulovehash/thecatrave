@@ -94,7 +94,7 @@ Abseits der Main Stage haben sich drei Institutionen gehalten. Carl Cox hat seit
 
 [Embed: thecatrave berlin-race-1909]
 
-Drum and Bass ist der Teil, der dieser Seite am meisten bedeutet, und bei Ultra war er vor der Main Stage da. Auf dem Programm der ersten Strandparty 1999 stand LTJ Bukem. Bei der ersten Ausgabe im Bayfront Park 2001 spielte Andy C neben Paul Oakenfold und Paul van Dyk, und Photek gehörte zu den Namen, die Ultra in seinen ersten Jahren im Park buchte. Auch der Breakbeat von The Prodigy kam: Sie waren 2006 zum ersten Mal Headliner, kamen 2009 wieder und hatten 2017 ihren letzten Ultra-Auftritt.
+Bei Ultra war Drum and Bass vor der Main Stage da. Auf dem Programm der ersten Strandparty 1999 stand LTJ Bukem. Bei der ersten Ausgabe im Bayfront Park 2001 spielte Andy C neben Paul Oakenfold und Paul van Dyk, und Photek gehörte zu den Namen, die Ultra in seinen ersten Jahren im Park buchte. Auch der Breakbeat von The Prodigy kam: Sie waren 2006 zum ersten Mal Headliner, kamen 2009 wieder und hatten 2017 ihren letzten Ultra-Auftritt.
 
 Das deutlichste Beispiel kam 2016. Knife Party, das Nebenprojekt von Rob Swire und Gareth McGrillen, bekam den Abschluss des gesamten Festivals und machte daraus ein Pendulum-Set: Die beiden brachten ihre Drum-and-Bass-Band am Ende von Ultra zurück, mit Tom Morello als Gast.
 

@@ -92,7 +92,7 @@ Loin d’elle, il y avait seize scènes en 2026, construites autour des six émo
 
 [Image: Tomorrowland 2008, Carl Cox, TheWorldIsMine.]
 
-La drum and bass est la partie qui compte le plus pour ce site, et elle est présente à Tomorrowland depuis plus longtemps que la Mainstage ne le laisse penser. En 2017, Netsky avait sa propre scène, avec Camo & Krooked à l’affiche. En 2026, Chase & Status ont joué sur la scène Freedom by Bud le premier week-end et sur la Mainstage le second : un duo britannique de drum and bass sur la scène construite pour les plus grands noms de l’EDM. Camo & Krooked étaient de retour cette année-là, et Bassrush a pris le Rose Garden avec du dubstep.
+La drum and bass est présente à Tomorrowland depuis plus longtemps que la Mainstage ne le laisse penser. En 2017, Netsky avait sa propre scène, avec Camo & Krooked à l’affiche. En 2026, Chase & Status ont joué sur la scène Freedom by Bud le premier week-end et sur la Mainstage le second : un duo britannique de drum and bass sur la scène construite pour les plus grands noms de l’EDM. Camo & Krooked étaient de retour cette année-là, et Bassrush a pris le Rose Garden avec du dubstep.
 
 [Embed: thecatrave degeneration]
 

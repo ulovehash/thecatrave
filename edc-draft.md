@@ -88,7 +88,7 @@ EDC is not a genre festival, and kineticFIELD is not the whole of it. The main s
 
 Away from it, the EDC stages are sorted by sound more clearly than at most festivals of this size. neonGARDEN is house and techno, and in 2026 it carried Time Warp takeovers alongside Peggy Gou and Joseph Capriati. quantumVALLEY is trance. wasteLAND, hosted by Insomniac's hardstyle brand Basscon, is hardstyle. bassPOD, hosted by Bassrush, is drum and bass and dubstep.
 
-Drum and bass is the part this site cares about most, and at EDC it goes back further than the main stage suggests. Bassrush is Insomniac's drum and bass and dubstep brand, and Insomniac dates the first Bassrush Arena at EDC to 2002. At bassPOD in 2014, in the furthest corner of the speedway, Camo & Krooked played in a run that also included Datsik, Destroid and 12th Planet.
+At EDC, drum and bass goes back further than the main stage suggests. Bassrush is Insomniac's drum and bass and dubstep brand, and Insomniac dates the first Bassrush Arena at EDC to 2002. At bassPOD in 2014, in the furthest corner of the speedway, Camo & Krooked played in a run that also included Datsik, Destroid and 12th Planet.
 
 [Image: Camo&Krooked, EDC Las Vegas 2014, Uafmusic VIE. Caption: Camo & Krooked at EDC Las Vegas in 2014, the year they were booked on bassPOD. Photograph: Uafmusic VIE, CC BY-SA 4.0.]
 

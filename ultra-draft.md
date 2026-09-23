@@ -18,7 +18,7 @@ When is Ultra Miami? In March, over three days, Friday to Sunday, the format sin
 
 [Image: Bayfront Park, 2014 Ultra Music Festival, Pietro. Caption: Bayfront Park from above during the 2014 festival, the Main Stage beside the marina on Biscayne Bay. Photograph: Pietro, CC BY-SA 3.0.]
 
-The timing is the point. Ultra is held alongside the Winter Music Conference, the electronic music industry's gathering in Miami, and Miami Music Week, the wider program of concerts and parties across the region. Both lead into Ultra, which closes the week. In 2018 Ultra bought the Winter Music Conference outright.
+Ultra is held alongside the Winter Music Conference, the electronic music industry's gathering in Miami, and Miami Music Week, the wider program of concerts and parties across the region. Both lead into Ultra, which closes the week. In 2018 Ultra bought the Winter Music Conference outright.
 
 The Ultra Miami location is also a matter of rules. The licence the city of Miami approved in 2019 caps the event site at 55,000 people, a figure that can only rise with the city's approval, and requires at least $2 million a year in payments to the city. In April 2026 the city commission approved a new agreement with Event Entertainment Group that can run through 2046. It is not an unconditional guarantee: the city can cancel it without cause before a future edition with a four-fifths commission vote, and the agreement returns for review every five years.
 
@@ -92,7 +92,7 @@ Ultra is not a genre festival, though its Main Stage sounds like one. That stage
 
 Away from the Main Stage, three institutions have lasted. Carl Cox has hosted his own arena since 2005, and Miami New Times counts it a fixture of the festival for two decades, missing only 2024. Armin van Buuren has hosted an A State of Trance stage since 2011, the year his radio show reached 500 episodes. And Resistance, the stage for underground house and techno, arrived in 2015, by Wikipedia's account. Ultra has booked bands too: The Killers headlined in 2006, The Cure in 2007, the booking Faibisch has said he is proudest of, and in 2012 Kraftwerk and New Order both played the old Live Stage.
 
-Drum and bass is the part this site cares about most, and at Ultra it was there before the Main Stage was. The bill for the first beach party in 1999 included LTJ Bukem. At the first Bayfront Park edition, in 2001, Andy C played alongside Paul Oakenfold and Paul van Dyk, and Photek was among the names Ultra booked in its first years at the park. The breakbeat of The Prodigy came too: they headlined for the first time in 2006, came back in 2009, and made their last Ultra appearance in 2017.
+At Ultra, drum and bass was there before the Main Stage was. The bill for the first beach party in 1999 included LTJ Bukem. At the first Bayfront Park edition, in 2001, Andy C played alongside Paul Oakenfold and Paul van Dyk, and Photek was among the names Ultra booked in its first years at the park. The breakbeat of The Prodigy came too: they headlined for the first time in 2006, came back in 2009, and made their last Ultra appearance in 2017.
 
 The clearest case came in 2016. Knife Party, Rob Swire and Gareth McGrillen's side project, took the closing slot of the whole festival and turned it into a Pendulum set, the two members bringing back their drum and bass band at the end of Ultra, with Tom Morello as a guest.
 

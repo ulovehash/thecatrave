@@ -84,7 +84,7 @@ Trance has never left. Paul van Dyk, on the first bill in 1998, headlined in mos
 
 Techno has its own arenas. Carl Cox has headlined again and again since 2007, and in 2026 he was booked to take over HALO on the Friday. Adam Beyer, Nina Kraviz and Charlotte de Witte have all been on the bill, and Amelie Lens brought her AURA show to Creamfields in 2026 as a UK festival exclusive. It reaches further out, too: in 2025 the Misfit stage had the hardstyle DJ Maddix, and Fatboy Slim had a stage of his own on the last day.
 
-Drum and bass is the part this site cares about most, and Creamfields has booked it for longer than its posters suggest. Sub Focus was due on the flooded Sunday in 2012. Chase & Status were among the 2016 headliners, and Pendulum were on the 2020 bill before the pandemic cancelled it. In 2025 Chase & Status, who started out in jungle before moving to drum and bass, headlined the Arc Stage on the Friday for the first time, with Sub Focus and Andy C, the founder of RAM Records, also on the bill. The 2026 line-up had Andy C again, with Shy FX, Hybrid Minds and Hedex.
+Creamfields has booked drum and bass for longer than its posters suggest. Sub Focus was due on the flooded Sunday in 2012. Chase & Status were among the 2016 headliners, and Pendulum were on the 2020 bill before the pandemic cancelled it. In 2025 Chase & Status, who started out in jungle before moving to drum and bass, headlined the Arc Stage on the Friday for the first time, with Sub Focus and Andy C, the founder of RAM Records, also on the bill. The 2026 line-up had Andy C again, with Shy FX, Hybrid Minds and Hedex.
 
 The festival's own film from its 2019 After Series is two minutes of that crowd, the bass and drum and bass tent at full stretch.
 

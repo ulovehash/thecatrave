@@ -90,7 +90,7 @@ Abseits davon sind die Bühnen des EDC klarer nach Sound sortiert als bei den me
 
 [Embed: thecatrave berlin-race-1909]
 
-Drum and Bass ist der Teil, der dieser Seite am meisten bedeutet, und beim EDC reicht er weiter zurück, als die Hauptbühne vermuten lässt. Bassrush ist Insomniacs Marke für Drum and Bass und Dubstep, und Insomniac datiert die erste Bassrush Arena beim EDC auf 2002. Auf bassPOD spielten 2014, in der hintersten Ecke des Speedways, Camo & Krooked in einer Reihe, zu der auch Datsik, Destroid und 12th Planet gehörten.
+Beim EDC reicht Drum and Bass weiter zurück, als die Hauptbühne vermuten lässt. Bassrush ist Insomniacs Marke für Drum and Bass und Dubstep, und Insomniac datiert die erste Bassrush Arena beim EDC auf 2002. Auf bassPOD spielten 2014, in der hintersten Ecke des Speedways, Camo & Krooked in einer Reihe, zu der auch Datsik, Destroid und 12th Planet gehörten.
 
 [Bild: Camo&Krooked, EDC Las Vegas 2014, Uafmusic VIE]
 

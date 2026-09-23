@@ -598,6 +598,50 @@
         "file": "fr/sonar-draft.md",
         "contains": "lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland), d’[EDC Las Vegas](/fr/edc-las-vegas) et de [Creamfields](/fr/festival-creamfields)"
       }
+    },
+    {
+      "id": "festival-guides-dnb-cares-most",
+      "found": "2026-09-23",
+      "by": "owner",
+      "what": "Four festival guides (Tomorrowland, Creamfields, EDC Las Vegas, Ultra) open their drum and bass paragraph with \"Drum and bass is the part this site cares about most\", and the German and French translations of all four repeat it (\"der Teil, der diese/dieser Seite am meisten interessiert/bedeutet\", \"la partie qui compte le plus pour ce site\"): twelve places in all. The owner says the claim is wrong and wants it nowhere. Found during the humanizer pass as a repeated series template. The rule now stands in WRITING.md; the twelve sentences are published copy and change only with the owner's approval of the exact wording. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "no audit bans a phrase across all pages and languages; WRITING.md had no rule against ranking one genre as the site's priority",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "## No genre is \"what this site cares about most\""
+      }
+    },
+    {
+      "id": "jungle-leviticus-credited-to-ray-keith",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The jungle guide's artists table credits \"Leviticus (Ray Keith)\" as \"Burial creator, founder of Dread Recordings\" (jungle-music-guide.html), and content/de/jungle.mjs and content/fr/jungle.mjs repeat it. Leviticus is Jumpin Jack Frost, who produced Burial in 1994 for Philly Blunt, the V Recordings sub-label he ran with Bryan Gee (DJ Mag, \"How Leviticus' Burial epitomised jungle's melting pot\"; Wikipedia, Jumpin Jack Frost). Dread Recordings is Ray Keith's label. Found during the humanizer pass and checked against sources on 2026-09-23. Published copy in three languages: the wording goes to the owner first. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "FIGURES.md sourcing covers who a guide names, not the alias each name is credited under; nothing cross-checks alias tables",
+      "fix": {
+        "file": "jungle-music-guide.html",
+        "contains": "<strong>Leviticus (Jumpin Jack Frost)</strong></td><td>“Burial” creator, co-founder of V Recordings"
+      }
+    },
+    {
+      "id": "jungle-terrorist-dated-1995",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The jungle guide's essential tracks list dates Renegade's \"Terrorist\" to 1995 in English, German and French (jungle-music-guide.html, de/jungle-draft.md, fr/jungle-draft.md). It came out on Moving Shadow in 1994 (Discogs, The Renegade featuring Ray Keith, Terrorist / Something I Feel; DJ Mag, \"How Renegade's Terrorist created a blueprint for jungle\"). Found during the humanizer pass. Published copy: the wording goes to the owner first. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "release years in track lists are written from memory and never checked against Discogs",
+      "fix": {
+        "file": "jungle-music-guide.html",
+        "contains": "“Terrorist” – Renegade (Ray Keith) (1994)"
+      }
+    },
+    {
+      "id": "jungle-ali-g-called-hollywood",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The English jungle guide says \"Incredible\" was heard \"even in Hollywood comedies (it features memorably in Ali G's movie)\". Ali G Indahouse (2002) is a British film (Wikipedia, Incredible (M-Beat song); IMDb soundtrack). The German and French pages already say only \"cinema comedies\". Found during the humanizer pass. Published copy: the wording goes to the owner first. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "nothing checks descriptive claims about where a record was used",
+      "fix": {
+        "file": "jungle-music-guide.html",
+        "contains": "it features memorably in <strong>Ali G Indahouse</strong>, in 2002"
+      }
     }
   ]
 }

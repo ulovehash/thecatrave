@@ -170,7 +170,7 @@ L’histoire de la jungle se raconte à travers ses **hymnes** : des morceaux qu
 - **« Valley of the Shadows », Origin Unknown (1993)** : un chef-d’œuvre minimaliste et inquiétant, avec le célèbre sample « 31 seconds ». Une sortie typique de RAM Records et une bombe proto-jungle.
 - **« Original Nuttah », Shy FX & UK Apachi (1994)** : le morceau qui a fait entrer la jungle dans le Top 40 britannique. Voix ragga, beats frénétiques et une énergie qui a ancré des cris comme « Junglist massive! » dans la culture rave.
 - **« Incredible », M-Beat ft. General Levy (1994)** : peut-être la voix la plus iconique de la jungle. Sa phrase contagieuse « Junglist is massive! » est aujourd’hui un slogan culturel.
-- **« Terrorist », Renegade (Ray Keith) (1995)** : un classique darkside, qui chevauche le break Amen avec une basse lourde. Symbole du versant le plus dur de la jungle.
+- **« Terrorist », Renegade (Ray Keith) (1994)** : un classique darkside, qui chevauche le break Amen avec une basse lourde. Symbole du versant le plus dur de la jungle.
 - **« Circles », Adam F (1995)** : soul et rêveur, mais ancré dans des breaks durs. Un tournant vers une production jungle plus musicale.
 - **« Super Sharp Shooter », DJ Zinc (1996)** : un exemple de jungle jump-up, funky, fait pour la piste et énorme dans tous les sets.
 - **« Brown Paper Bag », Roni Size/Reprazent (1997)** : techniquement de la drum and bass, mais imprégné de racines jungle. Les instruments live rencontrent l’énergie du breakbeat.

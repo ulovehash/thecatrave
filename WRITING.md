@@ -122,6 +122,16 @@ in other words ("filmed as it was played", "from start to finish", "in one
 piece") breaks the rule the same way. Say what the set is, where it was
 played and why it is worth hearing, and leave its length to the player.
 
+## No genre is "what this site cares about most"
+
+Never write that drum and bass, or any single genre, is the part this site
+cares about most, in any language ("Drum and bass is the part this site cares
+about most", "der Teil, der dieser Seite am meisten bedeutet", "la partie qui
+compte le plus pour ce site"). It is not true, and the owner does not want the
+claim anywhere (owner, 2026-09-23). When a festival guide covers drum and bass,
+jungle or breaks, say what was booked, where and when, and let the bookings
+make the point.
+
 ## Never edit published copy silently
 
 Adding a phrase to a live article to satisfy a keyword check is an editorial

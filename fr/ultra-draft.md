@@ -94,7 +94,7 @@ Loin de la Main Stage, trois institutions ont duré. Carl Cox a sa propre arène
 
 [Embed: thecatrave degeneration]
 
-La drum and bass est la partie qui compte le plus pour ce site, et à l’Ultra elle était là avant la Main Stage. L’affiche de la première fête sur la plage, en 1999, comprenait LTJ Bukem. À la première édition au Bayfront Park, en 2001, Andy C a joué aux côtés de Paul Oakenfold et Paul van Dyk, et Photek faisait partie des noms programmés par l’Ultra lors de ses premières années dans le parc. Le breakbeat de The Prodigy est venu aussi : le groupe a été tête d’affiche pour la première fois en 2006, est revenu en 2009 et a fait sa dernière apparition à l’Ultra en 2017.
+À l’Ultra, la drum and bass était là avant la Main Stage. L’affiche de la première fête sur la plage, en 1999, comprenait LTJ Bukem. À la première édition au Bayfront Park, en 2001, Andy C a joué aux côtés de Paul Oakenfold et Paul van Dyk, et Photek faisait partie des noms programmés par l’Ultra lors de ses premières années dans le parc. Le breakbeat de The Prodigy est venu aussi : le groupe a été tête d’affiche pour la première fois en 2006, est revenu en 2009 et a fait sa dernière apparition à l’Ultra en 2017.
 
 L’exemple le plus net date de 2016. Knife Party, le projet parallèle de Rob Swire et Gareth McGrillen, a eu le créneau de clôture de tout le festival et l’a transformé en set de Pendulum : les deux membres ont ressuscité leur groupe de drum and bass à la fin de l’Ultra, avec Tom Morello en invité.
 
