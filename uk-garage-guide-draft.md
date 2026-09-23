@@ -98,7 +98,7 @@ It is a strange chapter and an important one. Ayia Napa is where garage stopped 
 
 ## How garage became dubstep and grime
 
-The most-asked question about UK garage is not what it is. It is where it went.
+The most-asked question about UK garage is where it went.
 
 Around 2001 the mainstream success of 2-step created a split. The music on daytime radio got softer, more vocal and more polished, and the producers who were not interested in that started making the opposite: instrumental, darker, stripped of the diva vocal entirely.
 

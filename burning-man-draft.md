@@ -102,7 +102,7 @@ Music has been part of the argument too. Big-name DJs, filmed sets and camps wit
 
 The story of music at Burning Man is a story of being sent to the edge: a mile out in 1992, onto the 2:00 and 10:00 avenues now, into the deep playa after dark. What grew there is music made for the long stretch from the middle of the night into sunrise, programmed camp by camp rather than through one public festival bill.
 
-Most of it is only half-available afterwards. Some camps and DJs film their sets and upload them, as Robot Heart and Mayan Warrior do, and the rest exists only for the people who were standing there. Lee Burridge put the whole of his 2025 Saturday sunrise at Robot Heart online, three hours of it, which is as close as a recording gets to the week.
+Most of it is only half-available afterwards. Some camps and DJs film their sets and upload them, as Robot Heart and Mayan Warrior do, and the rest exists only for the people who were standing there. Lee Burridge put his 2025 Saturday sunrise at Robot Heart online, which is as close as a recording gets to the week.
 
 [Embed: Lee Burridge - Live From Robot Heart - Burning Man 2025, Lee Burridge's own YouTube channel, S7OBT3kQAHQ]
 
