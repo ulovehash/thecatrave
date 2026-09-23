@@ -68,6 +68,29 @@ Read the draft as a complete magazine article, not as isolated SEO sections.
 - Keep `thecatrave` lowercase and unspaced.
 - Do not impose an arbitrary word limit or cut material only to make the layout easier.
 
+### AI writing tells
+
+Run the draft through the `humanizer` skill first (`ARTICLE-PRODUCTION-WORKFLOW.md` §6), then check that none of these survived:
+
+- "Not X but Y" contrasts that argue with nobody ("This isn't just a club, it's a movement"). Keep a contrast only when it corrects something readers really believe ("Jungle did not simply change its name to drum and bass").
+- One-line closers that restate the paragraph, and staged openers ("That distinction matters.", "The timing is the point.", "In other words…").
+- A conclusion that repeats a line from an earlier section.
+- Stock AI vocabulary: crucial, enduring, vibrant, pivotal, landscape, testament, delve; in German *unverzichtbar*, *eintauchen*, *Kulturartefakt*; in French *incontournable*, *emblématique*, *véritable*.
+- "Welcome to the ultimate guide", "we'll explore", "dive into", and scenes that invent a moment instead of stating a fact ("Picture East London in 1992…").
+
+### Site-voice rules
+
+These are enforced on every build by `audit-banned-phrases.mjs`, in English, German and French. The reviewer still checks the idea, because a reworded version of a banned phrase passes the audit and breaks the rule just the same.
+
+- A DJ set is never "full", "complete" or "the whole set", and its length is not sold as a feature (`WRITING.md`).
+- No genre is "what this site cares about most" (`WRITING.md`).
+- Not every article is about breaks, jungle or drum and bass. On a festival, club or city guide: no aside to "a listener who comes from breaks, jungle or drum and bass", no "the music this site comes from", no paragraph on how little drum and bass a place books, no link to the drum and bass or jungle guide unless that section is about the music, and no drum and bass line in the Bandcamp card (`WRITING.md`, `festivals-series.md`).
+
+### Translations
+
+- A German or French page says what its English page says. It does not add sentences (such as a Bandcamp line) that the English does not have.
+- Every approved change to the English copy is carried to both translations in the same pass, with the translated wording shown for approval (`ARTICLE-PRODUCTION-WORKFLOW.md` §6).
+
 Flag only changes that materially improve accuracy, narrative, usefulness or voice. Do not bury the review in cosmetic preferences.
 
 ## 4. Review three: SEO preservation and semantic coverage

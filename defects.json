@@ -697,6 +697,17 @@
         "file": "scripts/build-og-cards.py",
         "contains": "title = re.search(r\"\"\"title: (?:'([^']*)'|\"([^\"]*)\")\"\"\", rest)"
       }
+    },
+    {
+      "id": "site-voice-rules-not-enforced",
+      "found": "2026-09-23",
+      "by": "owner",
+      "what": "The rules written on 2026-09-23 (no full DJ set, no genre as the site's priority, no breaks, jungle or drum and bass framing, translations follow English edits) lived only in WRITING.md and ARTICLE-PRODUCTION-WORKFLOW.md. ARTICLE-EDITORIAL-REVIEW.md, the checklist a draft is reviewed against, mentioned none of them, and no build check stopped a banned phrase from returning in any language. The owner asked for both. Fixed 2026-09-23: a review section for AI tells, site-voice rules and translations, and audit-banned-phrases.mjs, which fails the build on the phrases in English, German and French (tested against the pre-fix pages, where it catches all of them).",
+      "should_have_caught": "new rules were added to the writing guide without a matching review item or audit",
+      "fix": {
+        "file": "ARTICLE-EDITORIAL-REVIEW.md",
+        "contains": "These are enforced on every build by `audit-banned-phrases.mjs`, in English, German and French."
+      }
     }
   ]
 }
