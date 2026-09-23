@@ -164,7 +164,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'Zwei meiner eigenen Tracks: ein Jungle-Remix und ein Breakbeat-Track, die beiden Musiken, denen diese Seite vom Rage bis zum Blue Note folgt. Wer einen kauft, unterstützt meine Arbeit direkt.',
+    description: 'Zwei meiner eigenen Tracks: ein Jungle-Remix und ein Breakbeat-Track. Wer einen kauft, unterstützt meine Arbeit direkt.',
     tracks: [
       {title: 'You So Ghetto (Lana del Rey Jungle Remix)', id: '3379956979', url: 'https://thecatrave.bandcamp.com/track/you-so-ghetto-lana-del-rey-jungle-remix', linkText: 'You So Ghetto (Lana del Rey Jungle Remix) von thecatrave'},
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks von thecatrave'}

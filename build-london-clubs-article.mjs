@@ -224,7 +224,7 @@ ${sourceLink('https://www.cntraveller.com/article/best-clubs-in-london', 'Condé
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
-    description: 'Two of my own tracks: a jungle remix and a breakbeat track, the two musics this page follows from Rage to the Blue Note. Buying one supports my work directly.',
+    description: 'Two of my own tracks: a jungle remix and a breakbeat track. Buying one supports my work directly.',
     tracks: [
       {title: 'You So Ghetto (Lana del Rey Jungle Remix)', id: '3379956979', url: 'https://thecatrave.bandcamp.com/track/you-so-ghetto-lana-del-rey-jungle-remix', linkText: 'You So Ghetto (Lana del Rey Jungle Remix) by thecatrave'},
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'}

@@ -675,6 +675,17 @@
         "file": "creamfields-draft.md",
         "contains": "from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz."
       }
+    },
+    {
+      "id": "london-clubs-card-claims-jungle-breakbeat-page",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The London clubs guide's Bandcamp card, in English and German, called jungle and breakbeat \"the two musics this page follows from Rage to the Blue Note\", framing a club guide that covers acid house, jungle, garage, dubstep and current techno rooms around the owner's genres. Found when the owner asked for the German and French club guides to be checked for drum and bass framing. Fixed 2026-09-23 with the owner's approval of the exact wording: the claim cut, the description of the two tracks kept.",
+      "should_have_caught": "the WRITING.md rule against breaks, jungle and drum and bass framing was applied to festival guides first; club guides were not swept at the same time",
+      "fix": {
+        "file": "build-london-clubs-article.mjs",
+        "contains": "Two of my own tracks: a jungle remix and a breakbeat track. Buying one supports my work directly."
+      }
     }
   ]
 }

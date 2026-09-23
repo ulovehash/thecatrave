@@ -1529,3 +1529,14 @@ europenightlife best techno cities, partiesnearme 2026, wepartynow), не по
 - Не проверено: стадии 3 и 5, SERP для lisbon/vienna/tokyo/nyc/chicago/
   mexico city/manchester/bristol/tbilisi, GB SERP, точные цифры (только
   диапазоны). Стадия 6 (вердикт) не пройдена ни по одному.
+- **Пакеты собраны 2026-09-23** (по просьбе владельца, все четыре):
+  `amsterdam-clubs-research.md`, `ibiza-clubs-research.md`,
+  `europe-clubbing-cities-research.md`, `nye-festivals-research.md`.
+  Keyword Planner idea-expansion (All locations) по каждому сиду, живой SERP
+  вторых голов (amsterdam clubs, ibiza clubs, best party cities in europe,
+  nye festivals), конкуренты: Time Out и Dirty Disco (Amsterdam), Dirty
+  Disco (Ibiza), She's Abroad Again (Europe: 3 855 слов, ни одного клуба),
+  исторические якоря с источниками (RoXY 1987–1999, Pacha 1973, Amnesia
+  1976, Ku 1979). Не закрыто: второй источник для части дат (Space, De
+  School, Privilege), четырёхисточниковая сверка списков, картинки, стадия 6.
+  Music Festival Wizard и RA закрыты бот-проверкой/403 — не обходить.
