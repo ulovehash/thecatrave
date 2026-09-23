@@ -1474,3 +1474,58 @@ TAKEN-KEYWORDS.md. Стадии пройдены везде: 1 (веб-поис�
   сейчас). Вывод не меняется: ни один из четырёх сезонов не даёт слота для
   танцевальной музыки на голове; отклонение подтверждено дважды, разными
   источниками.
+
+---
+
+## Клубные города (волна 2) + фестивальные углы вместо сезонов (2026-09-23)
+
+Шаг 0: ни один термин ниже не в TAKEN-KEYWORDS.md. Кандидаты городов взяты
+из веб-поиска (Billboard best dance music cities, Techno Mag top 10,
+europenightlife best techno cities, partiesnearme 2026, wepartynow), не по
+памяти. Ahrefs не использовался (0 units; баланс 89 522/800 000, ~11%).
+
+- **Google Ads Keyword Planner** (браузер, аккаунт 299-844-2842, **All
+  locations**, All languages, Google, Sep 2025 – Aug 2026; диапазоны, т.к.
+  без расходов). 10K–100K: amsterdam clubs, amsterdam nightlife, ibiza clubs,
+  ibiza nightlife, budapest nightlife, prague nightlife. 1K–10K: best clubs
+  in amsterdam / ibiza / budapest / prague / lisbon / vienna / tokyo / nyc /
+  chicago / mexico city / manchester / bristol (bristol +900% за 3 мес),
+  best clubbing cities in europe, best party cities in europe, lisbon /
+  mexico city / tokyo / vienna / tbilisi nightlife, new years eve festivals,
+  nye festivals, snowbombing. 100–1K: best clubs in detroit, best clubs in
+  tbilisi, tbilisi techno, detroit techno clubs, chicago house music clubs,
+  brooklyn techno clubs, best edm festivals, best edm festivals in the us,
+  best techno festivals, ski music festivals, winter music festivals.
+  10–100: best cities for electronic music, best techno cities in europe,
+  techno capital of the world, best winter music festivals, winter edm
+  festivals. «Nightlife»-головы шире клубов (бары, руин-пабы) — ловушка
+  интента, считать клубной только часть.
+- **Живой Google SERP (US/en, 2026-09-23)**:
+  - best clubs in amsterdam: Reddit r/TheOverload (2 треда), dirtydiscoradio
+    (блог, house/techno), iamsterdam, Reddit r/Amsterdam wiki, Tripadvisor,
+    Time Out, RA guide, Yelp. PASF: best clubs in Amsterdam for house music.
+    Паттерн как Paris (одобрен) — слабые редакционные слоты, winnable.
+  - best clubs in ibiza: Reddit r/ibiza, dirtydiscoradio, Tripadvisor,
+    pacha.com, Ibiza Spotlight, DJ Mag (Hï), answertabs, ticketsibiza. PAA:
+    most popular nightclub in Ibiza? / #1 nightclub in the world? / Pacha or
+    Hï? / where in Ibiza is best for partying? Сезонность (лето), сильный
+    нишевый игрок Ibiza Spotlight.
+  - best clubs in budapest: Reddit, Tripadvisor, instant-fogas, YouTube,
+    trip.com, GetYourGuide, alotea. Туристический/руин-бар интент; PASF
+    techno clubs in Budapest, underground clubs Budapest — жанровый хвост
+    есть. Редакционных гайдов почти нет — слабая выдача.
+  - best clubs in prague: Reddit, thepartyingtraveler (2016), Tripadvisor,
+    bestclubsprague.com (коммерция), Yelp, Quora, hostelelf (techno/DnB),
+    moonclub. Слабая выдача, но интент мейнстрим-туристический.
+  - best clubbing cities in europe: Reddit r/solotravel, блоги путешествий
+    (wanderlusttimes 2015, condor, europetravelbureau, shesabroadagain,
+    europeanbestdestinations, eurotrip 2011, fodors 2006), Quora — ни одного
+    музыкального издания, старые страницы. Хаб-кандидат, winnable.
+  - new years eve festivals: musicfestivalwizard, Reddit r/aves и r/EDM,
+    iedm (7 NYE EDM festivals), Countdown NYE, Eternal NYE, Condé Nast,
+    Insomniac, New Orleans tourism, Fresh Start SF. В отличие от сезонов —
+    выдача в основном электронная. PASF: new years music festivals Europe,
+    NYE EDM festivals 2026.
+- Не проверено: стадии 3 и 5, SERP для lisbon/vienna/tokyo/nyc/chicago/
+  mexico city/manchester/bristol/tbilisi, GB SERP, точные цифры (только
+  диапазоны). Стадия 6 (вердикт) не пройдена ни по одному.

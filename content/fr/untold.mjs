@@ -142,7 +142,7 @@ export default {
   ],
 
   bandcamp: {
-    description: 'Les scènes techno et trance d’Untold sont loin des breaks d’où vient ma propre musique, mais les deux viennent de la même rave. Acheter un morceau soutient directement mon travail.',
+    description: 'Acheter un morceau soutient directement mon travail.',
     tracks: [
       {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks par thecatrave'},
       {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 par thecatrave'}

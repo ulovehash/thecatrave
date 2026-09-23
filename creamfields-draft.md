@@ -92,7 +92,7 @@ The festival's own film from its 2019 After Series is two minutes of that crowd,
 
 ## Hearing Creamfields from home
 
-Creamfields films its stages. Beatport has streamed and filmed sets there: of the DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz. None of the drum and bass acts named above is among them.
+Creamfields films its stages. Beatport has streamed and filmed sets there: of the DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz.
 
 The festival also puts sets on its own channel, and some artists post their own. The two below are Ewan McVicar on the Steel Yard in 2023, the most watched of his Creamfields sets, on his own channel; and Pete Tong in 2025, on the festival's, who was on the first Creamfields bill in 1998.
 
