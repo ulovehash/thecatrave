@@ -281,3 +281,94 @@ before the fix.
 - "even in Hollywood comedies (it features memorably in Ali G's movie)". Ali G Indahouse is a British film.
 - "Organizations like Black Junglist Alliance". No source is given.
 - "Urban Legends and Raver Tales". Three anecdotes with no source.
+
+## Part 2: dashes (approved and applied on 2026-09-23)
+
+These are dashes used to join sentences. Each "before" is exact, except that bold and italic tags are left out.
+
+Left as they are:
+- The name–description separators in the pioneer, label, track, breakbeat and source lists ("Shy FX – Released …", "Vice – …"). These are layout, not prose.
+- The attribution "– DJ Storm" and the closing quote "Big up all the Junglist massive – past, present, and future."
+- The two dashes in your own recent additions (Paul Ibiza's "pressed the records nobody else would – the kind of founder …" and DJ Ron's "– whose 'Crackman' is one of the tracks every history names and almost nobody plays –"). They are your voice, and the skill matches the writer's own dash rate.
+- Date ranges such as 1991–94.
+
+**D1.** while others went darker and heavier – laying the groundwork for what would become Jungle.
+→ while others went darker and heavier, towards what would become Jungle.
+
+**D2.** began infusing their heritage – reggae, dancehall, soundsystem bass pressure – into rave music
+→ began bringing their heritage (reggae, dancehall, soundsystem bass pressure) into rave music
+
+**D3.** Caption: Jungle flyer collage (1991–94) – underground energy in print.
+→ Jungle flyer collage, 1991–94.
+
+**D4.** The word "junglist" itself wasn't invented in London – it came from Jamaican slang.
+→ The word "junglist" itself wasn't invented in London. It came from Jamaican slang.
+
+**D5.** … by the scene's many Black artists and fans – flipping an old derogatory phrase (…) into a badge of identity.
+→ … by the scene's many Black artists and fans, who turned an old derogatory phrase (…) into a badge of identity.
+
+**D6.** a darker strain of hardcore called Darkcore was emerging – characterized by eerie pads, sinister samples, and minimalist drum edits.
+→ a darker strain of hardcore called Darkcore was emerging, built on eerie pads, sinister samples and minimalist drum edits.
+
+**D7.** The scene at this point was 100% underground – thriving in illegal warehouse raves and on pirate stations, with an enthusiastic community but zero mainstream visibility.
+→ The scene at this point was 100% underground. It lived in illegal warehouse raves and on pirate stations, with an enthusiastic community but zero mainstream visibility.
+
+**D8.** … everyone would talk about it," Fabio says – that exclusivity created massive buzz.
+→ … everyone would talk about it," Fabio says. That exclusivity created massive buzz.
+
+**D9.** Caption: Pirate radio setup – raw broadcast energy.
+→ Pirate radio setup.
+
+**D10.** Caption: tape pack – analog bass culture on cassette
+→ A tape pack.
+
+**D11.** Jungle dances often had a higher proportion of Black attendees – "If Jungle was …," as one observer put it.
+→ Jungle dances often had a higher proportion of Black attendees. "If Jungle was …," as one observer put it.
+
+**D12.** Jungle exploded from the underground onto the British mainstream – seemingly overnight.
+→ Jungle exploded from the underground onto the British mainstream, seemingly overnight.
+
+**D13.** … 1994 marked a second phase in the scene's popularity – Jungle was no longer just an underground secret.
+→ … 1994 marked a second phase in the scene's popularity. Jungle was no longer an underground secret.
+
+**D14.** Ragga Jungle – characterized by chopped Amen breaks and hardcore dancehall reggae vocals – was ruling the dance
+→ Ragga Jungle, built on chopped Amen breaks and hardcore dancehall reggae vocals, was ruling the dance
+
+**D15.** but so were some internal tensions – who "owned" Jungle, and where should it go next?
+→ but so were some internal tensions: who "owned" Jungle, and where should it go next?
+
+**D16.** They were status symbols – your selection showed your crew and your history.
+→ They were status symbols: your selection showed your crew and your history.
+
+**D17.** The community was self-sufficient – no Google Maps, no YouTube IDs.
+→ The community was self-sufficient, with no Google Maps and no YouTube IDs.
+
+**D18.** MCs would shout out different boroughs or ends of the city – uniting a diverse fanbase while maintaining local pride.
+→ MCs would shout out different boroughs or ends of the city.
+
+**D19.** The rewind was the ultimate crowd response – when the intro of a beloved track dropped
+→ The rewind was the ultimate crowd response: when the intro of a beloved track dropped
+
+**D20.** While not universal, certain areas – like Manchester – saw a rise in incidents
+→ While not universal, certain areas, Manchester among them, saw a rise in incidents
+
+**D21.** An example of jump-up Jungle – funky, floor-friendly, and massive in every set.
+→ An example of jump-up Jungle: funky, floor-friendly and massive in every set.
+
+**D22.** At a roller rink rave, someone let off a real foghorn – half the crowd thought it was a police raid.
+→ At a roller rink rave, someone let off a real foghorn, and half the crowd thought it was a police raid.
+
+**D23.** An MC once joked during a power cut, "Who forgot to pay the electric?" – the crowd sang Bob Marley until the lights came back.
+→ An MC once joked during a power cut, "Who forgot to pay the electric?" The crowd sang Bob Marley until the lights came back.
+
+Tables (artist descriptions):
+
+**D24.** Creator of "Original Nuttah" – a Jungle anthem that went mainstream → Creator of "Original Nuttah", a Jungle anthem that went mainstream
+**D25.** The "Godfather of Jump-Up" Jungle – brought fun, funky breaks → The "Godfather of Jump-Up" Jungle, known for fun, funky breaks
+**D26.** Jump-Up pioneer – made the iconic "Super Sharp Shooter" → Jump-Up pioneer who made the iconic "Super Sharp Shooter"
+**D27.** Produced "Incredible" with General Levy – a Jungle megahit → Produced "Incredible" with General Levy, a Jungle megahit
+**D28.** Known for "Circles" – melodic and soulful Jungle classic → Known for "Circles", a melodic and soulful Jungle classic
+**D29.** The most iconic Jungle MC – known for lightning-fast chat → The most iconic Jungle MC, known for lightning-fast chat
+**D30.** Voice of "Incredible" – his "Junglist massive!" is iconic → Voice of "Incredible". His "Junglist massive!" is iconic
+**D31.** High-BPM Jungle/Footwork DJ – fire festival sets → High-BPM Jungle/Footwork DJ with fire festival sets
+**D32.** Singer/producer bringing Jungle to Gen Z – MOBO & Mercury nominee → Singer/producer bringing Jungle to Gen Z. MOBO & Mercury nominee

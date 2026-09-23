@@ -26,7 +26,7 @@ Rex Club opened in 1988 in the basement of the Grand Rex cinema at 5 boulevard P
 
 Rex Club is still the clearest answer to what a Paris techno club sounds like: a low room, a sound system the venue has kept investing in over decades, and a booking policy that has stayed closer to techno and house than most of the clubs around it.
 
-French pop and French electronic music have always sat closer together than the genre labels suggest. Mylène Farmer's Dégénération, produced with Laurent Boutonnat, is one of the clearest examples: a mainstream single built on a driving electronic pulse.
+French pop and French electronic music have always sat closer together than the genre labels suggest. Mylène Farmer's Dégénération, produced with Laurent Boutonnat, is a good example: a mainstream single built on a driving electronic pulse.
 
 [Embed: Mylène Farmer Degeneration original]
 

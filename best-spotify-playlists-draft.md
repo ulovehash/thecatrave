@@ -8,7 +8,7 @@ The best Spotify playlists have an identifiable point of view. KEXP's New This W
 
 Spotify already knows how to give you more of what you played yesterday. That is useful, but it is not the only job a playlist can do. A good curator can make a leap the recommendation feed would avoid, put a small record beside a famous one, or hold one scene in focus long enough for its details to emerge.
 
-This list favours playlists with a person, station, publication or label behind them. Some update every week. Others are long, unruly archives that become more useful as they grow. The point is not that human choices are automatically better. It is that you can hear the argument behind them.
+This list favours playlists with a person, station, publication or label behind them. Some update every week. Others are long, unruly archives that become more useful as they grow. Human choices are not automatically better, but you can hear the argument behind them.
 
 ## How these playlists were chosen
 
@@ -54,11 +54,11 @@ The title is a thicket of planets, circles and symbols, so searching by Four Tet
 
 ### Altar
 
-Altar is Spotify editorial, which makes it the exception to the human-byline emphasis rather than a contradiction. It is one of the platform's clearer electronic propositions: contemporary club music that sits outside the mainstage EDM lane, with alternative pop and experimental production allowed into the room. Use it as a current snapshot, not an archive.
+Altar is Spotify editorial, the one exception to the human-curator rule on this list. It is one of the platform's clearer electronic propositions: contemporary club music that sits outside the mainstage EDM lane, with alternative pop and experimental production allowed into the room. Use it as a current snapshot, not an archive.
 
 ### Toolroom Tech House
 
-Toolroom's playlist does exactly what a label-led list should do. It stays close to the records the label understands: functional house, rolling basslines and tracks designed for a busy room. That focus is the value. It will not explain the whole of house music, but it makes a reliable weekly check on one working part of it.
+Toolroom's playlist does exactly what a label-led list should do. It stays close to the records the label understands: functional house, rolling basslines and tracks designed for a busy room. It will not explain the whole of house music, but it makes a reliable weekly check on one working part of it.
 
 ### Danny L Harle's HUGE PLAYLIST
 
@@ -72,7 +72,7 @@ UKF has documented drum and bass online since 2009, long enough for its playlist
 
 Start with the curator, not the follower count. A station playlist is useful when you want a changing release feed. A publication list lets you connect songs to reviews. An artist playlist exposes influences and records carried into DJ sets. A label playlist stays narrower, but that narrowness is the point.
 
-Save one list that updates often and one long archive that does not need to. The first keeps you current; the second lets you enter somewhere other than the top. If you want an hour with an actual sequence rather than a list on shuffle, go to [live DJ sets](/live-dj-sets) or let [the Selector](/selector) choose one complete set at random.
+Save one list that updates often and one long archive that does not need to. The first keeps you current; the second lets you enter somewhere other than the top. If you want an hour with an actual sequence rather than a list on shuffle, go to [live DJ sets](/live-dj-sets) or let [the Selector](/selector) choose a set at random.
 
 ## FAQ
 

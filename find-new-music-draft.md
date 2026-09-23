@@ -16,7 +16,7 @@ Online community radio is a handful of people in a room playing records they car
 
 NTS Radio is the one most often named. It broadcasts from London, Manchester, Los Angeles and Shanghai, runs two channels around the clock, and its archive holds thousands of shows you can start anywhere. Rinse FM came out of pirate radio and still sounds like it, heavy on UK bass, garage and jungle. The Lot Radio broadcasts from a repurposed shipping container on a triangle of land in Brooklyn, and its schedule is closer to a local noticeboard than a station.
 
-Then there are the ones nobody outside their own city talks about, and this is where it gets interesting. Kiosk Radio broadcasts from a wooden shack in a Brussels park. Seoul Community Radio, Bangkok Community Radio, Manila Community Radio, Radio Rudina in the Balkans and Boxout.fm in Delhi all do the same job for their own scenes. They upload constantly, and almost nobody outside their city ever hears any of it.
+Then there are the ones nobody outside their own city talks about. Kiosk Radio broadcasts from a wooden shack in a Brussels park. Seoul Community Radio, Bangkok Community Radio, Manila Community Radio, Radio Rudina in the Balkans and Boxout.fm in Delhi all do the same job for their own scenes. They upload constantly, and almost nobody outside their city ever hears any of it.
 
 The catch with radio is that it is live and you are not always free at 3pm on a Tuesday. Which is what the next two methods solve.
 
@@ -24,7 +24,7 @@ The catch with radio is that it is live and you are not always free at 3pm on a 
 
 A DJ set is an hour or more of records that somebody spent years learning how to put next to each other.
 
-That is the argument in one sentence. When you skip through singles you are auditioning tracks in isolation, stripped of the order and context that make them work. When you listen to a set you get somebody else's taste applied over a whole evening, including the records you would never have clicked on.
+When you skip through singles you are auditioning tracks in isolation, stripped of the order and context that make them work. When you listen to a set you get somebody else's taste applied over a whole evening, including the records you would never have clicked on.
 
 It is also the most efficient way to discover new artists there is. One good hour can introduce you to twenty artists, and you will remember the ones that stood out because you heard them in a sequence rather than as a thumbnail.
 
@@ -94,17 +94,17 @@ The trick is to lurk in one place for a while rather than joining ten. A single 
 
 Two databases built by obsessives, both useful for the same reason: they connect records to other records.
 
-Discogs is a catalogue of physical releases with full credits, so it answers questions no streaming service can. Who played bass on this. What else did this label put out in 1994. What are the other twelve versions of this record. Its recommendation is not a machine, it is the structure of the credits themselves.
+Discogs is a catalogue of physical releases with full credits, so it answers questions no streaming service can. Who played bass on this. What else did this label put out in 1994. What are the other twelve versions of this record. Its recommendations come from the structure of the credits themselves.
 
 RateYourMusic is a rating and list site with a well-earned reputation for being run by people with very specific opinions. Its genre pages, its charts by year and its user lists are a good way to work backwards through a style you have just discovered you like.
 
 ## A note on the algorithm
 
-None of this is an argument that recommendation engines are useless. They are very good at what they do, which is keeping you listening.
+Recommendation engines are very good at what they do, which is keeping you listening.
 
-The point is narrower. An algorithm optimises for the next play, and the next play that is most likely to succeed is one close to the last. Repeated over months that produces a taste that curves gently inward. Everything in this list is a way of stepping outside that curve on purpose, and most of the methods take a couple of minutes.
+An algorithm optimises for the next play, and the next play that is most likely to succeed is one close to the last. Repeated over months that produces a taste that curves gently inward. Everything in this list is a way of stepping outside that curve on purpose, and most of the methods take a couple of minutes.
 
-If you only take one thing from the list, take the first three. Put a community radio station on while you work. When you find a show you like, listen to the whole thing. And when you cannot face choosing, let something else choose for you.
+If you only take one thing from the list, take the first three. Put a community radio station on while you work. When you find a show you like, follow it. And when you cannot face choosing, let something else choose for you.
 
 ## FAQ
 
