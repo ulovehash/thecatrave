@@ -4,8 +4,7 @@ German electronic music is not one national sound. It is a chain of local
 experiments: radio studios in Cologne, electronic pop in Düsseldorf, sequencer
 music in West Berlin, industrial performance, Frankfurt trance, post-Wall
 techno and the labels and software that later carried those ideas worldwide.
-The useful question is not what makes all German electronic music sound
-German. It is how different cities built tools, rooms and networks that let
+The useful question is how different cities built tools, rooms and networks that let
 new sounds take hold.
 
 Techno is central to that history, but Germany did not invent it. Detroit
@@ -49,7 +48,7 @@ The distinction between *elektronische Musik* and the French practice of
 favoured electronically generated tones, while Pierre Schaeffer's Paris studio
 worked with recorded sounds. Stockhausen soon complicated that division in
 works such as *Gesang der Jünglinge*, which combined a recorded boy's voice
-with electronic material. The point was not a dance beat. It was control over
+with electronic material. The aim was control over
 the internal shape and placement of sound.
 
 [Image: Stockhausen in the WDR Studio]
@@ -224,8 +223,7 @@ across Europe and beyond. Ostgut closed in 2003 and its operators opened
 Berghain in 2004. Minimal techno became a dominant international club language,
 with Berlin labels and venues at its centre, while Kompakt's Cologne network
 and Frankfurt's Cocoon maintained different ideas of scale, melody and
-distribution. The result was not one German style. It was a dense national
-ecosystem that could support several incompatible ones.
+distribution. The result was a dense national ecosystem that could support several incompatible styles.
 
 One of Germany's largest later contributions was not a genre. Ableton was
 founded in Berlin in 1999 by people connected to the Monolake project and
