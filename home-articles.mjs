@@ -459,6 +459,22 @@ export const germanArticleCatalog = [
     description:'Von Funk-Breaks und dem Hip-Hop der Bronx zum britischen Rave, nach Florida und Andalusien, zu Big Beat, Nu-Skool und den Breaks von heute.',
     image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
     width:1200, height:800, alt:'Die Wellenform und das Drum-Muster des Amen Break'
+  },
+  {
+    page:'de/sonar-festival-barcelona.html', tags:['discovery','history','bass'], href:'/de/sonar-festival-barcelona', type:'Guide', topic:'Sónar',
+    title:'Sónar Festival Barcelona 2027: Termine, Geschichte, Musik',
+    description:'Drei Tage jeden Juni in Barcelona seit 1994, bei Tag und bei Nacht: wo Sónar stattfindet, wie es wuchs, wem es heute gehört, und Sónar 2027 vom 17. bis 19. Juni.',
+    image:'img/sonar/sonar-by-day-2016-320.webp',
+    srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
+    width:1200, height:801, alt:'Ein Publikum vor der Bühne SonarVillage auf der Fira Montjuïc, dahinter der Palau Nacional'
+  },
+  {
+    page:'de/bass-music.html', tags:['bass','global','soundsystem'], href:'/de/bass-music', type:'Guide', topic:'Bass Music',
+    title:'Was ist Bass Music? Geschichte, Genres und wichtige Tracks',
+    description:'Eine weltweite Geschichte, die Jamaika, Miami, Großbritannien, Los Angeles, Chicago, Durban und die hybride Clubkultur von heute verbindet.',
+    image:'img/bass-music/miami-bass-loc-ace-vic-480.jpg',
+    srcset:'img/bass-music/miami-bass-loc-ace-vic-480.jpg 480w,img/bass-music/miami-bass-loc-ace-vic-1400.jpg 1400w',
+    width:1400, height:933, alt:'Die Miami-Bass-Künstler Loc Ace und Vic vor einer Club-Soundanlage im Jahr 1993'
   }
 ];
 
@@ -646,6 +662,22 @@ export const frenchArticleCatalog = [
     description:'Des breaks funk et du hip-hop du Bronx à la rave britannique, à la Floride et à l’Andalousie, au big beat, au nu-skool et aux breaks actuels.',
     image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
     width:1200, height:800, alt:'La forme d’onde et le motif de batterie du break Amen'
+  },
+  {
+    page:'fr/festival-untold.html', tags:['discovery','history','bass'], href:'/fr/festival-untold', type:'Guide', topic:'Untold',
+    title:'Untold Festival 2027 : le festival de Cluj, en Roumanie',
+    description:'Quatre jours chaque mois d’août à Cluj-Napoca : quand a lieu Untold 2027, où il se tient, comment il est devenu un festival de 500 000 entrées et ce qui se joue à côté de la scène principale.',
+    image:'img/untold/main-stage-2019-320.webp',
+    srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'Une foule dense, téléphones levés, devant la scène principale d’Untold de nuit en 2019'
+  },
+  {
+    page:'fr/bass-music.html', tags:['bass','global','soundsystem'], href:'/fr/bass-music', type:'Guide', topic:'Bass music',
+    title:'Qu’est-ce que la bass music ? Histoire, genres et morceaux clés',
+    description:'Une histoire mondiale qui relie la Jamaïque, Miami, la Grande-Bretagne, Los Angeles, Chicago, Durban et la culture club hybride d’aujourd’hui.',
+    image:'img/bass-music/miami-bass-loc-ace-vic-480.jpg',
+    srcset:'img/bass-music/miami-bass-loc-ace-vic-480.jpg 480w,img/bass-music/miami-bass-loc-ace-vic-1400.jpg 1400w',
+    width:1400, height:933, alt:'Les artistes de Miami bass Loc Ace et Vic devant une sono de club en 1993'
   }
 ];
 

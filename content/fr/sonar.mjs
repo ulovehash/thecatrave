@@ -1,6 +1,6 @@
 // French Sónar guide. Structure and facts from the English page
 // (sonar-draft.md, sonar-research.md, build-sonar-article.mjs). The first
-// translation of this guide: there is no German one yet.
+// translation of this guide; the German followed on 2026-09-23.
 //
 // French keywords, measured 2026-09-18 with keywords-explorer-matching-terms,
 // country fr (keywords/fr-sonar.json): sonar festival 700 a month, sonar
@@ -42,8 +42,8 @@ export default {
   title: 'Sónar Barcelone : histoire, musique et dates 2027',
   description: 'Ce qu’est Sónar, où il a lieu à Barcelone, comment un festival de 6 000 personnes en 1994 est passé à 150 000, à qui il appartient, OFFSónar et les dates 2027.',
   datePublished: '2026-09-18',
-  dateModified: '2026-09-18',
-  dateLabel: '18 septembre 2026',
+  dateModified: '2026-09-23',
+  dateLabel: '23 septembre 2026',
 
   heroKicker: 'Sónar',
   heroTitle: 'Sónar Festival Barcelona',

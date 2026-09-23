@@ -141,6 +141,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - besten clubs in barcelona
 - clubs in barcelona
 
+## de/bass-music.html
+
+- bass music
+- was ist bass music
+- uk bass music
+- ist dubstep bass music
+
 ## de/clubs-berlin.html
 
 - clubs berlin
@@ -279,6 +286,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - primavera sound festival
 - primavera sound 2027
 
+## de/sonar-festival-barcelona.html
+
+- sonar festival
+- sónar festival barcelona
+- sónar 2027
+- off sónar
+- tickets für sónar barcelona
+
 ## de/tomorrowland-festival.html
 
 - tomorrowland
@@ -380,6 +395,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 ## fr/boite-de-nuit-barcelone.html
 
 - boite de nuit barcelone
+
+## fr/bass-music.html
+
+- bass music
+- qu’est-ce que la bass music
+- uk bass music
+- le dubstep est-il de la bass music
 
 ## fr/boite-de-nuit-berlin.html
 
@@ -519,6 +541,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ultra festival en croatie
 - ultra miami 2027
 - ultra europe 2027
+
+## fr/festival-untold.html
+
+- untold festival
+- festival untold
+- festival untold en roumanie
+- untold 2027
+- untold cluj
+- où se trouve untold festival
 
 ## german-electronic-music.html
 

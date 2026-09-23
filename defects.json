@@ -543,7 +543,7 @@
       "id": "bass-music-guide-hotlinked-images",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "The bass music guide hotlinks rights-reserved images from other sites instead of openly licensed local files: assets.boomkat.com, media.npr.org, media.redbullmusicacademy.com, mopop.emuseum.com and www.afropop.org. CLAUDE.md requires openly licensed images, downloaded locally and credited in the caption. Found while choosing the next guide to translate.",
+      "what": "The bass music guide hotlinks rights-reserved images from other sites instead of openly licensed local files: assets.boomkat.com, media.npr.org, media.redbullmusicacademy.com, mopop.emuseum.com and www.afropop.org. CLAUDE.md requires openly licensed images, downloaded locally and credited in the caption. Found while choosing the next guide to translate. The owner decided on 2026-09-23 to translate the guide with the images as they are, so de/bass-music.html and fr/bass-music.html hotlink the same five images and this entry covers all three pages.",
       "should_have_caught": "no audit rejects an <img> whose src is an external URL",
       "fix": null
     },
@@ -554,6 +554,50 @@
       "what": "The seven images on the jungle guide (img/flyers-1200.webp, img/pirate-radio-1200.webp, img/tapepack.png, img/AWOL2.png, img/fabio-1200.webp, img/koolfmbirthday.webp, img/people dancing-1200.webp) carry no photographer or licence in their captions, and nothing in the repository records where they came from. Found while translating the guide into German and French; the translations keep the English captions, translated, rather than guess credits.",
       "should_have_caught": "audit-media.mjs checks media maps, not whether each figure caption carries a credit",
       "fix": null
+    },
+    {
+      "id": "bass-music-dubstep-link-unrendered",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The English bass music guide shows the literal markdown \"[the dubstep guide](/dubstep-guide)\" to readers instead of a link: inline() in build-bass-music-article.mjs only turns https links into anchors, and the draft's one internal link is root-relative. Found while translating the guide into German and French; the translations link to /de/dubstep and /fr/dubstep. Fixing the English page changes what its readers see, so it waits for the owner. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "no audit looks for unrendered markdown link syntax in generated HTML",
+      "fix": {
+        "file": "build-bass-music-article.mjs",
+        "contains": "Links to this site's own pages are root-relative and open in the same tab."
+      }
+    },
+    {
+      "id": "bass-music-meanings-lead-not-rendered",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The English bass music draft opens its section \"Why “bass music” means different things in different scenes\" with a paragraph (\"Genre names behave differently when they move...\") that the page never shows: meaningsHtml in build-bass-music-article.mjs renders only the three subsections. The same generator also drops the draft's last paragraph on footwork and gqom (\"These examples belong in the article...\") in favour of a sentence written in code. Found while translating; the German and French pages follow the published English page and leave both out. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "nothing compares the paragraphs of a draft with the paragraphs its generator publishes",
+      "fix": {
+        "file": "build-bass-music-article.mjs",
+        "contains": "The section's lead paragraph comes before its first subsection"
+      }
+    },
+    {
+      "id": "untold-de-closing-paragraph-diverges",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The closing paragraph of the German Untold guide (de/untold-draft.md, section \"Untold von zu Hause hören\") no longer matches the English page. The English paragraph links EDC Las Vegas, Ultra, Creamfields, Parookaville and, since 2026-09-22, the Europe festivals comparison; the German links only Tomorrowland and Parookaville and says Parookaville is tenth in DJ Mag's list, a claim the English page does not make. German translations of EDC, Ultra, Creamfields and the Europe list now exist. Found while translating Untold into French, which follows the English paragraph. Published copy: the German wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "no audit compares a translation's internal links with its English page's",
+      "fix": {
+        "file": "de/untold-draft.md",
+        "contains": "Wer es mit anderen Festivals vergleichen will, findet hier [die besten Electro-Festivals in Europa](/de/electro-festivals-europa)."
+      }
+    },
+    {
+      "id": "sonar-fr-whole-concerts-and-stale-links",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The French Sónar guide (fr/sonar-draft.md, section \"À écouter\") says ARTE \"filme des concerts entiers\" where the English says it \"has filmed shows\": the emphasis on completeness WRITING.md rules out in every language. Its closing paragraph also sends EDC Las Vegas and Creamfields to the English pages although /fr/edc-las-vegas and /fr/festival-creamfields exist now, and it lacks the Europe festivals link the English paragraph gained on 2026-09-22. Found while translating Sónar into German, which follows the English page. Published copy: the French wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "no audit reads translated pages for the 'full set' emphasis, or compares their internal links with the English page's",
+      "fix": {
+        "file": "fr/sonar-draft.md",
+        "contains": "lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland), d’[EDC Las Vegas](/fr/edc-las-vegas) et de [Creamfields](/fr/festival-creamfields)"
+      }
     }
   ]
 }

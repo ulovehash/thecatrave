@@ -8,8 +8,8 @@ const check = (name, condition, detail = '') => {
 const count = pattern => (html.match(pattern) || []).length;
 
 check('Published date', html.includes('article:published_time" content="2026-08-31"'));
-check('Modified date', html.includes('article:modified_time" content="2026-08-31"'));
-check('Visible updated date', html.includes('<time datetime="2026-08-31">31 August 2026</time>'));
+check('Modified date', html.includes('article:modified_time" content="2026-09-23"'));
+check('Visible updated date', html.includes('<time datetime="2026-09-23">23 September 2026</time>'));
 check('FAQ has five visible questions', count(/<details(?: open)?>/g) === 5, String(count(/<details(?: open)?>/g)));
 check('Two SoundCloud mixes', count(/soundcloud\.com%2Fthecatrave%2Fi-(?:lost-so-many-weekends|like-to-smoke-in-silence)/g) === 2);
 const requiredListeningExamples = {

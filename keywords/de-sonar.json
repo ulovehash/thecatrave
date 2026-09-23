@@ -1,0 +1,55 @@
+{
+  "page": "de/sonar-festival-barcelona.html",
+  "seed": "sonar festival",
+  "source": "Stage 1 Ahrefs volume for the head term, country de (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from the free live Bing de-DE results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "sonar festival",
+      "volume": 350,
+      "note": "Germany; traffic potential 200; unaccented, as the reader's question is quoted in the introduction and the FAQ"
+    },
+    {
+      "term": "sónar festival barcelona",
+      "volume": "not measured",
+      "note": "German result titles; title and H1"
+    },
+    {
+      "term": "sónar 2027",
+      "volume": "not measured",
+      "note": "German result title 'Sónar Festival 2027'; the next edition, carried on every festival guide; refresh yearly"
+    },
+    {
+      "term": "off sónar",
+      "volume": "not measured",
+      "note": "Bing related search 'off sonar 2026 barcelona', without the year; the OFFSónar section"
+    },
+    {
+      "term": "tickets für sónar barcelona",
+      "volume": "not measured",
+      "note": "Bing related search 'sonar festival tickets'; the ticket FAQ, as on the English page"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/sonar.json; the French is keywords/fr-sonar.json.",
+  "rejected": [
+    {
+      "term": "sonar festival 2026",
+      "volume": "not measured",
+      "why": "dated; the 2026 edition is over"
+    },
+    {
+      "term": "sonar 2026 barcelona events",
+      "volume": "not measured",
+      "why": "dated event listings"
+    },
+    {
+      "term": "sónar line-up",
+      "volume": "not measured",
+      "why": "line-up, as on the English page; the 2027 bill is not published"
+    },
+    {
+      "term": "sonora festival",
+      "volume": "not measured",
+      "why": "a different festival, suggested by Bing as a misspelling"
+    }
+  ]
+}

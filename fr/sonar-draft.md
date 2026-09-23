@@ -102,15 +102,15 @@ Les fêtes Off Sónar sont l’endroit où une grande partie de la musique de cl
 
 [Embed: Adam Beyer b2b Enrico Sangiuliano, Drumcode Off Sónar, DJ Mag, IeKlNAuzW8A]
 
-Notre propre catalogue montre le même schéma. Sur les DJ sets derrière [le Selector](/selector), 13 mentionnent Sónar et aucun ne vient du festival lui-même. Quatre sont des diffusions de Beatport depuis Brunch Electronik et Circoloco à OFFSónar, menées par Miss Monique en 2023, avec 788 000 vues.
+Notre propre catalogue montre le même schéma. Sur les DJ sets derrière [le Selector](/fr/selector), 13 mentionnent Sónar et aucun ne vient du festival lui-même. Quatre sont des diffusions de Beatport depuis Brunch Electronik et Circoloco à OFFSónar, menées par Miss Monique en 2023, avec 788 000 vues.
 
 ## À écouter
 
-Depuis 2024, ARTE, la chaîne franco-allemande, filme des concerts entiers à Sónar et les publie sur sa chaîne ARTE Concert. Les deux ci-dessous viennent du même vendredi soir sur SonarClub en 2024 : Ben Böhmer en live, le plus vu des films d’ARTE à Sónar Barcelone avec environ 215 000 vues en septembre 2026, et DEX EFX X0X de Richie Hawtin.
+Depuis 2024, ARTE, la chaîne franco-allemande, filme des concerts à Sónar et les publie sur sa chaîne ARTE Concert. Les deux ci-dessous viennent du même vendredi soir sur SonarClub en 2024 : Ben Böhmer en live, le plus vu des films d’ARTE à Sónar Barcelone avec environ 215 000 vues en septembre 2026, et DEX EFX X0X de Richie Hawtin.
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
-Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland) et, en anglais, d’[EDC Las Vegas](/edc-las-vegas) et de [Creamfields](/creamfields-festival). Et [le Selector](/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir.
+Pour les autres festivals de cette série, lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland), d’[EDC Las Vegas](/fr/edc-las-vegas) et de [Creamfields](/fr/festival-creamfields). Et [le Selector](/fr/selector) lance un DJ set au hasard parmi {{catalogue-sets}} enregistrements, si vous préférez ne pas choisir. Vous le comparez à d’autres festivals ? Voir [les meilleurs festivals électro en Europe](/fr/festivals-electro-europe).
 
 ## FAQ
 

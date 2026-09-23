@@ -1,5 +1,19 @@
 # Translation research
 
+## Untold, Sónar and bass music, German and French (2026-09-23)
+
+Four pages: `/fr/festival-untold` and `/de/sonar-festival-barcelona`, the two
+single-language gaps with the most demand (FR untold festival 450 / TP 250, DE
+sonar festival 350 / TP 200), then `/de/bass-music` and `/fr/bass-music`. No
+Ahrefs units spent; Google returned its bot check, so the wording came from
+Bing de-DE and fr-FR. Bass music was paused before translation for its
+hotlinked rights-reserved images; the owner chose to translate it with the
+images as they are, and the defect now covers three pages. Four defects found
+in the English and earlier translated pages were logged, then fixed with the
+owner's approval of the exact wording. Decisions: `untold-sonar-bass-music-translation-research.md`.
+Next: French London clubs (weak fit), then the guides with little measured
+demand.
+
 ## Creamfields, jungle and breakbeat, German and French (2026-09-23)
 
 Six pages: `/de/creamfields-festival`, `/fr/festival-creamfields`,

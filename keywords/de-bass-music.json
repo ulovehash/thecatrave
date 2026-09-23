@@ -1,0 +1,50 @@
+{
+  "page": "de/bass-music.html",
+  "seed": "bass music",
+  "source": "Stage 1 Ahrefs volume for the head term, country de (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from the free live Bing de-DE results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "bass music",
+      "volume": 100,
+      "note": "Germany; traffic potential 10; German writes it as a loanword, 'Bass Music'; title, H1 and throughout"
+    },
+    {
+      "term": "was ist bass music",
+      "volume": "not measured",
+      "note": "searched in these words; its results mix the English Wikipedia article with pages on the instrument; title and H1"
+    },
+    {
+      "term": "uk bass music",
+      "volume": "not measured",
+      "note": "the English page's own section and FAQ"
+    },
+    {
+      "term": "ist dubstep bass music",
+      "volume": "not measured",
+      "note": "the English page's FAQ, asked in those words"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/bass-music.json.",
+  "rejected": [
+    {
+      "term": "lieder mit bass",
+      "volume": "not measured",
+      "why": "another intent: songs with heavy bass, playlists (Bing de-DE results and related searches 'bass lieder', 'die besten bass lieder')"
+    },
+    {
+      "term": "bass music download",
+      "volume": "not measured",
+      "why": "files; this site hands out none (WRITING.md)"
+    },
+    {
+      "term": "was ist ein bass instrument",
+      "volume": "not measured",
+      "why": "the instrument, not the music"
+    },
+    {
+      "term": "bass music 2025",
+      "volume": "not measured",
+      "why": "dated playlists and mixes"
+    }
+  ]
+}

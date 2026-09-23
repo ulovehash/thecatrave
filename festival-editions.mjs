@@ -9,6 +9,9 @@
 // official site, read on 2026-09-14.
 export const festivalEditions = [
   {page: 'untold-festival.html', heading: 'Untold 2027', ends: '2027-08-08'},
+  // The French translation carries the same dates and rolls with the English
+  // page.
+  {page: 'fr/festival-untold.html', heading: 'Untold 2027', ends: '2027-08-08'},
   {page: 'what-is-coachella.html', heading: 'Coachella 2027', ends: '2027-04-18'},
   // Expected 29 July to 1 August 2027 from listings; null until the festival
   // confirms, so the build keeps reminding.
@@ -31,6 +34,7 @@ export const festivalEditions = [
   {page: 'de/creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
   {page: 'fr/festival-creamfields.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
   {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'},
+  {page: 'de/sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'},
   // The Europe comparison carries fourteen festivals and seven smaller ones.
   // null while any of them has no 2027 date (on 2026-09-22: Tomorrowland,
   // Dekmantel, Monegros, Garbicz, Houghton, Draaimolen, Freerotation, and

@@ -6,12 +6,14 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('bass-music-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/bass-music-guide';
 const title = 'What Is Bass Music? History, Genres and Essential Tracks';
 const description = 'What bass music means and how sound-system culture, Miami bass, UK rave, Los Angeles, Chicago and Durban shaped its global history.';
 const date = '2026-08-31';
+const modified = '2026-09-23';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -19,6 +21,10 @@ const escapeHtml = value => String(value)
 function inline(value) {
   let text = escapeHtml(String(value).replace(/—/g, ':'));
   text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+  // Links to this site's own pages are root-relative and open in the same tab.
+  // Without this the dubstep guide link showed as raw markdown (defects.json,
+  // bass-music-dubstep-link-unrendered).
+  text = text.replace(/\[([^\]]+)\]\((\/[^)]*)\)/g, '<a href="$2">$1</a>');
   text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   text = text.replace(/`([^`]+)`/g, '<span class="inline-term">$1</span>');
   text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
@@ -167,7 +173,10 @@ const originHtml = `
 
 const umbrellaHtml = `${umbrella.slice(0,2).map(value=>p(value)).join('')}${nightSlugs}${umbrella.slice(2).map(value=>p(value)).join('')}${youtube('Aa_PDKKc2_A','Joy Orbison, Hyph Mngo')}`;
 
-const meaningsHtml = `
+// The section's lead paragraph comes before its first subsection (defects.json,
+// bass-music-meanings-lead-not-rendered).
+const meaningsLead = paragraphs(meanings.slice(0, meanings.indexOf('### ')));
+const meaningsHtml = `${meaningsLead.map(value=>p(value)).join('')}
   <h3>UK bass music and the British bass continuum</h3>${ukMeaning.map(value=>p(value)).join('')}${youtube('--jr22La8Nk','Digital Mystikz, Anti War Dub')}
   <h3>American bass music: Miami, Los Angeles and the festival circuit</h3>${usMeaning.slice(0,2).map(value=>p(value)).join('')}${laBeatListening}${usMeaning.slice(2).map(value=>p(value)).join('')}
   ${articleVideoCollection({description:'Two records that show how North American bass music changed scale and crossed into festival culture.',items:[articleVideoCard({youtubeId:'WSeNSzJ2-Jw',genre:'AMERICAN DUBSTEP',artist:'Skrillex',title:'Scary Monsters and Nice Sprites'}),articleVideoCard({youtubeId:'6HzyUHxmkg0',genre:'ELECTRONIC TRAP',artist:'TNGHT',title:'Higher Ground'})]})}
@@ -256,7 +265,7 @@ const startingRoutes = ['Route one: systems and foundations','Route two: the Bri
 const startingHtml = `${p(startingIntro)}<div class="bass-starting-routes">${startingRoutes.map((name,index)=>`<div class="bass-route-card"><span>0${index+1}</span><h3>${inline(name.replace(/^Route (?:one|two|three): /,''))}</h3>${p(paragraphs(getSubsection(starting,name))[0])}</div>`).join('')}</div>${p('A playlist offers breadth. A mix adds sequencing, tension and the choices of a particular DJ. Both are useful because bass music is as much a way of connecting records as it is a way of classifying them.')}`;
 
 const articleHtml = [
-  articleHero({kicker:'Bass music guide',title:'What is bass music?',deck:'A scene-led history across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',readingTime:`${Math.max(12,Math.round(draft.split(/\s+/).length/225))} min read`,dateModified:date,dateLabel:'31 August 2026',summaryHtml:infoBanner({label:'Bass music definition',bodyHtml:inline(definition[0]),className:'article-summary'}),tocItems}),
+  articleHero({kicker:'Bass music guide',title:'What is bass music?',deck:'A scene-led history across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',readingTime:`${Math.max(12,Math.round(draft.split(/\s+/).length/225))} min read`,dateModified:modified,dateLabel:'23 September 2026',summaryHtml:infoBanner({label:'Bass music definition',bodyHtml:inline(definition[0]),className:'article-summary'}),tocItems}),
   articleSection({id:'introduction',title:'Bass music is not one sound.',bodyHtml:`${render(intro)}${p(definition[1])}${globalVisual}`,className:'article-intro'}),
   articleSection({id:'origins',title:'Where did bass music come from?',kicker:'Jamaica / Miami / Britain',bodyHtml:originHtml}),
   articleSection({id:'umbrella',title:'How “bass music” became an umbrella term and travelled.',bodyHtml:umbrellaHtml}),
@@ -275,10 +284,10 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline:title,description,canonical,image:'https://thecatrave.com/img/bass-music/miami-bass-loc-ace-vic-1400.jpg',datePublished:date,dateModified:date}),
+  articleStructuredData({headline:title,description,canonical,image:'https://thecatrave.com/img/bass-music/miami-bass-loc-ace-vic-1400.jpg',datePublished:date,dateModified:modified}),
   breadcrumbStructuredData({name:'Bass Music Guide',canonical}), faqStructuredData({items:faqItems})
 ];
 
-const html = articlePage({title,description,canonical,ogImage:'https://thecatrave.com/img/og/bass-music.jpg',datePublished:date,dateModified:date,bodyClass:'article-page bass-music-page',structuredData,articleHtml}).replace(/—/g, ':');
+const html = articlePage({alternates:alternatesFor('/bass-music-guide'),title,description,canonical,ogImage:'https://thecatrave.com/img/og/bass-music.jpg',datePublished:date,dateModified:modified,bodyClass:'article-page bass-music-page',structuredData,articleHtml}).replace(/—/g, ':');
 fs.writeFileSync('bass-music-guide.html', html);
 console.log('Built bass-music-guide.html');

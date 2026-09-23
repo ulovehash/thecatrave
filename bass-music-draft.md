@@ -114,7 +114,7 @@ Chicago footwork came from house, ghetto house, dance crews and competitive batt
 
 Gqom emerged in Durban from local house traditions, township parties, taxi culture and informal digital distribution. International labels and UK club collaborations later placed it beside bass-oriented music. [Resident Advisor's conversation with DJ Lag and Nan Kolè](https://ra.co/exchange/336) makes the local infrastructure clear: MP3 sites, Facebook groups, WhatsApp and taxi playback were central to the sound's growth.
 
-These examples belong in the article because they show how bass-oriented club networks exchange rhythm. They should remain footwork and gqom, not become supporting characters in a story whose vocabulary is assumed to be universal.
+Together, footwork and gqom show how bass-oriented club networks exchange rhythm without turning distinct local scenes into supporting characters in one universal story.
 
 ## Types of bass music: a scene-by-scene listening map
 

@@ -35,8 +35,8 @@ export default {
   title: 'Untold Festival 2027: Termine, Ort, Größe und Musik',
   description: 'Das Untold Festival läuft jeden August in Cluj-Napoca in Siebenbürgen. Termine 2027, Ort, Besucherzahlen, Veranstalter und welche Musik dort läuft.',
   datePublished: '2026-09-17',
-  dateModified: '2026-09-17',
-  dateLabel: '17. September 2026',
+  dateModified: '2026-09-23',
+  dateLabel: '23. September 2026',
 
   heroKicker: 'Untold',
   heroTitle: 'Untold Festival',

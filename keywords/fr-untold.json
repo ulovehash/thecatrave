@@ -1,0 +1,60 @@
+{
+  "page": "fr/festival-untold.html",
+  "seed": "untold festival",
+  "source": "Stage 1 and French stage 2 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 and 18 September 2026); the rest from the free live Bing fr-FR results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "untold festival",
+      "volume": 450,
+      "note": "France; traffic potential 250; title, H1 and throughout"
+    },
+    {
+      "term": "festival untold",
+      "volume": "not measured",
+      "note": "French result titles write 'Festival UNTOLD'; introduction and where section"
+    },
+    {
+      "term": "festival untold en roumanie",
+      "volume": "not measured",
+      "note": "French result titles ('festival en Roumanie', 'le géant roumain'); Bing related search 'untold festival romania'; the where section; the title says 'en Roumanie'"
+    },
+    {
+      "term": "untold 2027",
+      "volume": "not measured",
+      "note": "the next edition, 5 to 8 August 2027, the Star Edition; carried on every festival guide; refresh yearly"
+    },
+    {
+      "term": "untold cluj",
+      "volume": "not measured",
+      "note": "result titles name Cluj; the where section"
+    },
+    {
+      "term": "où se trouve untold festival",
+      "volume": "not measured",
+      "note": "the English page's own question, in the where section and the FAQ"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/untold.json; the German is keywords/de-untold.json.",
+  "rejected": [
+    {
+      "term": "dracula untold",
+      "volume": "not measured",
+      "why": "collision: the 2014 film, in the same Bing results"
+    },
+    {
+      "term": "untold festival 2026",
+      "volume": "not measured",
+      "why": "dated; the 2026 edition is over"
+    },
+    {
+      "term": "untold programmation",
+      "volume": "not measured",
+      "why": "line-up, as on the English page; the 2027 bill is not published"
+    },
+    {
+      "term": "untold camping",
+      "volume": "not measured",
+      "why": "a French result title covers camping; the English page does not, and nothing is added"
+    }
+  ]
+}

@@ -31,6 +31,9 @@
 //   image                image for the Article structured data
 //   sourcesNote          a last Sources line that is not a link, such as where
 //                        the set counts come from
+//
+// A draft paragraph starting with "> " renders as a note (<p class=
+// "article-note">), for the bass music guide's listening notes.
 import fs from 'node:fs';
 import {withCatalogue} from './catalogue.mjs';
 import path from 'node:path';
@@ -87,6 +90,9 @@ export function buildLocalizedArticle(content) {
     if (paragraph.startsWith('- ')) {
       return `<ul>${paragraph.split(/\n(?=- )/).map(item => `<li>${inline(item.slice(2).replace(/\s+/g, ' '))}</li>`).join('')}</ul>`;
     }
+    // "> " marks a note, as the English bass music generator styles its
+    // "What to listen for" and "Start with" lines.
+    if (paragraph.startsWith('> ')) return `<p class="article-note">${inline(paragraph.slice(2))}</p>`;
     if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) return `<p>${inline(paragraph)}</p>`;
     // Longest match wins, as in the English generators: "Sisyphos" is also
     // inside "Teenage Mutants live from Sisyphos".

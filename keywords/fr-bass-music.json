@@ -1,0 +1,50 @@
+{
+  "page": "fr/bass-music.html",
+  "seed": "bass music",
+  "source": "Stage 1 and French stage 2 Ahrefs volume for the head term, country fr (TRANSLATION-RESEARCH.md, 17 and 18 September 2026); the rest from the free live Bing fr-FR results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "bass music",
+      "volume": 80,
+      "note": "France; traffic potential 100; fr.wikipedia's 'Bass music' ranks first; title, H1 and throughout"
+    },
+    {
+      "term": "qu’est-ce que la bass music",
+      "volume": "not measured",
+      "note": "a French result title asks it in these words ('Qu'est-ce que la Bass Music ?'); title and H1"
+    },
+    {
+      "term": "uk bass music",
+      "volume": "not measured",
+      "note": "the English page's own section and FAQ"
+    },
+    {
+      "term": "le dubstep est-il de la bass music",
+      "volume": "not measured",
+      "note": "the English page's FAQ, asked in those words"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/bass-music.json.",
+  "rejected": [
+    {
+      "term": "musique avec des basses",
+      "volume": "not measured",
+      "why": "another intent: songs with heavy bass (Bing fr-FR related searches, with 'musique avec beaucoup de basse')"
+    },
+    {
+      "term": "musique electro bass",
+      "volume": "not measured",
+      "why": "Bing fr-FR related search; a generic phrase for bass-heavy electronic music that the page would have to wedge in"
+    },
+    {
+      "term": "bass music download",
+      "volume": "not measured",
+      "why": "files; this site hands out none (WRITING.md)"
+    },
+    {
+      "term": "basses électriques",
+      "volume": "not measured",
+      "why": "the instrument, in the same results"
+    }
+  ]
+}
