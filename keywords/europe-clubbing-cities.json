@@ -1,0 +1,76 @@
+{
+  "page": "best-clubbing-cities-in-europe.html",
+  "seed": "best clubbing cities in europe",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-23. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range, the conservative figure, and 'range' is what the tool showed. No Ahrefs figure exists for these terms: no units were spent (TOPIC-DOSSIERS.md, 'Клубные города (волна 2)').",
+  "note": "Scope decided 2026-09-23: clubbing cities, with beach resorts named only to set them aside. The broader 'party cities' wording carries the volume and is answered in the introduction and FAQ.",
+  "terms": [
+    {
+      "term": "best clubbing cities in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best party cities in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "party cities in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best nightlife cities in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best cities in europe for partying",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best nightclubs in prague",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "biggest party cities in europe",
+      "volume": 100,
+      "range": "100-1K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner head check and idea expansion on 'best clubbing cities in europe' and 'best party cities in europe'; live Google SERP for both (US/en), 2026-09-23",
+  "rejected": [
+    {
+      "term": "best party places in europe",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "the phrase appears only in the title of a cited source, so it is not claimed"
+    },
+    {
+      "term": "stag do destinations europe",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "stag trips, excluded by scope"
+    },
+    {
+      "term": "best bachelor party destinations europe",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "bachelor parties, excluded by scope"
+    },
+    {
+      "term": "best nightclubs krakow",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "the page names Prozak 2.0 in Krakow but does not rank Krakow nightclubs; left out rather than wedged in"
+    },
+    {
+      "term": "best techno cities in europe",
+      "volume": 10,
+      "range": "10-100",
+      "why": "too small to shape the page"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "page": "best-clubs-in-ibiza.html",
+  "seed": "best clubs in ibiza",
+  "source": "FIGURES.md adapted from people to clubs, 2026-09-23. S1 search demand and PAA; S4 consensus lists read: Dirty Disco (28 March 2026), Tickets Ibiza, Ibiza Spotlight and the Mixmag club map as snippets, Tripadvisor; S5 history: Wikipedia, Ibiza Spotlight, Resident Advisor, Mixmag. Rule: required means 3+ sources or S5 at all.",
+  "required_records": [
+    {
+      "title": "Pacha",
+      "artist": "club, 1973-",
+      "why": "S5 Ibiza Spotlight, RA, Wikipedia; every list",
+      "sources": [
+        "ibizaspotlight",
+        "ra",
+        "wikipedia",
+        "dirtydisco",
+        "ticketsibiza"
+      ],
+      "embed_id": "vbWFtk0JnqE"
+    },
+    {
+      "title": "Amnesia",
+      "artist": "club, 1976-",
+      "why": "S5 Wikipedia, RA; every list",
+      "sources": [
+        "wikipedia",
+        "ra",
+        "dirtydisco",
+        "ticketsibiza",
+        "mixmag-map"
+      ],
+      "no_embed_reason": "no Amnesia-filmed set chosen; the Cocoon set beside it was filmed at Pacha and is labelled so"
+    },
+    {
+      "title": "Space",
+      "artist": "club, 1986 to 2016",
+      "why": "S5 Wikipedia",
+      "sources": [
+        "wikipedia"
+      ],
+      "embed_id": "bSto8j4ziCg"
+    },
+    {
+      "title": "Privilege",
+      "artist": "club, as Ku 1979, Privilege 1995 to 2019",
+      "why": "S5 Wikipedia, RA, Mixmag",
+      "sources": [
+        "wikipedia",
+        "ra",
+        "mixmag"
+      ],
+      "no_embed_reason": "a venue; carried by a photograph on the page"
+    },
+    {
+      "title": "Hï Ibiza",
+      "artist": "club, 2017-",
+      "why": "every list; DJ Mag",
+      "sources": [
+        "dirtydisco",
+        "ticketsibiza",
+        "ibizaspotlight",
+        "djmag"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "DC-10",
+      "artist": "club, 1999-",
+      "why": "Dirty Disco, Tickets Ibiza, Mixmag map; S5 Wikipedia",
+      "sources": [
+        "dirtydisco",
+        "ticketsibiza",
+        "mixmag-map",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Ushuaïa",
+      "artist": "club, 2011-",
+      "why": "Dirty Disco, Tickets Ibiza, Ibiza Spotlight",
+      "sources": [
+        "dirtydisco",
+        "ticketsibiza",
+        "ibizaspotlight"
+      ],
+      "embed_id": "yvG85jBbjaE"
+    },
+    {
+      "title": "[UNVRS]",
+      "artist": "club, 2025-",
+      "why": "Dirty Disco, Tickets Ibiza, Ibiza Spotlight, RA",
+      "sources": [
+        "dirtydisco",
+        "ticketsibiza",
+        "ibizaspotlight",
+        "ra"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "Eden",
+      "sources": [
+        "ticketsibiza",
+        "mixmag-map"
+      ],
+      "why": "two sources; left out"
+    },
+    {
+      "title": "Es Paradis",
+      "sources": [
+        "ibizaspotlight",
+        "mixmag-map"
+      ],
+      "why": "two sources; named for San Antonio"
+    },
+    {
+      "title": "Akasha",
+      "sources": [
+        "ibizaspotlight"
+      ],
+      "why": "one source"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Season dates",
+      "why": "opening and closing dates come from ticket sellers only; the page gives the season in months, not days, and must be checked every spring"
+    },
+    {
+      "title": "Ibiza Spotlight club directory in full",
+      "why": "its URL was not found; only its SERP snippet was read"
+    }
+  ]
+}

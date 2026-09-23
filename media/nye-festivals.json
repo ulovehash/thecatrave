@@ -1,0 +1,125 @@
+{
+  "page": "new-years-eve-festivals.html",
+  "seed": "new years eve festivals",
+  "source": "FIGURES.md adapted from people to festivals, 2026-09-23. S1 search demand (festival names measured in Keyword Planner: Decadence NYE, CRSSD Proper NYE, Countdown); S4 lists read: iEDM (snippet), Music Festival Wizard (snippet; its pages sat behind a bot check that was not bypassed), Reddit r/EDM and r/aves, europa.tips, Outlook Traveller, Jones Around the World; S5 each festival's own site and Wikipedia. Rule: required means 3+ sources.",
+  "required_records": [
+    {
+      "title": "Countdown NYE",
+      "artist": "Insomniac, San Bernardino",
+      "why": "S1, iEDM, Music Festival Wizard, the SERP",
+      "sources": [
+        "planner",
+        "iedm",
+        "mfw",
+        "serp"
+      ],
+      "embed_id": "hCP_UosWZlI"
+    },
+    {
+      "title": "Decadence NYE",
+      "artist": "Denver and Arizona",
+      "why": "S1, iEDM, Reddit",
+      "sources": [
+        "planner",
+        "iedm",
+        "reddit"
+      ],
+      "no_embed_reason": "no official film on the festival's own channel was found"
+    },
+    {
+      "title": "HiJinx",
+      "artist": "Philadelphia",
+      "why": "iEDM, Music Festival Wizard, Reddit",
+      "sources": [
+        "iedm",
+        "mfw",
+        "reddit"
+      ],
+      "no_embed_reason": "no official film found"
+    },
+    {
+      "title": "Lights All Night",
+      "artist": "Dallas",
+      "why": "iEDM, Reddit, Exron",
+      "sources": [
+        "iedm",
+        "reddit",
+        "exron"
+      ],
+      "no_embed_reason": "no official film found"
+    },
+    {
+      "title": "Rhythm and Vines",
+      "artist": "Gisborne, New Zealand",
+      "why": "Outlook Traveller, newzealand.com, Wikipedia",
+      "sources": [
+        "outlook",
+        "nzcom",
+        "wikipedia"
+      ],
+      "embed_id": "26R8sSY7tJ4"
+    },
+    {
+      "title": "Awakenings",
+      "artist": "Gashouder, Amsterdam",
+      "why": "europa.tips, Wikipedia, its own channel",
+      "sources": [
+        "europatips",
+        "wikipedia",
+        "awakenings"
+      ],
+      "embed_id": "OtLn2sm0bP0"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "CRSSD Proper NYE",
+      "sources": [
+        "planner",
+        "serp"
+      ],
+      "why": "two sources; included"
+    },
+    {
+      "title": "Eternal NYE",
+      "sources": [
+        "serp",
+        "mfw"
+      ],
+      "why": "two sources; included"
+    },
+    {
+      "title": "Beyond the Valley",
+      "sources": [
+        "jones",
+        "wikipedia"
+      ],
+      "why": "two sources; included",
+      "embed_id": "AkKskQ_VnwY"
+    },
+    {
+      "title": "Field Day",
+      "sources": [
+        "jones"
+      ],
+      "why": "one source; included with the description that source gives"
+    },
+    {
+      "title": "Zamna",
+      "sources": [
+        "serp"
+      ],
+      "why": "its New Year's Eve date was not confirmed; left out"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Dates still unannounced",
+      "why": "Lights All Night, Eternal NYE, Awakenings, Rhythm and Vines and Beyond the Valley 2026 dates were not published on 2026-09-23; the table says so"
+    },
+    {
+      "title": "Europe beyond Awakenings",
+      "why": "no second European New Year's Eve festival with a reliable source was found"
+    }
+  ]
+}

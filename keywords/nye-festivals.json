@@ -1,0 +1,65 @@
+{
+  "page": "new-years-eve-festivals.html",
+  "seed": "new years eve festivals",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-23. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range, the conservative figure, and 'range' is what the tool showed. No Ahrefs figure exists for these terms: no units were spent (TOPIC-DOSSIERS.md, 'Клубные города (волна 2)').",
+  "note": "Measured without apostrophes ('new years eve festivals'); Google treats the two spellings as one query, and the audit reads the page's straight apostrophe, so the terms are recorded as the page spells them. 'new year's music festivals' is recorded against People also search for 'new years music festivals Europe' and the Planner's 'best new years festivals' range. 'decadence nye' is a festival's own name, listed on the page, not a heading target.",
+  "terms": [
+    {
+      "term": "new year's eve festivals",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "nye festivals",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best new year's eve festivals",
+      "volume": 10,
+      "range": "10-100"
+    },
+    {
+      "term": "countdown festival",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "decadence nye",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "new year's music festivals",
+      "volume": 10,
+      "range": "10-100"
+    }
+  ],
+  "expansion_checked": "Keyword Planner head check and idea expansion on 'new years eve festivals' and 'nye festivals'; live Google SERP for both (US/en), 2026-09-23",
+  "rejected": [
+    {
+      "term": "events near me for new years eve",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "local listings, a different intent"
+    },
+    {
+      "term": "chinese new year eve",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "a different holiday"
+    },
+    {
+      "term": "nye tickets",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "transactional"
+    },
+    {
+      "term": "new years festivals",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "measured without an apostrophe; the page carries the correctly spelled phrases instead of the misspelling"
+    }
+  ]
+}

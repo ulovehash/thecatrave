@@ -10,6 +10,17 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - what is acid house
 - acid house music
 
+## best-clubs-in-amsterdam.html
+
+- amsterdam clubs
+- amsterdam nightlife
+- best clubs in amsterdam
+- best nightclubs in amsterdam
+- hottest club in amsterdam
+- top clubs in amsterdam
+- famous club in amsterdam
+- biggest nightclub in amsterdam
+
 ## best-clubs-in-barcelona.html
 
 - best clubs in barcelona
@@ -382,6 +393,16 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people attend edc
 - when did edc start
 
+## best-clubbing-cities-in-europe.html
+
+- best clubbing cities in europe
+- best party cities in europe
+- party cities in europe
+- best nightlife cities in europe
+- best cities in europe for partying
+- best nightclubs in prague
+- biggest party cities in europe
+
 ## best-electronic-music-festivals-europe.html
 
 - electronic music festivals in europe
@@ -620,6 +641,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ways to discover new music
 - find similar music
 
+## best-clubs-in-ibiza.html
+
+- ibiza clubs
+- ibiza nightlife
+- best clubs in ibiza
+- best nightclubs in ibiza
+- best club nights in ibiza
+- best day club in ibiza
+- best club in san antonio
+- best party location in ibiza
+- famous clubs in ibiza
+
 ## jungle-music-guide.html
 
 - jungle music
@@ -690,6 +723,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - mysteryland netherlands
 - where is mysteryland
 - mysteryland usa
+
+## new-years-eve-festivals.html
+
+- new year's eve festivals
+- nye festivals
+- best new year's eve festivals
+- countdown festival
+- decadence nye
+- new year's music festivals
 
 ## best-clubs-in-paris.html
 

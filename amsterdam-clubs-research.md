@@ -1,6 +1,6 @@
 # Best clubs in Amsterdam: research package
 
-Status: pre-writing, stage 6 verdict not run. Evidence trail also logged in
+Status: written and built 2026-09-23 as `/best-clubs-in-amsterdam` on the owner's instruction ("go all 4"); not pushed. Stage 6 verdict not run as a separate pass. The draft, generator, keyword map and media map are the handoff; this file records the research as it stood before writing. Evidence trail also logged in
 `TOPIC-DOSSIERS.md` under "Клубные города (волна 2) + фестивальные углы
 вместо сезонов (2026-09-23)". Tools: Google Ads Keyword Planner (owner's
 account, **All locations**, All languages, Google, Sep 2025 – Aug 2026) and a

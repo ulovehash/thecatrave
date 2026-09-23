@@ -1540,3 +1540,17 @@ europenightlife best techno cities, partiesnearme 2026, wepartynow), не по
   1976, Ku 1979). Не закрыто: второй источник для части дат (Space, De
   School, Privilege), четырёхисточниковая сверка списков, картинки, стадия 6.
   Music Festival Wizard и RA закрыты бот-проверкой/403 — не обходить.
+- **Написаны 2026-09-23** (владелец: «go all 4»), собраны, не запушены:
+  `/best-clubs-in-amsterdam`, `/best-clubs-in-ibiza`,
+  `/best-clubbing-cities-in-europe`, `/new-years-eve-festivals`. Скоуп
+  Europe: клубные города, курорты названы только чтобы их отделить. Для
+  каждой: `*-draft.md`, `build-*-article.mjs`, `keywords/*.json` (volume =
+  нижняя граница диапазона Keyword Planner, диапазон в поле `range`),
+  `media/*.json` (FIGURES.md, адаптация под клубы/города/фестивали),
+  картинки с Wikimedia Commons (CC BY / CC BY-SA, в подписях), видео из
+  каталога Selector и официальных каналов фестивалей, проверены oEmbed.
+  NYE внесён в `festival-editions.mjs` (New Year's Eve 2026, ends
+  2027-01-01). Найден и исправлен дефект
+  `og-card-manifest-double-quoted-title`. Не закрыто: стадия 6, даты
+  2026 для Lights All Night / Eternal / Awakenings / R&V / Beyond the Valley,
+  переводы de/fr.

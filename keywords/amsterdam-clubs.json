@@ -1,0 +1,99 @@
+{
+  "page": "best-clubs-in-amsterdam.html",
+  "seed": "best clubs in amsterdam",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-23. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range, the conservative figure, and 'range' is what the tool showed. No Ahrefs figure exists for these terms: no units were spent (TOPIC-DOSSIERS.md, 'Клубные города (волна 2)').",
+  "note": "Idea expansion read 100 of 115 rows; the real volume sits in the head and in near-synonyms of it ('good', 'cool', 'hottest', 'top'). Excluded bar, gay, jazz and strip intents share the word 'club'.",
+  "terms": [
+    {
+      "term": "amsterdam clubs",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "amsterdam nightlife",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "best clubs in amsterdam",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best nightclubs in amsterdam",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "hottest club in amsterdam",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "top clubs in amsterdam",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "famous club in amsterdam",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "biggest nightclub in amsterdam",
+      "volume": 100,
+      "range": "100-1K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner head check (44 terms) and idea expansion on 'best clubs in amsterdam'; live Google SERP for 'best clubs in amsterdam' and 'amsterdam clubs' (US/en), 2026-09-23",
+  "rejected": [
+    {
+      "term": "best night clubs in amsterdam",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "a spelling variant of a term already on the page; left out rather than wedged in"
+    },
+    {
+      "term": "best techno clubs amsterdam",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "the page carries it as the heading \"Best techno clubs in Amsterdam\"; the measured word order without \"in\" is not written anywhere on purpose"
+    },
+    {
+      "term": "best cocktail bars amsterdam",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "bars, a different intent"
+    },
+    {
+      "term": "best amsterdam bars",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "bars, a different intent"
+    },
+    {
+      "term": "best gay club amsterdam",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "a separate angle, not this page"
+    },
+    {
+      "term": "best jazz club amsterdam",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "a different genre"
+    },
+    {
+      "term": "best strip bar in amsterdam",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "collision on the word club"
+    },
+    {
+      "term": "amsterdam clubs football",
+      "volume": 10,
+      "range": "10-100",
+      "why": "football clubs, from People also search for; a pure collision"
+    }
+  ]
+}

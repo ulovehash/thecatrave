@@ -1,0 +1,178 @@
+{
+  "page": "best-clubs-in-amsterdam.html",
+  "seed": "best clubs in amsterdam",
+  "source": "FIGURES.md adapted from people to clubs, 2026-09-23, same method as the Paris and Barcelona maps. S1 search demand (Google Ads Keyword Planner, live Google SERP and People also search for); S4 the consensus lists read: Time Out (updated 7 February 2025), Dirty Disco (9 May 2025), the RA and I amsterdam listings as search snippets, and the r/TheOverload threads shown in the SERP; S5 history: Vice 'Amsterdam's Most Legendary Clubs', VPRO 3voor12, Rozenberg Quarterly, Wikipedia. Rule: required means 3+ sources or S5 at all.",
+  "required_records": [
+    {
+      "title": "RoXY",
+      "artist": "club, 1987 to 1999",
+      "why": "the cradle of Dutch dance music; burned down in 1999 (S5: Vice, 3voor12, Rozenberg)",
+      "sources": [
+        "vice",
+        "3voor12",
+        "rozenberg"
+      ],
+      "no_embed_reason": "a club, closed in 1999"
+    },
+    {
+      "title": "Paradiso",
+      "artist": "venue, 1968-",
+      "why": "opened as a venue on 30 March 1968; 1991 house night (S4: I amsterdam, RA, Reddit; S5: Vice, Wikipedia)",
+      "sources": [
+        "iamsterdam",
+        "ra",
+        "vice",
+        "wikipedia"
+      ],
+      "no_embed_reason": "a venue; carried by a photograph on the page"
+    },
+    {
+      "title": "Melkweg",
+      "artist": "venue, 1970-",
+      "why": "first hall to programme house regularly (S4: Time Out, Dirty Disco, RA, I amsterdam; S5: Vice)",
+      "sources": [
+        "timeout",
+        "dirtydisco",
+        "ra",
+        "iamsterdam",
+        "vice"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "De School",
+      "artist": "club, 2016 to 2024",
+      "why": "24-hour club in a former technical school, closed January 2024 (S5: Wikipedia, 3voor12)",
+      "sources": [
+        "wikipedia",
+        "3voor12"
+      ],
+      "no_embed_reason": "a club, closed"
+    },
+    {
+      "title": "Club 11",
+      "artist": "club, 2004 to 2008",
+      "why": "the post-RoXY restart (S5: Vice, 3voor12)",
+      "sources": [
+        "vice",
+        "3voor12"
+      ],
+      "no_embed_reason": "a club, closed"
+    },
+    {
+      "title": "Shelter",
+      "artist": "club, 2016-",
+      "why": "named by Dirty Disco, RA, I amsterdam and Reddit",
+      "sources": [
+        "dirtydisco",
+        "ra",
+        "iamsterdam",
+        "reddit"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Radion",
+      "artist": "club, 2014-",
+      "why": "named by Time Out, Dirty Disco, RA and Reddit",
+      "sources": [
+        "timeout",
+        "dirtydisco",
+        "ra",
+        "reddit"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Lofi",
+      "artist": "club",
+      "why": "named by Time Out, Dirty Disco, RA and Reddit",
+      "sources": [
+        "timeout",
+        "dirtydisco",
+        "ra",
+        "reddit"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Garage Noord",
+      "artist": "club",
+      "why": "named by Time Out, Dirty Disco and Reddit",
+      "sources": [
+        "timeout",
+        "dirtydisco",
+        "reddit"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Warehouse Elementenstraat",
+      "artist": "club, 1991 to 1992, reopened 2014",
+      "why": "named by Time Out, RA and I amsterdam; S5 Vice",
+      "sources": [
+        "timeout",
+        "ra",
+        "iamsterdam",
+        "vice"
+      ],
+      "no_embed_reason": "a club; its set is not a recording of a single record"
+    },
+    {
+      "title": "Gashouder",
+      "artist": "venue, Awakenings since 1997",
+      "why": "S5 Vice and Wikipedia; RA listing",
+      "sources": [
+        "vice",
+        "wikipedia",
+        "ra"
+      ],
+      "embed_id": "gR_nkH5B35s"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "Thuishaven",
+      "sources": [
+        "dirtydisco",
+        "reddit",
+        "ra"
+      ],
+      "why": "three sources, but no description of it was read beyond a Reddit comment; left out of the table"
+    },
+    {
+      "title": "Doka",
+      "sources": [
+        "dirtydisco",
+        "iamsterdam",
+        "reddit"
+      ],
+      "why": "three sources, no description read; named only in the FAQ list"
+    },
+    {
+      "title": "OT301",
+      "sources": [
+        "timeout"
+      ],
+      "why": "one source"
+    },
+    {
+      "title": "Club NYX",
+      "sources": [
+        "timeout",
+        "iamsterdam"
+      ],
+      "why": "two sources, and its nights (drag, dancehall, Dutch hip-hop, pop) sit outside the house and techno focus"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Trouw dates",
+      "why": "no source read gives Trouw's opening and closing years; the page names it without dates"
+    },
+    {
+      "title": "RA guide in full",
+      "why": "ra.co returned 403 to fetching; only its search snippet was read"
+    }
+  ]
+}

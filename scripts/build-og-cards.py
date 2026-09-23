@@ -88,6 +88,10 @@ HERO = {
     "primavera-sound": "img/primavera-sound/festival-crowd-1200.webp",
     "paris-clubs": "img/paris-clubs/les-bains-douches-entrance-1280.webp",
     "barcelona-clubs": "img/barcelona-clubs/razzmatazz-exterior-1280.webp",
+    "amsterdam-clubs": "img/amsterdam-clubs/paradiso-1200.webp",
+    "ibiza-clubs": "img/ibiza-clubs/pacha-entrance-1200.webp",
+    "europe-clubbing-cities": "img/europe-clubbing-cities/cross-club-prague-1200.webp",
+    "nye-festivals": "img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }
@@ -125,8 +129,13 @@ def read_manifest():
     for row in re.finditer(r"\{ name: '([^']+)',(.*?) \}\,?\n", source):
         name, rest = row.group(1), row.group(2)
         kind = re.search(r"kind: '([^']+)'", rest).group(1)
-        title = re.search(r"title: '([^']*)'", rest).group(1)
-        caption = re.search(r'caption: "([^"]*)"', rest).group(1)
+        # Either quote style: a title with an apostrophe has to be written in
+        # double quotes, and the single-quote-only pattern crashed on one
+        # (defects.json: og-card-manifest-double-quoted-title).
+        title = re.search(r"""title: (?:'([^']*)'|"([^"]*)")""", rest)
+        title = title.group(1) if title.group(1) is not None else title.group(2)
+        caption = re.search(r"""caption: (?:"([^"]*)"|'([^']*)')""", rest)
+        caption = caption.group(1) if caption.group(1) is not None else caption.group(2)
         entries.append({"name": name, "kind": kind, "title": title, "caption": caption})
     return entries
 

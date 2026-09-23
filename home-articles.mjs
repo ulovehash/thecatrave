@@ -114,6 +114,38 @@ export const homeArticleCatalog = [
     width:1280, height:822, alt:'The exterior of Sala Razzmatazz in the Poblenou district of Barcelona'
   },
   {
+    page:'best-clubs-in-amsterdam.html', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
+    title:'Best Clubs in Amsterdam: From RoXY to Radion',
+    description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',
+    image:'img/amsterdam-clubs/paradiso-320.webp',
+    srcset:'img/amsterdam-clubs/paradiso-320.webp 320w,img/amsterdam-clubs/paradiso-1200.webp 1200w',
+    width:1200, height:917, alt:'The brick front of Paradiso, a former church hall in Amsterdam'
+  },
+  {
+    page:'best-clubs-in-ibiza.html', tags:['house','history','discovery'], href:'/best-clubs-in-ibiza', type:'Guide', topic:'Ibiza clubs',
+    title:'Best Clubs in Ibiza: Pacha, Amnesia, Hï and the Rest',
+    description:'Hï, Pacha, Amnesia, DC-10, Ushuaïa and [UNVRS]: the best clubs in Ibiza now, the ones that closed, where to stay and when the season runs.',
+    image:'img/ibiza-clubs/pacha-entrance-320.webp',
+    srcset:'img/ibiza-clubs/pacha-entrance-320.webp 320w,img/ibiza-clubs/pacha-entrance-1200.webp 1200w',
+    width:1200, height:675, alt:'The white entrance of Pacha in Ibiza Town with its red lettering'
+  },
+  {
+    page:'best-clubbing-cities-in-europe.html', tags:['techno','discovery','history'], href:'/best-clubbing-cities-in-europe', type:'List', topic:'Clubbing cities',
+    title:'Best Clubbing Cities in Europe: Where to Go Out',
+    description:'Berlin, Amsterdam, London, Ibiza, Tbilisi and seven more: the best clubbing cities in Europe, ranked by their clubs rather than bars and beaches.',
+    image:'img/europe-clubbing-cities/cross-club-prague-320.webp',
+    srcset:'img/europe-clubbing-cities/cross-club-prague-320.webp 320w,img/europe-clubbing-cities/cross-club-prague-1200.webp 1200w',
+    width:1200, height:901, alt:'The courtyard of Cross Club in Prague, built from salvaged metal, pipes and machine parts'
+  },
+  {
+    page:'new-years-eve-festivals.html', tags:['discovery','techno','house'], href:'/new-years-eve-festivals', type:'List', topic:"New Year's Eve festivals",
+    title:"Best New Year's Eve Festivals 2026 into 2027",
+    description:"Countdown NYE, Decadence, HiJinx, Rhythm and Vines and Awakenings: the best New Year's Eve festivals for dance music in 2026, with dates and where they are.",
+    image:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp',
+    srcset:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp 320w,img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'Red light beams and a lit rig over the crowd inside the Gashouder at Awakenings in Amsterdam'
+  },
+  {
     page:'best-electronic-music-clubs-in-london.html', tags:['jungle','history','discovery'], href:'/best-electronic-music-clubs-in-london', type:'Guide', topic:'London clubs',
     title:'Best Electronic Music Clubs in London: History and Where to Go',
     description:'The best electronic music clubs in London now, plus the rooms that shaped acid house, jungle, garage and dubstep.',

@@ -1,0 +1,151 @@
+{
+  "page": "best-clubbing-cities-in-europe.html",
+  "seed": "best clubbing cities in europe",
+  "source": "FIGURES.md adapted from people to cities, 2026-09-23. S1 search demand; S4 consensus lists read: She's Abroad Again (in full), Europe's Best Destinations, The Wanderlust Times, Condor, Reddit answers (snippets), and the music-side lists Techno Mag, europenightlife, partiesnearme (web-search summaries); S5 each city's club history from Wikipedia and the sources listed on the page. Rule: required means 3+ sources.",
+  "required_records": [
+    {
+      "title": "Berlin",
+      "artist": "city",
+      "why": "every list",
+      "sources": [
+        "shesabroadagain",
+        "europeanbestdestinations",
+        "wanderlusttimes",
+        "condor",
+        "technomag"
+      ],
+      "no_embed_reason": "covered by its own guide"
+    },
+    {
+      "title": "Ibiza",
+      "artist": "island",
+      "why": "every list",
+      "sources": [
+        "shesabroadagain",
+        "europeanbestdestinations",
+        "wanderlusttimes",
+        "reddit"
+      ],
+      "no_embed_reason": "covered by its own guide"
+    },
+    {
+      "title": "Barcelona",
+      "artist": "city",
+      "why": "four lists",
+      "sources": [
+        "shesabroadagain",
+        "europeanbestdestinations",
+        "wanderlusttimes",
+        "condor"
+      ],
+      "no_embed_reason": "covered by its own guide"
+    },
+    {
+      "title": "Amsterdam",
+      "artist": "city",
+      "why": "three lists",
+      "sources": [
+        "shesabroadagain",
+        "condor",
+        "partiesnearme"
+      ],
+      "embed_id": "Lg0Mkj4D9xo"
+    },
+    {
+      "title": "London",
+      "artist": "city",
+      "why": "three lists",
+      "sources": [
+        "shesabroadagain",
+        "europeanbestdestinations",
+        "condor"
+      ],
+      "no_embed_reason": "covered by its own guide"
+    },
+    {
+      "title": "Budapest",
+      "artist": "city",
+      "why": "three lists",
+      "sources": [
+        "shesabroadagain",
+        "wanderlusttimes",
+        "reddit"
+      ],
+      "embed_id": "BMtfZNMFMG4"
+    },
+    {
+      "title": "Prague",
+      "artist": "city",
+      "why": "three lists",
+      "sources": [
+        "shesabroadagain",
+        "wanderlusttimes",
+        "reddit"
+      ],
+      "embed_id": "tfrZCnhooGo"
+    },
+    {
+      "title": "Tbilisi",
+      "artist": "city",
+      "why": "the music-side lists",
+      "sources": [
+        "technomag",
+        "partiesnearme",
+        "wepartynow"
+      ],
+      "embed_id": "blO-TbxAMhM"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "Belgrade",
+      "sources": [
+        "shesabroadagain",
+        "wanderlusttimes",
+        "reddit"
+      ],
+      "why": "included, with Drugstore",
+      "embed_id": "h2UwuQxyBGc"
+    },
+    {
+      "title": "Krakow",
+      "sources": [
+        "shesabroadagain",
+        "reddit"
+      ],
+      "why": "two lists; included with Prozak 2.0",
+      "embed_id": "YJ6wGIWf2VA"
+    },
+    {
+      "title": "Lisbon",
+      "sources": [
+        "shesabroadagain",
+        "reddit"
+      ],
+      "why": "two lists; included with Lux Frágil",
+      "embed_id": "4_Jk34-b_Jw"
+    },
+    {
+      "title": "Vienna",
+      "sources": [
+        "partiesnearme"
+      ],
+      "why": "one source; left out"
+    },
+    {
+      "title": "Mykonos",
+      "sources": [
+        "shesabroadagain",
+        "europeanbestdestinations",
+        "wanderlusttimes"
+      ],
+      "why": "a beach resort, excluded by scope and named only to set resorts aside"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Music-side lists in full",
+      "why": "Techno Mag, europenightlife and partiesnearme were read as web-search summaries, not opened"
+    }
+  ]
+}

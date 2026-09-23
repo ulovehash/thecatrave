@@ -1,0 +1,98 @@
+{
+  "page": "best-clubs-in-ibiza.html",
+  "seed": "best clubs in ibiza",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-23. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range, the conservative figure, and 'range' is what the tool showed. No Ahrefs figure exists for these terms: no units were spent (TOPIC-DOSSIERS.md, 'Клубные города (волна 2)').",
+  "note": "'best club in san antonio' is recorded against the measured 'best club in san antonio ibiza' (100-1K); 'famous clubs in ibiza' comes from People also ask ('What are the famous clubs in Ibiza?') and People also search for ('Famous Ibiza clubs'), its range is the Planner's for 'famous ibiza clubs'. Idea expansion read 100 of 166 rows with the planner's default adult-ideas filter on.",
+  "terms": [
+    {
+      "term": "ibiza clubs",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "ibiza nightlife",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "best clubs in ibiza",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best nightclubs in ibiza",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best club nights in ibiza",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best day club in ibiza",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best club in san antonio",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best party location in ibiza",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "famous clubs in ibiza",
+      "volume": 100,
+      "range": "100-1K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner head check and idea expansion on 'best clubs in ibiza'; live Google SERP and PAA for 'best clubs in ibiza' and 'ibiza clubs' (US/en), 2026-09-23",
+  "rejected": [
+    {
+      "term": "best beach clubs ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "beach clubs, a different intent"
+    },
+    {
+      "term": "cala bassa beach club ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "navigational, a beach club"
+    },
+    {
+      "term": "best bars in ibiza",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "bars"
+    },
+    {
+      "term": "insotel ibiza cala tarida",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "a hotel"
+    },
+    {
+      "term": "best nightclubs ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "measured without \"in\"; the page carries \"best nightclubs in Ibiza\""
+    },
+    {
+      "term": "best club nights ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "measured without \"in\"; the page carries \"best club nights in Ibiza\""
+    },
+    {
+      "term": "best disco in ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "\"disco\" is not how the page talks about these clubs; left out rather than wedged in"
+    }
+  ]
+}
