@@ -8,9 +8,9 @@
 
 **Deck:** A scene-led history of bass music across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today's hybrid club culture.
 
-Search for bass music and the results pull in several directions at once. One listener means dubstep. Another is talking about jungle, UK garage or grime. In Miami, the phrase has a history tied to electro, hip-hop, cars and the Roland TR-808. On the American festival circuit, it can cover trap, riddim, glitch-hop and other heavy electronic styles. The disagreement is not a problem to solve before the music can be enjoyed. It is part of the history.
+Search for bass music and the results pull in several directions at once. One listener means dubstep. Another is talking about jungle, UK garage or grime. In Miami, the phrase has a history tied to electro, hip-hop, cars and the Roland TR-808. On the American festival circuit, it can cover trap, riddim, glitch-hop and other heavy electronic styles. The disagreement is part of the history.
 
-Bass music became useful precisely because DJs, labels, promoters and listeners needed a loose name for records that kept crossing established borders. That looseness also makes the term easy to misuse. The way through is not another enormous list of subgenres. It is to follow the scenes, rooms and systems that gave the phrase different meanings.
+Bass music became useful precisely because DJs, labels, promoters and listeners needed a loose name for records that kept crossing established borders. That looseness also makes the term easy to misuse. The way through is to follow the scenes, rooms and systems that gave the phrase different meanings.
 
 ## BASS MUSIC DEFINITION
 
@@ -28,7 +28,7 @@ Dub made the studio part of that performance. Engineers and producers removed vo
 
 [EMBED: Augustus Pablo and King Tubby, “King Tubby Meets Rockers Uptown”]
 
-**What to listen for:** The bass does not simply support the arrangement. It holds the empty space together while percussion, melodica and echo appear around it.
+**What to listen for:** The bass holds the empty space together while percussion, melodica and echo appear around it.
 
 The movement of Jamaican music and sound-system practice into Britain changed clubs, community spaces and popular music. The [Goldsmiths Bass Culture project](https://www.gold.ac.uk/cucr/research/bass-culture/) describes this history as part of the making of post-war British urban culture, not merely a set of production techniques borrowed by later electronic artists. Reggae dances, blues parties, selectors, MCs, dubplates and independent distribution offered both a musical language and a way of organising outside mainstream institutions.
 
@@ -50,7 +50,7 @@ In Britain, another low-end route was forming around warehouse parties and raves
 
 [EMBED: Lennie De Ice, “We Are I.E.”]
 
-None of these records needed the later umbrella name to make sense in its own scene. That distinction matters. Bass music did not arrive fully formed in one city or one year. Its eventual vocabulary was assembled from older, sometimes parallel cultures that had their own names and priorities.
+None of these records needed the later umbrella name to make sense in its own scene. Bass music did not arrive fully formed in one city or one year. Its eventual vocabulary was assembled from older, sometimes parallel cultures that had their own names and priorities.
 
 ## How “bass music” became an umbrella term—and travelled
 
@@ -58,9 +58,9 @@ By the late 2000s, dubstep had expanded far beyond the early South London networ
 
 The records that opened the door are named here without their players, because they belong to [the dubstep guide](/dubstep-guide) and this site does not run the same media twice. Skream's “Midnight Request Line” is the record most accounts credit with the pivot, and Benga and Coki's “Night” is the second crossover moment. Behind both, the proto-dubstep productions of 1999 and 2000 by Oris Jay, El-B, Steve Gurley and Zed Bias, and, from the end of 2003, Plastician's Filthy Dub running independently of FWD>>. The bass music story is usually told as though dubstep arrived fully formed and then dissolved into an umbrella; it had four years of prehistory and more than one club.
 
-The language around Night Slugs captures the shift. The party began in 2008 with a remit described as “heavy bass music and global gutter house”. By January 2010, [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) was calling it a centre for post-garage bass music and linking London producer Bok Bok with New York's Kingdom. The point was not that both cities had suddenly discovered the same genre. Internet exchange, touring and shared records were letting local club languages collide faster.
+The language around Night Slugs captures the shift. The party began in 2008 with a remit described as “heavy bass music and global gutter house”. By January 2010, [The Guardian](https://www.theguardian.com/music/2009/dec/31/music-tips-for-2010) was calling it a centre for post-garage bass music and linking London producer Bok Bok with New York's Kingdom. Neither city had discovered a new genre: internet exchange, touring and shared records were letting local club languages collide faster.
 
-By 2010–11, retailers and electronic-music publications were using `UK bass music` for releases that pulled from grime, funky, house and dubstep. In 2011, [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) could place `post-dubstep`, `future garage` and `UK bass music` side by side while admitting that nobody knew exactly what to call the field. Night Slugs, Hyperdub, Hessle Audio, Hotflush and Swamp81 were central not because they agreed on one style, but because each created a structure in which unstable styles could circulate.
+By 2010–11, retailers and electronic-music publications were using `UK bass music` for releases that pulled from grime, funky, house and dubstep. In 2011, [The Guardian](https://www.theguardian.com/music/2011/jun/15/uk-leads-the-way) could place `post-dubstep`, `future garage` and `UK bass music` side by side while admitting that nobody knew exactly what to call the field. Night Slugs, Hyperdub, Hessle Audio, Hotflush and Swamp81 were central because each created a structure in which unstable styles could circulate, though they agreed on no single style.
 
 There is no good evidence for one person inventing the phrase. It became conspicuous through accumulation: record-shop descriptions, reviews, club listings, festival categories and DJs who needed to describe sets crossing several tempos. `Bass music` worked as a practical folder. `UK bass` also developed a narrower use for post-dubstep club records combining elements of garage, grime, funky, house, techno and juke.
 
@@ -114,15 +114,13 @@ Chicago footwork came from house, ghetto house, dance crews and competitive batt
 
 Gqom emerged in Durban from local house traditions, township parties, taxi culture and informal digital distribution. International labels and UK club collaborations later placed it beside bass-oriented music. [Resident Advisor's conversation with DJ Lag and Nan Kolè](https://ra.co/exchange/336) makes the local infrastructure clear: MP3 sites, Facebook groups, WhatsApp and taxi playback were central to the sound's growth.
 
-Together, footwork and gqom show how bass-oriented club networks exchange rhythm without turning distinct local scenes into supporting characters in one universal story.
-
 ## Types of bass music: a scene-by-scene listening map
 
 There is no definitive list of bass music genres. The category expands or contracts depending on who is using it. A better map groups scenes by historical exchange and listening context, while keeping their individual names visible.
 
 ### Dub and the sound-system lineage
 
-This route begins with Jamaican sound systems, version culture and dub, then continues through British reggae, jungle, grime and dubstep. The shared principle is not one rhythm. It is the treatment of recorded music as material that can be versioned, voiced, cut exclusively and tested on a system.
+This route begins with Jamaican sound systems, version culture and dub, then continues through British reggae, jungle, grime and dubstep. What the scenes share is a way of treating recorded music: as material that can be versioned, voiced, cut exclusively and tested on a system.
 
 **Start with:** King Tubby, Scientist, Jah Shaka, Adrian Sherwood, Digital Mystikz and Kode9.
 
@@ -190,7 +188,7 @@ A genre list cannot explain why the same record makes sense in one scene and fee
 
 A sound system turns low end into public experience. The room, speaker design, volume limits and crowd all affect what producers leave in a mix. Outlook Festival built its identity around custom systems and a programme connecting dub, jungle, drum and bass, garage, grime and dubstep. Researcher Ivan Mouraviev describes it as a convergence of technologies, practices and values, not only a collection of bass-heavy acts. His fieldwork also shows the conflict: strict sound limits can weaken the very experience the event promises.
 
-Dubplates made circulation competitive. A DJ could test unfinished music, reward a crowd with a version unavailable elsewhere and force other producers to respond. Pirate radio made local scenes audible beyond a single club while retaining the voices of DJs and MCs. For UK bass specifically the stations were Rinse FM and Sub.FM, and outside the nightclubs they are where the music was mostly promoted and played. Naming the clubs and not the stations describes a scene as though everybody lived within a bus ride of it. Record shops connected listeners, producers and labels. Nights such as FWD>>, DMZ, Low End Theory, Niche and Night Slugs were not neutral containers. Their booking, room and audience helped define the music associated with them.
+Dubplates made circulation competitive. A DJ could test unfinished music, reward a crowd with a version unavailable elsewhere and force other producers to respond. Pirate radio made local scenes audible beyond a single club while retaining the voices of DJs and MCs. For UK bass specifically the stations were Rinse FM and Sub.FM, and outside the nightclubs they are where the music was mostly promoted and played. Naming the clubs and not the stations describes a scene as though everybody lived within a bus ride of it. Record shops connected listeners, producers and labels. At nights such as FWD>>, DMZ, Low End Theory, Niche and Night Slugs, the booking, room and audience helped define the music associated with them.
 
 Digital platforms changed the speed and geography of that process. YouTube channels helped take dubstep and drum and bass to listeners without local access to the clubs. SoundCloud made mixes, edits and unfinished tracks travel internationally. WhatsApp and MP3 networks performed a different role in Durban's gqom scene. Streaming services made genre categories more visible while often flattening regional context into playlist metadata.
 
@@ -262,7 +260,7 @@ Start with exact records, then use mixes to hear how DJs connect them.
 
 ### Route one: systems and foundations
 
-Begin with King Tubby and Augustus Pablo, Linton Kwesi Johnson and early Miami bass. The purpose is not to locate one starting record. It is to hear how different communities made low end central before the later umbrella existed.
+Begin with King Tubby and Augustus Pablo, Linton Kwesi Johnson and early Miami bass. Listen for how different communities made low end central before the later umbrella existed.
 
 ### Route two: the British bass continuum
 

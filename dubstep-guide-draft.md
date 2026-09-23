@@ -54,7 +54,7 @@ Getting music into a club was its own problem. Before a track was released, and 
 
 Much of that cutting happened at Transition Mastering, where Jason Goz worked across jungle, garage, grime and dubstep in turn. He cut plates at a discount for a fifteen-year-old Benga who was saving his dinner money. He also refused to cut panned basslines, insisting on mono, because bass that sits in one speaker collapses on a club system. His rule for the entire process was six words: "If you get the frequency right, everything else is filler."
 
-Scarcity shaped the music rather than merely surrounding it. Loefah: "For a time, there were maybe 50 dubstep tracks in the whole world. If five of them are mine, I'm not just going to chuck them out there."
+Scarcity shaped the music. Loefah: "For a time, there were maybe 50 dubstep tracks in the whole world. If five of them are mine, I'm not just going to chuck them out there."
 
 DMZ was where all of it arrived at once. Mala, Coki and Loefah started the night on 5 March 2005 at Mass, the club inside St Matthew's Church in Brixton, with Sgt Pokes on the microphone. It ran every other month, eleven at night until seven in the morning, under a slogan nobody in the room could miss: meditate on bass weight. Loefah described the experience without romance: "You got hit by this wall of bass and loads of sweaty people who didn't actually give a fuck."
 
