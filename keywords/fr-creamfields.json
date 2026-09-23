@@ -1,0 +1,40 @@
+{
+  "page": "fr/festival-creamfields.html",
+  "seed": "creamfields",
+  "source": "French stage 2 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from the live Google results for France where they came through and Bing fr-FR, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "creamfields",
+      "volume": 200,
+      "note": "France, French stage 2"
+    },
+    {
+      "term": "festival creamfields",
+      "volume": "not measured",
+      "note": "the French word order; FAQ"
+    },
+    {
+      "term": "où se trouve creamfields",
+      "volume": "not measured",
+      "note": "the English location question in French"
+    },
+    {
+      "term": "creamfields 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/creamfields.json.",
+  "rejected": [
+    {
+      "term": "creamfields chile",
+      "volume": "not measured",
+      "why": "a separate edition abroad"
+    },
+    {
+      "term": "creamfields malta",
+      "volume": "not measured",
+      "why": "a separate edition abroad"
+    }
+  ]
+}

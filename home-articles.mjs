@@ -437,6 +437,28 @@ export const germanArticleCatalog = [
     image:'img/skream-320.webp',
     srcset:'img/skream-320.webp 320w,img/skream-1200.webp 1200w',
     width:1200, height:900, alt:'Skream bei einem DJ-Set'
+  },
+  {
+    page:'de/creamfields-festival.html', tags:['discovery','history','uk','bass'], href:'/de/creamfields-festival', type:'Guide', topic:'Creamfields',
+    title:'Creamfields 2027: Ort, Geschichte, Größe und Musik',
+    description:'Vier Tage auf dem Anwesen Daresbury, jedes Jahr am August Bank Holiday: wo Creamfields stattfindet, wie eine Liverpooler House-Nacht daraus wurde, wem es gehört und was jenseits der Arc Stage läuft.',
+    image:'img/creamfields/steel-yard-2017-320.webp',
+    srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
+    width:1200, height:801, alt:'Das leere Innere des Steel Yard bei Creamfields, eine orange beleuchtete Stahlkonstruktion mit Bögen'
+  },
+  {
+    page:'de/jungle.html', tags:['breaks','uk','nineties','soundsystem'], href:'/de/jungle', type:'Guide', topic:'Jungle',
+    title:'Was ist Jungle-Musik? Geschichte, Sound und wichtige Tracks',
+    description:'Piratenradio, Dubplates, die Energie der MCs und die weltweite Rückkehr eines ausgesprochen Schwarzen britischen Sounds.',
+    image:'img/Dubplates-320.png', srcset:'img/Dubplates-320.png 320w,img/Dubplates.png 1024w',
+    width:1024, height:1024, alt:'Illustrierte Dubplates als Sinnbild der Jungle-Kultur'
+  },
+  {
+    page:'de/breakbeat.html', tags:['breaks','history','uk','nineties'], href:'/de/breakbeat', type:'Guide', topic:'Breakbeat',
+    title:'Was ist Breakbeat? Genre, Geschichte, Künstler und Stile',
+    description:'Von Funk-Breaks und dem Hip-Hop der Bronx zum britischen Rave, nach Florida und Andalusien, zu Big Beat, Nu-Skool und den Breaks von heute.',
+    image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
+    width:1200, height:800, alt:'Die Wellenform und das Drum-Muster des Amen Break'
   }
 ];
 
@@ -602,6 +624,28 @@ export const frenchArticleCatalog = [
     image:'img/skream-320.webp',
     srcset:'img/skream-320.webp 320w,img/skream-1200.webp 1200w',
     width:1200, height:900, alt:'Skream pendant un DJ set'
+  },
+  {
+    page:'fr/festival-creamfields.html', tags:['discovery','history','uk','bass'], href:'/fr/festival-creamfields', type:'Guide', topic:'Creamfields',
+    title:'Creamfields 2027 : lieu, histoire, taille et musique',
+    description:'Quatre jours sur le domaine de Daresbury chaque fin août : où a lieu Creamfields, comment une soirée house de Liverpool l’a fait naître, à qui il appartient et ce qui se joue loin de l’Arc Stage.',
+    image:'img/creamfields/steel-yard-2017-320.webp',
+    srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
+    width:1200, height:801, alt:'L’intérieur vide du Steel Yard à Creamfields, une structure d’acier en arches éclairée en orange'
+  },
+  {
+    page:'fr/jungle.html', tags:['breaks','uk','nineties','soundsystem'], href:'/fr/jungle', type:'Guide', topic:'Jungle',
+    title:'C’est quoi la jungle music ? Histoire, son et morceaux clés',
+    description:'Radio pirate, dubplates, énergie des MC et retour mondial d’un son profondément noir et britannique.',
+    image:'img/Dubplates-320.png', srcset:'img/Dubplates-320.png 320w,img/Dubplates.png 1024w',
+    width:1024, height:1024, alt:'Des dubplates illustrés, symboles de la culture jungle'
+  },
+  {
+    page:'fr/breakbeat.html', tags:['breaks','history','uk','nineties'], href:'/fr/breakbeat', type:'Guide', topic:'Breakbeat',
+    title:'Qu’est-ce que le breakbeat ? Genre, histoire, artistes, styles',
+    description:'Des breaks funk et du hip-hop du Bronx à la rave britannique, à la Floride et à l’Andalousie, au big beat, au nu-skool et aux breaks actuels.',
+    image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
+    width:1200, height:800, alt:'La forme d’onde et le motif de batterie du break Amen'
   }
 ];
 

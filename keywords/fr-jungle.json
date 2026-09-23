@@ -1,0 +1,50 @@
+{
+  "page": "fr/jungle.html",
+  "seed": "jungle music",
+  "source": "French stage 2 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from the live Google results for France where they came through and Bing fr-FR, 23 September 2026; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "jungle music",
+      "volume": 300,
+      "note": "France, French stage 2; the genre intent confirmed by fr.wikipedia's 'Jungle (musique)' ranking first"
+    },
+    {
+      "term": "qu’est-ce que la jungle music",
+      "volume": "not measured",
+      "note": "'Autres questions'; H1"
+    },
+    {
+      "term": "c’est quoi la jungle music",
+      "volume": "not measured",
+      "note": "'Autres questions' ('C'est quoi la jungle musique ?'); title and conclusion"
+    },
+    {
+      "term": "la jungle",
+      "volume": "not measured",
+      "note": "French writes the genre feminine"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/jungle.json.",
+  "rejected": [
+    {
+      "term": "qui est le groupe jungle",
+      "volume": "not measured",
+      "why": "'Autres questions', the band Jungle"
+    },
+    {
+      "term": "quel est le meilleur titre de jungle",
+      "volume": "not measured",
+      "why": "'Autres questions', the band Jungle"
+    },
+    {
+      "term": "ambiance jungle",
+      "volume": "not measured",
+      "why": "Bing fr-FR, rainforest sounds"
+    },
+    {
+      "term": "free jungle music mp3 download",
+      "volume": "not measured",
+      "why": "files (WRITING.md)"
+    }
+  ]
+}

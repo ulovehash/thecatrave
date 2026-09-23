@@ -25,6 +25,8 @@
 //                        sits before the FAQ. Omitted: no mixes, as on the
 //                        English pages that carry none.
 //   sections[].tocLabel  contents label when it differs from the heading
+//   sections[].className a class the English section carries for its styling
+//                        (the breakbeat guide's styles-section headings)
 //   minReadingMinutes    floor for the reading time (default 8)
 //   image                image for the Article structured data
 //   sourcesNote          a last Sources line that is not a link, such as where
@@ -139,7 +141,7 @@ export function buildLocalizedArticle(content) {
   const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
   const sectionHtml = content.sections.map(section => articleSection({
-    id: section.id, title: section.title, kicker: section.kicker,
+    id: section.id, title: section.title, kicker: section.kicker, className: section.className || '',
     bodyHtml: section.playlists
       ? renderPlaylistSection(getSection(section.heading), section.playlists)
       : section.subsections

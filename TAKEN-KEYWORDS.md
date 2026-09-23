@@ -157,6 +157,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - gute spotify playlists
 - spotify playlist empfehlungen
 
+## de/breakbeat.html
+
+- breakbeat
+- was ist breakbeat
+- breakbeat musik
+- breakbeat genre
+
 ## de/burning-man-festival.html
 
 - burning man
@@ -176,6 +183,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wann ist coachella
 - wem gehört coachella
 - wie viele besucher hat coachella
+
+## de/creamfields-festival.html
+
+- creamfields
+- creamfields festival
+- wo findet das creamfields festival statt
+- creamfields 2027
 
 ## de/drum-and-bass.html
 
@@ -216,6 +230,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - grime musik
 - was ist grime
 - grime künstler
+
+## de/jungle.html
+
+- jungle music
+- jungle musik
+- was ist jungle musik
+- was ist jungle
 
 ## de/clubs-london.html
 
@@ -365,6 +386,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - kitkat club berlin
 - boite de nuit berlin
 
+## fr/breakbeat.html
+
+- breakbeat
+- qu’est-ce que le breakbeat
+- musique breakbeat
+- le breakbeat
+
 ## fr/burning-man.html
 
 - burning man
@@ -377,6 +405,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - coachella
 - festival coachella
 - coachella 2027
+
+## fr/festival-creamfields.html
+
+- creamfields
+- festival creamfields
+- où se trouve creamfields
+- creamfields 2027
 
 ## fr/drum-and-bass.html
 
@@ -412,6 +447,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - grime
 - musique grime
+
+## fr/jungle.html
+
+- jungle music
+- qu’est-ce que la jungle music
+- c’est quoi la jungle music
+- la jungle
 
 ## fr/meilleures-playlists-spotify.html
 

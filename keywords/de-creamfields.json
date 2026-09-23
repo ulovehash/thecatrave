@@ -1,0 +1,45 @@
+{
+  "page": "de/creamfields-festival.html",
+  "seed": "creamfields",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from Bing de-DE results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "creamfields",
+      "volume": 300,
+      "note": "Germany, stage 1; German searches use the bare name"
+    },
+    {
+      "term": "creamfields festival",
+      "volume": "not measured",
+      "note": "Bing de-DE related search; title and FAQ"
+    },
+    {
+      "term": "wo findet das creamfields festival statt",
+      "volume": "not measured",
+      "note": "the English FAQ's location question in German"
+    },
+    {
+      "term": "creamfields 2027",
+      "volume": "not measured",
+      "note": "the next edition, carried on every festival guide; refresh yearly"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/creamfields.json.",
+  "rejected": [
+    {
+      "term": "shein creamfields",
+      "volume": "not measured",
+      "why": "Bing related search, outfits"
+    },
+    {
+      "term": "creamfields polska",
+      "volume": "not measured",
+      "why": "a separate edition abroad"
+    },
+    {
+      "term": "creamfields lieder",
+      "volume": "not measured",
+      "why": "line-up and songs, dated"
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Translation research
 
+## Creamfields, jungle and breakbeat, German and French (2026-09-23)
+
+Six pages: `/de/creamfields-festival`, `/fr/festival-creamfields`,
+`/de/jungle`, `/fr/jungle`, `/de/breakbeat`, `/fr/breakbeat`. No Ahrefs units
+spent. The French jungle collision with the band Jungle, flagged in French
+stage 2, was checked in the live results: the genre intent holds. Breakbeat's
+English images are rights-reserved (logged in defects.json, as are bass music's
+hotlinked images); the owner chose to translate it with the images as they are.
+Decisions: `creamfields-jungle-breakbeat-translation-research.md`. Next by
+demand: bass music (same image problem), then the guides with little measured
+German or French demand.
+
 ## Ultra, EDC Las Vegas and UK garage, German and French (2026-09-23)
 
 Six pages: `/de/ultra-music-festival`, `/fr/ultra-music-festival`,

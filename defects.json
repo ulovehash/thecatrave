@@ -530,6 +530,30 @@
       "what": "The Skream photograph in the UK garage guide (img/skream-1200.webp, caption 'Skream, who made dubstep records as a teenager...') has no photographer or licence in its caption, and nothing in the repository records where it came from (added in commit f220880, 2025-04-04; media/uk-garage.json does not list it). CLAUDE.md requires images to be openly licensed and credited in the caption. Found while translating the guide into German and French; the translations carry the same caption without a credit rather than a guessed one. The same file is the card image of the UK garage guide in home-articles.mjs and appears on other pages.",
       "should_have_caught": "audit-media.mjs checks the media maps, not whether every figure caption on a page carries a credit",
       "fix": null
+    },
+    {
+      "id": "breakbeat-guide-rights-reserved-images",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "Every photograph and artifact on the breakbeat guide comes from a rights-reserved source, per breakbeat-media-inventory.md and the file names: img/breakbeat/musicradar-hip-hop-pioneers.jpg, musicradar-sp1200-floppies.jpg, musicradar-prodigy-1992.jpg and musicradar-chemical-brothers.jpg (MusicRadar), rbma-wild-style-mural.jpg (Red Bull Music Academy), akai-s950-cutout.png (a Retro Gear Shop product photo), plump-djs-electric-disco.png (an eBay listing), shut-up-and-dance-pj-smiley.jpg (Bandcamp Daily), andalusia-rave-crowd.jpg (El País), cordoba-breakbeat-flyer.jpg (EvilSound). AGENTS.md names MusicRadar and similar as unusable; none of the captions carries a credit. Found while choosing the next guide to translate. The owner decided on 2026-09-23 to translate the guide with the images as they are, so de/breakbeat.html and fr/breakbeat.html carry the same images and this entry covers all three pages.",
+      "should_have_caught": "audit-media.mjs checks media maps for records and embeds, not the licence of each figure; no audit reads breakbeat-media-inventory.md",
+      "fix": null
+    },
+    {
+      "id": "bass-music-guide-hotlinked-images",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The bass music guide hotlinks rights-reserved images from other sites instead of openly licensed local files: assets.boomkat.com, media.npr.org, media.redbullmusicacademy.com, mopop.emuseum.com and www.afropop.org. CLAUDE.md requires openly licensed images, downloaded locally and credited in the caption. Found while choosing the next guide to translate.",
+      "should_have_caught": "no audit rejects an <img> whose src is an external URL",
+      "fix": null
+    },
+    {
+      "id": "jungle-images-uncredited",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "The seven images on the jungle guide (img/flyers-1200.webp, img/pirate-radio-1200.webp, img/tapepack.png, img/AWOL2.png, img/fabio-1200.webp, img/koolfmbirthday.webp, img/people dancing-1200.webp) carry no photographer or licence in their captions, and nothing in the repository records where they came from. Found while translating the guide into German and French; the translations keep the English captions, translated, rather than guess credits.",
+      "should_have_caught": "audit-media.mjs checks media maps, not whether each figure caption carries a credit",
+      "fix": null
     }
   ]
 }

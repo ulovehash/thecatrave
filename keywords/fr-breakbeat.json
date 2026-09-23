@@ -1,0 +1,45 @@
+{
+  "page": "fr/breakbeat.html",
+  "seed": "breakbeat",
+  "source": "French stage 2 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 18 September 2026); the rest from Bing fr-FR results and suggestions, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "breakbeat",
+      "volume": 100,
+      "note": "France, French stage 2; fr.wikipedia ranks first"
+    },
+    {
+      "term": "qu’est-ce que le breakbeat",
+      "volume": "not measured",
+      "note": "title and H1"
+    },
+    {
+      "term": "musique breakbeat",
+      "volume": "not measured",
+      "note": "Bing fr-FR; the first FAQ"
+    },
+    {
+      "term": "le breakbeat",
+      "volume": "not measured",
+      "note": "French writes the genre masculine"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/breakbeat.json.",
+  "rejected": [
+    {
+      "term": "breakbeat samples",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "breakbeat pattern",
+      "volume": "not measured",
+      "why": "production teaching (WRITING.md)"
+    },
+    {
+      "term": "breakbeat meilleures chansons",
+      "volume": "not measured",
+      "why": "wants a playlist; the listening groups answer it without claiming it"
+    }
+  ]
+}

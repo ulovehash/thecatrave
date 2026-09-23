@@ -1,0 +1,50 @@
+{
+  "page": "de/breakbeat.html",
+  "seed": "breakbeat",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from Bing de-DE results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "breakbeat",
+      "volume": 250,
+      "note": "Germany, stage 1; de.wikipedia ranks first"
+    },
+    {
+      "term": "was ist breakbeat",
+      "volume": "not measured",
+      "note": "German result titles; title and H1"
+    },
+    {
+      "term": "breakbeat musik",
+      "volume": "not measured",
+      "note": "Bing de-DE related search; the first FAQ"
+    },
+    {
+      "term": "breakbeat genre",
+      "volume": "not measured",
+      "note": "the definition section"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/breakbeat.json.",
+  "rejected": [
+    {
+      "term": "breakbeat sample pack",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "free breakbeat samples",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "die besten drum breaks",
+      "volume": "not measured",
+      "why": "asks for breaks to sample (WRITING.md)"
+    },
+    {
+      "term": "breakbeats deutsch",
+      "volume": "not measured",
+      "why": "German-language breakbeat, which the English page does not cover"
+    }
+  ]
+}

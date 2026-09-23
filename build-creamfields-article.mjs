@@ -25,6 +25,7 @@ import {
   breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('creamfields-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/creamfields-festival';
@@ -235,6 +236,7 @@ const structuredData = [
 
 const html = articlePage({
   title, description, canonical,
+  alternates: alternatesFor('/creamfields-festival'),
   ogImage: 'https://thecatrave.com/img/og/creamfields.jpg',
   datePublished, dateModified,
   bodyClass: 'article-page creamfields-page',

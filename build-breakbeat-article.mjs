@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {analytics, articleFaq, articleFigure, articleFooter, articleHero, articleListeningBand, articleListeningCollection, ownTrackListening, articlePage, articleSection, articleSources, articleStructuredData, articleTable, articleTableOfContents, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext, siteHeader} from './site-components.mjs';
 import {relatedArticles as relatedArticlesFor} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const source = fs.readFileSync('breakbeat-guide-draft.md', 'utf8');
 const esc = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -324,6 +325,7 @@ const breakbeatArticleHtml = preservedPage.match(/<main id="main-content"><artic
 if (!breakbeatArticleHtml) throw new Error('Could not extract the generated breakbeat article body.');
 fs.writeFileSync('breakbeat-guide.html', articlePage({
   title, description, canonical:'https://thecatrave.com/breakbeat-guide',
+  alternates: alternatesFor('/breakbeat-guide'),
   ogImage:'https://thecatrave.com/img/og/breakbeat.jpg', bodyClass:'article-page breakbeat-page',
   datePublished:'2025-04-06', dateModified:'2026-09-17',
   structuredData:[structured, faqStructured, breadcrumbStructured], articleHtml:breakbeatArticleHtml

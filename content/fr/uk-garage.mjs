@@ -45,7 +45,7 @@ export default {
   dateLabel: '23 septembre 2026',
 
   heroKicker: 'Guide du UK garage',
-  heroTitle: 'C’est quoi le UK garage ?',
+  heroTitle: 'C’est quoi le UK garage\u00a0?',
   deck: 'Londres a pris un disque américain, l’a joué trop vite et a cassé le beat. Ce qui en est sorti, et pourquoi on en joue aujourd’hui plus qu’à aucun moment depuis 1999.',
   answerLabel: 'Le UK garage, définition',
   breadcrumbName: 'UK garage',

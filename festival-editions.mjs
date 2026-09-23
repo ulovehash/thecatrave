@@ -28,6 +28,8 @@ export const festivalEditions = [
   {page: 'de/ultra-music-festival.html', heading: 'Ultra Miami 2027 und Ultra Europe 2027', ends: '2027-03-28'},
   {page: 'fr/ultra-music-festival.html', heading: 'Ultra Miami 2027 et Ultra Europe 2027', ends: '2027-03-28'},
   {page: 'creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
+  {page: 'de/creamfields-festival.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
+  {page: 'fr/festival-creamfields.html', heading: 'Creamfields 2027', ends: '2027-08-29'},
   {page: 'sonar-festival-barcelona.html', heading: 'Sónar 2027', ends: '2027-06-19'},
   // The Europe comparison carries fourteen festivals and seven smaller ones.
   // null while any of them has no 2027 date (on 2026-09-22: Tomorrowland,

@@ -1,0 +1,45 @@
+{
+  "page": "de/jungle.html",
+  "seed": "jungle music",
+  "source": "stage 1 Ahrefs volume for the head term (TRANSLATION-RESEARCH.md, 17 September 2026); the rest from Bing de-DE results and related searches, 23 September 2026 (Google answered with a bot check); no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "jungle music",
+      "volume": 150,
+      "note": "Germany, stage 1; on the page as the historical slur the name reclaimed"
+    },
+    {
+      "term": "jungle musik",
+      "volume": "not measured",
+      "note": "German result titles write 'Jungle Musik'; title and H1"
+    },
+    {
+      "term": "was ist jungle musik",
+      "volume": "not measured",
+      "note": "Bing de-DE; title, H1 and conclusion"
+    },
+    {
+      "term": "was ist jungle",
+      "volume": "not measured",
+      "note": "German result titles ('Was ist Jungle?')"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 23 September 2026. Paid expansion deferred until Search Console evidence or an editorial decision requires it. The English page's own map is keywords/jungle.json.",
+  "rejected": [
+    {
+      "term": "jungle band",
+      "volume": "not measured",
+      "why": "the band Jungle"
+    },
+    {
+      "term": "jungle official website",
+      "volume": "not measured",
+      "why": "the band Jungle"
+    },
+    {
+      "term": "jungle merch",
+      "volume": "not measured",
+      "why": "the band Jungle"
+    }
+  ]
+}
