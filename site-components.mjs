@@ -224,7 +224,7 @@ function articleCard(item, component, lang = defaultLang) {
   if (!category) throw new Error(`${component} has an unknown category "${item.category}" on ${item.href}. Use one of: ${Object.keys(t(lang).categories).join(', ')}.`);
   const srcset = item.srcset ? ` srcset="${escapeHtml(item.srcset)}"` : '';
   const sizes = item.sizes || '(max-width:767px) 100vw,50vw';
-  return `<article data-category="${escapeHtml(item.category)}"><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="card-chip">${escapeHtml(category)}</span><span class="label">${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>${escapeHtml(t(lang).readArticle)}</b></a></article>`;
+  return `<article data-category="${escapeHtml(item.category)}"><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="card-chip">${escapeHtml(category)}</span><span class="label">${escapeHtml(t(lang).cardReadingTime(item.readingTime))}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>${escapeHtml(t(lang).readArticle)}</b></a></article>`;
 }
 
 export function homeArticlesSection({items = [], lang = defaultLang} = {}) {

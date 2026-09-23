@@ -185,7 +185,7 @@ const checks = {
   // One category chip per card. The A01-style catalogue numbers were retired
   // on 2026-09-23 (owner): they shifted every time the catalogue changed.
   homeArticleCount: count(pages.home, /<span class="card-chip">[^<]+<\/span>/g) === currentHomeArticles.length && !/<span class="number">/.test(pages.home),
-  homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`<span class="label">${item.readingTime}</span>`)),
+  homeArticleReadingTimesCurrent: currentHomeArticles.every(item => pages.home.includes(`<span class="label">${t('en').cardReadingTime(item.readingTime)}</span>`)),
   homeArticleAssetsPresent: currentHomeArticles.every(item => fs.existsSync(item.image) && (!item.srcset || item.srcset.split(',').every(source => fs.existsSync(source.trim().split(/\s+/)[0])))),
   // Fixed at four. auto-fit could not shrink tracks below their content, and
   // driving the count from the card count only postponed the problem: at ten
