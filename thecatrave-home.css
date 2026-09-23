@@ -48,7 +48,7 @@ a{color:inherit}
 .header-socials .instagram-dot{fill:currentColor;stroke:none}
 
 .hero{max-width:1440px;margin:auto;padding:2rem var(--gutter);display:grid;gap:2rem}
-.eyebrow,.section-index,.label,.number,figcaption,.footer-nav p,.newsletter label,.newsletter small{font:400 var(--utility)/1.4 var(--mono);letter-spacing:.02em;text-transform:uppercase}
+.eyebrow,.section-index,.label,figcaption,.footer-nav p,.newsletter label,.newsletter small{font:400 var(--utility)/1.4 var(--mono);letter-spacing:.02em;text-transform:uppercase}
 h1,h2,h3,p{margin-top:0}
 h1,h2,h3{line-height:.98;letter-spacing:-.055em}
 /* The tight display measure belongs to the home hero, which is where it was designed. As a bare h1 selector it applied to every page that loads this file, which is all of them: any heading longer than fifteen characters was broken into short lines however much room it had. */
@@ -103,10 +103,18 @@ p,li{text-wrap:pretty}
 .article-grid article{padding:0}
 .article-grid a{width:100%;height:100%;min-height:18rem;display:flex;flex-direction:column;text-decoration:none}
 .article-grid a>*:not(img){margin-inline:1rem}
-.article-grid a:hover,.article-grid a:focus-visible{background:var(--cyan)}
+/* Each category has its own colour (owner, 2026-09-23): the card's chip wears it,
+   the whole card takes it on hover, and the /articles filter chip fills with it. */
+[data-category="music-history"]{--cat:var(--yellow)}
+[data-category="festivals"]{--cat:var(--coral)}
+[data-category="rave-spots"]{--cat:#c9b8ff}
+[data-category="digging"]{--cat:var(--cyan)}
+.article-grid a:hover,.article-grid a:focus-visible{background:var(--cat,var(--cyan))}
 .article-grid img{width:100%;height:6.25rem;margin-bottom:.85rem;object-fit:cover;border-bottom:1px solid var(--ink);filter:saturate(.85) contrast(1.05)}
 .article-grid h3{font-size:clamp(1.35rem,3.5vw,1.8rem)}
-.article-grid .number{margin-bottom:.7rem;font-weight:700}
+.article-grid article[hidden]{display:none}
+/* The card's category, drawn as a Selector chip filled with the category colour. */
+.article-grid .card-chip{align-self:flex-start;margin-bottom:.7rem;padding:.35rem .6rem;border:1.5px solid var(--ink);background:var(--cat,var(--paper));color:var(--ink);font:700 .75rem/1 var(--mono);letter-spacing:.01em}
 .articles-all{margin:1.25rem 0 0;display:flex;justify-content:center}
 .article-grid .label{margin-bottom:.55rem}
 .article-grid p{max-width:33rem;margin-bottom:.6rem;font-size:.92rem;line-height:1.4}

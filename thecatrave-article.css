@@ -764,6 +764,34 @@
 .read-next > .article-kicker { margin: 0 0 .6rem; }
 .read-next > h2,
 .articles-index > h2 { margin: 0 0 1.5rem; font-size: clamp(2rem, 3.7vw, 2.8rem); line-height: 1.04; letter-spacing: -.04em; }
+/* Category filter on /articles. Same grammar as the Selector's chips
+   (.sel-chip below): outlined on paper, cyan on hover, solid ink when on,
+   the count lighter behind the name. */
+.category-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.5rem; }
+.category-chips[hidden] { display: none; }
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: .45rem .9rem;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font: 700 .8rem/1 var(--mono);
+  letter-spacing: .01em;
+  cursor: pointer;
+  transition: background var(--motion-fast) ease, color var(--motion-fast) ease, border-color var(--motion-fast) ease;
+}
+/* Like the Selector's source chips: paper at rest, the category's own colour
+   (--cat, thecatrave-home.css) on hover and when on. "All" has no colour and
+   fills with ink. */
+.category-chip:hover { background: var(--cat, var(--cyan)); }
+.category-chip:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.category-chip[aria-pressed="true"] { background: var(--cat, var(--ink)); border-color: var(--ink); color: var(--ink); }
+.category-chip[data-category="all"][aria-pressed="true"] { color: var(--paper); }
+.category-chip-n { margin-left: .45rem; font-weight: 400; color: #57534a; }
+.category-chip[aria-pressed="true"] .category-chip-n,
+.category-chip:hover .category-chip-n { color: inherit; }
 /* The Read Next grid reuses the homepage article-card system (.article-grid in
    thecatrave-home.css): one column on mobile, two on tablet, four on wide desktop,
    shared cyan hover/focus and the compact cover-image card. */

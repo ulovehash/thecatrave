@@ -303,7 +303,8 @@
       "should_have_caught": "nothing: the pattern was written when there were fewer than ten guides",
       "fix": {
         "file": "audit-site-components.mjs",
-        "contains": "/<span class=\"number\">A\\d\\d<\\/span>/g"
+        "contains": "/<span class=\"card-chip\">[^<]+<\\/span>/g",
+        "note": "2026-09-23: card numbers retired for category chips; the count now matches any chip text, so it has no ceiling at all"
       }
     },
     {

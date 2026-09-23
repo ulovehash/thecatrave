@@ -208,11 +208,10 @@ export function homeSelectorPromo({sets = 0, channels = 0, logos = [], lang = de
 
 // One cover-image card, shared by the homepage grid, Read Next and the
 // /articles page, so the three can never drift apart.
-function articleCard(item, number, component, lang = defaultLang) {
+function articleCard(item, component, lang = defaultLang) {
   requireFields(component, {
     href:item.href,
-    type:item.type,
-    topic:item.topic,
+    category:item.category,
     readingTime:item.readingTime,
     title:item.title,
     description:item.description,
@@ -221,26 +220,39 @@ function articleCard(item, number, component, lang = defaultLang) {
     height:item.height,
     alt:item.alt
   });
+  const category = t(lang).categories[item.category];
+  if (!category) throw new Error(`${component} has an unknown category "${item.category}" on ${item.href}. Use one of: ${Object.keys(t(lang).categories).join(', ')}.`);
   const srcset = item.srcset ? ` srcset="${escapeHtml(item.srcset)}"` : '';
   const sizes = item.sizes || '(max-width:767px) 100vw,50vw';
-  return `<article><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="number">${number}</span><span class="label">${escapeHtml(item.type)} / ${escapeHtml(item.topic)} / ${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>${escapeHtml(t(lang).readArticle)}</b></a></article>`;
+  return `<article data-category="${escapeHtml(item.category)}"><a href="${escapeHtml(item.href)}"><img src="${escapeHtml(item.image)}"${srcset} sizes="${escapeHtml(sizes)}" width="${escapeHtml(item.width)}" height="${escapeHtml(item.height)}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async"><span class="card-chip">${escapeHtml(category)}</span><span class="label">${escapeHtml(item.readingTime)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>${escapeHtml(t(lang).readArticle)}</b></a></article>`;
 }
 
 export function homeArticlesSection({items = [], lang = defaultLang} = {}) {
   if (!items.length) throw new Error('homeArticlesSection requires at least one article.');
   const copy = t(lang);
-  const cards = items.map((item, index) => articleCard(item, `A${String(index + 1).padStart(2, '0')}`, 'homeArticlesSection item', lang)).join('');
+  const cards = items.map(item => articleCard(item, 'homeArticlesSection item', lang)).join('');
   return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">${escapeHtml(copy.homeArticlesIndex)}</p><div><h2 id="articles-title">${escapeHtml(copy.homeArticlesTitle)}</h2><p>${escapeHtml(copy.homeArticlesBody)}</p></div></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div><p class="articles-all"><a class="button" href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.homeArticlesAll)}</a></p></section>`;
 }
 
 // The /articles page: every article in the catalogue, not only the newest eight
-// the homepage has room for. Items carry their catalogue `number`, the same one
-// Read Next shows, so a guide is A03 everywhere it appears.
+// the homepage has room for. A row of category chips above the grid filters it,
+// drawn like the Selector's chips. The chips are hidden until the script runs,
+// so without JavaScript the page is simply the whole list. The choice is kept
+// in the URL (?c=festivals) so a filtered view can be linked to.
 export function articlesIndex({items = [], title, lang = defaultLang} = {}) {
   if (!items.length) throw new Error('articlesIndex requires at least one article.');
   requireFields('articlesIndex', {title});
-  const cards = items.map(item => articleCard(item, item.number, 'articlesIndex item', lang)).join('');
-  return `<section class="articles-index" aria-labelledby="articles-index-title"><h2 id="articles-index-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
+  const copy = t(lang);
+  const cards = items.map(item => articleCard(item, 'articlesIndex item', lang)).join('');
+  const chip = (key, label, count) => `<button type="button" class="category-chip" data-category="${escapeHtml(key)}" aria-pressed="${key === 'all'}">${escapeHtml(label)}<span class="category-chip-n">${count}</span></button>`;
+  const chips = [chip('all', copy.categoriesAll, items.length)]
+    .concat(Object.entries(copy.categories)
+      .map(([key, label]) => [key, label, items.filter(item => item.category === key).length])
+      .filter(([, , count]) => count > 0)
+      .map(([key, label, count]) => chip(key, label, count)))
+    .join('');
+  const script = `<script>(()=>{const g=document.currentScript.previousElementSibling,r=g.previousElementSibling,b=[...r.querySelectorAll('.category-chip')],c=[...g.children];const set=(k,push)=>{if(!b.some(x=>x.dataset.category===k))k='all';b.forEach(x=>x.setAttribute('aria-pressed',x.dataset.category===k));c.forEach(x=>{x.hidden=k!=='all'&&x.dataset.category!==k});if(push){const u=new URL(location.href);k==='all'?u.searchParams.delete('c'):u.searchParams.set('c',k);history.replaceState(null,'',u)}};b.forEach(x=>x.addEventListener('click',()=>set(x.dataset.category,true)));set(new URLSearchParams(location.search).get('c')||'all',false);r.hidden=false})();</script>`;
+  return `<section class="articles-index" aria-labelledby="articles-index-title"><h2 id="articles-index-title">${escapeHtml(title)}</h2><div class="category-chips" role="group" aria-label="${escapeHtml(copy.categoriesLabel)}" hidden>${chips}</div><div class="article-grid read-next-grid">${cards}</div>${script}</section>`;
 }
 
 export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} = {}) {
@@ -448,7 +460,7 @@ export function bandcampSupport({description, tracks = [], fullBleed = false, la
 
 export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {
   if (!items.length) throw new Error('readNext requires at least one article.');
-  const cards = items.map((item, index) => articleCard(item, item.number || `A${String(index + 1).padStart(2, '0')}`, 'readNext item', lang)).join('');
+  const cards = items.map(item => articleCard(item, 'readNext item', lang)).join('');
   return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
 }
 
