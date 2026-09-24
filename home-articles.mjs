@@ -391,6 +391,38 @@ export const germanArticleCatalog = [
     width:1280, height:822, alt:'Die Außenansicht von Sala Razzmatazz im Stadtteil Poblenou, Barcelona'
   },
   {
+    page:'de/clubs-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/de/clubs-amsterdam', type:'Guide', topic:"Clubs in Amsterdam",
+    title:"Clubs in Amsterdam: vom RoXY bis zum Radion",
+    description:"Shelter, Radion, Lofi und der Gashouder: die besten Clubs in Amsterdam heute, warum sie 24 Stunden offen haben, und die Geschichte vom RoXY bis zur De School.",
+    image:'img/amsterdam-clubs/paradiso-320.webp',
+    srcset:'img/amsterdam-clubs/paradiso-320.webp 320w,img/amsterdam-clubs/paradiso-1200.webp 1200w',
+    width:1200, height:917, alt:"Die Backsteinfassade des Paradiso, eines ehemaligen Kirchensaals in Amsterdam"
+  },
+  {
+    page:'de/clubs-ibiza.html', category:'rave-spots', tags:['house','history','discovery'], href:'/de/clubs-ibiza', type:'Guide', topic:"Clubs auf Ibiza",
+    title:"Clubs auf Ibiza: Pacha, Amnesia, Hï und der Rest",
+    description:"Hï, Pacha, Amnesia, DC-10, Ushuaïa und [UNVRS]: die besten Clubs auf Ibiza heute, die geschlossenen, wo man wohnt und wann die Saison läuft.",
+    image:'img/ibiza-clubs/pacha-entrance-320.webp',
+    srcset:'img/ibiza-clubs/pacha-entrance-320.webp 320w,img/ibiza-clubs/pacha-entrance-1200.webp 1200w',
+    width:1200, height:675, alt:"Der weiße Eingang des Pacha in Ibiza-Stadt mit roter Schrift"
+  },
+  {
+    page:'de/partystaedte-europa.html', category:'rave-spots', tags:['techno','discovery','history'], href:'/de/partystaedte-europa', type:'List', topic:"Partystädte Europa",
+    title:"Die besten Partystädte Europas zum Clubben",
+    description:"Berlin, Amsterdam, London, Ibiza, Tiflis und sieben weitere: die besten Partystädte Europas, geordnet nach ihren Clubs statt nach Bars und Stränden.",
+    image:'img/europe-clubbing-cities/cross-club-prague-320.webp',
+    srcset:'img/europe-clubbing-cities/cross-club-prague-320.webp 320w,img/europe-clubbing-cities/cross-club-prague-1200.webp 1200w',
+    width:1200, height:901, alt:"Der Innenhof des Cross Club in Prag, gebaut aus geborgenem Metall, Rohren und Maschinenteilen"
+  },
+  {
+    page:'de/silvester-rave.html', category:'festivals', tags:['discovery','techno','house'], href:'/de/silvester-rave', type:'List', topic:"Silvester-Rave",
+    title:"Silvester-Rave und Festivals 2026/27: die besten",
+    description:"FCKNYE, Countdown NYE, Decadence, Rhythm and Vines und Awakenings: die besten Silvester-Raves und Festivals für elektronische Musik 2026, mit Terminen.",
+    image:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp',
+    srcset:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp 320w,img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp 1200w',
+    width:1200, height:900, alt:"Rote Lichtstrahlen über der Menge im Gashouder bei Awakenings in Amsterdam"
+  },
+  {
     page:'de/clubs-london.html', category:'rave-spots', tags:['jungle','history','discovery'], href:'/de/clubs-london', type:'Guide', topic:'Clubs in London',
     title:'Clubs in London für elektronische Musik: Geschichte und heute',
     description:'Vom Four Aces und dem Blitz bis zu Rage, dem Blue Note und fabric: die Londoner Clubs hinter Acid House, Jungle, Garage und Dubstep, und die, die heute ein Wochenende wert sind.',
@@ -568,6 +600,38 @@ export const frenchArticleCatalog = [
     image:'img/barcelona-clubs/razzmatazz-exterior-320.webp',
     srcset:'img/barcelona-clubs/razzmatazz-exterior-320.webp 320w,img/barcelona-clubs/razzmatazz-exterior-1280.webp 1280w',
     width:1280, height:822, alt:'La façade de Sala Razzmatazz dans le quartier de Poblenou, Barcelone'
+  },
+  {
+    page:'fr/boite-de-nuit-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-amsterdam', type:'Guide', topic:"Boite de nuit Amsterdam",
+    title:"Boite de nuit Amsterdam : les meilleurs clubs",
+    description:"Shelter, Radion, Lofi et le Gashouder : les meilleures boîtes de nuit à Amsterdam aujourd'hui, pourquoi elles ouvrent 24 heures, et l'histoire du RoXY à De School.",
+    image:'img/amsterdam-clubs/paradiso-320.webp',
+    srcset:'img/amsterdam-clubs/paradiso-320.webp 320w,img/amsterdam-clubs/paradiso-1200.webp 1200w',
+    width:1200, height:917, alt:"La façade en brique du Paradiso, ancienne salle d'église à Amsterdam"
+  },
+  {
+    page:'fr/boite-de-nuit-ibiza.html', category:'rave-spots', tags:['house','history','discovery'], href:'/fr/boite-de-nuit-ibiza', type:'Guide', topic:"Boite de nuit Ibiza",
+    title:"Boite de nuit Ibiza : Pacha, Amnesia, Hï et les autres",
+    description:"Hï, Pacha, Amnesia, DC-10, Ushuaïa et [UNVRS] : les meilleures boîtes de nuit à Ibiza, celles qui ont fermé, où loger et quand dure la saison.",
+    image:'img/ibiza-clubs/pacha-entrance-320.webp',
+    srcset:'img/ibiza-clubs/pacha-entrance-320.webp 320w,img/ibiza-clubs/pacha-entrance-1200.webp 1200w',
+    width:1200, height:675, alt:"L'entrée blanche du Pacha à Ibiza-ville, avec ses lettres rouges"
+  },
+  {
+    page:'fr/villes-faire-la-fete-europe.html', category:'rave-spots', tags:['techno','discovery','history'], href:'/fr/villes-faire-la-fete-europe', type:'List', topic:"Faire la fête en Europe",
+    title:"Villes pour faire la fête en Europe : les clubs",
+    description:"Berlin, Amsterdam, Londres, Ibiza, Tbilissi et sept autres : les meilleures villes pour faire la fête en Europe, classées par leurs clubs plutôt que leurs bars.",
+    image:'img/europe-clubbing-cities/cross-club-prague-320.webp',
+    srcset:'img/europe-clubbing-cities/cross-club-prague-320.webp 320w,img/europe-clubbing-cities/cross-club-prague-1200.webp 1200w',
+    width:1200, height:901, alt:"La cour du Cross Club à Prague, construite en métal récupéré et en pièces de machines"
+  },
+  {
+    page:'fr/festival-nouvel-an.html', category:'festivals', tags:['discovery','techno','house'], href:'/fr/festival-nouvel-an', type:'List', topic:"Festival du Nouvel An",
+    title:"Festival du Nouvel An 2026-2027 : les meilleurs",
+    description:"FCKNYE, Countdown NYE, Decadence, Rhythm and Vines et Awakenings : les meilleurs festivals du Nouvel An pour la musique électronique en 2026, avec dates et lieux.",
+    image:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp',
+    srcset:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp 320w,img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp 1200w',
+    width:1200, height:900, alt:"Des faisceaux rouges au-dessus de la foule dans le Gashouder, à Awakenings, Amsterdam"
   },
   {
     page:'fr/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/fr/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',

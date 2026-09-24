@@ -1,0 +1,37 @@
+{
+  "page": "de/partystaedte-europa.html",
+  "seed": "partystädte europa",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, Germany, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-24. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Search wording checked on live Google (google.de, hl=de/gl=de) on 2026-09-23. No Ahrefs units spent.",
+  "note": "'partystädte in europa' is recorded against the measured 'partystädte europa'; 'städte zum feiern' against 'städte zum feiern europa' and People also ask 'In welcher europäischen Stadt kann man gut feiern?'.",
+  "terms": [
+    {
+      "term": "partystädte europa",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "partystädte in europa",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "städte zum feiern",
+      "volume": 10,
+      "range": "10-100"
+    },
+    {
+      "term": "feiern in europa",
+      "volume": 10,
+      "range": "10-100"
+    }
+  ],
+  "expansion_checked": "Keyword Planner search volume for 27 German phrases covering all four translated guides, Germany, 2026-09-24",
+  "rejected": [
+    {
+      "term": "beste partystädte europa",
+      "volume": 10,
+      "range": "10-100",
+      "why": "the page says \"die besten Partystädte Europas\"; the ungrammatical form is not written"
+    }
+  ]
+}

@@ -96,6 +96,7 @@ const media = {
       ['CRSSD Proper NYE', 'Petco Park, San Diego', '31 December 2026, 3pm, to 1 January 2027, 10pm', 'House, with This Never Happened and Daisy Chain'],
       ['Lights All Night', 'Dallas Market Hall, Texas', checkSite, 'EDM'],
       ['Eternal NYE', 'Orlando, Florida', checkSite, 'Bass music'],
+      ['FCKNYE', 'Brussels Expo, Belgium', '30 December 2026 to 1 January 2027', 'French-language rap and techno, five stages'],
       ['Awakenings NYE', 'Gashouder, Amsterdam', checkSite, 'Techno'],
       ['Rhythm and Vines', 'Waiohika Estate, Gisborne, New Zealand', checkSite, 'Camping festival'],
       ['Beyond the Valley', 'Near Melbourne, Australia', checkSite, 'Multi-day festival, several stages'],
@@ -125,7 +126,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 const sections = [
   {id: 'dates', heading: "New Year's Eve 2026: the festivals and their dates"},
   {id: 'united-states', heading: 'NYE festivals in the United States'},
-  {id: 'europe', heading: "New Year's Eve in Europe: the clubs"},
+  {id: 'europe', heading: "New Year's Eve in Europe: FCKNYE and the clubs"},
   {id: 'australia-new-zealand', heading: 'Australia and New Zealand: New Year in summer'},
   {id: 'choose', heading: "How to choose a New Year's Eve festival"}
 ];
@@ -165,6 +166,9 @@ ${sourceLink('https://www.propernye.com/', 'CRSSD Proper NYE')}
 ${sourceLink('https://www.petcoparkinsider.com/crssd-proper', 'Petco Park Insider: CRSSD Proper NYE 2026 / NYD 2027')}
 ${sourceLink('https://www.dmagazine.com/arts-entertainment/2020/01/ten-years-in-lights-all-night-endures/', 'D Magazine: Ten Years In, Lights All Night Endures')}
 ${sourceLink('https://www.eternalnye.com/', 'Eternal NYE')}
+${sourceLink('https://www.rtbf.be/article/70-000-festivaliers-attendus-au-festival-fcknye-a-brussels-expo-11654727', 'RTBF: 70.000 festivaliers attendus au festival FCKNYE à Brussels Expo')}
+${sourceLink('https://handsupelectro.fr/evenement/fcknye-festival-la-programmation-complete-devoilee-pour-2026/', 'Hands UP Electro: FCKNYE Festival, la programmation complète')}
+${sourceLink('https://www.raveparty.fr/festival/fcknye-festival', 'RaveRadar: FCKNYE Festival 2026 dates')}
 ${sourceLink('https://en.wikipedia.org/wiki/Awakenings_(festival)', 'Wikipedia: Awakenings (festival)')}
 ${sourceLink('https://www.nzherald.co.nz/gisborne-herald/news/caught-on-camera-rhythm-and-vines-over-the-years/SWYASJNH55HPVM7PU6HKS3YUQA/', 'NZ Herald: Rhythm and Vines over the years')}
 ${sourceLink('https://en.wikipedia.org/wiki/Rhythm_%26_Vines', 'Wikipedia: Rhythm & Vines')}

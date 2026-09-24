@@ -2,7 +2,7 @@
 
 ## Answer
 
-The biggest New Year's Eve festivals for dance music are in the United States, New Zealand and Australia. In America, Countdown NYE in San Bernardino, Decadence NYE in Denver, HiJinx in Philadelphia, CRSSD Proper NYE in San Diego and Lights All Night in Dallas all run over the last night of the year. In New Zealand, Rhythm and Vines in Gisborne has seen in the new year since 2003 and is the first festival in the world to see its first sunrise. Beyond the Valley near Melbourne and Field Day in Sydney cover Australia. Europe does New Year's Eve differently: in clubs and one-night events such as Awakenings at the Gashouder in Amsterdam, rather than at festivals.
+The biggest New Year's Eve festivals for dance music are in the United States, New Zealand and Australia. In America, Countdown NYE in San Bernardino, Decadence NYE in Denver, HiJinx in Philadelphia, CRSSD Proper NYE in San Diego and Lights All Night in Dallas all run over the last night of the year. In New Zealand, Rhythm and Vines in Gisborne has seen in the new year since 2003 and is the first festival in the world to see its first sunrise. Beyond the Valley near Melbourne and Field Day in Sydney cover Australia. In Europe the biggest is FCKNYE, three days at Brussels Expo; otherwise the night mostly belongs to clubs, such as Awakenings at the Gashouder in Amsterdam.
 
 ## Introduction
 
@@ -28,11 +28,13 @@ Smaller rooms do New Year's Eve too. The Concourse Project in Austin booked Tinl
 
 [Embed: Tinlicker Concourse NYE]
 
-## New Year's Eve in Europe: the clubs
+## New Year's Eve in Europe: FCKNYE and the clubs
 
 [Image: Awakenings NYE]
 
-Europe has few New Year's Eve festivals in the American or Australian sense. It has clubs, and New Year's Eve is one of their biggest nights. The best-known European NYE event is Awakenings at the Gashouder in Amsterdam, a round 19th-century gasholder that the Dutch techno promoter has used since its first edition in 1997. Awakenings runs New Year's Eve nights there, and the photograph above is from 31 December 2017. Check the Awakenings site for the 2026 dates.
+Europe's biggest New Year's Eve festival is FCKNYE, at Brussels Expo. Three entrepreneurs from Charleroi started it about fifteen years ago, and its 2025 edition ran for three days, from 30 December to 1 January, with five stages, more than 110 artists and around 70,000 people expected, on a bill split between French-language rap and techno. It calls itself the biggest New Year festival in the world, and the next edition runs from 30 December 2026 to 1 January 2027.
+
+Most of Europe still sees the new year in at clubs. Awakenings runs New Year's Eve nights at the Gashouder in Amsterdam, a round 19th-century gasholder that the Dutch techno promoter has used since its first edition in 1997, and the photograph above is from 31 December 2017. Check the Awakenings site for the 2026 dates.
 
 [Embed: Awakenings NYE 2013]
 
@@ -64,7 +66,7 @@ For the rest of the year, [the Selector](/selector) plays a set at random from a
 
 ### What are the best New Year's Eve festivals?
 
-For dance music: Countdown NYE, Decadence NYE, HiJinx and CRSSD Proper NYE in the United States, Rhythm and Vines in New Zealand, Beyond the Valley and Field Day in Australia, and Awakenings' New Year's Eve nights at the Gashouder in Amsterdam.
+For dance music: Countdown NYE, Decadence NYE, HiJinx and CRSSD Proper NYE in the United States, FCKNYE in Brussels, Rhythm and Vines in New Zealand, Beyond the Valley and Field Day in Australia, and Awakenings' New Year's Eve nights at the Gashouder in Amsterdam.
 
 ### Which festival sees the new year first?
 
@@ -72,7 +74,7 @@ Rhythm and Vines, near Gisborne in New Zealand. Gisborne is the first city in th
 
 ### Are there New Year's Eve festivals in Europe?
 
-A few, but New Year's Eve in Europe mostly belongs to clubs. Awakenings in Amsterdam is the best-known European NYE event for techno.
+Yes. FCKNYE at Brussels Expo is the biggest, over three days from 30 December 2026 to 1 January 2027. Otherwise New Year's Eve in Europe mostly belongs to clubs, and Awakenings in Amsterdam is the best-known techno night.
 
 ### Is there a New Year's Eve festival in Amsterdam?
 

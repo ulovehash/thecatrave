@@ -147,6 +147,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - acid house
 - was ist acid house
 
+## de/clubs-amsterdam.html
+
+- clubs amsterdam
+- clubs in amsterdam
+- nachtleben in amsterdam
+- techno clubs in amsterdam
+
 ## de/clubs-barcelona.html
 
 - besten clubs in barcelona
@@ -230,6 +237,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - electric daisy carnival
 - edc las vegas 2027
 
+## de/partystaedte-europa.html
+
+- partystädte europa
+- partystädte in europa
+- städte zum feiern
+- feiern in europa
+
 ## de/electro-festivals-europa.html
 
 - electro festivals in europa
@@ -248,6 +262,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - grime musik
 - was ist grime
 - grime künstler
+
+## de/clubs-ibiza.html
+
+- clubs ibiza
+- clubs auf ibiza
+- nachtleben auf ibiza
+- größte disco auf ibiza
 
 ## de/jungle.html
 
@@ -270,6 +291,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wo findet mysteryland statt
 - wie viele besucher hat mysteryland
 - was kosten tickets für mysteryland
+
+## de/silvester-rave.html
+
+- silvester rave
+- silvester festival
+- silvester festivals
+- fcknye
 
 ## de/clubs-paris.html
 
@@ -413,6 +441,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - l’acid house
 - qu’est-ce que l’acid house
 
+## fr/boite-de-nuit-amsterdam.html
+
+- boite de nuit amsterdam
+- clubs techno à amsterdam
+- vie nocturne à amsterdam
+
 ## fr/boite-de-nuit-barcelone.html
 
 - boite de nuit barcelone
@@ -473,6 +507,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - electric daisy carnival
 - edc las vegas 2027
 
+## fr/villes-faire-la-fete-europe.html
+
+- où faire la fête en europe
+- faire la fête en europe
+- villes pour faire la fête en europe
+
 ## fr/festivals-electro-europe.html
 
 - festivals électro en europe
@@ -490,6 +530,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - grime
 - musique grime
+
+## fr/boite-de-nuit-ibiza.html
+
+- boite de nuit ibiza
+- boites de nuit à ibiza
+- plus grosse boite d'ibiza
 
 ## fr/jungle.html
 
@@ -509,6 +555,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - mysteryland
 - mysteryland festival
 - mysteryland 2027
+
+## fr/festival-nouvel-an.html
+
+- festival du nouvel an
+- festivals du nouvel an
+- fcknye
 
 ## fr/boite-de-nuit-paris.html
 

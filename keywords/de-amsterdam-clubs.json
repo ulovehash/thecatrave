@@ -1,0 +1,43 @@
+{
+  "page": "de/clubs-amsterdam.html",
+  "seed": "clubs amsterdam",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, Germany, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-24. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Search wording checked on live Google (google.de, hl=de/gl=de) on 2026-09-23. No Ahrefs units spent.",
+  "note": "'clubs in amsterdam' shares the Planner row of 'clubs amsterdam' (the tool merged the variants); 'nachtleben in amsterdam' and 'techno clubs in amsterdam' are recorded against the measured 'nachtleben amsterdam' and 'techno clubs amsterdam', written with the preposition German needs.",
+  "terms": [
+    {
+      "term": "clubs amsterdam",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "clubs in amsterdam",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "nachtleben in amsterdam",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "techno clubs in amsterdam",
+      "volume": 100,
+      "range": "100-1K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner search volume for 27 German phrases covering all four translated guides, Germany, 2026-09-24",
+  "rejected": [
+    {
+      "term": "beste clubs amsterdam",
+      "volume": 10,
+      "range": "10-100",
+      "why": "the page says \"die besten Clubs in Amsterdam\"; the ungrammatical form is not written"
+    },
+    {
+      "term": "amsterdam nachtleben",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "same query as \"Nachtleben in Amsterdam\", which the page carries"
+    }
+  ]
+}

@@ -709,6 +709,17 @@
         "file": "ARTICLE-EDITORIAL-REVIEW.md",
         "contains": "These are enforced on every build by `audit-banned-phrases.mjs`, in English, German and French."
       }
+    },
+    {
+      "id": "nye-guide-misses-fcknye",
+      "found": "2026-09-23",
+      "by": "agent",
+      "what": "new-years-eve-festivals.html (published 2026-09-23) says Europe has few New Year's Eve festivals and names Awakenings as the best-known European NYE event. It leaves out FCKNYE Festival at Brussels Expo, which bills itself as the world's biggest New Year festival: three days, five stages, 110+ artists and about 70,000 people expected for 30 December 2025 to 1 January 2026 (RTBF, Hands UP Electro), next edition 30 December 2026 to 1 January 2027. Found on google.fr while researching the French translation: it is the first result for 'festival nouvel an'. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "the NYE research read only US (gl=us) Google results and English-language lists; no European-language search was run for a page claiming to cover Europe",
+      "fix": {
+        "file": "nye-festivals-draft.md",
+        "contains": "Europe's biggest New Year's Eve festival is FCKNYE, at Brussels Expo."
+      }
     }
   ]
 }

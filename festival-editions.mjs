@@ -48,5 +48,8 @@ export const festivalEditions = [
   {page: 'fr/festivals-electro-europe.html', heading: 'Les dates 2027 en un coup d’œil', ends: null},
   // New Year's Eve moves on every January: rewrite the table and the heading
   // for the next New Year once this one has passed.
-  {page: 'new-years-eve-festivals.html', heading: "New Year's Eve 2026", ends: '2027-01-01'}
+  {page: 'new-years-eve-festivals.html', heading: "New Year's Eve 2026", ends: '2027-01-01'},
+  // The translations roll with the English page.
+  {page: 'de/silvester-rave.html', heading: 'Silvester 2026', ends: '2027-01-01'},
+  {page: 'fr/festival-nouvel-an.html', heading: 'Nouvel An 2026', ends: '2027-01-01'}
 ];

@@ -1,0 +1,38 @@
+{
+  "page": "fr/festival-nouvel-an.html",
+  "seed": "festival nouvel an",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, France, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-24. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Search wording checked on live Google (google.fr, hl=fr/gl=fr) on 2026-09-23. No Ahrefs units spent.",
+  "note": "'festival du nouvel an' is recorded against the larger measured 'festival nouvel an' (100-1K). FCKNYE measured 1K-10K in France, larger than any generic phrase, which confirms it belongs at the top of the French page.",
+  "terms": [
+    {
+      "term": "festival du nouvel an",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "festivals du nouvel an",
+      "volume": 10,
+      "range": "10-100"
+    },
+    {
+      "term": "fcknye",
+      "volume": 1000,
+      "range": "1K-10K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner search volume for 27 French phrases covering all four translated guides, France, 2026-09-24",
+  "rejected": [
+    {
+      "term": "festival nouvel an",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "French needs the article; the page carries \"festival du Nouvel An\", which Google treats as the same query"
+    },
+    {
+      "term": "rave nouvel an",
+      "volume": 10,
+      "range": "10-100",
+      "why": "too small to shape the page"
+    }
+  ]
+}

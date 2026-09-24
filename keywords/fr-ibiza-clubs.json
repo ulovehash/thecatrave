@@ -1,0 +1,38 @@
+{
+  "page": "fr/boite-de-nuit-ibiza.html",
+  "seed": "boite de nuit ibiza",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, France, All languages, Google, Sep 2025 to Aug 2026, read 2026-09-24. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Search wording checked on live Google (google.fr, hl=fr/gl=fr) on 2026-09-23. No Ahrefs units spent.",
+  "note": "'boites de nuit à ibiza' is recorded against the measured 'ibiza boite de nuit'; \"plus grosse boite d'ibiza\" against 'plus grande boite ibiza' and People also ask \"Quelle est la plus grosse boîte d'Ibiza ?\".",
+  "terms": [
+    {
+      "term": "boite de nuit ibiza",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "boites de nuit à ibiza",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "plus grosse boite d'ibiza",
+      "volume": 10,
+      "range": "10-100"
+    }
+  ],
+  "expansion_checked": "Keyword Planner search volume for 27 French phrases covering all four translated guides, France, 2026-09-24",
+  "rejected": [
+    {
+      "term": "club ibiza",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "the page uses \"boîte de nuit\" throughout, as the French Paris and Barcelona pages do"
+    },
+    {
+      "term": "ibiza fete",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "party holidays in general; a different intent"
+    }
+  ]
+}

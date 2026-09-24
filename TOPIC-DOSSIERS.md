@@ -1554,3 +1554,16 @@ europenightlife best techno cities, partiesnearme 2026, wepartynow), не по
   `og-card-manifest-double-quoted-title`. Не закрыто: стадия 6, даты
   2026 для Lights All Night / Eternal / Awakenings / R&V / Beyond the Valley,
   переводы de/fr.
+- **Переводы de/fr, 2026-09-24** (владелец: «do the german and french
+  versions»): `/de/clubs-amsterdam`, `/de/clubs-ibiza`,
+  `/de/partystaedte-europa`, `/de/silvester-rave`,
+  `/fr/boite-de-nuit-amsterdam`, `/fr/boite-de-nuit-ibiza`,
+  `/fr/villes-faire-la-fete-europe`, `/fr/festival-nouvel-an`. Keyword
+  Planner (Germany / France): clubs amsterdam 1K–10K, clubs ibiza 1K–10K,
+  partystädte europa 100–1K, silvester rave 100–1K (> silvester festival
+  10–100, поэтому URL /de/silvester-rave), boite de nuit amsterdam 1K–10K,
+  boite de nuit ibiza 1K–10K, où faire la fête en europe 100–1K, festival
+  nouvel an 100–1K, fcknye 1K–10K во Франции. На google.fr найден FCKNYE
+  (Brussels Expo), которого не было в английском NYE-гайде: дефект
+  `nye-guide-misses-fcknye`, исправлен по одобренной владельцем формулировке,
+  перенесён в оба перевода. В de/fr NYE раздел Европы идёт перед США.
