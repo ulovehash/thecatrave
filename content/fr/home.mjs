@@ -21,22 +21,14 @@ export const strings = [
    'Musique breakbeat, bass et rave faite main, DJ mixes et articles sur la musique électronique underground et la culture club.'],
 
   // hero
-  ['[Breakbeat / bass / rave / no AI]', '[Breakbeat / bass / rave / sans IA]'],
   ['Handmade breakbeat, bass and rave music.', 'De la musique breakbeat, bass et rave faite main.'],
-  ['I was born in Eastern Europe, later lived in Berlin and Barcelona, and raved around the world. All of that shaped my taste: Eastern European melancholy, German electronic music, the restless energy of UK bass music from jungle and drum and bass to garage and hardcore, and a constant urge to dig for new genres and sounds from different places.',
-   'Je suis né en Europe de l’Est, j’ai ensuite vécu à Berlin et à Barcelone, et j’ai fait la fête dans des raves partout dans le monde. Tout cela a façonné mes goûts : la mélancolie d’Europe de l’Est, la musique électronique allemande, l’énergie inquiète de la bass music britannique, de la jungle et de la drum and bass au garage et au hardcore, et une envie permanente de dénicher de nouveaux genres et de nouveaux sons venus d’ailleurs.'],
-  ['I started with Eurodance as a kid, then got obsessed with The Prodigy, Fatboy Slim, The Chemical Brothers, Underworld, The Future Sound of London and Meat Beat Manifesto, alongside West Coast rap. Jungle and drum and bass led me to Goldie, LTJ Bukem, Photek, Source Direct and 4hero. Sade, Seal and Sting mattered just as much, so melody and atmosphere have always been as important to me as drums.',
-   'J’ai commencé enfant avec l’eurodance, puis je suis devenu obsédé par The Prodigy, Fatboy Slim, The Chemical Brothers, Underworld, The Future Sound of London et Meat Beat Manifesto, en même temps que par le rap de la côte Ouest. La jungle et la drum and bass m’ont mené à Goldie, LTJ Bukem, Photek, Source Direct et 4hero. Sade, Seal et Sting ont compté tout autant, alors la mélodie et l’atmosphère ont toujours eu pour moi autant d’importance que les batteries.'],
-  ['My tracks and DJ sets move through breakbeat, bass, club music, experimental electronic, breaks and rave, with elements of grime and techno. I do not stay inside one genre. I look for connections between different rhythms, scenes and eras.',
-   'Mes morceaux et mes DJ sets traversent le breakbeat, la bass, la musique de club, l’électronique expérimentale, les breaks et la rave, avec des touches de grime et de techno. Je ne reste pas dans un seul genre. Je cherche les liens entre des rythmes, des scènes et des époques différentes.'],
-  ['I make music for pre-parties, clubs, raves and afters, but also for walking alone or sitting on a balcony with a cigarette and thinking about life.',
-   'Je fais de la musique pour les before, les clubs, les raves et les afters, mais aussi pour marcher seul ou rester sur un balcon avec une cigarette à penser à la vie.'],
+  ['I was born in Eastern Europe, raved my way through Berlin, Barcelona and beyond, and make breakbeat, bass and rave music shaped by all of it.',
+   'Je suis né en Europe de l’Est, j’ai fait la fête dans des raves à Berlin, à Barcelone et bien au-delà, et je fais de la musique breakbeat, bass et rave façonnée par tout cela.'],
   ['Play my music', 'Écouter ma musique'],
   ['Read the journal', 'Lire les articles'],
   ['thecatrave sitting with a small keyboard in warm orange light', 'thecatrave assis avec un petit clavier dans une lumière orange chaude'],
 
   // 01 Bandcamp
-  ['01 / Buy on Bandcamp', '01 / Acheter sur Bandcamp'],
   ['Support me on Bandcamp.', 'Soutenez-moi sur Bandcamp.'],
   ['Streaming is useful for discovery. If you want to support my work directly, buying a track on Bandcamp makes the biggest difference.',
    'Le streaming sert à découvrir. Si vous voulez soutenir directement mon travail, acheter un morceau sur Bandcamp est ce qui compte le plus.'],
@@ -58,40 +50,42 @@ export const strings = [
   ['no genre no problem by thecatrave', 'no genre no problem de thecatrave'],
 
   // 02 mixes
-  ['02 / DJ mixes', '02 / DJ mixes'],
   ['My DJ mixes.', 'Mes DJ mixes.'],
   ['Club music, experimental electronic, breaks, grime and techno connected into long-form sets without genre borders.',
    'Musique de club, électronique expérimentale, breaks, grime et techno, enchaînés en longs sets sans frontières de genre.'],
-  ['Featured mix', 'Mix à la une'],
   ['I spent about four months choosing and rearranging these 30 tracks until the mix felt right.',
    'J’ai passé environ quatre mois à choisir et à réordonner ces 30 morceaux jusqu’à ce que le mix sonne juste.'],
   ['I Like to Smoke in Silence After Raves on SoundCloud', 'I Like to Smoke in Silence After Raves sur SoundCloud'],
-  ['DJ mix', 'DJ mix'],
   ['A loud and restless mix about going out again even when you know better.',
    'Un mix bruyant et agité sur l’envie de ressortir, même quand on sait qu’on ne devrait pas.'],
   ['I Lost So Many Weekends Raving and I Wanna Lose Some More on SoundCloud', 'I Lost So Many Weekends Raving and I Wanna Lose Some More sur SoundCloud'],
 
   // 03 original music
-  ['03 / Original music', '03 / Musique originale'],
   ['Original tracks and other experiments.', 'Morceaux originaux et autres expériences.'],
   ['Breakbeat, bass, garage, jungle and experimental electronic tracks, built from scratch in a DAW. I do not use generative AI in music.',
    'Des morceaux breakbeat, bass, garage, jungle et d’électronique expérimentale, construits de zéro dans un logiciel de production. Je n’utilise pas d’IA générative dans ma musique.'],
-  ['Original productions / Spotify', 'Productions originales / Spotify'],
   ['Original electronic music by thecatrave', 'Musique électronique originale de thecatrave'],
   ['Breakbeat, garage, jungle, techno and melancholic electronic music.', 'Breakbeat, garage, jungle, techno et musique électronique mélancolique.'],
   ['thecatrave tracks on Spotify', 'Les morceaux de thecatrave sur Spotify'],
-  ['Original productions / SoundCloud', 'Productions originales / SoundCloud'],
   ['Breakbeat and electronic music archive', 'Archives breakbeat et musique électronique'],
   ['Sketches and original productions from my SoundCloud.', 'Esquisses et productions originales de mon SoundCloud.'],
   ['thecatrave original tracks on SoundCloud', 'Les morceaux originaux de thecatrave sur SoundCloud'],
 
   // 04 playlists
-  ['04 / Playlists', '04 / Playlists'],
   ['Records and playlists I keep close.', 'Les disques et les playlists que je garde près de moi.'],
   ['Breaks, UK garage, jungle, ambient and leftfield club music I return to and build from.',
    'Breaks, UK garage, jungle, ambient et musique de club leftfield, vers lesquels je reviens toujours et sur lesquels je construis.'],
   ['Favourite electronic music playlist by thecatrave', 'Playlist de musique électronique préférée de thecatrave'],
-  ['Second favourite electronic music playlist by thecatrave', 'Deuxième playlist de musique électronique préférée de thecatrave']
+  ['Second favourite electronic music playlist by thecatrave', 'Deuxième playlist de musique électronique préférée de thecatrave'],
+
+  // 06 about
+  ['About thecatrave.', 'À propos de thecatrave.'],
+  ['My taste comes from Eastern European melancholy, German electronic music and the restless energy of UK bass, from jungle and drum and bass to garage and hardcore. I started with Eurodance as a kid, then got obsessed with The Prodigy, Fatboy Slim, The Chemical Brothers, Underworld, The Future Sound of London and Meat Beat Manifesto, alongside West Coast rap. Jungle and drum and bass led me to Goldie, LTJ Bukem, Photek, Source Direct and 4hero, while Sade, Seal and Sting taught me that melody and atmosphere matter as much as drums.',
+   'Mes goûts viennent de la mélancolie d’Europe de l’Est, de la musique électronique allemande et de l’énergie inquiète de la bass music britannique, de la jungle et de la drum and bass au garage et au hardcore. J’ai commencé enfant avec l’eurodance, puis je suis devenu obsédé par The Prodigy, Fatboy Slim, The Chemical Brothers, Underworld, The Future Sound of London et Meat Beat Manifesto, en même temps que par le rap de la côte Ouest. La jungle et la drum and bass m’ont mené à Goldie, LTJ Bukem, Photek, Source Direct et 4hero, tandis que Sade, Seal et Sting m’ont appris que la mélodie et l’atmosphère comptent autant que les batteries.'],
+  ['My tracks and DJ sets move through breakbeat, bass, club music, experimental electronic, breaks and rave, with elements of grime and techno. I do not stay inside one genre, and I am always looking for connections between rhythms, scenes and eras.',
+   'Mes morceaux et mes DJ sets traversent le breakbeat, la bass, la musique de club, l’électronique expérimentale, les breaks et la rave, avec des touches de grime et de techno. Je ne reste pas dans un seul genre et je cherche toujours les liens entre des rythmes, des scènes et des époques différentes.'],
+  ['I make music for pre-parties, clubs, raves and afters, but also for walking alone or sitting on a balcony with a cigarette and thinking about life.',
+   'Je fais de la musique pour les before, les clubs, les raves et les afters, mais aussi pour marcher seul ou rester sur un balcon avec une cigarette à penser à la vie.']
 ];
 
 // Titles of the owner's own mixes: the same in every language.

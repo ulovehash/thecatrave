@@ -231,7 +231,7 @@ export function homeArticlesSection({items = [], lang = defaultLang} = {}) {
   if (!items.length) throw new Error('homeArticlesSection requires at least one article.');
   const copy = t(lang);
   const cards = items.map(item => articleCard(item, 'homeArticlesSection item', lang)).join('');
-  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><p class="section-index">${escapeHtml(copy.homeArticlesIndex)}</p><div><h2 id="articles-title">${escapeHtml(copy.homeArticlesTitle)}</h2><p>${escapeHtml(copy.homeArticlesBody)}</p></div></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div><p class="articles-all"><a class="button" href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.homeArticlesAll)}</a></p></section>`;
+  return `<section class="section-shell" id="articles" aria-labelledby="articles-title"><header class="section-heading"><h2 id="articles-title">${escapeHtml(copy.homeArticlesTitle)}</h2><p>${escapeHtml(copy.homeArticlesBody)}</p></header><div class="article-grid" style="--article-cards:${items.length}">${cards}</div><p class="articles-all"><a class="button" href="${escapeHtml(copy.articlesPath)}">${escapeHtml(copy.homeArticlesAll)}</a></p></section>`;
 }
 
 // The /articles page: every article in the catalogue, not only the newest eight
