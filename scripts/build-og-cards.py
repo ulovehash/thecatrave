@@ -94,7 +94,11 @@ HERO = {
     "nye-festivals": "img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp",
     "house-music": "img/house-music/frankie-knuckles-ade-2012-1200.webp",
     "techno-music": "img/techno/jeff-mills-2010-1200.webp",
+    "german-electronic": "img/german-electronic/kraftwerk-stage-1200.webp",
     "nyc-clubs": "img/nyc-clubs/limelight-church-1200.webp",
+    "tokyo-clubs": "img/tokyo-clubs/womb-shibuya-1200.webp",
+    "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
+    "prague-clubs": "img/prague-clubs/wenceslas-square-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

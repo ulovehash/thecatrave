@@ -139,6 +139,23 @@ Complete three reviews before layout:
 
 Follow the detailed protocol and required output format in `ARTICLE-EDITORIAL-REVIEW.md`. Save the resulting review with the article handoff artefacts.
 
+**This is a gate, not a formality to fit in when convenient.** Three guides
+(Tokyo, Budapest, Prague) went from research straight through drafting,
+component mapping and a full build-and-audit pass with none of the three
+reviews above run at all. Every technical check was green: `audit-all.mjs`,
+HTML validation, links, 446 layout tests. The review only happened because the
+owner asked, unprompted, whether the work was "shitty prepared," and it found
+a factual claim with no source behind it, an interpretive sentence presented
+as fact, and the same AI-writing-tell repeated four times in one short
+article, none of which any audit checks for. A green build proves the page is
+structurally sound. It says nothing about whether the sentences are true or
+whether a person wrote them. Do not report a guide as finished, and do not
+let a full audit pass read as "done," until the three reviews in
+`ARTICLE-EDITORIAL-REVIEW.md` have actually run against that guide and their
+output is saved as `<slug>-editorial-review.md`. Speed pressure, a batch of
+several guides, or an owner instruction to "write these next" authorizes
+moving fast through research and drafting; it does not waive this gate.
+
 ## 7. Media and listening package
 
 Create a media matrix before implementation:

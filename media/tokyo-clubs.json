@@ -1,0 +1,95 @@
+{
+  "page": "best-clubs-in-tokyo.html",
+  "seed": "best clubs in tokyo",
+  "source": "FIGURES.md adapted for clubs, 2026-09-24, as for the NYC, Amsterdam, Ibiza and Paris guides. Live Google SERP for 'best clubs in tokyo' (US, 2026-09-24) read in full: Reddit r/Tokyo and r/TokyoTravel, Tripadvisor Japan Forum and Attractions list, gotokyo.org, YouTube nightlife round-ups, nightlifetokyo.com, ra.co/clubs/jp/tokyo, globaldebauchery.com. History and dates: Wikipedia (Businesses Affecting Public Morals Regulation Act, Womb (nightclub), AgeHa); DJ Mag (Tokyo club Air to close, 2015; Top 100 Clubs 2021 and 2023 entries for WOMB); the Japan Times (ageHa/Studio Coast closure, 2022); Crack Magazine (Japan lifts the no-dancing law, 2016); Resident Advisor club and event pages for WOMB, Vent, Contact and Circus Tokyo. Sound Museum Vision and ageHa are covered as closed venues, not in the current-clubs table.",
+  "required_records": [
+    {
+      "title": "Businesses Affecting Public Morals Regulation Act",
+      "artist": null,
+      "year": 1948,
+      "why": "S5: the law that shaped where and how Tokyo's clubs operated for 68 years",
+      "sources": ["originators"],
+      "no_embed_reason": "a law, not a venue or artist"
+    },
+    {
+      "title": "Air",
+      "artist": "club, Daikanyama, 2001 to 2015",
+      "year": null,
+      "why": "S5: the pre-reform techno and house room that Contact was built to succeed",
+      "sources": ["originators"],
+      "no_embed_reason": "closed in 2015; no licensed photograph found"
+    },
+    {
+      "title": "ageHa",
+      "artist": "club, Shin-Kiba, 2002 to 2022",
+      "year": null,
+      "why": "S5: Japan's self-declared largest nightclub; closed in 2022",
+      "sources": ["originators"],
+      "photo_credit": "Kakidai, CC BY-SA 4.0, via Wikimedia Commons, November 2018, exterior of Studio Coast"
+    },
+    {
+      "title": "WOMB",
+      "artist": "club, Shibuya",
+      "year": 2000,
+      "why": "S4 consensus and S5: the longest-running of Tokyo's current techno clubs; DJ Mag Top 100 Clubs 2021 (67th) and 2023 (76th)",
+      "sources": ["consensus", "originators"],
+      "photo_credit": "Dick Thomas Johnson, CC BY 2.0, via Wikimedia Commons, June 2023, exterior"
+    },
+    {
+      "title": "Vent",
+      "artist": "club, Minami-Aoyama, opened 2016",
+      "year": null,
+      "why": "S4: named among Ken Ishii's own favourite Tokyo clubs alongside Contact and WOMB",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Contact",
+      "artist": "club, Shibuya, opened 2016",
+      "year": null,
+      "why": "S4 consensus: Boiler Room's chosen Tokyo venue for its 2019 broadcast",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Circus Tokyo",
+      "artist": "club, Shibuya, opened 2015",
+      "year": null,
+      "why": "S4: current drum and bass and bass-music booker, distinct from the Shibuya house/techno cluster",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Solfa",
+      "artist": "club, Nakameguro, opened 2009",
+      "year": null,
+      "why": "S4: consistent techno booking outside the Shibuya cluster",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Dogenzaka",
+      "artist": "street, Shibuya",
+      "year": null,
+      "why": "geography: the street that holds most of the clubs in this guide",
+      "sources": ["originators"],
+      "photo_credit": "Freddickfix, CC BY 4.0, via Wikimedia Commons, March 2024, Dogenzaka at night"
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "E2mThQ-g-24",
+      "title": "Chida, Boiler Room Tokyo, 2014 (with Force of Nature and Monkey Timers)"
+    },
+    {
+      "id": "S0yP6ZOl4z0",
+      "title": "Wata Igarashi, Boiler Room Tokyo x TDME, Shibuya, December 2016"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Sound Museum Vision",
+      "why": "closed September 2022; mentioned in prose as Contact's sister venue but not given its own table row or image"
+    }
+  ]
+}

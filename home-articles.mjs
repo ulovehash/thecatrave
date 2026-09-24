@@ -138,6 +138,30 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The Gothic Revival church on Sixth Avenue that housed the Limelight nightclub'
   },
   {
+    page:'best-clubs-in-tokyo.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-tokyo', type:'Guide', topic:'Tokyo clubs',
+    title:'Best Clubs in Tokyo: WOMB, Contact and the Ban on Dancing',
+    description:'WOMB, Contact, Vent and Circus Tokyo: the best clubs in Tokyo for house, techno and bass music, and the 68-year law against dancing that shaped them.',
+    image:'img/tokyo-clubs/womb-shibuya-320.webp',
+    srcset:'img/tokyo-clubs/womb-shibuya-320.webp 320w,img/tokyo-clubs/womb-shibuya-1200.webp 1200w',
+    width:1200, height:800, alt:'The street-level entrance and signage of WOMB nightclub in Shibuya, Tokyo'
+  },
+  {
+    page:'best-clubs-in-budapest.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-budapest', type:'Guide', topic:'Budapest clubs',
+    title:'Best Clubs in Budapest: A38, Instant-Fogas and Turbina',
+    description:"A38's converted cargo ship, the seven rooms of Instant-Fogas and Turbina's techno nights: the best clubs in Budapest now, and the ruin bars several grew out of.",
+    image:'img/budapest-clubs/a38-ship-320.webp',
+    srcset:'img/budapest-clubs/a38-ship-320.webp 320w,img/budapest-clubs/a38-ship-1200.webp 1200w',
+    width:1200, height:900, alt:'The A38 ship moored on the Danube in Budapest, a converted 1968 cargo vessel'
+  },
+  {
+    page:'best-clubs-in-prague.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-prague', type:'Guide', topic:'Prague clubs',
+    title:'Best Clubs in Prague: Cross Club, Karlovy Lázně and Ankali',
+    description:"Cross Club's salvaged machinery, Karlovy Lázně's five floors and Ankali's techno nights: the best clubs in Prague, mainstream and underground.",
+    image:'img/prague-clubs/cross-club-interior-320.webp',
+    srcset:'img/prague-clubs/cross-club-interior-320.webp 320w,img/prague-clubs/cross-club-interior-844.webp 844w',
+    width:844, height:563, alt:"The interior of Cross Club's basement bar in Prague, built from salvaged metal and machine parts"
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',

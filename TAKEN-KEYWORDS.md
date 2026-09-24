@@ -786,6 +786,26 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - where is mysteryland
 - mysteryland usa
 
+## best-clubs-in-tokyo.html
+
+- best clubs in tokyo
+- tokyo clubs
+- clubs in tokyo
+- best clubs in tokyo for foreigners
+
+## best-clubs-in-budapest.html
+
+- budapest clubs
+- best clubs in budapest
+- clubs in budapest
+- instant fogas
+
+## best-clubs-in-prague.html
+
+- best clubs in prague
+- prague clubs
+- clubs in prague
+
 ## best-clubs-in-nyc.html
 
 - best clubs in nyc

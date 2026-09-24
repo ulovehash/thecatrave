@@ -5,8 +5,8 @@
   --article-gutter: clamp(1rem, 4vw, 3rem);
   --section-space: var(--space-3xl);
   --media-space: clamp(2.5rem, 4.5vw, 3.5rem);
-  --text-label: .82rem;
-  --text-caption: .81rem;            /* .72 was 11.5px: mono, muted and tiny at once */
+  --text-label: .68rem;               /* matches .sel-panel-head .article-kicker / .sel-field-label on the Selector page; .82 was bigger there than here */
+  --text-caption: .68rem;             /* matches .sel-field-label on the Selector page; .81 read too loud in mono caps */
   --text-body: 1.12rem;
   --text-lead: 1.35rem;
   --leading-body: 1.66;
@@ -424,7 +424,11 @@
 .faq-section details { border-top: 1px solid rgba(10, 10, 10, .35); }
 .faq-section details:last-child { border-bottom: 1px solid rgba(10, 10, 10, .35); }
 .faq-section summary { padding: 1.15rem 2rem 1.15rem 0; cursor: pointer; font-size: 1.15rem; font-weight: 700; line-height: 1.35; }
-.faq-section details p { padding-right: 1.5rem; }
+/* Matches summary's own 1.15rem so an open answer gets the same breathing
+   room before the divider below it that a closed question already gets from
+   its summary's padding-bottom; left at 0 the answer text sat flush against
+   the line while every closed question had clear air above its line. */
+.faq-section details p { padding-right: 1.5rem; padding-bottom: 1.15rem; }
 .sources-section p { font-size: .95rem; overflow-wrap: anywhere; }
 /* A table is media: it gets the same gap under it as over it, on the shared
    --media-space scale, so the next paragraph never sits flush against the
@@ -840,6 +844,12 @@
      way it was meant to, and starts a third smaller. */
   .article-page { --section-space: clamp(2.25rem, 10.6vw, 3.5rem); }
   .article-section { padding: var(--section-space) 0; }
+  /* The rule above re-sets the full padding shorthand, which quietly restored
+     the top padding .article-intro (line ~210) zeroes out on desktop: the
+     hero's own bottom padding plus this section's top padding stacked into a
+     double gap under the table of contents. Re-zeroed here so the exception
+     survives this breakpoint too. */
+  .article-intro { padding-top: 0; }
   /* A clamp only starts to move at 1600 * floor / vw pixels wide, so a floor
      picked for desktop leaves the size pinned across every phone. Sized the
      other way round here: 7.9vw reaches this floor at 340px, so the step is
@@ -877,6 +887,9 @@
   .listening-block { margin-block: var(--media-space); }
   .listening-block-full { width: 100vw; padding: 1rem; }
   .listening-block .video-grid { margin-top: 1.25rem; }
+  .genre-table { font-size: .78rem; line-height: 1.4; }
+  .genre-table th, .genre-table td { min-width: 120px; padding: .65rem; }
+  .genre-table th { font-size: var(--text-caption); }
   .genre-map svg { display: none; }
   .genre-map-mobile { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; border-top: 1px solid currentColor; }
   .genre-map-mobile li { display: grid; gap: .35rem; padding: 1rem 0; border-bottom: 1px solid currentColor; }

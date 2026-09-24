@@ -1,0 +1,99 @@
+{
+  "page": "best-clubs-in-budapest.html",
+  "seed": "best clubs in budapest",
+  "source": "FIGURES.md adapted for clubs, 2026-09-24, as for the Tokyo, NYC, Amsterdam, Ibiza and Paris guides. Live Google SERP for 'best clubs in budapest' (US, 2026-09-24) read in full: Reddit r/budapest, Tripadvisor Attractions list, GetYourGuide, trip.com Top 20, budapestinfo.hu, reformatt.com. History and dates: A38's own history page; Wikipedia (A38 (venue), Szimpla Kert); We Love Budapest (Instant-Fogas merger and expansion, Corvintető closure and redevelopment); Electronic Beats (Lärm's opening and design); turbinabudapest.hu and We Love Budapest (Boiler Room Budapest at Turbina, 2021); Resident Advisor and boilerroom.tv (Boiler Room Budapest x Lobster Theremin at Akvárium Klub, 2017).",
+  "required_records": [
+    {
+      "title": "Szimpla Kert",
+      "artist": "ruin bar, Jewish Quarter, opened 2002",
+      "year": null,
+      "why": "S5: the originating ruin bar that set the template for District VII's nightlife",
+      "sources": ["originators"],
+      "photo_credit": "Fred Romero, CC BY 2.0, via Wikimedia Commons, August 2017"
+    },
+    {
+      "title": "Instant-Fogas",
+      "artist": "club complex, Akácfa utca, merged 2017",
+      "year": null,
+      "why": "S4 consensus: the largest current club, formed from two merged ruin bars",
+      "sources": ["consensus"],
+      "photo_credit": "Christo, CC BY-SA 4.0, via Wikimedia Commons, July 2017, the Fogas building on Akácfa utca"
+    },
+    {
+      "title": "A38",
+      "artist": "club, Danube (Petőfi Bridge), opened 2003",
+      "year": null,
+      "why": "S4 consensus and S5: a converted 1968 cargo ship, one of the two constants of Budapest clubbing",
+      "sources": ["consensus", "originators"],
+      "photo_credit": "Rakás, CC BY-SA 4.0, via Wikimedia Commons, September 2015"
+    },
+    {
+      "title": "Corvintető",
+      "artist": "club, Blaha Lujza tér, 2007 to 2018",
+      "year": null,
+      "why": "S5: Budapest's best-known rooftop club until a 2018 police closure; the site is now being redeveloped",
+      "sources": ["originators"],
+      "no_embed_reason": "closed in 2018; no licensed photograph found"
+    },
+    {
+      "title": "Turbina",
+      "artist": "club, District VIII, opened c. 2020",
+      "year": null,
+      "why": "S4 consensus: the city's main touring room for techno and house; hosted Boiler Room Budapest's third edition",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Toldi Klub",
+      "artist": "club, Toldi Cinema, since c. 2011",
+      "year": null,
+      "why": "S4 consensus: a cinema-lobby club with over a decade of electronic and live bookings",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Lärm",
+      "artist": "club, Akácfa utca, 2014 to closure",
+      "year": null,
+      "why": "S5: Budapest's most purist techno room for a decade; closed its original site, relocation unconfirmed",
+      "sources": ["originators"],
+      "no_embed_reason": "closed its site; no confirmed current location or photograph"
+    },
+    {
+      "title": "Route 8",
+      "artist": "producer",
+      "year": 2021,
+      "why": "S4: played Boiler Room Budapest's third edition at Turbina",
+      "sources": ["consensus"],
+      "embed_id": "dAB4K204nL0"
+    },
+    {
+      "title": "Imre Kiss",
+      "artist": "producer",
+      "year": 2017,
+      "why": "S4: played Boiler Room Budapest's first edition at Akvárium Klub, with Lobster Theremin",
+      "sources": ["consensus"],
+      "embed_id": "Xnp6hnEs4Ns"
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "dAB4K204nL0",
+      "title": "Route 8, Boiler Room Contemporary Scenes: Budapest, at Turbina, 1 December 2021"
+    },
+    {
+      "id": "Xnp6hnEs4Ns",
+      "title": "Imre Kiss, Boiler Room Budapest x Lobster Theremin, at Akvárium Klub, 25 January 2017"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Akvárium Klub",
+      "why": "the underground venue beneath Erzsébet Square where Boiler Room Budapest's first two editions happened; reported to have suspended event planning for the first half of 2026, so it is named historically rather than given its own table row or image"
+    },
+    {
+      "title": "Lärm's new address",
+      "why": "the club has said only that it is moving near the Danube, with no confirmed address or date at the time of writing"
+    }
+  ]
+}

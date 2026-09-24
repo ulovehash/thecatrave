@@ -1,0 +1,65 @@
+{
+  "page": "best-clubs-in-prague.html",
+  "seed": "best clubs in prague",
+  "source": "FIGURES.md adapted for clubs, 2026-09-24, as for the Tokyo, Budapest, NYC, Amsterdam, Ibiza and Paris guides. Live Google SERP for 'best clubs in prague' (US, 2026-09-24) read in full: Reddit r/Prague, thepartyingtraveler, Tripadvisor Attractions list, bestclubsprague.com, pragueexperience.com, praguego.com. History and dates: Wikipedia (Cross Club, Businesses); Atlas Obscura and Radio Prague International (Cross Club's founding and crowdfunding); karlovylazne.cz and prague.org (Karlovy Lázně); DJ Mag Top 100 Clubs (Duplex, 2022 and 2025); Mixmag and DJ Mag (Ankali's 2025 closure risk); Resident Advisor and Boiler Room (Boiler Room Prague, December 2018). Dress code, checked in the editorial review pass on 2026-09-24: livingprague.com (Duplex turns away sportswear), oh-my-prague.com and perfectitinerary.io (Cross Club and Ankali have none); Karlovy Lázně is reported both ways (nightflow.com says casual/no sportswear, its own site says none), so the FAQ states the conflict rather than picking a side. The Cross Club image and one factual claim differ deliberately from best-clubbing-cities-in-europe.html, which already covers Cross Club in one paragraph with its own exterior courtyard photograph (owner's decision, 2026-09-24: write a dedicated, deeper Prague page rather than fold it into the hub or skip it).",
+  "required_records": [
+    {
+      "title": "Cross Club",
+      "artist": "club, Holešovice, opened 2002",
+      "year": null,
+      "why": "S4 consensus and S5: Prague's best-known purpose-built electronic venue, already covered in one paragraph on best-clubbing-cities-in-europe.html; this page goes deeper",
+      "sources": ["consensus", "originators"],
+      "photo_credit": "-crosspraha-, CC BY-SA 4.0, via Wikimedia Commons, January 2012, the interior basement bar (a different photograph from the one used on best-clubbing-cities-in-europe.html, which shows the exterior courtyard)"
+    },
+    {
+      "title": "Karlovy Lázně",
+      "artist": "club, Old Town, opened 1999",
+      "year": null,
+      "why": "S4 consensus: markets itself as Central Europe's largest club; five floors, one genre each",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Duplex",
+      "artist": "club, Wenceslas Square",
+      "year": null,
+      "why": "S4 consensus: DJ Mag Top 100 Clubs 2022 (62nd) and 2025 (41st)",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found; the Wenceslas Square image illustrates the area rather than the venue itself"
+    },
+    {
+      "title": "Ankali",
+      "artist": "club, opened 2017",
+      "year": null,
+      "why": "S4 consensus: RA and DJ Mag both call it the city's flagship electronic venue; survived a 2025 closure risk",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Fatty M",
+      "artist": "producer",
+      "year": 2018,
+      "why": "S4: played Boiler Room's first Czech Republic broadcast, December 2018",
+      "sources": ["consensus"],
+      "embed_id": "WY_Th5nrI90"
+    },
+    {
+      "title": "Eva Porating",
+      "artist": "producer",
+      "year": 2018,
+      "why": "S4: played Boiler Room's first Czech Republic broadcast, December 2018",
+      "sources": ["consensus"],
+      "embed_id": "6od6a-eiLUs"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "WY_Th5nrI90", "title": "Fatty M, Boiler Room Prague, 2018"},
+    {"id": "6od6a-eiLUs", "title": "Eva Porating, Boiler Room Prague, 2018"}
+  ],
+  "known_gaps": [
+    {
+      "title": "Boiler Room Prague's venue (2018)",
+      "why": "reported as Hala 40, not Cross Club or Ankali; the broadcast is described without naming a specific venue in the prose to avoid an unconfirmed claim"
+    }
+  ]
+}

@@ -9,6 +9,20 @@ omit; `WRITING.md` carries the rules no audit can enforce.
 
 Each of them exists because the work was once done from memory and was wrong.
 
+**Default tool as of right now: Google Ads Keyword Planner and live Google
+search, not Ahrefs.** Read the rest of this section before running any
+keyword research, not just skimming past it to the numbered method below,
+which still describes the Ahrefs pass and is kept for the cases it says are
+its fallback role. On 2026-09-24, two days after this switch was written down,
+a session researched three city-club guides (Tokyo, Budapest, Prague) entirely
+through Ahrefs anyway, at real unit cost, because the numbered §0 to §6
+process below was read and the paragraphs above it were not. The rule was
+already written. It went unread the same way the jungle canon list and the
+UK garage guide's missing founders did. If a pass has spent Ahrefs units on a
+topic this file's own default says should have used Keyword Planner, stop and
+say so before going further, rather than finishing the pass and writing it up
+as if this section did not exist.
+
 ## Tool switch, 2026-09-22
 
 Everything below describes the Ahrefs-based pass and stays as the documented

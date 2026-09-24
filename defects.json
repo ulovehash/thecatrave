@@ -137,7 +137,7 @@
       "id": "catalogue-subcounts-undated",
       "found": "2026-09-22",
       "by": "claude",
-      "what": "Counts measured from selector-data.json (Boiler Room's 8,206 sets in live-dj-sets, 52 Creamfields sets, 13 Sónar mentions, two Untold and two Mysteryland sets, 864 UK garage sets) are typed snapshots in the present tense, and the festival guides carry no methods note dating them. Boiler Room is 8,173 since the refresh of 2026-09-16. audit-catalogue-numbers.mjs checks only the whole catalogue's total.",
+      "what": "Counts measured from selector-data.json (Boiler Room's 8,206 sets in live-dj-sets, 52 Creamfields sets, 13 S\u00f3nar mentions, two Untold and two Mysteryland sets, 864 UK garage sets) are typed snapshots in the present tense, and the festival guides carry no methods note dating them. Boiler Room is 8,173 since the refresh of 2026-09-16. audit-catalogue-numbers.mjs checks only the whole catalogue's total.",
       "should_have_caught": "nothing: no audit recomputes a measured count, and most of them cannot be recomputed from selector-data.json alone",
       "fix": null
     },
@@ -312,7 +312,7 @@
       "found": "2026-09-11",
       "by": "owner",
       "what": "The stage 6 validation prompt in TOPIC-RESEARCH.md still named the catalogue of 62,877 sets as one of the site's two assets for judging a topic, so the validation pass on the London clubs topic made a set count a gate condition: 'count the catalogue's sets per required club and let a thin result send this back to the gate.' KEYWORD-METHOD.md had already dropped the catalogue from the differentiation question for exactly this reason, in its own words: a count says nothing about demand or winnability and Google cannot see it. The rule was written in one file and left standing in the other, so it came back the first time a validator was run.",
-      "should_have_caught": "the note in KEYWORD-METHOD.md §5 that dropped the catalogue as a criterion, which was never carried into the validation prompt it governs",
+      "should_have_caught": "the note in KEYWORD-METHOD.md \u00a75 that dropped the catalogue as a criterion, which was never carried into the validation prompt it governs",
       "fix": {
         "file": "TOPIC-RESEARCH.md",
         "contains": "The catalogue is not evidence about a topic"
@@ -378,7 +378,7 @@
       "found": "2026-09-13",
       "by": "owner",
       "what": "Asked whether breakbeat festivals exist, the agent typed guessed phrases (breakbeat festival, jungle festival, dnb festival) into Ahrefs matching terms and concluded there was almost no demand. The owner: search the web first, take the articles that come back, then check in Ahrefs which keywords those articles are visible for. A guessed phrase measures only the words typed; pages about the festivals rank for the festivals names.",
-      "should_have_caught": "KEYWORD-METHOD.md §1 listed Ahrefs expansion of the owner topic as the first seed source, so a phrase guessed from the topic looked like following the method",
+      "should_have_caught": "KEYWORD-METHOD.md \u00a71 listed Ahrefs expansion of the owner topic as the first seed source, so a phrase guessed from the topic looked like following the method",
       "fix": {
         "file": "KEYWORD-METHOD.md",
         "contains": "Start with a web search, not with Ahrefs"
@@ -443,7 +443,7 @@
       "id": "london-clubs-list-count-inconsistent",
       "found": "2026-09-18",
       "by": "agent",
-      "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Condé Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner. Closed 2026-09-22 with the owner's approval: the research read four sources (RA, Time Out, Condé Nast Traveller and ICMP's history of London nightclubs), but the page presents only the first three as lists that review London clubs, so both places now say three.",
+      "what": "best-electronic-music-clubs-in-london.html says three lists were read (Resident Advisor, Time Out, Cond\u00e9 Nast Traveller: \"fabric, The Cause and FOLD are on all three\") and, in the fabric section and the first FAQ answer, \"all four lists this guide read\". The sources name three. Found while translating the page into German; the German says \"all the lists this guide read\" in the two places. The English copy is published, so the wording change waits for the owner. Closed 2026-09-22 with the owner's approval: the research read four sources (RA, Time Out, Cond\u00e9 Nast Traveller and ICMP's history of London nightclubs), but the page presents only the first three as lists that review London clubs, so both places now say three.",
       "should_have_caught": "nothing: no audit compares counts stated in prose with each other",
       "fix": {
         "file": "london-clubs-draft.md",
@@ -465,7 +465,7 @@
       "id": "translated-cards-read-article-english",
       "found": "2026-09-18",
       "by": "claude",
-      "what": "Every article card on the German and French pages (the /de/artikel and /fr/articles indexes and each guide's Read Next block) ended in the English \"Read article →\": articleCard() in site-components.mjs wrote the label itself and took no language. Found while translating the home page, whose grid uses the same card.",
+      "what": "Every article card on the German and French pages (the /de/artikel and /fr/articles indexes and each guide's Read Next block) ended in the English \"Read article \u2192\": articleCard() in site-components.mjs wrote the label itself and took no language. Found while translating the home page, whose grid uses the same card.",
       "should_have_caught": "audit-site-components.mjs holds translated guides to their own language's header, footer and author card, but not to the card label, and no check looks for English chrome on a German or French page",
       "fix": {
         "file": "site-components.mjs",
@@ -520,7 +520,7 @@
       "id": "translated-festival-guides-no-editions-entry",
       "found": "2026-09-22",
       "by": "agent",
-      "what": "None of the German or French festival translations (de/tomorrowland-festival, de/parookaville-festival, de/coachella-festival, de/mysteryland-festival, de/untold-festival, de/glastonbury-festival, de/primavera-sound-barcelona, de/burning-man-festival and the French pages for Tomorrowland, Coachella, Burning Man, Glastonbury, Mysteryland, Parookaville, Primavera Sound and Sónar) is registered in festival-editions.mjs, so nothing reminds anyone to move their 2027 dates on when the English page moves. Found while adding the translated Europe festivals pages, which are registered.",
+      "what": "None of the German or French festival translations (de/tomorrowland-festival, de/parookaville-festival, de/coachella-festival, de/mysteryland-festival, de/untold-festival, de/glastonbury-festival, de/primavera-sound-barcelona, de/burning-man-festival and the French pages for Tomorrowland, Coachella, Burning Man, Glastonbury, Mysteryland, Parookaville, Primavera Sound and S\u00f3nar) is registered in festival-editions.mjs, so nothing reminds anyone to move their 2027 dates on when the English page moves. Found while adding the translated Europe festivals pages, which are registered.",
       "should_have_caught": "festival-editions.mjs is keyed by page file and lists English pages only; the translation checklist in SITE-COMPONENTS.md does not mention it",
       "fix": null
     },
@@ -536,7 +536,7 @@
       "id": "breakbeat-guide-rights-reserved-images",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "Every photograph and artifact on the breakbeat guide comes from a rights-reserved source, per breakbeat-media-inventory.md and the file names: img/breakbeat/musicradar-hip-hop-pioneers.jpg, musicradar-sp1200-floppies.jpg, musicradar-prodigy-1992.jpg and musicradar-chemical-brothers.jpg (MusicRadar), rbma-wild-style-mural.jpg (Red Bull Music Academy), akai-s950-cutout.png (a Retro Gear Shop product photo), plump-djs-electric-disco.png (an eBay listing), shut-up-and-dance-pj-smiley.jpg (Bandcamp Daily), andalusia-rave-crowd.jpg (El País), cordoba-breakbeat-flyer.jpg (EvilSound). AGENTS.md names MusicRadar and similar as unusable; none of the captions carries a credit. Found while choosing the next guide to translate. The owner decided on 2026-09-23 to translate the guide with the images as they are, so de/breakbeat.html and fr/breakbeat.html carry the same images and this entry covers all three pages.",
+      "what": "Every photograph and artifact on the breakbeat guide comes from a rights-reserved source, per breakbeat-media-inventory.md and the file names: img/breakbeat/musicradar-hip-hop-pioneers.jpg, musicradar-sp1200-floppies.jpg, musicradar-prodigy-1992.jpg and musicradar-chemical-brothers.jpg (MusicRadar), rbma-wild-style-mural.jpg (Red Bull Music Academy), akai-s950-cutout.png (a Retro Gear Shop product photo), plump-djs-electric-disco.png (an eBay listing), shut-up-and-dance-pj-smiley.jpg (Bandcamp Daily), andalusia-rave-crowd.jpg (El Pa\u00eds), cordoba-breakbeat-flyer.jpg (EvilSound). AGENTS.md names MusicRadar and similar as unusable; none of the captions carries a credit. Found while choosing the next guide to translate. The owner decided on 2026-09-23 to translate the guide with the images as they are, so de/breakbeat.html and fr/breakbeat.html carry the same images and this entry covers all three pages.",
       "should_have_caught": "audit-media.mjs checks media maps for records and embeds, not the licence of each figure; no audit reads breakbeat-media-inventory.md",
       "fix": null
     },
@@ -571,7 +571,7 @@
       "id": "bass-music-meanings-lead-not-rendered",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "The English bass music draft opens its section \"Why “bass music” means different things in different scenes\" with a paragraph (\"Genre names behave differently when they move...\") that the page never shows: meaningsHtml in build-bass-music-article.mjs renders only the three subsections. The same generator also drops the draft's last paragraph on footwork and gqom (\"These examples belong in the article...\") in favour of a sentence written in code. Found while translating; the German and French pages follow the published English page and leave both out. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "what": "The English bass music draft opens its section \"Why \u201cbass music\u201d means different things in different scenes\" with a paragraph (\"Genre names behave differently when they move...\") that the page never shows: meaningsHtml in build-bass-music-article.mjs renders only the three subsections. The same generator also drops the draft's last paragraph on footwork and gqom (\"These examples belong in the article...\") in favour of a sentence written in code. Found while translating; the German and French pages follow the published English page and leave both out. Fixed 2026-09-23 with the owner's approval of the exact wording.",
       "should_have_caught": "nothing compares the paragraphs of a draft with the paragraphs its generator publishes",
       "fix": {
         "file": "build-bass-music-article.mjs",
@@ -582,7 +582,7 @@
       "id": "untold-de-closing-paragraph-diverges",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "The closing paragraph of the German Untold guide (de/untold-draft.md, section \"Untold von zu Hause hören\") no longer matches the English page. The English paragraph links EDC Las Vegas, Ultra, Creamfields, Parookaville and, since 2026-09-22, the Europe festivals comparison; the German links only Tomorrowland and Parookaville and says Parookaville is tenth in DJ Mag's list, a claim the English page does not make. German translations of EDC, Ultra, Creamfields and the Europe list now exist. Found while translating Untold into French, which follows the English paragraph. Published copy: the German wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "what": "The closing paragraph of the German Untold guide (de/untold-draft.md, section \"Untold von zu Hause h\u00f6ren\") no longer matches the English page. The English paragraph links EDC Las Vegas, Ultra, Creamfields, Parookaville and, since 2026-09-22, the Europe festivals comparison; the German links only Tomorrowland and Parookaville and says Parookaville is tenth in DJ Mag's list, a claim the English page does not make. German translations of EDC, Ultra, Creamfields and the Europe list now exist. Found while translating Untold into French, which follows the English paragraph. Published copy: the German wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
       "should_have_caught": "no audit compares a translation's internal links with its English page's",
       "fix": {
         "file": "de/untold-draft.md",
@@ -593,11 +593,11 @@
       "id": "sonar-fr-whole-concerts-and-stale-links",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "The French Sónar guide (fr/sonar-draft.md, section \"À écouter\") says ARTE \"filme des concerts entiers\" where the English says it \"has filmed shows\": the emphasis on completeness WRITING.md rules out in every language. Its closing paragraph also sends EDC Las Vegas and Creamfields to the English pages although /fr/edc-las-vegas and /fr/festival-creamfields exist now, and it lacks the Europe festivals link the English paragraph gained on 2026-09-22. Found while translating Sónar into German, which follows the English page. Published copy: the French wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "what": "The French S\u00f3nar guide (fr/sonar-draft.md, section \"\u00c0 \u00e9couter\") says ARTE \"filme des concerts entiers\" where the English says it \"has filmed shows\": the emphasis on completeness WRITING.md rules out in every language. Its closing paragraph also sends EDC Las Vegas and Creamfields to the English pages although /fr/edc-las-vegas and /fr/festival-creamfields exist now, and it lacks the Europe festivals link the English paragraph gained on 2026-09-22. Found while translating S\u00f3nar into German, which follows the English page. Published copy: the French wording goes to the owner before it changes. Fixed 2026-09-23 with the owner's approval of the exact wording.",
       "should_have_caught": "no audit reads translated pages for the 'full set' emphasis, or compares their internal links with the English page's",
       "fix": {
         "file": "fr/sonar-draft.md",
-        "contains": "lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland), d’[EDC Las Vegas](/fr/edc-las-vegas) et de [Creamfields](/fr/festival-creamfields)"
+        "contains": "lisez nos guides de [Tomorrowland](/fr/festival-tomorrowland), d\u2019[EDC Las Vegas](/fr/edc-las-vegas) et de [Creamfields](/fr/festival-creamfields)"
       }
     },
     {
@@ -619,7 +619,7 @@
       "should_have_caught": "FIGURES.md sourcing covers who a guide names, not the alias each name is credited under; nothing cross-checks alias tables",
       "fix": {
         "file": "jungle-music-guide.html",
-        "contains": "<strong>Leviticus (Jumpin Jack Frost)</strong></td><td>“Burial” creator, co-founder of V Recordings"
+        "contains": "<strong>Leviticus (Jumpin Jack Frost)</strong></td><td>\u201cBurial\u201d creator, co-founder of V Recordings"
       }
     },
     {
@@ -630,7 +630,7 @@
       "should_have_caught": "release years in track lists are written from memory and never checked against Discogs",
       "fix": {
         "file": "jungle-music-guide.html",
-        "contains": "“Terrorist” – Renegade (Ray Keith) (1994)"
+        "contains": "\u201cTerrorist\u201d \u2013 Renegade (Ray Keith) (1994)"
       }
     },
     {
@@ -659,8 +659,8 @@
       "id": "translations-miss-english-humanizer-edits",
       "found": "2026-09-23",
       "by": "agent",
-      "what": "The owner-approved humanizer edits of 2026-09-23 changed only the English sources. The French translations (and the German, not yet checked) still carry the old wording those edits removed: the French jungle guide still opens \"Bienvenue dans le grand guide de la jungle music, un voyage façon documentaire…\", the French breakbeat and bass music guides keep every \"ce n’est pas X, c’est Y\" pair cut from the English, and the French Spotify page still says \"choisir un set complet au hasard\", breaking WRITING.md's full-set rule. Found when the owner asked for all the French to be checked. Published copy: the French wording goes to the owner first. French (83 edits) and German (83 edits) fixed 2026-09-23 with the owner's approval of the exact wording.",
-      "should_have_caught": "nothing propagates copy edits from an English source to its translations; the humanizer step in ARTICLE-PRODUCTION-WORKFLOW.md §6 names no translation step",
+      "what": "The owner-approved humanizer edits of 2026-09-23 changed only the English sources. The French translations (and the German, not yet checked) still carry the old wording those edits removed: the French jungle guide still opens \"Bienvenue dans le grand guide de la jungle music, un voyage fa\u00e7on documentaire\u2026\", the French breakbeat and bass music guides keep every \"ce n\u2019est pas X, c\u2019est Y\" pair cut from the English, and the French Spotify page still says \"choisir un set complet au hasard\", breaking WRITING.md's full-set rule. Found when the owner asked for all the French to be checked. Published copy: the French wording goes to the owner first. French (83 edits) and German (83 edits) fixed 2026-09-23 with the owner's approval of the exact wording.",
+      "should_have_caught": "nothing propagates copy edits from an English source to its translations; the humanizer step in ARTICLE-PRODUCTION-WORKFLOW.md \u00a76 names no translation step",
       "fix": {
         "file": "ARTICLE-PRODUCTION-WORKFLOW.md",
         "contains": "An approved change to a guide's English copy is carried to its German and French translations in the same pass"
@@ -730,6 +730,47 @@
       "fix": {
         "file": "nye-festivals-draft.md",
         "contains": "It grew up at Dallas Market Hall and moves to Fair Park for its sixteenth edition"
+      }
+    },
+    {
+      "id": "og-card-missing-german-electronic-hero",
+      "found": "2026-09-24",
+      "by": "agent",
+      "what": "scripts/build-og-cards.py's HERO dict has no entry for 'german-electronic', the page name pages.mjs registers for german-electronic-music.html. Running `python3 scripts/build-og-cards.py` with no arguments crashes with `KeyError: 'german-electronic'` before it reaches any card after 'uk' in manifest order, so no card past that point gets rebuilt in a full run. Found while adding a HERO entry and building a single card for the new Tokyo clubs guide (`python3 scripts/build-og-cards.py tokyo-clubs`, which works because it targets one page and never reaches the broken key). Fixed while preparing this push: a HERO entry was added.",
+      "should_have_caught": "pages.mjs is meant to be the one page list everything else reads from, but HERO in build-og-cards.py is a second, hand-maintained list that can drift from it; nothing checks the two stay in sync",
+      "fix": {
+        "file": "scripts/build-og-cards.py",
+        "contains": "\"german-electronic\": \"img/german-electronic/kraftwerk-stage-1200.webp\""
+      }
+    },
+    {
+      "id": "de-home-eyebrow-string-missing-2026-09-24",
+      "found": "2026-09-24",
+      "by": "agent",
+      "what": "`node scripts/build.mjs` (and so `audit-all.mjs`'s build step) intermittently failed at build-home.mjs: 'de home: the English string is no longer in index.html: [Breakbeat / bass / rave / no AI]'. build-home.mjs is unchanged from HEAD and expects that eyebrow string to translate into German, but at that moment the working tree's index.html (uncommitted, ~79 lines different from HEAD, not touched by this session's own edits) had no `.eyebrow` element. Not caused by the Tokyo/Budapest/Prague club guides added in this session: `node build-home.mjs` succeeded earlier in the session, then failed on the identical code path with no edit from this agent in between, then passed again a few minutes later with still no edit from this agent \u2014 consistent with a concurrent session actively editing index.html's hero copy in this shared working tree (per the 'push from an isolated worktree' rule: this checkout is shared by parallel sessions) and landing back in a consistent state on its own. Left unfixed rather than guessed at, since the intended eyebrow copy is someone else's in-progress change and the failure was not reproducing by the time this was written.",
+      "should_have_caught": "build-home.mjs's German/French translation step hardcodes exact English source strings to find and replace, with no check that runs on every commit to index.html; a homepage copy edit that removes or reword a translated element silently breaks the next full build for anyone",
+      "fix": null
+    },
+    {
+      "id": "tokyo-budapest-prague-skipped-editorial-review",
+      "found": "2026-09-24",
+      "by": "owner",
+      "what": "The Tokyo, Budapest and Prague club guides went from research through drafting, component mapping and a full build-and-audit pass, all green, with none of the three reviews ARTICLE-EDITORIAL-REVIEW.md requires before layout ever run. The owner asked, unprompted, whether the work was 'shitty prepared'. Running the review on Prague afterwards found a dress-code claim with no source behind it (Karlovy Lazne lumped in with Duplex on a claim only Duplex's sources supported), an interpretive sentence about a 2018 lineup presented as fact, and the same 'X rather than Y' construction repeated four times in one short article. Tokyo and Budapest have not had the review run yet.",
+      "should_have_caught": "ARTICLE-PRODUCTION-WORKFLOW.md already listed the three reviews as required before layout, but nothing in the workflow stopped an agent from treating a green audit-all.mjs run as equivalent to 'done' and moving straight to reporting completion",
+      "fix": {
+        "file": "ARTICLE-PRODUCTION-WORKFLOW.md",
+        "contains": "A green build proves the page is structurally sound. It says nothing about whether the sentences are true or whether a person wrote them."
+      }
+    },
+    {
+      "id": "tokyo-budapest-prague-used-ahrefs-against-documented-default",
+      "found": "2026-09-24",
+      "by": "owner",
+      "what": "KEYWORD-METHOD.md recorded a tool switch on 2026-09-22, two days before this pass: default to Google Ads Keyword Planner for volume and a live Google search for PAA and SERP composition, with Ahrefs kept only as a fallback. The Tokyo, Budapest and Prague research instead ran entirely through Ahrefs (keywords-explorer-overview, keywords-explorer-matching-terms, serp-overview), spending real units, because the numbered method further down the file was read without the paragraphs above it that record the switch.",
+      "should_have_caught": "CLAUDE.md's own table already points 'Finding keywords' at KEYWORD-METHOD.md before starting the task; the file was opened but its top section, not just its numbered steps, needed reading",
+      "fix": {
+        "file": "KEYWORD-METHOD.md",
+        "contains": "Default tool as of right now: Google Ads Keyword Planner and live Google search, not Ahrefs."
       }
     }
   ]

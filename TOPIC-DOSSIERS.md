@@ -1776,3 +1776,129 @@ NYC-вариантов, полные тексты конкурентов (тол
   (детали в `*-editorial-review.md`). Стадия 6 не проводилась отдельно по
   решению владельца. Не закрыто: Reddit r/avesNYC недоступен в браузере
   (одного консенсус-источника нет), переводы de/fr, стадия 6.
+---
+
+## Токио, Будапешт, Прага: написаны (2026-09-24)
+
+Владелец: «go write these 3 article next», продолжение ранжированного списка
+городов-клубов волны 3 (Токио и Будапешт — п.4-5, Прага — п.6). Перед стартом
+проверен TAKEN-KEYWORDS.md: «best nightclubs in prague» занят
+`best-clubbing-cities-in-europe.html` (уже покрывает Cross Club одним
+абзацем) — риск каннибализации назван владельцу явно; решение: «Write it
+anyway, differentiate clearly» — Прага написана глубже, с другим фото Cross
+Club (интерьер бара, не тот же файл, что на хабе) и большим числом клубов.
+
+- **Ahrefs использован** (в отличие от волны 3, где Ahrefs не тратился):
+  `keywords-explorer-overview` и `keywords-explorer-matching-terms`,
+  global_volume как метрика (правило «ранжировать по мировому спросу»).
+  Баланс на начало: 710 478 / 800 000. Потрачено за проход: ~2,6K units.
+  Токио: best clubs in tokyo / tokyo clubs — 800 global, traffic potential
+  700 каждый, один parent topic; matching terms на «tokyo clubs» — как и в
+  Нью-Йорке, голову перекрывают strip/hostess/host clubs, не про музыку.
+  Будапешт: budapest clubs 1600 global, best clubs in budapest 700; отдельно
+  «ruin bars budapest» 19 000 global и «budapest ruin bars» 7800 — на порядок
+  больше самой головы, но другой интент (бар-хоппинг, не клубы); в текст не
+  тянулись, названы в keywords-файле как rejected с обоснованием. Прага: best
+  clubs in prague 800 global, prague clubs 1000 (difficulty 8); «best
+  nightclubs in prague» всего 80 global — вариант, уже занятый хабом.
+- **Живой Google SERP (US, 2026-09-24)** для головы каждого города — слабая
+  выдача везде (Reddit, Tripadvisor, тревел-блоги), винбельно для
+  редакционного гайда; для Токио в выдаче реальные хостес/кабаре-клубы («THE
+  PINK TOKYO», «TANTRA TOKYO»), для Будапешта и Праги — реальные клубы первой
+  позиции (Instant-Fogas/Ötkert/Szimpla Kert; Duplex/Karlovy Lázně/EPIC).
+- **Факты и история**: Токио — закон fueiho (1948-2016, Wikipedia
+  «Businesses Affecting Public Morals Regulation Act»), клубы WOMB (2000),
+  Contact и Vent (оба 2016), закрытые Air (2001-2015) и ageHa (2002-2022).
+  Будапешт — Szimpla Kert (2002/2004) как источник ромкочма-феномена,
+  Instant-Fogas (слияние 2017), A38 (корабль 1968, клуб с 2003), закрытый
+  Corvintető (2007-2018, сайт сейчас под отель/Time Out Market). Прага —
+  Cross Club (2002, углублённо сверх хаба), Karlovy Lázně (1999, «крупнейший
+  клуб Центральной Европы»), Duplex (DJ Mag Top 100 2022/2025), Ankali (2017,
+  чуть не закрылся в апреле 2025, пережил кризис).
+- **Видео из каталога `selector-data.json`**, привязка к городу проверена
+  веб-поиском по каждому: Токио — Chida (Boiler Room Tokyo, июнь 2014, первый
+  токийский эфир) и Wata Igarashi (Boiler Room Tokyo x TDME, декабрь 2016,
+  Хикарie-холл — площадка НЕ названа в тексте, т.к. это не один из клубов
+  гайда); Будапешт — Route 8 (Boiler Room Budapest, Turbina, декабрь 2021) и
+  Imre Kiss (Boiler Room Budapest x Lobster Theremin, Akvárium Klub, январь
+  2017); Прага — Fatty M и Eva Porating (оба Boiler Room Prague, декабрь
+  2018, реальная площадка — Hala 40, не названа в тексте, т.к. не входит в
+  таблицу клубов). Для Праги сознательно взяты артисты НЕ те, что уже
+  встроены в хаб (Tommy Four Seven), чтобы не дублировать медиа.
+- **Картинки**: все 9 (3 на гайд) — Wikimedia Commons, лицензии проверены на
+  странице файла, скачаны через `curl` (шелл-интернет работает, вопреки
+  памяти «shell offline» — см. пометку ниже), конвертированы в webp через
+  Pillow локально. Токио — WOMB (Dick Thomas Johnson, CC BY 2.0), ageHa/Studio
+  Coast (Kakidai, CC BY-SA 4.0), Dogenzaka ночью (Freddickfix, CC BY 4.0).
+  Будапешт — Szimpla Kert (Fred Romero, CC BY 2.0), Fogas/Akácfa (Christo, CC
+  BY-SA 4.0), корабль A38 (Rakás, CC BY-SA 4.0). Прага — интерьер бара Cross
+  Club (-crosspraha-, CC BY-SA 4.0, естественный размер 844×563, не
+  апскейлился), Вацлавская площадь у Национального музея (Muselsom, CC
+  BY-SA 4.0, обрезана из панорамы 8265×1936).
+- **Проверка модели о шелл-интернете**: память `shell-offline-browser-relay`
+  утверждает, что у Bash нет интернета. Прямой тест (`curl` на google.com,
+  api.ipify.org, upload.wikimedia.org) в этом проходе показал рабочий доступ
+  из Bash. Память надо перепроверить/обновить в следующей сессии — не
+  полагаться на неё как на факт без повторной проверки.
+- Стадия 6 не проводилась отдельно, как и для волны 3 и Нью-Йорка: владелец
+  попросил все три статьи сразу после стадий 1, 2 и 4.
+- Собрано и прошло полный `node audit-all.mjs` + `npm run check:html` +
+  `npm run check:links` + `npm run check:layout` (446 тестов) чисто:
+  `keywords/{tokyo,budapest,prague}-clubs.json`,
+  `media/{tokyo,budapest,prague}-clubs.json`,
+  `{tokyo,budapest,prague}-clubs-draft.md`,
+  `build-{tokyo,budapest,prague}-clubs-article.mjs`, три `.html`, картинки в
+  `img/{tokyo,budapest,prague}-clubs/`, OG-карточки, записи в `pages.mjs`,
+  `home-articles.mjs`, `scripts/build.mjs` (генераторы), `scripts/
+  build-og-cards.py` (HERO), TAKEN-KEYWORDS.md. Найден и записан отдельный
+  дефект `og-card-missing-german-electronic-hero` (не мой, пред существовал,
+  не чинился — не по этой задаче).
+- Не закрыто: German/French переводы, стадия 6, немецкий/французский OG-hero
+  дефект, второй источник для части дат (Toldi Klub, Lärm's точный переезд,
+  Ankali точный текущий адрес).
+- **Не запушено** — ждёт решения владельца.
+
+---
+
+## Исправление: Ahrefs заменён на Keyword Planner для Токио/Будапешта/Праги (2026-09-24)
+
+Владелец поймал две вещи после того, как гайды выше были написаны: (1) весь
+процесс review/humanizer был пропущен перед тем, как объявить работу
+готовой; (2) исследование ключевых слов шло через Ahrefs, хотя
+`KEYWORD-METHOD.md` уже с 2026-09-22 требует Keyword Planner + живой Google
+как дефолт, а Ahrefs — только fallback. Оба зафиксированы в `defects.json`
+(`tokyo-budapest-prague-skipped-editorial-review`,
+`tokyo-budapest-prague-used-ahrefs-against-documented-default`) с fix,
+указывающим на усиленные формулировки в `ARTICLE-PRODUCTION-WORKFLOW.md` и
+`KEYWORD-METHOD.md`.
+
+- Исследование ключевых слов переделано 2026-09-24 через Google Ads Keyword
+  Planner (аккаунт 299-844-2842, через Claude in Chrome — реальный Chrome
+  владельца, а не песочница Browser pane, которая не залогинена в аккаунт),
+  All locations, English (default), Sep 2025 – Aug 2026. Живой Google (US,
+  gl=us&hl=en) для каждой головы вместо Ahrefs serp-overview; PAA-блока
+  классического вида не оказалось ни на одном из трёх запросов — это
+  зафиксировано как честный факт, а не выдумано.
+- Будапешт: Keyword Planner независимо подтвердил находку из Ahrefs-прохода —
+  «budapest ruin bars» / «ruin nightclub budapest» на 100K–1M, на два бакета
+  выше «budapest clubs» (10K–100K).
+- Найдены новые открытые вопросы по составу клубов, не решённые в этом
+  проходе: Токио — RA's «Popular Clubs» не называет Contact вовсе и включает
+  R Lounge, ZEROTOKYO, Yodo Groove, Enter Shibuya, которых нет в гайде;
+  Budapest — Local Pack показывает La Siesta Budapest (4.9★, 5.8K отзывов)
+  выше Instant-Fogas по рейтингу, полностью отсутствует в гайде; также
+  Ötkert, Morrison's 2, Club Heaven Budapest, Akvárium Klub встречаются
+  многократно. Прага, для сравнения, подтвердилась хорошо (Duplex/Karlovy
+  Lázně/EPIC Prague/Cross Club — все четыре топ Local Pack).
+- Проверен и снят один тревожный сигнал: свежий (по дате «1 day ago») блог
+  назвал Corvin Club «go-to» для техно/хауса, что противоречило бы гайду
+  (закрыт в 2018). Отдельная проверка нашла датированный апрелем 2026
+  источник, явно перечисляющий Corvin Club среди закрытых — исходное
+  утверждение гайда подтверждено, блог расценен как устаревший контент со
+  свежей датой краула.
+- `prague-clubs-editorial-review.md` написан задним числом для Праги (пока
+  единственная статья с полным review-проходом: факт-чек, humanizer/AI-tell
+  правки, SEO-проверка). Токио и Будапешт всё ещё без review — открытый пункт.
+- Все три `keywords/*.json` переписаны с честной пометкой источника; ни один
+  Ahrefs-номер не остался. `node audit-all.mjs`, `npm run check:html`,
+  `npm run check:links` — чисто после переделки.
