@@ -1,0 +1,117 @@
+{
+  "page": "best-clubs-in-nyc.html",
+  "seed": "best clubs in nyc",
+  "source": "FIGURES.md adapted for clubs, 2026-09-24, as for the Paris, Barcelona and Amsterdam guides. S4 consensus: Time Out '12 best clubs in NYC' (read in full), VileVeil 'Best techno clubs in New York City' (headings), Gothamist on Basement (2023). S5 history: Wikipedia The Loft, Paradise Garage, Studio 54, Danceteria, Limelight, Tunnel, Twilo, New York City Cabaret Law, Avant Gardner; Pitchfork on Output; DJ Mag on Nowadays. Reddit r/avesNYC is blocked in both browsers and to curl; read through Google result snippets on 2026-09-24 (site:reddit.com avesNYC). Clubs named by 2+ current sources: Basement, Public Records, Good Room, Nowadays, Elsewhere. Paragon and Signal (clubs) and Soul Summit and 718 Sessions (house parties), first seen in r/avesNYC snippets, were added on 2026-09-24 at the owner's request after confirming each in a second source: DJ Mag (Paragon reopening, 16 July 2025), Resident Advisor, DJ Mag and Greenpointers (Signal, May and June 2025), the Fort Greene Park Conservancy (Soul Summit) and dannykrivit.net plus Resident Advisor (718 Sessions).",
+  "required_records": [
+    {
+      "title": "Paradise Garage",
+      "artist": "club, 1977 to 1987",
+      "year": null,
+      "why": "S5: the model for the modern club; gave its name to garage",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "a club, closed in 1987"
+    },
+    {
+      "title": "Studio 54",
+      "artist": "club, 1977 to 1980",
+      "year": null,
+      "why": "S5 and PAA: most famous club in NYC history",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "a club; photographed"
+    },
+    {
+      "title": "Limelight",
+      "artist": "club, 1983 to the 2000s",
+      "year": null,
+      "why": "S5: techno and the Club Kids in the 1990s",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "a club; photographed"
+    },
+    {
+      "title": "Output",
+      "artist": "club, 2013 to 2019",
+      "year": null,
+      "why": "S5: the Brooklyn turn; Louie Vega set from the club embedded",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "ss0aadTtAhQ"
+    },
+    {
+      "title": "Nowadays",
+      "artist": "club, Ridgewood",
+      "year": null,
+      "why": "S4 Time Out and VileVeil; Mister Saturday Night set embedded",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "mG3kGYFyw-Q"
+    },
+    {
+      "title": "Basement",
+      "artist": "club, Maspeth",
+      "year": null,
+      "why": "S4 Time Out, VileVeil, Gothamist",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no photographs allowed inside; the Knockdown Center above it is pictured"
+    },
+    {
+      "title": "Public Records",
+      "artist": "club, Gowanus",
+      "year": null,
+      "why": "S4 Time Out, VileVeil",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Good Room",
+      "artist": "club, Greenpoint",
+      "year": null,
+      "why": "S4 Time Out, VileVeil",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Elsewhere",
+      "artist": "club, East Williamsburg",
+      "year": null,
+      "why": "S4 Time Out, VileVeil",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "Commons photographs are of concerts, not the club"
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "ss0aadTtAhQ",
+      "title": "Louie Vega, Mixmag Live at Output, 2016"
+    },
+    {
+      "id": "mG3kGYFyw-Q",
+      "title": "Boiler Room and Mister Saturday Night, episode 002, 2015"
+    },
+    {
+      "id": "5EC4BynJ1MA",
+      "title": "Louie Vega, The Lot Radio, 2018"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Sound Factory",
+      "why": "named by Wikipedia's Larry Levan article only; no source found for its dates this pass, so left out"
+    }
+  ]
+}

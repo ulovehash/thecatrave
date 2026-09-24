@@ -1,0 +1,97 @@
+{
+  "page": "techno-music-guide.html",
+  "seed": "techno",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, English, Google, Sep 2025 to Aug 2026, read 2026-09-24. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range and 'range' is what the tool showed. No Ahrefs units were spent (TOPIC-DOSSIERS.md, 'Пакет волны 3').",
+  "note": "Idea expansion on 'techno', 'techno music' and 'what is techno' returned 1,034 ideas; the top 78 by volume were read. 'german techno' and 'berlin techno' are taken by german-electronic-music.html and best-clubs-in-berlin.html and are linked, not targeted. Production terms (techno mastering, techno beats, techno sounds) are out under WRITING.md.",
+  "terms": [
+    {
+      "term": "techno",
+      "volume": 100000,
+      "range": "100K-1M"
+    },
+    {
+      "term": "techno music",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "what is techno",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "hard techno",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "melodic techno",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "dub techno",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "acid techno",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "jeff mills",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "derrick may",
+      "volume": 1000,
+      "range": "1K-10K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover (1,034 ideas, top 78 read), live Google SERP for 'techno' (US), 'techno music' (UK), 'what is techno music' and 'history of techno' (US), 2026-09-24.",
+  "rejected": [
+    {
+      "term": "techno radio",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "navigational: radio stations"
+    },
+    {
+      "term": "business techno",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "collision: technology business"
+    },
+    {
+      "term": "techno tronic",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "collision: the band Technotronic"
+    },
+    {
+      "term": "band scooter",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "navigational: the German band"
+    },
+    {
+      "term": "techno mastering",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "production intent (WRITING.md)"
+    },
+    {
+      "term": "techno germany",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "German side belongs to german-electronic-music.html"
+    },
+    {
+      "term": "history of techno",
+      "volume": null,
+      "why": "not measured in Keyword Planner this pass; covered by the page but not claimed"
+    }
+  ]
+}

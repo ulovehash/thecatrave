@@ -1,0 +1,158 @@
+{
+  "page": "best-clubs-in-nyc.html",
+  "seed": "best clubs in nyc",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, Google, Sep 2025 to Aug 2026, read 2026-09-24. Heads ('nyc clubs', 'best clubs in nyc', 'best clubs in new york') are All locations; the other variants were measured for the United States only, noted per term. Ranges, not points: 'volume' is the lower bound. No Ahrefs units were spent.",
+  "note": "Idea expansion on 'nyc clubs' returned 1,553 ideas led by jazz clubs (Blue Note, Birdland), comedy clubs, gay bars and private members' clubs: 'clubs' is ambiguous in New York. The page covers music-first dance clubs only, as the Paris, Barcelona and Amsterdam guides do.",
+  "terms": [
+    {
+      "term": "best clubs in nyc",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "nyc clubs",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "best clubs in new york",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "nyc nightclubs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US"
+    },
+    {
+      "term": "dance clubs nyc",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US"
+    },
+    {
+      "term": "best nightclubs in nyc",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "best dance clubs nyc",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "best clubs in manhattan",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "brooklyn clubs",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "new york nightlife",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "nyc raves",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "paradise garage",
+      "volume": 1000,
+      "range": "1K-10K",
+      "market": "US"
+    },
+    {
+      "term": "best clubs in brooklyn",
+      "volume": 100,
+      "range": "100-1K",
+      "market": "US"
+    },
+    {
+      "term": "techno clubs nyc",
+      "volume": 100,
+      "range": "100-1K",
+      "market": "US"
+    },
+    {
+      "term": "house music clubs nyc",
+      "volume": 100,
+      "range": "100-1K",
+      "market": "US"
+    },
+    {
+      "term": "underground clubs nyc",
+      "volume": 100,
+      "range": "100-1K",
+      "market": "US"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover on three NYC heads (1,553 ideas), a US volume check of 25 dance-club variants and club names, live Google SERP for 'best clubs in nyc' and 'best techno clubs nyc' (US), 2026-09-24.",
+  "rejected": [
+    {
+      "term": "night clubs nyc",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US",
+      "why": "a spelling variant of 'nyc nightclubs', which the page carries; left out rather than wedged in"
+    },
+    {
+      "term": "blue note nyc",
+      "volume": 100000,
+      "range": "100K-1M",
+      "why": "jazz club, a different intent"
+    },
+    {
+      "term": "comedy club nyc",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "comedy, a different intent"
+    },
+    {
+      "term": "new york club 54",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US",
+      "why": "Studio 54 is covered, but the word order is not written anywhere on purpose"
+    },
+    {
+      "term": "basement nyc",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US",
+      "why": "navigational to the club; the club is covered under its own name"
+    },
+    {
+      "term": "public records brooklyn",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US",
+      "why": "navigational to the venue; covered under its own name"
+    },
+    {
+      "term": "nowadays nyc",
+      "volume": 10000,
+      "range": "10K-100K",
+      "market": "US",
+      "why": "navigational to the club; covered under its own name"
+    },
+    {
+      "term": "brooklyn techno clubs",
+      "volume": 100,
+      "range": "100-1K",
+      "market": "US",
+      "why": "falling (-90% year on year); 'techno clubs nyc' carries the intent"
+    }
+  ]
+}

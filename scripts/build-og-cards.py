@@ -92,6 +92,9 @@ HERO = {
     "ibiza-clubs": "img/ibiza-clubs/pacha-entrance-1200.webp",
     "europe-clubbing-cities": "img/europe-clubbing-cities/cross-club-prague-1200.webp",
     "nye-festivals": "img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp",
+    "house-music": "img/house-music/frankie-knuckles-ade-2012-1200.webp",
+    "techno-music": "img/techno/jeff-mills-2010-1200.webp",
+    "nyc-clubs": "img/nyc-clubs/limelight-church-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

@@ -1,0 +1,148 @@
+{
+  "page": "techno-music-guide.html",
+  "seed": "techno",
+  "source": "FIGURES.md pass, 2026-09-24. Source 1: Keyword Planner ideas carried dj jeff mills, adam beyer dj (10K-100K), derrick may, dj charlotte de witte, dj nicole moudaber (1K-10K). Source 3: PAA on 'techno' and 'history of techno' (Who are the fathers of techno? Who is considered the first techno band?). Source 4: 6AM Group 'most popular techno songs' (No UFO's, Good Life, Strings of Life, Energy Flash, The Bells), MasterClass, EDMProd. Source 5: Wikipedia Techno, Detroit techno, Belleville Three, No UFO's, Strings of Life, Underground Resistance, Jeff Mills, Robert Hood, Minimal techno, Melodic techno, Dub techno; MusicBrainz for release years. Source 6: 8,547 techno, 911 minimal, 788 hard techno sets; most-watched hard techno set Sara Landry. Adam Beyer and Nicole Moudaber (source 1 only, plus catalogue) not named: rejected as single-source. Every embed checked by YouTube oEmbed on 2026-09-24.",
+  "required_records": [
+    {
+      "title": "Clear",
+      "artist": "Cybotron",
+      "year": 1983,
+      "why": "source 5: first records of the Detroit circle; Cybotron is the answer to 'first techno band'",
+      "sources": [
+        "paa",
+        "originators"
+      ],
+      "embed_id": "Unc8kDUzbU8"
+    },
+    {
+      "title": "No UFO's",
+      "artist": "Model 500",
+      "year": 1985,
+      "why": "sources 3, 4 and 5: generally called the first techno record",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "xcdOBLH_AXs"
+    },
+    {
+      "title": "Strings of Life",
+      "artist": "Rhythim Is Rhythim",
+      "year": 1987,
+      "why": "sources 1, 4 and 5",
+      "sources": [
+        "search",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "vGFw2qeUp0s"
+    },
+    {
+      "title": "Big Fun",
+      "artist": "Inner City",
+      "year": 1988,
+      "why": "sources 4 and 5: Saunderson's crossover",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "Gr-zG-IXDyo"
+    },
+    {
+      "title": "The Bells",
+      "artist": "Jeff Mills",
+      "year": 1996,
+      "why": "sources 1, 4 and 5",
+      "sources": [
+        "search",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "S-BlgAQ7uRQ"
+    },
+    {
+      "title": "Energy Flash",
+      "artist": "Joey Beltram",
+      "year": 1990,
+      "why": "sources 4 and 5: R&S and the Belgian second wave",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "BDj73pGQ6pE"
+    }
+  ],
+  "figures": [
+    {
+      "name": "Juan Atkins",
+      "for": "founder: photograph, two records",
+      "sources": [
+        "paa",
+        "consensus",
+        "originators",
+        "catalogue"
+      ]
+    },
+    {
+      "name": "Derrick May",
+      "for": "founder: photograph, record",
+      "sources": [
+        "search",
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Kevin Saunderson",
+      "for": "founder: record and catalogue set",
+      "sources": [
+        "originators",
+        "catalogue"
+      ]
+    },
+    {
+      "name": "Jeff Mills",
+      "for": "UR, photograph, record",
+      "sources": [
+        "search",
+        "consensus",
+        "originators",
+        "catalogue"
+      ]
+    },
+    {
+      "name": "Robert Hood",
+      "for": "minimal techno, catalogue set",
+      "sources": [
+        "originators",
+        "catalogue"
+      ]
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "TaFJGvwaczU",
+      "title": "Robert Hood, Boiler Room x RBMA, 2013"
+    },
+    {
+      "id": "gvvb-SNL9tM",
+      "title": "Kevin Saunderson, Boiler Room Chicago, 2014"
+    },
+    {
+      "id": "EIQlDpgAY5Y",
+      "title": "Sara Landry, Boiler Room x Teletech, 2023"
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Robert Hood, Minimal Minded",
+      "why": "Topic upload found, but MusicBrainz lists no such track on Minimal Nation (Axis, 1994); a set used instead of a record filed on a guess"
+    },
+    {
+      "name": "DJ Rolando, Knights of the Jaguar",
+      "why": "original release year not confirmed (MusicBrainz earliest 2001); left out"
+    }
+  ],
+  "known_gaps": []
+}

@@ -1,0 +1,87 @@
+{
+  "page": "house-music-guide.html",
+  "seed": "house music",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, All locations, English, Google, Sep 2025 to Aug 2026, read 2026-09-24. The account has no ad spend, so Google returns ranges, not points. 'volume' is the lower bound of the range and 'range' is what the tool showed. No Ahrefs units were spent (TOPIC-DOSSIERS.md, 'Пакет волны 3').",
+  "note": "Idea expansion on 'house music' and 'what is house music' returned 916 ideas; the top 100 by volume were read and classified. Navigational (Swedish House Mafia, radio stations), file (downloads) and collision (lego house song) terms are excluded. Subgenre heads such as deep house and tech house have their own large intent; this page names and explains them but is not written to rank for them alone.",
+  "terms": [
+    {
+      "term": "house music",
+      "volume": 100000,
+      "range": "100K-1M"
+    },
+    {
+      "term": "what is house music",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "deep house",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "tech house",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "frankie knuckles",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "classic house music",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "house djs",
+      "volume": 1000,
+      "range": "1K-10K"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover (916 ideas, top 100 read), live Google SERP for 'what is house music', 'house music' (US and UK) and 'history of house music', 2026-09-24. PASF: why is house music called house, house music vs EDM, house music artists.",
+  "rejected": [
+    {
+      "term": "swedish house mafia",
+      "volume": 100000,
+      "range": "100K-1M",
+      "why": "navigational: the group, its tickets and merchandise"
+    },
+    {
+      "term": "house music download",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "file intent; the site hands out no files (WRITING.md)"
+    },
+    {
+      "term": "house music radio",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "navigational: station home pages hold the SERP (also rejected in live-dj-sets.json)"
+    },
+    {
+      "term": "acid house",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "taken by acid-house-guide.html; linked, not targeted"
+    },
+    {
+      "term": "2 step garage",
+      "volume": 1000,
+      "range": "1K-10K",
+      "why": "UK garage intent, taken by uk-garage-guide.html"
+    },
+    {
+      "term": "lego house song",
+      "volume": 10000,
+      "range": "10K-100K",
+      "why": "collision: Ed Sheeran's song"
+    },
+    {
+      "term": "history of house music",
+      "volume": null,
+      "why": "not measured in Keyword Planner this pass; covered by the page but not claimed"
+    }
+  ]
+}

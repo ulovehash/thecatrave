@@ -8,13 +8,50 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Wed, 23 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best Clubs in NYC: From the Paradise Garage to Nowadays</title>
+    <link>https://thecatrave.com/best-clubs-in-nyc</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-clubs-in-nyc</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Nowadays, Basement, Public Records, Good Room and Elsewhere: the best clubs in NYC for house and techno now, and the history from the Loft to Output.</description>
+    <category>house</category>
+    <category>techno</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/nyc-clubs.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is Techno? Detroit, the Belleville Three and Techno Today</title>
+    <link>https://thecatrave.com/techno-music-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/techno-music-guide</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Juan Atkins, Derrick May and Kevin Saunderson: what techno is, why it is called techno, Underground Resistance, Berlin and the styles from minimal to hard techno.</description>
+    <category>techno</category>
+    <category>history</category>
+    <category>overview</category>
+    <media:content url="https://thecatrave.com/img/og/techno-music.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>What Is House Music? History, Sound and Chicago Origins</title>
+    <link>https://thecatrave.com/house-music-guide</link>
+    <guid isPermaLink="true">https://thecatrave.com/house-music-guide</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Frankie Knuckles, the Warehouse and the first Chicago records: what house music is, why it is called house, and the styles from deep house to afro house.</description>
+    <category>house</category>
+    <category>history</category>
+    <category>overview</category>
+    <media:content url="https://thecatrave.com/img/og/house-music.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best New Year&apos;s Eve Festivals 2026 into 2027</title>
     <link>https://thecatrave.com/new-years-eve-festivals</link>

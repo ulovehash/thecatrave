@@ -121,7 +121,7 @@ Write the article around eras, scenes, records, people, technologies and contest
 - explain uncertainty instead of forcing a neat origin myth;
 - sound like an informed listener and journalist, not a glossary assembled for search engines.
 
-Before the reviews, run the draft through the `humanizer` skill (`.claude/skills/humanizer/`, from [blader/humanizer](https://github.com/blader/humanizer); `.claude/` is gitignored, so reinstall it from there on a new machine). It removes AI writing tells: not-X-but-Y contrasts, one-line closers, forced triads, dash habits, inflated significance, stock AI vocabulary and decorative bold. Give it a published guide as the voice sample. Its rewrite must keep:
+The editorial review is the `humanizer` pass (owner, 2026-09-24): run the draft through the `humanizer` skill (`.claude/skills/humanizer/`, from [blader/humanizer](https://github.com/blader/humanizer); `.claude/` is gitignored, so reinstall it from there on a new machine). It removes AI writing tells: not-X-but-Y contrasts, one-line closers, forced triads, dash habits, inflated significance, stock AI vocabulary and decorative bold. Give it a published guide as the voice sample. Its rewrite must keep:
 
 - every measured keyword phrase and every title, H2, H3 and FAQ question built on one, word for word, since the audit fails a page that claims a term it no longer contains;
 - every fact, name, date, record and quote, with nothing added;
@@ -134,7 +134,7 @@ An approved change to a guide's English copy is carried to its German and French
 Complete three reviews before layout:
 
 1. factual and timeline review;
-2. senior electronic-music editorial and language review;
+2. the editorial and language review, which is the `humanizer` pass above: running it is the review, and no separate editorial check is written or required;
 3. SEO preservation and semantic-coverage review.
 
 Follow the detailed protocol and required output format in `ARTICLE-EDITORIAL-REVIEW.md`. Save the resulting review with the article handoff artefacts.

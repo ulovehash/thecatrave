@@ -1,0 +1,176 @@
+{
+  "page": "house-music-guide.html",
+  "seed": "house music",
+  "source": "FIGURES.md pass, 2026-09-24. Source 1 (search): Keyword Planner ideas carried frankie knuckles (10K-100K), farley jackmaster funk, dj louie vega, godfathers deep house (1K-10K). Source 3 (asked): live PAA and PASF on 'house music' and 'what is house music'. Source 4 (consensus): DJ Mag, '40 essential tracks from 40 years of house music' (2024, read in full); Splice, Armada and LANDR structure. Source 5 (originators): Wikipedia House music, Chicago house, Frankie Knuckles, Move Your Body, Jack Your Body, Paradise Garage. Source 6 (catalogue): 9,073 house and 2,156 deep house sets of 62,824; most-watched house sets Solomun, Black Coffee, Fred again... Ahrefs sources were not run (Keyword Planner method, KEYWORD-METHOD.md 2026-09-22). Every embed checked by YouTube oEmbed on 2026-09-24; records from Topic, label or artist channels.",
+  "required_records": [
+    {
+      "title": "On & On",
+      "artist": "Jesse Saunders",
+      "year": 1984,
+      "why": "source 5: most often called the first house record",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "ef868Dctwkg"
+    },
+    {
+      "title": "Your Love",
+      "artist": "Frankie Knuckles",
+      "year": 1987,
+      "why": "sources 4 and 5: Jamie Principle's song Knuckles played from tape at the Warehouse",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "ottFhv0zD_8"
+    },
+    {
+      "title": "Move Your Body",
+      "artist": "Marshall Jefferson",
+      "year": 1986,
+      "why": "sources 4 and 5: 'The House Music Anthem', one of the first house records with piano",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "dZVxqo2xAd4"
+    },
+    {
+      "title": "Can You Feel It",
+      "artist": "Mr. Fingers",
+      "year": 1986,
+      "why": "sources 1, 4 and 5: where deep house begins",
+      "sources": [
+        "search",
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "DrxPFBEr5Bo"
+    },
+    {
+      "title": "Love Can't Turn Around",
+      "artist": "Farley \"Jackmaster\" Funk",
+      "year": 1986,
+      "why": "sources 1 and 5: the first house hit in Britain",
+      "sources": [
+        "search",
+        "originators"
+      ],
+      "embed_id": "wch77HlcVl0"
+    },
+    {
+      "title": "Promised Land",
+      "artist": "Joe Smooth",
+      "year": 1987,
+      "why": "sources 4 and 5: early club anthem",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "BJyD_TPeJAI"
+    },
+    {
+      "title": "Rain",
+      "artist": "Kerri Chandler",
+      "year": null,
+      "why": "sources 4, 5 and 6: New Jersey garage house; Chandler in the catalogue's top house DJs",
+      "sources": [
+        "consensus",
+        "originators",
+        "catalogue"
+      ],
+      "embed_id": "weyCHkdL-HI"
+    },
+    {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "year": 2000,
+      "why": "sources 4 and 5: French house",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "FGBhQbmPwH8"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "Jack Your Body",
+      "artist": "Steve \"Silk\" Hurley",
+      "year": 1986,
+      "why": "source 5: first British number one to sell mostly on twelve-inch; named in the prose, not embedded to keep the section's media count down",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "named in the text beside two embeds; a third player would stack media"
+    },
+    {
+      "title": "French Kiss",
+      "artist": "Lil Louis",
+      "year": 1989,
+      "why": "sources 4 and 5; named in the FAQ only",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "no_embed_reason": "FAQ mention only"
+    }
+  ],
+  "figures": [
+    {
+      "name": "Frankie Knuckles",
+      "for": "founder: section, two photographs, a catalogue set",
+      "sources": [
+        "search",
+        "consensus",
+        "originators",
+        "catalogue"
+      ]
+    },
+    {
+      "name": "Ron Hardy",
+      "for": "the Music Box",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Jesse Saunders",
+      "for": "first record",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Larry Heard (Mr. Fingers)",
+      "for": "deep house",
+      "sources": [
+        "consensus",
+        "originators"
+      ]
+    },
+    {
+      "name": "Larry Levan",
+      "for": "garage; told in full in the NYC clubs guide",
+      "sources": [
+        "originators"
+      ]
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "644UU55eyzk",
+      "title": "Frankie Knuckles, Boiler Room New York, 2013"
+    },
+    {
+      "id": "SGqg_ZzThDU",
+      "title": "Black Coffee, Cercle, Salle Wagram, Paris"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Chip E., It's House",
+      "why": "named for the naming story; no reliable official upload looked for this pass"
+    }
+  ]
+}

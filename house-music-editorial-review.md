@@ -1,0 +1,14 @@
+# Editorial review: House music guide (/house-music-guide)
+
+The editorial and language review is the `humanizer` pass (ARTICLE-PRODUCTION-WORKFLOW.md §6), run on the draft on 2026-09-24 with acid-house-guide-draft.md as the voice sample: it removed staged closers, a not-X-but-Y contrast and decorative bold, and kept every fact, heading and keyword. Stage 6 of TOPIC-RESEARCH.md was not run separately, at the owner's request ("lets go create those 3 articles").
+
+1. **Verdict:** ready after the owner's read. No factual blocker known.
+2. **What already works:** the definition answers "what is house music" in the first banner; the naming section keeps the four competing accounts apart instead of picking one; every record named in an argued section is embedded beside it; the competitors (Splice, Armada, LANDR) all sell something, and this page is the only listener guide in that set.
+3. **Priority revisions:** none open. Fixed during writing: "On and On" origin detail written from memory replaced with the Wikipedia account (Player One bassline, Mach bootleg); "Your Love" dating corrected to Knuckles playing Gomez's tape for a year before the 1987 release; "Jack Your Body" given its sourced first (majority of sales on twelve-inch) instead of an unsourced "first house number one"; the "Can You Feel It" Martin Luther King version corrected to later mash-ups; catalogue claim corrected (most-watched house sets are Solomun, Black Coffee, Fred again..); ghetto-house-to-footwork link cut as unsourced.
+4. **Fact-check ledger:** Warehouse 1977 to November 1982, crowd up to 2,000, drum machine from Derrick May c.1983 (Wikipedia, Frankie Knuckles); Frankie Knuckles Way on Jefferson Street, 25 August 2004 (same); "Love Can't Turn Around" UK no. 10 September 1986, DJ International tour March 1987, Yazz second best-selling single of 1988 (Wikipedia, House music); "Move Your Body" opens on piano (Wikipedia, Move Your Body); "One More Time" November 2000 (Wikipedia). Confidence high throughout; no disputed claim stated as settled.
+5. **SEO preservation:** new page, no inventory. Keyword map keywords/house-music.json (house music, what is house music, deep house, tech house, frankie knuckles, classic house music, house djs); audit passes.
+6. **Coverage gaps:** Chip E. "It's House" not embedded (known gap in media/house-music.json); no photograph of Ron Hardy or Larry Heard found under an open licence this pass.
+7. **Cuts or merges:** none.
+8. **Media actions:** 3 images (TR-808/909, Frankie Knuckles 2012, Frankie Knuckles Way), 11 players; the Marshall Jefferson photo was dropped because its source does not say which of three men he is.
+9. **Unresolved questions:** whether the owner wants German and French versions.
+10. **Acceptance checklist:** facts pass; editorial pass (humanizer run); SEO pass (audit-keywords, audit-seo); media pass (audit-media, audit-canon); implementation pass (audit-all, check:html, check:links, check:layout).

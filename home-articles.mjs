@@ -114,6 +114,30 @@ export const homeArticleCatalog = [
     width:1280, height:822, alt:'The exterior of Sala Razzmatazz in the Poblenou district of Barcelona'
   },
   {
+    page:'house-music-guide.html', category:'music-history', tags:['house','history','overview'], href:'/house-music-guide', type:'Guide', topic:'House music',
+    title:'What Is House Music? History, Sound and Chicago Origins',
+    description:'Frankie Knuckles, the Warehouse and the first Chicago records: what house music is, why it is called house, and the styles from deep house to afro house.',
+    image:'img/house-music/frankie-knuckles-way-2022-320.webp',
+    srcset:'img/house-music/frankie-knuckles-way-2022-320.webp 320w,img/house-music/frankie-knuckles-way-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'The honorary Frankie Knuckles Way street sign in Chicago'
+  },
+  {
+    page:'techno-music-guide.html', category:'music-history', tags:['techno','history','overview'], href:'/techno-music-guide', type:'Guide', topic:'Techno',
+    title:'What Is Techno? Detroit, the Belleville Three and Techno Today',
+    description:'Juan Atkins, Derrick May and Kevin Saunderson: what techno is, why it is called techno, Underground Resistance, Berlin and the styles from minimal to hard techno.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
+  },
+  {
+    page:'best-clubs-in-nyc.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/best-clubs-in-nyc', type:'Guide', topic:'NYC clubs',
+    title:'Best Clubs in NYC: From the Paradise Garage to Nowadays',
+    description:'Nowadays, Basement, Public Records, Good Room and Elsewhere: the best clubs in NYC for house and techno now, and the history from the Loft to Output.',
+    image:'img/nyc-clubs/limelight-church-320.webp',
+    srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
+    width:1200, height:900, alt:'The Gothic Revival church on Sixth Avenue that housed the Limelight nightclub'
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',

@@ -44,6 +44,8 @@ Do not force a clean origin story when credible sources disagree. Name the disag
 
 ## 3. Review two: senior electronic-music editor and language
 
+This review is the `humanizer` pass (`ARTICLE-PRODUCTION-WORKFLOW.md` §6; owner, 2026-09-24). Running the skill on the draft, with a published guide as the voice sample, is the review. The checklist below is what that pass must leave true, not a second review to write up. In the saved review file, record that the humanizer ran and what it changed.
+
 Read the draft as a complete magazine article, not as isolated SEO sections.
 
 ### Editorial completeness

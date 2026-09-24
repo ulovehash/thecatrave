@@ -1567,3 +1567,212 @@ europenightlife best techno cities, partiesnearme 2026, wepartynow), не по
   (Brussels Expo), которого не было в английском NYE-гайде: дефект
   `nye-guide-misses-fcknye`, исправлен по одобренной владельцем формулировке,
   перенесён в оба перевода. В de/fr NYE раздел Европы идёт перед США.
+
+---
+
+## Пакет волны 3: жанры house/techno, клубные города, фестивали (2026-09-24)
+
+Шаг 0: TAKEN-KEYWORDS.md прочитан; ни одна голова ниже не занята
+(«best nightclubs in prague» занят `best-clubbing-cities-in-europe.html` —
+проверить каннибализацию для Праги). Кандидаты взяты из прежних записей
+этого файла (house music и hardstyle — из Ahrefs-расширения 2026-09-10;
+города — из веб-поиска волны 2; фестивали — из расширения 2026-09-10), не по
+памяти. Ahrefs не использовался (0 units). Глубина у всех одинаковая:
+стадия 1, стадия 2 (только объёмы головы, без idea expansion), стадия 4
+(живой SERP головы). Стадии 3, 5, 6 не пройдены — вердикта нет.
+
+- **Google Ads Keyword Planner** (Chrome владельца, аккаунт 299-844-2842,
+  All locations, All languages, Google, Sep 2025 – Aug 2026, диапазоны):
+  house music 100K–1M, what is house music 10K–100K, deep house 10K–100K,
+  tech house 10K–100K; techno 100K–1M, techno music 10K–100K, what is
+  techno 1K–10K; trance music 10K–100K; hardstyle 10K–100K, what is
+  hardstyle 100–1K, hardstyle festivals 1K–10K; drum breaks 1K–10K, famous
+  drum breaks 100–1K, dubstep artists 1K–10K. Города: nyc clubs 10K–100K,
+  best clubs in nyc / new york 1K–10K; tokyo clubs 10K–100K, best clubs in
+  tokyo 1K–10K; prague clubs 10K–100K, best clubs in prague 1K–10K;
+  budapest clubs 10K–100K (+900% за 3 мес), best clubs in budapest 1K–10K;
+  manchester clubs 10K–100K, best clubs in manchester 1K–10K; lisbon clubs
+  1K–10K, best clubs in lisbon / vienna / chicago 1K–10K, best clubs in
+  mexico city 1K–10K (−90%), best clubs in bristol 1K–10K (+900%), best
+  clubs in detroit / tbilisi 100–1K. Фестивали: roskilde festival 100K–1M,
+  awakenings festival, boom festival, defqon 1 (−90% за 3 мес), exit
+  festival, movement detroit, nocturnal wonderland, fyre festival —
+  10K–100K; dekmantel festival (+900%), time warp festival, snowbombing —
+  1K–10K; best edm festivals, best techno festivals 100–1K.
+- **Живой Google SERP (Chrome, 2026-09-24; US, Manchester — UK):**
+  - what is house music: Reddit ×3, видео, Armada «What Is House Music?»,
+    Quora, Wikipedia, Splice (блог, 2024), vibemusicing (2025). PAA: Is
+    house music white people music? / What defines a house song? / Why do
+    people like house music? PASF: house music vs EDM, deep house, artists.
+  - what is techno music: Reddit, Wikipedia, edmprod, samplesoundmusic,
+    houseoftracks — все три редакционные страницы продюсерские (для
+    продюсеров/диджеев), слушательского гайда в выдаче нет. PASF: techno vs
+    house music, techno artists.
+  - trance music: Wikipedia, Reddit ×2, Spotify, Armada, Beatport — один
+    статейный слот. PAA: What defines trance music? / best trance song of
+    all time?
+  - hardstyle: hardstyle.com, Wikipedia, Reddit ×2, DI.FM, Spotify,
+    SoundCloud — статейного слота на голове нет. PAA: Did the Dutch invent
+    hardstyle? / most famous hardstyle artists?
+  - best clubs in nyc: Reddit r/avesNYC, loopmag, Tripadvisor, resident.com,
+    Time Out (techno/house), House of Yes, Apple Maps, Quora.
+  - best clubs in tokyo: Reddit r/Tokyo, Tripadvisor, globaltripdiaries,
+    YouTube ×2, RA, gotokyo, nightlifetokyo.com, Quora. PASF: for
+    foreigners.
+  - best clubs in prague: Reddit, thepartyingtraveler, Tripadvisor,
+    bestclubsprague (коммерция), duplex.cz, Quora, hostelelf, moonclub —
+    туристический интент (singles/couples/students в PASF).
+  - best clubs in manchester (UK): manchestersfinest, secretmanchester,
+    Reddit («A Raver's Guide»), Tripadvisor, allnightclubs, mystudenthalls,
+    designmynight, RA, visitmanchester — местные медиа плотнее, чем в других
+    городах. PAA: most famous nightclub in Manchester?
+  - awakenings / exit / boom / movement detroit: головы навигационные
+    (официальные сайты, Instagram, Wikipedia, RA, musicfestivalwizard) —
+    тот же паттерн, что у уже написанных фестивальных страниц. PAA: Boom —
+    why every 2 years? / what happens at Boom?; Exit — where is Exit 2026?;
+    Movement — what is Movement? / how much does it cost?
+- Не проверено: idea expansion Keyword Planner по каждой голове, стадии 3
+  и 5, GB-выдача для жанров, Budapest/Lisbon/Vienna SERP в этом проходе,
+  интент головы «roskilde festival» (жанрово смешанный фестиваль) и «fyre
+  festival» (документальный фильм/скандал), каннибализация «house music» с
+  `acid-house-guide.html` и «techno» с `german-electronic-music.html` /
+  `best-clubs-in-berlin.html`.
+
+### Волна 3, топ-3 по трафику: стадии 1–5 (2026-09-24)
+
+Владелец: «go first 3» — house music, techno, best clubs in NYC. Инструменты:
+Google Ads Keyword Planner (Chrome владельца, аккаунт 299-844-2842; Discover
+new keywords — All locations, English; volume check NYC — United States) и
+живой Google (Chrome). Ahrefs не использовался (0 units), поэтому referring
+domains слабейших страниц **не измерены** — winnability по §4 оценена только
+по форме выдачи и типам страниц. Стадия 6 не пройдена — вердикта нет.
+
+**House music (гайд по жанру).**
+- 2. Idea expansion (сиды house music + what is house music; 916 идей, прочитаны
+  топ-100 по объёму). Слушательский интент: house music 100K–1M, what is house
+  music 10K–100K, deep house (+music), tech house, minimal house, electro
+  house, tropical house, frankie knuckles 10K–100K; best house music / songs /
+  song ever, classic house music / songs, house classics, 80s/90s/2000s house
+  music (~8 форм), house djs, best house dj(s), jazz/funk/soulful/hip/hard/
+  ambient/chill house, farley jackmaster funk, dj louie vega, godfathers deep
+  house — все 1K–10K. Навигационные: swedish house mafia (×3, 100K–1M,
+  +ticket/merch), afrohouseking, bolohousemusic, house radio ×6 (радиостанции
+  — уже отклонено в live-dj-sets.json), house charts. Файлы/продакшен (не
+  наше): house music download, deep house download, mix mp3 download.
+  Коллизии: lego house song, haus music (написание). Занято: acid house,
+  acid house music, acid house smiley face (acid-house-guide), 2 step garage
+  (uk-garage). Каннибализации нет: `keywords/acid-house.json` сам отклонил
+  «house music» как «a candidate guide of its own».
+- 3. Смежное (PASF/PAA вместо Ahrefs related): house music vs EDM, deep house,
+  house music artists, why is house music called house, history of house
+  music (timeline/chicago/documentary/book), house vs techno.
+- 4. SERP. US «house music»: Wikipedia, Reddit, Splice, Armada, Spotify,
+  Traxsource, Facebook (Spinnin'), LANDR, musicmetricsvault — 3 статейных
+  слота (Splice, Armada, LANDR). UK: Wikipedia, Reddit, Spotify, Splice,
+  Armada, Beatport, Traxsource — 2 слота. «what is house music»: Armada,
+  Splice, vibemusicing + Reddit/Quora/видео. «history of house music»:
+  Reddit, Wikipedia, universalproductionmusic, iconcollective, Grammy, NPR,
+  Splice — 5 редакционных. PAA: What is considered house music? / What is
+  the biggest house song ever? / Is house music white people music? / Is
+  house music LGBTQ? / What defines a house song? / What classifies as house
+  music? / What type of music is house music?
+- 5. Конкуренты (прочитаны целиком по структуре). Splice «What is house
+  music?» (2024, ~1 640 слов): история, why called house, BPM, 5 поджанров,
+  артисты по десятилетиям, **How to make house music** (продакшен-блок).
+  Armada «What Is House Music?» (~2 370 слов, с навигацией): sound, history,
+  subgenres, «our house music artists» (промо лейбла). LANDR «13 House
+  Genres Explained»: 13 поджанров с годом и городом, house vs techno, конец —
+  промо дистрибуции. Все три — продавцы (сэмплы, лейбл, дистрибуция); ни
+  одного слушательского гайда с сетами/клубами/людьми.
+
+**Techno (гайд по жанру).**
+- 2. Idea expansion (сиды techno, techno music, what is techno; 1 034 идеи,
+  прочитаны топ-78). Слушательский интент: techno 100K–1M, techno music,
+  hard techno, deep techno, hardcore techno, hardest techno, techno house,
+  techno club, techno city, techno music festival, festival techno, dj jeff
+  mills, adam beyer dj 10K–100K; what is techno, melodic/acid/dub/ambient/
+  dark/hypnotic/bunker/classic techno, 90's/2000 techno (+songs/music), best
+  techno song(s) (ever/of all time), good techno songs, derrick may, dj
+  charlotte de witte, dj nicole moudaber, techno germany, techno rave,
+  techno party 1K–10K. Радио (навигационное): techno radio, techno music
+  radio, techno radio online, radio techno house, fm techno, techno base.
+  Продакшен (не наше): techno mastering, techno beats, techno sounds.
+  Коллизии: techno and, business techno, hi techno, global techno, techno
+  hub, techno tronic (Technotronic), band scooter, techno rock. Занято
+  соседями: techno germany/berlin/german techno (german-electronic-music,
+  best-clubs-in-berlin), techno festival(s) (de/fr festival pages) —
+  проверить на стадии 6, что голова «techno» и «what is techno» свободны
+  (в keywords/*.json не заявлены).
+- 3. Смежное: techno vs house music, techno artists, who created techno,
+  techno music origin country, history of techno (timeline/book/songs).
+- 4. SERP. US «techno»: Wikipedia, Reddit, Beatport, Spotify, RYM, Bandcamp,
+  edmprod, MasterClass ×2, Bentley Historical Library (umich), zipdj — 3–4
+  статейных слота, все продюсерские/курсовые. UK «techno music»: Wikipedia,
+  Spotify, FMA, Reddit, Beatport, RYM — **0 статейных слотов**. «what is
+  techno music» (US): Reddit, Wikipedia, edmprod, samplesoundmusic,
+  houseoftracks. «history of techno» (US): Wikipedia, Reddit, soundoflife,
+  MasterClass, 6amgroup, MSU Today, Carnegie Hall timeline — 5 редакционных.
+  PAA: What defines techno? / Is techno still a thing? / What artists are
+  considered techno? / What are the top 20 techno songs? / What's that one
+  famous techno song? / Where did techno originally come from? / Who is
+  considered the first techno band? / What is techno music now called? / Who
+  are the fathers of techno?
+- 5. Конкуренты. MasterClass «Techno Music Guide» (~1 100 слов вместе с
+  промо): What is techno, brief history, 3 characteristics. EDMProd «What is
+  Techno?» (~1 400 слов): origin, characteristics (rhythm/bass/synths/
+  arrangement — продакшен), who to check out; вверху — сэмпл-пак. Обе тонкие,
+  обе продают курсы/сэмплы.
+
+**Best clubs in NYC.**
+- 2. Idea expansion (сиды nyc clubs, best clubs in nyc, best clubs in new
+  york; 1 553 идеи) — **ловушка неоднозначного слова clubs**: топ-55
+  целиком jazz clubs (Blue Note 100K–1M, Birdland, Django), comedy clubs
+  (Comedy Cellar, Gotham, The Stand), gay bars/clubs, частные клубы (Soho
+  House, Yale Club, NY Athletic Club, Metropolitan Club). Танцевальных — два:
+  night club new york, night clubs nyc (10K–100K). Отдельная volume-проверка
+  (US): nyc nightclubs, night clubs nyc, dance clubs nyc — 10K–100K; best
+  nightclubs in nyc, best dance clubs nyc, best clubs in manhattan, brooklyn
+  clubs, new york nightlife, nyc raves — 1K–10K; best clubs in brooklyn,
+  techno clubs nyc, brooklyn techno clubs (−90%), house music clubs nyc,
+  underground clubs nyc — 100–1K. Клубы (названия из Time Out): Public
+  Records 10K–100K (+900% YoY), Nowadays 10K–100K, Basement 10K–100K,
+  Elsewhere 1K–10K, Good Room 1K–10K. История: new york club 54 10K–100K
+  (US; 100K–1M в All locations), paradise garage 1K–10K, studio 54 — KP
+  слил с другим вариантом.
+- 3. PASF: best clubs in nyc reddit / for young adults / right now / for
+  adults / 18 and over / for college students; best night clubs NYC
+  Manhattan. Музыкальный интент в PASF не виден — выдача и подсказки
+  смешанные.
+- 4. SERP US «best clubs in nyc»: Reddit r/avesNYC, loopmag, Tripadvisor,
+  resident.com, Time Out, House of Yes (клуб), Apple Maps, Quora. PAA не
+  показан. **Два интента в одной выдаче**: музыкальный (Reddit r/avesNYC,
+  Time Out) и lounge/bottle-service (loopmag, resident).
+- 5. Конкуренты. Time Out «12 Best Clubs in NYC for Techno, House and More»
+  (~1 800 слов): Public Records, Nowadays, Elsewhere, The Sultan Room,
+  Animal, Desert 5 Spot, Gabriela, Good Room, Basement, 3 Dollar Bill,
+  C'mon Everybody, Trans-Pecos — список, без истории. Loopmag «10 Best
+  Nightclubs in NYC: 2026 Edition» (~1 300): Little Sister Lounge, Club Room
+  at SoHo Grand, Amber Room, Artspace at PUBLIC, Loosie's, Nebula, Jean's,
+  The Box, Laissez Faire, Marquee — lounges. Resident (2025-11, ~1 100): Ketchy
+  Shuby, Gospël, Jean's, The Box, Paul's Casablanca, … Marquee — lounges.
+  Ни у кого нет истории (Paradise Garage, Studio 54, Loft, Limelight,
+  Twilo, Sound Factory — последние четыре пока не измерены и не
+  подтверждены источником).
+
+**Не проверено ни по одному из трёх:** referring domains (нужен Ahrefs,
+только с разрешения владельца), GB SERP для NYC, All-locations объёмы для
+NYC-вариантов, полные тексты конкурентов (только структура и длина), второй
+источник для исторических дат.
+
+- **Написаны 2026-09-24** (владелец: «lets go create those 3 articles»),
+  собраны, не запушены: `/house-music-guide`, `/techno-music-guide`,
+  `/best-clubs-in-nyc`. Для каждой: `*-draft.md`, `build-*-article.mjs`,
+  `keywords/*.json` (нижняя граница диапазона Keyword Planner, NYC-варианты
+  — US), `media/*.json` (FIGURES.md: источники 1, 3–6; для клубов адаптация
+  как у Paris/Amsterdam), `*-editorial-review.md` (самопроверка, не
+  независимая), картинки Wikimedia Commons (CC BY / CC BY-SA, в подписях),
+  записи YouTube с Topic/лейбла/артиста и сеты из каталога, все через oEmbed.
+  Исправлено до публикации: несколько утверждений, написанных по памяти
+  (детали в `*-editorial-review.md`). Стадия 6 не проводилась отдельно по
+  решению владельца. Не закрыто: Reddit r/avesNYC недоступен в браузере
+  (одного консенсус-источника нет), переводы de/fr, стадия 6.

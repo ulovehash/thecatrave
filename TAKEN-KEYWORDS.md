@@ -673,6 +673,16 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - grime genre
 - grime artists
 
+## house-music-guide.html
+
+- house music
+- what is house music
+- deep house
+- tech house
+- frankie knuckles
+- classic house music
+- house djs
+
 ## how-to-find-new-music.html
 
 - music discovery
@@ -776,6 +786,25 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - where is mysteryland
 - mysteryland usa
 
+## best-clubs-in-nyc.html
+
+- best clubs in nyc
+- nyc clubs
+- best clubs in new york
+- nyc nightclubs
+- dance clubs nyc
+- best nightclubs in nyc
+- best dance clubs nyc
+- best clubs in manhattan
+- brooklyn clubs
+- new york nightlife
+- nyc raves
+- paradise garage
+- best clubs in brooklyn
+- techno clubs nyc
+- house music clubs nyc
+- underground clubs nyc
+
 ## new-years-eve-festivals.html
 
 - new year's eve festivals
@@ -830,6 +859,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - sónar istanbul
 - sónar+d
 - sónar by day
+
+## techno-music-guide.html
+
+- techno
+- techno music
+- what is techno
+- hard techno
+- melodic techno
+- dub techno
+- acid techno
+- jeff mills
+- derrick may
 
 ## tomorrowland-festival.html
 
