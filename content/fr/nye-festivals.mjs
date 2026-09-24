@@ -100,14 +100,12 @@ export default {
             ],
             [
                     "Lights All Night",
-                    "Dallas Market Hall, Texas",
-                    "À vérifier sur le site",
+                    "Fair Park, Dallas, Texas", "30 et 31 décembre 2026",
                     "EDM"
             ],
             [
                     "Eternal NYE",
-                    "Orlando, Floride",
-                    "À vérifier sur le site",
+                    "Orlando Amphitheater, Central Florida Fairgrounds, Orlando", "30 et 31 décembre 2026",
                     "Bass music"
             ],
             [
@@ -118,14 +116,12 @@ export default {
             ],
             [
                     "Rhythm and Vines",
-                    "Waiohika Estate, Gisborne, Nouvelle-Zélande",
-                    "À vérifier sur le site",
+                    "Waiohika Estate, Gisborne, Nouvelle-Zélande", "Du 28 au 31 décembre 2026",
                     "Festival avec camping"
             ],
             [
                     "Beyond the Valley",
-                    "Près de Melbourne, Australie",
-                    "À vérifier sur le site",
+                    "Barunah Plains, près de Melbourne, Australie", "Du 28 décembre 2026 au 1er janvier 2027, complet",
                     "Plusieurs jours, plusieurs scènes"
             ],
             [
@@ -153,6 +149,10 @@ export default {
     {href: "https://www.rtbf.be/article/70-000-festivaliers-attendus-au-festival-fcknye-a-brussels-expo-11654727", label: "RTBF: 70.000 festivaliers attendus au festival FCKNYE à Brussels Expo"},
     {href: "https://handsupelectro.fr/evenement/fcknye-festival-la-programmation-complete-devoilee-pour-2026/", label: "Hands UP Electro: FCKNYE Festival, la programmation complète"},
     {href: "https://www.raveparty.fr/festival/fcknye-festival", label: "RaveRadar: FCKNYE Festival 2026 dates"},
+    {href: "https://lightsallnight.com/", label: "Lights All Night 2026, Fair Park, Dallas"},
+    {href: "https://www.jambase.com/festival/eternal-nye-2026", label: "JamBase: Eternal NYE 2026"},
+    {href: "https://www.rhythmandvines.co.nz/tickets", label: "Rhythm and Vines 2026 tickets"},
+    {href: "https://www.beyondthevalley.com.au/", label: "Beyond The Valley 2026"},
     {href: "https://en.wikipedia.org/wiki/Awakenings_(festival)", label: "Wikipedia: Awakenings (festival)"},
     {href: "https://www.nzherald.co.nz/gisborne-herald/news/caught-on-camera-rhythm-and-vines-over-the-years/SWYASJNH55HPVM7PU6HKS3YUQA/", label: "NZ Herald: Rhythm and Vines over the years"},
     {href: "https://en.wikipedia.org/wiki/Rhythm_%26_Vines", label: "Wikipedia: Rhythm & Vines"},

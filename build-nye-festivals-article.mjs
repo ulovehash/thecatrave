@@ -94,12 +94,12 @@ const media = {
       ['Decadence NYE', 'Colorado Convention Center, Denver, and Arizona', '30 and 31 December', 'EDM'],
       ['HiJinx', 'Pennsylvania Convention Center, Philadelphia', '30 and 31 December 2026', 'Bass music'],
       ['CRSSD Proper NYE', 'Petco Park, San Diego', '31 December 2026, 3pm, to 1 January 2027, 10pm', 'House, with This Never Happened and Daisy Chain'],
-      ['Lights All Night', 'Dallas Market Hall, Texas', checkSite, 'EDM'],
-      ['Eternal NYE', 'Orlando, Florida', checkSite, 'Bass music'],
+      ['Lights All Night', 'Fair Park, Dallas, Texas', '30 and 31 December 2026', 'EDM'],
+      ['Eternal NYE', 'Orlando Amphitheater, Central Florida Fairgrounds, Orlando', '30 and 31 December 2026', 'Bass music'],
       ['FCKNYE', 'Brussels Expo, Belgium', '30 December 2026 to 1 January 2027', 'French-language rap and techno, five stages'],
       ['Awakenings NYE', 'Gashouder, Amsterdam', checkSite, 'Techno'],
-      ['Rhythm and Vines', 'Waiohika Estate, Gisborne, New Zealand', checkSite, 'Camping festival'],
-      ['Beyond the Valley', 'Near Melbourne, Australia', checkSite, 'Multi-day festival, several stages'],
+      ['Rhythm and Vines', 'Waiohika Estate, Gisborne, New Zealand', '28 to 31 December 2026', 'Camping festival'],
+      ['Beyond the Valley', 'Barunah Plains, near Melbourne, Australia', '28 December 2026 to 1 January 2027, sold out', 'Multi-day festival, several stages'],
       ['Field Day', 'The Domain, Sydney', '1 January 2027', 'Hip-hop, house, indie and electronic']
     ].map(row => row.map(escapeHtml))
   })
@@ -166,6 +166,10 @@ ${sourceLink('https://www.propernye.com/', 'CRSSD Proper NYE')}
 ${sourceLink('https://www.petcoparkinsider.com/crssd-proper', 'Petco Park Insider: CRSSD Proper NYE 2026 / NYD 2027')}
 ${sourceLink('https://www.dmagazine.com/arts-entertainment/2020/01/ten-years-in-lights-all-night-endures/', 'D Magazine: Ten Years In, Lights All Night Endures')}
 ${sourceLink('https://www.eternalnye.com/', 'Eternal NYE')}
+${sourceLink('https://www.jambase.com/festival/eternal-nye-2026', 'JamBase: Eternal NYE 2026, 30 and 31 December')}
+${sourceLink('https://lightsallnight.com/', 'Lights All Night 2026, Fair Park, Dallas')}
+${sourceLink('https://www.rhythmandvines.co.nz/tickets', 'Rhythm and Vines 2026 tickets')}
+${sourceLink('https://www.beyondthevalley.com.au/', 'Beyond The Valley 2026')}
 ${sourceLink('https://www.rtbf.be/article/70-000-festivaliers-attendus-au-festival-fcknye-a-brussels-expo-11654727', 'RTBF: 70.000 festivaliers attendus au festival FCKNYE à Brussels Expo')}
 ${sourceLink('https://handsupelectro.fr/evenement/fcknye-festival-la-programmation-complete-devoilee-pour-2026/', 'Hands UP Electro: FCKNYE Festival, la programmation complète')}
 ${sourceLink('https://www.raveparty.fr/festival/fcknye-festival', 'RaveRadar: FCKNYE Festival 2026 dates')}

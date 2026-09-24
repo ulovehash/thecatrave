@@ -720,6 +720,17 @@
         "file": "nye-festivals-draft.md",
         "contains": "Europe's biggest New Year's Eve festival is FCKNYE, at Brussels Expo."
       }
+    },
+    {
+      "id": "nye-lights-all-night-venue-2026",
+      "found": "2026-09-24",
+      "by": "agent",
+      "what": "new-years-eve-festivals.html and its German and French versions list Lights All Night 2026 at Dallas Market Hall. The festival's own site gives 'DECEMBER 30 & 31, 2026, DALLAS, TEXAS | FAIR PARK'. The guide took the venue from D Magazine (2020) and a 2024 review without checking the 2026 edition's own page, which was read only for the date, and the date was not found at the time. Fixed 2026-09-24 with the owner's approval of the exact wording, in English, German and French.",
+      "should_have_caught": "the table row was filled from older articles; the rule that dated rows come from the official site was applied to dates but not to venues",
+      "fix": {
+        "file": "nye-festivals-draft.md",
+        "contains": "It grew up at Dallas Market Hall and moves to Fair Park for its sixteenth edition"
+      }
     }
   ]
 }

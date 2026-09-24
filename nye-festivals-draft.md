@@ -22,7 +22,7 @@ Countdown NYE is Insomniac's New Year's Eve festival, from the promoter behind [
 
 Decadence NYE fills the Colorado Convention Center in Denver on 30 and 31 December, with a second edition in Arizona. It is produced by Global Dance and AEG Presents Rocky Mountains and has been running since at least 2011, when its lineup included BT and Flux Pavilion. HiJinx, founded in 2018, takes over the Pennsylvania Convention Center in Philadelphia on 30 and 31 December 2026 and leans towards bass music. Eternal NYE in Orlando is a bass music festival too, at the city's amphitheater.
 
-CRSSD Proper NYE is the house-leaning option, at Petco Park, the baseball stadium in San Diego, from 3pm on 31 December to 10pm on 1 January, with takeovers from This Never Happened and Daisy Chain for the 2026 edition. Lights All Night, held at Dallas Market Hall, has run since 2010 and is often described as the longest-running EDM festival in Texas.
+CRSSD Proper NYE is the house-leaning option, at Petco Park, the baseball stadium in San Diego, from 3pm on 31 December to 10pm on 1 January, with takeovers from This Never Happened and Daisy Chain for the 2026 edition. Lights All Night has run since 2010 and is often described as the longest-running EDM festival in Texas. It grew up at Dallas Market Hall and moves to Fair Park for its sixteenth edition, on 30 and 31 December 2026.
 
 Smaller rooms do New Year's Eve too. The Concourse Project in Austin booked Tinlicker for New Year's Eve 2024, and filmed the set.
 

@@ -36,7 +36,7 @@ Countdown NYE ist das Silvester-Festival von Insomniac, dem Veranstalter hinter 
 
 Decadence NYE füllt am 30. und 31. Dezember das Colorado Convention Center in Denver, mit einer zweiten Ausgabe in Arizona. Es wird von Global Dance und AEG Presents Rocky Mountains produziert und läuft mindestens seit 2011, als BT und Flux Pavilion im Line-up standen. HiJinx, 2018 gegründet, übernimmt am 30. und 31. Dezember 2026 das Pennsylvania Convention Center in Philadelphia und neigt zu Bass Music. Eternal NYE in Orlando ist ebenfalls ein Bass-Music-Festival, im Amphitheater der Stadt.
 
-CRSSD Proper NYE ist die Wahl für House, im Petco Park, dem Baseballstadion in San Diego, von 15 Uhr am 31. Dezember bis 22 Uhr am 1. Januar, mit Takeovers von This Never Happened und Daisy Chain bei der Ausgabe 2026. Lights All Night in der Dallas Market Hall läuft seit 2010 und gilt oft als das am längsten laufende EDM-Festival in Texas.
+CRSSD Proper NYE ist die Wahl für House, im Petco Park, dem Baseballstadion in San Diego, von 15 Uhr am 31. Dezember bis 22 Uhr am 1. Januar, mit Takeovers von This Never Happened und Daisy Chain bei der Ausgabe 2026. Lights All Night läuft seit 2010 und gilt oft als das am längsten laufende EDM-Festival in Texas. Es ist in der Dallas Market Hall groß geworden und zieht für seine sechzehnte Ausgabe am 30. und 31. Dezember 2026 in den Fair Park.
 
 Auch kleinere Räume machen Silvester. The Concourse Project in Austin buchte Tinlicker für Silvester 2024 und filmte das Set.
 
