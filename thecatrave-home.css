@@ -47,36 +47,40 @@ a{color:inherit}
 .header-socials a:nth-child(3):hover .spotify-waves,.header-socials a:nth-child(3):focus-visible .spotify-waves{stroke:#1db954}
 .header-socials .instagram-dot{fill:currentColor;stroke:none}
 
-.hero{max-width:1440px;margin:auto;padding:1.5rem var(--gutter);display:grid;gap:1.5rem}
+/* The homepage opens straight on Bandcamp; the h1 is kept for the one-H1-per-page
+   SEO/a11y contract but not shown anywhere (owner, 2026-09-24). */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .label,figcaption,.footer-nav p,.newsletter label,.newsletter small{font:400 var(--utility)/1.4 var(--mono);letter-spacing:.02em;text-transform:uppercase}
 h1,h2,h3,p{margin-top:0}
 h1,h2,h3{line-height:.98;letter-spacing:-.055em}
-/* The tight display measure belongs to the home hero, which is where it was designed. As a bare h1 selector it applied to every page that loads this file, which is all of them: any heading longer than fifteen characters was broken into short lines however much room it had. */
-.hero h1{max-width:15ch}
-/* Matched to the Selector's own h1 (thecatrave-article.css, .sel-panel-head h1) so the homepage headline reads at the same scale as the tool page (owner, 2026-09-24). */
+/* Matched to the Selector's own h1 (thecatrave-article.css, .sel-panel-head h1) so any visible heading elsewhere reads at the same scale as the tool page (owner, 2026-09-24). */
 h1{margin-bottom:1.5rem;font-size:clamp(2.05rem,9.4vw,4rem);line-height:1;letter-spacing:-.025em}
 /* One rule instead of hand-tuning each heading: the browser spreads the words evenly across the lines it needs and stops leaving a single word alone on the last one. `pretty` does the same for body copy. Both are ignored by browsers that do not have them, which costs nothing. */
 h1,h2,h3{text-wrap:balance}
 p,li{text-wrap:pretty}
-.hero-intro{max-width:42rem;font-size:.95rem;line-height:1.45}
-.hero-actions{margin-top:2rem;display:flex;flex-wrap:nowrap;gap:.5rem}
-/* Both buttons stay on one line even on a narrow phone: equal width, tighter padding and type than a standalone .button elsewhere on the page. */
-.hero-actions .button{flex:1;justify-content:center;padding:.8rem .4rem;font-size:.76rem;white-space:nowrap}
 .button{min-height:3rem;padding:.8rem 1rem;border:1px solid var(--ink);display:inline-flex;align-items:center;font:700 var(--utility) var(--mono);text-decoration:none;text-transform:uppercase}
 .button.primary{background:var(--ink);color:var(--paper)}
 .button:not(.primary):hover{background:var(--cyan)}
-.hero-visual{width:min(100%,32rem);margin:0 auto}
-.hero-image-frame{width:100%;max-height:65vh;aspect-ratio:4/3;overflow:hidden}
-.hero-visual img{width:100%;height:100%;object-fit:cover;object-position:50% 46%;filter:saturate(.9) contrast(1.05)}
-.hero-visual figcaption{padding-top:.55rem}
+.about-photo{width:min(100%,32rem);margin:0 auto 2rem}
+.about-image-frame{width:100%;max-height:65vh;aspect-ratio:4/3;overflow:hidden}
+.about-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 46%;filter:saturate(.9) contrast(1.05)}
+.about-photo figcaption{padding-top:.55rem}
 
 /* One thin line on a phone: dot + label, a truncated title and the play link, with the meta hidden until there's room for it (owner, 2026-09-24). */
 .now-playing{padding:.55rem var(--gutter);display:flex;align-items:center;gap:.6rem;background:var(--ink);color:var(--paper);font:400 var(--utility) var(--mono);text-transform:uppercase}
 .now-playing span{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
 .now-playing i{width:.6rem;height:.6rem;border-radius:50%;background:var(--acid);box-shadow:0 0 0 .3rem #ff5a364d;animation:now-playing-pulse 1.2s ease-out infinite;flex-shrink:0}
-.now-playing strong{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-transform:none}
+.now-playing strong{flex:1;min-width:0;overflow:hidden;text-transform:none}
+/* Ticker: the title is duplicated and the pair scrolls by exactly half its own
+   width, so the second copy lands where the first started and the loop is
+   seamless whatever the title's length (owner, 2026-09-24). */
+.now-playing-marquee{display:inline-flex;white-space:nowrap;animation:now-playing-marquee 12s linear infinite}
+.now-playing-marquee span{padding-right:3rem}
+@keyframes now-playing-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .now-playing small{display:none;opacity:.6}
-.now-playing a{flex-shrink:0;text-decoration:none;font-weight:700}
+.now-playing a{flex-shrink:0;display:inline-flex;align-items:center;gap:.4rem;text-decoration:none;font-weight:700;color:var(--acid)}
+.now-playing-play-icon{width:1.35rem;height:1.35rem;border-radius:50%;background:var(--acid);flex-shrink:0;display:inline-flex;align-items:center;justify-content:center}
+.now-playing-play-icon::before{content:'';width:0;height:0;margin-left:.15rem;border-style:solid;border-width:.3rem 0 .3rem .48rem;border-color:transparent transparent transparent var(--ink)}
 
 .section-shell{content-visibility:auto;contain-intrinsic-size:auto 900px;max-width:1440px;margin:auto;padding:2.5rem var(--gutter);border-bottom:1px solid var(--line)}
 .section-heading{margin-bottom:2.25rem}
@@ -152,16 +156,20 @@ p,li{text-wrap:pretty}
 .site-header:has(>.lang-switch) .site-nav{grid-column:2}
 .site-header>.lang-switch{grid-column:3;grid-row:1}
 .site-header:has(>.lang-switch) .header-socials{grid-column:4}
-.hero{min-height:calc(100vh - 8.75rem);padding-block:2.5rem;grid-template-columns:minmax(0,1.15fr) minmax(20rem,.85fr);align-items:start}
-.hero-visual{width:min(100%,27rem);margin-top:2.45rem;margin-right:0;justify-self:end}
-.hero-image-frame{max-height:34rem;aspect-ratio:4/5}
-.hero-visual img{object-position:50% 50%}
-.hero-actions .button{flex:none;padding:.8rem 1rem;font-size:var(--utility)}
+/* Side by side at desktop: a small portrait beside the bio instead of one big
+   photo stacked on top of dense text, which read as two unrelated blocks
+   (owner, 2026-09-24). */
+.about-layout{display:grid;grid-template-columns:minmax(14rem,20rem) 1fr;gap:2.5rem;align-items:start}
+.about-photo{width:100%;margin:0}
+.about-image-frame{max-height:26rem;aspect-ratio:4/5}
+.about-photo img{object-position:50% 50%}
 .now-playing{display:grid;grid-template-columns:auto 1fr auto auto;gap:2rem;padding:.9rem var(--gutter)}
-.now-playing strong{overflow:visible;white-space:normal}
+.now-playing strong{overflow:visible}
+.now-playing-marquee{animation:none;white-space:normal}
+.now-playing-marquee span:last-child{display:none}
 .now-playing small{display:inline}
 .section-shell{padding-block:4rem}
-.hero-intro,.about-grid>div{font-size:clamp(1rem,1.5vw,1.1rem);line-height:1.55}
+.about-grid>div{font-size:clamp(1rem,1.5vw,1.1rem);line-height:1.55}
 .player-feature{grid-template-columns:.8fr 1.2fr;align-items:stretch}
 .player-feature iframe{height:352px}
 .mix-grid,.playlist-grid{grid-template-columns:repeat(2,1fr)}
@@ -175,7 +183,8 @@ p,li{text-wrap:pretty}
 .bandcamp-intro{display:grid;grid-template-columns:1fr auto;gap:1rem 3rem;align-items:end}
 .bandcamp-intro h2,.bandcamp-intro p{grid-column:1}
 .bandcamp-intro .bandcamp-cta{grid-column:2;grid-row:1/3;margin:0;align-self:end}
-.bandcamp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bandcamp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.bandcamp-player{height:120px}
 .footer-nav{grid-template-columns:repeat(3,1fr)}
 .footer-bottom{flex-direction:row;justify-content:space-between}
 }
@@ -196,6 +205,9 @@ p,li{text-wrap:pretty}
 @keyframes now-playing-pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.25);opacity:.55}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 .now-playing i{animation:none}
+.now-playing-marquee{animation:none;width:100%}
+.now-playing-marquee span:last-child{display:none}
+.now-playing-marquee span:first-child{display:block;width:100%;overflow:hidden;text-overflow:ellipsis}
 iframe[data-src]{transition:none}
 }
 .selector-promo{margin:clamp(2rem,4vw,3rem) var(--gutter);padding:clamp(1.5rem,4vw,2.75rem);border:2px solid var(--ink);background:var(--acid);color:var(--ink);box-shadow:8px 8px 0 var(--ink);display:grid;gap:1.5rem}

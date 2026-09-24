@@ -100,7 +100,8 @@ export function siteHeader({variant = 'article', lang = defaultLang, alternates 
 
 export function nowPlayingBanner({title, meta, href, lang = defaultLang, linkLabel = t(lang).nowPlayingPlay} = {}) {
   const copy = t(lang);
-  return `<aside class="now-playing" aria-label="${escapeHtml(copy.nowPlayingLabel)}"><span><i></i> ${escapeHtml(copy.nowPlaying)}</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel)}</a></aside>`;
+  const marquee = `<span class="now-playing-marquee"><span>${escapeHtml(title)}</span><span aria-hidden="true">${escapeHtml(title)}</span></span>`;
+  return `<aside class="now-playing" aria-label="${escapeHtml(copy.nowPlayingLabel)}"><span><i></i> ${escapeHtml(copy.nowPlaying)}</span><strong>${marquee}</strong><small>${escapeHtml(meta)}</small><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer"><span class="now-playing-play-icon" aria-hidden="true"></span>${escapeHtml(linkLabel)}</a></aside>`;
 }
 
 // The owner's own DJ mixes, both of them. The festival guides list other

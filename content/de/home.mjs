@@ -21,11 +21,7 @@ export const strings = [
    'Handgemachte Breakbeat-, Bass- und Rave-Musik, DJ-Mixe und Artikel über elektronische Underground-Musik und Clubkultur.'],
 
   // hero
-  ['Handmade breakbeat, bass and rave music.', 'Handgemachte Breakbeat-, Bass- und Rave-Musik.'],
-  ['I was born in Eastern Europe, raved my way through Berlin, Barcelona and beyond, and make breakbeat, bass and rave music shaped by all of it.',
-   'Ich bin in Osteuropa geboren, habe mich durch Berlin, Barcelona und weit darüber hinaus geravt und mache Breakbeat-, Bass- und Rave-Musik, die all das in sich trägt.'],
-  ['Play my music', 'Meine Musik hören'],
-  ['Read the journal', 'Zu den Artikeln'],
+  ['I rave, I produce, I DJ.', 'Ich rave, ich produziere, ich lege auf.'],
   ['thecatrave sitting with a small keyboard in warm orange light', 'thecatrave mit einem kleinen Keyboard in warmem orangem Licht'],
 
   // 01 Bandcamp
