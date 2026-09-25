@@ -1,0 +1,40 @@
+{
+  "page": "awakenings-festival.html",
+  "seed": "awakenings festival",
+  "source": "FIGURES.md adapted for a single-festival guide, 2026-09-25, as for Burning Man, Tomorrowland and EDC Las Vegas. History: Wikipedia, 'Awakenings (festival)' (founding 30 March 1997, name origin, 2000/2005 venue moves, 2006 police raids, 2014 foreign expansion, 2015 SFX/LiveStyle acquisition, 2020 online edition). Current venue and dates: awakenings.com itself (live, 2026-09-25: 'AWAKENINGS FESTIVAL 2027 JULY 9-11', 'AWAKENINGS ADE 2026 OCT 21-25', 'How to travel to Awakenings Festival 2026' page naming Beekse Bergen, Hilvarenbeek). 2026 sellout and 'largest edition' claim: Nuémoro Netherlands, 'Awakenings Festival 2026 Sells Out Ahead Of...' (4 June 2026). DJ Mag 2026 rank (34th, down 14): djmag.com Top 100 Festivals 2026 live-results page and DJ Mag Germany's results article, both dated 2 July 2026 (djmag.com itself returned a Cloudflare 520 error when checked directly, so the ranking is sourced from Google's indexed results and DJ Mag Germany's mirror of the same list, not the live page). Wikimedia Commons Category:Awakenings (festival) for the image; selector-data.json searched for 'awakenings' for the video.",
+  "required_records": [
+    {
+      "title": "Awakenings Festival",
+      "artist": "festival, Beekse Bergen, Hilvarenbeek, founded 1997",
+      "year": null,
+      "why": "S4 consensus: the subject of the page. Founding facts (date, first DJs, name origin) from Wikipedia; current venue and dates confirmed live against awakenings.com itself, which corrects Wikipedia's outdated Spaarnwoude location for the main summer festival",
+      "sources": ["originators", "consensus"],
+      "photo_credit": "Boris van Hoytema, CC BY 2.0, via Wikimedia Commons, taken 29 September 2007. Also used on Wikipedia's own Awakenings (festival) article in five languages. Shows the festival's branded airship and laser rig over the crowd; not the same image used on nye-festivals.html (a different Gashouder photograph by Ank Kumar, 2017), so no reuse of another guide's image"
+    },
+    {
+      "title": "Maceo Plex",
+      "artist": "producer",
+      "year": 2018,
+      "why": "S6 differentiator: the only Awakenings-tagged set in this site's own catalogue, Mosaic x Awakenings at the Gashouder during ADE 2018, directly tying the video to the page's Amsterdam ADE special paragraph",
+      "sources": ["catalogue"],
+      "embed_id": "gR_nkH5B35s"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "gR_nkH5B35s", "title": "Maceo Plex, Mosaic x Awakenings at Gashouder ADE, 2018"}
+  ],
+  "known_gaps": [
+    {
+      "title": "No image of the current Beekse Bergen summer festival site",
+      "why": "Wikimedia Commons and Flickr's CC-licensed pool only turned up Gashouder/Amsterdam-era Awakenings photographs (the 2007 airship image used, plus 30 Ank Kumar photographs of Gashouder interiors, one of which is already used on nye-festivals.html); no openly licensed photograph of the Hilvarenbeek site was found"
+    },
+    {
+      "title": "DJ Mag Top 100 Festivals 2026 ranking not verified against the live page",
+      "why": "djmag.com/top100festivals/awakenings-festival returned a Cloudflare 520 error on 2026-09-25; the rank (34th, down 14) is sourced from Google's cached/indexed copy of the same page and DJ Mag Germany's article on the same results, not the primary page directly"
+    },
+    {
+      "title": "Exact attendance/capacity figure for the summer festival",
+      "why": "no single reliably sourced number found across the sources checked; the page states the 2026 sellout and 'largest edition' claim (Numéro Netherlands) instead of an unverified capacity figure"
+    }
+  ]
+}

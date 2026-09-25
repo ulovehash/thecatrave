@@ -1,0 +1,20 @@
+{
+  "page": "awakenings-festival.html",
+  "seed": "awakenings festival",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's own Chrome (Claude in Chrome, not the sandboxed Browser pane, which is not signed into the account) via 'Discover new keywords'. All locations, English (default), Sep 2025 to Aug 2026 date range. One submission covering this candidate alongside Manchester clubs and Boom Festival, researched the same session (manchester clubs, best clubs in manchester, boom festival, awakenings festival), 388 ideas returned, top ~60 by volume read. No Ahrefs units spent. See TOPIC-DOSSIERS.md, 'Manchester clubs, Boom Festival, Awakenings Festival (2026-09-25)'.",
+  "note": "Ranges are Keyword Planner's own coarse buckets (All locations), not point estimates. Replaced Boom Festival in the owner's row-8 picks after Boom's stage-4 research (both head and question-form live SERP) found zero article slots. Unlike Boom, 'what is awakenings festival' opens real editorial slots (festivalmates.com, DJ Mag's Top 100 Festivals profile), matching the Burning Man/Tomorrowland/EDC pattern of a navigational head answered on the question form.",
+  "terms": [
+    {"term": "awakenings festival", "volume": "10K-100K", "note": "head term; Keyword Planner, All locations"},
+    {"term": "awakenings tickets", "volume": "1K-10K"},
+    {"term": "awakenings amsterdam", "volume": "1K-10K", "note": "the Amsterdam Dance Event special, run every October at the Gashouder since 2012"},
+    {"term": "awakenings amsterdam ade", "volume": "1K-10K"}
+  ],
+  "expansion_checked": "Keyword Planner 'Discover new keywords' on 'manchester clubs, best clubs in manchester, boom festival, awakenings festival' (388 ideas, top ~60 by volume read; Refine-keywords panel grouped 'adam beyer, carl cox, joseph capriati' under Artist, confirming the techno-only genre identity); live Google SERP for 'awakenings festival' and 'what is awakenings festival' (US, gl=us&hl=en, 2026-09-25), both read to the end of page 1 plus People Also Ask and 'People also search for'.",
+  "serp_notes": "Head 'awakenings festival': 0 article slots -- official site (sitelinks), Wikipedia, YouTube videos, Instagram, an unofficial .nl domain with no content, one Tripadvisor review page. 'what is awakenings festival': 3 slots -- festivalmates.com ('The complete first-timer's guide to...', dated May 2026), DJ Mag's Top 100 Festivals profile, FabFestivals (a listing). PAA on the question form: How much do Awakenings tickets cost? / Who performs in 2026? / Where held in 2026? / Where in 2027? Both SERPs matched the pattern already used for Burning Man, Tomorrowland and EDC Las Vegas: navigational head, editorial opening on the question form.",
+  "rejected": [
+    {"term": "awakening fest", "volume": "10K-100K", "why": "same bucket as the head term but no verified real-world usage found as a distinct name; likely Keyword Planner's own truncated variant of 'awakenings festival' rather than a name actually used in coverage, so not asserted as a nickname in copy"},
+    {"term": "awakening ade", "volume": "1K-10K", "why": "singular-'awakening' variant of 'awakenings amsterdam ade', already covered by that term"},
+    {"term": "awakenings festival ade", "volume": "1K-10K", "why": "near-duplicate of 'awakenings amsterdam ade', which is used instead"},
+    {"term": "awakenings tickets 2026 / lineup / stages / map", "why": "dated or logistical variants that would need constant upkeep; excluded per KEYWORD-METHOD.md's stopping criteria for volatile schedule/lineup content"}
+  ]
+}

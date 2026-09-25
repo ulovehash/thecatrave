@@ -494,6 +494,32 @@ Awakenings, Sónar, Dekmantel, Defqon.1, Untold, Exit, Coachella, Lollapalooza.
   в NL красного уровня жары; 2027 — 24–27 июня (по прессе, страница Q-dance без JS
   пустая). Предложен URL /defqon-1-festival (defqon-research.md). Ahrefs: 15 вызовов.
   Отложен владельцем 2026-09-14 ради более популярных фестивалей.
+  - **Дозакрыто 2026-09-25** (владелец выбрал Defqon.1 вместо Boom для этого прохода;
+    живой Google US/en, 0 Ahrefs-units — старые SERP/related этого месяца ещё не устарели
+    по правилу ~90 дней, объёмы не переснимались). Уточнение по отмене 2026: не отменён
+    до начала — фестиваль отыграл один день, дальше уик-энд отменён 26 июня из-за
+    экстренного KNMI Code Red по жаре; Q-dance всё равно отыграл Endshow без публики
+    (снято на видео). Это документированный, живой на сегодня инфоповод — Reddit
+    r/hardstyle продолжает обсуждение спустя 3 месяца, PAA «Why is Defqon.1 2026
+    cancelled?» всё ещё всплывает. Единственный найденный независимый редакционный
+    материал по инциденту — DJ Mag, «Defqon.1 festival cancelled due to extreme heat
+    warning» (djmag.com, 26.06.2026, новостная заметка, не разбор). Живой SERP US
+    «defqon 1»: Q-dance (сайтлинки, 5+ страниц), Wikipedia, Instagram, AI Overview,
+    YouTube, Facebook — статей нет. «what is defqon 1»: Wikipedia, Q-dance ×3, Reddit,
+    Tripadvisor (обзорная страница, слабо), Fandom hardstyle wiki (комьюнити-вики, не
+    конкурент-издание) — **тоже 0 независимых редакционных слотов**, слабее паттерна
+    Awakenings (там на этой же вопросной форме нашлись festivalpartners.com и DJ Mag
+    Top 100 profile). Коллизия DEF CON подтверждена самой Wikipedia («Not to be confused
+    with DEF CON») но не проявляется в живой органике — 100% результатов про фестиваль.
+    2027: 24–27 июня подтверждено, «The Kick-off 2027» (анонс состава) — 1 октября 2026
+    (через 6 дней от текущей даты, если писать сейчас — упомянуть точно).
+    Вывод по данным: не «drop», как Boom (там 0 слотов на обеих формах без какого-либо
+    дифференцирующего инфоповода), но и не «winnable» по обычному объясняющему углу, как
+    Awakenings. Единственная реальная дифференциация — детальный, точный разбор отмены
+    2026 (инцидент задокументирован фактами, у существующего покрытия — DJ Mag — только
+    новостная заметка, не полный разбор), встроенный в объясняющую статью про фестиваль.
+    Жанр — хардстайл/хардкор, дальше от breakbeat/jungle владельца, чем house/techno, но
+    ближе, чем психоделический Boom.
 - **Coachella** (2026-09-14, начато; стадии 1 и 3-matching пройдены, остальные нет:
   кончился лимит Ahrefs, 2 единицы, сброс 2026-09-20). Голова 151 000 US (523 000
   global, TP 205 000, parent «coachella lineup»). Слушательские вечные US: what is
@@ -1902,3 +1928,158 @@ Club (интерьер бара, не тот же файл, что на хабе
 - Все три `keywords/*.json` переписаны с честной пометкой источника; ни один
   Ahrefs-номер не остался. `node audit-all.mjs`, `npm run check:html`,
   `npm run check:links` — чисто после переделки.
+---
+
+## Manchester clubs, Boom Festival, Awakenings Festival (2026-09-25)
+
+Владелец выбрал три кандидата из ряда 7–8 сводной таблицы волны 3
+(2026-09-24): best clubs in manchester (ряд 7), и два фестиваля из ряда 8 —
+Boom и Awakenings (Defqon.1 остаётся отложен решением от 2026-09-14, Exit не
+выбран). Шаг 0: TAKEN-KEYWORDS.md прочитан, ни один из трёх терминов не занят.
+
+Инструмент: Google Ads Keyword Planner (аккаунт 299-844-2842, через Claude in
+Chrome — реальный Chrome владельца), All locations, English, Discover new
+keywords, один запрос на все четыре сида сразу (manchester clubs, best clubs
+in manchester, boom festival, awakenings festival) — 388 идей, прочитаны
+верхние ~60 по объёму (buckets 10K–100K и 1K–10K целиком). Живой Google
+(US/en) для трёх голов и двух вопросных форм. Ahrefs не использовался
+(0 units) — дефолт по KEYWORD-METHOD.md с 2026-09-22.
+
+- **Best clubs in Manchester.** Стадии 1 (волна 3), 2, 4 закрыты; 3 частично
+  (только PASF с живого SERP, related-terms не снимались); 5 не пройдена.
+  - Keyword Planner (all locations): manchester clubs 10K–100K, best clubs in
+    manchester 1K–10K (осталась отдельной строкой «keywords you provided», не
+    слилась с головой).
+  - Релевантные идеи 10K–100K: manchester night clubs. Коллизии в этом же
+    бакете: k2 karaoke manchester (+900%, караоке-бар), frog and bucket
+    manchester (комеди-клуб), soho house manchester (+900%, частный клуб —
+    навигационный), places to drink in manchester (шире, бары).
+  - Релевантные идеи 1K–10K: best dance clubs in manchester, best manchester
+    nightclubs, best nightclubs manchester, good clubs in manchester, good
+    night clubs in manchester, manchester nightlife, hacienda manchester
+    (легендарный клуб, уже цитировался для best-clubbing-cities-in-europe),
+    the warehouse project manchester (крупнейший клубный бренд города).
+    Нерелевантные в том же диапазоне: comedy club/night/store manchester ×3
+    (коллизия «club»=комеди), best cocktail bars / best places to drink in
+    manchester (бар-интент, не клубы), sex clubs manchester (коллизия,
+    проскочила через «exclude adult ideas»).
+  - Живой SERP US «best clubs in manchester»: Manchester's Finest, Reddit ×3
+    (включая «A Raver's Guide to Manchester Nightlife»), Tripadvisor,
+    Resident Advisor (ra.co — танцевальный авторитет), DesignMyNight, Club
+    Bookers, Trip.com, Quora. PASF: best clubs in manchester city
+    centre/reddit/for adults, best nightclubs in Manchester for students,
+    famous nightclub in Manchester. Локальной прессы (Manchester's Finest,
+    DesignMyNight, visitmanchester) заметно больше, чем в SERP уже написанных
+    городов волны 3, но состав тот же тип страниц (Reddit/Tripadvisor/
+    трэвел-блоги + один танцевальный авторитет, ra.co), что уже был принят
+    winnable для Праги/Будапешта/Токио.
+  - Вывод по данным (не вердикт стадии 6): тот же профиль, что у написанных
+    городов волны 3 — winnable, риск чуть выше из-за плотности локальных
+    медиа, но не иной по типу.
+
+- **Boom Festival.** Стадии 1, 2, 4 пройдены заново в этом проходе
+  (предыдущая запись от 2026-09-13 в разделе «Фестивали» ниже проверяла
+  только головной SERP), 3 частично, 5 не пройдена.
+  - Keyword Planner: boom festival 10K–100K (all locations). Также: boom
+    portugal 1K–10K (подтверждает локацию — Иданья-а-Нова, Португалия), boom
+    boom fest / boom fest 10K–100K (варианты головы). **Коллизия с Boomtown
+    Fair (UK) не подтвердилась на уровне данных**: boom town fair / boom town
+    festival тоже попали в тот же бакет 10K–100K, но остались отдельными
+    строками в выдаче идей — Keyword Planner не смешивает их с «boom
+    festival» ни разу за все прочитанные ~60 строк.
+  - Живой SERP US «boom festival»: официальный сайт (с сайтлинками),
+    Instagram (538K подписчиков), AI Overview, Wikipedia, Facebook,
+    SoundCloud, YOUROPE, Music Festival Wizard. **0 статейных слотов.** PAA:
+    Will there be a Boom Festival in 2026? / Why is Boom Festival every 2
+    years? / What happens at Boom Festival? / Where is it located?
+  - Живой SERP US «what is boom festival» (вопросная форма — по методу
+    breakcore, где голова и вопрос могут расходиться): **тоже 0 статейных
+    слотов** — Wikipedia, официальный, Reddit ×2, YOUROPE, Facebook
+    FAQ-страница. Ни одного независимого редакционного гайда. PAA этого
+    запроса содержит «Is Boomtown a rave?» — Google видит смежность с
+    Boomtown в подсказках, но органика двух фестивалей не смешивается.
+  - Вывод по данным: единственный из трёх кандидатов, где ни голова, ни
+    вопросная форма не дают ни одного слота. Подтверждает и усиливает запись
+    от 2026-09-13 ниже («Boom… Статей нет, навигационный») — тот проход не
+    проверял вопросную форму, этот проверил и получил тот же результат.
+  - Жанровая оговорка: Boom — психоделический/psytrance фестиваль, а не
+    техно/бас-музыка; сайт по правилу «не ограничен UK, тема не повод
+    отбросить» это не исключает, но это не близкий владельцу жанр (вопрос §5
+    KEYWORD-METHOD.md — не задан, т.к. до него дело не дошло: слотов нет).
+
+- **Awakenings Festival.** Стадии 1, 2, 4 пройдены заново, 3 частично,
+  5 не пройдена.
+  - Keyword Planner: awakenings festival 10K–100K (all locations). Варианты:
+    awakening fest 10K–100K; awakenings tickets / awakenings amsterdam /
+    awakenings amsterdam ade / awakenings festival ade / awakening ade
+    1K–10K — подтверждают устойчивую привязку к ADE (Amsterdam Dance Event).
+    Панель Keyword Planner «Refine keywords» сама сгруппировала артистов:
+    adam beyer, carl cox, joseph capriati — техно-состав, совпадает с
+    профилем сайта (`techno-music-guide.html` уже написан).
+  - Живой SERP US «awakenings festival»: официальный (сайтлинки), Wikipedia,
+    YouTube-видео ×3, Instagram, awakeningsfestival.nl (пустая страница),
+    Tripadvisor (одна редакционная страница-обзор). **0 статейных слотов**,
+    PAA не показан на этом запросе.
+  - Живой SERP US «what is awakenings festival»: официальная About-страница,
+    Wikipedia, Reddit ×3 (включая свежий тред r/AwakeningsFestival),
+    Tripadvisor, Facebook, **festivalmates.com** («The complete
+    first-timer's guide to…», май 2026, полноценный редакционный гайд),
+    **DJ Mag Top 100 Festivals** (профиль фестиваля, авторитетное
+    dance-music издание), **FabFestivals** (листинг фестивалей). **3 слота**,
+    все слабее оф.сайта и Wikipedia. PAA: How much do Awakenings tickets
+    cost? / Who performs in 2026? / Where held in 2026? / Where in 2027?
+  - Вывод по данным: тот же паттерн, что у Burning Man/Tomorrowland/EDC —
+    голова навигационная, но вопросная форма «what is Awakenings Festival»
+    открывает реальные слоты, включая DJ Mag. Из двух фестивалей — только
+    этот winnable по методу на вопросной форме.
+
+**Не проверено:** стадия 5 (competitor mining — organic keywords конкурентов:
+ra.co, Manchester's Finest, festivalmates.com, DJ Mag), стадия 3 полностью
+(related-terms/also_talk_about — только PASF с живого SERP), выдача GB
+(только US), стадия 6 (вердикт — отдельный проход по промпту
+`TOPIC-RESEARCH.md`).
+
+- **Manchester написано 2026-09-25** (владелец: «write all now», без
+  отдельного прохода стадии 6, тот же приём, что у волны 3). Boom отклонён
+  (0 слотов на обеих формах), Defqon.1 предложен вместо него, затем тоже
+  отклонён владельцем («drop it too»). `manchester-clubs-draft.md`,
+  `build-manchester-clubs-article.mjs`, `keywords/best-clubs-in-manchester.json`,
+  `media/best-clubs-in-manchester.json`, `best-clubs-in-manchester-editorial-review.md`
+  (факт-чек, humanizer-проход, SEO-проверка — в отличие от Токио/Будапешта,
+  этот проход прошёл до объявления готовности, не задним числом). Картинки:
+  Haçienda bollards (Wikimedia, CC BY-SA 2.0) и Northern Quarter street
+  (Wikimedia, CC BY 4.0) — визуальная проверка на рендере поймала неверную
+  подпись (alt-текст утверждал, что болларды стоят у нынешних апартаментов на
+  месте клуба; сама фотография — явно музейный/выставочный кадр, дата
+  совпадает с выставкой Haçienda 25 в Urbis, 2007-2008), исправлено до
+  публикации. Видео из каталога: Swing Ting @ Soup (2021, привязан к
+  реальному клубу из таблицы) и LEVELZ Boiler Room Manchester (2016, без
+  утверждения о неподтверждённой площадке). `node audit-all.mjs`,
+  `npm run check:html`, `npm run check:links`, `npm run check:layout`
+  (450 тестов) — всё чисто. Не запушено.
+
+- **Awakenings Festival написано 2026-09-25**, той же сессией сразу после
+  Manchester. `awakenings-draft.md`, `build-awakenings-article.mjs`,
+  `keywords/awakenings-festival.json`, `media/awakenings-festival.json`,
+  `awakenings-festival-editorial-review.md` (факт-чек, humanizer-проход,
+  SEO-проверка — до объявления готовности, не задним числом). Реальная
+  правка Wikipedia: сайт и большинство источников описывают открытый летний
+  фестиваль в Spaarnwoude, но живая проверка awakenings.com показала, что
+  сейчас это Beekse Bergen (Hilvarenbeek), а Spaarnwoude теперь площадка
+  отдельного, меньшего события Awakenings Upclose — статья прямо называет
+  расхождение, а не молча копирует Wikipedia. DJ Mag Top 100 Festivals 2026
+  (34-е место, −14) — сама страница djmag.com отдала Cloudflare 520,
+  источник — проиндексированная Google копия и немецкое зеркало DJ Mag,
+  разница зафиксирована в media-файле, не выдана за первоисточник. Картинка:
+  фото 2007 года с фирменным дирижаблем Awakenings (Wikimedia, Boris van
+  Hoytema, CC BY 2.0, уже используется в пяти языковых версиях Wikipedia),
+  не то же изображение Gashouder, что уже стоит на nye-festivals.html. Видео из каталога: Maceo Plex, Mosaic x
+  Awakenings at Gashouder ADE 2018 — единственная запись с «awakenings» во
+  всём selector-data.json. `festivals-series.md` обновлён (ряд 11:
+  «volumes only» → published). `node audit-all.mjs`, `npm run check:html`,
+  `npm run check:links`, `npm run check:layout` (454 теста) — всё чисто. Не
+  запушено.
+
+Оба (Manchester, Awakenings) написаны в один присест по прямому решению
+владельца («write all now»); стадия 6 не пройдена отдельным проходом ни для
+одного из двух — та же уступка скорости, что и у волны 3.

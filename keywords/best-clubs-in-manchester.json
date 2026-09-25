@@ -1,0 +1,30 @@
+{
+  "page": "best-clubs-in-manchester.html",
+  "seed": "best clubs in manchester",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's own Chrome (Claude in Chrome, not the sandboxed Browser pane, which is not signed into the account) via 'Discover new keywords'. All locations, English (default), Sep 2025 to Aug 2026 date range. One submission covering this candidate alongside two festival candidates researched the same session (manchester clubs, best clubs in manchester, boom festival, awakenings festival), 388 ideas returned, top ~60 by volume read. No Ahrefs units spent. See TOPIC-DOSSIERS.md, 'Manchester clubs, Boom Festival, Awakenings Festival (2026-09-25)'.",
+  "note": "Ranges are Keyword Planner's own coarse buckets (All locations), not point estimates. Row 7 of the wave-3 ranked candidate list (2026-09-24); city-guide continuation of the NYC/Tokyo/Budapest/Prague pages.",
+  "terms": [
+    {"term": "manchester clubs", "volume": "10K-100K", "note": "head term; Keyword Planner, All locations"},
+    {"term": "best clubs in manchester", "volume": "1K-10K", "note": "the page's own head term, stayed a separate 'keywords you provided' line rather than merging with the head; Keyword Planner, All locations"},
+    {"term": "manchester night clubs", "volume": "10K-100K", "note": "listener variant of the head, in the FAQ's best-area answer"},
+    {"term": "manchester nightlife", "volume": "1K-10K", "note": "in the introduction"},
+    {"term": "hacienda manchester", "volume": "1K-10K", "note": "legendary closed club, plain-spelling variant given once alongside the correct 'Haçienda' the rest of the page uses"},
+    {"term": "the warehouse project manchester", "volume": "1K-10K", "note": "largest current club-night brand; also a genuine disambiguator now that the series runs a yearly Rotterdam edition too"}
+  ],
+  "expansion_checked": "Keyword Planner 'Discover new keywords' on 'manchester clubs, best clubs in manchester, boom festival, awakenings festival' (388 ideas, top ~60 by volume read); live Google SERP for 'best clubs in manchester' (US, gl=us&hl=en, 2026-09-25) read to the end of page 1 plus 'People also search for'.",
+  "serp_notes": "Live SERP: Manchester's Finest, Reddit x3 (including 'A Raver's Guide to Manchester Nightlife'), Tripadvisor, Resident Advisor (ra.co), DesignMyNight, Club Bookers, Trip.com, Quora. Local press (Manchester's Finest, DesignMyNight, visitmanchester) denser than in other wave-3 cities, flagged in TOPIC-DOSSIERS.md, but same page-type mix (Reddit/Tripadvisor/travel blogs plus one dance-music authority) already judged winnable for Prague, Budapest and Tokyo. PASF: best clubs in manchester city centre / reddit / for adults, best nightclubs in Manchester for students, famous nightclub in Manchester, night clubs in Manchester.",
+  "rejected": [
+    {"term": "best dance clubs in manchester", "volume": "1K-10K", "why": "near-duplicate of the page's own head term ('best clubs in manchester'); dropped rather than stuffed in alongside four other close variants"},
+    {"term": "best manchester nightclubs", "volume": "1K-10K", "why": "near-duplicate of the head term, same reasoning as 'best dance clubs in manchester'"},
+    {"term": "best nightclubs manchester", "volume": "1K-10K", "why": "word-order variant of 'best manchester nightclubs'; same reasoning"},
+    {"term": "good clubs in manchester", "volume": "1K-10K", "why": "near-duplicate of the head term; same reasoning"},
+    {"term": "good night clubs in manchester", "volume": "1K-10K", "why": "near-duplicate of the head term; same reasoning"},
+    {"term": "k2 karaoke manchester", "volume": "10K-100K", "why": "karaoke bar, not a nightclub; collision on 'k2'"},
+    {"term": "frog and bucket manchester", "volume": "10K-100K", "why": "comedy club; collision on the word 'club'"},
+    {"term": "soho house manchester", "volume": "10K-100K", "why": "private members' club, navigational, not a public nightclub"},
+    {"term": "places to drink in manchester", "volume": "10K-100K", "why": "bar-hopping intent, not clubs"},
+    {"term": "comedy club manchester / comedy night manchester / comedy store manchester", "volume": "1K-10K", "why": "comedy venues; collision on 'club'"},
+    {"term": "best cocktail bars in manchester / best places to drink in manchester", "volume": "1K-10K", "why": "bar intent, different page"},
+    {"term": "sex clubs manchester", "volume": "1K-10K", "why": "different venue type; slipped past Keyword Planner's 'exclude adult ideas' filter"}
+  ]
+}

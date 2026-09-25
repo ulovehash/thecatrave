@@ -24,7 +24,7 @@ The current full DJ Mag audit and no-Ahrefs working queue are maintained in
 | 8 | Dekmantel | 8,000 | 500 | volumes only |
 | 9 | Amsterdam Dance Event | 7,900 | 700 | volumes only |
 | 10 | Monegros | 7,800 | 100 | volumes only |
-| 11 | Awakenings | 6,500 | 700 | volumes only |
+| 11 | Awakenings | 6,500 | 700 | **published** `/awakenings-festival`, 2026-09-25, replaced Boom Festival in the owner's row-8 wave-3 picks after Boom's stage-4 research found zero article slots (`TOPIC-DOSSIERS.md`); stage 6 not run separately |
 | 12 | EXIT | 5,200 | 400 | volumes only |
 | 13 | Movement Detroit | 4,300 | 4,000 | SERP checked: weak; TP 6,300 |
 | 14 | Sónar | 3,800 | 250 | **published** `/sonar-festival-barcelona`, 2026-09-14, the owner's pick from two exports (`sonar-research.md`); related terms and stage 6 not run |

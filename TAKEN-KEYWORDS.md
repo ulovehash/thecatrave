@@ -21,6 +21,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - famous club in amsterdam
 - biggest nightclub in amsterdam
 
+## awakenings-festival.html
+
+- awakenings festival
+- awakenings tickets
+- awakenings amsterdam
+- awakenings amsterdam ade
+
 ## best-clubs-in-barcelona.html
 
 - best clubs in barcelona
@@ -63,6 +70,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top boiler room sets
 - most viewed boiler room set
 
+## best-clubs-in-manchester.html
+
+- manchester clubs
+- best clubs in manchester
+- manchester night clubs
+- manchester nightlife
+- hacienda manchester
+- the warehouse project manchester
+
 ## best-spotify-playlists.html
 
 - best spotify playlists
@@ -84,6 +100,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - breakbeat meaning
 - breakbeat definition
 - breakbeat genre
+
+## best-clubs-in-budapest.html
+
+- budapest clubs
+- instant fogas
+- best clubs in budapest
 
 ## what-is-burning-man.html
 
@@ -786,26 +808,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - where is mysteryland
 - mysteryland usa
 
-## best-clubs-in-tokyo.html
-
-- best clubs in tokyo
-- tokyo clubs
-- clubs in tokyo
-- best clubs in tokyo for foreigners
-
-## best-clubs-in-budapest.html
-
-- budapest clubs
-- best clubs in budapest
-- clubs in budapest
-- instant fogas
-
-## best-clubs-in-prague.html
-
-- best clubs in prague
-- prague clubs
-- clubs in prague
-
 ## best-clubs-in-nyc.html
 
 - best clubs in nyc
@@ -852,6 +854,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - parookaville location
 - where is parookaville
 
+## best-clubs-in-prague.html
+
+- best clubs in prague
+- prague clubs
+
 ## primavera-sound-barcelona.html
 
 - primavera sound
@@ -891,6 +898,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - acid techno
 - jeff mills
 - derrick may
+
+## best-clubs-in-tokyo.html
+
+- best clubs in tokyo
+- tokyo clubs
+- best clubs in tokyo for foreigners
 
 ## tomorrowland-festival.html
 

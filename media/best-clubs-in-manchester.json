@@ -1,0 +1,101 @@
+{
+  "page": "best-clubs-in-manchester.html",
+  "seed": "best clubs in manchester",
+  "source": "FIGURES.md adapted for clubs, 2026-09-25, as for the NYC, Tokyo, Budapest, Prague, Amsterdam and Ibiza guides. Live Google SERP for 'best clubs in manchester' (US, 2026-09-25). Current venue list and character notes: Resident Advisor, 'The Best Clubs in Manchester in 2026' (ra.co/guides/clubs-in-manchester, dated 7 January 2026). History: Wikipedia (The Haçienda; The Warehouse Project). Dress code, checked directly: nightclub.org.uk (The White Hotel: no dress code) and manchestertourism.org (Hidden, White Hotel, Warehouse Project: 'anything goes'). Selector catalogue (selector-data.json) searched for 'manchester' for the video embeds.",
+  "required_records": [
+    {
+      "title": "The Haçienda",
+      "artist": "club, Whitworth Street West, 1982-1997",
+      "year": null,
+      "why": "S5 originators: the club that made Manchester's clubbing reputation, source of the city's acid house/Madchester scene; closed and demolished, so it is the page's history section rather than a table entry",
+      "sources": ["originators", "consensus"],
+      "photo_credit": "a_marga, CC BY-SA 2.0, via Wikimedia Commons, taken 26 August 2007. The Flickr original is titled '24 Hour Party People' with the caption 'esto seguia estando cuando yo fui en el 91' (Spanish: 'this was still there when I went in [19]91'). The image shows an indoor display, not a street, and the dates line up with Urbis's 'Haçienda 25' exhibition (mid-July 2007 to mid-February 2008, per Wikipedia), but that venue is not confirmed by the file page itself, so the caption does not assert a specific current location"
+    },
+    {
+      "title": "The Warehouse Project",
+      "artist": "seasonal club-night series, Depot Mayfield since 2019",
+      "year": null,
+      "why": "S4 consensus: the city's dominant current club brand, DJ Mag's 4th-best club in the world 2025; not a fixed venue with its own photographable interior, covered in prose only",
+      "sources": ["consensus"],
+      "no_embed_reason": "seasonal series with no single venue; no licensed photograph of Depot Mayfield found"
+    },
+    {
+      "title": "The White Hotel",
+      "artist": "club, Salford",
+      "year": null,
+      "why": "S4 consensus (RA.co): the city's leading DIY/underground room",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Soup",
+      "artist": "club, Northern Quarter, formerly Soup Kitchen",
+      "year": null,
+      "why": "S4 consensus (RA.co); S6 differentiator: hosts the Swing Ting video embedded below",
+      "sources": ["consensus", "catalogue"],
+      "no_embed_reason": "no licensed photograph found; represented by the Northern Quarter area image instead"
+    },
+    {
+      "title": "Eastern Bloc Records",
+      "artist": "record shop and venue, Northern Quarter, est. 1985",
+      "year": null,
+      "why": "S4 consensus (RA.co)",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "The Loft",
+      "artist": "club, opened 2021",
+      "year": null,
+      "why": "S4 consensus (RA.co)",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Hidden",
+      "artist": "club, est. 2015",
+      "year": null,
+      "why": "S4 consensus (RA.co)",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Stage & Radio",
+      "artist": "club, jazz venue since 1946, reopened for dance music 2016",
+      "year": null,
+      "why": "S4 consensus (RA.co)",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Swing Ting",
+      "artist": "Manchester bass, beats and grime sound system",
+      "year": 2021,
+      "why": "S6 differentiator: recorded at Soup, one of the page's current listed venues, tying a real Manchester crew directly to a named room",
+      "sources": ["catalogue"],
+      "embed_id": "b1lOaex4kZw"
+    },
+    {
+      "title": "LEVELZ",
+      "artist": "Manchester grime and bassline crew",
+      "year": 2016,
+      "why": "S6 differentiator: Boiler Room's own Manchester broadcast, matching the page's note that the city's bass and grime scene runs alongside its house and techno clubs",
+      "sources": ["catalogue"],
+      "embed_id": "GtJhGigH1mw"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "b1lOaex4kZw", "title": "Swing Ting, bass, beats and grime, @ Soup, Manchester, 2021"},
+    {"id": "GtJhGigH1mw", "title": "Boiler Room: Manchester, LEVELZ (LVL 15), 2016"}
+  ],
+  "known_gaps": [
+    {
+      "title": "No licensed photograph of any current club's interior or exterior",
+      "why": "Manchester's currently-operating clubs (White Hotel, Soup, Eastern Bloc, The Loft, Hidden, Stage & Radio) have no Creative Commons or public-domain photographs on Wikimedia Commons or Flickr as of this pass; the page uses a Northern Quarter street image and the Haçienda's surviving bollards instead of a generic stock substitute"
+    },
+    {
+      "title": "Boiler Room Manchester (LEVELZ, 2016) venue not confirmed",
+      "why": "the broadcast is a citywide Boiler Room event with the LEVELZ crew, not tied to one of the page's named current venues; described in the prose without claiming a specific room to avoid an unconfirmed claim"
+    }
+  ]
+}

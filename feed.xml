@@ -8,13 +8,38 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Awakenings Festival: What It Is and Where It Happens</title>
+    <link>https://thecatrave.com/awakenings-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/awakenings-festival</guid>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Founded in Amsterdam in 1997, techno-only ever since: where Awakenings&apos; summer festival and its Amsterdam Dance Event special happen, and why it&apos;s called Awakenings.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/awakenings.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Clubs in Manchester: From the Haçienda to the Warehouse Project</title>
+    <link>https://thecatrave.com/best-clubs-in-manchester</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-clubs-in-manchester</guid>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The Haçienda closed in 1997, but its warehouse-first DIY streak still shapes the city: the best clubs in Manchester now, and the Warehouse Project&apos;s rise since.</description>
+    <category>techno</category>
+    <category>house</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/manchester-clubs.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Clubs in Prague: Cross Club, Karlovy Lázně and Ankali</title>
     <link>https://thecatrave.com/best-clubs-in-prague</link>

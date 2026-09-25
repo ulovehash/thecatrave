@@ -162,6 +162,14 @@ export const homeArticleCatalog = [
     width:844, height:563, alt:"The interior of Cross Club's basement bar in Prague, built from salvaged metal and machine parts"
   },
   {
+    page:'best-clubs-in-manchester.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-manchester', type:'Guide', topic:'Manchester clubs',
+    title:"Best Clubs in Manchester: From the Haçienda to the Warehouse Project",
+    description:"The Haçienda closed in 1997, but its warehouse-first DIY streak still shapes the city: the best clubs in Manchester now, and the Warehouse Project's rise since.",
+    image:'img/manchester-clubs/hacienda-bollards-320.webp',
+    srcset:'img/manchester-clubs/hacienda-bollards-320.webp 320w,img/manchester-clubs/hacienda-bollards-800.webp 800w',
+    width:800, height:600, alt:"Three of the Haçienda's surviving hazard-stripe bollards, on display in 2007"
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',
@@ -256,6 +264,14 @@ export const homeArticleCatalog = [
     image:'img/untold/main-stage-2019-320.webp',
     srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
     width:1200, height:900, alt:'A packed crowd with phone lights in front of the Untold main stage at night in 2019'
+  },
+  {
+    page:'awakenings-festival.html', category:'festivals', tags:['discovery','history','techno'], href:'/awakenings-festival', type:'Guide', topic:'Awakenings',
+    title:'Awakenings Festival: What It Is and Where It Happens',
+    description:"Founded in Amsterdam in 1997, techno-only ever since: where Awakenings' summer festival and its Amsterdam Dance Event special happen, and why it's called Awakenings.",
+    image:'img/awakenings/blimp-2007-320.webp',
+    srcset:'img/awakenings/blimp-2007-320.webp 320w,img/awakenings/blimp-2007-1200.webp 1200w',
+    width:1200, height:803, alt:"Awakenings' branded airship over the crowd with laser beams crossing the night sky"
   },
   {
     page:'what-is-coachella.html', category:'festivals', tags:['discovery','history','bass'], href:'/what-is-coachella', type:'Guide', topic:'Coachella',
