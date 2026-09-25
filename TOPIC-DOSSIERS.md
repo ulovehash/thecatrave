@@ -2083,3 +2083,165 @@ ra.co, Manchester's Finest, festivalmates.com, DJ Mag), стадия 3 полн�
 Оба (Manchester, Awakenings) написаны в один присест по прямому решению
 владельца («write all now»); стадия 6 не пройдена отдельным проходом ни для
 одного из двух — та же уступка скорости, что и у волны 3.
+
+---
+
+## Ряды 9–12 сводной таблицы волны 3: Roskilde, trance music, hardstyle, города (2026-09-25)
+
+Владелец прислал скриншот сводной таблицы волны 3 с рядами 9–12: Roskilde
+(навигационный + жанрово смешанный), trance music (1 слот), hardstyle (0
+слотов на голове), пять городов клубов (Lisbon/Vienna/Chicago/Bristol/Mexico
+City, не проверено). Объёмы (Keyword Planner, all locations, 2026-09-24) уже
+записаны в разделе «Пакет волны 3» выше — здесь только недостающие стадии:
+вопросная форма для трёх жанровых/фестивальных кандидатов (по методу
+Awakenings/Boom — голова и вопрос могут расходиться) и голова для пяти
+городов (стадия 4, ранее не снималась ни разу). Шаг 0: TAKEN-KEYWORDS.md
+прочитан, ни один термин не занят. Инструмент: живой Google (Claude in
+Chrome, US/en, gl=us&hl=en), Keyword Planner не запускался повторно —
+объёмы этого прохода не нужны, они уже есть с 2026-09-24. Ahrefs не
+использовался. Стадии 3 (related) и 5 (competitor mining) не пройдены ни по
+одному кандидату; вердикта нет ни по одному — это отдельный проход по
+`TOPIC-RESEARCH.md`.
+
+- **Roskilde, вопросная форма** («what is roskilde festival», US). Wikipedia,
+  официальный сайт ×3, YOUROPE, visitfjordlandet.com (датский туризм, не
+  редакция), Tripadvisor (4.6, 43 отзыва — тонко), Instagram, Reddit.
+  **1 слот**, тот же результат, что и на голове — вопрос не открыл новых
+  слотов, в отличие от Awakenings. PAA: Why is Roskilde famous? / What is the
+  biggest festival in Denmark? / How much does a full ticket to the Roskilde
+  Festival cost? / **Is Roskilde Catholic or Protestant?** — последний вопрос
+  подтверждает новую ловушку неоднозначного слова: Roskilde — ещё и датский
+  город с собором (Roskilde Domkirke), Google смешивает интенты. Три сигнала
+  против (навигационный, жанрово смешанный, теперь ещё и коллизия
+  город/собор) при одном и том же результате на голове и на вопросе — по
+  методу Boom (голова и вопрос оба дали 0 независимых слотов) это тот же
+  профиль, на один слот лучше.
+- **Trance music, вопросная форма** («what is trance music», US). Wikipedia,
+  затем три редакционных слота: **Armada Music** «What Is Trance Music - The
+  Full Story», **Splice** «What is Trance Music? History, Artists, and
+  Subgenres», **EDMProd** «What is Trance Music?». Это те же три конкурента
+  (Armada, Splice, EDMProd), что уже были измерены и обойдены для
+  house-music-guide.html и techno-music-guide.html — там оба вывода записаны
+  как «тонкие, продают курсы/сэмплы/лейбл, ни одного слушательского гайда» и
+  сайт всё равно выиграл на паттерне. PAA: Why do ADHD people like trance
+  music? / What is a famous trance song? / What type of music is trance? /
+  Is trance music the same as techno? Тот же конкурентный набор, что уже
+  дважды подтверждён winnable на этом сайте.
+- **Hardstyle, вопросная форма** («what is hardstyle», US). Wikipedia, затем
+  четыре слота: **EDMProd** «What is Hardstyle? Here's Everything You Need to
+  Know», **House of Tracks** «Hardstyle: Sound, energy and genre traits»,
+  **Hardstyle.com** «All harder styles genres» (брендовый сайт жанра,
+  полу-навигационный), **hardlang.com** «What is Hardstyle? - DJ HARD LANG»
+  (личный сайт диджея, слабый). NoCopyrightSounds Wiki (Fandom) — комьюнити-
+  вики, не конкурент-издание, как Defqon.1 hardstyle wiki. EDMProd —
+  тот же продюсерский конкурент, что и у house/techno/trance, уже обойдённый
+  дважды. Голова дала 0 слотов (запись волны 3), вопрос — 4, из них минимум
+  2 реально слабых (hardlang.com, House of Tracks). Тот же паттерн, что спас
+  Awakenings после 0 на голове. PAA: Are EDM and hardstyle the same? / Who is
+  the most famous hardstyle artist? / What's the difference between techno
+  and hardstyle? / What does hardstyle do to your brain?
+- **Города клубов, стадия 4 (голова, US, впервые снята для всех пяти).**
+  - Lisbon («best clubs in lisbon»): Reddit ×3, Time Out (редакция), XCEED
+    (плейс-листинг), Trip.com (листикл), Tripadvisor (15 Best), **Lisbon Lux**
+    («Lisbon Clubs — 2026 Guide», выделенный локальный гид), YouTube,
+    **RA Guide to Lisbon** (танцевальный авторитет, как у Mexico City),
+    Facebook. **5 редакционных слотов**, включая RA — сильнейшая выдача из
+    пяти городов вместе с Mexico City.
+  - Vienna («best clubs in vienna»): Reddit ×3, Vienna Sightseeing Tours («12
+    best clubs»), Tripadvisor, vienna.info (официальный туризм города, с
+    редакционным текстом), Alotea («Best Nightclubs in Vienna»), YouTube ×2,
+    Yelp, Trip.com. **5 слотов**, без танцевального авторитета (нет RA), но
+    плотная местная туристическая редакция — тот же тип, что уже принят
+    winnable для Будапешта/Праги/Манчестера.
+  - Chicago («best clubs in chicago»): Reddit ×3 (включая r/chicagoEDM), **Time
+    Out** («The best clubs in Chicago for dancing» — называет Smart Bar,
+    Podlasie, реально танцевальный/хаус фокус), Tripadvisor, Choose Chicago
+    (офиц. туризм, но живая музыка не клубы), YouTube, Smartbar/PRYSM
+    (собственные сайты венью), Facebook, Yelp. **2 редакционных слота**
+    (Time Out, Tripadvisor) — слабее остальных четырёх по числу, но Time Out
+    точно на теме (хаус-клубы, не lounge). Проверить на стадии 6
+    каннибализацию с `house-music-guide.html` (Чикаго уже фигурирует как
+    место рождения жанра) — разный интент (гид по клубам города vs гид по
+    жанру), тот же паттерн уже принят для Berlin (techno-music-guide.html +
+    best-clubs-in-berlin.html сосуществуют).
+  - Bristol («best clubs in bristol»): Reddit ×3, Tripadvisor, **Visit
+    Bristol** (офиц. туризм, называет Thekla и The Fleece), **Skiddle**
+    («The Best Clubs in Bristol», музыкально-билетный сайт, редакция),
+    **CN Traveller** («The best bars, clubs and live music in Bristol»,
+    настоящая редакция), **StagWeb** (листикл для мальчишников, называет
+    Lakota/Thekla/SWX/Basement 45/Pam Pam), Headfirst Bristol (листинги),
+    **Lakota** (собственный сайт — легендарный бристольский клуб басовой
+    сцены, прямое пересечение с профилем сайта: Bristol уже центральная тема
+    в drum-and-bass-guide, dubstep-guide, uk-electronic-music-evolution).
+    Yelp — коллизия с Bristol, Коннектикут, не Бристоль UK. **4 сильных
+    редакционных слота** (CN Traveller, Skiddle, Visit Bristol, StagWeb).
+    Единственный из пяти городов, где сама тема (Bristol = бас-музыка,
+    Lakota) напрямую совпадает с жанровым профилем владельца — ответ на
+    вопрос §5 `KEYWORD-METHOD.md` здесь самый сильный из пяти.
+  - Mexico City («best clubs in mexico city»): Local Pack (Fünk Club, Patrick
+    Miller — реальные венью), Reddit ×3, **RA guide** («The Best Clubs in
+    Mexico City in 2026» — танцевальный авторитет), **The Partying
+    Traveler**, **Get Lost In Mexico City**, **Trippin** («Selected by
+    Paurro»), **Time Out**, Hotels.com (листикл), Yelp, Tripadvisor.
+    **5+ редакционных слотов** с RA — сильнейшая выдача вместе с Lisbon.
+  - Вывод по данным (не вердикт): все пять показывают тот же профиль, что уже
+    девять раз подтверждён winnable на этом сайте (Amsterdam, Ibiza, NYC,
+    Tokyo, Budapest, Prague, Manchester) — ни одного города с нулём
+    редакционных слотов, ни одного, где топ-10 — это чистые платформы
+    (в отличие от Boom/Roskilde). Lisbon, Bristol и Mexico City выглядят
+    сильнее Vienna и Chicago по числу и качеству слотов; Bristol сильнее всех
+    по жанровому соответствию сайту.
+- Чего нет: стадия 3 (related/PASF за пределами того, что показал сам SERP)
+  и стадия 5 (competitor mining — organic keywords конкурентов) не пройдены
+  ни по одному из четырёх кандидатов; GB-выдача не снималась ни для одного;
+  PAA-блок для городов не появился ни на одном запросе (только «people also
+  search for» — тот же паттерн, что уже отмечен для Токио/Будапешта/Праги/
+  Манчестера); стадия 6 — отдельный проход.
+
+- **Bristol написан 2026-09-25** (владелец: «lets go first 3» по приоритетному
+  списку рядов 9-12 — Bristol/Lisbon/Mexico City; владелец сначала попросил
+  распараллелить на три фоновых агента, затем передумал («stop and do 1 by
+  1») после вопроса про токен-экономику параллельных агентов — Bristol
+  сделан последовательно, в основной сессии, без сабагентов). Инструмент:
+  живой Google (Browser pane) для фактов и конкурентного ресёрча (стадия 5
+  частично закрыта — Resident Advisor, Mixmag, Bristol24/7, BristolWorld,
+  The Tab, Daily Express, FIXR Blog прочитаны), объём переиспользован из
+  прохода 2026-09-24 (Keyword Planner, без нового вызова). Главный сюжет —
+  не жанровая история, а текущая: Motion (Avon Street, с 2006, 4000 мест,
+  DJ Mag топ-клуб) потерял аренду и закрылся в июле 2025, кампания
+  #KEEPMOTIONMOVING, переоткрылся на Victoria Terrace тем же летом —
+  подтверждено независимо RA/Mixmag/BristolWorld/The Tab/Express. Lakota
+  (Upper York Street, с начала 1990-х, RA: «home of the underground») —
+  честный джангл/dnb-угол через реальные букинги (Metalheadz Blue Note
+  Sessions, Jungle Cakes, Eatbrain/Neuroheadz, Andy C NYE 2021), не через
+  заявление «это наш жанр». Thekla (переоборудованный сухогруз 1959 года,
+  в Бристоле с 1983, открыт 1 мая 1984 как The Old Profanity Showboat, DHP
+  Family) — живой концертный венью, который также держит клубные ночи.
+  Два видео из каталога — Hodge и Shanti Celeste, оба «Boiler Room Bristol»
+  2015 года, найдены веб-поиском (Apple Music DJ-mix листинг с точными
+  датами), сверены с selector-data.json по имени артиста, подтверждены
+  через oEmbed-заголовок самого YouTube-видео; ни один источник не называет
+  конкретный клуб, поэтому в тексте оба embed не привязаны к Lakota/Motion.
+  Картинки: Wikimedia Commons API (commons.wikimedia.org/w/api.php),
+  лицензии проверены через imageinfo/extmetadata перед скачиванием — Lakota
+  (Neil Owen, CC BY-SA 2.0, Geograph, 2011) и Thekla (The wub, CC BY-SA 4.0,
+  2023); для Motion лицензионного фото не нашлось ни на одной площадке —
+  открытый пробел, не скрыт. Humanizer-проход и `bristol-clubs-editorial-
+  review.md` прошли ДО объявления готовности (не задним числом, как у
+  Токио/Будапешта) — найдено и исправлено: one not-X-but-Y в открывающем
+  абзаце, запятая-сращение в разделе про Motion, метаописание 172 символа
+  (лимит 165) сокращено до 160. Честно зафиксирован конфликт источников по
+  году основания Lakota (1990 по music.co.uk vs 1992 по The Tab) — не
+  выбран произвольно. `keywords/bristol-clubs.json`, `media/bristol-
+  clubs.json`, `bristol-clubs-draft.md`, `build-bristol-clubs-article.mjs`,
+  картинки в `img/bristol-clubs/`, OG-карточка, записи в `pages.mjs`,
+  `home-articles.mjs`, `scripts/build.mjs`, `scripts/og-articles-covers.
+  json`, TAKEN-KEYWORDS.md регенерирован. `node scripts/build.mjs` +
+  `node audit-all.mjs` (20/20) + `npm run check:html` + `npm run
+  check:links` + `npm run check:layout` (458 тестов) — всё чисто. Визуальная
+  проверка через Browser pane (desktop + mobile) — рендерится корректно.
+  Не закрыто: стадия 5 не для всех конкурентов (только текстовые источники,
+  не Ahrefs/organic-keywords), GB-выдача не снималась, таблица клубов — три
+  венью, не пять-восемь как у конкурентов (SWX/Marble Factory/Basement 45/
+  The Fleece названы в прозе, не исследованы вглубь), стадия 6 отдельным
+  проходом не пройдена, переводов de/fr нет. **Не запушено.**

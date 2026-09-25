@@ -101,6 +101,7 @@ HERO = {
     "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
     "prague-clubs": "img/prague-clubs/wenceslas-square-1200.webp",
     "manchester-clubs": "img/manchester-clubs/northern-quarter-1200.webp",
+    "bristol-clubs": "img/bristol-clubs/thekla-boat-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

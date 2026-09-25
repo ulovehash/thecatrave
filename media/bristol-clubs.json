@@ -1,0 +1,65 @@
+{
+  "page": "best-clubs-in-bristol.html",
+  "seed": "best clubs in bristol",
+  "source": "FIGURES.md adapted for clubs, as for the Tokyo/Budapest/Prague/Manchester guides: real, current venues found by web search and read in full, not a genre artist roster. Live Google SERP for 'best clubs in bristol' (US, 2026-09-25) plus targeted follow-up searches. Key sources read: Resident Advisor's Motion Bristol event pages and its news article on the 2025 closure risk (ra.co, multiple pages, Nov 2024-Apr 2025); Mixmag, BristolWorld/Business Biscuit and The Tab on the same closure and the #KEEPMOTIONMOVING relocation campaign (Apr-May 2025); motion-bristol.com's own events archive confirming the new address (Unit 2, Victoria Terrace); Bristol24/7 (bristol247.com) coverage of Motion, Lakota and Thekla club nights (2020-2024); Resident Advisor's own Lakota venue description ('home of the underground', 6 Upper York Street, four floors); travelbristol.org and music.co.uk on Lakota's opening period and genre programming (one source says running club nights since 1990, another says the club opened in 1992 -- both kept, treated as an honest range rather than forced to one year); Instagram posts from Thekla's own account and an AgilityPR/DHP Family press release on Thekla's history (arrived in Bristol 1983, opened as The Old Profanity Showboat 1 May 1984, run by DHP Family). Images: Wikimedia Commons, searched via the Commons API (commons.wikimedia.org/w/api.php, action=query&list=search), licences checked via imageinfo/extmetadata before download. No image reused from another guide on this site (checked against img/ directory listing, 2026-09-25).",
+  "required_records": [
+    {
+      "title": "Motion",
+      "artist": "club, Avon Street (2006-2025), then Unit 2, Victoria Terrace (2025-)",
+      "year": 2006,
+      "why": "S4 consensus: DJ Mag ranked the original Avon Street venue among the world's best large clubs; it closed in July 2025 when its lease was not renewed and reopened months later at a new address under the same name -- the single most current, most sourced story in Bristol's club scene",
+      "sources": ["consensus", "originators"],
+      "no_embed_reason": "no licensed photograph found on Wikimedia Commons for either the Avon Street or Victoria Terrace building"
+    },
+    {
+      "title": "Lakota",
+      "artist": "club, 6 Upper York Street, running since the early 1990s",
+      "year": null,
+      "why": "S4 consensus and S2: Resident Advisor's own tagline calls it Bristol's 'home of the underground'; four floors; a genuinely sourced drum and bass/jungle history (Metalheadz Blue Note Sessions, Jungle Cakes, Eatbrain/Neuroheadz nights; Andy C and Tonn Piper on its NYE 2021 bill per Bristol24/7)",
+      "sources": ["consensus", "also_talk_about"],
+      "photo_credit": "Neil Owen, CC BY-SA 2.0, via Geograph Britain and Ireland and Wikimedia Commons, 23 November 2011, the building's exterior"
+    },
+    {
+      "title": "Thekla",
+      "artist": "venue, a converted 1959 German-built cargo ship moored in Bristol's Floating Harbour",
+      "year": 1984,
+      "why": "S4 consensus: arrived in Bristol in 1983, opened as The Old Profanity Showboat on 1 May 1984, run by DHP Family; primarily a live-music venue that also runs club nights, the opposite profile from Lakota and worth naming honestly as such",
+      "sources": ["consensus", "originators"],
+      "photo_credit": "The wub, CC BY-SA 4.0, via Wikimedia Commons, 17 September 2023"
+    },
+    {
+      "title": "Hodge",
+      "artist": "producer",
+      "year": 2015,
+      "why": "S4/S1: one of Boiler Room's short 2015 season of Bristol-specific broadcasts; found by web search for 'Boiler Room Bristol broadcast' (an Apple Music DJ-mix listing gives the exact date, 6 August 2015), then cross-checked against selector-data.json by artist name; confirmed as the same set via the YouTube video's own oEmbed title, 'Hodge Boiler Room Bristol DJ Set'",
+      "sources": ["consensus"],
+      "embed_id": "rGCDKpkPUqI"
+    },
+    {
+      "title": "Shanti Celeste",
+      "artist": "producer",
+      "year": 2015,
+      "why": "S4/S1: the same 2015 Bristol season as Hodge's set, filmed 28 September 2015 per Apple Music's DJ-mix listing ('Boiler Room: Shanti Celeste in Bristol'); cross-checked against selector-data.json by artist name and confirmed via the video's own oEmbed title",
+      "sources": ["consensus"],
+      "embed_id": "dgv4ktxwTHA"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "rGCDKpkPUqI", "title": "Hodge, Boiler Room Bristol, 2015"},
+    {"id": "dgv4ktxwTHA", "title": "Shanti Celeste, Boiler Room Bristol, 2015"}
+  ],
+  "known_gaps": [
+    {
+      "gap": "Neither the Apple Music listing nor the YouTube video for either 2015 Boiler Room Bristol set names a specific club or venue, so this guide does not claim either set was filmed at Lakota, Motion or any other room named elsewhere on the page",
+      "impact": "The two embeds sit in the Lakota/bass-music section as Bristol's own Boiler Room history, not as evidence for any one venue"
+    },
+    {
+      "gap": "No licensed photograph found for Motion, the guide's most-discussed venue, at either address",
+      "impact": "The Motion section runs on text alone; flagged to the owner as a real thinness, not papered over"
+    },
+    {
+      "gap": "SWX, Basement 45, Marble Factory and The Fleece all appeared in the SERP research (Visit Bristol, StagWeb, Skiddle) as commonly-listed Bristol clubs but were not researched to the same depth as Motion/Lakota/Thekla in this pass -- named in the closing section but not given their own deep-dive or table row",
+      "impact": "A future pass could expand the venue table from three to five or six, matching what competing listicles (Skiddle, StagWeb) run, the same open question Prague's review left for its own table"
+    }
+  ]
+}

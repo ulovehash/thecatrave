@@ -1,0 +1,15 @@
+{
+  "page": "best-clubs-in-bristol.html",
+  "seed": "best clubs in bristol",
+  "source": "Volume reused from the already-measured Google Ads Keyword Planner pass (owner's account 299-844-2842, Discover new keywords, All locations, English, Sep 2025-Aug 2026), logged 2026-09-24 in TOPIC-DOSSIERS.md under \"Пакет волны 3\" and re-confirmed 2026-09-25 in the same file's \"Ряды 9-12\" section. No fresh Keyword Planner pull this pass. SERP composition from a live Google search (US, gl=us&hl=en, 2026-09-25).",
+  "note": "TAKEN-KEYWORDS.md has no existing entry for any Bristol-clubs term; no cannibalisation risk found against another guide on this site. This page also touches the site's own drum and bass/jungle/dubstep/UK-electronic-music-evolution guides, which already cover Bristol's genre history (Roni Size/Reprazent, Full Cycle, Pinch/Tectonic, Livity Sound) -- this page does not repeat that content, it covers current, visitable clubs.",
+  "terms": [
+    {"term": "best clubs in bristol", "volume": "1K-10K", "note": "the page's own head term; Keyword Planner, All locations, +900% over the trailing 3 months per the 2026-09-24 pull"}
+  ],
+  "expansion_checked": "Live Google SERP for 'best clubs in bristol' (US, gl=us&hl=en) read twice: once 2026-09-25 for TOPIC-DOSSIERS.md stage 4 (Reddit x3, Tripadvisor, Visit Bristol, Skiddle, CN Traveller, Headfirst Bristol, StagWeb, Yelp -- collision with Bristol, Connecticut), once again this pass for a second read with different cached results (Reddit x1, Yelp Strip Clubs Bristol TN -- collision, Tripadvisor, Hotels.com, Bristol24/7, Fever, Bristol Live/Bristol Post on Motion's DJ Mag ranking, bristolhub.co.uk). No classic 'People also ask' box carried club-specific questions; the PAA that did appear was generic ('Is Bristol good for nightlife?', 'Does Bristol Uni have good nightlife?').",
+  "rejected": [
+    {"term": "best strip clubs in bristol / bristol tn", "why": "collision with Bristol, Tennessee and with strip clubs, a different venue type and intent"},
+    {"term": "bristol gay clubs and bars", "why": "a real, separate intent (Tripadvisor 'THE BEST Bristol Gay Clubs & Bars') not covered by this general guide"},
+    {"term": "bristol nightlife (general)", "why": "broader than clubs -- pubs, bars, comedy clubs; this page stays on nightclubs and club nights"}
+  ]
+}

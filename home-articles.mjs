@@ -170,6 +170,14 @@ export const homeArticleCatalog = [
     width:800, height:600, alt:"Three of the Haçienda's surviving hazard-stripe bollards, on display in 2007"
   },
   {
+    page:'best-clubs-in-bristol.html', category:'rave-spots', tags:['bass','jungle','history','discovery'], href:'/best-clubs-in-bristol', type:'Guide', topic:'Bristol clubs',
+    title:'Best Clubs in Bristol: Motion, Lakota and Thekla',
+    description:"Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best clubs in Bristol.",
+    image:'img/bristol-clubs/thekla-boat-320.webp',
+    srcset:'img/bristol-clubs/thekla-boat-320.webp 320w,img/bristol-clubs/thekla-boat-1200.webp 1200w',
+    width:1200, height:675, alt:"Thekla, a converted cargo ship moored in Bristol's Floating Harbour, seen from the waterside"
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',

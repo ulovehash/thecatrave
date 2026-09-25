@@ -101,6 +101,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - breakbeat definition
 - breakbeat genre
 
+## best-clubs-in-bristol.html
+
+- best clubs in bristol
+
 ## best-clubs-in-budapest.html
 
 - budapest clubs
