@@ -12,6 +12,7 @@ export const channels = [
   {broadcaster: 'Kiosk Radio',            handle: '@kioskradiobxl',          channelId: 'UCal_TyiLk79vN9-OzEzUM6A'},
   {broadcaster: 'Cercle',                 handle: '@Cercle',                 channelId: 'UCPKT_csvP72boVX0XrMtagQ'},
   {broadcaster: 'Rinse FM',               handle: '@RinseFM',                channelId: 'UCgGfSxNOBkJDtCQ932iQU7Q'},
+  {broadcaster: 'DJ Mag',                 handle: '@djmag',                  channelId: 'UCJEKlziKdxoos1qbptjGgLg'},
 
   // The site is written about breakbeat, jungle and drum and bass, but the pool
   // was 243 dnb and 305 jungle sets against 2,260 house. These four are here to

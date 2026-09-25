@@ -4,7 +4,7 @@
 import { matchTag, VOCAB } from './genre-vocab.mjs';
 
 const PHRASES = [...new Set([...VOCAB, 'drum & bass', 'drum and bass', 'dnb', 'd&b', 'jump up',
-  'liquid', 'uk garage', 'speed garage', '2 step', 'tech-house', 'deep-house', 'nu disco',
+  'liquid', 'ukg', 'uk garage', 'speed garage', '2 step', 'tech-house', 'deep-house', 'nu disco',
   'hip hop', 'hiphop', 'post-punk', 'coldwave', 'darkwave', 'ghettotech', 'baltimore club',
   'jersey club', 'footwork', 'juke', 'afro house', 'amapiano', 'gqom', 'baile funk', 'kuduro',
   'reggaeton', 'dembow', 'psy trance', 'hard techno', 'dub techno', 'acid house', 'italo'])];
@@ -42,16 +42,20 @@ export const genresFromDesc = raw => {
 export function declaredGenresInTitle(title) {
   const text = String(title || '');
   if (!text) return [];
-  const vocab = (Array.isArray(VOCAB) ? VOCAB : Object.keys(VOCAB))
+  // Search aliases as well as canonical labels. Channels commonly write
+  // "UKG" and "D&B" in otherwise explicit titles; looking only for
+  // "uk garage" and "drum and bass" silently left those sets untagged.
+  const vocab = PHRASES
     .slice().sort((a, b) => b.length - a.length);   // longest first: "tech house" before "house"
   const out = [];
   for (const genre of vocab) {
     const escaped = genre.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const declared = new RegExp(
-      `(?:\\b${escaped}\\s+(?:dj\\s+)?(?:set|mix|mixtape|selection|records?|vinyl\\s+set)\\b)` +
+      `(?:\\b${escaped}\\s+(?:dj\\s+)?(?:set|mix|mixtape|selection|records?|vinyl\\s+set|masterclass|live)\\b)` +
       `|(?:[(\\[]\\s*${escaped}\\s*[)\\]])` +
       `|(?:^${escaped}\\s*[-:|])`, 'i');
-    if (declared.test(text) && !out.includes(genre)) out.push(genre);
+    const canonical = matchTag(genre);
+    if (declared.test(text) && canonical && !out.includes(canonical)) out.push(canonical);
   }
   return out.slice(0, 3);
 }

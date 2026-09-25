@@ -6,7 +6,7 @@
 
 import fs from 'node:fs';
 import { channels } from '../selector-channels.mjs';
-import { parseArtist, genreFromTitle, NOT_A_SET } from './parse-artist.mjs';
+import { parseArtist, genreFromTitle, isNotASet } from './parse-artist.mjs';
 
 const MIN_SECONDS = 20 * 60;
 const MIN_VIEWS = Number(process.env.MIN_VIEWS) || 500;
@@ -22,7 +22,7 @@ const byBroadcaster = new Map();
 for (const [id, e] of Object.entries(cache)) {
   if (e.s < MIN_SECONDS) continue;
   if (e.v != null && e.v < MIN_VIEWS) continue;
-  if (NOT_A_SET.test(e.t || '')) continue;
+  if (isNotASet(e.t, e.b)) continue;
   if (!byBroadcaster.has(e.b)) byBroadcaster.set(e.b, []);
   byBroadcaster.get(e.b).push({ id, ...e });
 }

@@ -17,7 +17,7 @@
 import fs from 'node:fs';
 import https from 'node:https';
 import { channels } from '../selector-channels.mjs';
-import { parseArtist, genreFromTitle, NOT_A_SET } from './parse-artist.mjs';
+import { parseArtist, genreFromTitle, isNotASet } from './parse-artist.mjs';
 
 // SKIP_FETCH rebuilds selector-data.json from the existing cache without
 // touching the API. Use it after changing a filter, so a threshold can be
@@ -173,7 +173,7 @@ const byBroadcaster = new Map();
 for (const [id, e] of Object.entries(cache)) {
   if (e.s < MIN_SECONDS) continue;
   if (e.v != null && e.v < MIN_VIEWS) continue;
-  if (NOT_A_SET.test(e.t || '')) continue;
+  if (isNotASet(e.t, e.b)) continue;
   if (!byBroadcaster.has(e.b)) byBroadcaster.set(e.b, []);
   byBroadcaster.get(e.b).push({ id, ...e });
 }

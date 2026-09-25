@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 
 import { pages, langOf } from './pages.mjs';
+import { isNotASet } from './scripts/parse-artist.mjs';
 
 const failures = [];
 const check = (name, condition, detail = '') => {
@@ -68,6 +69,14 @@ if (!Array.isArray(sets)) {
   check('no duplicate ids', new Set(ids).size === ids.length);
   check('every set has a broadcaster', sets.every(s => s && typeof s.broadcaster === 'string' && s.broadcaster));
   check('every set is long-form (>= 20 min)', sets.every(s => !s.seconds || s.seconds >= 1200));
+  let videoCache = {};
+  try { videoCache = JSON.parse(fs.readFileSync('selector-videos-cache.json', 'utf8')); } catch {}
+  const rejected = sets.filter(set => {
+    const cached = videoCache[set.id];
+    return cached && isNotASet(cached.t, set.broadcaster);
+  });
+  check('no known non-set title ships in the catalogue', rejected.length === 0,
+    rejected.slice(0, 3).map(set => set.id).join(', '));
   check('pool is not trivially small', sets.length >= 100, `${sets.length}`);
 }
 

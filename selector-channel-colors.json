@@ -30,22 +30,27 @@
   "src": "brand"
  },
  "Club Space": {
-  "bg": "#a65430",
+  "bg": "#a65230",
   "fg": "#fff",
   "src": "derived"
  },
+ "DJ Mag": {
+  "bg": "#a67430",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
  "Dekmantel": {
-  "bg": "#a67730",
+  "bg": "#a69530",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "DnB Allstars": {
-  "bg": "#a69a30",
+  "bg": "#95a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Elevator Music": {
-  "bg": "#8ea630",
+  "bg": "#74a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -60,7 +65,7 @@
   "src": "logo"
  },
  "Hospital Records": {
-  "bg": "#6ba630",
+  "bg": "#52a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -70,7 +75,7 @@
   "src": "brand"
  },
  "Intercell": {
-  "bg": "#48a630",
+  "bg": "#30a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -85,7 +90,7 @@
   "src": "logo"
  },
  "Kunye": {
-  "bg": "#30a63c",
+  "bg": "#30a652",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -95,7 +100,7 @@
   "src": "logo"
  },
  "Manila Community Radio": {
-  "bg": "#30a65f",
+  "bg": "#30a674",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -110,22 +115,22 @@
   "src": "brand"
  },
  "My Analog Journal": {
-  "bg": "#30a683",
+  "bg": "#30a695",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "NTS Radio": {
-  "bg": "#30a6a6",
+  "bg": "#3095a6",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Outlook Festival": {
-  "bg": "#3083a6",
-  "fg": "var(--ink)",
+  "bg": "#3074a6",
+  "fg": "#fff",
   "src": "derived"
  },
  "Radio Rudina": {
-  "bg": "#305fa6",
+  "bg": "#3052a6",
   "fg": "#fff",
   "src": "derived"
  },
@@ -140,7 +145,7 @@
   "src": "brand"
  },
  "Rinse France": {
-  "bg": "#303ca6",
+  "bg": "#3030a6",
   "fg": "#fff",
   "src": "derived"
  },
@@ -155,32 +160,32 @@
   "src": "brand"
  },
  "Stay True Sounds": {
-  "bg": "#4830a6",
+  "bg": "#5230a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Concourse Project": {
-  "bg": "#6b30a6",
+  "bg": "#7430a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Lot Radio": {
-  "bg": "#8e30a6",
+  "bg": "#9530a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Mudd Show": {
-  "bg": "#a6309a",
+  "bg": "#a63095",
   "fg": "#fff",
   "src": "derived"
  },
  "Under Club": {
-  "bg": "#a63077",
+  "bg": "#a63074",
   "fg": "#fff",
   "src": "derived"
  },
  "Yoyaku": {
-  "bg": "#a63054",
+  "bg": "#a63052",
   "fg": "#fff",
   "src": "derived"
  }

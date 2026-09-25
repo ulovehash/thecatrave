@@ -8,7 +8,24 @@ import { matchTag, VOCAB } from './genre-vocab.mjs';
 // "masterclass" and "album launch" are how some real sets are billed, "Common
 // Poetry" is an act on HÖR, and 312 titles say "podcast" while being mixes.
 // Filtering those would cost more music than it removes talk.
-export const NOT_A_SET = /^digging with\b|\((talk|interview)\)|\|\s*gasworks\s*$|\blecture\b|\bbook launch\b|swiss jazz hour|\bfull album\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
+//
+// "Makes A ... From Scratch" / "... In The Studio" is DJ Mag's
+// production-tutorial format (19 titles found, 21-42 minutes each). The site
+// does not teach people to make the music, so these cannot be sets a
+// listener is handed.
+export const NOT_A_SET = /^digging with\b|\((talk|interview)\)|\|\s*gasworks\s*$|\blecture\b|\bbook launch\b|swiss jazz hour|\bfull album\b|\bmakes? an? .+ (from scratch|in the studio)\b|\b(in conversation( with)?|legendary season|documentary|trailer|teaser|recap|aftermovie|announcement|behind the scenes|q&a|panel discussion|elevator pitch|talks .+ and)\b/i;
+
+// DJ Mag publishes long-form editorial and equipment videos beside its sets.
+// Keep these rules channel-local: other broadcasters use words such as
+// "masterclass" for genuine DJ sets, while DJ Mag's Panels, Insight and Tech
+// Awards series are unambiguously spoken or product content.
+const DJ_MAG_NOT_A_SET = /^insight:|^learn to (?:dj|play live) like\b|^24 hours with:|^ibiza evolution:|\bpanels?\b|\bdj mag insight\b|\bprs for music x dj mag\b|\bdj mag tech awards?\b|\bawards ceremony\b|^dj mag(?:'s)? best of british awards\b|\b(?:ableton )?tutorial\b|\btrack breakdown\b|\bin the studio\b|\bhow i dj\b|\bhow to\b|\bchat\b|\b30 years of the cdj\b|\blive (?:ableton|remix) (?:studio session|masterclass)\b|^djmag (?:review|feature)\b|\btalks? .+\|\s*dj mag\b/i;
+
+export function isNotASet(title, broadcaster = '') {
+  const value = String(title || '');
+  return NOT_A_SET.test(value)
+    || (broadcaster === 'DJ Mag' && DJ_MAG_NOT_A_SET.test(value));
+}
 
 const COUNTRY = /\s*[([][^)\]]{0,30}(JP|NL|DE|UK|US|BR|FR|IT|ES|AR|KR|SW|Osaka|Tokyo|Berlin|London|Seoul)[^)\]]*[)\]]\s*$/i;
 const TRAIL = /\s*[–—-]?\s*\b(dj[ -]?set|live set|live in session|live|b2b set|closing set|opening set|full set|guest ?mix|guestmix|in-?studio( live)?|selects?)\b[\s.]*$/i;
@@ -81,6 +98,27 @@ const isGenreish = chunk => {
   const parts = String(chunk).split(/\s*[,/]\s*|\s+&\s+|\s+and\s+/i).map(p => p.trim()).filter(Boolean);
   return parts.length > 0 && parts.every(isGenreWords);
 };
+
+const DJ_MAG_QUALIFIERS = /\b(?:\d+(?:\.\d+)?[- ]hour|high[- ]energy|energetic|epic|pumping|groovy|euphoric|peak[- ]time|sunrise|sunset|vinyl[- ]only|vinyl|classic|rolling|melodic|deep|multi[- ]genre|100% production|audio visual|orchestral|full|hybrid|all[- ]night[- ]long|masterclass|clifftop|rooftop)\b/gi;
+
+function stripDjMagSetDescription(raw) {
+  const s = String(raw).trim();
+  const marker = /\s+(?:(?:dj|live)\s+)?set\b|\s+mix\b|\s+live\b|\s+@\s*/i.exec(s);
+  if (!marker) return s;
+  const head = s.slice(0, marker.index).trim();
+  const starts = [...head.matchAll(/\s+/g)].map(m => m.index + m[0].length);
+  for (const start of starts) {
+    const suffix = head.slice(start)
+      .replace(/^[+&]\s*/, '')
+      .replace(DJ_MAG_QUALIFIERS, ' ')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    if (!suffix || matchTag(suffix) || isGenreish(suffix)) {
+      return head.slice(0, start).replace(/[+&]\s*$/, '').trim();
+    }
+  }
+  return head;
+}
 
 function afterLast(str, sep) {
   const i = str.toLowerCase().lastIndexOf(sep.toLowerCase());
@@ -222,6 +260,21 @@ export function parseArtist(title, broadcaster) {
       .replace(/\s+\S+\s+takeover$/i, '')
       .replace(/\s+bends genres\b.*$/i, '');
     a = clean(s);
+  } else if (broadcaster === 'DJ Mag') {
+    let s = t.split(/\s*\|\s*/)[0]
+      .replace(/^dj mag live\s*[:/]\s*/i, '')
+      .replace(/^dj mag at work x\s+(.+?)\s+presents\b.*$/i, '$1')
+      .replace(/^dj mag at work x\s+(.+?)\s+album launch party\b.*$/i, '$1')
+      .replace(/^dj mag (?:hq|ldn|studio|ade) sessions?(?: presents?)?\s*[:–—-]?\s*/i, '')
+      .replace(/^dj mag sessions presents\s+[^:]+:\s*/i, '')
+      .replace(/^dj mag bunker(?:\s*#?\d+)?\s+presents\s+/i, '')
+      .replace(/^dj mag bunker\s*#?\d+\s*/i, '')
+      .replace(/^dj weekly podcast\s*:?\s*/i, '')
+      .replace(/^dj mag\s*&\s*.+?\s+present\s+/i, '');
+    if (/^dj mag,.+\bw\/\s+/i.test(s)) s = afterLast(s, 'w/ ');
+    if (/\btakeover\s*:/i.test(s)) s = afterLast(s, ':');
+    s = s.split(/\s+for\s+.+\bas part of\b/i)[0];
+    a = clean(stripDjMagSetDescription(s));
   } else if (broadcaster === 'Dekmantel' && /^dekmantel\s+ten\s*[-–—]/i.test(t)) {
     // "Dekmantel Ten" is the festival's anniversary banner, not an act.
     const s = t.replace(/^dekmantel\s+ten\s*[-–—]\s*/i, '').split(/\s*\|\s*/)[0];

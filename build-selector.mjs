@@ -121,8 +121,8 @@ function englishCopy({total, tagged, broadcasters, channelList, escapeHtml}) {
     faqItems: [
       {
         question: 'How do you discover new music without an algorithm?',
-        answer: 'You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from 37 channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.',
-        answerHtml: '<p>You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from 37 channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.</p>',
+        answer: `You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from ${broadcasters.length} channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.`,
+        answerHtml: `<p>You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from ${broadcasters.length} channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.</p>`,
       },
       {
         question: 'What is the best way to find new music you have never heard?',
