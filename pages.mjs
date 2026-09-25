@@ -58,6 +58,7 @@ export const pages = [
   { name: 'manchester-clubs', file: 'best-clubs-in-manchester.html',    path: '/best-clubs-in-manchester',     kind: 'guide', generator: 'build-manchester-clubs-article.mjs', card: { title: 'Manchester clubs', caption: "The Haçienda's legacy, and the Warehouse Project since." } },
   { name: 'bristol-clubs',   file: 'best-clubs-in-bristol.html',        path: '/best-clubs-in-bristol',        kind: 'guide', generator: 'build-bristol-clubs-article.mjs', card: { title: 'Bristol clubs', caption: "Motion's 2025 move, and Lakota's drum and bass heritage." } },
   { name: 'lisbon-clubs',    file: 'best-clubs-in-lisbon.html',         path: '/best-clubs-in-lisbon',         kind: 'guide', generator: 'build-lisbon-clubs-article.mjs', card: { title: 'Lisbon clubs', caption: "Lux Frágil since 1998, and the club Pink Street lost in 2025." } },
+  { name: 'mexico-city-clubs', file: 'best-clubs-in-mexico-city.html',  path: '/best-clubs-in-mexico-city',    kind: 'guide', generator: 'build-mexico-city-clubs-article.mjs', card: { title: 'Mexico City clubs', caption: "Patrick Miller since 1983, and a former Communist Party mansion." } },
   { name: 'articles',      file: 'articles.html',                      path: '/articles',                     kind: 'index', generator: 'build-articles-page.mjs', card: { title: 'All articles', caption: "Long guides to dance music and club culture." } },
   // German. `lang` is what the gate reads to hold a page to its own language:
   // the chrome it must carry, the keyword map it must satisfy, the index and

@@ -1,0 +1,86 @@
+{
+  "page": "best-clubs-in-mexico-city.html",
+  "seed": "best clubs in mexico city",
+  "source": "FIGURES.md adapted for clubs, as for every prior city-club guide: real, current venues found by web search and read in full, not a genre artist roster. Live Google SERP for 'best clubs in mexico city' (US, 2026-09-25) plus targeted follow-up searches. Key sources read in full: RA's own guide to Mexico City (ra.co/guide/mx/mexicocity); DJ Mag's feature 'Inside Mexico City's vibrant electronic underground' (Anna Wall, 24 July 2024, read in full -- the richest current-scene source used, covering Fünk Club's founding and bookings, Yu Yu Cine Club's history and programming, and quotes from bookers on perreo's rise); Time Out Mexico City's 'Bars and Nightclubs' hub and its Spanish-language 'Los 10 mejores antros de la CDMX' (9 April 2025); The Spaces' 'Cult clubs: 12 legendary venues across the world' (Betty Wood and Emma Tucker, architecture/design trade press) for M.N.Roy's interior design credit and history; Mexico City's own tourism authority site (mexicocity.cdmx.gob.mx) for Patrick Miller's official description; multiple secondary sources (Tripadvisor, Trippin, ULIV, Ticket Fairy) cross-checked for M.N.Roy's address and former-Communist-Party-HQ history; Resident Advisor's own news feed for Perreo Millennial's July/August 2026 closure. Images: Wikimedia Commons, searched via the Commons API (commons.wikimedia.org/w/api.php, action=query&list=search), licences checked via imageinfo/extmetadata before download. No image reused from another guide on this site (checked against img/ directory listing, 2026-09-25).",
+  "required_records": [
+    {
+      "title": "Patrick Miller",
+      "artist": "club, Mérida 17, Roma Norte, since 1983",
+      "year": 1983,
+      "why": "S4 consensus across every editorial source read (Time Out, Mexico City's own tourism site, Trippin, Tripadvisor, Spotted by Locals): the city's oldest continuously running club on its original retro-dance-circle format, and the clearest through-line from the DJ's 1983 Journalists Club parties to the current Friday-only warehouse venue",
+      "sources": ["consensus", "originators"],
+      "no_embed_reason": "no licensed photograph of Patrick Miller's own building found on Wikimedia Commons; the Zócalo image used in its section is downtown Mexico City atmosphere (the club's origin neighbourhood before its move to Roma Norte), not the venue itself, and the caption does not claim otherwise"
+    },
+    {
+      "title": "M.N.Roy",
+      "artist": "club, Mérida 186, Roma Norte, opened early 2010s",
+      "year": 2011,
+      "why": "S4/S1: a private members' club in a converted mansion that once served as the Mexican Communist Party's headquarters; interior redesigned by French studio Chic by Accident (Emmanuel Picault and Ludwig Godefroy), featured in The Spaces' international 'cult clubs' list alongside Lux Frágil and Berghain -- a strong, independently sourced design credential distinct from a booking-based reputation",
+      "sources": ["consensus", "also_talk_about"],
+      "no_embed_reason": "no licensed photograph of M.N.Roy's own building or interior found on Wikimedia Commons; the Roma Norte street image used in its section shows the surrounding neighbourhood, not the venue, and the caption does not claim otherwise"
+    },
+    {
+      "title": "Fünk Club",
+      "artist": "club, Condesa/Hipódromo border, since 2019",
+      "year": 2019,
+      "why": "S4/S1: founded by Adrian and Marco Valadez; DJ Mag's 2024 feature credits it, alongside M.N.Roy, with helping establish Mexico City's underground internationally, with named bookings (Craig Richards, Daphni, Chez Damier, DJ Harvey) and named residencies (Capricho, MORFEMA) from a source read in full rather than a listing snippet",
+      "sources": ["consensus", "also_talk_about"],
+      "no_embed_reason": "no licensed photograph of Fünk Club's own building found on Wikimedia Commons; the Condesa street image used in its section shows the neighbourhood the club sits on the border of, not the venue, and the caption does not claim otherwise"
+    },
+    {
+      "title": "Yu Yu Cine Club",
+      "artist": "club, Calle Versalles, Juárez, since 2017",
+      "year": 2017,
+      "why": "S4/S1: DJ Mag's 2024 feature describes the venue, its ground-floor Drama Bar, and named bookings (Kode9, Batu, Roi Perez) from a source read in full; RA's own current listings also carry the venue under 'Popular Clubs in Mexico City'",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found; no additional neighbourhood image was assigned to this section either, an acknowledged gap rather than a stretched substitute"
+    },
+    {
+      "title": "Perreo Millennial",
+      "artist": "party/promoter, no fixed venue",
+      "year": 2016,
+      "why": "S1: the most current, dated, multi-source status story available for this guide, directly comparable to Musicbox for Lisbon and Motion for Bristol -- a ten-year-running reggaeton party that announced its closure on Instagram on 30 July 2026 and played a final event on 13 August 2026, confirmed via Resident Advisor's own news feed",
+      "sources": ["consensus"],
+      "no_embed_reason": "a touring party with no fixed venue, not a club; mentioned in the closing 'Where to go out' section as an honest current-status note rather than given a table row"
+    },
+    {
+      "title": "Turbo Sonidero",
+      "artist": "DJ/sonidero",
+      "year": 2025,
+      "why": "S1/S5: represents cumbia sonidero culture, a Mexico City-originated sound-system tradition dating to the 1940s-50s (Dancecult journal, Resident Advisor feature, PRX/The World), given its own Boiler Room SYSTEM episode; found by web search for 'Boiler Room Mexico City broadcast lineup DJs', cross-checked against selector-data.json by artist name and confirmed via the video's own YouTube oEmbed title",
+      "sources": ["consensus", "originators"],
+      "embed_id": "it0w2zniMOI"
+    },
+    {
+      "title": "Nic Fanciulli",
+      "artist": "producer/DJ",
+      "year": 2018,
+      "why": "S4/S1: a British house and techno DJ whose 2018 Boiler Room Mexico City set (1.38M+ views) is one of the highest-viewed Boiler Room broadcasts filmed in the city, evidence of the city's long-running pull for major international bookings; found via the same Boiler Room Mexico City search, cross-checked against selector-data.json by artist name and confirmed via the video's own YouTube oEmbed title",
+      "sources": ["consensus"],
+      "embed_id": "j5hdgys4a-M"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "it0w2zniMOI", "title": "Turbo Sonidero, Boiler Room SYSTEM CDMX: Sonidero Special, 2025"},
+    {"id": "j5hdgys4a-M", "title": "Nic Fanciulli, Boiler Room Mexico City, 2018"},
+    {"id": "03lATP61sm4", "title": "Yeyo, Boiler Room SYSTEM: Mexico City, 2024 -- confirmed via oEmbed but not embedded; no venue named and two Mexico City embeds already anchor the guide"},
+    {"id": "LkDdLloDJxs", "title": "Zutzut, Boiler Room SYSTEM: Mexico City, 2024 -- confirmed via oEmbed but not embedded, same reasoning as Yeyo"},
+    {"id": "gtVgX3r43QM", "title": "Villaseñor, Boiler Room: Mexico City, 2023 -- confirmed via oEmbed but not embedded"},
+    {"id": "UsqabZnA808", "title": "Cachorra, Boiler Room CDMX: Traketeo, 2022 -- confirmed via oEmbed but not embedded"},
+    {"id": "D99OUxL3J-g", "title": "Young Male, Boiler Room Mexico City DJ Set, 2017 -- confirmed via oEmbed but not embedded"}
+  ],
+  "known_gaps": [
+    {
+      "gap": "No licensed photograph found on Wikimedia Commons for any of the four required venues (Patrick Miller, M.N.Roy, Fünk Club, Yu Yu Cine Club) themselves",
+      "impact": "All three images used in the guide show the surrounding neighbourhoods and downtown Mexico City rather than the venues' own buildings or interiors; captions are explicit about this and do not imply otherwise. Flagged honestly rather than substituting an unrelated or rights-reserved image."
+    },
+    {
+      "gap": "Sunday Sunday, Departamento, La Santa and Antro Juan all appeared in RA's or Time Out's own current listings as popular Mexico City clubs but were not researched to the same one-venue depth as the four required records above",
+      "impact": "Not named individually in the guide's body; a future pass could expand the table from four venues if the owner wants deeper coverage of the current club map, matching the same open question left for Bristol's and Lisbon's tables"
+    },
+    {
+      "gap": "M.N.Roy's exact opening date is given only as 'early 2010s' (Ticket Fairy: 'described as newly opened in July 2011'); no primary source (the club's own site or a dated press article) was found to confirm the precise month",
+      "impact": "The draft avoids stating an exact opening date, in the same spirit as Bristol's Lakota opening-year hedge"
+    }
+  ]
+}

@@ -2312,4 +2312,76 @@ Chrome, US/en, gl=us&hl=en), Keyword Planner не запускался повт�
   Mag (Those Who Dance, Higher Ground, Vago, Sala Lisa, Damas, Planeta
   Manas, 8 Marvila названы, не исследованы вглубь), точная дата закрытия
   Musicbox (15 сентября) — из одного источника, стадия 6 отдельным проходом
-  не пройдена, переводов de/fr нет. **Не запушено.**
+  не пройдена, переводов de/fr нет. **Запушено 2026-09-25**, коммит
+  `0949415` через чистый isolated worktree (не из общей рабочей копии),
+  quality gate на GitHub Actions прошёл зелёным (462 теста).
+
+- **Mexico City написан 2026-09-25** (владелец: Lisbon затем Mexico City,
+  одна за другой в основной сессии, без сабагентов, Lisbon уже запушен к
+  началу этого прохода). Инструмент: живой Google (Browser pane) для фактов
+  и конкурентного ресёрча, объём переиспользован из прохода 2026-09-24/25
+  (Keyword Planner, без нового вызова, зафиксировано в разделе «Ряды 9-12»
+  выше — 5+ редакционных слотов с Local Pack реальных венью (Fünk Club,
+  Patrick Miller), сильнейшая выдача вместе с Lisbon; тренд объёма головы
+  −90% за 3 месяца на момент пула 2026-09-24 честно записан в keywords/
+  mexico-city-clubs.json, не скрыт, но не вынесен в текст статьи как
+  read-facing факт). Главный сюжет — не жанровая история, а текущая, тем же
+  методом, что Motion для Bristol и Musicbox для Lisbon: Perreo Millennial,
+  десятилетняя реггетон-вечеринка без постоянного адреса, объявила о
+  закрытии в Instagram 30 июля 2026 и сыграла последнее событие 13 августа
+  2026 (подтверждено собственной новостной лентой RA) — честно вынесена в
+  раздел «где выходить» как текущий факт о сцене, а не в таблицу клубов,
+  раз у неё никогда не было постоянного адреса. Patrick Miller (Roma Norte,
+  Mérida 17, с 1983 года, диджей Roberto Devesa, только по пятницам) —
+  исторический якорь: единственный из четырёх клубов, чья история
+  подтверждена без единой истории закрытия/переоткрытия, в отличие от
+  Motion/Musicbox — честный контраст с двумя предыдущими городами вместо
+  форсированной аналогии. M.N.Roy (Mérida 186, Roma Norte, начало 2010-х,
+  бывшая штаб-квартира Мексиканской коммунистической партии, интерьер
+  студии Chic by Accident) — архитектурный якорь, подтверждён независимым
+  источником The Spaces («Cult clubs: 12 legendary venues across the
+  world»), где также фигурирует Lux Frágil из гида по Lisbon — приятное
+  независимое пересечение, не упомянутое в тексте специально. Fünk Club
+  (Condesa/Hipódromo, с 2019, основатели Adrian и Marco Valadez) и Yu Yu
+  Cine Club (Juárez, с 2017) — текущая волна, обе подробно описаны в статье
+  DJ Mag «Inside Mexico City's vibrant electronic underground» (2024,
+  прочитана полностью — тот же уровень глубины, что и статья DJ Mag про
+  Lisbon). Два видео из каталога — Turbo Sonidero (2025, Boiler Room SYSTEM
+  CDMX: Sonidero Special, кумбия/сониде́ро культура с 1940-х-50-х) и Nic
+  Fanciulli (2018, Boiler Room Mexico City, 1.38M+ просмотров) — оба найдены
+  веб-поиском, сверены с selector-data.json по имени артиста, подтверждены
+  через oEmbed-заголовок; ни один не привязан к конкретному венью (то же
+  ограничение, что у обоих embed Bristol). Картинки: Wikimedia Commons API,
+  лицензии проверены — ни одной лицензионной фотографии самих четырёх
+  клубов не нашлось ни на одной площадке (честно признанный пробел), поэтому
+  все три картинки показывают районы (Zócalo at nightfall, Uwebart CC
+  BY-SA 3.0; Roma Norte street corner, Carl Campbell CC BY-SA 2.0; Condesa
+  jacaranda street, Lazjak CC BY-SA 4.0), а не сами венью, подписи это прямо
+  указывают. Humanizer-проход прошёл ДО объявления готовности — найдено и
+  исправлено: неподтверждённый превосходный эпитет про M.N.Roy («один из
+  самых фотографируемых клубов Латинской Америки» — источник этого не
+  говорил), неверная атрибуция цитаты про перрео («DJ Mag's own reporting»
+  вместо цитаты букера внутри статьи), преувеличенная связь Boiler Room
+  SYSTEM с сониде́ро (SYSTEM — более широкая латиноамериканская серия, не
+  посвящённая только сониде́ро), и — важно — предложение, дословно
+  повторяющее фразу из уже опубликованного гида по Lisbon («House and
+  techno aren't the only sound X has exported»), переписано другой
+  конструкцией, чтобы не тиражировать шаблон между гидами. Все зафиксированы
+  с before/after в `mexico-city-clubs-editorial-review.md`.
+  `keywords/mexico-city-clubs.json`, `media/mexico-city-clubs.json`,
+  `mexico-city-clubs-draft.md`, `build-mexico-city-clubs-article.mjs`,
+  картинки в `img/mexico-city-clubs/`, OG-карточка, записи в `pages.mjs`,
+  `home-articles.mjs`, `scripts/build.mjs`, `scripts/og-articles-covers.
+  json`, `scripts/build-og-cards.py`, TAKEN-KEYWORDS.md регенерирован.
+  `node scripts/build.mjs` + `node audit-all.mjs` (20/20) + `npm run
+  check:html` + `npm run check:links` + `npm run check:layout` (466 тестов)
+  — всё чисто в основной рабочей копии. Визуальная проверка через Browser
+  pane (mobile-width viewport в панели) — рендерится корректно; оба
+  YouTube-embed напрямую проверены через `document.querySelectorAll
+  ('iframe')` — правильные video ID подтверждены.
+  Не закрыто: стадия 5 не для всех конкурентов, GB-выдача не снималась,
+  таблица клубов — четыре венью (Sunday Sunday, Departamento, La Santa,
+  Antro Juan названы в источниках, не исследованы вглубь), точная дата
+  открытия M.N.Roy не подтверждена первоисточником, ни один embed не
+  привязан к конкретному венью, стадия 6 отдельным проходом не пройдена,
+  переводов de/fr нет. **Не запушено.**

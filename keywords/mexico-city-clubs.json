@@ -1,0 +1,15 @@
+{
+  "page": "best-clubs-in-mexico-city.html",
+  "seed": "best clubs in mexico city",
+  "source": "Volume reused from the already-measured Google Ads Keyword Planner pass (owner's account 299-844-2842, Discover new keywords, All locations, English, Sep 2025-Aug 2026), logged 2026-09-25 in TOPIC-DOSSIERS.md under \"Ряды 9-12 сводной таблицы волны 3\" alongside Bristol, Lisbon, Vienna and Chicago. No fresh Keyword Planner pull this pass. Fresh live Google SERP confirmation (US, gl=us&hl=en) run this session, 2026-09-25.",
+  "note": "TAKEN-KEYWORDS.md checked before this pass: no existing entry for any Mexico City-clubs term (only 'edc mexico', a different festival page's term, appears in the file). No cannibalisation risk found. The head term's own Keyword Planner trend, per the wave-3 dossier note, fell roughly 90% over the trailing three months at the time of the 2026-09-24 pull -- recorded here honestly rather than hidden, but the article itself does not cite this research-stage trend figure since it is a demand signal for this pass's own decision-making, not a reader-facing fact. The 1K-10K bucketed volume itself is unaffected by the trend note and remains the basis for targeting this page.",
+  "terms": [
+    {"term": "best clubs in mexico city", "volume": "1K-10K", "note": "the page's own head term; Keyword Planner, All locations, per the 2026-09-24/25 pull recorded in TOPIC-DOSSIERS.md. Live SERP re-read 2026-09-25 (US, gl=us&hl=en): a Google Local Pack (Fünk Club, Patrick Miller), Reddit, RA's own city guide, Time Out, Trippin, Tripadvisor, Hotels.com -- consistent with the 5+ editorial slots already logged for this topic, the strongest of the five wave-3 city candidates alongside Lisbon."}
+  ],
+  "expansion_checked": "Live Google SERP for 'best clubs in mexico city' (US, gl=us&hl=en) read this session, plus RA's own Mexico City guide (ra.co/guide/mx/mexicocity, read in full) and DJ Mag's 2024 feature on the city's underground (read in full). PAA on the head query was not captured as a distinct box this pass; a Local Pack of real venues (Fünk Club, Patrick Miller) sits above the organic results, the same pattern already logged for this topic.",
+  "rejected": [
+    {"term": "mexico city nightlife (general)", "why": "broader than clubs -- bars, mezcal bars, rooftop lounges; this page stays on nightclubs and club nights, the same boundary drawn for Bristol and Lisbon"},
+    {"term": "perreo millennial / reggaeton parties mexico city", "why": "a party/promoter intent tied to no fixed venue, not a club-listing intent; covered in this guide's honest current-status section rather than as a keyword target"},
+    {"term": "patrick miller dress code / patrick miller reviews", "why": "single-venue informational queries with a different, narrower intent than the city-wide 'best clubs' page"}
+  ]
+}

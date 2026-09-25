@@ -186,6 +186,14 @@ export const homeArticleCatalog = [
     width:552, height:400, alt:'The Lux Frágil building on Cais da Pedra, Lisbon'
   },
   {
+    page:'best-clubs-in-mexico-city.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/best-clubs-in-mexico-city', type:'Guide', topic:'Mexico City clubs',
+    title:'Best Clubs in Mexico City: Patrick Miller, M.N.Roy and Fünk',
+    description:"Patrick Miller has run every Friday since 1983, M.N.Roy occupies a former Communist Party mansion, and Fünk opened in 2019: the best clubs in Mexico City now.",
+    image:'img/mexico-city-clubs/roma-norte-street-320.webp',
+    srcset:'img/mexico-city-clubs/roma-norte-street-320.webp 320w,img/mexico-city-clubs/roma-norte-street-1200.webp 1200w',
+    width:1200, height:533, alt:'A street corner in the Roma Norte neighbourhood of Mexico City'
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',

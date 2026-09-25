@@ -803,6 +803,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - famous clubs in london
 - ministry of sound
 
+## best-clubs-in-mexico-city.html
+
+- best clubs in mexico city
+
 ## mysteryland-festival.html
 
 - mysteryland 2026
