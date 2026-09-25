@@ -178,6 +178,14 @@ export const homeArticleCatalog = [
     width:1200, height:675, alt:"Thekla, a converted cargo ship moored in Bristol's Floating Harbour, seen from the waterside"
   },
   {
+    page:'best-clubs-in-lisbon.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/best-clubs-in-lisbon', type:'Guide', topic:'Lisbon clubs',
+    title:'Best Clubs in Lisbon: Lux Frágil, Ministerium and Kremlin',
+    description:"Lux Frágil has anchored Lisbon since 1998, Ministerium runs Afro-house from a former ministry, and Musicbox closed in 2025: the best clubs in Lisbon now.",
+    image:'img/lisbon-clubs/lux-fragil-320.webp',
+    srcset:'img/lisbon-clubs/lux-fragil-320.webp 320w,img/lisbon-clubs/lux-fragil-552.webp 552w',
+    width:552, height:400, alt:'The Lux Frágil building on Cais da Pedra, Lisbon'
+  },
+  {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
     title:'Best Clubs in Amsterdam: From RoXY to Radion',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',

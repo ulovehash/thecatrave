@@ -2245,3 +2245,71 @@ Chrome, US/en, gl=us&hl=en), Keyword Planner не запускался повт�
   венью, не пять-восемь как у конкурентов (SWX/Marble Factory/Basement 45/
   The Fleece названы в прозе, не исследованы вглубь), стадия 6 отдельным
   проходом не пройдена, переводов de/fr нет. **Не запушено.**
+
+- **Lisbon написан 2026-09-25** (владелец: два города, Lisbon затем Mexico
+  City, одна за другой в основной сессии, без сабагентов — то же решение,
+  что и для Bristol). Инструмент: живой Google (Browser pane) для фактов и
+  конкурентного ресёрча, объём переиспользован из прохода 2026-09-24/25
+  (Keyword Planner, без нового вызова, зафиксировано в разделе «Ряды 9-12»
+  выше — 5 редакционных слотов, сильнейшая выдача вместе с Mexico City).
+  Главный сюжет — не жанровая история, а текущая, найденная тем же методом,
+  что и Motion для Bristol: Musicbox (Rua Nova do Carvalho/Pink Street, с
+  2006) закрылся насовсем в сентябре 2025 после почти 19 лет, подтверждено
+  независимо Liveurope/ICNS.lx/Rock Bar Legends, плюс прямая цитата DJ
+  Marfox (Príncipe) из статьи DJ Mag «Underground Resilience» (прочитана
+  полностью — редчайший по глубине источник: интервью с DIY-сценой Лиссабона
+  о закрытиях, джентрификации и аренде). Второй честный штрих — Outra Cena
+  закрыта после двух полицейских рейдов в конце 2025 (RA), и Lounge закрылся
+  в 2024 после 25 лет (DJ Mag) — три закрытия признаны прямо, не спрятаны.
+  Lux Frágil (Cais da Pedra, с 29 сентября 1998, из бара Frágil 1982 года)
+  — исторический якорь: Guardian включил его в топ-25 клубов Европы (2014,
+  подтверждено только вторичными цитатами, не первоисточником — Guardian не
+  открылся напрямую в этой сессии), International Nightlife Association —
+  в топ-100 2025 года; основатель Manuel Reis умер 25 марта 2018
+  (независимо подтверждено четырьмя источниками). Ministerium Club (Praça
+  do Comércio, с декабря 2012, бывшее здание Минфина) — текущий дом
+  Afro-house сцены через ночи Konda Records, с той же цитатой DJ Marfox.
+  Kremlin (Santos, с 1988, закрыт 2011 после инцидентов, переоткрыт 2016) —
+  редкий пример клуба, пережившего закрытие и вернувшегося. Два видео из
+  каталога — Buraka Som Sistema (2013, Boiler Room Lisboa x RBMA Takeover,
+  1.14M+ просмотров, кудуро) и Parris (2019, Boiler Room Lisbon: Village
+  Underground) — оба найдены веб-поиском, сверены с selector-data.json по
+  имени артиста, подтверждены через oEmbed-заголовок самого YouTube-видео;
+  заголовок видео Parris сам называет венью (Village Underground Lisboa),
+  что позволило впервые (в отличие от Bristol) привязать embed к конкретному
+  месту, а не оставить его без венью. Картинки: Wikimedia Commons API,
+  лицензии проверены через imageinfo/extmetadata — Lux Frágil (Fssmgn, CC BY
+  3.0), Praça do Comércio (Berthold Werner, CC BY-SA 4.0), Pink Street
+  (FuriousYogi, CC BY-SA 4.0), автобус Village Underground Lisboa (Keith
+  Dixon, CC BY 2.0); ни одно фото не переиспользовано с других страниц
+  сайта. Humanizer-проход прошёл ДО объявления готовности — найдено и
+  исправлено шесть содержательных ошибок первого черновика: ложная связь
+  Lux Frágil с кудуро, неверное «Buraka распались» (на деле бессрочный
+  перерыв 2016 → воссоединение 2025, проверено пятью источниками), неточная
+  цитата DJ Marfox о Musicbox (переформулирована под настоящее слово
+  «strange» и короткий точный фрагмент цитаты, менее 15 слов — лимит на
+  копирайт), неподтверждённая причина сбора средств Outra Cena («на
+  судебные издержки» — это факт про другой клуб, Planeta Manas, а не про
+  Outra Cena), ошибочная атрибуция «португальская пресса» вместо DJ Mag, и
+  географическая ошибка в разделе «где выходить» (Lux Frágil ошибочно
+  отнесён к кластеру Cais do Sodré/Baixa, хотя его адрес и собственная
+  категоризация Lisbon Lux помещают его в Alfama, у Santa Apolónia) — все
+  зафиксированы с before/after в `lisbon-clubs-editorial-review.md`. Также
+  вычищены два самореферентных предложения («guide reports honestly»),
+  нарушавших запрет AGENTS.md §4 на редакционные комментарии в тексте.
+  `keywords/lisbon-clubs.json`, `media/lisbon-clubs.json`, `lisbon-clubs-
+  draft.md`, `build-lisbon-clubs-article.mjs`, картинки в `img/lisbon-
+  clubs/`, OG-карточка, записи в `pages.mjs`, `home-articles.mjs`, `scripts/
+  build.mjs`, `scripts/og-articles-covers.json`, `scripts/build-og-cards.
+  py`, TAKEN-KEYWORDS.md регенерирован. `node scripts/build.mjs` + `node
+  audit-all.mjs` (20/20, включая og-cards после пересборки articles-карточки)
+  + `npm run check:html` + `npm run check:links` + `npm run check:layout`
+  (462 теста) — всё чисто. Визуальная проверка через Browser pane (desktop +
+  mobile) — рендерится корректно, таблица скроллится горизонтально внутри
+  своего контейнера на мобильном без переполнения страницы.
+  Не закрыто: стадия 5 не для всех конкурентов, GB-выдача не снималась,
+  таблица клубов — четыре венью, не описан весь DIY-экосистема из статьи DJ
+  Mag (Those Who Dance, Higher Ground, Vago, Sala Lisa, Damas, Planeta
+  Manas, 8 Marvila названы, не исследованы вглубь), точная дата закрытия
+  Musicbox (15 сентября) — из одного источника, стадия 6 отдельным проходом
+  не пройдена, переводов de/fr нет. **Не запушено.**

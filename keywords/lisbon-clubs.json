@@ -1,0 +1,15 @@
+{
+  "page": "best-clubs-in-lisbon.html",
+  "seed": "best clubs in lisbon",
+  "source": "Volume reused from the already-measured Google Ads Keyword Planner pass (owner's account 299-844-2842, Discover new keywords, All locations, English, Sep 2025-Aug 2026), logged 2026-09-25 in TOPIC-DOSSIERS.md under \"Ряды 9-12 сводной таблицы волны 3\" alongside Bristol, Mexico City, Vienna and Chicago. No fresh Keyword Planner pull this pass, per the owner's instruction to reuse the already-gathered SERP data. Fresh live Google SERP confirmation (US, gl=us&hl=en) run this session, 2026-09-25.",
+  "note": "TAKEN-KEYWORDS.md checked before this pass: no existing entry for any Lisbon-clubs term (only unrelated festival keywords 'sónar lisbon' and 'edc mexico' appear in the file). No cannibalisation risk found against another guide on this site. best-clubbing-cities-in-europe.html and sonar-festival-barcelona.html both mention Lisbon in passing (a ranked-list entry and a Sónar Lisboa reference respectively); neither targets this page's intent (a dedicated city club guide), the same non-collision pattern already accepted for Berlin (techno-music-guide.html + best-clubs-in-berlin.html) and Chicago (house-music-guide.html + a prospective Chicago clubs guide).",
+  "terms": [
+    {"term": "best clubs in lisbon", "volume": "1K-10K", "note": "the page's own head term; Keyword Planner, All locations, per the 2026-09-24/25 pull recorded in TOPIC-DOSSIERS.md. Live SERP re-read 2026-09-25 (US, gl=us&hl=en): Reddit, Time Out ('The 21 best clubs in Lisbon'), Tripadvisor, Trip.com, GetYourGuide, TikTok, Facebook/Wanderlog user mentions -- consistent with the five editorial slots (Time Out, XCEED, Trip.com, Tripadvisor, Lisbon Lux, plus RA's own city guide) already logged for this topic."}
+  ],
+  "expansion_checked": "Live Google SERP for 'best clubs in lisbon' (US, gl=us&hl=en) read this session: Time Out's dedicated 'The 21 best clubs in Lisbon' (Nov 2024) is the strongest single editorial slot, followed by Tripadvisor, Trip.com, GetYourGuide and TikTok/social results. PAA on this query surfaced generic questions only ('Is Lisbon good for clubbing?', 'Is Pink Street worth it?', 'Where do celebs go in Lisbon?'), no club-specific PAA. A related query, 'resident advisor guide to lisbon clubs', surfaced RA's own city guide (ra.co/guide/pt/lisbon) directly, confirming the dance-authority slot already logged in TOPIC-DOSSIERS.md.",
+  "rejected": [
+    {"term": "lisbon nightlife (general)", "why": "broader than clubs -- bars, Bairro Alto pub-crawls, rooftop bars; this page stays on nightclubs and club nights, the same boundary drawn for Bristol"},
+    {"term": "pink street lisbon", "why": "a bar-crawl/street intent (Tripadvisor, GetYourGuide pub-crawl tours), not a club-listing intent; Pink Street is covered here only as the location of a closed club, Musicbox, not as its own destination"},
+    {"term": "lisbon boat party / lisbon pub crawl", "why": "a bookable-tour product intent (Trip.com, GetYourGuide), not an editorial club guide; this page does not sell tours"}
+  ]
+}

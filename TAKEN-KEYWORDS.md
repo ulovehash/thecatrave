@@ -751,6 +751,10 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - jungle dnb
 - jungle vs drum and bass
 
+## best-clubs-in-lisbon.html
+
+- best clubs in lisbon
+
 ## live-dj-sets.html
 
 - what is boiler room

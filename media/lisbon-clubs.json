@@ -1,0 +1,88 @@
+{
+  "page": "best-clubs-in-lisbon.html",
+  "seed": "best clubs in lisbon",
+  "source": "FIGURES.md adapted for clubs, as for every prior city-club guide: real, current venues found by web search and read in full, not a genre artist roster. Live Google SERP for 'best clubs in lisbon' (US, 2026-09-25) plus targeted follow-up searches. Key sources read in full: RA's own guide to Lisbon (ra.co/guide/pt/lisbon); Lisbon Lux's 'Lisbon Clubs - 2026 Guide' (lisbonlux.com/lisbon-clubs, a dedicated local guide site, read in full); Time Out's 'The 21 best clubs in Lisbon' (timeout.com, 5 Nov 2024, read in full); Portuguese Wikipedia's Lux Frágil article (well-cited, opening date, address, predecessor history); DJ Mag's feature 'Underground Resilience: Lisbon's DIY club scene refuses to give up on the dancefloor' (April Clare Welsh, 19 March 2026, read in full -- the single richest current-status source used, covering Musicbox's 2025 closure with a direct DJ Marfox quote, Ministerium's Konda Records Afro-house nights with a second DJ Marfox quote, and Lounge's 2024 closure); Rock Bar Legends' 'Rock Bars in Lisbon (2026)' (5 Sept 2026, search-snippet dated fact on Musicbox's exact closure date) cross-checked against Liveurope's 2 Sept 2025 fundraiser news and ICNS.lx's venue page (2006 opening); RA's own Lisbon guide news feed (Outra Cena's fundraiser compilation, closed since two police raids in late 2025); multiple Portuguese-press obituaries (Expresso, Observador, Jornal Económico, all 25-26 March 2018) on Manuel Reis's death; Lisbon Lux and Google search results on Ministerium's address and Kremlin's 1988-2011-2016 history. Images: Wikimedia Commons, searched via the Commons API (commons.wikimedia.org/w/api.php, action=query&list=search), licences checked via imageinfo/extmetadata before download. No image reused from another guide on this site (checked against img/ directory listing, 2026-09-25).",
+  "required_records": [
+    {
+      "title": "Lux Frágil",
+      "artist": "club, Cais da Pedra / Avenida Infante Dom Henrique, since 29 September 1998",
+      "year": 1998,
+      "why": "S4 consensus across all five editorial sources (Time Out, RA, Lisbon Lux, Trip.com, Tripadvisor): the undisputed anchor of Lisbon's club scene, the only Lisbon venue with a specific Guardian ranking (2014) and a 2025 industry ranking (International Nightlife Association), and the clearest through-line from Frágil's 1982 Bairro Alto origins to the current riverside club",
+      "sources": ["consensus", "originators"],
+      "photo_credit": "Fssmgn (fssmgn arquitectos, lda), CC BY 3.0, via Wikimedia Commons, uploaded 2011; used on el.wikivoyage.org and it.wikivoyage.org's own Lisbon guides"
+    },
+    {
+      "title": "Ministerium Club",
+      "artist": "club, Praça do Comércio, Ala Nascente, since December 2012",
+      "year": 2012,
+      "why": "S4/S1: RA's own venue description (repeated verbatim across many event pages, the same evidentiary pattern used for Bristol's Motion capacity claim) gives the opening date and the former-Ministry-of-Finance building; DJ Mag's 2026 feature independently confirms the Praça do Comércio location and names the Konda Records Afro-house parties as the club's most distinctive current booking, with a direct quote from Príncipe label DJ Marfox",
+      "sources": ["consensus", "also_talk_about"],
+      "no_embed_reason": "no licensed photograph found specifically inside or of Ministerium's own wing of Praça do Comércio; the wide Praça do Comércio image used here shows the square the club occupies, not the club's own interior or facade, and the draft's caption does not claim otherwise"
+    },
+    {
+      "title": "Kremlin",
+      "artist": "club, Rua Escadinhas da Praia, Santos, opened 1988, closed 2011, reopened 2016",
+      "year": 1988,
+      "why": "S4 consensus (Time Out, Lisbon Lux): one of the few 1990s-era Lisbon clubs to survive a real closure (a run of violent incidents forced it shut in 2011) and reopen under new ownership in 2016, keeping its former-convent stone arches -- a genuine closure-and-return story, the same shape as Bristol's Motion though on a different timeline",
+      "sources": ["consensus", "originators"],
+      "no_embed_reason": "no licensed photograph found on Wikimedia Commons for Kremlin's building"
+    },
+    {
+      "title": "Musicbox",
+      "artist": "club, Rua Nova do Carvalho 24 (Pink Street), 2006-2025",
+      "year": 2006,
+      "why": "S4/S1: the most current, most sourced closure story available for this guide -- opened 2006 (Liveurope, ICNS.lx), closed for good in September 2025 after almost nineteen years (Rock Bar Legends, cross-checked against Liveurope's contemporaneous fundraiser news and DJ Mag's 2026 feature, which carries a direct DJ Marfox quote describing the club as a personal training ground), directly comparable to the Motion story that anchored the Bristol guide",
+      "sources": ["consensus", "also_talk_about"],
+      "photo_credit": "FuriousYogi, CC BY-SA 4.0, via Wikimedia Commons -- an aerial view of Rua Nova do Carvalho (Pink Street), the street Musicbox stood on, not the venue itself; the caption does not claim otherwise"
+    },
+    {
+      "title": "Village Underground Lisboa",
+      "artist": "venue, Avenida da Índia, Alcântara, since 2017",
+      "year": 2017,
+      "why": "S4/S1: a creative campus built from stacked shipping containers and a retired double-decker bus, converted from a riverside warehouse; hosted a 2019 Boiler Room session (Parris and Chima Hiro), found by web search for 'Boiler Room Lisbon broadcast lineup DJs', then cross-checked against selector-data.json by artist name and confirmed via each video's own YouTube oEmbed title",
+      "sources": ["consensus"],
+      "photo_credit": "Keith Dixon, CC BY 2.0, via Wikimedia Commons, taken 6 October 2019 -- the venue's landmark double-decker bus"
+    },
+    {
+      "title": "Buraka Som Sistema",
+      "artist": "group",
+      "year": 2013,
+      "why": "S1/S5: a Lisbon group that took kuduro, an Angolan-Portuguese dance style, to international festival and club audiences; their Boiler Room Lisboa set, part of a Red Bull Music Academy takeover, is the highest-viewed Boiler Room broadcast filmed in the city (1.14M+ views) and gives the guide a genuine Lisbon-originated sound rather than an imported one, found by web search for 'Boiler Room Lisbon broadcast lineup DJs', cross-checked against selector-data.json by artist name and confirmed via the video's own YouTube oEmbed title",
+      "sources": ["consensus", "originators"],
+      "embed_id": "4_Jk34-b_Jw"
+    },
+    {
+      "title": "Parris",
+      "artist": "producer",
+      "year": 2019,
+      "why": "S4/S1: a London producer working UK bass and techno, booked for Boiler Room's 2019 session at Village Underground Lisboa alongside Chima Hiro; found via the same Boiler Room Lisbon search, cross-checked against selector-data.json by artist name and confirmed via the video's own YouTube oEmbed title, which names the venue directly",
+      "sources": ["consensus"],
+      "embed_id": "MKuFgNjWLx8"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "4_Jk34-b_Jw", "title": "Buraka Som Sistema, Boiler Room Lisboa x Red Bull Music Academy Takeover, 2013"},
+    {"id": "MKuFgNjWLx8", "title": "Parris, Boiler Room Lisbon: Village Underground, 2019"},
+    {"id": "xtj8Vt2X67M", "title": "Chima Hiro, Boiler Room Lisbon: Village Underground, 2019 -- same event as the Parris set above, not embedded separately to avoid a third video in one guide, but confirms the venue and date independently"},
+    {"id": "O802Ux0yncg", "title": "NØRBAK, Boiler Room: Lisbon, 2025 -- confirmed Lisbon via oEmbed but not embedded; no venue named in the title, and two Lisbon embeds already anchor different eras/sounds"},
+    {"id": "fZAEJ-jqvHc", "title": "Rene Wise, Boiler Room: Lisbon, 2025 -- confirmed Lisbon via oEmbed but not embedded, same reasoning as NØRBAK above"}
+  ],
+  "known_gaps": [
+    {
+      "gap": "No licensed photograph found for Ministerium Club's own interior or facade inside Praça do Comércio, or for Kremlin's building in Santos",
+      "impact": "The Ministerium section uses a wide shot of the square it occupies rather than the club itself; the Kremlin section runs on text alone. Flagged honestly rather than reusing an unrelated image or stretching a caption to imply more than the photo shows."
+    },
+    {
+      "gap": "The Pink Street image shows the street Musicbox stood on, not the closed venue's own building",
+      "impact": "No photograph of Musicbox itself was found on Wikimedia Commons before its 2025 closure. The caption is explicit that the image is the street, not the venue."
+    },
+    {
+      "gap": "The Guardian's exact 2014 nightclub ranking could not be opened directly in this session (URL guesses returned 404s on theguardian.com); the claim rests on two independent secondary citations (Time Out, Lisbon Serviced Apartments) that both quote it the same way, rather than the original article",
+      "impact": "Recorded in the fact-check ledger as medium confidence, not verified against the primary Guardian page"
+    },
+    {
+      "gap": "Village Underground Lisboa, 8 Marvila and the wider DIY/pop-up scene DJ Mag's 2026 feature describes (Those Who Dance, Higher Ground, Vago, Sala Lisa, Damas, Planeta Manas) were not each researched to the same one-venue depth as the five required records above",
+      "impact": "Named in the closing section of 'Where to go out' as places that turn up in current listings, not given their own deep-dive, table row or image -- the same shape of gap Bristol's review flagged for its own fourth-and-beyond venues"
+    }
+  ]
+}
