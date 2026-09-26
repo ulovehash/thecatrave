@@ -2,6 +2,17 @@
   "note": "Every defect found in shipped work, what should have caught it, and what changed so it cannot happen again. audit-defects.mjs verifies the change is really in the file it claims, so a rule cannot be quietly removed and a fix cannot be claimed without being made. Open entries print on every build until they are closed.",
   "defects": [
     {
+      "id": "production-tutorials-would-enter-pool",
+      "found": "2026-09-25",
+      "by": "assistant",
+      "what": "Adding DJ Mag's YouTube channel to selector-channels.mjs would have let production-tutorial videos into the Selector's catalogue: 19 of the channel's uploads are titled '<Artist> Makes A <Genre> Track/Beat/Edit From Scratch' or '... In The Studio' and run 21-42 minutes, clearing MIN_SECONDS with nothing in SKIP_TITLE or NOT_A_SET to catch the pattern. The Selector plays what it catalogues, so this would have handed listeners production teaching, the thing CLAUDE.md says never to do.",
+      "should_have_caught": "nothing: no channel has carried this title pattern before, so NOT_A_SET had never needed it",
+      "fix": {
+        "file": "scripts/parse-artist.mjs",
+        "contains": "makes? an? .+ (from scratch|in the studio)"
+      }
+    },
+    {
       "id": "uk-garage-no-founder",
       "found": "2026-09-05",
       "by": "agent",
