@@ -24,7 +24,7 @@ Use evidence in this order:
 
 1. Google Search Console data for the exact existing URL.
 2. The existing live or generated page and its source/generator.
-3. Ahrefs global volume, SERP composition and competitor pages, using batched economical requests.
+3. Keyword Planner global volume and live-SERP composition/competitor pages, using batched economical requests (Ahrefs is the documented fallback — see `KEYWORD-METHOD.md`).
 4. The live Google SERP for query intent, result type, snippets and current competitors.
 5. Primary sources, artist or label interviews, archives, books and reputable specialist publications.
 6. Editorial inference, clearly labelled as inference rather than measured fact.
@@ -47,14 +47,14 @@ Create a compact research package containing the following.
 
 For a new page, state explicitly that no preservation inventory exists.
 
-### Ahrefs validation table
+### Keyword validation table
 
-Group related keywords into one batch wherever the connector permits it. Record:
+Group related keywords into one batch wherever the tool permits it — one Keyword Planner submission per pass by default; batch Ahrefs requests when using the documented fallback. Record:
 
 | Query cluster | Global volume | Traffic potential | Intent | SERP page types | Best fit for this page? | Evidence date |
 |---|---:|---:|---|---|---|---|
 
-Do not request every wording individually when one parent topic and a small set of variants answer the decision. Stop collecting metrics when additional calls would not change the outline, title or target intent.
+Note which tool supplied each row (Keyword Planner or Ahrefs) — the two have disagreed by an order of magnitude on the same term; see `KEYWORD-METHOD.md`. Do not request every wording individually when one parent topic and a small set of variants answer the decision. Stop collecting metrics when additional calls would not change the outline, title or target intent.
 
 ### Competitor coverage matrix
 
@@ -97,7 +97,7 @@ Do not write or implement a substantial new version until this direction is appr
 
 ## 5. FAQ decision rule
 
-FAQ is not a mandatory SEO decoration. Add it only when Search Console, Ahrefs, the SERP or a clear reader gap supports concise questions that are not answered cleanly elsewhere.
+FAQ is not a mandatory SEO decoration. Add it only when Search Console, Keyword Planner, the SERP or a clear reader gap supports concise questions that are not answered cleanly elsewhere.
 
 Good FAQ questions:
 
@@ -204,16 +204,17 @@ If a required pattern does not exist, extend `site-components.mjs` and its audit
 
 1. Inspect git status and preserve unrelated changes.
 2. Edit the page's editorial source or generator.
-3. Edit shared components or CSS only when the change is genuinely site-wide.
-4. Rebuild every article consuming a changed shared component.
-5. Run the shared audit and the page-specific audit.
-6. Run `git diff --check`.
-7. Rebuild a second time and verify that generated output is unchanged.
-8. Perform visual QA at approximately 1440, 1024, 768, 430 and 390 CSS pixels.
-9. Inspect real embed loading, media quality, spacing and overflow.
-10. Compare the final page against the preservation inventory.
-11. When an article is published or materially updated, add or refresh its homepage catalog entry in `home-articles.mjs`, rebuild `index.html` and verify that the reading time is taken from the generated article rather than typed independently.
-12. When performance code, fonts, the LCP image, Analytics or homepage embeds change, compare the implementation with the relevant PageSpeed diagnostics. A new PageSpeed score is only meaningful after the updated files have been published.
+3. For a brand-new page, register it before the first build: `pages.mjs`; `home-articles.mjs`; `scripts/build.mjs`'s `generators` list; one line in `scripts/og-articles-covers.json`; a `HERO` entry in `scripts/build-og-cards.py`. Run `python3 scripts/build-og-cards.py <slug>` scoped to the slug — a bare run crashes on the unrelated, already-logged defect `og-card-missing-german-electronic-hero`; do not fix that defect in passing.
+4. Edit shared components or CSS only when the change is genuinely site-wide.
+5. Rebuild every article consuming a changed shared component.
+6. Run the shared audit and the page-specific audit.
+7. Run `git diff --check`.
+8. Rebuild a second time and verify that generated output is unchanged.
+9. Perform visual QA at approximately 1440, 1024, 768, 430 and 390 CSS pixels.
+10. Inspect real embed loading, media quality, spacing and overflow.
+11. Compare the final page against the preservation inventory.
+12. When an article is published or materially updated, add or refresh its homepage catalog entry in `home-articles.mjs`, rebuild `index.html` and verify that the reading time is taken from the generated article rather than typed independently.
+13. When performance code, fonts, the LCP image, Analytics or homepage embeds change, compare the implementation with the relevant PageSpeed diagnostics. A new PageSpeed score is only meaningful after the updated files have been published.
 
 Do not claim browser or visual QA when the browser was unavailable or blocked.
 
@@ -259,7 +260,11 @@ Documentation is part of the implementation, not optional cleanup. Before any au
 
 Do not leave documentation describing only the pre-implementation plan when the published result differs. If documentation drift is discovered after pushing, the publishing cycle remains incomplete until the documentation is corrected and an explicitly authorised follow-up push is completed.
 
-## 13. Mandatory post-push verification
+## 13. Pushing from a clean worktree
+
+The main working copy is shared with other parallel sessions and is routinely dirty with unrelated in-progress work. Never push straight from it — that risks dragging unrelated changes onto `main`, which deploys live. Instead: `git fetch origin main`; create or reuse a worktree checked out at `origin/main`'s current commit; re-apply only this change's files there; rebuild and re-audit inside that worktree; confirm `git status`/`git diff --stat` shows only the intended files (plus any expected `readNext()` propagation into other pages' generated HTML — that is normal, new guides get picked up by related-article blocks); commit; then push that worktree's branch to `main`.
+
+## 14. Mandatory post-push verification
 
 Run this checklist after every authorised push to `main`:
 

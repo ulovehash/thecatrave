@@ -11,7 +11,7 @@ Do not begin a final review without:
 - the approved primary intent and excluded intents;
 - the current draft;
 - the Search Console preservation inventory for an existing URL;
-- the Ahrefs validation table and inspected competitor matrix;
+- the keyword validation table and inspected competitor matrix;
 - the semantic kernel and approved outline;
 - fact-check sources and known uncertainties;
 - the media and listening matrix;

@@ -24,8 +24,9 @@ remembering they exist.
 
 ## The five that get broken
 
-**Never research from memory.** Keywords come from Ahrefs expansion, figures come
-from the six sources in `FIGURES.md`. A canon list written from recollection put
+**Never research from memory.** Keywords come from Keyword Planner and live-search
+expansion, not Ahrefs (`KEYWORD-METHOD.md` keeps Ahrefs as the documented fallback);
+figures come from the six sources in `FIGURES.md`. A canon list written from recollection put
 a 1994 jungle record in the drum and bass guide. A URL shipped targeting a phrase
 worth 900 while the 1,400 variant went unchecked, because nobody typed it in.
 

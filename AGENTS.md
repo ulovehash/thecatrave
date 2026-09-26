@@ -47,14 +47,15 @@ Cold-start requirement: an agent beginning an article task must first read `ARTI
   - CTR opportunities;
   - high-impression wording that must not disappear;
   - country and device differences when relevant.
-- Use Ahrefs to validate, not to replace judgment:
+- Use Keyword Planner and the live SERP to validate, not to replace judgment
+  (Ahrefs is the documented fallback — see `KEYWORD-METHOD.md`):
   - check global volume when the audience is international;
   - inspect SERP composition and competing page types;
   - identify missing long-tail queries and subtopics;
   - compare traffic potential, not only raw volume;
-  - batch related checks and minimise unnecessary API calls.
+  - batch related checks and minimise unnecessary calls.
 - Never manufacture search-volume data or competitor findings.
-- Do not claim a query is valuable without evidence from Search Console, Ahrefs, the live SERP or a clearly labelled editorial inference.
+- Do not claim a query is valuable without evidence from Search Console, Keyword Planner, the live SERP or a clearly labelled editorial inference.
 
 ### Protect existing rankings
 
@@ -88,7 +89,7 @@ Cold-start requirement: an agent beginning an article task must first read `ARTI
 - Preserve the original `datePublished` when updating an existing article. Add a truthful visible update date using `<time datetime="YYYY-MM-DD">`, keep `dateModified` consistent in Article structured data and expose matching Open Graph article dates.
 - Add `BreadcrumbList` structured data when the page belongs to a clear site hierarchy.
 - Use `FAQPage` structured data only when the same questions and answers are visibly present on the page.
-- FAQ is not a mandatory ranking device. Add it only when Search Console, Ahrefs, the SERP or a demonstrated reader gap supports concise questions within the page's primary intent. For most non-government and non-health sites, do not expect Google to show an FAQ rich result; the visible answers must justify the block on their own.
+- FAQ is not a mandatory ranking device. Add it only when Search Console, Keyword Planner, the SERP or a demonstrated reader gap supports concise questions within the page's primary intent. For most non-government and non-health sites, do not expect Google to show an FAQ rich result; the visible answers must justify the block on their own.
 - Keep Open Graph and Twitter metadata aligned with the final page.
 - Provide descriptive alt text, intrinsic image dimensions and meaningful iframe titles.
 
@@ -378,7 +379,7 @@ These rules are mandatory.
 1. Inspect the existing page, source files, generator, CSS and git state.
 2. Export and analyse Search Console data for the exact page.
 3. Identify current search intent, ranking queries and preservation requirements.
-4. Use Ahrefs selectively to validate global volume, SERP type, competitors and missing relevant queries.
+4. Use Keyword Planner and the live SERP selectively to validate global volume, SERP type, competitors and missing relevant queries (Ahrefs is the documented fallback).
 5. Review top competitors for factual coverage, structure, original media and reader utility.
 6. Build a semantic kernel grouped by intent, not a flat keyword list.
 7. Propose metadata, outline, heading logic and media plan.

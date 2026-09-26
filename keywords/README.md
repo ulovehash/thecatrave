@@ -7,10 +7,12 @@ not contain one.
 
 The point is not the check. The point is the step before it.
 
-These lists must come from Ahrefs' own expansion, not from a person's memory.
-Run `keywords-explorer-related-terms` and `keywords-explorer-matching-terms` on
-a seed phrase first, then measure what comes back. Writing candidate phrases by
-hand and looking those up only measures what you already thought of.
+These lists must come from a real expansion pass, not from a person's memory —
+Keyword Planner and live Google search by default, Ahrefs
+(`keywords-explorer-related-terms` / `keywords-explorer-matching-terms`) as the
+documented fallback in `KEYWORD-METHOD.md`. Run the expansion on a seed phrase
+first, then measure what comes back. Writing candidate phrases by hand and
+looking those up only measures what you already thought of.
 
 That failed once, visibly. The find-new-music article was researched by hand and
 shipped with a title targeting "find new music" at 900 a month worldwide, while
@@ -25,7 +27,8 @@ satisfy a checker is not.
 ## Expanding a map that already exists
 
 The lists are not finished when a page ships. Every few weeks, or whenever a
-page is edited substantially, run `keywords-explorer-related-terms` on the
+page is edited substantially, re-run the expansion (Keyword Planner by
+default, Ahrefs's `keywords-explorer-related-terms` as fallback) on the
 `seed` again and compare what comes back against `terms`.
 
 Record the decision either way. A term you add goes in `terms` and the audit

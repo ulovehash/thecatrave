@@ -4,10 +4,12 @@ Two audits enforce the output of this: `audit-keywords.mjs` and
 `audit-media.mjs`. Neither can enforce the thinking, which is what this file is
 for. Everything below was learned by getting it wrong on a page that shipped.
 
-## Keywords come from Ahrefs, never from your head
+## Keywords come from expansion, never from your head
 
-Run `keywords-explorer-related-terms` on a seed phrase **before** you look
-anything up. Then measure what comes back.
+Run a keyword-expansion pass on a seed phrase **before** you look anything up
+— Google Ads Keyword Planner and live Google search by default, Ahrefs
+(`keywords-explorer-related-terms`) as the documented fallback in
+`KEYWORD-METHOD.md`. Then measure what comes back.
 
 Writing a list of candidate phrases by hand and looking those up only measures
 what you already thought of. That is not research, it is a memory test with a

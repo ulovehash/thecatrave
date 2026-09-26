@@ -31,7 +31,10 @@ Six stages. A topic that has not been through all six has no verdict, only notes
 
 **1. Seeds** — from the owner's topic and competitor SERPs. Never from
 memory. See `KEYWORD-METHOD.md`. Do not pull thecatrave.com's own rankings for
-each new topic; the owner asked for that step to be dropped.
+each new topic; the owner asked for that step to be dropped. Check for
+existing progress by grepping `TOPIC-DOSSIERS.md` for the topic's own section
+header, never by reading the whole file — it runs past 2,000 lines and almost
+all of it belongs to other topics.
 
 **2. Matching terms** — `keywords-explorer-matching-terms`, `match_mode=terms` on
 the bare head term, then `phrase` on the two-word form. Every term returned is
@@ -132,3 +135,9 @@ reads what they return. The reviewers run after a draft exists, in the order
 above, each seeing the previous verdict, and the draft is not finished until all
 of them pass. Fixing what one finds sends it back through the ones already run,
 because a media insertion can break a fit that had passed.
+
+Delegate stages 1 to 5's web and SERP reading to a subagent per topic, so the
+raw pages, tables and screenshots stay out of the main session and only the
+filled-in stage results come back. When driving the browser directly, prefer
+`get_page_text` over a screenshot for reading a results page — a screenshot
+costs far more than the text it shows.
