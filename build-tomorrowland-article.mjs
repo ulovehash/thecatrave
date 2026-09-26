@@ -32,11 +32,11 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('tomorrowland-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/tomorrowland-festival';
-const title = 'Tomorrowland Festival: Location, Size, History and Music';
-const description = 'Tomorrowland is an electronic music festival in Boom, Belgium. Learn where it is, how many people attend, who owns it, its history and what music it plays.';
+const title = 'Tomorrowland Festival: Location, Attendance, Capacity';
+const description = 'Tomorrowland is a Belgian electronic festival in Boom: 400,000 attendees, 200,000 per-weekend capacity, across two July weekends. Location, dates, history.';
 const datePublished = '2026-09-13';
-const dateModified = '2026-09-15';
-const dateLabel = '15 September 2026';
+const dateModified = '2026-09-26';
+const dateLabel = '26 September 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
