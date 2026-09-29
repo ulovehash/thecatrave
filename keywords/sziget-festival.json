@@ -1,0 +1,11 @@
+{
+  "page": "sziget-festival.html",
+  "seed": "sziget festival",
+  "source": "Google Ads Keyword Planner, all locations, English, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
+  "terms": [
+    {"term":"sziget festival","volume":"10K-100K","note":"primary head term, strongly navigational"},
+    {"term":"sziget","volume":"10K-100K","note":"brand shorthand"}
+  ],
+  "paa": ["Where is Sziget Festival held?","Is Sziget an electronic music festival?","Is camping included at Sziget?"],
+  "excluded": [{"term":"sziget music festival","why":"validated close variant, covered semantically but not forced as an exact phrase"},{"term":"sziget festival location","why":"validated supporting query, answered directly without awkward repetition"},{"term":"sziget location","why":"validated supporting query, answered directly without awkward repetition"},{"term":"Sziget tickets","why":"transactional and edition-specific"},{"term":"Sziget lineup","why":"volatile; linked to the official source"}]
+}

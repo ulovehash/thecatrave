@@ -1,0 +1,9 @@
+{
+  "page":"monegros-desert-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/monegros/festival-overview-2009-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Monegros_Desert_Festival_-_Vista_general.jpg","author":"BigSus","license":"CC BY-SA 3.0","dimensions":"1200x900","purpose":"festival scale and historical site view"},
+    {"file":"img/monegros/desert-landscape-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Desierto_de_los_Monegros.jpg","author":"Smoobs","license":"CC BY 2.0","dimensions":"1200x675","purpose":"geography and exposure"}
+  ],
+  "listening":[{"artist":"DJ Pepo","title":"Awakenings stage set","year":2026,"platform":"YouTube","id":"oVn8LMhjkQw","verification":"exact Monegros recording"}],
+  "rejected":[{"asset":"festival press photographs","why":"reuse rights not established"}]
+}

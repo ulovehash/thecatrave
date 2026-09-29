@@ -1,0 +1,12 @@
+{
+  "page": "boomtown-festival.html",
+  "seed": "boomtown festival",
+  "source": "Google Ads Keyword Planner, all locations, English, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
+  "terms": [
+    {"term":"boomtown festival","volume":"10K-100K","note":"primary head term"},
+    {"term":"boomtown fair","volume":"10K-100K","note":"legacy event name"},
+    {"term":"boomtown","volume":"10K-100K","note":"brand shorthand"}
+  ],
+  "paa": ["Where is Boomtown Festival?","What music is played at Boomtown?","How many people attend Boomtown?"],
+  "excluded": [{"term":"boom town fair","why":"validated legacy spelling, not forced into polished copy"},{"term":"boomtown festival dates","why":"validated supporting query, answered by title and current-edition section without forced wording"},{"term":"boomtown festival location","why":"validated supporting query, answered directly without forced wording"},{"term":"Boomtown tickets","why":"transactional and price changes by edition"},{"term":"Boom Festival","why":"separate Portuguese event, clarified only to prevent confusion"}]
+}

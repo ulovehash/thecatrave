@@ -89,6 +89,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - popular spotify playlists
 - spotify playlist recommendations
 
+## boomtown-festival.html
+
+- boomtown festival
+- boomtown fair
+- boomtown
+
 ## breakbeat-guide.html
 
 - breakbeat
@@ -813,6 +819,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - best clubs in mexico city
 
+## monegros-desert-festival.html
+
+- monegros desert festival
+- monegros desert
+
 ## movement-detroit.html
 
 - movement music festival
@@ -910,6 +921,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - sónar istanbul
 - sónar+d
 - sónar by day
+
+## sziget-festival.html
+
+- sziget festival
+- sziget
 
 ## techno-music-guide.html
 

@@ -1,0 +1,9 @@
+{
+  "page":"sziget-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/sziget/island-2022-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Sziget_2022_(1).jpg","author":"Elekes Andor","license":"CC BY-SA 4.0","dimensions":"1200x900","purpose":"island geography and festival scale"},
+    {"file":"img/sziget/stage-2014-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Sziget_Festival_2014_stage.JPG","author":"Steven Lek","license":"CC BY-SA 4.0","dimensions":"1200x795","purpose":"main-stage growth and historical continuity"}
+  ],
+  "listening":[{"artist":"Secret Factory","title":"Live at Sziget Festival","year":2025,"platform":"YouTube","id":"lvLVkopQYt0","verification":"exact Sziget recording"}],
+  "rejected":[{"asset":"press and agency photography","why":"reuse rights not established"}]
+}

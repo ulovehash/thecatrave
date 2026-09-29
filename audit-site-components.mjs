@@ -25,9 +25,12 @@ const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readF
 // that page's source, or the shared-component checks below would read the
 // assembly file and find no figures, tables or sources in it.
 const contentModuleFor = page => `content/${langOf(page)}/${page.name.replace(/^[a-z]{2}-/, '')}.mjs`;
+const sharedNextFestivalBuilder = fs.readFileSync('build-next-festival-article.mjs', 'utf8');
 const generatorSources = guides.map(page => {
   const module = contentModuleFor(page);
-  return generators[page.generator] + (fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '');
+  const generator = generators[page.generator];
+  const sharedBuilder = generator.includes("./build-next-festival-article.mjs") ? sharedNextFestivalBuilder : '';
+  return generator + sharedBuilder + (fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '');
 });
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
 const homeCss = fs.readFileSync('thecatrave-home.css', 'utf8');

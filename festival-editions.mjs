@@ -8,6 +8,9 @@
 // announced; the audit reminds about those too. Dates are from each festival's
 // official site, read on 2026-09-14.
 export const festivalEditions = [
+  {page: 'sziget-festival.html', heading: 'Sziget Festival 2027', ends: '2027-08-14'},
+  {page: 'boomtown-festival.html', heading: 'Boomtown 2027', ends: '2027-08-15'},
+  {page: 'monegros-desert-festival.html', heading: 'Monegros Desert Festival 2027', ends: '2027-07-31'},
   {page: 'untold-festival.html', heading: 'Untold 2027', ends: '2027-08-08'},
   // The French translation carries the same dates and rolls with the English
   // page.

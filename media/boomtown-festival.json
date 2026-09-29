@@ -1,0 +1,9 @@
+{
+  "page":"boomtown-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/boomtown/opening-ceremony-2019-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Boomtown_Fair_Opening_Ceremony_2019_Chapter_11.jpg","author":"Sam Warrenger / TheFestivals.UK","license":"CC BY-SA 4.0","dimensions":"1200x900","purpose":"chapter structure and ceremony"},
+    {"file":"img/boomtown/scrapyard-2019-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Boomtown_2019_Scrapyard.jpg","author":"Sam Warrenger / TheFestivals.UK","license":"CC BY 4.0","dimensions":"1200x900","purpose":"district architecture and venue identity"}
+  ],
+  "listening":[{"artist":"Pearson Sound","title":"Live at Anara","year":2025,"platform":"YouTube","id":"OFuZ3lsZKxc","verification":"exact Boomtown recording"}],
+  "rejected":[{"asset":"official press photographs","why":"reuse rights not established"}]
+}

@@ -410,6 +410,30 @@ export const homeArticleCatalog = [
     width:1280, height:655, alt:'Movement Music Festival filling Hart Plaza in Detroit in 2026'
   },
   {
+    page:'sziget-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','house','techno'], href:'/sziget-festival', type:'Guide', topic:'Sziget Festival',
+    title:'Sziget Festival 2027: Dates, Music, Camping and Travel',
+    description:'Five days on Óbuda Island, with pop, rock and hip-hop beside club stages, theatre, circus and a rail link into Budapest.',
+    image:'img/sziget/island-2022-320.webp',
+    srcset:'img/sziget/island-2022-320.webp 320w,img/sziget/island-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Aerial view across Sziget Festival on Óbuda Island in Budapest'
+  },
+  {
+    page:'boomtown-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','jungle','techno'], href:'/boomtown-festival', type:'Guide', topic:'Boomtown Festival',
+    title:'Boomtown Festival 2027: Dates, Location, History and Music',
+    description:'A five-day camping festival built as a fictional city, with soundsystem culture, electronic music, live bands and street theatre.',
+    image:'img/boomtown/opening-ceremony-2019-320.webp',
+    srcset:'img/boomtown/opening-ceremony-2019-320.webp 320w,img/boomtown/opening-ceremony-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'Opening ceremony stage and crowd at Boomtown in 2019'
+  },
+  {
+    page:'monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/monegros-desert-festival', type:'Guide', topic:'Monegros Desert Festival',
+    title:'Monegros Desert Festival 2027: Date, History and Guide',
+    description:'One long electronic event on exposed land near Fraga, with roots in Florida 135 and stages running through the night.',
+    image:'img/monegros/festival-overview-2009-320.webp',
+    srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
+    width:1200, height:900, alt:'Wide view of Monegros Desert Festival stages and crowd in 2009'
+  },
+  {
     page:'grime-music-guide.html', category:'music-history', tags:['uk','history','bass','jungle'], href:'/grime-music-guide', type:'Guide', topic:'Grime',
     title:'What Is Grime Music? Its Sound, History, Artists and Tracks',
     description:'Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.',
