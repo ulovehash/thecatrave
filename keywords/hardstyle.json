@@ -1,0 +1,21 @@
+{
+  "page": "hardstyle-guide.html",
+  "seed": "hardstyle",
+  "source": "Google Ads Keyword Planner, all locations, checked 2026-09-24; live US Google SERP and PAA checked 2026-09-25 and refreshed 2026-09-29. Ahrefs was not used.",
+  "terms": [
+    {"term": "hardstyle", "volume": "10K-100K", "note": "head term; mixed navigation and listening intent"},
+    {"term": "what is hardstyle", "volume": "100-1K", "note": "primary definition intent and title wording"},
+    {"term": "hardstyle festivals", "volume": "1K-10K", "note": "supporting event section"}
+  ],
+  "paa": [
+    "Are EDM and hardstyle the same?",
+    "Who is the most famous hardstyle artist?",
+    "What's the difference between techno and hardstyle?",
+    "What does hardstyle do to your brain?"
+  ],
+  "excluded": [
+    {"term": "hardstyle production", "why": "producer tutorial intent"},
+    {"term": "hardstyle workout", "why": "playlist and fitness intent"},
+    {"term": "what does hardstyle do to your brain", "why": "health claim outside the article's evidence and scope"}
+  ]
+}

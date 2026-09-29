@@ -1,0 +1,30 @@
+{
+  "page": "movement-detroit.html",
+  "checked": "2026-09-29",
+  "images": [
+    {
+      "file": "img/movement-detroit/hart-plaza-1280.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Hart_Plaza_Detroit.jpg",
+      "author": "U.S. Army Corps of Engineers",
+      "license": "Public domain, US federal government work",
+      "dimensions": "1280x853",
+      "purpose": "venue geography and riverfront setting"
+    },
+    {
+      "file": "img/movement-detroit/movement-hart-plaza-2026-1280.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Movement_Music_Festival_at_Hart_Plaza,_Detroit,_Michigan,_2026-05-25.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0",
+      "dimensions": "1280x655",
+      "purpose": "current festival scale inside Hart Plaza"
+    }
+  ],
+  "listening": [
+    {"artist": "Juan Atkins", "title": "Saturday main-stage set at DEMF", "year": 2002, "platform": "YouTube", "id": "GTF4S78VTPw", "verification": "Detroit Historical Society archive link"},
+    {"artist": "Eddie Fowlkes and K-Hand", "title": "DEMF festival reel", "year": 2002, "platform": "YouTube", "id": "2mc8AkXYBdc", "verification": "Detroit Historical Society archive link and timestamps"}
+  ],
+  "rejected": [
+    {"asset": "Movement official press photographs", "why": "rights not granted for reuse"},
+    {"asset": "Detroit Historical Society video stills", "why": "all-rights-reserved page; embedded source video used instead of copied frames"}
+  ]
+}

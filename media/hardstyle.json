@@ -1,0 +1,26 @@
+{
+  "page": "hardstyle-guide.html",
+  "checked": "2026-09-29",
+  "images": [
+    {
+      "file": "img/hardstyle/defqon1-red-2024-1280.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Defqon1_Red_2024.jpg",
+      "author": "DELTAFXUniverse",
+      "license": "CC BY-SA 4.0",
+      "dimensions": "1280x720",
+      "purpose": "festival scale and colour-coded stage culture"
+    }
+  ],
+  "listening": [
+    {"artist": "DJ Duro & The Prophet", "title": "Shizzle My Dizzle", "year": 2005, "platform": "YouTube", "id": "Q_N2Gv2_0IU", "verification": "Official Scantraxx upload"},
+    {"artist": "Blademasterz", "title": "Masterblade", "year": 2006, "platform": "Spotify", "id": "6mOofVIiHmXHlvEapIN8k9", "verification": "Spotify track page and Scantraxx release context"},
+    {"artist": "Headhunterz", "title": "Rock Civilization", "year": 2007, "platform": "Spotify", "id": "5QTEBCV3eRst0uoLUHhJOr", "verification": "Spotify track page"},
+    {"artist": "D-Block & S-te-Fan", "title": "Music Made Addict", "year": 2009, "platform": "Spotify", "id": "1Ns5FtyALVwzFuRS4nH9xd", "verification": "Spotify track page and Scantraxx catalogue"},
+    {"artist": "B-Front & Frontliner", "title": "Magic", "year": 2010, "platform": "Spotify", "id": "06BmUrVuMtTdOuaf9CTYAz", "verification": "Spotify track page and Scantraxx raw-history embed"},
+    {"artist": "Zatox & Nikkita", "title": "Raw Style", "year": 2011, "platform": "Spotify", "id": "6GcT1R34r7r2OcTUPjUbUw", "verification": "Spotify track page and Scantraxx raw-history attribution"}
+  ],
+  "rejected": [
+    {"asset": "Q-dance and festival press photography", "why": "rights-reserved material"},
+    {"asset": "generic rave stock photographs", "why": "no hardstyle-specific evidence"}
+  ]
+}

@@ -19,6 +19,8 @@ The Spotify-playlist list article is sourced from `best-spotify-playlists-draft.
 
 The three focused listening lists follow the same evidence-first route: `best-soundcloud-dj-mixes` uses exact official SoundCloud players, `best-techno-mixes` uses official broadcaster videos, and `best-house-music-playlists-spotify` uses compact shared playlist previews. Each has a research record, approved draft, media inventory and editorial review beside its generator.
 
+The Trance, Hardstyle and Movement Detroit guides use the same package model: approved research, a humanized source draft, local licensed media, page-specific keyword and media records, a component-based generator and a saved editorial review. Their public routes are `/trance-guide`, `/hardstyle-guide` and `/movement-detroit`.
+
 Homepage performance is generated too: edit `thecatrave-home.css` and `homepage-runtime.js`, then run `node build-home.mjs`. The build inlines both sources, keeps third-party players dormant until they approach the viewport, and publishes the optimized `img/thecatrave-home-*.webp` hero source set. The permanent performance and PageSpeed rules are in the Accessibility and performance section of `AGENTS.md` and the homepage integration section of `SITE-COMPONENTS.md`.
 
 An authorised push is not complete until the post-push verification in `ARTICLE-PRODUCTION-WORKFLOW.md` has been performed: confirm the remote `main` SHA, local/remote synchronisation, a clean worktree and documentation parity with the code and research that were actually published. Documentation should normally be updated in the same commit as the implementation it describes.

@@ -699,6 +699,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - grime genre
 - grime artists
 
+## hardstyle-guide.html
+
+- hardstyle
+- what is hardstyle
+- hardstyle festivals
+
 ## house-music-guide.html
 
 - house music
@@ -806,6 +812,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 ## best-clubs-in-mexico-city.html
 
 - best clubs in mexico city
+
+## movement-detroit.html
+
+- movement music festival
+- Movement Detroit
+- Movement Detroit lineup
 
 ## mysteryland-festival.html
 
@@ -936,6 +948,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people go to tomorrowland
 - who owns tomorrowland
 - tomorrowland capacity
+
+## trance-guide.html
+
+- trance music
+- what is trance music
+- trance artists
+- trance djs
+- trance festival
+- psy trance
 
 ## uk-electronic-music-evolution.html
 

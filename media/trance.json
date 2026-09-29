@@ -1,0 +1,47 @@
+{
+  "page": "trance-guide.html",
+  "seed": "trance music",
+  "source": "FIGURES.md six-source pass, 2026-09-26, updated same day with a second Keyword Planner pass. Source 1 (search): Keyword Planner 'Discover new keywords', two passes. First pass on 8 seeds (trance music, trance artists, trance producers, trance djs, best trance artists, trance pioneers, who invented trance, trance subgenres), 283 ideas: Artist facet was armin van buuren (53 of 283), art of trance (6), Other (50). Second pass, plan 'Plan from Sep 26, 2026, 6 AM, GMT-04:00', on 4 head-term seeds (trance music, what is trance music, trance artists, trance djs), 1,708 ideas: Artist facet was armin van buuren (176 keywords), ferry corsten (9), giuseppe ottaviani (6), tiesto (6), matt darey (5) - this run cleared tiesto, which the first pass's artist facet had left buried in its 50-keyword 'Other' bucket. Source 2 (also_talk_about) was not run: it is an Ahrefs Keywords Explorer field and the owner's standing instruction ('dont ever use ahrefs without my approve', 2026-09-26) means it needs a separate ask before any Ahrefs call, however small. Source 3 (asked): live PAA on 'who invented trance music' (Who is the biggest trance artist? / Who is the king of trance? / What came first, techno or trance?) and on '\"king of trance\" dj', which returned Armin van Buuren by name across Wikipedia (DE), DJPOP and DJ Mag coverage; a separate live search on '\"king of trance\" tiesto' independently returned Tiesto under the same and an adjacent nickname ('Lord of the Trance', The Washington Post, 2004), so the nickname is not exclusive to Armin van Buuren. Source 4 (consensus): five independently-read 'best/most popular trance artists' pages (Nexus Radio, Beatportal's Top 10 Best-Selling Trance Artists of 2025, Viberate, trancearchiv.de, thisisevoke.com); tiesto appeared in 3 of 5. Source 5 (originators): en.wikipedia.org/wiki/Trance_music history section, read to 10,000 characters (not the full article — a second pass should finish it before this file is treated as closed; tiesto's era was not reached, so his required status here rests on sources 1, 3 and 4, not 5). Source 6 (catalogue): grep of selector-data.json, 1,242 sets tagged trance or psytrance out of 64,242.",
+  "figures": [
+    {
+      "name": "Armin van Buuren",
+      "for": "the lead modern figure: the 'King of Trance' nickname is itself sourced (DE Wikipedia, DJPOP, DJ Mag), not asserted from memory; a section, a photograph, a catalogue set",
+      "sources": ["search", "paa", "consensus", "catalogue"]
+    },
+    {
+      "name": "Sven Väth",
+      "for": "founder: Wikipedia credits him and his labels Eye Q and Harthouse with shaping what became trance out of the Frankfurt scene",
+      "sources": ["originators", "catalogue"]
+    },
+    {
+      "name": "Paul van Dyk",
+      "for": "MFS Records / Visions of Shiva-era scene-builder; Wikipedia notes the 'first trance record' claim about his 1993 Humate remix is contested, so the sentence should describe the scene, not repeat the disputed claim as fact",
+      "sources": ["originators", "consensus", "catalogue"]
+    },
+    {
+      "name": "Dag Lerner (DJ Dag)",
+      "for": "the naming story: on record as the first to call his own music 'trance' ('gave the child his name') — a one-sentence origin beat, no embed needed",
+      "sources": ["originators"]
+    },
+    {
+      "name": "Simon Berry / Art of Trance",
+      "for": "Platipus Records founder; Wikipedia calls Platipus one of the most consequential progressive trance labels, and 'art of trance' is also the only other artist name Keyword Planner's facet broke out (6 of 283 keywords)",
+      "sources": ["originators", "search"]
+    },
+    {
+      "name": "Tiësto",
+      "for": "the mainstream-breakthrough figure: clears three independent sources (search facet, a separate 'King of Trance'/'Lord of the Trance' live-search result distinct from Armin van Buuren's, and 3 of 5 consensus lists), so FIGURES.md's 'three or more sources' rule makes him required even though the Wikipedia originators read never reached his section; a section, a photograph, a catalogue set",
+      "sources": ["search", "paa", "consensus", "catalogue"]
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Ferry Corsten, Above & Beyond",
+      "why": "each has 2 sources (a top-5 consensus-list appearance plus 2-3 catalogue sets) but neither cleared search or originators this pass. Plausible required figures, not yet earned by the rule."
+    },
+    {
+      "title": "Robert Miles",
+      "why": "one consensus-list appearance only (Viberate); 'Children' (1995) is dream house/trance-adjacent rather than confirmed trance by a source read this pass. Reject for now, not researched further."
+    }
+  ]
+}

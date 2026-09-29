@@ -1,0 +1,19 @@
+{
+  "page": "movement-detroit.html",
+  "seed": "movement music festival",
+  "source": "Google Ads Keyword Planner, all locations, checked 2026-09-24; earlier Ahrefs evidence retained from TOPIC-DOSSIERS.md; live SERP and official site refreshed 2026-09-29. No new Ahrefs request was made.",
+  "terms": [
+    {"term": "movement music festival", "volume": "10K-100K", "note": "head festival term, strongly navigational"},
+    {"term": "Movement Detroit", "volume": "3900", "trafficPotential": "6300", "note": "primary editorial phrase from existing research"},
+    {"term": "Movement Detroit lineup", "volume": "not measured", "note": "volatile intent served by direct official link, not permanent title"}
+  ],
+  "paa": [
+    "What kind of music is Movement?",
+    "How much does Movement cost?"
+  ],
+  "excluded": [
+    {"term": "Movement Detroit tickets", "why": "transactional and price changes by edition"},
+    {"term": "Movement Detroit lineup", "why": "kept out of permanent metadata; official lineup remains the source of truth"},
+    {"term": "Detroit hotels", "why": "general travel and booking intent"}
+  ]
+}

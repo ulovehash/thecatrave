@@ -386,6 +386,30 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Close-up of a Roland TB-303 Bass Line panel'
   },
   {
+    page:'trance-guide.html', category:'music-history', tags:['history','trance','psytrance'], href:'/trance-guide', type:'Guide', topic:'Trance',
+    title:'What Is Trance Music? Origins, Artists and Sound',
+    description:'A build, a breakdown and a drop, born in Frankfurt\'s clubs. Who built it, how Armin van Buuren and Tiësto took it to festival mainstages, and how psytrance split off.',
+    image:'img/trance/armin-van-buuren-2017-320.webp',
+    srcset:'img/trance/armin-van-buuren-2017-320.webp 320w,img/trance/armin-van-buuren-2017-1024.webp 1024w',
+    width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
+  },
+  {
+    page:'hardstyle-guide.html', category:'music-history', tags:['history','hardstyle','trance','techno'], href:'/hardstyle-guide', type:'Guide', topic:'Hardstyle',
+    title:'What Is Hardstyle? History, Sound, Artists and Subgenres',
+    description:'Reverse bass, distorted pitched kicks, the Dutch festival circuit and the split between euphoric and raw hardstyle.',
+    image:'img/hardstyle/defqon1-red-2024-320.webp',
+    srcset:'img/hardstyle/defqon1-red-2024-320.webp 320w,img/hardstyle/defqon1-red-2024-1280.webp 1280w',
+    width:1280, height:720, alt:'The Red main stage at Defqon.1 in 2024'
+  },
+  {
+    page:'movement-detroit.html', category:'festivals', tags:['history','techno','detroit','festivals'], href:'/movement-detroit', type:'Guide', topic:'Movement Detroit',
+    title:'Movement Detroit: Festival History, Location and Techno Legacy',
+    description:'From the free Detroit Electronic Music Festival in 2000 to six stages at Hart Plaza over Memorial Day weekend.',
+    image:'img/movement-detroit/movement-hart-plaza-2026-320.webp',
+    srcset:'img/movement-detroit/movement-hart-plaza-2026-320.webp 320w,img/movement-detroit/movement-hart-plaza-2026-1280.webp 1280w',
+    width:1280, height:655, alt:'Movement Music Festival filling Hart Plaza in Detroit in 2026'
+  },
+  {
     page:'grime-music-guide.html', category:'music-history', tags:['uk','history','bass','jungle'], href:'/grime-music-guide', type:'Guide', topic:'Grime',
     title:'What Is Grime Music? Its Sound, History, Artists and Tracks',
     description:'Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.',

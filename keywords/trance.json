@@ -1,0 +1,20 @@
+{
+  "page": "trance-guide.html",
+  "seed": "trance music",
+  "source": "Google Ads Keyword Planner, 'Discover new keywords' on 4 seeds (trance music, what is trance music, trance artists, trance djs), US/English/Google, Sep 2025-Aug 2026, plan 'Plan from Sep 26, 2026, 6 AM, GMT-04:00' (1,708 ideas returned). Read directly from the results grid, not exported. Ahrefs was not used for this file: the owner's standing instruction ('dont ever use ahrefs without my approve', 2026-09-26) means any Ahrefs call needs a separate ask first, and Keyword Planner answered every term needed here.",
+  "note": "'what is trance music' carries +900% three-month and +900% YoY change alongside 'psy trance music' and psychedelic-trance variants in the same results page - broad growth across trance-adjacent queries this period, not specific to one phrase, so it is reported but not treated as a single breakout signal.",
+  "terms": [
+    { "term": "trance music", "volume": "10K-100K", "note": "primary head term; title and H1 target" },
+    { "term": "what is trance music", "volume": "100-1K", "note": "+900% three-month and YoY change; definition section/FAQ target" },
+    { "term": "trance artists", "volume": "100-1K", "note": "figures section target" },
+    { "term": "trance djs", "volume": "100-1K", "note": "figures section target" },
+    { "term": "trance festival", "volume": "100-1K", "note": "supports a listening/festival-context mention, not a section on its own" },
+    { "term": "psy trance", "volume": "1K-10K", "note": "subgenre section target (psytrance)" }
+  ],
+  "expansion_checked": "2026-09-26, Keyword Planner",
+  "rejected": [
+    { "term": "trance songs", "volume": "100-1K", "why": "same intent as 'trance music', would read as a duplicate section" },
+    { "term": "house trance", "volume": "10K-100K", "why": "genre-crossover query (house/trance), not a phrase this guide's outline has a section for" },
+    { "term": "electronic dance music", "volume": "not measured this pass", "why": "too broad; a 'broaden your search' suggestion, not part of this guide's kernel" }
+  ]
+}
