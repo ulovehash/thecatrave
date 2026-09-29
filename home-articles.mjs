@@ -354,6 +354,30 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Wired headphones, a portable music player and translucent cases on a scratched club table'
   },
   {
+    page:'best-soundcloud-dj-mixes.html', category:'digging', tags:['discovery','techno','house','bass'], href:'/best-soundcloud-dj-mixes', type:'List', topic:'SoundCloud DJ mixes',
+    title:'Best SoundCloud DJ Mixes, Plus One Personal Pick',
+    description:'Eight editorial selections with a clear point of view, plus one clearly disclosed thecatrave mix worth your time.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  },
+  {
+    page:'best-techno-mixes.html', category:'digging', tags:['techno','history','discovery'], href:'/best-techno-mixes', type:'List', topic:'Techno mixes',
+    title:'Best Techno Mixes: 10 Essential DJ Sets',
+    description:'Ten complete techno recordings, from Juan Atkins, Robert Hood and Jeff Mills to Wata Igarashi and Fadi Mohem.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
+  },
+  {
+    page:'best-house-music-playlists-spotify.html', category:'digging', tags:['house','discovery','tools'], href:'/best-house-music-playlists-spotify', type:'List', topic:'House playlists',
+    title:'Best House Music Playlists on Spotify: 12 Curated Picks',
+    description:'Ten focused house playlists plus two disclosed thecatrave selections spanning house, techno and the spaces between them.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Wired headphones, a portable music player and translucent cases on a scratched club table'
+  },
+  {
     page:'acid-house-guide.html', category:'music-history', tags:['history','uk','house','techno'], href:'/acid-house-guide', type:'Guide', topic:'Acid house',
     title:'What Is Acid House? From Chicago\'s TB-303 to the UK Rave Boom',
     description:'A $40 bass machine, three friends in Chicago, a DJ who played their tape four times in a night, and the British movement that borrowed the name.',

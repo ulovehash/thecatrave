@@ -1,0 +1,18 @@
+{
+  "page": "best-soundcloud-dj-mixes.html",
+  "source": "Direct Google inspection of original DJ Mag and Dekmantel SoundCloud result pages, 29 September 2026",
+  "note": "Eight editorial selections are embedded from the commissioning publication's SoundCloud account. The ninth is a visibly disclosed personal pick embedded from the artist's own thecatrave account. No reposts or downloaded audio are used.",
+  "required_records": [
+    { "title": "Wata Igarashi", "artist": "Wata Igarashi", "publisher": "DJ Mag", "embed_id": "recognise-081-wata-igarashi", "url": "https://soundcloud.com/djmag/recognise-081-wata-igarashi" },
+    { "title": "Ogazón", "artist": "Ogazón", "publisher": "DJ Mag", "embed_id": "recognise-096-ogazon", "url": "https://soundcloud.com/djmag/recognise-096-ogazon" },
+    { "title": "Sedef Adasi", "artist": "Sedef Adasi", "publisher": "DJ Mag", "embed_id": "recognise-sedef-adasi", "url": "https://soundcloud.com/djmag/recognise-sedef-adasi" },
+    { "title": "Doudou MD", "artist": "Doudou MD", "publisher": "DJ Mag", "embed_id": "recognise-078-doudou-md", "url": "https://soundcloud.com/djmag/recognise-078-doudou-md" },
+    { "title": "Objekt", "artist": "Objekt", "publisher": "Dekmantel", "embed_id": "dekmantel-podcast-116-objekt", "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-116-objekt" },
+    { "title": "Djrum", "artist": "Djrum", "publisher": "Dekmantel", "embed_id": "dekmantel-podcast-267-djrum", "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-267-djrum" },
+    { "title": "DJ Python", "artist": "DJ Python", "publisher": "Dekmantel", "embed_id": "dekmantel-podcast-208-dj-python", "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-208-dj-python" },
+    { "title": "SHERELLE", "artist": "SHERELLE", "publisher": "Dekmantel", "embed_id": "dekmantel-podcast-285-sherelle", "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-285-sherelle" },
+    { "title": "I Like to Smoke in Silence After Raves", "artist": "thecatrave", "publisher": "thecatrave", "embed_id": "i-like-to-smoke-in-silence-after-raves", "url": "https://soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves" }
+  ],
+  "figures": [],
+  "known_gaps": [{"title":"SoundCloud availability", "why":"External network checks should be repeated immediately before publication because availability can change."}]
+}

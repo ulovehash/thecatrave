@@ -1,0 +1,15 @@
+{
+  "page": "best-house-music-playlists-spotify.html",
+  "seed": "best house music playlists on spotify",
+  "source": "live Google result inspection, 29 September 2026; paid Ahrefs metrics not authorised and Keyword Planner unavailable",
+  "terms": [
+    { "term": "best house music playlists on spotify", "volume": "not measured" },
+    { "term": "best house playlists on spotify", "volume": "not measured" },
+    { "term": "house music playlist on spotify", "volume": "not measured" }
+  ],
+  "rejected": [
+    { "term": "best spotify playlists", "why": "owned by /best-spotify-playlists" },
+    { "term": "submit music to spotify playlists", "why": "artist-marketing intent" },
+    { "term": "what is house music", "why": "owned by /house-music-guide" }
+  ]
+}

@@ -107,7 +107,8 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 - `build-uk-article.mjs` imports the shared article components.
 - `build-jungle-article.mjs` preserves the approved Jungle editorial copy, then normalises its sections, figures, tables, Sources, listening blocks and YouTube embeds through the same shared components as the newer guides. The copy remains page-specific; repeated markup does not.
 - `build-bass-music-article.mjs` assembles the Bass Music guide from the same shared article system.
-- All four article generators publish through `articlePage()` and render their visible opening through `articleHero()`. A change to shared metadata, fonts, header/footer structure or hero semantics therefore reaches every current article after rebuilding.
+- The focused listening lists use the same shell with media matched to intent: `build-best-soundcloud-dj-mixes-article.mjs` uses `articleListeningBand()`, `build-best-techno-mixes-article.mjs` uses `articleVideoCollection()`, and `build-best-house-music-playlists-spotify-article.mjs` uses `articlePlaylistPreview()`. Their page-specific gate is `audit-listening-guides.mjs`.
+- All article generators publish through `articlePage()` and render their visible opening through `articleHero()`. A change to shared metadata, fonts, header/footer structure or hero semantics therefore reaches every current article after rebuilding.
 
 ## Build and verification
 

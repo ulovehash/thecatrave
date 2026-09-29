@@ -1,0 +1,15 @@
+{
+  "page": "best-techno-mixes.html",
+  "seed": "best techno mixes",
+  "source": "live Google result inspection, 29 September 2026; paid Ahrefs metrics not authorised and Keyword Planner unavailable",
+  "terms": [
+    { "term": "best techno mixes", "volume": "not measured" },
+    { "term": "best techno mix of all time", "volume": "not measured" },
+    { "term": "essential techno mixes", "volume": "not measured" }
+  ],
+  "rejected": [
+    { "term": "best techno djs", "why": "artist-ranking intent" },
+    { "term": "how to mix techno", "why": "DJ technique intent" },
+    { "term": "techno music", "why": "owned by /techno-music-guide" }
+  ]
+}

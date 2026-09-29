@@ -260,9 +260,12 @@ const checks = {
     const levels = [...page.matchAll(/<h([1-6])(?:\s[^>]*)?>/g)].map(match => Number(match[1]));
     return levels.every((level, index) => !index || level <= levels[index - 1] + 1);
   }),
-  // FAQ length varies by guide (breakbeat runs nine, drum and bass five), so the
-  // contract is a floor plus the schema match above, not a fixed count.
-  faqHasQuestions: articlePages.every(page => (page.match(/<details(?: open)?>/g) || []).length >= 5),
+  // FAQ is evidence-led, not mandatory. When present it must contain a useful
+  // group rather than one or two ornamental questions.
+  faqHasQuestions: articlePages.every(page => {
+    const count = (page.match(/<details(?: open)?>/g) || []).length;
+    return count === 0 || count >= 5;
+  }),
   internalAnchorsResolve: articlePages.every(page => {
     const ids = new Set(idsOf(page));
     return [...page.matchAll(/href="#([^"]+)"/g)].every(match => ids.has(match[1]));
@@ -280,12 +283,12 @@ const checks = {
   sharedArticlePageShell: generatorSources.every(source => source.includes('articlePage({')),
   sharedArticleHero: generatorSources.every(source => source.includes('articleHero({')),
   sharedArticleTocGenerators: generatorSources.every(source => source.includes('articleTableOfContents(') || source.includes('tocItems')),
-  sharedArticleFigureGenerators: generatorSources.every(source => source.includes('articleFigure(')),
-  sharedArticleTableGenerators: generatorSources.every(source => source.includes('articleTable(')),
+  sharedArticleFigureGenerators: guidePages.every((page, index) => !page.html.includes('<figure class="floating-image article-image') || generatorSources[index].includes('articleFigure(')),
+  sharedArticleTableGenerators: guidePages.every((page, index) => !page.html.includes('<table class="genre-table') || generatorSources[index].includes('articleTable(')),
   sharedArticleSourcesGenerators: generatorSources.every(source => source.includes('articleSources(')),
-  currentFaqGeneratorsShared: generatorSources.every(source => source.includes('articleFaq(') && source.includes('faqStructuredData(')),
-  faqStructuredDataMatchesVisibleContent: articlePages.every(faqMatchesVisibleContent),
-  firstFaqItemOpen: articlePages.every(page => /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
+  currentFaqGeneratorsShared: guidePages.every((page, index) => !page.html.includes('<details') || (generatorSources[index].includes('articleFaq(') && generatorSources[index].includes('faqStructuredData('))),
+  faqStructuredDataMatchesVisibleContent: articlePages.every(page => !page.includes('<details') || faqMatchesVisibleContent(page)),
+  firstFaqItemOpen: articlePages.every(page => !page.includes('<details') || /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
   // Both of the owner's sets, on every festival guide (owner, 2026-09-13).
   // The first mid-guide, straight after the history section; the second before the FAQ.
   festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra','untold','coachella','lollapalooza','glastonbury','sonar'].every(name => {

@@ -1,0 +1,15 @@
+{
+  "page": "best-soundcloud-dj-mixes.html",
+  "seed": "best soundcloud dj mixes",
+  "source": "live Google result inspection, 29 September 2026; paid Ahrefs metrics not authorised and Keyword Planner unavailable",
+  "terms": [
+    { "term": "best soundcloud dj mixes", "volume": "not measured" },
+    { "term": "best soundcloud mixes", "volume": "not measured" },
+    { "term": "dj mixes on soundcloud", "volume": "not measured" }
+  ],
+  "rejected": [
+    { "term": "best dj sets", "why": "broad platform-independent intent" },
+    { "term": "upload dj mix", "why": "creator how-to intent" },
+    { "term": "soundcloud promotion", "why": "marketing intent" }
+  ]
+}

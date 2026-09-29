@@ -1,0 +1,19 @@
+{
+  "page": "best-house-music-playlists-spotify.html",
+  "source": "Direct inspection of Spotify result pages, 29 September 2026",
+  "note": "Each recommendation uses the compact official Spotify playlist preview. Follower counts are omitted because they change and do not drive the editorial order.",
+  "required_records": [
+    { "title": "90s House Classics", "artist": "Spotify", "curator": "Spotify", "embed_id": "37i9dQZF1DWTU3Zl0elDUa" },
+    { "title": "Soulful House", "artist": "Spotify", "curator": "Spotify", "embed_id": "37i9dQZF1DX4q6087QOpL9" },
+    { "title": "Housewerk NYE", "artist": "Honey Dijon", "curator": "Honey Dijon", "embed_id": "7cTINeBX9zKzGM7KsEYuR2" },
+    { "title": "Housewerk", "artist": "Spotify", "curator": "Spotify", "embed_id": "37i9dQZF1DXa8NOEUWPn9W" },
+    { "title": "Defected 2026", "artist": "Defected Records", "curator": "Defected Records", "embed_id": "7hkduGkMRHv6hy05nPdM45" },
+    { "title": "Toolroom Tech House", "artist": "Toolroom Records", "curator": "Toolroom Records", "embed_id": "6J1r02xyO2qkMA9dDNZytJ" },
+    { "title": "Deep House 2026", "artist": "Selected", "curator": "Selected", "embed_id": "6vDGVr652ztNWKZuHvsFvx" },
+    { "title": "Anjunadeep 2026", "artist": "Anjunadeep", "curator": "Anjunadeep", "embed_id": "2wSNKxLM217jpZnkAgYZPH" },
+    { "title": "Afro House Pulse", "artist": "Spotify", "curator": "Spotify", "embed_id": "37i9dQZF1DX5wO3czN5dc1" },
+    { "title": "Feel My Bicep", "artist": "Bicep", "curator": "Bicep", "embed_id": "4ac1R7BdsmDVK78bv3YAOT" }
+  ],
+  "figures": [],
+  "known_gaps": [{"title":"Spotify playlist changes", "why":"Spotify can change playlist titles, artwork and opening tracks after the checked date."}]
+}

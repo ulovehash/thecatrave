@@ -1,0 +1,19 @@
+{
+  "page": "best-techno-mixes.html",
+  "source": "thecatrave Selector catalogue metadata and official broadcaster YouTube IDs, checked 29 September 2026",
+  "note": "The page uses official Mixmag, DJ Mag, Boiler Room and HÖR uploads. The Robert Hood recording differs from the one embedded in the techno history guide.",
+  "required_records": [
+    { "title": "Juan Atkins", "artist": "Juan Atkins", "publisher": "Mixmag", "year": 2015, "embed_id": "9SuKJ-dbmbg" },
+    { "title": "Robert Hood", "artist": "Robert Hood", "publisher": "DJ Mag", "year": 2019, "embed_id": "S2UORWQz_7k" },
+    { "title": "DJ Stingray", "artist": "DJ Stingray", "publisher": "Boiler Room", "year": 2017, "embed_id": "7AGJp9_B_gM" },
+    { "title": "Jeff Mills", "artist": "Jeff Mills", "publisher": "Mixmag", "year": 2019, "embed_id": "jOVB05K9GPU" },
+    { "title": "Surgeon", "artist": "Surgeon", "publisher": "Boiler Room", "year": 2014, "embed_id": "Ww9VtKqprUY" },
+    { "title": "Ben Klock", "artist": "Ben Klock", "publisher": "Boiler Room", "year": 2013, "embed_id": "DGWL7YI_2rI" },
+    { "title": "Helena Hauff b2b L.F.T.", "artist": "Helena Hauff b2b L.F.T.", "publisher": "HÖR", "year": 2020, "embed_id": "u2qaQLKkVDA" },
+    { "title": "Wata Igarashi", "artist": "Wata Igarashi", "publisher": "HÖR", "year": 2023, "embed_id": "ku54y2l54Sc" },
+    { "title": "Rødhåd", "artist": "Rødhåd", "publisher": "Boiler Room", "year": 2023, "embed_id": "oNYarqQNev0" },
+    { "title": "Fadi Mohem", "artist": "Fadi Mohem", "publisher": "Boiler Room", "year": 2024, "embed_id": "rTtVMHFlwoM" }
+  ],
+  "figures": [],
+  "known_gaps": [{"title":"Unavailable recordings", "why":"The selections privilege legally embeddable official recordings over unavailable commercial mix CDs and bootleg archives."}]
+}

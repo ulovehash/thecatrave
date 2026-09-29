@@ -8,13 +8,50 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best House Music Playlists on Spotify: 12 Curated Picks</title>
+    <link>https://thecatrave.com/best-house-music-playlists-spotify</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-house-music-playlists-spotify</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Ten focused house playlists plus two disclosed thecatrave selections spanning house, techno and the spaces between them.</description>
+    <category>house</category>
+    <category>discovery</category>
+    <category>tools</category>
+    <media:content url="https://thecatrave.com/img/og/best-house-music-playlists-spotify.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Techno Mixes: 10 Essential DJ Sets</title>
+    <link>https://thecatrave.com/best-techno-mixes</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-techno-mixes</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Ten complete techno recordings, from Juan Atkins, Robert Hood and Jeff Mills to Wata Igarashi and Fadi Mohem.</description>
+    <category>techno</category>
+    <category>history</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/best-techno-mixes.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best SoundCloud DJ Mixes, Plus One Personal Pick</title>
+    <link>https://thecatrave.com/best-soundcloud-dj-mixes</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-soundcloud-dj-mixes</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Eight editorial selections with a clear point of view, plus one clearly disclosed thecatrave mix worth your time.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <category>house</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/best-soundcloud-dj-mixes.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Awakenings Festival: What It Is and Where It Happens</title>
     <link>https://thecatrave.com/awakenings-festival</link>
