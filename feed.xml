@@ -16,12 +16,56 @@
     <link>https://thecatrave.com/</link>
   </image>
   <item>
+    <title>EXIT Festival: History, Petrovaradin Fortress and What Comes Next</title>
+    <link>https://thecatrave.com/exit-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/exit-festival</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>From a Novi Sad student movement and the Dance Arena at Petrovaradin Fortress to the post-2025 global tour.</description>
+    <category>festivals</category>
+    <category>europe-festivals</category>
+    <category>history</category>
+    <category>house</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/exit-festival.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Airbeat One Festival 2027: Dates, Stages, Camping and Travel</title>
+    <link>https://thecatrave.com/airbeat-one-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/airbeat-one-festival</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>An airfield festival for EDM, techno, hardstyle and psytrance, with camping operating as part of the event.</description>
+    <category>festivals</category>
+    <category>europe-festivals</category>
+    <category>techno</category>
+    <category>hardstyle</category>
+    <category>trance</category>
+    <media:content url="https://thecatrave.com/img/og/airbeat-one-festival.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>ARC Music Festival 2027: Chicago Guide, Stages and Travel</title>
+    <link>https://thecatrave.com/arc-music-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/arc-music-festival</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Chicago house history, international techno, the compact Union Park site and the city-wide After Dark programme.</description>
+    <category>festivals</category>
+    <category>history</category>
+    <category>house</category>
+    <category>techno</category>
+    <category>chicago</category>
+    <media:content url="https://thecatrave.com/img/og/arc-music-festival.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
     <title>Monegros Desert Festival 2027: Date, History and Guide</title>
     <link>https://thecatrave.com/monegros-desert-festival</link>
     <guid isPermaLink="true">https://thecatrave.com/monegros-desert-festival</guid>
     <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     <dc:creator>thecatrave</dc:creator>
     <description>One long electronic event on exposed land near Fraga, with roots in Florida 135 and stages running through the night.</description>
+    <category>festivals</category>
+    <category>europe-festivals</category>
     <category>discovery</category>
     <category>history</category>
     <category>techno</category>
@@ -35,6 +79,8 @@
     <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     <dc:creator>thecatrave</dc:creator>
     <description>A five-day camping festival built as a fictional city, with soundsystem culture, electronic music, live bands and street theatre.</description>
+    <category>festivals</category>
+    <category>europe-festivals</category>
     <category>discovery</category>
     <category>history</category>
     <category>jungle</category>
@@ -48,6 +94,8 @@
     <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     <dc:creator>thecatrave</dc:creator>
     <description>Five days on Óbuda Island, with pop, rock and hip-hop beside club stages, theatre, circus and a rail link into Budapest.</description>
+    <category>festivals</category>
+    <category>europe-festivals</category>
     <category>discovery</category>
     <category>history</category>
     <category>house</category>

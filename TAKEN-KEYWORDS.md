@@ -10,6 +10,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - what is acid house
 - acid house music
 
+## airbeat-one-festival.html
+
+- airbeat one
+- airbeat one festival
+- airbeat one 2027
+- airbeat one tickets
+
 ## best-clubs-in-amsterdam.html
 
 - amsterdam clubs
@@ -20,6 +27,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top clubs in amsterdam
 - famous club in amsterdam
 - biggest nightclub in amsterdam
+
+## arc-music-festival.html
+
+- arc music festival
+- arc festival chicago
+- arc music festival tickets
 
 ## awakenings-festival.html
 
@@ -466,6 +479,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 ## best-electronic-music-festivals-europe.html
 
 - electronic music festivals in europe
+
+## exit-festival.html
+
+- exit festival
+- exit festival novi sad
+- exit festival serbia
 
 ## fr/acid-house.html
 

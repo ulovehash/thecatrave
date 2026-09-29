@@ -1,0 +1,9 @@
+{
+  "page":"exit-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/exit-festival/exit-fortress-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Petrovaradin_fortress_during_the_Exit_festival.jpg","author":"EXIT photo team","license":"CC BY-SA 3.0","dimensions":"800x509","purpose":"festival geography inside Petrovaradin"},
+    {"file":"img/exit-festival/exit-crowd-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Crowd,_Petrovaradin_Fortress,_2015.jpg","author":"Jelena Ivanovic, EXIT photo team","license":"CC BY-SA 3.0","dimensions":"1200x784","purpose":"crowd scale inside the fortress"}
+  ],
+  "listening":[{"artist":"Space Motion","title":"Live at Dance Arena","year":2025,"platform":"YouTube","id":"wbBthuF42TU","verification":"official EXIT recording"}],
+  "rejected":[{"asset":"rights-reserved press photography","why":"licence not suitable for publication"}]
+}

@@ -3,7 +3,10 @@ import fs from 'node:fs';
 const pages = [
   ['sziget-festival.html', 'https://thecatrave.com/sziget-festival'],
   ['boomtown-festival.html', 'https://thecatrave.com/boomtown-festival'],
-  ['monegros-desert-festival.html', 'https://thecatrave.com/monegros-desert-festival']
+  ['monegros-desert-festival.html', 'https://thecatrave.com/monegros-desert-festival'],
+  ['arc-music-festival.html', 'https://thecatrave.com/arc-music-festival'],
+  ['airbeat-one-festival.html', 'https://thecatrave.com/airbeat-one-festival'],
+  ['exit-festival.html', 'https://thecatrave.com/exit-festival']
 ];
 
 const failures = [];
@@ -25,4 +28,4 @@ if (failures.length) {
   console.error(failures.map(item => `✗ ${item}`).join('\n'));
   process.exit(1);
 }
-console.log('✔ Sziget, Boomtown and Monegros page-specific checks passed.');
+console.log('✔ Six shared-builder festival guides passed page-specific checks.');

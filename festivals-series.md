@@ -25,7 +25,7 @@ The current full DJ Mag audit and no-Ahrefs working queue are maintained in
 | 9 | Amsterdam Dance Event | 7,900 | 700 | volumes only |
 | 10 | Monegros | 7,800 | 100 | volumes only |
 | 11 | Awakenings | 6,500 | 700 | **published** `/awakenings-festival`, 2026-09-25, replaced Boom Festival in the owner's row-8 wave-3 picks after Boom's stage-4 research found zero article slots (`TOPIC-DOSSIERS.md`); stage 6 not run separately |
-| 12 | EXIT | 5,200 | 400 | volumes only |
+| 12 | EXIT | 5,200 | 400 | **published** `/exit-festival`, 2026-09-29; history and current-status guide because no new Novi Sad edition is confirmed |
 | 13 | Movement Detroit | 4,300 | 4,000 | SERP checked: weak; TP 6,300 |
 | 14 | Sónar | 3,800 | 250 | **published** `/sonar-festival-barcelona`, 2026-09-14, the owner's pick from two exports (`sonar-research.md`); related terms and stage 6 not run |
 | — | Mysteryland | 20,000 | 150 | **written**, build prepared as `/mysteryland-festival`, 2026-09-14, the owner's pick from two exports (`mysteryland-research.md`); no 2026 edition, 2027 first; stage 6 not run |

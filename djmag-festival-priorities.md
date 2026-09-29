@@ -16,7 +16,7 @@ festival-specific export. Franchise editions are normally sections or updates
 to an existing parent guide unless their own SERP proves that a separate page
 is wanted.
 
-## Already written (12)
+## Already written (15)
 
 | DJ Mag rank | Festival | Page / state |
 |---:|---|---|
@@ -29,8 +29,11 @@ is wanted.
 | 10 | Parookaville | `/parookaville-festival` |
 | 12 | Coachella | `/what-is-coachella` |
 | 15 | Mysteryland | written; build is prepared as `/mysteryland-festival` |
+| 24 | EXIT Festival | `/exit-festival` |
 | 31 | Burning Man | `/what-is-burning-man` |
 | 38 | Sónar | `/sonar-festival-barcelona` |
+| 41 | ARC Music Festival | `/arc-music-festival` |
+| 46 | Airbeat One | `/airbeat-one-festival` |
 | 61 | Lollapalooza | `/lollapalooza-festival` |
 
 ## Priority queue
@@ -47,9 +50,9 @@ the keyword export; we do not spend Ahrefs units.
 | 5 | Awakenings Festival | 10K–100K | Distinct electronic-music intent and existing exact estimate of 6,500 |
 | 6 | Boomtown | 10K–100K | Strong demand; verify festival share of the head term |
 | 7 | Monegros Desert Festival | 10K–100K | Distinct query; earlier exact estimate 7,800 |
-| 8 | EXIT Festival | 10K–100K | Distinct festival intent; earlier exact estimate 5,200 |
-| 9 | ARC Music Festival | 10K–100K | Clean festival phrase and sizeable bucket |
-| 10 | Airbeat One | 10K–100K | Distinct brand query and high DJ Mag position |
+| 8 | EXIT Festival | 10K–100K | Written as `/exit-festival`; current-status framing reflects the end of the Novi Sad run |
+| 9 | ARC Music Festival | 10K–100K | Written as `/arc-music-festival`; 2027 dates remain unannounced |
+| 10 | Airbeat One | 10K–100K | Written as `/airbeat-one-festival`; official 2027 dates confirmed |
 | 11 | World Club Dome | 10K–100K | Distinct brand query and high DJ Mag position |
 | 12 | Houghton Festival | 10K–100K | Clean festival phrase; strong commercial bids suggest useful planning intent |
 | 13 | CRSSD Festival | 10K–100K | Clean festival query with meaningful US audience |
@@ -114,7 +117,7 @@ the keyword export; we do not spend Ahrefs units.
 | 21 | AMF | amf | 100K–1M | Collision; verify |
 | 22 | Terminal V | terminal v | 1K–10K | Backlog |
 | 23 | World Club Dome | world club dome | 10K–100K | Priority 11 |
-| 24 | EXIT Festival | exit festival | 10K–100K | Priority 8 |
+| 24 | EXIT Festival | exit festival | 10K–100K | Written |
 | 25 | World DJ Festival | world dj festival | 1K–10K | Backlog |
 | 26 | Monegros Desert Festival | monegros desert festival | 10K–100K | Priority 7 |
 | 27 | 808 Festival | 808 festival | 1K–10K | Backlog |
@@ -131,12 +134,12 @@ the keyword export; we do not spend Ahrefs units.
 | 38 | Sónar | sonar festival | 10K–100K | Written |
 | 39 | Nibirii Festival | nibirii festival | 10K–100K | Backlog; regional check |
 | 40 | Veld Music Festival | veld music festival | 1K–10K | Backlog |
-| 41 | ARC Music Festival | arc music festival | 10K–100K | Priority 9 |
+| 41 | ARC Music Festival | arc music festival | 10K–100K | Written |
 | 42 | Tomorrowland Winter | tomorrowland winter | 10K–100K | Expand Tomorrowland |
 | 43 | Houghton Festival | houghton festival | 10K–100K | Priority 12 |
 | 44 | Positiv | positiv festival | 1K–10K | Backlog |
 | 45 | EDC Mexico | edc mexico | 10K–100K | Priority 17 / expand EDC |
-| 46 | Airbeat One | airbeat one | 10K–100K | Priority 10 |
+| 46 | Airbeat One | airbeat one | 10K–100K | Written |
 | 47 | Ultra Europe | ultra europe | 10K–100K | Expand Ultra |
 | 48 | Loveland | loveland festival | 10K–100K | Backlog |
 | 49 | Dimensions Festival | dimensions festival | 1K–10K | Backlog |

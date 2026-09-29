@@ -434,6 +434,30 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'Wide view of Monegros Desert Festival stages and crowd in 2009'
   },
   {
+    page:'arc-music-festival.html', category:'festivals', tags:['festivals','history','house','techno','chicago'], href:'/arc-music-festival', type:'Guide', topic:'ARC Music Festival',
+    title:'ARC Music Festival 2027: Chicago Guide, Stages and Travel',
+    description:'Chicago house history, international techno, the compact Union Park site and the city-wide After Dark programme.',
+    image:'img/arc-music-festival/arc-union-park-320.webp',
+    srcset:'img/arc-music-festival/arc-union-park-320.webp 320w,img/arc-music-festival/arc-union-park-1200.webp 1024w',
+    width:1024, height:768, alt:'Union Park in Chicago with the downtown skyline behind it'
+  },
+  {
+    page:'airbeat-one-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','hardstyle','trance'], href:'/airbeat-one-festival', type:'Guide', topic:'Airbeat One Festival',
+    title:'Airbeat One Festival 2027: Dates, Stages, Camping and Travel',
+    description:'An airfield festival for EDM, techno, hardstyle and psytrance, with camping operating as part of the event.',
+    image:'img/airbeat-one/airbeat-arena-320.webp',
+    srcset:'img/airbeat-one/airbeat-arena-320.webp 320w,img/airbeat-one/airbeat-arena-1200.webp 1200w',
+    width:1200, height:754, alt:'Crowd and production inside the Airbeat One Arena Stage in 2025'
+  },
+  {
+    page:'exit-festival.html', category:'festivals', tags:['festivals','europe-festivals','history','house','techno'], href:'/exit-festival', type:'Guide', topic:'EXIT Festival',
+    title:'EXIT Festival: History, Petrovaradin Fortress and What Comes Next',
+    description:'From a Novi Sad student movement and the Dance Arena at Petrovaradin Fortress to the post-2025 global tour.',
+    image:'img/exit-festival/exit-fortress-320.webp',
+    srcset:'img/exit-festival/exit-fortress-320.webp 320w,img/exit-festival/exit-fortress-1200.webp 800w',
+    width:800, height:509, alt:'Petrovaradin Fortress illuminated during EXIT Festival'
+  },
+  {
     page:'grime-music-guide.html', category:'music-history', tags:['uk','history','bass','jungle'], href:'/grime-music-guide', type:'Guide', topic:'Grime',
     title:'What Is Grime Music? Its Sound, History, Artists and Tracks',
     description:'Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.',

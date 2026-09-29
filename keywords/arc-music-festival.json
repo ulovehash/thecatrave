@@ -1,0 +1,16 @@
+{
+  "page": "arc-music-festival.html",
+  "seed": "arc music festival",
+  "source": "Google Ads Keyword Planner, all locations and all languages, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
+  "terms": [
+    {"term":"arc music festival","volume":"10K-100K","note":"primary brand and informational term"},
+    {"term":"arc festival chicago","volume":"1K-10K","note":"location variant"},
+    {"term":"arc music festival tickets","volume":"1K-10K","note":"transactional, routed to official source"}
+  ],
+  "paa": ["Where is ARC Music Festival?","Is ARC Music Festival 18 plus?","How do you get to ARC Music Festival?"],
+  "excluded": [
+    {"term":"arc music festival 2027 lineup","why":"not announced"},
+    {"term":"arc festival tickets price","why":"volatile and transactional"},
+    {"term":"arctangent festival","why":"different event and intent"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "page":"airbeat-one-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/airbeat-one/airbeat-arena-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Airbeat_One_Arena_Stage.jpg","author":"Bildersindtoll","license":"CC0 1.0","dimensions":"1200x754","purpose":"Arena Stage identity"},
+    {"file":"img/airbeat-one/airbeat-airfield-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Neustadt-Glewe_airfield.jpg","author":"Carsten Steger","license":"CC BY-SA 4.0","dimensions":"1200x768","purpose":"airfield geography and camping scale"}
+  ],
+  "listening":[{"artist":"Paul van Dyk","title":"Live at Airbeat One Festival","year":2025,"platform":"YouTube","id":"wETX6I_EDUo","verification":"DJ Mag recording from Second Stage"}],
+  "rejected":[{"asset":"official promotional photography","why":"reuse rights not established"}]
+}

@@ -11,6 +11,8 @@ export const festivalEditions = [
   {page: 'sziget-festival.html', heading: 'Sziget Festival 2027', ends: '2027-08-14'},
   {page: 'boomtown-festival.html', heading: 'Boomtown 2027', ends: '2027-08-15'},
   {page: 'monegros-desert-festival.html', heading: 'Monegros Desert Festival 2027', ends: '2027-07-31'},
+  {page: 'arc-music-festival.html', heading: 'ARC Music Festival 2027', ends: null},
+  {page: 'airbeat-one-festival.html', heading: 'Airbeat One 2027', ends: '2027-07-11'},
   {page: 'untold-festival.html', heading: 'Untold 2027', ends: '2027-08-08'},
   // The French translation carries the same dates and rolls with the English
   // page.

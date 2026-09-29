@@ -1,0 +1,15 @@
+{
+  "page": "exit-festival.html",
+  "seed": "exit festival",
+  "source": "Google Ads Keyword Planner, all locations and all languages, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
+  "terms": [
+    {"term":"exit festival","volume":"10K-100K","note":"primary brand, history and current-status term"},
+    {"term":"exit festival novi sad","volume":"1K-10K","note":"historic location variant"},
+    {"term":"exit festival serbia","volume":"100-1K","note":"historic location and status"}
+  ],
+  "paa": ["Where was EXIT Festival held?","Is EXIT Festival still in Serbia?","Is EXIT moving to Egypt?"],
+  "excluded": [
+    {"term":"exit festival 2027 dates","why":"no Novi Sad edition is confirmed"},
+    {"term":"exit festival tickets","why":"current tickets belong to separate tour events"}
+  ]
+}

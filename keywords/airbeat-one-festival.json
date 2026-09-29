@@ -1,0 +1,16 @@
+{
+  "page": "airbeat-one-festival.html",
+  "seed": "airbeat one",
+  "source": "Google Ads Keyword Planner, all locations and all languages, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
+  "terms": [
+    {"term":"airbeat one","volume":"10K-100K","note":"primary brand term"},
+    {"term":"airbeat one festival","volume":"1K-10K","note":"festival variant"},
+    {"term":"airbeat one 2027","volume":"1K-10K","note":"confirmed current edition"},
+    {"term":"airbeat one tickets","volume":"1K-10K","note":"transactional, routed to official source"}
+  ],
+  "paa": ["Where is Airbeat One Festival?","When is Airbeat One 2027?","Is Airbeat One a camping festival?"],
+  "excluded": [
+    {"term":"airbeat one ticket price","why":"volatile and transactional"},
+    {"term":"airbeat one 2027 full lineup","why":"not complete"}
+  ]
+}

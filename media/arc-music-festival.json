@@ -1,0 +1,9 @@
+{
+  "page":"arc-music-festival.html","checked":"2026-09-29",
+  "images":[
+    {"file":"img/arc-music-festival/arc-union-park-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Chicago_Union_Park.jpg","author":"soundfromwayout","license":"CC BY 2.0","dimensions":"1024x768","purpose":"Union Park geography and scale"},
+    {"file":"img/arc-music-festival/arc-frankie-knuckles-way-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Frankie_Knuckles_Way_-_June_2022_-_Sarah_Stierch.jpg","author":"Sarah Stierch","license":"CC BY 4.0","dimensions":"1200x900","purpose":"Chicago house history in the city"}
+  ],
+  "listening":[{"artist":"ARC Music Festival","title":"2025 recap","year":2025,"platform":"YouTube","id":"IEwo9y1e5sQ","verification":"official ARC channel"}],
+  "rejected":[{"asset":"festival press photography","why":"reuse rights not established"}]
+}
