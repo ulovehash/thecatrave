@@ -49,7 +49,7 @@ Ready to build. No unresolved factual, structural, media or SEO blocker.
 
 This addendum overrides any earlier "pass" line above that conflicts with it. The earlier review recorded passes without showing what was checked, and other guides reviewed the same way were later found to need changes. This review is not independent: the same agent that audited the page wrote it. Stage 6 (topic research validation) was not run independently for this guide.
 
-**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `Wikipedia` 0, `jungle` 6 (Djrum and SHERELLE mixes and the answer line: the mixes really are jungle-touching, and there is no link to the jungle guide), `breaks` 5 (the answer, Djrum, and the owner's mix and Bandcamp copy), `an hour` 1 (the H2, see below), em dashes 0.
+**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `Wikipedia` 0, `jungle` 6 (Djrum and SHERELLE mixes and the answer line: the mixes really are jungle-touching, and there is no link to the jungle guide), `breaks` 5 (the answer, Djrum, and the owner's mix and Bandcamp copy), `an hour` 1 (the H2, kept by the owner, see Decision), em dashes 0.
 
 **Listening.** Nine SoundCloud embeds (eight DJ Mag Recognise and Dekmantel Podcast mixes plus the owner's). The selection rests on publisher provenance, not popularity, as the page says. Accounts were checked on 29 September 2026; not re-checked in this pass.
 
@@ -57,6 +57,6 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 
 **Humanizer record (before and after), applied 2026-09-30.** "treat a mix as a complete piece of programming" became "plan a mix with care". "The best SoundCloud mixes reward that full-hour attention." was cut. "the hour into a demonstration reel" became "the mix into a demonstration reel". "for the fastest hour" became "for the fastest mix". "The platform is only the container." was cut. The SHERELLE jungle aside became "Footwork and jungle sit side by side here, and the mix moves between their different rhythmic grids."
 
-**Open finding, not yet edited (published copy).** The section title "A mix should make an hour mean something." sells length, which `WRITING.md` forbids. Proposed: "A mix should make its running order mean something."
+**Decision, owner, 2026-09-30.** The section title "A mix should make an hour mean something." stays as it is. It does not call a set full or complete, so it is not a `WRITING.md` violation; an earlier draft of this review wrongly called it one.
 
 **Owner's mix.** "I Like to Smoke in Silence After Raves" stays, disclosed, not called one of the best.
