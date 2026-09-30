@@ -24,7 +24,7 @@ Carol Marvin and Pop Culture Media organised the first Detroit Electronic Music 
 
 Ford sponsored the event in 2001 and 2002, when it became the Focus Detroit Electronic Music Festival. Derrick May produced the 2003 edition under the name Movement. Kevin Saunderson took over in 2005, renamed it Fuse-In and introduced paid admission as a way to keep the event operating.
 
-Paxahau assumed production in 2006 and restored the Movement name. That sequence is easy to flatten into a smooth rebrand, but it involved different organisers, funding models and artistic leadership. The continuous pieces were Hart Plaza, Memorial Day weekend and the claim that Detroit's electronic history deserved a major public festival.
+Paxahau assumed production in 2006 and restored the Movement name. The organisers, funding and artistic leadership changed at each step. What stayed the same was Hart Plaza, Memorial Day weekend and the case that Detroit's electronic history deserved a major public festival.
 
 The 2020 festival was cancelled during the Covid-19 pandemic after an attempted postponement and online programming. Movement returned to Hart Plaza in 2022.
 
@@ -32,9 +32,9 @@ The 2020 festival was cancelled during the Covid-19 pandemic after an attempted 
 
 Detroit techno existed long before Movement. Juan Atkins, Derrick May and Kevin Saunderson developed the music through records, radio influences and small clubs in the 1980s. Eddie Fowlkes, Jeff Mills, Underground Resistance, K-Hand and Carl Craig expanded the city's sound through different generations. Movement did not create that history; it built a recurring public event around it.
 
-That history predates the festival, even though Movement uses the birthplace of techno as part of its identity. The Detroit Stage gives current local artists their own platform, while other stages regularly place city figures beside international artists shaped by their records.
+The Detroit Stage gives current local artists their own platform, while other stages regularly place city figures beside international artists shaped by their records.
 
-The Detroit Historical Society recorded the 2002 festival and later digitised three and a half hours of footage. Its archive includes Juan Atkins on the main stage, Eddie Fowlkes, K-Hand and interviews with the artists and organisers. These tapes show the event before the current branding settled, with Detroit's own performers already carrying the argument.
+The Detroit Historical Society recorded the 2002 festival and later digitised three and a half hours of footage. Its archive includes Juan Atkins on the main stage, Eddie Fowlkes, K-Hand and interviews with the artists and organisers. These tapes show the event before the current branding settled, with Detroit's own performers already on the bill.
 
 ## What music and stages to expect
 
@@ -42,7 +42,7 @@ Movement has six stages, and the differences between them help explain why calli
 
 The Waterfront Stage has the widest brief, including funk, hip-hop, breakbeats and ghettotech. Stargate is framed as a Detroit block party, while the Pyramid Stage uses the open riverfront setting. Stage sponsors and exact programming can change, so these descriptions are orientation rather than a promise about a future timetable.
 
-Techno still gives the weekend its centre of gravity. House and electro belong to the same Detroit history, while hip-hop, live electronics and leftfield bookings widen the programme. That range does not erase the festival's location or its techno lineage.
+Techno is still the centre of the weekend. House and electro belong to the same Detroit history, while hip-hop, live electronics and leftfield bookings widen the programme.
 
 ## Movement Detroit dates and lineup
 
