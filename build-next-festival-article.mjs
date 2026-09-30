@@ -46,7 +46,7 @@ export function buildFestivalArticle(config) {
   const video = articleVideoCollection({
     label: 'Essential listening',
     description: config.video.description,
-    items: [articleVideoCard(config.video.card)]
+    items: (config.video.cards || [config.video.card]).map(articleVideoCard)
   });
   const facts = articleTable({headers: ['Fact', 'Current information'], rows: config.facts, label: config.factsLabel});
   const bodies = {};

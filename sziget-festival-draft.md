@@ -6,7 +6,7 @@ Sziget is a five-day music and arts festival on Óbuda Island in Budapest. The 2
 
 ## Introduction
 
-Sziget is large enough to feel like a temporary district of Budapest. The official programme describes more than 1,000 shows across 50 stages, with circus, theatre, installations and workshops beside the music. That breadth is the point. Sziget is often placed in electronic-festival lists because it has substantial dance programming, but it is a multi-genre festival rather than an EDM event.
+Sziget is large enough to feel like a temporary district of Budapest. The official programme describes more than 1,000 shows across 50 stages, with circus, theatre, installations and workshops beside the music. Sziget is often placed in electronic-festival lists because it has substantial dance programming, but it is a multi-genre festival rather than an EDM event.
 
 ## Sziget Festival 2027
 
@@ -28,7 +28,9 @@ The scale needs careful language. A 2026 production interview reported an overal
 
 Sziget's main stages book international pop, rock, alternative and hip-hop acts. Elsewhere on the island, electronic programming moves between house, techno, trance and bass music. The Colosseum has been one of its clearest dance-music spaces, built around club sets rather than headline pop production.
 
-[Embed: Secret Factory]
+[Embed: Eelke Kleijn and Shimza]
+
+Eelke Kleijn’s 2022 Colosseum set and Shimza’s 2025 set show the club-set approach, one melodic and one Afro tech.
 
 That range makes Sziget useful for mixed groups. Someone can spend the afternoon at a band, move into an electronic stage after dark and encounter theatre on the walk between them. It also means the festival will frustrate anyone looking for one tightly defined genre across the entire site.
 

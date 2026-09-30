@@ -132,7 +132,7 @@ const articleHtml = [
     title: 'Hardstyle: distorted kicks, reverse bass and festival scale',
     deck: 'A late-1990s exchange between hard house, hard trance and hardcore that became the central sound of a Dutch festival circuit.',
     readingTime, dateModified, dateLabel,
-    summaryHtml: infoBanner({label: 'Hardstyle definition', bodyHtml: inline(whatIs[0]), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'Hardstyle definition', bodyHtml: 'Hardstyle is dance music at 145 to 155 BPM built on a distorted, pitched kick drum and big melodic breakdowns.', className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The kick carries the record.', bodyHtml: join(intro), className: 'article-intro'}),

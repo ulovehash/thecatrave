@@ -38,9 +38,9 @@ The Dance Arena used the fortress moat as a large outdoor electronic room. Its d
 
 EXIT was a multi-genre festival. Its main stages booked rock, punk, hip-hop, pop and electronic headliners, while other areas carried reggae, metal, bass music and regional artists. The Dance Arena developed a clearer house and techno identity, hosting artists such as Carl Cox, Green Velvet, Solomun, Nina Kraviz, Amelie Lens and Charlotte de Witte across different years.
 
-[Embed: Space Motion]
+[Embed: Keinemusik and Nina Kraviz]
 
-The 2025 Space Motion recording shows the late-night scale of the Dance Arena in the final Novi Sad edition. It belongs here as evidence of the fortress format, not as a promise about the sound or setting of every future EXIT-produced event.
+The 2023 Keinemusik and 2016 Nina Kraviz recordings are among the most-viewed from the Dance Arena on EXIT’s own channel. They belong here as evidence of the fortress format, not as a promise about the sound or setting of every future EXIT-produced event.
 
 ## EXIT as a festival network
 

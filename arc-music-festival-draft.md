@@ -22,13 +22,15 @@ The 2026 edition ran from 4 to 7 September. It was the first four-day ARC, and t
 
 House and techno define ARC. The bookings move from Chicago house and Detroit techno into tech house, melodic material, harder contemporary techno and large back-to-back sets. The festival has repeatedly billed local originators beside newer international names rather than placing Chicago history in a token side slot.
 
-[Embed: ARC recap]
+[Embed: ARC sets]
 
-Stage identities help separate those strands, although names and hosts can change. The Grid has usually carried the largest productions. Expansions has leaned toward house and techno in a tree-lined part of the park, while Area 909 has given Chicago and Detroit material a smaller, more direct setting. Previous editions also included an elrow-hosted environment, but the 2026 site changes are a reminder that an old map is never permanent.
+The two sets above are Boys Noize b2b VTSS, filmed for Mixmag Lab at ARC, and Nicole Moudaber’s 2025 set. Both come from the techno side of the bill.
+
+Stage identities help separate those strands, although names and hosts can change. The Grid has usually carried the largest productions. Expansions has leaned toward house and techno in a tree-lined part of the park, while Area 909 has given Chicago and Detroit material a smaller, more direct setting. Previous editions also included an elrow-hosted environment, but the 2026 site changes mean an older stage list may be out of date.
 
 ## Why Chicago changes the festival
 
-House music developed through Chicago clubs, DJs, dancers and records during the early 1980s. ARC uses that history as a programming principle. The useful test is not whether every booking comes from Chicago. It is whether artists such as DJ Pierre, Derrick Carter, Gene Farris, DJ Heather and Green Velvet receive serious positions beside global headliners.
+House music developed through Chicago clubs, DJs, dancers and records during the early 1980s. ARC uses that history as a programming principle. Artists such as DJ Pierre, Derrick Carter, Gene Farris, DJ Heather and Green Velvet are billed beside global headliners, not in a side slot.
 
 [Image: Frankie Knuckles Way]
 
@@ -38,7 +40,7 @@ The connection continues beyond the park. ARC After Dark sends festival artists 
 
 ARC was conceived in 2020 by Auris Presents partners Nick Karounos, Stuart Hackley and John Curley. The first edition took place in Union Park on 4 and 5 September 2021. Its stated idea was to bring the global house circuit to the city where the music began, while giving Chicago artists comparable billing.
 
-The festival expanded after that two-day debut. By 2025 it had reached its fifth edition, and in 2026 it ran across four days. Growth does not make every recent feature permanent: stage hosts, operating days and park geometry have already changed between editions.
+The festival expanded after that two-day debut. By 2025 it had reached its fifth edition, and in 2026 it ran across four days. Stage hosts, operating days and park geometry have already changed between editions.
 
 ## Union Park and the stages
 

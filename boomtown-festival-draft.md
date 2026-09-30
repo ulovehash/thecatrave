@@ -18,7 +18,7 @@ The name needs one clarification. Boomtown Festival and Boomtown Fair refer to t
 
 ## A festival built as a city
 
-Boomtown divides its site into districts with their own architecture, venues and parts of a connected story. Street performers work between the stages, while opening and closing ceremonies give each annual chapter a beginning and an end. District names and geography can change, so an old map is evidence of one edition, not a permanent plan.
+Boomtown divides its site into districts with their own architecture, venues and parts of a connected story. Street performers work between the stages, while opening and closing ceremonies give each annual chapter a beginning and an end. District names and geography can change, so an old map shows one edition only.
 
 [Image: Opening ceremony]
 
@@ -28,7 +28,9 @@ The design rewards curiosity. Some of the most memorable rooms are deliberately 
 
 Boomtown has a strong UK bass and soundsystem foundation. Drum and bass, jungle, dub, reggae and ska run through its history, alongside techno, house, UK garage, hip-hop, punk and live music. Calling it a drum and bass festival captures one important strand and misses the rest.
 
-[Embed: Pearson Sound]
+[Embed: Wailers and Altern 8]
+
+The Wailers set from 2014 is the most-viewed Boomtown performance video I found, and it points to the reggae and soundsystem roots. Altern 8, filmed by Boiler Room in 2023, is the rave side.
 
 The programme works because those genres are not flattened into one main arena. A small electronic stage can sit beside a street built for performance, while larger spaces carry live bands or soundsystem culture. The exact allocations change with each chapter, so recent recordings are better evidence than an old list of stage names.
 

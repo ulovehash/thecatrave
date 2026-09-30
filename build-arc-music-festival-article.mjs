@@ -7,13 +7,13 @@ buildFestivalArticle({
   description:'ARC Music Festival brings house and techno to Union Park in Chicago. Learn about its stages, history, CTA travel, After Dark and pending 2027 edition.',
   kicker:'Chicago festival guide', h1:'ARC Music Festival: Chicago House, Techno and Union Park',
   deck:'A compact Labor Day festival where Chicago house history, Detroit techno and the international club circuit share Union Park.',
-  answerLabel:'What is ARC Music Festival', introTitle:'Chicago belongs inside the lineup.', factsLabel:'ARC Music Festival 2027 facts',
+  answerLabel:'What is ARC Music Festival', introTitle:'Chicago artists share the bill.', factsLabel:'ARC Music Festival 2027 facts',
   facts:[['2027 dates','Not yet announced'],['Location','Union Park, Chicago'],['Music','House and techno'],['Age','18 plus'],['2027 lineup','Not yet announced'],['Official updates','Registration is open on the ARC website']],
   figures:{
     frankie:{src:'img/arc-music-festival/arc-frankie-knuckles-way-1200.webp',srcset:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp 320w, img/arc-music-festival/arc-frankie-knuckles-way-1200.webp 1200w',width:1200,height:900,alt:'Frankie Knuckles Way street sign in Chicago',caption:'Frankie Knuckles Way marks the block beside the former Warehouse site. ARC draws on this history by billing Chicago artists beside current international headliners. Photograph: Sarah Stierch, CC BY 4.0.',className:'wide-archive-image'},
     park:{src:'img/arc-music-festival/arc-union-park-1200.webp',srcset:'img/arc-music-festival/arc-union-park-320.webp 320w, img/arc-music-festival/arc-union-park-1200.webp 1024w',width:1024,height:768,alt:'Union Park in Chicago with the downtown skyline behind it',caption:'Union Park is compact and close to the CTA. Its limited footprint also puts several festival sound systems near one another. Photograph: soundfromwayout, CC BY 2.0.',className:'wide-archive-image'}
   },
-  video:{description:'The official 2025 recap shows the scale of The Grid and the tighter stage environments inside Union Park.',card:{youtubeId:'IEwo9y1e5sQ',genre:'ARC, 2025',artist:'ARC Music Festival',title:'Official 2025 recap'}},
+  video:{description:'Boys Noize b2b VTSS at ARC for Mixmag Lab, and Nicole Moudaber at the 2025 edition. These are the most-viewed sets from ARC that I could find on YouTube.',cards:[{youtubeId:'_jysvzxpb0Q',genre:'MIXMAG LAB x ARC',artist:'Boys Noize b2b VTSS',title:'Mixmag Lab x ARC Music Festival'},{youtubeId:'6g7HHRV0HSE',genre:'ARC, 2025',artist:'Nicole Moudaber',title:'ARC Music Festival Chicago 2025'}]},
   sections:[
     {heading:'ARC Music Festival 2027',id:'arc-2027',toc:'2027 status',title:'ARC Music Festival 2027.',tableAfter:1},
     {heading:'What music ARC plays',id:'music',toc:'Music at ARC',title:'What music ARC plays.',videoAfter:1},

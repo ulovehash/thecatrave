@@ -178,7 +178,7 @@ const articleHtml = [
     readingTime,
     dateModified: date,
     dateLabel,
-    summaryHtml: infoBanner({label: 'Trance definition', bodyHtml: inline(whatIs[0]), className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'Trance definition', bodyHtml: 'Trance is dance music at 130 to 145 BPM built around one repeated melody, a long breakdown and the return of the drums.', className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The lights coming back on.', bodyHtml: join(intro), className: 'article-intro'}),
@@ -192,9 +192,10 @@ const articleHtml = [
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
 <li><a href="https://en.wikipedia.org/wiki/Trance_music" target="_blank" rel="noopener noreferrer">Wikipedia: Trance music</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sven_V%C3%A4th" target="_blank" rel="noopener noreferrer">Wikipedia: Sven Väth</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Paul_van_Dyk" target="_blank" rel="noopener noreferrer">Wikipedia: Paul van Dyk</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Armin_van_Buuren" target="_blank" rel="noopener noreferrer">Wikipedia: Armin van Buuren</a></li>
+<li><a href="https://www.beatportal.com/articles/51518-beatports-definitive-history-of-trance" target="_blank" rel="noopener noreferrer">Beatportal: Beatport's definitive history of trance</a></li>
+<li><a href="https://www.discogs.com/master/13879-Dance-2-Trance-We-Came-In-Peace" target="_blank" rel="noopener noreferrer">Discogs: Dance 2 Trance, We Came In Peace (1990)</a></li>
+<li><a href="https://edmidentity.com/2023/12/13/germanys-trance-legacy-from-berlin-to-frankfurt/" target="_blank" rel="noopener noreferrer">EDM Identity: Germany's trance legacy, from Berlin to Frankfurt</a></li>
+<li><a href="https://djmag.com/top100djs/2006" target="_blank" rel="noopener noreferrer">DJ Mag: Top 100 DJs 2006</a>, <a href="https://djmag.com/top100djs/2010" target="_blank" rel="noopener noreferrer">2010</a> and <a href="https://djmag.com/top100djs/2012" target="_blank" rel="noopener noreferrer">2012</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Ti%C3%ABsto" target="_blank" rel="noopener noreferrer">Wikipedia: Tiësto</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Platipus_Records" target="_blank" rel="noopener noreferrer">Wikipedia: Platipus Records</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Psychedelic_trance" target="_blank" rel="noopener noreferrer">Wikipedia: Psychedelic trance</a></li>

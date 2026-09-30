@@ -49,3 +49,25 @@ No publication blocker. The 2027 lineup, campsite products and access details re
 - SEO intent: pass
 - Media licensing and placement: pass
 - Implementation readiness: pass
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the earlier "pass" lines above where they conflict with it. The earlier review recorded passes without evidence, and the guide was later found to need changes (a single embed with no view-count evidence, AI-sounding phrases). This review is not independent: the same agent that wrote the guide and gathered the listening evidence produced it.
+
+**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `jungle` 0, `drum and bass` 0, `Wikipedia` 0, `breaks` 1 (the owner's own mix), `the point` 1 ("That breadth is the point.", a staged line; removed on 2026-09-30, now 0).
+
+**Listening evidence** (`festivals-series.md`: the festival's most popular sets, evidence shown, channel and oEmbed checked).
+
+| YouTube ID | Set | Evidence | Check |
+|---|---|---|---|
+| `uOAywzuvfzg` | Eelke Kleijn, Colosseum 2022 | 128k views | oEmbed resolved |
+| `KZvARnaDTEo` | Shimza, Sziget 2025 | 37k views | oEmbed resolved |
+
+**Internal links.** `/monegros-desert-festival`, `/exit-festival`, `/boomtown-festival`, `/best-clubs-in-nyc`. No dnb or jungle link.
+
+**Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
+
+**Humanizer record (before and after).** The staged line "That breadth is the point." was cut. A new paragraph reads "Eelke Kleijn's 2022 Colosseum set and Shimza's 2025 set show the club-set approach, one melodic and one Afro tech." The old Secret Factory embed was removed.
+
+**Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
+

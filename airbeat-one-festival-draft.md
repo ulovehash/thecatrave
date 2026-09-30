@@ -24,7 +24,7 @@ Airbeat One covers several large electronic audiences at once. The Mainstage cen
 
 [Embed: Paul van Dyk]
 
-The Paul van Dyk recording from the 2025 Second Stage is useful evidence of that range. Progressive trance, house and techno can sit on the same bill as harder styles and a commercial Mainstage without being pushed into a token daytime slot.
+Neelix’s 2024 set is psytrance and Paul van Dyk’s 2025 Second Stage recording is progressive trance. Both come from the same festival as the commercial Mainstage and the harder styles.
 
 ## A festival built around stage identities
 

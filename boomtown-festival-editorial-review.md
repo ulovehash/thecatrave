@@ -49,3 +49,25 @@ No blocker. Recheck 2027 district, transport and ownership detail in a future up
 - SEO intent: pass
 - Media licensing and placement: pass
 - Implementation readiness: pass
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the earlier "pass" lines above where they conflict with it. The earlier review recorded passes without evidence, and the guide was later found to need changes (a single embed with no view-count evidence, AI-sounding phrases). This review is not independent: the same agent that wrote the guide and gathered the listening evidence produced it.
+
+**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `Wikipedia` 0, `jungle` 3 and `drum and bass` 7: all in the festival programme description, the FAQ and the Bandcamp copy, where Boomtown's own line-up is being described, so they are on topic. `breaks` 1 (the owner's own mix).
+
+**Listening evidence** (`festivals-series.md`: the festival's most popular sets, evidence shown, channel and oEmbed checked).
+
+| YouTube ID | Set | Evidence | Check |
+|---|---|---|---|
+| `nx8LYGtQdDs` | The Wailers, Boomtown 2014 | 17.5M views, the most-viewed Boomtown performance video found | oEmbed resolved |
+| `aKxwl7rFCAE` | Altern 8, Boiler Room x Sports Banger, 2023 | 407k views, the rave side | oEmbed resolved |
+
+**Internal links.** `/sziget-festival`, `/monegros-desert-festival`, `/exit-festival`, `/state-of-electronic-music`. No dnb or jungle guide link.
+
+**Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
+
+**Humanizer record (before and after).** "so an old map shows one edition only" replaced a longer map metaphor; a new paragraph after the embed names the Wailers set and the Altern 8 set. The earlier Pearson Sound embed was removed, so the old review line "the exact Pearson Sound recording" is superseded.
+
+**Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
+

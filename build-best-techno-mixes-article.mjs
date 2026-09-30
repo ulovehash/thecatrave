@@ -46,7 +46,7 @@ function renderMixSection(heading) {
     const copy = paras(rest.join('\n').replace(/\n?\[Embed:[^\]]+\]\n?/, '\n\n'));
     if (copy.length !== 2) throw new Error(`${entryTitle} must have two editorial paragraphs`);
     const [youtubeId, genre, artist, videoTitle] = meta;
-    const player = articleVideoCollection({label:entryTitle.trim(), description:`Watch the complete ${videoTitle} recording on the broadcaster's official channel.`, items:[articleVideoCard({youtubeId, genre, artist, title:videoTitle})]});
+    const player = articleVideoCollection({label:entryTitle.trim(), description:`Watch the ${videoTitle} recording on the broadcaster's official channel.`, items:[articleVideoCard({youtubeId, genre, artist, title:videoTitle})]});
     return `<h3>${escapeHtml(entryTitle.trim())}</h3>${join(copy.slice(0, 1))}${player}${join(copy.slice(1))}`;
   }).join('\n');
 }
@@ -64,7 +64,7 @@ const tocItems = [
 ];
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 const articleHtml = [
-  articleHero({kicker:'Techno DJ mixes', title:'The best techno mixes, from Detroit to now', deck:'Ten complete recordings that show how different DJs shape techno over an hour, from Detroit machine funk to hypnotic and dubby contemporary sets.', readingTime, dateModified, dateLabel, summaryHtml:infoBanner({label:'Best techno mixes', bodyHtml:inline(answer[0]), className:'article-summary'}), tocItems}),
+  articleHero({kicker:'Techno DJ mixes', title:'The best techno mixes, from Detroit to now', deck:'Ten techno mixes chosen for how each DJ sequences records, from Detroit machine funk to hypnotic and dubby contemporary sets.', readingTime, dateModified, dateLabel, summaryHtml:infoBanner({label:'Best techno mixes', bodyHtml:inline(answer[0]), className:'article-summary'}), tocItems}),
   articleSection({id:'introduction', title:'The mix is where techno reveals its structure.', bodyHtml:join(intro), className:'article-intro'}),
   articleSection({id:'criteria', title:'What makes a techno mix essential?', bodyHtml:join(criteria)}),
   articleSection({id:'detroit', title:'Detroit: funk, minimalism and electro.', bodyHtml:renderMixSection('Detroit: funk, minimalism and electro')}),

@@ -4,6 +4,23 @@ Use this protocol for every substantial new article or rewrite after the outline
 
 Read `ARTICLE-PRODUCTION-WORKFLOW.md` and `AGENTS.md` first. This file does not replace the research, approval or preservation stages.
 
+## 0. Evidence standard: a pass with no evidence is a fail
+
+Added 2026-09-30 after twelve guides passed review carrying "complete" and "full" wording on DJ sets, a jungle aside on a non-dnb guide, thin festival listening, a wrong "five consecutive" poll fact, Wikipedia cited in the body and banners repeating the first paragraph. The review files said "pass" and "humanizer ran, found nothing". None of them showed what was checked.
+
+- **Every "pass" in §10 names its evidence:** the command run, the phrase searched, the URL opened or the line quoted. "Pass" alone is recorded as "not checked".
+- **Run the greps before writing "pass".** On the built page text, search for: `complete`, `full`, `whole`, `uninterrupted`, `an hour`, `in full` next to any mix, set or recording; `jungle`, `drum and bass`, `breaks` on any guide that is not about them; `Wikipedia` in the body; `not .* but`; `matters`; `the point`. Paste the hits and the decision on each. Zero hits is a valid result and is written as such.
+- **Every dated, numeric or "first / most / largest / consecutive" claim gets a ledger row with a URL you opened.** A source named from memory, or "widely reported", is confidence low. A run of years is checked year by year against the poll or chart page, not accepted as a range.
+- **Wikipedia is never the "best source" in the ledger** for a disputed claim, and never named in the body. If the only support is Wikipedia, the claim is qualified or cut.
+- **Superlatives need the sentence that proves them.** "No other genre matched", "largest audience ever" and similar are cut unless a source states them.
+- **Compare the banner, first section and FAQ answer.** If two of them share a sentence, rewrite one.
+- **Festival and series guides:** for each embedded set, record the view count or best-of list that justifies it, the channel it comes from and the oEmbed result (`festivals-series.md`). One embed with no evidence is a Major.
+- **Cross-guide links and reuse:** list every internal link and every reused mix, set or image, and say why each belongs on this page. A link to the jungle or drum and bass guide from another genre's guide needs a section that is about that music.
+- **The owner's own mixes, sets and Bandcamp tracks are promotion and stay.** Do not cut them. Check only that they are disclosed and not described as "best", "full" or "complete", and that no lineage claim is invented for them.
+- **Humanizer record:** paste three before/after sentences it changed. If it changed nothing, say so and quote the three sentences that were checked.
+- **Stage 6 (topic research validation)** is separate from this review. State whether it was run and by whom. If the reviewer also gathered the evidence, say the review is not independent.
+- **Re-review after any later edit** to the draft or builder. A review dated before the last edit does not cover it.
+
 ## 1. Required review inputs
 
 Do not begin a final review without:
@@ -146,7 +163,7 @@ Save the review as `<slug>-editorial-review.md` and use this structure:
 7. **Cuts or merges:** repetition, filler or off-intent material, with reasons.
 8. **Media actions:** exact additions, removals, replacements and placements.
 9. **Unresolved questions:** decisions requiring user approval or stronger evidence.
-10. **Final acceptance checklist:** clear pass or fail for facts, editorial quality, SEO preservation, media and implementation readiness.
+10. **Final acceptance checklist:** clear pass or fail for facts, editorial quality, SEO preservation, media and implementation readiness, each with the evidence required by §0.
 
 Use three severity levels:
 

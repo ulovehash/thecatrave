@@ -50,3 +50,25 @@ No publication blocker. Recheck the date against the full official 2027 informat
 - SEO intent: pass
 - Media licensing and placement: pass
 - Implementation readiness: pass
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the earlier "pass" lines above where they conflict with it. The earlier review recorded passes without evidence, and the guide was later found to need changes (a single embed with no view-count evidence, AI-sounding phrases). This review is not independent: the same agent that wrote the guide and gathered the listening evidence produced it.
+
+**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `jungle` 0, `Wikipedia` 0, `drum and bass` 3: all in the list of genres recent editions have booked, so on topic. `breaks` 1 (the owner's own mix).
+
+**Listening evidence** (`festivals-series.md`: the festival's most popular sets, evidence shown, channel and oEmbed checked).
+
+| YouTube ID | Set | Evidence | Check |
+|---|---|---|---|
+| `V4lH-KzsQi0` | Sama' Abdulhadi, Beatport Live | 1.9M views | oEmbed resolved |
+| `sx6_l6skb5o` | Indira Paganotto, closing set 2025 | 326k views, the festival's own channel | oEmbed resolved |
+
+**Internal links.** `/sziget-festival`, `/exit-festival`, `/boomtown-festival`, `/best-clubs-in-nyc`. No dnb or jungle guide link.
+
+**Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
+
+**Humanizer record (before and after).** The DJ Pepo sentence became a sentence naming Sama' Abdulhadi and Indira Paganotto, matching the two embeds.
+
+**Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
+The Sama' Abdulhadi video is from Beatport Live, not the festival's channel; the prose does not claim otherwise.

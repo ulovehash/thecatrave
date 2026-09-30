@@ -76,3 +76,35 @@ None. No decision in this review requires user approval beyond the standing publ
 | SEO preservation | Pass — all six measured terms present, title/H1/description distinct, FAQ matches structured data |
 | Media | Pass — four verified figures, two comparison tables, adjacency defect fixed |
 | Implementation readiness | Pass — `node audit-all.mjs`, `npm run check:html`, `npm run check:layout`, `npm run check:links` all green |
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the ledger and checklist above where they conflict. The original review marked claims "high" on Wikipedia or on a source named without a URL, and the guide then needed corrections. This review is not independent: the same agent wrote and corrected the guide.
+
+**Corrected ledger.**
+
+| Claim | Best source | Confidence | Action taken |
+|---|---|---|---|
+| Armin van Buuren topped the DJ Mag poll in 2007, 2008, 2009, 2010 and 2012 | DJ Mag Top 100 pages for 2006, 2010 and 2012, linked in Sources | medium (2008 and 2009 not opened individually) | The FAQ said "five consecutive ... between 2007 and 2012". Now lists the five years. |
+| Tiësto (2004), Paul van Dyk (2005, 2006) then van Buuren topped the poll | DJ Mag Top 100 pages | medium | Replaces the unsourced "chart dominance no other genre matched". |
+| Tiësto played the 2004 Athens Olympics opening ceremony | none opened | low | Softened to "in front of a global television audience"; "largest audience the genre had ever reached" removed. Still needs a URL. |
+| Väth: Dorian Gray resident, co-founded Omen, launched Eye Q in 1991 and Harthouse a year later | Beatportal history of trance (opened) | high | Wording corrected from "ran both labels". |
+| Dag Lerner (DJ Dag) often credited with the name | none supports "first to call it trance" | low | Hedged to "often credited". |
+| Dance 2 Trance, "We Came In Peace", 1990, by Dag Lerner and Rolf Ellmer | Discogs master 13879 (opened via search results) | high | Added to the text and Sources. |
+| Paul van Dyk's 1993 remix of Humate's "Love Stimulation" (MFS) | Discogs release 14389, WhoSampled | high | "first trance record" kept as contested, unsourced as a first. |
+| Platipus Records and Art of Trance (Simon Berry) | Wikipedia only | low | Stays in the Sources list; the body no longer names Wikipedia. Needs a non-Wikipedia source. |
+
+**Greps on the built page text.** `complete` 0, `full` 1 ("at full force", a drop, not a set), `whole` 1 ("the whole sound", about Frankfurt's sound, not a set), `Wikipedia` 0 in prose and 4 in the Sources list, `jungle` 0, `drum and bass` 0, `breaks` 3 (owner's mix and remix cards, Bandcamp card).
+
+**Banner.** The banner repeated the first paragraph of "What is trance music". It is now a literal short line in `build-trance-article.mjs`, and the FAQ answer was shortened so the definition appears in different wording in each place.
+
+**Links and reuse.** `/uk-electronic-music-evolution`, `/state-of-electronic-music`, `/hardstyle-guide`, `/german-electronic-music`: all on topic. The owner's "Degeneration" remix and I Like to Smoke in Silence After Raves stay on purpose as disclosed promotion. The earlier line saying the remix has "unrelated rhythm lineage" is an editorial note, not page copy. Four YouTube sets, one per figure; none shared with another guide.
+
+**Humanizer record (before and after).** "giving, as the phrase goes, the child its name" was cut. "a level of chart dominance no other electronic genre matched in the same stretch of years" became "Trance artists held the top of the DJ Mag readers' poll for most of that decade: Tiësto in 2004, Paul van Dyk in 2005 and 2006, then van Buuren." "what Wikipedia calls the most consequential early homes" became "giving the more melodic, progressive end of the genre an early home".
+
+**SEO.** The addendum to section 5: "trance artists" was briefly lost when "Trance DJs" was rewritten; the keyword audit caught it and the phrase is back ("Trance artists held the top of the DJ Mag readers' poll"). Keyword audit passes.
+
+**Stage 6.** Not run independently.
+
+**Open.** A URL for the Tiësto Athens 2004 claim; a non-Wikipedia source for Platipus and Art of Trance.
+

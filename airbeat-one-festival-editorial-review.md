@@ -51,3 +51,25 @@ No blocker. Recheck the final 2027 map, access rules and campsite products in a 
 - SEO intent and measured language: pass
 - Media licensing and placement: pass
 - Implementation readiness: pass
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the earlier "pass" lines above where they conflict with it. The earlier review recorded passes without evidence, and the guide was later found to need changes (a single embed with no view-count evidence, AI-sounding phrases). This review is not independent: the same agent that wrote the guide and gathered the listening evidence produced it.
+
+**Greps on the built page text.** `complete` 4 ("complete lineup", "not complete", "incomplete picture", "completed festivals": all about lineups and editions, none about a set), `full` 0, `whole` 0, `jungle` 0, `drum and bass` 0, `Wikipedia` 0, `breaks` 0 outside the owner's mix card.
+
+**Listening evidence** (`festivals-series.md`: the festival's most popular sets, evidence shown, channel and oEmbed checked).
+
+| YouTube ID | Set | Evidence | Check |
+|---|---|---|---|
+| `AWxxg3l89-k` | Neelix, Airbeat One 2024 | 556k views, the most-viewed set found on the festival's own channel | oEmbed resolved |
+| `wETX6I_EDUo` | Paul van Dyk, Second Stage 2025 | no view count recorded; chosen as the festival's own progressive trance set so the pair covers psytrance and trance | oEmbed resolved |
+
+**Internal links.** `/hardstyle-guide` (on topic: Airbeat One has a hardstyle stage), `/sziget-festival`, `/monegros-desert-festival`, `/boomtown-festival`.
+
+**Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
+
+**Humanizer record (before and after).** The embed paragraph now reads "Neelix's 2024 set is psytrance and Paul van Dyk's 2025 Second Stage recording is progressive trance." in place of a single-set description.
+
+**Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
+Open: the Paul van Dyk set has no recorded view count, so its selection rests on genre coverage and channel, not popularity.

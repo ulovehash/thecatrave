@@ -2,7 +2,7 @@
 
 ## Answer
 
-The best techno mixes show what a DJ does with the genre over time, not how hard one drop lands. Juan Atkins and Robert Hood make the Detroit continuum audible; Jeff Mills and Surgeon use fast, precise changes to keep machine rhythm alive; DJ Stingray pulls electro into the same conversation. Ben Klock, Helena Hauff, Wata Igarashi, Rødhåd and Fadi Mohem show how different the European and Japanese branches can sound. The ten recordings below come from official broadcaster channels and can be played in full.
+The best techno mixes show what a DJ does with the genre over time, not how hard one drop lands. Juan Atkins and Robert Hood make the Detroit continuum audible; Jeff Mills and Surgeon use fast, precise changes to keep machine rhythm alive; DJ Stingray pulls electro into the same conversation. Ben Klock, Helena Hauff, Wata Igarashi, Rødhåd and Fadi Mohem show how different the European and Japanese branches can sound. The ten recordings below come from official broadcaster channels.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This selection begins with Detroit artists and follows the music through industr
 
 ## What makes a techno mix essential?
 
-Technical neatness is not enough. A mix earns another listen when the records form an argument, the energy has shape, and the DJ can change direction without losing the thread. That may mean Juan Atkins letting funk remain inside techno, Surgeon cutting between harder textures, or Wata Igarashi making small tonal shifts carry an hour.
+Technical neatness is not enough. A mix earns another listen when the records form an argument, the energy has shape, and the DJ can change direction without losing the thread. That may mean Juan Atkins letting funk remain inside techno, Surgeon cutting between harder textures, or Wata Igarashi making small tonal shifts carry a mix.
 
 The recordings are not ranked. They cover different uses and lineages, and each comes from the official YouTube channel of Mixmag, DJ Mag, Boiler Room or HÖR. View counts were not used as a quality score.
 
@@ -84,7 +84,7 @@ Wata Igarashi works with depth, stereo movement and psychedelic repetition. Chan
 
 [Embed: Wata Igarashi]
 
-This is the hypnotic choice in the list. It asks for uninterrupted listening and rewards attention to small adjustments.
+This is the hypnotic choice in the list. It rewards attention to small adjustments.
 
 ### Rødhåd, Boiler Room, 2023
 

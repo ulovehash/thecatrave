@@ -52,3 +52,25 @@ No publication blocker. A future return to Novi Sad must not be implied until co
 - SEO intent and measured language: pass
 - Media licensing and placement: pass
 - Implementation readiness: pass
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum replaces the earlier "pass" lines above where they conflict with it. The earlier review recorded passes without evidence, and the guide was later found to need changes (a single embed with no view-count evidence, AI-sounding phrases). This review is not independent: the same agent that wrote the guide and gathered the listening evidence produced it.
+
+**Greps on the built page text.** `complete` 0, `full` 0, `whole` 0, `jungle` 0, `drum and bass` 0, `Wikipedia` 0, `breaks` 1 (the owner's own mix description).
+
+**Listening evidence** (`festivals-series.md`: the festival's most popular sets, evidence shown, channel and oEmbed checked).
+
+| YouTube ID | Set | Evidence | Check |
+|---|---|---|---|
+| `6L0GMr8FFyc` | Keinemusik, EXIT 2023 | 5.47M views | oEmbed resolved |
+| `WJnhTXQ6a9Y` | Nina Kraviz, EXIT 2016 | 3.74M views | oEmbed resolved |
+
+**Internal links.** `/sziget-festival`, `/monegros-desert-festival`, `/boomtown-festival`, `/arc-music-festival`. No dnb or jungle link.
+
+**Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
+
+**Humanizer record (before and after).** The embed paragraph now says the Keinemusik 2023 and Nina Kraviz 2016 recordings are among the most-viewed from the Dance Arena on EXIT's own channel, and ties them to the fortress format.
+
+**Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
+This guide has no "2027" block or FAQ. That is deliberate: EXIT's documented status is a history guide with no confirmed new Novi Sad edition, as the original verdict records.

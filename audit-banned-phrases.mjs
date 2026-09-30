@@ -28,7 +28,7 @@ const RULES = [
   },
   {
     rule: 'A DJ set is never "full" (WRITING.md)',
-    re: /\bfull DJ sets?\b|\bone complete set\b|\bthe whole set\b|komplette[sn]? DJ-Sets?|vollständige[sn]? (?:DJ-)?Sets?|\bDJ sets? complets?\b|\bun set complet\b|\bconcerts entiers\b/i,
+    re: /\bfull DJ sets?\b|\bone complete set\b|\bthe whole set\b|komplette[sn]? DJ-Sets?|vollständige[sn]? (?:DJ-)?Sets?|\bDJ sets? complets?\b|\bun set complet\b|\bconcerts entiers\b|\bcomplete recordings?\b|complete piece of programming|full-hour attention|can be played in full/i,
   },
   {
     rule: 'No "ultimate guide" opener (humanizer pass, 2026-09-23)',

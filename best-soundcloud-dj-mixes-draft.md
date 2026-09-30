@@ -2,19 +2,19 @@
 
 ## Answer
 
-The best SoundCloud DJ mixes come from selectors and series that treat a mix as a complete piece of programming. Start with Wata Igarashi for psychedelic techno, Ogazón for patient house and techno, DJ Python for low-slung rhythm, Djrum for breaks and jungle, or SHERELLE when you want the pace pushed hard. The eight editorial selections come from the accounts that commissioned or published them. A ninth, clearly disclosed mix by thecatrave closes the page.
+The best SoundCloud DJ mixes come from selectors and series that plan a mix with care. Start with Wata Igarashi for psychedelic techno, Ogazón for patient house and techno, DJ Python for low-slung rhythm, Djrum for breaks and jungle, or SHERELLE when you want the pace pushed hard. The eight editorial selections come from the accounts that commissioned or published them. A ninth, clearly disclosed mix by thecatrave closes the page.
 
 ## Introduction
 
-SoundCloud still suits the DJ mix better than most streaming platforms. A mix can sit on an artist or label page, gather a tracklist in the comments and remain available long after a radio broadcast disappears. The useful part is not the size of the archive. It is hearing how a selector joins records over an hour.
+SoundCloud still suits the DJ mix better than most streaming platforms. A mix can sit on an artist or label page, gather a tracklist in the comments and remain available long after a radio broadcast disappears. What it gives a listener is the way a selector joins one record to the next.
 
-The best SoundCloud mixes reward that full-hour attention. These DJ mixes on SoundCloud have an identifiable publisher, a clear musical argument and enough range to reward another play. The list is deliberately cross-genre. The separate guide to [the best techno mixes](/best-techno-mixes) stays inside techno, while [Live DJ Sets](/live-dj-sets) covers the platforms that film the booth.
+These are the best SoundCloud mixes I could find that combine an identifiable publisher, a clear musical argument and enough range to reward another play. Every one of these DJ mixes on SoundCloud comes from a named series. The list is deliberately cross-genre. The separate guide to [the best techno mixes](/best-techno-mixes) stays inside techno, while [Live DJ Sets](/live-dj-sets) covers the platforms that film the booth.
 
 ## How these SoundCloud mixes were chosen
 
 Every player comes from DJ Mag or Dekmantel, the two commissioning publications represented here. That removes the provenance problem that follows anonymous reposts. The order follows a listening route: begin with house and techno, move into stranger rhythmic territory, then finish with mixes that accelerate.
 
-Popularity did not decide the list. A useful mix has a point of view you can hear in the transitions, whether that means Ogazón holding a groove for longer than expected or Djrum changing tempo without turning the hour into a demonstration reel.
+Popularity did not decide the list. A useful mix has a point of view you can hear in the transitions, whether that means Ogazón holding a groove for longer than expected or Djrum changing tempo without turning the mix into a demonstration reel.
 
 ## House, techno and the space between
 
@@ -82,7 +82,7 @@ SHERELLE closes the route with footwork, jungle and fast broken rhythms. Her tra
 
 [Embed: SHERELLE]
 
-Anyone arriving from the site's [jungle guide](/jungle-music-guide) will recognise the breakbeat logic. The footwork selections push that logic into a different rhythmic grid.
+Footwork and jungle sit side by side here, and the mix moves between their different rhythmic grids.
 
 ## One more mix, with disclosure
 
@@ -96,9 +96,9 @@ The set took about four months to arrange. Its 30 tracks move through breaks, ga
 
 ## Which SoundCloud DJ mix should you play first?
 
-Wata Igarashi is the direct techno entry point. Ogazón and Doudou MD are better for rolling house and techno, while Sedef Adasi covers the widest stretch of a club night. Start with DJ Python for something slower, Objekt for detailed leftfield mixing, Djrum for tempo changes, or SHERELLE for the fastest hour.
+Wata Igarashi is the direct techno entry point. Ogazón and Doudou MD are better for rolling house and techno, while Sedef Adasi covers the widest stretch of a club night. Start with DJ Python for something slower, Objekt for detailed leftfield mixing, Djrum for tempo changes, or SHERELLE for the fastest mix.
 
-The platform is only the container. Follow the commissioning series when a mix lands: Recognise and Dekmantel Podcast both publish selectors whose own pages may be hard to find through SoundCloud's charts. If the personal pick earns your trust, thecatrave's SoundCloud has the rest of the mixes.
+Follow the commissioning series when a mix lands: Recognise and Dekmantel Podcast both publish selectors whose own pages may be hard to find through SoundCloud's charts. If the personal pick earns your trust, thecatrave's SoundCloud has the rest of the mixes.
 
 ## Sources
 

@@ -38,9 +38,9 @@ Monegros Musical SL is the legal operator, and its privacy material groups the c
 
 Techno and hard techno form a large part of recent Monegros programmes, but the festival also books house, hip-hop, drum and bass, hardcore and trance-related music. Stages have their own identities, and recent editions have included partnerships such as an Awakenings stage alongside areas rooted in the farm's own history.
 
-[Embed: DJ Pepo]
+[Embed: Sama’ Abdulhadi and Indira Paganotto]
 
-The useful way to hear Monegros is through exact recordings from the site. DJ Pepo's 2026 Awakenings-stage set documents one route through its hard, fast techno programming. The festival's own archive also reaches back to Jeff Mills, Oscar Mulero and Vitalic, showing that the event's electronic range predates the current hard-techno cycle.
+The useful way to hear Monegros is through exact recordings from the site. Sama’ Abdulhadi’s set for Beatport is the most-viewed Monegros recording I found, and Indira Paganotto’s closing set from 2025 shows the hard, fast techno of the current programming. The festival's own archive also reaches back to Jeff Mills, Oscar Mulero and Vitalic, showing that the event's electronic range predates the current hard-techno cycle.
 
 ## The site and the overnight format
 
