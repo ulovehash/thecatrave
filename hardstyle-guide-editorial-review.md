@@ -83,7 +83,7 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 
 **Links.** `/state-of-electronic-music`, `/german-electronic-music`, `/best-clubs-in-berlin`, `/airbeat-one-festival` (Airbeat One has a hardstyle stage). No dnb or jungle link. The owner's Bandcamp card stays as promotion.
 
-**Read-through findings, not yet edited (published copy):**
+**Read-through findings, applied 2026-09-30 with the owner's approval:**
 - "Defqon.1 is the largest single statement of hardstyle culture." is an unsourced superlative. Proposed: "Defqon.1 is the best-known hardstyle festival."
 - "The Red stage is the main arena and has become the festival's most recognisable image." has no source. Proposed: "The Red stage is the main arena."
 - "A genre label describes a record's main rhythmic and structural language even when producers work across those boundaries." restates the paragraph. Proposed: cut.

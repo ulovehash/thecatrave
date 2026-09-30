@@ -46,11 +46,11 @@ The division is useful, though artists move between the two and recent records m
 
 Hardstyle shares distorted kicks with hardcore and mechanical repetition with techno, but its tempo, kick construction and breakdowns usually identify it. Hardcore commonly runs faster and treats abrasion as the main surface. Techno can be just as heavy, though it usually relies on groove and repetition rather than a long melodic breakdown followed by a pitched-kick climax.
 
-The distinction becomes less tidy at the edges. Hard techno has borrowed hardstyle kicks, raw hardstyle can approach hardcore tempo, and some festival sets move through all three. A genre label describes a record's main rhythmic and structural language even when producers work across those boundaries.
+The distinction becomes less tidy at the edges. Hard techno has borrowed hardstyle kicks, raw hardstyle can approach hardcore tempo, and some festival sets move through all three.
 
 ## Hardstyle festivals and the current scene
 
-Defqon.1 is the largest single statement of hardstyle culture. Q-dance stages divide the harder styles by colour and sound, so classic hardstyle, raw, hardcore and related forms can sit within one weekend without being treated as identical. The Red stage is the main arena and has become the festival's most recognisable image.
+Defqon.1 is the best-known hardstyle festival. Q-dance stages divide the harder styles by colour and sound, so classic hardstyle, raw, hardcore and related forms can sit within one weekend without being treated as identical. The Red stage is the main arena.
 
 The wider circuit includes Decibel Outdoor, Intents Festival, REBiRTH and Reverze, with hardstyle stages also appearing at broader electronic festivals. Event names and formats change, so official festival sites are the reliable source for a current calendar.
 
