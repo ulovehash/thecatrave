@@ -179,3 +179,63 @@ Generator `build-dnb-article.mjs`, page `drum-and-bass-guide.html`, audit `audit
 - Open each of the twelve YouTube ids once for the correct recording and an Error 153 check (`AGENTS.md` §154).
 - Confirm the Reese-bass date wording and the "Renk" / "FFRR" label credits.
 - Visual QA at 1440 / 1024 / 768 / 430 / 390 px and real embed loading — not possible locally on this machine's Node 14; the CI `quality gate` covers layout, a11y and vitals once the branch is pushed.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `drum-and-bass-guide.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 4 hit(s)
+  - Both are bass-led British music , but drum and bass runs at full tempo with a busy break, while dubstep sits at around 140 with the kick and snare spread so far apart that the track feels half as fast.
+  - In Bristol, Roni Size, Krust, Die and Suv formed the collective Reprazent, and Bristol labels, Full Cycle and the V Recordings axis run by Bryan Gee and Jumpin Jack Frost, built a rolling, jazz-inflected sound with a live-band fee
+  - Grooverider and Fabio took the whole spread of it onto national radio, holding a weekly Radio 1 drum and bass show from 1998 until 2012.
+  - Nia Archives is the name most attached to the revival; her 2024 album Silence Is Loud reached number 16 on the UK albums chart, and it does the thing the whole guide keeps circling back to, folding jungle's breakbeats and reggae f
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 83 hit(s)
+  -  Drum and bass guide What is drum and bass?
+  - Drum and bass definition: Drum and bass is a British electronic music genre built around fast breakbeats, heavy sub-bass and tempos usually between 170 and 180 BPM.
+  - It emerged from the same early-1990s rave continuum as jungle.
+  - By the mid-1990s, drum and bass increasingly described newer directions that often placed more emphasis on production detail and less on ragga samples, but the boundary was never fixed.
+  - Jungle continued as a living style, and the two terms still overlap.
+  - Drum and bass is also written drum n bass or d&b and commonly shortened to DnB.
+  - Contents When jungle and drum and bass diverged How drum and bass is built Metalheadz and the dark turn Speed, Bristol and Good Looking The subgenres explained How drum and bass became global Where drum and bass is now Drum and ba
+  - Drum and bass emerged from the same British rave continuum as jungle.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 1 hit(s)
+  - That is fast, and it is why the drums matter so much: at that speed a producer cannot lean on a four-to-the-floor kick, so the rhythm is carried by a breakbeat, a sampled and rearranged drum passage from a funk or soul record.
+- `the point`: 1 hit(s)
+  - Term Roughly when What it means Relationship to the core Drum and bass (the core) 1994 onward Around 174 BPM, breakbeats, sub-bass as a lead voice A broader genre that emerged from the same continuum as jungle Liquid, or liquid fu
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 0 hit(s)
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=GDwNn8bJ2CQ,i-P98B2skts,0wWTqipgm2I,7Z-6e3zIE2k,hp8DkZyE9h8,C5XGKcvFOJc,yenh56lBQoU,N7OPZOBJZyI spotify=track/0MMBVUug4IJy0pUL2mRmPf,track/4bsF2ZJgmq2JiDfyIV3CaX,track/3ZQs8RHO3lPZoUwpavPENL,track/6s9XbbtulHcMwMDzsyoEO7,track/1fIZzCIwKKGBRDkLA8VukW,track/1LqFMtMW44W8XQ1OtV43gg,playlist/37i9dQZF1DX5wDmLW735Yd soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /breakbeat-guide /bass-music-guide /dubstep-guide /jungle-music-guide /uk-garage-guide. None was justified individually in the original review.
+- Figures: 6; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+No research file was found for this guide (drum-and-bass-guide-research.md, drum-and-bass-research.md, drum-and-bass-guide-clubs-research.md, drum-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "it does the thing the whole guide keeps circling back to, folding jungle's breakbeats and reggae" After: "it folds jungle's breakbeats and reggae" (self-referential filler)
+- "Grooverider and Fabio ... weekly Radio 1 drum and bass show from 1998 until 2012": the dates were not re-checked against a source.
+
+### Open items
+
+- Eight YouTube embeds and several Spotify tracks: selection rationale not recorded.
+- The UK garage, jungle and breakbeat guides share artists and tracks with this page; no per-track reuse check recorded.

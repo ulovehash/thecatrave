@@ -134,3 +134,64 @@ Sisyphos gate image was deleted.
 | SEO | pass (audit-keywords, audit-seo) |
 | Media | pass (audit-media, audit-canon, adjacency) |
 | Implementation | pass (`node audit-all.mjs`, `check:html`, `check:links`, `check:layout` 216/216; rebuild idempotent) |
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-clubs-in-berlin.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - Club Area Music and character Best for Entry model Tresor Mitte Detroit and Berlin techno in a former power station History and hard-edged techno Ticket or door sale, event dependent Berghain / Panorama Bar Friedrichshain Techno d
+  - Berlin club culture is built around the weekend as a whole, not around a single night.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Breakbeat drums under dub techno space.
+  - Breaks and techno for the hours before the queue.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Berlin Race 1909 by thecatrave Protect Ya Breaks by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 3 hit(s)
+  - Wikipedia's history of Tresor calls UFO the original centre of Berlin house and techno.
+  - Wikipedia describes the Berghain door policy as notorious for being both strict and opaque, and that is the most honest thing anyone has written about it.
+  - Wikipedia calls its door policy strict and opaque, and in my experience there is no system behind it: you feel it or you don't, and there is no point hunting for a reason if you are turned away.
+- `not .* but`: 0 hit(s)
+- `matters`: 2 hit(s)
+  - Below are the legends and the clubs that are still open, why each one matters, and something from each to hear before you go.
+  - Phones matter more than clothes.
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 3 hit(s)
+  - Best clubs in Berlin: The most famous club in Berlin is Berghain, in a former heating plant in Friedrichshain, with Panorama Bar in the same building.
+  - What is the most famous club in Berlin?
+  - It is the most famous club in Berlin because of its music, its long weekend and a door policy nobody has explained.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=zjfPd4jNZao,GG2IQguY-J0 spotify=- soundcloud=3. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /german-electronic-music /selector /best-boiler-room-sets /state-of-electronic-music /best-clubs-in-paris /best-clubs-in-barcelona /best-clubs-in-nyc. None was justified individually in the original review.
+- Figures: 6; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (berlin-race-1909,protect-ya-breaks) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`berlin-clubs-research.md` says: "Status: pre-writing. Stage 6 verdict (2026-09-10): write it, in the owner's". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "Wikipedia describes the Berghain door policy as notorious for being both strict and opaque, and that is the most honest thing anyone has written about it." After: "The Berghain door policy is strict and opaque."
+- Before: "Wikipedia calls its door policy strict and opaque, and in my experience there is no system behind it" After: "Its door policy is strict and opaque, and in my experience there is no system behind it" (this also removes a near-repeat of the sentence above, which the banner/body repeat check should have caught)
+- Before: "Wikipedia's history of Tresor calls UFO the original centre of Berlin house and techno." After: "(needs a non-Wikipedia source, or the claim is hedged to "UFO was an early Berlin house and techno party")"
+- "The most famous club in Berlin" and "a door policy nobody has explained" are unsourced superlatives.
+
+### Open items
+
+- Two YouTube embeds: no view-count evidence.

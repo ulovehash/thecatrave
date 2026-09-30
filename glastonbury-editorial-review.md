@@ -104,3 +104,54 @@ R.E.M.'s complete 1999 broadcast (their channel). All oEmbed-checked.
 - SEO: pass (keyword and SEO audits).
 - Media: pass (media and canon audits).
 - Implementation readiness: pass.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `glastonbury-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 0 hit(s)
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 1 hit(s)
+  - The table gives the headliners Wikipedia lists for each festival, and the years there was none.
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 1 hit(s)
+  - The Arcadia Glastonbury stage is the most famous of those: a 50-tonne, 15-metre mechanical spider built from recycled military hardware that breathes fire over a DJ, first seen at Glastonbury in 2010 and replaced in 2024 by the Dr
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=1n6GvSfjE8M,kM-94LhhQTs,DurDZkK58VE spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /creamfields-festival /what-is-coachella /lollapalooza-festival /tomorrowland-festival /selector /state-of-electronic-music /best-clubs-in-bristol /edc-las-vegas. None was justified individually in the original review.
+- Figures: 4; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`glastonbury-research.md` exists but does not mention Stage 6, so no validation is recorded. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "The table gives the headliners Wikipedia lists for each festival, and the years there was none." After: "The table gives the headliner for each festival, and the years there was none." plus a non-Wikipedia source for the table (Glastonbury's own archive or the BBC).
+- "The Arcadia Glastonbury stage is the most famous of those" is an unsourced superlative.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

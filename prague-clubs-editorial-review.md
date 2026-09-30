@@ -132,3 +132,54 @@ recording the dress-code sourcing added in this pass.
 This review was written after the page was already built and audited, not
 before, which is out of the order `ARTICLE-PRODUCTION-WORKFLOW.md` sets. The
 Tokyo and Budapest guides from the same batch have not had this pass run yet.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-clubs-in-prague.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 1 hit(s)
+  - Club Area Music and character Best for Karlovy Lázně Old Town, by Charles Bridge Five floors, one genre each, in a former spa building open since 1999 A whole night out without leaving one building Duplex Wenceslas Square A glass
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Its basement room has run drum and bass, techno, dub and experimental electronic nights since the early years, drawing a bookings policy closer to a UK bass-music club than a Central European tourist venue, and giving Prague's und
+  - Club Area Music and character Best for Karlovy Lázně Old Town, by Charles Bridge Five floors, one genre each, in a former spa building open since 1999 A whole night out without leaving one building Duplex Wenceslas Square A glass
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 2 hit(s)
+  - What is the biggest club in Prague?
+  - Each floor runs a different genre, from a silent disco to a vintage Cadillac used as a DJ booth for 1950s to 1970s music, and it markets itself as the largest club in Central Europe.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=WY_Th5nrI90,6od6a-eiLUs spotify=- soundcloud=0. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /best-clubs-in-nyc /best-clubs-in-tokyo /best-clubs-in-budapest /best-clubs-in-manchester. None was justified individually in the original review.
+- Figures: 3; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here. The review above mentions the humanizer 1 time(s) but records no before/after sentences, so the earlier pass is unevidenced. The grep hits above are the candidates it should have caught.
+
+### Stage 6
+
+No research file was found for this guide (prague-clubs-research.md, prague-clubs-research.md, prague-clubs-research.md, prague-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "a bookings policy closer to a UK bass-music club than a Central European tourist venue" is a bass-music comparison on a city guide and is unsourced.
+
+### Open items
+
+- Two YouTube embeds: no view-count evidence.

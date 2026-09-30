@@ -94,3 +94,52 @@ None beyond what's recorded in `media/lisbon-clubs.json` at the time of writing.
 - Implementation readiness: **pass** — built, `node audit-all.mjs` (20 audits), `npm run check:html`, `npm run check:links` and `npm run check:layout` (462 tests) all green after this pass's edits; visual QA completed at desktop and mobile widths in the browser pane.
 
 This review ran before the build was reported as finished, per the gate `ARTICLE-PRODUCTION-WORKFLOW.md` §6 sets, rather than being added afterward.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-clubs-in-lisbon.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 0 hit(s)
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 2 hit(s)
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 2 hit(s)
+  - Best clubs in Lisbon: Lisbon's best-known club is Lux Frágil, a house and techno room in a converted dockside warehouse on Cais da Pedra that has run since 1998 and still draws international rankings.
+  - It ran for thirty years and drew a crowd that included some of Portugal's best-known musicians and film-makers.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=4_Jk34-b_Jw,MKuFgNjWLx8 spotify=- soundcloud=0. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /best-clubs-in-nyc /best-clubs-in-tokyo /best-clubs-in-budapest /best-clubs-in-prague. None was justified individually in the original review.
+- Figures: 5; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here. The review above mentions the humanizer 3 time(s) but records no before/after sentences, so the earlier pass is unevidenced. The grep hits above are the candidates it should have caught.
+
+### Stage 6
+
+No research file was found for this guide (lisbon-clubs-research.md, lisbon-clubs-research.md, lisbon-clubs-research.md, lisbon-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "still draws international rankings" (Lux Frágil) names no ranking.
+- "a crowd that included some of Portugal's best-known musicians and film-makers" is unsourced.
+
+### Open items
+
+- Two YouTube embeds: no view-count evidence.

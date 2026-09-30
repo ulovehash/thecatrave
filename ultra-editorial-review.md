@@ -204,3 +204,65 @@ from every player.
 - Media: pass (licences checked, players oEmbed-checked, no reuse).
 - Implementation readiness: pass (`scripts/build.mjs`, `audit-all.mjs`,
   `check:html`, `check:layout`, `check:links`).
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `ultra-music-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - Two years later, on the opening night of 2024, a storm shut the whole festival down, the first time weather had stopped all of Ultra; it reopened at 4 p.m.
+  - Knife Party, Rob Swire and Gareth McGrillen's side project, took the closing slot of the whole festival and turned it into a Pendulum set, the two members bringing back their drum and bass band at the end of Ultra, with Tom Morell
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 8 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - At Ultra, drum and bass was there before the Main Stage was.
+  - The breakbeat of The Prodigy came too: they headlined for the first time in 2006, came back in 2009, and made their last Ultra appearance in 2017.
+  - Knife Party, Rob Swire and Gareth McGrillen's side project, took the closing slot of the whole festival and turned it into a Pendulum set, the two members bringing back their drum and bass band at the end of Ultra, with Tom Morell
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - What I make myself is breakbeat, well away from Bayfront Park.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 3 hit(s)
+  - Year Attendance Where, and what happened 1999 about 10,000 Collins Park, Miami Beach: one day on the beach 2001 21,000 First year at Bayfront Park 2006 48,000 First year at Bicentennial Park 2010 over 100,000 (Ultra's figure) Firs
+  - The editions run under the brand Ultra Worldwide, and Wikipedia lists places it has gone including Croatia, South Africa, South Korea, Singapore, Mexico, Brazil and Colombia.
+  - And Resistance, the stage for underground house and techno, arrived in 2015, by Wikipedia's account.
+- `not .* but`: 1 hit(s)
+  - Ultra began its own live stream in 2012, and its YouTube channel's most-watched videos are not sets but aftermovies: the one for 2012 has about 38 million views.
+- `matters`: 1 hit(s)
+  - The Ultra Miami location is also a matter of rules.
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 0 hit(s)
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=EYMJizj3Qq8,V2VmcuOEqEg,jXOgYxUf6Ts spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /tomorrowland-festival /edc-las-vegas /live-dj-sets /selector /best-electronic-music-festivals-europe /state-of-electronic-music /best-clubs-in-bristol. None was justified individually in the original review.
+- Figures: 5; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`ultra-research.md` says: "`TOPIC-RESEARCH.md` stages 1–5 done; stage 6 (validation) not run. The owner's". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Wikipedia appears three times: the attendance table, the Ultra Worldwide list and "by Wikipedia's account" for the Resistance stage. Replace the Wikipedia attribution with a primary or press source. Wikipedia is never the best source for a disputed or numeric claim.
+- Before: "its YouTube channel's most-watched videos are not sets but aftermovies: the one for 2012 has about 38 million views" After: "its YouTube channel's most-watched videos are aftermovies, led by the one for 2012 at about 38 million views"
+- Drum and bass is written into this festival guide as its own angle (see the drum-and-bass hits above). The owner's rule is no dnb angle on festival pages; the same facts are real lineup history. Owner decision: keep, shorten, or cut.
+- "What I make myself is breakbeat, well away from Bayfront Park." is an owner aside about the owner's own breakbeat on a festival page. It is protected promotion; listed only so the decision is explicit.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

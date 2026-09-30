@@ -81,3 +81,61 @@ None beyond what's recorded in `media/bristol-clubs.json` at the time of writing
 - Implementation readiness: **pass** — rebuilt, `node audit-all.mjs`, `npm run check:html`, `npm run check:links` and `npm run check:layout` (458 tests) all green after this pass's edits.
 
 This review ran before the build was reported as finished, per the gate `ARTICLE-PRODUCTION-WORKFLOW.md` §6 sets, rather than being added afterward.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-clubs-in-bristol.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 0 hit(s)
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 12 hit(s)
+  -  Bristol clubs The best clubs in Bristol, from Motion to Lakota 6 min read Updated 25 September 2026 A five-room warehouse club that lost its building in 2025 and moved rather than closed, a four-floor room on Upper York Street th
+  - Lakota, on Upper York Street since the early 1990s, is the city's clearest link to its drum and bass and jungle history, with bookings from Metalheadz and Andy C among them.
+  - Bristol's club scene runs on a different reputation from most UK cities on a clubbing shortlist: it gave drum and bass some of its early rooms and never really stopped booking it.
+  - For most of its run it was the venue that Bristol's biggest touring DJs and its own drum and bass scene, including the long-running Hospitality Bristol nights, treated as home ground.
+  - Club Area Music and character Best for Motion Victoria Terrace, since 2025 (previously Avon Street, 2006-2025) A five-room warehouse complex, DJ Mag-ranked among the world’s best large clubs at its original site Big touring bookin
+  - Lakota, a warehouse-style club on Upper York Street with four dance floors, has been running club nights since the early 1990s, and Resident Advisor's own listing calls it Bristol's &quot;home of the underground.&quot; Its booking
+  - Alongside the drum and bass and jungle nights, its four rooms run hardcore, dubstep, psytrance and techno through the week, closer to a working multi-genre club than a genre showcase.
+  - Does Bristol have a real drum and bass scene?
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 5 hit(s)
+  - Best clubs in Bristol: Bristol's best-known clubs split between scale and history.
+  - Motion, a five-room warehouse complex that DJ Mag ranked among the world's best large clubs, ran on Avon Street from 2006 until its lease expired in July 2025, then reopened at a new site on Victoria Terrace after a crowdfunded mo
+  - Motion opened in 2006 in a former skatepark on Avon Street, and grew over the following years into a 4,000-capacity, five-room warehouse complex that DJ Mag ranked among the world's best clubs and named the UK's best large club.
+  - What is the biggest club in Bristol?
+  - Motion, historically: at its original Avon Street site it held around 4,000 people across five rooms and was ranked by DJ Mag among the world's best large clubs.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=rGCDKpkPUqI,dgv4ktxwTHA spotify=- soundcloud=0. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /state-of-electronic-music /best-electronic-music-clubs-in-london /live-dj-sets /tomorrowland-festival. None was justified individually in the original review.
+- Figures: 3; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here. The review above mentions the humanizer 5 time(s) but records no before/after sentences, so the earlier pass is unevidenced. The grep hits above are the candidates it should have caught.
+
+### Stage 6
+
+No research file was found for this guide (bristol-clubs-research.md, bristol-clubs-research.md, bristol-clubs-research.md, bristol-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "named the UK's best large club" and "ranked among the world's best clubs" (Motion) need the DJ Mag list and year named.
+- "Lakota... bookings from Metalheadz and Andy C" has no cited source on the page.
+
+### Open items
+
+- Two YouTube embeds: no view-count evidence.

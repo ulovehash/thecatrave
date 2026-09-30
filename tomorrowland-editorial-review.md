@@ -143,3 +143,62 @@ analytics. Ahrefs was not used for this revision.
   2025 player remains unchanged.
 - **Dates:** original `datePublished` remains 2026-09-13; visible and structured
   `dateModified` becomes 2026-09-15.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `tomorrowland-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 5 hit(s)
+  - Alongside the full editions, Unite with Tomorrowland has taken smaller events to countries including Germany, Spain, Malta, Lebanon and South Korea.
+  - In 2013 the full-weekend passes sold out in 35 minutes and the rest in what was reported as one second.
+  - The pattern has held: the 2026 edition sold out across both weekends in under an hour.
+  - Tomorrowland is not a genre festival, and the Mainstage is not the whole of it.
+  - For 2026, day passes started at €138 and Full Madness weekend passes at €304 in the pre-sale or €365 in the worldwide sale.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 7 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Drum and bass has been at Tomorrowland longer than the Mainstage suggests.
+  - In 2026 Chase & Status played the Freedom by Bud stage on the first weekend and the Mainstage on the second: a UK drum and bass duo on the stage built for EDM's biggest names.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - My own music is breakbeat, a long way from the Mainstage.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 1 hit(s)
+  - They sell out in minutes, so being in the queue matters more than the price.
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 0 hit(s)
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=WdWnCTkqIRs,ZG1AT6tylA4,H1b8hXkGyTo spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /what-is-burning-man /live-dj-sets /selector /best-electronic-music-festivals-europe /state-of-electronic-music /best-clubs-in-bristol /edc-las-vegas /creamfields-festival. None was justified individually in the original review.
+- Figures: 7; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`tomorrowland-research.md` says: "stages 1–5 done; stage 6 (validation) not run. The owner's request (a". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Drum and bass is written into this festival guide as its own angle (see the drum-and-bass hits above). The owner's rule is no dnb angle on festival pages; the same facts are real lineup history. Owner decision: keep, shorten, or cut.
+- The sentence pattern "X is not a genre festival, and <stage> is not the whole of it" appears on both the EDC and Tomorrowland pages. One of them should be reworded so the two guides do not share a template sentence.
+- "My own music is breakbeat, a long way from the Mainstage." is an owner aside about the owner's own breakbeat on a festival page. It is protected promotion; listed only so the decision is explicit.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

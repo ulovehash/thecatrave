@@ -860,6 +860,14 @@
         "file": "ARTICLE-EDITORIAL-REVIEW.md",
         "contains": "a pass with no evidence is a fail"
       }
+    },
+    {
+      "id": "older-guides-evidence-addenda-findings",
+      "found": "2026-09-30",
+      "by": "claude",
+      "what": "Evidence addenda added to 33 older guide reviews under ARTICLE-EDITORIAL-REVIEW.md section 0 found live-copy issues that are proposed but not applied: Wikipedia named in the body (berlin-clubs, london-clubs, mysteryland, ultra, glastonbury, parookaville, sonar, awakenings), 'not X but Y' and 'the point' phrasing (acid-house-guide, bass-music, coachella, german-electronic-music, best-spotify-playlists, live-dj-sets, ultra), set length stressed (best-boiler-room-sets, live-dj-sets), unsourced superlatives on many pages, a drum and bass angle on festival guides (creamfields, edc, tomorrowland, ultra) and a template sentence shared by edc and tomorrowland. Each proposal is in the page's review under 'Findings'. Festival listening still has no view-count evidence.",
+      "should_have_caught": "the original reviews recorded passes with no evidence (see editorial-reviews-passed-without-evidence)",
+      "fix": null
     }
   ]
 }

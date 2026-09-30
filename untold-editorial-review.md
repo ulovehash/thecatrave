@@ -116,3 +116,59 @@ all oEmbed-checked. Text separates every image from every player.
 - SEO preservation: pass (new page; keyword audit).
 - Media: pass (media audit; adjacency to be confirmed by the layout checks).
 - Implementation readiness: pass.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `untold-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - The main stage inside Cluj Arena at the first Untold, in 2015, with the pitch and the stands full.
+  - The main stage at night in 2019, the edition titled The Codex of Magic, with the stadium's stands full behind the pitch.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 6 hit(s)
+  - Its bill puts the biggest EDM DJs next to pop and rock stars, with techno, trance and house on the smaller stages.
+  - In Cluj-Napoca, the largest city in Transylvania.
+  - Is Untold the biggest festival in the world?
+  - It is the largest music festival in Romania, and in DJ Mag's Top 100 Festivals, a readers' poll rather than a head count, it has come third every year since 2024.
+  - From its second year Untold has put the top of DJ Mag's DJ poll on one bill, and it keeps the biggest names coming back: Armin van Buuren headlined each of its first five editions, and Steve Aoki has been on almost every bill sinc
+  - Is Untold the biggest festival in the world?
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=o1u2sT8ah58,rk3SYpd5HSc,DjQCkSSblIk,402OrPvfYlU spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /selector /tomorrowland-festival /edc-las-vegas /ultra-music-festival /creamfields-festival /parookaville-festival /best-electronic-music-festivals-europe /state-of-electronic-music /best-clubs-in-bristol. None was justified individually in the original review.
+- Figures: 6; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`untold-research.md` says: "stage 3 (related terms) not run, stage 6 (validation) not run. Structure". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "largest music festival in Romania", "third every year since 2024" and "Armin van Buuren headlined each of its first five editions" need URLs opened.
+
+### Open items
+
+- Four YouTube embeds: no view-count evidence.

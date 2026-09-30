@@ -99,3 +99,58 @@ breakbeat only.
 | SEO and intent | pass |
 | Media and licensing | pass |
 | Implementation readiness | pass |
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `sonar-festival-barcelona.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - Thirty-three editions later it fills the trade-fair halls on the edge of Barcelona, has put its name to more than a hundred festivals around the world, and lends it to a whole week of parties across the city.
+  - The full-access SonarPass sold out; the VIP version cost €319.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 5 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - My own is breakbeat, made at home.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 1 hit(s)
+  - The figures below come from Wikipedia for the early years and from reporting on each edition since; treat the recent totals as the festival's own counts.
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 2 hit(s)
+  - Sónar by Night was the club end, with the biggest names on the bill in rooms the size of aircraft hangars.
+  - SonarVillage, SonarClub, SonarCar, SonarHall, SonarPark and SonarLab were the six stages of 2026, and SonarClub is the biggest of them.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=_YPbpWeIx2Q,ZnPUW6XJ--8,IeKlNAuzW8A,JaiCMTWjkJI,kECNP2JMqC0 spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /primavera-sound-barcelona /selector /tomorrowland-festival /edc-las-vegas /creamfields-festival /best-electronic-music-festivals-europe /state-of-electronic-music /best-clubs-in-bristol. None was justified individually in the original review.
+- Figures: 6; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`sonar-research.md` says: "related terms); stage 6 not run. Structure approved by the owner on". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "The figures below come from Wikipedia for the early years and from reporting on each edition since; treat the recent totals as the festival's own counts." After: "The figures below come from the festival's own counts and press reports on each edition." once a non-Wikipedia source for the early years is found.
+- "SonarClub is the biggest of them" is an unsourced superlative.
+
+### Open items
+
+- Five YouTube embeds: no view-count evidence.

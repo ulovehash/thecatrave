@@ -158,3 +158,60 @@ channel.
 - Media: pass (licences checked, players oEmbed-checked, no reuse).
 - Implementation readiness: pass after the targeted build and Creamfields
   audits recorded in the completion report.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `creamfields-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 1 hit(s)
+  - The festival's own film from its 2019 After Series is two minutes of that crowd, the bass and drum and bass tent at full stretch.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 10 hit(s)
+  - Its best-known stages are the Arc and the Steel Yard, and its bill runs from EDM headliners to trance, techno and drum and bass.
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Creamfields has booked drum and bass for longer than its posters suggest.
+  - In 2025 Chase & Status, who started out in jungle before moving to drum and bass, headlined the Arc Stage on the Friday for the first time, with Sub Focus and Andy C, the founder of RAM Records, also on the bill.
+  - The festival's own film from its 2019 After Series is two minutes of that crowd, the bass and drum and bass tent at full stretch.
+  - Its stages, above all the Arc Stage and the Steel Yard; a long run of UK Festival Awards for Best Dance Festival; and a bill that has spanned EDM, trance, techno and drum and bass since a Liverpool house night started it in 1998.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - The music I make myself is breakbeat.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 2 hit(s)
+  - Its best-known stages are the Arc and the Steel Yard, and its bill runs from EDM headliners to trance, techno and drum and bass.
+  - The DJ Awards gave it Best International Dance Music Festival in 2014, and DJ Mag placed it 13th in its list of the world's best festivals in 2019.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=fVKywXvEl9g,BvXj6mCK0X4,UBqb6F7Jlho spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /selector /tomorrowland-festival /best-electronic-music-festivals-europe /best-boiler-room-sets /state-of-electronic-music /best-clubs-in-bristol /live-dj-sets. None was justified individually in the original review.
+- Figures: 8; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`creamfields-research.md` says: "- Stage 6 validation from the original research was not run.". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Drum and bass is written into this festival guide as its own angle (see the drum-and-bass hits above). The owner's rule is no dnb angle on festival pages; the same facts are real lineup history. Owner decision: keep, shorten, or cut.
+- "a long run of UK Festival Awards for Best Dance Festival" and "DJ Mag placed it 13th in 2019" need URLs opened.
+- "The music I make myself is breakbeat." is an owner aside about the owner's own breakbeat on a festival page. It is protected promotion; listed only so the decision is explicit.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

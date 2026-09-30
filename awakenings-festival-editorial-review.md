@@ -156,3 +156,61 @@ draft at all.
   `lang` attribute that has nothing to do with this guide. Stopping that
   server and rerunning fixed it; worth remembering for future sessions doing
   manual visual QA before running Playwright.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `awakenings-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - The main Awakenings Summer Festival runs for three days each July at Beekse Bergen in Hilvarenbeek; the original Amsterdam Dance Event special still runs every October at the Gashouder, the gasholder building where the whole thing
+  - Since 2012, the Awakenings Amsterdam ADE special has run every October at the Gashouder, the round former gasholder in the Westergasfabriek where the whole series began in 1997.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Awakenings is a long way from the breakbeat I make myself.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 2 hit(s)
+  - Search for Awakenings and the top results are the festival's own site, Wikipedia and Instagram: a navigational head with no room for an outside guide.
+  - Some older sources, including Wikipedia, still describe the outdoor festival as running at Spaarnwoude, between Amsterdam and Haarlem: that area now hosts Awakenings Upclose, a separate, smaller spring event, while the main summer
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 3 hit(s)
+  - What is Awakenings Festival: Awakenings is a Dutch techno festival and club night series, founded in Amsterdam in 1997 and now one of the biggest techno-only events in the world.
+  - DJ Mag ranked it 34th in its Top 100 Festivals poll for 2026, and the 2026 summer edition sold out as the largest in the festival's history.
+  - Big enough to sell out its Beekse Bergen weekend a month or more ahead: the 2026 edition sold out as the largest in the festival's 29-year history, and DJ Mag ranked it 34th among the world's festivals for 2026.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=gR_nkH5B35s spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /state-of-electronic-music /best-clubs-in-berlin /best-clubs-in-paris /best-clubs-in-barcelona. None was justified individually in the original review.
+- Figures: 1; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+No research file was found for this guide (awakenings-festival-research.md, awakenings-festival-research.md, awakenings-festival-clubs-research.md, awakenings-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "Search for Awakenings and the top results are the festival's own site, Wikipedia and Instagram: a navigational head with no room for an outside guide." After: "(cut). This is search-result commentary, not reader information, and it puts Wikipedia in the body."
+- Before: "Some older sources, including Wikipedia, still describe the outdoor festival as running at Spaarnwoude" After: "Some older sources still describe the outdoor festival as running at Spaarnwoude"
+- "Awakenings is a long way from the breakbeat I make myself." is an owner aside about the owner's own breakbeat on a festival page. It is protected promotion; listed only so the decision is explicit.
+- "One of the biggest techno-only events in the world" has no source on the page.
+
+### Open items
+
+- One YouTube embed: no view-count or best-of evidence.

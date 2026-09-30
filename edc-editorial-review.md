@@ -152,3 +152,69 @@ Text separates every image from the collection.
 - Media: pass (licences checked, players oEmbed-checked, no reuse).
 - Implementation readiness: pass for the targeted 2026-09-15 factual update;
   shared components, catalogue, sitemap and media are intentionally unchanged.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `edc-las-vegas.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 4 hit(s)
+  - The festival calls the whole stretch, 13 to 24 May, the Dusk Till Dawn experience.
+  - In 2012 winds of up to 30 miles an hour closed the second night at 1 a.m., and 90,000 people were sent to the speedway's stands.
+  - EDC is not a genre festival, and kineticFIELD is not the whole of it.
+  - Its attendance is reported across the whole three-night event, not as the number of people inside the speedway at one time.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 12 hit(s)
+  - In 2022 EDC Mexico debuted Bionic Jungle, a house stage that reached Las Vegas later the same year.
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - bassPOD, hosted by Bassrush, is drum and bass and dubstep.
+  - At EDC, drum and bass goes back further than the main stage suggests.
+  - Bassrush is Insomniac's drum and bass and dubstep brand, and Insomniac dates the first Bassrush Arena at EDC to 2002.
+  - Camo & Krooked at EDC Las Vegas in 2014, the year they were booked on bassPOD, the stage Bassrush hosts for drum and bass and dubstep.
+  - Jungle has turned up too: in 2016 Mixmag's Lab at the festival filmed Rusko playing a jungle set.
+  - And in 2026 Sub Focus took drum and bass to kineticFIELD itself, the stage built for EDM's biggest names.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 8 hit(s)
+  - Contents Where EDC Las Vegas happens How big EDC Las Vegas is A short history, and who owns EDC Why EDC got so famous What the music actually is Hearing EDC from home FAQ The biggest night out in the desert.
+  - Insomniac describes it as the largest dance music festival in North America.
+  - The largest stage, kineticFIELD, holds 70,000 people for a headliner.
+  - Insomniac describes EDC Las Vegas as the largest dance music festival in North America.
+  - In 2014 Insomniac set the record for the largest structural stage in North America, and one review of that year measured it at 440 feet wide and 80 feet tall, about 134 by 24 metres, with 1,000 lighting fixtures and 30 lasers.
+  - The main stage carries festival house and the biggest EDM names: Tiësto played it in 2024, and in 2026 the kineticFIELD lineup included Martin Garrix, Armin van Buuren, FISHER, John Summit and Charlotte de Witte.
+  - Is EDC the biggest festival in the US?
+  - Insomniac describes EDC Las Vegas as the largest dance music festival in North America.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=SaUN0QHOkHk,zqjLaOONheg spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /tomorrowland-festival /live-dj-sets /selector /state-of-electronic-music /best-clubs-in-bristol /creamfields-festival. None was justified individually in the original review.
+- Figures: 5; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`edc-research.md` says: "- Stage 6 validation not run.". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Drum and bass is written into this festival guide as its own angle (see the drum-and-bass hits above). The owner's rule is no dnb angle on festival pages; the same facts are real lineup history. Owner decision: keep, shorten, or cut.
+- The sentence pattern "X is not a genre festival, and <stage> is not the whole of it" appears on both the EDC and Tomorrowland pages. One of them should be reworded so the two guides do not share a template sentence.
+- Largest-festival claims are attributed to Insomniac ("Insomniac describes it as..."), which is acceptable, but the same attribution sentence appears three times on the page (body and FAQ). Shorten one.
+
+### Open items
+
+- Two YouTube embeds: no view-count evidence.

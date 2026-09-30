@@ -113,3 +113,57 @@ player.
 - SEO: pass (keyword and SEO audits).
 - Media: pass (media and canon audits).
 - Implementation readiness: pass.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `what-is-coachella.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 3 hit(s)
+  - What is Coachella: Coachella, in full the Coachella Valley Music and Arts Festival, is held at the Empire Polo Club in Indio, California, about 125 miles east of Los Angeles.
+  - The Coachella location is about 125 miles east of Los Angeles and around half an hour's drive from Palm Springs, and the festival takes its name from the valley.
+  - At the Empire Polo Club, 81-800 Avenue 51, Indio, California, in the Coachella Valley, about 125 miles east of Los Angeles and half an hour from Palm Springs.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 1 hit(s)
+  - Coachella is not a dance festival, but it has always had one inside it.
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 1 hit(s)
+  - Its first edition lost $850,000, it skipped the following year, and it grew into one of the largest and most profitable music festivals in the world.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=o0QGw1LZpxM,oUbpmjOgmmU,fQqusBEnwM4 spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /edc-las-vegas /tomorrowland-festival /ultra-music-festival /what-is-burning-man /selector /state-of-electronic-music /best-clubs-in-bristol. None was justified individually in the original review.
+- Figures: 4; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`coachella-research.md` says: "Stages 2, 3 (related) and 4 remain undone and stage 6 was not run, by the". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "Coachella is not a dance festival, but it has always had one inside it." After: "Most of Coachella is not dance music, and dance music has been part of it from the start."
+- "one of the largest and most profitable music festivals in the world" is an unsourced superlative.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

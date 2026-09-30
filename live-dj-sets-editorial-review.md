@@ -105,3 +105,63 @@ None beyond §3.
 - SEO: pass (audit-keywords).
 - Media: pass pending the adjacency and layout checks after the build.
 - Implementation: pending the full gate.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `live-dj-sets.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 3 hit(s)
+  - The jungle guide and the UK garage guide tell that part in full.
+  - Most sets last an hour, and on YouTube, where the channel goes by HÖR Berlin, each is named by its time slot.
+  - If you don't, that is what the Selector is for: it knows nothing about your taste and picks from all of them, which is how you end up with an hour of Acid Arab in a Brussels park.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 12 hit(s)
+  - Rinse began on jungle with MCs, moved to UK garage around 1998, and in the early 2000s became one of the stations grime and dubstep grew up on: Dizzee Rascal and Wiley got their first exposure there, and Skream, Kode9 and Oneman a
+  - Jungle and garage records were often played on pirate radio from dubplates long before they were released, which made the station, not the shop, the place a record was first heard.
+  - The jungle guide and the UK garage guide tell that part in full.
+  - Not every set needs a camera: thirty tracks of breaks, garage, bass and grime.
+  - It grew into a members' club whose members propose the line-ups, and its sound leans to UK funky, garage, grime and jungle, with DJs like Sherelle, Slimzee and P Money.
+  - Tasha's all-vinyl jungle set, from a 1985 Music takeover in 2019, is below.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Jungle was heard on pirate radio before anyone filmed a DJ.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 1 hit(s)
+  - The Lot Radio made the room itself the point.
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 1 hit(s)
+  - Universal Music Group became the largest shareholder in NTS in June 2023.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=1wk3uOxQ5F4,kiy05zewUpg,oC969p-rxfo,kumeF99xnoM,f0coQKqxzU0,ttFxqD8qWYg,zzoxXIHJcFI,QA0EdK2RjPg,GG2IQguY-J0,vqz8c4ZP3Wg spotify=- soundcloud=3. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /best-boiler-room-sets /selector /jungle-music-guide /uk-garage-guide /how-to-find-new-music /best-clubs-in-bristol /best-electronic-music-clubs-in-london /creamfields-festival /boomtown-festival. None was justified individually in the original review.
+- Figures: 5; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,you-so-ghetto-lana-del-rey-jungle-remix) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`live-dj-sets-research.md` says: "- Stage 6 of `TOPIC-RESEARCH.md` not run; the owner's instruction to write is the". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "Most sets last an hour, and on YouTube, where the channel goes by HÖR Berlin, each is named by its time slot." After: "On YouTube, where the channel goes by HÖR Berlin, each set is named by its time slot."
+- Before: "which is how you end up with an hour of Acid Arab in a Brussels park" After: "which is how you end up with Acid Arab in a Brussels park"
+- Before: "The Lot Radio made the room itself the point." After: "At The Lot Radio the room is part of the show."
+- "Universal Music Group became the largest shareholder in NTS in June 2023" needs a source URL.
+
+### Open items
+
+- Ten YouTube embeds: view-count or best-of evidence not recorded (this is a listening guide).

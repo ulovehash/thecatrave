@@ -185,3 +185,64 @@ Maintain `text → image → text` and separate every image from every embed wit
 - [ ] Media matrix is complete.
 - [ ] Final factual and language line edit is complete.
 - [ ] User has approved the revised editorial draft before layout.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `bass-music-guide.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - The old genre labels still described parts of the music, but none covered the whole exchange.
+  - In this sense, the term describes a field of hybrid club music, not the complete history of British music with heavy sub-bass.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 40 hit(s)
+  - In the UK, the term often connects dub, jungle, drum and bass, UK garage, grime, dubstep, bassline and the hybrids that followed them.
+  - Another is talking about jungle, UK garage or grime.
+  - It travelled through lovers rock, punk and dub, trip-hop, broken beat, jungle, grime and other forms at different times and in different cities.
+  - Britain: bleep, breakbeat hardcore and jungle In Britain, another low-end route was forming around warehouse parties and raves.
+  - Breakbeat hardcore then drew together house and techno records, hip-hop breaks, sampled vocals and increasingly forceful low end.
+  - Jungle accelerated and reorganised that mixture.
+  - A threshold record where breakbeat hardcore, sound-system bass and the rhythmic language of jungle meet.
+  - At the same time, producers raised on jungle, drum and bass, UK garage and grime were making records that moved between house, techno, funky, juke, R&B and dubstep without settling into one of them.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 3 hit(s)
+  - These categories matter because real audiences use them.
+  - Record Why it matters Augustus Pablo and King Tubby, King Tubby Meets Rockers Uptown Dub as arrangement, version and low-end space.
+  - Some local scenes and platforms use the phrase more narrowly, so context matters.
+- `the point`: 2 hit(s)
+  - They agree on almost nothing stylistically, which is the point: the label held because the records did not sound alike.
+  - Bass music is useful at the point of discovery.
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 1 hit(s)
+  - BASS HOUSE Jauz : Feel the Volume FUTURE BASS Flume featuring Kai : Never Be Like You RIDDIM Bommer & Crowell : Yasuo GLITCH-HOP / LA BASS The Glitch Mob : We Can Make the World Stop MELODIC BASS Seven Lions featuring Kerli : Worl
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=oxAl3Jijs20,ML_FBvudqI0,Aa_PDKKc2_A,--jr22La8Nk,WSeNSzJ2-Jw,6HzyUHxmkg0,_VFf6434lto,i-P98B2skts,DXCtYUtjDYU,LkdEOY0bf4U,fUGZq02cYIY,iIbkC1NMM1k,hkYq02183fc,-KPnyf8vwXI,fP2O6JcnJJI,ls-LYas5j8U,ULqdjtDI-bs,2oIAQSUt9mo,KVywF8KXdwI,eOILsff2GOk spotify=track/01eKbKNxs6EogcCYONAmYI,track/2aZ89R5oSEDTfjymiRjzpg,track/3v65IsDl6LDOHDu9bU4ZOn,track/0rzohlbJIrpvIHFAgPztfG,track/7FAW04U4KSWT2vsskjNYo0 soundcloud=3. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /dubstep-guide /jungle-music-guide /uk-garage-guide /drum-and-bass-guide. None was justified individually in the original review.
+- Figures: 2; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`bass-music-research.md` exists but does not mention Stage 6, so no validation is recorded. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "They agree on almost nothing stylistically, which is the point: the label held because the records did not sound alike." After: "They agree on almost nothing stylistically, and the label held anyway because the records did not sound alike."
+
+### Open items
+
+- The review's own checklist still has five unticked boxes: every exact track and release context verified; every final player URL verified; extended playlist and mix verified; duplicate coverage removed; media matrix complete. None was closed in this pass.
+- Twenty YouTube embeds and five Spotify tracks: selection rationale not recorded.

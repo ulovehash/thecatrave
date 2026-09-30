@@ -12,3 +12,54 @@ The editorial and language review is the `humanizer` pass (ARTICLE-PRODUCTION-WO
 8. **Media actions:** 3 images (Studio 54, Limelight church, Knockdown Center), 3 catalogue sets plus the owner's mix.
 9. **Unresolved questions:** translations; whether Brooklyn Mirage's future should be revisited after the bankruptcy.
 10. **Acceptance checklist:** all pass, as for the house guide.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-clubs-in-nyc.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 1 hit(s)
+  - Levan played disco, soul, rock and anything else that moved the floor, experimented with drum machines and synthesisers in his sets, and gave his name to a whole sound: records made famous at the club became &quot;garage classics&
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 2 hit(s)
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 4 hit(s)
+  - It remains the most famous club in NYC history, remembered for who got in rather than for what was played.
+  - It is the largest of the five, with a 700-capacity main hall, a smaller room, a rooftop and a mix of live bands and all-night DJ parties.
+  - What is the most famous club in NYC history?
+  - Studio 54 is the most famous, for its door policy and its celebrities, but the most influential was the Paradise Garage, where Larry Levan was the resident until it closed in 1987.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=ss0aadTtAhQ,mG3kGYFyw-Q,5EC4BynJ1MA spotify=- soundcloud=1. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /house-music-guide /techno-music-guide /best-clubs-in-tokyo /best-clubs-in-budapest /best-clubs-in-prague /best-clubs-in-manchester. None was justified individually in the original review.
+- Figures: 4; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here. The review above mentions the humanizer 1 time(s) but records no before/after sentences, so the earlier pass is unevidenced. The grep hits above are the candidates it should have caught.
+
+### Stage 6
+
+No research file was found for this guide (nyc-clubs-research.md, nyc-clubs-research.md, nyc-clubs-research.md, nyc-research.md), so there is no Stage 6 record to cite. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "the most famous club in NYC history" and "the most influential was the Paradise Garage" are unsourced superlatives, and the FAQ repeats them.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

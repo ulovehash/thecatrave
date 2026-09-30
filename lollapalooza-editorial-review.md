@@ -111,3 +111,54 @@ The Chainsmokers' official 2019 set (their channel). All oEmbed-checked.
 - SEO: pass (keyword and SEO audits).
 - Media: pass (media and canon audits).
 - Implementation readiness: pass.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `lollapalooza-festival.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - The 2020 festival was cancelled for the pandemic and replaced by a free livestream; Lollapalooza returned at full capacity in 2021.
+  - Lollapalooza has been streamed on Hulu since 2022, alongside Austin City Limits and Bonnaroo, and in 2020 the whole festival was a free livestream on YouTube.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 4 hit(s)
+  - Thirty tracks where breaks move between garage, bass music, techno and rave.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+  - Read article → Rave spots ~6 min read Best Clubs in Bristol: Motion, Lakota and Thekla Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 1 hit(s)
+  - The stages play at once, from early afternoon until the headliners finish at night, so a day at Lollapalooza is mostly a matter of choosing.
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 0 hit(s)
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=9TKqqBCmDHA,EGh9zlN6eLo,zns830Yl1b0 spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /what-is-coachella /edc-las-vegas /tomorrowland-festival /what-is-burning-man /selector /state-of-electronic-music /best-clubs-in-bristol. None was justified individually in the original review.
+- Figures: 4; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`lollapalooza-research.md` exists but does not mention Stage 6, so no validation is recorded. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "streamed on Hulu since 2022" and the 2020 livestream claim need sources opened.
+
+### Open items
+
+- Three YouTube embeds: no view-count evidence.

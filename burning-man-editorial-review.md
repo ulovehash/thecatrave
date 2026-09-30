@@ -220,3 +220,59 @@ Evidence used: Burning Man's 2026 Survival Guide pages for On-Playa Resources
 and Consent, the Burning Man Project weather page, its 2022 Return to Black
 Rock City briefing, the 2023 Sound Policy Update and the 2026 camps directory.
 No Ahrefs API call was used for this revision.
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `what-is-burning-man.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 2 hit(s)
+  - Music is therefore a major part of Black Rock City without defining the whole event.
+  - Not as a whole.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 5 hit(s)
+  - Breaks and techno for a night on an art car.
+  - For the morning after: breaks moving through garage, bass music and techno.
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - This is mine, from the breaks and bass side.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 2 hit(s)
+  - Black Rock City is the name of the city Burning Man builds, and it is a real city in most of the ways that matter for a week: streets, addresses, rangers, medical tents, even an FAA-approved airport since 2002.
+  - The principle is called Leaving No Trace, and it is checked: after the event, crews walk the playa in lines picking up what is known as MOOP, matter out of place.
+- `the point`: 2 hit(s)
+  - Gifting is what replaces commerce: people offer food, drinks, workshops and performances without charging at the point of use.
+  - For the opposite format, where the camera is the point, our guide to the best Boiler Room sets ranks eighteen of them.
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 1 hit(s)
+  - Since 2015 the biggest mobile systems have played in the Deep Playa Music Zone, far out beyond the Man.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=XwK7sA9PuCE,MNkApftw_iM,S7OBT3kQAHQ,d8zUK6nAbr8 spotify=- soundcloud=2. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass. This is a festival guide, so the open item in `defects.json` (`festival-guides-listening-without-view-evidence`) applies: no view-count or best-of evidence is recorded for these videos.
+- Internal links: /best-boiler-room-sets /selector /best-clubs-in-nyc /best-clubs-in-tokyo /best-clubs-in-budapest /best-clubs-in-prague. None was justified individually in the original review.
+- Figures: 6; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`burning-man-research.md` exists but does not mention Stage 6, so no validation is recorded. This addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- "Since 2015 the biggest mobile systems have played in the Deep Playa Music Zone" is a superlative without a source.
+
+### Open items
+
+- Four YouTube embeds: no view-count evidence.

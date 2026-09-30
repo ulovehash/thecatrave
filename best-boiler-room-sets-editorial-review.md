@@ -95,3 +95,63 @@ every figure from every player (`mediaAdjacencyRhythm` passes).
 - SEO: pass.
 - Media: pass.
 - Implementation: pass except the homepage orphan test (item 9.2).
+
+
+---
+
+## Evidence addendum, 2026-09-30
+
+Written under `ARTICLE-EDITORIAL-REVIEW.md` §0. This addendum does not replace the review above; it adds the evidence that review did not record. **It is not independent:** the same agent that scanned the page wrote it, it was run with the shell offline, and no live URL was opened in this pass. Nothing in the copy was edited. Proposed wording is listed under "Findings" and waits for the owner.
+
+Page checked: `best-boiler-room-sets.html` (built text, article body, sources section excluded).
+
+### Greps on the built page
+
+- `complete|full|whole|uninterrupted|an hour|in full`: 5 hit(s)
+  - The full ranking of eighteen follows, next to the ten most-watched sets as measured.
+  - Open it and press the button: a Boiler Room set, or one from the whole catalogue, chosen for you.
+  - One of the biggest names in dance music plays three quarters of an hour of house and tech house in a private villa, not a club.
+  - He started on digital, moved to vinyl and then to CDs, with MC Majestic on the mic for half an hour, and ran through bassline, UK garage and 2-step: Wookie, DJ Zinc, Zed Bias, Sticky, Scott Garcia.
+  - #17 Folamour, FLY Open Air 2019 Filmed at FLY Open Air in Edinburgh in 2019, an hour of disco, funk and house at a festival.
+- `jungle|drum and bass|breaks` (this is not a drum and bass guide unless stated): 6 hit(s)
+  - Between the two lists, one set that was never filmed: breaks moving through garage, bass music, techno and grime.
+  - It is the only drum and bass set among the ten most-watched, at 14.68 million views and 219,003 likes.
+  - Where the music came from is in our drum and bass guide .
+  - Article by thecatrave Breakbeat, bass and rave DJ, producer and selector.
+  - These are mine, from the breaks and bass side.
+  - Support ↗ Protect Ya Breaks by thecatrave Berlin Race 1909 by thecatrave Continue reading Read next.
+- `Wikipedia` in the body: 0 hit(s)
+- `not .* but`: 0 hit(s)
+- `matters`: 0 hit(s)
+- `the point`: 0 hit(s)
+- Superlatives (`best-known|most famous|largest|biggest|legendary|world's`): 3 hit(s)
+  - The biggest sets by views are rarely the most loved by the people watching them.
+  - One of the biggest names in dance music plays three quarters of an hour of house and tech house in a private villa, not a club.
+  - 122,084 likes on 4.34 million views is 28.1 per thousand, the thirteenth highest rate of any Boiler Room set past a million views, and the only one in that group by a band whose best-known record came out in the 1990s.
+
+Hits that are the owner's own mix or Bandcamp copy ("Thirty tracks where breaks move…", "Protect Ya Breaks", "Berlin Race 1909", the author card) are protected promotion and are not counted as defects.
+
+### Listening, links and reuse
+
+- Embeds on the page: youtube=bk6Xst6euQk,c0-hvjV2A5Y,x9VYKrtziSg,vy-k0FopsmY,-5EQIiabJvk,T1tcUfUhR5U,OraL6lKoyXE,e8WVP3ClDsM,rKPBq_j4buQ,Zy_JR9_Y8dE,Bj8425Ma6F8,jQRI3b2SX8c,IUjWumGIqe8,j5y2GBks5j4,uhAp3o71U48,VT1a7whqhC4,rAOHJqJMYDA,wL-VMOGAhzE,ddeAyYF_uwg spotify=- soundcloud=3. The IDs are from the built HTML. Channel, view count and oEmbed result were **not** re-checked in this pass.
+- Internal links: /live-dj-sets /selector /uk-garage-guide /dubstep-guide /drum-and-bass-guide /how-to-find-new-music /creamfields-festival /best-spotify-playlists /best-soundcloud-dj-mixes. None was justified individually in the original review.
+- Figures: 5; shared with other pages: none. Checked against every other page's `<figure>` images after normalising size suffixes; the author photo is excluded.
+- Owner promotion present: Bandcamp tracks (protect-ya-breaks,berlin-race-1909) and own-set players. Protected.
+
+### Humanizer record
+
+No humanizer pass was re-run here, and the review above does not mention one, so there is no record that the pass happened. The grep hits above are the candidates.
+
+### Stage 6
+
+`best-boiler-room-sets-research.md` says: "- Stage 6 of `TOPIC-RESEARCH.md` has not been run as a separate pass. The owner's". That is a statement, not an independent validation; this addendum does not supply one.
+
+### Findings (owner decision needed, nothing applied)
+
+- Before: "#17 Folamour, FLY Open Air 2019 Filmed at FLY Open Air in Edinburgh in 2019, an hour of disco, funk and house at a festival." After: "Filmed at FLY Open Air in Edinburgh in 2019, disco, funk and house at a festival."
+- Before: "plays three quarters of an hour of house and tech house in a private villa" After: "plays house and tech house in a private villa" (WRITING.md: leave a set's length to the player)
+
+### Open items
+
+- View counts and like ratios (14.68 million / 219,003; 4.34 million / 122,084 = 28.1 per thousand) were not re-checked. They change daily and need a dated source.
+- Nineteen YouTube embeds.
