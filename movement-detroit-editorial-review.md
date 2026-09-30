@@ -72,3 +72,17 @@ None for publication. The official Movement site is partly between its 2026 and 
 | SEO preservation | Pass, evergreen intent retained and volatile lineup facts linked out |
 | Media | Pass, licensed local figures and exact archive videos verified |
 | Implementation readiness | Pass, shared components, official links and source-of-truth generator used |
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum overrides any earlier "pass" line above that conflicts with it. The earlier review recorded passes without showing what was checked, and other guides reviewed the same way were later found to need changes. This review is not independent: the same agent that audited the page wrote it. Stage 6 (topic research validation) was not run independently for this guide.
+
+**Greps on the built page text.** `complete` 1 ("incomplete", about calling it only a techno festival), `full` 0, `whole` 0, `jungle` 0, `drum and bass` 0, `Wikipedia` 0, `breaks` 6 (five are the festival's genre list, which the official site supports; one is the owner's mix and Bandcamp copy), em dashes 0.
+
+**Listening.** Two YouTube embeds from the Detroit Historical Society archive (`2mc8AkXYBdc`, `GTF4S78VTPw`: Juan Atkins, and a reel with Eddie Fowlkes and K-Hand from the 2002 festival). They are archival evidence for the history section, not popular sets, so no view-count evidence is required. Embed URLs were not re-checked in this pass.
+
+**Links.** `/sziget-festival`, `/monegros-desert-festival`, `/boomtown-festival`, `/arc-music-festival` (Read next). No dnb or jungle link. The owner's mix and Bandcamp card stay as promotion, with no lineage claim invented.
+
+**Humanizer record (before and after), applied 2026-09-30.** "That range does not erase the festival's location or its techno lineage." was cut. "That sequence is easy to flatten into a smooth rebrand, but it involved different organisers, funding models and artistic leadership." became "The organisers, funding and artistic leadership changed at each step." "with Detroit's own performers already carrying the argument" became "with Detroit's own performers already on the bill." "Techno still gives the weekend its centre of gravity." became "Techno is still the centre of the weekend." A repeated sentence ("That history predates the festival...") was cut.
+
+**Facts.** The 29 to 31 May 2027 dates come from the official FAQ link in the copy. No fact-check ledger row in the original review was re-opened in this pass.

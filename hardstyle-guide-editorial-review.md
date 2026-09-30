@@ -70,3 +70,22 @@ None. Current festival dates and programmes should be refreshed from official or
 | SEO preservation | Pass, approved definition-led intent and semantic kernel retained |
 | Media | Pass, exact tracks and licensed local figure verified |
 | Implementation readiness | Pass, shared components and source-of-truth generator used |
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum overrides any earlier "pass" line above that conflicts with it. The earlier review recorded passes without showing what was checked, and other guides reviewed the same way were later found to need changes. This review is not independent: the same agent that audited the page wrote it. Stage 6 (topic research validation) was not run independently for this guide.
+
+**Greps on the built page text.** `complete` 0, `full` 1 ("full arrangement", about a track, not a set), `whole` 0, `jungle` 0, `drum and bass` 0, `Wikipedia` 1 (Sources list only; none in prose), `the point` 1 ("from the point", not a staged line), `breaks` 2 (the owner's Bandcamp copy), em dashes 0.
+
+**Banner.** The banner repeated the first paragraph of "What is hardstyle". It is now a literal short line in `build-hardstyle-article.mjs` ("Hardstyle is dance music at 145 to 155 BPM built on a distorted, pitched kick drum and big melodic breakdowns."). The FAQ answer uses different wording again.
+
+**Listening.** Six exact examples: one YouTube embed (`Q_N2Gv2_0IU`) and five Spotify track embeds. The original review names six pairings (DJ Duro and The Prophet, Blademasterz, Headhunterz, D-Block & S-te-Fan, B-Front and Frontliner, Zatox and Nikkita). They are chosen to illustrate named records in the prose, not as popular sets, so no view-count evidence is required. Embed URLs were not re-checked in this pass.
+
+**Links.** `/state-of-electronic-music`, `/german-electronic-music`, `/best-clubs-in-berlin`, `/airbeat-one-festival` (Airbeat One has a hardstyle stage). No dnb or jungle link. The owner's Bandcamp card stays as promotion.
+
+**Read-through findings, not yet edited (published copy):**
+- "Defqon.1 is the largest single statement of hardstyle culture." is an unsourced superlative. Proposed: "Defqon.1 is the best-known hardstyle festival."
+- "The Red stage is the main arena and has become the festival's most recognisable image." has no source. Proposed: "The Red stage is the main arena."
+- "A genre label describes a record's main rhythmic and structural language even when producers work across those boundaries." restates the paragraph. Proposed: cut.
+
+**Sources.** Wikipedia remains as a "source map" link in the list; the claims in the ledger rest on the Prophet interview, Q-dance and Scantraxx.

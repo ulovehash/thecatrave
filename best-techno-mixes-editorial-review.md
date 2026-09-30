@@ -44,3 +44,17 @@ The mandatory humanizer pass ran after drafting. Repetitive contrast formulas an
 ## 10. Verdict
 
 Ready to build. No unresolved factual, structural, media or SEO blocker.
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum overrides any earlier "pass" line above that conflicts with it. The earlier review recorded passes without showing what was checked, and other guides reviewed the same way were later found to need changes. This review is not independent: the same agent that audited the page wrote it. Stage 6 (topic research validation) was not run independently for this guide.
+
+**Correction to the review above.** Section 2 says the article "recommends complete techno mixes". That wording breaks the never-complete rule. The intent is "recorded techno mixes from official channels", and the page no longer says "complete".
+
+**Greps on the built page text.** `complete` 0, `full` 2 ("the full history", about the techno guide), `whole` 1 ("the whole genre", about a kick drum's reputation), `jungle` 0, `drum and bass` 0, `Wikipedia` 0, `matters` 1 (plain prose in the Juan Atkins entry), `breaks` 1, em dashes 0.
+
+**Listening.** Ten YouTube embeds from official Mixmag, DJ Mag, Boiler Room and HÖR channels. The page states that view counts were not used as a quality score, so no popularity evidence is required. Embed IDs were checked in the original review; not re-checked in this pass.
+
+**Links.** `/techno-music-guide`, `/best-clubs-in-berlin`, `/german-electronic-music`, `/best-clubs-in-paris`, `/best-clubs-in-barcelona`, `/state-of-electronic-music`. No dnb or jungle link.
+
+**Humanizer record (before and after), applied 2026-09-30.** "and can be played in full." became "official broadcaster channels." "carry an hour" became "carry a mix". "It asks for uninterrupted listening and rewards attention to small adjustments." became "It rewards attention to small adjustments." The player description "Watch the complete ... recording" became "Watch the ... recording".

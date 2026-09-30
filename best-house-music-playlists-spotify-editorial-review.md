@@ -44,3 +44,15 @@ The mandatory humanizer pass ran after drafting. Quotation marks were normalized
 ## 10. Verdict
 
 Ready to build. No unresolved factual, structural, media or SEO blocker.
+
+## Evidence addendum, 2026-09-30 (ARTICLE-EDITORIAL-REVIEW.md §0)
+
+This addendum overrides any earlier "pass" line above that conflicts with it. The earlier review recorded passes without showing what was checked, and other guides reviewed the same way were later found to need changes. This review is not independent: the same agent that audited the page wrote it. Stage 6 (topic research validation) was not run independently for this guide.
+
+**Greps on the built page text.** `complete` 0, `whole` 0, `jungle` 0, `Wikipedia` 0, `full` 12 (all the button text "Open full playlist on Spotify", about a playlist, not a DJ set), `drum and bass` 1 (the owner's Emotional Electronic Music playlist description), `breaks` 6 (Feel My Bicep, the owner's playlists and Bandcamp copy), em dashes 0.
+
+**Listening.** Twelve Spotify playlist embeds. Playlist titles, curators and IDs were checked on 29 September 2026 per the draft's Sources note; they were not re-checked in this pass. Follower counts are deliberately omitted.
+
+**Links.** `/best-spotify-playlists`, `/house-music-guide`, `/how-to-find-new-music`, `/best-boiler-room-sets`, `/what-is-burning-man` (the last three are Read next cards). No dnb or jungle guide link. The two thecatrave playlists stay as disclosed promotion and are not presented as independent recommendations.
+
+**Humanizer record (before and after), applied 2026-09-30.** "and a reason to exist beyond collecting search traffic" was cut. "a distinction worth knowing before pressing play" was cut. "a release feed with institutional memory" became "a release feed". "the kind of historical continuity that comes from a DJ treating older records as working material" became "running from disco and funk into current house". "Saving two lists with different curators will usually reveal more than following the biggest one alone." became "Saving two lists from different curators shows the differences quickly."
