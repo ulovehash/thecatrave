@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-label="Two diagrams. On the left a closed loop: what you played feeds a recommender, which suggests more of the same, which you play, narrowing the circle each time. On the right an open line: an unpersonalised source plays something with no connection to your history, which widens what you might play next.">
+<style>
+  .box{fill:#f1eee7;stroke:#0a0a0a;stroke-width:2}
+  .boxa{fill:#ff5a36;stroke:#0a0a0a;stroke-width:2}
+  .t{font:600 17px "Space Mono",ui-monospace,monospace;fill:#0a0a0a}
+  .th{font:700 20px "Space Mono",ui-monospace,monospace;fill:#0a0a0a;letter-spacing:.04em}
+  .ts{font:400 14px "Space Mono",ui-monospace,monospace;fill:#0a0a0a;opacity:.7}
+  .ln{stroke:#0a0a0a;stroke-width:2;fill:none}
+</style>
+
+<text x="110" y="46" class="th">DIE SCHLEIFE</text>
+<text x="110" y="72" class="ts">eine Empfehlungsmaschine, wiederholt</text>
+<rect x="110" y="110" width="300" height="56" rx="2" class="box"/><text x="130" y="144" class="t">was du gespielt hast</text>
+<path d="M260 166 L260 208" class="ln" marker-end="url(#a)"/>
+<rect x="110" y="210" width="300" height="56" rx="2" class="box"/><text x="130" y="244" class="t">die Empfehlungsmaschine</text>
+<path d="M260 266 L260 308" class="ln" marker-end="url(#a)"/>
+<rect x="110" y="310" width="300" height="56" rx="2" class="boxa"/><text x="130" y="344" class="t">mehr vom Gleichen</text>
+<path d="M110 338 L78 338 L78 138 L108 138" class="ln" marker-end="url(#a)"/>
+<text x="110" y="404" class="ts">jede Runde liegt näher an</text>
+<text x="110" y="426" class="ts">der letzten. Der Kreis</text>
+<text x="110" y="448" class="ts">zieht sich zu.</text>
+
+<line x1="500" y1="30" x2="500" y2="440" stroke="#0a0a0a" stroke-width="1" stroke-dasharray="4 6" opacity=".4"/>
+
+<text x="590" y="46" class="th">DER AUSWEG</text>
+<text x="590" y="72" class="ts">eine Quelle, die dich nicht kennt</text>
+<rect x="590" y="110" width="300" height="56" rx="2" class="box"/><text x="610" y="144" class="t">Sender, Set, Laden</text>
+<path d="M740 166 L740 208" class="ln" marker-end="url(#a)"/>
+<rect x="590" y="210" width="300" height="56" rx="2" class="boxa"/><text x="610" y="244" class="t">etwas Ungehörtes</text>
+<path d="M740 266 L740 308" class="ln" marker-end="url(#a)"/>
+<rect x="590" y="310" width="300" height="56" rx="2" class="box"/><text x="610" y="344" class="t">breiteres nächstes Hören</text>
+<text x="590" y="404" class="ts">nichts schließt sich. Die</text>
+<text x="590" y="426" class="ts">Quelle weiß nicht mehr,</text>
+<text x="590" y="448" class="ts">was du vorher mochtest.</text>
+
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0a0a0a"/></marker></defs>
+</svg>

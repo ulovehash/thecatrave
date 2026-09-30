@@ -31,6 +31,7 @@ import {
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('find-new-music-draft.md', 'utf8')).replace(/—/g, ':');
 // The slug is the query: "how to find new music" is 1,400 a month worldwide,
@@ -279,6 +280,7 @@ const html = articlePage({
   ogImage: 'https://thecatrave.com/img/og/how-to-find-new-music.jpg',
   datePublished, dateModified,
   bodyClass: 'article-page find-new-music-page',
+  alternates: alternatesFor('/how-to-find-new-music'),
   structuredData, articleHtml
 }).replace(/—/g, ':');
 

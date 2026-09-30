@@ -30,7 +30,11 @@ const generatorSources = guides.map(page => {
   const module = contentModuleFor(page);
   const generator = generators[page.generator];
   const sharedBuilder = generator.includes("./build-next-festival-article.mjs") ? sharedNextFestivalBuilder : '';
-  return generator + sharedBuilder + (fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '');
+  const moduleSource = fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '';
+  // A content module may build its figures and tables in a helper it shares
+  // with the English generator (content/uk-evolution-shared.mjs).
+  const shared = [...moduleSource.matchAll(/from '\.\.\/([\w-]+\.mjs)'/g)].map(match => `content/${match[1]}`).filter(file => fs.existsSync(file)).map(file => fs.readFileSync(file, 'utf8')).join('');
+  return generator + sharedBuilder + moduleSource + shared;
 });
 const articleCss = fs.readFileSync('thecatrave-article.css', 'utf8');
 const homeCss = fs.readFileSync('thecatrave-home.css', 'utf8');

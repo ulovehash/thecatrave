@@ -22,6 +22,7 @@ import {
   authorCard, bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('best-boiler-room-sets-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-boiler-room-sets';
@@ -276,6 +277,7 @@ const html = articlePage({
   ogImage: 'https://thecatrave.com/img/og/best-boiler-room-sets.jpg',
   datePublished, dateModified,
   bodyClass: 'article-page boiler-room-page',
+  alternates: alternatesFor('/best-boiler-room-sets'),
   structuredData, articleHtml
 }).replace(/—/g, ':');
 

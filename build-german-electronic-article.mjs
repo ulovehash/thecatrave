@@ -14,6 +14,7 @@ import {
   faqStructuredData, infoBanner, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('german-electronic-music-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/german-electronic-music';
@@ -225,7 +226,7 @@ const structuredData = [
 ];
 
 const html = articlePage({
-  title, description, canonical,
+  title, description, canonical, alternates: alternatesFor('/german-electronic-music'),
   ogImage: 'https://thecatrave.com/img/og/german-electronic.jpg',
   datePublished, dateModified,
   bodyClass: 'article-page german-electronic-page', structuredData, articleHtml

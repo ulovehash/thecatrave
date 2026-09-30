@@ -615,6 +615,37 @@ export const germanArticleCatalog = [
     width:1200, height:810, alt:'Der Eingang von fabric an der Charterhouse Street, London'
   },
   {
+    page:'de/neue-musik-finden.html', category:'digging', tags:['discovery','tools'], href:'/de/neue-musik-finden', type:'Guide', topic:'Musik entdecken',
+    title:'Neue Musik finden: 10 Wege ohne Algorithmus',
+    description:'Zehn Wege, etwas zu hören, das du noch nicht kennst, von Community-Radio bis zu Produzenten-Credits, nach Aufwand geordnet.',
+    image:'img/NOW-320.webp',
+    srcset:'img/NOW-320.webp 320w,img/NOW-1024.webp 1024w',
+    width:1024, height:1024, alt:'Eine Hörstation in einem Plattenladen'
+  },
+  {
+    page:'de/beste-boiler-room-sets.html', category:'digging', tags:['uk','house','bass','discovery'], href:'/de/beste-boiler-room-sets', type:'Liste', topic:'Boiler Room',
+    title:'Die besten Boiler-Room-Sets aller Zeiten: gerankt, gemessen',
+    description:'Die besten Boiler-Room-Sets, von Carl Cox auf Ibiza bis Fred again.. in London, neben den meistgesehenen Sets, gezählt über 8.206 Aufnahmen.',
+    image:'img/boiler-room/carl-cox-320.webp',
+    srcset:'img/boiler-room/carl-cox-320.webp 320w, img/boiler-room/carl-cox-1200.webp 1200w',
+    width:1200, height:800, alt:'Carl Cox legt beim Amsterdam Dance Event auf'
+  },
+  {
+    page:'de/deutsche-elektronische-musik.html', category:'music-history', tags:['techno','history','overview'], href:'/de/deutsche-elektronische-musik', type:'Timeline', topic:'Deutsche Musik',
+    title:'Deutsche elektronische Musik: Geschichte von Kraftwerk bis Techno',
+    description:'Kölner Studios, Düsseldorfer Elektropop, Frankfurter Trance und die Allianz zwischen Detroit und Berlin.',
+    image:'img/german-electronic/kraftwerk-stage-320.webp',
+    srcset:'img/german-electronic/kraftwerk-stage-320.webp 320w,img/german-electronic/kraftwerk-stage-1200.webp 1200w',
+    width:1200, height:901, alt:'Kraftwerk bei einem Auftritt hinter elektronischen Pulten'
+  },
+  {
+    page:'de/britische-elektronische-musik.html', category:'music-history', tags:['uk','history','overview'], href:'/de/britische-elektronische-musik', type:'Timeline', topic:'Britische Musik',
+    title:'Britische elektronische Musik: Genres, Szenen und Geschichte',
+    description:'Wie Acid House, Bleep, Jungle, UK Garage, Grime und Dubstep zusammenhängen, von den Raves der 1980er bis zu den Szenen von heute.',
+    image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
+    width:1024, height:683, alt:'Britische Künstler der elektronischen Musik bei einem Auftritt in einem dunklen Club'
+  },
+  {
     page:'de/drum-and-bass.html', category:'music-history', tags:['breaks','uk','nineties','bass'], href:'/de/drum-and-bass', type:'Guide', topic:'Drum and Bass',
     title:'Was ist Drum and Bass? 174 BPM, Geschichte und Subgenres',
     description:'Schnelle Breakbeats, tiefer Sub-Bass und das britische Rave-Kontinuum hinter einem globalen Genre: wie sich Drum and Bass vom Jungle trennte, wie es gebaut ist und wohin es ging.',
@@ -768,6 +799,45 @@ export const frenchArticleCatalog = [
     image:'img/berlin-clubs/berghain-320.webp',
     srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
     width:1200, height:800, alt:'L’entrée du Berghain à Berlin'
+  },
+  {
+    page:'fr/trouver-de-la-nouvelle-musique.html', category:'digging', tags:['discovery','tools'], href:'/fr/trouver-de-la-nouvelle-musique', type:'Guide', topic:'Découverte musicale',
+    title:'Trouver de la nouvelle musique : 10 méthodes sans algorithme',
+    description:'Dix façons d’entendre ce que vous ne connaissez pas encore, de la radio communautaire aux crédits de production, classées selon l’effort demandé.',
+    image:'img/NOW-320.webp',
+    srcset:'img/NOW-320.webp 320w,img/NOW-1024.webp 1024w',
+    width:1024, height:1024, alt:'Une borne d’écoute dans un magasin de disques'
+  },
+  {
+    page:'fr/meilleurs-sets-boiler-room.html', category:'digging', tags:['uk','house','bass','discovery'], href:'/fr/meilleurs-sets-boiler-room', type:'Liste', topic:'Boiler Room',
+    title:'Les meilleurs sets Boiler Room de tous les temps, classés et mesurés',
+    description:'Les meilleurs sets Boiler Room, de Carl Cox à Ibiza à Fred again.. à Londres, à côté des plus regardés, comptés sur 8 206 enregistrements.',
+    image:'img/boiler-room/carl-cox-320.webp',
+    srcset:'img/boiler-room/carl-cox-320.webp 320w, img/boiler-room/carl-cox-1200.webp 1200w',
+    width:1200, height:800, alt:'Carl Cox aux platines à l’Amsterdam Dance Event'
+  },
+  {
+    page:'fr/musique-electronique-allemande.html', category:'music-history', tags:['techno','history','overview'], href:'/fr/musique-electronique-allemande', type:'Chronologie', topic:'Musique allemande',
+    title:'Musique électronique allemande : de Kraftwerk à la techno',
+    description:'Studios de Cologne, pop électronique de Düsseldorf, trance de Francfort et alliance entre Détroit et Berlin.',
+    image:'img/german-electronic/kraftwerk-stage-320.webp',
+    srcset:'img/german-electronic/kraftwerk-stage-320.webp 320w,img/german-electronic/kraftwerk-stage-1200.webp 1200w',
+    width:1200, height:901, alt:'Kraftwerk sur scène derrière des pupitres électroniques'
+  },
+  {
+    page:'fr/musique-electronique-britannique.html', category:'music-history', tags:['uk','history','overview'], href:'/fr/musique-electronique-britannique', type:'Chronologie', topic:'Musique britannique',
+    title:'Musique électronique britannique : genres, scènes et histoire',
+    description:'Comment l’acid house, la bleep, la jungle, le UK garage, le grime et le dubstep se relient, des raves des années 1980 aux scènes d’aujourd’hui.',
+    image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
+    width:1024, height:683, alt:'Artistes britanniques de musique électronique sur scène dans un club sombre'
+  },
+  {
+    page:'fr/boite-de-nuit-londres.html', category:'rave-spots', tags:['jungle','history','discovery'], href:'/fr/boite-de-nuit-londres', type:'Guide', topic:'Boite de nuit Londres',
+    title:'Boite de nuit Londres : les meilleurs clubs, de Heaven à FOLD',
+    description:"Du Four Aces et du Blitz à Rage, au Blue Note et à fabric : les clubs londoniens derrière l'acid house, la jungle, le garage et le dubstep, et ceux qui valent un week-end aujourd'hui.",
+    image:'img/london-clubs/fabric-320.webp',
+    srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
+    width:1200, height:810, alt:"L'entrée de fabric sur Charterhouse Street, Londres"
   },
   {
     page:'fr/boite-de-nuit-paris.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-paris', type:'Guide', topic:'Boite de nuit Paris',

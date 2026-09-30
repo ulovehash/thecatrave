@@ -333,3 +333,28 @@ Decisions:
   English "Read article →" (fixed, `translated-cards-read-article-english`),
   and the German Selector bar says "ein kompletter DJ-Set" (open, waits for the
   owner: `german-promo-bar-set-gender`).
+
+## 2026-10-01: first five of the demand queue
+
+London clubs (French only), UK electronic music evolution, German electronic
+music, how to find new music, best Boiler Room sets: German and French each,
+except London (German already existed).
+
+- Drafts are `de|fr/<name>-draft.md`; figures, players, tables and diagrams are
+  shared with the English generators through `content/<x>-shared.mjs`
+  (`find-new-music-shared`, `boiler-room-shared`), so a number or embed is
+  changed in one place.
+- Internal links go to the translated guide where one exists; `/live-dj-sets`
+  has none and is marked "(auf Englisch)" / "(en anglais)". Sources in English
+  carry the same mark.
+- Dated catalogue totals ("Stand September 2026" / "à la date de septembre
+  2026") keep `audit-catalogue-numbers` quiet. The 8,206 Boiler Room count is
+  typed, not audited.
+- The Selector screenshot is English-only; both captions say the interface is
+  in English.
+- Translated "essential listening" bands use the locale label from `i18n.mjs`
+  (`Zum Reinhören`, `À écouter`), or `audit-site-components` does not see them.
+- Keyword maps for the new pages are empty: the shell was offline, so nothing
+  was measured. Fill them from Keyword Planner before claiming a target.
+- `audit-canon.mjs` ("state-of-electronic-music.html: no media map") was already
+  failing and belongs to another session.

@@ -1,0 +1,23 @@
+{
+  "page": "fr/boite-de-nuit-londres.html",
+  "seed": "club londres",
+  "source": "ahrefs keywords-explorer-matching-terms, country fr, volume >= 50, 18 September 2026 (TRANSLATION-RESEARCH.md, French main keywords). No units spent for this page.",
+  "note": "French intent fit is weak: the seed's French SERP is mostly football. The nightlife terms match the guide. French drops the circumflex on 'boite' (1990 spelling reform), as fr/boite-de-nuit-paris.html and fr/boite-de-nuit-berlin.html do.",
+  "terms": [
+    {
+      "term": "boite de nuit londres",
+      "volume": 400
+    }
+  ],
+  "rejected": [
+    {
+      "term": "football clubs londres",
+      "why": "collision: football"
+    },
+    {
+      "term": "club londres",
+      "volume": 600,
+      "why": "the phrase does not occur in French prose; the page writes \"clubs de Londres\" and \"boite de nuit de Londres\", which answer the same query"
+    }
+  ]
+}

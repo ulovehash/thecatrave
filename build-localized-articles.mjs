@@ -31,6 +31,14 @@
 //   image                image for the Article structured data
 //   sourcesNote          a last Sources line that is not a link, such as where
 //                        the set counts come from
+//   answerSection        omit it when the English page has no summary banner
+//                        (the UK evolution guide opens straight on its text)
+//   introTitle           omit it when the English intro has no heading
+//   sections[].headings  several draft headings rendered as one section, for
+//                        the UK guide's eras, which the English page merges
+//   sections[].rawHtml   a function returning the whole section, for a block
+//                        that is not prose (the UK guide's genre map); the
+//                        draft has no heading for it
 //
 // A draft paragraph starting with "> " renders as a note (<p class=
 // "article-note">), for the bass music guide's listening notes.
@@ -131,7 +139,7 @@ export function buildLocalizedArticle(content) {
     }).join('\n')}</div>`;
   };
 
-  const answer = paras(getSection(content.answerSection));
+  const answer = content.answerSection ? paras(getSection(content.answerSection)) : null;
   const faqItems = getSection(content.faqSection).split(/(?:^|\n)### /).filter(Boolean).map(block => {
     const [question, ...rest] = block.split('\n');
     const body = rest.join('\n').trim();
@@ -146,13 +154,13 @@ export function buildLocalizedArticle(content) {
   const tocItems = [...content.sections.map(({id, heading, tocLabel}) => ({id, label: tocLabel || heading})), {id: 'faq', label: content.faqLabel || 'FAQ'}];
   const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
-  const sectionHtml = content.sections.map(section => articleSection({
+  const sectionHtml = content.sections.map(section => section.rawHtml ? section.rawHtml(copy) : articleSection({
     id: section.id, title: section.title, kicker: section.kicker, className: section.className || '',
     bodyHtml: section.playlists
       ? renderPlaylistSection(getSection(section.heading), section.playlists)
       : section.subsections
       ? renderWithSubsections(getSection(section.heading), section.subsections)
-      : render(getSection(section.heading))
+      : render(section.headings ? section.headings.map(getSection).join('\n\n') : getSection(section.heading))
   }));
 
   // A source is one link, or approved HTML when one line groups several links,
@@ -168,10 +176,12 @@ export function buildLocalizedArticle(content) {
       readingTime: copy.readingTime(minutes),
       dateModified: content.dateModified,
       dateLabel: content.dateLabel,
-      summaryHtml: infoBanner({label: content.answerLabel, bodyHtml: inline(answer[0]), className: 'article-summary'}),
+      ...(answer ? {summaryHtml: infoBanner({label: content.answerLabel, bodyHtml: inline(answer[0]), className: 'article-summary'})} : {}),
       tocItems
     }),
-    articleSection({id: 'introduction', title: content.introTitle, bodyHtml: render(getSection(content.introSection)), className: 'article-intro'}),
+    content.introTitle
+      ? articleSection({id: 'introduction', title: content.introTitle, bodyHtml: render(getSection(content.introSection)), className: 'article-intro'})
+      : `<section class="floating-block article-section article-intro">${render(getSection(content.introSection))}</section>`,
     // The owner's two mixes, in the same two places as on every festival guide:
     // one mid-guide after the history section, one before the FAQ. Only where
     // the English page carries them.
