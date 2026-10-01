@@ -1,0 +1,19 @@
+{
+  "page": "de/trance-musik.html",
+  "seed": "trance musik",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google de-DE People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "was ist trance musik",
+      "volume": null,
+      "bucket": "1K–10K (Keyword Planner bucket)",
+      "note": "head term; bucket from Keyword Planner DE"
+    },
+    {
+      "term": "psy trance",
+      "volume": null,
+      "note": "Google related search, de-DE (Trance musik Goa); wording present in the Psytrance section"
+    }
+  ]
+}

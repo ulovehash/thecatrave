@@ -1,0 +1,23 @@
+{
+  "page": "de/airbeat-one-festival.html",
+  "seed": "airbeat one",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google de-DE People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "airbeat one",
+      "volume": null,
+      "bucket": "10K–100K (Keyword Planner bucket)"
+    },
+    {
+      "term": "airbeat one festival 2027",
+      "volume": null,
+      "note": "Google related search, de-DE"
+    },
+    {
+      "term": "was für musik läuft auf dem airbeat one",
+      "volume": null,
+      "note": "Google People also ask, de-DE"
+    }
+  ]
+}

@@ -400,3 +400,24 @@ Volumes are not measured; these are the phrases Google itself shows.
 Wording consequence: German title and H2s say "Techno-Musik" / "House-Musik"
 (hyphenated, as Wikipedia and Red Bull write it); French says "la techno",
 "la house" and "la musique house", and "hardstyle" is unchanged in both.
+
+## 2026-10-01: second batch published (airbeat one, trance, Monegros, Budapest clubs, Lollapalooza)
+
+German and French each. Tool per number: Keyword Planner bucket pass (above) for
+the only volumes given; Google results, People also ask and related searches
+(hl/gl de-DE and fr-FR, 2026-10-01) for wording. No exact volumes were measured,
+and the keyword maps say so ("not measured", or the bucket).
+
+| Guide | DE wording seen | FR wording seen |
+|---|---|---|
+| Lollapalooza | "lollapalooza chicago", "Lollapalooza Chicago 2027", Was ist Lollapalooza für ein Festival | "lollapalooza chicago", "Lollapalooza 2027", "Lollapalooza Paris" (related); not targeted |
+| Budapest clubs | "Beste Clubs Budapest", "Größter Club Budapest", "Underground clubs Budapest" | "Meilleur boite de nuit Budapest", "Plus grande boite de nuit budapest", "Boîte de nuit Budapest plusieurs salles" |
+
+Finding while checking: German and French results for Lollapalooza show 2027
+dates (29 July to 1 August) on third-party pages (festivalsunited.com, and an
+unofficial lollapaloozachicago.org). The English guide says the festival had not
+announced 2027 dates as of 17 September 2026; the translations repeat that and
+neither source is official. Recheck the official site at the next refresh.
+
+The English Lollapalooza builder gained `alternatesFor` so the page declares its
+translations (head markup only, no copy change).

@@ -559,6 +559,46 @@ export const germanArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills legt 2010 in einem Club in Detroit auf'
   },
   {
+    page:'de/airbeat-one-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','hardstyle','trance'], href:'/de/airbeat-one-festival', type:'Guide', topic:'Airbeat One Festival',
+    title:'Airbeat One Festival 2027: Termine, Stages, Camping und Anreise',
+    description:'Ein Flugplatz-Festival für EDM, Techno, Hardstyle und Psytrance, bei dem das Camping zum Event gehört.',
+    image:'img/airbeat-one/airbeat-arena-320.webp',
+    srcset:'img/airbeat-one/airbeat-arena-320.webp 320w,img/airbeat-one/airbeat-arena-1200.webp 1200w',
+    width:1200, height:754, alt:'Publikum und Produktion in der Airbeat-One-Arena-Stage 2025'
+  },
+  {
+    page:'de/trance-musik.html', category:'music-history', tags:['history','trance','psytrance'], href:'/de/trance-musik', type:'Guide', topic:'Trance',
+    title:'Was ist Trance-Musik? Ursprung, Künstler und Sound',
+    description:'Aufbau, Breakdown und Drop, geboren in Frankfurts Clubs: wie Trance zur Festival-Mainstage wurde und wie Psytrance sich abspaltete.',
+    image:'img/trance/armin-van-buuren-2017-320.webp',
+    srcset:'img/trance/armin-van-buuren-2017-320.webp 320w,img/trance/armin-van-buuren-2017-1024.webp 1024w',
+    width:1024, height:681, alt:'Armin van Buuren vor großem Publikum bei Armin Only Embrace in Kiew, 2017'
+  },
+  {
+    page:'de/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/de/monegros-desert-festival', type:'Guide', topic:'Monegros Desert Festival',
+    title:'Monegros Desert Festival 2027: Termin, Geschichte und Guide',
+    description:'Ein 22-Stunden-Rave in der Wüste bei Fraga: Termin 2027, Geschichte, Musik, Anreise und die praktischen Grenzen.',
+    image:'img/monegros/festival-overview-2009-320.webp',
+    srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
+    width:1200, height:900, alt:'Weitblick auf Stages und Publikum des Monegros Desert Festival 2009'
+  },
+  {
+    page:'de/lollapalooza-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/lollapalooza-festival', type:'Guide', topic:'Lollapalooza',
+    title:'Lollapalooza Chicago: Ort, Geschichte und Musik',
+    description:'Lollapalooza ist ein viertägiges Festival im Grant Park in Chicago: Ort, Geschichte, Größe und die Musik.',
+    image:'img/lollapalooza/skyline-2017-320.webp',
+    srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'Menschenmenge im Grant Park bei Lollapalooza 2017 vor der Skyline von Chicago'
+  },
+  {
+    page:'de/clubs-budapest.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-budapest', type:'Guide', topic:'Clubs in Budapest',
+    title:'Die besten Clubs in Budapest: A38, Instant-Fogas, Turbina',
+    description:'Das Frachtschiff A38, die sieben Räume des Instant-Fogas und Techno im Turbina: die besten Clubs in Budapest heute.',
+    image:'img/budapest-clubs/a38-ship-320.webp',
+    srcset:'img/budapest-clubs/a38-ship-320.webp 320w,img/budapest-clubs/a38-ship-1200.webp 1200w',
+    width:1200, height:900, alt:'Das Schiff A38 an der Donau in Budapest, ein umgebautes Frachtschiff von 1968'
+  },
+  {
     page:'de/untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
     title:'Untold Festival 2027: Ort, Größe und Musik',
     description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
@@ -998,6 +1038,46 @@ export const frenchArticleCatalog = [
     image:'img/techno/jeff-mills-2010-320.webp',
     srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
     width:1200, height:798, alt:'Jeff Mills mixe dans un club de Détroit en 2010'
+  },
+  {
+    page:'fr/airbeat-one-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','hardstyle','trance'], href:'/fr/airbeat-one-festival', type:'Guide', topic:'Airbeat One Festival',
+    title:'Airbeat One Festival 2027 : dates, scènes, camping, accès',
+    description:'Un festival sur aérodrome pour l’EDM, la techno, le hardstyle et la psytrance, où le camping fait partie de l’événement.',
+    image:'img/airbeat-one/airbeat-arena-320.webp',
+    srcset:'img/airbeat-one/airbeat-arena-320.webp 320w,img/airbeat-one/airbeat-arena-1200.webp 1200w',
+    width:1200, height:754, alt:'Public et production dans l’Arena Stage d’Airbeat One en 2025'
+  },
+  {
+    page:'fr/musique-trance.html', category:'music-history', tags:['history','trance','psytrance'], href:'/fr/musique-trance', type:'Guide', topic:'Trance',
+    title:'Qu’est-ce que la musique trance ? Origines, artistes, son',
+    description:'Une montée, un breakdown et un drop, nés dans les clubs de Francfort : comment la trance a gagné les festivals et comment la psytrance a divergé.',
+    image:'img/trance/armin-van-buuren-2017-320.webp',
+    srcset:'img/trance/armin-van-buuren-2017-320.webp 320w,img/trance/armin-van-buuren-2017-1024.webp 1024w',
+    width:1024, height:681, alt:'Armin van Buuren devant une foule immense à Armin Only Embrace à Kiev, 2017'
+  },
+  {
+    page:'fr/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/fr/monegros-desert-festival', type:'Guide', topic:'Monegros Desert Festival',
+    title:'Monegros Desert Festival 2027 : date, histoire et guide',
+    description:'Une rave de 22 heures dans le désert près de Fraga : date 2027, histoire, musique, accès et limites pratiques.',
+    image:'img/monegros/festival-overview-2009-320.webp',
+    srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
+    width:1200, height:900, alt:'Vue d’ensemble des scènes et du public du Monegros Desert Festival en 2009'
+  },
+  {
+    page:'fr/festival-lollapalooza.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-lollapalooza', type:'Guide', topic:'Lollapalooza',
+    title:'Lollapalooza Chicago : lieu, histoire et musique',
+    description:'Lollapalooza est un festival de quatre jours à Grant Park, Chicago : lieu, histoire, taille et musique.',
+    image:'img/lollapalooza/skyline-2017-320.webp',
+    srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'Une foule à Grant Park pendant Lollapalooza 2017 devant la ligne d’horizon de Chicago'
+  },
+  {
+    page:'fr/boite-de-nuit-budapest.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-budapest', type:'Guide', topic:'Boîtes de nuit à Budapest',
+    title:'Les meilleures boîtes de nuit à Budapest : A38 et Instant-Fogas',
+    description:'Le cargo A38, les sept salles de l’Instant-Fogas et la techno de Turbina : les meilleures boîtes de nuit de Budapest.',
+    image:'img/budapest-clubs/a38-ship-320.webp',
+    srcset:'img/budapest-clubs/a38-ship-320.webp 320w,img/budapest-clubs/a38-ship-1200.webp 1200w',
+    width:1200, height:900, alt:'Le navire A38 amarré sur le Danube à Budapest, un cargo de 1968 reconverti'
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',

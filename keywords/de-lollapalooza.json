@@ -1,0 +1,23 @@
+{
+  "page": "de/lollapalooza-festival.html",
+  "seed": "lollapalooza chicago",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google de-DE People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "lollapalooza chicago",
+      "volume": null,
+      "note": "Google related searches wording, de-DE; not measured"
+    },
+    {
+      "term": "lollapalooza 2027",
+      "volume": null,
+      "note": "Google related searches wording, de-DE"
+    },
+    {
+      "term": "was ist lollapalooza",
+      "volume": null,
+      "note": "Google People also ask wording, de-DE (Was ist Lollapalooza für ein Festival)"
+    }
+  ]
+}
