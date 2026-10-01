@@ -639,6 +639,46 @@ export const germanArticleCatalog = [
     width:1200, height:784, alt:'Dichtes Publikum in der Festung Petrovaradin beim EXIT Festival'
   },
   {
+    page:'de/clubs-manchester.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-manchester', type:'Guide', topic:'Clubs in Manchester',
+    title:'Die besten Clubs in Manchester: Von der Haçienda zum Warehouse Project',
+    description:'White Hotel, Soup, Eastern Bloc Records, The Loft und Hidden: die besten Clubs in Manchester heute und das Erbe der Haçienda.',
+    image:'img/manchester-clubs/hacienda-bollards-320.webp',
+    srcset:'img/manchester-clubs/hacienda-bollards-320.webp 320w,img/manchester-clubs/hacienda-bollards-800.webp 800w',
+    width:800, height:600, alt:'Erhaltene Poller der Haçienda mit Warnstreifen'
+  },
+  {
+    page:'de/clubs-bristol.html', category:'rave-spots', tags:['drum-and-bass','techno','history','discovery'], href:'/de/clubs-bristol', type:'Guide', topic:'Clubs in Bristol',
+    title:'Die besten Clubs in Bristol: Motion, Lakota und Thekla',
+    description:'Motion, Lakota und das Frachtschiff Thekla: die besten Clubs in Bristol und Bristols Drum-and-Bass-Geschichte.',
+    image:'img/bristol-clubs/thekla-boat-320.webp',
+    srcset:'img/bristol-clubs/thekla-boat-320.webp 320w,img/bristol-clubs/thekla-boat-1200.webp 1200w',
+    width:1200, height:675, alt:'Thekla, ein umgebautes Frachtschiff im Floating Harbour von Bristol'
+  },
+  {
+    page:'de/boomtown-festival.html', category:'festivals', tags:['drum-and-bass','festival','discovery'], href:'/de/boomtown-festival', type:'Guide', topic:'Boomtown Festival',
+    title:'Boomtown Festival 2027: Termine, Ort, Geschichte und Musik',
+    description:'Boomtown Festival 2027 läuft vom 11. bis 15. August auf dem Matterley Estate. Musik, Handlung und was man vor dem ersten Besuch wissen sollte.',
+    image:'img/boomtown/opening-ceremony-2019-320.webp',
+    srcset:'img/boomtown/opening-ceremony-2019-320.webp 320w,img/boomtown/opening-ceremony-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'Die Eröffnungszeremonie 2019 auf der Bühne mit Publikum bei Boomtown'
+  },
+  {
+    page:'de/movement-detroit.html', category:'festivals', tags:['techno','festival','detroit'], href:'/de/movement-detroit', type:'Guide', topic:'Movement Detroit',
+    title:'Movement Detroit: Geschichte, Ort, Bühnen und Termine 2027',
+    description:'Movement Detroit bringt Techno jedes Memorial-Day-Wochenende ins Hart Plaza. Geschichte, Bühnen und Termine 2027 im Überblick.',
+    image:'img/movement-detroit/hart-plaza-320.webp',
+    srcset:'img/movement-detroit/hart-plaza-320.webp 320w,img/movement-detroit/hart-plaza-1280.webp 1280w',
+    width:1280, height:853, alt:'Das Hart Plaza am Detroit River, dahinter die Gebäude der Innenstadt von Detroit'
+  },
+  {
+    page:'de/arc-music-festival.html', category:'festivals', tags:['house','techno','festival'], href:'/de/arc-music-festival', type:'Guide', topic:'ARC Music Festival',
+    title:'ARC Music Festival 2027: Chicago-Guide, Bühnen und Anreise',
+    description:'Das ARC Music Festival bringt House und Techno in den Union Park in Chicago. Bühnen, Anreise mit der CTA und die offene Ausgabe 2027.',
+    image:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp',
+    srcset:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp 320w,img/arc-music-festival/arc-frankie-knuckles-way-1200.webp 1200w',
+    width:1200, height:900, alt:'Straßenschild Frankie Knuckles Way in Chicago'
+  },
+  {
     page:'de/untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
     title:'Untold Festival 2027: Ort, Größe und Musik',
     description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
@@ -1158,6 +1198,46 @@ export const frenchArticleCatalog = [
     image:'img/exit-festival/exit-crowd-320.webp',
     srcset:'img/exit-festival/exit-crowd-320.webp 320w,img/exit-festival/exit-crowd-1200.webp 1200w',
     width:1200, height:784, alt:'Foule dense dans la forteresse de Petrovaradin pendant le festival EXIT'
+  },
+  {
+    page:'fr/boite-de-nuit-manchester.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-manchester', type:'Guide', topic:'Boîtes de nuit à Manchester',
+    title:'Les meilleures boîtes de nuit à Manchester : de l’Haçienda au Warehouse Project',
+    description:'White Hotel, Soup, Eastern Bloc Records, The Loft et Hidden : les meilleures boîtes de nuit à Manchester aujourd’hui et l’héritage de l’Haçienda.',
+    image:'img/manchester-clubs/hacienda-bollards-320.webp',
+    srcset:'img/manchester-clubs/hacienda-bollards-320.webp 320w,img/manchester-clubs/hacienda-bollards-800.webp 800w',
+    width:800, height:600, alt:'Bornes rayées de l’Haçienda conservées'
+  },
+  {
+    page:'fr/boite-de-nuit-bristol.html', category:'rave-spots', tags:['drum-and-bass','techno','history','discovery'], href:'/fr/boite-de-nuit-bristol', type:'Guide', topic:'Boîtes de nuit à Bristol',
+    title:'Les meilleures boîtes de nuit à Bristol : Motion, Lakota et Thekla',
+    description:'Motion, Lakota et le cargo Thekla : les meilleures boîtes de nuit à Bristol et l’histoire drum and bass de la ville.',
+    image:'img/bristol-clubs/thekla-boat-320.webp',
+    srcset:'img/bristol-clubs/thekla-boat-320.webp 320w,img/bristol-clubs/thekla-boat-1200.webp 1200w',
+    width:1200, height:675, alt:'Thekla, un cargo reconverti amarré dans le Floating Harbour de Bristol'
+  },
+  {
+    page:'fr/boomtown-festival.html', category:'festivals', tags:['drum-and-bass','festival','discovery'], href:'/fr/boomtown-festival', type:'Guide', topic:'Boomtown Festival',
+    title:'Boomtown Festival 2027 : dates, lieu, histoire et musique',
+    description:'Boomtown Festival 2027 se tient du 11 au 15 août au Matterley Estate. Musique, histoire et ce qu’il faut savoir avant une première visite.',
+    image:'img/boomtown/opening-ceremony-2019-320.webp',
+    srcset:'img/boomtown/opening-ceremony-2019-320.webp 320w,img/boomtown/opening-ceremony-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'La scène de la cérémonie d’ouverture 2019 et la foule à Boomtown'
+  },
+  {
+    page:'fr/movement-detroit.html', category:'festivals', tags:['techno','festival','detroit'], href:'/fr/movement-detroit', type:'Guide', topic:'Movement Detroit',
+    title:'Movement Detroit : histoire, lieu, scènes et dates 2027',
+    description:'Movement Detroit ramène la techno à Hart Plaza chaque week-end du Memorial Day. Histoire, scènes et dates 2027 du festival.',
+    image:'img/movement-detroit/hart-plaza-320.webp',
+    srcset:'img/movement-detroit/hart-plaza-320.webp 320w,img/movement-detroit/hart-plaza-1280.webp 1280w',
+    width:1280, height:853, alt:'Hart Plaza au bord de la rivière Detroit, avec les immeubles du centre de Détroit derrière'
+  },
+  {
+    page:'fr/arc-music-festival.html', category:'festivals', tags:['house','techno','festival'], href:'/fr/arc-music-festival', type:'Guide', topic:'ARC Music Festival',
+    title:'ARC Music Festival 2027 : guide de Chicago, scènes et accès',
+    description:'L’ARC Music Festival apporte house et techno à Union Park, à Chicago. Scènes, accès en CTA et édition 2027 à confirmer.',
+    image:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp',
+    srcset:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp 320w,img/arc-music-festival/arc-frankie-knuckles-way-1200.webp 1200w',
+    width:1200, height:900, alt:'Panneau de rue Frankie Knuckles Way à Chicago'
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',

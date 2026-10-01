@@ -435,3 +435,19 @@ term is recorded with volume `null`. Wording is what the SERPs showed on
 - Lisbon: see `keywords/de-lisbon-clubs.json`, `keywords/fr-lisbon-clubs.json` (FR 'lux frágil').
 - Tokyo: DE "besten clubs in tokio", "womb", "circus tokyo"; FR "meilleures boîtes de nuit à tokyo", "clubs de techno à tokyo", "womb".
 - NYC: DE "besten clubs in new york", "studio 54", "das new yorker nachtleben"; FR "meilleures boîtes de nuit à new york", "studio 54", "où sortir à new york".
+
+## 2026-10-01: fourth batch
+
+Manchester clubs, Bristol clubs, Boomtown, Movement Detroit and ARC Music
+Festival, each in DE and FR. The live Google SERP check for this batch was
+blocked by a bot-check page and was not bypassed, so the wording is **not
+live-verified**: terms are the translated page-title wording or proper names
+(venues, festival names), all recorded with volume `null` ("not measured").
+Re-check against de-DE / fr-FR SERPs when access allows.
+
+- Manchester: DE "besten clubs in manchester", "haçienda", "warehouse project"; FR "meilleures boîtes de nuit à manchester", "haçienda", "warehouse project".
+- Bristol: DE "besten clubs in bristol", "motion bristol", "lakota"; FR "meilleures boîtes de nuit à bristol", "motion bristol", "lakota".
+- Boomtown: "boomtown festival 2027", "boomtown festival", "matterley estate" (both languages).
+- Movement Detroit: "movement detroit", "hart plaza" (both languages).
+- ARC: "arc music festival", "union park", "arc after dark" (both languages).
+- Known omission: the Bristol English "Sources" list has three plain-text notes (including the Lakota 1990 vs 1992 disagreement) that the shared module template cannot carry; the DE/FR pages list link sources only.
