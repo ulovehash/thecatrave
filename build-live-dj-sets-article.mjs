@@ -25,6 +25,7 @@ import {
   breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
+import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('live-dj-sets-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/live-dj-sets';
@@ -280,6 +281,7 @@ const structuredData = [
 ];
 
 const html = articlePage({
+  alternates: alternatesFor('/live-dj-sets'),
   title, description, canonical,
   ogImage: 'https://thecatrave.com/img/og/live-dj-sets.jpg',
   datePublished, dateModified,

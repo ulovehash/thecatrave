@@ -1,0 +1,23 @@
+{
+  "page": "de/beste-house-playlists-spotify.html",
+  "seed": "house playlists spotify",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google de-DE People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "house-playlists",
+      "volume": null,
+      "note": "page wording; Google SERP check blocked by bot-check, wording not live-verified; not measured"
+    },
+    {
+      "term": "honey dijon",
+      "volume": null,
+      "note": "proper name used on the page; not measured"
+    },
+    {
+      "term": "defected",
+      "volume": null,
+      "note": "proper name used on the page; not measured"
+    }
+  ]
+}

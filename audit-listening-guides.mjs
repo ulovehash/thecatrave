@@ -31,7 +31,7 @@ for (const spec of specs) {
   check(`exactly ${spec.count} recommendations`, (html.match(spec.selector) || []).length === spec.count);
   check('exact media IDs', spec.ids.every(id => html.includes(id)));
   check('shared page components', ['articlePage({','articleHero({','articleSection({','articleSources({','authorCard({','bandcampSupport({','readNext({'].every(token => source.includes(token)));
-  check('no FAQ schema without visible FAQ', !html.includes('"@type":"FAQPage"') && !html.includes('<details'));
+  check('no FAQ schema without visible FAQ', !html.includes('"@type":"FAQPage"') && !html.includes('faq-section'));
   check('one H1', (html.match(/<h1(?:\s|>)/g) || []).length === 1);
   check('no duplicate IDs', (() => { const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]); return ids.length === new Set(ids).size; })());
   check('no em dash', !html.includes('—'));

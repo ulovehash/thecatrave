@@ -293,9 +293,9 @@ const checks = {
   sharedArticleFigureGenerators: guidePages.every((page, index) => !page.html.includes('<figure class="floating-image article-image') || generatorSources[index].includes('articleFigure(')),
   sharedArticleTableGenerators: guidePages.every((page, index) => !page.html.includes('<table class="genre-table') || generatorSources[index].includes('articleTable(')),
   sharedArticleSourcesGenerators: generatorSources.every(source => source.includes('articleSources(')),
-  currentFaqGeneratorsShared: guidePages.every((page, index) => !page.html.includes('<details') || (generatorSources[index].includes('articleFaq(') && generatorSources[index].includes('faqStructuredData('))),
-  faqStructuredDataMatchesVisibleContent: articlePages.every(page => !page.includes('<details') || faqMatchesVisibleContent(page)),
-  firstFaqItemOpen: articlePages.every(page => !page.includes('<details') || /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
+  currentFaqGeneratorsShared: guidePages.every((page, index) => !page.html.includes('faq-section') || (generatorSources[index].includes('articleFaq(') && generatorSources[index].includes('faqStructuredData('))),
+  faqStructuredDataMatchesVisibleContent: articlePages.every(page => !page.includes('faq-section') || faqMatchesVisibleContent(page)),
+  firstFaqItemOpen: articlePages.every(page => !page.includes('faq-section') || /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
   // Both of the owner's sets, on every festival guide (owner, 2026-09-13).
   // The first mid-guide, straight after the history section; the second before the FAQ.
   festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra','untold','coachella','lollapalooza','glastonbury','sonar'].every(name => {

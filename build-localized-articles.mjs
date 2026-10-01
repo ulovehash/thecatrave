@@ -31,6 +31,8 @@
 //   image                image for the Article structured data
 //   sourcesNote          a last Sources line that is not a link, such as where
 //                        the set counts come from
+//   faqSection           omit it when the English page has no FAQ (the SoundCloud
+//                        mixes, techno mixes and house playlists guides)
 //   answerSection        omit it when the English page has no summary banner
 //                        (the UK evolution guide opens straight on its text)
 //   introTitle           omit it when the English intro has no heading
@@ -122,7 +124,10 @@ export function buildLocalizedArticle(content) {
   };
 
   const renderPlaylistSection = (text, metadata) => {
-    const entries = text.split(/(?:^|\n)### /).filter(Boolean).map(block => {
+    // A section may open with a lead paragraph before its first playlist (the
+    // house playlists guide's disclosure of the owner's own two).
+    const [lead, ...blocks] = text.split(/(?:^|\n)### /);
+    const entries = blocks.map(block => {
       const [entryTitle, ...body] = block.split('\n');
       const notes = paras(body.join('\n'));
       if (notes.length !== 1) throw new Error(`${content.draft}: ${entryTitle} must have one editorial paragraph`);
@@ -132,7 +137,7 @@ export function buildLocalizedArticle(content) {
       };
     });
     if (entries.length !== metadata.length) throw new Error(`${content.draft}: ${entries.length} playlist entries for ${metadata.length} metadata rows`);
-    return `<div class="playlist-preview-list">${entries.map((entry, index) => {
+    return `${lead.trim() ? render(lead) : ''}<div class="playlist-preview-list">${entries.map((entry, index) => {
       const item = metadata[index];
       if (!entry.entryTitle.includes(item.title)) throw new Error(`${content.draft}: playlist heading "${entry.entryTitle}" does not match "${item.title}"`);
       return articlePlaylistPreview({...item, description: entry.description, lang});
@@ -140,7 +145,7 @@ export function buildLocalizedArticle(content) {
   };
 
   const answer = content.answerSection ? paras(getSection(content.answerSection)) : null;
-  const faqItems = getSection(content.faqSection).split(/(?:^|\n)### /).filter(Boolean).map(block => {
+  const faqItems = !content.faqSection ? [] : getSection(content.faqSection).split(/(?:^|\n)### /).filter(Boolean).map(block => {
     const [question, ...rest] = block.split('\n');
     const body = rest.join('\n').trim();
     return {
@@ -151,7 +156,7 @@ export function buildLocalizedArticle(content) {
     };
   });
 
-  const tocItems = [...content.sections.map(({id, heading, tocLabel}) => ({id, label: tocLabel || heading})), {id: 'faq', label: content.faqLabel || 'FAQ'}];
+  const tocItems = [...content.sections.map(({id, heading, tocLabel}) => ({id, label: tocLabel || heading})), ...(content.faqSection ? [{id: 'faq', label: content.faqLabel || 'FAQ'}] : [])];
   const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
   const sectionHtml = content.sections.map(section => section.rawHtml ? section.rawHtml(copy) : articleSection({
@@ -187,7 +192,7 @@ export function buildLocalizedArticle(content) {
     // the English page carries them.
     ...sectionHtml.flatMap((html, index) => content.ownSetAfter && content.sections[index].id === content.ownSetAfter ? [html, ownSetListening(0, lang)] : [html]),
     ...(content.ownSetAfter ? [ownSetListening(1, lang)] : []),
-    articleFaq({lang, items: faqItems, title: content.faqTitle, openFirst: true}),
+    ...(content.faqSection ? [articleFaq({lang, items: faqItems, title: content.faqTitle, openFirst: true})] : []),
     authorCard({filled: true, lang}),
     articleSources({lang, bodyHtml: `<ul>\n${content.sources.map(sourceLink).join('\n')}${content.sourcesNote ? `\n<li>${escapeHtml(content.sourcesNote)}</li>` : ''}\n</ul>`}),
     bandcampSupport({lang, fullBleed: true, description: content.bandcamp.description, tracks: content.bandcamp.tracks}),
@@ -212,7 +217,7 @@ export function buildLocalizedArticle(content) {
     structuredData: [
       articleStructuredData({lang, headline: content.title, description: content.description, canonical: content.canonical, ...(content.image ? {image: content.image} : {}), datePublished: content.datePublished, dateModified: content.dateModified}),
       breadcrumbStructuredData({lang, name: content.breadcrumbName, canonical: content.canonical}),
-      faqStructuredData({items: faqItems})
+      ...(faqItems.length ? [faqStructuredData({items: faqItems})] : [])
     ],
     articleHtml
   });

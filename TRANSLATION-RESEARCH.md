@@ -451,3 +451,19 @@ Re-check against de-DE / fr-FR SERPs when access allows.
 - Movement Detroit: "movement detroit", "hart plaza" (both languages).
 - ARC: "arc music festival", "union park", "arc after dark" (both languages).
 - Known omission: the Bristol English "Sources" list has three plain-text notes (including the Lakota 1990 vs 1992 disagreement) that the shared module template cannot carry; the DE/FR pages list link sources only.
+
+## 2026-10-01: fifth batch
+
+Mexico City clubs, live DJ sets, SoundCloud DJ mixes, techno mixes and house
+music playlists on Spotify, each in DE and FR. This completes the English
+guides that had no translation. As in the fourth batch, the live Google SERP
+check was blocked by a bot-check page and was not bypassed: wording is the
+translated page-title wording or proper names, all recorded with volume `null`
+("not measured"), and **not live-verified**.
+
+- Mexico City: see `keywords/de-mexico-city-clubs.json`, `keywords/fr-mexico-city-clubs.json`.
+- Live DJ sets: DE "live-dj-sets", FR "sets dj en direct", plus "boiler room" and "hör berlin".
+- SoundCloud mixes: DE "soundcloud-dj-mixes", FR "mix dj soundcloud", plus "wata igarashi", "sherelle".
+- Techno mixes: DE "techno-mixes", FR "mix techno", plus "jeff mills", "ben klock".
+- House playlists: DE "house-playlists", FR "playlists house", plus "honey dijon", "defected".
+- Builder change: the FAQ is now optional in `build-localized-articles.mjs`, and a playlist section may open with a lead paragraph, because three of these English guides have no FAQ. Two audits (`audit-site-components.mjs`, `audit-listening-guides.mjs`) treated any `<details>` as a FAQ, which the language switcher also is; they now look for the `faq-section` class.

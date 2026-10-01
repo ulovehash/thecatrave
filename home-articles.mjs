@@ -679,6 +679,46 @@ export const germanArticleCatalog = [
     width:1200, height:900, alt:'Straßenschild Frankie Knuckles Way in Chicago'
   },
   {
+    page:'de/clubs-mexiko-stadt.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/de/clubs-mexiko-stadt', type:'Guide', topic:'Clubs in Mexiko-Stadt',
+    title:'Die besten Clubs in Mexiko-Stadt: Patrick Miller, M.N.Roy und Fünk',
+    description:'Patrick Miller, M.N.Roy, Fünk Club und Yu Yu Cine Club: die besten Clubs in Mexiko-Stadt heute und ihre Geschichte seit 1983.',
+    image:'img/mexico-city-clubs/roma-norte-street-320.webp',
+    srcset:'img/mexico-city-clubs/roma-norte-street-320.webp 320w,img/mexico-city-clubs/roma-norte-street-1200.webp 1200w',
+    width:1200, height:533, alt:'Eine Straßenecke im Viertel Roma Norte in Mexiko-Stadt'
+  },
+  {
+    page:'de/live-dj-sets-ansehen.html', category:'digging', tags:['discovery','history','uk','jungle'], href:'/de/live-dj-sets-ansehen', type:'Guide', topic:'Live-DJ-Sets',
+    title:'Live-DJ-Sets ansehen: Boiler Room, HÖR, NTS und mehr',
+    description:'Wo du DJ-Sets online ansehen kannst, wie sich die großen Plattformen unterscheiden und ein Weg durch Tausende archivierte Aufnahmen.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Ein DJ in der Kabine von The Lot Radio in Brooklyn'
+  },
+  {
+    page:'de/beste-soundcloud-dj-mixes.html', category:'digging', tags:['discovery','house','techno','breaks'], href:'/de/beste-soundcloud-dj-mixes', type:'Guide', topic:'SoundCloud-DJ-Mixes',
+    title:'Die besten SoundCloud-DJ-Mixes, plus ein persönlicher Tipp',
+    description:'Acht der besten SoundCloud-DJ-Mixes, von Wata Igarashi und Ogazón bis Djrum und SHERELLE, dazu ein klar gekennzeichneter Mix von thecatrave.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Ein DJ in der Kabine von The Lot Radio in Brooklyn'
+  },
+  {
+    page:'de/beste-techno-mixes.html', category:'digging', tags:['discovery','techno','history'], href:'/de/beste-techno-mixes', type:'Guide', topic:'Techno-Mixes',
+    title:'Die besten Techno-Mixes: 10 wesentliche DJ-Sets',
+    description:'Zehn wesentliche Techno-Mixes von Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd und mehr.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mischt 2010 in einem Club in Detroit'
+  },
+  {
+    page:'de/beste-house-playlists-spotify.html', category:'digging', tags:['discovery','house'], href:'/de/beste-house-playlists-spotify', type:'Guide', topic:'House-Playlists',
+    title:'Die besten House-Playlists auf Spotify: 12 Empfehlungen',
+    description:'Zwölf Spotify-Playlists für House-Musik, von 90er-Klassikern und Label-Feeds bis zu zwei gekennzeichneten Auswahlen von thecatrave.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Kabelkopfhörer, ein tragbarer Musikplayer und zwei transparente Hüllen auf einem zerkratzten Clubtisch'
+  },
+  {
     page:'de/untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
     title:'Untold Festival 2027: Ort, Größe und Musik',
     description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
@@ -1238,6 +1278,46 @@ export const frenchArticleCatalog = [
     image:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp',
     srcset:'img/arc-music-festival/arc-frankie-knuckles-way-320.webp 320w,img/arc-music-festival/arc-frankie-knuckles-way-1200.webp 1200w',
     width:1200, height:900, alt:'Panneau de rue Frankie Knuckles Way à Chicago'
+  },
+  {
+    page:'fr/boite-de-nuit-mexico.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/fr/boite-de-nuit-mexico', type:'Guide', topic:'Boîtes de nuit à Mexico',
+    title:'Les meilleures boîtes de nuit à Mexico : Patrick Miller, M.N.Roy et Fünk',
+    description:'Patrick Miller, M.N.Roy, Fünk Club et Yu Yu Cine Club : les meilleures boîtes de nuit à Mexico aujourd’hui et leur histoire depuis 1983.',
+    image:'img/mexico-city-clubs/roma-norte-street-320.webp',
+    srcset:'img/mexico-city-clubs/roma-norte-street-320.webp 320w,img/mexico-city-clubs/roma-norte-street-1200.webp 1200w',
+    width:1200, height:533, alt:'Un coin de rue du quartier de Roma Norte à Mexico'
+  },
+  {
+    page:'fr/regarder-des-sets-dj-en-direct.html', category:'digging', tags:['discovery','history','uk','jungle'], href:'/fr/regarder-des-sets-dj-en-direct', type:'Guide', topic:'Sets DJ en direct',
+    title:'Regarder des sets DJ en direct : Boiler Room, HÖR, NTS',
+    description:'Où regarder des DJ sets en ligne, en quoi les grandes plateformes diffèrent, et un chemin à travers des milliers d’enregistrements archivés.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Un DJ dans la cabine de The Lot Radio à Brooklyn'
+  },
+  {
+    page:'fr/meilleurs-mix-dj-soundcloud.html', category:'digging', tags:['discovery','house','techno','breaks'], href:'/fr/meilleurs-mix-dj-soundcloud', type:'Guide', topic:'Mix DJ SoundCloud',
+    title:'Meilleurs mix DJ SoundCloud, plus un choix personnel',
+    description:'Huit des meilleurs mix DJ SoundCloud, de Wata Igarashi et Ogazón à Djrum et SHERELLE, plus un mix de thecatrave clairement signalé.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Un DJ dans la cabine de The Lot Radio à Brooklyn'
+  },
+  {
+    page:'fr/meilleurs-mix-techno.html', category:'digging', tags:['discovery','techno','history'], href:'/fr/meilleurs-mix-techno', type:'Guide', topic:'Mix techno',
+    title:'Meilleurs mix techno : 10 DJ sets essentiels',
+    description:'Dix mix techno essentiels de Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd et d’autres.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mixant des disques dans un club de Détroit en 2010'
+  },
+  {
+    page:'fr/meilleures-playlists-house-spotify.html', category:'digging', tags:['discovery','house'], href:'/fr/meilleures-playlists-house-spotify', type:'Guide', topic:'Playlists house',
+    title:'Meilleures playlists house sur Spotify : 12 sélections',
+    description:'Douze playlists Spotify pour la house music, des classiques des années 90 et flux de labels à deux sélections signalées de thecatrave.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Écouteurs filaires, un lecteur portable et deux boîtiers transparents sur une table de club rayée'
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',
