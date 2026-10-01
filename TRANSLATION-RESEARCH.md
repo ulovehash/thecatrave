@@ -421,3 +421,17 @@ neither source is official. Recheck the official site at the next refresh.
 
 The English Lollapalooza builder gained `alternatesFor` so the page declares its
 translations (head markup only, no copy change).
+
+## 2026-10-01: third batch
+
+EXIT festival, Prague, Lisbon, Tokyo and NYC clubs, each in DE and FR. Method:
+Keyword Planner buckets plus live SERP. These topics returned no Keyword
+Planner data in the earlier pass, so no exact volumes were measured and every
+term is recorded with volume `null`. Wording is what the SERPs showed on
+2026-10-01 (de-DE, fr-FR):
+
+- EXIT: DE "exit festival serbien", "wo findet das exit festival statt", "exit festival novi sad"; FR "exit festival serbie", "festival exit". Third-party claims about 2027 dates were not adopted; the English guide's status governs.
+- Prague: see `keywords/de-prague-clubs.json`, `keywords/fr-prague-clubs.json`.
+- Lisbon: see `keywords/de-lisbon-clubs.json`, `keywords/fr-lisbon-clubs.json` (FR 'lux frágil').
+- Tokyo: DE "besten clubs in tokio", "womb", "circus tokyo"; FR "meilleures boîtes de nuit à tokyo", "clubs de techno à tokyo", "womb".
+- NYC: DE "besten clubs in new york", "studio 54", "das new yorker nachtleben"; FR "meilleures boîtes de nuit à new york", "studio 54", "où sortir à new york".

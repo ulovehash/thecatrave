@@ -1,0 +1,23 @@
+{
+  "page": "fr/boite-de-nuit-lisbonne.html",
+  "seed": "boite de nuit lisbonne",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google fr-FR People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "meilleures boîtes de nuit à lisbonne",
+      "volume": null,
+      "note": "Google related searches wording, fr-FR (Meilleur boîte de nuit Lisbonne); plural form; not measured"
+    },
+    {
+      "term": "meilleure boîte de nuit de lisbonne",
+      "volume": null,
+      "note": "page FAQ wording, close to the fr-FR related search Meilleur boîte de nuit Lisbonne; not measured"
+    },
+    {
+      "term": "lux frágil",
+      "volume": null,
+      "note": "Google related searches wording, fr-FR (Boîte de nuit Lisbonne Lux); the club's full name, not measured"
+    }
+  ]
+}

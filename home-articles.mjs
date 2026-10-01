@@ -599,6 +599,46 @@ export const germanArticleCatalog = [
     width:1200, height:900, alt:'Das Schiff A38 an der Donau in Budapest, ein umgebautes Frachtschiff von 1968'
   },
   {
+    page:'de/clubs-prag.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-prag', type:'Guide', topic:'Clubs in Prag',
+    title:'Die besten Clubs in Prag: Cross Club, Karlovy Lázně, Ankali',
+    description:'Die geschweißte Maschinerie des Cross Club, die fünf Etagen von Karlovy Lázně und Technonächte im Ankali: die besten Clubs in Prag.',
+    image:'img/prague-clubs/cross-club-interior-320.webp',
+    srcset:'img/prague-clubs/cross-club-interior-320.webp 320w,img/prague-clubs/cross-club-interior-844.webp 844w',
+    width:844, height:563, alt:'Die Kellerbar des Cross Club in Prag, gebaut aus Altmetall und Maschinenteilen'
+  },
+  {
+    page:'de/clubs-lissabon.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-lissabon', type:'Guide', topic:'Clubs in Lissabon',
+    title:'Die besten Clubs in Lissabon: Lux Frágil, Ministerium, Kremlin',
+    description:'Das Lux Frágil prägt Lissabon seit 1998, das Ministerium spielt Afro-House im früheren Ministerium, die Musicbox schloss 2025.',
+    image:'img/lisbon-clubs/lux-fragil-320.webp',
+    srcset:'img/lisbon-clubs/lux-fragil-320.webp 320w,img/lisbon-clubs/lux-fragil-552.webp 552w',
+    width:552, height:400, alt:'Das Gebäude des Lux Frágil an der Cais da Pedra in Lissabon'
+  },
+  {
+    page:'de/clubs-tokio.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-tokio', type:'Guide', topic:'Clubs in Tokio',
+    title:'Die besten Clubs in Tokio: WOMB, Contact und das Tanzverbot',
+    description:'WOMB, Contact, Vent und Circus Tokyo: die besten Clubs in Tokio für House, Techno und Bass Music.',
+    image:'img/tokyo-clubs/womb-shibuya-320.webp',
+    srcset:'img/tokyo-clubs/womb-shibuya-320.webp 320w,img/tokyo-clubs/womb-shibuya-1200.webp 1200w',
+    width:1200, height:800, alt:'Der Eingang des Nachtclubs WOMB in Shibuya, Tokio'
+  },
+  {
+    page:'de/clubs-new-york.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-new-york', type:'Guide', topic:'Clubs in New York',
+    title:'Die besten Clubs in New York: Vom Paradise Garage zum Nowadays',
+    description:'Nowadays, Basement, Public Records, Good Room und Elsewhere: die besten Clubs in New York für House und Techno heute.',
+    image:'img/nyc-clubs/limelight-church-320.webp',
+    srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
+    width:1200, height:900, alt:'Die neugotische Backsteinkirche an der Sixth Avenue, die zum Limelight wurde'
+  },
+  {
+    page:'de/exit-festival.html', category:'festivals', tags:['festival','history','discovery'], href:'/de/exit-festival', type:'Guide', topic:'EXIT Festival',
+    title:'EXIT Festival: Von Novi Sad zur weltweiten Tour',
+    description:'Geschichte, Festung Petrovaradin, Dance Arena und was nach der letzten serbischen Ausgabe 2025 passiert.',
+    image:'img/exit-festival/exit-crowd-320.webp',
+    srcset:'img/exit-festival/exit-crowd-320.webp 320w,img/exit-festival/exit-crowd-1200.webp 1200w',
+    width:1200, height:784, alt:'Dichtes Publikum in der Festung Petrovaradin beim EXIT Festival'
+  },
+  {
     page:'de/untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
     title:'Untold Festival 2027: Ort, Größe und Musik',
     description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
@@ -1078,6 +1118,46 @@ export const frenchArticleCatalog = [
     image:'img/budapest-clubs/a38-ship-320.webp',
     srcset:'img/budapest-clubs/a38-ship-320.webp 320w,img/budapest-clubs/a38-ship-1200.webp 1200w',
     width:1200, height:900, alt:'Le navire A38 amarré sur le Danube à Budapest, un cargo de 1968 reconverti'
+  },
+  {
+    page:'fr/boite-de-nuit-prague.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-prague', type:'Guide', topic:'Boîtes de nuit à Prague',
+    title:'Les meilleures boîtes de nuit à Prague : Cross Club et Ankali',
+    description:'La ferraille du Cross Club, les cinq étages de Karlovy Lázně et les nuits techno de l’Ankali : les meilleures boîtes de nuit de Prague.',
+    image:'img/prague-clubs/cross-club-interior-320.webp',
+    srcset:'img/prague-clubs/cross-club-interior-320.webp 320w,img/prague-clubs/cross-club-interior-844.webp 844w',
+    width:844, height:563, alt:'Le bar en sous-sol du Cross Club à Prague, bâti avec du métal de récupération et des pièces de machines'
+  },
+  {
+    page:'fr/boite-de-nuit-lisbonne.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-lisbonne', type:'Guide', topic:'Boîtes de nuit à Lisbonne',
+    title:'Les meilleures boîtes de nuit à Lisbonne : Lux Frágil, Kremlin',
+    description:'Le Lux Frágil fait Lisbonne depuis 1998, le Ministerium passe de l’afro-house dans un ancien ministère, Musicbox a fermé en 2025.',
+    image:'img/lisbon-clubs/lux-fragil-320.webp',
+    srcset:'img/lisbon-clubs/lux-fragil-320.webp 320w,img/lisbon-clubs/lux-fragil-552.webp 552w',
+    width:552, height:400, alt:'Le bâtiment du Lux Frágil sur la Cais da Pedra à Lisbonne'
+  },
+  {
+    page:'fr/boite-de-nuit-tokyo.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-tokyo', type:'Guide', topic:'Boîtes de nuit à Tokyo',
+    title:'Les meilleures boîtes de nuit à Tokyo : WOMB, Contact',
+    description:'WOMB, Contact, Vent et Circus Tokyo : les meilleures boîtes de nuit à Tokyo pour la house, la techno et la bass music.',
+    image:'img/tokyo-clubs/womb-shibuya-320.webp',
+    srcset:'img/tokyo-clubs/womb-shibuya-320.webp 320w,img/tokyo-clubs/womb-shibuya-1200.webp 1200w',
+    width:1200, height:800, alt:'L’entrée de la boîte de nuit WOMB à Shibuya, Tokyo'
+  },
+  {
+    page:'fr/boite-de-nuit-new-york.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-new-york', type:'Guide', topic:'Boîtes de nuit à New York',
+    title:'Les meilleures boîtes de nuit à New York : du Paradise Garage au Nowadays',
+    description:'Nowadays, Basement, Public Records, Good Room et Elsewhere : les meilleures boîtes de nuit à New York pour la house et la techno.',
+    image:'img/nyc-clubs/limelight-church-320.webp',
+    srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
+    width:1200, height:900, alt:'L’église néogothique de la Sixth Avenue devenue le Limelight'
+  },
+  {
+    page:'fr/exit-festival.html', category:'festivals', tags:['festival','history','discovery'], href:'/fr/exit-festival', type:'Guide', topic:'Festival EXIT',
+    title:'EXIT Festival : de Novi Sad à la tournée mondiale',
+    description:'Histoire, forteresse de Petrovaradin, Dance Arena et ce qui suit la dernière édition serbe de 2025.',
+    image:'img/exit-festival/exit-crowd-320.webp',
+    srcset:'img/exit-festival/exit-crowd-320.webp 320w,img/exit-festival/exit-crowd-1200.webp 1200w',
+    width:1200, height:784, alt:'Foule dense dans la forteresse de Petrovaradin pendant le festival EXIT'
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',
