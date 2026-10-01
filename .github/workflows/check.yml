@@ -41,6 +41,8 @@ jobs:
         shard: ['1/4', '2/4', '3/4', '4/4']
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -49,6 +51,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
+
+      - name: Choose routes
+        # A push to main tests only the pages it changed, or everything when a
+        # shared file changed. Pull requests and manual runs test everything.
+        if: github.event_name == 'push'
+        run: echo "CHECK_ROUTES=$(node scripts/changed-routes.mjs ${{ github.event.before }} ${{ github.sha }} | sed 's/^all$/__ALL__/')" >> "$GITHUB_ENV"
 
       - name: Cache Chromium
         id: pw-cache
@@ -68,7 +76,9 @@ jobs:
       - name: Run browser layers
         env:
           CHECK_SHARD: ${{ matrix.shard }}
-        run: node scripts/check.mjs layout
+        run: |
+          if [ "$CHECK_ROUTES" = "__ALL__" ]; then unset CHECK_ROUTES; fi
+          node scripts/check.mjs layout
 
       - name: Upload reports
         if: ${{ !cancelled() }}
