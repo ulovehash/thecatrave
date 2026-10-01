@@ -49,7 +49,7 @@ const waitForPort = (port, timeoutMs = 15000) => new Promise((res, rej) => {
 record('audit', 'audits (zero-dep)', () => sh('node', ['audit-all.mjs']));
 record('html', 'html-validate', () => sh('npx', ['html-validate', ...files]));
 record('links', 'linkinator (broken links & assets)', () => sh('npx', ['linkinator', `http://localhost:${PORT}`, '--recurse', '--skip', '^https?://(?!localhost)']));
-record('layout', 'playwright (layout, a11y)', () => sh('npx', ['playwright', 'test'], { CHECK_PORT: String(PORT) }));
+record('layout', 'playwright (layout, a11y)', () => sh('npx', ['playwright', 'test', ...(process.env.CHECK_SHARD ? [`--shard=${process.env.CHECK_SHARD}`] : [])], { CHECK_PORT: String(PORT) }));
 // On demand only: `npm run check:vitals`, or the manual "vitals" workflow in CI.
 // It took about 5 of the gate's 15 minutes on every push and had never failed
 // a run; its accessibility and SEO scores repeat axe and audit-seo, and a new

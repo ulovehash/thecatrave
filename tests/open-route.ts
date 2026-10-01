@@ -19,6 +19,12 @@ import type { Page } from '@playwright/test';
 // Only `pageerror` is listened for, never console errors. The guides embed
 // YouTube, Bandcamp and SoundCloud, and those frames log warnings and failed
 // requests that belong to somebody else's code.
+//
+// Third-party requests are aborted. Waiting for `load` also waits for every
+// player iframe, and those were most of each test's 0.7s: the layout and axe
+// checks measure our own boxes and already exclude iframes. Google Fonts stays
+// reachable so text is measured in the real typeface, not a fallback.
+const FONT_HOSTS = /^(fonts\.googleapis\.com|fonts\.gstatic\.com)$/;
 const thrown = new WeakMap<Page, string[]>();
 
 export function pageErrors(page: Page): string[] {
@@ -30,6 +36,10 @@ export async function openRoute(page: Page, path: string) {
     const found: string[] = [];
     thrown.set(page, found);
     page.on('pageerror', error => found.push(String(error.message || error)));
+    await page.route(url => {
+      const host = url.hostname;
+      return host !== 'localhost' && host !== '127.0.0.1' && !FONT_HOSTS.test(host);
+    }, route => route.abort());
   }
   await page.goto(path, { waitUntil: 'load' });
   // The Selector builds its chips after selector-data.json arrives and only

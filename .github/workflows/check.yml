@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Audits, html-validate and the link crawl. No browser needed.
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
@@ -21,24 +22,61 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
+
+      - name: Run static layers
+        run: node scripts/require-node.mjs && node scripts/check.mjs audit html links
+
+  # Layout and accessibility, split across four runners. Every route still runs
+  # on every push; sharding only divides the work.
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ['1/4', '2/4', '3/4', '4/4']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Cache Chromium
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
       - name: Install Chromium for Playwright
+        if: steps.pw-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium
 
-      - name: Run quality gate
-        run: npm run check
+      - name: Install Chromium system libraries
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      - name: Run browser layers
+        env:
+          CHECK_SHARD: ${{ matrix.shard }}
+        run: node scripts/check.mjs layout
 
       - name: Upload reports
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
-          name: quality-reports
+          name: quality-reports-${{ strategy.job-index }}
           path: |
             playwright-report/
             test-results/
-            .unlighthouse/
           retention-days: 7
           if-no-files-found: ignore
