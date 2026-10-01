@@ -1,0 +1,23 @@
+{
+  "page": "fr/musique-house.html",
+  "seed": "musique house",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 1 October 2026, plus Google fr-FR People also ask and related searches the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "musique house",
+      "volume": null,
+      "bucket": "1K–10K (Keyword Planner bucket)"
+    },
+    {
+      "term": "qu’est-ce que la musique house",
+      "volume": null,
+      "note": "Google People also ask, fr-FR"
+    },
+    {
+      "term": "la house, la techno et l’edm",
+      "volume": null,
+      "note": "see page text; Google People also ask, fr-FR"
+    }
+  ]
+}

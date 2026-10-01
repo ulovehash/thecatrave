@@ -358,3 +358,45 @@ except London (German already existed).
   was measured. Fill them from Keyword Planner before claiming a target.
 - `audit-canon.mjs` ("state-of-electronic-music.html: no media map") was already
   failing and belongs to another session.
+
+## 2026-10-01: keyword pass for the second batch (Keyword Planner, buckets only)
+
+Tool: Google Keyword Planner, account without ad spend, so volumes come back as
+ranges. Ahrefs was not used. Locations Germany and France, 28 to 30 seeds each.
+Terms that returned nothing are "no data", not zero.
+
+| Term | DE | FR |
+|---|---|---|
+| awakenings festival | 1K–10K | 1K–10K |
+| sziget festival | 1K–10K (+900% YoY) | 1K–10K |
+| monegros festival | no data | 1K–10K |
+| airbeat one | 10K–100K | no data |
+| hardstyle | 1K–10K | 1K–10K |
+| trance musik / musique trance | 1K–10K | no data |
+| house musik / musique house | 1K–10K | 1K–10K |
+| techno musik / musique techno | 1K–10K | 1K–10K |
+| boite de nuit budapest | n/a | 1K–10K |
+
+Everything else (boomtown, exit, SoundCloud and techno mixes, house playlists,
+Detroit, live DJ sets, the "what is" questions, the other city club terms)
+returned no data in either country.
+
+Decision: five guides with a bucket in both languages, in site order:
+awakenings, sziget, hardstyle, house music, techno music. Volumes stay "not
+measured" in the keyword maps; wording is taken from live results.
+
+### Live wording (Google, hl/gl de-DE and fr-FR, 2026-10-01, PAA and related searches only)
+
+Volumes are not measured; these are the phrases Google itself shows.
+
+| Guide | DE: People also ask / related | FR: People also ask / related |
+|---|---|---|
+| Awakenings | Wo findet das Awakenings Festival statt, Wie viele Besucher, Wie viel kosten die Tickets; "awakenings festival 2027", "besucherzahl", "erfahrungen", "line up" | Où est le festival Awakenings, Quel est le prix d'un billet, Quel est le plus grand festival techno en Hollande |
+| Sziget | Wann findet das Sziget Festival 2026 statt, Was heißt Sziget auf Deutsch, Wie viel kostet der Eintritt; "besucher", "musikrichtung", "timetable" | Où est le Sziget Festival, Quelle est la date, Quel est le plus gros festival d'Europe |
+| Hardstyle | Was ist Hardstyle-Musik, Wie viel BPM hat Hardstyle, Welche Hardstyle-Songs sind die besten; "Hardstyle Künstler", "Hardstyle Tanz", "Hardstyle Festival" | Qu'est-ce que le hardstyle, Quels sont les différents types de hardstyle, Qui sont quelques artistes hardstyle |
+| House | Was versteht man unter House Music, Was ist der Unterschied zwischen Techno und House; wording "House-Musik", "House Music" both used | Qu'est-ce que la musique house, Quelle est la différence entre la house et la techno; "house music" and "musique house" |
+| Techno | Was ist typisch für Techno-Musik, Was ist der beliebteste Techno-Song; "Techno Musik 90er", "Top 100" | C'est quoi de la musique techno, Quelle est la musique techno la plus connue; "la techno" |
+
+Wording consequence: German title and H2s say "Techno-Musik" / "House-Musik"
+(hyphenated, as Wikipedia and Red Bull write it); French says "la techno",
+"la house" and "la musique house", and "hardstyle" is unchanged in both.

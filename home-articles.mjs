@@ -519,6 +519,46 @@ export const germanArticleCatalog = [
     width:1200, height:675, alt:'Mysteryland aus der Luft im Jahr 2018, die Hauptbühne an einem See, davor das Publikum'
   },
   {
+    page:'de/sziget-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','house','techno'], href:'/de/sziget-festival', type:'Guide', topic:'Sziget Festival',
+    title:'Sziget Festival 2027: Termine, Musik, Camping und Anreise',
+    description:'Fünf Tage auf der Óbuda-Insel in Budapest: wann das Sziget 2027 stattfindet, welche Musik dort läuft, wie Camping und die Anreise mit der H5 funktionieren und was bestätigt ist.',
+    image:'img/sziget/island-2022-320.webp',
+    srcset:'img/sziget/island-2022-320.webp 320w,img/sziget/island-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Luftbild des Sziget Festivals auf der Óbuda-Insel in Budapest'
+  },
+  {
+    page:'de/awakenings-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','history','discovery'], href:'/de/awakenings-festival', type:'Guide', topic:'Awakenings Festival',
+    title:'Awakenings Festival 2027: Was es ist und wo es stattfindet',
+    description:'1997 in Amsterdam gegründet, seitdem nur Techno: wo das Sommerfestival und der Special zum Amsterdam Dance Event stattfinden und woher der Name kommt.',
+    image:'img/awakenings/blimp-2007-320.webp',
+    srcset:'img/awakenings/blimp-2007-320.webp 320w,img/awakenings/blimp-2007-1200.webp 1200w',
+    width:1200, height:803, alt:'Das Awakenings-Luftschiff über dem Publikum, Laserstrahlen kreuzen den Nachthimmel'
+  },
+  {
+    page:'de/hardstyle.html', category:'music-history', tags:['history','hardstyle','trance','techno'], href:'/de/hardstyle', type:'Guide', topic:'Hardstyle',
+    title:'Was ist Hardstyle? Geschichte, Sound, Künstler und Subgenres',
+    description:'Reverse Bass, verzerrte Kicks mit Tonhöhe, der niederländische Festivalzirkus und die Spaltung in euphorischen und rauen Hardstyle.',
+    image:'img/hardstyle/defqon1-red-2024-320.webp',
+    srcset:'img/hardstyle/defqon1-red-2024-320.webp 320w,img/hardstyle/defqon1-red-2024-1280.webp 1280w',
+    width:1280, height:720, alt:'Die rote Hauptbühne des Defqon.1 im Jahr 2024'
+  },
+  {
+    page:'de/house-musik.html', category:'music-history', tags:['house','history','overview'], href:'/de/house-musik', type:'Guide', topic:'House-Musik',
+    title:'Was ist House-Musik? Geschichte, Sound und Chicagos Anfänge',
+    description:'Frankie Knuckles, das Warehouse und die ersten Chicagoer Platten: was House-Musik ist, warum sie House heißt und die Stile von Deep House bis Afro House.',
+    image:'img/house-music/frankie-knuckles-way-2022-320.webp',
+    srcset:'img/house-music/frankie-knuckles-way-2022-320.webp 320w,img/house-music/frankie-knuckles-way-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Das Ehrenstraßenschild Frankie Knuckles Way in Chicago'
+  },
+  {
+    page:'de/techno-musik.html', category:'music-history', tags:['techno','history','overview'], href:'/de/techno-musik', type:'Guide', topic:'Techno-Musik',
+    title:'Was ist Techno-Musik? Detroit, Belleville Three, Techno heute',
+    description:'Techno ist maschinengemachte Tanzmusik aus Detroit: die Belleville Three, warum sie Techno heißt, Underground Resistance, Berlin, Minimal und Hard Techno.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills legt 2010 in einem Club in Detroit auf'
+  },
+  {
     page:'de/untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/untold-festival', type:'Guide', topic:'Untold',
     title:'Untold Festival 2027: Ort, Größe und Musik',
     description:'Vier Tage jeden August in Cluj-Napoca: wann Untold 2027 stattfindet, wo es liegt, wie daraus eine Veranstaltung mit 500.000 Eintritten wurde und was neben der Hauptbühne läuft.',
@@ -918,6 +958,46 @@ export const frenchArticleCatalog = [
     image:'img/mysteryland/site-aerial-2018-320.webp',
     srcset:'img/mysteryland/site-aerial-2018-320.webp 320w,img/mysteryland/site-aerial-2018-1200.webp 1200w',
     width:1200, height:675, alt:'Mysteryland vu du ciel en 2018, la grande scène au bord d’un lac avec le public devant'
+  },
+  {
+    page:'fr/festival-sziget.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','house','techno'], href:'/fr/festival-sziget', type:'Guide', topic:'Sziget Festival',
+    title:'Sziget Festival 2027 : dates, musique, camping et accès',
+    description:'Cinq jours sur l’île d’Óbuda à Budapest : quand a lieu le Sziget en 2027, quelle musique on y joue, comment fonctionnent le camping et l’accès par la H5, et ce qui est confirmé.',
+    image:'img/sziget/island-2022-320.webp',
+    srcset:'img/sziget/island-2022-320.webp 320w,img/sziget/island-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Vue aérienne du Sziget Festival sur l’île d’Óbuda à Budapest'
+  },
+  {
+    page:'fr/festival-awakenings.html', category:'festivals', tags:['festivals','europe-festivals','techno','history','discovery'], href:'/fr/festival-awakenings', type:'Guide', topic:'Festival Awakenings',
+    title:'Festival Awakenings 2027 : ce que c’est et où il a lieu',
+    description:'Fondé à Amsterdam en 1997, techno exclusivement depuis : où ont lieu le festival d’été et le rendez-vous de l’Amsterdam Dance Event, et d’où vient le nom.',
+    image:'img/awakenings/blimp-2007-320.webp',
+    srcset:'img/awakenings/blimp-2007-320.webp 320w,img/awakenings/blimp-2007-1200.webp 1200w',
+    width:1200, height:803, alt:'Le dirigeable d’Awakenings au-dessus du public, des faisceaux laser traversant le ciel nocturne'
+  },
+  {
+    page:'fr/hardstyle.html', category:'music-history', tags:['history','hardstyle','trance','techno'], href:'/fr/hardstyle', type:'Guide', topic:'Hardstyle',
+    title:'Qu’est-ce que le hardstyle ? Histoire, son, artistes, styles',
+    description:'Reverse bass, grosses caisses distordues, circuit de festivals néerlandais et scission entre hardstyle euphorique et raw hardstyle.',
+    image:'img/hardstyle/defqon1-red-2024-320.webp',
+    srcset:'img/hardstyle/defqon1-red-2024-320.webp 320w,img/hardstyle/defqon1-red-2024-1280.webp 1280w',
+    width:1280, height:720, alt:'La scène principale rouge du Defqon.1 en 2024'
+  },
+  {
+    page:'fr/musique-house.html', category:'music-history', tags:['house','history','overview'], href:'/fr/musique-house', type:'Guide', topic:'Musique house',
+    title:'Qu’est-ce que la musique house ? Histoire, son, origines',
+    description:'Frankie Knuckles, le Warehouse et les premiers disques de Chicago : ce qu’est la musique house, pourquoi on dit house et les styles de la deep house à l’afro house.',
+    image:'img/house-music/frankie-knuckles-way-2022-320.webp',
+    srcset:'img/house-music/frankie-knuckles-way-2022-320.webp 320w,img/house-music/frankie-knuckles-way-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'La plaque Frankie Knuckles Way à Chicago'
+  },
+  {
+    page:'fr/techno.html', category:'music-history', tags:['techno','history','overview'], href:'/fr/techno', type:'Guide', topic:'Techno',
+    title:'Qu’est-ce que la techno ? Détroit, Belleville Three, aujourd’hui',
+    description:'La techno, musique de danse de machines née à Détroit : les Belleville Three, d’où vient le nom, Underground Resistance, Berlin, minimal et hard techno.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mixe dans un club de Détroit en 2010'
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',
