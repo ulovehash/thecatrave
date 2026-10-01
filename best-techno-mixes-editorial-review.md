@@ -55,6 +55,6 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 
 **Listening.** Ten YouTube embeds from official Mixmag, DJ Mag, Boiler Room and HÖR channels. The page states that view counts were not used as a quality score, so no popularity evidence is required. Embed IDs were checked in the original review; not re-checked in this pass.
 
-**Links.** `/techno-music-guide`, `/best-clubs-in-berlin`, `/german-electronic-music`, `/best-clubs-in-paris`, `/best-clubs-in-barcelona`, `/state-of-electronic-music`. No dnb or jungle link.
+**Links.** `/techno-music-guide`, `/best-clubs-in-berlin`, `/german-electronic-music`, `/best-clubs-in-paris`, `/best-clubs-in-barcelona`. No dnb or jungle link.
 
 **Humanizer record (before and after), applied 2026-09-30.** "and can be played in full." became "official broadcaster channels." "carry an hour" became "carry a mix". "It asks for uninterrupted listening and rewards attention to small adjustments." became "It rewards attention to small adjustments." The player description "Watch the complete ... recording" became "Watch the ... recording".

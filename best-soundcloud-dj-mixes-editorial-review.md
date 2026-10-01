@@ -53,7 +53,7 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 
 **Listening.** Nine SoundCloud embeds (eight DJ Mag Recognise and Dekmantel Podcast mixes plus the owner's). The selection rests on publisher provenance, not popularity, as the page says. Accounts were checked on 29 September 2026; not re-checked in this pass.
 
-**Links.** `/state-of-electronic-music`, `/live-dj-sets`, `/best-techno-mixes`, `/best-clubs-in-tokyo`, `/best-clubs-in-nyc`, `/best-boiler-room-sets`. The jungle guide link was removed on 2026-09-30.
+**Links.** `/live-dj-sets`, `/best-techno-mixes`, `/best-clubs-in-tokyo`, `/best-clubs-in-nyc`, `/best-boiler-room-sets`. The jungle guide link was removed on 2026-09-30.
 
 **Humanizer record (before and after), applied 2026-09-30.** "treat a mix as a complete piece of programming" became "plan a mix with care". "The best SoundCloud mixes reward that full-hour attention." was cut. "the hour into a demonstration reel" became "the mix into a demonstration reel". "for the fastest hour" became "for the fastest mix". "The platform is only the container." was cut. The SHERELLE jungle aside became "Footwork and jungle sit side by side here, and the mix moves between their different rhythmic grids."
 

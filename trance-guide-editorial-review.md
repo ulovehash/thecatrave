@@ -98,7 +98,7 @@ This addendum replaces the ledger and checklist above where they conflict. The o
 
 **Banner.** The banner repeated the first paragraph of "What is trance music". It is now a literal short line in `build-trance-article.mjs`, and the FAQ answer was shortened so the definition appears in different wording in each place.
 
-**Links and reuse.** `/uk-electronic-music-evolution`, `/state-of-electronic-music`, `/hardstyle-guide`, `/german-electronic-music`: all on topic. The owner's "Degeneration" remix and I Like to Smoke in Silence After Raves stay on purpose as disclosed promotion. The earlier line saying the remix has "unrelated rhythm lineage" is an editorial note, not page copy. Four YouTube sets, one per figure; none shared with another guide.
+**Links and reuse.** `/uk-electronic-music-evolution`, `/hardstyle-guide`, `/german-electronic-music`: all on topic. The owner's "Degeneration" remix and I Like to Smoke in Silence After Raves stay on purpose as disclosed promotion. The earlier line saying the remix has "unrelated rhythm lineage" is an editorial note, not page copy. Four YouTube sets, one per figure; none shared with another guide.
 
 **Humanizer record (before and after).** "giving, as the phrase goes, the child its name" was cut. "a level of chart dominance no other electronic genre matched in the same stretch of years" became "Trance artists held the top of the DJ Mag readers' poll for most of that decade: Tiësto in 2004, Paul van Dyk in 2005 and 2006, then van Buuren." "what Wikipedia calls the most consequential early homes" became "giving the more melodic, progressive end of the genre an early home".
 

@@ -92,6 +92,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - hacienda manchester
 - the warehouse project manchester
 
+## best-house-music-playlists-spotify.html
+
+- best house music playlists on spotify
+- best house playlists on spotify
+- house music playlist on spotify
+
+## best-soundcloud-dj-mixes.html
+
+- best soundcloud dj mixes
+- best soundcloud mixes
+- dj mixes on soundcloud
+
 ## best-spotify-playlists.html
 
 - best spotify playlists
@@ -101,6 +113,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top playlists on spotify
 - popular spotify playlists
 - spotify playlist recommendations
+
+## best-techno-mixes.html
+
+- best techno mixes
+- best techno mix of all time
+- essential techno mixes
 
 ## boomtown-festival.html
 

@@ -81,7 +81,7 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 
 **Listening.** Six exact examples: one YouTube embed (`Q_N2Gv2_0IU`) and five Spotify track embeds. The original review names six pairings (DJ Duro and The Prophet, Blademasterz, Headhunterz, D-Block & S-te-Fan, B-Front and Frontliner, Zatox and Nikkita). They are chosen to illustrate named records in the prose, not as popular sets, so no view-count evidence is required. Embed URLs were not re-checked in this pass.
 
-**Links.** `/state-of-electronic-music`, `/german-electronic-music`, `/best-clubs-in-berlin`, `/airbeat-one-festival` (Airbeat One has a hardstyle stage). No dnb or jungle link. The owner's Bandcamp card stays as promotion.
+**Links.** `/german-electronic-music`, `/best-clubs-in-berlin`, `/airbeat-one-festival` (Airbeat One has a hardstyle stage). No dnb or jungle link. The owner's Bandcamp card stays as promotion.
 
 **Read-through findings, applied 2026-09-30 with the owner's approval:**
 - "Defqon.1 is the largest single statement of hardstyle culture." is an unsourced superlative. Proposed: "Defqon.1 is the best-known hardstyle festival."

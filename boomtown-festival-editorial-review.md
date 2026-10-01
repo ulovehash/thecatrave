@@ -63,7 +63,7 @@ This addendum replaces the earlier "pass" lines above where they conflict with i
 | `nx8LYGtQdDs` | The Wailers, Boomtown 2014 | 17.5M views, the most-viewed Boomtown performance video found | oEmbed resolved |
 | `aKxwl7rFCAE` | Altern 8, Boiler Room x Sports Banger, 2023 | 407k views, the rave side | oEmbed resolved |
 
-**Internal links.** `/sziget-festival`, `/monegros-desert-festival`, `/exit-festival`, `/state-of-electronic-music`. No dnb or jungle guide link.
+**Internal links.** `/sziget-festival`, `/monegros-desert-festival`, `/exit-festival`. No dnb or jungle guide link.
 
 **Reuse.** The two thecatrave SoundCloud mixes appear on every festival guide on purpose: they are the owner's own music, placed as a disclosed personal route. They are not called best, full or complete, and no lineage with the festival is claimed. The Bandcamp tracks are the same two on each guide, for the same reason. No other media is reused from another guide.
 
