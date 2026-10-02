@@ -47,6 +47,10 @@ export const festivalEditions = [
   // to the last one to end (Draaimolen, early September), then roll the page
   // to 2028. Fusion returns in 2028 (28 June to 2 July).
   {page: 'best-electronic-music-festivals-europe.html', heading: '2027 dates at a glance', ends: null},
+  // US twin of the Europe page. On 2026-10-02 only EDC, Ultra, Movement and the
+  // three Beyond Wonderland editions had 2027 dates; null until every festival
+  // on the page has confirmed, then set to the last to end and roll to 2028.
+  {page: 'best-edm-festivals-usa.html', heading: 'US EDM festival dates for 2027 at a glance', ends: null},
   // The German and French translations carry the same dates and roll with the
   // English page.
   {page: 'de/electro-festivals-europa.html', heading: 'Termine 2027 im Überblick', ends: null},

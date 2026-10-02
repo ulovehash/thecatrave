@@ -472,6 +472,14 @@ export const homeArticleCatalog = [
     image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
     srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
     width:1200, height:900, alt:'A daytime crowd under the steel canopy of the Futur Stage at Kappa FuturFestival in Turin'
+  },
+  {
+    page:'best-edm-festivals-usa.html', category:'festivals', tags:['discovery','house','techno','history'], href:'/best-edm-festivals-usa', type:'List', topic:'US EDM festivals',
+    title:'Best EDM Festivals in the US 2027: EDC, Ultra, Movement',
+    description:'EDC Dusk and Dawn on 14–16 and 21–23 May, Ultra on 26–28 March, Movement on 29–31 May: US EDM festivals for 2027 by sound, with dates confirmed or not.',
+    image:'img/us-festivals/beyond-wonderland-2010-320.webp',
+    srcset:'img/us-festivals/beyond-wonderland-2010-320.webp 320w,img/us-festivals/beyond-wonderland-2010-1200.webp 1200w',
+    width:1200, height:900, alt:'A DJ on the main stage at Beyond Wonderland in 2010 above a crowd'
   }
 ];
 

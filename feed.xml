@@ -8,13 +8,26 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best EDM Festivals in the US 2027: EDC, Ultra, Movement</title>
+    <link>https://thecatrave.com/best-edm-festivals-usa</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-edm-festivals-usa</guid>
+    <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>EDC Dusk and Dawn on 14–16 and 21–23 May, Ultra on 26–28 March, Movement on 29–31 May: US EDM festivals for 2027 by sound, with dates confirmed or not.</description>
+    <category>discovery</category>
+    <category>house</category>
+    <category>techno</category>
+    <category>history</category>
+    <media:content url="https://thecatrave.com/img/og/us-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>EXIT Festival: History, Petrovaradin Fortress and What Comes Next</title>
     <link>https://thecatrave.com/exit-festival</link>

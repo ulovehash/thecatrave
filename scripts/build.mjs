@@ -54,6 +54,7 @@ export const generators = [
   'build-exit-festival-article.mjs',
   'build-grime-article.mjs',
   'build-europe-festivals-article.mjs',
+  'build-us-festivals-article.mjs',
   'build-paris-clubs-article.mjs',
   'build-barcelona-clubs-article.mjs',
   'build-amsterdam-clubs-article.mjs',

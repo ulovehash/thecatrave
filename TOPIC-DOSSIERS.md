@@ -2402,3 +2402,11 @@ Chrome, US/en, gl=us&hl=en), Keyword Planner не запускался повт�
 
 Аудит audit-site-components.mjs: нижняя граница первого сета больше не «после history» (для Ultra и Creamfields сет выше).
 DE/FR-переводы сделаны 2 октября 2026 (формулировки утверждены владельцем): заголовки, описания, H2 с ответом в первом предложении, раздел о возрасте на Ultra, таблица хедлайнеров Primavera, порядок блоков Creamfields, блок «hear it now» в jungle. Отступление от показанного текста: FR Creamfields открывается вопросом «Où se trouve Creamfields ?», потому что эта фраза заявлена в keywords/fr-creamfields.json и audit-keywords требует её на странице.
+
+## best-edm-festivals-usa (2 октября 2026)
+
+Статья 1 из трёх: US-близнец best-electronic-music-festivals-europe. Ключи: KP, США, диапазоны 100–1K («best edm festivals in the us», «best edm festivals» и варианты); названия фестивалей 10K–100K, Electric Forest 100K–1M. Не измерены: Lost Lands, Electric Zoo, Wakaan.
+
+Проверено 2 октября 2026 по официальным страницам и Insomniac: даты 2027 подтверждены у EDC Dusk/Dawn (14–16 и 21–23 мая), Ultra (26–28 марта), Movement (29–31 мая), трёх Beyond Wonderland (26–27 марта Сан-Бернардино, 10–13 июня Джолиет, 25–27 июня The Gorge). Не объявлены: Electric Forest, Lost Lands, Bass Canyon, HARD Summer, CRSSD (весна), III Points, EDC Orlando, ARC, Lollapalooza, Dreamstate (US). Даты агрегаторов не печатать. Electric Zoo: нет подтверждённых изданий 2026/2027, оператор Avant Gardner подал Chapter 11 4 августа 2025: в «Not on this list». Статья EDM.com «Pull the Plug» — 2020, ковид, не отмена 2026. Bonnaroo: EDM Sauce пишет об отмене 2027, один вторичный источник.
+
+Картинки: Commons, новые для страницы (Electric Forest 2018, Beyond Wonderland 2010, III Points 2017). Не запушено.

@@ -1,0 +1,116 @@
+{
+  "page": "best-edm-festivals-usa.html",
+  "seed": "best edm festivals in the us",
+  "source": "Google Ads Keyword Planner, United States, English, Sep 2025 to Aug 2026 (bucketed ranges only, no exact volumes), run 1 to 2 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Every term below sits in the 100 to 1K bucket unless stated; the bucket is recorded as its lower bound (100). Festival names measured in the 10K to 100K bucket are listed under terms with volume 10000 and are named in the page, not targeted as phrases. 'electric forest' sits in the 100K to 1M bucket, seasonal (volume 100000). People Also Ask (biggest EDM festival in the US / best rave festivals in the USA / top 10 EDM festivals in the US / best EDM festival to go to / major EDM festivals in the US) is answered in the FAQ and not listed as terms. Lost Lands, Electric Zoo and Wakaan were not measured.",
+  "terms": [
+    {
+      "term": "best edm festivals in the us",
+      "volume": 100
+    },
+    {
+      "term": "best edm festivals",
+      "volume": 100
+    },
+    {
+      "term": "popular edm festivals",
+      "volume": 100
+    },
+    {
+      "term": "edm festivals in the us",
+      "volume": 100
+    },
+    {
+      "term": "biggest edm festivals in the us",
+      "volume": 100
+    },
+    {
+      "term": "major edm festivals",
+      "volume": 100
+    },
+    {
+      "term": "electric forest",
+      "volume": 100000
+    },
+    {
+      "term": "bass canyon",
+      "volume": 10000
+    },
+    {
+      "term": "hard summer",
+      "volume": 10000
+    },
+    {
+      "term": "crssd festival",
+      "volume": 10000
+    },
+    {
+      "term": "beyond wonderland",
+      "volume": 10000
+    },
+    {
+      "term": "iii points",
+      "volume": 10000
+    },
+    {
+      "term": "dreamstate",
+      "volume": 10000
+    },
+    {
+      "term": "edc orlando",
+      "volume": 10000
+    },
+    {
+      "term": "decadence colorado",
+      "volume": 10000
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed expansion (three passes), live Google search suggestions and People Also Ask, SERP read for 'best edm festivals in the us' (no strong editorial page ranks), 1 to 2 October 2026.",
+  "rejected": [
+    {
+      "term": "us edm festivals",
+      "volume": 0,
+      "why": "0 to 10 a month; same intent as 'edm festivals in the us'"
+    },
+    {
+      "term": "usa edm festivals",
+      "volume": 0,
+      "why": "0 to 10 a month; same intent as 'edm festivals usa'"
+    },
+    {
+      "term": "best edm festival in the world",
+      "volume": 100,
+      "why": "world-level intent; a US page cannot answer it, and the Europe guide and the festivals sit under it"
+    },
+    {
+      "term": "biggest edm festival in the world",
+      "volume": 100,
+      "why": "world-level intent, not a US list"
+    },
+    {
+      "term": "best edm festivals in usa",
+      "volume": 100,
+      "why": "same intent as the kept 'in the us' form; the phrase does not fit a sentence and is not forced onto the page"
+    },
+    {
+      "term": "best edm festivals usa",
+      "volume": 100,
+      "why": "same intent as the kept 'in the us' form; the phrase does not fit a sentence and is not forced onto the page"
+    },
+    {
+      "term": "edm festivals in united states",
+      "volume": 100,
+      "why": "same intent as the kept 'in the us' form; the phrase does not fit a sentence and is not forced onto the page"
+    },
+    {
+      "term": "edm festivals usa",
+      "volume": 100,
+      "why": "same intent as the kept 'in the us' form; the phrase does not fit a sentence and is not forced onto the page"
+    },
+    {
+      "term": "largest edm festivals in the us",
+      "volume": 100,
+      "why": "same intent as the kept 'in the us' form; the phrase does not fit a sentence and is not forced onto the page"
+    }
+  ]
+}

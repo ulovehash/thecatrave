@@ -494,6 +494,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best nightclubs in prague
 - biggest party cities in europe
 
+## best-edm-festivals-usa.html
+
+- best edm festivals in the us
+- best edm festivals
+- popular edm festivals
+- edm festivals in the us
+- biggest edm festivals in the us
+- major edm festivals
+
 ## best-electronic-music-festivals-europe.html
 
 - electronic music festivals in europe
