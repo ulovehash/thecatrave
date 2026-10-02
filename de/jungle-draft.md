@@ -12,6 +12,10 @@ Er begann als Londoner Sound und hatte binnen weniger Jahre eigenen Slang, eigen
 
 Wenn dir die britische Rave-Geschichte neu ist, sieh dir [unseren Guide zur Entwicklung der britischen elektronischen Musik](/uk-electronic-music-evolution) (auf Englisch) an: Er zeichnet den ganzen Weg vom Industrial Techno bis zum Dubstep nach.
 
+[Embed: thecatrave protect-ya-breaks]
+
+Du willst Jungle selbst hören? Ein Klick auf [den Selector](/de/selector) spielt zufällig ein DJ-Set.
+
 ## Woher Jungle kommt
 
 Jungle entstand **Anfang der 1990er in Großbritannien**, als neue Mutation der Rave-Szene, die die späten Achtziger beherrscht hatte. Zu Beginn der Neunziger zersplitterte die britische Rave-Musik, bekannt als **Breakbeat Hardcore**, in verschiedene Richtungen. Manche Produzenten nahmen den pianolastigen, euphorischen Weg, der zum Happy Hardcore führte, andere wurden dunkler und schwerer und legten damit den Grundstein für das, was Jungle werden sollte.

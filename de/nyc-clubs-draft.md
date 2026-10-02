@@ -72,9 +72,9 @@ Neben diesen fünf gehören zu den besten Tanzclubs, die New York im kleineren M
 
 Zwei neuere Räume tauchen auf r/avesNYC, dem Rave-Forum der Stadt, immer wieder auf. Das Paragon in Bed-Stuy wurde von John Barclay eröffnet, einem aus dem Team hinter dem Bossa Nova Civic Club, mit frühem amerikanischen Techno als Vorbild. Es schloss im April 2025 wegen steigender Kosten und öffnete am 1. August 2025 wieder, mit Unterstützung von Kevin Saunderson von den Belleville Three, der in Brooklyn geboren wurde, und mit Joey Beltram unter den Residents. Das Signal öffnete im Mai 2025 in einem Lagerhaus an der Morgan Avenue 175 in Williamsburg: ein Raum für 210 Menschen mit einer d&b-Audiotechnik-Anlage, ab dem späten Nachmittag oder Abend bis 4 Uhr geöffnet.
 
-## Die besten Techno-Clubs in New York
+## Die besten Techno-Nachtclubs in New York
 
-Das Basement ist die Antwort, die die meisten geben, und die, um die ein erster Besucher planen sollte. Es bucht harte internationale Namen wie Surgeon neben lokalen DJs, es füllt sich nach 2 Uhr, und der Einlass hängt von der Tür ab.
+Die besten Techno-Nachtclubs in New York sind Basement, Paragon und Nowadays; Elsewhere und Public Records buchen regelmäßig Techno. Das Basement ist die Antwort, die die meisten geben, und die, um die ein erster Besucher planen sollte. Es bucht harte internationale Namen wie Surgeon neben lokalen DJs, es füllt sich nach 2 Uhr, und der Einlass hängt von der Tür ab.
 
 Das Paragon ist der Raum, der der Geschichte des Techno am engsten verbunden ist, mit einem Mitglied der Belleville Three als Unterstützer und einem New Yorker Techno-Produzenten der 1990er unter seinen Residents. Das Nowadays ist der andere große Techno-Raum, besonders an seinen Nonstop-Wochenenden, wenn der Indoor-Club 24 Stunden auf einer Anlage läuft. Das Elsewhere und Public Records buchen regelmäßig Techno, und die großen Lagerhaus- und Open-Air-Events des Sommers finden im Knockdown Center selbst und an einmaligen Orten in Brooklyn und Queens statt. Neben den Clubs finden Raves in New York das ganze Jahr über weiter in Lagerhäusern und anderen einmaligen Räumen statt.
 

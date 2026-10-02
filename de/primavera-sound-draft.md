@@ -28,9 +28,9 @@ Der Name des Festivals umfasst heute mehr als die drei Haupttage. Primavera a la
 
 Primavera Sound wird manchmal als Indie-Festival beschrieben, weil es dort angefangen hat. Das ist Geschichte, keine vollständige Genrebezeichnung. Spätere Programme stellten globalen Pop, Hip-Hop, Reggaeton, Techno, House, Metal, Jazz und experimentelle Musik neben die Gitarrenbands, die seinen Ruf begründet hatten.
 
-## Primavera Sound Barcelona: Termine und Ort
+## Wo findet Primavera Sound statt, und wann?
 
-Primavera Sound Barcelona 2027 ist für Donnerstag, 3., Freitag, 4., und Samstag, 5. Juni 2027 angesetzt. Der Hauptort ist der Parc del Fòrum, an der nordöstlichen Küste Barcelonas zwischen dem Bezirk Sant Martí und Sant Adrià de Besòs. Das Festival nutzt das Gelände seit 2005, und seine Vereinbarung mit der Stadt hält es dort bis 2030.
+Primavera Sound Barcelona 2027 findet im Parc del Fòrum statt, von Donnerstag, 3., bis Samstag, 5. Juni 2027. Der Hauptort von Primavera Sound liegt an der nordöstlichen Küste Barcelonas zwischen dem Bezirk Sant Martí und Sant Adrià de Besòs. Das Festival nutzt das Gelände seit 2005, und seine Vereinbarung mit der Stadt hält es dort bis 2030.
 
 [Bild: Parc del Fòrum beside the Mediterranean]
 
@@ -39,6 +39,14 @@ Der Parc del Fòrum ist eine öffentliche Veranstaltungsfläche von rund 200.000
 Die nächste Metrostation ist El Maresme | Fòrum an der Linie L4. Weil es ein städtisches Festival ist, sollte man den Ort als einen Stadtteil von Barcelona verstehen, nicht als abgelegenes Festivalgelände: Man fährt hin, kehrt in die Unterkunft in der Stadt zurück und besucht während der Woche vielleicht noch Konzerte anderswo.
 
 Die drei Tage oben gelten für das Hauptprogramm im Parc del Fòrum. Eröffnungsveranstaltungen, Konzerte von Primavera a la Ciutat und ein Abschlussevent können den Kalender verlängern. Ihre Orte und Zugangsregeln ändern sich, deshalb gilt der offizielle Zeitplan als letzte Quelle, sobald er erschienen ist.
+
+## Primavera Sound: Headliner nach Jahr
+
+Die Headliner von Primavera Sound reichen von Pixies und Pavement 2010 über Radiohead 2016 und Björk 2018 bis zu Chappell Roan, Charli XCX und Sabrina Carpenter 2025. Das Billing bei einem so breiten Festival ist Ermessenssache, deshalb nennt die Tabelle die Namen, die der Wikipedia-Artikel zu Primavera Sound für jede Ausgabe in Barcelona als Headliner angibt, für 2025 und 2026 gegen die Berichte zur Programmankündigung geprüft. Sie ist keine offizielle Rangliste.
+
+[Tabelle: headliners]
+
+Das Muster ist der Punkt. Indie-Rock und seine Älteren (Pixies, Wilco, Pulp, The National) bestimmen die frühen 2010er; ab 2017 weitet sich die Spitze des Programms auf Frank Ocean, Aphex Twin, Rosalía, Kendrick Lamar und Charli XCX, und 2025 sind die Headliner-Plätze Pop. Die Ausgaben 2020 und 2021 wurden abgesagt, und 2022 lief über zwei Wochenenden.
 
 ## Wie groß ist Primavera Sound?
 

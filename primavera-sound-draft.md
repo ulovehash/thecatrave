@@ -10,7 +10,7 @@ The Primavera Sound festival is built around range rather than one genre. A guit
 
 [Image: Primavera stage crowd, Primavera Sound 2019]
 
-This guide answers the main questions behind searches for Primavera Sound Barcelona: what the festival is, its dates and location, how many people attend, what music it plays, and how Primavera a la Ciutat and Primavera Sound Porto fit into the same name. It does not chase line-ups or set times, which change every edition and belong on the official programme.
+This guide answers the main questions behind searches for Primavera Sound Barcelona: what the festival is, its dates and location, who has headlined it year by year, how many people attend, what music it plays, and how Primavera a la Ciutat and Primavera Sound Porto fit into the same name. It does not track the current edition's line-up or set times, which change every year and belong on the official programme.
 
 ## What is Primavera Sound?
 
@@ -28,9 +28,9 @@ The festival's name now covers more than the three main days. Primavera a la Ciu
 
 Primavera Sound is sometimes described as an indie festival because of where it began. That is history, not a complete genre label. Its later bills have put global pop, hip-hop, reggaeton, techno, house, metal, jazz and experimental music beside the guitar bands that established its reputation.
 
-## Primavera Sound Barcelona: dates and location
+## Where is Primavera Sound held, and when?
 
-Primavera Sound Barcelona 2027 is scheduled for Thursday 3, Friday 4 and Saturday 5 June 2027. The main Primavera Sound location is Parc del Fòrum, on Barcelona's north-eastern waterfront between the Sant Martí district and Sant Adrià de Besòs. The festival has used the site since 2005, and its agreement with the city keeps it there through 2030.
+Primavera Sound Barcelona 2027 is held at Parc del Fòrum on Thursday 3, Friday 4 and Saturday 5 June 2027. The main Primavera Sound location is on Barcelona's north-eastern waterfront, between the Sant Martí district and Sant Adrià de Besòs. The festival has used the site since 2005, and its agreement with the city keeps it there through 2030.
 
 [Image: Parc del Fòrum beside the Mediterranean]
 
@@ -39,6 +39,14 @@ Parc del Fòrum is a public event space of about 200,000 square metres managed b
 The nearest metro stop is El Maresme | Fòrum on line L4. Because this is an urban festival, readers should think of the location as a district of Barcelona rather than an isolated festival field: people travel in, return to accommodation in the city and may attend related concerts elsewhere during the week.
 
 The three dates above are for the main Parc del Fòrum programme. Opening events, Primavera a la Ciutat shows and a closing event may extend the calendar. Their venues and access arrangements change, so the official schedule is the final source once it is published.
+
+## Primavera Sound headliners by year
+
+Primavera Sound's headliners run from Pixies and Pavement in 2010 to Radiohead in 2016, Björk in 2018 and Chappell Roan, Charli XCX and Sabrina Carpenter in 2025. Billing at a festival this wide is a judgement call, so the table lists the names Wikipedia's Primavera Sound article gives as headliners for each Barcelona edition, checked for 2025 and 2026 against announcement coverage. It is not an official ranking.
+
+[Table: headliners]
+
+The pattern is the point. Indie rock and its elders (Pixies, Wilco, Pulp, The National) dominate the early 2010s; from 2017 the top of the bill widens to Frank Ocean, Aphex Twin, Rosalía, Kendrick Lamar and Charli XCX, and by 2025 the headline slots are pop. The 2020 and 2021 editions were cancelled, and 2022 ran over two weekends.
 
 ## How big is Primavera Sound?
 
@@ -119,6 +127,8 @@ The main Primavera Sound Barcelona programme for 2027 will be held at Parc del F
 - Catalan News, 2027 dates and the Barcelona venue agreement through 2030
 - RTVE, attendance and international-audience figures for 2025
 - Primavera Sound press dossiers for the festival history and Primavera a la Ciutat
-- Wikipedia, Primavera Sound, used as a chronology map and checked against the sources above
+- Wikipedia, Primavera Sound, used as a chronology map and as the source of the headliners-by-year table, checked against the sources above
+- Rolling Stone, "Charli XCX, Chappell Roan, Sabrina Carpenter to Headline 2025 Primavera Sound Festival" (2025 headliners)
+- Billboard, "Primavera Sound Barcelona Announces 2026 Headliners, Including the Cure, Doja Cat, Gorillaz, The xx" (2026 headliners)
 - Primavera Sound Porto and the official Primavera Sound Porto press dossier
 - Wikimedia Commons file pages for every photograph and licence

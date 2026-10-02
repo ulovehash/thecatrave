@@ -10,9 +10,9 @@ Was ist Ultra Miami, für alle, die nie dort waren? Ein Festival in einem Park a
 
 Dieser Guide erklärt, wo und wann Ultra stattfindet, wie groß es wirklich ist, wer es gegründet hat und wem es heute gehört, und wie aus einer Strandparty eine Marke mit Ausgaben auf mehreren Kontinenten wurde, darunter Ultra Europe. Dann die Frage, für die es diese Seite gibt: Was spielt das Ultra Festival unter dem Feuerwerk der Main Stage eigentlich? Vorab eines. Ultra meint hier das Festival, nicht Ultra Records, das Dance-Label mit dem ähnlichen Namen. Beide standen sich einst vor Gericht gegenüber und einigten sich 2012 auf das, was sie eine „globale Allianz“ nannten.
 
-## Wo das Ultra Music Festival stattfindet
+## Wo findet das Ultra Music Festival statt?
 
-Wo ist das Ultra Music Festival? Im Bayfront Park, 301 Biscayne Boulevard, in Downtown Miami, am Rand der Biscayne Bay. Der Ort des Ultra Music Festivals hat mehrmals gewechselt, aber in den Bayfront Park kehrt es immer wieder zurück: Dort fand Ultra von 2001 bis 2005 statt, von 2012 bis 2018 und jedes Jahr seit 2022.
+Das Ultra Music Festival findet im Bayfront Park statt, 301 Biscayne Boulevard, in der Innenstadt von Miami, am Rand der Biscayne Bay. Der Ort des Ultra Music Festivals hat mehrmals gewechselt, aber in den Bayfront Park kehrt es immer wieder zurück: Dort fand Ultra von 2001 bis 2005 statt, von 2012 bis 2018 und jedes Jahr seit 2022.
 
 Wann ist Ultra Miami? Im März, an drei Tagen von Freitag bis Sonntag, so das Format seit 2011. In den letzten Jahren lag es an einem der beiden letzten Wochenenden des Monats: 25. bis 27. März 2022, 22. bis 24. März 2024, 27. bis 29. März 2026.
 
@@ -26,9 +26,13 @@ Der Standort von Ultra Miami ist auch eine Frage von Regeln. Die Genehmigung, di
 
 Ultra Miami 2027 findet vom 26. bis 28. März 2027 im Bayfront Park statt. Ultra Europe 2027 folgt vom 9. bis 11. Juli 2027 in Split.
 
-## Wie groß Ultra ist
+## Ab welchem Alter darf man zu Ultra?
 
-Wie viele Menschen gehen zum Ultra Music Festival? Ultra meldet rund 165.000 Eintritte, zusammengezählt über die drei Tage: die Zahl, die für jede Ausgabe im Bayfront Park seit 2014 veröffentlicht wurde und wieder für 2026, als die Besucher aus 100 Ländern kamen. Das sind weder 165.000 verschiedene Menschen oder Tickets noch eine Menge, die je an einem Ort beisammen war. Aufs Wochenende verteilt ergibt die gemeldete Summe etwa 55.000 Eintritte pro Tag, genau die Obergrenze aus der Genehmigung der Stadt.
+Man muss mindestens 18 Jahre alt sein. Seit 2015 lässt das Ultra Music Festival niemanden unter 18 ein, dem Jahr nach dem Ansturm von Eindringlingen, die am ersten Tag des Festivals 2014 einen Zaun durchbrachen. Die Stadt Miami erlaubte Ultra danach nur unter Auflagen, darunter ein neuer Sicherheitschef.
+
+## Wie viele Menschen gehen zu Ultra?
+
+Das Ultra Music Festival meldet rund 165.000 Eintritte, zusammengezählt über die drei Tage: die Zahl, die für jede Ausgabe im Bayfront Park seit 2014 veröffentlicht wurde und wieder für 2026, als die Besucher aus 100 Ländern kamen. Das sind weder 165.000 verschiedene Menschen oder Tickets noch eine Menge, die je an einem Ort beisammen war. Aufs Wochenende verteilt ergibt die gemeldete Summe etwa 55.000 Eintritte pro Tag, genau die Obergrenze aus der Genehmigung der Stadt.
 
 Der Rekord liegt bei 330.000, aus dem Jahr 2013, als Ultra sein fünfzehnjähriges Bestehen an zwei Wochenenden feierte, das einzige Jahr, in dem es das tat. 2019, in seinem einzigen Jahr auf Virginia Key, meldete es 170.000.
 

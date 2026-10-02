@@ -80,6 +80,7 @@ export function jungleMedia(lang, copy) {
   }
   for (const [key, html] of Object.entries(copy.quotes)) media[key] = `<blockquote class="pull-quote">${html}</blockquote>`;
   // The owner's own music, where the English page plays it.
+  media['thecatrave protect-ya-breaks'] = ownTrackListening('protect-ya-breaks', copy.hearNow, lang);
   media['thecatrave late-summer-cloud-dance'] = ownTrackListening('late-summer-cloud-dance', copy.lateSummer, lang);
   media['art-deco-remix'] = articleListeningBand({
     platform: 'soundcloud', id: 'jungle-soundcloud-lana', ...copy.artDeco,

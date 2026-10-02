@@ -31,8 +31,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('ultra-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/ultra-music-festival';
-const title = 'Ultra Music Festival 2027: Miami Dates, Location and Music';
-const description = 'Ultra Music Festival 2027 runs 26 to 28 March at Bayfront Park in Miami. Find the location, age rule, Miami Music Week context and music beyond the Main Stage.';
+const title = 'Ultra Music Festival 2027: Location, Age Limit, Attendance';
+const description = 'Ultra Music Festival 2027 runs 26 to 28 March at Bayfront Park, Miami. Entry is 18+, with about 55,000 people a day and 165,000 admissions over the weekend.';
 const datePublished = '2026-09-13';
 const dateModified = '2026-09-17';
 const dateLabel = '17 September 2026';
@@ -158,8 +158,9 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where Ultra Music Festival happens', title: 'Where Ultra Music Festival happens.', subsections: ['ultra-2027']},
-  {id: 'how-big', heading: 'How big Ultra is', title: 'How big Ultra is.'},
+  {id: 'where', heading: 'Where is Ultra Music Festival?', title: 'Where is Ultra Music Festival?', subsections: ['ultra-2027']},
+  {id: 'age', heading: 'How old do you have to be to go to Ultra?', title: 'How old do you have to be to go to Ultra?'},
+  {id: 'how-big', heading: 'How many people go to Ultra?', title: 'How many people go to Ultra?'},
   {id: 'history', heading: 'A short history, and who owns Ultra', title: 'A short history, and who owns Ultra.'},
   {id: 'worldwide', heading: 'Ultra around the world', title: 'Ultra around the world.'},
   {id: 'ultra-europe', heading: 'Ultra Europe, in Split', title: 'Ultra Europe, in Split.'},
@@ -203,7 +204,7 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'The festival that closes Miami Music Week.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
   // the owner's two mixes: one mid-guide after the history, one before the FAQ
-  ...sectionHtml.flatMap((html, i) => sections[i].id === 'history' ? [html, ownSetListening(0)] : [html]),
+  ...sectionHtml.flatMap((html, i) => sections[i].id === 'age' ? [html, ownSetListening(0)] : [html]),
   ownSetListening(1),
   articleFaq({items: faqItems, title: 'Ultra Music Festival FAQ.', openFirst: true}),
   authorCard({filled: true}),

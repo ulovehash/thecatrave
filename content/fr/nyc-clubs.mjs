@@ -27,8 +27,8 @@ export default {
   bodyClass: 'article-page nyc-clubs-page',
   minReadingMinutes: 9,
 
-  title: 'Meilleures boîtes de nuit à New York : Paradise Garage, Nowadays',
-  description: 'Nowadays, Basement, Public Records, Good Room et Elsewhere : les meilleures boîtes de nuit à New York pour la house et la techno, et l’histoire du Loft à l’Output.',
+  title: 'Boîtes de nuit à New York : house et techno, hier et aujourd’hui',
+  description: 'Les meilleures boîtes de nuit de New York pour la house et la techno : Nowadays, Basement, Public Records, Good Room et Elsewhere, plus l’histoire du Loft à Output.',
   datePublished: '2026-10-01',
   dateModified: '2026-10-01',
   dateLabel: '1er octobre 2026',
@@ -51,7 +51,7 @@ export default {
     {id: 'eighties-nineties', heading: 'De la Danceteria au Twilo : les années 1980 et 1990', title: 'De la Danceteria au Twilo : les années 1980 et 1990.'},
     {id: 'brooklyn', heading: 'Brooklyn prend le relais', title: 'Brooklyn prend le relais.'},
     {id: 'best-clubs-now', heading: 'Les meilleures boîtes de nuit à New York aujourd’hui', title: 'Les meilleures boîtes de nuit à New York aujourd’hui.'},
-    {id: 'techno-clubs', heading: 'Les meilleurs clubs de techno à New York', title: 'Les meilleurs clubs de techno à New York.'},
+    {id: 'techno-clubs', heading: 'Les meilleures boîtes de techno à New York', title: 'Les meilleures boîtes de techno à New York.'},
     {id: 'house-clubs', heading: 'Les clubs de house à New York', title: 'Les clubs de house à New York.'},
     {id: 'where-to-go', heading: 'Où sortir à New York', title: 'Où sortir à New York.'}
   ],

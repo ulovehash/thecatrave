@@ -21,6 +21,7 @@
     { "question": "How many people go to Primavera Sound?", "volume": null, "use": "scale section and FAQ" }
   ],
   "expansion_checked": "Web search for the entity, history, official venue, age conditions, attendance and 2027 dates; owner-supplied Wikipedia organic-keyword export; owner-supplied People Also Ask screenshot. See primavera-sound-research.md.",
+  "owner_override": "2 October 2026: the owner approved a past-headliners section ('Primavera Sound headliners by year', the pattern that took Glastonbury to #1). The lineup terms below stay rejected for the current edition; a historical table does not date. The heading carries no measured volume.",
   "rejected": [
     { "term": "primavera", "volume": 2840, "why": "ambiguous collision with the word for spring and unrelated entities" },
     { "term": "primavera sound lineup", "volume": 580, "why": "dated line-up intent; official programme should own it" },

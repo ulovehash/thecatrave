@@ -12,6 +12,10 @@ Elle a commencé comme un son londonien et, en quelques années, avait son propr
 
 Si l’histoire rave britannique est nouvelle pour vous, lisez [notre guide de l’évolution de la musique électronique britannique](/uk-electronic-music-evolution) (en anglais) : il retrace tout le chemin, de la techno industrielle au dubstep.
 
+[Embed: thecatrave protect-ya-breaks]
+
+Envie d’entendre du jungle ? Un clic sur [le Selector](/fr/selector) lance un DJ set au hasard.
+
 ## D’où vient la jungle
 
 La jungle est apparue **au début des années 1990 au Royaume-Uni**, comme une nouvelle mutation de la scène rave qui avait dominé la fin des années 80. À l’aube des années 90, la musique rave britannique, le **breakbeat hardcore**, se divisait dans plusieurs directions. Certains producteurs ont pris la voie euphorique, portée par le piano, qui a mené au happy hardcore ; d’autres sont devenus plus sombres et plus lourds, et ont posé les bases de ce qui allait devenir la jungle.

@@ -19,8 +19,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('primavera-sound-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/primavera-sound-barcelona';
-const title = 'Primavera Sound Barcelona 2027: Dates, Location and Music';
-const description = 'Primavera Sound Barcelona 2027 runs 3 to 5 June at Parc del Fòrum. Find its waterfront location, scale, music, Primavera a la Ciutat and Porto edition.';
+const title = 'Primavera Sound Barcelona 2027: Location, Headliners by Year';
+const description = 'Primavera Sound Barcelona 2027 runs 3 to 5 June at Parc del Fòrum, after 293,000 attendances in 2025. Headliners by year, location and the Porto edition.';
 const datePublished = '2026-09-15';
 const dateModified = '2026-09-17';
 const dateLabel = '17 September 2026';
@@ -89,6 +89,28 @@ const media = {
     ]
   }),
   'srV4AgUc104': youtube('srV4AgUc104', 'Alan Sparhawk, official set at Primavera Sound Porto 2025'),
+  'Table: headliners': articleTable({
+    headers: ['Year', 'Headliners'],
+    rows: [
+      ['2010', 'Pixies, Pavement, Pet Shop Boys, Wilco, Orbital'],
+      ['2011', 'The Flaming Lips, Grinderman, Pulp, Belle & Sebastian, PJ Harvey'],
+      ['2012', 'Franz Ferdinand, Wilco, The Cure, Justice'],
+      ['2013', 'Phoenix, Blur, Nick Cave and the Bad Seeds, My Bloody Valentine'],
+      ['2014', 'Arcade Fire, Queens of the Stone Age, The National, Nine Inch Nails, Kendrick Lamar'],
+      ['2015', 'The Black Keys, Alt-J, The Strokes, Interpol, Underworld'],
+      ['2016', 'Radiohead, LCD Soundsystem, PJ Harvey, Sigur Rós'],
+      ['2017', 'Bon Iver, Aphex Twin, Frank Ocean, The xx, Arcade Fire'],
+      ['2018', 'Björk, Nick Cave and the Bad Seeds, The National, Arctic Monkeys, Lorde'],
+      ['2019', 'Erykah Badu, Future, Tame Impala, Miley Cyrus, Solange, Rosalía'],
+      ['2020, 2021', 'Cancelled'],
+      ['2022', 'Two-weekend edition: Pavement, Tame Impala, Beck, Gorillaz, Tyler, the Creator, Dua Lipa'],
+      ['2023', 'Blur, Kendrick Lamar, Depeche Mode, Rosalía, Calvin Harris, New Order'],
+      ['2024', 'Pulp, Vampire Weekend, Lana Del Rey, SZA, Disclosure, Charli XCX'],
+      ['2025', 'Chappell Roan, Charli XCX, Sabrina Carpenter'],
+      ['2026', 'The Cure, Doja Cat, Gorillaz, The xx, Skrillex, My Bloody Valentine']
+    ].map(row => row.map(escapeHtml)),
+    label: 'Primavera Sound headliners by year'
+  }),
   'Table: milestones': articleTable({
     headers: ['Year', 'What changed'],
     rows: [
@@ -129,7 +151,8 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 
 const sections = [
   {id: 'what-is', heading: 'What is Primavera Sound?', title: 'What is Primavera Sound?'},
-  {id: 'dates-location', heading: 'Primavera Sound Barcelona: dates and location', title: 'Primavera Sound Barcelona: dates and location.'},
+  {id: 'dates-location', heading: 'Where is Primavera Sound held, and when?', title: 'Where is Primavera Sound held, and when?'},
+  {id: 'headliners', heading: 'Primavera Sound headliners by year', title: 'Primavera Sound headliners by year.'},
   {id: 'how-big', heading: 'How big is Primavera Sound?', title: 'How big is Primavera Sound?'},
   {id: 'music', heading: 'What music plays at Primavera Sound?', title: 'What music plays at Primavera Sound?', kicker: 'The music'},
   {id: 'a-la-ciutat', heading: 'Primavera a la Ciutat', title: 'Primavera a la Ciutat.'},
@@ -148,7 +171,7 @@ const articleHtml = [
   articleHero({
     kicker: 'Primavera Sound',
     title: 'Primavera Sound Barcelona',
-    deck: 'The main Barcelona programme returns to Parc del Fòrum on 3, 4 and 5 June 2027. Here is the waterfront location, scale, music and connection to Porto.',
+    deck: 'The main Barcelona programme returns to Parc del Fòrum on 3, 4 and 5 June 2027. Here is the waterfront location, the headliners by year, the scale and the music.',
     readingTime,
     dateModified,
     dateLabel,
@@ -170,7 +193,9 @@ ${sourceLink('https://assets.primaverasound.com/ps-single/download/prensa/psb/20
 ${sourceLink('https://assets.primaverasound.com/ps-single/download/prensa/psb/2015/dossier/Press_dossier_Primavera_Sound_2015.pdf', 'Primavera Sound: Primavera a la Ciutat and festival history')}
 ${sourceLink('https://assets.primaverasound.com/ps-single/download/prensa/pso/2016/dossier/NPS16_Conf._Imprensa_Dossier_Imprensa_Digital_ES_PN_20160204132533.pdf', 'Primavera Sound Porto: official historical press dossier')}
 ${sourceLink('https://boilerroom.tv/session/primavera-sound-barcelona-2024/', 'Boiler Room: Primavera Sound Barcelona session')}
-${sourceLink('https://en.wikipedia.org/wiki/Primavera_Sound', 'Wikipedia: Primavera Sound chronology and source map')}
+${sourceLink('https://en.wikipedia.org/wiki/Primavera_Sound', 'Wikipedia: Primavera Sound chronology and headliners by year')}
+${sourceLink('https://www.rollingstone.com/music/music-news/primavera-sound-2025-charli-xcx-sabrina-carpenter-chappell-roan-1235141672/', 'Rolling Stone: Primavera Sound 2025 headliners')}
+${sourceLink('https://www.billboard.com/music/concerts/primavera-sound-barcelona-2026-headliners-cure-doja-cat-1236074538/', 'Billboard: Primavera Sound 2026 headliners')}
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

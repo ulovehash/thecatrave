@@ -10,9 +10,9 @@ Creamfields a commencé comme la sortie d’un club. En 1998, Cream, une soirée
 
 Qu’est-ce que Creamfields pour quelqu’un qui n’y est jamais allé ? Ce guide explique où et quand a lieu Creamfields, quelle est sa taille, comment il a grandi et à qui il appartient aujourd’hui, et pourquoi il est devenu célèbre. Puis il répond à la question pour laquelle ce site existe : sous les têtes d’affiche de l’Arc Stage, que joue vraiment Creamfields ?
 
-## Où a lieu Creamfields
+## Où a lieu Creamfields ?
 
-Où se trouve Creamfields ? Depuis 2006, le lieu de Creamfields est le domaine de Daresbury, dans le Cheshire. D’après le festival, le site est à 31,5 kilomètres de Liverpool par la route et à 42 kilomètres de Manchester. Daresbury est un village du Borough of Halton avec une adresse postale à Warrington, ce qui explique pourquoi le festival apparaît aussi sous le nom de Creamfields Warrington.
+Où se trouve Creamfields ? Sur le domaine de Daresbury, dans le Cheshire, et le site n’a pas changé depuis 2006. D’après le festival, le site est à 31,5 kilomètres de Liverpool par la route et à 42 kilomètres de Manchester. Daresbury est un village du Borough of Halton avec une adresse postale à Warrington, ce qui explique pourquoi le festival apparaît aussi sous le nom de Creamfields Warrington.
 
 Quand a lieu Creamfields ? Toujours le week-end de l’August Bank Holiday. Il dure quatre jours depuis 2016, du jeudi au dimanche, et en 2026 c’était du 27 au 30 août. Le festival demande aux automobilistes de suivre sa propre signalisation plutôt qu’un GPS, parce que les routes autour du site ferment pour le week-end.
 
@@ -36,9 +36,9 @@ Les éditions à l’étranger sont des événements distincts, avec leurs propr
 
 Creamfields 2027 a lieu du jeudi 26 au dimanche 29 août 2027 à Daresbury, le week-end de l’August Bank Holiday comme d’habitude. Le festival l’annonce comme les 30 ans de Creamfields.
 
-## Quelle est la taille de Creamfields
+## Combien de personnes vont à Creamfields ?
 
-La capacité actuelle de Creamfields est de 80 000 personnes. La police du Cheshire a indiqué que l’édition 2026 avait fait le plein avec 80 000 personnes, dont environ 55 000 campaient sur place pendant les quatre jours du festival.
+Environ 80 000 personnes vont à Creamfields : la capacité actuelle est de 80 000 personnes. La police du Cheshire a indiqué que l’édition 2026 avait fait le plein avec 80 000 personnes, dont environ 55 000 campaient sur place pendant les quatre jours du festival.
 
 Les chiffres historiques de fréquentation de Creamfields ne sont pas mesurés de la même façon. Les totaux publiés sur plusieurs jours additionnent souvent les entrées de chaque journée, alors que le chiffre de la police pour 2026 décrit les personnes présentes à l’événement. Le tableau est donc un relevé des chiffres publiés à l’époque, pas une comparaison directe d’une année sur l’autre. La croissance s’est tout de même faite par paliers visibles, à mesure que des jours s’ajoutaient au week-end.
 
@@ -47,6 +47,10 @@ Les chiffres historiques de fréquentation de Creamfields ne sont pas mesurés d
 Le premier complet date de 2009, avec 60 000 personnes sur deux jours. Le festival est passé à trois jours en 2012 et à quatre en 2016, et un agrandissement du site en 2017 a porté le total du week-end à son maximum.
 
 Le public à la maison est encore plus grand. En 2015, Creamfields a été diffusé en direct pour la première fois, devant 500 000 personnes en ligne.
+
+## Écouter Creamfields depuis chez soi
+
+Creamfields filme ses scènes. Beatport y a diffusé et filmé des sets : parmi les DJ sets derrière [le Selector](/fr/selector), 52 viennent de Creamfields, dont 51 de Beatport, de Carl Cox et Adam Beyer à CamelPhat et Eric Prydz.
 
 ## Une brève histoire, et à qui appartient Creamfields
 
@@ -92,9 +96,7 @@ Le film du festival tiré de son After Series 2019 montre deux minutes de ce pub
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, chaîne YouTube Creamfields Official Page, fVKywXvEl9g]
 
-## Écouter Creamfields depuis chez soi
-
-Creamfields filme ses scènes. Beatport y a diffusé et filmé des sets : parmi les DJ sets derrière [le Selector](/fr/selector), 52 viennent de Creamfields, dont 51 de Beatport, de Carl Cox et Adam Beyer à CamelPhat et Eric Prydz.
+## À écouter ensuite
 
 Le festival publie aussi des sets sur sa propre chaîne, et certains artistes publient les leurs. Les deux ci-dessous sont Ewan McVicar au Steel Yard en 2023, le plus vu de ses sets à Creamfields, sur sa propre chaîne, et Pete Tong en 2025, sur celle du festival, qui figurait sur la première affiche de Creamfields en 1998.
 

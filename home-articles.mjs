@@ -131,7 +131,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'best-clubs-in-nyc.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/best-clubs-in-nyc', type:'Guide', topic:'NYC clubs',
-    title:'Best Clubs in NYC: From the Paradise Garage to Nowadays',
+    title:'Best Clubs in NYC: Nightclubs for House and Techno, Then and Now',
     description:'Nowadays, Basement, Public Records, Good Room and Elsewhere: the best clubs in NYC for house and techno now, and the history from the Loft to Output.',
     image:'img/nyc-clubs/limelight-church-320.webp',
     srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
@@ -259,7 +259,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'creamfields-festival.html', category:'festivals', tags:['discovery','history','uk','bass'], href:'/creamfields-festival', type:'Guide', topic:'Creamfields',
-    title:'Creamfields Festival: Where It Is, How It Grew, the Music',
+    title:'Creamfields Festival 2027: Location, Capacity, Age Limit',
     description:'Four days on the Daresbury estate every August bank holiday: where Creamfields happens, how a Liverpool house night grew into it, who owns it, and what plays beyond the Arc Stage.',
     image:'img/creamfields/steel-yard-2017-320.webp',
     srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
@@ -275,7 +275,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'ultra-music-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/ultra-music-festival', type:'Guide', topic:'Ultra',
-    title:'Ultra Music Festival 2027: Miami Dates, Location and Music',
+    title:'Ultra Music Festival 2027: Location, Age Limit, Attendance',
     description:'Ultra returns to Bayfront Park in Miami on 26 to 28 March 2027: the location, scale, history and music beyond the Main Stage.',
     image:'img/ultra/bayfront-2014-320.webp',
     srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
@@ -339,7 +339,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
-    title:'Primavera Sound Barcelona 2027: Dates, Location and Music',
+    title:'Primavera Sound Barcelona 2027: Location, Headliners by Year',
     description:'The Barcelona festival returns to Parc del Fòrum on 3 to 5 June 2027: its waterfront location, scale, music and city programme.',
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
@@ -624,7 +624,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/clubs-new-york.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/clubs-new-york', type:'Guide', topic:'Clubs in New York',
-    title:'Die besten Clubs in New York: Vom Paradise Garage zum Nowadays',
+    title:'Die besten Clubs in New York: House und Techno, früher und heute',
     description:'Nowadays, Basement, Public Records, Good Room und Elsewhere: die besten Clubs in New York für House und Techno heute.',
     image:'img/nyc-clubs/limelight-church-320.webp',
     srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
@@ -736,7 +736,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/de/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
-    title:'Primavera Sound Barcelona 2027: Termine, Ort und Musik',
+    title:'Primavera Sound Barcelona 2027: Ort, Headliner nach Jahr',
     description:'Das Festival in Barcelona kehrt vom 3. bis 5. Juni 2027 in den Parc del Fòrum zurück: das Gelände am Meer, die Größe, die Musik und das Programm in der Stadt.',
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
@@ -895,7 +895,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/ultra-music-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/ultra-music-festival', type:'Guide', topic:'Ultra',
-    title:'Ultra Music Festival 2027: Miami, Termine, Ort und Musik',
+    title:'Ultra Music Festival 2027: Ort, Altersgrenze, Besucherzahl',
     description:'Ultra kehrt vom 26. bis 28. März 2027 in den Bayfront Park in Miami zurück: Ort, Größe, Geschichte, Ultra Europe in Split und die Musik jenseits der Main Stage.',
     image:'img/ultra/bayfront-2014-320.webp',
     srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
@@ -919,7 +919,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/creamfields-festival.html', category:'festivals', tags:['discovery','history','uk','bass'], href:'/de/creamfields-festival', type:'Guide', topic:'Creamfields',
-    title:'Creamfields 2027: Ort, Geschichte, Größe und Musik',
+    title:'Creamfields 2027: Ort, Kapazität, Altersgrenze',
     description:'Vier Tage auf dem Anwesen Daresbury, jedes Jahr am August Bank Holiday: wo Creamfields stattfindet, wie eine Liverpooler House-Nacht daraus wurde, wem es gehört und was jenseits der Arc Stage läuft.',
     image:'img/creamfields/steel-yard-2017-320.webp',
     srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
@@ -1089,7 +1089,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/fr/primavera-sound-barcelona', type:'Guide', topic:'Primavera Sound',
-    title:'Primavera Sound Barcelona 2027 : dates, lieu et musique',
+    title:'Primavera Sound Barcelona 2027 : lieu, têtes d’affiche par an',
     description:'Le festival de Barcelone revient au Parc del Fòrum du 3 au 5 juin 2027 : son site face à la mer, sa taille, sa musique et son programme en ville.',
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
@@ -1369,7 +1369,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/ultra-music-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/ultra-music-festival', type:'Guide', topic:'Ultra',
-    title:'Ultra Music Festival 2027 : dates, lieu à Miami et musique',
+    title:'Ultra Music Festival 2027 : lieu, âge minimum, fréquentation',
     description:'L’Ultra revient au Bayfront Park de Miami du 26 au 28 mars 2027 : le lieu, la taille, l’histoire, Ultra Europe à Split et la musique loin de la Main Stage.',
     image:'img/ultra/bayfront-2014-320.webp',
     srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
@@ -1393,7 +1393,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/festival-creamfields.html', category:'festivals', tags:['discovery','history','uk','bass'], href:'/fr/festival-creamfields', type:'Guide', topic:'Creamfields',
-    title:'Creamfields 2027 : lieu, histoire, taille et musique',
+    title:'Creamfields 2027 : lieu, capacité, âge minimum',
     description:'Quatre jours sur le domaine de Daresbury chaque fin août : où a lieu Creamfields, comment une soirée house de Liverpool l’a fait naître, à qui il appartient et ce qui se joue loin de l’Arc Stage.',
     image:'img/creamfields/steel-yard-2017-320.webp',
     srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',

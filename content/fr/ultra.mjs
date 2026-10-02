@@ -35,8 +35,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/ultra.jpg',
   bodyClass: 'article-page ultra-page',
 
-  title: 'Ultra Music Festival 2027 : dates, lieu à Miami et musique',
-  description: 'L’Ultra Music Festival 2027 a lieu du 26 au 28 mars au Bayfront Park de Miami : le lieu, l’âge minimum, Ultra Europe et la musique loin de la Main Stage.',
+  title: 'Ultra Music Festival 2027 : lieu, âge minimum, fréquentation',
+  description: 'L’Ultra Music Festival 2027 a lieu du 26 au 28 mars au Bayfront Park, à Miami. Dès 18 ans, environ 55 000 personnes par jour et 165 000 entrées sur le week-end.',
   datePublished: '2026-09-23',
   dateModified: '2026-09-23',
   dateLabel: '23 septembre 2026',
@@ -53,11 +53,12 @@ export default {
   faqSection: 'FAQ',
   faqLabel: 'Questions fréquentes',
   faqTitle: 'Questions fréquentes sur l’Ultra Music Festival.',
-  ownSetAfter: 'history',
+  ownSetAfter: 'age',
 
   sections: [
-    {id: 'where', heading: 'Où a lieu l’Ultra Music Festival', title: 'Où a lieu l’Ultra Music Festival.', subsections: ['ultra-2027']},
-    {id: 'how-big', heading: 'Quelle est la taille de l’Ultra', title: 'Quelle est la taille de l’Ultra.'},
+    {id: 'where', heading: 'Où a lieu l’Ultra Music Festival ?', title: 'Où a lieu l’Ultra Music Festival ?', subsections: ['ultra-2027']},
+    {id: 'age', heading: 'Quel âge faut-il avoir pour aller à l’Ultra ?', title: 'Quel âge faut-il avoir pour aller à l’Ultra ?'},
+    {id: 'how-big', heading: 'Combien de personnes vont à l’Ultra ?', title: 'Combien de personnes vont à l’Ultra ?'},
     {id: 'history', heading: 'Une brève histoire, et à qui appartient l’Ultra', title: 'Une brève histoire, et à qui appartient l’Ultra.'},
     {id: 'worldwide', heading: 'L’Ultra dans le monde', title: 'L’Ultra dans le monde.'},
     {id: 'ultra-europe', heading: 'Ultra Europe, à Split en Croatie', title: 'Ultra Europe, à Split en Croatie.'},

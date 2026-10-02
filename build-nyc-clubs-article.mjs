@@ -25,8 +25,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('nyc-clubs-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-nyc';
-const title = 'Best Clubs in NYC: From the Paradise Garage to Nowadays';
-const description = 'Nowadays, Basement, Public Records, Good Room and Elsewhere: the best clubs in NYC for house and techno now, and the history from the Loft to Output.';
+const title = 'Best Clubs in NYC: Nightclubs for House and Techno, Then and Now';
+const description = 'The best nightclubs in NYC for house and techno now: Nowadays, Basement, Public Records, Good Room and Elsewhere, plus the history from the Loft to Output.';
 const datePublished = '2026-09-24';
 const dateModified = '2026-09-24';
 const dateLabel = '24 September 2026';
@@ -126,7 +126,7 @@ const sections = [
   {id: 'eighties-nineties', heading: 'Danceteria to Twilo: the 1980s and 1990s'},
   {id: 'brooklyn', heading: 'Brooklyn takes over'},
   {id: 'best-clubs-now', heading: 'The best clubs in NYC now'},
-  {id: 'techno-clubs', heading: 'Best techno clubs in NYC'},
+  {id: 'techno-clubs', heading: 'Best techno nightclubs in NYC'},
   {id: 'house-clubs', heading: 'House music clubs in NYC'},
   {id: 'where-to-go', heading: 'Where to go out in NYC'}
 ];

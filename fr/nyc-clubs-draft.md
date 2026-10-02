@@ -72,9 +72,9 @@ Au-delà de ces cinq, parmi les meilleures boîtes de danse que New York offre �
 
 Deux salles plus récentes reviennent sans cesse sur r/avesNYC, le forum rave de la ville. Le Paragon, à Bed-Stuy, a été ouvert par John Barclay, l’un de l’équipe du Bossa Nova Civic Club, avec la techno américaine des débuts pour modèle. Il a fermé en avril 2025 en raison de la hausse des coûts et rouvert le 1er août 2025 avec le soutien de Kevin Saunderson des Belleville Three, né à Brooklyn, et avec Joey Beltram parmi ses résidents. Le Signal a ouvert en mai 2025 dans un entrepôt au 175 Morgan Avenue à Williamsburg : une salle de 210 places avec un système d&b Audiotechnik, ouverte de la fin d’après-midi ou de la soirée jusqu’à 4 h.
 
-## Les meilleurs clubs de techno à New York
+## Les meilleures boîtes de techno à New York
 
-Le Basement est la réponse que donnent la plupart des gens, et celle autour de laquelle un visiteur de passage devrait s’organiser. Il programme des noms internationaux percutants comme Surgeon aux côtés de DJ locaux, il se remplit après 2 h, et l’entrée dépend de la porte.
+Les meilleures boîtes de techno à New York sont Basement, Paragon et Nowadays, et Elsewhere et Public Records programment régulièrement de la techno. Le Basement est la réponse que donnent la plupart des gens, et celle autour de laquelle un visiteur de passage devrait s’organiser. Il programme des noms internationaux percutants comme Surgeon aux côtés de DJ locaux, il se remplit après 2 h, et l’entrée dépend de la porte.
 
 Le Paragon est la salle la plus liée à l’histoire de la techno elle-même, avec un membre des Belleville Three comme soutien et un producteur de techno new-yorkais des années 1990 parmi ses résidents. Le Nowadays est l’autre grande salle de techno, surtout lors de ses week-ends Nonstop, quand le club intérieur tourne 24 heures sur un seul système. L’Elsewhere et Public Records programment régulièrement de la techno, et les grands événements d’entrepôt et de plein air de l’été ont lieu au Knockdown Center lui-même et dans des lieux éphémères autour de Brooklyn et du Queens. En dehors des clubs, les raves new-yorkaises continuent toute l’année dans des entrepôts et d’autres lieux éphémères.
 

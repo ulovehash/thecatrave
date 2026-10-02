@@ -72,9 +72,9 @@ Beyond those five, the best dance clubs NYC has at a smaller scale include House
 
 Two newer rooms come up again and again on r/avesNYC, the city's rave forum. Paragon, in Bed-Stuy, was opened by John Barclay, one of the team behind the Bossa Nova Civic Club, with early American techno as its model. It closed in April 2025 over rising costs and reopened on 1 August 2025 with backing from Kevin Saunderson of the Belleville Three, who was born in Brooklyn, and with Joey Beltram among its residents. Signal opened in May 2025 in a warehouse at 175 Morgan Avenue in Williamsburg: a 210-capacity room with a d&b Audiotechnik system, open from the late afternoon or evening until 4am.
 
-## Best techno clubs in NYC
+## Best techno nightclubs in NYC
 
-Basement is the answer most people give, and the one a first-time visitor should plan around. It books hard-hitting international names such as Surgeon alongside local DJs, it fills after 2am, and getting in depends on the door.
+The best techno nightclubs in NYC are Basement, Paragon and Nowadays, with Elsewhere and Public Records booking techno regularly. Basement is the answer most people give, and the one a first-time visitor should plan around. It books hard-hitting international names such as Surgeon alongside local DJs, it fills after 2am, and getting in depends on the door.
 
 Paragon is the room most tied to techno's own history, with a Belleville Three member backing it and a New York techno producer of the 1990s among its residents. Nowadays is the other big techno room, especially on its Nonstop weekends, when the indoor club runs for 24 hours on one system. Elsewhere and Public Records book techno regularly, and the big warehouse and outdoor events of the summer happen at the Knockdown Center itself and at one-off locations around Brooklyn and Queens. Beyond the clubs, NYC raves still happen in warehouses and other one-off spaces through the year.
 

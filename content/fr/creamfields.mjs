@@ -34,8 +34,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/creamfields.jpg',
   bodyClass: 'article-page creamfields-page',
 
-  title: 'Creamfields 2027 : lieu, histoire, taille et musique',
-  description: 'Où a lieu Creamfields dans le Cheshire, comment une soirée house de Liverpool est devenue un festival de quatre jours, et ce qui se joue loin de l’Arc Stage.',
+  title: 'Creamfields 2027 : lieu, capacité, âge minimum',
+  description: 'Creamfields 2027 a lieu du 26 au 29 août à Daresbury, dans le Cheshire. Lieu, capacité de 80 000 personnes, accès dès 18 ans et où l’écouter chez soi.',
   datePublished: '2026-09-23',
   dateModified: '2026-09-23',
   dateLabel: '23 septembre 2026',
@@ -52,15 +52,16 @@ export default {
   faqSection: 'FAQ',
   faqLabel: 'Questions fréquentes',
   faqTitle: 'Questions fréquentes sur Creamfields.',
-  ownSetAfter: 'history',
+  ownSetAfter: 'from-home',
 
   sections: [
-    {id: 'where', heading: 'Où a lieu Creamfields', title: 'Où a lieu Creamfields.', subsections: ['south', 'international', 'creamfields-2027']},
-    {id: 'how-big', heading: 'Quelle est la taille de Creamfields', title: 'Quelle est la taille de Creamfields.'},
+    {id: 'where', heading: 'Où a lieu Creamfields ?', title: 'Où a lieu Creamfields ?', subsections: ['south', 'international', 'creamfields-2027']},
+    {id: 'how-big', heading: 'Combien de personnes vont à Creamfields ?', title: 'Combien de personnes vont à Creamfields ?'},
+    {id: 'from-home', heading: 'Écouter Creamfields depuis chez soi', title: 'Écouter Creamfields depuis chez soi.'},
     {id: 'history', heading: 'Une brève histoire, et à qui appartient Creamfields', title: 'Une brève histoire, et à qui appartient Creamfields.'},
     {id: 'famous', heading: 'Pourquoi Creamfields est célèbre', title: 'Pourquoi Creamfields est célèbre.'},
     {id: 'music', heading: 'Ce que joue vraiment Creamfields', title: 'Ce que joue vraiment Creamfields.', kicker: 'La musique'},
-    {id: 'from-home', heading: 'Écouter Creamfields depuis chez soi', title: 'Écouter Creamfields depuis chez soi.'}
+    {id: 'essential', heading: 'À écouter ensuite', title: 'À écouter ensuite.'}
   ],
 
   media: ({lang}) => ({

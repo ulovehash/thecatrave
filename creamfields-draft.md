@@ -10,9 +10,9 @@ Creamfields started as a club's day out. In 1998 Cream, a house night in Liverpo
 
 What is Creamfields to someone who has never been? This guide covers where Creamfields happens and when, how big it is, how it grew and who owns it now, and why it became famous. Then it answers the question this site is here for: under the headliners on the Arc Stage, what does Creamfields actually play?
 
-## Where Creamfields happens
+## Where is Creamfields?
 
-Where is Creamfields? Since 2006 the Creamfields location has been the Daresbury estate in Cheshire. By the festival's own figures the site is 19.6 miles by road from Liverpool and 26 miles from Manchester. Daresbury is a village in the Borough of Halton with a Warrington postal address, which is why the festival also turns up as Creamfields Warrington.
+Creamfields is on the Daresbury estate in Cheshire, and the Creamfields location has been there since 2006. By the festival's own figures the site is 19.6 miles by road from Liverpool and 26 miles from Manchester. Daresbury is a village in the Borough of Halton with a Warrington postal address, which is why the festival also turns up as Creamfields Warrington.
 
 When is Creamfields? Always the August bank holiday weekend. It has run for four days since 2016, Thursday to Sunday, and in 2026 that was 27 to 30 August. The festival asks drivers to follow its own signs rather than a sat-nav, because roads around the site close for the weekend.
 
@@ -36,9 +36,9 @@ The editions abroad are separate events with their own dates and bills. The rest
 
 Creamfields 2027 is on Thursday 26 to Sunday 29 August 2027 at Daresbury, the August bank holiday weekend as usual. The festival is billing it as 30 years of Creamfields.
 
-## How big Creamfields is
+## How many people go to Creamfields?
 
-The current Creamfields capacity is 80,000 people. Cheshire Constabulary reported that the 2026 edition attracted a capacity crowd of 80,000, with around 55,000 camping on site across the four-day festival.
+About 80,000 people go to Creamfields: the current Creamfields capacity is 80,000 people. Cheshire Constabulary reported that the 2026 edition attracted a capacity crowd of 80,000, with around 55,000 camping on site across the four-day festival.
 
 Historical Creamfields attendance figures are not measured consistently. Published multi-day totals often sum admissions across the festival days, while the 2026 police figure describes people at the event. Read the table as a record of the figures published at the time, not as a direct year-by-year comparison. The growth still came in visible steps as days were added to the weekend.
 
@@ -47,6 +47,10 @@ Historical Creamfields attendance figures are not measured consistently. Publish
 The first sell-out came in 2009, at 60,000 over two days. The festival went to three days in 2012 and to four in 2016, and a site expansion in 2017 took the weekend total to its peak.
 
 The audience at home is bigger again. In 2015 Creamfields was streamed live for the first time, to 500,000 people online.
+
+## Hearing Creamfields from home
+
+Creamfields films its stages. Beatport has streamed and filmed sets there: of the DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz.
 
 ## A short history, and who owns Creamfields
 
@@ -90,9 +94,7 @@ The festival's own film from its 2019 After Series is two minutes of that crowd,
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, Creamfields Official Page YouTube channel, fVKywXvEl9g]
 
-## Hearing Creamfields from home
-
-Creamfields films its stages. Beatport has streamed and filmed sets there: of the DJ sets behind [the Selector](/selector), 52 are from Creamfields, 51 of them Beatport's, from Carl Cox and Adam Beyer to CamelPhat and Eric Prydz.
+## Essential listening
 
 The festival also puts sets on its own channel, and some artists post their own. The two below are Ewan McVicar on the Steel Yard in 2023, the most watched of his Creamfields sets, on his own channel; and Pete Tong in 2025, on the festival's, who was on the first Creamfields bill in 1998.
 

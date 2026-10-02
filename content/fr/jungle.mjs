@@ -56,6 +56,7 @@ const copy = {
     'quote-dj-storm': '« Les dubplates que tu avais dans ton sac montraient d’où tu venais. » DJ Storm'
   },
   lateSummer: 'Du breakbeat du côté liquid de la séparation. Mon propre morceau.',
+  hearNow: 'Des breaks hachés et de la pression dans les basses : un morceau breakbeat de moi, à écouter avant de continuer.',
   artDeco: {
     kicker: 'Un remix jungle actuel de thecatrave',
     title: 'Lana Del Rey : Art Deco (Jungle Remix).',

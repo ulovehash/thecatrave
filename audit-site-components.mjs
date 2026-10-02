@@ -297,10 +297,13 @@ const checks = {
   faqStructuredDataMatchesVisibleContent: articlePages.every(page => !page.includes('faq-section') || faqMatchesVisibleContent(page)),
   firstFaqItemOpen: articlePages.every(page => !page.includes('faq-section') || /class="[^"]*\bfaq-section\b[^"]*"[^>]*>[\s\S]*?<details open>/.test(page)),
   // Both of the owner's sets, on every festival guide (owner, 2026-09-13).
-  // The first mid-guide, straight after the history section; the second before the FAQ.
+  // The first mid-guide, before the music section; the second before the FAQ.
+  // Ultra and Creamfields carry the first set earlier than the history section
+  // (owner, 2026-10-02: listening high enough that readers reach it), so the
+  // lower bound is no longer the history heading.
   festivalGuidesPlayOwnSets: ['tomorrowland','edc','creamfields','parookaville','ultra','untold','coachella','lollapalooza','glastonbury','sonar'].every(name => {
     const html = pages[name], first = html.indexOf(ownSetListening(0)), second = html.indexOf(ownSetListening(1));
-    return first > html.indexOf('id="history"') && first < html.indexOf('id="music"') && second > html.indexOf('id="from-home"') && second < html.indexOf('id="faq"');
+    return first > html.indexOf('id="introduction"') && first < html.indexOf('id="music"') && second > html.indexOf('id="from-home"') && second < html.indexOf('id="faq"');
   }),
   sharedArticleEndBlocks: generatorSources.every(source => source.includes('authorCard({') && source.includes('bandcampSupport(') && source.includes('readNext(')),
   jungleLegacyStructuresNormalised: ['articleSection(','articleFigure(','articleTable(','articleSources('].every(component => generators['build-jungle-article.mjs'].includes(component)),

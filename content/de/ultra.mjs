@@ -34,8 +34,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/ultra.jpg',
   bodyClass: 'article-page ultra-page',
 
-  title: 'Ultra Music Festival 2027: Miami, Termine, Ort und Musik',
-  description: 'Das Ultra Music Festival 2027 läuft vom 26. bis 28. März im Bayfront Park in Miami: Ort, Altersgrenze, Ultra Europe und die Musik jenseits der Main Stage.',
+  title: 'Ultra Music Festival 2027: Ort, Altersgrenze, Besucherzahl',
+  description: 'Das Ultra Music Festival 2027 läuft vom 26. bis 28. März im Bayfront Park in Miami. Einlass ab 18, rund 55.000 Besucher am Tag und 165.000 Eintritte am Wochenende.',
   datePublished: '2026-09-23',
   dateModified: '2026-09-23',
   dateLabel: '23. September 2026',
@@ -52,11 +52,12 @@ export default {
   faqSection: 'FAQ',
   faqLabel: 'Häufige Fragen',
   faqTitle: 'Häufige Fragen zum Ultra Music Festival.',
-  ownSetAfter: 'history',
+  ownSetAfter: 'age',
 
   sections: [
-    {id: 'where', heading: 'Wo das Ultra Music Festival stattfindet', title: 'Wo das Ultra Music Festival stattfindet.', subsections: ['ultra-2027']},
-    {id: 'how-big', heading: 'Wie groß Ultra ist', title: 'Wie groß Ultra ist.'},
+    {id: 'where', heading: 'Wo findet das Ultra Music Festival statt?', title: 'Wo findet das Ultra Music Festival statt?', subsections: ['ultra-2027']},
+    {id: 'age', heading: 'Ab welchem Alter darf man zu Ultra?', title: 'Ab welchem Alter darf man zu Ultra?'},
+    {id: 'how-big', heading: 'Wie viele Menschen gehen zu Ultra?', title: 'Wie viele Menschen gehen zu Ultra?'},
     {id: 'history', heading: 'Eine kurze Geschichte, und wem Ultra gehört', title: 'Eine kurze Geschichte, und wem Ultra gehört.'},
     {id: 'worldwide', heading: 'Ultra in aller Welt', title: 'Ultra in aller Welt.'},
     {id: 'ultra-europe', heading: 'Ultra Europe in Split, Kroatien', title: 'Ultra Europe in Split, Kroatien.'},

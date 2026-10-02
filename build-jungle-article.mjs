@@ -292,6 +292,16 @@ content = placeListeningFeature(content, {
   description: 'Exact tracks that make the anthems and turning points described above immediately audible.'
 });
 
+// "Hear it now" high on the page (owner, 2026-10-02): the guide ranks #1 but
+// only 10% of readers reached a listening event, so an own track and the
+// Selector sit right after the introduction rather than at about 76%.
+content = insertFeatureAfterParagraph(content, {
+  key:'hear-it-now', sectionId:'introduction',
+  paragraphMarker:'If you\'re new to the UK\'s rave history',
+  feature:ownTrackListening('protect-ya-breaks', 'Chopped breaks and bass pressure, a breakbeat track of mine to hear before you read on.') +
+    '\n<p>Want jungle itself? Press one button on <a href="/selector">the Selector</a> and it plays a DJ set at random.</p>'
+});
+
 // The owner's own track beside the drum and bass rename (owner, 2026-09-21:
 // art deco and late summer cloud dance in the drum and bass guides; art deco
 // already plays in the revival section).

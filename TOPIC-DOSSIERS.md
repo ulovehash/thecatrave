@@ -2385,3 +2385,20 @@ Chrome, US/en, gl=us&hl=en), Keyword Planner не запускался повт�
   открытия M.N.Roy не подтверждена первоисточником, ни один embed не
   привязан к конкретному венью, стадия 6 отдельным проходом не пройдена,
   переводов de/fr нет. **Не запушено.**
+
+## Вопросный паттерн для пяти статей (2 октября 2026)
+
+Паттерн Sónar/Tomorrowland/Glastonbury (вопрос как H2, ответ в первом предложении, ответы в title, цифры в meta, блок прослушивания выше) применён к пяти страницам. Перепроверить через 4 недели (≈30 октября 2026): сеансы, вовлечённость, key events, позиции.
+
+Источники объёмов: «KP» = Keyword Planner, США, только диапазоны; всё остальное из keywords/*.json (Ahrefs, прошлые проходы). KP не ранжирует вопросы между собой.
+
+| Страница | Было (title) | Стало (title) | Что ещё |
+|---|---|---|---|
+| ultra-music-festival | …Miami Dates, Location and Music | …Location, Age Limit, Attendance | H2: Where is Ultra Music Festival? (KP «where is ultra…» 1K–10K; json 90) / How old do you have to be to go to Ultra? (новый) / How many people go to Ultra?; ownSetListening(0) перенесён после возрастного H2; 21+ у алкоголя не добавлен, нет официального источника |
+| primavera-sound-barcelona | …Dates, Location and Music | …2027: Location, Headliners by Year | новый H2 Primavera Sound headliners by year (таблица 2010–2026 по Wikipedia, 2025/2026 сверены по Rolling Stone и Billboard); решение владельца записано в keywords/primavera-sound.json (owner_override); H2 Where is Primavera Sound held, and when? (json: primavera sound location 250) |
+| creamfields-festival | …Where It Is, How It Grew, the Music | …2027: Location, Capacity, Age Limit | H2: Where is Creamfields? (json 1,900) / How many people go to Creamfields? (capacity 350, attendance 150) / Hearing Creamfields from home поднят на 3-е место с миксом; новый блок Essential listening перед FAQ |
+| best-clubs-in-nyc | …From the Paradise Garage to Nowadays | …Nightclubs for House and Techno, Then and Now | H2 Best techno nightclubs in NYC с ответом в первом предложении; «nyc nightclubs» (KP 10K–100K) только в title/meta: SERP там VIP/lounge/Reddit, угол страницы не расширялся |
+| jungle-music-guide | без изменений | без изменений | блок «hear it now» (protect-ya-breaks + ссылка на /selector) в конце введения (~5% страницы вместо ~76%) |
+
+Аудит audit-site-components.mjs: нижняя граница первого сета больше не «после history» (для Ultra и Creamfields сет выше).
+DE/FR-переводы сделаны 2 октября 2026 (формулировки утверждены владельцем): заголовки, описания, H2 с ответом в первом предложении, раздел о возрасте на Ultra, таблица хедлайнеров Primavera, порядок блоков Creamfields, блок «hear it now» в jungle. Отступление от показанного текста: FR Creamfields открывается вопросом «Où se trouve Creamfields ?», потому что эта фраза заявлена в keywords/fr-creamfields.json и audit-keywords требует её на странице.

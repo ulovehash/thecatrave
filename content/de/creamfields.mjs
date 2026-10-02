@@ -33,8 +33,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/creamfields.jpg',
   bodyClass: 'article-page creamfields-page',
 
-  title: 'Creamfields 2027: Ort, Geschichte, Größe und Musik',
-  description: 'Wo Creamfields in Cheshire stattfindet, wie aus einer Liverpooler House-Nacht ein Festival über vier Tage wurde, wem es gehört und was jenseits der Arc Stage läuft.',
+  title: 'Creamfields 2027: Ort, Kapazität, Altersgrenze',
+  description: 'Creamfields 2027 findet vom 26. bis 29. August in Daresbury, Cheshire, statt. Ort, 80.000 Kapazität, Einlass ab 18 und wo man es von zu Hause hört.',
   datePublished: '2026-09-23',
   dateModified: '2026-09-23',
   dateLabel: '23. September 2026',
@@ -51,15 +51,16 @@ export default {
   faqSection: 'FAQ',
   faqLabel: 'Häufige Fragen',
   faqTitle: 'Häufige Fragen zu Creamfields.',
-  ownSetAfter: 'history',
+  ownSetAfter: 'from-home',
 
   sections: [
-    {id: 'where', heading: 'Wo Creamfields stattfindet', title: 'Wo Creamfields stattfindet.', subsections: ['south', 'international', 'creamfields-2027']},
-    {id: 'how-big', heading: 'Wie groß Creamfields ist', title: 'Wie groß Creamfields ist.'},
+    {id: 'where', heading: 'Wo findet Creamfields statt?', title: 'Wo findet Creamfields statt?', subsections: ['south', 'international', 'creamfields-2027']},
+    {id: 'how-big', heading: 'Wie viele Menschen gehen zu Creamfields?', title: 'Wie viele Menschen gehen zu Creamfields?'},
+    {id: 'from-home', heading: 'Creamfields von zu Hause hören', title: 'Creamfields von zu Hause hören.'},
     {id: 'history', heading: 'Eine kurze Geschichte, und wem Creamfields gehört', title: 'Eine kurze Geschichte, und wem Creamfields gehört.'},
     {id: 'famous', heading: 'Warum Creamfields berühmt ist', title: 'Warum Creamfields berühmt ist.'},
     {id: 'music', heading: 'Welche Musik wirklich läuft', title: 'Welche Musik wirklich läuft.', kicker: 'Die Musik'},
-    {id: 'from-home', heading: 'Creamfields von zu Hause hören', title: 'Creamfields von zu Hause hören.'}
+    {id: 'essential', heading: 'Zum Weiterhören', title: 'Zum Weiterhören.'}
   ],
 
   media: ({lang}) => ({

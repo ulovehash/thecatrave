@@ -29,8 +29,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('creamfields-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/creamfields-festival';
-const title = 'Creamfields Festival: Where It Is, How It Grew, the Music';
-const description = 'Where Creamfields happens in Cheshire, how a Liverpool house night became a four-day festival, how many people go, who owns it, and what plays beyond the Arc Stage.';
+const title = 'Creamfields Festival 2027: Location, Capacity, Age Limit';
+const description = 'Creamfields 2027 is on 26 to 29 August at Daresbury, Cheshire. Location, an 80,000 capacity, the over-18 rule, and where to hear it from home.';
 const datePublished = '2026-09-13';
 const dateModified = '2026-09-15';
 const dateLabel = '15 September 2026';
@@ -156,12 +156,13 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'where', heading: 'Where Creamfields happens', title: 'Where Creamfields happens.', subsections: ['south', 'international', 'creamfields-2027']},
-  {id: 'how-big', heading: 'How big Creamfields is', title: 'How big Creamfields is.'},
+  {id: 'where', heading: 'Where is Creamfields?', title: 'Where is Creamfields?', subsections: ['south', 'international', 'creamfields-2027']},
+  {id: 'how-big', heading: 'How many people go to Creamfields?', title: 'How many people go to Creamfields?'},
+  {id: 'from-home', heading: 'Hearing Creamfields from home', title: 'Hearing Creamfields from home.'},
   {id: 'history', heading: 'A short history, and who owns Creamfields', title: 'A short history, and who owns Creamfields.'},
   {id: 'famous', heading: 'Why Creamfields is famous', title: 'Why Creamfields is famous.'},
   {id: 'music', heading: 'What the music actually is', title: 'What the music actually is.', kicker: 'The music'},
-  {id: 'from-home', heading: 'Hearing Creamfields from home', title: 'Hearing Creamfields from home.'}
+  {id: 'essential', heading: 'Essential listening', title: 'Essential listening.'}
 ];
 
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];
@@ -187,7 +188,7 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'A club night that became a festival.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
   // the owner's two mixes: one mid-guide after the history, one before the FAQ
-  ...sectionHtml.flatMap((html, i) => sections[i].id === 'history' ? [html, ownSetListening(0)] : [html]),
+  ...sectionHtml.flatMap((html, i) => sections[i].id === 'from-home' ? [html, ownSetListening(0)] : [html]),
   ownSetListening(1),
   articleFaq({items: faqItems, title: 'Creamfields FAQ.', openFirst: true}),
   authorCard({filled: true}),
