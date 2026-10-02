@@ -15,6 +15,16 @@
       "term": "primavera sound 2027",
       "volume": 0,
       "note": "under the 50 filter; the next edition, carried on every festival guide; refresh yearly"
+    },
+    {
+      "term": "où et quand a lieu primavera sound",
+      "volume": "not measured",
+      "note": "translated wording of the English question H2 (2 Oct 2026); no volume checked in this language"
+    },
+    {
+      "term": "têtes d’affiche par année",
+      "volume": "not measured",
+      "note": "translated wording of the English question H2 (2 Oct 2026); no volume checked in this language"
     }
   ],
   "expansion_checked": "keywords-explorer-matching-terms on the seed, country fr, volume filter, 18 September 2026; the English page's own map is keywords/<name>.json. See TRANSLATION-RESEARCH.md.",

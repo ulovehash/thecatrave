@@ -1225,7 +1225,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/boite-de-nuit-new-york.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/boite-de-nuit-new-york', type:'Guide', topic:'Boîtes de nuit à New York',
-    title:'Les meilleures boîtes de nuit à New York : du Paradise Garage au Nowadays',
+    title:'Boîtes de nuit à New York : house et techno, hier et aujourd’hui',
     description:'Nowadays, Basement, Public Records, Good Room et Elsewhere : les meilleures boîtes de nuit à New York pour la house et la techno.',
     image:'img/nyc-clubs/limelight-church-320.webp',
     srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
