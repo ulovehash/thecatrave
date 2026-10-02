@@ -96,6 +96,7 @@ HERO = {
     "exit-festival": "img/exit-festival/exit-fortress-1200.webp",
     "grime": "img/grime/wiley-flowdan-2005-1200.webp",
     "europe-festivals": "img/europe-festivals/kappa-futurfestival-2025-1200.webp",
+    "dekmantel": "img/dekmantel/midland-2017-1200.webp",
     "us-festivals": "img/us-festivals/beyond-wonderland-2010-1200.webp",
     "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "sonar": "img/sonar/sonar-by-day-2016-1200.webp",

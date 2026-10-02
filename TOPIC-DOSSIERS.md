@@ -2410,3 +2410,11 @@ DE/FR-переводы сделаны 2 октября 2026 (формулиро�
 Проверено 2 октября 2026 по официальным страницам и Insomniac: даты 2027 подтверждены у EDC Dusk/Dawn (14–16 и 21–23 мая), Ultra (26–28 марта), Movement (29–31 мая), трёх Beyond Wonderland (26–27 марта Сан-Бернардино, 10–13 июня Джолиет, 25–27 июня The Gorge). Не объявлены: Electric Forest, Lost Lands, Bass Canyon, HARD Summer, CRSSD (весна), III Points, EDC Orlando, ARC, Lollapalooza, Dreamstate (US). Даты агрегаторов не печатать. Electric Zoo: нет подтверждённых изданий 2026/2027, оператор Avant Gardner подал Chapter 11 4 августа 2025: в «Not on this list». Статья EDM.com «Pull the Plug» — 2020, ковид, не отмена 2026. Bonnaroo: EDM Sauce пишет об отмене 2027, один вторичный источник.
 
 Картинки: Commons, новые для страницы (Electric Forest 2018, Beyond Wonderland 2010, III Points 2017). Не запушено.
+
+## dekmantel-festival (2 октября 2026)
+
+Статья 2 из трёх. Ключи: Keyword Planner, весь мир, английский, диапазоны (Ahrefs не вызывался): dekmantel 10K–100K; dekmantel festival, dekmantel selectors, selectors dekmantel, amsterdamse bos festival 1K–10K; около 14 терминов 100–1K (dekmantel 2027, tickets, line up, dates). Не вошли в страницу: selectors dekmantel, amsterdamse bos festival, dekmantel line up, dekmantel dates.
+
+Проверено 2 октября 2026: даты Амстердама 2027 на официальном сайте НЕ подтверждены (Skiddle и I amsterdam: 28 июля – 1 августа, не печатать как факт); 2026 был двенадцатым изданием (29 июля – 2 августа). Dekmantel Selectors (Тисно, Хорватия): 19–23 августа 2027 по официальному сайту; сниппет с 20–24 августа противоречит ему. Цен билетов нет: агрегаторы расходятся, не печатать. Capacity и DJ Mag rank 17 не вошли (нет второго источника).
+
+Картинки: Commons, новые (Midland 2017, Oude Kerk, Paradiso 2018). Не запушено.

@@ -480,6 +480,14 @@ export const homeArticleCatalog = [
     image:'img/us-festivals/beyond-wonderland-2010-320.webp',
     srcset:'img/us-festivals/beyond-wonderland-2010-320.webp 320w,img/us-festivals/beyond-wonderland-2010-1200.webp 1200w',
     width:1200, height:900, alt:'A DJ on the main stage at Beyond Wonderland in 2010 above a crowd'
+  },
+  {
+    page:'dekmantel-festival.html', category:'festivals', tags:['discovery','house','techno'], href:'/dekmantel-festival', type:'Guide', topic:'Dekmantel',
+    title:'Dekmantel Festival 2027: Dates, Tickets, Selectors, Amsterdam',
+    description:'Dekmantel at the Amsterdamse Bos, 18+: 2027 dates (listed, not yet official), ticket rules, Selectors in Croatia on 19 to 23 August 2027 and sets to hear.',
+    image:'img/dekmantel/midland-2017-320.webp',
+    srcset:'img/dekmantel/midland-2017-320.webp 320w,img/dekmantel/midland-2017-1200.webp 1200w',
+    width:1200, height:799, alt:'Midland playing a DJ set at Dekmantel Festival in 2017'
   }
 ];
 

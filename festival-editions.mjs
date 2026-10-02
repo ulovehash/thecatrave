@@ -50,6 +50,9 @@ export const festivalEditions = [
   // US twin of the Europe page. On 2026-10-02 only EDC, Ultra, Movement and the
   // three Beyond Wonderland editions had 2027 dates; null until every festival
   // on the page has confirmed, then set to the last to end and roll to 2028.
+  // Dekmantel: on 2026-10-02 the official site had not confirmed 2027 Amsterdam
+  // dates (listings say 28 July to 1 August). Set to 1 August 2027 once confirmed.
+  {page: 'dekmantel-festival.html', heading: 'When is Dekmantel 2027?', ends: null},
   {page: 'best-edm-festivals-usa.html', heading: 'US EDM festival dates for 2027 at a glance', ends: null},
   // The German and French translations carry the same dates and roll with the
   // English page.

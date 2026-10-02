@@ -1079,3 +1079,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - untold festival location
 - where is untold festival
 - what is untold festival
+
+## dekmantel-festival.html
+
+- dekmantel
+- dekmantel festival
+- dekmantel selectors
+- dekmantel 2027
+- dekmantel tickets

@@ -1,0 +1,13 @@
+{
+  "page": "dekmantel-festival.html",
+  "seed": "dekmantel",
+  "source": "Google Ads Keyword Planner, all locations, English, Sep 2025 to Aug 2026 (bucketed ranges only, no exact volumes), run 2 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. 'dekmantel' sits in 10K to 100K; 'dekmantel festival' and 'dekmantel selectors' in 1K to 10K; 'dekmantel 2027' and 'dekmantel tickets' in 100 to 1K. Also measured and left out because the page cannot carry them honestly: 'selectors dekmantel', 'amsterdamse bos festival' (1K to 10K), 'dekmantel line up' and 'dekmantel dates' (100 to 1K). People Also Ask (What is the Dekmantel Festival? / Where is the Dekmantel Festival in 2026? / How much does a ticket cost?) is answered in the FAQ and not listed as terms.",
+  "terms": [
+    { "term": "dekmantel", "volume": 10000 },
+    { "term": "dekmantel festival", "volume": 1000 },
+    { "term": "dekmantel selectors", "volume": 1000 },
+    { "term": "dekmantel 2027", "volume": 100 },
+    { "term": "dekmantel tickets", "volume": 100 }
+  ]
+}
