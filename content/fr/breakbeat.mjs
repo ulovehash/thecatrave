@@ -108,7 +108,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/breakbeat.jpg',
   bodyClass: 'article-page breakbeat-page',
   minReadingMinutes: 20,
-  image: 'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png',
+  image: 'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.jpg',
 
   title: 'Qu’est-ce que le breakbeat ? Genre, histoire, artistes, styles',
   description: 'Qu’est-ce que le breakbeat ? Des breaks funk et du hip-hop à la rave britannique, à la Floride et à l’Andalousie, au big beat, au nu-skool et aux breaks actuels.',
@@ -151,7 +151,7 @@ export default {
     'Image: dj-icey': figure('img/breakbeat/dj-icey-flyer-cutout.svg', 635, 560, 'archive-image artifact-cutout-image', 'Un flyer d’archive pour DJ Icey au Club 600 North', 'Un flyer de DJ Icey et Zone Records issu du circuit club régional de Floride.'),
     'Image: cordoba': figure('img/breakbeat/cordoba-breakbeat-flyer.jpg', 1052, 1500, 'archive-image portrait-image', 'Flyer de l’événement Break Beat Nation à Cordoue en 2001', 'Break Beat Nation annonçant un programme sur plusieurs nuits à Cordoue, en 2001.'),
     'Image: andalusia': figure('img/breakbeat/andalusia-rave-crowd.jpg', 1800, 1175, 'archive-image wide-archive-image people-image', 'Un public qui danse dans une rave breakbeat andalouse d’archive', 'Un public breakbeat andalou, avant que les téléphones ne fassent partie de la piste.'),
-    'Image: plump-djs': figure('img/breakbeat/plump-djs-electric-disco.png', 1200, 1200, 'archive-image square-image', 'Pochette du disque de Plump DJs, Electric Disco et Plumpy Chunks, Finger Lickin’', 'Finger Lickin’ a fait du nu-skool breaks un langage reconnaissable, en club comme sur les pochettes.'),
+    'Image: plump-djs': figure('img/breakbeat/plump-djs-electric-disco.jpg', 1200, 1200, 'archive-image square-image', 'Pochette du disque de Plump DJs, Electric Disco et Plumpy Chunks, Finger Lickin’', 'Finger Lickin’ a fait du nu-skool breaks un langage reconnaissable, en club comme sur les pochettes.'),
     'Table: comparison': articleTable({
       headers: ['Style', 'Caractère rythmique', 'Zone de tempo approximative', 'Contexte historique', 'Noms représentatifs', 'Différence la plus nette'],
       label: 'Breakbeat et genres voisins comparés, tableau',
