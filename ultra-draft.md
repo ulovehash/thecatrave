@@ -66,7 +66,7 @@ Ultra Music Festival Miami is the original, and the name has been exported since
 
 Since 2012 there has also been Road to Ultra, a smaller format: one day and one stage, held in places including Thailand, Korea, Japan, Taiwan and Colombia, and in India, in New Delhi and Mumbai, from 2017. In November 2020 Road to Ultra in Taiwan was Ultra's first large event since the pandemic began.
 
-Ultra also turned one of its Miami stages into a brand of its own. Resistance, its stage for underground house and techno, went on tour in 2017, headlined by Sasha and John Digweed, with a Tuesday residency at Privilege in Ibiza. The closing party of Ultra Europe, on the island of Vis, has been a Resistance party since 2015.
+Ultra also turned one of its Miami stages into a brand of its own. Resistance, its stage for underground house and techno, went on tour in 2017, headlined by Sasha and John Digweed, with a Tuesday residency at Privilege in Ibiza. The closing party of Ultra Europe, on the island of Vis, has been a Resistance party since 2015. Ultra also runs a Tokyo edition, [Ultra Japan](/best-electronic-music-festivals-asia), with 2027 dates of 18 and 19 September.
 
 ## Ultra Europe, in Split
 

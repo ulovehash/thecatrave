@@ -60,6 +60,7 @@ export const generators = [
   'build-snowbombing-article.mjs',
   'build-time-warp-article.mjs',
   'build-electric-forest-article.mjs',
+  'build-asia-festivals-article.mjs',
   'build-berghain-article.mjs',
   'build-fabric-london-article.mjs',
   'build-pacha-ibiza-article.mjs',

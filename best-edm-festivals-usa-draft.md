@@ -125,6 +125,8 @@ Check dates before you book travel. In 2027, only EDC, Ultra, Movement and the t
 
 If you are comparing the US with Europe, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
+Looking further east? The [best electronic music festivals in Asia](/best-electronic-music-festivals-asia), including Ultra Japan and Wonderfruit, are compared in a separate guide.
+
 ## FAQ
 
 ### What is the biggest EDM festival in the US?

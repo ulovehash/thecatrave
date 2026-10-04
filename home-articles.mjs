@@ -552,6 +552,14 @@ export const homeArticleCatalog = [
     image:'img/electric-forest/entrance-2018-320.webp',
     srcset:'img/electric-forest/entrance-2018-320.webp 320w,img/electric-forest/entrance-2018-1200.webp 1200w',
     width:1200, height:800, alt:'The wooden Electric Forest entrance arch with a crowd of festival-goers in front of it'
+  },
+  {
+    page:'best-electronic-music-festivals-asia.html', category:'festivals', tags:['discovery','bass'], href:'/best-electronic-music-festivals-asia', type:'Guide', topic:'Asia festivals',
+    title:'Best Electronic Music Festivals in Asia: 2027 Guide',
+    description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP and more: where they are, what they play and which 2027 dates are confirmed.',
+    image:'img/asia-festivals/ultra-korea-2015-320.webp',
+    srcset:'img/asia-festivals/ultra-korea-2015-320.webp 320w,img/asia-festivals/ultra-korea-2015-1200.webp 1200w',
+    width:1200, height:1174, alt:'The main stage and a crowd at night at Ultra Korea'
   }
 ];
 

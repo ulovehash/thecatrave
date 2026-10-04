@@ -157,6 +157,27 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - edc orlando
 - decadence colorado
 
+## best-electronic-music-festivals-asia.html
+
+- best electronic music festivals in asia
+- music festivals in asia
+- ultra japan
+- ultra japan 2027
+- wonderfruit
+- s2o songkran
+- sunburn festival
+- sunburn goa
+- djakarta warehouse project
+- dwp
+- ultra korea
+- zamna thailand
+- edm festivals in thailand
+- edm festivals in japan
+- edm festivals in india
+- best music festivals in japan
+- best music festivals in thailand
+- best music festivals in india
+
 ## best-house-music-playlists-spotify.html
 
 - best house music playlists on spotify
