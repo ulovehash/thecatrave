@@ -99,6 +99,7 @@ HERO = {
     "dekmantel": "img/dekmantel/midland-2017-1200.webp",
     "winter-festivals": "img/winter-festivals/igloofest-2009-1200.webp",
     "snowbombing": "img/snowbombing/street-party-2016-1200.webp",
+    "electric-forest": "img/electric-forest/entrance-2018-1200.webp",
     "time-warp": "img/time-warp/monika-kruse-2016-1200.webp",
     "berghain": "img/berghain/berghain-facade-1200.webp",
     "fabric-london": "img/fabric-london/exterior-2017-1200.webp",

@@ -536,6 +536,14 @@ export const homeArticleCatalog = [
     image:'img/fabric-london/exterior-2017-320.webp',
     srcset:'img/fabric-london/exterior-2017-320.webp 320w,img/fabric-london/exterior-2017-1200.webp 1200w',
     width:1200, height:900, alt:'The front of fabric on Charterhouse Street in London in 2017'
+  },
+  {
+    page:'electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',
+    title:'Electric Forest 2027: Tickets, Dates, Camping, Line-up',
+    description:'Electric Forest 2027: when it is held in Rothbury, Michigan, how tickets and camping work, how to get there and what to pack.',
+    image:'img/electric-forest/entrance-2018-320.webp',
+    srcset:'img/electric-forest/entrance-2018-320.webp 320w,img/electric-forest/entrance-2018-1200.webp 1200w',
+    width:1200, height:800, alt:'The wooden Electric Forest entrance arch with a crowd of festival-goers in front of it'
   }
 ];
 

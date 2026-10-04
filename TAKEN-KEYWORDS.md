@@ -716,6 +716,28 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - how many people attend edc
 - when did edc start
 
+## electric-forest-festival.html
+
+- electric forest 2027
+- electric forest dates
+- electric forest festival
+- electric forest tickets
+- electric forest ticket prices
+- electric forest 2026
+- electric forest 2027 dates
+- electric forest lineup
+- rothbury
+- sherwood forest
+- electric forest camping
+- electric forest shuttle
+- electric forest hotel
+- electric forest packing list
+- electric forest age limit
+- electric forest rules
+- electric forest history
+- electric forest weekend 2
+- electric forest second weekend
+
 ## best-clubbing-cities-in-europe.html
 
 - best clubbing cities in europe

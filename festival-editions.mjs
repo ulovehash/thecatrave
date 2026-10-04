@@ -54,6 +54,8 @@ export const festivalEditions = [
   // dates (listings say 28 July to 1 August). Set to 1 August 2027 once confirmed.
   {page: 'dekmantel-festival.html', heading: 'When is Dekmantel 2027?', ends: null},
   {page: 'best-winter-music-festivals.html', heading: 'Winter festival dates for 2027 at a glance', ends: null},
+  // Dates unannounced on 2026-10-04; null until the festival publishes them.
+  {page: 'electric-forest-festival.html', heading: 'Electric Forest 2027 dates', ends: null},
   {page: 'time-warp-festival.html', heading: 'When is Time Warp 2027?', ends: '2027-04-04'},
   {page: 'snowbombing-festival.html', heading: 'When is Snowbombing 2027?', ends: '2027-04-10'},
   {page: 'best-edm-festivals-usa.html', heading: 'US EDM festival dates for 2027 at a glance', ends: null},
