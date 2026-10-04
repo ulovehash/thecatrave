@@ -520,6 +520,14 @@ export const homeArticleCatalog = [
     image:'img/time-warp/monika-kruse-2016-320.webp',
     srcset:'img/time-warp/monika-kruse-2016-320.webp 320w,img/time-warp/monika-kruse-2016-1200.webp 1200w',
     width:1200, height:800, alt:'Monika Kruse behind the decks at Time Warp in Mannheim, high-fiving a person in front of the booth'
+  },
+  {
+    page:'fabric-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/fabric-london', type:'Guide', topic:'fabric London',
+    title:'fabric London: History, Rooms, Tickets and Dress Code',
+    description:'fabric London in Farringdon: the three rooms, opening times, tickets, dress code, capacity, age limit and what happened in the 2016 closure.',
+    image:'img/fabric-london/exterior-2017-320.webp',
+    srcset:'img/fabric-london/exterior-2017-320.webp 320w,img/fabric-london/exterior-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'The front of fabric on Charterhouse Street in London in 2017'
   }
 ];
 

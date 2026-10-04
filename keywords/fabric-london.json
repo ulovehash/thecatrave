@@ -1,0 +1,80 @@
+{
+  "page": "fabric-london.html",
+  "seed": "fabric london",
+  "source": "Google Ads Keyword Planner, all locations, English, bucketed ranges only, owner-approved Stage 1 map of 4 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket (100K to 1M, 1K to 10K, 100 to 1K, 10 to 100). The three FAQ terms (age limit, cloakroom and lockers, security) are in the 10 to 100 bucket per the approved map. Dropped at 0 volume: queue, nearest station, what to wear, licence, fabriclive, dj, bodysonic floor, smithfield.",
+  "terms": [
+    {
+      "term": "fabric london",
+      "volume": 100000
+    },
+    {
+      "term": "fabric nightclub",
+      "volume": 100000
+    },
+    {
+      "term": "fabric club",
+      "volume": 1000
+    },
+    {
+      "term": "fabric london tickets",
+      "volume": 1000
+    },
+    {
+      "term": "fabric london opening times",
+      "volume": 100
+    },
+    {
+      "term": "fabric london address",
+      "volume": 100
+    },
+    {
+      "term": "fabric london dress code",
+      "volume": 100
+    },
+    {
+      "term": "fabric london capacity",
+      "volume": 100
+    },
+    {
+      "term": "fabric london lineup",
+      "volume": 100
+    },
+    {
+      "term": "fabric london events",
+      "volume": 100
+    },
+    {
+      "term": "fabric london history",
+      "volume": 10
+    },
+    {
+      "term": "fabric london room 1",
+      "volume": 10
+    },
+    {
+      "term": "fabric london closed",
+      "volume": 10
+    },
+    {
+      "term": "fabric london reopening",
+      "volume": 10
+    },
+    {
+      "term": "fabric london age limit",
+      "volume": 10
+    },
+    {
+      "term": "fabric london cloakroom",
+      "volume": 10
+    },
+    {
+      "term": "fabric london lockers",
+      "volume": 10
+    },
+    {
+      "term": "fabric london security",
+      "volume": 10
+    }
+  ]
+}

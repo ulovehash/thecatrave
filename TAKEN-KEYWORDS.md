@@ -736,6 +736,27 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - exit festival novi sad
 - exit festival serbia
 
+## fabric-london.html
+
+- fabric london
+- fabric nightclub
+- fabric club
+- fabric london tickets
+- fabric london opening times
+- fabric london address
+- fabric london dress code
+- fabric london capacity
+- fabric london lineup
+- fabric london events
+- fabric london history
+- fabric london room 1
+- fabric london closed
+- fabric london reopening
+- fabric london age limit
+- fabric london cloakroom
+- fabric london lockers
+- fabric london security
+
 ## fr/acid-house.html
 
 - acid house

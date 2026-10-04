@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "e3839fd30a27eeeb",
-  "lastmod": "2026-10-04T16:24:52+00:00"
+  "hash": "a92bac635909bf8a",
+  "lastmod": "2026-10-04T16:51:16+00:00"
  },
  "/acid-house-guide": {
   "hash": "b2ee861b3fd73e49",
@@ -16,8 +16,8 @@
   "lastmod": "2026-09-30T21:19:02+03:00"
  },
  "/articles": {
-  "hash": "fb4aab600de59559",
-  "lastmod": "2026-10-04T16:24:52+00:00"
+  "hash": "147f62ec1064d550",
+  "lastmod": "2026-10-04T16:51:16+00:00"
  },
  "/awakenings-festival": {
   "hash": "65f0af58a9e83c89",
@@ -402,6 +402,10 @@
  "/exit-festival": {
   "hash": "5f0a05ab6fb00a57",
   "lastmod": "2026-09-30T21:19:02+03:00"
+ },
+ "/fabric-london": {
+  "hash": "c3810f1f20bb7239",
+  "lastmod": "2026-10-04T16:51:16+00:00"
  },
  "/fr/": {
   "hash": "891fb22384e6051f",
