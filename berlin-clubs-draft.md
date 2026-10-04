@@ -38,7 +38,7 @@ So what is Berghain? The short answer is a techno club in a former heating plant
 
 Norbert Thormann and Michael Teufele ran Snax Club from 1994, men-only parties that moved between Berlin venues. In 1998 they opened Ostgut in a former railway repair depot on Mühlenstraße, and Panorama Bar followed two years later in the same building. Ostgut closed in January 2003, when the site was cleared for a new arena.
 
-Berghain opened in December 2004 in the Friedrichshain combined heat and power plant, built in 1953 and abandoned in the 1980s. Panorama Bar reopened in the same building in October 2004. The club rented the building at first and has owned it since 2011.
+Berghain opened in December 2004 in the Friedrichshain combined heat and power plant, built in 1953 and abandoned in the 1980s. Panorama Bar reopened in the same building in October 2004. The club rented the building at first and has owned it since 2011. For the club itself, its floors and who plays, see the [Berghain guide](/berghain).
 
 [Image: Berghain entrance]
 

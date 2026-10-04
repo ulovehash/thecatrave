@@ -62,7 +62,7 @@ Ministry of Sound began as Justin Berkmann's idea. He had been to New York's Par
 
 The End opened on Saturday 2 December 1995 in the West End, off New Oxford Street, in a building that once stabled the Post Office's delivery horses. Its founders were two DJs, Layo Paskin and Mr C, and Layo's father Douglas Paskin designed the room. The week was its argument: drum and bass and breakbeat on Fridays, techno and house on Saturdays, a dubstep night on Wednesdays, and on Mondays Trash, Erol Alkan's indie and electro night, which moved there from Plastic People and The Annexe. Roni Size won the Mercury Music Prize in 1997 while holding a residency at The End. It held 800, or 1,000 with the AKA bar next door, and it closed in 2009 with a 24-hour party. The building reopened as The Den, which lost its licence in 2012.
 
-fabric opened on 29 October 1999, founded by Keith Reilly and Cameron Leslie in the old Metropolitan Cold Stores on Charterhouse Street, opposite Smithfield Market. It has three rooms with their own sound systems. The floor of Room One is a bodysonic dancefloor, with sections fixed to 400 bass transducers, so the bass reaches you through your feet.
+fabric opened on 29 October 1999, founded by Keith Reilly and Cameron Leslie in the old Metropolitan Cold Stores on Charterhouse Street, opposite Smithfield Market. It has three rooms with their own sound systems. The floor of Room One is a bodysonic dancefloor, with sections fixed to 400 bass transducers, so the bass reaches you through your feet. For tickets, opening times and the dress code, see the [fabric London guide](/fabric-london).
 
 [Image: fabric front]
 
