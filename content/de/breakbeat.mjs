@@ -107,7 +107,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/breakbeat.jpg',
   bodyClass: 'article-page breakbeat-page',
   minReadingMinutes: 20,
-  image: 'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.png',
+  image: 'https://thecatrave.com/img/breakbeat/plump-djs-electric-disco.jpg',
 
   title: 'Was ist Breakbeat? Genre, Geschichte, Künstler und Stile',
   description: 'Was ist Breakbeat? Von Funk-Breaks und Hip-Hop über den britischen Rave, Florida und Andalusien bis zu Big Beat, Nu-Skool Breaks und den Breaks von heute.',
@@ -150,7 +150,7 @@ export default {
     'Bild: dj-icey': figure('img/breakbeat/dj-icey-flyer-cutout.svg', 635, 560, 'archive-image artifact-cutout-image', 'Ein historischer Flyer für DJ Icey im Club 600 North', 'Ein Flyer von DJ Icey und Zone Records aus dem regionalen Clubkreislauf Floridas.'),
     'Bild: cordoba': figure('img/breakbeat/cordoba-breakbeat-flyer.jpg', 1052, 1500, 'archive-image portrait-image', 'Flyer der Veranstaltung Break Beat Nation in Córdoba, 2001', 'Break Beat Nation wirbt 2001 in Córdoba für ein Programm über mehrere Nächte.'),
     'Bild: andalusia': figure('img/breakbeat/andalusia-rave-crowd.jpg', 1800, 1175, 'archive-image wide-archive-image people-image', 'Tanzendes Publikum auf einem historischen Breakbeat-Rave in Andalusien', 'Ein andalusisches Breakbeat-Publikum, bevor Handys Teil der Tanzfläche wurden.'),
-    'Bild: plump-djs': figure('img/breakbeat/plump-djs-electric-disco.png', 1200, 1200, 'archive-image square-image', 'Plattenhülle von Plump DJs, Electric Disco und Plumpy Chunks, Finger Lickin’', 'Finger Lickin’ machte Nu-Skool Breaks zu einer erkennbaren Sprache für Clubs und Plattenhüllen.'),
+    'Bild: plump-djs': figure('img/breakbeat/plump-djs-electric-disco.jpg', 1200, 1200, 'archive-image square-image', 'Plattenhülle von Plump DJs, Electric Disco und Plumpy Chunks, Finger Lickin’', 'Finger Lickin’ machte Nu-Skool Breaks zu einer erkennbaren Sprache für Clubs und Plattenhüllen.'),
     'Tabelle: comparison': articleTable({
       headers: ['Stil', 'Rhythmischer Charakter', 'Ungefährer Tempobereich', 'Historischer Zusammenhang', 'Typische Namen', 'Deutlichster Unterschied'],
       label: 'Breakbeat und verwandte Genres im Vergleich, Tabelle',

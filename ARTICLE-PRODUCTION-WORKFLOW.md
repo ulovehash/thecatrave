@@ -278,3 +278,13 @@ Run this checklist after every authorised push to `main`:
 7. Report the commit link, verification result and any deployment or visual checks that remain outstanding.
 
 The post-push check does not replace pre-push builds, audits or visual QA. It proves that the verified local result and its documentation are the result now present on remote `main`.
+
+## 15. Getting a new page crawled
+
+Learned in October 2026, when Search Console listed `/live-dj-sets` and thirteen FR/DE pages as "Discovered – currently not indexed" with no crawl date at all. Google had never fetched them, so the cause was not their content. Crawl stats showed about fifteen requests a day for the whole host, 92% of them refreshes of known URLs, 40% of them images, and a 1.4 MB favicon fetched almost daily.
+
+- **Read the status before blaming the copy.** "Discovered – currently not indexed" means not fetched: a crawl-priority problem. "Crawled – currently not indexed" means fetched and declined: a content problem. Fix the one Search Console actually reports.
+- **Publish in steps, not waves.** The site went from about ten pages to 188 in a month. New URLs queue behind everything else on a host this small. Translations wait until their English original is indexed.
+- **lastmod moves only when the page's own content does.** `scripts/build-sitemap.mjs` hashes the visible text of `<main>` without the read-next block and keeps the date in `sitemap-lastmod.json`. Never hand-edit either file, and never make the sitemap stamp build time.
+- **Images under 300 KB before they ship.** Same pixel size, recompressed: JPEG q≈82, WebP q≈80, PNG with transparency quantized to 256 colours. An opaque PNG is a JPEG. Googlebot-Image spends the same crawl time as Googlebot.
+- **After the push, request indexing** for the new English URL in Search Console's URL Inspection (it has a daily quota, so English pages first).

@@ -868,6 +868,28 @@
       "what": "Evidence addenda added to 33 older guide reviews under ARTICLE-EDITORIAL-REVIEW.md section 0 found live-copy issues that are proposed but not applied: Wikipedia named in the body (berlin-clubs, london-clubs, mysteryland, ultra, glastonbury, parookaville, sonar, awakenings), 'not X but Y' and 'the point' phrasing (acid-house-guide, bass-music, coachella, german-electronic-music, best-spotify-playlists, live-dj-sets, ultra), set length stressed (best-boiler-room-sets, live-dj-sets), unsourced superlatives on many pages, a drum and bass angle on festival guides (creamfields, edc, tomorrowland, ultra) and a template sentence shared by edc and tomorrowland. Each proposal is in the page's review under 'Findings'. Festival listening still has no view-count evidence.",
       "should_have_caught": "the original reviews recorded passes with no evidence (see editorial-reviews-passed-without-evidence)",
       "fix": null
+    },
+    {
+      "id": "sitemap-lastmod-moved-on-every-build",
+      "found": "2026-10-03",
+      "by": "owner",
+      "what": "sitemap.xml dated every one of its 188 URLs 1-2 October 2026. lastmod came from the last commit touching each page's HTML, and every page is generated, so adding one guide rewrote read-next cards and nav on all of them; a Selector catalogue refresh moved the set count quoted on ~60 pages. Search Console showed /live-dj-sets and 13 FR/DE pages 'Discovered – currently not indexed', never crawled, while 92% of Googlebot requests were refreshes.",
+      "should_have_caught": "nothing: the September fix assumed a commit to a page's HTML meant its content changed",
+      "fix": {
+        "file": "scripts/build-sitemap.mjs",
+        "contains": "the date only moves when the hash does"
+      }
+    },
+    {
+      "id": "favicon-1-4-mb",
+      "found": "2026-10-03",
+      "by": "owner",
+      "what": "favicon.png was a 1024x1024 image weighing 1.47 MB, declared sizes=\"1024x1024\" on every page. Search Console crawl stats show a 1,469,5xx-byte fetch on most days: Google's favicon crawler spending the host's small crawl allowance on it.",
+      "should_have_caught": "nothing checked asset weight",
+      "fix": {
+        "file": "site-components.mjs",
+        "contains": "sizes=\"192x192\" href=\"/favicon.png\""
+      }
     }
   ]
 }
