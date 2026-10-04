@@ -890,6 +890,17 @@
         "file": "site-components.mjs",
         "contains": "sizes=\"192x192\" href=\"/favicon.png\""
       }
+    },
+    {
+      "id": "winter-guide-snow-machine-unsourced-reddit-claim",
+      "found": "2026-10-04",
+      "by": "claude",
+      "what": "Winter guide said Reddit threads from past editions complain about organisation at Snow Machine. No source is linked and the review could not support it.",
+      "should_have_caught": "the drafting pass; a claim about attendee sentiment needs a URL opened",
+      "fix": {
+        "file": "best-winter-music-festivals-draft.md",
+        "contains": "with the main arena on 4 to 6 March."
+      }
     }
   ]
 }

@@ -1087,3 +1087,21 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - dekmantel selectors
 - dekmantel 2027
 - dekmantel tickets
+
+## best-winter-music-festivals.html
+
+- winter music festivals
+- best winter music festivals
+- winter rave
+- ski music festivals
+- igloofest
+- snow machine festival
+- nameless winter
+- hibernation festival
+- caprices festival
+- elevate festival
+
+## snowbombing-festival.html
+
+- snowbombing
+- snowbombing 2027

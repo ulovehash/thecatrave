@@ -488,6 +488,22 @@ export const homeArticleCatalog = [
     image:'img/dekmantel/midland-2017-320.webp',
     srcset:'img/dekmantel/midland-2017-320.webp 320w,img/dekmantel/midland-2017-1200.webp 1200w',
     width:1200, height:799, alt:'Midland playing a DJ set at Dekmantel Festival in 2017'
+  },
+  {
+    page:'best-winter-music-festivals.html', category:'festivals', tags:['house','techno','discovery'], href:'/best-winter-music-festivals', type:'Guide', topic:'Winter festivals',
+    title:'Best Winter Music Festivals 2027: Snowbombing, Igloofest, CTM',
+    description:'Winter music festivals in 2027, from Tomorrowland Winter and Snowbombing to CTM, Elevate and Shapes, with dates marked confirmed or unconfirmed.',
+    image:'img/winter-festivals/igloofest-2009-320.webp',
+    srcset:'img/winter-festivals/igloofest-2009-320.webp 320w,img/winter-festivals/igloofest-2009-1200.webp 1200w',
+    width:1200, height:800, alt:'Igloofest in Montreal in January 2009'
+  },
+  {
+    page:'snowbombing-festival.html', category:'festivals', tags:['house','breaks'], href:'/snowbombing-festival', type:'Guide', topic:'Snowbombing',
+    title:'Snowbombing 2027: Dates, Tickets, Mayrhofen',
+    description:'Snowbombing 2027 runs 5 to 10 April in Mayrhofen, Austria. Dates, how packages and tickets work, where it is held and who plays.',
+    image:'img/snowbombing/street-party-2016-320.webp',
+    srcset:'img/snowbombing/street-party-2016-320.webp 320w,img/snowbombing/street-party-2016-1200.webp 1200w',
+    width:1200, height:800, alt:'The Snowbombing Street Party in Mayrhofen in April 2016'
   }
 ];
 

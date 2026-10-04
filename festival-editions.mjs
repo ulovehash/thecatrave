@@ -53,6 +53,8 @@ export const festivalEditions = [
   // Dekmantel: on 2026-10-02 the official site had not confirmed 2027 Amsterdam
   // dates (listings say 28 July to 1 August). Set to 1 August 2027 once confirmed.
   {page: 'dekmantel-festival.html', heading: 'When is Dekmantel 2027?', ends: null},
+  {page: 'best-winter-music-festivals.html', heading: 'Winter festival dates for 2027 at a glance', ends: null},
+  {page: 'snowbombing-festival.html', heading: 'When is Snowbombing 2027?', ends: '2027-04-10'},
   {page: 'best-edm-festivals-usa.html', heading: 'US EDM festival dates for 2027 at a glance', ends: null},
   // The German and French translations carry the same dates and roll with the
   // English page.

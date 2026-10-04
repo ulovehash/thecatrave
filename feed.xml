@@ -8,13 +8,36 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Fri, 02 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Snowbombing 2027: Dates, Tickets, Mayrhofen</title>
+    <link>https://thecatrave.com/snowbombing-festival</link>
+    <guid isPermaLink="true">https://thecatrave.com/snowbombing-festival</guid>
+    <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Snowbombing 2027 runs 5 to 10 April in Mayrhofen, Austria. Dates, how packages and tickets work, where it is held and who plays.</description>
+    <category>house</category>
+    <category>breaks</category>
+    <media:content url="https://thecatrave.com/img/og/snowbombing.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Winter Music Festivals 2027: Snowbombing, Igloofest, CTM</title>
+    <link>https://thecatrave.com/best-winter-music-festivals</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-winter-music-festivals</guid>
+    <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Winter music festivals in 2027, from Tomorrowland Winter and Snowbombing to CTM, Elevate and Shapes, with dates marked confirmed or unconfirmed.</description>
+    <category>house</category>
+    <category>techno</category>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/winter-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Dekmantel Festival 2027: Dates, Tickets, Selectors, Amsterdam</title>
     <link>https://thecatrave.com/dekmantel-festival</link>

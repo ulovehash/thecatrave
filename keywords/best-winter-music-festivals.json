@@ -1,0 +1,52 @@
+{
+  "page": "best-winter-music-festivals.html",
+  "seed": "winter music festivals",
+  "source": "Google Ads Keyword Planner, all locations, English, Sep 2025 to Aug 2026 (bucketed ranges only), run 4 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. 'tomorrowland winter' (10K to 100K) is measured but taken by the Tomorrowland guide, so it is named and not targeted. 'winter festivals europe' (100 to 1K) was measured and dropped: the page answers it in the FAQ as 'winter festivals in Europe' and the exact phrase would have to be wedged in.",
+  "terms": [
+    {
+      "term": "winter music festivals",
+      "volume": 100
+    },
+    {
+      "term": "best winter music festivals",
+      "volume": 10
+    },
+    {
+      "term": "winter rave",
+      "volume": 100
+    },
+    {
+      "term": "ski music festivals",
+      "volume": 100
+    },
+    {
+      "term": "igloofest",
+      "volume": 10000
+    },
+    {
+      "term": "snowbombing",
+      "volume": 1000
+    },
+    {
+      "term": "snow machine festival",
+      "volume": 1000
+    },
+    {
+      "term": "nameless winter",
+      "volume": 1000
+    },
+    {
+      "term": "hibernation festival",
+      "volume": 1000
+    },
+    {
+      "term": "caprices festival",
+      "volume": 1000
+    },
+    {
+      "term": "elevate festival",
+      "volume": 1000
+    }
+  ]
+}
