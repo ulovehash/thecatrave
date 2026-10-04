@@ -901,6 +901,17 @@
         "file": "best-winter-music-festivals-draft.md",
         "contains": "with the main arena on 4 to 6 March."
       }
+    },
+    {
+      "id": "ambiguous-keyword-cost-unmeasured-post-publish",
+      "found": "2026-09-26",
+      "by": "claude",
+      "what": "jungle-music-guide and breakbeat-guide were published despite both carrying traps KEYWORD-METHOD.md §3 already names (ambiguous words, wrong audience), and nothing ever checked whether the traffic that arrived anyway converted. A GA4 landing-page export (29 Aug-25 Sep 2026) shows it did not: jungle-music-guide converts to a key event at 7.5% and breakbeat-guide at 21%, against 26-50% on pages with a clean SERP (uk-electronic-music-evolution, glastonbury-festival, lollapalooza-festival). Checked against a template explanation first: glastonbury-festival and creamfields-festival share the same template and CTA placement and still range from 0% to 46%, ruling out a page-design fix and confirming the gap is intent, not execution.",
+      "should_have_caught": "KEYWORD-METHOD.md §3 filters intent once, at research time, from volume and a live SERP read; nothing revisits that judgment against real conversion once a page has enough traffic to measure it",
+      "fix": {
+        "file": "KEYWORD-METHOD.md",
+        "contains": "under-discounted, not proven safe by ranking"
+      }
     }
   ]
 }

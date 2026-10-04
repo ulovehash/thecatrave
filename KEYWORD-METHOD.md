@@ -213,6 +213,18 @@ arrive and leave. Four traps, all seen on this site:
   a listener page does not click, not that producers are unreachable. The reason
   production terms are out is the rule in `WRITING.md`, which does not weigh them
   against volume. Classify them, subtotal them, and drop them.
+- **Post-publish conversion confirms when the discount above was too small.**
+  jungle-music-guide and breakbeat-guide both cleared research despite carrying
+  the ambiguous-word and wrong-audience traps above, and GA4 key events (Selector
+  opens, embeds, outbound clicks; 29 Aug-25 Sep 2026 landing-page data) show the
+  bill: 7.5% and 21% conversion, against 26-50% on pages with a clean SERP
+  (uk-electronic-music-evolution, glastonbury-festival, lollapalooza-festival).
+  It is not the article: glastonbury-festival and creamfields-festival share the
+  same template and CTA placement and still range from 0% to 46%, so the gap
+  cannot be rewritten away. Once a page has enough sessions to read, check its
+  conversion against a clean-SERP page in the same slot; a keyword that cleared
+  every gate above but still shows this pattern was under-discounted, not proven
+  safe by ranking.
 
 ## 4. Score winnability from the weakest page in the top ten
 
