@@ -68,6 +68,8 @@ Door policies differ as much as the music. Berghain and Bassiani are both strict
 
 For a night in any of these cities without leaving home, [the Selector](/selector) plays a set at random from all {{catalogue-sets}} in the catalogue behind this site. For the festivals rather than the clubs, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
+If you would rather start from the rooms than the cities, the [best clubs in Europe](/best-clubs-in-europe) guide lists 23 nightclubs in ten countries, with the DJ Mag Top 100 Clubs 2026 ranks.
+
 ## FAQ
 
 ### What is the best city in Europe for clubbing?

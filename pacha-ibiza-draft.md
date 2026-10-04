@@ -10,6 +10,8 @@ Searches for Pacha Ibiza, Pacha Ibiza club or just Pacha lead to one venue, but 
 
 This guide collects those answers and dates them. It also lists what no source states. For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
 
+Pacha sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
+
 ## What is Pacha Ibiza?
 
 Pacha is a club in Ibiza Town with a long history on the island. Ibiza Spotlight's guide says the story of Pacha on Ibiza starts in 1973, and that Ricardo Urgell opened the first Pacha in Sitges in 1967. The club's own homepage calls it the world's most iconic nightclub.

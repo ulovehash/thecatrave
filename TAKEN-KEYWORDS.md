@@ -107,6 +107,29 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top boiler room sets
 - most viewed boiler room set
 
+## best-clubs-in-europe.html
+
+- best clubs in europe
+- best nightclubs in europe
+- best dance clubs in europe
+- top clubs in europe
+- europe clubs
+- dj mag top 100 clubs
+- best techno clubs
+- best techno clubs in the world
+- best clubs in germany
+- best clubs in spain
+- best clubs in the uk
+- best clubs in italy
+- best clubs in france
+- best clubs in portugal
+- best clubs in greece
+- best clubs in croatia
+- best clubs in the netherlands
+- best clubs in poland
+- best clubs in the world
+- best nightclubs in the world
+
 ## best-clubs-in-manchester.html
 
 - manchester clubs

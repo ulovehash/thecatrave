@@ -530,6 +530,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The red cherry signs of Pacha Ibiza lit at night'
   },
   {
+    page:'best-clubs-in-europe.html', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',
+    title:'Best Clubs in Europe: 23 Nightclubs Worth the Trip',
+    description:'The best clubs in Europe by country, from Berghain and fabric to Pacha, with sets to hear from several rooms.',
+    image:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp',
+    srcset:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp 320w,img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp 1200w',
+    width:1200, height:900, alt:'Cavo Paradiso on its cliff above the sea in Mykonos, seen from the water'
+  },
+  {
     page:'fabric-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/fabric-london', type:'Guide', topic:'fabric London',
     title:'fabric London: History, Rooms, Tickets and Dress Code',
     description:'fabric London in Farringdon: the three rooms, opening times, tickets, dress code, capacity, age limit and what happened in the 2016 closure.',

@@ -10,6 +10,8 @@ Searches for fabric London, the fabric nightclub or the fabric club all point to
 
 This guide puts those answers in one place, dated, with the 2016 timeline taken from the council statement and the press of the time. It also keeps a list of what no source states. For other London rooms there is the [London clubs guide](/best-electronic-music-clubs-in-london).
 
+fabric sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
+
 ## What is fabric London?
 
 The short fabric London history is that it is an electronic music club in a Victorian building on Charterhouse Street. Time Out's account says the cellar was once the Metropolitan Cold Stores, a meat store, and that founder Keith Reilly took almost ten years to find the right place. Mixmag names Reilly and Cameron Leslie as the men behind it and dates the opening to 1999. I found no source for the exact opening date, so this page gives the year only.

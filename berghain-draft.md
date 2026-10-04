@@ -16,6 +16,8 @@ Berghain Berlin took over from an earlier club, Ostgut, near the same station. C
 
 Inside, the Berliner Zentrum Industriekultur says the dance floor stands where generators and turbines used to run, under ceilings 18 metres high, and puts the capacity at up to 1,500 people. The architects' own project page describes a foyer dominated by a wall-sized installation by Piotr Nathan, made of 175 aluminium panels.
 
+Berghain sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
+
 ## What is Panorama Bar?
 
 Panorama Bar is the second floor, up steel stairs from the main room. The Berliner Zentrum Industriekultur says it occupies the former control room, and the architects' project page describes a raw room with a central bar lined in black rubber, two large photographs by Wolfgang Tillmans on its walls, and seating made from concrete pipes that weigh 1,462 kilograms each.

@@ -60,6 +60,8 @@ For the rest, [the Selector](/selector) plays a set at random from all {{catalog
 
 [Embed: thecatrave mix I Lost So Many Weekends Raving and I Wanna Lose Some More]
 
+For Ibiza's clubs set against Berlin, London and Mykonos, see the [best clubs in Europe](/best-clubs-in-europe).
+
 ## FAQ
 
 ### What is the most popular nightclub in Ibiza?

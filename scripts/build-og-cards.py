@@ -104,6 +104,7 @@ HERO = {
     "berghain": "img/berghain/berghain-facade-1200.webp",
     "fabric-london": "img/fabric-london/exterior-2017-1200.webp",
     "pacha-ibiza": "img/pacha-ibiza/cherries-2014-1200.webp",
+    "best-clubs-in-europe": "img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp",
     "us-festivals": "img/us-festivals/beyond-wonderland-2010-1200.webp",
     "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "sonar": "img/sonar/sonar-by-day-2016-1200.webp",

@@ -1,0 +1,108 @@
+{
+  "page": "best-clubs-in-europe.html",
+  "seed": "best clubs in europe",
+  "source": "Google Ads Keyword Planner, all locations, English, bucketed ranges only, owner-approved Stage 1 map of 4 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. 'best clubs in the world' and 'best nightclubs in the world' (10K-100K each) are answered in one short FAQ item; the guide stays Europe-only. Excluded: 'best clubs in europe 2026' (title carries no year), 'best house music clubs', 'best techno clubs in europe' and the no-data phrases. 'best clubbing cities in europe' and 'best party cities in europe' belong to best-clubbing-cities-in-europe and are not targeted.",
+  "terms": [
+    {
+      "term": "best clubs in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best nightclubs in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best dance clubs in europe",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "top clubs in europe",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "europe clubs",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "dj mag top 100 clubs",
+      "volume": 1000,
+      "range": "1K-10K"
+    },
+    {
+      "term": "best techno clubs",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best techno clubs in the world",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in germany",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in spain",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in the uk",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in italy",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in france",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in portugal",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in greece",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in croatia",
+      "volume": 100,
+      "range": "100-1K"
+    },
+    {
+      "term": "best clubs in the netherlands",
+      "volume": 10,
+      "range": "10-100"
+    },
+    {
+      "term": "best clubs in poland",
+      "volume": 10,
+      "range": "10-100"
+    },
+    {
+      "term": "best clubs in the world",
+      "volume": 10000,
+      "range": "10K-100K"
+    },
+    {
+      "term": "best nightclubs in the world",
+      "volume": 10000,
+      "range": "10K-100K"
+    }
+  ]
+}
