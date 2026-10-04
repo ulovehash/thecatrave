@@ -1,0 +1,92 @@
+{
+  "page": "berghain.html",
+  "seed": "berghain",
+  "source": "Google Ads Keyword Planner, all locations, English, Sep 2025 to Aug 2026 (bucketed ranges only), approved Stage 1 map. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. Left out on purpose because best-clubs-in-berlin owns them (TAKEN-KEYWORDS.md): 'what is berghain', 'how to get into berghain', 'berghain door policy', 'berghain tursteher'. Dropped after the keyword pass: 'berghain sunday', 'ostgut ton', 'berghain photo policy'.",
+  "terms": [
+    {
+      "term": "berghain",
+      "volume": 500000
+    },
+    {
+      "term": "berghain club",
+      "volume": 50000
+    },
+    {
+      "term": "berghain berlin",
+      "volume": 50000
+    },
+    {
+      "term": "berghain panorama bar",
+      "volume": 500000
+    },
+    {
+      "term": "panorama bar",
+      "volume": 50000
+    },
+    {
+      "term": "halle am berghain",
+      "volume": 5000
+    },
+    {
+      "term": "berghain kantine",
+      "volume": 50000
+    },
+    {
+      "term": "berghain lineup",
+      "volume": 5000
+    },
+    {
+      "term": "berghain resident djs",
+      "volume": 500
+    },
+    {
+      "term": "berghain dj",
+      "volume": 500
+    },
+    {
+      "term": "berghain techno",
+      "volume": 500
+    },
+    {
+      "term": "berghain sound system",
+      "volume": 500
+    },
+    {
+      "term": "berghain opening hours",
+      "volume": 500
+    },
+    {
+      "term": "berghain tickets",
+      "volume": 500
+    },
+    {
+      "term": "berghain address",
+      "volume": 500
+    },
+    {
+      "term": "berghain dress code",
+      "volume": 5000
+    },
+    {
+      "term": "berghain queue",
+      "volume": 5000
+    },
+    {
+      "term": "berghain history",
+      "volume": 500
+    },
+    {
+      "term": "berghain party",
+      "volume": 500
+    },
+    {
+      "term": "berghain garden",
+      "volume": 500
+    },
+    {
+      "term": "berghain closing",
+      "volume": 500
+    }
+  ]
+}

@@ -288,3 +288,7 @@ Learned in October 2026, when Search Console listed `/live-dj-sets` and thirteen
 - **lastmod moves only when the page's own content does.** `scripts/build-sitemap.mjs` hashes the visible text of `<main>` without the read-next block and keeps the date in `sitemap-lastmod.json`. Never hand-edit either file, and never make the sitemap stamp build time.
 - **Images under 300 KB before they ship.** Same pixel size, recompressed: JPEG q≈82, WebP q≈80, PNG with transparency quantized to 256 colours. An opaque PNG is a JPEG. Googlebot-Image spends the same crawl time as Googlebot.
 - **After the push, request indexing** for the new English URL in Search Console's URL Inspection (it has a daily quota, so English pages first).
+
+## 16. Before pushing from a worktree
+
+Learned on 4 October 2026, when the Time Warp push carried twenty site files copied by basename into `media/`, and `audit-canon` failed on every later build. `media/` holds only per-guide records (`media/<guide>.json`) and `README.md`. After copying files into the push worktree, run `git status --short` there and read every path against the list you meant to ship. A path whose directory differs from the source is a copy error: remove it before committing.

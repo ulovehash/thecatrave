@@ -53,6 +53,30 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - bass music
 - what is bass music?
 
+## berghain.html
+
+- berghain
+- berghain club
+- berghain berlin
+- berghain panorama bar
+- panorama bar
+- halle am berghain
+- berghain kantine
+- berghain lineup
+- berghain resident djs
+- berghain dj
+- berghain techno
+- berghain sound system
+- berghain opening hours
+- berghain tickets
+- berghain address
+- berghain dress code
+- berghain queue
+- berghain history
+- berghain party
+- berghain garden
+- berghain closing
+
 ## best-clubs-in-berlin.html
 
 - best clubs in berlin
@@ -92,6 +116,24 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - hacienda manchester
 - the warehouse project manchester
 
+## best-edm-festivals-usa.html
+
+- best edm festivals in the us
+- best edm festivals
+- popular edm festivals
+- edm festivals in the us
+- biggest edm festivals in the us
+- major edm festivals
+- electric forest
+- bass canyon
+- hard summer
+- crssd festival
+- beyond wonderland
+- iii points
+- dreamstate
+- edc orlando
+- decadence colorado
+
 ## best-house-music-playlists-spotify.html
 
 - best house music playlists on spotify
@@ -119,6 +161,20 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best techno mixes
 - best techno mix of all time
 - essential techno mixes
+
+## best-winter-music-festivals.html
+
+- winter music festivals
+- best winter music festivals
+- winter rave
+- ski music festivals
+- igloofest
+- snowbombing
+- snow machine festival
+- nameless winter
+- hibernation festival
+- caprices festival
+- elevate festival
 
 ## boomtown-festival.html
 
@@ -210,12 +266,30 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - acid house
 - was ist acid house
 
+## de/airbeat-one-festival.html
+
+- airbeat one
+- airbeat one festival 2027
+- was für musik läuft auf dem airbeat one
+
 ## de/clubs-amsterdam.html
 
 - clubs amsterdam
 - clubs in amsterdam
 - nachtleben in amsterdam
 - techno clubs in amsterdam
+
+## de/arc-music-festival.html
+
+- arc music festival
+- union park
+- arc after dark
+
+## de/awakenings-festival.html
+
+- awakenings festival
+- awakenings festival 2027
+- wo findet das awakenings festival statt
 
 ## de/clubs-barcelona.html
 
@@ -239,11 +313,38 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - bekannte clubs berlin
 - berghain türsteher
 
+## de/beste-boiler-room-sets.html
+
+
+## de/beste-house-playlists-spotify.html
+
+- house-playlists
+- honey dijon
+- defected
+
+## de/beste-soundcloud-dj-mixes.html
+
+- soundcloud-dj-mixes
+- wata igarashi
+- sherelle
+
+## de/beste-techno-mixes.html
+
+- techno-mixes
+- jeff mills
+- ben klock
+
 ## de/beste-spotify-playlists.html
 
 - beste spotify playlists
 - gute spotify playlists
 - spotify playlist empfehlungen
+
+## de/boomtown-festival.html
+
+- boomtown festival 2027
+- boomtown festival
+- matterley estate
 
 ## de/breakbeat.html
 
@@ -251,6 +352,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was ist breakbeat
 - breakbeat musik
 - breakbeat genre
+
+## de/clubs-bristol.html
+
+- besten clubs in bristol
+- motion bristol
+- lakota
+
+## de/clubs-budapest.html
+
+- clubs in budapest
+- größte club in budapest
+- besten clubs in budapest
 
 ## de/burning-man-festival.html
 
@@ -278,6 +391,7 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - creamfields festival
 - wo findet das creamfields festival statt
 - creamfields 2027
+- wie viele menschen gehen zu creamfields
 
 ## de/drum-and-bass.html
 
@@ -312,6 +426,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - electro festivals in europa
 - festivals für elektronische musik in europa
 
+## de/exit-festival.html
+
+- exit festival serbien
+- wo findet das exit festival statt
+- exit festival novi sad
+
+## de/deutsche-elektronische-musik.html
+
+
 ## de/glastonbury-festival.html
 
 - glastonbury
@@ -325,6 +448,22 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - grime musik
 - was ist grime
 - grime künstler
+
+## de/hardstyle.html
+
+- hardstyle
+- was ist hardstyle musik
+- wie viel bpm hat hardstyle
+- hardstyle künstler
+
+## de/house-musik.html
+
+- house musik
+- house-musik
+- house, techno und edm
+
+## de/neue-musik-finden.html
+
 
 ## de/clubs-ibiza.html
 
@@ -340,11 +479,52 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was ist jungle musik
 - was ist jungle
 
+## de/clubs-lissabon.html
+
+- besten clubs in lissabon
+- beste nachtclub in lissabon
+- nachtclub in lissabon
+
+## de/live-dj-sets-ansehen.html
+
+- live-dj-sets
+- boiler room
+- hör berlin
+
+## de/lollapalooza-festival.html
+
+- lollapalooza chicago
+- lollapalooza 2027
+- was ist lollapalooza
+
 ## de/clubs-london.html
 
 - clubs london
 - clubs in london
 - london clubs
+
+## de/clubs-manchester.html
+
+- besten clubs in manchester
+- haçienda
+- warehouse project
+
+## de/clubs-mexiko-stadt.html
+
+- besten clubs in mexiko-stadt
+- patrick miller
+- m.n.roy
+
+## de/monegros-desert-festival.html
+
+- monegros desert festival
+- monegros desert festival 2027
+- wie lange dauert monegros
+
+## de/movement-detroit.html
+
+- movement detroit
+- hart plaza
 
 ## de/mysteryland-festival.html
 
@@ -354,6 +534,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wo findet mysteryland statt
 - wie viele besucher hat mysteryland
 - was kosten tickets für mysteryland
+
+## de/clubs-new-york.html
+
+- besten clubs in new york
+- studio 54
+- das new yorker nachtleben
+- die besten techno-nachtclubs in new york
 
 ## de/silvester-rave.html
 
@@ -380,6 +567,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wem gehört parookaville
 - wo liegt parookaville
 
+## de/clubs-prag.html
+
+- besten clubs in prag
+- größte club in prag
+- techno-clubs in prag
+
 ## de/primavera-sound-barcelona.html
 
 - primavera sound
@@ -387,6 +580,8 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - primavera sound porto
 - primavera sound festival
 - primavera sound 2027
+- wo findet primavera sound statt
+- headliner nach jahr
 
 ## de/sonar-festival-barcelona.html
 
@@ -395,6 +590,24 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - sónar 2027
 - off sónar
 - tickets für sónar barcelona
+
+## de/sziget-festival.html
+
+- sziget festival
+- sziget festival 2027
+- was heißt sziget auf deutsch
+
+## de/techno-musik.html
+
+- techno-musik
+- was ist techno
+- techno vs. house
+
+## de/clubs-tokio.html
+
+- besten clubs in tokio
+- womb
+- circus tokyo
 
 ## de/tomorrowland-festival.html
 
@@ -410,6 +623,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was kosten tickets für tomorrowland
 - wem gehört tomorrowland
 - wann ist tomorrowland
+
+## de/trance-musik.html
+
+- was ist trance musik
+- psy trance
+
+## de/britische-elektronische-musik.html
+
 
 ## de/uk-garage.html
 
@@ -433,6 +654,9 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ultra festival kroatien
 - ultra miami 2027
 - ultra europe 2027
+- wo findet das ultra music festival statt
+- ab welchem alter darf man zu ultra
+- wie viele menschen gehen zu ultra
 
 ## de/untold-festival.html
 
@@ -442,6 +666,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - wie viele besucher hat untold
 - ist untold das größte festival der welt
 - untold cluj
+
+## dekmantel-festival.html
+
+- dekmantel
+- dekmantel festival
+- dekmantel selectors
+- dekmantel 2027
+- dekmantel tickets
 
 ## drum-and-bass-guide.html
 
@@ -494,15 +726,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best nightclubs in prague
 - biggest party cities in europe
 
-## best-edm-festivals-usa.html
-
-- best edm festivals in the us
-- best edm festivals
-- popular edm festivals
-- edm festivals in the us
-- biggest edm festivals in the us
-- major edm festivals
-
 ## best-electronic-music-festivals-europe.html
 
 - electronic music festivals in europe
@@ -519,11 +742,29 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - l’acid house
 - qu’est-ce que l’acid house
 
+## fr/airbeat-one-festival.html
+
+- airbeat one festival
+- airbeat one festival 2027
+- line-up
+
 ## fr/boite-de-nuit-amsterdam.html
 
 - boite de nuit amsterdam
 - clubs techno à amsterdam
 - vie nocturne à amsterdam
+
+## fr/arc-music-festival.html
+
+- arc music festival
+- union park
+- arc after dark
+
+## fr/festival-awakenings.html
+
+- awakenings festival
+- awakenings festival 2027
+- où est le festival awakenings
 
 ## fr/boite-de-nuit-barcelone.html
 
@@ -541,12 +782,51 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - kitkat club berlin
 - boite de nuit berlin
 
+## fr/meilleurs-sets-boiler-room.html
+
+
+## fr/meilleures-playlists-house-spotify.html
+
+- playlists house
+- honey dijon
+- defected
+
+## fr/meilleurs-mix-dj-soundcloud.html
+
+- mix dj soundcloud
+- wata igarashi
+- sherelle
+
+## fr/meilleurs-mix-techno.html
+
+- mix techno
+- jeff mills
+- ben klock
+
+## fr/boomtown-festival.html
+
+- boomtown festival 2027
+- boomtown festival
+- matterley estate
+
 ## fr/breakbeat.html
 
 - breakbeat
 - qu’est-ce que le breakbeat
 - musique breakbeat
 - le breakbeat
+
+## fr/boite-de-nuit-bristol.html
+
+- meilleures boîtes de nuit à bristol
+- motion bristol
+- lakota
+
+## fr/boite-de-nuit-budapest.html
+
+- meilleures boîtes de nuit à budapest
+- plus grande boîte de nuit de budapest
+- boîtes de nuit à budapest
 
 ## fr/burning-man.html
 
@@ -567,6 +847,7 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival creamfields
 - où se trouve creamfields
 - creamfields 2027
+- combien de personnes vont à creamfields
 
 ## fr/drum-and-bass.html
 
@@ -596,6 +877,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festivals électro en europe
 - festivals de musique électronique en europe
 
+## fr/exit-festival.html
+
+- exit festival serbie
+- festival exit
+- exit festival novi sad
+
+## fr/musique-electronique-allemande.html
+
+
 ## fr/festival-glastonbury.html
 
 - glastonbury
@@ -608,6 +898,22 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - grime
 - musique grime
+
+## fr/hardstyle.html
+
+- hardstyle
+- qu’est-ce que le hardstyle
+- types de hardstyle
+- artistes de hardstyle
+
+## fr/musique-house.html
+
+- musique house
+- qu’est-ce que la musique house
+- la house, la techno et l’edm
+
+## fr/trouver-de-la-nouvelle-musique.html
+
 
 ## fr/boite-de-nuit-ibiza.html
 
@@ -622,17 +928,69 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - c’est quoi la jungle music
 - la jungle
 
+## fr/boite-de-nuit-lisbonne.html
+
+- meilleures boîtes de nuit à lisbonne
+- meilleure boîte de nuit de lisbonne
+- lux frágil
+
+## fr/regarder-des-sets-dj-en-direct.html
+
+- sets dj en direct
+- boiler room
+- hör berlin
+
+## fr/festival-lollapalooza.html
+
+- lollapalooza chicago
+- lollapalooza 2027
+- qu’est-ce que lollapalooza
+
+## fr/boite-de-nuit-londres.html
+
+- boite de nuit londres
+
+## fr/boite-de-nuit-manchester.html
+
+- meilleures boîtes de nuit à manchester
+- haçienda
+- warehouse project
+
 ## fr/meilleures-playlists-spotify.html
 
 - meilleures playlists spotify
 - bonnes playlists spotify
 - recommandations de playlists spotify
 
+## fr/boite-de-nuit-mexico.html
+
+- meilleures boîtes de nuit à mexico
+- patrick miller
+- m.n.roy
+
+## fr/monegros-desert-festival.html
+
+- monegros desert festival
+- monegros desert festival 2027
+- combien de temps dure monegros
+
+## fr/movement-detroit.html
+
+- movement detroit
+- hart plaza
+
 ## fr/festival-mysteryland.html
 
 - mysteryland
 - mysteryland festival
 - mysteryland 2027
+
+## fr/boite-de-nuit-new-york.html
+
+- meilleures boîtes de nuit à new york
+- studio 54
+- où sortir à new york
+- les meilleures boîtes de techno à new york
 
 ## fr/festival-nouvel-an.html
 
@@ -650,17 +1008,43 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - parookaville festival
 - parookaville 2027
 
+## fr/boite-de-nuit-prague.html
+
+- meilleures boîtes de nuit à prague
+- plus grande boîte de nuit de prague
+- meilleurs clubs de techno à prague
+
 ## fr/primavera-sound-barcelona.html
 
 - primavera sound
 - primavera sound barcelona
 - primavera sound 2027
+- où et quand a lieu primavera sound
+- têtes d’affiche par année
 
 ## fr/sonar-barcelone.html
 
 - sonar festival
 - sonar barcelone
 - sónar 2027
+
+## fr/festival-sziget.html
+
+- sziget festival
+- sziget festival 2027
+- où est le sziget festival
+
+## fr/techno.html
+
+- la techno
+- qu’est-ce que la techno
+- techno ou house
+
+## fr/boite-de-nuit-tokyo.html
+
+- meilleures boîtes de nuit à tokyo
+- clubs de techno à tokyo
+- womb
 
 ## fr/festival-tomorrowland.html
 
@@ -670,6 +1054,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - festival tomorrowland
 - tomorrowland thailand
 - tomorrowland 2027
+
+## fr/musique-trance.html
+
+- qu’est-ce que la musique trance
+- musique trance
+- artistes de trance
+
+## fr/musique-electronique-britannique.html
+
 
 ## fr/uk-garage.html
 
@@ -692,6 +1085,9 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ultra festival en croatie
 - ultra miami 2027
 - ultra europe 2027
+- où a lieu l’ultra music festival
+- quel âge faut-il avoir pour aller à l’ultra
+- combien de personnes vont à l’ultra
 
 ## fr/festival-untold.html
 
@@ -951,6 +1347,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - primavera sound porto
 - what is primavera sound
 
+## snowbombing-festival.html
+
+- snowbombing
+- snowbombing 2027
+
 ## sonar-festival-barcelona.html
 
 - sonar barcelona
@@ -984,6 +1385,29 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - acid techno
 - jeff mills
 - derrick may
+
+## time-warp-festival.html
+
+- time warp festival
+- time warp mannheim
+- time warp festival mannheim
+- time warp nyc
+- time warp miami
+- time warp mexico
+- time warp 2026
+- time warp tickets
+- time warp lineup
+- time warp 2027
+- time warp germany
+- time warp argentina
+- time warp brazil
+- time warp los angeles
+- time warp festival 2026
+- time warp mannheim 2027
+- time warp dates
+- time warp techno
+- time warp netherlands
+- time warp festival 2027
 
 ## best-clubs-in-tokyo.html
 
@@ -1079,29 +1503,3 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - untold festival location
 - where is untold festival
 - what is untold festival
-
-## dekmantel-festival.html
-
-- dekmantel
-- dekmantel festival
-- dekmantel selectors
-- dekmantel 2027
-- dekmantel tickets
-
-## best-winter-music-festivals.html
-
-- winter music festivals
-- best winter music festivals
-- winter rave
-- ski music festivals
-- igloofest
-- snow machine festival
-- nameless winter
-- hibernation festival
-- caprices festival
-- elevate festival
-
-## snowbombing-festival.html
-
-- snowbombing
-- snowbombing 2027

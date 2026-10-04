@@ -1,0 +1,7 @@
+{
+  "page": "berghain.html",
+  "seed": "berghain",
+  "source": "Single-venue guide, not a genre guide: FIGURES.md's canon pass does not apply. Facts are from berghain.berlin, the Berliner Zentrum Industriekultur, the Landesdenkmalamt Berlin database, the Karhard project page, Crack, Groove, Mixmag and Resident Advisor, all read on 4 October 2026.",
+  "note": "Images are Wikimedia Commons and new to this page: facade 2007 (Jane Mejdahl, CC BY-SA 2.0), street view 2024 (Gunnar Klack, CC BY-SA 4.0, cropped), queue 2019 (Ben Kaden, CC BY 2.0). No Berghain set in selector-data.json is credible (Panorama, a Bangkok Community Radio show, and Sound Panorama, a Kiosk Radio show, only share a word; a Rinse FM studio set by Monaco presents PPJ mentions a Berghain debut but was not recorded there), so no set is presented as recorded at Berghain. The Essential listening block uses four Boiler Room Berlin sets (Ben Klock DGWL7YI_2rI, Len Faki jQRI3b2SX8c, Prosumer fgYVNi1vK1E, Tama Sumo 0EX18zMgGig) by DJs the press names as residents, oEmbed-checked via noembed on 4 October 2026; the page says their recording venue is unverified, plus the owner's own mixes.",
+  "required_records": []
+}

@@ -912,6 +912,17 @@
         "file": "KEYWORD-METHOD.md",
         "contains": "under-discounted, not proven safe by ranking"
       }
+    },
+    {
+      "id": "stray-site-files-in-media-dir",
+      "found": "2026-10-04",
+      "by": "claude",
+      "what": "Commit 035dc07 (Time Warp) added 20 files to media/ that do not belong there: copies of articles.html, build.mjs, pages.mjs, index.html, sitemap.xml, feed.xml, home-articles.mjs, festival-editions.mjs, og-articles-covers.json, sitemap-lastmod.json, build-og-cards.py, build-time-warp-article.mjs, three guide images in webp and two jpg. media/ holds only the per-guide required-records JSON, so audit-canon read the two stray JSON files as records with no page and failed on every later build.",
+      "should_have_caught": "The push copied a file list built from git status into a worktree with no check that every path kept its directory, and the pre-push diff was not compared against the intended file list.",
+      "fix": {
+        "file": "ARTICLE-PRODUCTION-WORKFLOW.md",
+        "contains": "holds only per-guide records"
+      }
     }
   ]
 }

@@ -98,6 +98,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The entrance to Berghain in Berlin'
   },
   {
+    page:'berghain.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/berghain', type:'Guide', topic:'Berghain',
+    title:'Berghain: Panorama Bar, Sound and Residents',
+    description:'Berghain explained: the former power station, Panorama Bar upstairs, Halle am Berghain, the Kantine, and the Ostgut Ton label.',
+    image:'img/berghain/berghain-facade-320.webp',
+    srcset:'img/berghain/berghain-facade-320.webp 320w,img/berghain/berghain-facade-1200.webp 1200w',
+    width:1200, height:900, alt:'The grey neoclassical front of the Berghain building in Berlin, with a few people at the entrance'
+  },
+  {
     page:'best-clubs-in-paris.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-paris', type:'Guide', topic:'Paris clubs',
     title:'Best Clubs in Paris: From Le Palace to Rex Club',
     description:'Le Palace, Les Bains Douches and Rex Club: the clubs that made Paris nightlife, how each became famous, and the best clubs in Paris open now.',

@@ -100,6 +100,7 @@ HERO = {
     "winter-festivals": "img/winter-festivals/igloofest-2009-1200.webp",
     "snowbombing": "img/snowbombing/street-party-2016-1200.webp",
     "time-warp": "img/time-warp/monika-kruse-2016-1200.webp",
+    "berghain": "img/berghain/berghain-facade-1200.webp",
     "us-festivals": "img/us-festivals/beyond-wonderland-2010-1200.webp",
     "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "sonar": "img/sonar/sonar-by-day-2016-1200.webp",
