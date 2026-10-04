@@ -12,7 +12,7 @@ Ibiza clubs run as a summer season on a small island: a handful of very large ro
 
 [Image: Pacha entrance]
 
-Pacha started on the mainland. Ricardo and Piti Urgell opened the first Pacha in Sitges, south of Barcelona, in 1967, and brought it to Ibiza Town in June 1973, with Piti as its first DJ. There are Pachas in other cities now, but the Ibiza club is still the one people mean.
+Pacha started on the mainland. Ricardo and Piti Urgell opened the first Pacha in Sitges, south of Barcelona, in 1967, and brought it to Ibiza Town in June 1973, with Piti as its first DJ. There are Pachas in other cities now, but the Ibiza club is still the one people mean. For tickets, the dress code and the 2026 calendar, see the [Pacha Ibiza guide](/pacha-ibiza).
 
 [Embed: Solomun Pacha]
 

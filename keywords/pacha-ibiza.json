@@ -1,0 +1,29 @@
+{
+  "page": "pacha-ibiza.html",
+  "seed": "pacha ibiza",
+  "source": "Google Ads Keyword Planner, all locations, English, bucketed ranges only, owner-approved Stage 1 map of 4 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket (100K to 1M, 1K to 10K, 100 to 1K, 10 to 100); each term carries its range. Dropped at 0 volume: vs ushuaia, vs amnesia, taxi, stages, residents, how to get there, cherry logo. 'pacha ibiza 2027' (10 to 100) is left out because no 2027 date was visible on pacha.com on 4 October 2026; add it when one appears. The opening party and Flower Power H3 is claimed as 'pacha ibiza opening party'.",
+  "terms": [
+    {"term": "pacha ibiza", "volume": 100000, "range": "100K-1M"},
+    {"term": "pacha ibiza club", "volume": 100000, "range": "100K-1M"},
+    {"term": "pacha", "volume": 100000, "range": "100K-1M"},
+    {"term": "pacha ibiza tickets", "volume": 1000, "range": "1K-10K"},
+    {"term": "pacha ibiza dress code", "volume": 1000, "range": "1K-10K"},
+    {"term": "pacha ibiza 2026", "volume": 1000, "range": "1K-10K"},
+    {"term": "pacha ibiza events", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza calendar", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza vip", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza table", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza address", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza capacity", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza closing party", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza owner", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza djs", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza cherries", "volume": 100, "range": "100-1K"},
+    {"term": "pacha ibiza opening party", "volume": 10, "range": "10-100"},
+    {"term": "pacha ibiza guest list", "volume": 10, "range": "10-100"},
+    {"term": "pacha ibiza age limit", "volume": 10, "range": "10-100"},
+    {"term": "pacha ibiza history", "volume": 10, "range": "10-100"},
+    {"term": "pacha ibiza lineup", "volume": 10, "range": "10-100"}
+  ]
+}

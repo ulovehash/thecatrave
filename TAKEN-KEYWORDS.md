@@ -1334,6 +1334,30 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - decadence nye
 - new year's music festivals
 
+## pacha-ibiza.html
+
+- pacha ibiza
+- pacha ibiza club
+- pacha
+- pacha ibiza tickets
+- pacha ibiza dress code
+- pacha ibiza 2026
+- pacha ibiza events
+- pacha ibiza calendar
+- pacha ibiza vip
+- pacha ibiza table
+- pacha ibiza address
+- pacha ibiza capacity
+- pacha ibiza closing party
+- pacha ibiza owner
+- pacha ibiza djs
+- pacha ibiza cherries
+- pacha ibiza opening party
+- pacha ibiza guest list
+- pacha ibiza age limit
+- pacha ibiza history
+- pacha ibiza lineup
+
 ## best-clubs-in-paris.html
 
 - best clubs in paris

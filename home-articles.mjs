@@ -522,6 +522,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Monika Kruse behind the decks at Time Warp in Mannheim, high-fiving a person in front of the booth'
   },
   {
+    page:'pacha-ibiza.html', category:'rave-spots', tags:['house','techno','history'], href:'/pacha-ibiza', type:'Guide', topic:'Pacha Ibiza',
+    title:'Pacha Ibiza: Tickets, Dress Code and Calendar 2026',
+    description:'Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.',
+    image:'img/pacha-ibiza/cherries-2014-320.webp',
+    srcset:'img/pacha-ibiza/cherries-2014-320.webp 320w,img/pacha-ibiza/cherries-2014-1200.webp 1200w',
+    width:1200, height:800, alt:'The red cherry signs of Pacha Ibiza lit at night'
+  },
+  {
     page:'fabric-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/fabric-london', type:'Guide', topic:'fabric London',
     title:'fabric London: History, Rooms, Tickets and Dress Code',
     description:'fabric London in Farringdon: the three rooms, opening times, tickets, dress code, capacity, age limit and what happened in the 2016 closure.',
