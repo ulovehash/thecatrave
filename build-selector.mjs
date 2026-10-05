@@ -56,6 +56,21 @@ for (const b of broadcasters) {
   if (fs.existsSync(p)) sourceLogos[b] = `/${p}`;
 }
 
+// Channels added in the last NEW_DAYS days (the `added` date in
+// selector-channels.mjs) get a banner. Only channels that already have sets
+// are named, so it never promises a channel the refresh has not fetched.
+const NEW_DAYS = 30;
+const newChannels = channels
+  .filter(c => c.added && (Date.now() - Date.parse(c.added)) / 864e5 <= NEW_DAYS && present.has(c.broadcaster))
+  .map(c => c.broadcaster);
+const newKey = channels.filter(c => newChannels.includes(c.broadcaster)).map(c => c.added).sort().pop() || '';
+
+const NEW_BANNER = {
+  en: {kicker: 'New on the Selector', lead: n => `${n} new channels:`, close: 'Dismiss'},
+  de: {kicker: 'Neu im Selector', lead: n => `${n} neue Kanäle:`, close: 'Schließen'},
+  fr: {kicker: 'Nouveau dans le Selector', lead: n => `${n} nouvelles chaînes :`, close: 'Fermer'}
+};
+
 const taggedCount = sets.filter(s => s.genres && s.genres.length).length;
 
 // What every language's copy is written from: the live numbers, formatted by
@@ -181,12 +196,19 @@ function build(lang, copy, {file, path}) {
   // action (the button, and the picked set right under it), then the filters that
   // refine the next press. It carries the H1 so the first thing on the page is
   // the instrument, not an essay.
+  const nb = NEW_BANNER[lang] || NEW_BANNER.en;
+  const bannerHtml = newChannels.length ? `<aside class="sel-new" id="sel-new" data-key="${escapeHtml(newKey)}" aria-label="${escapeHtml(nb.kicker)}" hidden>
+    <p class="sel-new-kicker">${escapeHtml(nb.kicker)}</p>
+    <p class="sel-new-text"><strong>${escapeHtml(nb.lead(newChannels.length))}</strong> ${newChannels.map(escapeHtml).join(', ')}.</p>
+    <button type="button" class="sel-new-close" id="sel-new-close" aria-label="${escapeHtml(nb.close)}">&times;</button>
+  </aside>` : '';
   const toolHtml = `
 <section class="sel-panel" id="selector" aria-label="${escapeHtml(copy.appName)}">
   <header class="sel-panel-head">
     <p class="article-kicker">${escapeHtml(copy.appName)}</p>
     <h1>${escapeHtml(copy.h1)}</h1>
     <p class="sel-deck">${copy.deck}</p>
+    ${bannerHtml}
   </header>
   <div class="sel-action">
     <p class="sel-count" id="sel-count">${copy.count}</p>

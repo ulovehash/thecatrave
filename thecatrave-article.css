@@ -1639,3 +1639,30 @@
   .promo-bar .wide { display: none; }
   .promo-bar a { padding-left: var(--gutter); }
 }
+
+/* role: notice. Announces channels added in the last 30 days (see NEW_DAYS in
+   build-selector.mjs). Hidden until the runtime has checked localStorage. */
+.selector-page .sel-new {
+  position: relative;
+  max-width: 76ch;
+  margin: 1.25rem 0 0;
+  padding: .75rem 2.75rem .8rem 1rem;
+  border: 1px solid var(--ink);
+  background: var(--sel-genre-bg, #ece6d7);
+  color: var(--ink);
+}
+.selector-page .sel-new[hidden] { display: none; }
+.selector-page .sel-new-kicker {
+  margin: 0 0 .25rem;
+  font: 500 var(--text-label) / 1.2 var(--mono, monospace);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.selector-page .sel-new-text { margin: 0; font: 400 .95rem/1.5 var(--sans); }
+.selector-page .sel-new-close {
+  position: absolute; top: .35rem; right: .45rem;
+  width: 2.25rem; height: 2.25rem;
+  border: 0; background: none; color: inherit;
+  font: 400 1.5rem/1 var(--sans); cursor: pointer;
+}
+.selector-page .sel-new-close:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }

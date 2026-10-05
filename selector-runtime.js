@@ -655,3 +655,19 @@
     })
     .catch(() => setButton(L.loadFailed, 'error', true));
 })();
+
+// "New channels" banner. Server-rendered but hidden, so it only appears when
+// this browser has not dismissed the current batch (keyed by its added date).
+(() => {
+  const box = document.getElementById('sel-new');
+  if (!box) return;
+  const key = 'sel-new-dismissed';
+  let seen = '';
+  try { seen = localStorage.getItem(key) || ''; } catch {}
+  if (seen === box.dataset.key) return;
+  box.hidden = false;
+  document.getElementById('sel-new-close').addEventListener('click', () => {
+    box.hidden = true;
+    try { localStorage.setItem(key, box.dataset.key); } catch {}
+  });
+})();
