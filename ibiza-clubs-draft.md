@@ -36,7 +36,7 @@ Both buildings are open again under new names. The Space site reopened on 28 May
 
 [Table: now]
 
-Hï is the current benchmark: two main rooms, the Theatre and the Club Room, and four DJ Mag number ones in a row. Ushuaïa, a hotel and open-air club in one since 2011, is a different kind of night, starting in the afternoon and finishing at 11pm, which suits people who want to go on somewhere else afterwards. DC-10, on the Salinas road, holds around 1,500 people over three rooms. Circoloco started there in 1999 as a free after-party that ran from six on Monday morning to six in the evening, and it is still the Monday that other clubs plan around.
+Hï is the current benchmark: two main rooms, the Theatre and the Club Room, and four DJ Mag number ones in a row. Ushuaïa, a hotel and open-air club in one since 2011, is a different kind of night, starting in the afternoon and finishing at 11pm, which suits people who want to go on somewhere else afterwards. For tickets, the dress code and the season calendar, see the [Ushuaia Ibiza guide](/ushuaia-ibiza). DC-10, on the Salinas road, holds around 1,500 people over three rooms. Circoloco started there in 1999 as a free after-party that ran from six on Monday morning to six in the evening, and it is still the Monday that other clubs plan around.
 
 [Embed: Fanciulli Voorn Ushuaia]
 

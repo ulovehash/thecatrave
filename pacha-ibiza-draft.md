@@ -8,7 +8,7 @@ Pacha Ibiza is a nightclub on Avenida 8 de Agosto at the edge of Ibiza Town, ope
 
 Searches for Pacha Ibiza, Pacha Ibiza club or just Pacha lead to one venue, but they come from different needs. Some people want to know what to wear. Others want to buy a ticket, book a table, or work out who owns the place now. The club's website answers most of it, spread over several pages.
 
-This guide collects those answers and dates them. It also lists what no source states. For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
+This guide collects those answers and dates them. It also lists what no source states. For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), the open-air club at Platja d'en Bossa has its own page in the [Ushuaia Ibiza guide](/ushuaia-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
 
 Pacha sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
 

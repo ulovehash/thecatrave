@@ -25,7 +25,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('ushuaia-ibiza-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/ushuaia-ibiza';
-const title = 'Ushuaia Ibiza: Tickets, Dress Code and Events 2026';
+const title = 'Ushuaia Ibiza: Tickets, Dress Code and Season Events';
 const description = 'Ushuaia Ibiza: what tickets cost, the dress code and entry rules, the 2026 residencies and closing parties, how to get there, and what is unpublished for 2027.';
 const date = '2026-10-05';
 const dateLabel = '5 October 2026';
@@ -128,7 +128,7 @@ const ext = (href, text) => `<a href="${href}" target="_blank" rel="noopener nor
 const articleHtml = [
   articleHero({
     kicker: 'Club guide, Ibiza',
-    title: 'Ushuaia Ibiza: tickets, dress code and events 2026',
+    title: 'Ushuaia Ibiza: tickets, dress code and season events',
     deck: 'The open-air club and beach hotel on Platja d\'en Bossa: what tickets cost, what the door allows, how the 2026 season runs out, and what 2027 has not yet said.',
     readingTime,
     dateModified: date,

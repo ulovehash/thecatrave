@@ -1,4 +1,4 @@
-# Ushuaia Ibiza: Tickets, Dress Code and Events 2026
+# Ushuaia Ibiza: Tickets, Dress Code and Season Events
 
 ## Answer
 

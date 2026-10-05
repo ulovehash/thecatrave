@@ -539,7 +539,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'ushuaia-ibiza.html', category:'rave-spots', tags:['house','techno'], href:'/ushuaia-ibiza', type:'Guide', topic:'Ushuaia Ibiza',
-    title:'Ushuaia Ibiza: Tickets, Dress Code and Events 2026',
+    title:'Ushuaia Ibiza: Tickets, Dress Code and Season Events',
     description:'Ushuaia Ibiza: what tickets cost, the dress code and entry rules, the 2026 residencies and closing parties, and what 2027 has not published.',
     image:'img/ushuaia-ibiza/dance-floor-2023-320.webp',
     srcset:'img/ushuaia-ibiza/dance-floor-2023-320.webp 320w,img/ushuaia-ibiza/dance-floor-2023-1200.webp 1200w',

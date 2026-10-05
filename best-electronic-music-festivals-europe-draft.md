@@ -123,7 +123,7 @@ Kala takes over the beach at Dhërmi, on the Albanian Riviera, for a week: six o
 
 Freerotation is the hardest of all of these to get into. It is held at Baskerville Hall in Clyro, over the Welsh border from Hay-on-Wye, run on a not-for-profit basis by the DJs Steevio and Suzybee, and tickets are sold only to members, who have to be invited by an existing member. Its line-ups are among the most respected in Britain for deep house and techno. The 2026 edition was on 10 to 12 July; the 2027 dates have not been announced.
 
-One more belongs here, with a warning: Fusion, the countercultural festival on a former airfield at Lärz in northern Germany, which does not publish a line-up and sells tickets by lottery. It is taking 2027 off and returns from 28 June to 2 July 2028.
+One more belongs here, with a warning: Fusion, the countercultural festival on a former airfield at Lärz in northern Germany, which does not publish a line-up and sells tickets by lottery. It is taking 2027 off and returns from 28 June to 2 July 2028. The [Fusion Festival guide](/fusion-festival) has the 2028 dates and how the ticket lottery works.
 
 ## Not on this list, and why
 
