@@ -1,0 +1,43 @@
+{
+  "page": "best-dj-sets-of-all-time.html",
+  "source": "Platform oEmbed checks (YouTube, SoundCloud, Mixcloud) re-run on 5 October 2026 and thecatrave Selector catalogue metadata; picks chosen from the published lists cited on the page plus the stated editorial criterion",
+  "note": "Thirty official uploads, none embedded on another guide (grep of the repository for every ID and slug on 5 October 2026). Dropped from the approved shortlist because the set is already embedded elsewhere: Frankie Knuckles, Richie Hawtin and Four Tet at Dekmantel. Ron Trent was dropped because he could not be sourced. Replacements: Kerri Chandler (Mixmag Live 2017), Joey Beltram (The Lab NYC 2018), Seth Troxler (Time Warp 2014) and Louie Vega (DJ Mag HQ 2018, because the Lot Radio set is on the NYC clubs guide). Carl Cox at Space is Mixcloud and audio only; Theo Parrish, Four Tet and Floating Points, and DJ Rashad and DJ Spinn are also audio only, and each is labelled on the entry. Cox and Fatboy Slim each appear twice, once together. DJ Jazzy Jeff is a labelled hip hop aside inside the first house section. The page has no hero image: no openly licensed photograph was confirmed. The card and og image reuse the Lot Radio photo already in the repository.",
+  "required_records": [
+    { "title": "Marshall Jefferson", "artist": "Marshall Jefferson", "publisher": "Mixmag", "year": 2015, "embed_id": "7cuTVGoi9ec" },
+    { "title": "Todd Terry", "artist": "Todd Terry", "publisher": "Mixmag", "year": 2013, "embed_id": "3NrREoqmHNA" },
+    { "title": "Louie Vega", "artist": "Louie Vega", "publisher": "DJ Mag", "year": 2018, "embed_id": "Drk4mfQa4f0" },
+    { "title": "Kerri Chandler", "artist": "Kerri Chandler", "publisher": "Mixmag", "year": 2017, "embed_id": "8x7n6KDfseI" },
+    { "title": "Theo Parrish", "artist": "Theo Parrish", "publisher": "Boiler Room (SoundCloud, audio only)", "year": 2010, "embed_id": "br-29-theo-parrish", "url": "https://soundcloud.com/platform/br-29-theo-parrish" },
+    { "title": "DJ Jazzy Jeff", "artist": "DJ Jazzy Jeff", "publisher": "Boiler Room", "year": 2017, "embed_id": "IvPdwoppGw4" },
+    { "title": "Black Coffee", "artist": "Black Coffee", "publisher": "Mixmag", "year": 2015, "embed_id": "wamL0A9Qzxg" },
+    { "title": "Solomun and Kollektiv Turmstrasse", "artist": "Solomun, Kollektiv Turmstrasse", "publisher": "Mixmag", "year": 2014, "embed_id": "i7Zstp8jlgo" },
+    { "title": "Honey Dijon", "artist": "Honey Dijon", "publisher": "Mixmag", "year": 2016, "embed_id": "SP_hVmD3yI4" },
+    { "title": "The Black Madonna", "artist": "The Black Madonna", "publisher": "DJ Mag", "year": 2018, "embed_id": "SS58vs5WtGE" },
+    { "title": "Dixon", "artist": "Dixon", "publisher": "Cercle", "year": 2024, "embed_id": "8ClF-beNXII" },
+    { "title": "Carl Craig", "artist": "Carl Craig", "publisher": "Mixmag", "year": 2012, "embed_id": "W7Lnhe2-Ea0" },
+    { "title": "Joey Beltram", "artist": "Joey Beltram", "publisher": "Mixmag", "year": 2018, "embed_id": "H4OqblkR-vA" },
+    { "title": "Sven Väth", "artist": "Sven Väth", "publisher": "Time Warp", "year": 2023, "embed_id": "jAb-PeSB-kk" },
+    { "title": "Nina Kraviz", "artist": "Nina Kraviz", "publisher": "Time Warp", "year": 2017, "embed_id": "o5emoqTlYOk" },
+    { "title": "Adam Beyer", "artist": "Adam Beyer", "publisher": "Awakenings", "year": 2016, "embed_id": "oyTzPIv2ZgE" },
+    { "title": "Tale of Us", "artist": "Tale of Us", "publisher": "Time Warp", "year": 2016, "embed_id": "akdDY6PCBBM" },
+    { "title": "Charlotte de Witte", "artist": "Charlotte de Witte", "publisher": "Mixmag", "year": 2020, "embed_id": "Q9dzq_SWd3k" },
+    { "title": "Carl Cox, Space Ibiza closing", "artist": "Carl Cox", "publisher": "Carl Cox (Mixcloud, audio only)", "year": 2016, "embed_id": "carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1", "url": "https://www.mixcloud.com/CarlCox/carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1/" },
+    { "title": "Four Tet and Floating Points", "artist": "Four Tet, Floating Points", "publisher": "Floating Points (SoundCloud, audio only)", "year": 2015, "embed_id": "floating-points-four-tet-final-plastic-people-2-1-2015", "url": "https://soundcloud.com/floatingpoints/floating-points-four-tet-final-plastic-people-2-1-2015" },
+    { "title": "Carl Cox b2b Fatboy Slim", "artist": "Carl Cox, Fatboy Slim", "publisher": "Mixmag", "year": 2019, "embed_id": "JL3b_fewO08" },
+    { "title": "John Digweed", "artist": "John Digweed", "publisher": "Time Warp", "year": 2014, "embed_id": "ly-W-JvWc3Y" },
+    { "title": "Seth Troxler", "artist": "Seth Troxler", "publisher": "Time Warp", "year": 2014, "embed_id": "e_TluqmgXuM" },
+    { "title": "Fatboy Slim", "artist": "Fatboy Slim", "publisher": "Cercle", "year": 2018, "embed_id": "8AvC05kXS9I" },
+    { "title": "Fabio and Grooverider", "artist": "Fabio, Grooverider", "publisher": "DJ Mag", "year": 2015, "embed_id": "Ehi2-SFYhzg" },
+    { "title": "DJ Randall", "artist": "DJ Randall", "publisher": "Mixmag", "year": 2016, "embed_id": "UgK8h9xRFls" },
+    { "title": "Goldie and Ulterior Motive", "artist": "Goldie, Ulterior Motive", "publisher": "Mixmag", "year": 2017, "embed_id": "dXxDphoxf4g" },
+    { "title": "Ben UFO", "artist": "Ben UFO", "publisher": "The Lot Radio", "year": 2020, "embed_id": "ECQwhbX4-H0" },
+    { "title": "DJ Rashad and DJ Spinn", "artist": "DJ Rashad, DJ Spinn", "publisher": "XLR8R (Mixcloud, audio only)", "year": 2010, "embed_id": "podcast-158-dj-rashad-dj-spinn", "url": "https://www.mixcloud.com/xlr8r/podcast-158-dj-rashad-dj-spinn/" },
+    { "title": "Skream", "artist": "Skream", "publisher": "Mixmag", "year": 2015, "embed_id": "ZjRTmeJVo9o" }
+  ],
+  "figures": [],
+  "known_gaps": [
+    { "title": "Named sets with no official recording", "why": "Where a list names a set that has no official upload, the entry uses the best official recording of the same DJ and says so (Substitute). Sets that exist only as unofficial uploads are not embedded." },
+    { "title": "Lists that could not be read", "why": "Reddit threads, Resident Advisor, ZIPDJ, Rolling Stone, DJ Leakz, Dirty Disco and RYM could not be read, so nothing on the page is claimed from them." },
+    { "title": "Genres without an official, list-named recording", "why": "Trance, turntablism, early disco and 1990s breaks and garage have no official recording that a published list names, so none is forced into the 30." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "page": "best-dj-sets-of-all-time.html",
+  "seed": "best dj sets of all time",
+  "source": "Google Ads Keyword Planner (all locations, 5 October 2026) for the head term; Ahrefs volumes from the topic dossier for the two shorter forms",
+  "terms": [
+    { "term": "best dj sets of all time", "volume": "100-1K (Keyword Planner, all locations, 5 Oct 2026); 250 (Ahrefs dossier)" },
+    { "term": "best dj sets", "volume": "400 (Ahrefs dossier)" },
+    { "term": "best dj set", "volume": "250 (Ahrefs dossier)" }
+  ],
+  "rejected": [
+    { "term": "best techno sets", "why": "not measured; not claimed as demand" },
+    { "term": "best dj sets youtube", "why": "not measured; not claimed as demand" },
+    { "term": "best dj sets soundcloud", "why": "not measured; not claimed as demand" },
+    { "term": "best dj sets reddit", "why": "not measured; not claimed as demand" }
+  ]
+}

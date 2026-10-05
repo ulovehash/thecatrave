@@ -66,6 +66,7 @@ HERO = {
     "drum-and-bass": "img/dnb/dnb-cover.webp",
     "uk-garage": "img/skream-1200.webp",
     "how-to-find-new-music": "img/NOW-1024.webp",
+    "best-dj-sets-of-all-time": "img/live-dj-sets/the-lot-radio-1200.webp",
     "best-boiler-room-sets": "img/boiler-room/carl-cox-1200.webp",
     "burning-man": "img/burning-man/robot-heart-1200.webp",
     "berlin-clubs": "img/berlin-clubs/berghain-1200.webp",
@@ -127,11 +128,14 @@ HERO = {
     "nyc-clubs": "img/nyc-clubs/limelight-church-1200.webp",
     "tokyo-clubs": "img/tokyo-clubs/womb-shibuya-1200.webp",
     "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
+    "belgrade-clubs": "img/belgrade-clubs/sava-from-kalemegdan-1200.webp",
     "prague-clubs": "img/prague-clubs/wenceslas-square-1200.webp",
+    "vienna-clubs": "img/vienna-clubs/grelle-forelle-terrace-1200.webp",
     "manchester-clubs": "img/manchester-clubs/northern-quarter-1200.webp",
     "bristol-clubs": "img/bristol-clubs/thekla-boat-1200.webp",
     "lisbon-clubs": "img/lisbon-clubs/lux-fragil-552.webp",
     "mexico-city-clubs": "img/mexico-city-clubs/roma-norte-street-1200.webp",
+    "tbilisi-clubs": "img/tbilisi-clubs/dinamo-arena-1200.webp",
     "selector": None,             # its hero is the wall of channel logos
     "articles": None,             # its hero is a wall of the articles' own card covers
 }

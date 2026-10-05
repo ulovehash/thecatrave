@@ -1,0 +1,17 @@
+{
+  "page": "best-clubs-in-vienna.html",
+  "seed": "best clubs in vienna",
+  "source": "Google Ads Keyword Planner (owner's account, owner's own Chrome), All locations, measured in the earlier research pass (vienna-research-package.md, 2026-10-05). No Ahrefs units spent. The owner approved the outline as it stood and no second pass was run; every other phrase is unmeasured and is not claimed.",
+  "note": "Ranges are Keyword Planner's coarse buckets, not point estimates. 'vienna clubs' showed a -90% three-month change, so the 10K-100K bracket may be spiky. No existing thecatrave page mentions Vienna, so no cannibalisation (best-clubs-in-europe and best-clubbing-cities-in-europe contain no Vienna copy).",
+  "terms": [
+    {"term": "best clubs in vienna", "volume": "1K-10K", "note": "the page's own head term"},
+    {"term": "vienna clubs", "volume": "10K-100K", "note": "same parent intent, a bracket higher; -90% three-month change, possibly spiky"},
+    {"term": "vienna nightlife", "volume": "1K-10K", "note": "H2 'Vienna nightlife by area' and the FAQ"},
+    {"term": "vienna techno clubs", "volume": "100-1K", "note": "H2 'Vienna techno clubs: Grelle Forelle and Das Werk'"}
+  ],
+  "expansion_checked": "The earlier pass read live search results for the venue facts. No further expansion pass.",
+  "serp_notes": "Not read in this pass.",
+  "rejected": [
+    {"term": "vienna club dress code, flex wien, grelle forelle, pratersauna", "why": "unmeasured; named venues are covered under their own names in copy, not claimed as targets"}
+  ]
+}

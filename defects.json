@@ -2,6 +2,14 @@
   "note": "Every defect found in shipped work, what should have caught it, and what changed so it cannot happen again. audit-defects.mjs verifies the change is really in the file it claims, so a rule cannot be quietly removed and a fix cannot be claimed without being made. Open entries print on every build until they are closed.",
   "defects": [
     {
+      "id": "europe-guide-tbilisi-unsourced-claims",
+      "found": "2026-10-05",
+      "by": "agent",
+      "what": "best-clubbing-cities-in-europe.html says Bassiani has room for about 1,200 and that police arrested its two owners in the 12 May 2018 raid. The capacity appears only in Wikipedia, and arrest figures for the raid differ between outlets (Resident Advisor, Mixmag, OC Media, Emerging Europe); the guide's own sources list is Wikipedia. The Europe guide's Tbilisi lines also predate the December 2024 club strike and the January 2026 TES closure. Found while writing the Tbilisi guide; not edited there because published copy is shown to the owner first.",
+      "should_have_caught": "the claim ledger in ARTICLE-EDITORIAL-REVIEW.md: a single-source figure from Wikipedia should be left out",
+      "fix": null
+    },
+    {
       "id": "production-tutorials-would-enter-pool",
       "found": "2026-09-25",
       "by": "assistant",
@@ -945,6 +953,14 @@
         "file": "home-articles.mjs",
         "contains": "(b.item.released ? Date.parse(b.item.released) : 0)"
       }
+    },
+    {
+      "id": "europe-guide-daria-kolosova-drugstore-year",
+      "found": "2026-10-05",
+      "by": "agent",
+      "what": "best-clubbing-cities-in-europe.html captions Daria Kolosova as \"Boiler Room Belgrade at Drugstore, 2021\" (source build-europe-clubbing-cities-article.mjs line 87-88, media/europe-clubbing-cities.json). boilerroom.tv/city/belgrade (read 2026-10-05) lists Daria Kolosova under Boiler Room Belgrade: Drugstore on 01 Nov 2019. The 2021 in the Selector catalogue is the YouTube upload year (selector-data.json year 2021), not the session date; the 2021 Belgrade session is Open Dancefloors, 12 Nov 2021. Published copy, so the exact before/after wording goes to the owner; not edited here. The new Belgrade guide does not embed this set.",
+      "should_have_caught": "catalogue year is an upload year and was read as the session year; the set was not checked against boilerroom.tv",
+      "fix": null
     }
   ]
 }

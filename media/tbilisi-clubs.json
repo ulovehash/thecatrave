@@ -1,0 +1,121 @@
+{
+  "page": "best-clubs-in-tbilisi.html",
+  "seed": "tbilisi clubs",
+  "source": "FIGURES.md adapted for clubs, 2026-10-05. Live Google reads of 'tbilisi nightlife' and 'tbilisi clubs'. History and dates: georgia.travel (KHIDI), leftbank.club, Huck, OC Media, Mixmag, Dazed, Crack Magazine, Emerging Europe, boilerroom.tv, Resident Advisor news 82847, 76508, 84386 and 85297. Sets are from the Selector catalogue (selector-data.json), none embedded by another guide.",
+  "required_records": [
+    {
+      "title": "Bassiani",
+      "artist": "club, Akaki Tsereteli Avenue, opened 2014",
+      "year": null,
+      "why": "S4 consensus and S5: the main room is a former Olympic swimming pool under the Dinamo Arena",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "photo_credit": "Dinamo Arena (the stadium above the club): DJMX, CC BY-SA 3.0, via Wikimedia Commons, August 2013. No licensed photograph of the club itself exists on Commons."
+    },
+    {
+      "title": "KHIDI",
+      "artist": "club, beneath Vakhushti Bagrationi Bridge, opened 2016",
+      "year": null,
+      "why": "S4 consensus: two stages, KHIDI and G2; Boiler Room 2019 and 2022",
+      "sources": [
+        "consensus"
+      ],
+      "photo_credit": "Vakhushti Bagrationi Bridge: Wagon, CC BY-SA 4.0, via Wikimedia Commons, April 2019"
+    },
+    {
+      "title": "Mtkvarze",
+      "artist": "club, Baratashvili Street",
+      "year": null,
+      "why": "S5: opened before Bassiani in a former Soviet-era fish restaurant (Crack Magazine)",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Left Bank",
+      "artist": "club and live venue, Dodo Abashidze Street 10",
+      "year": null,
+      "why": "S4 consensus; own site gives the Thursday to Sunday split",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Café Gallery",
+      "artist": "cafe and club, off Rustaveli Avenue",
+      "year": null,
+      "why": "S5: raided with Bassiani on 12 May 2018; opening year and 2026 schedule unconfirmed, so omitted",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "We Dance Together, We Fight Together",
+      "artist": "photograph",
+      "year": 2018,
+      "why": "the protest the raid caused",
+      "sources": [
+        "originators"
+      ],
+      "photo_credit": "Gvantsa Popkhadze, CC BY 2.0, via Wikimedia Commons, 14 May 2018"
+    },
+    {
+      "title": "Zurkin",
+      "artist": "Zurkin",
+      "year": 2018,
+      "why": "Bassiani's first night after reopening",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "BqtBMIReS68"
+    },
+    {
+      "title": "Shlømo",
+      "artist": "Shlømo",
+      "year": 2019,
+      "why": "first Boiler Room at KHIDI",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "qB-FFednKkY"
+    },
+    {
+      "title": "Nkisi",
+      "artist": "Nkisi",
+      "year": 2022,
+      "why": "KHIDI 15 July 2022",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "eTTdNlDyTNI"
+    },
+    {
+      "title": "Vulkanski",
+      "artist": "Vulkanski",
+      "year": 2022,
+      "why": "KHIDI 15 July 2022",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "ajap3GRYpSA"
+    },
+    {
+      "title": "Pablo Bozzi",
+      "artist": "Pablo Bozzi",
+      "year": 2022,
+      "why": "KHIDI 15 July 2022",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "pKl7GVk60Ow"
+    }
+  ],
+  "catalogue_sets": {
+    "note": "All five embedded IDs are in selector-data.json only; grep of the repo on 2026-10-05 found none in any other guide. blO-TbxAMhM (Kancheli and Zitto at Bassiani) is in the Europe clubbing cities guide and is excluded. Greenbeam and Leon (SUsxYFAMvFY) is catalogued as 2017, not the 2018 night, so it is not used."
+  }
+}

@@ -170,6 +170,14 @@ export const homeArticleCatalog = [
     width:844, height:563, alt:"The interior of Cross Club's basement bar in Prague, built from salvaged metal and machine parts"
   },
   {
+    page:'best-clubs-in-vienna.html', released:'2026-10-05T18:12:00+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-vienna', type:'Guide', topic:'Vienna clubs',
+    title:'Best Clubs in Vienna: Flex, Grelle Forelle and Where to Dance Now',
+    description:"The best clubs in Vienna now: Flex, Grelle Forelle, Das Werk, Fluc and SASS, plus what happened to Pratersauna, which stopped operating as a club in 2025.",
+    image:'img/vienna-clubs/grelle-forelle-terrace-320.webp',
+    srcset:'img/vienna-clubs/grelle-forelle-terrace-320.webp 320w,img/vienna-clubs/grelle-forelle-terrace-1200.webp 1200w',
+    width:1200, height:675, alt:'The Grelle Forelle building on the Spittelauer Lände by the Donaukanal in Vienna, with a rainbow stripe on its facade'
+  },
+  {
     page:'best-clubs-in-manchester.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-manchester', type:'Guide', topic:'Manchester clubs',
     title:"Best Clubs in Manchester: From the Haçienda to the Warehouse Project",
     description:"The Haçienda closed in 1997, but its warehouse-first DIY streak still shapes the city: the best clubs in Manchester now, and the Warehouse Project's rise since.",
@@ -200,6 +208,14 @@ export const homeArticleCatalog = [
     image:'img/mexico-city-clubs/roma-norte-street-320.webp',
     srcset:'img/mexico-city-clubs/roma-norte-street-320.webp 320w,img/mexico-city-clubs/roma-norte-street-1200.webp 1200w',
     width:1200, height:533, alt:'A street corner in the Roma Norte neighbourhood of Mexico City'
+  },
+  {
+    page:'best-clubs-in-tbilisi.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-tbilisi', type:'Guide', topic:'Tbilisi clubs',
+    title:'Tbilisi Clubs: Bassiani, Khidi and Mtkvarze Guide',
+    description:'Tbilisi clubs and nightlife: Bassiani, KHIDI, Mtkvarze and Left Bank, how the 2018 raid and the 2024 strike shaped the scene, and the sets to hear.',
+    image:'img/tbilisi-clubs/dinamo-arena-320.webp',
+    srcset:'img/tbilisi-clubs/dinamo-arena-320.webp 320w,img/tbilisi-clubs/dinamo-arena-1200.webp 1200w',
+    width:1200, height:900, alt:'The Boris Paichadze Dinamo Arena in Tbilisi during a football match, with fans in the foreground'
   },
   {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
@@ -378,6 +394,14 @@ export const homeArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
   },
   {
+    page:'best-dj-sets-of-all-time.html', category:'digging', tags:['discovery','house','techno','history'], href:'/best-dj-sets-of-all-time', type:'List', topic:'DJ sets',
+    title:'Best DJ Sets of All Time: 30 You Can Hear',
+    description:'Thirty sets people keep naming, from Carl Cox at Space and Black Coffee to Tale of Us, Skream and Fabio and Grooverider, each as an official recording.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  },
+  {
     page:'best-house-music-playlists-spotify.html', category:'digging', tags:['house','discovery','tools'], href:'/best-house-music-playlists-spotify', type:'List', topic:'House playlists',
     title:'Best House Music Playlists on Spotify: 12 Curated Picks',
     description:'Ten focused house playlists plus two disclosed thecatrave selections spanning house, techno and the spaces between them.',
@@ -544,6 +568,14 @@ export const homeArticleCatalog = [
     image:'img/ushuaia-ibiza/dance-floor-2023-320.webp',
     srcset:'img/ushuaia-ibiza/dance-floor-2023-320.webp 320w,img/ushuaia-ibiza/dance-floor-2023-1200.webp 1200w',
     width:1200, height:800, alt:'The Ushuaia Ibiza dance floor packed around the pool at dusk'
+  },
+  {
+    page:'best-clubs-in-belgrade.html', released:'2026-10-05T18:15:00+03:00', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-belgrade', type:'Guide', topic:'Belgrade clubs',
+    title:'Belgrade Clubs and Nightlife: Drugstore, Klub 20/44, Splavovi',
+    description:'Drugstore, Klub 20/44 and Barutana: the Belgrade clubs worth a night, how the splavovi river rafts were cleared from the Sava, and Boiler Room sets to hear first.',
+    image:'img/belgrade-clubs/sava-from-kalemegdan-320.webp',
+    srcset:'img/belgrade-clubs/sava-from-kalemegdan-320.webp 320w,img/belgrade-clubs/sava-from-kalemegdan-1200.webp 1200w',
+    width:1200, height:900, alt:'The Sava river in Belgrade seen from Kalemegdan fortress, with road bridges and moored boats'
   },
   {
     page:'best-clubs-in-europe.html', released:'2026-10-04T21:46:12+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',

@@ -1,0 +1,129 @@
+{
+  "page": "best-clubs-in-vienna.html",
+  "seed": "best clubs in vienna",
+  "source": "Venue facts read live on 2026-10-05 (see vienna-clubs-editorial-review.md claim ledger): Wikipedia and Falter, Resident Advisor, Groove, heute.at and edison for Pratersauna; grelleforelle.com for Grelle Forelle; flex.at, Austria-Forum and Wikipedia for Flex; vienna.at and Google Arts & Culture for Fluc; meinbezirk, Vice and wien.info for Das Werk; Wikipedia, vormagazin.at and 1000thingsmagazine for the Volksgarten and Das Techno Cafe. Capacities, Das Werk's single founding year and Pratersauna after September 2026 are unresolved and left out of the copy.",
+  "required_records": [
+    {
+      "title": "Flex",
+      "artist": "club, Donaukanal, opened 1989/90, in the U4 tunnel since 1995",
+      "year": 1995,
+      "why": "Vienna's longest-running electronic club, and the first room the guide covers",
+      "sources": ["consensus"],
+      "photo_credit": "Sven Gross-Selbeck, CC BY-SA 3.0 (file page also lists GFDL 1.2+), via Wikimedia Commons, December 2007, the lit sign over the entrance"
+    },
+    {
+      "title": "Grelle Forelle",
+      "artist": "club, Spittelauer Lände, opened December 2011",
+      "year": 2011,
+      "why": "The club most often searched as a Vienna techno club",
+      "sources": ["consensus"],
+      "photo_credit": "Peter Gugerell, CC0 1.0, via Wikimedia Commons, 16 June 2018, the building and Donaukanal terrace"
+    },
+    {
+      "title": "Das Werk",
+      "artist": "club, Spittelauer Lände, in the Stadtbahn arches since 2013",
+      "year": null,
+      "why": "Neighbour of Grelle Forelle on the same street",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found; Commons category returned 404"
+    },
+    {
+      "title": "Fluc",
+      "artist": "club and concert space, Praterstern, reopened 2006",
+      "year": 2006,
+      "why": "Container club by the old Praterstern station; opened its 2006 reopening with a Fennesz performance",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "SASS Music Club",
+      "artist": "club, Karlsplatz",
+      "year": 2007,
+      "why": "The central club in the guide",
+      "sources": ["consensus"],
+      "no_embed_reason": "no licensed photograph found"
+    },
+    {
+      "title": "Riana Holley",
+      "artist": "DJ",
+      "year": 2026,
+      "why": "HÖR ON TOUR Vienna, held at Grelle Forelle with MIXED VIENNA, 3 June 2026",
+      "sources": ["consensus"],
+      "embed_id": "4FA2h4YGV2A"
+    },
+    {
+      "title": "Peter Kruder",
+      "artist": "DJ and producer, Kruder & Dorfmeister",
+      "year": 2015,
+      "why": "Vienna sound section: Boiler Room Vienna, 2015 (the exact date differs between sources, so only the year is stated)",
+      "sources": ["consensus"],
+      "embed_id": "eZh2vhmype4"
+    },
+    {
+      "title": "Dorian Concept",
+      "artist": "producer",
+      "year": 2014,
+      "why": "Vienna sound section: Boiler Room Vienna live set, September 2014",
+      "sources": ["consensus"],
+      "embed_id": "8sN1RgyYcpw"
+    },
+    {
+      "title": "Vaal",
+      "artist": "DJ",
+      "year": 2019,
+      "why": "Boiler Room x Eristoff Day & Night, Vienna, June 2019, in an abandoned hotel",
+      "sources": ["consensus"],
+      "embed_id": "Pq7oNSGc07Y"
+    },
+    {
+      "title": "JASSS",
+      "artist": "DJ",
+      "year": 2021,
+      "why": "Boiler Room day rave at Draussen, August 2021",
+      "sources": ["consensus"],
+      "embed_id": "OapoX4niFSA"
+    },
+    {
+      "title": "DJ Python",
+      "artist": "DJ",
+      "year": 2021,
+      "why": "Same Boiler Room day rave at Draussen, August 2021",
+      "sources": ["consensus"],
+      "embed_id": "5NBNUYUIBB0"
+    }
+  ],
+  "catalogue_sets": [
+    {"id": "4FA2h4YGV2A", "title": "Riana Holley, HÖR ON TOUR Vienna, 2026"},
+    {"id": "eZh2vhmype4", "title": "Peter Kruder, Boiler Room Vienna, 2015"},
+    {"id": "8sN1RgyYcpw", "title": "Dorian Concept, Boiler Room Vienna, 2014"},
+    {"id": "Pq7oNSGc07Y", "title": "Vaal, Boiler Room x Eristoff Day & Night, Vienna, 2019"},
+    {"id": "OapoX4niFSA", "title": "JASSS, Boiler Room Vienna, 2021"},
+    {"id": "5NBNUYUIBB0", "title": "DJ Python, Boiler Room Vienna, 2021"}
+  ],
+  "known_gaps": [
+    {
+      "title": "Das Werk, Fluc, SASS and Pratersauna photographs",
+      "why": "no openly licensed image confirmed on a Commons file page; fewer images beat unlicensed ones"
+    },
+    {
+      "title": "Capacities",
+      "why": "Grelle Forelle figures conflict between sources (about 500 to 700) and none was found for Flex or SASS; capacities are left out"
+    },
+    {
+      "title": "Das Werk founding year",
+      "why": "sources give 2006 (association), 2010 and a 2013 arches move; only the 2006 association and spring 2013 arches milestones are stated"
+    },
+    {
+      "title": "Pratersauna after September 2026",
+      "why": "the outdoor day club was planned to run to the end of September 2026; no later status was confirmed"
+    },
+    {
+      "title": "Fennesz Boiler Room set (x44uJCl1SwE)",
+      "why": "city not confirmed, so not embedded"
+    },
+    {
+      "title": "oEmbed check",
+      "why": "all six embeds returned a title from YouTube oEmbed on 2026-10-05; none appears in any other guide"
+    }
+  ]
+}

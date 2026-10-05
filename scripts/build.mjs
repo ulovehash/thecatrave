@@ -41,6 +41,7 @@ export const generators = [
   'build-best-spotify-playlists-article.mjs',
   'build-best-soundcloud-dj-mixes-article.mjs',
   'build-best-techno-mixes-article.mjs',
+  'build-best-dj-sets-of-all-time-article.mjs',
   'build-best-house-music-playlists-spotify-article.mjs',
   'build-acid-house-article.mjs',
   'build-trance-article.mjs',
@@ -81,11 +82,14 @@ export const generators = [
   'build-nyc-clubs-article.mjs',
   'build-tokyo-clubs-article.mjs',
   'build-budapest-clubs-article.mjs',
+  'build-belgrade-clubs-article.mjs',
   'build-prague-clubs-article.mjs',
+  'build-vienna-clubs-article.mjs',
   'build-manchester-clubs-article.mjs',
   'build-bristol-clubs-article.mjs',
   'build-lisbon-clubs-article.mjs',
   'build-mexico-city-clubs-article.mjs',
+  'build-tbilisi-clubs-article.mjs',
   // after the English generators: a translation's Read Next reads its own
   // language's catalogue, but its reading times are taken from the pages the
   // localized generator itself writes, so it only has to precede the indexes

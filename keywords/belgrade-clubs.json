@@ -1,0 +1,26 @@
+{
+  "page": "best-clubs-in-belgrade.html",
+  "seed": "belgrade clubs",
+  "source": "Google Ads Keyword Planner, owner's account, driven in the owner's own Chrome (Claude in Chrome) via 'Discover new keywords'. All locations, English, Sep 2025 to Aug 2026, one batched pass on 5 October 2026 seeded with belgrade clubs, belgrade nightlife, belgrade nightclubs, best clubs in belgrade, belgrade splavovi, belgrade river clubs, belgrade techno and drugstore belgrade (175 ideas returned, 170 shown). Live Google SERP for 'belgrade clubs' read the same day: travel blogs, no music-led guide. No Ahrefs units spent.",
+  "note": "Ranges are Keyword Planner's coarse buckets; volume is the lower bound of the bucket. 'belgrade clubs' and 'belgrade nightlife' share the 1K-10K bucket, so volume cannot separate them: clubs leads because the site is music-first, nightlife rides in the title, H1 and the nightlife H2. 'drugstore belgrade' and 'drugstore belgrade club' sit at 10K-100K but are ambiguous (the pharmacy sense is mixed in); the venue name is used as a heading for venue intent and the bucket is NOT cited as demand for the club. Unmeasured, not returned by the pass: boiler room belgrade, kult belgrade, klub 20/44, belgrade rave. Mapping: title = belgrade clubs, nightlife. H1 = belgrade clubs, nightlife. H2s: Belgrade nightlife in one pass (belgrade nightlife), The best clubs in Belgrade now (best clubs in belgrade), Drugstore Belgrade club (drugstore belgrade club, venue intent only), Barutana Belgrade (barutana belgrade), Belgrade techno (belgrade techno, techno club belgrade), Belgrade splavovi and the river clubs (belgrade splavovi, belgrade river clubs). Variants nightclubs in belgrade, belgrade nightclubs, clubs in belgrade serbia, belgrade night life are carried in the introduction and body. Freestyler, Leto and Lasta brand queries (1K-10K and 100-1K) are not targeted: their 2026 moorings could not be resolved from reliable sources.",
+  "terms": [
+    {"term": "belgrade clubs", "volume": 1000, "range": "1K-10K"},
+    {"term": "belgrade nightlife", "volume": 1000, "range": "1K-10K"},
+    {"term": "belgrade night life", "volume": 1000, "range": "1K-10K"},
+    {"term": "nightclubs in belgrade", "volume": 1000, "range": "1K-10K"},
+    {"term": "clubs in belgrade serbia", "volume": 1000, "range": "1K-10K"},
+    {"term": "belgrade nightclubs", "volume": 100, "range": "100-1K"},
+    {"term": "best clubs in belgrade", "volume": 100, "range": "100-1K"},
+    {"term": "belgrade splavovi", "volume": 100, "range": "100-1K"},
+    {"term": "belgrade river clubs", "volume": 100, "range": "100-1K"},
+    {"term": "belgrade techno", "volume": 100, "range": "100-1K"},
+    {"term": "techno club belgrade", "volume": 100, "range": "100-1K"},
+    {"term": "barutana belgrade", "volume": 100, "range": "100-1K"}
+  ],
+  "rejected": [
+    {"term": "drugstore belgrade / drugstore belgrade club", "volume": "10K-100K", "why": "ambiguous (pharmacy sense mixed in); used as a venue heading, never cited as demand"},
+    {"term": "gentlemen's club belgrade, belgrade cocktail club, belgrade nightlife for singles, columbo pub crawl, belgrade nightlife tours", "why": "adult, bar, tour or singles intent, outside this page"},
+    {"term": "freestyler belgrade, leto splav, lasta club belgrade", "volume": "100-1K to 1K-10K", "why": "brand queries whose 2026 moorings are unresolved; not targeted"},
+    {"term": "hype belgrade, money club belgrade, bank club belgrade", "why": "venue names not verified"}
+  ]
+}
