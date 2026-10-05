@@ -552,6 +552,14 @@ export const homeArticleCatalog = [
     image:'img/printworks-london/gate-2010-320.webp',
     srcset:'img/printworks-london/gate-2010-320.webp 320w,img/printworks-london/gate-2010-1200.webp 1200w',
     width:1200, height:797, alt:'A fenced gate at the Harmsworth Quays print works in Rotherhithe in 2010'
+    },
+    {
+    page:'defqon-1.html', category:'festivals', tags:['discovery','history','hardstyle'], href:'/defqon-1', type:'Guide', topic:'Defqon.1',
+    title:'Defqon.1 2027: Dates, Tickets, Sale Dates, Line-up',
+    description:'Defqon.1 2027: dates, how the ticket sales work, why 2026 was cancelled, where it is held, the stage colours and how to get there.',
+    image:'img/defqon-1/red-stage-2023-320.webp',
+    srcset:'img/defqon-1/red-stage-2023-320.webp 320w,img/defqon-1/red-stage-2023-1200.webp 1280w',
+    width:1280, height:720, alt:'The Red main stage at Defqon.1 2023 in daylight, with a crowd in front'
   },
   {
     page:'electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',

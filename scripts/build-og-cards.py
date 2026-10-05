@@ -101,6 +101,7 @@ HERO = {
     "snowbombing": "img/snowbombing/street-party-2016-1200.webp",
     "asia-festivals": "img/asia-festivals/ultra-korea-2015-1200.webp",
     "electric-forest": "img/electric-forest/entrance-2018-1200.webp",
+    "defqon-1": "img/defqon-1/red-stage-2023-1200.webp",
     "time-warp": "img/time-warp/monika-kruse-2016-1200.webp",
     "berghain": "img/berghain/berghain-facade-1200.webp",
     "fabric-london": "img/fabric-london/exterior-2017-1200.webp",

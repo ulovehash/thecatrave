@@ -1,0 +1,163 @@
+{
+  "page": "defqon-1.html",
+  "seed": "defqon 1",
+  "source": "Google Ads Keyword Planner, all locations, all languages, Sep 2025 to Aug 2026 (bucketed ranges only), run 5 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket (50000 = 10K to 100K, 5000 = 1K to 10K, 500 = 100 to 1K, 50 = 10 to 100). Planner measures the name as 'defqon 1': the dot is read as a space. Terms are stored with the dot because audit-keywords does not normalise dots and the page spells the brand Defqon.1. Left out on purpose: 'defqon 1 how to get there', 'defqon 1 weather' and 'defqon 1 weekend festival' (10 to 100 each, awkward as phrases). People Also Ask seen: 'Why was Defqon.1 banned in Australia?', 'What does Defqon.1 mean?', 'Where is Defqon.1 located in 2026?', 'Why did they cancel Defqon.1 in 2026?' (all four are FAQ questions). The language filter stayed on all languages, not English only, so volumes include Dutch and German searches.",
+  "terms": [
+    {
+      "term": "defqon.1",
+      "volume": 50000,
+      "why": "title, H1 and body"
+    },
+    {
+      "term": "defqon.1 2026",
+      "volume": 50000,
+      "why": "H2 cancelled section, intro"
+    },
+    {
+      "term": "defqon.1 2027",
+      "volume": 5000,
+      "why": "title"
+    },
+    {
+      "term": "defqon.1 cancelled",
+      "volume": 5000,
+      "why": "cancellation section body; the H2 is the 2026 variant"
+    },
+    {
+      "term": "defqon.1 festival",
+      "volume": 5000,
+      "why": "H2 What is Defqon.1 festival?"
+    },
+    {
+      "term": "defqon.1 lineup",
+      "volume": 5000,
+      "why": "H2"
+    },
+    {
+      "term": "defqon.1 location",
+      "volume": 5000,
+      "why": "H2"
+    },
+    {
+      "term": "defqon.1 tickets",
+      "volume": 5000,
+      "why": "H2"
+    },
+    {
+      "term": "defqon.1 2026 cancelled",
+      "volume": 500,
+      "why": "H2"
+    },
+    {
+      "term": "defqon.1 2027 tickets",
+      "volume": 500,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 australia",
+      "volume": 500,
+      "why": "FAQ answer body"
+    },
+    {
+      "term": "defqon.1 biddinghuizen",
+      "volume": 500,
+      "why": "location body"
+    },
+    {
+      "term": "defqon.1 camping",
+      "volume": 500,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 dates",
+      "volume": 500,
+      "why": "dates section body"
+    },
+    {
+      "term": "defqon.1 endshow",
+      "volume": 500,
+      "why": "FAQ"
+    },
+    {
+      "term": "defqon.1 live",
+      "volume": 500,
+      "why": "H3 sets paragraph"
+    },
+    {
+      "term": "defqon.1 meaning",
+      "volume": 500,
+      "why": "What is section body"
+    },
+    {
+      "term": "defqon.1 netherlands",
+      "volume": 500,
+      "why": "location body"
+    },
+    {
+      "term": "defqon.1 stages",
+      "volume": 500,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 ticket prices",
+      "volume": 500,
+      "why": "H3"
+    },
+    {
+      "term": "what is defqon.1",
+      "volume": 500,
+      "why": "H2 What is Defqon.1 festival?"
+    },
+    {
+      "term": "defqon.1 2026 refund",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 2027 dates",
+      "volume": 50,
+      "why": "H2"
+    },
+    {
+      "term": "defqon.1 2027 lineup",
+      "volume": 50,
+      "why": "lineup body"
+    },
+    {
+      "term": "defqon.1 2027 ticket sale",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 age limit",
+      "volume": 50,
+      "why": "FAQ"
+    },
+    {
+      "term": "defqon.1 colours",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 refund",
+      "volume": 50,
+      "why": "refund body"
+    },
+    {
+      "term": "defqon.1 sets",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 shuttle",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "defqon.1 sold out",
+      "volume": 50,
+      "why": "FAQ"
+    }
+  ]
+}
