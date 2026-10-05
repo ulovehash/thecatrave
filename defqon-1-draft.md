@@ -122,7 +122,7 @@ Extreme heat. The Netherlands issued its first code red for heat, about 40 degre
 
 ### Where is Defqon.1 located in 2026?
 
-In Biddinghuizen, the Netherlands, at the Holy Grounds. The 2027 edition is at the same site.
+The cancelled 2026 edition was scheduled for the Holy Grounds in Biddinghuizen, the Netherlands. Q-dance lists the 2027 edition at the same site, from 24 to 27 June.
 
 ### Was Defqon.1 sold out?
 

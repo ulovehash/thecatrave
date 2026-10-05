@@ -83,7 +83,7 @@ const media = {
     rows: [
       ['Drugstore', 'Bulevar Despota Stefana 115, Palilula', 'A former slaughterhouse; DIY from 2012, in this space since 2014', 'Friday and Saturday'],
       ['Klub 20/44', 'Karađorđeva 44', 'Moved from a boat on the Sava on 31 December 2024', 'Thursday to Saturday'],
-      ['Barutana', 'Kalemegdan fortress', 'Open-air club in an 18th-century gunpowder magazine', 'Reopened 5 June 2026'],
+      ['Barutana', 'Kalemegdan fortress', 'Open-air club outside an 18th-century gunpowder magazine', 'Reopened 5 June 2026'],
       ['Kult', 'Čumićevo sokače 3', 'House to techno, capacity about 350; opened December 2022', 'Programme not confirmed'],
       ['Lift', 'Cetinjska 15, Dorćol', 'A DJ bar rather than a club', 'Check its own listings']
     ].map(row => row.map(escapeHtml))

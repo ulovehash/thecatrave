@@ -102,4 +102,4 @@ Start at the Donaukanal, where Flex and the Spittelauer Lände clubs are within 
 
 ## Answer
 
-The best clubs in Vienna now are Flex, Grelle Forelle, Das Werk, Fluc and SASS Music Club, with Das Techno Cafe at the Volksgarten on Tuesdays in the warm months. Pratersauna is no longer a nightclub: it closed in December 2025 and now only runs as an outdoor day club.
+The best clubs in Vienna now are Flex, Grelle Forelle, Das Werk, Fluc and SASS Music Club, with Das Techno Cafe at the Volksgarten on Tuesdays in the warm months. Pratersauna stopped operating as a nightclub in December 2025. Its outdoor day club was announced as a summer 2026 trial through September; its status after that has not been confirmed.

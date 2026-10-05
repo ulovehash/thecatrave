@@ -134,7 +134,7 @@ No. The organisers call 2027 a Fusion-free year. The next edition runs from 28 J
 
 ### How do Fusion Festival tickets work?
 
-Through registration and a lottery. For 2026, registration ran from 1 to 14 December 2025, with draws on 18 December and 5 February. Tickets are name-bound and cost €220 including a €10 waste deposit. The Ticket:Bourse handles exchanges.
+Through registration and a lottery. For 2026, registration ran from 1 to 14 December 2025, with draws on 18 December and 5 February. Tickets are name-bound; the 2026 ticket cost €220 including a €10 waste deposit. The organisers have not announced a 2028 price. The Ticket:Bourse handles exchanges.
 
 ### What is the Fusion Festival age limit?
 

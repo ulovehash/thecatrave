@@ -57,3 +57,6 @@ Publishable after the owner's read. Every dated or numeric claim traces to the o
 ## 7. Checks
 
 `node scripts/build.mjs`, `npm run check:html`, `node audit-all.mjs` (build + 22 audits), `npm run check:layout` (810 passed) and `npm run check:links` all pass. A second build is byte-identical. `git diff --check` is clean.
+## Approved reader and search update, 5 October 2026
+
+The owner approved dating the Clubtickets €30 to €130 event-ticket and €500 VIP figures to the 2026 season in the direct answer. The dress code and 2027-unannounced status remain unchanged, as do URL, title, headings, metadata and anchors. Follow-up review is not independent.

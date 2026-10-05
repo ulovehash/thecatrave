@@ -16,7 +16,7 @@ Ready to publish as a first edition. A choosing guide for seven festivals with t
 
 ## 3. Priority revisions
 
-1. Replace the Zamna Phuket press-only date as soon as zamnafestival.com lists it.
+1. **Updated 5 October 2026:** Zamna now lists Phuket, but its official event page contradicts itself: date field 29 January 2027, description 23 and 24 January. The published guide gives the month and directs readers to confirm ticket dates before booking travel.
 2. Add Wonderfruit, Sunburn and DWP 2027 dates after their December 2026 editions.
 3. Add S2O 2027 dates when the festival announces them (spring 2027 expected, not confirmed).
 4. Replace the Go2Thailand and EDM Addicts figures with official ones if those sites become readable.
@@ -40,7 +40,8 @@ Ready to publish as a first edition. A choosing guide for seven festivals with t
 | DWP venue, names, 2008 roots, 2025 Bali, No. 64 | EDMTunes | Press |
 | Ultra Korea 20 September 2025, 160,000 won | ultrakorea.com | Official |
 | Zamna Samui 21 February 2026, 1,177 baht | zamnafestival.com event page | Official |
-| Zamna Phuket 23 and 24 January 2027, Yeden Gardens | iFLYER, EDM Addicts | Press only |
+| Zamna Phuket January 2027, Yeden Gardens; conflicting dates in official listing | https://zamnafestival.com/events/zamna-phuket (date field 29 January; description 23 and 24 January); iFLYER and EDM Addicts | Official listing conflicts internally; day remains unresolved |
+| Ultra Japan 2027 two-day ticket tiers, GA ¥27,000, U-23 ¥15,000, PGA ¥43,000 | https://ultrajapan.com/tickets-2027, read 5 October 2026 | Official; added to guide |
 | 808 Festival, Tomorrowland Thailand | EDM Addicts, Go2Thailand | Press only; official sites unreadable |
 | Ultra Singapore latest 8 and 9 June 2019 | ultrasingapore.com | Official |
 
@@ -66,7 +67,7 @@ Five Commons images in `img/asia-festivals/` (1200 and 320 webp), each new to th
 
 ## 9. Unresolved questions
 
-- Zamna Phuket date is press-reported only.
+- Zamna Phuket's official page conflicts internally on the January dates. Do not choose either date without a consistent organiser or ticketing confirmation.
 - 808 Festival and Tomorrowland Thailand rest on press.
 - Whether to keep Ultra Korea if no 2026 or 2027 edition appears.
 
@@ -82,3 +83,7 @@ Five Commons images in `img/asia-festivals/` (1200 and 320 webp), each new to th
 | Facts | Ledger above |
 | Media | Licensed, local, credited, new |
 | Implementation | build, check:html, audit-all (22 audits), check:layout, check:links pass |
+
+## Approved reader and search update, 5 October 2026
+
+The owner approved adding Ultra Japan's published 2027 prices and replacing the asserted Zamna Phuket days with the official-source conflict in the answer, table, section and FAQ. The generator's source list now links both official pages. Original publication date remains 4 October; the visible, Open Graph and structured-data modification date is 5 October. Intent, URL, title, H1, headings and anchors remain unchanged. This follow-up review is not independent.

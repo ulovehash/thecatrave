@@ -2,13 +2,13 @@
 
 ## Answer
 
-The best electronic music festivals in Asia, as read on 4 October 2026, are Ultra Japan in Tokyo, Wonderfruit in Thailand, S2O Songkran in Bangkok, Sunburn in Mumbai, Djakarta Warehouse Project (DWP) in Jakarta and Zamna in Phuket, with Ultra Korea in Seoul as a festival whose next date is unknown. Only two of them had 2027 dates on that day. Ultra Japan 2027 is on 18 and 19 September, according to its official site, and Zamna Phuket is on 23 and 24 January 2027, according to press. Wonderfruit, S2O, Sunburn and DWP had not announced 2027 dates, and the 2026 editions of Wonderfruit, Sunburn and DWP are still to come in December.
+The best electronic music festivals in Asia, as read on 4 and 5 October 2026, are Ultra Japan in Tokyo, Wonderfruit in Thailand, S2O Songkran in Bangkok, Sunburn in Mumbai, Djakarta Warehouse Project (DWP) in Jakarta and Zamna in Phuket, with Ultra Korea in Seoul as a festival whose next date is unknown. Ultra Japan 2027 is confirmed for 18 and 19 September on its official site. Zamna Phuket is listed for January 2027, but the organiser's event page gives conflicting dates, so confirm them before booking travel. Wonderfruit, S2O, Sunburn and DWP had not announced 2027 dates, and the 2026 editions of Wonderfruit, Sunburn and DWP are still to come in December.
 
 ## Introduction
 
 Asia has a lot of music festivals, and most of what is written about them lists the biggest names with a photograph each. This page covers the electronic ones and tries to answer what you need before you book: where each festival is, what it plays, what a ticket costs where a price was published, and which dates are confirmed for 2027.
 
-Every date and price below was read on 4 October 2026 from the festival's own site where that site could be read, and from named press where it could not. A festival that has not announced 2027 says so here. It is not given a guessed date from last year. For comparison with other regions, see the [Europe festivals guide](/best-electronic-music-festivals-europe) and the [US EDM festivals guide](/best-edm-festivals-usa).
+Dates and prices were checked on 4 October 2026, with Ultra Japan and Zamna rechecked on 5 October. The festival's own site is used where it could be read, and named press where it could not. A festival that has not announced 2027 says so here. It is not given a guessed date from last year. For comparison with other regions, see the [Europe festivals guide](/best-electronic-music-festivals-europe) and the [US EDM festivals guide](/best-edm-festivals-usa).
 
 ## How this list was chosen
 
@@ -32,13 +32,13 @@ The table is the short version, and the sections below give the detail. "Not ann
 | Sunburn | Mumbai | 18 and 19 December 2026 | Not announced | Mainstream EDM |
 | Djakarta Warehouse Project | Jakarta | 11 to 13 December 2026 | Not announced | EDM, house, techno |
 | Ultra Korea | Seoul | 20 September 2025 (latest listed) | None listed | EDM |
-| Zamna Thailand | Phuket | 21 February 2026 (Koh Samui, held) | 23 and 24 January 2027 (press) | House, techno |
+| Zamna Thailand | Phuket | 21 February 2026 (Koh Samui, held) | January 2027 (organiser's dates conflict) | House, techno |
 
 ## Ultra Japan, Tokyo
 
 Ultra Japan is the Tokyo edition of the Ultra festival, held at the Odaiba Ultra Park in Aomi, in Tokyo's Koto ward. The 2026 edition ran on 19 and 20 September, with gates at 10:00, music from 11:00 and a finish at 21:00, according to the official site. The first line-up announced for it named Peggy Gou, Alesso, Zedd b2b Knock2, The Martinez Brothers, Yousuke Yukimatsu, Worship and Sara Landry, across three stages: the Ultra Main Stage, Resistance and the Ultra Park Stage, as reported by Popii Land.
 
-Ultra Japan 2027 is on 18 and 19 September 2027. That date is in the header of the official site, and a banner there links to Ultra Japan 2027 tickets. I did not read 2027 prices, and no 2027 line-up had been published. For 2026, the same Popii Land report listed two-day general admission at ¥28,000 and one-day at ¥16,000, premium general admission at ¥44,000 and ¥24,000, and a U-23 pass at ¥15,000 for ages 18 to 22. Expect the 2027 prices to differ and check the official ticket page.
+Ultra Japan 2027 is on 18 and 19 September 2027. Its official ticket page lists 2027 two-day tickets at ¥27,000 for GA, ¥15,000 for U-23 and ¥43,000 for PGA at the displayed tiers. These tiers may sell out; check the official ticket page before buying. No 2027 line-up was shown when checked on 5 October 2026.
 
 The sources I read describe a daytime event from 11:00 to 21:00 and mention no camping, so plan on a hotel in Tokyo. The [Ultra Music Festival guide](/ultra-music-festival) covers the Miami original.
 
@@ -96,7 +96,7 @@ The after-parties are the part you can hear. Three sets from the 2018 afterparty
 
 Zamna is a festival brand that began in Tulum, Mexico, in 2017, and it came to Thailand in 2026. Zamna On The Beach Thailand was held on 21 February 2026 at Club Seen on Koh Samui, from 14:00, for ages 18 and over, according to the festival's event page, with early bird general admission at 1,177 baht.
 
-Zamna Phuket follows on 23 and 24 January 2027. iFLYER reported the dates in May 2026. EDM Addicts gives the venue as Yeden Gardens, entry from the age of 20 and tickets through Ticketmelon, and says the line-up had not been revealed. Zamna's own events listing showed no Thailand date when I read it on 4 October 2026, so treat the Phuket date as press-reported until the festival lists it.
+Zamna Phuket is listed for January 2027, but the organiser's event page conflicts: its date field says 29 January, while its description says 23 and 24 January. The page lists Yeden Gardens in Phang Nga, entry from age 20 and tickets through Ticketmelon. Verify the dates on the ticketing page before booking travel. No line-up was shown when checked on 5 October 2026.
 
 [[embed:owner-second]]
 
@@ -127,7 +127,7 @@ Ultra Japan in Tokyo, Wonderfruit in Thailand, S2O Songkran in Bangkok, Sunburn 
 
 ### Which Asian festivals have 2027 dates?
 
-On 4 October 2026, Ultra Japan was on 18 and 19 September 2027 on its own site, and Zamna Phuket was on 23 and 24 January 2027 according to press. Wonderfruit, S2O, Sunburn, DWP and Ultra Korea had no 2027 dates on their official sites.
+Ultra Japan is confirmed for 18 and 19 September 2027 on its official site. Zamna Phuket is listed for January 2027, but its organiser's date field and description disagree on the days. Wonderfruit, S2O, Sunburn, DWP and Ultra Korea had no 2027 dates on their official sites when checked on 4 October 2026.
 
 ### What are the best music festivals in Thailand?
 

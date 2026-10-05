@@ -12,7 +12,8 @@
 // Maintenance: registered in festival-editions.mjs with ends null, because most
 // 2027 dates were not announced on 2026-10-04. Refresh as each festival
 // announces, after Wonderfruit, Sunburn and DWP in December 2026, and after S2O
-// in spring 2027. Zamna Phuket's date is press-reported until Zamna lists it.
+// in spring 2027. Zamna Phuket is listed by the organiser, but the date field
+// and event description conflict as checked on 2026-10-05.
 import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleVideoCard, articleVideoCollection,
@@ -26,8 +27,9 @@ const draft = fs.readFileSync('best-electronic-music-festivals-asia-draft.md', '
 const canonical = 'https://thecatrave.com/best-electronic-music-festivals-asia';
 const title = 'Best Electronic Music Festivals in Asia: 2027 Guide';
 const description = 'The best electronic music festivals in Asia: Ultra Japan, Wonderfruit, S2O, Sunburn and DWP, with dates and sets to hear.';
-const date = '2026-10-04';
-const dateLabel = '4 October 2026';
+const datePublished = '2026-10-04';
+const dateModified = '2026-10-05';
+const dateLabel = '5 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -143,7 +145,7 @@ const articleHtml = [
     title: 'The best electronic music festivals in Asia, 2027',
     deck: 'Ultra Japan, Wonderfruit, S2O Songkran, Sunburn, DWP, Ultra Korea and Zamna: where they are, what they play, and which 2027 dates are confirmed.',
     readingTime,
-    dateModified: date,
+    dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best electronic music festivals in Asia', bodyHtml: inline(answer), className: 'article-summary'}),
     tocItems
@@ -164,6 +166,7 @@ const articleHtml = [
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
 <li>Official sites, read on 4 October 2026: ${ext('https://ultrajapan.com', 'Ultra Japan')}, ${ext('https://www.wonderfruit.co', 'Wonderfruit')}, ${ext('https://s2ofestival.com', 'S2O')}, ${ext('https://www.sunburn.in', 'Sunburn')}, ${ext('https://dwpfest.com', 'DWP')}, ${ext('https://ultrakorea.com', 'Ultra Korea')}, ${ext('https://ultrasingapore.com', 'Ultra Singapore')}, ${ext('https://zamnafestival.com/events/zamna-on-the-beach-Thailand', 'Zamna On The Beach Thailand')}.</li>
+<li>2027 tickets and dates, checked on 5 October 2026: ${ext('https://ultrajapan.com/tickets-2027', 'Ultra Japan official tickets')} and ${ext('https://zamnafestival.com/events/zamna-phuket', 'Zamna Phuket official event page')}.</li>
 <li>Ultra Japan 2026 line-up and ticket prices: ${ext('https://popii-land.jp/en/ultra-japan-2026-first-lineup-peggy-gou-en/', 'Popii Land')}.</li>
 <li>Wonderfruit first wave of artists: ${ext('https://likdo.asia/magazine/wonderfruit-2026-announces-first-wave-of-artist-lineup/', 'LIKDO')}.</li>
 <li>S2O 2026: ${ext('https://www.eventpop.me/e/87299', 'Eventpop ticket page')}, ${ext('https://edm-addicts.com/news/s2o-songkran-music-festival-returns-april-11-13-2026', 'EDM Addicts')} and ${ext('https://go2-thailand.com/blog/s2o-songkran-music-festival-2026-bangkok-edm-water-party/', 'Go2Thailand recap')}.</li>
@@ -184,7 +187,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished, dateModified}),
   breadcrumbStructuredData({name: 'Best Electronic Music Festivals in Asia', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -193,7 +196,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/best-electronic-music-festivals-asia'),
   ogImage: 'https://thecatrave.com/img/og/asia-festivals.jpg',
-  datePublished: date, dateModified: date,
+  datePublished, dateModified,
   bodyClass: 'article-page asia-festivals-page',
   structuredData, articleHtml
 });

@@ -21,7 +21,7 @@ Ready after the open items in section 3. No factual blocker was found. Duisburg 
 
 ## 3. Open items
 
-1. **Major, for the owner.** Essen and Dortmund order: press sources say Essen 2007 and Dortmund 2008, the Rave the Planet history page says the reverse. The page states the disagreement and gives no bare year and city pairing. Resolve it from a primary source if one turns up.
+1. **Resolved 5 October 2026.** Essen was 2007 and Dortmund was 2008, as documented by the contemporary Ruhr regional announcement at https://www.rvr.ruhr/news/startseite-news/news/love-is-everywhere-metropole-ruhr-ist-die-neue-heimat-der-loveparade/. The owner approved a direct city-and-year answer despite the later Rave the Planet history page reversing the order.
 2. **Minor.** Attendance figures are organiser estimates (bpb, Rave the Planet, Street Parade). The page labels them as such and does not call any independent.
 3. **Minor.** No song section. "Meet Her at the Love Parade" and the Dr. Motte and WestBam anthems were seen only in catalogue snippets, with label and year unchecked on a primary page, so they are left out. A later pass can add them once Discogs or a label page is readable.
 4. **Minor.** One image. Chrome blocked further downloads. The Duisburg section has no image on purpose.
@@ -36,7 +36,7 @@ Ready after the open items in section 3. No factual blocker was found. Duisburg 
 | Attendance 1990 to 1999 (2,000 to 1.5 million) | organiser estimates | bpb | medium | keep, labelled as estimates |
 | Move to Straße des 17. Juni in 1996 | fact | bpb and Rave the Planet history agree; DW says 1997 | medium | keep 1996, DW's year rejected |
 | Lost demonstration status 2001; cancelled 2004 and 2005; brand sold November 2005; McFit main sponsor from 2006 | fact | Rave the Planet history; bpb | medium | keep |
-| Ruhr from 2007; Essen, Dortmund, Bochum, Duisburg; Bochum 2009 cancelled | fact | bpb | medium | keep; order of Essen and Dortmund flagged |
+| Ruhr from 2007; Essen 2007, Dortmund 2008; Bochum 2009 cancelled | fact | bpb; contemporary Ruhr regional announcement https://www.rvr.ruhr/news/startseite-news/news/love-is-everywhere-metropole-ruhr-ist-die-neue-heimat-der-loveparade/ | high | corrected city-and-year order |
 | Duisburg 24 July 2010: 21 dead from six countries, 652 injured, about 200,000 attending, one tunnel in and out | fact | DW | high | keep |
 | Ten charged; trial 2017 to May 2020 without a verdict | fact | DW | high | keep |
 | Schaller, 25 July 2010: "It's all over for the Love Parade." | quote | ra.co/news/12551 | high | keep, one short quote |
@@ -46,3 +46,7 @@ Ready after the open items in section 3. No factual blocker was found. Duisburg 
 | Street Parade first held 5 September 1992, Marek Krynski, about 1,000 people, seven Love Mobiles, one working properly | fact | streetparade.com/en/historie | high | keep |
 | Street Parade about 900,000 in 2025; 8 August 2026; 14 August 2027 | fact | streetparade.com/en | high | keep, attendance labelled as organiser figure |
 | The Love Parade will not return | fact | organiser statement 2010 (RA) | high | keep |
+
+## Approved reader and search update, 5 October 2026
+
+The owner approved replacing the unsupported "worst disaster in German club history" description with the dated Duisburg crowd-crush fact and making the Essen 2007 / Dortmund 2008 sequence direct. The article's intent, headings, anchors and metadata remain unchanged. This follow-up review is not independent.

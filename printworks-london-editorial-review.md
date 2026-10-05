@@ -75,3 +75,6 @@ Humanizer before and after:
 3. Before: "It stands as a testament to rave culture." After: "The last press is four storeys high and weighs 150 tonnes."
 
 Checks: build, check:html, audit-all (22 audits), check:layout and check:links all pass.
+## Approved reader and search update, 5 October 2026
+
+The owner approved replacing "reopening is real but delayed" with the narrower statement that a reopening is planned while its revised design and date remain unconfirmed. The owner's consultation at https://canadawater.co.uk/latest/news/invitation-to-view-proposals-for-a-new-cultural-venue-at-printworks/ supports that distinction. URL, title, headings, metadata and anchors remain unchanged. Follow-up review is not independent.

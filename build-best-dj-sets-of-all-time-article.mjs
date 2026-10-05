@@ -145,7 +145,7 @@ const tocItems = [
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const articleHtml = [
-  articleHero({kicker: 'DJ sets', title: 'The best DJ sets of all time', deck: 'Thirty sets people keep naming, each as the best official recording of its pick, from house and techno to jungle, garage and footwork.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'Best DJ sets of all time', bodyHtml: inline(answer[0]), className: 'article-summary'}), tocItems}),
+  articleHero({kicker: 'DJ sets', title: 'The best DJ sets of all time', deck: 'Thirty official recordings from house and techno to jungle, garage and footwork, with named sets, substitutes and editorial picks clearly marked.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'Best DJ sets of all time', bodyHtml: inline(answer[0]), className: 'article-summary'}), tocItems}),
   articleSection({id: 'introduction', title: 'The sets everyone names, and the ones you can hear.', bodyHtml: join(intro), className: 'article-intro'}),
   articleSection({id: 'method', title: 'How these 30 were chosen.', bodyHtml: join(method)}),
   ...groupSections,

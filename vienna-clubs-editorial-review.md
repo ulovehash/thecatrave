@@ -52,3 +52,6 @@ No published page was edited. Optional later: a sentence in best-clubs-in-europe
 ## Checks run
 
 npm run check:html passed; node audit-all.mjs passed (build + 22 audits); npm run check:layout passed (818 tests); npm run check:links passed (750 links); git diff --check clean; second build left best-clubs-in-vienna.html, feed.xml, sitemap.xml, articles.html and index.html byte-identical (md5 compared). Scoped OG runs: `build-og-cards.py vienna-clubs` and `build-og-cards.py articles`. No browser visual QA was done beyond the layout suite.
+## Approved reader and search update, 5 October 2026
+
+The owner approved clarifying in the direct answer that Pratersauna's outdoor day-club operation was a summer 2026 trial through September, not an established current operation. The nightclub closed in December 2025; its status after the summer trial was not confirmed by the sources checked. Source: https://www.falstaff.com/at/news/wiedereroeffnung-als-outdoor-club-neuer-aufguss-fuer-die-pratersauna. Existing club choices, search terms, headings, metadata and anchors remain unchanged. Follow-up review is not independent.

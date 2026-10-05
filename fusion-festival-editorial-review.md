@@ -52,3 +52,6 @@ Other drafts were not edited. Proposed wording, for body paragraphs, is in the h
 ## 8. Checks run
 
 build, scoped OG card (`python3 scripts/build-og-cards.py fusion-festival` and `articles`), `npm run check:html`, `node audit-all.mjs` (22 audits), `npm run check:layout`, `npm run check:links`, `git diff --check`, and a second build with no diff change.
+## Approved reader and search update, 5 October 2026
+
+The owner approved dating the €220 FAQ ticket price to 2026 and explicitly stating that 2028 pricing is unannounced. The 2026 price, including the €10 waste deposit, is confirmed by the organisers: https://fusion-festival.de/en/news/newsletter-november-2025. The 2028 edition and lottery guidance remain intact. URL, title, headings, metadata and anchors are unchanged. Follow-up review is not independent.

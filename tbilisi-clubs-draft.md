@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Tbilisi nightlife runs on a handful of rooms: Bassiani, KHIDI, Mtkvarze and Left Bank, with the late-night café Café Gallery alongside them. The nights start after midnight and the music is the reason to be there. The scene grew in about a decade, largely in former industrial spaces, and it has been shut down twice: by a police raid in May 2018, and by a strike of the biggest clubs during the winter protests of 2024. This guide covers the clubs open now, how Tbilisi got here, and the recorded sets that sound most like the rooms.
+Tbilisi nightlife runs on a handful of rooms: Bassiani, KHIDI, Mtkvarze and Left Bank, with the late-night café Café Gallery alongside them. The nights start after midnight and the music is the reason to be there. The scene grew in about a decade, largely in former industrial spaces, and it has been shut down twice: by a police raid in May 2018, and by a strike of the biggest clubs during the winter protests of 2024. This guide covers the clubs, how Tbilisi got here, and five Boiler Room sets filmed at Bassiani and KHIDI. Check current listings before visiting.
 
 ## How Tbilisi built a club scene
 

@@ -2,11 +2,11 @@
 
 ## Answer
 
-The Belgrade clubs worth planning a night around are Drugstore, a former slaughterhouse on Bulevar Despota Stefana that has held its current space since 2014, and Klub 20/44, which left its boat on the Sava for a building at Karađorđeva 44 on 31 December 2024. Barutana, an open-air club inside Kalemegdan fortress, reopened on 5 June 2026 after a year closed. The splavovi, the river clubs that once defined Belgrade nightlife, were cleared from the Savski kej in 2023 and 2024, and sources no longer agree on where the survivors moor.
+The Belgrade clubs worth planning a night around are Drugstore, a former slaughterhouse on Bulevar Despota Stefana that has held its current space since 2014, and Klub 20/44, which left its boat on the Sava for a building at Karađorđeva 44 on 31 December 2024. Barutana, an open-air club inside Kalemegdan fortress, reopened on 5 June 2026 after a year closed. The 2023 and 2024 clearances removed most splavovi from the Savski kej. Some river clubs continued elsewhere, but reports disagree on their current moorings.
 
 ## Introduction
 
-Search for Belgrade night life and you get bars, pub crawls and cocktail lists. This guide covers the smaller list of Belgrade clubs built for electronic music: the Belgrade nightclubs with a recorded history, from a slaughterhouse to a gunpowder store. For many years the best-known nightclubs in Belgrade sat on river rafts, the splavs; those get their own section, and recorded sets show what the rooms sound like. Nothing here is a schedule: lineups and opening nights change, so check each venue's own page before you go.
+Belgrade night life guides often cover bars, pub crawls and cocktails. This guide focuses on Belgrade nightclubs with documented electronic-music programming, including Drugstore's former slaughterhouse and Barutana's open-air space by a historic gunpowder magazine. Some of the best-known nightclubs in Belgrade operated on river rafts, the splavovi. The recorded sets below document several venues and events. Check each venue's current listings before you go.
 
 ## Belgrade nightlife in one pass
 
@@ -42,7 +42,7 @@ Boiler Room came back on 13 September 2017, filming on the deck of the boat. Tij
 
 ## Barutana Belgrade, the club in the fortress
 
-Barutana is an open-air club in the Veliki barutni magazin, a gunpowder store inside Kalemegdan fortress that was built between 1718 and 1720. According to clubber.rs it first operated as a club from 1995 to 2003 and returned in 2014. It reopened on Friday 5 June 2026 after a one-year break, with FJAAK headlining. It is open-air, so check dates before you go.
+Barutana is an open-air club in the walled space outside the Veliki barutni magazin at Belgrade Fortress. The gunpowder magazine was built between 1718 and 1720. According to clubber.rs it first operated as a club from 1995 to 2003 and returned in 2014. It reopened on Friday 5 June 2026 after a one-year break, with FJAAK headlining. Check dates before you go.
 
 ## Belgrade techno: the best techno club Belgrade has
 
@@ -72,7 +72,7 @@ For recorded sets from other cities, see [the best Boiler Room sets](/best-boile
 
 ### What are the best clubs in Belgrade for electronic music?
 
-Drugstore, Klub 20/44 and Barutana are the three that have the clearest recent record: Drugstore and 20/44 both hosted Boiler Room sessions, and Barutana reopened in June 2026. Kult is also worth checking, but its current programme is not confirmed.
+For electronic music, start with Drugstore and Klub 20/44. Barutana is a seasonal open-air option that reopened in June 2026. Check Kult's current programme before planning around it.
 
 ### What are the splavovi, and are they still open?
 

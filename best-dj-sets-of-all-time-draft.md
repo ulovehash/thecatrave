@@ -2,7 +2,7 @@
 
 ## Answer
 
-No one set is the best DJ set of all time, but thirty keep coming up, and this guide gives you the best officially published recording of each pick to hear today. The list is drawn from the published lists I could read plus one editorial rule: where the famous set was never released properly, the recording is a substitute, and it says so.
+No one set is universally agreed to be the best DJ set of all time. These 30 official recordings combine sets named by published lists with clearly labelled substitutes and editorial picks, so you can hear each selection. Where the famous set was never released officially, a different recording by the same DJ is labelled as a substitute.
 
 ## Introduction
 

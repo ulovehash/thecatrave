@@ -2,7 +2,7 @@
 
 ## Answer
 
-Ushuaia Ibiza is an open-air club and beach hotel on the Platja d'en Bossa road in Sant Josep de sa Talaia, with parties that run mainly from 5pm to 11pm for guests aged 18 and over. The club's ticket partner Clubtickets lists single events at €30 to €130 and VIP tickets from €500, and the dress code bans swimwear, flip flops and tank tops. The 2026 season opened on Sunday 26 April and closes with David Guetta's party on Monday 5 October and the ANTS closing party on Saturday 10 October. No 2027 dates, prices or lineup had been published on the official site when it was read on 5 October 2026. Everything below was read that day from the official site, Clubtickets, Ibiza Spotlight and the other sources at the end. Where a source says nothing, this page says so.
+Ushuaia Ibiza is an open-air club and beach hotel on the Platja d'en Bossa road in Sant Josep de sa Talaia, with parties that run mainly from 5pm to 11pm for guests aged 18 and over. For the 2026 season, the club's ticket partner Clubtickets listed single-event tickets at €30 to €130 and VIP tickets from €500. The dress code bans swimwear, flip flops and tank tops. The 2026 season opened on Sunday 26 April and closes with David Guetta's party on Monday 5 October and the ANTS closing party on Saturday 10 October. No 2027 dates, prices or lineup had been published on the official site when it was read on 5 October 2026. Everything below was read that day from the official site, Clubtickets, Ibiza Spotlight and the other sources at the end. Where a source says nothing, this page says so.
 
 ## Introduction
 

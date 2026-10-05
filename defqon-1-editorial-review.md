@@ -70,3 +70,6 @@ Three Commons images, new to this page, local webp (1200 and 320 wide, widths as
 | No production teaching, no files | pass | no sample, kit or MIDI content |
 | Genre links | pass | one link to `/hardstyle-guide`, one to `/selector` |
 | Implementation | pass | `node scripts/build.mjs`, `npm run check:html`, `node audit-all.mjs`, `npm run check:layout` (798 passed), `npm run check:links` all pass after the last edit. First `audit-keywords` run failed on three terms; fixed by adding the phrases to the text |
+## Approved reader and search update, 5 October 2026
+
+The owner approved clarifying the 2026 location FAQ answer: the cancelled edition was scheduled for the Holy Grounds, and Q-dance lists the 2027 event there for 24 to 27 June. Source: https://www.q-dance.com/l/defqon1-2027-faq. The measured 2026 question, URL, title, headings, metadata and anchors remain unchanged. Follow-up review is not independent.

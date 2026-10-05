@@ -6,7 +6,7 @@ The Love Parade began on 1 July 1989 in West Berlin with about 150 people and en
 
 ## Introduction
 
-The Love Parade was a techno parade that grew from a small group dancing on a Berlin avenue into an annual event of over a million people, and then ended in the worst disaster in German club history. Searches for "loveparade" split three ways: people who want the history, people who want to know what happened in Duisburg, and people who think it might still be on.
+The Love Parade grew from about 150 people on a Berlin avenue in 1989 into an annual techno parade attended by over a million. It ended after the 2010 crowd crush in Duisburg, in which 21 people died. Searches for "loveparade" split three ways: people who want the history, people who want to know what happened in Duisburg, and people who think it might still be on.
 
 This page answers all three from official and press sources. It treats Duisburg briefly and factually, and it says which figures are organiser estimates.
 
@@ -32,7 +32,7 @@ In 2001 the Love Parade lost its official status as a demonstration. The parade 
 
 ## Where was the Love Parade held after Berlin?
 
-For Love Parade Germany after Berlin means the Ruhr, the industrial region in the west, where the bpb says the parade moved from 2007. Love Parade Essen and Love Parade Dortmund were held in 2007 and 2008, and the sources disagree on the order: press coverage puts Essen first, while the organisers' own history page puts Dortmund first. A Bochum edition planned for 2009 was cancelled.
+For Love Parade Germany after Berlin means the Ruhr, the industrial region in the west, where the bpb says the parade moved from 2007. Love Parade Essen took place in 2007, followed by Love Parade Dortmund in 2008. A Bochum edition planned for 2009 was cancelled.
 
 The last Love Parade festival was set for Duisburg on 24 July 2010. Its organiser was Rainer Schaller of the McFit gym chain.
 

@@ -49,3 +49,6 @@ Images (all new, Commons licences read on the file pages): Dinamo Arena CC BY-SA
 ## 6. Not done
 
 Visual QA in a browser was not done; the layout suite (818 tests) passed. Café Gallery's 2026 schedule, the three snippet-level RA items, the Constitutional Court ruling and the Café Gallery 22 May date should be re-read at the source by the owner before the guide goes live.
+## Approved reader and search update, 5 October 2026
+
+The owner approved replacing the claim that the recordings "sound most like the rooms" with the verifiable statement that five Boiler Room sets were filmed at Bassiani and KHIDI, plus a current-listings instruction. No new listening observation is asserted. October 2026 listings were found for Bassiani at https://ra.co/promoters/100522 and KHIDI at https://ra.co/events/2542820; the article's venue-status paragraph was not otherwise changed. URL, title, headings, metadata and anchors remain unchanged. Follow-up review is not independent.

@@ -1,6 +1,6 @@
 # best-clubs-in-belgrade editorial review (2026-10-05)
 
-Independence: the same agent gathered the evidence and ran this review, so it is NOT independent. Stage 6 was not run as a separate pass (research package approved by the owner, then written the same day). Review dated after the last edit to the draft and builder.
+Independence: the same agent gathered the evidence and ran this review, so it is NOT independent. Stage 6 was not run as a separate pass (research package approved by the owner, then written the same day). Review refreshed after the last edit to the draft and builder.
 
 ## 1. Verdict
 
@@ -32,7 +32,7 @@ None open. Revisions already made: removed "second Belgrade session" and "second
 | Boiler Room at 20/44, 13 Sep 2017, on the deck; Tijana T, Vladimir Ivkovic, Kristijan Molnar, Toulouse Low Trax, Schwabe | fact | boilerroom.tv/city/belgrade, StillInBelgrade | high | keep |
 | Barutana reopened Fri 5 Jun 2026 after one year closed, FJAAK | fact | clubber.rs news piece | medium-high | keep |
 | Barutana first club 1995-2003, back in 2014 | fact | clubber.rs history blog (single source) | medium | kept, attributed to clubber.rs |
-| Magazine built 1718-1720 | fact | Belgrade Fortress site | high | keep |
+| Magazine built 1718-1720; current open-air club uses the walled space outside it | fact | Belgrade Fortress site; Clubber interview with Boža Podunavac, 3 May 2017, https://www.clubber.rs/blog/barutana-iz-ugla-didzejeva-koji-otvaraju-novu-sezonu/ | high | corrected draft and table |
 | Splav association 1977, 664 splavs in 1983, 1990s conversions | fact | Balkan Insight 13 Jun 2016 | medium-high | keep, attributed |
 | About 100 splavs on the Sava, under 30 won places, owners' lawyer called auction rigged | fact | Vreme 24 May 2023 | medium | keep, attributed |
 | Near Blok 45 from 100+ rafts to about 30; Sajam, Jakovo, Grocanski kej, 25th of May promenade; about 50 licensed positions Dorcol and Zemun; unsigned rafts to be removed; water treatment | fact | RTS / Direktno 13 Aug 2024 | high | keep |
@@ -83,3 +83,7 @@ Disco Not Disco and Karmakoma cut (single or snippet-only). The Kult claim is he
 | Internal links | pass | /best-clubs-in-budapest, /best-clubs-in-prague, /best-clubbing-cities-in-europe, /exit-festival, /best-boiler-room-sets: each links a related city or set guide. The Boiler Room guide link is for other cities' sets and makes no Belgrade claim |
 | Media | pass | section 8 |
 | Implementation | pass | build, check:html, audit-all.mjs (22 audits), check:links, git diff --check clean |
+
+## 11. Approved reader and search edits (2026-10-05)
+
+The owner approved four changes after a focused review of user friendliness and SEO. The answer now says most splavovi were removed from the Savski kej rather than implying all were cleared. The introduction states the guide's electronic-music scope directly while retaining measured search formulations. The Barutana paragraph and comparison table identify the present open-air space outside the gunpowder magazine; the 2017 Clubber interview above is the location evidence. The first FAQ answer gives visitors a direct club recommendation instead of using Boiler Room appearances as its ranking test. The URL, canonical, title, H1, headings, anchors and other venue facts are unchanged.
