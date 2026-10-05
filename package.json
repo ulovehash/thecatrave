@@ -9,6 +9,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "analytics:export": "node scripts/export-organic-analytics.mjs",
+    "selector:refresh": "node scripts/refresh-selector.mjs",
     "genres:catalog": "node scripts/genres-from-catalog-dump.mjs",
     "genres:youtube": "node scripts/genres-from-youtube-metadata.mjs",
     "genres:experiment": "node scripts/genre-background-worker.mjs",

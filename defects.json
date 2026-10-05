@@ -923,6 +923,17 @@
         "file": "ARTICLE-PRODUCTION-WORKFLOW.md",
         "contains": "holds only per-guide records"
       }
+    },
+    {
+      "id": "selector-fetch-drops-genres",
+      "found": "2026-10-05",
+      "by": "assistant",
+      "what": "Adding 14 channels and running scripts/fetch-sets.mjs alone rewrote selector-data.json with only fetch-time title genres: drum and bass fell from 2,030 sets to 45, jungle from 775 to 53. The genre signals live in separate steps (YouTube metadata, apply-genres) and nothing ran them or checked the result. The new channels' sets also had no description, keyword or metadata signal at all, so most were tagged only 'electronic'.",
+      "should_have_caught": "audit-selector.mjs checked ids, length and broadcasters but not that genres survived, and the refresh steps existed only as a list in a workflow file, not as one command.",
+      "fix": {
+        "file": "scripts/refresh-selector.mjs",
+        "contains": "genres-from-youtube-metadata"
+      }
     }
   ]
 }

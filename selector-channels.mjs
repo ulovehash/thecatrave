@@ -34,6 +34,25 @@ export const channels = [
   {broadcaster: 'Beatport',               handle: '@beatport',                channelId: 'UCyEMqKQPGdj8wKVKt2-agbQ'},
   {broadcaster: 'Elevator Music',          handle: '@ElevatorMusicLive',       channelId: 'UCSN7R7sDkoXfrx8gRdITr0Q'},
 
+  // Added 2026-10-05 for breaks, jungle, UKG, bass and club sets. Each was probed
+  // through the API for uploads over twenty minutes before being listed. Channels
+  // that only re-upload other broadcasters' shows (REV Drum & Bass, DeeperJungle)
+  // are deliberately absent.
+  {broadcaster: 'Kool FM',                handle: '@koolfmofficial',         channelId: 'UChfSoFEXRLDe3A2n7Bd93Xw'},
+  {broadcaster: 'Clock Factory',          handle: '@clockfactorybristol',    channelId: 'UCAnBc_juAVM0WGYs39H808A'},
+  {broadcaster: 'Reprezent Radio',        handle: '@reprezentradio',         channelId: 'UCYHoxoPe_rldzY40KEcpu3A'},
+  {broadcaster: 'Balamii',                handle: '@balamiiradio',           channelId: 'UCRb4XU3QKFEnpGc7FgfHYng'},
+  {broadcaster: 'Polyamor Berlin',        handle: '@polyamorberlin',         channelId: 'UCKTlHzR1HDEtwljmbyNoZuA'},
+  {broadcaster: 'Boomtown',               handle: '@boomtownfairofficial',   channelId: 'UChczTwpn82cl1B8Q1HiXr3w'},
+  {broadcaster: 'Bass Coast',             handle: '@basscoastfestival',      channelId: 'UCa-mDUFuGM7V3eqVZ9SoUIg'},
+  {broadcaster: 'Shogun Audio',           handle: '@shogunaudio',            channelId: 'UChK_wCJmjHXgGVvTJ5a9vfQ'},
+  {broadcaster: 'Metalheadz',             handle: '@metalheadzmusic',        channelId: 'UCwINh-tbXV6_6ArfariPZPw'},
+  {broadcaster: 'Critical Music',         handle: '@criticalmusic',          channelId: 'UCfYsxyFjsWcmDVGuXC3gzJg'},
+  {broadcaster: 'Playaz',                 handle: '@playazrecordings',       channelId: 'UC7j0ulAsoGRqXe95qxRj9JA'},
+  {broadcaster: 'fabric',                 handle: '@fabriclondonec1',        channelId: 'UCEpSQWHN-ZBcT6n4_paHO_A'},
+  {broadcaster: 'Dirtybird',              handle: '@dirtybirdrecords',       channelId: 'UCD7UAd18FFkcJ22wxNNwq7A'},
+  {broadcaster: 'Worldwide FM',           handle: '@worldwidefm',            channelId: 'UCPhWHabkShw040rgstUx1_Q'},
+
   // Places the catalogue had nothing from: South America, Africa, Hong Kong,
   // Manila, the Balkans, and the American clubs. Each was checked for uploads
   // over twenty minutes before being listed here; channels that turned out to

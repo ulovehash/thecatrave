@@ -78,6 +78,14 @@ if (!Array.isArray(sets)) {
   check('no known non-set title ships in the catalogue', rejected.length === 0,
     rejected.slice(0, 3).map(set => set.id).join(', '));
   check('pool is not trivially small', sets.length >= 100, `${sets.length}`);
+  // fetch-sets.mjs rewrites this file with title-derived genres only; the other
+  // signals are separate steps. Running it alone once dropped drum and bass from
+  // 2,030 sets to 45. Run `npm run selector:refresh`, which does all of them.
+  if (sets.length >= 5000) {
+    const specific = sets.filter(s => (s.genres || []).some(g => g !== 'electronic')).length;
+    check('genre tags survived the last fetch (>= 40% of sets carry a specific genre)',
+      specific / sets.length >= 0.4, `${specific}/${sets.length}`);
+  }
 }
 
 if (failures.length) {

@@ -833,6 +833,11 @@ export const CHANNEL_GENRES = {
   'Groove Cartel': ['amapiano'],
   'Stay True Sounds': ['deep house'],
   'Kunye': ['afro house'],
+  'Kool FM': ['jungle', 'drum and bass'],
+  'Shogun Audio': ['drum and bass'],
+  'Metalheadz': ['drum and bass'],
+  'Critical Music': ['drum and bass'],
+  'Playaz': ['drum and bass'],
 };
 
 // Broad last-resort labels for platforms whose catalogue is consistently

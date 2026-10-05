@@ -27,6 +27,11 @@ jobs:
       - name: Tag genres from uploader keywords (Keep Hush et al.)
         run: BROADCASTER="Keep Hush" node scripts/genres-from-tags.mjs
 
+      - name: Tag genres from YouTube title, description and keywords
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/genres-from-youtube-metadata.mjs
+
       - name: Tag genres from MusicBrainz
         run: node scripts/enrich-genres.mjs
 
@@ -38,7 +43,7 @@ jobs:
 
       - name: Commit if the catalogue changed
         run: |
-          FILES="selector-data.json selector.html selector-genres-cache.json selector-tags-cache.json selector-videos-cache.json"
+          FILES="selector-data.json selector.html selector-genres-cache.json selector-tags-cache.json selector-youtube-genre-cache.json selector-data.min.json de/selector.html fr/selector.html selector-videos-cache.json"
           if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"

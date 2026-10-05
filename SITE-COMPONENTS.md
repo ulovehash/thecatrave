@@ -233,3 +233,7 @@ A page's own editorial copy never comes from there.
     grid, not the last item of the nav: the home nav has six links and scrolls
     sideways on a phone, and a dropdown inside a scrolling row either gets
     clipped or widens the page. The article header keeps it inside the nav.
+
+## Updating the Selector catalogue
+
+Adding a channel to `selector-channels.mjs`, or picking up new uploads, is one command: `npm run selector:refresh`. It runs the fetch, the Keep Hush keyword tags, the YouTube title/description/keyword pass, `apply-genres.mjs`, the page build and `audit-selector.mjs`, in that order. Never run `scripts/fetch-sets.mjs` alone: it rewrites `selector-data.json` with title-derived genres only, and drum and bass once dropped from 2,030 sets to 45. `audit-selector.mjs` now fails if under 40% of sets carry a specific genre. After adding a channel, also run `python3 scripts/fetch-channel-logos.py` and `python3 scripts/channel-colors.py`. A genuinely single-genre channel goes in `CHANNEL_GENRES` in `scripts/genre-manual.mjs`; a mixed one does not. The MusicBrainz artist lookup (`scripts/enrich-genres.mjs`) takes hours and stays a separate, optional step.

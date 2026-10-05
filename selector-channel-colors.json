@@ -1,6 +1,16 @@
 {
+ "Balamii": {
+  "bg": "#3c3c54",
+  "fg": "#fff",
+  "src": "logo"
+ },
  "Bangkok Community Radio": {
   "bg": "#a63030",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Bass Coast": {
+  "bg": "#a64730",
   "fg": "#fff",
   "src": "derived"
  },
@@ -13,6 +23,11 @@
   "bg": "#d6231f",
   "fg": "#fff",
   "src": "brand"
+ },
+ "Boomtown": {
+  "bg": "#fccc0c",
+  "fg": "var(--ink)",
+  "src": "logo"
  },
  "Boxout.fm": {
   "bg": "#5484cc",
@@ -29,28 +44,43 @@
   "fg": "#fff",
   "src": "brand"
  },
- "Club Space": {
-  "bg": "#a65230",
+ "Clock Factory": {
+  "bg": "#a65e30",
   "fg": "#fff",
   "src": "derived"
  },
+ "Club Space": {
+  "bg": "#a67530",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Critical Music": {
+  "bg": "#a68b30",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
  "DJ Mag": {
-  "bg": "#a67430",
+  "bg": "#a6a230",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Dekmantel": {
-  "bg": "#a69530",
+  "bg": "#93a630",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Dirtybird": {
+  "bg": "#7ca630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "DnB Allstars": {
-  "bg": "#95a630",
+  "bg": "#65a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Elevator Music": {
-  "bg": "#74a630",
+  "bg": "#4fa630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -65,7 +95,7 @@
   "src": "logo"
  },
  "Hospital Records": {
-  "bg": "#52a630",
+  "bg": "#38a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -75,7 +105,7 @@
   "src": "brand"
  },
  "Intercell": {
-  "bg": "#30a630",
+  "bg": "#30a63f",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -89,8 +119,13 @@
   "fg": "var(--ink)",
   "src": "logo"
  },
+ "Kool FM": {
+  "bg": "#fc3c54",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
  "Kunye": {
-  "bg": "#30a652",
+  "bg": "#30a656",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -100,7 +135,12 @@
   "src": "logo"
  },
  "Manila Community Radio": {
-  "bg": "#30a674",
+  "bg": "#30a66d",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Metalheadz": {
+  "bg": "#30a684",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -115,27 +155,42 @@
   "src": "brand"
  },
  "My Analog Journal": {
-  "bg": "#30a695",
+  "bg": "#30a69b",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "NTS Radio": {
-  "bg": "#3095a6",
+  "bg": "#309ba6",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Outlook Festival": {
-  "bg": "#3074a6",
+  "bg": "#3084a6",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Playaz": {
+  "bg": "#306da6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Polyamor Berlin": {
+  "bg": "#3056a6",
   "fg": "#fff",
   "src": "derived"
  },
  "Radio Rudina": {
-  "bg": "#3052a6",
+  "bg": "#303fa6",
   "fg": "#fff",
   "src": "derived"
  },
  "Rampage": {
   "bg": "#0c543c",
+  "fg": "#fff",
+  "src": "logo"
+ },
+ "Reprezent Radio": {
+  "bg": "#243cb4",
   "fg": "#fff",
   "src": "logo"
  },
@@ -145,7 +200,7 @@
   "src": "brand"
  },
  "Rinse France": {
-  "bg": "#3030a6",
+  "bg": "#3830a6",
   "fg": "#fff",
   "src": "derived"
  },
@@ -159,33 +214,48 @@
   "fg": "var(--ink)",
   "src": "brand"
  },
+ "Shogun Audio": {
+  "bg": "#4f30a6",
+  "fg": "#fff",
+  "src": "derived"
+ },
  "Stay True Sounds": {
-  "bg": "#5230a6",
+  "bg": "#6530a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Concourse Project": {
-  "bg": "#7430a6",
+  "bg": "#7c30a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Lot Radio": {
-  "bg": "#9530a6",
+  "bg": "#9330a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Mudd Show": {
-  "bg": "#a63095",
+  "bg": "#a630a2",
   "fg": "#fff",
   "src": "derived"
  },
  "Under Club": {
-  "bg": "#a63074",
+  "bg": "#a6308b",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Worldwide FM": {
+  "bg": "#a63075",
   "fg": "#fff",
   "src": "derived"
  },
  "Yoyaku": {
-  "bg": "#a63052",
+  "bg": "#a6305e",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "fabric": {
+  "bg": "#a63047",
   "fg": "#fff",
   "src": "derived"
  }
