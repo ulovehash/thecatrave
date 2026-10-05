@@ -1,0 +1,15 @@
+{
+  "page":"love-parade.html","checked":"2026-10-05",
+  "images":[
+    {"file":"img/love-parade/rave-the-planet-2023-1200.webp","source":"https://commons.wikimedia.org/wiki/File:Rave_the_Planet_2023_K.jpg","author":"Sargoth","license":"CC BY-SA 4.0","dimensions":"1200x899","purpose":"the Berlin parade on the Straße des 17. Juni, the Love Parade's avenue, in 2023"}
+  ],
+  "listening":[
+    {"artist":"Sven Väth","title":"Sven Väth Boiler Room Berlin Groove Magazine DJ set","year":null,"platform":"YouTube","id":"uInltd4OkTQ","verification":"selector-data.json catalogue; oEmbed 200 on 2026-10-05; not a Love Parade appearance"},
+    {"artist":"DJ Hell","title":"DJ Hell Boiler Room Berlin DJ Set","year":null,"platform":"YouTube","id":"sj_ulHgaf40","verification":"selector-data.json catalogue; oEmbed 200 on 2026-10-05; not a Love Parade appearance"},
+    {"artist":"Ellen Allien","title":"TTT X HÖR - Ellen Allien / April 4 / 10pm-11pm","year":null,"platform":"YouTube","id":"GG2IQguY-J0","verification":"selector-data.json catalogue; oEmbed 200 on 2026-10-05; not a Love Parade appearance"}
+  ],
+  "rejected":[
+    {"asset":"Rave the Planet attendance chart","why":"German-labelled, and the figures are organiser estimates already in the text"},
+    {"asset":"Duisburg 2010 photographs","why":"none sourced; the page does not illustrate the disaster"}
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "page": "love-parade.html",
+  "seed": "love parade",
+  "source": "Google Ads Keyword Planner, all locations, English, Sep 2025 to Aug 2026 (bucketed ranges only), run 5 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. 'love parade cancelled' and 'is love parade still happening' returned no row. Left out on purpose: band, film, t-shirt and 'planet rave' variants (different intent), 'love parade tickets' (10 to 100, nothing to sell for an event that ended in 2010). 'love parade songs' (100) and 'love parade documentary' (10) were dropped: no verified track list or documentary source was read, so the page does not target them.",
+  "terms": [
+    {
+      "term": "loveparade",
+      "volume": 10000
+    },
+    {
+      "term": "love parade 2026",
+      "volume": 10000
+    },
+    {
+      "term": "love parade berlin 2026",
+      "volume": 10000
+    },
+    {
+      "term": "rave the planet 2026",
+      "volume": 10000
+    },
+    {
+      "term": "street parade",
+      "volume": 10000
+    },
+    {
+      "term": "street parade zurich",
+      "volume": 10000
+    },
+    {
+      "term": "rave the planet parade",
+      "volume": 1000
+    },
+    {
+      "term": "rave the planet berlin",
+      "volume": 1000
+    },
+    {
+      "term": "love parade germany",
+      "volume": 100
+    },
+    {
+      "term": "love parade festival",
+      "volume": 100
+    },
+    {
+      "term": "loveparade duisburg 2010",
+      "volume": 100
+    },
+    {
+      "term": "love parade 1989",
+      "volume": 100
+    },
+    {
+      "term": "love parade dortmund",
+      "volume": 10
+    },
+    {
+      "term": "love parade essen",
+      "volume": 10
+    },
+    {
+      "term": "love parade 2027",
+      "volume": 10
+    },
+    {
+      "term": "why was love parade cancelled",
+      "volume": 10
+    },
+    {
+      "term": "love parade meaning",
+      "volume": 10
+    }
+  ],
+  "excluded": [
+    {
+      "term": "love parade movie",
+      "volume": 10,
+      "why": "film intent"
+    },
+    {
+      "term": "love parade band",
+      "volume": 10,
+      "why": "band intent"
+    },
+    {
+      "term": "love parade tickets",
+      "volume": 10,
+      "why": "nothing to sell, the event ended in 2010"
+    }
+  ]
+}

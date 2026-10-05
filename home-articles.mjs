@@ -514,6 +514,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The Snowbombing Street Party in Mayrhofen in April 2016'
   },
   {
+    page:'love-parade.html', category:'festivals', tags:['techno','history'], href:'/love-parade', type:'Guide', topic:'Love Parade',
+    title:'Love Parade: History, Duisburg 2010 and Rave the Planet',
+    description:'The Love Parade from Berlin in 1989 to Duisburg in 2010, why it ended, and Rave the Planet and the Street Parade, the parades that carry it on.',
+    image:'img/love-parade/rave-the-planet-2023-320.webp',
+    srcset:'img/love-parade/rave-the-planet-2023-320.webp 320w,img/love-parade/rave-the-planet-2023-1200.webp 1200w',
+    width:1200, height:899, alt:'A crowd on the Straße des 17. Juni in Berlin at the Rave the Planet parade, 2023'
+  },
+  {
     page:'time-warp-festival.html', category:'festivals', tags:['techno','house'], href:'/time-warp-festival', type:'Guide', topic:'Time Warp',
     title:'Time Warp Festival 2027: Mannheim, Tickets, Line-up',
     description:'Time Warp 2027: when the Mannheim original runs, which cities host an edition, how tickets work and who plays.',
