@@ -90,7 +90,7 @@ Plastic People began in Soho, where Trash first ran, and moved to Curtain Road i
 
 Three lists that review London clubs were read for this page in September 2026: Resident Advisor's, Time Out's (updated on 29 July 2026) and Condé Nast Traveller's. fabric, The Cause and FOLD are on all three. The table below keeps the clubs that at least one of them names and that the rest of the research, from search demand to the clubs' own histories, backs up.
 
-Two famous clubs in London are missing from it on purpose. Corsica Studios, two rooms in railway arches at Elephant and Castle since 2002, with a Funktion-One system from 2007, announced in September 2025 that it would close in its current form in 2026, and Resident Advisor records its last night on 28 March. Printworks, the former newspaper plant at Rotherhithe, closed for redevelopment in 2023; its Press Halls are scheduled to reopen as a venue in 2026.
+Two famous clubs in London are missing from it on purpose. Corsica Studios, two rooms in railway arches at Elephant and Castle since 2002, with a Funktion-One system from 2007, announced in September 2025 that it would close in its current form in 2026, and Resident Advisor records its last night on 28 March. Printworks, the former newspaper plant at Rotherhithe, closed for redevelopment in 2023; its Press Halls are scheduled to reopen as a venue in 2026. The [Printworks London guide](/printworks-london) covers the closure, the 2024 reopening approval and what is still undated.
 
 [Embed: thecatrave Protect Ya Breaks]
 

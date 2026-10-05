@@ -8,7 +8,7 @@ The fabric nightclub is at 77a Charterhouse Street in Farringdon, open since 199
 
 Searches for fabric London, the fabric nightclub or the fabric club all point to one venue in Farringdon. Most people want one of a few things: when the doors open, how to buy a ticket, what to wear, or why the club was shut in 2016. The club's own site answers most of them, but across a dozen pages.
 
-This guide puts those answers in one place, dated, with the 2016 timeline taken from the council statement and the press of the time. It also keeps a list of what no source states. For other London rooms there is the [London clubs guide](/best-electronic-music-clubs-in-london).
+This guide puts those answers in one place, dated, with the 2016 timeline taken from the council statement and the press of the time. It also keeps a list of what no source states. For other London rooms there is the [London clubs guide](/best-electronic-music-clubs-in-london). If you are looking for the closed Rotherhithe venue, see the [Printworks London guide](/printworks-london).
 
 fabric sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
 

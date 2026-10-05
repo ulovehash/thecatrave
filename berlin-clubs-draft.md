@@ -30,7 +30,7 @@ Tresor itself lost its first home. It closed at Leipziger Strasse on 16 April 20
 
 [Image: Tresor door]
 
-In March 2024 Berlin's techno culture was added to Germany's inventory of intangible cultural heritage, the national list kept under the UNESCO convention. That is the backdrop to every club below.
+In March 2024 Berlin's techno culture was added to Germany's inventory of intangible cultural heritage, the national list kept under the UNESCO convention. That is the backdrop to every club below. The parade that grew out of this scene has its own history in the [Love Parade guide](/love-parade).
 
 ## Berghain and Panorama Bar
 

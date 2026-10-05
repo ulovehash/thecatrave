@@ -163,7 +163,7 @@ grew through clubs, labels, radio and mass events alongside techno rather than
 after it.
 
 Berlin supplied a different set of conditions. Dr. Motte and Danielle de
-Picciotto organised the first Love Parade in July 1989, months before the Wall
+Picciotto organised the first [Love Parade](/love-parade) in July 1989, months before the Wall
 fell. Reunification then opened basements, power plants, bunkers and other
 temporarily available spaces. UFO had already created a centre for house and
 techno. Tresor opened on 13 March 1991 in the vaults of the former Wertheim

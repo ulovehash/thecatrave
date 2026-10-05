@@ -50,7 +50,7 @@ The distinction becomes less tidy at the edges. Hard techno has borrowed hardsty
 
 ## Hardstyle festivals and the current scene
 
-Defqon.1 is the best-known hardstyle festival. Q-dance stages divide the harder styles by colour and sound, so classic hardstyle, raw, hardcore and related forms can sit within one weekend without being treated as identical. The Red stage is the main arena.
+Defqon.1 is the best-known hardstyle festival. Q-dance stages divide the harder styles by colour and sound, so classic hardstyle, raw, hardcore and related forms can sit within one weekend without being treated as identical. The Red stage is the main arena. The [Defqon.1 2027 guide](/defqon-1) has its dates, ticket sales and the story of the cancelled 2026 edition.
 
 The wider circuit includes Decibel Outdoor, Intents Festival, REBiRTH and Reverze, with hardstyle stages also appearing at broader electronic festivals. Event names and formats change, so official festival sites are the reliable source for a current calendar.
 

@@ -55,7 +55,7 @@ Mysteryland began as a rave in 1993 and has settled in Haarlemmermeer, near Amst
 
 ### Defqon.1, Netherlands
 
-Defqon.1 is the festival hardstyle is built around, run by Q-dance since 2003 on the event grounds of Walibi Holland in Biddinghuizen. Its stages are colour-coded by style, from the main hardstyle stage to rawstyle, hardcore and frenchcore, and the 2025 edition counted about 268,000 visitors over four days. Defqon.1 2027 is on 24 to 27 June, with camping on site. Nothing else in Europe comes close for this music. If you do not already love hardstyle, this is not the place to find out.
+Defqon.1 is the festival hardstyle is built around, run by Q-dance since 2003 on the event grounds of Walibi Holland in Biddinghuizen. Its stages are colour-coded by style, from the main hardstyle stage to rawstyle, hardcore and frenchcore, and the 2025 edition counted about 268,000 visitors over four days. Defqon.1 2027 is on 24 to 27 June, with camping on site. Nothing else in Europe comes close for this music. If you do not already love hardstyle, this is not the place to find out. The [Defqon.1 2027 guide](/defqon-1) has the ticket sale dates and the story of the cancelled 2026 edition.
 
 ## Techno and house
 
