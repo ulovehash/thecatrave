@@ -98,7 +98,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The entrance to Berghain in Berlin'
   },
   {
-    page:'berghain.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/berghain', type:'Guide', topic:'Berghain',
+    page:'berghain.html', released:'2026-10-04T19:38:14+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/berghain', type:'Guide', topic:'Berghain',
     title:'Berghain: Panorama Bar, Sound and Residents',
     description:'Berghain explained: the former power station, Panorama Bar upstairs, Halle am Berghain, the Kantine, and the Ostgut Ton label.',
     image:'img/berghain/berghain-facade-320.webp',
@@ -498,7 +498,7 @@ export const homeArticleCatalog = [
     width:1200, height:799, alt:'Midland playing a DJ set at Dekmantel Festival in 2017'
   },
   {
-    page:'best-winter-music-festivals.html', category:'festivals', tags:['house','techno','discovery'], href:'/best-winter-music-festivals', type:'Guide', topic:'Winter festivals',
+    page:'best-winter-music-festivals.html', released:'2026-10-04T14:19:28+03:00', category:'festivals', tags:['house','techno','discovery'], href:'/best-winter-music-festivals', type:'Guide', topic:'Winter festivals',
     title:'Best Winter Music Festivals 2027: Snowbombing, Igloofest, CTM',
     description:'Winter music festivals in 2027, from Tomorrowland Winter and Snowbombing to CTM, Elevate and Shapes, with dates marked confirmed or unconfirmed.',
     image:'img/winter-festivals/igloofest-2009-320.webp',
@@ -506,7 +506,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Igloofest in Montreal in January 2009'
   },
   {
-    page:'snowbombing-festival.html', category:'festivals', tags:['house','breaks'], href:'/snowbombing-festival', type:'Guide', topic:'Snowbombing',
+    page:'snowbombing-festival.html', released:'2026-10-04T14:19:28+03:00', category:'festivals', tags:['house','breaks'], href:'/snowbombing-festival', type:'Guide', topic:'Snowbombing',
     title:'Snowbombing 2027: Dates, Tickets, Mayrhofen',
     description:'Snowbombing 2027 runs 5 to 10 April in Mayrhofen, Austria. Dates, how packages and tickets work, where it is held and who plays.',
     image:'img/snowbombing/street-party-2016-320.webp',
@@ -514,7 +514,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The Snowbombing Street Party in Mayrhofen in April 2016'
   },
   {
-    page:'love-parade.html', category:'festivals', tags:['techno','history'], href:'/love-parade', type:'Guide', topic:'Love Parade',
+    page:'love-parade.html', released:'2026-10-05T11:57:26+03:00', category:'festivals', tags:['techno','history'], href:'/love-parade', type:'Guide', topic:'Love Parade',
     title:'Love Parade: History, Duisburg 2010 and Rave the Planet',
     description:'The Love Parade from Berlin in 1989 to Duisburg in 2010, why it ended, and Rave the Planet and the Street Parade, the parades that carry it on.',
     image:'img/love-parade/rave-the-planet-2023-320.webp',
@@ -522,7 +522,7 @@ export const homeArticleCatalog = [
     width:1200, height:899, alt:'A crowd on the Straße des 17. Juni in Berlin at the Rave the Planet parade, 2023'
   },
   {
-    page:'time-warp-festival.html', category:'festivals', tags:['techno','house'], href:'/time-warp-festival', type:'Guide', topic:'Time Warp',
+    page:'time-warp-festival.html', released:'2026-10-04T17:24:02+03:00', category:'festivals', tags:['techno','house'], href:'/time-warp-festival', type:'Guide', topic:'Time Warp',
     title:'Time Warp Festival 2027: Mannheim, Tickets, Line-up',
     description:'Time Warp 2027: when the Mannheim original runs, which cities host an edition, how tickets work and who plays.',
     image:'img/time-warp/monika-kruse-2016-320.webp',
@@ -530,7 +530,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Monika Kruse behind the decks at Time Warp in Mannheim, high-fiving a person in front of the booth'
   },
   {
-    page:'pacha-ibiza.html', category:'rave-spots', tags:['house','techno','history'], href:'/pacha-ibiza', type:'Guide', topic:'Pacha Ibiza',
+    page:'pacha-ibiza.html', released:'2026-10-04T20:48:49+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/pacha-ibiza', type:'Guide', topic:'Pacha Ibiza',
     title:'Pacha Ibiza: Tickets, Dress Code and Calendar 2026',
     description:'Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.',
     image:'img/pacha-ibiza/cherries-2014-320.webp',
@@ -538,7 +538,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The red cherry signs of Pacha Ibiza lit at night'
   },
   {
-    page:'ushuaia-ibiza.html', category:'rave-spots', tags:['house','techno'], href:'/ushuaia-ibiza', type:'Guide', topic:'Ushuaia Ibiza',
+    page:'ushuaia-ibiza.html', released:'2026-10-05T12:43:03+03:00', category:'rave-spots', tags:['house','techno'], href:'/ushuaia-ibiza', type:'Guide', topic:'Ushuaia Ibiza',
     title:'Ushuaia Ibiza: Tickets, Dress Code and Season Events',
     description:'Ushuaia Ibiza: what tickets cost, the dress code and entry rules, the 2026 residencies and closing parties, and what 2027 has not published.',
     image:'img/ushuaia-ibiza/dance-floor-2023-320.webp',
@@ -546,7 +546,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The Ushuaia Ibiza dance floor packed around the pool at dusk'
   },
   {
-    page:'best-clubs-in-europe.html', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',
+    page:'best-clubs-in-europe.html', released:'2026-10-04T21:46:12+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',
     title:'Best Clubs in Europe: 23 Nightclubs Worth the Trip',
     description:'The best clubs in Europe by country, from Berghain and fabric to Pacha, with sets to hear from several rooms.',
     image:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp',
@@ -554,7 +554,7 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'Cavo Paradiso on its cliff above the sea in Mykonos, seen from the water'
   },
   {
-    page:'fabric-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/fabric-london', type:'Guide', topic:'fabric London',
+    page:'fabric-london.html', released:'2026-10-04T19:38:15+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/fabric-london', type:'Guide', topic:'fabric London',
     title:'fabric London: History, Rooms, Tickets and Dress Code',
     description:'fabric London in Farringdon: the three rooms, opening times, tickets, dress code, capacity, age limit and what happened in the 2016 closure.',
     image:'img/fabric-london/exterior-2017-320.webp',
@@ -562,7 +562,7 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The front of fabric on Charterhouse Street in London in 2017'
   },
   {
-    page:'printworks-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/printworks-london', type:'Guide', topic:'Printworks London',
+    page:'printworks-london.html', released:'2026-10-05T11:32:49+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/printworks-london', type:'Guide', topic:'Printworks London',
     title:'Printworks London: Reopening, Closure and History',
     description:'Printworks London closed in May 2023. What is officially planned, why it shut, its rooms and capacity, famous nights, Drumsheds and where to go instead.',
     image:'img/printworks-london/gate-2010-320.webp',
@@ -570,7 +570,7 @@ export const homeArticleCatalog = [
     width:1200, height:797, alt:'A fenced gate at the Harmsworth Quays print works in Rotherhithe in 2010'
     },
     {
-    page:'defqon-1.html', category:'festivals', tags:['discovery','history','hardstyle'], href:'/defqon-1', type:'Guide', topic:'Defqon.1',
+    page:'defqon-1.html', released:'2026-10-05T11:37:56+03:00', category:'festivals', tags:['discovery','history','hardstyle'], href:'/defqon-1', type:'Guide', topic:'Defqon.1',
     title:'Defqon.1 2027: Dates, Tickets, Sale Dates, Line-up',
     description:'Defqon.1 2027: dates, how the ticket sales work, why 2026 was cancelled, where it is held, the stage colours and how to get there.',
     image:'img/defqon-1/red-stage-2023-320.webp',
@@ -578,7 +578,7 @@ export const homeArticleCatalog = [
     width:1280, height:720, alt:'The Red main stage at Defqon.1 2023 in daylight, with a crowd in front'
   },
   {
-    page:'fusion-festival.html', category:'festivals', tags:['discovery','history','techno'], href:'/fusion-festival', type:'Guide', topic:'Fusion Festival',
+    page:'fusion-festival.html', released:'2026-10-05T12:44:19+03:00', category:'festivals', tags:['discovery','history','techno'], href:'/fusion-festival', type:'Guide', topic:'Fusion Festival',
     title:'Fusion Festival, Lärz Germany: 2027, 2028 Dates, Tickets',
     description:'Fusion Festival in Lärz, Germany: why there is no 2027 edition, the 2028 dates, how the ticket lottery works, the 2019 police dispute, stages and how to get there.',
     image:'img/fusion-festival/palapa-2019-320.webp',
@@ -586,7 +586,7 @@ export const homeArticleCatalog = [
     width:1200, height:675, alt:'The Palapa stage at night during Fusion Festival 2019, with a crowd in purple light'
   },
   {
-    page:'electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',
+    page:'electric-forest-festival.html', released:'2026-10-04T20:48:49+03:00', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',
     title:'Electric Forest 2027: Tickets, Dates, Camping, Line-up',
     description:'Electric Forest 2027: when it is held in Rothbury, Michigan, how tickets and camping work, how to get there and what to pack.',
     image:'img/electric-forest/entrance-2018-320.webp',
@@ -594,7 +594,7 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The wooden Electric Forest entrance arch with a crowd of festival-goers in front of it'
   },
   {
-    page:'best-electronic-music-festivals-asia.html', category:'festivals', tags:['discovery','bass'], href:'/best-electronic-music-festivals-asia', type:'Guide', topic:'Asia festivals',
+    page:'best-electronic-music-festivals-asia.html', released:'2026-10-04T21:46:12+03:00', category:'festivals', tags:['discovery','bass'], href:'/best-electronic-music-festivals-asia', type:'Guide', topic:'Asia festivals',
     title:'Best Electronic Music Festivals in Asia: 2027 Guide',
     description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP and more: where they are, what they play and which 2027 dates are confirmed.',
     image:'img/asia-festivals/ultra-korea-2015-320.webp',
@@ -1583,8 +1583,9 @@ export function homeArticlesWithReadingTimes(lang = 'en') {
 
 // The homepage lists articles newest first, by the datePublished each generated
 // page already declares, so a new article goes to the top without anyone
-// reordering the catalogue by hand. Same-day ties go to the entry added to the
-// catalogue later. Read Next keeps catalogue order: its tie-breaking depends
+// reordering the catalogue by hand. Same-day ties go to the entry with the later
+// optional `released` timestamp (the commit time it was first published), then to
+// the entry added to the catalogue later. Read Next keeps catalogue order: its tie-breaking depends
 // on it, and it should not shift every time something is published.
 //
 // The grid always shows exactly HOME_CARDS, two full rows of four: when a new
@@ -1608,7 +1609,9 @@ export function allArticlesNewestFirst(lang = 'en') {
   };
   return homeArticlesWithReadingTimes(lang)
     .map((item, index) => ({item, index, date: published(item)}))
-    .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)
+    .sort((a, b) => b.date.localeCompare(a.date)
+      || (b.item.released ? Date.parse(b.item.released) : 0) - (a.item.released ? Date.parse(a.item.released) : 0)
+      || b.index - a.index)
     .map(entry => entry.item);
 }
 

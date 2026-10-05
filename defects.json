@@ -934,6 +934,17 @@
         "file": "scripts/refresh-selector.mjs",
         "contains": "genres-from-youtube-metadata"
       }
+    },
+    {
+      "id": "same-day-articles-not-in-release-order",
+      "found": "2026-10-05",
+      "by": "owner",
+      "what": "The Articles page and homepage sort by the page's datePublished (a date, no time) and break same-day ties by catalogue position. Five guides released on 2026-10-05 (Printworks, Defqon.1, Love Parade, Ushuaia, Fusion) therefore showed as Fusion, Defqon.1, Printworks, Ushuaia, Love Parade instead of release order.",
+      "should_have_caught": "nothing: the sort had no release time to use",
+      "fix": {
+        "file": "home-articles.mjs",
+        "contains": "(b.item.released ? Date.parse(b.item.released) : 0)"
+      }
     }
   ]
 }
