@@ -1,0 +1,98 @@
+{
+  "page": "fusion-festival.html",
+  "seed": "fusion festival",
+  "source": "Google Ads Keyword Planner, United States, all languages, Sep 2025 to Aug 2026 (bucketed ranges only), run 5 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket (50000 = 10K to 100K, 5000 = 1K to 10K, 500 = 100 to 1K, 50 = 10 to 100, 0 = 0 to 10). 19 terms were submitted in one batch; 'fusion festival ticket lottery' returned no row. The Planner location was United States, not worldwide, so a German-market festival is understated. The 'fusion festival' SERP also shows a South Bend, Indiana event (Fusion Fest), a naming overlap the page flags. Headings without a measured phrase: Introduction, What is Fusion Festival?, Fusion Festival 2027 and 2028 (both halves are measured separately), How to get there (the exact phrase 'fusion festival how to get there' sits in the body) and the H3 How the ticket lottery works. People Also Ask seen: where is 2026, 2027.",
+  "terms": [
+    {
+      "term": "fusion festival",
+      "volume": 5000,
+      "why": "title, H1 and body"
+    },
+    {
+      "term": "fusion festival germany",
+      "volume": 500,
+      "why": "What is section body"
+    },
+    {
+      "term": "fusion festival 2026",
+      "volume": 500,
+      "why": "H2"
+    },
+    {
+      "term": "fusion festival 2025",
+      "volume": 500,
+      "why": "2026 section body"
+    },
+    {
+      "term": "fusion festival tickets",
+      "volume": 50,
+      "why": "H2"
+    },
+    {
+      "term": "fusion festival lärz",
+      "volume": 50,
+      "why": "Lärz section body"
+    },
+    {
+      "term": "fusion festival lineup",
+      "volume": 50,
+      "why": "H2"
+    },
+    {
+      "term": "fusion festival how to get there",
+      "volume": 50,
+      "why": "travel section body; the H2 is the short form"
+    },
+    {
+      "term": "fusion festival capacity",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "fusion festival dates",
+      "volume": 50,
+      "why": "2027 and 2028 section body"
+    },
+    {
+      "term": "kulturkosmos lärz",
+      "volume": 50,
+      "why": "Lärz section body; the H2 is the reversed form"
+    },
+    {
+      "term": "fusion festival stages",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "fusion festival sets",
+      "volume": 50,
+      "why": "H3"
+    },
+    {
+      "term": "fusion festival berlin",
+      "volume": 50,
+      "why": "travel section body"
+    },
+    {
+      "term": "fusion festival 2027",
+      "volume": 50,
+      "why": "H2 and FAQ"
+    },
+    {
+      "term": "fusion festival 2028",
+      "volume": 50,
+      "why": "intro body and FAQ"
+    },
+    {
+      "term": "fusion festival police",
+      "volume": 50,
+      "why": "H2"
+    },
+    {
+      "term": "fusion festival age limit",
+      "volume": 0,
+      "why": "H3 and FAQ (0 to 10 bucket)"
+    }
+  ]
+}

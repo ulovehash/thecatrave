@@ -58,6 +58,8 @@ export const festivalEditions = [
   // Ultra Japan 2027 is dated (18 and 19 September); most others unannounced on 2026-10-04.
   {page: 'best-electronic-music-festivals-asia.html', heading: 'The festivals at a glance', ends: null},
   {page: 'electric-forest-festival.html', heading: 'Electric Forest 2027 dates', ends: null},
+  // Fusion has no 2027 edition (a Fusion-free year); the next one is 28 June to 2 July 2028.
+  {page: 'fusion-festival.html', heading: 'Fusion Festival 2027 and 2028', ends: '2028-07-02'},
   {page: 'defqon-1.html', heading: 'Defqon.1 2027 dates', ends: '2027-06-27'},
   {page: 'time-warp-festival.html', heading: 'When is Time Warp 2027?', ends: '2027-04-04'},
   {page: 'snowbombing-festival.html', heading: 'When is Snowbombing 2027?', ends: '2027-04-10'},

@@ -578,6 +578,14 @@ export const homeArticleCatalog = [
     width:1280, height:720, alt:'The Red main stage at Defqon.1 2023 in daylight, with a crowd in front'
   },
   {
+    page:'fusion-festival.html', category:'festivals', tags:['discovery','history','techno'], href:'/fusion-festival', type:'Guide', topic:'Fusion Festival',
+    title:'Fusion Festival, Lärz Germany: 2027, 2028 Dates, Tickets',
+    description:'Fusion Festival in Lärz, Germany: why there is no 2027 edition, the 2028 dates, how the ticket lottery works, the 2019 police dispute, stages and how to get there.',
+    image:'img/fusion-festival/palapa-2019-320.webp',
+    srcset:'img/fusion-festival/palapa-2019-320.webp 320w,img/fusion-festival/palapa-2019-1200.webp 1200w',
+    width:1200, height:675, alt:'The Palapa stage at night during Fusion Festival 2019, with a crowd in purple light'
+  },
+  {
     page:'electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',
     title:'Electric Forest 2027: Tickets, Dates, Camping, Line-up',
     description:'Electric Forest 2027: when it is held in Rothbury, Michigan, how tickets and camping work, how to get there and what to pack.',

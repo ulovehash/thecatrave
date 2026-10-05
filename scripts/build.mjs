@@ -62,6 +62,7 @@ export const generators = [
   'build-love-parade-article.mjs',
   'build-electric-forest-article.mjs',
   'build-defqon-1-article.mjs',
+  'build-fusion-festival-article.mjs',
   'build-asia-festivals-article.mjs',
   'build-berghain-article.mjs',
   'build-fabric-london-article.mjs',
