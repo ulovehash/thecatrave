@@ -1614,3 +1614,28 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - untold festival location
 - where is untold festival
 - what is untold festival
+
+## ushuaia-ibiza.html
+
+- ushuaia ibiza
+- ushuaia
+- ushuaia beach hotel
+- ushuaia ibiza tickets
+- ushuaia ibiza events
+- ushuaia ibiza dress code
+- ushuaia ibiza hotel
+- ushuaia ibiza 2026
+- ushuaia ibiza price
+- ushuaia ibiza calendar
+- ushuaia ibiza lineup
+- ushuaia ibiza opening party
+- ushuaia ibiza closing party
+- ushuaia ibiza capacity
+- ushuaia ibiza age
+- ushuaia ibiza vip
+- ushuaia ibiza table
+- ushuaia ibiza address
+- ushuaia ibiza history
+- ushuaia ibiza day party
+- ushuaia ibiza 2027
+- ushuaia ibiza residencies

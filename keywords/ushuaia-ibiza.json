@@ -1,0 +1,30 @@
+{
+  "page": "ushuaia-ibiza.html",
+  "seed": "ushuaia ibiza",
+  "source": "Google Ads Keyword Planner, United States, English, bucketed ranges only, one batched pass of 24 terms on 5 October 2026 (window Sep 2025 to Aug 2026). No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket (10K to 100K, 1K to 10K, 100 to 1K, 10 to 100); each term carries its range. Dropped with no volume returned: ushuaia ibiza opening party 2027, ushuaia ibiza how to get there. 'ushuaia ibiza 2026' shows -90 percent on the three month change because the season is ending. Mapping: title = ushuaia ibiza, 2026, tickets, dress code, events. H2s: What is Ushuaia Ibiza (ushuaia ibiza), tickets, dress code, 2026, events and calendar, 2027, VIP and table, Ushuaia Beach Hotel (ushuaia beach hotel, ushuaia ibiza hotel), address. H3s: history, price, age, opening party, closing party, lineup, capacity. The residencies table sentence carries 'ushuaia ibiza residencies' and the day-party FAQ carries 'ushuaia ibiza day party'. The head 'ushuaia' is covered by every heading.",
+  "terms": [
+    {"term": "ushuaia ibiza", "volume": 10000, "range": "10K-100K"},
+    {"term": "ushuaia", "volume": 10000, "range": "10K-100K"},
+    {"term": "ushuaia beach hotel", "volume": 1000, "range": "1K-10K"},
+    {"term": "ushuaia ibiza tickets", "volume": 100, "range": "100-1K"},
+    {"term": "ushuaia ibiza events", "volume": 100, "range": "100-1K"},
+    {"term": "ushuaia ibiza dress code", "volume": 100, "range": "100-1K"},
+    {"term": "ushuaia ibiza hotel", "volume": 100, "range": "100-1K"},
+    {"term": "ushuaia ibiza 2026", "volume": 100, "range": "100-1K"},
+    {"term": "ushuaia ibiza price", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza calendar", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza lineup", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza opening party", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza closing party", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza capacity", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza age", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza vip", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza table", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza address", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza history", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza day party", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza 2027", "volume": 10, "range": "10-100"},
+    {"term": "ushuaia ibiza residencies", "volume": 10, "range": "10-100"}
+  ]
+}

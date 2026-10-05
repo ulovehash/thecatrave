@@ -538,6 +538,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'The red cherry signs of Pacha Ibiza lit at night'
   },
   {
+    page:'ushuaia-ibiza.html', category:'rave-spots', tags:['house','techno'], href:'/ushuaia-ibiza', type:'Guide', topic:'Ushuaia Ibiza',
+    title:'Ushuaia Ibiza: Tickets, Dress Code and Events 2026',
+    description:'Ushuaia Ibiza: what tickets cost, the dress code and entry rules, the 2026 residencies and closing parties, and what 2027 has not published.',
+    image:'img/ushuaia-ibiza/dance-floor-2023-320.webp',
+    srcset:'img/ushuaia-ibiza/dance-floor-2023-320.webp 320w,img/ushuaia-ibiza/dance-floor-2023-1200.webp 1200w',
+    width:1200, height:800, alt:'The Ushuaia Ibiza dance floor packed around the pool at dusk'
+  },
+  {
     page:'best-clubs-in-europe.html', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',
     title:'Best Clubs in Europe: 23 Nightclubs Worth the Trip',
     description:'The best clubs in Europe by country, from Berghain and fabric to Pacha, with sets to hear from several rooms.',
