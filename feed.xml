@@ -8,13 +8,25 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Sun, 04 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Printworks London: Reopening, Closure and History</title>
+    <link>https://thecatrave.com/printworks-london</link>
+    <guid isPermaLink="true">https://thecatrave.com/printworks-london</guid>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Printworks London closed in May 2023. What is officially planned, why it shut, its rooms and capacity, famous nights, Drumsheds and where to go instead.</description>
+    <category>house</category>
+    <category>techno</category>
+    <category>history</category>
+    <media:content url="https://thecatrave.com/img/og/printworks-london.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Electronic Music Festivals in Asia: 2027 Guide</title>
     <link>https://thecatrave.com/best-electronic-music-festivals-asia</link>

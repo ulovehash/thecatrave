@@ -104,6 +104,7 @@ HERO = {
     "time-warp": "img/time-warp/monika-kruse-2016-1200.webp",
     "berghain": "img/berghain/berghain-facade-1200.webp",
     "fabric-london": "img/fabric-london/exterior-2017-1200.webp",
+    "printworks-london": "img/printworks-london/gate-2010-1200.webp",
     "pacha-ibiza": "img/pacha-ibiza/cherries-2014-1200.webp",
     "best-clubs-in-europe": "img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp",
     "us-festivals": "img/us-festivals/beyond-wonderland-2010-1200.webp",

@@ -63,6 +63,7 @@ export const generators = [
   'build-asia-festivals-article.mjs',
   'build-berghain-article.mjs',
   'build-fabric-london-article.mjs',
+  'build-printworks-london-article.mjs',
   'build-pacha-ibiza-article.mjs',
   'build-best-clubs-in-europe-article.mjs',
   'build-paris-clubs-article.mjs',

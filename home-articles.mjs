@@ -546,6 +546,14 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The front of fabric on Charterhouse Street in London in 2017'
   },
   {
+    page:'printworks-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/printworks-london', type:'Guide', topic:'Printworks London',
+    title:'Printworks London: Reopening, Closure and History',
+    description:'Printworks London closed in May 2023. What is officially planned, why it shut, its rooms and capacity, famous nights, Drumsheds and where to go instead.',
+    image:'img/printworks-london/gate-2010-320.webp',
+    srcset:'img/printworks-london/gate-2010-320.webp 320w,img/printworks-london/gate-2010-1200.webp 1200w',
+    width:1200, height:797, alt:'A fenced gate at the Harmsworth Quays print works in Rotherhithe in 2010'
+  },
+  {
     page:'electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/electric-forest-festival', type:'Guide', topic:'Electric Forest',
     title:'Electric Forest 2027: Tickets, Dates, Camping, Line-up',
     description:'Electric Forest 2027: when it is held in Rothbury, Michigan, how tickets and camping work, how to get there and what to pack.',
