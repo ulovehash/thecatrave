@@ -2,13 +2,13 @@
 
 ## Answer
 
-No one set is the best DJ set of all time, but thirty keep coming up, and this guide gives you the best officially published recording of each pick to hear today. The list is drawn from the published lists I could read plus one editorial rule: where the famous set was never released properly, the entry is a substitute, and it says so.
+No one set is the best DJ set of all time, but thirty keep coming up, and this guide gives you the best officially published recording of each pick to hear today. The list is drawn from the published lists I could read plus one editorial rule: where the famous set was never released properly, the recording is a substitute, and it says so.
 
 ## Introduction
 
 Search for the best DJ sets of all time and you get lists that name the same few nights: a Space Ibiza closing, a Plastic People goodbye, a Time Warp floor. What most of them leave out is that you often cannot hear the night they name. Many of the most famous sets exist only as bootlegs, or as a CD you cannot stream, or not at all.
 
-So this page works the other way round. It starts from what you can press play on, from the DJ's own channel, the festival's, or a broadcaster like Mixmag, DJ Mag, Cercle or Boiler Room. Where the named set has no official copy, you get another set by the same DJ, and the entry tells you which kind it is.
+So this page works the other way round. It starts from what you can press play on, from the DJ's own channel, the festival's, or a broadcaster like Mixmag, DJ Mag, Cercle or Boiler Room. Where the named set has no official copy, you get another set by the same DJ, and the write-up tells you which kind it is.
 
 There are thirty, in seven groups by sound. Ignore the order and start wherever the music interests you; the last section suggests five places to begin.
 
@@ -18,7 +18,7 @@ I read the lists that could be fetched: Skiddle's best DJ sets, Play House Sound
 
 Then one rule: a set only gets in if an official upload exists, from the artist, the festival or the broadcaster, and it plays. A set that exists only as a bootleg re-upload stays out. No more than four are from Boiler Room, and no DJ appears more than twice. Carl Cox and Fatboy Slim are the only two who appear twice, once each alone and once together.
 
-Each entry carries one of three labels. Named means a list I read picked this set. Substitute means a list picked the same DJ, but the set it meant has no official copy, so this is a different set. Editorial pick means no list I read named this set, and it is here on my judgement. Years are the year in the recording's own title or the year it went up on the channel. Anything the sources disagreed about is left out.
+Each pick carries one of three labels. Named means a list I read picked this set. Substitute means a list picked the same DJ, but the set it meant has no official copy, so this is a different set. Editorial pick means no list I read named this set, and it is here on my judgement. Years are the year in the recording's own title or the year it went up on the channel. Anything the sources disagreed about is left out.
 
 ## House: Chicago, New York and Detroit
 
@@ -44,25 +44,25 @@ It is 61 minutes, from a New York house DJ, on the DJ Mag channel.
 
 Kerri Chandler's Mixmag Live set runs 174 minutes. Editorial pick: no list I read names it.
 
-It is the entry to choose if you want a house DJ given the time to build a night.
+Choose this one if you want a house DJ given the time to build a night.
 
 ### Theo Parrish, Boiler Room #29, 2010
 
-Theo Parrish played the 29th Boiler Room, in 2010, and Boiler Room put the recording online as audio. This is the one entry here that is audio only, about 45 minutes. Named by at least one list of Boiler Room sets that I read.
+Theo Parrish played the 29th Boiler Room, in 2010, and Boiler Room put the recording online as audio. This one is audio only, about 45 minutes. Named by at least one list of Boiler Room sets that I read.
 
-It is early Boiler Room, number 29 in the series, and the Detroit house entry on the page.
+It is early Boiler Room, number 29 in the series, and the Detroit house set on the page.
 
 ### A hip hop aside: DJ Jazzy Jeff, Boiler Room Philadelphia, 2017
 
-DJ Jazzy Jeff is the one hip hop DJ here, and the only entry that is not dance music. Boiler Room filmed him in Philadelphia in 2017. Editorial pick, and one of the weaker cases on the page: it was chosen because DJing is a craft that hip hop built, and no dance music list I read names it.
+DJ Jazzy Jeff is the one hip hop DJ here, and the only set that is not dance music. Boiler Room filmed him in Philadelphia in 2017. Editorial pick, and one of the weaker cases on the page: it was chosen because DJing is a craft that hip hop built, and no dance music list I read names it.
 
-At 115 minutes it is the longer of the two Boiler Room entries, and has been watched more than four million times.
+At 115 minutes it is the longer of the two Boiler Room sets, and has been watched more than four million times.
 
 ## House now
 
 ### Black Coffee, Mixmag Live London, 2015
 
-Black Coffee's spiritual DJ set at Mixmag Live in London is 182 minutes long and has been watched more than ten million times, the most of any house entry here. Named: it appears on Mixmag's list of the best DJ mixes of 2010 to 2019.
+Black Coffee's spiritual DJ set at Mixmag Live in London is 182 minutes long and has been watched more than ten million times, the most of any house set here. Named: it appears on Mixmag's list of the best DJ mixes of 2010 to 2019.
 
 It is the clearest example on the page of Afro house played at club length.
 
@@ -88,7 +88,7 @@ A Chicago-rooted house DJ at a Miami pool party.
 
 Dixon played the Ariane stage at Cercle Festival in 2024, 88 minutes, filmed by Cercle. Editorial pick: one list I read names Dixon, but for his Innervisions work, not this set.
 
-It is the most recent house entry.
+It is the most recent house set.
 
 ## Techno
 
@@ -216,7 +216,7 @@ For more, [the best Boiler Room sets](/best-boiler-room-sets), [the best techno 
 
 ### What is the best DJ set of all time?
 
-There is no agreed answer. The set named by the most lists I read is Carl Cox's closing of Space Ibiza in 2016, named by four. Plastic People's last night, played by Four Tet and Floating Points, is named by two. After that, most picks rest on one list, which is why the entries carry labels rather than a ranking.
+There is no agreed answer. The set named by the most lists I read is Carl Cox's closing of Space Ibiza in 2016, named by four. Plastic People's last night, played by Four Tet and Floating Points, is named by two. After that, most picks rest on one list, which is why the picks carry labels rather than a ranking.
 
 ### Why are some famous sets missing?
 
@@ -224,11 +224,11 @@ Because they have no official recording. Jeff Mills at Liquid Room in 1995 and F
 
 ### Where can you watch the best DJ sets?
 
-On the channels they came from: Mixmag, DJ Mag, Cercle, Boiler Room, The Lot Radio, Dekmantel and the festivals themselves. Every set here is an official upload, and the four audio-only entries are on SoundCloud and Mixcloud.
+On the channels they came from: Mixmag, DJ Mag, Cercle, Boiler Room, The Lot Radio, Dekmantel and the festivals themselves. Every set here is an official upload, and the four audio-only sets are on SoundCloud and Mixcloud.
 
 ### How were these sets chosen?
 
-Each pick comes from published lists of the best DJ sets, plus a stated editorial criterion, and the entry says which of the two it rests on. Where a list names a set that has no official recording, the entry uses the best official recording of the same DJ and labels it a substitute.
+Each pick comes from published lists of the best DJ sets, plus a stated editorial criterion, and the pick says which of the two it rests on. Where a list names a set that has no official recording, the pick uses the best official recording of the same DJ and labels it a substitute.
 
 ### Which of these sets are audio only?
 
