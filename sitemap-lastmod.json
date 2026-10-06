@@ -415,10 +415,6 @@
   "hash": "4253c0336ba6642e",
   "lastmod": "2026-10-06T07:48:32+00:00"
  },
- "/dj-mag-top-100": {
-  "hash": "92f680854b46a5d6",
-  "lastmod": "2026-10-06T08:57:50+00:00"
- },
  "/drum-and-bass-guide": {
   "hash": "9411e3c2c5dc36c9",
   "lastmod": "2026-10-06T07:53:21+00:00"
@@ -826,5 +822,9 @@
  "/what-is-coachella": {
   "hash": "0d16a974db241102",
   "lastmod": "2026-10-06T07:48:32+00:00"
+ },
+ "/why-dj-mag-top-100-never-changes": {
+  "hash": "92f680854b46a5d6",
+  "lastmod": "2026-10-06T09:08:01+00:00"
  }
 }

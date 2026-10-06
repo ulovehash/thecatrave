@@ -394,7 +394,7 @@ export const homeArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
   },
   {
-    page:'dj-mag-top-100.html', category:'digging', tags:['discovery','history'], href:'/dj-mag-top-100', type:'Essay', topic:'DJ Mag Top 100',
+    page:'why-dj-mag-top-100-never-changes.html', category:'digging', tags:['discovery','history'], href:'/why-dj-mag-top-100-never-changes', type:'Essay', topic:'DJ Mag Top 100',
     title:'Why the DJ Mag Top 100 Barely Changes',
     description:'Five DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.',
     image:'img/live-dj-sets/the-lot-radio-320.webp',

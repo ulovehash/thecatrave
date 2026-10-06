@@ -1,6 +1,6 @@
-// Build dj-mag-top-100.html from famous-djs-draft.md.
+// Build why-dj-mag-top-100-never-changes.html from famous-djs-draft.md.
 //
-// Keywords (keywords/dj-mag-top-100.json): the title carries "dj mag top 100"
+// Keywords (keywords/why-dj-mag-top-100-never-changes.json): the title carries "dj mag top 100"
 // (10K-100K worldwide, Keyword Planner, 6 October 2026). The head term of the
 // brief, "famous djs", is secondary and sits in the FAQ and the H3s. Terms the
 // copy does not contain are recorded as rejected, not inserted.
@@ -24,7 +24,7 @@ const end = raw.indexOf('\n---\n', start);
 if (start < 0 || end < 0) throw new Error('Draft must have ## Intro and a closing ---');
 const draft = raw.slice(start, end);
 
-const canonical = 'https://thecatrave.com/dj-mag-top-100';
+const canonical = 'https://thecatrave.com/why-dj-mag-top-100-never-changes';
 const title = 'Why the DJ Mag Top 100 Barely Changes';
 const description = 'Why the DJ Mag Top 100 barely changes: eleven years of top tens, how the vote works, what campaigning is allowed and who the poll leaves out.';
 const datePublished = '2026-10-06';
@@ -128,14 +128,14 @@ const articleHtml = [
     {title: 'thecatrave, Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'},
     {title: 'thecatrave, 60 hours of mistakes', id: '3330948631', url: 'https://thecatrave.bandcamp.com/track/60-hours-of-mistakes', linkText: '60 hours of mistakes by thecatrave'}
   ]}),
-  readNext({items: relatedArticles('dj-mag-top-100.html')})
+  readNext({items: relatedArticles('why-dj-mag-top-100-never-changes.html')})
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, image: 'https://thecatrave.com/img/og/dj-mag-top-100.jpg', datePublished, dateModified}),
+  articleStructuredData({headline: title, description, canonical, image: 'https://thecatrave.com/img/og/why-dj-mag-top-100-never-changes.jpg', datePublished, dateModified}),
   breadcrumbStructuredData({name: title, canonical}),
   faqStructuredData({items: faqItems})
 ];
-const html = articlePage({alternates: alternatesFor('/dj-mag-top-100'), title, description, canonical, ogImage: 'https://thecatrave.com/img/og/dj-mag-top-100.jpg', datePublished, dateModified, bodyClass: 'article-page dj-mag-top-100-page', structuredData, articleHtml}).replace(/—/g, ':');
-fs.writeFileSync('dj-mag-top-100.html', html);
-console.log('Built dj-mag-top-100.html');
+const html = articlePage({alternates: alternatesFor('/why-dj-mag-top-100-never-changes'), title, description, canonical, ogImage: 'https://thecatrave.com/img/og/why-dj-mag-top-100-never-changes.jpg', datePublished, dateModified, bodyClass: 'article-page why-dj-mag-top-100-never-changes-page', structuredData, articleHtml}).replace(/—/g, ':');
+fs.writeFileSync('why-dj-mag-top-100-never-changes.html', html);
+console.log('Built why-dj-mag-top-100-never-changes.html');
