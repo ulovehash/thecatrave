@@ -44,7 +44,7 @@ export function bassMusicMedia(lang, copy) {
     iframeTitle: `${name} ${copy.onSpotify}`, fullBleed, tone: 'cyan'
   });
   const mix = (slug, id, {title, description}) => articleListeningBand({
-    platform: 'soundcloud', id, kicker: copy.listenWhileYouRead, title, description, src: soundcloud(slug),
+    platform: 'soundcloud', id, kicker: slug === 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more' ? ({en: 'DJ mix by thecatrave', de: 'DJ-Mix von thecatrave', fr: 'DJ mix de thecatrave'}[lang]) : copy.listenWhileYouRead, title, description, src: soundcloud(slug),
     iframeTitle: `${title} ${copy.byThecatraveOnSoundcloud}`, fullBleed: true, tone: 'cyan'
   });
   const cards = (items, genres) => items.map(([youtubeId, artist, title], index) => articleVideoCard({youtubeId, genre: genres[index], artist, title}));

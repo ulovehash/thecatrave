@@ -116,12 +116,17 @@ export const ownSets = [
       description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigenes Set, für eine Pause vom Festival.'},
     fr: {suffix: 'un DJ mix.',
       description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'}},
-  {slug: 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more', title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
-    description: 'A loud and restless mix about going out again even when you know better.',
-    de: {suffix: 'ein DJ-Mix.',
-      description: 'Ein lauter, rastloser Mix darüber, wieder loszuziehen, obwohl man es besser weiß.'},
-    fr: {suffix: 'un DJ mix.',
-      description: 'Un mix bruyant et agité sur le fait de ressortir alors qu’on sait qu’on ne devrait pas.'}}
+  {
+  "slug": "i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more",
+  "title": "I lost so many weekends raving and I wanna lose some more",
+  "description": "I rebuilt this mix about ten times, swapping tracks and second-guessing transitions. In the end, it became around 40 tracks I love, moving through breaks, garage, dubstep, grime, techno and more. For your walk home, cleaning your room or the afters, of course.",
+  "de": {
+    "description": "Ich habe diesen Mix ungefähr zehnmal neu aufgebaut, Tracks ausgetauscht und immer wieder an den Übergängen gezweifelt. Am Ende wurden es rund 40 Tracks, die ich liebe, mit Breaks, Garage, Dubstep, Grime, Techno und mehr. Für deinen Heimweg, zum Aufräumen oder natürlich für die Afterhour."
+  },
+  "fr": {
+    "description": "J’ai recommencé ce mix une dizaine de fois, changé les morceaux et sans cesse remis les transitions en question. Au final, il rassemble une quarantaine de morceaux que j’aime, entre breaks, garage, dubstep, grime, techno et bien d’autres genres. Pour rentrer à pied, ranger ta chambre ou les afters, évidemment."
+  }
+}
 ];
 
 // A guide outside the festival set may give the mix its own line, saying why
@@ -134,9 +139,10 @@ export function ownSetListening(index, lang = defaultLang, description = '') {
   const translated = lang === defaultLang ? null : set[lang];
   if (lang !== defaultLang && !translated) throw new Error(`Own set ${index} has no ${lang} copy`);
   return articleListeningBand({
-    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: copy.ownSetKicker,
-    title: `${set.title}: ${translated ? translated.suffix : 'a DJ mix.'}`,
-    description: description || (translated ? translated.description : set.description),
+    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: index === 1 ? ({en: 'DJ mix by thecatrave', de: 'DJ-Mix von thecatrave', fr: 'DJ mix de thecatrave'}[lang]) : copy.ownSetKicker,
+    title: index === 1 ? set.title : `${set.title}: ${translated ? translated.suffix : 'a DJ mix.'}`,
+    // This mix uses the same approved personal introduction everywhere.
+    description: (index === 1 ? '' : description) || (translated ? translated.description : set.description),
     src: `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${set.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
     iframeTitle: `${set.title} by thecatrave on SoundCloud`, fullBleed: true, tone: 'cyan'
   });

@@ -61,8 +61,8 @@ const copy = {
   lookTrack: 'Future Bass, Glitch und Breakbeat bei 140 BPM, einer der Hybride auf dieser Karte. Mein eigener Track.',
   mixes: {
     weekends: {
-      title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More.',
-      description: 'Ein heutiges Beispiel für das DJ-Set als Infrastruktur: Breaks, Bass, Clubmusik und Techno, verbunden über die Abfolge, statt zu einem Genre plattgedrückt.'
+      title: "I lost so many weekends raving and I wanna lose some more",
+      description: "Ich habe diesen Mix ungefähr zehnmal neu aufgebaut, Tracks ausgetauscht und immer wieder an den Übergängen gezweifelt. Am Ende wurden es rund 40 Tracks, die ich liebe, mit Breaks, Garage, Dubstep, Grime, Techno und mehr. Für deinen Heimweg, zum Aufräumen oder natürlich für die Afterhour."
     },
     silence: {
       title: 'I Like to Smoke in Silence After Raves.',

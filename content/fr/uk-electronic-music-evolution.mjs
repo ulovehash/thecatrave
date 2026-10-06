@@ -33,9 +33,9 @@ const text = {
   },
   mixes: {
     weekends: {
-      title: 'I Lost So Many Weekends Raving and I Wanna Lose Some More',
-      description: 'Un long set bruyant et agité qui relie breaks, basse, club music et techno au lieu de les traiter comme des genres fermés.',
-      iframeTitle: 'I Lost So Many Weekends Raving and I Wanna Lose Some More par thecatrave sur SoundCloud'
+      title: "I lost so many weekends raving and I wanna lose some more",
+      description: "J’ai recommencé ce mix une dizaine de fois, changé les morceaux et sans cesse remis les transitions en question. Au final, il rassemble une quarantaine de morceaux que j’aime, entre breaks, garage, dubstep, grime, techno et bien d’autres genres. Pour rentrer à pied, ranger ta chambre ou les afters, évidemment.",
+      iframeTitle: 'I lost so many weekends raving and I wanna lose some more par thecatrave sur SoundCloud'
     },
     smoke: {
       title: 'I Like to Smoke in Silence After Raves',

@@ -243,3 +243,7 @@ Adding a channel to `selector-channels.mjs`, or picking up new uploads, is one c
 ### DJ-mix and playlist panel width
 
 The shared DJ-mix and own-playlist panels (`aria-labelledby="own-set-*"` and `aria-labelledby="own-playlist-*"`) match the surrounding prose width at every viewport, including mobile and the desktop Bandcamp rail layout. Copy sits above the player in one column. Other listening collections retain their existing width rules.
+
+### Personal introduction for the weekends mix
+
+The “I lost so many weekends raving and I wanna lose some more” promotion uses the owner-approved personal introduction consistently across article bands and homepage cards in English, German and French. `ownSetListening(1)` uses the shared description even when an older caller supplies contextual copy. Its title has no appended DJ-mix suffix; the label identifies it as a DJ mix by thecatrave, with lowercase artist spelling preserved on screen. The Bass Music and UK electronic music bands carry the same localized copy.

@@ -1808,3 +1808,6 @@
   font: 400 1.5rem/1 var(--sans); cursor: pointer;
 }
 .selector-page .sel-new-close:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+
+/* Keep the approved personal mix label and artist spelling as written. */
+.article-media-band:is([aria-labelledby="own-set-2"], [aria-labelledby="bass-mix-weekends"], [aria-labelledby="uk-mix-i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more"]) .article-kicker { text-transform: none; }

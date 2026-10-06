@@ -51,9 +51,9 @@ export const strings = [
   ['I spent about four months choosing and rearranging these 30 tracks until the mix felt right.',
    'Ungefähr vier Monate lang habe ich diese 30 Tracks ausgewählt und umgestellt, bis sich der Mix richtig anfühlte.'],
   ['I Like to Smoke in Silence After Raves on SoundCloud', 'I Like to Smoke in Silence After Raves auf SoundCloud'],
-  ['A loud and restless mix about going out again even when you know better.',
-   'Ein lauter, rastloser Mix darüber, wieder auszugehen, obwohl man es besser weiß.'],
-  ['I Lost So Many Weekends Raving and I Wanna Lose Some More on SoundCloud', 'I Lost So Many Weekends Raving and I Wanna Lose Some More auf SoundCloud'],
+  ['I rebuilt this mix about ten times, swapping tracks and second-guessing transitions. In the end, it became around 40 tracks I love, moving through breaks, garage, dubstep, grime, techno and more. For your walk home, cleaning your room or the afters, of course.',
+   'Ich habe diesen Mix ungefähr zehnmal neu aufgebaut, Tracks ausgetauscht und immer wieder an den Übergängen gezweifelt. Am Ende wurden es rund 40 Tracks, die ich liebe, mit Breaks, Garage, Dubstep, Grime, Techno und mehr. Für deinen Heimweg, zum Aufräumen oder natürlich für die Afterhour.'],
+  ['I lost so many weekends raving and I wanna lose some more on SoundCloud', 'I lost so many weekends raving and I wanna lose some more auf SoundCloud'],
 
   // 03 original music
   ['Original tracks and other experiments.', 'Eigene Tracks und andere Experimente.'],
@@ -86,5 +86,5 @@ export const strings = [
 // Titles of the owner's own mixes: the same in every language.
 export const keep = [
   'I Like to Smoke in Silence After Raves',
-  'I Lost So Many Weekends Raving and I Wanna Lose Some More'
+  'I lost so many weekends raving and I wanna lose some more'
 ];

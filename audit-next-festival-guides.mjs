@@ -16,7 +16,7 @@ for (const [file, canonical] of pages) {
   const count = pattern => (html.match(pattern) || []).length;
   if (count(/<h1\b/g) !== 1) failures.push(`${file}: expected exactly one H1`);
   if (!html.includes(`<link rel="canonical" href="${canonical}">`)) failures.push(`${file}: canonical mismatch`);
-  if (count(/A DJ mix by thecatrave/g) !== 2) failures.push(`${file}: expected two thecatrave mix labels`);
+  if (count(/(?:A )?DJ mix by thecatrave/g) !== 2) failures.push(`${file}: expected two thecatrave mix labels`);
   if (count(/youtube-nocookie\.com\/embed\//g) < 1) failures.push(`${file}: missing exact event video`);
   if (count(/<figure class="floating-image/g) !== 2) failures.push(`${file}: expected two editorial figures`);
   if (!html.includes('FAQPage')) failures.push(`${file}: missing visible/schema FAQ package`);

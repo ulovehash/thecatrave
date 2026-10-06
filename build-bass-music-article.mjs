@@ -68,7 +68,7 @@ function p(value, className = '') {
 const render = text => paragraphs(text).map(value => p(value)).join('');
 const youtube = (id, label) => articleYoutubeEmbed({src:`https://www.youtube-nocookie.com/embed/${id}`, title:`${label} on YouTube`});
 const soundcloud = (slug, label, titleText, descriptionText, tone) => articleListeningBand({
-  platform:'soundcloud', id:label, kicker:'Listen while you read', title:titleText,
+  platform:'soundcloud', id:label, kicker:slug === 'i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more' ? 'DJ mix by thecatrave' : 'Listen while you read', title:titleText,
   description:descriptionText,
   src:`https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`,
   iframeTitle:`${titleText} by thecatrave on SoundCloud`, fullBleed:true, tone
@@ -258,7 +258,7 @@ const recordRows = [
   ['DJ Lag, Ice Drop','Gqom travelling internationally without losing Durban identity.']
 ];
 
-const infrastructureHtml = `${infrastructure.map(value=>p(value)).join('')}${soundcloud('i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more','bass-mix-weekends','I Lost So Many Weekends Raving and I Wanna Lose Some More.','A contemporary example of the DJ set as infrastructure: breaks, bass, club music and techno connected through sequencing rather than flattened into one genre.','cyan')}`;
+const infrastructureHtml = `${infrastructure.map(value=>p(value)).join('')}${soundcloud('i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more','bass-mix-weekends',"I lost so many weekends raving and I wanna lose some more","I rebuilt this mix about ten times, swapping tracks and second-guessing transitions. In the end, it became around 40 tracks I love, moving through breaks, garage, dubstep, grime, techno and more. For your walk home, cleaning your room or the afters, of course.",'cyan')}`;
 const todayHtml = `${today.slice(0,3).map(value=>p(value)).join('')}${soundcloud('i-like-to-smoke-in-silence-after-raves','bass-mix-silence','I Like to Smoke in Silence After Raves.','I spent about four months arranging these 30 tracks into one arc. It treats breaks, bass, garage pressure and experimental club music as material for one set without pretending they are one genre.','cyan')}`;
 const startingIntro = paragraphs(starting)[0];
 const startingRoutes = ['Route one: systems and foundations','Route two: the British bass continuum','Route three: American and cross-border meanings'];

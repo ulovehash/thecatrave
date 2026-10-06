@@ -35,7 +35,7 @@ export function ukEvolutionMedia({lang, text}) {
   });
   const mix = key => articleListeningBand({
     platform: 'soundcloud', id: `uk-mix-${soundcloud[key]}`,
-    kicker: text.mixKicker, title: text.mixes[key].title, description: text.mixes[key].description,
+    kicker: key === 'weekends' ? ({en: 'DJ mix by thecatrave', de: 'DJ-Mix von thecatrave', fr: 'DJ mix de thecatrave'}[lang]) : text.mixKicker, title: text.mixes[key].title, description: text.mixes[key].description,
     src: `https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/${soundcloud[key]}&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
     iframeTitle: text.mixes[key].iframeTitle, fullBleed: true, tone: 'cyan'
   });
