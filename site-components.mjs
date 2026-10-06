@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 import { t, defaultLang, locales } from './i18n.mjs';
-import { clubGuideChecked, clubGuideLinksFor } from './club-guide-directory.mjs';
+import { clubGuideChecked, clubGuideLinksFor, clubGuideVenuesIn } from './club-guide-directory.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;')
@@ -372,7 +372,7 @@ function clubVenuePlanningHtml(venue) {
     : '';
   const events = venue?.eventsUrl
     ? `<div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>`
-    : '';
+    : venue ? '<div><dt>Resident Advisor</dt><dd><span data-club-i18n="unlisted">RA listing not verified</span></dd></div>' : '';
   const venuePlanning = venue
     ? `<aside class="club-venue-planning" aria-label="Plan your visit"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
     : '';
@@ -401,18 +401,20 @@ export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) cal
 export function articleTable({headers = [], rows = [], className = '', label = ''} = {}) {
   const classes = ['genre-table', className].filter(Boolean).join(' ');
   const head = headers.map(cell => `<th scope="col">${cell}</th>`).join('');
-  const clubColumn = headers.findIndex(cell => ['club', 'boîte'].includes(String(cell).replace(/<[^>]+>/g, '').trim().toLocaleLowerCase('fr')));
+  const clubColumn = headers.findIndex(cell => ['club', 'boîte', 'clubs to know', 'clubs à connaître', 'clubs, die man kennen sollte'].includes(String(cell).replace(/<[^>]+>/g, '').trim().toLocaleLowerCase('fr')));
   let linkedRows = 0;
   const body = rows.map(row => {
     const cells = [...row];
     if (clubColumn >= 0) {
-      const links = clubGuideLinksFor(cells[clubColumn]);
-      if (links) {
+      const venues = clubGuideVenuesIn(cells[clubColumn]);
+      if (venues.length) {
         linkedRows += 1;
+        cells[clubColumn] = `<strong class="club-guide-name">${cells[clubColumn]}</strong>` + venues.map(links => {
         const events = links.eventsUrl
-          ? `<a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a>`
-          : '';
-        cells[clubColumn] = `<strong class="club-guide-name">${cells[clubColumn]}</strong><span class="club-guide-links"><a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a>${events}</span><small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
+          ? `<a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Resident Advisor</a>`
+          : `<span data-club-i18n="unlisted">RA listing not verified</span>`;
+        return `<span class="club-guide-links">${venues.length > 1 ? `<span>${escapeHtml(links.venue)}:</span>` : ''}<a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a>${events}</span>`;
+        }).join('') + `<small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
       }
     }
     return `<tr>${cells.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
@@ -429,6 +431,7 @@ function localizeClubGuideHtml(html, lang) {
   const labels = {
     maps: copy.clubMaps,
     events: copy.clubEvents,
+    unlisted: copy.clubRaUnlisted,
     locationLabel: copy.clubLocationLabel,
     eventsLabel: copy.clubEventsLabel,
     check: copy.clubCheck,
