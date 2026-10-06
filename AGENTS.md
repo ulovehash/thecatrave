@@ -150,11 +150,11 @@ Every city, country, continent, worldwide or thematic club roundup must give rea
 4. typical entry price, queues and door policy;
 5. dress guidance and age restrictions;
 6. a direct Resident Advisor venue or event link for upcoming listings, or the club's official events page when Resident Advisor has no useful listing;
-7. safety, accessibility and realistic late-night transport information, with an official local transport link when useful;
+7. safety, accessibility and realistic late-night transport information in the editorial copy;
 8. a concise editorial verdict explaining whether the venue is locally credible, visitor-friendly, tourist-famous or mainly tourist-oriented, supported by evidence rather than review scores alone.
 
 - Keep the presentation compact and consistent across all venues in the article; do not make readers hunt through unrelated prose for these facts.
-- Link to the club's official website or official social account for current hours, tickets, door rules and last-minute changes. Google Maps is for location and directions; Resident Advisor venue pages or live city calendars are for electronic-music lineups and events.
+- Link to the club's official website or official social account for current hours, tickets, door rules and last-minute changes. Google Maps is for location and directions. An `Upcoming events` link must open that specific venue's Resident Advisor page or official event listing; never substitute a city-wide calendar.
 - Add a visible `Last checked` date for changeable venue information. Label prices and opening patterns as typical rather than guaranteed, and do not reproduce stale event listings as evergreen copy.
 - Never invent an accessibility, safety, crowd or door-policy claim. State `not confirmed` or omit the detail when reliable current evidence is unavailable.
 - Apply this rule to English articles and their German and French translations. Translated venue facts and links must remain equivalent to the approved English source.

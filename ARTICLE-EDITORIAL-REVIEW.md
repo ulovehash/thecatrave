@@ -48,7 +48,7 @@ Check every claim that could reasonably be disputed or dated:
 - contested histories, especially claims about one inventor or one decisive record;
 - current claims that may have changed since the source was published;
 - predictions, which must be labelled as inference and supported by current evidence.
-- for every club in a city, country or roundup guide: music, atmosphere/crowd, location and usual nights, entry/queue/door policy, dress and age rules, upcoming-events route, safety/access/transport and an evidence-based local-versus-tourist verdict; also verify the direct Google Maps, Resident Advisor or official-event, club and transport links required by `AGENTS.md`;
+- for every club in a city, country or roundup guide: music, atmosphere/crowd, location and usual nights, entry/queue/door policy, dress and age rules, upcoming-events route, safety/access/transport and an evidence-based local-versus-tourist verdict; also verify the direct Google Maps, venue-specific Resident Advisor or official-event and club links required by `AGENTS.md`;
 
 Prefer primary sources, artist or label interviews, archives, books, academic research and reputable specialist publications. Wikipedia may be used as a discovery map, not as the only support for a disputed claim.
 

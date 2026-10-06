@@ -91,9 +91,23 @@ const groups = {
   itajai: ['Warung Beach Club']
 };
 
+// Only direct venue pages belong here. Never fall back to a city calendar:
+// a link labelled "Upcoming events" must already be filtered to that club.
+const venueEvents = {
+  'Drugstore': 'https://ra.co/clubs/92340',
+  'Klub 20/44': 'https://ra.co/clubs/26871',
+  'Barutana': 'https://ra.co/clubs/2101',
+  'Kult': 'https://ra.co/clubs/207414',
+  'Lift': 'https://ra.co/clubs/281304'
+};
+
 const directory = new Map();
 for (const [cityKey, names] of Object.entries(groups)) {
-  for (const name of names) directory.set(name.toLocaleLowerCase('en'), { ...cities[cityKey], venue: name });
+  for (const name of names) directory.set(name.toLocaleLowerCase('en'), {
+    ...cities[cityKey],
+    venue: name,
+    eventsUrl: venueEvents[name] || ''
+  });
 }
 
 const directoryNamesByLength = [...directory.keys()].sort((a, b) => b.length - a.length);

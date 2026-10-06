@@ -370,11 +370,11 @@ function clubVenuePlanningHtml(venue) {
   const venueLocation = venue
     ? (venue.venue.toLocaleLowerCase('en').includes(venue.place.toLocaleLowerCase('en')) ? venue.venue : `${venue.venue}, ${venue.place}`)
     : '';
-  const transit = venue?.transitUrl
-    ? `<div><dt data-club-i18n="transportLabel">Getting home</dt><dd><a href="${escapeHtml(venue.transitUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="transport">Transport home</a></dd></div>`
+  const events = venue?.eventsUrl
+    ? `<div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>`
     : '';
   const venuePlanning = venue
-    ? `<aside class="club-venue-planning" aria-label="Plan your visit"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div><div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>${transit}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
+    ? `<aside class="club-venue-planning" aria-label="Plan your visit"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
     : '';
   return venuePlanning;
 }
@@ -409,10 +409,10 @@ export function articleTable({headers = [], rows = [], className = '', label = '
       const links = clubGuideLinksFor(cells[clubColumn]);
       if (links) {
         linkedRows += 1;
-        const transit = links.transitUrl
-          ? `<a href="${escapeHtml(links.transitUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="transport">${escapeHtml(links.transitLabel || 'Transport')}</a>`
+        const events = links.eventsUrl
+          ? `<a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a>`
           : '';
-        cells[clubColumn] = `<strong class="club-guide-name">${cells[clubColumn]}</strong><span class="club-guide-links"><a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a><a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a>${transit}</span><small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
+        cells[clubColumn] = `<strong class="club-guide-name">${cells[clubColumn]}</strong><span class="club-guide-links"><a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a>${events}</span><small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
       }
     }
     return `<tr>${cells.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
@@ -429,10 +429,8 @@ function localizeClubGuideHtml(html, lang) {
   const labels = {
     maps: copy.clubMaps,
     events: copy.clubEvents,
-    transport: copy.clubTransport,
     locationLabel: copy.clubLocationLabel,
     eventsLabel: copy.clubEventsLabel,
-    transportLabel: copy.clubTransportLabel,
     check: copy.clubCheck,
     checked: copy.clubLinksChecked
   };

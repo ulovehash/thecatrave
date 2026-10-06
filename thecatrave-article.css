@@ -464,7 +464,7 @@
 .club-guide-check { display: block; margin-top: .6rem; max-width: 28ch; font-size: .72rem; line-height: 1.4; }
 .club-guide-checked { margin: 0; padding: .65rem .9rem; border-top: 1px solid currentColor; background: var(--paper); font-family: "Space Mono", monospace; font-size: .7rem; line-height: 1.4; }
 .club-venue-planning { margin: 1.5rem 0; padding: 1rem 1.15rem; border: 1px solid currentColor; background: var(--surface-muted); }
-.club-venue-planning dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem 1.25rem; margin: 0; }
+.club-venue-planning dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: .8rem 1.25rem; margin: 0; }
 .club-venue-planning dl > div { min-width: 0; }
 .club-venue-planning dt { margin-bottom: .25rem; font-family: "Space Mono", monospace; font-size: .68rem; font-weight: 700; line-height: 1.35; text-transform: uppercase; }
 .club-venue-planning dd { margin: 0; font-size: .92rem; line-height: 1.4; }
