@@ -1,0 +1,128 @@
+{
+  "page": "best-trance-tracks.html",
+  "source": "YouTube oEmbed checked 6 October 2026; Wikimedia Commons metadata",
+  "note": "Embeds are official or label-channel uploads where oEmbed allowed it. Photographs are of artists, not of the records.",
+  "required_records": [
+    {
+      "title": "Café del Mar (Three 'n One Radio Remix)",
+      "artist": "Energy 52",
+      "publisher": "Energy 52",
+      "year": 1997,
+      "embed_id": "yyvp_nCM15Q"
+    },
+    {
+      "title": "For an Angel (E-Werk Remix)",
+      "artist": "Paul van Dyk",
+      "publisher": "Paul van Dyk",
+      "year": 1998,
+      "embed_id": "5JqtsdrHJvg"
+    },
+    {
+      "title": "Children",
+      "artist": "Robert Miles",
+      "publisher": "RobertMilesVEVO",
+      "year": 1995,
+      "embed_id": "DvyCbevQbtI"
+    },
+    {
+      "title": "9 PM (Till I Come)",
+      "artist": "ATB",
+      "publisher": "ATBVEVO",
+      "year": 1998,
+      "embed_id": "1DcABTJoWCc"
+    },
+    {
+      "title": "Saltwater",
+      "artist": "Chicane",
+      "publisher": "Xtravaganza.TV",
+      "year": 1999,
+      "embed_id": "uTJtfytoYy4"
+    },
+    {
+      "title": "Out of the Blue",
+      "artist": "System F",
+      "publisher": "Ferry Corsten",
+      "year": 1999,
+      "embed_id": "Qgx_V0So0qk"
+    },
+    {
+      "title": "Silence (Tiësto's In Search of Sunrise Remix)",
+      "artist": "Delerium",
+      "publisher": "Delerium - Topic",
+      "year": 1999,
+      "embed_id": "O3gz3nnYv68"
+    },
+    {
+      "title": "Satellite (Original Above & Beyond Mix)",
+      "artist": "OceanLab",
+      "publisher": "Above & Beyond - Topic",
+      "year": 2004,
+      "embed_id": "NqPAOsIEDcI"
+    },
+    {
+      "title": "Adagio for Strings",
+      "artist": "Tiësto",
+      "publisher": "Kontor.TV",
+      "year": 2005,
+      "embed_id": "B0PV_S4m6Ig"
+    },
+    {
+      "title": "Shivers",
+      "artist": "Armin van Buuren feat. Susana",
+      "publisher": "Armada Music TV",
+      "year": 2005,
+      "embed_id": "NHUn3AWOw8k"
+    },
+    {
+      "title": "Communication Part 3",
+      "artist": "Armin van Buuren",
+      "publisher": "Armin van Buuren - Topic",
+      "year": 2007,
+      "embed_id": "BK0xoHYUezM"
+    },
+    {
+      "title": "Concrete Angel",
+      "artist": "Gareth Emery",
+      "publisher": "GarethEmeryVEVO",
+      "year": 2012,
+      "embed_id": "f3GRM0Yz7wM"
+    }
+  ],
+  "figures": [
+    {
+      "file": "img/best-trance-tracks/tiesto-2010-1200.webp",
+      "title": "DJ Tiesto at work, Bangkok, Thailand.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:DJ_Tiesto_at_work,_Bangkok,_Thailand.jpg"
+    },
+    {
+      "file": "img/best-trance-tracks/ferry-corsten-2010-1200.webp",
+      "title": "Ferry Corsten 2.jpg",
+      "author": "Celwin Frenzen",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ferry_Corsten_2.jpg"
+    },
+    {
+      "file": "img/best-trance-tracks/armin-van-buuren-2008-1200.webp",
+      "title": "Armin van Buuren 11 17 2008 048.jpg",
+      "author": "Davide Pasca",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Armin_van_Buuren_11_17_2008_048.jpg"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "No hero photo",
+      "why": "articleHero has no image slot; the Tiesto photo is the card and social image."
+    },
+    {
+      "title": "Binary Finary, 1998 and Rank 1, Airwaves",
+      "why": "Only fan uploads found; both records dropped rather than embed unofficial copies."
+    },
+    {
+      "title": "Armin photo venue",
+      "why": "Commons record does not state the venue."
+    }
+  ]
+}

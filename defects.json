@@ -980,6 +980,61 @@
       "what": "best-clubbing-cities-in-europe.html captions Daria Kolosova as \"Boiler Room Belgrade at Drugstore, 2021\" (source build-europe-clubbing-cities-article.mjs line 87-88, media/europe-clubbing-cities.json). boilerroom.tv/city/belgrade (read 2026-10-05) lists Daria Kolosova under Boiler Room Belgrade: Drugstore on 01 Nov 2019. The 2021 in the Selector catalogue is the YouTube upload year (selector-data.json year 2021), not the session date; the 2021 Belgrade session is Open Dancefloors, 12 Nov 2021. Published copy, so the exact before/after wording goes to the owner; not edited here. The new Belgrade guide does not embed this set.",
       "should_have_caught": "catalogue year is an upload year and was read as the session year; the set was not checked against boilerroom.tv",
       "fix": null
+    },
+    {
+      "id": "trance-tracks-silence-satellite-chart",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "best-trance-tracks draft said Delerium's Silence was released in May 1999 and peaked at number 3, and that OceanLab's Satellite charted only on the dance and physical charts. Official Charts (delerium-ft-sarah-mclachlan-silence, first chart date 14 Oct 2000) puts the number 3 on the October 2000 remixes; the May 1999 original peaked at 73 (Official Charts delerium-silence). Official Charts oceanlab-satellite shows a main-chart peak of 19 from 1 May 2004. The table, the 'nine of twelve' count and the fan-vote summary were built on the wrong rows.",
+      "should_have_caught": "the claim ledger: both rows came from snippets or from reading a dance-chart line, not from opening the song page for the release that charted",
+      "fix": {
+        "file": "best-trance-tracks-draft.md",
+        "contains": "remixes released in October 2000"
+      }
+    },
+    {
+      "id": "trance-tracks-asot-two-lists",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "best-trance-tracks draft said the two A State of Trance Top 1000 pages 'disagree' on the top five and that the fan-vote winner was Adagio for Strings or Shivers. They are two different votes: January 2021 (Shivers first) and April 2024 (RAM, RAMsterdam remix, first). Adagio is second on both, so it was never the winner of either. The page was read twice without checking the dates of each list.",
+      "should_have_caught": "the ledger recorded that the pages disagreed and shipped that as a caveat instead of finding out why",
+      "fix": {
+        "file": "best-trance-tracks-draft.md",
+        "contains": "in January 2021"
+      }
+    },
+    {
+      "id": "trance-tracks-children-sales",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "best-trance-tracks draft said Robert Miles's Children was the ninth best-selling single of 1996 at 653,000 copies. The BBC Newsbeat piece cited by Wikipedia, and number1sblog, give eighth; no source found for the 653,000 figure.",
+      "should_have_caught": "the ledger row for Children named 'Official Charts / search result' without a URL that states the rank or the sales figure",
+      "fix": {
+        "file": "best-trance-tracks-draft.md",
+        "contains": "eighth best-selling single of 1996"
+      }
+    },
+    {
+      "id": "trance-tracks-cafe-out-of-blue",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "best-trance-tracks draft gave Café del Mar a UK peak of 24 for the 1997 Three 'n One release, and said Out of the Blue sat in promo for six months before a February 1999 release. Official Charts' Café del Mar page lists 51 and 85 in March 1997 and 24 in October 2002, while Wikipedia says 24 in March 1997: sources conflict, so the peak is left out. Out of the Blue was released in March 1999 (Netherlands 9 March, UK 22 March) after a white label and Pete Tong's Essential New Tune of 13 November 1998.",
+      "should_have_caught": "snippet-only items were flagged as unverified in the review file and then still published as fact",
+      "fix": {
+        "file": "best-trance-tracks-draft.md",
+        "contains": "entered the UK chart in March 1997"
+      }
+    },
+    {
+      "id": "trance-tracks-read-next-irrelevant",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "best-trance-tracks.html Read next showed Burning Man, Berlin clubs, Berghain and Paris clubs because the home-articles entry carried tags discovery and history only, so the trance guide never matched.",
+      "should_have_caught": "the review file listed internal links but not the generated Read next cards",
+      "fix": {
+        "file": "home-articles.mjs",
+        "contains": "tags:['trance','history'], href:'/best-trance-tracks'"
+      }
     }
   ]
 }
