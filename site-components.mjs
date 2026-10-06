@@ -158,6 +158,64 @@ export const ownTracks = {
   'no-genre-no-problem': {slug: 'no-genre-no-problem', title: 'No Genre No Problem'}
 };
 
+const ownSpotifyTrackIds = new Set(['1iq7tX1EWPR7INIjkxhGSu', '6qxmmgfWlT4yrWu60elEFZ']);
+
+function hasExactOwnTrackPlayer(html) {
+  const iframes = html.match(/<iframe\b[^>]*>/g) || [];
+  return iframes.some(tag => {
+    const source = tag.match(/\bsrc="([^"]+)"/)?.[1] || '';
+    let decoded = source;
+    try { decoded = decodeURIComponent(source); } catch { /* leave the literal URL */ }
+    if ([...ownSpotifyTrackIds].some(id => decoded.includes(`open.spotify.com/embed/track/${id}`))) return true;
+    return Object.values(ownTracks).some(track => decoded.includes(`soundcloud.com/thecatrave/${track.slug}`));
+  });
+}
+
+function ensureOwnTrackInArticle(html, lang) {
+  if (hasExactOwnTrackPlayer(html)) return html;
+  const authorAt = html.indexOf('<aside class="floating-inset author-card');
+  if (authorAt < 0) throw new Error('An article without an exact own-track player needs an author card insertion point.');
+  const track = ownTracks['berlin-race-1909'];
+  const src = `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${track.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
+  const player = `<aside class="article-artist-track" aria-labelledby="article-artist-track-title"><div><p class="article-kicker">${escapeHtml(t(lang).ownTrackKicker)}</p><h3 id="article-artist-track-title">${escapeHtml(track.title)}</h3></div><iframe class="article-embed artist-track-embed" src="${escapeHtml(src)}" title="${escapeHtml(track.title)} by thecatrave on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" loading="lazy"></iframe></aside>`;
+  return `${html.slice(0, authorAt)}${player}\n${html.slice(authorAt)}`;
+}
+
+function closingSectionEnd(html, start) {
+  let depth = 0;
+  for (const match of html.slice(start).matchAll(/<\/?section\b[^>]*>/g)) {
+    depth += match[0].startsWith('</') ? -1 : 1;
+    if (depth === 0) return start + match.index + match[0].length;
+  }
+  throw new Error('Unclosed article section in promo layout.');
+}
+
+function responsiveBandcampLayout(html) {
+  if (html.includes('class="article-promo-layout"')) return html;
+  const heroEnd = html.indexOf('</header>') + '</header>'.length;
+  const authorAt = html.indexOf('<aside class="floating-inset author-card');
+  const promoAt = html.indexOf('<aside class="floating-inset article-cta');
+  if (heroEnd < 9 || authorAt < heroEnd || promoAt < heroEnd) throw new Error('Article promo layout needs a hero, author card and Bandcamp block.');
+  const promoEnd = html.indexOf('</aside>', promoAt) + '</aside>'.length;
+  if (promoEnd < promoAt) throw new Error('Unclosed Bandcamp block.');
+  const promoHtml = html.slice(promoAt, promoEnd);
+  const withoutPromo = html.slice(0, promoAt) + html.slice(promoEnd);
+  const authorWithoutPromo = withoutPromo.indexOf('<aside class="floating-inset author-card');
+  const sections = [...withoutPromo.slice(heroEnd, authorWithoutPromo).matchAll(/<section class="floating-block article-section[^"\n]*"[^>]*>/g)]
+    .map(match => ({start: heroEnd + match.index, end: closingSectionEnd(withoutPromo, heroEnd + match.index)}));
+  if (sections.length < 2) throw new Error('Article promo layout needs an introduction and substantive section.');
+  // Do not put the commercial block straight after a player or image. Prefer
+  // the first early section that ends in actual prose rather than another embed.
+  const candidates = sections.slice(1, Math.min(sections.length, 3));
+  const chosen = candidates.find(section => /<\/(?:p|ul|ol|blockquote)>\s*<\/section>$/.test(withoutPromo.slice(section.start, section.end))) || candidates.at(-1);
+  const splitAt = chosen.end;
+  return withoutPromo.slice(0, heroEnd) + articlePromoLayout({
+    beforeHtml: withoutPromo.slice(heroEnd, splitAt),
+    promoHtml,
+    afterHtml: withoutPromo.slice(splitAt, authorWithoutPromo)
+  }) + withoutPromo.slice(authorWithoutPromo);
+}
+
 // The description is in the page's language; the title is the release's own
 // name in every language.
 export function ownTrackListening(key, description, lang = defaultLang) {
@@ -340,7 +398,10 @@ export function articlePage({title, description, canonical, ogImage, datePublish
   const ogImageSize = `<meta property="og:image:width" content="${width}"><meta property="og:image:height" content="${height}">`;
   const articleTimes = `${datePublished ? `<meta property="article:published_time" content="${escapeHtml(datePublished)}">` : ''}${dateModified ? `<meta property="article:modified_time" content="${escapeHtml(dateModified)}">` : ''}`;
   const schemas = structuredData.filter(Boolean).map(data => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`).join('');
-  const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="192x192" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang, alternates})}<main id="main-content"><article>${articleHtml}</article></main>${articleFooter(lang)}</body></html>`;
+  const content = ogType === 'article' && !bodyClass.includes('selector-page')
+    ? ensureOwnTrackInArticle(responsiveBandcampLayout(articleHtml), lang)
+    : articleHtml;
+  const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="192x192" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang, alternates})}<main id="main-content"><article>${content}</article></main>${articleFooter(lang)}</body></html>`;
   return inSubdirectory ? rootRelativeAssets(html) : html;
 }
 
@@ -459,6 +520,13 @@ export function bandcampSupport({description, tracks = [], fullBleed = false, la
   const copyInner = `<h3 id="bandcamp-support-title">${escapeHtml(copy.supportTitle)}</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a>`;
   const players = tracks.map(track => `<iframe class="bandcamp-embed" title="${escapeHtml(track.title)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(track.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(track.url)}">${escapeHtml(track.linkText)}</a></iframe>`).join('');
   return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
+}
+
+// Keep one Bandcamp block in the document: inline after useful article content
+// on narrow screens, or in a compact sticky right rail when there is room.
+export function articlePromoLayout({beforeHtml, promoHtml, afterHtml} = {}) {
+  requireFields('articlePromoLayout', {beforeHtml, promoHtml, afterHtml});
+  return `<div class="article-promo-layout"><div class="article-promo-before">${beforeHtml}</div><div class="article-promo-rail">${promoHtml}</div><div class="article-promo-after">${afterHtml}</div></div>`;
 }
 
 export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {

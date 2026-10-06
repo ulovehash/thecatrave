@@ -10,7 +10,7 @@
 // placeholder with no asset, or an asset with no placeholder, fails the build.
 import fs from 'node:fs';
 import {
-  articleFaq, articleFigure, articleHero, articlePage, articleSection,
+  articleFaq, articleFigure, articleHero, articlePage, articlePromoLayout, articleSection,
   articleSources, articleStructuredData, articleTable, articleVideoCard, articleVideoCollection, authorCard,
   bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
@@ -139,8 +139,21 @@ const articleHtml = [
     summaryHtml: infoBanner({label: 'Belgrade clubs', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'Belgrade clubs beyond the bars.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
-  ...sectionHtml,
+  articlePromoLayout({
+    beforeHtml: [
+      articleSection({id: 'introduction', title: 'Belgrade clubs beyond the bars.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
+      ...sectionHtml.slice(0, 2)
+    ].join('\n'),
+    promoHtml: bandcampSupport({
+      fullBleed: true,
+      description: 'Away from the dance floor, the music I make myself. Buying one supports my work directly.',
+      tracks: [
+        {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'},
+        {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'}
+      ]
+    }),
+    afterHtml: sectionHtml.slice(2).join('\n')
+  }),
   articleFaq({items: faqItems, title: 'Belgrade clubs FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
@@ -152,14 +165,6 @@ ${sourceLink('https://nosleepfestival.com/', 'No Sleep Festival: official site')
 <li>StillInBelgrade, 10 clubs and DJ bars in Belgrade (17 February 2026), for opening nights and capacity; clubber.rs, for Barutana's history and its June 2026 reopening; Belgrade My Way, for the move of the rafts since 2025.</li>
 <li>Set titles and sessions were checked on Boiler Room's own channel and boilerroom.tv on 5 October 2026. Catalogue details are from this site's own catalogue of recorded DJ sets.</li>
 </ul>`}),
-  bandcampSupport({
-    fullBleed: true,
-    description: 'Away from the dance floor, the music I make myself. Buying one supports my work directly.',
-    tracks: [
-      {title: 'Berlin Race 1909', id: '3192532299', url: 'https://thecatrave.bandcamp.com/track/berlin-race-1909', linkText: 'Berlin Race 1909 by thecatrave'},
-      {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'}
-    ]
-  }),
   readNext({items: relatedArticles('best-clubs-in-belgrade.html')})
 ].join('\n');
 

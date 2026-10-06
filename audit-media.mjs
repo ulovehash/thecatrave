@@ -26,7 +26,7 @@ import {pages} from './pages.mjs';
 // "missing media" made the jungle guide look like it was 47% empty when the
 // figure across its actual chapters is nearer a third, and that inflated number
 // was almost used to set the threshold.
-const NOT_ILLUSTRATED = /faq|conclusion|shout ?outs|acknowledg|recommended resources|definition|sources/i;
+const NOT_ILLUSTRATED = /faq|häufige fragen|questions fréquentes|conclusion|shout ?outs|acknowledg|recommended resources|definition|sources|quellen/i;
 const MAX_EMPTY_SHARE = 0.4;
 const MAX_WORDS_WITHOUT_MEDIA = 450;
 

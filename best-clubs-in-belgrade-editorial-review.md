@@ -87,3 +87,7 @@ Disco Not Disco and Karmakoma cut (single or snippet-only). The Kult claim is he
 ## 11. Approved reader and search edits (2026-10-05)
 
 The owner approved four changes after a focused review of user friendliness and SEO. The answer now says most splavovi were removed from the Savski kej rather than implying all were cleared. The introduction states the guide's electronic-music scope directly while retaining measured search formulations. The Barutana paragraph and comparison table identify the present open-air space outside the gunpowder magazine; the 2017 Clubber interview above is the location evidence. The first FAQ answer gives visitors a direct club recommendation instead of using Boiler Room appearances as its ranking test. The URL, canonical, title, H1, headings, anchors and other venue facts are unchanged.
+
+## 12. Artist music placement (2026-10-06)
+
+The approved site-wide artist-promotion rule adds one labelled, exact SoundCloud track, "Berlin Race 1909", before the author card. It is separate from the Boiler Room recordings and makes no claim about Belgrade venues. The two existing Bandcamp release players and support copy are unchanged; the one support block now follows the Belgrade club overview on narrow screens and occupies the sticky right rail on wide desktop. The article's search intent, editorial copy, URL, canonical, metadata, headings and anchors are unchanged. The site-wide validation and full article counts are recorded in `artist-promotion-rollout-review.md`.

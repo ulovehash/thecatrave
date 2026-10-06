@@ -168,8 +168,8 @@ Required principles:
 - exact tracks sit beside the prose that discusses them;
 - playlists are clearly labelled extended routes, not substitutes for exact tracks;
 - YouTube players are directly playable conventional embeds;
-- Bandcamp belongs in the final support block;
-- the final Bandcamp block uses `fullBleed: true`, spans the viewport and normally embeds one to three releases that are genuinely relevant to the article; use a text-only CTA only when no suitable release has been selected;
+- Bandcamp belongs in one clearly labelled support block, placed after an early substantive passage on narrow screens and in the right sticky rail on wide desktop;
+- use `bandcampSupport({fullBleed: true})` for the single support block. It spans the viewport below the rail breakpoint and normally embeds one to three releases that are genuinely relevant to the article; use a text-only CTA only when no suitable release has been selected;
 - images provide evidence, identity, geography, technology or chronology;
 - every image is Creative Commons, public domain or licensed to us; rights-reserved press, agency, magazine or label photographs are rejected even when a user supplies a direct URL and offers to sort out rights afterwards;
 - images are downloaded, converted to responsive `webp` (a wide variant plus `-320w`) and served from `img/<guide>/`; never hotlink;

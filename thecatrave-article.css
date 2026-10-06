@@ -758,6 +758,63 @@
 .article-cta-solo { grid-template-columns: minmax(0, 900px); justify-content: center; }
 .article-cta-solo .article-cta-copy { max-width: 900px; }
 .article-cta-solo p { max-width: 54ch; }
+.article-artist-track {
+  display: grid;
+  grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-text));
+  margin: 0 auto var(--section-space);
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  box-sizing: border-box;
+}
+.article-artist-track .article-kicker { margin-bottom: .4rem; }
+.article-artist-track h3 { margin: 0; font-size: 1.25rem; line-height: 1.2; }
+.article-artist-track iframe { min-width: 0; max-width: 100%; }
+@media (max-width: 760px) {
+  .article-artist-track { grid-template-columns: minmax(0, 1fr); gap: .9rem; }
+}
+/* One support block: early in the reading flow until the right gutter can
+   accommodate a genuinely separate, keyboard-reachable rail. */
+.article-promo-layout { min-width: 0; }
+.article-promo-rail { min-width: 0; }
+.article-promo-rail .article-cta { margin-bottom: var(--section-space); }
+@media (min-width: 1360px) and (min-height: 700px) {
+  .article-promo-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, var(--article-text)) minmax(0, 1fr);
+    align-items: stretch;
+  }
+  .article-promo-before,
+  .article-promo-after { position: relative; z-index: 1; grid-column: 2; min-width: 0; }
+  .article-promo-before { grid-row: 1; }
+  .article-promo-after { grid-row: 2; }
+  .article-promo-rail {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    padding: 0 1rem;
+  }
+  .article-promo-rail .article-cta-full {
+    position: sticky;
+    top: 3.5rem;
+    left: auto;
+    display: block;
+    width: min(100%, 320px);
+    max-height: calc(100vh - 4.5rem);
+    margin: 0;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: none;
+    border: 1px solid var(--ink);
+  }
+  .article-promo-rail .article-cta-copy { display: block; }
+  .article-promo-rail .article-cta h3 { margin-bottom: .6rem; font-size: 1.55rem; }
+  .article-promo-rail .article-cta p { margin-bottom: .85rem; font-size: .88rem; }
+  .article-promo-rail .article-cta-tracks { margin-top: 1rem; gap: .6rem; }
+}
 .sources-section { padding-bottom: clamp(2.25rem, 4vw, 3.25rem); }
 .read-next,
 .articles-index {

@@ -17,6 +17,15 @@ function legacyContent(html) {
 }
 
 let content = preservedContent?.[1] ?? legacyContent(current);
+// This legacy generator preserves its editorial body from the previous HTML.
+// The shared shell moves Bandcamp into the reading flow after generation, so
+// remove that layout wrapper before reusing the marked editorial content.
+if (preservedContent && content.includes('article-promo-rail')) {
+  const rail = content.indexOf('</div><div class="article-promo-rail">');
+  const after = content.indexOf('</div><div class="article-promo-after">', rail);
+  if (rail < 0 || after < 0) throw new Error('Could not unwrap the preserved jungle promo layout.');
+  content = content.slice(0, rail) + content.slice(after + '</div><div class="article-promo-after">'.length);
+}
 
 function replaceMarkedBlock(html, marker, replacement) {
   const pattern = new RegExp(`(<!-- ${marker}:start -->)[\\s\\S]*?(<!-- ${marker}:end -->)`);

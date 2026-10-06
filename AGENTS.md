@@ -127,7 +127,7 @@ A long-form guide should normally contain:
 10. A useful FAQ based on real search questions.
 11. An About the Author block with concise credentials and social/music links.
 12. A limited Sources section.
-13. A Bandcamp support CTA near the end.
+13. One Bandcamp support CTA, inline after an early substantive passage on narrow screens and in the right sticky rail where desktop width permits.
 14. A Read Next block linking to relevant articles.
 15. A simple footer.
 
@@ -136,9 +136,9 @@ Do not add a section merely because competitors have one. It must close a reader
 - Introductory badges such as `fact-checked timeline` are unnecessary unless they communicate something the reader cannot already infer from the page.
 - Section numbering and side labels must not duplicate the adjacent heading. Use them only when they provide real navigational structure.
 - The first FAQ item may be open by default to make the interaction obvious; the remaining items should stay collapsed unless there is a strong reason otherwise.
-- Keep the end sequence deliberate: article conclusion or FAQ, About the Author, concise Sources, Bandcamp support block, Read Next, then footer. Avoid large accidental gaps between these blocks.
+- Keep the end sequence deliberate: article conclusion or FAQ, About the Author, concise Sources, Read Next, then footer. The single Bandcamp support block now sits earlier in the reading flow on narrow screens and in a sticky right rail on wide desktop. Avoid large accidental gaps between these blocks.
 - Treat the Bandcamp CTA as a supporting subsection, normally with an H3 rather than introducing a new top-level editorial chapter. Use a direct button label such as `SUPPORT` when approved.
-- `Read Next` belongs in the article flow after the Bandcamp block, not mixed into the footer.
+- `Read Next` belongs in the article flow, not mixed into the footer.
 
 ## 6. Listening examples and embeds
 
@@ -148,15 +148,16 @@ Do not add a section merely because competitors have one. It must close a reader
   - Spotify track embed for exact track examples;
   - YouTube embed when Spotify is unavailable or the video itself is relevant;
   - SoundCloud for mixes, underground uploads and tracks unavailable elsewhere;
-  - Bandcamp in the final commercial support block.
+  - Bandcamp in the single clearly labelled commercial support block, separate from editorial listening examples.
 - Do not embed a playlist when the copy promises one exact track unless there is genuinely no exact-track embed. If a playlist is unavoidable, label it honestly.
 - A track title mentioned in editorial copy should not become a hidden jump to the end of the article. Either embed it at the relevant point or link to the actual platform page when embedding is impossible.
 - YouTube videos must be visible, responsive players. Do not hide them behind a custom reveal button.
 - Verify YouTube embeds do not produce configuration errors such as Error 153.
 - The artist's own contemporary tracks may appear in relevant listening examples through Spotify.
 - The artist's tracks must be presented in exactly the same listening format as other examples in that section. Do not replace the requested exact Spotify track with an artist playlist.
-- Use Bandcamp for the final support section, not as a substitute for every listening example.
-- The final Bandcamp area may contain several directly relevant releases, but it must remain visually contained inside its background and must not overwhelm the article.
+- Every published article, including German and French translations, must include at least one playable, exact thecatrave track in its article body through SoundCloud or Spotify. This is an artist-promotion requirement, not a claim that the track documents the article's subject. A DJ mix, playlist, artist-profile link, author-card link or Bandcamp-only support block does not satisfy it. Identify the track as thecatrave's own music, choose one that fits the surrounding discussion when possible, and never imply that it was played at a named venue or festival without evidence. Where there is no honest topical connection, use a clearly labelled artist-music break after the reader has received the article's main answer. Implement this through shared listening components and audit the requirement across every article and translation; existing published pages require an approved editorial rollout rather than silent insertion.
+- Use Bandcamp for the support block, not as a substitute for every listening example.
+- The Bandcamp area may contain several directly relevant releases, but it must remain visually contained inside its background and must not overwhelm the article.
 - A mix embed must include a short editorial CTA explaining why that mix belongs at that point in the article.
 - Do not place duplicate promotional copy immediately above and below the same player.
 
