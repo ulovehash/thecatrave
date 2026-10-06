@@ -394,6 +394,14 @@ export const homeArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
   },
   {
+    page:'dj-mag-top-100.html', category:'digging', tags:['discovery','history'], href:'/dj-mag-top-100', type:'Essay', topic:'DJ Mag Top 100',
+    title:'Why the DJ Mag Top 100 Barely Changes',
+    description:'Five DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  },
+  {
     page:'best-dj-sets-of-all-time.html', category:'digging', tags:['discovery','house','techno','history'], href:'/best-dj-sets-of-all-time', type:'List', topic:'DJ sets',
     title:'Best DJ Sets of All Time: 30 You Can Hear',
     description:'Thirty official recordings, from Carl Cox at Space to Fabio and Grooverider, with named sets, substitutes and editorial picks clearly marked.',

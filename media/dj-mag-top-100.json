@@ -1,0 +1,21 @@
+{
+  "page": "dj-mag-top-100.html",
+  "source": "Platform oEmbed checks (YouTube) run on 6 October 2026 and thecatrave Selector catalogue metadata (selector-data.json, 67,005 sets). The seven artists are the ones the essay names as cases: three from the poll's top ten or winners, four from the catalogue count. The catalogue picks the players; it is not evidence of demand.",
+  "note": "Seven official uploads, none embedded on another page (grep of the repository for every ID on 6 October 2026). The page has no hero image: no openly licensed photograph was confirmed. The og card and homepage card reuse the Lot Radio photo already in the repository, a stated exception to ARTICLE-PRODUCTION-WORKFLOW.md §7.",
+  "required_records": [
+    { "title": "Carl Cox", "artist": "Carl Cox", "publisher": "Cercle", "year": 2018, "embed_id": "ZdAwiV4T22I" },
+    { "title": "Charlotte de Witte", "artist": "Charlotte de Witte", "publisher": "DJ Mag", "year": 2022, "embed_id": "8NUiR9ZloPo" },
+    { "title": "Nina Kraviz", "artist": "Nina Kraviz", "publisher": "Cercle", "year": 2018, "embed_id": "oFvqo1dil7M" },
+    { "title": "Solomun", "artist": "Solomun", "publisher": "DJ Mag", "year": 2016, "embed_id": "mO9O184n0BM" },
+    { "title": "Vintage Culture", "artist": "Vintage Culture", "publisher": "Cercle", "year": 2022, "embed_id": "oCNucnhn6fU" },
+    { "title": "Black Coffee", "artist": "Black Coffee", "publisher": "Boiler Room", "year": 2015, "embed_id": "9JtTbx-hYWk" },
+    { "title": "Sara Landry", "artist": "Sara Landry", "publisher": "Beatport", "year": 2025, "embed_id": "yzRNEZ71kE8" }
+  ],
+  "figures": [],
+  "known_gaps": [
+    { "title": "Top-ten DJs without an embed", "why": "David Guetta, Martin Garrix, Dimitri Vegas & Like Mike, Armin van Buuren, Afrojack, Alok, Timmy Trumpet and FISHER are named as poll data, not as recommendations. Garrix and Dimitri Vegas & Like Mike have one catalogue set each; Hardwell and Calvin Harris have none. No second-hand upload is embedded in their place." },
+    { "title": "2026 results", "why": "Voting closed on 16 September 2026 and the results were not published on 6 October 2026. The table, intro, FAQ and the genre crowns need refreshing once DJ Mag publishes them." },
+    { "title": "Garrix quote", "why": "Read through EDMTunes, not the original Dutch outlet. DJ Mag's own page for the 2025 results returned 403 to fetching; the first-party table is from the research file's read of the per-year pages." },
+    { "title": "Origin year", "why": "DJ Mag says 1993; Wikipedia and EDMTunes say 1991. The page follows DJ Mag." }
+  ]
+}

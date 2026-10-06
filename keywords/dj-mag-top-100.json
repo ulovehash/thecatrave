@@ -1,0 +1,21 @@
+{
+  "page": "dj-mag-top-100.html",
+  "seed": "famous djs",
+  "source": "Google Ads Keyword Planner (all locations, Sep 2025 to Aug 2026, run 6 October 2026); bucketed volumes",
+  "terms": [
+    { "term": "dj mag top 100", "volume": "10K-100K (Keyword Planner, all locations, 6 Oct 2026)" },
+    { "term": "famous djs", "volume": "10K-100K (Keyword Planner, all locations, 6 Oct 2026)" },
+    { "term": "top 100 djs", "volume": "1K-10K (Keyword Planner, all locations, 6 Oct 2026)" },
+    { "term": "most famous djs", "volume": "100-1K (Keyword Planner, all locations, 6 Oct 2026)" },
+    { "term": "famous djs of all time", "volume": "100-1K (Keyword Planner, all locations, 6 Oct 2026)" },
+    { "term": "famous house djs", "volume": "100-1K (Keyword Planner, all locations, 6 Oct 2026)" }
+  ],
+  "rejected": [
+    { "term": "100 best djs", "why": "measured 1K-10K but not on the page; not claimed" },
+    { "term": "dj mag ranking", "why": "measured 100-1K but not on the page; not claimed" },
+    { "term": "dj magazine top 100", "why": "measured 10K-100K but not on the page; not claimed" },
+    { "term": "dj mag top 100 techno", "why": "measured 100-1K but not on the page; not claimed" },
+    { "term": "most popular djs", "why": "measured 100-1K but not on the page; not claimed" },
+    { "term": "famous female djs", "why": "measured 100-1K but not on the page; not claimed" }
+  ]
+}

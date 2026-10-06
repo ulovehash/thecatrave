@@ -8,13 +8,24 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 05 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Why the DJ Mag Top 100 Barely Changes</title>
+    <link>https://thecatrave.com/dj-mag-top-100</link>
+    <guid isPermaLink="true">https://thecatrave.com/dj-mag-top-100</guid>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Five DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.</description>
+    <category>discovery</category>
+    <category>history</category>
+    <media:content url="https://thecatrave.com/img/og/dj-mag-top-100.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Belgrade Clubs and Nightlife: Drugstore, Klub 20/44, Splavovi</title>
     <link>https://thecatrave.com/best-clubs-in-belgrade</link>
