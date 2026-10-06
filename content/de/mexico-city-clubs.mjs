@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Mexiko-Stadt: Patrick Miller, M.N.Roy',
   description: 'Patrick Miller läuft seit 1983 jeden Freitag, M.N.Roy sitzt in einer Villa der Kommunistischen Partei, der Fünk öffnete 2019: die besten Clubs in Mexiko-Stadt.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '2. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Clubs Mexiko-Stadt',
   heroTitle: 'Die besten Clubs in Mexiko-Stadt, von Patrick Miller bis M.N.Roy',
@@ -47,8 +47,8 @@ export default {
   faqTitle: 'Häufige Fragen zu Clubs in Mexiko-Stadt.',
 
   sections: [
-    {id: 'patrick-miller-depth', heading: 'Patrick Miller im Detail', title: 'Patrick Miller im Detail.'},
     {id: 'best-clubs-now', heading: 'Die besten Clubs in Mexiko-Stadt heute', title: 'Die besten Clubs in Mexiko-Stadt heute.'},
+    {id: 'patrick-miller-depth', heading: 'Patrick Miller im Detail', title: 'Patrick Miller im Detail.'},
     {id: 'mnroy-funk-current-scene', heading: 'M.N.Roy, Fünk und die aktuelle Szene', title: 'M.N.Roy, Fünk und die aktuelle Szene.'},
     {id: 'where-to-go', heading: 'Wohin in Mexiko-Stadt ausgehen', title: 'Wohin in Mexiko-Stadt ausgehen.'}
   ],
@@ -68,7 +68,7 @@ export default {
         ['Patrick Miller', 'Roma Norte, seit 1983, nur freitags', 'Retro-Pop und Disco rund um einen offenen Tanzkreis, seit Jahrzehnten im selben Format', 'Die klarste Verbindung zur Clubgeschichte der Stadt vor dem Internet'],
         ['M.N.Roy', 'Roma Norte, seit Anfang der 2010er', 'House, Minimal und Techno in einer ehemaligen Villa der Kommunistischen Partei, gestaltet von Chic by Accident', 'Ein privater Club, der ebenso auf Architektur wie auf Bookings baut'],
         ['Fünk Club', 'Grenze Condesa/Hipódromo, seit 2019', 'Internationale Headliner und lokale Crew-Residencies auf einer Funktion-One-Anlage', 'Ein Kellerraum, der half, die Underground-Szene der Stadt international zu etablieren'],
-        ['Yu Yu Cine Club', 'Juárez, seit 2017', 'Ein kleiner, intimer Kellerraum mit der Drama Bar darunter, gebaut für die Zusammenarbeit mit anderen Crews', 'Ein intimer, gemeinschaftsorientierter Abend']
+        ['Yu Yu Cine Club', 'Juárez, seit 2017', 'Ein kleiner Kellerclub mit der Drama Bar im Erdgeschoss, gebaut für die Zusammenarbeit mit anderen Crews', 'Ein kleinerer Raum mit eigenem Programm']
       ].map(row => row.map(escapeHtml))
     })
   }),

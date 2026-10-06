@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Prague's nightlife splits cleanly into two scenes that barely overlap. One is built for stag parties and city-break tourism: five-floor multi-genre complexes a few minutes from Charles Bridge, playing everything from oldies to R&B under one roof. The other is smaller, purpose-built for house and techno, and mostly unremarkable from the street. This guide covers both, since both are genuinely Prague's best clubs, just for different nights out.
+Prague clubs range from multi-floor rooms near Charles Bridge to smaller electronic venues away from the tourist centre. Karlovy Lázně and Duplex offer a mainstream night; Cross Club and Ankali have different histories and electronic bookings. Compare the four before choosing, then check the event on the night you plan to go.
 
 ## Cross Club, in more depth
 
@@ -15,6 +15,8 @@ Its basement room has run drum and bass, techno, dub and experimental electronic
 ## The best clubs in Prague now
 
 [Table: now]
+
+These are different kinds of venue, not four interchangeable recommendations. Check the club's own programme and [Resident Advisor's Prague listings](https://ra.co/guide/cz/prague) for the date you are going, especially before travelling out to Ankali or Cross Club.
 
 ## Best techno clubs in Prague
 

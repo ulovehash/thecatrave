@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-lisbon';
 const title = 'Best Clubs in Lisbon: Lux Frágil, Ministerium and Kremlin';
 const description = "Lux Frágil has anchored Lisbon since 1998, Ministerium runs Afro-house from a former ministry, and Musicbox closed in 2025: the best clubs in Lisbon now.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-09-25';
-const dateLabel = '25 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -120,8 +120,8 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'lux-fragil-depth', heading: 'Lux Frágil, in more depth'},
   {id: 'best-clubs-now', heading: 'The best clubs in Lisbon now'},
+  {id: 'lux-fragil-depth', heading: 'Lux Frágil, in more depth'},
   {id: 'ministerium-kremlin', heading: 'Ministerium, Kremlin and the rest of the current scene'},
   {id: 'cais-do-sodre-lost', heading: 'Cais do Sodré and the venues Lisbon lost'},
   {id: 'where-to-go', heading: 'Where to go out in Lisbon'}

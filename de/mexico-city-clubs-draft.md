@@ -6,7 +6,7 @@ Die Clubs in Mexiko-Stadt verteilen sich ebenso auf Epochen wie auf Viertel. Pat
 
 ## Einleitung
 
-Die Clubszene von Mexiko-Stadt umfasst vier Jahrzehnte auf wenigen Quadratkilometern. Ihr ältester Raum ist eine Tanzhalle in der Innenstadt, die seit 1983 jeden Freitag läuft, ihr meistfotografierter Raum liegt in einer Villa, in der einst die Kommunistische Partei Mexikos saß, und ihre neueste Welle von Kellerclubs zieht seit einigen Jahren internationale Booker und Presse an. Dieser Guide behandelt alle drei Arten von Ausgehabend und zeigt, wie sie zueinander liegen.
+Die Clubs in Mexiko-Stadt gehören nicht alle zur selben Szene. Patrick Miller ist ein Tanzkreis am Freitag mit älterem Pop und Disco; M.N.Roy ist ein privater Club. Fünk und Yu Yu buchen unterschiedliche Formen aktueller elektronischer Musik. Vergleiche die vier Orte unten, besonders Zugang und Viertel, bevor du ihre Geschichte liest.
 
 ## Patrick Miller im Detail
 
@@ -19,6 +19,8 @@ Die eigene Beschreibung des Clubs durch die Tourismusbehörde von Mexiko-Stadt n
 ## Die besten Clubs in Mexiko-Stadt heute
 
 [Tabelle: now]
+
+Prüfe vor dem Besuch die Zugangsregeln und das Programm. Patrick Millers Freitagsformat und das private Modell von M.N.Roy unterscheiden sich von einer Veranstaltung bei Fünk oder Yu Yu. Die [Termine für Mexiko-Stadt bei Resident Advisor](https://ra.co/guide/mx/mexicocity) zeigen einen Teil der aktuellen elektronischen Veranstaltungen, aber nicht jede Party der Stadt.
 
 ## M.N.Roy, Fünk und die aktuelle Szene
 

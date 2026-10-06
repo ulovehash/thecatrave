@@ -167,3 +167,7 @@ No humanizer pass was re-run here, and the review above does not mention one, so
 ### Open items
 
 - Three YouTube embeds: no view-count evidence.
+
+## 6 October 2026 SEO/user-intent refresh
+
+The published answer, primary keyword, URL and section anchors were preserved. The dated September waitlist/line-up status was replaced with a link to Coachella's official 2027 page; the two weekend dates were cross-checked against the official hospitality FAQ. English, German and French sources and generated pages were updated together, with `dateModified` and the visible date set to 6 October. No new keyword was added or volume invented. The unresolved embed evidence and historical superlative noted above remain open. See `eight-article-seo-refresh-2026-10-06.md` for sources and scope.

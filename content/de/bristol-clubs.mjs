@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Bristol: Motion, Lakota und Thekla',
   description: 'Motion verlor 2025 den Mietvertrag und zog um, Lakota macht seit den 1990ern Drum and Bass, ein Frachtschiff von 1959 hostet Clubnächte: die besten Clubs in Bristol.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Clubs Bristol',
   heroTitle: 'Die besten Clubs in Bristol, von Motion bis Lakota',
@@ -47,8 +47,8 @@ export default {
   faqTitle: 'Häufige Fragen zu Clubs in Bristol.',
 
   sections: [
-    {id: 'motion-depth', heading: 'Motion im Detail', title: 'Motion im Detail.'},
     {id: 'best-clubs-now', heading: 'Die besten Clubs in Bristol heute', title: 'Die besten Clubs in Bristol heute.'},
+    {id: 'motion-depth', heading: 'Motion im Detail', title: 'Motion im Detail.'},
     {id: 'lakota-bass-music', heading: 'Lakota und Bristols Bass-Music-Linie', title: 'Lakota und Bristols Bass-Music-Linie.'},
     {id: 'where-to-go', heading: 'Wohin in Bristol ausgehen', title: 'Wohin in Bristol ausgehen.'}
   ],
@@ -63,7 +63,7 @@ export default {
     'Tabelle: now': articleTable({
       headers: ['Club', 'Gegend', 'Musik und Charakter', 'Am besten für'],
       rows: [
-        ['Motion', 'Victoria Terrace, seit 2025 (zuvor Avon Street, 2006 bis 2025)', 'Ein Lagerhauskomplex mit fünf Räumen, von DJ Mag an seinem ursprünglichen Ort unter den besten großen Clubs der Welt geführt', 'Große Touring-Bookings und Bristols eigene Drum-and-Bass-Nächte'],
+        ['Motion', 'Unit 2, Victoria Terrace (bis 2025 Avon Street)', 'Der neue Ort öffnete 2025; die fünf Räume und der DJ-Mag-Rang beziehen sich auf das frühere Gebäude an der Avon Street', 'Ort und Adresse der konkreten Veranstaltung prüfen'],
         ['Lakota', 'Upper York Street', 'Vier Etagen mit Drum and Bass, Jungle, Hardcore, Dubstep, Psytrance und Techno seit den frühen 1990ern', 'Eine echte Verbindung zu Bristols Bass-Music-Geschichte, keine Neuauflage davon'],
         ['Thekla', 'Floating Harbour', 'Ein umgebautes Frachtschiff von 1959, zuerst Konzerte und danach Clubnächte, von DHP Family betrieben, seit der Ort 1984 eröffnete', 'Ein Abend rund um einen Raum, den sonst niemand hat']
       ].map(row => row.map(escapeHtml))

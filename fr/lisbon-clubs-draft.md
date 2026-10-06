@@ -6,7 +6,7 @@ La boîte de nuit la plus connue de Lisbonne est le Lux Frágil, une salle house
 
 ## Introduction
 
-La scène des clubs de Lisbonne vit au bord du fleuve. Sa plus ancienne et plus importante salle occupe un entrepôt de quai reconverti, et son lieu actuel le plus commenté occupe une aile de l’ancien ministère des Finances sur la place principale de la ville. Plusieurs noms qui comptaient il y a cinq ans ont fermé depuis. Ce guide couvre ce qui tourne encore, ce qui fonde la réputation de Lisbonne et ce que la ville a perdu.
+Les clubs ouverts de Lisbonne proposent des soirées différentes le long du fleuve. Lux Frágil programme house et techno dans un ancien bâtiment portuaire ; Ministerium accueille notamment les soirées afro-house de Konda Records. Kremlin et Village Underground Lisboa offrent d'autres cadres. Comparez ces lieux ci-dessous avant de lire l'histoire des clubs disparus.
 
 ## Le Lux Frágil en détail
 
@@ -27,6 +27,8 @@ Buraka Som Sistema est parti pour une pause à durée indéterminée après un d
 ## Les meilleures boîtes de nuit à Lisbonne aujourd’hui
 
 [Table: now]
+
+Vérifiez le programme du lieu et les [soirées à Lisbonne sur Resident Advisor](https://ra.co/guide/pt/lisbon). Village Underground Lisboa accueille aussi d'autres événements : confirmez qu'une soirée club y est prévue. Musicbox et Lounge sont fermés ; l'avenir d'Outra Cena restait incertain lors du dernier point documenté.
 
 ## Ministerium, Kremlin et le reste de la scène actuelle
 

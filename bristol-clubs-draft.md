@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bristol's club scene runs on a different reputation from most UK cities on a clubbing shortlist: it gave drum and bass some of its early rooms and never really stopped booking it. That heritage sits alongside a warehouse-scale club that spent two decades as one of the UK's biggest rooms before losing its building in 2025, and a converted cargo ship that has run gigs and club nights from the same mooring since the 1980s. This guide covers all three, plus where the rest of the city's clubbing sits around them.
+Bristol's best-known rooms do different jobs. Lakota books across bass music and other electronic nights; Thekla is a live-music venue that also runs club nights. Motion moved from its Avon Street building to Victoria Terrace in 2025, so an old listing may point to the wrong place. Compare the venues below, then check the specific event and address before you travel.
 
 ## Motion, in more depth
 
@@ -13,6 +13,8 @@ In November 2024, Motion's team announced that the owners of its Grade II-listed
 ## The best clubs in Bristol now
 
 [Table: now]
+
+Motion's old size and DJ Mag ranking describe its Avon Street years, not the capacity or programme of its new room. For any Motion-branded event, confirm the venue on the organiser's listing. Check [Bristol's current club listings](https://ra.co/guide/uk/bristol) and each venue's own programme before going; a gig at Thekla is not necessarily a club night.
 
 ## Lakota and Bristol's bass-music line
 
@@ -42,7 +44,7 @@ Beyond these three, Bristol's own listings regularly point newcomers toward SWX,
 
 ### Is Motion nightclub in Bristol still open?
 
-Yes, but not at the address most of its history is attached to. The original Avon Street venue closed in July 2025 after its landlord declined to renew the lease on the Grade II-listed building. Motion's team crowdfunded a move and reopened later in 2025 at a new site, Unit 2 on Victoria Terrace, under the same name.
+Motion opened a new space at Unit 2, Victoria Terrace, after its Avon Street venue closed in July 2025. Check the organiser's current event listing before travelling: Motion-branded events can be held at different Bristol venues, and the old Avon Street address is no longer the club's home.
 
 ### What is the biggest club in Bristol?
 
@@ -62,4 +64,4 @@ Yes, though this guide only researched three in depth. SWX, a live-music-and-clu
 
 ## Answer
 
-Bristol's best-known clubs split between scale and history. Motion, a five-room warehouse complex that DJ Mag ranked among the world's best large clubs, ran on Avon Street from 2006 until its lease expired in July 2025, then reopened at a new site on Victoria Terrace after a crowdfunded move. Lakota, on Upper York Street since the early 1990s, is the city's clearest link to its drum and bass and jungle history, with bookings from Metalheadz and Andy C among them. Thekla, a converted 1959 cargo ship moored in the Floating Harbour since 1983, runs gigs first and club nights second.
+Bristol's best-known clubs split between different kinds of night out. Motion ran its five-room Avon Street venue from 2006 until July 2025 and opened a new space on Victoria Terrace later that year; confirm the address for any event. Lakota, on Upper York Street since the early 1990s, books drum and bass and jungle among other sounds. Thekla, a converted cargo ship in the Floating Harbour, runs gigs first and club nights second.

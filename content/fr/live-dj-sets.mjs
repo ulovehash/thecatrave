@@ -37,8 +37,8 @@ export default {
   title: 'Regarder des sets DJ en direct : Boiler Room, HÖR, NTS',
   description: 'Où regarder des sets DJ en direct en ligne, de Boiler Room et HÖR à NTS, Rinse FM, The Lot Radio, Kiosk et Cercle, avec liens et pistes d’écoute.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '2 octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Sets DJ en direct',
   heroTitle: 'Regarder des sets DJ en direct en ligne',
@@ -54,6 +54,7 @@ export default {
   faqTitle: 'Questions fréquentes sur les sets DJ en direct.',
 
   sections: [
+    {id: 'where-to-watch', heading: 'Où regarder des sets DJ en direct', title: 'Où regarder des sets DJ en direct.'},
     {id: 'pirate-radio', heading: 'Avant la caméra : la radio pirate', title: 'Avant la caméra : la radio pirate.', tocLabel: 'Avant la caméra : la radio pirate'},
     {id: 'boiler-room', heading: 'Boiler Room : ce que c’est, et ce qu’est un set Boiler Room', title: 'Boiler Room : ce que c’est, et ce qu’est un set Boiler Room.', tocLabel: 'Boiler Room'},
     {id: 'radio-with-a-camera', heading: 'Radio avec caméra : NTS, The Lot Radio et Kiosk Radio', title: 'Radio avec caméra : NTS, The Lot Radio et Kiosk Radio.', tocLabel: 'NTS, The Lot Radio et Kiosk Radio'},
@@ -61,7 +62,6 @@ export default {
     {id: 'hor-and-2020', heading: '2020 : HÖR, et l’année où chaque club est devenu un flux', title: '2020 : HÖR, et l’année où chaque club est devenu un flux.', tocLabel: '2020 et HÖR'},
     {id: 'owners', heading: 'À qui appartiennent les plateformes aujourd’hui', title: 'À qui appartiennent les plateformes aujourd’hui.'},
     {id: 'numbers', heading: 'Les sets DJ en direct en chiffres', title: 'Les sets DJ en direct en chiffres.', kicker: 'Mesuré'},
-    {id: 'where-to-watch', heading: 'Où regarder des sets DJ en direct', title: 'Où regarder des sets DJ en direct.'}
   ],
 
   media: ({lang}) => ({

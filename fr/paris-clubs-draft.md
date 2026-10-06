@@ -2,11 +2,11 @@
 
 ## Réponse
 
-Les meilleures boites de nuit à Paris aujourd'hui sont le Rex Club, la plus ancienne salle techno encore en activité dans la ville, avec Badaboum, Essaim et La Station - Gare des Mines. Le Rex Club tourne depuis 1988, dans le sous-sol du cinéma Grand Rex, boulevard Poissonnière, et c'est ce qui ressemble le plus à une institution dans la vie nocturne parisienne. Deux boites plus anciennes ont façonné tout ce qui a suivi, et les deux ont fermé : le Palace, un théâtre transformé en discothèque qui a tourné de 1978 au début des années 1980, et Les Bains Douches, un ancien bain-douche devenu boite de nuit, qui a tourné de 1978 à 2010. Ci-dessous, cette histoire, les boites ouvertes aujourd'hui, et ce qu'il faut écouter avant d'y aller.
+Les meilleures boites de nuit à Paris aujourd'hui sont le Rex Club, la plus ancienne salle techno encore en activité dans la ville, avec Badaboum, Essaim et La Station - Gare des Mines. Le Rex Club tourne depuis 1988, dans le sous-sol du cinéma Grand Rex, boulevard Poissonnière, et c'est ce qui ressemble le plus à une institution dans la vie nocturne parisienne. Deux boites plus anciennes ont façonné tout ce qui a suivi, et les deux ont fermé : le Palace, un théâtre transformé en discothèque qui a tourné de 1978 au début des années 1980, et Les Bains Douches, un ancien bain-douche devenu boite de nuit, qui a tourné de 1978 à 2010. Comparez d'abord les salles ouvertes, puis lisez cette histoire.
 
 ## Introduction
 
-La vie nocturne parisienne n'a pas un club unique qui la domine comme le Berghain domine celle de Berlin. Ce qu'elle a, c'est une mémoire plus longue : deux boites de la même année, 1978, qui ont inventé l'idée de la boite de nuit parisienne comme scène, et une salle techno qui les a toutes deux dépassées de quatre décennies. Ce guide commence par les deux légendes fermées, parce que la plupart des listes des meilleures boites de nuit à Paris passent directement aux adresses du moment et perdent en route la raison pour laquelle tout cela compte. Il finit par les boites ouvertes aujourd'hui, avec quelque chose à écouter pour chacune.
+Rex Club, Essaim, Badaboum et La Station offrent quatre façons différentes de sortir à Paris. Comparez d'abord les salles ouvertes et vérifiez leur programmation pour votre soirée. Le Palace et Les Bains Douches viennent ensuite : les deux sont fermés, mais leur histoire éclaire la vie nocturne de la ville.
 
 ## Avant les fermetures : le Palace et Les Bains Douches
 
@@ -32,11 +32,11 @@ La pop française et la musique électronique française ont toujours été plus
 
 ## Les meilleures boites de nuit à Paris aujourd'hui
 
-Demandez les meilleures boites de nuit à Paris, et la plupart des guides actuels citent la même poignée de salles. Voici les meilleures boites de nuit à Paris ouvertes aujourd'hui, tirées des noms qui se répètent d'un guide à l'autre chez Resident Advisor, Time Out et Do It In Paris, en plus de l'histoire du Rex Club ci-dessus.
+Ces quatre salles ouvertes reviennent dans les guides actuels de Paris. Leurs quartiers et leurs programmations diffèrent assez pour que l'affiche du soir compte plus qu'un classement général.
 
 [Table: now]
 
-Les horaires, la politique de porte et la programmation changent trop souvent pour être imprimés ici. Vérifiez les propres réseaux du club ou sa page Resident Advisor la semaine de votre sortie.
+Pour la date de votre visite, consultez le programme du club et les [soirées à Paris sur Resident Advisor](https://ra.co/guide/fr/paris). Horaires et conditions d'entrée varient selon l'événement.
 
 [Embed: thecatrave Protect Ya Breaks]
 

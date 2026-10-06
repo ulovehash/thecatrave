@@ -124,9 +124,9 @@ Jede Zahl hier stammt aus dem [Selector](/de/selector), der auch der schnellste 
 
 ## Wo man Live-DJ-Sets ansehen kann
 
-Fast alles auf dieser Seite ist kostenlos. Die Archive liegen auf dem YouTube-Kanal jedes Senders, die Livestreams auf den eigenen Seiten: Boiler Room listet seine kommenden Shows auf boilerroom.tv, NTS streamt seine zwei Kanäle auf nts.live, The Lot Radio und Kiosk Radio streamen über den Tag von ihren Websites, und HÖR geht live und behält seine Sets auf YouTube.
+Beginne mit dem Format, das du hören oder sehen willst. [Boiler Room](https://boilerroom.tv/) filmt DJs mitten im Raum; auf [HÖRs YouTube-Kanal](https://www.youtube.com/@hoer.berlin) findest du Studiosessions. [NTS](https://www.nts.live/) und [Rinse FM](https://www.rinse.fm/) senden Radio und führen Archive. [The Lot Radio](https://www.thelotradio.com/) und [Kiosk Radio](https://www.kioskradio.com/) streamen aus kleinen Studios. [Cercle](https://www.cercle.io/) zeigt ortsbezogene Auftritte; [Mixmags The Lab](https://mixmag.net/sound-collective/the-lab) sammelt ein weiteres Format gefilmter Sets. Prüfe den aktuellen Sendeplan für einen Livestream; sonst hilft das Archiv.
 
-Wenn du weißt, was du willst, such im Kanal. Wenn nicht, ist dafür der Selector da: Er weiß nichts über deinen Geschmack und wählt aus allen aus, so landest du bei einer Stunde Acid Arab in einem Brüsseler Park. Mehr Wege, etwas zu hören, das du noch nicht kennst, findest du in [Neue Musik finden](/de/neue-musik-finden).
+Wenn du den Sender oder DJ kennst, nutze dessen Archiv. Soll ein aufgenommenes Set ohne weitere Auswahl laufen, wählt [der Selector](/de/selector) eines aus dem Senderkatalog dieser Seite. Die Geschichte unten erklärt, warum diese Streams unterschiedlich aussehen und klingen. Weitere Wege zum Graben stehen in [Neue Musik finden](/de/neue-musik-finden).
 
 ## FAQ
 

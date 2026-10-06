@@ -29,8 +29,8 @@ export default {
   title: 'Die besten Clubs in Prag: Cross Club, Karlovy Lázně, Ankali',
   description: 'Die geschweißte Maschinerie des Cross Club, die fünf Etagen von Karlovy Lázně und Technonächte im Ankali: die besten Clubs in Prag, Mainstream und Underground.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Clubs Prag',
   heroTitle: 'Die besten Clubs in Prag, vom Cross Club bis Karlovy Lázně',
@@ -46,8 +46,8 @@ export default {
   faqTitle: 'Häufige Fragen zu Clubs in Prag.',
 
   sections: [
-    {id: 'cross-club-depth', heading: 'Der Cross Club im Detail', title: 'Der Cross Club im Detail.'},
     {id: 'best-clubs-now', heading: 'Die besten Clubs in Prag heute', title: 'Die besten Clubs in Prag heute.'},
+    {id: 'cross-club-depth', heading: 'Der Cross Club im Detail', title: 'Der Cross Club im Detail.'},
     {id: 'techno-clubs', heading: 'Die besten Techno-Clubs in Prag', title: 'Die besten Techno-Clubs in Prag.'},
     {id: 'where-to-go', heading: 'Wohin in Prag ausgehen', title: 'Wohin in Prag ausgehen.'}
   ],

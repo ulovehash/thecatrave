@@ -44,30 +44,30 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/barcelona-clubs.jpg',
   bodyClass: 'article-page barcelona-clubs-page',
 
-  title: 'Die besten Clubs in Barcelona: Von Zeleste bis Razzmatazz',
-  description: "Razzmatazz, Nitsa und Macarena Club: wie Barcelonas größter Club aus einem Live-Venue der 1970er wuchs, und die besten Clubs in Barcelona heute.",
+  title: 'Die besten Clubs in Barcelona: Razzmatazz, Nitsa und Moog',
+  description: 'Razzmatazz, Nitsa, Macarena Club und Moog nach Viertel und Musik vergleichen. Danach folgt die Geschichte der Clubräume Barcelonas.',
   datePublished: '2026-09-22',
-  dateModified: '2026-09-22',
-  dateLabel: '22. September 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Clubs in Barcelona',
-  heroTitle: 'Die besten Clubs in Barcelona, von Zeleste bis Razzmatazz',
-  deck: 'Ein Live-Venue, das zum größten Club der Stadt wurde, eine elektronische Nacht, die seit drei Jahrzehnten in einem alten Konzertsaal läuft, und ein Flamenco-Raum, der zur Tanzfläche wurde: die besten Clubs in Barcelona heute.',
+  heroTitle: 'Die besten Clubs in Barcelona: Razzmatazz, Nitsa, Macarena und Moog',
+  deck: 'Vier Orte für unterschiedliche Abende: von Razzmatazz mit fünf Räumen bis zum kleinen Dancefloor von Macarena. Erst die geöffneten Clubs vergleichen, dann ihre Geschichte lesen.',
   answerLabel: 'Die besten Clubs in Barcelona',
   breadcrumbName: 'Die besten Clubs in Barcelona',
 
   answerSection: 'Antwort',
   introSection: 'Einleitung',
-  introTitle: 'Gebäude, die ihre Nutzung ändern, keine Clubs aus dem Nichts.',
+  introTitle: 'Den passenden Club für den Abend wählen.',
   faqSection: 'FAQ',
   faqLabel: 'Häufige Fragen',
   faqTitle: 'Häufige Fragen zu Clubs in Barcelona.',
 
   sections: [
+    {id: 'best-clubs-now', heading: 'Die besten Clubs in Barcelona heute', title: 'Die besten Clubs in Barcelona heute.'},
     {id: 'zeleste-razzmatazz', heading: 'Zeleste, Razzmatazz und der Raum, der aus einem Live-Venue wuchs', title: 'Zeleste, Razzmatazz und der Raum, der aus einem Live-Venue wuchs.'},
     {id: 'apolo-nitsa', heading: 'Sala Apolo und Nitsa', title: 'Sala Apolo und Nitsa.'},
     {id: 'macarena', heading: 'Macarena Club: ein Flamenco-Tablao, das zum Dance-Club wurde', title: 'Macarena Club: ein Flamenco-Tablao, das zum Dance-Club wurde.'},
-    {id: 'best-clubs-now', heading: 'Die besten Clubs in Barcelona heute', title: 'Die besten Clubs in Barcelona heute.'},
     {id: 'where-to-go', heading: 'Wohin gehen: Barri Gòtic, Eixample und die Strandclubs', title: 'Wohin gehen: Barri Gòtic, Eixample und die Strandclubs.'}
   ],
 

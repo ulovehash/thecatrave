@@ -40,29 +40,29 @@ export default {
   bodyClass: 'article-page barcelona-clubs-page',
 
   title: 'Boite de nuit Barcelone : les meilleures boîtes',
-  description: 'Razzmatazz, Nitsa et Macarena Club : la plus grande boîte de Barcelone est née d\'une salle de concerts, et les meilleures boîtes de nuit à Barcelone aujourd\'hui.',
+  description: 'Comparez Razzmatazz, Nitsa, Macarena Club et Moog selon leur quartier et leur musique, puis découvrez l’histoire des salles de Barcelone.',
   datePublished: '2026-09-22',
-  dateModified: '2026-09-22',
-  dateLabel: '22 septembre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Boite de nuit Barcelone',
-  heroTitle: 'Les meilleures boites de nuit à Barcelone, de Zeleste à Razzmatazz',
-  deck: 'Une salle de concerts devenue la plus grande boîte de la ville, une soirée électronique vieille de trois décennies dans un ancien lieu de concerts, et une salle de flamenco devenue dancefloor : les meilleures boîtes de nuit à Barcelone aujourd\'hui.',
+  heroTitle: 'Les meilleures boites de nuit à Barcelone : Razzmatazz, Nitsa, Macarena et Moog',
+  deck: 'Quatre lieux pour des soirées différentes, des cinq salles de Razzmatazz à la petite piste de Macarena. Comparez les clubs ouverts avant leur histoire.',
   answerLabel: 'Les meilleures boites de nuit à Barcelone',
   breadcrumbName: 'Les meilleures boites de nuit à Barcelone',
 
   answerSection: 'Réponse',
   introSection: 'Introduction',
-  introTitle: 'Des bâtiments qui changent d\'usage, pas des clubs nés de rien.',
+  introTitle: 'Choisir le club pour votre soirée.',
   faqSection: 'FAQ',
   faqLabel: 'Questions fréquentes',
   faqTitle: 'Questions fréquentes sur les boites de nuit à Barcelone.',
 
   sections: [
+    {id: 'best-clubs-now', heading: 'Les meilleures boites de nuit à Barcelone aujourd\'hui', title: 'Les meilleures boites de nuit à Barcelone aujourd\'hui.'},
     {id: 'zeleste-razzmatazz', heading: 'Zeleste, Razzmatazz et la salle née d\'un lieu de concerts', title: 'Zeleste, Razzmatazz et la salle née d\'un lieu de concerts.'},
     {id: 'apolo-nitsa', heading: 'Sala Apolo et Nitsa', title: 'Sala Apolo et Nitsa.'},
     {id: 'macarena', heading: 'Macarena Club : un tablao flamenco devenu boite de nuit', title: 'Macarena Club : un tablao flamenco devenu boite de nuit.'},
-    {id: 'best-clubs-now', heading: 'Les meilleures boites de nuit à Barcelone aujourd\'hui', title: 'Les meilleures boites de nuit à Barcelone aujourd\'hui.'},
     {id: 'where-to-go', heading: 'Où aller : Barri Gòtic, Eixample et les clubs de plage', title: 'Où aller : Barri Gòtic, Eixample et les clubs de plage.'}
   ],
 

@@ -6,7 +6,7 @@ Die besten Clubs in Prag teilen sich in zwei Szenen. Karlovy Lázně, ein ehemal
 
 ## Einleitung
 
-Das Prager Nachtleben zerfällt sauber in zwei Szenen, die sich kaum berühren. Die eine ist auf Junggesellenabschiede und Städtetrips gebaut: Mehrstöckige Komplexe, wenige Minuten von der Karlsbrücke, in denen unter einem Dach alles von Oldies bis R&B läuft. Die andere ist kleiner, gezielt für House und Techno gebaut und von der Straße aus meist unscheinbar. Dieser Guide behandelt beide, denn beide gehören zu den besten Clubs in Prag, nur für verschiedene Abende.
+Prags Clubs reichen von mehrstöckigen Räumen nahe der Karlsbrücke bis zu kleineren elektronischen Clubs außerhalb des Touristenzentrums. Karlovy Lázně und Duplex bieten einen eher kommerziellen Abend; Cross Club und Ankali haben eine andere Geschichte und andere Buchungen. Vergleiche die vier Clubs und prüfe dann das Programm für deinen Besuchstag.
 
 ## Der Cross Club im Detail
 
@@ -19,6 +19,8 @@ Im Kellerraum laufen seit den frühen Jahren Drum-and-Bass-, Techno-, Dub- und e
 ## Die besten Clubs in Prag heute
 
 [Tabelle: now]
+
+Diese vier Orte sind keine austauschbaren Empfehlungen. Prüfe das Clubprogramm und die [Prager Termine bei Resident Advisor](https://ra.co/guide/cz/prague), besonders bevor du nach Ankali oder zum Cross Club fährst.
 
 ## Die besten Techno-Clubs in Prag
 

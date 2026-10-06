@@ -2,11 +2,11 @@
 
 ## Answer
 
-The best clubs in Paris right now are Rex Club, the city's oldest working techno room, along with Badaboum, Essaim and La Station - Gare des Mines. Rex Club has run since 1988, in the basement of the Grand Rex cinema on boulevard Poissonnière, and is the closest thing Paris nightlife has to an institution. Two earlier clubs shaped everything that followed and are both gone: Le Palace, a converted theatre that ran from 1978 to the early 1980s, and Les Bains Douches, a former bathhouse turned nightclub that ran from 1978 to 2010. Below is that history, the rooms open now, and what to hear from each before you go.
+The best clubs in Paris right now are Rex Club, the city's oldest working techno room, along with Badaboum, Essaim and La Station - Gare des Mines. Rex Club has run since 1988, in the basement of the Grand Rex cinema on boulevard Poissonnière, and is the closest thing Paris nightlife has to an institution. Two earlier clubs shaped everything that followed and are both gone: Le Palace, a converted theatre that ran from 1978 to the early 1980s, and Les Bains Douches, a former bathhouse turned nightclub that ran from 1978 to 2010. Compare the open rooms first, then read that history.
 
 ## Introduction
 
-Paris nightlife does not have one dominant club the way Berlin has Berghain. What it has is a longer memory: two clubs from the same year, 1978, that invented the idea of the Paris nightclub as a stage, and a techno room that has quietly outlasted both of them by four decades. This guide starts with the two closed legends, because most lists of the best clubs in Paris skip straight to this year's listings and lose the reason any of it matters. It ends with the clubs open now and something to hear from each.
+Rex Club, Essaim, Badaboum and La Station offer four different ways into Paris clubbing. Start with the open rooms below and check what each is booking for your night. Le Palace and Les Bains Douches come later: both are closed, but their histories help explain the city's club culture.
 
 ## Before the clubs closed: Le Palace and Les Bains Douches
 
@@ -32,11 +32,11 @@ French pop and French electronic music have always sat closer together than the 
 
 ## The best clubs in Paris now
 
-Ask for the best night clubs in Paris and most current guides point to the same handful of rooms. These are the best clubs in Paris that are open now, drawn from the venues that repeat across Resident Advisor's, Time Out's and Do It In Paris's own current guides, plus Rex Club's own history above.
+The four open rooms below recur in current Paris guides. Their locations and booking policies differ enough that the line-up matters more than an overall ranking.
 
 [Table: now]
 
-Opening hours, door policy and programming change too often to print here. Check each club's own listings or its Resident Advisor page for the week you are going.
+For the date you are going, check the club's own programme and [Resident Advisor's Paris listings](https://ra.co/guide/fr/paris). Opening hours, door policy and programming change by event.
 
 [Embed: thecatrave Protect Ya Breaks]
 

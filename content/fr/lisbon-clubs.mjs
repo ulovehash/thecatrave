@@ -30,8 +30,8 @@ export default {
   title: 'Les meilleures boîtes de nuit à Lisbonne : Lux Frágil, Kremlin',
   description: 'Le Lux Frágil fait Lisbonne depuis 1998, le Ministerium passe de l’afro-house dans un ancien ministère, Musicbox a fermé en 2025 : les meilleures boîtes de nuit.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Lisbonne',
   heroTitle: 'Les meilleures boîtes de nuit à Lisbonne, du Lux Frágil au Ministerium',
@@ -47,8 +47,8 @@ export default {
   faqTitle: 'Questions fréquentes sur les boîtes de nuit à Lisbonne.',
 
   sections: [
-    {id: 'lux-fragil-depth', heading: 'Le Lux Frágil en détail', title: 'Le Lux Frágil en détail.'},
     {id: 'best-clubs-now', heading: 'Les meilleures boîtes de nuit à Lisbonne aujourd’hui', title: 'Les meilleures boîtes de nuit à Lisbonne aujourd’hui.'},
+    {id: 'lux-fragil-depth', heading: 'Le Lux Frágil en détail', title: 'Le Lux Frágil en détail.'},
     {id: 'current-scene', heading: 'Ministerium, Kremlin et le reste de la scène actuelle', title: 'Ministerium, Kremlin et le reste de la scène actuelle.'},
     {id: 'lost-venues', heading: 'Cais do Sodré et les lieux que Lisbonne a perdus', title: 'Cais do Sodré et les lieux que Lisbonne a perdus.'},
     {id: 'where-to-go', heading: 'Où sortir à Lisbonne', title: 'Où sortir à Lisbonne.'}

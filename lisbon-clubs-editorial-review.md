@@ -143,3 +143,7 @@ No research file was found for this guide (lisbon-clubs-research.md, lisbon-club
 ### Open items
 
 - Two YouTube embeds: no view-count evidence.
+
+## 6 October 2026 SEO/user-intent refresh
+
+The open-venue comparison and `#best-clubs-now` anchor moved before Lux history in English, German and French. A current-listings route now separates a visitable club night from a multipurpose event venue. Closed Musicbox and Lounge and unresolved Outra Cena are identified separately. The 1K-10K Keyword Planner bucket remains a range; no fresh trend or exact search count was inferred. Older fact-check concerns above remain open. See `eight-article-seo-refresh-2026-10-06.md`.

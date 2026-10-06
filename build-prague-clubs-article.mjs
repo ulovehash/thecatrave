@@ -33,8 +33,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-prague';
 const title = 'Best Clubs in Prague: Cross Club, Karlovy Lázně and Ankali';
 const description = "Cross Club's salvaged machinery, Karlovy Lázně's five floors and Ankali's techno nights: the best clubs in Prague, mainstream and underground.";
 const datePublished = '2026-09-24';
-const dateModified = '2026-09-24';
-const dateLabel = '24 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -117,8 +117,8 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'cross-club-depth', heading: 'Cross Club, in more depth'},
   {id: 'best-clubs-now', heading: 'The best clubs in Prague now'},
+  {id: 'cross-club-depth', heading: 'Cross Club, in more depth'},
   {id: 'techno-clubs', heading: 'Best techno clubs in Prague'},
   {id: 'where-to-go', heading: 'Where to go out in Prague'}
 ];

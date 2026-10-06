@@ -135,3 +135,7 @@ No research file was found for this guide (mexico-city-clubs-research.md, mexico
 ### Open items
 
 - Two YouTube embeds: no view-count evidence.
+
+## 6 October 2026 SEO/user-intent refresh
+
+The open-venue comparison and `#best-clubs-now` anchor moved ahead of Patrick Miller's history in English, German and French. The opening and listing note distinguish Friday-only, private-club and ticketed formats; the Yu Yu table now puts Drama Bar on the ground floor, matching the article body. Resident Advisor's current Mexico City guide/listings were checked. The 1K-10K bucket and recorded recent demand decline were not turned into an exact forecast. The unresolved superlative and embed evidence above remain open. See `eight-article-seo-refresh-2026-10-06.md`.

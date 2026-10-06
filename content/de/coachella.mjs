@@ -39,8 +39,8 @@ export default {
   title: 'Was ist Coachella? Termine 2027, Ort, Größe und Musik',
   description: 'Coachella ist ein Musikfestival im Empire Polo Club in Indio, Kalifornien. Termine 2027, Ort, Dauer, Besucherzahlen, Eigentümer und die Musik im Sahara-Zelt.',
   datePublished: '2026-09-17',
-  dateModified: '2026-09-17',
-  dateLabel: '17. September 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Coachella',
   heroTitle: 'Was ist Coachella?',

@@ -165,3 +165,7 @@ No humanizer pass was re-run here, and the review above does not mention one, so
 ### Open items
 
 - Ten YouTube embeds: view-count or best-of evidence not recorded (this is a listening guide).
+
+## 6 October 2026 SEO/user-intent refresh
+
+The measured `live dj sets` head term was kept. The where-to-watch section and its existing anchor moved immediately after the introduction, ahead of the broadcaster history, in English, German and French. Verified broadcaster links and a direct Selector route now give the watch/listen query an immediate action. The page did not become a Boiler Room-only article. The dated platform counts, existing media and owner promotion were not rewritten. The unresolved source and embed items above remain open. See `eight-article-seo-refresh-2026-10-06.md`.

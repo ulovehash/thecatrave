@@ -32,8 +32,8 @@ const canonical = 'https://thecatrave.com/live-dj-sets';
 const title = 'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More';
 const description = 'Where to watch live DJ sets online, from Boiler Room and HÖR to NTS, Rinse FM, The Lot Radio, Kiosk and Cercle, with links and listening routes.';
 const datePublished = '2026-09-11';
-const dateModified = '2026-09-17';
-const dateLabel = '17 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -209,6 +209,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const tocItems = [
+  {id: 'where-to-watch', label: 'Where to watch live DJ sets'},
   {id: 'pirate-radio', label: 'Before the camera: pirate radio'},
   {id: 'boiler-room', label: 'Boiler Room'},
   {id: 'radio-with-a-camera', label: 'NTS, The Lot Radio and Kiosk Radio'},
@@ -216,7 +217,6 @@ const tocItems = [
   {id: 'hor-and-2020', label: '2020 and HÖR'},
   {id: 'owners', label: 'Who owns the platforms now'},
   {id: 'numbers', label: 'Live DJ sets by the numbers'},
-  {id: 'where-to-watch', label: 'Where to watch live DJ sets'},
   {id: 'faq', label: 'FAQ'}
 ];
 
@@ -234,6 +234,7 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Where to put the camera.', bodyHtml: join(intro), className: 'article-intro'}),
+  articleSection({id: 'where-to-watch', title: 'Where to watch live DJ sets.', bodyHtml: join(watch)}),
   articleSection({id: 'pirate-radio', title: 'Before the camera: pirate radio.', bodyHtml: pirateHtml}),
   articleSection({id: 'boiler-room', title: 'Boiler Room: what it is, and what a Boiler Room set is.', bodyHtml: boilerHtml}),
   articleSection({id: 'radio-with-a-camera', title: 'Radio with a camera: NTS, The Lot Radio and Kiosk Radio.', bodyHtml: radioHtml}),
@@ -241,7 +242,6 @@ const articleHtml = [
   articleSection({id: 'hor-and-2020', title: '2020: HÖR, and the year every club became a stream.', bodyHtml: lockdownHtml}),
   articleSection({id: 'owners', title: 'Who owns the platforms now.', bodyHtml: join(owners)}),
   articleSection({id: 'numbers', title: 'Live DJ sets by the numbers.', kicker: 'Measured', bodyHtml: numbersHtml}),
-  articleSection({id: 'where-to-watch', title: 'Where to watch live DJ sets.', bodyHtml: join(watch)}),
   articleFaq({items: faqItems, title: 'Live DJ sets FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>

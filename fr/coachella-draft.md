@@ -12,7 +12,7 @@ Qu’est-ce que le festival Coachella pour quelqu’un qui n’y est jamais all�
 
 ## Coachella 2027 : les dates
 
-Coachella 2027 se tient sur deux week-ends d’avril : du vendredi 9 au dimanche 11 avril et du vendredi 16 au dimanche 18 avril 2027, à l’Empire Polo Club d’Indio. Le festival a annoncé les dates de Coachella 2027 en avril 2026, et les pass en prévente ont été mis en vente le 1er mai 2026. Au 17 septembre 2026, le site officiel avait ouvert sa liste d’attente pour 2027 mais n’avait pas encore annoncé l’affiche.
+Coachella 2027 se tient sur deux week-ends d’avril : du vendredi 9 au dimanche 11 avril et du vendredi 16 au dimanche 18 avril 2027, à l’Empire Polo Club d’Indio. Le festival a annoncé les dates en avril 2026. Ses [pages officielles pour 2027](https://coachella.com/2027-advance-sale) donnent les informations actuelles sur les pass ; consultez-les aussi pour toute annonce ultérieure de l'affiche, plutôt que de vous fier ici à un état daté.
 
 ## Où se trouve Coachella
 

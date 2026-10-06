@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Lisbon's club scene runs on the river. Its oldest and most important room sits in a converted dockside warehouse, and its most talked-about current venue occupies a wing of the old Ministry of Finance on the city's main square. Several names that mattered five years ago have shut since. This guide covers what's still running, what anchors Lisbon's reputation, and what the city has lost.
+Lisbon's open rooms offer different nights along the river. Lux Frágil books house and techno in a dockside building; Ministerium's programme includes Konda Records' Afro-house parties; Kremlin and Village Underground Lisboa bring other settings and scales. Compare them below before reading about the clubs the city has lost.
 
 ## Lux Frágil, in more depth
 
@@ -23,6 +23,8 @@ Buraka Som Sistema went on an indefinite hiatus after a final Lisbon show in Jul
 ## The best clubs in Lisbon now
 
 [Table: now]
+
+Check the venue's own programme and [Resident Advisor's Lisbon listings](https://ra.co/guide/pt/lisbon) before going. Village Underground Lisboa is also an event space, so confirm that a club night is actually scheduled. Musicbox and Lounge are closed; Outra Cena's future remained unresolved at the last documented update.
 
 ## Ministerium, Kremlin and the rest of the current scene
 

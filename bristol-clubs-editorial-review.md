@@ -139,3 +139,7 @@ No research file was found for this guide (bristol-clubs-research.md, bristol-cl
 ### Open items
 
 - Two YouTube embeds: no view-count evidence.
+
+## 6 October 2026 SEO/user-intent refresh
+
+The open-club comparison and `#best-clubs-now` anchor moved before Motion history in English, German and French. Motion's five-room scale and DJ Mag ranking are now explicitly tied to the old Avon Street venue in the comparison table. The visitor note and FAQ direct readers to confirm the event address; Motion's own archive and DJ Mag's October 2025 move report were checked. The 1K-10K Keyword Planner bucket and +900% recent change were not interpreted as steady traffic demand. Older source concerns above remain open. See `eight-article-seo-refresh-2026-10-06.md`.

@@ -12,7 +12,7 @@ What is Coachella festival to someone who has never been? This guide covers when
 
 ## Coachella 2027: dates
 
-Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026, and advance passes went on sale on 1 May 2026. As of 17 September 2026, the official site had opened its 2027 waitlist but had not announced the line-up.
+Coachella 2027 is on two weekends in April: Friday 9 to Sunday 11 April and Friday 16 to Sunday 18 April 2027, at the Empire Polo Club in Indio. The festival announced the Coachella 2027 dates in April 2026. Its [official 2027 pages](https://coachella.com/2027-advance-sale) carry current pass information; check them for any later line-up announcement rather than relying on a dated status note here.
 
 ## Where Coachella is
 

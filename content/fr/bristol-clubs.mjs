@@ -30,8 +30,8 @@ export default {
   title: 'Meilleures boîtes de nuit à Bristol : Motion, Lakota, Thekla',
   description: 'Motion a perdu son bail en 2025, Lakota passe du drum and bass depuis les années 1990, un cargo de 1959 accueille des soirées : les meilleurs clubs de Bristol.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Bristol',
   heroTitle: 'Les meilleures boîtes de nuit à Bristol, de Motion à Lakota',
@@ -47,8 +47,8 @@ export default {
   faqTitle: 'Questions fréquentes sur les boîtes de nuit à Bristol.',
 
   sections: [
-    {id: 'motion-depth', heading: 'Motion en détail', title: 'Motion en détail.'},
     {id: 'best-clubs-now', heading: 'Les meilleures boîtes de nuit à Bristol aujourd’hui', title: 'Les meilleures boîtes de nuit à Bristol aujourd’hui.'},
+    {id: 'motion-depth', heading: 'Motion en détail', title: 'Motion en détail.'},
     {id: 'lakota-bass-music', heading: 'Lakota et la lignée bass music de Bristol', title: 'Lakota et la lignée bass music de Bristol.'},
     {id: 'where-to-go', heading: 'Où sortir à Bristol', title: 'Où sortir à Bristol.'}
   ],
@@ -63,7 +63,7 @@ export default {
     'Table: now': articleTable({
       headers: ['Club', 'Quartier', 'Musique et caractère', 'Idéal pour'],
       rows: [
-        ['Motion', 'Victoria Terrace, depuis 2025 (auparavant Avon Street, 2006 à 2025)', 'Un complexe d’entrepôt de cinq salles, classé par DJ Mag parmi les meilleurs grands clubs du monde sur son site d’origine', 'De grosses programmations en tournée et les soirées drum and bass de Bristol'],
+        ['Motion', 'Unit 2, Victoria Terrace (Avon Street jusqu’en 2025)', 'La nouvelle salle a ouvert en 2025 ; les cinq salles et le classement DJ Mag concernent l’ancien site d’Avon Street', 'Vérifier le lieu et l’adresse de chaque événement'],
         ['Lakota', 'Upper York Street', 'Quatre étages de drum and bass, jungle, hardcore, dubstep, psytrance et techno depuis le début des années 1990', 'Un vrai lien avec l’histoire bass music de Bristol, pas un revival'],
         ['Thekla', 'Floating Harbour', 'Un cargo reconverti de 1959, concerts d’abord et soirées clubs ensuite, géré par DHP Family depuis l’ouverture du lieu en 1984', 'Une soirée construite autour d’une salle que personne d’autre n’a']
       ].map(row => row.map(escapeHtml))

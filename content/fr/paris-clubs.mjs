@@ -48,28 +48,28 @@ export default {
   bodyClass: 'article-page paris-clubs-page',
 
   title: 'Boite de nuit Paris : les meilleures boîtes',
-  description: 'Le Palace, Les Bains Douches et le Rex Club : les boîtes qui ont façonné la nuit parisienne, et les meilleures boîtes de nuit à Paris aujourd\'hui.',
+  description: 'Comparez le Rex Club, Essaim, Badaboum et La Station selon leur quartier et leur musique, puis lisez l’histoire des clubs parisiens qui les ont précédés.',
   datePublished: '2026-09-22',
-  dateModified: '2026-09-22',
-  dateLabel: '22 septembre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Boite de nuit Paris',
-  heroTitle: 'Les meilleures boites de nuit à Paris, du Palace au Rex Club',
-  deck: 'Deux légendes fermées et une salle qui ne l\'a jamais été : les boîtes qui ont façonné la nuit parisienne, et les meilleures boîtes de nuit à Paris ouvertes aujourd\'hui.',
+  heroTitle: 'Les meilleures boites de nuit à Paris : Rex Club, Essaim, Badaboum et La Station',
+  deck: 'Quatre clubs ouverts, quatre programmations différentes. Comparez-les avant de remonter l’histoire de la nuit parisienne.',
   answerLabel: 'Les meilleures boites de nuit à Paris',
   breadcrumbName: 'Les meilleures boites de nuit à Paris',
 
   answerSection: 'Réponse',
   introSection: 'Introduction',
-  introTitle: 'Une mémoire plus longue qu\'un club.',
+  introTitle: 'Quatre clubs ouverts, quatre programmations.',
   faqSection: 'FAQ',
   faqLabel: 'Questions fréquentes',
   faqTitle: 'Questions fréquentes sur les boites de nuit à Paris.',
 
   sections: [
+    {id: 'best-clubs-now', heading: 'Les meilleures boites de nuit à Paris aujourd\'hui', title: 'Les meilleures boites de nuit à Paris aujourd\'hui.'},
     {id: 'before-clubs-closed', heading: 'Avant les fermetures : le Palace et Les Bains Douches', title: 'Avant les fermetures : le Palace et Les Bains Douches.'},
     {id: 'rex-club', heading: 'Le Rex Club : la salle qui a donné une maison à la techno parisienne', title: 'Le Rex Club : la salle qui a donné une maison à la techno parisienne.'},
-    {id: 'best-clubs-now', heading: 'Les meilleures boites de nuit à Paris aujourd\'hui', title: 'Les meilleures boites de nuit à Paris aujourd\'hui.'},
     {id: 'where-to-go', heading: 'Où aller : le 11e arrondissement et le canal Saint-Martin', title: 'Où aller : le 11e arrondissement et le canal Saint-Martin.'},
     {id: 'hear-paris', heading: 'Écouter Paris avant d\'y aller', title: 'Écouter Paris avant d\'y aller.'}
   ],

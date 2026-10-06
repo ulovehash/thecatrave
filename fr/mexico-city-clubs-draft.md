@@ -6,7 +6,7 @@ Les clubs de Mexico se répartissent autant par époque que par quartier. Patric
 
 ## Introduction
 
-La scène des clubs de Mexico couvre quatre décennies sur quelques kilomètres carrés. Sa plus ancienne salle est une salle de danse du centre-ville ouverte tous les vendredis depuis 1983, sa salle la plus photographiée occupe un manoir qui abritait autrefois le Parti communiste mexicain, et sa nouvelle vague de clubs en sous-sol attire depuis quelques années bookers et presse internationaux. Ce guide couvre ces trois types de soirée et la façon dont ils se situent les uns par rapport aux autres.
+Les clubs de Mexico ne forment pas une seule scène. Patrick Miller organise ses cercles de danse du vendredi autour de pop et de disco plus anciennes ; M.N.Roy est un club privé. Fünk et Yu Yu programment différentes musiques électroniques actuelles. Comparez les quatre lieux ci-dessous, notamment l'accès et le quartier, avant de lire leur histoire.
 
 ## Patrick Miller en détail
 
@@ -19,6 +19,8 @@ La description du club par l’office de tourisme de Mexico le qualifie de « li
 ## Les meilleures boîtes de nuit à Mexico aujourd’hui
 
 [Table: now]
+
+Vérifiez les conditions d'accès et le programme avant de partir. Le vendredi de Patrick Miller et le fonctionnement privé de M.N.Roy diffèrent d'une soirée à billet chez Fünk ou Yu Yu. Les [soirées à Mexico sur Resident Advisor](https://ra.co/guide/mx/mexicocity) permettent de consulter une partie des événements électroniques, mais ne couvrent pas toutes les fêtes de la ville.
 
 ## M.N.Roy, Fünk et la scène actuelle
 

@@ -6,7 +6,7 @@ Der bekannteste Club Lissabons ist das Lux Frágil, ein House- und Techno-Raum i
 
 ## Einleitung
 
-Lissabons Clubszene läuft am Fluss entlang. Ihr ältester und wichtigster Raum liegt in einem umgebauten Lagerhaus am Hafen, und ihr meistdiskutierter aktueller Club belegt einen Flügel des alten Finanzministeriums am Hauptplatz der Stadt. Mehrere Namen, die vor fünf Jahren zählten, sind seitdem geschlossen. Dieser Guide behandelt, was noch läuft, was Lissabons Ruf trägt und was die Stadt verloren hat.
+Lissabons geöffnete Clubs bieten unterschiedliche Nächte am Fluss. Lux Frágil bucht House und Techno in einem alten Hafengebäude; im Ministerium laufen unter anderem die Afro-House-Partys von Konda Records. Kremlin und Village Underground Lisboa haben andere Räume und Größen. Vergleiche die Orte unten, bevor du von den geschlossenen Clubs der Stadt liest.
 
 ## Das Lux Frágil im Detail
 
@@ -27,6 +27,8 @@ Buraka Som Sistema gingen nach einem letzten Lissabonner Auftritt im Juli 2016 i
 ## Die besten Clubs in Lissabon heute
 
 [Tabelle: now]
+
+Prüfe das Programm des Veranstaltungsorts und die [Lissabonner Termine bei Resident Advisor](https://ra.co/guide/pt/lisbon). Village Underground Lisboa ist auch ein Veranstaltungsort für andere Formate; vergewissere dich, dass eine Clubnacht stattfindet. Musicbox und Lounge sind geschlossen, während die Zukunft von Outra Cena beim letzten dokumentierten Stand offen war.
 
 ## Ministerium, Kremlin und der Rest der aktuellen Szene
 

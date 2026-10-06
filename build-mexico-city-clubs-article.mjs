@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-mexico-city';
 const title = 'Best Clubs in Mexico City: Patrick Miller, M.N.Roy and Fünk';
 const description = "Patrick Miller has run every Friday since 1983, M.N.Roy occupies a former Communist Party mansion, and Fünk opened in 2019: the best clubs in Mexico City now.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-09-25';
-const dateLabel = '25 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -95,7 +95,7 @@ const media = {
       ['Patrick Miller', 'Roma Norte, since 1983, Fridays only', "Retro pop and disco around an open dance-off circle, run on the same format for decades", "The clearest link to the city's pre-internet club history"],
       ['M.N.Roy', 'Roma Norte, since the early 2010s', 'House, minimal and techno in a former Communist Party mansion redesigned by Chic by Accident', 'A private club built as much around its architecture as its bookings'],
       ['Fünk Club', 'Condesa/Hipódromo border, since 2019', 'International headliners and local crew residencies on a Funktion One sound system', "A basement room that helped establish the city's underground scene internationally"],
-      ['Yu Yu Cine Club', 'Juárez, since 2017', 'A small, intimate basement room with Drama Bar downstairs, built for collaboration with other crews', 'An intimate, community-first night out']
+      ['Yu Yu Cine Club', 'Juárez, since 2017', 'A small basement club with Drama Bar on the ground floor, built for collaboration with other crews', 'A smaller room with its own programme']
     ].map(row => row.map(escapeHtml))
   })
 };
@@ -119,8 +119,8 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'patrick-miller-depth', heading: 'Patrick Miller, in more depth'},
   {id: 'best-clubs-now', heading: 'The best clubs in Mexico City now'},
+  {id: 'patrick-miller-depth', heading: 'Patrick Miller, in more depth'},
   {id: 'mnroy-funk-current-scene', heading: 'M.N.Roy, Fünk and the current scene'},
   {id: 'where-to-go', heading: 'Where to go out in Mexico City'}
 ];

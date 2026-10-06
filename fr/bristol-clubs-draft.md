@@ -6,7 +6,7 @@ Les clubs les plus connus de Bristol se partagent entre taille et histoire. Moti
 
 ## Introduction
 
-La scène des clubs de Bristol repose sur une réputation différente de celle de la plupart des villes britanniques d’une liste de clubbing : elle a donné au drum and bass certaines de ses premières salles et n’a jamais vraiment cessé de le programmer. Cet héritage côtoie un club à l’échelle d’un entrepôt, resté deux décennies l’une des plus grandes salles du Royaume-Uni avant de perdre son bâtiment en 2025, et un cargo reconverti qui accueille concerts et soirées depuis le même point d’amarrage depuis les années 1980. Ce guide couvre les trois, ainsi que l’endroit où se situe le reste des sorties de la ville autour d’eux.
+Les clubs les plus connus de Bristol ne proposent pas la même soirée. Lakota programme de la bass music et d'autres musiques électroniques ; Thekla est d'abord une salle de concerts, qui accueille aussi des soirées club. Motion a quitté Avon Street pour Victoria Terrace en 2025 : une ancienne annonce peut indiquer la mauvaise adresse. Comparez les lieux ci-dessous et vérifiez l'événement avant de partir.
 
 ## Motion en détail
 
@@ -17,6 +17,8 @@ En novembre 2024, l’équipe de Motion a annoncé que les propriétaires de son
 ## Les meilleures boîtes de nuit à Bristol aujourd’hui
 
 [Table: now]
+
+La taille et le classement DJ Mag de Motion concernent son ancien site d'Avon Street, pas la capacité de la nouvelle salle. Vérifiez le lieu indiqué pour chaque événement sous le nom Motion. Consultez les [soirées actuelles à Bristol sur Resident Advisor](https://ra.co/guide/uk/bristol) et le programme des salles ; un concert sur Thekla n'est pas forcément une soirée club.
 
 ## Lakota et la lignée bass music de Bristol
 

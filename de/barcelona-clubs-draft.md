@@ -2,11 +2,11 @@
 
 ## Antwort
 
-Die besten Clubs in Barcelona sind aktuell Razzmatazz, Sala Apolo (Heimat der langjährigen Nitsa-Nächte), Macarena Club und Moog. Razzmatazz, seit 2000 offen, ist der Erbe von Zeleste, einem Live-Musik-Raum, der von 1973 bis zur Schließung lief. Das Gebäude von Sala Apolo geht auf die frühen 1900er zurück, und Nitsa, einer der ersten elektronischen Clubs der Stadt, läuft seit 1996 darin. Macarena Club trägt seit den 1920ern denselben Namen und dieselbe Adresse, als es noch ein Flamenco-Tablao war statt ein Tanzclub. Unten stehen diese Geschichte, die Clubs, die heute offen sind, und wo in der Stadt sich jeder befindet.
+Die besten Clubs in Barcelona sind aktuell Razzmatazz, Sala Apolo (Heimat der langjährigen Nitsa-Nächte), Macarena Club und Moog. Razzmatazz, seit 2000 offen, ist der Erbe von Zeleste, einem Live-Musik-Raum, der von 1973 bis zur Schließung lief. Das Gebäude von Sala Apolo geht auf die frühen 1900er zurück, und Nitsa, einer der ersten elektronischen Clubs der Stadt, läuft seit 1996 darin. Macarena Club trägt seit den 1920ern denselben Namen und dieselbe Adresse, als es noch ein Flamenco-Tablao war statt ein Tanzclub. Vergleiche zuerst die geöffneten Clubs, dann lies ihre Geschichte und wo sie liegen.
 
 ## Einleitung
 
-Barcelonas Clubgeschichte ist eigentlich eine Geschichte von Gebäuden, die ihre Nutzung ändern, statt von Clubs, die aus dem Nichts entstehen. Ein Live-Musik-Saal aus den 1970ern wurde zum größten Club der Stadt. Ein Theater, das als Eisbahn begann, wurde zur Heimat einer ihrer am längsten laufenden elektronischen Nächte. Ein Flamenco-Raum aus den 1920ern ist heute ein Dance-Club mit demselben Namen, den er immer hatte. Dieser Guide folgt diesem Faden von Zeleste bis zu den Clubs, die heute Nacht offen sind, und endet damit, wo man sie in der Stadt findet.
+Entscheidend ist zuerst die Art des Abends: Razzmatazz bietet fünf Räume mit unterschiedlichem Programm, Nitsa im Sala Apolo ist eine langjährige elektronische Clubnacht, Macarena und Moog sind kleinere Räume in der Altstadt. Der Vergleich unten behandelt die heute geöffneten Clubs. Danach folgt ihre Geschichte.
 
 ## Zeleste, Razzmatazz und der Raum, der aus einem Live-Venue wuchs
 
@@ -32,11 +32,11 @@ Macarena Club, gleich neben der Rambla, trägt seinen Namen seit den 1920ern, al
 
 ## Die besten Clubs in Barcelona heute
 
-Das sind die besten Clubs in Barcelona, die heute offen sind, gezogen aus den Namen, die sich über die aktuellen Guides von Resident Advisor, Tripadvisor und barcelona.com wiederholen, plus die Geschichte oben.
+Diese vier Clubs tauchen in aktuellen Barcelona-Guides wiederholt auf, stehen aber für unterschiedliche Abende. Prüfe die konkrete Veranstaltung, bevor du dich entscheidest.
 
 [Tabelle: now]
 
-Öffnungszeiten und Türpolitik ändern sich oft. Vor dem Besuch die eigenen Listings des Clubs oder seine Resident-Advisor-Seite prüfen.
+Für deinen Besuchstag prüfe das Programm des Clubs und die [Barcelona-Termine bei Resident Advisor](https://ra.co/guide/es/barcelona). Öffnungszeiten, Line-up und Einlass können sich je nach Veranstaltung ändern.
 
 ## Wohin gehen: Barri Gòtic, Eixample und die Strandclubs
 

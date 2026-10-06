@@ -25,11 +25,11 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('barcelona-clubs-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-barcelona';
-const title = 'Best Clubs in Barcelona: From Zeleste to Razzmatazz';
-const description = "Razzmatazz, Nitsa and Macarena Club: how Barcelona's biggest club grew out of a 1970s live venue, and the best clubs in Barcelona open now.";
+const title = 'Best Clubs in Barcelona: Razzmatazz, Nitsa, Macarena and Moog';
+const description = 'Compare Razzmatazz, Nitsa, Macarena Club and Moog by area and music, then read how their rooms became part of Barcelona nightlife.';
 const datePublished = '2026-09-22';
-const dateModified = '2026-09-22';
-const dateLabel = '22 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -104,10 +104,10 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
+  {id: 'best-clubs-now', heading: 'The best clubs in Barcelona now', title: 'The best clubs in Barcelona now.'},
   {id: 'zeleste-razzmatazz', heading: 'Zeleste, Razzmatazz and the room that grew out of a live venue', title: 'Zeleste, Razzmatazz and the room that grew out of a live venue.'},
   {id: 'apolo-nitsa', heading: 'Sala Apolo and Nitsa', title: 'Sala Apolo and Nitsa.'},
   {id: 'macarena', heading: 'Macarena Club: a flamenco tablao that became a dance-music room', title: 'Macarena Club: a flamenco tablao that became a dance-music room.'},
-  {id: 'best-clubs-now', heading: 'The best clubs in Barcelona now', title: 'The best clubs in Barcelona now.'},
   {id: 'where-to-go', heading: 'Where to go: Gothic Quarter, Eixample and the beach clubs', title: 'Where to go: Gothic Quarter, Eixample and the beach clubs.'}
 ];
 
@@ -123,15 +123,15 @@ const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="
 const articleHtml = [
   articleHero({
     kicker: 'Barcelona clubs',
-    title: 'The best clubs in Barcelona, from Zeleste to Razzmatazz',
-    deck: "A live venue that became the city's biggest club, an electronic night thirty years deep in a former concert hall, and a flamenco room turned dance floor: the best clubs in Barcelona now.",
+    title: 'The best clubs in Barcelona: Razzmatazz, Nitsa, Macarena and Moog',
+    deck: 'Four places for different nights out, from Razzmatazz\'s five rooms to Macarena\'s small dance floor. Compare the open clubs first, then follow their history.',
     readingTime,
     dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best clubs in Barcelona', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'Buildings changing use, not clubs starting from nothing.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
+  articleSection({id: 'introduction', title: 'Choose the room for your night.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
   ...sectionHtml,
   articleFaq({items: faqItems, title: 'Barcelona clubs FAQ.', openFirst: true}),
   authorCard({filled: true}),

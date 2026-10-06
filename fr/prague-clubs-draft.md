@@ -6,7 +6,7 @@ Les meilleures boîtes de nuit à Prague se divisent en deux scènes. Karlovy L�
 
 ## Introduction
 
-La vie nocturne de Prague se partage nettement en deux scènes qui se croisent à peine. L’une est faite pour les enterrements de vie de garçon et les city breaks : des complexes de plusieurs étages à quelques minutes du pont Charles, où passe sous un même toit tout, des vieux tubes au R&B. L’autre est plus petite, conçue pour la house et la techno, et le plus souvent anodine vue de la rue. Ce guide couvre les deux, car toutes deux comptent parmi les meilleures boîtes de nuit de Prague, mais pour des soirées différentes.
+Les clubs de Prague vont des grandes salles à plusieurs étages près du pont Charles aux lieux électroniques plus petits, hors du centre touristique. Karlovy Lázně et Duplex proposent une soirée plus grand public ; Cross Club et Ankali ont d'autres histoires et programmations. Comparez ces quatre lieux, puis vérifiez l'affiche du soir prévu.
 
 ## Le Cross Club en détail
 
@@ -19,6 +19,8 @@ Sa salle du sous-sol accueille depuis les premières années des soirées drum a
 ## Les meilleures boîtes de nuit à Prague aujourd’hui
 
 [Table: now]
+
+Ces quatre lieux ne sont pas interchangeables. Consultez le programme du club et les [soirées à Prague sur Resident Advisor](https://ra.co/guide/cz/prague), surtout avant de vous déplacer jusqu'à Ankali ou Cross Club.
 
 ## Les meilleurs clubs de techno à Prague
 

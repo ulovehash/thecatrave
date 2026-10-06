@@ -37,8 +37,8 @@ export default {
   title: 'Live-DJ-Sets ansehen: Boiler Room, HÖR, NTS und mehr',
   description: 'Wo du Live-DJ-Sets online ansehen kannst, von Boiler Room und HÖR bis NTS, Rinse FM, The Lot Radio, Kiosk und Cercle, mit Links und Hörwegen.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '2. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Live-DJ-Sets',
   heroTitle: 'Live-DJ-Sets online ansehen',
@@ -54,6 +54,7 @@ export default {
   faqTitle: 'Häufige Fragen zu Live-DJ-Sets.',
 
   sections: [
+    {id: 'where-to-watch', heading: 'Wo man Live-DJ-Sets ansehen kann', title: 'Wo man Live-DJ-Sets ansehen kann.'},
     {id: 'pirate-radio', heading: 'Vor der Kamera: Piratenradio', title: 'Vor der Kamera: Piratenradio.', tocLabel: 'Vor der Kamera: Piratenradio'},
     {id: 'boiler-room', heading: 'Boiler Room: was es ist und was ein Boiler-Room-Set ist', title: 'Boiler Room: was es ist und was ein Boiler-Room-Set ist.', tocLabel: 'Boiler Room'},
     {id: 'radio-with-a-camera', heading: 'Radio mit Kamera: NTS, The Lot Radio und Kiosk Radio', title: 'Radio mit Kamera: NTS, The Lot Radio und Kiosk Radio.', tocLabel: 'NTS, The Lot Radio und Kiosk Radio'},
@@ -61,7 +62,6 @@ export default {
     {id: 'hor-and-2020', heading: '2020: HÖR und das Jahr, in dem jeder Club zum Stream wurde', title: '2020: HÖR und das Jahr, in dem jeder Club zum Stream wurde.', tocLabel: '2020 und HÖR'},
     {id: 'owners', heading: 'Wem die Plattformen heute gehören', title: 'Wem die Plattformen heute gehören.'},
     {id: 'numbers', heading: 'Live-DJ-Sets in Zahlen', title: 'Live-DJ-Sets in Zahlen.', kicker: 'Gemessen'},
-    {id: 'where-to-watch', heading: 'Wo man Live-DJ-Sets ansehen kann', title: 'Wo man Live-DJ-Sets ansehen kann.'}
   ],
 
   media: ({lang}) => ({

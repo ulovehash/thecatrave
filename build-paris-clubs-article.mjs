@@ -23,11 +23,11 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('paris-clubs-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-paris';
-const title = 'Best Clubs in Paris: From Le Palace to Rex Club';
-const description = 'Le Palace, Les Bains Douches and Rex Club: the clubs that made Paris nightlife, how each became famous, and the best clubs in Paris open now.';
+const title = 'Best Clubs in Paris: Rex Club, Essaim, Badaboum and La Station';
+const description = 'Compare Rex Club, Essaim, Badaboum and La Station by area and music, then read the history of the Paris clubs that came before them.';
 const datePublished = '2026-09-22';
-const dateModified = '2026-09-22';
-const dateLabel = '22 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -108,9 +108,9 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
+  {id: 'best-clubs-now', heading: 'The best clubs in Paris now', title: 'The best clubs in Paris now.'},
   {id: 'before-clubs-closed', heading: 'Before the clubs closed: Le Palace and Les Bains Douches', title: 'Before the clubs closed: Le Palace and Les Bains Douches.'},
   {id: 'rex-club', heading: 'Rex Club: the room that gave Paris techno a home', title: 'Rex Club: the room that gave Paris techno a home.'},
-  {id: 'best-clubs-now', heading: 'The best clubs in Paris now', title: 'The best clubs in Paris now.'},
   {id: 'where-to-go', heading: 'Where to go: the 11th arrondissement and Canal Saint-Martin', title: 'Where to go: the 11th arrondissement and Canal Saint-Martin.'},
   {id: 'hear-paris', heading: 'Hear Paris before you go', title: 'Hear Paris before you go.'}
 ];
@@ -127,15 +127,15 @@ const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="
 const articleHtml = [
   articleHero({
     kicker: 'Paris clubs',
-    title: 'The best clubs in Paris, from Le Palace to Rex Club',
-    deck: 'Two legends that closed, one room that never has: the clubs that made Paris nightlife, and the best clubs in Paris open now.',
+    title: 'The best clubs in Paris: Rex Club, Essaim, Badaboum and La Station',
+    deck: 'Four open clubs with different rooms and bookings. Compare them first, then trace the older Paris nightlife that shaped the city.',
     readingTime,
     dateModified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best clubs in Paris', bodyHtml: inline(answer[0]), className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'A longer memory than one club.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
+  articleSection({id: 'introduction', title: 'Four open rooms with different bookings.', bodyHtml: render(getSection('Introduction')), className: 'article-intro'}),
   ...sectionHtml,
   articleFaq({items: faqItems, title: 'Paris clubs FAQ.', openFirst: true}),
   authorCard({filled: true}),

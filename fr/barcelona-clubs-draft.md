@@ -2,11 +2,11 @@
 
 ## Réponse
 
-Les meilleures boites de nuit à Barcelone aujourd'hui sont Razzmatazz, Sala Apolo (qui abrite les soirées Nitsa depuis longtemps), Macarena Club et Moog. Razzmatazz, ouvert depuis 2000, est l'héritier nommé de Zeleste, une salle de concerts qui a tourné de 1973 jusqu'à sa fermeture. Le bâtiment de Sala Apolo remonte au début des années 1900, et Nitsa, l'une des premières boîtes électroniques de la ville, y tourne depuis 1996. Macarena Club porte le même nom et la même adresse depuis les années 1920, quand c'était un tablao flamenco plutôt qu'une boîte de nuit. Ci-dessous, cette histoire, les boîtes ouvertes aujourd'hui, et où chacune se trouve dans la ville.
+Les meilleures boites de nuit à Barcelone aujourd'hui sont Razzmatazz, Sala Apolo (qui abrite les soirées Nitsa depuis longtemps), Macarena Club et Moog. Razzmatazz, ouvert depuis 2000, est l'héritier nommé de Zeleste, une salle de concerts qui a tourné de 1973 jusqu'à sa fermeture. Le bâtiment de Sala Apolo remonte au début des années 1900, et Nitsa, l'une des premières boîtes électroniques de la ville, y tourne depuis 1996. Macarena Club porte le même nom et la même adresse depuis les années 1920, quand c'était un tablao flamenco plutôt qu'une boîte de nuit. Comparez d'abord les clubs ouverts, puis lisez leur histoire et où les trouver.
 
 ## Introduction
 
-L'histoire des boîtes de nuit à Barcelone est surtout une histoire de bâtiments qui changent d'usage, plutôt que de clubs nés de rien. Une salle de concerts des années 1970 est devenue la plus grande boîte de la ville. Un théâtre qui a commencé comme patinoire est devenu la maison d'une de ses soirées électroniques les plus anciennes. Une salle de flamenco des années 1920 est aujourd'hui une boîte électronique qui a gardé son nom d'origine. Ce guide suit ce fil, de Zeleste aux boîtes ouvertes ce soir, et finit par où les trouver dans la ville.
+Commencez par choisir le type de soirée. Razzmatazz a cinq salles aux programmations différentes ; Nitsa, au Sala Apolo, est une soirée électronique de longue date ; Macarena et Moog sont de plus petites salles dans la vieille ville. Le tableau ci-dessous compare les clubs ouverts aujourd'hui. Leur histoire vient ensuite.
 
 ## Zeleste, Razzmatazz et la salle née d'un lieu de concerts
 
@@ -32,11 +32,11 @@ Macarena Club, juste à côté des Ramblas, porte son nom depuis les années 192
 
 ## Les meilleures boites de nuit à Barcelone aujourd'hui
 
-Voici les meilleures boites de nuit à Barcelone ouvertes aujourd'hui, tirées des noms qui se répètent d'un guide à l'autre chez Resident Advisor, Tripadvisor et barcelona.com, en plus de l'histoire ci-dessus.
+Ces quatre clubs reviennent dans les guides actuels de Barcelone, mais ne proposent pas la même soirée. Vérifiez la programmation du soir avant de choisir.
 
 [Table: now]
 
-Les horaires et la politique de porte changent souvent. Vérifiez les propres réseaux du club ou sa page Resident Advisor la semaine de votre sortie.
+Pour la date de votre visite, consultez le programme du club et les [soirées à Barcelone sur Resident Advisor](https://ra.co/guide/es/barcelona). Horaires, affiches et conditions d'entrée varient selon l'événement.
 
 ## Où aller : Barri Gòtic, Eixample et les clubs de plage
 

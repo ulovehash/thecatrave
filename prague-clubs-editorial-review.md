@@ -183,3 +183,7 @@ No research file was found for this guide (prague-clubs-research.md, prague-club
 ### Open items
 
 - Two YouTube embeds: no view-count evidence.
+
+## 6 October 2026 SEO/user-intent refresh
+
+The measured `best clubs in prague` and broader `prague clubs` buckets were reviewed against the existing structure. The open-club comparison and `#best-clubs-now` anchor moved before Cross Club history in all three languages. The English introduction now uses the broader phrase naturally without treating a 10K-100K bucket as an exact count. Resident Advisor's Prague city guide was checked as a current listings route; no fixed door policy or future event was invented. Existing historical and listening claims above remain for separate review. See `eight-article-seo-refresh-2026-10-06.md`.

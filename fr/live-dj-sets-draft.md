@@ -124,9 +124,9 @@ Tous ces chiffres viennent du [Selector](/fr/selector), qui est aussi le moyen l
 
 ## Où regarder des sets DJ en direct
 
-Presque tout ce qui figure sur cette page est gratuit. Les archives se trouvent sur la chaîne YouTube de chaque diffuseur, et les flux en direct sur leurs propres sites : Boiler Room liste ses prochaines émissions sur boilerroom.tv, NTS diffuse ses deux chaînes sur nts.live, The Lot Radio et Kiosk Radio émettent depuis leurs sites tout au long de la journée, et HÖR passe en direct et garde ses sets sur YouTube.
+Commencez par le format que vous cherchez. [Boiler Room](https://boilerroom.tv/) filme les DJ au milieu du public ; la [chaîne YouTube de HÖR](https://www.youtube.com/@hoer.berlin) garde ses sessions en studio. [NTS](https://www.nts.live/) et [Rinse FM](https://www.rinse.fm/) diffusent la radio et conservent des archives. [The Lot Radio](https://www.thelotradio.com/) et [Kiosk Radio](https://www.kioskradio.com/) émettent depuis de petits studios. [Cercle](https://www.cercle.io/) donne accès à ses performances filmées dans des lieux précis ; [The Lab de Mixmag](https://mixmag.net/sound-collective/the-lab) réunit un autre format de sets filmés. Vérifiez le programme pour un direct ; les archives restent accessibles ensuite.
 
-Si tu sais ce que tu veux, cherche dans la chaîne. Sinon, c’est à ça que sert le Selector : il ne sait rien de tes goûts et pioche dans l’ensemble, c’est comme ça qu’on se retrouve avec une heure d’Acid Arab dans un parc bruxellois. Pour d’autres façons d’entendre quelque chose que tu ne connais pas, voir [comment trouver de la nouvelle musique](/fr/trouver-de-la-nouvelle-musique).
+Si vous connaissez le diffuseur ou le DJ, ouvrez ses archives. Pour lancer un set enregistré sans choisir, [le Selector](/fr/selector) en prend un dans le catalogue du site. L'histoire ci-dessous explique pourquoi ces diffusions ne se ressemblent pas. Pour continuer à chercher, voyez [comment trouver de la nouvelle musique](/fr/trouver-de-la-nouvelle-musique).
 
 ## FAQ
 

@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-bristol';
 const title = 'Best Clubs in Bristol: Motion, Lakota and Thekla';
 const description = "Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best clubs in Bristol.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-09-25';
-const dateLabel = '25 September 2026';
+const dateModified = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -90,7 +90,7 @@ const media = {
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [
-      ['Motion', 'Victoria Terrace, since 2025 (previously Avon Street, 2006-2025)', 'A five-room warehouse complex, DJ Mag-ranked among the world’s best large clubs at its original site', 'Big touring bookings and Bristol’s own drum and bass nights'],
+      ['Motion', 'Unit 2, Victoria Terrace (Avon Street until 2025)', 'New venue opened in 2025; the five-room scale and DJ Mag ranking refer to its former Avon Street site', 'Check the event listing for the actual venue and address'],
       ['Lakota', 'Upper York Street', 'Four floors running drum and bass, jungle, hardcore, dubstep, psytrance and techno since the early 1990s', 'A genuine link to Bristol’s bass-music history, not a revival of it'],
       ['Thekla', 'Floating Harbour', 'A converted 1959 cargo ship, gigs first and club nights second, run by DHP Family since the venue opened in 1984', 'A night out built around a room nobody else has']
     ].map(row => row.map(escapeHtml))
@@ -116,8 +116,8 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'motion-depth', heading: 'Motion, in more depth'},
   {id: 'best-clubs-now', heading: 'The best clubs in Bristol now'},
+  {id: 'motion-depth', heading: 'Motion, in more depth'},
   {id: 'lakota-bass-music', heading: "Lakota and Bristol's bass-music line"},
   {id: 'where-to-go', heading: 'Where to go out in Bristol'}
 ];

@@ -44,29 +44,29 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/paris-clubs.jpg',
   bodyClass: 'article-page paris-clubs-page',
 
-  title: 'Die besten Clubs in Paris: Von Le Palace bis zum Rex Club',
-  description: "Le Palace, Les Bains Douches und der Rex Club: die Clubs, die Paris' Nachtleben geprägt haben, wie jeder berühmt wurde, und die besten Clubs in Paris heute.",
+  title: 'Die besten Clubs in Paris: Rex Club, Essaim und Badaboum',
+  description: 'Rex Club, Essaim, Badaboum und La Station nach Lage und Musik vergleichen. Danach folgt die Geschichte früherer Pariser Clubs.',
   datePublished: '2026-09-22',
-  dateModified: '2026-09-22',
-  dateLabel: '22. September 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Clubs in Paris',
-  heroTitle: 'Die besten Clubs in Paris, von Le Palace bis zum Rex Club',
-  deck: 'Zwei Legenden, die geschlossen haben, und ein Raum, der es nie hat: die Clubs, die Paris\' Nachtleben geprägt haben, und die besten Clubs in Paris, die heute offen sind.',
+  heroTitle: 'Die besten Clubs in Paris: Rex Club, Essaim, Badaboum und La Station',
+  deck: 'Vier geöffnete Clubs mit unterschiedlichen Räumen und Programmen. Erst vergleichen, dann die ältere Pariser Clubgeschichte verfolgen.',
   answerLabel: 'Die besten Clubs in Paris',
   breadcrumbName: 'Die besten Clubs in Paris',
 
   answerSection: 'Antwort',
   introSection: 'Einleitung',
-  introTitle: 'Ein längeres Gedächtnis als ein Club.',
+  introTitle: 'Vier geöffnete Clubs mit verschiedenen Programmen.',
   faqSection: 'FAQ',
   faqLabel: 'Häufige Fragen',
   faqTitle: 'Häufige Fragen zu Clubs in Paris.',
 
   sections: [
+    {id: 'best-clubs-now', heading: 'Die besten Clubs in Paris heute', title: 'Die besten Clubs in Paris heute.'},
     {id: 'before-clubs-closed', heading: 'Vor den Schließungen: Le Palace und Les Bains Douches', title: 'Vor den Schließungen: Le Palace und Les Bains Douches.'},
     {id: 'rex-club', heading: 'Der Rex Club: der Raum, der Paris eine Heimat für Techno gab', title: 'Der Rex Club: der Raum, der Paris eine Heimat für Techno gab.'},
-    {id: 'best-clubs-now', heading: 'Die besten Clubs in Paris heute', title: 'Die besten Clubs in Paris heute.'},
     {id: 'where-to-go', heading: 'Wohin gehen: das 11. Arrondissement und der Canal Saint-Martin', title: 'Wohin gehen: das 11. Arrondissement und der Canal Saint-Martin.'},
     {id: 'hear-paris', heading: 'Paris hören, bevor man hingeht', title: 'Paris hören, bevor man hingeht.'}
   ],

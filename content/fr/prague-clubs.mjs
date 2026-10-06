@@ -29,8 +29,8 @@ export default {
   title: 'Les meilleures boîtes de nuit à Prague : Cross Club et Ankali',
   description: 'La ferraille du Cross Club, les cinq étages de Karlovy Lázně et les nuits techno de l’Ankali : les meilleures boîtes de nuit de Prague, grand public et underground.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Prague',
   heroTitle: 'Les meilleures boîtes de nuit à Prague, du Cross Club à Karlovy Lázně',
@@ -46,8 +46,8 @@ export default {
   faqTitle: 'Questions fréquentes sur les boîtes de nuit à Prague.',
 
   sections: [
-    {id: 'cross-club-depth', heading: 'Le Cross Club en détail', title: 'Le Cross Club en détail.'},
     {id: 'best-clubs-now', heading: 'Les meilleures boîtes de nuit à Prague aujourd’hui', title: 'Les meilleures boîtes de nuit à Prague aujourd’hui.'},
+    {id: 'cross-club-depth', heading: 'Le Cross Club en détail', title: 'Le Cross Club en détail.'},
     {id: 'techno-clubs', heading: 'Les meilleurs clubs de techno à Prague', title: 'Les meilleurs clubs de techno à Prague.'},
     {id: 'where-to-go', heading: 'Où sortir à Prague', title: 'Où sortir à Prague.'}
   ],

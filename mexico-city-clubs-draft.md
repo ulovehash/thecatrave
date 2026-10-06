@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Mexico City's club scene spans four decades in a few square kilometres. Its oldest room is a downtown dance hall that has run every Friday since 1983, its most photographed room occupies a mansion that once housed the Mexican Communist Party, and its newest wave of basement clubs has spent the last few years drawing international bookers and press. This guide covers all three kinds of night out, plus where they sit relative to each other.
+Mexico City's clubs are not one scene. Patrick Miller is a Friday dance circle built around older pop and disco; M.N.Roy is a private club; Fünk and Yu Yu book different strains of contemporary electronic music. Compare the four below, especially access and neighbourhood, before reading how the rooms developed.
 
 ## Patrick Miller, in more depth
 
@@ -15,6 +15,8 @@ The club's own description, from Mexico City's tourism authority, calls it "a cu
 ## The best clubs in Mexico City now
 
 [Table: now]
+
+Check each venue's access rules and programme before going. Patrick Miller's Friday format and M.N.Roy's private-club system make them different propositions from a ticketed Fünk or Yu Yu night. [Resident Advisor's Mexico City listings](https://ra.co/guide/mx/mexicocity) are one place to check current electronic events; they do not cover every party in the city.
 
 ## M.N.Roy, Fünk and the current scene
 
