@@ -137,7 +137,7 @@ Do not add a section merely because competitors have one. It must close a reader
 - Section numbering and side labels must not duplicate the adjacent heading. Use them only when they provide real navigational structure.
 - The first FAQ item may be open by default to make the interaction obvious; the remaining items should stay collapsed unless there is a strong reason otherwise.
 - Keep the end sequence deliberate: article conclusion or FAQ, About the Author, concise Sources, Read Next, then footer. The single Bandcamp support block now sits earlier in the reading flow on narrow screens and in a sticky right rail on wide desktop. Avoid large accidental gaps between these blocks.
-- Treat the Bandcamp CTA as a supporting subsection, normally with an H3 rather than introducing a new top-level editorial chapter. Use a direct button label such as `SUPPORT` when approved.
+- Treat the Bandcamp CTA as a supporting subsection, normally with an H3 rather than introducing a new top-level editorial chapter. The primary button says `Buy on Bandcamp` and opens the featured release directly.
 - `Read Next` belongs in the article flow, not mixed into the footer.
 
 ### Club-guide venue information
@@ -174,9 +174,9 @@ Every city, country, continent, worldwide or thematic club roundup must give rea
 - Verify YouTube embeds do not produce configuration errors such as Error 153.
 - The artist's own contemporary tracks may appear in relevant listening examples through Spotify.
 - The artist's tracks must be presented in exactly the same listening format as other examples in that section. Do not replace the requested exact Spotify track with an artist playlist.
-- Every published article, including German and French translations, must include at least one playable, exact thecatrave track in its article body through SoundCloud or Spotify. This is an artist-promotion requirement, not a claim that the track documents the article's subject. A DJ mix, playlist, artist-profile link, author-card link or Bandcamp-only support block does not satisfy it. Identify the track as thecatrave's own music, choose one that fits the surrounding discussion when possible, and never imply that it was played at a named venue or festival without evidence. Where there is no honest topical connection, use a clearly labelled artist-music break after the reader has received the article's main answer. Implement this through shared listening components and audit the requirement across every article and translation; existing published pages require an approved editorial rollout rather than silent insertion.
+- Every published article, including German and French translations, must include at least one playable thecatrave track or disclosed thecatrave-curated playlist in its article body through SoundCloud or Spotify. Place it as close to the beginning as editorial honesty and the media-adjacency rules allow, normally after the first prose-complete section once the hero has answered the primary query. Select the closest musical fit for the page and include a concise explanation of why it belongs there. This is artist promotion, not evidence for the article, and the copy must never imply that the music was played at a named venue or festival without evidence. A DJ mix, artist-profile link, author-card link or Bandcamp-only support block does not satisfy this requirement. Never use a context-free fallback before the author card or after Sources. Implement this through shared listening components and audit the requirement across every article and translation.
 - Use Bandcamp for the support block, not as a substitute for every listening example.
-- The Bandcamp area may contain several directly relevant releases, but it must remain visually contained inside its background and must not overwhelm the article.
+- The Bandcamp area features one selected release with a direct purchase link and a secondary route to browse the full catalogue. The featured release must remain visually contained inside its background and must not overwhelm the article.
 - A mix embed must include a short editorial CTA explaining why that mix belongs at that point in the article.
 - Do not place duplicate promotional copy immediately above and below the same player.
 
@@ -346,7 +346,7 @@ These rules are mandatory.
   - `articleYoutubeEmbed()` for a conventional visible 16:9 YouTube player without a reveal control or decorative wrapper;
   - `articleTableOfContents()` for the single-column Contents block and its page-specific anchor list;
   - `authorCard({filled:true})` for the cyan `Article by thecatrave` card with the responsive portrait, concise biography and platform links;
-  - `bandcampSupport({fullBleed:true})` for the low commercial stripe whose background and borders span the actual viewport; include one to three relevant Bandcamp releases when suitable music exists, and do not replace `100vw` with article-container `100%`;
+  - `bandcampSupport({fullBleed:true})` for the low commercial stripe whose background and borders span the actual viewport; feature one relevant Bandcamp release with a direct purchase link and a secondary catalogue link, and do not replace `100vw` with article-container `100%`;
   - `readNext()` for article recommendations after the Bandcamp block;
   - `articleFooter()` for the compact article footer.
 - These variants are site-wide patterns, not Jungle-only exceptions. Do not recreate their markup or width rules under a page-specific class. Pass content and visual variants through component parameters.
@@ -445,6 +445,7 @@ These rules are mandatory.
 - Transparent assets have real transparency and render correctly.
 - No desktop or mobile horizontal overflow.
 - No iframe leaves its container.
+- The article Bandcamp block shows one featured release; its primary buy link matches that release's player, and the full-catalogue link is secondary.
 - Images retain their intrinsic proportions at desktop, tablet and mobile widths.
 - Spacing is consistent across sections, figures, players, Sources, CTA and Read Next.
 - Desktop, tablet and mobile layouts have been visually inspected after the latest change.

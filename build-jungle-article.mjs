@@ -17,6 +17,8 @@ function legacyContent(html) {
 }
 
 let content = preservedContent?.[1] ?? legacyContent(current);
+// Placement markers belong to the generated layout, not preserved editorial copy.
+content = content.replace(/<span class="article-promo-midpoint" hidden><\/span>/g, '');
 // This legacy generator preserves its editorial body from the previous HTML.
 // The shared shell moves Bandcamp into the reading flow after generation, so
 // remove that layout wrapper before reusing the marked editorial content.

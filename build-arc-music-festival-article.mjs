@@ -21,7 +21,7 @@ buildFestivalArticle({
     {heading:'Why Chicago changes the festival',id:'chicago',toc:'Why Chicago matters',title:'Why Chicago changes the festival.',figure:'frankie',figureAfter:1},
     {heading:'How ARC started',id:'history',toc:'History',title:'How ARC started.',ownSet:0},
     {heading:'Union Park and the stages',id:'union-park',toc:'Union Park and stages',title:'Union Park and the stages.',figure:'park',figureAfter:1},
-    {heading:'Getting there and planning the night',id:'planning',toc:'Transport and After Dark',title:'Plan your ARC trip.',ownSet:1,planning:{
+    {heading:'Getting there and planning the night',id:'planning',toc:'Transport and After Dark',title:'ARC festival Chicago: plan your trip.',ownSet:1,planning:{
       festivalName:'ARC Music Festival',
       intro:'ARC is straightforward by Chicago standards: Union Park sits beside an accessible CTA station and has no attendee parking. The uncertain part is 2027 itself, so do not book a non-refundable trip until the dates and ticket sale are official.',
       ticketIntro:'ARC has not announced 2027 dates or prices. These are the current official sale statuses, not estimated prices.',

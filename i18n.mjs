@@ -73,6 +73,7 @@ export const locales = {
     ownSetKicker: 'A DJ mix by thecatrave',
     ownTrackKicker: 'A track by thecatrave',
     ownRemixKicker: 'A remix by thecatrave',
+    ownPlaylistKicker: 'A playlist by thecatrave',
     // Home page and Selector, translated from 2026-09-18. Their own editorial
     // copy lives in content/<lang>/home.mjs and content/<lang>/selector.mjs.
     numberLocale: 'en-US',
@@ -162,6 +163,7 @@ export const locales = {
     ownSetKicker: 'Ein DJ-Mix von thecatrave',
     ownTrackKicker: 'Ein Track von thecatrave',
     ownRemixKicker: 'Ein Remix von thecatrave',
+    ownPlaylistKicker: 'Eine Playlist von thecatrave',
     numberLocale: 'de-DE',
     homePath: '/de/',
     selectorPath: '/de/selector',
@@ -248,6 +250,7 @@ export const locales = {
     ownSetKicker: 'Un DJ mix de thecatrave',
     ownTrackKicker: 'Un morceau de thecatrave',
     ownRemixKicker: 'Un remix de thecatrave',
+    ownPlaylistKicker: 'Une playlist de thecatrave',
     numberLocale: 'fr-FR',
     homePath: '/fr/',
     selectorPath: '/fr/selector',

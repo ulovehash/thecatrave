@@ -73,3 +73,7 @@ This addendum replaces the earlier "pass" lines above where they conflict with i
 
 **Stage 6.** Not run independently. No separate validator has read the research against the guide. This remains open and is recorded here so the file does not imply otherwise.
 The 2027 dates and lineup are stated as not yet announced, matching the facts table.
+
+## Integration check, 6 October 2026
+
+The final keyword audit found that `arc festival chicago` was absent from the article body after rebuilding. The planning heading now reads `ARC festival Chicago: plan your trip.` The planning facts and translated meaning are unchanged.

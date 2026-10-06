@@ -249,6 +249,10 @@ export function clubGuideLinksFor(name) {
   const exact = clean.toLocaleLowerCase('en');
   const withoutLocation = clean.split(',')[0].trim().toLocaleLowerCase('en');
   let context = directory.get(exact) || directory.get(withoutLocation);
+  // Section headings usually add explanatory copy after the venue name, for
+  // example "Drugstore Belgrade club: the former slaughterhouse". Match the
+  // longest registered venue name on word boundaries so those sections get
+  // the same planning links as roundup-table rows.
   if (!context) {
     const matchedName = directoryNamesByLength.find(candidate => {
       const start = exact.indexOf(candidate);

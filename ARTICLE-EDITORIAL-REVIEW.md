@@ -147,7 +147,7 @@ Before implementation, verify that the media matrix creates a readable rhythm:
 - transparent artefacts have genuine transparency;
 - captions explain relevance rather than licensing housekeeping, except the required `Photograph: <author>, <licence>.` tail for `CC BY` / `CC BY-SA` images;
 - original graphics answer one clear question and have a mobile alternative.
-- the single Bandcamp support block contains one to three releases chosen for the article, does not invent a connection to the subject, and remains readable as an early inline block on narrow screens or a compact sticky rail on wide desktop.
+- the single Bandcamp support block features one release chosen for the article, links directly to that release for purchase and separately to the full catalogue, does not invent a connection to the subject, and remains readable as an early inline block on narrow screens or a compact sticky rail on wide desktop.
 
 Use the shared components documented in `SITE-COMPONENTS.md`. Editorial review must not solve layout problems by shortening approved copy.
 

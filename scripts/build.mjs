@@ -77,6 +77,7 @@ export const generators = [
   'build-pacha-ibiza-article.mjs',
   'build-ushuaia-ibiza-article.mjs',
   'build-best-clubs-in-europe-article.mjs',
+  'build-best-nightclubs-in-the-world-article.mjs',
   'build-paris-clubs-article.mjs',
   'build-barcelona-clubs-article.mjs',
   'build-amsterdam-clubs-article.mjs',

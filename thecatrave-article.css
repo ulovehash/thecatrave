@@ -885,24 +885,6 @@
 .article-cta-solo { grid-template-columns: minmax(0, 900px); grid-template-areas: "copy"; justify-content: center; }
 .article-cta-solo .article-cta-copy { max-width: 900px; }
 .article-cta-solo p { max-width: 54ch; }
-.article-artist-track {
-  display: grid;
-  grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
-  gap: 1.25rem;
-  align-items: center;
-  width: min(calc(100% - (2 * var(--article-gutter))), var(--article-text));
-  margin: 0 auto var(--section-space);
-  padding: 1.25rem 0;
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  box-sizing: border-box;
-}
-.article-artist-track .article-kicker { margin-bottom: .4rem; }
-.article-artist-track h3 { margin: 0; font-size: 1.25rem; line-height: 1.2; }
-.article-artist-track iframe { min-width: 0; max-width: 100%; }
-@media (max-width: 760px) {
-  .article-artist-track { grid-template-columns: minmax(0, 1fr); gap: .9rem; }
-}
 /* One support block: early in the reading flow until the right gutter can
    accommodate a genuinely separate, keyboard-reachable rail. */
 .article-promo-layout { min-width: 0; }
@@ -1015,11 +997,7 @@
 @media (max-width: 900px) {
   .bass-music-page .bass-starting-routes { grid-template-columns: 1fr; }
   .bass-music-page .bass-starting-routes span { margin-bottom: 1.25rem; }
-  .article-cta { grid-template-columns: 1fr; }
-  .article-cta-copy { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .75rem 2rem; align-items: end; }
-  .article-cta-copy h3,
-  .article-cta-copy p { max-width: 28rem; }
-  .article-cta-copy .button { grid-column: 2; grid-row: 1 / span 2; }
+  .article-cta { grid-template-columns: 1fr; grid-template-areas: "copy" "player" "actions"; }
 }
 
 @media (max-width: 760px) {
@@ -1119,9 +1097,7 @@
   .author-bio { grid-column: 2; grid-row: 2; }
   .author-card nav { grid-column: 1 / -1; grid-row: 3; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem 1rem; margin-top: 0; padding-top: 1rem; border-top: 1px solid rgba(10,10,10,.35); }
   .article-cta { margin: 0 auto var(--section-space); padding: 1.25rem; gap: 1.5rem; }
-  .article-cta-copy { display: block; }
-  .article-cta-copy .button { display: inline-flex; }
-  .article-cta h3 { max-width: 11ch; font-size: clamp(2rem, 10vw, 2.55rem); }
+  .article-cta h3 { max-width: 16ch; font-size: clamp(1.7rem, 8vw, 2.2rem); }
   .article-cta p { max-width: none; }
   .article-cta-tracks { gap: .65rem; }
 }
@@ -1389,10 +1365,8 @@
   box-shadow: 6px 6px 0 var(--ink);
   transition: transform 90ms cubic-bezier(.2, .8, .2, 1), box-shadow 90ms cubic-bezier(.2, .8, .2, 1);
 }
-/* A pixel cat beside a record. Drawn as a mask rather than an inline SVG so
-   the art inherits the button's own colour in every state, and so the runtime
-   can keep setting the label with textContent without wiping it. Two frames:
-   on press the cat drops onto the deck. Grids and generator: scripts/build-cat-icon.mjs. */
+/* One pixel cat face for the Selector and Bandcamp buy buttons. The shared
+   mask inherits each button's text colour. Grids: scripts/build-cat-icon.mjs. */
 .selector-page .sel-go::before,
 .article-cta .bandcamp-buy::before {
   --cat-rest: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2014'%20shape-rendering='crispEdges'%3E%3Crect%20x='0'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='14'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='13'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='0'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='12'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='0'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='11'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='0'%20y='4'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='5'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='6'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='6'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='6'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='7'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='7'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='7'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='8'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='9'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='0'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='10'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='0'%20y='11'%20width='16'%20height='1'/%3E%3Crect%20x='1'%20y='12'%20width='14'%20height='1'/%3E%3Crect%20x='3'%20y='13'%20width='10'%20height='1'/%3E%3C/svg%3E");

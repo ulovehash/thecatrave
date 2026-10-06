@@ -165,27 +165,85 @@ export const ownTracks = {
   'no-genre-no-problem': {slug: 'no-genre-no-problem', title: 'No Genre No Problem'}
 };
 
+export const ownPlaylists = {
+  'rare-electronic-music': {id: '74KiWnE4fmEPigOa4SARz2', title: 'Rare Electronic Music'},
+  'emotional-electronic-music': {id: '0U2HwRmau3EW1IXoRRa1JD', title: 'Emotional Electronic Music'}
+};
+
 const ownSpotifyTrackIds = new Set(['1iq7tX1EWPR7INIjkxhGSu', '6qxmmgfWlT4yrWu60elEFZ']);
 
-function hasExactOwnTrackPlayer(html) {
+function hasOwnMusicPlayer(html) {
   const iframes = html.match(/<iframe\b[^>]*>/g) || [];
   return iframes.some(tag => {
     const source = tag.match(/\bsrc="([^"]+)"/)?.[1] || '';
     let decoded = source;
     try { decoded = decodeURIComponent(source); } catch { /* leave the literal URL */ }
     if ([...ownSpotifyTrackIds].some(id => decoded.includes(`open.spotify.com/embed/track/${id}`))) return true;
+    if (Object.values(ownPlaylists).some(playlist => decoded.includes(`open.spotify.com/embed/playlist/${playlist.id}`))) return true;
     return Object.values(ownTracks).some(track => decoded.includes(`soundcloud.com/thecatrave/${track.slug}`));
   });
 }
 
-function ensureOwnTrackInArticle(html, lang) {
-  if (hasExactOwnTrackPlayer(html)) return html;
+const automaticMusicCopy = {
+  en: {
+    berlin: 'My own track: broken drums with dub-techno echo and space. It is the closest match to the techno and German electronic music discussed on this page.',
+    breaks: 'My own progressive-breaks track at 128 BPM. It sits here because this page deals directly with breakbeats, rave rhythm or the music around them.',
+    bass: 'My own track at 140 BPM, between future bass, glitch and breakbeat. It is the closest match to the bass-heavy music discussed on this page.',
+    jungle: 'My own short liquid-breakbeat track. It sits here as a contemporary route from the jungle and drum and bass history discussed on this page.',
+    crossGenre: 'My own track between glitch, IDM and ambient. It fits here because this page crosses scenes instead of staying inside one genre.',
+    emotional: 'A playlist I curate around melodic electronic music with weight. It offers an early listening route from the more emotional side of this subject.',
+    rare: 'A playlist I curate across house, techno, breaks and rave. It is the record bag behind thecatrave, placed here after the article’s main answer.'
+  },
+  de: {
+    berlin: 'Mein eigener Track: gebrochene Drums mit Dub-Techno-Echo und Raum. Er passt am ehesten zu der Techno- und deutschen Elektronikgeschichte auf dieser Seite.',
+    breaks: 'Mein eigener Progressive-Breaks-Track bei 128 BPM. Er steht hier, weil diese Seite direkt von Breakbeats, Rave-Rhythmus oder angrenzender Musik handelt.',
+    bass: 'Mein eigener Track bei 140 BPM zwischen Future Bass, Glitch und Breakbeat. Er passt am ehesten zur basslastigen Musik auf dieser Seite.',
+    jungle: 'Mein eigener kurzer Liquid-Breakbeat-Track. Er steht hier als heutiger Weg aus der Jungle- und Drum-and-Bass-Geschichte dieser Seite.',
+    crossGenre: 'Mein eigener Track zwischen Glitch, IDM und Ambient. Er passt hierher, weil diese Seite mehrere Szenen verbindet, statt in einem Genre zu bleiben.',
+    emotional: 'Eine von mir kuratierte Playlist für melodische elektronische Musik mit Gewicht. Sie bietet früh einen Hörweg zur emotionaleren Seite dieses Themas.',
+    rare: 'Eine von mir kuratierte Playlist zwischen House, Techno, Breaks und Rave. Sie ist die Plattentasche hinter thecatrave und steht direkt nach der Hauptantwort des Artikels.'
+  },
+  fr: {
+    berlin: 'Mon propre morceau : batterie cassée, écho dub techno et espace. C’est celui qui se rapproche le plus de la techno et de la musique électronique allemande abordées ici.',
+    breaks: 'Mon propre morceau de progressive breaks à 128 BPM. Il est placé ici parce que cette page traite directement des breakbeats, du rythme rave ou de leurs alentours.',
+    bass: 'Mon propre morceau à 140 BPM, entre future bass, glitch et breakbeat. C’est celui qui se rapproche le plus des musiques riches en basses abordées ici.',
+    jungle: 'Mon propre morceau court de liquid breakbeat. Il offre une voie actuelle depuis l’histoire de la jungle et de la drum and bass racontée ici.',
+    crossGenre: 'Mon propre morceau entre glitch, IDM et ambient. Il trouve sa place ici parce que cette page traverse plusieurs scènes sans rester dans un seul genre.',
+    emotional: 'Une playlist que je sélectionne autour d’une musique électronique mélodique et dense. Elle offre tôt un parcours d’écoute vers le versant plus émotionnel du sujet.',
+    rare: 'Une playlist que je sélectionne entre house, techno, breaks et rave. C’est le bac à disques derrière thecatrave, placé juste après la réponse principale de l’article.'
+  }
+};
+
+function automaticOwnMusic(canonical, lang) {
+  const path = new URL(canonical).pathname.toLowerCase();
+  const copy = automaticMusicCopy[lang] || automaticMusicCopy.en;
+  if (/jungle|drum-and-bass/.test(path)) return ownTrackListening('late-summer-cloud-dance', copy.jungle, lang);
+  if (/dubstep|grime|uk-garage|bass-music/.test(path)) return ownTrackListening('look', copy.bass, lang);
+  if (/breakbeat|acid-house/.test(path)) return ownTrackListening('protect-ya-breaks', copy.breaks, lang);
+  if (/techno|berlin|movement-detroit|german-electronic|deutsche-elektronische|electronique-allemande/.test(path)) return ownTrackListening('berlin-race-1909', copy.berlin, lang);
+  if (/find-new-music|neue-musik|trouver-de-la-nouvelle|uk-electronic|britische-elektronische|electronique-britannique/.test(path)) return ownTrackListening('no-genre-no-problem', copy.crossGenre, lang);
+  const playlistKey = /trance|primavera|coachella|glastonbury/.test(path) ? 'emotional-electronic-music' : 'rare-electronic-music';
+  const playlist = ownPlaylists[playlistKey];
+  return articleListeningBand({
+    platform: 'spotify', id: `own-playlist-${playlistKey}`, kicker: t(lang).ownPlaylistKicker,
+    title: `${playlist.title}.`, description: playlistKey === 'emotional-electronic-music' ? copy.emotional : copy.rare,
+    src: `https://open.spotify.com/embed/playlist/${playlist.id}?utm_source=generator`,
+    iframeTitle: `${playlist.title} curated by thecatrave on Spotify`, fullBleed: true, tone: 'cyan'
+  });
+}
+
+function ensureOwnMusicNearStart(html, lang, canonical) {
+  if (hasOwnMusicPlayer(html)) return html;
   const authorAt = html.indexOf('<aside class="floating-inset author-card');
-  if (authorAt < 0) throw new Error('An article without an exact own-track player needs an author card insertion point.');
-  const track = ownTracks['berlin-race-1909'];
-  const src = `https://w.soundcloud.com/player/?url=${encodeURIComponent(`https://soundcloud.com/thecatrave/${track.slug}`)}&color=%23ff5a36&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
-  const player = `<aside class="article-artist-track" aria-labelledby="article-artist-track-title"><div><p class="article-kicker">${escapeHtml(t(lang).ownTrackKicker)}</p><h3 id="article-artist-track-title">${escapeHtml(track.title)}</h3></div><iframe class="article-embed artist-track-embed" src="${escapeHtml(src)}" title="${escapeHtml(track.title)} by thecatrave on SoundCloud" width="100%" height="166" scrolling="no" allow="autoplay" loading="lazy"></iframe></aside>`;
-  return `${html.slice(0, authorAt)}${player}\n${html.slice(authorAt)}`;
+  const heroEnd = html.indexOf('</header>') + '</header>'.length;
+  if (heroEnd < 9 || authorAt < heroEnd) throw new Error('An article without thecatrave music needs a hero and author card insertion boundary.');
+  const sections = [...html.slice(heroEnd, authorAt).matchAll(/<section class="floating-block article-section[^"\n]*"[^>]*>/g)]
+    .map(match => ({start: heroEnd + match.index, end: closingSectionEnd(html, heroEnd + match.index), open: match[0]}))
+    .filter(section => !/\bid="(?:faq|sources)"/.test(section.open));
+  const chosen = sections.find(section => /<\/(?:p|ul|ol|blockquote)>\s*<\/section>$/.test(html.slice(section.start, section.end)));
+  if (!chosen) throw new Error('An article without thecatrave music needs an early prose-complete section for placement.');
+  const player = automaticOwnMusic(canonical, lang);
+  return `${html.slice(0, chosen.end)}${player}\n${html.slice(chosen.end)}`;
 }
 
 function closingSectionEnd(html, start) {
@@ -372,7 +430,7 @@ export function articleHero({kicker, title, deck, readingTime, dateModified, dat
   return `<header class="article-hero"><div class="article-masthead"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}</div><p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${tocItems.length ? articleTableOfContents({items:tocItems, lang}) : ''}</header>`;
 }
 
-function clubVenuePlanningHtml(venue) {
+function clubVenuePlanningHtml(venue, label = '') {
   const venueLocation = venue
     ? (venue.venue.toLocaleLowerCase('en').includes(venue.place.toLocaleLowerCase('en')) ? venue.venue : `${venue.venue}, ${venue.place}`)
     : '';
@@ -380,7 +438,7 @@ function clubVenuePlanningHtml(venue) {
     ? `<div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>`
     : venue ? '<div><dt>Resident Advisor</dt><dd><span data-club-i18n="unlisted">RA listing not verified</span></dd></div>' : '';
   const venuePlanning = venue
-    ? `<aside class="club-venue-planning" aria-label="Plan your visit"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
+    ? `<aside class="club-venue-planning" aria-label="${escapeHtml(label || venueLocation)}"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
     : '';
   return venuePlanning;
 }
@@ -388,7 +446,7 @@ function clubVenuePlanningHtml(venue) {
 export function articleSection({id = '', title, bodyHtml = '', kicker = '', className = ''} = {}) {
   const classes = ['floating-block', 'article-section', className].filter(Boolean).join(' ');
   const venue = className.includes('faq-section') ? null : clubGuideLinksFor(title);
-  const venuePlanning = clubVenuePlanningHtml(venue);
+  const venuePlanning = clubVenuePlanningHtml(venue, title);
   const bodyWithPlanning = !venuePlanning ? bodyHtml
     : bodyHtml.trimStart().startsWith('<p>')
       ? `${venuePlanning}${bodyHtml}`
@@ -525,7 +583,8 @@ export function articleSources({bodyHtml, lang = defaultLang, title = t(lang).so
 // cannot keep the relative `img/...` and stylesheet paths the generators write,
 // so they are made root-relative here rather than in every caller.
 function bandcampExperimentBootstrap() {
-  // Keep one assignment per browser; storage failure preserves the existing layout.
+  // Assign each layout independently per browser. A blocked storage read keeps
+  // the existing layout, and preview-only query overrides never affect live traffic.
   return `<script>(function(){var root=document.documentElement;function pick(key,control,test,previewKey){var value=control;try{value=localStorage.getItem(key);if(value!==control&&value!==test){value=Math.random()<.5?control:test;localStorage.setItem(key,value)}}catch(e){value=control}if(location.hostname==='localhost'||location.hostname==='127.0.0.1'){var override=new URLSearchParams(location.search).get(previewKey);if(override===control||override===test)value=override}return value}root.dataset.bandcampDesktop=pick('tcr-bandcamp-desktop-v1','rail','inline','bc_desktop');root.dataset.bandcampMobile=pick('tcr-bandcamp-mobile-v2','early','middle','bc_mobile')})();<\/script>`;
 }
 
@@ -553,12 +612,11 @@ export function articlePage({title, description, canonical, ogImage, datePublish
   const articleTimes = `${datePublished ? `<meta property="article:published_time" content="${escapeHtml(datePublished)}">` : ''}${dateModified ? `<meta property="article:modified_time" content="${escapeHtml(dateModified)}">` : ''}`;
   const schemas = structuredData.filter(Boolean).map(data => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`).join('');
   const content = ogType === 'article' && !bodyClass.includes('selector-page')
-    ? ensureOwnTrackInArticle(responsiveBandcampLayout(articleHtml), lang)
+    ? ensureOwnMusicNearStart(responsiveBandcampLayout(articleHtml), lang, canonical)
     : articleHtml;
   const experiment = content.includes('class="floating-inset article-cta') ? bandcampExperimentBootstrap() : '';
-  const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="192x192" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang, alternates})}<main id="main-content"><article>${content}</article></main>${articleFooter(lang)}</body></html>`;
-  const readyHtml = html.replace('<link rel="stylesheet" href="thecatrave-home.css">', `${experiment}<link rel="stylesheet" href="thecatrave-home.css">`);
-  return inSubdirectory ? rootRelativeAssets(readyHtml) : readyHtml;
+  const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="192x192" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript>${experiment}<link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang, alternates})}<main id="main-content"><article>${content}</article></main>${articleFooter(lang)}</body></html>`;
+  return inSubdirectory ? rootRelativeAssets(html) : html;
 }
 
 export function articleStructuredData({headline, description, canonical, image, datePublished, dateModified, lang = defaultLang} = {}) {

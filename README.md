@@ -28,3 +28,5 @@ Homepage performance is generated too: edit `thecatrave-home.css` and `homepage-
 An authorised push is not complete until the post-push verification in `ARTICLE-PRODUCTION-WORKFLOW.md` has been performed: confirm the remote `main` SHA, local/remote synchronisation, a clean worktree and documentation parity with the code and research that were actually published. Documentation should normally be updated in the same commit as the implementation it describes.
 
 Do not commit, push, merge, publish, delete branches or change an existing canonical URL without explicit user approval.
+
+The worldwide nightclub guide lives at `/best-nightclubs-in-the-world`, built from `best-nightclubs-in-the-world-draft.md`. Its keyword and media records and editorial review accompany the generator; the supporting research is in `TOPIC-DOSSIERS.md`. It shares the homepage catalogue, article index and related-article cards.

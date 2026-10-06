@@ -41,7 +41,7 @@ const requiredListeningExamples = {
 for (const [genre, mediaId] of Object.entries(requiredListeningExamples)) {
   check(`Listening example: ${genre}`, html.includes(mediaId));
 }
-check('One Bandcamp track', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 1);
+check('One featured Bandcamp release', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 1);
 check('Global history visual', html.includes('img/bass-music/bass-music-global-history.svg'));
 check('Mobile global history visual', html.includes('img/bass-music/bass-music-global-history-mobile.svg'));
 check('No editorial end matter', !html.includes('Editorial end matter'));

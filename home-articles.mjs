@@ -626,6 +626,14 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The Sava river in Belgrade seen from Kalemegdan fortress, with road bridges and moored boats'
   },
   {
+    page:'best-nightclubs-in-the-world.html', released:'2026-10-06T22:30:00+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/best-nightclubs-in-the-world', type:'Guide', topic:'Best nightclubs in the world',
+    title:"Best Nightclubs in the World: 20 Clubs From DJ Mag's 2026 Top 100",
+    description:'The best nightclubs in the world by region, from Ibiza and Berlin to Brazil, Miami and Tokyo, with DJ Mag ranks, sizes and sets to hear.',
+    image:'img/best-nightclubs-in-the-world/echostage-2024-320.webp',
+    srcset:'img/best-nightclubs-in-the-world/echostage-2024-320.webp 320w,img/best-nightclubs-in-the-world/echostage-2024-1200.webp 1200w',
+    width:1200, height:856, alt:'The crowd at Echostage in Washington, DC in front of a lit stage and LED walls'
+  },
+  {
     page:'best-clubs-in-europe.html', released:'2026-10-04T21:46:12+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/best-clubs-in-europe', type:'Guide', topic:'Best clubs in Europe',
     title:'Best Clubs in Europe: 23 Nightclubs Worth the Trip',
     description:'The best clubs in Europe by country, from Berghain and fabric to Pacha, with sets to hear from several rooms.',

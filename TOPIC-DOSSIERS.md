@@ -2428,3 +2428,55 @@ DE/FR-переводы сделаны 2 октября 2026 (формулиро�
 Snowbombing: даты 5–10 апреля 2027, только недельные пакеты с жильём, браслет £249 внутри цены, 18+, билеты только через Kaboodle. FAQ на сайте частично ещё про 2026, это оговорено в тексте. Год основания на сайте противоречив (1999 и 2000), в тексте оговорено.
 
 Картинки: Commons, новые (Snowbombing x4, зимний набор x5). Не запушено.
+
+## Идеи в очереди: world-гид клубов и «famous djs» (6 октября 2026)
+
+Источник цифр: Keyword Planner, весь мир, сент 2025 – авг 2026, диапазоны. Ни одна из статей не начата, стадии TOPIC-RESEARCH.md не заполнены, вердиктов нет.
+
+**best nightclubs in the world / best clubs in the world** (оба 10K–100K). Отдельная статья, не Европа: гид по Европе отвечает на них одним FAQ-пунктом, владелец решил, что это два разных текста и клубы в них могут частично совпадать. Живая выдача (грубая, через WebSearch, не Google): Time Out о рейтинге World's 100 Best Clubs (UNVRS, Hï, Ushuaïa), есть футбольный шум. Не сделано: чтение Google в Chrome, referring domains слабейших страниц топ-10. Проверить новые клубы рейтинга на пересечение с гидом по Европе.
+
+**famous djs** (10K–100K, свободен: нет в TAKEN-KEYWORDS.md). Идея владельца: журналистский текст в духе гонзо о том, кто мировые знаменитые DJ и почему список из года в год один и тот же, на основе DJ Mag Top 100. Выдача (грубая): списки о Guetta, Garrix, Calvin Harris, Avicii, Tiësto и клоны-зеркала; интент массовый EDM. Не сделано: Google-выдача, рейтинги по годам из DJ Mag (первоисточник, не память), FIGURES.md и media/<guide>.json. Помнить: ничего про обучение производству, без «full DJ set», без драм-н-бейс угла.
+
+## Research: best nightclubs in the world (6 Oct 2026, stages 1–5 partial; no verdict)
+
+Tools: Google Ads Keyword Planner via Claude in Chrome (All locations, English, Sep 2025–Aug 2026, bucketed ranges), 6 Oct 2026. Live Google SERPs read in Chrome, US location, same day. No Ahrefs. Stage 6 (separate validation) not run.
+
+**Stage 1 seeds** (typed into Discover): best nightclubs in the world, best clubs in the world, top 100 clubs in the world, most famous nightclub in the world. Planner returned 253 ideas; pages 1 and 2 of 3 read (100 rows each, ordered by volume). Page 3 (10–100 band) not read.
+
+**Stage 2 matching terms, listener intent (clubs as venues)**
+- 10K–100K: best nightclubs in the world, best clubs in the world, best clubs worldwide, best dance club in the world
+- 1K–10K: top 100 clubs in the world, top 10 clubs in the world, top 10 nightclubs in the world, top 100 nightclubs in the world, top club in the world, top dance clubs in the world, top nightclub in the world
+- 100–1K: best night club in the world, best techno clubs in the world, biggest night club in the world, biggest nightclubs in the world, dj mag best clubs (+900% YoY), most exclusive clubs in the world, most famous nightclubs in the world, the most famous club in the world, top 10 night club in the world, top 100 night clubs in the world (+900%), top 5 nightclubs in the world, top best clubs in the world, top night club in the world, top ten clubs in the world, world famous clubs, world famous nightclubs
+- 10–100: most famous nightclub in the world (seed), best 100 clubs in the world, best clubs around the world, best night club in world (+900%), best night clubs world, best party club in the world, coolest nightclubs in the world, most beautiful nightclubs in the world, most exclusive night clubs / nightclub(s) in the world, most famous night clubs in the world, nightclubs around the world, the world's 100 best clubs, top 10 best nightclubs in the world; plus year-stamped stale forms (best nightclubs in the world 2021/2022 etc.)
+
+**Collision (football and other clubs), excluded from the topic:** best football team in the world, best club football team in the world, best club in the world football, best soccer club in the world, world's greatest football club (all 10K–100K), most successful club in the world and the most successful club in the world (1K–10K, football), top ten richest club in the world (1K–10K). Also noise: best jazz club in the world, best private/social/youth clubs. Note that "best clubs in the world" and "best clubs worldwide" carry football share in the same bucket; the bucket cannot be split, so the listener volume of the 10K–100K head terms is unknown.
+
+**Subtotals by class (ranges, so only a floor/ceiling):** listener head terms 4 terms in 10K–100K; listener 1K–10K 7 terms; listener 100–1K 16 terms. Football collision 5 terms at 10K–100K. Class totals not summed further because the buckets are ranges.
+
+**Stage 4 SERP shape (US Google, 6 Oct 2026):** positions 1–2 held by the ranking owners (INA World's 100 Best Clubs, DJ Mag Top 100 Clubs). Then Reddit, Instagram, X, Quora and forum threads, a Spaces editorial, Time Out. "best clubs in the world" has heavy football collision and an AI Overview. Non-US SERPs, question-form SERPs (top 10 nightclubs in the world, what is the best nightclub in the world) and referring domains of the weakest editorial pages not yet checked.
+
+**Conflict to decide:** best-clubs-in-europe.html already carries "best clubs in the world", "best nightclubs in the world", "best techno clubs in the world" and "dj mag top 100 clubs" in TAKEN-KEYWORDS.md. A separate world guide targets the same head terms. Options: move those terms from the Europe guide to the world guide (edits published copy; show exact wording first), or keep them in Europe and take only the unclaimed terms (top 100 / top 10 nightclubs in the world, biggest, most famous, most exclusive) as the world guide's targets.
+
+
+Owner decision, 6 Oct 2026: the world guide (`/best-nightclubs-in-the-world`) targets the world terms and links to the Europe guide by anchor text. Europe's keyword claims do not restrict it, and the Europe guide is not edited. Built the same day; see `best-nightclubs-in-the-world-editorial-review.md`. Stage 6 validation not run.
+
+## Шесть кандидатов от владельца: tracks / albums / rave / classics (6 октября 2026, стадии 1–2 частично; вердикта нет)
+
+Источник кандидатов: список владельца в чате («Best trance tracks, Best drum and bass tracks, Best techno tracks, '90s rave music, House music classics, Best electronic albums»). TAKEN-KEYWORDS.md прочитан: ни одна из шести голов не занята точно. Пересечения: «classic house music» (house-music-guide) — «house music classics» его вариант, каннибализация; «trance music/artists/djs» (trance-guide), «drum and bass/dnb» (drum-and-bass-guide), «techno/techno music» и «best techno mixes» (techno-music-guide, best-techno-mixes) заняты, но «best X tracks» — другой интент (список треков, а не жанр). Ahrefs не использовался.
+
+Инструмент: Keyword Planner в Chrome владельца (аккаунт 299-844-2842), Discover new keywords, все 6 сидов одним проходом, All locations, English, Sep 2025 – Aug 2026, диапазоны. 456 идей; прочитаны только верхние строки по объёму (все 1K–10K, выше диапазона в выдаче нет). Стадии 3–5 не пройдены, живой SERP не снят.
+
+- 1K–10K, слушательский интент: best trance tracks (сид), best trance songs of all time, best trance song, best trance track ever / of all time, best ever trance songs, best trance tunes (+ of all time); best drum and bass tracks (сид, YoY −90%), best dnb tracks / songs / tunes, best drum and bass tunes, best drum bass songs, best bass and drum songs (все YoY −90%); best techno song ever (+900% за 3 мес); 90s rave music (сид), 1990's rave music, 90 rave music; house music classics (сид), house classics, classic house songs; best electronic album ever, best electronic albums of all time.
+- «best techno tracks» и «best electronic albums» как точные сиды в блоке «keywords you provided» не вернулись; объём голов не измерен (ближайшие варианты выше, 1K–10K).
+- Заметка: DnB-запросы показывают −90% YoY на всём кластере (один и тот же сигнал на ~10 формах) — проверить по истории объёма, прежде чем ставить DnB-список выше остальных. Не проверено: 100–1K хвост, интент (список треков vs плейлисты Spotify/YouTube), SERP, PAA, referring domains слабейших страниц, конкуренты.
+- Пересечение с политикой сайта: списки треков допустимы (слушательский интент), но ничего про разбор/семплирование; без угла драм-н-бейс на не-dnb страницах.
+
+### Стадия 5 (competitor mining) через Keyword Planner «Start with a website» — 6 октября 2026, НЕ закрыта
+
+Проверено 3 из 6 страниц, режим «use only this page», локация US (при выдаче не меняли):
+- Armada «60 best trance hits ever»: 199 идей, из видимых строк — trance music, armin van buuren, paul van dyk, markus schulz, ferry corsten, dash berlin, rave music, best tracks (все 1K–10K или 10K–100K).
+- Klangspot techno: видимо только techno music, spotify playlists, dance songs, dj sets (все 10K–100K).
+- Bandcamp Daily 90s rave: techno music, music genres, ultra rave, types of music (все 10K–100K).
+
+Вывод по методу: Keyword Planner в режиме сайта читает СОДЕРЖИМОЕ страницы и отдаёт общие идеи в широких корзинах (1K–10K, 10K–100K). Это не те запросы, по которым страница ранжируется, поэтому стадию 5 он не заменяет. Новых запросов с реальным объёмом, которых не было в стадиях 1–2, не найдено.
+Не проверено: UKF dnb, Billboard house, Headphonesty albums. Реальный competitor mining требует Ahrefs `site-explorer-organic-keywords` mode=exact (fallback, нужно согласие владельца и проверка остатка юнитов).

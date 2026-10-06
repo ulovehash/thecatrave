@@ -1,0 +1,29 @@
+{
+  "page": "best-nightclubs-in-the-world.html",
+  "seed": "best nightclubs in the world",
+  "source": "Google Ads Keyword Planner via Chrome, all locations, English, bucketed ranges only, Sep 2025 to Aug 2026, measured 6 October 2026. No Ahrefs calls were made for this page.",
+  "note": "Volume is the lower bound of the bucket. The owner decided on 6 October 2026 that this world guide targets the world terms and links to the Europe guide by anchor text, whatever the Europe guide's own keyword claims. 'best clubs in the world' carries football-club volume, so the listener share is unknown.",
+  "terms": [
+    {"term": "best nightclubs in the world", "volume": 10000, "range": "10K-100K"},
+    {"term": "best clubs in the world", "volume": 10000, "range": "10K-100K"},
+    {"term": "best clubs worldwide", "volume": 10000, "range": "10K-100K"},
+    {"term": "best dance club in the world", "volume": 10000, "range": "10K-100K"},
+    {"term": "top 100 clubs in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top 10 clubs in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top 10 nightclubs in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top 100 nightclubs in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top club in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top dance clubs in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "top nightclub in the world", "volume": 1000, "range": "1K-10K"},
+    {"term": "best night club in the world", "volume": 100, "range": "100-1K"},
+    {"term": "best techno clubs in the world", "volume": 100, "range": "100-1K"},
+    {"term": "biggest night club in the world", "volume": 100, "range": "100-1K"},
+    {"term": "biggest nightclubs in the world", "volume": 100, "range": "100-1K"},
+    {"term": "dj mag best clubs", "volume": 100, "range": "100-1K"},
+    {"term": "most exclusive clubs in the world", "volume": 100, "range": "100-1K"},
+    {"term": "most famous nightclubs in the world", "volume": 100, "range": "100-1K"},
+    {"term": "world famous clubs", "volume": 100, "range": "100-1K"},
+    {"term": "world famous nightclubs", "volume": 100, "range": "100-1K"},
+    {"term": "the world's 100 best clubs", "volume": 10, "range": "10-100"}
+  ]
+}

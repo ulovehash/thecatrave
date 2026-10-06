@@ -10,14 +10,6 @@ import {rootRelativeAssets, analytics, articleFaq, articleFooter, articleListeni
 // weeks without any of these checks ever running against them.
 const pages = Object.fromEntries(manifest.map(page => [page.name, fs.readFileSync(page.file, 'utf8')]));
 const articlePages = guides.map(page => pages[page.name]);
-const bandcampPurchaseMatchesPlayer = html => {
-  const block = html.match(/<aside class="floating-inset article-cta article-cta-full"[^>]*>[\s\S]*?<\/aside>/)?.[0] || '';
-  const purchaseUrl = block.match(/<a class="button primary bandcamp-buy" href="([^"]+)"/)?.[1];
-  const playerUrl = block.match(/<iframe class="bandcamp-embed"[^>]*><a href="([^"]+)"/)?.[1];
-  return (block.match(/class="bandcamp-embed"/g) || []).length === 1
-    && Boolean(purchaseUrl && playerUrl && purchaseUrl === playerUrl)
-    && block.includes('class="article-cta-browse"');
-};
 // Guides paired with their manifest entry, for the checks that need to know
 // which route a page is supposed to be.
 const guidePages = guides.map(page => ({ ...page, html: pages[page.name] }));
@@ -84,6 +76,14 @@ const listeningLabels = Object.values(locales).map(locale => locale.essentialLis
 const essentialListeningClasses = html => [...html.matchAll(/<aside class="([^"]+)"[^>]*>[\s\S]*?<\/aside>/g)]
   .filter(match => listeningLabels.some(label => match[0].includes(`<p class="article-kicker">${label}</p>`)))
   .map(match => match[1]);
+const bandcampPurchaseMatchesPlayer = html => {
+  const block = html.match(/<aside class="floating-inset article-cta article-cta-full"[^>]*>[\s\S]*?<\/aside>/)?.[0] || '';
+  const purchaseUrl = block.match(/<a class="button primary bandcamp-buy" href="([^"]+)"/)?.[1];
+  const playerUrl = block.match(/<iframe class="bandcamp-embed"[^>]*><a href="([^"]+)"/)?.[1];
+  return count(block, /class="bandcamp-embed"/g) === 1
+    && Boolean(purchaseUrl && playerUrl && purchaseUrl === playerUrl)
+    && block.includes('class="article-cta-browse"');
+};
 
 // The home page exists in every language of its hreflang family (/, /de/,
 // /fr/); each one carries its own language's header and footer, with the
@@ -276,9 +276,10 @@ const checks = {
     && articlePages.every(page => page.includes("button.dataset.pressed='';")),
   bandcampExperimentVariants: articlePages.every(page => page.includes("root.dataset.bandcampDesktop=pick('tcr-bandcamp-desktop-v1'")
     && page.includes("root.dataset.bandcampMobile=pick('tcr-bandcamp-mobile-v2'")
-    && page.includes('class="article-promo-midpoint"')
+    && count(page, /class="article-promo-midpoint"/g) === 1
     && page.includes("document.documentElement.dataset.bandcampMobile==='middle'"))
-    && articleCss.includes('html[data-bandcamp-desktop="inline"] .article-promo-layout'),
+    && articleCss.includes('html[data-bandcamp-desktop="inline"] .article-promo-layout')
+    && !articleCss.includes('html[data-bandcamp-mobile="buy-first"] .article-cta'),
   bandcampExperimentMeasurement: analyticsRuntime.includes("track('bandcamp_banner_view'")
     && analyticsRuntime.includes('banner_variant: root.bandcampMobile')
     && analyticsRuntime.includes('banner_variant: root.bandcampDesktop')

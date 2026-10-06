@@ -118,6 +118,7 @@ HERO = {
     "pacha-ibiza": "img/pacha-ibiza/cherries-2014-1200.webp",
     "ushuaia-ibiza": "img/ushuaia-ibiza/dance-floor-2023-1200.webp",
     "best-clubs-in-europe": "img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp",
+    "best-nightclubs-in-the-world": "img/best-nightclubs-in-the-world/echostage-2024-1200.webp",
     "us-festivals": "img/us-festivals/beyond-wonderland-2010-1200.webp",
     "glastonbury": "img/glastonbury/night-2025-1200.webp",
     "sonar": "img/sonar/sonar-by-day-2016-1200.webp",
