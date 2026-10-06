@@ -1,0 +1,14 @@
+{
+  "page": "house-music-classics.html",
+  "seed": "house music classics",
+  "source": "Google Ads Keyword Planner, all locations, 6 October 2026, ranges only (the owner's account returns ranges). Volumes were measured by the parent session and reused here; no new measurement, no Ahrefs, no Keyword Planner in this run.",
+  "note": "Close to the house-music-guide page, which claims 'classic house music' (TAKEN-KEYWORDS.md). Intent separated: this page is an ordered list of ten records to hear, 1988 to 2001; the guide is history and definition and already embeds the earlier records. The owner must decide whether the overlap is acceptable.",
+  "terms": [
+    { "term": "house music classics", "volume": 1000, "range": "1K-10K" },
+    { "term": "house classics", "volume": 1000, "range": "1K-10K" },
+    { "term": "classic house songs", "volume": 1000, "range": "1K-10K" }
+  ],
+  "rejected": [
+    { "term": "classic house music", "why": "taken by house-music-guide.html (TAKEN-KEYWORDS.md); not claimed here" }
+  ]
+}

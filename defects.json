@@ -18,7 +18,10 @@
       "by": "agent",
       "what": "pages.mjs gives best-techno-mixes the card caption 'Ten complete sets, from Detroit machine funk to hypnotic techno.' The word 'complete' on a set breaks the rule against emphasising that a DJ set is whole. Found while registering best-techno-tracks; not edited there because published copy is shown to the owner first.",
       "should_have_caught": "the greps for complete/full/whole in ARTICLE-EDITORIAL-REVIEW.md section 0 cover the page text but not the card captions in pages.mjs",
-      "fix": null
+      "fix": {
+        "file": "pages.mjs",
+        "contains": "Ten sets, from Detroit machine funk to hypnotic techno."
+      }
     },
     {
       "id": "europe-guide-tbilisi-unsourced-claims",
@@ -1122,6 +1125,47 @@
       "fix": {
         "file": "build-best-electronic-albums-article.mjs",
         "contains": "Slant dates it 1993"
+      }
+    },
+    {
+      "id": "house-classics-draft-claims-wrong",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "The first draft of house-music-classics said the records came from two published lists when three sources were used and one of them (Billboard) could only be read as a search listing; it said two records were eleven years apart when they are ten; and it carried the typo \"a organ\". Found on the first read-through, before the page was built.",
+      "should_have_caught": "the claim ledger in ARTICLE-EDITORIAL-REVIEW.md, run before drafting prose rather than after",
+      "fix": {
+        "file": "house-music-classics-draft.md",
+        "contains": "They are ten years apart"
+      }
+    },
+    {
+      "id": "house-classics-sources-unverified",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "house-music-classics.html: after independent review (6 October 2026) the Billboard list was read by curl and Missing is confirmed (number 39), but the Gat Decor Passion player is an Altra Moda Music official-video upload whose rights over the Effective Records original were not independently confirmed; chart peaks for Good Life, Where Love Lives, Gypsy Woman, Passion, Show Me Love and Finally rest on one reference source each (Official Charts pages could not be fetched); the Finally release year and label differ across sources (Defected 2001 on the P-line and Wikipedia, Distance 2000 in search summaries). The owner should decide on Passion and the chart peaks. Update, 6 October 2026: the owner approved removing the Passion player, so Passion is now text-only; the chart peaks and the Finally date stay open.",
+      "should_have_caught": "n/a, recorded so it prints until closed",
+      "fix": null
+    },
+    {
+      "id": "house-classics-french-kiss-wrong-recording",
+      "found": "2026-10-06",
+      "by": "independent reviewer",
+      "what": "house-music-classics: the French Kiss player (YouTube TPTODx8CKnA, oEmbed author 'Lee Lewis - Topic') is not Lil Louis. Its description reads 'Provided to YouTube by Dancework, French Kiss (Radio Edit) by Lee Lewis, Arranger: A.Gemolotto, G.Vidali', an Italian re-recording. The entry also said the radio edit's tempo behaviour matched the original, which no source supports. Replaced with the Sony/Epic upload of Lil' Louis and The World, 'French Kiss (The Original Underground Mix)' (rmOAVfEDyhA, 9:52, P 1989 Sony).",
+      "should_have_caught": "oEmbed author_name was recorded but the upload description was never opened; a Topic channel is not proof the artist is the one named",
+      "fix": {
+        "file": "house-music-classics-draft.md",
+        "contains": "original underground mix"
+      }
+    },
+    {
+      "id": "house-classics-where-love-lives-advert-wrong",
+      "found": "2026-10-06",
+      "by": "independent reviewer",
+      "what": "house-music-classics said the Classic Club Mix player 'was used in a John Lewis Christmas advert in 2025'. Official Charts (John Lewis Christmas advert 2025, Labrinth covers Alison Limerick) says the advert uses Labrinth's new version; only the YouTube upload title mentions the advert. Also the draft said Gypsy Woman was the author's own addition, but Billboard's 2025 list of the 50 best house songs (read in full by curl, 6 October 2026) names it, and the method said the Billboard page could not be read.",
+      "should_have_caught": "the advert claim was taken from the video title, not from a news source; the Billboard page was never retried by another route",
+      "fix": {
+        "file": "house-music-classics-draft.md",
+        "contains": "used a new version by Labrinth"
       }
     }
   ]

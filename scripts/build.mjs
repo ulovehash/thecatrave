@@ -42,6 +42,7 @@ export const generators = [
   'build-best-soundcloud-dj-mixes-article.mjs',
   'build-best-techno-mixes-article.mjs',
   'build-best-dj-sets-of-all-time-article.mjs',
+  'build-house-music-classics-article.mjs',
   'build-why-dj-mag-top-100-never-changes-article.mjs',
   'build-best-techno-tracks-article.mjs',
   'build-best-trance-tracks-article.mjs',

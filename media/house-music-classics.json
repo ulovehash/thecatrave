@@ -1,0 +1,95 @@
+{
+  "page": "house-music-classics.html",
+  "source": "YouTube oEmbed checks on 6 October 2026 (author_name per video); own tracks from the site's own SoundCloud and Bandcamp pages",
+  "note": "Nine YouTube players (Passion has none, see below), one per record, none embedded on another guide (repository grep of every ID, 6 October 2026). Not embedded because other guides already carry them: Phuture Acid Tracks and A Guy Called Gerald Voodoo Ray (acid house guide), Rhythim Is Rhythim Strings of Life (techno guide), and the eight records of the house music guide. Uploader channels as oEmbed returned them: InnerCityVEVO, 'Lil' Louis - Topic' (French Kiss; the earlier TPTODx8CKnA, 'Lee Lewis - Topic', was a Dancework re-recording and was removed), 'Alison Limerick - Topic', CrystalWatersVEVO, 'Robin - Topic', EBTGVEVO, Stardust, 'Armand Van Helden - Topic', 'Kings Of Tomorrow - Topic'. Own tracks Berlin Race 1909 and No Genre No Problem sit in a labelled break section because they are not house; Bandcamp block carries Protect Ya Breaks and 60 hours of mistakes. Two Commons photographs are served locally. The card, og image and home thumbnail reuse the Lot Radio photo already in the repository, as best-dj-sets-of-all-time does. Passion by Gat Decor is not embedded: the only upload found (XTAvt_IcQuY, Altra Moda Music) has rights that could not be confirmed (owner decision, 6 October 2026).",
+  "figures": [
+    {
+      "file": "img/house-music-classics/roland-tr-909-1200.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Roland_TR-909_(large).jpg",
+      "author": "Brandon Daniel (Flickr), cropped derivative",
+      "licence": "CC BY-SA 2.0",
+      "for": "Good Life: the TR-909 used for the instrumental",
+      "not_used_elsewhere": "repository grep 6 October 2026"
+    },
+    {
+      "file": "img/house-music-classics/crystal-waters-2012-900.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Crystal_Waters_June_10,_2012_(cropped).jpg",
+      "author": "Elvert Barnes",
+      "licence": "CC BY-SA 2.0",
+      "for": "Gypsy Woman: the singer and writer",
+      "not_used_elsewhere": "repository grep 6 October 2026"
+    }
+  ],
+  "embeds": [
+    {
+      "title": "Good Life",
+      "artist": "Inner City",
+      "year": 1988,
+      "embed_id": "KJxJxr9RlKM",
+      "uploader": "InnerCityVEVO"
+    },
+    {
+      "title": "French Kiss (The Original Underground Mix)",
+      "artist": "Lil' Louis & The World",
+      "year": 1989,
+      "embed_id": "rmOAVfEDyhA",
+      "uploader": "Lil' Louis - Topic (Provided to YouTube by Epic Dance; P 1989 Sony Music Entertainment)"
+    },
+    {
+      "title": "Where Love Lives (Classic Club Mix)",
+      "artist": "Alison Limerick",
+      "year": 1991,
+      "embed_id": "Wep5nUkLcDk",
+      "uploader": "Alison Limerick - Topic"
+    },
+    {
+      "title": "Gypsy Woman (She's Homeless)",
+      "artist": "Crystal Waters",
+      "year": 1991,
+      "embed_id": "_KztNIg4cvE",
+      "uploader": "CrystalWatersVEVO"
+    },
+    {
+      "title": "Passion (Naked Edit)",
+      "artist": "Gat Decor",
+      "year": 1992,
+      "embed_id": "XTAvt_IcQuY",
+      "uploader": "Altra Moda Music (official video; description links altramodamusic.lnk.to; rights over the 1992 Effective Records original not independently confirmed)"
+    },
+    {
+      "title": "Show Me Love (StoneBridge Club Mix, 2020 remaster)",
+      "artist": "Robin S",
+      "year": 1993,
+      "embed_id": "onZbcgPaAJM",
+      "uploader": "Robin - Topic"
+    },
+    {
+      "title": "Missing (Todd Terry Remix)",
+      "artist": "Everything But the Girl",
+      "year": 1995,
+      "embed_id": "IAkY5m00rpY",
+      "uploader": "EBTGVEVO"
+    },
+    {
+      "title": "Music Sounds Better With You",
+      "artist": "Stardust",
+      "year": 1998,
+      "embed_id": "FQlAEiCb8m0",
+      "uploader": "Stardust"
+    },
+    {
+      "title": "You Don't Know Me (Radio Edit)",
+      "artist": "Armand van Helden",
+      "year": 1999,
+      "embed_id": "rnlp_avexYQ",
+      "uploader": "Armand Van Helden - Topic"
+    },
+    {
+      "title": "Finally (Radio Edit)",
+      "artist": "Kings of Tomorrow",
+      "year": 2001,
+      "embed_id": "9X0WEvHptEE",
+      "uploader": "Kings Of Tomorrow - Topic"
+    }
+  ]
+}

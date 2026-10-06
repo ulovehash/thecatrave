@@ -426,6 +426,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Tiësto at the decks in a Bangkok nightclub'
   },
   {
+    page:'house-music-classics.html', category:'digging', tags:['house','discovery','history'], href:'/house-music-classics', type:'List', topic:'House classics',
+    title:'House Music Classics: 10 Classic House Songs to Hear',
+    description:'Ten classic house songs in order, from Inner City and Lil Louis to Stardust and Kings of Tomorrow, nine with a player and one fact each.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  },
+  {
     page:'best-dj-sets-of-all-time.html', category:'digging', tags:['discovery','house','techno','history'], href:'/best-dj-sets-of-all-time', type:'List', topic:'DJ sets',
     title:'Best DJ Sets of All Time: 30 You Can Hear',
     description:'Thirty official recordings, from Carl Cox at Space to Fabio and Grooverider, with named sets, substitutes and editorial picks clearly marked.',

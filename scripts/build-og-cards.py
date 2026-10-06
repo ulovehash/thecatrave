@@ -68,6 +68,7 @@ HERO = {
     "uk-garage": "img/skream-1200.webp",
     "how-to-find-new-music": "img/NOW-1024.webp",
     "best-dj-sets-of-all-time": "img/live-dj-sets/the-lot-radio-1200.webp",
+    "house-music-classics": "img/live-dj-sets/the-lot-radio-1200.webp",
     "why-dj-mag-top-100-never-changes": "img/live-dj-sets/the-lot-radio-1200.webp",
     "best-techno-tracks": "img/best-techno-tracks/richie-hawtin-fabric-1200.webp",
     "best-trance-tracks": "img/best-trance-tracks/tiesto-2010-1200.webp",
