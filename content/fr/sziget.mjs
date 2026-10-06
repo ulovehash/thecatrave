@@ -37,8 +37,8 @@ export default {
   title: 'Sziget Festival 2027 : dates, musique, camping et accès',
   description: 'Le Sziget Festival 2027 se tient du 10 au 14 août sur l’île d’Óbuda. Musique, histoire, camping, accès par la H5 et ce qui est confirmé.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Sziget',
   heroTitle: 'Sziget Festival',
@@ -60,7 +60,35 @@ export default {
     {id: 'music', heading: 'Quelle musique on joue au Sziget', title: 'Quelle musique on joue au Sziget.', kicker: 'La musique'},
     {id: 'history', heading: 'Du Diáksziget au Sziget', title: 'Du Diáksziget au Sziget.'},
     {id: 'camping', heading: 'Camper ou loger à Budapest', title: 'Camper ou loger à Budapest.'},
-    {id: 'planning', heading: 'Préparer l’île', title: 'Préparer l’île.'}
+    {id: 'planning', heading: 'Préparer l’île', title: 'Préparer son voyage au Sziget.', planning: {
+      festivalName: 'Sziget 2027',
+      intro: 'Le Sziget peut être un festival avec camping ou un séjour à Budapest. Calculez le pass, le transfert depuis l’aéroport ou la gare, le couchage et les transports quotidiens avant de choisir entre l’île et la ville.',
+      ticketIntro: 'Prix officiels actuellement affichés pour 2027. Les frais en ligne sont séparés; les paliers suivants et le guichet peuvent coûter plus cher.',
+      ticketRows: [
+        {label: 'Pass cinq jours', note: 'Camping basic inclus avec une admission multi-jours éligible', price: '349 € + 23 € de frais'},
+        {label: 'Pass cinq jours 21 ans et moins', note: 'Justificatif d’âge requis', price: '279 € + 18 € de frais'},
+        {label: 'Pass VIP cinq jours', note: 'Zones VIP; hébergement séparé', price: 'dès 569 € + frais'},
+        {label: 'Consigne pour sa propre tente', note: 'Remboursable si la tente est emportée ou rendue correctement', price: '30 €'}
+      ],
+      ticketNote: 'Billets journée, camping premium, tentes montées et forfaits hôtel sont vendus séparément. Vérifiez la boutique en direct car les paliers évoluent.',
+      routes: [
+        {title: 'Du centre à Filatorigát par le H5 HÉV', description: 'Prenez le M2 jusqu’à Batthyány tér ou le tram 4/6 jusqu’à Margit híd, puis le H5 jusqu’à Filatorigát. Comptez officiellement 35 à 45 minutes depuis les grandes gares.', link: {label: 'Filatorigát sur Google Maps', url: 'https://www.google.com/maps/search/?api=1&query=Filatorig%C3%A1t+H%C3%89V+Budapest'}},
+        {title: 'Depuis l’aéroport en transports publics', description: 'Prenez le 100E jusqu’à Deák Ferenc tér, puis le M2 et le H5, ou le 200E, le M3, le tram 1 et le H5. Le 100E coûte actuellement 2 500 HUF; les correspondances demandent des titres valides.'},
+        {title: 'Train international, car ou forfait festival', description: 'Arrivez dans une gare ferroviaire ou routière de Budapest puis terminez par le H5. Les forfaits officiels associent certains trajets et hôtels aux pass.', link: {label: 'Trajets officiels du Sziget', url: 'https://szigetfestival.com/en/travel/'}}
+      ],
+      routeNote: 'Le bateau et la navette spéciale depuis l’aéroport peuvent changer en 2027. Vérifiez BudapestGO et la page de transport du Sziget avant de partir.',
+      accommodation: {body: 'Le camping basic est gratuit avec un pass complet, un pass trois jours ou au moins deux billets journée consécutifs. Campings premium, tentes montées, emplacements caravanes et hôtels à Budapest coûtent en plus.', link: {label: 'Comparer les hébergements officiels', url: 'https://szigetfestival.com/en/accommodation/'}},
+      spending: {body: 'Le Sziget n’a pas publié de grille complète des prix 2027 pour les repas et les bars. L’île fonctionne sans espèces et un ALDI sur place vend nourriture et produits oubliés.', items: [
+        {label: 'Bus aéroport 100E', value: '2 500 HUF (environ 7 €)'},{label: 'Trajet type depuis une gare', value: 'environ 1 000 HUF (2,50 €)'},{label: 'Sziget Citypass, 2 jours', value: '41 € + 3 € de frais'},{label: 'Sziget Citypass, 7 jours', value: '83 € + 5 € de frais'}
+      ], link: {label: 'Informations officielles, paiement sans espèces', url: 'https://szigetfestival.com/en/festival-info'}},
+      packing: ['Billet dans le portefeuille du téléphone et pièce d’identité avec photo','Gourde rechargeable sans verre, bouchons d’oreilles et batterie externe','Tente, matelas et sac de couchage pour le camping basic','Protection solaire, vêtement de pluie et chaussures pour marcher longtemps','Bon de consigne si vous apportez votre propre tente'],
+      avoid: ['Verre, feux d’artifice, armes et drogues illégales','Réchauds à gaz, bouteilles de gaz, grills et matériel à flamme','Parapluies, marteaux et outils interdits par le règlement','Quantités commerciales de nourriture, tabac ou marchandises','Se fier à un ancien plan ou horaire de bateau'],
+      rulesNote: 'Les règles d’entrée et de camping peuvent changer avant août. Le verre et le matériel de cuisson à flamme sont actuellement interdits; la consigne remboursable est obligatoire pour sa propre tente.',
+      links: [
+        {label: 'Site officiel', url: 'https://szigetfestival.com/en/'},{label: 'Billets 2027', url: 'https://szigetfestival.com/en/tickets/'},{label: 'Transport', url: 'https://szigetfestival.com/en/travel/'},{label: 'Hébergement', url: 'https://szigetfestival.com/en/accommodation/'},{label: 'Informations festival', url: 'https://szigetfestival.com/en/festival-info'},{label: 'Île d’Óbuda sur Google Maps', url: 'https://www.google.com/maps/search/?api=1&query=Sziget+Festival+Budapest'}
+      ],
+      checked: '2026-10-06', checkedLabel: '6 octobre 2026'
+    }}
   ],
 
   media: ({lang}) => ({

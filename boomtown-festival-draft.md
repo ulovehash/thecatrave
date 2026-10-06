@@ -48,9 +48,9 @@ Boomtown Festival UK Limited is the operating company. In 2022, Live Nation and 
 
 ## Matterley Estate and a first visit
 
-Matterley is a working farm near Winchester at the western edge of the South Downs National Park. Its hills and natural bowls help separate the districts, but they also make the site physically demanding. Comfortable shoes, weather protection and time between distant stages matter more than an ambitious schedule.
+Boomtown is a demanding five-day camping trip as well as a festival. Work out the entry ticket, journey, sleeping setup and realistic daily spend before deciding what the weekend costs. Matterley Estate is hilly, distances are substantial and the route used to arrive affects both the ticket price and the most convenient campsite.
 
-Boomtown is an over-18 camping festival. Current travel instructions, entry rules and accessibility services should be checked against the 2027 key-information page when it is published. Use the official map and app for the current city rather than relying on a previous chapter.
+The planning module on the published page compares the current 2027 entry prices, the Winchester rail shuttle, direct coaches, driving and drop-off, camping choices, previous-edition food and drink benchmarks, packing essentials, alcohol limits and live official links. Prices, timetables, the map and entry rules must be rechecked before travel.
 
 ## FAQ
 

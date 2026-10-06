@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection,
   articleSources, articleStructuredData, articleTable, articleVideoCard,
-  articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData,
+  articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData, festivalPlanningGuide,
   faqStructuredData, infoBanner, ownSetListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
@@ -56,22 +56,23 @@ export function buildFestivalArticle(config) {
     if (section.tableAfter != null) body = `${join(p.slice(0, section.tableAfter))}${facts}${join(p.slice(section.tableAfter))}`;
     if (section.figureAfter != null) body = `${join(p.slice(0, section.figureAfter))}${figures[section.figure]}${join(p.slice(section.figureAfter))}`;
     if (section.videoAfter != null) body = `${join(p.slice(0, section.videoAfter))}${video}${join(p.slice(section.videoAfter))}`;
+    if (section.planning) body = festivalPlanningGuide(section.planning);
     if (section.ownSet === 0) body += ownSetListening(0, 'en', config.ownSetCopy[0]);
     if (section.ownSet === 1) body += ownSetListening(1, 'en', config.ownSetCopy[1]);
     bodies[section.heading] = body;
   }
   const readingTime = `${Math.max(7, Math.round(draft.split(/\s+/).length / 225))} min read`;
   const datePublished = '2026-09-29';
-  const dateModified = '2026-09-29';
+  const dateModified = config.dateModified || '2026-09-29';
   const articleHtml = [
     articleHero({
       kicker: config.kicker, title: config.h1, deck: config.deck,
-      readingTime, dateModified, dateLabel: '29 September 2026',
+      readingTime, dateModified, dateLabel: config.dateLabel || '29 September 2026',
       summaryHtml: infoBanner({label: config.answerLabel, bodyHtml: inline(answer[0]), className: 'article-summary'}),
       tocItems: config.sections.map(section => ({id: section.id, label: section.toc}))
     }),
     articleSection({id: 'introduction', title: config.introTitle, bodyHtml: join(intro), className: 'article-intro'}),
-    ...config.sections.map(section => articleSection({id: section.id, title: section.title, kicker: section.kicker, bodyHtml: bodies[section.heading]})),
+    ...config.sections.map(section => articleSection({id: section.id, title: section.title, kicker: section.kicker, className: section.planning ? 'festival-planning-section' : '', bodyHtml: bodies[section.heading]})),
     articleFaq({items: faqItems, title: `${config.shortName} FAQ.`, openFirst: true}),
     authorCard({filled: true}),
     articleSources({bodyHtml: `<ul>${config.sources.map(source => `<li><a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.label}</a></li>`).join('')}</ul>`}),

@@ -1,6 +1,7 @@
 import {
   articleFigure, articleTable, articleVideoCard, articleVideoCollection, ownSetListening
 } from '../../site-components.mjs';
+import {localizedFestivalPlanning} from '../festival-planning-data.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -24,8 +25,8 @@ export default {
   title: 'EXIT Festival: Geschichte, Petrovaradin und was jetzt kommt',
   description: 'Das EXIT Festival begann 2000 in Novi Sad und lief bis 2025 in der Festung Petrovaradin. Geschichte, Dance Arena, Musik und was 2026 und danach passiert.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Festivalgeschichte',
   heroTitle: 'EXIT Festival: Von Novi Sad zur weltweiten Tour',
@@ -46,7 +47,7 @@ export default {
     {id: 'petrovaradin', heading: 'Die Festung Petrovaradin und die Dance Arena', title: 'Die Festung Petrovaradin und die Dance Arena.'},
     {id: 'music', heading: 'Welche Musik EXIT spielte', title: 'Welche Musik EXIT spielte.'},
     {id: 'network', heading: 'EXIT als Festivalnetzwerk', title: 'EXIT als Festivalnetzwerk.'},
-    {id: 'current-events', heading: 'Wie man EXIT jetzt verfolgt', title: 'Wie man EXIT jetzt verfolgt.'}
+    {id: 'current-events', heading: 'Wie man EXIT jetzt verfolgt', title: 'Plane jetzt ein EXIT-Event.', planning: localizedFestivalPlanning('exit', 'de')}
   ],
 
   media: ({lang}) => ({

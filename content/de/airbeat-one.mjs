@@ -10,6 +10,7 @@
 import {
   articleFigure, articleTable, articleVideoCard, articleVideoCollection, ownSetListening
 } from '../../site-components.mjs';
+import {localizedFestivalPlanning} from '../festival-planning-data.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -33,8 +34,8 @@ export default {
   title: 'Airbeat One Festival 2027: Termine, Stages, Camping und Anreise',
   description: 'Airbeat One 2027 läuft vom 7. bis 11. Juli in Neustadt-Glewe: ein Guide zu den Stages für EDM, Techno, Hardstyle und Psytrance, zu Camping und Anreise.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Festival-Guide Deutschland',
   heroTitle: 'Airbeat One Festival: Der Rave-Guide zum Flugplatz in Deutschland',
@@ -55,7 +56,7 @@ export default {
     {id: 'stages', heading: 'Ein Festival aus Stage-Identitäten', tocLabel: 'Stages', title: 'Ein Festival aus Stage-Identitäten.'},
     {id: 'history', heading: 'Von Airbase One zu Airbeat One', tocLabel: 'Geschichte', title: 'Von Airbase One zu Airbeat One.'},
     {id: 'camping', heading: 'Camping in Neustadt-Glewe', tocLabel: 'Camping', title: 'Camping in Neustadt-Glewe.'},
-    {id: 'planning', heading: 'Anreise und Planung des Wochenendes', tocLabel: 'Anreise und Planung', title: 'Anreise und Planung des Wochenendes.'}
+    {id: 'planning', heading: 'Anreise und Planung des Wochenendes', tocLabel: 'Anreise und Planung', title: 'Plane dein Airbeat-One-Wochenende.', planning: localizedFestivalPlanning('airbeat', 'de')}
   ],
 
   media: ({lang}) => ({

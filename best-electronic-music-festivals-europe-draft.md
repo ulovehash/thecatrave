@@ -85,11 +85,11 @@ Sónar has been Barcelona's festival of electronic music and digital art since 1
 
 ### Monegros Desert Festival, Spain
 
-Monegros is one night in the desert near Fraga, in Aragón: in 2026 it ran from 2pm on Saturday 25 July until noon on Sunday. Its stages spread across many strands of electronic music, and it has been one of the few festivals of its size to give breakbeat a stage. The 2027 date has not been announced; the festival holds it in July. Tents are sold as a VIP option. It suits people who want one extreme night rather than a long weekend, and who can cope with heat and dust.
+Monegros is one night in the desert near Fraga, in Aragón: in 2026 it ran from 2pm on Saturday 25 July until noon on Sunday. Its stages spread across many strands of electronic music, and it has been one of the few festivals of its size to give breakbeat a stage. The 2027 edition is on 31 July. Tents are sold as a VIP option. It suits people who want one extreme night rather than a long weekend, and who can cope with heat and dust. The [detailed Monegros guide](/monegros-desert-festival) covers current tickets, buses, food, rules and packing.
 
 ### Boomtown, England
 
-Boomtown, near Winchester in Hampshire, is built as a fictional city with themed districts, street sets and dozens of hidden venues, with theatre running through the whole site. The music is the broadest on this list: reggae, dub, ska, drum and bass, techno, house and live bands. After a planning decision in 2025 it can hold more than 75,000 people. Boomtown 2027 is on 11 to 15 August, with camping. It suits people who want a festival to be a world of its own rather than a line-up.
+Boomtown, near Winchester in Hampshire, is built as a fictional city with themed districts, street sets and dozens of hidden venues, with theatre running through the whole site. The music is the broadest on this list: reggae, dub, ska, drum and bass, techno, house and live bands. After a planning decision in 2025 it can hold more than 75,000 people. Boomtown 2027 is on 11 to 15 August, with camping. It suits people who want a festival to be a world of its own rather than a line-up. The [detailed Boomtown guide](/boomtown-festival) covers tickets, coaches, camping, food, rules and packing.
 
 ## Smaller festivals worth the trip
 
@@ -129,7 +129,7 @@ One more belongs here, with a warning: Fusion, the countercultural festival on a
 
 - **Primavera Sound and Glastonbury** book plenty of electronic music but are multi-genre festivals, so they fail the first test. This site has guides to both: [Primavera Sound](/primavera-sound-barcelona) and [Glastonbury](/glastonbury-festival).
 - **EXIT** left the Petrovaradin Fortress in Serbia after its 2025 edition, citing pressure from the Serbian authorities, and held its 2026 edition in Ulcinj, Montenegro. Its 2027 home had not been confirmed when this page was checked.
-- **Sziget** in Budapest is one of Europe's largest festivals but is built around pop and rock headliners.
+- [**Sziget**](/sziget-festival) in Budapest is one of Europe's largest festivals but is built around pop and rock headliners; the separate guide covers its current prices, H5 route and camping.
 - **Fusion** in Germany is taking 2027 off; it is described with the smaller festivals above.
 - **Amsterdam Dance Event** in October is a conference and hundreds of club nights across a city rather than one festival site.
 - **Franchise editions** such as Tomorrowland Winter, and Time Warp outside Germany, are left out in favour of each festival's home edition.
@@ -166,7 +166,7 @@ Outside the festival season, electronic music in Europe lives in clubs, above al
 
 ### When are 2027 festival dates announced?
 
-Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was last checked, on 22 September 2026, and nor had Garbicz, Houghton, Draaimolen or Freerotation. The table above is updated as they do.
+Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland and Dekmantel had not announced 2027 dates when this page was last checked, on 6 October 2026, and nor had Garbicz, Houghton, Draaimolen or Freerotation. Monegros had confirmed 31 July. The table above is updated as announcements arrive.
 
 ### Which European electronic music festivals have camping?
 

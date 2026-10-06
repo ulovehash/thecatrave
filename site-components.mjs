@@ -396,6 +396,63 @@ export function articleSection({id = '', title, bodyHtml = '', kicker = '', clas
   return `<section class="${classes}"${id ? ` id="${escapeHtml(id)}"` : ''}>${kicker ? `<p class="era-years">${escapeHtml(kicker)}</p>` : ''}<h2>${escapeHtml(title)}</h2>${bodyWithPlanning}</section>`;
 }
 
+// A compact decision sheet for festival guides. Prices, routes, packing rules
+// and volatile official links belong in one scannable system rather than in a
+// sequence of unrelated cards. External planning links are editorial, not paid
+// placements, and carry nofollow as well as the usual new-tab protections.
+export function festivalPlanningGuide({
+  lang = defaultLang, festivalName = 'Festival',
+  intro = '', ticketRows = [], ticketNote = '', routes = [], routeNote = '',
+  accommodation = {}, spending = {}, packing = [], avoid = [], rulesNote = '',
+  links = [], checked = '', checkedLabel = checked, ticketIntro = '',
+  ticketColumns = [], labels = {}
+} = {}) {
+  if (!ticketRows.length || !routes.length || !links.length) {
+    throw new Error('festivalPlanningGuide requires ticketRows, routes and links.');
+  }
+  const locale = ({
+    en: {
+      budget: 'Budget the whole weekend.', ticket: 'Ticket option', price: 'Price',
+      route: 'Choose your route.', stay: 'Where you sleep.', spend: 'Food and drink.',
+      pack: 'Pack for the site, not the forecast.', avoid: 'Leave at home or recheck.',
+      links: 'Check before leaving.', linksIntro: 'Use the live sources for prices, timetables, the current map and entry rules.',
+      checked: 'Last checked'
+    },
+    de: {
+      budget: 'Das ganze Wochenende kalkulieren.', ticket: 'Ticketoption', price: 'Preis',
+      route: 'Die Anreise wählen.', stay: 'Wo du übernachtest.', spend: 'Essen und Getränke.',
+      pack: 'Für das Gelände packen, nicht nur für die Wettervorhersage.', avoid: 'Zu Hause lassen oder erneut prüfen.',
+      links: 'Vor der Abreise prüfen.', linksIntro: 'Nutze die aktuellen Quellen für Preise, Fahrpläne, die aktuelle Karte und Einlassregeln.',
+      checked: 'Zuletzt geprüft'
+    },
+    fr: {
+      budget: 'Calculer tout le week-end.', ticket: 'Type de billet', price: 'Prix',
+      route: 'Choisir son trajet.', stay: 'Où dormir.', spend: 'Manger et boire.',
+      pack: 'Préparer le site, pas seulement la météo.', avoid: 'À laisser chez soi ou à revérifier.',
+      links: 'À vérifier avant de partir.', linksIntro: 'Consultez les sources à jour pour les prix, horaires, le plan actuel et les règles d’entrée.',
+      checked: 'Dernière vérification'
+    }
+  })[lang];
+  if (!locale) throw new Error(`festivalPlanningGuide has no ${lang} labels.`);
+  const copy = {...locale, ...labels};
+  const externalLink = ({label, url}) => `<a href="${escapeHtml(url)}" target="_blank" rel="nofollow noopener noreferrer">${escapeHtml(label)} <span aria-hidden="true">↗</span></a>`;
+  const tickets = ticketRows.map(row => `<tr><th scope="row">${escapeHtml(row.label)}${row.note ? `<small>${escapeHtml(row.note)}</small>` : ''}</th><td>${escapeHtml(row.price)}</td></tr>`).join('');
+  const routeRows = routes.map((route, index) => `<li><span class="festival-route-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><div class="festival-route-name"><h4>${escapeHtml(route.title)}</h4>${route.link ? externalLink(route.link) : ''}</div><p>${escapeHtml(route.description)}</p></li>`).join('');
+  const list = items => `<ul>${items.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+  const usefulLinks = links.map(externalLink).join('');
+  const [ticketColumn, priceColumn] = ticketColumns.length ? ticketColumns : [copy.ticket, copy.price];
+  const tableLabel = labels.tableLabel || `${festivalName}: ${ticketColumn} / ${priceColumn}`;
+  return `<div class="festival-planner">
+    ${intro ? `<p class="festival-planner-intro">${escapeHtml(intro)}</p>` : ''}
+    <section class="festival-planner-block festival-budget" aria-labelledby="festival-budget-title"><h3 id="festival-budget-title">${escapeHtml(copy.budget)}</h3>${ticketIntro ? `<p>${escapeHtml(ticketIntro)}</p>` : ''}<div class="festival-price-table-wrap" role="region" aria-label="${escapeHtml(tableLabel)}" tabindex="0"><table class="festival-price-table"><thead><tr><th scope="col">${escapeHtml(ticketColumn)}</th><th scope="col">${escapeHtml(priceColumn)}</th></tr></thead><tbody>${tickets}</tbody></table></div>${ticketNote ? `<p class="festival-planner-note">${escapeHtml(ticketNote)}</p>` : ''}</section>
+    <section class="festival-planner-block festival-routes" aria-labelledby="festival-routes-title"><h3 id="festival-routes-title">${escapeHtml(copy.route)}</h3><ol>${routeRows}</ol>${routeNote ? `<p class="festival-planner-note">${escapeHtml(routeNote)}</p>` : ''}</section>
+    <div class="festival-planner-pair"><section class="festival-planner-block" aria-labelledby="festival-stay-title"><h3 id="festival-stay-title">${escapeHtml(copy.stay)}</h3><p>${escapeHtml(accommodation.body || '')}</p>${accommodation.link ? externalLink(accommodation.link) : ''}</section><section class="festival-planner-block" aria-labelledby="festival-spend-title"><h3 id="festival-spend-title">${escapeHtml(copy.spend)}</h3><p>${escapeHtml(spending.body || '')}</p>${spending.items?.length ? `<dl class="festival-spend-list">${spending.items.map(item => `<div><dt>${escapeHtml(item.label)}</dt><dd>${escapeHtml(item.value)}</dd></div>`).join('')}</dl>` : ''}${spending.link ? externalLink(spending.link) : ''}</section></div>
+    <div class="festival-packing"><section aria-labelledby="festival-pack-title"><h3 id="festival-pack-title">${escapeHtml(copy.pack)}</h3>${list(packing)}</section><section aria-labelledby="festival-avoid-title"><h3 id="festival-avoid-title">${escapeHtml(copy.avoid)}</h3>${list(avoid)}</section></div>
+    ${rulesNote ? `<p class="festival-rules-note">${escapeHtml(rulesNote)}</p>` : ''}
+    <nav class="festival-planner-links" aria-labelledby="festival-links-title"><div><h3 id="festival-links-title">${escapeHtml(copy.links)}</h3><p>${escapeHtml(copy.linksIntro)}</p><div class="festival-link-index">${usefulLinks}</div></div><p class="festival-last-checked"><span>${escapeHtml(copy.checked)}</span><time datetime="${escapeHtml(checked)}">${escapeHtml(checkedLabel)}</time></p></nav>
+  </div>`;
+}
+
 export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) calc(100vw - 32px), 640px', width, height, alt, caption = '', className = '', loading = 'lazy'} = {}) {
   requireFields('articleFigure', {src,alt});
   if (/\.(?:avif|jpe?g|png|webp)(?:$|\?)/i.test(src)) requireFields('articleFigure raster dimensions', {width,height});

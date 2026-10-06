@@ -9,6 +9,7 @@
 import {
   articleFigure, articleTable, articleVideoCard, articleVideoCollection
 } from '../../site-components.mjs';
+import {localizedFestivalPlanning} from '../festival-planning-data.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -32,8 +33,8 @@ export default {
   title: 'Monegros Desert Festival 2027: Termin, Geschichte und Guide',
   description: 'Das Monegros Desert Festival 2027 ist für den 31. Juli bei Fraga in Spanien angesetzt. Geschichte, Musik, Wüstenformat, Anreise und die praktischen Grenzen.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Festival-Guide Spanien',
   heroTitle: 'Monegros Desert Festival 2027: Der Wüsten-Rave erklärt',
@@ -56,7 +57,7 @@ export default {
     {id: 'operator', heading: 'Wer Monegros betreibt', tocLabel: 'Wer Monegros betreibt', title: 'Wer Monegros betreibt.'},
     {id: 'music', heading: 'Welche Musik bei Monegros läuft', tocLabel: 'Musik bei Monegros', title: 'Welche Musik bei Monegros läuft.'},
     {id: 'site', heading: 'Das Gelände und das Format über Nacht', tocLabel: 'Format über Nacht', title: 'Das Gelände und das Format über Nacht.'},
-    {id: 'planning', heading: 'Vorbereitung auf Monegros', tocLabel: 'Vorbereitung', title: 'Vorbereitung auf Monegros.'}
+    {id: 'planning', heading: 'Vorbereitung auf Monegros', tocLabel: 'Vorbereitung', title: 'Plane deine Monegros-Reise.', planning: localizedFestivalPlanning('monegros', 'de')}
   ],
 
   media: ({lang}) => ({

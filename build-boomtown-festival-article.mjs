@@ -3,6 +3,7 @@ import {buildFestivalArticle} from './build-next-festival-article.mjs';
 buildFestivalArticle({
   draft:'boomtown-festival-draft.md', output:'boomtown-festival.html', bodyClass:'boomtown-festival-page',
   canonical:'https://thecatrave.com/boomtown-festival', ogImage:'img/og/boomtown.jpg', shortName:'Boomtown Festival',
+  dateModified:'2026-10-06', dateLabel:'6 October 2026',
   seoTitle:'Boomtown Festival 2027: Dates, Location, History and Music',
   description:'Boomtown Festival 2027 runs 11–15 August at Matterley Estate. Learn how its fictional city, music, storyline, history and camping format work.',
   kicker:'UK festival guide', h1:'Boomtown Festival: The City, Its Music and 2027 Dates',
@@ -20,7 +21,41 @@ buildFestivalArticle({
     {heading:'What music Boomtown plays',id:'music',toc:'Music at Boomtown',title:'What music Boomtown plays.',videoAfter:1},
     {heading:'From 2009 to Matterley Estate',id:'history',toc:'History',title:'From 2009 to Matterley Estate.',figure:'scrapyard',figureAfter:1,ownSet:0},
     {heading:'Who owns Boomtown',id:'ownership',toc:'Who owns Boomtown',title:'Who owns Boomtown.'},
-    {heading:'Matterley Estate and a first visit',id:'planning',toc:'Planning a first visit',title:'Matterley Estate and a first visit.',ownSet:1}
+    {heading:'Matterley Estate and a first visit',id:'planning',toc:'Planning a first visit',title:'Plan your Boomtown trip.',ownSet:1,planning:{
+      festivalName:'Boomtown 2027',
+      intro:'Boomtown is a demanding five-day camping trip as well as a festival. Work out the entry ticket, journey, sleeping setup and realistic daily spend before deciding what the weekend costs.',
+      ticketIntro:'Current 2027 entry prices. General camping is included; booking fees, transport not named in the ticket and optional upgrades are extra.',
+      ticketRows:[
+        {label:'Thursday public-transport entry',note:'General camping included',price:'£315'},
+        {label:'Thursday standard entry',note:'General camping included',price:'£370'},
+        {label:'Wednesday public-transport entry',note:'Extra arrival day included',price:'£385'},
+        {label:'Wednesday standard entry',note:'Extra arrival day included',price:'£440'},
+        {label:'Eco Bond',note:'Reclaim by returning sorted campsite waste',price:'£20'}
+      ],
+      ticketNote:'A public-transport entry ticket is valid only when you arrive by an approved public-transport route. At the time checked, Camp Orchid upgrades were £130–£140 and a standard campervan pass was £220.',
+      routes:[
+        {title:'Train to Winchester, then shuttle to West Gate',description:'Winchester is the nearest main station, about three miles away. Boomtown runs a wheelchair-accessible shuttle; the detailed 2027 timetable is due in July.',link:{label:'Winchester station on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Winchester+Railway+Station'}},
+        {title:'Direct National Express festival coach',description:'Coaches run to the city gates from more than 50 UK departure points. Public-transport ticket holders receive a booking voucher and must reserve the journey by 1 July.'},
+        {title:'Car, taxi or private drop-off',description:'Buy parking through the ticket account. Taxis and private drop-offs use West Gate; pre-book the return and follow festival road signs rather than local shortcuts.',link:{label:'Official driving and drop-off instructions',url:'https://www.boomtownfair.co.uk/info/travel'}}
+      ],
+      routeNote:'Coach and shuttle allowance: one soft-sided bag or suitcase up to 20 kg and 75 × 50 × 32 cm, plus three camping items. Trolleys must collapse before boarding.',
+      accommodation:{body:'General camping is included. Camp Orchid West is the practical upgrade for public-transport arrivals; Camp Orchid South is closer to car parking. Current pre-pitched options start in the hundreds of pounds, so compare the total per person before booking.',link:{label:'Compare official camping options',url:'https://www.boomtownfair.co.uk/info/camping'}},
+      spending:{body:'Boomtown has not published 2027 menus. These are previous-edition budgeting benchmarks, not guaranteed prices. Free drinking water is available from site taps and bars; 2027 purchases use the cashless wristband.',items:[{label:'Full meal',value:'about £12–£15'},{label:'Beer or cider',value:'about £7–£7.50'},{label:'Soft drink',value:'about £3'},{label:'Selected 2026 meal deal',value:'£6'}],link:{label:'How Boomtown cashless payments work',url:'https://www.boomtownfair.co.uk/info/cash-free'}},
+      packing:['Ticket saved offline and valid photo ID','Refillable water bottle, earplugs and power bank','Waterproof layer, sun protection and sturdy shoes','Medication in original labelled packaging','Head torch, tent, sleeping bag and sleeping mat'],
+      avoid:['Glass bottles, gazebos, barbecues and speakers over 30 cm','Spirits or alcohol above the current limit','Cooking equipment when a fire restriction is active','A trolley that cannot collapse for coach or shuttle travel','Luggage you cannot move across steep ground yourself'],
+      rulesNote:'Current weekend alcohol limit: choose one of 16 × 440 ml beer or cider cans, 18 × 250 ml premixed spirit cans, a 3-litre wine box, or 7 litres of beer or cider in sealed plastic bottles or cans. No spirits, glass or alcohol on re-entry.',
+      links:[
+        {label:'Official website',url:'https://www.boomtownfair.co.uk/'},
+        {label:'2027 tickets',url:'https://www.boomtownfair.co.uk/tickets?direct=true'},
+        {label:'Travel',url:'https://www.boomtownfair.co.uk/info/travel'},
+        {label:'Camping',url:'https://www.boomtownfair.co.uk/info/camping'},
+        {label:'App and current map',url:'https://www.boomtownfair.co.uk/app'},
+        {label:'Entry rules',url:'https://www.boomtownfair.co.uk/legal/terms'},
+        {label:'Accessibility',url:'https://www.boomtownfair.co.uk/accessibility'},
+        {label:'Matterley Estate on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Matterley+Estate+Winchester'}
+      ],
+      checked:'2026-10-06',checkedLabel:'6 October 2026'
+    }}
   ],
   ownSetCopy:['My own multi-genre mix follows the same open route between bass music, techno and rave, without pretending to stand in for Boomtown’s programme.', 'For the hours after the city closes: my own set moving through techno, breaks and bass music.'],
   bandcampCopy:'Boomtown’s programme moves across scenes rather than one genre. These thecatrave releases connect to its electronic side, and buying one supports the music and writing directly.',

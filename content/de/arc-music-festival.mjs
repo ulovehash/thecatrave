@@ -6,6 +6,7 @@
 import {
   articleFigure, articleTable, articleVideoCard, articleVideoCollection, ownSetListening
 } from '../../site-components.mjs';
+import {localizedFestivalPlanning} from '../festival-planning-data.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -30,8 +31,8 @@ export default {
   title: 'ARC Music Festival 2027: Chicago-Guide, Bühnen und Anreise',
   description: 'Das ARC Music Festival bringt House und Techno in den Union Park in Chicago. Bühnen, Geschichte, Anreise mit der CTA, After Dark und die offene Ausgabe 2027.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6. Oktober 2026',
 
   heroKicker: 'Chicagoer Festival-Guide',
   heroTitle: 'ARC Music Festival: Chicago House, Techno und Union Park',
@@ -52,7 +53,7 @@ export default {
     {id: 'chicago', heading: 'Warum Chicago das Festival verändert', title: 'Warum Chicago das Festival verändert.'},
     {id: 'history', heading: 'Wie ARC begann', title: 'Wie ARC begann.'},
     {id: 'union-park', heading: 'Union Park und die Bühnen', title: 'Union Park und die Bühnen.'},
-    {id: 'planning', heading: 'Anreise und Planung der Nacht', title: 'Anreise und Planung der Nacht.'}
+    {id: 'planning', heading: 'Anreise und Planung der Nacht', title: 'Plane deine ARC-Reise.', planning: localizedFestivalPlanning('arc', 'de')}
   ],
 
   media: ({lang}) => ({

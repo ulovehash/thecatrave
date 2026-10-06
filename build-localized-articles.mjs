@@ -48,7 +48,7 @@ import fs from 'node:fs';
 import {withCatalogue} from './catalogue.mjs';
 import path from 'node:path';
 import {
-  ownSetListening, articleFaq, articleHero, articleListeningCollection, articlePage, articlePlaylistPreview, articleSection, articleSources, articleTrackEmbed,
+  ownSetListening, articleFaq, articleHero, articleListeningCollection, articlePage, articlePlaylistPreview, articleSection, articleSources, articleTrackEmbed, festivalPlanningGuide,
   articleStructuredData, authorCard, bandcampSupport, breadcrumbStructuredData,
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
@@ -212,8 +212,10 @@ export function buildLocalizedArticle(content) {
   const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
   const sectionHtml = content.sections.map(section => section.rawHtml ? section.rawHtml(copy) : articleSection({
-    id: section.id, title: section.title, kicker: section.kicker, className: section.className || '',
-    bodyHtml: section.playlists
+    id: section.id, title: section.title, kicker: section.kicker, className: [section.className, section.planning && 'festival-planning-section'].filter(Boolean).join(' '),
+    bodyHtml: section.planning
+      ? `${festivalPlanningGuide({...section.planning, lang})}${render(getSection(section.heading).split('\n').filter(line => /^\[(?:Embed|Image|Table):/.test(line.trim())).join('\n\n'))}`
+      : section.playlists
       ? renderPlaylistSection(getSection(section.heading), section.playlists)
       : section.setCollection
       ? renderSetCollection(getSection(section.heading), section.subsections, section.heading)

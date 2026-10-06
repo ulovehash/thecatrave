@@ -236,6 +236,77 @@
 .article-intro > p:first-child { font-size: var(--text-lead); line-height: 1.5; }
 .article-section a { text-decoration-thickness: 1px; text-underline-offset: .15em; }
 
+/* Festival planning is an editorial utility sheet, not a card collection. The
+   wide measure lets price comparisons and routes scan horizontally on desktop;
+   one type hierarchy and hairlines do the organising. */
+.festival-planning-section { width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide)); }
+.festival-planning-section > h2,
+.festival-planning-section > p:first-of-type { max-width: var(--article-text); }
+.festival-planner { margin-top: 0; }
+.article-section .festival-planner-intro { max-width: var(--article-text); margin: 0; padding-bottom: 1.5rem; border-bottom: var(--border-default); }
+.festival-planner-block { padding: 1.65rem 0; }
+.article-section .festival-planner h3 { margin: 0 0 .45rem; font-size: clamp(1.45rem, 2.6vw, 2rem); line-height: 1.06; letter-spacing: -.035em; }
+.article-section .festival-planner h4 { margin: 0; font-size: 1.05rem; line-height: 1.28; letter-spacing: -.015em; }
+.article-section .festival-planner p { margin: 0 0 1rem; font-size: 1rem; line-height: 1.5; }
+.festival-price-table-wrap { margin-top: 1.1rem; overflow-x: auto; }
+.festival-price-table { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: 1rem; line-height: 1.35; }
+.festival-price-table th,
+.festival-price-table td { padding: .7rem .25rem; border-bottom: 0; text-align: left; vertical-align: top; }
+.festival-price-table thead th { padding-top: 0; border-bottom: 1px solid rgba(10,10,10,.42); font: 700 .78rem/1.35 var(--sans); letter-spacing: .015em; text-transform: uppercase; }
+.festival-price-table tbody tr:last-child > * { border-bottom: 1px solid rgba(10,10,10,.42); }
+.festival-price-table th:first-child { width: 68%; padding-right: 1.25rem; }
+.festival-price-table td { border-left: 1px solid rgba(10,10,10,.34); padding-left: 1.25rem; font-size: 1.08rem; font-weight: 700; }
+.festival-price-table small { display: block; margin-top: .15rem; color: #4d4a43; font-size: .78rem; font-weight: 400; line-height: 1.35; }
+.article-section .festival-planner .festival-planner-note { margin: 1rem 0 0; max-width: 78ch; font-size: .86rem; line-height: 1.5; }
+.festival-routes ol { margin: 1.2rem 0 0; padding: 0; list-style: none; }
+.festival-routes li { display: grid; grid-template-columns: 3.2rem minmax(13rem, .9fr) minmax(0, 1.1fr); gap: 1rem; align-items: start; padding: .9rem 0; }
+.festival-routes li + li { margin-top: .3rem; }
+.festival-route-number { color: var(--acid-text); font: 700 1.05rem/1.3 var(--mono); }
+.festival-route-name a { display: inline-block; margin-top: .35rem; font-size: .82rem; }
+.article-section .festival-routes li > p { margin: 0; font-size: .95rem; line-height: 1.45; }
+.festival-planner a { color: var(--acid-text); overflow-wrap: anywhere; }
+.festival-planner-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: var(--border-default); }
+.festival-planner-pair .festival-planner-block { padding-right: 1.6rem; border-bottom: 0; }
+.festival-planner-pair .festival-planner-block + .festival-planner-block { padding-right: 0; padding-left: 1.6rem; border-left: var(--border-default); }
+.festival-spend-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem 1.25rem; margin: 1.1rem 0; }
+.festival-spend-list div { min-width: 0; }
+.festival-spend-list dt { font: 700 .78rem/1.35 var(--sans); letter-spacing: .015em; text-transform: uppercase; }
+.festival-spend-list dd { margin: .2rem 0 0; font-size: .95rem; line-height: 1.4; }
+.festival-packing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 1.65rem 0; border-top: var(--border-default); }
+.festival-packing section { padding-right: 1.6rem; }
+.festival-packing section + section { padding-right: 0; padding-left: 1.6rem; border-left: var(--border-default); }
+.article-section .festival-packing h3 { font-size: clamp(1.3rem, 2.2vw, 1.65rem); }
+.festival-packing ul { margin: .8rem 0 0; padding-left: 1.15rem; }
+.festival-packing li { margin: 0 0 .35rem; font-size: .95rem; line-height: 1.42; }
+.article-section .festival-rules-note { margin: 0 0 1.65rem; padding: .2rem 0 .2rem 1rem; border-left: 3px solid var(--acid-text); font-size: .88rem; line-height: 1.5; }
+.festival-planner-links { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; padding: 1.65rem 0 0; border-top: var(--border-default); }
+.festival-link-index { display: flex; flex-wrap: wrap; gap: .55rem 1.25rem; }
+.festival-link-index a { font-size: .9rem; }
+.article-section .festival-last-checked { min-width: 9rem; margin: 0; padding-left: 1.25rem; border-left: var(--border-default); font: 400 var(--text-label)/1.45 var(--mono); text-transform: uppercase; }
+.festival-last-checked span,
+.festival-last-checked time { display: block; }
+.festival-last-checked time { margin-top: .3rem; font-weight: 700; }
+
+@media (max-width: 760px) {
+  .festival-planner { margin-top: 0; }
+  .festival-planner-block { padding: 1.35rem 0; }
+  .festival-price-table { min-width: 0; font-size: .9rem; }
+  .festival-price-table th:first-child { width: 72%; }
+  .festival-price-table td { padding-left: .8rem; font-size: 1rem; white-space: nowrap; }
+  .festival-routes li { grid-template-columns: 2.6rem minmax(0, 1fr); gap: .75rem; }
+  .festival-routes li > p { grid-column: 2; }
+  .festival-planner-pair,
+  .festival-packing { grid-template-columns: 1fr; }
+  .festival-planner-pair .festival-planner-block,
+  .festival-packing section { padding-right: 0; }
+  .festival-planner-pair .festival-planner-block + .festival-planner-block,
+  .festival-packing section + section { padding: 1.35rem 0 0; border-top: 0; border-left: 0; }
+  .festival-packing { gap: 1.35rem; }
+  .festival-spend-list { grid-template-columns: 1fr 1fr; }
+  .festival-planner-links { grid-template-columns: 1fr; gap: 1.35rem; }
+  .article-section .festival-last-checked { padding: .9rem 0 0; border-top: var(--border-default); border-left: 0; }
+}
+
 .article-image {
   width: min(100%, var(--article-media));
   margin: var(--media-space) auto 0;

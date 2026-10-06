@@ -9,6 +9,22 @@ const pages = [
   ['exit-festival.html', 'https://thecatrave.com/exit-festival']
 ];
 
+const localizedPlanningPages = [
+  'de/sziget-festival.html', 'fr/festival-sziget.html',
+  'de/monegros-desert-festival.html', 'fr/monegros-desert-festival.html',
+  'de/arc-music-festival.html', 'fr/arc-music-festival.html',
+  'de/airbeat-one-festival.html', 'fr/airbeat-one-festival.html',
+  'de/exit-festival.html', 'fr/exit-festival.html'
+];
+
+const roundups = [
+  'new-years-eve-festivals.html', 'best-electronic-music-festivals-europe.html',
+  'best-edm-festivals-usa.html', 'best-winter-music-festivals.html',
+  'best-electronic-music-festivals-asia.html', 'de/silvester-rave.html',
+  'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
+  'fr/festivals-electro-europe.html'
+];
+
 const failures = [];
 for (const [file, canonical] of pages) {
   if (!fs.existsSync(file)) { failures.push(`${file}: missing`); continue; }
@@ -22,10 +38,27 @@ for (const [file, canonical] of pages) {
   if (!html.includes('FAQPage')) failures.push(`${file}: missing visible/schema FAQ package`);
   if (/<\/figure>\s*<aside class="(?:listening-block|soundcloud-feature)/.test(html) || /<\/aside>\s*<figure class="floating-image/.test(html)) failures.push(`${file}: figure and embed are adjacent`);
   if (/tone-(?:yellow|coral)/.test(html)) failures.push(`${file}: retired section tone present`);
+  if (!html.includes('class="festival-planner"')) failures.push(`${file}: missing practical festival planner`);
+  if (!html.includes('google.com/maps/')) failures.push(`${file}: missing direct Google Maps route`);
+  if (!html.includes('rel="nofollow noopener noreferrer"')) failures.push(`${file}: planning links must be nofollow`);
+  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
+}
+
+for (const file of localizedPlanningPages) {
+  if (!fs.existsSync(file)) { failures.push(`${file}: missing`); continue; }
+  const html = fs.readFileSync(file, 'utf8');
+  if (!html.includes('class="festival-planner"')) failures.push(`${file}: missing translated festival planner`);
+  if (!html.includes('google.com/maps/')) failures.push(`${file}: missing direct Google Maps route`);
+  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing translated planning check date`);
+}
+
+for (const file of roundups) {
+  if (!fs.existsSync(file)) continue;
+  if (fs.readFileSync(file, 'utf8').includes('class="festival-planner"')) failures.push(`${file}: roundup must not repeat the full planner`);
 }
 
 if (failures.length) {
   console.error(failures.map(item => `✗ ${item}`).join('\n'));
   process.exit(1);
 }
-console.log('✔ Six shared-builder festival guides passed page-specific checks.');
+console.log('✔ Festival guides passed planner, translation and roundup-scope checks.');

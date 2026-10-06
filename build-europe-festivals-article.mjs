@@ -27,8 +27,8 @@ const draft = fs.readFileSync('best-electronic-music-festivals-europe-draft.md',
 const canonical = 'https://thecatrave.com/best-electronic-music-festivals-europe';
 const title = 'Best Electronic Music Festivals in Europe 2027, Compared';
 const description = 'Fourteen major and seven smaller European electronic music festivals for 2027, compared by sound, scale, setting and dates, confirmed or not.';
-const date = '2026-09-22';
-const dateLabel = '22 September 2026';
+const date = '2026-10-06';
+const dateLabel = '6 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -99,8 +99,8 @@ const festivals = [
   ['Time Warp', 'Mannheim, Germany', '3 April', 'Techno, house', '40,000+', 'One indoor night', 'Techno in a single night'],
   ['Kappa FuturFestival', 'Turin, Italy', '2 to 4 July', 'Techno, house', 'Not published here', 'City, midday to midnight', 'Daylight techno'],
   ['Sónar', 'Barcelona, Spain', '17 to 19 June', 'Electronic, experimental, live acts', 'About 150,000 (2026)', 'City', 'An adventurous programme'],
-  ['Monegros Desert Festival', 'Fraga, Spain', 'Not announced (July)', 'Many electronic styles', 'Not published here', 'One night, VIP tents', 'One extreme night'],
-  ['Boomtown', 'Near Winchester, England', '11 to 15 August', 'Reggae and dub to techno, live bands', 'Licensed for 75,000+', 'Camping', 'A festival as a world of its own']
+  ['<a href="/monegros-desert-festival">Monegros Desert Festival guide</a>', 'Fraga, Spain', '31 July', 'Many electronic styles', 'Not published here', 'One night, VIP tents', 'One extreme night'],
+  ['<a href="/boomtown-festival">Boomtown guide</a>', 'Near Winchester, England', '11 to 15 August', 'Reggae and dub to techno, live bands', 'Licensed for 75,000+', 'Camping', 'A festival as a world of its own']
 ];
 
 const smallerFestivals = [
@@ -210,7 +210,7 @@ const tocItems = [
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
-const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: one night at Monegros in the Spanish desert, or the themed city of Boomtown. For smaller, more underground weekends: Garbicz in Poland, NACHTI in Germany, Houghton in England, Waking Life in Portugal and Kala in Albania. Tomorrowland, Dekmantel and Monegros had not announced 2027 dates when this page was checked.';
+const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: Monegros on 31 July in the Spanish desert, or the themed city of Boomtown. For smaller, more underground weekends: Garbicz in Poland, NACHTI in Germany, Houghton in England, Waking Life in Portugal and Kala in Albania. Tomorrowland and Dekmantel had not announced 2027 dates when this page was checked.';
 
 const articleHtml = [
   articleHero({

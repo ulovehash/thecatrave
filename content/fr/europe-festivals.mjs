@@ -51,8 +51,8 @@ const festivals = [
   ['Time Warp', 'Mannheim, Allemagne', '3 avril', 'Techno, house', 'Plus de 40 000', 'Une nuit en intérieur', 'La techno en une seule nuit'],
   ['Kappa FuturFestival', 'Turin, Italie', '2 au 4 juillet', 'Techno, house', 'Non publié ici', 'Ville, de midi à minuit', 'La techno en plein jour'],
   ['Sónar', 'Barcelone, Espagne', '17 au 19 juin', 'Électronique, expérimental, lives', 'Environ 150 000 (2026)', 'Ville', 'Une programmation aventureuse'],
-  ['Monegros Desert Festival', 'Fraga, Espagne', 'Pas encore annoncée (juillet)', 'De nombreux styles électroniques', 'Non publié ici', 'Une nuit, tentes VIP', 'Une nuit extrême'],
-  ['Boomtown', 'Près de Winchester, Angleterre', '11 au 15 août', 'Du reggae et du dub à la techno, groupes live', 'Autorisé pour plus de 75 000', 'Camping', 'Un festival comme un monde à part']
+  ['<a href="/fr/monegros-desert-festival">Guide détaillé de Monegros</a>', 'Fraga, Espagne', '31 juillet', 'De nombreux styles électroniques', 'Non publié ici', 'Une nuit, tentes VIP', 'Une nuit extrême'],
+  ['<a href="/fr/boomtown-festival">Guide détaillé de Boomtown</a>', 'Près de Winchester, Angleterre', '11 au 15 août', 'Du reggae et du dub à la techno, groupes live', 'Autorisé pour plus de 75 000', 'Camping', 'Un festival comme un monde à part']
 ];
 
 const smallerFestivals = [
@@ -79,8 +79,8 @@ export default {
   title: 'Les meilleurs festivals électro en Europe en 2027, comparés',
   description: 'Quatorze grands et sept petits festivals de musique électronique en Europe en 2027, comparés par son, taille, cadre et dates, confirmées ou non.',
   datePublished: '2026-09-22',
-  dateModified: '2026-09-22',
-  dateLabel: '22 septembre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Guide des festivals 2027',
   heroTitle: 'Les meilleurs festivals de musique électronique en Europe en 2027',

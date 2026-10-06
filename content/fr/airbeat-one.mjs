@@ -9,6 +9,7 @@
 import {
   articleFigure, articleTable, articleVideoCard, articleVideoCollection, ownSetListening
 } from '../../site-components.mjs';
+import {localizedFestivalPlanning} from '../festival-planning-data.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -32,8 +33,8 @@ export default {
   title: 'Airbeat One Festival 2027 : dates, scènes, camping, accès',
   description: 'Airbeat One 2027 se tient du 7 au 11 juillet à Neustadt-Glewe : un guide des scènes EDM, techno, hardstyle et psytrance, du camping et du trajet.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-06',
+  dateLabel: '6 octobre 2026',
 
   heroKicker: 'Guide des festivals en Allemagne',
   heroTitle: 'Airbeat One Festival : le guide du rave sur un aérodrome en Allemagne',
@@ -54,7 +55,7 @@ export default {
     {id: 'stages', heading: 'Un festival construit autour d’identités de scènes', tocLabel: 'Scènes', title: 'Un festival construit autour d’identités de scènes.'},
     {id: 'history', heading: 'D’Airbase One à Airbeat One', tocLabel: 'Histoire', title: 'D’Airbase One à Airbeat One.'},
     {id: 'camping', heading: 'Le camping à Neustadt-Glewe', tocLabel: 'Camping', title: 'Le camping à Neustadt-Glewe.'},
-    {id: 'planning', heading: 'Y aller et organiser le week-end', tocLabel: 'Trajet et organisation', title: 'Y aller et organiser le week-end.'}
+    {id: 'planning', heading: 'Y aller et organiser le week-end', tocLabel: 'Trajet et organisation', title: 'Préparez votre week-end à Airbeat One.', planning: localizedFestivalPlanning('airbeat', 'fr')}
   ],
 
   media: ({lang}) => ({
