@@ -34,14 +34,15 @@ export default {
 
   sections: [
     {id: 'criteria', heading: 'Was macht einen Techno-Mix wesentlich?', title: 'Was macht einen Techno-Mix wesentlich?', tocLabel: 'Was einen Mix wesentlich macht'},
-    {id: 'detroit', heading: 'Detroit: Funk, Minimalismus und Electro', title: 'Detroit: Funk, Minimalismus und Electro.', tocLabel: 'Detroit: Funk, Minimalismus, Electro', subsections: ['mix-juan-atkins-mixmag-live-2015', 'mix-robert-hood-dj-mag-2019', 'mix-dj-stingray-boiler-room-dekmantel-2017']},
-    {id: 'pressure', heading: 'Druck und Präzision', title: 'Druck und Präzision.', tocLabel: 'Druck und Präzision', subsections: ['mix-jeff-mills-mixmag-2019', 'mix-surgeon-boiler-room-2014', 'mix-ben-klock-boiler-room-berlin-2013']},
-    {id: 'contemporary', heading: 'Verschiedene Wege durch den heutigen Techno', title: 'Verschiedene Wege durch den heutigen Techno.', tocLabel: 'Wege durch den heutigen Techno', subsections: ['mix-helena-hauff-b2b-l-f-t-hor-2020', 'mix-wata-igarashi-hor-2023', 'mix-rodhad-boiler-room-2023', 'mix-fadi-mohem-boiler-room-berlin-2024']},
+    {id: 'detroit', heading: 'Detroit: Funk, Minimalismus und Electro', title: 'Detroit: Funk, Minimalismus und Electro.', tocLabel: 'Detroit: Funk, Minimalismus, Electro', setCollection: true, subsections: ['mix-juan-atkins-mixmag-live-2015', 'mix-robert-hood-dj-mag-2019', 'mix-dj-stingray-boiler-room-dekmantel-2017']},
+    {id: 'pressure', heading: 'Druck und Präzision', title: 'Druck und Präzision.', tocLabel: 'Druck und Präzision', setCollection: true, subsections: ['mix-jeff-mills-mixmag-2019', 'mix-surgeon-boiler-room-2014', 'mix-ben-klock-boiler-room-berlin-2013']},
+    {id: 'contemporary', heading: 'Verschiedene Wege durch den heutigen Techno', title: 'Verschiedene Wege durch den heutigen Techno.', tocLabel: 'Wege durch den heutigen Techno', setCollection: true, subsections: ['mix-helena-hauff-b2b-l-f-t-hor-2020', 'mix-wata-igarashi-hor-2023', 'mix-rodhad-boiler-room-2023', 'mix-fadi-mohem-boiler-room-berlin-2024']},
     {id: 'choose', heading: 'Welchen Techno-Mix solltest du zuerst spielen?', title: 'Welchen Techno-Mix solltest du zuerst spielen?', tocLabel: 'Welchen Mix zuerst?'}
   ],
 
   media: ({lang}) => {
     const video = (label, item) => ({
+      setItem: item,
       usePreviousParagraph: true,
       render: description => articleVideoCollection({lang, label, description, items: [articleVideoCard(item)]})
     });

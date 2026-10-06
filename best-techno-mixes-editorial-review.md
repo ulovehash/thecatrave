@@ -58,3 +58,7 @@ This addendum overrides any earlier "pass" line above that conflicts with it. Th
 **Links.** `/techno-music-guide`, `/best-clubs-in-berlin`, `/german-electronic-music`, `/best-clubs-in-paris`, `/best-clubs-in-barcelona`. No dnb or jungle link.
 
 **Humanizer record (before and after), applied 2026-09-30.** "and can be played in full." became "official broadcaster channels." "carry an hour" became "carry a mix". "It asks for uninterrupted listening and rewards attention to small adjustments." became "It rewards attention to small adjustments." The player description "Watch the complete ... recording" became "Watch the ... recording".
+
+## Structural follow-up, 6 October 2026
+
+The three genre groups now use one shared listening collection each instead of repeating an artist H3 followed by a separate cyan panel for every set. The section H2 and introductory paragraph explain the grouping once; artist, style, set title, year, editorial notes and exact official player remain visible for every entry. The English, German and French builds use the same structure and preserve their existing anchors. No selection, factual claim, URL or search intent changed.

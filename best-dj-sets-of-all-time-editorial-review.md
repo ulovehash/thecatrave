@@ -70,6 +70,10 @@ Media: owner's own tracks (Protect Ya Breaks, 60 hours of mistakes) are in the B
 - Jazzy Jeff: one hip hop aside inside the first house group, labelled as an aside.
 
 Open items for the owner: the Mixmag marathon list is uncited because no URL was recorded; Space still counts at four lists without it. A hero image would need an openly licensed photograph, downloaded and credited.
+
+## Structural follow-up, 6 October 2026
+
+Each genre section now contains one shared listening collection instead of a repeated artist H3 and cyan panel for every set. The section introduction explains the category once, while every row retains its status label, artist, set title, year, editorial reasoning and exact YouTube, SoundCloud or Mixcloud player. Section IDs and item anchors remain intact. No ranking, evidence status, URL, metadata or search intent changed.
 ## Approved reader and search update, 5 October 2026
 
 The owner approved correcting the direct answer and hero/card descriptions so they no longer imply all 30 sets recur in published lists. The page still distinguishes Named, Substitute and Editorial pick, and the recordings, section order, URL, title, headings, metadata and anchors are unchanged. The existing selection ledger and upload checks above remain the evidence. Follow-up review is not independent.

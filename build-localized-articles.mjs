@@ -48,7 +48,7 @@ import fs from 'node:fs';
 import {withCatalogue} from './catalogue.mjs';
 import path from 'node:path';
 import {
-  ownSetListening, articleFaq, articleHero, articlePage, articlePlaylistPreview, articleSection, articleSources,
+  ownSetListening, articleFaq, articleHero, articleListeningCollection, articlePage, articlePlaylistPreview, articleSection, articleSources, articleTrackEmbed,
   articleStructuredData, authorCard, bandcampSupport, breadcrumbStructuredData,
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
@@ -147,6 +147,34 @@ export function buildLocalizedArticle(content) {
     })].join('\n');
   };
 
+  const renderSetCollection = (text, anchors, label) => {
+    const [lead, ...blocks] = text.split(/(?:^|\n)### /);
+    if (blocks.length !== anchors.length) throw new Error(`${content.draft}: expected ${anchors.length} set entries, found ${blocks.length}`);
+    const items = blocks.map((block, index) => {
+      const [heading, ...rest] = block.split('\n');
+      const parts = paras(rest.join('\n'));
+      const placeholder = parts.find(part => /^\[(Embed|Einbettung):/.test(part));
+      if (!placeholder) throw new Error(`${content.draft}: ${heading.trim()} needs an embed placeholder`);
+      const key = mediaKey(placeholder);
+      const asset = media[key];
+      if (!asset?.setItem) throw new Error(`${content.draft}: ${key} needs setItem metadata for a grouped listening section`);
+      used.add(key);
+      const item = asset.setItem;
+      const year = (item.title.match(/(\d{4})\s*$/) || [])[1] || '';
+      const noteHtml = render(parts.filter(part => part !== placeholder).join('\n\n'));
+      return {
+        anchor: anchors[index],
+        artist: `${item.artist} · ${item.genre}`,
+        title: item.title.replace(/,?\s*\d{4}\s*$/, ''),
+        year,
+        noteHtml,
+        playerHtml: articleTrackEmbed({platform: 'youtube', id: item.youtubeId, title: `${item.artist}, ${item.title}`})
+      };
+    });
+    const route = articleListeningCollection({lang, id: `listen-${anchors[0]}`, label, items});
+    return `${lead.trim() ? render(lead) : ''}${route}`;
+  };
+
   const renderPlaylistSection = (text, metadata) => {
     // A section may open with a lead paragraph before its first playlist (the
     // house playlists guide's disclosure of the owner's own two).
@@ -187,6 +215,8 @@ export function buildLocalizedArticle(content) {
     id: section.id, title: section.title, kicker: section.kicker, className: section.className || '',
     bodyHtml: section.playlists
       ? renderPlaylistSection(getSection(section.heading), section.playlists)
+      : section.setCollection
+      ? renderSetCollection(getSection(section.heading), section.subsections, section.heading)
       : section.subsections
       ? renderWithSubsections(getSection(section.heading), section.subsections)
       : render(section.headings ? section.headings.map(getSection).join('\n\n') : getSection(section.heading))

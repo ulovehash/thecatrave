@@ -94,7 +94,7 @@ The festival's own film from its 2019 After Series is two minutes of that crowd,
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, Creamfields Official Page YouTube channel, fVKywXvEl9g]
 
-## Essential listening
+## Creamfields sets to hear first
 
 The festival also puts sets on its own channel, and some artists post their own. The two below are Ewan McVicar on the Steel Yard in 2023, the most watched of his Creamfields sets, on his own channel; and Pete Tong in 2025, on the festival's, who was on the first Creamfields bill in 1998.
 

@@ -60,7 +60,7 @@ export default {
     {id: 'history', heading: 'Eine kurze Geschichte, und wem Creamfields gehört', title: 'Eine kurze Geschichte, und wem Creamfields gehört.'},
     {id: 'famous', heading: 'Warum Creamfields berühmt ist', title: 'Warum Creamfields berühmt ist.'},
     {id: 'music', heading: 'Welche Musik wirklich läuft', title: 'Welche Musik wirklich läuft.', kicker: 'Die Musik'},
-    {id: 'essential', heading: 'Zum Weiterhören', title: 'Zum Weiterhören.'}
+    {id: 'essential', heading: 'Creamfields-Sets für den Einstieg', title: 'Creamfields-Sets für den Einstieg.'}
   ],
 
   media: ({lang}) => ({

@@ -15,7 +15,7 @@
 import fs from 'node:fs';
 import {
   articleFaq, articleHero, articlePage, articleSection, articleSources, articleStructuredData,
-  articleListeningCollection, articleTrackEmbed, articleVideoCard, articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData,
+  articleListeningCollection, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData,
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
@@ -79,7 +79,7 @@ const players = new Map([
 ]);
 const used = new Set();
 
-function player(heading, genre, context = '') {
+function setItem(heading, genre, noteHtml) {
   const spec = players.get(heading);
   if (!spec) throw new Error(`No player for entry: ${heading}`);
   used.add(heading);
@@ -87,32 +87,28 @@ function player(heading, genre, context = '') {
   const label = heading.replace(/^A hip hop aside: /, '');
   const comma = label.indexOf(', ');
   const artist = label.slice(0, comma), setTitle = label.slice(comma + 2);
-  if (platform === 'youtube') {
-    return articleVideoCollection({label, description: context, items: [articleVideoCard({youtubeId: ref, genre, artist, title: setTitle})]});
-  }
-  const where = platform === 'mixcloud' ? 'Mixcloud' : 'SoundCloud';
   const year = (label.match(/(\d{4})\s*$/) || [])[1] || '';
-  return articleListeningCollection({
-    id: `listen-${label.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
-    title: label,
-    description: `Audio only, from the official upload on ${where}.`,
-    tone: 'paper',
-    items: [{artist, title: setTitle.replace(/,?\s*\d{4}\s*$/, ''), year, note: `Audio only, on ${where}.`, playerHtml: articleTrackEmbed({platform, url: ref, title: label})}]
-  });
+  return {
+    artist: `${artist} · ${genre}`,
+    title: setTitle.replace(/,?\s*\d{4}\s*$/, ''),
+    year,
+    noteHtml,
+    playerHtml: articleTrackEmbed({platform, ...(platform === 'youtube' ? {id: ref} : {url: ref}), title: label})
+  };
 }
 
-// One entry = heading, a paragraph, the player, then the rest. The player always
-// follows a paragraph and precedes either more prose or the next heading.
 function renderEntries(heading, genre) {
-  return getSection(heading).split(/(?:^|\n)### /).filter(Boolean).map(block => {
+  const items = getSection(heading).split(/(?:^|\n)### /).filter(Boolean).map(block => {
     const [entryTitle, ...rest] = block.split('\n');
     const copy = paras(rest.join('\n'));
     if (copy.length < 1 || copy.length > 3) throw new Error(`${entryTitle} must have one to three paragraphs`);
-    const isVideo = players.get(entryTitle.trim())?.[0] === 'youtube';
-    return isVideo
-      ? `<h3>${escapeHtml(entryTitle.trim())}</h3>${player(entryTitle.trim(), genre, copy[0])}${join(copy.slice(1))}`
-      : `<h3>${escapeHtml(entryTitle.trim())}</h3>${join(copy.slice(0, 1))}${player(entryTitle.trim(), genre)}${join(copy.slice(1))}`;
-  }).join('\n');
+    return setItem(entryTitle.trim(), genre, join(copy));
+  });
+  return articleListeningCollection({
+    id: `listen-${heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
+    label: heading,
+    items
+  });
 }
 
 const answer = paras(getSection('Answer'));

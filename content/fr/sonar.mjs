@@ -66,7 +66,7 @@ export default {
     {id: 'history', heading: 'Une courte histoire de Sónar, et à qui il appartient', title: 'Une courte histoire de Sónar, et à qui il appartient.', subsections: ['around-the-world']},
     {id: 'music', heading: 'Ce qui a fait la réputation de Sónar : la musique', title: 'Ce qui a fait la réputation de Sónar : la musique.', kicker: 'La musique'},
     {id: 'offsonar', heading: 'OFFSónar et la Sónar Week', title: 'OFFSónar et la Sónar Week.'},
-    {id: 'from-home', heading: 'À écouter', title: 'À écouter.'}
+    {id: 'from-home', heading: 'Sónar 2024 sur ARTE Concert', title: 'Sónar 2024 sur ARTE Concert.'}
   ],
 
   media: ({lang}) => ({

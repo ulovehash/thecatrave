@@ -140,27 +140,11 @@ This is my reading, not a finding. It fits the table, the rules and the criticis
 
 The poll is also no ranking of the most-played DJs on recorded sets. In the Selector, the recorded sets on this site, Carl Cox has 28 sets, Charlotte de Witte and Nina Kraviz 11 each, and Solomun and Vintage Culture 8 each. Hardwell and Calvin Harris have none, and Garrix and Dimitri Vegas & Like Mike have one each. That is a count of what has been filmed or recorded and put online, not a measure of who matters, but it shows the poll and the recorded-set world are looking at different people.
 
-## Listen
+## Official sets from Nina Kraviz, Vintage Culture and Sara Landry
 
-Three more names from this piece, each as an official upload.
+The Selector count and the DJ Mag poll measure different things: one records which sets are available, while the other records votes. Nina Kraviz has 11 sets in the Selector but did not place in the 2025 top 21. Vintage Culture placed 11th after two years in the top ten, while DJ Mag named Sara Landry its number one hard DJ in 2025. These official recordings put performances beside those numbers: Cercle filmed Kraviz's 112-minute set in Paris and Vintage Culture's 109-minute set in Rio de Janeiro, and Beatport filmed Landry's 63-minute set in Amsterdam.
 
-### Nina Kraviz
-
-Nina Kraviz has 11 sets in the Selector and was not in the 2025 top 21. Cercle filmed this 112-minute set at the Eiffel Tower in Paris in 2018.
-
-[[set:kraviz]]
-
-### Vintage Culture
-
-Vintage Culture was in the top ten in 2023 and 2024 and 11th in 2025. This is Cercle's 109-minute film from the Museu do Amanhã in Rio de Janeiro, made in 2022.
-
-[[set:vintage]]
-
-### Sara Landry
-
-DJ Mag named Sara Landry its number one hard DJ in 2025. Beatport filmed this 63-minute set in Amsterdam that year.
-
-[[set:landry]]
+[[sets:kraviz,vintage,landry]]
 
 ## FAQ
 

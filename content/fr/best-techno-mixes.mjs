@@ -34,14 +34,15 @@ export default {
 
   sections: [
     {id: 'criteria', heading: 'Qu’est-ce qui fait un mix techno essentiel ?', title: 'Qu’est-ce qui fait un mix techno essentiel ?', tocLabel: 'Ce qui fait un mix essentiel'},
-    {id: 'detroit', heading: 'Détroit : funk, minimalisme et electro', title: 'Détroit : funk, minimalisme et electro.', tocLabel: 'Détroit : funk, minimalisme, electro', subsections: ['mix-juan-atkins-mixmag-live-2015', 'mix-robert-hood-dj-mag-2019', 'mix-dj-stingray-boiler-room-dekmantel-2017']},
-    {id: 'pressure', heading: 'Pression et précision', title: 'Pression et précision.', tocLabel: 'Pression et précision', subsections: ['mix-jeff-mills-mixmag-2019', 'mix-surgeon-boiler-room-2014', 'mix-ben-klock-boiler-room-berlin-2013']},
-    {id: 'contemporary', heading: 'Différentes routes à travers la techno contemporaine', title: 'Différentes routes à travers la techno contemporaine.', tocLabel: 'Routes de la techno contemporaine', subsections: ['mix-helena-hauff-b2b-l-f-t-hor-2020', 'mix-wata-igarashi-hor-2023', 'mix-rodhad-boiler-room-2023', 'mix-fadi-mohem-boiler-room-berlin-2024']},
+    {id: 'detroit', heading: 'Détroit : funk, minimalisme et electro', title: 'Détroit : funk, minimalisme et electro.', tocLabel: 'Détroit : funk, minimalisme, electro', setCollection: true, subsections: ['mix-juan-atkins-mixmag-live-2015', 'mix-robert-hood-dj-mag-2019', 'mix-dj-stingray-boiler-room-dekmantel-2017']},
+    {id: 'pressure', heading: 'Pression et précision', title: 'Pression et précision.', tocLabel: 'Pression et précision', setCollection: true, subsections: ['mix-jeff-mills-mixmag-2019', 'mix-surgeon-boiler-room-2014', 'mix-ben-klock-boiler-room-berlin-2013']},
+    {id: 'contemporary', heading: 'Différentes routes à travers la techno contemporaine', title: 'Différentes routes à travers la techno contemporaine.', tocLabel: 'Routes de la techno contemporaine', setCollection: true, subsections: ['mix-helena-hauff-b2b-l-f-t-hor-2020', 'mix-wata-igarashi-hor-2023', 'mix-rodhad-boiler-room-2023', 'mix-fadi-mohem-boiler-room-berlin-2024']},
     {id: 'choose', heading: 'Quel mix techno écouter en premier ?', title: 'Quel mix techno écouter en premier ?', tocLabel: 'Quel mix écouter d’abord ?'}
   ],
 
   media: ({lang}) => {
     const video = (label, item) => ({
+      setItem: item,
       usePreviousParagraph: true,
       render: description => articleVideoCollection({lang, label, description, items: [articleVideoCard(item)]})
     });

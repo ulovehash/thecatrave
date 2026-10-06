@@ -69,7 +69,7 @@ export default {
     {id: 'history', heading: 'Eine kurze Geschichte von Sónar, und wem es gehört', title: 'Eine kurze Geschichte von Sónar, und wem es gehört.', subsections: ['around-the-world']},
     {id: 'music', heading: 'Wofür Sónar bekannt ist: die Musik', title: 'Wofür Sónar bekannt ist: die Musik.', kicker: 'Die Musik'},
     {id: 'offsonar', heading: 'OFFSónar und die Sónar Week', title: 'OFFSónar und die Sónar Week.'},
-    {id: 'from-home', heading: 'Zum Reinhören', title: 'Zum Reinhören.'}
+    {id: 'from-home', heading: 'Sónar 2024 bei ARTE Concert', title: 'Sónar 2024 bei ARTE Concert.'}
   ],
 
   media: ({lang}) => ({

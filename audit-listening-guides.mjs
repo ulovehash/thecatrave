@@ -10,7 +10,7 @@ const specs = [
   {
     file:'best-techno-mixes.html', generator:'build-best-techno-mixes-article.mjs',
     canonical:'https://thecatrave.com/best-techno-mixes', h1:'The best techno mixes, from Detroit to now',
-    selector:/class="video-example"/g, count:10,
+    selector:/class="track-entry"/g, count:10,
     ids:['9SuKJ-dbmbg','S2UORWQz_7k','jOVB05K9GPU','rTtVMHFlwoM']
   },
   {

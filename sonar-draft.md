@@ -102,7 +102,7 @@ The Off Sónar parties are where much of the week's club music gets filmed. Drum
 
 Our own catalogue shows the same pattern. Of the DJ sets behind [the Selector](/selector), 13 mention Sónar and none is from the festival itself. Four are Beatport's streams from Brunch Electronik and Circoloco at OFFSónar, led by Miss Monique in 2023, at 788,000 views.
 
-## Essential listening
+## Sónar 2024 on ARTE Concert
 
 Since 2024 ARTE, the Franco-German broadcaster, has filmed shows at Sónar and put them on its ARTE Concert channel. The two below come from the same Friday night on SonarClub in 2024: Ben Böhmer live, the most watched of ARTE's Sónar Barcelona films at about 215,000 views in September 2026, and Richie Hawtin's DEX EFX X0X.
 

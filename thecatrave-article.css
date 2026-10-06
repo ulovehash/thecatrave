@@ -395,6 +395,9 @@
   gap: 1.25rem;
 }
 .video-grid > :only-child { grid-column: 1 / -1; }
+@media (min-width: 761px) {
+  .video-grid:has(> :nth-child(3):last-child) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 
 .video-example { margin: 0; border: 1px solid currentColor; background: var(--surface-muted); }
 .video-frame { aspect-ratio: 16 / 9; background: #0a0a0a; }

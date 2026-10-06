@@ -162,7 +162,7 @@ const sections = [
   {id: 'history', heading: 'A short history, and who owns Creamfields', title: 'A short history, and who owns Creamfields.'},
   {id: 'famous', heading: 'Why Creamfields is famous', title: 'Why Creamfields is famous.'},
   {id: 'music', heading: 'What the music actually is', title: 'What the music actually is.', kicker: 'The music'},
-  {id: 'essential', heading: 'Essential listening', title: 'Essential listening.'}
+  {id: 'essential', heading: 'Creamfields sets to hear first', title: 'Creamfields sets to hear first.'}
 ];
 
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];

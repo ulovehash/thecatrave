@@ -166,7 +166,7 @@ const sections = [
   {id: 'history', heading: 'A short history of Sónar, and who owns it', title: 'A short history of Sónar, and who owns it.', subsections: ['around-the-world']},
   {id: 'music', heading: 'What Sónar is known for: the music', title: 'What Sónar is known for: the music.', kicker: 'The music'},
   {id: 'offsonar', heading: 'OFFSónar and Sónar Week', title: 'OFFSónar and Sónar Week.'},
-  {id: 'from-home', heading: 'Essential listening', title: 'Essential listening.'}
+  {id: 'from-home', heading: 'Sónar 2024 on ARTE Concert', title: 'Sónar 2024 on ARTE Concert.'}
 ];
 
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];

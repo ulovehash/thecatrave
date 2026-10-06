@@ -154,3 +154,7 @@ No humanizer pass was re-run here, and the review above does not mention one, so
 ### Open items
 
 - Five YouTube embeds: no view-count evidence.
+
+## Structural follow-up, 6 October 2026
+
+The generic listening H2 was renamed `Sónar 2024 on ARTE Concert`, with equivalent German and French headings. The localised shared label inside the cyan media block remains `Essential listening`; the section heading now identifies the recordings before the reader reaches the card. No set, copy, anchor, URL or factual claim changed.

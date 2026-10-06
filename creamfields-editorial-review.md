@@ -206,6 +206,10 @@ No humanizer pass was re-run here, and the review above does not mention one, so
 
 `creamfields-research.md` says: "- Stage 6 validation from the original research was not run.". That is a statement, not an independent validation; this addendum does not supply one.
 
+## Structural follow-up, 6 October 2026
+
+The generic `Essential listening` H2 was renamed `Creamfields sets to hear first`, with equivalent German and French headings. The localised shared label inside the cyan media block remains `Essential listening`; the heading above it now tells readers what the section contains. No set, copy, anchor, URL or factual claim changed.
+
 ### Findings (owner decision needed, nothing applied)
 
 - Drum and bass is written into this festival guide as its own angle (see the drum-and-bass hits above). The owner's rule is no dnb angle on festival pages; the same facts are real lineup history. Owner decision: keep, shorten, or cut.

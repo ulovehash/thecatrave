@@ -62,19 +62,34 @@ function player(key, description) {
   return articleVideoCollection({label, description, items: [articleVideoCard({youtubeId: spec.id, genre: spec.genre, artist: spec.artist, title: spec.title})]});
 }
 
+function playerGroup(keys) {
+  const specs = keys.map(key => {
+    const spec = sets[key];
+    if (!spec) throw new Error(`No set for placeholder: ${key}`);
+    usedSets.add(key);
+    return spec;
+  });
+  return articleVideoCollection({
+    label: specs.map(spec => spec.artist).join(', '),
+    items: specs.map(spec => articleVideoCard({youtubeId: spec.id, genre: spec.genre, artist: spec.artist, title: spec.title}))
+  });
+}
+
 function table(block) {
   const rows = block.split('\n').map(line => line.trim().replace(/^\||\|$/g, '').split('|').map(cell => cell.trim()));
   const [headers, , ...body] = rows;
   return articleTable({headers: headers.map(inline), rows: body.map(row => row.map(inline))});
 }
 
-// Blocks are separated by blank lines: a table, an ### heading, a [[set:x]]
-// placeholder or a paragraph.
+// Blocks are separated by blank lines: a table, an ### heading, a [[set:x]] or
+// [[sets:x,y]] placeholder, or a paragraph.
 function render(text) {
   const blocks = paras(text);
   return blocks.map((block, index) => {
     if (block.startsWith('|')) return table(block);
     if (block.startsWith('### ')) return `<h3>${escapeHtml(block.slice(4).trim())}</h3>`;
+    const group = block.match(/^\[\[sets:([\w,]+)\]\]$/);
+    if (group) return playerGroup(group[1].split(','));
     const set = block.match(/^\[\[set:(\w+)\]\]$/);
     if (set) return player(set[1], blocks[index - 1]);
     if (/^\[\[set:\w+\]\]$/.test(blocks[index + 1] || '')) return '';
@@ -98,7 +113,7 @@ const sections = [
   {id: 'where-it-moves', heading: 'Where the list does move', h2: 'Where the list does move.'},
   {id: 'first-famous-djs', heading: 'The first famous DJs', h2: 'The first famous DJs.'},
   {id: 'why-the-same-names', heading: 'So why the same names?', h2: 'So why the same names?'},
-  {id: 'listen', heading: 'Listen', h2: 'Listen.'}
+  {id: 'listen', heading: 'Official sets from Nina Kraviz, Vintage Culture and Sara Landry', h2: 'Official sets from Nina Kraviz, Vintage Culture and Sara Landry.'}
 ];
 const bodySections = sections.map(s => articleSection({id: s.id, title: s.h2, bodyHtml: render(getSection(s.heading))}));
 for (const key of Object.keys(sets)) if (!usedSets.has(key)) throw new Error(`Unused set: ${key}`);

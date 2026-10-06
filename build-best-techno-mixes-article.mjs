@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import {
   articleHero, articlePage, articleSection, articleSources, articleStructuredData,
-  articleVideoCard, articleVideoCollection, authorCard, bandcampSupport,
+  articleListeningCollection, articleTrackEmbed, authorCard, bandcampSupport,
   breadcrumbStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
@@ -39,16 +39,23 @@ const videoMeta = new Map([
   ['Fadi Mohem, Boiler Room Berlin, 2024', ['rTtVMHFlwoM', 'DUB TECHNO', 'Fadi Mohem', 'Boiler Room Berlin, 2024']]
 ]);
 function renderMixSection(heading) {
-  return getSection(heading).split(/(?:^|\n)### /).filter(Boolean).map(block => {
+  const items = getSection(heading).split(/(?:^|\n)### /).filter(Boolean).map(block => {
     const [entryTitle, ...rest] = block.split('\n');
     const meta = videoMeta.get(entryTitle.trim());
     if (!meta) throw new Error(`Missing video metadata for ${entryTitle}`);
     const copy = paras(rest.join('\n').replace(/\n?\[Embed:[^\]]+\]\n?/, '\n\n'));
     if (copy.length !== 2) throw new Error(`${entryTitle} must have two editorial paragraphs`);
     const [youtubeId, genre, artist, videoTitle] = meta;
-    const player = articleVideoCollection({label:entryTitle.trim(), description:copy[0], items:[articleVideoCard({youtubeId, genre, artist, title:videoTitle})]});
-    return `<h3>${escapeHtml(entryTitle.trim())}</h3>${player}${join(copy.slice(1))}`;
-  }).join('\n');
+    const year = (videoTitle.match(/(\d{4})\s*$/) || [])[1] || '';
+    return {
+      artist: `${artist} · ${genre}`,
+      title: videoTitle.replace(/,?\s*\d{4}\s*$/, ''),
+      year,
+      noteHtml: join(copy),
+      playerHtml: articleTrackEmbed({platform: 'youtube', id: youtubeId, title: `${artist}, ${videoTitle}`})
+    };
+  });
+  return articleListeningCollection({id: `listen-${heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`, label: heading, items});
 }
 const answer = paras(getSection('Answer'));
 const intro = paras(getSection('Introduction'));

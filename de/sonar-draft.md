@@ -104,7 +104,7 @@ Auf den Off-Sónar-Partys wird ein großer Teil der Clubmusik dieser Woche gefil
 
 Unser eigener Katalog zeigt dasselbe Muster. Von den DJ-Sets hinter [dem Selector](/de/selector) erwähnen 13 Sónar, und keines stammt vom Festival selbst. Vier sind Streams von Beatport von Brunch Electronik und Circoloco beim OFFSónar, angeführt von Miss Monique 2023 mit 788.000 Aufrufen.
 
-## Zum Reinhören
+## Sónar 2024 bei ARTE Concert
 
 Seit 2024 filmt ARTE, der deutsch-französische Sender, Auftritte bei Sónar und stellt sie auf seinen Kanal ARTE Concert. Die beiden unten stammen aus derselben Freitagnacht auf dem SonarClub im Jahr 2024: Ben Böhmer live, mit rund 215.000 Aufrufen im September 2026 der meistgesehene Film von ARTE aus Sónar Barcelona, und DEX EFX X0X von Richie Hawtin.
 

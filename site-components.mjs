@@ -478,11 +478,20 @@ export function articlePlaylistPreview({id, title, curator, description, anchor,
   return `<article class="playlist-preview" id="${escapeHtml(anchor)}"><div class="playlist-preview-copy"><p class="article-kicker">${escapeHtml(curator)}</p><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p>${disclosure}<a class="playlist-preview-link" href="https://open.spotify.com/playlist/${escapeHtml(id)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.playlistOpen)}</a></div><iframe class="playlist-preview-player" title="${escapeHtml(copy.playlistPreviewTitle(title))}" src="https://open.spotify.com/embed/playlist/${escapeHtml(id)}?utm_source=generator&amp;theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></article>`;
 }
 
-export function articleListeningCollection({id, title, description, tone = 'cyan', items = [], fullBleed = true, lang = defaultLang} = {}) {
+export function articleListeningCollection({id, title = '', description = '', label = '', tone = 'cyan', items = [], fullBleed = true, lang = defaultLang} = {}) {
   if (!['paper', 'cyan', 'yellow', 'coral'].includes(tone)) throw new Error(`Unsupported listening collection tone: ${tone}`);
-  const tracks = items.map(item => `<article class="track-entry"${item.anchor ? ` id="${escapeHtml(item.anchor)}"` : ''}><div class="track-copy"><p class="track-meta">${escapeHtml(item.artist)}</p><h4>${escapeHtml(item.title)}<span class="track-year"> · <time>${escapeHtml(item.year)}</time></span></h4><p>${escapeHtml(item.note)}</p></div><div class="track-player">${item.playerHtml}</div></article>`).join('');
+  const itemHeading = title ? 'h4' : 'h3';
+  const tracks = items.map(item => {
+    const year = item.year ? `<span class="track-year"> · <time>${escapeHtml(item.year)}</time></span>` : '';
+    const note = item.noteHtml || `<p>${escapeHtml(item.note || '')}</p>`;
+    return `<article class="track-entry"${item.anchor ? ` id="${escapeHtml(item.anchor)}"` : ''}><div class="track-copy"><p class="track-meta">${escapeHtml(item.artist)}</p><${itemHeading}>${escapeHtml(item.title)}${year}</${itemHeading}>${note}</div><div class="track-player">${item.playerHtml}</div></article>`;
+  }).join('');
   const classes = ['context-listening', fullBleed ? 'context-listening-full' : '', `listening-${tone}`].filter(Boolean).join(' ');
-  return `<aside class="${classes}" aria-labelledby="${escapeHtml(id)}"><div class="context-listening-intro"><p class="article-kicker">${escapeHtml(t(lang).essentialListening)}</p><h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p></div><div class="context-track-list">${tracks}</div></aside>`;
+  const heading = title ? `<h3 id="${escapeHtml(id)}">${escapeHtml(title)}</h3>` : '';
+  const descriptionHtml = description ? `<p>${escapeHtml(description)}</p>` : '';
+  const accessibleName = title || label || 'tracks';
+  const aria = title ? `aria-labelledby="${escapeHtml(id)}"` : `aria-label="${escapeHtml(`${t(lang).essentialListening}: ${accessibleName}`)}"`;
+  return `<aside class="${classes}" ${aria}><div class="context-listening-intro"><p class="article-kicker">${escapeHtml(t(lang).essentialListening)}</p>${heading}${descriptionHtml}</div><div class="context-track-list">${tracks}</div></aside>`;
 }
 
 export function articleYoutubeEmbed({src, title} = {}) {

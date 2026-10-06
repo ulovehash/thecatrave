@@ -96,7 +96,7 @@ Le film du festival tiré de son After Series 2019 montre deux minutes de ce pub
 
 [Embed: Creamfields 2019 After Series, Bass, Drum & Bass, chaîne YouTube Creamfields Official Page, fVKywXvEl9g]
 
-## À écouter ensuite
+## Sets de Creamfields à écouter d’abord
 
 Le festival publie aussi des sets sur sa propre chaîne, et certains artistes publient les leurs. Les deux ci-dessous sont Ewan McVicar au Steel Yard en 2023, le plus vu de ses sets à Creamfields, sur sa propre chaîne, et Pete Tong en 2025, sur celle du festival, qui figurait sur la première affiche de Creamfields en 1998.
 
