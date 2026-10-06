@@ -41,18 +41,21 @@ export default {
   ],
 
   media: ({lang}) => {
-    const video = (label, description, item) => articleVideoCollection({lang, label, description, items: [articleVideoCard(item)]});
+    const video = (label, item) => ({
+      usePreviousParagraph: true,
+      render: description => articleVideoCollection({lang, label, description, items: [articleVideoCard(item)]})
+    });
     return {
-      'Juan Atkins': video('Juan Atkins, Mixmag Live, 2015', 'Regarde l’enregistrement « Mixmag Live, 2015 » sur la chaîne officielle du diffuseur.', {youtubeId: '9SuKJ-dbmbg', genre: 'TECHNO DE DÉTROIT', artist: 'Juan Atkins', title: 'Mixmag Live, 2015'}),
-      'Robert Hood': video('Robert Hood, DJ Mag, 2019', 'Regarde l’enregistrement « DJ Mag, 2019 » sur la chaîne officielle du diffuseur.', {youtubeId: 'S2UORWQz_7k', genre: 'TECHNO MINIMALE', artist: 'Robert Hood', title: 'DJ Mag, 2019'}),
-      'DJ Stingray': video('DJ Stingray, Boiler Room Dekmantel, 2017', 'Regarde l’enregistrement « Boiler Room Dekmantel, 2017 » sur la chaîne officielle du diffuseur.', {youtubeId: '7AGJp9_B_gM', genre: 'ELECTRO / TECHNO', artist: 'DJ Stingray', title: 'Boiler Room Dekmantel, 2017'}),
-      'Jeff Mills': video('Jeff Mills, Mixmag, 2019', 'Regarde l’enregistrement « Mixmag, 2019 » sur la chaîne officielle du diffuseur.', {youtubeId: 'jOVB05K9GPU', genre: 'TECHNO DE DÉTROIT', artist: 'Jeff Mills', title: 'Mixmag, 2019'}),
-      'Surgeon': video('Surgeon, Boiler Room, 2014', 'Regarde l’enregistrement « Boiler Room, 2014 » sur la chaîne officielle du diffuseur.', {youtubeId: 'Ww9VtKqprUY', genre: 'TECHNO DE BIRMINGHAM', artist: 'Surgeon', title: 'Boiler Room, 2014'}),
-      'Ben Klock': video('Ben Klock, Boiler Room Berlin, 2013', 'Regarde l’enregistrement « Boiler Room Berlin, 2013 » sur la chaîne officielle du diffuseur.', {youtubeId: 'DGWL7YI_2rI', genre: 'TECHNO BERLINOISE', artist: 'Ben Klock', title: 'Boiler Room Berlin, 2013'}),
-      'Helena Hauff and L.F.T.': video('Helena Hauff b2b L.F.T., HÖR, 2020', 'Regarde l’enregistrement « HÖR, 2020 » sur la chaîne officielle du diffuseur.', {youtubeId: 'u2qaQLKkVDA', genre: 'ACID / ELECTRO / TECHNO', artist: 'Helena Hauff b2b L.F.T.', title: 'HÖR, 2020'}),
-      'Wata Igarashi': video('Wata Igarashi, HÖR, 2023', 'Regarde l’enregistrement « HÖR, 2023 » sur la chaîne officielle du diffuseur.', {youtubeId: 'ku54y2l54Sc', genre: 'TECHNO HYPNOTIQUE', artist: 'Wata Igarashi', title: 'HÖR, 2023'}),
-      'Rodhad': video('Rødhåd, Boiler Room, 2023', 'Regarde l’enregistrement « Boiler Room, 2023 » sur la chaîne officielle du diffuseur.', {youtubeId: 'oNYarqQNev0', genre: 'TECHNO BERLINOISE', artist: 'Rødhåd', title: 'Boiler Room, 2023'}),
-      'Fadi Mohem': video('Fadi Mohem, Boiler Room Berlin, 2024', 'Regarde l’enregistrement « Boiler Room Berlin, 2024 » sur la chaîne officielle du diffuseur.', {youtubeId: 'rTtVMHFlwoM', genre: 'DUB TECHNO', artist: 'Fadi Mohem', title: 'Boiler Room Berlin, 2024'})
+      'Juan Atkins': video('Juan Atkins, Mixmag Live, 2015', {youtubeId: '9SuKJ-dbmbg', genre: 'TECHNO DE DÉTROIT', artist: 'Juan Atkins', title: 'Mixmag Live, 2015'}),
+      'Robert Hood': video('Robert Hood, DJ Mag, 2019', {youtubeId: 'S2UORWQz_7k', genre: 'TECHNO MINIMALE', artist: 'Robert Hood', title: 'DJ Mag, 2019'}),
+      'DJ Stingray': video('DJ Stingray, Boiler Room Dekmantel, 2017', {youtubeId: '7AGJp9_B_gM', genre: 'ELECTRO / TECHNO', artist: 'DJ Stingray', title: 'Boiler Room Dekmantel, 2017'}),
+      'Jeff Mills': video('Jeff Mills, Mixmag, 2019', {youtubeId: 'jOVB05K9GPU', genre: 'TECHNO DE DÉTROIT', artist: 'Jeff Mills', title: 'Mixmag, 2019'}),
+      'Surgeon': video('Surgeon, Boiler Room, 2014', {youtubeId: 'Ww9VtKqprUY', genre: 'TECHNO DE BIRMINGHAM', artist: 'Surgeon', title: 'Boiler Room, 2014'}),
+      'Ben Klock': video('Ben Klock, Boiler Room Berlin, 2013', {youtubeId: 'DGWL7YI_2rI', genre: 'TECHNO BERLINOISE', artist: 'Ben Klock', title: 'Boiler Room Berlin, 2013'}),
+      'Helena Hauff and L.F.T.': video('Helena Hauff b2b L.F.T., HÖR, 2020', {youtubeId: 'u2qaQLKkVDA', genre: 'ACID / ELECTRO / TECHNO', artist: 'Helena Hauff b2b L.F.T.', title: 'HÖR, 2020'}),
+      'Wata Igarashi': video('Wata Igarashi, HÖR, 2023', {youtubeId: 'ku54y2l54Sc', genre: 'TECHNO HYPNOTIQUE', artist: 'Wata Igarashi', title: 'HÖR, 2023'}),
+      'Rodhad': video('Rødhåd, Boiler Room, 2023', {youtubeId: 'oNYarqQNev0', genre: 'TECHNO BERLINOISE', artist: 'Rødhåd', title: 'Boiler Room, 2023'}),
+      'Fadi Mohem': video('Fadi Mohem, Boiler Room Berlin, 2024', {youtubeId: 'rTtVMHFlwoM', genre: 'DUB TECHNO', artist: 'Fadi Mohem', title: 'Boiler Room Berlin, 2024'})
     };
   },
 

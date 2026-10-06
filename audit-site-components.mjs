@@ -331,7 +331,7 @@ const checks = {
   }),
   essentialListeningResponsiveCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector))
     && ['.article-media-band-full { width: 100vw; padding-inline: 1rem; }','.context-listening-full { width: 100vw; padding-inline: 1rem; }','.listening-block-full { width: 100vw; padding: 1rem; }'].every(rule => articleCss.includes(rule)),
-  noGenericVideoListeningPrompts: articlePages.every(page => !/<aside class="listening-block[^>]*>[\s\S]*?(?:Watch|Listen to)[^<]*official (?:channel|upload)/i.test(page)),
+  noGenericVideoListeningPrompts: articlePages.every(page => !/<aside class="listening-block[^>]*>[\s\S]*?(?:(?:Watch|Listen to)[^<]*official (?:channel|upload)|Sieh dir[^<]*offiziellen Kanal|Regarde[^<]*chaîne officielle)/iu.test(page)),
   // A full-bleed listening collection inside a tone-{x} section must match that colour
   // or be the neutral -paper variant; a different saturated tone stacks clashing bands
   // with the section colour showing through the block's margins. (Compact promo bands

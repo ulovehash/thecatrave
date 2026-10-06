@@ -500,7 +500,12 @@ export function articleVideoCard({youtubeId, genre, artist, title} = {}) {
 
 export function articleVideoCollection({items = [], description = '', label = '', lang = defaultLang} = {}) {
   const listening = t(lang).essentialListening;
-  if (/^(?:watch|listen to)\b.*\bofficial\s+(?:channel|upload)\b/i.test(String(description).trim())) {
+  const genericPrompt = [
+    /^(?:watch|listen to)\b.*\bofficial\s+(?:channel|upload)\b/i,
+    /^sieh dir\b.*\boffiziellen kanal\b/iu,
+    /^regarde\b.*\bchaîne officielle\b/iu
+  ].some(pattern => pattern.test(String(description).trim()));
+  if (genericPrompt) {
     throw new Error('articleVideoCollection description must add a factual editorial reason, not an official-channel instruction');
   }
   // Complementary landmarks need a non-empty, unique accessible name; derive one

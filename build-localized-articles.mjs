@@ -95,7 +95,17 @@ export function buildLocalizedArticle(content) {
   const media = content.media({lang});
   const used = new Set();
 
-  const render = text => paras(text).map(paragraph => {
+  const mediaKey = paragraph => Object.keys(media)
+    .filter(name => String(paragraph || '').includes(name))
+    .sort((a, b) => b.length - a.length)[0];
+  const plainText = value => noEmDash(value)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1');
+
+  const render = text => {
+    const blocks = paras(text);
+    return blocks.map((paragraph, index) => {
     // "- " lists, as the English Europe festivals generator renders them.
     if (paragraph.startsWith('- ')) {
       return `<ul>${paragraph.split(/\n(?=- )/).map(item => `<li>${inline(item.slice(2).replace(/\s+/g, ' '))}</li>`).join('')}</ul>`;
@@ -103,14 +113,28 @@ export function buildLocalizedArticle(content) {
     // "> " marks a note, as the English bass music generator styles its
     // "What to listen for" and "Start with" lines.
     if (paragraph.startsWith('> ')) return `<p class="article-note">${inline(paragraph.slice(2))}</p>`;
-    if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) return `<p>${inline(paragraph)}</p>`;
+    if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) {
+      const next = blocks[index + 1];
+      const nextAsset = /^\[(Image|Embed|Table|Bild|Tabelle):/.test(next || '') ? media[mediaKey(next)] : null;
+      if (nextAsset?.usePreviousParagraph) return '';
+      return `<p>${inline(paragraph)}</p>`;
+    }
     // Longest match wins, as in the English generators: "Sisyphos" is also
     // inside "Teenage Mutants live from Sisyphos".
-    const key = Object.keys(media).filter(name => paragraph.includes(name)).sort((a, b) => b.length - a.length)[0];
+    const key = mediaKey(paragraph);
     if (!key) throw new Error(`${content.draft}: no asset for placeholder ${paragraph.slice(0, 80)}`);
     used.add(key);
-    return media[key];
-  }).join('\n');
+    const asset = media[key];
+    if (asset?.usePreviousParagraph) {
+      const previous = blocks[index - 1];
+      if (!previous || /^\[(Image|Embed|Table|Bild|Tabelle):/.test(previous)) {
+        throw new Error(`${content.draft}: ${key} requires a factual paragraph immediately before its placeholder`);
+      }
+      return asset.render(plainText(previous));
+    }
+    return asset;
+    }).join('\n');
+  };
 
   const renderWithSubsections = (text, anchors) => {
     // A section may open straight on its first subheading (the Europe festivals
