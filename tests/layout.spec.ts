@@ -92,13 +92,17 @@ for (const route of routes) {
         const blocks = [...document.querySelectorAll<HTMLElement>('.article-media-band-full, .context-listening-full, .listening-block-full')];
         return blocks.map(block => ({
           className: block.className,
+          ownPromotion: /^own-(set|playlist)-/.test(block.getAttribute('aria-labelledby') || ''),
           width: block.getBoundingClientRect().width,
           sectionWidth: block.closest('.article-section')?.getBoundingClientRect().width || 0,
+          proseWidth: (block.closest('.article-section') || block.parentElement?.querySelector('.article-section'))?.getBoundingClientRect().width || 0,
           viewport
         }));
       });
       for (const block of geometry) {
-        if (block.viewport <= 760) {
+        if (block.ownPromotion && block.proseWidth) {
+          expect.soft(Math.abs(block.width - block.proseWidth), 'Own mix or playlist matches prose width').toBeLessThanOrEqual(1);
+        } else if (block.viewport <= 760) {
           expect.soft(Math.abs(block.width - block.viewport), `${block.className} mobile width`).toBeLessThanOrEqual(1);
         } else if (block.viewport > 1000 && block.className.includes('listening-block-full')) {
           expect.soft(Math.abs(block.width - block.sectionWidth), `${block.className} matches its prose column`).toBeLessThanOrEqual(1);
