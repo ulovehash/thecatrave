@@ -1,0 +1,16 @@
+{
+  "page": "90s-rave-music.html",
+  "seed": "90s rave music",
+  "source": "Google Ads Keyword Planner, 6 October 2026, all locations, English, run by the owner's session before this build (TOPIC-DOSSIERS.md, section on the owner's six candidates). Reused as measured; no new numbers added in this build. Volumes are the Planner's bucket (1K to 10K), not point values.",
+  "note": "Listener intent. The Bandcamp Daily deep-cuts page, read through Keyword Planner site mode, returned only generic ideas (techno music, music genres, ultra rave, types of music). People Also Ask, SERP details and referring domains were not checked (Ahrefs and Keyword Planner were barred for this build). The three terms are one intent in three spellings, so the volumes are not additive.",
+  "terms": [
+    {"term": "90s rave music", "volume": "1K-10K", "note": "seed; page title, H1, H2 and first FAQ question"},
+    {"term": "1990's rave music", "volume": "1K-10K", "note": "the H2 on hardcore in Britain and the second FAQ question"},
+    {"term": "90 rave music", "volume": "1K-10K", "note": "the third FAQ question and its answer"}
+  ],
+  "expansion_checked": "Not run in this build: no keyword tool was allowed. The expansion is the dossier's 6 October 2026 pass only.",
+  "rejected": [
+    {"term": "rave music production, sample packs, drum kits", "why": "production or file intent; the site teaches no making and hands out no files (CLAUDE.md)"},
+    {"term": "hardcore, breakbeat, jungle, acid house", "why": "taken by their own guides (TAKEN-KEYWORDS.md); linked, not targeted"}
+  ]
+}

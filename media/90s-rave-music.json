@@ -1,0 +1,163 @@
+{
+  "page": "90s-rave-music.html",
+  "source": "Reduced FIGURES.md pass, 6 October 2026. Only the web-fetchable sources were run: the consensus lists (Bandcamp Daily deep cuts, Radio X best 90s rave tracks, Mixmag 20 best US rave anthems) and the originators (Wikipedia, 909originals, Music Week, Red Bull Music Academy Daily, legislation.gov.uk). Ahrefs matching terms, People Also Ask and the catalogue pass were not run (barred for this build). Every embed was checked by YouTube oEmbed on 2026-10-06.",
+  "required_records": [
+    {
+      "title": "LFO",
+      "artist": "LFO",
+      "year": 1990,
+      "why": "the bleep strand; Radio X list and 909originals",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "s-1Y2EqThyQ",
+      "oembed": "LFO - LFO (Official Video), Warp Records"
+    },
+    {
+      "title": "Charly",
+      "artist": "The Prodigy",
+      "year": 1991,
+      "why": "the toytown rave strand; Radio X list on The Prodigy, Music Week",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "cSTBFZ-To2E",
+      "oembed": "The Prodigy - Charly (Official Video), The Prodigy"
+    },
+    {
+      "title": "We Are I.E.",
+      "artist": "Lennie De Ice",
+      "year": 1991,
+      "why": "the early jungle roots strand",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "_gx7Uv3sl5A",
+      "oembed": "We Are I.E. (Original Extended Edit), Lennie De Ice - Topic"
+    },
+    {
+      "title": "Mentasm",
+      "artist": "Second Phase",
+      "year": 1991,
+      "why": "the Belgian and New York techno strand; Red Bull Music Academy Daily",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "IHKYX9ETwUg",
+      "oembed": "Second Phase - Mentasm, R&S Records"
+    },
+    {
+      "title": "Anasthasia",
+      "artist": "T99",
+      "year": 1991,
+      "why": "the second Belgian record, a UK number 13",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "5UaMBZQW50Q",
+      "oembed": "Anasthasia, T99 - Topic"
+    },
+    {
+      "title": "Poing",
+      "artist": "Rotterdam Termination Source",
+      "year": 1992,
+      "why": "the gabber strand",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "lQ6jZgMaZk4",
+      "oembed": "Rotterdam Termination Source - Poing, TheRotterdamRecords"
+    },
+    {
+      "title": "Energy Flash",
+      "artist": "Joey Beltram",
+      "year": 1990,
+      "why": "the American rave anthems strand; opening entry of Mixmag's list",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "BDj73pGQ6pE",
+      "oembed": "Energy Flash, Joey Beltram - Topic; description 'Provided to YouTube by R&S Records', Beltram, Vol. 1, released 1990; 5:51. Independent review 2026-10-06."
+    }
+  ],
+  "figures": [
+    {
+      "name": "Gez Varley and Mark Bell",
+      "for": "LFO, named with the record",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Shut Up and Dance (PJ Johnson, Smiley Hyman)",
+      "for": "Raving I'm Raving, text only, no player",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Mundo Muzique and Joey Beltram",
+      "for": "Second Phase, Mentasm",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Paul Elstak",
+      "for": "Rotterdam Records founder, 1992",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Spiral Tribe",
+      "for": "Castlemorton sound system",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "name": "Liam Howlett",
+      "for": "Jilted Generation, with his later denial that it was political",
+      "sources": [
+        "originators"
+      ]
+    }
+  ],
+  "rejects": [
+    {
+      "name": "Shut Up and Dance, Raving I'm Raving",
+      "why": "the only YouTube copies found were fan uploads or a Topic upload of a remix; no embed shipped, and the text says so"
+    },
+    {
+      "name": "Fan uploads of We Are I.E., Anasthasia and Poing",
+      "why": "the Topic or label channel was used instead"
+    },
+    {
+      "name": "SL2, On A Ragga Tip; The Prodigy, Their Law",
+      "why": "no official upload verified; named in text only (Their Law) or not at all"
+    },
+    {
+      "name": "Shut Up and Dance, Raving I'm Raving",
+      "why": "independent review 2026-10-06 searched YouTube again: only fan or reupload channels (nightmaresonwax1, LONDON GROOVE); no label upload; still no embed"
+    }
+  ],
+  "images": [
+    {
+      "file": "img/90s-rave-music/criminal-justice-bill-march-1994-800.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Criminal_Justice_Bill_March_July_1994.jpg",
+      "author": "Altlondon",
+      "licence": "CC BY-SA 3.0",
+      "note": "downloaded 2026-10-06, 800x600 original (no upscaling), webp plus a 320 variant; used by no other guide"
+    },
+    {
+      "file": "not used",
+      "source": "File:Ultim8 rave flyer, Knighton, September 25th 1992 (front).jpg",
+      "licence": "CC BY-SA 4.0",
+      "note": "downloaded, reviewed and dropped: an illustration with no event information; files deleted"
+    }
+  ],
+  "review_note": "Independent review 2026-10-06: channel and description of every embed re-read from YouTube (We Are I.E. is a 2022 Hooj Choons Topic release; Anasthasia is the 2013 Sound of Belgium compilation Topic upload)."
+}

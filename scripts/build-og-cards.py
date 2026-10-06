@@ -57,6 +57,7 @@ FONTS = {
 # The hero each card carries. Kept here rather than in pages.mjs because it is
 # only ever the card's business; the page picks its own in-article images.
 HERO = {
+    "90s-rave-music": "img/90s-rave-music/criminal-justice-bill-march-1994-800.webp",
     "home": "img/thecatrave-home-1200.webp",
     "breakbeat": "img/breakbeat/plump-djs-electric-disco.png",
     "jungle": "img/UK Rave flyers from 1991-1994.webp",

@@ -442,6 +442,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Close-up of a Roland TB-303 Bass Line panel'
   },
   {
+    page:'90s-rave-music.html', released:'2026-10-06T12:00:00+03:00', category:'music-history', tags:['history','uk','nineties','techno'], href:'/90s-rave-music', type:'Guide', topic:'90s rave music',
+    title:'90s Rave Music: The Records, Scenes and Laws That Shaped It',
+    description:'British hardcore, Belgian techno, Dutch gabber and the law that went after repetitive beats, with a record to hear for each.',
+    image:'img/90s-rave-music/criminal-justice-bill-march-1994-320.webp',
+    srcset:'img/90s-rave-music/criminal-justice-bill-march-1994-320.webp 320w,img/90s-rave-music/criminal-justice-bill-march-1994-800.webp 800w',
+    width:800, height:600, alt:'A dense crowd in Trafalgar Square with banners during the march against the Criminal Justice Bill, July 1994'
+  },
+  {
     page:'trance-guide.html', category:'music-history', tags:['history','trance','psytrance'], href:'/trance-guide', type:'Guide', topic:'Trance',
     title:'What Is Trance Music? Origins, Artists and Sound',
     description:'A build, a breakdown and a drop, born in Frankfurt\'s clubs. Who built it, how Armin van Buuren and Tiësto took it to festival mainstages, and how psytrance split off.',

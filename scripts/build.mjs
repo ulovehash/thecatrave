@@ -47,6 +47,7 @@ export const generators = [
   'build-best-trance-tracks-article.mjs',
   'build-best-house-music-playlists-spotify-article.mjs',
   'build-acid-house-article.mjs',
+  'build-90s-rave-music-article.mjs',
   'build-trance-article.mjs',
   'build-hardstyle-article.mjs',
   'build-movement-detroit-article.mjs',

@@ -1035,6 +1035,61 @@
         "file": "home-articles.mjs",
         "contains": "tags:['trance','history'], href:'/best-trance-tracks'"
       }
+    },
+    {
+      "id": "90s-rave-mixmag-list-misstated",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "90s-rave-music draft stated the Mixmag US rave anthems list runs 1990 to 1997, credited The Seawolf to Underground Resistance, gave a byline and date, and linked a guessed URL that returned 404. A search of mixmag.net showed the list runs to 1999 (Jaguar), credits The Seawolf to Jeff Mills, and lives at /feature/20-best-us-rave-anthems-90s. Byline and date were dropped as unverified.",
+      "should_have_caught": "details from an earlier fetch summary were written into copy and the URL was guessed rather than opened",
+      "fix": {
+        "file": "90s-rave-music-draft.md",
+        "contains": "runs from 1990 to 1999"
+      }
+    },
+    {
+      "id": "faq-markdown-italics-in-schema",
+      "found": "2026-10-06",
+      "by": "audit",
+      "what": "90s-rave-music draft FAQ answer carried *Music for the Jilted Generation* in markdown italics. articleFaq renders the asterisks as emphasis but faqStructuredData emits them literally, so the FAQPage schema differed from the visible answer and audit-site-components faqStructuredDataMatchesVisibleContent failed. Fixed in 90s-rave-music-draft.md by writing the title plain in FAQ answers.",
+      "should_have_caught": "FAQ answers are shared between visible HTML and JSON-LD, so no inline markdown may appear in them; nothing in the workflow said so",
+      "fix": {
+        "file": "90s-rave-music-draft.md",
+        "contains": "and Music for the Jilted Generation (1994) was made"
+      }
+    },
+    {
+      "id": "90s-rave-s63-misdescribed",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "section 63 text on legislation.gov.uk (/section/63/enacted, opened 2026-10-06): as enacted it applies to open-air gatherings of 100 or more persons with amplified music at night likely to cause serious distress to locals, and the 'music' wording says 'includes', not 'defined'. The draft said the 1994 threshold was unchecked, called repetitive beats a definition and left out the loudness and distress conditions. The threshold became 20 for England and Wales through the Anti-social Behaviour Act 2003 s.58(2), in force 20 January 2004.",
+      "should_have_caught": "a legal claim was written from a summary of the current text, and the page admitted not having checked 1994 instead of opening the enacted version, which is one URL",
+      "fix": {
+        "file": "90s-rave-music-draft.md",
+        "contains": "100 or more people"
+      }
+    },
+    {
+      "id": "90s-rave-unsupported-claims",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "In 90s-rave-music-draft.md: 'The Sun, which had run scare stories about free parties that spring' (909originals says tabloids portrayed Castlemorton as a travellers' problem, and that The Sun covered a Fantazia rave positively that summer; it does not say The Sun ran scare stories); LFO 'a defining record of the Sheffield bleep scene' (no source says so; it was made in Leeds); Anasthasia 'UK number 13' (Wikipedia text and 909originals say 13 and 14 respectively in different places, so the position is contested); The Prodigy's 'Charly' called 'first single' in the embed card (their first release was the What Evil Lurks EP, February 1991); Mentasm quote paraphrased as 'wanted to use a useless sound' (the RBMA quote is about people not understanding why Roland included a 'stupid' sound); the Reynolds claim attributed the late 1992 split into darkcore, hardcore jungle and happy hardcore to Energy Flash, but that wording is Wikipedia's, and only the 1993 'darkside' and the 1994 happy hardcore scene are Reynolds's.",
+      "should_have_caught": "claims were carried from fetch summaries into copy without reopening the source page",
+      "fix": {
+        "file": "90s-rave-music-draft.md",
+        "contains": "Reynolds, in Energy Flash (1998), writes"
+      }
+    },
+    {
+      "id": "90s-rave-own-track-caption-reverted",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "The editorial review of 90s-rave-music said the Berlin Race 1909 caption was changed from 'Another break from the 90s' to 'Another artist break', but build-90s-rave-music-article.mjs still carried 'Another break from the 90s, and not one of its records', which reads as a period claim. The review recorded an edit that was not in the builder.",
+      "should_have_caught": "a before/after pair was written into the review from memory, not from the built page",
+      "fix": {
+        "file": "build-90s-rave-music-article.mjs",
+        "contains": "Also not a 90s record"
+      }
     }
   ]
 }
