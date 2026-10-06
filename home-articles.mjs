@@ -967,6 +967,14 @@ export const germanArticleCatalog = [
     width:1200, height:800, alt:'Der Eingang des Berghain in Berlin'
   },
   {
+    page:'de/berghain.html', released:'2026-10-06T12:00:00+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/berghain', type:'Guide', topic:'Berghain',
+    title:'Berghain: Panorama Bar, Sound und Resident-DJs',
+    description:'Das Berghain erklärt: das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine am Berghain und das Label Ostgut Ton.',
+    image:'img/berghain/berghain-facade-320.webp',
+    srcset:'img/berghain/berghain-facade-320.webp 320w,img/berghain/berghain-facade-1200.webp 1200w',
+    width:1200, height:900, alt:'Die graue neoklassizistische Fassade des Berghain-Gebäudes in Berlin, mit einigen Menschen am Eingang'
+  },
+  {
     page:'de/clubs-paris.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/de/clubs-paris', type:'Guide', topic:'Clubs in Paris',
     title:'Die besten Clubs in Paris: Von Le Palace bis zum Rex Club',
     description:"Le Palace, Les Bains Douches und der Rex Club: die Clubs, die Paris' Nachtleben geprägt haben, wie jeder berühmt wurde, und die besten Clubs in Paris heute.",
@@ -1246,6 +1254,14 @@ export const frenchArticleCatalog = [
     image:'img/london-clubs/fabric-320.webp',
     srcset:'img/london-clubs/fabric-320.webp 320w,img/london-clubs/fabric-1200.webp 1200w',
     width:1200, height:810, alt:"L'entrée de fabric sur Charterhouse Street, Londres"
+  },
+  {
+    page:'fr/berghain.html', released:'2026-10-06T12:00:00+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/fr/berghain', type:'Guide', topic:'Berghain',
+    title:'Berghain : Panorama Bar, son et DJ résidents',
+    description:'Le Berghain expliqué : l’ancienne centrale, le Panorama Bar à l’étage, la Halle am Berghain, la Kantine et le label Ostgut Ton.',
+    image:'img/berghain/berghain-facade-320.webp',
+    srcset:'img/berghain/berghain-facade-320.webp 320w,img/berghain/berghain-facade-1200.webp 1200w',
+    width:1200, height:900, alt:'La façade grise néoclassique du bâtiment du Berghain à Berlin, avec quelques personnes à l’entrée'
   },
   {
     page:'fr/boite-de-nuit-paris.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-paris', type:'Guide', topic:'Boite de nuit Paris',

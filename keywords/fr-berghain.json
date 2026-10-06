@@ -1,0 +1,55 @@
+{
+  "page": "fr/berghain.html",
+  "seed": "berghain",
+  "source": "free live Bing fr-FR SERP qualification (results, related searches, image tags), 6 October 2026, plus the measured French pull in keywords/fr-berlin-clubs.json (Ahrefs, 2026-09-18). No new volume requested.",
+  "terms": [
+    {
+      "term": "berghain berlin",
+      "volume": 1900,
+      "note": "measured 2026-09-18 (fr-berlin-clubs.json); the page's head term, as the bare 'berghain' is a brand query"
+    },
+    {
+      "term": "berghain",
+      "volume": "not measured",
+      "note": "Bing fr-FR knowledge panel 'Club techno berlinois'; fr.wikipedia and berghain.berlin lead"
+    },
+    {
+      "term": "panorama bar",
+      "volume": "not measured",
+      "note": "image tag; its own section"
+    }
+  ],
+  "expansion_checked": "Free live SERP only, 6 October 2026. The English page's own map is keywords/berghain.json. Paid expansion deferred.",
+  "rejected": [
+    {
+      "term": "berghain conseils d'entrée",
+      "volume": "not measured",
+      "why": "door advice, owned by /fr/boite-de-nuit-berlin"
+    },
+    {
+      "term": "berghain videur",
+      "volume": 150,
+      "why": "measured 2026-09-18; the door, owned by /fr/boite-de-nuit-berlin"
+    },
+    {
+      "term": "berghain intérieur",
+      "volume": "not measured",
+      "why": "asks for photographs of the interior; the club allows none"
+    },
+    {
+      "term": "berghain cervejaria",
+      "volume": "not measured",
+      "why": "collision: a Portuguese brewery"
+    },
+    {
+      "term": "berghain programmation",
+      "volume": "not measured",
+      "why": "Bing related search only; unnatural French order, covered by the lineup section"
+    },
+    {
+      "term": "berghain horaires",
+      "volume": "not measured",
+      "why": "Bing related search only; the hours section answers it as 'horaires du Berghain'"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "page": "de/berghain.html",
+  "seed": "berghain",
+  "source": "free live Bing de-DE SERP qualification (results, related searches, image-search tags), 6 October 2026, plus the existing measured German pull in keywords/de-berlin-clubs.json (Ahrefs, 2026-09-18). No new volume requested.",
+  "terms": [
+    {"term": "berghain", "volume": 59000, "note": "measured 2026-09-18 (de-berlin-clubs.json); navigational. Bing de-DE: berghain.berlin, de.wikipedia and berlinguide.de lead. The page's head term"},
+    {"term": "berghain berlin", "volume": 19000, "note": "measured 2026-09-18; the title and answer name the club in Berlin"},
+    {"term": "berghain line up", "volume": "not measured", "note": "Bing image-search tag 'Line Up'; the lineup section and its table"},
+    {"term": "berghain sound", "volume": "not measured", "note": "Bing tag 'Sound'; the sound section and the Funktion-One facts"},
+    {"term": "panorama bar", "volume": "not measured", "note": "first line of the Bing title; its own section"},
+    {"term": "berghain kantine", "volume": "not measured", "note": "its own section"},
+    {"term": "berghain öffnungszeiten", "volume": "not measured", "note": "the hours section; the page states the club publishes no closing time"}
+  ],
+  "expansion_checked": "Free live SERP only, 6 October 2026. The English page's own map is keywords/berghain.json (Keyword Planner ranges). Paid expansion deferred.",
+  "rejected": [
+    {"term": "berghain türsteher", "volume": 3100, "why": "owned by /de/clubs-berlin (door section); the English Berghain page does not claim it either"},
+    {"term": "berghain outfit", "volume": 1900, "why": "the page states the club publishes no dress code; the outfit cluster is not answered and stays with /de/clubs-berlin"},
+    {"term": "berghain von innen", "volume": 3000, "why": "asks for photographs of the interior; the club allows none and the page does not claim it"},
+    {"term": "wie kommt man ins berghain", "volume": "not measured", "why": "door advice, owned by /de/clubs-berlin"},
+    {"term": "berghain cervejaria", "volume": "not measured", "why": "collision: a Portuguese brewery"}
+  ]
+}
