@@ -34,10 +34,10 @@ For a new article or major rewrite, begin with `ARTICLE-PRODUCTION-WORKFLOW.md`,
 ### Article navigation and identity
 
 - `articleHero({kicker, title, deck, readingTime, dateModified, dateLabel, summaryHtml, tocItems})`: compact shared article hero with one H1, visible metadata, deck, optional direct answer and contents.
-- `articleSection({id, title, bodyHtml, kicker, className})`: semantic section wrapper that preserves the shared width, heading and spacing system.
+- `articleSection({id, title, bodyHtml, kicker, className})`: semantic section wrapper that preserves the shared width, heading and spacing system. When its heading names a current venue registered in `club-guide-directory.mjs`, it places a visible planning block directly below the heading with Google Maps, live Resident Advisor listings, official local transport and the current-entry reminder. FAQ sections are excluded so planning links never alter FAQ answers or structured data.
 - `articleTableOfContents({items, title})`: the shared one-column article contents block. Each item accepts `id` and `label`, or an explicit `href` and `label`.
 - `articleFigure({src, srcset, sizes, width, height, alt, caption, className})`: responsive image and caption wrapper. Supply intrinsic dimensions for every raster image.
-- `articleTable({headers, rows, className})`: shared accessible, horizontally scrollable table wrapper with consistent row hover.
+- `articleTable({headers, rows, className})`: shared accessible, horizontally scrollable table wrapper with consistent row hover. When a `Club` column contains a venue registered in `club-guide-directory.mjs`, the component adds compact Google Maps, live Resident Advisor city-calendar and official transport-home links, a current-information reminder and a visible planning-link check date. Labels localise through `i18n.mjs`; page generators continue to own the editorial venue facts.
 - `articleFaq({items, title, id, openFirst})`: shared FAQ section; questions are plain text and answers are approved HTML.
 - `articleSources({bodyHtml, title, id})`: shared compact Sources section.
 - `authorCard({filled})`: standard author block with the responsive thecatrave portrait, biography and platform links.

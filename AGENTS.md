@@ -140,6 +140,25 @@ Do not add a section merely because competitors have one. It must close a reader
 - Treat the Bandcamp CTA as a supporting subsection, normally with an H3 rather than introducing a new top-level editorial chapter. Use a direct button label such as `SUPPORT` when approved.
 - `Read Next` belongs in the article flow, not mixed into the footer.
 
+### Club-guide venue information
+
+Every city, country, continent, worldwide or thematic club roundup must give readers the same practical information for every recommended club. Each venue entry must cover, where applicable and verifiable:
+
+1. music and programming;
+2. atmosphere and typical crowd;
+3. neighbourhood, usual opening nights and a direct Google Maps link;
+4. typical entry price, queues and door policy;
+5. dress guidance and age restrictions;
+6. a direct Resident Advisor venue or event link for upcoming listings, or the club's official events page when Resident Advisor has no useful listing;
+7. safety, accessibility and realistic late-night transport information, with an official local transport link when useful;
+8. a concise editorial verdict explaining whether the venue is locally credible, visitor-friendly, tourist-famous or mainly tourist-oriented, supported by evidence rather than review scores alone.
+
+- Keep the presentation compact and consistent across all venues in the article; do not make readers hunt through unrelated prose for these facts.
+- Link to the club's official website or official social account for current hours, tickets, door rules and last-minute changes. Google Maps is for location and directions; Resident Advisor venue pages or live city calendars are for electronic-music lineups and events.
+- Add a visible `Last checked` date for changeable venue information. Label prices and opening patterns as typical rather than guaranteed, and do not reproduce stale event listings as evergreen copy.
+- Never invent an accessibility, safety, crowd or door-policy claim. State `not confirmed` or omit the detail when reliable current evidence is unavailable.
+- Apply this rule to English articles and their German and French translations. Translated venue facts and links must remain equivalent to the approved English source.
+
 ## 6. Listening examples and embeds
 
 - When a specific track is named as an example, embed the exact track directly in the article whenever a reliable embed exists.

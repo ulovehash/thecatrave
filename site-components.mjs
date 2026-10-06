@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 import { t, defaultLang, locales } from './i18n.mjs';
+import { clubGuideChecked, clubGuideLinksFor } from './club-guide-directory.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;')
@@ -365,9 +366,28 @@ export function articleHero({kicker, title, deck, readingTime, dateModified, dat
   return `<header class="article-hero"><div class="article-masthead"><p class="article-kicker">${escapeHtml(kicker)}</p><h1>${escapeHtml(title)}</h1>${meta}</div><p class="subtitle article-deck">${escapeHtml(deck)}</p>${summaryHtml}${tocItems.length ? articleTableOfContents({items:tocItems, lang}) : ''}</header>`;
 }
 
+function clubVenuePlanningHtml(venue) {
+  const venueLocation = venue
+    ? (venue.venue.toLocaleLowerCase('en').includes(venue.place.toLocaleLowerCase('en')) ? venue.venue : `${venue.venue}, ${venue.place}`)
+    : '';
+  const transit = venue?.transitUrl
+    ? `<div><dt data-club-i18n="transportLabel">Getting home</dt><dd><a href="${escapeHtml(venue.transitUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="transport">Transport home</a></dd></div>`
+    : '';
+  const venuePlanning = venue
+    ? `<aside class="club-venue-planning" aria-label="Plan your visit"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div><div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>${transit}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
+    : '';
+  return venuePlanning;
+}
+
 export function articleSection({id = '', title, bodyHtml = '', kicker = '', className = ''} = {}) {
   const classes = ['floating-block', 'article-section', className].filter(Boolean).join(' ');
-  return `<section class="${classes}"${id ? ` id="${escapeHtml(id)}"` : ''}>${kicker ? `<p class="era-years">${escapeHtml(kicker)}</p>` : ''}<h2>${escapeHtml(title)}</h2>${bodyHtml}</section>`;
+  const venue = className.includes('faq-section') ? null : clubGuideLinksFor(title);
+  const venuePlanning = clubVenuePlanningHtml(venue);
+  const bodyWithPlanning = !venuePlanning ? bodyHtml
+    : bodyHtml.trimStart().startsWith('<p>')
+      ? `${venuePlanning}${bodyHtml}`
+      : `${bodyHtml}${venuePlanning}`;
+  return `<section class="${classes}"${id ? ` id="${escapeHtml(id)}"` : ''}>${kicker ? `<p class="era-years">${escapeHtml(kicker)}</p>` : ''}<h2>${escapeHtml(title)}</h2>${bodyWithPlanning}</section>`;
 }
 
 export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) calc(100vw - 32px), 640px', width, height, alt, caption = '', className = '', loading = 'lazy'} = {}) {
@@ -381,11 +401,43 @@ export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) cal
 export function articleTable({headers = [], rows = [], className = '', label = ''} = {}) {
   const classes = ['genre-table', className].filter(Boolean).join(' ');
   const head = headers.map(cell => `<th scope="col">${cell}</th>`).join('');
-  const body = rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('');
+  const clubColumn = headers.findIndex(cell => ['club', 'boîte'].includes(String(cell).replace(/<[^>]+>/g, '').trim().toLocaleLowerCase('fr')));
+  let linkedRows = 0;
+  const body = rows.map(row => {
+    const cells = [...row];
+    if (clubColumn >= 0) {
+      const links = clubGuideLinksFor(cells[clubColumn]);
+      if (links) {
+        linkedRows += 1;
+        const transit = links.transitUrl
+          ? `<a href="${escapeHtml(links.transitUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="transport">${escapeHtml(links.transitLabel || 'Transport')}</a>`
+          : '';
+        cells[clubColumn] = `<strong class="club-guide-name">${cells[clubColumn]}</strong><span class="club-guide-links"><a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a><a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a>${transit}</span><small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
+      }
+    }
+    return `<tr>${cells.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
+  }).join('');
   // The scrollable region needs a unique accessible name when a page has several
   // tables; derive one from the column headers unless the caller supplies a label.
   const name = label || `${headers.map(cell => String(cell).replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(', ')} table`;
-  return `<div class="genre-table-wrap" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  const checked = linkedRows ? `<p class="club-guide-checked"><span data-club-i18n="checked">Planning links checked</span> <time datetime="${clubGuideChecked}">${clubGuideChecked}</time>.</p>` : '';
+  return `<div class="genre-table-wrap${linkedRows ? ' club-guide-table-wrap' : ''}" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>${checked}</div>`;
+}
+
+function localizeClubGuideHtml(html, lang) {
+  const copy = t(lang);
+  const labels = {
+    maps: copy.clubMaps,
+    events: copy.clubEvents,
+    transport: copy.clubTransport,
+    locationLabel: copy.clubLocationLabel,
+    eventsLabel: copy.clubEventsLabel,
+    transportLabel: copy.clubTransportLabel,
+    check: copy.clubCheck,
+    checked: copy.clubLinksChecked
+  };
+  return html.replace(/(<(?:a|small|span|dt)\b[^>]*data-club-i18n="([a-zA-Z]+)"[^>]*>)(.*?)(<\/(?:a|small|span|dt)>)/g,
+    (match, open, key, value, close) => labels[key] ? `${open}${escapeHtml(labels[key])}${close}` : match);
 }
 
 export function articleFaq({items = [], lang = defaultLang, title = t(lang).faqTitle, id = 'faq', openFirst = true} = {}) {
@@ -415,6 +467,12 @@ function bandcampExperimentBootstrap() {
 
 export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article', lang = defaultLang, alternates = []} = {}) {
   requireFields('articlePage', {title,description,canonical,ogImage,articleHtml});
+  const pageVenue = clubGuideLinksFor(title);
+  if (pageVenue && !articleHtml.includes('class="club-venue-planning"')) {
+    const planning = clubVenuePlanningHtml(pageVenue);
+    articleHtml = articleHtml.replace(/(<section class="[^"]*article-section[^"]*"[^>]*>(?:<p class="era-years">.*?<\/p>)?<h2>.*?<\/h2>)/, `$1${planning}`);
+  }
+  articleHtml = localizeClubGuideHtml(articleHtml, lang);
   const copy = t(lang);
   const inSubdirectory = new URL(canonical).pathname.replace(/^\/|\/$/g, '').includes('/');
   const hreflang = alternates.length
