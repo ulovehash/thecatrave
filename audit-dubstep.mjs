@@ -69,7 +69,7 @@ check('Essential listening blocks present', (html.match(/Essential listening/g) 
 check('Essential listening is full bleed', html.includes('context-listening context-listening-full'));
 check('Essential listening uses the dated collection', (html.match(/class="context-track-list"/g) || []).length >= 5);
 check('Mixed listening players', html.includes('open.spotify.com/embed/track/') && html.includes('class="track-embed youtube-embed"'));
-check('Two Bandcamp tracks', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 2);
+check('One Bandcamp track', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 1);
 
 check('In-body link to bass music guide', /<a href="\/bass-music-guide">/.test(html));
 check('In-body link to jungle guide', /<a href="\/jungle-music-guide">/.test(html));

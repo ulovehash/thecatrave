@@ -38,7 +38,7 @@ const checks = {
   breadcrumbStructuredData: schemas.some(schema => schema['@type'] === 'BreadcrumbList'),
   openGraphDates: html.includes('article:published_time" content="2025-04-04"') && html.includes('article:modified_time" content="2026-09-17"'),
   fullBleedBandcamp: html.includes('class="floating-inset article-cta article-cta-full"'),
-  relevantBandcampPlayers: (html.match(/class="bandcamp-embed"/g) || []).length === 2 && html.includes('track=3822639635') && html.includes('track=3192532299'),
+  relevantBandcampPlayers: (html.match(/class="bandcamp-embed"/g) || []).length === 1 && html.includes('track=3822639635'),
   linksToJungleArticle: html.includes('href="/jungle-music-guide"'),
 };
 

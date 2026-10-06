@@ -25,10 +25,9 @@ export const strings = [
   ['thecatrave sitting with a small keyboard in warm orange light', 'thecatrave mit einem kleinen Keyboard in warmem orangem Licht'],
 
   // 01 Bandcamp
-  ['Support me on Bandcamp.', 'Unterstütze mich auf Bandcamp.'],
-  ['Streaming is useful for discovery. If you want to support my work directly, buying a track on Bandcamp makes the biggest difference.',
-   'Streaming ist gut, um Neues zu entdecken. Wenn du meine Arbeit direkt unterstützen willst, macht ein auf Bandcamp gekaufter Track den größten Unterschied.'],
-  ['Visit my Bandcamp ↗', 'Zu meinem Bandcamp ↗'],
+  ['Check me on Bandcamp!', 'Hör mich auf Bandcamp an!'],
+  ['Your purchase supports me directly. Thanks!', 'Mit deinem Kauf unterstützt du mich direkt. Danke!'],
+  ['Browse all releases ↗', 'Alle Veröffentlichungen ansehen ↗'],
   ['Music by thecatrave on Bandcamp', 'Musik von thecatrave auf Bandcamp'],
   ['Mylène Farmer - Dégénération remix by thecatrave on Bandcamp', 'Mylène Farmer - Dégénération, Remix von thecatrave auf Bandcamp'],
   ['Mylène Farmer - Dégénération remix by thecatrave', 'Mylène Farmer - Dégénération, Remix von thecatrave'],

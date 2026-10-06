@@ -521,10 +521,15 @@ export function authorCard({filled = false, lang = defaultLang} = {}) {
 
 export function bandcampSupport({description, tracks = [], fullBleed = false, lang = defaultLang} = {}) {
   const copy = t(lang);
-  const classes = `floating-inset article-cta${fullBleed ? ' article-cta-full' : ''}${tracks.length ? '' : ' article-cta-solo'}`;
-  const copyInner = `<h3 id="bandcamp-support-title">${escapeHtml(copy.supportTitle)}</h3><p>${escapeHtml(description)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a>`;
-  const players = tracks.map(track => `<iframe class="bandcamp-embed" title="${escapeHtml(track.title)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(track.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(track.url)}">${escapeHtml(track.linkText)}</a></iframe>`).join('');
-  return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div>${players ? `<div class="article-cta-tracks">${players}</div>` : ''}</aside>`;
+  const featured = tracks[0];
+  const classes = `floating-inset article-cta${fullBleed ? ' article-cta-full' : ''}${featured ? '' : ' article-cta-solo'}`;
+  if (!featured) {
+    return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy"><h3 id="bandcamp-support-title">${escapeHtml(copy.supportHeadline)}</h3><p>${escapeHtml(copy.supportDescription)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportBrowse)}</a></div></aside>`;
+  }
+  const copyInner = `<h3 id="bandcamp-support-title">${escapeHtml(copy.supportHeadline)}</h3><p>${escapeHtml(copy.supportDescription)}</p>`;
+  const player = `<iframe class="bandcamp-embed" title="${escapeHtml(featured.linkText)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(featured.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(featured.url)}">${escapeHtml(featured.linkText)}</a></iframe>`;
+  const actions = `<div class="article-cta-actions"><a class="button primary" href="${escapeHtml(featured.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a><a class="article-cta-browse" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportBrowse)}</a></div>`;
+  return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div><div class="article-cta-tracks">${player}</div>${actions}</aside>`;
 }
 
 // Keep one Bandcamp block in the document: inline after useful article content

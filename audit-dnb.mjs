@@ -70,7 +70,7 @@ const listeningBlocks = (html.match(/Essential listening/g) || []).length;
 const datedCollections = (html.match(/class="context-track-list"/g) || []).length;
 check('Essential listening uses the dated collection', datedCollections === listeningBlocks - 1, `${datedCollections} dated of ${listeningBlocks} blocks`);
 check('Extended playlist present', html.includes('open.spotify.com/embed/playlist/'));
-check('Two Bandcamp tracks', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 2);
+check('One Bandcamp track', count(/bandcamp\.com\/EmbeddedPlayer\/track=/g) === 1);
 
 check('Read next dubstep', html.includes('href="/dubstep-guide"'));
 

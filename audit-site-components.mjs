@@ -10,6 +10,14 @@ import {rootRelativeAssets, analytics, articleFaq, articleFooter, articleListeni
 // weeks without any of these checks ever running against them.
 const pages = Object.fromEntries(manifest.map(page => [page.name, fs.readFileSync(page.file, 'utf8')]));
 const articlePages = guides.map(page => pages[page.name]);
+const bandcampPurchaseMatchesPlayer = html => {
+  const block = html.match(/<aside class="floating-inset article-cta article-cta-full"[^>]*>[\s\S]*?<\/aside>/)?.[0] || '';
+  const purchaseUrl = block.match(/<a class="button primary" href="([^"]+)"/)?.[1];
+  const playerUrl = block.match(/<iframe class="bandcamp-embed"[^>]*><a href="([^"]+)"/)?.[1];
+  return (block.match(/class="bandcamp-embed"/g) || []).length === 1
+    && Boolean(purchaseUrl && playerUrl && purchaseUrl === playerUrl)
+    && block.includes('class="article-cta-browse"');
+};
 // Guides paired with their manifest entry, for the checks that need to know
 // which route a page is supposed to be.
 const guidePages = guides.map(page => ({ ...page, html: pages[page.name] }));
@@ -261,6 +269,7 @@ const checks = {
   noDuplicateIds: articlePages.every(page => { const ids = idsOf(page); return new Set(ids).size === ids.length; }),
   localAssetsExist: articlePages.every(page => localAssetsOf(page).every(src => fs.existsSync(src))),
   articleSupportStripe: articlePages.every(page => page.includes('class="floating-inset article-cta article-cta-full"')),
+  oneBandcampReleaseWithDirectPurchase: articlePages.every(bandcampPurchaseMatchesPlayer),
   readNextPointsAtOtherGuides: guidePages.every(page =>
     guides.filter(other => other.name !== page.name && page.html.includes(`href="${other.path}"`)).length >= 3),
   headingHierarchyUnbroken: articlePages.every(page => {
