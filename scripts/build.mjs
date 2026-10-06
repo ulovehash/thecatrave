@@ -43,6 +43,7 @@ export const generators = [
   'build-best-techno-mixes-article.mjs',
   'build-best-dj-sets-of-all-time-article.mjs',
   'build-why-dj-mag-top-100-never-changes-article.mjs',
+  'build-best-techno-tracks-article.mjs',
   'build-best-house-music-playlists-spotify-article.mjs',
   'build-acid-house-article.mjs',
   'build-trance-article.mjs',

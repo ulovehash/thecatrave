@@ -68,6 +68,7 @@ HERO = {
     "how-to-find-new-music": "img/NOW-1024.webp",
     "best-dj-sets-of-all-time": "img/live-dj-sets/the-lot-radio-1200.webp",
     "why-dj-mag-top-100-never-changes": "img/live-dj-sets/the-lot-radio-1200.webp",
+    "best-techno-tracks": "img/best-techno-tracks/richie-hawtin-fabric-1200.webp",
     "best-boiler-room-sets": "img/boiler-room/carl-cox-1200.webp",
     "burning-man": "img/burning-man/robot-heart-1200.webp",
     "berlin-clubs": "img/berlin-clubs/berghain-1200.webp",

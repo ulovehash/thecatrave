@@ -2,6 +2,25 @@
   "note": "Every defect found in shipped work, what should have caught it, and what changed so it cannot happen again. audit-defects.mjs verifies the change is really in the file it claims, so a rule cannot be quietly removed and a fix cannot be claimed without being made. Open entries print on every build until they are closed.",
   "defects": [
     {
+      "id": "techno-tracks-unverified-list-counts-and-quotes",
+      "found": "2026-10-06",
+      "by": "independent reviewer",
+      "what": "best-techno-tracks counted tracks against four lists, but Klangspot could not be re-fetched. Re-fetching the other three showed Strings of Life on none, and the No UFO's, Energy Flash and The Bells counts had leaned on Klangspot. The page also gave sources wording they do not carry: 'blueprint for techno' (Attack), 'pivotal to dub techno' (RA), and a 1999 XLR8R review quote for Jaguar that could not be re-found. It also said the list was in release order when it was grouped by scene.",
+      "should_have_caught": "the claim ledger accepted a count from a source the author could not re-fetch and marked it medium instead of cutting it",
+      "fix": {
+        "file": "best-techno-tracks-draft.md",
+        "contains": "I read three published lists of techno tracks"
+      }
+    },
+    {
+      "id": "techno-mixes-card-caption-complete-sets",
+      "found": "2026-10-06",
+      "by": "agent",
+      "what": "pages.mjs gives best-techno-mixes the card caption 'Ten complete sets, from Detroit machine funk to hypnotic techno.' The word 'complete' on a set breaks the rule against emphasising that a DJ set is whole. Found while registering best-techno-tracks; not edited there because published copy is shown to the owner first.",
+      "should_have_caught": "the greps for complete/full/whole in ARTICLE-EDITORIAL-REVIEW.md section 0 cover the page text but not the card captions in pages.mjs",
+      "fix": null
+    },
+    {
       "id": "europe-guide-tbilisi-unsourced-claims",
       "found": "2026-10-05",
       "by": "agent",

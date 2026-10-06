@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "cd93dc7921a0d810",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "2a64e521ac8011a5",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/acid-house-guide": {
   "hash": "f7d889a5898420e4",
@@ -16,8 +16,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/articles": {
-  "hash": "7f9b17f0f341467e",
-  "lastmod": "2026-10-06T08:56:29+00:00"
+  "hash": "1cf0a3a3c462608d",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/awakenings-festival": {
   "hash": "03bc8cb8143aa33c",
@@ -108,8 +108,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/best-dj-sets-of-all-time": {
-  "hash": "c20f6449bc79744a",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "674bba534034d063",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/best-edm-festivals-usa": {
   "hash": "4c1187020db0d326",
@@ -140,8 +140,12 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/best-techno-mixes": {
-  "hash": "ecdc49e4dc6f87f1",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "40177f6d6236d02b",
+  "lastmod": "2026-10-06T12:32:25+00:00"
+ },
+ "/best-techno-tracks": {
+  "hash": "6c5f4e7cadea3460",
+  "lastmod": "2026-10-06T12:36:44+00:00"
  },
  "/best-winter-music-festivals": {
   "hash": "fe88851ac074387f",
@@ -156,8 +160,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/creamfields-festival": {
-  "hash": "111940a44d57cc0d",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "61bb3561c8266714",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/de/": {
   "hash": "6c80413d9071c55d",
@@ -204,8 +208,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/de/beste-techno-mixes": {
-  "hash": "f7f68574a0ac017f",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "de2961d1706ee8ad",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/de/boomtown-festival": {
   "hash": "8dae2b03b95e1bd3",
@@ -284,8 +288,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/de/creamfields-festival": {
-  "hash": "1d1b5683cf1b8ba8",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "7644b065968ab95f",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/de/deutsche-elektronische-musik": {
   "hash": "0bc756c7dd385650",
@@ -376,8 +380,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/de/sonar-festival-barcelona": {
-  "hash": "b3a1f96f0e9a549a",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "ccebe569313b9f1a",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/de/sziget-festival": {
   "hash": "b0abf6be8e1afae8",
@@ -456,8 +460,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/fr/articles": {
-  "hash": "8b2aa3022c16b365",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "e446e821e40ed1d2",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/fr/bass-music": {
   "hash": "332a038a47cb48e9",
@@ -556,8 +560,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/fr/festival-creamfields": {
-  "hash": "45afa3c9ef4b6773",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "e85d8a18ff9e3ed8",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/fr/festival-glastonbury": {
   "hash": "af92334ce69e2345",
@@ -620,8 +624,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/fr/meilleurs-mix-techno": {
-  "hash": "bbd81431fe7a2fa0",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "ef58e4cb48424c68",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/fr/meilleurs-sets-boiler-room": {
   "hash": "18def2548625a674",
@@ -664,8 +668,8 @@
   "lastmod": "2026-10-05T09:11:18+00:00"
  },
  "/fr/sonar-barcelone": {
-  "hash": "d034bd87c346fe7f",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "b18db820307cb079",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/fr/techno": {
   "hash": "7354e696bd038d63",
@@ -772,8 +776,8 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/sonar-festival-barcelona": {
-  "hash": "426246dbfd6568d3",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "f1f73bfa9ab5aba2",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  },
  "/sziget-festival": {
   "hash": "40d3351b62a1f3b0",
@@ -824,7 +828,7 @@
   "lastmod": "2026-10-06T11:45:04+00:00"
  },
  "/why-dj-mag-top-100-never-changes": {
-  "hash": "ab86ab9ffe966353",
-  "lastmod": "2026-10-06T11:45:04+00:00"
+  "hash": "716aa99854d543cd",
+  "lastmod": "2026-10-06T12:32:25+00:00"
  }
 }

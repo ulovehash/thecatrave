@@ -1,0 +1,147 @@
+{
+  "page": "best-techno-tracks.html",
+  "seed": "best techno tracks",
+  "source": "FIGURES.md adapted from people to tracks, 2026-10-06. S4 the consensus lists read: Time Out New York, Dummy (Benjamin Damage), Music Industry How To (Klangspot dropped in independent review: could not be re-fetched). Rule changed accordingly: a track named on none of the three lists is an editorial addition and says why. S5 per-track history: Attack Magazine, Roland, Red Bull Music Academy, The Vinyl Factory, Insomniac, XLR8R, Resident Advisor, and the artists' own Bandcamp pages. Rule: a track is required if two or more lists name it, or S5 describes it at length. Two editorial additions are marked.",
+  "required_records": [
+    {
+      "title": "No UFO's",
+      "artist": "Model 500",
+      "year": 1985,
+      "label": "Metroplex",
+      "named_on": 1,
+      "sources": [
+        "attack",
+        "musicindustryhowto"
+      ],
+      "embed": "spotify 0shMp9Vkjr8X77jQCWlaEP"
+    },
+    {
+      "title": "Strings of Life",
+      "artist": "Rhythim Is Rhythim",
+      "year": 1987,
+      "label": "Transmat",
+      "named_on": 0,
+      "sources": [
+        "roland",
+        "rbma",
+        "insomniac"
+      ],
+      "embed": "spotify 78ZQfXjoaHU2QjXqWpa8l9"
+    },
+    {
+      "title": "Energy Flash",
+      "artist": "Joey Beltram",
+      "year": 1990,
+      "label": "R&S Records",
+      "named_on": 2,
+      "sources": [
+        "attack",
+        "timeout",
+        "musicindustryhowto"
+      ],
+      "embed": "bandcamp 2779115416 (R&S remaster)"
+    },
+    {
+      "title": "Spastik",
+      "artist": "Plastikman",
+      "year": 1993,
+      "label": "Plus 8",
+      "named_on": 2,
+      "sources": [
+        "insomniac",
+        "dummy",
+        "musicindustryhowto"
+      ],
+      "embed": "bandcamp 2542530288 (Recycled Plastik album version, Bandcamp dates it 1994)"
+    },
+    {
+      "title": "The Bells",
+      "artist": "Jeff Mills",
+      "year": 1996,
+      "label": "Purpose Maker",
+      "named_on": 2,
+      "sources": [
+        "xlr8r",
+        "dummy",
+        "musicindustryhowto"
+      ],
+      "embed": "spotify 0ISxyAhfop0MoMeAUw72RN, artist Jeff Mills confirmed on the embed page"
+    },
+    {
+      "title": "Phylyps Trak",
+      "artist": "Basic Channel",
+      "year": 1993,
+      "label": "Basic Channel",
+      "named_on": 0,
+      "sources": [
+        "ra-rewind"
+      ],
+      "why": "editorial addition: dub techno has no record on the lists read",
+      "embed": "spotify 4KsL7ddeairY2OMs8OFRSR (2008 reissue)"
+    },
+    {
+      "title": "Subzero",
+      "artist": "Ben Klock",
+      "year": 2009,
+      "label": "Ostgut Ton",
+      "named_on": 1,
+      "sources": [
+        "klock-bandcamp",
+        "musicindustryhowto"
+      ],
+      "embed": "bandcamp 3711497848"
+    },
+    {
+      "title": "Jaguar",
+      "artist": "The Aztec Mystic",
+      "year": 1999,
+      "label": "Underground Resistance",
+      "named_on": 1,
+      "sources": [
+        "insomniac",
+        "musicindustryhowto"
+      ],
+      "embed": "soundcloud undergroundresistance/djrolandojaguar"
+    },
+    {
+      "title": "Doppler",
+      "artist": "Charlotte de Witte",
+      "year": 2021,
+      "label": "KNTXT",
+      "named_on": 0,
+      "sources": [
+        "de-witte-bandcamp"
+      ],
+      "why": "editorial addition: the one record from the last decade",
+      "embed": "soundcloud kntxtmusic/charlotte-de-witte-doppler"
+    }
+  ],
+  "optional_records": [
+    {
+      "title": "Blawan",
+      "why": "dropped on the coordinator's instruction"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "Jaguar month and catalogue number",
+      "why": "March 1999 and UR-049 appear only in search snippets; Discogs and RA returned 403. Year only is printed."
+    },
+    {
+      "title": "Mixmag and LA Weekly rankings of Spastik",
+      "why": "not verified, left out"
+    },
+    {
+      "title": "Spastik year",
+      "why": "Plus 8, 1993 per Insomniac; Bandcamp dates the album-version player to 1994"
+    },
+    {
+      "title": "Images",
+      "why": "Hawtin: Raminta Malinauskaite, CC BY-SA 3.0, Commons. De Witte: Alan Overbeek, CC BY-SA 4.0, Commons, undated. Neither used on any other page (grep checked)."
+    },
+    {
+      "title": "Jaguar description",
+      "why": "the XLR8R 1999 review wording could not be re-found; replaced by Insomniac's Latin-percussion description"
+    }
+  ]
+}
