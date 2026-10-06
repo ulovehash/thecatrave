@@ -72,6 +72,17 @@
     return 'content';
   };
 
+  const bandcampExperiment = () => {
+    const root = document.documentElement.dataset;
+    if (matchMedia('(max-width: 760px)').matches) {
+      return {banner_device: 'mobile', banner_variant: root.bandcampMobile || 'early'};
+    }
+    if (matchMedia('(min-width: 1360px) and (min-height: 700px)').matches) {
+      return {banner_device: 'desktop', banner_variant: root.bandcampDesktop || 'rail'};
+    }
+    return {banner_device: 'tablet', banner_variant: 'standard'};
+  };
+
   document.addEventListener('click', event => {
     const link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
     if (!link) return;
@@ -86,7 +97,12 @@
 
     const common = {from: location.pathname, placement: placement(link)};
     if (url.hostname === 'thecatrave.bandcamp.com') {
-      track('bandcamp_click', {...common, destination: url.pathname || '/'});
+      const inBanner = Boolean(link.closest('.article-cta'));
+      track('bandcamp_click', {
+        ...common,
+        destination: url.pathname || '/',
+        ...(inBanner ? {...bandcampExperiment(), banner_action: link.classList.contains('bandcamp-buy') ? 'direct_buy' : 'browse'} : {})
+      });
     } else if (url.hostname === 'soundcloud.com' && url.pathname.startsWith('/thecatrave')) {
       track('soundcloud_click', {...common, destination: url.pathname});
     } else if (url.hostname === 'open.spotify.com' && url.pathname.includes('0Enu90TUHq8MQBz5WO6Ki0')) {
@@ -114,12 +130,22 @@
         platform,
         player_title: frame.title || `${platform} player`,
         placement: placement(frame),
+        ...(frame.closest('.article-cta') ? bandcampExperiment() : {}),
         ...playerTrack(frame)
       });
     }, 0);
   });
 
   document.addEventListener('DOMContentLoaded', () => {
+    const banner = document.querySelector('.article-cta');
+    if (banner && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => {
+        if (!entries.some(entry => entry.isIntersecting && entry.intersectionRatio >= 0.5)) return;
+        observer.disconnect();
+        track('bandcamp_banner_view', {page: location.pathname, ...bandcampExperiment()});
+      }, {threshold: 0.5});
+      observer.observe(banner);
+    }
     const article = document.querySelector('.article-page:not(.selector-page) article');
     if (article) {
       let activeSeconds = 0;

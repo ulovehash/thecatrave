@@ -12,7 +12,7 @@ const pages = Object.fromEntries(manifest.map(page => [page.name, fs.readFileSyn
 const articlePages = guides.map(page => pages[page.name]);
 const bandcampPurchaseMatchesPlayer = html => {
   const block = html.match(/<aside class="floating-inset article-cta article-cta-full"[^>]*>[\s\S]*?<\/aside>/)?.[0] || '';
-  const purchaseUrl = block.match(/<a class="button primary" href="([^"]+)"/)?.[1];
+  const purchaseUrl = block.match(/<a class="button primary bandcamp-buy" href="([^"]+)"/)?.[1];
   const playerUrl = block.match(/<iframe class="bandcamp-embed"[^>]*><a href="([^"]+)"/)?.[1];
   return (block.match(/class="bandcamp-embed"/g) || []).length === 1
     && Boolean(purchaseUrl && playerUrl && purchaseUrl === playerUrl)
@@ -270,6 +270,20 @@ const checks = {
   localAssetsExist: articlePages.every(page => localAssetsOf(page).every(src => fs.existsSync(src))),
   articleSupportStripe: articlePages.every(page => page.includes('class="floating-inset article-cta article-cta-full"')),
   oneBandcampReleaseWithDirectPurchase: articlePages.every(bandcampPurchaseMatchesPlayer),
+  bandcampCatPressFeedback: articleCss.includes('.article-cta .bandcamp-buy::before')
+    && articleCss.includes('.article-cta .bandcamp-buy:active')
+    && articleCss.includes('.article-cta .bandcamp-buy[data-pressed]')
+    && articlePages.every(page => page.includes("button.dataset.pressed='';")),
+  bandcampExperimentVariants: articlePages.every(page => page.includes("root.dataset.bandcampDesktop=pick('tcr-bandcamp-desktop-v1'")
+    && page.includes("root.dataset.bandcampMobile=pick('tcr-bandcamp-mobile-v2'")
+    && page.includes('class="article-promo-midpoint"')
+    && page.includes("document.documentElement.dataset.bandcampMobile==='middle'"))
+    && articleCss.includes('html[data-bandcamp-desktop="inline"] .article-promo-layout'),
+  bandcampExperimentMeasurement: analyticsRuntime.includes("track('bandcamp_banner_view'")
+    && analyticsRuntime.includes('banner_variant: root.bandcampMobile')
+    && analyticsRuntime.includes('banner_variant: root.bandcampDesktop')
+    && analyticsRuntime.includes("banner_action: link.classList.contains('bandcamp-buy')")
+    && analyticsRuntime.includes("frame.closest('.article-cta') ? bandcampExperiment()"),
   readNextPointsAtOtherGuides: guidePages.every(page =>
     guides.filter(other => other.name !== page.name && page.html.includes(`href="${other.path}"`)).length >= 3),
   headingHierarchyUnbroken: articlePages.every(page => {

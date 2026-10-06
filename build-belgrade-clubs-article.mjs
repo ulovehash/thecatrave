@@ -152,7 +152,7 @@ const articleHtml = [
         {title: 'Protect Ya Breaks', id: '3822639635', url: 'https://thecatrave.bandcamp.com/track/protect-ya-breaks', linkText: 'Protect Ya Breaks by thecatrave'}
       ]
     }),
-    afterHtml: sectionHtml.slice(2).join('\n')
+    afterHtml: [...sectionHtml.slice(2, 4), '<span class="article-promo-midpoint" hidden></span>', ...sectionHtml.slice(4)].join('\n')
   }),
   articleFaq({items: faqItems, title: 'Belgrade clubs FAQ.', openFirst: true}),
   authorCard({filled: true}),

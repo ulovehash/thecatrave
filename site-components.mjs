@@ -190,6 +190,25 @@ function closingSectionEnd(html, start) {
   throw new Error('Unclosed article section in promo layout.');
 }
 
+function proseInsertionPoints(html, section) {
+  const stack = [];
+  const points = [];
+  const source = html.slice(section.start, section.end);
+  for (const match of source.matchAll(/<\/?([a-z][\w-]*)\b[^>]*>/gi)) {
+    const tag = match[1].toLowerCase();
+    if (match[0].startsWith('</')) {
+      if (stack.at(-1) === tag) stack.pop();
+      if (tag === 'p' && stack.length === 1 && stack[0] === 'section'
+        && /^\s*<(?:p|h3|h4|ul|ol|blockquote|\/section)\b/i.test(source.slice(match.index + match[0].length))) {
+        points.push(section.start + match.index + match[0].length);
+      }
+    } else if (!/^(?:br|hr|img|input|meta|link|source|wbr)$/.test(tag) && !match[0].endsWith('/>')) {
+      stack.push(tag);
+    }
+  }
+  return points;
+}
+
 function responsiveBandcampLayout(html) {
   if (html.includes('class="article-promo-layout"')) return html;
   const heroEnd = html.indexOf('</header>') + '</header>'.length;
@@ -209,10 +228,18 @@ function responsiveBandcampLayout(html) {
   const candidates = sections.slice(1, Math.min(sections.length, 3));
   const chosen = candidates.find(section => /<\/(?:p|ul|ol|blockquote)>\s*<\/section>$/.test(withoutPromo.slice(section.start, section.end))) || candidates.at(-1);
   const splitAt = chosen.end;
+  const middleCandidates = sections.filter(section => section.start >= splitAt
+    && !/\bid="(?:faq|sources)"/.test(withoutPromo.slice(section.start, section.start + 180)))
+    .flatMap(section => proseInsertionPoints(withoutPromo, section));
+  if (!middleCandidates.length) throw new Error('Article promo layout needs a safe prose break near the middle.');
+  const middleAt = middleCandidates.reduce((best, point) =>
+    Math.abs(point - (heroEnd + authorWithoutPromo) / 2) < Math.abs(best - (heroEnd + authorWithoutPromo) / 2) ? point : best);
   return withoutPromo.slice(0, heroEnd) + articlePromoLayout({
     beforeHtml: withoutPromo.slice(heroEnd, splitAt),
     promoHtml,
-    afterHtml: withoutPromo.slice(splitAt, authorWithoutPromo)
+    afterHtml: withoutPromo.slice(splitAt, middleAt)
+      + '<span class="article-promo-midpoint" hidden></span>'
+      + withoutPromo.slice(middleAt, authorWithoutPromo)
   }) + withoutPromo.slice(authorWithoutPromo);
 }
 
@@ -381,6 +408,11 @@ export function articleSources({bodyHtml, lang = defaultLang, title = t(lang).so
 // A page that does not sit at the site root (a German guide lives under /de/)
 // cannot keep the relative `img/...` and stylesheet paths the generators write,
 // so they are made root-relative here rather than in every caller.
+function bandcampExperimentBootstrap() {
+  // Keep one assignment per browser; storage failure preserves the existing layout.
+  return `<script>(function(){var root=document.documentElement;function pick(key,control,test,previewKey){var value=control;try{value=localStorage.getItem(key);if(value!==control&&value!==test){value=Math.random()<.5?control:test;localStorage.setItem(key,value)}}catch(e){value=control}if(location.hostname==='localhost'||location.hostname==='127.0.0.1'){var override=new URLSearchParams(location.search).get(previewKey);if(override===control||override===test)value=override}return value}root.dataset.bandcampDesktop=pick('tcr-bandcamp-desktop-v1','rail','inline','bc_desktop');root.dataset.bandcampMobile=pick('tcr-bandcamp-mobile-v2','early','middle','bc_mobile')})();<\/script>`;
+}
+
 export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article', lang = defaultLang, alternates = []} = {}) {
   requireFields('articlePage', {title,description,canonical,ogImage,articleHtml});
   const copy = t(lang);
@@ -401,8 +433,10 @@ export function articlePage({title, description, canonical, ogImage, datePublish
   const content = ogType === 'article' && !bodyClass.includes('selector-page')
     ? ensureOwnTrackInArticle(responsiveBandcampLayout(articleHtml), lang)
     : articleHtml;
+  const experiment = content.includes('class="floating-inset article-cta') ? bandcampExperimentBootstrap() : '';
   const html = `<!doctype html><html lang="${escapeHtml(copy.htmlLang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1eee7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${escapeHtml(canonical)}">${hreflang}<link rel="alternate" type="application/rss+xml" title="thecatrave RSS" href="https://thecatrave.com/feed.xml"><link rel="icon" type="image/png" sizes="192x192" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><meta property="og:type" content="${escapeHtml(ogType)}">${articleTimes}<meta property="og:site_name" content="thecatrave"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(canonical)}"><meta property="og:image" content="${escapeHtml(ogImage)}">${ogImageSize}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(ogImage)}"><link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"></noscript><link rel="stylesheet" href="thecatrave-home.css"><link rel="stylesheet" href="thecatrave-article.css">${schemas}${analytics()}</head><body class="${escapeHtml(bodyClass)}"><a class="skip-link" href="#main-content">${escapeHtml(copy.skipLink)}</a>${bodyClass.includes('selector-page') ? '' : selectorPromoBar(lang)}${siteHeader({variant:'article', lang, alternates})}<main id="main-content"><article>${content}</article></main>${articleFooter(lang)}</body></html>`;
-  return inSubdirectory ? rootRelativeAssets(html) : html;
+  const readyHtml = html.replace('<link rel="stylesheet" href="thecatrave-home.css">', `${experiment}<link rel="stylesheet" href="thecatrave-home.css">`);
+  return inSubdirectory ? rootRelativeAssets(readyHtml) : readyHtml;
 }
 
 export function articleStructuredData({headline, description, canonical, image, datePublished, dateModified, lang = defaultLang} = {}) {
@@ -541,16 +575,18 @@ export function bandcampSupport({description, tracks = [], fullBleed = false, la
     return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy"><h3 id="bandcamp-support-title">${escapeHtml(copy.supportHeadline)}</h3><p>${escapeHtml(copy.supportDescription)}</p><a class="button primary" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportBrowse)}</a></div></aside>`;
   }
   const copyInner = `<h3 id="bandcamp-support-title">${escapeHtml(copy.supportHeadline)}</h3><p>${escapeHtml(copy.supportDescription)}</p>`;
-  const player = `<iframe class="bandcamp-embed" title="${escapeHtml(featured.linkText)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(featured.id)}/size=large/bgcol=f1eee7/linkcol=ff5a36/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(featured.url)}">${escapeHtml(featured.linkText)}</a></iframe>`;
-  const actions = `<div class="article-cta-actions"><a class="button primary" href="${escapeHtml(featured.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a><a class="article-cta-browse" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportBrowse)}</a></div>`;
-  return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div><div class="article-cta-tracks">${player}</div>${actions}</aside>`;
+  const player = `<iframe class="bandcamp-embed" title="${escapeHtml(featured.linkText)} on Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=${escapeHtml(featured.id)}/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/" seamless loading="lazy"><a href="${escapeHtml(featured.url)}">${escapeHtml(featured.linkText)}</a></iframe>`;
+  const actions = `<div class="article-cta-actions"><a class="button primary bandcamp-buy" href="${escapeHtml(featured.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportButton)}</a><a class="article-cta-browse" href="${siteLinks.bandcamp}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.supportBrowse)}</a></div>`;
+  const pressFeedback = `<script>(()=>{const button=document.currentScript.closest('.article-cta').querySelector('.bandcamp-buy');button.addEventListener('click',()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;button.dataset.pressed='';setTimeout(()=>delete button.dataset.pressed,300)})})()<\/script>`;
+  return `<aside class="${classes}" aria-labelledby="bandcamp-support-title"><div class="article-cta-copy">${copyInner}</div><div class="article-cta-tracks">${player}</div>${actions}${pressFeedback}</aside>`;
 }
 
 // Keep one Bandcamp block in the document: inline after useful article content
 // on narrow screens, or in a compact sticky right rail when there is room.
 export function articlePromoLayout({beforeHtml, promoHtml, afterHtml} = {}) {
   requireFields('articlePromoLayout', {beforeHtml, promoHtml, afterHtml});
-  return `<div class="article-promo-layout"><div class="article-promo-before">${beforeHtml}</div><div class="article-promo-rail">${promoHtml}</div><div class="article-promo-after">${afterHtml}</div></div>`;
+  const placement = `<script>(()=>{const layout=document.currentScript.parentElement;const before=layout.querySelector('.article-promo-before');const rail=layout.querySelector('.article-promo-rail');const middle=layout.querySelector('.article-promo-midpoint');const mobile=matchMedia('(max-width: 760px)');function place(){if(mobile.matches&&document.documentElement.dataset.bandcampMobile==='middle')middle.after(rail);else before.after(rail)}place();mobile.addEventListener('change',place)})()<\/script>`;
+  return `<div class="article-promo-layout"><div class="article-promo-before">${beforeHtml}</div><div class="article-promo-rail">${promoHtml}</div><div class="article-promo-after">${afterHtml}</div>${placement}</div>`;
 }
 
 export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {

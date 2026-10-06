@@ -760,6 +760,16 @@
   box-sizing: border-box;
 }
 .article-cta-actions { grid-area: actions; display: flex; flex-direction: column; align-items: flex-start; gap: .9rem; }
+.article-cta .button.primary { background: var(--cyan); color: var(--ink); }
+.article-cta .bandcamp-buy {
+  gap: .65rem;
+  box-shadow: 6px 6px 0 var(--ink);
+  transition: transform 90ms cubic-bezier(.2, .8, .2, 1), box-shadow 90ms cubic-bezier(.2, .8, .2, 1);
+}
+.article-cta .bandcamp-buy:hover { transform: translate(-1px, -1px); box-shadow: 8px 8px 0 var(--ink); }
+.article-cta .bandcamp-buy:focus-visible { outline: 3px solid var(--ink); outline-offset: 9px; }
+.article-cta .bandcamp-buy:active { transform: translate(6px, 6px); box-shadow: 0 0 0 var(--ink); transition-duration: 40ms; }
+.article-cta .bandcamp-buy[data-pressed] { animation: sel-kick 300ms cubic-bezier(.2, .8, .2, 1); }
 .article-cta-browse { color: var(--ink); font: 700 .78rem "Space Mono", monospace; text-underline-offset: .2em; }
 .article-cta-browse:hover, .article-cta-browse:focus-visible { text-decoration-thickness: 2px; }
 .article-cta-full {
@@ -837,6 +847,23 @@
   .article-promo-rail .article-cta p { margin-bottom: .85rem; font-size: .88rem; }
   .article-promo-rail .article-cta-tracks { margin-top: 1rem; gap: .6rem; }
   .article-promo-rail .article-cta-actions { margin-top: 1rem; }
+  html[data-bandcamp-desktop="inline"] .article-promo-layout { display: block; }
+  html[data-bandcamp-desktop="inline"] .article-promo-rail { padding: 0; }
+  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-full {
+    position: static;
+    display: grid;
+    grid-template-columns: minmax(240px, 360px) minmax(0, 680px);
+    grid-template-areas: "copy player" "actions player";
+    width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide));
+    max-height: none;
+    margin: 0 auto var(--section-space);
+    padding: clamp(1.35rem, 2.5vw, 2rem);
+    overflow: hidden;
+    transform: none;
+    border: 1px solid var(--ink);
+  }
+  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-tracks,
+  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-actions { margin-top: 0; }
 }
 .sources-section { padding-bottom: clamp(2.25rem, 4vw, 3.25rem); }
 .read-next,
@@ -1271,7 +1298,8 @@
    the art inherits the button's own colour in every state, and so the runtime
    can keep setting the label with textContent without wiping it. Two frames:
    on press the cat drops onto the deck. Grids and generator: scripts/build-cat-icon.mjs. */
-.selector-page .sel-go::before {
+.selector-page .sel-go::before,
+.article-cta .bandcamp-buy::before {
   --cat-rest: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2014'%20shape-rendering='crispEdges'%3E%3Crect%20x='0'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='14'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='13'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='0'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='12'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='0'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='11'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='0'%20y='4'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='5'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='6'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='6'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='6'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='7'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='7'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='7'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='8'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='9'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='0'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='10'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='0'%20y='11'%20width='16'%20height='1'/%3E%3Crect%20x='1'%20y='12'%20width='14'%20height='1'/%3E%3Crect%20x='3'%20y='13'%20width='10'%20height='1'/%3E%3C/svg%3E");
   --cat-press: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2014'%20shape-rendering='crispEdges'%3E%3Crect%20x='0'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='14'%20y='0'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='13'%20y='1'%20width='3'%20height='1'/%3E%3Crect%20x='0'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='12'%20y='2'%20width='4'%20height='1'/%3E%3Crect%20x='0'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='11'%20y='3'%20width='5'%20height='1'/%3E%3Crect%20x='0'%20y='4'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='5'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='6'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='7'%20width='3'%20height='1'/%3E%3Crect%20x='5'%20y='7'%20width='7'%20height='1'/%3E%3Crect%20x='14'%20y='7'%20width='2'%20height='1'/%3E%3Crect%20x='0'%20y='8'%20width='16'%20height='1'/%3E%3Crect%20x='0'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='9'%20y='9'%20width='7'%20height='1'/%3E%3Crect%20x='0'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='10'%20y='10'%20width='6'%20height='1'/%3E%3Crect%20x='0'%20y='11'%20width='16'%20height='1'/%3E%3Crect%20x='1'%20y='12'%20width='14'%20height='1'/%3E%3Crect%20x='3'%20y='13'%20width='10'%20height='1'/%3E%3C/svg%3E");
   content: "";
@@ -1283,11 +1311,14 @@
   mask: var(--cat-rest) center / contain no-repeat;
 }
 .selector-page .sel-go:active:not(:disabled)::before,
-.selector-page .sel-go[data-spinning]::before {
+.selector-page .sel-go[data-spinning]::before,
+.article-cta .bandcamp-buy:active::before,
+.article-cta .bandcamp-buy[data-pressed]::before {
   -webkit-mask-image: var(--cat-press);
   mask-image: var(--cat-press);
 }
 .selector-page .sel-go:not([data-state="ready"])::before { display: none; }
+.article-cta .bandcamp-buy:hover::before { transform: translateY(-2px); }
 
 .selector-page .sel-go:hover:not(:disabled) {
   transform: translate(-1px, -1px);
@@ -1335,13 +1366,20 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .selector-page .sel-go,
-  .selector-page .sel-go::before { transition: none; }
+  .selector-page .sel-go::before,
+  .article-cta .bandcamp-buy,
+  .article-cta .bandcamp-buy::before { transition: none; }
   .selector-page .sel-go:hover:not(:disabled),
   .selector-page .sel-go:active:not(:disabled) { transform: none; box-shadow: 6px 6px 0 var(--ink); }
   .selector-page .sel-go:active:not(:disabled) { background: var(--acid-text); color: var(--paper); }
   .selector-page .sel-go:hover:not(:disabled)::before { transform: none; }
   .selector-page .sel-go[data-spinning] { animation: none; }
   .selector-page .sel-spark { display: none; }
+  .article-cta .bandcamp-buy:hover,
+  .article-cta .bandcamp-buy:active { transform: none; box-shadow: 6px 6px 0 var(--ink); }
+  .article-cta .bandcamp-buy:active { background: var(--ink); color: var(--cyan); }
+  .article-cta .bandcamp-buy:hover::before { transform: none; }
+  .article-cta .bandcamp-buy[data-pressed] { animation: none; }
 }
 
 .selector-page .sel-noscript { margin: 0; padding: clamp(1.4rem, 4vw, 2.75rem); font: 400 .95rem/1.55 var(--sans); }
