@@ -1,0 +1,12 @@
+{
+  "page": "best-electronic-albums.html",
+  "seed": "best electronic albums",
+  "source": "Measured volumes carried over from TOPIC-DOSSIERS.md (Google Ads Keyword Planner, all locations, bucketed). No new measurement was run for this page. The exact head 'best electronic albums' did not return as a seed and is unmeasured.",
+  "terms": [
+    { "term": "best electronic album ever", "volume": "1K-10K (Keyword Planner, dossier)" },
+    { "term": "best electronic albums of all time", "volume": "1K-10K (Keyword Planner, dossier)" }
+  ],
+  "rejected": [
+    { "term": "best electronic albums", "why": "volume unmeasured (the seed did not return); not claimed as a measured term" }
+  ]
+}

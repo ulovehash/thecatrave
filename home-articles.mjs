@@ -402,6 +402,14 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'Richie Hawtin playing at Fabric in London'
   },
   {
+    page:'best-electronic-albums.html', category:'digging', tags:['discovery','history'], href:'/best-electronic-albums', type:'Guide', topic:'Electronic albums',
+    title:'Best Electronic Albums of All Time',
+    description:'Sixteen electronic albums picked from three published rankings, with the year, the label and where each one places.',
+    image:'img/best-electronic-albums/massive-320.webp',
+    srcset:'img/best-electronic-albums/massive-320.webp 320w,img/best-electronic-albums/massive-1200.webp 1200w',
+    width:1200, height:800, alt:'Massive Attack performing on stage at the Eurockéennes festival'
+  },
+  {
     page:'why-dj-mag-top-100-never-changes.html', category:'digging', tags:['discovery','history'], href:'/why-dj-mag-top-100-never-changes', type:'Essay', topic:'DJ Mag Top 100',
     title:'Why the DJ Mag Top 100 Barely Changes',
     description:'Five DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.',

@@ -1090,6 +1090,39 @@
         "file": "build-90s-rave-music-article.mjs",
         "contains": "Also not a 90s record"
       }
+    },
+    {
+      "id": "best-electronic-albums-first-build-failures",
+      "found": "2026-10-06",
+      "by": "audit",
+      "what": "The first build of best-electronic-albums.html failed three checks: meta description 191 characters (audit-seo allows 70-165), a figure and an embed placed back to back in the 1991-95 and 1997-2003 sections (mediaAdjacencyRhythm), and four FAQ items (faqHasQuestions needs five). All three are in the draft and builder, not published copy.",
+      "should_have_caught": "the draft was written before the component audits were read",
+      "fix": {
+        "file": "build-best-electronic-albums-article.mjs",
+        "contains": "Prose always sits between a figure and an embed"
+      }
+    },
+    {
+      "id": "best-electronic-albums-kraftwerk-photo-licence",
+      "found": "2026-10-06",
+      "by": "audit",
+      "what": "Caption and media/best-electronic-albums.json call the Kraftwerk Stockholm photo (Andréas Hagström, Wikimedia Commons) public domain. The Commons file page says the photograph is under GFDL and CC BY-SA 3.0; only the background text is public domain. Draft and builder, not published.",
+      "should_have_caught": "the licence was read from the API short name, not from the file page",
+      "fix": {
+        "file": "build-best-electronic-albums-article.mjs",
+        "contains": "Photograph: Andréas Hagström, CC BY-SA 3.0."
+      }
+    },
+    {
+      "id": "best-electronic-albums-dubno-year",
+      "found": "2026-10-06",
+      "by": "audit",
+      "what": "The page dates Underworld's dubnobasswithmyheadman to 1993 and Junior Boy's Own to a 1994 pressing. MusicBrainz (GB, Junior Boy's Own) gives release 24 January 1994; the only 1993 entry (20 Sep 1993) has no label. Slant dates it 1993. Draft and builder, not published.",
+      "should_have_caught": "year taken from the Slant list and label from a different pressing",
+      "fix": {
+        "file": "build-best-electronic-albums-article.mjs",
+        "contains": "Slant dates it 1993"
+      }
     }
   ]
 }

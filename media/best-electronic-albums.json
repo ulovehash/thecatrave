@@ -1,0 +1,38 @@
+{
+  "page": "best-electronic-albums.html",
+  "seed": "best electronic albums",
+  "source": "Three published rankings read on 6 October 2026: Headphonesty reader vote (August 2026), Slant 25/20 poll (30 June 2002), Resident Advisor Best Electronic Records of 2000-25 (2025). Years and labels from MusicBrainz release data. Every Spotify album ID was checked by oEmbed (status 200, title matched) on 6 October 2026.",
+  "note": "Thirteen of the sixteen are on two lists or by an artist on two; three (Music for Airports, Boy in da Corner, Double Cup) are top-ten placings kept for range. Not a canon from memory. Trans-Europe Express (Kraftwerk, 1977, Capitol per MusicBrainz, Slant number 1) and Oxygene (Headphonesty number 1) are named and not embedded: no Spotify album ID was confirmed for them. Independent review 6 Oct 2026. Four images, all openly licensed and downloaded locally: Kraftwerk (CC BY-SA 3.0, Andréas Hagström), Massive Attack (CC BY 2.0, Festival Eurockeennes), Underworld (CC BY 2.0, Phil Whitehouse), Daft Punk (CC BY 4.0, Sony Music Entertainment). None is used on another guide.",
+  "required_records": [
+    { "title": "The Man-Machine", "artist": "Kraftwerk", "year": 1978, "why": "number 4 on Headphonesty; the Kraftwerk album chosen over Trans-Europe Express", "sources": ["headphonesty"], "embed_id": "3eyz60xEK5dGEeZF1JJSi9" },
+    { "title": "Music for Airports", "artist": "Brian Eno", "year": 1978, "why": "number 6 on Slant", "sources": ["slant"], "embed_id": "063f8Ej8rLVTz9KkjQKEMa" },
+    { "title": "Violator", "artist": "Depeche Mode", "year": 1990, "why": "number 3 on Headphonesty", "sources": ["headphonesty"], "embed_id": "45YmvYK4hB4CgQgTMuNRm8" },
+    { "title": "Adventures Beyond the Ultraworld", "artist": "The Orb", "year": 1991, "why": "on two lists", "sources": ["slant", "headphonesty"], "embed_id": "0ee1sAau9a2DXQkAyezdwk" },
+    { "title": "Blue Lines", "artist": "Massive Attack", "year": 1991, "why": "on two lists; number 2 on Slant", "sources": ["slant", "headphonesty"], "embed_id": "5mAPk4qeNqVLtNydaWbWlf" },
+    { "title": "Selected Ambient Works 85-92", "artist": "Aphex Twin", "year": 1992, "why": "on two lists; number 3 on Slant", "sources": ["slant", "headphonesty"], "embed_id": "7aNclGRxTysfh6z0d8671k" },
+    { "title": "dubnobasswithmyheadman", "artist": "Underworld", "year": 1994, "why": "on two lists", "sources": ["slant", "headphonesty"], "embed_id": "3WQpmFc7GonmzN40EjbbKY" },
+    { "title": "Orbital 2", "artist": "Orbital", "year": 1993, "why": "number 11 on Slant; Orbital also on Headphonesty", "sources": ["slant"], "embed_id": "6cni6TMOVlY9jAbEGAjOif" },
+    { "title": "Leftism", "artist": "Leftfield", "year": 1995, "why": "on two lists", "sources": ["slant", "headphonesty"], "embed_id": "6Hh2XrY2Yuse8omAzSabdp" },
+    { "title": "Homework", "artist": "Daft Punk", "year": 1997, "why": "number 18 on Slant; Daft Punk on all three lists", "sources": ["slant"], "embed_id": "5uRdvUR7xCnHmUW8n64n9y" },
+    { "title": "Music Has the Right to Children", "artist": "Boards of Canada", "year": 1998, "why": "on two lists", "sources": ["slant", "headphonesty"], "embed_id": "6LZiNXaDvhzvnXUubVOmNU" },
+    { "title": "Discovery", "artist": "Daft Punk", "year": 2001, "why": "number 7 on Resident Advisor", "sources": ["resident-advisor"], "embed_id": "2noRn2Aes5aoNVsU6iWThc" },
+    { "title": "Boy in da Corner", "artist": "Dizzee Rascal", "year": 2003, "why": "number 5 on Resident Advisor", "sources": ["resident-advisor"], "embed_id": "4Xab3wViIfg4Q89HNbouRW" },
+    { "title": "Untrue", "artist": "Burial", "year": 2007, "why": "number 1 on Resident Advisor; also on Headphonesty", "sources": ["resident-advisor", "headphonesty"], "embed_id": "1oLxSFO8bJwsU2OmZY4cdU" },
+    { "title": "Double Cup", "artist": "DJ Rashad", "year": 2013, "why": "number 8 on Resident Advisor", "sources": ["resident-advisor"], "embed_id": "7qnF9vN6t9NYusHu8SwFss" },
+    { "title": "Random Access Memories", "artist": "Daft Punk", "year": 2013, "why": "number 2 on Headphonesty", "sources": ["headphonesty"], "embed_id": "4m2880jivSbbyEGAKfITCa" }
+  ],
+  "figures": [
+    { "file": "img/best-electronic-albums/kraftwerk-850.webp", "licence": "CC BY-SA 3.0 (also GFDL; background text public domain)", "author": "Andréas Hagström", "source": "https://commons.wikimedia.org/wiki/File:Kraftwerk_live_in_Stockholm.jpg" },
+    { "file": "img/best-electronic-albums/massive-1200.webp", "licence": "CC BY 2.0", "author": "Festival Eurockeennes", "source": "https://commons.wikimedia.org/wiki/File:Massive_Attack_011.jpg" },
+    { "file": "img/best-electronic-albums/underworld-1200.webp", "licence": "CC BY 2.0", "author": "Phil Whitehouse", "source": "Wikimedia Commons, Underworld Live at the Brixton Academy, London 5193951659.jpg (Flickr philliecasablanca/5193951659)" },
+    { "file": "img/best-electronic-albums/daftpunk-1200.webp", "licence": "CC BY 4.0", "author": "Sony Music Entertainment", "source": "https://commons.wikimedia.org/wiki/File:Daft_Punk_in_2013.jpg" }
+  ],
+  "known_gaps": [
+    { "title": "Trans-Europe Express", "why": "Slant number 1 (1977). Capitol per MusicBrainz (GB, US, FR 1977 entries). Named, not embedded: no confirmed Spotify album ID. Oxygene (Headphonesty number 1) likewise." },
+    { "title": "dubnobasswithmyheadman label", "why": "Resolved: MusicBrainz GB 24 January 1994, Junior Boy's Own. Year given as 1994, noting Slant dates it 1993." },
+    { "title": "Violator UK label", "why": "Resolved: Mute internationally, Sire and Reprise in the US (19 March 1990)." },
+    { "title": "Remaster embeds", "why": "Man-Machine, Music for Airports, Blue Lines, dubnobass and Orbital 2 play remaster or expanded editions, labelled as such in the embed titles." },
+    { "title": "Skipped lists", "why": "Rolling Stone (gateway block) and Rate Your Music (Cloudflare challenge) were not read, not bypassed." },
+    { "title": "Exact head volume", "why": "'best electronic albums' was not measured. Measured: 'best electronic album ever' and 'best electronic albums of all time', 1K-10K each (dossier)." }
+  ]
+}
