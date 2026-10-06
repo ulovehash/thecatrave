@@ -46,8 +46,8 @@ function renderMixSection(heading) {
     const copy = paras(rest.join('\n').replace(/\n?\[Embed:[^\]]+\]\n?/, '\n\n'));
     if (copy.length !== 2) throw new Error(`${entryTitle} must have two editorial paragraphs`);
     const [youtubeId, genre, artist, videoTitle] = meta;
-    const player = articleVideoCollection({label:entryTitle.trim(), description:`Watch the ${videoTitle} recording on the broadcaster's official channel.`, items:[articleVideoCard({youtubeId, genre, artist, title:videoTitle})]});
-    return `<h3>${escapeHtml(entryTitle.trim())}</h3>${join(copy.slice(0, 1))}${player}${join(copy.slice(1))}`;
+    const player = articleVideoCollection({label:entryTitle.trim(), description:copy[0], items:[articleVideoCard({youtubeId, genre, artist, title:videoTitle})]});
+    return `<h3>${escapeHtml(entryTitle.trim())}</h3>${player}${join(copy.slice(1))}`;
   }).join('\n');
 }
 const answer = paras(getSection('Answer'));

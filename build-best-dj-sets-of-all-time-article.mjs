@@ -79,7 +79,7 @@ const players = new Map([
 ]);
 const used = new Set();
 
-function player(heading, genre) {
+function player(heading, genre, context = '') {
   const spec = players.get(heading);
   if (!spec) throw new Error(`No player for entry: ${heading}`);
   used.add(heading);
@@ -88,7 +88,7 @@ function player(heading, genre) {
   const comma = label.indexOf(', ');
   const artist = label.slice(0, comma), setTitle = label.slice(comma + 2);
   if (platform === 'youtube') {
-    return articleVideoCollection({label, description: `Watch the ${setTitle} recording on the official channel.`, items: [articleVideoCard({youtubeId: ref, genre, artist, title: setTitle})]});
+    return articleVideoCollection({label, description: context, items: [articleVideoCard({youtubeId: ref, genre, artist, title: setTitle})]});
   }
   const where = platform === 'mixcloud' ? 'Mixcloud' : 'SoundCloud';
   const year = (label.match(/(\d{4})\s*$/) || [])[1] || '';
@@ -108,7 +108,10 @@ function renderEntries(heading, genre) {
     const [entryTitle, ...rest] = block.split('\n');
     const copy = paras(rest.join('\n'));
     if (copy.length < 1 || copy.length > 3) throw new Error(`${entryTitle} must have one to three paragraphs`);
-    return `<h3>${escapeHtml(entryTitle.trim())}</h3>${join(copy.slice(0, 1))}${player(entryTitle.trim(), genre)}${join(copy.slice(1))}`;
+    const isVideo = players.get(entryTitle.trim())?.[0] === 'youtube';
+    return isVideo
+      ? `<h3>${escapeHtml(entryTitle.trim())}</h3>${player(entryTitle.trim(), genre, copy[0])}${join(copy.slice(1))}`
+      : `<h3>${escapeHtml(entryTitle.trim())}</h3>${join(copy.slice(0, 1))}${player(entryTitle.trim(), genre)}${join(copy.slice(1))}`;
   }).join('\n');
 }
 

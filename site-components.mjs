@@ -433,8 +433,9 @@ export function rootRelativeAssets(html) {
 export function articleListeningBand({platform = 'spotify', id, kicker, title, description, src, iframeTitle, fullBleed = false, tone = ''} = {}) {
   if (!['spotify', 'soundcloud'].includes(platform)) throw new Error(`Unsupported listening platform: ${platform}`);
   if (tone && !['paper', 'cyan', 'yellow', 'coral'].includes(tone)) throw new Error(`Unsupported listening tone: ${tone}`);
-  // The label is translated per language (i18n.mjs), and the full-bleed
-  // geometry follows the label in every one of them.
+  // The label is translated per language (i18n.mjs), and the shared responsive
+  // geometry follows the label in every one of them: contained on desktop,
+  // edge-to-edge on narrow screens.
   const essentialListening = essentialListeningLabels.has(String(kicker).trim().toLowerCase());
   const useFullBleed = fullBleed || essentialListening;
   const classes = [
@@ -497,13 +498,17 @@ export function articleVideoCard({youtubeId, genre, artist, title} = {}) {
   return `<figure class="video-example"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(youtubeId)}" title="${escapeHtml(spoken)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption><span>${escapeHtml(genre)}</span><strong>${escapeHtml(label)}</strong></figcaption></figure>`;
 }
 
-export function articleVideoCollection({items = [], description, label = '', lang = defaultLang} = {}) {
+export function articleVideoCollection({items = [], description = '', label = '', lang = defaultLang} = {}) {
   const listening = t(lang).essentialListening;
+  if (/^(?:watch|listen to)\b.*\bofficial\s+(?:channel|upload)\b/i.test(String(description).trim())) {
+    throw new Error('articleVideoCollection description must add a factual editorial reason, not an official-channel instruction');
+  }
   // Complementary landmarks need a non-empty, unique accessible name; derive one
   // from the label or the opening of the description when several sit on a page.
   const name = (label || String(description).split(/(?<=[.:])\s/)[0] || 'tracks').slice(0, 80).replace(/[.:]\s*$/, '');
   const ariaLabel = escapeHtml(`${listening}: ${name}`);
-  return `<aside class="listening-block listening-block-full" aria-label="${ariaLabel}"><div class="listening-intro"><p class="article-kicker">${escapeHtml(listening)}</p><p>${escapeHtml(description)}</p></div><div class="video-grid">${items.join('')}</div></aside>`;
+  const descriptionHtml = description ? `<p>${escapeHtml(description)}</p>` : '';
+  return `<aside class="listening-block listening-block-full" aria-label="${ariaLabel}"><div class="listening-intro"><p class="article-kicker">${escapeHtml(listening)}</p>${descriptionHtml}</div><div class="video-grid">${items.join('')}</div></aside>`;
 }
 
 export function authorCard({filled = false, lang = defaultLang} = {}) {

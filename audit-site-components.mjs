@@ -71,7 +71,7 @@ const faqMatchesVisibleContent = html => {
   );
 };
 // The label is translated per language (i18n.mjs), so the scan looks for any
-// of them: the full-bleed rule is about the block, not about English.
+// of them: the shared responsive listening rule is about the block, not English.
 const listeningLabels = Object.values(locales).map(locale => locale.essentialListening);
 const essentialListeningClasses = html => [...html.matchAll(/<aside class="([^"]+)"[^>]*>[\s\S]*?<\/aside>/g)]
   .filter(match => listeningLabels.some(label => match[0].includes(`<p class="article-kicker">${label}</p>`)))
@@ -315,12 +315,14 @@ const checks = {
   imageDimensions: articlePages.every(page => [...page.matchAll(/<img\b[^>]*>/g)].every(match => /\swidth="\d+"/.test(match[0]) && /\sheight="\d+"/.test(match[0]))),
   designTokensDefined: ['--space-xs','--space-sm','--space-md','--space-lg','--space-xl','--space-3xl','--yellow','--coral','--surface-muted','--motion-fast'].every(token => homeCss.includes(token)),
   articleScaleDefined: ['--article-text','--article-wide','--article-media','--section-space','--media-space','--text-body','--heading-section'].every(token => articleCss.includes(token)),
-  essentialListeningFullBleed: articlePages.every(page => {
+  essentialListeningSharedGeometry: articlePages.every(page => {
     const classes = essentialListeningClasses(page);
     return (classes.length > 0 && classes.every(value => /(?:article-media-band-full|context-listening-full|listening-block-full)/.test(value)))
       || page.includes('class="playlist-preview-list"');
   }),
-  essentialListeningFullBleedCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector)),
+  essentialListeningResponsiveCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector))
+    && ['.article-media-band-full { width: 100vw; padding-inline: 1rem; }','.context-listening-full { width: 100vw; padding-inline: 1rem; }','.listening-block-full { width: 100vw; padding: 1rem; }'].every(rule => articleCss.includes(rule)),
+  noGenericVideoListeningPrompts: articlePages.every(page => !/<aside class="listening-block[^>]*>[\s\S]*?(?:Watch|Listen to)[^<]*official (?:channel|upload)/i.test(page)),
   // A full-bleed listening collection inside a tone-{x} section must match that colour
   // or be the neutral -paper variant; a different saturated tone stacks clashing bands
   // with the section colour showing through the block's margins. (Compact promo bands

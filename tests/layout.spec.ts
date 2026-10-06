@@ -3,7 +3,7 @@ import { routes } from './routes';
 import { openRoute, pageErrors } from './open-route';
 
 // Deterministic layout assertions. These catch the classes of regression that a
-// string audit cannot see: horizontal overflow, clashing full-bleed colour
+// string audit cannot see: horizontal overflow, clashing listening colours,
 // bands, wrong responsive column counts, and layout-shift risk from images
 // without intrinsic dimensions.
 //
@@ -84,6 +84,36 @@ for (const route of routes) {
         return out;
       });
       expect.soft(clashes, 'listening block clashes with its section colour').toEqual([]);
+    });
+
+    await test.step('Essential listening is contained on desktop and edge-to-edge on mobile', async () => {
+      const geometry = await page.evaluate(() => {
+        const viewport = document.documentElement.clientWidth;
+        const blocks = [...document.querySelectorAll<HTMLElement>('.article-media-band-full, .context-listening-full, .listening-block-full')];
+        return blocks.map(block => ({
+          className: block.className,
+          width: block.getBoundingClientRect().width,
+          sectionWidth: block.closest('.article-section')?.getBoundingClientRect().width || 0,
+          viewport
+        }));
+      });
+      for (const block of geometry) {
+        if (block.viewport <= 760) {
+          expect.soft(Math.abs(block.width - block.viewport), `${block.className} mobile width`).toBeLessThanOrEqual(1);
+        } else if (block.viewport > 1000 && block.className.includes('listening-block-full')) {
+          expect.soft(Math.abs(block.width - block.sectionWidth), `${block.className} matches its prose column`).toBeLessThanOrEqual(1);
+        } else {
+          expect.soft(block.width, `${block.className} desktop width`).toBeLessThan(block.viewport - 1);
+          expect.soft(block.width, `${block.className} article-wide cap`).toBeLessThanOrEqual(1041);
+        }
+      }
+
+      const labelOrder = await page.$$eval('.listening-block-full', blocks => blocks.map(block => {
+        const label = block.querySelector('.article-kicker');
+        const video = block.querySelector('.video-grid');
+        return !!label && !!video && !!(label.compareDocumentPosition(video) & Node.DOCUMENT_POSITION_FOLLOWING);
+      }));
+      expect.soft(labelOrder.every(Boolean), 'Essential listening label precedes its video').toBe(true);
     });
   });
 }

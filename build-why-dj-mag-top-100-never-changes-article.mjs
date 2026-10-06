@@ -54,12 +54,12 @@ const sets = {
   landry: {id: 'yzRNEZ71kE8', genre: 'HARD TECHNO', artist: 'Sara Landry', title: 'Beatport, Amsterdam, 2025'}
 };
 const usedSets = new Set();
-function player(key) {
+function player(key, description) {
   const spec = sets[key];
   if (!spec) throw new Error(`No set for placeholder: ${key}`);
   usedSets.add(key);
   const label = `${spec.artist}, ${spec.title}`;
-  return articleVideoCollection({label, description: `Watch the ${spec.artist} set on the official channel.`, items: [articleVideoCard({youtubeId: spec.id, genre: spec.genre, artist: spec.artist, title: spec.title})]});
+  return articleVideoCollection({label, description, items: [articleVideoCard({youtubeId: spec.id, genre: spec.genre, artist: spec.artist, title: spec.title})]});
 }
 
 function table(block) {
@@ -71,11 +71,13 @@ function table(block) {
 // Blocks are separated by blank lines: a table, an ### heading, a [[set:x]]
 // placeholder or a paragraph.
 function render(text) {
-  return paras(text).map(block => {
+  const blocks = paras(text);
+  return blocks.map((block, index) => {
     if (block.startsWith('|')) return table(block);
     if (block.startsWith('### ')) return `<h3>${escapeHtml(block.slice(4).trim())}</h3>`;
     const set = block.match(/^\[\[set:(\w+)\]\]$/);
-    if (set) return player(set[1]);
+    if (set) return player(set[1], blocks[index - 1]);
+    if (/^\[\[set:\w+\]\]$/.test(blocks[index + 1] || '')) return '';
     return `<p>${inline(block)}</p>`;
   }).join('\n');
 }

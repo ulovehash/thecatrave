@@ -361,8 +361,8 @@
 .listening-block-full {
   position: relative;
   left: 50%;
-  width: 100vw;
-  padding: clamp(1.25rem, 3vw, 2rem) max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  padding: clamp(1.25rem, 3vw, 2rem);
   transform: translateX(-50%);
   box-sizing: border-box;
 }
@@ -370,6 +370,19 @@
 .listening-intro .article-kicker { margin-bottom: .55rem; }
 .listening-intro > p:last-child { margin-bottom: 0; }
 .listening-block .video-grid { margin-top: 1.5rem; }
+.listening-block-full .video-grid {
+  left: auto;
+  width: 100%;
+  transform: none;
+}
+
+@media (min-width: 1001px) {
+  /* A single-video block follows the same measure as the prose around it. Its
+     factual setup sits under the label, directly above the player. */
+  .listening-block-full {
+    width: 100%;
+  }
+}
 
 .video-grid {
   position: relative;
@@ -524,10 +537,11 @@
 .article-listening-feature .spotify-inline-embed { height: 152px; min-height: 152px; }
 .article-listening-feature .soundcloud-inline-embed { height: 166px; min-height: 166px; }
 .article-media-band-full {
-  width: 100vw;
-  padding-right: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
-  padding-left: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
-  /* No frame: matches .context-listening-full. */
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  padding-right: clamp(1.2rem, 2.5vw, 1.6rem);
+  padding-left: clamp(1.2rem, 2.5vw, 1.6rem);
+  /* The shared Essential-listening variant is contained on desktop and bleeds
+     only on narrow screens. It keeps the flat, frameless cyan treatment. */
   border: 0;
 }
 .article-media-band-paper { background: var(--paper); }
@@ -604,12 +618,11 @@
   background: var(--listening-bg, var(--cyan));
 }
 .context-listening-full {
-  width: 100vw;
-  padding-right: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
-  padding-left: max(var(--article-gutter), calc((100vw - var(--article-wide)) / 2));
-  /* No frame: the block reads by its background (a cyan panel on a paper section,
-     or a continuous field when the section shares its tone). A horizontal rule
-     here just floats a black line across a flat colour area. */
+  width: min(calc(100vw - (2 * var(--article-gutter))), var(--article-wide));
+  padding-right: clamp(1.25rem, 3vw, 2rem);
+  padding-left: clamp(1.25rem, 3vw, 2rem);
+  /* No frame: the contained block reads by its cyan background. A horizontal
+     rule around it would add noise without clarifying the structure. */
   border: 0;
 }
 .article-image + .context-listening { margin-top: 0; }
