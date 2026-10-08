@@ -31,7 +31,7 @@ Ramplings kam zuerst. Shoom eröffnete an einem Samstag im November 1987 in eine
 
 Oakenfold brachte seine Nacht ins Heaven. Future lief donnerstags im Soundshaft des Heaven, und Spectrum, das er mit Ian St Paul veranstaltete, lief montags von April 1988 bis 1990. Für seine Nächte unter dem Namen Land of Oz holte Oakenfold Jimmy Cauty und Alex Paterson von The Orb als Ambient-DJs in einen Raum namens White Room, und der Wikipedia-Artikel über Heaven nennt diese Sessions die Geburt des Ambient House.
 
-Holloways Nacht war Trip, in der London Astoria an der Charing Cross Road. Sein eigener Wikipedia-Artikel datiert sie auf Ende Mai 1988 und nennt sie einen der ersten legalen Acid-House-Clubs; der Artikel über die Astoria verortet sie ebenfalls in 1988. Der Wikipedia-Artikel über Shoom nennt Juni 1987, was den beiden anderen widerspricht, und diese Seite folgt den beiden, die übereinstimmen. Trip änderte später seinen Namen in Sin, weil der erste zu eng mit den Drogen verbunden war.
+Nicky Holloway eröffnete [Trip in der London Astoria](https://ra.co/events/65793) an der Charing Cross Road 1988. Die Party gehörte zu den frühen legalen Acid-House-Nächten und wurde im Zuge der Boulevardkampagne gegen Acid House in Sin umbenannt.
 
 [Bild: Astoria]
 
@@ -65,7 +65,7 @@ fabric eröffnete am 29. Oktober 1999, gegründet von Keith Reilly und Cameron L
 
 [Bild: fabric front]
 
-Die Umfrage des DJ Magazine wählte ihn 2007 und 2008 zum besten Club der Welt. Im September 2016 entzog ihm der Bezirk Islington nach zwei Todesfällen im Zusammenhang mit Drogen die Lizenz; eine Kampagne zu seiner Rettung folgte, und er öffnete mit mehr Sicherheit und strengeren Auflagen wieder. Er steht auf allen Listen, die dieser Guide gelesen hat, und nur The Cause und FOLD können das auch von sich sagen.
+Die Umfrage des DJ Magazine wählte ihn 2007 und 2008 zum besten Club der Welt. Im September 2016 entzog ihm der Bezirk Islington nach zwei Todesfällen im Zusammenhang mit Drogen die Lizenz; eine Kampagne zu seiner Rettung folgte, und er öffnete mit mehr Sicherheit und strengeren Auflagen wieder.
 
 Keith Reilly, der Gründer, legte 2024 noch auf. Dieses Set, angekündigt als fabric special, zeigt Reilly mit Terry Francis und Howie B, gefilmt für Beatport bei der Brighton Music Conference 2024.
 
@@ -99,7 +99,7 @@ The Cause eröffnete 2018 in Tottenham Hale, betrieben von Stuart Glen und Eugen
 
 [Tabelle: now]
 
-Der größte Teil der Tabelle liegt im Osten und Süden Londons, dorthin ist das Clubbing in London gezogen: Hackney Wick, Dalston und Canning Town auf der einen Seite, Peckham, Brixton und South Bermondsey auf der anderen. Die Räume im West End aus der Geschichte oben, die Astoria und The End, sind verschwunden, und der Blitz auch.
+Die Clubs in diesem Guide liegen größtenteils im Osten und Süden Londons, dorthin ist das Clubbing in London gezogen: Hackney Wick, Dalston und Canning Town auf der einen Seite, Peckham, Brixton und South Bermondsey auf der anderen. Die ehemaligen Clubs im West End, die Astoria und The End, sind verschwunden, und der Blitz auch.
 
 Phonox liegt in Brixton, und Rinse FM, der Sender, der Dubstep aus dem Plastic People hinaustrug, hat dort Live-Sets gefilmt. Beide Sets unten stammen vom eigenen Kanal von Rinse.
 
@@ -127,7 +127,7 @@ In der Great Queen Street 4 in Covent Garden, wo Steve Strange und Rusty Egan 19
 
 ### Was sind die zehn besten Nachtclubs in London?
 
-Keine zwei Listen einigen sich auf zehn. Die drei, die für diesen Guide gelesen wurden, nennen alle dieselben sieben: fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox und MOT. Drumsheds, Ministry of Sound und Heaven stehen auf zweien davon. Das macht zehn, und die Tabelle oben sagt, wo jeder liegt.
+Zehn Londoner Clubs zum Vergleichen sind fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox, MOT, Drumsheds, Ministry of Sound und Heaven. Die Tabelle oben zeigt ihre Lage und musikalische Ausrichtung.
 
 ### Was ist der größte Club in London?
 

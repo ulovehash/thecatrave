@@ -14,13 +14,13 @@ Flex opened on New Year's Eve 1989/90 at Arndtstraße in Vienna's 12th district,
 
 [Image: Flex]
 
-Its programme mixes concerts and club nights, and Ellen Allien and Jeff Mills are among the DJs Wikipedia lists as having played there. Flex's own October 2026 listings mark its club events 16+, so check the age on the night you want.
+Its programme mixes concerts and club nights, and Ellen Allien and Jeff Mills are among the DJs Wikipedia lists as having played there. Flex sets the minimum age by event; check your chosen listing before buying a ticket.
 
 ## Vienna techno clubs: Grelle Forelle and Das Werk
 
 Two of Vienna’s techno clubs are on the same street, the Spittelauer Lände, by the Donaukanal.
 
-Grelle Forelle opened in December 2011 at Spittelauer Lände 12 and runs on two floors, the Kitchenfloor and the Clubfloor, with a Lambda Labs sound system. Its own site sets the rules before anything else: guests must be 21 or over, and photos, video and audio recording are strictly banned. Capacity figures for the club disagree between sources, so none is given here.
+Grelle Forelle opened in December 2011 at Spittelauer Lände 12 and runs on two floors, the Kitchenfloor and the Clubfloor, with a Lambda Labs sound system. Its own site sets the rules before anything else: guests must be 21 or over, and photos, video and audio recording are strictly banned.
 
 [Image: Grelle Forelle]
 
@@ -48,7 +48,7 @@ On 23 July 2026 the site reopened as an outdoor "Urban Pool Club", Dayclub Ediso
 
 ## Vienna nightlife by area
 
-Vienna nightlife is spread out, and the clubs above cluster into three parts of town.
+Vienna nightlife is spread out, and the clubs in this guide cluster into three parts of town.
 
 - The Donaukanal: Flex at the Augartenbrücke and, a short distance up the canal, the Spittelauer Lände with Grelle Forelle and Das Werk.
 - Karlsplatz and the first district: SASS at Karlsplatz 1 and the Volksgarten Pavillon on Tuesdays. Club U sits in the basement of an Otto Wagner pavilion at Karlsplatz, with nights running from techno through soul and hip-hop, Wednesday to Saturday.
@@ -94,7 +94,7 @@ Not in Grelle Forelle, whose own site bans photos, video and audio recording. Ot
 
 ### What age do you need to be to enter Vienna clubs?
 
-It varies by club. Grelle Forelle is 21+ and SASS Music Club is 18+ with ID. Flex lists its club events as 16+ in its October 2026 programme.
+It varies by club. Grelle Forelle is 21+ and SASS Music Club is 18+ with ID. Flex sets the age limit by event, so check your chosen listing.
 
 ### Where should you go for Vienna nightlife?
 

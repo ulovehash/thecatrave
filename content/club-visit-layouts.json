@@ -1,0 +1,453 @@
+{
+  "/best-clubs-in-berlin": {
+    "sections": [
+      "how-berlin-clubs-work"
+    ]
+  },
+  "/berghain": {
+    "sections": [
+      "visiting"
+    ],
+    "ready": true
+  },
+  "/best-clubs-in-paris": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-clubs-in-barcelona": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Barcelona before you go."
+    }
+  },
+  "/best-clubs-in-nyc": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear New York before you go."
+    }
+  },
+  "/best-clubs-in-tokyo": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-clubs-in-budapest": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-clubs-in-prague": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-clubs-in-vienna": {
+    "sections": [
+      "nightlife"
+    ],
+    "extract": "before-listening",
+    "subheading": "Neighbourhoods"
+  },
+  "/best-clubs-in-manchester": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Manchester before you go."
+    }
+  },
+  "/best-clubs-in-bristol": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-clubs-in-lisbon": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Lisbon before you go."
+    }
+  },
+  "/best-clubs-in-mexico-city": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Mexico City before you go."
+    }
+  },
+  "/best-clubs-in-tbilisi": {
+    "sections": [
+      "getting-in"
+    ]
+  },
+  "/best-clubs-in-amsterdam": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Amsterdam before you go."
+    }
+  },
+  "/best-clubs-in-ibiza": {
+    "sections": [
+      "season",
+      "where-to-stay"
+    ],
+    "extractCounts": {
+      "season": 2,
+      "where-to-stay": 1
+    },
+    "remainderTitles": {
+      "season": "More music from Ibiza.",
+      "where-to-stay": "Ibiza beyond the clubs."
+    }
+  },
+  "/best-clubbing-cities-in-europe": {
+    "sections": [
+      "choose"
+    ],
+    "extract": "first-two-paragraphs",
+    "subheading": "Choosing a destination"
+  },
+  "/best-electronic-music-clubs-in-london": {
+    "sections": [
+      "best-clubs-now"
+    ],
+    "extract": "london-area",
+    "subheading": "Where to go out in London"
+  },
+  "/pacha-ibiza": {
+    "sections": [
+      "tickets",
+      "dress-code",
+      "vip",
+      "where"
+    ],
+    "paragraphTables": true
+  },
+  "/ushuaia-ibiza": {
+    "sections": [
+      "tickets",
+      "dress-code",
+      "vip",
+      "where"
+    ],
+    "paragraphTables": true
+  },
+  "/best-clubs-in-belgrade": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/best-nightclubs-in-the-world": {
+    "sections": [
+      "exclusive"
+    ]
+  },
+  "/best-clubs-in-europe": {
+    "sections": [
+      "europe-clubs"
+    ]
+  },
+  "/fabric-london": {
+    "sections": [
+      "hours",
+      "tickets",
+      "dress-code",
+      "accessibility"
+    ],
+    "paragraphTables": true
+  },
+  "/printworks-london": {
+    "sections": [
+      "coming-back",
+      "instead"
+    ],
+    "title": "Printworks: closure and reopening"
+  },
+  "/de/clubs-budapest": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/de/clubs-prag": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/de/clubs-lissabon": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Lissabon hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-tokio": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/de/clubs-new-york": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "New York hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-manchester": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Manchester hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-bristol": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/de/clubs-mexiko-stadt": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Mexiko-Stadt hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-berlin": {
+    "sections": [
+      "how-berlin-clubs-work"
+    ]
+  },
+  "/de/berghain": {
+    "sections": [
+      "hours-tickets"
+    ],
+    "unwrap": true
+  },
+  "/de/clubs-paris": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/de/clubs-barcelona": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Barcelona hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-amsterdam": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Amsterdam hören, bevor man hingeht."
+    }
+  },
+  "/de/clubs-ibiza": {
+    "sections": [
+      "season",
+      "where-to-stay"
+    ],
+    "extractCounts": {
+      "season": 2,
+      "where-to-stay": 1
+    },
+    "remainderTitles": {
+      "season": "Mehr Musik aus Ibiza.",
+      "where-to-stay": "Ibiza jenseits der Clubs."
+    }
+  },
+  "/de/partystaedte-europa": {
+    "sections": [
+      "choose"
+    ],
+    "extract": "first-two-paragraphs",
+    "subheading": "Das passende Reiseziel"
+  },
+  "/de/clubs-london": {
+    "sections": [
+      "best-clubs-now"
+    ],
+    "extract": "london-area",
+    "subheading": "Viertel zum Ausgehen"
+  },
+  "/fr/boite-de-nuit-berlin": {
+    "sections": [
+      "how-berlin-clubs-work"
+    ]
+  },
+  "/fr/boite-de-nuit-londres": {
+    "sections": [
+      "best-clubs-now"
+    ],
+    "extract": "london-area",
+    "subheading": "Quartiers où sortir"
+  },
+  "/fr/berghain": {
+    "sections": [
+      "hours-tickets"
+    ],
+    "unwrap": true
+  },
+  "/fr/boite-de-nuit-paris": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/fr/boite-de-nuit-barcelone": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter Barcelone avant d’y aller."
+    }
+  },
+  "/fr/boite-de-nuit-amsterdam": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter Amsterdam avant d’y aller."
+    }
+  },
+  "/fr/boite-de-nuit-ibiza": {
+    "sections": [
+      "season",
+      "where-to-stay"
+    ],
+    "extractCounts": {
+      "season": 2,
+      "where-to-stay": 1
+    },
+    "remainderTitles": {
+      "season": "Plus de musique d’Ibiza.",
+      "where-to-stay": "Ibiza au-delà des clubs."
+    }
+  },
+  "/fr/villes-faire-la-fete-europe": {
+    "sections": [
+      "choose"
+    ],
+    "extract": "first-two-paragraphs",
+    "subheading": "Choisir une destination"
+  },
+  "/fr/boite-de-nuit-budapest": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/fr/boite-de-nuit-prague": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/fr/boite-de-nuit-lisbonne": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter Lisbonne avant d’y aller."
+    }
+  },
+  "/fr/boite-de-nuit-tokyo": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/fr/boite-de-nuit-new-york": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter New York avant d’y aller."
+    }
+  },
+  "/fr/boite-de-nuit-manchester": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter Manchester avant d’y aller."
+    }
+  },
+  "/fr/boite-de-nuit-bristol": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/fr/boite-de-nuit-mexico": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Écouter Mexico avant d’y aller."
+    }
+  }
+}

@@ -60,11 +60,11 @@ Belgrade splavovi are the floating rafts and houseboats that carried the city's 
 
 By August 2024, RTS reported the stretch of the Savski kej near Blok 45 reduced from more than 100 rafts to about 30. Many had been moved to the Sajam, where they cannot legally operate or connect to infrastructure, and others to Jakovo, Gročanski kej and the 25th of May promenade. The city planned about 50 licensed positions on the Dorćol and Zemun embankments and said that any raft without a signed contract would be removed. Operators also had to install water treatment.
 
-A 2026 guide from Belgrade My Way says most rafts have been moved, temporarily or permanently, since 2025. Several guides still name Freestyler, Leto and Lasta among the rafts running this year, but they disagree on where each one moors, so this guide gives no addresses. Check the operator's own page for the current position.
+A 2026 guide from Belgrade My Way says most rafts have been moved, temporarily or permanently, since 2025. Several guides still name Freestyler, Leto and Lasta among the rafts running this year, but their current moorings are uncertain. Check the operator's own page for the current position.
 
 ## Where to go out in Belgrade
 
-The clubs in Belgrade Serbia covered above sit in different parts of town. Drugstore is in Palilula, on Bulevar Despota Stefana. Klub 20/44 is on Karađorđeva, close to the river. Barutana is inside the Kalemegdan fortress, Lift is in the former BIP brewery area of Dorćol, and Kult is on Čumićevo sokače. Check a map before you stack two venues in one night.
+The clubs in Belgrade Serbia in this guide sit in different parts of town. Drugstore is in Palilula, on Bulevar Despota Stefana. Klub 20/44 is on Karađorđeva, close to the river. Barutana is inside the Kalemegdan fortress, Lift is in the former BIP brewery area of Dorćol, and Kult is on Čumićevo sokače. Check a map before you stack two venues in one night.
 
 For recorded sets from other cities, see [the best Boiler Room sets](/best-boiler-room-sets).
 

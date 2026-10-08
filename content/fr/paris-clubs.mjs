@@ -50,8 +50,8 @@ export default {
   title: 'Boite de nuit Paris : les meilleures boîtes',
   description: 'Comparez le Rex Club, Essaim, Badaboum et La Station selon leur quartier et leur musique, puis lisez l’histoire des clubs parisiens qui les ont précédés.',
   datePublished: '2026-09-22',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boite de nuit Paris',
   heroTitle: 'Les meilleures boites de nuit à Paris : Rex Club, Essaim, Badaboum et La Station',

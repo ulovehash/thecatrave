@@ -73,3 +73,19 @@ Three images, all new to this page, Commons, openly licensed, local webp (1200 a
 | Facts | pass | ledger above; sources block in the page |
 | Media | pass | audit-media within `node audit-all.mjs` |
 | Implementation | pass with one pre-existing failure | `npm run check:html`, `npm run check:layout` (774 passed), `npm run check:links` pass; `node audit-all.mjs` fails only audit-canon, from stray tracked `media/og-articles-covers.json` and `media/sitemap-lastmod.json` introduced in origin/main commit 035dc07, not by this work; a second build leaves output unchanged |
+
+## Local visitor-information preview, 8 October 2026
+
+User requested direct editing and a local visual preview. Added a shared articleTable visitor summary and Contents entry, revised the opening and door guidance, and added accessibility and transport subsections. Existing section IDs, title, canonical, original publication date and listening embeds remain. English draft, generator and generated HTML changed; nothing published.
+
+New evidence opened: https://www.berghain.berlin/en/contact/ confirms location, S-Ostbahnhof and 18+; https://berghain.berlin/de/barrierefreiheit/ confirms ground-level access, staff-assisted lift, toilets, disability-card queue arrangement, companion policy and no guaranteed admission. Programme opened at https://www.berghain.berlin/en/program/. Accessibility is paraphrased; transport links provide route planning without invented operating hours. Awareness endpoint timed out, so no new awareness claims were added.
+
+Validation: node audit-site-components.mjs passed 93 checks across 206 guides; git diff --check passed for scoped files. Local browser displayed the new summary and its Contents anchor successfully. Full responsive QA was not completed: standalone Playwright package unavailable. This is a review preview, not publication-ready: Search Console preservation review, full factual/editorial review and DE/FR parity remain pending. Existing dated event examples remain and should be refreshed before publication; the live 10 October lineup now differs from the explicitly dated 4 October snapshot in the article.
+
+### Entry-price correction, 8 October 2026
+
+Replaced the unconfirmed-price placeholder with a typical €28–30 Klubnacht admission budget and removed the monthly event-price table following user feedback. Source opened: https://www.top10berlin.de/de/cat/nachtleben-269/electro-clubs-715/berghain-245 (editorial visit report dated 25 September 2026, approximately €28–30 at the door). Corroboration opened: https://www.reddit.com/r/Berghain_Community/comments/1we4lfi/klubnacht_1213_september_2026_queue_live_updates/ (approximately €28). Reported typical price, not an official fixed tariff. Inline attribution retained; special events qualified.
+
+### Visitor-summary presentation revision
+
+At the user’s request, replaced the visitor-summary table with labelled paragraphs within the shared articleSection prose column. All six entries, current sourced €28–30 price and links retained. No shared CSS changes.

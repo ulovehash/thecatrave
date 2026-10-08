@@ -42,8 +42,8 @@ export default {
   title: 'Boite de nuit Barcelone : les meilleures boîtes',
   description: 'Comparez Razzmatazz, Nitsa, Macarena Club et Moog selon leur quartier et leur musique, puis découvrez l’histoire des salles de Barcelone.',
   datePublished: '2026-09-22',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boite de nuit Barcelone',
   heroTitle: 'Les meilleures boites de nuit à Barcelone : Razzmatazz, Nitsa, Macarena et Moog',
@@ -84,7 +84,7 @@ export default {
         ['Razzmatazz', 'Poblenou', 'Cinq salles, chacune avec sa programmation, de la techno et de la house à l\'indie et à la pop', 'La plus grande boîte de la ville, plusieurs soirées sous un même toit'],
         ['Sala Apolo (Nitsa)', 'Poble Sec', 'Une soirée électronique qui tourne depuis 1996 dans un lieu de concerts bien plus ancien', 'Une programmation électronique longue et sérieuse dans un lieu historique'],
         ['Macarena Club', 'Barri Gòtic, à côté des Ramblas', 'Un seul dancefloor, capacité d\'environ 300, musique électronique', 'Une salle intime, plus proche d\'une fête entre amis'],
-        ['Moog', 'Barri Gòtic', 'Bien établi et cité par tous les guides actuels consultés pour cette page', 'Une valeur sûre dans la vieille ville']
+        ['Moog', 'Barri Gòtic', 'Club établi dans la vieille ville', 'Une valeur sûre dans la vieille ville']
       ].map(row => row.map(escapeHtml)),
       label: 'Les meilleures boites de nuit à Barcelone aujourd\'hui'
     })

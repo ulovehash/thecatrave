@@ -29,8 +29,8 @@ export default {
   title: 'Die besten Clubs in Budapest: A38, Instant-Fogas, Turbina',
   description: 'Der Frachtschiff-Club A38, die sieben Räume des Instant-Fogas und Techno im Turbina: die besten Clubs in Budapest heute und die Ruinenbars, aus denen sie entstanden.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Budapest',
   heroTitle: 'Die besten Clubs in Budapest, vom A38 bis zum Instant-Fogas',

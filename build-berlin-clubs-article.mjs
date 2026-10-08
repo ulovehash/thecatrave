@@ -33,8 +33,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-berlin';
 const title = 'Best Clubs in Berlin: The Legends and the Ones Still Open';
 const description = 'Berghain, Tresor, KitKat and the clubs that came before them: the best clubs in Berlin, how each became famous, and the sets to hear before you go.';
 const datePublished = '2026-09-10';
-const dateModified = '2026-09-17';
-const dateLabel = '17 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

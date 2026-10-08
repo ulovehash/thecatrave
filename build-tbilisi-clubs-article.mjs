@@ -22,8 +22,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-tbilisi';
 const title = 'Tbilisi Clubs: Bassiani, Khidi and Mtkvarze Guide';
 const description = 'Tbilisi clubs and nightlife: Bassiani, KHIDI, Mtkvarze and Left Bank, how the 2018 raid and the 2024 strike shaped the scene, and the sets to hear.';
 const datePublished = '2026-10-05';
-const dateModified = '2026-10-05';
-const dateLabel = '5 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

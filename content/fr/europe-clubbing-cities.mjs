@@ -31,7 +31,7 @@ export default {
   title: "Villes pour faire la fête en Europe : les clubs",
   description: "Berlin, Amsterdam, Londres, Ibiza, Tbilissi et sept autres : les meilleures villes pour faire la fête en Europe, classées par leurs clubs plutôt que leurs bars.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24 septembre 2026",
 
   heroKicker: "Faire la fête en Europe",

@@ -27,8 +27,9 @@ const draft = fs.readFileSync('ushuaia-ibiza-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/ushuaia-ibiza';
 const title = 'Ushuaia Ibiza: Tickets, Dress Code and Season Events';
 const description = 'Ushuaia Ibiza: what tickets cost, the dress code and entry rules, the 2026 residencies and closing parties, how to get there, and what is unpublished for 2027.';
-const date = '2026-10-05';
-const dateLabel = '5 October 2026';
+const published = '2026-10-05';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -149,9 +150,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Ushuaia Ibiza FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Calendar, closing parties, residencies, opening party, FAQ, VIP terms, address, hours, age, bags, photography and drink pack, read on 5 October 2026: ${ext('https://theushuaiaexperience.com/club/en', 'the official Ushuaïa Ibiza site')} (calendar, news and ${ext('https://theushuaiaexperience.com/club/en/faq', 'FAQ')}). The lineup article is dated 12 August 2026, the September guide 2 September 2026 and the opening-party article 26 March 2026.</li>
-<li>Ticket ranges, VIP ticket contents, bar prices, public transport and taxi figures: ${ext('https://www.clubtickets.com/clubbing/ushuaia-ibiza', 'Clubtickets')}, the club's named ticketing platform, read on 5 October 2026.</li>
-<li>Ownership, capacity, history, the 2019 opening party format, prices and dress code notes: Ibiza Spotlight, ${ext('https://www.ibiza-spotlight.com/magazine/2024/08/ibiza-virgins-guide-ushuaia', 'Insiders\' Guide')} (15 August 2024), read on 5 October 2026.</li>
+<li>Calendar, closing parties, residencies, opening party, FAQ, VIP terms, address, hours, age, bags, photography and drink pack: ${ext('https://theushuaiaexperience.com/club/en', 'the official Ushuaïa Ibiza site')} (calendar, news and ${ext('https://theushuaiaexperience.com/club/en/faq', 'FAQ')}). The lineup article is dated 12 August 2026, the September guide 2 September 2026 and the opening-party article 26 March 2026.</li>
+<li>Ticket ranges, VIP ticket contents, bar prices, public transport and taxi figures: ${ext('https://www.clubtickets.com/clubbing/ushuaia-ibiza', 'Clubtickets')}, the club's named ticketing platform.</li>
+<li>Ownership, capacity, history, the 2019 opening party format, prices and dress code notes: Ibiza Spotlight, ${ext('https://www.ibiza-spotlight.com/magazine/2024/08/ibiza-virgins-guide-ushuaia', 'Insiders\' Guide')} (15 August 2024).</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,
@@ -165,7 +166,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'Ushuaia Ibiza', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -174,7 +175,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/ushuaia-ibiza'),
   ogImage: 'https://thecatrave.com/img/og/ushuaia-ibiza.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page ushuaia-ibiza-page',
   structuredData, articleHtml
 });

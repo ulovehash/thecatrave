@@ -30,8 +30,8 @@ export default {
   title: 'Meilleures boîtes de nuit à Mexico : Patrick Miller, M.N.Roy',
   description: 'Patrick Miller ouvre tous les vendredis depuis 1983, M.N.Roy occupe un manoir du Parti communiste, le Fünk date de 2019 : les meilleures boîtes de nuit à Mexico.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Mexico',
   heroTitle: 'Les meilleures boîtes de nuit à Mexico, de Patrick Miller à M.N.Roy',

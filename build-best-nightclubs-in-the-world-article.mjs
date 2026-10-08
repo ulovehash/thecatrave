@@ -21,8 +21,9 @@ const draft = fs.readFileSync('best-nightclubs-in-the-world-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/best-nightclubs-in-the-world';
 const title = "Best Nightclubs in the World: 20 Clubs From DJ Mag's 2026 Top 100";
 const description = 'The best nightclubs in the world by region, from Ibiza and Berlin to Brazil, Miami and Tokyo, with DJ Mag ranks, sizes and sets to hear.';
-const date = '2026-10-06';
-const dateLabel = '6 October 2026';
+const published = '2026-10-06';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -159,8 +160,8 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Best nightclubs in the world FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Ranks, capacities, openings and club profiles, read on 6 October 2026: ${ext('https://djmag.com/top100clubs', 'DJ Mag Top 100 Clubs')} (2026 list and the profile page of each club) and the ${ext('https://djmag.com/features/dj-mag-top-100-clubs-2026-record-breaking-numbers-vote-our-annual-poll-of-worlds-best', 'DJ Mag 2026 results article')}.</li>
-<li>The World's 100 Best Clubs: ${ext('https://www.nightlifeinternational.org/en/the-world-s-100-best-clubs-2026', 'International Nightlife Association')}, voting and jury dates and nomination counts, read on 6 October 2026.</li>
+<li>Ranks, capacities, openings and club profiles: ${ext('https://djmag.com/top100clubs', 'DJ Mag Top 100 Clubs')} (2026 list and the profile page of each club) and the ${ext('https://djmag.com/features/dj-mag-top-100-clubs-2026-record-breaking-numbers-vote-our-annual-poll-of-worlds-best', 'DJ Mag 2026 results article')}.</li>
+<li>The World's 100 Best Clubs: ${ext('https://www.nightlifeinternational.org/en/the-world-s-100-best-clubs-2026', 'International Nightlife Association')}, voting and jury dates and nomination counts.</li>
 <li>Facts on Drumsheds, The Warehouse Project, Bootshaus, Pacha, Amnesia, Tresor and Ministry of Sound come from the sources listed in the <a href="/best-clubs-in-europe">best clubs in Europe</a> guide.</li>
 </ul>`}),
   bandcampSupport({
@@ -175,7 +176,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'Best Nightclubs in the World', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -184,7 +185,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/best-nightclubs-in-the-world'),
   ogImage: 'https://thecatrave.com/img/og/best-nightclubs-in-the-world.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page best-nightclubs-in-the-world-page',
   structuredData, articleHtml
 });

@@ -22,8 +22,9 @@ const draft = fs.readFileSync('printworks-london-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/printworks-london';
 const title = 'Printworks London: Reopening, Closure and History';
 const description = 'Printworks London closed in May 2023. What is officially planned, why it shut, its rooms and capacity, famous nights, Drumsheds and where to go instead.';
-const date = '2026-10-05';
-const dateLabel = '5 October 2026';
+const published = '2026-10-05';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -164,7 +165,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'Printworks London', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -173,7 +174,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/printworks-london'),
   ogImage: 'https://thecatrave.com/img/og/printworks-london.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page printworks-london-page',
   structuredData, articleHtml
 });

@@ -29,8 +29,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-manchester';
 const title = 'Best Clubs in Manchester: Haçienda to Warehouse Project';
 const description = "The Haçienda closed in 1997, but its warehouse-first DIY streak still shapes the city: the best clubs in Manchester now, and the Warehouse Project's rise since.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-09-25';
-const dateLabel = '25 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

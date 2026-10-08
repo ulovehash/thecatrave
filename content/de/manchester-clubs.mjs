@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Manchester: Haçienda bis Warehouse Project',
   description: 'Die Haçienda schloss 1997, doch ihr DIY-Geist prägt die Stadt: die besten Clubs in Manchester heute und der Aufstieg des Warehouse Project seitdem.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Manchester',
   heroTitle: 'Die besten Clubs in Manchester, vom Erbe der Haçienda zum Warehouse Project',

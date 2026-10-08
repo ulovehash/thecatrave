@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Mexiko-Stadt: Patrick Miller, M.N.Roy',
   description: 'Patrick Miller läuft seit 1983 jeden Freitag, M.N.Roy sitzt in einer Villa der Kommunistischen Partei, der Fünk öffnete 2019: die besten Clubs in Mexiko-Stadt.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Mexiko-Stadt',
   heroTitle: 'Die besten Clubs in Mexiko-Stadt, von Patrick Miller bis M.N.Roy',

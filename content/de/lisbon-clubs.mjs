@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Lissabon: Lux Frágil, Ministerium, Kremlin',
   description: 'Das Lux Frágil prägt Lissabon seit 1998, das Ministerium spielt Afro-House im früheren Ministerium, die Musicbox schloss 2025: die besten Clubs in Lissabon heute.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Lissabon',
   heroTitle: 'Die besten Clubs in Lissabon, vom Lux Frágil bis zum Ministerium',

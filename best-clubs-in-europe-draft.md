@@ -173,7 +173,7 @@ Check each club's own page for the night you plan to attend, because policies an
 
 ## DJ Mag Top 100 Clubs 2026: which European clubs are on it
 
-DJ Mag published the Top 100 Clubs 2026 on 15 April 2026. Its article counts 19 new entries, 39.5 European clubs in the 100 (up one on the year), seven from Italy and 12 from Spain. The table lists the European entries confirmed on DJ Mag's profile pages and the ranks read from its list on 4 October 2026.
+DJ Mag published the Top 100 Clubs 2026 on 15 April 2026. Its article counts 19 new entries, 39.5 European clubs in the 100 (up one on the year), seven from Italy and 12 from Spain. The table shows European clubs and their positions in DJ Mag’s 2026 poll.
 
 | Rank | Club | Country |
 |---|---|---|
@@ -206,7 +206,7 @@ The table shows a selection of European clubs from the poll.
 
 ## Best techno clubs
 
-DJ Mag's poll does not split by genre, so the best techno clubs in this guide are picked by what each source says about the room.
+DJ Mag’s poll does not split clubs by genre. The techno recommendations below reflect each room’s programming.
 
 **Berghain** has its own guide with the door policy. **Tresor** opened in 1991 in a department store vault and now sits in a power station basement, and its own foundation keeps the history. **Open Ground** in Wuppertal is a recent addition built around a custom Funktion-One system, and its founder came from Hard Wax. **Rex Club** in Paris moved from disco to acid house in the late 1980s.
 

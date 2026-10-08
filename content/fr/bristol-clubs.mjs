@@ -30,8 +30,8 @@ export default {
   title: 'Meilleures boîtes de nuit à Bristol : Motion, Lakota, Thekla',
   description: 'Motion a perdu son bail en 2025, Lakota passe du drum and bass depuis les années 1990, un cargo de 1959 accueille des soirées : les meilleurs clubs de Bristol.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Bristol',
   heroTitle: 'Les meilleures boîtes de nuit à Bristol, de Motion à Lakota',

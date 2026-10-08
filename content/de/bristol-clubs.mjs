@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Bristol: Motion, Lakota und Thekla',
   description: 'Motion verlor 2025 den Mietvertrag und zog um, Lakota macht seit den 1990ern Drum and Bass, ein Frachtschiff von 1959 hostet Clubnächte: die besten Clubs in Bristol.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Bristol',
   heroTitle: 'Die besten Clubs in Bristol, von Motion bis Lakota',

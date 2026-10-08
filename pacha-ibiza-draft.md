@@ -2,11 +2,11 @@
 
 ## Answer
 
-Pacha Ibiza is a nightclub on Avenida 8 de Agosto at the edge of Ibiza Town, open to guests aged 18 and over from 11pm. Individual event tickets are listed on pacha.com at €30 to €270, with VIP tables from €150 to €700, and the club's dress code bans beachwear, flip flops, vests and bare torsos. The 2026 season ran from the opening weekend on 24 to 26 April to a closing week from 4 to 11 October, with a New Year's Eve night listed for 31 December.
+Pacha Ibiza is a nightclub on Avenida 8 de Agosto at the edge of Ibiza Town, open to guests aged 18 and over from 11pm. Ticket prices depend on the night and booking type, and the club’s dress code bans beachwear, flip flops, vests and bare torsos. The 2026 season ran from the opening weekend on 24 to 26 April to a closing week from 4 to 11 October, with a New Year's Eve night listed for 31 December.
 
 ## Introduction
 
-Searches for Pacha Ibiza, Pacha Ibiza club or just Pacha lead to one venue, but they come from different needs. Some people want to know what to wear. Others want to buy a ticket, book a table, or work out who owns the place now. The club's website answers most of it, spread over several pages.
+Pacha Ibiza combines its Main Room with smaller spaces, a rooftop and a garden. Choose a night by its residency, then compare general admission with restaurant or VIP bookings: each has different prices and conditions.
 
 For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), the open-air club at Platja d'en Bossa has its own page in the [Ushuaia Ibiza guide](/ushuaia-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
 
@@ -26,11 +26,19 @@ Gray Area says the Ibiza club opened in 1973 in a rustic finca surrounded by pal
 
 ### Pacha Ibiza cherries
 
-The two cherries are the club's logo and show on the building at night. Ibiza Spotlight says the logo was inspired by the make-up of Carmen Sevilla, a Spanish actress. Ibiza Spotlight and Gray Area give different accounts of where the name came from, so this page gives no origin for it.
+The two cherries are the club's logo and show on the building at night. Ibiza Spotlight says the logo was inspired by the make-up of Carmen Sevilla, a Spanish actress. Accounts of the name’s origin differ between Ibiza Spotlight and Gray Area.
+
+### Pacha Ibiza capacity
+
+The Pacha Ibiza capacity is 3,000, according to both Ibiza Spotlight and Gray Area. Pacha.com does not publish a figure. Ibiza Spotlight also reports the 3,795 crowd at the 2022 reopening, so a headline night can exceed the usual number.
+
+### Pacha Ibiza owner
+
+The Pacha Ibiza owner is FIVE Holdings, the Dubai based group. FIVE says it bought The Pacha Group in October 2023 for €302.5 million, including Pacha Ibiza, Pacha New York, Destino Five Ibiza, Pacha Hotel, Toy Room Club, WooMoon Storytellers and the Pacha Collection, with the registered Pacha name and cherry logo. Resident Advisor reported in February 2017 that the group had earlier been sold to Trilantic Capital Partners for €350 million. FIVE says it was founded and chaired by Kabir Mulchandani.
 
 ## Pacha Ibiza tickets
 
-Pacha Ibiza tickets are sold through pacha.com, which lists each night with a price range. On 4 October 2026 the homepage gave a range of €30 to €270 for individual events, and the events page showed higher top prices for the biggest closing nights, up to €700. The site does not say what sits inside each range, so read the event page before you buy. Ibiza Spotlight's 2025 guide put tickets at €40 to €100 depending on the night, with more than €100 possible in peak season. The pacha.com tickets address is tickets.pacha@fourvenues.com.
+Pacha Ibiza tickets are sold through the [official events calendar](https://www.pacha.com/events). Ibiza Spotlight’s 2025 guide gives a typical range of €40 to €100, with higher prices in peak season. Closing parties can cost considerably more. Select your date and ticket type to see the actual price; VIP bookings are priced separately. Ticket enquiries go to tickets.pacha@fourvenues.com.
 
 | Item | What pacha.com says |
 |---|---|
@@ -42,7 +50,7 @@ Pacha Ibiza tickets are sold through pacha.com, which lists each night with a pr
 
 Ibiza Spotlight says dinner at the restaurant gives free entry afterwards at €90 to €120 per person. That is a third party figure from 2025, so check it with the restaurant.
 
-The shuttle leaves from The Egg on Avenida Doctor Fleming at 22:30, 23:45 and 01:00, with extra runs on some nights. The schedule on the site ended on 11 October 2026. A valid ticket is required and seats are not reserved.
+The seasonal shuttle leaves from The Egg on Avenida Doctor Fleming in San Antonio. A valid club ticket is required and seats are not reserved. Check the [shuttle timetable](https://www.pacha.com/shuttle-information) for departures and operating dates before planning your journey.
 
 ## Pacha Ibiza dress code
 
@@ -56,7 +64,7 @@ Ibiza Spotlight reads the rule more loosely for general admission, saying shorts
 
 The Pacha Ibiza 2026 season began with the opening weekend and ended with a closing week. Ibiza Spotlight lists the opening weekend as Marco Carola on 24 April, Solomun on 25 April and ANOTR on 26 April. The pacha.com artists page names the 2026 residencies as Solomun+1, Sonny Fodera, Music On presented by Marco Carola, MAU P with Baddest Behaviour, and Flower Power.
 
-On 4 October 2026 pacha.com listed one date after the closing week: Music On New Year's Eve on Thursday 31 December, with Marco Carola, Seth Troxler, Ilario Alicante and Frank Storm, at €60 to €350. It showed no summer 2027 dates. Those usually appear later, so this page will need a refresh then.
+For dates beyond the summer season, including New Year’s Eve, use the [official events calendar](https://www.pacha.com/events).
 
 ### Pacha Ibiza opening party and Flower Power
 
@@ -66,18 +74,9 @@ The opening party is the first weekend of the season. Flower Power is the club's
 
 ## Pacha Ibiza events and calendar
 
-The Pacha Ibiza calendar on pacha.com lists every night with its price range, and all the nights below run from 23:00 to 06:00. This is the closing week as read on 4 October 2026, with the lineup as the club shows it.
+The [Pacha Ibiza calendar](https://www.pacha.com/events) lists upcoming nights, DJs and available tickets. Choose a residency for its music, then check the hours and entry conditions for your date.
 
-| Date | Night | Listed on pacha.com | Price range |
-|---|---|---|---|
-| Sun 4 Oct | Solomun+1 closing party | Solomun, Argia | €65 to €700 |
-| Mon 5 Oct | Sonny Fodera closing party | Sonny Fodera, Fatboy Slim, Danny Howard, Saffron Stone | €35 to €285 |
-| Tue 6 Oct | Rampa presents Anarchy | Rampa, Sven Väth, JAMIIE | €40 to €450 |
-| Wed 7 Oct | Mau P, Baddest Behaviour closing party | Mau P | €30 to €175 |
-| Thu 8 Oct | Music On closing party, part 1 | Marco Carola, Michael Bibi, Cloonee, Mason Collective, Frank Storm | €125 to €600 |
-| Fri 9 Oct | Music On closing party, part 2 | Marco Carola, Franky Rizardo, East End Dubs, Ilario Alicante, Ale De Tuglie | €270 to €700 |
-| Sat 10 Oct | Grand Closing Weekend part 1, Flower Power | Roger Sanchez, MK, LAEET | €35 to €150 |
-| Sun 11 Oct | Grand Closing Weekend part 2 | PAWSA, Miguelle and Tons | €85 to €600 |
+
 
 Ibiza Rocks, in a January 2026 article, says Music On has had its home at Pacha since 2019 and gave the 2026 Friday run as 15 May to 9 October.
 
@@ -87,7 +86,7 @@ The Pacha Ibiza closing party is not one night. In 2026 it was a run of eight, w
 
 ### Pacha Ibiza DJs
 
-The Pacha Ibiza DJs in the table are the ones the club listed on 4 October 2026, and they are only the closing week. For the sound of the room, the three sets below were filmed at the club. DJ Mag filmed the Vagabundos opening party at Pacha in 2016. Mixmag filmed Sven Väth's Cocoon night at Pacha in 2018, and Solomun with Andhim at Pacha in 2014.
+To hear Pacha Ibiza DJs in the room, the three sets below were filmed at the club. DJ Mag filmed the Vagabundos opening party at Pacha in 2016. Mixmag filmed Sven Väth's Cocoon night at Pacha in 2018, and Solomun with Andhim at Pacha in 2014.
 
 ## Pacha Ibiza VIP and table
 
@@ -99,13 +98,6 @@ A Pacha Ibiza table is also the place the stricter dress code applies. Men are a
 
 The Pacha Ibiza address on pacha.com is Avenida 8 de Agosto, 07800 Ibiza, Balearic Islands. Gray Area gives it as Av. 8 d'Agost, 27, Eivissa. Ibiza Spotlight says the club sits on the outskirts of Ibiza Town, on the road to Talamanca, and that it is a leisurely stroll from the Port. The club ticket also covers the San Antonio shuttle described above.
 
-### Pacha Ibiza capacity
-
-The Pacha Ibiza capacity is 3,000, according to both Ibiza Spotlight and Gray Area. Pacha.com does not publish a figure. Ibiza Spotlight also reports the 3,795 crowd at the 2022 reopening, so a headline night can exceed the usual number.
-
-### Pacha Ibiza owner
-
-The Pacha Ibiza owner is FIVE Holdings, the Dubai based group. In a release read on 4 October 2026, FIVE says it bought The Pacha Group in October 2023 for €302.5 million, including Pacha Ibiza, Pacha New York, Destino Five Ibiza, Pacha Hotel, Toy Room Club, WooMoon Storytellers and the Pacha Collection, with the registered Pacha name and cherry logo. Resident Advisor reported in February 2017 that the group had earlier been sold to Trilantic Capital Partners for €350 million. FIVE says it was founded and chaired by Kabir Mulchandani.
 
 ## FAQ
 
@@ -115,11 +107,11 @@ The Pacha Ibiza age limit is 18. Pacha.com says all guests must be 18 or older, 
 
 ### Does Pacha Ibiza have a guest list?
 
-The club's FAQ on pacha.com does not mention a Pacha Ibiza guest list, so this page cannot say whether one exists. Ask the ticket team at tickets.pacha@fourvenues.com before relying on one.
+Ask tickets.pacha@fourvenues.com about the Pacha Ibiza guest list for your chosen night before relying on entry without a ticket.
 
 ### What is the Pacha Ibiza lineup?
 
-The Pacha Ibiza lineup changes by night and is on the events page of pacha.com. The closing week lineup is in the table above.
+The Pacha Ibiza lineup changes by night. The [official events calendar](https://www.pacha.com/events) lists the DJs and tickets for your date.
 
 ### What time does Pacha Ibiza open?
 

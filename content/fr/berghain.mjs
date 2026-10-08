@@ -1,12 +1,12 @@
 // French Berghain guide. Structure, facts and media from the English page
 // (berghain-draft.md, build-berghain-article.mjs), translated 2026-10-06 on the
 // owner's instruction. All dated facts are the English page's, read on
-// 2026-10-04 from berghain.berlin: revisit both pages together each month.
+// 2026-10-04 from berghain.berlin: keep practical information aligned with the English guide.
 // Search wording from live Bing fr-FR (2026-10-06); volumes in
 // keywords/fr-berghain.json. The images are the English guide's, with
 // translated captions.
 import {
-  articleFigure, articleTable, articleVideoCard, articleVideoCollection, ownSetListening
+  articleFigure, articleVideoCard, articleVideoCollection, ownSetListening
 } from '../../site-components.mjs';
 
 const escapeHtml = value => String(value)
@@ -35,8 +35,8 @@ export default {
   title: 'Berghain : Panorama Bar, son et DJ résidents',
   description: 'Le Berghain expliqué : l’ancienne centrale, le Panorama Bar à l’étage, la Halle am Berghain, la Kantine et le label Ostgut Ton.',
   datePublished: '2026-10-06',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Guide de club, Berlin',
   heroTitle: 'Berghain : Panorama Bar, son et DJ résidents',
@@ -57,7 +57,7 @@ export default {
     {id: 'kantine', heading: 'Qu’est-ce que la Kantine du Berghain ?', title: 'Qu’est-ce que la Kantine du Berghain ?', tocLabel: 'Qu’est-ce que la Kantine ?'},
     {id: 'lineup', heading: 'Qui joue au Berghain ?', title: 'Qui joue au Berghain ?'},
     {id: 'sound', heading: 'À quoi ressemble le son du Berghain ?', title: 'À quoi ressemble le son du Berghain ?'},
-    {id: 'hours-tickets', heading: 'Horaires et billets', title: 'Horaires et billets du Berghain', subsections: ['dress-code', 'queue']}
+    {id: 'hours-tickets', heading: 'Horaires et billets', title: 'Horaires et billets du Berghain', subsections: ['opening-hours', 'entry-and-prices', 'dress-code', 'queue', 'accessibility-and-support-inside', 'getting-there-and-getting-home']}
   ],
 
   media: ({lang}) => ({
@@ -84,33 +84,13 @@ export default {
         articleVideoCard({youtubeId: '0EX18zMgGig', genre: 'Boiler Room', artist: 'Tama Sumo', title: 'Tama Sumo Boiler Room Berlin DJ Set'})
       ]
     }),
-    lineup: articleTable({
-      headers: ['Floor', 'DJ et live listés'],
-      rows: [
-        ['Berghain', 'Anika Kunst, Ben Klock, Dax J, DJ Nobu, Elisa Batti, Fiedel, Grace Dahl'],
-        ['Panorama Bar', 'Gene On Earth, Gonno, L.B. Dub Corp, Luigi Di Venere, Ogazón, Paquita Gordon, Zombies In Miami'],
-        ['Säule', 'Hansgod, live, le dimanche soir']
-      ].map(row => row.map(escapeHtml)),
-      label: 'Programmation de la Klubnacht, 10 octobre 2026'
-    }),
-    prices: articleTable({
-      headers: ['Événement', 'Où', 'Début', 'Billets'],
-      rows: [
-        ['Soirée Säule (jeudis)', 'Säule', '22 h', '14 euros en prévente, 16 sur place'],
-        ['Hypersoft, 9 octobre', 'Panorama Bar', '22 h', '20 euros en prévente, 22 sur place'],
-        ['Hunger to Create, 15 octobre', 'Berghain', '21 h', '21 euros en prévente, 23 sur place'],
-        ['Krallice, 13 octobre', 'Berghain', '20 h, portes à 19 h', '30 euros via CTM'],
-        ['Exposition à la Halle', 'Halle', '14 h à 19 h, du jeudi au dimanche', '10 euros ou 8 euros sur place'],
-        ['Klubnacht, 10 octobre', 'Berghain, Panorama Bar, Säule', '23 h 59', 'Aucun prix sur la page de l’événement']
-      ].map(row => row.map(escapeHtml)),
-      label: 'Prix des événements du Berghain, octobre 2026'
-    })
+
   }),
 
   sources: [
-    {html: `Programme, floors, prix, horaires, adresse et informations pratiques, lus le 4 octobre 2026 : ${ext('https://www.berghain.berlin/en/', 'berghain.berlin')}, ${ext('https://www.berghain.berlin/en/program/', 'programme')}, ${ext('https://www.berghain.berlin/en/program/kantine-am-berghain/', 'programme de la Kantine')}, ${ext('https://www.berghain.berlin/en/program/halle/', 'programme de la Halle')}, ${ext('https://www.berghain.berlin/en/event/80746/', 'Klubnacht du 10 octobre')}, ${ext('https://www.berghain.berlin/en/contact', 'page de contact')}, ${ext('https://www.berghain.berlin/en/awareness/', 'page awareness')} et ${ext('https://www.berghain.berlin/en/program/archive/2026/05/', 'archives du programme 2026')}.`},
-    {html: `Histoire du bâtiment, anciens usages des espaces et capacité, lus le 4 octobre 2026 : ${ext('https://industriekultur.berlin/ort/berghain/', 'Berliner Zentrum Industriekultur')}. Classement : ${ext('https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09085197', 'Landesdenkmalamt Berlin, Denkmaldatenbank, objet 09085197')}.`},
-    {html: `Intérieur, installation du foyer et aménagement du Panorama Bar, lus le 4 octobre 2026 : ${ext('https://www.karhard.de/projects/berghain', 'Karhard Architekten, page de projet Berghain')}.`},
+    {html: `Programme, floors, prix, horaires, adresse et informations pratiques : ${ext('https://www.berghain.berlin/en/', 'berghain.berlin')}, ${ext('https://www.berghain.berlin/en/program/', 'programme')}, ${ext('https://www.berghain.berlin/en/program/kantine-am-berghain/', 'programme de la Kantine')}, ${ext('https://www.berghain.berlin/en/program/halle/', 'programme de la Halle')}, ${ext('https://www.berghain.berlin/en/contact', 'page de contact')}, ${ext('https://www.berghain.berlin/en/awareness/', 'page awareness')} et ${ext('https://www.berghain.berlin/en/program/archive/2026/05/', 'archives du programme 2026')}.`},
+    {html: `Histoire du bâtiment, anciens usages des espaces et capacité : ${ext('https://industriekultur.berlin/ort/berghain/', 'Berliner Zentrum Industriekultur')}. Classement : ${ext('https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09085197', 'Landesdenkmalamt Berlin, Denkmaldatenbank, objet 09085197')}.`},
+    {html: `Intérieur, installation du foyer et aménagement du Panorama Bar : ${ext('https://www.karhard.de/projects/berghain', 'Karhard Architekten, page de projet Berghain')}.`},
     {html: `Dates de l’Ostgut et résidents : ${ext('https://crackmagazine.net/article/long-reads/now-time-marcel-dettmann-ben-klock-interviewed/', 'Crack, entretien avec Marcel Dettmann et Ben Klock, 2017')} et ${ext('https://groove.de/2022/10/10/ein-nachruf-auf-ostgut-booking-mehr-als-ein-weiterer-technoclub/', 'Groove, hommage à Ostgut Booking, 2022')}.`},
     {html: `Système son : ${ext('https://mixmag.net/read/berghain-updates-soundsystem-funktion-one-news', 'Mixmag, 18 octobre 2023')} et ${ext('https://groove.de/2023/10/23/berghain-soundanlage-nach-18-jahren-ausgetauscht/', 'Groove, 23 octobre 2023')}. Série de mixes : ${ext('https://ra.co/news/12034', 'Resident Advisor, 26 avril 2010')}.`}
   ],

@@ -47,8 +47,8 @@ export default {
   title: 'Die besten Clubs in Paris: Rex Club, Essaim und Badaboum',
   description: 'Rex Club, Essaim, Badaboum und La Station nach Lage und Musik vergleichen. Danach folgt die Geschichte früherer Pariser Clubs.',
   datePublished: '2026-09-22',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs in Paris',
   heroTitle: 'Die besten Clubs in Paris: Rex Club, Essaim, Badaboum und La Station',

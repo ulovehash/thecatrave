@@ -25,8 +25,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-amsterdam';
 const title = 'Best Clubs in Amsterdam: From RoXY to Radion';
 const description = 'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.';
 const datePublished = '2026-09-23';
-const dateModified = '2026-09-23';
-const dateLabel = '23 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

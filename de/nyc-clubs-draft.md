@@ -52,7 +52,7 @@ Auch Brooklyns Clubs hatten Ausfälle. Das Brooklyn Mirage, die Freiluftbühne d
 
 ## Die besten Clubs in New York heute
 
-Das sind die besten Clubs in New York für House, Techno und Tanzmusik, die jetzt geöffnet sind, Stand September 2026: die Räume, die auf jeder ernsthaften Liste stehen, von Time Out bis zu den Techno-Guides, dazu die, zu denen die Geschichte dieser Seite führt. Keiner davon liegt in Manhattan.
+Diese Clubs in New York konzentrieren sich auf House, Techno und Tanzmusik. Alle unten aufgeführten Clubs liegen außerhalb Manhattans.
 
 [Tabelle: now]
 

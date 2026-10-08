@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-bristol';
 const title = 'Best Clubs in Bristol: Motion, Lakota and Thekla';
 const description = "Motion lost its lease in 2025 and moved, Lakota has run drum and bass since the 1990s, and a 1959 cargo ship still hosts club nights: the best clubs in Bristol.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

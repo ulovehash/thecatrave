@@ -255,3 +255,11 @@ Club planning asides use the surrounding section title as their accessible name 
 The legacy Jungle generator removes generated Bandcamp midpoint markers before reusing its preserved body. Rebuilds must emit exactly one marker per article; `audit-site-components.mjs` checks this to prevent duplicate placement anchors accumulating.
 
 Club roundups do not display generic travel-check reminders or “Planning links checked” dates in tables or venue blocks. Keep verification dates in the research records and retain useful venue links.
+
+### One practical section per club guide
+
+Club guides use one `#visiting` section immediately after the hero and contents. Its localized heading is “Plan your visit”, “Plane deinen Besuch” or “Préparer votre visite”. The closed Printworks guide instead labels its section “Printworks: closure and reopening”. Individual club pages consolidate hours, tickets, dress and transport information into subsections, with practical tables rendered as paragraphs. Roundups retain their venue comparison tables and move existing travel and door advice into the early section. Listening passages stay with the editorial body.
+
+`articlePage()` calls `consolidateClubVisit()` from `club-visit-layout.mjs`, using `articleSection()` and `articleTableOfContents()` for the output. The explicit route and section mapping lives in `content/club-visit-layouts.json`; factual prose stays in each article's draft. Former section IDs remain on their corresponding subsections, and contents links are rebuilt to match. Routes outside that mapping pass through unchanged.
+
+Run `node scripts/build-club-guides.mjs` and `node audit-club-visits.mjs` after edits. The audit covers all 57 club-guide routes, including translations, and checks one early planner, retained legacy anchors, metadata, original publication dates, media and heading order. `content/club-visit-preservation.json` records the pre-consolidation invariants. The build updates only the configured club consumers, so an unrelated guide is not regenerated for this route-scoped change.

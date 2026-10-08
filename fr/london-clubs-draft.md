@@ -31,7 +31,7 @@ Celle de Rampling arrive en premier. Shoom ouvre un samedi de novembre 1987 dans
 
 Oakenfold emmène la sienne à Heaven. Future a lieu le jeudi dans le Soundshaft de Heaven, et Spectrum, qu'il organise avec Ian St Paul, a lieu le lundi soir d'avril 1988 à 1990. Pour ses soirées Land of Oz, Oakenfold fait venir Jimmy Cauty et Alex Paterson, de The Orb, comme DJ ambient dans une salle appelée la White Room, et l'article Wikipédia sur Heaven appelle ces sessions la naissance de l'ambient house.
 
-Celle de Holloway, c'est Trip, à la London Astoria, sur Charing Cross Road. Son propre article Wikipédia la date de fin mai 1988 et en fait l'un des premiers clubs d'acid house légaux ; l'article sur l'Astoria la place aussi en 1988. L'article Wikipédia sur Shoom dit juin 1987, ce que les deux autres contredisent, et cette page suit les deux qui concordent. Trip a ensuite changé de nom pour Sin, parce que le premier nom était trop lié à la drogue.
+Nicky Holloway ouvre [Trip à la London Astoria](https://ra.co/events/65793), sur Charing Cross Road, en 1988. La soirée fait partie des premières nuits légales d’acid house et prend ensuite le nom de Sin face à la campagne des tabloïds contre l’acid house.
 
 [Image: Astoria]
 
@@ -65,7 +65,7 @@ fabric ouvre le 29 octobre 1999, fondé par Keith Reilly et Cameron Leslie dans 
 
 [Image: fabric front]
 
-Le classement de DJ Magazine l'a élu meilleur club du monde en 2007 et en 2008. En septembre 2016, le conseil d'Islington retire sa licence après deux morts liées à la drogue ; une campagne pour le sauver suit, et il a rouvert avec plus de sécurité et des conditions plus strictes. Il figure sur les trois listes de clubs que ce guide a lues, et seuls The Cause et FOLD peuvent en dire autant.
+Le classement de DJ Magazine l'a élu meilleur club du monde en 2007 et en 2008. En septembre 2016, le conseil d'Islington retire sa licence après deux morts liées à la drogue ; une campagne pour le sauver suit, et il a rouvert avec plus de sécurité et des conditions plus strictes.
 
 Keith Reilly, le fondateur, jouait encore en 2024. Ce set, présenté comme un fabric special, réunit Reilly avec Terry Francis et Howie B, filmé pour Beatport à la Brighton Music Conference en 2024.
 
@@ -99,7 +99,7 @@ The Cause a ouvert à Tottenham Hale en 2018, géré par Stuart Glen et Eugene W
 
 [Table: now]
 
-La majeure partie du tableau est dans l'est et le sud de Londres, là où le clubbing londonien s'est déplacé : Hackney Wick, Dalston et Canning Town d'un côté, Peckham, Brixton et South Bermondsey de l'autre. Les salles du West End de l'histoire ci-dessus, l'Astoria et The End, ont disparu, et le Blitz aussi.
+Les clubs de ce guide se trouvent surtout dans l'est et le sud de Londres, là où le clubbing londonien s'est déplacé : Hackney Wick, Dalston et Canning Town d'un côté, Peckham, Brixton et South Bermondsey de l'autre. Les anciens clubs du West End, l'Astoria et The End, ont disparu, et le Blitz aussi.
 
 Phonox est à Brixton, et Rinse FM, la radio qui a porté le dubstep depuis Plastic People, y a filmé des sets en direct. Les deux sets ci-dessous viennent de la chaîne de Rinse.
 
@@ -127,7 +127,7 @@ Au 4 Great Queen Street, à Covent Garden, où Steve Strange et Rusty Egan ont t
 
 ### Quelles sont les 10 meilleures boites de nuit de Londres ?
 
-Deux listes ne s'accordent jamais sur dix. Les trois lues pour ce guide citent toutes les mêmes sept : fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox et MOT. Drumsheds, Ministry of Sound et Heaven figurent sur deux d'entre elles. Cela fait dix, et le tableau ci-dessus dit où se trouve chacune.
+Pour comparer dix clubs londoniens, commencez par fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox, MOT, Drumsheds, Ministry of Sound et Heaven. Le tableau ci-dessus indique leur emplacement et leur programmation musicale.
 
 ### Quelle est la plus grande boite de nuit de Londres ?
 

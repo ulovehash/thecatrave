@@ -57,8 +57,8 @@ export default {
   title: 'Clubs in London für elektronische Musik: Geschichte und heute',
   description: 'Die besten Clubs in London für elektronische Musik, von fabric und FOLD bis Phonox und The Cause, und die Räume hinter Acid House, Jungle, Garage und Dubstep.',
   datePublished: '2026-09-18',
-  dateModified: '2026-09-18',
-  dateLabel: '18. September 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs in London',
   heroTitle: 'Die besten Clubs in London für elektronische Musik',

@@ -31,7 +31,7 @@ Rampling's came first. Shoom opened on a Saturday in November 1987 in a basement
 
 Oakenfold took his to Heaven. Future ran on Thursdays in Heaven's Soundshaft, and Spectrum, which he promoted with Ian St Paul, ran on Monday nights from April 1988 to 1990. For his Land of Oz nights Oakenfold brought in Jimmy Cauty and Alex Paterson of The Orb as ambient DJs in a room called the White Room, and Wikipedia's Heaven article calls those sessions the birth of ambient house.
 
-Holloway's was Trip, at the London Astoria on Charing Cross Road. His own Wikipedia article dates it to the end of May 1988 and calls it one of the first legal acid house clubs; the Astoria's article puts it in 1988 as well. Wikipedia's article on Shoom says June 1987, which the other two contradict, and this page follows the two that agree. Trip later changed its name to Sin, because the first name was too closely tied to the drugs.
+Nicky Holloway opened [Trip at the London Astoria](https://ra.co/events/65793) on Charing Cross Road in 1988. It became one of the early legal acid-house nights and later changed its name to Sin amid the tabloid backlash against acid house.
 
 [Image: Astoria]
 
@@ -65,7 +65,7 @@ fabric opened on 29 October 1999, founded by Keith Reilly and Cameron Leslie in 
 
 [Image: fabric front]
 
-DJ Magazine's poll voted it the best club in the world in 2007 and 2008. In September 2016 Islington Council revoked its licence after two drug-related deaths; a campaign to save it followed, and it reopened with more security and stricter conditions. It is on all three club lists this guide read, and only The Cause and FOLD can say the same.
+DJ Magazine's poll voted it the best club in the world in 2007 and 2008. In September 2016 Islington Council revoked its licence after two drug-related deaths; a campaign to save it followed, and it reopened with more security and stricter conditions.
 
 Keith Reilly, the founder, was still playing in 2024. This set, billed as a fabric special, is Reilly with Terry Francis and Howie B, filmed for Beatport at the Brighton Music Conference in 2024.
 
@@ -99,7 +99,7 @@ The Cause opened in Tottenham Hale in 2018, run by Stuart Glen and Eugene Wild o
 
 [Table: now]
 
-Most of the table is east and south London, which is where clubbing in London has moved: Hackney Wick, Dalston and Canning Town on one side, Peckham, Brixton and South Bermondsey on the other. The West End rooms in the history above, the Astoria and The End, are gone, and so is the Blitz.
+The clubs in this guide are mostly in east and south London, which is where clubbing in London has moved: Hackney Wick, Dalston and Canning Town on one side, Peckham, Brixton and South Bermondsey on the other. The former West End venues, the Astoria and The End, are gone, and so is the Blitz.
 
 Phonox is in Brixton, and Rinse FM, the station that carried dubstep from Plastic People, has filmed live sets there. Both of the sets below come from Rinse's own channel.
 
@@ -127,7 +127,7 @@ At 4 Great Queen Street in Covent Garden, where Steve Strange and Rusty Egan ran
 
 ### What are the top 10 nightclubs in London?
 
-No two lists agree on ten. The three read for this guide all name the same seven: fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox and MOT. Drumsheds, Ministry of Sound and Heaven are on two of them. That makes ten, and the table above says where each one is.
+For ten London clubs to compare, start with fabric, The Cause, FOLD, The Carpet Shop, Dalston Superstore, Phonox, MOT, Drumsheds, Ministry of Sound and Heaven. The table above gives their locations and musical focus.
 
 ### What is the biggest club in London?
 

@@ -30,8 +30,8 @@ export default {
   title: 'Boîtes de nuit à New York : house et techno, hier et aujourd’hui',
   description: 'Les meilleures boîtes de nuit de New York pour la house et la techno : Nowadays, Basement, Public Records, Good Room et Elsewhere, plus l’histoire du Loft à Output.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit New York',
   heroTitle: 'Les meilleures boîtes de nuit à New York, du Paradise Garage au Nowadays',

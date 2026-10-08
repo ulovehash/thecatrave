@@ -23,8 +23,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-vienna';
 const title = 'Best Clubs in Vienna: Flex, Grelle Forelle and Where to Dance Now';
 const description = "The best clubs in Vienna now: Flex, Grelle Forelle, Das Werk, Fluc and SASS, plus what happened to Pratersauna, which stopped operating as a club in 2025.";
 const datePublished = '2026-10-05';
-const dateModified = '2026-10-05';
-const dateLabel = '5 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

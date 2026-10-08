@@ -25,8 +25,9 @@ const draft = fs.readFileSync('fabric-london-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/fabric-london';
 const title = 'fabric London: History, Rooms, Tickets and Dress Code';
 const description = 'fabric London in Farringdon: the three rooms, opening times, tickets, dress code, capacity, age limit and what happened in the 2016 closure.';
-const date = '2026-10-04';
-const dateLabel = '4 October 2026';
+const published = '2026-10-04';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -70,6 +71,7 @@ const blocks = text => text.split(/\n{2,}/).map(p => p.trim()).filter(Boolean);
 const renderBlock = block => {
   const figure = block.match(/^!\[[^\]]*\]\(figure:([a-z0-9-]+)\)$/);
   if (figure) return figures[figure[1]];
+  if (block.startsWith('### ')) return `<h3>${inline(block.slice(4))}</h3>`;
   if (block.startsWith('|')) {
     const rows = block.split('\n').filter((_, i) => i !== 1).map(line => line.split('|').slice(1, -1).map(cell => inline(cell.trim())));
     return articleTable({label: tableLabels[rows[0][0]] || 'fabric London', headers: rows[0], rows: rows.slice(1)});
@@ -139,15 +141,16 @@ const articleHtml = [
   articleSection({id: 'introduction', title: 'One club, several questions.', bodyHtml: join(sec('Introduction')), className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is fabric London?', bodyHtml: `${join(sec('What is fabric London?'))}${firstMix}`}),
   articleSection({id: 'tickets', title: 'Tickets', bodyHtml: join(sec('Tickets'))}),
-  articleSection({id: 'hours', title: 'Opening times and address', bodyHtml: join(sec('Opening times and address'))}),
-  articleSection({id: 'dress-code', title: 'What is the dress code?', bodyHtml: join(sec('What is the dress code?'))}),
+  articleSection({id: 'hours', title: 'fabric London opening times and address', bodyHtml: join(sec('Opening times and address'))}),
+  articleSection({id: 'dress-code', title: 'fabric London dress code', bodyHtml: join(sec('What is the dress code?'))}),
+  articleSection({id: 'accessibility', title: 'Accessibility and spaces to rest', bodyHtml: join(sec('Accessibility and spaces to rest'))}),
   articleSection({id: 'capacity', title: 'Capacity and rooms', bodyHtml: join(sec('Capacity and rooms'))}),
   articleSection({id: 'lineup', title: 'Line-up and events', bodyHtml: `${join(sec('Line-up and events'))}${clubSets}${secondMix}`}),
   articleSection({id: 'closure-2016', title: 'What happened in 2016?', bodyHtml: `${join(sec('What happened in 2016?'))}${panel}`}),
   articleFaq({items: faqItems, title: 'fabric London FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Opening times, dress code, age limit, search policy, cloakroom, music policy and directions, read on 4 October 2026: ${ext('https://fabriclondon.com/faq', 'fabric London FAQ')}.</li>
+<li>Opening times, dress code, age limit, search policy, cloakroom, music policy and directions: ${ext('https://fabriclondon.com/faq', 'fabric London FAQ')}.</li>
 <li>Entry rules, ID and ticket entry times: ${ext('https://fabriclondon.com/info/entry-policy', 'entry policy')}. Room access and the lift: ${ext('https://fabriclondon.com/info/accessibility', 'accessibility page')}. Photos: ${ext('https://fabriclondon.com/info/phone-safety', 'no photo policy')}.</li>
 <li>Hire capacities by room and venue size: ${ext('https://fabriclondon.com/private-hire', 'private hire page')}. Founding residents: ${ext('https://fabriclondon.com/residents', 'residents page')}. Listings and ticket links: ${ext('https://fabriclondon.com/whats-on', 'What\'s On')}.</li>
 <li>Room 1 dance floor and sound systems: ${ext('https://fabriclondon.com/posts/weve-upgraded-our-dancefloor', 'dance floor post')} and ${ext('https://fabriclondon.com/posts/a-major-sound-system-upgrade-to-rooms-2-3', 'Rooms 2 and 3 post')}.</li>
@@ -166,7 +169,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'fabric London', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -175,7 +178,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/fabric-london'),
   ogImage: 'https://thecatrave.com/img/og/fabric-london.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page fabric-london-page',
   structuredData, articleHtml
 });

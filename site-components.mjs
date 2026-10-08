@@ -1,3 +1,4 @@
+import {consolidateClubVisit} from './club-visit-layout.mjs';
 import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 import { t, defaultLang, locales } from './i18n.mjs';
@@ -610,6 +611,7 @@ function bandcampExperimentBootstrap() {
 
 export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article', lang = defaultLang, alternates = []} = {}) {
   requireFields('articlePage', {title,description,canonical,ogImage,articleHtml});
+  articleHtml = consolidateClubVisit(articleHtml, canonical, lang, articleSection, articleTableOfContents);
   articleHtml = ensureFestivalPlanning(articleHtml, canonical, lang);
   const pageVenue = clubGuideLinksFor(title);
   if (pageVenue && !articleHtml.includes('class="club-venue-planning"')) {

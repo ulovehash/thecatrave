@@ -25,8 +25,9 @@ const draft = fs.readFileSync('pacha-ibiza-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/pacha-ibiza';
 const title = 'Pacha Ibiza: Tickets, Dress Code and Calendar 2026';
 const description = 'Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.';
-const date = '2026-10-04';
-const dateLabel = '4 October 2026';
+const published = '2026-10-04';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -141,7 +142,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Pacha Ibiza FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Prices, tickets, hours, age, dress code, last entry, VIP, events and residencies, read on 4 October 2026: ${ext('https://www.pacha.com/', 'pacha.com')}, ${ext('https://www.pacha.com/contact-us', 'FAQ and contact')}, ${ext('https://www.pacha.com/vip-events', 'VIP page')}, ${ext('https://www.pacha.com/events', 'events')}, ${ext('https://www.pacha.com/artists', 'artists')} and ${ext('https://www.pacha.com/shuttle-information', 'shuttle information')}.</li>
+<li>Prices, tickets, hours, age, dress code, last entry, VIP, events and residencies: ${ext('https://www.pacha.com/', 'pacha.com')}, ${ext('https://www.pacha.com/contact-us', 'FAQ and contact')}, ${ext('https://www.pacha.com/vip-events', 'VIP page')}, ${ext('https://www.pacha.com/events', 'events')}, ${ext('https://www.pacha.com/artists', 'artists')} and ${ext('https://www.pacha.com/shuttle-information', 'shuttle information')}.</li>
 <li>Capacity, location, dress code notes, history and the cherry logo: Ibiza Spotlight, ${ext('https://www.ibiza-spotlight.com/magazine/2025/03/ibiza-virgins-guide-pacha', 'Insiders\' Guide')} (14 March 2025) and ${ext('https://www.ibiza-spotlight.com/magazine/2023/07/10-surprising-facts-about-pacha-ibiza', '10 surprising facts')} (20 July 2023). Closing weekend: ${ext('https://www.ibiza-spotlight.com/night/promoters/pacha-closing-party', 'Ibiza Spotlight')}.</li>
 <li>History, rooms, address and the Flower Power party: ${ext('https://grayarea.co/magazine/from-farmhouse-to-dancefloor-the-first-djs-and-residencies-at-pacha-ibiza', 'Gray Area article')} and ${ext('https://grayarea.co/venues/pacha-ibiza', 'venue page')}.</li>
 <li>2026 opening weekend and Music On residency: ${ext('https://www.ibizarocks.com/stories/pacha-2026-opening-weekend/', 'Ibiza Rocks opening weekend')} (21 January 2026) and ${ext('https://www.ibizarocks.com/stories/marco-carola-music-on-pacha-2026/', 'Music On')} (26 January 2026).</li>
@@ -159,7 +160,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'Pacha Ibiza', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -168,7 +169,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/pacha-ibiza'),
   ogImage: 'https://thecatrave.com/img/og/pacha-ibiza.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page pacha-ibiza-page',
   structuredData, articleHtml
 });

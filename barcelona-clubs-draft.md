@@ -20,7 +20,7 @@ Razzmatazz opened in 2000 as Zeleste's named heir, in a former industrial buildi
 
 ## Sala Apolo and Nitsa
 
-Sala Apolo, on Carrer Nou de la Rambla, has been changing use since the early twentieth century. Sources agree the building has passed through several identities as the city around it changed, and settle on one certain date: it operated as a public ice rink, officially inaugurated in September 1951, before becoming the concert hall it is now.
+Sala Apolo, on Carrer Nou de la Rambla, has changed use since the early twentieth century. Before becoming today’s concert hall, it operated as a public ice rink, officially inaugurated in September 1951.
 
 Nitsa, one of Barcelona's first electronic club nights and still one of the best techno clubs in Barcelona, began as a weekly party in 1993 (some sources give 1994), then moved into Sala Apolo in September 1996, where it still runs. It is still listed on DJ Mag's Top 100 Clubs, not for the building but for the night itself: a room that has kept a serious electronic booking policy inside a much older concert hall for three decades.
 

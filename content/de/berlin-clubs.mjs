@@ -50,8 +50,8 @@ export default {
   title: 'Die besten Clubs in Berlin: Legenden und die, die noch offen sind',
   description: 'Berghain, Tresor, KitKat und die Clubs davor: die besten Clubs in Berlin, wie jeder berühmt wurde, und die Sets, die man hören sollte, bevor man hingeht.',
   datePublished: '2026-09-18',
-  dateModified: '2026-09-18',
-  dateLabel: '18. September 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs in Berlin',
   heroTitle: 'Die besten Clubs in Berlin und die Legenden dahinter',

@@ -31,7 +31,7 @@ export default {
   title: "Die besten Partystädte Europas zum Clubben",
   description: "Berlin, Amsterdam, London, Ibiza, Tiflis und sieben weitere: die besten Partystädte Europas, geordnet nach ihren Clubs statt nach Bars und Stränden.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24. September 2026",
 
   heroKicker: "Partystädte Europa",

@@ -119,7 +119,7 @@ The biggest nightclub in the world on this list is Surreal Park, and it is an un
 
 ## World famous nightclubs: the longest-running rooms
 
-Fame in a nightclub mostly means age. These are the most famous nightclubs in the world by how long they have run, using the dates the sources give. World famous clubs on this list are the ones that have outlasted several scenes.
+Fame in a nightclub mostly means age. These are the most famous nightclubs in the world by how long they have run, based on their opening years. World famous clubs on this list are the ones that have outlasted several scenes.
 
 | Club | City | Open since |
 |---|---|---|

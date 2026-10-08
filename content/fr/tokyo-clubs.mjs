@@ -30,8 +30,8 @@ export default {
   title: 'Les meilleures boîtes de nuit à Tokyo : WOMB, Contact',
   description: 'WOMB, Contact, Vent et Circus Tokyo : les meilleures boîtes de nuit à Tokyo pour la house, la techno et la bass music, et la loi de 68 ans contre la danse.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Tokyo',
   heroTitle: 'Les meilleures boîtes de nuit à Tokyo, du WOMB au combat pour légaliser la danse',

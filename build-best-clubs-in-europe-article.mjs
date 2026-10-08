@@ -28,8 +28,9 @@ const draft = fs.readFileSync('best-clubs-in-europe-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/best-clubs-in-europe';
 const title = 'Best Clubs in Europe: 23 Nightclubs Worth the Trip';
 const description = 'The best clubs in Europe by country, from Berghain and fabric to Pacha, with sets to hear from several rooms.';
-const date = '2026-10-04';
-const dateLabel = '4 October 2026';
+const published = '2026-10-04';
+const date = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -173,7 +174,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Best clubs in Europe FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Rankings, capacities, openings and club profiles, read on 4 October 2026: ${ext('https://djmag.com/top100clubs', 'DJ Mag Top 100 Clubs')} (2026 list and profile pages), the ${ext('https://djmag.com/features/dj-mag-top-100-clubs-2026-record-breaking-numbers-vote-our-annual-poll-of-worlds-best', 'DJ Mag 2026 results article')} (15 April 2026), the ${ext('https://djmag.com/top100clubs/2021/85/Lux-Fragil', 'Lux Frágil 2021 profile')} and the DJ Mag 2022 Rex Club profile. Ranks 63 to 100 were also checked against the ibiza1radio.com mirror of the list.</li>
+<li>Rankings, capacities, openings and club profiles: ${ext('https://djmag.com/top100clubs', 'DJ Mag Top 100 Clubs')} (2026 list and profile pages), the ${ext('https://djmag.com/features/dj-mag-top-100-clubs-2026-record-breaking-numbers-vote-our-annual-poll-of-worlds-best', 'DJ Mag 2026 results article')} (15 April 2026), the ${ext('https://djmag.com/top100clubs/2021/85/Lux-Fragil', 'Lux Frágil 2021 profile')} and the DJ Mag 2022 Rex Club profile.</li>
 <li>Berghain: ${ext('https://berghain.berlin/', 'berghain.berlin')}, ${ext('https://industriekultur.berlin/ort/berghain/', 'Berliner Zentrum Industriekultur')} and ${ext('https://mixmag.net/read/berghain-updates-soundsystem-funktion-one-news', 'Mixmag on the sound system')} (18 October 2023).</li>
 <li>Tresor: ${ext('https://tresor.foundation/en/geschichte/', 'Tresor Foundation history page')}.</li>
 <li>Ibiza: ${ext('https://www.pacha.com/', 'pacha.com')}, ${ext('https://grayarea.co/magazine/dc10-ibiza-the-first-ever-residencies', 'Gray Area on DC-10')}, ${ext('https://djmag.com/news/amnesia-ibiza-announces-50th-anniversary-celebrations-2026', 'DJ Mag on Amnesia\'s 50th year')} and ${ext('https://www.hiibiza.com/', 'hiibiza.com')}.</li>
@@ -192,7 +193,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: published, dateModified: date}),
   breadcrumbStructuredData({name: 'Best Clubs in Europe', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -201,7 +202,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/best-clubs-in-europe'),
   ogImage: 'https://thecatrave.com/img/og/best-clubs-in-europe.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: published, dateModified: date,
   bodyClass: 'article-page best-clubs-in-europe-page',
   structuredData, articleHtml
 });

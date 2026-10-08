@@ -34,8 +34,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-budapest';
 const title = 'Best Clubs in Budapest: A38, Instant-Fogas and Turbina';
 const description = "A38's converted cargo ship, the seven rooms of Instant-Fogas and Turbina's techno nights: the best clubs in Budapest now, and the ruin bars several grew out of.";
 const datePublished = '2026-09-24';
-const dateModified = '2026-09-24';
-const dateLabel = '24 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

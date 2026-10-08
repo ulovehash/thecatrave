@@ -20,7 +20,7 @@ Razzmatazz eröffnete 2000 als benannter Erbe von Zeleste, in einem ehemaligen I
 
 ## Sala Apolo und Nitsa
 
-Sala Apolo, an der Carrer Nou de la Rambla, wechselt seine Nutzung seit dem frühen 20. Jahrhundert. Die Quellen sind sich einig, dass das Gebäude mehrere Identitäten durchlaufen hat, während sich die Stadt um es herum veränderte, und nennen ein sicheres Datum: Es lief als öffentliche Eisbahn, offiziell eingeweiht im September 1951, bevor es zum heutigen Konzertsaal wurde.
+Sala Apolo an der Carrer Nou de la Rambla hat seit dem frühen 20. Jahrhundert mehrfach seine Nutzung gewechselt. Vor dem heutigen Konzertsaal befand sich dort eine öffentliche Eisbahn, die im September 1951 offiziell eröffnet wurde.
 
 Nitsa, einer der ersten elektronischen Club-Abende Barcelonas und bis heute einer der besten Techno-Clubs der Stadt, begann 1993 als wöchentliche Party (manche Quellen nennen 1994), zog dann im September 1996 in die Sala Apolo, wo es bis heute läuft. Es steht immer noch auf DJ Mags Top 100 Clubs, nicht für das Gebäude, sondern für den Abend selbst: ein Raum, der seit drei Jahrzehnten eine ernsthafte elektronische Booking-Politik in einem viel älteren Konzertsaal aufrechterhält.
 

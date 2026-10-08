@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in Tokio: WOMB, Contact und das Tanzverbot',
   description: 'WOMB, Contact, Vent und Circus Tokyo: die besten Clubs in Tokio für House, Techno und Bass Music und das 68 Jahre alte Gesetz gegen das Tanzen.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs Tokio',
   heroTitle: 'Die besten Clubs in Tokio, vom WOMB bis zum Kampf für das Tanzen',

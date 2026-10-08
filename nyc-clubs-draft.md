@@ -52,7 +52,7 @@ Brooklyn clubs have also had their casualties. The Brooklyn Mirage, the outdoor 
 
 ## The best clubs in NYC now
 
-These are the best clubs in NYC for house, techno and dance music open now, as of September 2026: the rooms that appear on every serious list, from Time Out's to the techno guides, plus the ones this page's history leads to. None of them is in Manhattan.
+These clubs in NYC focus on house, techno and dance music. All the venues below are outside Manhattan.
 
 [Table: now]
 

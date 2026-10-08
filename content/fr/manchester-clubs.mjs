@@ -30,8 +30,8 @@ export default {
   title: 'Meilleures boîtes de nuit à Manchester : Haçienda, Warehouse',
   description: 'L’Haçienda a fermé en 1997, mais son esprit DIY façonne encore la ville : les meilleures boîtes de nuit à Manchester aujourd’hui et l’essor du Warehouse Project.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Manchester',
   heroTitle: 'Les meilleures boîtes de nuit à Manchester, de l’héritage de l’Haçienda au Warehouse Project',

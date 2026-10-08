@@ -31,7 +31,7 @@ export default {
   title: "Boite de nuit Ibiza : Pacha, Amnesia, Hï et les autres",
   description: "Hï, Pacha, Amnesia, DC-10, Ushuaïa et [UNVRS] : les meilleures boîtes de nuit à Ibiza, celles qui ont fermé, où loger et quand dure la saison.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24 septembre 2026",
 
   heroKicker: "Boite de nuit Ibiza",

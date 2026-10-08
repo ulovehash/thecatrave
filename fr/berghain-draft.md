@@ -2,11 +2,11 @@
 
 ## Réponse
 
-Le Berghain est un club de Berlin installé dans une ancienne centrale thermique est-allemande, Am Wriezener Bahnhof, à Friedrichshain. C’est un club depuis 2004, exploité par la Berghain OstGut GmbH. La grande salle, l’ancienne salle des machines, accueille la techno, et le Panorama Bar se trouve à l’étage. La Säule, le jardin, la Halle et la Kantine am Berghain ajoutent un petit floor, un espace en plein air, des expositions et des concerts. La longue soirée du week-end s’appelle Klubnacht et commence le samedi à 23 h 59. Le 4 octobre 2026, le site officiel annonçait la suivante pour le 10 octobre, avec sept DJ au Berghain et sept au Panorama Bar, dont Ben Klock. L’entrée est réservée aux plus de 18 ans. Le site officiel ne publie ni dress code, ni temps d’attente, ni prix de la Klubnacht.
+Le Berghain est un club berlinois installé dans une ancienne centrale thermique est-allemande à Friedrichshain. La grande salle est associée à la techno ; le Panorama Bar à l’étage propose de la house et une palette musicale plus large. La Klubnacht commence tard le samedi et se poursuit le dimanche. D’autres événements ouvrent certaines salles pour des soirées, des concerts et des expositions.
 
 ## Introduction
 
-La plupart des pages sur le Berghain répètent les mêmes histoires sur la porte. Celle-ci part du bâtiment, des salles qu’il abrite et des soirées que le site officiel liste réellement, et elle signale chaque point où le club et la presse se contredisent ou se taisent.
+Pour une première visite, commencez par la musique : comparez les programmations du Berghain et du Panorama Bar. Un concert à la Kantine et une Klubnacht proposent des soirées très différentes dans le même bâtiment.
 
 Le club est une ancienne centrale de chauffage et de production d’électricité. Le Berliner Zentrum Industriekultur, un organisme berlinois du patrimoine industriel, date le bâtiment de 1952 à 1955, dans le style néoclassique des immeubles est-allemands de la Karl-Marx-Allee, et indique que la centrale a été arrêtée en 1988. La transformation en club a duré jusqu’en 2004. La base de données des monuments de Berlin classe la centrale dans un ensemble protégé.
 
@@ -24,7 +24,7 @@ Le Panorama Bar est le deuxième étage, auquel on accède par des escaliers d�
 
 Musicalement, le Panorama Bar du Berghain est le floor house. Groove, dans un hommage à l’agence de booking du club en 2022, en fait une réponse éclectique à la grande salle, plus stricte, et cite ses premiers résidents : Tama Sumo, Boris, nd_baumecker et Nick Höppner, ainsi que Prosumer, avec un lien avec l’histoire américaine de la house et du disco et avec les traditions festives queer. Pour la musique elle-même, voir le [guide de la house](/fr/musique-house).
 
-Le Panorama Bar fonctionne aussi seul. Le programme officiel d’octobre 2026 liste des soirées le vendredi à 22 h : Hypersoft le 9 octobre, Sister le 16 octobre et Innervisions le 23 octobre, les billets en prévente d’Innervisions étant déjà épuisés le 4 octobre. Les week-ends de Klubnacht, le même floor a ses propres DJ à côté de la grande salle.
+Le Panorama Bar accueille aussi ses propres soirées. Pendant la Klubnacht, il a sa programmation à côté de celle de la grande salle. Le [programme](https://www.berghain.berlin/en/program/) indique les floors ouverts pour chaque événement.
 
 [Embed: thecatrave mix 0]
 
@@ -34,21 +34,21 @@ La Halle am Berghain est l’ancienne chaufferie, et le Berliner Zentrum Industr
 
 [Image: street]
 
-En octobre 2026, la Halle présente A Shroud Woven of Solar Threads, une exposition d’Ala Roushan et Charles Stankievech sur une préhistoire de la géo-ingénierie solaire à travers le culte du soleil dans l’Iran ancien. Elle dure du 2 au 18 octobre 2026, du jeudi au dimanche de 14 h à 19 h, et les billets se vendent sur place 10 euros ou 8 euros. La page officielle nomme Juliet Kothe et Nadim Samman comme commissaires, en partenariat avec l’Autotelic Foundation.
+Les expositions et concerts de la Halle ont leurs propres horaires et billets. Choisissez un événement dans le [programme de la Halle](https://www.berghain.berlin/en/program/halle/) : une visite à la Klubnacht ne couvre pas toutes les activités du bâtiment.
 
 ## Qu’est-ce que la Kantine du Berghain ?
 
-La Kantine du Berghain, officiellement Kantine am Berghain, est la salle de concert du lieu. Sa programmation d’octobre 2026 est surtout composée de concerts, avec ouverture des portes à 19 h et début de la musique à 20 h. Jasmine Myra joue le 8 octobre, Mykki Blanco le 11 octobre et Girls of the Internet le 15 octobre. Toutes les soirées ne suivent pas ce schéma : le programme liste This is Techno Jazz le 10 octobre avec un début à 20 h et sans heure d’ouverture des portes, et Anthony Hüseyin le 17 octobre avec un warm-up DJ et une soirée après le concert.
+La Kantine du Berghain, officiellement Kantine am Berghain, est la salle de concert du lieu. Elle accueille des artistes en live et parfois des événements qui se poursuivent avec des DJ après le concert.
 
-Les prix varient d’un événement à l’autre et la page de programme officielle ne les affiche pas dans sa liste. Pour y aller, il faut consulter la page de l’événement. La grande salle accueille aussi des concerts : Krallice et Rashad Becker jouent au Berghain le 13 octobre, portes à 19 h, plus de 18 ans, billets vendus via CTM à 30 euros.
+Consultez les horaires des portes, des concerts et les prix dans le [programme de la Kantine](https://www.berghain.berlin/en/program/kantine-am-berghain/). La grande salle du Berghain accueille aussi des concerts, annoncés séparément de la Klubnacht.
 
 ## Qui joue au Berghain ?
 
-Le site officiel liste chaque soirée par floor. Voici la prochaine Klubnacht telle qu’elle apparaissait le 4 octobre 2026, à partir du samedi 10 octobre à 23 h 59.
+La prochaine programmation du Berghain se trouve dans le [programme officiel](https://www.berghain.berlin/en/program/). Les DJ et artistes live sont classés par floor : comparez la grande salle et le Panorama Bar avant de choisir votre soirée.
 
-[Table: lineup]
 
-Le site officiel ne publie pas de liste de DJ résidents, donc cette page s’appuie sur la presse pour les DJ résidents du Berghain. Ici, un DJ du Berghain est quelqu’un que la presse ou le programme nomme. L’entretien de Crack en 2017 appelle Marcel Dettmann et Ben Klock DJ résidents du Berghain et du Panorama Bar. L’hommage de Groove en 2022 ajoute Len Faki comme troisième résident de la grande salle et dit que tous les trois étaient pour la plupart inconnus au moment de leur choix.
+
+L’entretien de Crack en 2017 appelle Marcel Dettmann et Ben Klock DJ résidents du Berghain et du Panorama Bar. L’hommage de Groove en 2022 ajoute Len Faki comme troisième résident de la grande salle et dit que tous les trois étaient pour la plupart inconnus au moment de leur choix.
 
 Pour voir à quoi ressemble concrètement une programmation du Berghain, j’ai compté les Klubnacht listées dans les archives officielles du 1er janvier au 3 octobre 2026. Il y en avait 41. Steffi, Virginia et nd_baumecker apparaissent chacun sur 6 d’entre elles. Ben Klock, Marcel Dettmann et Tama Sumo apparaissent chacun sur 4, Boris sur 2, et Len Faki et Honey Dijon sur 1 chacun. Groove a rapporté en 2022 une résidence de Honey Dijon au Panorama Bar. Ce sont des décomptes de noms listés, pas une liste officielle de résidents, et un nom peut être listé puis changer.
 
@@ -56,7 +56,7 @@ Pour voir à quoi ressemble concrètement une programmation du Berghain, j’ai 
 
 La grande salle est connue pour la techno du Berghain, et les deux DJ qui l’ont définie sont ceux que la presse nomme le plus. L’entretien de Crack fait évoquer à Dettmann et Klock l’ancien Ostgut comme un lieu aux hauts plafonds, semblable aux clubs berlinois qu’ils fréquentaient dans les années 1990, et décrire l’ouverture du Berghain en 2004 comme quelque chose que la ville attendait. Groove soutient que leur choix a donné au club une définition actuelle de la techno qui reliait les années 1990 de Berlin aux années 2000. Pour le genre lui-même, voir le [guide de la techno](/fr/techno).
 
-Le système son du Berghain est l’autre moitié de cette réputation. Mixmag a rapporté le 18 octobre 2023 que le Funktion-One Dance Stack d’origine de la grande salle, installé en 2005, avait été remplacé après 18 ans et avait tourné environ 40 heures par semaine. Le fabricant affirme que le nouveau système est techniquement supérieur et garde sa spécification exacte confidentielle. Mixmag écrit aussi qu’il n’y a jamais eu de système Funktion-One au Panorama Bar, seulement des retours de DJ. Groove, qui relaie la même nouvelle, affirme que le système du Panorama Bar a été remplacé en 2017. Les deux sources se contredisent, donc cette page ne décrit pas ce qui se trouve au Panorama Bar.
+Le système son du Berghain est l’autre moitié de cette réputation. Mixmag a rapporté le 18 octobre 2023 que le Funktion-One Dance Stack d’origine de la grande salle, installé en 2005, avait été remplacé après 18 ans et avait tourné environ 40 heures par semaine. Le fabricant affirme que le nouveau système est techniquement supérieur et garde sa spécification exacte confidentielle. Mixmag écrit aussi qu’il n’y a jamais eu de système Funktion-One au Panorama Bar, seulement des retours de DJ. Groove, qui relaie la même nouvelle, affirme que le système du Panorama Bar a été remplacé en 2017. Ces articles ne permettent pas d’établir quel système équipe actuellement le Panorama Bar.
 
 [Embed: thecatrave mix 1]
 
@@ -68,19 +68,21 @@ Le label né du club est Ostgut Ton, lié depuis le site officiel. Ses dates var
 
 ## Horaires et billets
 
-L’adresse du Berghain est Am Wriezener Bahnhof, 10243 Berlin, à la S-Ostbahnhof, et la page de contact officielle indique que le lieu est réservé aux plus de 18 ans. L’adresse postale des mentions légales est Rüdersdorfer Straße 70, le même bâtiment vu de l’autre côté.
+### Horaires d’ouverture
 
-Les horaires du Berghain suivent le programme, pas une heure quotidienne fixe. La Klubnacht commence le samedi à 23 h 59. La page d’accueil officielle montrait le 4 octobre 2026 un programme continu pour le week-end, avec des créneaux à 23 h 59, 4 h 30, 8 h 30, 12 h 30, 16 h 30, 20 h 30 et 0 h 30 sur le floor principal : la soirée traverse donc le dimanche jusqu’au lundi. Le site ne publie pas d’heure de fermeture, et cette page n’en donne pas.
+La Klubnacht commence généralement le samedi à 23 h 59 et se poursuit le dimanche jusqu’au lundi. L’heure de fermeture varie. Les concerts et autres soirées ont leurs propres horaires, indiqués dans le [programme officiel](https://www.berghain.berlin/en/program/).
 
-Les billets du Berghain se vendent par événement. Les pages de programme indiquent ces prix pour début octobre 2026.
+### Entrée et tarifs
 
-[Table: prices]
+L’entrée est réservée aux personnes de 18 ans et plus. L’admission n’est pas garantie.
 
-Le site officiel mentionne aussi de l’eau froide gratuite au robinet dans tous les espaces sanitaires, une page awareness avec des conseils de réduction des risques, et un retrait des objets trouvés le mercredi de 14 h à 18 h, sur demande par e-mail à lost@ostgut.de.
+Prévoyez environ [28 à 30 euros pour l’entrée à la Klubnacht](https://www.top10berlin.de/de/cat/nachtleben-269/electro-clubs-715/berghain-245), à régler sur place. Les événements spéciaux peuvent coûter davantage. Pour les concerts et les autres soirées avec billetterie, consultez les prix et la prévente dans le [programme officiel](https://www.berghain.berlin/en/program/).
+
+De l’eau froide du robinet est disponible gratuitement dans tous les sanitaires. Pour les objets perdus, écrivez à lost@ostgut.de afin de convenir d’un retrait le mercredi entre 14 h et 18 h.
 
 ### Le dress code du Berghain
 
-Le site officiel ne publie pas de dress code. Les mentions légales, la page de contact et les pages d’événements n’en mentionnent aucun, et je n’ai trouvé aucune source du club qui le fasse. Tout ce qui est précis ailleurs est une supposition sur la façon dont la porte vous traite, et le fonctionnement de la porte est expliqué dans le [guide des meilleurs clubs de Berlin](/fr/boite-de-nuit-berlin).
+Le Berghain ne publie pas de dress code formel. Choisissez des vêtements et des chaussures confortables pour danser et attendre dehors. Les conseils vestimentaires relèvent de l’expérience personnelle, jamais d’une garantie d’entrée.
 
 ### La file d’attente du Berghain
 
@@ -88,13 +90,23 @@ Le site officiel ne donne aucun temps d’attente et ne promet rien sur l’entr
 
 [Image: queue]
 
-Pour savoir comment fonctionne la porte et ce que les gens en rapportent, mieux vaut lire le guide de Berlin qu’une rumeur. Pour une soirée avec billet fixe, comme un concert dans la grande salle ou à la Kantine, c’est le billet qui fait entrer.
+Prévoyez de l’attente et une autre option en cas de refus. Le club ne garantit pas l’entrée, y compris dans ses informations sur l’accessibilité. Pour les concerts, lisez les conditions du billet concerné. Le [guide de Berlin](/fr/boite-de-nuit-berlin) présente d’autres clubs.
+
+### Accessibilité et aide sur place
+
+Les [informations d’accessibilité du club](https://berghain.berlin/de/barrierefreiheit/) décrivent une entrée de plain-pied, des toilettes accessibles et un ascenseur reliant tous les étages, utilisé avec l’aide du personnel. Les équipes du bar, les runners et la sécurité peuvent vous aider à changer d’étage ou à rejoindre les toilettes.
+
+Si un handicap rend l’attente dans la file difficile, le club prévoit de se présenter directement à la porte avec une carte allemande de handicap indiquant un degré d’au moins 50. La mention « B » permet l’entrée gratuite d’une personne accompagnante. L’admission reste toutefois non garantie. Contactez [support@berghain.de](mailto:support@berghain.de) avant votre visite pour vos besoins précis, y compris si vos justificatifs ont été délivrés hors d’Allemagne.
+
+### Venir au club et rentrer
+
+Utilisez Am Wriezener Bahnhof pour l’entrée du club ; la page de contact officielle indique la gare S-Ostbahnhof. Ouvrez [Google Maps](https://www.google.com/maps/search/?api=1&query=Berghain+Am+Wriezener+Bahnhof+Berlin) pour le trajet à pied jusqu’à la porte. Avant de partir, vérifiez votre heure de départ dans le [calculateur d’itinéraire BVG](https://www.bvg.de/en/connections/connection-search), surtout si votre soirée se prolonge jusqu’au lundi matin.
 
 ## FAQ
 
 ### Histoire du Berghain : quand le club a-t-il ouvert ?
 
-Le bâtiment était une centrale de 1952 à 1955 et a été arrêté en 1988. C’est un club depuis 2004, après une transformation qui a duré jusque-là. Son prédécesseur, l’Ostgut, a ouvert selon Crack le 1er janvier 1999 et fermé en 2003. L’histoire du Berghain sur le site officiel est mince, donc les dates ici viennent du Berliner Zentrum Industriekultur, de Crack et de la page de projet des architectes.
+Le bâtiment était une centrale de 1952 à 1955 et a été arrêté en 1988. C’est un club depuis 2004, après une transformation qui a duré jusque-là. Son prédécesseur, l’Ostgut, a ouvert selon Crack le 1er janvier 1999 et fermé en 2003.
 
 ### Comment est une soirée au Berghain ?
 
@@ -102,12 +114,12 @@ La soirée du Berghain que le site officiel liste le plus souvent est la Klubnac
 
 ### Y a-t-il un jardin au Berghain ?
 
-Oui. Le programme officiel liste le Garten comme floor et montre son ouverture annuelle le vendredi 1er mai 2026 à 12 h, avec Christian AB, Cinthie, Cormac et Ogazón. Le Garten figure au programme de mai, juin et septembre 2026, et le site officiel ne donne pas de date de fin de saison. Le jardin avait aussi ouvert le 1er mai en 2025.
+Oui. Le Garten est un floor extérieur utilisé pendant les mois les plus chauds. Le [programme](https://www.berghain.berlin/en/program/) indique s’il ouvre pour votre événement.
 
 ### À quelle heure ferme le Berghain ?
 
-Le site officiel n’en donne aucune. Le 4 octobre 2026, son programme montrait la Klubnacht à partir de 23 h 59 le samedi, avec le dernier set listé sur le floor principal à 0 h 30 le lundi : mieux vaut prévoir une soirée qui traverse le dimanche.
+La Klubnacht se poursuit le dimanche jusqu’au lundi, sans heure de fermeture fixe. Consultez le [programme officiel](https://www.berghain.berlin/en/program/) pour votre événement.
 
 ### Le dress code du Berghain compte-t-il ?
 
-Le site officiel ne publie pas de dress code, donc cette page ne peut pas en donner. La section sur le dress code ci-dessus indique ce que les sources disent et ne disent pas.
+Le Berghain ne publie pas de dress code formel. Des vêtements et chaussures confortables sont pratiques pour danser et attendre ; une tenue ne garantit pas l’entrée.

@@ -47,8 +47,8 @@ export default {
   title: 'Die besten Clubs in Barcelona: Razzmatazz, Nitsa und Moog',
   description: 'Razzmatazz, Nitsa, Macarena Club und Moog nach Viertel und Musik vergleichen. Danach folgt die Geschichte der Clubräume Barcelonas.',
   datePublished: '2026-09-22',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs in Barcelona',
   heroTitle: 'Die besten Clubs in Barcelona: Razzmatazz, Nitsa, Macarena und Moog',

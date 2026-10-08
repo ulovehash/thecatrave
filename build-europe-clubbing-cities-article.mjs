@@ -26,8 +26,8 @@ const canonical = 'https://thecatrave.com/best-clubbing-cities-in-europe';
 const title = "Best Clubbing Cities in Europe: Where to Go Out";
 const description = "Berlin, Amsterdam, London, Ibiza, Tbilisi and seven more: the best clubbing cities in Europe, ranked by their clubs rather than bars and beaches.";
 const datePublished = '2026-09-23';
-const dateModified = '2026-09-23';
-const dateLabel = '23 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

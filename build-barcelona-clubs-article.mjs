@@ -28,8 +28,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-barcelona';
 const title = 'Best Clubs in Barcelona: Razzmatazz, Nitsa, Macarena and Moog';
 const description = 'Compare Razzmatazz, Nitsa, Macarena Club and Moog by area and music, then read how their rooms became part of Barcelona nightlife.';
 const datePublished = '2026-09-22';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -80,7 +80,7 @@ const media = {
       ['Razzmatazz', 'Poblenou', 'Five rooms, each with its own policy, from techno and house to indie and pop', "The city's biggest club, several nights under one roof"],
       ['Sala Apolo (Nitsa)', 'Poble Sec', 'An electronic club night running since 1996 inside a much older concert hall', 'A long, serious electronic booking policy in a historic room'],
       ['Macarena Club', 'Barri Gòtic, off La Rambla', 'A single dance floor, capacity about 300, electronic dance music', 'An intimate room that feels closer to a house party than a club'],
-      ['Moog', 'Barri Gòtic', "Long-running and named across every current guide checked for this page", 'A dependable stop in the old town']
+      ['Moog', 'Barri Gòtic', "Long-running club in the old town", 'A dependable stop in the old town']
     ].map(row => row.map(escapeHtml))
   })
 };

@@ -36,7 +36,7 @@ Five rooms make up the list of the best clubs in Tbilisi at the moment, and each
 
 [Table: now]
 
-KHIDI had events listed through September 2026, including a G2 night on 26 September. Mtkvarze had events listed for early September 2026 and has launched a new series, The Saturnalia, focused on Georgian queer history. Left Bank listed Friday clubnights through February 2026. Bassiani marked 12 years with an anniversary event on 10 July 2026. Café Gallery was reported open in 2026, but its own schedule could not be confirmed for this guide, so check before you go.
+KHIDI and Mtkvarze run weekend club nights. Mtkvarze’s The Saturnalia series focuses on Georgian queer history. For Bassiani, Left Bank and Café Gallery, check the venue’s current programme before travelling.
 
 ## Tbilisi techno: what to listen to
 

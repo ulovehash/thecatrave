@@ -53,8 +53,8 @@ export default {
   title: 'Boite de nuit Londres : les meilleurs clubs, de Heaven à FOLD',
   description: 'Les meilleurs clubs de Londres pour la musique électronique, de fabric à FOLD, et les salles derrière l\'acid house, la jungle, le garage et le dubstep.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boite de nuit Londres',
   heroTitle: 'Les meilleures boites de nuit de Londres pour la musique électronique',

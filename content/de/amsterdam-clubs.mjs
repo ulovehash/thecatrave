@@ -31,7 +31,7 @@ export default {
   title: "Clubs in Amsterdam: vom RoXY bis zum Radion",
   description: "Shelter, Radion, Lofi und der Gashouder: die besten Clubs in Amsterdam heute, warum sie 24 Stunden offen haben, und die Geschichte vom RoXY bis zur De School.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24. September 2026",
 
   heroKicker: "Clubs Amsterdam",

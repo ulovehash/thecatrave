@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-tokyo';
 const title = 'Best Clubs in Tokyo: WOMB, Contact and the Ban on Dancing';
 const description = 'WOMB, Contact, Vent and Circus Tokyo: the best clubs in Tokyo for house, techno and bass music, and the 68-year law against dancing that shaped them.';
 const datePublished = '2026-09-24';
-const dateModified = '2026-09-24';
-const dateLabel = '24 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

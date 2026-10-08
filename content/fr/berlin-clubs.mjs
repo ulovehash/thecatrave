@@ -45,8 +45,8 @@ export default {
   title: 'Boite de nuit Berlin : les meilleurs clubs et leurs légendes',
   description: 'Berghain, Tresor, KitKat et les clubs d’avant : les meilleurs clubs de Berlin, comment chacun est devenu célèbre, et les sets à écouter avant d’y aller.',
   datePublished: '2026-09-18',
-  dateModified: '2026-09-18',
-  dateLabel: '18 septembre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Clubs de Berlin',
   heroTitle: 'Boite de nuit Berlin : les meilleurs clubs et leurs légendes',

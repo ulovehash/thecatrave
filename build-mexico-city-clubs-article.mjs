@@ -31,8 +31,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-mexico-city';
 const title = 'Best Clubs in Mexico City: Patrick Miller, M.N.Roy and Fünk';
 const description = "Patrick Miller has run every Friday since 1983, M.N.Roy occupies a former Communist Party mansion, and Fünk opened in 2019: the best clubs in Mexico City now.";
 const datePublished = '2026-09-25';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

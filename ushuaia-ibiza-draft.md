@@ -2,13 +2,13 @@
 
 ## Answer
 
-Ushuaia Ibiza is an open-air club and beach hotel on the Platja d'en Bossa road in Sant Josep de sa Talaia, with parties that run mainly from 5pm to 11pm for guests aged 18 and over. For the 2026 season, the club's ticket partner Clubtickets listed single-event tickets at €30 to €130 and VIP tickets from €500. The dress code bans swimwear, flip flops and tank tops. The 2026 season opened on Sunday 26 April and closes with David Guetta's party on Monday 5 October and the ANTS closing party on Saturday 10 October. No 2027 dates, prices or lineup had been published on the official site when it was read on 5 October 2026.
+Ushuaia Ibiza is an open-air club and beach hotel on the Platja d'en Bossa road in Sant Josep de sa Talaia, with parties that run mainly from 5pm to 11pm for guests aged 18 and over. For the 2026 season, the club's ticket partner Clubtickets listed single-event tickets at €30 to €130 and VIP tickets from €500. The dress code bans swimwear, flip flops and tank tops. The 2026 season opened on Sunday 26 April and closes with David Guetta's party on Monday 5 October and the ANTS closing party on Saturday 10 October.
 
 ## Introduction
 
-Most people searching for Ushuaia Ibiza want a ticket price, the dress code, the closing-party lineup or a way to get there from Ibiza Town. The official site, which spells the name Ushuaïa, answers most of it across a calendar, a news page and an FAQ.
+Ushuaia Ibiza’s open-air parties start in the afternoon and finish before the island’s late-night clubs. The venue surrounds a hotel pool at Platja d’en Bossa, opposite Hï Ibiza.
 
-This guide pulls those answers into one place and dates them. For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), and for the town club across the island there is the [Pacha Ibiza guide](/pacha-ibiza).
+For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), and for the town club across the island there is the [Pacha Ibiza guide](/pacha-ibiza).
 
 Ushuaia is one of 23 rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
 
@@ -23,6 +23,10 @@ The dance floor runs from the stage to the pool. Clubtickets places a VIP area t
 ### Ushuaia Ibiza history
 
 Ibiza Spotlight's 2024 guide names Yann Pissenem and Abel Matutes of the Palladium Group as the people who built the hotel. A Spotlight review from the 2011 opening gave a capacity of 5,000. The same outlet's 2024 guide says 7,000. Its opening and closing parties lean towards the underground side of the lineup, and Spotlight lists Seth Troxler, Sven Väth, The Martinez Brothers, Paul Kalkbrenner and Richie Hawtin among the names that have headlined them. From 2019 the opening party became a 24-hour event shared with Hï Ibiza.
+
+### Ushuaia Ibiza capacity
+
+The Ushuaia Ibiza capacity is 7,000 according to Ibiza Spotlight's 2024 guide. Its 2011 opening review gave a smaller capacity of 5,000.
 
 ## Ushuaia Ibiza tickets
 
@@ -41,7 +45,7 @@ Ushuaia Ibiza tickets are sold through Clubtickets, which the club's FAQ names a
 
 ### Ushuaia Ibiza price
 
-The Ushuaia Ibiza price depends on the night, so there is no single figure. The official calendar and VIP page read on 5 October 2026 list no prices. The €30 to €130 range comes from Clubtickets and the €50 to over €100 range from Ibiza Spotlight's August 2024 guide. The FAQ says the best time to arrive is before 7pm.
+The Ushuaia Ibiza price depends on the night, so there is no single figure. The €30 to €130 range comes from Clubtickets and the €50 to over €100 range from Ibiza Spotlight's August 2024 guide. The FAQ says the best time to arrive is before 7pm.
 
 ## Ushuaia Ibiza dress code
 
@@ -65,7 +69,7 @@ The Ushuaia Ibiza age limit is 18. The FAQ asks for original photo ID, which mea
 
 ## Ushuaia Ibiza 2026
 
-The Ushuaia Ibiza 2026 season began on Sunday 26 April and ends with the ANTS closing party on Saturday 10 October. The residency table below has the other dates.
+The Ushuaia Ibiza 2026 season began on Sunday 26 April and ends with the ANTS closing party on Saturday 10 October. The residencies are described below.
 
 ### Ushuaia Ibiza opening party
 
@@ -73,16 +77,9 @@ The Ushuaia Ibiza opening party took place on Sunday 26 April 2026 with Francis 
 
 ## Ushuaia Ibiza events and calendar
 
-The Ushuaia Ibiza calendar on the official site lists one party per night, mostly run as a weekly residency. Ushuaia Ibiza residencies in 2026, from the club's September guide, were these.
+The Ushuaia Ibiza calendar on the official site lists one party per night, mostly run as a weekly residency. Ushuaia Ibiza residencies bring a different musical programme to each party.
 
-| Day | Residency | Notes from the official site |
-|---|---|---|
-| Monday | David Guetta, F*** ME I'M FAMOUS! | 1 June to 5 October |
-| Wednesday | Tomorrowland, with Dimitri Vegas and Like Mike | Closing party on 30 September |
-| Thursday | Martin Garrix | 2 July to 24 September, closing party on 24 September |
-| Friday | Calvin Harris | No end date was read |
-| Saturday | ANTS | Closing party on 10 October |
-| Sunday | Swedish House Mafia | Ran to 13 September |
+The 2026 residencies included David Guetta’s F*** ME I’M FAMOUS!, Tomorrowland with Dimitri Vegas and Like Mike, Martin Garrix, Calvin Harris, ANTS and Swedish House Mafia.
 
 Two special nights sat outside the weekly run. elrow took over on 2 September and HUGEL's Make The Girls Dance on 20 September. The Wednesday night carries the [Tomorrowland](/tomorrowland-festival) name.
 
@@ -90,19 +87,19 @@ Two special nights sat outside the weekly run. elrow took over on 2 September an
 
 The Ushuaia Ibiza closing party is two nights in 2026. David Guetta's party closes on Monday 5 October with Afrojack, Matt Sassari and Paul Reynolds. The ANTS closing party follows on Saturday 10 October.
 
-The calendar gives the ANTS day as starting from 12:00, and the club's lineup article describes 11 hours of music. The news page for the same night lists doors from 5pm to 11pm. The two disagree, so check the event page before you leave.
+Opening and closing parties can start earlier than regular events. Follow the time on your event page and ticket.
 
 ### Ushuaia Ibiza lineup
 
-The Ushuaia Ibiza lineup for the 10 October closing party, as the club announced it on 12 August 2026, is made of back-to-back pairings: Vintage Culture with Loco Dice, East End Dubs with Hot Since 82, Andrea Oliva with Patrick Topping, Nic Fanciulli with Butch, Prunk with Fleur Shore, M-High with Marlie, and Eliza Rose with Olive F. Raul Rodriguez plays on his own. The same article carries a count of DJs that contradicts itself, so no total is given here.
+The [Ushuaia Ibiza lineup](https://theushuaiaexperience.com/club/en) is organised by date and residency. ANTS, David Guetta and the other resident parties have different guest bookings; check the specific event before buying.
 
 ## Ushuaia Ibiza 2027
 
-No Ushuaia Ibiza 2027 dates had been published when the official site was read on 5 October 2026. Its calendar still showed the 2026 season, and a third-party listing said no official dates existed. The opening party, prices and residencies for 2027 are unknown. Treat any 2027 date you see elsewhere as unconfirmed until it appears on the official calendar. This page will be refreshed when the club publishes them.
+For Ushuaia Ibiza 2027 dates, opening-party tickets and residencies, use the [official calendar](https://theushuaiaexperience.com/club/en). Confirm the event and ticket conditions before booking travel.
 
 ## Ushuaia Ibiza VIP and table
 
-An Ushuaia Ibiza VIP table is booked through a request form on the official site or by contacting the VIP team at vip@ushuaiaibiza.com or +34 971 12 94 17. The FAQ says a table includes entry, valet, taxes and bottle service up to the booking value. Unused credit cannot be transferred. Food and shisha are not included. The VIP page lists no prices, so the minimum spend for an Ushuaia Ibiza table has to be asked for directly. The only published figures are the Clubtickets entries for VIP tickets in the table above.
+An Ushuaia Ibiza VIP table is booked through a request form on the official site or by contacting the VIP team at vip@ushuaiaibiza.com or +34 971 12 94 17. The FAQ says a table includes entry, valet, taxes and bottle service up to the booking value. Unused credit cannot be transferred. Food and shisha are not included. The VIP page lists no prices, so the minimum spend for an Ushuaia Ibiza table has to be asked for directly. The only published figures are the Clubtickets entries for VIP tickets in the ticket options above.
 
 ## Ushuaia Beach Hotel
 
@@ -121,19 +118,16 @@ Clubtickets gives these ways in, and Ibiza Spotlight's 2024 taxi figures were �
 | Bus | Line 14, about €2 | Disco Bus Line 3B, about €5 |
 | Taxi | About €15, roughly 10 minutes | About €35, roughly 25 minutes |
 
-### Ushuaia Ibiza capacity
-
-The Ushuaia Ibiza capacity is 7,000 according to Ibiza Spotlight's 2024 guide. The club's FAQ and ticket pages gave no figure when read on 5 October 2026. The same outlet's 2011 opening review said 5,000, so the number has moved or has never been fixed.
 
 ## FAQ
 
 ### What is the Ushuaia Ibiza lineup?
 
-It changes by night and sits on the official events calendar. The 10 October closing party lineup is in the section above.
+The Ushuaia Ibiza lineup changes by night. Use the [official calendar](https://theushuaiaexperience.com/club/en) to find your date and ticket options.
 
 ### What time does the Ushuaia Ibiza day party start?
 
-Most nights run from 5pm to 11pm in the open air. The FAQ says Saturday's ANTS runs from 3pm, and the calendar showed the closing party from 12:00.
+Most nights run from 5pm to 11pm in the open air. ANTS and special events can start earlier; check the time for your date.
 
 ### Does Ushuaia Ibiza have a hotel?
 

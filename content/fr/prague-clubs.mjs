@@ -29,8 +29,8 @@ export default {
   title: 'Les meilleures boîtes de nuit à Prague : Cross Club et Ankali',
   description: 'La ferraille du Cross Club, les cinq étages de Karlovy Lázně et les nuits techno de l’Ankali : les meilleures boîtes de nuit de Prague, grand public et underground.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Prague',
   heroTitle: 'Les meilleures boîtes de nuit à Prague, du Cross Club à Karlovy Lázně',

@@ -30,8 +30,8 @@ export default {
   title: 'Die besten Clubs in New York: House und Techno, früher und heute',
   description: 'Die besten Nachtclubs in New York für House und Techno heute: Nowadays, Basement, Public Records, Good Room und Elsewhere, dazu die Geschichte vom Loft bis Output.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Clubs New York',
   heroTitle: 'Die besten Clubs in New York, vom Paradise Garage bis zum Nowadays',

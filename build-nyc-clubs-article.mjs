@@ -28,8 +28,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-nyc';
 const title = 'Best Clubs in NYC: Nightclubs for House and Techno, Then and Now';
 const description = 'The best nightclubs in NYC for house and techno now: Nowadays, Basement, Public Records, Good Room and Elsewhere, plus the history from the Loft to Output.';
 const datePublished = '2026-09-24';
-const dateModified = '2026-09-24';
-const dateLabel = '24 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

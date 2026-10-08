@@ -68,7 +68,7 @@ Die Wilde Renate wäre beinahe auf dieser Liste gelandet. Im August 2024 erklär
 
 ## Die besten Clubs in Berlin heute
 
-Das sind die besten Clubs in Berlin, die heute offen sind, Stand September 2026: die Clubs, auf die sich jede ernsthafte Liste einigt, dazu die Räume, zu denen die Geschichte auf dieser Seite führt. Die meisten gehören zu den besten Techno-Clubs Berlins, aber nicht jeder ist ein Techno-Raum. Von den Techno-Clubs unten ist der Tresor der älteste. Wer eine kürzere Liste von Clubs in Berlin für den Anfang will: Die ersten vier Zeilen sind sie.
+Diese Clubs in Berlin lassen sich nach Musik und Lage vergleichen. Die meisten gehören zu den Techno-Clubs Berlins, einige bieten auch andere Stile. Der Tresor ist der älteste der unten genannten Techno-Clubs. Für eine kürzere Auswahl beginne mit den ersten vier Zeilen.
 
 Für die Geschichte hinter diesen Räumen, von Düsseldorf und Köln bis zur Allianz zwischen Detroit und Berlin, gibt es [die Geschichte der deutschen elektronischen Musik](/german-electronic-music) auf Englisch.
 

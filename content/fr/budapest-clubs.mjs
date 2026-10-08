@@ -29,8 +29,8 @@ export default {
   title: 'Les meilleures boîtes de nuit à Budapest : A38 et Instant-Fogas',
   description: 'Le cargo A38, les sept salles de l’Instant-Fogas et la techno de Turbina : les meilleures boîtes de nuit de Budapest, et les ruin bars dont elles sont issues.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boîtes de nuit Budapest',
   heroTitle: 'Les meilleures boîtes de nuit à Budapest, de l’A38 à l’Instant-Fogas',

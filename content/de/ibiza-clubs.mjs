@@ -31,7 +31,7 @@ export default {
   title: "Clubs auf Ibiza: Pacha, Amnesia, Hï und der Rest",
   description: "Hï, Pacha, Amnesia, DC-10, Ushuaïa und [UNVRS]: die besten Clubs auf Ibiza heute, die geschlossenen, wo man wohnt und wann die Saison läuft.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24. September 2026",
 
   heroKicker: "Clubs Ibiza",

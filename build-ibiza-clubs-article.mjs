@@ -25,8 +25,8 @@ const canonical = 'https://thecatrave.com/best-clubs-in-ibiza';
 const title = "Best Clubs in Ibiza: Pacha, Amnesia, H\u00ef and the Rest";
 const description = "H\u00ef, Pacha, Amnesia, DC-10, Ushua\u00efa and [UNVRS]: the best clubs in Ibiza now, the ones that closed, where to stay and when the season runs.";
 const datePublished = '2026-09-23';
-const dateModified = '2026-09-23';
-const dateLabel = '23 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

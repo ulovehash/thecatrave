@@ -31,7 +31,7 @@ export default {
   title: "Boite de nuit Amsterdam : les meilleurs clubs",
   description: "Shelter, Radion, Lofi et le Gashouder : les meilleures boîtes de nuit à Amsterdam aujourd'hui, pourquoi elles ouvrent 24 heures, et l'histoire du RoXY à De School.",
   datePublished: '2026-09-24',
-  dateModified: '2026-09-24',
+  dateModified: '2026-10-08',
   dateLabel: "24 septembre 2026",
 
   heroKicker: "Boite de nuit Amsterdam",

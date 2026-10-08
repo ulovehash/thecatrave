@@ -52,7 +52,7 @@ Les clubs de Brooklyn ont eu aussi leurs pertes. Le Brooklyn Mirage, le lieu en 
 
 ## Les meilleures boîtes de nuit à New York aujourd’hui
 
-Voici les meilleures boîtes de nuit de New York pour la house, la techno et la musique de danse ouvertes aujourd’hui, en septembre 2026 : les salles qui figurent sur toutes les listes sérieuses, de celle de Time Out aux guides de techno, plus celles auxquelles l’histoire de cette page mène. Aucune n’est à Manhattan.
+Ces boîtes de nuit de New York se consacrent à la house, à la techno et aux musiques de danse. Toutes les salles ci-dessous se trouvent hors de Manhattan.
 
 [Table: now]
 
