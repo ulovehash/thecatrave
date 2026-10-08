@@ -2,13 +2,12 @@
 
 ## Answer
 
-The Love Parade began on 1 July 1989 in West Berlin with about 150 people and ended on 24 July 2010 in Duisburg, where 21 people died in a crowd crush. The organiser declared it over the next day, so the Love Parade is not coming back in 2026 or 2027. The Berlin parade was relaunched as Rave the Planet, which held its latest edition on 15 August 2026 and plans the next for Saturday 10 July 2027. In Zurich, the Street Parade, first held in 1992, is the large techno parade that still runs each summer. Every date on this page was read on the organisers' own sites or in press coverage in October 2026.
+The Love Parade began on 1 July 1989 in West Berlin with about 150 people and ended on 24 July 2010 in Duisburg, where 21 people died in a crowd crush. The organiser declared it over the next day, so the Love Parade is not coming back in 2026 or 2027. The Berlin parade was relaunched as Rave the Planet, which held its latest edition on 15 August 2026 and plans the next for Saturday 10 July 2027. In Zurich, the Street Parade, first held in 1992, is the large techno parade that still runs each summer.
 
 ## Introduction
 
 The Love Parade grew from about 150 people on a Berlin avenue in 1989 into an annual techno parade attended by over a million. It ended after the 2010 crowd crush in Duisburg, in which 21 people died. Searches for "loveparade" split three ways: people who want the history, people who want to know what happened in Duisburg, and people who think it might still be on.
 
-This page answers all three from official and press sources. It treats Duisburg briefly and factually, and it says which figures are organiser estimates.
 
 ## What is the Love Parade meaning?
 

@@ -168,7 +168,7 @@ La reprise a été inégale. Le même rapport comptait 823 clubs britanniques, s
 
 ## Que réserve l’avenir à la musique électronique britannique ?
 
-L’histoire ci-dessus peut être vérifiée sur des disques, des archives et des reportages. Tout ce qui suit 2026 est une prévision. Le plus probable est que les lignées existantes continuent d’être recombinées dans de nouvelles conditions sociales et technologiques.
+Tout ce qui suit 2026 est une prévision. Le plus probable est que les lignées existantes continuent d’être recombinées dans de nouvelles conditions sociales et technologiques.
 
 Le UK garage pourrait cesser d’être décrit comme un renouveau et redevenir une part normale de la production club et pop. Le risque est une vague de disques formatés qui copient la surface de 1998 sans sa personnalité rythmique. Autour de 140 BPM, le dubstep, le grime, le speed garage, les breaks, la bassline, la techno et le halftime pourraient continuer de fonctionner comme un langage de DJ commun plutôt que de former un genre stable. La jungle soutiendra probablement plusieurs publics qui se recoupent : le crossover vocal et tourné vers les festivals, la jungle underground informée par l’histoire et une musique breakbeat expérimentale qui n’emploie pas toujours le nom de jungle.
 

@@ -16,8 +16,6 @@ The table gives the year and label for each record, and how many of the three li
 
 [Table: chosen]
 
-Dates come from the labels, the artists or the pieces linked in the sources. Where sources disagree, the section says so.
-
 ## Detroit and Chicago, 1985 to 1987
 
 ### No UFO's by Model 500 (1985)

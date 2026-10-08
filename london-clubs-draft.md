@@ -10,7 +10,6 @@ This guide picks clubs in London by one test: what played in the room, and what 
 
 There is another London in every search for the best nightclubs in London. Cirque le Soir, the Cuckoo Club, Dear Darling, The Box in Soho and the members' club Home House sell tables, bottles and a place on the guest list. The guest-list sites ranking above this page do that job better than a music guide could, and this one is not about those rooms. It is about the ones where the music was the point.
 
-Every date below comes from a source listed at the end. Where the sources disagree, the page says so rather than picking the tidier story.
 
 ## Before acid house: sound systems, the Blitz and Heaven
 

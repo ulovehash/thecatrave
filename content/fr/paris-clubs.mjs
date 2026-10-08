@@ -84,7 +84,7 @@ export default {
       id: 'degeneration-original',
       kicker: t(lang).essentialListening,
       title: 'Mylène Farmer, Dégénération : l\'enregistrement original.',
-      description: 'Le single de 2008 dont mon remix ci-dessus est tiré, produit par Laurent Boutonnat. Sur Spotify, vérifié contre le catalogue de Mylène Farmer elle-même.',
+      description: 'Le single de 2008 dont mon remix ci-dessus est tiré, produit par Laurent Boutonnat.',
       src: 'https://open.spotify.com/embed/track/4j5JxFQLHDw5JSgXfcCeZB?utm_source=generator&theme=0',
       iframeTitle: 'Mylène Farmer, Dégénération, sur Spotify',
       fullBleed: true,

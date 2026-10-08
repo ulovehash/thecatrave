@@ -168,7 +168,7 @@ Die Erholung war ungleichmäßig. Derselbe Bericht zählte 823 britische Clubs, 
 
 ## Was kommt als Nächstes für die britische elektronische Musik?
 
-Die Geschichte oben lässt sich an Platten, Archiven und Berichten überprüfen. Alles nach 2026 ist eine Prognose. Am wahrscheinlichsten ist, dass bestehende Linien unter neuen sozialen und technischen Bedingungen weiter neu kombiniert werden.
+Alles nach 2026 ist eine Prognose. Am wahrscheinlichsten ist, dass bestehende Linien unter neuen sozialen und technischen Bedingungen weiter neu kombiniert werden.
 
 UK Garage könnte aufhören, als Revival beschrieben zu werden, und wieder zu einem normalen Teil der Club- und Popproduktion werden. Das Risiko ist eine Welle formelhafter Platten, die die Oberfläche von 1998 kopieren, ohne seine rhythmische Persönlichkeit. Um 140 BPM könnten Dubstep, Grime, Speed Garage, Breaks, Bassline, Techno und Halftime weiter als gemeinsame DJ-Sprache funktionieren, statt ein stabiles Genre zu bilden. Jungle wird wahrscheinlich mehrere überlappende Publika tragen: Crossover mit Gesang und Festivalbezug, historisch informierten Underground-Jungle und experimentelle Breakbeat-Musik, die den Jungle-Namen nicht immer benutzt.
 

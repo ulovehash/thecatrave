@@ -107,6 +107,7 @@ Cold-start requirement: an agent beginning an article task must first read `ARTI
 - Attribute disputed or precise claims near the relevant sentence with a selective inline link.
 - Keep the final Sources section concise and high quality. It is not a dumping ground for every link consulted.
 - Do not add editorial notes, internal research instructions, licensing commentary or implementation commentary to the published article.
+- Never include generic research-process commentary in published articles, in any language: statements about where dates or facts came from, how sources were checked, promises to flag disagreements, or link-verification notices belong in internal research records. Cite evidence at the relevant claim and explain a specific disagreement beside that claim. Keep useful selection criteria, factual qualifications and required image credits; do not replace removed housekeeping with another generic disclaimer.
 - Fact-check artist classifications, dates, release examples, regional claims and terminology before publication.
 - When a track is presented as evidence for a style or era, verify the artist, title, release context and why the example belongs there. Do not retrofit an unrelated track to a label for convenience.
 - Perform a final language check for AI rhythm, repetitive sentence construction, filler and overconfident claims.

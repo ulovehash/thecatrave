@@ -104,7 +104,6 @@ export default {
     {href: 'https://soundcloud.com/dkmntl', label: 'Dekmantel Podcast'},
     {href: 'https://djmag.com/features/dj-mags-top-mixes-of-2025', label: 'Les meilleurs mix de 2025 selon DJ Mag'}
   ],
-  sourcesNote: 'Les neuf pages SoundCloud ont été vérifiées le 29 septembre 2026.',
 
   bandcamp: {
     description: 'Ces sorties rejoignent les rythmes brisés, la pression des basses et la musique de club des mix ci-dessus. En acheter une soutient directement la musique et l’écriture.',

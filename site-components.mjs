@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 import { t, defaultLang, locales } from './i18n.mjs';
-import { clubGuideChecked, clubGuideLinksFor, clubGuideVenuesIn } from './club-guide-directory.mjs';
+import { clubGuideLinksFor, clubGuideVenuesIn } from './club-guide-directory.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;')
@@ -438,7 +438,7 @@ function clubVenuePlanningHtml(venue, label = '') {
     ? `<div><dt data-club-i18n="eventsLabel">Opening nights and lineups</dt><dd><a href="${escapeHtml(venue.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Upcoming events</a></dd></div>`
     : venue ? '<div><dt>Resident Advisor</dt><dd><span data-club-i18n="unlisted">RA listing not verified</span></dd></div>' : '';
   const venuePlanning = venue
-    ? `<aside class="club-venue-planning" aria-label="${escapeHtml(label || venueLocation)}"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl><small data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small></aside>`
+    ? `<aside class="club-venue-planning" aria-label="${escapeHtml(label || venueLocation)}"><dl><div><dt data-club-i18n="locationLabel">Location</dt><dd>${escapeHtml(venueLocation)}<br><a href="${escapeHtml(venue.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a></dd></div>${events}</dl></aside>`
     : '';
   return venuePlanning;
 }
@@ -535,7 +535,7 @@ export function articleTable({headers = [], rows = [], className = '', label = '
           ? `<a href="${escapeHtml(links.eventsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="events">Resident Advisor</a>`
           : `<span data-club-i18n="unlisted">RA listing not verified</span>`;
         return `<span class="club-guide-links">${venues.length > 1 ? `<span>${escapeHtml(links.venue)}:</span>` : ''}<a href="${escapeHtml(links.mapsUrl)}" target="_blank" rel="noopener noreferrer" data-club-i18n="maps">Google Maps</a>${events}</span>`;
-        }).join('') + `<small class="club-guide-check" data-club-i18n="check">Check current tickets, entry, dress, age and accessibility before travelling.</small>`;
+        }).join('');
       }
     }
     return `<tr>${cells.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
@@ -543,8 +543,7 @@ export function articleTable({headers = [], rows = [], className = '', label = '
   // The scrollable region needs a unique accessible name when a page has several
   // tables; derive one from the column headers unless the caller supplies a label.
   const name = label || `${headers.map(cell => String(cell).replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(', ')} table`;
-  const checked = linkedRows ? `<p class="club-guide-checked"><span data-club-i18n="checked">Planning links checked</span> <time datetime="${clubGuideChecked}">${clubGuideChecked}</time>.</p>` : '';
-  return `<div class="genre-table-wrap${linkedRows ? ' club-guide-table-wrap' : ''}" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>${checked}</div>`;
+  return `<div class="genre-table-wrap${linkedRows ? ' club-guide-table-wrap' : ''}" role="region" aria-label="${escapeHtml(name)}" tabindex="0"><table class="${classes}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 function localizeClubGuideHtml(html, lang) {

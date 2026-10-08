@@ -159,7 +159,6 @@ ${sourceLink('https://djmag.com/features/underground-resilience-lisbons-diy-club
 <li>Lux Frágil's opening date, Cais da Pedra address and Frágil-era history, per Portuguese Wikipedia's well-cited "Lux Frágil" article.</li>
 <li>Manuel Reis's death, 25 March 2018, per Expresso, Observador and Jornal Económico.</li>
 <li>Musicbox's 2006 opening and September 2025 closure, per Liveurope, ICNS.lx and a Rock Bar Legends article dated 5 September 2026.</li>
-<li>The Guardian's 2014 "25 best nightclubs in Europe" ranking of Lux Frágil could not be opened directly this session; it is reported here via two independent secondary citations (Time Out, Lisbon Serviced Apartments) rather than the original article, and is recorded as medium confidence in the editorial review's fact-check ledger.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

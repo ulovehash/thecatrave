@@ -66,7 +66,6 @@ export default {
     {href: 'https://www.youtube.com/@boilerroom', label: 'Boiler Room'},
     {href: 'https://www.youtube.com/@hoer.berlin', label: 'HÖR Berlin'}
   ],
-  sourcesNote: 'Aufnahme-Metadaten und Genre-Tags wurden am 29. September 2026 mit dem Selector-Katalog von thecatrave abgeglichen.',
 
   bandcamp: {
     description: 'Diese Veröffentlichungen hängen mit dem Maschinenrhythmus und den gebrochenen Clubstrukturen zusammen, die oben behandelt werden. Ein Kauf unterstützt die Musik und das Schreiben direkt.',

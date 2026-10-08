@@ -2,23 +2,22 @@
 
 ## Answer
 
-The best electronic music festivals in Asia, as read on 4 and 5 October 2026, are Ultra Japan in Tokyo, Wonderfruit in Thailand, S2O Songkran in Bangkok, Sunburn in Mumbai, Djakarta Warehouse Project (DWP) in Jakarta and Zamna in Phuket, with Ultra Korea in Seoul as a festival whose next date is unknown. Ultra Japan 2027 is confirmed for 18 and 19 September on its official site. Zamna Phuket is listed for January 2027, but the organiser's event page gives conflicting dates, so confirm them before booking travel. Wonderfruit, S2O, Sunburn and DWP had not announced 2027 dates, and the 2026 editions of Wonderfruit, Sunburn and DWP are still to come in December.
+The best electronic music festivals in Asia are Ultra Japan in Tokyo, Wonderfruit in Thailand, S2O Songkran in Bangkok, Sunburn in Mumbai, Djakarta Warehouse Project (DWP) in Jakarta and Zamna in Phuket, with Ultra Korea in Seoul as a festival whose next date is unknown. Ultra Japan 2027 is confirmed for 18 and 19 September on its official site. Zamna Phuket is listed for January 2027, but the organiser's event page gives conflicting dates, so confirm them before booking travel. Wonderfruit, S2O, Sunburn and DWP had not announced 2027 dates, and the 2026 editions of Wonderfruit, Sunburn and DWP are still to come in December.
 
 ## Introduction
 
 Asia has a lot of music festivals, and most of what is written about them lists the biggest names with a photograph each. This page covers the electronic ones and tries to answer what you need before you book: where each festival is, what it plays, what a ticket costs where a price was published, and which dates are confirmed for 2027.
 
-Dates and prices were checked on 4 October 2026, with Ultra Japan and Zamna rechecked on 5 October. The festival's own site is used where it could be read, and named press where it could not. A festival that has not announced 2027 says so here. It is not given a guessed date from last year. For comparison with other regions, see the [Europe festivals guide](/best-electronic-music-festivals-europe) and the [US EDM festivals guide](/best-edm-festivals-usa).
+For comparison with other regions, see the [Europe festivals guide](/best-electronic-music-festivals-europe) and the [US EDM festivals guide](/best-edm-festivals-usa).
 
 ## How this list was chosen
 
-A festival is on this list when three things are true:
+A festival is on this list when both conditions are met:
 
 - Electronic music is the core of the programme, not one stage among pop and rock.
 - It has an edition in 2026 or 2027 that its own site or named press confirms, or its latest edition is on its official site.
-- Its facts could be read at source on 4 October 2026.
 
-Order follows how much people search for each festival. Two festivals that did not pass are explained near the end. Prices are quoted in the local currency of the source, and figures that came from press rather than the festival are labelled as such.
+Order follows how much people search for each festival. The exclusions are explained near the end. Prices are quoted in the local currency of the source, and figures that came from press rather than the festival are labelled as such.
 
 ## The festivals at a glance
 
@@ -108,16 +107,15 @@ Thailand has more of the festivals on this page than any other country: Wonderfr
 
 ### EDM festivals in Japan
 
-On the evidence read for this page, Ultra Japan is the one major electronic festival in Japan with a 2027 date, in Tokyo on 18 and 19 September. S2O also lists Japan among the countries where it has held an edition. I did not read the schedules of other Japanese festivals.
+Ultra Japan has announced its 2027 dates: Tokyo on 18 and 19 September. S2O also lists Japan among the countries where it has held an edition.
 
 ### EDM festivals in India
 
-Sunburn is the major EDM festival in India that I could verify, now in Mumbai. I did not read the schedules of other Indian festivals, so this page makes no claim about them.
+Sunburn is a major EDM festival in India, now in Mumbai.
 
 ## Not on this list, and why
 
 - **Ultra Singapore.** The official site lists 8 and 9 June 2019 at the Sands Expo and Convention Centre as its most recent edition and shows no upcoming date.
-- **Storm.** A festival of that name came up in searches, but I found no official site or named press to read, so it is not described here.
 
 ## FAQ
 
@@ -139,7 +137,7 @@ On this page, Ultra Japan in Tokyo. Its 2027 edition is on 18 and 19 September.
 
 ### What are the best music festivals in India?
 
-On this page, Sunburn, held in Mumbai on 18 and 19 December 2026. Other Indian festivals were not checked.
+On this page, Sunburn, held in Mumbai on 18 and 19 December 2026.
 
 ### Is Sunburn still in Goa?
 

@@ -12,7 +12,7 @@ A winter festival is a different trip from a summer one. You are choosing a moun
 
 A festival is on this list when it has electronic music at its core, runs between December and April, and has dates for its next edition. The first group is here because people search for it. The last group is here for a different reason: Resident Advisor, Pitchfork or The Quietus have covered it, and it has little search volume. A festival that could not be backed by an official page or a named review was cut.
 
-Each entry says where the dates come from. "Confirmed" means the festival's own site shows them. "Listed" means a ticket seller, a listing site or the promoter's social account shows them and the festival's own site was stale or unreachable when it was checked.
+"Confirmed" means the festival's own site shows them. "Listed" means a ticket seller, a listing site or the promoter's social account shows them and the festival's own site was stale or unreachable when it was checked.
 
 ## Winter festival dates at a glance
 

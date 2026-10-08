@@ -14,7 +14,7 @@ The best house playlists on Spotify come from its editorial team, established la
 
 Each playlist has an identifiable curator. Some rotate through new releases. Others work as durable archives. The notes below describe what the playlist is useful for and where its boundaries become loose.
 
-Follower totals change and do not measure sequencing or taste, so they are omitted. Playlist titles, curators and IDs were checked on 29 September 2026. Spotify can change the opening tracks after that date.
+Follower totals change and do not measure sequencing or taste, so they are omitted. Spotify can change the opening tracks.
 
 ## House foundations and soulful records
 
@@ -88,4 +88,3 @@ No single playlist represents house music. The genre grew through local clubs, l
 - [Spotify: Afro House Pulse](https://open.spotify.com/playlist/37i9dQZF1DX5wO3czN5dc1)
 - [Spotify: Rare Electronic Music](https://open.spotify.com/playlist/74KiWnE4fmEPigOa4SARz2)
 - [Spotify: Emotional Electronic Music](https://open.spotify.com/playlist/0U2HwRmau3EW1IXoRRa1JD)
-- The remaining label and artist playlist pages were checked directly on 29 September 2026.

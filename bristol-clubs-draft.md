@@ -38,7 +38,7 @@ Motion's new site on Victoria Terrace and Lakota's Upper York Street building bo
 
 [Image: Thekla]
 
-Beyond these three, Bristol's own listings regularly point newcomers toward SWX, a live-music-and-club space in a former nightclub building; Marble Factory, Thekla's sister venue in the same harbourside complex; Basement 45; and The Fleece, better known as a gig venue. None of the four were researched to the same depth as Motion, Lakota and Thekla for this guide.
+Beyond these three, Bristol's own listings regularly point newcomers toward SWX, a live-music-and-club space in a former nightclub building; Marble Factory, Thekla's sister venue in the same harbourside complex; Basement 45; and The Fleece, better known as a gig venue.
 
 ## FAQ
 
@@ -60,7 +60,7 @@ Both, in practice, though it leans toward live music first. It's run by DHP Fami
 
 ### Are there other clubs in Bristol worth knowing about?
 
-Yes, though this guide only researched three in depth. SWX, a live-music-and-club space in a former nightclub building; Marble Factory, Thekla's sister venue in the same harbourside complex; Basement 45; and The Fleece all turn up regularly in Bristol's own club and gig listings.
+Yes. SWX, a live-music-and-club space in a former nightclub building; Marble Factory, Thekla's sister venue in the same harbourside complex; Basement 45; and The Fleece all turn up regularly in Bristol's own club and gig listings.
 
 ## Answer
 

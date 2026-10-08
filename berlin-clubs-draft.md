@@ -8,7 +8,7 @@ The most famous club in Berlin is Berghain, in a former heating plant in Friedri
 
 Most lists of the best clubs in Berlin are guides to next weekend. They are useful and they go out of date within a year, because Berlin clubs open, move, rename themselves and close at a pace that no annual list keeps up with. This one starts further back, with the rooms that made Berlin a techno city, and treats the clubs that are open now as the latest chapter of that story rather than as a ranking.
 
-It is also written by someone who goes. The door and Sisyphos are where that shows. Everything else is sourced, and the status of every open club was checked in September 2026. If you only want the top clubs in Berlin for this weekend, the table in the middle of the page is the short version.
+It is also written by someone who goes. The door and Sisyphos are where that shows. If you only want the top clubs in Berlin for this weekend, the table in the middle of the page is the short version.
 
 ## Before Berghain: how Berlin became a techno city
 

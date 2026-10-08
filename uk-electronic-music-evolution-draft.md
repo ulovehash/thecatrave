@@ -196,7 +196,7 @@ The recovery was uneven. The same report counted 823 UK clubs, 36 per cent fewer
 
 ## What Is Next for UK Electronic Music?
 
-The history above can be checked against records, archives and reporting. Anything after 2026 is a forecast. The most likely future is that existing lineages keep being recombined under new social and technological conditions.
+Anything after 2026 is a forecast. The most likely future is that existing lineages keep being recombined under new social and technological conditions.
 
 UK garage may stop being described as a revival and become a normal part of club and pop production again. The risk is a wave of formulaic records that copy the surface of 1998 without its rhythmic personality. Around 140 BPM, dubstep, grime, speed garage, breaks, bassline, techno and halftime may continue functioning as a shared DJ language rather than forming one stable genre. Jungle is likely to support several overlapping audiences, including vocal and festival-facing crossover, historically informed underground jungle and experimental breakbeat music that does not always use the jungle name.
 

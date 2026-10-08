@@ -160,7 +160,6 @@ const articleHtml = [
 <li><a href="https://www.gq-magazine.co.uk/article/best-spotify-playlists" target="_blank" rel="noopener noreferrer">British GQ: The best Spotify playlists to escape the AI algorithm</a></li>
 <li><a href="https://audiohype.io/resources/the-best-spotify-playlists/" target="_blank" rel="noopener noreferrer">Audiohype: The Best Spotify Playlists in 2026</a></li>
 <li><a href="https://routenote.com/blog/most-followed-playlists-on-spotify/" target="_blank" rel="noopener noreferrer">RouteNote: Top 10 most followed playlists on Spotify 2026</a></li>
-<li>All twelve Spotify playlist pages were checked directly on 21 September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed:true,

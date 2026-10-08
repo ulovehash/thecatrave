@@ -4,7 +4,6 @@
 
 L’Europe compte plus de festivals de musique électronique que quiconque ne pourrait en énumérer, et la plupart des classements sont des listes des plus célèbres, avec une photo chacun. Celui-ci est fait pour vous aider à choisir : ce que chaque festival programme vraiment, sa taille, où l’on dort, ses dates en 2027 et à qui il convient.
 
-Chaque date ci-dessous a été vérifiée sur le site officiel du festival le 22 septembre 2026. Quand un festival n’a pas encore annoncé ses dates 2027, le tableau le dit au lieu de les deviner à partir des années précédentes, et cette page est mise à jour à mesure que les dates sont confirmées.
 
 ## Réponse
 

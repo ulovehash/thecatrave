@@ -156,7 +156,6 @@ ${sourceLink('https://www.timeout.com/mexico-city/bars', 'Time Out Mexico City: 
 <li>Patrick Miller's 1983 founding, Journalists Club origin and current Mérida 17 address, per Mexico City's own tourism authority (mexicocity.cdmx.gob.mx) and Time Out.</li>
 <li>M.N.Roy's Mérida 186 address, former Communist Party headquarters history and Chic by Accident interior design, per The Spaces, "Cult clubs: 12 legendary venues across the world."</li>
 <li>Perreo Millennial's closure, announced 30 July 2026 with a final event on 13 August 2026, per Resident Advisor's own news feed.</li>
-<li>M.N.Roy's exact opening date is given only as "the early 2010s"; no primary source confirming a precise month was found this session.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

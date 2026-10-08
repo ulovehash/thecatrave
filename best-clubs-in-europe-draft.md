@@ -2,11 +2,11 @@
 
 ## Answer
 
-The best clubs in Europe depend on what you want from a night, but DJ Mag's Top 100 Clubs 2026 gives a shared reference: Ibiza's [UNVRS] ranks first in the world, Hï Ibiza fourth, FABRIK in Madrid eighth, Bootshaus in Cologne eleventh, fabric in London thirteenth and Berghain in Berlin twenty-first. This guide covers 23 European nightclubs in ten countries, from Berghain and Tresor to Pacha, Amnesia, Cavo Paradiso and Culture Club Revelin, with what each room is, who runs it and which sets to hear first. Facts were read on 4 October 2026 from the clubs' own sites, DJ Mag and the other sources listed at the end. Where a source says nothing, the page says so.
+The best clubs in Europe depend on what you want from a night, but DJ Mag's Top 100 Clubs 2026 gives a shared reference: Ibiza's [UNVRS] ranks first in the world, Hï Ibiza fourth, FABRIK in Madrid eighth, Bootshaus in Cologne eleventh, fabric in London thirteenth and Berghain in Berlin twenty-first. This guide covers 23 European nightclubs in ten countries, from Berghain and Tresor to Pacha, Amnesia, Cavo Paradiso and Culture Club Revelin, with what each room is, who runs it and which sets to hear first.
 
 ## Introduction
 
-A list of the best nightclubs in Europe has to choose what to measure. This guide sorts 23 rooms by country, because a trip is usually planned by country before it is planned by club, and it gives each club the facts a source states.
+A list of the best nightclubs in Europe has to choose what to measure. This guide sorts 23 rooms by country, because a trip is usually planned by country before it is planned by club.
 
 The selection starts from DJ Mag's 2026 poll and adds rooms with a documented history that the poll leaves out or ranks lower. Nothing here is a verdict on a single "best". For a city-first view, the [best clubbing cities in Europe](/best-clubbing-cities-in-europe) guide covers where to base yourself, and the single-club guides on [Berghain](/berghain), [fabric](/fabric-london) and [Pacha Ibiza](/pacha-ibiza) go deeper on three of the rooms below.
 
@@ -161,7 +161,7 @@ The top clubs in Europe by size are Drumsheds, The Warehouse Project, FABRIK and
 
 ## Europe clubs: entry, phones and age
 
-Policies differ more than the clubs' reputations suggest. These are the ones the sources state.
+Policies differ more than the clubs' reputations suggest.
 
 - **Age.** Berghain, fabric and Pacha all state 18 and over.
 - **Phones.** DJ Mag lists no-phones policies at DC-10 and Shelter, and calls The Warehouse Project phone-free.
@@ -202,7 +202,7 @@ DJ Mag published the Top 100 Clubs 2026 on 15 April 2026. Its article counts 19 
 | 94 | Amnesia Milano | Italy |
 | 100 | Open Ground | Germany |
 
-The list is a subset. DJ Mag's top 30 holds other entries whose location was not checked for this guide, such as Studio 338 and WAVE Club, and ranks 31 to 100 were read only for the clubs named here. Ranks 63 to 100 come from a mirror of the list, which matched the official page where the two were compared.
+The table shows a selection of European clubs from the poll.
 
 ## Best techno clubs
 

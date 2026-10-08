@@ -42,7 +42,7 @@ Ein kleinerer Raum, der Yu Yu Cine Club, läuft seit 2017 im Keller eines Gebäu
 
 Drei dieser vier liegen in kurzer Taxifahrt voneinander entfernt. Patrick Miller liegt in Roma Norte, wenige Straßen von M.N.Roy an der Mérida; der Fünk ist eine kurze Fahrt weiter südwestlich an der Grenze von Condesa und Hipódromo; und der Yu Yu liegt nördlich von beiden in Juárez, nahe der Zona Rosa. Alle drei Viertel haben sich im letzten Jahrzehnt stark gewandelt und sich neben den Clubs mit Cafés, Galerien und Restaurants gefüllt, doch die Clubkarte selbst verschiebt sich: Perreo Millennial, eine Reggaeton-Party, die zehn Jahre lief und half, die Perreo-Szene der Stadt in den Mainstream zu bringen, spielte im August 2026 ihr letztes Event, nachdem sie auf Instagram ihr Ende angekündigt hatte. Sie hatte nie eine feste Adresse und steht deshalb nicht in der Tabelle oben, doch ihre Schließung ist eine ebenso aktuelle Tatsache über das Clubleben von Mexiko-Stadt wie die Eröffnung irgendeines Ortes.
 
-Ältere Namen tauchen in Gesprächen über die Geschichte der Stadt ständig auf: Pervert Lounge und City Hall, beide in den späten 1990ern und 2000ern für Trance, House und Techno prominent, gelten bei Promotern heute in ihren Vierzigern als die Räume, die sie ausgebildet haben, auch wenn keiner von beiden für diesen Guide so tief erforscht wurde wie die vier Clubs oben.
+Ältere Namen tauchen in Gesprächen über die Geschichte der Stadt ständig auf: Pervert Lounge und City Hall, beide in den späten 1990ern und 2000ern für Trance, House und Techno prominent, gelten bei Promotern heute in ihren Vierzigern als die Räume, die sie ausgebildet haben.
 
 Das hat große internationale DJs nicht davon abgehalten, die Stadt als regelmäßige Station zu behandeln. Boiler Rooms eigene Übertragungen aus Mexiko-Stadt reichen mindestens bis 2018 zurück, als der britische House- und Techno-DJ Nic Fanciulli ein Set spielte, das eines der meistgesehenen der Plattform bleibt.
 
@@ -60,7 +60,7 @@ Ein privater Club in einer umgebauten Villa in Roma Norte, die einst als Hauptqu
 
 ### Was ist der älteste Club in Mexiko-Stadt?
 
-Unter den Clubs in diesem Guide Patrick Miller, seit 1983. Ältere Orte aus der Clubszene der Stadt in den 1990ern und 2000ern, darunter Pervert Lounge und City Hall, werden von DJs aus Mexiko-Stadt weiterhin besprochen, wurden für diesen Guide aber nicht tief erforscht.
+Unter den Clubs in diesem Guide Patrick Miller, seit 1983. Ältere Orte aus der Clubszene der Stadt in den 1990ern und 2000ern, darunter Pervert Lounge und City Hall, werden von DJs aus Mexiko-Stadt weiterhin besprochen.
 
 ### Spielen Reggaeton und Perreo eine große Rolle in der Clubszene von Mexiko-Stadt?
 
@@ -68,4 +68,4 @@ Ja, wenn auch vor allem über Partys statt über einen einzelnen Ort. Perreo Mil
 
 ### Gibt es weitere Clubs in Mexiko-Stadt, die man kennen sollte?
 
-Ja, auch wenn dieser Guide vier tief erforscht hat. Ältere Namen wie Pervert Lounge und City Hall sowie neuere Partys und Räume rund um Crews wie Capricho, Por Detroit und Disco Fetish tauchen in der Nachtlebenberichterstattung von Mexiko-Stadt ständig auf.
+Ja. Ältere Namen wie Pervert Lounge und City Hall sowie neuere Partys und Räume rund um Crews wie Capricho, Por Detroit und Disco Fetish tauchen in der Nachtlebenberichterstattung von Mexiko-Stadt ständig auf.

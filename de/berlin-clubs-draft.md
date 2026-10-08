@@ -8,7 +8,7 @@ Der berühmteste Club in Berlin ist das Berghain, in einem ehemaligen Heizkraftw
 
 Die meisten Listen der besten Berlin-Clubs sind Guides für das nächste Wochenende. Sie sind nützlich, und nach einem Jahr sind sie veraltet, weil Clubs in Berlin in einem Tempo öffnen, umziehen, sich umbenennen und schließen, mit dem keine jährliche Liste mithält. Diese hier setzt früher an, bei den Räumen, die Berlin zu einer Techno-Stadt gemacht haben, und behandelt die Clubs, die heute offen sind, als jüngstes Kapitel dieser Geschichte statt als Rangliste.
 
-Geschrieben hat sie außerdem jemand, der hingeht. An der Tür und im Sisyphos merkt man das. Alles andere ist belegt, und der Status jedes offenen Clubs wurde im September 2026 geprüft. Wer nur die besten Clubs für dieses Wochenende sucht, findet die kurze Version in der Tabelle in der Mitte der Seite.
+Geschrieben hat sie außerdem jemand, der hingeht. An der Tür und im Sisyphos merkt man das. Wer nur die besten Clubs für dieses Wochenende sucht, findet die kurze Version in der Tabelle in der Mitte der Seite.
 
 ## Vor dem Berghain: wie Berlin zur Techno-Stadt wurde
 

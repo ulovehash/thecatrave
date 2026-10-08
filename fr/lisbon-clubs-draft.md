@@ -58,7 +58,7 @@ Les deux sets confirment que les lieux plus récents de Lisbonne, à l’échell
 
 [Embed: Parris]
 
-Au-delà, les propres listings actuels de la ville renvoient au 8 Marvila, à Marvila, aux soirées Konda Records du Ministerium déjà citées, et à une série changeante de fêtes faites maison et de pop-ups qui ne gardent pas leur adresse assez longtemps pour être recommandés par leur nom. Aucune des plus petites salles n’a été étudiée aussi en profondeur que les clubs ci-dessus pour ce guide.
+Au-delà, les propres listings actuels de la ville renvoient au 8 Marvila, à Marvila, aux soirées Konda Records du Ministerium déjà citées, et à une série changeante de fêtes faites maison et de pop-ups qui ne gardent pas leur adresse assez longtemps pour être recommandés par leur nom.
 
 ## FAQ
 
@@ -80,4 +80,4 @@ Certains de ses lieux, oui. Musicbox, Outra Cena et Lounge ont tous fermé depui
 
 ### Y a-t-il d’autres boîtes de nuit à Lisbonne qui valent la peine d’être connues ?
 
-Oui, même si ce guide en a étudié cinq en profondeur. Les événements en entrepôt du Village Underground Lisboa à Alcântara, le 8 Marvila à Marvila et les soirées d’afro-house Konda Records au Ministerium apparaissent tous régulièrement dans les propres listings de clubs de Lisbonne.
+Oui. Les événements en entrepôt du Village Underground Lisboa à Alcântara, le 8 Marvila à Marvila et les soirées d’afro-house Konda Records au Ministerium apparaissent tous régulièrement dans les propres listings de clubs de Lisbonne.

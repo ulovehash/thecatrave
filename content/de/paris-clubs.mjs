@@ -81,7 +81,7 @@ export default {
       id: 'degeneration-original',
       kicker: t(lang).essentialListening,
       title: 'Mylène Farmer, Dégénération: die Originalaufnahme.',
-      description: 'Die Single von 2008, aus der mein Remix oben entsteht, produziert von Laurent Boutonnat. Auf Spotify, gegen den eigenen Katalog von Mylène Farmer geprüft.',
+      description: 'Die Single von 2008, aus der mein Remix oben entsteht, produziert von Laurent Boutonnat.',
       src: 'https://open.spotify.com/embed/track/4j5JxFQLHDw5JSgXfcCeZB?utm_source=generator&theme=0',
       iframeTitle: 'Mylène Farmer, Dégénération, auf Spotify',
       fullBleed: true,

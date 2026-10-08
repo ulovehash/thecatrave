@@ -8,7 +8,7 @@ Fusion Festival is a five-day arts and music festival held at a former Soviet mi
 
 Fusion is hard to search for, because three years of questions overlap. People look for Fusion Festival 2026 because it just happened, for Fusion Festival 2027 because they assume a summer date, and for Fusion Festival 2028 because the organisers announced a gap. The short answer is that 2027 has no festival.
 
-This page covers what Fusion is, what happened in 2026, the 2027 gap and the 2028 dates, how the ticket lottery works, where Lärz is, how the police dispute of 2019 went, how big the festival is and how to get there. A different event with a similar name, Fusion Fest in South Bend, Indiana, turns up in the same search results. This page is about the German one. Every date and price says when it was read and from which source, and where the official pages are silent, the page says so. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
+This page covers what Fusion is, what happened in 2026, the 2027 gap and the 2028 dates, how the ticket lottery works, where Lärz is, how the police dispute of 2019 went, how big the festival is and how to get there. A different event with a similar name, Fusion Fest in South Bend, Indiana, turns up in the same search results. This page is about the German one. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
 
 ## What is Fusion Festival?
 
@@ -102,7 +102,7 @@ The 2019 compromise was a single police station at the entrance, with officers a
 
 The Fusion Festival lineup is not published as a poster. The programme is announced in the Festival Guide and app from the start of the festival, with some programme information on the website from early June. The 2028 programme was not published on 5 October 2026.
 
-Among the thousands of entries on the official 2026 programme page, names include Acid Pauli, Modeselektor, Apparat, Recondite, Rødhåd, Gerd Janson and Magda. I checked these against the page on 5 October 2026 and did not read all of it, so the list is a sample.
+Among the thousands of entries on the official 2026 programme page, names include Acid Pauli, Modeselektor, Apparat, Recondite, Rødhåd, Gerd Janson and Magda.
 
 ### Fusion Festival sets
 

@@ -10,7 +10,6 @@ Ce guide choisit les clubs de Londres selon un seul critère : ce qui se jouait 
 
 Il existe un autre Londres derrière chaque recherche de meilleure boite de nuit à Londres. Cirque le Soir, le Cuckoo Club, Dear Darling, The Box à Soho et le club privé Home House vendent des tables, des bouteilles et une place sur la liste d'invités. Les sites de listes d'invités qui passent devant cette page font ce travail mieux qu'un guide musical ne le pourrait, et ce guide ne parle pas de ces salles. Il parle de celles où la musique était le sujet.
 
-Chaque date ci-dessous vient d'une source citée à la fin. Quand les sources se contredisent, la page le dit plutôt que de retenir la version la plus nette.
 
 ## Avant l'acid house : les sound systems, le Blitz et Heaven
 

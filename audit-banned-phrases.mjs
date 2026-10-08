@@ -11,6 +11,10 @@ import path from 'node:path';
 
 const RULES = [
   {
+    rule: 'No internal research-process commentary in published articles (AGENTS.md section 4)',
+    re: /\boEmbed\b|fact-check ledger|opened directly this session|found this session|Every date below (?:comes from|was checked)|Where (?:the )?sources disagree, the (?:page|section)|Planning links checked|Jedes Datum unten stammt aus einer Quelle|Chaque date ci-dessous vient d'une source|(?:pages|Seiten) (?:were checked|wurden.{0,45}geprüft)|pages.{0,35}ont été vérifiées|researched (?:in depth|to the same depth)|(?:tief|gründlich) recherchiert|étudié.{0,30}(?:profondeur|en profondeur)/i,
+  },
+  {
     rule: 'No genre is "what this site cares about most" (WRITING.md)',
     re: /cares about most|der (?:diese|dieser) Seite am meisten (?:interessiert|bedeutet)|compte le plus pour ce site/i,
   },

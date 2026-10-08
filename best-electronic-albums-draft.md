@@ -41,7 +41,7 @@ I used three lists and nothing else. Headphonesty's 30 albums (August 2026) come
 
 An album gets in if it is on two lists, or if the artist is on two lists with a different album (Daft Punk are on all three). Where an artist has two albums I took the one that placed higher or appeared in the older list and name the other: Orbital are Orbital 2 on Slant and In Sides, number 16, on Headphonesty. Three more are top-ten placings I kept for range: Music for Airports, Boy in da Corner and Double Cup. The sixteen are not every top-ten album. Oxygène and Trans-Europe Express, the number ones of two lists, are named but have no player here.
 
-Years and labels come from MusicBrainz release data, checked against the Resident Advisor list where it covers the album. The page makes no ranking of its own.
+The page makes no ranking of its own.
 
 ## 1978 to 1990
 

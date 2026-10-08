@@ -163,7 +163,6 @@ ${sourceLink('https://ra.co/news/81854', 'Resident Advisor: Klub 20/44 reopens a
 ${sourceLink('https://nosleepfestival.com/', 'No Sleep Festival: official site')}
 <li>Balkan Insight, history of the Belgrade splavs (13 June 2016); Vreme (24 May 2023), Danas (9 May 2024) and RTS / Direktno (13 August 2024) on the clearance of the rafts from the Savski kej.</li>
 <li>StillInBelgrade, 10 clubs and DJ bars in Belgrade (17 February 2026), for opening nights and capacity; clubber.rs, for Barutana's history and its June 2026 reopening; Belgrade My Way, for the move of the rafts since 2025.</li>
-<li>Set titles and sessions were checked on Boiler Room's own channel and boilerroom.tv on 5 October 2026. Catalogue details are from this site's own catalogue of recorded DJ sets.</li>
 </ul>`}),
   readNext({items: relatedArticles('best-clubs-in-belgrade.html')})
 ].join('\n');

@@ -114,4 +114,3 @@ There is no single best techno mix of all time. These essential techno mixes mak
 - [DJ Mag](https://www.youtube.com/@djmag)
 - [Boiler Room](https://www.youtube.com/@boilerroom)
 - [HÖR Berlin](https://www.youtube.com/@hoer.berlin)
-- Recording metadata and genre tags were checked against thecatrave Selector catalogue on 29 September 2026.

@@ -80,7 +80,6 @@ export default {
     {href: 'https://open.spotify.com/playlist/74KiWnE4fmEPigOa4SARz2', label: 'Spotify: Rare Electronic Music'},
     {href: 'https://open.spotify.com/playlist/0U2HwRmau3EW1IXoRRa1JD', label: 'Spotify: Emotional Electronic Music'}
   ],
-  sourcesNote: 'Les pages des autres playlists de labels et d’artistes ont été vérifiées directement le 29 septembre 2026.',
 
   bandcamp: {
     description: 'Ces sorties se tiennent près des bords brisés et tournés vers le club de la house abordés ci-dessus. En acheter une soutient directement la musique et l’écriture.',

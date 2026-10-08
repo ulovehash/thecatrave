@@ -153,8 +153,6 @@ ${sourceLink('https://www.bristolworld.com/business/motion-bristol-to-sadly-clos
 ${sourceLink('https://www.bristol247.com', 'Bristol24/7: coverage of Motion, Lakota and Thekla club nights')}
 ${sourceLink('https://www.express.co.uk', 'Daily Express: Huge UK music venue shutting doors in weeks (2025)')}
 <li>Thekla's own history, and its 1 May 1984 opening date as The Old Profanity Showboat, per the venue's Instagram account and an AgilityPR/DHP Family press release.</li>
-<li>Hodge and Shanti Celeste's 2015 Boiler Room Bristol sets: dated via Apple Music's DJ-mix listings, confirmed via each video's own YouTube oEmbed title.</li>
-<li>Lakota's opening period is given as "the early 1990s" because two independent sources disagree on the exact year (one says 1990, another 1992); both are recorded in the editorial review's fact-check ledger rather than one being picked without a stronger source.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

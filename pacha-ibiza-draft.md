@@ -2,13 +2,13 @@
 
 ## Answer
 
-Pacha Ibiza is a nightclub on Avenida 8 de Agosto at the edge of Ibiza Town, open to guests aged 18 and over from 11pm. Individual event tickets are listed on pacha.com at €30 to €270, with VIP tables from €150 to €700, and the club's dress code bans beachwear, flip flops, vests and bare torsos. The 2026 season ran from the opening weekend on 24 to 26 April to a closing week from 4 to 11 October, with a New Year's Eve night listed for 31 December. Everything here was read on 4 October 2026 from pacha.com, Ibiza Spotlight and the other sources listed at the end. Where a source says nothing, such as a guest list, this page says so.
+Pacha Ibiza is a nightclub on Avenida 8 de Agosto at the edge of Ibiza Town, open to guests aged 18 and over from 11pm. Individual event tickets are listed on pacha.com at €30 to €270, with VIP tables from €150 to €700, and the club's dress code bans beachwear, flip flops, vests and bare torsos. The 2026 season ran from the opening weekend on 24 to 26 April to a closing week from 4 to 11 October, with a New Year's Eve night listed for 31 December.
 
 ## Introduction
 
 Searches for Pacha Ibiza, Pacha Ibiza club or just Pacha lead to one venue, but they come from different needs. Some people want to know what to wear. Others want to buy a ticket, book a table, or work out who owns the place now. The club's website answers most of it, spread over several pages.
 
-This guide collects those answers and dates them. It also lists what no source states. For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), the open-air club at Platja d'en Bossa has its own page in the [Ushuaia Ibiza guide](/ushuaia-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
+For the other rooms on the island there is the [Ibiza clubs guide](/best-clubs-in-ibiza), the open-air club at Platja d'en Bossa has its own page in the [Ushuaia Ibiza guide](/ushuaia-ibiza), and for two other famous venues the [Berghain guide](/berghain) and the [fabric London guide](/fabric-london).
 
 Pacha sits alongside 22 other rooms in the [best clubs in Europe](/best-clubs-in-europe) guide.
 

@@ -105,4 +105,3 @@ Follow the commissioning series when a mix lands: Recognise and Dekmantel Podcas
 - [DJ Mag: Recognise mix series](https://soundcloud.com/djmag)
 - [Dekmantel Podcast](https://soundcloud.com/dkmntl)
 - [DJ Mag's top mixes of 2025](https://djmag.com/features/dj-mags-top-mixes-of-2025)
-- All nine SoundCloud pages were checked on 29 September 2026.

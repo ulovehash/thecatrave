@@ -2,7 +2,7 @@
 
 ## Answer
 
-The best nightclubs in the world, by the one ranking that covers the whole planet, are on DJ Mag's Top 100 Clubs 2026: [UNVRS] in Ibiza is first, GREENVALLEY in Brazil second, Ushuaïa Ibiza third, Hï Ibiza fourth and Savaya in Bali fifth. DJ Mag's list is a public vote, so it measures popularity, and no source ranks the best clubs in the world by sound or by programming. This guide covers 20 clubs on four continents, from Ibiza and Berlin to Camboriú, Miami, Singapore and Tokyo, with what each room is, how big it is and which recorded sets to hear. Facts were read on 6 October 2026 from DJ Mag's list and profile pages, and each one is the poll's own figure, not a measurement.
+The best nightclubs in the world, by the one ranking that covers the whole planet, are on DJ Mag's Top 100 Clubs 2026: [UNVRS] in Ibiza is first, GREENVALLEY in Brazil second, Ushuaïa Ibiza third, Hï Ibiza fourth and Savaya in Bali fifth. DJ Mag's list is a public vote, so it measures popularity, and no source ranks the best clubs in the world by sound or by programming. This guide covers 20 clubs on four continents, from Ibiza and Berlin to Camboriú, Miami, Singapore and Tokyo, with what each room is, how big it is and which recorded sets to hear. Figures are DJ Mag's own, not independent measurements.
 
 ## Introduction
 

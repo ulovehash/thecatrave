@@ -14,7 +14,7 @@ Die besten House-Playlists auf Spotify kommen von der Redaktion, von etablierten
 
 Jede Playlist hat einen erkennbaren Kurator. Manche laufen durch neue Veröffentlichungen. Andere funktionieren als dauerhafte Archive. Die Notizen unten beschreiben, wofür die Playlist nützlich ist und wo ihre Grenzen unscharf werden.
 
-Follower-Zahlen ändern sich und messen weder Reihenfolge noch Geschmack, deshalb fehlen sie. Titel, Kuratoren und IDs der Playlists wurden am 29. September 2026 geprüft. Spotify kann die ersten Tracks nach diesem Datum ändern.
+Follower-Zahlen ändern sich und messen weder Reihenfolge noch Geschmack, deshalb fehlen sie. Spotify kann die ersten Tracks ändern.
 
 ## House-Grundlagen und Soulful-Platten
 

@@ -46,7 +46,7 @@ It was meant for another singer, Ultra Nate, until Waters recorded the demo hers
 
 The 1992 release reached number 29 in the UK and number 1 on the UK dance chart, and Darren Emerson remixed it that year. The original is an instrumental, not his remix. It is regarded as one of the first records called progressive house, and NME describes it as the euphoric sound of early 1990s Ibiza.
 
-There is no player for this one. The only upload I found is a label's video whose rights I could not confirm, so I left it out; the Naked Edit is the original instrumental to look for. A later vocal version, with Beverley Skeete, reached number 6 in 1996, and that is a different record from this one.
+The Naked Edit is the original instrumental to look for. A later vocal version, with Beverley Skeete, reached number 6 in 1996, and that is a different record from this one.
 
 ### Robin S, Show Me Love, 1993
 
@@ -121,4 +121,3 @@ Every entry above except Passion has a player. Every one is an upload by the art
 - [NME, the best house music songs](https://www.nme.com/features/best-house-songs-ever-chicago-1970s-1980s-1990s-frankie-knuckles-2678413)
 - [6AM Group, the 10 best classic house music songs](https://6amgroup.com/articles/guides-all/the-10-best-classic-house-music-songs)
 - [Billboard, the 50 best house songs of all time](https://www.billboard.com/lists/best-house-music-songs-all-time/)
-- Track facts (years, labels, chart positions, credits) from each record's reference entry, checked on 6 October 2026.

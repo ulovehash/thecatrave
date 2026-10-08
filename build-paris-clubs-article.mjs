@@ -70,7 +70,7 @@ const media = {
     id: 'degeneration-original',
     kicker: 'Essential listening',
     title: 'Mylène Farmer, Dégénération: the original record.',
-    description: "The 2008 single that my remix above is built from, produced by Laurent Boutonnat. On Spotify, verified against Mylène Farmer's own catalogue.",
+    description: "The 2008 single that my remix above is built from, produced by Laurent Boutonnat.",
     src: 'https://open.spotify.com/embed/track/4j5JxFQLHDw5JSgXfcCeZB?utm_source=generator&theme=0',
     iframeTitle: 'Mylène Farmer, Dégénération, on Spotify',
     fullBleed: true,

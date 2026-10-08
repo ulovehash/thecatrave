@@ -14,7 +14,7 @@ Les meilleures playlists house sur Spotify viennent de son équipe éditoriale, 
 
 Chaque playlist a un curateur identifiable. Certaines parcourent les nouvelles sorties. D’autres fonctionnent comme des archives durables. Les notes ci-dessous décrivent à quoi sert la playlist et où ses limites deviennent floues.
 
-Les nombres d’abonnés changent et ne mesurent ni l’enchaînement ni le goût, ils sont donc omis. Les titres, curateurs et identifiants des playlists ont été vérifiés le 29 septembre 2026. Spotify peut changer les premiers morceaux après cette date.
+Les nombres d’abonnés changent et ne mesurent ni l’enchaînement ni le goût, ils sont donc omis. Spotify peut changer les premiers morceaux.
 
 ## Fondations de la house et disques soulful
 

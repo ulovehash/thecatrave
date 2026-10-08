@@ -18,7 +18,7 @@ I read the lists that could be fetched: Skiddle's best DJ sets, Play House Sound
 
 Then one rule: a set only gets in if an official upload exists, from the artist, the festival or the broadcaster, and it plays. A set that exists only as a bootleg re-upload stays out. No more than four are from Boiler Room, and no DJ appears more than twice. Carl Cox and Fatboy Slim are the only two who appear twice, once each alone and once together.
 
-Each pick carries one of three labels. Named means a list I read picked this set. Substitute means a list picked the same DJ, but the set it meant has no official copy, so this is a different set. Editorial pick means no list I read named this set, and it is here on my judgement. Years are the year in the recording's own title or the year it went up on the channel. Anything the sources disagreed about is left out.
+Each pick carries one of three labels. Named means a list I read picked this set. Substitute means a list picked the same DJ, but the set it meant has no official copy, so this is a different set. Editorial pick means no list I read named this set, and it is here on my judgement. Years are the year in the recording's own title or the year it went up on the channel.
 
 ## House: Chicago, New York and Detroit
 
@@ -246,4 +246,4 @@ Four. Carl Cox at Space and DJ Rashad and DJ Spinn play from Mixcloud, and Theo 
 - [Four Four: 10 best old school Essential Mixes](https://fourfourmag.com/10-best-old-school-essential-mixes/)
 - [DMY: 10 essential Essential Mixes](https://dmy.co/mix/10-essential-essential-mixes)
 - [UKF: 6 of the best drum and bass Essential Mixes](https://ukf.com/words/6-of-the-best-drum-bass-essential-mixes/11761)
-- Every recording was checked against the platform's own oEmbed record on 5 October 2026. Set lengths and view counts come from this site's catalogue of recorded DJ sets.
+- Set lengths and view counts come from this site's catalogue of recorded DJ sets.

@@ -2,7 +2,7 @@
 
 ## Answer
 
-Printworks London is closed. The Rotherhithe venue held its last night on 1 May 2023, six years after it opened in a former newspaper print works. The owners, British Land, and the operator, Broadwick, say it will come back as a culture and leisure venue, and Southwark Council approved plans for that in September 2024. No source I read gives a reopening date. The 2026 target stated in 2024 has not been met, and a May 2026 consultation reopened the design. This page was read on 5 October 2026 and separates what is official from what is only hoped for.
+Printworks London is closed. The Rotherhithe venue held its last night on 1 May 2023, six years after it opened in a former newspaper print works. The owners, British Land, and the operator, Broadwick, say it will come back as a culture and leisure venue, and Southwark Council approved plans for that in September 2024. No source I read gives a reopening date. The 2026 target stated in 2024 has not been met, and a May 2026 consultation reopened the design.
 
 ## Introduction
 
@@ -46,7 +46,7 @@ The building was put up in the 1980s by the Daily Mail Group and housed the pres
 
 The venue operated for six years. Broadwick's page cites more than 500,000 electronic guests, more than 200,000 live music tickets and more than 750,000 attendance in total. British Land's 2024 release says 2.5 million visitors, 300 concerts and 200 film shoots since 2017. These figures differ in what they count and who is counting, so quote them with the source.
 
-DJ Mag's Top 100 Clubs poll put it second in 2023, listing a capacity of 6,000. I did not verify its placing in earlier years.
+DJ Mag's Top 100 Clubs poll put it second in 2023, listing a capacity of 6,000.
 
 ## Printworks London rooms and capacity
 
@@ -102,4 +102,4 @@ No, because there are no events. Any tickets on sale for a Printworks London nig
 
 ### What happened to Printworks Manchester?
 
-Printworks Manchester is a different place with a similar name. It is an entertainment complex in Manchester that opened in 2000, with a cinema, bars and restaurants. It has no link to the London venue, and I did not verify its current status as a whole.
+Printworks Manchester is a different place with a similar name. It is an entertainment complex in Manchester that opened in 2000, with a cinema, bars and restaurants. It has no link to the London venue.

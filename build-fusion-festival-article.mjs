@@ -147,7 +147,6 @@ const articleHtml = [
 <li>Organiser facts (Kulturkosmos Müritz, crews, programme elements): the official English festival page, read on 5 October 2026.</li>
 <li>The 2019 security dispute: ${ext('https://taz.de/Die-Zukunft-des-Musikfestivals/!5595050/', 'taz, 25 May 2019')} and ${ext('https://www.gmx.ch/magazine/unterhaltung/musik/festivals/fusion-festival-oeffnet-langem-streit-polizei-tore-33805512', 'GMX, 25 June 2019')}.</li>
 <li>Photographs: Wikimedia Commons, credited in each caption.</li>
-<li>Not verified: the site area (reports give 100 to 220 hectares) and the 70,000 visitor figure, which is press reporting. No 2028 ticket dates, prices or programme were published on the pages read.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

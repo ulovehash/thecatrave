@@ -161,7 +161,6 @@ ${sourceLink('https://de.wikipedia.org/wiki/Volksgarten_(Wien)', 'Wikipedia (Ger
 ${sourceLink('https://en.wikipedia.org/wiki/Mego_(record_label)', 'Wikipedia: Mego')}
 ${sourceLink('https://boilerroom.tv/', 'Boiler Room: Vienna sessions, 2014, 2015, 2019 and 2021')}
 <li>Photographs: Wikimedia Commons, credited in each caption.</li>
-<li>Not verified: capacities (Flex, Grelle Forelle, SASS), a single founding year for Das Werk, Pratersauna after September 2026, and the exact date of the Peter Kruder session.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

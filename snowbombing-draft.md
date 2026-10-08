@@ -8,7 +8,6 @@ Snowbombing is a ski and music festival held in Mayrhofen, a village in Austria'
 
 Most festivals sell a ticket and leave the rest to you. Snowbombing sells a week in the mountains with the music built in, and that changes the questions people ask. How much is it, once the bed is counted? Can I go for a day? What do I need to know before I book?
 
-This page answers those questions from the festival's own site, read on 4 October 2026, and it ends with sets to hear first. Where the site still carries last year's wording, the page says so.
 
 ## What is Snowbombing?
 

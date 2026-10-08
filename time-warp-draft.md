@@ -2,13 +2,12 @@
 
 ## Answer
 
-Time Warp is a house and techno festival that began in 1994, and its next Mannheim edition is on Saturday 3 April 2027 at the Maimarkthalle, from 19:00 to 14:00. The official site calls it the only German edition in 2027. Tickets were on sale on 4 October 2026 at pre-lineup prices of €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, service fee included, and entry is 18 and over. No artists were announced for Mannheim on that date. Outside Germany, the official site lists Time Warp Mexico and Time Warp New York on 20 and 21 November 2026 and Time Warp Los Angeles on 27 and 28 November 2026. Every date on this page was read on time-warp.de on 4 October 2026 and is confirmed.
+Time Warp is a house and techno festival that began in 1994, and its next Mannheim edition is on Saturday 3 April 2027 at the Maimarkthalle, from 19:00 to 14:00. The official site calls it the only German edition in 2027. Tickets were on sale on 4 October 2026 at pre-lineup prices of €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, service fee included, and entry is 18 and over. No artists were announced for Mannheim on that date. Outside Germany, the official site lists Time Warp Mexico and Time Warp New York on 20 and 21 November 2026 and Time Warp Los Angeles on 27 and 28 November 2026.
 
 ## Introduction
 
 Time Warp is a name that covers more than one event. The original is a long night in a Mannheim exhibition hall, and since then the name has also been put on festivals in São Paulo, New York, Madrid and other cities. That raises practical questions. Which one is next? Where do the tickets go on sale, and what do they cost? Who is playing?
 
-This page answers them from the festival's own site, read on 4 October 2026, and it ends with sets to hear first. Where the site lists no date or no artist, the page says so instead of guessing.
 
 ## What is Time Warp festival?
 
@@ -38,7 +37,7 @@ Time Warp techno is tied to one hall. The official history billed the 2025 and 2
 
 ## Which Time Warp editions run outside Mannheim?
 
-The official site lists these Time Warp editions. All dates were read on 4 October 2026.
+The official site lists these Time Warp editions.
 
 | Edition | Where | Dates | Status |
 |---|---|---|---|

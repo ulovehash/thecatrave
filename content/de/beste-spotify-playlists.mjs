@@ -96,7 +96,6 @@ export default {
     {href:'https://www.gq-magazine.co.uk/article/best-spotify-playlists', label:'British GQ: The best Spotify playlists to escape the AI algorithm'},
     {href:'https://audiohype.io/resources/the-best-spotify-playlists/', label:'Audiohype: The Best Spotify Playlists in 2026'},
     {href:'https://routenote.com/blog/most-followed-playlists-on-spotify/', label:'RouteNote: Top 10 most followed playlists on Spotify 2026'},
-    {href:'https://open.spotify.com/', label:'Alle zwölf Spotify-Playlist-Seiten wurden am 21. September 2026 direkt geprüft'}
   ],
 
   bandcamp:{

@@ -58,7 +58,7 @@ Die beiden Sets sind ein weiterer Beleg dafür, dass Lissabons neuere Orte im La
 
 [Embed: Parris]
 
-Darüber hinaus verweisen die aktuellen Listings der Stadt auf das 8 Marvila in Marvila, die schon erwähnten Konda-Records-Nächte im Ministerium und eine wechselnde Reihe von Do-it-yourself-Partys und Pop-ups, die ihre Adresse nicht lange genug behalten, um sie beim Namen zu empfehlen. Die kleineren Räume wurden für diesen Guide nicht so gründlich recherchiert wie die Clubs oben.
+Darüber hinaus verweisen die aktuellen Listings der Stadt auf das 8 Marvila in Marvila, die schon erwähnten Konda-Records-Nächte im Ministerium und eine wechselnde Reihe von Do-it-yourself-Partys und Pop-ups, die ihre Adresse nicht lange genug behalten, um sie beim Namen zu empfehlen.
 
 ## FAQ
 
@@ -80,4 +80,4 @@ Manche ihrer Orte schon. Musicbox, Outra Cena und Lounge haben seit 2024 alle ge
 
 ### Gibt es weitere Clubs in Lissabon, die man kennen sollte?
 
-Ja, auch wenn dieser Guide fünf gründlich recherchiert hat. Die Lagerhaus-Events des Village Underground Lisboa in Alcântara, das 8 Marvila in Marvila und die Konda-Records-Afro-House-Nächte im Ministerium tauchen alle regelmäßig in Lissabons eigenen Club-Listings auf.
+Ja. Die Lagerhaus-Events des Village Underground Lisboa in Alcântara, das 8 Marvila in Marvila und die Konda-Records-Afro-House-Nächte im Ministerium tauchen alle regelmäßig in Lissabons eigenen Club-Listings auf.

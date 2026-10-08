@@ -110,5 +110,4 @@ Neither is a trance record, and neither belongs to the list above. They are here
 - Official Charts song pages for 9PM (Till I Come), Saltwater, Children, Silence (2000 release and 1999 release), Café del Mar, For an Angel, Adagio for Strings, Satellite, Shivers/Serenity and Out of the Blue (officialcharts.com/songs), read 6 October 2026.
 - A State of Trance, the 2021 and 2024 all-time Top 1000 results (astateoftrance.com); EDM Tunes, April 2024 Top 1000 coverage.
 - DJ Mag, How Paul van Dyk's For An Angel changed trance forever.
-- YouTube oEmbed checks for every embedded player, 6 October 2026.
 - Photographs: Wikimedia Commons, CC BY 2.0, CC BY 3.0 and CC BY 4.0, credited in each caption.

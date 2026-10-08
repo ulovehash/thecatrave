@@ -8,7 +8,7 @@ Electric Forest is a multi-day music festival held in Rothbury, Michigan, at the
 
 Electric Forest is a festival with a lot of practical questions attached. Where is it, how do you get in, where do you sleep, and what do you bring? Its own site answers most of them, but it is built around the current year, and in October the 2026 festival is over and the 2027 pages are empty.
 
-This page keeps what is stable (the venue, the way passes and camping work, the rules) and says plainly what is not yet announced. Everything was read on 4 October 2026 from the official site and from local news. For a comparison with the other big American festivals, see the [US EDM festivals guide](/best-edm-festivals-usa).
+This page keeps what is stable (the venue, the way passes and camping work, the rules) and says plainly what is not yet announced. For a comparison with the other big American festivals, see the [US EDM festivals guide](/best-edm-festivals-usa).
 
 ## What is Electric Forest festival?
 

@@ -4,7 +4,6 @@
 
 Which are the best EDM festivals in the US? That depends on what you want to hear and where you want to sleep. The biggest ones are EDC in Las Vegas and Ultra in Miami. For house and techno, go to Movement in Detroit or ARC in Chicago. For bass music, go to Lost Lands in Ohio or Bass Canyon in Washington. This page compares them by sound, scale and setting, and tells you when each one is on in 2027.
 
-Every date below was checked on the festival's own site or on its promoter's page on 2 October 2026. Where a festival has not announced 2027 dates yet, the table says so rather than guessing from previous years, and this page is updated as dates are confirmed.
 
 ## How this list was chosen
 

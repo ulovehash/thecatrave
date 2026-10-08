@@ -8,7 +8,7 @@ Defqon.1 2027 is booked for 24 to 27 June 2027 at the Holy Grounds in Biddinghui
 
 Defqon.1 is the big hardstyle weekend, and in October 2026 it sits in an odd place: the last edition ended early, the next one is nine months away, and the ticket rules changed because of it. Searches for Defqon.1 2026 and for Defqon.1 2027 are both high, which fits a festival whose buyers are working out what happened and what to do next.
 
-This page covers what the festival is, when and where the 2027 edition is held, how the sales stages work, why 2026 was cancelled and where to hear the music. For the music itself, see the [hardstyle guide](/hardstyle-guide). Searchers also type the name as Defqon 1, because the dot is part of the brand. Every date and price below says when it was read and from which source. Where the official pages do not say, this page says so.
+This page covers what the festival is, when and where the 2027 edition is held, how the sales stages work, why 2026 was cancelled and where to hear the music. For the music itself, see the [hardstyle guide](/hardstyle-guide). Searchers also type the name as Defqon 1, because the dot is part of the brand.
 
 ## What is Defqon.1 festival?
 

@@ -165,8 +165,7 @@ const sources = [
   '[Headphonesty, 30 Essential Electronic Music Albums According to Audiophiles](https://www.headphonesty.com/2026/08/essential-electronic-music-albums-audiophiles/) (August 2026), a reader vote with percentages.',
   'Slant Magazine, 25/20: the best electronic albums of the twentieth century (30 June 2002, Sal Cinquemani), a poll of 300 journalists, DJs and label staff.',
   '[Resident Advisor, The Best Electronic Records of 2000-25](https://ra.co/features/4482) (2025), 100 records including EPs and compilations.',
-  'MusicBrainz release data, read on 6 October 2026, for years and labels. Where sources disagree on a year, the note says so.',
-  'Spotify oEmbed, checked on 6 October 2026, for each album player and its edition title.'
+  'MusicBrainz release data.',
 ].map(line => `<li>${inline(line)}</li>`).join('');
 
 const articleHtml = [

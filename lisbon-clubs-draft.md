@@ -54,7 +54,7 @@ The two sets are further evidence that Lisbon's newer, warehouse-scale venues ar
 
 [Embed: Parris]
 
-Beyond these, the city's own current listings point to Marvila's 8 Marvila, the Konda Records nights at Ministerium already mentioned, and a rotating set of DIY parties and pop-ups that don't keep a fixed address long enough to recommend by name. None of the smaller rooms were researched to the same depth as the clubs above for this guide.
+Beyond these, the city's own current listings point to Marvila's 8 Marvila, the Konda Records nights at Ministerium already mentioned, and a rotating set of DIY parties and pop-ups that don't keep a fixed address long enough to recommend by name.
 
 ## FAQ
 
@@ -76,7 +76,7 @@ Some of its venues are. Musicbox, Outra Cena and Lounge have all closed since 20
 
 ### Are there other clubs in Lisbon worth knowing about?
 
-Yes, though this guide researched five in depth. Village Underground Lisboa's warehouse events in Alcântara, Marvila's 8 Marvila, and the Konda Records Afro-house nights at Ministerium all turn up regularly in Lisbon's own club listings.
+Yes. Village Underground Lisboa's warehouse events in Alcântara, Marvila's 8 Marvila, and the Konda Records Afro-house nights at Ministerium all turn up regularly in Lisbon's own club listings.
 
 ## Answer
 

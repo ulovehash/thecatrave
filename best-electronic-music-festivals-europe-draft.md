@@ -4,7 +4,6 @@
 
 Europe has more electronic music festivals than anyone could list, and most "best of" pages are lists of the famous ones with a photograph each. This one is meant to help you choose: what each festival actually plays, how big it is, where you sleep, when it is in 2027, and who it suits.
 
-Every date below was checked on the festival's own site on 22 September 2026. Where a festival has not announced its 2027 dates yet, the table says so rather than guessing from previous years, and this page is updated as dates are confirmed.
 
 ## How this list was chosen
 

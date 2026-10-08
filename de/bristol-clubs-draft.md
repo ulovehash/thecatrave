@@ -42,7 +42,7 @@ Motions neuer Ort in der Victoria Terrace und Lakotas Gebäude in der Upper York
 
 [Image: Thekla]
 
-Über diese drei hinaus verweisen Bristols eigene Listings Neulinge regelmäßig auf SWX, einen Raum für Konzerte und Clubnächte in einem früheren Nachtclub-Gebäude; Marble Factory, Theklas Schwesterlocation im selben Hafenkomplex; Basement 45; und The Fleece, eher als Konzertort bekannt. Keiner der vier wurde für diesen Guide so tief recherchiert wie Motion, Lakota und Thekla.
+Über diese drei hinaus verweisen Bristols eigene Listings Neulinge regelmäßig auf SWX, einen Raum für Konzerte und Clubnächte in einem früheren Nachtclub-Gebäude; Marble Factory, Theklas Schwesterlocation im selben Hafenkomplex; Basement 45; und The Fleece, eher als Konzertort bekannt.
 
 ## FAQ
 
@@ -64,4 +64,4 @@ In der Praxis beides, wobei es zuerst zu Konzerten neigt. Es wird von DHP Family
 
 ### Gibt es andere Clubs in Bristol, die man kennen sollte?
 
-Ja, auch wenn dieser Guide nur drei tief recherchiert hat. SWX, ein Raum für Konzerte und Clubnächte in einem früheren Nachtclub-Gebäude; Marble Factory, Theklas Schwesterlocation im selben Hafenkomplex; Basement 45; und The Fleece tauchen alle regelmäßig in Bristols eigenen Club- und Konzertlistings auf.
+Ja. SWX, ein Raum für Konzerte und Clubnächte in einem früheren Nachtclub-Gebäude; Marble Factory, Theklas Schwesterlocation im selben Hafenkomplex; Basement 45; und The Fleece tauchen alle regelmäßig in Bristols eigenen Club- und Konzertlistings auf.

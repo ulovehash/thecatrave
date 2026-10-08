@@ -98,6 +98,10 @@ Run the draft through the `humanizer` skill first (`ARTICLE-PRODUCTION-WORKFLOW.
 - Stock AI vocabulary: crucial, enduring, vibrant, pivotal, landscape, testament, delve; in German *unverzichtbar*, *eintauchen*, *Kulturartefakt*; in French *incontournable*, *emblématique*, *véritable*.
 - "Welcome to the ultimate guide", "we'll explore", "dive into", and scenes that invent a moment instead of stating a fact ("Picture East London in 1992…").
 
+### Research-process commentary
+
+Reject generic explanations of sourcing, fact-checking, date verification or how the article handles disagreements. Run `node audit-banned-phrases.mjs` for known English, German and French process-note regressions; also inspect meaning because the automated rules cannot catch every paraphrase. These belong in internal records, not published copy. Check every language. Retain substantive selection criteria, direct citations, claim-specific uncertainty and required image credits.
+
 ### Site-voice rules
 
 These are enforced on every build by `audit-banned-phrases.mjs`, in English, German and French. The reviewer still checks the idea, because a reworded version of a banned phrase passes the audit and breaks the rule just the same.

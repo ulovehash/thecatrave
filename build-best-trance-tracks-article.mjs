@@ -125,7 +125,6 @@ const sources = [
   'A State of Trance all-time Top 1000: the [2021 results](https://www.astateoftrance.com/armin-van-buuren-reveals-all-time-a-state-of-trance-top-1000-list/) and the [2024 results](https://www.astateoftrance.com/all-time-a-state-of-trance-top-1000-list/).',
   '[DJ Mag, How Paul van Dyk\'s For An Angel changed trance forever](https://djmag.com/features/how-paul-van-dyks-angel-changed-trance-forever), for the 1994 MFS release and the E-Werk Remix.',
   'Release dates for 9 PM (Till I Come), Saltwater, Out of the Blue, Shivers, Communication Part 3 and Concrete Angel come from discography and reference pages, not from a label page.',
-  'YouTube oEmbed checks for every embedded player, 6 October 2026.',
   'Photographs from Wikimedia Commons: Davide Pasca (CC BY 2.0), Celwin Frenzen (CC BY 3.0), Vyacheslav Argenberg (CC BY 4.0).'
 ].map(line => `<li>${inline(line)}</li>`).join('');
 
