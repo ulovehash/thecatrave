@@ -36,7 +36,9 @@ for (const spec of specs) {
   check('no duplicate IDs', (() => { const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]); return ids.length === new Set(ids).size; })());
   check('no em dash', !html.includes('—'));
   check('no placeholders', !/\[(?:Embed|MEDIA|TODO):?/.test(html));
-  check('dates agree', html.includes('article:published_time" content="2026-09-29"') && html.includes('article:modified_time" content="2026-09-29"') && html.includes('<time datetime="2026-09-29">29 September 2026</time>'));
+  const modified = spec.file === 'best-soundcloud-dj-mixes.html' ? '2026-10-08' : '2026-09-29';
+  const dateLabel = spec.file === 'best-soundcloud-dj-mixes.html' ? '8 October 2026' : '29 September 2026';
+  check('dates agree', html.includes('article:published_time" content="2026-09-29"') && html.includes(`article:modified_time" content="${modified}"`) && html.includes(`<time datetime="${modified}">${dateLabel}</time>`));
 }
 const house = fs.readFileSync('best-house-music-playlists-spotify.html', 'utf8');
 if ((house.match(/class="playlist-preview-player"[^>]*height="152"/g) || []).length !== 12) failures.push('best-house-music-playlists-spotify.html: compact 152px players');

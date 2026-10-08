@@ -2,247 +2,185 @@
 
 ## Answer
 
-No one set is universally agreed to be the best DJ set of all time. These 30 official recordings combine sets named by published lists with clearly labelled substitutes and editorial picks, so you can hear each selection. Where the famous set was never released officially, a different recording by the same DJ is labelled as a substitute.
+Start with Four Tet and Floating Points saying goodbye to Plastic People: two residents taking turns with records that had become part of the club’s life, including music written to be played there. For house, try Black Coffee at Village Underground, connecting South African productions with American deep house. These recordings give you different reasons to stay listening: the history attached to a particular record, or the way a DJ brings records from different places together.
 
 ## Introduction
 
-Search for the best DJ sets of all time and you get lists that name the same few nights: a Space Ibiza closing, a Plastic People goodbye, a Time Warp floor. What most of them leave out is that you often cannot hear the night they name. Many of the most famous sets exist only as bootlegs, or as a CD you cannot stream, or not at all.
+For jungle, Randall’s 1992 to 1995 selection concentrates on the years when the music was taking shape. Rashad and Spinn’s XLR8R podcast introduces a Chicago footwork circle through their own tracks and those of DJ Manny and DJ Earl. Skream’s garage set goes back to the DJ EZ tapes he learned from and the records of his childhood.
 
-So this page works the other way round. It starts from what you can press play on, from the DJ's own channel, the festival's, or a broadcaster like Mixmag, DJ Mag, Cercle or Boiler Room. Where the named set has no official copy, you get another set by the same DJ, and the write-up tells you which kind it is.
-
-There are thirty, in seven groups by sound. Ignore the order and start wherever the music interests you; the last section suggests five places to begin.
+Choose a recording from the contents below. Each set has its own player and a description of the music or occasion that makes it worth exploring.
 
 ## How these 30 were chosen
 
-I read the lists that could be fetched: Skiddle's best DJ sets, Play House Sound, Techno Airlines, blondish, Wedding DJ Pool, Mixmag's best DJ mixes of 2010 to 2019, the Red Bull Music Academy's guide to Frankie Knuckles, Four Four and DMY's lists of Essential Mixes, and UKF's drum and bass Essential Mixes. Several of these copy each other, so a set named by five lists is not five independent votes. Reddit threads, Resident Advisor's lists and several other pages could not be read, and I have not claimed anything from them.
 
-Then one rule: a set only gets in if an official upload exists, from the artist, the festival or the broadcaster, and it plays. A set that exists only as a bootleg re-upload stays out. No more than four are from Boiler Room, and no DJ appears more than twice. Carl Cox and Fatboy Slim are the only two who appear twice, once each alone and once together.
-
-Each pick carries one of three labels. Named means a list I read picked this set. Substitute means a list picked the same DJ, but the set it meant has no official copy, so this is a different set. Editorial pick means no list I read named this set, and it is here on my judgement. Years are the year in the recording's own title or the year it went up on the channel.
 
 ## House: Chicago, New York and Detroit
 
 ### Marshall Jefferson, The Lab NYC, Mixmag, 2015
 
-Marshall Jefferson is one of the founders of Chicago house, and this is his set in Mixmag's New York studio. Editorial pick: no list I read names this set.
-
-It runs 114 minutes. Start here if you want a founder playing records rather than telling the story.
+Jefferson's selection reaches well beyond his own Chicago catalogue. Kerri Chandler's “Bar A Thym” sits alongside music from Purple Disco Machine and Detroit Swindle, while Louie Vega and Jocelyn Brown's “You Are Everything” brings a vocal centre to the set. The appeal is hearing an older house DJ engaging with younger producers: the records belong to different generations, but there is a clear shared taste for percussion and soul. [Tracklist](https://www.mixesdb.com/w/2015-12-05_-_Marshall_Jefferson_%40_Mixmag_DJ_Lab%2C_NYC).
 
 ### Todd Terry, The Lab London, Mixmag, 2013
 
-Mixmag filmed Todd Terry in its London Lab and titled it a classic house set. Editorial pick, and one of the weaker cases on the page: no list I read names it, and it is here for the New York house sound.
-
-An hour long, from the New York end of house.
+“Can You Party,” “Keep On Jumpin'” and his remix of Everything But The Girl's “Missing” give Terry plenty of material from his own history. The Lab set puts those familiar records beside his other productions and remixes, including “Bounce To The Beat.” It is a useful way into his music because the club hits sit together as a DJ's selection, with the rougher rhythmic tracks alongside the big vocals. [Tracklist](https://www.mixesdb.com/w/2013-08-30_-_Todd_Terry_%40_Mixmag_DJ_Lab).
 
 ### Louie Vega, DJ Mag HQ, 2018
 
-Louie Vega played DJ Mag's own studio in 2018. Editorial pick: no list I read names it.
-
-It is 61 minutes, from a New York house DJ, on the DJ Mag channel.
+Vega came to DJ Mag to celebrate his album “NYC Disco.” That gives this appearance a more specific purpose than another guest mix: it is a chance to hear his disco interests at the centre of the occasion. DJ Mag's London office provides a small setting for a New York DJ whose work connects those records with house. Start here if that connection is the part of Vega's music you want to explore. [DJ Mag's event announcement](https://djmag.com/news/watch-louie-vega-live-djmaghq).
 
 ### Kerri Chandler, Mixmag Live, 2017
 
-Kerri Chandler's Mixmag Live set runs 174 minutes. Editorial pick: no list I read names it.
-
-Choose this one if you want a house DJ given the time to build a night.
+This is Chandler at Mangle in London, with Satoshi Tomiie and Voyeur on the bill. It catches him at a point when his Kaoz Theory label was bringing younger producers into the same conversation as the soulful New Jersey house he had helped establish. The attraction is that continuity: a DJ rooted in the music's earlier years who was still actively making room for new records and artists. [Mixmag's account of the night](https://mixmag.net/read/mixmag-live-with-kerri-chandler-mixmag-live).
 
 ### Theo Parrish, Boiler Room #29, 2010
 
-Theo Parrish played the 29th Boiler Room, in 2010, and Boiler Room put the recording online as audio. This one is audio only, about 45 minutes. Named by at least one list of Boiler Room sets that I read.
-
-It is early Boiler Room, number 29 in the series, and the Detroit house set on the page.
+George Benson's “The World Is a Ghetto,” Dexter Wansel's “Life on Mars” and Round Four's “Find a Way” all appear in this early Boiler Room recording. Soul and jazz-funk sit beside dub and Parrish's own productions. That breadth is the reason to start here: it offers a view of his record collection that a house-only selection would miss. The original broadcast is audio only. [Tracklist](https://www.mixesdb.com/w/2010-10-19_-_Theo_Parrish_%40_Boiler_Room_29_-_Young_Turks_Takeover).
 
 ### A hip hop aside: DJ Jazzy Jeff, Boiler Room Philadelphia, 2017
 
-DJ Jazzy Jeff is the one hip hop DJ here, and the only set that is not dance music. Boiler Room filmed him in Philadelphia in 2017. Editorial pick, and one of the weaker cases on the page: it was chosen because DJing is a craft that hip hop built, and no dance music list I read names it.
-
-At 115 minutes it is the longer of the two Boiler Room sets, and has been watched more than four million times.
+Jeff puts the orchestral version of “Bitch, Don't Kill My Vibe” beside Kendrick Lamar's recording, then finds room for Aaliyah, reggae and the music behind familiar rap samples. Later, “Summertime” appears among Janet Jackson, Outkast and A Tribe Called Quest. The pleasure is in those connections: recognising a tune, then hearing the other record he has chosen to put next to it. Philadelphia gives this set a fitting home. [Tracklist](https://www.mixesdb.com/w/2017-01-24_-_DJ_Jazzy_Jeff_%40_Budweiser_x_Boiler_Room_What%E2%80%99s_Brewing_In_Philadelphia).
 
 ## House now
 
 ### Black Coffee, Mixmag Live London, 2015
 
-Black Coffee's spiritual DJ set at Mixmag Live in London is 182 minutes long and has been watched more than ten million times, the most of any house set here. Named: it appears on Mixmag's list of the best DJ mixes of 2010 to 2019.
+Black Coffee’s Village Underground set is a good place to hear how South African house connects with American deep house. The selection brings them together across a sustained club set, giving listeners a way into South African productions through a shared musical language.
 
-It is the clearest example on the page of Afro house played at club length.
+Its place here also rests on the moment it captures. Looking back on the decade, critic Michaelangelo Matos singled out this performance as a statement of South African house’s growing international importance. The reason to return to it is that connection between the records: a DJ showing a London audience how the music from home fits into his broader understanding of house. [Mixmag’s retrospective](https://mixmag.net/feature/20-best-dj-mixes-of-the-decade-2010-2019).
 
 ### Solomun and Kollektiv Turmstrasse, Diynamic ADE showcase, Mixmag, 2014
 
-Solomun played with Kollektiv Turmstrasse at Mixmag's Diynamic showcase during Amsterdam Dance Event, and it runs 183 minutes. Substitute: three lists name Solomun, but for his Boiler Room set in Tulum, which is on our [Boiler Room guide](/best-boiler-room-sets), so this is a different one.
-
-Two DJs trading records for three hours is a different thing from one DJ's hour.
+Kollektiv Turmstrasse's live performance leads into Solomun's DJ set in this recording of Diynamic's Amsterdam party. “Sorry, I'm Late” appears near the end of Kollektiv's portion; Solomun's selection later takes in his Foals remix, “Late Night,” and Metro Area's “Miura.” That handover makes the recording interesting: you get the label's live music and a broader selection from its co-founder in the same night. [The programme and tracklist](https://www.mixesdb.com/w/2014-10-16_-_Kollektiv_Turmstrasse_%28Live%29%2C_Solomun_%40_Loveland_Diynamic_Showcase%2C_Mediahaven%2C_ADE).
 
 ### Honey Dijon, The Lab Miami, Mixmag, 2016
 
-Honey Dijon in Mixmag's Miami Lab is 49 minutes long. Substitute: Mixmag's decade list picks her Resident Advisor podcast, which is not a filmed set, so this is her filmed set for Mixmag instead.
-
-A short, fast hour for people who want the house of 2016 without a commitment.
+Honey Dijon played this South Beach session during Miami Music Week. It belongs to the period when her club work was reaching a much wider audience, with appearances ranging from CTM in Berlin to Miami and Glastonbury. For anyone exploring that period, it is an accessible filmed performance alongside her radio mixes. [The Miami session](https://www.youtube.com/watch?v=SP_hVmD3yI4).
 
 ### The Black Madonna, DJ Mag Pool Party Miami, 2018
 
-The Black Madonna played DJ Mag's pool party in Miami in 2018, 51 minutes. Substitute: Mixmag's decade list names a different Black Madonna mix.
-
-A Chicago-rooted house DJ at a Miami pool party.
+Artwork's “Let Go of This Acid” opens a selection that also includes Jerome Hill's “Drumwar” and KiNK's remix of Unit 2's “Sunshine.” This is the tougher end of her house selection, with Marlena Shaw's “Woman of the Ghetto” appearing in a Catz 'n Dogz remix. Choose it for that combination of acid, percussion and vocals, rather than expecting an afternoon of disco. [Tracklist](https://www.mixesdb.com/w/2018-03-21_-_The_Black_Madonna_%40_DJ_Mag_Poolside_Sessions%2C_The_Surfcomber%2C_MMW%2C_Miami).
 
 ### Dixon, Cercle Festival, Ariane stage, 2024
 
-Dixon played the Ariane stage at Cercle Festival in 2024, 88 minutes, filmed by Cercle. Editorial pick: one list I read names Dixon, but for his Innervisions work, not this set.
-
-It is the most recent house set.
+SBTRKT's “Volca” and Deer Jade's “Firmament” share the selection with Âme's “Asa” and “Shadow of Love.” Those records give this Cercle appearance a useful focus for listeners following Dixon and the music around Innervisions. It is a more recent festival snapshot than the historic farewells elsewhere on the page, with a selection to explore track by track. [Tracklist](https://watchthedj.com/djvideos/dixon-live-at-cercle-festival-2024-ariane-stage).
 
 ## Techno
 
 ### Carl Craig, Detroit Classics set, Mixmag Live, 2012
 
-Carl Craig played Mixmag Live in 2012 and the channel titled it a Detroit Classics set. 112 minutes. Substitute: two lists name Carl Craig, neither for this set.
-
-Carl Craig is a Detroit techno producer, and the channel's own title says what the set is.
+Moodymann's “Forevernevermore” appears beside Robert Hood's “Alpha,” with Inner City and Joey Beltram also in the selection. Craig's Detroit theme leaves room for both house and techno, and for the records that travelled between scenes. That makes the set a useful introduction to the breadth of his taste: familiar names lead you towards different sides of the music, rather than a run through one producer's catalogue. [Tracklist](https://www.mixesdb.com/w/2012-10-19_-_Carl_Craig_%40_Mixmag_Live%2C_Village_Underground%2C_London).
 
 ### Joey Beltram, The Lab NYC, Mixmag, 2018
 
-Joey Beltram's hour in Mixmag's New York Lab is 59 minutes. Editorial pick.
-
-An hour, from a New York techno DJ.
+Beltram’s Brooklyn Lab appearance puts “Energy Flash” into a selection containing Mark Reeve, Developer and Amelie Lens. The interesting listening question is how his own early work sits among the later techno records he chooses. The published tracklist places “Energy Flash” near the end, after Perc’s remix of Lens’s “Stay With Me,” with further records still to follow. [Tracklist](https://www.mixesdb.com/w/2018-06-15_-_Joey_beltram_%40_Mixmag_DJ_Lab%2C_NYC).
 
 ### Sven Väth, Time Warp 2D2S, 2023
 
-Sven Väth played Time Warp's 2D2S edition in Germany in 2023, on Time Warp's own YouTube channel. Substitute: two lists name Sven Väth for other nights, including Love Parade.
-
-A founding figure of Frankfurt techno, on the festival's own channel.
+Väth plays vinyl at Time Warp's November edition in Mannheim. If you are interested in how he works with records, the film gives you something a radio mix cannot: the performance at the decks as well as the music. This is a later chapter in his relationship with the festival, with the physical process of selecting and mixing vinyl still part of the attraction. [Time Warp's recording](https://www.youtube.com/watch?v=jAb-PeSB-kk).
 
 ### Nina Kraviz, Time Warp, 2017
 
-Nina Kraviz played Time Warp in 2017 and ARTE Concert filmed it, so the recording sits on ARTE's channel rather than the festival's. Substitute: three lists name Nina Kraviz, but for other sets, one of them from 2018.
-
-It is the Time Warp set on this page that comes from a TV broadcaster.
+Kraviz puts Da Hool's “Meet Her at the Love Parade” into a set that also reaches for Morganistic and Cyberia. The recognisable trance anthem sits among much less obvious techno selections. That willingness to move between a huge shared memory and stranger records is the appeal here. Contemporary reporting from the festival singled out both Da Hool and Cyberia's “Mr. Chill's Back.” [Report from the floor](https://www.clubxtrem.net/article-40434-de-time-warp-2017-mannheim-le-01-04-2017.html).
 
 ### Adam Beyer, Awakenings Day One, 2016
 
-Adam Beyer's set on the first day of Awakenings in 2016, from the festival's own channel. Substitute: one list, Techno Airlines, names Adam Beyer, but not this set, so this is one of the weakest cases on the page.
-
-Festival techno, in the room it was meant for.
+Beyer had the closing slot on Area W, following Loco Dice, on the Saturday of Awakenings. That is the context for this recording: the final stretch of a festival stage after a programme that had also included Ricardo Villalobos and Apollonia. [The original timetable](https://www.awakenings.com/en/events/2016/06/awakenings-festival-2016-day-one/2316/).
 
 ### Tale of Us, Time Warp, 2016
 
-Tale of Us played Time Warp in Mannheim in 2016, filmed by Mixmag, 117 minutes. Substitute: Techno Airlines names Tale of Us for an Afterlife set, and blondish for other nights.
-
-Melodic techno, played to a festival floor.
+Start with the opening: Locked Groove's remix of Vaal's “Wander to Hell.” Its vocal and gathering tension give the set an immediate emotional direction. Mixmag later used this exact opening to illustrate why the record had made such an impression that year. The performance catches Tale of Us in the period when their combination of melody and techno was drawing attention. [Mixmag on the opening record](https://mixmag.net/feature/20-techno-tracks-that-knocked-2016-sideways/).
 
 ### Charlotte de Witte, The Lab NYC, Mixmag, 2020
 
-Charlotte de Witte's 54 minutes in Mixmag's New York Lab. Substitute: Techno Airlines names her Tomorrowland sets, and no official copy of those turned up.
-
-It has been watched more than three million times.
+Her own “Pressure” appears alongside Cadans' “Hose” and SRVD's “Black on Black.” This is a focused introduction to the music she was playing around the early period of KNTXT, with her productions sitting inside a wider techno selection. The office setting makes it an easy performance to follow without the scale of a festival show. [Tracklist](https://watchthedj.com/djvideos/charlotte-de-witte-live-at-mixmag-lab-nyc-2020).
 
 ## Marathons and closing nights
 
-### Carl Cox, Space Ibiza closing, Global 700, 2016
+### Carl Cox, Space Ibiza residency farewell, Global 700, 2016
 
-Carl Cox closed Space Ibiza in 2016, and he put it online himself on Mixcloud as four parts. This is part one, and it is audio only. Named: four of the lists I read name it, more than any other set here.
-
-The same night exists on YouTube, but only as a re-upload by someone else, so it stays out. The official copy is the Mixcloud one.
+Cox was closing a fifteen-year residency at Space. That gives this recording its weight: the end of a relationship between a DJ and a club that his audience had followed across many summers. He shared the farewell through the 700th edition of his Global radio show. The player is part one of that residency finale, a separate occasion from Space's eventual final closing party. [Cox's own description](https://www.mixcloud.com/CarlCox/carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1/).
 
 ### Four Tet and Floating Points, the last night at Plastic People, 2015
 
-Four Tet and Floating Points played the final night of Plastic People, the London club, in 2015. Floating Points uploaded it to SoundCloud, so it is audio only. Named: two lists name it.
+For Plastic People’s last public party, Four Tet and Floating Points packed favourites from their residencies and played two records each in turn. Some selections had a very specific connection to the room. Four Tet’s “Pinnacles” and Daphni’s “Ye Ye” were made to be played at Four Tet’s nights there; Floating Points’ Vacuum EP grew out of the club’s CD-R sessions.
 
-A club's last night is a different kind of set, with the room as much a part of the music as the records.
+That makes this farewell unusually personal. Both DJs were bringing music back to the place that had helped them develop it, with the regulars there for one last dance. The recording distorts in places and catches the crowd making plenty of noise. Those imperfections belong to the occasion. You get a record of the relationship between the residents and their club, right up to its ending. [The artists’ account](https://soundcloud.com/floatingpoints/floating-points-four-tet-final-plastic-people-2-1-2015).
 
 ### Carl Cox b2b Fatboy Slim, Saatchi Gallery, Mixmag, 2019
 
-Carl Cox and Fatboy Slim played back to back at the Saatchi Gallery in London in 2019, 118 minutes, filmed by Mixmag. Editorial pick: both DJs are named by lists, but not this set.
-
-It has been watched more than nine million times.
+An exhibition about rave culture brought Cox and Fatboy Slim together at the Saatchi Gallery. The occasion suits a meeting between DJs with different public identities and a long shared history in British dance music. Their selection includes “Big Love” and a version of “Voodoo Ray,” giving that history a musical presence alongside the exhibition. [Mixmag's account of the event](https://mixmag.net/read/carl-cox-back-to-back-fatboy-slim-london-live-streams).
 
 ## Festival floors
 
 ### John Digweed, Time Warp, floor 1, 2014
 
-John Digweed's set on Time Warp's first floor in Mannheim in 2014, filmed by BE-AT.TV, Time Warp's archive partner. Substitute: three lists name Digweed, for Sasha and Digweed nights that have no official copy.
-
-Progressive house from one of its best-known names.
+Digweed's selection includes Matthias Meyer's “Becuz” and Fur Coat's “There's No Time,” with music from Bedrock alongside tracks on Kompakt and Poker Flat. It offers a route into the club records he was playing in that period, beyond the older Sasha and Digweed mixes that often introduce listeners to his name. This is his own Time Warp appearance. [Tracklist](https://mixgoat.com/mix/john-digweed/20-years-time-warp-2014-04-05).
 
 ### Seth Troxler, Time Warp, floor 4, 2014
 
-Seth Troxler on floor 4 of Time Warp in 2014, also from BE-AT.TV. Editorial pick.
-
-A second look at the same festival, a different room.
+Troxler begins with his own “Evangelion,” then ranges through Danny Daze, Maurice Fulton and Ron Trent with Robert Owens. There are records from his own labels in the selection too. The mix gives listeners several routes to follow, from the tougher electronic material to vocal house, within the same festival set. Time Warp later returned to this performance for its Lost Tapes archive. [Tracklist](https://www.mixesdb.com/w/2014-04-05_-_Seth_Troxler_%40_20_Years_Time_Warp).
 
 ### Fatboy Slim, Cercle, Brighton i360, 2018
 
-Fatboy Slim played Cercle's show from the British Airways i360 in Brighton in 2018, 97 minutes, and it has been watched more than 43 million times. Substitute: Skiddle names Fatboy Slim's 2002 Big Beach Boutique II, which has no official copy.
-
-Big beat, and the most-watched set in this guide by a wide margin.
+Cercle put Fatboy Slim inside the i360's viewing pod above Brighton's seafront. The enclosed space and the view give this film its particular appeal: a local DJ playing over the city whose beach is part of his history. It is a memorable setting for his performance, with the audience sharing the pod. This is the i360 show, distinct from Big Beach Boutique II down on the beach. [Cercle's original event listing](https://ra.co/events/1140435).
 
 ## Jungle and drum and bass
 
 ### Fabio and Grooverider, DJ Mag HQ, 2015
 
-Two of the DJs who shaped drum and bass played DJ Mag's studio in 2015, 90 minutes. Substitute: Skiddle names their Glastonbury 2002 set and UKF names the pair, and neither has an official copy.
+Fabio and Grooverider came to DJ Mag in the year the magazine honoured their contribution to drum and bass. Their partnership reaches back to Rage, where their experiments with faster breakbeats helped the music develop. The studio appearance puts the pair together in a small room again. It is a later encounter with that partnership, rather than a recording of the early Rage nights. [DJ Mag's interview](https://djmag.com/features/bob-2015-fabio-grooverider-outstanding-contribution).
 
 ### DJ Randall, history of jungle set, The Lab London, Mixmag, 2016
 
-Mixmag titled this a history of jungle set, and it is 103 minutes. Editorial pick: no list I read names it, and it is here because the title is the brief.
+Randall was invited to play jungle from 1992 to 1995 after a Metalheadz History Session had impressed Mixmag's team. That narrow brief makes this recording worth seeking out: one of the DJs respected by Andy C and Goldie choosing his way through those years. It is an entry into jungle's formative records through a selector who knew how they worked in a room. [Mixmag's introduction to the session](https://mixmag.net/read/dj-randall-in-the-lab-ldn-dj-lab).
 
 ### Goldie and Ulterior Motive, The Lab London, Mixmag, 2017
 
-Goldie and Ulterior Motive played drum and bass sets in Mixmag's London Lab in 2017, 127 minutes. Editorial pick.
+This Metalheadz takeover catches Goldie and Ulterior Motive around their collaboration on “I Adore You.” Mixmag's account describes them laughing together at the decks while playing a fierce drum and bass selection; the magazine later included the session among its classic Labs. Their work together on record carries over into a shared session at the decks. [Mixmag's contemporary account](https://mixmag.net/read/premiere-ulterior-motives-the-wobbler-is-a-groaning-and-grumbling-dnb-ride-music).
 
 ## Garage, footwork and radio
 
 ### Ben UFO, The Lot Radio, 2020
 
-Ben UFO played The Lot Radio in Brooklyn in January 2020, 122 minutes, on the station's own channel. Substitute: Mixmag's decade list picks a different Ben UFO mix.
-
-A radio set, filmed in the station's booth.
+The selection moves from a Floating Points interpretation of Kenny Wheeler to music by DJ Plead, Monolake and Jamie xx. That range makes the radio setting useful: you can follow a DJ connecting records across different sounds without a single genre setting the terms. It is a good starting point for listeners who enjoy working backwards from an unfamiliar track to the artist who made it. [The published tracklist](https://tube.yt/?v=ECQwhbX4-H0).
 
 ### DJ Rashad and DJ Spinn, XLR8R Podcast 158, 2010
 
-DJ Rashad and DJ Spinn made Podcast 158 for XLR8R in 2010, and it is on XLR8R's Mixcloud, so it is audio only. Named: Mixmag's decade list names it.
-
-A footwork and juke podcast from 2010.
+Chicago footwork was finding new listeners when Rashad and Spinn made this mix. They filled it with unreleased music, including tracks by DJ Manny and DJ Earl alongside their own. Fast percussion and cut-up voices make the selection immediately distinctive; “Ghost” is an early place to hear Rashad's approach. It captures a local group of producers sharing their sound beyond Chicago, before many listeners knew their names. [XLR8R's original introduction and tracklist](https://xlr8r.com/podcasts/dj-rashad-dj-spinn/).
 
 ### Skream, Alter Ego, UK garage, Mixmag, 2015
 
-Skream's Alter Ego is a UK garage set, filmed by Mixmag and 64 minutes long. Editorial pick, and one of the weakest cases on the page: no list I read names a UK garage set at all.
+Skream chose garage because it was the music of his childhood. He told Mixmag he had learned to mix by copying DJ EZ's tapes, and that the records brought back particular memories. “Rip Groove” and “God Made Me Funky” are among the tunes he reaches for at London's Orbit. That personal connection is the reason to watch: a DJ associated with dubstep and later house going back to the records that first made him want to mix. [Skream's interview about the set](https://mixmag.net/amp/skream-uk-garage-alter-ego-set).
 
 ## Where to start
 
-If you have an hour, play Honey Dijon, Joey Beltram or Todd Terry. If you have an evening, Black Coffee at 182 minutes is the one that rewards it most. If you want the one the most lists name, it is the Carl Cox closing of Space, and it is audio only.
+Start with Four Tet and Floating Points for the story of a club and its residents. Choose Black Coffee for South African house, Randall for jungle's early years, or Rashad and Spinn for footwork. Skream is the garage choice, with an interview that explains what the records mean to him.
 
-For more, [the best Boiler Room sets](/best-boiler-room-sets), [the best techno mixes](/best-techno-mixes), [the best SoundCloud DJ mixes](/best-soundcloud-dj-mixes) and [where to watch live DJ sets](/live-dj-sets) each go deeper into one corner, and [the Selector](/selector) plays one recorded set at random.
+For more, explore [the best Boiler Room sets](/best-boiler-room-sets), [the best techno mixes](/best-techno-mixes), [the best SoundCloud DJ mixes](/best-soundcloud-dj-mixes) and [where to watch live DJ sets](/live-dj-sets). [The Selector](/selector) offers a recorded set at random when you want to try someone unfamiliar.
 
 ## FAQ
 
 ### What is the best DJ set of all time?
 
-There is no agreed answer. The set named by the most lists I read is Carl Cox's closing of Space Ibiza in 2016, named by four. Plastic People's last night, played by Four Tet and Floating Points, is named by two. After that, most picks rest on one list, which is why the picks carry labels rather than a ranking.
+Four Tet and Floating Points at Plastic People is a strong starting point: residents playing the records connected to their club at its final public party. Black Coffee at Village Underground and Rashad and Spinn's XLR8R podcast offer different reasons to listen, capturing sounds reaching new audiences. Choosing one depends on what you want from a set.
 
 ### Why are some famous sets missing?
 
-Because they have no official recording. Jeff Mills at Liquid Room in 1995 and Fatboy Slim's Big Beach Boutique II in 2002 are named by lists but exist online only as unofficial uploads. Some historic nights, like those at the Warehouse and the Music Institute, were never recorded for release.
+This is a selection of recordings you can play here. It does not cover every historic club night or every commercially released mix. A different performance by the same artist has its own context and should be judged on its own music.
 
 ### Where can you watch the best DJ sets?
 
-On the channels they came from: Mixmag, DJ Mag, Cercle, Boiler Room, The Lot Radio, Dekmantel and the festivals themselves. Every set here is an official upload, and the four audio-only sets are on SoundCloud and Mixcloud.
-
-### How were these sets chosen?
-
-Each pick comes from published lists of the best DJ sets, plus a stated editorial criterion, and the pick says which of the two it rests on. Where a list names a set that has no official recording, the pick uses the best official recording of the same DJ and labels it a substitute.
+Mixmag, DJ Mag, Cercle, Boiler Room and The Lot Radio publish filmed performances, as do festivals including Time Warp and Awakenings. SoundCloud and Mixcloud also carry artist and broadcaster archives for listening without video.
 
 ### Which of these sets are audio only?
 
-Four. Carl Cox at Space and DJ Rashad and DJ Spinn play from Mixcloud, and Theo Parrish and Four Tet with Floating Points play from SoundCloud. The other twenty-six are video.
+Carl Cox's Space residency farewell and Rashad and Spinn's podcast use Mixcloud. Theo Parrish and Four Tet with Floating Points use SoundCloud. The other selections have video players.
 
 ## Sources
 
-- [Skiddle: The Best DJ Sets of All Time](https://www.skiddle.com/news/all/The-Best-DJ-Sets-of-All-Time/57700/)
-- [Play House Sound: What is the greatest DJ set of all time?](https://playhousesound.com/what-is-the-greatest-dj-set-of-all-time/)
-- [Techno Airlines: The best DJ sets in techno history](https://www.technoairlines.com/blog/the-best-dj-sets-in-techno-history)
-- [blondish: Best DJ mixes](https://blondish.world/zine/dj-sets/best-dj-mixes/)
-- [Wedding DJ Pool: Best DJ sets](https://wedding-dj-pool.com/best-dj-sets/)
-- [Mixmag: The 20 best DJ mixes of the decade, 2010 to 2019](https://mixmag.net/feature/20-best-dj-mixes-of-the-decade-2010-2019)
-- [Red Bull Music Academy: Ten mixes by Frankie Knuckles](https://daily.redbullmusicacademy.com/2015/01/ten-mixes-frankie-knuckles/)
-- [Four Four: 10 best old school Essential Mixes](https://fourfourmag.com/10-best-old-school-essential-mixes/)
-- [DMY: 10 essential Essential Mixes](https://dmy.co/mix/10-essential-essential-mixes)
-- [UKF: 6 of the best drum and bass Essential Mixes](https://ukf.com/words/6-of-the-best-drum-bass-essential-mixes/11761)
+- [Floating Points and Four Tet: their account of Plastic People's last public party](https://soundcloud.com/floatingpoints/floating-points-four-tet-final-plastic-people-2-1-2015)
+- [Carl Cox: Global 700 and his Space residency farewell](https://www.mixcloud.com/CarlCox/carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1/)
+- [XLR8R: DJ Rashad and DJ Spinn, Podcast 158](https://xlr8r.com/podcasts/dj-rashad-dj-spinn/)
+- [Mixmag: Skream on the garage records behind his Alter Ego set](https://mixmag.net/amp/skream-uk-garage-alter-ego-set)
+- [Mixmag: Black Coffee and the best DJ mixes of the decade](https://mixmag.net/feature/20-best-dj-mixes-of-the-decade-2010-2019)
+- [Mixmag: Randall's 1992 to 1995 history of jungle session](https://mixmag.net/read/dj-randall-in-the-lab-ldn-dj-lab)

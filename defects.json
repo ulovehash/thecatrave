@@ -9,7 +9,7 @@
       "should_have_caught": "the claim ledger accepted a count from a source the author could not re-fetch and marked it medium instead of cutting it",
       "fix": {
         "file": "best-techno-tracks-draft.md",
-        "contains": "I read three published lists of techno tracks"
+        "contains": "Nine different approaches to techno"
       }
     },
     {

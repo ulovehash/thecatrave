@@ -25,8 +25,8 @@ const canonical = 'https://thecatrave.com/best-trance-tracks';
 const title = 'Best Trance Tracks of All Time: 12 Records to Hear';
 const description = 'Best trance tracks of all time: twelve records from 1993 to 2012 with release years, UK chart peaks and a player for each, from Café del Mar to Concrete Angel.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
@@ -105,7 +105,7 @@ const faqItems = getSection('FAQ').split('\n').filter(line => line.startsWith('*
 });
 
 const sections = [
-  {id: 'how-chosen', heading: 'How these trance tracks were chosen'},
+  {id: 'how-chosen', heading: 'Chart hits and fan favourites'},
   {id: 'before-the-charts', heading: 'Before the charts: 1993 to 1995'},
   {id: 'chart-years', heading: 'The chart years: the best trance tunes of 1998 and 1999'},
   {id: 'superstar-years', heading: 'The superstar DJ years: 2004 to 2012'},

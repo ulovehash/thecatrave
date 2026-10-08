@@ -18,8 +18,8 @@ const canonical = 'https://thecatrave.com/best-techno-tracks';
 const title = 'Best Techno Tracks: Nine Records That Built the Sound';
 const description = 'Nine techno tracks, from No UFO\'s and Strings of Life to The Bells and Doppler, each with a player and the facts behind it.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -73,7 +73,7 @@ const media = {
   'thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'My own track, made while I lived in Berlin. It is not on the list.'),
   'thecatrave No Genre No Problem': ownTrackListening('no-genre-no-problem', 'My first finished track, and not on the list.'),
   chosen: articleTable({
-    headers: ['Track', 'Artist', 'Year', 'Label', 'Named on the three lists'],
+    headers: ['Track', 'Artist', 'Year', 'Label'],
     rows: [
       ["No UFO's", 'Model 500', '1985', 'Metroplex', '1'],
       ['Strings of Life', 'Rhythim Is Rhythim', '1987', 'Transmat', '0 (my addition)'],
@@ -84,7 +84,7 @@ const media = {
       ['Subzero', 'Ben Klock', '2009', 'Ostgut Ton', '1'],
       ['Jaguar', 'The Aztec Mystic', '1999', 'Underground Resistance', '1'],
       ['Doppler', 'Charlotte de Witte', '2021', 'KNTXT', '0 (my addition)']
-    ].map(row => row.map(escapeHtml))
+    ].map(row => row.slice(0, 4).map(escapeHtml))
   })
 };
 const used = new Set();
@@ -141,7 +141,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'how-chosen', heading: 'How these techno tracks were chosen'},
+  {id: 'how-chosen', heading: 'Nine different approaches to techno'},
   {id: 'detroit-chicago', heading: 'Detroit and Chicago, 1985 to 1987'},
   {id: 'rave-acid-minimalism', heading: 'Rave pressure and acid minimalism, 1990 to 1996'},
   {id: 'berlin-dub-techno', heading: 'Berlin and dub techno'},

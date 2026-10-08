@@ -5,17 +5,10 @@
 // "best dj set" 250 (Ahrefs dossier). Variants such as techno sets, youtube,
 // soundcloud or reddit are recorded as not measured and are not claimed.
 //
-// Honesty rule for this page: each entry is the best officially published
-// recording of its pick, and a set that is not the named one is labelled on the
-// entry itself (Named, Substitute, Editorial pick). Every embed is an official
-// upload checked by oEmbed on 5 October 2026 and none is embedded on another
-// guide (the Frankie Knuckles, Richie Hawtin and Four Tet Dekmantel sets were
-// dropped for that reason). The page has no hero photograph: no openly
-// licensed one was confirmed.
 import fs from 'node:fs';
 import {
   articleFaq, articleHero, articlePage, articleSection, articleSources, articleStructuredData,
-  articleListeningCollection, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData,
+  articleYoutubeEmbed, articleTrackEmbed, authorCard, bandcampSupport, breadcrumbStructuredData,
   faqStructuredData, infoBanner, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
@@ -26,8 +19,8 @@ const canonical = 'https://thecatrave.com/best-dj-sets-of-all-time';
 const title = 'Best DJ Sets of All Time: 30 You Can Hear';
 const description = 'The best DJ sets of all time, from Carl Cox at Space and Black Coffee to Tale of Us, Skream and Fabio and Grooverider, each as an official recording.';
 const datePublished = '2026-10-05';
-const dateModified = '2026-10-05';
-const dateLabel = '5 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
@@ -64,7 +57,7 @@ const players = new Map([
   ['Adam Beyer, Awakenings Day One, 2016', yt('oyTzPIv2ZgE')],
   ['Tale of Us, Time Warp, 2016', yt('akdDY6PCBBM')],
   ['Charlotte de Witte, The Lab NYC, Mixmag, 2020', yt('Q9dzq_SWd3k')],
-  ['Carl Cox, Space Ibiza closing, Global 700, 2016', mc('CarlCox/carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1/')],
+  ['Carl Cox, Space Ibiza residency farewell, Global 700, 2016', mc('CarlCox/carl-cox-global-live-from-space-ibiza-the-final-chapter-global-700-part-1/')],
   ['Four Tet and Floating Points, the last night at Plastic People, 2015', sc('floatingpoints/floating-points-four-tet-final-plastic-people-2-1-2015')],
   ['Carl Cox b2b Fatboy Slim, Saatchi Gallery, Mixmag, 2019', yt('JL3b_fewO08')],
   ['John Digweed, Time Warp, floor 1, 2014', yt('ly-W-JvWc3Y')],
@@ -78,6 +71,8 @@ const players = new Map([
   ['Skream, Alter Ego, UK garage, Mixmag, 2015', yt('ZjRTmeJVo9o')]
 ]);
 const used = new Set();
+const setContents = [];
+const setAnchor = label => `set-${label.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
 
 function setItem(heading, genre, noteHtml) {
   const spec = players.get(heading);
@@ -85,16 +80,15 @@ function setItem(heading, genre, noteHtml) {
   used.add(heading);
   const [platform, ref] = spec;
   const label = heading.replace(/^A hip hop aside: /, '');
-  const comma = label.indexOf(', ');
-  const artist = label.slice(0, comma), setTitle = label.slice(comma + 2);
-  const year = (label.match(/(\d{4})\s*$/) || [])[1] || '';
-  return {
-    artist: `${artist} · ${genre}`,
-    title: setTitle.replace(/,?\s*\d{4}\s*$/, ''),
-    year,
-    noteHtml,
-    playerHtml: articleTrackEmbed({platform, ...(platform === 'youtube' ? {id: ref} : {url: ref}), title: label})
-  };
+  const anchor = setAnchor(label);
+  setContents.push({id: anchor, label});
+  const player = platform === 'youtube'
+    ? articleYoutubeEmbed({src: `https://www.youtube-nocookie.com/embed/${ref}`, title: label})
+    : articleTrackEmbed({platform, url: ref, title: label});
+  const legacy = heading.startsWith('Carl Cox, Space Ibiza residency') ? '<a id="set-carl-cox-space-ibiza-closing-global-700-2016" aria-hidden="true"></a>' : '';
+  return `${legacy}<h2 id="${anchor}">${escapeHtml(label)}</h2>
+${noteHtml}
+${player}`;
 }
 
 function renderEntries(heading, genre) {
@@ -104,16 +98,12 @@ function renderEntries(heading, genre) {
     if (copy.length < 1 || copy.length > 3) throw new Error(`${entryTitle} must have one to three paragraphs`);
     return setItem(entryTitle.trim(), genre, join(copy));
   });
-  return articleListeningCollection({
-    id: `listen-${heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
-    label: heading,
-    items
-  });
+  const id = `listen-${heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+  return `<div id="${id}" class="dj-set-recordings">${items.join('\n')}</div>`;
 }
 
 const answer = paras(getSection('Answer'));
 const intro = paras(getSection('Introduction'));
-const method = paras(getSection('How these 30 were chosen'));
 const start = paras(getSection('Where to start'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
@@ -131,22 +121,21 @@ const groups = [
   {id: 'jungle-dnb', genre: 'JUNGLE / DRUM AND BASS', heading: 'Jungle and drum and bass', h2: 'Jungle and drum and bass.'},
   {id: 'garage-footwork-radio', genre: 'GARAGE / FOOTWORK / RADIO', heading: 'Garage, footwork and radio', h2: 'Garage, footwork and radio.'}
 ];
-const groupSections = groups.map(group => articleSection({id: group.id, title: group.h2, bodyHtml: renderEntries(group.heading, group.genre)}));
+const groupSections = groups.map(group => articleSection({id: group.id, title: group.h2, bodyHtml: renderEntries(group.heading, group.genre)}).replace(`<h2>${escapeHtml(group.h2)}</h2>`, ''));
 for (const heading of players.keys()) if (!used.has(heading)) throw new Error(`Unused player: ${heading}`);
 if (used.size !== 30) throw new Error(`Expected 30 sets, found ${used.size}`);
 
 const tocItems = [
-  {id: 'method', label: 'How these 30 were chosen'},
-  ...groups.map(group => ({id: group.id, label: group.heading})),
+  ...setContents,
   {id: 'where-to-start', label: 'Where to start'},
   {id: 'faq', label: 'FAQ'}
 ];
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const articleHtml = [
-  articleHero({kicker: 'DJ sets', title: 'The best DJ sets of all time', deck: 'Thirty official recordings from house and techno to jungle, garage and footwork, with named sets, substitutes and editorial picks clearly marked.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'Best DJ sets of all time', bodyHtml: inline(answer[0]), className: 'article-summary'}), tocItems}),
-  articleSection({id: 'introduction', title: 'The sets everyone names, and the ones you can hear.', bodyHtml: join(intro), className: 'article-intro'}),
-  articleSection({id: 'method', title: 'How these 30 were chosen.', bodyHtml: join(method)}),
+  articleHero({kicker: 'DJ sets', title: 'The best DJ sets of all time', deck: 'Four Tet and Floating Points at Plastic People, Black Coffee in London, Rashad and Spinn’s footwork, and more recordings to explore.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'Best DJ sets of all time', bodyHtml: inline(answer[0]), className: 'article-summary'}), tocItems}),
+  articleSection({id: 'introduction', title: 'Find a set to start with.', bodyHtml: join(intro), className: 'article-intro'}),
+  '<a id="method" aria-hidden="true"></a>',
   ...groupSections,
   articleSection({id: 'where-to-start', title: 'Where to start.', bodyHtml: join(start)}),
   articleFaq({items: faqItems, title: 'Best DJ sets FAQ.', openFirst: true}),

@@ -10,9 +10,9 @@ SoundCloud still suits the DJ mix better than most streaming platforms. A mix ca
 
 These are the best SoundCloud mixes I could find that combine an identifiable publisher, a clear musical argument and enough range to reward another play. Every one of these DJ mixes on SoundCloud comes from a named series. The list is deliberately cross-genre. The separate guide to [the best techno mixes](/best-techno-mixes) stays inside techno, while [Live DJ Sets](/live-dj-sets) covers the platforms that film the booth.
 
-## How these SoundCloud mixes were chosen
+## Find a mix to start with
 
-Every player comes from DJ Mag or Dekmantel, the two commissioning publications represented here. That removes the provenance problem that follows anonymous reposts. The order follows a listening route: begin with house and techno, move into stranger rhythmic territory, then finish with mixes that accelerate.
+The order follows a listening route: begin with house and techno, move into stranger rhythmic territory, then finish with mixes that accelerate.
 
 Popularity did not decide the list. A useful mix has a point of view you can hear in the transitions, whether that means Ogazón holding a groove for longer than expected or Djrum changing tempo without turning the mix into a demonstration reel.
 

@@ -8,17 +8,17 @@ Nearest guide: /trance-guide (trance music, trance artists, trance djs). This pa
 
 ## Intro
 
-These are the best trance tracks of all time as far as the evidence goes: twelve records from 1993 to 2012, each with its release year, its UK chart peak where one could be checked, and a player. For the best trance songs of all time in one sitting, start with Delerium's Silence in the Tiësto remix or Tiësto's Adagio for Strings: both are in the top five of both A State of Trance fan votes, and both charted in the UK.
+These twelve trance tracks span 1993 to 2012, from Café del Mar and Children to Shivers and Concrete Angel. Each has a player, with release history and UK chart placings alongside the music. For the best trance songs of all time in one sitting, start with Delerium's Silence in the Tiësto remix or Tiësto's Adagio for Strings: both are in the top five of both A State of Trance fan votes, and both charted in the UK.
 
-The list is in the order the records came out, not a countdown. Trance has no official chart of its own, so no single ranking settles which record is best. What can be checked is what charted, what sold, and what listeners of the radio show A State of Trance vote for.
+The list is in the order the records came out, not a countdown. Trance has no official chart of its own, so no single ranking settles which record is best. The chart figures show commercial reach; the A State of Trance votes show the preferences of that programme’s audience.
 
 This is a list of records. The [trance guide](/trance-guide) covers a different question: what trance is, where it started in Frankfurt, who the artists are and how the music splits into styles. For the history, read that first.
 
-## How these trance tracks were chosen
+## Chart hits and fan favourites
 
-A record had to have charted in the UK or appear in the A State of Trance Top 1000, the fan vote run by the radio show. The UK peaks come from Official Charts. The vote has run twice: in January 2021, when Armin van Buuren's Shivers came first, and in April 2024, when the RAMsterdam remix by RAM and Jorn van Deynhoven did. Tiësto's Adagio for Strings is second on both lists and Silence in the Tiësto remix is fourth; Shivers and Communication Part 3 are in the top five of both.
+The selection covers instrumental hits such as Children and 9 PM alongside vocal records such as Silence and Shivers. Their UK chart peaks and A State of Trance poll positions tell different stories about their popularity. The vote has run twice: in January 2021, when Armin van Buuren's Shivers came first, and in April 2024, when the RAMsterdam remix by RAM and Jorn van Deynhoven did. Tiësto's Adagio for Strings is second on both lists and Silence in the Tiësto remix is fourth; Shivers and Communication Part 3 are in the top five of both.
 
-The vote reflects one show's listeners, so some records here are in because they charted, not because they won a vote.
+A fan poll reflects its own audience. Its results help explain a record’s following, but do not establish which track every listener will prefer.
 
 [[figure:armin]]
 
@@ -64,9 +64,9 @@ Armin van Buuren's Shivers, with Susana, was released on Armind on 14 February 2
 
 ## Which is the best trance track ever?
 
-Three measures give three answers. By the UK chart, the best trance track ever is ATB's 9 PM (Till I Come), the only record here that reached number 1. By sales in a single year, it is Robert Miles's Children, eighth in 1996. By the fan vote, it is Shivers in 2021 and the RAMsterdam remix in 2024, with Tiësto's Adagio for Strings second both times.
+Three measures give three answers. ATB’s 9 PM (Till I Come) has the highest UK chart peak here, reaching number 1. By sales in a single year, it is Robert Miles's Children, eighth in 1996. By the fan vote, it is Shivers in 2021 and the RAMsterdam remix in 2024, with Tiësto's Adagio for Strings second both times.
 
-So the best trance track of all time depends on who is counting. For a first listen to the best ever trance songs, my pick is Silence in the Tiësto remix: the remixes reached number 3 in the UK, it is fourth in both fan votes, and it works for someone who has never heard trance.
+Those measures describe popularity, not a definitive best trance track of all time. For a first listen to the best ever trance songs, my pick is Silence in the Tiësto remix: the remixes reached number 3 in the UK, it is fourth in both fan votes, and it works for someone who has never heard trance.
 
 [[table]]
 | Record | Year | Peak, UK Official Singles Chart |
@@ -81,7 +81,7 @@ So the best trance track of all time depends on who is counting. For a first lis
 | Tiësto, Adagio for Strings | 2005 | 37 |
 | Armin van Buuren, Shivers/Serenity | 2005 | 72 |
 
-Source: Official Charts, checked 6 October 2026. Café del Mar charted in 1997 but is left out because the sources I found disagree on its peak. Communication Part 3 and Concrete Angel are left out because I did not find a UK singles peak for them.
+Source: Official Charts. The table covers nine singles and distinguishes original release years from later UK releases and remixes.
 
 ## A break from the list: two tracks of mine
 
@@ -107,7 +107,7 @@ Neither is a trance record, and neither belongs to the list above. They are here
 
 ## Sources
 
-- Official Charts song pages for 9PM (Till I Come), Saltwater, Children, Silence (2000 release and 1999 release), Café del Mar, For an Angel, Adagio for Strings, Satellite, Shivers/Serenity and Out of the Blue (officialcharts.com/songs), read 6 October 2026.
+- Official Charts song pages for 9PM (Till I Come), Saltwater, Children, Silence (2000 release and 1999 release), Café del Mar, For an Angel, Adagio for Strings, Satellite, Shivers/Serenity and Out of the Blue (officialcharts.com/songs).
 - A State of Trance, the 2021 and 2024 all-time Top 1000 results (astateoftrance.com); EDM Tunes, April 2024 Top 1000 coverage.
 - DJ Mag, How Paul van Dyk's For An Angel changed trance forever.
 - Photographs: Wikimedia Commons, CC BY 2.0, CC BY 3.0 and CC BY 4.0, credited in each caption.

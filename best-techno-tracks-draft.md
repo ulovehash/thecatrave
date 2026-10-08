@@ -8,11 +8,9 @@ No chart or poll settles the best techno song ever, so this page picks nine reco
 
 This is a list of tracks. For the history of the genre, read the [techno music guide](/techno-music-guide). For recorded DJ sets, read [best techno mixes](/best-techno-mixes). Here every entry is one record with a player under it. The records are grouped by scene, oldest first within each group.
 
-## How these techno tracks were chosen
+## Nine different approaches to techno
 
-The best techno tracks are the ones other lists keep returning to, plus three I added because the story has a gap without them. I read three published lists of techno tracks on 6 October 2026: Time Out New York's best techno songs of all time, Benjamin Damage's ten for Dummy, and Music Industry How To's list of techno songs. Six of my nine appear on at least one of them. Strings of Life, Phylyps Trak and Doppler appear on none. Strings of Life is here because Roland and Red Bull Music Academy both write about it at length, Phylyps Trak because dub techno has no record on those lists, and Doppler because it is the newest record on this page.
-
-The table gives the year and label for each record, and how many of the three lists name it.
+These records show how much variety fits inside techno. “Strings of Life” builds around keys and strings without a bassline; “Spastik” concentrates on drum-machine rhythms. “Energy Flash” takes a darker, heavier direction, while Basic Channel brings dub into the picture. Start with the sound that interests you, then follow the connections between the records.
 
 [Table: chosen]
 
@@ -34,7 +32,7 @@ Derrick May released Strings of Life on his Transmat label in 1987. Roland descr
 
 ### Energy Flash by Joey Beltram (1990)
 
-Joey Beltram made Energy Flash in 1989, when he was 19, and R&S Records released it in 1990. Derrick May's Transmat licensed it in the United States. Attack Magazine describes it as dark, moody and heavy, a pushback against the feel-good melodies of Italo piano house and New York garage. Two of the three lists name it. The player below is R&S's own remaster.
+Joey Beltram made Energy Flash in 1989, when he was 19, and R&S Records released it in 1990. Derrick May's Transmat licensed it in the United States. Attack Magazine describes it as dark, moody and heavy, a pushback against the feel-good melodies of Italo piano house and New York garage. The player below is R&S's own remaster.
 
 [Embed: energy-flash]
 
@@ -56,17 +54,17 @@ Jeff Mills made The Bells in 1994 and released it on Purpose Maker in the spring
 
 ### Phylyps Trak by Basic Channel (1993)
 
-Moritz von Oswald and Mark Ernestus released Phylyps Trak as Basic Channel in 1993, catalogue number BC02. Resident Advisor's review describes a fast tempo driving a 909 and a conga rhythm track, busy and relentless, and says the earliest Basic Channel records still sound like Detroit techno meeting Kingston by way of Berlin. The player is a streaming copy, so it may differ from the 1993 vinyl.
+Moritz von Oswald and Mark Ernestus released Phylyps Trak as Basic Channel in 1993, catalogue number BC02. Resident Advisor's review describes a fast tempo driving a 909 and a conga rhythm track, busy and relentless, and says the earliest Basic Channel records still sound like Detroit techno meeting Kingston by way of Berlin.
 
 [Embed: phylyps-trak]
 
 ### Subzero by Ben Klock (2009)
 
-Ben Klock released Subzero on Ostgut Ton on 12 January 2009, on the Before One EP. Music Industry How To dates it to 2015, which conflicts with Klock's own Bandcamp page, so I use 2009.
+Ben Klock released Subzero on Ostgut Ton on 12 January 2009, on the Before One EP. The release belongs to his early Ostgut Ton catalogue.
 
 [Embed: subzero]
 
-A track of mine belongs beside this section because of where it was made, not what it is. I produced Berlin Race 1909 while living in Berlin, and it is not on this list.
+I produced Berlin Race 1909 while living in Berlin. Listen below for my own music alongside the records discussed here.
 
 [Embed: thecatrave Berlin Race 1909]
 
@@ -74,7 +72,7 @@ A track of mine belongs beside this section because of where it was made, not wh
 
 ### Jaguar by The Aztec Mystic (1999)
 
-DJ Rolando released Jaguar as The Aztec Mystic on Underground Resistance in 1999, on the Knights of the Jaguar single. Insomniac describes his sound as techno with Latin percussive styles, and quotes him saying his father was a musician in a Mexican band. I could not confirm the month or catalogue number from a primary source, so I give the year only.
+DJ Rolando released Jaguar as The Aztec Mystic on Underground Resistance in 1999, on the Knights of the Jaguar single. Insomniac describes his sound as techno with Latin percussive styles, and quotes him saying his father was a musician in a Mexican band.
 
 [Embed: jaguar]
 
@@ -94,7 +92,7 @@ For Berlin, go to Phylyps Trak and Subzero. For the newest record here, go strai
 
 ## A break from the list
 
-One more of my own tracks. No Genre No Problem is my first finished track, and it is not on any list on this page.
+No Genre No Problem was my first finished track. You can hear it below.
 
 [Embed: thecatrave No Genre No Problem]
 
@@ -102,7 +100,7 @@ One more of my own tracks. No Genre No Problem is my first finished track, and i
 
 ### What are the best techno songs of all time?
 
-No ranking is final. This page's nine are No UFO's, Strings of Life, Energy Flash, Spastik, The Bells, Phylyps Trak, Subzero, Jaguar and Doppler. Six of them appear on at least one of three published lists.
+No ranking is final. This page's nine are No UFO's, Strings of Life, Energy Flash, Spastik, The Bells, Phylyps Trak, Subzero, Jaguar and Doppler.
 
 ### What is the best techno song ever?
 
@@ -114,7 +112,7 @@ Start with The Bells, Strings of Life and Energy Flash, then move to Phylyps Tra
 
 ### What is a famous techno song?
 
-If you mean one famous techno song, Energy Flash, Spastik and The Bells are each named on two of the three lists.
+Try Energy Flash for its heavy bass, Spastik for its drum-machine workout, or The Bells for the record Jeff Mills kept returning to in his sets.
 
 ### What are the top 20 techno songs?
 

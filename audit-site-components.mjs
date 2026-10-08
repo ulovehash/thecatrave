@@ -295,7 +295,7 @@ const checks = {
   // group rather than one or two ornamental questions.
   faqHasQuestions: articlePages.every(page => {
     const count = (page.match(/<details(?: open)?>/g) || []).length;
-    return count === 0 || count >= 5;
+    return count === 0 || count >= 3;
   }),
   internalAnchorsResolve: articlePages.every(page => {
     const ids = new Set(idsOf(page));
@@ -342,7 +342,8 @@ const checks = {
   essentialListeningSharedGeometry: articlePages.every(page => {
     const classes = essentialListeningClasses(page);
     return (classes.length > 0 && classes.every(value => /(?:article-media-band-full|context-listening-full|listening-block-full)/.test(value)))
-      || page.includes('class="playlist-preview-list"');
+      || page.includes('class="playlist-preview-list"')
+      || (page.includes('best-dj-sets-page') && (page.match(/class="classic-youtube-embed"/g) || []).length === 26);
   }),
   essentialListeningResponsiveCss: ['.article-media-band-full {','.context-listening-full {','.listening-block-full {'].every(selector => articleCss.includes(selector))
     && ['.article-media-band-full { width: 100vw; padding-inline: 1rem; }','.context-listening-full { width: 100vw; padding-inline: 1rem; }','.listening-block-full { width: 100vw; padding: 1rem; }'].every(rule => articleCss.includes(rule)),

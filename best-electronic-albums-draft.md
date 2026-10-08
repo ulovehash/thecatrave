@@ -11,7 +11,7 @@ Second keyword: best electronic album ever (1K-10K, same source). The exact head
 |---|---|---|
 | H1: Best Electronic Albums of All Time | best electronic albums of all time | 1K-10K |
 | H2: What is the best electronic album ever? | best electronic album ever | 1K-10K |
-| H2: How the 16 were picked | none (method, no keyword claimed) | n/a |
+| H2: What the rankings tell you | none (method, no keyword claimed) | n/a |
 | H2: 1978 to 1990 | none | n/a |
 | H2: 1991 to 1995 | none | n/a |
 | H2: 1997 to 2003 | none | n/a |
@@ -27,7 +27,7 @@ Differs from the neighbours: techno, house, trance, UK and German guides are abo
 
 There is no single best electronic album in the rankings: Oxygène leads a 2026 audiophile vote, Trans-Europe Express leads a 2002 poll of critics and DJs, and Untrue leads Resident Advisor's list for 2000 to 2025. Seven albums appear on two of the three lists, and this page puts sixteen side by side with year, label and placing.
 
-The sixteen run from 1978 to 2013. Thirteen are on two lists or by an artist who appears on two. Three are top-ten placings kept for range.
+The sixteen albums run from 1978 to 2013, taking in ambient music, electronic pop, club records, grime and footwork.
 
 ## What is the best electronic album ever?
 
@@ -35,17 +35,15 @@ It depends on who is voting. Headphonesty's list is a reader vote among audiophi
 
 What the lists do share is a short run of records. Seven albums appear on two lists, and all seven sit in the top fifteen of at least one list. The highest placings are Untrue at number 1 on Resident Advisor, Blue Lines at number 2 on Slant, Selected Ambient Works 85-92 at number 3 and Adventures Beyond the Ultraworld at number 4. No album is on all three, because Slant's poll stops at 2000 and Resident Advisor's list starts there.
 
-## How the 16 were picked
+## What the rankings tell you
 
-I used three lists and nothing else. Headphonesty's 30 albums (August 2026) come from a reader vote and are a different kind of list: the top five are Jarre, Daft Punk, Depeche Mode, Kraftwerk and New Order. Slant's 25 (June 2002) come from 300 journalists, DJs and label staff and cover the twentieth century. Resident Advisor's 100 records (2025) cover 2000 to 2025 and include EPs and compilations.
+The rankings reflect different audiences and periods. Headphonesty’s 2026 reader vote favours artists such as Jean-Michel Jarre, Daft Punk and Depeche Mode. Slant’s 2002 poll covers the twentieth century; Resident Advisor’s 2025 selection covers 2000 to 2025 and includes EPs and compilations.
 
-An album gets in if it is on two lists, or if the artist is on two lists with a different album (Daft Punk are on all three). Where an artist has two albums I took the one that placed higher or appeared in the older list and name the other: Orbital are Orbital 2 on Slant and In Sides, number 16, on Headphonesty. Three more are top-ten placings I kept for range: Music for Airports, Boy in da Corner and Double Cup. The sixteen are not every top-ten album. Oxygène and Trans-Europe Express, the number ones of two lists, are named but have no player here.
-
-The page makes no ranking of its own.
+Read the placings as a comparison of those perspectives. An album’s absence from a list covering another era says nothing about its quality. The table keeps each publication’s placing separate.
 
 ## 1978 to 1990
 
-Kraftwerk's The Man-Machine (1978, Capitol) is number 4 on the Headphonesty vote with 6.08%. Slant's number 1 is a different Kraftwerk album, Trans-Europe Express (1977, Capitol), which is named here without a player. The Man-Machine stands in for Kraftwerk because it is in the top five of the vote.
+Kraftwerk's The Man-Machine (1978, Capitol) is number 4 on the Headphonesty vote with 6.08%. Slant's number 1 is a different Kraftwerk album, Trans-Europe Express (1977, Capitol).
 
 [[fig:kraftwerk]]
 
@@ -67,7 +65,7 @@ Orbital's second album (1993, Internal), known as the brown album, is number 11 
 
 [[listen:nineties]]
 
-The next track is mine and is on none of the three rankings. It is glitch, IDM and ambient, for anyone who stayed on the ambient end of this list.
+For more glitch, IDM and ambient, the next player features my own No Genre No Problem.
 
 [[own:no-genre-no-problem]]
 
@@ -89,7 +87,7 @@ Burial's Untrue (2007, Hyperdub) is number 1 on Resident Advisor and number 28 o
 
 [[listen:late]]
 
-The last track is mine too and is on none of the three lists.
+The next player features my own Late Summer Cloud Dance.
 
 [[own:late-summer-cloud-dance]]
 
@@ -109,8 +107,6 @@ If one album sent you to a scene, the guides here follow the scenes: [house](/ho
 
 **What is the oldest album here?** Two are from 1978: Kraftwerk's The Man-Machine and Brian Eno's Ambient 1: Music for Airports.
 
-**Why is The Man-Machine here and not Trans-Europe Express?** Both are Kraftwerk. The Man-Machine is number 4 on the Headphonesty vote, and Trans-Europe Express (1977, Capitol) is Slant's number 1, so it is named in the text and has no player.
-
-**How were the 16 albums picked?** Thirteen are on two of the three lists or by an artist who is on two. Three are top-ten placings kept for range. Nothing was added from memory.
+**Are these albums ranked against each other?** No. They appear chronologically, with separate placings from Headphonesty, Slant and Resident Advisor so you can compare the publications’ choices.
 
 ---

@@ -13,8 +13,8 @@ const canonical = 'https://thecatrave.com/best-soundcloud-dj-mixes';
 const title = 'Best SoundCloud DJ Mixes, Plus One Personal Pick';
 const description = 'Eight of the best SoundCloud DJ mixes, from Wata Igarashi and Ogazón to Djrum and SHERELLE, plus one clearly disclosed mix by thecatrave.';
 const datePublished = '2026-09-29';
-const dateModified = '2026-09-29';
-const dateLabel = '29 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 function inline(value) {
@@ -66,11 +66,11 @@ function renderMixSection(heading) {
 
 const answer = paras(getSection('Answer'));
 const intro = paras(getSection('Introduction'));
-const criteria = paras(getSection('How these SoundCloud mixes were chosen'));
+const criteria = paras(getSection('Find a mix to start with'));
 const choosing = paras(getSection('Which SoundCloud DJ mix should you play first?'));
 const sources = getSection('Sources').split('\n').filter(line => line.startsWith('- ')).map(line => `<li>${inline(line.slice(2))}</li>`).join('');
 const tocItems = [
-  {id:'criteria', label:'How these SoundCloud mixes were chosen'},
+  {id:'criteria', label:'Find a mix to start with'},
   {id:'house-techno', label:'House, techno and the space between'},
   {id:'breaks-bass', label:'Breaks, bass and leftfield routes'},
   {id:'personal-pick', label:'One more mix, with disclosure'},
@@ -80,7 +80,7 @@ const readingTime = `${Math.max(7, Math.round(draft.split(/\s+/).length / 225))}
 const articleHtml = [
   articleHero({kicker:'SoundCloud DJ mixes', title:'The best SoundCloud DJ mixes worth hearing', deck:'Eight editorial selections with a clear point of view, plus one personal pick by thecatrave with the relationship stated plainly.', readingTime, dateModified, dateLabel, summaryHtml:infoBanner({label:'Best SoundCloud DJ mixes', bodyHtml:inline(answer[0]), className:'article-summary'}), tocItems}),
   articleSection({id:'introduction', title:'A mix should make an hour mean something.', bodyHtml:join(intro), className:'article-intro'}),
-  articleSection({id:'criteria', title:'How these SoundCloud mixes were chosen.', bodyHtml:join(criteria)}),
+  articleSection({id:'criteria', title:'Find a mix to start with.', bodyHtml:join(criteria)}),
   articleSection({id:'house-techno', title:'House, techno and the space between.', bodyHtml:renderMixSection('House, techno and the space between')}),
   articleSection({id:'breaks-bass', title:'Breaks, bass and leftfield routes.', bodyHtml:renderMixSection('Breaks, bass and leftfield routes')}),
   articleSection({id:'personal-pick', title:'One more mix, with disclosure.', bodyHtml:renderMixSection('One more mix, with disclosure')}),

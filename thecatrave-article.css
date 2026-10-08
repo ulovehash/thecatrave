@@ -1856,3 +1856,12 @@
 
 /* Keep the approved personal mix label and artist spelling as written. */
 .article-media-band:is([aria-labelledby="own-set-2"], [aria-labelledby="bass-mix-weekends"], [aria-labelledby="uk-mix-i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more"]) .article-kicker { text-transform: none; }
+
+/* Individual set titles replace genre chapter headings on this guide. */
+.best-dj-sets-page .dj-set-recordings h2 {
+  margin: 3rem 0 1rem;
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+  line-height: 1.15;
+  letter-spacing: -.025em;
+}
+.best-dj-sets-page .dj-set-recordings > h2:first-child { margin-top: 0; }

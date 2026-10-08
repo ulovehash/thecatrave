@@ -29,8 +29,8 @@ const canonical = 'https://thecatrave.com/best-electronic-albums';
 const title = 'Best Electronic Albums of All Time: Three Rankings Compared';
 const description = 'Best electronic albums of all time, from three rankings compared: sixteen albums with year, label and placings, and the seven that appear twice.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 const ogImage = 'https://thecatrave.com/img/og/best-electronic-albums.jpg';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -144,7 +144,7 @@ const faqItems = getSection('FAQ').split('\n').filter(line => line.startsWith('*
 
 const sections = [
   {id: 'best-electronic-album-ever', heading: 'What is the best electronic album ever?', h2: 'What is the best electronic album ever?'},
-  {id: 'how-picked', heading: 'How the 16 were picked', h2: 'How the 16 were picked.'},
+  {id: 'how-picked', heading: 'What the rankings tell you', h2: 'What the rankings tell you.'},
   {id: 'albums-1978-1990-section', heading: '1978 to 1990', h2: '1978 to 1990.'},
   {id: 'albums-1991-1995-section', heading: '1991 to 1995', h2: '1991 to 1995.'},
   {id: 'albums-1997-2003-section', heading: '1997 to 2003', h2: '1997 to 2003.'},

@@ -29,8 +29,8 @@ const canonical = 'https://thecatrave.com/best-boiler-room-sets';
 const title = 'Best Boiler Room Sets of All Time, Ranked and Measured';
 const description = 'The best Boiler Room sets, from Carl Cox in Ibiza to Fred again.. in London, beside the most-watched sets counted across 8,206 recordings.';
 const datePublished = '2026-09-10';
-const dateModified = '2026-09-17';
-const dateLabel = '17 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
