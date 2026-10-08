@@ -8,7 +8,7 @@ You can watch live DJ sets free on the YouTube channels of Boiler Room, HÖR, NT
 
 Fifteen years ago a DJ set was something you heard in the room or not at all. The exception was radio: a pirate station broadcasting from a tower block, a specialist show late on a Friday, a tape somebody recorded off either. Nobody outside the club saw the DJ's hands, and nobody saw the people dancing.
 
-That changed through a handful of broadcasters, most of them started by a few friends with very little money. Each found its own answer to the same question, which is where to put the camera. This is a short history of them, from pirate radio to a white-tiled room in Kreuzberg, with the numbers from this site's own catalogue of their recordings.
+That changed through a handful of broadcasters, most of them started by a few friends with very little money. Each found its own answer to the same question, which is where to put the camera. This is a short history of them, from pirate radio to a white-tiled room in Kreuzberg.
 
 ## Before the camera: pirate radio
 
@@ -82,7 +82,7 @@ Others grew sideways. Rinse took over the running of Kool FM in 2023 and relaunc
 
 This site's Selector plays one of {{catalogue-sets}} recorded DJ sets at random, every one of them an upload of more than twenty minutes from a broadcaster's own YouTube channel, 37 channels in all. Counted by platform, they show something the histories above do not: how many sets a platform films and how many people watch them have little to do with each other.
 
-Cercle has 178 sets in this catalogue, about 2% of Boiler Room's count, and they have been watched 984 million times, more than half as often as all 8,206 of Boiler Room's put together. The picture probably explains it: a set at Petra works as something to leave on a television, which a set in a basement rarely does. Boris Brejcha at the Grand Palais in Paris, from 2019, has 68.4 million views on its own.
+Cercle has 178 sets in this catalogue, about 2% of Boiler Room's count, and they have been watched 984 million times, more than half as often as all 8,206 of Boiler Room's put together. Boris Brejcha at the Grand Palais in Paris, from 2019, has 68.4 million views on its own.
 
 The round-the-clock stations are the opposite case. The Lot Radio has 9,998 sets and Kiosk Radio 8,558, both more than Boiler Room, with 50 million and 8 million views between them. They are not made to travel. They are a daily schedule, and the archive is a side effect of keeping it.
 

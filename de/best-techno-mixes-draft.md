@@ -12,9 +12,9 @@ Diese Auswahl beginnt mit Detroiter Künstlern und folgt der Musik durch industr
 
 ## Was macht einen Techno-Mix wesentlich?
 
-Technische Sauberkeit reicht nicht. Ein Mix verdient einen weiteren Durchlauf, wenn die Platten ein Argument bilden, die Energie eine Form hat und der DJ die Richtung wechseln kann, ohne den Faden zu verlieren. Das kann heißen, dass Juan Atkins den Funk im Techno bleiben lässt, Surgeon zwischen härteren Texturen schneidet oder Wata Igarashi kleine Klangverschiebungen einen Mix tragen lässt.
+Die Mixes hier gehen unterschiedlich mit Rhythmus und Tempo um. Das kann heißen, dass Juan Atkins den Funk im Techno bleiben lässt, Surgeon zwischen härteren Texturen schneidet oder Wata Igarashi kleine Klangverschiebungen einen Mix tragen lässt.
 
-Die Aufnahmen sind nicht gerankt. Sie decken unterschiedliche Verwendungen und Traditionslinien ab, und jede stammt vom offiziellen YouTube-Kanal von Mixmag, DJ Mag, Boiler Room oder HÖR. Aufrufzahlen dienten nicht als Qualitätsmaß.
+Die Aufnahmen sind nicht gerankt. Sie decken unterschiedliche Verwendungen und Traditionslinien ab, und jede stammt vom offiziellen YouTube-Kanal von Mixmag, DJ Mag, Boiler Room oder HÖR.
 
 ## Detroit: Funk, Minimalismus und Electro
 
@@ -106,4 +106,4 @@ Das Set beschließt die Route, weil es mehrere frühere Ideen versammelt, ohne s
 
 Wähl Juan Atkins für Detroiter Funk, Robert Hood für Minimal Techno und DJ Stingray für Electro. Jeff Mills und Surgeon passen zu Hörern, die schnellere Entscheidungen und härtere Textur wollen. Ben Klock und Rødhåd gehen einen längeren Berliner Weg, Helena Hauff und L.F.T. bringen Acid und EBM, Wata Igarashi geht am tiefsten, und Fadi Mohem ist der ausgewogenste aktuelle Einstieg.
 
-Den einen besten Techno-Mix aller Zeiten gibt es nicht. Diese wesentlichen Techno-Mixes führen verschiedene Argumente über das Genre, weshalb die Route ungerankt besser funktioniert. Für die Platten, Städte und Menschen hinter diesen Ansätzen geht es weiter mit dem [Guide zur Techno-Geschichte](/de/techno-musik), der [deutschen elektronischen Musik](/de/deutsche-elektronische-musik) und dem Guide zu [Berliner Clubs](/de/clubs-berlin).
+Den einen besten Techno-Mix aller Zeiten gibt es nicht. Diese wesentlichen Techno-Mixes reichen von Detroit-Funk bis zu minimalem und hypnotischem Techno. Für die Platten, Städte und Menschen hinter diesen Ansätzen geht es weiter mit dem [Guide zur Techno-Geschichte](/de/techno-musik), der [deutschen elektronischen Musik](/de/deutsche-elektronische-musik) und dem Guide zu [Berliner Clubs](/de/clubs-berlin).

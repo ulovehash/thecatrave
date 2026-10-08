@@ -13,8 +13,8 @@ const canonical = 'https://thecatrave.com/best-techno-mixes';
 const title = 'Best Techno Mixes: 10 Essential DJ Sets';
 const description = 'Ten essential techno mixes from Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd and more.';
 const datePublished = '2026-09-29';
-const dateModified = '2026-09-29';
-const dateLabel = '29 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 function getSection(heading) {

@@ -32,8 +32,8 @@ const canonical = 'https://thecatrave.com/live-dj-sets';
 const title = 'Where to Watch Live DJ Sets: Boiler Room, HÖR, NTS and More';
 const description = 'Where to watch live DJ sets online, from Boiler Room and HÖR to NTS, Rinse FM, The Lot Radio, Kiosk and Cercle, with links and listening routes.';
 const datePublished = '2026-09-11';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

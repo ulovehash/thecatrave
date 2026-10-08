@@ -19,8 +19,8 @@ export default {
   title: 'Die besten Techno-Mixes: 10 wesentliche DJ-Sets',
   description: 'Zehn wesentliche Techno-Mixes von Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd und mehr.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Techno-DJ-Mixes',
   heroTitle: 'Die besten Techno-Mixes, von Detroit bis heute',

@@ -37,8 +37,8 @@ export default {
   title: 'Regarder des sets DJ en direct : Boiler Room, HÖR, NTS',
   description: 'Où regarder des sets DJ en direct en ligne, de Boiler Room et HÖR à NTS, Rinse FM, The Lot Radio, Kiosk et Cercle, avec liens et pistes d’écoute.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6 octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Sets DJ en direct',
   heroTitle: 'Regarder des sets DJ en direct en ligne',

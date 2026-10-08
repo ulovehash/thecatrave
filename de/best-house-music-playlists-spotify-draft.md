@@ -14,7 +14,7 @@ Die besten House-Playlists auf Spotify kommen von der Redaktion, von etablierten
 
 Jede Playlist hat einen erkennbaren Kurator. Manche laufen durch neue Veröffentlichungen. Andere funktionieren als dauerhafte Archive. Die Notizen unten beschreiben, wofür die Playlist nützlich ist und wo ihre Grenzen unscharf werden.
 
-Follower-Zahlen ändern sich und messen weder Reihenfolge noch Geschmack, deshalb fehlen sie. Spotify kann die ersten Tracks ändern.
+Spotify kann die ersten Tracks ändern.
 
 ## House-Grundlagen und Soulful-Platten
 
@@ -72,7 +72,7 @@ Rare Electronic Music ist die breitere und härtere der beiden. Sie bewegt sich 
 
 ### Emotional Electronic Music
 
-Emotional Electronic Music nutzt Melodie und emotionales Gewicht als Filter, aber die Tracks brauchen trotzdem genug körperliche Bewegung, um auch außerhalb von Kopfhörern zu funktionieren. House und Techno stehen neben Liquid Drum and Bass, UK Bass und weicheren Clubplatten, was sie zur weniger starren und nachdenklicheren Route macht.
+Emotional Electronic Music konzentriert sich auf melodische Platten mit Clubrhythmus. House und Techno stehen neben Liquid Drum and Bass, UK Bass und weicheren Clubplatten, was sie zur weniger starren und nachdenklicheren Route macht.
 
 ## Welche House-Playlist solltest du wählen?
 

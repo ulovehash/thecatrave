@@ -2,7 +2,7 @@
 
 ## Answer
 
-The best techno mixes show what a DJ does with the genre over time, not how hard one drop lands. Juan Atkins and Robert Hood make the Detroit continuum audible; Jeff Mills and Surgeon use fast, precise changes to keep machine rhythm alive; DJ Stingray pulls electro into the same conversation. Ben Klock, Helena Hauff, Wata Igarashi, Rødhåd and Fadi Mohem show how different the European and Japanese branches can sound. The ten recordings below come from official broadcaster channels.
+The best techno mixes give you reasons to follow the changes between records. Juan Atkins and Robert Hood make the Detroit continuum audible; Jeff Mills and Surgeon use fast, precise changes to keep machine rhythm alive; DJ Stingray pulls electro into the same conversation. Ben Klock, Helena Hauff, Wata Igarashi, Rødhåd and Fadi Mohem show how different the European and Japanese branches can sound. The ten recordings below come from official broadcaster channels.
 
 ## Introduction
 
@@ -12,19 +12,19 @@ This selection begins with Detroit artists and follows the music through industr
 
 ## What makes a techno mix essential?
 
-Technical neatness is not enough. A mix earns another listen when the records form an argument, the energy has shape, and the DJ can change direction without losing the thread. That may mean Juan Atkins letting funk remain inside techno, Surgeon cutting between harder textures, or Wata Igarashi making small tonal shifts carry a mix.
+The mixes here take different approaches to rhythm and pacing. That may mean Juan Atkins letting funk remain inside techno, Surgeon cutting between harder textures, or Wata Igarashi making small tonal shifts carry a mix.
 
-The recordings are not ranked. They cover different uses and lineages, and each comes from the official YouTube channel of Mixmag, DJ Mag, Boiler Room or HÖR. View counts were not used as a quality score.
+The recordings are not ranked. They cover different uses and lineages, and each comes from the official YouTube channel of Mixmag, DJ Mag, Boiler Room or HÖR.
 
 ## Detroit: funk, minimalism and electro
 
 ### Juan Atkins, Mixmag Live, 2015
 
-Juan Atkins plays techno as part of a longer Detroit machine-music continuum. The set keeps funk and electro close to the surface, which matters when later European recordings make the kick drum feel like the whole genre.
+Juan Atkins plays techno as part of a longer Detroit machine-music continuum. The set keeps funk and electro close to the surface, with space around the rhythm.
 
 [Embed: Juan Atkins]
 
-Begin here if the word techno currently means only dark rooms and straight pressure. Atkins leaves more air around the rhythm.
+Begin here for Detroit funk and electro.
 
 ### Robert Hood, DJ Mag, 2019
 
@@ -50,7 +50,7 @@ Jeff Mills treats the mixer and decks as instruments. Records arrive in fragment
 
 [Embed: Jeff Mills]
 
-The result stays lean. Mills keeps replacing information, which makes the set feel faster than its tempo alone would suggest.
+Listen to how quickly Mills introduces and replaces each pattern.
 
 ### Surgeon, Boiler Room, 2014
 
@@ -76,7 +76,7 @@ Helena Hauff and L.F.T. pull acid, electro, EBM and techno through the tiled HÖ
 
 [Embed: Helena Hauff and L.F.T.]
 
-The selections are wiry and physical. It is a useful counterweight to techno mixes that polish away every edge.
+Their acid and electro selections keep the sound rough.
 
 ### Wata Igarashi, HÖR, 2023
 
@@ -100,13 +100,13 @@ Fadi Mohem draws from dub techno, Detroit discipline and Berlin functionality. H
 
 [Embed: Fadi Mohem]
 
-The set closes the route because it gathers several earlier ideas without presenting them as retro references.
+Try this after the Detroit and dub techno selections above.
 
 ## Which techno mix should you play first?
 
 Choose Juan Atkins for Detroit funk, Robert Hood for minimal techno and DJ Stingray for electro. Jeff Mills and Surgeon suit listeners who want faster decisions and harder texture. Ben Klock and Rødhåd take a longer Berlin route, Helena Hauff and L.F.T. add acid and EBM, Wata Igarashi goes deepest, and Fadi Mohem offers the most balanced current entry point.
 
-There is no single best techno mix of all time. These essential techno mixes make different arguments about the genre, which is why the route works better unranked. For the records, cities and people behind these approaches, continue with the [techno history guide](/techno-music-guide), [German electronic music](/german-electronic-music) and the guide to [Berlin clubs](/best-clubs-in-berlin).
+There is no single best techno mix of all time. These essential techno mixes range from Detroit funk to minimal and hypnotic techno. For the records, cities and people behind these approaches, continue with the [techno history guide](/techno-music-guide), [German electronic music](/german-electronic-music) and the guide to [Berlin clubs](/best-clubs-in-berlin).
 
 ## Sources
 

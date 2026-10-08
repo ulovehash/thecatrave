@@ -2,17 +2,17 @@
 
 ## Answer
 
-The best Spotify playlists have an identifiable point of view. KEXP's New This Week is the quickest route into independent radio's current rotation; Pitchfork and Pigeons & Planes compress a week of music writing into something playable; Four Tet and Bicep treat a playlist like an open record bag. For electronic music, Altar, Toolroom and UKF each stay in a recognisable lane, while the two thecatrave lists below move between the cracks. These twelve picks are arranged by what they help you hear, not by follower count. Every player gives you a short preview, with a link to open the full playlist in Spotify.
+The best Spotify playlists have an identifiable point of view. KEXP's New This Week is the quickest route into independent radio's current rotation; Pitchfork and Pigeons & Planes compress a week of music writing into something playable; Four Tet and Bicep treat a playlist like an open record bag. For electronic music, Altar, Toolroom and UKF each stay in a recognisable lane, while my two thecatrave lists range across breaks, house and techno. The twelve picks below cover new releases, artist favourites and label selections. Every player gives you a short preview, with a link to open the full playlist in Spotify.
 
 ## Introduction
 
-Spotify already knows how to give you more of what you played yesterday. That is useful, but it is not the only job a playlist can do. A good curator can make a leap the recommendation feed would avoid, put a small record beside a famous one, or hold one scene in focus long enough for its details to emerge.
+A playlist can introduce you to a station’s latest rotation or the records a DJ takes to a club. Following a curator gives you a reason to return: you get to know their taste and hear what they choose next.
 
-This list favours playlists with a person, station, publication or label behind them. Some update every week. Others are long, unruly archives that become more useful as they grow. Human choices are not automatically better, but you can hear the argument behind them.
+This list favours playlists with a person, station, publication or label behind them. Some update every week. Others are long, unruly archives that become more useful as they grow. The curator’s name gives you somewhere to look for more music, whether that is a radio schedule, a review or another DJ set.
 
 ## How these playlists were chosen
 
-Each playlist needed a clear musical job, an identifiable curator and either current activity or durable archival value. A huge follower count was not enough. A small playlist was not rewarded merely for being obscure. I also rejected lists that existed mainly to sell submissions or could not explain what made one selection different from the next.
+The curators offer different ways to discover music: current releases from broadcasters and publications, selections by artists, and archives to explore at your own pace. Choose by the music and the person selecting it.
 
 The order is practical rather than numerical. Start with the first section if you want a steady feed of new releases across genres. Go to the second if you want electronic and dance music with sharper scene boundaries. If none of these works, [how to find new music](/how-to-find-new-music) covers radio, labels, DJ sets, databases and other routes that do not begin inside Spotify.
 
@@ -20,7 +20,7 @@ The order is practical rather than numerical. Start with the first section if yo
 
 ### KEXP: New This Week
 
-KEXP is a Seattle listener-supported station with decades of practice turning a broadcast schedule into a point of view. New This Week is the useful compressed version: recent records crossing indie rock, soul, hip-hop, electronic music and whatever else has entered the station's rotation. Use it when you want one current list without surrendering the choice to a personalised feed.
+KEXP is a Seattle listener-supported station with decades of practice turning a broadcast schedule into a point of view. New This Week is the useful compressed version: recent records crossing indie rock, soul, hip-hop, electronic music and whatever else has entered the station's rotation. Use it for a broad selection of new releases from the station.
 
 ### Pitchfork's Best New Music
 
@@ -32,17 +32,17 @@ Pigeons & Planes built its reputation on catching artists between a first upload
 
 ### GemsOnVHS Monthly Playlist
 
-GemsOnVHS is known for filming country, folk and roots musicians in plain rooms, porches and fields rather than treating discovery as a stream of release-day assets. The monthly playlist carries that taste into Spotify. It is the outlier here, and a good reset after several hours of electronic music or chart-facing new releases.
+GemsOnVHS is known for filming country, folk and roots musicians in plain rooms, porches and fields for its video sessions. The monthly playlist brings those country, folk and roots selections to Spotify. It is the outlier here, and a good reset after several hours of electronic music or chart-facing new releases.
 
 ## Best electronic and dance Spotify playlists
 
 ### Rare Electronic Music, by thecatrave
 
-I curate this one, so the conflict is stated up front. Rare Electronic Music is the broadest version of thecatrave's club taste: breaks, techno, leftfield house, hard turns and records heard at raves that do not fit one clean genre shelf. The opening run currently moves from FUCK!LACRÈME to Skin On Skin and ATRIP. It earns a place here for the same reason as the artist lists below: the selections belong to a recognisable listening history rather than a mood keyword.
+I curate Rare Electronic Music. Rare Electronic Music is the broadest version of thecatrave's club taste: breaks, techno, leftfield house, hard turns and records heard at raves that do not fit one clean genre shelf. The opening run currently moves from FUCK!LACRÈME to Skin On Skin and ATRIP. These are records from my own listening and nights out.
 
 ### Emotional Electronic Music, by thecatrave
 
-The second thecatrave playlist has a narrower test. Melody and emotional weight matter, but the tracks still need enough physical movement to survive outside headphones. Patrick Holland, Public Memory and a KETTAMA mix lead the current version; later entries move through liquid drum and bass, Skream, dBridge and softer club records without turning into background music.
+My second playlist concentrates on melodic electronic music with a club rhythm. Patrick Holland, Public Memory and a KETTAMA mix lead the current version; later entries move through liquid drum and bass, Skream, dBridge and softer club records without turning into background music.
 
 ### Feel My Bicep
 
@@ -54,11 +54,11 @@ The title is a thicket of planets, circles and symbols, so searching by Four Tet
 
 ### Altar
 
-Altar is Spotify editorial, the one exception to the human-curator rule on this list. It is one of the platform's clearer electronic propositions: contemporary club music that sits outside the mainstage EDM lane, with alternative pop and experimental production allowed into the room. Use it as a current snapshot, not an archive.
+Altar is selected by Spotify’s editorial team. It is one of the platform's clearer electronic propositions: contemporary club music that sits outside the mainstage EDM lane, with alternative pop and experimental production allowed into the room. Use it to follow current releases.
 
 ### Toolroom Tech House
 
-Toolroom's playlist does exactly what a label-led list should do. It stays close to the records the label understands: functional house, rolling basslines and tracks designed for a busy room. It will not explain the whole of house music, but it makes a reliable weekly check on one working part of it.
+Toolroom's playlist does exactly what a label-led list should do. It stays close to the records the label understands: functional house, rolling basslines and tracks designed for a busy room. Check it for new releases in that style.
 
 ### Danny L Harle's HUGE PLAYLIST
 
@@ -70,7 +70,7 @@ UKF has documented drum and bass online since 2009, long enough for its playlist
 
 ## Which Spotify playlist should you choose?
 
-Start with the curator, not the follower count. A station playlist is useful when you want a changing release feed. A publication list lets you connect songs to reviews. An artist playlist exposes influences and records carried into DJ sets. A label playlist stays narrower, but that narrowness is the point.
+Choose a curator whose selection suits what you want to hear. A station playlist is useful when you want a changing release feed. A publication list lets you connect songs to reviews. An artist playlist exposes influences and records carried into DJ sets. A label playlist concentrates on its releases and related artists.
 
 Save one list that updates often and one long archive that does not need to. The first keeps you current; the second lets you enter somewhere other than the top. If you want an hour with an actual sequence rather than a list on shuffle, go to [live DJ sets](/live-dj-sets) or let [the Selector](/selector) choose a set at random.
 

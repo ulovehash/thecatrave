@@ -6,7 +6,7 @@ No chart or poll settles the best techno song ever, so this page picks nine reco
 
 ## Introduction
 
-This is a list of tracks. For the history of the genre, read the [techno music guide](/techno-music-guide). For recorded DJ sets, read [best techno mixes](/best-techno-mixes). Here every entry is one record with a player under it. The records are grouped by scene, oldest first within each group.
+The records are grouped by scene, oldest first within each group. Listen below, then explore the [techno music guide](/techno-music-guide) for their history or [best techno mixes](/best-techno-mixes) to hear DJs at work.
 
 ## Nine different approaches to techno
 
@@ -90,7 +90,7 @@ If you want good techno songs for a first listen, start with The Bells, then Str
 
 For Berlin, go to Phylyps Trak and Subzero. For the newest record here, go straight to Doppler.
 
-## A break from the list
+## Music by thecatrave
 
 No Genre No Problem was my first finished track. You can hear it below.
 

@@ -24,8 +24,8 @@ const canonical = 'https://thecatrave.com/best-spotify-playlists';
 const title = 'Best Spotify Playlists: 12 Human-Curated Picks';
 const description = 'Twelve Spotify playlists selected for strong curation and music worth hearing, from KEXP and Pitchfork to Four Tet, Bicep and the electronic underground.';
 const datePublished = '2026-09-21';
-const dateModified = '2026-09-21';
-const dateLabel = '21 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -143,12 +143,12 @@ const articleHtml = [
   articleHero({
     kicker: 'Spotify playlists',
     title: 'The best Spotify playlists worth following',
-    deck: 'Twelve playlists with an identifiable point of view, arranged by what they help you hear rather than how many followers they have.',
+    deck: 'Twelve playlists for new releases, DJ favourites and label selections, from KEXP and Four Tet to Toolroom and UKF.',
     readingTime, dateModified, dateLabel,
     summaryHtml: infoBanner({label:'Best Spotify playlists', bodyHtml:inline(answer[0]), className:'article-summary'}),
     tocItems
   }),
-  articleSection({id:'introduction', title:'A playlist should reveal a listener.', bodyHtml:introHtml, className:'article-intro'}),
+  articleSection({id:'introduction', title:'Follow the people choosing the music.', bodyHtml:introHtml, className:'article-intro'}),
   articleSection({id:'criteria', title:'How these playlists were chosen.', bodyHtml:join(criteria)}),
   articleSection({id:'new-music', title:'Best Spotify playlists for finding new music.', bodyHtml:renderPlaylistList('Best Spotify playlists for finding new music', overallMeta)}),
   articleSection({id:'electronic', title:'Best electronic and dance Spotify playlists.', bodyHtml:renderPlaylistList('Best electronic and dance Spotify playlists', electronicMeta)}),

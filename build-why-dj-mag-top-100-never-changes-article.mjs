@@ -28,8 +28,8 @@ const canonical = 'https://thecatrave.com/why-dj-mag-top-100-never-changes';
 const title = 'Why the DJ Mag Top 100 Barely Changes';
 const description = 'Why the DJ Mag Top 100 barely changes: eleven years of top tens, how the vote works, what campaigning is allowed and who the poll leaves out.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');

@@ -2,11 +2,11 @@
 
 ## Réponse
 
-Le set Boiler Room le plus regardé est celui de Solomun à Tulum en 2015, avec 76 millions de vues. Le plus aimé est celui de Fred again.. à Londres en 2022, avec plus de likes que n’importe lequel des 8 206 sets Boiler Room du catalogue de ce site. Notre choix pour le meilleur set Boiler Room de tous les temps est ce même set de Fred again.., devant Sama’ Abdulhadi à Ramallah en 2018 et Carl Cox à Ibiza en 2013. Le classement complet, dix-huit sets, suit, à côté des dix sets les plus regardés tels qu’ils ont été mesurés.
+Le set Boiler Room le plus regardé est celui de Solomun à Tulum en 2015, avec 76 millions de vues. Le plus liké dans les chiffres de septembre 2026 est celui de Fred again.. à Londres en 2022, avec plus de likes que n’importe lequel des 8 206 sets Boiler Room du catalogue de ce site. Notre choix pour le meilleur set Boiler Room de tous les temps est ce même set de Fred again.., devant Sama’ Abdulhadi à Ramallah en 2018 et Carl Cox à Ibiza en 2013. Le classement complet, dix-huit sets, suit, à côté des dix sets les plus regardés tels qu’ils ont été mesurés.
 
 ## Introduction
 
-Boiler Room a filmé plus de 8 000 performances depuis 2010. Le catalogue de ce site en contient 8 206, totalisant 1,77 milliard de vues sur YouTube. La plupart des listes des meilleurs sets Boiler Room sont la mémoire d’une seule personne avec des vidéos en pièces jointes, c’est pourquoi cette page tient deux listes séparées.
+Boiler Room a filmé plus de 8 000 performances depuis 2010. Le catalogue de ce site en contient 8 206, totalisant 1,77 milliard de vues sur YouTube. Les recommandations d’écoute accompagnent un tableau distinct des sets les plus regardés.
 
 Si vous voulez d’abord la carte d’ensemble, le guide sur [où regarder des DJ sets en live](/live-dj-sets) (en anglais) compare Boiler Room à HÖR, NTS, Rinse FM, The Lot Radio, Kiosk et Cercle.
 
@@ -18,13 +18,13 @@ Boiler Room est né à Londres en mars 2010, quand Blaise Bellville a demandé �
 
 [Image: photo-sama]
 
-À l’intérieur de ce format, un set est grand de quatre façons, et chaque set du classement ci-dessous mérite sa place sur au moins l’une d’elles. Il se passe quelque chose qu’on ne peut que voir : Fred again.. passant des platines à une MPC, les mains de DJ Ramon Sucesso sur la table de mixage. La salle devient une partie du set, comme l’a été une suite d’hôtel pour Skream et Disclosure. Le set a changé la carrière de la personne qui joue, ce qui est l’histoire de Sama’ Abdulhadi, d’Uncle Waffles et de ¥ØU$UK€ ¥UK1MAT$U.
+Il se passe quelque chose qu’on ne peut que voir : Fred again.. passant des platines à une MPC, les mains de DJ Ramon Sucesso sur la table de mixage. La salle devient une partie du set, comme l’a été une suite d’hôtel pour Skream et Disclosure. Le set a changé la carrière de la personne qui joue, ce qui est l’histoire de Sama’ Abdulhadi, d’Uncle Waffles et de ¥ØU$UK€ ¥UK1MAT$U.
 
-Le quatrième test est l’inverse du premier : le set fonctionne encore écran éteint. Les quatre-vingt-treize minutes de Len Faki à Berlin n’ont ni invité, ni MC, ni extrait célèbre, et elles comptent pourtant neuf millions de vues. La version audio publiée par Boiler Room est ci-dessous, et c’est la façon la plus juste de juger un set sur ce critère.
+Certains sets méritent aussi une écoute sans écran. Les quatre-vingt-treize minutes de Len Faki à Berlin n’ont ni invité, ni MC, ni extrait célèbre, et elles comptent pourtant neuf millions de vues. La version audio publiée par Boiler Room est ci-dessous, et c’est la façon la plus juste de juger un set sur ce critère.
 
 [Embed: audio-len-faki]
 
-Les vues mesurent la portée. Pour l’affection, nous prenons les likes pour mille vues, et il faut un avertissement. Parmi les 7 414 sets du catalogue qui affichent un nombre de likes, le taux médian passe d’environ 9 pour les sets mis en ligne en 2012 et 2013 à environ 20 pour chaque année depuis 2019, parce que les vieilles vidéos ont récolté l’essentiel de leurs vues avant que liker devienne une habitude. Un taux ne veut donc rien dire qu’en comparaison de sets du même âge.
+Les vues et les likes mesurent des actions différentes. Dans les chiffres de septembre 2026, la médiane des likes pour mille vues est d’environ 9 pour les vidéos de 2012 et 2013, contre environ 20 pour celles publiées depuis 2019. Ces écarts ne permettent pas de mesurer l’attachement du public à un set.
 
 ## Les sets Boiler Room les plus regardés
 
@@ -34,13 +34,13 @@ Voici les meilleurs sets Boiler Room par nombre de vues, comptés d’après les
 
 La moitié des dix a été filmée entre 2012 et 2014, et trois ont été enregistrés sur une plage de Tulum ou dans une villa d’Ibiza plutôt que dans un club.
 
-Le second motif est dans les likes. Les sets les plus vus sont rarement les plus aimés de ceux qui les regardent. Le set de Solomun à Tulum compte 5,9 likes pour mille vues, moins de la moitié de la médiane de 12,0 pour les sets mis en ligne en 2015. Notre lecture, et ce n’est qu’une lecture, est qu’un set à 76 millions de vues a atteint la plupart d’entre elles par des recommandations, auprès de gens qui n’étaient pas des spectateurs de Boiler Room au départ. Le set le plus liké du catalogue est celui de Fred again.., avec 766 903 likes pour 21 millions de vues de moins.
+Solomun à Tulum arrive en tête des vues, tandis que Fred again.. mène pour les likes enregistrés : 766 903, malgré environ 21 millions de vues en moins. Ces chiffres n’expliquent ni comment les spectateurs ont trouvé ces sets, ni pourquoi ils les écoutent.
 
-Tous les chiffres de cette page viennent du catalogue derrière [le Selector](/fr/selector), l’outil de ce site qui lance un DJ set au hasard. En septembre 2026, il contenait 62 877 sets issus de 37 chaînes, dont 8 206 de Boiler Room, chacun avec ses vues, ses likes et sa durée, ce qui permet de calculer un taux de likes pour chacun. C’est aussi le moyen le plus rapide d’entendre ce que ces listes laissent de côté : limitez-le à Boiler Room et il vous lance un set que vous n’avez pas choisi.
+Les vues et les likes correspondent à un relevé de septembre 2026 portant sur 8 206 enregistrements Boiler Room indexés par [le Selector](/fr/selector). Ce ne sont pas des compteurs en direct. Filtrez le Selector sur Boiler Room pour écouter un set au hasard.
 
 [Image: selector-shot]
 
-Solomun a joué à Tulum le 14 janvier 2015, au Papaya Playa Project. Le set dure un peu plus de deux heures, ce qui explique en partie l’ampleur du nombre de vues : c’est le genre de vidéo qui tourne en arrière-plan.
+Solomun a joué à Tulum le 14 janvier 2015, au Papaya Playa Project. L’enregistrement dure un peu plus de deux heures.
 
 [Embed: yt-solomun]
 
@@ -56,7 +56,7 @@ Le set Boiler Room le plus regardé des années 2020, avec 55,25 millions de vue
 
 [Image: photo-fred-again]
 
-Il a aussi les meilleurs chiffres du catalogue qui ne soient pas de la simple portée. Ses 766 903 likes sont les plus nombreux de tous les sets Boiler Room que nous avons, et à 13,9 likes pour mille vues il devance nettement les deux seuls sets qui ont plus de vues, Solomun à 5,9 et Carl Cox à 5,7. Parmi les disques, un bootleg posant Lil Baby sur « Bby » d’Overmono, et un nouveau morceau de Four Tet.
+Il arrive aussi en tête des likes dans le relevé de septembre 2026. Ses 766 903 likes sont les plus nombreux de tous les sets Boiler Room que nous avons, et à 13,9 likes pour mille vues il devance nettement les deux seuls sets qui ont plus de vues, Solomun à 5,9 et Carl Cox à 5,7. Parmi les disques, un bootleg posant Lil Baby sur « Bby » d’Overmono, et un nouveau morceau de Four Tet.
 
 [Embed: yt-fred-again]
 
@@ -146,7 +146,7 @@ Il compte 9,05 millions de vues, et c’est l’argument de cette liste pour le 
 
 ### #12 Nicolas Jaar, New York 2013
 
-Jaar a joué en avril 2013 lors d’une prise de contrôle de son label Clown & Sunset avec la Red Bull Music Academy. Quarante-six minutes, étiquetées downtempo et expérimental dans le catalogue, et le set le plus lent de cette liste.
+Jaar a joué en avril 2013 lors d’une prise de contrôle de son label Clown & Sunset avec la Red Bull Music Academy. Quarante-six minutes, et le set le plus lent de cette liste.
 
 Il compte 9,09 millions de vues, beaucoup pour une musique aussi éloignée d’un club en pleine soirée. Il est ici comme preuve que le format n’a pas besoin d’un drop.
 
@@ -210,7 +210,7 @@ Chaque set de cette page est aussi dans [le Selector](/fr/selector), avec les 8 
 
 ### Quel est le set Boiler Room le plus populaire de tous les temps ?
 
-Par les likes, le set de Fred again.. à Londres en 2022, avec 766 903, plus que tout autre set Boiler Room de notre catalogue de 8 206. Par les vues, c’est celui de Solomun à Tulum en 2015, avec 76,19 millions. Les deux divergent parce que les sets les plus regardés attirent beaucoup de spectateurs qui ne likent pas d’habitude les vidéos, ce qui explique que Fred again.. mène aux likes avec 21 millions de vues de moins.
+Par les likes, le set de Fred again.. à Londres en 2022, avec 766 903, plus que tout autre set Boiler Room de notre catalogue de 8 206. Par les vues, c’est celui de Solomun à Tulum en 2015, avec 76,19 millions. Les vues et les likes mesurent des actions différentes ; aucun de ces chiffres ne désigne un meilleur set absolu.
 
 ### Quel est le set Boiler Room le plus vu ?
 

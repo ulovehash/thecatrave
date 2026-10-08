@@ -12,7 +12,7 @@ These twelve trance tracks span 1993 to 2012, from Café del Mar and Children to
 
 The list is in the order the records came out, not a countdown. Trance has no official chart of its own, so no single ranking settles which record is best. The chart figures show commercial reach; the A State of Trance votes show the preferences of that programme’s audience.
 
-This is a list of records. The [trance guide](/trance-guide) covers a different question: what trance is, where it started in Frankfurt, who the artists are and how the music splits into styles. For the history, read that first.
+The [trance guide](/trance-guide) follows the music’s history in Frankfurt, its artists and its different styles.
 
 ## Chart hits and fan favourites
 
@@ -83,13 +83,13 @@ Those measures describe popularity, not a definitive best trance track of all ti
 
 Source: Official Charts. The table covers nine singles and distinguishes original release years from later UK releases and remixes.
 
-## A break from the list: two tracks of mine
+## Two tracks of my own
 
-Neither is a trance record, and neither belongs to the list above. They are here because this site is made by someone who makes music.
+You can hear two of my own electronic tracks below.
 
-[[own: berlin-race-1909 | Named after Berlin, the city whose E-Werk club gave the For an Angel remix its name: dub techno space with drums underneath. Not trance. My own track.]]
+[[own: berlin-race-1909 | Named after Berlin, the city whose E-Werk club gave the For an Angel remix its name: dub techno space with drums underneath. A track of my own.]]
 
-[[own: no-genre-no-problem | Glitch, IDM and ambient, nowhere near the main stage. Not trance. My own track.]]
+[[own: no-genre-no-problem | Glitch, IDM and ambient, nowhere near the main stage. A track of my own.]]
 
 ## FAQ
 

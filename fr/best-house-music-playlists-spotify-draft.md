@@ -14,7 +14,7 @@ Les meilleures playlists house sur Spotify viennent de son équipe éditoriale, 
 
 Chaque playlist a un curateur identifiable. Certaines parcourent les nouvelles sorties. D’autres fonctionnent comme des archives durables. Les notes ci-dessous décrivent à quoi sert la playlist et où ses limites deviennent floues.
 
-Les nombres d’abonnés changent et ne mesurent ni l’enchaînement ni le goût, ils sont donc omis. Spotify peut changer les premiers morceaux.
+Spotify peut changer les premiers morceaux.
 
 ## Fondations de la house et disques soulful
 
@@ -64,7 +64,7 @@ Feel My Bicep est plus proche du bac à disques d’un DJ en activité que d’u
 
 ## Les playlists thecatrave : house, techno et au-delà
 
-Ces deux dernières playlists sont les miennes. Aucune n’est une playlist house pure, elles sont donc présentées comme des routes multi-genres, pas comme des recommandations house indépendantes. Toutes deux contiennent de la techno et des disques proches de la house à côté de breaks, de bass music et d’autres styles électroniques.
+Je programme ces deux dernières playlists. Elles réunissent house et techno, breaks, bass music et d’autres styles électroniques.
 
 ### Rare Electronic Music
 
@@ -72,7 +72,7 @@ Rare Electronic Music est la plus large et la plus dure des deux. Elle passe par
 
 ### Emotional Electronic Music
 
-Emotional Electronic Music prend la mélodie et le poids émotionnel comme filtre, mais les morceaux doivent quand même avoir assez de mouvement physique pour fonctionner hors du casque. House et techno y côtoient la drum and bass liquide, la UK bass et des disques de club plus doux, ce qui en fait la route la moins rigide et la plus contemplative.
+Emotional Electronic Music se concentre sur les disques mélodiques avec un rythme de club. House et techno y côtoient la drum and bass liquide, la UK bass et des disques de club plus doux, ce qui en fait la route la moins rigide et la plus contemplative.
 
 ## Quelle playlist house choisir ?
 

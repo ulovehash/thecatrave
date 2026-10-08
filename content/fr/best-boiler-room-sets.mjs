@@ -53,8 +53,8 @@ export default {
   title: 'Les meilleurs sets Boiler Room de tous les temps, classés',
   description: 'Les meilleurs sets Boiler Room, de Carl Cox à Ibiza à Fred again.. à Londres, à côté des plus regardés, comptés sur 8 206 enregistrements.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Boiler Room',
   heroTitle: 'Les meilleurs sets Boiler Room de tous les temps',

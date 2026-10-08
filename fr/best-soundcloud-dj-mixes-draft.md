@@ -12,7 +12,7 @@ Ce sont les meilleurs mix SoundCloud que j’ai pu trouver qui réunissent un é
 
 ## Comment ces mix SoundCloud ont été choisis
 
-Chaque lecteur vient de DJ Mag ou de Dekmantel, les deux commanditaires représentés ici. Cela écarte le problème de provenance des reposts anonymes. L’ordre suit un parcours d’écoute : on commence par la house et la techno, on passe à un territoire rythmique plus étrange, puis on finit par des mix qui accélèrent.
+L’ordre suit un parcours d’écoute : on commence par la house et la techno, on passe à un territoire rythmique plus étrange, puis on finit par des mix qui accélèrent.
 
 La popularité n’a pas décidé de la liste. Un mix utile a un point de vue qu’on entend dans les transitions, que ce soit Ogazón tenant un groove plus longtemps qu’on ne s’y attend ou Djrum changeant de tempo sans que le mix devienne une démonstration.
 
@@ -84,15 +84,15 @@ SHERELLE clôt le parcours avec du footwork, de la jungle et des rythmes brisés
 
 Footwork et jungle se côtoient ici, et le mix passe de l’une à l’autre de leurs grilles rythmiques différentes.
 
-## Un mix de plus, en toute transparence
+## Un mix de thecatrave
 
 ### thecatrave, I Like to Smoke in Silence After Raves
 
-J’ai fait ce mix, donc je ne le présente pas comme l’un des meilleurs et ne prétends pas qu’il appartienne à une liste indépendante. Je peux le dire sans détour : il vaut ton temps, à 100 %.
+J’ai préparé ce mix pendant environ quatre mois. Ses 30 morceaux passent par les breaks, le garage, la bass music, la techno et la rave.
 
 [Embed: thecatrave]
 
-Le set a pris environ quatre mois à arranger. Ses 30 morceaux traversent breaks, garage, bass music, techno et rave comme un long arc, ce qui en fait une dernière étape naturelle après les mix à rythme brisé plus rapides ci-dessus.
+Écoute-le après Djrum ou SHERELLE pour continuer avec des rythmes brisés.
 
 ## Quel mix DJ SoundCloud écouter en premier ?
 

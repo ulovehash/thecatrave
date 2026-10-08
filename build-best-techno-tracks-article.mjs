@@ -147,7 +147,7 @@ const sections = [
   {id: 'berlin-dub-techno', heading: 'Berlin and dub techno'},
   {id: 'underground-resistance', heading: 'Underground Resistance and Doppler'},
   {id: 'play-first', heading: 'Which techno track should you play first?'},
-  {id: 'break-from-list', heading: 'A break from the list'}
+  {id: 'break-from-list', heading: 'Music by thecatrave'}
 ].map(s => ({...s, title: s.heading.endsWith('?') ? s.heading : `${s.heading}.`}));
 
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];

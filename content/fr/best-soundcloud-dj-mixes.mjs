@@ -21,24 +21,24 @@ export default {
   title: 'Meilleurs mix DJ SoundCloud, plus un choix personnel',
   description: 'Huit des meilleurs mix DJ SoundCloud, de Wata Igarashi et Ogazón à Djrum et SHERELLE, plus un mix de thecatrave clairement signalé.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Mix DJ SoundCloud',
   heroTitle: 'Les meilleurs mix DJ SoundCloud à écouter',
-  deck: 'Huit sélections éditoriales avec un vrai point de vue, plus un choix personnel de thecatrave dont le lien est énoncé clairement.',
+  deck: 'Huit mix de DJ Mag et Dekmantel, de la techno de Wata Igarashi au footwork et à la jungle de SHERELLE, suivis de mon propre mix.',
   answerLabel: 'MEILLEURS MIX DJ SOUNDCLOUD',
   breadcrumbName: 'Les meilleurs mix DJ SoundCloud à écouter',
 
   answerSection: 'Réponse',
   introSection: 'Introduction',
-  introTitle: 'Un mix doit donner du sens à une heure.',
+  introTitle: 'Trouver des mix sur SoundCloud.',
 
   sections: [
     {id: 'criteria', heading: 'Comment ces mix SoundCloud ont été choisis', title: 'Comment ces mix SoundCloud ont été choisis.', tocLabel: 'Comment ces mix ont été choisis'},
     {id: 'house-techno', heading: 'House, techno et l’espace entre les deux', title: 'House, techno et l’espace entre les deux.', tocLabel: 'House, techno et l’entre-deux', subsections: ['entry-wata-igarashi-recognise-081', 'entry-ogazon-recognise-096', 'entry-sedef-adasi-recognise', 'entry-doudou-md-recognise-078']},
     {id: 'breaks-bass', heading: 'Breaks, bass et pistes leftfield', title: 'Breaks, bass et pistes leftfield.', tocLabel: 'Breaks, bass et leftfield', subsections: ['entry-objekt-dekmantel-podcast-116', 'entry-djrum-dekmantel-podcast-267', 'entry-dj-python-dekmantel-podcast-208', 'entry-sherelle-dekmantel-podcast-285']},
-    {id: 'personal-pick', heading: 'Un mix de plus, en toute transparence', title: 'Un mix de plus, en toute transparence.', tocLabel: 'Un mix de plus', subsections: ['entry-thecatrave-i-like-to-smoke-in-silence-after-raves']},
+    {id: 'personal-pick', heading: 'Un mix de thecatrave', title: 'Un mix de thecatrave.', tocLabel: 'Un mix de plus', subsections: ['entry-thecatrave-i-like-to-smoke-in-silence-after-raves']},
     {id: 'choose', heading: 'Quel mix DJ SoundCloud écouter en premier ?', title: 'Quel mix DJ SoundCloud écouter en premier ?', tocLabel: 'Quel mix écouter d’abord ?'}
   ],
 

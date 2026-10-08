@@ -6,15 +6,15 @@ House music classics are the records that built the sound's reputation outside t
 
 ## Introduction
 
-This page is a listening list, in the order the records came out. It is not a history of house. The [house music guide](/house-music-guide) tells that story, from the Warehouse in Chicago to deep house, garage house and French house, and it already carries the first records: Jesse Saunders, Marshall Jefferson, Mr. Fingers, Frankie Knuckles and Farley "Jackmaster" Funk. Those are not repeated here.
+House spread through records like these: Paris Grey singing over Kevin Saunderson’s machines, StoneBridge rebuilding “Show Me Love” around an organ bassline, and Stardust sampling Chaka Khan. The [house music guide](/house-music-guide) follows the earlier story, from the Warehouse in Chicago and the records of Jesse Saunders, Marshall Jefferson, Mr. Fingers, Frankie Knuckles and Farley "Jackmaster" Funk to deep house, garage house and French house.
 
-What follows starts where those leave off. Each entry has the year, who made it, one fact worth knowing, and, for all but one, a player.
+The ten records below run from 1988 to 2001. Nine have players, including the specific mixes discussed in their descriptions.
 
-## How these ten were chosen
+## The records at a glance
 
-Every record here is named by at least one published list: NME's 20 best house songs, Billboard's 50 best house songs of 2025 or 6AM Group's ten classic house songs. I read all three pages myself. A record also had to be house rather than a neighbouring style, and could not be one the house guide already embeds.
+The organ bassline in “Show Me Love,” the vocal in “Gypsy Woman” and the sampled disco of “Music Sounds Better With You” offer different ways into house. These records are worth revisiting for the details that made them recognisable, as well as the producers and remixers behind them.
 
-The oldest record here is from 1988 and the newest from 2001, so these are the house classics of the genre's first two decades, not the tracks of the last ten years. Each player is an upload by the artist, the label or the platform's own music channel. Where it is a shortened radio edit, the entry says so.
+The selection covers the late 1980s through the early 2000s. Each player is an upload by the artist, the label or the platform's own music channel. Where it is a shortened radio edit, the entry says so.
 
 ## Classic house songs, 1988 to 2001
 
@@ -80,7 +80,7 @@ It has outlived its first release: Swedish House Mafia and Alicia Keys put out a
 
 ## Before 1988, and the other classics
 
-Some records that come up under house classics sit in other guides, where they are played in context.
+To hear the Chicago records that preceded “Good Life,” start with the early house guide below.
 
 For the first years, the [house music guide](/house-music-guide) has Jesse Saunders, Marshall Jefferson, Mr. Fingers, Frankie Knuckles and Farley "Jackmaster" Funk. Phuture's "Acid Tracks" and A Guy Called Gerald's "Voodoo Ray" are in the [acid house guide](/acid-house-guide), and Rhythim Is Rhythim's "Strings of Life" is in the [techno guide](/techno-music-guide). If you want playlists rather than a list, there is a separate page of [house playlists on Spotify](/best-house-music-playlists-spotify).
 
@@ -92,7 +92,7 @@ I curate this playlist across house, techno, breaks and rave. Keep listening bey
 
 If you have time for three, play "Good Life", "Show Me Love" and "Music Sounds Better With You". They are ten years apart from first to last, and between them they cover a Detroit producer, a Swedish remixer and three French makers.
 
-If you only want the ones that crossed over to the pop charts, play "Gypsy Woman", "Missing" and "You Don't Know Me". For something that rewards a second listen, play "French Kiss".
+If you only want the ones that crossed over to the pop charts, play "Gypsy Woman", "Missing" and "You Don't Know Me". Play "French Kiss" for its slowdown to a stop and the return to full speed.
 
 ## FAQ
 
@@ -102,7 +102,7 @@ The ten here are Inner City's "Good Life", Lil Louis's "French Kiss", Alison Lim
 
 ### What counts as a house classic?
 
-There is no official list. On this page a house classic is a house record from 1988 to 2001 that at least one published list of the best house songs names.
+A house classic is a record that remains a reference point for DJs and listeners beyond its original release. The selections here span 1988 to 2001, including vocal house, Detroit productions and French house.
 
 ### What are some classic house songs everyone knows?
 

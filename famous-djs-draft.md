@@ -42,7 +42,7 @@ The poll began in 1993 as a list chosen by the magazine's editors for its hundre
 
 There are no nominations and no eligibility criteria. A voter names five DJs of their choosing. Each person gets one vote, and DJ Mag says it validates every vote to block fraudulent or artificial ones. In 2026 voting ran from 8 July to 16 September. There is a separate link for voters in China.
 
-Two things DJ Mag does not publish, in anything I could find: how the five picks are weighted into a ranking, and how many votes any DJ received. The magazine reported record turnout in 2025, with voters from 231 countries, but gave no total. So a reader can see the order and nothing about the margins. Any claim about how close the top three were is a guess.
+The published results do not disclose how the five picks are weighted into a ranking, and how many votes any DJ received. The magazine reported record turnout in 2025, with voters from 231 countries, but gave no total. So a reader can see the order and nothing about the margins. Any claim about how close the top three were is a guess.
 
 ## Campaigning is allowed
 
@@ -77,7 +77,7 @@ Search for famous DJs and the first result is the poll. After it come the lists 
 
 A different kind of list sits next to them. The dBs Insider "25 greatest DJs of all time" names Carl Cox, Tiësto, Eric Prydz, Peggy Gou, Honey Dijon, DJ Premier, The Blessed Madonna, Amelie Lens, Alison Wonderland, Andy C, Frankie Knuckles, Avicii, Daft Punk, Nia Archives, Skream, Charlotte de Witte, Grandmaster Flash, Calvin Harris, Goldie, Sammy Virji, Fred again.., Swedish House Mafia, David Guetta, Annie Mac and Fatboy Slim. It overlaps with the DJ Mag top ten in two names, Guetta and de Witte, and more broadly with the top 21 in a few more. Frankie Knuckles, Andy C, Goldie and Skream are not in the DJ Mag top 21 at all.
 
-Sasha and John Digweed, who were number one in the poll in 2000 and 2001, are on none of the four lists I read.
+Sasha and John Digweed led the DJ Mag poll in 2000 and 2001 respectively; their absence from the four lists compared here shows how different these selections can be.
 
 ### Famous house DJs
 

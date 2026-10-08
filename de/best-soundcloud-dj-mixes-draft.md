@@ -8,11 +8,11 @@ Die besten SoundCloud-DJ-Mixes kommen von Selektoren und Reihen, die einen Mix s
 
 SoundCloud eignet sich für den DJ-Mix noch immer besser als die meisten Streaming-Plattformen. Ein Mix kann auf der Seite eines Künstlers oder Labels liegen, in den Kommentaren eine Tracklist sammeln und lange verfügbar bleiben, nachdem eine Radiosendung verschwunden ist. Was er dem Hörer gibt, ist die Art, wie ein Selektor eine Platte an die nächste fügt.
 
-Das sind die besten SoundCloud-Mixes, die ich finden konnte und die einen erkennbaren Herausgeber, ein klares musikalisches Argument und genug Spannweite verbinden, um einen weiteren Durchlauf zu lohnen. Jeder dieser DJ-Mixes auf SoundCloud stammt aus einer benannten Reihe. Die Liste geht bewusst über Genres hinweg. Der eigene Guide zu [den besten Techno-Mixes](/de/beste-techno-mixes) bleibt im Techno, während [Live-DJ-Sets](/de/live-dj-sets-ansehen) die Plattformen behandelt, die die Kabine filmen.
+Diese SoundCloud-Mixes reichen von hypnotischem Techno bis zu schnellen, wechselnden Rhythmen. Jeder dieser DJ-Mixes auf SoundCloud stammt aus einer benannten Reihe. Die Liste geht bewusst über Genres hinweg. Der eigene Guide zu [den besten Techno-Mixes](/de/beste-techno-mixes) bleibt im Techno, während [Live-DJ-Sets](/de/live-dj-sets-ansehen) die Plattformen behandelt, die die Kabine filmen.
 
 ## Wie diese SoundCloud-Mixes ausgewählt wurden
 
-Jeder Player stammt von DJ Mag oder Dekmantel, den beiden hier vertretenen Auftraggebern. Das beseitigt das Herkunftsproblem anonymer Reposts. Die Reihenfolge folgt einer Hörroute: Sie beginnt mit House und Techno, geht in seltsameres rhythmisches Terrain und endet mit Mixes, die beschleunigen.
+Die Reihenfolge folgt einer Hörroute: Sie beginnt mit House und Techno, geht in seltsameres rhythmisches Terrain und endet mit Mixes, die beschleunigen.
 
 Beliebtheit hat die Liste nicht entschieden. Ein nützlicher Mix hat einen Standpunkt, den man in den Übergängen hört, ob nun Ogazón einen Groove länger hält als erwartet oder Djrum das Tempo wechselt, ohne dass der Mix zur Vorführung wird.
 
@@ -24,7 +24,7 @@ Igarashis Beitrag zu DJ Mags Reihe Recognise arbeitet sich durch treibenden, psy
 
 [Embed: Wata Igarashi]
 
-Es ist hier die klarste erste Wahl für jemanden, der Techno schon mag, aber mehr Tiefe will als eine Folge offensichtlicher Festival-Platten.
+Achte auf die kleinen Veränderungen in Percussion und Klang.
 
 ### Ogazón, Recognise 096
 
@@ -84,15 +84,15 @@ SHERELLE schließt die Route mit Footwork, Jungle und schnellen gebrochenen Rhyt
 
 Footwork und Jungle stehen hier nebeneinander, und der Mix wechselt zwischen ihren unterschiedlichen rhythmischen Rastern.
 
-## Ein weiterer Mix, mit Offenlegung
+## Ein Mix von thecatrave
 
 ### thecatrave, I Like to Smoke in Silence After Raves
 
-Ich habe diesen Mix gemacht, deshalb nenne ich ihn nicht einen der besten und tue nicht so, als gehöre er in eine unabhängige Liste. Ohne Vorbehalt kann ich sagen: Er ist deine Zeit wert, 100 %.
+Ich habe diesen Mix über etwa vier Monate zusammengestellt. Seine 30 Tracks führen durch Breaks, Garage, Bass Music, Techno und Rave.
 
 [Embed: thecatrave]
 
-Das Set zu arrangieren dauerte etwa vier Monate. Seine 30 Tracks bewegen sich durch Breaks, Garage, Bass Music, Techno und Rave als ein langer Bogen, was es zu einem natürlichen letzten Halt nach den schnelleren Mixes mit gebrochenem Rhythmus oben macht.
+Hör ihn nach Djrum oder SHERELLE, wenn du bei gebrochenen Rhythmen bleiben möchtest.
 
 ## Welchen SoundCloud-DJ-Mix solltest du zuerst spielen?
 

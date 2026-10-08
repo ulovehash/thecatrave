@@ -21,8 +21,8 @@ export default {
   title: 'Meilleures playlists house sur Spotify : 12 sélections',
   description: 'Douze playlists Spotify pour la house music, des classiques des années 90 et flux de labels à deux sélections signalées de thecatrave entre house, techno et plus.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Playlists house',
   heroTitle: 'Les meilleures playlists house sur Spotify',
@@ -32,7 +32,7 @@ export default {
 
   answerSection: 'Réponse',
   introSection: 'Introduction',
-  introTitle: 'Choisis la voie avant la playlist.',
+  introTitle: 'Les personnes derrière les playlists.',
 
   sections: [
     {id: 'criteria', heading: 'Comment ces playlists house ont été choisies', title: 'Comment ces playlists house ont été choisies.', tocLabel: 'Comment elles ont été choisies'},

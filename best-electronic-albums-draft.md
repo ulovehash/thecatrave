@@ -97,7 +97,7 @@ The next player features my own Late Summer Cloud Dance.
 
 ## Where to go next
 
-If one album sent you to a scene, the guides here follow the scenes: [house](/house-music-guide), [techno](/techno-music-guide), [trance](/trance-guide), [UK electronic music](/uk-electronic-music-evolution) and [German electronic music](/german-electronic-music). For listening to DJs rather than albums, see [the best DJ sets of all time](/best-dj-sets-of-all-time).
+Explore the scenes behind these albums in the guides to [house](/house-music-guide), [techno](/techno-music-guide), [trance](/trance-guide), [UK electronic music](/uk-electronic-music-evolution) and [German electronic music](/german-electronic-music). For listening to DJs rather than albums, see [the best DJ sets of all time](/best-dj-sets-of-all-time).
 
 ## FAQ
 

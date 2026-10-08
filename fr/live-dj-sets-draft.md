@@ -114,7 +114,7 @@ Le Selector de ce site lance au hasard l’un des {{catalogue-sets}} DJ sets enr
 
 [Table: numbers]
 
-Cercle a 178 sets dans ce catalogue, environ 2 % du nombre de Boiler Room, et ils ont été regardés 984 millions de fois, plus de la moitié autant que les 8 206 de Boiler Room réunis. L’image l’explique sans doute : un set à Pétra se prête à quelque chose qu’on laisse tourner à la télévision, ce qu’un set dans un sous-sol fait rarement. Boris Brejcha au Grand Palais à Paris, en 2019, compte à lui seul 68,4 millions de vues.
+Cercle a 178 sets dans ce catalogue, environ 2 % du nombre de Boiler Room, et ils ont été regardés 984 millions de fois, plus de la moitié autant que les 8 206 de Boiler Room réunis. Boris Brejcha au Grand Palais à Paris, en 2019, compte à lui seul 68,4 millions de vues.
 
 [Embed: Boris Brejcha]
 

@@ -110,7 +110,7 @@ const sections = [
   {id: 'chart-years', heading: 'The chart years: the best trance tunes of 1998 and 1999'},
   {id: 'superstar-years', heading: 'The superstar DJ years: 2004 to 2012'},
   {id: 'best-ever', heading: 'Which is the best trance track ever?'},
-  {id: 'a-break', heading: 'A break from the list: two tracks of mine'}
+  {id: 'a-break', heading: 'Two tracks of my own'}
 ];
 const h2 = s => /[?.]$/.test(s) ? s : `${s}.`;
 const bodySections = sections.map(s => articleSection({id: s.id, title: h2(s.heading), bodyHtml: render(getSection(s.heading))}));

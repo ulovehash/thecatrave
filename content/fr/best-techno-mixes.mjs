@@ -19,8 +19,8 @@ export default {
   title: 'Meilleurs mix techno : 10 DJ sets essentiels',
   description: 'Dix mix techno essentiels de Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd et d’autres.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1er octobre 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8 octobre 2026',
 
   heroKicker: 'Mix DJ techno',
   heroTitle: 'Les meilleurs mix techno, de Détroit à aujourd’hui',

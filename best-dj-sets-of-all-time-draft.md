@@ -62,13 +62,13 @@ Artwork's “Let Go of This Acid” opens a selection that also includes Jerome 
 
 ### Dixon, Cercle Festival, Ariane stage, 2024
 
-SBTRKT's “Volca” and Deer Jade's “Firmament” share the selection with Âme's “Asa” and “Shadow of Love.” Those records give this Cercle appearance a useful focus for listeners following Dixon and the music around Innervisions. It is a more recent festival snapshot than the historic farewells elsewhere on the page, with a selection to explore track by track. [Tracklist](https://watchthedj.com/djvideos/dixon-live-at-cercle-festival-2024-ariane-stage).
+SBTRKT's “Volca” and Deer Jade's “Firmament” share the selection with Âme's “Asa” and “Shadow of Love.” Start with those records if you follow Dixon and Innervisions. The set offers a selection of what he was playing in 2024. [Tracklist](https://watchthedj.com/djvideos/dixon-live-at-cercle-festival-2024-ariane-stage).
 
 ## Techno
 
 ### Carl Craig, Detroit Classics set, Mixmag Live, 2012
 
-Moodymann's “Forevernevermore” appears beside Robert Hood's “Alpha,” with Inner City and Joey Beltram also in the selection. Craig's Detroit theme leaves room for both house and techno, and for the records that travelled between scenes. That makes the set a useful introduction to the breadth of his taste: familiar names lead you towards different sides of the music, rather than a run through one producer's catalogue. [Tracklist](https://www.mixesdb.com/w/2012-10-19_-_Carl_Craig_%40_Mixmag_Live%2C_Village_Underground%2C_London).
+Moodymann's “Forevernevermore” appears beside Robert Hood's “Alpha,” with Inner City and Joey Beltram also in the selection. Craig's Detroit theme leaves room for both house and techno, and for the records that travelled between scenes. Start with Moodymann for the house side of the selection, then follow Craig towards Hood and Beltram. [Tracklist](https://www.mixesdb.com/w/2012-10-19_-_Carl_Craig_%40_Mixmag_Live%2C_Village_Underground%2C_London).
 
 ### Joey Beltram, The Lab NYC, Mixmag, 2018
 
@@ -92,7 +92,7 @@ Start with the opening: Locked Groove's remix of Vaal's “Wander to Hell.” It
 
 ### Charlotte de Witte, The Lab NYC, Mixmag, 2020
 
-Her own “Pressure” appears alongside Cadans' “Hose” and SRVD's “Black on Black.” This is a focused introduction to the music she was playing around the early period of KNTXT, with her productions sitting inside a wider techno selection. The office setting makes it an easy performance to follow without the scale of a festival show. [Tracklist](https://watchthedj.com/djvideos/charlotte-de-witte-live-at-mixmag-lab-nyc-2020).
+Her own “Pressure” appears alongside Cadans' “Hose” and SRVD's “Black on Black.” This is a focused introduction to the music she was playing around the early period of KNTXT, with her productions sitting inside a wider techno selection. The film puts the camera close to the decks in Mixmag’s office. [Tracklist](https://watchthedj.com/djvideos/charlotte-de-witte-live-at-mixmag-lab-nyc-2020).
 
 ## Marathons and closing nights
 
@@ -142,7 +142,7 @@ This Metalheadz takeover catches Goldie and Ulterior Motive around their collabo
 
 ### Ben UFO, The Lot Radio, 2020
 
-The selection moves from a Floating Points interpretation of Kenny Wheeler to music by DJ Plead, Monolake and Jamie xx. That range makes the radio setting useful: you can follow a DJ connecting records across different sounds without a single genre setting the terms. It is a good starting point for listeners who enjoy working backwards from an unfamiliar track to the artist who made it. [The published tracklist](https://tube.yt/?v=ECQwhbX4-H0).
+The selection moves from a Floating Points interpretation of Kenny Wheeler to music by DJ Plead, Monolake and Jamie xx. The radio set leaves room for all of those sounds. Follow the tracklist to explore the artists behind the selections. [The published tracklist](https://tube.yt/?v=ECQwhbX4-H0).
 
 ### DJ Rashad and DJ Spinn, XLR8R Podcast 158, 2010
 

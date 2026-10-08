@@ -6,7 +6,7 @@ The best house music playlist on Spotify depends on which part of house you want
 
 ## Introduction
 
-"House playlist" can mean Chicago records, vocal garage, deep house, tech house or a pop-dance feed with a four-on-the-floor kick. A useful recommendation names the lane and the curator, then lets the reader hear enough to decide.
+"House playlist" can mean Chicago records, vocal garage, deep house, tech house or a pop-dance feed with a four-on-the-floor kick. The playlists below cover those differences, with previews to help you choose.
 
 The best house playlists on Spotify come from its editorial team, established labels and working DJs. A house music playlist on Spotify can change quickly, so their order here follows the kind of listening they support. For a broad cross-genre list, use [The Best Spotify Playlists](/best-spotify-playlists). For the history behind the music, start with [What Is House Music?](/house-music-guide).
 
@@ -14,7 +14,7 @@ The best house playlists on Spotify come from its editorial team, established la
 
 Each playlist has an identifiable curator. Some rotate through new releases. Others work as durable archives. The notes below describe what the playlist is useful for and where its boundaries become loose.
 
-Follower totals change and do not measure sequencing or taste, so they are omitted. Spotify can change the opening tracks.
+Spotify can change the opening tracks.
 
 ## House foundations and soulful records
 
@@ -28,7 +28,7 @@ Soulful House puts singers, live-feeling keys and long-running producers such as
 
 ### Housewerk NYE by Honey Dijon
 
-Honey Dijon's Housewerk NYE playlist stretches from disco and funk into current house. It is the most personal selection in this group, running from disco and funk into current house.
+Honey Dijon's Housewerk NYE playlist stretches from disco and funk into current house. Her selection puts those older records alongside the house she plays today.
 
 ## Current house and label filters
 
@@ -64,15 +64,15 @@ Feel My Bicep is closer to a DJ's working record bag than a narrow house playlis
 
 ## thecatrave playlists: house, techno and beyond
 
-These final two playlists are mine. Neither is a pure house playlist, so they are presented as cross-genre routes rather than independent house recommendations. Both contain techno and house-adjacent records alongside breaks, bass music and other electronic styles.
+I curate these final two playlists. Both put house and techno alongside breaks, bass music and other electronic styles.
 
 ### Rare Electronic Music
 
-Rare Electronic Music is the broader and harder of the two. It moves through breaks, techno, leftfield house and rave records that do not fit one clean genre shelf. Start here when the edges between house and techno are more interesting than a tightly filtered subgenre feed.
+Rare Electronic Music is the broader and harder of the two. It moves through breaks, techno, leftfield house and rave records that do not fit one clean genre shelf. Start here for a harder selection that moves between house and techno.
 
 ### Emotional Electronic Music
 
-Emotional Electronic Music uses melody and emotional weight as its filter, but the tracks still need enough physical movement to work outside headphones. House and techno appear beside liquid drum and bass, UK bass and softer club records, making it the less rigid and more reflective route.
+Emotional Electronic Music concentrates on melodic records with a club rhythm. House and techno appear beside liquid drum and bass, UK bass and softer club records, making it the less rigid and more reflective route.
 
 ## Which house playlist should you choose?
 

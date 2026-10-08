@@ -31,8 +31,8 @@ const checks = {
   hreflangFamily: [html, de, fr].every(page => ['hreflang="en"','hreflang="de"','hreflang="fr"'].every(value => page.includes(value))),
   faq: count(/<details(?: open)?>/g) === 5 && html.includes('"@type":"FAQPage"'),
   datesAgree: html.includes('article:published_time" content="2026-09-21"')
-    && html.includes('article:modified_time" content="2026-09-21"')
-    && html.includes('<time datetime="2026-09-21">21 September 2026</time>'),
+    && html.includes('article:modified_time" content="2026-10-08"')
+    && html.includes('<time datetime="2026-10-08">8 October 2026</time>'),
   originalImage: fs.existsSync('img/spotify-playlists/playlist-still-life-1200.webp')
     && fs.existsSync('img/spotify-playlists/playlist-still-life-320.webp')
     && html.includes('img/spotify-playlists/playlist-still-life-1200.webp'),

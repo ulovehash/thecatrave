@@ -73,17 +73,17 @@ const tocItems = [
   {id:'criteria', label:'Find a mix to start with'},
   {id:'house-techno', label:'House, techno and the space between'},
   {id:'breaks-bass', label:'Breaks, bass and leftfield routes'},
-  {id:'personal-pick', label:'One more mix, with disclosure'},
+  {id:'personal-pick', label:'A mix by thecatrave'},
   {id:'choose', label:'Which mix should you play first?'}
 ];
 const readingTime = `${Math.max(7, Math.round(draft.split(/\s+/).length / 225))} min read`;
 const articleHtml = [
-  articleHero({kicker:'SoundCloud DJ mixes', title:'The best SoundCloud DJ mixes worth hearing', deck:'Eight editorial selections with a clear point of view, plus one personal pick by thecatrave with the relationship stated plainly.', readingTime, dateModified, dateLabel, summaryHtml:infoBanner({label:'Best SoundCloud DJ mixes', bodyHtml:inline(answer[0]), className:'article-summary'}), tocItems}),
-  articleSection({id:'introduction', title:'A mix should make an hour mean something.', bodyHtml:join(intro), className:'article-intro'}),
+  articleHero({kicker:'SoundCloud DJ mixes', title:'The best SoundCloud DJ mixes worth hearing', deck:'Eight mixes from DJ Mag and Dekmantel, from Wata Igarashi’s techno to SHERELLE’s footwork and jungle, followed by a mix of my own.', readingTime, dateModified, dateLabel, summaryHtml:infoBanner({label:'Best SoundCloud DJ mixes', bodyHtml:inline(answer[0]), className:'article-summary'}), tocItems}),
+  articleSection({id:'introduction', title:'Finding mixes on SoundCloud.', bodyHtml:join(intro), className:'article-intro'}),
   articleSection({id:'criteria', title:'Find a mix to start with.', bodyHtml:join(criteria)}),
   articleSection({id:'house-techno', title:'House, techno and the space between.', bodyHtml:renderMixSection('House, techno and the space between')}),
   articleSection({id:'breaks-bass', title:'Breaks, bass and leftfield routes.', bodyHtml:renderMixSection('Breaks, bass and leftfield routes')}),
-  articleSection({id:'personal-pick', title:'One more mix, with disclosure.', bodyHtml:renderMixSection('One more mix, with disclosure')}),
+  articleSection({id:'personal-pick', title:'A mix by thecatrave.', bodyHtml:renderMixSection('A mix by thecatrave')}),
   articleSection({id:'choose', title:'Which SoundCloud DJ mix should you play first?', bodyHtml:join(choosing)}),
   authorCard({filled:true}),
   articleSources({bodyHtml:`<ul>${sources}</ul>`}),

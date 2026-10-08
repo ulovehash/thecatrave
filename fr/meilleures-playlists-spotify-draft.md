@@ -6,15 +6,15 @@ Les meilleures playlists Spotify ont un point de vue reconnaissable. New This We
 
 ## Introduction
 
-Spotify sait déjà vous donner davantage de ce que vous avez écouté hier. C’est utile, mais ce n’est pas la seule fonction d’une playlist. Un bon programmateur peut faire un saut que le fil de recommandations éviterait, placer un petit disque à côté d’un titre célèbre ou garder une scène au premier plan assez longtemps pour que ses détails apparaissent.
+Une playlist peut vous faire découvrir la programmation récente d’une radio ou les disques qu’un DJ emporte en club. Suivre un programmateur permet de connaître ses goûts et de revenir écouter ses prochains choix.
 
-Cette sélection privilégie les playlists portées par une personne, une radio, un média ou un label. Certaines changent chaque semaine. D’autres sont de longues archives indisciplinées, de plus en plus utiles à mesure qu’elles grandissent. Les choix humains ne sont pas automatiquement meilleurs, mais on peut entendre le raisonnement derrière eux.
+Cette sélection privilégie les playlists portées par une personne, une radio, un média ou un label. Certaines changent chaque semaine. D’autres sont de longues archives indisciplinées, de plus en plus utiles à mesure qu’elles grandissent. Le nom du programmateur vous mène vers d’autres émissions, critiques ou sets DJ.
 
 [Image: nature morte playlists]
 
 ## Comment ces playlists ont été choisies
 
-Chaque playlist devait avoir une fonction musicale claire, un programmateur identifiable et soit une activité actuelle, soit une valeur d’archive durable. Un nombre immense d’abonnés ne suffisait pas. Une petite playlist n’était pas récompensée simplement parce qu’elle était obscure. J’ai aussi écarté les listes qui servent surtout à vendre des soumissions ou qui ne peuvent pas expliquer ce qui distingue une sélection de la suivante.
+Les programmateurs proposent plusieurs façons de découvrir la musique : nouveautés choisies par des radios et des magazines, sélections personnelles d’artistes et archives à explorer à votre rythme. Choisissez selon la musique et la personne qui la sélectionne.
 
 L’ordre est pratique, pas numérique. Commencez par la première partie si vous voulez un flux régulier de nouveautés dans plusieurs genres. Passez à la seconde pour de la musique électronique et de la dance music aux frontières de scène plus nettes. Si rien ne convient, le guide [comment trouver de la nouvelle musique](/how-to-find-new-music) couvre la radio, les labels, les DJ sets, les bases de données et d’autres chemins qui ne commencent pas dans Spotify.
 
@@ -40,11 +40,11 @@ GemsOnVHS est connu pour filmer des artistes country, folk et roots dans des pi�
 
 ### Rare Electronic Music, par thecatrave
 
-Je programme cette playlist, le conflit d’intérêts est donc annoncé tout de suite. Rare Electronic Music est la version la plus large du goût club de thecatrave : breaks, techno, house leftfield, virages brusques et disques entendus en rave qui ne rentrent pas dans un rayon de genre propre. L’ouverture passe actuellement de FUCK!LACRÈME à Skin On Skin puis ATRIP. Elle mérite sa place pour la même raison que les playlists d’artistes ci-dessous : les choix appartiennent à une histoire d’écoute reconnaissable, pas à un mot-clé d’ambiance.
+Je programme Rare Electronic Music. Rare Electronic Music est la version la plus large du goût club de thecatrave : breaks, techno, house leftfield, virages brusques et disques entendus en rave qui ne rentrent pas dans un rayon de genre propre. L’ouverture passe actuellement de FUCK!LACRÈME à Skin On Skin puis ATRIP. Ces disques viennent de mes propres écoutes et de mes soirées en club.
 
 ### Emotional Electronic Music, par thecatrave
 
-La seconde playlist de thecatrave suit un critère plus étroit. La mélodie et le poids émotionnel comptent, mais les morceaux doivent conserver assez de mouvement physique pour survivre hors du casque. Patrick Holland, Public Memory et un mix de KETTAMA ouvrent la version actuelle. La suite traverse la liquid drum and bass, Skream, dBridge et des disques de club plus doux sans devenir de la musique de fond.
+Ma seconde playlist se concentre sur la musique électronique mélodique avec un rythme de club. Patrick Holland, Public Memory et un mix de KETTAMA ouvrent la version actuelle. La suite traverse la liquid drum and bass, Skream, dBridge et des disques de club plus doux sans devenir de la musique de fond.
 
 ### Feel My Bicep
 
@@ -56,7 +56,7 @@ Le titre est un buisson de planètes, de cercles et de symboles. Il est donc plu
 
 ### Altar
 
-Altar est une playlist éditoriale de Spotify, la seule exception à la règle des programmateurs nommés dans cette liste. Elle fait partie des propositions électroniques les plus claires de la plateforme: de la musique de club contemporaine hors de l’axe EDM de grande scène, avec une place pour l’alternative pop et la production expérimentale. Prenez-la comme un instantané actuel, pas comme une archive.
+Altar est sélectionnée par l’équipe éditoriale de Spotify. Elle fait partie des propositions électroniques les plus claires de la plateforme: de la musique de club contemporaine hors de l’axe EDM de grande scène, avec une place pour l’alternative pop et la production expérimentale. Suivez-la pour les nouveautés.
 
 ### Toolroom Tech House
 

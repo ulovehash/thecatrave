@@ -37,8 +37,8 @@ export default {
   title: 'Live-DJ-Sets ansehen: Boiler Room, HÖR, NTS und mehr',
   description: 'Wo du Live-DJ-Sets online ansehen kannst, von Boiler Room und HÖR bis NTS, Rinse FM, The Lot Radio, Kiosk und Cercle, mit Links und Hörwegen.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-06',
-  dateLabel: '6. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Live-DJ-Sets',
   heroTitle: 'Live-DJ-Sets online ansehen',

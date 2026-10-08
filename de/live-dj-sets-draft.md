@@ -114,7 +114,7 @@ Der Selector dieser Seite spielt zufällig eines von {{catalogue-sets}} aufgenom
 
 [Tabelle: numbers]
 
-Cercle hat in diesem Katalog 178 Sets, etwa 2 % von Boiler Rooms Zahl, und sie wurden 984 Millionen Mal angesehen, mehr als halb so oft wie alle 8.206 von Boiler Room zusammen. Wahrscheinlich erklärt das Bild es: Ein Set in Petra taugt als etwas, das man im Fernseher laufen lässt, was ein Set in einem Keller selten tut. Boris Brejcha im Grand Palais in Paris, von 2019, hat allein 68,4 Millionen Aufrufe.
+Cercle hat in diesem Katalog 178 Sets, etwa 2 % von Boiler Rooms Zahl, und sie wurden 984 Millionen Mal angesehen, mehr als halb so oft wie alle 8.206 von Boiler Room zusammen. Boris Brejcha im Grand Palais in Paris, von 2019, hat allein 68,4 Millionen Aufrufe.
 
 [Embed: Boris Brejcha]
 

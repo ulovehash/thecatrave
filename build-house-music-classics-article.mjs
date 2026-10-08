@@ -104,7 +104,7 @@ function renderEntries(heading) {
 
 const answer = paras(getSection('Answer'));
 const intro = paras(getSection('Introduction'));
-const method = paras(getSection('How these ten were chosen'));
+const method = paras(getSection('The records at a glance'));
 const others = paras(getSection('Before 1988, and the other classics'));
 const playlistIntro = paras(getSection('More listening'));
 const start = paras(getSection('Where to start'));
@@ -119,7 +119,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 const sources = getSection('Sources').split('\n').filter(line => line.startsWith('- ')).map(line => `<li>${inline(line.slice(2))}</li>`).join('');
 
-const glanceTable = articleTable({headers: ['Year', 'Record', 'Named by'], rows: [
+const glanceTable = articleTable({headers: ['Year', 'Record'], rows: [
   ['1988', 'Inner City, Good Life', 'NME, Billboard'],
   ['1989', 'Lil Louis, French Kiss', 'NME'],
   ['1991', 'Alison Limerick, Where Love Lives', '6AM Group, Billboard'],
@@ -130,13 +130,13 @@ const glanceTable = articleTable({headers: ['Year', 'Record', 'Named by'], rows:
   ['1998', 'Stardust, Music Sounds Better With You', 'NME, Billboard'],
   ['1999', 'Armand van Helden, You Don\'t Know Me', '6AM Group, Billboard'],
   ['2001', 'Kings of Tomorrow, Finally', '6AM Group, Billboard']
-]});
+].map(([year, record]) => [year, record])});
 const elsewhereTable = articleTable({headers: ['Record', 'Where it is played'], rows: [
   ['Jesse Saunders, Marshall Jefferson, Mr. Fingers, Frankie Knuckles, Farley "Jackmaster" Funk', '<a href="/house-music-guide">House music guide</a>'],
   ['Phuture, Acid Tracks; A Guy Called Gerald, Voodoo Ray', '<a href="/acid-house-guide">Acid house guide</a>'],
   ['Rhythim Is Rhythim, Strings of Life', '<a href="/techno-music-guide">Techno guide</a>']
 ]});
-const records = articleSection({id: 'classic-house-songs', title: 'Classic house songs, 1988 to 2001.', bodyHtml: '<p>Each record below has a short account of why it lasted, a player for the official upload, and the lists that named it. They run in order of release, from the Chicago and Detroit years to the French filter-disco wave.</p>\n' + renderEntries('Classic house songs, 1988 to 2001')});
+const records = articleSection({id: 'classic-house-songs', title: 'Classic house songs, 1988 to 2001.', bodyHtml: '<p>Each record below has a short account of why it lasted and a player where available. They run in order of release, from the Chicago and Detroit years to the French filter-disco wave.</p>\n' + renderEntries('Classic house songs, 1988 to 2001')});
 for (const heading of players.keys()) if (!used.has(heading)) throw new Error(`Unused player: ${heading}`);
 if (used.size + noPlayer.size !== 10) throw new Error(`Expected 10 records, found ${used.size + noPlayer.size}`);
 
@@ -154,7 +154,7 @@ const ownPlaylist = articleSection({
 });
 
 const tocItems = [
-  {id: 'method', label: 'How these ten were chosen'},
+  {id: 'method', label: 'The records at a glance'},
   {id: 'classic-house-songs', label: 'Classic house songs'},
   {id: 'before-1988', label: 'Before 1988'},
   {id: 'artist-music', label: 'More listening'},
@@ -165,8 +165,8 @@ const readingTime = `${Math.max(5, Math.round(draft.split(/\s+/).length / 225))}
 
 const articleHtml = [
   articleHero({kicker: 'House', title: 'House music classics', deck: 'Ten classic house songs in the order they came out, from Inner City in 1988 to Kings of Tomorrow in 2001, nine with a player.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'House music classics', bodyHtml: inline(answer[0]), className: 'article-summary'}), tocItems}),
-  articleSection({id: 'introduction', title: 'A listening list, not a history.', bodyHtml: join(intro), className: 'article-intro'}),
-  articleSection({id: 'method', title: 'How these ten were chosen.', bodyHtml: join(method) + glanceTable}),
+  articleSection({id: 'introduction', title: 'From “Good Life” to “Finally”.', bodyHtml: join(intro), className: 'article-intro'}),
+  articleSection({id: 'method', title: 'The records at a glance.', bodyHtml: join(method) + glanceTable}),
   records,
   articleSection({id: 'before-1988', title: 'Before 1988, and the other classics.', bodyHtml: join(others) + elsewhereTable}),
   ownPlaylist,

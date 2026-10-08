@@ -53,8 +53,8 @@ export default {
   title: 'Die besten Boiler-Room-Sets aller Zeiten: gerankt, gemessen',
   description: 'Die besten Boiler-Room-Sets, von Carl Cox auf Ibiza bis Fred again.. in London, neben den meistgesehenen Sets, gezählt über 8.206 Aufnahmen.',
   datePublished: '2026-10-01',
-  dateModified: '2026-10-01',
-  dateLabel: '1. Oktober 2026',
+  dateModified: '2026-10-08',
+  dateLabel: '8. Oktober 2026',
 
   heroKicker: 'Boiler Room',
   heroTitle: 'Die besten Boiler-Room-Sets aller Zeiten',

@@ -2,19 +2,19 @@
 
 ## Answer
 
-The best SoundCloud DJ mixes come from selectors and series that plan a mix with care. Start with Wata Igarashi for psychedelic techno, Ogazón for patient house and techno, DJ Python for low-slung rhythm, Djrum for breaks and jungle, or SHERELLE when you want the pace pushed hard. The eight editorial selections come from the accounts that commissioned or published them. A ninth, clearly disclosed mix by thecatrave closes the page.
+For the best SoundCloud mixes, start with the Recognise and Dekmantel Podcast series. Start with Wata Igarashi for psychedelic techno, Ogazón for patient house and techno, DJ Python for low-slung rhythm, Djrum for breaks and jungle, or SHERELLE when you want the pace pushed hard. The eight editorial selections come from the accounts that commissioned or published them. My own thecatrave mix follows the eight recommendations.
 
 ## Introduction
 
-SoundCloud still suits the DJ mix better than most streaming platforms. A mix can sit on an artist or label page, gather a tracklist in the comments and remain available long after a radio broadcast disappears. What it gives a listener is the way a selector joins one record to the next.
+SoundCloud still suits the DJ mix better than most streaming platforms. A mix can sit on an artist or label page, gather a tracklist in the comments and remain available long after a radio broadcast disappears. You can follow the selections through a tracklist and return to a transition you want to hear again.
 
-These are the best SoundCloud mixes I could find that combine an identifiable publisher, a clear musical argument and enough range to reward another play. Every one of these DJ mixes on SoundCloud comes from a named series. The list is deliberately cross-genre. The separate guide to [the best techno mixes](/best-techno-mixes) stays inside techno, while [Live DJ Sets](/live-dj-sets) covers the platforms that film the booth.
+These SoundCloud mixes range from hypnotic techno to fast, rhythmically restless selections. Every one of these DJ mixes on SoundCloud comes from a named series. The list is deliberately cross-genre. The separate guide to [the best techno mixes](/best-techno-mixes) stays inside techno, while [Live DJ Sets](/live-dj-sets) covers the platforms that film the booth.
 
 ## Find a mix to start with
 
 The order follows a listening route: begin with house and techno, move into stranger rhythmic territory, then finish with mixes that accelerate.
 
-Popularity did not decide the list. A useful mix has a point of view you can hear in the transitions, whether that means Ogazón holding a groove for longer than expected or Djrum changing tempo without turning the mix into a demonstration reel.
+Ogazón gives house and techno grooves time to settle. Djrum changes tempo as he moves between spacious electronics and jungle. Choose according to how much movement you want in the mix.
 
 ## House, techno and the space between
 
@@ -24,11 +24,11 @@ Igarashi's contribution to DJ Mag's Recognise series works through driving, psyc
 
 [Embed: Wata Igarashi]
 
-It is the clearest first choice here for someone who already likes techno but wants more depth than a run of obvious festival records.
+Listen for the small changes in percussion and texture.
 
 ### Ogazón, Recognise 096
 
-Ogazón digs through house and techno with the patience of a resident DJ. The mix is hypnotic because the records share a physical swing, not because everything sits at one intensity.
+Ogazón digs through house and techno with the patience of a resident DJ. The records share a swing while the intensity changes.
 
 [Embed: Ogazon]
 
@@ -48,7 +48,7 @@ Doudou MD keeps the drums loose. Swung house grooves sit beside punchier techno,
 
 [Embed: Doudou MD]
 
-The mix makes sense of the overlap between house and techno that genre menus usually hide. It sounds like one record bag, with no hard division between categories.
+House and techno share the selection, with the drums carrying the changes between them.
 
 ## Breaks, bass and leftfield routes
 
@@ -84,15 +84,15 @@ SHERELLE closes the route with footwork, jungle and fast broken rhythms. Her tra
 
 Footwork and jungle sit side by side here, and the mix moves between their different rhythmic grids.
 
-## One more mix, with disclosure
+## A mix by thecatrave
 
 ### thecatrave, I Like to Smoke in Silence After Raves
 
-I made this mix, so I am not calling it one of the best or pretending it belongs to an independent list. I can say this without hedging: it is worth your time, 100%.
+I made this mix over about four months, arranging 30 tracks through breaks, garage, bass music, techno and rave.
 
 [Embed: thecatrave]
 
-The set took about four months to arrange. Its 30 tracks move through breaks, garage, bass music, techno and rave as one long arc, which makes it a natural final stop after the faster, broken-rhythm mixes above.
+Try it after Djrum or SHERELLE if you want to keep listening to broken rhythms.
 
 ## Which SoundCloud DJ mix should you play first?
 

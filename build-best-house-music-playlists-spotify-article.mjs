@@ -13,8 +13,8 @@ const canonical = 'https://thecatrave.com/best-house-music-playlists-spotify';
 const title = 'Best House Music Playlists on Spotify: 12 Curated Picks';
 const description = 'Twelve Spotify playlists for house music, from 90s classics and label feeds to two disclosed thecatrave selections spanning house, techno and beyond.';
 const datePublished = '2026-09-29';
-const dateModified = '2026-09-29';
-const dateLabel = '29 September 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 function getSection(heading) {

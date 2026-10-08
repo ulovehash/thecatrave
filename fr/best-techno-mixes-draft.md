@@ -12,9 +12,9 @@ Cette sélection commence avec les artistes de Détroit et suit la musique à tr
 
 ## Qu’est-ce qui fait un mix techno essentiel ?
 
-La netteté technique ne suffit pas. Un mix mérite une nouvelle écoute quand les disques forment un argument, que l’énergie a une forme et que le DJ peut changer de direction sans perdre le fil. Cela peut vouloir dire Juan Atkins laissant le funk à l’intérieur de la techno, Surgeon coupant entre des textures plus dures ou Wata Igarashi faisant porter un mix par de petits glissements tonals.
+Ces mix abordent le rythme et la progression de façons différentes. Cela peut vouloir dire Juan Atkins laissant le funk à l’intérieur de la techno, Surgeon coupant entre des textures plus dures ou Wata Igarashi faisant porter un mix par de petits glissements tonals.
 
-Les enregistrements ne sont pas classés. Ils couvrent des usages et des filiations différents, et chacun vient de la chaîne YouTube officielle de Mixmag, DJ Mag, Boiler Room ou HÖR. Le nombre de vues n’a pas servi de note de qualité.
+Les enregistrements ne sont pas classés. Ils couvrent des usages et des filiations différents, et chacun vient de la chaîne YouTube officielle de Mixmag, DJ Mag, Boiler Room ou HÖR.
 
 ## Détroit : funk, minimalisme et electro
 
@@ -106,4 +106,4 @@ Le set clôt le parcours parce qu’il rassemble plusieurs idées précédentes 
 
 Choisis Juan Atkins pour le funk de Détroit, Robert Hood pour la techno minimale et DJ Stingray pour l’electro. Jeff Mills et Surgeon conviennent aux auditeurs qui veulent des décisions plus rapides et une texture plus dure. Ben Klock et Rødhåd prennent une route berlinoise plus longue, Helena Hauff et L.F.T. ajoutent acid et EBM, Wata Igarashi va le plus en profondeur et Fadi Mohem offre l’entrée actuelle la plus équilibrée.
 
-Il n’existe pas de meilleur mix techno de tous les temps. Ces mix techno essentiels défendent des arguments différents sur le genre, ce qui explique pourquoi le parcours fonctionne mieux sans classement. Pour les disques, les villes et les gens derrière ces approches, poursuis avec le [guide de l’histoire de la techno](/fr/techno), la [musique électronique allemande](/fr/musique-electronique-allemande) et le guide des [clubs de Berlin](/fr/boite-de-nuit-berlin).
+Il n’existe pas de meilleur mix techno de tous les temps. Ces mix techno essentiels vont du funk de Detroit à la techno minimale et hypnotique. Pour les disques, les villes et les gens derrière ces approches, poursuis avec le [guide de l’histoire de la techno](/fr/techno), la [musique électronique allemande](/fr/musique-electronique-allemande) et le guide des [clubs de Berlin](/fr/boite-de-nuit-berlin).
