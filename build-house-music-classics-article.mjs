@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleSection, articleSources, articleStructuredData, articleTable,
   articleVideoCard, articleVideoCollection, authorCard, bandcampSupport, breadcrumbStructuredData,
-  faqStructuredData, infoBanner, ownTrackListening, readNext
+  faqStructuredData, infoBanner, articleListeningBand, ownPlaylists, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 import {alternatesFor} from './pages.mjs';
@@ -26,8 +26,8 @@ const canonical = 'https://thecatrave.com/house-music-classics';
 const title = 'House Music Classics: 10 Classic House Songs to Hear';
 const description = 'House music classics in order, from Inner City and Lil Louis to Stardust and Kings of Tomorrow: ten classic house songs, nine with a player and one fact each.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-06';
-const dateLabel = '6 October 2026';
+const dateModified = '2026-10-08';
+const dateLabel = '8 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
@@ -106,7 +106,7 @@ const answer = paras(getSection('Answer'));
 const intro = paras(getSection('Introduction'));
 const method = paras(getSection('How these ten were chosen'));
 const others = paras(getSection('Before 1988, and the other classics'));
-const breakIntro = paras(getSection('Two tracks of mine, as a break'));
+const playlistIntro = paras(getSection('More listening'));
 const start = paras(getSection('Where to start'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
   const [q, ...rest] = block.split('\n');
@@ -140,18 +140,24 @@ const records = articleSection({id: 'classic-house-songs', title: 'Classic house
 for (const heading of players.keys()) if (!used.has(heading)) throw new Error(`Unused player: ${heading}`);
 if (used.size + noPlayer.size !== 10) throw new Error(`Expected 10 records, found ${used.size + noPlayer.size}`);
 
-const ownBreak = articleSection({
-  id: 'artist-music', title: 'Two tracks of mine, as a break.',
-  bodyHtml: join(breakIntro) +
-    ownTrackListening('berlin-race-1909', 'Breakbeat drums under dub techno space. My own track, and not a house record.') +
-    ownTrackListening('no-genre-no-problem', 'Glitch, IDM and ambient without one scene to belong to. My own track, and not a house record.')
+const playlist = ownPlaylists['rare-electronic-music'];
+const ownPlaylist = articleSection({
+  id: 'artist-music', title: 'More listening.',
+  bodyHtml: articleListeningBand({
+    platform: 'spotify', id: 'own-playlist-rare-electronic-music',
+    kicker: 'A playlist curated by thecatrave', title: playlist.title,
+    description: playlistIntro.join('').replace(/<[^>]+>/g, ''),
+    src: `https://open.spotify.com/embed/playlist/${playlist.id}?utm_source=generator`,
+    iframeTitle: `${playlist.title} curated by thecatrave on Spotify`,
+    fullBleed: true, tone: 'cyan'
+  })
 });
 
 const tocItems = [
   {id: 'method', label: 'How these ten were chosen'},
   {id: 'classic-house-songs', label: 'Classic house songs'},
   {id: 'before-1988', label: 'Before 1988'},
-  {id: 'artist-music', label: 'Two tracks of mine'},
+  {id: 'artist-music', label: 'More listening'},
   {id: 'where-to-start', label: 'Where to start'},
   {id: 'faq', label: 'FAQ'}
 ];
@@ -163,7 +169,7 @@ const articleHtml = [
   articleSection({id: 'method', title: 'How these ten were chosen.', bodyHtml: join(method) + glanceTable}),
   records,
   articleSection({id: 'before-1988', title: 'Before 1988, and the other classics.', bodyHtml: join(others) + elsewhereTable}),
-  ownBreak,
+  ownPlaylist,
   articleSection({id: 'where-to-start', title: 'Where to start.', bodyHtml: join(start)}),
   articleFaq({items: faqItems, title: 'House classics FAQ.', openFirst: true}),
   authorCard({filled: true}),

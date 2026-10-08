@@ -84,9 +84,9 @@ Some records that come up under house classics sit in other guides, where they a
 
 For the first years, the [house music guide](/house-music-guide) has Jesse Saunders, Marshall Jefferson, Mr. Fingers, Frankie Knuckles and Farley "Jackmaster" Funk. Phuture's "Acid Tracks" and A Guy Called Gerald's "Voodoo Ray" are in the [acid house guide](/acid-house-guide), and Rhythim Is Rhythim's "Strings of Life" is in the [techno guide](/techno-music-guide). If you want playlists rather than a list, there is a separate page of [house playlists on Spotify](/best-house-music-playlists-spotify).
 
-## Two tracks of mine, as a break
+## More listening
 
-These are not house and are not on the list. They are here as a pause after the records, and it is my own music.
+I curate this playlist across house, techno, breaks and rave. Keep listening beyond the classics with Rare Electronic Music.
 
 ## Where to start
 

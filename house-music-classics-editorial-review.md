@@ -127,3 +127,9 @@ Served the worktree on port 8947 and measured at 1440, 768 and 390: no horizonta
 ### Checks after changes
 
 node scripts/build.mjs passed; npm run check:html passed; node audit-all.mjs: build plus 23 audits passed (the known breakbeat-guide failure did not appear); npm run check:links passed; check:layout not run (no Playwright browser).
+
+## 8 October 2026: requested promotional listening correction
+
+The owner requested a curated playlist wherever no own track fits, and promotional panels aligned with surrounding prose. Replaced the two off-topic track cards and their genre disclaimers with the existing owned Rare Electronic Music Spotify playlist through `articleListeningBand()`. Retained `#artist-music`, the ten-record list, exact editorial players, canonical, title, description and original publication date. The guide has no translated variants. The shared CSS now includes own-track panels in the existing prose-width rule for mixes and playlists.
+
+Validation: `node audit-all.mjs` passed the build and all 25 audits, including media adjacency and own-music coverage. House classics rebuilt identically a second time. Browser measurements at 1440, 1024, 768, 430 and 390px found the playlist panel's width and left edge equal to its section, with no page overflow. This is a scoped promotional correction, not a re-review of the historical article.

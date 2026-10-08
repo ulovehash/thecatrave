@@ -637,15 +637,15 @@
 .article-media-band-cyan { background: var(--cyan); }
 .article-media-band-yellow { background: var(--yellow); }
 .article-media-band-coral { background: var(--coral); }
-/* Shared DJ-mix and playlist promotions follow the surrounding prose at every width. */
-.article-media-band:is([aria-labelledby^="own-set-"], [aria-labelledby^="own-playlist-"]) {
+/* Shared track, DJ-mix and playlist promotions follow the surrounding prose at every width. */
+.article-media-band:is([aria-labelledby^="own-set-"], [aria-labelledby^="own-playlist-"], [aria-labelledby^="own-track-"]) {
   left: auto;
   width: min(calc(100% - (2 * var(--article-gutter))), var(--article-text));
   margin-inline: auto;
   grid-template-columns: minmax(0, 1fr);
   transform: none;
 }
-.article-section .article-media-band:is([aria-labelledby^="own-set-"], [aria-labelledby^="own-playlist-"]) { width: 100%; }
+.article-section .article-media-band:is([aria-labelledby^="own-set-"], [aria-labelledby^="own-playlist-"], [aria-labelledby^="own-track-"]) { width: 100%; }
 .jungle-page #jungle-mania { padding-bottom: 0; }
 .jungle-page #jungle-mania > .article-listening-feature:last-child { margin-bottom: 0; }
 .classic-youtube-embed {
