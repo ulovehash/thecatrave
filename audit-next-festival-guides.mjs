@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog} from './home-articles.mjs';
 
 const pages = [
   ['sziget-festival.html', 'https://thecatrave.com/sziget-festival'],
@@ -9,14 +10,6 @@ const pages = [
   ['exit-festival.html', 'https://thecatrave.com/exit-festival']
 ];
 
-const localizedPlanningPages = [
-  'de/sziget-festival.html', 'fr/festival-sziget.html',
-  'de/monegros-desert-festival.html', 'fr/monegros-desert-festival.html',
-  'de/arc-music-festival.html', 'fr/arc-music-festival.html',
-  'de/airbeat-one-festival.html', 'fr/airbeat-one-festival.html',
-  'de/exit-festival.html', 'fr/exit-festival.html'
-];
-
 const roundups = [
   'new-years-eve-festivals.html', 'best-electronic-music-festivals-europe.html',
   'best-edm-festivals-usa.html', 'best-winter-music-festivals.html',
@@ -24,6 +17,10 @@ const roundups = [
   'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
   'fr/festivals-electro-europe.html'
 ];
+const roundupSet = new Set(roundups);
+const individualFestivalPages = [homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog]
+  .flatMap(catalog => catalog.filter(item => item.category === 'festivals').map(item => item.page))
+  .filter(file => !roundupSet.has(file));
 
 const failures = [];
 for (const [file, canonical] of pages) {
@@ -44,13 +41,19 @@ for (const [file, canonical] of pages) {
   if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
 }
 
-for (const file of localizedPlanningPages) {
+for (const file of individualFestivalPages) {
   if (!fs.existsSync(file)) { failures.push(`${file}: missing`); continue; }
   const html = fs.readFileSync(file, 'utf8');
-  if (!html.includes('class="festival-planner"')) failures.push(`${file}: missing translated festival planner`);
+  const count = pattern => (html.match(pattern) || []).length;
+  if (count(/class="festival-planner"/g) !== 1) failures.push(`${file}: expected exactly one practical festival planner`);
+  if (count(/class="festival-price-table"/g) !== 1) failures.push(`${file}: missing one ticket-price table`);
+  if (count(/class="festival-route-number"/g) < 2) failures.push(`${file}: planner needs at least two specific routes`);
   if (!html.includes('google.com/maps/')) failures.push(`${file}: missing direct Google Maps route`);
-  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing translated planning check date`);
+  if (!html.includes('rel="nofollow noopener noreferrer"')) failures.push(`${file}: planning links must be nofollow`);
+  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
 }
+
+if (individualFestivalPages.length !== 70) failures.push(`festival inventory: expected 70 individual guide variants, found ${individualFestivalPages.length}`);
 
 for (const file of roundups) {
   if (!fs.existsSync(file)) continue;

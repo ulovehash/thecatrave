@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import { imageSizeForUrl } from './scripts/image-size.mjs';
 import { t, defaultLang, locales } from './i18n.mjs';
 import { clubGuideLinksFor, clubGuideVenuesIn } from './club-guide-directory.mjs';
+import { festivalPlanningForPath } from './content/festival-planning-registry.mjs';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;')
@@ -511,6 +512,26 @@ export function festivalPlanningGuide({
   </div>`;
 }
 
+function ensureFestivalPlanning(articleHtml, canonical, lang) {
+  if (articleHtml.includes('class="festival-planner"')) return articleHtml;
+  const entry = festivalPlanningForPath(new URL(canonical).pathname, lang);
+  if (!entry) return articleHtml;
+  const sectionId = articleHtml.includes('id="planning"') ? 'trip-planning' : 'planning';
+  const section = articleSection({
+    id: sectionId, title: entry.title, className: 'festival-planning-section',
+    bodyHtml: festivalPlanningGuide(entry.planning)
+  });
+  const faqAt = articleHtml.search(/<section class="[^"]*faq-section/);
+  const authorAt = articleHtml.indexOf('<aside class="floating-inset author-card');
+  const insertAt = faqAt >= 0 ? faqAt : authorAt;
+  if (insertAt < 0) throw new Error(`${canonical}: festival planner has no safe insertion point`);
+  let result = `${articleHtml.slice(0, insertAt)}${section}\n${articleHtml.slice(insertAt)}`;
+  const toc = /(<nav class="article-toc"[\s\S]*?<ol>)([\s\S]*?)(<\/ol>)/;
+  if (!toc.test(result)) throw new Error(`${canonical}: festival planner requires an article table of contents`);
+  result = result.replace(toc, `$1$2<li><a href="#${sectionId}">${escapeHtml(entry.tocLabel)}</a></li>$3`);
+  return result;
+}
+
 export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) calc(100vw - 32px), 640px', width, height, alt, caption = '', className = '', loading = 'lazy'} = {}) {
   requireFields('articleFigure', {src,alt});
   if (/\.(?:avif|jpe?g|png|webp)(?:$|\?)/i.test(src)) requireFields('articleFigure raster dimensions', {width,height});
@@ -589,6 +610,7 @@ function bandcampExperimentBootstrap() {
 
 export function articlePage({title, description, canonical, ogImage, datePublished, dateModified, bodyClass = 'article-page', structuredData = [], articleHtml, ogType = 'article', lang = defaultLang, alternates = []} = {}) {
   requireFields('articlePage', {title,description,canonical,ogImage,articleHtml});
+  articleHtml = ensureFestivalPlanning(articleHtml, canonical, lang);
   const pageVenue = clubGuideLinksFor(title);
   if (pageVenue && !articleHtml.includes('class="club-venue-planning"')) {
     const planning = clubVenuePlanningHtml(pageVenue);

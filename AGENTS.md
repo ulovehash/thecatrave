@@ -161,6 +161,10 @@ Every city, country, continent, worldwide or thematic club roundup must give rea
 - Never invent an accessibility, safety, crowd or door-policy claim. State `not confirmed` or omit the detail when reliable current evidence is unavailable.
 - Apply this rule to English articles and their German and French translations. Translated venue facts and links must remain equivalent to the approved English source.
 
+### Festival-guide practical information
+
+Every individual festival guide and available German or French translation carries one shared practical planner. It covers current ticket prices or an explicit unpublished status, named transport routes, accommodation or camping constraints, food and drink prices when published, a site-specific packing list, prohibited items, direct Google Maps and official links, and a visible last-checked date. Volatile facts belong in the page generator or `content/festival-planning-registry.mjs`; the reusable markup belongs in `festivalPlanningGuide()`. Festival roundup pages do not repeat the full planner and instead link readers to the relevant individual guides.
+
 ## 6. Listening examples and embeds
 
 - When a specific track is named as an example, embed the exact track directly in the article whenever a reliable embed exists.
