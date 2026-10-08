@@ -256,7 +256,6 @@ const articleHtml = [
 <li><a href="https://www.discogs.com" target="_blank" rel="noopener noreferrer">Discogs</a></li>
 <li><a href="https://rateyourmusic.com" target="_blank" rel="noopener noreferrer">RateYourMusic</a></li>
 <li><a href="https://www.albumoftheyear.org" target="_blank" rel="noopener noreferrer">Album of the Year</a></li>
-<li>Set counts and view figures are measured from this site's own catalogue of 62,877 recorded DJ sets across 37 channels, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

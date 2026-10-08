@@ -2,7 +2,7 @@
 
 ## Antwort
 
-Das Berghain ist ein Club in Berlin, in einem ehemaligen DDR-Heizkraftwerk am Wriezener Bahnhof in Friedrichshain. Seit 2004 ist es ein Club, betrieben von der Berghain OstGut GmbH. Im Hauptraum, der alten Maschinenhalle, läuft Techno, die Panorama Bar liegt darüber. Die Säule, der Garten, die Halle und die Kantine am Berghain ergänzen einen kleinen Floor, eine Open-Air-Fläche, Ausstellungen und Konzerte. Die lange Wochenendparty heißt Klubnacht und beginnt am Samstag um 23:59 Uhr. Am 4. Oktober 2026 nannte die offizielle Website als nächste die vom 10. Oktober, mit sieben DJs im Berghain und sieben in der Panorama Bar, darunter Ben Klock. Eintritt ab 18 Jahren. Einen Dresscode, Wartezeiten oder einen Klubnacht-Preis veröffentlicht die offizielle Website nicht, und diese Seite sagt das jedes Mal, statt zu raten. Alle Angaben unten wurden am 4. Oktober 2026 gelesen.
+Das Berghain ist ein Club in Berlin, in einem ehemaligen DDR-Heizkraftwerk am Wriezener Bahnhof in Friedrichshain. Seit 2004 ist es ein Club, betrieben von der Berghain OstGut GmbH. Im Hauptraum, der alten Maschinenhalle, läuft Techno, die Panorama Bar liegt darüber. Die Säule, der Garten, die Halle und die Kantine am Berghain ergänzen einen kleinen Floor, eine Open-Air-Fläche, Ausstellungen und Konzerte. Die lange Wochenendparty heißt Klubnacht und beginnt am Samstag um 23:59 Uhr. Am 4. Oktober 2026 nannte die offizielle Website als nächste die vom 10. Oktober, mit sieben DJs im Berghain und sieben in der Panorama Bar, darunter Ben Klock. Eintritt ab 18 Jahren. Einen Dresscode, Wartezeiten oder einen Klubnacht-Preis veröffentlicht die offizielle Website nicht.
 
 ## Einleitung
 
@@ -60,7 +60,7 @@ Die Berghain-Soundanlage ist die andere Hälfte dieses Rufs. Mixmag berichtete a
 
 [Embed: thecatrave mix 1]
 
-Um die DJs zu hören, die die Presse nennt, stehen unten Sets von Ben Klock, Len Faki, Prosumer und Tama Sumo. Sie heißen Boiler Room Berlin, und ich habe keine Quelle gefunden, die sagt, sie seien im Berghain aufgenommen worden. Sie zeigen also, wie diese DJs spielen, nicht, wie sich eine Nacht im Raum anhört.
+Um die DJs zu hören, die die Presse nennt, stehen unten Sets von Ben Klock, Len Faki, Prosumer und Tama Sumo. Diese Boiler-Room-Berlin-Aufnahmen zeigen, wie die DJs spielen; sie werden nicht als Aufnahmen aus dem Berghain präsentiert.
 
 [Embed: Residents]
 

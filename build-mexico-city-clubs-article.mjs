@@ -86,9 +86,9 @@ const media = {
     "A jacaranda-lined street in the Condesa neighbourhood of Mexico City",
     "A flowering jacaranda on a Condesa street. Fünk Club sits on the border of Condesa and Hipódromo. Photograph: Lazjak, CC BY-SA 4.0."),
   'Turbo Sonidero': video('it0w2zniMOI', 'Cumbia', 'Turbo Sonidero', 'Boiler Room SYSTEM CDMX: Sonidero Special, 2025',
-    "Turbo Sonidero's 2025 set for Boiler Room's SYSTEM series, a showcase for Mexico City's own sonidero sound-system tradition. From this site's catalogue of recorded DJ sets."),
+    "Turbo Sonidero's 2025 set for Boiler Room's SYSTEM series, a showcase for Mexico City's own sonidero sound-system tradition."),
   'Nic Fanciulli': video('j5hdgys4a-M', 'House', 'Nic Fanciulli', 'Boiler Room Mexico City, 2018',
-    "Nic Fanciulli's 2018 Boiler Room Mexico City set, still one of the platform's most watched broadcasts from the city. From this site's catalogue of recorded DJ sets."),
+    "Nic Fanciulli's 2018 Boiler Room Mexico City set, still one of the platform's most watched broadcasts from the city."),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [

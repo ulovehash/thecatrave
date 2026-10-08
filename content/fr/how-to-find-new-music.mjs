@@ -128,7 +128,6 @@ export default {
     {href: 'https://rateyourmusic.com', label: 'RateYourMusic (en anglais)'},
     {href: 'https://www.albumoftheyear.org', label: 'Album of the Year (en anglais)'}
   ],
-  sourcesNote: 'Les chiffres sur les sets et les vues viennent du catalogue de DJ sets enregistrés de ce site, sur 37 chaînes, à la date de septembre 2026.',
 
   bandcamp: {
     description: 'Si l’argument vous convainc d’acheter la musique auprès de ceux qui l’ont faite : la mienne est ici.',

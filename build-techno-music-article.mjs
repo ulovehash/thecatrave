@@ -89,13 +89,13 @@ const media = {
   'The Bells': video('S-BlgAQ7uRQ', 'Techno, 1996', 'Jeff Mills', 'The Bells',
     'Jeff Mills\'s record from 1996, on every list of techno classics.'),
   'Robert Hood Boiler Room': video('TaFJGvwaczU', 'Minimal techno', 'Robert Hood', 'DJ set, Boiler Room x Red Bull Music Academy, 2013',
-    'Robert Hood, the Underground Resistance member who started minimal techno. From this site\'s catalogue of recorded DJ sets.'),
+    'Robert Hood, the Underground Resistance member who started minimal techno.'),
   'Energy Flash': video('BDj73pGQ6pE', 'Techno, 1990', 'Joey Beltram', 'Energy Flash',
     'The New York producer\'s record for the Belgian label R&S, from 1990.'),
   'Sara Landry Boiler Room': video('EIQlDpgAY5Y', 'Hard techno', 'Sara Landry', 'Boiler Room x Teletech Festival, 2023',
     'The most-watched set tagged hard techno in this site\'s catalogue of recorded DJ sets.'),
   'Kevin Saunderson Boiler Room': video('gvvb-SNL9tM', 'Techno', 'Kevin Saunderson', 'DJ set, Boiler Room Chicago, 2014',
-    'Kevin Saunderson playing for Boiler Room in Chicago. From this site\'s catalogue of recorded DJ sets.'),
+    'Kevin Saunderson playing for Boiler Room in Chicago.'),
   'thecatrave mix': ownSetListening(1, 'en', 'My own mix, for after the history.'),
   'Table: styles': articleTable({
     headers: ['Style', 'Where and when', 'What it sounds like', 'Where to start'],
@@ -185,7 +185,6 @@ ${sourceLink('https://en.wikipedia.org/wiki/Underground_Resistance', 'Wikipedia:
 ${sourceLink('https://en.wikipedia.org/wiki/Robert_Hood', 'Wikipedia: Robert Hood')}
 ${sourceLink('https://en.wikipedia.org/wiki/Movement_Electronic_Music_Festival', 'Wikipedia: Movement Electronic Music Festival')}
 ${sourceLink('https://musicbrainz.org/release/d0a0ade7-14fb-4ff9-9ebb-44be77c5f579', 'MusicBrainz: Robert Hood, Minimal Nation (Axis, 1994)')}
-<li>Set counts are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -120,7 +120,6 @@ export default {
     {href: 'https://ra.co/news/85346', label: 'Resident Advisor: HÖR acquired by Berlin-based music services company 99Solutions'},
     {href: 'https://www.gl-systemhaus.de/en/blog/one-year-united-we-stream', label: 'One year of lockdown, one year of United We Stream'}
   ],
-  sourcesNote: 'Les nombres de sets, les années du premier upload et les nombres de vues sont mesurés dans le catalogue de ce site, soit 62 877 DJ sets enregistrés provenant des chaînes YouTube de 37 diffuseurs, en septembre 2026.',
 
   bandcamp: {
     description: 'La jungle passait à la radio pirate avant que quiconque filme un DJ. Voici les miens, du côté breaks et jungle. En acheter un soutient directement mon travail.',

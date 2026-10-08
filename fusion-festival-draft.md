@@ -2,13 +2,13 @@
 
 ## Answer
 
-Fusion Festival is a five-day arts and music festival held at a former Soviet military airfield in Lärz, Mecklenburg-Vorpommern, Germany, run by the non-profit Kulturkosmos Müritz. The 2026 edition ran from 24 to 28 June and sold out. According to the official pages read on 5 October 2026, 2027 is a Fusion-free year and the next edition is 28 June to 2 July 2028. Tickets are sold by lottery: you register in a set window, a draw decides who may buy, and the 2026 price was €220 including a €10 waste deposit. No 2028 ticket dates or prices were published on the pages read, so this page gives none. Entry is 18 and over.
+Fusion Festival is a five-day arts and music festival held at a former Soviet military airfield in Lärz, Mecklenburg-Vorpommern, Germany, run by the non-profit Kulturkosmos Müritz. The 2026 edition ran from 24 to 28 June and sold out. According to the official pages read on 5 October 2026, 2027 is a Fusion-free year and the next edition is 28 June to 2 July 2028. Tickets are sold by lottery: you register in a set window, a draw decides who may buy, and the 2026 price was €220 including a €10 waste deposit. The official pages listed no 2028 ticket dates or prices as of 5 October 2026. Entry is 18 and over.
 
 ## Introduction
 
 Fusion is hard to search for, because three years of questions overlap. People look for Fusion Festival 2026 because it just happened, for Fusion Festival 2027 because they assume a summer date, and for Fusion Festival 2028 because the organisers announced a gap. The short answer is that 2027 has no festival.
 
-This page covers what Fusion is, what happened in 2026, the 2027 gap and the 2028 dates, how the ticket lottery works, where Lärz is, how the police dispute of 2019 went, how big the festival is and how to get there. A different event with a similar name, Fusion Fest in South Bend, Indiana, turns up in the same search results. This page is about the German one. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
+This page covers what Fusion is, what happened in 2026, the 2027 gap and the 2028 dates, how the ticket lottery works, where Lärz is, how the police dispute of 2019 went, how big the festival is and how to get there. Fusion Fest in South Bend, Indiana, is a different event from the German festival. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
 
 ## What is Fusion Festival?
 
@@ -78,7 +78,7 @@ That ownership was briefly in question. On 28 November 2025 the organisers publi
 
 ### Fusion Festival capacity
 
-The Fusion Festival capacity is reported at about 70,000 visitors. That figure comes from the taz in May 2019 and from other press reports, not from an official statement on the pages read, so treat it as press reporting. Reports disagree on the site's area, with figures from 100 to 220 hectares in the sources found, so this page gives none.
+The Fusion Festival capacity is reported at about 70,000 visitors. That figure comes from the taz in May 2019 and from other press reports, not from an official statement on the pages read, so treat it as press reporting. Reports of the site’s area range from 100 to 220 hectares.
 
 ### Fusion Festival stages
 

@@ -98,7 +98,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 // are sets by DJs who held a 2026 night there, and the block says so.
 const residentSets = articleVideoCollection({
   label: 'Sets by 2026 Ushuaia residents',
-  description: 'None of these was filmed at Ushuaia. They are recorded sets from this site\'s catalogue by DJs who held a night there in 2026.',
+  description: 'None of these was filmed at Ushuaia. They feature DJs who held a night there in 2026.',
   items: [
     articleVideoCard({youtubeId: '9uKyeG-A26o', genre: 'Monday resident, 2023', artist: 'David Guetta', title: 'David Guetta Epic House Set From An Ibiza Villa'}),
     articleVideoCard({youtubeId: 'Jx3XjxUTmk0', genre: 'Opening party 2026 and 20 September, 2025', artist: 'HUGEL', title: 'HUGEL Latin House DJ Set Live From UNTOLD Festival'}),
@@ -152,7 +152,6 @@ const articleHtml = [
 <li>Calendar, closing parties, residencies, opening party, FAQ, VIP terms, address, hours, age, bags, photography and drink pack, read on 5 October 2026: ${ext('https://theushuaiaexperience.com/club/en', 'the official Ushuaïa Ibiza site')} (calendar, news and ${ext('https://theushuaiaexperience.com/club/en/faq', 'FAQ')}). The lineup article is dated 12 August 2026, the September guide 2 September 2026 and the opening-party article 26 March 2026.</li>
 <li>Ticket ranges, VIP ticket contents, bar prices, public transport and taxi figures: ${ext('https://www.clubtickets.com/clubbing/ushuaia-ibiza', 'Clubtickets')}, the club's named ticketing platform, read on 5 October 2026.</li>
 <li>Ownership, capacity, history, the 2019 opening party format, prices and dress code notes: Ibiza Spotlight, ${ext('https://www.ibiza-spotlight.com/magazine/2024/08/ibiza-virgins-guide-ushuaia', 'Insiders\' Guide')} (15 August 2024), read on 5 October 2026.</li>
-<li>Search demand: Google Ads Keyword Planner, United States, bucketed ranges, 5 October 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

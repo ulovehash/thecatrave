@@ -111,25 +111,25 @@ const tiestoFigure = articleFigure({
 // upload, checked by YouTube oEmbed on 2026-09-26 (media/trance.json).
 const arminListening = articleVideoCollection({
   label: 'Armin van Buuren live',
-  description: 'Armin van Buuren playing from Ushuaïa Ibiza for DJ Mag. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Armin van Buuren playing from Ushuaïa Ibiza for DJ Mag.',
   items: [articleVideoCard({youtubeId: 'z9KgKX4K3MM', genre: 'DJ MAG, 2025', artist: 'Armin van Buuren', title: 'Live From Ushuaïa Ibiza'})]
 });
 
 const vathListening = articleVideoCollection({
   label: 'Sven Väth live',
-  description: 'Sven Väth playing for Boiler Room x Eristoff\'s "Into The Dark" in Marseille. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Sven Väth playing for Boiler Room x Eristoff\'s "Into The Dark" in Marseille.',
   items: [articleVideoCard({youtubeId: 'nFS-qV6EuX0', genre: 'LIVE, 2018', artist: 'Sven Väth', title: 'Into The Dark, Marseille'})]
 });
 
 const vanDykListening = articleVideoCollection({
   label: 'Paul van Dyk live',
-  description: 'Paul van Dyk playing the Mixmag Lab in Amsterdam. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Paul van Dyk playing the Mixmag Lab in Amsterdam.',
   items: [articleVideoCard({youtubeId: 'cx5QQFnY7ic', genre: 'MIXMAG, 2025', artist: 'Paul van Dyk', title: 'Mixmag Lab Amsterdam'})]
 });
 
 const tiestoListening = articleVideoCollection({
   label: 'Tiësto live',
-  description: 'Tiësto playing a Beatport Live set for ReConnect. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Tiësto playing a Beatport Live set for ReConnect.',
   items: [articleVideoCard({youtubeId: 'sBaY_AF6zA0', genre: 'BEATPORT LIVE, 2020', artist: 'Tiësto', title: 'ReConnect'})]
 });
 
@@ -200,7 +200,6 @@ const articleHtml = [
 <li><a href="https://en.wikipedia.org/wiki/Platipus_Records" target="_blank" rel="noopener noreferrer">Wikipedia: Platipus Records</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Psychedelic_trance" target="_blank" rel="noopener noreferrer">Wikipedia: Psychedelic trance</a></li>
 <li><a href="https://djmag.com/djmag-top-100-djs" target="_blank" rel="noopener noreferrer">DJ Mag: Top 100 DJs</a></li>
-<li>Set counts and artist frequencies are measured from this site's own catalogue of 64,242 recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

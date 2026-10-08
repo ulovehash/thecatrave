@@ -6,11 +6,11 @@ The best winter music festivals for 2027 are Tomorrowland Winter and Snowbombing
 
 ## Introduction
 
-A winter festival is a different trip from a summer one. You are choosing a mountain resort, a cold waterfront or a city in January, and the music is one part of that choice. This page sorts the winter festivals by what they are for: the biggest names, the house and techno weeks on a mountain, and a short list that the electronic music press rates but few people search for.
+A winter festival is a different trip from a summer one. You are choosing a mountain resort, a cold waterfront or a city in January, and the music is one part of that choice. This page sorts the winter festivals by what they are for: the biggest names, the house and techno weeks on a mountain, and a short list recommended by the electronic music press.
 
 ## How this list was chosen
 
-A festival is on this list when it has electronic music at its core, runs between December and April, and has dates for its next edition. The first group is here because people search for it. The last group is here for a different reason: Resident Advisor, Pitchfork or The Quietus have covered it, and it has little search volume. A festival that could not be backed by an official page or a named review was cut.
+A festival is on this list when it has electronic music at its core, runs between December and April, and has dates for its next edition. The final group draws on coverage by Resident Advisor, Pitchfork and The Quietus.
 
 "Confirmed" means the festival's own site shows them. "Listed" means a ticket seller, a listing site or the promoter's social account shows them and the festival's own site was stale or unreachable when it was checked.
 
@@ -88,7 +88,7 @@ Shapes holds its festival in the Swiss resort of Leysin, and its own site gives 
 
 ![Twilight in Leysin, Switzerland](figure:leysin)
 
-## Which winter festivals does the scene rate but few people search for?
+## Which winter festivals does the specialist music press recommend?
 
 CTM, Elevate, Rise and Astropolis l'Hiver are the ones that the specialist press covers and the search tools hardly measure. You will not find them on a list of the best winter festivals by volume. They are here because the music press keeps coming back to them.
 
@@ -122,7 +122,7 @@ To hear what these crowds dance to, the [Selector](/selector) plays a DJ set at 
 
 ### What are the best winter music festivals?
 
-For the biggest names, Tomorrowland Winter, Snowbombing, Igloofest and Snow Machine. For house and techno on a mountain, Shapes, Caprices and Hibernation. For a festival the specialist press rates and few people search for, CTM, Elevate and Rise.
+For the biggest names, Tomorrowland Winter, Snowbombing, Igloofest and Snow Machine. For house and techno on a mountain, Shapes, Caprices and Hibernation. For festivals recommended by the specialist press, CTM, Elevate and Rise.
 
 ### Are there winter festivals in Europe for electronic music?
 

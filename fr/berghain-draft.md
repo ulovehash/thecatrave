@@ -2,7 +2,7 @@
 
 ## Réponse
 
-Le Berghain est un club de Berlin installé dans une ancienne centrale thermique est-allemande, Am Wriezener Bahnhof, à Friedrichshain. C’est un club depuis 2004, exploité par la Berghain OstGut GmbH. La grande salle, l’ancienne salle des machines, accueille la techno, et le Panorama Bar se trouve à l’étage. La Säule, le jardin, la Halle et la Kantine am Berghain ajoutent un petit floor, un espace en plein air, des expositions et des concerts. La longue soirée du week-end s’appelle Klubnacht et commence le samedi à 23 h 59. Le 4 octobre 2026, le site officiel annonçait la suivante pour le 10 octobre, avec sept DJ au Berghain et sept au Panorama Bar, dont Ben Klock. L’entrée est réservée aux plus de 18 ans. Le site officiel ne publie ni dress code, ni temps d’attente, ni prix de la Klubnacht, et cette page le dit à chaque fois au lieu de deviner. Tout ce qui suit a été lu le 4 octobre 2026.
+Le Berghain est un club de Berlin installé dans une ancienne centrale thermique est-allemande, Am Wriezener Bahnhof, à Friedrichshain. C’est un club depuis 2004, exploité par la Berghain OstGut GmbH. La grande salle, l’ancienne salle des machines, accueille la techno, et le Panorama Bar se trouve à l’étage. La Säule, le jardin, la Halle et la Kantine am Berghain ajoutent un petit floor, un espace en plein air, des expositions et des concerts. La longue soirée du week-end s’appelle Klubnacht et commence le samedi à 23 h 59. Le 4 octobre 2026, le site officiel annonçait la suivante pour le 10 octobre, avec sept DJ au Berghain et sept au Panorama Bar, dont Ben Klock. L’entrée est réservée aux plus de 18 ans. Le site officiel ne publie ni dress code, ni temps d’attente, ni prix de la Klubnacht.
 
 ## Introduction
 
@@ -60,7 +60,7 @@ Le système son du Berghain est l’autre moitié de cette réputation. Mixmag a
 
 [Embed: thecatrave mix 1]
 
-Pour entendre les DJ que nomme la presse, les sets ci-dessous sont signés Ben Klock, Len Faki, Prosumer et Tama Sumo. Ils s’intitulent Boiler Room Berlin, et je n’ai trouvé aucune source disant qu’ils ont été enregistrés au Berghain : ils montrent comment ces DJ jouent, pas ce qu’une soirée sonne dans la salle.
+Pour entendre les DJ que nomme la presse, les sets ci-dessous sont signés Ben Klock, Len Faki, Prosumer et Tama Sumo. Ces enregistrements de Boiler Room Berlin montrent comment les DJ jouent ; ils ne sont pas présentés comme des enregistrements réalisés au Berghain.
 
 [Embed: Residents]
 

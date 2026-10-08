@@ -18,7 +18,7 @@ Its programme mixes concerts and club nights, and Ellen Allien and Jeff Mills ar
 
 ## Vienna techno clubs: Grelle Forelle and Das Werk
 
-Two of the clubs people search for as Vienna techno clubs are on the same street, the Spittelauer Lände, by the Donaukanal.
+Two of Vienna’s techno clubs are on the same street, the Spittelauer Lände, by the Donaukanal.
 
 Grelle Forelle opened in December 2011 at Spittelauer Lände 12 and runs on two floors, the Kitchenfloor and the Clubfloor, with a Lambda Labs sound system. Its own site sets the rules before anything else: guests must be 21 or over, and photos, video and audio recording are strictly banned. Capacity figures for the club disagree between sources, so none is given here.
 

@@ -87,7 +87,7 @@ The Pacha Ibiza closing party is not one night. In 2026 it was a run of eight, w
 
 ### Pacha Ibiza DJs
 
-The Pacha Ibiza DJs in the table are the ones the club listed on 4 October 2026, and they are only the closing week. For the sound of the room, three sets from the catalogue were filmed at the club. DJ Mag filmed the Vagabundos opening party at Pacha in 2016. Mixmag filmed Sven Väth's Cocoon night at Pacha in 2018, and Solomun with Andhim at Pacha in 2014.
+The Pacha Ibiza DJs in the table are the ones the club listed on 4 October 2026, and they are only the closing week. For the sound of the room, the three sets below were filmed at the club. DJ Mag filmed the Vagabundos opening party at Pacha in 2016. Mixmag filmed Sven Väth's Cocoon night at Pacha in 2018, and Solomun with Andhim at Pacha in 2014.
 
 ## Pacha Ibiza VIP and table
 

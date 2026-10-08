@@ -253,7 +253,6 @@ const articleHtml = [
 <li><a href="https://www.setlist.fm/setlist/underworld/2025/burgess-park-london-england-6b5812da.html" target="_blank" rel="noopener noreferrer">setlist.fm: Underworld at Burgess Park, 2 August 2025</a></li>
 <li><a href="https://sonicstate.com/news/2022/08/11/fred-again-hybrid-set-for-boiler-room/" target="_blank" rel="noopener noreferrer">Sonicstate: Fred again.. hybrid set for Boiler Room</a></li>
 <li><a href="https://whynow.co.uk/read/best-boiler-room-sets" target="_blank" rel="noopener noreferrer">whynow: We rank the 10 best Boiler Room sets of all time</a></li>
-<li>View counts, like counts, set lengths and like rates are measured from this site's own catalogue of 62,877 recorded DJ sets, 8,206 of them Boiler Room's, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

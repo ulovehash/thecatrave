@@ -2,7 +2,7 @@
 
 ## Answer
 
-Berghain is a Berlin club in a former East German power station on Am Wriezener Bahnhof in Friedrichshain, open as a club since 2004 and run by Berghain OstGut GmbH. The main floor sits in the old machine hall, Panorama Bar is upstairs, and Säule, the garden, the Halle and the Kantine am Berghain add a small floor, an open-air floor, exhibitions and concerts. The long weekend party is called Klubnacht and starts at 23:59 on Saturday. On 4 October 2026 the official site listed the next one for 10 October with seven DJs on the Berghain floor and seven in Panorama Bar, Ben Klock among them. Entry is 18 and over. The official site publishes no dress code, no queue times and no Klubnacht price, and the page says so each time instead of guessing. Every fact below was read on 4 October 2026.
+Berghain is a Berlin club in a former East German power station on Am Wriezener Bahnhof in Friedrichshain, open as a club since 2004 and run by Berghain OstGut GmbH. The main floor sits in the old machine hall, Panorama Bar is upstairs, and Säule, the garden, the Halle and the Kantine am Berghain add a small floor, an open-air floor, exhibitions and concerts. The long weekend party is called Klubnacht and starts at 23:59 on Saturday. On 4 October 2026 the official site listed the next one for 10 October with seven DJs on the Berghain floor and seven in Panorama Bar, Ben Klock among them. Entry is 18 and over. The official site publishes no dress code, no queue times and no Klubnacht price.
 
 ## Introduction
 
@@ -64,7 +64,7 @@ The Berghain sound system is the other half of that reputation. Mixmag reported 
 
 [Listen: own mix](listen:1)
 
-To hear the DJs the press names, the sets below are by Ben Klock, Len Faki, Prosumer and Tama Sumo. They are titled Boiler Room Berlin, and I found no source saying they were recorded at Berghain, so they show how these DJs play, not what a night sounds like in the room.
+To hear the DJs the press names, the sets below are by Ben Klock, Len Faki, Prosumer and Tama Sumo. These Boiler Room Berlin recordings show how the DJs play; they are not presented as recordings from Berghain.
 
 The label that grew out of the club is Ostgut Ton, linked from the official site. Its dates differ by source: Crack says the label began in 2005 and released its first vinyl in 2006, while Groove dates the first release to 2003. Resident Advisor reported in 2010 that Ben Klock had mixed Berghain 04, the next release in the label's mix series, which also has a Panorama Bar side.
 

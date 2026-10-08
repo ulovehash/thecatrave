@@ -109,7 +109,7 @@ const acidTracksListening = articleVideoCollection({
 
 const phutureSet = articleVideoCollection({
   label: 'Phuture live',
-  description: 'Phuture playing live for Boiler Room in Chicago in 2014. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Phuture playing live for Boiler Room in Chicago in 2014.',
   items: [articleVideoCard({youtubeId: '05oNuVLYFgw', genre: 'LIVE, 2014', artist: 'Phuture', title: 'Boiler Room Chicago'})]
 });
 
@@ -154,7 +154,7 @@ const hardfloorListening = articleVideoCollection({
 
 const geraldSet = articleVideoCollection({
   label: 'A Guy Called Gerald live',
-  description: 'Gerald playing machines live for Boiler Room in 2013. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Gerald playing machines live for Boiler Room in 2013.',
   items: [articleVideoCard({youtubeId: 'zhr0_fadXxY', genre: 'LIVE, 2013', artist: 'A Guy Called Gerald', title: 'Boiler Room'})]
 });
 
@@ -222,7 +222,6 @@ const articleHtml = [
 <li><a href="https://en.wikipedia.org/wiki/We_Call_It_Acieed" target="_blank" rel="noopener noreferrer">Wikipedia: We Call It Acieed</a></li>
 <li><a href="https://www.vice.com/en/article/history-smiley-face-acid-house-rave-culture/" target="_blank" rel="noopener noreferrer">Vice: A brief history of the smiley face, rave culture's most ubiquitous symbol</a></li>
 <li><a href="https://mixmag.net/feature/the-history-of-acid-house-in-100-tracks" target="_blank" rel="noopener noreferrer">Mixmag: The history of acid house in 100 tracks</a></li>
-<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,824 recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

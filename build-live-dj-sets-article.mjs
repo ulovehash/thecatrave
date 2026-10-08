@@ -261,7 +261,6 @@ const articleHtml = [
 <li><a href="https://www.adam-audio.com/blog/hoer-berlin/" target="_blank" rel="noopener noreferrer">ADAM Audio: HÖR Berlin</a></li>
 <li><a href="https://ra.co/news/85346" target="_blank" rel="noopener noreferrer">Resident Advisor: HÖR acquired by Berlin-based music services company 99Solutions</a></li>
 <li><a href="https://www.gl-systemhaus.de/en/blog/one-year-united-we-stream" target="_blank" rel="noopener noreferrer">One year of lockdown, one year of United We Stream</a></li>
-<li>Set counts, first-upload years and view counts are measured from this site's own catalogue of 62,877 recorded DJ sets from 37 broadcasters' YouTube channels, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

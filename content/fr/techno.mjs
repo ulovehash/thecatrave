@@ -90,13 +90,13 @@ export default {
     'Embed: The Bells': video(lang, 'S-BlgAQ7uRQ', 'Techno, 1996', 'Jeff Mills', 'The Bells',
       'Le disque de Jeff Mills de 1996, sur toutes les listes de classiques de la techno.'),
     'Embed: Robert Hood Boiler Room': video(lang, 'TaFJGvwaczU', 'Techno minimale', 'Robert Hood', 'DJ set, Boiler Room x Red Bull Music Academy, 2013',
-      'Robert Hood, le membre d’Underground Resistance qui a lancé la minimal techno. Issu du catalogue de sets DJ enregistrés de ce site.'),
+      'Robert Hood, le membre d’Underground Resistance qui a lancé la minimal techno.'),
     'Embed: Energy Flash': video(lang, 'BDj73pGQ6pE', 'Techno, 1990', 'Joey Beltram', 'Energy Flash',
       'Le disque du producteur new-yorkais pour le label belge R&S, de 1990.'),
     'Embed: Sara Landry Boiler Room': video(lang, 'EIQlDpgAY5Y', 'Hard techno', 'Sara Landry', 'Boiler Room x Teletech Festival, 2023',
       'Le set le plus regardé portant l’étiquette hard techno dans le catalogue de sets DJ enregistrés de ce site.'),
     'Embed: Kevin Saunderson Boiler Room': video(lang, 'gvvb-SNL9tM', 'Techno', 'Kevin Saunderson', 'DJ set, Boiler Room Chicago, 2014',
-      'Kevin Saunderson joue pour Boiler Room à Chicago. Issu du catalogue de sets DJ enregistrés de ce site.'),
+      'Kevin Saunderson joue pour Boiler Room à Chicago.'),
     'thecatrave mix': ownSetListening(1, lang, 'Mon propre mix, pour après l’histoire.'),
     'Table: Styles': articleTable({
       headers: ['Style', 'Où et quand', 'Comment il sonne', 'Un disque pour commencer'],
@@ -134,7 +134,6 @@ export default {
     {href: 'https://en.wikipedia.org/wiki/Movement_Electronic_Music_Festival', label: 'Wikipédia : Movement Electronic Music Festival (en anglais)'},
     {href: 'https://musicbrainz.org/release/d0a0ade7-14fb-4ff9-9ebb-44be77c5f579', label: 'MusicBrainz : Robert Hood, Minimal Nation (Axis, 1994) (en anglais)'}
   ],
-  sourcesNote: 'Le nombre de sets provient du catalogue de sets DJ enregistrés de ce site, en septembre 2026.',
 
   bandcamp: {
     description: 'Deux de mes propres morceaux. En acheter un soutient directement mon travail.',

@@ -43,11 +43,11 @@ Ten people were charged. The criminal trial opened in 2017 and ended in May 2020
 
 ### Why was Love Parade cancelled?
 
-There are two answers, years apart. The Love Parade lost its demonstration status in 2001 and was cancelled in 2004 and 2005, then revived under new ownership. The final end came after Duisburg: on 25 July 2010, Rainer Schaller said "It's all over for the Love Parade." People who search why was Love Parade cancelled usually mean that one.
+There are two answers, years apart. The Love Parade lost its demonstration status in 2001 and was cancelled in 2004 and 2005, then revived under new ownership. The final end came after Duisburg: on 25 July 2010, Rainer Schaller said "It's all over for the Love Parade."
 
 ## Is the Love Parade still happening?
 
-No. The Love Parade ended in 2010, and its organiser said it would not take place again. People who search for the Love Parade 2026 or the Love Parade Berlin 2026 find Rave the Planet, a separate organisation with a different name that holds a parade in the same city. A Love Parade 2027 does not exist either. Rave the Planet plans its next parade for Saturday 10 July 2027, subject to final confirmation, and the Street Parade in Zurich is on 14 August 2027.
+No. The Love Parade ended in 2010, and its organiser said it would not take place again. Rave the Planet is a separate organisation that holds a parade in Berlin. A Love Parade 2027 does not exist either. Rave the Planet plans its next parade for Saturday 10 July 2027, subject to final confirmation, and the Street Parade in Zurich is on 14 August 2027.
 
 ## What is Rave the Planet?
 
@@ -73,7 +73,7 @@ The Street Parade drew about 900,000 people in 2025, according to its organisers
 
 ## Which Berlin sets should you hear first?
 
-None of the sets in this site's catalogue was recorded at the Love Parade, so none is presented as a Love Parade appearance. Three are from the same techno city: Sven Väth for Boiler Room Berlin, DJ Hell for Boiler Room Berlin and Ellen Allien for HÖR Berlin.
+These are Berlin recordings, not Love Parade appearances: Sven Väth for Boiler Room Berlin, DJ Hell for Boiler Room Berlin and Ellen Allien for HÖR Berlin.
 
 For the music behind the parade, see the [German electronic music guide](/german-electronic-music) and the [techno guide](/techno-music-guide). To hear a DJ set you have not chosen, the [Selector](/selector) plays one at random.
 
@@ -83,9 +83,9 @@ For the music behind the parade, see the [German electronic music guide](/german
 
 It was cancelled in 2004 and 2005 after losing its demonstration status, and it ended for good after the Duisburg crowd crush on 24 July 2010, in which 21 people died. On 25 July 2010 the organiser Rainer Schaller declared it over.
 
-### Is the Love Parade coming back in 2026?
+### Love Parade 2026: is it coming back?
 
-No. The organiser said it would not take place again. The Berlin parade that carries on the idea is Rave the Planet, held on 15 August 2026, with the next planned for Saturday 10 July 2027, subject to confirmation.
+There is no Love Parade Berlin 2026 edition. The organiser said it would not take place again. The Berlin parade that carries on the idea is Rave the Planet, held on 15 August 2026, with the next planned for Saturday 10 July 2027, subject to confirmation.
 
 ### Is the Love Parade still happening?
 

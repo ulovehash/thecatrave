@@ -57,8 +57,8 @@ export default {
       'Le bar en sous-sol du Cross Club, photographié en 2012. Le club a ouvert en 2002 et a été bâti avec des matériaux de décharge plutôt que d’après un cahier des charges de designer. Photo : -crosspraha-, CC BY-SA 4.0.'),
     'Wenceslas Square': figure('wenceslas-square', 1200, 750, 'Le Musée national en haut de la place Venceslas à Prague',
       'La place Venceslas, près du Musée national. Le Duplex et plusieurs clubs touristiques de Prague sont à quelques minutes à pied d’ici. Photo : Muselsom, CC BY-SA 4.0.'),
-    'Fatty M': articleVideoCollection({lang, label: 'Fatty M, Boiler Room Prague, 2018', description: 'Fatty M lors de la première diffusion de Boiler Room en République tchèque, en décembre 2018. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: 'WY_Th5nrI90', genre: 'Electronic', artist: 'Fatty M', title: 'Boiler Room Prague, 2018'})]}),
-    'Eva Porating': articleVideoCollection({lang, label: 'Eva Porating, Boiler Room Prague, 2018', description: 'Eva Porating dans la même diffusion Boiler Room Prague de décembre 2018 que Fatty M. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: '6od6a-eiLUs', genre: 'Electronic', artist: 'Eva Porating', title: 'Boiler Room Prague, 2018'})]}),
+    'Fatty M': articleVideoCollection({lang, label: 'Fatty M, Boiler Room Prague, 2018', description: 'Fatty M lors de la première diffusion de Boiler Room en République tchèque, en décembre 2018.', items: [articleVideoCard({youtubeId: 'WY_Th5nrI90', genre: 'Electronic', artist: 'Fatty M', title: 'Boiler Room Prague, 2018'})]}),
+    'Eva Porating': articleVideoCollection({lang, label: 'Eva Porating, Boiler Room Prague, 2018', description: 'Eva Porating dans la même diffusion Boiler Room Prague de décembre 2018 que Fatty M.', items: [articleVideoCard({youtubeId: '6od6a-eiLUs', genre: 'Electronic', artist: 'Eva Porating', title: 'Boiler Room Prague, 2018'})]}),
     'Table: now': articleTable({
       headers: ['Club', 'Quartier', 'Musique et caractère', 'Idéal pour'],
       rows: [

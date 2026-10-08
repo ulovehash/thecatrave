@@ -61,8 +61,8 @@ export default {
       'Der Eingang des WOMB in Shibuya, fotografiert 2023. Der Club läuft seit April 2000 an dieser Adresse. Foto: Dick Thomas Johnson, CC BY 2.0.'),
     'Dogenzaka': figure('dogenzaka-shibuya', 1200, 900, 'Die Dogenzaka bei Nacht, die steile Straße gesäumt von beleuchteten Schildern für Clubs, Bars und Karaoke-Boxen',
       'Die Dogenzaka in Shibuya, nachts fotografiert 2024. Die meisten Clubs dieses Guides liegen an oder nahe dieser Straße. Foto: Freddickfix, CC BY 4.0.'),
-    'Chida': articleVideoCollection({lang, label: 'Chida, Boiler Room Tokyo, 2014', description: 'Chidas Set aus der allerersten Boiler-Room-Übertragung in Tokio im Juni 2014, neben Force of Nature und Monkey Timers. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: 'E2mThQ-g-24', genre: 'House', artist: 'Chida', title: 'Boiler Room Tokyo, 2014'})]}),
-    'Wata Igarashi': articleVideoCollection({lang, label: 'Wata Igarashi, Boiler Room Tokyo x TDME, 2016', description: 'Wata Igarashi beim Boiler-Room-Showcase Tokyo x TDME in Shibuya im Dezember 2016. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: 'S0yP6ZOl4z0', genre: 'Techno', artist: 'Wata Igarashi', title: 'Boiler Room Tokyo x TDME, 2016'})]}),
+    'Chida': articleVideoCollection({lang, label: 'Chida, Boiler Room Tokyo, 2014', description: 'Chidas Set aus der allerersten Boiler-Room-Übertragung in Tokio im Juni 2014, neben Force of Nature und Monkey Timers.', items: [articleVideoCard({youtubeId: 'E2mThQ-g-24', genre: 'House', artist: 'Chida', title: 'Boiler Room Tokyo, 2014'})]}),
+    'Wata Igarashi': articleVideoCollection({lang, label: 'Wata Igarashi, Boiler Room Tokyo x TDME, 2016', description: 'Wata Igarashi beim Boiler-Room-Showcase Tokyo x TDME in Shibuya im Dezember 2016.', items: [articleVideoCard({youtubeId: 'S0yP6ZOl4z0', genre: 'Techno', artist: 'Wata Igarashi', title: 'Boiler Room Tokyo x TDME, 2016'})]}),
     'Tabelle: now': articleTable({
       headers: ['Club', 'Gegend', 'Musik und Charakter', 'Am besten für'],
       rows: [

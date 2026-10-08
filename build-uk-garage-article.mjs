@@ -298,7 +298,6 @@ const articleHtml = [
 <li><a href="https://en.wikipedia.org/wiki/Re-Rewind" target="_blank" rel="noopener noreferrer">Wikipedia: Re-Rewind</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Heartbroken_(T2_song)" target="_blank" rel="noopener noreferrer">Wikipedia: Heartbroken</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Paradise_Garage" target="_blank" rel="noopener noreferrer">Wikipedia: Paradise Garage</a></li>
-<li>Set counts, artist frequencies and view figures are measured from this site's own catalogue of 62,877 recorded DJ sets across 37 channels, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

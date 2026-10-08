@@ -84,9 +84,9 @@ const media = {
     'The National Museum at the top of Wenceslas Square in Prague',
     "Wenceslas Square, near the National Museum. Duplex and several of Prague's tourist-facing clubs sit within a few minutes' walk of here. Photograph: Muselsom, CC BY-SA 4.0."),
   'Fatty M': video('WY_Th5nrI90', 'Electronic', 'Fatty M', 'Boiler Room Prague, 2018',
-    "Fatty M playing Boiler Room's first Czech Republic broadcast in December 2018. From this site's catalogue of recorded DJ sets."),
+    "Fatty M playing Boiler Room's first Czech Republic broadcast in December 2018."),
   'Eva Porating': video('6od6a-eiLUs', 'Electronic', 'Eva Porating', 'Boiler Room Prague, 2018',
-    "Eva Porating on the same December 2018 Boiler Room Prague broadcast as Fatty M. From this site's catalogue of recorded DJ sets."),
+    "Eva Porating on the same December 2018 Boiler Room Prague broadcast as Fatty M."),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [
@@ -157,7 +157,6 @@ ${sourceLink('https://djmag.com/top100clubs/2025/41/duplex', 'DJ Mag: Top 100 Cl
 ${sourceLink('https://mixmag.net/read/edge-closure-prague-club-ankali-urges-support-secure-future-news', "Mixmag: Prague club Ankali urges support to secure its future (2025)")}
 ${sourceLink('https://ra.co/news/82717', 'Resident Advisor: Prague club Ankali at risk of closure (2025)')}
 ${sourceLink('https://boilerroom.tv/session/boiler-room-prague/', 'Boiler Room: Boiler Room Prague (2018)')}
-<li>Set counts and catalogue details are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

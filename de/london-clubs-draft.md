@@ -8,7 +8,7 @@ Die Clubs in London, die die Musik gemacht haben, sind Heaven, Shoom, der Blue N
 
 Dieser Guide wählt Clubs in London nach einem einzigen Test aus: was in dem Raum lief und was daraus hervorging. Nicht der Eintrittspreis und nicht der Tischservice. Die meisten Räume, die London Acid House, Jungle, UK Garage und Dubstep gegeben haben, sind geschlossen, deshalb kommt die Geschichte zuerst. Die Clubs, die heute ein Wochenende wert sind, folgen danach, in einer Tabelle.
 
-In jeder Suche nach den besten Nachtclubs in London steckt noch ein anderes London. Cirque le Soir, der Cuckoo Club, Dear Darling, The Box in Soho und der Members' Club Home House verkaufen Tische, Flaschen und einen Platz auf der Gästeliste. Die Gästelisten-Seiten, die über dieser Seite ranken, erledigen diese Aufgabe besser, als es ein Musik-Guide könnte, und um diese Räume geht es hier nicht. Es geht um die, in denen die Musik der Sinn der Sache war.
+In jeder Suche nach den besten Nachtclubs in London steckt noch ein anderes London. Cirque le Soir, der Cuckoo Club, Dear Darling, The Box in Soho und der Members' Club Home House verkaufen Tische, Flaschen und einen Platz auf der Gästeliste. Dieser Guide konzentriert sich auf Clubs, die für ihre Musik bekannt sind.
 
 
 ## Vor Acid House: Soundsysteme, der Blitz und Heaven
@@ -87,7 +87,7 @@ Plastic People begann in Soho, wo auch Trash zuerst lief, und zog in die Curtain
 
 ## Die besten Clubs in London heute
 
-Drei Listen, die die Clubs Londons besprechen, wurden für diese Seite im September 2026 gelesen: die von Resident Advisor, die von Time Out (aktualisiert am 29. Juli 2026) und die von Condé Nast Traveller. fabric, The Cause und FOLD stehen auf allen dreien. Die Tabelle unten behält die Clubs, die mindestens eine davon nennt und die der Rest der Recherche stützt, von der Suchnachfrage bis zur eigenen Geschichte der Clubs.
+Drei Londoner Club-Guides bieten einen Vergleich: die von Resident Advisor, die von Time Out (aktualisiert am 29. Juli 2026) und die von Condé Nast Traveller. fabric, The Cause und FOLD stehen auf allen dreien. Die Tabelle vergleicht die Clubs, die mindestens einer dieser Guides nennt.
 
 Zwei berühmte London-Clubs fehlen darin mit Absicht. Corsica Studios, zwei Räume in Eisenbahnbögen in Elephant and Castle seit 2002, mit einem Funktion-One-System ab 2007, kündigte im September 2025 an, 2026 in der bisherigen Form zu schließen, und Resident Advisor verzeichnet die letzte Nacht am 28. März. Printworks, die ehemalige Zeitungsdruckerei in Rotherhithe, schloss 2023 für eine Neubebauung; ihre Press Halls sollen 2026 als Veranstaltungsort wieder öffnen.
 
@@ -115,7 +115,7 @@ Für etwas, das man nicht selbst ausgesucht hat, spielt der [Selector](/selector
 
 ### Was ist der beliebteste Nachtclub in London?
 
-Nach Suchanfragen Ministry of Sound: rund 7.100 im Monat im Vereinigten Königreich, gegenüber 5.900 für fabric (Ahrefs, September 2026). Nach den Listen, die Clubs besprechen, gibt es keinen einzelnen Sieger: fabric, The Cause und FOLD stehen auf allen Listen, die dieser Guide gelesen hat.
+Nach den Listen, die Clubs besprechen, gibt es keinen einzelnen Sieger: fabric, The Cause und FOLD stehen auf allen drei Listen.
 
 ### Wo geht man in London am besten feiern?
 

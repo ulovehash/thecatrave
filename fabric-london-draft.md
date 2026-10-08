@@ -26,7 +26,7 @@ The club also runs record labels (fabric Records, fabric Originals and Houndstoo
 
 ## Tickets
 
-fabric London tickets are sold through Resident Advisor, which the club's site links to from its listings and its Buy Tickets button. This page quotes no prices. The club's own site does not publish them, and the Resident Advisor listing could not be read when this page was written. Prices are set per night, so check the listing for the event you want.
+fabric London tickets are sold through Resident Advisor, which the club's site links to from its listings and its Buy Tickets button. Prices are set per night, so check the listing for the event you want.
 
 | Route | What the club's FAQ says |
 |---|---|

@@ -71,13 +71,13 @@ const media = {
     'A floating building moored along the Savski kej embankment on the Sava in Belgrade',
     'A moored floating building on the Savski kej, photographed in April 2011, before the 2023 and 2024 clearances. Photograph: darkobajic, CC BY 3.0.'),
   'Marko Nastic': video('Yr1MNU8V-2w', 'Techno', 'Marko Nastić', 'MAD in Belgrade x Boiler Room, 2014',
-    "Marko Nastić playing Boiler Room's stage at the MAD in Belgrade festival in May 2014. From this site's catalogue of recorded DJ sets."),
+    "Marko Nastić playing Boiler Room's stage at the MAD in Belgrade festival in May 2014."),
   'Ancient Methods': video('14ksGZfcgHM', 'Techno', 'Ancient Methods', 'Boiler Room x Belgrade: Drugstore, 2019',
-    "Ancient Methods at Drugstore in 2019, under Boiler Room's own title for the session. From this site's catalogue of recorded DJ sets."),
+    "Ancient Methods at Drugstore in 2019, under Boiler Room's own title for the session."),
   'Tijana T': video('xjO25HRDe-w', 'Techno', 'Tijana T', 'Boiler Room Belgrade at Klub 20/44, 2017',
-    "Tijana T on the deck of the Klub 20/44 boat for Boiler Room in September 2017. From this site's catalogue of recorded DJ sets."),
+    "Tijana T on the deck of the Klub 20/44 boat for Boiler Room in September 2017."),
   '33.10.3402': video('rJqr7_Q2uxE', 'Techno', '33.10.3402', 'Boiler Room Belgrade: Drugstore, 2019',
-    "33.10.3402 playing Drugstore's first Boiler Room session in March 2019. From this site's catalogue of recorded DJ sets."),
+    "33.10.3402 playing Drugstore's first Boiler Room session in March 2019."),
   'Table: now': articleTable({
     headers: ['Club', 'Where', 'Character', 'Open (per local guides, 2026)'],
     rows: [

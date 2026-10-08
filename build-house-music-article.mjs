@@ -97,7 +97,7 @@ const media = {
   'One More Time': video('FGBhQbmPwH8', 'French house, 2000', 'Daft Punk', 'One More Time',
     'Daft Punk\'s French house single from November 2000, on the duo\'s own channel.'),
   'Black Coffee Cercle': video('SGqg_ZzThDU', 'Afro house', 'Black Coffee', 'Salle Wagram, Paris, for Cercle',
-    'Black Coffee playing for Cercle in Paris. From this site\'s catalogue of recorded DJ sets.'),
+    'Black Coffee playing for Cercle in Paris.'),
   'thecatrave mix': ownSetListening(0, 'en', 'Thirty tracks moving between garage, bass music, techno and rave. My own mix.'),
   'Table: subgenres': articleTable({
     headers: ['Style', 'Where and when', 'What it sounds like', 'A record to start with'],
@@ -187,7 +187,6 @@ ${sourceLink('https://en.wikipedia.org/wiki/Jack_Your_Body', 'Wikipedia: Jack Yo
 ${sourceLink('https://en.wikipedia.org/wiki/Paradise_Garage', 'Wikipedia: Paradise Garage')}
 ${sourceLink('https://djmag.com/features/all-night-long-40-essential-tracks-40-years-of-house-music', 'DJ Mag: 40 essential tracks from 40 years of house music (2024)')}
 ${sourceLink('https://splice.com/blog/what-is-house-music/', 'Splice: What is house music? History, artists and subgenres')}
-<li>Set counts are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -127,7 +127,7 @@ const producersListening = articleVideoCollection({
 
 const rinseSet = articleVideoCollection({
   label: 'Grime on the radio',
-  description: 'The format grime grew up in, filmed: a Rinse FM grime show in 2014, with P Money, D Double E, Big Narstie and Jammer passing the microphone. From this site\'s catalogue of recorded DJ sets.',
+  description: 'The format grime grew up in, filmed: a Rinse FM grime show in 2014, with P Money, D Double E, Big Narstie and Jammer passing the microphone.',
   items: [articleVideoCard({youtubeId: '1wk3uOxQ5F4', genre: 'RADIO, 2014', artist: 'Rinse FM', title: 'P Money, D Double E, Big Narstie and Jammer'})]
 });
 
@@ -164,7 +164,7 @@ const returnListening = articleVideoCollection({
 
 const anniversarySet = articleVideoCollection({
   label: 'Twenty years on',
-  description: 'Rinse FM marking twenty years of Boy in da Corner in 2023, with Dizzee Rascal, JME, P Money, Jammer and Kruz Leone. From this site\'s catalogue of recorded DJ sets.',
+  description: 'Rinse FM marking twenty years of Boy in da Corner in 2023, with Dizzee Rascal, JME, P Money, Jammer and Kruz Leone.',
   items: [articleVideoCard({youtubeId: 'vuh71pbNFC8', genre: 'RADIO, 2023', artist: 'Rinse FM', title: '20 years of Boy in da Corner'})]
 });
 
@@ -235,7 +235,6 @@ const articleHtml = [
 <li><a href="https://ra.co/news/40408" target="_blank" rel="noopener noreferrer">Resident Advisor: Form 696 scrapped by London's Metropolitan Police (2017)</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Konnichiwa_(Skepta_album)" target="_blank" rel="noopener noreferrer">Wikipedia: Konnichiwa (Skepta album)</a></li>
 <li><a href="https://djmag.com/news/grammys-2024-skrillex-flowdan-fred-agains-rumble-wins-best-danceelectronic-recording" target="_blank" rel="noopener noreferrer">DJ Mag: Rumble wins Best Dance/Electronic Recording at the 2024 Grammys</a></li>
-<li>Set counts and artist frequencies are measured from this site's own catalogue of 62,824 recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -48,7 +48,7 @@ The official site lists these Time Warp editions.
 | Time Warp New York | Duggal Greenhouse and Agger Building, New York City | 20 and 21 November 2026 | Upcoming, labelled Save the Date |
 | Time Warp Los Angeles | ACE*Mission, Los Angeles | 27 and 28 November 2026 | Upcoming, tickets on sale |
 
-Time Warp NYC is the name many people search for, and the festival itself uses Time Warp New York in 2026 and Time Warp USA in earlier years. The history lists New York editions in 2014, 2015, 2019 and every year from 2021 to 2025, at the 39th Street Pier, the Brooklyn Navy Yard and the Brooklyn Storehouse, and the 2026 edition moves to the Duggal Greenhouse and Agger Building.
+Time Warp NYC appears on the festival’s 2026 calendar as Time Warp New York; earlier editions used the name Time Warp USA. The history lists New York editions in 2014, 2015, 2019 and every year from 2021 to 2025, at the 39th Street Pier, the Brooklyn Navy Yard and the Brooklyn Storehouse, and the 2026 edition moves to the Duggal Greenhouse and Agger Building.
 
 The Time Warp Miami edition on 25 April 2026 is the only Miami date in the official history. Time Warp Mexico is listed as a new edition for 2026, and the history shows no earlier Mexico edition apart from a Time Warp stage at EDC Mexico on 20 February 2026. The Time Warp Los Angeles edition is also labelled a new edition for 2026, and the history lists no earlier Los Angeles date.
 

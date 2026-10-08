@@ -89,7 +89,6 @@ export default {
     {href: 'https://sonicstate.com/news/2022/08/11/fred-again-hybrid-set-for-boiler-room/', label: 'Sonicstate: Fred again.. hybrid set for Boiler Room (en anglais)'},
     {href: 'https://whynow.co.uk/read/best-boiler-room-sets', label: 'whynow: We rank the 10 best Boiler Room sets of all time (en anglais)'}
   ],
-  sourcesNote: 'Les vues, les likes, les durées et les taux de likes sont mesurés d’après le catalogue de ce site, 62 877 DJ sets enregistrés dont 8 206 de Boiler Room, à la date de septembre 2026.',
 
   bandcamp: {
     description: 'La plupart des gens regardent un DJ de près pour la première fois à Boiler Room. Voici les miens, du côté breaks et bass. En acheter un soutient directement mon travail.',

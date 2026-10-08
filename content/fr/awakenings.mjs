@@ -80,7 +80,7 @@ export default {
     'Maceo Plex': articleVideoCollection({
       lang: 'fr',
       label: 'Maceo Plex, Mosaic x Awakenings au Gashouder ADE, 2018',
-      description: 'Maceo Plex au Gashouder lors du rendez-vous Amsterdam Dance Event d’Awakenings en 2018. Tiré du catalogue de DJ sets enregistrés de ce site.',
+      description: 'Maceo Plex au Gashouder lors du rendez-vous Amsterdam Dance Event d’Awakenings en 2018.',
       items: [articleVideoCard({youtubeId: 'gR_nkH5B35s', genre: 'Techno', artist: 'Maceo Plex', title: 'Mosaic x Awakenings au Gashouder ADE, 2018'})]
     })
   }),

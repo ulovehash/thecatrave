@@ -94,7 +94,7 @@ export default {
        {youtubeId: 'SqdJuhC16Zw', genre: 'GRIME, 2003', artist: 'Terror Danjah', title: 'Cock Back'},
        {youtubeId: '_mxxpgNyV54', genre: 'GRIME, 2005', artist: 'Jammer', title: 'Murkle Man'}]),
     'rinse-set': videos(lang, 'Le grime à la radio',
-      'Le format dans lequel le grime a grandi, filmé : une émission grime sur Rinse FM en 2014, où P Money, D Double E, Big Narstie et Jammer se passent le micro. Tiré du catalogue de DJ sets enregistrés de ce site.',
+      'Le format dans lequel le grime a grandi, filmé : une émission grime sur Rinse FM en 2014, où P Money, D Double E, Big Narstie et Jammer se passent le micro.',
       [{youtubeId: '1wk3uOxQ5F4', genre: 'RADIO, 2014', artist: 'Rinse FM', title: 'P Money, D Double E, Big Narstie and Jammer'}]),
     'naming-listening': videos(lang, 'La dispute sur le nom',
       'Le single de Wiley de 2004 qui demandait comment appeler cette musique. Il a atteint la 31e place.',
@@ -112,7 +112,7 @@ export default {
        {youtubeId: '_xQKWnvtg6c', genre: 'GRIME, 2014', artist: 'Skepta', title: "That's Not Me"},
        {youtubeId: 'RqQGUJK7Na4', genre: 'GRIME, 2015', artist: 'Stormzy', title: 'Shut Up'}]),
     'anniversary-set': videos(lang, 'Vingt ans après',
-      'Rinse FM fête en 2023 les vingt ans de Boy in da Corner, avec Dizzee Rascal, JME, P Money, Jammer et Kruz Leone. Tiré du catalogue de DJ sets enregistrés de ce site.',
+      'Rinse FM fête en 2023 les vingt ans de Boy in da Corner, avec Dizzee Rascal, JME, P Money, Jammer et Kruz Leone.',
       [{youtubeId: 'vuh71pbNFC8', genre: 'RADIO, 2023', artist: 'Rinse FM', title: '20 years of Boy in da Corner'}]),
     // The owner's own music inside the text, as on the English page.
     'look': ownTrackListening('look', 'Le tempo du grime, ailleurs : future bass, glitch et breakbeat à 140 BPM. Mon propre morceau.', lang),
@@ -139,7 +139,6 @@ export default {
     {href: 'https://en.wikipedia.org/wiki/Konnichiwa_(Skepta_album)', label: 'Wikipedia : Konnichiwa (Skepta album)'},
     {href: 'https://djmag.com/news/grammys-2024-skrillex-flowdan-fred-agains-rumble-wins-best-danceelectronic-recording', label: 'DJ Mag : Rumble remporte le Grammy Best Dance/Electronic Recording en 2024'}
   ],
-  sourcesNote: 'Les nombres de sets et la fréquence des artistes sont mesurés dans le propre catalogue de ce site, 62 824 DJ sets enregistrés, en septembre 2026.',
 
   bandcamp: {
     description: 'Le grime a grandi à côté de la jungle et du garage, sur les mêmes radios pirates. Ces sorties se situent du côté breaks de cette famille. En acheter une soutient directement mon travail.',

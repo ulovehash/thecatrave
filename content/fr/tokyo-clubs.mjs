@@ -61,8 +61,8 @@ export default {
       'L’entrée du WOMB à Shibuya, photographiée en 2023. Le club fonctionne à cette adresse depuis avril 2000. Photo : Dick Thomas Johnson, CC BY 2.0.'),
     'Dogenzaka': figure('dogenzaka-shibuya', 1200, 900, 'Dogenzaka la nuit, sa rue en pente bordée d’enseignes lumineuses de clubs, de bars et de karaokés',
       'Dogenzaka, à Shibuya, photographiée de nuit en 2024. La plupart des clubs de ce guide se trouvent sur cette rue ou juste à côté. Photo : Freddickfix, CC BY 4.0.'),
-    'Chida': articleVideoCollection({lang, label: 'Chida, Boiler Room Tokyo, 2014', description: 'Le set de Chida lors de la toute première diffusion de Boiler Room à Tokyo en juin 2014, aux côtés de Force of Nature et de Monkey Timers. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: 'E2mThQ-g-24', genre: 'House', artist: 'Chida', title: 'Boiler Room Tokyo, 2014'})]}),
-    'Wata Igarashi': articleVideoCollection({lang, label: 'Wata Igarashi, Boiler Room Tokyo x TDME, 2016', description: 'Wata Igarashi lors du showcase Boiler Room Tokyo x TDME à Shibuya en décembre 2016. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: 'S0yP6ZOl4z0', genre: 'Techno', artist: 'Wata Igarashi', title: 'Boiler Room Tokyo x TDME, 2016'})]}),
+    'Chida': articleVideoCollection({lang, label: 'Chida, Boiler Room Tokyo, 2014', description: 'Le set de Chida lors de la toute première diffusion de Boiler Room à Tokyo en juin 2014, aux côtés de Force of Nature et de Monkey Timers.', items: [articleVideoCard({youtubeId: 'E2mThQ-g-24', genre: 'House', artist: 'Chida', title: 'Boiler Room Tokyo, 2014'})]}),
+    'Wata Igarashi': articleVideoCollection({lang, label: 'Wata Igarashi, Boiler Room Tokyo x TDME, 2016', description: 'Wata Igarashi lors du showcase Boiler Room Tokyo x TDME à Shibuya en décembre 2016.', items: [articleVideoCard({youtubeId: 'S0yP6ZOl4z0', genre: 'Techno', artist: 'Wata Igarashi', title: 'Boiler Room Tokyo x TDME, 2016'})]}),
     'Table: now': articleTable({
       headers: ['Club', 'Quartier', 'Musique et caractère', 'Idéal pour'],
       rows: [

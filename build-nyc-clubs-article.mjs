@@ -84,9 +84,9 @@ const media = {
   'Louie Vega Output': video('ss0aadTtAhQ', 'House', 'Louie Vega', 'Mixmag Live at Output, 2016',
     "Louie Vega playing Output in Williamsburg for Mixmag in 2016, three years before the club closed."),
   'Mister Saturday Night Boiler Room': video('mG3kGYFyw-Q', 'House', 'Mister Saturday Night', 'Boiler Room, episode 002, 2015',
-    "Eamon Harkin and Justin Carter's party with Boiler Room in 2015, the year Nowadays opened. From this site's catalogue of recorded DJ sets."),
+    "Eamon Harkin and Justin Carter's party with Boiler Room in 2015, the year Nowadays opened."),
   'Louie Vega Lot Radio': video('5EC4BynJ1MA', 'House', 'Louie Vega', 'The Lot Radio, 2018',
-    "Louie Vega on The Lot Radio in December 2018. From this site's catalogue of recorded DJ sets."),
+    "Louie Vega on The Lot Radio in December 2018."),
   'thecatrave mix': ownSetListening(0, 'en', 'Thirty tracks moving between garage, bass music, techno and rave, for the long end of a New York night. My own mix.'),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
@@ -172,7 +172,6 @@ ${sourceLink('https://djmag.com/news/new-york-club-paragon-reopen-thanks-generou
 ${sourceLink('https://djmag.com/new-brooklyn-club-signal-opens', 'DJ Mag: New Brooklyn club Signal opens (2025)')}
 ${sourceLink('https://www.fortgreenepark.org/all-programs/soul-summit', 'Fort Greene Park Conservancy: Soul Summit')}
 ${sourceLink('https://dannykrivit.net/718-sessions', 'Danny Krivit: 718 Sessions')}
-<li>Set counts are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -86,9 +86,9 @@ const media = {
     'The A38 ship moored on the Danube in Budapest, a converted 1968 cargo vessel',
     'A38, moored by Petőfi Bridge, photographed in 2015. It opened as a club and concert hall in 2003, rebuilt from a 1968 Ukrainian cargo ship. Photograph: Rakás, CC BY-SA 4.0.'),
   'Route 8': video('dAB4K204nL0', 'Techno', 'Route 8', 'Boiler Room Budapest, at Turbina, 2021',
-    "Route 8 playing Boiler Room's third Budapest broadcast, at Turbina in December 2021. From this site's catalogue of recorded DJ sets."),
+    "Route 8 playing Boiler Room's third Budapest broadcast, at Turbina in December 2021."),
   'Imre Kiss': video('Xnp6hnEs4Ns', 'House', 'Imre Kiss', 'Boiler Room Budapest x Lobster Theremin, 2017',
-    "Imre Kiss playing Boiler Room's first Budapest broadcast, at Akvárium Klub in January 2017, alongside the UK label Lobster Theremin. From this site's catalogue of recorded DJ sets."),
+    "Imre Kiss playing Boiler Room's first Budapest broadcast, at Akvárium Klub in January 2017, alongside the UK label Lobster Theremin."),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [
@@ -160,7 +160,6 @@ ${sourceLink('https://www.electronicbeats.net/larm-monologue', 'Electronic Beats
 ${sourceLink('https://welovebudapest.com/cikk/2021/11/19/ejszakai-elet-forrosodik-a-budapesti-buliszcena-a-turbinaba-erkezik-a-boiler-room', 'We Love Budapest: Boiler Room arrives at Turbina (2021)')}
 ${sourceLink('https://ra.co/events/915127', 'Resident Advisor: Boiler Room Budapest x Lobster Theremin at Akvárium Klub (2017)')}
 ${sourceLink('https://boilerroom.tv/session/br-budapest-x-lobster-theremin/', 'Boiler Room: BR Budapest x Lobster Theremin (2017)')}
-<li>Set counts and catalogue details are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

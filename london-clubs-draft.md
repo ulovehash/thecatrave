@@ -8,7 +8,7 @@ The London clubs that made the music are Heaven, Shoom, the Blue Note, The End, 
 
 This guide picks clubs in London by one test: what played in the room, and what came out of it. Not the door price and not the table service. Most of the rooms that gave London acid house, jungle, UK garage and dubstep have closed, so the history comes first. The night clubs in London worth your weekend now come after it, in a table.
 
-There is another London in every search for the best nightclubs in London. Cirque le Soir, the Cuckoo Club, Dear Darling, The Box in Soho and the members' club Home House sell tables, bottles and a place on the guest list. The guest-list sites ranking above this page do that job better than a music guide could, and this one is not about those rooms. It is about the ones where the music was the point.
+There is another London in every search for the best nightclubs in London. Cirque le Soir, the Cuckoo Club, Dear Darling, The Box in Soho and the members' club Home House sell tables, bottles and a place on the guest list. This guide focuses on clubs known for their music.
 
 
 ## Before acid house: sound systems, the Blitz and Heaven
@@ -87,7 +87,7 @@ Plastic People began in Soho, where Trash first ran, and moved to Curtain Road i
 
 ## The best clubs in London now
 
-Three lists that review London clubs were read for this page in September 2026: Resident Advisor's, Time Out's (updated on 29 July 2026) and Condé Nast Traveller's. fabric, The Cause and FOLD are on all three. The table below keeps the clubs that at least one of them names and that the rest of the research, from search demand to the clubs' own histories, backs up.
+Three London club guides provide a comparison: Resident Advisor's, Time Out's (updated on 29 July 2026) and Condé Nast Traveller's. fabric, The Cause and FOLD are on all three. The table compares the clubs named by at least one of those guides.
 
 Two famous clubs in London are missing from it on purpose. Corsica Studios, two rooms in railway arches at Elephant and Castle since 2002, with a Funktion-One system from 2007, announced in September 2025 that it would close in its current form in 2026, and Resident Advisor records its last night on 28 March. Printworks, the former newspaper plant at Rotherhithe, closed for redevelopment in 2023; its Press Halls are scheduled to reopen as a venue in 2026. The [Printworks London guide](/printworks-london) covers the closure, the 2024 reopening approval and what is still undated.
 
@@ -115,7 +115,7 @@ For something you did not choose, the [Selector](/selector) plays one of {{catal
 
 ### What is the most popular nightclub in London?
 
-By searches, Ministry of Sound: about 7,100 a month in the UK, against 5,900 for fabric (Ahrefs, September 2026). By the lists that review clubs there is no single winner: fabric, The Cause and FOLD are on all three.
+By the lists that review clubs there is no single winner: fabric, The Cause and FOLD are on all three.
 
 ### Where's the best place to go clubbing in London?
 

@@ -70,7 +70,7 @@ The format is five days with limited capacity. The days are spent on the coast a
 
 ## What does Dekmantel book?
 
-Dekmantel books DJs and live acts from across electronic music. The opening concert in 2026 was Space Afrika at the Oude Kerk. Boiler Room filmed Motor City Drum Ensemble at Dekmantel in 2014, and the [Amsterdam clubs guide](/best-clubs-in-amsterdam) links that set. A 2027 line-up is not covered here because none was confirmed in the sources read for this page.
+Dekmantel books DJs and live acts from across electronic music. The opening concert in 2026 was Space Afrika at the Oude Kerk. Boiler Room filmed Motor City Drum Ensemble at Dekmantel in 2014, and the [Amsterdam clubs guide](/best-clubs-in-amsterdam) links that set. The 2027 line-up was not confirmed as of 2 October 2026.
 
 The five sets below are from the festival's own channel and come from 2025.
 

@@ -168,7 +168,6 @@ export default {
     {href: 'https://en.wikipedia.org/wiki/Heartbroken_(T2_song)', label: 'Wikipedia: Heartbroken'},
     {href: 'https://en.wikipedia.org/wiki/Paradise_Garage', label: 'Wikipedia: Paradise Garage'}
   ],
-  sourcesNote: 'Set-Zahlen, Häufigkeiten der Künstler und Aufrufzahlen sind im eigenen Katalog dieser Seite gemessen, 62.877 aufgezeichnete DJ-Sets von 37 Kanälen, Stand September 2026.',
 
   bandcamp: {
     description: 'Diese Tracks liegen auf der Seite der Breaks und des Basses derselben Familie. Wer einen kauft, unterstützt meine Arbeit direkt.',

@@ -102,9 +102,9 @@ function render(text) {
 }
 
 media['Swing Ting'] = video('b1lOaex4kZw', 'Grime', 'Swing Ting', 'Bass, beats and grime, @ Soup, Manchester, 2021',
-  "Swing Ting, the Manchester bass, beats and grime crew, recorded at Soup, one of the current clubs above. From this site's catalogue of recorded DJ sets.");
+  "Swing Ting, the Manchester bass, beats and grime crew, recorded at Soup, one of the current clubs above.");
 media['LEVELZ'] = video('GtJhGigH1mw', 'Grime', 'LEVELZ', 'Boiler Room: Manchester, 2016',
-  "LEVELZ, the Manchester crew that grew out of the city's grime and bassline scenes, on Boiler Room's own Manchester broadcast. From this site's catalogue of recorded DJ sets.");
+  "LEVELZ, the Manchester crew that grew out of the city's grime and bassline scenes, on Boiler Room's own Manchester broadcast.");
 
 const answer = paras(getSection('Answer'));
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
@@ -149,7 +149,6 @@ ${sourceLink('https://en.wikipedia.org/wiki/The_Warehouse_Project', 'Wikipedia: 
 ${sourceLink('https://ra.co/guides/clubs-in-manchester', 'Resident Advisor: The Best Clubs in Manchester in 2026')}
 ${sourceLink('https://nightclub.org.uk/club/the-white-hotel', 'nightclub.org.uk: The White Hotel')}
 ${sourceLink('https://www.manchestertourism.org', 'Manchester Tourism: Best Nightclubs in Manchester')}
-<li>Video embeds are drawn from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

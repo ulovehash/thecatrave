@@ -80,7 +80,7 @@ const media = {
     "Awakenings' branded airship over the crowd with laser beams crossing the night sky",
     "Awakenings, 2007. Photograph: Boris van Hoytema, CC BY 2.0."),
   'Maceo Plex': video('gR_nkH5B35s', 'Techno', 'Maceo Plex', 'Mosaic x Awakenings at Gashouder ADE, 2018',
-    "Maceo Plex at the Gashouder during Awakenings' 2018 Amsterdam Dance Event special. From this site's catalogue of recorded DJ sets."),
+    "Maceo Plex at the Gashouder during Awakenings' 2018 Amsterdam Dance Event special."),
   'Table: Facts': articleTable({
     headers: ['Fact', 'Detail'],
     rows: [
@@ -149,7 +149,6 @@ ${sourceLink('https://en.wikipedia.org/wiki/Awakenings_(festival)', 'Wikipedia: 
 ${sourceLink('https://www.awakenings.com', 'Awakenings: official site')}
 ${sourceLink('https://www.awakenings.com/how-to-travel-festival26', 'Awakenings: how to travel to Awakenings Festival 2026')}
 ${sourceLink('https://djmag.com/top100festivals', 'DJ Mag: Top 100 Festivals 2026')}
-<li>Video embed is drawn from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

@@ -96,7 +96,7 @@ export default {
        {youtubeId: 'SqdJuhC16Zw', genre: 'GRIME, 2003', artist: 'Terror Danjah', title: 'Cock Back'},
        {youtubeId: '_mxxpgNyV54', genre: 'GRIME, 2005', artist: 'Jammer', title: 'Murkle Man'}]),
     'rinse-set': videos(lang, 'Grime im Radio',
-      'Das Format, in dem Grime aufwuchs, gefilmt: eine Grime-Sendung auf Rinse FM im Jahr 2014, bei der P Money, D Double E, Big Narstie und Jammer das Mikrofon weitergeben. Aus dem Katalog aufgezeichneter DJ-Sets auf dieser Seite.',
+      'Das Format, in dem Grime aufwuchs, gefilmt: eine Grime-Sendung auf Rinse FM im Jahr 2014, bei der P Money, D Double E, Big Narstie und Jammer das Mikrofon weitergeben.',
       [{youtubeId: '1wk3uOxQ5F4', genre: 'RADIO, 2014', artist: 'Rinse FM', title: 'P Money, D Double E, Big Narstie and Jammer'}]),
     'naming-listening': videos(lang, 'Der Streit um den Namen',
       'Wileys Single von 2004, die fragt, wie die Musik heißen soll. Sie erreichte Platz 31.',
@@ -114,7 +114,7 @@ export default {
        {youtubeId: '_xQKWnvtg6c', genre: 'GRIME, 2014', artist: 'Skepta', title: "That's Not Me"},
        {youtubeId: 'RqQGUJK7Na4', genre: 'GRIME, 2015', artist: 'Stormzy', title: 'Shut Up'}]),
     'anniversary-set': videos(lang, 'Zwanzig Jahre später',
-      'Rinse FM feiert 2023 zwanzig Jahre Boy in da Corner, mit Dizzee Rascal, JME, P Money, Jammer und Kruz Leone. Aus dem Katalog aufgezeichneter DJ-Sets auf dieser Seite.',
+      'Rinse FM feiert 2023 zwanzig Jahre Boy in da Corner, mit Dizzee Rascal, JME, P Money, Jammer und Kruz Leone.',
       [{youtubeId: 'vuh71pbNFC8', genre: 'RADIO, 2023', artist: 'Rinse FM', title: '20 years of Boy in da Corner'}]),
     // The owner's own music inside the text, as on the English page.
     'look': ownTrackListening('look', 'Das Tempo des Grime, woanders: Future Bass, Glitch und Breakbeat bei 140 BPM. Mein eigener Track.', lang),
@@ -141,7 +141,6 @@ export default {
     {href: 'https://en.wikipedia.org/wiki/Konnichiwa_(Skepta_album)', label: 'Wikipedia: Konnichiwa (Skepta album)'},
     {href: 'https://djmag.com/news/grammys-2024-skrillex-flowdan-fred-agains-rumble-wins-best-danceelectronic-recording', label: 'DJ Mag: Rumble gewinnt bei den Grammys 2024 Best Dance/Electronic Recording'}
   ],
-  sourcesNote: 'Set-Zahlen und die Häufigkeit der Künstler sind im eigenen Katalog dieser Seite mit 62.824 aufgezeichneten DJ-Sets gemessen, Stand September 2026.',
 
   bandcamp: {
     description: 'Grime wuchs neben Jungle und Garage auf denselben Piratensendern auf. Diese Veröffentlichungen stehen auf der Breaks-Seite dieser Familie. Wer eine kauft, unterstützt meine Arbeit direkt.',

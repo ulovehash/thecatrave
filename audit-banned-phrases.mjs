@@ -11,6 +11,10 @@ import path from 'node:path';
 
 const RULES = [
   {
+    rule: 'No catalogue sourcing filler or internal keyword-tool notes (AGENTS.md section 4)',
+    re: /From this site(?:'|’|&#39;)s catalogue of recorded DJ sets|Aus dem Katalog (?:aufgenommener|aufgezeichneter) DJ-Sets (?:auf )?dieser Seite|(?:Tiré|Issu) du catalogue de (?:DJ sets|sets de DJ|sets DJ) enregistrés de ce site|Video embeds? (?:is|are) drawn from this site|Set counts[^.]{0,100}are measured from this site|selector-data\.json|Search demand: Google Ads|few people search for|search demand to the clubs/i,
+  },
+  {
     rule: 'No internal research-process commentary in published articles (AGENTS.md section 4)',
     re: /\boEmbed\b|fact-check ledger|opened directly this session|found this session|Every date below (?:comes from|was checked)|Where (?:the )?sources disagree, the (?:page|section)|Planning links checked|Jedes Datum unten stammt aus einer Quelle|Chaque date ci-dessous vient d'une source|(?:pages|Seiten) (?:were checked|wurden.{0,45}geprüft)|pages.{0,35}ont été vérifiées|researched (?:in depth|to the same depth)|(?:tief|gründlich) recherchiert|étudié.{0,30}(?:profondeur|en profondeur)/i,
   },

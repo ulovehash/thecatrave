@@ -57,8 +57,8 @@ export default {
       'Die Kellerbar des Cross Club, fotografiert 2012. Der Club öffnete 2002 und wurde aus Schrottplatzmaterial statt nach einem Designkonzept gebaut. Foto: -crosspraha-, CC BY-SA 4.0.'),
     'Wenceslas Square': figure('wenceslas-square', 1200, 750, 'Das Nationalmuseum am oberen Ende des Wenzelsplatzes in Prag',
       'Der Wenzelsplatz am Nationalmuseum. Das Duplex und mehrere Touristenclubs Prags liegen nur wenige Gehminuten von hier. Foto: Muselsom, CC BY-SA 4.0.'),
-    'Fatty M': articleVideoCollection({lang, label: 'Fatty M, Boiler Room Prag, 2018', description: 'Fatty M bei Boiler Rooms erster Übertragung in Tschechien im Dezember 2018. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: 'WY_Th5nrI90', genre: 'Electronic', artist: 'Fatty M', title: 'Boiler Room Prag, 2018'})]}),
-    'Eva Porating': articleVideoCollection({lang, label: 'Eva Porating, Boiler Room Prag, 2018', description: 'Eva Porating in derselben Boiler-Room-Übertragung aus Prag im Dezember 2018 wie Fatty M. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: '6od6a-eiLUs', genre: 'Electronic', artist: 'Eva Porating', title: 'Boiler Room Prag, 2018'})]}),
+    'Fatty M': articleVideoCollection({lang, label: 'Fatty M, Boiler Room Prag, 2018', description: 'Fatty M bei Boiler Rooms erster Übertragung in Tschechien im Dezember 2018.', items: [articleVideoCard({youtubeId: 'WY_Th5nrI90', genre: 'Electronic', artist: 'Fatty M', title: 'Boiler Room Prag, 2018'})]}),
+    'Eva Porating': articleVideoCollection({lang, label: 'Eva Porating, Boiler Room Prag, 2018', description: 'Eva Porating in derselben Boiler-Room-Übertragung aus Prag im Dezember 2018 wie Fatty M.', items: [articleVideoCard({youtubeId: '6od6a-eiLUs', genre: 'Electronic', artist: 'Eva Porating', title: 'Boiler Room Prag, 2018'})]}),
     'Tabelle: now': articleTable({
       headers: ['Club', 'Gegend', 'Musik und Charakter', 'Am besten für'],
       rows: [

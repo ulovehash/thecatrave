@@ -131,7 +131,6 @@ const sources = [
   'EDMTunes, October 2019, on Martin Garrix\'s interview. The quote is taken from EDMTunes, not the original Dutch outlet.',
   'EDM.com, September 2021, on the Reddit campaign for Thicc Booty McSpin Daddy.',
   'dBs Insider, 25 greatest DJs of all time (April 2026); Rave Bonfire, electronic music DJs; thedjlist.com DJ ranking.',
-  'thecatrave Selector catalogue (selector-data.json, 67,005 sets), counted on 6 October 2026.'
 ].map(line => `<li>${inline(line)}</li>`).join('');
 
 const articleHtml = [

@@ -120,7 +120,6 @@ export default {
     {href: 'https://ra.co/news/85346', label: 'Resident Advisor: HÖR acquired by Berlin-based music services company 99Solutions'},
     {href: 'https://www.gl-systemhaus.de/en/blog/one-year-united-we-stream', label: 'One year of lockdown, one year of United We Stream'}
   ],
-  sourcesNote: 'Set-Zahlen, Jahre des ersten Uploads und Aufrufzahlen wurden im Katalog dieser Seite mit 62.877 aufgenommenen DJ-Sets von den YouTube-Kanälen von 37 Sendern gemessen, Stand September 2026.',
 
   bandcamp: {
     description: 'Jungle lief im Piratenradio, bevor irgendjemand einen DJ filmte. Das hier sind meine, von der Breaks- und Jungle-Seite. Wer einen kauft, unterstützt meine Arbeit direkt.',

@@ -83,9 +83,9 @@ const media = {
     'Dogenzaka at night, its steep street lined with illuminated signs for clubs, bars and karaoke boxes',
     'Dogenzaka, Shibuya, photographed at night in 2024. Most of the clubs in this guide sit on or just off this street. Photograph: Freddickfix, CC BY 4.0.'),
   'Chida': video('E2mThQ-g-24', 'House', 'Chida', 'Boiler Room Tokyo, 2014',
-    "Chida's set from Boiler Room's first-ever Tokyo broadcast in June 2014, alongside Force of Nature and Monkey Timers. From this site's catalogue of recorded DJ sets."),
+    "Chida's set from Boiler Room's first-ever Tokyo broadcast in June 2014, alongside Force of Nature and Monkey Timers."),
   'Wata Igarashi': video('S0yP6ZOl4z0', 'Techno', 'Wata Igarashi', 'Boiler Room Tokyo x TDME, 2016',
-    "Wata Igarashi playing Boiler Room's Tokyo x TDME showcase in Shibuya in December 2016. From this site's catalogue of recorded DJ sets."),
+    "Wata Igarashi playing Boiler Room's Tokyo x TDME showcase in Shibuya in December 2016."),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [
@@ -162,7 +162,6 @@ ${sourceLink('https://ra.co/clubs/122892', 'Resident Advisor: Vent, Tokyo')}
 ${sourceLink('https://boilerroom.tv/session/boiler-room-tokyo-contact/', 'Boiler Room: Boiler Room Tokyo, Contact (2019)')}
 ${sourceLink('https://boilerroom.tv/session/tokyo-tdme-x-boiler-room/', 'Boiler Room: Tokyo, TDME x Boiler Room (2016)')}
 ${sourceLink('https://www.mixesdb.com/w/2014-06-20_-_Force_Of_Nature_@_Boiler_Room_Tokyo', 'MixesDB: Force of Nature at Boiler Room Tokyo (20 June 2014)')}
-<li>Set counts and catalogue details are measured from this site's own catalogue of recorded DJ sets, as of September 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

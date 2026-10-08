@@ -95,7 +95,7 @@ const festivalSet = articleVideoCollection({
 });
 const billSets = articleVideoCollection({
   label: 'Snowbombing 2027 acts, in the rooms they usually play',
-  description: 'Five acts from the 2027 bill, in sets from the catalogue.',
+  description: 'Recorded sets by five acts from the 2027 bill.',
   items: [
     articleVideoCard({youtubeId: '23Oh1LHavuE', genre: 'Boiler Room London', artist: 'Andy C', title: 'Andy C at Boiler Room London'}),
     articleVideoCard({youtubeId: 'djsItMOfCQA', genre: 'Boiler Room London', artist: 'Basement Jaxx', title: 'Basement Jaxx at Boiler Room London'}),

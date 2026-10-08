@@ -73,15 +73,15 @@ const media = {
     "Protesters in Tbilisi against the government's drug policy and the police raid on nightclubs",
     "People in Tbilisi protesting the government's drug policy and the police raid on nightclubs, photographed on 14 May 2018. Photograph: Gvantsa Popkhadze, CC BY 2.0."),
   'Zurkin': video('BqtBMIReS68', 'Electronic', 'Zurkin', 'Boiler Room Tbilisi: We Dance Together, We Fight Together, 2018',
-    "Zurkin playing Boiler Room's night at Bassiani on 27 May 2018, held in the week the club reopened. From this site's catalogue of recorded DJ sets."),
+    "Zurkin playing Boiler Room's night at Bassiani on 27 May 2018, held in the week the club reopened."),
   'Shlomo': video('qB-FFednKkY', 'Techno', 'Shlømo', 'Boiler Room Tbilisi: KHIDI, 2019',
-    "Shlømo playing Boiler Room's first Tbilisi night at KHIDI in March 2019. From this site's catalogue of recorded DJ sets."),
+    "Shlømo playing Boiler Room's first Tbilisi night at KHIDI in March 2019."),
   'Nkisi': video('eTTdNlDyTNI', 'Hardcore', 'Nkisi', 'Boiler Room Tbilisi: KHIDI, 2022',
-    "Nkisi playing Boiler Room's KHIDI night in July 2022. From this site's catalogue of recorded DJ sets."),
+    "Nkisi playing Boiler Room's KHIDI night in July 2022."),
   'Vulkanski': video('ajap3GRYpSA', 'Techno', 'Vulkanski', 'Boiler Room Tbilisi: KHIDI, 2022',
-    "Vulkanski playing Boiler Room's KHIDI night in July 2022. From this site's catalogue of recorded DJ sets."),
+    "Vulkanski playing Boiler Room's KHIDI night in July 2022."),
   'Pablo Bozzi': video('pKl7GVk60Ow', 'Electro', 'Pablo Bozzi', 'Boiler Room Tbilisi: KHIDI, 2022',
-    "Pablo Bozzi playing Boiler Room's KHIDI night in July 2022. From this site's catalogue of recorded DJ sets."),
+    "Pablo Bozzi playing Boiler Room's KHIDI night in July 2022."),
   'Table: now': articleTable({
     headers: ['Club', 'Where', 'Character', 'When'],
     rows: [
@@ -158,7 +158,6 @@ ${sourceLink('https://ra.co/news/82847', 'Resident Advisor: Tbilisi venues march
 ${sourceLink('https://ra.co/news/76508', 'Resident Advisor: KHIDI raided (2021)')}
 ${sourceLink('https://ra.co/news/84386', 'Resident Advisor: TES closes (2026)')}
 ${sourceLink('https://ra.co/news/85297', 'Resident Advisor: Mtkvarze launches The Saturnalia (2026)')}
-<li>Set counts and catalogue details are measured from this site's own catalogue of recorded DJ sets, as of October 2026.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

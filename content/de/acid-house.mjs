@@ -84,7 +84,7 @@ export default {
       'Die Platte, die dem Genre den Namen gab, so wie Trax sie 1987 veröffentlichte: ein Drum-Muster und eine 303-Linie, deren Klang sich zwölf Minuten lang bewegt.',
       [{youtubeId: 'yKHGv6Es610', genre: 'ACID HOUSE, 1987', artist: 'Phuture', title: 'Acid Tracks'}]),
     'phuture-live': videos(lang, 'Phuture live',
-      'Phuture live für Boiler Room in Chicago, 2014. Aus dem Katalog aufgezeichneter DJ-Sets auf dieser Seite.',
+      'Phuture live für Boiler Room in Chicago, 2014.',
       [{youtubeId: '05oNuVLYFgw', genre: 'LIVE, 2014', artist: 'Phuture', title: 'Boiler Room Chicago'}]),
     'around-listening': videos(lang, 'Vor und neben Acid Tracks',
       'Die erste 303-Platte auf Vinyl und die, die DJ Pierre die erste funky Acid-Platte nennt.',
@@ -105,7 +105,7 @@ export default {
       'Köln, 1992: die Platte, die die 303 nach der britischen Panik zurück in die europäischen Clubs brachte.',
       [{youtubeId: 'Un4CeV_l3pI', genre: 'ACID TECHNO, 1992', artist: 'Hardfloor', title: 'Acperience 1'}]),
     'gerald-live': videos(lang, 'A Guy Called Gerald live',
-      'Gerald spielt 2013 für Boiler Room live an seinen Maschinen. Aus dem Katalog aufgezeichneter DJ-Sets auf dieser Seite.',
+      'Gerald spielt 2013 für Boiler Room live an seinen Maschinen.',
       [{youtubeId: 'zhr0_fadXxY', genre: 'LIVE, 2013', artist: 'A Guy Called Gerald', title: 'Boiler Room'}]),
     // The owner's own music inside the text, as on the English page.
     'protect-ya-breaks': ownTrackListening('protect-ya-breaks', 'Wohin Großbritannien den Rhythmus als Nächstes trug: Breaks bei 128 BPM, nah am Tempo des Acid House. Mein eigener Track.', lang),
@@ -132,7 +132,6 @@ export default {
     {href: 'https://www.vice.com/en/article/history-smiley-face-acid-house-rave-culture/', label: 'Vice: A brief history of the smiley face, rave culture’s most ubiquitous symbol'},
     {href: 'https://mixmag.net/feature/the-history-of-acid-house-in-100-tracks', label: 'Mixmag: The history of acid house in 100 tracks'}
   ],
-  sourcesNote: 'Set-Zahlen und die Häufigkeit der Künstler sind im eigenen Katalog dieser Seite mit 62.824 aufgezeichneten DJ-Sets gemessen, Stand September 2026.',
 
   bandcamp: {
     description: 'Acid House gab Großbritannien den Rave, und der Rave gab ihm den Breakbeat. Diese Veröffentlichungen stehen auf dieser Seite der Familie. Wer eine kauft, unterstützt meine Arbeit direkt.',

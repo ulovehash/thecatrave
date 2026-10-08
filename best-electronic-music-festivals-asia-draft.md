@@ -17,7 +17,7 @@ A festival is on this list when both conditions are met:
 - Electronic music is the core of the programme, not one stage among pop and rock.
 - It has an edition in 2026 or 2027 that its own site or named press confirms, or its latest edition is on its official site.
 
-Order follows how much people search for each festival. The exclusions are explained near the end. Prices are quoted in the local currency of the source, and figures that came from press rather than the festival are labelled as such.
+The exclusions are explained near the end. Prices are quoted in the local currency of the source, and figures that came from press rather than the festival are labelled as such.
 
 ## The festivals at a glance
 
@@ -39,7 +39,7 @@ Ultra Japan is the Tokyo edition of the Ultra festival, held at the Odaiba Ultra
 
 Ultra Japan 2027 is on 18 and 19 September 2027. Its official ticket page lists 2027 two-day tickets at ¥27,000 for GA, ¥15,000 for U-23 and ¥43,000 for PGA at the displayed tiers. These tiers may sell out; check the official ticket page before buying. No 2027 line-up was shown when checked on 5 October 2026.
 
-The sources I read describe a daytime event from 11:00 to 21:00 and mention no camping, so plan on a hotel in Tokyo. The [Ultra Music Festival guide](/ultra-music-festival) covers the Miami original.
+The event runs during the day, from 11:00 to 21:00. Camping is not confirmed, so plan on a hotel in Tokyo. The [Ultra Music Festival guide](/ultra-music-festival) covers the Miami original.
 
 [[embed:owner-first]]
 

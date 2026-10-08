@@ -40,7 +40,7 @@ KHIDI had events listed through September 2026, including a G2 night on 26 Septe
 
 ## Tbilisi techno: what to listen to
 
-The sets below were all filmed in Tbilisi by Boiler Room and come from this site's catalogue of recorded DJ sets. They cover several sounds, from the Bassiani night of 2018 to a KHIDI bill that ran from techno to hardcore.
+The sets below were all filmed in Tbilisi by Boiler Room. They cover several sounds, from the Bassiani night of 2018 to a KHIDI bill that ran from techno to hardcore.
 
 The Boiler Room that went out under the protest slogan on 27 May 2018 had Zurkin, Gio Shengelia, Greenbeam and Leon, Bero, and Kancheli and Zitto on the bill. Zurkin's set from Bassiani is the recording to start with.
 

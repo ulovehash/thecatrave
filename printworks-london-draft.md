@@ -26,7 +26,7 @@ The sequence, from the owner's and the council's own material, is short.
 | 24 September 2024 | Southwark Council approves, and Mixmag reports the venue as set to return in 2026. |
 | May 2026 | A new consultation proposes a culture and leisure use only, keeps the Press Halls and the Inkwell, adds a roof terrace and partially demolishes the building, retaining the frame of the Press Halls. A revised application was planned for the summer. |
 
-A Printworks London reopening is planned, but the revised design and opening date are not confirmed. A local news report in May 2026 carried a heading about a delay to the return of nightlife. I could not confirm that the revised application has been submitted, and I found no date. No source I read puts a Printworks London 2026 reopening on the calendar, so check the official site rather than relying on this page.
+A Printworks London reopening is planned, but the revised design and opening date are not confirmed. A local news report in May 2026 carried a heading about a delay to the return of nightlife. The proposed Printworks London 2026 reopening had no confirmed date as of 5 October. The revised application’s submission status also remained unconfirmed.
 
 For any Printworks reopening news, the owner's releases, Southwark's planning pages and the consultation material are the sources that count.
 
@@ -52,7 +52,7 @@ DJ Mag's Top 100 Clubs poll put it second in 2023, listing a capacity of 6,000.
 
 The Printworks London capacity was 6,000, according to the BBC at closing and DJ Mag's 2023 listing. The main space was the Press Halls, a hall about 130 metres long under a three-storey video screen, in a building of roughly 10,000 square metres. The Guardian described the second room as a low-ceilinged, grubby space, and said Broadwick wanted to keep that character.
 
-The Printworks London rooms changed over time. The Inkwell was revealed in 2021 as a smaller room with a low ceiling and concrete pillars. A Live Room stage hosted a London Symphony Orchestra show with Soweto Kinch in March 2023, reported by DJ Mag, but it was a stage rather than a third nightclub room. Sources disagree on room counts and names beyond the Press Halls and the Inkwell, so this page names only those two. For a sense of the place in its first year, Adam Beyer's 2017 set was filmed there.
+The Printworks London rooms changed over time. The Inkwell was revealed in 2021 as a smaller room with a low ceiling and concrete pillars. A Live Room stage hosted a London Symphony Orchestra show with Soweto Kinch in March 2023, reported by DJ Mag, but it was a stage rather than a third nightclub room. Accounts differ on room counts and names beyond the Press Halls and the Inkwell. For a sense of the place in its first year, Adam Beyer's 2017 set was filmed there.
 
 ## Printworks London events and lineup
 

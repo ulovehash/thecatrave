@@ -246,4 +246,3 @@ Four. Carl Cox at Space and DJ Rashad and DJ Spinn play from Mixcloud, and Theo 
 - [Four Four: 10 best old school Essential Mixes](https://fourfourmag.com/10-best-old-school-essential-mixes/)
 - [DMY: 10 essential Essential Mixes](https://dmy.co/mix/10-essential-essential-mixes)
 - [UKF: 6 of the best drum and bass Essential Mixes](https://ukf.com/words/6-of-the-best-drum-bass-essential-mixes/11761)
-- Set lengths and view counts come from this site's catalogue of recorded DJ sets.

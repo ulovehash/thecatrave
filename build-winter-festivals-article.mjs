@@ -118,7 +118,7 @@ const articleHtml = [
   articleHero({
     kicker: 'Festival guide, 2027',
     title: 'Best winter music festivals 2027',
-    deck: 'Which winter festivals are the biggest, which are best for house and techno on a mountain, and which the scene rates but few people search for, with every date marked confirmed or unconfirmed.',
+    deck: 'Which winter festivals are the biggest, which are best for house and techno on a mountain, and which the specialist music press recommends, with every date marked confirmed or unconfirmed.',
     readingTime,
     dateModified: date,
     dateLabel,
@@ -130,7 +130,7 @@ const articleHtml = [
   articleSection({id: 'dates', title: 'Winter festival dates for 2027 at a glance', bodyHtml: join(sec('Winter festival dates at a glance'))}),
   articleSection({id: 'biggest', title: 'Which winter festivals are the biggest?', bodyHtml: `${join(sec('Which winter festivals are the biggest?'))}${firstMix}`}),
   articleSection({id: 'mountain', title: 'Which winter festivals are best for house and techno on a mountain?', bodyHtml: join(sec('Which winter festivals are best for house and techno on a mountain?'))}),
-  articleSection({id: 'quiet', title: 'Which winter festivals does the scene rate but few people search for?', bodyHtml: `${join(sec('Which winter festivals does the scene rate but few people search for?'))}`}),
+  articleSection({id: 'quiet', title: 'Which winter festivals does the specialist music press recommend?', bodyHtml: `${join(sec('Which winter festivals does the specialist music press recommend?'))}`}),
   articleSection({id: 'choose', title: 'How to choose', bodyHtml: `${join(sec('How to choose'))}${secondMix}`}),
   articleFaq({items: faqItems, title: 'Winter music festivals FAQ.', openFirst: true}),
   authorCard({filled: true}),

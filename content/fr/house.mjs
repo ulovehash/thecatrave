@@ -101,7 +101,7 @@ export default {
     'Embed: One More Time': video(lang, 'FGBhQbmPwH8', 'French house, 2000', 'Daft Punk', 'One More Time',
       'Le single french house de Daft Punk de novembre 2000, sur la chaîne du duo.'),
     'Embed: Black Coffee Cercle': video(lang, 'SGqg_ZzThDU', 'Afro house', 'Black Coffee', 'Salle Wagram, Paris, pour Cercle',
-      'Black Coffee joue pour Cercle à Paris. Tiré du catalogue de sets DJ enregistrés de ce site.'),
+      'Black Coffee joue pour Cercle à Paris.'),
     'thecatrave mix': ownSetListening(0, lang, 'Trente morceaux entre garage, bass music, techno et rave. Mon propre mix.'),
     'Table: Sous-genres': articleTable({
       headers: ['Style', 'Où et quand', 'À quoi il ressemble', 'Un disque pour commencer'],
@@ -140,7 +140,6 @@ export default {
     {href: 'https://djmag.com/features/all-night-long-40-essential-tracks-40-years-of-house-music', label: 'DJ Mag : 40 essential tracks from 40 years of house music, 2024 (en anglais)'},
     {href: 'https://splice.com/blog/what-is-house-music/', label: 'Splice : What is house music? History, artists and subgenres (en anglais)'}
   ],
-  sourcesNote: 'Le nombre de sets provient du catalogue de sets DJ enregistrés de ce site, en septembre 2026.',
 
   bandcamp: {
     description: 'Deux de mes propres morceaux. En acheter un soutient directement mon travail.',

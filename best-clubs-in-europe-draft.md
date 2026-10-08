@@ -66,7 +66,7 @@ Spain has 12 clubs in DJ Mag's 2026 list, the second-most of any country, and th
 
 ![A DJ in the Club Room at Hï Ibiza with a crowd holding up phone lights](figure:hi-ibiza-2022)
 
-**[UNVRS]** is DJ Mag's No. 1 in 2026. DJ Mag's article says it took over the former Ku Club and Privilege site on the island and became the first club to reach first place within twelve months of opening. It opened on 30 May 2025. Sources differ on its capacity, so this guide gives none.
+**[UNVRS]** is DJ Mag's No. 1 in 2026. DJ Mag's article says it took over the former Ku Club and Privilege site on the island and became the first club to reach first place within twelve months of opening. It opened on 30 May 2025. Reported capacity figures differ.
 
 **Pacha Ibiza** opened in June 1973, started by Ricardo Urgell and his brother Piti in a finca outside Ibiza Town. It has a Main Room, a Funky Room and a Roof Terrace, is open to guests aged 18 and over from 11pm, and is DJ Mag No. 18. The [Pacha Ibiza guide](/pacha-ibiza) has tickets, the dress code and the 2026 closing week.
 
@@ -78,7 +78,7 @@ Spain has 12 clubs in DJ Mag's 2026 list, the second-most of any country, and th
 
 **FABRIK** is in Humanes, in the Madrid region, and is DJ Mag No. 8. It was established in 2003, holds 6,000 across seven areas and has a hotel on site. DJ Mag's profile also names two festivals tied to the venue, Nexus and CODE SUMMER FESTIVAL.
 
-Three of the Spanish rooms have sets in the catalogue, and the two below were recorded at Hï and Pacha.
+The two sets below were recorded at Hï and Pacha.
 
 ![sets](videos:spain)
 
@@ -94,7 +94,7 @@ DJ Mag's article notes that the UK ranks fifth by country in 2026 and has no clu
 
 **Drumsheds** is a former IKEA store in north London run by Broadwick Live since 2023. DJ Mag gives a capacity of 15,000, three rooms called X, Y and Z, and a d&b audiotechnik sound system. It rose 24 places to No. 45.
 
-Two sets from the catalogue show the rooms in action: one from fabric, one from Ministry of Sound.
+The two sets below were recorded at fabric and Ministry of Sound.
 
 ![sets](videos:uk)
 
@@ -210,7 +210,7 @@ DJ Mag's poll does not split by genre, so the best techno clubs in this guide ar
 
 **Berghain** has its own guide with the door policy. **Tresor** opened in 1991 in a department store vault and now sits in a power station basement, and its own foundation keeps the history. **Open Ground** in Wuppertal is a recent addition built around a custom Funktion-One system, and its founder came from Hard Wax. **Rex Club** in Paris moved from disco to acid house in the late 1980s.
 
-For the sound of Tresor, the catalogue has a radio guide from NTS to the club's classics. It was not recorded at the club, so it is a listening guide and not a record of a night.
+NTS has a radio guide to Tresor’s classics. It was not recorded at the club, so it is a listening guide and not a record of a night.
 
 ![sets](videos:techno)
 

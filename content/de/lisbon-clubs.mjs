@@ -57,14 +57,14 @@ export default {
   media: ({lang}) => ({
     'Lux Fragil': figure('lux-fragil', 552, 400, 'Das Gebäude des Lux Frágil an der Cais da Pedra in Lissabon',
       'Das Gebäude des Lux Frágil an der Cais da Pedra, ein umgebautes Lagerhaus einer Stauerfirma von 1910. Foto: Fssmgn, CC BY 3.0.'),
-    'Buraka Som Sistema': articleVideoCollection({lang, label: 'Buraka Som Sistema, Boiler Room Lisboa x RBMA Takeover, 2013', description: 'Das Boiler-Room-Lisboa-Set von Buraka Som Sistema 2013, Teil einer Übernahme durch die Red Bull Music Academy und weiter eine der meistgesehenen Boiler-Room-Übertragungen, die in der Stadt gefilmt wurden. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: '4_Jk34-b_Jw', genre: 'Kuduro', artist: 'Buraka Som Sistema', title: 'Boiler Room Lisboa x RBMA Takeover, 2013'})]}),
+    'Buraka Som Sistema': articleVideoCollection({lang, label: 'Buraka Som Sistema, Boiler Room Lisboa x RBMA Takeover, 2013', description: 'Das Boiler-Room-Lisboa-Set von Buraka Som Sistema 2013, Teil einer Übernahme durch die Red Bull Music Academy und weiter eine der meistgesehenen Boiler-Room-Übertragungen, die in der Stadt gefilmt wurden.', items: [articleVideoCard({youtubeId: '4_Jk34-b_Jw', genre: 'Kuduro', artist: 'Buraka Som Sistema', title: 'Boiler Room Lisboa x RBMA Takeover, 2013'})]}),
     'Praça do Comércio': figure('praca-comercio', 1200, 824, 'Die Praça do Comércio, Lissabons Platz am Fluss, vom Boden aus gesehen',
       'Die Praça do Comércio, fotografiert 2018. Der Ministerium Club belegt einen Flügel dieses Platzes, in Räumen, die einst dem portugiesischen Finanzministerium gehörten. Foto: Berthold Werner, CC BY-SA 4.0.'),
     'Pink Street': figure('pink-street-aerial', 1200, 900, 'Luftbild der Rua Nova do Carvalho, Lissabons rosa angestrichener „Pink Street“',
       'Die Rua Nova do Carvalho, bekannt als Pink Street, von oben gesehen. Die Musicbox lief unter ihren Bögen fast neunzehn Jahre, bevor sie im September 2025 schloss. Foto: FuriousYogi, CC BY-SA 4.0.'),
     'Village Underground bus': figure('village-underground-bus', 1200, 799, 'Der Doppeldeckerbus im Village Underground Lisboa, Teil des Kreativcampus des Ortes',
       'Der Doppeldeckerbus als Wahrzeichen des Village Underground Lisboa, fotografiert 2019. Der Ort in Alcântara, gebaut aus gestapelten Schiffscontainern und einem umgebauten Lagerhaus, läuft seit 2017 als Club und Veranstaltungsraum. Foto: Keith Dixon, CC BY 2.0.'),
-    'Parris': articleVideoCollection({lang, label: 'Parris, Boiler Room Lissabon: Village Underground, 2019', description: 'Das Boiler-Room-Set von Parris 2019 im Village Underground Lisboa. Aus dem Katalog aufgenommener DJ-Sets dieser Seite.', items: [articleVideoCard({youtubeId: 'MKuFgNjWLx8', genre: 'UK bass', artist: 'Parris', title: 'Boiler Room Lissabon: Village Underground, 2019'})]}),
+    'Parris': articleVideoCollection({lang, label: 'Parris, Boiler Room Lissabon: Village Underground, 2019', description: 'Das Boiler-Room-Set von Parris 2019 im Village Underground Lisboa.', items: [articleVideoCard({youtubeId: 'MKuFgNjWLx8', genre: 'UK bass', artist: 'Parris', title: 'Boiler Room Lissabon: Village Underground, 2019'})]}),
     'Tabelle: now': articleTable({
       headers: ['Club', 'Gegend', 'Musik und Charakter', 'Am besten für'],
       rows: [

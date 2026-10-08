@@ -78,7 +78,7 @@ const media = {
     "The Lux Frágil building on Cais da Pedra, Lisbon",
     "Lux Frágil's Cais da Pedra building, a converted 1910 stevedoring warehouse. Photograph: Fssmgn, CC BY 3.0."),
   'Buraka Som Sistema': video('4_Jk34-b_Jw', 'Kuduro', 'Buraka Som Sistema', 'Boiler Room Lisboa x RBMA Takeover, 2013',
-    "Buraka Som Sistema's 2013 Boiler Room Lisboa set, part of a Red Bull Music Academy takeover and still one of the most-watched Boiler Room broadcasts filmed in the city. From this site's catalogue of recorded DJ sets."),
+    "Buraka Som Sistema's 2013 Boiler Room Lisboa set, part of a Red Bull Music Academy takeover and still one of the most-watched Boiler Room broadcasts filmed in the city."),
   'Praça do Comércio': figure('praca-comercio', 1200, 824,
     "Praça do Comércio, Lisbon's riverside square, seen from ground level",
     "Praça do Comércio, photographed in 2018. Ministerium Club occupies a wing of this square, in rooms that once belonged to the Portuguese Ministry of Finance. Photograph: Berthold Werner, CC BY-SA 4.0."),
@@ -89,7 +89,7 @@ const media = {
     "The double-decker bus at Village Underground Lisboa, part of the venue's creative campus",
     "Village Underground Lisboa's landmark double-decker bus, photographed in 2019. The Alcântara venue, built from stacked shipping containers and a converted warehouse, has run as a club and event space since 2017. Photograph: Keith Dixon, CC BY 2.0."),
   'Parris': video('MKuFgNjWLx8', 'UK bass', 'Parris', 'Boiler Room Lisbon: Village Underground, 2019',
-    "Parris's 2019 Boiler Room set at Village Underground Lisboa. From this site's catalogue of recorded DJ sets."),
+    "Parris's 2019 Boiler Room set at Village Underground Lisboa."),
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Best for'],
     rows: [

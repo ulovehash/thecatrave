@@ -90,7 +90,7 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 // Sets from selector-data.json, hardstyle-tagged, oEmbed-checked 2026-10-05.
 // None was recorded at Defqon.1 and the page says so.
 const hardstyleSets = articleVideoCollection({
-  label: 'Hardstyle sets from the catalogue',
+  label: 'Hardstyle DJ sets',
   description: 'Three hardstyle sets from the Selector catalogue, from Boiler Room and DJ Mag. None was recorded at Defqon.1.',
   items: [
     articleVideoCard({youtubeId: 'hl_dtNxuSoI', genre: 'Hardstyle', artist: 'The Horrorist', title: 'Boiler Room Berlin live set'}),

@@ -68,8 +68,8 @@ export default {
         ['Stage & Radio', 'centre-ville', 'Un ancien club de jazz de 1946 rouvert pour la dance music en 2016, avec sa propre radio communautaire', 'DJ underground britanniques et culture des sound systems']
       ].map(row => row.map(escapeHtml))
     }),
-    'Swing Ting': articleVideoCollection({lang, label: 'Swing Ting, Bass, beats and grime, @ Soup, Manchester, 2021', description: 'Swing Ting, le collectif mancunien de bass, beats et grime, enregistré au Soup, l’un des clubs actuels ci-dessus. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: 'b1lOaex4kZw', genre: 'Grime', artist: 'Swing Ting', title: 'Bass, beats and grime, @ Soup, Manchester, 2021'})]}),
-    'LEVELZ': articleVideoCollection({lang, label: 'LEVELZ, Boiler Room: Manchester, 2016', description: 'LEVELZ, le collectif mancunien issu des scènes grime et bassline de la ville, sur la diffusion Boiler Room de Manchester. Tiré du catalogue de DJ sets enregistrés de ce site.', items: [articleVideoCard({youtubeId: 'GtJhGigH1mw', genre: 'Grime', artist: 'LEVELZ', title: 'Boiler Room: Manchester, 2016'})]})
+    'Swing Ting': articleVideoCollection({lang, label: 'Swing Ting, Bass, beats and grime, @ Soup, Manchester, 2021', description: 'Swing Ting, le collectif mancunien de bass, beats et grime, enregistré au Soup, l’un des clubs actuels ci-dessus.', items: [articleVideoCard({youtubeId: 'b1lOaex4kZw', genre: 'Grime', artist: 'Swing Ting', title: 'Bass, beats and grime, @ Soup, Manchester, 2021'})]}),
+    'LEVELZ': articleVideoCollection({lang, label: 'LEVELZ, Boiler Room: Manchester, 2016', description: 'LEVELZ, le collectif mancunien issu des scènes grime et bassline de la ville, sur la diffusion Boiler Room de Manchester.', items: [articleVideoCard({youtubeId: 'GtJhGigH1mw', genre: 'Grime', artist: 'LEVELZ', title: 'Boiler Room: Manchester, 2016'})]})
   }),
 
   sources: [
