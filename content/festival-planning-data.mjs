@@ -129,6 +129,23 @@ fr.exit = {...fr.exit,
   avoid:['Acheter un billet non officiel « Novi Sad 2027 »','Utiliser un plan 2025 de la forteresse dans un autre pays','Supposer qu’un billet couvre plusieurs destinations','Réserver un trajet non remboursable avant confirmation du lieu','Transposer d’anciennes règles de camping, sacs ou alcool']
 };
 
+const es = data.es = {};
+es.monegros = {
+  festivalName:'Monegros Desert Festival 2027',
+  intro:'Monegros dura 22 horas en un recinto aislado en pleno desierto. Asegura primero la vuelta, cuenta con un recinto sin efectivo y lleva solo lo que permite el control oficial de bolsos.',
+  ticketIntro:'Datos actuales del vendedor oficial para el 31 de julio de 2027. Las tandas posteriores pueden costar más.',
+  ticketRows:[['Entrada general','Entrada nominativa; el documento de identidad debe coincidir','desde 83 €'],['Tienda VIP','Hasta cinco personas; precio por persona, sin gastos','desde 523,95 € por persona'],['Cambio de nombre','Tarifa actual según las FAQ','20 €'],['Vaso reutilizable','Obligatorio con la primera bebida','2 €']],
+  ticketNote:'Compra solo en Enterticket o en la reventa oficial de RebelTickets. Como la cobertura móvil es floja, la organización recomienda imprimir la entrada.',
+  routes:[['Autobús oficial de ida y vuelta','Reserva el viaje desde una ciudad española anunciada. Los autobuses de vuelta salen a partir de las 08:00 y solo cuando están llenos.','Cómo llegar (oficial)','https://monegrosfestival.com/en/how-to-arrive'],['Tren y autobús organizado','No hay una estación útil junto a la puerta del festival. Llega a la ciudad de salida de tu billete de autobús y usa el autobús reservado para el último tramo.'],['Coche por la N-II, kilómetro 416','Sigue la señalización según tu dirección de llegada. A la salida, la organización avisa de atascos de varias horas y da prioridad a los autobuses.','Recinto en Google Maps',maps.monegros]],
+  routeNote:'Los puntos de salida se publican más tarde y se envían por correo a quien compra billete de autobús. Un hotel en Fraga no garantiza un traslado sencillo.',
+  accommodation:['No hay camping general y acampar en el aparcamiento está prohibido. Usa un autobús de vuelta oficial, un conductor sin alcohol o alojamiento antes y después del evento en tu ciudad de salida.','FAQ oficiales','https://monegrosfestival.com/en/faqs'],
+  spending:['El recinto funciona sin efectivo. Los precios de comida y bebida de 2027 aún no se han publicado. La comida y la bebida de fuera están prohibidas; se permiten una barrita energética y una botella o bolsa de hidratación vacía. Hay puntos de agua potable gratuitos.',[['Recarga mínima sin efectivo','10 €'],['Comisión por devolver el saldo','2 €'],['Vaso reutilizable','2 €'],['Reentrada temporal, 00:01–04:00','25 € por salida']],'Normas oficiales de pago y acceso','https://monegrosfestival.com/en/faqs'],
+  packing:['Entrada impresa, código QR sin conexión y documento de identidad con foto que coincida','Botella o bolsa de hidratación vacía, máximo un litro','Crema solar de hasta 200 ml, gorra, gafas de sol y abanico','Tapones para los oídos, batería externa y una capa ligera para la mañana','Bolso pequeño de hasta 35 × 20 × 12 cm o 10 litros'],
+  avoid:['Comida o bebida de fuera, salvo una barrita energética permitida','Líquidos en la entrada; los envases deben estar vacíos','Bolsos grandes, sillas, sombrillas, tiendas de campaña y palos de selfi','Aerosoles, cámaras profesionales, drones y objetos peligrosos','Salir en coche nada más cerrar sin contar con varias horas de atasco'],
+  rulesNote:'Monegros es estrictamente para mayores de 18 años. La reentrada normal no está permitida; entre las 00:01 y las 04:00 la excepción actual cuesta 25 € por salida.',
+  links:[['Web oficial','https://monegrosfestival.com/en/'],['Entradas 2027','https://www.enterticket.es/eventos/monegros-desert-festival-2027-116435'],['FAQ','https://monegrosfestival.com/en/faqs'],['Cómo llegar','https://monegrosfestival.com/en/how-to-arrive'],['Google Maps',maps.monegros]]
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),
@@ -137,7 +154,7 @@ const normalize = value => ({
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
   links:value.links.map(([label,url]) => ({label,url})),
   checked:'2026-10-06',
-  checkedLabel: value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  checkedLabel: value === data.es.monegros ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);

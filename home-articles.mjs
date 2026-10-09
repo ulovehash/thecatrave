@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/es/monegros-desert-festival', type:'Guía', topic:'Monegros Desert Festival',
+    title:'Monegros Desert Festival 2027: fecha, historia y cómo llegar',
+    description:'Un único evento electrónico larguísimo cerca de Fraga, en Aragón, con raíces en la Florida 135: fecha de 2027, historia, música, formato nocturno y cómo llegar.',
+    image:'img/monegros/festival-overview-2009-320.webp',
+    srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
+    width:1200, height:900, alt:'Vista general de los escenarios y el público del Monegros Desert Festival en 2009'
+  },
+  {
     page:'es/sonar-barcelona.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/sonar-barcelona', type:'Guía', topic:'Sónar',
     title:'Sónar Barcelona: qué es, dónde es y fechas de 2027',
     description:'Tres días cada junio en Barcelona desde 1994, de día y de noche: dónde es el Sónar, cómo ha crecido, de quién es ahora y el Sónar 2027, del 17 al 19 de junio.',

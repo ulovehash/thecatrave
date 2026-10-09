@@ -1,0 +1,55 @@
+{
+  "page": "es/monegros-desert-festival.html",
+  "seed": "monegros",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {
+      "term": "monegros",
+      "volume": "10K-100K",
+      "note": "head term; H1/title"
+    },
+    {
+      "term": "monegros desert festival",
+      "volume": "10K-100K",
+      "note": "H1, title, slug"
+    },
+    {
+      "term": "monegros festival",
+      "volume": "1K-10K",
+      "note": "body and answer"
+    },
+    {
+      "term": "festival de los monegros",
+      "volume": "100-1K",
+      "note": "body, Qué es Monegros"
+    },
+    {
+      "term": "monegros 2027",
+      "volume": "100-1K",
+      "note": "H2, refreshed yearly"
+    },
+    {
+      "term": "monegros historia",
+      "volume": "10-100",
+      "note": "H2 De Florida 135 al desierto"
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed list, Spain only. Live es-ES SERP and People-also-ask not read in this pass; still open.",
+  "rejected": [
+    {
+      "term": "monegros dónde es",
+      "volume": null,
+      "why": "no row returned (not measured); answered in the FAQ '¿Dónde es...?' in natural word order"
+    },
+    {
+      "term": "monegros desert festival entradas",
+      "volume": "10-100",
+      "why": "transactional; planning block and FAQ only"
+    },
+    {
+      "term": "monegros fraga",
+      "volume": "10-100",
+      "why": "unnatural as adjacent words; Fraga appears in the address and answer"
+    }
+  ]
+}
