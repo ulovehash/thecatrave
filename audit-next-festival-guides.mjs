@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog} from './home-articles.mjs';
+import {homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog, spanishArticleCatalog} from './home-articles.mjs';
 
 const pages = [
   ['sziget-festival.html', 'https://thecatrave.com/sziget-festival'],
@@ -18,7 +18,7 @@ const roundups = [
   'fr/festivals-electro-europe.html'
 ];
 const roundupSet = new Set(roundups);
-const individualFestivalPages = [homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog]
+const individualFestivalPages = [homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog, spanishArticleCatalog]
   .flatMap(catalog => catalog.filter(item => item.category === 'festivals').map(item => item.page))
   .filter(file => !roundupSet.has(file));
 
@@ -53,7 +53,7 @@ for (const file of individualFestivalPages) {
   if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
 }
 
-if (individualFestivalPages.length !== 70) failures.push(`festival inventory: expected 70 individual guide variants, found ${individualFestivalPages.length}`);
+if (individualFestivalPages.length !== 71) failures.push(`festival inventory: expected 71 individual guide variants, found ${individualFestivalPages.length}`);
 
 for (const file of roundups) {
   if (!fs.existsSync(file)) continue;

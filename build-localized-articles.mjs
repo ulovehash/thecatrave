@@ -228,6 +228,7 @@ export function buildLocalizedArticle(content) {
   // as the English Europe festivals page does for the official sites.
   const sourceLink = ({href, label, html}) => html ? `<li>${html}</li>` : `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
 
+  const related = relatedArticles(content.file, lang);
   const articleHtml = [
     articleHero({
       lang,
@@ -252,7 +253,8 @@ export function buildLocalizedArticle(content) {
     authorCard({filled: true, lang}),
     articleSources({lang, bodyHtml: `<ul>\n${content.sources.map(sourceLink).join('\n')}${content.sourcesNote ? `\n<li>${escapeHtml(content.sourcesNote)}</li>` : ''}\n</ul>`}),
     bandcampSupport({lang, fullBleed: true, description: content.bandcamp.description, tracks: content.bandcamp.tracks}),
-    readNext({lang, items: relatedArticles(content.file, lang)})
+    // A language's first guide has nothing else to read next.
+    ...(related.length ? [readNext({lang, items: related})] : [])
   ].join('\n');
 
   const unused = Object.keys(media).filter(key => !used.has(key));

@@ -467,3 +467,12 @@ translated page-title wording or proper names, all recorded with volume `null`
 - Techno mixes: DE "techno-mixes", FR "mix techno", plus "jeff mills", "ben klock".
 - House playlists: DE "house-playlists", FR "playlists house", plus "honey dijon", "defected".
 - Builder change: the FAQ is now optional in `build-localized-articles.mjs`, and a playlist section may open with a lead paragraph, because three of these English guides have no FAQ. Two audits (`audit-site-components.mjs`, `audit-listening-guides.mjs`) treated any `<details>` as a FAQ, which the language switcher also is; they now look for the `faq-section` class.
+
+## Spanish batch 1: Tomorrowland (9 October 2026)
+
+First Spanish page, `/es/tomorrowland-festival`. Keyword Planner, Spain plus a
+summed Latin America pass (Mexico, Argentina, Colombia, Chile). One neutral
+Spanish with Spain spellings, to be re-checked in Search Console. The live es-ES
+SERP was bot-blocked and not bypassed; the GA4 page-level check is not done.
+Full note: `tomorrowland-es-translation-research.md`; data in
+`keywords/es-tomorrowland.json`.

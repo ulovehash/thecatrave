@@ -36,15 +36,15 @@ const RULES = [
   },
   {
     rule: 'A DJ set is never "full" (WRITING.md)',
-    re: /\bfull DJ sets?\b|\bone complete set\b|\bthe whole set\b|komplette[sn]? DJ-Sets?|vollständige[sn]? (?:DJ-)?Sets?|\bDJ sets? complets?\b|\bun set complet\b|\bconcerts entiers\b|\bcomplete recordings?\b|complete piece of programming|full-hour attention|can be played in full/i,
+    re: /\bfull DJ sets?\b|\bone complete set\b|\bthe whole set\b|komplette[sn]? DJ-Sets?|vollständige[sn]? (?:DJ-)?Sets?|\bDJ sets? complets?\b|\bun set complet\b|\bconcerts entiers\b|\bsesiones? (?:de DJ )?(?:completas?|enteras?|íntegras?)\b|\bsets? (?:completos?|enteros?|íntegros?)\b|\bcomplete recordings?\b|complete piece of programming|full-hour attention|can be played in full/i,
   },
   {
     rule: 'No "ultimate guide" opener (humanizer pass, 2026-09-23)',
-    re: /Welcome to the ultimate guide|Bienvenue dans le grand guide|Willkommen beim großen Guide/i,
+    re: /Welcome to the ultimate guide|Bienvenue dans le grand guide|Willkommen beim großen Guide|Te damos la bienvenida a la guía definitiva|Bienvenido a la guía definitiva/i,
   },
 ];
 
-const ROOTS = ['.', 'de', 'fr'];
+const ROOTS = ['.', 'de', 'fr', 'es'];
 const pages = ROOTS.flatMap(dir =>
   fs.readdirSync(dir)
     .filter(file => file.endsWith('.html'))
@@ -76,4 +76,4 @@ if (failures.length) {
   for (const f of failures) console.error('  ' + f);
   process.exit(1);
 }
-console.log(`Banned phrase audit passed: ${RULES.length} rules, ${pages.length} pages in English, German and French.`);
+console.log(`Banned phrase audit passed: ${RULES.length} rules, ${pages.length} pages in English, German, French and Spanish.`);

@@ -1663,7 +1663,20 @@ export const frenchArticleCatalog = [
   }
 ];
 
-export const catalogs = {en: homeArticleCatalog, de: germanArticleCatalog, fr: frenchArticleCatalog};
+// The Spanish guides, on the same terms as the German and French ones: their own
+// catalogue, the English guides' images with translated captions.
+export const spanishArticleCatalog = [
+  {
+    page:'es/tomorrowland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/tomorrowland-festival', type:'Guía', topic:'Tomorrowland',
+    title:'Tomorrowland: qué es, dónde es y cuándo es en 2027',
+    description:'Un parque de Boom, en Bélgica, que el mundo conoce sobre todo por la retransmisión: qué es Tomorrowland, dónde se celebra, cuánta gente va, de quién es y qué suena lejos de la Mainstage.',
+    image:'img/tomorrowland/mainstage-2014-320.webp',
+    srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
+    width:1200, height:708, alt:'La Mainstage de Tomorrowland en 2014'
+  }
+];
+
+export const catalogs = {en: homeArticleCatalog, de: germanArticleCatalog, fr: frenchArticleCatalog, es: spanishArticleCatalog};
 
 const catalogFor = lang => {
   const catalog = catalogs[lang];

@@ -117,7 +117,9 @@ export const ownSets = [
     de: {suffix: 'ein DJ-Mix.',
       description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigenes Set, für eine Pause vom Festival.'},
     fr: {suffix: 'un DJ mix.',
-      description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'}},
+      description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'},
+    es: {suffix: 'un DJ mix.',
+      description: 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión, para descansar del festival.'}},
   {
   "slug": "i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more",
   "title": "I lost so many weekends raving and I wanna lose some more",
@@ -127,6 +129,9 @@ export const ownSets = [
   },
   "fr": {
     "description": "J’ai recommencé ce mix une dizaine de fois, changé les morceaux et sans cesse remis les transitions en question. Au final, il rassemble une quarantaine de morceaux que j’aime, entre breaks, garage, dubstep, grime, techno et bien d’autres genres. Pour rentrer à pied, ranger ta chambre ou les afters, évidemment."
+  },
+  "es": {
+    "description": "Rehice este mix unas diez veces, cambiando temas y dudando de las transiciones. Al final quedaron unos 40 temas que me gustan, entre breaks, garage, dubstep, grime, techno y más. Para volver a casa andando, para limpiar tu cuarto o, claro, para el after."
   }
 }
 ];
@@ -141,7 +146,7 @@ export function ownSetListening(index, lang = defaultLang, description = '') {
   const translated = lang === defaultLang ? null : set[lang];
   if (lang !== defaultLang && !translated) throw new Error(`Own set ${index} has no ${lang} copy`);
   return articleListeningBand({
-    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: index === 1 ? ({en: 'DJ mix by thecatrave', de: 'DJ-Mix von thecatrave', fr: 'DJ mix de thecatrave'}[lang]) : copy.ownSetKicker,
+    platform: 'soundcloud', id: `own-set-${index + 1}`, kicker: index === 1 ? ({en: 'DJ mix by thecatrave', de: 'DJ-Mix von thecatrave', fr: 'DJ mix de thecatrave', es: 'DJ mix de thecatrave'}[lang]) : copy.ownSetKicker,
     title: index === 1 ? set.title : `${set.title}: ${translated ? translated.suffix : 'a DJ mix.'}`,
     // This mix uses the same approved personal introduction everywhere.
     description: (index === 1 ? '' : description) || (translated ? translated.description : set.description),
@@ -213,6 +218,15 @@ const automaticMusicCopy = {
     crossGenre: 'Mon propre morceau entre glitch, IDM et ambient. Il trouve sa place ici parce que cette page traverse plusieurs scènes sans rester dans un seul genre.',
     emotional: 'Une playlist que je sélectionne autour d’une musique électronique mélodique et dense. Elle offre tôt un parcours d’écoute vers le versant plus émotionnel du sujet.',
     rare: 'Une playlist que je sélectionne entre house, techno, breaks et rave. C’est le bac à disques derrière thecatrave, placé juste après la réponse principale de l’article.'
+  },
+  es: {
+    berlin: 'Un tema mío: percusión rota con eco de dub techno y espacio. Es el que mejor encaja con el techno y la música electrónica alemana de esta página.',
+    breaks: 'Un tema mío de progressive breaks a 128 BPM. Está aquí porque esta página trata directamente de breakbeats, del ritmo rave o de la música que los rodea.',
+    bass: 'Un tema mío a 140 BPM, entre future bass, glitch y breakbeat. Es el que mejor encaja con la música de bajos pesados de esta página.',
+    jungle: 'Un tema mío corto de liquid breakbeat. Está aquí como camino actual desde la historia del jungle y el drum and bass de esta página.',
+    crossGenre: 'Un tema mío entre glitch, IDM y ambient. Encaja aquí porque esta página cruza escenas en vez de quedarse en un solo género.',
+    emotional: 'Una playlist que curo en torno a la música electrónica melódica con peso. Ofrece pronto un camino de escucha hacia el lado más emocional de este tema.',
+    rare: 'Una playlist que curo entre house, techno, breaks y rave. Es la bolsa de discos que hay detrás de thecatrave, colocada justo después de la respuesta principal del artículo.'
   }
 };
 
@@ -491,6 +505,13 @@ export function festivalPlanningGuide({
       pack: 'Préparer le site, pas seulement la météo.', avoid: 'À laisser chez soi ou à revérifier.',
       links: 'À vérifier avant de partir.', linksIntro: 'Consultez les sources à jour pour les prix, horaires, le plan actuel et les règles d’entrée.',
       checked: 'Dernière vérification'
+    },
+    es: {
+      budget: 'Calcula el fin de semana entero.', ticket: 'Tipo de entrada', price: 'Precio',
+      route: 'Elige cómo llegar.', stay: 'Dónde dormir.', spend: 'Comer y beber.',
+      pack: 'Prepara la maleta para el recinto, no solo para el tiempo.', avoid: 'Déjalo en casa o vuelve a comprobarlo.',
+      links: 'Comprueba antes de salir.', linksIntro: 'Usa las fuentes actualizadas para precios, horarios, el mapa vigente y las normas de acceso.',
+      checked: 'Última comprobación'
     }
   })[lang];
   if (!locale) throw new Error(`festivalPlanningGuide has no ${lang} labels.`);

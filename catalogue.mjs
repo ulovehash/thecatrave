@@ -16,7 +16,7 @@ import fs from 'node:fs';
 
 export const CATALOGUE_TOKEN = '{{catalogue-sets}}';
 
-const LOCALES = {en: 'en-US', de: 'de-DE', fr: 'fr-FR'};
+const LOCALES = {en: 'en-US', de: 'de-DE', fr: 'fr-FR', es: 'es-ES'};
 
 export const catalogueSize = JSON.parse(fs.readFileSync('selector-data.json', 'utf8')).length;
 

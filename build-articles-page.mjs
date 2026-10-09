@@ -12,7 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {allArticlesNewestFirst} from './home-articles.mjs';
-import {articleHero, articlePage, articlesIndex, breadcrumbStructuredData} from './site-components.mjs';
+import {articleHero, articlePage, articleSection, articlesIndex, breadcrumbStructuredData} from './site-components.mjs';
 import {t} from './i18n.mjs';
 
 const indexes = [
@@ -51,6 +51,22 @@ const indexes = [
     deck: 'Des guides détaillés sur les festivals, les clubs et les genres de la musique électronique, écrits pour celles et ceux qui écoutent.',
     listTitle: 'Tous les articles',
     breadcrumb: 'Articles'
+  },
+  {
+    lang: 'es',
+    file: 'es/articulos.html',
+    canonical: 'https://thecatrave.com/es/articulos',
+    title: 'Música electrónica: festivales, clubes y géneros, todas las guías',
+    description: 'Todos los artículos de thecatrave en español, del más reciente al más antiguo: guías largas sobre festivales, música de baile y cultura club.',
+    kicker: 'Artículos',
+    heading: 'Música electrónica, festivales y clubes.',
+    deck: 'Guías largas sobre festivales, clubes y géneros de la música electrónica, escritas para quien escucha.',
+    listTitle: 'Todos los artículos',
+    breadcrumb: 'Artículos',
+    // Spanish has one guide so far; the intro keeps the index from being a bare
+    // list and points to the English guides that are not yet translated.
+    introTitle: 'Qué hay aquí y qué viene.',
+    introHtml: '<p>Esta es la parte en español de thecatrave, un sitio sobre música electrónica y cultura club escrito por alguien que hace breakbeat y jungle. Las guías son largas, citan sus fuentes y están pensadas para quien escucha, no para quien produce. Por ahora hay una guía en español: <a href="/es/tomorrowland-festival">Tomorrowland: qué es, dónde es y cuándo es en 2027</a>.</p><p>Las demás guías del sitio siguen en inglés y se van traduciendo una a una. Mientras tanto puedes leer todas en el <a href="/articles">índice en inglés</a>, o dejar que <a href="/selector">el Selector</a> te ponga una sesión de DJ al azar entre miles de grabaciones. Cuando una guía nueva llegue al español, aparecerá en esta página, la más reciente primero.</p>'
   }
 ];
 
@@ -65,6 +81,7 @@ for (const index of indexes) {
       title: index.heading,
       deck: index.deck
     }),
+    ...(index.introHtml ? [articleSection({title: index.introTitle, bodyHtml: index.introHtml})] : []),
     // The heading is for screen readers and the h1 > h2 > h3 outline only; the
     // hero already says what the list is.
     articlesIndex({items, title: index.listTitle, lang})

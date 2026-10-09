@@ -1,0 +1,115 @@
+{
+  "page": "es/tomorrowland-festival.html",
+  "seed": "tomorrowland",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026. Two passes on the same seed terms: location Spain, then Mexico + Argentina + Colombia + Chile summed (LatAm). Ranges are Keyword Planner's coarse buckets, not point estimates. A term that returned no row is 'no data', not zero. Variant decision (owner, 9 October 2026): one neutral Spanish with Spain spellings, hreflang es / es-ES; re-check with Search Console on /es once live.",
+  "terms": [
+    {
+      "term": "tomorrowland",
+      "volume": "10K-100K",
+      "note": "head term; Spain and LatAm both 10K-100K"
+    },
+    {
+      "term": "tomorrowland 2027",
+      "volume": "1K-10K",
+      "note": "Spain and LatAm; +9,900% YoY; next edition, dates unconfirmed when written; refresh yearly"
+    },
+    {
+      "term": "tomorrowland festival",
+      "volume": "100-1K",
+      "note": "Spain and LatAm; slug es/tomorrowland-festival"
+    },
+    {
+      "term": "qué es tomorrowland",
+      "volume": "100-1K",
+      "note": "Spain 100-1K, LatAm 1K-10K; the informational question the guide answers; Spanish SERP shows editorial slots"
+    },
+    {
+      "term": "tomorrowland winter",
+      "volume": "1K-10K",
+      "note": "Spain and LatAm"
+    },
+    {
+      "term": "tomorrowland brasil",
+      "volume": "100-1K",
+      "note": "Spain 100-1K, LatAm 10K-100K (+900% three-month)"
+    },
+    {
+      "term": "tomorrowland tailandia",
+      "volume": "100-1K",
+      "note": "Spain 100-1K, LatAm 1K-10K; Spanish 'Tailandia', not 'Thailand'"
+    },
+    {
+      "term": "tomorrowland bélgica",
+      "volume": "100-1K",
+      "note": "Spain"
+    },
+    {
+      "term": "tomorrowland españa",
+      "volume": "100-1K",
+      "note": "Spain; answered honestly in the 'where' section"
+    },
+    {
+      "term": "tomorrowland mainstage",
+      "volume": "100-1K",
+      "note": "Spain"
+    },
+    {
+      "term": "cuándo es tomorrowland",
+      "volume": "10-100",
+      "note": "Spain, weak; FAQ question, dates stated honestly as unconfirmed"
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed list of 30 Spanish phrasings (Spain pass), 14 re-run for LatAm. Live es-ES Google results were blocked by a bot check (google.es 'tráfico inusual'), not bypassed; WebSearch used instead for the Spanish SERP shape: top results for 'cuándo es / dónde es / entradas' are line-up, entradas and precio pages (basket-mag.com/es, informabtl.com, aztecajalisco.com) plus Brazilian ticket news; 'qué es tomorrowland / historia' returns adn40.mx, Wikipedia, focusonbelgium. A People-also-ask read on google.es is still open.",
+  "rejected": [
+    {
+      "term": "tomorrowland entradas",
+      "volume": "1K-10K",
+      "why": "transactional; answered in one FAQ, not targeted"
+    },
+    {
+      "term": "tomorrowland precio entradas",
+      "volume": "100-1K",
+      "why": "transactional; one FAQ answer"
+    },
+    {
+      "term": "tomorrowland cartel",
+      "volume": "100-1K",
+      "why": "dated line-up; the official site holds it"
+    },
+    {
+      "term": "tomorrowland camping",
+      "volume": "100-1K",
+      "why": "practical/transactional; not an argued section"
+    },
+    {
+      "term": "tomorrowland live / en directo",
+      "volume": "100-1K",
+      "why": "stream intent, adjacent to the listening section but a different query; not targeted"
+    },
+    {
+      "term": "tomorrowland incendio",
+      "volume": "100-1K",
+      "why": "news event; the guide is not a news page"
+    },
+    {
+      "term": "tomorrowland dreamville",
+      "volume": null,
+      "why": "no data; brand sub-area, not a guide question"
+    },
+    {
+      "term": "tomorrowland dónde es",
+      "volume": "10-100",
+      "why": "word order unnatural in Spanish; the question is answered in an H2/FAQ (\"Dónde es Tomorrowland\", \"Cuánta gente va\", \"quién es el dueño\") without forcing the phrase"
+    },
+    {
+      "term": "tomorrowland asistentes",
+      "volume": null,
+      "why": "word order unnatural in Spanish; the question is answered in an H2/FAQ (\"Dónde es Tomorrowland\", \"Cuánta gente va\", \"quién es el dueño\") without forcing the phrase"
+    },
+    {
+      "term": "tomorrowland dueño",
+      "volume": null,
+      "why": "word order unnatural in Spanish; the question is answered in an H2/FAQ (\"Dónde es Tomorrowland\", \"Cuánta gente va\", \"quién es el dueño\") without forcing the phrase"
+    }
+  ]
+}

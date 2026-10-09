@@ -8,7 +8,7 @@ const spotifyIds = ['1iq7tX1EWPR7INIjkxhGSu', '6qxmmgfWlT4yrWu60elEFZ'];
 const failures = [];
 let checked = 0;
 
-for (const lang of ['en', 'de', 'fr']) {
+for (const lang of ['en', 'de', 'fr', 'es']) {
   for (const article of allArticlesNewestFirst(lang)) {
     checked++;
     const html = fs.readFileSync(article.page, 'utf8');
