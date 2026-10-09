@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/musica-house.html', category:'music-history', tags:['house', 'history', 'overview'], href:'/es/musica-house', type:'Guía', topic:'Música house',
+    title:'Qué es la música house: historia, sonido y orígenes',
+    description:'Frankie Knuckles, el Warehouse y los primeros discos de Chicago: qué es la música house, por qué se llama house y los estilos del deep house al afro house.',
+    image:'img/house-music/frankie-knuckles-way-2022-320.webp',
+    srcset:'img/house-music/frankie-knuckles-way-2022-320.webp 320w,img/house-music/frankie-knuckles-way-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'La placa Frankie Knuckles Way en Chicago'
+  },
+  {
     page:'es/techno.html', category:'music-history', tags:['techno','history','overview'], href:'/es/techno', type:'Guía', topic:'Techno',
     title:'Qué es el techno: Detroit, Belleville Three y hoy',
     description:'El techno, música de baile de máquinas nacida en Detroit: los Belleville Three, de dónde viene el nombre, Underground Resistance, Berlín, minimal y hard techno.',
