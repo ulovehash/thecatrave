@@ -63,10 +63,6 @@ const indexes = [
     deck: 'Guías largas sobre festivales, clubes y géneros de la música electrónica, escritas para quien escucha.',
     listTitle: 'Todos los artículos',
     breadcrumb: 'Artículos',
-    // Spanish has one guide so far; the intro keeps the index from being a bare
-    // list and points to the English guides that are not yet translated.
-    introTitle: 'Música electrónica en español.',
-    introHtml: '<p>Esta es la parte en español de thecatrave, un sitio sobre música electrónica y cultura club. Las guías son largas, citan sus fuentes y están pensadas para quien escucha.</p><p>Las demás siguen en inglés y se van traduciendo: puedes leerlas en el <a href="/articles">índice en inglés</a> o dejar que <a href="/selector">el Selector</a> te ponga una sesión al azar.</p>'
   }
 ];
 
