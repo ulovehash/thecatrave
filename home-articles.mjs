@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mysteryland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/mysteryland-festival', type:'Guía', topic:'Mysteryland',
+    title:'Mysteryland 2027: fechas, recinto, historia y música',
+    description:'El festival de música electrónica más antiguo de los Países Bajos según él mismo, en el antiguo recinto de la Floriade: cuándo es Mysteryland 2027, por qué 2026 está en pausa y qué suena.',
+    image:'img/mysteryland/site-aerial-2018-320.webp',
+    srcset:'img/mysteryland/site-aerial-2018-320.webp 320w,img/mysteryland/site-aerial-2018-1200.webp 1200w',
+    width:1200, height:675, alt:'Mysteryland visto desde el aire en 2018, el escenario principal junto a un lago con el público delante'
+  },
+  {
     page:'es/breakbeat.html', category:'music-history', tags:['breaks','history','uk','nineties'], href:'/es/breakbeat', type:'Guía', topic:'Breakbeat',
     title:'Qué es el breakbeat: historia, estilos y breakbeat andaluz',
     description:'De los breaks funk y el hip-hop a la rave británica, Florida y Andalucía, el big beat y el nu-skool.',

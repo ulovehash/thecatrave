@@ -1,0 +1,15 @@
+{
+  "page": "es/mysteryland-festival.html",
+  "seed": "mysteryland",
+  "source": "Keyword Planner, Spain, 9 October 2026 (head term bucket); live es-ES SERP and People-also-ask read on google.es the same day; no Ahrefs units spent",
+  "terms": [
+    {"term": "Mysteryland", "volume": "100-1K", "note": "Spain, Keyword Planner bucket; every section"},
+    {"term": "Mysteryland 2027", "volume": "no data", "note": "title; 27 to 29 August 2027; refresh yearly"},
+    {"term": "Dónde se celebra Mysteryland", "volume": "not measured", "note": "H2 and FAQ; the PAA asks where Mysteryland is held"}
+  ],
+  "expansion_checked": "Live es-ES SERP and PAA only, 9 October 2026. Paid expansion not run.",
+  "rejected": [
+    {"term": "mysteryland 2026", "volume": "no data", "why": "dated; there is no 2026 edition, answered in the 2027 section without targeting the phrase"},
+    {"term": "festivales en Holanda", "volume": "not measured", "why": "PAA about Dutch festivals in general; the English page does not cover them"}
+  ]
+}
