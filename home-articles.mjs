@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mejores-sets-techno.html', category:'digging', tags:['discovery','techno','history'], href:'/es/mejores-sets-techno', type:'Guía', topic:'Sets de techno',
+    title:'Mejores sets de techno: 10 DJ sets esenciales',
+    description:'Diez sets de techno esenciales de Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd y más.',
+    image:'img/techno/jeff-mills-2010-320.webp', srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mezclando discos en un club de Detroit en 2010'
+  },
+  {
     page:'es/festivales-musica-electronica-asia.html', category:'festivals', tags:['festivals','asia','house','bass'], href:'/es/festivales-musica-electronica-asia', type:'Guía', topic:'Festivales de Asia',
     title:'Festivales de música electrónica en Asia 2027: guía',
     description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP y Zamna: fechas de 2027, precios y qué esperar en cada uno.',

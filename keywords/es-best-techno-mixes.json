@@ -1,0 +1,31 @@
+{
+  "page": "es/mejores-sets-techno.html",
+  "seed": "mejores sets de techno",
+  "source": "Live google.es SERP (hl=es, gl=es) and People also ask, 9 October 2026; Keyword Planner for Spain returned no row for a Spanish techno-sets phrase. No Ahrefs units spent.",
+  "note": "Volumes not measured. SERP writes 'sets de techno'; People also ask is about tracks and DJs, not sets, and is not answered.",
+  "terms": [
+    {
+      "term": "mejores sets de techno",
+      "volume": null,
+      "note": "title, H1, answer"
+    },
+    {
+      "term": "sets de techno",
+      "volume": null,
+      "note": "body and H2s"
+    }
+  ],
+  "expansion_checked": "Free live SERP and People also ask only, 9 October 2026. Paid expansion deferred.",
+  "rejected": [
+    {
+      "term": "mejores tracks de techno",
+      "volume": null,
+      "why": "People also ask; the page is about DJ sets, not tracks"
+    },
+    {
+      "term": "mejores mixes de techno",
+      "volume": null,
+      "why": "SERP favours 'sets'"
+    }
+  ]
+}
