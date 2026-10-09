@@ -1,0 +1,40 @@
+{
+  "page": "es/techno.html",
+  "seed": "que es la musica techno",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "qué es el techno",
+      "volume": null,
+      "note": "title and H2, es-ES SERP wording"
+    },
+    {
+      "term": "música techno",
+      "volume": null,
+      "note": "FAQ, es-ES PAA"
+    },
+    {
+      "term": "belleville three",
+      "volume": null,
+      "note": "section"
+    },
+    {
+      "term": "techno o house",
+      "volume": null,
+      "note": "heading"
+    },
+    {
+      "term": "tipos de techno",
+      "volume": null,
+      "note": "heading; SERP result 'los distintos tipos de techno'"
+    }
+  ],
+  "expansion_checked": "es-ES SERP and People also ask for 'que es la musica techno', 10 October 2026.",
+  "rejected": [
+    {
+      "term": "historia del techno",
+      "note": "SERP wording only; not on the page"
+    }
+  ]
+}

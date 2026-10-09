@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/techno.html', category:'music-history', tags:['techno','history','overview'], href:'/es/techno', type:'Guía', topic:'Techno',
+    title:'Qué es el techno: Detroit, Belleville Three y hoy',
+    description:'El techno, música de baile de máquinas nacida en Detroit: los Belleville Three, de dónde viene el nombre, Underground Resistance, Berlín, minimal y hard techno.',
+    image:'img/techno/jeff-mills-2010-320.webp',
+    srcset:'img/techno/jeff-mills-2010-320.webp 320w,img/techno/jeff-mills-2010-1200.webp 1200w',
+    width:1200, height:798, alt:'Jeff Mills mezcla en un club de Detroit en 2010'
+  },
+  {
     page:'es/arc-music-festival.html', category:'festivals', tags:['house','techno','festival'], href:'/es/arc-music-festival', type:'Guía', topic:'ARC Music Festival',
     title:'ARC Music Festival 2027: guía de Chicago, escenarios y acceso',
     description:'ARC Music Festival lleva el house y el techno a Union Park, en Chicago. Escenarios, historia, cómo llegar en la CTA, After Dark y la edición 2027 aún por confirmar.',
