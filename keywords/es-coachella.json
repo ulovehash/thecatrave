@@ -1,0 +1,49 @@
+{
+  "page": "es/festival-coachella.html",
+  "seed": "coachella",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "coachella",
+      "volume": null,
+      "note": "head term, es-ES SERP"
+    },
+    {
+      "term": "coachella 2027",
+      "volume": null,
+      "note": "SERP query; 9 to 11 and 16 to 18 April 2027"
+    },
+    {
+      "term": "qué es coachella",
+      "volume": null,
+      "note": "SERP query and PAA, es-ES"
+    },
+    {
+      "term": "cuándo es coachella",
+      "volume": null,
+      "note": "Google People also ask, es-ES"
+    },
+    {
+      "term": "dónde es coachella",
+      "volume": null,
+      "note": "Google People also ask, es-ES"
+    },
+    {
+      "term": "cuánto cuesta una entrada para coachella",
+      "volume": null,
+      "note": "Google People also ask, es-ES"
+    }
+  ],
+  "expansion_checked": [
+    "coachella 2027",
+    "que es coachella"
+  ],
+  "rejected": [
+    {
+      "term": "estilo coachella",
+      "volume": null,
+      "why": "Fashion intent; the guide is about the festival and its music"
+    }
+  ]
+}

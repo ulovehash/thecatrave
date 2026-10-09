@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-coachella.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/festival-coachella', type:'Guía', topic:'Coachella',
+    title:'Qué es Coachella: fechas 2027, lugar, tamaño y música',
+    description:'Dos fines de semana de abril en el Empire Polo Club de Indio: cuándo es Coachella 2027, dónde está, cómo una pérdida en 1999 se convirtió en un festival gigante y qué suena bajo la carpa Sahara.',
+    image:'img/coachella/grounds-2018-320.webp',
+    srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
+    width:1200, height:677, alt:'Asistentes en el césped de Coachella en 2018, con palmeras detrás y las montañas del desierto'
+  },
+  {
     page:'es/edc-las-vegas.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/edc-las-vegas', type:'Guía', topic:'EDC Las Vegas',
     title:'EDC Las Vegas 2027: fechas, entradas, tamaño y música',
     description:'El Electric Daisy Carnival en el Las Vegas Motor Speedway: dónde es el EDC, cómo llegó al medio millón de personas al año y qué suena lejos de kineticFIELD.',
