@@ -1,0 +1,20 @@
+{
+  "page": "es/primavera-sound-barcelona.html",
+  "seed": "primavera sound",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {"term": "primavera sound", "volume": "10K-100K", "note": "festival name; H1 and the answer"},
+    {"term": "primavera sound barcelona", "volume": "1K-10K", "note": "slug, hero and the 'Respuesta' section"},
+    {"term": "primavera sound 2027", "volume": "1K-10K", "note": "title, description and the dates FAQ; the next edition"},
+    {"term": "primavera sound porto", "volume": "1K-10K", "note": "the Porto H2"},
+    {"term": "primavera sound fechas", "volume": "100-1K", "note": "the dates and place H2 ("Primavera Sound: fechas y lugar del festival")"}
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'primavera sound'. People also ask: '¿Cuándo será el Primavera Sound 2026?', '¿Quién viene a Primavera Sound 2026?', '¿Cuándo es el Primavera Sound 2027?', '¿Quién está detrás del Primavera Sound?'. Applied: the 2027 dates and 'quién está detrás' questions are FAQ entries, answered only from facts on the English page. Not applied: the 2026 edition and its line-up (already past or changing; the English page does not track them).",
+  "rejected": [
+    {"term": "primavera sound 2026", "volume": "10K-100K", "why": "the edition now past; the guide targets 2027 and keeps 2026 only in the headliners table"},
+    {"term": "primavera sound cartel", "volume": "1K-10K", "why": "current line-up intent; the page does not track the line-up, which changes every year (the headliners-by-year table covers past editions)"},
+    {"term": "primavera sound abono", "volume": "10-100", "why": "ticket-buying intent; the page does not sell or price tickets"},
+    {"term": "cuando es primavera sound", "volume": "10-100", "why": "answered by the first FAQ question rather than a separate page"},
+    {"term": "primavera sound lugar", "volume": "10-100", "why": "answered by the location H2 rather than a separate page"}
+  ]
+}

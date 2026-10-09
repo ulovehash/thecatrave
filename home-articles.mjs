@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/es/primavera-sound-barcelona', type:'Guía', topic:'Primavera Sound',
+    title:'Primavera Sound 2027: fechas, lugar y cabezas de cartel por año',
+    description:'Primavera Sound Barcelona 2027 es del 3 al 5 de junio en el Parc del Fòrum, tras 293.000 asistencias en 2025. Cabezas de cartel por año, lugar y edición de Oporto.',
+    image:'img/primavera-sound/festival-crowd-320.webp',
+    srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
+    width:1200, height:800, alt:'Asistentes junto al agua en Primavera Sound Barcelona en 2019, bajo un cielo azul despejado'
+  },
+  {
     page:'es/discotecas-barcelona.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/es/discotecas-barcelona', type:'Guía', topic:'Discotecas Barcelona',
     title:'Discotecas Barcelona: las mejores, de Zeleste a Razzmatazz',
     description:'Compara Razzmatazz, Nitsa, Macarena Club y Moog por barrio y por música, y lee la historia de las salas de Barcelona.',
