@@ -1,0 +1,15 @@
+{
+  "page": "es/boomtown-festival.html",
+  "seed": "boomtown festival",
+  "source": "Live google.es SERP (hl=es, gl=es) and People also ask, 9 October 2026; Google Keyword Planner for Spain returned no row for these phrases. No Ahrefs units spent.",
+  "note": "Volumes are not measured. The es-ES SERP is led by the official site, Wikipedia and 'Festival Boomtown 2027'; the only People-also-ask question was about Boom Festival, so the disambiguation FAQ stays.",
+  "terms": [
+    {"term": "boomtown festival 2027", "volume": null, "note": "page target term, in the title; not measured"},
+    {"term": "boomtown festival", "volume": null, "note": "festival name; not measured"},
+    {"term": "matterley estate", "volume": null, "note": "venue name; not measured"}
+  ],
+  "expansion_checked": true,
+  "rejected": [
+    {"term": "festival boomtown 2027", "volume": null, "why": "word order seen in the SERP; the page uses the official order 'Boomtown Festival 2027'"}
+  ]
+}

@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/boomtown-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/boomtown-festival', type:'Guía', topic:'Boomtown',
+    title:'Boomtown Festival 2027: fechas, lugar, historia y música',
+    description:'Una ciudad ficticia efímera en Hampshire: cuándo es Boomtown 2027, cómo funcionan sus distritos y qué música suena, del drum and bass al punk.',
+    image:'img/boomtown/opening-ceremony-2019-320.webp',
+    srcset:'img/boomtown/opening-ceremony-2019-320.webp 320w,img/boomtown/opening-ceremony-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'El escenario de la ceremonia de apertura de 2019 y el público en Boomtown'
+  },
+  {
     page:'es/mejores-playlists-house-spotify.html', category:'digging', tags:['house','discovery','tools'], href:'/es/mejores-playlists-house-spotify', type:'Lista', topic:'Playlists de house',
     title:'Mejores playlists house en Spotify: 12 selecciones',
     description:'Diez playlists de house enfocadas y dos selecciones señaladas de thecatrave entre house, techno y los espacios intermedios.',
