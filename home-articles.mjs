@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festivales-edm-estados-unidos.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/es/festivales-edm-estados-unidos', type:'Guía', topic:'Festivales EDM',
+    title:'Festivales EDM en Estados Unidos 2027: EDC, Ultra, Movement',
+    description:'EDC, Ultra, Movement, ARC, Lost Lands y Electric Forest comparados por sonido, tamaño y fechas de 2027.',
+    image:'img/us-festivals/beyond-wonderland-2010-320.webp', srcset:'img/us-festivals/beyond-wonderland-2010-320.webp 320w,img/us-festivals/beyond-wonderland-2010-1200.webp 1200w',
+    width:1200, height:900, alt:'Un DJ en el escenario principal de Beyond Wonderland en 2010, con el público debajo'
+  },
+  {
     page:'es/mysteryland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/mysteryland-festival', type:'Guía', topic:'Mysteryland',
     title:'Mysteryland 2027: fechas, recinto, historia y música',
     description:'El festival de música electrónica más antiguo de los Países Bajos según él mismo, en el antiguo recinto de la Floriade: cuándo es Mysteryland 2027, por qué 2026 está en pausa y qué suena.',
