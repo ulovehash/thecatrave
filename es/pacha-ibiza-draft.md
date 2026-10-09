@@ -8,7 +8,7 @@ Pacha Ibiza es una discoteca de la Avenida 8 de Agosto, en las afueras de Ibiza 
 
 Pacha Ibiza combina su Main Room con salas más pequeñas, una azotea y un jardín. Elige la noche por su residencia y compara después la entrada general con las reservas de restaurante o VIP: cada una tiene precios y condiciones distintos.
 
-Para el resto de salas de la isla está la [guía de discotecas de Ibiza](/es/discotecas-ibiza); el club al aire libre de Platja d'en Bossa tiene su propia página en la [guía de Ushuaia Ibiza](/ushuaia-ibiza), y para otros dos locales famosos están la [guía de Berghain](/es/berghain) y la [guía de fabric Londres](/fabric-london).
+Para el resto de salas de la isla está la [guía de discotecas de Ibiza](/es/discotecas-ibiza); el club al aire libre de Platja d'en Bossa tiene su propia página en la [guía de Ushuaia Ibiza](/es/ushuaia-ibiza), y para otros dos locales famosos están la [guía de Berghain](/es/berghain) y la [guía de fabric Londres](/fabric-london).
 
 ## ¿Qué es Pacha Ibiza?
 

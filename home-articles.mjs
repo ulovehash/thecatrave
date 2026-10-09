@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/ushuaia-ibiza.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/es/ushuaia-ibiza', type:'Guía', topic:'Ushuaia Ibiza',
+    title:'Ushuaia Ibiza: entradas, dress code y eventos de la temporada',
+    description:'Ushuaia Ibiza: cuánto cuestan las entradas, el dress code, las residencias de 2026, el hotel, el VIP y cómo llegar a Platja d\'en Bossa.',
+    image:'img/ushuaia-ibiza/dance-floor-2023-320.webp',
+    srcset:'img/ushuaia-ibiza/dance-floor-2023-320.webp 320w,img/ushuaia-ibiza/dance-floor-2023-1200.webp 1200w',
+    width:1200, height:800, alt:'La pista de Ushuaia Ibiza llena alrededor de la piscina al anochecer'
+  },
+  {
     page:'es/pacha-ibiza.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/es/pacha-ibiza', type:'Guía', topic:'Pacha Ibiza',
     title:'Pacha Ibiza: entradas, dress code y calendario 2026',
     description:'Pacha Ibiza: cuánto cuestan las entradas, cómo funciona la mesa VIP y el dress code, dónde está el club, quién es el dueño y cómo leer el calendario 2026.',

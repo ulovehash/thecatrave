@@ -494,5 +494,14 @@
       "where"
     ],
     "paragraphTables": true
+  },
+  "/es/ushuaia-ibiza": {
+    "sections": [
+      "tickets",
+      "dress-code",
+      "vip",
+      "where"
+    ],
+    "paragraphTables": true
   }
 }

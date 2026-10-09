@@ -1,0 +1,15 @@
+{
+  "page": "es/ushuaia-ibiza.html",
+  "seed": "ushuaia ibiza",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {"term": "ushuaia ibiza", "volume": "10K-100K", "note": "head term; the title, the answer and the hero"},
+    {"term": "ushuaia ibiza entradas", "volume": "1K-10K", "note": "the tickets H2, Ushuaia Ibiza entradas: cuánto cuesta entrar"},
+    {"term": "ushuaia ibiza hotel", "volume": "1K-10K", "note": "the hotel H2 and its FAQ question"},
+    {"term": "ushuaia ibiza precio", "volume": "100-1K", "note": "the price H3 (Precio de Ushuaia Ibiza)"},
+    {"term": "ushuaia ibiza dress code", "volume": "100-1K", "note": "the dress code H2; Spanish searchers keep the English phrase"},
+    {"term": "ushuaia ibiza como llegar", "volume": "100-1K", "note": "the transport H2, Cómo llegar a Ushuaia Ibiza (the audit folds accents)"}
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'ushuaia ibiza'. Top results: the official Ushuaia Experience calendar and season pages, Instagram, Wikipedia (the hotel), Clubtickets and hotel-plus-entry offers. People also ask: '¿Cuánto cuesta una entrada para Ushuaïa Ibiza?', '¿Por qué se llama Ushuaia la discoteca?', '¿Cuál es el cartel de Ushuaïa Ibiza 2026?', '¿Quién es el dueño de la discoteca Ushuaia en Ibiza?'. Applied: price, lineup and owner are FAQ entries (and the price and owner H3s), answered only from facts on the English page. Not applied: the name-origin question (the English page does not cover it).",
+  "rejected": []
+}
