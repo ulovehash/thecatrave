@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festivales-musica-electronica-asia.html', category:'festivals', tags:['festivals','asia','house','bass'], href:'/es/festivales-musica-electronica-asia', type:'Guía', topic:'Festivales de Asia',
+    title:'Festivales de música electrónica en Asia 2027: guía',
+    description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP y Zamna: fechas de 2027, precios y qué esperar en cada uno.',
+    image:'img/asia-festivals/ultra-korea-2015-320.webp', srcset:'img/asia-festivals/ultra-korea-2015-320.webp 320w,img/asia-festivals/ultra-korea-2015-1200.webp 1200w',
+    width:1200, height:1174, alt:'El público de Ultra Korea en 2015'
+  },
+  {
     page:'es/creamfields-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/creamfields-festival', type:'Guía', topic:'Creamfields',
     title:'Creamfields 2027: lugar, aforo y edad mínima',
     description:'De una noche de house en Liverpool a cuatro días en Cheshire: dónde se celebra Creamfields, cuánta gente reúne, de quién es y qué suena.',

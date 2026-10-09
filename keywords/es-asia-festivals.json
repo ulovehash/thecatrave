@@ -1,0 +1,41 @@
+{
+  "page": "es/festivales-musica-electronica-asia.html",
+  "seed": "festivales de música electrónica en asia",
+  "source": "Live google.es SERP (hl=es, gl=es) and People also ask, 9 October 2026; Google Keyword Planner for Spain returned no row for a Spanish Asia-festivals phrase. No Ahrefs units spent. The English page's own map is keywords/best-electronic-music-festivals-asia.json.",
+  "note": "Volumes are not measured. The es-ES SERP is led by Tomorrowland Thailand coverage; People also ask '¿Cuáles son algunos festivales importantes en Asia?' is the first FAQ.",
+  "terms": [
+    {
+      "term": "festivales de música electrónica en asia",
+      "volume": null,
+      "note": "SERP wording; title, H1 and answer"
+    },
+    {
+      "term": "festivales de música electrónica en tailandia",
+      "volume": null,
+      "note": "H2 'Festivales de música electrónica en Tailandia, Japón e India'"
+    },
+    {
+      "term": "ultra japan",
+      "volume": null,
+      "note": "festival name; H2"
+    },
+    {
+      "term": "tomorrowland thailand",
+      "volume": null,
+      "note": "SERP-led entity; kept to the English page's two sentences"
+    }
+  ],
+  "expansion_checked": "Free live SERP and People also ask only, 9 October 2026 (LOS40 on Tomorrowland in Asia, EDMtree on EDC Thailand). Paid expansion deferred.",
+  "rejected": [
+    {
+      "term": "edc thailand",
+      "volume": null,
+      "why": "appears in the SERP (EDMtree, Instagram) but the English page has no verified edition for it"
+    },
+    {
+      "term": "festival de electrónica más grande del mundo",
+      "volume": null,
+      "why": "People also ask; the English page gives no verdict beyond Asia"
+    }
+  ]
+}
