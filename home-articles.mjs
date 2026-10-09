@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-sziget.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','house','techno'], href:'/es/festival-sziget', type:'Guía', topic:'Sziget Festival',
+    title:'Sziget Festival 2027: fechas, música, camping y cómo llegar',
+    description:'Cinco días en la isla de Óbuda, en Budapest: cuándo es el Sziget en 2027, qué música suena, cómo funcionan el camping y el acceso por la H5, y qué está confirmado.',
+    image:'img/sziget/island-2022-320.webp',
+    srcset:'img/sziget/island-2022-320.webp 320w,img/sziget/island-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'Vista aérea del Sziget Festival en la isla de Óbuda, en Budapest'
+  },
+  {
     page:'es/festival-untold.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/festival-untold', type:'Guía', topic:'Untold',
     title:'Untold Festival 2027: el festival de Cluj, en Rumanía',
     description:'Cuatro días cada agosto en Cluj-Napoca: cuándo es Untold 2027, dónde se celebra, cómo llegó a ser un festival de 500 000 entradas y qué suena al lado del escenario principal.',

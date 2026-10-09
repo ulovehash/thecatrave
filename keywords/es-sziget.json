@@ -1,0 +1,16 @@
+{
+  "page": "es/festival-sziget.html",
+  "seed": "sziget festival",
+  "source": "Google es-ES SERP read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "sziget festival", "volume": null, "note": "head term, es-ES SERP"},
+    {"term": "sziget festival 2027", "volume": null, "note": "next edition, 10 to 14 August 2027; refresh yearly"},
+    {"term": "dónde se celebra el sziget festival", "volume": null, "note": "question form on the page's FAQ, not a measured PAA"}
+  ],
+  "expansion_checked": ["sziget festival", "sziget 2027"],
+  "rejected": [
+    {"term": "cartel sziget 2026", "volume": null, "why": "PAA about the 2026 line-up; the 2027 line-up is not announced and the English page does not cover 2026"},
+    {"term": "festival del vino de budapest", "volume": null, "why": "different event, off topic"}
+  ]
+}
