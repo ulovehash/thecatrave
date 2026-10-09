@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festivales-musica-electronica-europa.html', category:'festivals', tags:['discovery','techno','house','history'], href:'/es/festivales-musica-electronica-europa', type:'Lista', topic:'Festivales en Europa',
+    title:'Mejores festivales de música electrónica en Europa 2027',
+    description:'Catorce grandes y siete pequeños festivales de música electrónica en Europa en 2027, comparados por sonido, tamaño, entorno y fechas.',
+    image:'img/europe-festivals/kappa-futurfestival-2025-320.webp',
+    srcset:'img/europe-festivals/kappa-futurfestival-2025-320.webp 320w,img/europe-festivals/kappa-futurfestival-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'Un público a plena luz del día bajo la estructura de acero del Futur Stage en el Kappa FuturFestival, en Turín'
+  },
+  {
     page:'es/ushuaia-ibiza.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/es/ushuaia-ibiza', type:'Guía', topic:'Ushuaia Ibiza',
     title:'Ushuaia Ibiza: entradas, dress code y eventos de la temporada',
     description:'Ushuaia Ibiza: cuánto cuestan las entradas, el dress code, las residencias de 2026, el hotel, el VIP y cómo llegar a Platja d\'en Bossa.',
