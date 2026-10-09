@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/discotecas-barcelona.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/es/discotecas-barcelona', type:'Guía', topic:'Discotecas Barcelona',
+    title:'Discotecas Barcelona: las mejores, de Zeleste a Razzmatazz',
+    description:'Compara Razzmatazz, Nitsa, Macarena Club y Moog por barrio y por música, y lee la historia de las salas de Barcelona.',
+    image:'img/barcelona-clubs/razzmatazz-exterior-320.webp',
+    srcset:'img/barcelona-clubs/razzmatazz-exterior-320.webp 320w,img/barcelona-clubs/razzmatazz-exterior-1280.webp 1280w',
+    width:1280, height:822, alt:'La fachada de Sala Razzmatazz en el barrio de Poblenou, Barcelona'
+  },
+  {
     page:'es/discotecas-berlin.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/es/discotecas-berlin', type:'Guía', topic:'Discotecas Berlín',
     title:'Discotecas Berlín: los mejores clubes y sus leyendas',
     description:'De UFO y Tresor a Berghain y Sisyphos: las salas que hicieron de Berlín una ciudad techno, los clubes famosos que cerraron y los que siguen abiertos.',

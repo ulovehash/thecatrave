@@ -2438,5 +2438,41 @@
       "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
       "/img/thecatrave-author-800.jpg"
     ]
+  },
+  "es/discotecas-barcelona.html": {
+    "title": "Discotecas Barcelona: las mejores, de Zeleste a Razzmatazz",
+    "canonical": "https://thecatrave.com/es/discotecas-barcelona",
+    "description": "Compara Razzmatazz, Nitsa, Macarena Club y Moog por barrio y por música, y lee la historia de las salas de Barcelona.",
+    "h1": "Las mejores discotecas de Barcelona: Razzmatazz, Nitsa, Macarena y Moog",
+    "published": "2026-10-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "introduction",
+      "best-clubs-now",
+      "bandcamp-support-title",
+      "zeleste-razzmatazz",
+      "own-set-1",
+      "apolo-nitsa",
+      "macarena",
+      "own-track-look",
+      "where-to-go",
+      "own-set-2",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://bandcamp.com/EmbeddedPlayer/track=3822639635/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "/img/barcelona-clubs/razzmatazz-exterior-1280.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Flook-1&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "https://www.youtube-nocookie.com/embed/l35ok-7n2IU",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/thecatrave-author-800.jpg",
+      "/img/berlin-clubs/berghain-320.webp"
+    ]
   }
 }

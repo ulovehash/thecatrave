@@ -468,5 +468,16 @@
     "sections": [
       "how-berlin-clubs-work"
     ]
+  },
+  "/es/discotecas-barcelona": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 1
+    },
+    "remainderTitles": {
+      "where-to-go": "Escucha Barcelona antes de ir."
+    }
   }
 }

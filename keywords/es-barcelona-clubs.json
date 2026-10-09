@@ -1,0 +1,25 @@
+{
+  "page": "es/discotecas-barcelona.html",
+  "seed": "discotecas barcelona",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {
+      "term": "discotecas barcelona",
+      "volume": "10K-100K",
+      "note": "title, H1 kicker and slug; the SERP for it is VIP-list and nightlife-agency pages about mainstream clubs, so the guide answers the same query with the electronic rooms the English page sources"
+    },
+    {
+      "term": "mejores discotecas de barcelona",
+      "volume": "100-1K",
+      "note": "Respuesta, deck, answer label and the 'ahora' H2 and table label"
+    }
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'discotecas barcelona'. People also ask: '¿Dónde ir a bailar en Barcelona?', '¿Cuál es la mejor zona para salir de fiesta en Barcelona?', '¿Dónde salir de noche en Barcelona?', '¿Cuáles son las 5 mejores discotecas de España?'. Top results: Fourvenues, youbarcelona (Listas VIP Barcelona), Downtown Barcelona, plus an AI overview that groups clubs by zone (Playa y Puerto Olímpico, Zona Alta y Tuset). Applied: the zones H2 and FAQ follow the first three questions, answered only from facts on the English page. Not applied: the 5-best-clubs-in-Spain question (outside the guide) and the mainstream clubs the SERP lists (Opium, Ku, Shôko, Otto Zutz): the English page does not source them.",
+  "rejected": [
+    {
+      "term": "discotecas barcelona vip lista",
+      "volume": null,
+      "why": "guest-list and table-booking intent the SERP serves; not measured and not what this guide is"
+    }
+  ]
+}
