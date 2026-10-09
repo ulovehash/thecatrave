@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/discotecas-ibiza.html', category:'rave-spots', tags:['house','history','discovery'], href:'/es/discotecas-ibiza', type:'Guía', topic:'Discotecas Ibiza',
+    title:'Discotecas Ibiza: Pacha, Amnesia, Hï y las demás',
+    description:'Hï, Pacha, Amnesia, DC-10, Ushuaïa y [UNVRS]: las mejores discotecas de Ibiza, las que cerraron, dónde alojarse y cuándo dura la temporada.',
+    image:'img/ibiza-clubs/pacha-entrance-320.webp',
+    srcset:'img/ibiza-clubs/pacha-entrance-320.webp 320w,img/ibiza-clubs/pacha-entrance-1200.webp 1200w',
+    width:1200, height:675, alt:'La entrada blanca de Pacha en Ibiza ciudad, con sus letras rojas'
+  },
+  {
     page:'es/festival-glastonbury.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history'], href:'/es/festival-glastonbury', type:'Guía', topic:'Glastonbury',
     title:'Festival de Glastonbury: qué es, dónde es y fechas de 2027',
     description:'Cinco días en una granja de Somerset, en Inglaterra: cuándo es Glastonbury 2027, por qué no hubo festival en 2026, dónde es, qué tamaño tiene y quién ha sido headliner.',

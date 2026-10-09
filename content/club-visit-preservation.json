@@ -2356,5 +2356,43 @@
       "/img/monegros/festival-overview-2009-320.webp",
       "/img/budapest-clubs/a38-ship-320.webp"
     ]
+  },
+  "es/discotecas-ibiza.html": {
+    "title": "Discotecas Ibiza: Pacha, Amnesia, Hï y las demás",
+    "canonical": "https://thecatrave.com/es/discotecas-ibiza",
+    "description": "Hï, Pacha, Amnesia, DC-10, Ushuaïa y [UNVRS]: las mejores discotecas de Ibiza, las que cerraron, dónde alojarse y cuándo dura la temporada.",
+    "h1": "Las mejores discotecas de Ibiza: Pacha, Amnesia, Hï y las demás",
+    "published": "2026-10-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "introduction",
+      "own-playlist-rare-electronic-music",
+      "pacha-and-amnesia",
+      "clubs-that-closed",
+      "bandcamp-support-title",
+      "best-clubs-now",
+      "where-to-stay",
+      "season",
+      "own-set-2",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "/img/ibiza-clubs/pacha-entrance-1200.webp",
+      "https://www.youtube-nocookie.com/embed/vbWFtk0JnqE",
+      "https://www.youtube-nocookie.com/embed/y37cDo_CTu4",
+      "/img/ibiza-clubs/privilege-pool-1200.webp",
+      "https://www.youtube-nocookie.com/embed/bSto8j4ziCg",
+      "https://bandcamp.com/EmbeddedPlayer/track=3822639635/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "https://www.youtube-nocookie.com/embed/yvG85jBbjaE",
+      "https://www.youtube-nocookie.com/embed/AGdA7cmSkFk",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/thecatrave-author-800.jpg"
+    ]
   }
 }

@@ -449,5 +449,19 @@
     "remainderTitles": {
       "where-to-go": "Écouter Mexico avant d’y aller."
     }
+  },
+  "/es/discotecas-ibiza": {
+    "sections": [
+      "season",
+      "where-to-stay"
+    ],
+    "extractCounts": {
+      "season": 2,
+      "where-to-stay": 1
+    },
+    "remainderTitles": {
+      "season": "Más música de Ibiza.",
+      "where-to-stay": "Ibiza más allá de los clubes."
+    }
   }
 }

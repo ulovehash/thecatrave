@@ -3,7 +3,7 @@ import fs from 'node:fs';
 // An explicit editorial mapping, not a heading-keyword guess. Existing content
 // remains owned by each draft; only its placement and heading depth change here.
 export const clubVisitLayouts = JSON.parse(fs.readFileSync(new URL('./content/club-visit-layouts.json', import.meta.url), 'utf8'));
-const titles = {en: 'Plan your visit', de: 'Plane deinen Besuch', fr: 'Préparer votre visite'};
+const titles = {en: 'Plan your visit', de: 'Plane deinen Besuch', fr: 'Préparer votre visite', es: 'Prepara tu visita'};
 
 function sectionAt(html, id) {
   const open = [...html.matchAll(/<section\b[^>]*>/g)].find(m => m[0].includes(` id="${id}"`));
