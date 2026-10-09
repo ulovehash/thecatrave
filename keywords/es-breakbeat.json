@@ -1,0 +1,40 @@
+{
+  "page": "es/breakbeat.html",
+  "seed": "breakbeat",
+  "source": "Keyword Planner, Spain, 9 October 2026 (head term bucket); live es-ES SERP and People-also-ask read on google.es the same day; no Ahrefs units spent",
+  "terms": [
+    {
+      "term": "breakbeat",
+      "volume": "1K-10K",
+      "note": "Spain, Keyword Planner bucket; title, H1 and every section"
+    },
+    {
+      "term": "qué es el breakbeat",
+      "volume": "not measured",
+      "note": "title and H1; the PAA asks what breakbeat means"
+    },
+    {
+      "term": "breakbeat andaluz",
+      "volume": "not measured",
+      "note": "title, the Andalusia H3 and a FAQ; prominent in the es-ES SERP"
+    },
+    {
+      "term": "quién inventó el breakbeat",
+      "volume": "not measured",
+      "note": "FAQ, from the PAA"
+    }
+  ],
+  "expansion_checked": "Live es-ES SERP and PAA only, 9 October 2026. Paid expansion not run.",
+  "rejected": [
+    {
+      "term": "breakbeat samples",
+      "volume": "not measured",
+      "why": "files for producers (WRITING.md)"
+    },
+    {
+      "term": "breakbeat pattern",
+      "volume": "not measured",
+      "why": "production teaching (WRITING.md)"
+    }
+  ]
+}

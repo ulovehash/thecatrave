@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/breakbeat.html', category:'music-history', tags:['breaks','history','uk','nineties'], href:'/es/breakbeat', type:'Guía', topic:'Breakbeat',
+    title:'Qué es el breakbeat: historia, estilos y breakbeat andaluz',
+    description:'De los breaks funk y el hip-hop a la rave británica, Florida y Andalucía, el big beat y el nu-skool.',
+    image:'img/amen-320.webp', srcset:'img/amen-320.webp 320w,img/amen-1200.webp 1200w',
+    width:1200, height:800, alt:'La forma de onda y el patrón de batería del break Amen'
+  },
+  {
     page:'es/festivales-nochevieja.html', category:'festivals', tags:['festivals','newyear','europe','usa'], href:'/es/festivales-nochevieja', type:'Guía', topic:'Nochevieja',
     title:'Festivales de Nochevieja 2026-2027: los mejores',
     description:'FCKNYE, Countdown NYE, Decadence, Rhythm and Vines y Awakenings, con fechas y lugares.',
