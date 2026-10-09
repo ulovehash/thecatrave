@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/historia-musica-electronica-reino-unido.html', category:'music-history', tags:['uk','history','overview'], href:'/es/historia-musica-electronica-reino-unido', type:'Cronología', topic:'Música británica',
+    title:'Historia de la música electrónica en el Reino Unido',
+    description:'Diez sonidos que pasaron de escenas regionales underground a la cultura global.',
+    image:'img/bmb-320.webp', srcset:'img/bmb-320.webp 320w,img/bmb.webp 1024w',
+    width:1024, height:683, alt:'Artistas de música electrónica británica actuando en un club oscuro'
+  },
+  {
     page:'es/festivales-musica-electronica-europa.html', category:'festivals', tags:['discovery','techno','house','history'], href:'/es/festivales-musica-electronica-europa', type:'Lista', topic:'Festivales en Europa',
     title:'Mejores festivales de música electrónica en Europa 2027',
     description:'Catorce grandes y siete pequeños festivales de música electrónica en Europa en 2027, comparados por sonido, tamaño, entorno y fechas.',
