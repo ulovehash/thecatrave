@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/ultra-music-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/ultra-music-festival', type:'Guía', topic:'Ultra',
+    title:'Ultra Music Festival 2027: fechas, lugar, edad mínima y público',
+    description:'Ultra vuelve a Bayfront Park, en Miami, del 26 al 28 de marzo de 2027: el lugar, el tamaño, la historia, Ultra Europe en Split y la música lejos del Main Stage.',
+    image:'img/ultra/bayfront-2014-320.webp',
+    srcset:'img/ultra/bayfront-2014-320.webp 320w,img/ultra/bayfront-2014-1200.webp 1200w',
+    width:1200, height:900, alt:'Bayfront Park, en Miami, visto desde arriba durante Ultra Music Festival 2014'
+  },
+  {
     page:'es/festival-exit.html', category:'festivals', tags:['festival','history','discovery'], href:'/es/festival-exit', type:'Guía', topic:'Festival EXIT',
     title:'EXIT Festival: de Novi Sad a la gira mundial',
     description:'Historia, fortaleza de Petrovaradin, Dance Arena y qué pasa tras la última edición serbia de 2025.',

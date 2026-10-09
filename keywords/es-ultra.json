@@ -1,0 +1,44 @@
+{
+  "page": "es/ultra-music-festival.html",
+  "seed": "ultra music festival",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "ultra music festival",
+      "volume": null,
+      "note": "head term, es-ES SERP"
+    },
+    {
+      "term": "ultra music festival 2027",
+      "volume": null,
+      "note": "SERP query; 26 to 28 March 2027"
+    },
+    {
+      "term": "dónde es el ultra music festival",
+      "volume": null,
+      "note": "Google People also ask, es-ES"
+    },
+    {
+      "term": "cuánto cuesta una entrada para ultra",
+      "volume": null,
+      "note": "Google People also ask, es-ES"
+    },
+    {
+      "term": "ultra europe 2027",
+      "volume": null,
+      "note": "SERP and PAA (Ultra Split 2027), 9 to 11 July 2027"
+    }
+  ],
+  "expansion_checked": [
+    "ultra music festival",
+    "ultra music festival 2027"
+  ],
+  "rejected": [
+    {
+      "term": "ultra buenos aires 2027",
+      "volume": null,
+      "why": "PAA asks it, but the guide has no Buenos Aires edition facts"
+    }
+  ]
+}
