@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-glastonbury.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history'], href:'/es/festival-glastonbury', type:'Guía', topic:'Glastonbury',
+    title:'Festival de Glastonbury: qué es, dónde es y fechas de 2027',
+    description:'Cinco días en una granja de Somerset, en Inglaterra: cuándo es Glastonbury 2027, por qué no hubo festival en 2026, dónde es, qué tamaño tiene y quién ha sido headliner.',
+    image:'img/glastonbury/aerial-2022-320.webp',
+    srcset:'img/glastonbury/aerial-2022-320.webp 320w,img/glastonbury/aerial-2022-1200.webp 1200w',
+    width:1200, height:800, alt:'Worthy Farm vista desde el aire en junio de 2022, con los campos llenos de tiendas y carpas'
+  },
+  {
     page:'es/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/es/monegros-desert-festival', type:'Guía', topic:'Monegros Desert Festival',
     title:'Monegros Desert Festival 2027: fecha, historia y cómo llegar',
     description:'Un único evento electrónico larguísimo cerca de Fraga, en Aragón, con raíces en la Florida 135: fecha de 2027, historia, música, formato nocturno y cómo llegar.',

@@ -1,0 +1,65 @@
+{
+  "page": "es/festival-glastonbury.html",
+  "seed": "glastonbury",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {
+      "term": "glastonbury",
+      "volume": "1K-10K",
+      "note": "head term; H1 and Respuesta"
+    },
+    {
+      "term": "glastonbury festival",
+      "volume": "1K-10K",
+      "note": "H1/title, FAQ"
+    },
+    {
+      "term": "festival de glastonbury",
+      "volume": "1K-10K",
+      "note": "title, H2"
+    },
+    {
+      "term": "glastonbury 2027",
+      "volume": "100-1K",
+      "note": "H2 dates, refreshed yearly"
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed list, Spain only. Live es-ES SERP and People-also-ask not read in this pass; still open.",
+  "rejected": [
+    {
+      "term": "glastonbury cartel",
+      "volume": "10-100",
+      "why": "dated line-up; headliners are in a table by year"
+    },
+    {
+      "term": "glastonbury entradas",
+      "volume": "10-100",
+      "why": "transactional; one planner block, not targeted"
+    },
+    {
+      "term": "glastonbury festival 2027",
+      "volume": "10-100",
+      "why": "covered by glastonbury 2027 plus glastonbury festival"
+    },
+    {
+      "term": "glastonbury qué es",
+      "volume": null,
+      "why": "no row returned (not measured); answered in the Respuesta, natural word order"
+    },
+    {
+      "term": "glastonbury inglaterra",
+      "volume": "1K-10K",
+      "why": "words appear in natural Spanish order, not adjacent (Inglaterra, headliners and historia are in the Respuesta and H2s); not forced"
+    },
+    {
+      "term": "glastonbury headliners",
+      "volume": "10-100",
+      "why": "words appear in natural Spanish order, not adjacent (Inglaterra, headliners and historia are in the Respuesta and H2s); not forced"
+    },
+    {
+      "term": "glastonbury historia",
+      "volume": "10-100",
+      "why": "words appear in natural Spanish order, not adjacent (Inglaterra, headliners and historia are in the Respuesta and H2s); not forced"
+    }
+  ]
+}
