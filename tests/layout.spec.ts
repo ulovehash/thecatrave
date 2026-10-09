@@ -92,7 +92,7 @@ for (const route of routes) {
         const blocks = [...document.querySelectorAll<HTMLElement>('.article-media-band-full, .context-listening-full, .listening-block-full')];
         return blocks.map(block => ({
           className: block.className,
-          ownPromotion: /^own-(set|playlist)-/.test(block.getAttribute('aria-labelledby') || ''),
+          ownPromotion: /^own-(set|playlist|track)-/.test(block.getAttribute('aria-labelledby') || ''),
           width: block.getBoundingClientRect().width,
           sectionWidth: block.closest('.article-section')?.getBoundingClientRect().width || 0,
           proseWidth: (block.closest('.article-section') || block.parentElement?.querySelector('.article-section'))?.getBoundingClientRect().width || 0,

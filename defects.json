@@ -488,7 +488,7 @@
       "should_have_caught": "nothing: no audit compares counts stated in prose with each other",
       "fix": {
         "file": "london-clubs-draft.md",
-        "contains": "It is on all three club lists this guide read"
+        "contains": "by the three lists that review the city most closely"
       }
     },
     {
