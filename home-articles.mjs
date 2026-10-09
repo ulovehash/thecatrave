@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mejores-sets-boiler-room.html', category:'digging', tags:['uk','house','bass','discovery'], href:'/es/mejores-sets-boiler-room', type:'Lista', topic:'Boiler Room',
+    title:'Los mejores sets de Boiler Room de todos los tiempos',
+    description:'Dieciocho sets elegidos por lo que ocurre en ellos, junto a los diez más vistos, contados sobre 8.206 grabaciones.',
+    image:'img/boiler-room/carl-cox-320.webp', srcset:'img/boiler-room/carl-cox-320.webp 320w,img/boiler-room/carl-cox-1200.webp 1200w',
+    width:1200, height:800, alt:'Carl Cox pinchando en el Amsterdam Dance Event'
+  },
+  {
     page:'es/festivales-edm-estados-unidos.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/es/festivales-edm-estados-unidos', type:'Guía', topic:'Festivales EDM',
     title:'Festivales EDM en Estados Unidos 2027: EDC, Ultra, Movement',
     description:'EDC, Ultra, Movement, ARC, Lost Lands y Electric Forest comparados por sonido, tamaño y fechas de 2027.',

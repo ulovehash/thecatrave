@@ -50,7 +50,7 @@ const watchedRows = [
   [10, 'Chase & Status', 'London', 2023, 14.68, 219003, 14.9]
 ];
 
-const locale = {de: 'de-DE', fr: 'fr-FR'};
+const locale = {de: 'de-DE', es: 'es-ES', fr: 'fr-FR'};
 
 export function boilerRoomMedia({lang, text}) {
   const nf = new Intl.NumberFormat(locale[lang]);
