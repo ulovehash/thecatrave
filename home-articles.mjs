@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/drum-and-bass.html', category:'music-history', tags:['breaks', 'uk', 'nineties', 'bass'], href:'/es/drum-and-bass', type:'Guía', topic:'Drum and bass',
+    title:'Qué es el drum and bass: 174 BPM, historia y subgéneros',
+    description:'Breakbeats rápidos, sub-bajo profundo y el continuo rave británico detrás de un género mundial: cómo se separó del jungle, cómo está construido y adónde fue.',
+    image:'img/dnb/roni-size-320.webp',
+    srcset:'img/dnb/roni-size-320.webp 320w,img/dnb/roni-size.webp 1120w',
+    width:1120, height:747, alt:'Roni Size tras una mesa de mezclas bajo una luz de escenario verde'
+  },
+  {
     page:'es/musica-trance.html', category:'music-history', tags:['history', 'trance', 'psytrance'], href:'/es/musica-trance', type:'Guía', topic:'Trance',
     title:'Qué es la música trance: orígenes, artistas y sonido',
     description:'Una subida, un breakdown y un drop nacidos en los clubes de Fráncfort: cómo el trance llegó a los festivales y cómo divergió el psytrance.',

@@ -1,0 +1,18 @@
+{
+  "page": "es/drum-and-bass.html",
+  "seed": "que es el drum and bass",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "qué es el drum and bass", "volume": null, "note": "title and H1, es-ES SERP wording"},
+    {"term": "drum and bass", "volume": null, "note": "head term; Spanish searchers use the English name"},
+    {"term": "drum n bass", "volume": null, "note": "es-ES PAA: 'qué significa drum n bass'"},
+    {"term": "DnB", "volume": null, "note": "FAQ"},
+    {"term": "jungle", "volume": null, "note": "section; SERP result 'Drum and bass y jungle'"}
+  ],
+  "expansion_checked": "es-ES SERP and People also ask for 'que es el drum and bass', 10 October 2026.",
+  "rejected": [
+    {"term": "bass drum en español", "reason": "es-ES PAA; the instrument (bombo), not the genre"},
+    {"term": "que es dnb en apuestas", "reason": "es-ES related search; betting abbreviation, unrelated"}
+  ]
+}
