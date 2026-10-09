@@ -1667,6 +1667,22 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/arc-music-festival.html', category:'festivals', tags:['house','techno','festival'], href:'/es/arc-music-festival', type:'Guía', topic:'ARC Music Festival',
+    title:'ARC Music Festival 2027: guía de Chicago, escenarios y acceso',
+    description:'ARC Music Festival lleva el house y el techno a Union Park, en Chicago. Escenarios, historia, cómo llegar en la CTA, After Dark y la edición 2027 aún por confirmar.',
+    image:'img/arc-music-festival/arc-union-park-320.webp',
+    srcset:'img/arc-music-festival/arc-union-park-320.webp 320w,img/arc-music-festival/arc-union-park-1200.webp 1200w',
+    width:1024, height:768, alt:'Union Park, en Chicago, con el perfil del centro de la ciudad al fondo'
+  },
+  {
+    page:'es/airbeat-one-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','hardstyle','trance'], href:'/es/airbeat-one-festival', type:'Guía', topic:'Airbeat One Festival',
+    title:'Airbeat One Festival 2027: fechas, escenarios, camping y viaje',
+    description:'Airbeat One 2027 se celebra del 7 al 11 de julio en Neustadt-Glewe: guía de sus escenarios de EDM, techno, hardstyle y psytrance, del camping y del viaje.',
+    image:'img/airbeat-one/airbeat-arena-320.webp',
+    srcset:'img/airbeat-one/airbeat-arena-320.webp 320w,img/airbeat-one/airbeat-arena-1200.webp 1200w',
+    width:1200, height:754, alt:'Público y producción en el Arena Stage de Airbeat One'
+  },
+  {
     page:'es/burning-man.html', category:'festivals', tags:['house','history','discovery'], href:'/es/burning-man', type:'Guía', topic:'Burning Man',
     title:'Qué es Burning Man: la ciudad del desierto y su música',
     description:'Burning Man no es un festival con cartel sino una ciudad efímera en Nevada: qué se hace, dónde es, cuánto cuesta y qué ponen los sound camps.',

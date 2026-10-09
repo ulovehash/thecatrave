@@ -146,6 +146,37 @@ es.monegros = {
   links:[['Web oficial','https://monegrosfestival.com/en/'],['Entradas 2027','https://www.enterticket.es/eventos/monegros-desert-festival-2027-116435'],['FAQ','https://monegrosfestival.com/en/faqs'],['Cómo llegar','https://monegrosfestival.com/en/how-to-arrive'],['Google Maps',maps.monegros]]
 };
 
+es.arc = {
+  festivalName:'ARC Music Festival',
+  intro:'Union Park está junto a una estación de la CTA accesible y no ofrece aparcamiento para asistentes. La edición de 2027 sigue sin confirmarse: no reserves nada no reembolsable hasta que se anuncien oficialmente las fechas y la venta.',
+  ticketIntro:'ARC no ha anunciado las fechas ni los precios de 2027. Esto son estados, no estimaciones.', ticketColumns:['Pase','Estado actual'],
+  ticketRows:[['Entrada general 2027','Fechas y venta sin anunciar','No disponible'],['Global VIP 2027','Fechas y venta sin anunciar','No disponible'],['ICON VIP+ 2027','Fechas y venta sin anunciar','No disponible'],['ARC After Dark','Eventos separados; acceso a la venta para quienes tienen entrada','Entrada aparte']],
+  ticketNote:'La web oficial recoge inscripciones para 2027. Los precios de 2026 no son una tarifa válida para la próxima edición.',
+  routes:[['CTA Green o Pink Line hasta Ashland','La estación Ashland está en la esquina noroeste del parque y tiene una entrada accesible.','Estación Ashland en Google Maps','https://www.google.com/maps/search/?api=1&query=Ashland+Green+Pink+Line+Chicago'],['Autobús CTA 9 o 20','El 9 recorre el lado oeste. El 20 para al sur y conecta directamente con Ogilvie, junto a Union Station.'],['Desde el aeropuerto, pasando por el centro','Toma la Blue Line desde O’Hare o la Orange Line desde Midway y después la Green o la Pink hasta Ashland.']],
+  routeNote:'ARC no ofrece aparcamiento para visitantes ni zonas públicas autorizadas alrededor de Union Park. Usa la CTA o un punto de bajada de VTC.',
+  accommodation:['ARC no tiene camping. Aloja cerca de las líneas Green o Pink, en el West Loop o en el centro, con una conexión sencilla en la CTA. Compara el precio final y las condiciones de cancelación del socio oficial.','Información oficial de hoteles','https://arcmusicfestival.com/faqs/'],
+  spending:['ARC no ha publicado carta de comida ni de bar para 2027. El festival funciona sin efectivo, acepta tarjetas y carteras móviles y no tiene cajeros automáticos.',[['Precios de comida 2027','No publicados'],['Precios de bar 2027','No publicados'],['Recarga de agua','Puntos gratuitos'],['Efectivo','No se acepta']],'FAQ oficial de ARC','https://arcmusicfestival.com/faqs/'],
+  links:[['Web oficial','https://arcmusicfestival.com/'],['Entradas','https://arcmusicfestival.com/tickets/'],['FAQ y transporte','https://arcmusicfestival.com/faqs/'],['Objetos permitidos','https://arcmusicfestival.com/whattobring/'],['Union Park en Google Maps',maps.arc]],
+  rulesNote:'ARC es solo para mayores de 18 años, exige un documento de identidad oficial y permite una sola entrada por día. Habrá que volver a comprobar los horarios para 2027.',
+  packing:['Documento de identidad oficial que acredite 18 años','Entrada digital guardada antes de llegar','Bolsa de hidratación vacía y desmontable','Crema solar, ropa de lluvia y tapones para los oídos','Bolso pequeño de hasta 16 × 16 × 8 pulgadas (unos 40 × 40 × 20 cm)'],
+  avoid:['Mochilas o bolsos mayores de 16 × 16 × 8 pulgadas','Comida o bebida de fuera sin necesidad médica documentada','Envases de vidrio o metal, neveras, sillas y paraguas','Salir pensando que se puede volver a entrar el mismo día','Ir en coche sin aparcamiento privado confirmado']
+};
+es.airbeat = {
+  festivalName:'Airbeat One 2027',
+  intro:'Airbeat One combina una entrada de festival, una zona de camping concreta y, para quien conduce, un producto de vehículo aparte. Comprueba los tres antes de comprar, porque una entrada de camping no da acceso a las demás zonas.',
+  ticketIntro:'La página oficial no muestra ahora ninguna tarifa pública. Consulta la tienda en vivo y no uses precios de una edición anterior.', ticketColumns:['Producto','Estado actual'],
+  ticketRows:[['Entrada de festival','7–11 de julio de 2027','Ver la tienda'],['Entrada de camping','Elegir la zona correcta','Producto aparte'],['Pase de coche','Según camping o aparcamiento','Producto aparte'],['Lanzadera de aeropuerto o ciudad','Berlín, Hamburgo y algunos trayectos','Suplemento de pago']],
+  ticketNote:'La guía de reservas exige productos de festival, camping y vehículo compatibles. Algunos aparcamientos no se venden en el recinto.',
+  routes:[['Tren hasta Neustadt-Glewe y lanzadera gratuita','Las líneas amarilla y verde unen la estación con las entradas sur y norte.','Estación en Google Maps','https://www.google.com/maps/search/?api=1&query=Bahnhof+Neustadt-Glewe'],['Tren de larga distancia hasta Ludwigslust','Ludwigslust tiene más conexiones. Airbeat One indica un autobús de enlace de pago para el último tramo.'],['Autobús desde Berlín o Hamburgo','Salen autobuses de pago desde BER y desde el aeropuerto de Hamburgo. Reserva la vuelta correcta en la tienda oficial.','Llegada oficial desde los aeropuertos','https://airbeat-one.de/en/getting-there/airplane/']],
+  routeNote:'Las lanzaderas locales gratuitas tienen horarios propios según la línea. Pasada la medianoche, la línea violeta solo va hacia el aparcamiento diurno P5.',
+  accommodation:['La mayoría de los visitantes acampan en el aeródromo, pero el acceso solo vale para la zona reservada. Quien se aloje en un hotel necesita un enlace planificado en lanzadera, taxi o tren.','Combinaciones de reserva oficiales','https://airbeat-one.de/en/how-to-book/'],
+  spending:['No hay una tabla de precios completa para 2027. En el camping se admiten comida y bebida sin límite de cantidad, pero sin vidrio. En la arena están prohibidas.',[['Lanzadera local','Gratuita'],['Zona de comida del camping','Precios no publicados'],['Máquinas 24 h','Disponibles'],['Supermercados más cercanos','a unos 1 km']],'Comida oficial en el camping','https://customerservice.airbeat-one.de/hc/en-150/articles/115004834245-food-drinks-at-the-camp-site'],
+  links:[['Web oficial','https://airbeat-one.de/en/'],['Entradas 2027','https://airbeat-one.de/en/tickets/'],['Guía de reservas','https://airbeat-one.de/en/how-to-book/'],['Transporte y lanzaderas','https://airbeat-one.de/en/getting-there/'],['Aeródromo en Google Maps',maps.airbeat]],
+  rulesNote:'El camping permite comida y bebida, pero no vidrio. La arena aplica normas más estrictas. Vuelve a comprobar las restricciones por el tiempo sobre gas y barbacoas.',
+  packing:['Entradas compatibles de festival, camping y vehículo','Documento de identidad y reserva de tren o autobús sin conexión','Tienda, saco, tapones para los oídos y batería externa','Provisiones de camping en envases sin vidrio','Cantimplora plegable y bolso de arena de tamaño A4 como máximo'],
+  avoid:['Vidrio en todo el aeródromo','Bolsos de arena mayores que A4 o mochilas','Comida, bebida, latas o botellas rígidas en la arena','Fuego abierto; las barbacoas pueden estar restringidas según el tiempo','Llegar en coche sin el pase correcto reservado']
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),
@@ -154,7 +185,7 @@ const normalize = value => ({
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
   links:value.links.map(([label,url]) => ({label,url})),
   checked:'2026-10-06',
-  checkedLabel: value === data.es.monegros ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);
