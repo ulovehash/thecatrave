@@ -1,0 +1,30 @@
+{
+  "page": "es/festivales-nochevieja.html",
+  "seed": "festivales nochevieja música electrónica",
+  "source": "Keyword Planner (Spain), 9 October 2026, returned no row for the Nochevieja festival phrases tried; live google.es SERP and People-also-ask read the same day (hl=es, gl=es)",
+  "terms": [
+    {
+      "term": "festivales de Nochevieja",
+      "volume": "no data",
+      "note": "title, hero H1 and answer"
+    }
+  ],
+  "expansion_checked": "Free live SERP and People-also-ask only, 9 October 2026. The English page's own map is keywords/new-years-eve-festivals.json.",
+  "rejected": [
+    {
+      "term": "fiestas de Nochevieja en discotecas",
+      "volume": "no data",
+      "why": "SERP intent is local Spanish club parties and ticket pages; the English page covers festivals abroad, not Spanish club nights"
+    },
+    {
+      "term": "mejores festivales de música electrónica / festivales en España",
+      "volume": "no data",
+      "why": "People also ask, generic; covered by the Europe roundup and the Spanish festival guides"
+    },
+    {
+      "term": "festival de Año Nuevo",
+      "volume": "no data",
+      "why": "SERP also uses Año Nuevo, but the page says Nochevieja throughout"
+    }
+  ]
+}

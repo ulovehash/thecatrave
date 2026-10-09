@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festivales-nochevieja.html', category:'festivals', tags:['festivals','newyear','europe','usa'], href:'/es/festivales-nochevieja', type:'Guía', topic:'Nochevieja',
+    title:'Festivales de Nochevieja 2026-2027: los mejores',
+    description:'FCKNYE, Countdown NYE, Decadence, Rhythm and Vines y Awakenings, con fechas y lugares.',
+    image:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp', srcset:'img/nye-festivals/awakenings-gashouder-nye-2017-320.webp 320w,img/nye-festivals/awakenings-gashouder-nye-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'Haces rojos y una estructura luminosa sobre el público en el Gashouder, en Awakenings, Ámsterdam'
+  },
+  {
     page:'es/jungle.html', category:'music-history', tags:['breaks','uk','nineties','soundsystem'], href:'/es/jungle', type:'Guía', topic:'Jungle',
     title:'Qué es el jungle: historia, sonido y temas clave',
     description:'Radio pirata, dubplates, energía de MC y el regreso de un sonido negro británico.',
