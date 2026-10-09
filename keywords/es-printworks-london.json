@@ -1,0 +1,14 @@
+{
+  "page": "es/printworks-london.html",
+  "seed": "printworks london",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {"term": "printworks london", "volume": "100-1K", "note": "head term; the title, the answer and the hero. Spanish searchers keep the English name"}
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'printworks london': English results lead (Wikipedia, Tripadvisor, the venue site, ticket pages). People also ask 'Is Printworks London coming back?', 'Why is Printworks London closed?', 'Is Drumsheds the new Printworks?', all already H2s on the English page and applied as the coming-back, why-closed and Drumsheds H2s. A second search, 'printworks londres reapertura', returned Spanish news about the possible 2026 reopening and no People-also-ask box.",
+  "rejected": [
+    {"term": "printworks", "volume": "no data", "why": "no Keyword Planner row for Spain"},
+    {"term": "printworks londres", "volume": "no data", "why": "no Keyword Planner row; Spanish news uses the English name or this form, and the page keeps the venue's own name"},
+    {"term": "printworks london reapertura", "volume": "no data", "why": "no Keyword Planner row; the reopening H2 covers the intent"}
+  ]
+}

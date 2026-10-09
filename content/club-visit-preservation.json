@@ -2603,5 +2603,48 @@
       "/img/thecatrave-author-800.jpg",
       "/img/berghain/berghain-facade-320.webp"
     ]
+  },
+  "es/printworks-london.html": {
+    "title": "Printworks London: reapertura, cierre e historia",
+    "canonical": "https://thecatrave.com/es/printworks-london",
+    "description": "Printworks London cerró en mayo de 2023. Qué está previsto oficialmente, por qué cerró, sus salas y aforo, noches míticas, Drumsheds y adónde ir mientras tanto.",
+    "h1": "Printworks London: reapertura, cierre e historia",
+    "published": "2026-10-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "introduction",
+      "own-playlist-rare-electronic-music",
+      "coming-back",
+      "bandcamp-support-title",
+      "official",
+      "why-closed",
+      "history",
+      "own-set-1",
+      "rooms",
+      "lineup",
+      "own-set-2",
+      "drumsheds",
+      "instead",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "https://bandcamp.com/EmbeddedPlayer/track=3192532299/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "https://www.youtube-nocookie.com/embed/GPuZwMmd4YI",
+      "https://www.youtube-nocookie.com/embed/nrcgEPEuWQY",
+      "/img/printworks-london/gate-2010-1200.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "https://www.youtube-nocookie.com/embed/6ag9s7vfy_c",
+      "https://www.youtube-nocookie.com/embed/XNwuQ24X39U",
+      "https://www.youtube-nocookie.com/embed/l1g6nJXC9pI",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/thecatrave-author-800.jpg",
+      "/img/berghain/berghain-facade-320.webp"
+    ]
   }
 }

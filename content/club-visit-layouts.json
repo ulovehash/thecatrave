@@ -503,5 +503,12 @@
       "where"
     ],
     "paragraphTables": true
+  },
+  "/es/printworks-london": {
+    "sections": [
+      "coming-back",
+      "instead"
+    ],
+    "title": "Printworks: cierre y reapertura"
   }
 }

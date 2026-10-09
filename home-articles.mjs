@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/printworks-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/es/printworks-london', type:'Guía', topic:'Printworks London',
+    title:'Printworks London: reapertura, cierre e historia',
+    description:'Printworks London cerró en mayo de 2023: qué está previsto oficialmente, por qué cerró, sus salas y aforo, Drumsheds y adónde ir mientras tanto.',
+    image:'img/printworks-london/gate-2010-320.webp',
+    srcset:'img/printworks-london/gate-2010-320.webp 320w,img/printworks-london/gate-2010-1200.webp 1200w',
+    width:1200, height:797, alt:'Una verja en la imprenta de Harmsworth Quays, en Rotherhithe, en 2010'
+  },
+  {
     page:'es/mejores-sets-boiler-room.html', category:'digging', tags:['uk','house','bass','discovery'], href:'/es/mejores-sets-boiler-room', type:'Lista', topic:'Boiler Room',
     title:'Los mejores sets de Boiler Room de todos los tiempos',
     description:'Dieciocho sets elegidos por lo que ocurre en ellos, junto a los diez más vistos, contados sobre 8.206 grabaciones.',
