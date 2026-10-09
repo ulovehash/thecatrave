@@ -29,7 +29,8 @@ const text = html => html
   .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
   .replace(/[\u2010-\u2015-]/g, ' ')   // "2-step" and "2 step" are the same query
   .replace(/\s+/g, ' ')
-  .toLowerCase();
+  .toLowerCase()
+  .normalize('NFD').replace(/[\u0300-\u036f]/g, '');   // Google folds accents: "Sónar" answers "sonar"
 
 const guides = pages.filter(p => p.kind === 'guide');
 const maps = fs.readdirSync(DIR).filter(f => f.endsWith('.json'))
@@ -47,7 +48,7 @@ for (const [file, map] of maps) {
   checked += 1;
   for (const {term, volume} of map.terms) {
     terms += 1;
-    const needle = term.toLowerCase().replace(/[\u2010-\u2015-]/g, ' ').replace(/\s+/g, ' ');
+    const needle = term.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[\u2010-\u2015-]/g, ' ').replace(/\s+/g, ' ');
     if (!body.includes(needle)) failures.push(`${map.page}: "${term}" (${volume}/mo) is targeted but absent`);
   }
 }

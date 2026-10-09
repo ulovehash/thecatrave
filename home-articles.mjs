@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/sonar-barcelona.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/sonar-barcelona', type:'Guía', topic:'Sónar',
+    title:'Sónar Barcelona: qué es, dónde es y fechas de 2027',
+    description:'Tres días cada junio en Barcelona desde 1994, de día y de noche: dónde es el Sónar, cómo ha crecido, de quién es ahora y el Sónar 2027, del 17 al 19 de junio.',
+    image:'img/sonar/sonar-by-day-2016-320.webp',
+    srcset:'img/sonar/sonar-by-day-2016-320.webp 320w,img/sonar/sonar-by-day-2016-1200.webp 1200w',
+    width:1200, height:801, alt:'Una multitud ante el escenario SonarVillage en Fira Montjuïc, con el Palau Nacional detrás'
+  },
+  {
     page:'es/tomorrowland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/tomorrowland-festival', type:'Guía', topic:'Tomorrowland',
     title:'Tomorrowland: qué es, dónde es y cuándo es en 2027',
     description:'Un parque de Boom, en Bélgica, que el mundo conoce sobre todo por la retransmisión: qué es Tomorrowland, dónde se celebra, cuánta gente va, de quién es y qué suena lejos de la Mainstage.',

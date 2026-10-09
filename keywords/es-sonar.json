@@ -1,0 +1,80 @@
+{
+  "page": "es/sonar-barcelona.html",
+  "seed": "sonar",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {
+      "term": "sonar",
+      "volume": "10K-100K",
+      "note": "head term; Sónar written without accent in the quoted query"
+    },
+    {
+      "term": "sonar festival",
+      "volume": "1K-10K",
+      "note": "FAQ question and quoted query"
+    },
+    {
+      "term": "sonar barcelona",
+      "volume": "1K-10K",
+      "note": "title and slug es/sonar-barcelona"
+    },
+    {
+      "term": "sonar by night",
+      "volume": "1K-10K",
+      "note": "H3 Sónar by Day y Sónar by Night"
+    },
+    {
+      "term": "off sonar",
+      "volume": "1K-10K",
+      "note": "H2 OFFSónar y la Sónar Week"
+    },
+    {
+      "term": "sonar festival barcelona",
+      "volume": "100-1K",
+      "note": "H1 Sónar Festival Barcelona"
+    },
+    {
+      "term": "sonar by day",
+      "volume": "100-1K",
+      "note": "H3"
+    },
+    {
+      "term": "sonar d",
+      "volume": "100-1K",
+      "note": "H3 Sónar+D"
+    },
+    {
+      "term": "sonar 2027",
+      "volume": "100-1K",
+      "note": "H2 dates, refreshed yearly"
+    },
+    {
+      "term": "cuándo es el sonar",
+      "volume": "10-100",
+      "note": "FAQ; dates stated honestly as announced"
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed list of 14 Spanish phrasings, Spain only. Live es-ES SERP and People-also-ask not read in this pass; still open.",
+  "rejected": [
+    {
+      "term": "sonar entradas",
+      "volume": "100-1K",
+      "why": "transactional; one FAQ answer, not targeted"
+    },
+    {
+      "term": "sonar cartel",
+      "volume": "100-1K",
+      "why": "dated line-up; the official site holds it"
+    },
+    {
+      "term": "sonar dónde es",
+      "volume": null,
+      "why": "no row returned (not measured); the question is answered in the 'Dónde es' H2 and the Respuesta block, in natural word order"
+    },
+    {
+      "term": "sonar festival qué es",
+      "volume": null,
+      "why": "no row returned (not measured); the question is answered in the 'Dónde es' H2 and the Respuesta block, in natural word order"
+    }
+  ]
+}
