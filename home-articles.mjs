@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/edc-las-vegas.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/edc-las-vegas', type:'Guía', topic:'EDC Las Vegas',
+    title:'EDC Las Vegas 2027: fechas, entradas, tamaño y música',
+    description:'El Electric Daisy Carnival en el Las Vegas Motor Speedway: dónde es el EDC, cómo llegó al medio millón de personas al año y qué suena lejos de kineticFIELD.',
+    image:'img/edc/kinetic-field-2024-320.webp',
+    srcset:'img/edc/kinetic-field-2024-320.webp 320w,img/edc/kinetic-field-2024-1200.webp 1200w',
+    width:1200, height:900, alt:'kineticFIELD en EDC Las Vegas en 2024'
+  },
+  {
     page:'es/ultra-music-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/ultra-music-festival', type:'Guía', topic:'Ultra',
     title:'Ultra Music Festival 2027: fechas, lugar, edad mínima y público',
     description:'Ultra vuelve a Bayfront Park, en Miami, del 26 al 28 de marzo de 2027: el lugar, el tamaño, la historia, Ultra Europe en Split y la música lejos del Main Stage.',
