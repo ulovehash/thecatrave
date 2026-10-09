@@ -463,5 +463,10 @@
       "season": "Más música de Ibiza.",
       "where-to-stay": "Ibiza más allá de los clubes."
     }
+  },
+  "/es/discotecas-berlin": {
+    "sections": [
+      "how-berlin-clubs-work"
+    ]
   }
 }

@@ -2394,5 +2394,49 @@
       "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
       "/img/thecatrave-author-800.jpg"
     ]
+  },
+  "es/discotecas-berlin.html": {
+    "title": "Discotecas Berlín: los mejores clubes y sus leyendas",
+    "canonical": "https://thecatrave.com/es/discotecas-berlin",
+    "description": "Berghain, Tresor, KitKat y los clubes de antes: las mejores discotecas de Berlín, cómo se hizo famosa cada una y las sesiones para escuchar antes de ir.",
+    "h1": "Discotecas Berlín: los mejores clubes y sus leyendas",
+    "published": "2026-10-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "introduction",
+      "before-berghain",
+      "klang-der-familie",
+      "bandcamp-support-title",
+      "berghain",
+      "the-door",
+      "closed-legends",
+      "best-clubs-now",
+      "own-track-berlin-race-1909",
+      "sisyphos",
+      "how-berlin-clubs-work",
+      "hear-berlin",
+      "own-set-2",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "/img/berlin-clubs/tresor-2003-1200.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdr-motte%2Fsets%2F3phase-feat-dr-motte-der-klang&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/berlin-clubs/tresor-door-1200.webp",
+      "https://bandcamp.com/EmbeddedPlayer/track=3192532299/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "/img/berlin-clubs/berghain-1200.webp",
+      "/img/berlin-clubs/bar25-1200.webp",
+      "/img/berlin-clubs/watergate-1200.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fberlin-race-1909&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/berlin-clubs/sisyphos-1200.webp",
+      "https://www.youtube-nocookie.com/embed/zjfPd4jNZao",
+      "https://www.youtube-nocookie.com/embed/GG2IQguY-J0",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/thecatrave-author-800.jpg"
+    ]
   }
 }

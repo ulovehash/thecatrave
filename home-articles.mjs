@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/discotecas-berlin.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/es/discotecas-berlin', type:'Guía', topic:'Discotecas Berlín',
+    title:'Discotecas Berlín: los mejores clubes y sus leyendas',
+    description:'De UFO y Tresor a Berghain y Sisyphos: las salas que hicieron de Berlín una ciudad techno, los clubes famosos que cerraron y los que siguen abiertos.',
+    image:'img/berlin-clubs/berghain-320.webp',
+    srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
+    width:1200, height:800, alt:'La entrada de Berghain en Berlín'
+  },
+  {
     page:'es/discotecas-ibiza.html', category:'rave-spots', tags:['house','history','discovery'], href:'/es/discotecas-ibiza', type:'Guía', topic:'Discotecas Ibiza',
     title:'Discotecas Ibiza: Pacha, Amnesia, Hï y las demás',
     description:'Hï, Pacha, Amnesia, DC-10, Ushuaïa y [UNVRS]: las mejores discotecas de Ibiza, las que cerraron, dónde alojarse y cuándo dura la temporada.',

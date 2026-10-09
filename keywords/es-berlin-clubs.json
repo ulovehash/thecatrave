@@ -1,0 +1,30 @@
+{
+  "page": "es/discotecas-berlin.html",
+  "seed": "discotecas berlín",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {
+      "term": "discotecas berlín",
+      "volume": "10-100",
+      "note": "H1/title and slug; low volume, chosen as the only measured Spanish generic"
+    },
+    {
+      "term": "berghain",
+      "volume": "10K-100K",
+      "note": "navigational; the Berghain section and link to the Berghain guide"
+    }
+  ],
+  "expansion_checked": "Keyword Planner seed list, Spain only. Live es-ES SERP and People-also-ask not read in this pass; still open.",
+  "rejected": [
+    {
+      "term": "mejores discotecas de berlín",
+      "volume": null,
+      "why": "no row returned (not measured); the words appear in the Respuesta and H2s in natural order"
+    },
+    {
+      "term": "mejores clubes de berlín",
+      "volume": null,
+      "why": "no row returned (not measured); used in the Respuesta, H2s and table label"
+    }
+  ]
+}
