@@ -137,7 +137,7 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'Closed, and planned to return.', bodyHtml: join(sec('Introduction')), className: 'article-intro'}),
   articleSection({id: 'coming-back', title: 'Is Printworks coming back?', bodyHtml: join(sec('Is Printworks coming back?'))}),
-  articleSection({id: 'official', title: 'Printworks London reopening: what is official', bodyHtml: join(sec('Printworks London reopening: what is official'))}),
+  articleSection({id: 'official', title: 'Printworks reopening: what is official', bodyHtml: join(sec('Printworks reopening: what is official'))}),
   articleSection({id: 'why-closed', title: 'Why did Printworks close?', bodyHtml: `${join(sec('Why did Printworks close?'))}${closing}`}),
   articleSection({id: 'history', title: 'Printworks London history', bodyHtml: `${join(sec('Printworks London history'))}${firstMix}`}),
   articleSection({id: 'rooms', title: 'Printworks London rooms and capacity', bodyHtml: `${join(sec('Printworks London rooms and capacity'))}${roomSet}`}),

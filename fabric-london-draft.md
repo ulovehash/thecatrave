@@ -6,7 +6,7 @@ The fabric nightclub is at 77a Charterhouse Street in Farringdon, open since 199
 
 ## Introduction
 
-fabric’s three rooms occupy a former meat storage cellar in Farringdon. Fridays cover a range of electronic styles, Saturdays lean towards house, techno and electro, and Sunday’s Come As You Are focuses on house and techno.
+The fabric club’s three rooms occupy a former meat storage cellar in Farringdon. Fridays cover a range of electronic styles, Saturdays lean towards house, techno and electro, and Sunday’s Come As You Are focuses on house and techno.
 
 For other London rooms there is the [London clubs guide](/best-electronic-music-clubs-in-london). If you are looking for the closed Rotherhithe venue, see the [Printworks London guide](/printworks-london).
 

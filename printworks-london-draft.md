@@ -16,7 +16,7 @@ Yes, officially, but with no date. After the closing weekend in 2023, Broadwick'
 
 What is official: British Land, the owner, and its partner AustralianSuper applied to Southwark Council in February 2024 to revive Printworks as a permanent cultural venue. What is not official: any opening month, any lineup and any ticket sale. If a site claims to sell tickets for a Printworks London night, treat it with suspicion.
 
-## Printworks London reopening: what is official
+## Printworks reopening: what is official
 
 The redevelopment plans changed between the 2024 application and the 2026 consultation.
 

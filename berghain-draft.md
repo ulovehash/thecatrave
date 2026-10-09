@@ -2,7 +2,7 @@
 
 ## Answer
 
-Berghain is a Berlin club in a former East German power station in Friedrichshain. Its main room is associated with techno; Panorama Bar upstairs brings house and a wider musical range. The weekend party, Klubnacht, starts late on Saturday and continues through Sunday. Other nights open individual rooms for club events, concerts and exhibitions, so choose the event as carefully as the venue.
+The Berghain club is a Berlin venue in a former East German power station in Friedrichshain. Its main room is associated with techno; Panorama Bar upstairs brings house and a wider musical range. The weekend party, Klubnacht, starts late on Saturday and continues through Sunday. Other nights open individual rooms for club events, concerts and exhibitions, so choose the event as carefully as the venue.
 
 ## Introduction
 
@@ -48,7 +48,7 @@ For the next Berghain lineup, open the [official programme](https://www.berghain
 
 
 
-Crack's 2017 interview calls Marcel Dettmann and Ben Klock resident DJs of Berghain and Panorama Bar. Groove's 2022 obituary adds Len Faki as a third main-room resident and says all three were mostly unknown when they were chosen.
+The club publishes no list of Berghain resident DJs, so the Berghain DJ names here come from the press. Crack's 2017 interview calls Marcel Dettmann and Ben Klock resident DJs of Berghain and Panorama Bar. Groove's 2022 obituary adds Len Faki as a third main-room resident and says all three were mostly unknown when they were chosen.
 
 To see what a Berghain lineup looks like in practice, I counted the Klubnacht listings in the official archive from 1 January to 3 October 2026. There were 41. Steffi, Virginia and nd_baumecker each appear on 6 of them. Ben Klock, Marcel Dettmann and Tama Sumo each appear on 4, Boris on 2, and Len Faki and Honey Dijon on 1 each. Groove reported a Honey Dijon residency in Panorama Bar in 2022. These are counts of listed names, not an official resident list, and a name can be listed and then change.
 
@@ -66,11 +66,11 @@ The label that grew out of the club is Ostgut Ton, linked from the official site
 
 ## Opening hours and tickets
 
-### Opening hours
+### Berghain opening hours {#opening-hours}
 
 Klubnacht usually starts at 23:59 on Saturday and continues through Sunday into Monday. Closing times vary. Concerts and other club nights have separate hours; check your chosen event in the [official programme](https://www.berghain.berlin/en/program/).
 
-### Entry and prices
+### Berghain tickets and prices {#entry-and-prices}
 
 Entry is 18+. Admission is not guaranteed.
 
@@ -98,7 +98,7 @@ If a disability makes standing in the queue difficult, the club describes an arr
 
 ### Getting there and getting home
 
-Use Am Wriezener Bahnhof for the club entrance; the official contact page names S-Ostbahnhof as the station. Open [Google Maps](https://www.google.com/maps/search/?api=1&query=Berghain+Am+Wriezener+Bahnhof+Berlin) for the walk to the door. Before leaving, check your actual departure time in the [BVG journey planner](https://www.bvg.de/en/connections/connection-search), especially if your night continues into Monday morning.
+The Berghain address is Am Wriezener Bahnhof, 10243 Berlin, and the official contact page names S-Ostbahnhof as the station. Open [Google Maps](https://www.google.com/maps/search/?api=1&query=Berghain+Am+Wriezener+Bahnhof+Berlin) for the walk to the door. Before leaving, check your actual departure time in the [BVG journey planner](https://www.bvg.de/en/connections/connection-search), especially if your night continues into Monday morning.
 
 
 ## FAQ

@@ -90,7 +90,11 @@ const renderBlock = block => {
   if (figure) return figures[figure[1]];
   const listen = block.match(/^\[Listen: [^\]]*\]\(listen:(\d)\)$/);
   if (listen) return mixes[Number(listen[1])];
-  if (block.startsWith('### ')) return `<h3 id="${slug(block.slice(4))}">${inline(block.slice(4))}</h3>`;
+  if (block.startsWith('### ')) {
+    // "### Heading {#id}" keeps a legacy anchor when the heading text changes.
+    const [, text, explicit] = block.slice(4).match(/^(.*?)(?:\s*\{#([a-z0-9-]+)\})?$/);
+    return `<h3 id="${explicit || slug(text)}">${inline(text)}</h3>`;
+  }
   if (block.startsWith('|')) {
     const rows = block.split('\n').filter((_, i) => i !== 1).map(line => line.split('|').slice(1, -1).map(cell => inline(cell.trim())));
     return articleTable({label: rows[0][0] === 'Floor' ? 'Klubnacht lineup, 10 October 2026' : 'Berghain event prices, October 2026', headers: rows[0], rows: rows.slice(1)});

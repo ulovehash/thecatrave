@@ -68,7 +68,7 @@ Wilde Renate nearly joined this list. In August 2024 the club said it would have
 
 ## The best clubs in Berlin now
 
-These are the best Berlin clubs for comparing music and location. Most are among the best techno clubs in Berlin, though several programme other styles too. Tresor is the oldest of the techno clubs below. For a shorter list of Berlin night clubs, start with the first four rows.
+These are the best Berlin clubs for comparing music and location. Most are Berlin techno clubs and among the best techno clubs in Berlin, though several programme other styles too. Tresor is the oldest of the techno clubs below. For a shorter list of Berlin night clubs, start with the first four rows.
 
 For the history behind those rooms, from Düsseldorf and Cologne to the Detroit-Berlin alliance, read [the history of German electronic music](/german-electronic-music).
 
