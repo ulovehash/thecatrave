@@ -485,5 +485,14 @@
       "hours-tickets"
     ],
     "unwrap": true
+  },
+  "/es/pacha-ibiza": {
+    "sections": [
+      "tickets",
+      "dress-code",
+      "vip",
+      "where"
+    ],
+    "paragraphTables": true
   }
 }

@@ -1,0 +1,16 @@
+{
+  "page": "es/pacha-ibiza.html",
+  "seed": "pacha ibiza",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {"term": "pacha ibiza", "volume": "10K-100K", "note": "head term; the title, the answer and the hero"},
+    {"term": "pacha ibiza entradas", "volume": "100-1K", "note": "the tickets H2, Pacha Ibiza entradas: cuánto cuesta entrar"},
+    {"term": "pacha ibiza dress code", "volume": "100-1K", "note": "the dress code H2; Spanish searchers keep the English phrase"}
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'pacha ibiza'. Top results: pacha.com (home, calendar, VIP, artists, opening weekend, shop), Instagram and two guides ('información sobre las fiestas, precios', 'qué saber antes de ir'). People also ask: '¿Cuánto cuesta entrar en Pacha, Ibiza?', '¿Cuándo abre Pacha Ibiza 2026?', '¿Cómo ir vestido a Pacha Ibiza?', '¿Cuánto cuesta una copa en Pacha?'. Applied: the first three are FAQ entries and the tickets and dress code H2s carry them, answered only from facts on the English page. Not applied: the drink-price question (the English page has no drink prices).",
+  "rejected": [
+    {"term": "pacha ibiza 2027", "volume": "no data", "why": "no Keyword Planner row, and the English page does not claim 2027 until a date appears on pacha.com"},
+    {"term": "pacha ibiza precio", "volume": "no data", "why": "no Keyword Planner row; the tickets H2 and the first FAQ answer the intent from the English page's facts"},
+    {"term": "pacha ibiza historia", "volume": "no data", "why": "no Keyword Planner row; the history H3 covers it"}
+  ]
+}

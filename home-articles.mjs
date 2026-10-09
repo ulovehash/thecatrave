@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/pacha-ibiza.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/es/pacha-ibiza', type:'Guía', topic:'Pacha Ibiza',
+    title:'Pacha Ibiza: entradas, dress code y calendario 2026',
+    description:'Pacha Ibiza: cuánto cuestan las entradas, cómo funciona la mesa VIP y el dress code, dónde está el club, quién es el dueño y cómo leer el calendario 2026.',
+    image:'img/pacha-ibiza/cherries-2014-320.webp',
+    srcset:'img/pacha-ibiza/cherries-2014-320.webp 320w,img/pacha-ibiza/cherries-2014-1200.webp 1200w',
+    width:1200, height:800, alt:'La fachada de Pacha Ibiza de noche, con los letreros rojos de las cerezas iluminados'
+  },
+  {
     page:'es/berghain.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/es/berghain', type:'Guía', topic:'Berghain',
     title:'Berghain Berlín: qué es, Panorama Bar, sonido y residentes',
     description:'Berghain explicado: la antigua central, Panorama Bar arriba, la Halle, la Kantine, la entrada, el dress code y el sello Ostgut Ton.',
