@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/jungle.html', category:'music-history', tags:['breaks','uk','nineties','soundsystem'], href:'/es/jungle', type:'Guía', topic:'Jungle',
+    title:'Qué es el jungle: historia, sonido y temas clave',
+    description:'Radio pirata, dubplates, energía de MC y el regreso de un sonido negro británico.',
+    image:'img/Dubplates-320.png', srcset:'img/Dubplates-320.png 320w,img/Dubplates.png 1024w',
+    width:1024, height:1024, alt:'Dubplates ilustrados que representan la cultura del jungle'
+  },
+  {
     page:'es/historia-musica-electronica-reino-unido.html', category:'music-history', tags:['uk','history','overview'], href:'/es/historia-musica-electronica-reino-unido', type:'Cronología', topic:'Música británica',
     title:'Historia de la música electrónica en el Reino Unido',
     description:'Diez sonidos que pasaron de escenas regionales underground a la cultura global.',

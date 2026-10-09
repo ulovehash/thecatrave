@@ -1,0 +1,40 @@
+{
+  "page": "es/jungle.html",
+  "seed": "jungle música",
+  "source": "Keyword Planner (Spain), 9 October 2026, returned no row for the jungle phrases tried; live google.es SERP and People-also-ask read the same day (hl=es, gl=es)",
+  "terms": [
+    {
+      "term": "música jungle",
+      "volume": "no data",
+      "note": "head term; hero H1 and intro. Spanish SERP is dominated by the band Jungle, with the genre in Rockdelux and es.wikipedia drum and bass"
+    },
+    {
+      "term": "qué es el jungle",
+      "volume": "no data",
+      "note": "title; People also ask 'Qué es el estilo jungle?'"
+    },
+    {
+      "term": "jungle y drum and bass",
+      "volume": "no data",
+      "note": "H2; People also ask 'Cuál es la diferencia entre jungle y drum and bass?'"
+    }
+  ],
+  "expansion_checked": "Free live SERP and People-also-ask only, 9 October 2026. The English page's own map is keywords/jungle.json.",
+  "rejected": [
+    {
+      "term": "quién es el cantante de jungle",
+      "volume": "no data",
+      "why": "People also ask, the band Jungle"
+    },
+    {
+      "term": "welcome to the jungle",
+      "volume": "no data",
+      "why": "People also ask, the Guns N' Roses song"
+    },
+    {
+      "term": "jungla",
+      "volume": "no data",
+      "why": "the rainforest; the genre is masculine, 'el jungle'"
+    }
+  ]
+}
