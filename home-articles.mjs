@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mejores-playlists-house-spotify.html', category:'digging', tags:['house','discovery','tools'], href:'/es/mejores-playlists-house-spotify', type:'Lista', topic:'Playlists de house',
+    title:'Mejores playlists house en Spotify: 12 selecciones',
+    description:'Diez playlists de house enfocadas y dos selecciones señaladas de thecatrave entre house, techno y los espacios intermedios.',
+    image:'img/spotify-playlists/playlist-still-life-320.webp',
+    srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:'Auriculares con cable, un reproductor portátil y estuches translúcidos sobre una mesa de club arañada'
+  },
+  {
     page:'es/printworks-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/es/printworks-london', type:'Guía', topic:'Printworks London',
     title:'Printworks London: reapertura, cierre e historia',
     description:'Printworks London cerró en mayo de 2023: qué está previsto oficialmente, por qué cerró, sus salas y aforo, Drumsheds y adónde ir mientras tanto.',

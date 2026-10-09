@@ -1,0 +1,14 @@
+{
+  "page": "es/mejores-playlists-house-spotify.html",
+  "seed": "mejores playlists house spotify",
+  "source": "Live es-ES SERP and People-also-ask read in the owner's Chrome, 9 October 2026 (google.es, hl=es, gl=es). Google Ads Keyword Planner for Spain, 9 October 2026, returned no row for the Spanish phrases below, so volumes are not claimed.",
+  "terms": [
+    {"term": "playlists de house", "volume": null, "note": "page wording, from the SERP lists 'Mejores playlists House de Spotify (2026)'; no Keyword Planner row"},
+    {"term": "playlists house", "volume": null, "note": "the title wording 'Mejores playlists house en Spotify'; not measured"}
+  ],
+  "expansion_checked": "Top es-ES results for 'mejores playlists house spotify': Spotify's own house playlists (House Music 2026, Hollow Groove, Voltage Cathedral), 'la playlist más completa de clásicos del house en Spotify', artist.tools 'Best House Playlists' and a 'Mejores playlists House de Spotify (2026)' list. People also ask: '¿Cuál es la mejor música house?', '¿Qué playlists recomiendan en Spotify?', '¿Cuáles son las mejores canciones de house de la década de 2000?', '¿Cuáles son algunos grupos de house?'. Applied: the title and the answer carry the playlist wording; the first two questions are answered by the answer banner and the choose section. Not applied: the 2000s songs and group-name questions, which belong to the house music classics guide and not to a playlist list.",
+  "rejected": [
+    {"term": "mejores playlists spotify", "volume": "no data", "why": "no Keyword Planner row; this is the broader best-Spotify-playlists guide, not this page"},
+    {"term": "playlists house spotify 2026", "volume": "no data", "why": "no Keyword Planner row; the playlists change and the page does not claim a year in its title"}
+  ]
+}
