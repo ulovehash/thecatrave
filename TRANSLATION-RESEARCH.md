@@ -476,3 +476,33 @@ Spanish with Spain spellings, to be re-checked in Search Console. The live es-ES
 SERP was bot-blocked and not bypassed; the GA4 page-level check is not done.
 Full note: `tomorrowland-es-translation-research.md`; data in
 `keywords/es-tomorrowland.json`.
+
+### Spanish batches 2–4 (9 October 2026)
+
+Pushed after Tomorrowland: Sónar, Monegros, Glastonbury, Ibiza, Berlin and Barcelona clubs,
+Primavera Sound, Berghain, Pacha, Ushuaia, Europe festivals, UK evolution, jungle, NYE,
+breakbeat, Mysteryland, USA EDM festivals, Boiler Room, Printworks, house playlists,
+Boomtown, Creamfields, Asia festivals, techno sets, winter festivals, Lollapalooza,
+Parookaville, plus `es/articulos`.
+
+- **Method.** Keyword Planner for Spain (9 Oct 2026) where a row existed; many phrases returned
+  none, so `keywords/es-*.json` carries `volume: null`. The live es-ES SERP and People also ask
+  (google.es, hl=es, gl=es, via Chrome) were read before each translation. Boiler Room,
+  Parookaville and winter had no usable PAA. GA4 page-level check not done.
+- **SERP findings the English page cannot answer** (not added): Lollapalooza Argentina/Chile and
+  prices, Spanish snow festivals, EDC Thailand. Lollapalooza states only the Chile/Argentina
+  12–14 March 2027 dates read in that SERP.
+- **hreflang.** One `es`, not `es-ES`.
+- **Images.** English images reused with translated captions; `audit-keywords.mjs` now folds accents.
+- **Planner registry.** Individual festival entries get a Spanish 4th `tri` argument and a
+  `/es/<slug>` path; `audit-next-festival-guides.mjs` count is now 80. Roundups are in its
+  `roundups` list and in `festival-editions.mjs`. Single-festival Spanish guides have no
+  editions entry (open defect `translated-festival-guides-no-editions-entry`).
+- **Build rules learned.** pages.mjs `name` = `es-` + module basename; placeholder keys must be
+  unique across images and embeds (a clash renders twice, `unique-landmark`); `wire.py` fixed
+  media paths, added `layout_title` and club-preservation pruning.
+- **Terminology.** "jungle" kept in Spanish; `uk-evolution-shared.mjs` kicker changed;
+  Spanish pages use the "Look" track instead of the Mylène Farmer remix; `boiler-room-shared.mjs`
+  gained an `es` locale; the `es/articulos` intro was removed on the owner's instruction.
+- **Known red, not from these pages.** `audit-defects`, 9 keyword failures, and the mobile
+  SoundCloud-band layout failure (also on fr pages) keep the CI gate red.
