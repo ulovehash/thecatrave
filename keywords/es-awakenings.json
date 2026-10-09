@@ -1,0 +1,14 @@
+{
+  "page": "es/festival-awakenings.html",
+  "seed": "festival awakenings",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "festival awakenings", "volume": null, "note": "head term, es-ES SERP"},
+    {"term": "awakenings festival 2027", "volume": null, "note": "next edition, 9 to 11 July 2027; refresh yearly"},
+    {"term": "dónde se celebra el festival awakenings", "volume": null, "note": "Google People also ask, es-ES"},
+    {"term": "cuándo es awakenings 2027", "volume": null, "note": "Google People also ask, es-ES"}
+  ],
+  "expansion_checked": ["festival awakenings", "awakenings festival 2027"],
+  "rejected": []
+}

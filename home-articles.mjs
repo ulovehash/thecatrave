@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-awakenings.html', category:'festivals', tags:['festivals','europe-festivals','techno','history','discovery'], href:'/es/festival-awakenings', type:'Guía', topic:'Festival Awakenings',
+    title:'Festival Awakenings 2027: qué es y dónde se celebra',
+    description:'Fundado en Ámsterdam en 1997 y solo techno desde entonces: dónde se celebran el festival de verano y la cita del Amsterdam Dance Event, y de dónde viene el nombre.',
+    image:'img/awakenings/blimp-2007-320.webp',
+    srcset:'img/awakenings/blimp-2007-320.webp 320w,img/awakenings/blimp-2007-1200.webp 1200w',
+    width:1200, height:803, alt:'El dirigible de Awakenings sobre el público, con rayos láser cruzando el cielo nocturno'
+  },
+  {
     page:'es/parookaville-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/parookaville-festival', type:'Guía', topic:'Parookaville',
     title:'Parookaville 2027: lugar, asistencia, historia y música',
     description:'Un festival montado como una ciudad en el aeropuerto de Weeze: dónde está Parookaville, cómo lo construyeron tres amigos, cuánta gente va y qué suena en sus escenarios.',

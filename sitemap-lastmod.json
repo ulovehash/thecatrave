@@ -456,12 +456,12 @@
   "lastmod": "2026-10-08T16:46:56+00:00"
  },
  "/es/": {
-  "hash": "5d85c7a72b81c398",
-  "lastmod": "2026-10-09T22:38:50+00:00"
+  "hash": "1d1d2a897202344e",
+  "lastmod": "2026-10-09T22:41:41+00:00"
  },
  "/es/articulos": {
-  "hash": "ab45549fcd270271",
-  "lastmod": "2026-10-09T22:38:50+00:00"
+  "hash": "f7adbddfed46e52a",
+  "lastmod": "2026-10-09T22:41:41+00:00"
  },
  "/es/berghain": {
   "hash": "63330cc9e121d9cc",
@@ -490,6 +490,10 @@
  "/es/discotecas-ibiza": {
   "hash": "0feb336aedcc388e",
   "lastmod": "2026-10-09T10:38:08+00:00"
+ },
+ "/es/festival-awakenings": {
+  "hash": "d6b1b64266738cd4",
+  "lastmod": "2026-10-09T22:41:41+00:00"
  },
  "/es/festival-glastonbury": {
   "hash": "f44067fabb54e4a0",
