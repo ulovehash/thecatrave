@@ -1,0 +1,49 @@
+{
+  "page": "es/festival-exit.html",
+  "seed": "exit festival",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "exit festival",
+      "volume": null,
+      "note": "head term in SERP, title and H1"
+    },
+    {
+      "term": "festival exit",
+      "volume": null,
+      "note": "title; PAA wording"
+    },
+    {
+      "term": "exit festival 2027",
+      "volume": null,
+      "note": "SERP query; FAQ answers there is no confirmed Novi Sad edition"
+    },
+    {
+      "term": "exit festival novi sad",
+      "volume": null,
+      "note": "introduction and FAQ"
+    },
+    {
+      "term": "dónde es el festival exit",
+      "volume": null,
+      "note": "PAA, FAQ H3"
+    },
+    {
+      "term": "dance arena",
+      "volume": null,
+      "note": "section heading"
+    }
+  ],
+  "expansion_checked": [
+    "exit festival",
+    "exit festival 2027"
+  ],
+  "rejected": [
+    {
+      "term": "exit festival 2026 entradas",
+      "volume": null,
+      "why": "no Novi Sad edition in 2026; resale listings are for Global Tour events"
+    }
+  ]
+}

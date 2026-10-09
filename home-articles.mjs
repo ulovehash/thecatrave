@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-exit.html', category:'festivals', tags:['festival','history','discovery'], href:'/es/festival-exit', type:'Guía', topic:'Festival EXIT',
+    title:'EXIT Festival: de Novi Sad a la gira mundial',
+    description:'Historia, fortaleza de Petrovaradin, Dance Arena y qué pasa tras la última edición serbia de 2025.',
+    image:'img/exit-festival/exit-crowd-320.webp',
+    srcset:'img/exit-festival/exit-crowd-320.webp 320w,img/exit-festival/exit-crowd-1200.webp 1200w',
+    width:1200, height:784, alt:'Multitud densa en la fortaleza de Petrovaradin durante el festival EXIT'
+  },
+  {
     page:'es/festival-sziget.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','house','techno'], href:'/es/festival-sziget', type:'Guía', topic:'Sziget Festival',
     title:'Sziget Festival 2027: fechas, música, camping y cómo llegar',
     description:'Cinco días en la isla de Óbuda, en Budapest: cuándo es el Sziget en 2027, qué música suena, cómo funcionan el camping y el acceso por la H5, y qué está confirmado.',
