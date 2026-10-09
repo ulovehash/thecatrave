@@ -1,0 +1,36 @@
+{
+  "page": "es/lollapalooza-festival.html",
+  "seed": "lollapalooza 2027",
+  "source": "Google es-ES SERP and People also ask for 'lollapalooza 2027' read 9 October 2026 (google.es, hl=es, gl=es). No Keyword Planner row measured. No Ahrefs units spent.",
+  "note": "Volumes are not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "lollapalooza 2027",
+      "volume": null,
+      "note": "query read in the es-ES SERP; not measured"
+    },
+    {
+      "term": "dónde se celebra lollapalooza",
+      "volume": null,
+      "note": "People also ask wording ('¿Dónde va a ser el Lollapalooza en 2027?'); not measured"
+    },
+    {
+      "term": "cuándo es lollapalooza",
+      "volume": null,
+      "note": "People also ask wording ('¿Cuándo va a ser el Lollapalooza 2027?'); not measured"
+    }
+  ],
+  "expansion_checked": ["lollapalooza 2027"],
+  "rejected": [
+    {
+      "term": "entradas lollapalooza 2027",
+      "volume": null,
+      "why": "People also ask on prices; the page cannot answer it, the 2027 Chicago prices are unannounced"
+    },
+    {
+      "term": "lollapalooza chile 2027 line up",
+      "volume": null,
+      "why": "People also ask on the Chile line-up; outside this Chicago guide"
+    }
+  ]
+}

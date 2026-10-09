@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/lollapalooza-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/lollapalooza-festival', type:'Guía', topic:'Lollapalooza',
+    title:'Lollapalooza 2027: fechas, lugar, historia y música',
+    description:'Lollapalooza es un festival de cuatro días en Grant Park, Chicago: estado de las fechas de 2027, lugar, historia, tamaño y música.',
+    image:'img/lollapalooza/skyline-2017-320.webp',
+    srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'Una multitud en Grant Park durante Lollapalooza 2017 delante del perfil de Chicago'
+  },
+  {
     page:'es/festivales-invierno.html', category:'festivals', tags:['house','techno','discovery'], href:'/es/festivales-invierno', type:'Guía', topic:'Festivales de invierno',
     title:'Festivales de invierno 2027: Snowbombing, Igloofest, CTM',
     description:'Festivales de música electrónica de invierno en 2027, de Tomorrowland Winter y Snowbombing a CTM, Elevate y Shapes, con las fechas confirmadas o sin confirmar.',
