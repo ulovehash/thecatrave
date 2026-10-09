@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festival-untold.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/festival-untold', type:'Guía', topic:'Untold',
+    title:'Untold Festival 2027: el festival de Cluj, en Rumanía',
+    description:'Cuatro días cada agosto en Cluj-Napoca: cuándo es Untold 2027, dónde se celebra, cómo llegó a ser un festival de 500 000 entradas y qué suena al lado del escenario principal.',
+    image:'img/untold/main-stage-2019-320.webp',
+    srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'Una multitud densa, con los móviles en alto, ante el escenario principal de Untold de noche en 2019'
+  },
+  {
     page:'es/festival-awakenings.html', category:'festivals', tags:['festivals','europe-festivals','techno','history','discovery'], href:'/es/festival-awakenings', type:'Guía', topic:'Festival Awakenings',
     title:'Festival Awakenings 2027: qué es y dónde se celebra',
     description:'Fundado en Ámsterdam en 1997 y solo techno desde entonces: dónde se celebran el festival de verano y la cita del Amsterdam Dance Event, y de dónde viene el nombre.',

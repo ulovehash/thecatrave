@@ -456,12 +456,12 @@
   "lastmod": "2026-10-08T16:46:56+00:00"
  },
  "/es/": {
-  "hash": "1d1d2a897202344e",
-  "lastmod": "2026-10-09T22:41:41+00:00"
+  "hash": "a015a5f6bdc4558a",
+  "lastmod": "2026-10-09T22:44:16+00:00"
  },
  "/es/articulos": {
-  "hash": "f7adbddfed46e52a",
-  "lastmod": "2026-10-09T22:41:41+00:00"
+  "hash": "5c80aa462f52eae9",
+  "lastmod": "2026-10-09T22:44:16+00:00"
  },
  "/es/berghain": {
   "hash": "63330cc9e121d9cc",
@@ -498,6 +498,10 @@
  "/es/festival-glastonbury": {
   "hash": "f44067fabb54e4a0",
   "lastmod": "2026-10-09T10:28:23+00:00"
+ },
+ "/es/festival-untold": {
+  "hash": "313e1f2d2042456c",
+  "lastmod": "2026-10-09T22:44:16+00:00"
  },
  "/es/festivales-edm-estados-unidos": {
   "hash": "40c9ba4161c43cd8",
