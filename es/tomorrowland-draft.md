@@ -106,7 +106,7 @@ Tomorrowland filma sus escenarios y sube las sesiones a internet, y eso explica 
 
 [Embed: Hardwell 2013 y Swedish House Mafia 2025, ZG1AT6tylA4]
 
-Para el festival que es lo contrario de Tomorrowland, una ciudad sin cartel y sin nada a la venta, lee [nuestra guía de Burning Man](/what-is-burning-man) (en inglés). [Nuestra guía de sesiones de DJ en directo](/live-dj-sets), también en inglés, cuenta quién más filma la música. Y [el Selector](/selector) pone una sesión de DJ al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir. ¿Comparas con otros festivales? Mira los [mejores festivales de música electrónica de Europa](/best-electronic-music-festivals-europe) (en inglés).
+Para el festival que es lo contrario de Tomorrowland, una ciudad sin cartel y sin nada a la venta, lee [nuestra guía de Burning Man](/es/burning-man). [Nuestra guía de sesiones de DJ en directo](/live-dj-sets), también en inglés, cuenta quién más filma la música. Y [el Selector](/selector) pone una sesión de DJ al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir. ¿Comparas con otros festivales? Mira los [mejores festivales de música electrónica de Europa](/best-electronic-music-festivals-europe) (en inglés).
 
 ## FAQ
 

@@ -121,9 +121,9 @@ Ubbi Dubbi celebró su séptima edición el 24 y el 25 de abril de 2026 en el Pa
 
 Estos son los festivales de Estados Unidos por los que la gente pregunta y que no superaron la primera prueba, o que no se celebran.
 
-- **[Coachella](/what-is-coachella) (en inglés).** Ocupa el puesto 12 de la lista de DJ Mag y tiene una programación electrónica amplia en la carpa Sahara y en Quasar, pero la música electrónica es una parte de un cartel que también abarca rock, pop, hip-hop y música latina. Se celebra del 9 al 11 y del 16 al 18 de abril de 2027.
+- **[Coachella](/es/festival-coachella).** Ocupa el puesto 12 de la lista de DJ Mag y tiene una programación electrónica amplia en la carpa Sahara y en Quasar, pero la música electrónica es una parte de un cartel que también abarca rock, pop, hip-hop y música latina. Se celebra del 9 al 11 y del 16 al 18 de abril de 2027.
 - **[Lollapalooza](/lollapalooza-festival) (en inglés).** El cartel va del rock alternativo y el hip-hop al pop, con la música de baile en el Perry's Stage. Las fechas de 2027 no se han anunciado.
-- **[Burning Man](/what-is-burning-man) (en inglés).** Es una ciudad temporal en el desierto de Nevada sin escenario principal, y los campamentos y los grupos de art cars programan su propia música. Se celebra del 29 de agosto al 6 de septiembre de 2027.
+- **[Burning Man](/es/burning-man).** Es una ciudad temporal en el desierto de Nevada sin escenario principal, y los campamentos y los grupos de art cars programan su propia música. Se celebra del 29 de agosto al 6 de septiembre de 2027.
 - **Bonnaroo.** Ocupa el puesto 51 de la lista de DJ Mag, pero EDM Sauce informa de que canceló oficialmente su edición de 2027.
 - **Electric Zoo.** No se ha confirmado ninguna edición de 2026 ni de 2027, y su operador, Avant Gardner, se acogió al Capítulo 11 el 4 de agosto de 2025.
 

@@ -90,7 +90,7 @@ Lollapalooza se emite en Hulu desde 2022, junto a Austin City Limits y Bonnaroo,
 
 [Embed: EGh9zlN6eLo]
 
-El pariente más cercano de Lollapalooza en esta web es [Coachella](/what-is-coachella) (en inglés), cuya cláusula de radio hace que Lollapalooza anuncie pronto a sus artistas; nuestras guías cubren también [EDC Las Vegas](/edc-las-vegas) (en inglés), [Tomorrowland](/es/tomorrowland-festival) y [Burning Man](/what-is-burning-man) (en inglés). Y [el Selector](/selector) reproduce un DJ set al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir.
+El pariente más cercano de Lollapalooza en esta web es [Coachella](/es/festival-coachella), cuya cláusula de radio hace que Lollapalooza anuncie pronto a sus artistas; nuestras guías cubren también [EDC Las Vegas](/edc-las-vegas) (en inglés), [Tomorrowland](/es/tomorrowland-festival) y [Burning Man](/es/burning-man). Y [el Selector](/selector) reproduce un DJ set al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir.
 
 ## FAQ
 

@@ -88,7 +88,7 @@ Los dos de abajo son los más vistos. El set de W&W en 2022 es el más visto del
 
 [Embed: W&W 2022 y Steve Aoki 2025, lnOjzIlm1_g]
 
-Los fundadores de Parookaville tomaron [Tomorrowland](/es/tomorrowland-festival) como uno de sus modelos y [Burning Man](/what-is-burning-man) (en inglés) como otro; nuestras guías cubren los dos, y también, en inglés, [EDC Las Vegas](/edc-las-vegas) y [Creamfields](/es/creamfields-festival), sus vecinos en la clasificación de 2026. Y [el Selector](/selector) pone un DJ set al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir.
+Los fundadores de Parookaville tomaron [Tomorrowland](/es/tomorrowland-festival) como uno de sus modelos y [Burning Man](/es/burning-man) como otro; nuestras guías cubren los dos, y también, en inglés, [EDC Las Vegas](/edc-las-vegas) y [Creamfields](/es/creamfields-festival), sus vecinos en la clasificación de 2026. Y [el Selector](/selector) pone un DJ set al azar entre {{catalogue-sets}} grabaciones, si prefieres no elegir.
 
 ## FAQ
 

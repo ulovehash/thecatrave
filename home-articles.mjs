@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/burning-man.html', category:'festivals', tags:['house','history','discovery'], href:'/es/burning-man', type:'Guía', topic:'Burning Man',
+    title:'Qué es Burning Man: la ciudad del desierto y su música',
+    description:'Burning Man no es un festival con cartel sino una ciudad efímera en Nevada: qué se hace, dónde es, cuánto cuesta y qué ponen los sound camps.',
+    image:'img/burning-man/robot-heart-320.webp',
+    srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
+    width:1200, height:799, alt:'El art car de Robot Heart en la playa de Burning Man'
+  },
+  {
     page:'es/festival-coachella.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/festival-coachella', type:'Guía', topic:'Coachella',
     title:'Qué es Coachella: fechas 2027, lugar, tamaño y música',
     description:'Dos fines de semana de abril en el Empire Polo Club de Indio: cuándo es Coachella 2027, dónde está, cómo una pérdida en 1999 se convirtió en un festival gigante y qué suena bajo la carpa Sahara.',

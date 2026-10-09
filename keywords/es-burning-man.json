@@ -1,0 +1,45 @@
+{
+  "page": "es/burning-man.html",
+  "seed": "burning man",
+  "source": "Google es-ES SERP and People also ask read in Chrome, 10 October 2026 (TRANSLATION-RESEARCH.md). No Keyword Planner volume or Ahrefs units spent.",
+  "note": "No volumes measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "burning man",
+      "volume": null,
+      "note": "head term, es-ES SERP"
+    },
+    {
+      "term": "qué es burning man",
+      "volume": null,
+      "note": "SERP query and PAA, es-ES"
+    },
+    {
+      "term": "burning man 2027",
+      "volume": null,
+      "note": "SERP query; 29 August to 6 September 2027, theme Spellbound"
+    },
+    {
+      "term": "burning man festival",
+      "volume": null,
+      "note": "used in the introduction"
+    },
+    {
+      "term": "cuánto cuesta burning man",
+      "volume": null,
+      "note": "Google People also ask, es-ES (cost of entry)"
+    },
+    {
+      "term": "cuándo es burning man 2027",
+      "volume": null,
+      "note": "FAQ, dates"
+    },
+    {
+      "term": "dónde es burning man",
+      "volume": null,
+      "note": "FAQ"
+    }
+  ],
+  "expansion_checked": "es-ES SERP and People also ask for 'burning man 2027' and 'que es burning man', 10 October 2026.",
+  "rejected": []
+}
