@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/musica-trance.html', category:'music-history', tags:['history', 'trance', 'psytrance'], href:'/es/musica-trance', type:'Guía', topic:'Trance',
+    title:'Qué es la música trance: orígenes, artistas y sonido',
+    description:'Una subida, un breakdown y un drop nacidos en los clubes de Fráncfort: cómo el trance llegó a los festivales y cómo divergió el psytrance.',
+    image:'img/trance/armin-van-buuren-2017-320.webp',
+    srcset:'img/trance/armin-van-buuren-2017-320.webp 320w,img/trance/armin-van-buuren-2017-1024.webp 1024w',
+    width:1024, height:681, alt:'Armin van Buuren ante una multitud enorme en Armin Only Embrace, en Kiev, 2017'
+  },
+  {
     page:'es/musica-house.html', category:'music-history', tags:['house', 'history', 'overview'], href:'/es/musica-house', type:'Guía', topic:'Música house',
     title:'Qué es la música house: historia, sonido y orígenes',
     description:'Frankie Knuckles, el Warehouse y los primeros discos de Chicago: qué es la música house, por qué se llama house y los estilos del deep house al afro house.',
