@@ -1,0 +1,18 @@
+#!/bin/sh
+# Runs the same static layers CI runs (audits, html-validate, links) before a
+# push to main leaves this machine, so a red gate is caught here and not in
+# the owner's mail. The browser layers are slower and run in CI; run
+# `npm run check:layout` yourself after changing templates, CSS or widths.
+# Bypass in an emergency with: git push --no-verify
+while read local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main) ;;
+    *) continue ;;
+  esac
+  echo "pre-push: running the static quality gate before pushing to main..."
+  node scripts/check.mjs audit html links || {
+    echo "pre-push: quality gate failed; push to main blocked (fix it, or git push --no-verify)." >&2
+    exit 1
+  }
+done
+exit 0

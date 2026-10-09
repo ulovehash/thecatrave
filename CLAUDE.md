@@ -78,3 +78,8 @@ Checks, all of which must pass: `npm run check:html`, `node audit-all.mjs`,
 
 Only when the owner asks. `main` deploys to GitHub Pages and is protected by a
 quality gate; watch the run after pushing.
+
+A `pre-push` hook (`.githooks/`, enabled once per clone with
+`npm run hooks:install`) runs the audits, html-validate and the link check
+before anything reaches `main`, so a red gate is caught locally, not in the
+owner's mail. Run `npm run check:layout` yourself after template or CSS changes.

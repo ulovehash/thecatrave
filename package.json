@@ -27,6 +27,7 @@
     "genres:refine-status": "node scripts/genre-refinement-status.mjs",
     "genres:priority": "node scripts/start-priority-enrichment.mjs",
     "genres:priority-status": "node scripts/priority-enrichment-status.mjs",
+    "hooks:install": "git config core.hooksPath .githooks",
     "serve": "node scripts/serve.mjs 4173 .",
     "audit": "node audit-all.mjs",
     "check:html": "node scripts/check.mjs html",
