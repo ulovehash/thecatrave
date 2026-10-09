@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/parookaville-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/parookaville-festival', type:'Guía', topic:'Parookaville',
+    title:'Parookaville 2027: lugar, asistencia, historia y música',
+    description:'Un festival montado como una ciudad en el aeropuerto de Weeze: dónde está Parookaville, cómo lo construyeron tres amigos, cuánta gente va y qué suena en sus escenarios.',
+    image:'img/parookaville/mainstage-aerial-2022-320.webp',
+    srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
+    width:1200, height:900, alt:'El Mainstage de Parookaville visto desde el aire en 2022, con el público delante y aerogeneradores en el horizonte'
+  },
+  {
     page:'es/lollapalooza-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/lollapalooza-festival', type:'Guía', topic:'Lollapalooza',
     title:'Lollapalooza 2027: fechas, lugar, historia y música',
     description:'Lollapalooza es un festival de cuatro días en Grant Park, Chicago: estado de las fechas de 2027, lugar, historia, tamaño y música.',
