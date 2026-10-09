@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/creamfields-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/creamfields-festival', type:'Guía', topic:'Creamfields',
+    title:'Creamfields 2027: lugar, aforo y edad mínima',
+    description:'De una noche de house en Liverpool a cuatro días en Cheshire: dónde se celebra Creamfields, cuánta gente reúne, de quién es y qué suena.',
+    image:'img/creamfields/steel-yard-2017-320.webp',
+    srcset:'img/creamfields/steel-yard-2017-320.webp 320w,img/creamfields/steel-yard-2017-1200.webp 1200w',
+    width:1200, height:801, alt:'El interior vacío del Steel Yard, una larga estructura de acero en arcos iluminada en naranja'
+  },
+  {
     page:'es/boomtown-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/boomtown-festival', type:'Guía', topic:'Boomtown',
     title:'Boomtown Festival 2027: fechas, lugar, historia y música',
     description:'Una ciudad ficticia efímera en Hampshire: cuándo es Boomtown 2027, cómo funcionan sus distritos y qué música suena, del drum and bass al punk.',

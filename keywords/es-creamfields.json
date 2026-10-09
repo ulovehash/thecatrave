@@ -1,0 +1,18 @@
+{
+  "page": "es/creamfields-festival.html",
+  "seed": "creamfields",
+  "source": "Google Keyword Planner for Spain (account without ad spend, so buckets only), 9 October 2026, plus the live google.es SERP (hl=es, gl=es) and People also ask the same day (TRANSLATION-RESEARCH.md). No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "creamfields", "volume": "100–1K", "note": "Spain bucket; head term, in the H1 and the answer"},
+    {"term": "creamfields festival", "volume": "not measured", "note": "the SERP query; page title and H1"},
+    {"term": "creamfields 2027", "volume": "not measured", "note": "next edition, in the title; refresh yearly"},
+    {"term": "dónde se celebra creamfields", "volume": "not measured", "note": "People also ask '¿Dónde se celebra Creamfields?'; H2 'Dónde se celebra Creamfields'"},
+    {"term": "cuánto cuesta una entrada para creamfields", "volume": "not measured", "note": "People also ask 'entrada a Creamfields'; FAQ"}
+  ],
+  "expansion_checked": "Free live SERP and People also ask only, 9 October 2026 (Wikipedia, official site, Creamfields Argentina, a Spanish 'qué saber antes de ir' result). Paid expansion deferred.",
+  "rejected": [
+    {"term": "creamfields argentina", "volume": "not measured", "why": "a separate edition abroad; the SERP is partly local to it"},
+    {"term": "creamfields chile", "volume": "not measured", "why": "a separate edition abroad"}
+  ]
+}
