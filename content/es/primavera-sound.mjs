@@ -62,7 +62,7 @@ export default {
 
   sections: [
     {id: 'what-is', heading: '¿Qué es Primavera Sound?', title: '¿Qué es Primavera Sound?'},
-    {id: 'dates-location', heading: 'Primavera Sound: fechas y lugar del festival', title: 'Primavera Sound: fechas y lugar del festival'},
+    {id: 'dates-location', heading: 'Primavera Sound fechas y lugar: cuándo y dónde es', title: 'Primavera Sound fechas y lugar: cuándo y dónde es'},
     {id: 'headliners', heading: 'Primavera Sound: cabezas de cartel por año', title: 'Primavera Sound: cabezas de cartel por año'},
     {id: 'how-big', heading: '¿Qué tamaño tiene Primavera Sound?', title: '¿Qué tamaño tiene Primavera Sound?'},
     {id: 'music', heading: '¿Qué música suena en Primavera Sound?', title: '¿Qué música suena en Primavera Sound?', kicker: 'La música'},

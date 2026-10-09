@@ -28,7 +28,7 @@ El nombre del festival ya abarca algo más que los tres días principales. Prima
 
 A Primavera Sound se le llama a veces festival indie por su origen. Eso es historia, no una etiqueta de género completa. Sus carteles posteriores han puesto pop global, hip-hop, reggaeton, techno, house, metal, jazz y música experimental junto a los grupos de guitarras que levantaron su reputación.
 
-## Primavera Sound: fechas y lugar del festival
+## Primavera Sound fechas y lugar: cuándo y dónde es
 
 Primavera Sound Barcelona 2027 se celebra en el Parc del Fòrum el jueves 3, el viernes 4 y el sábado 5 de junio de 2027. El recinto está en el frente marítimo nororiental de Barcelona, entre el distrito de Sant Martí y Sant Adrià de Besòs. El festival lo usa desde 2005 y su acuerdo con la ciudad lo mantiene allí hasta 2030.
 
