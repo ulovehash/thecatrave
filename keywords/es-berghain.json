@@ -1,0 +1,16 @@
+{
+  "page": "es/berghain.html",
+  "seed": "berghain",
+  "source": "Google Ads Keyword Planner, owner's account 299-844-2842, driven live in the owner's Chrome, 9 October 2026, Sep 2025 to Aug 2026, location Spain. Ranges are Keyword Planner's coarse buckets. A term that returned no row is 'no data', not zero.",
+  "terms": [
+    {"term": "berghain", "volume": "10K-100K", "note": "head term; the answer and the hero"},
+    {"term": "berghain berlin", "volume": "1K-10K", "note": "title and H1 (Berghain Berlín; the audit folds accents, so berlín is the same term)"},
+    {"term": "que es berghain", "volume": "100-1K", "note": "first FAQ question, ¿Qué es Berghain y qué lo hace especial?"},
+    {"term": "berghain dress code", "volume": "100-1K", "note": "the dress code H3 and its FAQ question; Spanish searchers keep the English phrase"}
+  ],
+  "expansion_checked": "Live es-ES SERP and People-also-ask read in Chrome on 9 October 2026 (google.es, hl=es, gl=es) for 'berghain'. Top results: Wikipedia es, visitBerlin, a Spotify single, and three 'cómo entrar' articles. People also ask: '¿Qué es la fiesta Berghain?', '¿Qué tan difícil es entrar a Berghain?', '¿Qué tiene de especial Berghain?', '¿Qué significa Berghain de Rosalía?'. Applied: the first three are FAQ entries (and the queue H3 carries the second), answered only from facts on the English page. Not applied: the Rosalía song question (the English page does not cover it).",
+  "rejected": [
+    {"term": "como entrar en berghain", "volume": "no data", "why": "no Keyword Planner row; the queue H3 and the entry FAQ answer the intent from the English page's facts, with no door tips"},
+    {"term": "berghain horario", "volume": "no data", "why": "no Keyword Planner row; the hours H3 covers it"}
+  ]
+}

@@ -479,5 +479,11 @@
     "remainderTitles": {
       "where-to-go": "Escucha Barcelona antes de ir."
     }
+  },
+  "/es/berghain": {
+    "sections": [
+      "hours-tickets"
+    ],
+    "unwrap": true
   }
 }

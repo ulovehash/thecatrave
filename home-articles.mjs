@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/berghain.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/es/berghain', type:'Guía', topic:'Berghain',
+    title:'Berghain Berlín: qué es, Panorama Bar, sonido y residentes',
+    description:'Berghain explicado: la antigua central, Panorama Bar arriba, la Halle, la Kantine, la entrada, el dress code y el sello Ostgut Ton.',
+    image:'img/berghain/berghain-facade-320.webp',
+    srcset:'img/berghain/berghain-facade-320.webp 320w,img/berghain/berghain-facade-1200.webp 1200w',
+    width:1200, height:900, alt:'La fachada gris neoclásica del edificio de Berghain en Berlín, con algunas personas en la entrada'
+  },
+  {
     page:'es/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/es/primavera-sound-barcelona', type:'Guía', topic:'Primavera Sound',
     title:'Primavera Sound 2027: fechas, lugar y cabezas de cartel por año',
     description:'Primavera Sound Barcelona 2027 es del 3 al 5 de junio en el Parc del Fòrum, tras 293.000 asistencias en 2025. Cabezas de cartel por año, lugar y edición de Oporto.',
