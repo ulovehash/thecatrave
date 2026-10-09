@@ -1667,6 +1667,13 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/festivales-invierno.html', category:'festivals', tags:['house','techno','discovery'], href:'/es/festivales-invierno', type:'Guía', topic:'Festivales de invierno',
+    title:'Festivales de invierno 2027: Snowbombing, Igloofest, CTM',
+    description:'Festivales de música electrónica de invierno en 2027, de Tomorrowland Winter y Snowbombing a CTM, Elevate y Shapes, con las fechas confirmadas o sin confirmar.',
+    image:'img/winter-festivals/igloofest-2009-320.webp', srcset:'img/winter-festivals/igloofest-2009-320.webp 320w,img/winter-festivals/igloofest-2009-1200.webp 1200w',
+    width:1200, height:800, alt:'Igloofest en Montreal en enero de 2009'
+  },
+  {
     page:'es/mejores-sets-techno.html', category:'digging', tags:['discovery','techno','history'], href:'/es/mejores-sets-techno', type:'Guía', topic:'Sets de techno',
     title:'Mejores sets de techno: 10 DJ sets esenciales',
     description:'Diez sets de techno esenciales de Juan Atkins, Robert Hood, Jeff Mills, Surgeon, DJ Stingray, Ben Klock, Wata Igarashi, Rødhåd y más.',

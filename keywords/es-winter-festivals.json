@@ -1,0 +1,36 @@
+{
+  "page": "es/festivales-invierno.html",
+  "seed": "festivales de música electrónica en invierno",
+  "source": "Live google.es SERP (hl=es, gl=es) and People also ask, 9 October 2026; Keyword Planner for Spain returned no row for a Spanish winter-festivals phrase. No Ahrefs units spent.",
+  "note": "Volumes not measured. SERP writes 'festivales de invierno' and 'festivales en la nieve'. People also ask '¿Cuáles son los mejores festivales en la nieve?' is answered in the FAQ with the English page's rave-in-the-snow facts.",
+  "terms": [
+    {
+      "term": "festivales de invierno",
+      "volume": null,
+      "note": "title, H1, URL"
+    },
+    {
+      "term": "festivales en la nieve",
+      "volume": null,
+      "note": "FAQ question"
+    },
+    {
+      "term": "festivales de música electrónica en invierno",
+      "volume": null,
+      "note": "answer and introduction"
+    }
+  ],
+  "expansion_checked": "Free live SERP and People also ask only, 9 October 2026. Paid expansion deferred.",
+  "rejected": [
+    {
+      "term": "festivales nevados de España",
+      "volume": null,
+      "why": "SERP result; the English page has no Spanish winter festival"
+    },
+    {
+      "term": "festivales de música electrónica en españa",
+      "volume": null,
+      "why": "People also ask; Spain-wide question, no facts on the English page"
+    }
+  ]
+}

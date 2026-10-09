@@ -16,7 +16,7 @@ const roundups = [
   'best-electronic-music-festivals-asia.html', 'de/silvester-rave.html',
   'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
   'fr/festivals-electro-europe.html', 'es/festivales-musica-electronica-europa.html',
-  'es/festivales-nochevieja.html', 'es/festivales-edm-estados-unidos.html', 'es/festivales-musica-electronica-asia.html'
+  'es/festivales-nochevieja.html', 'es/festivales-edm-estados-unidos.html', 'es/festivales-musica-electronica-asia.html', 'es/festivales-invierno.html'
 ];
 const roundupSet = new Set(roundups);
 const individualFestivalPages = [homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog, spanishArticleCatalog]
