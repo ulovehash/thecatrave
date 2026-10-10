@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mejores-discotecas-del-mundo.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/mejores-discotecas-del-mundo', type:'Guía', topic:'Las mejores discotecas del mundo',
+    title:'Las mejores discotecas del mundo: 20 clubes de DJ Mag 2026',
+    description:'20 clubes del Top 100 de DJ Mag 2026, de [UNVRS] y Berghain a GREENVALLEY, Club Space y WOMB: puestos, aforos, las más grandes y las sesiones que escuchar.',
+    image:'img/best-nightclubs-in-the-world/echostage-2024-320.webp',
+    srcset:'img/best-nightclubs-in-the-world/echostage-2024-320.webp 320w,img/best-nightclubs-in-the-world/echostage-2024-1200.webp 1200w',
+    width:1200, height:856, alt:'El público de Echostage, en Washington D. C., frente a un escenario iluminado y paredes LED'
+  },
+  {
     page:'es/drum-and-bass.html', category:'music-history', tags:['breaks', 'uk', 'nineties', 'bass'], href:'/es/drum-and-bass', type:'Guía', topic:'Drum and bass',
     title:'Qué es el drum and bass: 174 BPM, historia y subgéneros',
     description:'Breakbeats rápidos, sub-bajo profundo y el continuo rave británico detrás de un género mundial: cómo se separó del jungle, cómo está construido y adónde fue.',

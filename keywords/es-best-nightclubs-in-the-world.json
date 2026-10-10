@@ -1,0 +1,16 @@
+{
+  "page": "es/mejores-discotecas-del-mundo.html",
+  "seed": "mejores discotecas del mundo",
+  "source": "Google es-ES live SERP and People-also-ask read in the owner's Chrome, 10 October 2026. No exact volumes (account without ad spend).",
+  "terms": [
+    {"term": "mejores discotecas del mundo", "volume": null, "note": "H1/title and slug"},
+    {"term": "discotecas más grandes del mundo", "volume": null, "note": "H2 and table"},
+    {"term": "mejores clubes de techno del mundo", "volume": null, "note": "H2"},
+    {"term": "discotecas más exclusivas del mundo", "volume": null, "note": "H2"},
+    {"term": "discotecas famosas del mundo", "volume": null, "note": "H2"},
+    {"term": "discoteca más grande del mundo", "volume": null, "note": "FAQ"}
+  ],
+  "rejected": [
+    {"term": "las 100 mejores discotecas del mundo", "reason": "page does not carry the phrase literally; the INA list is covered as 'The World's 100 Best Clubs'"}
+  ]
+}
