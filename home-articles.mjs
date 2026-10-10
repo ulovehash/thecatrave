@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/fusion-festival.html', category:'festivals', tags:['techno', 'electronic', 'festival'], href:'/es/fusion-festival', type:'Guía', topic:'Fusion Festival',
+    title:'Fusion Festival, Alemania: 2027, fechas 2028 y entradas',
+    description:'Fusion Festival en Lärz: por qué no hay edición en 2027, las fechas de 2028, cómo funciona el sorteo de entradas, la disputa con la policía y cómo llegar.',
+    image:'img/fusion-festival/palapa-2019-320.webp',
+    srcset:'img/fusion-festival/palapa-2019-320.webp 320w,img/fusion-festival/palapa-2019-1200.webp 1200w',
+    width:1200, height:675, alt:'El escenario Palapa de noche en Fusion Festival 2019, con público bajo luz morada y una sombrilla naranja'
+  },
+  {
     page:'es/time-warp-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','house'], href:'/es/time-warp-festival', type:'Guía', topic:'Time Warp',
     title:'Time Warp Festival 2027: Mannheim, entradas y cartel',
     description:'Time Warp 2027 es el 3 de abril en Mannheim: precios de las entradas, ediciones fuera de Alemania y qué pasó con Time Warp Madrid 2026, que se canceló.',

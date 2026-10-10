@@ -3,7 +3,8 @@ const maps = {
   arc: 'https://www.google.com/maps/search/?api=1&query=Union+Park+Chicago',
   airbeat: 'https://www.google.com/maps/search/?api=1&query=Airbeat+One+Festival+Neustadt-Glewe',
   exit: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad',
-  timewarp: 'https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim'
+  timewarp: 'https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim',
+  fusion: 'https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany'
 };
 
 const data = {
@@ -194,6 +195,22 @@ es.timewarp = {
   links:[['Web oficial','https://www.time-warp.de/germany/mannheim/'],['Entradas','https://www.time-warp.de/tickets/'],['Maimarkthalle en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']]
 };
 
+es.fusion = {
+  festivalName:'Fusion Festival 2028',
+  intro:'En 2027 no hay Fusion Festival. La próxima edición anunciada es del 28 de junio al 2 de julio de 2028, y el sorteo de entradas y los precios aún no están publicados.',
+  ticketIntro:'Estado oficial leído el 5 de octubre de 2026. Son estados, no estimaciones: no hay precios de 2028.', ticketColumns:['Edición o producto','Estado actual'],
+  ticketRows:[['Fusion 2027','Año oficial sin festival','Sin evento'],['Fusion 2028','28 de junio al 2 de julio de 2028','Venta sin anunciar'],['Entrada adicional de vehículo o autocaravana 2028','Detalles sin publicar','No publicado']],
+  ticketNote:'No compres ninguna supuesta entrada de 2027. Apúntate al boletín oficial para conocer el registro y el sorteo de 2028.',
+  routes:[['Tren hasta Neustrelitz y después la lanzadera del festival','El viaje en lanzadera solo es posible con una entrada válida. Espera a las instrucciones de reserva de 2028.','Preguntas frecuentes oficiales','https://fusion-festival.de/en/faq'],['Tren hasta Waren y después la ruta de taxi del festival','Las preguntas frecuentes citan Waren para quien llega desde Rostock; comprueba los taxis y lanzaderas vigentes para 2028.','Estación de Waren en Google Maps','https://www.google.com/maps/search/?api=1&query=Waren+Muritz+railway+station'],['Coche o autobús organizado hasta el aeródromo de Lärz','El camping de vehículos y el aparcamiento exigen la entrada adicional y la puerta correctas. No uses un mapa de vehículos de 2026 para 2028.','Recinto en Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']],
+  routeNote:'Los horarios de trenes especiales y lanzaderas de 2028 no están publicados.',
+  accommodation:['Fusion es un festival de camping en el aeródromo. Las zonas de acampada, las de vehículos y las normas de las entradas adicionales de 2028 se publicarán con el próximo proceso de venta.','Web oficial de Fusion Festival','https://fusion-festival.de/en/'],
+  spending:['No hay carta de comida y bebida de 2027 porque no hay evento. No construyas un presupuesto de 2028 con los precios de fichas, vehículo o domingo de 2026.',[['Entrada 2026 (referencia)','220 € con 10 € de fianza'],['Comida y bebida','Precios de 2028 no publicados'],['Lanzadera desde Neustrelitz (2026)','6 € por trayecto']],'Tienda de entradas de Fusion','https://tickets.fusion-festival.de/'],
+  rulesNote:'La página oficial de entradas indica que 2027 es un año sin Fusion. Suscríbete al boletín oficial para saber cómo será la venta y el sorteo de 2028, en lugar de comprar una supuesta entrada de 2027.',
+  packing:['Documento con foto que acredite 18 años','Tienda, saco, esterilla y frontal','Botella reutilizable, tapones para los oídos y batería externa','Capa impermeable, protección solar y calzado resistente','Solo el equipaje que puedas llevar desde la lanzadera'],
+  avoid:['Animales y drones','Fuegos artificiales, farolillos, hogueras y barbacoas de carbón','Banderas nacionales','Fotos en las zonas marcadas como sin fotografía','Llegar antes del miércoles sin plan de alojamiento'],
+  links:[['Web oficial','https://fusion-festival.de/en/'],['Tienda de entradas','https://tickets.fusion-festival.de/'],['Preguntas frecuentes','https://fusion-festival.de/en/faq'],['Aeródromo en Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']]
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),
@@ -202,7 +219,7 @@ const normalize = value => ({
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
   links:value.links.map(([label,url]) => ({label,url})),
   checked:'2026-10-06',
-  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp || value === data.es.fusion ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);

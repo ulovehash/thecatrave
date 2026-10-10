@@ -1,0 +1,18 @@
+{
+  "page": "es/fusion-festival.html",
+  "seed": "fusion festival",
+  "source": "Live google.es SERP read in the owner's Chrome, 10 October 2026 (hl=es, gl=es), for 'fusion festival' and 'fusion festival 2027 entradas'. No exact volumes: Keyword Planner not queried for this page.",
+  "terms": [
+    {"term": "Fusion Festival", "volume": null, "note": "head term; title, answer and hero"},
+    {"term": "Fusion Festival 2027", "volume": null, "note": "related search 'Fusion Festival 2027 germany'; title and dates H2"},
+    {"term": "Fusion Festival 2026", "volume": null, "note": "related search; the 2026 H2"},
+    {"term": "entradas de Fusion Festival", "volume": null, "note": "query 'fusion festival 2027 entradas'; the tickets H2"},
+    {"term": "cartel de Fusion Festival", "volume": null, "note": "related 'Fusion festival 2026 lineup'; the lineup H2"},
+    {"term": "cómo llegar a Fusion Festival", "volume": null, "note": "related 'bus fusion festival'; the travel H2"}
+  ],
+  "expansion_checked": "es-ES SERP for 'fusion festival' (fusion-festival.de, Wikipedia, tickets.fusion-festival.de, AI overview, Tripadvisor, Getty, Songkick; no People-also-ask box; related 'Fusion Festival 2026', 'Fusion festival location', 'Fusion festival application', 'Fusion Festival Lineup') and 'fusion festival 2027 entradas' (Tomaticket, festlocator, cuandopasa, RA, festivaly.eu, Songkick; related 'Boom 2027 tickets', 'Bus fusion festival', 'Fusion Berlin 2026').",
+  "rejected": [
+    {"term": "Fusion Festival 2027 cartel", "volume": null, "reason": "there is no 2027 edition; the page states it"},
+    {"term": "Fusion Fest South Bend", "volume": null, "reason": "a different event; flagged in the introduction only"}
+  ]
+}
