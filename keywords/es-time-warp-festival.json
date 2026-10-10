@@ -1,0 +1,17 @@
+{
+  "page": "es/time-warp-festival.html",
+  "seed": "time warp festival",
+  "source": "Live google.es SERP and People-also-ask read in the owner's Chrome, 10 October 2026 (hl=es, gl=es). No exact volumes: Keyword Planner not queried for this page.",
+  "terms": [
+    {"term": "Time Warp Festival", "volume": null, "note": "head term; title, answer and hero"},
+    {"term": "Time Warp Madrid 2026", "volume": null, "note": "related search and People-also-ask '¿Se ha cancelado Time Warp Madrid 2026?'; the Madrid H2 and FAQ"},
+    {"term": "Time Warp Mannheim", "volume": null, "note": "related search; the where and dates H2s"},
+    {"term": "Time Warp 2027", "volume": null, "note": "dates H2"},
+    {"term": "entradas de Time Warp", "volume": null, "note": "related 'Time Warp Madrid 2026 entradas'; the tickets H2"}
+  ],
+  "expansion_checked": "es-ES SERP for 'time warp festival' (time-warp.de, Time Warp Spain, es.wikipedia, RA, technobeatscloud; PAA '¿Qué es el Time Warp Festival?', '¿Se ha cancelado Time Warp Madrid 2026?', '¿Qué es Time Warp?', '¿Cuándo es Time Warp?'; related 'Time Warp Mannheim', 'Time Warp festival alemania', 'Time warp festival cartel', 'Time Warp Madrid 2026 cartel') and for 'time warp madrid 2026 cancelado' (official statement, technobeatscloud, RA marked CANCELLED, Modo Festival, El Mirador de Madrid).",
+  "rejected": [
+    {"term": "Time Warp Spain 2026 cartel", "volume": null, "reason": "the edition was cancelled; the page explains the cancellation instead of a line-up"},
+    {"term": "Time Warp alemania 2026", "volume": null, "reason": "no 2026 German edition after March; the page uses the 2027 date"}
+  ]
+}

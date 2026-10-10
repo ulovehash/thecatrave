@@ -2,7 +2,8 @@ const maps = {
   monegros: 'https://www.google.com/maps/search/?api=1&query=Monegros+Desert+Festival+N-II+km+416+Fraga',
   arc: 'https://www.google.com/maps/search/?api=1&query=Union+Park+Chicago',
   airbeat: 'https://www.google.com/maps/search/?api=1&query=Airbeat+One+Festival+Neustadt-Glewe',
-  exit: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad'
+  exit: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad',
+  timewarp: 'https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim'
 };
 
 const data = {
@@ -177,6 +178,22 @@ es.airbeat = {
   avoid:['Vidrio en todo el aeródromo','Bolsos de arena mayores que A4 o mochilas','Comida, bebida, latas o botellas rígidas en la arena','Fuego abierto; las barbacoas pueden estar restringidas según el tiempo','Llegar en coche sin el pase correcto reservado']
 };
 
+es.timewarp = {
+  festivalName:'Time Warp Mannheim 2027',
+  intro:'Time Warp Mannheim va de las 19:00 del 3 de abril a las 14:00 del 4 de abril de 2027. Cuenta con un evento de 19 horas bajo techo y con el regreso por la mañana, no con una noche de club normal.',
+  ticketIntro:'Precios previos al cartel de la tienda oficial de Mannheim, leídos el 4 de octubre de 2026, con los gastos de gestión incluidos. Pueden subir en fases posteriores.', ticketColumns:['Pase','Precio'],
+  ticketRows:[['Blue Pass (Experience)','Entrada de acceso, 6,50 € de gastos incluidos','79 €'],['Silver Pass (Comfort)','Pase intermedio, 15 € de gastos incluidos','169 €'],['Gold Pass','Pase superior, 20 € de gastos incluidos','229 €'],['Guardarropa','Precio del evento no publicado','No publicado']],
+  ticketNote:'Compra solo en la tienda oficial de Time Warp. La entrada es para mayores de 18 años.',
+  routes:[['Tranvía 6/6A hasta Maimarkt','La parada está en la entrada del Maimarkt. Confirma el servicio nocturno y los autobuses de refuerzo del evento.','Parada de Maimarkt en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkt+Mannheim+tram+stop'],['Tren hasta Mannheim Hbf y después tranvía','Cambia en la estación central al servicio señalizado del evento y guarda la ruta de vuelta del domingo por la mañana.','Mannheim Hbf en Google Maps','https://www.google.com/maps/search/?api=1&query=Mannheim+Hauptbahnhof'],['Coche hasta el aparcamiento oficial del Maimarkt','Sigue la señalización cerca de Xaver-Fuhr-Straße y prevé un conductor sobrio tras tantas horas.','Maimarkthalle en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']],
+  routeNote:'Los horarios de tranvía y refuerzos de la noche del evento se publican más tarde. Comprueba las tarifas del VRN.',
+  accommodation:['No hay camping. Un hotel cerca de Mannheim Hbf o de la línea de tranvía es lo más sencillo para volver cuando el evento termina el domingo a las 14:00.','Web oficial de Time Warp Mannheim','https://www.time-warp.de/germany/mannheim/'],
+  spending:['Los precios de comida y bebida de 2027 no están publicados. Calcula una noche y una mañana enteras dentro, con agua, comida, guardarropa y el trayecto de vuelta.',[['Pase más barato','79 €'],['Comida y bebida','Precios no publicados'],['Transporte local','Tarifa VRN vigente']],'Entradas de Time Warp','https://www.time-warp.de/tickets/'],
+  rulesNote:'Time Warp Mannheim es solo para mayores de 18 años. El horario previsto es del sábado a las 19:00 al domingo a las 14:00; comprueba las normas finales de bolsos, documento y reentrada antes de salir.',
+  packing:['Documento con foto y entrada guardada sin conexión','Tapones para los oídos y batería externa','Calzado cómodo para 19 horas de pista','Una capa ligera para la salida de la mañana','Ruta de transporte público guardada sin conexión'],
+  avoid:['Bolsos grandes o que no cumplan la norma','Alcohol de fuera y bebidas abiertas','Cámaras profesionales, drones y armas','Dar por hecho que se puede volver a entrar'],
+  links:[['Web oficial','https://www.time-warp.de/germany/mannheim/'],['Entradas','https://www.time-warp.de/tickets/'],['Maimarkthalle en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']]
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),
@@ -185,7 +202,7 @@ const normalize = value => ({
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
   links:value.links.map(([label,url]) => ({label,url})),
   checked:'2026-10-06',
-  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);

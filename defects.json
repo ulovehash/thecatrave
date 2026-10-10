@@ -1167,6 +1167,14 @@
         "file": "house-music-classics-draft.md",
         "contains": "used a new version by Labrinth"
       }
+    },
+    {
+      "id": "time-warp-madrid-2026-cancellation-missing",
+      "found": "2026-10-10",
+      "by": "Spanish SERP read for the es translation",
+      "what": "time-warp-festival says only that Madrid hosted Time Warp Spain in October 2024 and October 2025 and that the official site lists no Madrid date after October 2025. It omits that a third edition was announced for 18 and 19 September 2026 at Hall 12, IFEMA Madrid, and cancelled: the official statement (time-warp.de/page/tw-madrid-2026---official-statement) says all ticket holders get a full refund within 15 days and a new date is being worked on. The Spanish People-also-ask for 'time warp festival' is '¿Se ha cancelado Time Warp Madrid 2026?'. The Spanish page carries it; the English page still does not and needs wording shown to the owner first.",
+      "should_have_caught": "the editions section was built from the official event list, which drops cancelled events; the page's own search wording for Madrid was never checked in a live SERP",
+      "fix": null
     }
   ]
 }

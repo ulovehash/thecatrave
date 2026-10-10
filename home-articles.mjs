@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/time-warp-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','house'], href:'/es/time-warp-festival', type:'Guía', topic:'Time Warp',
+    title:'Time Warp Festival 2027: Mannheim, entradas y cartel',
+    description:'Time Warp 2027 es el 3 de abril en Mannheim: precios de las entradas, ediciones fuera de Alemania y qué pasó con Time Warp Madrid 2026, que se canceló.',
+    image:'img/time-warp/tdk-2006-320.webp',
+    srcset:'img/time-warp/tdk-2006-320.webp 320w,img/time-warp/tdk-2006-1200.webp 1200w',
+    width:1200, height:900, alt:'Una pista de baile llena frente a un escenario con pantallas de vídeo en Time Warp en 2006'
+  },
+  {
     page:'es/fabric-london.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/fabric-london', type:'Guía', topic:'fabric London',
     title:'fabric London: historia, salas, entradas y dress code',
     description:'fabric London en Farringdon: horarios, cómo comprar entradas, edad mínima y dress code, sus tres salas, aforo y qué pasó con la licencia en 2016.',
