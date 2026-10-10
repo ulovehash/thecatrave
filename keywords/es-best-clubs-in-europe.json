@@ -1,0 +1,13 @@
+{
+  "page": "es/mejores-discotecas-de-europa.html",
+  "seed": "mejores discotecas de europa",
+  "source": "Google es-ES live SERP and People-also-ask read in the owner's Chrome, 10 October 2026. No exact volumes (account without ad spend).",
+  "terms": [
+    {"term": "mejores discotecas de europa", "volume": null, "note": "H1/title and slug"},
+    {"term": "mejores clubes de techno de europa", "volume": null, "note": "H2"},
+    {"term": "mejores discotecas del mundo", "volume": null, "note": "FAQ, link to the world guide"}
+  ],
+  "rejected": [
+    {"term": "discoteca más famosa de europa", "reason": "People-also-ask question; no sourced single answer, and the English page makes no such claim"}
+  ]
+}

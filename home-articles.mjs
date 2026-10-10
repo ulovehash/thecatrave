@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/mejores-discotecas-de-europa.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/mejores-discotecas-de-europa', type:'Guía', topic:'Las mejores discotecas de Europa',
+    title:'Las mejores discotecas de Europa: 23 clubes por países',
+    description:'23 discotecas europeas en diez países, de Berghain y Tresor a Pacha y Cavo Paradiso: qué es cada sala, los puestos de DJ Mag 2026 y las sesiones que escuchar.',
+    image:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp',
+    srcset:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp 320w,img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp 1200w',
+    width:1200, height:900, alt:'Cavo Paradiso en su acantilado sobre el mar, en Mykonos, visto desde el agua'
+  },
+  {
     page:'es/mejores-discotecas-del-mundo.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/mejores-discotecas-del-mundo', type:'Guía', topic:'Las mejores discotecas del mundo',
     title:'Las mejores discotecas del mundo: 20 clubes de DJ Mag 2026',
     description:'20 clubes del Top 100 de DJ Mag 2026, de [UNVRS] y Berghain a GREENVALLEY, Club Space y WOMB: puestos, aforos, las más grandes y las sesiones que escuchar.',
