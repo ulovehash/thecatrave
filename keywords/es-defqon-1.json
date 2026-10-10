@@ -1,0 +1,18 @@
+{
+  "page": "es/defqon-1.html",
+  "seed": "defqon 1",
+  "source": "Live google.es SERP and People-also-ask read in the owner's Chrome, 10 October 2026 (hl=es, gl=es), for 'defqon 1' and 'defqon 1 2027 entradas'. No exact volumes: Keyword Planner not queried for this page.",
+  "terms": [
+    {"term": "Defqon.1 2027", "volume": null, "note": "PAA '¿Cuándo es Defqon.1 2027?'; title and dates H2"},
+    {"term": "entradas de Defqon.1", "volume": null, "note": "query 'defqon 1 entradas'; the tickets H2"},
+    {"term": "Defqon.1 2026 cancelado", "volume": null, "note": "related 'Defqon 1 cancelado'; the cancellation H2"},
+    {"term": "Dónde es Defqon.1", "volume": null, "note": "related 'Defqon 1 donde es'; the location H2"},
+    {"term": "cartel de Defqon.1", "volume": null, "note": "related 'Defqon 1 2026 cartel'; the lineup H2"},
+    {"term": "precio de las entradas de Defqon.1", "volume": null, "note": "related 'Defqon 1 precio'; the price H3 and FAQ"}
+  ],
+  "expansion_checked": "es-ES SERP for 'defqon 1' (q-dance.com, Instagram, YouTube Endshow videos, Wololo Sound, Festival Season; PAA '¿Cuándo es Defqon.1 2026?', '¿Cuándo es Defcon 1?', '¿Cuánto cuestan las entradas para Defqon 1 2026?', '¿Cuándo es Defqon.1 2027?'; related 'Defqon 1 precio', 'Defqon 1 donde es', 'Defqon 1 cancelado', 'Defqon 1 2026 cartel') and 'defqon 1 2027 entradas' (Q-dance FAQ and tickets, Ekanite, Music Festival Wizard).",
+  "rejected": [
+    {"term": "Defqon.1 2027 cartel confirmado", "volume": null, "reason": "no 2027 lineup is published on the pages read; the page says so"},
+    {"term": "Defcon 1", "volume": null, "reason": "PAA for the military alert level; mentioned once under the name, not targeted"}
+  ]
+}

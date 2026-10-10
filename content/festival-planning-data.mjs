@@ -4,7 +4,8 @@ const maps = {
   airbeat: 'https://www.google.com/maps/search/?api=1&query=Airbeat+One+Festival+Neustadt-Glewe',
   exit: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad',
   timewarp: 'https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim',
-  fusion: 'https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany'
+  fusion: 'https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany',
+  defqon: 'https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen'
 };
 
 const data = {
@@ -211,6 +212,22 @@ es.fusion = {
   links:[['Web oficial','https://fusion-festival.de/en/'],['Tienda de entradas','https://tickets.fusion-festival.de/'],['Preguntas frecuentes','https://fusion-festival.de/en/faq'],['Aeródromo en Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']]
 };
 
+es.defqon = {
+  festivalName:'Defqon.1 2027',
+  intro:'Defqon.1 2027 separa la entrada, el alojamiento en camping, el aparcamiento y los traslados. Una reserva Travel and Stay no incluye automáticamente una entrada al festival.',
+  ticketIntro:'Estado oficial de Q-dance leído el 5 de octubre de 2026. Son estados, no estimaciones: no hay precios de 2027.', ticketColumns:['Producto','Estado actual'],
+  ticketRows:[['Entrada de fin de semana 2027','Cuatro días con The Gathering y acceso al camping','Ver la tienda'],['Entrada de día','Viernes, sábado o domingo','Ver la tienda'],['Alojamiento Travel and Stay','Entrada no incluida automáticamente','Producto aparte'],['Aparcamiento o traslado','Según camping u hotel','Suplemento aparte']],
+  ticketNote:'Quien conservó una entrada de 2026 mantiene el precio de 2026. Los alojamientos y suplementos reembolsados hay que reservarlos de nuevo.',
+  routes:[['Lanzadera oficial o autobús organizado hasta Biddinghuizen','Elige la ruta que ofrezca la tienda de 2027 y reserva ida y vuelta; el transporte público nocturno es limitado.','Preguntas frecuentes oficiales de 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Lanzadera de los paquetes de parque vacacional','Los paquetes de parque vacacional incluyen una lanzadera cada hora hasta las 02:00; los traslados de hotel salen una vez al día a horas fijas.','Preguntas frecuentes de Travel and Stay','https://www.q-dance.com/l/defqon1-2027-faq'],['Coche hasta el aparcamiento asignado en los Holy Grounds','El aparcamiento regular y el Priority son productos distintos. El pase de aparcamiento no sustituye a una reserva de camping.','Defqon.1 en Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']],
+  routeNote:'Los horarios de lanzaderas de 2027 no estaban publicados el 5 de octubre de 2026.',
+  accommodation:['La entrada de fin de semana incluye acceso a la zona de camping con tu propia tienda. Friends Camp reserva una zona pero no el equipo; las tiendas montadas, las cabañas y los hoteles son productos aparte.','Preguntas frecuentes oficiales de 2027','https://www.q-dance.com/l/defqon1-2027-faq'],
+  spending:['Los precios de comida, bebida y fichas de 2027 no están publicados. Calcula por separado la entrada, el alojamiento, el aparcamiento o el traslado, las taquillas y el gasto en el recinto.',[['Entrada de fin de semana','Precio no publicado'],['Comida y bebida','Precios no publicados'],['Lanzadera de Dronten (2026)','12,50 € en línea']],'Entradas de Defqon.1','https://www.q-dance.com/l/defqon1-2027-faq'],
+  rulesNote:'Las entradas de 2026 conservadas valen solo como entrada de 2027; el alojamiento y los suplementos reembolsados hay que reservarlos de nuevo. Comprueba cada artículo de la cesta antes de pagar. Edad mínima 18 años con documento original.',
+  packing:['Pasaporte, documento de identidad o carnet de conducir originales','Tienda, saco, esterilla y frontal','Botella reutilizable, tapones para los oídos y batería externa','Protección solar y una capa para el calor extremo','Solo el equipaje que puedas llevar desde la lanzadera'],
+  avoid:['Copias del documento de identidad','Drogas de cualquier tipo, incluidas marihuana y hachís','Reservar alojamiento dando por hecho que incluye la entrada','Dar por hecho que un reembolso de 2026 se traslada a 2027'],
+  links:[['Web oficial','https://www.q-dance.com/network/defqon-1'],['Preguntas frecuentes de 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Defqon.1 en Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']]
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),
@@ -219,7 +236,7 @@ const normalize = value => ({
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
   links:value.links.map(([label,url]) => ({label,url})),
   checked:'2026-10-06',
-  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp || value === data.es.fusion ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp || value === data.es.fusion || value === data.es.defqon ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);

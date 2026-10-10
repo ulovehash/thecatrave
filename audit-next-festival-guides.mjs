@@ -54,7 +54,7 @@ for (const file of individualFestivalPages) {
   if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
 }
 
-if (individualFestivalPages.length !== 92) failures.push(`festival inventory: expected 90 individual guide variants, found ${individualFestivalPages.length}`);
+if (individualFestivalPages.length !== 93) failures.push(`festival inventory: expected 90 individual guide variants, found ${individualFestivalPages.length}`);
 
 for (const file of roundups) {
   if (!fs.existsSync(file)) continue;

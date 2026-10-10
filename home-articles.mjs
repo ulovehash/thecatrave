@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/defqon-1.html', category:'festivals', tags:['discovery', 'history', 'hardstyle'], href:'/es/defqon-1', type:'Guía', topic:'Defqon.1',
+    title:'Defqon.1 2027: fechas, entradas y calendario de venta',
+    description:'Defqon.1 2027 es del 24 al 27 de junio en Biddinghuizen: fases de venta, entradas, por qué se canceló 2026, qué pasó con los reembolsos y cómo llegar.',
+    image:'img/defqon-1/red-stage-2023-320.webp',
+    srcset:'img/defqon-1/red-stage-2023-320.webp 320w,img/defqon-1/red-stage-2023-1200.webp 1200w',
+    width:1280, height:720, alt:'El escenario principal Red de Defqon.1 2023 de día, con público delante'
+  },
+  {
     page:'es/fusion-festival.html', category:'festivals', tags:['techno', 'electronic', 'festival'], href:'/es/fusion-festival', type:'Guía', topic:'Fusion Festival',
     title:'Fusion Festival, Alemania: 2027, fechas 2028 y entradas',
     description:'Fusion Festival en Lärz: por qué no hay edición en 2027, las fechas de 2028, cómo funciona el sorteo de entradas, la disputa con la policía y cómo llegar.',
