@@ -1667,6 +1667,14 @@ export const frenchArticleCatalog = [
 // catalogue, the English guides' images with translated captions.
 export const spanishArticleCatalog = [
   {
+    page:'es/fabric-london.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/fabric-london', type:'Guía', topic:'fabric London',
+    title:'fabric London: historia, salas, entradas y dress code',
+    description:'fabric London en Farringdon: horarios, cómo comprar entradas, edad mínima y dress code, sus tres salas, aforo y qué pasó con la licencia en 2016.',
+    image:'img/fabric-london/exterior-2017-320.webp',
+    srcset:'img/fabric-london/exterior-2017-320.webp 320w,img/fabric-london/exterior-2017-1200.webp 1200w',
+    width:1200, height:900, alt:'La fachada de fabric en Charterhouse Street, en Londres, entre dos edificios más grandes'
+  },
+  {
     page:'es/mejores-discotecas-de-europa.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/es/mejores-discotecas-de-europa', type:'Guía', topic:'Las mejores discotecas de Europa',
     title:'Las mejores discotecas de Europa: 23 clubes por países',
     description:'23 discotecas europeas en diez países, de Berghain y Tresor a Pacha y Cavo Paradiso: qué es cada sala, los puestos de DJ Mag 2026 y las sesiones que escuchar.',

@@ -2746,5 +2746,49 @@
       "https://www.youtube-nocookie.com/embed/OcU74Xc6ko8",
       "/img/thecatrave-author-800.jpg"
     ]
+  },
+  "es/fabric-london.html": {
+    "title": "fabric London: historia, salas, entradas y dress code",
+    "canonical": "https://thecatrave.com/es/fabric-london",
+    "description": "fabric London en Farringdon: horarios, cómo comprar entradas, edad mínima y dress code, sus tres salas, aforo y qué pasó con la licencia en 2016.",
+    "h1": "fabric London: historia, salas, entradas y dress code",
+    "published": "2026-10-10",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "visiting",
+      "hours",
+      "tickets",
+      "dress-code",
+      "accessibility",
+      "own-playlist-rare-electronic-music",
+      "introduction",
+      "bandcamp-support-title",
+      "what-is",
+      "own-set-1",
+      "capacity",
+      "lineup",
+      "own-set-2",
+      "closure-2016",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "/img/fabric-london/entrance-2020-1200.webp",
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "https://bandcamp.com/EmbeddedPlayer/track=3192532299/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "/img/fabric-london/exterior-2017-1200.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "/img/fabric-london/neon-night-2013-1200.webp",
+      "https://www.youtube-nocookie.com/embed/pxKVT8F0BGE",
+      "https://www.youtube-nocookie.com/embed/_Rc8VLhRLzs",
+      "https://www.youtube-nocookie.com/embed/ldIX1k06dVw",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-lost-so-many-weekends-raving-and-i-wanna-lose-some-more&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "https://www.youtube-nocookie.com/embed/sqIg6hhJLrQ",
+      "/img/thecatrave-author-800.jpg"
+    ]
   }
 }

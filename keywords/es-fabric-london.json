@@ -1,0 +1,16 @@
+{
+  "page": "es/fabric-london.html",
+  "seed": "fabric londres",
+  "source": "Live google.es SERP and People-also-ask read in the owner's Chrome, 10 October 2026 (hl=es, gl=es). No exact volumes: Keyword Planner not queried for this page.",
+  "terms": [
+    {"term": "fabric London", "volume": null, "note": "head term; title, answer and hero. Spanish results keep the club's English name"},
+    {"term": "entradas", "volume": null, "note": "related search 'entradas fabric london'; the tickets H2"},
+    {"term": "dress code", "volume": null, "note": "related search 'fabric london dress code'; Spanish snippets use 'dress code' and 'código de vestimenta'"},
+    {"term": "horarios", "volume": null, "note": "related search 'fabric london hours'; the hours H2"},
+    {"term": "edad mínima", "volume": null, "note": "related search 'fabric london age limit'; first FAQ"}
+  ],
+  "expansion_checked": "es-ES SERP for 'fabric londres' (club site, es.wikipedia, Tripadvisor, RA, visitlondon, DICE; related 'entradas fabric london', 'fabric techno') and for 'fabric london entradas código de vestimenta' (FAQ, Fever, Techno Airlines, Reddit; related 'fabric london dress code reddit', 'age limit', 'hours', 'security', 'student tickets'). All answered by existing H2s or FAQ.",
+  "rejected": [
+    {"term": "fabric londres", "volume": null, "reason": "searchers' form; the page keeps the club's own name 'fabric London' and uses 'Londres' in the hero kicker"}
+  ]
+}

@@ -522,5 +522,15 @@
       "europe-clubs"
     ],
     "title": "Prepara tu visita"
+  },
+  "/es/fabric-london": {
+    "sections": [
+      "hours",
+      "tickets",
+      "dress-code",
+      "accessibility"
+    ],
+    "paragraphTables": true,
+    "title": "Prepara tu visita"
   }
 }
