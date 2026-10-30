@@ -15,7 +15,7 @@ import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleVideoCard, articleVideoCollection,
   articleSection, articleSources, articleStructuredData, articleTable, authorCard,
-  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownSetListening, ownTrackListening, readNext
+  bandcampSupport, breadcrumbStructuredData, faqStructuredData, infoBanner, ownPlaylistListening, ownSetListening, ownTrackListening, readNext
 } from './site-components.mjs';
 import {relatedArticles} from './home-articles.mjs';
 import {alternatesFor} from './pages.mjs';
@@ -168,6 +168,7 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'A list meant for choosing.', bodyHtml: join(intro), className: 'article-intro'}),
+  ownPlaylistListening('rare-electronic-music'),
   articleSection({id: 'criteria', title: 'How this list was chosen.', bodyHtml: join(criteria)}),
   articleSection({id: 'at-a-glance', title: 'US EDM festival dates for 2027 at a glance.', bodyHtml: `${join(glance)}${festivalTable}`}),
   articleSection({id: 'biggest', title: 'What is the biggest EDM festival in the US?', kicker: 'EDM and the main stage', bodyHtml: `${join(biggest)}${firstMix}`}),

@@ -238,7 +238,13 @@ function automaticOwnMusic(canonical, lang) {
   if (/breakbeat|acid-house/.test(path)) return ownTrackListening('protect-ya-breaks', copy.breaks, lang);
   if (/techno|berlin|movement-detroit|german-electronic|deutsche-elektronische|electronique-allemande/.test(path)) return ownTrackListening('berlin-race-1909', copy.berlin, lang);
   if (/find-new-music|neue-musik|trouver-de-la-nouvelle|uk-electronic|britische-elektronische|electronique-britannique/.test(path)) return ownTrackListening('no-genre-no-problem', copy.crossGenre, lang);
-  const playlistKey = /trance|primavera|coachella|glastonbury/.test(path) ? 'emotional-electronic-music' : 'rare-electronic-music';
+  return ownPlaylistListening(/trance|primavera|coachella|glastonbury/.test(path) ? 'emotional-electronic-music' : 'rare-electronic-music', lang);
+}
+
+// A guide that already plays one of the owner's tracks gets no automatic
+// playlist, so it asks for one by name.
+export function ownPlaylistListening(playlistKey, lang = defaultLang) {
+  const copy = automaticMusicCopy[lang] || automaticMusicCopy.en;
   const playlist = ownPlaylists[playlistKey];
   return articleListeningBand({
     platform: 'spotify', id: `own-playlist-${playlistKey}`, kicker: t(lang).ownPlaylistKicker,

@@ -1208,6 +1208,35 @@
         "file": "famous-djs-draft.md",
         "contains": "his sixth title and a record"
       }
+    },
+    {
+      "id": "club-roundups-mix-buried-with-festival-line",
+      "found": "2026-10-31",
+      "by": "Claude, comparing player positions with October plays",
+      "what": "best-clubs-in-europe played the owner's mix 93% down the page and best-nightclubs-in-the-world 67% down, and both printed the festival default line 'for a break from the festival' under it on a page about clubs. Neither page logged a play from 152 sessions, 2 to 29 October.",
+      "should_have_caught": "ownSetListening's default line is written for festival guides, and nothing stops a non-festival guide from taking it.",
+      "fix": {
+        "file": "build-best-nightclubs-in-the-world-article.mjs",
+        "contains": "My own mix, for the walk home after the club."
+      }
+    },
+    {
+      "id": "usa-hub-has-no-playlist-near-start",
+      "found": "2026-10-31",
+      "by": "Claude, comparing player positions across the festival hubs",
+      "what": "best-edm-festivals-usa was the only festival hub with no playable player above its first mix at 47%, only the Bandcamp block. Its late summer cloud dance player counts as the owner's music, so ensureOwnMusicNearStart skipped the playlist the other hubs get.",
+      "should_have_caught": "the near-start check asks whether the page has the owner's music anywhere, not whether it is near the start.",
+      "fix": {
+        "file": "build-us-festivals-article.mjs",
+        "contains": "ownPlaylistListening('rare-electronic-music')"
+      }
+    },
+    {
+      "id": "festival-mix-line-on-non-festival-pages",
+      "found": "2026-10-31",
+      "by": "Claude, while fixing the same line on the club roundups",
+      "what": "'for a break from the festival' still prints under the mix on fabric-london, pacha-ibiza, printworks-london and love-parade, and its Spanish version on es/fabric-london, es/printworks-london, es/mejores-discotecas-de-europa and es/mejores-discotecas-del-mundo. None of them is a festival page. Left open because the main checkout has uncommitted work on fabric, pacha and printworks.",
+      "should_have_caught": "ownSetListening's default line is written for festival guides, and nothing stops a non-festival guide from taking it."
     }
   ]
 }

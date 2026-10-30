@@ -151,8 +151,8 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'What best means for a club.', bodyHtml: join(sec('Introduction')), className: 'article-intro'}),
-  articleSection({id: 'nightclubs', title: 'Best nightclubs in the world', bodyHtml: join(sec('Best nightclubs in the world'))}),
-  articleSection({id: 'dance-clubs', title: 'Best dance clubs in the world, by region', bodyHtml: `${join(sec('Best dance clubs in the world, by region'))}${ownSetListening(0)}`}),
+  articleSection({id: 'nightclubs', title: 'Best nightclubs in the world', bodyHtml: `${join(sec('Best nightclubs in the world'))}${ownSetListening(0, 'en', 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own mix, for the walk home after the club.')}`}),
+  articleSection({id: 'dance-clubs', title: 'Best dance clubs in the world, by region', bodyHtml: join(sec('Best dance clubs in the world, by region'))}),
   articleSection({id: 'biggest', title: 'Biggest nightclubs in the world', bodyHtml: join(sec('Biggest nightclubs in the world'))}),
   articleSection({id: 'famous', title: 'World famous nightclubs: the longest-running rooms', bodyHtml: join(sec('World famous nightclubs: the longest-running rooms'))}),
   articleSection({id: 'best-techno-clubs', title: 'Best techno clubs in the world', bodyHtml: join(sec('Best techno clubs in the world'))}),

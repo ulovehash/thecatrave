@@ -165,11 +165,11 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Choosing among 23 rooms.', bodyHtml: join(sec('Introduction')), className: 'article-intro'}),
-  articleSection({id: 'nightclubs', title: 'Best nightclubs in Europe', bodyHtml: join(sec('Best nightclubs in Europe'))}),
+  articleSection({id: 'nightclubs', title: 'Best nightclubs in Europe', bodyHtml: `${join(sec('Best nightclubs in Europe'))}${ownSetListening(0, 'en', 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own mix, for the walk home after the club.')}`}),
   articleSection({id: 'dance-clubs', title: 'Best dance clubs in Europe, by country', bodyHtml: join(sec('Best dance clubs in Europe, by country'))}),
   articleSection({id: 'top-clubs', title: 'Top clubs in Europe by size', bodyHtml: join(sec('Top clubs in Europe by size'))}),
   articleSection({id: 'europe-clubs', title: 'Europe clubs: entry, phones and age', bodyHtml: join(sec('Europe clubs: entry, phones and age'))}),
-  articleSection({id: 'dj-mag', title: 'DJ Mag Top 100 Clubs 2026: which European clubs are on it', bodyHtml: `${join(sec('DJ Mag Top 100 Clubs 2026: which European clubs are on it'))}${ownSetListening(0)}`}),
+  articleSection({id: 'dj-mag', title: 'DJ Mag Top 100 Clubs 2026: which European clubs are on it', bodyHtml: join(sec('DJ Mag Top 100 Clubs 2026: which European clubs are on it'))}),
   articleSection({id: 'best-techno-clubs', title: 'Best techno clubs', bodyHtml: join(sec('Best techno clubs'))}),
   articleFaq({items: faqItems, title: 'Best clubs in Europe FAQ.', openFirst: true}),
   authorCard({filled: true}),
