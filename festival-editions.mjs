@@ -73,6 +73,8 @@ export const festivalEditions = [
   {page: 'de/winterfestivals.html', heading: 'Die Termine der Winterfestivals 2027 im Überblick', ends: null},
   {page: 'fr/festivals-hiver.html', heading: 'Les dates des festivals d’hiver 2027 en un coup d’œil', ends: null},
   {page: 'es/festivales-invierno.html', heading: 'Las fechas de los festivales de invierno de 2027 de un vistazo', ends: null},
+  {page: 'de/edm-festivals-usa.html', heading: 'Die Termine 2027 im Überblick', ends: null},
+  {page: 'fr/festivals-edm-etats-unis.html', heading: 'Les dates 2027 en un coup d’œil', ends: null},
   {page: 'es/festivales-edm-estados-unidos.html', heading: 'Las fechas de 2027 de un vistazo', ends: null},
   // New Year's Eve moves on every January: rewrite the table and the heading
   // for the next New Year once this one has passed.

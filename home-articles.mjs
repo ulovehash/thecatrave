@@ -703,9 +703,16 @@ export const homeArticleCatalog = [
 // than assumed, and the captions are translated with the prose.
 export const germanArticleCatalog = [
   {
+    page:'de/edm-festivals-usa.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/de/edm-festivals-usa', type:'Guide', topic:'EDM-Festivals',
+    title:'EDM-Festivals in den USA 2027: EDC, Ultra, Movement',
+    description:'EDC, Ultra, Movement, ARC, Lost Lands und Electric Forest, verglichen nach Sound, Größe und Terminen für 2027.',
+    image:'img/us-festivals/beyond-wonderland-2010-320.webp', srcset:'img/us-festivals/beyond-wonderland-2010-320.webp 320w,img/us-festivals/beyond-wonderland-2010-1200.webp 1200w',
+    width:1200, height:900, alt:'Ein DJ auf der Hauptbühne von Beyond Wonderland 2010, mit dem Publikum davor'
+  },
+  {
     page:'de/winterfestivals.html', category:'festivals', tags:['house','techno','discovery'], href:'/de/winterfestivals', type:'Liste', topic:'Winterfestivals',
     title:'Winterfestivals 2027: Snowbombing, Igloofest, CTM',
-    description:'Winterfestivals für elektronische Musik 2027, von Tomorrowland Winter und Snowbombing bis CTM, Elevate und Shapes, mit bestätigten und nicht bestätigten Terminen.',
+    description:'Winterfestivals für elektronische Musik 2027, von Tomorrowland Winter und Snowbombing bis CTM und Shapes, mit bestätigten und gelisteten Terminen.',
     image:'img/winter-festivals/igloofest-2009-320.webp', srcset:'img/winter-festivals/igloofest-2009-320.webp 320w,img/winter-festivals/igloofest-2009-1200.webp 1200w',
     width:1200, height:800, alt:'Igloofest in Montreal im Januar 2009'
   },
@@ -1191,6 +1198,13 @@ export const germanArticleCatalog = [
 // The French guides, on the same terms as the German ones above: their own
 // catalogue, the English guides' images with translated captions.
 export const frenchArticleCatalog = [
+  {
+    page:'fr/festivals-edm-etats-unis.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/fr/festivals-edm-etats-unis', type:'Guide', topic:'Festivals EDM',
+    title:'Festivals EDM aux États-Unis en 2027 : EDC, Ultra, Movement',
+    description:'EDC, Ultra, Movement, ARC, Lost Lands et Electric Forest, comparés par son, taille et dates 2027.',
+    image:'img/us-festivals/beyond-wonderland-2010-320.webp', srcset:'img/us-festivals/beyond-wonderland-2010-320.webp 320w,img/us-festivals/beyond-wonderland-2010-1200.webp 1200w',
+    width:1200, height:900, alt:'Un DJ sur la scène principale de Beyond Wonderland en 2010, avec le public devant'
+  },
   {
     page:'fr/festivals-hiver.html', category:'festivals', tags:['house','techno','discovery'], href:'/fr/festivals-hiver', type:'Liste', topic:'Festivals d’hiver',
     title:'Festivals d’hiver 2027 : Snowbombing, Igloofest, CTM',
