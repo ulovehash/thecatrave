@@ -2546,3 +2546,14 @@ iamsterdam: ade amsterdam 1 800 (поз. 2, 79 трафика), when is ade 250 
 **rave festivals** (этап 3 related): шум широких слов (los angeles, edc 288 000, electric forest 68 000, edc las vegas 29 000, music festivals 95 000). Этап 4, вопросная форма «biggest rave festivals»: reddit r/EDM №1 (273), borninstockholm (288, DR 17), edmtrain (2 592), wikipedia list (366), djmag top100festivals (1 032), insomniac, MFW best-edm-festivals-in-the-us (106); PAA: largest rave festival in the world; top 10 biggest; Coachella or EDC bigger. Этап 5, топ-3: edmtrain /festivals — edm festivals 3 300 (поз. 1, 313), edm festival 1 300, upcoming raves 1 000, rave festivals 800 (поз. 1, 122); MFW /festival-genre/electronic — edm festivals 3 300 (поз. 5), electronic music festivals 800 (поз. 2, 105), rave festivals 800 (поз. 1, 49); iheartraves — см. выше. Вывод данных: «rave festivals» ранжируется как синоним «edm festivals» тем же набором страниц.
 
 Не подтверждено данными: позиция /best-edm-festivals-usa 4,5 взята из GSC (30 октября, предыдущая сессия), не из Ahrefs.
+
+### Вердикт (этап 6, независимый валидатор, 30 октября 2026)
+
+Глубина этапов 1–5 выровнена; блокирующих пробелов нет, вердикт разрешён. Решение принимал валидатор, не собиравший данные.
+
+1. **Amsterdam Dance Event — WRITE.** Slug `amsterdam-dance-event`, головной термин «amsterdam dance event» (8 800 global, TP 900); рядом ade amsterdam 14 000, ade festival 2 400, ade dates 700, when is ade 600. Официальный сайт (DR 74) держит №1; третьи стороны получают 4–80 визитов (оценка Ahrefs). «2027» — поле даты (ade 2027 = 150), не цель. Страница отвечает на «что это, когда, где, сколько стоит»; билеты и расписание не берёт. Не таргетить «awakenings amsterdam ade» (занято), ссылаться на Awakenings. Даты 20–24 октября 2027 сверить на сайте организатора до публикации.
+2. **Rave festivals 2027 — SKIP** как страница. «rave festivals» 1 100 global, TP 2 300, родитель «edm festivals»; выдача — листинги и билеты (edmtrain, insomniac, MFW, ra.co). Опционально один FAQ «What are rave festivals?» в /best-edm-festivals-usa (правка опубликованного текста только после показа формулировки).
+3. **Festivals abroad 2027 — SKIP.** 250 global, нет TP и родителя, выдача — европейские подборки, уже закрытые хабом Europe. Майнинг конкурентов не делался: пропущен, не доказано «пусто».
+
+Поправка к отчёту валидатора: у Wikipedia «45» — это оценка трафика, DR сайта 97.
+Ограничения: объёмы US-базы искажают редкие термины, решать по global; позиция /best-edm-festivals-usa 4,5 из GSC; Keyword Planner дал лишь диапазоны.
