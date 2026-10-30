@@ -136,6 +136,11 @@ const tiestoListening = articleVideoCollection({
 // The owner's own music inside the text, honestly placed: neither track claims
 // trance lineage, only a real tempo or listening-context proximity.
 const degenerationTrack = ownTrackListening('degeneration', 'Garage, dubstep and breaks in one remix, 132 BPM: inside trance\'s tempo range, built from an entirely different rhythm. My own remix.');
+// "Hear it now" at the end of the introduction (owner, 2026-10-30), as on the
+// jungle guide since 2 October: an own track at 140 BPM, inside the 130 to 145
+// BPM range this page gives for trance, then a link to the twelve-record list.
+const hearItNow = ownTrackListening('look', 'Trance\'s tempo, a different rhythm: a 140 BPM track of mine, between future bass, glitch and breakbeat, to hear before you read on.') +
+  '\n<p>Want trance itself? <a href="/best-trance-tracks">Twelve of the best trance tracks, 1993 to 2012</a>, each with a player, are the quickest way in.</p>';
 const ownMix = ownSetListening(0, 'en', 'For after the history: thirty tracks where breaks move between garage, bass music, techno and rave, if you want a different palette next. My own mix.');
 
 const familyTable = articleTable({
@@ -181,7 +186,7 @@ const articleHtml = [
     summaryHtml: infoBanner({label: 'Trance definition', bodyHtml: 'Trance is dance music at 130 to 145 BPM built around one repeated melody, a long breakdown and the return of the drums.', className: 'article-summary'}),
     tocItems
   }),
-  articleSection({id: 'introduction', title: 'The lights coming back on.', bodyHtml: join(intro), className: 'article-intro'}),
+  articleSection({id: 'introduction', title: 'The lights coming back on.', bodyHtml: `${join(intro)}${hearItNow}`, className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is trance music?', bodyHtml: join(whatIs)}),
   articleSection({id: 'origins', title: 'Where trance came from.', kicker: 'Frankfurt, early 1990s', bodyHtml: `${join(origins.slice(0, 2))}${vathFigure}${vathListening}${join(origins.slice(2))}${vanDykFigure}${vanDykListening}`}),
   articleSection({id: 'decade', title: "Trance's mainstream decade.", kicker: '1990s to 2000s', bodyHtml: `${join(decade.slice(0, 1))}${arminFigure}${arminListening}${join(decade.slice(1))}${tiestoFigure}${tiestoListening}${degenerationTrack}`}),
