@@ -1,0 +1,25 @@
+{
+  "page": "de/winterfestivals.html",
+  "seed": "winterfestivals elektronische musik",
+  "source": "Wording carried from the Spanish page's live es-ES SERP and People-also-ask read (9 October 2026) and translated; the native-language SERP was not read: Claude in Chrome was not connected on 30 October 2026 and no Keyword Planner row was requested. No Ahrefs units spent.",
+  "note": "Volumes not measured. Re-qualify the wording in the live google.de SERP and People also ask, then in Search Console.",
+  "terms": [
+    {
+      "term": "winterfestivals",
+      "volume": null,
+      "note": "title, H1, URL"
+    },
+    {
+      "term": "festivals im schnee",
+      "volume": null,
+      "note": "FAQ question"
+    },
+    {
+      "term": "winterfestivals für elektronische musik",
+      "volume": null,
+      "note": "answer and introduction"
+    }
+  ],
+  "expansion_checked": "None for this language. Paid expansion deferred.",
+  "rejected": []
+}

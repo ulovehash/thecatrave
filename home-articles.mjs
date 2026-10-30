@@ -703,6 +703,13 @@ export const homeArticleCatalog = [
 // than assumed, and the captions are translated with the prose.
 export const germanArticleCatalog = [
   {
+    page:'de/winterfestivals.html', category:'festivals', tags:['house','techno','discovery'], href:'/de/winterfestivals', type:'Liste', topic:'Winterfestivals',
+    title:'Winterfestivals 2027: Snowbombing, Igloofest, CTM',
+    description:'Winterfestivals für elektronische Musik 2027, von Tomorrowland Winter und Snowbombing bis CTM, Elevate und Shapes, mit bestätigten und nicht bestätigten Terminen.',
+    image:'img/winter-festivals/igloofest-2009-320.webp', srcset:'img/winter-festivals/igloofest-2009-320.webp 320w,img/winter-festivals/igloofest-2009-1200.webp 1200w',
+    width:1200, height:800, alt:'Igloofest in Montreal im Januar 2009'
+  },
+  {
     page:'de/tomorrowland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/tomorrowland-festival', type:'Guide', topic:'Tomorrowland',
     title:'Tomorrowland 2027: Wo es stattfindet, wie groß es ist, welche Musik läuft',
     description:'Ein Park in Boom, Belgien, den die Welt vor allem im Livestream kennt: wo Tomorrowland stattfindet, wie viele Besucher kommen, wem es gehört und was abseits der Mainstage läuft.',
@@ -1184,6 +1191,13 @@ export const germanArticleCatalog = [
 // The French guides, on the same terms as the German ones above: their own
 // catalogue, the English guides' images with translated captions.
 export const frenchArticleCatalog = [
+  {
+    page:'fr/festivals-hiver.html', category:'festivals', tags:['house','techno','discovery'], href:'/fr/festivals-hiver', type:'Liste', topic:'Festivals d’hiver',
+    title:'Festivals d’hiver 2027 : Snowbombing, Igloofest, CTM',
+    description:'Festivals de musique électronique d’hiver en 2027, de Tomorrowland Winter et Snowbombing à CTM, Elevate et Shapes, avec les dates confirmées ou non.',
+    image:'img/winter-festivals/igloofest-2009-320.webp', srcset:'img/winter-festivals/igloofest-2009-320.webp 320w,img/winter-festivals/igloofest-2009-1200.webp 1200w',
+    width:1200, height:800, alt:'Igloofest à Montréal en janvier 2009'
+  },
   {
     page:'fr/festival-tomorrowland.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-tomorrowland', type:'Guide', topic:'Tomorrowland',
     title:'Tomorrowland 2027 : lieu, fréquentation, histoire et musique',
