@@ -59,3 +59,12 @@ Psytrance (psychedelic trance) grew out of the Goa party scene rather than Frank
 ### Is trance still popular?
 
 Yes. A State of Trance's own festival events still draw large crowds, its founding generation of artists is still recording and touring, and psytrance has built its own separate festival circuit that continues to grow.
+
+### Is trance the same as techno?
+
+No. Both run at similar tempos and share early-1990s German clubs, but trance is built around a melodic breakdown and a lead synth line, while techno is built around a groove meant to loop. The comparison table above sets them side by side with house.
+
+### What type of music is trance?
+
+Electronic dance music. It sits in the same family as house and techno, at 130 to 145 BPM, and is defined by a long build, a breakdown that strips back to one melody and the return of the drums.
+

@@ -166,11 +166,11 @@ const stylesTable = articleTable({
 
 const tocItems = [
   {id: 'what-is', label: 'What is trance music'},
-  {id: 'origins', label: 'Where trance came from'},
+  {id: 'origins', label: 'Where did trance music come from?'},
   {id: 'decade', label: "Trance's mainstream decade"},
-  {id: 'styles', label: 'Trance styles and subgenres'},
-  {id: 'family', label: 'Trance, house and techno'},
-  {id: 'today', label: 'Trance today'}
+  {id: 'styles', label: 'What are the types of trance music?'},
+  {id: 'family', label: 'Is trance the same as techno or house?'},
+  {id: 'today', label: 'Is trance still popular today?'}
 ];
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
@@ -188,11 +188,11 @@ const articleHtml = [
   }),
   articleSection({id: 'introduction', title: 'The lights coming back on.', bodyHtml: `${join(intro)}${hearItNow}`, className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is trance music?', bodyHtml: join(whatIs)}),
-  articleSection({id: 'origins', title: 'Where trance came from.', kicker: 'Frankfurt, early 1990s', bodyHtml: `${join(origins.slice(0, 2))}${vathFigure}${vathListening}${join(origins.slice(2))}${vanDykFigure}${vanDykListening}`}),
+  articleSection({id: 'origins', title: 'Where did trance music come from?', kicker: 'Frankfurt, early 1990s', bodyHtml: `${join(origins.slice(0, 2))}${vathFigure}${vathListening}${join(origins.slice(2))}${vanDykFigure}${vanDykListening}`}),
   articleSection({id: 'decade', title: "Trance's mainstream decade.", kicker: '1990s to 2000s', bodyHtml: `${join(decade.slice(0, 1))}${arminFigure}${arminListening}${join(decade.slice(1))}${tiestoFigure}${tiestoListening}${degenerationTrack}`}),
-  articleSection({id: 'styles', title: 'Trance styles and subgenres.', bodyHtml: `${join(styles)}${stylesTable}`}),
-  articleSection({id: 'family', title: 'Trance, house and techno.', bodyHtml: `${join(family)}${familyTable}`}),
-  articleSection({id: 'today', title: 'Trance today.', bodyHtml: `${join(today)}${ownMix}`}),
+  articleSection({id: 'styles', title: 'What are the types of trance music?', bodyHtml: `${join(styles)}${stylesTable}`}),
+  articleSection({id: 'family', title: 'Is trance the same as techno or house?', bodyHtml: `${join(family)}${familyTable}`}),
+  articleSection({id: 'today', title: 'Is trance still popular today?', bodyHtml: `${join(today)}${ownMix}`}),
   articleFaq({items: faqItems, title: 'Trance FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
