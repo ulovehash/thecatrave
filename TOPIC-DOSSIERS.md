@@ -2494,3 +2494,29 @@ Owner decision, 6 Oct 2026: the world guide (`/best-nightclubs-in-the-world`) ta
 | creamfields-festival | 9 → 3 (не сезон) |
 
 Ограничение: эффект тайтлов и H2 от эффекта DE/FR-переводов, запущенных в тот же день, не отделить. Поэтому рост семейств Primavera и Ultra нельзя целиком приписать вопросному паттерну: EN-версия Primavera не выросла, EN-версия Ultra упала. Из пяти страниц чистый сигнал даёт только jungle (блок прослушивания), и он же единственный, где плеи измерены напрямую.
+
+## ADE 2027, rave festivals 2027, festivals abroad 2027: сырые данные (30 октября 2026)
+
+Статус: этапы 1–4 частично, этап 5 (конкуренты) и этап 6 (валидация другим агентом) НЕ сделаны. Вердикта нет. Данные Ahrefs, страна US, `volume` = US, `global` = весь мир. Keyword Planner дал только диапазоны (аккаунт без кампаний), поэтому не использовался.
+
+| Термин | US | global | TP | parent |
+|---|---|---|---|---|
+| ade amsterdam | 600 | 14 000 | 10 | ade dates |
+| amsterdam dance event | 700 | 8 800 | 900 | ade |
+| amsterdam dance event 2026 | 100 | 1 700 | – | – |
+| amsterdam dance event 2025 | 50 | 1 200 | – | – |
+| ade 2027 | 10 | 150 | – | – |
+| amsterdam dance event 2027 | 0 | 30 | – | – |
+| amsterdam dance event tickets | 0 | 150 | 60 | ade dates |
+| rave festivals | 700 | 1 100 | 2 300 | edm festivals |
+| rave festivals 2026 | 600 | 900 | – | – |
+| rave festivals 2027 | 20 | 20 | – | – |
+| best rave festivals | 30 | 40 | 50 | popular raves |
+| rave festivals europe | 0 | 10 | – | – |
+| festivals abroad | 0 | 250 | – | – |
+| music festivals abroad | 0 | 50 | – | – |
+| festivals abroad 2027 | нет данных | | | |
+
+Наблюдения (не вердикт): у «rave festivals» parent topic «edm festivals», TP 2 300 — тот же кластер, что у /best-edm-festivals-usa (позиция 4,5 по GSC). «amsterdam dance event» — единственный термин с глобальным спросом выше 8 000, но «awakenings amsterdam ade» занят (TAKEN-KEYWORDS.md). SERP 30 октября (US): rave — календари; ADE — официальный сайт, даты 20–24 октября 2027; abroad Google отбрасывает.
+
+Не сделано: SERP и PAA для вопросных форм, конкуренты (site-explorer-organic-keywords), валидация. Расход Ahrefs: ~3 200 единиц.
