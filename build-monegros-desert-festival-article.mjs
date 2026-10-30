@@ -3,8 +3,8 @@ import {buildFestivalArticle} from './build-next-festival-article.mjs';
 buildFestivalArticle({
   draft:'monegros-desert-festival-draft.md', output:'monegros-desert-festival.html', bodyClass:'monegros-desert-festival-page',
   canonical:'https://thecatrave.com/monegros-desert-festival', ogImage:'img/og/monegros.jpg', shortName:'Monegros Desert Festival',
-  seoTitle:'Monegros Desert Festival 2027: Date, History and Guide',
-  description:'Monegros Desert Festival 2027 is scheduled for 31 July near Fraga, Spain. Learn its history, music, desert format, location and practical limits.',
+  seoTitle:'Monegros Desert Festival 2027: 31 July, Tickets and Lineup',
+  description:'Monegros 2027 is on Saturday 31 July near Fraga, Spain. Tickets are on sale and the lineup isn\'t announced yet. Prices, coaches, entry rules, what to pack.',
   kicker:'Spain festival guide', h1:'Monegros Desert Festival 2027: The Desert Rave Explained',
   deck:'One long electronic event on exposed land between Barcelona and Zaragoza, rooted in Florida 135 and built for competing stages through the night.',
   answerLabel:'What is Monegros Desert Festival', introTitle:'One long night requires its own plan.', factsLabel:'Monegros Desert Festival 2027 facts',
@@ -24,7 +24,7 @@ buildFestivalArticle({
     {heading:'The site and the overnight format',id:'site',toc:'The overnight format',title:'The site and the overnight format.',figure:'desert',figureAfter:1},
     {heading:'Preparing for Monegros',id:'planning',toc:'Preparing for Monegros',title:'Plan your Monegros trip.',ownSet:1,planning:{
       festivalName:'Monegros Desert Festival 2027',
-      intro:'Monegros is a 22-hour event on an isolated desert site, not a city festival with an easy walk home. Secure the return journey before the ticket, then budget for the cashless site and carry only what survives the official bag check.',
+      intro:'Monegros runs through the night on an isolated desert site, not a city festival with an easy walk home. Secure the return journey before the ticket, then budget for the cashless site and carry only what survives the official bag check.',
       ticketIntro:'Current official seller information for 31 July 2027. Ticket tiers can rise as allocations sell.',
       ticketRows:[
         {label:'General admission',note:'Personalised ticket; official ID must match',price:'from €83'},

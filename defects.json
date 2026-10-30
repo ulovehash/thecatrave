@@ -1237,6 +1237,36 @@
       "by": "Claude, while fixing the same line on the club roundups",
       "what": "'for a break from the festival' still prints under the mix on fabric-london, pacha-ibiza, printworks-london and love-parade, and its Spanish version on es/fabric-london, es/printworks-london, es/mejores-discotecas-de-europa and es/mejores-discotecas-del-mundo. None of them is a festival page. Left open because the main checkout has uncommitted work on fabric, pacha and printworks.",
       "should_have_caught": "ownSetListening's default line is written for festival guides, and nothing stops a non-festival guide from taking it."
+    },
+    {
+      "id": "trance-tracks-faq-says-ranks",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking a new title against the page",
+      "what": "The best-trance-tracks FAQ said 'This page ranks and plays records' while the intro says the list is not a countdown and no single ranking settles it.",
+      "should_have_caught": "Nothing compares a page's claims about itself; only a read of the whole page finds this.",
+      "fix": {
+        "file": "best-trance-tracks-draft.md",
+        "contains": "This page lists and plays records."
+      }
+    },
+    {
+      "id": "monegros-22-hours-stated-flat",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking a new title against the page",
+      "what": "The Monegros planner said 'Monegros is a 22-hour event' as fact, while the same page says 22 hours describes 2026 and is not confirmed for 2027.",
+      "should_have_caught": "The planner intro was written separately from the facts, and nothing ties the two together.",
+      "fix": {
+        "file": "build-monegros-desert-festival-article.mjs",
+        "contains": "Monegros runs through the night on an isolated desert site,"
+      }
+    },
+    {
+      "id": "monegros-2026-and-2027-rules-disagree",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking a new title against the page",
+      "what": "monegros-desert-festival mixes 2026 and 2027 status: the FAQ treats cashless and 18+ as 2026 rules awaiting the 2027 FAQ while the planner states them as current; the FAQ says tents are from earlier editions while the price table lists VIP Tent for 2027; final 2027 transport is called pending beside a detailed coach section; the 'from €83' row may be out of date. Left open because each needs checking against the official site, which did not load for the reviewer.",
+      "should_have_caught": "The planner and the FAQ draw on different dates of the same official pages, and nothing reconciles them.",
+      "fix": null
     }
   ]
 }

@@ -3,9 +3,26 @@
   "seed": "monegros desert festival",
   "source": "Google Ads Keyword Planner, all locations, English, checked 2026-09-29; live SERP and official sources checked 2026-09-29. No Ahrefs request was made.",
   "terms": [
-    {"term":"monegros desert festival","volume":"10K-100K","note":"primary head term"},
-    {"term":"monegros desert","volume":"1K-10K","note":"close branded qualifier"}
+    {
+      "term": "monegros desert festival",
+      "volume": "10K-100K",
+      "note": "primary head term"
+    },
+    {
+      "term": "monegros desert",
+      "volume": "1K-10K",
+      "note": "close branded qualifier"
+    },
+    {
+      "term": "monegros 2027",
+      "volume": "339 GSC impressions, 28 days",
+      "note": "Search Console, position 6.9, no Keyword Planner figure"
+    }
   ],
-  "paa": ["When is Monegros Desert Festival?","How long does Monegros last?","Is there camping at Monegros Desert Festival?"],
-  "excluded": [{"term":"Monegros tickets","why":"transactional"},{"term":"Monegros lineup","why":"volatile; official lineup remains the source of truth"}]
+  "paa": [
+    "When is Monegros Desert Festival?",
+    "How long does Monegros last?",
+    "Is there camping at Monegros Desert Festival?"
+  ],
+  "excluded": []
 }

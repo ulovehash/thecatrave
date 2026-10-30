@@ -19,8 +19,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('best-nightclubs-in-the-world-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/best-nightclubs-in-the-world';
-const title = "Best Nightclubs in the World 2026: DJ Mag Top 100 Clubs";
-const description = "The best nightclubs in the world 2026: 20 clubs from DJ Mag's Top 100, from Ibiza and Berlin to Brazil and Tokyo, with ranks, capacities and sets.";
+const title = "Best Nightclubs in the World 2026: [UNVRS] Tops DJ Mag Top 100";
+const description = "[UNVRS] in Ibiza is No. 1 in DJ Mag's Top 100 Clubs 2026, then GREENVALLEY and Ushuaïa. 20 of the best clubs in the world, with ranks, map links and sets.";
 const published = '2026-10-06';
 const date = '2026-10-08';
 const dateLabel = '8 October 2026';

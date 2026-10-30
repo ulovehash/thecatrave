@@ -22,8 +22,8 @@ if (start < 0 || end < 0) throw new Error('Draft must have ## Intro and a closin
 const draft = raw.slice(start, end);
 
 const canonical = 'https://thecatrave.com/best-trance-tracks';
-const title = 'Best Trance Tracks of All Time: 12 Records to Hear';
-const description = 'Best trance tracks of all time: twelve records from 1993 to 2012 with release years, UK chart peaks and a player for each, from Café del Mar to Concrete Angel.';
+const title = 'Best Trance Songs of All Time: 12 Tracks, 1993 to 2012';
+const description = 'The best trance songs of all time: 12 tracks, each with a player, plus UK chart peaks and fan votes. Includes Children, Silence and Adagio for Strings.';
 const datePublished = '2026-10-06';
 const dateModified = '2026-10-08';
 const dateLabel = '8 October 2026';
