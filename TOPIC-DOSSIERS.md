@@ -2520,3 +2520,17 @@ Owner decision, 6 Oct 2026: the world guide (`/best-nightclubs-in-the-world`) ta
 Наблюдения (не вердикт): у «rave festivals» parent topic «edm festivals», TP 2 300 — тот же кластер, что у /best-edm-festivals-usa (позиция 4,5 по GSC). «amsterdam dance event» — единственный термин с глобальным спросом выше 8 000, но «awakenings amsterdam ade» занят (TAKEN-KEYWORDS.md). SERP 30 октября (US): rave — календари; ADE — официальный сайт, даты 20–24 октября 2027; abroad Google отбрасывает.
 
 Не сделано: SERP и PAA для вопросных форм, конкуренты (site-explorer-organic-keywords), валидация. Расход Ahrefs: ~3 200 единиц.
+
+### Дополнение: SERP и конкуренты (30 октября 2026, Ahrefs, US)
+
+Этап 4 (SERP-обзор, 2 × ~285–525 ед.) и этап 5 (organic-keywords exact, 3 страницы). Расход этого дополнения ≈ 1 380 ед.
+
+**rave festivals**: выдача — листинги и билеты: edmtrain.com/festivals (DR 50, трафик 2 592 / 419 ключей), insomniac.com (DR 73, 1 626 и 1 069), musicfestivalwizard (DR 62, 988), iheartraves (DR 60, 670), ra.co (DR 87, 278), seatgeek (86); редакционные подборки — borninstockholm, iheartraves. PAA: biggest rave festivals; top 10 EDM festivals; what are rave festivals called; best rave festivals in the USA.
+Конкурент iheartraves /popular-raves-and-festivals-in-the-us (≈ 670 трафика): popular raves 150 (поз. 1), raves coming up 1 300 (поз. 7), biggest raves 100, big raves 100, rave festivals 800 (поз. 1), raves in miami 150, rave festival 350, house music festivals 200. Спрос здесь — «rave», шире «rave festivals».
+
+**amsterdam dance event**: поз. 1 — официальный сайт ADE (DR 74, 320 трафика), дальше Instagram, Wikipedia (45), facebook, iamsterdam (40, 7 ключей), reddit. PAA: what date is ADE; what is ADE; what is it like; how much does it cost.
+iamsterdam: ade amsterdam 1 800 (поз. 2, 79 трафика), when is ade 250 (поз. 6), amsterdam ade 150, ade music festival 100. musicfestivalwizard ADE 2026: amsterdam dance event 2 100 (поз. 2, 34 трафика), tickets 10, lineup 20. Сторонняя страница получает 30–80 визитов в месяц.
+
+**festivals abroad**: объём ≈ 0 US / 250 global, parent topic не определён. Конкурентов не майнил: нет спроса, который стоит майнить.
+
+Остаётся: этап 6 (валидация другим агентом); вердикт не выносится здесь.
