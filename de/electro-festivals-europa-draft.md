@@ -7,7 +7,7 @@ Europa hat mehr Festivals für elektronische Musik, als irgendwer aufzählen kö
 
 ## Antwort
 
-Welche Festivals für elektronische Musik in Europa 2027 die besten sind, hängt davon ab, was du hören willst. Für EDM auf großen Bühnen: Tomorrowland in Belgien, Untold in Rumänien, Parookaville in Deutschland, Creamfields in England, Ultra Europe in Kroatien und Mysteryland in den Niederlanden. Für Hardstyle: Defqon.1. Für Techno und House: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival und Sónar. Für etwas Ungewöhnlicheres: Monegros am 31. Juli in der spanischen Wüste oder die Themenstadt Boomtown. Für kleinere Wochenenden mit mehr Underground: Garbicz in Polen, NACHTI in Deutschland, Houghton in England, Waking Life in Portugal und Kala in Albanien. Tomorrowland und Dekmantel hatten ihre Termine für 2027 noch nicht bekannt gegeben, als diese Seite geprüft wurde.
+Welche Festivals für elektronische Musik in Europa 2027 die besten sind, hängt davon ab, was du hören willst. Für EDM auf großen Bühnen: Tomorrowland in Belgien, Untold in Rumänien, Parookaville in Deutschland, Creamfields in England, Ultra Europe in Kroatien und Mysteryland in den Niederlanden. Für Hardstyle: Defqon.1. Für Techno und House: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival und Sónar. Für etwas Ungewöhnlicheres: Monegros am 31. Juli in der spanischen Wüste oder die Themenstadt Boomtown. Für kleinere Wochenenden mit mehr Underground: Garbicz in Polen, NACHTI in Deutschland, Houghton in England, Waking Life in Portugal und Kala in Albanien. Tomorrowland und Dekmantel haben ihre Termine für 2027 noch nicht bekannt gegeben.
 
 ## Wie diese Liste entstand
 
@@ -116,7 +116,7 @@ Die Liste oben richtet sich nach einer Leserumfrage, und die bevorzugt Festivals
 
 ### Garbicz, Polen
 
-Garbicz findet in einem alten Wald an einem See im Westen Polens statt, etwa neunzig Minuten von Berlin, und es fühlt sich an wie eine Berliner Party, die aufs Land gezogen ist, und ungefähr das ist es auch. Gegründet wurde es 2013 von Leuten aus dem Umfeld von Bar25, Holzmarkt und dem Kollektiv Bachstelzen, und es wuchs von etwa 900 Menschen im ersten Jahr auf rund 11.000, nach Angaben seines Gründers Juval Dieziger im Jahr 2026. Die Bühnen werden von verschiedenen Kollektiven betrieben und spielen durch die Nacht bis in den Morgen, und alle zelten. Die Ausgabe 2026 lief vom 30. Juli bis 3. August; die Termine für 2027 sind noch nicht bekannt gegeben, und die nächste Ticketphase beginnt am 25. September 2026. Es passt für alle, denen lange Sets im Wald wichtiger sind als große Namen.
+Garbicz findet in einem alten Wald an einem See im Westen Polens statt, etwa neunzig Minuten von Berlin, und es fühlt sich an wie eine Berliner Party, die aufs Land gezogen ist, und ungefähr das ist es auch. Gegründet wurde es 2013 von Leuten aus dem Umfeld von Bar25, Holzmarkt und dem Kollektiv Bachstelzen, und es wuchs von etwa 900 Menschen im ersten Jahr auf rund 11.000, nach Angaben seines Gründers Juval Dieziger im Jahr 2026. Die Bühnen werden von verschiedenen Kollektiven betrieben und spielen durch die Nacht bis in den Morgen, und alle zelten. Die Ausgabe 2026 lief vom 30. Juli bis 3. August; Festivallisten nennen für 2027 den 29. Juli bis 2. August, was Garbicz selbst noch nicht bestätigt hat. Es passt für alle, denen lange Sets im Wald wichtiger sind als große Namen.
 
 [Embed: garbicz-set]
 
@@ -132,11 +132,11 @@ Houghton findet auf dem Gelände von Houghton Hall statt, einem Landsitz in Norf
 
 ### Draaimolen, Niederlande
 
-Draaimolen in Tilburg ist zwei Tage Techno, Ambient und experimentelle Clubmusik mit ungewöhnlicher Sorgfalt bei Sound und Bühnenbild. Es ist ein Tagesfestival: 2026 lief es am 4. und 5. September von Mittag bis halb eins in der Nacht auf dem MOB-complex und war ausverkauft. Die Termine für 2027 sind noch nicht bekannt gegeben. Es passt für Techno-Hörer, denen die großen niederländischen Festivals zu groß sind, und es ist eines der letzten Festivals der Saison.
+Draaimolen in Tilburg ist zwei Tage Techno, Ambient und experimentelle Clubmusik mit ungewöhnlicher Sorgfalt bei Sound und Bühnenbild. Es ist ein Tagesfestival: 2026 lief es am 4. und 5. September von Mittag bis halb eins in der Nacht auf dem MOB-complex und war ausverkauft. Festivallisten nennen für die nächste Ausgabe den 10. und 11. September 2027 am selben Ort. Es passt für Techno-Hörer, denen die großen niederländischen Festivals zu groß sind, und es ist eines der letzten Festivals der Saison.
 
 ### Waking Life, Portugal
 
-Waking Life ist ein Treffen von etwa sechs Tagen rund um die Sommersonnenwende in der Landschaft des Alentejo bei Crato, veranstaltet von einem gemeinnützigen Verein, mit Camping und Tipis auf dem Gelände. Das Programm mischt elektronische Produzenten mit experimenteller Musik und Weltmusik, und 2025 lief es vom 18. bis 23. Juni. Festival-Verzeichnisse nennen Mitte Juni 2027 für die nächste Ausgabe, aber die Termine ließen sich auf der offiziellen Seite des Festivals nicht bestätigen, als diese Seite geprüft wurde.
+Waking Life ist ein Treffen von etwa sechs Tagen rund um die Sommersonnenwende in der Landschaft des Alentejo bei Crato, veranstaltet von einem gemeinnützigen Verein, mit Camping und Tipis auf dem Gelände. Das Programm mischt elektronische Produzenten mit experimenteller Musik und Weltmusik, und 2025 lief es vom 18. bis 23. Juni. Festival-Verzeichnisse nennen Mitte Juni 2027 für die nächste Ausgabe, aber die offizielle Seite des Festivals hat sie nicht bestätigt.
 
 ### Kala, Albanien
 
@@ -151,7 +151,7 @@ Eines gehört noch hierher, mit einer Warnung: Fusion, das gegenkulturelle Festi
 ## Nicht auf der Liste, und warum
 
 - **Primavera Sound und Glastonbury** buchen viel elektronische Musik, sind aber Festivals für alle Genres und scheitern deshalb am ersten Kriterium. Diese Seite hat Guides zu beiden: [Primavera Sound](/de/primavera-sound-barcelona) und [Glastonbury](/de/glastonbury-festival).
-- **EXIT** verließ nach seiner Ausgabe 2025 die Festung Petrovaradin in Serbien, mit Verweis auf Druck der serbischen Behörden, und hielt seine Ausgabe 2026 in Ulcinj in Montenegro ab. Wo es 2027 stattfindet, war noch nicht bestätigt, als diese Seite geprüft wurde.
+- **EXIT** verließ nach seiner Ausgabe 2025 die Festung Petrovaradin in Serbien, mit Verweis auf Druck der serbischen Behörden, und hielt seine Ausgabe 2026 in Ulcinj in Montenegro ab. Wo es 2027 stattfindet, ist noch nicht bestätigt.
 - [**Sziget**](/de/sziget-festival) in Budapest ist eines der größten Festivals Europas, aber um Pop- und Rock-Headliner gebaut; der separate Guide behandelt Preise, H5-Anreise und Camping.
 - **Fusion** in Deutschland setzt 2027 aus; es ist oben bei den kleineren Festivals beschrieben.
 - **Amsterdam Dance Event** im Oktober ist eine Konferenz und Hunderte von Clubnächten über eine ganze Stadt verteilt, kein einzelnes Festivalgelände.
@@ -189,7 +189,7 @@ Außerhalb der Festivalsaison lebt die elektronische Musik in Europa in den Club
 
 ### Wann werden die Festivaltermine für 2027 bekannt gegeben?
 
-Die meisten Festivals geben die Termine des folgenden Jahres während oder kurz nach der laufenden Ausgabe bekannt, und viele bringen die ersten Tickets im Herbst in den Verkauf. Tomorrowland und Dekmantel hatten ihre Termine für 2027 bei der letzten Prüfung am 6. Oktober 2026 noch nicht bekannt gegeben, ebenso wenig Garbicz, Houghton, Draaimolen und Freerotation. Monegros hatte den 31. Juli bestätigt. Die Tabelle wird mit den Ankündigungen aktualisiert.
+Die meisten Festivals geben die Termine des folgenden Jahres während oder kurz nach der laufenden Ausgabe bekannt, und viele bringen die ersten Tickets im Herbst in den Verkauf. Tomorrowland gibt seine Termine meist im Dezember bekannt, und Dekmantel, Houghton und Freerotation haben ihre Termine für 2027 noch nicht bekannt gegeben. Monegros hat den 31. Juli bestätigt.
 
 ### Welche Electro-Festivals in Europa haben Camping?
 

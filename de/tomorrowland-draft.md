@@ -26,7 +26,7 @@ Tomorrowland Winter begann 2019 in Alpe d'Huez, einem Skiort in den französisch
 
 ### Tomorrowland Thailand
 
-Tomorrowland Thailand ist die jüngste Ausgabe, geplant für den 11. bis 13. Dezember 2026 im Wisdom Valley bei Pattaya. Zum Zeitpunkt dieses Textes hat es noch nicht stattgefunden.
+Tomorrowland Thailand ist die jüngste Ausgabe, geplant für den 11. bis 13. Dezember 2026 im Wisdom Valley bei Pattaya.
 
 ### Tomorrowland Brasil und TomorrowWorld
 
@@ -34,13 +34,13 @@ Tomorrowland Brasil fand 2015 und 2016 in Itu im Bundesstaat São Paulo statt un
 
 ### Tomorrowland in den USA
 
-Ein Tomorrowland USA als Festival gibt es zum Zeitpunkt dieses Textes, im September 2026, nicht. Am nächsten kommt UNITY, eine gemeinsame Produktion mit dem Veranstalter Insomniac in der Sphere in Las Vegas, die am Labor-Day-Wochenende vom 29. bis 31. August 2025 eröffnete: 360-Grad-Visuals, eine orchestrale Komposition und jeden Abend ein Live-Headline-Set.
+Ein Tomorrowland USA als Festival gibt es nicht. Am nächsten kommt UNITY, eine gemeinsame Produktion mit dem Veranstalter Insomniac in der Sphere in Las Vegas, die am Labor-Day-Wochenende vom 29. bis 31. August 2025 eröffnete: 360-Grad-Visuals, eine orchestrale Komposition und jeden Abend ein Live-Headline-Set.
 
 Während der Ausgabe 2026 hing in DreamVille ein Banner mit der Aufschrift "Tomorrowland Uniting the World in 2027", das Las Vegas unter den Zielen nannte. Tomorrowland hat kein Festival in Las Vegas angekündigt, weder Termine noch einen Veranstaltungsort, und verwies auf Nachfrage auf UNITY.
 
 ### Tomorrowland 2027
 
-Die Termine für Tomorrowland Belgien 2027 sind Stand September 2026 noch nicht bekannt. Die offizielle FAQ des Festivals sagt, mehr Informationen gebe es zum Jahresende. Die jüngsten belgischen Ausgaben fanden an den beiden letzten Juliwochenenden statt, was aber keine Bestätigung für den Terminplan 2027 ist.
+Die Termine für Tomorrowland Belgien 2027 sind noch nicht bekannt; die Termine für 2026 kamen im Dezember 2025. Die offizielle FAQ des Festivals sagt, mehr Informationen gebe es zum Jahresende. Die jüngsten belgischen Ausgaben fanden an den beiden letzten Juliwochenenden statt, was aber keine Bestätigung für den Terminplan 2027 ist.
 
 ## Wie groß Tomorrowland ist: Besucherzahlen und Tickets
 

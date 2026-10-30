@@ -110,7 +110,7 @@ Hard techno is its opposite: fast, distorted and physical, with the kick drum pu
 
 [Embed: Sara Landry Boiler Room]
 
-In the catalogue of recorded DJ sets behind this site's Selector, 8,547 sets carry a techno tag as of September 2026, second only to house among named genres, with 911 tagged minimal and 788 hard techno.
+In the catalogue of recorded DJ sets behind this site's Selector, about 8,500 sets carry a techno tag, second only to house among named genres, with about 900 tagged minimal and 800 hard techno.
 
 ## Techno today and Detroit now
 

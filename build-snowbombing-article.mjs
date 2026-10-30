@@ -141,9 +141,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Snowbombing FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Dates, ticket rules, wristband access, travel and age limit, read on 4 October 2026: <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing info and FAQ</a>. Parts of the FAQ still describe 2026.</li>
-<li>Packages, prices and deposit, read on 4 October 2026: <a href="https://snowbombing.com/book" target="_blank" rel="noopener noreferrer">snowbombing.com/book</a>.</li>
-<li>Venues, resort and line-up, read on 4 October 2026: <a href="https://snowbombing.com/experience/venues" target="_blank" rel="noopener noreferrer">venues</a>, <a href="https://snowbombing.com/experience/mayrhofen" target="_blank" rel="noopener noreferrer">Mayrhofen</a> and <a href="https://snowbombing.com/experience/lineup" target="_blank" rel="noopener noreferrer">line-up</a> pages.</li>
+<li>Dates, ticket rules, wristband access, travel and age limit: <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing info and FAQ</a>. Parts of the FAQ still describe 2026.</li>
+<li>Packages, prices and deposit: <a href="https://snowbombing.com/book" target="_blank" rel="noopener noreferrer">snowbombing.com/book</a>.</li>
+<li>Venues, resort and line-up: <a href="https://snowbombing.com/experience/venues" target="_blank" rel="noopener noreferrer">venues</a>, <a href="https://snowbombing.com/experience/mayrhofen" target="_blank" rel="noopener noreferrer">Mayrhofen</a> and <a href="https://snowbombing.com/experience/lineup" target="_blank" rel="noopener noreferrer">line-up</a> pages.</li>
 <li>Past editions: <a href="https://snowbombing.com/previous-lineups/snowbombing-2026" target="_blank" rel="noopener noreferrer">snowbombing.com previous line-ups</a>.</li>
 </ul>`}),
   bandcampSupport({

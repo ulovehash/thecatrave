@@ -135,7 +135,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Winter music festivals FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Confirmed dates, read on 4 October 2026: <a href="https://igloofest.ca" target="_blank" rel="noopener noreferrer">Igloofest</a>, <a href="https://ctm-festival.de" target="_blank" rel="noopener noreferrer">CTM Festival</a>, <a href="https://elevate.at" target="_blank" rel="noopener noreferrer">Elevate</a>, <a href="https://shapesfestival.ch" target="_blank" rel="noopener noreferrer">Shapes</a> and <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing</a>.</li>
+<li>Confirmed dates: <a href="https://igloofest.ca" target="_blank" rel="noopener noreferrer">Igloofest</a>, <a href="https://ctm-festival.de" target="_blank" rel="noopener noreferrer">CTM Festival</a>, <a href="https://elevate.at" target="_blank" rel="noopener noreferrer">Elevate</a>, <a href="https://shapesfestival.ch" target="_blank" rel="noopener noreferrer">Shapes</a> and <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing</a>.</li>
 <li>Listed dates (festival sites, ticket sellers and promoter pages, with a second source for each): Tomorrowland Winter, Snow Machine, Nameless Winter, Caprices, Hibernation, Rise and Contact Winter.</li>
 <li>Press coverage of the quieter picks: Resident Advisor (CTM, Elevate, Shapes, Rise, Caprices), Pitchfork (CTM) and The Quietus (Elevate).</li>
 </ul>`}),

@@ -143,9 +143,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Dekmantel FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Programme, venues, ages, ticket rules, camping, shuttle and logistics, read on 2 October 2026: <a href="https://www.dekmantelfestival.com/faq" target="_blank" rel="noopener noreferrer">Dekmantel Festival FAQ</a>. The FAQ describes the 2026 edition.</li>
-<li>Dekmantel Selectors dates, areas and format: <a href="https://www.dekmantelselectors.com/" target="_blank" rel="noopener noreferrer">dekmantelselectors.com</a>, read on 2 October 2026.</li>
-<li>Unconfirmed 2027 Amsterdam dates: listings on Skiddle and I amsterdam, read on 2 October 2026.</li>
+<li>Programme, venues, ages, ticket rules, camping, shuttle and logistics: <a href="https://www.dekmantelfestival.com/faq" target="_blank" rel="noopener noreferrer">Dekmantel Festival FAQ</a>. The FAQ describes the 2026 edition.</li>
+<li>Dekmantel Selectors dates, areas and format: <a href="https://www.dekmantelselectors.com/" target="_blank" rel="noopener noreferrer">dekmantelselectors.com</a>.</li>
+<li>Unconfirmed 2027 Amsterdam dates: listings on Skiddle and I amsterdam.</li>
 <li>History, founders and the 2024 tenth-anniversary edition: Time Out, "A decade of Dekmantel", and Casa, "A decade of Dekmantel Festival".</li>
 </ul>`}),
   bandcampSupport({

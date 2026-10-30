@@ -87,7 +87,7 @@ Plastic People a commencé à Soho, où Trash avait d'abord lieu, et a déménag
 
 ## Les meilleurs clubs de Londres aujourd'hui
 
-Trois guides des clubs de Londres permettent la comparaison : celle de Resident Advisor, celle de Time Out (mise à jour le 29 juillet 2026) et celle de Condé Nast Traveller. fabric, The Cause et FOLD figurent sur les trois. Le tableau compare les clubs cités par au moins un de ces guides.
+Trois guides des clubs de Londres permettent la comparaison : celle de Resident Advisor, celle de Time Out et celle de Condé Nast Traveller. fabric, The Cause et FOLD figurent sur les trois. Le tableau compare les clubs cités par au moins un de ces guides.
 
 Deux clubs célèbres de Londres en sont absents, à dessein. Corsica Studios, deux salles dans des arches de chemin de fer à Elephant and Castle depuis 2002, avec un système Funktion-One depuis 2007, a annoncé en septembre 2025 qu'il fermerait sous sa forme actuelle en 2026, et Resident Advisor note sa dernière soirée au 28 mars. Printworks, l'ancienne imprimerie de journaux de Rotherhithe, a fermé pour réaménagement en 2023 ; ses Press Halls doivent rouvrir comme salle en 2026.
 

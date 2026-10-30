@@ -2,7 +2,7 @@
 
 ## Answer
 
-Time Warp is a house and techno festival that began in 1994, and its next Mannheim edition is on Saturday 3 April 2027 at the Maimarkthalle, from 19:00 to 14:00. The official site calls it the only German edition in 2027. Tickets were on sale on 4 October 2026 at pre-lineup prices of €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, service fee included, and entry is 18 and over. No artists were announced for Mannheim on that date. Outside Germany, the official site lists Time Warp Mexico and Time Warp New York on 20 and 21 November 2026 and Time Warp Los Angeles on 27 and 28 November 2026.
+Time Warp is a house and techno festival that began in 1994, and its next Mannheim edition is on Saturday 3 April 2027 at the Maimarkthalle, from 19:00 to 14:00. The official site calls it the only German edition in 2027. Tickets are on sale at pre-lineup prices of €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, service fee included, and entry is 18 and over. No artists are announced for Mannheim yet. Outside Germany, 2026 closes with Time Warp Mexico and Time Warp New York on 20 and 21 November and Time Warp Los Angeles on 27 and 28 November.
 
 ## Introduction
 
@@ -25,7 +25,7 @@ For the music itself, see the [techno guide](/techno-music-guide). For a festiva
 
 Time Warp Mannheim 2027 is on Saturday 3 April 2027, from 19:00 to 14:00, which makes 19 hours and an end on Sunday afternoon. The official site gives this date, and its Mannheim page calls it the only German edition in 2027, so there is no autumn Mannheim date to wait for. In 2025 there was one: Time Warp Autumn, on 7 and 8 November 2025, billed "Two Days | Two Stages".
 
-The Time Warp dates for the editions abroad stop in 2026. On 4 October 2026 the official site listed no 2027 date for Mexico, New York, Los Angeles or Brazil, and none for Madrid, so a 2027 date for those is still to be announced.
+The Time Warp dates for the editions abroad stop in 2026. The official site lists no 2027 date for Mexico, New York, Los Angeles, Brazil or Madrid yet.
 
 ## Where is Time Warp held in Mannheim?
 
@@ -43,7 +43,7 @@ The official site lists these Time Warp editions.
 |---|---|---|---|
 | Time Warp Miami | Factory Town, Miami | 25 April 2026 | Held |
 | Time Warp Brasil | Neo Química Arena, São Paulo | 1 and 2 May 2026 | Held |
-| TW x EDC Colombia | Atanasio Girardot Sports Complex, Medellín | 10 October 2026 | Upcoming, a Neon Garden stage |
+| TW x EDC Colombia | Atanasio Girardot Sports Complex, Medellín | 10 October 2026 | A Neon Garden stage |
 | Time Warp Mexico | Expo Santa Fe, Mexico City | 20 and 21 November 2026 | Upcoming, tickets on sale |
 | Time Warp New York | Duggal Greenhouse and Agger Building, New York City | 20 and 21 November 2026 | Upcoming, labelled Save the Date |
 | Time Warp Los Angeles | ACE*Mission, Los Angeles | 27 and 28 November 2026 | Upcoming, tickets on sale |
@@ -60,7 +60,7 @@ The Time Warp name also appears as a stage at other festivals. The history lists
 
 ## How do Time Warp tickets work?
 
-Time Warp tickets for Mannheim are sold through the festival's own ticket shop, tickets.time-warp.de, and they are print-at-home or mobile tickets. On 4 October 2026 the shop showed three passes, each marked "Pre-lineup price" with the service fee included:
+Time Warp tickets for Mannheim are sold through the festival's own ticket shop, tickets.time-warp.de, and they are print-at-home or mobile tickets. The shop has three passes, each marked "Pre-lineup price" with the service fee included:
 
 - **Blue Pass, called Experience:** €79.00, including a €6.50 service fee.
 - **Silver Pass, called Comfort:** €169.00, including a €15.00 service fee.
@@ -75,7 +75,7 @@ The shop page does not list what each pass includes, so check the shop before yo
 
 ## Who plays Time Warp?
 
-No artist was announced for Mannheim 2027 on 4 October 2026. The official page promises "a powerful lineup of international pioneers and underground mainstays" without naming anyone, and the ticket shop labels each pass "Pre-lineup price", so check the shop again once the Time Warp lineup is out. This page is updated when the festival announces it.
+No artist is announced for Mannheim 2027 yet. The official page promises "a powerful lineup of international pioneers and underground mainstays" without naming anyone, and the ticket shop labels each pass "Pre-lineup price", so check the shop again once the Time Warp lineup is out.
 
 For a sense of what Mannheim sounds like, the festival's own page carries recap videos of the March 2026 edition. The two shown are Sara Landry and Nina Kraviz. That edition, on 21 March 2026, is the most recent Mannheim date in the official history.
 
@@ -97,7 +97,7 @@ Saturday 3 April 2027, from 19:00 to 14:00, at the Maimarkthalle in Mannheim, ac
 
 ### When is Time Warp 2026?
 
-The Mannheim edition was held on 21 March 2026. The Time Warp festival 2026 dates still to come are the Neon Garden stage at EDC Colombia on 10 October, Time Warp Mexico and Time Warp New York on 20 and 21 November, and Time Warp Los Angeles on 27 and 28 November. The next Mannheim edition is on 3 April 2027.
+The Mannheim edition was held on 21 March 2026. The Time Warp festival 2026 dates end with Time Warp Mexico and Time Warp New York on 20 and 21 November, and Time Warp Los Angeles on 27 and 28 November. The next Mannheim edition is on 3 April 2027.
 
 ### Where is Time Warp held?
 
@@ -105,7 +105,7 @@ The Mannheim edition is at the Maimarkthalle, Xaver-Fuhr-Straße 101, 68163 Mann
 
 ### How much are Time Warp tickets?
 
-On 4 October 2026 the Mannheim ticket shop showed three pre-lineup prices: €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, with the service fee included.
+The Mannheim ticket shop has three pre-lineup prices: €79 for the Blue Pass, €169 for the Silver Pass and €229 for the Gold Pass, with the service fee included.
 
 ### Can you get a refund on a Time Warp ticket?
 

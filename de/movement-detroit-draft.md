@@ -60,7 +60,7 @@ Techno bleibt das Zentrum des Wochenendes. House und Electro gehören zur selben
 
 ## Movement Detroit: Termine und Line-up
 
-Movement findet am Samstag, Sonntag und Montag des Memorial-Day-Wochenendes statt. Die [offizielle FAQ](https://movementfestival.com/faqs) nennt den 29. bis 31. Mai 2027 für die nächste Ausgabe. Einlass, Bühnenzeiten, Ticketbedingungen und das Line-up sollten auf der offiziellen Movement-Website geprüft werden, weil sich diese Angaben jedes Jahr ändern.
+Movement findet am Samstag, Sonntag und Montag des Memorial-Day-Wochenendes statt. Die [offizielle FAQ](https://movementfestival.com/faqs) nennt den 29. bis 31. Mai 2027 für die nächste Ausgabe. Einlass, Bühnenzeiten, Ticketbedingungen und das Line-up ändern sich jedes Jahr; die aktuellen Angaben stehen auf der offiziellen Movement-Website.
 
 Nutze das [offizielle Line-up](https://movementfestival.com/lineup) und die App für Zu- und Absagen und Spielzeiten. Die Seite zum Movement-Detroit-Line-up zeigt noch die Ausgabe 2026, solange das Programm 2027 aussteht, und ist damit verlässlicher als eine hier kopierte Namensliste.
 
@@ -88,7 +88,7 @@ Techno ist das historische Zentrum, dazu kommen House, Electro, Ghettotech, Brea
 
 ### Wann ist Movement Detroit?
 
-Movement läuft am Samstag, Sonntag und Montag des Memorial-Day-Wochenendes. Die [offizielle Festival-FAQ](https://movementfestival.com/faqs) nennt den 29. bis 31. Mai 2027 für die nächste Ausgabe. Aktuelle Zeiten sollten auf der offiziellen Website geprüft werden.
+Movement läuft am Samstag, Sonntag und Montag des Memorial-Day-Wochenendes. Die [offizielle Festival-FAQ](https://movementfestival.com/faqs) nennt den 29. bis 31. Mai 2027 für die nächste Ausgabe. Die aktuellen Zeiten stehen auf der offiziellen Website.
 
 ### Ist Movement nur ein Techno-Festival?
 

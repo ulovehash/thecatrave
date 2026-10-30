@@ -48,8 +48,7 @@ buildFestivalArticle({
       rulesNote:'Monegros is strictly 18+. Normal re-entry is not allowed; the current exception costs €25 per exit between 00:01 and 04:00, then re-entry is allowed after 04:01 while the wristband remains intact.',
       links:[
         {label:'Official website',url:'https://monegrosfestival.com/en/'},{label:'2027 tickets',url:'https://www.enterticket.es/eventos/monegros-desert-festival-2027-116435'},{label:'Official FAQ',url:'https://monegrosfestival.com/en/faqs'},{label:'Transport',url:'https://monegrosfestival.com/en/how-to-arrive'},{label:'Festival site on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Monegros+Desert+Festival+N-II+km+416+Fraga'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own set moves between techno, breaks and bass music. It is a personal route from this history, not a substitute for the Monegros archive.', 'A final multi-genre thecatrave mix for the overnight journey, with techno at its centre and room for other club forms.'],

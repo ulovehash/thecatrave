@@ -126,4 +126,4 @@ Am 9. und 10. Oktober 1999 im Empire Polo Club, mit Beck, Tool und Rage Against 
 - Goldenvoice, Festivalverzeichnis
 - Elation Lighting, "1300+ Elation Lights Dazzle Coachella 2024"
 - Billboard Canada zur Radiusklausel von Coachella
-- YouTube-Kanäle von Coachella und der Künstler (Auftritte und Aufrufzahlen, geprüft am 14. September 2026)
+- YouTube-Kanäle von Coachella und der Künstler (Auftritte und Aufrufzahlen)

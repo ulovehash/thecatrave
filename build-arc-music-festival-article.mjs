@@ -45,11 +45,10 @@ buildFestivalArticle({
       ],link:{label:'Official ARC FAQ',url:'https://arcmusicfestival.com/faqs/'}},
       packing:['Government-issued photo ID showing age 18 or over','Digital ticket saved before approaching the gate','Empty removable-bladder hydration pack or permitted bottle','Sunscreen, rain layer and earplugs','Small bag within the 16 × 16 × 8 inch limit'],
       avoid:['Backpacks or bags larger than 16 × 16 × 8 inches','Outside food or drink without documented dietary need','Glass or metal containers, coolers, chairs and umbrellas','Planning to leave and re-enter on the same day','Driving to Union Park without a confirmed private parking plan'],
-      rulesNote:'ARC is 18+, requires valid government photo ID and permits one entry per day. Current hours, 14:00–22:00, belong to the announced edition and must be rechecked when 2027 details appear.',
+      rulesNote:'ARC is 18+, requires valid government photo ID and permits one entry per day. Current hours, 14:00–22:00, belong to the last edition; the 2027 hours follow with the edition details.',
       links:[
         {label:'Official website',url:'https://arcmusicfestival.com/'},{label:'Tickets and pass status',url:'https://arcmusicfestival.com/tickets/'},{label:'FAQ and travel',url:'https://arcmusicfestival.com/faqs/'},{label:'What to bring',url:'https://arcmusicfestival.com/whattobring/'},{label:'Union Park on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Union+Park+Chicago'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own multi-genre mix follows ARC’s club-facing route through house, techno and harder turns without claiming to reproduce one edition’s lineup.', 'For the trip from Union Park into the night: my own set, moving across techno, breaks and bass music as a personal after-hours route.'],

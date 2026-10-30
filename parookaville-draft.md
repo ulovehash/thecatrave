@@ -114,7 +114,7 @@ DJ Mag's readers ranked Tomorrowland first in the 2026 Top 100 Festivals and Par
 
 ### How much are Parookaville tickets?
 
-Parookaville 2027 ticket sales are open. Prices and availability vary by visa and package, so check the official Parookaville ticket page and its linked TicketPAY shop; day visas go on sale on 4 October 2026.
+Parookaville 2027 ticket sales are open. Prices and availability vary by visa and package, and the official Parookaville ticket page and its linked TicketPAY shop carry both, day visas included.
 
 ## Sources
 

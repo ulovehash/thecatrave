@@ -128,7 +128,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Love Parade FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Founding, 1989 to 1999 attendance, the 1996 move and the 2001 to 2010 timeline, read on 5 October 2026: ${ext('https://www.bpb.de/themen/recht-justiz/513688/die-geschichte-von-techno-und-der-loveparade/', 'Federal Agency for Civic Education (bpb)')} and ${ext('https://www.ravetheplanet.com/en/history/', 'Rave the Planet history')}.</li>
+<li>Founding, 1989 to 1999 attendance, the 1996 move and the 2001 to 2010 timeline: ${ext('https://www.bpb.de/themen/recht-justiz/513688/die-geschichte-von-techno-und-der-loveparade/', 'Federal Agency for Civic Education (bpb)')} and ${ext('https://www.ravetheplanet.com/en/history/', 'Rave the Planet history')}.</li>
 <li>Duisburg 2010 casualties and the trial: ${ext('https://www.dw.com/en/questions-but-no-answers-on-anniversary-of-love-parade-tragedy/a-18606671', 'DW')}. The organiser's statement of 25 July 2010: ${ext('https://ra.co/news/12551', 'Resident Advisor')}.</li>
 <li>Rave the Planet 2026 and the next date: ${ext('https://www.ravetheplanet.com/en/rave-the-planet-parade-2026-press-release-review/', '2026 press release')}. Cultural heritage listing: ${ext('https://www.ravetheplanet.com/en/unesco-urkunde/', 'certificate page')}.</li>
 <li>Street Parade history and dates: ${ext('https://www.streetparade.com/en/historie', 'streetparade.com/en/historie')} and ${ext('https://www.streetparade.com/en', 'streetparade.com')}.</li>

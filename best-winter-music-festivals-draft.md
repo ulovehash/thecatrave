@@ -2,7 +2,7 @@
 
 ## Answer
 
-The best winter music festivals for 2027 are Tomorrowland Winter and Snowbombing in the Alps, Igloofest on a Montreal quay, Snow Machine in Japan, and for people who want something quieter, CTM in Berlin, Elevate in Graz, Shapes in Leysin and Caprices in Gstaad. Dates run from Rise in Les 2 Alpes on 5 to 12 December 2026 to Snowbombing on 5 to 10 April 2027. Dates marked confirmed below were read on the festival's own site on 4 October 2026, and the others come from listings or the promoter's social pages and are marked as such.
+The best winter music festivals for 2027 are Tomorrowland Winter and Snowbombing in the Alps, Igloofest on a Montreal quay, Snow Machine in Japan, and for people who want something quieter, CTM in Berlin, Elevate in Graz, Shapes in Leysin and Caprices in Gstaad. Dates run from Rise in Les 2 Alpes on 5 to 12 December 2026 to Snowbombing on 5 to 10 April 2027. Dates marked confirmed below come from the festival's own site, and the others come from listings or the promoter's social pages and are marked as such.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ A winter festival is a different trip from a summer one. You are choosing a moun
 
 A festival is on this list when it has electronic music at its core, runs between December and April, and has dates for its next edition. The final group draws on coverage by Resident Advisor, Pitchfork and The Quietus.
 
-"Confirmed" means the festival's own site shows them. "Listed" means a ticket seller, a listing site or the promoter's social account shows them and the festival's own site was stale or unreachable when it was checked.
+"Confirmed" means the festival's own site shows them. "Listed" means a ticket seller, a listing site or the promoter's social account shows them and the festival's own site does not.
 
 ## Winter festival dates at a glance
 
@@ -70,7 +70,7 @@ Hibernation, Caprices and Shapes are the three to look at if you want ski music 
 
 ### Hibernation, Pas de la Casa
 
-The Hibernation festival is held at Pas de la Casa in Andorra, and the 2027 edition is listed for 19 to 21 March as its tenth. Treat the dates with care. The festival's own site showed old dates when it was checked on 4 October 2026, and 19 to 21 March rests on the promoter's Instagram, Shotgun and a festival listing.
+The Hibernation festival is held at Pas de la Casa in Andorra, and the 2027 edition is listed for 19 to 21 March as its tenth. Treat the dates with care. The festival's own site does not show them yet, and 19 to 21 March rests on the promoter's Instagram, Shotgun and a festival listing.
 
 ### Caprices, Gstaad
 
@@ -108,13 +108,13 @@ Rise opens the 2026 to 2027 winter, so it is a December festival in a guide to 2
 
 ### Astropolis l'Hiver, Brest
 
-Astropolis is the Brest electronic festival, and its winter edition is held in February. The festival's own pages had not confirmed the dates of the 14th edition when they were checked on 4 October 2026, so no day is printed here. This page is updated once Astropolis announces them.
+Astropolis is the Brest electronic festival, and its winter edition is held in February. The festival has not confirmed the dates of the 14th edition, so no day is printed here.
 
 ## How to choose
 
 Choose by what you want from the trip. For the biggest names and a ski holiday, choose Tomorrowland Winter or Snowbombing. For a city festival that you can do in a weekend, choose Igloofest or CTM. For house and techno in a resort town, choose Shapes, Caprices or Hibernation. For talks and art beside the music, choose Elevate.
 
-Check the source column before you book. Five festivals had dates confirmed on the festival's own site on 4 October 2026, and the rest should be checked against the festival before you buy travel. For summer plans, see the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Check the source column before you book. Five festivals have dates confirmed on their own sites, and the rest should be checked against the festival before you buy travel. For summer plans, see the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 To hear what these crowds dance to, the [Selector](/selector) plays a DJ set at random.
 

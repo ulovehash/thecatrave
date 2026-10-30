@@ -110,7 +110,7 @@ Hard Techno ist sein Gegenteil: schnell, verzerrt und körperlich, die Kick so w
 
 [Embed: Sara Landry Boiler Room]
 
-Im Katalog aufgezeichneter DJ-Sets hinter dem Selector dieser Seite tragen 8.547 Sets einen Techno-Tag, Stand September 2026, unter den benannten Genres nur hinter House, dazu 911 mit Minimal und 788 mit Hard Techno.
+Im Katalog aufgezeichneter DJ-Sets hinter dem Selector dieser Seite tragen etwa 8.500 Sets einen Techno-Tag, unter den benannten Genres nur hinter House, dazu etwa 900 mit Minimal und 800 mit Hard Techno.
 
 ## Techno heute und Detroit jetzt
 

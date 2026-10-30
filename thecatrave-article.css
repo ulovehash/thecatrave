@@ -282,10 +282,6 @@
 .festival-planner-links { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; padding: 1.65rem 0 0; border-top: var(--border-default); }
 .festival-link-index { display: flex; flex-wrap: wrap; gap: .55rem 1.25rem; }
 .festival-link-index a { font-size: .9rem; }
-.article-section .festival-last-checked { min-width: 9rem; margin: 0; padding-left: 1.25rem; border-left: var(--border-default); font: 400 var(--text-label)/1.45 var(--mono); text-transform: uppercase; }
-.festival-last-checked span,
-.festival-last-checked time { display: block; }
-.festival-last-checked time { margin-top: .3rem; font-weight: 700; }
 
 @media (max-width: 760px) {
   .festival-planner { margin-top: 0; }
@@ -304,7 +300,6 @@
   .festival-packing { gap: 1.35rem; }
   .festival-spend-list { grid-template-columns: 1fr 1fr; }
   .festival-planner-links { grid-template-columns: 1fr; gap: 1.35rem; }
-  .article-section .festival-last-checked { padding: .9rem 0 0; border-top: var(--border-default); border-left: 0; }
 }
 
 .article-image {

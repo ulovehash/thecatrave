@@ -2,7 +2,7 @@
 
 ## Answer
 
-Electric Forest is a multi-day music festival held in Rothbury, Michigan, at the Double JJ Resort. On 4 October 2026 the official site had published no Electric Forest 2027 dates and no 2027 tickets. The 2026 edition ran from 25 to 28 June, and the official pass page says its passes sold out. Listing sites guess at late June 2027, but a guess is not a date, so this page waits for the festival. What is already known: general admission includes a wristband and access to the general campgrounds, a car or RV camping pass is bought separately, and all ages are admitted, with children aged 2 and under free. A reported general admission price of about $600 for 2026 comes from a local newspaper, not from the festival.
+Electric Forest is a multi-day music festival held in Rothbury, Michigan, at the Double JJ Resort. The official site has not published Electric Forest 2027 dates or 2027 tickets yet. The 2026 edition ran from 25 to 28 June, and the official pass page says its passes sold out. Listing sites guess at late June 2027, but a guess is not a date, so this page waits for the festival. What is already known: general admission includes a wristband and access to the general campgrounds, a car or RV camping pass is bought separately, and all ages are admitted, with children aged 2 and under free. A reported general admission price of about $600 for 2026 comes from a local newspaper, not from the festival.
 
 ## Introduction
 
@@ -24,7 +24,7 @@ Electric Forest tickets were sold on AXS in 2026. The general admission pass inc
 
 The official pass page also lists higher tiers. Good Life is another pass type, hotel packages are sold on Easol and group camping is sold on FEVO. Service fees were included in the 2026 add on prices.
 
-On 4 October 2026 the official ticket page showed only a thank you message, and the pass types page says Electric Forest 2026 is sold out. There is no live ticket page for 2027, so no pass can be bought and no on sale date exists. The festival's own site is the place to watch. The 2026 passes went on sale on 12 December 2025 at noon, after the lineup was announced, according to the Oceana County Press, which suggests the same order of events for 2027, though nothing official says so.
+Electric Forest 2026 sold out, and there is no live ticket page for 2027 yet, so no pass can be bought and no on sale date exists. The festival's own site is the place to watch. The 2026 passes went on sale on 12 December 2025 at noon, after the lineup was announced, according to the Oceana County Press, which suggests the same order of events for 2027, though nothing official says so.
 
 Add ons for 2026, as listed by the festival:
 
@@ -37,7 +37,7 @@ Add ons for 2026, as listed by the festival:
 
 ### Electric Forest ticket prices
 
-No official Electric Forest ticket prices were on the site on 4 October 2026, because the ticket page was empty. For 2026, the Oceana County Press reported a general admission price of $600 when the lineup was announced. That is a newspaper figure, not a festival one, and it was not confirmed on a live ticket page, so treat it as a rough guide only. No 2027 price has been announced.
+The official site has no Electric Forest ticket prices yet, because the ticket page is empty. For 2026, the Oceana County Press reported a general admission price of $600 when the lineup was announced. That is a newspaper figure, not a festival one, and it was not confirmed on a live ticket page, so treat it as a rough guide only. No 2027 price has been announced.
 
 ## Electric Forest 2026
 
@@ -57,11 +57,11 @@ The official site also listed an Electric Forest 5k run on Saturday 27 June, a L
 
 ## Electric Forest 2027 dates
 
-The Electric Forest 2027 dates were not announced on 4 October 2026. The official home page showed only a thank you message, and no 2027 date appeared on the ticket, pass or lineup pages.
+The Electric Forest 2027 dates are not announced yet. The official home page showed only a thank you message, and no 2027 date appeared on the ticket, pass or lineup pages.
 
-Several listing sites already show a late June 2027 weekend. None of them cites the festival, so those dates are unconfirmed and are not repeated here. The only edition this page can date is 2026. This section is updated when the dates are published.
+Several listing sites already show a late June 2027 weekend. None of them cites the festival, so those dates are unconfirmed and are not repeated here. The only edition this page can date is 2026.
 
-| Item for 2027 | Status on 4 October 2026 |
+| Item for 2027 | Status |
 |---|---|
 | Dates | Not announced |
 | Tickets | Not on sale, no ticket page |
@@ -136,8 +136,8 @@ Not in 2026, when the festival was one weekend from 25 to 28 June. An Electric F
 
 ### When is Electric Forest 2027?
 
-The dates were not announced on 4 October 2026. See the dates section above.
+The dates are not announced yet. See the dates section above.
 
 ### How much are Electric Forest tickets?
 
-No official price existed on 4 October 2026. A local newspaper reported about $600 for general admission in 2026.
+There is no official price yet. A local newspaper reported about $600 for general admission in 2026.

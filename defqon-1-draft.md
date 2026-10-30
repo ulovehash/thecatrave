@@ -2,11 +2,11 @@
 
 ## Answer
 
-Defqon.1 2027 is booked for 24 to 27 June 2027 at the Holy Grounds in Biddinghuizen, the Netherlands, according to the Q-dance pages read on 5 October 2026. The 2026 edition was cancelled on its opening night, after the Netherlands issued its first code red for heat, and Q-dance offered every ticket holder a choice between keeping the ticket for 2027 and a refund. Sales for 2027 run in stages: a wishlist from 1 October, the Dediqated sale on 27 October, Travel and Stay on 29 October and general sale on 31 October. The pages read state no 2027 ticket prices and no 2027 lineup, so this page gives neither. Entry is 18 and over with an original photo ID.
+Defqon.1 2027 is booked for 24 to 27 June 2027 at the Holy Grounds in Biddinghuizen, the Netherlands, according to the Q-dance pages. The 2026 edition was cancelled on its opening night, after the Netherlands issued its first code red for heat, and Q-dance offered every ticket holder a choice between keeping the ticket for 2027 and a refund. Sales for 2027 open in stages through October: a wishlist first, then the Dediqated sale, Travel and Stay, and general sale on 31 October. Q-dance sets the prices in its own shop and has not published a 2027 lineup, so this page gives neither. Entry is 18 and over with an original photo ID.
 
 ## Introduction
 
-Defqon.1 is the big hardstyle weekend, and in October 2026 it sits in an odd place: the last edition ended early, the next one is nine months away, and the ticket rules changed because of it. Searches for Defqon.1 2026 and for Defqon.1 2027 are both high, which fits a festival whose buyers are working out what happened and what to do next.
+Defqon.1 is the big hardstyle weekend, and it sits in an odd place: the last edition ended early, and the ticket rules for the next one changed because of it. Searches for Defqon.1 2026 and for Defqon.1 2027 are both high, which fits a festival whose buyers are working out what happened and what to do next.
 
 This page covers what the festival is, when and where the 2027 edition is held, how the sales stages work, why 2026 was cancelled and where to hear the music. For the music itself, see the [hardstyle guide](/hardstyle-guide). Searchers also type the name as Defqon 1, because the dot is part of the brand.
 
@@ -22,13 +22,13 @@ The name has no official explanation on the pages read. The Defqon.1 meaning is 
 
 ## Defqon.1 2027 dates
 
-The Defqon.1 2027 dates are Thursday 24 June to Sunday 27 June 2027. The Q-dance event page, read on 5 October 2026, lists the festival from 24 June 2027 at 19:00 to 28 June 2027 at 00:00 at the Evenemententerrein in Biddinghuizen. The weekend ticket page describes the structure: Thursday is The Gathering, followed by Friday, Saturday and Sunday, with check-out on Monday.
+The Defqon.1 2027 dates are Thursday 24 June to Sunday 27 June 2027. The Q-dance event page, lists the festival from 24 June 2027 at 19:00 to 28 June 2027 at 00:00 at the Evenemententerrein in Biddinghuizen. The weekend ticket page describes the structure: Thursday is The Gathering, followed by Friday, Saturday and Sunday, with check-out on Monday.
 
 ![The Sunday endshow of Defqon.1 in 2018](figure:endshow)
 
 The Defqon.1 dates for 2027 are therefore published, but the program for each day is not. The ticket page names the fixed rituals: the Opening Ceremony on Friday, Power Hour and The Endshow on Saturday, and the Closing Ceremony and Closing Ritual on Sunday, all at the Red stage.
 
-| Item for 2027 | Status on 5 October 2026 |
+| Item for 2027 | Status |
 |---|---|
 | Dates | 24 to 27 June 2027, Q-dance |
 | Location | Holy Grounds, Biddinghuizen |
@@ -46,7 +46,7 @@ The Defqon.1 2027 tickets on offer are the Weekend ticket, and Friday, Saturday 
 
 ### Defqon.1 2027 ticket sale
 
-The Defqon.1 2027 ticket sale follows the schedule in the official FAQ, read on 5 October 2026:
+The Defqon.1 2027 ticket sale follows the schedule in the official FAQ:
 
 | Date | Stage |
 |---|---|
@@ -60,7 +60,7 @@ The Dediqated sale is the members' sale. Dediqated membership costs €34.99 per
 
 ### Defqon.1 ticket prices
 
-No Defqon.1 ticket prices for 2027 appear on the Q-dance pages read on 5 October 2026. The only price statement is for people who kept a 2026 ticket: they keep the 2026 price and pay nothing extra if prices rise. Anything quoted elsewhere as a 2027 price is not from the pages read here.
+No Defqon.1 ticket prices for 2027 appear on the Q-dance pages. The only price statement is for people who kept a 2026 ticket: they keep the 2026 price and pay nothing extra if prices rise. Anything quoted elsewhere as a 2027 price is not from the pages read here.
 
 ## Defqon.1 2026 cancelled
 
@@ -70,11 +70,11 @@ The reason given in the official update is the weather.
 
 ### Defqon.1 2026 refund
 
-For the Defqon.1 2026 refund, Q-dance said, in an FAQ updated on 30 June 2026, that the main buyer chose for each ticket between keeping it for 2027 or a refund, with a deadline of 31 July. An order with no choice was refunded automatically. Refunds ran from mid August to mid September 2026. Travel and Stay, parking and locker purchases were refunded and did not carry over. Anyone who bought through a reseller was refunded through that reseller. The Defqon.1 refund window is therefore closed in October 2026, and a kept ticket is a 2027 ticket.
+For the Defqon.1 2026 refund, Q-dance said in its FAQ that the main buyer chose for each ticket between keeping it for 2027 or a refund, with a deadline of 31 July. An order with no choice was refunded automatically. Refunds ran from mid August to mid September 2026. Travel and Stay, parking and locker purchases were refunded and did not carry over. Anyone who bought through a reseller was refunded through that reseller. The Defqon.1 refund window is therefore closed, and a kept ticket is a 2027 ticket.
 
 ## Defqon.1 lineup
 
-No Defqon.1 2027 lineup is stated on the pages read on 5 October 2026. The 2026 festival listed more than 350 artists before it was cancelled, but a list for a cancelled edition does not predict the next one.
+No Defqon.1 2027 lineup is stated on the pages. The 2026 festival listed more than 350 artists before it was cancelled, but a list for a cancelled edition does not predict the next one.
 
 ### Defqon.1 sets
 
@@ -100,7 +100,7 @@ Camping is part of the Weekend ticket. The pages read give camping opening on Th
 
 ### Defqon.1 shuttle
 
-No 2027 travel details were published on 5 October 2026, so here is the 2026 pattern from the official travel page, which is useful as a guide. A Defqon.1 shuttle ran from Dronten station and cost €12.50 online, for Weekend ticket holders only, with no public transport on Friday and Saturday. Park and Ride at Harderdijk 9 in Zeewolde cost €25. Weekend parking was €50 online and day parking €27.50. Transfer buses ran from Amsterdam Centraal, Utrecht Centraal, Schiphol and Eindhoven Centraal. The festival points to the NS Travel Planner and 9292 for the journey.
+The 2027 travel details are not out yet, so here is the 2026 pattern from the official travel page, which is useful as a guide. A Defqon.1 shuttle ran from Dronten station and cost €12.50 online, for Weekend ticket holders only, with no public transport on Friday and Saturday. Park and Ride at Harderdijk 9 in Zeewolde cost €25. Weekend parking was €50 online and day parking €27.50. Transfer buses ran from Amsterdam Centraal, Utrecht Centraal, Schiphol and Eindhoven Centraal. The festival points to the NS Travel Planner and 9292 for the journey.
 
 ## FAQ
 
@@ -134,4 +134,4 @@ Yes. Q-dance says the 2026 edition was 100 percent sold out, so the 2027 offer i
 
 ### How much are Defqon.1 tickets?
 
-The pages read on 5 October 2026 state no 2027 price. Holders who kept a 2026 ticket keep the 2026 price.
+The pages state no 2027 price. Holders who kept a 2026 ticket keep the 2026 price.

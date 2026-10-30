@@ -141,9 +141,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Time Warp FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Mannheim date, hours, venue and age limit, read on 4 October 2026: ${ext('https://www.time-warp.de/germany/mannheim/', 'Time Warp Germany event page')}.</li>
-<li>Edition dates, 1994 to 2026, read on 4 October 2026: ${ext('https://www.time-warp.de/', 'time-warp.de')} and ${ext('https://www.time-warp.de/history/', 'the history page')}.</li>
-<li>Pass prices, read on 4 October 2026: ${ext('https://tickets.time-warp.de/f90301ebaeda45c2a03fa62edf7ff9a8/tickets', 'the Mannheim ticket shop')}. Ticket rules and the origin story: ${ext('https://www.time-warp.de/tickets/', 'time-warp.de/tickets')}.</li>
+<li>Mannheim date, hours, venue and age limit: ${ext('https://www.time-warp.de/germany/mannheim/', 'Time Warp Germany event page')}.</li>
+<li>Edition dates, 1994 to 2026: ${ext('https://www.time-warp.de/', 'time-warp.de')} and ${ext('https://www.time-warp.de/history/', 'the history page')}.</li>
+<li>Pass prices: ${ext('https://tickets.time-warp.de/f90301ebaeda45c2a03fa62edf7ff9a8/tickets', 'the Mannheim ticket shop')}. Ticket rules and the origin story: ${ext('https://www.time-warp.de/tickets/', 'time-warp.de/tickets')}.</li>
 </ul>`}),
   bandcampSupport({
     fullBleed: true,

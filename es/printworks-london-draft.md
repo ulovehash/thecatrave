@@ -22,7 +22,7 @@ Los planes de reforma cambiaron entre la solicitud de 2024 y la consulta de 2026
 
 [Table: timeline]
 
-La reapertura de Printworks London está prevista, pero el diseño revisado y la fecha de apertura no están confirmados. Un medio local publicó en mayo de 2026 un titular sobre el retraso en la vuelta de la vida nocturna. La reapertura de Printworks London en 2026 que se planteó no tenía fecha confirmada a 5 de octubre. Tampoco estaba confirmado si se había presentado la solicitud revisada.
+La reapertura de Printworks London está prevista, pero el diseño revisado y la fecha de apertura no están confirmados. Un medio local publicó en mayo de 2026 un titular sobre el retraso en la vuelta de la vida nocturna. La reapertura de Printworks London en 2026 que se planteó no tiene fecha confirmada, y tampoco está confirmado que se haya presentado la solicitud revisada.
 
 Para anuncios de eventos e información de entradas, sigue la web oficial de [Printworks](https://printworkslondon.co.uk/).
 

@@ -85,7 +85,7 @@ const media = {
   'Table: now': articleTable({
     headers: ['Club', 'Area', 'Music and character', 'Entry'],
     rows: [
-      ['Flex', 'Donaukanal, Augartenbrücke', 'A disused U4 tunnel on the canal, open since 1995, with concerts and club nights', 'Club events listed 16+ in October 2026'],
+      ['Flex', 'Donaukanal, Augartenbrücke', 'A disused U4 tunnel on the canal, open since 1995, with concerts and club nights', 'Club events listed 16+'],
       ['Grelle Forelle', 'Spittelauer Lände', 'Two floors, Kitchenfloor and Clubfloor, open since December 2011', '21+, no photos, video or audio recording'],
       ['Das Werk', 'Spittelauer Lände', 'Five railway arches, in the Stadtbahn arches since spring 2013', 'Check the night'],
       ['Fluc', 'Praterstern', 'Shipping-container club and concert space, reopened in 2006', 'Open Monday to Saturday'],
@@ -154,7 +154,7 @@ ${sourceLink('https://ra.co/news/84515', 'Resident Advisor: Pratersauna insolven
 ${sourceLink('https://www.falter.at/', 'Falter: Pratersauna, unpaid rent and insolvency (December 2025 to January 2026)')}
 ${sourceLink('https://www.heute.at/', 'heute.at: Pratersauna Urban Pool Club (27 July 2026)')}
 ${sourceLink('https://www.grelleforelle.com/', 'Grelle Forelle: about, age and photo policy')}
-${sourceLink('https://www.flex.at/', 'Flex: programme, October 2026')}
+${sourceLink('https://www.flex.at/', 'Flex: programme')}
 ${sourceLink('https://en.wikipedia.org/wiki/Flex_(club)', 'Wikipedia: Flex')}
 ${sourceLink('https://www.vienna.at/', 'vienna.at: Fluc, opening and hours')}
 ${sourceLink('https://de.wikipedia.org/wiki/Volksgarten_(Wien)', 'Wikipedia (German): Volksgarten and its pavilion')}

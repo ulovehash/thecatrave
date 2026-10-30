@@ -2,7 +2,7 @@
 
 ## Antwort
 
-Die besten Winterfestivals für elektronische Musik 2027 sind Tomorrowland Winter und Snowbombing in den Alpen, Igloofest auf einem Pier in Montreal, Snow Machine in Japan und, für alle, die es ruhiger mögen, CTM in Berlin, Elevate in Graz, Shapes in Leysin und Caprices in Gstaad. Die Termine reichen von Rise in Les 2 Alpes, 5. bis 12. Dezember 2026, bis Snowbombing, 5. bis 10. April 2027. Als bestätigt markierte Termine standen am 4. Oktober 2026 auf der Seite des Festivals selbst; die übrigen stammen aus Listen oder den Kanälen der Veranstalter und sind so gekennzeichnet.
+Die besten Winterfestivals für elektronische Musik 2027 sind Tomorrowland Winter und Snowbombing in den Alpen, Igloofest auf einem Pier in Montreal, Snow Machine in Japan und, für alle, die es ruhiger mögen, CTM in Berlin, Elevate in Graz, Shapes in Leysin und Caprices in Gstaad. Die Termine reichen von Rise in Les 2 Alpes, 5. bis 12. Dezember 2026, bis Snowbombing, 5. bis 10. April 2027. Als bestätigt markierte Termine stammen von der Seite des Festivals selbst; die übrigen stammen aus Listen oder den Kanälen der Veranstalter und sind so gekennzeichnet.
 
 ## Einleitung
 
@@ -12,7 +12,7 @@ Ein Winterfestival ist eine andere Reise als ein Sommerfestival. Du wählst eine
 
 Ein Festival steht auf der Liste, wenn elektronische Musik sein Kern ist, es zwischen Dezember und April stattfindet und Termine für die nächste Ausgabe hat. Die letzte Gruppe stützt sich auf die Berichterstattung von Resident Advisor, Pitchfork und The Quietus.
 
-„Bestätigt“ heißt: Die Termine stehen auf der Seite des Festivals selbst. „Gelistet“ heißt: Sie stehen bei einem Ticketanbieter, auf einer Listenseite oder im Social-Media-Konto des Veranstalters, und die Seite des Festivals war veraltet oder nicht erreichbar, als sie geprüft wurde.
+„Bestätigt“ heißt: Die Termine stehen auf der Seite des Festivals selbst. „Gelistet“ heißt: Sie stehen bei einem Ticketanbieter, auf einer Listenseite oder im Social-Media-Konto des Veranstalters, die Seite des Festivals dagegen nicht.
 
 ## Die Termine der Winterfestivals 2027 im Überblick
 
@@ -58,7 +58,7 @@ Hibernation, Caprices und Shapes sind die drei, die man sich ansehen sollte, wen
 
 ### Hibernation, Pas de la Casa
 
-Das Festival Hibernation findet in Pas de la Casa in Andorra statt, und die Ausgabe 2027 ist als zehnte für den 19. bis 21. März gelistet. Nimm die Termine mit Vorsicht. Die Seite des Festivals zeigte bei der Prüfung am 4. Oktober 2026 alte Termine, und der 19. bis 21. März stützt sich auf das Instagram des Veranstalters, Shotgun und eine Festivalliste.
+Das Festival Hibernation findet in Pas de la Casa in Andorra statt, und die Ausgabe 2027 ist als zehnte für den 19. bis 21. März gelistet. Nimm die Termine mit Vorsicht. Die Seite des Festivals zeigt sie noch nicht, und der 19. bis 21. März stützt sich auf das Instagram des Veranstalters, Shotgun und eine Festivalliste.
 
 ### Caprices, Gstaad
 
@@ -96,13 +96,13 @@ Rise eröffnet den Winter 2026/2027, ist also ein Dezember-Festival in einem Gui
 
 ### Astropolis l'Hiver, Brest
 
-Astropolis ist das Festival für elektronische Musik in Brest, und seine Winterausgabe findet im Februar statt. Die Seiten des Festivals hatten die Termine der 14. Ausgabe bei der Prüfung am 4. Oktober 2026 nicht bestätigt, also steht hier kein Tag. Diese Seite wird aktualisiert, sobald Astropolis sie ankündigt.
+Astropolis ist das Festival für elektronische Musik in Brest, und seine Winterausgabe findet im Februar statt. Das Festival hat die Termine der 14. Ausgabe noch nicht bestätigt, also steht hier kein Tag.
 
 ## So wählst du
 
 Wähle danach, was du von der Reise willst. Für die größten Namen und einen Skiurlaub wähle Tomorrowland Winter oder Snowbombing. Für ein Stadtfestival, das du an einem Wochenende schaffst, wähle Igloofest oder CTM. Für House und Techno in einem Bergort wähle Shapes, Caprices oder Hibernation. Für Vorträge und Kunst neben der Musik wähle Elevate.
 
-Schau in die Spalte „Quelle“, bevor du buchst. Fünf Festivals hatten ihre Termine am 4. Oktober 2026 auf der Seite des Festivals selbst bestätigt; bei den übrigen lohnt es sich, vor dem Kauf der Reise beim Festival nachzufragen. Für die Sommerpläne schau in die [besten Festivals für elektronische Musik in Europa](/de/electro-festivals-europa).
+Schau in die Spalte „Quelle“, bevor du buchst. Fünf Festivals haben ihre Termine auf der eigenen Seite bestätigt; bei den übrigen lohnt es sich, vor dem Kauf der Reise beim Festival nachzufragen. Für die Sommerpläne schau in die [besten Festivals für elektronische Musik in Europa](/de/electro-festivals-europa).
 
 Wie sich diese Festivals anhören, zeigt der [Selector](/de/selector): Er spielt ein zufälliges DJ-Set.
 

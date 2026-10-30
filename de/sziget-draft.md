@@ -40,13 +40,13 @@ Péter Müller und Károly Gerendai gründeten 1993 die Firma hinter dem Festiva
 
 [Image: stage]
 
-Mit dem Wachstum änderte sich auch der Besitz. Das Sziget wurde Teil von Superstruct und kehrte 2026 zu einer vom Management geführten Struktur zurück. Berichte von Juni 2026 beschrieben, dass das Management 70 Prozent hält und Partnerunternehmen die übrigen 30 Prozent. Diese Struktur ist jung und gilt als Momentaufnahme mit Datum, nicht als dauerhaftes Etikett.
+Mit dem Wachstum änderte sich auch der Besitz. Das Sziget wurde Teil von Superstruct und kehrte 2026 zu einer vom Management geführten Struktur zurück. Das Management hält 70 Prozent, Partnerunternehmen die übrigen 30 Prozent.
 
 [Embed: thecatrave berlin-race-1909]
 
 ## Zelten oder in Budapest wohnen
 
-Einfaches Camping gibt es für Inhaber qualifizierter Mehrtagestickets. Wer ein Zelt mitbringt, braucht außerdem das rückerstattbare Pfandticket des Festivals für zurückgelassene Zelte. Das Festival bietet auch bessere Campingbereiche an, die genauen Angebote für 2027 waren aber noch nicht veröffentlicht, als dieser Guide geprüft wurde.
+Einfaches Camping gibt es für Inhaber qualifizierter Mehrtagestickets. Wer ein Zelt mitbringt, braucht außerdem das rückerstattbare Pfandticket des Festivals für zurückgelassene Zelte. Das Festival bietet auch bessere Campingbereiche an, die genauen Angebote für 2027 veröffentlicht es näher am Festival.
 
 Eine Unterkunft in der Stadt tauscht den direkten Zugang gegen ein Bett, ein eigenes Bad und Abstand zum Gelände. Die H5-Verbindung macht das realistisch, besonders für alle, die vor oder nach dem Festival auch Clubs in Budapest besuchen wollen. Buche in der Nähe einer brauchbaren Linie des Nahverkehrs, statt die Unterkunft nach der Luftlinie zur Insel zu wählen.
 

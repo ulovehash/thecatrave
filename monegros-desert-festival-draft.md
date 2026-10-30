@@ -14,7 +14,7 @@ Monegros 2027 is scheduled for Saturday 31 July. The festival has begun its 2027
 
 [Table: Facts]
 
-The official address is N-II, kilometre 416, 22520 Fraga, Huesca. Exact 2027 hours, transport routes, age rules and payment arrangements should be checked again when the edition-specific FAQ appears.
+The official address is N-II, kilometre 416, 22520 Fraga, Huesca. Exact 2027 hours, transport routes, age rules and payment arrangements appear in the edition-specific FAQ.
 
 ## What Monegros is
 
@@ -68,7 +68,7 @@ It is held at N-II, kilometre 416, near Fraga in Huesca province, Aragón, Spain
 
 ### How long does Monegros last?
 
-The 2026 edition ran for 22 hours, from Saturday afternoon until Sunday noon. The festival had not yet confirmed the 2027 operating hours when this guide was checked.
+The 2026 edition ran for 22 hours, from Saturday afternoon until Sunday noon. The festival has not yet confirmed the 2027 operating hours.
 
 ### What music is played at Monegros?
 

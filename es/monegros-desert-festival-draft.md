@@ -68,7 +68,7 @@ Se celebra en la N-II, kilómetro 416, cerca de Fraga, en la provincia de Huesca
 
 ### ¿Cuánto dura Monegros?
 
-La edición de 2026 duró 22 horas, desde la tarde del sábado hasta el mediodía del domingo. El festival aún no había confirmado los horarios de 2027 cuando se comprobó esta guía.
+La edición de 2026 duró 22 horas, desde la tarde del sábado hasta el mediodía del domingo. El festival aún no ha confirmado los horarios de 2027.
 
 ### ¿Qué música se pone en Monegros?
 

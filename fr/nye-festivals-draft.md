@@ -12,7 +12,7 @@ Le réveillon tombe en plein été dans l'hémisphère sud et en plein hiver dan
 
 [Table: festivals]
 
-Les dates marquées « à vérifier sur le site » n'étaient pas annoncées au moment de l'écriture de ce guide, en septembre 2026. La programmation de la plupart de ces événements est annoncée à l'automne.
+Les dates marquées « à vérifier sur le site » ne sont pas encore annoncées. La programmation de la plupart de ces événements est annoncée à l'automne.
 
 ## Le Nouvel An en Europe : le FCKNYE et les clubs
 

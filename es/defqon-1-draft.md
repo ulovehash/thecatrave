@@ -2,11 +2,11 @@
 
 ## Respuesta
 
-Defqon.1 2027 está fijado del 24 al 27 de junio de 2027 en los Holy Grounds de Biddinghuizen (Países Bajos), según las páginas de Q-dance leídas el 5 de octubre de 2026. La edición de 2026 se canceló en su primera noche, después de que los Países Bajos emitieran su primer código rojo por calor, y Q-dance ofreció a todos los titulares de entrada elegir entre conservarla para 2027 y el reembolso. La venta de 2027 va por fases: lista de deseos desde el 1 de octubre, venta Dediqated el 27 de octubre, Travel and Stay el 29 de octubre y venta general el 31 de octubre. Las páginas leídas no indican precios de entradas de 2027 ni cartel de 2027, así que esta página no da ninguno. La entrada es para mayores de 18 años con documento de identidad original con foto.
+Defqon.1 2027 está fijado del 24 al 27 de junio de 2027 en los Holy Grounds de Biddinghuizen (Países Bajos), según las páginas de Q-dance. La edición de 2026 se canceló en su primera noche, después de que los Países Bajos emitieran su primer código rojo por calor, y Q-dance ofreció a todos los titulares de entrada elegir entre conservarla para 2027 y el reembolso. La venta de 2027 se abre por fases durante octubre: primero la lista de deseos, después la venta Dediqated, Travel and Stay y la venta general el 31 de octubre. Q-dance fija los precios en su tienda y no ha publicado cartel de 2027, así que esta página no da ninguno de los dos. La entrada es para mayores de 18 años con documento de identidad original con foto.
 
 ## Introducción
 
-Defqon.1 es el gran fin de semana de hardstyle y en octubre de 2026 está en una situación rara: la última edición terminó antes de tiempo, la siguiente queda a nueve meses y las normas de entradas han cambiado por ello. Las búsquedas de Defqon.1 2026 y de Defqon.1 2027 son altas, algo coherente con un festival cuyos compradores intentan entender qué pasó y qué hacer ahora.
+Defqon.1 es el gran fin de semana de hardstyle y está en una situación rara: la última edición terminó antes de tiempo y las normas de entradas de la siguiente han cambiado por ello. Las búsquedas de Defqon.1 2026 y de Defqon.1 2027 son altas, algo coherente con un festival cuyos compradores intentan entender qué pasó y qué hacer ahora.
 
 Esta página cuenta qué es el festival, cuándo y dónde se celebra la edición de 2027, cómo funcionan las fases de venta, por qué se canceló 2026 y dónde escuchar la música. Para la música en sí, mira la [guía de hardstyle](/hardstyle-guide) (en inglés). Mucha gente escribe el nombre como Defqon 1, porque el punto forma parte de la marca.
 
@@ -20,11 +20,11 @@ Los distintos medios citan cifras de asistentes diferentes, así que aquí no se
 
 [Embed: thecatrave mix 1]
 
-El nombre no tiene explicación oficial en las páginas leídas. El significado de Defqon.1 admite una lectura, porque recuerda al nivel de alerta militar estadounidense DEFCON 1, pero es una observación y no algo que diga Q-dance.
+El nombre no tiene explicación oficial. El significado de Defqon.1 admite una lectura, porque recuerda al nivel de alerta militar estadounidense DEFCON 1, pero es una observación y no algo que diga Q-dance.
 
 ## Fechas de Defqon.1 2027
 
-Las fechas de Defqon.1 2027 son del jueves 24 al domingo 27 de junio de 2027. La página del evento en Q-dance, leída el 5 de octubre de 2026, lista el festival desde el 24 de junio de 2027 a las 19:00 hasta el 28 de junio de 2027 a las 00:00 en el Evenemententerrein de Biddinghuizen. La página de la entrada de fin de semana describe la estructura: el jueves es The Gathering, seguido de viernes, sábado y domingo, con salida el lunes.
+Las fechas de Defqon.1 2027 son del jueves 24 al domingo 27 de junio de 2027. La página del evento en Q-dance lista el festival desde el 24 de junio de 2027 a las 19:00 hasta el 28 de junio de 2027 a las 00:00 en el Evenemententerrein de Biddinghuizen. La página de la entrada de fin de semana describe la estructura: el jueves es The Gathering, seguido de viernes, sábado y domingo, con salida el lunes.
 
 [Image: endshow]
 
@@ -42,15 +42,15 @@ Las entradas de Defqon.1 2027 a la venta son la entrada de fin de semana, las de
 
 ### Calendario de venta de Defqon.1 2027
 
-La venta de entradas de Defqon.1 2027 sigue el calendario de las preguntas frecuentes oficiales, leídas el 5 de octubre de 2026:
+La venta de entradas de Defqon.1 2027 sigue el calendario de las preguntas frecuentes oficiales:
 
 [Table: sale schedule]
 
-La venta Dediqated es la venta de socios. La membresía Dediqated cuesta 34,99 € al año en la página de Q-dance leída. Un pedido en la venta Dediqated se limita a 2 entradas, y un pedido en la venta general a 9.
+La venta Dediqated es la venta de socios. La membresía Dediqated cuesta 34,99 € al año en la página de Q-dance. Un pedido en la venta Dediqated se limita a 2 entradas, y un pedido en la venta general a 9.
 
 ### Precio de las entradas de Defqon.1
 
-Las páginas de Q-dance leídas el 5 de octubre de 2026 no muestran ningún precio de entrada de Defqon.1 para 2027. La única mención de precio es para quienes conservaron una entrada de 2026: mantienen el precio de 2026 y no pagan nada más si los precios suben. Cualquier cifra citada en otro sitio como precio de 2027 no procede de las páginas leídas aquí.
+Q-dance fija los precios de entrada de Defqon.1 2027 en su tienda. La única mención de precio en sus preguntas frecuentes es para quienes conservaron una entrada de 2026: mantienen el precio de 2026 y no pagan nada más si los precios suben. Esta página no recoge cifras de terceros.
 
 ## Defqon.1 2026 cancelado
 
@@ -60,15 +60,15 @@ El motivo que da la actualización oficial es el clima.
 
 ### Reembolso de Defqon.1 2026
 
-Sobre el reembolso de Defqon.1 2026, Q-dance dijo, en unas preguntas frecuentes actualizadas el 30 de junio de 2026, que el comprador principal elegía para cada entrada entre conservarla para 2027 o el reembolso, con plazo hasta el 31 de julio. Un pedido sin elección se reembolsó automáticamente. Los reembolsos se hicieron de mediados de agosto a mediados de septiembre de 2026. Travel and Stay, aparcamiento y taquillas se reembolsaron y no se trasladaron. Quien compró a través de un revendedor recibió el reembolso a través de ese revendedor. El plazo para reclamar el reembolso de Defqon.1 está, pues, cerrado en octubre de 2026, y una entrada conservada es una entrada de 2027.
+Sobre el reembolso de Defqon.1 2026, Q-dance dijo en sus preguntas frecuentes que el comprador principal elegía para cada entrada entre conservarla para 2027 o el reembolso, con plazo hasta el 31 de julio. Un pedido sin elección se reembolsó automáticamente. Los reembolsos se hicieron de mediados de agosto a mediados de septiembre de 2026. Travel and Stay, aparcamiento y taquillas se reembolsaron y no se trasladaron. Quien compró a través de un revendedor recibió el reembolso a través de ese revendedor. El plazo para reclamar el reembolso de Defqon.1 está, pues, cerrado, y una entrada conservada es una entrada de 2027.
 
 ## Cartel de Defqon.1
 
-Las páginas leídas el 5 de octubre de 2026 no indican ningún cartel de Defqon.1 2027. El festival de 2026 listaba más de 350 artistas antes de cancelarse, pero una lista de una edición cancelada no anticipa la siguiente.
+Defqon.1 2027 aún no tiene cartel publicado. El festival de 2026 listaba más de 350 artistas antes de cancelarse, pero una lista de una edición cancelada no anticipa la siguiente.
 
 ### Sets de Defqon.1
 
-Las páginas leídas no describían ninguna retransmisión en directo de Defqon.1 para 2027, así que aquí no se promete ninguna. Para escuchar hardstyle mientras tanto, abajo hay tres sets del catálogo del [Selector](/selector) (en inglés). Ninguno se grabó en Defqon.1: son sets de hardstyle de Boiler Room y DJ Mag, elegidos para escuchar, y el Selector pone otro set grabado al azar cuando quieres algo que no conoces.
+Q-dance no ha anunciado ninguna retransmisión en directo de Defqon.1 para 2027, así que aquí no se promete ninguna. Para escuchar hardstyle mientras tanto, abajo hay tres sets del catálogo del [Selector](/selector) (en inglés). Ninguno se grabó en Defqon.1: son sets de hardstyle de Boiler Room y DJ Mag, elegidos para escuchar, y el Selector pone otro set grabado al azar cuando quieres algo que no conoces.
 
 [Embed: hardstyle sets]
 
@@ -84,15 +84,15 @@ Los escenarios de Defqon.1 llevan colores. La página oficial de la entrada de f
 
 ### Colores de Defqon.1
 
-Los colores de Defqon.1 son los nombres de los escenarios. La página oficial de entradas nombra Red, Blue, Black, Magenta, Indigo y UV. Una fuente secundaria, hardcult.com, lista también los escenarios Gold, Green y Pink. No figuran en las páginas oficiales leídas, así que trátalos como no confirmados.
+Los colores de Defqon.1 son los nombres de los escenarios. La página oficial de entradas nombra Red, Blue, Black, Magenta, Indigo y UV. Una fuente secundaria, hardcult.com, lista también los escenarios Gold, Green y Pink. No figuran en las páginas oficiales, así que trátalos como no confirmados.
 
 ### Camping de Defqon.1
 
-El camping forma parte de la entrada de fin de semana. Las páginas leídas dan apertura del camping el jueves a las 12:00 y cierre el lunes a las 12:00, y un horario del festival de 18:00 a 23:00 el jueves y de 11:00 a 23:00 de viernes a domingo. Vuelve a comprobarlo cuando se publique la información de 2027.
+El camping forma parte de la entrada de fin de semana. Las páginas oficiales dan apertura del camping el jueves a las 12:00 y cierre el lunes a las 12:00, y un horario del festival de 18:00 a 23:00 el jueves y de 11:00 a 23:00 de viernes a domingo. Vuelve a comprobarlo cuando se publique la información de 2027.
 
 ### Lanzadera y transporte de Defqon.1
 
-El 5 de octubre de 2026 no había detalles de viaje de 2027, así que aquí va el esquema de 2026 de la página oficial de viaje, que sirve de referencia. Una lanzadera de Defqon.1 salía de la estación de Dronten y costaba 12,50 € en línea, solo para titulares de la entrada de fin de semana, sin transporte público el viernes y el sábado. El Park and Ride en Harderdijk 9, en Zeewolde, costaba 25 €. El aparcamiento de fin de semana costaba 50 € en línea y el de día 27,50 €. Había autobuses de enlace desde Amsterdam Centraal, Utrecht Centraal, Schiphol y Eindhoven Centraal. El festival remite al NS Travel Planner y a 9292 para el viaje.
+Los detalles de viaje de 2027 aún no están publicados, así que aquí va el esquema de 2026 de la página oficial de viaje, que sirve de referencia. Una lanzadera de Defqon.1 salía de la estación de Dronten y costaba 12,50 € en línea, solo para titulares de la entrada de fin de semana, sin transporte público el viernes y el sábado. El Park and Ride en Harderdijk 9, en Zeewolde, costaba 25 €. El aparcamiento de fin de semana costaba 50 € en línea y el de día 27,50 €. Había autobuses de enlace desde Amsterdam Centraal, Utrecht Centraal, Schiphol y Eindhoven Centraal. El festival remite al NS Travel Planner y a 9292 para el viaje.
 
 [Embed: thecatrave mix 2]
 
@@ -112,7 +112,7 @@ El endshow de Defqon.1 es un acto fijo del programa. La página de entradas de 2
 
 ### ¿Por qué prohibieron Defqon.1 en Australia?
 
-No fue una prohibición formal en la fuente leída. The Music Network informó el 30 de mayo de 2019 de que Defqon.1 Australia, que se había celebrado unos diez años en Sídney, no volvería en 2019 después de que el Sydney International Regatta Centre retirara su apoyo. Dos personas murieron en la edición de 2018 y la primera ministra de Nueva Gales del Sur, Gladys Berejiklian, dijo que lo cerraría.
+No fue una prohibición formal. The Music Network informó el 30 de mayo de 2019 de que Defqon.1 Australia, que se había celebrado unos diez años en Sídney, no volvería en 2019 después de que el Sydney International Regatta Centre retirara su apoyo. Dos personas murieron en la edición de 2018 y la primera ministra de Nueva Gales del Sur, Gladys Berejiklian, dijo que lo cerraría.
 
 ### ¿Por qué cancelaron Defqon.1 en 2026?
 
@@ -132,4 +132,4 @@ Del 24 al 27 de junio de 2027. Mira la sección de fechas más arriba.
 
 ### ¿Cuánto cuestan las entradas de Defqon.1?
 
-Las páginas leídas el 5 de octubre de 2026 no indican ningún precio de 2027. Quienes conservaron una entrada de 2026 mantienen el precio de 2026.
+Q-dance fija los precios de 2027 en su tienda. Quienes conservaron una entrada de 2026 mantienen el precio de 2026.

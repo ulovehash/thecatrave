@@ -2,7 +2,7 @@
 
 ## Answer
 
-Fusion Festival is a five-day arts and music festival held at a former Soviet military airfield in Lärz, Mecklenburg-Vorpommern, Germany, run by the non-profit Kulturkosmos Müritz. The 2026 edition ran from 24 to 28 June and sold out. According to the official pages read on 5 October 2026, 2027 is a Fusion-free year and the next edition is 28 June to 2 July 2028. Tickets are sold by lottery: you register in a set window, a draw decides who may buy, and the 2026 price was €220 including a €10 waste deposit. The official pages listed no 2028 ticket dates or prices as of 5 October 2026. Entry is 18 and over.
+Fusion Festival is a five-day arts and music festival held at a former Soviet military airfield in Lärz, Mecklenburg-Vorpommern, Germany, run by the non-profit Kulturkosmos Müritz. The 2026 edition ran from 24 to 28 June and sold out. According to the official pages, 2027 is a Fusion-free year and the next edition is 28 June to 2 July 2028. Tickets are sold by lottery: you register in a set window, a draw decides who may buy, and the 2026 price was €220 including a €10 waste deposit. The official pages list no 2028 ticket dates or prices yet. Entry is 18 and over.
 
 ## Introduction
 
@@ -22,7 +22,7 @@ The festival traces itself to the summer of 1996, when the site hosted the U-Sit
 
 ## Fusion Festival 2026
 
-The 2026 edition ran from Wednesday 24 June to Sunday 28 June, according to the official FAQ read on 5 October 2026. Gates opened on Wednesday at 07:00, the Wednesday programme started at 16:00 and the big open-air floors started on Thursday at 18:00. On the loud stages there is a daily break from 11:00 to 14:00 from Friday to Sunday.
+The 2026 edition ran from Wednesday 24 June to Sunday 28 June, according to the official FAQ. Gates opened on Wednesday at 07:00, the Wednesday programme started at 16:00 and the big open-air floors started on Thursday at 18:00. On the loud stages there is a daily break from 11:00 to 14:00 from Friday to Sunday.
 
 | 2026 schedule | Detail |
 |---|---|
@@ -39,11 +39,11 @@ The same newsletter described drug-checking run with the University of Rostock, 
 
 ## Fusion Festival 2027 and 2028
 
-There is no Fusion Festival in 2027. The organisers' November 2025 newsletter calls 2027 a Fusion-free year and a free year for the sister theatre festival at.tension too, with the reasons given as breathing, reflecting, tidying up and envisioning. There is a precedent: 2017 was a break year after 20 years of Fusion. The ticket shop, read on 5 October 2026, states that the next edition runs from 28 June to 2 July 2028, and both Fusion and at.tension return in 2028.
+There is no Fusion Festival in 2027. The organisers' November 2025 newsletter calls 2027 a Fusion-free year and a free year for the sister theatre festival at.tension too, with the reasons given as breathing, reflecting, tidying up and envisioning. There is a precedent: 2017 was a break year after 20 years of Fusion. The ticket shop, states that the next edition runs from 28 June to 2 July 2028, and both Fusion and at.tension return in 2028.
 
 So the Fusion Festival 2027 question has a plain answer. If you are searching for a summer 2027 date, none exists, and anything advertising one is not from the organisers' pages read here. The Fusion Festival dates to note are 28 June to 2 July 2028, a Wednesday to a Sunday.
 
-| Item | Status on 5 October 2026 |
+| Item | Status |
 |---|---|
 | 2026 edition | 24 to 28 June 2026, sold out |
 | 2027 | Fusion-free year, no festival |
@@ -68,7 +68,7 @@ The 2026 process is the best guide to how the 2028 one is likely to run, though 
 | Second draw, Ticket:Bourse and Sunday tickets | 5 February 2026 |
 | Vehicle tickets | Spring 2026 |
 
-The 2026 ticket cost €220 including a €10 deposit for waste. Local tickets, at €30 for people over 50 and €60 for ages 18 to 50, were available to residents of listed municipalities and sold from 16:00 on the festival Saturday. The 2028 price and registration window had not been published on 5 October 2026.
+The 2026 ticket cost €220 including a €10 deposit for waste. Local tickets, at €30 for people over 50 and €60 for ages 18 to 50, were available to residents of listed municipalities and sold from 16:00 on the festival Saturday. The 2028 price and registration window are not published yet.
 
 ## Fusion Festival Lärz and Kulturkosmos
 
@@ -100,7 +100,7 @@ The 2019 compromise was a single police station at the entrance, with officers a
 
 ## Fusion Festival lineup
 
-The Fusion Festival lineup is not published as a poster. The programme is announced in the Festival Guide and app from the start of the festival, with some programme information on the website from early June. The 2028 programme was not published on 5 October 2026.
+The Fusion Festival lineup is not published as a poster. The programme is announced in the Festival Guide and app from the start of the festival, with some programme information on the website from early June. The 2028 programme is not published yet.
 
 Among the thousands of entries on the official 2026 programme page, names include Acid Pauli, Modeselektor, Apparat, Recondite, Rødhåd, Gerd Janson and Magda.
 
@@ -110,7 +110,7 @@ No set from Fusion itself is linked here, because the festival's photo and film 
 
 ## How to get there
 
-Fusion Festival how to get there is a question with several answers, and the official FAQ, read on 5 October 2026, covers the 2026 pattern. For Fusion Festival Berlin is the nearest big city, and the route is the train to Neustrelitz. Special trains ran on Wednesday from Berlin Gesundbrunnen to Neustrelitz at 10:09 and 13:09. From Neustrelitz, shuttle buses leave from the Rummelplatz, five minutes from the station, at €6 one way. The Brandenburg-Ticket (€33 for five people) and the Deutschlandticket both cover the regional trains. Federal police check people at Neustrelitz station.
+Fusion Festival how to get there is a question with several answers, and the official FAQ, covers the 2026 pattern. For Fusion Festival Berlin is the nearest big city, and the route is the train to Neustrelitz. Special trains ran on Wednesday from Berlin Gesundbrunnen to Neustrelitz at 10:09 and 13:09. From Neustrelitz, shuttle buses leave from the Rummelplatz, five minutes from the station, at €6 one way. The Brandenburg-Ticket (€33 for five people) and the Deutschlandticket both cover the regional trains. Federal police check people at Neustrelitz station.
 
 ![Festival-goers board a regional railcar at Neustrelitz station on the way to Fusion in 2016](figure:railcar)
 
@@ -126,7 +126,7 @@ A five-day arts and music festival at a former Soviet military airfield in Lärz
 
 ### Is there a Fusion Festival in 2027?
 
-No. The organisers call 2027 a Fusion-free year. The next edition runs from 28 June to 2 July 2028, according to the ticket shop read on 5 October 2026.
+No. The organisers call 2027 a Fusion-free year. The next edition runs from 28 June to 2 July 2028, according to the ticket shop.
 
 ### When is Fusion Festival 2028?
 

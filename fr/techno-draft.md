@@ -110,7 +110,7 @@ La hard techno en est l’opposé : rapide, distordue et physique, avec la gross
 
 [Embed: Sara Landry Boiler Room]
 
-Dans le catalogue de sets DJ enregistrés derrière le Selector de ce site, 8 547 sets portent une étiquette techno, en septembre 2026, derrière la house seulement parmi les genres nommés, avec 911 étiquetés minimal et 788 hard techno.
+Dans le catalogue de sets DJ enregistrés derrière le Selector de ce site, environ 8 500 sets portent une étiquette techno, derrière la house seulement parmi les genres nommés, avec environ 900 étiquetés minimal et 788 hard techno.
 
 ## La techno aujourd’hui et Détroit maintenant
 

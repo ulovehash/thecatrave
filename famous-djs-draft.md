@@ -6,13 +6,13 @@ DRAFT 1, 6 October 2026, built on the 2025 poll. Not built into a page, not revi
 
 ## Intro
 
-Five DJs were in the top ten of the DJ Mag Top 100 in all eleven polls from 2015 to 2025: David Guetta, Martin Garrix, Dimitri Vegas & Like Mike, Armin van Buuren and Afrojack. Since 2016 the number one spot has gone to Guetta or Garrix every year but one. In 2019 it went to Dimitri Vegas & Like Mike, and DJ Mag itself says so in its write-up of the 2025 poll.
+Four DJs have been in the top ten of the DJ Mag Top 100 in all twelve polls from 2015 to 2026: David Guetta, Martin Garrix, Dimitri Vegas & Like Mike and Armin van Buuren. Afrojack made it eleven in a row and dropped out in 2026. Since 2016 the number one spot has gone to Guetta or Garrix every year but one. In 2019 it went to Dimitri Vegas & Like Mike, and DJ Mag itself says so in its write-up of the 2025 poll.
 
 That is a long time for a list decided by public vote to hold still. This piece looks at the table, at how the vote works, at what the rules allow, and at who gets left out. The open question is whether the poll measures who the best DJs are or who has the biggest crowd to call on. The evidence can't fully settle it, and I'll say where it stops.
 
-## Eleven years, five names
+## Twelve years, the same names
 
-Here are the top ten from each poll, from DJ Mag's own year pages.
+Here are the top ten from each poll, from DJ Mag's own year pages, with the 2026 row taken from coverage of the results.
 
 | Year | 1–5 | 6–10 |
 |---|---|---|
@@ -27,14 +27,15 @@ Here are the top ten from each poll, from DJ Mag's own year pages.
 | 2023 | Guetta, Dimitri Vegas & Like Mike, Garrix, Alok, Armin van Buuren | Timmy Trumpet, Afrojack, Aoki, Peggy Gou, Vintage Culture |
 | 2024 | Garrix, Guetta, Dimitri Vegas & Like Mike, Alok, Timmy Trumpet | Armin van Buuren, Afrojack, FISHER, Vintage Culture, Peggy Gou |
 | 2025 | Guetta, Garrix, Alok, Dimitri Vegas & Like Mike, Armin van Buuren | Timmy Trumpet, FISHER, Afrojack, Charlotte de Witte, Anyma |
+| 2026 | Guetta, Garrix, Anyma, Alok, Dimitri Vegas & Like Mike | Charlotte de Witte, Armin van Buuren, Timmy Trumpet, FISHER, Vintage Culture |
 
-Read down the columns and the same few names keep coming back. Steve Aoki was in the top ten in eight of the eleven years. Oliver Heldens and Don Diablo spent most of the late 2010s and early 2020s in the lower half. Tiësto, a three-time winner in the early 2000s, left the top ten after 2019 and was 21st in 2025. Hardwell went from second in 2015 to 15th.
+Read down the columns and the same few names keep coming back. Steve Aoki was in the top ten in eight of the twelve years. Oliver Heldens and Don Diablo spent most of the late 2010s and early 2020s in the lower half. Tiësto, a three-time winner in the early 2000s, left the top ten after 2019 and was 21st in 2025. Hardwell went from second in 2015 to 15th.
 
-The top of the list has moved, but slowly, and mostly by one name at a time. Alok came into the top five in 2020 and has stayed. Timmy Trumpet reached the top ten the same year. In 2025 Charlotte de Witte and Anyma each climbed seven places into it.
+The top of the list has moved, but slowly, and mostly by one name at a time. Alok came into the top five in 2020 and has stayed. Timmy Trumpet reached the top ten the same year. In 2025 Charlotte de Witte and Anyma each climbed seven places into it. In 2026 Anyma went from tenth to third, and Vintage Culture came back in at tenth.
 
 ### Guetta and Garrix, and the year it was someone else
 
-Garrix won in 2016, 2017 and 2018, then again in 2022 and 2024. Guetta won in 2020, 2021, 2023 and 2025, and had already won once in 2011. His 2025 title was his fifth, which puts him level with Garrix and with Armin van Buuren, who won in 2007 to 2010 and again in 2012. In 2019, Dimitri Vegas & Like Mike took first place for the second time. That is the only gap in the Guetta and Garrix run since 2016.
+Garrix won in 2016, 2017 and 2018, then again in 2022 and 2024. Guetta won in 2020, 2021, 2023, 2025 and 2026, and had already won once in 2011. The 2026 title was his sixth, a record, one more than Garrix and Armin van Buuren, who won in 2007 to 2010 and again in 2012. In 2019, Dimitri Vegas & Like Mike took first place for the second time. That is the only gap in the Guetta and Garrix run since 2016.
 
 ## How the DJ Mag Top 100 vote works
 
@@ -42,7 +43,7 @@ The poll began in 1993 as a list chosen by the magazine's editors for its hundre
 
 There are no nominations and no eligibility criteria. A voter names five DJs of their choosing. Each person gets one vote, and DJ Mag says it validates every vote to block fraudulent or artificial ones. In 2026 voting ran from 8 July to 16 September. There is a separate link for voters in China.
 
-The published results do not disclose how the five picks are weighted into a ranking, and how many votes any DJ received. The magazine reported record turnout in 2025, with voters from 231 countries, but gave no total. So a reader can see the order and nothing about the margins. Any claim about how close the top three were is a guess.
+The published results do not disclose how the five picks are weighted into a ranking, and how many votes any DJ received. The magazine reports a record number of verified votes in 2026, from 234 territories, but gives no total. So a reader can see the order and nothing about the margins. Any claim about how close the top three were is a guess.
 
 ## Campaigning is allowed
 
@@ -89,7 +90,7 @@ Black Coffee is one of the DJs DJ Mag says rose with an Ibiza residency. This is
 
 ### Women in the list
 
-Charlotte de Witte, at ninth in 2025, is the highest-placed woman in the DJ Mag top ten that year, and DJ Mag named her its number one techno DJ. Peggy Gou was twelfth. Sara Landry was named number one hard DJ. The dBs list adds Honey Dijon, The Blessed Madonna, Amelie Lens, Alison Wonderland, Nia Archives and Annie Mac.
+Charlotte de Witte, sixth in 2026, is the only woman in the DJ Mag top ten, and DJ Mag names her its number one techno DJ. Sara Landry is its number one hard DJ. The dBs list adds Honey Dijon, The Blessed Madonna, Amelie Lens, Alison Wonderland, Nia Archives and Annie Mac.
 
 DJ Mag filmed de Witte's 63-minute techno set at the Castelo de S. Jorge in Lisbon in 2022.
 
@@ -97,7 +98,7 @@ DJ Mag filmed de Witte's 63-minute techno set at the Castelo de S. Jorge in Lisb
 
 ## Where the list does move
 
-The top five barely shifts, but the genre crowns show where change happens. In 2025 DJ Mag named Armin van Buuren its number one trance DJ, FISHER number one for house, Charlotte de Witte for techno and Sara Landry for hard, with Dimitri Vegas & Like Mike the number one DJ group.
+The top five shifts slowly, and the genre crowns show where change happens. DJ Mag names Armin van Buuren its number one trance DJ, FISHER number one for house, Charlotte de Witte for techno and Sara Landry for hard, with Dimitri Vegas & Like Mike the number one DJ group. In 2026 it added a psy title, and Indira Paganotto was the first winner.
 
 DJ Mag's own analysis points to two moves. One is a hard techno influx, while hardstyle acts such as Angerfist and Brennan Heart dropped out of the hundred. The other is Ibiza. DJ Mag notes that a residency there helps a ranking, and says Calvin Harris, Black Coffee, Carl Cox, Jamie Jones and Claptone all rose. The highest new entry was Michael Bibi at 48, and the biggest climber was Solomun, up 33 places to 55.
 
@@ -148,15 +149,15 @@ The Selector count and the DJ Mag poll measure different things: one records whi
 
 ## FAQ
 
-**Who is the top 10 DJ in the world?** In the DJ Mag Top 100 for 2025: David Guetta, Martin Garrix, Alok, Dimitri Vegas & Like Mike, Armin van Buuren, Timmy Trumpet, FISHER, Afrojack, Charlotte de Witte and Anyma. The 2026 poll closed on 16 September and the results are due this autumn.
+**Who is the top 10 DJ in the world?** In the DJ Mag Top 100 for 2026: David Guetta, Martin Garrix, Anyma, Alok, Dimitri Vegas & Like Mike, Charlotte de Witte, Armin van Buuren, Timmy Trumpet, FISHER and Vintage Culture.
 
-**Who is the number one DJ right now?** David Guetta, in the 2025 poll, his fifth win. Check the 2026 results.
+**Who is the number one DJ right now?** David Guetta, who won the 2026 poll, his sixth title and a record.
 
-**Who are the top 100 DJs in 2026?** The 2026 list has not been published. Voting ran from 8 July to 16 September 2026.
+**Who are the top 100 DJs in 2026?** David Guetta leads the 2026 list, ahead of Martin Garrix, Anyma, Alok and Dimitri Vegas & Like Mike. DJ Mag revealed it on 6 October 2026 at [UNVRS] in Ibiza.
 
 **Who are the most famous DJs of all time?** There is no single answer, because the lists disagree. The DJ Mag poll's winners include Carl Cox, Paul Oakenfold, Sasha, John Digweed, Tiësto, Paul van Dyk, Armin van Buuren, David Guetta, Hardwell, Dimitri Vegas & Like Mike and Martin Garrix. Lists written by critics add names the poll has never put on top, such as Frankie Knuckles and Grandmaster Flash.
 
-**Who has won the DJ Mag Top 100 the most times?** Three DJs have won it five times each: David Guetta, Martin Garrix and Armin van Buuren. Tiësto won three times, from 2002 to 2004.
+**Who has won the DJ Mag Top 100 the most times?** David Guetta, with six wins. Martin Garrix and Armin van Buuren have five each. Tiësto won three times, from 2002 to 2004.
 
 ---
 

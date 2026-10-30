@@ -140,9 +140,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Defqon.1 FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>2027 dates, sales schedule, ticket types, payment methods, opening times, age rule and stages, read on 5 October 2026: ${ext('https://www.q-dance.com/l/defqon1-2027', 'Q-dance Defqon.1 2027')} and the Q-dance event and ticket FAQ pages linked from it.</li>
-<li>The 2026 cancellation and refund options, FAQ updated 30 June 2026, read on 5 October 2026: the Q-dance update page for Defqon.1 2026.</li>
-<li>2026 travel, parking and shuttle prices, read on 5 October 2026: ${ext('https://www.q-dance.com/l/defqon1-ayntk-2026-travel-to-defqon1', 'Q-dance travel to Defqon.1, 2026')}.</li>
+<li>2027 dates, sales schedule, ticket types, payment methods, opening times, age rule and stages: ${ext('https://www.q-dance.com/l/defqon1-2027', 'Q-dance Defqon.1 2027')} and the Q-dance event and ticket FAQ pages linked from it.</li>
+<li>The 2026 cancellation and refund options: the Q-dance update page for Defqon.1 2026.</li>
+<li>2026 travel, parking and shuttle prices: ${ext('https://www.q-dance.com/l/defqon1-ayntk-2026-travel-to-defqon1', 'Q-dance travel to Defqon.1, 2026')}.</li>
 <li>The cancellation reports: ${ext('https://www.iqmagazine.com/', 'IQ Magazine, 26 June 2026')} and ${ext('https://nltimes.nl/', 'NL Times, 1 July 2026')}.</li>
 <li>History: Hardstyle Mag and ${ext('https://www.edm-lab.com/en/events/defqon-1-2022/', 'EDM Lab, 2022')}. Defqon.1 Australia: The Music Network, 30 May 2019.</li>
 <li>Secondary source for extra stage colours, not confirmed officially: hardcult.com.</li>

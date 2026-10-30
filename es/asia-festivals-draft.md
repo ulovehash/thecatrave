@@ -2,7 +2,7 @@
 
 ## Respuesta
 
-Los mejores festivales de música electrónica de Asia son Ultra Japan en Tokio, Wonderfruit en Tailandia, S2O Songkran en Bangkok, Sunburn en Bombay, Djakarta Warehouse Project (DWP) en Yakarta y Zamna en Phuket, con Ultra Korea en Seúl como festival cuya próxima fecha se desconoce. Ultra Japan 2027 está confirmado para el 18 y 19 de septiembre en su web oficial. Zamna Phuket figura para enero de 2027, pero la página del evento del organizador da fechas contradictorias, así que confírmalas antes de reservar el viaje. Wonderfruit, S2O, Sunburn y DWP no habían anunciado fechas de 2027, y las ediciones de 2026 de Wonderfruit, Sunburn y DWP aún están por llegar en diciembre.
+Los mejores festivales de música electrónica de Asia son Ultra Japan en Tokio, Wonderfruit en Tailandia, S2O Songkran en Bangkok, Sunburn en Bombay, Djakarta Warehouse Project (DWP) en Yakarta y Zamna en Phuket, con Ultra Korea en Seúl como festival cuya próxima fecha se desconoce. Ultra Japan 2027 está confirmado para el 18 y 19 de septiembre en su web oficial. Zamna Phuket figura para enero de 2027, pero la página del evento del organizador da fechas contradictorias, así que confírmalas antes de reservar el viaje. Wonderfruit, S2O, Sunburn y DWP aún no han anunciado fechas de 2027, y las ediciones de 2026 de Wonderfruit, Sunburn y DWP aún están por llegar en diciembre.
 
 ## Introducción
 
@@ -21,7 +21,7 @@ Las exclusiones se explican cerca del final. Los precios se dan en la moneda loc
 
 ## Los festivales de un vistazo
 
-La tabla es la versión corta, y las secciones de abajo dan el detalle. «Sin anunciar» significa que la web del festival no mostraba ninguna fecha de 2027 el 4 de octubre de 2026.
+La tabla es la versión corta, y las secciones de abajo dan el detalle. «Sin anunciar» significa que el festival aún no ha publicado fecha para 2027.
 
 [Table: glance]
 
@@ -29,7 +29,7 @@ La tabla es la versión corta, y las secciones de abajo dan el detalle. «Sin an
 
 Ultra Japan es la edición de Tokio del festival Ultra, y se celebra en el Odaiba Ultra Park, en Aomi, en el distrito tokiota de Koto. La edición de 2026 se celebró el 19 y 20 de septiembre, con apertura de puertas a las 10:00, música desde las 11:00 y cierre a las 21:00, según la web oficial. El primer cartel anunciado nombraba a Peggy Gou, Alesso, Zedd b2b Knock2, The Martinez Brothers, Yousuke Yukimatsu, Worship y Sara Landry, repartidos en tres escenarios: el Ultra Main Stage, Resistance y el Ultra Park Stage, según Popii Land.
 
-Ultra Japan 2027 es el 18 y 19 de septiembre de 2027. Su página oficial de entradas lista para 2027 entradas de dos días a 27.000 ¥ la general, 15.000 ¥ la U-23 y 43.000 ¥ la PGA en los tramos mostrados. Estos tramos pueden agotarse; comprueba la página oficial de entradas antes de comprar. No se mostraba ningún cartel de 2027 al consultarlo el 5 de octubre de 2026.
+Ultra Japan 2027 es el 18 y 19 de septiembre de 2027. Su página oficial de entradas lista para 2027 entradas de dos días a 27.000 ¥ la general, 15.000 ¥ la U-23 y 43.000 ¥ la PGA en los tramos mostrados. Estos tramos pueden agotarse; comprueba la página oficial de entradas antes de comprar. El cartel de 2027 aún está por llegar.
 
 El evento se celebra de día, de 11:00 a 21:00. No está confirmado que haya camping, así que cuenta con un hotel en Tokio. La [guía de Ultra Music Festival](/ultra-music-festival) (en inglés) trata del original de Miami.
 
@@ -43,7 +43,7 @@ Wonderfruit es el raro de esta lista, y su propia web dice por qué: se describe
 
 La primera tanda de artistas de 2026, según LIKDO, incluía a Tangerine Dream, Nubya Garcia y Faustus entre los directos, a Jane Fitz, Nicolas Lutz y Sweely en The Quarry, y a Gerd Janson en el escenario Forbidden Fruit. La web oficial cita entre sus espacios Ban Bardo, Wonderness, The Quarry y Molam World.
 
-Alojarse en el recinto forma parte del plan. Las opciones oficiales son Boutique Camping, General Camping, Slow Wonder Cabins y hoteles fuera del recinto, y los pases se venden a través de TicketMelon. Las fechas de Wonderfruit 2027 no estaban anunciadas el 4 de octubre de 2026.
+Alojarse en el recinto forma parte del plan. Las opciones oficiales son Boutique Camping, General Camping, Slow Wonder Cabins y hoteles fuera del recinto, y los pases se venden a través de TicketMelon. Las fechas de Wonderfruit 2027 aún no están anunciadas.
 
 [Embed: wonderfruit]
 
@@ -55,7 +55,7 @@ La edición de 2026 se celebró del 11 al 13 de abril en S2O Land, en Ratchada R
 
 [Image: s2o]
 
-Cuenta con mojarte todo el día. El resumen aconseja ropa de secado rápido, calzado impermeable y una funda estanca para el móvil. S2O Songkran 2027 no tenía fechas en la web oficial el 4 de octubre de 2026. Los listados de terceros ya muestran fechas, pero ninguno cita al festival, así que no se repiten aquí. La web oficial dice además que la marca ha celebrado ediciones en Australia, Japón, Taiwán, Corea, Hong Kong y Nueva York.
+Cuenta con mojarte todo el día. El resumen aconseja ropa de secado rápido, calzado impermeable y una funda estanca para el móvil. Las fechas de S2O Songkran 2027 aún no están anunciadas. Los listados de terceros ya muestran fechas, pero ninguno cita al festival, así que no se repiten aquí. La web oficial dice además que la marca ha celebrado ediciones en Australia, Japón, Taiwán, Corea, Hong Kong y Nueva York.
 
 ## Sunburn Festival, Bombay
 
@@ -63,7 +63,7 @@ Sunburn empezó en 2007, según su propio anuncio, y Esquire India dice que empe
 
 [Image: sunburn]
 
-Esquire India informó de entradas a 3.500 ₹ por un día y 7.000 ₹ por dos, y nombró a DJ Snake, The Chainsmokers y Sebastian Ingrosso como cabezas de cartel. La página del propio festival no da precios y lista las entradas como vendidas a través de BookMyShow. Esquire dice que la edición de Bombay se celebró en Infinity Bay, en Sewri, antes que en el hipódromo. Sunburn 2027 no estaba anunciado el 4 de octubre de 2026.
+Esquire India informó de entradas a 3.500 ₹ por un día y 7.000 ₹ por dos, y nombró a DJ Snake, The Chainsmokers y Sebastian Ingrosso como cabezas de cartel. La página del propio festival no da precios y lista las entradas como vendidas a través de BookMyShow. Esquire dice que la edición de Bombay se celebró en Infinity Bay, en Sewri, antes que en el hipódromo. Sunburn 2027 aún no está anunciado.
 
 ## Djakarta Warehouse Project, Yakarta
 
@@ -71,7 +71,7 @@ Djakarta Warehouse Project, o DWP, es un festival de tres días en Indonesia. ED
 
 [Image: dwp]
 
-DWP 2026 vuelve a Yakarta, al JIExpo Kemayoran, del 11 al 13 de diciembre. Los primeros nombres anunciados fueron Axwell b2b Sebastian Ingrosso, Afrojack, Alok, Dimitri Vegas, R3HAB, Cosmic Gate, Lilly Palmer y Eli & Fur. La entrada general de tres días empezaba en 1,9 millones de rupias en la web oficial, con entrada anticipada desde 1,7 millones y VIP desde 3,9 millones. EDMTunes añade que DWP subió nueve puestos hasta el n.º 64 del Top 100 Festivals 2026 de DJ Mag. DWP 2027 no estaba anunciado el 4 de octubre de 2026.
+DWP 2026 vuelve a Yakarta, al JIExpo Kemayoran, del 11 al 13 de diciembre. Los primeros nombres anunciados fueron Axwell b2b Sebastian Ingrosso, Afrojack, Alok, Dimitri Vegas, R3HAB, Cosmic Gate, Lilly Palmer y Eli & Fur. La entrada general de tres días empezaba en 1,9 millones de rupias en la web oficial, con entrada anticipada desde 1,7 millones y VIP desde 3,9 millones. EDMTunes añade que DWP subió nueve puestos hasta el n.º 64 del Top 100 Festivals 2026 de DJ Mag. DWP 2027 aún no está anunciado.
 
 ## Ultra Korea, Seúl
 
@@ -87,7 +87,7 @@ Lo que sí se puede escuchar son las fiestas posteriores. MIXMIX TV filmó tres 
 
 Zamna es una marca de festivales que nació en Tulum, México, en 2017, y llegó a Tailandia en 2026. Zamna On The Beach Thailand se celebró el 21 de febrero de 2026 en Club Seen, en Koh Samui, desde las 14:00, para mayores de 18, según la página del evento del festival, con entrada general anticipada a 1.177 baht.
 
-Zamna Phuket figura para enero de 2027, pero la página del evento del organizador se contradice: su campo de fecha dice 29 de enero, mientras que su descripción dice 23 y 24 de enero. La página lista Yeden Gardens, en Phang Nga, entrada desde los 20 años y entradas a través de Ticketmelon. Verifica las fechas en la página de venta antes de reservar el viaje. No se mostraba ningún cartel al consultarlo el 5 de octubre de 2026.
+Zamna Phuket figura para enero de 2027, pero la página del evento del organizador se contradice: su campo de fecha dice 29 de enero, mientras que su descripción dice 23 y 24 de enero. La página lista Yeden Gardens, en Phang Nga, entrada desde los 20 años y entradas a través de Ticketmelon. Verifica las fechas en la página de venta antes de reservar el viaje. El cartel aún está por llegar.
 
 [Embed: owner-second]
 
@@ -117,7 +117,7 @@ Ultra Japan en Tokio, Wonderfruit en Tailandia, S2O Songkran en Bangkok, Sunburn
 
 ### ¿Qué festivales asiáticos tienen fechas de 2027?
 
-Ultra Japan está confirmado para el 18 y 19 de septiembre de 2027 en su web oficial. Zamna Phuket figura para enero de 2027, pero el campo de fecha de su organizador y su descripción no coinciden en los días. Wonderfruit, S2O, Sunburn, DWP y Ultra Korea no tenían fechas de 2027 en sus webs oficiales al consultarlas el 4 de octubre de 2026.
+Ultra Japan está confirmado para el 18 y 19 de septiembre de 2027 en su web oficial. Zamna Phuket figura para enero de 2027, pero el campo de fecha de su organizador y su descripción no coinciden en los días. Wonderfruit, S2O, Sunburn, DWP y Ultra Korea aún no han publicado fechas de 2027.
 
 ### ¿Cuáles son los mejores festivales de música de Tailandia?
 

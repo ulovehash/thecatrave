@@ -104,10 +104,10 @@ const festivals = [
 ];
 
 const smallerFestivals = [
-  ['Garbicz', 'Near Torzym, Poland', 'Not announced (30 July to 3 August in 2026)', 'House, techno, ambient, live acts', 'About 11,000 (2026)', 'Camping', 'Long sets in the woods'],
+  ['Garbicz', 'Near Torzym, Poland', '29 July to 2 August (festival listings, not yet confirmed)', 'House, techno, ambient, live acts', 'About 11,000 (2026)', 'Camping', 'Long sets in the woods'],
   ['NACHTI', 'Olganitz, Germany', '30 July to 1 August', 'Electronic club music and live acts', 'About 3,000 (Nachtdigital years)', 'Bungalows and camping', 'A small, carefully booked weekend'],
   ['Houghton', 'Houghton Hall, Norfolk, England', 'Not announced (August)', 'House, techno, leftfield', 'About 10,000', 'Camping', 'Music around the clock'],
-  ['Draaimolen', 'Tilburg, Netherlands', 'Not announced (early September)', 'Techno, ambient, experimental', 'Not published here', 'City, day festival', 'Techno without the crowds'],
+  ['Draaimolen', 'Tilburg, Netherlands', '10 and 11 September (festival listings)', 'Techno, ambient, experimental', 'Not published here', 'City, day festival', 'Techno without the crowds'],
   ['Waking Life', 'Crato, Portugal', 'Mid-June (not yet on the official site)', 'Electronic, experimental, world', 'Not published here', 'Camping and tipis', 'A solstice week in the countryside'],
   ['Kala', 'Dhërmi, Albania', '2 to 9 June', 'Dance music, DJs and live acts', 'Not published here', 'Hotel included', 'A beach week'],
   ['Freerotation', 'Clyro, Wales', 'Not announced (July)', 'Deep house, techno', 'Not published here', 'Members only', 'If someone invites you']
@@ -210,7 +210,7 @@ const tocItems = [
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
-const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: Monegros on 31 July in the Spanish desert, or the themed city of Boomtown. For smaller, more underground weekends: Garbicz in Poland, NACHTI in Germany, Houghton in England, Waking Life in Portugal and Kala in Albania. Tomorrowland and Dekmantel had not announced 2027 dates when this page was checked.';
+const answer = 'The best electronic music festivals in Europe for 2027 depend on what you want to hear. For big-stage EDM: Tomorrowland in Belgium, Untold in Romania, Parookaville in Germany, Creamfields in England, Ultra Europe in Croatia and Mysteryland in the Netherlands. For hardstyle: Defqon.1. For techno and house: Awakenings, Dekmantel, Time Warp, Kappa FuturFestival and Sónar. For something stranger: Monegros on 31 July in the Spanish desert, or the themed city of Boomtown. For smaller, more underground weekends: Garbicz in Poland, NACHTI in Germany, Houghton in England, Waking Life in Portugal and Kala in Albania. Tomorrowland and Dekmantel have not announced 2027 dates yet.';
 
 const articleHtml = [
   articleHero({
@@ -236,7 +236,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'European electronic music festivals FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>2027 dates, read on each festival's official site on 22 September 2026: <a href="https://www.defqon1.com/" target="_blank" rel="noopener noreferrer">Defqon.1</a>, <a href="https://www.awakenings.com/en/" target="_blank" rel="noopener noreferrer">Awakenings</a>, <a href="https://www.time-warp.de/" target="_blank" rel="noopener noreferrer">Time Warp</a>, <a href="https://www.kappafuturfestival.it/" target="_blank" rel="noopener noreferrer">Kappa FuturFestival</a>, <a href="https://www.boomtownfair.co.uk/" target="_blank" rel="noopener noreferrer">Boomtown</a>, <a href="https://www.monegrosfestival.com/" target="_blank" rel="noopener noreferrer">Monegros</a>, <a href="https://www.dekmantelfestival.com/" target="_blank" rel="noopener noreferrer">Dekmantel</a>, <a href="https://belgium.tomorrowland.com/" target="_blank" rel="noopener noreferrer">Tomorrowland</a>.</li>
+<li>2027 dates from each festival's official site: <a href="https://www.defqon1.com/" target="_blank" rel="noopener noreferrer">Defqon.1</a>, <a href="https://www.awakenings.com/en/" target="_blank" rel="noopener noreferrer">Awakenings</a>, <a href="https://www.time-warp.de/" target="_blank" rel="noopener noreferrer">Time Warp</a>, <a href="https://www.kappafuturfestival.it/" target="_blank" rel="noopener noreferrer">Kappa FuturFestival</a>, <a href="https://www.boomtownfair.co.uk/" target="_blank" rel="noopener noreferrer">Boomtown</a>, <a href="https://www.monegrosfestival.com/" target="_blank" rel="noopener noreferrer">Monegros</a>, <a href="https://www.dekmantelfestival.com/" target="_blank" rel="noopener noreferrer">Dekmantel</a>, <a href="https://belgium.tomorrowland.com/" target="_blank" rel="noopener noreferrer">Tomorrowland</a>.</li>
 <li>Dates and scale for Untold, Parookaville, Creamfields, Ultra Europe, Mysteryland and Sónar: this site's guide to each festival, linked above, which cites its own sources.</li>
 <li><a href="https://djmag.com/top100festivals" target="_blank" rel="noopener noreferrer">DJ Mag: Top 100 Festivals 2026</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Defqon.1_Festival" target="_blank" rel="noopener noreferrer">Wikipedia: Defqon.1</a>, <a href="https://en.wikipedia.org/wiki/Time_Warp_(festival)" target="_blank" rel="noopener noreferrer">Time Warp</a>, <a href="https://en.wikipedia.org/wiki/Boomtown_(festival)" target="_blank" rel="noopener noreferrer">Boomtown</a></li>

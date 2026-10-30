@@ -62,4 +62,4 @@ Das Duplex weist Sportkleidung ab und erwartet Smart Casual. Bei Karlovy Lázně
 
 ### Ist das Ankali noch geöffnet?
 
-Ja, Stand 2026, auch wenn sein Team im April 2025 erklärte, der Club sei finanziell nicht tragfähig, und einen Notfall-Shop startete, um ihn am Laufen zu halten. Er buchte weiter internationale Techno- und House-Namen bis 2026, doch nichts in seinen öffentlichen Mitteilungen hat die Krise für beendet erklärt.
+Ja, auch wenn sein Team im April 2025 erklärte, der Club sei finanziell nicht tragfähig, und einen Notfall-Shop startete, um ihn am Laufen zu halten. Er buchte weiter internationale Techno- und House-Namen bis 2026, doch nichts in seinen öffentlichen Mitteilungen hat die Krise für beendet erklärt.

@@ -2,7 +2,7 @@
 
 ## Réponse
 
-Le set Boiler Room le plus regardé est celui de Solomun à Tulum en 2015, avec 76 millions de vues. Le plus liké dans les chiffres de septembre 2026 est celui de Fred again.. à Londres en 2022, avec plus de likes que n’importe lequel des 8 206 sets Boiler Room du catalogue de ce site. Notre choix pour le meilleur set Boiler Room de tous les temps est ce même set de Fred again.., devant Sama’ Abdulhadi à Ramallah en 2018 et Carl Cox à Ibiza en 2013. Le classement complet, dix-huit sets, suit, à côté des dix sets les plus regardés tels qu’ils ont été mesurés.
+Le set Boiler Room le plus regardé est celui de Solomun à Tulum en 2015, avec 76 millions de vues. Le plus liké est celui de Fred again.. à Londres en 2022, avec plus de likes que n’importe lequel des 8 206 sets Boiler Room du catalogue de ce site. Notre choix pour le meilleur set Boiler Room de tous les temps est ce même set de Fred again.., devant Sama’ Abdulhadi à Ramallah en 2018 et Carl Cox à Ibiza en 2013. Le classement complet, dix-huit sets, suit, à côté des dix sets les plus regardés tels qu’ils ont été mesurés.
 
 ## Introduction
 
@@ -24,11 +24,11 @@ Certains sets méritent aussi une écoute sans écran. Les quatre-vingt-treize m
 
 [Embed: audio-len-faki]
 
-Les vues et les likes mesurent des actions différentes. Dans les chiffres de septembre 2026, la médiane des likes pour mille vues est d’environ 9 pour les vidéos de 2012 et 2013, contre environ 20 pour celles publiées depuis 2019. Ces écarts ne permettent pas de mesurer l’attachement du public à un set.
+Les vues et les likes mesurent des actions différentes. La médiane des likes pour mille vues est d’environ 9 pour les vidéos de 2012 et 2013, contre environ 20 pour celles publiées depuis 2019. Ces écarts ne permettent pas de mesurer l’attachement du public à un set.
 
 ## Les sets Boiler Room les plus regardés
 
-Voici les meilleurs sets Boiler Room par nombre de vues, comptés d’après les chiffres YouTube du catalogue de ce site en septembre 2026. Boiler Room publie son propre classement de tous les temps sur le même critère, et il concorde avec le nôtre set pour set, à une exception près : il omet le set de Richie Hawtin de 2012 à Amsterdam, qui est ici septième avec 15,58 millions de vues sur la chaîne de Boiler Room elle-même.
+Voici les meilleurs sets Boiler Room par nombre de vues, comptés d’après les chiffres YouTube du catalogue de ce site. Boiler Room publie son propre classement de tous les temps sur le même critère, et il concorde avec le nôtre set pour set, à une exception près : il omet le set de Richie Hawtin de 2012 à Amsterdam, qui est ici septième avec 15,58 millions de vues sur la chaîne de Boiler Room elle-même.
 
 [Table: table-watched]
 
@@ -36,7 +36,7 @@ La moitié des dix a été filmée entre 2012 et 2014, et trois ont été enregi
 
 Solomun à Tulum arrive en tête des vues, tandis que Fred again.. mène pour les likes enregistrés : 766 903, malgré environ 21 millions de vues en moins. Ces chiffres n’expliquent ni comment les spectateurs ont trouvé ces sets, ni pourquoi ils les écoutent.
 
-Les vues et les likes correspondent à un relevé de septembre 2026 portant sur 8 206 enregistrements Boiler Room indexés par [le Selector](/fr/selector). Ce ne sont pas des compteurs en direct. Filtrez le Selector sur Boiler Room pour écouter un set au hasard.
+Les vues et les likes correspondent à un relevé portant sur 8 206 enregistrements Boiler Room indexés par [le Selector](/fr/selector). Ce ne sont pas des compteurs en direct. Filtrez le Selector sur Boiler Room pour écouter un set au hasard.
 
 [Image: selector-shot]
 
@@ -56,7 +56,7 @@ Le set Boiler Room le plus regardé des années 2020, avec 55,25 millions de vue
 
 [Image: photo-fred-again]
 
-Il arrive aussi en tête des likes dans le relevé de septembre 2026. Ses 766 903 likes sont les plus nombreux de tous les sets Boiler Room que nous avons, et à 13,9 likes pour mille vues il devance nettement les deux seuls sets qui ont plus de vues, Solomun à 5,9 et Carl Cox à 5,7. Parmi les disques, un bootleg posant Lil Baby sur « Bby » d’Overmono, et un nouveau morceau de Four Tet.
+Il arrive aussi en tête des likes. Ses 766 903 likes sont les plus nombreux de tous les sets Boiler Room que nous avons, et à 13,9 likes pour mille vues il devance nettement les deux seuls sets qui ont plus de vues, Solomun à 5,9 et Carl Cox à 5,7. Parmi les disques, un bootleg posant Lil Baby sur « Bby » d’Overmono, et un nouveau morceau de Four Tet.
 
 [Embed: yt-fred-again]
 
@@ -214,7 +214,7 @@ Par les likes, le set de Fred again.. à Londres en 2022, avec 766 903, plus que
 
 ### Quel est le set Boiler Room le plus vu ?
 
-Le set de Solomun à Tulum, au Mexique, enregistré le 14 janvier 2015, avec 76,19 millions de vues sur YouTube en septembre 2026. Le set de Carl Cox dans la villa d’Ibiza de 2013 est deuxième avec 74,26 millions, et Fred again.. à Londres troisième avec 55,25 millions. Le set de Tokyo de ¥ØU$UK€ ¥UK1MAT$U est parfois présenté comme le plus vu. Il est cinquième, avec 20,39 millions.
+Le set de Solomun à Tulum, au Mexique, enregistré le 14 janvier 2015, avec 76,19 millions de vues sur YouTube. Le set de Carl Cox dans la villa d’Ibiza de 2013 est deuxième avec 74,26 millions, et Fred again.. à Londres troisième avec 55,25 millions. Le set de Tokyo de ¥ØU$UK€ ¥UK1MAT$U est parfois présenté comme le plus vu. Il est cinquième, avec 20,39 millions.
 
 ### Où Charli XCX a-t-elle joué son set Boiler Room ?
 

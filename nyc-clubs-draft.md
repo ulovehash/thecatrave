@@ -90,7 +90,7 @@ Good Room and Gabriela lean towards house and disco too, and Public Records mixe
 
 Ask the city's own rave forum where to hear soulful, old-school house, though, and the top answer is that "NYC is more party than venue based": follow the parties, not the rooms. Two come up by name. Soul Summit is a DJ collective for soulful house whose summer festival in Fort Greene Park is free and open to anyone. 718 Sessions is Danny Krivit's party, the Body & Soul co-founder's own night: in 2026 its summer outdoor party was at the Knockdown Center, and it returns to Good Room on 11 October.
 
-New York also has an online radio station that broadcasts from a shipping container in Williamsburg. The Lot Radio streams live DJ sets, and 9,998 of the sets in this site's catalogue of recorded DJ sets come from it, more than from any other broadcaster, as of September 2026. Many of the DJs who play the clubs above play there too. Louie Vega's set is one of its most watched.
+New York also has an online radio station that broadcasts from a shipping container in Williamsburg. The Lot Radio streams live DJ sets, and nearly 10,000 of the sets in this site's catalogue of recorded DJ sets come from it, more than from any other broadcaster. Many of the DJs who play the clubs above play there too. Louie Vega's set is one of its most watched.
 
 [Embed: Louie Vega Lot Radio]
 

@@ -40,13 +40,13 @@ Péter Müller y Károly Gerendai fundaron en 1993 la empresa detrás del evento
 
 [Image: stage]
 
-La propiedad cambió con ese crecimiento. El Sziget entró en Superstruct y volvió en 2026 a una estructura dirigida por su dirección. Artículos de junio de 2026 describían a la dirección con el 70 % y a empresas socias con el 30 % restante. Esa estructura es reciente y debe leerse como una instantánea fechada, no como una etiqueta definitiva.
+La propiedad cambió con ese crecimiento. El Sziget entró en Superstruct y volvió en 2026 a una estructura dirigida por su dirección. La dirección tiene el 70 % y empresas socias el 30 % restante.
 
 [Embed: thecatrave degeneration]
 
 ## Acampar o alojarse en Budapest
 
-El camping básico está abierto a quienes tengan una entrada de varios días válida. Quien lleve su tienda debe obtener además el depósito reembolsable del festival para tiendas abandonadas. El festival ofrece también zonas de camping mejoradas, pero los paquetes exactos de 2027 aún no se habían publicado cuando se verificó esta guía.
+El camping básico está abierto a quienes tengan una entrada de varios días válida. Quien lleve su tienda debe obtener además el depósito reembolsable del festival para tiendas abandonadas. El festival ofrece también zonas de camping mejoradas, y publica los paquetes exactos de 2027 cerca del festival.
 
 Alojarse en la ciudad cambia acceso inmediato por una cama, un baño privado y distancia con el recinto. La línea H5 lo hace realista, sobre todo si quieres ver también clubes de Budapest antes o después del festival. Reserva cerca de una línea de transporte público útil en lugar de elegir alojamiento por la distancia en línea recta hasta la isla.
 

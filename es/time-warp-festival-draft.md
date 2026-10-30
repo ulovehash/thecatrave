@@ -2,7 +2,7 @@
 
 ## Respuesta
 
-Time Warp es un festival de house y techno nacido en 1994, y su próxima edición en Mannheim es el sábado 3 de abril de 2027 en el Maimarkthalle, de 19:00 a 14:00. La web oficial la presenta como la única edición alemana de 2027. El 4 de octubre de 2026 las entradas estaban a la venta a precios previos al cartel de 79 € el Blue Pass, 169 € el Silver Pass y 229 € el Gold Pass, con gastos de gestión incluidos, y la entrada es para mayores de 18 años. Ese día no se había anunciado ningún artista para Mannheim. Fuera de Alemania, la web oficial lista Time Warp Mexico y Time Warp New York el 20 y 21 de noviembre de 2026 y Time Warp Los Angeles el 27 y 28 de noviembre de 2026. La edición de Time Warp Spain prevista en Madrid para el 18 y 19 de septiembre de 2026 se canceló.
+Time Warp es un festival de house y techno nacido en 1994, y su próxima edición en Mannheim es el sábado 3 de abril de 2027 en el Maimarkthalle, de 19:00 a 14:00. La web oficial la presenta como la única edición alemana de 2027. Las entradas están a la venta a precios previos al cartel de 79 € el Blue Pass, 169 € el Silver Pass y 229 € el Gold Pass, con gastos de gestión incluidos, y la entrada es para mayores de 18 años. Aún no hay artistas anunciados para Mannheim. Fuera de Alemania, 2026 termina con Time Warp Mexico y Time Warp New York el 20 y 21 de noviembre y Time Warp Los Angeles el 27 y 28 de noviembre. La edición de Time Warp Spain prevista en Madrid para el 18 y 19 de septiembre de 2026 se canceló.
 
 ## Introducción
 
@@ -26,7 +26,7 @@ Para conocer la música en sí, mira la [guía de techno](/es/techno). Para un f
 
 Time Warp Mannheim 2027 es el sábado 3 de abril de 2027, de 19:00 a 14:00, es decir, 19 horas y un final el domingo por la tarde. La web oficial da esta fecha, y su página de Mannheim la llama la única edición alemana de 2027, así que no hay que esperar una fecha de Mannheim en otoño. En 2025 sí hubo una: Time Warp Autumn, el 7 y 8 de noviembre de 2025, anunciada como «Two Days | Two Stages».
 
-Las fechas de Time Warp en el extranjero se detienen en 2026. El 4 de octubre de 2026 la web oficial no listaba ninguna fecha de 2027 para México, Nueva York, Los Ángeles ni Brasil, y tampoco para Madrid, así que una fecha de 2027 para esas ediciones está todavía por anunciar.
+Las fechas de Time Warp en el extranjero se detienen en 2026. La web oficial aún no lista ninguna fecha de 2027 para México, Nueva York, Los Ángeles, Brasil ni Madrid.
 
 ## ¿Dónde se celebra Time Warp en Mannheim?
 
@@ -56,11 +56,11 @@ El nombre Time Warp también aparece como escenario en otros festivales. La hist
 
 Sí. Time Warp Spain, prevista para el 18 y 19 de septiembre de 2026 en el Pabellón 12 de IFEMA Madrid, se canceló. Según el comunicado oficial del festival, la causa fueron cambios continuos y dificultades operativas desde mayo, ligadas a las exigencias de desmontar la infraestructura de un tercero en el recinto dentro de un acuerdo de exclusividad existente, que impidieron celebrar el evento en las condiciones acordadas. 
 
-El comunicado dice que todos los titulares de entradas recibirían un reembolso completo en un plazo máximo de 15 días por los canales oficiales de venta, y que el festival trabajaba en una nueva fecha para Time Warp Spain. El 10 de octubre de 2026 la web oficial no listaba ninguna fecha nueva en Madrid. Era la tercera edición en España: las dos anteriores se habían celebrado en octubre de 2024 y octubre de 2025.
+El comunicado dice que todos los titulares de entradas recibirían un reembolso completo en un plazo máximo de 15 días por los canales oficiales de venta, y que el festival trabajaba en una nueva fecha para Time Warp Spain. La web oficial no lista ninguna fecha nueva en Madrid. Era la tercera edición en España: las dos anteriores se habían celebrado en octubre de 2024 y octubre de 2025.
 
 ## ¿Cómo funcionan las entradas de Time Warp?
 
-Las entradas de Time Warp para Mannheim se venden por la tienda de entradas del propio festival, tickets.time-warp.de, y son entradas para imprimir en casa o para el móvil. El 4 de octubre de 2026 la tienda mostraba tres pases, cada uno marcado «Pre-lineup price» con los gastos de gestión incluidos:
+Las entradas de Time Warp para Mannheim se venden por la tienda de entradas del propio festival, tickets.time-warp.de, y son entradas para imprimir en casa o para el móvil. La tienda tiene tres pases, cada uno marcado «Pre-lineup price» con los gastos de gestión incluidos:
 
 - **Blue Pass, llamado Experience:** 79,00 €, con 6,50 € de gastos de gestión.
 - **Silver Pass, llamado Comfort:** 169,00 €, con 15,00 € de gastos de gestión.
@@ -79,7 +79,7 @@ Guía práctica con precios, rutas y normas de acceso.
 
 ## ¿Quién toca en Time Warp?
 
-El 4 de octubre de 2026 no se había anunciado ningún artista para Mannheim 2027. La página oficial promete «a powerful lineup of international pioneers and underground mainstays» sin nombrar a nadie, y la tienda marca cada pase como «Pre-lineup price», así que vuelve a consultar la tienda cuando se publique el cartel de Time Warp. Esta página se actualiza cuando el festival lo anuncie.
+Aún no hay artistas anunciados para Mannheim 2027. La página oficial promete «a powerful lineup of international pioneers and underground mainstays» sin nombrar a nadie, y la tienda marca cada pase como «Pre-lineup price», así que vuelve a consultar la tienda cuando se publique el cartel de Time Warp.
 
 Para hacerte una idea de cómo suena Mannheim, la propia página del festival tiene vídeos resumen de la edición de marzo de 2026. Los dos que aparecen son Sara Landry y Nina Kraviz. Esa edición, del 21 de marzo de 2026, es la fecha de Mannheim más reciente de la historia oficial.
 
@@ -115,7 +115,7 @@ La edición de Mannheim es en el Maimarkthalle, Xaver-Fuhr-Straße 101, 68163 Ma
 
 ### ¿Cuánto cuestan las entradas de Time Warp?
 
-El 4 de octubre de 2026 la tienda de Mannheim mostraba tres precios previos al cartel: 79 € el Blue Pass, 169 € el Silver Pass y 229 € el Gold Pass, con los gastos de gestión incluidos.
+La tienda de Mannheim tiene tres precios previos al cartel: 79 € el Blue Pass, 169 € el Silver Pass y 229 € el Gold Pass, con los gastos de gestión incluidos.
 
 ### ¿Se puede pedir el reembolso de una entrada de Time Warp?
 
@@ -123,7 +123,7 @@ No. El festival dice que no puede ofrecer reembolsos, así que compra solo cuand
 
 ### ¿Se ha cancelado Time Warp Madrid 2026?
 
-Sí. Time Warp Spain, prevista para el 18 y 19 de septiembre de 2026 en IFEMA Madrid, se canceló, y el festival dijo que reembolsaría todas las entradas y que trabajaba en una nueva fecha. El 10 de octubre de 2026 no había fecha nueva anunciada.
+Sí. Time Warp Spain, prevista para el 18 y 19 de septiembre de 2026 en IFEMA Madrid, se canceló, y el festival dijo que reembolsaría todas las entradas y que trabajaba en una nueva fecha. No hay fecha nueva anunciada.
 
 ### ¿Cuál es la edad mínima en Time Warp?
 

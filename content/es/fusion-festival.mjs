@@ -101,7 +101,7 @@ export default {
       ['Entrada de domingo', 'Domingo 28 de junio, 08:00 a 16:00'],
       ['Camping libre', 'Martes por la tarde después del festival']
     ]),
-    'Table: status': table('Estado de Fusion Festival 2026, 2027 y 2028', ['Elemento', 'Estado el 5 de octubre de 2026'], [
+    'Table: status': table('Estado de Fusion Festival 2026, 2027 y 2028', ['Elemento', 'Estado'], [
       ['Edición de 2026', '24 al 28 de junio de 2026, entradas agotadas'],
       ['2027', 'Año sin Fusion, sin festival'],
       ['Próxima edición', '28 de junio al 2 de julio de 2028'],
@@ -119,9 +119,9 @@ export default {
   }),
 
   sources: [
-    {html: `Fechas de 2028 y año sin Fusion en 2027, leídas el 5 de octubre de 2026: ${ext('https://tickets.fusion-festival.de/', 'tienda de entradas de Fusion')} (en alemán e inglés).`},
-    {html: `Sorteo, precio de 2026, norma de 18 años, entradas de vehículo, respuesta de la Bundeswehr, boletines de 2026 y preguntas frecuentes oficiales (horarios, escenarios, normas, viaje), leídos el 5 de octubre de 2026: ${ext('https://fusion-festival.de/', 'fusion-festival.de')}, páginas en inglés y archivo de noticias.`},
-    {html: `Datos de la organización (Kulturkosmos Müritz, equipos, elementos de programa): la página oficial del festival en inglés, leída el 5 de octubre de 2026.`},
+    {html: `Fechas de 2028 y año sin Fusion en 2027: ${ext('https://tickets.fusion-festival.de/', 'tienda de entradas de Fusion')} (en alemán e inglés).`},
+    {html: `Sorteo, precio de 2026, norma de 18 años, entradas de vehículo, respuesta de la Bundeswehr, boletines de 2026 y preguntas frecuentes oficiales (horarios, escenarios, normas, viaje): ${ext('https://fusion-festival.de/', 'fusion-festival.de')}, páginas en inglés y archivo de noticias.`},
+    {html: `Datos de la organización (Kulturkosmos Müritz, equipos, elementos de programa): la página oficial del festival en inglés.`},
     {html: `La disputa de seguridad de 2019: ${ext('https://taz.de/Die-Zukunft-des-Musikfestivals/!5595050/', 'taz, 25 de mayo de 2019')} y ${ext('https://www.gmx.ch/magazine/unterhaltung/musik/festivals/fusion-festival-oeffnet-langem-streit-polizei-tore-33805512', 'GMX, 25 de junio de 2019')} (en alemán).`},
     {html: 'Fotografías: Wikimedia Commons, con crédito en cada pie de foto.'}
   ],

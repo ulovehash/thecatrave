@@ -48,8 +48,7 @@ buildFestivalArticle({
       rulesNote:'Camping permits food and drink but prohibits glass. The arena rules are stricter: no brought food or drink, backpacks, cans or rigid bottles. Recheck weather restrictions on gas cartridges and barbecues before departure.',
       links:[
         {label:'Official website',url:'https://airbeat-one.de/en/'},{label:'2027 tickets',url:'https://airbeat-one.de/en/tickets/'},{label:'How to book',url:'https://airbeat-one.de/en/how-to-book/'},{label:'Travel and shuttles',url:'https://airbeat-one.de/en/getting-there/'},{label:'Festival airfield on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Airbeat+One+Festival+Neustadt-Glewe'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own multi-genre mix moves through techno and harder rave material as a personal route from Airbeat One’s stage spread, without standing in for its programme.', 'For a long airfield weekend: my own cross-genre set, with techno in the centre and several faster turns around it.'],

@@ -171,7 +171,7 @@
       "should_have_caught": "nothing exists",
       "fix": {
         "file": "audit-catalogue-numbers.mjs",
-        "contains": "Write ${CATALOGUE_TOKEN} for the live size, or date a measured total"
+        "contains": "Write ${CATALOGUE_TOKEN} for the live size, or round the figure"
       }
     },
     {
@@ -1186,6 +1186,28 @@
       "what": "time-warp-festival says only that Madrid hosted Time Warp Spain in October 2024 and October 2025 and that the official site lists no Madrid date after October 2025. It omits that a third edition was announced for 18 and 19 September 2026 at Hall 12, IFEMA Madrid, and cancelled: the official statement (time-warp.de/page/tw-madrid-2026---official-statement) says all ticket holders get a full refund within 15 days and a new date is being worked on. The Spanish People-also-ask for 'time warp festival' is '¿Se ha cancelado Time Warp Madrid 2026?'. The Spanish page carries it; the English page still does not and needs wording shown to the owner first.",
       "should_have_caught": "the editions section was built from the official event list, which drops cancelled events; the page's own search wording for Madrid was never checked in a live SERP",
       "fix": null
+    },
+    {
+      "id": "dated-checked-stamps-on-live-pages",
+      "found": "2026-10-30",
+      "by": "owner, reading the Europe festivals FAQ",
+      "what": "About 40 live guides print when the author looked, in reader-facing text: 'Last checked 8 October 2026' under the planner, 'read on 5 October 2026' in source lists, 'when this page was last checked, on 6 October 2026' in FAQ answers, and 'not announced on 4 October 2026' in claims. A reader sees that the page is already out of date and cannot tell which claims still hold. Worst on best-electronic-music-festivals-europe, -asia, best-winter-music-festivals, best-edm-festivals-usa, defqon-1, fusion-festival, electric-forest, snowbombing, time-warp, dekmantel.",
+      "should_have_caught": "every festival guide was built to the rule that each date claim carries its read date, and nobody asked how that reads to a visitor seven months later; the stamp was used in place of re-checking",
+      "fix": {
+        "file": "AGENTS.md",
+        "contains": "Never print a check date"
+      }
+    },
+    {
+      "id": "dj-mag-2026-results-missing-from-live-guide",
+      "found": "2026-10-30",
+      "by": "Claude, while removing check dates from /why-dj-mag-top-100-never-changes",
+      "what": "The guide told readers the 2026 poll had not been published, that results were due this autumn, and that three DJs shared the record with five wins. DJ Mag revealed the 2026 list on 6 October: Guetta won a sixth title and Afrojack left the top ten, which also broke the page's 'five DJs in every poll' hook.",
+      "should_have_caught": "nothing tracks a guide built around a recurring annual result; the draft's own note said the 2026 refresh was still to do, and that note sits in a header no build reads.",
+      "fix": {
+        "file": "famous-djs-draft.md",
+        "contains": "his sixth title and a record"
+      }
     }
   ]
 }

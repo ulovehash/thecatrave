@@ -1,8 +1,7 @@
 // A catalogue total quoted on a page has to be the catalogue's size today,
 // unless the sentence dates it. 22 pages said 62,877 for a week after a refresh
 // made it 62,824 (defects.json: catalogue-numbers-unchecked). Prose that states
-// the size writes {{catalogue-sets}} and gets the number from catalogue.mjs; a
-// measurement keeps its typed total only with its date ("as of September 2026").
+// the size writes {{catalogue-sets}} and gets the number from catalogue.mjs.
 //
 // It reads the built pages, not the drafts, so a number typed into a builder, a
 // draft or a translation is caught alike. Counts smaller than the whole (sets
@@ -45,7 +44,7 @@ for (const file of [...files, 'feed.xml']) {
 if (failures.length) {
   console.error(`Catalogue numbers audit failed: the catalogue holds ${catalogueSize} sets.`);
   for (const failure of failures) console.error(`  ${failure}`);
-  console.error(`  Write ${CATALOGUE_TOKEN} for the live size, or date a measured total ("as of September 2026").`);
+  console.error(`  Write ${CATALOGUE_TOKEN} for the live size, or round the figure.`);
   process.exit(1);
 }
 console.log(`Catalogue numbers audit passed: every quoted total is ${catalogueSize} or dated.`);

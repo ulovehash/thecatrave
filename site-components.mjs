@@ -478,7 +478,7 @@ export function festivalPlanningGuide({
   lang = defaultLang, festivalName = 'Festival',
   intro = '', ticketRows = [], ticketNote = '', routes = [], routeNote = '',
   accommodation = {}, spending = {}, packing = [], avoid = [], rulesNote = '',
-  links = [], checked = '', checkedLabel = checked, ticketIntro = '',
+  links = [], ticketIntro = '',
   ticketColumns = [], labels = {}
 } = {}) {
   if (!ticketRows.length || !routes.length || !links.length) {
@@ -489,29 +489,25 @@ export function festivalPlanningGuide({
       budget: 'Budget the whole weekend.', ticket: 'Ticket option', price: 'Price',
       route: 'Choose your route.', stay: 'Where you sleep.', spend: 'Food and drink.',
       pack: 'Pack for the site, not the forecast.', avoid: 'Leave at home or recheck.',
-      links: 'Check before leaving.', linksIntro: 'Use the live sources for prices, timetables, the current map and entry rules.',
-      checked: 'Last checked'
+      links: 'Check before leaving.', linksIntro: 'Use the live sources for prices, timetables, the current map and entry rules.'
     },
     de: {
       budget: 'Das ganze Wochenende kalkulieren.', ticket: 'Ticketoption', price: 'Preis',
       route: 'Die Anreise wählen.', stay: 'Wo du übernachtest.', spend: 'Essen und Getränke.',
       pack: 'Für das Gelände packen, nicht nur für die Wettervorhersage.', avoid: 'Zu Hause lassen oder erneut prüfen.',
-      links: 'Vor der Abreise prüfen.', linksIntro: 'Nutze die aktuellen Quellen für Preise, Fahrpläne, die aktuelle Karte und Einlassregeln.',
-      checked: 'Zuletzt geprüft'
+      links: 'Vor der Abreise prüfen.', linksIntro: 'Nutze die aktuellen Quellen für Preise, Fahrpläne, die aktuelle Karte und Einlassregeln.'
     },
     fr: {
       budget: 'Calculer tout le week-end.', ticket: 'Type de billet', price: 'Prix',
       route: 'Choisir son trajet.', stay: 'Où dormir.', spend: 'Manger et boire.',
       pack: 'Préparer le site, pas seulement la météo.', avoid: 'À laisser chez soi ou à revérifier.',
-      links: 'À vérifier avant de partir.', linksIntro: 'Consultez les sources à jour pour les prix, horaires, le plan actuel et les règles d’entrée.',
-      checked: 'Dernière vérification'
+      links: 'À vérifier avant de partir.', linksIntro: 'Consultez les sources à jour pour les prix, horaires, le plan actuel et les règles d’entrée.'
     },
     es: {
       budget: 'Calcula el fin de semana entero.', ticket: 'Tipo de entrada', price: 'Precio',
       route: 'Elige cómo llegar.', stay: 'Dónde dormir.', spend: 'Comer y beber.',
       pack: 'Prepara la maleta para el recinto, no solo para el tiempo.', avoid: 'Déjalo en casa o vuelve a comprobarlo.',
-      links: 'Comprueba antes de salir.', linksIntro: 'Usa las fuentes actualizadas para precios, horarios, el mapa vigente y las normas de acceso.',
-      checked: 'Última comprobación'
+      links: 'Comprueba antes de salir.', linksIntro: 'Usa las fuentes actualizadas para precios, horarios, el mapa vigente y las normas de acceso.'
     }
   })[lang];
   if (!locale) throw new Error(`festivalPlanningGuide has no ${lang} labels.`);
@@ -530,7 +526,7 @@ export function festivalPlanningGuide({
     <div class="festival-planner-pair"><section class="festival-planner-block" aria-labelledby="festival-stay-title"><h3 id="festival-stay-title">${escapeHtml(copy.stay)}</h3><p>${escapeHtml(accommodation.body || '')}</p>${accommodation.link ? externalLink(accommodation.link) : ''}</section><section class="festival-planner-block" aria-labelledby="festival-spend-title"><h3 id="festival-spend-title">${escapeHtml(copy.spend)}</h3><p>${escapeHtml(spending.body || '')}</p>${spending.items?.length ? `<dl class="festival-spend-list">${spending.items.map(item => `<div><dt>${escapeHtml(item.label)}</dt><dd>${escapeHtml(item.value)}</dd></div>`).join('')}</dl>` : ''}${spending.link ? externalLink(spending.link) : ''}</section></div>
     <div class="festival-packing"><section aria-labelledby="festival-pack-title"><h3 id="festival-pack-title">${escapeHtml(copy.pack)}</h3>${list(packing)}</section><section aria-labelledby="festival-avoid-title"><h3 id="festival-avoid-title">${escapeHtml(copy.avoid)}</h3>${list(avoid)}</section></div>
     ${rulesNote ? `<p class="festival-rules-note">${escapeHtml(rulesNote)}</p>` : ''}
-    <nav class="festival-planner-links" aria-labelledby="festival-links-title"><div><h3 id="festival-links-title">${escapeHtml(copy.links)}</h3><p>${escapeHtml(copy.linksIntro)}</p><div class="festival-link-index">${usefulLinks}</div></div><p class="festival-last-checked"><span>${escapeHtml(copy.checked)}</span><time datetime="${escapeHtml(checked)}">${escapeHtml(checkedLabel)}</time></p></nav>
+    <nav class="festival-planner-links" aria-labelledby="festival-links-title"><div><h3 id="festival-links-title">${escapeHtml(copy.links)}</h3><p>${escapeHtml(copy.linksIntro)}</p><div class="festival-link-index">${usefulLinks}</div></div></nav>
   </div>`;
 }
 
@@ -597,8 +593,7 @@ function localizeClubGuideHtml(html, lang) {
     unlisted: copy.clubRaUnlisted,
     locationLabel: copy.clubLocationLabel,
     eventsLabel: copy.clubEventsLabel,
-    check: copy.clubCheck,
-    checked: copy.clubLinksChecked
+    check: copy.clubCheck
   };
   return html.replace(/(<(?:a|small|span|dt)\b[^>]*data-club-i18n="([a-zA-Z]+)"[^>]*>)(.*?)(<\/(?:a|small|span|dt)>)/g,
     (match, open, key, value, close) => labels[key] ? `${open}${escapeHtml(labels[key])}${close}` : match);

@@ -29,7 +29,7 @@ buildFestivalArticle({
       ticketRows:[
         {label:'EXIT Festival, Novi Sad 2027',note:'No fortress return announced',price:'Not on sale'},
         {label:'EXIT Global Tour',note:'Separate destination events',price:'Sold per event'},
-        {label:'Starlight Festival, Egypt',note:'8–11 October 2026 at Giza',price:'See event link'},
+        {label:'Starlight Festival, Egypt',note:'Separate festival at Giza',price:'See event link'},
         {label:'EXIT2Montenegro',note:'Ulcinj and Budva dates announced for 2026',price:'See event link'}
       ],
       ticketNote:'A historical EXIT Festival article is not a current ticket seller. Follow the official Global Tour page to the named event and verify its year, country and venue before booking anything non-refundable.',
@@ -48,8 +48,7 @@ buildFestivalArticle({
       rulesNote:'Rules must be checked on the selected event page. Age limits, bags, re-entry, water and prohibited items are not safely transferable from the former fortress festival to every new destination.',
       links:[
         {label:'Official EXIT website',url:'https://www.exitfest.org/'},{label:'Global Tour and event tickets',url:'https://www.exitfest.org/global-tour'},{label:'Official EXIT history',url:'https://www.exitfest.org/en/about-us'},{label:'Petrovaradin Fortress on Google Maps (historic venue)',url:'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own multi-genre mix belongs after the fortress history as a personal route through techno, breaks and bass music, not a reconstruction of the Dance Arena.', 'For the current, location-by-location EXIT era: my own set offers one electronic route while each official event keeps its own programme.'],

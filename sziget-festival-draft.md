@@ -40,11 +40,11 @@ Péter Müller and Károly Gerendai founded the company behind the event in 1993
 
 [Image: Stage]
 
-The ownership changed with that growth. Sziget became part of Superstruct, then returned to a management-led structure in 2026. Reporting from June 2026 described management holding 70 per cent and partner businesses holding the remaining 30 per cent. That structure is recent and should be read as a dated snapshot, not a permanent label.
+The ownership changed with that growth. Sziget became part of Superstruct, then returned to a management-led structure in 2026. Management holds 70 per cent and partner businesses the remaining 30 per cent.
 
 ## Camping or staying in Budapest
 
-Basic camping is available to qualifying multi-day ticket holders. Anyone bringing a tent must also obtain the festival's refundable leave-no-tent deposit ticket. The festival offers upgraded camping areas, although the exact 2027 products were not yet published when this guide was checked.
+Basic camping is available to qualifying multi-day ticket holders. Anyone bringing a tent must also obtain the festival's refundable leave-no-tent deposit ticket. The festival offers upgraded camping areas, and publishes the exact 2027 products closer to the festival.
 
 Staying in the city trades immediate access for a bed, a private bathroom and distance from the site. The H5 connection makes that realistic, especially for readers who also want to visit Budapest clubs before or after the festival. Book close to a useful public-transport line rather than choosing accommodation by straight-line distance from the island.
 

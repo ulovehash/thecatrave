@@ -110,7 +110,7 @@ El hard techno es su opuesto: rápido, distorsionado y físico, con el bombo emp
 
 [Embed: Sara Landry Boiler Room]
 
-En el catálogo de sesiones de DJ grabadas que hay detrás del Selector de este sitio, 8.547 sesiones llevan la etiqueta techno a septiembre de 2026, solo por detrás del house entre los géneros con nombre, con 911 etiquetadas como minimal y 788 como hard techno.
+En el catálogo de sesiones de DJ grabadas que hay detrás del Selector de este sitio, unas 8.500 sesiones llevan la etiqueta techno, solo por detrás del house entre los géneros con nombre, con unas 900 etiquetadas como minimal y 788 como hard techno.
 
 ## El techno hoy y Detroit ahora
 

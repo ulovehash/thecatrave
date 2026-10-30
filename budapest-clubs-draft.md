@@ -32,7 +32,7 @@ Boiler Room's first visit to Budapest, in January 2017, happened at Akvárium Kl
 
 [Embed: Imre Kiss]
 
-Lärm, a black-walled, no-photography techno room built behind Fogasház in 2013 and opened in March 2014, spent most of a decade as Budapest's most purist techno address, run on the idea that a room needs nothing but music and a serious sound system. It closed its Akácfa Street home and has said it is moving to a new site near the Danube, without a confirmed reopening date at the time of writing.
+Lärm, a black-walled, no-photography techno room built behind Fogasház in 2013 and opened in March 2014, spent most of a decade as Budapest's most purist techno address, run on the idea that a room needs nothing but music and a serious sound system. It closed its Akácfa Street home and has said it is moving to a new site near the Danube, with no confirmed reopening date.
 
 ## Where to go out in Budapest
 

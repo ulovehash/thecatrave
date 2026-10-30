@@ -39,7 +39,7 @@ for (const [file, canonical] of pages) {
   if (!html.includes('class="festival-planner"')) failures.push(`${file}: missing practical festival planner`);
   if (!html.includes('google.com/maps/')) failures.push(`${file}: missing direct Google Maps route`);
   if (!html.includes('rel="nofollow noopener noreferrer"')) failures.push(`${file}: planning links must be nofollow`);
-  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
+  if (html.includes('class="festival-last-checked"')) failures.push(`${file}: planner prints a check date; live pages state facts, not when they were read`);
 }
 
 for (const file of individualFestivalPages) {
@@ -51,7 +51,7 @@ for (const file of individualFestivalPages) {
   if (count(/class="festival-route-number"/g) < 2) failures.push(`${file}: planner needs at least two specific routes`);
   if (!html.includes('google.com/maps/')) failures.push(`${file}: missing direct Google Maps route`);
   if (!html.includes('rel="nofollow noopener noreferrer"')) failures.push(`${file}: planning links must be nofollow`);
-  if (!html.includes('class="festival-last-checked"')) failures.push(`${file}: missing visible planning check date`);
+  if (html.includes('class="festival-last-checked"')) failures.push(`${file}: planner prints a check date; live pages state facts, not when they were read`);
 }
 
 if (individualFestivalPages.length !== 93) failures.push(`festival inventory: expected 90 individual guide variants, found ${individualFestivalPages.length}`);

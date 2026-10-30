@@ -2,7 +2,7 @@
 
 ## Respuesta
 
-Fusion Festival es un festival de arte y música de cinco días que se celebra en un antiguo aeródromo militar soviético en Lärz, Mecklemburgo-Antepomerania (Alemania), organizado por la asociación sin ánimo de lucro Kulturkosmos Müritz. La edición de 2026 fue del 24 al 28 de junio y agotó las entradas. Según las páginas oficiales leídas el 5 de octubre de 2026, 2027 es un año sin Fusion y la próxima edición es del 28 de junio al 2 de julio de 2028. Las entradas se reparten por sorteo: te registras en un plazo fijado, un sorteo decide quién puede comprar y en 2026 el precio fue de 220 €, con 10 € de fianza por residuos incluidos. Las páginas oficiales no listaban fechas ni precios de entradas para 2028 a esa fecha. La entrada es solo para mayores de 18 años.
+Fusion Festival es un festival de arte y música de cinco días que se celebra en un antiguo aeródromo militar soviético en Lärz, Mecklemburgo-Antepomerania (Alemania), organizado por la asociación sin ánimo de lucro Kulturkosmos Müritz. La edición de 2026 fue del 24 al 28 de junio y agotó las entradas. Según las páginas oficiales, 2027 es un año sin Fusion y la próxima edición es del 28 de junio al 2 de julio de 2028. Las entradas se reparten por sorteo: te registras en un plazo fijado, un sorteo decide quién puede comprar y en 2026 el precio fue de 220 €, con 10 € de fianza por residuos incluidos. Las páginas oficiales no listaban fechas ni precios de entradas para 2028 a esa fecha. La entrada es solo para mayores de 18 años.
 
 ## Introducción
 
@@ -24,7 +24,7 @@ El festival se remonta al verano de 1996, cuando el recinto acogió el U-Site Ga
 
 ## Fusion Festival 2026
 
-La edición de 2026 fue del miércoles 24 al domingo 28 de junio, según las preguntas frecuentes oficiales leídas el 5 de octubre de 2026. Las puertas abrieron el miércoles a las 07:00, el programa del miércoles empezó a las 16:00 y las grandes pistas al aire libre arrancaron el jueves a las 18:00. En los escenarios más ruidosos hay una pausa diaria de 11:00 a 14:00 de viernes a domingo.
+La edición de 2026 fue del miércoles 24 al domingo 28 de junio, según las preguntas frecuentes oficiales. Las puertas abrieron el miércoles a las 07:00, el programa del miércoles empezó a las 16:00 y las grandes pistas al aire libre arrancaron el jueves a las 18:00. En los escenarios más ruidosos hay una pausa diaria de 11:00 a 14:00 de viernes a domingo.
 
 [Table: schedule 2026]
 
@@ -34,9 +34,9 @@ El mismo boletín describía un servicio de análisis de drogas con la Universid
 
 ## Fusion Festival 2027 y 2028
 
-No hay Fusion Festival en 2027. El boletín de noviembre de 2025 de los organizadores llama a 2027 un año sin Fusion, y también un año libre para el festival de teatro hermano at.tension, con motivos como respirar, reflexionar, ordenar y soñar. Hay precedente: 2017 fue un año de descanso tras 20 años de Fusion. La tienda de entradas, leída el 5 de octubre de 2026, indica que la próxima edición es del 28 de junio al 2 de julio de 2028, y que Fusion y at.tension vuelven en 2028.
+No hay Fusion Festival en 2027. El boletín de noviembre de 2025 de los organizadores llama a 2027 un año sin Fusion, y también un año libre para el festival de teatro hermano at.tension, con motivos como respirar, reflexionar, ordenar y soñar. Hay precedente: 2017 fue un año de descanso tras 20 años de Fusion. La tienda de entradas indica que la próxima edición es del 28 de junio al 2 de julio de 2028, y que Fusion y at.tension vuelven en 2028.
 
-Así que la pregunta sobre Fusion Festival 2027 tiene una respuesta clara. Si buscas una fecha de verano de 2027, no existe, y cualquier anuncio que la ofrezca no viene de las páginas de los organizadores leídas aquí. Las fechas de Fusion Festival que conviene anotar son del 28 de junio al 2 de julio de 2028, de miércoles a domingo.
+Así que la pregunta sobre Fusion Festival 2027 tiene una respuesta clara. Si buscas una fecha de verano de 2027, no existe, y cualquier anuncio que la ofrezca no viene de los organizadores. Las fechas de Fusion Festival que conviene anotar son del 28 de junio al 2 de julio de 2028, de miércoles a domingo.
 
 [Table: status]
 
@@ -50,17 +50,17 @@ El proceso de 2026 es la mejor pista de cómo se desarrollará el de 2028, aunqu
 
 [Table: lottery 2026]
 
-La entrada de 2026 costó 220 € con 10 € de fianza por residuos incluidos. Las entradas locales, a 30 € para mayores de 50 años y 60 € para edades de 18 a 50, estaban pensadas para residentes de municipios listados y se vendieron desde las 16:00 del sábado del festival. El precio y el plazo de registro de 2028 no estaban publicados el 5 de octubre de 2026.
+La entrada de 2026 costó 220 € con 10 € de fianza por residuos incluidos. Las entradas locales, a 30 € para mayores de 50 años y 60 € para edades de 18 a 50, estaban pensadas para residentes de municipios listados y se vendieron desde las 16:00 del sábado del festival. El precio y el plazo de registro de 2028 aún no están publicados.
 
 ## Fusion Festival en Lärz y Kulturkosmos
 
 La pregunta sobre Fusion Festival Lärz es sencilla: el festival se celebra en el Müritz Airpark, un antiguo aeródromo militar soviético a las afueras de Lärz, en el distrito de Mecklenburgische Seenplatte, en el noreste de Alemania. Kulturkosmos Lärz, el centro cultural que los organizadores gestionan allí, es propietario del recinto desde hace 25 años según la web oficial y lo usa para la cultura desde hace 30.
 
-Esa propiedad estuvo brevemente en cuestión. El 28 de noviembre de 2025 los organizadores publicaron la respuesta de la Bundeswehr a una consulta de prensa del Tagesspiegel: el recinto de Lärz «por ahora todavía no» estaba en la reserva estratégica de inmuebles que el Ministerio de Defensa había congelado en octubre de 2025. La redacción deja abierto el desenlace, y no encontré un comunicado posterior en las páginas leídas.
+Esa propiedad estuvo brevemente en cuestión. El 28 de noviembre de 2025 los organizadores publicaron la respuesta de la Bundeswehr a una consulta de prensa del Tagesspiegel: el recinto de Lärz «por ahora todavía no» estaba en la reserva estratégica de inmuebles que el Ministerio de Defensa había congelado en octubre de 2025. La redacción deja abierto el desenlace, y no hay un comunicado posterior.
 
 ### Capacidad de Fusion Festival
 
-La capacidad de Fusion Festival se sitúa en unos 70.000 visitantes. La cifra procede del taz en mayo de 2019 y de otros medios, no de un comunicado oficial en las páginas leídas, así que trátala como una cifra de prensa. Los medios dan para la superficie del recinto entre 100 y 220 hectáreas.
+La capacidad de Fusion Festival se sitúa en unos 70.000 visitantes. La cifra procede del taz en mayo de 2019 y de otros medios, no de un comunicado oficial, así que trátala como una cifra de prensa. Los medios dan para la superficie del recinto entre 100 y 220 hectáreas.
 
 ### Escenarios de Fusion Festival
 
@@ -82,7 +82,7 @@ El compromiso de 2019 fue una única comisaría en la entrada, con agentes que p
 
 ## Cartel de Fusion Festival
 
-El cartel de Fusion Festival no se publica como un póster. El programa se anuncia en la guía del festival y en la app desde el inicio del festival, con algo de información en la web desde principios de junio. El programa de 2028 no estaba publicado el 5 de octubre de 2026.
+El cartel de Fusion Festival no se publica como un póster. El programa se anuncia en la guía del festival y en la app desde el inicio del festival, con algo de información en la web desde principios de junio. El programa de 2028 aún no está publicado.
 
 Entre los miles de entradas de la página oficial del programa de 2026 figuran nombres como Acid Pauli, Modeselektor, Apparat, Recondite, Rødhåd, Gerd Janson y Magda.
 
@@ -94,7 +94,7 @@ Aquí no se enlaza ningún set grabado en Fusion, porque la contención del fest
 
 ## Cómo llegar a Fusion Festival
 
-Cómo llegar a Fusion Festival tiene varias respuestas, y las preguntas frecuentes oficiales, leídas el 5 de octubre de 2026, recogen el esquema de 2026. Para Fusion, la gran ciudad más cercana es Berlín y la ruta es el tren a Neustrelitz. El miércoles hubo trenes especiales de Berlin Gesundbrunnen a Neustrelitz a las 10:09 y a las 13:09. Desde Neustrelitz salen autobuses lanzadera desde la Rummelplatz, a cinco minutos de la estación, a 6 € por trayecto. El Brandenburg-Ticket (33 € para cinco personas) y el Deutschlandticket cubren los trenes regionales. La policía federal controla a la gente en la estación de Neustrelitz.
+Cómo llegar a Fusion Festival tiene varias respuestas, y las preguntas frecuentes oficiales recogen el esquema de 2026. Para Fusion, la gran ciudad más cercana es Berlín y la ruta es el tren a Neustrelitz. El miércoles hubo trenes especiales de Berlin Gesundbrunnen a Neustrelitz a las 10:09 y a las 13:09. Desde Neustrelitz salen autobuses lanzadera desde la Rummelplatz, a cinco minutos de la estación, a 6 € por trayecto. El Brandenburg-Ticket (33 € para cinco personas) y el Deutschlandticket cubren los trenes regionales. La policía federal controla a la gente en la estación de Neustrelitz.
 
 [Image: railcar]
 
@@ -116,11 +116,11 @@ Un festival de arte y música de cinco días en un antiguo aeródromo militar so
 
 ### ¿Hay Fusion Festival en 2027?
 
-No. Los organizadores llaman a 2027 un año sin Fusion. La próxima edición es del 28 de junio al 2 de julio de 2028, según la tienda de entradas leída el 5 de octubre de 2026.
+No. Los organizadores llaman a 2027 un año sin Fusion. La próxima edición es del 28 de junio al 2 de julio de 2028, según la tienda de entradas.
 
 ### ¿Cuándo es Fusion Festival 2028?
 
-Del 28 de junio al 2 de julio de 2028. No se publicaron fechas de entradas ni precios de 2028 en las páginas leídas.
+Del 28 de junio al 2 de julio de 2028. Las fechas de entradas y los precios de 2028 aún no están publicados.
 
 ### ¿Cómo funcionan las entradas de Fusion Festival?
 
@@ -132,7 +132,7 @@ Por registro y sorteo. En 2026 el registro fue del 1 al 14 de diciembre de 2025,
 
 ### ¿Qué tamaño tiene Fusion Festival?
 
-Los medios dan unos 70.000 visitantes. Las páginas propias de los organizadores leídas no indican una cifra y los medios no coinciden en la superficie del recinto, así que no se da ninguna.
+Los medios dan unos 70.000 visitantes. Los organizadores no indican una cifra y los medios no coinciden en la superficie del recinto, así que no se da ninguna.
 
 ### ¿Dónde se celebra Fusion Festival?
 

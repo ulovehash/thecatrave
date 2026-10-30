@@ -37,7 +37,7 @@ The top club in the world on DJ Mag's 2026 list is [UNVRS], which is also the to
 | 46 | Warung Beach Club | Itajaí, Brazil | 2,500 |
 | 88 | WOMB | Tokyo | 1,000 |
 
-Two caveats. DJ Mag ranks clubs on a public vote, so the top of the list favours big rooms with big fan bases, and a small club with a perfect sound system can sit far below a beach complex. And the list leaves out thousands of good clubs. DJ Mag's list of the top 100 nightclubs in the world is not the only one. The INA, the International Nightlife Association, runs a rival list, The World's 100 Best Clubs, in which a jury accounts for half the final score. Its 2026 voting is open until 2 November and the jury phase runs from 1 October to 15 November, so the 2026 list had not been published on 6 October 2026. The INA counted 646 nominated venues from 76 countries, led by Spain with 88 and the USA with 87.
+Two caveats. DJ Mag ranks clubs on a public vote, so the top of the list favours big rooms with big fan bases, and a small club with a perfect sound system can sit far below a beach complex. And the list leaves out thousands of good clubs. DJ Mag's list of the top 100 nightclubs in the world is not the only one. The INA, the International Nightlife Association, runs a rival list, The World's 100 Best Clubs, in which a jury accounts for half the final score. Its 2026 list follows the public vote and a jury phase that ends on 15 November. The INA counted 646 nominated venues from 76 countries, led by Spain with 88 and the USA with 87.
 
 ## Best dance clubs in the world, by region
 
@@ -171,4 +171,4 @@ DJ Mag has no techno category. Berghain, Illuzion Phuket's Shelter room and WOMB
 
 ### Is there an official top 100 clubs in the world list?
 
-There are two. DJ Mag's Top 100 Clubs is a public vote published each spring. The INA's The World's 100 Best Clubs combines a public vote with a jury that accounts for 50% of the score, and its 2026 list had not been published on 6 October 2026.
+There are two. DJ Mag's Top 100 Clubs is a public vote published each spring. The INA's The World's 100 Best Clubs combines a public vote with a jury that accounts for 50% of the score, and its 2026 list follows the jury phase, which ends on 15 November.

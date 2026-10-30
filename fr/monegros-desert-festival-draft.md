@@ -14,7 +14,7 @@ Monegros 2027 est prévu le samedi 31 juillet. Le festival a lancé sa campagne 
 
 [Table: Faits]
 
-L’adresse officielle est N-II, kilomètre 416, 22520 Fraga, Huesca. Les horaires exacts de 2027, les trajets, les règles d’âge et les moyens de paiement devront être revérifiés quand la FAQ propre à l’édition paraîtra.
+L’adresse officielle est N-II, kilomètre 416, 22520 Fraga, Huesca. Les horaires exacts de 2027, les trajets, les règles d’âge et les moyens de paiement figureront dans la FAQ propre à l’édition quand elle paraîtra.
 
 ## Ce qu’est Monegros
 
@@ -68,7 +68,7 @@ Il se tient sur la N-II, au kilomètre 416, près de Fraga, dans la province de 
 
 ### Combien de temps dure Monegros ?
 
-L’édition 2026 a duré 22 heures, du samedi après-midi au dimanche midi. Le festival n’avait pas encore confirmé les horaires de 2027 quand ce guide a été vérifié.
+L’édition 2026 a duré 22 heures, du samedi après-midi au dimanche midi. Le festival n’a pas encore confirmé les horaires de 2027.
 
 ### Quelle musique joue-t-on à Monegros ?
 

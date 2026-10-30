@@ -96,7 +96,7 @@ The list above is held to a readers' poll, which favours festivals with big audi
 
 ### Garbicz, Poland
 
-Garbicz is held in an old forest beside a lake in western Poland, about ninety minutes from Berlin, and it feels like a Berlin party that moved to the countryside, which is roughly what it is. It was started in 2013 by people from Bar25, Holzmarkt and the Bachstelzen collective, and grew from about 900 people in its first year to around 11,000, according to its founder Juval Dieziger in 2026. Stages are run by different collectives and play through the night into the morning, and everyone camps. The 2026 edition ran from 30 July to 3 August; the 2027 dates have not been announced, and the next ticket phase opens on 25 September 2026. It suits people who want long sets in the woods more than big names.
+Garbicz is held in an old forest beside a lake in western Poland, about ninety minutes from Berlin, and it feels like a Berlin party that moved to the countryside, which is roughly what it is. It was started in 2013 by people from Bar25, Holzmarkt and the Bachstelzen collective, and grew from about 900 people in its first year to around 11,000, according to its founder Juval Dieziger in 2026. Stages are run by different collectives and play through the night into the morning, and everyone camps. The 2026 edition ran from 30 July to 3 August; festival listings give 29 July to 2 August for 2027, which Garbicz has not yet confirmed itself. It suits people who want long sets in the woods more than big names.
 
 ### NACHTI, Germany
 
@@ -108,11 +108,11 @@ Houghton is held in the grounds of Houghton Hall, a country house in Norfolk, an
 
 ### Draaimolen, Netherlands
 
-Draaimolen, in Tilburg, is two days of techno, ambient and experimental club music with unusual care over sound and staging. It is a day festival: in 2026 it ran from midday to half past midnight on 4 and 5 September, at the MOB-complex, and sold out. The 2027 dates have not been announced. It suits techno listeners who find the big Dutch festivals too big, and it is one of the last festivals of the season.
+Draaimolen, in Tilburg, is two days of techno, ambient and experimental club music with unusual care over sound and staging. It is a day festival: in 2026 it ran from midday to half past midnight on 4 and 5 September, at the MOB-complex, and sold out. Festival listings give 10 and 11 September 2027 for the next edition, at the same site. It suits techno listeners who find the big Dutch festivals too big, and it is one of the last festivals of the season.
 
 ### Waking Life, Portugal
 
-Waking Life is a gathering of about six days around the summer solstice in the Alentejo countryside near Crato, run by a non-profit association, with camping and tipis on site. The programme mixes electronic producers with experimental and world music, and in 2025 it ran from 18 to 23 June. Festival listings give mid-June 2027 for the next edition, but the dates could not be confirmed on the festival's own site when this page was checked.
+Waking Life is a gathering of about six days around the summer solstice in the Alentejo countryside near Crato, run by a non-profit association, with camping and tipis on site. The programme mixes electronic producers with experimental and world music, and in 2025 it ran from 18 to 23 June. Festival listings give mid-June 2027 for the next edition, but the festival's own site has not confirmed them.
 
 ### Kala, Albania
 
@@ -127,7 +127,7 @@ One more belongs here, with a warning: Fusion, the countercultural festival on a
 ## Not on this list, and why
 
 - **Primavera Sound and Glastonbury** book plenty of electronic music but are multi-genre festivals, so they fail the first test. This site has guides to both: [Primavera Sound](/primavera-sound-barcelona) and [Glastonbury](/glastonbury-festival).
-- **EXIT** left the Petrovaradin Fortress in Serbia after its 2025 edition, citing pressure from the Serbian authorities, and held its 2026 edition in Ulcinj, Montenegro. Its 2027 home had not been confirmed when this page was checked.
+- **EXIT** left the Petrovaradin Fortress in Serbia after its 2025 edition, citing pressure from the Serbian authorities, and held its 2026 edition in Ulcinj, Montenegro. Its 2027 home is not confirmed.
 - [**Sziget**](/sziget-festival) in Budapest is one of Europe's largest festivals but is built around pop and rock headliners; the separate guide covers its current prices, H5 route and camping.
 - **Fusion** in Germany is taking 2027 off; it is described with the smaller festivals above.
 - **Amsterdam Dance Event** in October is a conference and hundreds of club nights across a city rather than one festival site.
@@ -165,11 +165,11 @@ Outside the festival season, electronic music in Europe lives in clubs, above al
 
 ### Which techno festivals in Europe have confirmed 2027 dates?
 
-Time Warp (3 April, Mannheim), Sónar (17 to 19 June, Barcelona), Kappa FuturFestival (2 to 4 July, Turin) and Awakenings (9 to 11 July, Hilvarenbeek) have confirmed 2027 dates. Two mixed-genre festivals that book a lot of techno have confirmed too: Monegros on 31 July in Aragón and Mysteryland on 27 to 29 August near Amsterdam. Dekmantel, Draaimolen, Houghton and Freerotation had not announced dates when this page was last checked, on 6 October 2026.
+Time Warp (3 April, Mannheim), Sónar (17 to 19 June, Barcelona), Kappa FuturFestival (2 to 4 July, Turin) and Awakenings (9 to 11 July, Hilvarenbeek) have confirmed 2027 dates. Two mixed-genre festivals that book a lot of techno have confirmed too: Monegros on 31 July in Aragón and Mysteryland on 27 to 29 August near Amsterdam. Draaimolen is listed for 10 and 11 September. Dekmantel, Houghton and Freerotation have not announced dates yet.
 
 ### When are 2027 festival dates announced?
 
-Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland and Dekmantel had not announced 2027 dates when this page was last checked, on 6 October 2026, and nor had Garbicz, Houghton, Draaimolen or Freerotation. Monegros had confirmed 31 July. The table above is updated as announcements arrive.
+Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland usually announces in December, and Dekmantel, Houghton and Freerotation have not announced 2027 dates yet. Monegros has confirmed 31 July.
 
 ### Which European electronic music festivals have camping?
 

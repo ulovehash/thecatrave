@@ -2,7 +2,7 @@
 
 ## Antwort
 
-Das meistgesehene Boiler-Room-Set ist das von Solomun in Tulum 2015, mit 76 Millionen Aufrufen. Das im September 2026 meistgelikte ist das von Fred again.. in London 2022, mit mehr Likes als jedes andere der 8.206 Boiler-Room-Sets im Katalog dieser Seite. Unsere Wahl für das beste Boiler-Room-Set aller Zeiten ist genau dieses Set von Fred again.., vor Sama’ Abdulhadi in Ramallah 2018 und Carl Cox auf Ibiza 2013. Die komplette Rangliste mit achtzehn Sets folgt, neben den zehn meistgesehenen Sets, wie sie gemessen wurden.
+Das meistgesehene Boiler-Room-Set ist das von Solomun in Tulum 2015, mit 76 Millionen Aufrufen. Das meistgelikte ist das von Fred again.. in London 2022, mit mehr Likes als jedes andere der 8.206 Boiler-Room-Sets im Katalog dieser Seite. Unsere Wahl für das beste Boiler-Room-Set aller Zeiten ist genau dieses Set von Fred again.., vor Sama’ Abdulhadi in Ramallah 2018 und Carl Cox auf Ibiza 2013. Die komplette Rangliste mit achtzehn Sets folgt, neben den zehn meistgesehenen Sets, wie sie gemessen wurden.
 
 ## Einleitung
 
@@ -24,11 +24,11 @@ Manche Sets lohnen sich auch bei ausgeschaltetem Bildschirm. Len Fakis dreiundne
 
 [Embed: audio-len-faki]
 
-Aufrufe und Likes messen unterschiedliche Handlungen. In den Zahlen vom September 2026 liegt der Median der Likes pro tausend Aufrufe bei etwa 9 für Uploads von 2012 und 2013 und bei etwa 20 für Uploads ab 2019. Diese Unterschiede erklären nicht, wie viel einem Publikum ein Set bedeutet.
+Aufrufe und Likes messen unterschiedliche Handlungen. Der Median der Likes pro tausend Aufrufe bei etwa 9 für Uploads von 2012 und 2013 und bei etwa 20 für Uploads ab 2019. Diese Unterschiede erklären nicht, wie viel einem Publikum ein Set bedeutet.
 
 ## Die meistgesehenen Boiler-Room-Sets
 
-Das sind die Top-Boiler-Room-Sets nach Aufrufen, gezählt aus den YouTube-Zahlen im Katalog dieser Seite im September 2026. Boiler Room veröffentlicht eine eigene Bestenliste aller Zeiten mit demselben Kriterium, und sie stimmt mit unserer Set für Set überein, bis auf eine Ausnahme: Sie lässt Richie Hawtins Set von 2012 in Amsterdam weg, das hier mit 15,58 Millionen Aufrufen auf Boiler Rooms eigenem Kanal auf Platz sieben steht.
+Das sind die Top-Boiler-Room-Sets nach Aufrufen, gezählt aus den YouTube-Zahlen im Katalog dieser Seite. Boiler Room veröffentlicht eine eigene Bestenliste aller Zeiten mit demselben Kriterium, und sie stimmt mit unserer Set für Set überein, bis auf eine Ausnahme: Sie lässt Richie Hawtins Set von 2012 in Amsterdam weg, das hier mit 15,58 Millionen Aufrufen auf Boiler Rooms eigenem Kanal auf Platz sieben steht.
 
 [Table: table-watched]
 
@@ -36,7 +36,7 @@ Die Hälfte der zehn wurde zwischen 2012 und 2014 gefilmt, und drei davon wurden
 
 Solomuns Set in Tulum führt nach Aufrufen, Fred again.. nach erfassten Likes: 766.903 bei rund 21 Millionen weniger Aufrufen. Die Zahlen erklären weder, wie die Zuschauer die Sets gefunden haben, noch warum sie sie abspielen.
 
-Die Aufruf- und Like-Zahlen sind eine Momentaufnahme vom September 2026 aus 8.206 Boiler-Room-Aufnahmen im [Selector](/de/selector), keine Live-Zähler. Filtere den Selector nach Boiler Room, um ein Set zufällig auszuwählen.
+Die Aufruf- und Like-Zahlen stammen aus 8.206 Boiler-Room-Aufnahmen im [Selector](/de/selector). Filtere den Selector nach Boiler Room, um ein Set zufällig auszuwählen.
 
 [Image: selector-shot]
 
@@ -56,7 +56,7 @@ Das meistgesehene Boiler-Room-Set der 2020er, mit 55,25 Millionen Aufrufen. Fred
 
 [Image: photo-fred-again]
 
-Auch bei den Likes führt es die Momentaufnahme vom September 2026 an. Seine 766.903 Likes sind die meisten aller Boiler-Room-Sets, die wir haben, und mit 13,9 Likes pro tausend Aufrufe liegt es deutlich vor den einzigen beiden Sets mit mehr Aufrufen, Solomun mit 5,9 und Carl Cox mit 5,7. Unter den Platten sind ein Bootleg, das Lil Baby über Overmonos „Bby“ legt, und ein neuer Track von Four Tet.
+Auch bei den Likes führt es. Seine 766.903 Likes sind die meisten aller Boiler-Room-Sets, die wir haben, und mit 13,9 Likes pro tausend Aufrufe liegt es deutlich vor den einzigen beiden Sets mit mehr Aufrufen, Solomun mit 5,9 und Carl Cox mit 5,7. Unter den Platten sind ein Bootleg, das Lil Baby über Overmonos „Bby“ legt, und ein neuer Track von Four Tet.
 
 [Embed: yt-fred-again]
 
@@ -214,7 +214,7 @@ Nach Likes das Set von Fred again.. in London 2022, mit 766.903, mehr als jedes 
 
 ### Was ist das meistgesehene Boiler-Room-Set?
 
-Solomuns Set in Tulum, Mexiko, aufgenommen am 14. Januar 2015, mit 76,19 Millionen Aufrufen auf YouTube im September 2026. Carl Cox’ Villa-Set auf Ibiza von 2013 ist mit 74,26 Millionen Zweiter, und Fred again.. in London mit 55,25 Millionen Dritter. Das Tokio-Set von ¥ØU$UK€ ¥UK1MAT$U wird manchmal das meistgesehene genannt. Es ist Fünfter, mit 20,39 Millionen.
+Solomuns Set in Tulum, Mexiko, aufgenommen am 14. Januar 2015, mit 76,19 Millionen Aufrufen auf YouTube. Carl Cox’ Villa-Set auf Ibiza von 2013 ist mit 74,26 Millionen Zweiter, und Fred again.. in London mit 55,25 Millionen Dritter. Das Tokio-Set von ¥ØU$UK€ ¥UK1MAT$U wird manchmal das meistgesehene genannt. Es ist Fünfter, mit 20,39 Millionen.
 
 ### Wo hat Charli XCX ihr Boiler-Room-Set gespielt?
 

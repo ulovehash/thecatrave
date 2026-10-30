@@ -2,7 +2,7 @@
 
 ## Réponse
 
-Les meilleurs festivals de musique électronique d’hiver en 2027 sont Tomorrowland Winter et Snowbombing dans les Alpes, Igloofest sur un quai de Montréal, Snow Machine au Japon et, pour qui préfère quelque chose de plus calme, CTM à Berlin, Elevate à Graz, Shapes à Leysin et Caprices à Gstaad. Les dates vont de Rise, aux 2 Alpes, du 5 au 12 décembre 2026, à Snowbombing, du 5 au 10 avril 2027. Les dates marquées comme confirmées figuraient sur le site du festival lui-même le 4 octobre 2026 ; les autres viennent de listes ou des réseaux de l’organisateur et sont signalées comme telles.
+Les meilleurs festivals de musique électronique d’hiver en 2027 sont Tomorrowland Winter et Snowbombing dans les Alpes, Igloofest sur un quai de Montréal, Snow Machine au Japon et, pour qui préfère quelque chose de plus calme, CTM à Berlin, Elevate à Graz, Shapes à Leysin et Caprices à Gstaad. Les dates vont de Rise, aux 2 Alpes, du 5 au 12 décembre 2026, à Snowbombing, du 5 au 10 avril 2027. Les dates marquées comme confirmées viennent du site du festival lui-même ; les autres viennent de listes ou des réseaux de l’organisateur et sont signalées comme telles.
 
 ## Introduction
 
@@ -58,7 +58,7 @@ Hibernation, Caprices et Shapes sont les trois à regarder si vous cherchez des 
 
 ### Hibernation, Pas de la Casa
 
-Le festival Hibernation a lieu à Pas de la Casa, en Andorre, et l’édition 2027, la dixième, est annoncée du 19 au 21 mars. Prenez ces dates avec prudence. Le site du festival affichait d’anciennes dates lors de la vérification du 4 octobre 2026, et le 19 au 21 mars s’appuie sur l’Instagram de l’organisateur, Shotgun et une liste de festivals.
+Le festival Hibernation a lieu à Pas de la Casa, en Andorre, et l’édition 2027, la dixième, est annoncée du 19 au 21 mars. Prenez ces dates avec prudence. Le site du festival ne les affiche pas encore, et le 19 au 21 mars s’appuie sur l’Instagram de l’organisateur, Shotgun et une liste de festivals.
 
 ### Caprices, Gstaad
 
@@ -96,13 +96,13 @@ Rise ouvre l’hiver 2026-2027, c’est donc un festival de décembre dans un gu
 
 ### Astropolis l’Hiver, Brest
 
-Astropolis est le festival électronique de Brest, et son édition d’hiver a lieu en février. Les pages du festival n’avaient pas confirmé les dates de la 14ᵉ édition lors de la vérification du 4 octobre 2026, donc aucun jour n’est imprimé ici. Cette page sera mise à jour quand Astropolis les annoncera.
+Astropolis est le festival électronique de Brest, et son édition d’hiver a lieu en février. Le festival n’a pas encore confirmé les dates de la 14ᵉ édition, donc aucun jour n’est imprimé ici. Cette page sera mise à jour quand Astropolis les annoncera.
 
 ## Comment choisir
 
 Choisissez selon ce que vous attendez du voyage. Pour les plus grands noms et des vacances au ski, choisissez Tomorrowland Winter ou Snowbombing. Pour un festival urbain à faire en un week-end, choisissez Igloofest ou CTM. Pour la house et la techno dans une station de montagne, choisissez Shapes, Caprices ou Hibernation. Pour des conférences et de l’art à côté de la musique, choisissez Elevate.
 
-Regardez la colonne « Source » avant de réserver. Cinq festivals avaient leurs dates confirmées sur le site du festival lui-même le 4 octobre 2026, et pour les autres, mieux vaut vérifier auprès du festival avant d’acheter le voyage. Pour les plans d’été, consultez les [meilleurs festivals de musique électronique d’Europe](/fr/festivals-electro-europe).
+Regardez la colonne « Source » avant de réserver. Cinq festivals ont leurs dates confirmées sur leur propre site, et pour les autres, mieux vaut vérifier auprès du festival avant d’acheter le voyage. Pour les plans d’été, consultez les [meilleurs festivals de musique électronique d’Europe](/fr/festivals-electro-europe).
 
 Pour entendre l’ambiance de ces festivals, le [Selector](/fr/selector) joue un DJ set au hasard.
 

@@ -83,8 +83,7 @@ export default {
       rulesNote: 'Las normas de entrada y de camping pueden cambiar antes de agosto. El cristal y el material de cocina con llama están prohibidos ahora; el depósito reembolsable es obligatorio para llevar tienda propia.',
       links: [
         {label: 'Web oficial', url: 'https://szigetfestival.com/en/'},{label: 'Entradas 2027', url: 'https://szigetfestival.com/en/tickets/'},{label: 'Transporte', url: 'https://szigetfestival.com/en/travel/'},{label: 'Alojamiento', url: 'https://szigetfestival.com/en/accommodation/'},{label: 'Información del festival', url: 'https://szigetfestival.com/en/festival-info'},{label: 'Isla de Óbuda en Google Maps', url: 'https://www.google.com/maps/search/?api=1&query=Sziget+Festival+Budapest'}
-      ],
-      checked: '2026-10-06', checkedLabel: '6 de octubre de 2026'
+      ]
     }}
   ],
 

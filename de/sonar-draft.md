@@ -12,11 +12,11 @@ Was ist das Sonar Festival für jemanden, der nie dort war? Dieser Guide erklär
 
 ## Sónar 2027: Termine
 
-Sónar 2027 findet am Donnerstag, 17., Freitag, 18. und Samstag, 19. Juni 2027 in Barcelona statt, laut der eigenen Seite des Festivals. Line-up und Geländeplan waren noch nicht veröffentlicht, als dieser Guide im September 2026 geschrieben wurde; die offizielle Seite sonar.es zeigt beides, sobald es angekündigt ist.
+Sónar 2027 findet am Donnerstag, 17., Freitag, 18. und Samstag, 19. Juni 2027 in Barcelona statt, laut der eigenen Seite des Festivals. Line-up und Geländeplan sind noch nicht veröffentlicht; die offizielle Seite sonar.es zeigt beides, sobald es angekündigt ist.
 
 Wer die Juni-Festivals in Barcelona vergleicht: [Primavera Sound Barcelona](/de/primavera-sound-barcelona) läuft früher im Monat und deckt eine breitere Mischung aus Rock, Pop, Hip-Hop, elektronischer und experimenteller Musik ab.
 
-Die Termine folgen dem üblichen Muster: ein Donnerstag, Freitag und Samstag Mitte Juni, 2025 der 12. bis 14. Juni und 2026 der 18. bis 20. Juni. Dieser Guide wird aktualisiert, sobald die Termine des nächsten Jahres angekündigt sind.
+Die Termine folgen dem üblichen Muster: ein Donnerstag, Freitag und Samstag Mitte Juni, 2025 der 12. bis 14. Juni und 2026 der 18. bis 20. Juni.
 
 ## Wo findet das Sónar Festival in Barcelona statt?
 
@@ -66,7 +66,7 @@ Die Ausgabe 2026 war die erste unter der neuen Leitung und die erste auf einem e
 
 Sónar ist weiter gereist als fast jedes andere Festival. Nach eigener Zählung hat es mehr als 100 Ausgaben rund um die Welt veranstaltet, in Europa, Asien und Lateinamerika. Frühere Ausgaben gab es unter anderem in Reykjavík, Hongkong, Bogotá, Buenos Aires und Santiago de Chile. Sónar Istanbul und Sónar Hong Kong begannen beide 2017, Sónar Lisbon, oder Sónar Lisboa, im April 2022, und Sónar Tokyo war für Ende Juni 2026 angesetzt.
 
-Das meistgesehene Sónar-Set, das wir auf einem offiziellen Kanal gefunden haben, stammt gar nicht aus Barcelona. Es ist Paul Kalkbrenner bei Sónar Lisboa 2024, gefilmt von DJ Mag, das im September 2026 mehr als 1,9 Millionen Aufrufe hatte.
+Das meistgesehene Sónar-Set, das wir auf einem offiziellen Kanal gefunden haben, stammt gar nicht aus Barcelona. Es ist Paul Kalkbrenner bei Sónar Lisboa 2024, gefilmt von DJ Mag, mit mehr als 1,9 Millionen Aufrufen.
 
 [Embed: Paul Kalkbrenner at Sónar Lisboa 2024, DJ Mag, _YPbpWeIx2Q]
 
@@ -106,7 +106,7 @@ Unser eigener Katalog zeigt dasselbe Muster. Von den DJ-Sets hinter [dem Selecto
 
 ## Sónar 2024 bei ARTE Concert
 
-Seit 2024 filmt ARTE, der deutsch-französische Sender, Auftritte bei Sónar und stellt sie auf seinen Kanal ARTE Concert. Die beiden unten stammen aus derselben Freitagnacht auf dem SonarClub im Jahr 2024: Ben Böhmer live, mit rund 215.000 Aufrufen im September 2026 der meistgesehene Film von ARTE aus Sónar Barcelona, und DEX EFX X0X von Richie Hawtin.
+Seit 2024 filmt ARTE, der deutsch-französische Sender, Auftritte bei Sónar und stellt sie auf seinen Kanal ARTE Concert. Die beiden unten stammen aus derselben Freitagnacht auf dem SonarClub im Jahr 2024: Ben Böhmer live, mit rund 215.000 Aufrufen der meistgesehene Film von ARTE aus Sónar Barcelona, und DEX EFX X0X von Richie Hawtin.
 
 [Embed: Ben Böhmer and Richie Hawtin, ARTE Concert, JaiCMTWjkJI]
 
@@ -120,7 +120,7 @@ Ein Festival für elektronische Musik, Kreativität und Technologie, das seit 19
 
 ### Wann ist Sónar 2027?
 
-Am 17., 18. und 19. Juni 2027, Donnerstag bis Samstag, in Barcelona, laut der offiziellen Seite. Das Line-up war im September 2026 noch nicht angekündigt.
+Am 17., 18. und 19. Juni 2027, Donnerstag bis Samstag, in Barcelona, laut der offiziellen Seite. Das Line-up ist noch nicht angekündigt.
 
 ### Lohnt sich das Sonar Festival?
 
@@ -128,8 +128,8 @@ Es passt zu Menschen, die neue und experimentelle elektronische Musik neben gro�
 
 ### Was kosten Tickets für Sónar Barcelona?
 
-Für 2026 verkaufte die offizielle Seite ein Ticket für Donnerstag für 49 € und ein Ticket für Freitag oder Samstag für 99 €, VIP-Tagestickets ab 95 €. Der SonarPass für alle Tage war ausverkauft; die VIP-Version kostete 319 €. Ein Tag bei Sónar+D kostete 15 €. Preise für 2027 waren im September 2026 noch nicht veröffentlicht.
+Für 2026 verkaufte die offizielle Seite ein Ticket für Donnerstag für 49 € und ein Ticket für Freitag oder Samstag für 99 €, VIP-Tagestickets ab 95 €. Der SonarPass für alle Tage war ausverkauft; die VIP-Version kostete 319 €. Ein Tag bei Sónar+D kostete 15 €. Preise für 2027 sind noch nicht veröffentlicht.
 
 ### Wann ist OFFSónar?
 
-In derselben Woche wie Sónar, im Juni. 2026 lief es über vier Tage im Poble Espanyol. Die Veranstalter sagen, das Programm 2027 werde nach dem Sommer angekündigt, und im September 2026 waren noch keine Termine für 2027 veröffentlicht.
+In derselben Woche wie Sónar, im Juni. 2026 lief es über vier Tage im Poble Espanyol. Die Veranstalter sagen, das Programm 2027 werde nach dem Sommer angekündigt, und Termine für 2027 sind noch nicht veröffentlicht.

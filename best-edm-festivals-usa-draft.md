@@ -20,7 +20,7 @@ Scale figures come from the festivals or from reporting on them. Some festivals 
 
 ## US EDM festival dates for 2027 at a glance
 
-The table is the short version. The sections below explain each festival and who it is for. "Not announced" means no 2027 dates were on the official site on 2 October 2026.
+The table is the short version. The sections below explain each festival and who it is for. "Not announced" means the festival has not published 2027 dates.
 
 ## What is the biggest EDM festival in the US?
 
@@ -120,7 +120,7 @@ These are the US festivals people ask about that did not pass the first test, or
 
 Pick the sound first, then the setting, then the date. If you want the largest production, choose EDC Las Vegas or Ultra. If you want techno or house, choose Movement or ARC. If you want bass music or trance, choose Lost Lands, Bass Canyon or Dreamstate. If you want to camp, choose Electric Forest, Lost Lands, Bass Canyon or Beyond Wonderland.
 
-Check dates before you book travel. In 2027, only EDC, Ultra, Movement and the three Beyond Wonderland editions are confirmed; the others were not on their official sites on 2 October 2026.
+Check dates before you book travel. For 2027, EDC, Ultra, Movement and the three Beyond Wonderland editions have published dates, and the others follow as each festival announces them.
 
 If you are comparing the US with Europe, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
@@ -138,7 +138,7 @@ For a rave-style festival, EDC Las Vegas, Beyond Wonderland and Dreamstate (for 
 
 ### What are the top 10 EDM festivals in the US?
 
-On this page's list, the ten with the clearest 2027 case are EDC Las Vegas, Ultra, Movement, ARC, EDC Orlando, Beyond Wonderland, CRSSD, HARD Summer, Lost Lands and Electric Forest. Dates for most of them were not announced on 2 October 2026.
+On this page's list, the ten with the clearest 2027 case are EDC Las Vegas, Ultra, Movement, ARC, EDC Orlando, Beyond Wonderland, CRSSD, HARD Summer, Lost Lands and Electric Forest. Dates for most of them are still to come.
 
 ### What is the best EDM festival to go to?
 

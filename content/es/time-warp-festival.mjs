@@ -109,7 +109,7 @@ export default {
         ['Time Warp Miami', 'Factory Town, Miami', '25 de abril de 2026', 'Celebrada'],
         ['Time Warp Brasil', 'Neo Química Arena, São Paulo', '1 y 2 de mayo de 2026', 'Celebrada'],
         ['Time Warp Spain', 'IFEMA Madrid, Pabellón 12', '18 y 19 de septiembre de 2026', 'Cancelada, con reembolso de las entradas'],
-        ['TW x EDC Colombia', 'Atanasio Girardot Sports Complex, Medellín', '10 de octubre de 2026', 'Próxima, un escenario Neon Garden'],
+        ['TW x EDC Colombia', 'Atanasio Girardot Sports Complex, Medellín', '10 de octubre de 2026', 'Un escenario Neon Garden'],
         ['Time Warp Mexico', 'Expo Santa Fe, Ciudad de México', '20 y 21 de noviembre de 2026', 'Próxima, entradas a la venta'],
         ['Time Warp New York', 'Duggal Greenhouse y Agger Building, Nueva York', '20 y 21 de noviembre de 2026', 'Próxima, marcada Save the Date'],
         ['Time Warp Los Angeles', 'ACE Mission, Los Ángeles', '27 y 28 de noviembre de 2026', 'Próxima, entradas a la venta']
@@ -118,7 +118,7 @@ export default {
   }),
 
   sources: [
-    {html: `Fechas, ediciones, entradas y normas: ${ext('https://www.time-warp.de', 'time-warp.de')} y su ${ext('https://tickets.time-warp.de', 'tienda de entradas')} (en inglés), leídas el 4 y el 10 de octubre de 2026.`},
+    {html: `Fechas, ediciones, entradas y normas: ${ext('https://www.time-warp.de', 'time-warp.de')} y su ${ext('https://tickets.time-warp.de', 'tienda de entradas')} (en inglés).`},
     {html: `Cancelación de Time Warp Spain 2026: ${ext('https://www.time-warp.de/page/tw-madrid-2026---official-statement/', 'comunicado oficial del festival')}, en inglés y en español.`},
     {html: `Origen y primera edición, 26 de noviembre de 1994: ${ext('https://es.wikipedia.org/wiki/Time_Warp_Festival', 'Wikipedia')}.`}
   ],

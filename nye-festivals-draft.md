@@ -12,7 +12,7 @@ New Year's Eve lands in the middle of summer in the southern hemisphere and in t
 
 [Table: festivals]
 
-Dates marked "check the site" had not been announced when this guide was written in September 2026. Line-ups for most of these events are announced in the autumn.
+Dates marked "check the site" are not announced yet. Line-ups for most of these events are announced in the autumn.
 
 ## NYE festivals in the United States
 

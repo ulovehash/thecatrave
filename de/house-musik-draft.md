@@ -130,7 +130,7 @@ Deep House begann mit Larry Heard und wuchs zu einer eigenen Welt aus soulvollen
 
 Die größte Veränderung der letzten zwanzig Jahre kam aus Südafrika. Afro House wuchs dort ab den 1990ern neben Kwaito, und Black Coffee brachte ihn in Clubs und auf Festivals auf der ganzen Welt. Amapiano, der aus Kwaito, Jazz und Chill-out-Musik wuchs, verbreitete sich in den Pandemiejahren weltweit, und Beatport gab ihm 2022 eine eigene Genre-Kategorie.
 
-Im Katalog aufgezeichneter DJ-Sets dieser Seite tragen 9.073 einen House-Tag und 2.156 einen Deep-House-Tag, Stand September 2026, mehr als jedes andere einzelne Genre. Die meistgesehenen House-Sets dort kommen gar nicht aus Chicago: Solomun, Black Coffee und Fred again.. führen die Liste an. Black Coffees Set für Cercle in Paris ist der einfachste Weg zu hören, wie weit die Musik gereist ist.
+Im Katalog aufgezeichneter DJ-Sets dieser Seite tragen mehr als 9.000 einen House-Tag und mehr als 2.000 einen Deep-House-Tag, mehr als jedes andere einzelne Genre. Die meistgesehenen House-Sets dort kommen gar nicht aus Chicago: Solomun, Black Coffee und Fred again.. führen die Liste an. Black Coffees Set für Cercle in Paris ist der einfachste Weg zu hören, wie weit die Musik gereist ist.
 
 [Embed: Black Coffee Cercle]
 

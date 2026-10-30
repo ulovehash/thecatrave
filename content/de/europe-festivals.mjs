@@ -56,10 +56,10 @@ const festivals = [
 ];
 
 const smallerFestivals = [
-  ['Garbicz', 'Bei Torzym, Polen', 'Noch nicht bekannt gegeben (2026: 30. Juli bis 3. August)', 'House, Techno, Ambient, Live-Acts', 'Etwa 11.000 (2026)', 'Camping', 'Lange Sets im Wald'],
+  ['Garbicz', 'Bei Torzym, Polen', '29. Juli bis 2. August (Festivallisten, noch nicht bestätigt)', 'House, Techno, Ambient, Live-Acts', 'Etwa 11.000 (2026)', 'Camping', 'Lange Sets im Wald'],
   ['NACHTI', 'Olganitz, Deutschland', '30. Juli bis 1. August', 'Elektronische Clubmusik und Live-Acts', 'Etwa 3.000 (Nachtdigital-Jahre)', 'Bungalows und Camping', 'Ein kleines, sorgfältig gebuchtes Wochenende'],
   ['Houghton', 'Houghton Hall, Norfolk, England', 'Noch nicht bekannt gegeben (August)', 'House, Techno, Leftfield', 'Etwa 10.000', 'Camping', 'Musik rund um die Uhr'],
-  ['Draaimolen', 'Tilburg, Niederlande', 'Noch nicht bekannt gegeben (Anfang September)', 'Techno, Ambient, Experimentelles', 'Hier nicht angegeben', 'Stadt, Tagesfestival', 'Techno ohne Massen'],
+  ['Draaimolen', 'Tilburg, Niederlande', '10. und 11. September (Festivallisten)', 'Techno, Ambient, Experimentelles', 'Hier nicht angegeben', 'Stadt, Tagesfestival', 'Techno ohne Massen'],
   ['Waking Life', 'Crato, Portugal', 'Mitte Juni (noch nicht auf der offiziellen Seite)', 'Elektronisch, experimentell, Weltmusik', 'Hier nicht angegeben', 'Camping und Tipis', 'Eine Sonnwendwoche auf dem Land'],
   ['Kala', 'Dhërmi, Albanien', '2. bis 9. Juni', 'Dance Music, DJs und Live-Acts', 'Hier nicht angegeben', 'Hotel inklusive', 'Eine Woche am Strand'],
   ['Freerotation', 'Clyro, Wales', 'Noch nicht bekannt gegeben (Juli)', 'Deep House, Techno', 'Hier nicht angegeben', 'Nur für Mitglieder', 'Wenn dich jemand einlädt']
@@ -142,7 +142,7 @@ export default {
   }),
 
   sources: [
-    {html: `Termine 2027, gelesen auf der offiziellen Seite jedes Festivals am 22. September 2026: ${[
+    {html: `Termine 2027 von der offiziellen Seite jedes Festivals: ${[
       ['https://www.defqon1.com/', 'Defqon.1'], ['https://www.awakenings.com/en/', 'Awakenings'], ['https://www.time-warp.de/', 'Time Warp'],
       ['https://www.kappafuturfestival.it/', 'Kappa FuturFestival'], ['https://www.boomtownfair.co.uk/', 'Boomtown'], ['https://www.monegrosfestival.com/', 'Monegros'],
       ['https://www.dekmantelfestival.com/', 'Dekmantel'], ['https://belgium.tomorrowland.com/', 'Tomorrowland']

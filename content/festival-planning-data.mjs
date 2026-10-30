@@ -37,7 +37,7 @@ const data = {
       spending:['ARC hat keine Speise- oder Barkarte für 2027 veröffentlicht. Das Festival ist bargeldlos, akzeptiert Karten und große Handy-Wallets und hat keine Geldautomaten.',[['Speisepreise 2027','Nicht veröffentlicht'],['Barpreise 2027','Nicht veröffentlicht'],['Wasser auffüllen','Kostenlose Stationen'],['Bargeld','Nicht akzeptiert']],'Offizielle ARC-FAQ','https://arcmusicfestival.com/faqs/'],
       packing:['Amtlicher Lichtbildausweis, der mindestens 18 Jahre belegt','Digitales Ticket vor dem Einlass gespeichert','Leere Trinkblase mit herausnehmbarem Reservoir','Sonnencreme, Regenlage und Ohrstöpsel','Kleine Tasche innerhalb 16 × 16 × 8 Zoll'],
       avoid:['Rucksäcke oder größere Taschen als 16 × 16 × 8 Zoll','Externe Speisen oder Getränke ohne dokumentierten Bedarf','Glas- oder Metallbehälter, Kühlboxen, Stühle und Schirme','Am selben Tag hinauszugehen und wieder hineinzugehen','Ohne bestätigten privaten Stellplatz zum Union Park zu fahren'],
-      rulesNote:'ARC ist ab 18, verlangt einen amtlichen Lichtbildausweis und erlaubt einen Eintritt pro Tag. Die aktuellen Öffnungszeiten gehören zur angekündigten Ausgabe und müssen für 2027 neu geprüft werden.',
+      rulesNote:'ARC ist ab 18, verlangt einen amtlichen Lichtbildausweis und erlaubt einen Eintritt pro Tag. Die aktuellen Öffnungszeiten gelten für die letzte Ausgabe; die Zeiten für 2027 folgen mit den Details zur Ausgabe.',
       links:[['Offizielle Website','https://arcmusicfestival.com/'],['Tickets','https://arcmusicfestival.com/tickets/'],['FAQ und Anreise','https://arcmusicfestival.com/faqs/'],['Mitbringen','https://arcmusicfestival.com/whattobring/'],['Union Park auf Google Maps',maps.arc]]
     },
     airbeat: {
@@ -59,7 +59,7 @@ const data = {
       festivalName:'EXIT Global Tour',
       intro:'Für 2027 ist kein EXIT Festival an der Festung Petrovaradin bestätigt. EXIT veröffentlicht nun getrennte Events nach Zielort. Wähle zuerst das konkrete Event und nutze dessen Tickets, Ort und Reisehinweise statt alter Novi-Sad-Tipps.',
       ticketIntro:'Aktueller offizieller Stand. Preise und Anreise hängen vom einzelnen Event ab; es gibt keinen gemeinsamen EXIT-Pass.', ticketColumns:['Event oder Produkt','Aktueller Stand'],
-      ticketRows:[['EXIT Festival Novi Sad 2027','Keine Rückkehr zur Festung angekündigt','Nicht im Verkauf'],['EXIT Global Tour','Getrennte Events nach Zielort','Pro Event'],['Starlight Festival, Ägypten','8.–11. Oktober 2026 in Gizeh','Event-Link prüfen'],['EXIT2Montenegro','Termine 2026 für Ulcinj und Budva','Event-Link prüfen']],
+      ticketRows:[['EXIT Festival Novi Sad 2027','Keine Rückkehr zur Festung angekündigt','Nicht im Verkauf'],['EXIT Global Tour','Getrennte Events nach Zielort','Pro Event'],['Starlight Festival, Ägypten','Eigenes Festival in Gizeh','Event-Link prüfen'],['EXIT2Montenegro','Termine 2026 für Ulcinj und Budva','Event-Link prüfen']],
       ticketNote:'Folge von der offiziellen Global-Tour-Seite zum benannten Event und prüfe Jahr, Land und Ort vor jeder nicht stornierbaren Buchung.',
       routes:[['Zuerst Event und Land wählen','Öffne die Global-Tour-Seite und gleiche Termin und Ort mit dem Ticketshop ab.','Offizielle EXIT Global Tour','https://www.exitfest.org/global-tour'],['Alte Novi-Sad-Anreise ignorieren','Wegbeschreibungen zur Festung, Unterkünfte in Novi Sad und Campinginfos gelten für 2001–2025, nicht automatisch für neue Events.'],['Route vom Eventort aufbauen','Nutze die Ortsangabe des konkreten Events und prüfe Shuttle oder Nahverkehr beim lokalen Betreiber.']],
       routeNote:'Da die Tour mehrere Länder umfasst, gibt es keinen ehrlichen gemeinsamen Shuttle-, Flughafen- oder Kartenlink.',
@@ -99,7 +99,7 @@ fr.arc = {...fr.arc,
   accommodation:['ARC n’a pas de camping. Logez près des lignes Green ou Pink, dans le West Loop ou au centre avec une liaison CTA simple. Comparez le prix final et les conditions d’annulation du partenaire officiel.','Informations hôtels officielles','https://arcmusicfestival.com/faqs/'],
   spending:['ARC n’a publié aucun menu 2027. Le festival est sans espèces, accepte cartes et portefeuilles mobiles et ne possède aucun distributeur automatique.',[['Prix nourriture 2027','Non publiés'],['Prix bar 2027','Non publiés'],['Remplissage d’eau','Points gratuits'],['Espèces','Non acceptées']],'FAQ officielle ARC','https://arcmusicfestival.com/faqs/'],
   links:[['Site officiel','https://arcmusicfestival.com/'],['Billets','https://arcmusicfestival.com/tickets/'],['FAQ et transport','https://arcmusicfestival.com/faqs/'],['Objets autorisés','https://arcmusicfestival.com/whattobring/'],['Union Park sur Google Maps',maps.arc]],
-  rulesNote:'ARC est réservé aux 18 ans et plus, exige une pièce d’identité officielle et n’autorise qu’une entrée par jour. Les horaires devront être revérifiés pour 2027.',
+  rulesNote:'ARC est réservé aux 18 ans et plus, exige une pièce d’identité officielle et n’autorise qu’une entrée par jour. Les horaires de 2027 suivront avec les détails de l’édition.',
   packing:['Pièce d’identité officielle prouvant l’âge de 18 ans','Billet numérique enregistré avant l’entrée','Poche à eau vide et démontable','Crème solaire, vêtement de pluie et bouchons d’oreille','Petit sac dans la limite de 16 × 16 × 8 pouces'],
   avoid:['Sacs à dos ou sacs dépassant 16 × 16 × 8 pouces','Nourriture ou boisson extérieure sans besoin médical documenté','Contenants en verre ou métal, glacières, chaises et parapluies','Sortir en pensant pouvoir revenir le même jour','Venir en voiture sans stationnement privé confirmé']
 };
@@ -120,7 +120,7 @@ fr.airbeat = {...fr.airbeat,
 fr.exit = {...fr.exit,
   intro:'Aucun EXIT Festival 2027 à la forteresse de Petrovaradin n’est confirmé. EXIT publie désormais des événements séparés par destination. Choisissez d’abord l’événement précis et utilisez ses billets, son lieu et ses conseils de voyage.',
   ticketIntro:'Statut officiel actuel. Prix et trajet dépendent de chaque événement; aucun pass EXIT unique ne couvre le réseau.', ticketColumns:['Événement ou produit','Statut actuel'],
-  ticketRows:[['EXIT Festival Novi Sad 2027','Aucun retour à la forteresse annoncé','Pas en vente'],['EXIT Global Tour','Événements distincts par destination','Par événement'],['Starlight Festival, Égypte','8–11 octobre 2026 à Gizeh','Voir le lien'],['EXIT2Montenegro','Dates 2026 annoncées à Ulcinj et Budva','Voir le lien']],
+  ticketRows:[['EXIT Festival Novi Sad 2027','Aucun retour à la forteresse annoncé','Pas en vente'],['EXIT Global Tour','Événements distincts par destination','Par événement'],['Starlight Festival, Égypte','Festival distinct à Gizeh','Voir le lien'],['EXIT2Montenegro','Dates 2026 annoncées à Ulcinj et Budva','Voir le lien']],
   ticketNote:'Depuis la page Global Tour, ouvrez l’événement nommé et vérifiez l’année, le pays et le lieu avant toute réservation non remboursable.',
   routes:[['Choisir d’abord l’événement et le pays','Ouvrez la page Global Tour et vérifiez que date et lieu correspondent à la billetterie.','EXIT Global Tour officiel','https://www.exitfest.org/global-tour'],['Ignorer les anciens trajets de Novi Sad','Les itinéraires de la forteresse, hôtels de Novi Sad et anciens campings concernent 2001–2025, pas automatiquement les nouveaux événements.'],['Construire le trajet depuis le lieu','Utilisez l’adresse fournie par l’événement puis vérifiez navette ou transport public auprès de l’opérateur local.']],
   routeNote:'Comme la tournée traverse plusieurs pays, il n’existe pas de navette, d’aéroport ou de lien cartographique unique valable pour tous.',
@@ -183,7 +183,7 @@ es.airbeat = {
 es.timewarp = {
   festivalName:'Time Warp Mannheim 2027',
   intro:'Time Warp Mannheim va de las 19:00 del 3 de abril a las 14:00 del 4 de abril de 2027. Cuenta con un evento de 19 horas bajo techo y con el regreso por la mañana, no con una noche de club normal.',
-  ticketIntro:'Precios previos al cartel de la tienda oficial de Mannheim, leídos el 4 de octubre de 2026, con los gastos de gestión incluidos. Pueden subir en fases posteriores.', ticketColumns:['Pase','Precio'],
+  ticketIntro:'Precios previos al cartel de la tienda oficial de Mannheim, con los gastos de gestión incluidos. Pueden subir en fases posteriores.', ticketColumns:['Pase','Precio'],
   ticketRows:[['Blue Pass (Experience)','Entrada de acceso, 6,50 € de gastos incluidos','79 €'],['Silver Pass (Comfort)','Pase intermedio, 15 € de gastos incluidos','169 €'],['Gold Pass','Pase superior, 20 € de gastos incluidos','229 €'],['Guardarropa','Precio del evento no publicado','No publicado']],
   ticketNote:'Compra solo en la tienda oficial de Time Warp. La entrada es para mayores de 18 años.',
   routes:[['Tranvía 6/6A hasta Maimarkt','La parada está en la entrada del Maimarkt. Confirma el servicio nocturno y los autobuses de refuerzo del evento.','Parada de Maimarkt en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkt+Mannheim+tram+stop'],['Tren hasta Mannheim Hbf y después tranvía','Cambia en la estación central al servicio señalizado del evento y guarda la ruta de vuelta del domingo por la mañana.','Mannheim Hbf en Google Maps','https://www.google.com/maps/search/?api=1&query=Mannheim+Hauptbahnhof'],['Coche hasta el aparcamiento oficial del Maimarkt','Sigue la señalización cerca de Xaver-Fuhr-Straße y prevé un conductor sobrio tras tantas horas.','Maimarkthalle en Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']],
@@ -199,7 +199,7 @@ es.timewarp = {
 es.fusion = {
   festivalName:'Fusion Festival 2028',
   intro:'En 2027 no hay Fusion Festival. La próxima edición anunciada es del 28 de junio al 2 de julio de 2028, y el sorteo de entradas y los precios aún no están publicados.',
-  ticketIntro:'Estado oficial leído el 5 de octubre de 2026. Son estados, no estimaciones: no hay precios de 2028.', ticketColumns:['Edición o producto','Estado actual'],
+  ticketIntro:'Estado oficial. Son estados, no estimaciones: no hay precios de 2028.', ticketColumns:['Edición o producto','Estado actual'],
   ticketRows:[['Fusion 2027','Año oficial sin festival','Sin evento'],['Fusion 2028','28 de junio al 2 de julio de 2028','Venta sin anunciar'],['Entrada adicional de vehículo o autocaravana 2028','Detalles sin publicar','No publicado']],
   ticketNote:'No compres ninguna supuesta entrada de 2027. Apúntate al boletín oficial para conocer el registro y el sorteo de 2028.',
   routes:[['Tren hasta Neustrelitz y después la lanzadera del festival','El viaje en lanzadera solo es posible con una entrada válida. Espera a las instrucciones de reserva de 2028.','Preguntas frecuentes oficiales','https://fusion-festival.de/en/faq'],['Tren hasta Waren y después la ruta de taxi del festival','Las preguntas frecuentes citan Waren para quien llega desde Rostock; comprueba los taxis y lanzaderas vigentes para 2028.','Estación de Waren en Google Maps','https://www.google.com/maps/search/?api=1&query=Waren+Muritz+railway+station'],['Coche o autobús organizado hasta el aeródromo de Lärz','El camping de vehículos y el aparcamiento exigen la entrada adicional y la puerta correctas. No uses un mapa de vehículos de 2026 para 2028.','Recinto en Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']],
@@ -215,11 +215,11 @@ es.fusion = {
 es.defqon = {
   festivalName:'Defqon.1 2027',
   intro:'Defqon.1 2027 separa la entrada, el alojamiento en camping, el aparcamiento y los traslados. Una reserva Travel and Stay no incluye automáticamente una entrada al festival.',
-  ticketIntro:'Estado oficial de Q-dance leído el 5 de octubre de 2026. Son estados, no estimaciones: no hay precios de 2027.', ticketColumns:['Producto','Estado actual'],
+  ticketIntro:'Estado oficial de Q-dance. Son estados, no estimaciones: no hay precios de 2027.', ticketColumns:['Producto','Estado actual'],
   ticketRows:[['Entrada de fin de semana 2027','Cuatro días con The Gathering y acceso al camping','Ver la tienda'],['Entrada de día','Viernes, sábado o domingo','Ver la tienda'],['Alojamiento Travel and Stay','Entrada no incluida automáticamente','Producto aparte'],['Aparcamiento o traslado','Según camping u hotel','Suplemento aparte']],
   ticketNote:'Quien conservó una entrada de 2026 mantiene el precio de 2026. Los alojamientos y suplementos reembolsados hay que reservarlos de nuevo.',
   routes:[['Lanzadera oficial o autobús organizado hasta Biddinghuizen','Elige la ruta que ofrezca la tienda de 2027 y reserva ida y vuelta; el transporte público nocturno es limitado.','Preguntas frecuentes oficiales de 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Lanzadera de los paquetes de parque vacacional','Los paquetes de parque vacacional incluyen una lanzadera cada hora hasta las 02:00; los traslados de hotel salen una vez al día a horas fijas.','Preguntas frecuentes de Travel and Stay','https://www.q-dance.com/l/defqon1-2027-faq'],['Coche hasta el aparcamiento asignado en los Holy Grounds','El aparcamiento regular y el Priority son productos distintos. El pase de aparcamiento no sustituye a una reserva de camping.','Defqon.1 en Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']],
-  routeNote:'Los horarios de lanzaderas de 2027 no estaban publicados el 5 de octubre de 2026.',
+  routeNote:'Los horarios de lanzaderas de 2027 aún no están publicados.',
   accommodation:['La entrada de fin de semana incluye acceso a la zona de camping con tu propia tienda. Friends Camp reserva una zona pero no el equipo; las tiendas montadas, las cabañas y los hoteles son productos aparte.','Preguntas frecuentes oficiales de 2027','https://www.q-dance.com/l/defqon1-2027-faq'],
   spending:['Los precios de comida, bebida y fichas de 2027 no están publicados. Calcula por separado la entrada, el alojamiento, el aparcamiento o el traslado, las taquillas y el gasto en el recinto.',[['Entrada de fin de semana','Precio no publicado'],['Comida y bebida','Precios no publicados'],['Lanzadera de Dronten (2026)','12,50 € en línea']],'Entradas de Defqon.1','https://www.q-dance.com/l/defqon1-2027-faq'],
   rulesNote:'Las entradas de 2026 conservadas valen solo como entrada de 2027; el alojamiento y los suplementos reembolsados hay que reservarlos de nuevo. Comprueba cada artículo de la cesta antes de pagar. Edad mínima 18 años con documento original.',
@@ -234,9 +234,7 @@ const normalize = value => ({
   routes: value.routes.map(([title,description,label,url]) => ({title,description,...(url ? {link:{label,url}} : {})})),
   accommodation:{body:value.accommodation[0],link:{label:value.accommodation[1],url:value.accommodation[2]}},
   spending:{body:value.spending[0],items:value.spending[1].map(([label,value]) => ({label,value})),link:{label:value.spending[2],url:value.spending[3]}},
-  links:value.links.map(([label,url]) => ({label,url})),
-  checked:'2026-10-06',
-  checkedLabel: value === data.es.monegros || value === data.es.arc || value === data.es.airbeat || value === data.es.timewarp || value === data.es.fusion || value === data.es.defqon ? '6 de octubre de 2026' : value === data.de.monegros || value === data.de.arc || value === data.de.airbeat || value === data.de.exit ? '6. Oktober 2026' : '6 octobre 2026'
+  links:value.links.map(([label,url]) => ({label,url}))
 });
 
 export const localizedFestivalPlanning = (festival, lang) => normalize(data[lang][festival]);

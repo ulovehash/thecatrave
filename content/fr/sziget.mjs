@@ -86,8 +86,7 @@ export default {
       rulesNote: 'Les règles d’entrée et de camping peuvent changer avant août. Le verre et le matériel de cuisson à flamme sont actuellement interdits; la consigne remboursable est obligatoire pour sa propre tente.',
       links: [
         {label: 'Site officiel', url: 'https://szigetfestival.com/en/'},{label: 'Billets 2027', url: 'https://szigetfestival.com/en/tickets/'},{label: 'Transport', url: 'https://szigetfestival.com/en/travel/'},{label: 'Hébergement', url: 'https://szigetfestival.com/en/accommodation/'},{label: 'Informations festival', url: 'https://szigetfestival.com/en/festival-info'},{label: 'Île d’Óbuda sur Google Maps', url: 'https://www.google.com/maps/search/?api=1&query=Sziget+Festival+Budapest'}
-      ],
-      checked: '2026-10-06', checkedLabel: '6 octobre 2026'
+      ]
     }}
   ],
 

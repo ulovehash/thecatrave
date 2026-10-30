@@ -40,7 +40,6 @@ export const locales = {
     clubEventsLabel: 'Opening nights and lineups',
     clubTransportLabel: 'Getting home',
     clubCheck: 'Check current tickets, entry, dress, age and accessibility before travelling.',
-    clubLinksChecked: 'Planning links checked',
     readingTime: minutes => `${minutes} min read`,
     essentialListening: 'Essential listening',
     playlistOwned: 'Curated by thecatrave',
@@ -128,7 +127,6 @@ export const locales = {
     clubEventsLabel: 'Öffnungstage und Line-ups',
     clubTransportLabel: 'Heimfahrt',
     clubCheck: 'Tickets, Einlass, Dresscode, Altersgrenze und Barrierefreiheit vor der Anreise aktuell prüfen.',
-    clubLinksChecked: 'Planungslinks geprüft',
     readingTime: minutes => `${minutes} Min. Lesezeit`,
     // The German counterpart of the site-wide "Essential listening" label. One
     // label per language, as in SITE-COMPONENTS.md: no parallel concepts.
@@ -223,7 +221,6 @@ export const locales = {
     clubEventsLabel: 'Soirs d’ouverture et programmation',
     clubTransportLabel: 'Retour de nuit',
     clubCheck: 'Vérifiez les billets, l’entrée, la tenue, l’âge minimum et l’accessibilité avant de partir.',
-    clubLinksChecked: 'Liens pratiques vérifiés le',
     sourcesTitle: 'Sources.',
     readNextTitle: 'À lire ensuite.',
     readNextKicker: 'Continuer la lecture',
@@ -309,7 +306,6 @@ export const locales = {
     clubEventsLabel: 'Noches de apertura y programación',
     clubTransportLabel: 'Vuelta de noche',
     clubCheck: 'Comprueba las entradas, la entrada al local, el código de vestimenta, la edad mínima y la accesibilidad antes de salir.',
-    clubLinksChecked: 'Enlaces prácticos comprobados el',
     sourcesTitle: 'Fuentes.',
     readNextTitle: 'Sigue leyendo.',
     readNextKicker: 'Continuar la lectura',

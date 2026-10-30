@@ -53,8 +53,7 @@ buildFestivalArticle({
         {label:'Entry rules',url:'https://www.boomtownfair.co.uk/legal/terms'},
         {label:'Accessibility',url:'https://www.boomtownfair.co.uk/accessibility'},
         {label:'Matterley Estate on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Matterley+Estate+Winchester'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own multi-genre mix follows the same open route between bass music, techno and rave, without pretending to stand in for Boomtown’s programme.', 'For the hours after the city closes: my own set moving through techno, breaks and bass music.'],

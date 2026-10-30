@@ -97,7 +97,7 @@ const renderBlock = block => {
   }
   if (block.startsWith('|')) {
     const rows = block.split('\n').filter((_, i) => i !== 1).map(line => line.split('|').slice(1, -1).map(cell => inline(cell.trim())));
-    return articleTable({label: rows[0][0] === 'Floor' ? 'Klubnacht lineup, 10 October 2026' : 'Berghain event prices, October 2026', headers: rows[0], rows: rows.slice(1)});
+    return articleTable({label: rows[0][0] === 'Floor' ? 'Klubnacht lineup, 10 October 2026' : 'Berghain event prices', headers: rows[0], rows: rows.slice(1)});
   }
   if (block.startsWith('- ')) {
     return `<ul>${block.split(/\n(?=- )/).map(item => `<li>${inline(item.slice(2).replace(/\s+/g, ' '))}</li>`).join('')}</ul>`;

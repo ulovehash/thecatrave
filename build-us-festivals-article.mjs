@@ -154,7 +154,7 @@ const tocItems = [
 
 const readingTime = `${Math.max(9, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
-const answer = 'The best EDM festivals in the US for 2027 depend on what you want to hear. For the biggest production: EDC Las Vegas (EDC Dusk 14 to 16 May, EDC Dawn 21 to 23 May) and Ultra in Miami (26 to 28 March). For house and techno: Movement in Detroit (29 to 31 May), ARC in Chicago and CRSSD in San Diego. For bass music: Lost Lands in Ohio and Bass Canyon in Washington. For camping in the woods: Electric Forest in Michigan. Only EDC, Ultra, Movement and the three Beyond Wonderland editions had confirmed 2027 dates when this page was checked.';
+const answer = 'The best EDM festivals in the US for 2027 depend on what you want to hear. For the biggest production: EDC Las Vegas (EDC Dusk 14 to 16 May, EDC Dawn 21 to 23 May) and Ultra in Miami (26 to 28 March). For house and techno: Movement in Detroit (29 to 31 May), ARC in Chicago and CRSSD in San Diego. For bass music: Lost Lands in Ohio and Bass Canyon in Washington. For camping in the woods: Electric Forest in Michigan. EDC, Ultra, Movement and the three Beyond Wonderland editions have confirmed 2027 dates, and the others follow as each festival announces them.';
 
 const articleHtml = [
   articleHero({
@@ -180,7 +180,7 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'US EDM festivals FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>2027 dates, read on 2 October 2026: <a href="https://www.insomniac.com/" target="_blank" rel="noopener noreferrer">Insomniac</a> (EDC, EDC Orlando, Beyond Wonderland, Dreamstate), <a href="https://movementfestival.com/faqs" target="_blank" rel="noopener noreferrer">Movement FAQ</a>, <a href="https://www.basscanyon.com/" target="_blank" rel="noopener noreferrer">Bass Canyon</a>, <a href="https://www.electricforest.com/" target="_blank" rel="noopener noreferrer">Electric Forest</a>, <a href="https://www.lostlands.com/" target="_blank" rel="noopener noreferrer">Lost Lands</a>.</li>
+<li>2027 dates: <a href="https://www.insomniac.com/" target="_blank" rel="noopener noreferrer">Insomniac</a> (EDC, EDC Orlando, Beyond Wonderland, Dreamstate), <a href="https://movementfestival.com/faqs" target="_blank" rel="noopener noreferrer">Movement FAQ</a>, <a href="https://www.basscanyon.com/" target="_blank" rel="noopener noreferrer">Bass Canyon</a>, <a href="https://www.electricforest.com/" target="_blank" rel="noopener noreferrer">Electric Forest</a>, <a href="https://www.lostlands.com/" target="_blank" rel="noopener noreferrer">Lost Lands</a>.</li>
 <li>Dates and scale for Ultra, Movement, ARC, Coachella, Lollapalooza and Burning Man: this site's guide to each festival, linked above, which cites its own sources.</li>
 <li><a href="https://djmag.com/top100festivals" target="_blank" rel="noopener noreferrer">DJ Mag: Top 100 Festivals 2026</a></li>
 <li>Beyond Wonderland Midwest move to Chicagoland Speedway: Electronic Midwest, 15 June 2026. Lost Lands 2026 weather evacuation: EDMTunes. Bonnaroo 2027 cancellation: EDM Sauce. Electric Zoo operator filing: reporting on Avant Gardner's Chapter 11 filing of 4 August 2025.</li>

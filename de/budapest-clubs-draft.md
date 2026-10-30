@@ -36,7 +36,7 @@ Boiler Rooms erster Besuch in Budapest im Januar 2017 fand im Akvárium Klub sta
 
 [Embed: Imre Kiss]
 
-Das Lärm, ein Techno-Raum mit schwarzen Wänden und Fotoverbot, 2013 hinter dem Fogasház gebaut und im März 2014 eröffnet, war fast ein Jahrzehnt lang Budapests puristischste Techno-Adresse, geführt von der Idee, dass ein Raum nichts braucht außer Musik und einer ernsthaften Anlage. Es hat sein Zuhause in der Akácfa utca verlassen und sagt, es ziehe an einen neuen Ort nahe der Donau um, ohne bestätigten Termin für die Wiedereröffnung zum Zeitpunkt des Schreibens.
+Das Lärm, ein Techno-Raum mit schwarzen Wänden und Fotoverbot, 2013 hinter dem Fogasház gebaut und im März 2014 eröffnet, war fast ein Jahrzehnt lang Budapests puristischste Techno-Adresse, geführt von der Idee, dass ein Raum nichts braucht außer Musik und einer ernsthaften Anlage. Es hat sein Zuhause in der Akácfa utca verlassen und sagt, es ziehe an einen neuen Ort nahe der Donau um, ohne bestätigten Termin für die Wiedereröffnung.
 
 ## Wohin in Budapest ausgehen
 

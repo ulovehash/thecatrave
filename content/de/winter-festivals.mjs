@@ -104,7 +104,7 @@ export default {
   }),
 
   sources: [
-    {html: 'Bestätigte Termine, gelesen am 4. Oktober 2026: <a href="https://igloofest.ca" target="_blank" rel="noopener noreferrer">Igloofest</a>, <a href="https://ctm-festival.de" target="_blank" rel="noopener noreferrer">CTM Festival</a>, <a href="https://elevate.at" target="_blank" rel="noopener noreferrer">Elevate</a>, <a href="https://shapesfestival.ch" target="_blank" rel="noopener noreferrer">Shapes</a> und <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing</a>.'},
+    {html: 'Bestätigte Termine: <a href="https://igloofest.ca" target="_blank" rel="noopener noreferrer">Igloofest</a>, <a href="https://ctm-festival.de" target="_blank" rel="noopener noreferrer">CTM Festival</a>, <a href="https://elevate.at" target="_blank" rel="noopener noreferrer">Elevate</a>, <a href="https://shapesfestival.ch" target="_blank" rel="noopener noreferrer">Shapes</a> und <a href="https://snowbombing.com/info" target="_blank" rel="noopener noreferrer">Snowbombing</a>.'},
     {html: 'Gelistete Termine (Seiten von Festivals, Ticketanbietern und Veranstaltern, jeweils mit einer zweiten Quelle): Tomorrowland Winter, Snow Machine, Nameless Winter, Caprices, Hibernation, Rise und Contact Winter.'},
     {html: 'Berichterstattung der Fachpresse über die ruhigeren Optionen: Resident Advisor (CTM, Elevate, Shapes, Rise, Caprices), Pitchfork (CTM) und The Quietus (Elevate).'}
   ],

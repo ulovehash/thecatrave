@@ -142,9 +142,9 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Fusion Festival FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>2028 dates and the 2027 gap, read on 5 October 2026: ${ext('https://tickets.fusion-festival.de/', 'Fusion Ticketshop')}.</li>
-<li>Ticket lottery, 2026 price, 18+ rule, vehicle tickets, Bundeswehr reply, 2026 newsletters and the official FAQ (times, stages, rules, travel), read on 5 October 2026: ${ext('https://fusion-festival.de/', 'fusion-festival.de')}, English pages and news archive.</li>
-<li>Organiser facts (Kulturkosmos Müritz, crews, programme elements): the official English festival page, read on 5 October 2026.</li>
+<li>2028 dates and the 2027 gap: ${ext('https://tickets.fusion-festival.de/', 'Fusion Ticketshop')}.</li>
+<li>Ticket lottery, 2026 price, 18+ rule, vehicle tickets, Bundeswehr reply, 2026 newsletters and the official FAQ (times, stages, rules, travel): ${ext('https://fusion-festival.de/', 'fusion-festival.de')}, English pages and news archive.</li>
+<li>Organiser facts (Kulturkosmos Müritz, crews, programme elements): the official English festival page.</li>
 <li>The 2019 security dispute: ${ext('https://taz.de/Die-Zukunft-des-Musikfestivals/!5595050/', 'taz, 25 May 2019')} and ${ext('https://www.gmx.ch/magazine/unterhaltung/musik/festivals/fusion-festival-oeffnet-langem-streit-polizei-tore-33805512', 'GMX, 25 June 2019')}.</li>
 <li>Photographs: Wikimedia Commons, credited in each caption.</li>
 </ul>`}),

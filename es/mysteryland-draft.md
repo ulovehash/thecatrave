@@ -12,7 +12,7 @@ Esta guía presenta Mysteryland 2027 y explica por qué no hay festival Mysteryl
 
 ## Mysteryland 2027, y por qué no hay edición de 2026
 
-Mysteryland 2027 está fechado los días 27, 28 y 29 de agosto de 2027, de viernes a domingo, de nuevo en Haarlemmermeer: la web oficial dice que la aventura continúa en «nuestra casa de siempre». En septiembre de 2026 no se habían anunciado ni el cartel, ni los precios de las entradas, ni el nuevo concepto, y la web admitía preinscripciones.
+Mysteryland 2027 está fechado los días 27, 28 y 29 de agosto de 2027, de viernes a domingo, de nuevo en Haarlemmermeer: la web oficial dice que la aventura continúa en «nuestra casa de siempre». El cartel, los precios de las entradas y el nuevo concepto se anuncian más adelante, y la web admite preinscripciones.
 
 No hay Mysteryland en 2026. En julio de 2025, ID&T anunció que Mysteryland 2025, del 22 al 24 de agosto en el antiguo recinto de la Floriade, sería la última edición en su forma actual, y que el festival haría una pausa en 2026 para volver en 2027 con un concepto nuevo. Los organizadores dieron dos razones: los costes de producción casi se habían duplicado desde la pandemia, y los gustos del público cambiaban más deprisa que nunca. También aclararon que no pensaban dejar el recinto.
 
@@ -92,7 +92,7 @@ El hip hop tiene su sitio desde la actuación de Opgezwolle en 2006. Lo útil pa
 
 Mysteryland apenas aparece en el Selector: de los DJ sets que hay detrás de [el Selector](/selector), dos se grabaron allí, ambos filmados por Mixmag en 2016. Uno es el set de house de Franky Rizardo, el otro un directo de Surgeon y Lady Starlight.
 
-El festival filma su propio escenario principal. Los dos sets de abajo son los más vistos de sus subidas recientes: Hardwell en 2023, con 2,8 millones de reproducciones, y Charlotte de Witte en 2024, con 2,4 millones, en septiembre de 2026.
+El festival filma su propio escenario principal. Los dos sets de abajo son los más vistos de sus subidas recientes: Hardwell en 2023, con 2,8 millones de reproducciones, y Charlotte de Witte en 2024, con 2,4 millones.
 
 [Embed: Hardwell 2023 and Charlotte de Witte 2024, _8acHa-APa8]
 
@@ -106,7 +106,7 @@ No. ID&T puso Mysteryland en pausa en 2026, tras una edición de 2025 presentada
 
 ### ¿Cuándo es Mysteryland 2027?
 
-Del viernes 27 al domingo 29 de agosto de 2027, en Haarlemmermeer, según la web oficial. El cartel y los precios de las entradas no se habían anunciado en septiembre de 2026.
+Del viernes 27 al domingo 29 de agosto de 2027, en Haarlemmermeer, según la web oficial. El cartel y los precios de las entradas aún no se han anunciado.
 
 ### ¿Dónde se celebra Mysteryland?
 
@@ -122,4 +122,4 @@ Mysteryland es más antiguo y neerlandés: empezó en 1993 y se celebra en Haarl
 
 ### ¿Cuánto cuestan las entradas de Mysteryland?
 
-Los precios de las entradas de Mysteryland 2027 no se habían anunciado en septiembre de 2026. La web oficial admite preinscripciones, y el festival es solo para mayores de 18 años.
+Los precios de las entradas de Mysteryland 2027 aún no se han anunciado. La web oficial admite preinscripciones, y el festival es solo para mayores de 18 años.

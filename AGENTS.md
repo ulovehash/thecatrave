@@ -157,7 +157,7 @@ Every city, country, continent, worldwide or thematic club roundup must give rea
 
 - Keep the presentation compact and consistent across all venues in the article; do not make readers hunt through unrelated prose for these facts.
 - Link to the club's official website or official social account for current hours, tickets, door rules and last-minute changes. Google Maps is for location and directions. An `Upcoming events` link must open that specific venue's Resident Advisor page or official event listing; never substitute a city-wide calendar.
-- Add a visible `Last checked` date for changeable venue information. Label prices and opening patterns as typical rather than guaranteed, and do not reproduce stale event listings as evergreen copy.
+- Never print a check date, a "read on" date or an "as of" date in reader-facing text; re-check the fact and state it. Label prices and opening patterns as typical rather than guaranteed, and do not reproduce stale event listings as evergreen copy.
 - Never invent an accessibility, safety, crowd or door-policy claim. State `not confirmed` or omit the detail when reliable current evidence is unavailable.
 - Apply this rule to English articles and their German and French translations. Translated venue facts and links must remain equivalent to the approved English source.
 

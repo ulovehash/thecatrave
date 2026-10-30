@@ -48,8 +48,7 @@ buildFestivalArticle({
       rulesNote:'Entry and campsite rules can change before August. Sziget currently prohibits glass and flame-based cooking equipment, and requires the refundable tent deposit for visitors bringing their own tent.',
       links:[
         {label:'Official website',url:'https://szigetfestival.com/en/'},{label:'2027 tickets',url:'https://szigetfestival.com/en/tickets/'},{label:'Travel',url:'https://szigetfestival.com/en/travel/'},{label:'Accommodation',url:'https://szigetfestival.com/en/accommodation/'},{label:'Festival information',url:'https://szigetfestival.com/en/festival-info'},{label:'Óbuda Island on Google Maps',url:'https://www.google.com/maps/search/?api=1&query=Sziget+Festival+Budapest'}
-      ],
-      checked:'2026-10-06',checkedLabel:'6 October 2026'
+      ]
     }}
   ],
   ownSetCopy:['My own cross-genre mix belongs here as a route from Sziget’s club stages into techno, breaks and bass music.', 'For the journey back into Budapest: my own multi-genre set, with techno in the mix rather than a claim to represent Sziget’s programme.'],

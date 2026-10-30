@@ -20,7 +20,7 @@ When is EDC Las Vegas? In May, over three nights, Friday to Sunday. Until 2017 i
 
 Inside the speedway, EDC combines fixed stages with roaming art cars, carnival rides and large-scale installations. Insomniac's 2026 account counted more than 450 artists across 18 music areas and art cars. The largest stage, kineticFIELD, holds 70,000 people for a headliner.
 
-Las Vegas is the flagship, not the only EDC. As of 2026 the festival is held every year in Las Vegas and Orlando, with editions abroad in China, Colombia, Mexico, South Korea and Thailand.
+Las Vegas is the flagship, not the only EDC. The festival is held every year in Las Vegas and Orlando, with editions abroad in China, Colombia, Mexico, South Korea and Thailand.
 
 ### EDC Orlando
 

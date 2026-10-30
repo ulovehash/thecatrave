@@ -86,8 +86,7 @@ export default {
       rulesNote: 'Einlass- und Campingregeln können sich bis August ändern. Derzeit sind Glas und flammenbetriebene Kochgeräte verboten; für ein eigenes Zelt ist das erstattbare Pfand erforderlich.',
       links: [
         {label: 'Offizielle Website', url: 'https://szigetfestival.com/en/'},{label: 'Tickets 2027', url: 'https://szigetfestival.com/en/tickets/'},{label: 'Anreise', url: 'https://szigetfestival.com/en/travel/'},{label: 'Unterkünfte', url: 'https://szigetfestival.com/en/accommodation/'},{label: 'Festivalinformationen', url: 'https://szigetfestival.com/en/festival-info'},{label: 'Óbuda-Insel bei Google Maps', url: 'https://www.google.com/maps/search/?api=1&query=Sziget+Festival+Budapest'}
-      ],
-      checked: '2026-10-06', checkedLabel: '6. Oktober 2026'
+      ]
     }}
   ],
 

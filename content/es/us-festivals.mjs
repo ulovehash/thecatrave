@@ -117,7 +117,7 @@ export default {
   }),
 
   sources: [
-    {html: `Fechas de 2027, leídas el 2 de octubre de 2026: ${[
+    {html: `Fechas de 2027: ${[
       ['https://www.insomniac.com/', 'Insomniac'], ['https://movementfestival.com/faqs', 'preguntas frecuentes de Movement'], ['https://www.basscanyon.com/', 'Bass Canyon'],
       ['https://www.electricforest.com/', 'Electric Forest'], ['https://www.lostlands.com/', 'Lost Lands']
     ].map(link).join(', ')} (EDC, EDC Orlando, Beyond Wonderland y Dreamstate, en Insomniac).`},

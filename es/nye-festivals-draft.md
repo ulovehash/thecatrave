@@ -12,7 +12,7 @@ La Nochevieja cae en pleno verano en el hemisferio sur y en pleno invierno en el
 
 [Table: festivals]
 
-Las fechas marcadas como «consultar en la web» no estaban anunciadas cuando se escribió esta guía, en septiembre de 2026. El cartel de la mayoría de estos eventos se anuncia en otoño.
+Las fechas marcadas como «consultar en la web» aún no están anunciadas. El cartel de la mayoría de estos eventos se anuncia en otoño.
 
 ## Nochevieja en Europa: el FCKNYE y los clubes
 

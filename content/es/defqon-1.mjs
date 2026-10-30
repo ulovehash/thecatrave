@@ -91,12 +91,12 @@ export default {
         articleVideoCard({youtubeId: 'GYEcEGThh-M', genre: 'Hardstyle', artist: 'Loud373', title: 'Boiler Room Uzbekistan: Sublimation'})
       ]
     }),
-    'Table: status 2027': table('Estado de Defqon.1 2027', ['Elemento de 2027', 'Estado el 5 de octubre de 2026'], [
+    'Table: status 2027': table('Estado de Defqon.1 2027', ['Elemento de 2027', 'Estado'], [
       ['Fechas', '24 al 27 de junio de 2027, Q-dance'],
       ['Lugar', 'Holy Grounds, Biddinghuizen'],
-      ['Entradas', 'Lista de deseos abierta, ventas desde el 27 de octubre'],
-      ['Precios', 'No indicados en las páginas leídas'],
-      ['Cartel', 'No indicado en las páginas leídas']
+      ['Entradas', 'Venta por fases desde el 27 de octubre'],
+      ['Precios', 'En la tienda de Q-dance'],
+      ['Cartel', 'Sin publicar']
     ]),
     'Table: sale schedule': table('Calendario de venta de Defqon.1 2027', ['Fecha', 'Fase'], [
       ['1 de octubre de 2026', 'Se abre la lista de deseos'],
@@ -108,9 +108,9 @@ export default {
   }),
 
   sources: [
-    {html: `Fechas de 2027, calendario de venta, tipos de entrada, métodos de pago, horarios, normas de edad y escenarios, leídos el 5 de octubre de 2026: ${ext('https://www.q-dance.com/l/defqon1-2027', 'Q-dance Defqon.1 2027')} y las páginas de eventos y preguntas frecuentes de Q-dance enlazadas desde allí (en inglés).`},
-    {html: 'Cancelación y opciones de reembolso de 2026, preguntas frecuentes actualizadas el 30 de junio de 2026, leídas el 5 de octubre de 2026: la página de actualización de Q-dance sobre Defqon.1 2026.'},
-    {html: `Precios de viaje, aparcamiento y lanzadera de 2026, leídos el 5 de octubre de 2026: ${ext('https://www.q-dance.com/l/defqon1-ayntk-2026-travel-to-defqon1', 'Q-dance, viaje a Defqon.1 2026')}.`},
+    {html: `Fechas de 2027, calendario de venta, tipos de entrada, métodos de pago, horarios, normas de edad y escenarios: ${ext('https://www.q-dance.com/l/defqon1-2027', 'Q-dance Defqon.1 2027')} y las páginas de eventos y preguntas frecuentes de Q-dance enlazadas desde allí (en inglés).`},
+    {html: 'Cancelación y opciones de reembolso de 2026, preguntas frecuentes actualizadas el 30 de junio de 2026: la página de actualización de Q-dance sobre Defqon.1 2026.'},
+    {html: `Precios de viaje, aparcamiento y lanzadera de 2026: ${ext('https://www.q-dance.com/l/defqon1-ayntk-2026-travel-to-defqon1', 'Q-dance, viaje a Defqon.1 2026')}.`},
     {html: `Informes de la cancelación: ${ext('https://www.iqmagazine.com/', 'IQ Magazine, 26 de junio de 2026')} y ${ext('https://nltimes.nl/', 'NL Times, 1 de julio de 2026')} (en inglés).`},
     {html: `Historia: Hardstyle Mag y ${ext('https://www.edm-lab.com/en/events/defqon-1-2022/', 'EDM Lab, 2022')}. Defqon.1 Australia: The Music Network, 30 de mayo de 2019.`},
     {html: 'Fuente secundaria para los colores de escenario adicionales, no confirmados oficialmente: hardcult.com.'}

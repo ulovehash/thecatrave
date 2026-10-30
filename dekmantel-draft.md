@@ -2,7 +2,7 @@
 
 ## Answer
 
-Dekmantel is an electronic music festival held in Amsterdam each summer. Its core days are Friday to Sunday at the Amsterdamse Bos, a woodland park on the south edge of the city, with extra programmes at the Oude Kerk, Melkweg, Paradiso and night venues in town. The festival counted its 2026 edition, held on 29 July to 2 August, as its twelfth. Dekmantel 2027 returns to the Amsterdamse Bos, but its official site had not confirmed dates when this page was checked on 2 October 2026. Third-party listings give 28 July to 1 August 2027. A separate Dekmantel Selectors festival runs in Tisno, Croatia, on 19 to 23 August 2027.
+Dekmantel is an electronic music festival held in Amsterdam each summer. Its core days are Friday to Sunday at the Amsterdamse Bos, a woodland park on the south edge of the city, with extra programmes at the Oude Kerk, Melkweg, Paradiso and night venues in town. The festival counted its 2026 edition, held on 29 July to 2 August, as its twelfth. Dekmantel 2027 returns to the Amsterdamse Bos, and its official site has not confirmed dates yet. Third-party listings give 28 July to 1 August 2027. A separate Dekmantel Selectors festival runs in Tisno, Croatia, on 19 to 23 August 2027.
 
 ## Introduction
 
@@ -22,7 +22,7 @@ If you are comparing festivals, the [best electronic music festivals in Europe](
 
 ## When is Dekmantel 2027?
 
-Dekmantel's own site had not confirmed 2027 dates on 2 October 2026. Its home page says the festival "returns to the Amsterdamse Bos in 2027" and that tickets are on sale. Listings on Skiddle and I amsterdam give Wednesday 28 July to Sunday 1 August 2027, and I amsterdam calls it the 13th edition. Treat those as unconfirmed until the festival publishes them.
+Dekmantel's own site has not confirmed 2027 dates yet. Its home page says the festival "returns to the Amsterdamse Bos in 2027" and that tickets are on sale. Listings on Skiddle and I amsterdam give Wednesday 28 July to Sunday 1 August 2027, and I amsterdam calls it the 13th edition. Treat those as unconfirmed until the festival publishes them.
 
 The 2026 edition is the best guide to the shape of the week. It ran from Wednesday 29 July to Sunday 2 August 2026, and the official FAQ describes it day by day.
 
@@ -33,7 +33,7 @@ The 2026 edition is the best guide to the shape of the week. It ran from Wednesd
 | Friday to Sunday | The festival | Amsterdamse Bos, Amstelveen |
 | Friday to Sunday | Night programme | RADION, Garage Noord, ISO, RAUM |
 
-Dekmantel at Dawn ran from 11:00 to 14:00 on Friday to Sunday, with the Selectors, Greenhouse and RADAR stages open to weekend-ticket holders only. Single-day grounds opened at 14:00. This page is updated when Dekmantel confirms the 2027 dates.
+Dekmantel at Dawn ran from 11:00 to 14:00 on Friday to Sunday, with the Selectors, Greenhouse and RADAR stages open to weekend-ticket holders only. Single-day grounds opened at 14:00.
 
 ## Where is Dekmantel held?
 
@@ -49,7 +49,7 @@ For the city itself, the [best clubs in Amsterdam](/best-clubs-in-amsterdam) cov
 
 ## How do Dekmantel tickets work?
 
-Dekmantel sells several kinds of ticket, and the rules below come from the festival's FAQ, which described the 2026 edition when it was read on 2 October 2026. The rules may change for 2027. This page does not print a price, because the only figures found were on aggregator sites that disagreed with each other. The official shop is the place for the current price.
+Dekmantel sells several kinds of ticket, and the rules below come from the festival's FAQ for the 2026 edition. The rules may change for 2027. This page does not print a price, because the only figures found were on aggregator sites that disagreed with each other. The official shop is the place for the current price.
 
 - **Festival tickets.** The festival sold 5-day, 4-day and 3-day weekend tickets and single-day tickets. A 5-day wristband gives full access to the night programme.
 - **Night tickets.** The night programme is ticketed separately from the festival.
@@ -70,7 +70,7 @@ The format is five days with limited capacity. The days are spent on the coast a
 
 ## What does Dekmantel book?
 
-Dekmantel books DJs and live acts from across electronic music. The opening concert in 2026 was Space Afrika at the Oude Kerk. Boiler Room filmed Motor City Drum Ensemble at Dekmantel in 2014, and the [Amsterdam clubs guide](/best-clubs-in-amsterdam) links that set. The 2027 line-up was not confirmed as of 2 October 2026.
+Dekmantel books DJs and live acts from across electronic music. The opening concert in 2026 was Space Afrika at the Oude Kerk. Boiler Room filmed Motor City Drum Ensemble at Dekmantel in 2014, and the [Amsterdam clubs guide](/best-clubs-in-amsterdam) links that set. The 2027 line-up is not confirmed yet.
 
 The five sets below are from the festival's own channel and come from 2025.
 
@@ -88,7 +88,7 @@ An electronic music festival in Amsterdam, held since 2013 and run by the Dekman
 
 ### When is Dekmantel 2027?
 
-The official site had not confirmed dates on 2 October 2026. Third-party listings give 28 July to 1 August 2027. Dekmantel Selectors in Croatia is confirmed for 19 to 23 August 2027.
+The official site has not confirmed dates yet. Third-party listings give 28 July to 1 August 2027. Dekmantel Selectors in Croatia is confirmed for 19 to 23 August 2027.
 
 ### Where is Dekmantel Festival?
 

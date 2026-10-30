@@ -44,7 +44,7 @@ Pratersauna opened as a club in July 2009, in a 1965 sauna building in the Prate
 
 It stopped operating in mid-December 2025. Its owners sued over unpaid rent of 232,467.21 euros, and insolvency proceedings were opened on 21 January 2026.
 
-On 23 July 2026 the site reopened as an outdoor "Urban Pool Club", Dayclub Edison Pratersauna, under Nikolaus Gutmann. It ran Thursday to Sunday from noon to 10 p.m., with entry at 7 euros and no techno. The plan was a trial of about ten weeks, to the end of September 2026, with a Christkindlmarkt in winter. Gutmann said no indoor nightclub is planned, and the owner of the building has said it will not pursue alternatives for it. What happens to the site after September 2026 had not been confirmed in anything read for this guide.
+On 23 July 2026 the site reopened as an outdoor "Urban Pool Club", Dayclub Edison Pratersauna, under Nikolaus Gutmann. It ran Thursday to Sunday from noon to 10 p.m., with entry at 7 euros and no techno. The plan was a trial of about ten weeks, to the end of September 2026, with a Christkindlmarkt in winter. Gutmann said no indoor nightclub is planned, and the owner of the building has said it will not pursue alternatives for it. What happens to the site next has not been confirmed.
 
 ## Vienna nightlife by area
 
@@ -82,7 +82,7 @@ The producer Dorian Concept released Joined Ends on Ninja Tune on 20 October 201
 
 ### Is Pratersauna still open?
 
-No, not as a nightclub. It stopped operating in December 2025, entered insolvency in January 2026 and reopened in July 2026 only as an outdoor day club with no techno, planned to run to the end of September 2026. No indoor club reopening is planned.
+No, not as a nightclub. It stopped operating in December 2025, entered insolvency in January 2026 and reopened in July 2026 only as an outdoor summer day club with no techno. No indoor club reopening is planned.
 
 ### What is the best techno club in Vienna?
 

@@ -130,7 +130,7 @@ El deep house empezó con Larry Heard y creció hasta ser un mundo propio de dis
 
 El mayor cambio de los últimos veinte años ha venido de Sudáfrica. El afro house creció allí desde los noventa junto al kwaito, y Black Coffee lo llevó a clubes y festivales de todo el mundo. El amapiano, que creció a partir del kwaito, el jazz y la música chill-out, se extendió por todo el mundo durante los años de la pandemia, y Beatport le dio una categoría de género propia en 2022.
 
-En el catálogo de sesiones de DJ grabadas de este sitio, 9.073 llevan una etiqueta house y 2.156 una etiqueta deep house, a septiembre de 2026, más que cualquier otro género. Las sesiones de house más vistas allí no son de Chicago en absoluto: Solomun, Black Coffee y Fred again.. encabezan la lista. La sesión de Black Coffee para Cercle en París es la forma más fácil de oír hasta dónde ha viajado la música.
+En el catálogo de sesiones de DJ grabadas de este sitio, más de 9.000 llevan una etiqueta house y más de 2.000 una etiqueta deep house, más que cualquier otro género. Las sesiones de house más vistas allí no son de Chicago en absoluto: Solomun, Black Coffee y Fred again.. encabezan la lista. La sesión de Black Coffee para Cercle en París es la forma más fácil de oír hasta dónde ha viajado la música.
 
 [Embed: Black Coffee Cercle]
 

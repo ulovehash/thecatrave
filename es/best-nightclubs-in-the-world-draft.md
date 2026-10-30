@@ -16,7 +16,7 @@ La mejor discoteca del mundo en la lista de DJ Mag de 2026 es [UNVRS], que tambi
 
 [Table: Ranking]
 
-Dos advertencias. DJ Mag ordena los clubes por votación pública, así que la parte alta de la lista favorece a las salas grandes con muchos seguidores, y un club pequeño con un sistema de sonido perfecto puede quedar muy por debajo de un complejo de playa. Y la lista deja fuera a miles de buenos clubes. La lista de DJ Mag de las 100 mejores discotecas del mundo no es la única. La INA, la International Nightlife Association, publica una lista rival, The World's 100 Best Clubs, en la que un jurado aporta la mitad de la puntuación final. Su votación de 2026 está abierta hasta el 2 de noviembre y la fase del jurado va del 1 de octubre al 15 de noviembre, así que la lista de 2026 no estaba publicada el 6 de octubre de 2026. La INA contó 646 locales nominados de 76 países, con España al frente con 88 y Estados Unidos con 87.
+Dos advertencias. DJ Mag ordena los clubes por votación pública, así que la parte alta de la lista favorece a las salas grandes con muchos seguidores, y un club pequeño con un sistema de sonido perfecto puede quedar muy por debajo de un complejo de playa. Y la lista deja fuera a miles de buenos clubes. La lista de DJ Mag de las 100 mejores discotecas del mundo no es la única. La INA, la International Nightlife Association, publica una lista rival, The World's 100 Best Clubs, en la que un jurado aporta la mitad de la puntuación final. Su lista de 2026 llega tras la votación pública y una fase del jurado que termina el 15 de noviembre. La INA contó 646 locales nominados de 76 países, con España al frente con 88 y Estados Unidos con 87.
 
 ## Las mejores discotecas del mundo por regiones
 
@@ -128,4 +128,4 @@ DJ Mag no tiene categoría de techno. Berghain, la sala Shelter de Illuzion Phuk
 
 ### ¿Existe una lista oficial de las 100 mejores discotecas del mundo?
 
-Hay dos. El Top 100 Clubs de DJ Mag es una votación pública que se publica cada primavera. The World's 100 Best Clubs de la INA combina una votación pública con un jurado que aporta el 50 % de la puntuación, y su lista de 2026 no estaba publicada el 6 de octubre de 2026.
+Hay dos. El Top 100 Clubs de DJ Mag es una votación pública que se publica cada primavera. The World's 100 Best Clubs de la INA combina una votación pública con un jurado que aporta el 50 % de la puntuación, y su lista de 2026 llega tras la fase del jurado, que termina el 15 de noviembre.

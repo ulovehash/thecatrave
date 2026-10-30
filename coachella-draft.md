@@ -124,4 +124,4 @@ On 9 and 10 October 1999, at the Empire Polo Club, with Beck, Tool and Rage Agai
 - Goldenvoice, festivals directory (Coachella producer and 78-acre festival footprint)
 - Elation Lighting, "1300+ Elation Lights Dazzle Coachella 2024" (Sahara's 2024 location and structure)
 - Billboard Canada, "How Did Justin Bieber Play a Concert in L.A. Before Coachella (And What Is a Radius Clause)?" (current reported scope and variability of the clause)
-- Coachella and artist YouTube channels (performance records and view counts, checked 2026-09-14)
+- Coachella and artist YouTube channels (performance records and view counts)

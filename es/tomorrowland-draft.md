@@ -38,13 +38,13 @@ No existe un festival Tomorrowland España. La única presencia española que re
 
 ### Tomorrowland en Estados Unidos
 
-A fecha de septiembre de 2026 no hay un festival Tomorrowland en Estados Unidos. Lo más parecido es UNITY, una producción conjunta con el promotor Insomniac en el Sphere de Las Vegas, que abrió el fin de semana del Labor Day, del 29 al 31 de agosto de 2025: imágenes de 360 grados, una partitura orquestal y un directo principal cada noche.
+No hay un festival Tomorrowland en Estados Unidos. Lo más parecido es UNITY, una producción conjunta con el promotor Insomniac en el Sphere de Las Vegas, que abrió el fin de semana del Labor Day, del 29 al 31 de agosto de 2025: imágenes de 360 grados, una partitura orquestal y un directo principal cada noche.
 
 Durante el festival de 2026, un cartel en DreamVille decía "Tomorrowland Uniting the World in 2027" y citaba Las Vegas entre sus destinos. Tomorrowland no ha anunciado ningún festival en Las Vegas, ni fechas ni recinto, y cuando se le preguntó, sus portavoces remitieron a UNITY.
 
 ### Tomorrowland 2027
 
-Las fechas de Tomorrowland Belgium 2027 no se han anunciado todavía, a fecha de septiembre de 2026. Las preguntas frecuentes oficiales del festival dicen que habrá más información a finales de año. Las ediciones belgas recientes han caído en los dos últimos fines de semana de julio, pero eso no confirma el calendario de 2027.
+Las fechas de Tomorrowland Belgium 2027 no se han anunciado todavía; las de 2026 salieron en diciembre de 2025. Las preguntas frecuentes oficiales del festival dicen que habrá más información a finales de año. Las ediciones belgas recientes han caído en los dos últimos fines de semana de julio, pero eso no confirma el calendario de 2027.
 
 ## Cuánta gente va a Tomorrowland: asistentes y entradas
 

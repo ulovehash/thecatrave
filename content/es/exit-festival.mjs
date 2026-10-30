@@ -61,7 +61,7 @@ export default {
       ticketRows: [
         {label: 'EXIT Festival Novi Sad 2027', note: 'No hay regreso a la fortaleza anunciado', price: 'No está a la venta'},
         {label: 'EXIT Global Tour', note: 'Eventos distintos por destino', price: 'Por evento'},
-        {label: 'Starlight Festival, Egipto', note: '8–11 de octubre de 2026 en Guiza', price: 'Mira el enlace'},
+        {label: 'Starlight Festival, Egipto', note: 'Festival aparte en Guiza', price: 'Mira el enlace'},
         {label: 'EXIT2Montenegro', note: 'Fechas de 2026 anunciadas en Ulcinj y Budva', price: 'Mira el enlace'}
       ],
       ticketNote: 'Desde la página de la gira mundial, abre el evento con nombre y comprueba el año, el país y el lugar antes de cualquier reserva no reembolsable.',
@@ -105,9 +105,7 @@ export default {
         {label: 'Gira mundial y entradas', url: 'https://www.exitfest.org/global-tour'},
         {label: 'Historia de EXIT', url: 'https://www.exitfest.org/en/about-us'},
         {label: 'Fortaleza de Petrovaradin en Google Maps, lugar histórico', url: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad'}
-      ],
-      checked: '2026-10-06',
-      checkedLabel: '6 de octubre de 2026'
+      ]
     }}
   ],
 

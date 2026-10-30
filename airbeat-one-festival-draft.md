@@ -2,7 +2,7 @@
 
 ## Answer
 
-Airbeat One is a large electronic camping festival at the airfield in Neustadt-Glewe, northern Germany. Its programme separates mainstream EDM, techno, hardstyle and psytrance across distinct stages, while the campsite operates as a major part of the weekend. Airbeat One 2027 runs from 7 to 11 July and marks 25 years since the first edition in 2002. The announced theme is Australia. Detailed opening hours, the complete lineup and the final camping operation should be checked against the current official information before travel.
+Airbeat One is a large electronic camping festival at the airfield in Neustadt-Glewe, northern Germany. Its programme separates mainstream EDM, techno, hardstyle and psytrance across distinct stages, while the campsite operates as a major part of the weekend. Airbeat One 2027 runs from 7 to 11 July and marks 25 years since the first edition in 2002. The announced theme is Australia. The festival publishes detailed opening hours, the complete lineup and the final camping details closer to the date.
 
 ## Introduction
 

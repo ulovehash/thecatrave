@@ -121,7 +121,7 @@ const tocItems = [...sections.map(s => ({id: s.id, label: s.heading})), {id: 'fa
 const readingTime = `${Math.max(5, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const sources = [
-  '[Official Charts](https://www.officialcharts.com/songs/), song chart histories for 9PM (Till I Come), Saltwater, Children, Silence, Café del Mar, For an Angel, Adagio for Strings, Satellite, Shivers/Serenity and Out of the Blue, read 6 October 2026.',
+  '[Official Charts](https://www.officialcharts.com/songs/), song chart histories for 9PM (Till I Come), Saltwater, Children, Silence, Café del Mar, For an Angel, Adagio for Strings, Satellite, Shivers/Serenity and Out of the Blue.',
   'A State of Trance all-time Top 1000: the [2021 results](https://www.astateoftrance.com/armin-van-buuren-reveals-all-time-a-state-of-trance-top-1000-list/) and the [2024 results](https://www.astateoftrance.com/all-time-a-state-of-trance-top-1000-list/).',
   '[DJ Mag, How Paul van Dyk\'s For An Angel changed trance forever](https://djmag.com/features/how-paul-van-dyks-angel-changed-trance-forever), for the 1994 MFS release and the E-Werk Remix.',
   'Release dates for 9 PM (Till I Come), Saltwater, Out of the Blue, Shivers, Communication Part 3 and Concrete Angel come from discography and reference pages, not from a label page.',

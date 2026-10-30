@@ -12,7 +12,7 @@ Untold nació de un título que la ciudad había ganado. En 2015, Cluj-Napoca er
 
 ## Untold 2027: fechas y la Star Edition
 
-Untold Festival 2027 se celebra del 5 al 8 de agosto de 2027, de jueves a domingo, en el Cluj Arena de Cluj-Napoca. El festival la llama Star Edition, su duodécima, y los abonos de cuatro días están a la venta en la taquilla oficial. La web oficial no había publicado cartel para 2027 a 15 de septiembre de 2026.
+Untold Festival 2027 se celebra del 5 al 8 de agosto de 2027, de jueves a domingo, en el Cluj Arena de Cluj-Napoca. El festival la llama Star Edition, su duodécima, y los abonos de cuatro días están a la venta en la taquilla oficial. La web oficial aún no ha publicado cartel para 2027.
 
 ## Dónde se celebra Untold
 

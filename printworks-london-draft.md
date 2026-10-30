@@ -26,7 +26,7 @@ The redevelopment plans changed between the 2024 application and the 2026 consul
 | 24 September 2024 | Southwark Council approves, and Mixmag reports the venue as set to return in 2026. |
 | May 2026 | A new consultation proposes a culture and leisure use only, keeps the Press Halls and the Inkwell, adds a roof terrace and partially demolishes the building, retaining the frame of the Press Halls. A revised application was planned for the summer. |
 
-A Printworks London reopening is planned, but the revised design and opening date are not confirmed. A local news report in May 2026 carried a heading about a delay to the return of nightlife. The proposed Printworks London 2026 reopening had no confirmed date as of 5 October. The revised application’s submission status also remained unconfirmed.
+A Printworks London reopening is planned, but the revised design and opening date are not confirmed. A local news report in May 2026 carried a heading about a delay to the return of nightlife. The proposed Printworks London 2026 reopening has no confirmed date. The revised application’s submission status also remained unconfirmed.
 
 Follow [Printworks](https://printworkslondon.co.uk/) for event announcements and ticket information.
 

@@ -12,9 +12,9 @@ Lollapalooza empezó como una despedida. En 1991, Perry Farrell puso a su grupo,
 
 ## Lollapalooza 2027: estado de las fechas
 
-Lollapalooza Chicago no había anunciado sus fechas de 2027 a 17 de septiembre de 2026. El festival suele celebrarse de jueves a domingo, el último fin de semana de julio o el primero de agosto, pero ese patrón no es un calendario confirmado para 2027. Las fechas confirmadas de Lollapalooza deben venir de la web oficial del festival antes de planear un viaje. La edición de 2026 se celebró del 30 de julio al 2 de agosto.
+Lollapalooza Chicago aún no ha anunciado sus fechas de 2027; las de 2026 salieron en marzo. El festival suele celebrarse de jueves a domingo, el último fin de semana de julio o el primero de agosto, pero ese patrón no es un calendario confirmado para 2027. Las fechas confirmadas de Lollapalooza deben venir de la web oficial del festival antes de planear un viaje. La edición de 2026 se celebró del 30 de julio al 2 de agosto.
 
-Las ediciones sudamericanas sí tienen fecha. Las webs oficiales de Lollapalooza Chile y Lollapalooza Argentina figuraban en Google el 9 de octubre de 2026 con el 12, 13 y 14 de marzo de 2027, y el festival de Chile, en el Parque O'Higgins de Santiago. Según el listado de All Access, el de Argentina se celebra en el Hipódromo de San Isidro, en la provincia de Buenos Aires.
+Las ediciones sudamericanas sí tienen fecha. Las webs oficiales de Lollapalooza Chile y Lollapalooza Argentina dan el 12, 13 y 14 de marzo de 2027, y el festival de Chile, en el Parque O'Higgins de Santiago. Según el listado de All Access, el de Argentina se celebra en el Hipódromo de San Isidro, en la provincia de Buenos Aires.
 
 ## Dónde se celebra Lollapalooza
 
@@ -96,7 +96,7 @@ El pariente más cercano de Lollapalooza en esta web es [Coachella](/es/festival
 
 ### ¿Cuándo es Lollapalooza 2027?
 
-Lollapalooza Chicago no había anunciado sus fechas de 2027 a 17 de septiembre de 2026. Las webs oficiales de Lollapalooza Chile y Lollapalooza Argentina figuraban el 9 de octubre de 2026 con el 12, 13 y 14 de marzo de 2027.
+Lollapalooza Chicago aún no ha anunciado sus fechas de 2027; las de 2026 salieron en marzo. Las webs oficiales de Lollapalooza Chile y Lollapalooza Argentina dan el 12, 13 y 14 de marzo de 2027.
 
 ### ¿Existe Lollapalooza solo en Chicago?
 
@@ -104,7 +104,7 @@ No. Chicago es la edición permanente en Estados Unidos, celebrada en Grant Park
 
 ### ¿Cuándo termina Lollapalooza?
 
-El domingo por la noche de sus cuatro días. En 2026 fue el 2 de agosto. Lollapalooza Chicago no había anunciado sus fechas de 2027 a 17 de septiembre de 2026.
+El domingo por la noche de sus cuatro días. En 2026 fue el 2 de agosto. Lollapalooza Chicago aún no ha anunciado sus fechas de 2027; las de 2026 salieron en marzo.
 
 ### ¿Cuánta gente asiste a Lollapalooza?
 

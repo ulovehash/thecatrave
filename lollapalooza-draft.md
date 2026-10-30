@@ -12,7 +12,7 @@ What is Lollapalooza now? This guide covers the Lollapalooza location in Chicago
 
 ## Lollapalooza 2027 date status
 
-Lollapalooza Chicago had not announced its 2027 dates as of 17 September 2026. The Lollapalooza festival usually runs from Thursday to Sunday across the last weekend of July or the first weekend of August, but that pattern is not a confirmed 2027 schedule. Confirmed Lollapalooza dates should come from the official festival site before you plan travel. The 2026 edition ran from 30 July to 2 August.
+Lollapalooza Chicago has not announced its 2027 dates yet; the 2026 dates came out in March. The Lollapalooza festival usually runs from Thursday to Sunday across the last weekend of July or the first weekend of August, but that pattern is not a confirmed 2027 schedule. Confirmed Lollapalooza dates should come from the official festival site before you plan travel. The 2026 edition ran from 30 July to 2 August.
 
 ## Where Lollapalooza is
 
@@ -98,7 +98,7 @@ No. Chicago is the permanent US edition, held in Grant Park since 2005, but the 
 
 ### When does Lollapalooza end?
 
-On the Sunday night of its four days. In 2026 that was 2 August. Lollapalooza Chicago had not announced its 2027 dates as of 17 September 2026.
+On the Sunday night of its four days. In 2026 that was 2 August. Lollapalooza Chicago has not announced its 2027 dates yet; the 2026 dates came out in March.
 
 ### How many people attend Lollapalooza?
 

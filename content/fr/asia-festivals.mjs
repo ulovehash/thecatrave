@@ -109,11 +109,11 @@ export default {
   }),
 
   sources: [
-    {html: `Sites officiels, consultés le 4 octobre 2026 : ${[
+    {html: `Sites officiels : ${[
       ['https://ultrajapan.com', 'Ultra Japan'], ['https://www.wonderfruit.co', 'Wonderfruit'], ['https://s2ofestival.com', 'S2O'], ['https://www.sunburn.in', 'Sunburn'],
       ['https://dwpfest.com', 'DWP'], ['https://ultrakorea.com', 'Ultra Korea'], ['https://ultrasingapore.com', 'Ultra Singapore'], ['https://zamnafestival.com/events/zamna-on-the-beach-Thailand', 'Zamna On The Beach Thailand']
     ].map(link).join(', ')}.`},
-    {html: `Billets et dates de 2027, consultés le 5 octobre 2026 : ${link(['https://ultrajapan.com/tickets-2027', 'billetterie officielle d’Ultra Japan'])} et ${link(['https://zamnafestival.com/events/zamna-phuket', 'page officielle de l’événement Zamna Phuket'])}.`},
+    {html: `Billets et dates de 2027 : ${link(['https://ultrajapan.com/tickets-2027', 'billetterie officielle d’Ultra Japan'])} et ${link(['https://zamnafestival.com/events/zamna-phuket', 'page officielle de l’événement Zamna Phuket'])}.`},
     {html: `Affiche et prix d’Ultra Japan 2026 : ${link(['https://popii-land.jp/en/ultra-japan-2026-first-lineup-peggy-gou-en/', 'Popii Land'])} (en anglais).`},
     {html: `Première vague d’artistes de Wonderfruit : ${link(['https://likdo.asia/magazine/wonderfruit-2026-announces-first-wave-of-artist-lineup/', 'LIKDO'])} (en anglais).`},
     {html: `S2O 2026 : ${link(['https://www.eventpop.me/e/87299', 'page de billetterie d’Eventpop'])}, ${link(['https://edm-addicts.com/news/s2o-songkran-music-festival-returns-april-11-13-2026', 'EDM Addicts'])} et ${link(['https://go2-thailand.com/blog/s2o-songkran-music-festival-2026-bangkok-edm-water-party/', 'récapitulatif de Go2Thailand'])} (en anglais).`},

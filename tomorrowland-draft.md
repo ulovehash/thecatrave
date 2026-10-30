@@ -26,7 +26,7 @@ Tomorrowland Winter began in 2019 in Alpe d'Huez, a ski resort in the French Alp
 
 ### Tomorrowland Thailand
 
-Tomorrowland Thailand is the newest, scheduled for 11 to 13 December 2026 at Wisdom Valley, near Pattaya. At the time of writing it has not yet taken place.
+Tomorrowland Thailand is the newest, scheduled for 11 to 13 December 2026 at Wisdom Valley, near Pattaya.
 
 ### Tomorrowland Brasil and TomorrowWorld
 
@@ -34,13 +34,13 @@ Tomorrowland Brasil was held in Itu, in São Paulo state, in 2015 and 2016, and 
 
 ### Tomorrowland in the USA
 
-There is no Tomorrowland USA festival at the time of writing, in September 2026. The nearest thing is UNITY, a joint production with the promoter Insomniac at Sphere in Las Vegas, which opened over Labor Day weekend, 29 to 31 August 2025: 360-degree visuals, an orchestral score, and a live headline set each night.
+There is no Tomorrowland USA festival. The nearest thing is UNITY, a joint production with the promoter Insomniac at Sphere in Las Vegas, which opened over Labor Day weekend, 29 to 31 August 2025: 360-degree visuals, an orchestral score, and a live headline set each night.
 
 During the 2026 festival, a banner in DreamVille read "Tomorrowland Uniting the World in 2027" and listed Las Vegas among its destinations. Tomorrowland has not announced a Las Vegas festival, dates or a venue, and when asked, its representatives pointed to UNITY.
 
 ### Tomorrowland 2027
 
-Tomorrowland Belgium 2027 dates have not been announced yet, as of September 2026. The festival's official FAQ says more information will be available at the end of the year. Recent Belgian editions have taken place over the last two weekends of July, but those dates are not confirmation of the 2027 schedule.
+Tomorrowland Belgium 2027 dates have not been announced yet; the 2026 dates came out in December 2025. The festival's official FAQ says more information will be available at the end of the year. Recent Belgian editions have taken place over the last two weekends of July, but those dates are not confirmation of the 2027 schedule.
 
 ## How big Tomorrowland is
 

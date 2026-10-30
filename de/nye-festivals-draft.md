@@ -12,7 +12,7 @@ Silvester fällt auf der Südhalbkugel mitten in den Sommer und auf der Nordhalb
 
 [Tabelle: festivals]
 
-Wo „auf der Website prüfen" steht, waren die Termine beim Schreiben dieses Guides im September 2026 noch nicht angekündigt. Die Line-ups der meisten dieser Veranstaltungen kommen im Herbst.
+Wo „auf der Website prüfen" steht, ist der Termin noch nicht angekündigt. Die Line-ups der meisten dieser Veranstaltungen kommen im Herbst.
 
 ## Silvester in Europa: FCKNYE und die Clubs
 

@@ -26,10 +26,10 @@ const draft = raw.slice(start, end);
 
 const canonical = 'https://thecatrave.com/why-dj-mag-top-100-never-changes';
 const title = 'Why the DJ Mag Top 100 Barely Changes';
-const description = 'Why the DJ Mag Top 100 barely changes: eleven years of top tens, how the vote works, what campaigning is allowed and who the poll leaves out.';
+const description = 'Why the DJ Mag Top 100 barely changes: twelve years of top tens, how the vote works, what campaigning is allowed and who the poll leaves out.';
 const datePublished = '2026-10-06';
-const dateModified = '2026-10-08';
-const dateLabel = '8 October 2026';
+const dateModified = '2026-10-31';
+const dateLabel = '31 October 2026';
 
 const escapeHtml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const inline = value => escapeHtml(value).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
@@ -105,7 +105,7 @@ const faqItems = getSection('FAQ').split('\n').filter(line => line.startsWith('*
 });
 
 const sections = [
-  {id: 'top-ten-table', heading: 'Eleven years, five names', h2: 'Eleven years, five names.'},
+  {id: 'top-ten-table', heading: 'Twelve years, the same names', h2: 'Twelve years, the same names.'},
   {id: 'how-the-vote-works', heading: 'How the DJ Mag Top 100 vote works', h2: 'How the DJ Mag Top 100 vote works.'},
   {id: 'campaigning', heading: 'Campaigning is allowed', h2: 'Campaigning is allowed.'},
   {id: 'criticisms', heading: 'The criticisms on record', h2: 'The criticisms on record.'},
@@ -123,6 +123,7 @@ const readingTime = `${Math.max(6, Math.round(draft.split(/\s+/).length / 225))}
 
 const sources = [
   'DJ Mag, Top 100 DJs results pages for 2015 to 2025 (djmag.com/top100djs), including the 2025 analysis, the voting rules, the campaigning rules and the 2026 voting announcement.',
+  'Bandwagon, Ibiza Spotlight and EDM Lab, coverage of the 2026 results (October 2026).',
   '[Wikipedia, DJ Mag Top 100 DJs](https://en.wikipedia.org/wiki/DJ_Mag_Top_100_DJs), for the winners from 1997 to 2014.',
   '[Wikipedia, Disc jockey](https://en.wikipedia.org/wiki/Disc_jockey), for the early hip hop DJs.',
   'The Guardian, Ben Child, October 2010, on the poll.',
@@ -134,8 +135,8 @@ const sources = [
 ].map(line => `<li>${inline(line)}</li>`).join('');
 
 const articleHtml = [
-  articleHero({kicker: 'DJ Mag Top 100', title, deck: 'Five DJs have been in the top ten of every poll since 2015. This looks at the table, the vote, the rules and the DJs it leaves out.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'The short version', bodyHtml: inline(intro[0]), className: 'article-summary'}), tocItems}),
-  articleSection({id: 'introduction', title: 'The same names, eleven years running.', bodyHtml: join(intro.slice(1)), className: 'article-intro'}),
+  articleHero({kicker: 'DJ Mag Top 100', title, deck: 'Four DJs have been in the top ten of every poll since 2015. This looks at the table, the vote, the rules and the DJs it leaves out.', readingTime, dateModified, dateLabel, summaryHtml: infoBanner({label: 'The short version', bodyHtml: inline(intro[0]), className: 'article-summary'}), tocItems}),
+  articleSection({id: 'introduction', title: 'The same names, twelve years running.', bodyHtml: join(intro.slice(1)), className: 'article-intro'}),
   ...bodySections,
   articleFaq({items: faqItems, title: 'DJ Mag Top 100 FAQ.', openFirst: true}),
   authorCard({filled: true}),

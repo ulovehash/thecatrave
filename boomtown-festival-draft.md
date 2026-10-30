@@ -50,7 +50,7 @@ Boomtown Festival UK Limited is the operating company. In 2022, Live Nation and 
 
 Boomtown is a demanding five-day camping trip as well as a festival. Work out the entry ticket, journey, sleeping setup and realistic daily spend before deciding what the weekend costs. Matterley Estate is hilly, distances are substantial and the route used to arrive affects both the ticket price and the most convenient campsite.
 
-The planning module on the published page compares the current 2027 entry prices, the Winchester rail shuttle, direct coaches, driving and drop-off, camping choices, previous-edition food and drink benchmarks, packing essentials, alcohol limits and live official links. Prices, timetables, the map and entry rules must be rechecked before travel.
+The planning module on the published page compares the current 2027 entry prices, the Winchester rail shuttle, direct coaches, driving and drop-off, camping choices, previous-edition food and drink benchmarks, packing essentials, alcohol limits and live official links. Prices, timetables, the map and entry rules are confirmed by the festival close to each edition.
 
 ## FAQ
 

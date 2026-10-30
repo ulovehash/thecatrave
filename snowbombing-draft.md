@@ -2,7 +2,7 @@
 
 ## Answer
 
-Snowbombing is a ski and music festival held in Mayrhofen, a village in Austria's Zillertal valley. The core festival days in 2027 are Monday 5 April to Saturday 10 April, and the festival recommends arriving on Sunday 4 April and leaving on Sunday 11 April. It sells weeklong packages, not day tickets: every package includes accommodation and a festival wristband, and on 4 October 2026 the booking page showed packages from £399 per person, with a £50 deposit to book. The festival is 18 and over. Bicep (live), Fatboy Slim, 2manydjs, Andy C, Basement Jaxx, Groove Armada, Skream and Wilkinson were among the acts announced on its site on 4 October 2026, with more still to come.
+Snowbombing is a ski and music festival held in Mayrhofen, a village in Austria's Zillertal valley. The core festival days in 2027 are Monday 5 April to Saturday 10 April, and the festival recommends arriving on Sunday 4 April and leaving on Sunday 11 April. It sells weeklong packages, not day tickets: every package includes accommodation and a festival wristband, and packages start from £399 per person, with a £50 deposit to book. The festival is 18 and over. Bicep (live), Fatboy Slim, 2manydjs, Andy C, Basement Jaxx, Groove Armada, Skream and Wilkinson are among the acts announced, with more still to come.
 
 ## Introduction
 
@@ -43,7 +43,7 @@ The venues named on the festival's site are the Forest Stage, the Street Party, 
 
 You cannot buy a ticket on its own. The FAQ says day wristbands are not available, and that the festival sells only weeklong wristbands, bought with accommodation for a minimum of five nights. Every package on the booking page includes accommodation and a wristband, and the prices shown include a £249 wristband.
 
-On 4 October 2026 the cheapest package on the booking page was £399 per person at Zillertal Valley Apartments. Eckartauerhof and Edge of Town Apartments were £519 and £529, and Kumbichlhof was £529. At the top, Sporthotel Strass was £1,009 and Strass Apartments £1,139. Edelweiss was sold out. The page groups packages as Luxury Central Hotels, Budget Friendly Hotels, and Chalets and Group Apartments, and these are "from" prices, so check the room type and dates you pick.
+The cheapest package on the booking page is £399 per person at Zillertal Valley Apartments. Eckartauerhof and Edge of Town Apartments are £519 and £529, and Kumbichlhof is £529. At the top, Sporthotel Strass is £1,009 and Strass Apartments £1,139. The page groups packages as Luxury Central Hotels, Budget Friendly Hotels, and Chalets and Group Apartments, and these are "from" prices, so check the room type and dates you pick.
 
 The rules that catch people out, as the FAQ states them:
 
@@ -60,7 +60,7 @@ Lessons and equipment hire are sold separately. The FAQ notes that most hire sho
 
 ## Who plays Snowbombing 2027?
 
-The site had announced these acts on 4 October 2026, with more to be announced: Bicep (live), Fatboy Slim, 2manydjs (DJ set), Andy C, Basement Jaxx (DJ set), East End Dubs, Ewan McVicar, Gaskin, Groove Armada (DJ set), Rossi, Skream, Wilkinson, Arielle Free, bullet tooth, Ellia Jaya, Fish56Octagon, Jess Iszatt, Sasha GiGi and Olive F.
+The acts announced so far, with more to come: Bicep (live), Fatboy Slim, 2manydjs (DJ set), Andy C, Basement Jaxx (DJ set), East End Dubs, Ewan McVicar, Gaskin, Groove Armada (DJ set), Rossi, Skream, Wilkinson, Arielle Free, bullet tooth, Ellia Jaya, Fish56Octagon, Jess Iszatt, Sasha GiGi and Olive F.
 
 Fatboy Slim, Groove Armada and Basement Jaxx are the big beat and party names, Gaskin, East End Dubs and Rossi bring house, and Andy C, Skream and Wilkinson bring bass music. A line-up announced in stages will change before April, so treat this list as a snapshot.
 
@@ -92,7 +92,7 @@ In Mayrhofen, Austria, a village at 630 metres at the head of the Zillertal. The
 
 ### How much does Snowbombing cost?
 
-On 4 October 2026 the booking page showed packages from £399 per person, with a £249 wristband included in every price. The most expensive listed was £1,139 per person. The deposit is £50.
+Packages start from £399 per person, with a £249 wristband included in every price. The most expensive listed is £1,139 per person. The deposit is £50.
 
 ### Can you buy a day ticket for Snowbombing?
 
@@ -104,7 +104,7 @@ No. Day wristbands are not available. The festival sells only weeklong wristband
 
 ### Who is playing Snowbombing 2027?
 
-Bicep (live), Fatboy Slim, 2manydjs, Andy C, Basement Jaxx, Groove Armada, East End Dubs, Skream and Wilkinson were among the acts announced on 4 October 2026, with more to be announced.
+Bicep (live), Fatboy Slim, 2manydjs, Andy C, Basement Jaxx, Groove Armada, East End Dubs, Skream and Wilkinson are among the acts announced, with more to come.
 
 ### How do you get to Snowbombing?
 

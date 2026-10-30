@@ -129,10 +129,10 @@ const articleHtml = [
   articleFaq({items: faqItems, title: 'Electric Forest FAQ.', openFirst: true}),
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
-<li>Dates, passes, add-ons, arrival times and shuttles, read on 4 October 2026: ${ext('https://electricforestfestival.com/', 'electricforestfestival.com')}, ${ext('https://electricforestfestival.com/pass-types', 'pass types')} and ${ext('https://electricforestfestival.com/tickets', 'tickets')}.</li>
-<li>Rules, driving directions, prohibited items and the prep guide, read on 4 October 2026: ${ext('https://electricforestfestival.com/festival-info', 'festival info')} and ${ext('https://electricforestfestival.com/forest-prep-guide', 'the Forest prep guide')}.</li>
-<li>Stages, Sherwood Forest and The Brainery, and past posters, read on 4 October 2026: ${ext('https://electricforestfestival.com/experiences', 'experiences')} and ${ext('https://electricforestfestival.com/a-look-back', 'a look back')}.</li>
-<li>The venue, read on 4 October 2026: ${ext('https://electricforestfestival.com/double-jj-resort', 'the Double JJ Resort page')}.</li>
+<li>Dates, passes, add-ons, arrival times and shuttles: ${ext('https://electricforestfestival.com/', 'electricforestfestival.com')}, ${ext('https://electricforestfestival.com/pass-types', 'pass types')} and ${ext('https://electricforestfestival.com/tickets', 'tickets')}.</li>
+<li>Rules, driving directions, prohibited items and the prep guide: ${ext('https://electricforestfestival.com/festival-info', 'festival info')} and ${ext('https://electricforestfestival.com/forest-prep-guide', 'the Forest prep guide')}.</li>
+<li>Stages, Sherwood Forest and The Brainery, and past posters: ${ext('https://electricforestfestival.com/experiences', 'experiences')} and ${ext('https://electricforestfestival.com/a-look-back', 'a look back')}.</li>
+<li>The venue: ${ext('https://electricforestfestival.com/double-jj-resort', 'the Double JJ Resort page')}.</li>
 <li>The 2026 lineup announcement, December 2025: ${ext('https://whitelakemirror.com/article/2025/12/electric-forest-sets-dates-lineup-for-june-2026-event', 'White Lake Mirror')} and ${ext('https://oceanacountypress.com/2025/12/08/electric-forest-drops-2026-lineup-tickets-go-on-sale-friday/', 'Oceana County Press')}, the source of the reported general admission price.</li>
 <li>History: ${ext('https://tvovermind.com/the-history-and-evolution-of-the-electric-forest-festival/', 'TV Overmind, 2019')} and the permit extension, ${ext('https://theticket953.com/ixp/689/p/electric-forest-festival-rothbury-michigan-extended/', 'The Ticket 95.3, 2024')}.</li>
 </ul>`}),
