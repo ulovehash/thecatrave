@@ -2,7 +2,7 @@
 
 ## Respuesta
 
-Printworks London está cerrado. El local de Rotherhithe celebró su última noche el 1 de mayo de 2023, seis años después de abrir en una antigua imprenta de periódicos. Los propietarios, British Land, y el operador, Broadwick, dicen que volverá como espacio de cultura y ocio, y el Ayuntamiento de Southwark aprobó los planes en septiembre de 2024. No hay fecha de reapertura confirmada. El objetivo de 2026 que se dio en 2024 no se ha cumplido, y una consulta de mayo de 2026 volvió a abrir el diseño.
+Printworks London está cerrado. El local de Rotherhithe celebró su última noche el 1 de mayo de 2023, seis años después de abrir en una antigua imprenta de periódicos. Los propietarios, British Land, y el operador, Broadwick, dicen que volverá como espacio de cultura y ocio, y el Ayuntamiento de Southwark aprobó los planes en septiembre de 2024. No hay fecha de reapertura confirmada. El objetivo de 2026 que se dio en 2024 no se ha cumplido, y una consulta de mayo de 2026 volvió a abrir el diseño. En octubre de 2026, DJ Mag, citando a The Times, informó de que Broadwick planea reabrir una nueva versión en 2029.
 
 ## Introducción
 
@@ -12,9 +12,9 @@ Para salas abiertas ahora están la [guía de clubes de Londres](/best-electroni
 
 ## ¿Vuelve Printworks London?
 
-Sí, oficialmente, pero sin fecha. Tras el fin de semana de cierre de 2023, Simeon Aldred, de Broadwick, dijo a DJ Mag que la empresa esperaba volver en tres años. Resident Advisor publicó el 2 de mayo de 2023 que no podía decir que el regreso fuese seguro y que no había contratos firmados. Más tarde los propietarios lo confirmaron en documentos de planeamiento, que pesan más que las esperanzas expresadas en una entrevista.
+Sí, oficialmente, pero sin fecha confirmada. Tras el fin de semana de cierre de 2023, Simeon Aldred, de Broadwick, dijo a DJ Mag que la empresa esperaba volver en tres años. Resident Advisor publicó el 2 de mayo de 2023 que no podía decir que el regreso fuese seguro y que no había contratos firmados. Más tarde los propietarios lo confirmaron en documentos de planeamiento, que pesan más que las esperanzas expresadas en una entrevista. El objetivo más reciente viene de la prensa: en octubre de 2026, DJ Mag, citando a The Times, dijo que Broadwick quiere desarrollar una «nueva versión» de Printworks y planea reabrirla dentro del nuevo desarrollo en 2029.
 
-Lo que es oficial: British Land, la propietaria, y su socio AustralianSuper presentaron en febrero de 2024 una solicitud al Ayuntamiento de Southwark para recuperar Printworks como local cultural permanente. Lo que no es oficial: cualquier mes de apertura, cualquier cartel y cualquier venta de entradas. Si una web dice vender entradas para una noche en Printworks London, desconfía.
+Lo que es oficial: British Land, la propietaria, y su socio AustralianSuper presentaron en febrero de 2024 una solicitud al Ayuntamiento de Southwark para recuperar Printworks como local cultural permanente. Lo que no es oficial: cualquier fecha de apertura, cualquier cartel y cualquier venta de entradas. Si una web dice vender entradas para una noche en Printworks London, desconfía.
 
 ## Reapertura de Printworks London: qué es oficial
 
@@ -22,7 +22,7 @@ Los planes de reforma cambiaron entre la solicitud de 2024 y la consulta de 2026
 
 [Table: timeline]
 
-La reapertura de Printworks London está prevista, pero el diseño revisado y la fecha de apertura no están confirmados. Un medio local publicó en mayo de 2026 un titular sobre el retraso en la vuelta de la vida nocturna. La reapertura de Printworks London en 2026 que se planteó no tiene fecha confirmada, y tampoco está confirmado que se haya presentado la solicitud revisada.
+La reapertura de Printworks London está prevista, pero el diseño revisado y la fecha de apertura no están confirmados. Un medio local publicó en mayo de 2026 un titular sobre el retraso en la vuelta de la vida nocturna. La reapertura de Printworks London en 2026 que se planteó no se produjo, la fecha de 2029 publicada en octubre de 2026 no está confirmada oficialmente, y tampoco está confirmado que se haya presentado la solicitud revisada.
 
 Para anuncios de eventos e información de entradas, sigue la web oficial de [Printworks](https://printworkslondon.co.uk/).
 
@@ -83,6 +83,10 @@ Mientras Printworks London siga cerrado, lo más parecido son otras salas de Lon
 Si buscas escala, Drumsheds es la sala grande que está abierta. Si buscas el ambiente industrial, ningún otro local de Londres fue una nave de imprenta, así que espera algo distinto.
 
 ## FAQ
+
+### ¿Cuándo reabre Printworks London?
+
+No hay fecha confirmada. En octubre de 2026 DJ Mag, citando a The Times, informó de un plan para reabrir en 2029.
 
 ### ¿Cuándo cerró Printworks London?
 

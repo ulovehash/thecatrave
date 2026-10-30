@@ -76,7 +76,7 @@ export default {
     'Embed: D-Edge': articleVideoCollection({lang, label: 'Grabado en D-Edge', description: 'DJ Mag Live presenta D-Edge, una sesión de 2017 desde São Paulo.', items: [
       articleVideoCard({youtubeId: 'PQtqN-azfM8', genre: 'D-Edge, 2017', artist: 'DJ Mag', title: 'DJ Mag Live presenta D-Edge'})
     ]}),
-    'Embed: thecatrave mix 1': ownSetListening(0, lang),
+    'Embed: thecatrave mix 1': ownSetListening(0, lang, 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión, para volver a casa después del club.'),
     'Table: Ranking': articleTable({
       headers: ["Puesto", "Club", "Ciudad", "Aforo"],
       rows: [["1", "[UNVRS]", "Ibiza, España", "4.000"], ["2", "GREENVALLEY", "Camboriú, Brasil", "10.000"], ["3", "Ushuaïa Ibiza", "Ibiza, España", "7.866"], ["4", "Hï Ibiza", "Ibiza, España", "5.633"], ["5", "Savaya", "Uluwatu, Bali", "2.500"], ["6", "Echostage", "Washington D. C., EE. UU.", "3.000"], ["7", "Laroc Club", "Valinhos, Brasil", "5.000"], ["8", "FABRIK", "Región de Madrid, España", "6.000"], ["9", "Illuzion Phuket", "Phuket, Tailandia", "5.000"], ["10", "Surreal Park", "Camboriú, Brasil", "20.000"], ["11", "Bootshaus", "Colonia, Alemania", "2.000"], ["13", "fabric", "Londres, Reino Unido", "No consta"], ["14", "Club Space", "Miami, EE. UU.", "1.100"], ["17", "Zouk Singapore", "Singapur", "2.900"], ["20", "Studio 338", "Londres, Reino Unido", "2.400"], ["21", "Berghain", "Berlín, Alemania", "1.500"], ["35", "D-Edge", "São Paulo, Brasil", "1.000"], ["44", "Academy LA", "Los Ángeles, EE. UU.", "1.000"], ["46", "Warung Beach Club", "Itajaí, Brasil", "2.500"], ["88", "WOMB", "Tokio, Japón", "1.000"]].map(row => row.map(escapeHtml)),

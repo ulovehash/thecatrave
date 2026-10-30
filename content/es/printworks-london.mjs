@@ -40,11 +40,11 @@ export default {
   bodyClass: 'article-page printworks-london-page',
   minReadingMinutes: 6,
 
-  title: 'Printworks London: reapertura, cierre e historia',
-  description: 'Printworks London cerró en mayo de 2023. Qué está previsto oficialmente, por qué cerró, sus salas y aforo, noches míticas, Drumsheds y adónde ir mientras tanto.',
+  title: 'Printworks London: ¿reapertura en 2029? Cierre e historia',
+  description: 'Printworks London sigue cerrado. Se habla de una vuelta en 2029, pero no hay fecha oficial. Qué está previsto, por qué cerró, noches míticas y adónde ir ahora.',
   datePublished: '2026-10-09',
-  dateModified: '2026-10-09',
-  dateLabel: '9 de octubre de 2026',
+  dateModified: '2026-10-31',
+  dateLabel: '31 de octubre de 2026',
 
   heroKicker: 'Guía de club, Londres',
   heroTitle: 'Printworks London: reapertura, cierre e historia',
@@ -71,7 +71,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave mix 0': ownSetListening(0, lang),
+    'thecatrave mix 0': ownSetListening(0, lang, 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión, para volver a casa después del club.'),
     'thecatrave mix 1': ownSetListening(1, lang),
     'gate-2010': figure('gate-2010', 1200, 797,
       'Una verja con alambre de espino y un cartel de East Deliveries en la imprenta de Harmsworth Quays, en Rotherhithe',
@@ -108,7 +108,8 @@ export default {
       rows: rows([
         ['12 de febrero de 2024', 'British Land y AustralianSuper presentan una solicitud de asuntos reservados. El plan sitúa el local en la mitad del edificio y espacio de trabajo y comercio en la otra mitad, y dice que reabrirá en 2026.'],
         ['24 de septiembre de 2024', 'Southwark aprueba el plan, y Mixmag informa de que el local volverá en 2026.'],
-        ['Mayo de 2026', 'Una nueva consulta propone un uso solo cultural y de ocio, mantiene las Press Halls y la Inkwell, añade una terraza en la azotea y demuele parcialmente el edificio, conservando la estructura de las Press Halls. Se preveía una solicitud revisada para el verano.']
+        ['Mayo de 2026', 'Una nueva consulta propone un uso solo cultural y de ocio, mantiene las Press Halls y la Inkwell, añade una terraza en la azotea y demuele parcialmente el edificio, conservando la estructura de las Press Halls. Se preveía una solicitud revisada para el verano.'],
+        ['Octubre de 2026', 'DJ Mag, citando a The Times, informa de que Broadwick planea una «nueva versión» de Printworks, que reabriría dentro del desarrollo en 2029.'],
       ])
     }),
     'Table: drumsheds': articleTable({
@@ -126,7 +127,7 @@ export default {
 
   sources: [
     {html: `Planes de reapertura y solicitud de 2024: ${ext('https://www.britishland.com/news/british-land-and-australiansuper-submit-application-to-revive-printworks-as-a-permanent-cultural-venue/', 'British Land')}, ${ext('https://www.theguardian.com/music/2024/feb/12/printworks-london-may-reopen-by-2026-after-developers-submit-plans', 'The Guardian')} y ${ext('https://www.timeout.com/london/news/printworks-is-set-to-reopen-as-a-massive-cultural-venue-with-gigs-and-a-rooftop-space-021224', 'Time Out')}.`},
-    {html: `Aprobación y vuelta en 2026: ${ext('https://mixmag.net/read/printworks-london-plans-reopen-confirmed-2026-news', 'Mixmag')}. Consulta de 2026: ${ext('https://canadawater.co.uk/latest/news/invitation-to-view-proposals-for-a-new-cultural-venue-at-printworks/', 'Canada Water')} y ${ext('https://salamandernews.org/2026-05-canada-water-printworks-consultation/', 'Salamander News')}. Página del operador: ${ext('https://broadwick.com/divisions/spaces/printworks-london/', 'Broadwick')}.`},
+    {html: `Aprobación y vuelta en 2026: ${ext('https://mixmag.net/read/printworks-london-plans-reopen-confirmed-2026-news', 'Mixmag')}. Plan de 2029 publicado en prensa: ${ext('https://djmag.com/news/team-behind-printworks-talks-over-new-venues-berlin-new-york-and-miami', 'DJ Mag, 22 de octubre de 2026')}. Consulta de 2026: ${ext('https://canadawater.co.uk/latest/news/invitation-to-view-proposals-for-a-new-cultural-venue-at-printworks/', 'Canada Water')} y ${ext('https://salamandernews.org/2026-05-canada-water-printworks-consultation/', 'Salamander News')}. Página del operador: ${ext('https://broadwick.com/divisions/spaces/printworks-london/', 'Broadwick')}.`},
     {html: `Cierre: ${ext('https://www.bbc.com/news/entertainment-arts-65427101', 'BBC, 1 de mayo de 2023')}, ${ext('https://mixmag.net/read/printworks-officially-shuttered-renovated-into-offices-news', 'Mixmag, julio de 2022')}, ${ext('https://ra.co/news/77877', 'Resident Advisor, 2 de mayo de 2023')}, ${ext('https://www.djmag.com/news/printworks-hopes-return-three-years-says-broadwick-live-after-massive-closing-weekend', 'DJ Mag')} y ${ext('https://www.theguardian.com/music/2023/may/02/save-the-last-dance-london-superclub-printworks-aims-to-reopen-in-2026', 'The Guardian, 2 de mayo de 2023')}.`},
     {html: `Noche de apertura, 4 de febrero de 2017: ${ext('https://ra.co/events/908779', 'Resident Advisor')}. Aforo, salas y noches de sellos: ${ext('https://www.djmag.com/top100clubs/2023/2/Printworks-London', 'DJ Mag Top 100 Clubs 2023')}.`},
     {html: `Drumsheds: ${ext('https://www.bbc.com/news/entertainment-arts-67273621', 'BBC, 4 de noviembre de 2023')} y ${ext('https://www.theguardian.com/music/2025/jan/14/can-the-uks-biggest-nightclub-stay-open-drumsheds', 'The Guardian, 14 de enero de 2025')}. Web oficial: ${ext('https://printworkslondon.co.uk', 'printworkslondon.co.uk')}.`}

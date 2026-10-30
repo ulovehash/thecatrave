@@ -71,7 +71,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave mix 0': ownSetListening(0, lang),
+    'thecatrave mix 0': ownSetListening(0, lang, 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión, para volver a casa después del club.'),
     'thecatrave mix 1': ownSetListening(1, lang),
     'exterior-2017': figure('exterior-2017', 1200, 900,
       'La fachada de fabric en Charterhouse Street, en Londres: un edificio estrecho de piedra y ladrillo entre otros dos más grandes, con su nombre sobre las puertas',

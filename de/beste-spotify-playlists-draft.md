@@ -74,11 +74,11 @@ UKF dokumentiert Drum and Bass seit 2009 online, lange genug, dass seine Playlis
 
 Beginne beim Kurator, nicht bei der Zahl der Follower. Eine Sender-Playlist ist nützlich, wenn du einen wechselnden Feed mit Neuerscheinungen willst. Eine Publikationsliste verbindet Songs mit Rezensionen. Eine Künstler-Playlist zeigt Einflüsse und Platten, die in DJ-Sets landen. Eine Label-Playlist ist enger, doch genau diese Enge ist der Punkt.
 
-Speichere eine Liste, die oft aktualisiert wird, und ein langes Archiv, das das nicht braucht. Die erste hält dich auf dem Laufenden, die zweite lässt dich an einer anderen Stelle als ganz oben einsteigen. Wenn du eine Stunde mit einer echten Dramaturgie statt einer Liste im Shuffle-Modus willst, geh zu den [Live-DJ-Sets](/live-dj-sets) oder lass [den Selector](/de/selector) ein Set zufällig auswählen.
+Speichere eine Liste, die oft aktualisiert wird, und ein langes Archiv, das das nicht braucht. Die erste hält dich auf dem Laufenden, die zweite lässt dich an einer anderen Stelle als ganz oben einsteigen. Wenn du eine Stunde mit einer echten Dramaturgie statt einer Liste im Shuffle-Modus willst, geh zu den [Live-DJ-Sets](/de/live-dj-sets-ansehen), den [besten SoundCloud-Mixen](/de/beste-soundcloud-dj-mixes) oder den [besten Techno-Mixen](/de/beste-techno-mixes), oder lass [den Selector](/de/selector) ein Set zufällig auswählen. Nur House? Dafür gibt es [die besten House-Playlists auf Spotify](/de/beste-house-playlists-spotify).
 
 [Tabelle: Playlist-Vergleich]
 
-Für mehr Szenekontext lies die Guides zu [Bass Music](/bass-music-guide), [UK Garage](/uk-garage-guide), [Dubstep](/de/dubstep) und [Drum and Bass](/de/drum-and-bass).
+Für mehr Szenekontext lies die Guides zu [Bass Music](/de/bass-music), [UK Garage](/de/uk-garage), [Dubstep](/de/dubstep) und [Drum and Bass](/de/drum-and-bass).
 
 ## FAQ
 

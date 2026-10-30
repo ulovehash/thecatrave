@@ -63,11 +63,14 @@ const faqSchemaItems = html => {
   const faq = schemas.find(schema => schema['@type'] === 'FAQPage');
   return (faq?.mainEntity || []).map(item => ({question:item.name || '', answer:item.acceptedAnswer?.text || ''}));
 };
+// A closing link tag leaves a space before the next comma or full stop, on
+// either side depending on the builder. French spacing before ? and : stays.
+const sameFaqText = (a, b) => a.replace(/ ([,.])/g, '$1') === b.replace(/ ([,.])/g, '$1');
 const faqMatchesVisibleContent = html => {
   const visible = visibleFaqItems(html);
   const schema = faqSchemaItems(html);
   return visible.length > 0 && visible.length === schema.length && visible.every((item, index) =>
-    item.question === schema[index].question && item.answer === schema[index].answer
+    item.question === schema[index].question && sameFaqText(item.answer, schema[index].answer)
   );
 };
 // The label is translated per language (i18n.mjs), so the scan looks for any

@@ -6,7 +6,7 @@ Defqon.1 2027 está fijado del 24 al 27 de junio de 2027 en los Holy Grounds de 
 
 ## Introducción
 
-Defqon.1 es el gran fin de semana de hardstyle y está en una situación rara: la última edición terminó antes de tiempo y las normas de entradas de la siguiente han cambiado por ello. Las búsquedas de Defqon.1 2026 y de Defqon.1 2027 son altas, algo coherente con un festival cuyos compradores intentan entender qué pasó y qué hacer ahora.
+Defqon.1 es el gran fin de semana de hardstyle y está en una situación rara: la última edición terminó antes de tiempo y las normas de entradas de la siguiente han cambiado por ello.
 
 Esta página cuenta qué es el festival, cuándo y dónde se celebra la edición de 2027, cómo funcionan las fases de venta, por qué se canceló 2026 y dónde escuchar la música. Para la música en sí, mira la [guía de hardstyle](/hardstyle-guide) (en inglés). Mucha gente escribe el nombre como Defqon 1, porque el punto forma parte de la marca.
 

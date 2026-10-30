@@ -185,7 +185,7 @@ Für elektronische Musik waren die zehn größten europäischen Namen in der Umf
 
 ### Wo gibt es EDM-Konzerte in Europa?
 
-Außerhalb der Festivalsaison lebt die elektronische Musik in Europa in den Clubs, vor allem in Berlin, London, Amsterdam und Barcelona. Die Guides zu den [Clubs in Berlin](/de/clubs-berlin) und den [Clubs in London](/de/clubs-london) auf dieser Seite behandeln beide Städte ausführlich. Das Amsterdam Dance Event im Oktober bringt Hunderte von Clubnächten in eine Woche.
+Außerhalb der Festivalsaison lebt die elektronische Musik in Europa in den Clubs, vor allem in Berlin, London, Amsterdam und Barcelona. Die Guides zu den [Clubs in Berlin](/de/clubs-berlin), [Clubs in London](/de/clubs-london), [Clubs in Amsterdam](/de/clubs-amsterdam) und [Clubs in Barcelona](/de/clubs-barcelona) auf dieser Seite behandeln alle vier Städte ausführlich. Das Amsterdam Dance Event im Oktober bringt Hunderte von Clubnächten in eine Woche.
 
 ### Wann werden die Festivaltermine für 2027 bekannt gegeben?
 

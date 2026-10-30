@@ -28,7 +28,7 @@ Ibiza is the one island on this list, with very large clubs that open from late 
 
 Barcelona has Razzmatazz, five rooms under one roof in Poblenou, and Nitsa, the electronic night that has run inside Sala Apolo since 1996. Sónar brings the city its biggest week every June. See the [Barcelona clubs guide](/best-clubs-in-barcelona).
 
-Lisbon has Lux Frágil, opened in 1998 in a warehouse on the river near Santa Apolónia station by Manuel Reis, with the actor John Malkovich as a partner, and widely called the most famous club in Lisbon. Buraka Som Sistema's set for Boiler Room in Lisbon, in 2013, shows another side of the city: kuduro.
+Lisbon has Lux Frágil, opened in 1998 in a warehouse on the river near Santa Apolónia station by Manuel Reis, with the actor John Malkovich as a partner, and widely called the most famous club in Lisbon. Buraka Som Sistema's set for Boiler Room in Lisbon, in 2013, shows another side of the city: kuduro. See the [Lisbon clubs guide](/best-clubs-in-lisbon).
 
 [Embed: Buraka Som Sistema Lisbon]
 

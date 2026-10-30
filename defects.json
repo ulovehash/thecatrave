@@ -1236,7 +1236,11 @@
       "found": "2026-10-31",
       "by": "Claude, while fixing the same line on the club roundups",
       "what": "'for a break from the festival' still prints under the mix on fabric-london, pacha-ibiza, printworks-london and love-parade, and its Spanish version on es/fabric-london, es/printworks-london, es/mejores-discotecas-de-europa and es/mejores-discotecas-del-mundo. None of them is a festival page. Left open because the main checkout has uncommitted work on fabric, pacha and printworks.",
-      "should_have_caught": "ownSetListening's default line is written for festival guides, and nothing stops a non-festival guide from taking it."
+      "should_have_caught": "ownSetListening's default line is written for festival guides, and nothing stops a non-festival guide from taking it.",
+      "fix": {
+        "file": "build-printworks-london-article.mjs",
+        "contains": "for the walk home after the club"
+      }
     },
     {
       "id": "trance-tracks-faq-says-ranks",
@@ -1267,6 +1271,91 @@
       "what": "monegros-desert-festival mixes 2026 and 2027 status: the FAQ treats cashless and 18+ as 2026 rules awaiting the 2027 FAQ while the planner states them as current; the FAQ says tents are from earlier editions while the price table lists VIP Tent for 2027; final 2027 transport is called pending beside a detailed coach section; the 'from €83' row may be out of date. Left open because each needs checking against the official site, which did not load for the reviewer.",
       "should_have_caught": "The planner and the FAQ draw on different dates of the same official pages, and nothing reconciles them.",
       "fix": null
+    },
+    {
+      "id": "printworks-2029-report-missing",
+      "found": "2026-10-31",
+      "by": "Claude, reading DJ Mag's 22 October 2026 report while redrafting the title",
+      "what": "printworks-london and es/printworks-london said only that no date existed, while DJ Mag, citing The Times, reported on 22 October 2026 that Broadwick plans to reopen a new version in 2029. A title reading 'no date yet' had been drafted from a summary of that article, before the article itself was read to the end.",
+      "should_have_caught": "Nothing watches news on a venue whose page turns on a date; only re-reading the coverage finds it.",
+      "fix": {
+        "file": "printworks-london-draft.md",
+        "contains": "plans to reopen a new version in 2029"
+      }
+    },
+    {
+      "id": "de-spotify-page-links-english-pages",
+      "found": "2026-10-31",
+      "by": "Claude, while placing internal links",
+      "what": "de/beste-spotify-playlists sent German readers to the English /live-dj-sets and /uk-garage-guide although de/live-dj-sets-ansehen and de/uk-garage exist.",
+      "should_have_caught": "Nothing checks a translated page's internal links against the hreflang map.",
+      "fix": {
+        "file": "de/beste-spotify-playlists-draft.md",
+        "contains": "[Live-DJ-Sets](/de/live-dj-sets-ansehen)"
+      }
+    },
+    {
+      "id": "defqon-intro-reports-search-volume",
+      "found": "2026-10-31",
+      "by": "Claude, in the Search Console review",
+      "what": "defqon-1 told readers that searches for two phrases 'are both high': research process in live copy, of no use to a listener.",
+      "should_have_caught": "audit-keywords checks that terms appear, not that the page discusses them as search terms.",
+      "fix": {
+        "file": "defqon-1-draft.md",
+        "contains": "the ticket rules for the next one changed because of it.\n"
+      }
+    },
+    {
+      "id": "faq-audit-fails-on-link-before-comma",
+      "found": "2026-10-31",
+      "by": "Build check, after a German FAQ answer gained links followed by commas",
+      "what": "faqStructuredDataMatchesVisibleContent turned every tag into a space, so a link followed by a comma read 'Berlin ,' on the visible side and 'Berlin,' in the schema, and a correct page failed.",
+      "should_have_caught": "The audit was only ever run on FAQ answers whose links ended a sentence the same way on both sides.",
+      "fix": {
+        "file": "audit-site-components.mjs",
+        "contains": "const sameFaqText = (a, b)"
+      }
+    },
+    {
+      "id": "faq-schema-space-before-punctuation",
+      "found": "2026-10-31",
+      "by": "Claude, while diagnosing faq-audit-fails-on-link-before-comma",
+      "what": "Some FAQ schema answers carry a stray space where a link ended, for example 'see the house music guide .' Harmless to the visible page, but the structured data is slightly wrong. The builder that strips links for the schema needs the same fix on every guide that uses it.",
+      "should_have_caught": "sameFaqText now ignores this difference on purpose, so nothing checks the schema spacing itself.",
+      "fix": null
+    },
+    {
+      "id": "london-guide-printworks-2026-stale",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking the Printworks 2029 update",
+      "what": "The London clubs guide in English, German and French still said the Press Halls are scheduled to reopen in 2026, which contradicts the Printworks page and is no longer true.",
+      "should_have_caught": "Nothing ties a dated claim about one venue on a roundup to that venue's own guide.",
+      "fix": {
+        "file": "london-clubs-draft.md",
+        "contains": "a return in 2029 has been reported but not confirmed."
+      }
+    },
+    {
+      "id": "love-parade-mix-line-tone",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking the new mix lines",
+      "what": "A casual 'walk home after the parade' mix line sat on the Love Parade page, which covers the 21 deaths at Duisburg.",
+      "should_have_caught": "The line was written per page type and nobody read it against the page's subject.",
+      "fix": {
+        "file": "build-love-parade-article.mjs",
+        "contains": "My own mix, for listening at home."
+      }
+    },
+    {
+      "id": "printworks-es-title-states-2029-as-fact",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, before the Spanish title shipped",
+      "what": "The draft Spanish title 'reapertura en 2029' stated a reported, unconfirmed plan as fact.",
+      "should_have_caught": "Only a reviewer reading the title against the body's 'reported' framing finds this.",
+      "fix": {
+        "file": "content/es/printworks-london.mjs",
+        "contains": "Printworks London: ¿reapertura en 2029? Cierre e historia"
+      }
     }
   ]
 }

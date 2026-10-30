@@ -20,11 +20,11 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('printworks-london-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/printworks-london';
-const title = 'Printworks London: Reopening, Closure and History';
-const description = 'Printworks London closed in May 2023. What is officially planned, why it shut, its rooms and capacity, famous nights, Drumsheds and where to go instead.';
+const title = 'Printworks London Reopening: 2029 Plan, Closure and History';
+const description = 'Printworks London is still closed. A 2029 return is reported, but no official date is set. What is planned, why it shut, famous nights and where to go now.';
 const published = '2026-10-05';
-const date = '2026-10-08';
-const dateLabel = '8 October 2026';
+const date = '2026-10-31';
+const dateLabel = '31 October 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -106,7 +106,7 @@ const clubSets = articleVideoCollection({
   ]
 });
 
-const firstMix = ownSetListening(0);
+const firstMix = ownSetListening(0, 'en', 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own mix, for the walk home after the club.');
 const secondMix = ownSetListening(1);
 
 const tocItems = [
@@ -148,7 +148,7 @@ const articleHtml = [
   authorCard({filled: true}),
   articleSources({bodyHtml: `<ul>
 <li>Reopening plans and 2024 application: ${ext('https://www.britishland.com/news/british-land-and-australiansuper-submit-application-to-revive-printworks-as-a-permanent-cultural-venue/', 'British Land')}, ${ext('https://www.theguardian.com/music/2024/feb/12/printworks-london-may-reopen-by-2026-after-developers-submit-plans', 'the Guardian')} and ${ext('https://www.timeout.com/london/news/printworks-is-set-to-reopen-as-a-massive-cultural-venue-with-gigs-and-a-rooftop-space-021224', 'Time Out')}.</li>
-<li>Approval and return in 2026: ${ext('https://mixmag.net/read/printworks-london-plans-reopen-confirmed-2026-news', 'Mixmag')}. 2026 consultation: ${ext('https://canadawater.co.uk/latest/news/invitation-to-view-proposals-for-a-new-cultural-venue-at-printworks/', 'Canada Water')} and ${ext('https://salamandernews.org/2026-05-canada-water-printworks-consultation/', 'Salamander News')}. Operator page: ${ext('https://broadwick.com/divisions/spaces/printworks-london/', 'Broadwick')}.</li>
+<li>Approval and return in 2026: ${ext('https://mixmag.net/read/printworks-london-plans-reopen-confirmed-2026-news', 'Mixmag')}. Reported 2029 plan: ${ext('https://djmag.com/news/team-behind-printworks-talks-over-new-venues-berlin-new-york-and-miami', 'DJ Mag, 22 October 2026')}. 2026 consultation: ${ext('https://canadawater.co.uk/latest/news/invitation-to-view-proposals-for-a-new-cultural-venue-at-printworks/', 'Canada Water')} and ${ext('https://salamandernews.org/2026-05-canada-water-printworks-consultation/', 'Salamander News')}. Operator page: ${ext('https://broadwick.com/divisions/spaces/printworks-london/', 'Broadwick')}.</li>
 <li>Closure: ${ext('https://www.bbc.com/news/entertainment-arts-65427101', 'BBC, 1 May 2023')}, ${ext('https://mixmag.net/read/printworks-officially-shuttered-renovated-into-offices-news', 'Mixmag, July 2022')}, ${ext('https://ra.co/news/77877', 'Resident Advisor, 2 May 2023')}, ${ext('https://www.djmag.com/news/printworks-hopes-return-three-years-says-broadwick-live-after-massive-closing-weekend', 'DJ Mag')} and ${ext('https://www.theguardian.com/music/2023/may/02/save-the-last-dance-london-superclub-printworks-aims-to-reopen-in-2026', 'the Guardian, 2 May 2023')}.</li>
 <li>Opening night, 4 February 2017: ${ext('https://ra.co/events/908779', 'Resident Advisor')}. Capacity, rooms and takeovers: ${ext('https://www.djmag.com/top100clubs/2023/2/Printworks-London', 'DJ Mag Top 100 Clubs 2023')}.</li>
 <li>Drumsheds: ${ext('https://www.bbc.com/news/entertainment-arts-67273621', 'BBC, 4 November 2023')} and ${ext('https://www.theguardian.com/music/2025/jan/14/can-the-uks-biggest-nightclub-stay-open-drumsheds', 'the Guardian, 14 January 2025')}. Official site: ${ext('https://printworkslondon.co.uk', 'printworkslondon.co.uk')}.</li>

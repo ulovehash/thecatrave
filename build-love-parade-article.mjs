@@ -117,7 +117,7 @@ const articleHtml = [
     tocItems
   }),
   articleSection({id: 'introduction', title: 'Three questions behind one name.', bodyHtml: join(sec('Introduction')), className: 'article-intro'}),
-  articleSection({id: 'meaning', title: 'What is the Love Parade meaning?', bodyHtml: `${join(sec('What is the Love Parade meaning?'))}${ownSetListening(0)}`}),
+  articleSection({id: 'meaning', title: 'What is the Love Parade meaning?', bodyHtml: `${join(sec('What is the Love Parade meaning?'))}${ownSetListening(0, 'en', 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own mix, for listening at home.')}`}),
   articleSection({id: 'begin', title: 'How did the Love Parade begin in 1989?', bodyHtml: join(sec('How did the Love Parade begin in 1989?'))}),
   articleSection({id: 'ruhr', title: 'Where was the Love Parade held after Berlin?', bodyHtml: `${join(sec('Where was the Love Parade held after Berlin?'))}${ownTrackListening('berlin-race-1909', 'My own Berlin track, made for listening.')}`}),
   articleSection({id: 'duisburg', title: 'What happened at the Loveparade Duisburg 2010?', bodyHtml: join(sec('What happened at the Loveparade Duisburg 2010?'))}),

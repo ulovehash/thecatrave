@@ -103,7 +103,7 @@ const clubSets = articleVideoCollection({
   ]
 });
 
-const firstMix = ownSetListening(0);
+const firstMix = ownSetListening(0, 'en', 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own mix, for the walk home after the club.');
 const secondMix = ownSetListening(1);
 
 const tocItems = [

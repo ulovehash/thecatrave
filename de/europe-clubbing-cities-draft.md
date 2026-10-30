@@ -28,7 +28,7 @@ Ibiza ist die einzige Insel auf dieser Liste, mit sehr großen Clubs, die von En
 
 Barcelona hat das Razzmatazz, fünf Räume unter einem Dach in Poblenou, und Nitsa, die elektronische Nacht, die seit 1996 in der Sala Apolo läuft. Das Sónar bringt der Stadt jedes Jahr im Juni ihre größte Woche. Siehe den [Guide zu den Clubs in Barcelona](/de/clubs-barcelona).
 
-Lissabon hat das Lux Frágil, 1998 von Manuel Reis in einer Lagerhalle am Fluss nahe dem Bahnhof Santa Apolónia eröffnet, mit dem Schauspieler John Malkovich als Partner, und weithin als berühmtester Club Lissabons bezeichnet. Das Set von Buraka Som Sistema für Boiler Room in Lissabon, 2013, zeigt eine andere Seite der Stadt: Kuduro.
+Lissabon hat das Lux Frágil, 1998 von Manuel Reis in einer Lagerhalle am Fluss nahe dem Bahnhof Santa Apolónia eröffnet, mit dem Schauspieler John Malkovich als Partner, und weithin als berühmtester Club Lissabons bezeichnet. Das Set von Buraka Som Sistema für Boiler Room in Lissabon, 2013, zeigt eine andere Seite der Stadt: Kuduro. Siehe den [Guide zu den Clubs in Lissabon](/de/clubs-lissabon).
 
 [Embed: Buraka Som Sistema Lisbon]
 
