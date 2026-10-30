@@ -55,11 +55,11 @@ export default {
   faqTitle: 'Preguntas frecuentes sobre las discotecas de Ibiza.',
 
   sections: [
-    {id: 'pacha-and-amnesia', heading: 'Pacha y Amnesia: las dos primeras', title: 'Pacha y Amnesia: las dos primeras.'},
-    {id: 'clubs-that-closed', heading: 'Los clubes que cerraron: Ku, Privilege y Space', title: 'Los clubes que cerraron: Ku, Privilege y Space.'},
-    {id: 'best-clubs-now', heading: 'Las mejores discotecas de Ibiza ahora', title: 'Las mejores discotecas de Ibiza ahora.'},
-    {id: 'where-to-stay', heading: 'Dónde alojarse en Ibiza para salir de fiesta', title: 'Dónde alojarse en Ibiza para salir de fiesta.'},
-    {id: 'season', heading: 'La temporada de Ibiza: aperturas y cierres', title: 'La temporada de Ibiza: aperturas y cierres.'}
+    {id: 'pacha-and-amnesia', heading: 'Pacha y Amnesia: las dos primeras', title: '¿Cuáles son las discotecas más antiguas de Ibiza? Pacha y Amnesia'},
+    {id: 'clubs-that-closed', heading: 'Los clubes que cerraron: Ku, Privilege y Space', title: '¿Qué discotecas de Ibiza han cerrado? Ku, Privilege y Space'},
+    {id: 'best-clubs-now', heading: 'Las mejores discotecas de Ibiza ahora', title: '¿Cuáles son las mejores discotecas de Ibiza ahora?'},
+    {id: 'where-to-stay', heading: 'Dónde alojarse en Ibiza para salir de fiesta', title: '¿Dónde alojarse en Ibiza para salir de fiesta?'},
+    {id: 'season', heading: 'La temporada de Ibiza: aperturas y cierres', title: '¿Cuándo es la temporada de discotecas en Ibiza?'}
   ],
 
   media: ({lang}) => ({

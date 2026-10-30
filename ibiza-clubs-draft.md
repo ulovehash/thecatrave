@@ -8,7 +8,7 @@ The best clubs in Ibiza are Hï Ibiza, Pacha, Amnesia, DC-10, Ushuaïa and [UNVR
 
 Ibiza clubs run as a summer season on a small island: a handful of very large rooms and a calendar that starts with opening parties in spring and ends with closing parties in autumn. Most guides to the best nightclubs in Ibiza rank the rooms by size and ticket price. This one starts with where they came from, because the two oldest clubs on the island are fifty years old and the story of the rest is how they were built, renamed and replaced around them.
 
-## Pacha and Amnesia: the first two
+## What are the oldest clubs in Ibiza? Pacha and Amnesia
 
 [Image: Pacha entrance]
 
@@ -20,7 +20,7 @@ Amnesia began as a farmhouse. Its owners, the Planells family, had held the finc
 
 [Embed: Sven Vath Cocoon Pacha]
 
-## The clubs that closed: Ku, Privilege and Space
+## Which clubs in Ibiza have closed? Ku, Privilege and Space
 
 [Image: Privilege pool]
 
@@ -32,7 +32,7 @@ Space opened in the early summer of 1986 in Playa d'en Bossa, took the shape peo
 
 Both buildings are open again under new names. The Space site reopened on 28 May 2017 as Hï Ibiza. The Privilege site reopened on 30 May 2025 as [UNVRS], sold as the world's first hyperclub, still with room for 10,000. The same company, The Night League, runs both, as well as Ushuaïa.
 
-## The best clubs in Ibiza now
+## What are the best clubs in Ibiza now?
 
 [Table: now]
 
@@ -42,7 +42,7 @@ Hï is the current benchmark: two main rooms, the Theatre and the Club Room, and
 
 Tickets, hours and line-ups change every week of the season. Check each club's own listings for the nights you are there.
 
-## Where in Ibiza to stay for clubbing
+## Where should you stay in Ibiza for clubbing?
 
 Ibiza nightlife splits into three club areas. Playa d'en Bossa has Hï and Ushuaïa and is the best party location in Ibiza if the big clubs are the point. San Rafael, inland, has Amnesia and [UNVRS]. Ibiza Town has Pacha. San Antonio has its own strip of bars and Es Paradis, one of the oldest clubs on the island, which makes it the best club in San Antonio for most people, though the big rooms are all a drive away.
 
@@ -50,7 +50,7 @@ Ibiza nightlife splits into three club areas. Playa d'en Bossa has Hï and Ushua
 
 That Boiler Room set, filmed in a villa on the island in 2013 for its Ibiza Villa Takeovers series, shows how many of Ibiza's parties happen away from the clubs, at day parties and in private houses. The best day club in Ibiza is still Ushuaïa for most visitors, and the best club nights in Ibiza are often long-running residencies, such as Circoloco at DC-10.
 
-## The Ibiza season: opening and closing
+## When is the Ibiza club season?
 
 The Ibiza club season runs from late April to mid-October. Every club opens its summer with an opening party and ends it with a closing party. Closing parties run through September into October, and the last Circoloco of the season, on a Monday at DC-10, tends to be one of the final nights. Exact dates change every year and are announced by each club in spring.
 

@@ -118,18 +118,18 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 });
 
 const sections = [
-  {id: 'pacha-and-amnesia', heading: 'Pacha and Amnesia: the first two'},
-  {id: 'clubs-that-closed', heading: 'The clubs that closed: Ku, Privilege and Space'},
-  {id: 'best-clubs-now', heading: 'The best clubs in Ibiza now'},
-  {id: 'where-to-stay', heading: 'Where in Ibiza to stay for clubbing'},
-  {id: 'season', heading: 'The Ibiza season: opening and closing'}
+  {id: 'pacha-and-amnesia', heading: 'What are the oldest clubs in Ibiza? Pacha and Amnesia'},
+  {id: 'clubs-that-closed', heading: 'Which clubs in Ibiza have closed? Ku, Privilege and Space'},
+  {id: 'best-clubs-now', heading: 'What are the best clubs in Ibiza now?'},
+  {id: 'where-to-stay', heading: 'Where should you stay in Ibiza for clubbing?'},
+  {id: 'season', heading: 'When is the Ibiza club season?'}
 ];
 
 const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];
 const readingTime = `${Math.max(6, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const sectionHtml = sections.map(s => articleSection({
-  id: s.id, title: `${s.heading}.`, bodyHtml: render(getSection(s.heading))
+  id: s.id, title: s.heading.endsWith('?') ? s.heading : `${s.heading}.`, bodyHtml: render(getSection(s.heading))
 }));
 
 const sourceLink = (href, label) => `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
