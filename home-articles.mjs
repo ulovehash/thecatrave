@@ -703,6 +703,13 @@ export const homeArticleCatalog = [
 // than assumed, and the captions are translated with the prose.
 export const germanArticleCatalog = [
   {
+    page:'de/festivals-elektronische-musik-asien.html', category:'festivals', tags:['festivals','asia','house','bass'], href:'/de/festivals-elektronische-musik-asien', type:'Guide', topic:'Asien-Festivals',
+    title:'Festivals für elektronische Musik in Asien 2027: Guide',
+    description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP und Zamna: Termine für 2027, Preise und was dich bei jedem erwartet.',
+    image:'img/asia-festivals/ultra-korea-2015-320.webp', srcset:'img/asia-festivals/ultra-korea-2015-320.webp 320w,img/asia-festivals/ultra-korea-2015-1200.webp 1200w',
+    width:1200, height:1174, alt:'Das Publikum von Ultra Korea 2015'
+  },
+  {
     page:'de/edm-festivals-usa.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/de/edm-festivals-usa', type:'Guide', topic:'EDM-Festivals',
     title:'EDM-Festivals in den USA 2027: EDC, Ultra, Movement',
     description:'EDC, Ultra, Movement, ARC, Lost Lands und Electric Forest, verglichen nach Sound, Größe und Terminen für 2027.',
@@ -1198,6 +1205,13 @@ export const germanArticleCatalog = [
 // The French guides, on the same terms as the German ones above: their own
 // catalogue, the English guides' images with translated captions.
 export const frenchArticleCatalog = [
+  {
+    page:'fr/festivals-musique-electronique-asie.html', category:'festivals', tags:['festivals','asia','house','bass'], href:'/fr/festivals-musique-electronique-asie', type:'Guide', topic:'Festivals d’Asie',
+    title:'Festivals de musique électronique en Asie 2027 : guide',
+    description:'Ultra Japan, Wonderfruit, S2O, Sunburn, DWP et Zamna : dates 2027, prix et ce qui vous attend à chacun.',
+    image:'img/asia-festivals/ultra-korea-2015-320.webp', srcset:'img/asia-festivals/ultra-korea-2015-320.webp 320w,img/asia-festivals/ultra-korea-2015-1200.webp 1200w',
+    width:1200, height:1174, alt:'Le public d’Ultra Korea en 2015'
+  },
   {
     page:'fr/festivals-edm-etats-unis.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/fr/festivals-edm-etats-unis', type:'Guide', topic:'Festivals EDM',
     title:'Festivals EDM aux États-Unis en 2027 : EDC, Ultra, Movement',

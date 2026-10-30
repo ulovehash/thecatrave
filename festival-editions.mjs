@@ -69,6 +69,8 @@ export const festivalEditions = [
   {page: 'de/electro-festivals-europa.html', heading: 'Termine 2027 im Überblick', ends: null},
   {page: 'fr/festivals-electro-europe.html', heading: 'Les dates 2027 en un coup d’œil', ends: null},
   {page: 'es/festivales-musica-electronica-europa.html', heading: 'Las fechas de 2027 de un vistazo', ends: null},
+  {page: 'de/festivals-elektronische-musik-asien.html', heading: 'Die Festivals im Überblick', ends: null},
+  {page: 'fr/festivals-musique-electronique-asie.html', heading: 'Les festivals en un coup d’œil', ends: null},
   {page: 'es/festivales-musica-electronica-asia.html', heading: 'Los festivales de un vistazo', ends: null},
   {page: 'de/winterfestivals.html', heading: 'Die Termine der Winterfestivals 2027 im Überblick', ends: null},
   {page: 'fr/festivals-hiver.html', heading: 'Les dates des festivals d’hiver 2027 en un coup d’œil', ends: null},
