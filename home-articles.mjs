@@ -314,6 +314,14 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'A packed crowd with phone lights in front of the Untold main stage at night in 2019'
   },
   {
+    page:'amsterdam-dance-event.html', category:'rave-spots', tags:['discovery','techno','europe-festivals'], href:'/amsterdam-dance-event', type:'Guide', topic:'Amsterdam Dance Event',
+    title:'ADE Amsterdam 2027: When Is Amsterdam Dance Event?',
+    description:'ADE 2027 runs 20 to 24 October in Amsterdam. What Amsterdam Dance Event is, how the Pro Pass and festival tickets differ, and where 1,200+ events happen.',
+    image:'img/amsterdam-dance-event/ade-320.webp',
+    srcset:'img/amsterdam-dance-event/ade-320.webp 320w,img/amsterdam-dance-event/ade-1200.webp 1200w',
+    width:1200, height:899, alt:'A DJ at a Pioneer DJ setup beside a yellow illuminated ADE sign at Amsterdam Dance Event'
+  },
+  {
     page:'awakenings-festival.html', category:'festivals', tags:['discovery','history','techno'], href:'/awakenings-festival', type:'Guide', topic:'Awakenings',
     title:'Awakenings Festival: What It Is and Where It Happens',
     description:"Founded in Amsterdam in 1997, techno-only ever since: where Awakenings' summer festival and its Amsterdam Dance Event special happen, and why it's called Awakenings.",

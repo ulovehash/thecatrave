@@ -8,13 +8,25 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>ADE Amsterdam 2027: When Is Amsterdam Dance Event?</title>
+    <link>https://thecatrave.com/amsterdam-dance-event</link>
+    <guid isPermaLink="true">https://thecatrave.com/amsterdam-dance-event</guid>
+    <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>ADE 2027 runs 20 to 24 October in Amsterdam. What Amsterdam Dance Event is, how the Pro Pass and festival tickets differ, and where 1,200+ events happen.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <category>europe-festivals</category>
+    <media:content url="https://thecatrave.com/img/og/amsterdam-dance-event.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Nightclubs in the World: 20 Clubs From DJ Mag&apos;s 2026 Top 100</title>
     <link>https://thecatrave.com/best-nightclubs-in-the-world</link>

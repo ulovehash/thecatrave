@@ -32,6 +32,7 @@ export const generators = [
   'build-ultra-article.mjs',
   'build-untold-article.mjs',
   'build-awakenings-article.mjs',
+  'build-amsterdam-dance-event-article.mjs',
   'build-coachella-article.mjs',
   'build-lollapalooza-article.mjs',
   'build-glastonbury-article.mjs',

@@ -1,0 +1,39 @@
+{
+  "page": "amsterdam-dance-event.html",
+  "seed": "amsterdam dance event",
+  "source": "Ahrefs Keywords Explorer, global volumes, pulled 2026-10-30 (disclosed fallback to the Keyword Planner default; see TOPIC-DOSSIERS.md ADE entry).",
+  "terms": [
+    {
+      "term": "ade amsterdam",
+      "volume": "14000",
+      "note": "Ahrefs global"
+    },
+    {
+      "term": "amsterdam dance event",
+      "volume": "8800",
+      "note": "Ahrefs global"
+    },
+    {
+      "term": "ade festival",
+      "volume": "2400",
+      "note": "Ahrefs global"
+    },
+    {
+      "term": "ade dates",
+      "volume": "700",
+      "note": "Ahrefs global"
+    },
+    {
+      "term": "when is ade",
+      "volume": "600",
+      "note": "Ahrefs global"
+    }
+  ],
+  "expansion_checked": "Ahrefs matching and related terms for amsterdam dance event / ade, and the SERP overview (third-party pages get roughly 4 to 80 visits a month, the organiser holds position 1 for navigational terms).",
+  "rejected": [
+    {
+      "term": "ade tickets / ade lineup / ade programme",
+      "why": "navigational or volatile, served by the organiser; excluded per KEYWORD-METHOD.md"
+    }
+  ]
+}

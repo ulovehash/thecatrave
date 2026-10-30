@@ -2557,3 +2557,7 @@ iamsterdam: ade amsterdam 1 800 (поз. 2, 79 трафика), when is ade 250 
 
 Поправка к отчёту валидатора: у Wikipedia «45» — это оценка трафика, DR сайта 97.
 Ограничения: объёмы US-базы искажают редкие термины, решать по global; позиция /best-edm-festivals-usa 4,5 из GSC; Keyword Planner дал лишь диапазоны.
+
+### ADE page built (2026-10-30)
+
+/amsterdam-dance-event written per the WRITE verdict. Facts are the organiser's own (2027: 20 to 24 October). Reviewed by an independent agent (amsterdam-dance-event-editorial-review.md). Image: Wikimedia Commons, A1, CC BY-SA 4.0. Reviewer's traffic caveat: third-party ADE pages get about 4 to 80 visits a month; the page is a hub for the Awakenings and Amsterdam clubs guides. Category rave-spots, so the festival-planner audit does not apply.

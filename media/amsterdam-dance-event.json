@@ -1,0 +1,54 @@
+{
+  "page": "amsterdam-dance-event.html",
+  "seed": "amsterdam dance event",
+  "source": "Organiser's own pages (amsterdamdanceevent.com FAQ, About ADE, ticket page), read 2026-10-30: 2027 dates 20 to 24 October, 2026 dates 21 to 25 October, Pro Pass rules (personal, ID at pick-up, limited capacity at high-demand venues, ADE Lab not included, Weeztix, no day or conference-only passes, 2027 price unpublished), 2025 figures (600,000 visitors, 11,000 professionals), 1,200+ events in 300+ locations, founded 1996. Venue examples (Gashouder, Ziggo Dome, AFAS Live, Johan Cruijff Arena, Concertgebouw, Westerkerk, Felix Meritis) from the ADE 2026 programme pages. Awakenings ADE special since 2012: awakenings-draft.md. Image: Wikimedia Commons, File:Azotti in Amsterdam Dance Event.jpg. Sets: selector-data.json.",
+  "required_records": [
+    {
+      "title": "Amsterdam Dance Event",
+      "artist": "conference and festival, Amsterdam, founded 1996",
+      "year": null,
+      "why": "The subject of the page. Facts are the organiser's own, which corrects third-party listings that give 15 to 19 October 2027",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "photo_credit": "A1 (Wikimedia Commons user), CC BY-SA 4.0, taken 21 October 2017. Shows Azotti at a DJ setup beside an ADE sign. Not used on any other guide"
+    },
+    {
+      "title": "Yanamaste",
+      "artist": "producer",
+      "year": 2025,
+      "why": "Most-viewed ADE-titled set in the Selector catalogue (358,205 views, Intercell x Yanamaste Invites ADE)",
+      "sources": [
+        "catalogue"
+      ],
+      "embed_id": "OiWSnOA6ZEo"
+    },
+    {
+      "title": "Oliver Huntemann",
+      "artist": "producer",
+      "year": 2013,
+      "why": "Mixmag's 2013 ADE set with Joran van Pol, the oldest ADE film in the catalogue used here",
+      "sources": [
+        "catalogue"
+      ],
+      "embed_id": "ZBYRRvI1Vfs"
+    }
+  ],
+  "catalogue_sets": [
+    {
+      "id": "OiWSnOA6ZEo",
+      "title": "Yanamaste at Intercell x Yanamaste Invites ADE, 2025"
+    },
+    {
+      "id": "ZBYRRvI1Vfs",
+      "title": "Joran van Pol & Oliver Huntemann (Ideal Audio) ADE, Mixmag, 2013"
+    }
+  ],
+  "known_gaps": [
+    {
+      "title": "No 2027 ticket price",
+      "why": "The organiser has not published the 2027 Pro Pass price; the page says so instead of estimating"
+    }
+  ]
+}
