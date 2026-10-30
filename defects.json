@@ -907,7 +907,18 @@
       "should_have_caught": "nothing: the September fix assumed a commit to a page's HTML meant its content changed",
       "fix": {
         "file": "scripts/build-sitemap.mjs",
-        "contains": "the date only moves when the hash does"
+        "contains": "Small edits accumulate against that baseline"
+      }
+    },
+    {
+      "id": "sitemap-lastmod-moved-on-sitewide-pass",
+      "found": "2026-10-30",
+      "by": "owner",
+      "what": "On 8 October 2026 sitewide passes (practical planners on every festival guide, consolidated club information, removed research-process filler, own-music panels) moved lastmod on 159 of 248 URLs in one day. The hash covered all visible text in <main>, so shared asides and small templated additions counted as edits to every page.",
+      "should_have_caught": "the October fix treated any change to <main> text as a content update; it did not separate shared components and boilerplate from editorial text, and had no size threshold",
+      "fix": {
+        "file": "scripts/build-sitemap.mjs",
+        "contains": "lastmod moves only on a significant edit"
       }
     },
     {

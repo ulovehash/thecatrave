@@ -274,12 +274,13 @@ const checks = {
     && articleCss.includes('.article-cta .bandcamp-buy:active')
     && articleCss.includes('.article-cta .bandcamp-buy[data-pressed]')
     && articlePages.every(page => page.includes("button.dataset.pressed='';")),
-  bandcampExperimentVariants: articlePages.every(page => page.includes("root.dataset.bandcampDesktop=pick('tcr-bandcamp-desktop-v1'")
-    && page.includes("root.dataset.bandcampMobile=pick('tcr-bandcamp-mobile-v2'")
-    && count(page, /class="article-promo-midpoint"/g) === 1
-    && page.includes("document.documentElement.dataset.bandcampMobile==='middle'"))
-    && articleCss.includes('html[data-bandcamp-desktop="inline"] .article-promo-layout')
-    && !articleCss.includes('html[data-bandcamp-mobile="buy-first"] .article-cta'),
+  // The rail/inline and early/middle test ended on 30 October 2026: rail on wide
+  // desktop, early on mobile. No page may assign or move the block any more.
+  bandcampPlacementFixed: articlePages.every(page => !page.includes('tcr-bandcamp-desktop-v1')
+    && !page.includes('tcr-bandcamp-mobile-v2')
+    && !page.includes("dataset.bandcampMobile==='middle'"))
+    && !articleCss.includes('data-bandcamp-desktop=')
+    && !articleCss.includes('data-bandcamp-mobile='),
   bandcampExperimentMeasurement: analyticsRuntime.includes("track('bandcamp_banner_view'")
     && analyticsRuntime.includes('banner_variant: root.bandcampMobile')
     && analyticsRuntime.includes('banner_variant: root.bandcampDesktop')

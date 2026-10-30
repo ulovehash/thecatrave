@@ -924,23 +924,6 @@
   .article-promo-rail .article-cta p { margin-bottom: .85rem; font-size: .88rem; }
   .article-promo-rail .article-cta-tracks { margin-top: 1rem; gap: .6rem; }
   .article-promo-rail .article-cta-actions { margin-top: 1rem; }
-  html[data-bandcamp-desktop="inline"] .article-promo-layout { display: block; }
-  html[data-bandcamp-desktop="inline"] .article-promo-rail { padding: 0; }
-  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-full {
-    position: static;
-    display: grid;
-    grid-template-columns: minmax(240px, 360px) minmax(0, 680px);
-    grid-template-areas: "copy player" "actions player";
-    width: min(calc(100% - (2 * var(--article-gutter))), var(--article-wide));
-    max-height: none;
-    margin: 0 auto var(--section-space);
-    padding: clamp(1.35rem, 2.5vw, 2rem);
-    overflow: hidden;
-    transform: none;
-    border: 1px solid var(--ink);
-  }
-  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-tracks,
-  html[data-bandcamp-desktop="inline"] .article-promo-rail .article-cta-actions { margin-top: 0; }
 }
 .sources-section { padding-bottom: clamp(2.25rem, 4vw, 3.25rem); }
 .read-next,
