@@ -266,11 +266,11 @@ const startingHtml = `${p(startingIntro)}<div class="bass-starting-routes">${sta
 
 const articleHtml = [
   articleHero({kicker:'Bass music guide',title:'What is bass music?',deck:'A scene-led history across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today’s hybrid club culture.',readingTime:`${Math.max(12,Math.round(draft.split(/\s+/).length/225))} min read`,dateModified:modified,dateLabel:'26 September 2026',summaryHtml:infoBanner({label:'Bass music definition',bodyHtml:inline(definition[0]),className:'article-summary'}),tocItems}),
-  articleSection({id:'introduction',title:'Bass music is not one sound.',bodyHtml:`${render(intro)}${p(definition[1])}${globalVisual}`,className:'article-intro'}),
+  articleSection({id:'introduction',title:'What is bass music?',bodyHtml:`${render(intro)}${p(definition[1])}${globalVisual}`,className:'article-intro'}),
   articleSection({id:'origins',title:'Where did bass music come from?',kicker:'Jamaica / Miami / Britain',bodyHtml:originHtml}),
-  articleSection({id:'umbrella',title:'How “bass music” became an umbrella term and travelled.',bodyHtml:umbrellaHtml}),
-  articleSection({id:'meanings',title:'Why “bass music” means different things in different scenes.',bodyHtml:meaningsHtml}),
-  articleSection({id:'types',title:'Types of bass music: a scene-by-scene listening map.',bodyHtml:typesHtml}),
+  articleSection({id:'umbrella',title:'How did “bass music” become an umbrella term?',bodyHtml:umbrellaHtml}),
+  articleSection({id:'meanings',title:'Why does “bass music” mean different things in different scenes?',bodyHtml:meaningsHtml}),
+  articleSection({id:'types',title:'What are the types of bass music? A scene-by-scene listening map.',bodyHtml:typesHtml}),
   articleSection({id:'infrastructure',title:'How bass music lives: sound systems, pirate radio, clubs and labels.',bodyHtml:infrastructureHtml}),
   articleSection({id:'records',title:'Bass music artists and records that changed the culture.',bodyHtml:`${p('This is not a hall of fame. Each record is here because it changes the definition rather than merely representing a popular subgenre.')}${articleTable({headers:['Record','Why it matters'],rows:recordRows,className:'bass-record-table'})}`}),
   articleSection({id:'today',title:'Bass music today: hybrid sets and blurred genre borders.',bodyHtml:todayHtml}),

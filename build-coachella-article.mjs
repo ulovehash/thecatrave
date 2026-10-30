@@ -37,8 +37,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('coachella-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/what-is-coachella';
-const title = 'What Is Coachella? 2027 Dates, Location and Music';
-const description = 'Coachella 2027 runs 9 to 11 and 16 to 18 April at the Empire Polo Club in Indio, California. Learn its location, scale, ownership and music.';
+const title = 'What Is Coachella? 9 to 11 and 16 to 18 April 2027, Indio';
+const description = 'Coachella is a two-weekend festival at the Empire Polo Club in Indio, California. 2027: 9 to 11 and 16 to 18 April, up to 125,000 people a day.';
 const datePublished = '2026-09-14';
 const dateModified = '2026-10-06';
 const dateLabel = '6 October 2026';
@@ -150,18 +150,18 @@ const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(blo
 // The next-edition section comes first: its year is refreshed every April
 // when the festival ends (festival-editions.mjs reminds the build).
 const sections = [
-  {id: 'coachella-2027', heading: 'Coachella 2027: dates', title: 'Coachella 2027: dates.'},
-  {id: 'where', heading: 'Where Coachella is', title: 'Where Coachella is.'},
-  {id: 'when', heading: 'When Coachella is, and how long it lasts', title: 'When Coachella is, and how long it lasts.'},
-  {id: 'how-big', heading: 'How big Coachella is', title: 'How big Coachella is.'},
-  {id: 'history', heading: 'A short history, and who owns Coachella', title: 'A short history, and who owns Coachella.'},
-  {id: 'stages', heading: 'The Coachella stages', title: 'The Coachella stages.'},
-  {id: 'famous', heading: 'Why Coachella is famous', title: 'Why Coachella is famous.'},
-  {id: 'music', heading: 'What the music actually is', title: 'What the music actually is.', kicker: 'The music'},
+  {id: 'coachella-2027', heading: 'Coachella 2027: dates', title: 'When is Coachella 2027?'},
+  {id: 'where', heading: 'Where Coachella is', title: 'Where is Coachella?'},
+  {id: 'when', heading: 'When Coachella is, and how long it lasts', title: 'How long is Coachella?'},
+  {id: 'how-big', heading: 'How big Coachella is', title: 'How many people go to Coachella?'},
+  {id: 'history', heading: 'A short history, and who owns Coachella', title: 'Who owns Coachella, and when did it start?'},
+  {id: 'stages', heading: 'The Coachella stages', title: 'What are the Coachella stages?'},
+  {id: 'famous', heading: 'Why Coachella is famous', title: 'Why is Coachella famous?'},
+  {id: 'music', heading: 'What the music actually is', title: 'What music is played at Coachella?', kicker: 'The music'},
   {id: 'from-home', heading: 'Hearing Coachella from home', title: 'Hearing Coachella from home.'}
 ];
 
-const tocItems = [...sections.map(({id, heading}) => ({id, label: heading})), {id: 'faq', label: 'FAQ'}];
+const tocItems = [...sections.map(({id, title}) => ({id, label: title.replace(/\.$/, '')})), {id: 'faq', label: 'FAQ'}];
 const readingTime = `${Math.max(8, Math.round(draft.split(/\s+/).length / 225))} min read`;
 
 const sectionHtml = sections.map(s => articleSection({

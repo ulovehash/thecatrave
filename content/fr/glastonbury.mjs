@@ -89,8 +89,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/glastonbury.jpg',
   bodyClass: 'article-page glastonbury-page',
 
-  title: 'Glastonbury 2027 : dates, années de jachère et têtes d’affiche',
-  description: 'Le festival de Glastonbury à Worthy Farm : quand a lieu Glastonbury 2027, pourquoi il n’y en a pas eu en 2026, où il se trouve, sa taille et les têtes d’affiche.',
+  title: 'Glastonbury Festival 2027 : dates du 23 au 27 juin',
+  description: 'Glastonbury 2027 a lieu du 23 au 27 juin à Worthy Farm, dans le Somerset. Pourquoi pas de festival en 2026, où il se trouve, sa taille, les têtes d’affiche.',
   datePublished: '2026-09-18',
   dateModified: '2026-09-18',
   dateLabel: '18 septembre 2026',
@@ -110,15 +110,15 @@ export default {
   ownSetAfter: 'history',
 
   sections: [
-    {id: 'glastonbury-2027', heading: 'Glastonbury Festival 2027 : les dates', title: 'Glastonbury Festival 2027 : les dates.'},
-    {id: 'fallow-year', heading: 'Pourquoi il n’y a pas de Glastonbury cette année', title: 'Pourquoi il n’y a pas de Glastonbury cette année.'},
-    {id: 'where', heading: 'Où se trouve le Glastonbury Festival', title: 'Où se trouve le Glastonbury Festival.'},
-    {id: 'when', heading: 'Quand a lieu Glastonbury, et combien de temps il dure', title: 'Quand a lieu Glastonbury, et combien de temps il dure.'},
-    {id: 'how-big', heading: 'La taille de Glastonbury', title: 'La taille de Glastonbury.'},
-    {id: 'history', heading: 'Une courte histoire, et qui dirige Glastonbury', title: 'Une courte histoire, et qui dirige Glastonbury.'},
+    {id: 'glastonbury-2027', heading: 'Glastonbury Festival 2027 : les dates', title: 'Quand a lieu Glastonbury 2027 ?'},
+    {id: 'fallow-year', heading: 'Pourquoi il n’y a pas de Glastonbury cette année', title: 'Pourquoi n’y a-t-il pas de Glastonbury cette année ?'},
+    {id: 'where', heading: 'Où se trouve le Glastonbury Festival', title: 'Où se trouve le Glastonbury Festival ?'},
+    {id: 'when', heading: 'Quand a lieu Glastonbury, et combien de temps il dure', title: 'Combien de temps dure Glastonbury ?'},
+    {id: 'how-big', heading: 'La taille de Glastonbury', title: 'Combien de personnes vont à Glastonbury ?'},
+    {id: 'history', heading: 'Une courte histoire, et qui dirige Glastonbury', title: 'Qui dirige Glastonbury, et depuis quand ?'},
     {id: 'stages', heading: 'La Pyramid Stage et le reste du site', title: 'La Pyramid Stage et le reste du site.'},
     {id: 'headliners', heading: 'Les têtes d’affiche de Glastonbury année par année', title: 'Les têtes d’affiche de Glastonbury année par année.'},
-    {id: 'music', heading: 'Quelle musique on y joue vraiment', title: 'Quelle musique on y joue vraiment.', kicker: 'La musique'},
+    {id: 'music', heading: 'Quelle musique on y joue vraiment', title: 'Quelle musique joue-t-on à Glastonbury ?', kicker: 'La musique'},
     {id: 'from-home', heading: 'Écouter Glastonbury depuis chez soi', title: 'Écouter Glastonbury depuis chez soi.'}
   ],
 
