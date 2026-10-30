@@ -77,7 +77,7 @@ DnB stands for drum and bass, also written d&b, drum & bass or drum'n'bass. It i
 
 ### What BPM is drum and bass?
 
-Usually between 170 and 180, and most often 174. Because the kick and snare are spread across the bar, the track can also be felt at half that speed, around 87, which is what makes half-time drum and bass and some dubstep sit close together.
+Usually between 170 and 180 beats per minute, and most often 174, which has been the de facto standard since about 1996. Records from the early 1990s were slower, around 130 BPM in 1990 and 1991 and 155 to 165 by 1993. Because the kick and snare are spread across the bar, the track can also be felt at half that speed, around 87, which is what makes half-time drum and bass and some dubstep sit close together.
 
 ### Is drum and bass the same as jungle?
 

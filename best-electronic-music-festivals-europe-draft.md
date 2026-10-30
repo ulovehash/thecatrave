@@ -163,6 +163,10 @@ For electronic music, the ten biggest European names in DJ Mag's 2026 poll were 
 
 Outside the festival season, electronic music in Europe lives in clubs, above all in Berlin, London, Amsterdam and Barcelona. This site has guides to the [best clubs in Berlin](/best-clubs-in-berlin) and the [best electronic music clubs in London](/best-electronic-music-clubs-in-london) that cover both cities in detail. Amsterdam Dance Event in October puts hundreds of club nights into one week.
 
+### Which techno festivals in Europe have confirmed 2027 dates?
+
+Time Warp (3 April, Mannheim), Sónar (17 to 19 June, Barcelona), Kappa FuturFestival (2 to 4 July, Turin) and Awakenings (9 to 11 July, Hilvarenbeek) have confirmed 2027 dates. Two mixed-genre festivals that book a lot of techno have confirmed too: Monegros on 31 July in Aragón and Mysteryland on 27 to 29 August near Amsterdam. Dekmantel, Draaimolen, Houghton and Freerotation had not announced dates when this page was last checked, on 6 October 2026.
+
 ### When are 2027 festival dates announced?
 
 Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland and Dekmantel had not announced 2027 dates when this page was last checked, on 6 October 2026, and nor had Garbicz, Houghton, Draaimolen or Freerotation. Monegros had confirmed 31 July. The table above is updated as announcements arrive.

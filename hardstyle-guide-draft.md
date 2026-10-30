@@ -48,6 +48,12 @@ Hardstyle shares distorted kicks with hardcore and mechanical repetition with te
 
 The distinction becomes less tidy at the edges. Hard techno has borrowed hardstyle kicks, raw hardstyle can approach hardcore tempo, and some festival sets move through all three.
 
+## Hardstyle vs trance
+
+Hardstyle is faster and built around a distorted, pitched kick; trance is slower and built around a repeated melody. Hardstyle runs at roughly 145 to 155 BPM, trance at 130 to 145 BPM.
+
+Hardstyle borrowed from hard trance, a harder branch of trance, and early hardstyle sat close to it. Both genres still organise a track around a long melodic breakdown and a return of the drums. In trance that return is the release the whole track has been building towards. In hardstyle the same moment arrives as the pitched kick, whose distorted tail bends into the bass note. For the other side of the comparison, see the [trance guide](/trance-guide).
+
 ## Hardstyle festivals and the current scene
 
 Defqon.1 is the best-known hardstyle festival. Q-dance stages divide the harder styles by colour and sound, so classic hardstyle, raw, hardcore and related forms can sit within one weekend without being treated as identical. The Red stage is the main arena. The [Defqon.1 2027 guide](/defqon-1) has its dates, ticket sales and the story of the cancelled 2026 edition.

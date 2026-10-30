@@ -51,6 +51,7 @@ const scene = paras(getSection('A scene becomes hardstyle'));
 const melodic = paras(getSection('The melodic turn'));
 const branches = paras(getSection('Euphoric hardstyle and raw hardstyle'));
 const comparison = paras(getSection('Hardstyle, hardcore and techno'));
+const trance = paras(getSection('Hardstyle vs trance'));
 const festivals = paras(getSection('Hardstyle festivals and the current scene'));
 
 const faqItems = getSection('FAQ').split(/(?:^|\n)### /).filter(Boolean).map(block => {
@@ -121,6 +122,7 @@ const tocItems = [
   {id: 'melodic', label: 'The melodic turn'},
   {id: 'branches', label: 'Euphoric and raw hardstyle'},
   {id: 'comparison', label: 'Hardstyle, hardcore and techno'},
+  {id: 'trance', label: 'Hardstyle vs trance'},
   {id: 'festivals', label: 'Festivals and the current scene'}
 ];
 
@@ -142,6 +144,7 @@ const articleHtml = [
   articleSection({id: 'melodic', title: 'The melodic turn.', kicker: '2005 to 2010', bodyHtml: `${join(melodic.slice(0, 2))}${melodicListening}${join(melodic.slice(2))}`}),
   articleSection({id: 'branches', title: 'Euphoric hardstyle and raw hardstyle.', bodyHtml: `${join(branches.slice(0, 2))}${branchListening}${join(branches.slice(2))}`}),
   articleSection({id: 'comparison', title: 'Hardstyle, hardcore and techno.', bodyHtml: `${join(comparison)}${comparisonTable}`}),
+  articleSection({id: 'trance', title: 'Hardstyle vs trance.', bodyHtml: join(trance)}),
   articleSection({id: 'festivals', title: 'Hardstyle festivals and the current scene.', bodyHtml: `${join(festivals.slice(0, 1))}${defqonFigure}${join(festivals.slice(1))}`}),
   articleFaq({items: faqItems, title: 'Hardstyle FAQ.', openFirst: true}),
   authorCard({filled: true}),
