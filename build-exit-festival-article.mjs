@@ -3,8 +3,8 @@ import {buildFestivalArticle} from './build-next-festival-article.mjs';
 buildFestivalArticle({
   draft:'exit-festival-draft.md', output:'exit-festival.html', bodyClass:'exit-festival-page',
   canonical:'https://thecatrave.com/exit-festival', ogImage:'img/og/exit-festival.jpg', shortName:'EXIT Festival',
-  seoTitle:'EXIT Festival: History, Petrovaradin Fortress and What Comes Next',
-  description:'EXIT Festival grew from a 2000 student movement into a major Novi Sad event. Trace Petrovaradin, the Dance Arena, the 2025 final edition and global tour.',
+  seoTitle:'EXIT Festival 2027: No Novi Sad Edition Confirmed',
+  description:'No EXIT Festival 2027 is confirmed at Petrovaradin Fortress, Novi Sad. 2025 was the last Serbian edition; see Global Tour events and the history.',
   kicker:'Festival history', h1:'EXIT Festival: From Novi Sad to the Global Tour',
   deck:'A student movement became a fortress festival with one of Europe’s best-known electronic arenas. After 2025, the name began travelling without its Novi Sad home.',
   answerLabel:'What happened to EXIT Festival', introTitle:'The fortress era ended after 25 years.', factsLabel:'EXIT Festival current status',

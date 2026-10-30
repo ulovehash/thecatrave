@@ -32,8 +32,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('tomorrowland-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/tomorrowland-festival';
-const title = 'Tomorrowland Festival: Location, Attendance, Capacity';
-const description = 'Tomorrowland is a Belgian electronic festival in Boom: 400,000 attendees, 200,000 per-weekend capacity, across two July weekends. Location, dates, history.';
+const title = 'Tomorrowland 2027: Location, Attendance, Capacity';
+const description = 'Tomorrowland 2027 dates are not yet announced (Sept 2026). Held in Boom, Belgium: 200,000 capacity per weekend, 400,000 attendance over two weekends.';
 const datePublished = '2026-09-13';
 const dateModified = '2026-09-26';
 const dateLabel = '26 September 2026';
