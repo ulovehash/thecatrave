@@ -1413,9 +1413,12 @@
       "id": "house-classics-no-guide-link",
       "found": "2026-10-31",
       "by": "Per-URL SEO review",
-      "what": "house-music-classics was linked only from the home page and index; the house guide has no body sentence the classics page supports: its charting records (MARRS, S-Express, Coldcut, Yazz) are not on that page, and FAQ answers cannot carry links. Needs a new body sentence, which is new published copy.",
+      "what": "house-music-classics was linked only from the home page and index; the house guide has no body sentence the classics page supports: its charting records (MARRS, S-Express, Coldcut, Yazz) are not on that page, and FAQ answers cannot carry links. Closed with a new body sentence, approved by the owner on 2026-10-31.",
       "should_have_caught": "Nothing counts inbound body links per guide.",
-      "fix": null
+      "fix": {
+        "file": "house-music-draft.md",
+        "contains": "[their own list of classics](/house-music-classics)"
+      }
     },
     {
       "id": "de-berghain-no-guide-link",
@@ -1443,6 +1446,17 @@
       "what": "glastonbury-festival describes the October 2026 ticket sale as upcoming though it has passed, and its description says 'no festival this year', which goes stale on 1 January 2027.",
       "should_have_caught": "audit-festival-editions.mjs checks years, not whether a dated sentence has passed.",
       "fix": null
+    },
+    {
+      "id": "vienna-guide-no-body-links",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "best-clubs-in-vienna was linked only from the article index: no other draft mentions Vienna.",
+      "should_have_caught": "Nothing counts inbound body links per guide.",
+      "fix": {
+        "file": "europe-clubbing-cities-draft.md",
+        "contains": "[Vienna](/best-clubs-in-vienna) did not make this list"
+      }
     }
   ]
 }

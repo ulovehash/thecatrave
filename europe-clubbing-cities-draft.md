@@ -60,7 +60,7 @@ Belgrade has Drugstore, opened in 2012 in a former slaughterhouse, once the bigg
 
 ## How to choose a city
 
-If you want techno and nothing else, go to Berlin, Tbilisi or Amsterdam, and plan around a weekend, because the best nights in all three run long. If you want one enormous night with a famous name, go to Ibiza between May and October. If you want a city first and clubs second, Barcelona, Lisbon and Paris are better holidays with good rooms in them. Budapest, Krakow, Prague and Belgrade are smaller scenes, and each has at least one club worth the trip on its own.
+If you want techno and nothing else, go to Berlin, Tbilisi or Amsterdam, and plan around a weekend, because the best nights in all three run long. If you want one enormous night with a famous name, go to Ibiza between May and October. If you want a city first and clubs second, Barcelona, Lisbon and Paris are better holidays with good rooms in them. Budapest, Krakow, Prague and Belgrade are smaller scenes, and each has at least one club worth the trip on its own. [Vienna](/best-clubs-in-vienna) did not make this list, but Flex, in a disused U4 tunnel on the Donaukanal since 1995, and Grelle Forelle, a short way up the canal, are worth a night if you are passing through.
 
 Door policies differ as much as the music. Berghain and Bassiani are both strict at the door and both ban photos inside.
 

@@ -110,7 +110,7 @@ Britain heard house before most of America did. Farley "Jackmaster" Funk's "Love
 
 [Embed: Love Can't Turn Around]
 
-What happened next in Britain is the story of acid house, the Second Summer of Love in 1988 and 1989, and the rave. British house took the Chicago idea and made it its own: records built from samples, rap where America had soul singers, and humour. MARRS, S-Express, Coldcut and Yazz all had house records in the charts. The second best-selling British single of 1988, Yazz's "The Only Way Is Up", was produced by Coldcut. Joe Smooth's "Promised Land", a Chicago record from 1987, became one of the anthems of those years.
+What happened next in Britain is the story of acid house, the Second Summer of Love in 1988 and 1989, and the rave. British house took the Chicago idea and made it its own: records built from samples, rap where America had soul singers, and humour. MARRS, S-Express, Coldcut and Yazz all had house records in the charts. The second best-selling British single of 1988, Yazz's "The Only Way Is Up", was produced by Coldcut. Joe Smooth's "Promised Land", a Chicago record from 1987, became one of the anthems of those years. Later house records that crossed over to the pop charts, from "Gypsy Woman" to "You Don't Know Me", have [their own list of classics](/house-music-classics).
 
 [Embed: Promised Land]
 
