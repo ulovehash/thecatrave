@@ -37,8 +37,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/burning-man.jpg',
   bodyClass: 'article-page burning-man-page',
 
-  title: 'Qué es Burning Man: la ciudad del desierto y su música',
-  description: 'Burning Man no es un festival con cartel sino una ciudad efímera en Nevada: qué se hace, dónde es, cuánto cuesta y qué ponen los sound camps.',
+  title: 'Burning Man 2027: qué es, fechas, precio y música',
+  description: 'Burning Man 2027 es del 29 de agosto al 6 de septiembre en Nevada. No es un festival con cartel sino una ciudad efímera: qué se hace, cuánto cuesta y qué suena.',
   datePublished: '2026-10-10',
   dateModified: '2026-10-10',
   dateLabel: '10 de octubre de 2026',

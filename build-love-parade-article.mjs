@@ -21,7 +21,7 @@ import {alternatesFor} from './pages.mjs';
 const draft = fs.readFileSync('love-parade-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/love-parade';
 const title = 'Love Parade: History, Duisburg 2010 and Rave the Planet';
-const description = 'The Love Parade from Berlin in 1989 to Duisburg in 2010, why it ended, and Rave the Planet and the Street Parade, the parades that carry it on.';
+const description = 'The Love Parade began in Berlin in 1989 and the last one was in Duisburg in 2010. Why it ended, and how Rave the Planet and the Street Parade carry it on.';
 const date = '2026-10-05';
 const dateLabel = '5 October 2026';
 

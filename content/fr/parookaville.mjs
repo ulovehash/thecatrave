@@ -31,8 +31,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/parookaville.jpg',
   bodyClass: 'article-page parookaville-page',
 
-  title: 'Parookaville 2027 : site, fréquentation, histoire et musique',
-  description: 'Parookaville est le plus grand festival de musique électronique d’Allemagne, chaque juillet à l’aéroport de Weeze. Site, dates, fréquentation et musique.',
+  title: 'Parookaville 2027 : dates, billets, fréquentation et site',
+  description: 'Parookaville 2027 a lieu du 16 au 18 juillet à l’aéroport de Weeze. Le plus grand festival de musique électronique d’Allemagne : billets, site, fréquentation.',
   datePublished: '2026-09-18',
   dateModified: '2026-09-18',
   dateLabel: '18 septembre 2026',

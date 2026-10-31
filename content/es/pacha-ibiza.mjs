@@ -39,14 +39,14 @@ export default {
   bodyClass: 'article-page pacha-ibiza-page',
   minReadingMinutes: 6,
 
-  title: 'Pacha Ibiza: entradas, dress code y calendario 2026',
-  description: 'Pacha Ibiza: cuánto cuestan las entradas, cómo funciona la mesa VIP y el dress code, dónde está el club, quién es el dueño y cómo leer el calendario 2026.',
+  title: 'Pacha Ibiza: entradas, dress code, horario y cierre',
+  description: 'Pacha Ibiza: cuánto cuestan las entradas, la mesa VIP y el dress code, el horario, dónde está el club, quién es el dueño y cómo fue la temporada 2026.',
   datePublished: '2026-10-09',
   dateModified: '2026-10-09',
   dateLabel: '9 de octubre de 2026',
 
   heroKicker: 'Guía de club, Ibiza',
-  heroTitle: 'Pacha Ibiza: entradas, dress code y calendario 2026',
+  heroTitle: 'Pacha Ibiza: entradas, dress code, horario y cierre',
   deck: 'El club de Ibiza ciudad con el logotipo de las cerezas: cuánto cuestan las entradas, qué permite la puerta, cómo fue el calendario 2026 y quién es hoy el dueño.',
   answerLabel: 'Pacha Ibiza',
   breadcrumbName: 'Pacha Ibiza',

@@ -25,7 +25,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('nyc-clubs-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-nyc';
-const title = 'Best Clubs in NYC: Nightclubs for House and Techno, Then and Now';
+const title = 'Best Clubs in NYC: Nightclubs for House and Techno';
 const description = 'The best nightclubs in NYC for house and techno now: Nowadays, Basement, Public Records, Good Room and Elsewhere, plus the history from the Loft to Output.';
 const datePublished = '2026-09-24';
 const dateModified = '2026-10-08';

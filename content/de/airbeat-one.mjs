@@ -31,7 +31,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/airbeat-one-festival.jpg',
   bodyClass: 'article-page airbeat-one-festival-page',
 
-  title: 'Airbeat One Festival 2027: Termine, Stages, Camping und Anreise',
+  title: 'Airbeat One Festival 2027: 7. bis 11. Juli, Camping, Anreise',
   description: 'Airbeat One 2027 läuft vom 7. bis 11. Juli in Neustadt-Glewe: ein Guide zu den Stages für EDM, Techno, Hardstyle und Psytrance, zu Camping und Anreise.',
   datePublished: '2026-10-01',
   dateModified: '2026-10-06',

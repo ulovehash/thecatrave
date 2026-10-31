@@ -40,8 +40,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/tomorrowland.jpg',
   bodyClass: 'article-page tomorrowland-page',
 
-  title: 'Tomorrowland 2027: Ort, Besucherzahlen, Geschichte und Musik',
-  description: 'Tomorrowland ist ein Festival für elektronische Musik in Boom, Belgien. Wo es stattfindet, wie viele Besucher kommen, wem es gehört und welche Musik läuft.',
+  title: 'Tomorrowland 2027: Termine, Tickets, Ort und Besucherzahlen',
+  description: 'Tomorrowland 2027: was zu Terminen und Tickets bekannt ist, wo das Festival in Boom stattfindet, wie viele Besucher kommen und wem es gehört.',
   datePublished: '2026-09-17',
   dateModified: '2026-09-17',
   dateLabel: '17. September 2026',

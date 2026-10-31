@@ -30,8 +30,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/monegros.jpg',
   bodyClass: 'article-page monegros-desert-festival-page',
 
-  title: 'Monegros Desert Festival 2027: Termin, Geschichte und Guide',
-  description: 'Das Monegros Desert Festival 2027 ist für den 31. Juli bei Fraga in Spanien angesetzt. Geschichte, Musik, Wüstenformat, Anreise und die praktischen Grenzen.',
+  title: 'Monegros Desert Festival 2027: 31. Juli, Tickets und Line-up',
+  description: 'Das Monegros Desert Festival 2027 ist für den 31. Juli bei Fraga angesetzt. Tickets, Busse, Anreise und Geschichte; das Line-up ist noch nicht bekannt.',
   datePublished: '2026-10-01',
   dateModified: '2026-10-06',
   dateLabel: '6. Oktober 2026',

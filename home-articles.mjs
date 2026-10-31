@@ -139,7 +139,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'best-clubs-in-nyc.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/best-clubs-in-nyc', type:'Guide', topic:'NYC clubs',
-    title:'Best Clubs in NYC: Nightclubs for House and Techno, Then and Now',
+    title:'Best Clubs in NYC: Nightclubs for House and Techno',
     description:'Nowadays, Basement, Public Records, Good Room and Elsewhere: the best clubs in NYC for house and techno now, and the history from the Loft to Output.',
     image:'img/nyc-clubs/limelight-church-320.webp',
     srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
@@ -171,7 +171,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'best-clubs-in-vienna.html', released:'2026-10-05T18:12:00+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/best-clubs-in-vienna', type:'Guide', topic:'Vienna clubs',
-    title:'Best Clubs in Vienna: Flex, Grelle Forelle and Where to Dance Now',
+    title:'Best Clubs in Vienna: Flex, Grelle Forelle and More',
     description:"The best clubs in Vienna now: Flex, Grelle Forelle, Das Werk, Fluc and SASS, plus what happened to Pratersauna, which stopped operating as a club in 2025.",
     image:'img/vienna-clubs/grelle-forelle-terrace-320.webp',
     srcset:'img/vienna-clubs/grelle-forelle-terrace-320.webp 320w,img/vienna-clubs/grelle-forelle-terrace-1200.webp 1200w',
@@ -219,7 +219,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'best-clubs-in-amsterdam.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/best-clubs-in-amsterdam', type:'Guide', topic:'Amsterdam clubs',
-    title:'Best Clubs in Amsterdam: From RoXY to Radion',
+    title:'Best Clubs in Amsterdam: Shelter, Radion, Lofi and More',
     description:'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.',
     image:'img/amsterdam-clubs/paradiso-320.webp',
     srcset:'img/amsterdam-clubs/paradiso-320.webp 320w,img/amsterdam-clubs/paradiso-1200.webp 1200w',
@@ -307,7 +307,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'untold-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/untold-festival', type:'Guide', topic:'Untold',
-    title:'Untold Festival: Where It Is, How Big, and the Music',
+    title:'Untold Festival 2027: Dates, Location, Size and Music',
     description:'Four days every August in Cluj-Napoca: when Untold 2027 is, where it happens, how a European Youth Capital party reached 500,000 admissions, and what plays past the main stage.',
     image:'img/untold/main-stage-2019-320.webp',
     srcset:'img/untold/main-stage-2019-320.webp 320w,img/untold/main-stage-2019-1200.webp 1200w',
@@ -339,7 +339,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'lollapalooza-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/lollapalooza-festival', type:'Guide', topic:'Lollapalooza',
-    title:'Lollapalooza Chicago: Location, History and the Music',
+    title:'Lollapalooza Chicago 2027: Dates TBA, Location and History',
     description:'Four days every summer in Grant Park, Chicago: where Lollapalooza happens, how it grew from a farewell tour and what plays across its stages.',
     image:'img/lollapalooza/skyline-2017-320.webp',
     srcset:'img/lollapalooza/skyline-2017-320.webp 320w,img/lollapalooza/skyline-2017-1200.webp 1200w',
@@ -347,7 +347,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'glastonbury-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/glastonbury-festival', type:'Guide', topic:'Glastonbury',
-    title:'Glastonbury Festival: 2027, Fallow Years and Headliners',
+    title:'Glastonbury 2027: Dates, Attendance, Fallow Years, Headliners',
     description:'Five days most Junes at Worthy Farm in Somerset: when Glastonbury 2027 is, why there was no festival this year, where it is, how big it is, and every headliner by year.',
     image:'img/glastonbury/night-2025-320.webp',
     srcset:'img/glastonbury/night-2025-320.webp 320w,img/glastonbury/night-2025-1200.webp 1200w',
@@ -491,7 +491,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'movement-detroit.html', category:'festivals', tags:['history','techno','detroit','festivals'], href:'/movement-detroit', type:'Guide', topic:'Movement Detroit',
-    title:'Movement Detroit: Festival History, Location and Techno Legacy',
+    title:'Movement Detroit 2027: Dates, Hart Plaza and Techno History',
     description:'From the free Detroit Electronic Music Festival in 2000 to six stages at Hart Plaza over Memorial Day weekend.',
     image:'img/movement-detroit/movement-hart-plaza-2026-320.webp',
     srcset:'img/movement-detroit/movement-hart-plaza-2026-320.webp 320w,img/movement-detroit/movement-hart-plaza-2026-1280.webp 1280w',
@@ -547,7 +547,7 @@ export const homeArticleCatalog = [
   },
   {
     page:'grime-music-guide.html', category:'music-history', tags:['uk','history','bass','jungle'], href:'/grime-music-guide', type:'Guide', topic:'Grime',
-    title:'What Is Grime Music? Its Sound, History, Artists and Tracks',
+    title:'What Is Grime Music? 140 BPM, History, Artists and Tracks',
     description:'Cold 140 BPM instrumentals, pirate radio, crews and clashes from East London, and the arguments about who started it.',
     image:'img/grime/wiley-flowdan-2005-320.webp',
     srcset:'img/grime/wiley-flowdan-2005-320.webp 320w,img/grime/wiley-flowdan-2005-1200.webp 1200w',
@@ -596,7 +596,7 @@ export const homeArticleCatalog = [
   {
     page:'love-parade.html', released:'2026-10-05T11:57:26+03:00', category:'festivals', tags:['techno','history'], href:'/love-parade', type:'Guide', topic:'Love Parade',
     title:'Love Parade: History, Duisburg 2010 and Rave the Planet',
-    description:'The Love Parade from Berlin in 1989 to Duisburg in 2010, why it ended, and Rave the Planet and the Street Parade, the parades that carry it on.',
+    description:'The Love Parade began in Berlin in 1989 and the last one was in Duisburg in 2010. Why it ended, and how Rave the Planet and the Street Parade carry it on.',
     image:'img/love-parade/rave-the-planet-2023-320.webp',
     srcset:'img/love-parade/rave-the-planet-2023-320.webp 320w,img/love-parade/rave-the-planet-2023-1200.webp 1200w',
     width:1200, height:899, alt:'A crowd on the Straße des 17. Juni in Berlin at the Rave the Planet parade, 2023'
@@ -611,8 +611,8 @@ export const homeArticleCatalog = [
   },
   {
     page:'pacha-ibiza.html', released:'2026-10-04T20:48:49+03:00', category:'rave-spots', tags:['house','techno','history'], href:'/pacha-ibiza', type:'Guide', topic:'Pacha Ibiza',
-    title:'Pacha Ibiza: Tickets, Dress Code and Calendar 2026',
-    description:'Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.',
+    title:'Pacha Ibiza: Tickets, Dress Code, Hours and Closing Parties',
+    description:'Pacha Ibiza: how tickets, tables and the dress code work, opening hours, where the club is, who owns it and how the 2026 season and closing parties ran.',
     image:'img/pacha-ibiza/cherries-2014-320.webp',
     srcset:'img/pacha-ibiza/cherries-2014-320.webp 320w,img/pacha-ibiza/cherries-2014-1200.webp 1200w',
     width:1200, height:800, alt:'The red cherry signs of Pacha Ibiza lit at night'
@@ -805,7 +805,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/airbeat-one-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','hardstyle','trance'], href:'/de/airbeat-one-festival', type:'Guide', topic:'Airbeat One Festival',
-    title:'Airbeat One Festival 2027: Termine, Stages, Camping und Anreise',
+    title:'Airbeat One Festival 2027: 7. bis 11. Juli, Camping, Anreise',
     description:'Ein Flugplatz-Festival für EDM, Techno, Hardstyle und Psytrance, bei dem das Camping zum Event gehört.',
     image:'img/airbeat-one/airbeat-arena-320.webp',
     srcset:'img/airbeat-one/airbeat-arena-320.webp 320w,img/airbeat-one/airbeat-arena-1200.webp 1200w',
@@ -821,7 +821,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/de/monegros-desert-festival', type:'Guide', topic:'Monegros Desert Festival',
-    title:'Monegros Desert Festival 2027: Termin, Geschichte und Guide',
+    title:'Monegros Desert Festival 2027: 31. Juli, Tickets und Line-up',
     description:'Ein 22-Stunden-Rave in der Wüste bei Fraga: Termin 2027, Geschichte, Musik, Anreise und die praktischen Grenzen.',
     image:'img/monegros/festival-overview-2009-320.webp',
     srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
@@ -989,7 +989,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/burning-man-festival.html', category:'festivals', tags:['house','history','discovery'], href:'/de/burning-man-festival', type:'Guide', topic:'Burning Man',
-    title:'Was ist Burning Man? Die Stadt in der Wüste und ihre Musik',
+    title:'Burning Man 2027: Was es ist, Termine, Kosten und Musik',
     description:'Eine von den Teilnehmern gebaute Stadt in der Wüste Nevadas, ohne Line-up und ohne Hauptbühne: was dort passiert, was es kostet und was die Sound-Camps wie Robot Heart spielen.',
     image:'img/burning-man/robot-heart-320.webp',
     srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
@@ -997,7 +997,7 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/clubs-berlin.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/de/clubs-berlin', type:'Guide', topic:'Clubs in Berlin',
-    title:'Die besten Clubs in Berlin: Legenden und die, die noch offen sind',
+    title:'Die besten Clubs in Berlin: Legenden und was noch offen ist',
     description:'Vom UFO und dem Tresor bis zum Berghain und dem Sisyphos: die Räume, die Berlin zur Techno-Stadt gemacht haben, die Clubs, die geschlossen haben, und die, die noch offen sind.',
     image:'img/berlin-clubs/berghain-320.webp',
     srcset:'img/berlin-clubs/berghain-320.webp 320w,img/berlin-clubs/berghain-1200.webp 1200w',
@@ -1005,8 +1005,8 @@ export const germanArticleCatalog = [
   },
   {
     page:'de/berghain.html', released:'2026-10-06T12:00:00+03:00', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/de/berghain', type:'Guide', topic:'Berghain',
-    title:'Berghain: Panorama Bar, Sound und Resident-DJs',
-    description:'Das Berghain erklärt: das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine am Berghain und das Label Ostgut Ton.',
+    title:'Berghain: Öffnungszeiten, Kapazität, Panorama Bar und Sound',
+    description:'Das Berghain erklärt: Öffnungszeiten, Kapazität, das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine und das Label Ostgut Ton.',
     image:'img/berghain/berghain-facade-320.webp',
     srcset:'img/berghain/berghain-facade-320.webp 320w,img/berghain/berghain-facade-1200.webp 1200w',
     width:1200, height:900, alt:'Die graue neoklassizistische Fassade des Berghain-Gebäudes in Berlin, mit einigen Menschen am Eingang'
@@ -1236,7 +1236,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/festival-tomorrowland.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-tomorrowland', type:'Guide', topic:'Tomorrowland',
-    title:'Tomorrowland 2027 : lieu, fréquentation, histoire et musique',
+    title:'Tomorrowland 2027 : dates, billets, lieu et fréquentation',
     description:'Un parc de Boom, en Belgique, que le monde connaît surtout par le livestream : où a lieu Tomorrowland, combien de personnes y vont, à qui il appartient et ce qui se joue loin de la Mainstage.',
     image:'img/tomorrowland/mainstage-2014-320.webp',
     srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
@@ -1244,7 +1244,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/festival-coachella.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-coachella', type:'Guide', topic:'Coachella',
-    title:'Qu’est-ce que Coachella ? Dates 2027, lieu, taille et musique',
+    title:'Coachella 2027 : dates, lieu, taille et musique',
     description:'Deux week-ends d’avril à l’Empire Polo Club d’Indio : quand a lieu Coachella 2027, où il se trouve, comment une perte de 1999 est devenue un festival géant, et ce qui se joue sous la tente Sahara.',
     image:'img/coachella/grounds-2018-320.webp',
     srcset:'img/coachella/grounds-2018-320.webp 320w,img/coachella/grounds-2018-1200.webp 1200w',
@@ -1603,7 +1603,7 @@ export const frenchArticleCatalog = [
   },
   {
     page:'fr/festival-parookaville.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/festival-parookaville', type:'Guide', topic:'Parookaville',
-    title:'Parookaville 2027 : site, fréquentation, histoire et musique',
+    title:'Parookaville 2027 : dates, billets, fréquentation et site',
     description:'Un festival mis en scène comme une ville sur l’aéroport de Weeze : où se trouve Parookaville, comment trois amis l’ont bâti, combien de monde y vient et ce qui passe sur ses scènes.',
     image:'img/parookaville/mainstage-aerial-2022-320.webp',
     srcset:'img/parookaville/mainstage-aerial-2022-320.webp 320w,img/parookaville/mainstage-aerial-2022-1200.webp 1200w',
@@ -1814,8 +1814,8 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/burning-man.html', category:'festivals', tags:['house','history','discovery'], href:'/es/burning-man', type:'Guía', topic:'Burning Man',
-    title:'Qué es Burning Man: la ciudad del desierto y su música',
-    description:'Burning Man no es un festival con cartel sino una ciudad efímera en Nevada: qué se hace, dónde es, cuánto cuesta y qué ponen los sound camps.',
+    title:'Burning Man 2027: qué es, fechas, precio y música',
+    description:'Burning Man 2027 es del 29 de agosto al 6 de septiembre en Nevada. No es un festival con cartel sino una ciudad efímera: qué se hace, cuánto cuesta y qué suena.',
     image:'img/burning-man/robot-heart-320.webp',
     srcset:'img/burning-man/robot-heart-320.webp 320w,img/burning-man/robot-heart-1200.webp 1200w',
     width:1200, height:799, alt:'El art car de Robot Heart en la playa de Burning Man'
@@ -2013,8 +2013,8 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/pacha-ibiza.html', category:'rave-spots', tags:['house','techno','history','discovery'], href:'/es/pacha-ibiza', type:'Guía', topic:'Pacha Ibiza',
-    title:'Pacha Ibiza: entradas, dress code y calendario 2026',
-    description:'Pacha Ibiza: cuánto cuestan las entradas, cómo funciona la mesa VIP y el dress code, dónde está el club, quién es el dueño y cómo leer el calendario 2026.',
+    title:'Pacha Ibiza: entradas, dress code, horario y cierre',
+    description:'Pacha Ibiza: cuánto cuestan las entradas, la mesa VIP y el dress code, el horario, dónde está el club, quién es el dueño y cómo fue la temporada 2026.',
     image:'img/pacha-ibiza/cherries-2014-320.webp',
     srcset:'img/pacha-ibiza/cherries-2014-320.webp 320w,img/pacha-ibiza/cherries-2014-1200.webp 1200w',
     width:1200, height:800, alt:'La fachada de Pacha Ibiza de noche, con los letreros rojos de las cerezas iluminados'
@@ -2029,7 +2029,7 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/primavera-sound-barcelona.html', category:'festivals', tags:['discovery','history','house'], href:'/es/primavera-sound-barcelona', type:'Guía', topic:'Primavera Sound',
-    title:'Primavera Sound 2027: fechas, lugar y cabezas de cartel por año',
+    title:'Primavera Sound 2027: fechas, lugar y cabezas de cartel',
     description:'Primavera Sound Barcelona 2027 es del 3 al 5 de junio en el Parc del Fòrum, tras 293.000 asistencias en 2025. Cabezas de cartel por año, lugar y edición de Oporto.',
     image:'img/primavera-sound/festival-crowd-320.webp',
     srcset:'img/primavera-sound/festival-crowd-320.webp 320w,img/primavera-sound/festival-crowd-1200.webp 1200w',
@@ -2061,7 +2061,7 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/festival-glastonbury.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history'], href:'/es/festival-glastonbury', type:'Guía', topic:'Glastonbury',
-    title:'Festival de Glastonbury: qué es, dónde es y fechas de 2027',
+    title:'Glastonbury 2027: fechas, qué es, dónde es y headliners',
     description:'Cinco días en una granja de Somerset, en Inglaterra: cuándo es Glastonbury 2027, por qué no hubo festival en 2026, dónde es, qué tamaño tiene y quién ha sido headliner.',
     image:'img/glastonbury/aerial-2022-320.webp',
     srcset:'img/glastonbury/aerial-2022-320.webp 320w,img/glastonbury/aerial-2022-1200.webp 1200w',
@@ -2069,7 +2069,7 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/monegros-desert-festival.html', category:'festivals', tags:['festivals','europe-festivals','discovery','history','techno','house'], href:'/es/monegros-desert-festival', type:'Guía', topic:'Monegros Desert Festival',
-    title:'Monegros Desert Festival 2027: fecha, historia y cómo llegar',
+    title:'Monegros Desert Festival 2027: 31 de julio, entradas y cartel',
     description:'Un único evento electrónico larguísimo cerca de Fraga, en Aragón, con raíces en la Florida 135: fecha de 2027, historia, música, formato nocturno y cómo llegar.',
     image:'img/monegros/festival-overview-2009-320.webp',
     srcset:'img/monegros/festival-overview-2009-320.webp 320w,img/monegros/festival-overview-2009-1200.webp 1200w',
@@ -2085,7 +2085,7 @@ export const spanishArticleCatalog = [
   },
   {
     page:'es/tomorrowland-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/tomorrowland-festival', type:'Guía', topic:'Tomorrowland',
-    title:'Tomorrowland: qué es, dónde es y cuándo es en 2027',
+    title:'Tomorrowland 2027: fechas, entradas, dónde es y qué es',
     description:'Un parque de Boom, en Bélgica, que el mundo conoce sobre todo por la retransmisión: qué es Tomorrowland, dónde se celebra, cuánta gente va, de quién es y qué suena lejos de la Mainstage.',
     image:'img/tomorrowland/mainstage-2014-320.webp',
     srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',

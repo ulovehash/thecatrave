@@ -86,7 +86,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/glastonbury.jpg',
   bodyClass: 'article-page glastonbury-page',
 
-  title: 'Festival de Glastonbury: qué es, dónde es y fechas de 2027',
+  title: 'Glastonbury 2027: fechas, qué es, dónde es y headliners',
   description: 'El Festival de Glastonbury en Worthy Farm, Inglaterra: cuándo es Glastonbury 2027, por qué no hubo festival en 2026, dónde es, qué tamaño tiene y sus headliners.',
   datePublished: '2026-10-09',
   dateModified: '2026-10-09',

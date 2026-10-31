@@ -22,7 +22,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('grime-music-guide-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/grime-music-guide';
-const title = 'What Is Grime Music? Its Sound, History, Artists and Tracks';
+const title = 'What Is Grime Music? 140 BPM, History, Artists and Tracks';
 const description = 'Grime is 140 BPM instrumentals, pirate radio, crews and clashes from East London. What it sounds like, where it came from, who made it and the records to hear.';
 const date = '2026-09-22';
 const dateLabel = '22 September 2026';

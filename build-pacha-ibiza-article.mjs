@@ -23,8 +23,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('pacha-ibiza-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/pacha-ibiza';
-const title = 'Pacha Ibiza: Tickets, Dress Code and Calendar 2026';
-const description = 'Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.';
+const title = 'Pacha Ibiza: Tickets, Dress Code, Hours and Closing Parties';
+const description = 'Pacha Ibiza: how tickets, tables and the dress code work, opening hours, where the club is, who owns it and how the 2026 season and closing parties ran.';
 const published = '2026-10-04';
 const date = '2026-10-08';
 const dateLabel = '8 October 2026';
@@ -123,7 +123,7 @@ const ext = (href, text) => `<a href="${href}" target="_blank" rel="noopener nor
 const articleHtml = [
   articleHero({
     kicker: 'Club guide, Ibiza',
-    title: 'Pacha Ibiza: tickets, dress code and calendar 2026',
+    title: 'Pacha Ibiza: tickets, dress code, hours and closing parties',
     deck: 'The Ibiza Town club with the cherry logo: what tickets cost, what the door allows, how the 2026 calendar ran, and who owns it now.',
     readingTime,
     dateModified: date,

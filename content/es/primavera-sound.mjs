@@ -40,7 +40,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/primavera-sound.jpg',
   bodyClass: 'article-page primavera-sound-page',
 
-  title: 'Primavera Sound 2027: fechas, lugar y cabezas de cartel por año',
+  title: 'Primavera Sound 2027: fechas, lugar y cabezas de cartel',
   description: 'Primavera Sound Barcelona 2027 es del 3 al 5 de junio en el Parc del Fòrum, tras 293.000 asistencias en 2025. Cabezas de cartel por año, lugar y edición de Oporto.',
   datePublished: '2026-10-09',
   dateModified: '2026-10-09',

@@ -1356,6 +1356,93 @@
         "file": "content/es/printworks-london.mjs",
         "contains": "Printworks London: ¿reapertura en 2029? Cierre e historia"
       }
+    },
+    {
+      "id": "www-subdomain-no-certificate",
+      "found": "2026-10-31",
+      "by": "Owner, from a live check",
+      "what": "https://www.thecatrave.com fails: GitHub's certificate has no www name. http://www redirects correctly since the Namecheap CNAME was added, so GitHub should provision it within a day; if not, check repo Settings > Pages.",
+      "should_have_caught": "No audit requests the www host.",
+      "fix": null
+    },
+    {
+      "id": "pacha-titles-sell-finished-2026-calendar",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "pacha-ibiza and es/pacha-ibiza titles offered a 2026 calendar after the season ended on 11 October.",
+      "should_have_caught": "Festival years are audited by audit-festival-editions.mjs; club seasons are not.",
+      "fix": {
+        "file": "build-pacha-ibiza-article.mjs",
+        "contains": "Pacha Ibiza: Tickets, Dress Code, Hours and Closing Parties"
+      }
+    },
+    {
+      "id": "festival-titles-hide-2027",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "untold-festival and movement-detroit stated 2027 dates in the body but not in the title, against the rule that every festival guide targets '<festival> 2027'.",
+      "should_have_caught": "audit-festival-editions.mjs reads the body block, not the title.",
+      "fix": {
+        "file": "build-untold-article.mjs",
+        "contains": "Untold Festival 2027: Dates, Location, Size and Music"
+      }
+    },
+    {
+      "id": "tomorrowland-translations-title-misses-intent",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "fr and de Tomorrowland titles offered history and attendance to searchers of 'tomorrowland 2027' who want dates and tickets: 1 click from 2,290 impressions at position 7.3 on the French page.",
+      "should_have_caught": "Titles were translated, not matched to each language's queries.",
+      "fix": {
+        "file": "content/fr/tomorrowland.mjs",
+        "contains": "Tomorrowland 2027 : dates, billets, lieu et fréquentation"
+      }
+    },
+    {
+      "id": "tbilisi-guide-no-body-links",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "best-clubs-in-tbilisi had one body link, from the article index, while the clubbing cities guide discussed Tbilisi without linking it.",
+      "should_have_caught": "Nothing counts inbound body links per guide.",
+      "fix": {
+        "file": "europe-clubbing-cities-draft.md",
+        "contains": "[Tbilisi](/best-clubs-in-tbilisi) is the newest city here."
+      }
+    },
+    {
+      "id": "house-classics-no-guide-link",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "house-music-classics was linked only from the home page and index; the house guide has no body sentence the classics page supports: its charting records (MARRS, S-Express, Coldcut, Yazz) are not on that page, and FAQ answers cannot carry links. Needs a new body sentence, which is new published copy.",
+      "should_have_caught": "Nothing counts inbound body links per guide.",
+      "fix": null
+    },
+    {
+      "id": "de-berghain-no-guide-link",
+      "found": "2026-10-31",
+      "by": "Per-URL SEO review",
+      "what": "de/berghain was linked only from the German home page and index, though de/clubs-berlin has a section on the club.",
+      "should_have_caught": "Nothing counts inbound body links per guide.",
+      "fix": {
+        "file": "de/berlin-clubs-draft.md",
+        "contains": "[Berghain](/de/berghain)"
+      }
+    },
+    {
+      "id": "wikipedia-named-in-body",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking new titles against the pages",
+      "what": "Wikipedia is named in body text on es/primavera-sound-barcelona, fr/festival-parookaville and best-clubs-in-vienna, against ARTICLE-EDITORIAL-REVIEW.md §0.",
+      "should_have_caught": "The §0 grep is run by reviewers by hand and no audit fails on it.",
+      "fix": null
+    },
+    {
+      "id": "glastonbury-copy-goes-stale",
+      "found": "2026-10-31",
+      "by": "Independent reviewer, checking new titles against the pages",
+      "what": "glastonbury-festival describes the October 2026 ticket sale as upcoming though it has passed, and its description says 'no festival this year', which goes stale on 1 January 2027.",
+      "should_have_caught": "audit-festival-editions.mjs checks years, not whether a dated sentence has passed.",
+      "fix": null
     }
   ]
 }

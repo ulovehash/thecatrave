@@ -2,7 +2,7 @@
 
 ## Antwort
 
-Der berühmteste Club in Berlin ist das Berghain, in einem ehemaligen Heizkraftwerk in Friedrichshain, mit der Panorama Bar im selben Gebäude. Berliner Techno begann früher, 1988 im UFO und im Tresor, der im März 1991 in den Tresorräumen eines verfallenen Kaufhauses eröffnete und bis heute läuft. Die besten Clubs in Berlin sind heute Tresor, Berghain, KitKatClub, Kater, Sisyphos, Club der Visionaere, OST und Wilde Renate. Mehrere bekannte Clubs Berlins, darunter Bar 25 und Watergate, haben bereits geschlossen. Unten stehen die Legenden und die Clubs, die noch offen sind, warum jeder davon zählt, und zu jedem etwas zum Hören, bevor man hingeht.
+Der berühmteste Club in Berlin ist das [Berghain](/de/berghain), in einem ehemaligen Heizkraftwerk in Friedrichshain, mit der Panorama Bar im selben Gebäude. Berliner Techno begann früher, 1988 im UFO und im Tresor, der im März 1991 in den Tresorräumen eines verfallenen Kaufhauses eröffnete und bis heute läuft. Die besten Clubs in Berlin sind heute Tresor, Berghain, KitKatClub, Kater, Sisyphos, Club der Visionaere, OST und Wilde Renate. Mehrere bekannte Clubs Berlins, darunter Bar 25 und Watergate, haben bereits geschlossen. Unten stehen die Legenden und die Clubs, die noch offen sind, warum jeder davon zählt, und zu jedem etwas zum Hören, bevor man hingeht.
 
 ## Einleitung
 

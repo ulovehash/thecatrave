@@ -109,7 +109,7 @@ export default {
   bodyClass: 'article-page german-electronic-page',
 
   title: 'Musique électronique allemande : de Kraftwerk à la techno',
-  description: 'Comment la musique électronique allemande s’est formée : du studio de Cologne et Kraftwerk à l’école de Berlin, la techno, la trance et la culture club actuelle.',
+  description: 'L’électro allemande, du studio de Cologne et de Kraftwerk à l’école de Berlin, la techno, la trance et la culture club actuelle : comment elle s’est formée.',
   datePublished: '2026-10-01',
   dateModified: '2026-10-01',
   dateLabel: '1er octobre 2026',

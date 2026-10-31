@@ -35,8 +35,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/coachella.jpg',
   bodyClass: 'article-page coachella-page',
 
-  title: 'Qu’est-ce que Coachella ? Dates 2027, lieu, taille et musique',
-  description: 'Coachella est un festival de musique à l’Empire Polo Club d’Indio, en Californie. Dates 2027, lieu, durée, fréquentation, propriétaire et la musique de la Sahara.',
+  title: 'Coachella 2027 : dates, lieu, taille et musique',
+  description: 'Coachella 2027 a lieu du 9 au 11 et du 16 au 18 avril à l’Empire Polo Club d’Indio, en Californie. Lieu, durée, fréquentation, propriétaire et musique.',
   datePublished: '2026-09-18',
   dateModified: '2026-10-06',
   dateLabel: '6 octobre 2026',

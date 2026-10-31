@@ -45,8 +45,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/burning-man.jpg',
   bodyClass: 'article-page burning-man-page',
 
-  title: 'Was ist Burning Man? Die Stadt in der Wüste und ihre Musik',
-  description: 'Burning Man ist kein Festival mit Line-up, sondern eine Stadt auf Zeit in Nevada. Was dort passiert, wo es liegt, was es kostet und was die Sound-Camps spielen.',
+  title: 'Burning Man 2027: Was es ist, Termine, Kosten und Musik',
+  description: 'Burning Man 2027 läuft vom 29. August bis 6. September in Nevada. Kein Festival mit Line-up, sondern eine Stadt auf Zeit: Alltag, Kosten und Sound-Camps.',
   datePublished: '2026-09-18',
   dateModified: '2026-09-18',
   dateLabel: '18. September 2026',

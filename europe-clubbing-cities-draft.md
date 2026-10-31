@@ -38,7 +38,7 @@ Paris has Rex Club, a techno and house room in the basement of the Grand Rex cin
 
 [Image: Cross Club]
 
-Tbilisi is the newest city here. Bassiani opened in 2014 inside the Dinamo Arena, using a disused swimming pool as its main dancefloor, with room for about 1,200. When police raided it on 12 May 2018 and arrested its two owners, the raid caused protests in the city. KHIDI is Tbilisi's other well-known techno club, and Boiler Room has filmed there too.
+[Tbilisi](/best-clubs-in-tbilisi) is the newest city here. Bassiani opened in 2014 inside the Dinamo Arena, using a disused swimming pool as its main dancefloor, with room for about 1,200. When police raided it on 12 May 2018 and arrested its two owners, the raid caused protests in the city. KHIDI is Tbilisi's other well-known techno club, and Boiler Room has filmed there too.
 
 [Embed: Kancheli Zitto Bassiani]
 

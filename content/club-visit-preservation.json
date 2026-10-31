@@ -179,7 +179,7 @@
     ]
   },
   "best-clubs-in-nyc.html": {
-    "title": "Best Clubs in NYC: Nightclubs for House and Techno, Then and Now",
+    "title": "Best Clubs in NYC: Nightclubs for House and Techno",
     "canonical": "https://thecatrave.com/best-clubs-in-nyc",
     "description": "The best nightclubs in NYC for house and techno now: Nowadays, Basement, Public Records, Good Room and Elsewhere, plus the history from the Loft to Output.",
     "h1": "The best clubs in NYC, from the Paradise Garage to Nowadays",
@@ -333,7 +333,7 @@
     ]
   },
   "best-clubs-in-vienna.html": {
-    "title": "Best Clubs in Vienna: Flex, Grelle Forelle and Where to Dance Now",
+    "title": "Best Clubs in Vienna: Flex, Grelle Forelle and More",
     "canonical": "https://thecatrave.com/best-clubs-in-vienna",
     "description": "The best clubs in Vienna now: Flex, Grelle Forelle, Das Werk, Fluc and SASS, plus what happened to Pratersauna, which stopped operating as a club in 2025.",
     "h1": "The best clubs in Vienna, from Flex to Grelle Forelle",
@@ -564,7 +564,7 @@
     ]
   },
   "best-clubs-in-amsterdam.html": {
-    "title": "Best Clubs in Amsterdam: From RoXY to Radion",
+    "title": "Best Clubs in Amsterdam: Shelter, Radion, Lofi and More",
     "canonical": "https://thecatrave.com/best-clubs-in-amsterdam",
     "description": "Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.",
     "h1": "The best clubs in Amsterdam, from RoXY to Radion",
@@ -738,10 +738,10 @@
     ]
   },
   "pacha-ibiza.html": {
-    "title": "Pacha Ibiza: Tickets, Dress Code and Calendar 2026",
+    "title": "Pacha Ibiza: Tickets, Dress Code, Hours and Closing Parties",
     "canonical": "https://thecatrave.com/pacha-ibiza",
-    "description": "Pacha Ibiza: how tickets, tables and the dress code work, where the club is, who owns it and how to read the 2026 calendar.",
-    "h1": "Pacha Ibiza: tickets, dress code and calendar 2026",
+    "description": "Pacha Ibiza: how tickets, tables and the dress code work, opening hours, where the club is, who owns it and how the 2026 season and closing parties ran.",
+    "h1": "Pacha Ibiza: tickets, dress code, hours and closing parties",
     "published": "2026-10-04",
     "ids": [
       "promo-bar",
@@ -1359,7 +1359,7 @@
     ]
   },
   "de/clubs-berlin.html": {
-    "title": "Die besten Clubs in Berlin: Legenden und die, die noch offen sind",
+    "title": "Die besten Clubs in Berlin: Legenden und was noch offen ist",
     "canonical": "https://thecatrave.com/de/clubs-berlin",
     "description": "Berghain, Tresor, KitKat und die Clubs davor: die besten Clubs in Berlin, wie jeder berühmt wurde, und die Sets, die man hören sollte, bevor man hingeht.",
     "h1": "Die besten Clubs in Berlin und die Legenden dahinter",
@@ -1407,9 +1407,9 @@
     ]
   },
   "de/berghain.html": {
-    "title": "Berghain: Panorama Bar, Sound und Resident-DJs",
+    "title": "Berghain: Öffnungszeiten, Kapazität, Panorama Bar und Sound",
     "canonical": "https://thecatrave.com/de/berghain",
-    "description": "Das Berghain erklärt: das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine am Berghain und das Label Ostgut Ton.",
+    "description": "Das Berghain erklärt: Öffnungszeiten, Kapazität, das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine und das Label Ostgut Ton.",
     "h1": "Berghain: Panorama Bar, Sound und Resident-DJs",
     "published": "2026-10-06",
     "ids": [
@@ -2518,10 +2518,10 @@
     ]
   },
   "es/pacha-ibiza.html": {
-    "title": "Pacha Ibiza: entradas, dress code y calendario 2026",
+    "title": "Pacha Ibiza: entradas, dress code, horario y cierre",
     "canonical": "https://thecatrave.com/es/pacha-ibiza",
-    "description": "Pacha Ibiza: cuánto cuestan las entradas, cómo funciona la mesa VIP y el dress code, dónde está el club, quién es el dueño y cómo leer el calendario 2026.",
-    "h1": "Pacha Ibiza: entradas, dress code y calendario 2026",
+    "description": "Pacha Ibiza: cuánto cuestan las entradas, la mesa VIP y el dress code, el horario, dónde está el club, quién es el dueño y cómo fue la temporada 2026.",
+    "h1": "Pacha Ibiza: entradas, dress code, horario y cierre",
     "published": "2026-10-09",
     "ids": [
       "promo-bar",

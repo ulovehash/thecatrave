@@ -32,8 +32,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/monegros.jpg',
   bodyClass: 'article-page monegros-desert-festival-page',
 
-  title: 'Monegros Desert Festival 2027: fecha, historia y cómo llegar',
-  description: 'El Monegros Desert Festival 2027 está previsto para el 31 de julio cerca de Fraga, en Aragón. Historia, música, formato nocturno, cómo llegar y límites prácticos.',
+  title: 'Monegros Desert Festival 2027: 31 de julio, entradas y cartel',
+  description: 'Monegros 2027 está previsto el 31 de julio cerca de Fraga, en Aragón. Entradas, autobuses, normas de acceso y qué llevar; el cartel aún no se ha anunciado.',
   datePublished: '2026-10-09',
   dateModified: '2026-10-09',
   dateLabel: '9 de octubre de 2026',

@@ -22,7 +22,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('amsterdam-clubs-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-amsterdam';
-const title = 'Best Clubs in Amsterdam: From RoXY to Radion';
+const title = 'Best Clubs in Amsterdam: Shelter, Radion, Lofi and More';
 const description = 'Shelter, Radion, Lofi and the Gashouder: the best clubs in Amsterdam open now, why they run 24 hours, and the history from RoXY to De School.';
 const datePublished = '2026-09-23';
 const dateModified = '2026-10-08';

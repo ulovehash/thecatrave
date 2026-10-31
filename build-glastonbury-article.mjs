@@ -37,7 +37,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('glastonbury-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/glastonbury-festival';
-const title = 'Glastonbury Festival: 2027, Fallow Years and Headliners';
+const title = 'Glastonbury 2027: Dates, Attendance, Fallow Years, Headliners';
 const description = 'Glastonbury Festival at Worthy Farm: when Glastonbury 2027 is, why there is no festival this year, where it is, how big it is, and the headliners by year.';
 const datePublished = '2026-09-14';
 const dateModified = '2026-09-15';

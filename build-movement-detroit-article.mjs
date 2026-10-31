@@ -15,8 +15,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('movement-detroit-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/movement-detroit';
-const title = 'Movement Detroit: Festival History, Location and Techno Legacy';
-const description = "Movement Detroit brings techno home to Hart Plaza each Memorial Day weekend. Learn the festival's history, location, stages and place in Detroit culture.";
+const title = 'Movement Detroit 2027: Dates, Hart Plaza and Techno History';
+const description = "Movement Detroit brings techno home to Hart Plaza each Memorial Day weekend, listed for 29 to 31 May 2027. The festival's history, location, stages and legacy.";
 const datePublished = '2026-09-29';
 const dateModified = '2026-09-29';
 const dateLabel = '29 September 2026';

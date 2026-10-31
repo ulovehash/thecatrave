@@ -37,7 +37,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('untold-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/untold-festival';
-const title = 'Untold Festival: Where It Is, How Big, and the Music';
+const title = 'Untold Festival 2027: Dates, Location, Size and Music';
 const description = 'Untold festival in Cluj-Napoca, Romania: when Untold 2027 is, where it happens, how it reached 500,000 admissions, who runs it, and what plays.';
 const datePublished = '2026-09-14';
 const dateModified = '2026-09-15';

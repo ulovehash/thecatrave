@@ -116,7 +116,7 @@ In the catalogue of recorded DJ sets behind this site's Selector, about 8,500 se
 
 Techno has never been a chart music, apart from a few acts such as Underworld and Orbital, but it has spread into almost everything else. Ford used "No UFO's" in a 2000 television advertisement for the Focus, with "Detroit Techno" as a print slogan. The city that ignored its own music for years now holds a festival for it: Movement, on Memorial Day weekend at Hart Plaza, which began in 2000 as the Detroit Electronic Music Festival.
 
-Europe has kept the club side alive. Berlin, Amsterdam, Tbilisi's Bassiani, Glasgow's Sub Club and dozens of smaller rooms play techno every weekend, and the Detroit originals still tour. Kevin Saunderson played for Boiler Room in Chicago, the other city in the story.
+Europe has kept the club side alive. Berlin, Amsterdam, [Tbilisi's Bassiani](/best-clubs-in-tbilisi), Glasgow's Sub Club and dozens of smaller rooms play techno every weekend, and the Detroit originals still tour. Kevin Saunderson played for Boiler Room in Chicago, the other city in the story.
 
 [Embed: Kevin Saunderson Boiler Room]
 

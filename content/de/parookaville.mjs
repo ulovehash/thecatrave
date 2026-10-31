@@ -35,8 +35,8 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/parookaville.jpg',
   bodyClass: 'article-page parookaville-page',
 
-  title: 'Parookaville 2027: Gelände, Besucherzahlen, Geschichte und Musik',
-  description: 'Parookaville ist Deutschlands größtes Festival für elektronische Musik, jeden Juli am Flughafen Weeze. Gelände, Termine, Besucherzahlen und Musik im Überblick.',
+  title: 'Parookaville 2027: Termin, Tickets, Besucherzahlen, Gelände',
+  description: 'Parookaville 2027 findet vom 16. bis 18. Juli am Flughafen Weeze statt. Deutschlands größtes Festival für elektronische Musik: Tickets, Gelände, Besucherzahlen.',
   datePublished: '2026-09-17',
   dateModified: '2026-09-17',
   dateLabel: '17. September 2026',

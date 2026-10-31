@@ -32,8 +32,8 @@ export default {
   minReadingMinutes: 6,
   image: 'https://thecatrave.com/img/berghain/berghain-facade-1200.webp',
 
-  title: 'Berghain: Panorama Bar, Sound und Resident-DJs',
-  description: 'Das Berghain erklärt: das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine am Berghain und das Label Ostgut Ton.',
+  title: 'Berghain: Öffnungszeiten, Kapazität, Panorama Bar und Sound',
+  description: 'Das Berghain erklärt: Öffnungszeiten, Kapazität, das ehemalige Kraftwerk, die Panorama Bar, die Halle, die Kantine und das Label Ostgut Ton.',
   datePublished: '2026-10-06',
   dateModified: '2026-10-08',
   dateLabel: '8. Oktober 2026',

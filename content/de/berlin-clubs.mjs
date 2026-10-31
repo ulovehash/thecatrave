@@ -47,7 +47,7 @@ export default {
   ogImage: 'https://thecatrave.com/img/og/berlin-clubs.jpg',
   bodyClass: 'article-page berlin-clubs-page',
 
-  title: 'Die besten Clubs in Berlin: Legenden und die, die noch offen sind',
+  title: 'Die besten Clubs in Berlin: Legenden und was noch offen ist',
   description: 'Berghain, Tresor, KitKat und die Clubs davor: die besten Clubs in Berlin, wie jeder berühmt wurde, und die Sets, die man hören sollte, bevor man hingeht.',
   datePublished: '2026-09-18',
   dateModified: '2026-10-08',

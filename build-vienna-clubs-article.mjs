@@ -20,7 +20,7 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = fs.readFileSync('vienna-clubs-draft.md', 'utf8').replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/best-clubs-in-vienna';
-const title = 'Best Clubs in Vienna: Flex, Grelle Forelle and Where to Dance Now';
+const title = 'Best Clubs in Vienna: Flex, Grelle Forelle and More';
 const description = "The best clubs in Vienna now: Flex, Grelle Forelle, Das Werk, Fluc and SASS, plus what happened to Pratersauna, which stopped operating as a club in 2025.";
 const datePublished = '2026-10-05';
 const dateModified = '2026-10-08';

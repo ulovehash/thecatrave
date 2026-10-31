@@ -36,8 +36,8 @@ import {alternatesFor} from './pages.mjs';
 
 const draft = withCatalogue(fs.readFileSync('lollapalooza-draft.md', 'utf8')).replace(/—/g, ':');
 const canonical = 'https://thecatrave.com/lollapalooza-festival';
-const title = 'Lollapalooza Chicago: Location, History and the Music';
-const description = 'Lollapalooza is a four-day festival in Grant Park, Chicago. Learn its location, history, scale, international editions and the music on Perry\'s Stage.';
+const title = 'Lollapalooza Chicago 2027: Dates TBA, Location and History';
+const description = 'Lollapalooza is a four-day festival in Grant Park, Chicago, and its 2027 dates are not announced yet. Location, history, scale and the music on Perry\'s Stage.';
 const datePublished = '2026-09-14';
 const dateModified = '2026-09-17';
 const dateLabel = '17 September 2026';
