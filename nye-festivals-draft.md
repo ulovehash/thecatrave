@@ -48,7 +48,7 @@ Rhythm and Vines started in 2003 at Waiohika Estate, a vineyard near Gisborne on
 
 [Embed: Rhythm and Vines 2025]
 
-Beyond the Valley has run over New Year's Eve since 2014, first on Phillip Island and since then at sites east and west of Melbourne, as a multi-day festival with several stages. Field Day, in Sydney, is a one-day festival on New Year's Day itself, in The Domain park, with hip-hop, house, indie and electronic acts.
+Beyond the Valley has run over New Year's Eve since 2014, first on Phillip Island and since then at sites east and west of Melbourne, as a multi-day festival with several stages. Field Day, in Sydney, is a one-day festival on New Year's Day itself, in The Domain park, with hip-hop, house, indie and electronic acts. For the rest of the Australian season, see [the best EDM festivals in Australia](/best-edm-festivals-australia).
 
 [Embed: Beyond the Valley 2022]
 

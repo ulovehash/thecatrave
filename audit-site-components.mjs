@@ -26,10 +26,12 @@ const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readF
 // assembly file and find no figures, tables or sources in it.
 const contentModuleFor = page => `content/${langOf(page)}/${page.name.replace(/^[a-z]{2}-/, '')}.mjs`;
 const sharedNextFestivalBuilder = fs.readFileSync('build-next-festival-article.mjs', 'utf8');
+const sharedRoundupBuilder = fs.readFileSync('festival-roundup.mjs', 'utf8');
 const generatorSources = guides.map(page => {
   const module = contentModuleFor(page);
   const generator = generators[page.generator];
-  const sharedBuilder = generator.includes("./build-next-festival-article.mjs") ? sharedNextFestivalBuilder : '';
+  const sharedBuilder = (generator.includes("./build-next-festival-article.mjs") ? sharedNextFestivalBuilder : '')
+    + (generator.includes("./festival-roundup.mjs") ? sharedRoundupBuilder : '');
   const moduleSource = fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '';
   // A content module may build its figures and tables in a helper it shares
   // with the English generator (content/uk-evolution-shared.mjs).

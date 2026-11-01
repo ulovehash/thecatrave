@@ -58,7 +58,7 @@ Defqon.1 is the festival hardstyle is built around, run by Q-dance since 2003 on
 
 ## Techno and house
 
-These festivals are built around DJs rather than production, and several are closer to a very large club night than to a field festival.
+These festivals are built around DJs rather than production, and several are closer to a very large club night than to a field festival. For techno alone, see [the best techno festivals in the world](/best-techno-festivals).
 
 ### Awakenings, Netherlands
 
@@ -88,7 +88,7 @@ Monegros is one night in the desert near Fraga, in Aragón: in 2026 it ran from 
 
 ### Boomtown, England
 
-Boomtown, near Winchester in Hampshire, is built as a fictional city with themed districts, street sets and dozens of hidden venues, with theatre running through the whole site. The music is the broadest on this list: reggae, dub, ska, drum and bass, techno, house and live bands. After a planning decision in 2025 it can hold more than 75,000 people. Boomtown 2027 is on 11 to 15 August, with camping. It suits people who want a festival to be a world of its own rather than a line-up. The [detailed Boomtown guide](/boomtown-festival) covers tickets, coaches, camping, food, rules and packing.
+Boomtown, near Winchester in Hampshire, is built as a fictional city with themed districts, street sets and dozens of hidden venues, with theatre running through the whole site. The music is the broadest on this list: reggae, dub, ska, drum and bass, techno, house and live bands. After a planning decision in 2025 it can hold more than 75,000 people. Boomtown 2027 is on 11 to 15 August, with camping. It suits people who want a festival to be a world of its own rather than a line-up. The [detailed Boomtown guide](/boomtown-festival) covers tickets, coaches, camping, food, rules and packing. For the UK on its own, see [the best dance music festivals in the UK](/best-dance-music-festivals-uk).
 
 ## Smaller festivals worth the trip
 

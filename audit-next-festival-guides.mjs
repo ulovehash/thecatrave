@@ -13,6 +13,8 @@ const pages = [
 const roundups = [
   'new-years-eve-festivals.html', 'best-electronic-music-festivals-europe.html',
   'best-edm-festivals-usa.html', 'best-winter-music-festivals.html',
+  'best-techno-festivals.html', 'best-psytrance-festivals.html', 'best-edm-festivals-canada.html',
+  'best-edm-festivals-australia.html', 'best-dance-music-festivals-uk.html',
   'best-electronic-music-festivals-asia.html', 'de/silvester-rave.html',
   'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
   'fr/festivals-electro-europe.html', 'es/festivales-musica-electronica-europa.html',

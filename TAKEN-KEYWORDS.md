@@ -4,6 +4,12 @@ Every term an existing guide is already written for, pulled from `keywords/*.jso
 
 Regenerate: `node scripts/taken-keywords.mjs`
 
+## 90s-rave-music.html
+
+- 90s rave music
+- 1990's rave music
+- 90 rave music
+
 ## acid-house-guide.html
 
 - acid house
@@ -27,6 +33,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top clubs in amsterdam
 - famous club in amsterdam
 - biggest nightclub in amsterdam
+
+## amsterdam-dance-event.html
+
+- ade amsterdam
+- amsterdam dance event
+- ade festival
+- ade dates
+- when is ade
 
 ## arc-music-festival.html
 
@@ -52,6 +66,21 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - bass music
 - what is bass music?
+
+## best-clubs-in-belgrade.html
+
+- belgrade clubs
+- belgrade nightlife
+- belgrade night life
+- nightclubs in belgrade
+- clubs in belgrade serbia
+- belgrade nightclubs
+- best clubs in belgrade
+- belgrade splavovi
+- belgrade river clubs
+- belgrade techno
+- techno club belgrade
+- barutana belgrade
 
 ## berghain.html
 
@@ -139,6 +168,43 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - hacienda manchester
 - the warehouse project manchester
 
+## best-dance-music-festivals-uk.html
+
+- dance music festival uk
+- techno festivals uk
+- house music festivals uk
+- rave festival uk
+- dance festivals england
+- best dance music festivals uk
+- small dance festivals uk
+
+## best-dj-sets-of-all-time.html
+
+- best dj sets of all time
+- best dj sets
+- best dj set
+
+## best-edm-festivals-australia.html
+
+- pitch music and arts
+- ultra festival australia
+- edm festivals australia
+- edm festival melbourne
+- best edm festivals australia
+- biggest raves in australia
+
+## best-edm-festivals-canada.html
+
+- ile soniq
+- shambhala music festival
+- music festivals canada
+- edm festivals canada
+- edm festival in canada
+- toronto edm festivals
+- ottawa edm festival
+- calgary edm festival
+- biggest edm festival in canada
+
 ## best-edm-festivals-usa.html
 
 - best edm festivals in the us
@@ -156,6 +222,11 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - dreamstate
 - edc orlando
 - decadence colorado
+
+## best-electronic-albums.html
+
+- best electronic album ever
+- best electronic albums of all time
 
 ## best-electronic-music-festivals-asia.html
 
@@ -184,6 +255,42 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best house playlists on spotify
 - house music playlist on spotify
 
+## best-nightclubs-in-the-world.html
+
+- best nightclubs in the world
+- best clubs in the world
+- best clubs worldwide
+- best dance club in the world
+- top 100 clubs in the world
+- top 10 clubs in the world
+- top 10 nightclubs in the world
+- top 100 nightclubs in the world
+- top club in the world
+- top dance clubs in the world
+- top nightclub in the world
+- best night club in the world
+- best techno clubs in the world
+- biggest night club in the world
+- biggest nightclubs in the world
+- dj mag best clubs
+- most exclusive clubs in the world
+- most famous nightclubs in the world
+- world famous clubs
+- world famous nightclubs
+- the world's 100 best clubs
+
+## best-psytrance-festivals.html
+
+- boom festival
+- ozora festival
+- psytrance festivals
+- psytrance festivals europe
+- australian psytrance festivals
+- psy trance festival
+- best psytrance festivals
+- biggest psytrance festival
+- psytrance festivals usa
+
 ## best-soundcloud-dj-mixes.html
 
 - best soundcloud dj mixes
@@ -200,11 +307,40 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - popular spotify playlists
 - spotify playlist recommendations
 
+## best-techno-festivals.html
+
+- techno festivals
+- best techno festivals
+- biggest techno festival in the world
+- techno festivals europe
+- techno festivals usa
+- hard techno festivals
+- best techno festival
+
 ## best-techno-mixes.html
 
 - best techno mixes
 - best techno mix of all time
 - essential techno mixes
+
+## best-techno-tracks.html
+
+- best techno song ever
+- best techno songs of all time
+- good techno songs
+- best techno tracks
+- famous techno song
+- top 20 techno songs
+
+## best-trance-tracks.html
+
+- best trance tracks
+- best trance songs of all time
+- best trance track ever
+- best trance track of all time
+- best ever trance songs
+- best trance tunes
+- best trance song
 
 ## best-winter-music-festivals.html
 
@@ -329,6 +465,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - union park
 - arc after dark
 
+## de/festivals-elektronische-musik-asien.html
+
+- festivals für elektronische musik in asien
+- festivals für elektronische musik in thailand
+- ultra japan
+
 ## de/awakenings-festival.html
 
 - awakenings festival
@@ -346,6 +488,16 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - was ist bass music
 - uk bass music
 - ist dubstep bass music
+
+## de/berghain.html
+
+- berghain
+- berghain berlin
+- berghain line up
+- berghain sound
+- panorama bar
+- berghain kantine
+- berghain öffnungszeiten
 
 ## de/clubs-berlin.html
 
@@ -711,6 +863,51 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ist untold das größte festival der welt
 - untold cluj
 
+## de/edm-festivals-usa.html
+
+- EDM-Festivals in den USA
+- Festivals für elektronische Musik in den USA
+
+## de/winterfestivals.html
+
+- winterfestivals
+- festivals im schnee
+- winterfestivals für elektronische musik
+
+## defqon-1.html
+
+- defqon.1
+- defqon.1 2026
+- defqon.1 2027
+- defqon.1 cancelled
+- defqon.1 festival
+- defqon.1 lineup
+- defqon.1 location
+- defqon.1 tickets
+- defqon.1 2026 cancelled
+- defqon.1 2027 tickets
+- defqon.1 australia
+- defqon.1 biddinghuizen
+- defqon.1 camping
+- defqon.1 dates
+- defqon.1 endshow
+- defqon.1 live
+- defqon.1 meaning
+- defqon.1 netherlands
+- defqon.1 stages
+- defqon.1 ticket prices
+- what is defqon.1
+- defqon.1 2026 refund
+- defqon.1 2027 dates
+- defqon.1 2027 lineup
+- defqon.1 2027 ticket sale
+- defqon.1 age limit
+- defqon.1 colours
+- defqon.1 refund
+- defqon.1 sets
+- defqon.1 shuttle
+- defqon.1 sold out
+
 ## dekmantel-festival.html
 
 - dekmantel
@@ -782,6 +979,350 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - electric forest weekend 2
 - electric forest second weekend
 
+## es/airbeat-one-festival.html
+
+- airbeat one festival
+- airbeat one 2027
+- airbeat one
+- neustadt-glewe
+- camping
+- cartel
+
+## es/arc-music-festival.html
+
+- arc music festival
+- qué es el arc music festival
+- arc music festival 2027
+- union park
+- arc after dark
+
+## es/festivales-musica-electronica-asia.html
+
+- festivales de música electrónica en asia
+- festivales de música electrónica en tailandia
+- ultra japan
+- tomorrowland thailand
+
+## es/festival-awakenings.html
+
+- festival awakenings
+- awakenings festival 2027
+- dónde se celebra el festival awakenings
+- cuándo es awakenings 2027
+
+## es/discotecas-barcelona.html
+
+- discotecas barcelona
+- mejores discotecas de barcelona
+
+## es/berghain.html
+
+- berghain
+- berghain berlin
+- que es berghain
+- berghain dress code
+
+## es/discotecas-berlin.html
+
+- discotecas berlín
+- berghain
+
+## es/mejores-sets-boiler-room.html
+
+- boiler room
+- mejores sets de boiler room
+
+## es/mejores-discotecas-de-europa.html
+
+- mejores discotecas de europa
+- mejores clubes de techno de europa
+- mejores discotecas del mundo
+
+## es/mejores-playlists-house-spotify.html
+
+- playlists de house
+- playlists house
+
+## es/mejores-discotecas-del-mundo.html
+
+- mejores discotecas del mundo
+- discotecas más grandes del mundo
+- mejores clubes de techno del mundo
+- discotecas más exclusivas del mundo
+- discotecas famosas del mundo
+- discoteca más grande del mundo
+
+## es/mejores-sets-techno.html
+
+- mejores sets de techno
+- sets de techno
+
+## es/boomtown-festival.html
+
+- boomtown festival 2027
+- boomtown festival
+- matterley estate
+
+## es/breakbeat.html
+
+- breakbeat
+- qué es el breakbeat
+- breakbeat andaluz
+- quién inventó el breakbeat
+
+## es/burning-man.html
+
+- burning man
+- qué es burning man
+- burning man 2027
+- burning man festival
+- cuánto cuesta burning man
+- cuándo es burning man 2027
+- dónde es burning man
+
+## es/festival-coachella.html
+
+- coachella
+- coachella 2027
+- qué es coachella
+- cuándo es coachella
+- dónde es coachella
+- cuánto cuesta una entrada para coachella
+
+## es/creamfields-festival.html
+
+- creamfields
+- creamfields festival
+- creamfields 2027
+- dónde se celebra creamfields
+- cuánto cuesta una entrada para creamfields
+
+## es/defqon-1.html
+
+- Defqon.1 2027
+- entradas de Defqon.1
+- Defqon.1 2026 cancelado
+- Dónde es Defqon.1
+- cartel de Defqon.1
+- precio de las entradas de Defqon.1
+
+## es/drum-and-bass.html
+
+- qué es el drum and bass
+- drum and bass
+- drum n bass
+- DnB
+- jungle
+
+## es/edc-las-vegas.html
+
+- edc las vegas
+- edc las vegas 2027
+- dónde es edc las vegas
+- cuándo es edc las vegas
+- cuánto cuesta una entrada para edc las vegas
+- qué es edc las vegas
+
+## es/festivales-musica-electronica-europa.html
+
+- festivales de música electrónica en europa
+
+## es/festival-exit.html
+
+- exit festival
+- festival exit
+- exit festival 2027
+- exit festival novi sad
+- dónde es el festival exit
+- dance arena
+
+## es/fabric-london.html
+
+- fabric London
+- entradas
+- dress code
+- horarios
+- edad mínima
+
+## es/fusion-festival.html
+
+- Fusion Festival
+- Fusion Festival 2027
+- Fusion Festival 2026
+- entradas de Fusion Festival
+- cartel de Fusion Festival
+- cómo llegar a Fusion Festival
+
+## es/festival-glastonbury.html
+
+- glastonbury
+- glastonbury festival
+- festival de glastonbury
+- glastonbury 2027
+
+## es/musica-house.html
+
+- qué es la música house
+- música house
+- deep house
+- house music
+- canción de house
+
+## es/discotecas-ibiza.html
+
+- discotecas ibiza
+- pacha ibiza
+- amnesia ibiza
+- ushuaia ibiza
+
+## es/jungle.html
+
+- música jungle
+- qué es el jungle
+- jungle y drum and bass
+
+## es/lollapalooza-festival.html
+
+- lollapalooza 2027
+- dónde se celebra lollapalooza
+- cuándo es lollapalooza
+
+## es/monegros-desert-festival.html
+
+- monegros
+- monegros desert festival
+- monegros festival
+- festival de los monegros
+- monegros 2027
+- monegros historia
+
+## es/mysteryland-festival.html
+
+- Mysteryland
+- Mysteryland 2027
+- Dónde se celebra Mysteryland
+
+## es/festivales-nochevieja.html
+
+- festivales de Nochevieja
+
+## es/pacha-ibiza.html
+
+- pacha ibiza
+- pacha ibiza entradas
+- pacha ibiza dress code
+
+## es/parookaville-festival.html
+
+- parookaville 2027
+- parookaville
+
+## es/primavera-sound-barcelona.html
+
+- primavera sound
+- primavera sound barcelona
+- primavera sound 2027
+- primavera sound porto
+- primavera sound fechas
+
+## es/printworks-london.html
+
+- printworks london
+
+## es/sonar-barcelona.html
+
+- sonar
+- sonar festival
+- sonar barcelona
+- sonar by night
+- off sonar
+- sonar festival barcelona
+- sonar by day
+- sonar d
+- sonar 2027
+- cuándo es el sonar
+
+## es/festival-sziget.html
+
+- sziget festival
+- sziget festival 2027
+- dónde se celebra el sziget festival
+
+## es/techno.html
+
+- qué es el techno
+- música techno
+- belleville three
+- techno o house
+- tipos de techno
+
+## es/time-warp-festival.html
+
+- Time Warp Festival
+- Time Warp Madrid 2026
+- Time Warp Mannheim
+- Time Warp 2027
+- entradas de Time Warp
+
+## es/tomorrowland-festival.html
+
+- tomorrowland
+- tomorrowland 2027
+- tomorrowland festival
+- qué es tomorrowland
+- tomorrowland winter
+- tomorrowland brasil
+- tomorrowland tailandia
+- tomorrowland bélgica
+- tomorrowland españa
+- tomorrowland mainstage
+- cuándo es tomorrowland
+
+## es/musica-trance.html
+
+- qué es la música trance
+- música trance
+- rey del trance
+- psytrance
+
+## es/historia-musica-electronica-reino-unido.html
+
+- historia de la música electrónica
+
+## es/ultra-music-festival.html
+
+- ultra music festival
+- ultra music festival 2027
+- dónde es el ultra music festival
+- cuánto cuesta una entrada para ultra
+- ultra europe 2027
+
+## es/festival-untold.html
+
+- untold festival
+- untold festival 2027
+- dónde se celebra untold
+- cuánto cuesta una entrada para untold
+
+## es/festivales-edm-estados-unidos.html
+
+- festivales EDM en Estados Unidos
+
+## es/ushuaia-ibiza.html
+
+- ushuaia ibiza
+- ushuaia ibiza entradas
+- ushuaia ibiza hotel
+- ushuaia ibiza precio
+- ushuaia ibiza dress code
+- ushuaia ibiza como llegar
+
+## es/festivales-invierno.html
+
+- festivales de invierno
+- festivales en la nieve
+- festivales de música electrónica en invierno
+
 ## best-clubbing-cities-in-europe.html
 
 - best clubbing cities in europe
@@ -847,6 +1388,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - union park
 - arc after dark
 
+## fr/festivals-musique-electronique-asie.html
+
+- festivals de musique électronique en asie
+- festivals de musique électronique en thaïlande
+- ultra japan
+
 ## fr/festival-awakenings.html
 
 - awakenings festival
@@ -863,6 +1410,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - qu’est-ce que la bass music
 - uk bass music
 - le dubstep est-il de la bass music
+
+## fr/berghain.html
+
+- berghain berlin
+- berghain
+- panorama bar
 
 ## fr/boite-de-nuit-berlin.html
 
@@ -1185,6 +1738,38 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - untold cluj
 - où se trouve untold festival
 
+## fr/festivals-edm-etats-unis.html
+
+- festivals EDM aux États-Unis
+- festivals de musique électronique aux États-Unis
+
+## fr/festivals-hiver.html
+
+- festivals d’hiver
+- festivals dans la neige
+- festivals de musique électronique d’hiver
+
+## fusion-festival.html
+
+- fusion festival
+- fusion festival germany
+- fusion festival 2026
+- fusion festival 2025
+- fusion festival tickets
+- fusion festival lärz
+- fusion festival lineup
+- fusion festival how to get there
+- fusion festival capacity
+- fusion festival dates
+- kulturkosmos lärz
+- fusion festival stages
+- fusion festival sets
+- fusion festival berlin
+- fusion festival 2027
+- fusion festival 2028
+- fusion festival police
+- fusion festival age limit
+
 ## german-electronic-music.html
 
 - german electronic music
@@ -1239,6 +1824,12 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - hardstyle
 - what is hardstyle
 - hardstyle festivals
+
+## house-music-classics.html
+
+- house music classics
+- house classics
+- classic house songs
 
 ## house-music-guide.html
 
@@ -1344,6 +1935,26 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - famous clubs in london
 - ministry of sound
 
+## love-parade.html
+
+- loveparade
+- love parade 2026
+- love parade berlin 2026
+- rave the planet 2026
+- street parade
+- street parade zurich
+- rave the planet parade
+- rave the planet berlin
+- love parade germany
+- love parade festival
+- loveparade duisburg 2010
+- love parade 1989
+- love parade dortmund
+- love parade essen
+- love parade 2027
+- why was love parade cancelled
+- love parade meaning
+
 ## best-clubs-in-mexico-city.html
 
 - best clubs in mexico city
@@ -1352,6 +1963,7 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - monegros desert festival
 - monegros desert
+- monegros 2027
 
 ## movement-detroit.html
 
@@ -1429,7 +2041,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best clubs in paris
 - clubs in paris
 - paris nightlife
-- best night clubs in paris
 - the best clubs in paris
 
 ## parookaville-festival.html
@@ -1458,6 +2069,29 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - primavera sound porto
 - what is primavera sound
 
+## printworks-london.html
+
+- printworks london
+- printworks
+- drumsheds
+- drumsheds london
+- printworks manchester
+- printworks london reopening
+- printworks reopening
+- printworks london events
+- printworks london closed
+- printworks london closing
+- printworks london 2026
+- printworks london tickets
+- printworks london capacity
+- printworks london history
+- printworks london lineup
+- printworks london rooms
+- printworks london opening
+- drumsheds printworks
+- why did printworks close
+- is printworks coming back
+
 ## snowbombing-festival.html
 
 - snowbombing
@@ -1484,6 +2118,13 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - sziget festival
 - sziget
+
+## best-clubs-in-tbilisi.html
+
+- tbilisi clubs
+- tbilisi nightlife
+- best clubs in tbilisi
+- tbilisi techno
 
 ## techno-music-guide.html
 
@@ -1639,3 +2280,19 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - ushuaia ibiza day party
 - ushuaia ibiza 2027
 - ushuaia ibiza residencies
+
+## best-clubs-in-vienna.html
+
+- best clubs in vienna
+- vienna clubs
+- vienna nightlife
+- vienna techno clubs
+
+## why-dj-mag-top-100-never-changes.html
+
+- dj mag top 100
+- famous djs
+- top 100 djs
+- most famous djs
+- famous djs of all time
+- famous house djs

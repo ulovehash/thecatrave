@@ -64,6 +64,11 @@ export const festivalEditions = [
   {page: 'time-warp-festival.html', heading: 'When is Time Warp 2027?', ends: '2027-04-04'},
   {page: 'snowbombing-festival.html', heading: 'When is Snowbombing 2027?', ends: '2027-04-10'},
   {page: 'best-edm-festivals-usa.html', heading: 'US EDM festival dates for 2027 at a glance', ends: null},
+  {page: 'best-techno-festivals.html', heading: 'Techno festival dates for 2027 at a glance', ends: null},
+  {page: 'best-psytrance-festivals.html', heading: 'Psytrance festival dates for 2027 at a glance', ends: null},
+  {page: 'best-edm-festivals-canada.html', heading: 'Canadian EDM festival dates for 2027 at a glance', ends: null},
+  {page: 'best-edm-festivals-australia.html', heading: 'Australian EDM festival dates for 2027 at a glance', ends: null},
+  {page: 'best-dance-music-festivals-uk.html', heading: 'UK dance festival dates for 2027 at a glance', ends: null},
   // The German and French translations carry the same dates and roll with the
   // English page.
   {page: 'de/electro-festivals-europa.html', heading: 'Termine 2027 im Überblick', ends: null},

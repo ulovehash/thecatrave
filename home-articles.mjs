@@ -570,6 +570,46 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'A DJ on the main stage at Beyond Wonderland in 2010 above a crowd'
   },
   {
+    page:'best-techno-festivals.html', category:'festivals', tags:['discovery','techno','history'], href:'/best-techno-festivals', type:'List', topic:'Techno festivals',
+    title:'Best Techno Festivals 2027: Awakenings, Time Warp, Movement',
+    description:'Awakenings on 9 to 11 July, Time Warp on 3 April, Movement on 29 to 31 May: techno festivals for 2027 by sound, with dates confirmed or not.',
+    image:'img/techno-festivals/kappa-solar-2025-320.webp',
+    srcset:'img/techno-festivals/kappa-solar-2025-320.webp 320w,img/techno-festivals/kappa-solar-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'The Solar Stage at Kappa FuturFestival in Turin in July 2025'
+  },
+  {
+    page:'best-psytrance-festivals.html', category:'festivals', tags:['discovery','history'], href:'/best-psytrance-festivals', type:'List', topic:'Psytrance festivals',
+    title:'Best Psytrance Festivals 2027: Ozora, Boom and Universo Paralello',
+    description:'Boom on 18 to 25 July, Ozora listed from 23 July, Universo Paralello at New Year: psytrance festivals for 2027 by setting, with dates confirmed or not.',
+    image:'img/psytrance-festivals/boom-being-fields-2018-320.webp',
+    srcset:'img/psytrance-festivals/boom-being-fields-2018-320.webp 320w,img/psytrance-festivals/boom-being-fields-2018-1200.webp 1200w',
+    width:1200, height:800, alt:'Boom Festival seen from the Being Fields area in 2018'
+  },
+  {
+    page:'best-edm-festivals-canada.html', category:'festivals', tags:['discovery','house','techno'], href:'/best-edm-festivals-canada', type:'List', topic:'Canadian EDM festivals',
+    title:'Best EDM Festivals in Canada 2027: VELD, Shambhala, Ile Soniq',
+    description:'Shambhala on 23 to 26 July, VELD listed for 30 July, Ile Soniq listed for 7 August: Canadian EDM festivals for 2027, with dates confirmed or not.',
+    image:'img/canada-festivals/veld-deadmau5-2016-320.webp',
+    srcset:'img/canada-festivals/veld-deadmau5-2016-320.webp 320w,img/canada-festivals/veld-deadmau5-2016-1200.webp 1200w',
+    width:1200, height:749, alt:'deadmau5 on stage at VELD Music Festival in Toronto in July 2016'
+  },
+  {
+    page:'best-edm-festivals-australia.html', category:'festivals', tags:['discovery','house','techno'], href:'/best-edm-festivals-australia', type:'List', topic:'Australian EDM festivals',
+    title:'Best EDM Festivals in Australia 2027: Beyond the Valley, Pitch',
+    description:'Beyond the Valley at New Year, Pitch on 5 to 9 March, Ultra back in April: Australian EDM festivals by state and season, with dates confirmed or not.',
+    image:'img/australia-festivals/grampians-halls-gap-320.webp',
+    srcset:'img/australia-festivals/grampians-halls-gap-320.webp 320w,img/australia-festivals/grampians-halls-gap-1200.webp 1200w',
+    width:1200, height:800, alt:'The Grampians range in Victoria seen from Halls Gap'
+  },
+  {
+    page:'best-dance-music-festivals-uk.html', category:'festivals', tags:['discovery','house','techno'], href:'/best-dance-music-festivals-uk', type:'List', topic:'UK dance festivals',
+    title:'Best Dance Music Festivals in the UK 2027: Creamfields, Houghton',
+    description:'Creamfields on 26 to 29 August, Houghton on 5 to 8 August, Parklife on 10 and 11 July: UK dance festivals for 2027 by sound, with dates confirmed or not.',
+    image:'img/uk-festivals/boomtown-crowd-2019-320.webp',
+    srcset:'img/uk-festivals/boomtown-crowd-2019-320.webp 320w,img/uk-festivals/boomtown-crowd-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'A large crowd dancing in front of a stage at Boomtown in August 2019'
+  },
+  {
     page:'dekmantel-festival.html', category:'festivals', tags:['discovery','house','techno'], href:'/dekmantel-festival', type:'Guide', topic:'Dekmantel',
     title:'Dekmantel Festival 2027: Dates, Tickets, Selectors, Amsterdam',
     description:'Dekmantel at the Amsterdamse Bos, 18+: 2027 dates (listed, not yet official), ticket rules, Selectors in Croatia on 19 to 23 August 2027 and sets to hear.',

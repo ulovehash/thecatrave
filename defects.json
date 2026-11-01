@@ -1457,6 +1457,194 @@
         "file": "europe-clubbing-cities-draft.md",
         "contains": "[Vienna](/best-clubs-in-vienna) did not make this list"
       }
+    },
+    {
+      "id": "techno-roundup-biggest-claim-ignored-kappa",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the techno roundup",
+      "what": "The draft called Nature One the biggest on published figures while Kappa FuturFestival had reported 125,000 attendances and Awakenings 119,000 for 2026, simply because those figures were not on the page.",
+      "should_have_caught": "The draft's fact pass, which compared only figures already gathered.",
+      "fix": {
+        "file": "best-techno-festivals-draft.md",
+        "contains": "Kappa FuturFestival has the largest, with 125,000 attendances"
+      }
+    },
+    {
+      "id": "dekmantel-guide-dates-superseded",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the techno roundup",
+      "what": "dekmantel.com now gives 29 July to 2 August 2027, but dekmantel-festival.html still says the site has not confirmed dates and cites 28 July to 1 August from listings. Exact replacement wording is in best-techno-festivals-editorial-review.md section 9, awaiting the owner. The Europe hub table also still says not announced.",
+      "should_have_caught": "Nothing rechecks listed dates on published guides.",
+      "fix": null
+    },
+    {
+      "id": "canada-roundup-resale-advice-wrong",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the Canada roundup",
+      "what": "The draft said resale is the only way into Shambhala, while the festival's FAQ warns against third-party sellers and offers a waitlist, its own ticket system and crew places.",
+      "should_have_caught": "The draft's fact pass, which read the sold-out line and not the FAQ.",
+      "fix": {
+        "file": "best-edm-festivals-canada-draft.md",
+        "contains": "a ticket sold on through its own online system"
+      }
+    },
+    {
+      "id": "canada-roundup-veld-figure-unsourced",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the Canada roundup",
+      "what": "The draft printed nearly 50,000 a year for VELD credited to a listing that carries no such number, and marked VELD 2027 as provisional while the festival was selling it.",
+      "should_have_caught": "The draft's fact pass.",
+      "fix": {
+        "file": "build-canada-festivals-article.mjs",
+        "contains": "Three days, no official figure"
+      }
+    },
+    {
+      "id": "canada-roundup-alt-text-invented",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the Canada roundup",
+      "what": "Alt text said audience and crowd on two images that show a near-empty lawn and a sculpture.",
+      "should_have_caught": "Alt text was written from the filename, not from the picture.",
+      "fix": {
+        "file": "build-canada-festivals-article.mjs",
+        "contains": "A festivalgoer on the lawn in front of the MUTEK stage"
+      }
+    },
+    {
+      "id": "canada-roundup-gallery-photo-unlicensed",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the Canada roundup",
+      "what": "A Bass Coast photo rested on an uploader's CC claim for the festival's own gallery, with no named photographer and no permission record. Removed.",
+      "should_have_caught": "The licence check read the Commons tag and not who had the right to apply it.",
+      "fix": {
+        "file": "media/best-edm-festivals-canada.json",
+        "contains": "has no permission record"
+      }
+    },
+    {
+      "id": "audit-media-short-gap-figure-to-listening",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the Canada roundup",
+      "what": "AGENTS.md section 7 asks for a substantial paragraph between an image and a listening block. audit-media.mjs only catches direct adjacency, so 24 and 25 word gaps passed on the Canada draft.",
+      "should_have_caught": "audit-media.mjs.",
+      "fix": null
+    },
+    {
+      "id": "uk-roundup-houghton-capacity-unsourced",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the UK roundup",
+      "what": "The draft printed a Houghton capacity of 15,000 and an age limit of 18. No source gives either.",
+      "should_have_caught": "The draft's fact pass.",
+      "fix": {
+        "file": "best-dance-music-festivals-uk-draft.md",
+        "contains": "It publishes no capacity, and reports put it at about 10,000"
+      }
+    },
+    {
+      "id": "uk-roundup-lost-village-figure-stale",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the UK roundup",
+      "what": "The draft gave Lost Village about 5,000 a day, a figure from 2016 and 2017 coverage. Later reports give up to 15,000.",
+      "should_have_caught": "The draft's fact pass, which did not date the figure.",
+      "fix": {
+        "file": "best-dance-music-festivals-uk-draft.md",
+        "contains": "reports put it at up to 15,000"
+      }
+    },
+    {
+      "id": "uk-roundup-we-out-here-sold-as-small",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the UK roundup",
+      "what": "We Out Here was offered as the small option at a reported cap of 25,000.",
+      "should_have_caught": "The draft left its scale cell as Not published here, so nothing tested the word small.",
+      "fix": {
+        "file": "best-dance-music-festivals-uk-draft.md",
+        "contains": "with a reported cap of 25,000"
+      }
+    },
+    {
+      "id": "uk-roundup-terminal-v-photo-wrong-place",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the UK roundup",
+      "what": "The Queen's Dock photograph was captioned as Terminal V's new setting. It shows Finnieston, upriver of Clydeside Live.",
+      "should_have_caught": "The caption was written from the river's name, not from the picture.",
+      "fix": {
+        "file": "build-uk-festivals-article.mjs",
+        "contains": "upriver from Terminal V"
+      }
+    },
+    {
+      "id": "uk-roundup-date-labels-reversed",
+      "found": "2026-11-01",
+      "by": "Independent reviewer of the UK roundup",
+      "what": "Terminal V and Forbidden Forest were labelled reported although their own sites print the dates, and Gottwood was shown as confirmed with its site still on 2026.",
+      "should_have_caught": "The page's own confirmed and reported rule was not applied to each row.",
+      "fix": {
+        "file": "best-dance-music-festivals-uk-draft.md",
+        "contains": "Terminal V is on 4 to 6 June 2027"
+      }
+    },
+    {
+      "id": "published-figure-beside-listening",
+      "found": "2026-11-01",
+      "by": "The new adjacency check in audit-media.mjs, on its first run",
+      "what": "Ten live pages have a figure directly against a listening block, 24 places in all: trance-guide.html and its de, fr and es versions (4 each), best-nightclubs-in-the-world.html and es/mejores-discotecas-del-mundo.html (2 each), best-clubs-in-manchester.html and its de and fr versions (1 each), fr/trouver-de-la-nouvelle-musique.html (1). They sit in ADJACENT_ALREADY_LIVE in audit-media.mjs until the owner approves moving them.",
+      "should_have_caught": "audit-media.mjs, which had no adjacency check when they shipped."
+    },
+    {
+      "id": "audit-media-misses-figure-beside-listening",
+      "found": "2026-11-01",
+      "by": "Independent reviewers of the Australia and psytrance roundups",
+      "what": "A figure directly followed by an own-mix band shipped into two drafts (Listen Out, Universo Paralello) and audit-media passed both, because it only counts media per section.",
+      "should_have_caught": "audit-media.mjs, which had no adjacency check.",
+      "fix": {
+        "file": "audit-media.mjs",
+        "contains": "sits directly against a listening block"
+      }
+    },
+    {
+      "id": "australia-roundup-stale-events",
+      "found": "2026-11-01",
+      "by": "Independent reviewer, reading organiser sites",
+      "what": "The unpublished Australia roundup recommended hypersonic after its organisers cancelled it, said Ultra Australia had no 2027 dates when its site prints them, and hid that Pitch has sold out.",
+      "should_have_caught": "Listings were trusted over the organisers' own pages.",
+      "fix": {
+        "file": "best-edm-festivals-australia-draft.md",
+        "contains": "Its organisers cancelled the Melbourne and Sydney shows"
+      }
+    },
+    {
+      "id": "australia-roundup-press-photo",
+      "found": "2026-11-01",
+      "by": "Independent reviewer, reading the Commons file page",
+      "what": "The Beyond the Valley image claimed CC BY 2.5 but came from an NME feature, uploaded by a third party with no permission record, so it was a press photograph with a licence tag.",
+      "should_have_caught": "The licence field was read without the source field.",
+      "fix": {
+        "file": "media/best-edm-festivals-australia.json",
+        "contains": "no permission record"
+      }
+    },
+    {
+      "id": "psytrance-roundup-stale-boom-status",
+      "found": "2026-11-01",
+      "by": "Independent reviewer, reading organiser sites",
+      "what": "The unpublished psytrance roundup recommended Boom without saying its 2027 tickets sold out, and gave wrong statuses or dates for Own Spirit, Shankra and Mo:Dem and a false spelling claim for Paralello.",
+      "should_have_caught": "Listings were trusted over the organisers' own pages.",
+      "fix": {
+        "file": "best-psytrance-festivals-draft.md",
+        "contains": "its 2027 tickets sold out in two hours"
+      }
+    },
+    {
+      "id": "dj-mag-poll-called-audience-size",
+      "found": "2026-11-01",
+      "by": "Independent reviewer",
+      "what": "Three roundups called the DJ Mag poll a guide to audience size. It is a reader poll, so it measures votes.",
+      "should_have_caught": "Nothing: a meaning error no grep finds.",
+      "fix": {
+        "file": "best-techno-festivals-draft.md",
+        "contains": "a reader poll, is used as a rough guide to profile"
+      }
     }
   ]
 }
