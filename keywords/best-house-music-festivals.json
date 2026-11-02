@@ -1,0 +1,55 @@
+{
+  "page": "best-house-music-festivals.html",
+  "seed": "house music festivals",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Terms marked none returned no measured volume and are kept out of this list.",
+  "terms": [
+    {
+      "term": "house music festivals",
+      "volume": 1000
+    },
+    {
+      "term": "house festivals",
+      "volume": 1000
+    },
+    {
+      "term": "chosen few picnic",
+      "volume": 1000
+    },
+    {
+      "term": "best house music festivals",
+      "volume": 100
+    },
+    {
+      "term": "best house festivals",
+      "volume": 100
+    }
+  ],
+  "rejected": [
+    {
+      "term": "house music festivals uk",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "tech house festivals",
+      "volume": 100,
+      "why": "a different genre query; the page covers house festivals"
+    },
+    {
+      "term": "splash house festival",
+      "volume": 100,
+      "why": "a Palm Springs event outside this list; not researched for it"
+    },
+    {
+      "term": "deep house festival",
+      "volume": 100,
+      "why": "no festival on this list is given over to deep house; the only candidate, HRFST, books house alongside techno, trance and disco"
+    },
+    {
+      "term": "afro house festival",
+      "volume": 100,
+      "why": "no festival given over to Afro house had a sourced 2027 date, so the page does not answer it"
+    }
+  ]
+}

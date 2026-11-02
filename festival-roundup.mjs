@@ -67,7 +67,7 @@ export function buildRoundup({file, path, draftFile, title, description, date, d
     }
     if (block.startsWith('### ')) {
       const name = block.slice(4).trim();
-      return `<h3 id="${slug(name)}">${inline(name)}</h3>`;
+      return `<h3 id="${/^[0-9]/.test(slug(name)) ? 'f-' : ''}${slug(name)}">${inline(name)}</h3>`;
     }
     if (block.startsWith('- ')) {
       return `<ul>${block.split(/\n(?=- )/).map(item => `<li>${inline(item.slice(2).replace(/\s+/g, ' '))}</li>`).join('')}</ul>`;

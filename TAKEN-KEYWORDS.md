@@ -184,6 +184,16 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best dj sets
 - best dj set
 
+## best-drum-and-bass-festivals.html
+
+- drum and bass festivals
+- dnb festivals
+- dnb festival
+- drum n bass festival
+- drum & bass festival
+- drum and bass raves
+- drum and bass festivals england
+
 ## best-edm-festivals-australia.html
 
 - pitch music and arts
@@ -249,11 +259,78 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best music festivals in thailand
 - best music festivals in india
 
+## best-electronic-music-festivals-germany.html
+
+- music festivals germany
+- festivals in germany
+- edm festival germany
+- edm festival in germany
+- german edm festival
+- electronic music festival germany
+- german techno festival
+- festival germany techno
+- germany edm festivals
+- edm festivals in germany
+- techno festivals germany
+
+## best-house-music-festivals.html
+
+- house music festivals
+- house festivals
+- chosen few picnic
+- best house music festivals
+- best house festivals
+- house music festivals uk
+- deep house festival
+- tech house festivals
+- afro house festival
+- splash house festival
+
 ## best-house-music-playlists-spotify.html
 
 - best house music playlists on spotify
 - best house playlists on spotify
 - house music playlist on spotify
+
+## best-music-festivals-amsterdam.html
+
+- amsterdam music festivals
+- festivals in amsterdam
+- amsterdam music fest
+- amsterdam edm festival
+- amsterdam dance music festival
+- amf amsterdam
+- amf festival amsterdam
+- amsterdam techno festival
+- techno festivals in amsterdam
+- amsterdam music festival tickets
+- music festivals netherlands
+- festivals in netherlands
+- amsterdam electronic music festival
+- amsterdam electronic festival
+- edm festivals amsterdam
+- edm festival in amsterdam
+- amsterdam music festival dates
+- amsterdam music festival lineup
+- edm festivals netherlands
+- techno festivals netherlands
+
+## best-music-festivals-croatia.html
+
+- music festivals croatia
+- festivals in croatia
+- festivals tisno
+- edm festival croatia
+- croatia edm festival
+- croatia electronic music festival
+- electronic music festivals croatia
+- croatia techno festival
+- croatia house festival
+- croatia dance festival
+- rave croatia
+- music festival in split croatia
+- best festivals in croatia
+- techno festivals croatia
 
 ## best-nightclubs-in-the-world.html
 

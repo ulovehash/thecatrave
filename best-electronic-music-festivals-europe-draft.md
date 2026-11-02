@@ -44,7 +44,7 @@ Creamfields grew out of Cream, a Liverpool house night, and has been held at Dar
 
 ### Ultra Europe, Croatia
 
-The summer edition of Miami's Ultra has been held in Split every July since 2013. Ultra Europe 2027 is on 9 to 11 July. It is a city festival on the Dalmatian coast, which makes it an easy one to combine with a beach holiday. The [Ultra guide](/ultra-music-festival) has a section on it.
+The summer edition of Miami's Ultra has been held in Split every July since 2013. Ultra Europe 2027 is on 9 to 11 July. It is a city festival on the Dalmatian coast, which makes it an easy one to combine with a beach holiday. The [Ultra guide](/ultra-music-festival) has a section on it, and the rest of the Croatian summer is in [the best music festivals in Croatia](/best-music-festivals-croatia).
 
 ### Mysteryland, Netherlands
 
@@ -66,11 +66,11 @@ Awakenings started as a techno party in Amsterdam in 1997 and is still one of th
 
 ### Dekmantel, Netherlands
 
-Dekmantel is an independent festival that has run since 2013 in the Amsterdamse Bos, a woodland park on the edge of Amsterdam, with extra programmes in city venues such as Paradiso, Melkweg and the Oude Kerk. Its line-ups mix techno, house, electro, disco and experimental music, and it is the one on this list most likely to book a DJ you have not heard of. It is a day festival: you sleep in Amsterdam. Recent editions have been at the end of July and the start of August; the 2027 dates have not been announced.
+Dekmantel is an independent festival that has run since 2013 in the Amsterdamse Bos, a woodland park on the edge of Amsterdam, with extra programmes in city venues such as Paradiso, Melkweg and the Oude Kerk. Its line-ups mix techno, house, electro, disco and experimental music, and it is the one on this list most likely to book a DJ you have not heard of. It is a day festival: you sleep in Amsterdam. The city's other festivals are in [the best music festivals in Amsterdam](/best-music-festivals-amsterdam). Recent editions have been at the end of July and the start of August; the 2027 dates have not been announced.
 
 ### Time Warp, Germany
 
-Time Warp has been held since 1994, since 1995 in Mannheim, and its home edition is one long indoor night in the Maimarkthalle. The 2026 edition ran over five floors for nineteen hours, and it draws more than 40,000 visitors. Time Warp Germany 2027 is on 3 April. It suits techno listeners who want the biggest names in one night, not a weekend in a field, and it is the only festival on this list in spring.
+Time Warp has been held since 1994, since 1995 in Mannheim, and its home edition is one long indoor night in the Maimarkthalle. The 2026 edition ran over five floors for nineteen hours, and it draws more than 40,000 visitors. Time Warp Germany 2027 is on 3 April. It suits techno listeners who want the biggest names in one night, not a weekend in a field, and it is the only festival on this list in spring. The rest of the German calendar is in [the best electronic music festivals in Germany](/best-electronic-music-festivals-germany).
 
 ### Kappa FuturFestival, Italy
 

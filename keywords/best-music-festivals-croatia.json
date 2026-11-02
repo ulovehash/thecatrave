@@ -1,0 +1,78 @@
+{
+  "page": "best-music-festivals-croatia.html",
+  "seed": "music festivals croatia",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Terms marked none returned no measured volume and are kept out of this list.",
+  "terms": [
+    {
+      "term": "festivals in croatia",
+      "volume": 1000
+    },
+    {
+      "term": "best festivals in croatia",
+      "volume": 10
+    }
+  ],
+  "rejected": [
+    {
+      "term": "music festivals croatia",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "festivals tisno",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "edm festival croatia",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "croatia edm festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "croatia electronic music festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "electronic music festivals croatia",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "croatia techno festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "croatia house festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "croatia dance festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "rave croatia",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "music festival in split croatia",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "techno festivals croatia",
+      "volume": 10,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    }
+  ]
+}

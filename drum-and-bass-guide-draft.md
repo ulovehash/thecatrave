@@ -54,7 +54,7 @@ None of these are sealed boxes. A liquid producer will make a jump-up record; a 
 
 ## How drum and bass became global
 
-Drum and bass was rooted in London and Bristol, but within a decade it was being made far beyond either city. Brazil built one of the first major scenes outside Britain: DJ Marky, XRS and Patife connected to the UK through Bryan Gee's V Recordings, and Marky's crossover with "LK", made with XRS and Stamina MC in 2002, became a UK club staple. Continental Europe followed, and by the 2010s major events included Rampage in Antwerp and Let It Roll in the Czech Republic. Toronto is often cited as an important early North American centre.
+Drum and bass was rooted in London and Bristol, but within a decade it was being made far beyond either city. Brazil built one of the first major scenes outside Britain: DJ Marky, XRS and Patife connected to the UK through Bryan Gee's V Recordings, and Marky's crossover with "LK", made with XRS and Stamina MC in 2002, became a UK club staple. Continental Europe followed, and by the 2010s major events included Rampage in Antwerp and Let It Roll in the Czech Republic. The current festival calendar is in [the best drum and bass festivals](/best-drum-and-bass-festivals). Toronto is often cited as an important early North American centre.
 
 The music also kept moving between the deep side and the loud side without ever fully resolving. The Bristol and liquid lineages carried the melodic version; jump-up held the dancefloor; neurofunk went to the Netherlands with Noisia and Black Sun Empire and became a global technical benchmark.
 

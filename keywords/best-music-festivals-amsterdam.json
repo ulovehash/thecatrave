@@ -1,0 +1,103 @@
+{
+  "page": "best-music-festivals-amsterdam.html",
+  "seed": "amsterdam music festivals",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Terms marked none returned no measured volume and are kept out of this list.",
+  "terms": [
+    {
+      "term": "amsterdam music festivals",
+      "volume": 10000
+    },
+    {
+      "term": "festivals in amsterdam",
+      "volume": 10000
+    },
+    {
+      "term": "amsterdam music fest",
+      "volume": 10000
+    },
+    {
+      "term": "amf amsterdam",
+      "volume": 10000
+    },
+    {
+      "term": "amsterdam techno festival",
+      "volume": 1000
+    },
+    {
+      "term": "techno festivals in amsterdam",
+      "volume": 1000
+    },
+    {
+      "term": "amsterdam music festival dates",
+      "volume": 100
+    }
+  ],
+  "rejected": [
+    {
+      "term": "amsterdam edm festival",
+      "volume": 10000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amsterdam dance music festival",
+      "volume": 10000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amf festival amsterdam",
+      "volume": 10000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amsterdam music festival tickets",
+      "volume": 1000,
+      "why": "ticket-buying intent; the page sends readers to each festival for tickets"
+    },
+    {
+      "term": "music festivals netherlands",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "festivals in netherlands",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amsterdam electronic music festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amsterdam electronic festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "edm festivals amsterdam",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "edm festival in amsterdam",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "amsterdam music festival lineup",
+      "volume": 100,
+      "why": "line-up intent for AMF, which has not announced 2027"
+    },
+    {
+      "term": "edm festivals netherlands",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "techno festivals netherlands",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    }
+  ]
+}

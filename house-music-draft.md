@@ -126,7 +126,7 @@ House has more named subgenres than almost any other dance music, and the names 
 
 [Table: subgenres]
 
-Deep house began with Larry Heard and grew into its own world of soulful, jazz-inflected records. Tech house, which took techno's drums and house's groove, came out of Britain and Spain in the 1990s and is one of the most played styles in clubs now. Electro house and the big room house of festival main stages came in the 2000s and 2010s, the sound of Swedish House Mafia and of the stages at Tomorrowland and Ultra.
+Deep house began with Larry Heard and grew into its own world of soulful, jazz-inflected records. Tech house, which took techno's drums and house's groove, came out of Britain and Spain in the 1990s and is one of the most played styles in clubs now. Electro house and the big room house of festival main stages came in the 2000s and 2010s, the sound of Swedish House Mafia and of the stages at Tomorrowland and Ultra. Festivals where house is the main programme are in [the best house music festivals](/best-house-music-festivals).
 
 The biggest change of the last twenty years has come from South Africa. Afro house grew there from the 1990s alongside kwaito, and Black Coffee took it to clubs and festivals around the world. Amapiano, which grew from kwaito, jazz and chill-out music, spread worldwide during the pandemic years, and Beatport gave it a genre category of its own in 2022.
 

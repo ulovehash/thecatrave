@@ -8,13 +8,70 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Sat, 31 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best House Music Festivals 2027: ARC, Movement, Loveland</title>
+    <link>https://thecatrave.com/best-house-music-festivals</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-house-music-festivals</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Movement on 29 to 31 May, Loveland on 14 and 15 August, ARC over Labor Day: house music festivals for 2027 by city, with dates confirmed or not.</description>
+    <category>discovery</category>
+    <category>house</category>
+    <media:content url="https://thecatrave.com/img/og/house-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Music Festivals in Croatia 2027: Ultra Europe, Hideout</title>
+    <link>https://thecatrave.com/best-music-festivals-croatia</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-music-festivals-croatia</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Ultra Europe on 9 to 11 July, Hideout from 29 June, Tisno from June to August: music festivals in Croatia for 2027, with dates confirmed or not.</description>
+    <category>discovery</category>
+    <category>house</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/croatia-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Electronic Music Festivals in Germany 2027: Time Warp, Nature One</title>
+    <link>https://thecatrave.com/best-electronic-music-festivals-germany</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-electronic-music-festivals-germany</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Time Warp on 3 April, Parookaville on 16 to 18 July, Nature One from 29 July: electronic music festivals in Germany for 2027, with dates.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/germany-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Drum and Bass Festivals 2027: Rampage, Let It Roll</title>
+    <link>https://thecatrave.com/best-drum-and-bass-festivals</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-drum-and-bass-festivals</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Rampage Open Air from 1 July, Let It Roll on 5 to 7 August, Liquicity on 23 to 25 July: drum and bass festivals for 2027, with dates confirmed or not.</description>
+    <category>discovery</category>
+    <category>bass</category>
+    <media:content url="https://thecatrave.com/img/og/dnb-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Music Festivals in Amsterdam 2027: DGTL, Dekmantel, AMF</title>
+    <link>https://thecatrave.com/best-music-festivals-amsterdam</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-music-festivals-amsterdam</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>DGTL on 26 to 28 March, Dekmantel on 29 July to 2 August, AMF during ADE: Amsterdam music festivals for 2027 by sound, with dates confirmed or not.</description>
+    <category>discovery</category>
+    <category>house</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/amsterdam-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Dance Music Festivals in the UK 2027: Creamfields, Houghton</title>
     <link>https://thecatrave.com/best-dance-music-festivals-uk</link>

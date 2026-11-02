@@ -1,0 +1,61 @@
+{
+  "page": "best-electronic-music-festivals-germany.html",
+  "seed": "electronic music festival germany",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Terms marked none returned no measured volume and are kept out of this list.",
+  "terms": [
+    {
+      "term": "festivals in germany",
+      "volume": 1000
+    },
+    {
+      "term": "edm festival in germany",
+      "volume": 1000
+    },
+    {
+      "term": "germany edm festivals",
+      "volume": 100
+    },
+    {
+      "term": "edm festivals in germany",
+      "volume": 100
+    }
+  ],
+  "rejected": [
+    {
+      "term": "music festivals germany",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "edm festival germany",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "german edm festival",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "electronic music festival germany",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "german techno festival",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "festival germany techno",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "techno festivals germany",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    }
+  ]
+}

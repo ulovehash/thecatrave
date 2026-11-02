@@ -1645,6 +1645,14 @@
         "file": "best-techno-festivals-draft.md",
         "contains": "a reader poll, is used as a rough guide to profile"
       }
+    },
+    {
+      "id": "europe-guide-dekmantel-2027-stale",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "best-electronic-music-festivals-europe.html says of Dekmantel that 'the 2027 dates have not been announced'. Dekmantel has published 29 July to 2 August 2027 (dekmantel.com/events/dekmantel-festival-2027), and the techno and Amsterdam roundups give those dates. Found while adding hub links; not edited because published copy is shown to the owner first.",
+      "should_have_caught": "festival-editions.mjs refreshes registered guides, but the Europe hub's per-festival dates are not tracked entry by entry.",
+      "fix": null
     }
   ]
 }

@@ -578,6 +578,46 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The Solar Stage at Kappa FuturFestival in Turin in July 2025'
   },
   {
+    page:'best-music-festivals-amsterdam.html', category:'festivals', tags:['discovery','house','techno'], href:'/best-music-festivals-amsterdam', type:'List', topic:'Amsterdam music festivals',
+    title:'Best Music Festivals in Amsterdam 2027: DGTL, Dekmantel, AMF',
+    description:'DGTL on 26 to 28 March, Dekmantel on 29 July to 2 August, AMF during ADE: Amsterdam music festivals for 2027 by sound, with dates confirmed or not.',
+    image:'img/amsterdam-festivals/ndsm-panorama-2025-320.webp',
+    srcset:'img/amsterdam-festivals/ndsm-panorama-2025-320.webp 320w,img/amsterdam-festivals/ndsm-panorama-2025-1200.webp 1200w',
+    width:1200, height:600, alt:'A panorama of NDSM Docklands in Amsterdam Noord in 2025'
+  },
+  {
+    page:'best-drum-and-bass-festivals.html', category:'festivals', tags:['discovery','bass'], href:'/best-drum-and-bass-festivals', type:'List', topic:'Drum and bass festivals',
+    title:'Best Drum and Bass Festivals 2027: Rampage, Let It Roll',
+    description:'Rampage Open Air from 1 July, Let It Roll on 5 to 7 August, Liquicity on 23 to 25 July: drum and bass festivals for 2027, with dates confirmed or not.',
+    image:'img/dnb-festivals/let-it-roll-2014-320.webp',
+    srcset:'img/dnb-festivals/let-it-roll-2014-320.webp 320w,img/dnb-festivals/let-it-roll-2014-1200.webp 1200w',
+    width:1200, height:600, alt:'Camo and Krooked on the main stage at Let It Roll in 2014'
+  },
+  {
+    page:'best-electronic-music-festivals-germany.html', category:'festivals', tags:['discovery','techno'], href:'/best-electronic-music-festivals-germany', type:'List', topic:'German electronic festivals',
+    title:'Best Electronic Music Festivals in Germany 2027: Time Warp, Nature One',
+    description:'Time Warp on 3 April, Parookaville on 16 to 18 July, Nature One from 29 July: electronic music festivals in Germany for 2027, with dates.',
+    image:'img/germany-festivals/airbeat-one-mainstage-2019-320.webp',
+    srcset:'img/germany-festivals/airbeat-one-mainstage-2019-320.webp 320w,img/germany-festivals/airbeat-one-mainstage-2019-1200.webp 1200w',
+    width:1200, height:600, alt:'The themed main stage at Airbeat One festival in 2019'
+  },
+  {
+    page:'best-music-festivals-croatia.html', category:'festivals', tags:['discovery','house','techno'], href:'/best-music-festivals-croatia', type:'List', topic:'Croatia music festivals',
+    title:'Best Music Festivals in Croatia 2027: Ultra Europe, Hideout',
+    description:'Ultra Europe on 9 to 11 July, Hideout from 29 June, Tisno from June to August: music festivals in Croatia for 2027, with dates confirmed or not.',
+    image:'img/croatia-festivals/tisno-night-2019-320.webp',
+    srcset:'img/croatia-festivals/tisno-night-2019-320.webp 320w,img/croatia-festivals/tisno-night-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'The harbour of Tisno lit up at night in 2019'
+  },
+  {
+    page:'best-house-music-festivals.html', category:'festivals', tags:['discovery','house'], href:'/best-house-music-festivals', type:'List', topic:'House music festivals',
+    title:'Best House Music Festivals 2027: ARC, Movement, Loveland',
+    description:'Movement on 29 to 31 May, Loveland on 14 and 15 August, ARC over Labor Day: house music festivals for 2027 by city, with dates confirmed or not.',
+    image:'img/house-festivals/movement-ciel-2019-320.webp',
+    srcset:'img/house-festivals/movement-ciel-2019-320.webp 320w,img/house-festivals/movement-ciel-2019-1200.webp 1200w',
+    width:1200, height:800, alt:'Ciel playing a DJ set at Movement festival in Detroit in 2019'
+  },
+  {
     page:'best-psytrance-festivals.html', category:'festivals', tags:['discovery','history'], href:'/best-psytrance-festivals', type:'List', topic:'Psytrance festivals',
     title:'Best Psytrance Festivals 2027: Ozora, Boom and Universo Paralello',
     description:'Boom on 18 to 25 July, Ozora listed from 23 July, Universo Paralello at New Year: psytrance festivals for 2027 by setting, with dates confirmed or not.',

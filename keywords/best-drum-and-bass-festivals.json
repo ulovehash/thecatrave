@@ -1,0 +1,42 @@
+{
+  "page": "best-drum-and-bass-festivals.html",
+  "seed": "drum and bass festivals",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Terms marked none returned no measured volume and are kept out of this list.",
+  "terms": [
+    {
+      "term": "drum and bass festivals",
+      "volume": 1000
+    },
+    {
+      "term": "dnb festivals",
+      "volume": 1000
+    },
+    {
+      "term": "dnb festival",
+      "volume": 1000
+    }
+  ],
+  "rejected": [
+    {
+      "term": "drum n bass festival",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "drum & bass festival",
+      "volume": 1000,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "drum and bass raves",
+      "volume": 1000,
+      "why": "club-night intent rather than festivals"
+    },
+    {
+      "term": "drum and bass festivals england",
+      "volume": 100,
+      "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    }
+  ]
+}
