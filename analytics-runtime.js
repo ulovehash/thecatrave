@@ -1,3 +1,35 @@
+// Safari (and every iOS browser, all WebKit) blocks third-party cookies, and
+// Bandcamp's EmbeddedPlayer then shows "It looks like cookies are disabled in
+// your browser" and will not play (owner, 2026-11-02; defects.json
+// bandcamp-embeds-blank-in-safari). There, each Bandcamp frame becomes a card
+// that opens the track on Bandcamp. ?bandcamp-fallback forces it for testing.
+(() => {
+  const webkit = navigator.vendor === 'Apple Computer, Inc.';
+  if (!webkit && !/[?&]bandcamp-fallback\b/.test(location.search)) return;
+  const cta = {de: 'Auf Bandcamp anhören', fr: 'Écouter sur Bandcamp', es: 'Escuchar en Bandcamp'}[
+    (document.documentElement.lang || 'en').slice(0, 2)] || 'Play on Bandcamp';
+  const swap = () => {
+    document.querySelectorAll('iframe[src*="bandcamp.com/EmbeddedPlayer"], iframe[data-src*="bandcamp.com/EmbeddedPlayer"]').forEach(frame => {
+      const inner = new DOMParser().parseFromString(frame.textContent || '', 'text/html').querySelector('a[href]');
+      const card = document.createElement('a');
+      card.className = `${frame.className} bandcamp-fallback`.replace(/\bdeferred-media\b/, '').trim();
+      card.href = inner ? inner.href : 'https://thecatrave.bandcamp.com';
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+      const height = frame.getBoundingClientRect().height;
+      if (height) card.style.minHeight = `${height}px`;
+      const title = document.createElement('strong');
+      title.textContent = inner ? inner.textContent : (frame.title || '').replace(/ on Bandcamp$/, '');
+      const label = document.createElement('span');
+      label.textContent = `${cta} ↗`;
+      card.append(title, label);
+      frame.replaceWith(card);
+    });
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', swap, {once: true});
+  else swap();
+})();
+
 (() => {
   const track = (name, params) => {
     try { if (window.gtag) window.gtag('event', name, params || {}); } catch {}

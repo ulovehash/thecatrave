@@ -1711,6 +1711,17 @@
         "file": "best-drum-and-bass-festivals-draft.md",
         "contains": "a recreation area at Oudkarspel in North Holland"
       }
+    },
+    {
+      "id": "bandcamp-embeds-blank-in-safari",
+      "found": "2026-11-02",
+      "by": "owner",
+      "what": "In Safari every Bandcamp player on the site shows Bandcamp's own message \"It looks like cookies are disabled in your browser\" and does not play: on the home page grid (7 players) and the Bandcamp block on 98 pages. Safari blocks third-party cookies by default, and Bandcamp's EmbeddedPlayer needs them inside a frame. The site cannot change the frame's content.",
+      "should_have_caught": "check:layout runs Chromium only, which allows Bandcamp's cookies, so no check ever renders the players in WebKit.",
+      "fix": {
+        "file": "analytics-runtime.js",
+        "contains": "bandcamp-embeds-blank-in-safari). There, each Bandcamp frame becomes a card"
+      }
     }
   ]
 }
