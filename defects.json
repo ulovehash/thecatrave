@@ -1716,7 +1716,7 @@
       "id": "bandcamp-embeds-blank-in-safari",
       "found": "2026-11-02",
       "by": "owner",
-      "what": "In Safari every Bandcamp player on the site shows Bandcamp's own message \"It looks like cookies are disabled in your browser\" and does not play: on the home page grid (7 players) and the Bandcamp block on 98 pages. Safari blocks third-party cookies by default, and Bandcamp's EmbeddedPlayer needs them inside a frame. The site cannot change the frame's content.",
+      "what": "In Safari every Bandcamp player on the site shows Bandcamp's own message \"It looks like cookies are disabled in your browser\" and does not play: on the home page grid (7 players) and the Bandcamp block on 98 pages. Cause, confirmed 2026-11-02 by fetching the player without cookies: bandcamp.com/EmbeddedPlayer now sits behind a Fastly bot challenge (title \"Client Challenge\", path /_fs-ch-…/). A request without Fastly's clearance cookie gets the challenge instead of the player; the challenge's errors.js writes a testcookie and, when it cannot read it back, prints \"It looks like cookies are disabled in your browser.\" Safari blocks every third-party cookie, so inside our page the challenge can never pass. Chrome still allows them and passes. The site cannot change the frame's content.",
       "should_have_caught": "check:layout runs Chromium only, which allows Bandcamp's cookies, so no check ever renders the players in WebKit.",
       "fix": {
         "file": "analytics-runtime.js",

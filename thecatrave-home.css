@@ -101,13 +101,10 @@ p,li{text-wrap:pretty}
 .mix-card iframe{width:100%;margin-top:auto;padding-top:.85rem;border:0}
 .playlist-grid{gap:1rem;border:0;background:transparent}
 .playlist-grid iframe{width:100%;height:152px;border:0;border-radius:12px}
-.bandcamp{background:var(--ink);color:var(--paper)}
+.bandcamp{content-visibility:visible;background:var(--ink);color:var(--paper)}
 .bandcamp p{font-size:.95rem}
 .bandcamp-cta{min-height:4rem;margin-top:2rem;padding:1rem 1.25rem;display:inline-flex;align-items:center;background:var(--acid);color:var(--ink);font:700 var(--utility) var(--mono);text-decoration:none;text-transform:uppercase}
 .bandcamp-cta:hover{background:var(--cyan)}
-.bandcamp-grid{margin-top:2.5rem;display:grid;gap:.6rem}
-.bandcamp-player{width:100%;height:42px;border:0}
-.bandcamp-fallback{height:auto;min-height:42px;padding:.7rem 1rem;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:.4rem;border:1px solid currentColor;border-left:.35rem solid var(--acid);color:inherit;text-decoration:none}.bandcamp-fallback strong{font-weight:700}.bandcamp-fallback span{font:700 var(--utility) var(--mono);text-transform:uppercase}.bandcamp-fallback:hover span{text-decoration:underline}
 
 .article-grid article{padding:0}
 .article-grid a{width:100%;height:100%;min-height:18rem;display:flex;flex-direction:column;text-decoration:none}
@@ -180,12 +177,10 @@ p,li{text-wrap:pretty}
 .mix-card iframe{padding-top:1.5rem}
 .article-grid{grid-template-columns:repeat(2,1fr)}
 .about-grid{grid-template-columns:1.1fr .9fr}
-.bandcamp{display:block}
+.bandcamp{display:block;padding-block:2.5rem}
 .bandcamp-intro{display:grid;grid-template-columns:1fr auto;gap:1rem 3rem;align-items:end}
-.bandcamp-intro h2,.bandcamp-intro p{grid-column:1}
+.bandcamp-intro h2,.bandcamp-intro p{grid-column:1;margin-bottom:0}
 .bandcamp-intro .bandcamp-cta{grid-column:2;grid-row:1/3;margin:0;align-self:end}
-.bandcamp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
-.bandcamp-player{height:120px}
 .footer-nav{grid-template-columns:repeat(3,1fr)}
 .footer-bottom{flex-direction:row;justify-content:space-between}
 }

@@ -213,7 +213,9 @@ const checks = {
   // articles the answer is a separate /articles page.
   homeArticleGridResponsive: homeCss.includes('.article-grid{grid-template-columns:repeat(2,1fr)}') && homeCss.includes('.article-grid{grid-template-columns:repeat(4,1fr)}') && homeCss.includes('#articles .article-grid{grid-template-columns:repeat(4,minmax(0,1fr))}') && !homeCss.includes('.article-grid{grid-template-columns:repeat(3,1fr)}') && currentHomeArticles.every(item => pages.home.includes(`href="${item.href}"`)),
   homeStylesInlined: pages.home.includes(`<style>${homeCss.trim()}</style>`),
-  homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 13 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
+  // 6, not 13: the seven Bandcamp players left the home page on 2026-11-02
+  // (defects.json bandcamp-embeds-blank-in-safari).
+  homeMediaDeferred: count(pages.home, /<iframe\b[^>]*\bdata-src=/g) === 6 && count(pages.home, /<iframe\b[^>]*\ssrc=/g) === 0 && pages.home.includes(`<script>${homeRuntime}</script>`),
   homeHeroOptimized: ['thecatrave-home-640.webp','thecatrave-home-720.webp','thecatrave-home-960.webp','thecatrave-home-1200.webp'].every(asset => fs.existsSync(`img/${asset}`) && pages.home.includes(asset)) && !pages.home.includes('src="img/thecatrave-1200.webp"'),
   homeFontsNonBlocking: count(pages.home, /rel="stylesheet" media="print" onload="this\.media='all'"/g) === 2,
   homeAnalyticsShared: pages.home.includes(analytics()),
