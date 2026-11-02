@@ -22,7 +22,7 @@ buildRoundup({
   h1: 'The best music festivals in Amsterdam in 2027',
   deck: 'Amsterdam\'s dance festivals compared by sound and setting, from the docklands in March to the stadium in October, with the 2027 dates that are confirmed and the ones that are not.',
   bannerLabel: 'Best music festivals in Amsterdam',
-  answer: 'The best music festivals in Amsterdam for 2027 depend on the season. In spring: DGTL at NDSM Docklands (26 to 28 March) and Lente Kabinet in Het Twiske (15 and 16 May). In summer: Dekmantel in the Amsterdamse Bos (29 July to 2 August) and Loveland in Sloterpark (14 and 15 August). In autumn: the Amsterdam Dance Event (20 to 24 October), with the Amsterdam Music Festival in the Johan Cruijff ArenA on a date still to be announced.',
+  answer: 'The best music festivals in Amsterdam for 2027 depend on the season. In spring: DGTL at NDSM Docklands (26 to 28 March) and Lentekabinet in Het Twiske (15 and 16 May). In summer: Dekmantel in the Amsterdamse Bos (29 July to 2 August) and Loveland in Sloterpark (14 and 15 August). In autumn: the Amsterdam Dance Event (20 to 24 October), with the Amsterdam Music Festival in the Johan Cruijff ArenA on a date still to be announced.',
   introTitle: 'A list meant for choosing.',
   faqTitle: 'Amsterdam music festivals FAQ.',
   breadcrumb: 'Best Music Festivals in Amsterdam',
@@ -44,8 +44,7 @@ buildRoundup({
     headers: ['Festival', 'Where', '2027 dates', 'Sound', 'Setting', 'Best for'],
     rows: [
       ['DGTL', 'NDSM Docklands', '26 to 28 March', 'Techno, house', 'Former shipyard', 'The start of the season'],
-      ['Kingsland', 'Olympic Stadium', 'Listed 27 April', 'Dance music', 'Stadium, King\'s Day', 'The national holiday'],
-      ['Lente Kabinet', 'Het Twiske', '15 and 16 May', 'House, techno, dance', 'Lakes and meadows', 'Spring outdoors'],
+      ['Lentekabinet', 'Het Twiske', '15 and 16 May', 'House, techno, dance', 'Lakes and meadows', 'Spring outdoors'],
       ['Awakenings Upclose', 'Houtrak', '15 and 16 May', 'Techno', 'Recreation area', 'A smaller Awakenings'],
       ['Awakenings', 'Hilvarenbeek', '9 to 11 July', 'Techno', 'Recreation area', 'The main Awakenings weekend'],
       ['Dekmantel', 'Amsterdamse Bos', '29 July to 2 August', 'Techno, house and beyond', 'Woodland park', 'A wider programme'],
@@ -66,14 +65,14 @@ buildRoundup({
       'NDSM Docklands in Amsterdam Noord in 2025, the home of DGTL. Photograph: PA0CCB, CC BY-SA 4.0.'),
     twiske: fig('twiske-2019', 1200, 800,
       'Water and green banks in the Twiske nature area north of Amsterdam',
-      'Het Twiske, north of Amsterdam, where Lente Kabinet is held. Photograph: PersianDutchNetwork, CC BY-SA 4.0.')
+      'Het Twiske, north of Amsterdam, where Lentekabinet is held. Photograph: PersianDutchNetwork, CC BY-SA 4.0.')
   },
   sourcesHtml: `<ul>
 <li>2027 dates from each festival's own site: <a href="https://dgtl-festival.com/en/dgtl-amsterdam/" target="_blank" rel="noopener noreferrer">DGTL</a>, <a href="https://www.dekmantel.com/events/dekmantel-festival-2027" target="_blank" rel="noopener noreferrer">Dekmantel</a>, <a href="https://www.awakenings.com/en/events/2027/05/awakenings-upclose-2027/396040/" target="_blank" rel="noopener noreferrer">Awakenings Upclose</a>, <a href="https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344/" target="_blank" rel="noopener noreferrer">Awakenings</a>, <a href="https://loveland.nl/festival/" target="_blank" rel="noopener noreferrer">Loveland</a>.</li>
-<li>Listed date: <a href="https://www.festivalinfo.nl/festival/37304/Kingsland-Festival-Amsterdam/2027/" target="_blank" rel="noopener noreferrer">FestivalInfo on Kingsland</a>.</li>
+<li>Kingsland's 2026 line-up: <a href="https://www.festivalinfo.nl/news/58083/Kingsland-kondigt-line-up-aan-voor-editie-Amsterdam-en-Groningen-met-o-a-Frenna-Roxy-Dekker-en-Rebelion/" target="_blank" rel="noopener noreferrer">FestivalInfo</a>.</li>
 <li>AMF and its 2026 edition: <a href="https://www.festivalinfo.nl/festival/36321/Amsterdam-Music-Festival/2026/" target="_blank" rel="noopener noreferrer">FestivalInfo</a>.</li>
 <li>Mystic Garden's move: <a href="https://www.festivalinfo.nl/news/56759/Mystic-Garden-Festival-wordt-in-2026-weekender-op-nieuwe-locatie/" target="_blank" rel="noopener noreferrer">FestivalInfo</a>. Wonderfeel: <a href="https://www.wonderfeel.nl/" target="_blank" rel="noopener noreferrer">the festival's site</a>.</li>
-<li>Lente Kabinet: <a href="https://www.dekmantel.com/" target="_blank" rel="noopener noreferrer">Dekmantel</a>.</li>
+<li>Lentekabinet: <a href="https://www.dekmantel.com/" target="_blank" rel="noopener noreferrer">Dekmantel</a>.</li>
 <li>Mysteryland, ADE, Dekmantel, Awakenings and Defqon.1: this site's guide to each, linked above, which cites its own sources.</li>
 </ul>`
 });

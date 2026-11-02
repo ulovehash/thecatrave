@@ -2,7 +2,7 @@
 
 ## Answer
 
-Dekmantel is an electronic music festival held in Amsterdam each summer. Its core days are Friday to Sunday at the Amsterdamse Bos, a woodland park on the south edge of the city, with extra programmes at the Oude Kerk, Melkweg, Paradiso and night venues in town. The festival counted its 2026 edition, held on 29 July to 2 August, as its twelfth. Dekmantel 2027 returns to the Amsterdamse Bos, and its official site has not confirmed dates yet. Third-party listings give 28 July to 1 August 2027. A separate Dekmantel Selectors festival runs in Tisno, Croatia, on 19 to 23 August 2027.
+Dekmantel is an electronic music festival held in Amsterdam each summer. Its core days are Friday to Sunday at the Amsterdamse Bos, a woodland park on the south edge of the city, with extra programmes at the Oude Kerk, Melkweg, Paradiso and night venues in town. The festival counted its 2026 edition, held on 29 July to 2 August, as its twelfth. Dekmantel 2027 returns to the Amsterdamse Bos on 29 July to 2 August, with the three days in the park on 30 July to 1 August. A separate Dekmantel Selectors festival runs in Tisno, Croatia, on 19 to 23 August 2027.
 
 ## Introduction
 
@@ -16,13 +16,13 @@ Dekmantel is an Amsterdam festival of electronic music run by the Dekmantel labe
 
 ![Midland playing at Dekmantel, 2017](figure:midland)
 
-The tenth-anniversary edition in 2024 ran for ten days with more than 200 artists, and it used venues far beyond the park, including Het HEM in Zaandam, the Oude Kerk and waterfront venues on the IJ, according to Time Out and Casa. The festival also has sister events. Lente Kabinet is a spring event, Dekmantel Selectors is the Croatian festival covered below, and a Dekmantel festival was held in São Paulo in 2018.
+The tenth-anniversary edition in 2024 ran for ten days with more than 200 artists, and it used venues far beyond the park, including Het HEM in Zaandam, the Oude Kerk and waterfront venues on the IJ, according to Time Out and Casa. The festival also has sister events. Lentekabinet is a spring event, Dekmantel Selectors is the Croatian festival covered below, and a Dekmantel festival was held in São Paulo in 2018.
 
 If you are comparing festivals, the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe) puts Dekmantel next to the others by sound and setting, and [Sónar in Barcelona](/sonar-festival-barcelona) is the nearest comparison for a festival built around discovery.
 
 ## When is Dekmantel 2027?
 
-Dekmantel's own site has not confirmed 2027 dates yet. Its home page says the festival "returns to the Amsterdamse Bos in 2027" and that tickets are on sale. Listings on Skiddle and I amsterdam give Wednesday 28 July to Sunday 1 August 2027, and I amsterdam calls it the 13th edition. Treat those as unconfirmed until the festival publishes them.
+Dekmantel 2027 is on Thursday 29 July to Monday 2 August, according to the festival's own event page. The three days in the Amsterdamse Bos are 30 July to 1 August, and three-day tickets are on sale. The line-up is announced later.
 
 The 2026 edition is the best guide to the shape of the week. It ran from Wednesday 29 July to Sunday 2 August 2026, and the official FAQ describes it day by day.
 
@@ -88,7 +88,7 @@ An electronic music festival in Amsterdam, held since 2013 and run by the Dekman
 
 ### When is Dekmantel 2027?
 
-The official site has not confirmed dates yet. Third-party listings give 28 July to 1 August 2027. Dekmantel Selectors in Croatia is confirmed for 19 to 23 August 2027.
+Dekmantel 2027 is on 29 July to 2 August, with the days in the Amsterdamse Bos on 30 July to 1 August. Dekmantel Selectors in Croatia is confirmed for 19 to 23 August 2027.
 
 ### Where is Dekmantel Festival?
 

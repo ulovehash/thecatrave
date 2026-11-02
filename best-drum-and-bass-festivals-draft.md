@@ -46,7 +46,7 @@ Outside the two big names, the strongest choices are on the Croatian coast and i
 
 ### Liquicity, Netherlands
 
-Liquicity is built around liquid drum and bass, the melodic end of the sound, and its festival is held at Geestmerambacht, a recreation lake near Alkmaar. The 2027 edition is on 23 to 25 July, for ages 18 and over. It is the gentlest sound on this list.
+Liquicity is built around liquid drum and bass, the melodic end of the sound, and its festival is held at Geestmerambacht, a recreation area at Oudkarspel in North Holland. The 2027 edition is on 23 to 25 July, for ages 18 and over. It is the gentlest sound on this list.
 
 ![Galaxy stage at Liquicity, 2016](figure:liquicity)
 

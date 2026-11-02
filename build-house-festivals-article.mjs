@@ -46,8 +46,6 @@ buildRoundup({
       ['DGTL', 'Amsterdam', '26 to 28 March', 'Former shipyard', 'The start of the season'],
       ['Movement', 'Detroit', '29 to 31 May', 'Riverfront plaza', 'House and techno together'],
       ['Love International', 'Tisno, Croatia', '7 to 13 July', 'Seaside site, boats', 'A week by the sea'],
-      ['Bass Coast', 'Merritt, Canada', '9 to 12 July', 'Countryside, camping', 'A smaller weekend'],
-      ['Parklife', 'Manchester', '10 and 11 July', 'City park', 'House in the UK'],
       ['Chosen Few Picnic', 'Chicago', 'Not announced (11 July in 2026)', 'City park', 'Where house began'],
       ['Loveland', 'Amsterdam', '14 and 15 August', 'City park', 'A city park in August'],
       ['ARC', 'Chicago', 'Not announced (4 to 7 September in 2026)', 'City park', 'Labor Day weekend'],
@@ -63,10 +61,7 @@ buildRoundup({
     }),
     movement: fig('movement-ciel-2019', 1200, 800,
       'Ciel playing a DJ set at Movement festival in Detroit in 2019',
-      'Ciel at Movement in Detroit in 2019. Photograph: Clay Blankenbeckler, CC BY 4.0.'),
-    'bass-coast': fig('bass-coast-merritt', 1200, 800,
-      'The Bass Coast festival site in the hills near Merritt, British Columbia',
-      'Bass Coast, near Merritt in British Columbia. Photograph: Michael Benz, CC0.')
+      'Ciel at Movement in Detroit in 2019. Photograph: Clay Blankenbeckler, CC BY 4.0.')
   },
   sourcesHtml: `<ul>
 <li>2027 dates from each festival's own site: <a href="https://movementfestival.com/faqs" target="_blank" rel="noopener noreferrer">Movement</a>, <a href="https://basscoast.ca/pages/faq" target="_blank" rel="noopener noreferrer">Bass Coast</a>, <a href="https://parklife.uk.com/" target="_blank" rel="noopener noreferrer">Parklife</a>, <a href="https://loveland.nl/festival/" target="_blank" rel="noopener noreferrer">Loveland</a>, <a href="https://dgtl-festival.com/en/dgtl-amsterdam/" target="_blank" rel="noopener noreferrer">DGTL</a>, <a href="https://loveinternationalfestival.com/faqs" target="_blank" rel="noopener noreferrer">Love International</a>.</li>

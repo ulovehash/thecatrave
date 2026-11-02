@@ -18,7 +18,7 @@ A date from the festival's own site is shown as confirmed. Where a festival has 
 
 ## House music festival dates for 2027 at a glance
 
-Early July is the crowded stretch. Parklife and Bass Coast share the weekend of 10 and 11 July 2027, Love International runs that week, and the Chosen Few Picnic was on 11 July in 2026.
+Early July is the crowded stretch. Love International runs on 7 to 13 July 2027, and the Chosen Few Picnic was on 11 July in 2026.
 
 ![Dates](figure:table)
 
@@ -64,17 +64,11 @@ Love International is held in Tisno, on the Croatian coast, on 7 to 13 July 2027
 
 ## Are there house music festivals in the UK?
 
-Parklife in Manchester has house through its programme, though its line-up also takes in rap, pop and other dance music. It is held in Heaton Park, on 10 and 11 July 2027, for ages 17 and over. For more, see [the best dance music festivals in the UK](/best-dance-music-festivals-uk).
+None makes this list. In the UK, house at festivals mostly plays on stages inside wider events. The closest is Parklife in Manchester, at Heaton Park on 10 and 11 July 2027 for ages 17 and over, where house shares the bill with rap, pop and other dance music. For those festivals, see [the best dance music festivals in the UK](/best-dance-music-festivals-uk).
 
 ## Which smaller house festivals are worth the trip?
 
-Three smaller festivals suit a particular taste.
-
-### Bass Coast, Canada
-
-Bass Coast is held in Merritt, in the interior of British Columbia, on 9 to 12 July 2027, for ages 19 and over. It books a wide range of electronic music, house among it. For other Canadian festivals, see [the best EDM festivals in Canada](/best-edm-festivals-canada).
-
-![Bass Coast, Merritt](figure:bass-coast)
+Two smaller festivals in the Netherlands suit a particular taste.
 
 ### HRFST, Netherlands
 
@@ -91,12 +85,13 @@ Soenda Indoor is held in the Werkspoorkathedraal in Utrecht, for about 6,000 peo
 These are festivals people ask about that fall outside the tests above.
 
 - **Defected Croatia.** The last edition in Tisno was in summer 2026, and Defected has not named what replaces it in 2027.
+- **Bass Coast.** The festival near Merritt, British Columbia, on 9 to 12 July 2027, books a wide range of electronic music, with house as one part of it. It is on [the best EDM festivals in Canada](/best-edm-festivals-canada).
 
 ## How to choose
 
 Pick the city first. For the history of house, go to Chicago, for ARC or the Chosen Few Picnic. For a long weekend with techno alongside the house, choose Movement in Detroit. In Europe, choose DGTL or Loveland for a city festival in Amsterdam, and Love International for a week by the sea.
 
-Then look at the calendar: the Chosen Few Picnic may land on the crowded weekend of 10 and 11 July. Check dates with the festival before you book travel, because several of the 2027 dates above have not yet been published. For the records these festivals are built on, see [house music classics](/house-music-classics).
+Then look at the calendar: the Chosen Few Picnic may land in the same week as Love International. Check dates with the festival before you book travel, because several of the 2027 dates above have not yet been published. For the records these festivals are built on, see [house music classics](/house-music-classics).
 
 ![Listening](figure:second-mix)
 
@@ -112,4 +107,4 @@ The 2027 date has not been announced. The 2026 picnic, its 36th, was on 11 July 
 
 ### Are there house music festivals in the UK?
 
-Parklife in Manchester, on 10 and 11 July 2027, has house through its programme. Most UK house at festivals is on stages inside wider events.
+None that passes this list's test, which is house at the core of the programme. Most UK house at festivals is on stages inside wider events, such as Parklife in Manchester on 10 and 11 July 2027.

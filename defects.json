@@ -1652,7 +1652,65 @@
       "by": "agent",
       "what": "best-electronic-music-festivals-europe.html says of Dekmantel that 'the 2027 dates have not been announced'. Dekmantel has published 29 July to 2 August 2027 (dekmantel.com/events/dekmantel-festival-2027), and the techno and Amsterdam roundups give those dates. Found while adding hub links; not edited because published copy is shown to the owner first.",
       "should_have_caught": "festival-editions.mjs refreshes registered guides, but the Europe hub's per-festival dates are not tracked entry by entry.",
-      "fix": null
+      "fix": {
+        "file": "best-electronic-music-festivals-europe-draft.md",
+        "contains": "Dekmantel has confirmed 29 July to 2 August"
+      }
+    },
+    {
+      "id": "dekmantel-guide-2027-dates-unconfirmed",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "dekmantel-festival.html said the official site had not confirmed 2027 dates and gave listings of 28 July to 1 August. dekmantel.com/events/dekmantel-festival-2027 confirms 29 July to 2 August 2027.",
+      "should_have_caught": "festival-editions.mjs had ends: null for the guide, so no refresh was due.",
+      "fix": {
+        "file": "dekmantel-draft.md",
+        "contains": "according to the festival's own event page"
+      }
+    },
+    {
+      "id": "lentekabinet-misspelt",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "Review fix M4 renamed Lentekabinet to \"Lente Kabinet\" on the Amsterdam and Dekmantel guides. The festival, Dekmantel and RA all write Lentekabinet as one word.",
+      "should_have_caught": "The review fix was applied without checking the festival's own spelling.",
+      "fix": {
+        "file": "best-music-festivals-amsterdam-draft.md",
+        "contains": "### Lentekabinet, Het Twiske"
+      }
+    },
+    {
+      "id": "kingsland-fails-genre-test",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "The Amsterdam roundup listed Kingsland, whose 2026 bill was led by Dutch rap and pop acts, against its own test that electronic or dance music is at the centre.",
+      "should_have_caught": "Nobody read the line-up against criterion 1.",
+      "fix": {
+        "file": "best-music-festivals-amsterdam-draft.md",
+        "contains": "its 2026 bill was led by Dutch rap and pop acts"
+      }
+    },
+    {
+      "id": "house-roundup-wider-bills",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "The house roundup listed Parklife and Bass Coast, whose bills are not built on house, against its criterion that house is at the core of the programme.",
+      "should_have_caught": "Nobody read the line-ups against criterion 1.",
+      "fix": {
+        "file": "best-house-music-festivals-draft.md",
+        "contains": "books a wide range of electronic music, with house as one part of it"
+      }
+    },
+    {
+      "id": "liquicity-near-alkmaar-unsourced",
+      "found": "2026-11-02",
+      "by": "agent",
+      "what": "The drum and bass roundup placed Liquicity at a lake near Alkmaar, which no source gave. The site is at Oudkarspel in North Holland.",
+      "should_have_caught": "Location detail written without a source.",
+      "fix": {
+        "file": "best-drum-and-bass-festivals-draft.md",
+        "contains": "a recreation area at Oudkarspel in North Holland"
+      }
     }
   ]
 }

@@ -5,10 +5,9 @@
 // line up variants (Keyword Planner, all locations, ranges only;
 // keywords/dekmantel.json). The URL has no year so it can be rolled forward.
 //
-// Maintenance: registered in festival-editions.mjs with ends: null. On
-// 2026-10-02 the official site had not confirmed 2027 Amsterdam dates (listings
-// say 28 July to 1 August) and Dekmantel Selectors was confirmed for 19 to 23
-// August 2027. Set ends once the Amsterdam dates are official.
+// Maintenance: registered in festival-editions.mjs with ends: '2027-08-02'. On
+// 2026-11-02 dekmantel.com confirmed 29 July to 2 August 2027 (earlier listings
+// said 28 July to 1 August) and Dekmantel Selectors 19 to 23 August 2027.
 import fs from 'node:fs';
 import {
   articleFaq, articleFigure, articleHero, articlePage, articleVideoCard, articleVideoCollection,
@@ -21,9 +20,10 @@ import {alternatesFor} from './pages.mjs';
 const draft = fs.readFileSync('dekmantel-draft.md', 'utf8');
 const canonical = 'https://thecatrave.com/dekmantel-festival';
 const title = 'Dekmantel Festival 2027: Dates, Tickets, Selectors, Amsterdam';
-const description = 'Dekmantel at the Amsterdamse Bos, 18+: 2027 dates (listed, not yet official), ticket rules, Selectors in Croatia on 19 to 23 August 2027 and sets to hear.';
+const description = 'Dekmantel at the Amsterdamse Bos, 18+: 2027 dates (29 July to 2 August), ticket rules, Selectors in Croatia on 19 to 23 August 2027 and sets to hear.';
 const date = '2026-10-02';
-const dateLabel = '2 October 2026';
+const modified = '2026-11-02';
+const dateLabel = '2 November 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -127,7 +127,7 @@ const articleHtml = [
     title: 'Dekmantel Festival: 2027 dates, tickets and Selectors',
     deck: 'Amsterdam\'s electronic music festival: when it is in 2027, where it is held, how the tickets work, what Dekmantel Selectors in Croatia is and which sets to hear first.',
     readingTime,
-    dateModified: date,
+    dateModified: modified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Dekmantel Festival', bodyHtml: inline(answer), className: 'article-summary'}),
     tocItems
@@ -145,7 +145,7 @@ const articleHtml = [
   articleSources({bodyHtml: `<ul>
 <li>Programme, venues, ages, ticket rules, camping, shuttle and logistics: <a href="https://www.dekmantelfestival.com/faq" target="_blank" rel="noopener noreferrer">Dekmantel Festival FAQ</a>. The FAQ describes the 2026 edition.</li>
 <li>Dekmantel Selectors dates, areas and format: <a href="https://www.dekmantelselectors.com/" target="_blank" rel="noopener noreferrer">dekmantelselectors.com</a>.</li>
-<li>Unconfirmed 2027 Amsterdam dates: listings on Skiddle and I amsterdam.</li>
+<li>2027 Amsterdam dates and tickets: <a href="https://dekmantel.com/events/dekmantel-festival-2027" target="_blank" rel="noopener noreferrer">the festival's event page</a>.</li>
 <li>History, founders and the 2024 tenth-anniversary edition: Time Out, "A decade of Dekmantel", and Casa, "A decade of Dekmantel Festival".</li>
 </ul>`}),
   bandcampSupport({
@@ -160,7 +160,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: modified}),
   breadcrumbStructuredData({name: 'Dekmantel Festival', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -169,7 +169,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/dekmantel-festival'),
   ogImage: 'https://thecatrave.com/img/og/dekmantel.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: date, dateModified: modified,
   bodyClass: 'article-page dekmantel-page',
   structuredData, articleHtml
 });

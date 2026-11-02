@@ -66,7 +66,7 @@ Awakenings started as a techno party in Amsterdam in 1997 and is still one of th
 
 ### Dekmantel, Netherlands
 
-Dekmantel is an independent festival that has run since 2013 in the Amsterdamse Bos, a woodland park on the edge of Amsterdam, with extra programmes in city venues such as Paradiso, Melkweg and the Oude Kerk. Its line-ups mix techno, house, electro, disco and experimental music, and it is the one on this list most likely to book a DJ you have not heard of. It is a day festival: you sleep in Amsterdam. The city's other festivals are in [the best music festivals in Amsterdam](/best-music-festivals-amsterdam). Recent editions have been at the end of July and the start of August; the 2027 dates have not been announced.
+Dekmantel is an independent festival that has run since 2013 in the Amsterdamse Bos, a woodland park on the edge of Amsterdam, with extra programmes in city venues such as Paradiso, Melkweg and the Oude Kerk. Its line-ups mix techno, house, electro, disco and experimental music, and it is the one on this list most likely to book a DJ you have not heard of. It is a day festival: you sleep in Amsterdam. The city's other festivals are in [the best music festivals in Amsterdam](/best-music-festivals-amsterdam). Dekmantel 2027 is on 29 July to 2 August.
 
 ### Time Warp, Germany
 
@@ -169,7 +169,7 @@ Time Warp (3 April, Mannheim), Sónar (17 to 19 June, Barcelona), Kappa FuturFes
 
 ### When are 2027 festival dates announced?
 
-Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland usually announces in December, and Dekmantel, Houghton and Freerotation have not announced 2027 dates yet. Monegros has confirmed 31 July.
+Most festivals announce the following year's dates during or soon after the current edition, and many put the first tickets on sale in autumn. Tomorrowland usually announces in December, and Houghton and Freerotation have not announced 2027 dates yet. Dekmantel has confirmed 29 July to 2 August. Monegros has confirmed 31 July.
 
 ### Which European electronic music festivals have camping?
 

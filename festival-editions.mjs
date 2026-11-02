@@ -50,9 +50,9 @@ export const festivalEditions = [
   // US twin of the Europe page. On 2026-10-02 only EDC, Ultra, Movement and the
   // three Beyond Wonderland editions had 2027 dates; null until every festival
   // on the page has confirmed, then set to the last to end and roll to 2028.
-  // Dekmantel: on 2026-10-02 the official site had not confirmed 2027 Amsterdam
-  // dates (listings say 28 July to 1 August). Set to 1 August 2027 once confirmed.
-  {page: 'dekmantel-festival.html', heading: 'When is Dekmantel 2027?', ends: null},
+  // Dekmantel: confirmed on dekmantel.com on 2026-11-02 for 29 July to 2 August
+  // 2027 (an earlier listing of 28 July to 1 August was wrong).
+  {page: 'dekmantel-festival.html', heading: 'When is Dekmantel 2027?', ends: '2027-08-02'},
   {page: 'best-winter-music-festivals.html', heading: 'Winter festival dates for 2027 at a glance', ends: null},
   // Dates unannounced on 2026-10-04; null until the festival publishes them.
   // Ultra Japan 2027 is dated (18 and 19 September); most others unannounced on 2026-10-04.

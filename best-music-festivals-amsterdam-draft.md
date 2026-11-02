@@ -14,11 +14,11 @@ A festival is on this list when these three things are true:
 - It takes place in Amsterdam or close enough to reach from the city in a day.
 - It has run recently, and it has either published a 2027 edition or given no sign of stopping.
 
-A date from the festival's own site is shown as confirmed. A date found only on a listing site is marked as listed, and should be treated as provisional until the festival publishes it.
+A date from the festival's own site is shown as confirmed.
 
 ## Amsterdam music festival dates for 2027 at a glance
 
-One clash to know about: Lente Kabinet and Awakenings Upclose share 15 and 16 May. Nothing on this list is in the city between mid-May and the end of July. Awakenings, on 9 to 11 July, is near Tilburg.
+One clash to know about: Lentekabinet and Awakenings Upclose share 15 and 16 May. Nothing on this list is in the city between mid-May and the end of July. Awakenings, on 9 to 11 July, is near Tilburg.
 
 ![Dates](figure:table)
 
@@ -54,21 +54,17 @@ Awakenings Upclose is the smaller of the two Awakenings festivals, held at Houtr
 
 ## Which Amsterdam festivals are for house and dance music?
 
-Loveland, Lente Kabinet and Kingsland are the city's dance festivals with a broader sound, and each holds a fixed place in the calendar.
+Loveland and Lentekabinet are the city's dance festivals with a broader sound, and each holds a fixed place in the calendar.
 
 ### Loveland, Sloterpark
 
 Loveland holds its summer festival in Sloterpark, on the west side of the city. The 2027 edition is on 14 and 15 August.
 
-### Lente Kabinet, Het Twiske
+### Lentekabinet, Het Twiske
 
-Lente Kabinet is the Dekmantel team's spring festival, held in Het Twiske, a nature area of lakes and meadows at Oostzaan, just north of Amsterdam. The 2027 edition is on 15 and 16 May.
+Lentekabinet is the Dekmantel team's spring festival, held in Het Twiske, a nature area of lakes and meadows at Oostzaan, just north of Amsterdam. The 2027 edition is on 15 and 16 May.
 
 ![Het Twiske](figure:twiske)
-
-### Kingsland, Olympic Stadium
-
-Kingsland is held on King's Day, the Dutch national holiday, at the Olympic Stadium. It is listed for Tuesday 27 April 2027. The whole city is out that day, so book a bed early.
 
 ## When is the Amsterdam Dance Event?
 
@@ -85,14 +81,15 @@ Two large Dutch festivals sit within easy reach. [Mysteryland](/mysteryland-fest
 These are festivals people ask about that fall outside the tests above.
 
 - **[Defqon.1](/defqon-1).** The hardstyle festival is on 24 to 27 June 2027, but at Biddinghuizen in Flevoland, a camping weekend and not a trip from the city.
+- **Kingsland.** It is held on King's Day at the Olympic Stadium, but its 2026 bill was led by Dutch rap and pop acts, with hardstyle on a second stage.
 - **Mystic Garden.** It was held in Amsterdam, and in 2026 it became a weekender at a new site in Zeewolde.
 - **Wonderfeel.** It appears on lists of Dutch summer festivals, but it is a classical music festival, on 9 to 11 July 2027 near Baarn.
 
 ## How to choose
 
-Pick the kind of day you want first. For a stadium show with the biggest names, choose AMF. For techno and house in a setting worth the trip, choose DGTL or Dekmantel. For a long-running city party, choose Loveland. For the start of spring, choose Lente Kabinet or Awakenings Upclose, but not both, because they share a weekend.
+Pick the kind of day you want first. For a stadium show with the biggest names, choose AMF. For techno and house in a setting worth the trip, choose DGTL or Dekmantel. For a long-running city party, choose Loveland. For the start of spring, choose Lentekabinet or Awakenings Upclose, but not both, because they share a weekend.
 
-Then look at the calendar. March, May, the end of July, August and October each have a reason to come, and ADE week is the busiest time of year for hotels. Check dates with the festival before you book travel. Kingsland's date comes from a listing site and is provisional until the organiser publishes it.
+Then look at the calendar. March, May, the end of July, August and October each have a reason to come, and ADE week is the busiest time of year for hotels. Check dates with the festival before you book travel.
 
 ![Listening](figure:second-mix)
 
@@ -100,7 +97,7 @@ Then look at the calendar. March, May, the end of July, August and October each 
 
 ### What are the best music festivals in Amsterdam?
 
-DGTL in March, Dekmantel in late July and the Amsterdam Music Festival during ADE in October are the main dates of the year. Loveland, Lente Kabinet and Awakenings Upclose fill the months between.
+DGTL in March, Dekmantel in late July and the Amsterdam Music Festival during ADE in October are the main dates of the year. Loveland, Lentekabinet and Awakenings Upclose fill the months between.
 
 ### When is the Amsterdam Music Festival 2027?
 

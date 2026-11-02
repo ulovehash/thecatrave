@@ -28,7 +28,8 @@ const canonical = 'https://thecatrave.com/best-electronic-music-festivals-europe
 const title = 'Best Electronic Music Festivals in Europe 2027, Compared';
 const description = 'Fourteen major and seven smaller European electronic music festivals for 2027, compared by sound, scale, setting and dates, confirmed or not.';
 const date = '2026-10-06';
-const dateLabel = '6 October 2026';
+const modified = '2026-11-02';
+const dateLabel = '2 November 2026';
 
 const escapeHtml = value => String(value)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -95,7 +96,7 @@ const festivals = [
   ['Mysteryland', 'Haarlemmermeer, Netherlands', '27 to 29 August', 'Techno and house to hardstyle', '125,000+ a year (festival figure)', 'Camping', 'Variety near Amsterdam'],
   ['Defqon.1', 'Biddinghuizen, Netherlands', '24 to 27 June', 'Hardstyle, hardcore', 'About 268,000 visitors (2025)', 'Camping', 'Hardstyle fans'],
   ['Awakenings', 'Hilvarenbeek, Netherlands', '9 to 11 July', 'Techno', 'Not published here', 'Camping', 'A techno weekend'],
-  ['Dekmantel', 'Amsterdam, Netherlands', 'Not announced (late July to early August recently)', 'Techno, house, electro, disco, experimental', 'Not published here', 'City, day festival', 'Discovering DJs'],
+  ['Dekmantel', 'Amsterdam, Netherlands', '29 July to 2 August', 'Techno, house, electro, disco, experimental', 'Not published here', 'City, day festival', 'Discovering DJs'],
   ['Time Warp', 'Mannheim, Germany', '3 April', 'Techno, house', '40,000+', 'One indoor night', 'Techno in a single night'],
   ['Kappa FuturFestival', 'Turin, Italy', '2 to 4 July', 'Techno, house', 'Not published here', 'City, midday to midnight', 'Daylight techno'],
   ['Sónar', 'Barcelona, Spain', '17 to 19 June', 'Electronic, experimental, live acts', 'About 150,000 (2026)', 'City', 'An adventurous programme'],
@@ -218,7 +219,7 @@ const articleHtml = [
     title: 'The best electronic music festivals in Europe in 2027',
     deck: 'Fourteen major festivals and seven smaller ones, compared by what they play, how big they are, where you sleep and when they are, with the 2027 dates that are confirmed and the ones that are not.',
     readingTime,
-    dateModified: date,
+    dateModified: modified,
     dateLabel,
     summaryHtml: infoBanner({label: 'Best electronic music festivals in Europe', bodyHtml: inline(answer), className: 'article-summary'}),
     tocItems
@@ -254,7 +255,7 @@ const articleHtml = [
 ].join('\n');
 
 const structuredData = [
-  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: date}),
+  articleStructuredData({headline: title, description, canonical, datePublished: date, dateModified: modified}),
   breadcrumbStructuredData({name: 'Best Electronic Music Festivals in Europe', canonical}),
   faqStructuredData({items: faqItems})
 ];
@@ -263,7 +264,7 @@ const html = articlePage({
   title, description, canonical,
   alternates: alternatesFor('/best-electronic-music-festivals-europe'),
   ogImage: 'https://thecatrave.com/img/og/europe-festivals.jpg',
-  datePublished: date, dateModified: date,
+  datePublished: date, dateModified: modified,
   bodyClass: 'article-page europe-festivals-page',
   structuredData, articleHtml
 });
