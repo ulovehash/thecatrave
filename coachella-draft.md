@@ -8,7 +8,7 @@ Coachella, in full the Coachella Valley Music and Arts Festival, is held at the 
 
 Coachella began as a gamble by a Los Angeles promoter that was losing bands to bigger rivals. Its first edition lost $850,000, it skipped the following year, and it grew into one of the largest and most profitable music festivals in the world.
 
-What is Coachella festival to someone who has never been? This guide covers when Coachella 2027 is, where Coachella is and how long it lasts, how big it is, who started it and who owns it, and why a festival on a polo field got so famous. Then it answers the question this site is here for: what does the Coachella music festival actually play?
+What is Coachella festival to someone who has never been? Two April weekends on a polo field in Indio, California, where the Coachella music festival puts rock, pop, hip-hop and Latin headliners beside the Sahara tent and Quasar, which carry much of the electronic programme.
 
 ## Coachella 2027: dates
 

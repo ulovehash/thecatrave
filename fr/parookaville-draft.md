@@ -8,8 +8,6 @@ Parookaville est un festival de musique électronique organisé chaque mois de j
 
 Parookaville est né d’une idée venue de l’étranger. En 2015, trois amis ont voulu construire un monde de festival comme ceux qu’ils avaient vus à Tomorrowland et à Burning Man, et l’ont installé sur un vieil aérodrome à Weeze, à l’extrême ouest de l’Allemagne. En 2026, les lecteurs de DJ Mag l’ont élu dixième meilleur festival du monde.
 
-Qu’est-ce que Parookaville pour quelqu’un qui n’y est jamais allé ? Ce guide explique où et quand se tient Parookaville, sa taille, qui l’a lancé et qui le dirige aujourd’hui, et pourquoi un festival déguisé en ville a pris. Puis il répond à la question pour laquelle ce site existe : au-delà de la Mainstage, quelle musique joue-t-on vraiment à Parookaville ?
-
 ## Où a lieu Parookaville
 
 Où a lieu Parookaville ? À l’aéroport de Weeze, dans l’arrondissement de Clèves, en Rhénanie-du-Nord-Westphalie, près de la frontière avec les Pays-Bas. L’aéroport se trouve à environ 33 kilomètres au sud-est de Nimègue et à 48 kilomètres au nord-ouest de Duisbourg, et il occupe les bâtiments de RAF Laarbruch, une base de la Royal Air Force devenue aéroport civil en 2003. Le festival se tient sur cet ancien aérodrome militaire, ce qui explique qu’on le trouve dans les annonces sous le nom de Parookaville Weeze.

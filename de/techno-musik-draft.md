@@ -10,8 +10,6 @@ Techno begann in einer Stadt, die ihre Fabriken verlor. Detroit war Anfang der 1
 
 Sie benannten es nach einem Buch über die Zukunft, verkauften die ersten Platten vor allem in Chicago und fanden ihr größtes Publikum in Großbritannien und Deutschland. Anfang der 1990er lag der wichtigste Technoclub der Welt in den Tresorräumen eines Kaufhauses in Ost-Berlin, und viele seiner DJs kamen aus Detroit.
 
-Dieser Guide behandelt, was Techno ist und wie er klingt, die Detroiter Platten, die ihn in Gang brachten, woher der Name kommt, Underground Resistance und die zweite Welle, die Berliner Allianz und die Stile, die das Wort heute füllen, von Minimal bis Hard Techno.
-
 ## Was ist Techno
 
 Techno ist Tanzmusik, die fast vollständig von Maschinen gemacht wird, damit ein DJ sie in einem durchgehenden Set spielt. Die Kickdrum landet wie im House auf jedem Schlag, doch Techno läuft meist schneller, irgendwo zwischen 120 und 150 Schlägen pro Minute, und lässt das meiste weg, was House behält: den Soul-Gesang, das Gospel-Klavier, das Disco-Sample.

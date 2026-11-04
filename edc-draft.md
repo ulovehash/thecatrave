@@ -8,7 +8,7 @@ EDC Las Vegas is the flagship of the Electric Daisy Carnival, an electronic danc
 
 What is EDC Las Vegas, for people who have never been? A festival at a racetrack in the desert, three nights long, with carnival rides between the stages. Insomniac describes it as the largest dance music festival in North America. In 2026, its 30th anniversary, it featured more than 450 artists across 18 music areas and art cars; six stages were also streamed live on Insomniac's YouTube channel.
 
-This guide covers where it happens and when, how big it really is, how an early Southern California rave became the flagship of a company, and why it became famous. Then the question this site is here for: past the fireworks over kineticFIELD, what does the Electric Daisy Carnival actually play? One thing first. EDC here is the festival, not everyday carry, the name for the knives and torches people keep in their pockets.
+EDC here is the festival, not everyday carry, the name for the knives and torches people keep in their pockets.
 
 ## Where EDC Las Vegas happens
 

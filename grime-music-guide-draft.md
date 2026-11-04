@@ -4,7 +4,7 @@
 
 Grime is usually described as British rap, which is true in the way that describing jungle as fast reggae is true. It leaves out the part that made it new.
 
-Before grime was a genre it was a set of instrumentals: cold, bare, around 140 beats per minute, made by teenagers in East London on cheap software and played on pirate radio for MCs to fight over. The MCs made it famous. The producers made it sound like nothing else. This guide covers both, and where the name, the origin story and some of the famous claims about it are still argued over.
+Before grime was a genre it was a set of instrumentals: cold, bare, around 140 beats per minute, made by teenagers in East London on cheap software and played on pirate radio for MCs to fight over. The MCs made it famous. The producers made it sound like nothing else.
 
 ## What is grime music
 

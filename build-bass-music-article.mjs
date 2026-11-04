@@ -74,7 +74,7 @@ const soundcloud = (slug, label, titleText, descriptionText, tone) => articleLis
   iframeTitle:`${titleText} by thecatrave on SoundCloud`, fullBleed:true, tone
 });
 
-const introStart = draft.indexOf('Search for bass music');
+const introStart = draft.indexOf('Bass music pulls in several directions');
 const introEnd = draft.indexOf('\n## BASS MUSIC DEFINITION');
 const intro = draft.slice(introStart, introEnd).trim();
 const definition = paragraphs(getSection('BASS MUSIC DEFINITION'));

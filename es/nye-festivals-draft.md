@@ -6,7 +6,7 @@ Los mayores festivales de Nochevieja de música electrónica están en Europa, E
 
 ## Introducción
 
-La Nochevieja cae en pleno verano en el hemisferio sur y en pleno invierno en el norte, y eso decide qué tipo de festival de fin de año hay en cada sitio. En Nueva Zelanda y Australia es temporada de camping, así que el año nuevo tiene festivales al aire libre de varios días, en viñedos y tierras de cultivo. En Estados Unidos, los grandes organizadores pasan a recintos cerrados, como centros de convenciones, arenas y un estadio de béisbol, y montan raves de dos noches. En Europa, donde es invierno y la cultura de club es más antigua, la noche es sobre todo de los clubes, con una gran excepción en Bruselas. Esta guía cubre los tres, con las fechas de Nochevieja de 2026 cuando los festivales ya las han anunciado.
+La Nochevieja cae en pleno verano en el hemisferio sur y en pleno invierno en el norte, y eso decide qué tipo de festival de fin de año hay en cada sitio. En Nueva Zelanda y Australia es temporada de camping, así que el año nuevo tiene festivales al aire libre de varios días, en viñedos y tierras de cultivo. En Estados Unidos, los grandes organizadores pasan a recintos cerrados, como centros de convenciones, arenas y un estadio de béisbol, y montan raves de dos noches. En Europa, donde es invierno y la cultura de club es más antigua, la noche es sobre todo de los clubes, con una gran excepción en Bruselas.
 
 ## Nochevieja 2026: los festivales y sus fechas
 

@@ -8,7 +8,7 @@ Ultra Music Festival Miami es un festival de música electrónica solo para mayo
 
 ¿Qué es Ultra para quien nunca ha ido? Un festival en un parque junto al mar, en el centro de Miami, al final de la Miami Music Week, cuando la Winter Music Conference trae a toda la industria de la música de baile a la ciudad. Mucha más gente lo ve que la que entra en el parque: en 2026, el streaming #ULTRALIVE alcanzó una audiencia mundial anunciada de 42,5 millones de personas, mientras que el festival anunciaba 165 000 entradas acumuladas a lo largo de tres días.
 
-Esta guía explica dónde y cuándo es Ultra, qué tamaño tiene de verdad, quién lo fundó y de quién es hoy, y cómo una fiesta en la playa se convirtió en una marca presente en varios continentes, entre ellos Ultra Europe. Después, la pregunta por la que existe esta web: bajo los fuegos artificiales del Main Stage, ¿qué suena de verdad en Ultra? Una aclaración antes de seguir. Aquí Ultra es el festival, no Ultra Records, el sello de música de baile de nombre parecido. Ambos se enfrentaron en los tribunales y en 2012 cerraron lo que llamaron una «alianza mundial».
+Aquí Ultra es el festival, no Ultra Records, el sello de música de baile de nombre parecido. Ambos se enfrentaron en los tribunales y en 2012 cerraron lo que llamaron una «alianza mundial».
 
 ## Dónde es el Ultra Music Festival
 
@@ -70,7 +70,7 @@ Ultra también convirtió uno de sus escenarios de Miami en una marca propia. Re
 
 ## Ultra Europe, en Split (Croacia)
 
-Ultra Europe es la edición de verano, el festival Ultra que Croacia acoge cada julio desde 2013, salvo los dos años de pandemia. Se celebra en Split, en la costa dálmata, y los croatas lo buscan como Ultra Split más a menudo que como Ultra Europe. Ultra Croatia es otro nombre con el que la gente lo busca.
+Ultra Europe es la edición de verano, el festival Ultra que Croacia acoge cada julio desde 2013, salvo los dos años de pandemia. Se celebra en Split, en la costa dálmata, y a menudo se le llama Ultra Split o Ultra Croatia.
 
 La primera edición fue el 12 y 13 de julio de 2013 en el estadio de Poljud, con dos escenarios: el Main Stage y la Carl Cox & Friends Arena. Un día después llegó Ultra Beach, una fiesta en la isla de Hvar. En 2014 el festival pasó a tres días y, con Ultra Beach, reunió a 150 000 personas en Split y Hvar.
 

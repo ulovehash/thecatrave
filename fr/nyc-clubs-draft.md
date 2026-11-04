@@ -6,7 +6,7 @@ Les meilleurs clubs de New York pour la house et la techno sont aujourd’hui à
 
 ## Introduction
 
-Demandez les meilleures boîtes de nuit de New York, et l’essentiel de ce qui revient, c’est du bottle service : des lounges dans des hôtels de Manhattan avec un DJ dans un coin et une consommation minimale par table. Ce guide parle de l’autre sorte de clubs new-yorkais, ceux bâtis autour d’un système de son et d’une piste de danse, où la musique est la raison d’y aller.
+Demandez les meilleures boîtes de nuit de New York, et l’essentiel de ce qui revient, c’est du bottle service : des lounges dans des hôtels de Manhattan avec un DJ dans un coin et une consommation minimale par table. Les clubs new-yorkais retenus ici sont de l’autre sorte, bâtis autour d’un système de son et d’une piste de danse, où la musique est la raison d’y aller.
 
 Ce type de club a été à peu près inventé à New York. Le Loft, le Paradise Garage et les DJ qui y ont joué ont fixé le modèle que des clubs de Chicago à Londres ont copié : un DJ au centre, une salle conçue autour du son et une nuit qui durait jusqu’au matin. New York a aussi passé des décennies à essayer de réglementer ce genre de soirée hors d’existence.
 

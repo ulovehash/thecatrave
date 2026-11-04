@@ -34,7 +34,7 @@ A festival is on this list when it has electronic music at its core, runs betwee
 
 ## Which winter festivals are the biggest?
 
-The biggest winter festivals are the ones with large production and a headline bill: Tomorrowland Winter and Snowbombing in the Alps, Igloofest in Montreal, Snow Machine in Hakuba and Nameless Winter in the Italian Alps. They are the answer to a search for the best winter music festivals if you want names you know.
+The biggest winter festivals are the ones with large production and a headline bill: Tomorrowland Winter and Snowbombing in the Alps, Igloofest in Montreal, Snow Machine in Hakuba and Nameless Winter in the Italian Alps.
 
 ### Tomorrowland Winter, Alpe d'Huez
 

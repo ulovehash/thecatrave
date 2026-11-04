@@ -10,8 +10,6 @@ Techno started in a city that was losing its factories. Detroit in the early 198
 
 They named it after a book about the future, sold the first records mainly in Chicago, and found their biggest audience in Britain and Germany. By the early 1990s the most important techno club in the world was in the vaults of a department store in East Berlin, and many of its DJs were from Detroit.
 
-This guide covers what techno is and what it sounds like, the Detroit records that started it, where the name comes from, Underground Resistance and the second wave, the Berlin alliance, and the styles that fill the word now, from minimal to hard techno.
-
 ## What is techno
 
 Techno is dance music made almost entirely by machines, for a DJ to play in a continuous set. The kick drum lands on every beat, as in house, but techno usually runs faster, somewhere between 120 and 150 beats per minute, and it leaves out most of what house keeps: the soul vocal, the gospel piano, the disco sample.

@@ -2,7 +2,7 @@
 
 ## Answer
 
-The best clubs in Europe depend on what you want from a night, but DJ Mag's Top 100 Clubs 2026 gives a shared reference: Ibiza's [UNVRS] ranks first in the world, Hï Ibiza fourth, FABRIK in Madrid eighth, Bootshaus in Cologne eleventh, fabric in London thirteenth and Berghain in Berlin twenty-first. This guide covers 23 European nightclubs in ten countries, from Berghain and Tresor to Pacha, Amnesia, Cavo Paradiso and Culture Club Revelin, with what each room is, who runs it and which sets to hear first.
+The best clubs in Europe depend on what you want from a night, but DJ Mag's Top 100 Clubs 2026 gives a shared reference: Ibiza's [UNVRS] ranks first in the world, Hï Ibiza fourth, FABRIK in Madrid eighth, Bootshaus in Cologne eleventh, fabric in London thirteenth and Berghain in Berlin twenty-first. The 23 clubs here are in ten countries, from Berghain and Tresor to Pacha, Amnesia, Cavo Paradiso and Culture Club Revelin.
 
 ## Introduction
 

@@ -6,7 +6,7 @@ Les meilleurs festivals de musique électronique d’Asie sont Ultra Japan à To
 
 ## Introduction
 
-L’Asie compte beaucoup de festivals de musique, et presque tout ce qu’on en écrit énumère les plus grands noms avec une photo chacun. Cette page traite des festivals électroniques et cherche à répondre à ce qu’il vous faut savoir avant de réserver : où se trouve chaque festival, ce qu’il programme, combien coûte un billet quand un prix est publié et quelles dates sont confirmées pour 2027.
+L’Asie compte beaucoup de festivals de musique, et presque tout ce qu’on en écrit énumère les plus grands noms avec une photo chacun.
 
 Pour comparer avec d’autres régions, consultez le [guide des festivals de musique électronique en Europe](/fr/festivals-electro-europe) et le [guide des festivals EDM aux États-Unis](/fr/festivals-edm-etats-unis).
 

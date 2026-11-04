@@ -6,7 +6,7 @@ Les meilleures boîtes de nuit de Budapest sont l’A38, un cargo de 1968 reconv
 
 ## Introduction
 
-Cherchez la vie nocturne de Budapest et ce qui vient d’abord, ce sont les ruin bars : des repaires miteux avec cour, aménagés dans des immeubles condamnés, rendus célèbres par le Szimpla Kert. C’est une scène réelle et immense, mais ce n’est pour l’essentiel pas une scène de club, puisque la plupart des ruin bars sont d’abord des bars, avec une bande-son plutôt qu’une piste de danse. Ce guide porte sur la liste plus restreinte des lieux de Budapest conçus ou devenus des lieux pour la house, la techno et la danse jusqu’au matin, dont plusieurs ont commencé comme ruin bars avant que la musique ne prenne le dessus.
+Cherchez la vie nocturne de Budapest et ce qui vient d’abord, ce sont les ruin bars : des repaires miteux avec cour, aménagés dans des immeubles condamnés, rendus célèbres par le Szimpla Kert. C’est une scène réelle et immense, mais ce n’est pour l’essentiel pas une scène de club, puisque la plupart des ruin bars sont d’abord des bars, avec une bande-son plutôt qu’une piste de danse. Les lieux retenus ici forment la liste plus restreinte des salles de Budapest conçues ou devenues des lieux pour la house, la techno et la danse jusqu’au matin, dont plusieurs ont commencé comme ruin bars avant que la musique ne prenne le dessus.
 
 ## Des ruin bars aux clubs
 

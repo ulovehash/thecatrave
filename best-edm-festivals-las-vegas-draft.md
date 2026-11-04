@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The best-known EDM festival in Las Vegas is EDC, held every May at the Las Vegas Motor Speedway. The other EDM festivals Vegas holds are few: Breakaway takes over the Wynn's day club and nightclub for a weekend in June, and the clubs carry the rest of the year. Most of the other EDM festivals people from Vegas go to are a drive away, in Southern California, Arizona and Utah. This page lists them with their 2027 dates where those are published.
+The best-known EDM festival in Las Vegas is EDC, held every May at the Las Vegas Motor Speedway. The other EDM festivals Vegas holds are few: Breakaway takes over the Wynn's day club and nightclub for a weekend in June, and the clubs carry the rest of the year. Most of the other EDM festivals people from Vegas go to are a drive away, in Southern California, Arizona and Utah.
 
 ![Listening](figure:playlist)
 

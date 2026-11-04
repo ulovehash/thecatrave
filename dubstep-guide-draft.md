@@ -1,12 +1,10 @@
 # What is dubstep?
 
-Search for dubstep and you will find two answers that contradict each other. One describes patient, half-speed music built around bass you feel in your chest. The other describes the loudest thing on a festival main stage. Both are correct, both are called dubstep, and the distance between them is the most interesting thing about the genre.
-
-This guide covers where the sound came from, how it is built, what happened when it split, and the versions of it that never stopped.
+Dubstep has two definitions that contradict each other. One describes patient, half-speed music built around bass you feel in your chest. The other describes the loudest thing on a festival main stage. Both are correct, both are called dubstep, and the distance between them is the most interesting thing about the genre.
 
 ## DUBSTEP DEFINITION
 
-Dubstep is a bass-led electronic style that formed in south London in the early 2000s. It runs at around 140 beats per minute, with the kick and snare placed far enough apart that the music feels half as fast as it counts, and the weight of it sits in sub-bass rather than in melody. That is the original definition. Since roughly 2010 the same word has also described a louder American variant built on distorted mid-range, and the two sound almost nothing alike. Both are called dubstep. Understanding why is most of what people are actually asking when they search for the term.
+Dubstep is a bass-led electronic style that formed in south London in the early 2000s. It runs at around 140 beats per minute, with the kick and snare placed far enough apart that the music feels half as fast as it counts, and the weight of it sits in sub-bass rather than in melody. That is the original definition. Since roughly 2010 the same word has also described a louder American variant built on distorted mid-range, and the two sound almost nothing alike. Both are called dubstep.
 
 ## Croydon, Big Apple and a sound with no name
 

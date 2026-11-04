@@ -6,8 +6,6 @@ Le UK garage, c’est ce qui s’est passé quand Londres a mis la main sur un d
 
 L’original américain était le garage au premier sens du mot : une house chaleureuse, teintée de gospel, qui doit son nom au Paradise Garage, le club new-yorkais où Larry Levan a joué pendant les années soixante-dix et quatre-vingt. Elle est arrivée dans les magasins de disques britanniques au début des années quatre-vingt-dix, comme une curiosité de face B. Ce que Londres en a fait pendant la décennie suivante a donné un genre qui ne ressemble en rien à son modèle, puis deux autres genres qui ne lui ressemblent pas non plus.
 
-Ce guide explique le son, l’origine du nom, les trois branches entre lesquelles la musique s’est partagée, le moment où elle est devenue le dubstep et le grime, et pourquoi on joue aujourd’hui plus de UK garage qu’à aucun moment depuis 1999.
-
 ## C’est quoi le UK garage ?
 
 Le UK garage est une musique de danse jouée autour de 130 battements par minute, sur un beat qui refuse de rester droit. Comme style musical, le garage se situe entre la house et la jungle, sans appartenir ni à l’une ni à l’autre. Là où la house met une grosse caisse sur chaque noire, qu’on peut compter sans même essayer, le garage écarte le beat et y laisse des trous. Le swing est lourd, la basse forte et courte, et les voix sont en général accélérées et découpées en morceaux.

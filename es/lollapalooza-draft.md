@@ -8,8 +8,6 @@ Lollapalooza es un festival de música de cuatro días que se celebra cada veran
 
 Lollapalooza empezó como una despedida. En 1991, Perry Farrell puso a su grupo, Jane's Addiction, al frente de un cartel itinerante de rock alternativo, música industrial y rap, y lo llevó por Norteamérica; Spin clasificó después aquella primera gira como el mejor concierto de los 35 años anteriores. Se fue apagando a finales de los noventa, volvió en 2003 con una gira poco concurrida, y la gira prevista para 2004 se canceló antes de empezar. En 2005 regresó como festival en una sola ciudad, y así ha seguido desde entonces.
 
-¿Qué es Lollapalooza hoy? Esta guía trata del lugar de Lollapalooza en Chicago y de los sitios a los que se ha extendido, de sus fechas y duración, de su tamaño, del significado de su nombre, de su historia y sus propietarios, y de lo que suena de verdad.
-
 ## Lollapalooza 2027: estado de las fechas
 
 Lollapalooza Chicago aún no ha anunciado sus fechas de 2027; las de 2026 salieron en marzo. El festival suele celebrarse de jueves a domingo, el último fin de semana de julio o el primero de agosto, pero ese patrón no es un calendario confirmado para 2027. Las fechas confirmadas de Lollapalooza deben venir de la web oficial del festival antes de planear un viaje. La edición de 2026 se celebró del 30 de julio al 2 de agosto.

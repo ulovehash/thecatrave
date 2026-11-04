@@ -4,7 +4,7 @@
 
 On décrit souvent le grime comme du rap britannique. C’est vrai à peu près comme il est vrai de décrire la jungle comme du reggae rapide : cela laisse de côté ce qui était nouveau.
 
-Avant d’être un genre, le grime était un ensemble d’instrumentaux : froids, dépouillés, autour de 140 battements par minute, fabriqués par des adolescents de l’est de Londres avec des logiciels bon marché et diffusés sur les radios pirates pour que des MC s’y affrontent. Les MC ont rendu le grime célèbre. Les producteurs lui ont donné un son qui ne ressemblait à rien d’autre. Ce guide couvre les deux, ainsi que les points où le nom, le récit des origines et certaines affirmations célèbres font encore débat.
+Avant d’être un genre, le grime était un ensemble d’instrumentaux : froids, dépouillés, autour de 140 battements par minute, fabriqués par des adolescents de l’est de Londres avec des logiciels bon marché et diffusés sur les radios pirates pour que des MC s’y affrontent. Les MC ont rendu le grime célèbre. Les producteurs lui ont donné un son qui ne ressemblait à rien d’autre.
 
 ## Qu’est-ce que le grime ?
 

@@ -6,7 +6,7 @@ Les meilleures boîtes de nuit à Tokyo sont le WOMB et le Contact, tous deux à
 
 ## Introduction
 
-Les sorties en club à Tokyo comportent un fait que presque tous les visiteurs apprennent à leurs dépens : pendant la majeure partie de l’histoire d’après-guerre de la ville, danser lui-même était réglementé comme un vice. Une loi de 1948 traitait une piste de danse comme un club de strip-tease, et elle est restée en vigueur, appliquée par intermittence, jusqu’en 2016. Les clubs de Tokyo ne se sont pas développés malgré cette loi mais plutôt autour d’elle : dans des sous-sols sous la colline des love hotels de Shibuya et dans un entrepôt du bord de l’eau, dans les docks gagnés sur la mer de Shin-Kiba. Ce guide couvre les clubs conçus pour la house, la techno et la bass music plutôt que les clubs d’hôtesses et les bars privés qui répondent aussi au mot « club » à Tokyo, et il explique la loi qui a décidé de l’endroit où ils ont fini.
+Les sorties en club à Tokyo comportent un fait que presque tous les visiteurs apprennent à leurs dépens : pendant la majeure partie de l’histoire d’après-guerre de la ville, danser lui-même était réglementé comme un vice. Une loi de 1948 traitait une piste de danse comme un club de strip-tease, et elle est restée en vigueur, appliquée par intermittence, jusqu’en 2016. Les clubs de Tokyo ne se sont pas développés malgré cette loi mais plutôt autour d’elle : dans des sous-sols sous la colline des love hotels de Shibuya et dans un entrepôt du bord de l’eau, dans les docks gagnés sur la mer de Shin-Kiba. Les clubs retenus ici sont ceux conçus pour la house, la techno et la bass music, pas les clubs d’hôtesses ni les bars privés qui répondent aussi au mot « club » à Tokyo.
 
 ## Cinquante ans d’une loi contre la danse
 

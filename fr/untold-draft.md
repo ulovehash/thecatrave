@@ -8,8 +8,6 @@ Untold Festival est un festival de musique électronique qui a lieu chaque mois 
 
 Untold est né d’un titre que la ville avait gagné. En 2015, Cluj-Napoca était Capitale européenne de la jeunesse, et un festival a été construit pour cette année-là dans le stade de football de la ville et le parc voisin. Il revient chaque été depuis, sauf pendant la pandémie, et dans le classement des festivals de DJ Mag il n’est plus devancé que par Tomorrowland et EDC Las Vegas.
 
-Qu’est-ce que le festival Untold pour quelqu’un qui n’est jamais allé en Roumanie ? Ce guide explique quand a lieu Untold 2027, où se tient le festival, quelle est sa taille, qui l’a lancé et pourquoi un festival en Transylvanie est devenu si célèbre. Puis il répond à la question pour laquelle ce site existe : au-delà de la scène principale, quelle musique le festival Untold joue-t-il vraiment ?
-
 ## Untold 2027 : les dates et la Star Edition
 
 Untold Festival 2027 a lieu du 5 au 8 août 2027, du jeudi au dimanche, à la Cluj Arena de Cluj-Napoca. Le festival l’appelle la Star Edition, sa douzième, et les pass de quatre jours sont en vente sur la billetterie officielle. Le site officiel n’a pas encore publié d’affiche pour 2027.

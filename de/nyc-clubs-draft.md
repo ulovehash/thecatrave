@@ -6,7 +6,7 @@ Die besten Clubs in New York für House und Techno liegen heute in Brooklyn und 
 
 ## Einleitung
 
-Wer nach den besten Clubs in New York oder den besten Nachtclubs in NYC fragt, bekommt meist Bottle Service zurück: Lounges in Manhattaner Hotels mit einem DJ in der Ecke und einem Mindestverzehr am Tisch. Dieser Guide handelt von der anderen Sorte New Yorker Clubs, gebaut um eine Soundanlage und eine Tanzfläche, in denen die Musik der Grund ist hinzugehen.
+Wer nach den besten Clubs in New York oder den besten Nachtclubs in NYC fragt, bekommt meist Bottle Service zurück: Lounges in Manhattaner Hotels mit einem DJ in der Ecke und einem Mindestverzehr am Tisch. Die New Yorker Clubs hier sind die andere Sorte, gebaut um eine Soundanlage und eine Tanzfläche, in denen die Musik der Grund ist hinzugehen.
 
 Diese Art Club wurde mehr oder weniger in New York erfunden. Das Loft, das Paradise Garage und die DJs, die dort spielten, setzten die Vorlage, die Clubs von Chicago bis London kopierten: ein DJ im Zentrum, ein um den Sound gebauter Raum und eine Nacht, die bis zum Morgen lief. New York versuchte außerdem jahrzehntelang, genau diese Art Ausgehen wegzuregulieren.
 

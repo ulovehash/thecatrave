@@ -8,8 +8,6 @@ Mysteryland ist ein Festival für elektronische Musik, das Ende August auf dem f
 
 Mysteryland ist älter als der größte Teil der Musik, die es heute bucht. Das erste, 1993, war ein Rave auf dem Midland Circuit in Lelystad, der seinen Veranstaltern Geld kostete. Im ersten Jahrzehnt zog es von Gelände zu Gelände, 2003 blieb es auf dem Areal einer Gartenbauausstellung vor Hoofddorp, wo daraus ein Wochenende mit Campingplatz und Hauptbühnen in Gestalt riesiger Skulpturen wurde.
 
-Dieser Guide behandelt Mysteryland 2027 und die Frage, warum es 2026 kein Mysteryland gibt, danach den Ort, die Größe, das Wachstum und die heutigen Eigentümer, und schließlich das, was auf den Bühnen wirklich läuft.
-
 ## Mysteryland 2027, und warum 2026 ausfällt
 
 Mysteryland 2027 ist auf den 27., 28. und 29. August 2027 datiert, Freitag bis Sonntag, erneut in Haarlemmermeer: Die offizielle Seite schreibt, die Reise gehe an "unserem vertrauten Zuhause" weiter. Line-up, Ticketpreise und das neue Konzept selbst sind noch nicht bekannt, und die Seite nahm Vorregistrierungen entgegen.

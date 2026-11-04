@@ -8,8 +8,6 @@ El Festival de Glastonbury, conocido como Glasto, es un festival de música y ar
 
 Glastonbury empezó con 1.500 personas en una granja lechera. El 19 de septiembre de 1970 Michael Eavis, que acababa de ver tocar a Led Zeppelin en un festival al aire libre en Bath, montó el suyo en Worthy Farm; las entradas costaban una libra. Hoy se considera uno de los grandes acontecimientos de la cultura británica, y el Glastonbury que casi todo el mundo tiene en la cabeza es una pequeña ciudad de escenarios, campos y tiendas que aparece en el campo de Somerset durante una semana de junio.
 
-Esta guía explica cuándo es Glastonbury 2027 y por qué no hubo festival este año, dónde es y cuánto dura, qué tamaño tiene, su historia y quién lo dirige, el Pyramid Stage y el resto del recinto, los headliners año por año y qué música suena de verdad.
-
 ## Glastonbury 2027: fechas
 
 Glastonbury 2027 se celebra de miércoles 23 a domingo 27 de junio de 2027, en Worthy Farm. El festival confirmó las fechas de Glastonbury 2027 en su propia web y fijó la venta de entradas para octubre de 2026: paquetes de entrada con autocar desde el 1 de octubre y entrada general desde el 4 de octubre.

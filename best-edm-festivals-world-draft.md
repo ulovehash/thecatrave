@@ -2,7 +2,7 @@
 
 ## Introduction
 
-People ask for the world's biggest EDM festival, but festivals count crowds in different ways. Some add up admissions across every day, some give the number of people on site, and some only say how many fans they expect. This page ranks electronic festivals by the attendance figure each one reported, with the year and where the number comes from, and gives the 2027 dates for each. The detail on getting there and staying over lives in each festival's own guide on this site.
+People ask for the world's biggest EDM festival, but festivals count crowds in different ways. Some add up admissions across every day, some give the number of people on site, and some only say how many fans they expect. The detail on getting there and staying over lives in each festival's own guide on this site.
 
 ![Listening](figure:playlist)
 

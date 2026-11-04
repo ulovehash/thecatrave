@@ -6,7 +6,7 @@ Awakenings est un festival techno néerlandais et une série de soirées en club
 
 ## Introduction
 
-Tapez Awakenings et les premiers résultats sont le site du festival, Wikipédia et Instagram : une recherche de navigation, sans place pour un guide extérieur. Demandez en revanche de quoi il s’agit vraiment, et cela mérite une explication sérieuse, car Awakenings est resté fidèle à une seule chose pendant presque trente ans, alors que la plupart des festivals de son âge ont élargi leur programmation. Il ne joue que de la techno, doit son nom à une plaisanterie sur Pâques, et est passé d’une salle unique à Amsterdam à un festival qui remplit un champ dans le Brabant.
+Awakenings mérite une explication sérieuse, car le festival est resté fidèle à une seule chose pendant presque trente ans, alors que la plupart des festivals de son âge ont élargi leur programmation. Il ne joue que de la techno, doit son nom à une plaisanterie sur Pâques, et est passé d’une salle unique à Amsterdam à un festival qui remplit un champ dans le Brabant.
 
 ## Où et quand a lieu Awakenings
 

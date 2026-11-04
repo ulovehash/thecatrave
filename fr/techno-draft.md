@@ -10,8 +10,6 @@ La techno est née dans une ville qui perdait ses usines. Détroit, au début de
 
 Ils l’ont nommée d’après un livre sur l’avenir, ont vendu les premiers disques surtout à Chicago et ont trouvé leur plus grand public en Grande-Bretagne et en Allemagne. Au début des années 1990, le club techno le plus important du monde se trouvait dans les chambres fortes d’un grand magasin de Berlin-Est, et beaucoup de ses DJ venaient de Détroit.
 
-Ce guide explique ce qu’est la techno et comment elle sonne, les disques de Détroit qui l’ont lancée, d’où vient le nom, Underground Resistance et la deuxième vague, l’alliance berlinoise et les styles qui remplissent aujourd’hui le mot, de la minimal à la hard techno.
-
 ## Qu’est-ce que la techno
 
 La techno est une musique de danse faite presque entièrement par des machines, pour qu’un DJ la joue dans un set continu. La grosse caisse tombe sur chaque temps, comme en house, mais la techno va en général plus vite, quelque part entre 120 et 150 battements par minute, et laisse de côté la plupart de ce que garde la house : la voix soul, le piano gospel, le sample disco.

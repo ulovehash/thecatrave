@@ -6,7 +6,7 @@ Die besten Clubs in Tokio sind WOMB und Contact, beide in Shibuya, gefolgt von V
 
 ## Einleitung
 
-Beim Clubbing in Tokio gibt es eine Tatsache, die fast jeder Besucher auf die harte Art lernt: Für den größten Teil der Nachkriegsgeschichte der Stadt wurde das Tanzen selbst wie ein Laster reguliert. Ein Gesetz von 1948 behandelte eine Tanzfläche wie einen Stripclub, und es blieb, mal mehr, mal weniger durchgesetzt, bis 2016 in Kraft. Tokios Clubs wuchsen nicht trotz dieses Gesetzes, sondern eher um es herum: in Kellern unter dem Love-Hotel-Hügel von Shibuya und in einem Lagerhaus am Wasser im aufgeschütteten Hafengebiet von Shin-Kiba. Dieser Guide behandelt die Clubs, die für House, Techno und Bass Music gebaut wurden, und nicht die Hostessen-Clubs und Mitgliederbars, die in Tokio ebenfalls „Club“ heißen, und er erklärt das Gesetz, das bestimmte, wo sie landeten.
+Beim Clubbing in Tokio gibt es eine Tatsache, die fast jeder Besucher auf die harte Art lernt: Für den größten Teil der Nachkriegsgeschichte der Stadt wurde das Tanzen selbst wie ein Laster reguliert. Ein Gesetz von 1948 behandelte eine Tanzfläche wie einen Stripclub, und es blieb, mal mehr, mal weniger durchgesetzt, bis 2016 in Kraft. Tokios Clubs wuchsen nicht trotz dieses Gesetzes, sondern eher um es herum: in Kellern unter dem Love-Hotel-Hügel von Shibuya und in einem Lagerhaus am Wasser im aufgeschütteten Hafengebiet von Shin-Kiba. Die Clubs hier sind die, die für House, Techno und Bass Music gebaut wurden, nicht die Hostessen-Clubs und Mitgliederbars, die in Tokio ebenfalls „Club“ heißen.
 
 ## Fünfzig Jahre eines Gesetzes gegen das Tanzen
 

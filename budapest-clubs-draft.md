@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Search for Budapest nightlife and what comes back first is ruin bars: shabby courtyard drinking dens built into condemned buildings, made famous by Szimpla Kert. That is a real and enormous scene, and it is mostly not a clubbing one, since most ruin bars are bars first, with a soundtrack rather than a dancefloor. This guide is about the smaller list of Budapest venues built or grown for house, techno and dancing until morning, several of which started life as ruin bars before the music took over.
+Search for Budapest nightlife and what comes back first is ruin bars: shabby courtyard drinking dens built into condemned buildings, made famous by Szimpla Kert. That is a real and enormous scene, and it is mostly not a clubbing one, since most ruin bars are bars first, with a soundtrack rather than a dancefloor. The venues here are the smaller list of Budapest rooms built or grown for house, techno and dancing until morning, several of which started life as ruin bars before the music took over.
 
 ## From ruin bars to clubs
 

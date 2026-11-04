@@ -2,11 +2,11 @@
 
 ## Answer
 
-The best clubbing cities in Europe are Berlin, Amsterdam, London, Ibiza and Barcelona, followed by Tbilisi, Prague, Budapest, Lisbon, Paris, Krakow and Belgrade. Berlin has Berghain and Tresor. Amsterdam has 24-hour licences, so its clubs run into the next afternoon. London has fabric. Ibiza has the biggest rooms in Europe, but only in summer. Tbilisi has Bassiani, in a disused swimming pool under the Dinamo Arena. This guide ranks the cities by their clubs, not by bars, beaches or stag weekends, and links each one to its own guide where there is one.
+The best clubbing cities in Europe are Berlin, Amsterdam, London, Ibiza and Barcelona, followed by Tbilisi, Prague, Budapest, Lisbon, Paris, Krakow and Belgrade. Berlin has Berghain and Tresor. Amsterdam has 24-hour licences, so its clubs run into the next afternoon. London has fabric. Ibiza has the biggest rooms in Europe, but only in summer. Tbilisi has Bassiani, in a disused swimming pool under the Dinamo Arena.
 
 ## Introduction
 
-Search for the best party cities in Europe and you get travel lists: Mykonos, Magaluf, Ayia Napa and Sunny Beach sit next to Berlin as if they were the same kind of night. A beach resort sells a holiday with a party attached, while a clubbing city has rooms that people fly to for one weekend and a scene that carries on when the tourists go home. This guide is about the second kind. It covers the best nightlife cities in Europe for someone who wants a club, a sound system and a line-up, and says where each city is strongest.
+Most lists of the best party cities in Europe are travel lists: Mykonos, Magaluf, Ayia Napa and Sunny Beach sit next to Berlin as if they were the same kind of night. A beach resort sells a holiday with a party attached, while a clubbing city has rooms that people fly to for one weekend and a scene that carries on when the tourists go home. The best nightlife cities in Europe, for someone who wants a club, a sound system and a line-up, are the second kind.
 
 ## The quick answer: how the cities compare
 

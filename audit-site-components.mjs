@@ -313,6 +313,14 @@ const checks = {
     !/<\/figure>\s*<aside class="(?:context-listening|floating-inset (?:spotify|soundcloud)-feature)/.test(page)
     && !/<\/aside>\s*<figure class="floating-image article-image/.test(page)
     && !/<\/figure>\s*<figure class="floating-image article-image/.test(page)),
+  // Every published .html is a page the build knows about. A stray copy
+  // ("breakbeat-guide copy.html") was served publicly for a month (defects.json,
+  // stray-breakbeat-guide-copy-published). The redirect stub and the map
+  // preview are the only files outside the manifest on purpose.
+  noStrayRootPages: ['.', 'de', 'fr', 'es'].every(dir => fs.readdirSync(dir).filter(file => file.endsWith('.html')).every(file => {
+    const path = dir === '.' ? file : `${dir}/${file}`;
+    return manifest.some(page => page.file.replace(/^\.\//, '') === path) || ['clubs-in-london.html', 'global-breakbeat-map-preview.html'].includes(path);
+  })),
   noBuildNotesLeaked: articlePages.every(page =>
     !/implementation note|licen[cs]ing note|prompt instruction|placeholder copy|final design should|the final page should|Self promotion second/i.test(page)),
   responsiveImageCss: articleCss.includes('.article-image img {') && articleCss.includes('height: auto;'),

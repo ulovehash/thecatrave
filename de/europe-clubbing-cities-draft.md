@@ -2,11 +2,11 @@
 
 ## Antwort
 
-Die besten Partystädte Europas zum Clubben sind Berlin, Amsterdam, London, Ibiza und Barcelona, danach Tiflis, Prag, Budapest, Lissabon, Paris, Krakau und Belgrad. Berlin hat Berghain und Tresor. Amsterdam hat 24-Stunden-Lizenzen, deshalb laufen seine Clubs bis in den nächsten Nachmittag. London hat das fabric. Ibiza hat die größten Clubs Europas, aber nur im Sommer. Tiflis hat das Bassiani, in einem stillgelegten Schwimmbecken unter der Dinamo Arena. Dieser Guide ordnet die Städte nach ihren Clubs, nicht nach Bars, Stränden oder Junggesellenabschieden, und verlinkt jede auf ihren eigenen Guide, wo es einen gibt.
+Die besten Partystädte Europas zum Clubben sind Berlin, Amsterdam, London, Ibiza und Barcelona, danach Tiflis, Prag, Budapest, Lissabon, Paris, Krakau und Belgrad. Berlin hat Berghain und Tresor. Amsterdam hat 24-Stunden-Lizenzen, deshalb laufen seine Clubs bis in den nächsten Nachmittag. London hat das fabric. Ibiza hat die größten Clubs Europas, aber nur im Sommer. Tiflis hat das Bassiani, in einem stillgelegten Schwimmbecken unter der Dinamo Arena.
 
 ## Einleitung
 
-Wer nach den besten Partystädten in Europa sucht, bekommt Reiselisten: Mykonos, Magaluf, Ayia Napa und der Sonnenstrand stehen neben Berlin, als wäre es dieselbe Art von Nacht. Ein Badeort verkauft einen Urlaub mit angehängter Party, eine Clubstadt hat Räume, für die Leute ein Wochenende lang anreisen, und eine Szene, die weiterläuft, wenn die Touristen weg sind. Dieser Guide handelt von der zweiten Art. Er zeigt die besten Städte zum Feiern in Europa für alle, die einen Club, eine Anlage und ein Line-up wollen, und sagt, wo jede Stadt am stärksten ist.
+Die meisten Listen der besten Partystädte in Europa sind Reiselisten: Mykonos, Magaluf, Ayia Napa und der Sonnenstrand stehen neben Berlin, als wäre es dieselbe Art von Nacht. Ein Badeort verkauft einen Urlaub mit angehängter Party, eine Clubstadt hat Räume, für die Leute ein Wochenende lang anreisen, und eine Szene, die weiterläuft, wenn die Touristen weg sind. Die besten Städte zum Feiern in Europa, für alle, die einen Club, eine Anlage und ein Line-up wollen, sind die zweite Art.
 
 ## Die schnelle Antwort: die Städte im Vergleich
 

@@ -8,7 +8,7 @@ Burning Man is a temporary city built every summer in the Black Rock Desert of n
 
 Most descriptions of Burning Man start with the photographs: the dust, the costumes, the art cars lit up at night. They are accurate and they miss the part that makes it strange. Burning Man is not a festival that happens to be in a desert. It is a city that exists for a week, run on its own rules.
 
-That is also why the music at Burning Man is so hard to describe from outside. Lee Burridge has played sunrise sets at Robot Heart for more than a decade, but he is not part of an event-wide festival bill. This guide covers what Burning Man is, where it happens, what people do there and what it costs, and then answers the question this site is here for: is it a music festival, and what do its sound camps actually play?
+That is also why the music at Burning Man is so hard to describe from outside. Lee Burridge has played sunrise sets at Robot Heart for more than a decade, but he is not part of an event-wide festival bill.
 
 ## Black Rock City
 

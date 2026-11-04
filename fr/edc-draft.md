@@ -8,7 +8,7 @@ EDC Las Vegas est le vaisseau amiral de l’Electric Daisy Carnival, un festival
 
 Qu’est-ce que le festival EDC Las Vegas, pour ceux qui n’y sont jamais allés ? Un festival sur un circuit automobile en plein désert, trois nuits durant, avec des manèges de fête foraine entre les scènes. Insomniac le présente comme le plus grand festival de dance music d’Amérique du Nord. En 2026, pour son 30e anniversaire, il réunissait plus de 450 artistes sur 18 espaces musicaux et art cars ; six scènes étaient aussi diffusées en direct sur la chaîne YouTube d’Insomniac.
 
-Ce guide explique où et quand il a lieu, quelle est sa taille réelle, comment une rave des débuts en Californie du Sud est devenue le vaisseau amiral d’une entreprise, et pourquoi il est devenu célèbre. Puis la question pour laquelle ce site existe : au-delà des feux d’artifice au-dessus de kineticFIELD, que joue vraiment l’Electric Daisy Carnival ? Une précision d’abord. EDC désigne ici le festival, pas l’everyday carry, le nom donné aux couteaux et lampes de poche que l’on garde dans sa poche.
+EDC désigne ici le festival, pas l’everyday carry, le nom donné aux couteaux et lampes de poche que l’on garde dans sa poche.
 
 ## Où a lieu EDC Las Vegas
 

@@ -115,5 +115,3 @@ Start with The Bells, Strings of Life and Energy Flash, then move to Phylyps Tra
 Try Energy Flash for its heavy bass, Spastik for its drum-machine workout, or The Bells for the record Jeff Mills kept returning to in his sets.
 
 ### What are the top 20 techno songs?
-
-This page lists nine, not twenty, so that each record gets its own reason and its own player.

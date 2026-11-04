@@ -6,7 +6,7 @@ Bass Music ist ein Sammelbegriff für mehrere Formen elektronischer Tanzmusik un
 
 ## Einleitung
 
-Wer nach Bass Music sucht, bekommt Ergebnisse, die in mehrere Richtungen zugleich ziehen. Die eine Hörerin meint Dubstep. Ein anderer spricht über Jungle, UK Garage oder Grime. In Miami hat der Ausdruck eine Geschichte, die an Electro, Hip-Hop, Autos und die Roland TR-808 gebunden ist. Auf dem amerikanischen Festivalkreislauf kann er Trap, Riddim, Glitch-Hop und andere schwere elektronische Stile abdecken. Diese Uneinigkeit ist Teil der Geschichte.
+Bass Music zieht in mehrere Richtungen zugleich. Die eine Hörerin meint Dubstep. Ein anderer spricht über Jungle, UK Garage oder Grime. In Miami hat der Ausdruck eine Geschichte, die an Electro, Hip-Hop, Autos und die Roland TR-808 gebunden ist. Auf dem amerikanischen Festivalkreislauf kann er Trap, Riddim, Glitch-Hop und andere schwere elektronische Stile abdecken. Diese Uneinigkeit ist Teil der Geschichte.
 
 Bass Music wurde gerade deshalb nützlich, weil DJs, Labels, Veranstalter und Hörer einen lockeren Namen für Platten brauchten, die immer wieder etablierte Grenzen überschritten. Diese Lockerheit macht den Begriff auch leicht zu missbrauchen. Der Weg hindurch besteht darin, den Szenen, Räumen und Systemen zu folgen, die dem Ausdruck unterschiedliche Bedeutungen gaben.
 

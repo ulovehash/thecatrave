@@ -10,8 +10,6 @@ House began with records nobody was making any more. By 1980 disco had been decl
 
 In Chicago that meant Frankie Knuckles at the Warehouse and Ron Hardy at the Music Box, cutting records together on reel-to-reel tape and running drum machines underneath them. By 1985 the people who went to those clubs were making their own tracks on cheap equipment, and a small city scene became a sound heard around the world within three years.
 
-This guide covers what house music is, where the name comes from, the first records, the New York and British branches, and the styles that grew out of it, from deep house to afro house.
-
 ## What is house music
 
 The shortest useful definition is a drum pattern. House puts the kick drum on every beat of the bar, which is what "four-on-the-floor" means, and plays hi-hats between the kicks and a clap or snare on the second and fourth beat. That pattern runs from the start of the track to the end, usually at somewhere between 118 and 128 beats per minute.

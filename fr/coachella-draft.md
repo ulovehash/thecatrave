@@ -8,7 +8,7 @@ Coachella, de son nom complet Coachella Valley Music and Arts Festival, se tient
 
 Coachella a commencé comme le pari d’un promoteur de Los Angeles qui perdait des groupes au profit de concurrents plus riches. Sa première édition a perdu 850 000 dollars, il a sauté l’année suivante, puis il est devenu l’un des festivals de musique les plus grands et les plus rentables du monde.
 
-Qu’est-ce que le festival Coachella pour quelqu’un qui n’y est jamais allé ? Ce guide explique quand a lieu Coachella 2027, où se trouve Coachella et combien de temps il dure, sa taille, qui l’a lancé et à qui il appartient, et pourquoi un festival sur un terrain de polo est devenu si célèbre. Puis il répond à la question pour laquelle ce site existe : quelle musique joue-t-on vraiment à Coachella ?
+Qu’est-ce que le festival Coachella pour quelqu’un qui n’y est jamais allé ? Deux week-ends d’avril sur un terrain de polo à Indio, en Californie, avec des têtes d’affiche rock, pop, hip-hop et latino à côté de la tente Sahara et de Quasar, qui portent une grande partie de la programmation électronique.
 
 ## Coachella 2027 : les dates
 

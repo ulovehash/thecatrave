@@ -20,7 +20,7 @@ Un festival figure dans la liste quand la musique électronique en est le cœur,
 
 ## Quels sont les plus grands festivals d’hiver ?
 
-Les plus grands festivals d’hiver sont ceux à grosse production et têtes d’affiche : Tomorrowland Winter et Snowbombing dans les Alpes, Igloofest à Montréal, Snow Machine à Hakuba et Nameless Winter dans les Alpes italiennes. Ce sont eux qu’il faut regarder si vous cherchez les meilleurs festivals d’hiver et voulez des noms que vous connaissez déjà.
+Les plus grands festivals d’hiver sont ceux à grosse production et têtes d’affiche : Tomorrowland Winter et Snowbombing dans les Alpes, Igloofest à Montréal, Snow Machine à Hakuba et Nameless Winter dans les Alpes italiennes.
 
 ### Tomorrowland Winter, Alpe d’Huez
 

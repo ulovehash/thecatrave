@@ -6,7 +6,7 @@ Printworks London is closed. The Rotherhithe venue held its last night on 1 May 
 
 ## Introduction
 
-Searches for Printworks, Printworks London or the reopening mostly come from people who want to know one thing: can I go there yet? The honest answer today is no. The venue is shut, the official site shows only a "new website coming soon" notice, and the plans are still moving through the planning system.
+Printworks London has not reopened, and the reopening has no date. The venue is shut, the official site shows only a "new website coming soon" notice, and the plans are still moving through the planning system.
 
 For rooms that are open now, see the [London clubs guide](/best-electronic-music-clubs-in-london) and the [fabric London guide](/fabric-london).
 
@@ -75,7 +75,7 @@ The comparison between Drumsheds London and Printworks stops at the operator, as
 | Planning | Temporary six-year consent | Temporary planning permission |
 | Status | Closed since 1 May 2023 | Open in January 2025, on modified licence terms |
 
-Both run on temporary permission, which is part of why neither is a permanent answer. The Guardian reported in January 2025 that it is the UK's largest nightclub and that Enfield Council held a licensing review after the Metropolitan Police cited drug-related incidents. It stayed open on modified terms. A search for Drumsheds Printworks usually wants one answer: one is open, the other is not.
+Both run on temporary permission, which is part of why neither is a permanent answer. The Guardian reported in January 2025 that it is the UK's largest nightclub and that Enfield Council held a licensing review after the Metropolitan Police cited drug-related incidents. It stayed open on modified terms. Of Drumsheds and Printworks, one is open and the other is not.
 
 ## Printworks London closed: where to go instead
 

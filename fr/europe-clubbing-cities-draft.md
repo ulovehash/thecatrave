@@ -2,11 +2,11 @@
 
 ## Réponse
 
-Les meilleures villes pour faire la fête en Europe, si l'on juge par les clubs, sont Berlin, Amsterdam, Londres, Ibiza et Barcelone, puis Tbilissi, Prague, Budapest, Lisbonne, Paris, Cracovie et Belgrade. Berlin a le Berghain et le Tresor. Amsterdam a des licences de 24 heures, donc ses clubs tournent jusqu'à l'après-midi suivant. Londres a fabric. Ibiza a les plus grandes boîtes d'Europe, mais seulement l'été. Tbilissi a le Bassiani, dans une piscine désaffectée sous la Dinamo Arena. Ce guide classe les villes selon leurs clubs, pas selon leurs bars, leurs plages ou leurs enterrements de vie de garçon, et renvoie chacune vers son propre guide quand il existe.
+Les meilleures villes pour faire la fête en Europe, si l'on juge par les clubs, sont Berlin, Amsterdam, Londres, Ibiza et Barcelone, puis Tbilissi, Prague, Budapest, Lisbonne, Paris, Cracovie et Belgrade. Berlin a le Berghain et le Tresor. Amsterdam a des licences de 24 heures, donc ses clubs tournent jusqu'à l'après-midi suivant. Londres a fabric. Ibiza a les plus grandes boîtes d'Europe, mais seulement l'été. Tbilissi a le Bassiani, dans une piscine désaffectée sous la Dinamo Arena.
 
 ## Introduction
 
-Cherchez où faire la fête en Europe et vous tomberez sur des listes de voyage : Mykonos, Magaluf, Ayia Napa et Sunny Beach à côté de Berlin, comme s'il s'agissait du même genre de nuit. Une station balnéaire vend des vacances avec une fête en prime, alors qu'une ville de clubs a des salles pour lesquelles on prend l'avion le temps d'un week-end, et une scène qui continue quand les touristes sont repartis. Ce guide parle de la seconde. Il présente les meilleures villes d'Europe pour sortir quand on veut un club, un système son et une programmation, et dit où chaque ville est la plus forte.
+La plupart des listes pour savoir où faire la fête en Europe sont des listes de voyage : Mykonos, Magaluf, Ayia Napa et Sunny Beach à côté de Berlin, comme s'il s'agissait du même genre de nuit. Une station balnéaire vend des vacances avec une fête en prime, alors qu'une ville de clubs a des salles pour lesquelles on prend l'avion le temps d'un week-end, et une scène qui continue quand les touristes sont repartis. Les meilleures villes d'Europe pour sortir, quand on veut un club, un système son et une programmation, sont de la seconde sorte.
 
 ## La réponse rapide : les villes comparées
 

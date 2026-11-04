@@ -6,9 +6,9 @@ Fusion Festival is a five-day arts and music festival held at a former Soviet mi
 
 ## Introduction
 
-Fusion is hard to search for, because three years of questions overlap. People look for Fusion Festival 2026 because it just happened, for Fusion Festival 2027 because they assume a summer date, and for Fusion Festival 2028 because the organisers announced a gap. The short answer is that 2027 has no festival.
+Three years overlap at Fusion. Fusion Festival 2026 has just happened, there is no Fusion Festival 2027, and Fusion Festival 2028 is the next edition, because the organisers announced a gap.
 
-This page covers what Fusion is, what happened in 2026, the 2027 gap and the 2028 dates, how the ticket lottery works, where Lärz is, how the police dispute of 2019 went, how big the festival is and how to get there. Fusion Fest in South Bend, Indiana, is a different event from the German festival. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
+Fusion Fest in South Bend, Indiana, is a different event from the German festival. For the wider German scene, see the [guide to German electronic music](/german-electronic-music).
 
 ## What is Fusion Festival?
 
