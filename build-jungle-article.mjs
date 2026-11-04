@@ -354,7 +354,7 @@ content = insertFeatureAfterParagraph(content, {
     videoId: 'gdQ4V245hG8',
     kicker: 'Archive listening',
     heading: 'DJ Hype, Jungle Massive.',
-    description: 'A period compilation, mixed as one continuous listen.'
+    description: 'A period compilation from DJ Hype, one of the pirate radio DJs who defined the jungle sound.'
   })
 });
 content = insertFeatureAfterParagraph(content, {
@@ -366,7 +366,7 @@ content = insertFeatureAfterParagraph(content, {
     videoId: '3QMiCBJ7yRM',
     kicker: 'Essential track',
     heading: 'Shy FX & UK Apachi, Original Nuttah.',
-    description: 'The 1994 crossover anthem.'
+    description: 'The 1994 crossover anthem that stormed clubs and charts alike.'
   })
 });
 content = insertFeatureAfterParagraph(content, {
