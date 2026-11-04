@@ -101,7 +101,7 @@ export default {
     'Embed: Energy Flash': video(lang, 'BDj73pGQ6pE', 'Techno, 1990', 'Joey Beltram', 'Energy Flash',
       'El disco del productor neoyorquino para el sello belga R&S, de 1990.'),
     'Embed: Sara Landry Boiler Room': video(lang, 'EIQlDpgAY5Y', 'Hard techno', 'Sara Landry', 'Boiler Room x Teletech Festival, 2023',
-      'La sesión más vista con la etiqueta hard techno en el catálogo de sesiones de DJ grabadas de este sitio.'),
+      'La sesión más vista con la etiqueta hard techno.'),
     'Embed: Kevin Saunderson Boiler Room': video(lang, 'gvvb-SNL9tM', 'Techno', 'Kevin Saunderson', 'DJ set, Boiler Room Chicago, 2014',
       'Kevin Saunderson pincha para Boiler Room en Chicago.'),
     'thecatrave mix': ownSetListening(1, lang, 'Mi propia mezcla, para después de la historia.'),

@@ -217,7 +217,7 @@ const subgenreRows = [
 const subgenreListening = articleListeningCollection({
   id: 'subgenre-listening', tone: 'cyan',
   title: 'Two of the branches.',
-  description: 'The melodic side and the machine side of the table above, so the terms have a sound attached.',
+  description: 'The melodic side and the machine side: liquid and neurofunk.',
   items: listeningItems([
     {year: '2000', artist: 'Calibre', title: 'Mystic', youtube: 'yenh56lBQoU',
       note: 'Liquid: rolling, warm, soulful, and the version of drum and bass that travelled furthest.'},

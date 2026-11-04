@@ -185,7 +185,7 @@ const builtListening = articleListeningCollection({
 const rinseListening = articleListeningCollection({
   id: 'rinse-listening', tone: 'cyan',
   title: 'The station, not the basement.',
-  description: 'Two of the DJs this section names, on the pirate station that carried the sound out of south London, in a show from our own catalogue rather than an archive clip.',
+  description: 'Two of the DJs this section names, on the pirate station that carried the sound out of south London.',
   items: listeningItems([
     {year: 'Rinse FM', artist: 'Plastician, Hatcha and Crazy D', title: 'I LOVE: DUBSTEP', youtube: 'S1s2XvfHfhU',
       note: 'Hatcha used Rinse through 2003 to push the sound past the records; Plastician was running Filthy Dub at the same time. The station is how anyone outside those rooms heard either of them.'}
@@ -239,7 +239,7 @@ const berlinListening = articleListeningCollection({
 const subgenreListening = articleListeningCollection({
   id: 'subgenre-listening', tone: 'cyan',
   title: 'Two of the later branches.',
-  description: 'Two of the later branches, so the table above has a sound attached to it rather than only a definition.',
+  description: 'Two of the later branches: riddim and melodic dubstep.',
   items: listeningItems([
     {year: 'Riddim', artist: 'Bommer and Crowell', title: 'Yasuo', youtube: 'fP2O6JcnJJI',
       note: 'Riddim: minimal, repetitive and triplet based, descended from brostep rather than from the original sound.'},

@@ -154,7 +154,7 @@ export default {
     }),
     'subgenre-listening': collection(lang, 'subgenre-listening',
       'Deux des branches.',
-      'Le côté mélodique et le côté mécanique du tableau ci-dessus, pour que les termes aient un son.',
+      'Le côté mélodique et le côté mécanique : la liquid et la neurofunk.',
       [{year: '2000', artist: 'Calibre', title: 'Mystic', youtube: 'yenh56lBQoU',
         note: 'Le liquid : roulant, chaud, soul, et la version de la drum and bass qui a voyagé le plus loin.'},
        {year: '2010', artist: 'Noisia', title: 'Machine Gun', spotify: '6s9XbbtulHcMwMDzsyoEO7',
