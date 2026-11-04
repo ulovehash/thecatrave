@@ -75,7 +75,7 @@ DWP 2026 vuelve a Yakarta, al JIExpo Kemayoran, del 11 al 13 de diciembre. Los p
 
 ## Ultra Korea, Seúl
 
-Ultra Korea es la edición de Seúl de Ultra. Su web oficial lista el 20 de septiembre de 2025 en el Oil Tank Culture Park de Seúl como su última edición, con las tres fases de entradas agotadas y entradas en puerta a 160.000 won. No lista ninguna edición de 2026 ni de 2027, así que esta página no puede dar una fecha, y se mantiene aquí porque la gente sigue buscándolo y su estado no es evidente.
+Ultra Korea es la edición de Seúl de Ultra. Su web oficial lista el 20 de septiembre de 2025 en el Oil Tank Culture Park de Seúl como su última edición, con las tres fases de entradas agotadas y entradas en puerta a 160.000 won. No lista ninguna edición de 2026 ni de 2027.
 
 [Image: ultra-korea-photo]
 

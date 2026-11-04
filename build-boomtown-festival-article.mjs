@@ -56,7 +56,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own multi-genre mix follows the same open route between bass music, techno and rave, without pretending to stand in for Boomtown’s programme.', 'For the hours after the city closes: my own set moving through techno, breaks and bass music.'],
+  ownSetCopy:['My own multi-genre mix, between bass music, techno and rave.', 'For the hours after the city closes: my own set moving through techno, breaks and bass music.'],
   bandcampCopy:'Boomtown’s programme moves across scenes rather than one genre. These thecatrave releases connect to its electronic side, and buying one supports the music and writing directly.',
   sources:[
     {label:'Boomtown: official 2027 dates and chapter',url:'https://www.boomtownfair.co.uk/'},

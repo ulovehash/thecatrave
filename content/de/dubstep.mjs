@@ -194,7 +194,7 @@ export default {
       id: 'dubstep-classics-playlist',
       kicker: t(lang).essentialListening,
       title: 'Dubstep Classics: die erweiterte Playlist.',
-      description: 'Ein breiterer Weg durch die Platten, die die meisten meinen, wenn sie Dubstep sagen, mit Gewicht auf der lauteren Seite, die die Tabelle oben zu sortieren versucht.',
+      description: 'Die Platten, die die meisten meinen, wenn sie Dubstep sagen, mit Gewicht auf der lauteren Seite.',
       src: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX4arVIN5Cg4U?utm_source=generator',
       iframeTitle: 'Playlist Dubstep Classics auf Spotify',
       fullBleed: true,

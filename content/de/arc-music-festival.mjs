@@ -61,8 +61,8 @@ export default {
       'Frankie Knuckles Way markiert den Block neben dem ehemaligen Warehouse. ARC greift diese Geschichte auf, indem Chicagoer Künstler neben aktuellen internationalen Headlinern gebucht werden. Foto: Sarah Stierch, CC BY 4.0.'),
     'Union Park': articleFigure({src: 'img/arc-music-festival/arc-union-park-1200.webp', srcset: 'img/arc-music-festival/arc-union-park-320.webp 320w, img/arc-music-festival/arc-union-park-1200.webp 1024w', width: 1024, height: 768, alt: 'Der Union Park in Chicago mit der Skyline der Innenstadt dahinter', caption: 'Der Union Park ist kompakt und nah an der CTA. Seine begrenzte Fläche rückt außerdem mehrere Festival-Soundsysteme nah zusammen. Foto: soundfromwayout, CC BY 2.0.', className: 'wide-archive-image'}),
     'ARC sets': articleVideoCollection({lang, label: 'ARC-Sets', description: 'Boys Noize b2b VTSS bei ARC für Mixmag Lab und Nicole Moudaber bei der Ausgabe 2025. Das sind die meistgesehenen Sets von ARC, die ich auf YouTube gefunden habe.', items: [articleVideoCard({youtubeId: '_jysvzxpb0Q', genre: 'MIXMAG LAB x ARC', artist: 'Boys Noize b2b VTSS', title: 'Mixmag Lab x ARC Music Festival'}), articleVideoCard({youtubeId: '6g7HHRV0HSE', genre: 'ARC, 2025', artist: 'Nicole Moudaber', title: 'ARC Music Festival Chicago 2025'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres folgt ARCs clubnaher Route durch House, Techno und härtere Wendungen, ohne das Line-up einer bestimmten Ausgabe nachzubilden.'),
-    'thecatrave mix 2': ownSetListening(1, lang, 'Für den Weg vom Union Park in die Nacht: mein eigenes Set zwischen Techno, Breaks und Bass Music als persönliche After-Hours-Route.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres, durch House, Techno und härtere Wendungen.'),
+    'thecatrave mix 2': ownSetListening(1, lang, 'Für den Weg vom Union Park in die Nacht: mein eigenes Set zwischen Techno, Breaks und Bass Music.'),
     'Tabelle: Facts': articleTable({
       headers: ['Thema', 'Stand'],
       rows: [

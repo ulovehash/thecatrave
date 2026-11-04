@@ -62,7 +62,7 @@ export default {
     'Movement 2026': figure('movement-hart-plaza-2026', 1280, 655, 'Le Movement Music Festival remplit Hart Plaza à Détroit pendant l’édition 2026',
       'Movement à Hart Plaza le 25 mai 2026, photographié de l’autre côté de la rivière Detroit. Le festival reste sur le site du centre-ville où le DEMF a commencé en 2000. Photo : Chris Woodrich, CC BY-SA 4.0.'),
     'DEMF in 2002': articleVideoCollection({lang, label: 'DEMF en 2002', description: 'Images de la Detroit Historical Society prises avant que le nom actuel ne se fixe : Juan Atkins sur la scène principale, puis un reportage avec Eddie Fowlkes et K-Hand.', items: [articleVideoCard({youtubeId: 'GTF4S78VTPw', genre: 'ARCHIVES DEMF, 2002', artist: 'Juan Atkins', title: 'Set du samedi sur la scène principale'}), articleVideoCard({youtubeId: '2mc8AkXYBdc', genre: 'ARCHIVES DEMF, 2002', artist: 'Eddie Fowlkes et K-Hand', title: 'Reportage de la Detroit Historical Society sur le festival'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Trente morceaux entre garage, bass music, techno et rave. Mon propre mix, placé ici comme un chemin au-delà des archives.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Trente morceaux entre garage, bass music, techno et rave. Mon propre mix.'),
     'thecatrave mix 2': ownSetListening(1, lang, 'Breaks et techno pour les heures après le festival. Mon propre mix.'),
     'Table: Stages': articleTable({
       headers: ['Scène', 'Cadre', 'Rôle dans la programmation'],

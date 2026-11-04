@@ -72,7 +72,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Coachella18W1-18': figure('grounds-2018', 1200, 677,
       'Festivalbesucher auf der Wiese von Coachella 2018, dahinter Palmen und ein hoher Turm aus farbigen Platten, am Horizont Wüstenberge und das Riesenrad',
       'Das Festivalgelände im April 2018: Palmen, Wüstenberge, ein farbiger Turm und das Riesenrad. Foto: Raph_PH, CC BY 2.0.'),

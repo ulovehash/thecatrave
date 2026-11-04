@@ -66,7 +66,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every German festival guide
     // (owner, 2026-09-21: Berlin Race 1909 on the German pages).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'EDC2024 Overview': figure('overview-2024', 1200, 521,
       'Ein weiter Blick über das Gelände von EDC Las Vegas bei Nacht, Bühnen und Fahrgeschäfte beleuchtet im Inneren des Speedways',
       'Das Festivalgelände im Las Vegas Motor Speedway 2024: Bühnen, Fahrgeschäfte und Kunst über den Innenraum verteilt. Foto: Eric Polk, CC BY-SA 4.0.'),

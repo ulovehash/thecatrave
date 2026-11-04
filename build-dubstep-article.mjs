@@ -263,7 +263,7 @@ const dubstepClassics = articleListeningBand({
   id: 'dubstep-classics-playlist',
   kicker: 'Essential listening',
   title: 'Dubstep classics: extended playlist.',
-  description: 'A wider route through the records most people mean when they say dubstep, weighted towards the louder side the table above tries to sort out.',
+  description: 'The records most people mean when they say dubstep, weighted towards the louder side.',
   src: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX4arVIN5Cg4U?utm_source=generator',
   iframeTitle: 'Dubstep Classics playlist on Spotify',
   fullBleed: true,

@@ -67,7 +67,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text: Berlin Race 1909, as on the
     // German pages.
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Lejos de los grandes escenarios: percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
     'Retreat to Dreamville': figure('dreamville-2014', 1200, 795,
       'Tiendas de campaña y asistentes en DreamVille, el camping de Tomorrowland, en 2014',
       'DreamVille, el camping de Tomorrowland, en 2014. Sus paquetes se venden junto con la entrada del festival. Foto: sergejf, CC BY 2.0.'),

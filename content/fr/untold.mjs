@@ -69,7 +69,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Cluj-Napoca Cluj Arena 1': figure('cluj-arena', 1200, 799,
       'L’intérieur de la Cluj Arena, un stade de football ovale au toit incurvé au-dessus de sièges gris, d’une pelouse verte et d’une piste, sous un ciel bleu',
       'La Cluj Arena, le stade de football de 30 355 places qui accueille la scène principale d’Untold, un jour ordinaire de septembre 2014. Photo : Валерий Дед, CC BY 3.0.'),

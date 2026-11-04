@@ -63,7 +63,7 @@ export default {
 
   media: ({lang}) => ({
     // The owner's own track inside the text, as on the other festival guides.
-    'thecatrave Look': ownTrackListening('look', 'Lejos de los grandes escenarios: future bass, glitch y breakbeat. Mi propio tema.', lang),
+    'thecatrave Look': ownTrackListening('look', 'Future bass, glitch y breakbeat. Mi propio tema.', lang),
     'Farm track skirts Creamfields site': figure('daresbury-site-2014', 1024, 768,
       'Un camino agrícola junto a una valla verde en el borde del recinto de Creamfields cerca de Daresbury, con campos y árboles al fondo',
       'El borde del recinto de Creamfields cerca de Outer Wood, en Daresbury, tres días después del festival de 2014. Foto: Raymond Knapman, CC BY-SA 2.0.'),

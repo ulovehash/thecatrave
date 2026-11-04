@@ -84,7 +84,7 @@ It is the best example of the room becoming part of the set. A dubstep producer 
 
 PARTYGIRL, Charli xcx's first Boiler Room, was held in a warehouse at 99 Scott Avenue in Brooklyn on 22 February 2024. It drew more than 25,000 RSVPs, the most in Boiler Room's history.
 
-This is the Charli XCX Boiler Room set most people mean, though there were two: PARTYGIRL Ibiza followed at Amnesia in July. The Brooklyn video has 8.96 million views and 23.9 likes per thousand, second only to the Tokyo set among Boiler Room sets past eight million. It is here because it is the clearest case of a pop star using the format to DJ rather than to perform, and because of that RSVP count.
+This is the Charli XCX Boiler Room set most people mean, though there were two: PARTYGIRL Ibiza followed at Amnesia in July. The Brooklyn video has 8.96 million views and 23.9 likes per thousand, second only to the Tokyo set among Boiler Room sets past eight million. It is the clearest case of a pop star using the format to DJ rather than to perform.
 
 ### #9 Chase & Status, London 2023
 
@@ -108,7 +108,7 @@ It has 9.05 million views, and it is this list's case for the set that works wit
 
 Jaar played in April 2013 at a takeover by his label Clown & Sunset with Red Bull Music Academy. Forty-six minutes, and the slowest set on this list.
 
-It has 9.09 million views, a lot for music this far from a peak-time club. It is here as proof that the format does not need a drop.
+It has 9.09 million views, a lot for music this far from a peak-time club. It shows that the format does not need a drop.
 
 ### #13 PinkPantheress, London 2022
 

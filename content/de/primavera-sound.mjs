@@ -72,7 +72,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Primavera stage crowd': figure('festival-crowd', 1200, 800,
       'Festivalbesucher am Wasser bei Primavera Sound Barcelona 2019 unter klarem blauem Himmel',
       `Das Publikum bei Primavera Sound Barcelona 2019, ringsum das offene Gelände am Wasser. Foto: John Lubbock, CC BY-SA 4.0. ${commonsLink('Primavera stage crowd.jpg')}`,

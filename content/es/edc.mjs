@@ -59,7 +59,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Lejos de los grandes escenarios: la voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
     'EDC2024 Overview': figure('overview-2024', 1200, 521,
       'Una vista amplia del recinto de EDC Las Vegas de noche, con escenarios y atracciones iluminados dentro del speedway',
       'El recinto del festival en el Las Vegas Motor Speedway en 2024: escenarios, atracciones y obras repartidos por el césped central. Foto: Eric Polk, CC BY-SA 4.0.'),

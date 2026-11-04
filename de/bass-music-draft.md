@@ -100,7 +100,7 @@ Los Angeles entwickelte ein anderes Netzwerk. Ende der 1990er und Anfang der 200
 
 Als britischer Dubstep um 2009 und 2010 ein größeres nordamerikanisches Publikum erreichte, betrat er dieses bestehende Terrain. Los Angeles und die Westküste bewahrten den Sound aus Croydon nicht einfach. Produzenten und Festivals verbanden ihn mit Hip-Hop, Glitch, Psychedelia, der Dynamik des Metal und den Erwartungen großer Bühnen. [Der Bericht von Mixmag über die Szene an der Westküste](https://mixmag.net/feature/a-trip-through-the-u-s-west-coast-bass-scene) ist dort am stärksten, wo Beteiligte Bass als körperliche und gemeinschaftliche Erfahrung beschreiben, nicht dort, wo er die Szene von einer einzigen Quelle ableiten will.
 
-Das ist keine Ursprungsplatte. Sie gehört hierher, weil sie den Maßstab veränderte. Ihr Design in den Mitten, ihre scharfen Kontraste und ihr Crossover-Erfolg halfen festzulegen, was viele nordamerikanische Hörer von Dubstep und damit von Bass Music erwarteten.
+Das ist keine Ursprungsplatte, aber sie veränderte den Maßstab. Ihr Design in den Mitten, ihre scharfen Kontraste und ihr Crossover-Erfolg halfen festzulegen, was viele nordamerikanische Hörer von Dubstep und damit von Bass Music erwarteten.
 
 Die Verwendung auf Festivals erweiterte die Kategorie noch einmal. Dubstep, Riddim, elektronischer Trap, Glitch-Hop, Future Bass, Melodic Bass und Bass House konnten unter derselben kommerziellen Überschrift erscheinen, auch wenn ihre Geschichten verschieden waren. In diesem Zusammenhang beschreibt Bass Music oft ebenso sehr ein Publikum und einen Veranstaltungskreislauf wie die musikalische Bauweise.
 
@@ -180,7 +180,7 @@ Die Werkzeuge änderten sich, aber die Grundfrage blieb: Wer darf eine Platte sp
 
 ## Künstler und Platten der Bass Music, die die Kultur veränderten
 
-Das ist keine Ruhmeshalle. Jede Platte steht hier, weil sie die Definition verändert, nicht weil sie bloß ein beliebtes Subgenre vertritt.
+Das ist keine Ruhmeshalle. Jede Platte hat die Definition verändert, statt bloß ein beliebtes Subgenre zu vertreten.
 
 [Tabelle: Platten]
 

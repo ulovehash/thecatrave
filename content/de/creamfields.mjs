@@ -66,7 +66,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every German festival guide
     // (owner, 2026-09-21: Berlin Race 1909 on the German pages).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Farm track skirts Creamfields site': figure('daresbury-site-2014', 1024, 768,
       'Ein Feldweg neben grünem Bauzaun am Rand des Creamfields-Geländes bei Daresbury, dahinter Felder und Bäume',
       'Der Rand des Creamfields-Geländes bei Outer Wood, Daresbury, drei Tage nach dem Festival 2014. Foto: Raymond Knapman, CC BY-SA 2.0.'),

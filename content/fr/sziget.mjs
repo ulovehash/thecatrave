@@ -91,7 +91,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Table: Faits': articleTable({
       headers: ['Fait', 'Information actuelle'],
       rows: [

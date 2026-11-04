@@ -106,7 +106,7 @@ export default {
       description: 'Dusky en direct au CRSSD Fest à l’automne 2018, filmé par Mixmag. La house et la techno pour lesquelles le festival est connu.',
       items: [articleVideoCard({youtubeId: '4gqM7WMrGEw', genre: 'CRSSD, 2018', artist: 'Dusky', title: 'En direct au CRSSD Fest'})]
     }),
-    'own-track': ownTrackListening('late-summer-cloud-dance', 'Un morceau à moi, à écouter entre deux festivals.', lang),
+    'own-track': ownTrackListening('late-summer-cloud-dance', 'Mon propre morceau court de liquid breakbeat.', lang),
     'first-mix': ownSetListening(0, lang),
     'second-mix': ownSetListening(1, lang)
   }),

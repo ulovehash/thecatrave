@@ -71,7 +71,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text: Berlin Race 1909, as on the
     // German pages and the Spanish Tomorrowland guide.
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Lejos de los grandes escenarios: percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
     'SonarVillage at Fira Montjuïc': figure('sonar-by-day-2016', 1200, 801,
       'Una multitud llena el escenario al aire libre SonarVillage en Fira Montjuïc bajo el sol de la tarde, con el Palau Nacional y su cúpula en la colina de detrás',
       'SonarVillage en Fira Montjuïc durante Sónar by Day en junio de 2016, bajo el Palau Nacional. El programa de día dejó este recinto en 2026. Foto: Nachetere, CC BY-SA 4.0.'),

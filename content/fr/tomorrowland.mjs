@@ -67,7 +67,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Retreat to Dreamville': figure('dreamville-2014', 1200, 795,
       'Des tentes et des festivaliers à DreamVille, le camping de Tomorrowland, en 2014',
       'DreamVille, le camping de Tomorrowland, en 2014. Ses formules se vendent avec le billet du festival. Photo : sergejf, CC BY 2.0.'),

@@ -52,7 +52,7 @@ const text = {
     ['artist A', 'artiste A'], ['artist B', 'artiste B'], ['artist C', 'artiste C'], ['their labels', 'leurs labels'],
     ['and every label is another', 'et chaque label est un autre'], ['catalogue somebody else', 'catalogue que quelqu’un d’autre'], ['already filtered for you.', 'a déjà filtré pour vous.']
   ],
-  own: 'Un producteur à suivre, puisque vous êtes déjà là : glitch, IDM et ambient. Mon propre morceau.',
+  own: 'Glitch, IDM et ambient. Mon propre morceau.',
   shop: {
     alt: 'L’intérieur d’un magasin de disques d’occasion, avec des bacs de vinyles sur les deux murs',
     caption: 'Un magasin est un filtre entretenu à la main, comme un bon label. Photo : Chicken4War, CC BY-SA 4.0, via Wikimedia Commons.'

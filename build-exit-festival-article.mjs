@@ -51,7 +51,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own multi-genre mix belongs after the fortress history as a personal route through techno, breaks and bass music, not a reconstruction of the Dance Arena.', 'For the current, location-by-location EXIT era: my own set offers one electronic route while each official event keeps its own programme.'],
+  ownSetCopy:['My own multi-genre mix, through techno, breaks and bass music.', 'My own set, through breaks, garage, dubstep, grime and techno.'],
   bandcampCopy:'EXIT’s fortress programme crossed rock, hip-hop and club music. These thecatrave releases connect to its electronic side, and buying one supports the music and this independent writing.',
   sources:[
     {label:'EXIT: official history and founding account',url:'https://www.exitfest.org/en/about-us'},

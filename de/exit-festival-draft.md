@@ -42,7 +42,7 @@ EXIT war ein Festival für viele Genres. Seine Hauptbühnen buchten Headliner au
 
 [Embed: Keinemusik and Nina Kraviz]
 
-Die Aufnahmen von Keinemusik 2023 und Nina Kraviz 2016 gehören auf EXITs eigenem Kanal zu den meistgesehenen aus der Dance Arena. Sie stehen hier als Beleg für das Festungsformat, nicht als Versprechen über Sound oder Kulisse jeder künftigen von EXIT produzierten Veranstaltung.
+Die Aufnahmen von Keinemusik 2023 und Nina Kraviz 2016 gehören auf EXITs eigenem Kanal zu den meistgesehenen aus der Dance Arena. Sie zeigen das Festungsformat, versprechen aber nichts über Sound oder Kulisse künftiger von EXIT produzierter Veranstaltungen.
 
 ## EXIT als Festivalnetzwerk
 

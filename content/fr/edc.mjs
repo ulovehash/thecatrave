@@ -66,7 +66,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every French festival guide
     // (owner, 2026-09-21: Dégénération on the French pages).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'EDC2024 Overview': figure('overview-2024', 1200, 521,
       'Une vue large du site d’EDC Las Vegas de nuit, scènes et manèges éclairés à l’intérieur du speedway',
       'Le site du festival dans le Las Vegas Motor Speedway en 2024 : scènes, manèges et œuvres répartis sur la pelouse centrale. Photo : Eric Polk, CC BY-SA 4.0.'),

@@ -55,7 +55,7 @@ export function buildRoundup({file, path, draftFile, title, description, date, d
     playlist: ownPlaylistListening('rare-electronic-music'),
     'first-mix': ownSetListening(0),
     'second-mix': ownSetListening(1),
-    track: ownTrackListening('late-summer-cloud-dance', 'A track of mine, to listen to between festivals.'),
+    track: ownTrackListening('late-summer-cloud-dance', 'My own short liquid-breakbeat track.'),
     ...media
   };
 

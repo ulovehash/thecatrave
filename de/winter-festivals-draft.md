@@ -78,7 +78,7 @@ Shapes feiert sein Festival im Schweizer Skiort Leysin, und die eigene Seite nen
 
 ## Welche Winterfestivals empfiehlt die Fachpresse?
 
-CTM, Elevate, Rise und Astropolis l'Hiver sind die, über die die Fachpresse berichtet und die Suchwerkzeuge kaum messen. In einer Liste der besten Winterfestivals nach Suchvolumen findest du sie nicht. Sie stehen hier, weil die Musikpresse immer wieder auf sie zurückkommt.
+CTM, Elevate, Rise und Astropolis l'Hiver sind die, über die die Fachpresse berichtet und die Suchwerkzeuge kaum messen. In einer Liste der besten Winterfestivals nach Suchvolumen findest du sie nicht. Die Musikpresse kommt immer wieder auf sie zurück.
 
 ### CTM, Berlin
 

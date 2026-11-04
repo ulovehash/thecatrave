@@ -60,7 +60,7 @@ export default {
 
   media: ({lang}) => ({
     // The owner's own music inside the text: Look on the Spanish pages (no Mylène Farmer remix).
-    'thecatrave look': ownTrackListening('look', 'Lejos de los grandes escenarios: future bass, glitch y breakbeat. Mi propio tema.', lang),
+    'thecatrave look': ownTrackListening('look', 'Future bass, glitch y breakbeat. Mi propio tema.', lang),
     'Parookaville stage construction': figure('stage-build-2016', 1200, 752,
       'Una fachada de escenario hecha de falsas casas de ciudad con andamios y una chimenea roja y blanca, delante de grúas y carretillas elevadoras, en el recinto de Parookaville en 2016',
       'Un escenario de Parookaville en construcción en el aeródromo en julio de 2016, segundo año del festival: falsas casas de ciudad, chimenea y andamios. Foto: Tama66, CC0.'),

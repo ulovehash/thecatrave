@@ -53,8 +53,8 @@ export default {
   media: ({lang}) => ({
     'Fortress': figure('exit-fortress', 800, 509, 'Die beleuchtete Festung Petrovaradin während des EXIT Festivals', 'Die Festung Petrovaradin während EXIT. Mauern, Tore und Graben prägten, wie das Festival in Novi Sad von 2001 bis 2025 funktionierte. Foto: EXIT photo team, CC BY-SA 3.0.'),
     'Crowd': figure('exit-crowd', 1200, 784, 'Dichtes Publikum in der Festung Petrovaradin beim EXIT Festival 2015', 'Ein Publikum in der Festung Petrovaradin 2015. EXITs Bühnen standen auf einem historischen Gelände im Betrieb statt auf einem eigens gebauten Festivalfeld. Foto: Jelena Ivanovic, EXIT photo team, CC BY-SA 3.0.'),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres als persönliche Route durch Techno, Breaks und Bass Music, keine Rekonstruktion der Dance Arena.'),
-    'thecatrave mix 2': ownSetListening(1, lang, 'Für die heutige EXIT-Zeit von Ort zu Ort: eine elektronische Route, während jede offizielle Veranstaltung ihr eigenes Programm behält.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres, durch Techno, Breaks und Bass Music.'),
+    'thecatrave mix 2': ownSetListening(1, lang, 'Mein eigenes Set, durch Breaks, Garage, Dubstep, Grime und Techno.'),
     'Keinemusik and Nina Kraviz': articleVideoCollection({
       lang,
       label: 'Zwei Dance-Arena-Sets von EXITs Kanal',

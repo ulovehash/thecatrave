@@ -71,7 +71,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Lejos de los grandes escenarios: la voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
     'Primavera stage crowd': figure('festival-crowd', 1200, 800,
       'Asistentes junto al agua en Primavera Sound Barcelona en 2019, bajo un cielo azul despejado',
       `El público de Primavera Sound Barcelona en 2019, con el recinto abierto al agua alrededor. Foto: John Lubbock, CC BY-SA 4.0. ${commonsLink('Primavera stage crowd.jpg')}`,

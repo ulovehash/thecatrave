@@ -78,7 +78,7 @@ Shapes celebra su festival en la estación suiza de Leysin, y su propia web da d
 
 ## ¿Qué festivales de invierno recomienda la prensa musical especializada?
 
-CTM, Elevate, Rise y Astropolis l'Hiver son los que cubre la prensa especializada y que las herramientas de búsqueda apenas miden. No los verás en una lista de los mejores festivales de invierno por volumen. Están aquí porque la prensa musical vuelve a ellos una y otra vez.
+CTM, Elevate, Rise y Astropolis l'Hiver son los que cubre la prensa especializada y que las herramientas de búsqueda apenas miden. No los verás en una lista de los mejores festivales de invierno por volumen. La prensa musical vuelve a ellos una y otra vez.
 
 ### CTM, Berlín
 

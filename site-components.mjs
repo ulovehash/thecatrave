@@ -113,13 +113,13 @@ export function nowPlayingBanner({title, meta, href, lang = defaultLang, linkLab
 // 2026-09-13: "нужно рекламировать оба", then "в виде ск эмбедов").
 export const ownSets = [
   {slug: 'i-like-to-smoke-in-silence-after-raves', title: 'I Like to Smoke in Silence After Raves',
-    description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set, for a break from the festival.',
+    description: 'Thirty tracks where breaks move between garage, bass music, techno and rave. My own set.',
     de: {suffix: 'ein DJ-Mix.',
-      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigenes Set, für eine Pause vom Festival.'},
+      description: 'Dreißig Tracks, in denen sich die Breaks zwischen Garage, Bass Music, Techno und Rave bewegen. Mein eigenes Set.'},
     fr: {suffix: 'un DJ mix.',
-      description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set, pour faire une pause dans le festival.'},
+      description: 'Trente morceaux où les breaks circulent entre garage, bass music, techno et rave. Mon propre set.'},
     es: {suffix: 'un DJ mix.',
-      description: 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión, para descansar del festival.'}},
+      description: 'Treinta temas en los que los breaks se mueven entre garage, bass music, techno y rave. Mi propia sesión.'}},
   {
   "slug": "i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more",
   "title": "I lost so many weekends raving and I wanna lose some more",
@@ -193,40 +193,40 @@ function hasOwnMusicPlayer(html) {
 
 const automaticMusicCopy = {
   en: {
-    berlin: 'My own track: broken drums with dub-techno echo and space. It is the closest match to the techno and German electronic music discussed on this page.',
-    breaks: 'My own progressive-breaks track at 128 BPM. It sits here because this page deals directly with breakbeats, rave rhythm or the music around them.',
-    bass: 'My own track at 140 BPM, between future bass, glitch and breakbeat. It is the closest match to the bass-heavy music discussed on this page.',
-    jungle: 'My own short liquid-breakbeat track. It sits here as a contemporary route from the jungle and drum and bass history discussed on this page.',
-    crossGenre: 'My own track between glitch, IDM and ambient. It fits here because this page crosses scenes instead of staying inside one genre.',
-    emotional: 'A playlist I curate around melodic electronic music with weight. It offers an early listening route from the more emotional side of this subject.',
-    rare: 'A playlist I curate across house, techno, breaks and rave. It is the record bag behind thecatrave, placed here after the article’s main answer.'
+    berlin: 'My own track: broken drums with dub-techno echo and space.',
+    breaks: 'My own progressive-breaks track at 128 BPM.',
+    bass: 'My own track at 140 BPM, between future bass, glitch and breakbeat.',
+    jungle: 'My own short liquid-breakbeat track.',
+    crossGenre: 'My own track between glitch, IDM and ambient.',
+    emotional: 'A playlist I curate around melodic electronic music with weight.',
+    rare: 'A playlist I curate across house, techno, breaks and rave. It is the record bag behind thecatrave.'
   },
   de: {
-    berlin: 'Mein eigener Track: gebrochene Drums mit Dub-Techno-Echo und Raum. Er passt am ehesten zu der Techno- und deutschen Elektronikgeschichte auf dieser Seite.',
-    breaks: 'Mein eigener Progressive-Breaks-Track bei 128 BPM. Er steht hier, weil diese Seite direkt von Breakbeats, Rave-Rhythmus oder angrenzender Musik handelt.',
-    bass: 'Mein eigener Track bei 140 BPM zwischen Future Bass, Glitch und Breakbeat. Er passt am ehesten zur basslastigen Musik auf dieser Seite.',
-    jungle: 'Mein eigener kurzer Liquid-Breakbeat-Track. Er steht hier als heutiger Weg aus der Jungle- und Drum-and-Bass-Geschichte dieser Seite.',
-    crossGenre: 'Mein eigener Track zwischen Glitch, IDM und Ambient. Er passt hierher, weil diese Seite mehrere Szenen verbindet, statt in einem Genre zu bleiben.',
-    emotional: 'Eine von mir kuratierte Playlist für melodische elektronische Musik mit Gewicht. Sie bietet früh einen Hörweg zur emotionaleren Seite dieses Themas.',
-    rare: 'Eine von mir kuratierte Playlist zwischen House, Techno, Breaks und Rave. Sie ist die Plattentasche hinter thecatrave und steht direkt nach der Hauptantwort des Artikels.'
+    berlin: 'Mein eigener Track: gebrochene Drums mit Dub-Techno-Echo und Raum.',
+    breaks: 'Mein eigener Progressive-Breaks-Track bei 128 BPM.',
+    bass: 'Mein eigener Track bei 140 BPM zwischen Future Bass, Glitch und Breakbeat.',
+    jungle: 'Mein eigener kurzer Liquid-Breakbeat-Track.',
+    crossGenre: 'Mein eigener Track zwischen Glitch, IDM und Ambient.',
+    emotional: 'Eine von mir kuratierte Playlist für melodische elektronische Musik mit Gewicht.',
+    rare: 'Eine von mir kuratierte Playlist zwischen House, Techno, Breaks und Rave. Sie ist die Plattentasche hinter thecatrave.'
   },
   fr: {
-    berlin: 'Mon propre morceau : batterie cassée, écho dub techno et espace. C’est celui qui se rapproche le plus de la techno et de la musique électronique allemande abordées ici.',
-    breaks: 'Mon propre morceau de progressive breaks à 128 BPM. Il est placé ici parce que cette page traite directement des breakbeats, du rythme rave ou de leurs alentours.',
-    bass: 'Mon propre morceau à 140 BPM, entre future bass, glitch et breakbeat. C’est celui qui se rapproche le plus des musiques riches en basses abordées ici.',
-    jungle: 'Mon propre morceau court de liquid breakbeat. Il offre une voie actuelle depuis l’histoire de la jungle et de la drum and bass racontée ici.',
-    crossGenre: 'Mon propre morceau entre glitch, IDM et ambient. Il trouve sa place ici parce que cette page traverse plusieurs scènes sans rester dans un seul genre.',
-    emotional: 'Une playlist que je sélectionne autour d’une musique électronique mélodique et dense. Elle offre tôt un parcours d’écoute vers le versant plus émotionnel du sujet.',
-    rare: 'Une playlist que je sélectionne entre house, techno, breaks et rave. C’est le bac à disques derrière thecatrave, placé juste après la réponse principale de l’article.'
+    berlin: 'Mon propre morceau : batterie cassée, écho dub techno et espace.',
+    breaks: 'Mon propre morceau de progressive breaks à 128 BPM.',
+    bass: 'Mon propre morceau à 140 BPM, entre future bass, glitch et breakbeat.',
+    jungle: 'Mon propre morceau court de liquid breakbeat.',
+    crossGenre: 'Mon propre morceau entre glitch, IDM et ambient.',
+    emotional: 'Une playlist que je sélectionne autour d’une musique électronique mélodique et dense.',
+    rare: 'Une playlist que je sélectionne entre house, techno, breaks et rave. C’est le bac à disques derrière thecatrave.'
   },
   es: {
-    berlin: 'Un tema mío: percusión rota con eco de dub techno y espacio. Es el que mejor encaja con el techno y la música electrónica alemana de esta página.',
-    breaks: 'Un tema mío de progressive breaks a 128 BPM. Está aquí porque esta página trata directamente de breakbeats, del ritmo rave o de la música que los rodea.',
-    bass: 'Un tema mío a 140 BPM, entre future bass, glitch y breakbeat. Es el que mejor encaja con la música de bajos pesados de esta página.',
-    jungle: 'Un tema mío corto de liquid breakbeat. Está aquí como camino actual desde la historia del jungle y el drum and bass de esta página.',
-    crossGenre: 'Un tema mío entre glitch, IDM y ambient. Encaja aquí porque esta página cruza escenas en vez de quedarse en un solo género.',
-    emotional: 'Una playlist que curo en torno a la música electrónica melódica con peso. Ofrece pronto un camino de escucha hacia el lado más emocional de este tema.',
-    rare: 'Una playlist que curo entre house, techno, breaks y rave. Es la bolsa de discos que hay detrás de thecatrave, colocada justo después de la respuesta principal del artículo.'
+    berlin: 'Un tema mío: percusión rota con eco de dub techno y espacio.',
+    breaks: 'Un tema mío de progressive breaks a 128 BPM.',
+    bass: 'Un tema mío a 140 BPM, entre future bass, glitch y breakbeat.',
+    jungle: 'Un tema mío corto de liquid breakbeat.',
+    crossGenre: 'Un tema mío entre glitch, IDM y ambient.',
+    emotional: 'Una playlist que curo en torno a la música electrónica melódica con peso.',
+    rare: 'Una playlist que curo entre house, techno, breaks y rave. Es la bolsa de discos que hay detrás de thecatrave.'
   }
 };
 

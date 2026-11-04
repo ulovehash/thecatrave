@@ -354,7 +354,7 @@ content = insertFeatureAfterParagraph(content, {
     videoId: 'gdQ4V245hG8',
     kicker: 'Archive listening',
     heading: 'DJ Hype, Jungle Massive.',
-    description: 'A period compilation that turns the names and records in this section into a continuous listening route.'
+    description: 'A period compilation, mixed as one continuous listen.'
   })
 });
 content = insertFeatureAfterParagraph(content, {
@@ -366,7 +366,7 @@ content = insertFeatureAfterParagraph(content, {
     videoId: '3QMiCBJ7yRM',
     kicker: 'Essential track',
     heading: 'Shy FX & UK Apachi, Original Nuttah.',
-    description: 'The 1994 crossover anthem discussed here, embedded at the exact point where it enters the story.'
+    description: 'The 1994 crossover anthem.'
   })
 });
 content = insertFeatureAfterParagraph(content, {
@@ -390,7 +390,7 @@ content = insertFeatureAfterParagraph(content, {
     videoId: 'FJGYUwdGEeg',
     kicker: 'Essential listening',
     heading: 'Tim Reaper, rare groove inspired jungle mix.',
-    description: 'Recorded for NTS. A DJ rather than a record, so the evidence is a set: an hour of what the revival actually sounds like.'
+    description: 'Recorded for NTS: an hour of what the revival actually sounds like.'
   })
 });
 content = insertFeatureAfterParagraph(content, {

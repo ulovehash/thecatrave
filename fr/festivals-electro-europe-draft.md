@@ -146,7 +146,7 @@ Kala investit pendant une semaine la plage de Dhërmi, sur la riviera albanaise 
 
 Freerotation est le plus difficile d’accès de tous. Il se tient à Baskerville Hall, à Clyro, de l’autre côté de la frontière galloise par rapport à Hay-on-Wye, il est organisé sans but lucratif par les DJ Steevio et Suzybee, et les billets ne sont vendus qu’aux membres, qui doivent être invités par un membre existant. Ses line-ups comptent parmi les plus respectés de Grande-Bretagne pour la deep house et la techno. L’édition 2026 a eu lieu du 10 au 12 juillet ; les dates 2027 n’ont pas été annoncées.
 
-Un dernier a sa place ici, avec un avertissement : Fusion, le festival contre-culturel installé sur un ancien aérodrome à Lärz, dans le nord de l’Allemagne, qui ne publie pas de line-up et vend ses billets par tirage au sort. Il fait une pause en 2027 et revient du 28 juin au 2 juillet 2028.
+Un dernier, avec un avertissement : Fusion, le festival contre-culturel installé sur un ancien aérodrome à Lärz, dans le nord de l’Allemagne, qui ne publie pas de line-up et vend ses billets par tirage au sort. Il fait une pause en 2027 et revient du 28 juin au 2 juillet 2028.
 
 ## Absents de la liste, et pourquoi
 

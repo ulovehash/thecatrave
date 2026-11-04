@@ -1098,11 +1098,11 @@
       "id": "90s-rave-own-track-caption-reverted",
       "found": "2026-10-06",
       "by": "agent",
-      "what": "The editorial review of 90s-rave-music said the Berlin Race 1909 caption was changed from 'Another break from the 90s' to 'Another artist break', but build-90s-rave-music-article.mjs still carried 'Another break from the 90s, and not one of its records', which reads as a period claim. The review recorded an edit that was not in the builder.",
+      "what": "The editorial review of 90s-rave-music said the Berlin Race 1909 caption was changed from 'Another break from the 90s' to 'Another artist break', but build-90s-rave-music-article.mjs still carried 'Another break from the 90s, and not one of its records', which reads as a period claim. The review recorded an edit that was not in the builder. On 2026-11-04 'Also not a 90s record' was replaced, with the owner's approval of removing self-explaining card copy, by 'Breakbeat drums under dub techno space, made now. My own track.': the period claim stays ruled out by 'made now', without a disclaimer about what the track is not (AGENTS.md bans genre disclaimers on own tracks).",
       "should_have_caught": "a before/after pair was written into the review from memory, not from the built page",
       "fix": {
         "file": "build-90s-rave-music-article.mjs",
-        "contains": "Also not a 90s record"
+        "contains": "Breakbeat drums under dub techno space, made now"
       }
     },
     {
@@ -1732,6 +1732,39 @@
       "fix": {
         "file": "love-parade-draft.md",
         "contains": "900,000 people in 2026, according to its organisers"
+      }
+    },
+    {
+      "id": "listening-cards-explain-their-own-placement",
+      "found": "2026-11-04",
+      "by": "owner",
+      "what": "Listening cards on most guides, in all four languages, explained themselves instead of describing the music: the shared Rare Electronic Music card said it was 'placed here after the article’s main answer' on 150 pages; other own-track and own-mix cards said they 'sit here because this page…', were 'the closest match to… discussed on this page', 'a personal route… not a substitute for', 'Not what the main stages play', 'not a 90s record', 'for a break from the festival'; third-party players said 'embedded at the exact point where it enters the story', 'This set belongs here because', 'It is here as proof'. The owner read them as draft notes that should never have shipped.",
+      "should_have_caught": "AGENTS.md said 'Include a concise explanation of the listening choice', which was read as 'explain why the card is here'. Nothing checked the result, though AGENTS.md already banned genre disclaimers for own tracks.",
+      "fix": {
+        "file": "audit-banned-phrases.mjs",
+        "contains": "A listening card describes the music, never its own placement"
+      }
+    },
+    {
+      "id": "listening-copy-rule-asked-for-self-explanation",
+      "found": "2026-11-04",
+      "by": "owner",
+      "what": "The own-music rule in AGENTS.md asked for 'a concise explanation of the listening choice', which produced placement commentary on every guide (see listening-cards-explain-their-own-placement).",
+      "should_have_caught": "the rule wording itself",
+      "fix": {
+        "file": "AGENTS.md",
+        "contains": "Never explain where the card sits or why it was placed there"
+      }
+    },
+    {
+      "id": "world-festivals-biggest-answer-repeated-four-times",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "best-edm-festivals-world gave the same 'EDC or Untold, over 500,000' answer four times (answer box, the biggest section opener, the ticketed paragraph under the Street Parade, the FAQ), and two of those said 'EDC or Untold' while the FAQ said EDC. Found in a design-critique pass for AI-slop markers.",
+      "should_have_caught": "the redundancy check in ARTICLE-EDITORIAL-REVIEW.md",
+      "fix": {
+        "file": "best-edm-festivals-world-draft.md",
+        "contains": "each counted its crowd over a different stretch"
       }
     }
   ]

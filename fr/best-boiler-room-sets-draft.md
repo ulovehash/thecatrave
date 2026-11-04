@@ -116,7 +116,7 @@ C’est le meilleur exemple d’une salle qui devient partie du set. Un producte
 
 PARTYGIRL, le premier Boiler Room de Charli xcx, s’est tenu dans un entrepôt du 99 Scott Avenue à Brooklyn le 22 février 2024. Il a attiré plus de 25 000 RSVP, le record de l’histoire de Boiler Room.
 
-C’est le set Boiler Room de Charli XCX que la plupart des gens ont en tête, bien qu’il y en ait eu deux : PARTYGIRL Ibiza a suivi à l’Amnesia en juillet. La vidéo de Brooklyn compte 8,96 millions de vues et 23,9 likes pour mille, deuxième derrière le set de Tokyo parmi les sets Boiler Room au-delà de huit millions. Il est ici parce que c’est le cas le plus net d’une pop star qui utilise le format pour mixer plutôt que pour se produire, et à cause de ce nombre de RSVP.
+C’est le set Boiler Room de Charli XCX que la plupart des gens ont en tête, bien qu’il y en ait eu deux : PARTYGIRL Ibiza a suivi à l’Amnesia en juillet. La vidéo de Brooklyn compte 8,96 millions de vues et 23,9 likes pour mille, deuxième derrière le set de Tokyo parmi les sets Boiler Room au-delà de huit millions. C’est le cas le plus net d’une pop star qui utilise le format pour mixer plutôt que pour se produire.
 
 [Embed: yt-charli-xcx]
 
@@ -148,7 +148,7 @@ Il compte 9,05 millions de vues, et c’est l’argument de cette liste pour le 
 
 Jaar a joué en avril 2013 lors d’une prise de contrôle de son label Clown & Sunset avec la Red Bull Music Academy. Quarante-six minutes, et le set le plus lent de cette liste.
 
-Il compte 9,09 millions de vues, beaucoup pour une musique aussi éloignée d’un club en pleine soirée. Il est ici comme preuve que le format n’a pas besoin d’un drop.
+Il compte 9,09 millions de vues, beaucoup pour une musique aussi éloignée d’un club en pleine soirée. Il montre que le format n’a pas besoin d’un drop.
 
 [Embed: yt-nicolas-jaar]
 

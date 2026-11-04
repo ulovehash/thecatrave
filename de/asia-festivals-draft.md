@@ -75,7 +75,7 @@ DWP 2026 kehrt nach Jakarta zurück, auf das JIExpo Kemayoran, vom 11. bis 13. D
 
 ## Ultra Korea, Seoul
 
-Ultra Korea ist die Seouler Ausgabe von Ultra. Seine offizielle Seite führt den 20. September 2025 im Oil Tank Culture Park in Seoul als letzte Ausgabe, mit allen drei Ticketphasen ausverkauft und Tickets an der Tageskasse für 160.000 Won. Sie nennt keine Ausgabe 2026 oder 2027, also kann diese Seite keinen Termin nennen. Es steht hier, weil Leute weiter danach suchen und sein Status nicht offensichtlich ist.
+Ultra Korea ist die Seouler Ausgabe von Ultra. Seine offizielle Seite führt den 20. September 2025 im Oil Tank Culture Park in Seoul als letzte Ausgabe, mit allen drei Ticketphasen ausverkauft und Tickets an der Tageskasse für 160.000 Won. Sie nennt keine Ausgabe 2026 oder 2027.
 
 [Bild: ultra-korea-photo]
 

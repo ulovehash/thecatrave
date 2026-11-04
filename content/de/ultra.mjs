@@ -69,7 +69,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every German festival guide
     // (owner, 2026-09-21: Berlin Race 1909 on the German pages).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Bayfront Park, 2014': figure('bayfront-2014', 1200, 900,
       'Der Bayfront Park in Downtown Miami von oben während Ultra 2014, die Main Stage und Zelte neben dem Jachthafen und der Biscayne Bay',
       'Der Bayfront Park von oben während des Festivals 2014, die Main Stage neben dem Jachthafen an der Biscayne Bay. Foto: Pietro, CC BY-SA 3.0.'),

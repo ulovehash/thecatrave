@@ -52,7 +52,7 @@ const text = {
     ['artist A', 'Künstler A'], ['artist B', 'Künstler B'], ['artist C', 'Künstler C'], ['their labels', 'ihre Labels'],
     ['and every label is another', 'und jedes Label ist ein weiterer'], ['catalogue somebody else', 'Katalog, den jemand anderes'], ['already filtered for you.', 'schon für dich gefiltert hat.']
   ],
-  own: 'Ein Produzent, dem du folgen kannst, wo du schon da bist: Glitch, IDM und Ambient. Mein eigener Track.',
+  own: 'Glitch, IDM und Ambient. Mein eigener Track.',
   shop: {
     alt: 'Das Innere eines Second-Hand-Plattenladens, Regale voller Vinyl an beiden Wänden',
     caption: 'Ein Laden ist ein Filter, den jemand von Hand pflegt, wie ein gutes Label auch. Foto: Chicken4War, CC BY-SA 4.0, über Wikimedia Commons.'

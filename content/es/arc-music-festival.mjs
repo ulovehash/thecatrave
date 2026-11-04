@@ -66,8 +66,8 @@ export default {
       'Frankie Knuckles Way señala la manzana junto al antiguo emplazamiento del Warehouse. ARC se apoya en esa historia al programar artistas de Chicago junto a los cabezas de cartel internacionales de hoy. Foto: Sarah Stierch, CC BY 4.0.'),
     'Image: Union Park': articleFigure({src: 'img/arc-music-festival/arc-union-park-1200.webp', srcset: 'img/arc-music-festival/arc-union-park-320.webp 320w, img/arc-music-festival/arc-union-park-1200.webp 1024w', width: 1024, height: 768, alt: 'Union Park, en Chicago, con el perfil del centro de la ciudad al fondo', caption: 'Union Park es compacto y está cerca de la CTA. Su superficie limitada también acerca varios sistemas de sonido del festival. Foto: soundfromwayout, CC BY 2.0.', className: 'wide-archive-image'}),
     'Embed: ARC sets': articleVideoCollection({lang, label: 'Sets de ARC', description: 'Boys Noize b2b VTSS en ARC para Mixmag Lab, y Nicole Moudaber en la edición de 2025. Son los sets de ARC más vistos que he encontrado en YouTube.', items: [articleVideoCard({youtubeId: '_jysvzxpb0Q', genre: 'MIXMAG LAB x ARC', artist: 'Boys Noize b2b VTSS', title: 'Mixmag Lab x ARC Music Festival'}), articleVideoCard({youtubeId: '6g7HHRV0HSE', genre: 'ARC, 2025', artist: 'Nicole Moudaber', title: 'ARC Music Festival Chicago 2025'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mi propio mix multigénero sigue el recorrido de club de ARC por el house, el techno y giros más duros, sin pretender reproducir el cartel de una edición.'),
-    'thecatrave mix 2': ownSetListening(1, lang, 'Para el trayecto de Union Park a la noche: mi propio set entre techno, breaks y bass music, como recorrido personal de after.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mi propio mix multigénero, por el house, el techno y giros más duros.'),
+    'thecatrave mix 2': ownSetListening(1, lang, 'Para el trayecto de Union Park a la noche: mi propio set entre techno, breaks y bass music.'),
     'Table: Datos': articleTable({
       headers: ['Tema', 'Estado'],
       rows: [

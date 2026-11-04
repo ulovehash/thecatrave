@@ -51,7 +51,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own set moves between techno, breaks and bass music. It is a personal route from this history, not a substitute for the Monegros archive.', 'A final multi-genre thecatrave mix for the overnight journey, with techno at its centre and room for other club forms.'],
+  ownSetCopy:['My own set moves between techno, breaks and bass music.', 'A final multi-genre thecatrave mix for the overnight journey, with techno at its centre and room for other club forms.'],
   bandcampCopy:'Monegros is defined by long-form electronic programming. These thecatrave releases connect to its harder club-facing side, and buying one supports the music and writing directly.',
   sources:[
     {label:'Monegros: official festival site and lineup status',url:'https://monegrosfestival.com/'},

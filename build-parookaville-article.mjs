@@ -77,7 +77,7 @@ const youtube = (id, label) => articleYoutubeEmbed({
 const media = {
   // The owner's own track inside the text (owner, 2026-09-21: Berlin Race
   // 1909 wherever a guide touches Germany).
-  'thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'Not what the main stages play: a German city in breakbeat and dub techno. My own track.'),
+  'thecatrave Berlin Race 1909': ownTrackListening('berlin-race-1909', 'A German city in breakbeat and dub techno. My own track.'),
   'Parookaville stage construction': figure('stage-build-2016', 1200, 752,
     'A stage facade of mock town buildings with scaffolding and a red and white chimney, cranes and forklifts in front, on the Parookaville site in 2016',
     'A Parookaville stage going up on the airfield in July 2016, the festival\'s second year: mock town buildings, a chimney and scaffolding. Photograph: Tama66, CC0.'),
