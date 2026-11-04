@@ -10,8 +10,6 @@ The Primavera Sound festival is built around range rather than one genre. A guit
 
 [Image: Primavera stage crowd, Primavera Sound 2019]
 
-This guide answers the main questions behind searches for Primavera Sound Barcelona: what the festival is, its dates and location, who has headlined it year by year, how many people attend, what music it plays, and how Primavera a la Ciutat and Primavera Sound Porto fit into the same name. It does not track the current edition's line-up or set times, which change every year and belong on the official programme.
-
 ## What is Primavera Sound?
 
 Primavera Sound is a multi-genre urban music festival created in Barcelona. The Primavera festival's first edition under that name took place at Poble Espanyol on 28 April 2001. It was one day, sold about 7,700 tickets and leaned towards indie rock and electronic music. By 2004 it had expanded to three days; in 2005 it moved across the city to Parc del Fòrum, the large waterfront site that still defines the Barcelona edition.
@@ -96,7 +94,7 @@ Alan Sparhawk's official set from Porto shows the smaller-scale side of the fest
 
 [Embed: Alan Sparhawk at Primavera Sound Porto 2025, srV4AgUc104]
 
-Other Primavera-branded events have appeared in cities including Los Angeles, Buenos Aires, São Paulo and Madrid, with different lifespans and formats. For the stable distinction behind the search terms, remember two places: Primavera Sound Barcelona at Parc del Fòrum, and Primavera Sound Porto at Parque da Cidade.
+Other Primavera-branded events have appeared in cities including Los Angeles, Buenos Aires, São Paulo and Madrid, with different lifespans and formats. Two places stay fixed: Primavera Sound Barcelona at Parc del Fòrum, and Primavera Sound Porto at Parque da Cidade.
 
 ## FAQ
 

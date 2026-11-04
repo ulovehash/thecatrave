@@ -8,7 +8,7 @@ The London clubs that made the music are Heaven, Shoom, the Blue Note, The End, 
 
 This guide picks clubs in London by one test: what played in the room, and what came out of it. Not the door price and not the table service. Most of the rooms that gave London acid house, jungle, UK garage and dubstep have closed, so the history comes first. The night clubs in London worth your weekend now come after it, in a table.
 
-There is another London in every search for the best nightclubs in London. Cirque le Soir, the Cuckoo Club, Dear Darling, The Box in Soho and the members' club Home House sell tables, bottles and a place on the guest list. This guide focuses on clubs known for their music.
+The usual lists of the best nightclubs in London include another London. Cirque le Soir, the Cuckoo Club, Dear Darling, The Box in Soho and the members' club Home House sell tables, bottles and a place on the guest list. The clubs here are known for their music.
 
 
 ## Before acid house: sound systems, the Blitz and Heaven

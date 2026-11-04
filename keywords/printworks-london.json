@@ -21,8 +21,10 @@
     {"term": "printworks london lineup", "volume": 10},
     {"term": "printworks london rooms", "volume": 10},
     {"term": "printworks london opening", "volume": 10},
-    {"term": "drumsheds printworks", "volume": 10},
     {"term": "why did printworks close", "volume": 10},
     {"term": "is printworks coming back", "volume": 10}
+  ],
+  "rejected": [
+    {"term": "drumsheds printworks", "volume": 10, "why": "Dropped 2026-11-04: its only home was a sentence describing what searchers want, which AGENTS.md section 4 bans. Not wedged back into the prose (WRITING.md)."}
   ]
 }

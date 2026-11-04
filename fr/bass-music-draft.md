@@ -6,7 +6,7 @@ La bass music est un terme parapluie qui désigne plusieurs formes de musique é
 
 ## Introduction
 
-Cherchez « bass music » et les résultats tirent dans plusieurs directions à la fois. Une auditrice pense au dubstep. Un autre parle de jungle, de UK garage ou de grime. À Miami, l’expression a une histoire liée à l’électro, au hip-hop, aux voitures et à la Roland TR-808. Sur le circuit des festivals américains, elle peut couvrir la trap, le riddim, le glitch-hop et d’autres styles électroniques lourds. Ce désaccord fait partie de l’histoire.
+La bass music tire dans plusieurs directions à la fois. Une auditrice pense au dubstep. Un autre parle de jungle, de UK garage ou de grime. À Miami, l’expression a une histoire liée à l’électro, au hip-hop, aux voitures et à la Roland TR-808. Sur le circuit des festivals américains, elle peut couvrir la trap, le riddim, le glitch-hop et d’autres styles électroniques lourds. Ce désaccord fait partie de l’histoire.
 
 La bass music est devenue utile justement parce que les DJ, les labels, les organisateurs et les auditeurs avaient besoin d’un nom souple pour des disques qui franchissaient sans cesse les frontières établies. Cette souplesse rend aussi le terme facile à mal employer. Le chemin consiste à suivre les scènes, les salles et les systèmes qui ont donné à l’expression des sens différents.
 

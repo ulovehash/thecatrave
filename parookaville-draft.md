@@ -8,8 +8,6 @@ Parookaville is an electronic dance music festival held every July at Weeze Airp
 
 Parookaville began with an idea from abroad. In 2015 three friends set out to build a festival world of the kind they had seen at Tomorrowland and Burning Man, and put it on an old airfield at Weeze, in the far west of Germany. In 2026 the readers of DJ Mag voted it the tenth best festival in the world.
 
-What is Parookaville to someone who has never been? This guide covers where Parookaville happens and when, how big it is, who started it and who runs it now, and why a festival dressed up as a town caught on. Then it answers the question this site is here for: past the Mainstage, what does Parookaville actually play?
-
 ## Where Parookaville happens
 
 Where is Parookaville? The Parookaville location is Weeze Airport, in the district of Kleve in North Rhine-Westphalia, close to the border with the Netherlands. The airport sits about 33 kilometres south-east of Nijmegen and 48 kilometres north-west of Duisburg, and it uses the buildings of RAF Laarbruch, a Royal Air Force base that became a civilian airport in 2003. The festival is on that old military airfield, which is why it turns up in listings as Parookaville Weeze.

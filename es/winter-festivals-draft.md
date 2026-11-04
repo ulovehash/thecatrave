@@ -20,7 +20,7 @@ Un festival entra en la lista cuando la música electrónica es su núcleo, se c
 
 ## ¿Cuáles son los festivales de invierno más grandes?
 
-Los festivales de invierno más grandes son los de gran producción y cartel de cabezas: Tomorrowland Winter y Snowbombing en los Alpes, Igloofest en Montreal, Snow Machine en Hakuba y Nameless Winter en los Alpes italianos. Son la respuesta a quien busca los mejores festivales de invierno y quiere nombres que ya conoce.
+Los festivales de invierno más grandes son los de gran producción y cartel de cabezas: Tomorrowland Winter y Snowbombing en los Alpes, Igloofest en Montreal, Snow Machine en Hakuba y Nameless Winter en los Alpes italianos.
 
 ### Tomorrowland Winter, Alpe d'Huez
 

@@ -8,7 +8,7 @@ Les clubs de Londres qui ont fait la musique sont Heaven, Shoom, le Blue Note, T
 
 Ce guide choisit les clubs de Londres selon un seul critère : ce qui se jouait dans la salle, et ce qui en est sorti. Ni le prix d'entrée ni le service en salle. La plupart des salles qui ont donné à Londres l'acid house, la jungle, l'UK garage et le dubstep ont fermé, alors l'histoire passe en premier. Les boites de nuit de Londres qui méritent votre week-end aujourd'hui viennent ensuite, dans un tableau.
 
-Il existe un autre Londres derrière chaque recherche de meilleure boite de nuit à Londres. Cirque le Soir, le Cuckoo Club, Dear Darling, The Box à Soho et le club privé Home House vendent des tables, des bouteilles et une place sur la liste d'invités. Ce guide se concentre sur les clubs connus pour leur musique.
+Il existe un autre Londres dans les listes habituelles de meilleure boite de nuit à Londres. Cirque le Soir, le Cuckoo Club, Dear Darling, The Box à Soho et le club privé Home House vendent des tables, des bouteilles et une place sur la liste d'invités. Les clubs retenus ici sont connus pour leur musique.
 
 
 ## Avant l'acid house : les sound systems, le Blitz et Heaven

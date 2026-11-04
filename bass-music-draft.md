@@ -8,7 +8,7 @@
 
 **Deck:** A scene-led history of bass music across Jamaica, Miami, Britain, Los Angeles, Chicago, Durban and today's hybrid club culture.
 
-Search for bass music and the results pull in several directions at once. One listener means dubstep. Another is talking about jungle, UK garage or grime. In Miami, the phrase has a history tied to electro, hip-hop, cars and the Roland TR-808. On the American festival circuit, it can cover trap, riddim, glitch-hop and other heavy electronic styles. The disagreement is part of the history.
+Bass music pulls in several directions at once. One listener means dubstep. Another is talking about jungle, UK garage or grime. In Miami, the phrase has a history tied to electro, hip-hop, cars and the Roland TR-808. On the American festival circuit, it can cover trap, riddim, glitch-hop and other heavy electronic styles. The disagreement is part of the history.
 
 Bass music became useful precisely because DJs, labels, promoters and listeners needed a loose name for records that kept crossing established borders. That looseness also makes the term easy to misuse. The way through is to follow the scenes, rooms and systems that gave the phrase different meanings.
 

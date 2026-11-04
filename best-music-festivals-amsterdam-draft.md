@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Amsterdam's festival year opens in March with DGTL and closes in October with the Amsterdam Dance Event, and the summer between is busy. Most of these festivals take place in or just outside the city, in parks, woods and old docklands, so you can sleep in a hotel and be back the same night. This page covers the music festivals in Amsterdam worth planning a trip around, by sound and setting, with the 2027 dates and which of them are confirmed.
+Amsterdam's festival year opens in March with DGTL and closes in October with the Amsterdam Dance Event, and the summer between is busy. Most of these festivals take place in or just outside the city, in parks, woods and old docklands, so you can sleep in a hotel and be back the same night.
 
 ![Listening](figure:playlist)
 

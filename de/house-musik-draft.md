@@ -10,8 +10,6 @@ House begann mit Platten, die niemand mehr machte. 1980 war Disco in Amerika fü
 
 In Chicago hieß das: Frankie Knuckles im Warehouse und Ron Hardy im Music Box, die Platten auf Tonband zusammenschnitten und Drumcomputer darunterlaufen ließen. 1985 machten die Leute, die in diese Clubs gingen, auf billigem Equipment eigene Tracks, und aus einer kleinen Stadtszene wurde binnen drei Jahren ein Sound, der um die Welt ging.
 
-Dieser Guide behandelt, was House-Musik ist, woher der Name kommt, die ersten Platten, die Zweige in New York und Großbritannien und die Stile, die daraus wuchsen, von Deep House bis Afro House.
-
 ## Was ist House-Musik
 
 Die kürzeste brauchbare Definition ist ein Drum-Muster. House legt die Kickdrum auf jeden Schlag des Takts, das heißt „Four-on-the-Floor“, und spielt Hi-Hats zwischen den Kicks sowie einen Clap oder eine Snare auf dem zweiten und vierten Schlag. Dieses Muster läuft vom Anfang bis zum Ende des Tracks, meist bei irgendetwas zwischen 118 und 128 Schlägen pro Minute.

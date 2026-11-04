@@ -2,13 +2,11 @@
 
 ## Introduction
 
-Cherchez « dubstep » et vous trouverez deux réponses qui se contredisent. L’une décrit une musique patiente, au demi-tempo, construite autour d’une basse qu’on sent dans la poitrine. L’autre décrit ce qu’il y a de plus fort sur la grande scène d’un festival. Les deux sont justes, les deux s’appellent dubstep, et l’écart entre elles est ce qu’il y a de plus intéressant dans ce genre.
-
-Ce guide explique d’où vient le son, comment il est construit, ce qui s’est passé quand il s’est scindé, et les versions qui ne se sont jamais arrêtées.
+Le dubstep a deux définitions qui se contredisent. L’une décrit une musique patiente, au demi-tempo, construite autour d’une basse qu’on sent dans la poitrine. L’autre décrit ce qu’il y a de plus fort sur la grande scène d’un festival. Les deux sont justes, les deux s’appellent dubstep, et l’écart entre elles est ce qu’il y a de plus intéressant dans ce genre.
 
 ## Réponse
 
-Le dubstep est un style électronique mené par la basse, formé dans le sud de Londres au début des années 2000. Il tourne autour de 140 battements par minute, avec la grosse caisse et la caisse claire assez éloignées pour que la musique semble deux fois plus lente qu’elle ne compte, et son poids se trouve dans la sub-bass plutôt que dans la mélodie. C’est la définition d’origine. Depuis 2010 environ, le même mot désigne aussi une variante américaine plus bruyante, construite sur des médiums saturés, et les deux ne se ressemblent presque pas. Les deux s’appellent dubstep. Comprendre pourquoi, c’est l’essentiel de ce que les gens demandent vraiment quand ils cherchent ce mot.
+Le dubstep est un style électronique mené par la basse, formé dans le sud de Londres au début des années 2000. Il tourne autour de 140 battements par minute, avec la grosse caisse et la caisse claire assez éloignées pour que la musique semble deux fois plus lente qu’elle ne compte, et son poids se trouve dans la sub-bass plutôt que dans la mélodie. C’est la définition d’origine. Depuis 2010 environ, le même mot désigne aussi une variante américaine plus bruyante, construite sur des médiums saturés, et les deux ne se ressemblent presque pas. Les deux s’appellent dubstep.
 
 ## Croydon, Big Apple et un son sans nom
 

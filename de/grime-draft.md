@@ -4,7 +4,7 @@
 
 Grime wird meist als britischer Rap beschrieben. Das stimmt ungefähr so, wie es stimmt, Jungle als schnellen Reggae zu beschreiben: Es lässt genau den Teil weg, der neu war.
 
-Bevor Grime ein Genre war, war es eine Reihe von Instrumentals: kalt, karg, um 140 Schläge pro Minute, von Teenagern im Osten Londons mit billiger Software gebaut und im Piratenradio gespielt, damit MCs sich darüber messen konnten. Die MCs machten Grime berühmt. Die Produzenten sorgten dafür, dass es nach nichts anderem klang. Dieser Guide behandelt beide, und auch die Stellen, an denen über den Namen, die Entstehungsgeschichte und einige der berühmten Behauptungen bis heute gestritten wird.
+Bevor Grime ein Genre war, war es eine Reihe von Instrumentals: kalt, karg, um 140 Schläge pro Minute, von Teenagern im Osten Londons mit billiger Software gebaut und im Piratenradio gespielt, damit MCs sich darüber messen konnten. Die MCs machten Grime berühmt. Die Produzenten sorgten dafür, dass es nach nichts anderem klang.
 
 ## Was ist Grime?
 

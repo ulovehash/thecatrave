@@ -6,7 +6,7 @@ The Love Parade began on 1 July 1989 in West Berlin with about 150 people and en
 
 ## Introduction
 
-The Love Parade grew from about 150 people on a Berlin avenue in 1989 into an annual techno parade attended by over a million. It ended after the 2010 crowd crush in Duisburg, in which 21 people died. Searches for "loveparade" split three ways: people who want the history, people who want to know what happened in Duisburg, and people who think it might still be on.
+The Love Parade grew from about 150 people on a Berlin avenue in 1989 into an annual techno parade attended by over a million. It ended after the 2010 crowd crush in Duisburg, in which 21 people died. Three questions follow the name: its history, what happened in Duisburg, and whether the Loveparade is still on.
 
 
 ## What is the Love Parade meaning?

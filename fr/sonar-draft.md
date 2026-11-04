@@ -8,8 +8,6 @@ Sónar est un festival de musique électronique, de créativité et de technolog
 
 Sónar a commencé en 1994 comme un petit festival de ce que ses fondateurs appelaient la musique avancée, partagé entre un centre culturel le jour et un club la nuit. Trente-trois éditions plus tard, il remplit les halls du parc des expositions en bordure de Barcelone, a prêté son nom à plus d’une centaine de festivals dans le monde, et le prête à toute une semaine de fêtes dans la ville.
 
-Qu’est-ce que le Sonar festival pour quelqu’un qui n’y est jamais allé ? Ce guide explique quand et où il a lieu, sa taille actuelle, comment il a commencé et à qui il appartient aujourd’hui, et ce qui a fait sa réputation sur scène. Puis il répond à la question pour laquelle ce site existe : à quoi ressemble vraiment Sónar, et où l’écouter depuis chez soi ?
-
 ## Sónar 2027 : les dates
 
 Sónar 2027 a lieu les jeudi 17, vendredi 18 et samedi 19 juin 2027, à Barcelone, selon le site du festival. L’affiche et le plan du site ne sont pas encore publiés ; le site officiel sonar.es les publiera une fois annoncés.

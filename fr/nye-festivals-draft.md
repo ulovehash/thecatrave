@@ -6,7 +6,7 @@ Les plus grands festivals du Nouvel An pour la musique électronique se trouvent
 
 ## Introduction
 
-Le réveillon tombe en plein été dans l'hémisphère sud et en plein hiver dans l'hémisphère nord, et c'est ce qui décide du genre de festival du Nouvel An qu'on trouve où. En Nouvelle-Zélande et en Australie, c'est la saison du camping, alors la nouvelle année a droit à des festivals en plein air sur plusieurs jours, dans des vignobles et des terres agricoles. Aux États-Unis, les grands organisateurs passent à l'intérieur, dans des centres de congrès, des arènes et un stade de baseball, et organisent des raves sur deux nuits. En Europe, où c'est l'hiver et où la culture club est plus ancienne, la nuit appartient surtout aux clubs, avec une très grande exception à Bruxelles. Ce guide couvre les trois, avec les dates du Nouvel An 2026 quand les festivals les ont annoncées.
+Le réveillon tombe en plein été dans l'hémisphère sud et en plein hiver dans l'hémisphère nord, et c'est ce qui décide du genre de festival du Nouvel An qu'on trouve où. En Nouvelle-Zélande et en Australie, c'est la saison du camping, alors la nouvelle année a droit à des festivals en plein air sur plusieurs jours, dans des vignobles et des terres agricoles. Aux États-Unis, les grands organisateurs passent à l'intérieur, dans des centres de congrès, des arènes et un stade de baseball, et organisent des raves sur deux nuits. En Europe, où c'est l'hiver et où la culture club est plus ancienne, la nuit appartient surtout aux clubs, avec une très grande exception à Bruxelles.
 
 ## Nouvel An 2026 : les festivals et leurs dates
 

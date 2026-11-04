@@ -8,8 +8,6 @@ Parookaville ist ein Festival für elektronische Tanzmusik, das jeden Juli am Fl
 
 Parookaville begann mit einer Idee aus dem Ausland. 2015 machten sich drei Freunde daran, eine Festivalwelt zu bauen, wie sie sie bei Tomorrowland und beim Burning Man gesehen hatten, und stellten sie auf einen alten Flugplatz bei Weeze, im äußersten Westen Deutschlands. 2026 wählten die Leser des DJ Mag es auf Platz zehn der besten Festivals der Welt.
 
-Was ist Parookaville für jemanden, der nie dort war? Dieser Guide erklärt, wo Parookaville stattfindet und wann, wie groß es ist, wer es gegründet hat und wer es heute betreibt, und warum ein Festival in Gestalt einer Stadt so eingeschlagen hat. Danach beantwortet er die Frage, für die es diese Seite gibt: Was läuft abseits der Mainstage eigentlich für Musik?
-
 ## Wo Parookaville stattfindet: Gelände und Anfahrt
 
 Wo ist Parookaville? Das Parookaville-Gelände ist der Flughafen Weeze im Kreis Kleve in Nordrhein-Westfalen, nahe der Grenze zu den Niederlanden. Der Flughafen liegt rund 33 Kilometer südöstlich von Nimwegen und 48 Kilometer nordwestlich von Duisburg und nutzt die Gebäude von RAF Laarbruch, einem Stützpunkt der Royal Air Force, der 2003 ziviler Flughafen wurde. Das Festival läuft auf diesem alten Militärflugplatz, weshalb es in Verzeichnissen als Parookaville Weeze auftaucht.

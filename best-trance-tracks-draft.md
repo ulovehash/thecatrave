@@ -101,7 +101,7 @@ You can hear two of my own electronic tracks below.
 
 **What are the best trance tunes that charted in the UK?** Ten of the twelve are confirmed UK chart entries. The table above gives nine peaks, from 9 PM at number 1 to Shivers/Serenity at number 72.
 
-**How is this different from the trance guide?** This page lists and plays records. The [trance guide](/trance-guide) explains what trance is, where it began and who the artists are.
+**How is this different from the trance guide?** The [trance guide](/trance-guide) explains what trance is, where it began and who the artists are.
 
 ---
 

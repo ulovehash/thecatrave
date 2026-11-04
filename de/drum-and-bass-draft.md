@@ -4,8 +4,6 @@
 
 Drum and Bass ging aus demselben britischen Rave-Kontinuum hervor wie Jungle. Es behielt die schnellen Breakbeats und den Sub-Bass und entwickelte dann eine technische Schule, eigene Institutionen und schließlich Festivals auf fünf Kontinenten.
 
-Dieser Guide erklärt, wo diese Wende geschah, wie die Musik aufgebaut ist, welche Zweige sie hervorbrachte und wie ein in Großbritannien entstandener Sound am Ende überall gemacht wurde.
-
 ## Antwort
 
 Drum and Bass ist ein britisches Genre der elektronischen Musik, gebaut auf schnellen Breakbeats, schwerem Sub-Bass und Tempi, die meist zwischen 170 und 180 BPM liegen. Es entstand aus demselben Rave-Kontinuum der frühen 1990er-Jahre wie Jungle. Ab Mitte der 1990er-Jahre bezeichnete Drum and Bass zunehmend neuere Richtungen, die oft mehr Gewicht auf Details der Produktion und weniger auf Ragga-Samples legten, doch die Grenze war nie fest. Jungle lebte als eigener Stil weiter, und die beiden Begriffe überschneiden sich bis heute. Drum and Bass wird auch drum n bass oder d&b geschrieben und meist zu DnB abgekürzt.

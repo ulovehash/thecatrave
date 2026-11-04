@@ -1246,11 +1246,11 @@
       "id": "trance-tracks-faq-says-ranks",
       "found": "2026-10-31",
       "by": "Independent reviewer, checking a new title against the page",
-      "what": "The best-trance-tracks FAQ said 'This page ranks and plays records' while the intro says the list is not a countdown and no single ranking settles it.",
+      "what": "The best-trance-tracks FAQ said 'This page ranks and plays records' while the intro says the list is not a countdown and no single ranking settles it. On 2026-11-04 the replacement 'This page lists and plays records.' was cut as self-narration (ai-slop-review-2026-11-04.md, section 6); the answer now goes straight to what the trance guide covers, and still claims no ranking.",
       "should_have_caught": "Nothing compares a page's claims about itself; only a read of the whole page finds this.",
       "fix": {
         "file": "best-trance-tracks-draft.md",
-        "contains": "This page lists and plays records."
+        "contains": "**How is this different from the trance guide?** The [trance guide](/trance-guide) explains"
       }
     },
     {
@@ -1782,9 +1782,12 @@
       "id": "stray-breakbeat-guide-copy-published",
       "found": "2026-11-04",
       "by": "agent",
-      "what": "'breakbeat-guide copy.html', an old draft of the breakbeat guide, was committed by accident in cc39463 (10 October 2026) and is served publicly by GitHub Pages. Unlinked, canonical to /breakbeat-guide. Found in the AI-slop review (ai-slop-review-2026-11-04.md, section 1).",
+      "what": "'breakbeat-guide copy.html', an old draft of the breakbeat guide, was committed by accident in cc39463 (10 October 2026) and is served publicly by GitHub Pages. Unlinked, canonical to /breakbeat-guide. Found in the AI-slop review (ai-slop-review-2026-11-04.md, section 1). Fixed 2026-11-04: file deleted, and audit-site-components.mjs now fails on any published .html outside the page manifest.",
       "should_have_caught": "nothing checks the site root for files that are not built by scripts/build.mjs",
-      "fix": null
+      "fix": {
+        "file": "audit-site-components.mjs",
+        "contains": "noStrayRootPages"
+      }
     },
     {
       "id": "keyword-research-in-prose",

@@ -8,8 +8,6 @@ Creamfields est un festival de musique électronique organisé chaque année le 
 
 Creamfields a commencé comme la sortie d’un club. En 1998, Cream, une soirée house de Liverpool, a emmené 25 000 personnes dans un champ près de Winchester pour une journée. Il remplit aujourd’hui le domaine de Daresbury pendant quatre jours chaque week-end de l’August Bank Holiday, et son nom a figuré sur des festivals de Buenos Aires à Hong Kong.
 
-Qu’est-ce que Creamfields pour quelqu’un qui n’y est jamais allé ? Ce guide explique où et quand a lieu Creamfields, quelle est sa taille, comment il a grandi et à qui il appartient aujourd’hui, et pourquoi il est devenu célèbre. Puis il répond à la question pour laquelle ce site existe : sous les têtes d’affiche de l’Arc Stage, que joue vraiment Creamfields ?
-
 ## Où a lieu Creamfields ?
 
 Où se trouve Creamfields ? Sur le domaine de Daresbury, dans le Cheshire, et le site n’a pas changé depuis 2006. D’après le festival, le site est à 31,5 kilomètres de Liverpool par la route et à 42 kilomètres de Manchester. Daresbury est un village du Borough of Halton avec une adresse postale à Warrington, ce qui explique pourquoi le festival apparaît aussi sous le nom de Creamfields Warrington.

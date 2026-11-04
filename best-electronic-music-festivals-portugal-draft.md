@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Most guides to the music festivals Portugal holds each summer lead with NOS Alive and Primavera Sound, which are rock, pop and indie events with some electronic acts on the bill. This page covers the festivals in Portugal where electronic music is the programme: Neopop for techno in Viana do Castelo, Boom for psytrance at Idanha-a-Nova, Sónar and LISB-ON in Lisbon, RFM Somnii on the beach at Figueira da Foz, and two smaller events in June. It shows which 2027 dates are confirmed and which are not.
+Most guides to the music festivals Portugal holds each summer lead with NOS Alive and Primavera Sound, which are rock, pop and indie events with some electronic acts on the bill. The festivals in Portugal where electronic music is the programme are Neopop for techno in Viana do Castelo, Boom for psytrance at Idanha-a-Nova, Sónar and LISB-ON in Lisbon, RFM Somnii on the beach at Figueira da Foz, and two smaller events in June.
 
 ![Listening](figure:playlist)
 

@@ -6,7 +6,7 @@ Printworks London está cerrado. El local de Rotherhithe celebró su última noc
 
 ## Introducción
 
-Quien busca Printworks, Printworks London o su reapertura suele querer saber una sola cosa: ¿ya se puede ir? La respuesta honesta hoy es que no. El local está cerrado, la web oficial solo muestra un aviso de «nueva web próximamente» y los planes siguen avanzando por el sistema de licencias urbanísticas.
+Printworks London no ha reabierto, y la reapertura no tiene fecha. El local está cerrado, la web oficial solo muestra un aviso de «nueva web próximamente» y los planes siguen avanzando por el sistema de licencias urbanísticas.
 
 Para salas abiertas ahora están la [guía de clubes de Londres](/best-electronic-music-clubs-in-london) (en inglés) y la [guía de fabric London](/fabric-london) (en inglés).
 
@@ -74,7 +74,7 @@ La comparación entre Drumsheds London y Printworks termina en el operador, como
 
 [Table: drumsheds]
 
-Ambos funcionan con permiso temporal, lo que explica en parte que ninguno sea una respuesta permanente. The Guardian informó en enero de 2025 de que es la mayor discoteca del Reino Unido y de que el Ayuntamiento de Enfield abrió una revisión de la licencia después de que la Policía Metropolitana citara incidentes relacionados con drogas. Siguió abierto con condiciones modificadas. Quien busca Drumsheds Printworks suele querer una sola respuesta: uno está abierto y el otro no.
+Ambos funcionan con permiso temporal, lo que explica en parte que ninguno sea una respuesta permanente. The Guardian informó en enero de 2025 de que es la mayor discoteca del Reino Unido y de que el Ayuntamiento de Enfield abrió una revisión de la licencia después de que la Policía Metropolitana citara incidentes relacionados con drogas. Siguió abierto con condiciones modificadas. De Drumsheds y Printworks, uno está abierto y el otro no.
 
 ## Printworks London cerrado: adónde ir mientras tanto
 

@@ -6,7 +6,7 @@ The biggest New Year's Eve festivals for dance music are in the United States, N
 
 ## Introduction
 
-New Year's Eve lands in the middle of summer in the southern hemisphere and in the middle of winter in the northern one, and that decides what kind of NYE festivals exist where. In New Zealand and Australia it is camping season, so the new year gets multi-day outdoor festivals in vineyards and farmland. In the United States the big promoters move indoors, into convention centres, arenas and a baseball stadium, and run two-night raves. In Europe, where it is winter and the club culture is older, the night mostly belongs to clubs. This guide covers all three, with the dates for New Year's Eve 2026 where the festivals have announced them.
+New Year's Eve lands in the middle of summer in the southern hemisphere and in the middle of winter in the northern one, and that decides what kind of NYE festivals exist where. In New Zealand and Australia it is camping season, so the new year gets multi-day outdoor festivals in vineyards and farmland. In the United States the big promoters move indoors, into convention centres, arenas and a baseball stadium, and run two-night raves. In Europe, where it is winter and the club culture is older, the night mostly belongs to clubs.
 
 ## New Year's Eve 2026: the festivals and their dates
 

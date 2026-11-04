@@ -8,8 +8,6 @@ Coachella, cuyo nombre completo es Coachella Valley Music and Arts Festival, se 
 
 Coachella empezó como la apuesta de un promotor de Los Ángeles que perdía grupos a manos de rivales con más dinero. Su primera edición perdió 850 000 dólares, se saltó el año siguiente y después se convirtió en uno de los festivales de música más grandes y rentables del mundo.
 
-¿Qué es el festival Coachella para quien nunca ha ido? Esta guía explica cuándo es Coachella 2027, dónde está y cuánto dura, qué tamaño tiene, quién lo puso en marcha y de quién es, y por qué un festival en un campo de polo se hizo tan famoso. Después responde a la pregunta por la que existe esta web: ¿qué música suena de verdad en Coachella?
-
 ## Coachella 2027: las fechas
 
 Coachella 2027 se celebra en dos fines de semana de abril: del viernes 9 al domingo 11 de abril y del viernes 16 al domingo 18 de abril de 2027, en el Empire Polo Club de Indio. El festival anunció las fechas en abril de 2026. Sus [páginas oficiales de 2027](https://coachella.com/2027-advance-sale) dan la información vigente sobre los abonos y los precios; consúltalas también por si el cartel se anuncia más adelante, en lugar de fiarte aquí de un dato con fecha.

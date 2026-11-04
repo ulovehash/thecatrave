@@ -8,7 +8,7 @@ Ultra Music Festival Miami is an 18-and-over electronic music festival at Bayfro
 
 What is Ultra, for people who have never been? A festival in a park on the water in downtown Miami, at the end of Miami Music Week, when the Winter Music Conference brings the dance music industry to town. Far more people watch it than can enter the park: in 2026 the #ULTRALIVE stream reached a reported global audience of 42.5 million, while the festival reported 165,000 admissions summed across three days.
 
-This guide covers where Ultra happens and when, how big it really is, who started it and who owns it now, and how a beach party became a brand with editions on several continents, Ultra Europe among them. Then the question this site is here for: under the Main Stage fireworks, what does the Ultra festival actually play? One thing first. Ultra here is the festival, not Ultra Records, the dance label with a similar name. The two were once opponents in court, and settled in 2012 with what they called a "global alliance".
+Ultra here is the festival, not Ultra Records, the dance label with a similar name. The two were once opponents in court, and settled in 2012 with what they called a "global alliance".
 
 ## Where is Ultra Music Festival?
 
@@ -70,7 +70,7 @@ Ultra also turned one of its Miami stages into a brand of its own. Resistance, i
 
 ## Ultra Europe, in Split
 
-Ultra Europe is the summer edition, the Ultra festival Croatia has hosted every July since 2013, the two pandemic years aside. It is held in Split, on the Dalmatian coast, and Croatians search for it as Ultra Split more often than as Ultra Europe. Ultra Croatia is another name people look for it under.
+Ultra Europe is the summer edition, the Ultra festival Croatia has hosted every July since 2013, the two pandemic years aside. It is held in Split, on the Dalmatian coast, and it is often called Ultra Split, or Ultra Croatia.
 
 The first edition took place on 12 and 13 July 2013 at the Poljud Stadium, with two stages: the Main Stage and the Carl Cox & Friends Arena. A day later came Ultra Beach, a party on the island of Hvar. In 2014 the festival grew to three days, and with Ultra Beach it drew 150,000 people to Split and Hvar.
 

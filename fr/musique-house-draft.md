@@ -10,8 +10,6 @@ La house a commencé avec des disques que plus personne ne fabriquait. En 1980, 
 
 À Chicago, cela voulait dire Frankie Knuckles au Warehouse et Ron Hardy au Music Box, qui montaient des disques bout à bout sur bande magnétique et faisaient tourner des boîtes à rythmes dessous. En 1985, les gens qui fréquentaient ces clubs faisaient leurs propres morceaux avec du matériel bon marché, et une petite scène locale est devenue en trois ans un son entendu dans le monde entier.
 
-Ce guide explique ce qu’est la musique house, d’où vient le nom, quels ont été les premiers disques, les branches new-yorkaise et britannique, et les styles qui en sont sortis, de la deep house à l’afro house.
-
 ## Qu’est-ce que la musique house
 
 La définition utile la plus courte est un motif de batterie. La house place la grosse caisse sur chaque temps de la mesure, ce que veut dire « four-on-the-floor », et joue des charleys entre les coups de grosse caisse et un clap ou une caisse claire sur les deuxième et quatrième temps. Ce motif court du début à la fin du morceau, en général entre 118 et 128 battements par minute.

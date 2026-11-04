@@ -8,7 +8,7 @@ EDC Las Vegas es el buque insignia del Electric Daisy Carnival, un festival de m
 
 ¿Qué es el festival EDC Las Vegas para quien nunca ha ido? Un festival en un circuito de carreras en pleno desierto, durante tres noches, con atracciones de feria entre los escenarios. Insomniac lo presenta como el mayor festival de música de baile de Norteamérica. En 2026, por su 30.º aniversario, reunió a más de 450 artistas en 18 espacios musicales y art cars; seis escenarios se emitieron además en directo en el canal de YouTube de Insomniac.
 
-Esta guía explica dónde y cuándo es, qué tamaño tiene de verdad, cómo una rave de los primeros tiempos del sur de California se convirtió en el buque insignia de una empresa y por qué se hizo famoso. Después, la pregunta por la que existe esta web: más allá de los fuegos artificiales sobre kineticFIELD, ¿qué suena de verdad en el Electric Daisy Carnival? Una aclaración antes de seguir. Aquí EDC es el festival, no el everyday carry, el nombre que se da a las navajas y linternas que uno lleva en el bolsillo.
+Aquí EDC es el festival, no el everyday carry, el nombre que se da a las navajas y linternas que uno lleva en el bolsillo.
 
 ## Dónde es EDC Las Vegas
 

@@ -8,7 +8,7 @@ Coachella, vollständig Coachella Valley Music and Arts Festival, findet im Empi
 
 Coachella begann als Wagnis eines Veranstalters aus Los Angeles, der seine Bands an größere Konkurrenten verlor. Die erste Ausgabe machte 850.000 Dollar Verlust, im Jahr darauf fiel das Festival aus, und daraus wurde eines der größten und profitabelsten Musikfestivals der Welt.
 
-Was ist das Coachella Festival für jemanden, der nie dort war? Dieser Guide erklärt, wann Coachella 2027 stattfindet, wo Coachella liegt und wie lange es dauert, wie groß es ist, wer es gegründet hat und wem es gehört, und warum ein Festival auf einem Polofeld so berühmt wurde. Danach beantwortet er die Frage, für die es diese Seite gibt: Welche Musik läuft bei Coachella eigentlich?
+Was ist das Coachella Festival für jemanden, der nie dort war? Zwei Wochenenden im April auf einem Polofeld in Indio, Kalifornien, mit Headlinern aus Rock, Pop, Hip-Hop und Latin neben dem Sahara-Zelt und Quasar, die einen großen Teil des elektronischen Programms tragen.
 
 ## Coachella 2027: Termine
 

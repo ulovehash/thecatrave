@@ -10,8 +10,6 @@ Primavera Sound se construye sobre la variedad, no sobre un solo género. Un gru
 
 [Image: Primavera stage crowd]
 
-Esta guía responde a las preguntas que hay detrás de las búsquedas sobre Primavera Sound Barcelona: qué es, cuándo y dónde se celebra, quién ha sido cabeza de cartel cada año, cuánta gente va, qué música suena y cómo encajan Primavera a la Ciutat y Primavera Sound Porto bajo el mismo nombre. No sigue el cartel ni los horarios de la edición en curso, que cambian cada año y tienen su sitio en el programa oficial.
-
 ## ¿Qué es Primavera Sound?
 
 Primavera Sound es un festival urbano de música de varios géneros, creado en Barcelona. La primera edición con ese nombre se celebró en el Poble Espanyol el 28 de abril de 2001. Duró un día, vendió unas 7.700 entradas y se inclinaba hacia el rock indie y la música electrónica. En 2004 ya duraba tres días y en 2005 se trasladó al otro lado de la ciudad, al Parc del Fòrum, el gran recinto frente al mar que sigue definiendo la edición de Barcelona.
@@ -98,7 +96,7 @@ El set oficial de Alan Sparhawk en Oporto muestra el lado más pequeño del nomb
 
 [Embed: srV4AgUc104]
 
-Otros eventos con la marca Primavera han aparecido en ciudades como Los Ángeles, Buenos Aires, São Paulo y Madrid, con duraciones y formatos distintos. Para quedarte con la distinción estable que hay detrás de las búsquedas, recuerda dos lugares: Primavera Sound Barcelona, en el Parc del Fòrum, y Primavera Sound Porto, en el Parque da Cidade.
+Otros eventos con la marca Primavera han aparecido en ciudades como Los Ángeles, Buenos Aires, São Paulo y Madrid, con duraciones y formatos distintos. Dos lugares se mantienen fijos: Primavera Sound Barcelona, en el Parc del Fòrum, y Primavera Sound Porto, en el Parque da Cidade.
 
 ## FAQ
 

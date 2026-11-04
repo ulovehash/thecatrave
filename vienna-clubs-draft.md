@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The best clubs in Vienna are a short list, and the list changed this year. Pratersauna, long the city's most talked-about club, stopped operating as a nightclub in December 2025 and went into insolvency in January 2026. What is left is a spread of rooms that each do one thing well: a tunnel by the canal, a pair of railway arches in the Spittelau area, a container club by the old Praterstern station and a crystal-ceilinged room at Karlsplatz. This guide covers the Vienna clubs open now, what each is for, and what happened to the one that closed.
+The best clubs in Vienna are a short list, and the list changed this year. Pratersauna, long the city's most talked-about club, stopped operating as a nightclub in December 2025 and went into insolvency in January 2026. What is left is a spread of rooms that each do one thing well: a tunnel by the canal, a pair of railway arches in the Spittelau area, a container club by the old Praterstern station and a crystal-ceilinged room at Karlsplatz.
 
 ## The best clubs in Vienna now
 

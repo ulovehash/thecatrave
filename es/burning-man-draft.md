@@ -8,7 +8,7 @@ Burning Man es una ciudad efímera que se construye cada verano en el desierto d
 
 La mayoría de las descripciones de Burning Man empiezan por las fotos: el polvo, los disfraces, los art cars iluminados de noche. Son ciertas, y se les escapa lo que hace extraño al evento. Burning Man no es un festival que casualmente esté en un desierto. Es una ciudad que existe una semana y funciona con sus propias reglas.
 
-Por eso mismo la música de Burning Man es tan difícil de describir desde fuera. Lee Burridge pincha sets al amanecer en Robot Heart desde hace más de diez años, pero no figura en ningún cartel válido para todo el evento. Esta guía explica qué es Burning Man, dónde es, qué se hace y cuánto cuesta, y después responde a la pregunta por la que existe esta web: el festival Burning Man, o Burning Man Festival como se le suele llamar, ¿es de verdad un festival de música, y qué ponen sus sound camps?
+Por eso mismo la música de Burning Man es tan difícil de describir desde fuera. Lee Burridge pincha sets al amanecer en Robot Heart desde hace más de diez años, pero no figura en ningún cartel válido para todo el evento. Entonces el festival Burning Man, o Burning Man Festival como se le suele llamar, ¿es de verdad un festival de música, y qué ponen sus sound camps?
 
 [Table: Comparación]
 

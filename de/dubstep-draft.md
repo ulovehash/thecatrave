@@ -2,13 +2,11 @@
 
 ## Einleitung
 
-Wer nach Dubstep-Musik sucht, findet zwei Antworten, die sich widersprechen. Die eine beschreibt geduldige Musik in halbem Tempo, gebaut um einen Bass, den man in der Brust spürt. Die andere beschreibt das Lauteste auf einer Festival-Hauptbühne. Beide stimmen, beide heißen Dubstep, und der Abstand zwischen ihnen ist das Interessanteste an dem Genre.
-
-Dieser Guide erklärt, woher der Sound kam, wie er gebaut ist, was geschah, als er sich spaltete, und welche Versionen davon nie aufgehört haben.
+Für Dubstep-Musik gibt es zwei Definitionen, die sich widersprechen. Die eine beschreibt geduldige Musik in halbem Tempo, gebaut um einen Bass, den man in der Brust spürt. Die andere beschreibt das Lauteste auf einer Festival-Hauptbühne. Beide stimmen, beide heißen Dubstep, und der Abstand zwischen ihnen ist das Interessanteste an dem Genre.
 
 ## Antwort
 
-Dubstep ist ein vom Bass angeführter elektronischer Stil, der sich Anfang der 2000er-Jahre im Süden Londons formte. Er läuft bei etwa 140 Schlägen pro Minute, mit Kick und Snare so weit auseinander, dass sich die Musik halb so schnell anfühlt, wie sie zählt, und sein Gewicht liegt im Sub-Bass statt in der Melodie. Das ist die ursprüngliche Definition. Seit etwa 2010 bezeichnet dasselbe Wort auch eine lautere amerikanische Variante, gebaut auf verzerrten Mitten, und die beiden klingen fast gar nicht gleich. Beide heißen Dubstep. Zu verstehen, warum, ist das meiste von dem, was Menschen eigentlich wissen wollen, wenn sie nach dem Begriff suchen.
+Dubstep ist ein vom Bass angeführter elektronischer Stil, der sich Anfang der 2000er-Jahre im Süden Londons formte. Er läuft bei etwa 140 Schlägen pro Minute, mit Kick und Snare so weit auseinander, dass sich die Musik halb so schnell anfühlt, wie sie zählt, und sein Gewicht liegt im Sub-Bass statt in der Melodie. Das ist die ursprüngliche Definition. Seit etwa 2010 bezeichnet dasselbe Wort auch eine lautere amerikanische Variante, gebaut auf verzerrten Mitten, und die beiden klingen fast gar nicht gleich. Beide heißen Dubstep.
 
 ## Croydon, Big Apple und ein Sound ohne Namen
 

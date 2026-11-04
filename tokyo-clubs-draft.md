@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Tokyo clubbing has a fact almost every visitor learns the hard way: for most of the city's postwar history, dancing itself was regulated like a vice. A law written in 1948 treated a dancefloor the way it treated a strip club, and it stayed on the books, on and off enforced, until 2016. Tokyo's clubs did not grow up in spite of that law so much as around it, in basements under Shibuya's love-hotel hill and in a waterfront warehouse in the reclaimed docklands of Shin-Kiba. This guide covers the clubs built for house, techno and bass music rather than the hostess clubs and members' bars that also answer to "club" in Tokyo, and it explains the law that shaped where they ended up.
+Tokyo clubbing has a fact almost every visitor learns the hard way: for most of the city's postwar history, dancing itself was regulated like a vice. A law written in 1948 treated a dancefloor the way it treated a strip club, and it stayed on the books, on and off enforced, until 2016. Tokyo's clubs did not grow up in spite of that law so much as around it, in basements under Shibuya's love-hotel hill and in a waterfront warehouse in the reclaimed docklands of Shin-Kiba. The clubs here are the ones built for house, techno and bass music, not the hostess clubs and members' bars that also answer to "club" in Tokyo.
 
 ## Fifty years of a law against dancing
 

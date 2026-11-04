@@ -6,7 +6,7 @@ Die besten Clubs in Budapest sind A38, ein umgebautes Frachtschiff von 1968, das
 
 ## Einleitung
 
-Wer nach dem Nachtleben in Budapest sucht, bekommt zuerst Ruinenbars: heruntergekommene Kneipen mit Hof in abbruchreifen Gebäuden, berühmt geworden durch den Szimpla Kert. Das ist eine echte und riesige Szene, aber größtenteils keine zum Feiern auf der Tanzfläche, denn die meisten Ruinenbars sind zuerst Bars, mit Musik als Untermalung statt einer Tanzfläche. Dieser Guide handelt von der kleineren Liste der Budapester Orte, die für House, Techno und Tanzen bis zum Morgen gebaut wurden oder dazu gewachsen sind, und von denen einige als Ruinenbars begannen, bevor die Musik übernahm.
+Wer nach dem Nachtleben in Budapest sucht, bekommt zuerst Ruinenbars: heruntergekommene Kneipen mit Hof in abbruchreifen Gebäuden, berühmt geworden durch den Szimpla Kert. Das ist eine echte und riesige Szene, aber größtenteils keine zum Feiern auf der Tanzfläche, denn die meisten Ruinenbars sind zuerst Bars, mit Musik als Untermalung statt einer Tanzfläche. Die Orte hier sind die kleinere Liste der Budapester Räume, die für House, Techno und Tanzen bis zum Morgen gebaut wurden oder dazu gewachsen sind, und einige davon begannen als Ruinenbars, bevor die Musik übernahm.
 
 ## Von den Ruinenbars zu den Clubs
 

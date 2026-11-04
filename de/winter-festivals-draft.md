@@ -20,7 +20,7 @@ Ein Festival steht auf der Liste, wenn elektronische Musik sein Kern ist, es zwi
 
 ## Welche Winterfestivals sind die größten?
 
-Die größten Winterfestivals sind die mit großer Produktion und bekannten Headlinern: Tomorrowland Winter und Snowbombing in den Alpen, Igloofest in Montreal, Snow Machine in Hakuba und Nameless Winter in den italienischen Alpen. Sie sind die Antwort für alle, die die besten Winterfestivals suchen und Namen wollen, die sie schon kennen.
+Die größten Winterfestivals sind die mit großer Produktion und bekannten Headlinern: Tomorrowland Winter und Snowbombing in den Alpen, Igloofest in Montreal, Snow Machine in Hakuba und Nameless Winter in den italienischen Alpen.
 
 ### Tomorrowland Winter, Alpe d'Huez
 

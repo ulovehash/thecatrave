@@ -6,7 +6,7 @@ Die größten Silvester-Festivals und der größte Silvester-Rave für elektroni
 
 ## Einleitung
 
-Silvester fällt auf der Südhalbkugel mitten in den Sommer und auf der Nordhalbkugel mitten in den Winter, und das entscheidet, welche Silvester-Festivals es wo gibt. In Neuseeland und Australien ist Campingsaison, also bekommt das neue Jahr mehrtägige Open-Air-Festivals in Weinbergen und auf Farmland. In den USA ziehen die großen Veranstalter nach drinnen, in Messehallen, Arenen und ein Baseballstadion, und veranstalten den Silvester-Rave über zwei Nächte. In Europa, wo Winter ist und die Clubkultur älter, gehört die Nacht vor allem den Clubs, mit einer sehr großen Ausnahme in Brüssel. Dieser Guide deckt alle drei ab, mit den Terminen für Silvester 2026, soweit die Festivals sie angekündigt haben.
+Silvester fällt auf der Südhalbkugel mitten in den Sommer und auf der Nordhalbkugel mitten in den Winter, und das entscheidet, welche Silvester-Festivals es wo gibt. In Neuseeland und Australien ist Campingsaison, also bekommt das neue Jahr mehrtägige Open-Air-Festivals in Weinbergen und auf Farmland. In den USA ziehen die großen Veranstalter nach drinnen, in Messehallen, Arenen und ein Baseballstadion, und veranstalten den Silvester-Rave über zwei Nächte. In Europa, wo Winter ist und die Clubkultur älter, gehört die Nacht vor allem den Clubs, mit einer sehr großen Ausnahme in Brüssel.
 
 ## Silvester 2026: die Festivals und ihre Termine
 

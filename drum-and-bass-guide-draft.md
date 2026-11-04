@@ -2,8 +2,6 @@
 
 Drum and bass emerged from the same British rave continuum as jungle. It kept the fast breakbeats and sub-bass, then developed a technical school, its own institutions and, eventually, festivals on five continents.
 
-This guide covers where that turn happened, how the music is put together, the branches it grew, and how a sound made in Britain ended up being made everywhere.
-
 ## DRUM AND BASS DEFINITION
 
 Drum and bass is a British electronic music genre built around fast breakbeats, heavy sub-bass and tempos usually between 170 and 180 BPM. It emerged from the same early-1990s rave continuum as jungle. By the mid-1990s, drum and bass increasingly described newer directions that often placed more emphasis on production detail and less on ragga samples, but the boundary was never fixed. Jungle continued as a living style, and the two terms still overlap. Drum and bass is also written drum n bass or d&b and commonly shortened to DnB.

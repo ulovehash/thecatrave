@@ -8,7 +8,7 @@ Untold Festival is an electronic music festival held every August in Cluj-Napoca
 
 Untold began with a title the city had won. In 2015 Cluj-Napoca was European Youth Capital, and a festival was built for that year in the city's football stadium and the park beside it. It has come back every summer since, bar the pandemic, and in DJ Mag's festival poll it now sits behind only Tomorrowland and EDC Las Vegas.
 
-What is Untold Festival to someone who has never been to Romania? This guide covers when Untold 2027 is, where Untold happens, how big it is, who started it, and why a festival in Transylvania got so famous. Then it answers the question this site is here for: past the main stage, what does the Untold music festival actually play?
+What is Untold Festival to someone who has never been to Romania? Four days in Cluj-Napoca, with the main stage of the Untold music festival built inside the Cluj Arena football stadium and more stages in the park beside it.
 
 ## Untold 2027: dates and the Star Edition
 
