@@ -6,7 +6,7 @@ The Belgrade clubs worth planning a night around are Drugstore, a former slaught
 
 ## Introduction
 
-Belgrade night life guides often cover bars, pub crawls and cocktails. This guide focuses on Belgrade nightclubs with documented electronic-music programming, including Drugstore's former slaughterhouse and Barutana's open-air space by a historic gunpowder magazine. Some of the best-known nightclubs in Belgrade operated on river rafts, the splavovi. The recorded sets below document several venues and events. Check each venue's current listings before you go.
+Belgrade night life guides often cover bars, pub crawls and cocktails. The Belgrade nightclubs here have documented electronic-music programming, including Drugstore's former slaughterhouse and Barutana's open-air space by a historic gunpowder magazine. Some of the best-known nightclubs in Belgrade operated on river rafts, the splavovi. The recorded sets below document several venues and events. Check each venue's current listings before you go.
 
 ## Belgrade nightlife in one pass
 

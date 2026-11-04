@@ -8,7 +8,7 @@ Jungle ist eine schnelle, von Breakbeats getragene Form britischer elektronische
 
 Jungle-Musik entstand aus der britischen Rave-Szene der frühen Neunziger und der karibischen Soundsystem-Kultur. Sie ist schnell, auf zerhackten Funk-Breakbeats gebaut und von schwerem Subbass getragen.
 
-Er begann als Londoner Sound und hatte binnen weniger Jahre eigenen Slang, eigene Kleidung und sein eigenes Publikum. Dieser Guide folgt ihm von den ersten Platten bis zum heutigen Revival: woher der Name kommt, wer ihn machte, welche Labels und Räume ihn trugen und welche Raver und DJs ihn am Leben hielten.
+Er begann als Londoner Sound und hatte binnen weniger Jahre eigenen Slang, eigene Kleidung und sein eigenes Publikum.
 
 Wenn dir die britische Rave-Geschichte neu ist, sieh dir [unseren Guide zur Entwicklung der britischen elektronischen Musik](/uk-electronic-music-evolution) (auf Englisch) an: Er zeichnet den ganzen Weg vom Industrial Techno bis zum Dubstep nach.
 
@@ -78,7 +78,7 @@ Auch **Tape Packs** wurden zum festen Bestandteil: Fans nahmen diese Radiosendun
 
 ## 1994 bis 1995: Jungle erreicht den Mainstream
 
-1994 explodierte Jungle aus dem Underground in den britischen Mainstream, scheinbar über Nacht. Nachdem die Musik im Piratenradio und in Spezialläden gebrodelt hatte, hatte sie plötzlich **Hymnen an der Spitze der Charts**, die die ganze britische Jugend zu kennen schien. Zwei Tracks markierten diesen Crossover besonders: **„Original Nuttah“ von Shy FX (feat. UK Apachi)** und **„Incredible“ von M-Beat (feat. General Levy)**. Beide erschienen 1994, beide fingen die Energie des Jungle mit eingängigen Ragga-Vocals und halsbrecherischen Beats ein, und sie stürmten Clubs und Charts gleichermaßen. „Incredible“ machte aus diesem Potenzial etwas viel Größeres. Plötzlich hallte der ikonische Ruf **„Wicked! Wicked! Junglist massive!“** aus Autoradios und sogar aus Kinokomödien (unvergesslich im Film von **Ali G**).
+1994 explodierte Jungle aus dem Underground in den britischen Mainstream, scheinbar über Nacht. Nachdem die Musik im Piratenradio und in Spezialläden gebrodelt hatte, hatte sie plötzlich **Hymnen an der Spitze der Charts**, die die ganze britische Jugend zu kennen schien. Zwei Tracks markierten diesen Crossover besonders: **„Original Nuttah“ von Shy FX (feat. UK Apachi)** und **„Incredible“ von M-Beat (feat. General Levy)**. Beide erschienen 1994, beide fingen die Energie des Jungle mit eingängigen Ragga-Vocals und halsbrecherischen Beats ein, und sie stürmten Clubs und Charts gleichermaßen. „Incredible“ machte aus diesem Potenzial etwas viel Größeres. Plötzlich hallte der Ruf **„Wicked! Wicked! Junglist massive!“** aus Autoradios und sogar aus Kinokomödien (unvergesslich im Film von **Ali G**).
 
 [Bild: awol]
 
@@ -92,7 +92,7 @@ Ebenso wurde „Original Nuttah“ mit seinen Maschinengewehr-Breakbeats und int
 
 Mit der Popularität kamen **Aufmerksamkeit der Presse und Interesse der Major-Labels**. Compilations wie *Jungle Mania* und *Jungle Hits* flogen aus den Regalen und stellten Gelegenheitshörern die großen Tracks des Genres vor. Die **britischen Medien** schwankten zwischen dem Hype um Jungle als „das nächste große Ding“ und dem Schüren einer *Moralpanik* über seine angeblichen Verbindungen zu Gewalt oder Gangs. Die Mitte der Neunziger waren trotzdem die besten Jahre des Jungle. Fast jede Woche erschien ein neuer Track, der zum Klassiker werden sollte. Junglists hatten die Qual der Wahl, von den rauen Ragga-Vibes von **Remarc** und **Congo Natty** bis zum sanften, jazzigen „Intelligent“ Jungle, den **LTJ Bukem** vorantrieb.
 
-Zu den **großen Hymnen von 1994 bis 1995** gehörten: *„Burial“* von Leviticus (mit seinem ikonischen *„Burial!“*-Vocal-Sample), *„Helicopter Tune“* von Deep Blue (benannt nach seinem surrenden, hubschrauberartigen Break), *„Champion DJ“* von Congo Natty (ein Beispiel für rastafarisch geprägten Jungle) und der **allgegenwärtige Club-Kracher „Lighter“** von DJ SS (der bekanntlich ein klassisches Musikmotiv sampelt, bevor er in schweren Bass fällt). Auf der melodischeren Seite brachten Tracks von **LTJ Bukem** wie „Horizons“ atmosphärische Flächen und Jazz-Riffs und trugen ihm das Etikett *„Ambient Jungle“* ein. 1995 hatte Jungle sogar eine wöchentliche landesweite Radiosendung: **„One in the Jungle“ auf BBC Radio 1** brachte Sets im Stil der Piraten auf einen legalen Sender und gab Künstlern wie Roni Size, Hype und Grooverider eine neue Bühne.
+Zu den **großen Hymnen von 1994 bis 1995** gehörten: *„Burial“* von Leviticus (mit seinem *„Burial!“*-Vocal-Sample), *„Helicopter Tune“* von Deep Blue (benannt nach seinem surrenden, hubschrauberartigen Break), *„Champion DJ“* von Congo Natty (ein Beispiel für rastafarisch geprägten Jungle) und der **allgegenwärtige Club-Kracher „Lighter“** von DJ SS (der bekanntlich ein klassisches Musikmotiv sampelt, bevor er in schweren Bass fällt). Auf der melodischeren Seite brachten Tracks von **LTJ Bukem** wie „Horizons“ atmosphärische Flächen und Jazz-Riffs und trugen ihm das Etikett *„Ambient Jungle“* ein. 1995 hatte Jungle sogar eine wöchentliche landesweite Radiosendung: **„One in the Jungle“ auf BBC Radio 1** brachte Sets im Stil der Piraten auf einen legalen Sender und gab Künstlern wie Roni Size, Hype und Grooverider eine neue Bühne.
 
 ### Subgenres des Jungle: Ragga, Jump-Up, Ambient und Darkside.
 
@@ -116,7 +116,7 @@ Das sind die DJs, Produzenten und MCs, die den Sound prägten, und was jeder von
 - **Fabio & Grooverider**: Pioniere des Sounds, von den Clubnächten im Rage bis zu BBC Radio 1.
 - **Dillinja**: Bekannt für seinen unerreichten Subbass und dunkle, schwere Tracks.
 - **Aphrodite**: Meister des Jump-Up. Schuf zugängliche, funkige Jungle-Hits für ein breites Publikum.
-- **MC Stevie Hyper D**: Der ikonischste MC des Jungle. Brachte Melodie und Tempo in den Livegesang.
+- **MC Stevie Hyper D**: Der bekannteste MC des Jungle. Brachte Melodie und Tempo in den Livegesang.
 
 ## Jungle-Labels und die Infrastruktur der Szene
 
@@ -154,7 +154,7 @@ Jungle hatte eigenen Slang, eigene Mode und eigene Rituale. Das Vokabular wurzel
 
 MCs waren entscheidend für die Verbreitung dieses Slangs. Über basslastigen Beats heizten sie das Publikum mit Rufen wie *„Big up all crew inside!“* und *„Dis one’s dangerous!“* an. Das Publikum antwortete den MCs mit **Gunfingers** (Gesten mit Fingerpistolen), Rewinds und Sprechchören.
 
-Die **Mode** war ebenso wichtig. Zur typischen Uniform der Junglists gehörten **weite Jeans, Camouflage-Muster, Nike Air Max oder Timberlands, Hoodies und Bomberjacken**. MA-1-Fliegerjacken mit Crew-Logos oder Metalheadz-Aufnähern waren besonders ikonisch. Das war Streetwear der Arbeiterklasse, weit weg vom Neon der früheren Raves.
+Die **Mode** war ebenso wichtig. Zur typischen Uniform der Junglists gehörten **weite Jeans, Camouflage-Muster, Nike Air Max oder Timberlands, Hoodies und Bomberjacken**. MA-1-Fliegerjacken mit Crew-Logos oder Metalheadz-Aufnähern gehörten zum Look. Das war Streetwear der Arbeiterklasse, weit weg vom Neon der früheren Raves.
 
 [Bild: dancing]
 
@@ -171,7 +171,7 @@ Das sind die Platten, die das **Genre Jungle-Musik** formten, von den ersten Bla
 - **„We Are I.E.“, Lennie De Ice (1991)**: Oft als Blaupause des Jungle genannt. Mit tiefem Subbass, Hip-Hop-Breakbeats und Ragga-Samples legte er den Grundstein für alles, was folgte.
 - **„Valley of the Shadows“, Origin Unknown (1993)**: Ein minimalistisches, unheimliches Meisterwerk mit dem berühmten „31 seconds“-Sample. Eine typische Veröffentlichung von RAM Records und ein Proto-Jungle-Kracher.
 - **„Original Nuttah“, Shy FX & UK Apachi (1994)**: Der Track, der Jungle in die britischen Top 40 brachte. Ragga-Vocals, rasende Beats und eine Energie, die Rufe wie „Junglist massive!“ in der Rave-Kultur verankerte.
-- **„Incredible“, M-Beat ft. General Levy (1994)**: Vielleicht die ikonischste Stimme des Jungle. Seine ansteckende Zeile „Junglist is massive!“ ist heute ein kulturelles Schlagwort.
+- **„Incredible“, M-Beat ft. General Levy (1994)**: Vielleicht die bekannteste Stimme des Jungle. Seine ansteckende Zeile „Junglist is massive!“ ist heute ein kulturelles Schlagwort.
 - **„Terrorist“, Renegade (Ray Keith) (1994)**: Ein Darkside-Klassiker, der mit schwerem Bass auf dem Amen-Break reitet. Sinnbild für die härtere Seite des Jungle.
 - **„Circles“, Adam F (1995)**: Soulig und verträumt, aber in harten Breaks verwurzelt. Ein Wendepunkt zu einer musikalischeren Jungle-Produktion.
 - **„Super Sharp Shooter“, DJ Zinc (1996)**: Ein Beispiel für Jump-Up-Jungle: funky, tanzflächentauglich und in jedem Set riesig.
@@ -186,7 +186,7 @@ Weitere Klassiker sind *„Babylon“* von Splash, *„Lord of the Null Lines (F
 Jungle-Musik beruht auf **Breakbeats**: gesampelten Drum-Loops, die Produzenten zerhackten, dehnten und in hohem Tempo neu anordneten.
 
 - **Amen Break**: Aus „Amen, Brother“ von The Winstons (1969). Der meistgesampelte Drum-Loop der Geschichte. Seine knackigen Snares und klaren Hi-Hats wurden zum Rückgrat unzähliger Jungle-Tracks.
-- **Think Break**: Aus „Think (About It)“ von Lyn Collins (1972). Bekannt für seinen rollenden Groove und das ikonische „Woo!“, brachte er Federung und Funk in viele frühe Jungle-Tracks.
+- **Think Break**: Aus „Think (About It)“ von Lyn Collins (1972). Bekannt für seinen rollenden Groove und das „Woo!“, brachte er Federung und Funk in viele frühe Jungle-Tracks.
 - **Apache Break**: Aus „Apache“ von The Incredible Bongo Band (1973). Ein percussionlastiger Break, der Jungle-Tracks das Gefühl von Live-Schlagzeug gab.
 - **Hot Pants Break**: Aus „Hot Pants“ von Bobby Byrd (1971). Ein knackiger, funkiger Loop, den Jungle-Produzenten gern für Übergänge und Edits schichteten.
 

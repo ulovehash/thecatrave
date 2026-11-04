@@ -84,7 +84,7 @@ const copy = {
         ['DJ Rap', 'Wegbereitende DJ und Produzentin mit Crossover-Erfolg'],
         ['DJ Storm', 'Kern von Metalheadz, eine der führenden Frauen am DJ-Pult des Jungle'],
         ['DJ Randall', 'Bekannt für präzises Mixen und dunkle Jungle-Sets auf Kool FM'],
-        ['DJ Zinc', 'Pionier des Jump-Up, machte das ikonische „Super Sharp Shooter“'],
+        ['DJ Zinc', 'Pionier des Jump-Up, machte „Super Sharp Shooter“'],
         ['Krust', 'Experimenteller Produzent und Teil der Crew von Reprazent'],
         ['Andy C', 'Chef von RAM Records, produzierte „Valley of the Shadows“ mit 16'],
         ['M-Beat', 'Produzierte „Incredible“ mit General Levy, einen riesigen Jungle-Hit'],
@@ -92,9 +92,9 @@ const copy = {
         ['Adam F', 'Bekannt für „Circles“, einen melodischen, souligen Jungle-Klassiker'],
         ['Deep Blue', 'Machte den Rave-Standard mit Hubschrauber-Sample, „Helicopter Tune“'],
         ['Marcus Intalex', 'Führte Jungle in einen tiefen, flüssigen Drum and Bass über'],
-        ['Stevie Hyper D', 'Der ikonischste Jungle-MC, bekannt für seinen blitzschnellen Flow'],
+        ['Stevie Hyper D', 'Der bekannteste Jungle-MC, bekannt für seinen blitzschnellen Flow'],
         ['MC UK Apachi', 'Stimme auf „Original Nuttah“, legendäre Ragga-Flows'],
-        ['General Levy', 'Die Stimme von „Incredible“; sein „Junglist massive!“ ist ikonisch']
+        ['General Levy', 'Die Stimme von „Incredible“; sein „Junglist massive!“ wurde zum Schlagwort']
       ]
     },
     'modern-artists': {

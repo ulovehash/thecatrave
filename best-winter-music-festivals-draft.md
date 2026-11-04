@@ -6,7 +6,7 @@ The best winter music festivals for 2027 are Tomorrowland Winter and Snowbombing
 
 ## Introduction
 
-A winter festival is a different trip from a summer one. You are choosing a mountain resort, a cold waterfront or a city in January, and the music is one part of that choice. This page sorts the winter festivals by what they are for: the biggest names, the house and techno weeks on a mountain, and a short list recommended by the electronic music press.
+A winter festival is a different trip from a summer one. You are choosing a mountain resort, a cold waterfront or a city in January, and the music is one part of that choice. Winter festivals sort by what they are for: the biggest names, the house and techno weeks on a mountain, and a short list recommended by the electronic music press.
 
 ## How this list was chosen
 
@@ -111,8 +111,6 @@ Rise opens the 2026 to 2027 winter, so it is a December festival in a guide to 2
 Astropolis is the Brest electronic festival, and its winter edition is held in February. The festival has not confirmed the dates of the 14th edition, so no day is printed here.
 
 ## How to choose
-
-Choose by what you want from the trip. For the biggest names and a ski holiday, choose Tomorrowland Winter or Snowbombing. For a city festival that you can do in a weekend, choose Igloofest or CTM. For house and techno in a resort town, choose Shapes, Caprices or Hibernation. For talks and art beside the music, choose Elevate.
 
 Check the source column before you book. Five festivals have dates confirmed on their own sites, and the rest should be checked against the festival before you buy travel. For summer plans, see the [best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 

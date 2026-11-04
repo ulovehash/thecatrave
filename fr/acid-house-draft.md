@@ -6,7 +6,7 @@ L’acid house est née d’une machine dont personne ne voulait. Roland vendait
 
 Une bande d’amis a acheté celle-là, a tourné ses boutons pendant qu’une boîte à rythmes tournait, et un DJ a passé le résultat quatre fois dans la même nuit, jusqu’à ce que son public perde la tête. Un an ou deux plus tard, le même son était dans le top 10 britannique, à la une du Sun et à la Chambre des communes.
 
-Ce guide sépare trois choses que l’on confond presque toujours : le son, les disques de Chicago qui lui ont donné un nom, et le mouvement britannique qui a repris ce nom pour lui faire dire quelque chose de bien plus large.
+On confond presque toujours trois choses : le son, les disques de Chicago qui lui ont donné un nom, et le mouvement britannique qui a repris ce nom pour lui faire dire quelque chose de bien plus large.
 
 ## Qu’est-ce que l’acid house ?
 

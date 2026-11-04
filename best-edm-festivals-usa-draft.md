@@ -2,8 +2,7 @@
 
 ## Introduction
 
-Which are the best EDM festivals in the US? That depends on what you want to hear and where you want to sleep. The biggest ones are EDC in Las Vegas and Ultra in Miami. For house and techno, go to Movement in Detroit or ARC in Chicago. For bass music, go to Lost Lands in Ohio or Bass Canyon in Washington. This page compares them by sound, scale and setting, and tells you when each one is on in 2027.
-
+The best EDM festivals in the US are spread across the year, from Ultra in Miami at the end of March to ARC in Chicago over Labor Day weekend and EDC Orlando in November.
 
 ## How this list was chosen
 
@@ -118,9 +117,7 @@ These are the US festivals people ask about that did not pass the first test, or
 
 ## How to choose
 
-Pick the sound first, then the setting, then the date. If you want the largest production, choose EDC Las Vegas or Ultra. If you want techno or house, choose Movement or ARC. If you want bass music or trance, choose Lost Lands, Bass Canyon or Dreamstate. If you want to camp, choose Electric Forest, Lost Lands, Bass Canyon or Beyond Wonderland.
-
-Check dates before you book travel. For 2027, EDC, Ultra, Movement and the three Beyond Wonderland editions have published dates, and the others follow as each festival announces them.
+Two dates decide a lot. Ultra and the Southern California edition of Beyond Wonderland share the last weekend of March, and EDC Las Vegas takes two weekends in May. Ultra and ARC are for ages 18 and over. Lost Lands, Bass Canyon and Electric Forest mean camping, while Ultra, Movement and ARC are city festivals, so you sleep in a hotel.
 
 If you are comparing the US with Europe, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
@@ -138,11 +135,11 @@ For a rave-style festival, EDC Las Vegas, Beyond Wonderland and Dreamstate (for 
 
 ### What are the top 10 EDM festivals in the US?
 
-On this page's list, the ten with the clearest 2027 case are EDC Las Vegas, Ultra, Movement, ARC, EDC Orlando, Beyond Wonderland, CRSSD, HARD Summer, Lost Lands and Electric Forest. Dates for most of them are still to come.
+The ten with the clearest 2027 case are EDC Las Vegas, Ultra, Movement, ARC, EDC Orlando, Beyond Wonderland, CRSSD, HARD Summer, Lost Lands and Electric Forest. Dates for most of them are still to come.
 
 ### What is the best EDM festival to go to?
 
-Go to the one that plays the sound you like. EDC Las Vegas for the biggest production, Movement for techno, Lost Lands for bass, Electric Forest for a camping week.
+For a first EDM festival, EDC Las Vegas: it is the biggest, and its 2027 dates are already published, EDC Dusk on 14 to 16 May and EDC Dawn on 21 to 23 May.
 
 ### What are the major EDM festivals in the US?
 

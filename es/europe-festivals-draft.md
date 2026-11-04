@@ -158,13 +158,11 @@ Falta uno, con una advertencia: Fusion, el festival contracultural en un antiguo
 
 ## Cómo elegir
 
-Empieza por la música. La mayor diferencia entre estos festivales es lo que suena: EDM de big room en Tomorrowland, Untold, Parookaville y Creamfields; hardstyle en Defqon.1; techno en Awakenings, Time Warp y Kappa FuturFestival; una programación más amplia y más extraña en Dekmantel y Sónar; todo a la vez en Boomtown.
-
-Después decide cómo quieres dormir. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings y Boomtown tienen camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival y Sónar son festivales de ciudad, donde reservas hotel o piso. Time Warp y Monegros son noches únicas y largas.
+Decide cómo quieres dormir. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings y Boomtown tienen camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival y Sónar son festivales de ciudad, donde reservas hotel o piso. Time Warp y Monegros son noches únicas y largas.
 
 Si las multitudes de los grandes festivales te echan para atrás, empieza por el grupo más pequeño: Garbicz, NACHTI, Houghton y Waking Life tienen camping, Kala viene con hotel, y Draaimolen es un festival de día en una ciudad.
 
-Luego mira el calendario. La temporada europea va de Time Warp en abril a Creamfields y Mysteryland a finales de agosto. Varios de estos festivales venden sus entradas más baratas en otoño para el verano siguiente, mucho antes de anunciar los carteles, así que conviene decidir pronto. Esta página no lista precios, que cambian con cada fase de venta.
+Luego mira el calendario. La temporada europea va de Time Warp en abril a Creamfields y Mysteryland a finales de agosto. Varios de estos festivales venden sus entradas más baratas en otoño para el verano siguiente, mucho antes de anunciar los carteles, así que conviene decidir pronto. Los precios cambian con cada fase de venta.
 
 Para festivales fuera de Europa, mira los [mejores festivales de música electrónica en Asia](/best-electronic-music-festivals-asia).
 

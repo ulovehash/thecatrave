@@ -8,7 +8,7 @@ Breakbeat ist zugleich eine rhythmische Methode und eine Familie von Genres der 
 
 Breakbeat begann mit DJs, die sich weigerten, den besten Teil einer Platte enden zu lassen. Indem sie die freiliegenden Schlagzeugpassagen von Funk- und Soulplatten verlängerten, machten sie aus ein paar Sekunden Rhythmus eine Methode: zuerst für Tanzende und den Hip-Hop, dann für Sampler, Rave und ganze Clubszenen.
 
-Dieser Guide folgt Breakbeat als Musik und Kultur, nicht als Lektion im Programmieren von Drums. Sein Weg führt von Funk-Breaks und der Praxis der DJs in der Bronx zum britischen Hardcore, zu amerikanischen und spanischen Regionalszenen, zu Big Beat, Nu-Skool und dem heutigen, lockereren Kontinuum der Breaks. Jungle, Drum and Bass, Broken Beat und Breakcore kommen dort vor, wo sich ihre Geschichten kreuzen, aber sie werden nicht als Synonyme behandelt.
+Sein Weg führt von Funk-Breaks und der Praxis der DJs in der Bronx zum britischen Hardcore, zu amerikanischen und spanischen Regionalszenen, zu Big Beat, Nu-Skool und dem heutigen, lockereren Kontinuum der Breaks. Jungle, Drum and Bass, Broken Beat und Breakcore kommen dort vor, wo sich ihre Geschichten kreuzen, aber sie werden nicht als Synonyme behandelt.
 
 [Bild: akai]
 

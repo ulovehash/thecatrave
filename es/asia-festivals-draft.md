@@ -125,11 +125,11 @@ Wonderfruit para arte, house y techno, S2O Songkran para una fiesta de agua en B
 
 ### ¿Cuáles son los mejores festivales de música de Japón?
 
-En esta página, Ultra Japan en Tokio. Su edición de 2027 es el 18 y 19 de septiembre.
+Ultra Japan en Tokio. Su edición de 2027 es el 18 y 19 de septiembre.
 
 ### ¿Cuáles son los mejores festivales de música de India?
 
-En esta página, Sunburn, celebrado en Bombay el 18 y 19 de diciembre de 2026.
+Sunburn, celebrado en Bombay el 18 y 19 de diciembre de 2026.
 
 ### ¿Sigue Sunburn en Goa?
 

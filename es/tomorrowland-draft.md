@@ -8,7 +8,7 @@ Tomorrowland es un festival de música electrónica que se celebra cada mes de j
 
 Para quien no sigue la música de baile, Tomorrowland suele ser el único festival de música electrónica que sabe nombrar, y casi nadie de ese grupo ha estado nunca. El festival llega a mucha más gente a través de una pantalla que de sus puertas: 233 millones de reproducciones de sus retransmisiones en 2026, frente a 400.000 entradas.
 
-Esta guía trata del festival belga, no de la zona de los parques de Disney ni de la película de 2015 que comparten su nombre. Explica qué es Tomorrowland, dónde y cuándo se celebra, qué tamaño tiene de verdad, quién lo fundó y de quién es hoy, y por qué se hizo tan famoso. Después responde a la pregunta para la que existe esta web: bajo los fuegos artificiales y la Mainstage, ¿qué música suena de verdad en Tomorrowland?
+Esta guía trata del festival belga, no de la zona de los parques de Disney ni de la película de 2015 que comparten su nombre.
 
 ## Dónde es Tomorrowland
 

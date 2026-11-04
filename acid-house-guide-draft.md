@@ -6,7 +6,7 @@ Acid house began with a machine nobody wanted. Roland sold the TB-303 as a bass 
 
 A group of friends bought that one, turned its knobs while a drum machine ran, and a DJ played the result four times in one night until his crowd lost its mind. A year or two later the same sound was in the British top ten, on the front page of The Sun and in the House of Commons.
 
-This guide keeps three things apart that are usually run together: the sound, the Chicago records that gave it a name, and the British movement that took the name and made it mean something much bigger.
+Three things are usually run together: the sound, the Chicago records that gave it a name, and the British movement that took the name and made it mean something much bigger.
 
 ## What is acid house
 
@@ -108,7 +108,7 @@ Gerald still performs live. His 2013 Boiler Room show is a good place to hear wh
 
 Acid house sits inside house music. It uses the same tempo and drum patterns as Chicago house and came out of the same clubs and labels, which is why acid house music is usually filed as a subgenre of house. What separates it is the TB-303 line in front.
 
-House music is a much bigger subject with its own history, which this guide does not try to cover. The table below is only the family around acid.
+House music is a much bigger subject, with its own history. The table below is only the family around acid.
 
 ## FAQ
 

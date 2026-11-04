@@ -16,7 +16,7 @@ Defqon.1 is a hardstyle festival run by Q-dance. It is held in June at Biddinghu
 
 ![The Red main stage at Defqon.1 in 2023](figure:red)
 
-Visitor numbers are quoted differently by different outlets, so this page does not give one. What is documented is the 2026 size: IQ Magazine reported that Q-dance had cut capacity to 55,000 on site by cancelling the Friday and Saturday day tickets, and that more than 350 artists were due to play.
+Visitor numbers are quoted differently by different outlets. What is documented is the 2026 size: IQ Magazine reported that Q-dance had cut capacity to 55,000 on site by cancelling the Friday and Saturday day tickets, and that more than 350 artists were due to play.
 
 The name has no official explanation on the pages read. The Defqon.1 meaning is open to a reading, since it resembles the US military alert level DEFCON 1, but that is an observation and not something Q-dance states.
 

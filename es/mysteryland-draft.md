@@ -8,7 +8,6 @@ Mysteryland es un festival de música electrónica que se celebra a finales de a
 
 Mysteryland es más antiguo que la mayor parte de la música que programa hoy. El primero, en 1993, fue una rave en el Midland Circuit de Lelystad que dejó pérdidas a sus organizadores. Durante su primera década cambió de lugar una y otra vez; en 2003 se instaló en los terrenos de una exposición hortícola cerca de Hoofddorp, donde se convirtió en un fin de semana con camping y grandes escenarios construidos como esculturas gigantes.
 
-Esta guía presenta Mysteryland 2027 y explica por qué no hay festival Mysteryland en 2026; después cuenta dónde se celebra, su tamaño, cómo creció y de quién es hoy, y qué suena de verdad en sus escenarios.
 
 ## Mysteryland 2027, y por qué no hay edición de 2026
 

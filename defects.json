@@ -1793,17 +1793,78 @@
       "id": "keyword-research-in-prose",
       "found": "2026-11-04",
       "by": "agent",
-      "what": "Fifteen guides describe search behaviour instead of the subject: 'a navigational head with no room for an outside guide' (awakenings-festival), 'This guide answers the main questions behind searches for Primavera Sound Barcelona', 'Croatians search for it as Ultra Split' (ultra-music-festival), 'They are the answer to a search for the best winter music festivals', 'what people are actually asking when they search for the term' (dubstep-guide), two Printworks search-intent lines, and eight 'Search for X and you get…' openers. Full list in ai-slop-review-2026-11-04.md, section 2.",
+      "what": "Fifteen guides describe search behaviour instead of the subject: 'a navigational head with no room for an outside guide' (awakenings-festival), 'This guide answers the main questions behind searches for Primavera Sound Barcelona', 'Croatians search for it as Ultra Split' (ultra-music-festival), 'They are the answer to a search for the best winter music festivals', 'what people are actually asking when they search for the term' (dubstep-guide), two Printworks search-intent lines, and eight 'Search for X and you get…' openers. Full list in ai-slop-review-2026-11-04.md, section 2. Fixed 2026-11-04 with the owner's approval ('fix everything'): the sentences were cut or turned into the fact underneath in all four languages; three 'Search for X' openers stay where what comes back is the story (Budapest ruin bars, Berghain door guides, the DJ Mag poll).",
       "should_have_caught": "AGENTS.md section 4 bans explanations of SEO choices in article copy; audit-banned-phrases.mjs covers only a few fixed strings",
-      "fix": null
+      "fix": {
+        "file": "audit-banned-phrases.mjs",
+        "contains": "No keyword research or page self-description in prose"
+      }
     },
     {
       "id": "roundup-answer-repeated",
       "found": "2026-11-04",
       "by": "agent",
-      "what": "The fault fixed on best-edm-festivals-world (world-festivals-biggest-answer-repeated-four-times) is on the other roundups: best-edm-festivals-usa gives 'it depends on what you want to hear' six times, Portugal and Asia four to six, and Germany, Europe, drum and bass, house, Croatia and bass festival roundups three or four. FAQ answers on the Asia roundup open 'On this page, …'. See ai-slop-review-2026-11-04.md, section 4.",
+      "what": "The fault fixed on best-edm-festivals-world (world-festivals-biggest-answer-repeated-four-times) is on the other roundups: best-edm-festivals-usa gives 'it depends on what you want to hear' six times, Portugal and Asia four to six, and Germany, Europe, drum and bass, house, Croatia and bass festival roundups three or four. FAQ answers on the Asia roundup open 'On this page, …'. See ai-slop-review-2026-11-04.md, section 4. Fixed 2026-11-04: the 'Pick X first' paragraph that walked back through the answer box was removed from twelve roundups; the US roundup (EN/DE/FR/ES) gets a calendar intro, a How to choose built on clashes, ages and camping, and a first-festival FAQ answer; 'On this page,' FAQ openers removed.",
       "should_have_caught": "the redundancy check in ARTICLE-EDITORIAL-REVIEW.md; festival-roundup.mjs builds the repeating How to choose and FAQ shape",
-      "fix": null
+      "fix": {
+        "file": "best-edm-festivals-usa-draft.md",
+        "contains": "Two dates decide a lot."
+      }
+    },
+    {
+      "id": "this-guide-covers-sentence",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "28 guides and their translations carried a sentence listing the page's own sections ('This guide covers where X happens and when, how big it is…'), often followed by 'Then it answers the question this site is here for'. Removed with the owner's approval; club roundups, Tokyo, NYC, Budapest, London and Portugal keep the fact the sentence carried; Coachella, Untold and Burning Man keep their question, answered with facts. AI-slop review section 3.",
+      "should_have_caught": "nothing compared a sentence with the contents box beside it",
+      "fix": {
+        "file": "audit-banned-phrases.mjs",
+        "contains": "the question this site is here for"
+      }
+    },
+    {
+      "id": "festival-planner-generic-defaults",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "The planning block on 23 registry festival guides (four languages) filled every gap with the same generic lines ('Use the live sources for prices…', 'A status of not published means…', 'Recheck the final timetable…', 'The current food and drink menu is not published…') and the same packing and avoid lists per festival type. Defaults removed; a block now shows only what is specific to that festival. AI-slop review section 5.",
+      "should_have_caught": "the planner registry was designed to fall back to generic copy rather than to omit a block",
+      "fix": {
+        "file": "content/festival-planning-registry.mjs",
+        "contains": "No generic fallback: a festival without its own food-and-drink facts gets no"
+      }
+    },
+    {
+      "id": "pages-narrate-themselves",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "Pages explained what they do instead of doing it: 'This page answers what people ask before they go' (Dekmantel), 'This page does not print a price, because the only figures found…' (research process), 'This page compares X by Y, and shows which dates are confirmed' on twelve roundups, the 90s guide describing its own order three times, 'this site does not run the same media twice' (bass), 'so this guide embeds them' (Bristol). Cut or rewritten in all four languages. AI-slop review section 6.",
+      "should_have_caught": "audit-banned-phrases.mjs had no rule for page self-description",
+      "fix": {
+        "file": "audit-banned-phrases.mjs",
+        "contains": "This page does not|this site does not run the same media"
+      }
+    },
+    {
+      "id": "jungle-iconic-cluster",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "The jungle guide used 'iconic' nine times (body and tables), and its translations the same ('ikonisch', 'iconique', 'icónico'). Replaced by 'best-known' where it carried a claim, cut where it did not. AI-slop review section 7.",
+      "should_have_caught": "the humanizer batches did not cover the preserved jungle body",
+      "fix": {
+        "file": "jungle-music-guide.html",
+        "contains": "Jungle’s best-known MC."
+      }
+    },
+    {
+      "id": "festival-question-heading-skeleton",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "Time Warp, Dekmantel, Snowbombing and Love Parade shared one heading set ('Where is X held? / How do X tickets work? / Who plays X? / Which X sets should you hear first?'). The non-keyword questions became plain headings (EN, and the Spanish Time Warp guide). AI-slop review section 8.",
+      "should_have_caught": "nothing compares heading patterns across guides",
+      "fix": {
+        "file": "build-dekmantel-article.mjs",
+        "contains": "Dekmantel sets to hear first."
+      }
     }
   ]
 }

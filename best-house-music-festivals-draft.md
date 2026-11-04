@@ -2,7 +2,7 @@
 
 ## Introduction
 
-House music began in Chicago, and two of the best house music festivals still take place there: ARC in Union Park at the end of summer, and the Chosen Few Picnic in Jackson Park in July. Detroit's Movement comes at the end of May, and Europe adds the Dutch city festivals and a week on the Croatian coast. This page compares the best house music festivals for 2027 by setting and sound, and shows which dates are confirmed.
+House music began in Chicago, and two of the best house music festivals still take place there: ARC in Union Park at the end of summer, and the Chosen Few Picnic in Jackson Park in July. Detroit's Movement comes at the end of May, and Europe adds the Dutch city festivals and a week on the Croatian coast.
 
 ![Listening](figure:playlist)
 
@@ -89,9 +89,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the city first. For the history of house, go to Chicago, for ARC or the Chosen Few Picnic. For a long weekend with techno alongside the house, choose Movement in Detroit. In Europe, choose DGTL or Loveland for a city festival in Amsterdam, and Love International for a week by the sea.
-
-Then look at the calendar: the Chosen Few Picnic may land in the same week as Love International. Check dates with the festival before you book travel, because several of the 2027 dates above have not yet been published. For the records these festivals are built on, see [house music classics](/house-music-classics).
+Look at the calendar: the Chosen Few Picnic may land in the same week as Love International. Check dates with the festival before you book travel, because several of the 2027 dates above have not yet been published. For the records these festivals are built on, see [house music classics](/house-music-classics).
 
 ![Listening](figure:second-mix)
 

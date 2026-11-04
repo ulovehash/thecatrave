@@ -159,9 +159,7 @@ Eines gehört noch hierher, mit einer Warnung: Fusion, das gegenkulturelle Festi
 
 ## Wie man das richtige Festival findet
 
-Fang mit der Musik an. Der größte Unterschied zwischen diesen Festivals ist, was sie spielen: Big-Room-EDM bei Tomorrowland, Untold, Parookaville und Creamfields; Hardstyle bei Defqon.1; Techno bei Awakenings, Time Warp und Kappa FuturFestival; ein breiteres und seltsameres Programm bei Dekmantel und Sónar; alles auf einmal bei Boomtown.
-
-Dann entscheide, wie du schlafen willst. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings und Boomtown haben Camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival und Sónar sind Stadtfestivals, bei denen man ein Hotel oder eine Wohnung bucht. Time Warp und Monegros sind jeweils eine einzige lange Nacht.
+Entscheide, wie du schlafen willst. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings und Boomtown haben Camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival und Sónar sind Stadtfestivals, bei denen man ein Hotel oder eine Wohnung bucht. Time Warp und Monegros sind jeweils eine einzige lange Nacht.
 
 Wenn dich die Menschenmengen der großen Festivals abschrecken, fang mit der kleineren Gruppe an: Garbicz, NACHTI, Houghton und Waking Life haben Camping, bei Kala ist ein Hotel dabei, und Draaimolen ist ein Tagesfestival in einer Stadt.
 

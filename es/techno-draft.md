@@ -10,7 +10,6 @@ El techno empezó en una ciudad que perdía sus fábricas. Detroit, a principios
 
 Lo bautizaron con el nombre de un libro sobre el futuro, vendieron los primeros discos sobre todo en Chicago y encontraron su mayor público en Gran Bretaña y Alemania. A principios de los noventa, el club de techno más importante del mundo estaba en las cámaras acorazadas de unos grandes almacenes de Berlín Este, y muchos de sus DJ eran de Detroit.
 
-Esta guía cuenta qué es el techno y cómo suena, los discos de Detroit que lo pusieron en marcha, de dónde viene el nombre, Underground Resistance y la segunda ola, la alianza con Berlín y los estilos que hoy llenan la palabra, del minimal al hard techno.
 
 ## Qué es el techno
 

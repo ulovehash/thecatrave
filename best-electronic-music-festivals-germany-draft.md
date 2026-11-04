@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Germany's electronic festival year starts indoors, with Time Warp in Mannheim in April and MAYDAY in Dortmund on the last night of the month, and moves outside for a crowded July. Nature One ends the run on 1 August, on a former missile base in the Hunsrück. This page compares the best electronic music festivals in Germany for 2027, from techno all-nighters to the big EDM weekends, with the 2027 dates.
+Germany's electronic festival year starts indoors, with Time Warp in Mannheim in April and MAYDAY in Dortmund on the last night of the month, and moves outside for a crowded July. Nature One ends the run on 1 August, on a former missile base in the Hunsrück.
 
 ![Listening](figure:playlist)
 
@@ -14,7 +14,6 @@ A festival is on this list when these three things are true:
 - It has run recently, and it has either published a 2027 edition or given no sign of stopping.
 - It adds something the others lack: a sound, a setting or a size the others lack.
 
-Every 2027 date on this page comes from the festival's own site.
 
 ## German electronic festival dates for 2027 at a glance
 
@@ -103,11 +102,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the kind of day you want first. For one long indoor night, choose Time Warp or MAYDAY. For a very large camping weekend, choose Parookaville, Nature One or Airbeat One. For a stadium in a city, choose World Club Dome. For techno in an industrial landmark, choose Stone Techno.
-
-Then look at the calendar. Time Warp and MAYDAY are four weeks apart, so you can do both. July has the two clashes shown above.
-
-Check dates with the festival before you book travel.
+Look at the calendar. Time Warp and MAYDAY are four weeks apart, so you can do both. July has the two clashes shown above.
 
 ![Listening](figure:second-mix)
 

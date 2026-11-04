@@ -98,7 +98,7 @@ Del viernes 9 al domingo 11 de abril y del viernes 16 al domingo 18 de abril de 
 
 ### ¿Cuánto cuesta una entrada para Coachella 2027?
 
-Esta guía no da precios, porque cambian con la fase de venta y el tipo de abono. La página oficial de preventa de 2027 es la que lista los abonos y los precios vigentes.
+Los precios cambian con la fase de venta y el tipo de abono. La página oficial de preventa de 2027 es la que lista los abonos y los precios vigentes.
 
 ### ¿Cuánto dura Coachella?
 

@@ -2,13 +2,13 @@
 
 ## Respuesta
 
-Defqon.1 2027 está fijado del 24 al 27 de junio de 2027 en los Holy Grounds de Biddinghuizen (Países Bajos), según las páginas de Q-dance. La edición de 2026 se canceló en su primera noche, después de que los Países Bajos emitieran su primer código rojo por calor, y Q-dance ofreció a todos los titulares de entrada elegir entre conservarla para 2027 y el reembolso. La venta de 2027 se abre por fases durante octubre: primero la lista de deseos, después la venta Dediqated, Travel and Stay y la venta general el 31 de octubre. Q-dance fija los precios en su tienda y no ha publicado cartel de 2027, así que esta página no da ninguno de los dos. La entrada es para mayores de 18 años con documento de identidad original con foto.
+Defqon.1 2027 está fijado del 24 al 27 de junio de 2027 en los Holy Grounds de Biddinghuizen (Países Bajos), según las páginas de Q-dance. La edición de 2026 se canceló en su primera noche, después de que los Países Bajos emitieran su primer código rojo por calor, y Q-dance ofreció a todos los titulares de entrada elegir entre conservarla para 2027 y el reembolso. La venta de 2027 se abre por fases durante octubre: primero la lista de deseos, después la venta Dediqated, Travel and Stay y la venta general el 31 de octubre. Q-dance fija los precios en su tienda y no ha publicado cartel de 2027. La entrada es para mayores de 18 años con documento de identidad original con foto.
 
 ## Introducción
 
 Defqon.1 es el gran fin de semana de hardstyle y está en una situación rara: la última edición terminó antes de tiempo y las normas de entradas de la siguiente han cambiado por ello.
 
-Esta página cuenta qué es el festival, cuándo y dónde se celebra la edición de 2027, cómo funcionan las fases de venta, por qué se canceló 2026 y dónde escuchar la música. Para la música en sí, mira la [guía de hardstyle](/hardstyle-guide) (en inglés). Mucha gente escribe el nombre como Defqon 1, porque el punto forma parte de la marca.
+Para la música en sí, mira la [guía de hardstyle](/hardstyle-guide) (en inglés). Mucha gente escribe el nombre como Defqon 1, porque el punto forma parte de la marca.
 
 ## ¿Qué es el festival Defqon.1?
 
@@ -50,7 +50,7 @@ La venta Dediqated es la venta de socios. La membresía Dediqated cuesta 34,99 �
 
 ### Precio de las entradas de Defqon.1
 
-Q-dance fija los precios de entrada de Defqon.1 2027 en su tienda. La única mención de precio en sus preguntas frecuentes es para quienes conservaron una entrada de 2026: mantienen el precio de 2026 y no pagan nada más si los precios suben. Esta página no recoge cifras de terceros.
+Q-dance fija los precios de entrada de Defqon.1 2027 en su tienda. La única mención de precio en sus preguntas frecuentes es para quienes conservaron una entrada de 2026: mantienen el precio de 2026 y no pagan nada más si los precios suben.
 
 ## Defqon.1 2026 cancelado
 

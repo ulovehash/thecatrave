@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bass music festivals sit on both sides of the Atlantic. In Europe, Outlook Origins brings UK sound system music to the Croatian coast for five days, while Boomtown in Hampshire and Bassfest in Sheffield are English summer weekends. In North America, the season runs from Bass Coast in British Columbia in July to Lost Lands in Ohio in September and Wakaan in Arkansas in October. This page compares the best bass music festivals for 2027 by place and setting, and shows which dates are confirmed. For the music itself, see the [bass music guide](/bass-music-guide).
+Bass music festivals sit on both sides of the Atlantic. In Europe, Outlook Origins brings UK sound system music to the Croatian coast for five days, while Boomtown in Hampshire and Bassfest in Sheffield are English summer weekends. In North America, the season runs from Bass Coast in British Columbia in July to Lost Lands in Ohio in September and Wakaan in Arkansas in October. For the music itself, see the [bass music guide](/bass-music-guide).
 
 ![Listening](figure:playlist)
 
@@ -91,9 +91,7 @@ These two fall outside the tests above.
 
 ## How to choose
 
-Pick the side of the Atlantic first. In Europe, choose Outlook Origins for five days by the sea, Boomtown for a large weekend in England, and Bassfest for two days in Sheffield. In North America, choose Bass Coast for a smaller, artist-owned weekend, Sound Haven for stages that never clash, Bass Canyon for the Gorge, and Lost Lands or Wakaan for dubstep.
-
-Then look at the calendar. Outlook Origins and Shambhala overlap in late July, and Sound Haven starts three days after Outlook ends. Check dates with the festival before you book travel, because Lost Lands and Wakaan have not yet published 2027.
+Look at the calendar. Outlook Origins and Shambhala overlap in late July, and Sound Haven starts three days after Outlook ends. Check dates with the festival before you book travel, because Lost Lands and Wakaan have not yet published 2027.
 
 ![Listening](figure:second-mix)
 

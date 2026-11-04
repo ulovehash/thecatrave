@@ -2,11 +2,11 @@
 
 ## Respuesta
 
-Cuáles son las mejores discotecas de Europa depende de lo que quieras de una noche, pero el Top 100 Clubs 2026 de DJ Mag da una referencia común: [UNVRS], en Ibiza, es primero del mundo; Hï Ibiza, cuarto; FABRIK, en Madrid, octavo; Bootshaus, en Colonia, undécimo; fabric, en Londres, decimotercero, y Berghain, en Berlín, vigesimoprimero. Esta guía recoge 23 clubes europeos de diez países, de Berghain y Tresor a Pacha, Amnesia, Cavo Paradiso y Culture Club Revelin, con lo que es cada sala, quién la gestiona y qué sesiones escuchar primero.
+Cuáles son las mejores discotecas de Europa depende de lo que quieras de una noche, pero el Top 100 Clubs 2026 de DJ Mag da una referencia común: [UNVRS], en Ibiza, es primero del mundo; Hï Ibiza, cuarto; FABRIK, en Madrid, octavo; Bootshaus, en Colonia, undécimo; fabric, en Londres, decimotercero, y Berghain, en Berlín, vigesimoprimero. Los 23 clubes de aquí están en diez países, de Berghain y Tresor a Pacha, Amnesia, Cavo Paradiso y Culture Club Revelin.
 
 ## Introducción
 
-Una lista de los mejores clubes de Europa tiene que elegir qué medir. Esta guía ordena 23 salas por país, porque un viaje suele planificarse antes por país que por club.
+Una lista de los mejores clubes de Europa tiene que elegir qué medir.
 
 La selección parte de la votación de DJ Mag de 2026 y añade salas con una historia documentada que la votación deja fuera o clasifica más abajo. Nada de aquí es un veredicto sobre un único «mejor». Para verlo por ciudades, la guía de las [mejores ciudades de Europa para salir de fiesta](/best-clubbing-cities-in-europe) (en inglés) cubre dónde alojarse, y las guías de [Berghain](/es/berghain), [fabric](/fabric-london) (en inglés) y [Pacha Ibiza](/es/pacha-ibiza) profundizan en tres de las salas de abajo.
 
@@ -160,7 +160,7 @@ NTS tiene una guía radiofónica de los clásicos de Tresor. No se grabó en el 
 
 ### ¿Cuáles son las mejores discotecas del mundo?
 
-El Top 100 Clubs 2026 de DJ Mag pone a [UNVRS], en Ibiza, primero, a Greenvalley segundo, a Ushuaïa Ibiza tercero, a Hï Ibiza cuarto y a Savaya quinto. La misma votación es la respuesta habitual a cuáles son las mejores discotecas del mundo. Esta guía se queda en Europa, así que los clubes de arriba son los europeos. La [guía mundial](/es/mejores-discotecas-del-mundo) tiene la lista completa.
+El Top 100 Clubs 2026 de DJ Mag pone a [UNVRS], en Ibiza, primero, a Greenvalley segundo, a Ushuaïa Ibiza tercero, a Hï Ibiza cuarto y a Savaya quinto. La misma votación es la respuesta habitual a cuáles son las mejores discotecas del mundo. La [guía mundial](/es/mejores-discotecas-del-mundo) tiene la lista completa.
 
 ### ¿Cuáles son los mejores clubes de techno del mundo?
 

@@ -28,7 +28,7 @@ Time Warp Mannheim 2027 es el sábado 3 de abril de 2027, de 19:00 a 14:00, es d
 
 Las fechas de Time Warp en el extranjero se detienen en 2026. La web oficial aún no lista ninguna fecha de 2027 para México, Nueva York, Los Ángeles, Brasil ni Madrid.
 
-## ¿Dónde se celebra Time Warp en Mannheim?
+## La Maimarkthalle de Mannheim.
 
 La edición de Mannheim del festival Time Warp se celebra en el Maimarkthalle, Xaver-Fuhr-Straße 101, 68163 Mannheim. El nombre que le da el propio festival es Time Warp Germany, y Time Warp Mannheim es como lo dice casi todo el mundo, con el lema «The original since 1994».
 
@@ -58,7 +58,7 @@ Sí. Time Warp Spain, prevista para el 18 y 19 de septiembre de 2026 en el Pabel
 
 El comunicado dice que todos los titulares de entradas recibirían un reembolso completo en un plazo máximo de 15 días por los canales oficiales de venta, y que el festival trabajaba en una nueva fecha para Time Warp Spain. La web oficial no lista ninguna fecha nueva en Madrid. Era la tercera edición en España: las dos anteriores se habían celebrado en octubre de 2024 y octubre de 2025.
 
-## ¿Cómo funcionan las entradas de Time Warp?
+## Entradas y abonos de Time Warp.
 
 Las entradas de Time Warp para Mannheim se venden por la tienda de entradas del propio festival, tickets.time-warp.de, y son entradas para imprimir en casa o para el móvil. La tienda tiene tres pases, cada uno marcado «Pre-lineup price» con los gastos de gestión incluidos:
 
@@ -77,13 +77,13 @@ La página de la tienda no indica qué incluye cada pase, así que consulta la t
 
 Guía práctica con precios, rutas y normas de acceso.
 
-## ¿Quién toca en Time Warp?
+## El cartel de Time Warp.
 
 Aún no hay artistas anunciados para Mannheim 2027. La página oficial promete «a powerful lineup of international pioneers and underground mainstays» sin nombrar a nadie, y la tienda marca cada pase como «Pre-lineup price», así que vuelve a consultar la tienda cuando se publique el cartel de Time Warp.
 
 Para hacerte una idea de cómo suena Mannheim, la propia página del festival tiene vídeos resumen de la edición de marzo de 2026. Los dos que aparecen son Sara Landry y Nina Kraviz. Esa edición, del 21 de marzo de 2026, es la fecha de Mannheim más reciente de la historia oficial.
 
-## ¿Qué sets de Time Warp deberías escuchar primero?
+## Sets de Time Warp para escuchar primero.
 
 Empieza por el set de Mixmag de Loco Dice, titulado Time Warp 2018. Mixmag también subió tres sets bajo el nombre Time Warp US desde The Lab NYC, con Seth Troxler tocando deep tech soulful, Monkey Safari house y Thugfucker tech house. Se grabaron en un estudio de Nueva York, no en el festival.
 

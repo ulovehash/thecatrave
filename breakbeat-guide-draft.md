@@ -9,7 +9,7 @@
 
 Breakbeat began with DJs refusing to let the best part of a record end. By extending the exposed drum sections of funk and soul records, they turned a few seconds of rhythm into a method: first for dancers and hip-hop, then for samplers, rave and whole club scenes.
 
-This guide follows breakbeat as music and culture, not as a drum-programming lesson. Its route runs from funk breaks and Bronx DJ practice into British hardcore, American and Spanish regional scenes, big beat, nu-skool and today's looser breaks continuum. Jungle, drum and bass, broken beat and breakcore enter where their histories cross, but they are not treated as synonyms.
+Its route runs from funk breaks and Bronx DJ practice into British hardcore, American and Spanish regional scenes, big beat, nu-skool and today's looser breaks continuum. Jungle, drum and bass, broken beat and breakcore enter where their histories cross, but they are not treated as synonyms.
 
 <a id="what-is-breakbeat"></a>
 ## Is Breakbeat a Rhythm or a Genre?

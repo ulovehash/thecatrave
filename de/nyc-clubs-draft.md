@@ -10,7 +10,6 @@ Wer nach den besten Clubs in New York oder den besten Nachtclubs in NYC fragt, b
 
 Diese Art Club wurde mehr oder weniger in New York erfunden. Das Loft, das Paradise Garage und die DJs, die dort spielten, setzten die Vorlage, die Clubs von Chicago bis London kopierten: ein DJ im Zentrum, ein um den Sound gebauter Raum und eine Nacht, die bis zum Morgen lief. New York versuchte außerdem jahrzehntelang, genau diese Art Ausgehen wegzuregulieren.
 
-Der Guide reicht von den 1970ern bis heute, behandelt dann die besten Clubs in New York, die heute geöffnet sind, die Techno- und House-Räume und wie das Ausgehen in der Stadt funktioniert.
 
 ## Das Loft, das Paradise Garage und das Studio 54
 

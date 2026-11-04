@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Croatia's festival summer runs along the Adriatic coast from late May to the end of August. Ultra Europe fills a park in Split in July, Hideout takes over Zrće beach on the island of Pag at the start of the month, and the small town of Tisno hosts a run of festivals from late June to the end of August. This page compares the best music festivals in Croatia for 2027 by sound and setting, and shows which dates are confirmed.
+Croatia's festival summer runs along the Adriatic coast from late May to the end of August. Ultra Europe fills a park in Split in July, Hideout takes over Zrće beach on the island of Pag at the start of the month, and the small town of Tisno hosts a run of festivals from late June to the end of August.
 
 ![Listening](figure:playlist)
 
@@ -103,9 +103,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-The best festivals in Croatia for you depend on the kind of week you want. For the biggest names and a city around you, choose Ultra Europe in Split. For club nights on a beach, choose Hideout. For a small seaside site, pick a Tisno week by its sound: a week of boat parties at Love International, techno at Terminal V, bass music at Outlook Origins, the Dekmantel crowd at Dekmantel Selectors, and the end of the summer at Dimensions.
-
-Then look at the calendar. Hideout and Hospitality on the Beach overlap at the start of July, and Ultra Europe follows on 9 to 11 July, so a long trip can take in more than one. Check dates with the festival before you book travel. Hospitality on the Beach's date comes from a listing site and is provisional until the organiser publishes it. For festivals across the rest of the continent, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
+Look at the calendar. Hideout and Hospitality on the Beach overlap at the start of July, and Ultra Europe follows on 9 to 11 July, so a long trip can take in more than one. Check dates with the festival before you book travel. Hospitality on the Beach's date comes from a listing site and is provisional until the organiser publishes it. For festivals across the rest of the continent, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
 ![Listening](figure:second-mix)
 

@@ -8,14 +8,13 @@ The Love Parade began on 1 July 1989 in West Berlin with about 150 people and en
 
 The Love Parade grew from about 150 people on a Berlin avenue in 1989 into an annual techno parade attended by over a million. It ended after the 2010 crowd crush in Duisburg, in which 21 people died. Three questions follow the name: its history, what happened in Duisburg, and whether the Loveparade is still on.
 
-
 ## What is the Love Parade meaning?
 
 The Love Parade was a techno parade held in Germany from 1989 to 2010. It was registered as a political demonstration, and each year it carried a slogan. The first, in 1989, was "Peace, Joy, Pancakes". The German spelling, Loveparade, is one word, and both spellings refer to the same event.
 
 It was a procession of decorated trucks, called floats, with DJs playing from the back and the crowd dancing alongside, so it was never a club night or a single festival stage.
 
-## How did the Love Parade begin in 1989?
+## Berlin, 1989: how the Love Parade began.
 
 The Love Parade started on 1 July 1989 on the Kurfürstendamm in West Berlin. According to the Federal Agency for Civic Education (bpb), it was founded by the DJ Matthias Roeingh, known as Dr. Motte, and the artist Danielle de Picciotto. About 150 people took part.
 
@@ -29,7 +28,7 @@ In 2001 the Love Parade lost its official status as a demonstration. The parade 
 
 ![The Rave the Planet parade on the Straße des 17. Juni in Berlin, 2023](figure:rtp-2023)
 
-## Where was the Love Parade held after Berlin?
+## The Ruhr years after Berlin.
 
 For Love Parade Germany after Berlin means the Ruhr, the industrial region in the west, where the bpb says the parade moved from 2007. Love Parade Essen took place in 2007, followed by Love Parade Dortmund in 2008. A Bochum edition planned for 2009 was cancelled.
 
@@ -39,7 +38,7 @@ The last Love Parade festival was set for Duisburg on 24 July 2010. Its organise
 
 On 24 July 2010, 21 people died and 652 were injured at the Loveparade Duisburg 2010 site, according to DW, which reported that the dead came from six countries. About 200,000 people attended, and a tunnel was the only way in and out.
 
-Ten people were charged. The criminal trial opened in 2017 and ended in May 2020 without a verdict. Duisburg marks each 24 July with a commemoration. This page does not describe the crush further, and DW's anniversary reporting is the place to read the account.
+Ten people were charged. The criminal trial opened in 2017 and ended in May 2020 without a verdict. Duisburg marks each 24 July with a commemoration. DW's anniversary reporting is the place to read the full account.
 
 ### Why was Love Parade cancelled?
 
@@ -71,7 +70,7 @@ The Street Parade Zurich started on 5 September 1992. According to its own histo
 
 The Street Parade drew about 900,000 people in 2026, according to its organisers. That parade was on 8 August, and the next is on 14 August 2027.
 
-## Which Berlin sets should you hear first?
+## Berlin sets to hear first.
 
 These are Berlin recordings, not Love Parade appearances: Sven Väth for Boiler Room Berlin, DJ Hell for Boiler Room Berlin and Ellen Allien for HÖR Berlin.
 

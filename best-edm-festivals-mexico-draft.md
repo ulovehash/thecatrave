@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Most of Mexico's electronic festival calendar falls in winter. Tulum fills up over New Year, when Zamna's season runs from 31 December 2026 to 10 January 2027 and Day Zero takes one night in the jungle on 9 January. In February, Bahidorá camps by a river in Morelos and EDC fills a racetrack in Mexico City. This page compares the EDM festivals Mexico holds between November and February by place and setting, and shows which 2027 dates are confirmed.
+Most of the EDM festivals Mexico holds fall in winter. Tulum fills up over New Year, when Zamna's season runs from 31 December 2026 to 10 January 2027 and Day Zero takes one night in the jungle on 9 January. In February, Bahidorá camps by a river in Morelos and EDC fills a racetrack in Mexico City.
 
 ![Listening](figure:playlist)
 

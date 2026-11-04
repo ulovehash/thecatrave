@@ -89,9 +89,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the sound first. For techno, choose Neopop in August. For psytrance, Boom in July, if you already have a ticket. For big-stage EDM on a beach, RFM Somnii. For house and disco by the sea, Suncébeat New Horizons in June.
-
-Then pick the setting. Sónar Lisboa and LISB-ON are city festivals, so you can stay in a hotel and spend the days in Lisbon. Waking Life and Boom are in the countryside, away from the cities. Check dates with the festival before you book travel, because three of the 2027 dates above have not yet been published.
+Pick the setting. Sónar Lisboa and LISB-ON are city festivals, so you can stay in a hotel and spend the days in Lisbon. Waking Life and Boom are in the countryside, away from the cities. Check dates with the festival before you book travel, because three of the 2027 dates above have not yet been published.
 
 ![Listening](figure:second-mix)
 

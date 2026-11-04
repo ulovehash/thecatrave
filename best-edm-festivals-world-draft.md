@@ -109,7 +109,7 @@ No. Tomorrowland reported 400,000 festivalgoers in 2026, fewer than EDC Las Vega
 
 ### What is the largest music festival in the world?
 
-For electronic music, the largest ticketed festivals are EDC Las Vegas and Untold, each above 500,000 in 2026. The free Street Parade in Zurich drew about 900,000 people in 2026. This page does not rank rock and pop festivals.
+For electronic music, the largest ticketed festivals are EDC Las Vegas and Untold, each above 500,000 in 2026. The free Street Parade in Zurich drew about 900,000 people in 2026. Rock and pop festivals are left out of the ranking.
 
 ### When is EDC Las Vegas 2027?
 

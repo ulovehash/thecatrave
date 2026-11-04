@@ -28,7 +28,7 @@ Boiler Room's own visits to the city, in 2015, ran a short season of Bristol-onl
 
 [Embed: Hodge]
 
-Both sets are still credited on Boiler Room's own channel as filmed in Bristol rather than at a named club, so this guide embeds them as part of the city's Boiler Room history rather than attaching them to Lakota, Motion or any other single room.
+Both sets are still credited on Boiler Room's own channel as filmed in Bristol rather than at a named club, so they belong to the city's Boiler Room history rather than to Lakota, Motion or any other single room.
 
 [Embed: Shanti Celeste]
 

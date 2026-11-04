@@ -4,7 +4,6 @@
 
 L’Europe compte plus de festivals de musique électronique que quiconque ne pourrait en énumérer, et la plupart des classements sont des listes des plus célèbres, avec une photo chacun. Celui-ci est fait pour vous aider à choisir : ce que chaque festival programme vraiment, sa taille, où l’on dort, ses dates en 2027 et à qui il convient.
 
-
 ## Réponse
 
 Les meilleurs festivals de musique électronique en Europe en 2027 dépendent de ce que vous voulez entendre. Pour l’EDM des grandes scènes : Tomorrowland en Belgique, Untold en Roumanie, Parookaville en Allemagne, Creamfields en Angleterre, Ultra Europe en Croatie et Mysteryland aux Pays-Bas. Pour le hardstyle : Defqon.1. Pour la techno et la house : Awakenings, Dekmantel, Time Warp, Kappa FuturFestival et Sónar. Pour quelque chose de plus étrange : Monegros le 31 juillet dans le désert espagnol, ou la ville à thème de Boomtown. Pour des week-ends plus petits et plus underground : Garbicz en Pologne, NACHTI en Allemagne, Houghton en Angleterre, Waking Life au Portugal et Kala en Albanie. Tomorrowland et Dekmantel n’ont pas encore annoncé leurs dates 2027.
@@ -159,13 +158,11 @@ Un dernier, avec un avertissement : Fusion, le festival contre-culturel install�
 
 ## Comment choisir
 
-Commencez par la musique. La plus grande différence entre ces festivals, c’est ce qu’ils programment : EDM big room à Tomorrowland, Untold, Parookaville et Creamfields ; hardstyle à Defqon.1 ; techno à Awakenings, Time Warp et Kappa FuturFestival ; une programmation plus large et plus étrange à Dekmantel et au Sónar ; un peu de tout à Boomtown.
-
-Décidez ensuite où vous voulez dormir. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings et Boomtown ont un camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival et Sónar sont des festivals urbains, pour lesquels on réserve un hôtel ou un appartement. Time Warp et Monegros sont chacun une seule longue nuit.
+Décidez où vous voulez dormir. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings et Boomtown ont un camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival et Sónar sont des festivals urbains, pour lesquels on réserve un hôtel ou un appartement. Time Warp et Monegros sont chacun une seule longue nuit.
 
 Si les foules des grands festivals vous rebutent, commencez par le groupe des petits : Garbicz, NACHTI, Houghton et Waking Life ont un camping, Kala inclut l’hôtel, et Draaimolen est un festival de jour en ville.
 
-Regardez enfin le calendrier. La saison européenne va de Time Warp en avril à Creamfields et Mysteryland fin août. Plusieurs de ces festivals vendent leurs billets les moins chers à l’automne pour l’été suivant, bien avant l’annonce des line-ups, alors mieux vaut décider tôt. Cette page n’indique pas de prix, qui changent selon la phase de billetterie.
+Regardez enfin le calendrier. La saison européenne va de Time Warp en avril à Creamfields et Mysteryland fin août. Plusieurs de ces festivals vendent leurs billets les moins chers à l’automne pour l’été suivant, bien avant l’annonce des line-ups, alors mieux vaut décider tôt. Les prix changent selon la phase de billetterie.
 
 [Embed: second-mix]
 

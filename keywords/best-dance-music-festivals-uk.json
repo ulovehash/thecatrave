@@ -25,12 +25,15 @@
       "volume": 100
     },
     {
-      "term": "best dance music festivals uk",
-      "volume": 10
-    },
-    {
       "term": "small dance festivals uk",
       "volume": 10
+    }
+  ],
+  "rejected": [
+    {
+      "term": "best dance music festivals uk",
+      "volume": 10,
+      "why": "Dropped 2026-11-04: its only home was a page-describing sentence ('This page compares…'), cut in the AI-slop review. The word order cannot sit in a real sentence (WRITING.md)."
     }
   ]
 }

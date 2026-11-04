@@ -4,7 +4,7 @@
 
 Ask for 90s rave music and you get records that do not sound alike: a bleep record from Leeds, a toytown hit built on a children's safety film, a techno 12-inch on a Belgian label, a Rotterdam track that is one pounding beat and one bouncing sound. All of it was played at raves within a few years of each other. "Rave" described the night, and the music played at one kept splitting.
 
-This page sorts the decade by scene and date, with a record to press play on for most of them. The 1987 to 1990 boom belongs to the [acid house guide](/acid-house-guide), and the jungle that grew out of hardcore to the [jungle guide](/jungle-music-guide).
+The 1987 to 1990 boom belongs to the [acid house guide](/acid-house-guide), and the jungle that grew out of hardcore to the [jungle guide](/jungle-music-guide).
 
 ## What is 90s rave music
 
@@ -79,7 +79,7 @@ Late in 1992 British hardcore began to break apart into darkcore, hardcore jungl
 
 ## How to listen now
 
-Other lists will give you more records than this page does. Bandcamp Daily's "'90s Rave Music: The Deep Cuts" by Joe Muggs (24 April 2025) picks 15 records, among them Soichi Terada's "Good Morning" (1993), Neil Landstrumm's "Home Delivery" (1995) and Laura Grabb's "Whatever You Call It 1" (1998). Radio X's list of the best 90s rave tracks includes Utah Saints' "Something Good" (1992) and Altern 8's "E-Vapor-8" (1992). This page follows the British, Belgian and Dutch scenes in date order and says what the law did to them.
+Other lists will give you more records than this page does. Bandcamp Daily's "'90s Rave Music: The Deep Cuts" by Joe Muggs (24 April 2025) picks 15 records, among them Soichi Terada's "Good Morning" (1993), Neil Landstrumm's "Home Delivery" (1995) and Laura Grabb's "Whatever You Call It 1" (1998). Radio X's list of the best 90s rave tracks includes Utah Saints' "Something Good" (1992) and Altern 8's "E-Vapor-8" (1992).
 
 {{BERLIN_RACE}}
 
@@ -91,7 +91,7 @@ Whatever was played at raves between 1990 and 1999. In Britain that was mostly h
 
 ### What counts as 1990's rave music?
 
-Records released between 1990 and 1999 that were played at raves. This page starts with LFO's "LFO" (1990) and The Prodigy's "Charly" (1991), runs through Belgian techno and Dutch gabber, and ends with the split of British hardcore after 1992.
+Records released between 1990 and 1999 that were played at raves. They start with LFO's "LFO" (1990) and The Prodigy's "Charly" (1991), run through Belgian techno and Dutch gabber, and end with the split of British hardcore after 1992.
 
 ### What do people mean by 90 rave music?
 

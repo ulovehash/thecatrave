@@ -6,7 +6,7 @@ Acid House begann mit einer Maschine, die niemand wollte. Roland verkaufte die T
 
 Eine Gruppe von Freunden kaufte genau dieses Gerät, drehte an den Reglern, während ein Drumcomputer lief, und ein DJ spielte das Ergebnis in einer Nacht viermal, bis sein Publikum durchdrehte. Ein, zwei Jahre später war derselbe Sound in den britischen Top Ten, auf der Titelseite der Sun und im Unterhaus.
 
-Dieser Guide hält drei Dinge auseinander, die meist in einen Topf geworfen werden: den Sound, die Platten aus Chicago, die ihm einen Namen gaben, und die britische Bewegung, die den Namen übernahm und ihm eine viel größere Bedeutung gab.
+Drei Dinge werden meist in einen Topf geworfen: den Sound, die Platten aus Chicago, die ihm einen Namen gaben, und die britische Bewegung, die den Namen übernahm und ihm eine viel größere Bedeutung gab.
 
 ## Was ist Acid House?
 

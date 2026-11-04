@@ -2,7 +2,7 @@
 
 ## Answer
 
-No chart or poll settles the best techno song ever, so this page picks nine records and says why each one earned its place. If you want one place to start, play The Bells by Jeff Mills, which he says he has played at every DJ set since he made it in 1994. The other eight run from Detroit in 1985 to Charlotte de Witte's Doppler in 2021.
+No chart or poll settles the best techno song ever. These nine records each come with the reason they earned their place. If you want one place to start, play The Bells by Jeff Mills, which he says he has played at every DJ set since he made it in 1994. The other eight run from Detroit in 1985 to Charlotte de Witte's Doppler in 2021.
 
 ## Introduction
 

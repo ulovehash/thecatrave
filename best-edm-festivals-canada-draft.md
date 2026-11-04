@@ -2,7 +2,7 @@
 
 ## Introduction
 
-VELD in Toronto and Ile Soniq in Montreal are big-city park festivals with international headliners, and Shambhala is a farm in the Kootenays, a different kind of trip. Those three are the best EDM festivals Canada has to offer. This page compares them with the smaller festivals around them, province by province, and shows which 2027 dates are confirmed.
+VELD in Toronto and Ile Soniq in Montreal are big-city park festivals with international headliners, and Shambhala is a farm in the Kootenays, a different kind of trip. Those three are the best EDM festivals Canada has to offer.
 
 ![Listening](figure:playlist)
 

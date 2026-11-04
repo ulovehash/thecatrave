@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The drum and bass festival calendar has two peaks: the first week of July, when Rampage Open Air takes over a Belgian lakeside, and early August, when Let It Roll fills a lakeside site in the Czech Republic. Around them sit the Croatian coast, a Dutch lake and smaller festivals from Malta to Bali. This page compares the best drum and bass festivals, or dnb festivals, for 2027 by size, setting and sound, and shows which dates are confirmed.
+The drum and bass festival calendar has two peaks: the first week of July, when Rampage Open Air takes over a Belgian lakeside, and early August, when Let It Roll fills a lakeside site in the Czech Republic. Around them sit the other dnb festivals: the Croatian coast, a Dutch lake and smaller ones from Malta to Bali.
 
 ![Listening](figure:playlist)
 
@@ -95,11 +95,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the size you want first. For the biggest crowd, choose Rampage Open Air or Let It Roll. For a week by the sea, choose Outlook Origins or Hospitality on the Beach. For the liquid end of the sound, choose Liquicity. For the end of the summer, choose Sun and Bass.
-
-Then look at the calendar. Rampage Open Air and Let It Roll are a month apart, so you can do both in one year.
-
-Check dates with the festival before you book travel, because the listed dates above are provisional until the organiser publishes them.
+Look at the calendar. Rampage Open Air and Let It Roll are a month apart, so you can do both in one year.
 
 ![Listening](figure:second-mix)
 

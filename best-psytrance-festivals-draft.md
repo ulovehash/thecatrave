@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Boom in Portugal and Ozora in Hungary lead the psytrance calendar, and Universo Paralello on the coast of Brazil is the third great name. They are camping gatherings that last days, and the setting is half of the reason to go. This page compares the main festivals by place, length and feel, and shows which 2027 dates are confirmed. Use it to choose one. The listing sites are better for a calendar of every event.
+Boom in Portugal and Ozora in Hungary lead the psytrance calendar, and Universo Paralello on the coast of Brazil is the third great name. They are camping gatherings that last days, and the setting is half of the reason to go. Use it to choose one. The listing sites are better for a calendar of every event.
 
 ![Listening](figure:playlist)
 
