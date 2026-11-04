@@ -138,7 +138,7 @@ function section(title, id, options={}) {
 const soundcloud = articleListeningBand({
   platform:'soundcloud', id:'breakbeat-contemporary-mix', kicker:'A contemporary route by thecatrave',
   title:'I Like to Smoke in Silence After Raves',
-  description:'This set belongs here because it shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.',
+  description:'This set shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.',
   src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
   iframeTitle:'I Like to Smoke in Silence After Raves by thecatrave on SoundCloud',
   fullBleed:true, tone:'cyan'
@@ -159,7 +159,7 @@ const floridaBreaksPlaylist = articleListeningBand({
 const nuSkoolBreaksPlaylist = articleListeningBand({
   platform:'spotify', id:'breakbeat-nu-skool-playlist', kicker:'Essential listening',
   title:'Nu-skool breaks: an extended scene playlist.',
-  description:'A longer route beyond the single-track examples, with Freq Nasty, Plump DJs, Stanton Warriors and the dedicated breaks circuit around them.',
+  description:'A longer mix, with Freq Nasty, Plump DJs, Stanton Warriors and the dedicated breaks circuit around them.',
   src:'https://open.spotify.com/embed/playlist/6BfYBqrSm30CXrqFwecv5d?utm_source=generator',
   iframeTitle:'The Sound of Nu Skool Breaks playlist on Spotify', tone:'cyan'
 });

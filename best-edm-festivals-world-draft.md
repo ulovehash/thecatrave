@@ -24,7 +24,7 @@ Three of the nine fall in the second week of July 2027: Airbeat One, Ultra Europ
 
 ## Which is the biggest EDM festival in the world?
 
-By reported attendance, the biggest EDM festival in the world is EDC Las Vegas or Untold in Romania. Both reported more than 500,000 in 2026. Tomorrowland, the name most people expect, comes third.
+Three festivals reported more than 400,000 people in 2026, and each counted its crowd over a different stretch: three days for EDC, four for Untold, two weekends for Tomorrowland.
 
 ### EDC Las Vegas
 
@@ -78,10 +78,6 @@ Creamfields is held at Daresbury, Cheshire, over the August bank holiday. More t
 
 If free events count, the largest electronic music festival in the world is the Street Parade in Zurich. It is a one day parade through the city, with no ticket. The organiser puts the crowd at 900,000 in 2026, 800,000 in 2025 and 920,000 in 2024, estimates of the people in the streets rather than a ticket count. That is why it is kept out of the ranking above. The 2027 Street Parade is on Saturday 14 August, from 13:00 to midnight. For the Berlin parade that came before it, see [the Love Parade](/love-parade).
 
-![Listening](figure:track)
-
-The largest electronic music festival with tickets is EDC Las Vegas or Untold, depending on which year you compare. Both put their 2026 figure above 500,000, and EDC has the higher single figure, over 525,000 in 2024.
-
 ![Street Parade in Zurich, 2023](figure:streetparade)
 
 ## Not on this list, and why
@@ -94,6 +90,8 @@ These come up in the same searches and fall outside the tests above.
 ## How to choose
 
 Size changes how the day feels. At EDC, Untold and Tomorrowland the main stage crowd is the event, and the walk between stages takes time. At the smaller festivals here, such as Awakenings or Creamfields, it is easier to move around and catch more sets. For dates by region, see [the best EDM festivals in the USA](/best-edm-festivals-usa), [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe) and [the best electronic music festivals in Germany](/best-electronic-music-festivals-germany).
+
+![Listening](figure:track)
 
 Check dates with the festival before you book travel, because Tomorrowland has not yet published 2027.
 

@@ -191,7 +191,7 @@ export default {
       id: 'dubstep-classics-playlist',
       kicker: t(lang).essentialListening,
       title: 'Dubstep Classics : la playlist pour aller plus loin.',
-      description: 'Un parcours plus large dans les disques que la plupart des gens entendent par dubstep, penché vers le côté bruyant que le tableau ci-dessus tente de trier.',
+      description: 'Les disques que la plupart des gens entendent par dubstep, penchés vers le côté bruyant.',
       src: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX4arVIN5Cg4U?utm_source=generator',
       iframeTitle: 'Playlist Dubstep Classics sur Spotify',
       fullBleed: true,

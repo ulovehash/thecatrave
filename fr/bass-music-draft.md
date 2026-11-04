@@ -100,7 +100,7 @@ Los Angeles a développé un autre réseau. À la fin des années 1990 et au dé
 
 Quand le dubstep britannique a atteint un plus large public nord-américain vers 2009 et 2010, il est entré sur ce terrain existant. Los Angeles et la côte Ouest n’ont pas simplement conservé le son de Croydon. Des producteurs et des festivals l’ont combiné avec le hip-hop, le glitch, le psychédélisme, la dynamique du metal et les attentes des grandes scènes. [Le récit de Mixmag sur la scène de la côte Ouest](https://mixmag.net/feature/a-trip-through-the-u-s-west-coast-bass-scene) est le plus fort quand les participants décrivent la basse comme une expérience physique et collective, pas quand il essaie de faire descendre la scène d’une seule source.
 
-Ce n’est pas un disque fondateur. Il est là parce qu’il a changé d’échelle. Son travail dans les médiums, ses contrastes tranchés et son succès crossover ont aidé à fixer ce que beaucoup d’auditeurs nord-américains attendaient du dubstep et, par extension, de la bass music.
+Ce n’est pas un disque fondateur, mais il a changé d’échelle. Son travail dans les médiums, ses contrastes tranchés et son succès crossover ont aidé à fixer ce que beaucoup d’auditeurs nord-américains attendaient du dubstep et, par extension, de la bass music.
 
 L’usage des festivals a encore élargi la catégorie. Le dubstep, le riddim, la trap électronique, le glitch-hop, la future bass, la melodic bass et la bass house pouvaient apparaître sous la même rubrique commerciale même quand leurs histoires étaient différentes. Dans ce contexte, la bass music décrit souvent un public et un circuit d’événements autant que la construction musicale.
 
@@ -180,7 +180,7 @@ Les outils ont changé, mais la question de fond est restée : qui a le droit de
 
 ## Les artistes et les disques de bass music qui ont changé la culture
 
-Ce n’est pas un panthéon. Chaque disque est là parce qu’il change la définition, et pas seulement parce qu’il représente un sous-genre populaire.
+Ce n’est pas un panthéon. Chaque disque a changé la définition, au lieu de seulement représenter un sous-genre populaire.
 
 [Table: disques]
 

@@ -129,7 +129,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Nicht das, was auf den großen Bühnen läuft: gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Gebrochene Beats im Hall des Dub-Techno. Mein eigener Track, benannt nach Berlin.', lang),
     'Pilton, Glastonbury Festival Site': figure('aerial-2022', 1200, 800,
       'Die Worthy Farm aus der Luft im Juni 2022, grüne Felder zwischen Hecken, voller Zelte, Festzelte und bunter Überdachungen',
       'Die Worthy Farm aus der Luft im Juni 2022, wenige Tage vor dem Festival, die Felder schon voller Zelte, Festzelte und Bühnen. Foto: Lewis Clarke, CC BY-SA 2.0.'),

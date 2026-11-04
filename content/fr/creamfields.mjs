@@ -67,7 +67,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every French festival guide
     // (owner, 2026-09-21: Dégénération on the French pages).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Farm track skirts Creamfields site': figure('daresbury-site-2014', 1024, 768,
       'Un chemin agricole le long d’une clôture verte en bordure du site de Creamfields près de Daresbury, avec des champs et des arbres au loin',
       'La bordure du site de Creamfields près d’Outer Wood, à Daresbury, trois jours après le festival 2014. Photo : Raymond Knapman, CC BY-SA 2.0.'),

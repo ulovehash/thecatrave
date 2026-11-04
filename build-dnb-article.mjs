@@ -187,7 +187,7 @@ const metalheadzListening = articleListeningCollection({
 // block (owner, 2026-09-21: art deco and late summer cloud dance in the drum
 // and bass guides). Each sits between paragraphs, away from the other media.
 const artDecoListening = ownTrackListening('art-deco', 'The jungle side of the split, heard today: my remix at 150 BPM.');
-const lateSummerListening = ownTrackListening('late-summer-cloud-dance', 'A short liquid breakbeat piece in the atmospheric spirit of this section. My own track.');
+const lateSummerListening = ownTrackListening('late-summer-cloud-dance', 'A short liquid breakbeat piece. My own track.');
 
 const atmosphericListening = articleListeningCollection({
   id: 'atmospheric-listening', tone: 'cyan',

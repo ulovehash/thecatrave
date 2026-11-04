@@ -63,7 +63,7 @@ export default {
 
   media: ({lang}) => ({
     // The owner's own music inside the text, as on the other festival guides.
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Lejos de los grandes escenarios: la voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
     'Bayfront Park, 2014': figure('bayfront-2014', 1200, 900,
       'Bayfront Park, en el centro de Miami, visto desde arriba durante Ultra 2014, con el Main Stage y las carpas junto a la marina y la bahía de Biscayne',
       'Bayfront Park visto desde arriba durante el festival de 2014, con el Main Stage junto a la marina en la bahía de Biscayne. Foto: Pietro, CC BY-SA 3.0.'),

@@ -78,7 +78,7 @@ Shapes tient son festival dans la station suisse de Leysin, et son propre site d
 
 ## Quels festivals d’hiver recommande la presse spécialisée ?
 
-CTM, Elevate, Rise et Astropolis l’Hiver sont ceux que couvre la presse spécialisée et que les outils de recherche mesurent à peine. Vous ne les verrez pas dans une liste des meilleurs festivals d’hiver par volume de recherche. Ils sont ici parce que la presse musicale y revient sans cesse.
+CTM, Elevate, Rise et Astropolis l’Hiver sont ceux que couvre la presse spécialisée et que les outils de recherche mesurent à peine. Vous ne les verrez pas dans une liste des meilleurs festivals d’hiver par volume de recherche. La presse musicale y revient sans cesse.
 
 ### CTM, Berlin
 

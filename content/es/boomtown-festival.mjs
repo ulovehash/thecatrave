@@ -63,7 +63,7 @@ export default {
     'Scrapyard': figure('scrapyard-2019', 1200, 900, 'Decorado industrial del escenario Scrapyard en Boomtown en 2019',
       'El distrito Scrapyard en 2019. Boomtown da a los géneros y a los locales una dirección física, aunque los nombres y la geografía cambian de un capítulo a otro. Foto: Sam Warrenger / TheFestivals.UK, CC BY 4.0.'),
     'Wailers and Altern 8': articleVideoCollection({lang, label: 'The Wailers y Altern 8 en Boomtown', description: 'The Wailers en Boomtown 2014 es el vídeo de actuación de Boomtown más visto que encontré (17 millones de visualizaciones). Altern 8 para Boiler Room en Boomtown 2023 es su contrapartida electrónica.', items: [articleVideoCard({youtubeId: 'nx8LYGtQdDs', genre: 'BOOMTOWN, 2014', artist: 'The Wailers', title: 'Three Little Birds / One Love'}), articleVideoCard({youtubeId: 'aKxwl7rFCAE', genre: 'BOOMTOWN, 2023', artist: 'Altern 8', title: 'Boiler Room x Sports Banger'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mi propia mezcla multigénero sigue el mismo recorrido abierto entre bass music, techno y rave, sin pretender sustituir el programa de Boomtown.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mi propia mezcla multigénero, entre bass music, techno y rave.'),
     'thecatrave mix 2': ownSetListening(1, lang, 'Para las horas después de que cierre la ciudad: mi propio set por el techno, los breaks y la bass music.'),
     'Table: Facts': articleTable({
       headers: ['Tema', 'Estado'],

@@ -61,7 +61,7 @@ export default {
     'Scrapyard': figure('scrapyard-2019', 1200, 900, 'Industrielle Kulisse der Scrapyard-Bühne bei Boomtown 2019',
       'Das Scrapyard-Viertel 2019. Boomtown gibt Genres und Orten eine physische Adresse, auch wenn sich Namen und Geografie zwischen den Kapiteln ändern. Foto: Sam Warrenger / TheFestivals.UK, CC BY 4.0.'),
     'Wailers and Altern 8': articleVideoCollection({lang, label: 'Die Wailers und Altern 8 bei Boomtown', description: 'Die Wailers bei Boomtown 2014 sind das meistgesehene Boomtown-Performance-Video, das ich gefunden habe (17 Millionen Aufrufe). Altern 8 für Boiler Room bei Boomtown 2023 ist das elektronische Gegenstück.', items: [articleVideoCard({youtubeId: 'nx8LYGtQdDs', genre: 'BOOMTOWN, 2014', artist: 'The Wailers', title: 'Three Little Birds / One Love'}), articleVideoCard({youtubeId: 'aKxwl7rFCAE', genre: 'BOOMTOWN, 2023', artist: 'Altern 8', title: 'Boiler Room x Sports Banger'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres folgt derselben offenen Route zwischen Bass Music, Techno und Rave, ohne so zu tun, als stünde er für Boomtowns Programm.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mein eigener Mix aus vielen Genres, zwischen Bass Music, Techno und Rave.'),
     'thecatrave mix 2': ownSetListening(1, lang, 'Für die Stunden nach Schließung der Stadt: mein eigenes Set durch Techno, Breaks und Bass Music.'),
     'Tabelle: Facts': articleTable({
       headers: ['Thema', 'Stand'],

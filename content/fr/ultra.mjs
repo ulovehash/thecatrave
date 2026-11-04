@@ -70,7 +70,7 @@ export default {
   media: ({lang}) => ({
     // The owner's own music inside the text, as on every French festival guide
     // (owner, 2026-09-21: Dégénération on the French pages).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Bayfront Park, 2014': figure('bayfront-2014', 1200, 900,
       'Le Bayfront Park, dans le centre de Miami, vu d’en haut pendant l’Ultra 2014, la Main Stage et les tentes à côté de la marina et de la baie de Biscayne',
       'Le Bayfront Park vu d’en haut pendant le festival 2014, la Main Stage à côté de la marina sur la baie de Biscayne. Photo : Pietro, CC BY-SA 3.0.'),

@@ -65,14 +65,14 @@ const copy = {
   },
   nuSkoolPlaylist: {
     title: 'Nu-skool breaks: una larga playlist de la escena.',
-    description: 'Una ruta más larga más allá de los ejemplos sueltos, con Freq Nasty, Plump DJs, Stanton Warriors y el circuito de breaks que los rodeaba.',
+    description: 'Un mix más largo, con Freq Nasty, Plump DJs, Stanton Warriors y el circuito de breaks que los rodeaba.',
     iframeTitle: 'Playlist The Sound of Nu Skool Breaks en Spotify'
   },
   protectYaBreaks: 'Breaks progresivos a 128 BPM con voces de rap troceadas y un giro downtempo. Mi propio tema.',
   contemporaryMix: {
     kicker: 'Una ruta actual de thecatrave',
     title: 'I Like to Smoke in Silence After Raves',
-    description: 'Esta sesión tiene su lugar aquí porque muestra cómo circulan hoy los breaks entre garage, bass music, techno y rave, en lugar de vivir en un revival cerrado.',
+    description: 'Esta sesión muestra cómo circulan hoy los breaks entre garage, bass music, techno y rave, en lugar de vivir en un revival cerrado.',
     iframeTitle: 'I Like to Smoke in Silence After Raves de thecatrave en SoundCloud'
   },
   popCulture: {

@@ -42,7 +42,7 @@ EXIT era un festival multigénero. Sus escenarios principales programaban cabeza
 
 [Embed: Keinemusik and Nina Kraviz]
 
-Las grabaciones de Keinemusik de 2023 y de Nina Kraviz de 2016 figuran entre las más vistas de la Dance Arena en el propio canal de EXIT. Aparecen aquí como prueba del formato de la fortaleza, no como una promesa sobre el sonido o el entorno de cada evento futuro producido por EXIT.
+Las grabaciones de Keinemusik de 2023 y de Nina Kraviz de 2016 figuran entre las más vistas de la Dance Arena en el propio canal de EXIT. Muestran el formato de la fortaleza, sin prometer nada sobre el sonido o el entorno de los futuros eventos producidos por EXIT.
 
 ## EXIT como red de festivales
 

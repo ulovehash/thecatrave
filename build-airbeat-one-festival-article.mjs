@@ -51,7 +51,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own multi-genre mix moves through techno and harder rave material as a personal route from Airbeat One’s stage spread, without standing in for its programme.', 'For a long airfield weekend: my own cross-genre set, with techno in the centre and several faster turns around it.'],
+  ownSetCopy:['My own multi-genre mix, through techno and harder rave material.', 'For a long airfield weekend: my own cross-genre set, with techno in the centre and several faster turns around it.'],
   bandcampCopy:'Airbeat One gives several electronic scenes their own stages. These thecatrave releases connect to its club-facing side, and buying one supports the music and this independent writing.',
   sources:[
     {label:'Airbeat One: official 2027 dates, anniversary and theme',url:'https://airbeat-one.de/en/info/'},

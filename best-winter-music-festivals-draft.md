@@ -90,7 +90,7 @@ Shapes holds its festival in the Swiss resort of Leysin, and its own site gives 
 
 ## Which winter festivals does the specialist music press recommend?
 
-CTM, Elevate, Rise and Astropolis l'Hiver are the ones that the specialist press covers and the search tools hardly measure. You will not find them on a list of the best winter festivals by volume. They are here because the music press keeps coming back to them.
+CTM, Elevate, Rise and Astropolis l'Hiver are the ones that the specialist press covers and the search tools hardly measure. You will not find them on a list of the best winter festivals by volume. The music press keeps coming back to them.
 
 ### CTM, Berlin
 

@@ -127,7 +127,7 @@ const articleHtml = [
   articleSection({id: 'introduction', title: 'Techno comes home to the riverfront.', bodyHtml: join(intro), className: 'article-intro'}),
   articleSection({id: 'what-is', title: 'What is Movement Detroit?', bodyHtml: join(whatIs)}),
   articleSection({id: 'location', title: 'Hart Plaza and the Detroit riverfront.', bodyHtml: `${join(location.slice(0, 2))}${hartFigure}${join(location.slice(2))}`}),
-  articleSection({id: 'history', title: 'From DEMF to Movement.', kicker: '2000 to the present', bodyHtml: `${join(history.slice(0, 2))}${movementFigure}${join(history.slice(2))}${ownSetListening(0, 'en', 'Thirty tracks moving between garage, bass music, techno and rave. My own mix, placed here as a route beyond the archive.')}`}),
+  articleSection({id: 'history', title: 'From DEMF to Movement.', kicker: '2000 to the present', bodyHtml: `${join(history.slice(0, 2))}${movementFigure}${join(history.slice(2))}${ownSetListening(0, 'en', 'Thirty tracks moving between garage, bass music, techno and rave. My own mix.')}`}),
   articleSection({id: 'detroit', title: 'Detroit techno on its home ground.', bodyHtml: `${join(detroit)}${archiveListening}`}),
   articleSection({id: 'stages', title: 'What music and stages to expect.', bodyHtml: `${join(stages)}${stageTable}`}),
   articleSection({id: 'current', title: 'Movement Detroit dates and lineup.', bodyHtml: join(current)}),

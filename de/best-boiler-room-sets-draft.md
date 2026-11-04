@@ -116,7 +116,7 @@ Es ist das beste Beispiel dafür, dass der Raum Teil des Sets wird. Ein Dubstep-
 
 PARTYGIRL, Charli xcx’ erstes Boiler Room, fand am 22. Februar 2024 in einem Lagerhaus in der 99 Scott Avenue in Brooklyn statt. Es zog mehr als 25.000 RSVPs an, die meisten in der Geschichte von Boiler Room.
 
-Das ist das Charli-XCX-Boiler-Room-Set, das die meisten meinen, obwohl es zwei gab: PARTYGIRL Ibiza folgte im Juli im Amnesia. Das Video aus Brooklyn hat 8,96 Millionen Aufrufe und 23,9 Likes pro tausend, unter den Boiler-Room-Sets über acht Millionen nur hinter dem Tokio-Set. Es steht hier, weil es der klarste Fall eines Popstars ist, der das Format zum Auflegen statt zum Auftreten nutzt, und wegen dieser RSVP-Zahl.
+Das ist das Charli-XCX-Boiler-Room-Set, das die meisten meinen, obwohl es zwei gab: PARTYGIRL Ibiza folgte im Juli im Amnesia. Das Video aus Brooklyn hat 8,96 Millionen Aufrufe und 23,9 Likes pro tausend, unter den Boiler-Room-Sets über acht Millionen nur hinter dem Tokio-Set. Es ist der klarste Fall eines Popstars, der das Format zum Auflegen statt zum Auftreten nutzt.
 
 [Embed: yt-charli-xcx]
 
@@ -148,7 +148,7 @@ Es hat 9,05 Millionen Aufrufe, und es ist der Fall dieser Liste für das Set, da
 
 Jaar spielte im April 2013 bei einem Takeover seines Labels Clown & Sunset mit der Red Bull Music Academy. Sechsundvierzig Minuten, und das langsamste Set dieser Liste.
 
-Es hat 9,09 Millionen Aufrufe, viel für Musik, die so weit von einem Peak-Time-Club entfernt ist. Es steht hier als Beweis, dass das Format keinen Drop braucht.
+Es hat 9,09 Millionen Aufrufe, viel für Musik, die so weit von einem Peak-Time-Club entfernt ist. Es zeigt, dass das Format keinen Drop braucht.
 
 [Embed: yt-nicolas-jaar]
 

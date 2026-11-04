@@ -197,7 +197,7 @@ const shopFigure = articleFigure({
 // and it demonstrates the argument of the paragraph beside it.
 // The owner's own track closing the producer method: one producer to follow
 // (owner, 2026-09-21: at least two own players a guide).
-const producerTrack = ownTrackListening('no-genre-no-problem', 'One producer to follow, since you are here: glitch, IDM and ambient. My own track.');
+const producerTrack = ownTrackListening('no-genre-no-problem', 'Glitch, IDM and ambient. My own track.');
 
 const bandcampExample = articleTrackEmbed({
   platform: 'bandcamp',

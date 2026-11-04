@@ -64,7 +64,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Parookaville stage construction': figure('stage-build-2016', 1200, 752,
       'Une façade de scène faite de fausses maisons de ville avec des échafaudages et une cheminée rouge et blanche, devant des grues et des chariots élévateurs, sur le site de Parookaville en 2016',
       'Une scène de Parookaville en construction sur l’aérodrome en juillet 2016, deuxième année du festival : fausses maisons de ville, cheminée et échafaudages. Photo : Tama66, CC0.'),

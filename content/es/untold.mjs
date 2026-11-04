@@ -62,7 +62,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Lejos de los grandes escenarios: la voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
     'Cluj-Napoca Cluj Arena 1': figure('cluj-arena', 1200, 799,
       'El interior del Cluj Arena, un estadio de fútbol ovalado con el techo curvo sobre asientos grises, césped verde y una pista, bajo un cielo azul',
       'El Cluj Arena, el estadio de fútbol de 30 355 plazas que acoge el escenario principal de Untold, un día corriente de septiembre de 2014. Foto: Валерий Дед, CC BY 3.0.'),

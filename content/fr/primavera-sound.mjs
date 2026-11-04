@@ -69,7 +69,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Loin des grandes scènes : la voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voix de Mylène Farmer sur des breaks, entre dubstep et UK garage. Mon propre remix.', lang),
     'Primavera stage crowd': figure('festival-crowd', 1200, 800,
       'Des festivaliers au bord de l’eau à Primavera Sound Barcelona en 2019, sous un ciel bleu dégagé',
       `Le public de Primavera Sound Barcelona en 2019, avec le site ouvert sur l’eau autour. Photo : John Lubbock, CC BY-SA 4.0. ${commonsLink('Primavera stage crowd.jpg')}`,

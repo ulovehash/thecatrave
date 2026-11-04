@@ -102,7 +102,7 @@ When UK dubstep reached larger North American audiences around 2009 and 2010, it
 
 [EMBED: Skrillex, “Scary Monsters and Nice Sprites”]
 
-This is not an origin record. It belongs because it changed scale. Its mid-range design, sharp contrasts and crossover success helped establish what many North American listeners expected from dubstep and, by extension, bass music.
+This is not an origin record, but it changed scale. Its mid-range design, sharp contrasts and crossover success helped establish what many North American listeners expected from dubstep and, by extension, bass music.
 
 Festival usage widened the category again. Dubstep, riddim, electronic trap, glitch-hop, future bass, melodic bass and bass house could appear under the same commercial heading even when their histories differed. In this context, bass music often describes an audience and event circuit as much as musical construction.
 

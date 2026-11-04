@@ -39,6 +39,10 @@ const RULES = [
     re: /\bfull DJ sets?\b|\bone complete set\b|\bthe whole set\b|komplette[sn]? DJ-Sets?|vollständige[sn]? (?:DJ-)?Sets?|\bDJ sets? complets?\b|\bun set complet\b|\bconcerts entiers\b|\bsesiones? (?:de DJ )?(?:completas?|enteras?|íntegras?)\b|\bsets? (?:completos?|enteros?|íntegros?)\b|\bcomplete recordings?\b|complete piece of programming|full-hour attention|can be played in full/i,
   },
   {
+    rule: 'A listening card describes the music, never its own placement or what it is not (AGENTS.md section on own music, owner 2026-11-04)',
+    re: /placed here|sits here because|(?:is|are|kept) here because|It belongs because|(?:est|sont|figure|figurent) ici parce|est là parce qu|fits here because|belongs? here (?:because|as)|is here as proof|discussed on this page|closest match to the|listening route from|as a personal route|personal after-hours route|without (?:claiming to reproduce|pretending to stand in|standing in for)|rather than a claim to represent|not a substitute for the|since you are here|to listen to between festivals|for a break from the festival|Not what the main stages play|not a 90s record|embedded at the exact point|so the evidence is a set|after the article(?:'|’)s main answer|(?:steht|stehen) hier, weil|steht hier als|stehen hier als|passt hierher|gehört hierher|nach der Hauptantwort|für eine Pause vom Festival|zwischen den Festivals\.|Nicht das, was auf den großen Bühnen|wo du schon da bist|placé ici|a sa place ici|trouve sa place ici|figurent ici comme|réponse principale de l|pause dans le festival|entre deux festivals\.|Loin des grandes scènes|puisque vous êtes déjà là|está aquí (?:porque|como)|aparecen aquí como|tiene su lugar aquí|respuesta principal del artículo|descansar del festival|para escuchar entre festivales|Lejos de los grandes escenarios|colocado en el momento exacto/i,
+  },
+  {
     rule: 'No "ultimate guide" opener (humanizer pass, 2026-09-23)',
     re: /Welcome to the ultimate guide|Bienvenue dans le grand guide|Willkommen beim großen Guide|Te damos la bienvenida a la guía definitiva|Bienvenido a la guía definitiva/i,
   },

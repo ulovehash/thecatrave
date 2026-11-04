@@ -154,7 +154,7 @@ const expectedJungleFaq = articleFaq({items:[
 const expectedBreakbeatListening = articleListeningBand({
   platform:'soundcloud', id:'breakbeat-contemporary-mix', kicker:'A contemporary route by thecatrave',
   title:'I Like to Smoke in Silence After Raves',
-  description:'This set belongs here because it shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.',
+  description:'This set shows how breaks now move between garage, bass music, techno and rave instead of living inside one sealed revival.',
   src:'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thecatrave/i-like-to-smoke-in-silence-after-raves&color=%23ff5a36&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
   iframeTitle:'I Like to Smoke in Silence After Raves by thecatrave on SoundCloud', fullBleed:true, tone:'cyan'
 });

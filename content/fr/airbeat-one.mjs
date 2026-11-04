@@ -74,7 +74,7 @@ export default {
         articleVideoCard({youtubeId: 'wETX6I_EDUo', genre: 'AIRBEAT ONE, 2025', artist: 'Paul van Dyk', title: 'Live from the Second Stage'})
       ]
     }),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre traverse la techno et du matériel rave plus dur, comme un parcours personnel dans l’éventail de scènes d’Airbeat One, sans remplacer sa programmation.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre, à travers la techno et du matériel rave plus dur.'),
     'thecatrave mix 2': ownSetListening(1, lang, 'Pour un long week-end sur l’aérodrome : mon propre set entre les genres, avec la techno au centre et plusieurs virages plus rapides autour.'),
     'Table: Faits': articleTable({
       headers: ['Information', 'Détail'],

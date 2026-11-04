@@ -51,7 +51,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own cross-genre mix belongs here as a route from Sziget’s club stages into techno, breaks and bass music.', 'For the journey back into Budapest: my own multi-genre set, with techno in the mix rather than a claim to represent Sziget’s programme.'],
+  ownSetCopy:['My own cross-genre mix, through techno, breaks and bass music.', 'For the journey back into Budapest: my own multi-genre set, with techno in the mix.'],
   bandcampCopy:'Sziget is broader than one electronic style. These thecatrave releases connect to its club-facing side, and buying one supports the music and this independent writing.',
   sources:[
     {label:'Sziget: official festival information and 2027 dates', url:'https://szigetfestival.com/en/festival-info'},

@@ -272,7 +272,7 @@ const articleHtml = [
   articleSection({id:'meanings',title:'Why does “bass music” mean different things in different scenes?',bodyHtml:meaningsHtml}),
   articleSection({id:'types',title:'What are the types of bass music? A scene-by-scene listening map.',bodyHtml:typesHtml}),
   articleSection({id:'infrastructure',title:'How bass music lives: sound systems, pirate radio, clubs and labels.',bodyHtml:infrastructureHtml}),
-  articleSection({id:'records',title:'Bass music artists and records that changed the culture.',bodyHtml:`${p('This is not a hall of fame. Each record is here because it changes the definition rather than merely representing a popular subgenre.')}${articleTable({headers:['Record','Why it matters'],rows:recordRows,className:'bass-record-table'})}`}),
+  articleSection({id:'records',title:'Bass music artists and records that changed the culture.',bodyHtml:`${p('This is not a hall of fame. Each record changed the definition rather than merely representing a popular subgenre.')}${articleTable({headers:['Record','Why it matters'],rows:recordRows,className:'bass-record-table'})}`}),
   articleSection({id:'today',title:'Bass music today: hybrid sets and blurred genre borders.',bodyHtml:todayHtml}),
   articleSection({id:'where-to-start',title:'Where to start with bass music: tracks, playlists and mixes.',bodyHtml:startingHtml}),
   articleSection({id:'useful',title:'Is “bass music” still a useful term?',bodyHtml:render(useful)}),

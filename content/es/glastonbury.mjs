@@ -120,7 +120,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Lejos de los grandes escenarios: percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
+    'thecatrave berlin-race-1909': ownTrackListening('berlin-race-1909', 'Percusión rota con eco de dub techno y espacio. Un tema mío.', lang),
     'Pilton, Glastonbury Festival Site': figure('aerial-2022', 1200, 800,
       'Worthy Farm vista desde el aire en junio de 2022, campos verdes separados por setos y llenos de tiendas, carpas y toldos de colores',
       'Worthy Farm desde el aire en junio de 2022, unos días antes del festival, con los campos ya llenos de tiendas, carpas y escenarios. Foto: Lewis Clarke, CC BY-SA 2.0.'),

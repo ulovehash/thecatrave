@@ -53,8 +53,8 @@ export default {
   media: ({lang}) => ({
     'Fortress': figure('exit-fortress', 800, 509, 'La forteresse de Petrovaradin illuminée pendant le festival EXIT', 'La forteresse de Petrovaradin pendant EXIT. Les murs, les portes et le fossé ont façonné le fonctionnement du festival de Novi Sad de 2001 à 2025. Photo : EXIT photo team, CC BY-SA 3.0.'),
     'Crowd': figure('exit-crowd', 1200, 784, 'Foule dense dans la forteresse de Petrovaradin pendant le festival EXIT en 2015', 'Une foule dans la forteresse de Petrovaradin en 2015. Les scènes d’EXIT occupaient un site historique en activité plutôt qu’un champ de festival construit pour l’occasion. Photo : Jelena Ivanovic, EXIT photo team, CC BY-SA 3.0.'),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre, comme parcours personnel à travers la techno, les breaks et la bass music, et non une reconstitution de la Dance Arena.'),
-    'thecatrave mix 2': ownSetListening(1, lang, 'Pour l’ère actuelle d’EXIT, de lieu en lieu : un parcours électronique, pendant que chaque événement officiel garde sa propre programmation.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre, à travers la techno, les breaks et la bass music.'),
+    'thecatrave mix 2': ownSetListening(1, lang, 'Mon propre set, à travers les breaks, le garage, le dubstep, le grime et la techno.'),
     'Keinemusik and Nina Kraviz': articleVideoCollection({
       lang,
       label: 'Deux sets de la Dance Arena sur la chaîne d’EXIT',

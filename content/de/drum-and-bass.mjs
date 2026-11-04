@@ -84,7 +84,7 @@ export default {
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
     'thecatrave art-deco': ownTrackListening('art-deco', 'Die Jungle-Seite der Trennung, von heute aus gehört: mein Remix bei 150 BPM.', lang),
-    'thecatrave late-summer-cloud-dance': ownTrackListening('late-summer-cloud-dance', 'Ein kurzes Liquid-Breakbeat-Stück im atmosphärischen Geist dieses Kapitels. Mein eigener Track.', lang),
+    'thecatrave late-summer-cloud-dance': ownTrackListening('late-summer-cloud-dance', 'Ein kurzes Liquid-Breakbeat-Stück. Mein eigener Track.', lang),
     'Roni Size': articleFigure({
       src: 'img/dnb/roni-size.webp',
       srcset: 'img/dnb/roni-size-320.webp 320w, img/dnb/roni-size.webp 1120w',

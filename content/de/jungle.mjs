@@ -42,10 +42,10 @@ const copy = {
     dancing: ['Menschen tanzen auf einem Jungle-Rave', 'Jungle-Raves: Schweiß, Gunfingers, Bass, Zusammenhalt.']
   },
   videos: {
-    'dj-hype': {kicker: 'Aus dem Archiv', heading: 'DJ Hype, Jungle Massive.', description: 'Eine Compilation aus der Zeit, die die Namen und Platten dieses Abschnitts zu einem durchgehenden Hörweg macht.'},
-    'original-nuttah': {kicker: 'Der wichtige Track', heading: 'Shy FX & UK Apachi, Original Nuttah.', description: 'Die Crossover-Hymne von 1994, um die es hier geht, genau an der Stelle, an der sie in die Geschichte eintritt.'},
+    'dj-hype': {kicker: 'Aus dem Archiv', heading: 'DJ Hype, Jungle Massive.', description: 'Eine Compilation aus der Zeit, als ein durchgehender Mix.'},
+    'original-nuttah': {kicker: 'Der wichtige Track', heading: 'Shy FX & UK Apachi, Original Nuttah.', description: 'Die Crossover-Hymne von 1994.'},
     'nia-archives': {kicker: 'Das Revival in der Praxis', heading: 'Nia Archives, Boiler Room: London.', description: 'Ein heutiges Set, das grundlegende Jungle-Platten, aktuelle Edits und die neue Energie verbindet, die dieser Abschnitt beschreibt.'},
-    'tim-reaper': {kicker: 'Zum Reinhören', heading: 'Tim Reaper, Jungle-Mix im Geist des Rare Groove.', description: 'Aufgenommen für NTS. Ein DJ statt einer Platte, also ist der Beleg ein Set: eine Stunde davon, wie das Revival wirklich klingt.'}
+    'tim-reaper': {kicker: 'Zum Reinhören', heading: 'Tim Reaper, Jungle-Mix im Geist des Rare Groove.', description: 'Aufgenommen für NTS: eine Stunde davon, wie das Revival wirklich klingt.'}
   },
   playlists: {
     'early-jungle-playlist': {title: 'Früher Jungle und Hardcore: die lange Playlist.', description: 'Ein längerer Weg durch die Platten, die Breakbeat Hardcore, Darkcore und den ersten erkennbaren Jungle-Sound verbinden.', iframeTitle: 'Playlist mit frühem Jungle und Hardcore auf Spotify'},

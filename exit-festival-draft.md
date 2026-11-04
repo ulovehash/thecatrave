@@ -40,7 +40,7 @@ EXIT was a multi-genre festival. Its main stages booked rock, punk, hip-hop, pop
 
 [Embed: Keinemusik and Nina Kraviz]
 
-The 2023 Keinemusik and 2016 Nina Kraviz recordings are among the most-viewed from the Dance Arena on EXIT’s own channel. They belong here as evidence of the fortress format, not as a promise about the sound or setting of every future EXIT-produced event.
+The 2023 Keinemusik and 2016 Nina Kraviz recordings are among the most-viewed from the Dance Arena on EXIT’s own channel. They show the fortress format; they promise nothing about the sound or setting of future EXIT-produced events.
 
 ## EXIT as a festival network
 

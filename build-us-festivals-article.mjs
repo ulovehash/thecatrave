@@ -175,7 +175,7 @@ const articleHtml = [
   articleSection({id: 'house-techno', title: 'Which US festivals are best for house and techno?', bodyHtml: `${join(houseTechno.slice(0, iiiIdx))}${crssdSet}${join(houseTechno.slice(iiiIdx))}`}),
   articleSection({id: 'bass', title: 'Where does bass music live in the US?', bodyHtml: join(bass)}),
   articleSection({id: 'forest', title: 'Which US festival is a week in the woods?', bodyHtml: join(forest)}),
-  articleSection({id: 'smaller', title: 'Smaller festivals worth the trip.', kicker: 'Off the poll', bodyHtml: `${join(smaller)}${ownTrackListening('late-summer-cloud-dance', 'A track of mine, to listen to between festivals.')}`}),
+  articleSection({id: 'smaller', title: 'Smaller festivals worth the trip.', kicker: 'Off the poll', bodyHtml: `${join(smaller)}${ownTrackListening('late-summer-cloud-dance', 'My own short liquid-breakbeat track.')}`}),
   articleSection({id: 'not-listed', title: 'Not on this list, and why.', bodyHtml: join(notListed)}),
   articleSection({id: 'choose', title: 'How to choose.', bodyHtml: `${join(choose)}${secondMix}`}),
   articleFaq({items: faqItems, title: 'US EDM festivals FAQ.', openFirst: true}),

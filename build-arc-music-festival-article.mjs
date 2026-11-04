@@ -51,7 +51,7 @@ buildFestivalArticle({
       ]
     }}
   ],
-  ownSetCopy:['My own multi-genre mix follows ARC’s club-facing route through house, techno and harder turns without claiming to reproduce one edition’s lineup.', 'For the trip from Union Park into the night: my own set, moving across techno, breaks and bass music as a personal after-hours route.'],
+  ownSetCopy:['My own multi-genre mix, through house, techno and harder turns.', 'For the trip from Union Park into the night: my own set, moving across techno, breaks and bass music.'],
   bandcampCopy:'ARC is grounded in club music rather than one fixed subgenre. These thecatrave releases connect to its house and techno side, and buying one supports the music and this independent writing.',
   sources:[
     {label:'ARC Music Festival: official site and 2027 updates',url:'https://arcmusicfestival.com/'},

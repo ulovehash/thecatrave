@@ -61,8 +61,8 @@ export default {
       'Frankie Knuckles Way marque le pâté de maisons à côté de l’ancien site du Warehouse. ARC s’appuie sur cette histoire en programmant des artistes de Chicago aux côtés des têtes d’affiche internationales actuelles. Photo : Sarah Stierch, CC BY 4.0.'),
     'Union Park': articleFigure({src: 'img/arc-music-festival/arc-union-park-1200.webp', srcset: 'img/arc-music-festival/arc-union-park-320.webp 320w, img/arc-music-festival/arc-union-park-1200.webp 1024w', width: 1024, height: 768, alt: 'Union Park à Chicago, avec la skyline du centre-ville derrière', caption: 'Union Park est compact et proche de la CTA. Sa surface limitée rapproche aussi plusieurs sound systems du festival. Photo : soundfromwayout, CC BY 2.0.', className: 'wide-archive-image'}),
     'ARC sets': articleVideoCollection({lang, label: 'Sets d’ARC', description: 'Boys Noize b2b VTSS à ARC pour Mixmag Lab, et Nicole Moudaber à l’édition 2025. Ce sont les sets d’ARC les plus regardés que j’aie trouvés sur YouTube.', items: [articleVideoCard({youtubeId: '_jysvzxpb0Q', genre: 'MIXMAG LAB x ARC', artist: 'Boys Noize b2b VTSS', title: 'Mixmag Lab x ARC Music Festival'}), articleVideoCard({youtubeId: '6g7HHRV0HSE', genre: 'ARC, 2025', artist: 'Nicole Moudaber', title: 'ARC Music Festival Chicago 2025'})]}),
-    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre suit le parcours club d’ARC à travers la house, la techno et des virages plus durs, sans prétendre reproduire l’affiche d’une édition.'),
-    'thecatrave mix 2': ownSetListening(1, lang, 'Pour le trajet d’Union Park vers la nuit : mon propre set entre techno, breaks et bass music, comme parcours personnel d’after.'),
+    'thecatrave mix 1': ownSetListening(0, lang, 'Mon propre mix multigenre, à travers la house, la techno et des virages plus durs.'),
+    'thecatrave mix 2': ownSetListening(1, lang, 'Pour le trajet d’Union Park vers la nuit : mon propre set entre techno, breaks et bass music.'),
     'Table: Facts': articleTable({
       headers: ['Sujet', 'État'],
       rows: [

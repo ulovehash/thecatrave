@@ -68,7 +68,7 @@ export default {
 
   media: ({lang}) => ({
     // The owner's own music inside the text (the Spanish pages use Look).
-    'thecatrave Look': ownTrackListening('look', 'Lejos de los grandes escenarios: future bass, glitch y breakbeat. Mi propio tema.', lang),
+    'thecatrave Look': ownTrackListening('look', 'Future bass, glitch y breakbeat. Mi propio tema.', lang),
     'Main stage by the lake': figure('site-aerial-2018', 1200, 675,
       'Mysteryland 2018 visto desde el aire: un enorme escenario principal decorado junto a un lago, una multitud densa delante, y bosques, tiendas y caminos alrededor',
       'El escenario principal junto al lago, en el antiguo recinto de la Floriade, visto desde el aire en Mysteryland 2018. Foto: Niels de Vries, CC BY-SA 4.0.'),

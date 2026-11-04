@@ -63,7 +63,7 @@ export default {
   ],
 
   media: ({lang}) => ({
-    'thecatrave degeneration': ownTrackListening('degeneration', 'Lejos de los grandes escenarios: la voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
+    'thecatrave degeneration': ownTrackListening('degeneration', 'La voz de Mylène Farmer sobre breaks, entre dubstep y UK garage. Mi propio remix.', lang),
     'Coachella18W1-18': figure('grounds-2018', 1200, 677,
       'Asistentes en el césped de Coachella en 2018, con palmeras detrás y una alta torre de paneles de colores, y en el horizonte las montañas del desierto y la noria',
       'El recinto del festival en abril de 2018: palmeras, montañas del desierto, una torre de colores y la noria. Foto: Raph_PH, CC BY 2.0.'),
