@@ -8,13 +8,65 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best Electronic Festivals in Portugal 2027: Neopop, Boom, Somnii</title>
+    <link>https://thecatrave.com/best-electronic-music-festivals-portugal</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-electronic-music-festivals-portugal</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The best electronic music festivals in Portugal for 2027, with dates: Neopop for techno, Boom for psytrance, Sónar and LISB-ON in Lisbon, RFM Somnii.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/portugal-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best EDM Festivals in Mexico 2027: Zamna, Day Zero, Bahidorá</title>
+    <link>https://thecatrave.com/best-edm-festivals-mexico</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-edm-festivals-mexico</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The best EDM festivals in Mexico for 2027, with dates and setting: Zamna and Day Zero in Tulum, Bahidorá in Morelos, and EDC and MUTEK in Mexico City.</description>
+    <category>discovery</category>
+    <category>techno</category>
+    <media:content url="https://thecatrave.com/img/og/mexico-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>World&apos;s Biggest EDM Festivals 2027: EDC, Untold, Tomorrowland</title>
+    <link>https://thecatrave.com/best-edm-festivals-world</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-edm-festivals-world</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The biggest EDM festivals in the world, ranked by reported attendance with year and source: EDC Las Vegas, Untold, Tomorrowland and more, with 2027 dates.</description>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/world-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best EDM Festivals Las Vegas 2027: EDC, Breakaway, Goldrush</title>
+    <link>https://thecatrave.com/best-edm-festivals-las-vegas</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-edm-festivals-las-vegas</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>EDM festivals in Las Vegas for 2027: EDC in May, Breakaway at the Wynn in June, and the festivals a drive away in California, Arizona and Utah, with dates.</description>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/vegas-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
+  <item>
+    <title>Best Bass Music Festivals 2027: Lost Lands, Outlook, Bass Coast</title>
+    <link>https://thecatrave.com/best-bass-music-festivals</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-bass-music-festivals</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>The best bass music festivals for 2027 with dates: Outlook Origins, Boomtown and Bassfest in Europe, Bass Coast, Bass Canyon and Lost Lands in North America.</description>
+    <category>discovery</category>
+    <media:content url="https://thecatrave.com/img/og/bass-festivals.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best House Music Festivals 2027: ARC, Movement, Loveland</title>
     <link>https://thecatrave.com/best-house-music-festivals</link>

@@ -1,0 +1,22 @@
+{
+  "page": "best-edm-festivals-las-vegas.html",
+  "seed": "edm festivals las vegas",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 1000 means the 1K to 10K bucket and 100 the 100 to 1K bucket. EDC's own forms belong to edc-las-vegas and are not targeted here.",
+  "terms": [
+    {"term": "edm festivals las vegas", "volume": 1000},
+    {"term": "vegas edm festival", "volume": 1000},
+    {"term": "edm festival in las vegas", "volume": 1000},
+    {"term": "edm festival in vegas", "volume": 1000},
+    {"term": "edm festivals in vegas", "volume": 1000},
+    {"term": "edm festivals vegas", "volume": 1000},
+    {"term": "electronic music festival las vegas", "volume": 1000},
+    {"term": "edm music festival las vegas", "volume": 100}
+  ],
+  "rejected": [
+    {"term": "edm music festival vegas", "volume": 100, "why": "word-order variant of a phrase the page already carries; not forced into the copy"},
+    {"term": "edm concert las vegas", "volume": 100, "why": "asks for concerts and club nights, which the page answers in its club section without a festival roundup claiming the phrase"},
+    {"term": "edm concert in vegas", "volume": 100, "why": "same intent as edm concert las vegas; not forced into the copy"},
+    {"term": "edc las", "volume": 100, "why": "an EDC form; taken by edc-las-vegas"}
+  ]
+}

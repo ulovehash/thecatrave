@@ -1722,6 +1722,14 @@
         "file": "analytics-runtime.js",
         "contains": "bandcamp-embeds-blank-in-safari). There, each Bandcamp frame becomes a card"
       }
+    },
+    {
+      "id": "love-parade-street-parade-2025-attendance",
+      "found": "2026-11-03",
+      "by": "agent",
+      "what": "love-parade.html says the Street Parade drew about 900,000 people in 2025, according to its organisers. The organiser's history page (streetparade.com/en/historie) gives 800,000 for 2025 (Live Love, love Life) and 900,000 for 2026 (Together we move). Found while writing the world festivals guide; not edited because published copy is shown to the owner first.",
+      "should_have_caught": "the factual pass in ARTICLE-EDITORIAL-REVIEW.md: the review ledger marked the figure checked against streetparade.com without naming the year on the page",
+      "fix": null
     }
   ]
 }

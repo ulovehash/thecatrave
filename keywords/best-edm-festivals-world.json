@@ -1,0 +1,22 @@
+{
+  "page": "best-edm-festivals-world.html",
+  "seed": "biggest edm festival in the world",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket and 1000 the 1K to 10K bucket. Verdict: electronic festivals only, ranked by reported attendance.",
+  "terms": [
+    {"term": "biggest edm festival in the world", "volume": 1000},
+    {"term": "largest electronic music festival in the world", "volume": 1000},
+    {"term": "largest music festival in the world", "volume": 1000},
+    {"term": "biggest electronic music festival in the world", "volume": 100},
+    {"term": "largest edm festival in the world", "volume": 100},
+    {"term": "world's biggest edm festival", "volume": 100},
+    {"term": "world's biggest electronic music festivals", "volume": 100},
+    {"term": "largest electronic music festival", "volume": 100}
+  ],
+  "rejected": [
+    {"term": "biggest music festivals in the world", "volume": 1000, "why": "General rock and pop intent; the verdict leaves this head to general music listicles."},
+    {"term": "world best music festivals", "volume": 1000, "why": "General music intent, not electronic."},
+    {"term": "biggest techno festival in the world", "volume": null, "why": "Taken by another page."},
+    {"term": "biggest edm festivals in the us", "volume": null, "why": "Taken by another page."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "page": "best-edm-festivals-mexico.html",
+  "seed": "edm festivals mexico",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes). No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound: 100 means 100 to 1K, 10 means 10 to 100. \"edc mexico\" and \"time warp mexico\" are taken by /edc-las-vegas and /time-warp-festival and are not targeted here.",
+  "terms": [
+    {"term": "edm festivals mexico", "volume": 100},
+    {"term": "edm festival mexico", "volume": 100},
+    {"term": "edm festivals in mexico", "volume": 100},
+    {"term": "mexico edm festival", "volume": 100},
+    {"term": "tulum edm festival", "volume": 100},
+    {"term": "cancun edm festival", "volume": 10},
+    {"term": "edm festival tulum", "volume": 10}
+  ],
+  "rejected": []
+}

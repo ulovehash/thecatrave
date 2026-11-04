@@ -1,0 +1,54 @@
+{
+  "page": "best-bass-music-festivals.html",
+  "seed": "bass music festivals",
+  "source": "Google Ads Keyword Planner, all locations, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes), from the third-wave dossier in TOPIC-DOSSIERS.md. No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. bass music and every drum and bass festival form are taken by other pages and are not targeted here.",
+  "terms": [
+    {
+      "term": "bass music festivals",
+      "volume": 1000
+    },
+    {
+      "term": "bass festivals",
+      "volume": 1000
+    },
+    {
+      "term": "bass coast festival",
+      "volume": 1000
+    },
+    {
+      "term": "dubstep festivals",
+      "volume": 100
+    },
+    {
+      "term": "dubstep music festivals",
+      "volume": 100
+    },
+    {
+      "term": "best dubstep festivals",
+      "volume": 10
+    }
+  ],
+  "rejected": [
+    {
+      "term": "bass canyon music festival",
+      "volume": 100,
+      "why": "variant of bass canyon, which TAKEN-KEYWORDS.md assigns to best-edm-festivals-usa.html; the entry here stays short and links there (editorial review, 4 November 2026)"
+    },
+    {
+      "term": "bass coast music and arts festival",
+      "volume": 1000,
+      "why": "the festival's own pages checked for this guide do not use that name, so the page does not claim it"
+    },
+    {
+      "term": "bass coast music festival",
+      "volume": 100,
+      "why": "word variant of bass coast festival, which the page carries; not forced into the copy"
+    },
+    {
+      "term": "touch bass festival",
+      "volume": 100,
+      "why": "an event outside this list; not researched for it"
+    }
+  ]
+}

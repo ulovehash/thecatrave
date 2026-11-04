@@ -112,7 +112,7 @@ Draaimolen, in Tilburg, is two days of techno, ambient and experimental club mus
 
 ### Waking Life, Portugal
 
-Waking Life is a gathering of about six days around the summer solstice in the Alentejo countryside near Crato, run by a non-profit association, with camping and tipis on site. The programme mixes electronic producers with experimental and world music, and in 2025 it ran from 18 to 23 June. Festival listings give mid-June 2027 for the next edition, but the festival's own site has not confirmed them.
+Waking Life is a gathering of about six days around the summer solstice in the Alentejo countryside near Crato, run by a non-profit association, with camping and tipis on site. The programme mixes electronic producers with experimental and world music, and in 2025 it ran from 18 to 23 June. Festival listings give mid-June 2027 for the next edition, but the festival's own site has not confirmed them. The [Portugal festivals guide](/best-electronic-music-festivals-portugal) covers it alongside Neopop, Boom and RFM Somnii.
 
 ### Kala, Albania
 
@@ -149,7 +149,7 @@ For festivals outside Europe, see the [best electronic music festivals in Asia](
 
 ### What is the biggest EDM music festival in Europe?
 
-By attendance, the biggest electronic music festivals in Europe are Untold in Romania, which reported more than 500,000 admissions in 2026 summed across four days, and Tomorrowland in Belgium, which drew 400,000 people over two weekends. The two count differently, so there is no clean answer. Defqon.1 counted about 268,000 visitors in 2025 and Parookaville reports 225,000 admissions.
+By attendance, the biggest electronic music festivals in Europe are Untold in Romania, which reported more than 500,000 admissions in 2026 summed across four days, and Tomorrowland in Belgium, which drew 400,000 people over two weekends. The two count differently, so there is no clean answer. Defqon.1 counted about 268,000 visitors in 2025 and Parookaville reports 225,000 admissions. The [world's biggest EDM festivals guide](/best-edm-festivals-world) ranks them against EDC and the festivals outside Europe.
 
 ### What are the top 10 electronic music festivals in the world?
 

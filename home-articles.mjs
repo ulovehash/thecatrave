@@ -618,6 +618,46 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Ciel playing a DJ set at Movement festival in Detroit in 2019'
   },
   {
+    page:'best-bass-music-festivals.html', category:'festivals', tags:['discovery'], href:'/best-bass-music-festivals', type:'List', topic:'Bass music festivals',
+    title:'Best Bass Music Festivals 2027: Lost Lands, Outlook, Bass Coast',
+    description:'The best bass music festivals for 2027 with dates: Outlook Origins, Boomtown and Bassfest in Europe, Bass Coast, Bass Canyon and Lost Lands in North America.',
+    image:'img/bass-festivals/lost-lands-dion-timmer-2019-320.webp',
+    srcset:'img/bass-festivals/lost-lands-dion-timmer-2019-320.webp 320w,img/bass-festivals/lost-lands-dion-timmer-2019-1200.webp 1200w',
+    width:1200, height:900, alt:'The main stage LED screen at Lost Lands in 2019, above the crowd'
+  },
+  {
+    page:'best-edm-festivals-las-vegas.html', category:'festivals', tags:['discovery'], href:'/best-edm-festivals-las-vegas', type:'List', topic:'Las Vegas EDM festivals',
+    title:'Best EDM Festivals Las Vegas 2027: EDC, Breakaway, Goldrush',
+    description:'EDM festivals in Las Vegas for 2027: EDC in May, Breakaway at the Wynn in June, and the festivals a drive away in California, Arizona and Utah, with dates.',
+    image:'img/vegas-festivals/escape-halloween-2022-320.webp',
+    srcset:'img/vegas-festivals/escape-halloween-2022-320.webp 320w,img/vegas-festivals/escape-halloween-2022-1200.webp 1200w',
+    width:1200, height:803, alt:'A crowd with flags in front of an indoor stage with flames at Escape Halloween in 2022'
+  },
+  {
+    page:'best-edm-festivals-world.html', category:'festivals', tags:['discovery'], href:'/best-edm-festivals-world', type:'List', topic:'Biggest EDM festivals in the world',
+    title:'World\'s Biggest EDM Festivals 2027: EDC, Untold, Tomorrowland',
+    description:'The biggest EDM festivals in the world, ranked by reported attendance with year and source: EDC Las Vegas, Untold, Tomorrowland and more, with 2027 dates.',
+    image:'img/world-festivals/edc-las-vegas-2024-320.webp',
+    srcset:'img/world-festivals/edc-las-vegas-2024-320.webp 320w,img/world-festivals/edc-las-vegas-2024-1200.webp 1200w',
+    width:1200, height:672, alt:'Lasers and the Ferris wheel at EDC Las Vegas at night in 2024'
+  },
+  {
+    page:'best-edm-festivals-mexico.html', category:'festivals', tags:['discovery','techno'], href:'/best-edm-festivals-mexico', type:'List', topic:'Mexico EDM festivals',
+    title:'Best EDM Festivals in Mexico 2027: Zamna, Day Zero, Bahidorá',
+    description:'The best EDM festivals in Mexico for 2027, with dates and setting: Zamna and Day Zero in Tulum, Bahidorá in Morelos, and EDC and MUTEK in Mexico City.',
+    image:'img/mexico-festivals/mutek-mexico-city-2016-320.webp',
+    srcset:'img/mexico-festivals/mutek-mexico-city-2016-320.webp 320w,img/mexico-festivals/mutek-mexico-city-2016-1200.webp 1200w',
+    width:1200, height:800, alt:'A performer inside a light projection on stage at MUTEK in Mexico City in 2016'
+  },
+  {
+    page:'best-electronic-music-festivals-portugal.html', category:'festivals', tags:['discovery','techno'], href:'/best-electronic-music-festivals-portugal', type:'List', topic:'Portugal electronic music festivals',
+    title:'Best Electronic Festivals in Portugal 2027: Neopop, Boom, Somnii',
+    description:'The best electronic music festivals in Portugal for 2027, with dates: Neopop for techno, Boom for psytrance, Sónar and LISB-ON in Lisbon, RFM Somnii.',
+    image:'img/portugal-festivals/santiago-da-barra-fort-320.webp',
+    srcset:'img/portugal-festivals/santiago-da-barra-fort-320.webp 320w,img/portugal-festivals/santiago-da-barra-fort-1200.webp 1200w',
+    width:1200, height:800, alt:'The Santiago da Barra fortress in Viana do Castelo'
+  },
+  {
     page:'best-psytrance-festivals.html', category:'festivals', tags:['discovery','history'], href:'/best-psytrance-festivals', type:'List', topic:'Psytrance festivals',
     title:'Best Psytrance Festivals 2027: Ozora, Boom and Universo Paralello',
     description:'Boom on 18 to 25 July, Ozora listed from 23 July, Universo Paralello at New Year: psytrance festivals for 2027 by setting, with dates confirmed or not.',

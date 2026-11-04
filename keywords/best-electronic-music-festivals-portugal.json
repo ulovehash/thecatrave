@@ -1,0 +1,73 @@
+{
+  "page": "best-electronic-music-festivals-portugal.html",
+  "seed": "music festivals portugal",
+  "source": "Google Ads Keyword Planner, all locations, English, Oct 2025 to Sep 2026 (bucketed ranges only, no exact volumes), from TOPIC-DOSSIERS.md waves two and three. No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. The head is general music and seasonal; the page is written narrower, for the electronic forms.",
+  "terms": [
+    {
+      "term": "music festivals portugal",
+      "volume": 1000
+    },
+    {
+      "term": "festivals in portugal",
+      "volume": 1000
+    },
+    {
+      "term": "portugal electronic music festival",
+      "volume": 100
+    },
+    {
+      "term": "electronic music festival portugal",
+      "volume": 100
+    },
+    {
+      "term": "portugal techno festival",
+      "volume": 100
+    },
+    {
+      "term": "portugal psytrance festival",
+      "volume": 100
+    },
+    {
+      "term": "neopop festival portugal",
+      "volume": 100
+    }
+  ],
+  "rejected": [
+    {
+      "term": "festival portugal techno",
+      "volume": 100,
+      "why": "word-order variant of \"portugal techno festival\", which the page carries; not forced into the copy"
+    },
+    {
+      "term": "afro nation portugal",
+      "volume": 1000,
+      "why": "an Afrobeats festival, outside an electronic music list"
+    },
+    {
+      "term": "lisbon music festival",
+      "volume": 100,
+      "why": "general music intent; the page names its Lisbon electronic festivals without targeting the phrase"
+    },
+    {
+      "term": "afrobeats festival portugal",
+      "volume": 100,
+      "why": "not electronic music"
+    },
+    {
+      "term": "nos alive lisbon",
+      "volume": 100,
+      "why": "navigational, and a general music festival excluded from this list"
+    },
+    {
+      "term": "lollapalooza portugal",
+      "volume": 100,
+      "why": "navigational, general music"
+    },
+    {
+      "term": "electric daisy carnival portugal",
+      "volume": 100,
+      "why": "no EDC edition in Portugal was found with a sourced date, so the page does not answer it"
+    }
+  ]
+}

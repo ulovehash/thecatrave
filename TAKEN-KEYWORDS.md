@@ -2373,3 +2373,54 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - most famous djs
 - famous djs of all time
 - famous house djs
+
+## best-edm-festivals-world.html
+
+- biggest edm festival in the world
+- largest electronic music festival in the world
+- largest music festival in the world
+- biggest electronic music festival in the world
+- largest edm festival in the world
+- world's biggest edm festival
+- world's biggest electronic music festivals
+- largest electronic music festival
+
+## best-edm-festivals-las-vegas.html
+
+- edm festivals las vegas
+- vegas edm festival
+- edm festival in las vegas
+- edm festival in vegas
+- edm festivals in vegas
+- edm festivals vegas
+- electronic music festival las vegas
+- edm music festival las vegas
+
+## best-bass-music-festivals.html
+
+- bass music festivals
+- bass festivals
+- bass coast festival
+- dubstep festivals
+- dubstep music festivals
+- best dubstep festivals
+
+## best-electronic-music-festivals-portugal.html
+
+- music festivals portugal
+- festivals in portugal
+- portugal electronic music festival
+- electronic music festival portugal
+- portugal techno festival
+- portugal psytrance festival
+- neopop festival portugal
+
+## best-edm-festivals-mexico.html
+
+- edm festivals mexico
+- edm festival mexico
+- edm festivals in mexico
+- mexico edm festival
+- tulum edm festival
+- cancun edm festival
+- edm festival tulum

@@ -28,7 +28,7 @@ Electric Daisy Carnival Orlando began in May 2011 at Tinker Field, on grounds ne
 
 ### EDC Mexico
 
-EDC Mexico has been held since 2014 at the Autódromo Hermanos Rodríguez, a racetrack in Mexico City, usually in late February or early March.
+EDC Mexico has been held since 2014 at the Autódromo Hermanos Rodríguez, a racetrack in Mexico City, usually in late February or early March. The [Mexico EDM festivals guide](/best-edm-festivals-mexico) covers the rest of the country's season, from Zamna in Tulum to Bahidorá.
 
 [Image: EDC Mexico 2023, Ludovic Delot. Caption: The main stage at EDC Mexico in 2023. Photograph: Ludovic Delot, CC BY-SA 4.0.]
 

@@ -1,0 +1,7 @@
+{
+  "page": "best-edm-festivals-world.html",
+  "seed": "biggest edm festival in the world",
+  "source": "Comparison page, not a genre guide: FIGURES.md's canon pass does not apply. The roster is the electronic festivals with a published attendance figure, each checked against the organiser or press reporting the organiser.",
+  "note": "Images new to this page: EDC 2024 Ferris wheel (Eric Polk, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:EDC2024_Ferris_wheel.jpg) and Street Parade Zurich 2023 (Peter Arnold, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:30._Street_Parade_in_Z%C3%BCrich_c.jpg). Listening blocks are the shared roundup defaults. Set: David Guetta at Untold 2023 (DJ Mag channel, b6cZJvIJhQ0). No festival on the page has its own channel in selector-data.json, so a press channel set filmed at a listed festival was used.",
+  "required_records": []
+}

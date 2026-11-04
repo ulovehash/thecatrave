@@ -28,7 +28,7 @@ EDC Las Vegas is the biggest EDM festival in the US, with more than 500,000 peop
 
 ### EDC Las Vegas
 
-Electric Daisy Carnival is held at the Las Vegas Motor Speedway, where it has been held every year it has run since 2011. More than 500,000 people come across the weekend, and the record is 525,000 in 2024. Insomniac has produced EDC since 1997. For 2027 the festival splits into two weekends: EDC Dusk on 14 to 16 May and EDC Dawn on 21 to 23 May. It ranks second in DJ Mag's Top 100 Festivals for 2026. Insomniac describes it as the largest dance music festival in North America. The [EDC Las Vegas guide](/edc-las-vegas) covers it in depth.
+Electric Daisy Carnival is held at the Las Vegas Motor Speedway, where it has been held every year it has run since 2011. More than 500,000 people come across the weekend, and the record is 525,000 in 2024. Insomniac has produced EDC since 1997. For 2027 the festival splits into two weekends: EDC Dusk on 14 to 16 May and EDC Dawn on 21 to 23 May. It ranks second in DJ Mag's Top 100 Festivals for 2026. Insomniac describes it as the largest dance music festival in North America. The [EDC Las Vegas guide](/edc-las-vegas) covers it in depth. The [Las Vegas EDM festivals guide](/best-edm-festivals-las-vegas) adds the city's other events and the festivals within a drive of it.
 
 ### Ultra Music Festival, Miami
 
@@ -82,7 +82,7 @@ Excision founded Lost Lands in 2017. It is a camping bass music festival at Lege
 
 ### Bass Canyon, Washington
 
-Excision also founded Bass Canyon, in 2018, at The Gorge Amphitheatre in George, Washington. It is another camping bass festival. The 2026 edition was on 14 to 16 August, with Excision playing solo, a downtempo "Detox" set and a back-to-back set. The 2027 dates have not been announced. It suits the same crowd as Lost Lands, in a canyon setting.
+Excision also founded Bass Canyon, in 2018, at The Gorge Amphitheatre in George, Washington. It is another camping bass festival. The 2026 edition was on 14 to 16 August, with Excision playing solo, a downtempo "Detox" set and a back-to-back set. The 2027 dates have not been announced. It suits the same crowd as Lost Lands, in a canyon setting. The [bass music festivals guide](/best-bass-music-festivals) compares both with the bass festivals in Canada, the UK and Europe.
 
 ## Which US festival is a week in the woods?
 

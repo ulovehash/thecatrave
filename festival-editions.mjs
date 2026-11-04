@@ -74,6 +74,11 @@ export const festivalEditions = [
   {page: 'best-electronic-music-festivals-germany.html', heading: 'German electronic festival dates for 2027 at a glance', ends: null},
   {page: 'best-music-festivals-croatia.html', heading: 'Croatia music festival dates for 2027 at a glance', ends: null},
   {page: 'best-house-music-festivals.html', heading: 'House music festival dates for 2027 at a glance', ends: null},
+  {page: 'best-edm-festivals-world.html', heading: "World's biggest EDM festival dates for 2027 at a glance", ends: null},
+  {page: 'best-edm-festivals-las-vegas.html', heading: "EDM festival dates for 2027 at a glance", ends: null},
+  {page: 'best-bass-music-festivals.html', heading: "Bass music festival dates for 2027 at a glance", ends: null},
+  {page: 'best-electronic-music-festivals-portugal.html', heading: "Portugal electronic music festival dates for 2027 at a glance", ends: null},
+  {page: 'best-edm-festivals-mexico.html', heading: "Mexico EDM festival dates for 2027 at a glance", ends: null},
   // The German and French translations carry the same dates and roll with the
   // English page.
   {page: 'de/electro-festivals-europa.html', heading: 'Termine 2027 im Überblick', ends: null},
