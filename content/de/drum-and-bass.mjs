@@ -157,7 +157,7 @@ export default {
     }),
     'subgenre-listening': collection(lang, 'subgenre-listening',
       'Zwei der Zweige.',
-      'Die melodische und die maschinelle Seite der Tabelle oben, damit die Begriffe einen Klang bekommen.',
+      'Die melodische und die maschinelle Seite: Liquid und Neurofunk.',
       [{year: '2000', artist: 'Calibre', title: 'Mystic', youtube: 'yenh56lBQoU',
         note: 'Liquid: rollend, warm, soulig, und die Version des Drum and Bass, die am weitesten reiste.'},
        {year: '2010', artist: 'Noisia', title: 'Machine Gun', spotify: '6s9XbbtulHcMwMDzsyoEO7',

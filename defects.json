@@ -1766,6 +1766,17 @@
         "file": "best-edm-festivals-world-draft.md",
         "contains": "each counted its crowd over a different stretch"
       }
+    },
+    {
+      "id": "listening-captions-describe-layout-or-catalogue",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "Three listening captions on the techno, dubstep and drum and bass guides (EN/DE/FR/ES) described the site instead of the music: the Sara Landry card named 'this site's catalogue of recorded DJ sets' as its source, against AGENTS.md section 4; the Rinse FM card said it was 'from our own catalogue rather than an archive clip'; two subgenre cards said they existed 'so the table above has a sound attached'. Found in a follow-up sweep of aside text after the listening-card fix; the owner approved the wording.",
+      "should_have_caught": "audit-banned-phrases.mjs caught 'From this site's catalogue of recorded DJ sets' but not other provenance wordings, and nothing checked captions that describe page layout",
+      "fix": {
+        "file": "build-dubstep-article.mjs",
+        "contains": "'Two of the later branches: riddim and melodic dubstep.'"
+      }
     }
   ]
 }

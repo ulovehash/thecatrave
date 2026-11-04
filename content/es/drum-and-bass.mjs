@@ -152,7 +152,7 @@ export default {
     }),
     'subgenre-listening': collection(lang, 'subgenre-listening',
       'Dos de las ramas.',
-      'El lado melódico y el lado mecánico de la tabla de arriba, para que los términos tengan sonido.',
+      'El lado melódico y el lado mecánico: liquid y neurofunk.',
       [{year: '2000', artist: 'Calibre', title: 'Mystic', youtube: 'yenh56lBQoU',
         note: 'El liquid: rodante, cálido, soul, y la versión del drum and bass que más lejos ha viajado.'},
        {year: '2010', artist: 'Noisia', title: 'Machine Gun', spotify: '6s9XbbtulHcMwMDzsyoEO7',

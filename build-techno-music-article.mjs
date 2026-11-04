@@ -93,7 +93,7 @@ const media = {
   'Energy Flash': video('BDj73pGQ6pE', 'Techno, 1990', 'Joey Beltram', 'Energy Flash',
     'The New York producer\'s record for the Belgian label R&S, from 1990.'),
   'Sara Landry Boiler Room': video('EIQlDpgAY5Y', 'Hard techno', 'Sara Landry', 'Boiler Room x Teletech Festival, 2023',
-    'The most-watched set tagged hard techno in this site\'s catalogue of recorded DJ sets.'),
+    'The most-watched set tagged hard techno.'),
   'Kevin Saunderson Boiler Room': video('gvvb-SNL9tM', 'Techno', 'Kevin Saunderson', 'DJ set, Boiler Room Chicago, 2014',
     'Kevin Saunderson playing for Boiler Room in Chicago.'),
   'thecatrave mix': ownSetListening(1, 'en', 'My own mix, for after the history.'),
