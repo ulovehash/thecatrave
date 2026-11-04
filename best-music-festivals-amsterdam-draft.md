@@ -87,9 +87,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the kind of day you want first. For a stadium show with the biggest names, choose AMF. For techno and house in a setting worth the trip, choose DGTL or Dekmantel. For a long-running city party, choose Loveland. For the start of spring, choose Lentekabinet or Awakenings Upclose, but not both, because they share a weekend.
-
-Then look at the calendar. March, May, the end of July, August and October each have a reason to come, and ADE week is the busiest time of year for hotels. Check dates with the festival before you book travel.
+Look at the calendar. March, May, the end of July, August and October each have a reason to come, and ADE week is the busiest time of year for hotels. Check dates with the festival before you book travel.
 
 ![Listening](figure:second-mix)
 

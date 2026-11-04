@@ -218,3 +218,63 @@ Sections 1, 2 and 4 break rules already written down (an accidental public
 file; AGENTS.md section 4; the same defect already fixed on the world guide), so
 they are logged as open entries and will print on every build until fixed.
 Sections 3, 5, 6, 8 and 9 wait for the owner's ruling.
+
+---
+
+## Applied, 4 November 2026
+
+The owner approved every finding ("fix everything"). All changes are in the
+`*-draft.md` and builder sources, in English and in every German, French and
+Spanish translation that carries the same text, and the site was rebuilt.
+
+1. **Stray page.** `breakbeat-guide copy.html` deleted. `audit-site-components.mjs`
+   now fails on any published `.html` that is not in the page manifest.
+2. **Keyword research in prose.** Cut or turned into the fact underneath, for example
+   Printworks: "Printworks London has not reopened, and the reopening has no date.";
+   Ultra Europe: "…and it is often called Ultra Split, or Ultra Croatia."; Awakenings:
+   "Awakenings is worth explaining properly, because it has stayed…". Three
+   "Search for X" openers stay, where what comes back is the story: Budapest's
+   ruin bars, the Berghain door guides, the DJ Mag poll.
+3. **"This guide covers…"** removed from all 28 guides, together with "the
+   question this site is here for". Where the sentence carried a fact, the fact
+   stays: "The 23 clubs here are in ten countries…", "The clubs here are the
+   ones built for house, techno and bass music, not the hostess clubs…". Coachella,
+   Untold and Burning Man keep their opening question, now answered with facts.
+   EDC, Ultra and Tomorrowland keep the line that says which EDC, Ultra or
+   Tomorrowland is meant.
+4. **Roundup answers.** The "Pick X first" paragraph that walked back through
+   the answer box is gone from twelve roundups; each How to choose now opens on
+   the calendar and clashes. The US roundup gets a calendar introduction, a How to
+   choose built on what the answer box does not say ("Ultra and the Southern
+   California edition of Beyond Wonderland share the last weekend of March…"),
+   and a first-festival FAQ answer. "On this page," FAQ openers removed.
+5. **Planner boilerplate.** The registry no longer falls back to generic notes or
+   packing lists; a block shows only what is specific to that festival, and an
+   empty one is not rendered. Guides with their own planner (Airbeat One, ARC,
+   Sziget and others) were already specific and are unchanged.
+6. **Self-narration.** "This page compares… and shows which dates are confirmed"
+   (twelve roundups), "This page answers what people ask before they go", "This
+   page does not print a price, because the only figures found…", the 90s guide's
+   three descriptions of its own order, "this site does not run the same media
+   twice" and similar: cut or rewritten. Sentences that point at the page's
+   content in a writer's voice stay ("The jungle guide follows the records; this
+   page follows the rooms.", "Six are in this guide.").
+7. **"Iconic"** in the jungle guide and its translations: "best-known" where it
+   carried a claim, cut where it did not.
+8. **Heading skeleton.** The non-keyword questions on Time Warp, Dekmantel,
+   Snowbombing and Love Parade became plain headings ("The Amsterdamse Bos.",
+   "Dekmantel sets to hear first."); the Spanish Time Warp guide the same.
+9. **Self-promotion weight.** Not changed: the number of own-music cards follows
+   the owner's rule of 13 September ("promote both" mixes on festival guides).
+   Left for the owner.
+
+**Keywords.** Phrases whose only home was a cut sentence were either given a
+real sentence (coachella festival, what is coachella festival, untold music
+festival, burning man festival, dnb festivals, edm festivals mexico) or, where
+they could not sit in a natural sentence, moved to `rejected` with the reason:
+drumsheds printworks (10/mo), best dance music festivals uk (10/mo), best
+festivals in croatia (10/mo).
+
+**Guards.** `audit-banned-phrases.mjs` fails the build on the search-intent and
+self-description wordings in all four languages. `defects.json` records every
+finding, each closed by a phrase the defect audit checks on every build.

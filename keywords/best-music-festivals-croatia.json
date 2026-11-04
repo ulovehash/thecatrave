@@ -7,10 +7,6 @@
     {
       "term": "festivals in croatia",
       "volume": 1000
-    },
-    {
-      "term": "best festivals in croatia",
-      "volume": 10
     }
   ],
   "rejected": [
@@ -73,6 +69,11 @@
       "term": "techno festivals croatia",
       "volume": 10,
       "why": "word-order or spelling variant of a phrase the page writes in natural English; not forced into the copy"
+    },
+    {
+      "term": "best festivals in croatia",
+      "volume": 10,
+      "why": "Dropped 2026-11-04: its only home was a 'How to choose' paragraph that restated the answer box, cut in the AI-slop review (WRITING.md: drop rather than wedge)."
     }
   ]
 }

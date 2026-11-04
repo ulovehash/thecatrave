@@ -10,7 +10,6 @@ Ask for the best clubs in New York, or the best nightclubs in NYC, and most of w
 
 That kind of club was more or less invented in New York. The Loft, the Paradise Garage and the DJs who played there set the template that clubs from Chicago to London copied: a DJ at the centre, a room designed around the sound, and a night that ran until morning. New York also spent decades trying to regulate that kind of night out of existence.
 
-The guide runs from the 1970s to now, then covers the best clubs in NYC open today, the techno and house rooms, and how going out in the city works.
 
 ## The Loft, the Paradise Garage and Studio 54
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The best EDM festivals Australia offers fall between November and March, and New Year's Eve is the peak, so the calendar runs the other way round from Europe's. Beyond the Valley and Pitch lead in Victoria, Strawberry Fields sits on the New South Wales border, and Ultra Australia comes through in autumn. This page compares them by state and sound, and shows which dates are confirmed for the 2026 to 2027 season.
+The best EDM festivals Australia offers fall between November and March, and New Year's Eve is the peak, so the calendar runs the other way round from Europe's. Beyond the Valley and Pitch lead in Victoria, Strawberry Fields sits on the New South Wales border, and Ultra Australia comes through in autumn.
 
 ![Listening](figure:playlist)
 

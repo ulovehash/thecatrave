@@ -8,7 +8,7 @@ El breakbeat es a la vez un método rítmico y una familia de géneros de músic
 
 El breakbeat nació de DJ que se negaban a dejar que terminara el mejor momento de un disco. Al alargar los pasajes de batería desnuda de los discos de funk y soul, convirtieron unos segundos de ritmo en un método: primero para los bailarines y el hip-hop, y después para los samplers, la rave y escenas de club enteras.
 
-Esta guía sigue el breakbeat como música y como cultura, no como un curso de programación de batería. Su recorrido va de los breaks de funk y la práctica de los DJ del Bronx al hardcore británico, a las escenas regionales de Estados Unidos y España, al big beat, al nu-skool y al continuo más suelto de los breaks de hoy. El jungle, el drum and bass, el broken beat y el breakcore entran donde sus historias se cruzan, pero no se tratan como sinónimos.
+Su recorrido va de los breaks de funk y la práctica de los DJ del Bronx al hardcore británico, a las escenas regionales de Estados Unidos y España, al big beat, al nu-skool y al continuo más suelto de los breaks de hoy. El jungle, el drum and bass, el broken beat y el breakcore entran donde sus historias se cruzan, pero no se tratan como sinónimos.
 
 [Image: akai]
 

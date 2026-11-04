@@ -6,7 +6,7 @@ The best clubs in Europe depend on what you want from a night, but DJ Mag's Top 
 
 ## Introduction
 
-A list of the best nightclubs in Europe has to choose what to measure. This guide sorts 23 rooms by country, because a trip is usually planned by country before it is planned by club.
+A list of the best nightclubs in Europe has to choose what to measure.
 
 The selection starts from DJ Mag's 2026 poll and adds rooms with a documented history that the poll leaves out or ranks lower. Nothing here is a verdict on a single "best". For a city-first view, the [best clubbing cities in Europe](/best-clubbing-cities-in-europe) guide covers where to base yourself, and the single-club guides on [Berghain](/berghain), [fabric](/fabric-london) and [Pacha Ibiza](/pacha-ibiza) go deeper on three of the rooms below.
 
@@ -218,7 +218,7 @@ NTS has a radio guide to Tresor’s classics. It was not recorded at the club, s
 
 ### What are the best clubs in the world?
 
-DJ Mag's Top 100 Clubs 2026 puts [UNVRS] in Ibiza first, Greenvalley second, Ushuaïa Ibiza third, Hï Ibiza fourth and Savaya fifth. The same poll is the usual answer to the best nightclubs in the world. This guide stays in Europe, so the clubs above are the European ones.
+DJ Mag's Top 100 Clubs 2026 puts [UNVRS] in Ibiza first, Greenvalley second, Ushuaïa Ibiza third, Hï Ibiza fourth and Savaya fifth. The same poll is the usual answer to the best nightclubs in the world.
 
 ### What are the best techno clubs in the world?
 

@@ -8,7 +8,7 @@ Tomorrowland is an electronic music festival held every July in De Schorre, a pr
 
 For people outside dance music, Tomorrowland is often the one electronic music festival they can name, and most of them have never been. The Tomorrowland music festival reaches far more people through a screen than through its gates: 233 million livestream views in 2026, against 400,000 tickets.
 
-This guide is about the Belgian festival, not the land at Disney's parks or the 2015 film that share its name. It covers where Tomorrowland happens and when, how big it really is, who started it and who owns it now, and why it became famous. Then it answers the question this site is here for: under the fireworks and the Mainstage, what does Tomorrowland actually play?
+This guide is about the Belgian festival, not the land at Disney's parks or the 2015 film that share its name.
 
 ## Where Tomorrowland happens
 

@@ -10,7 +10,6 @@ El house empezó con discos que ya nadie hacía. En 1980 se había declarado mue
 
 En Chicago eso significó a Frankie Knuckles en el Warehouse y a Ron Hardy en el Music Box, empalmando discos en cinta de bobina abierta y metiendo cajas de ritmos por debajo. En 1985 quienes iban a esos clubes hacían sus propios temas con equipo barato, y una pequeña escena de ciudad se convirtió en un sonido que se oía en todo el mundo en tres años.
 
-Esta guía cuenta qué es la música house, de dónde viene el nombre, los primeros discos, las ramas de Nueva York y Gran Bretaña, y los estilos que salieron de ella, del deep house al afro house.
 
 ## Qué es la música house
 

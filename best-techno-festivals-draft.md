@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The best techno festivals in the world for 2027 are spread across a calendar that starts in March and runs through the summer. Awakenings in the Netherlands and Time Warp in Germany are the two long-running names most people start with. Movement in Detroit puts techno in the city where it began. Nature One and Kappa FuturFestival are the big open-air weekends, and MAYDAY is the one to pick for hard techno. This page compares them by sound, scale and setting, and tells you which 2027 dates are confirmed.
+The best techno festivals in the world for 2027 are spread across a calendar that starts in March and runs through the summer. Awakenings in the Netherlands and Time Warp in Germany are the two long-running names most people start with. Movement in Detroit puts techno in the city where it began. Nature One and Kappa FuturFestival are the big open-air weekends, and MAYDAY is the one to pick for hard techno.
 
 ![Listening](figure:playlist)
 
@@ -122,11 +122,7 @@ These are festivals people ask about that fall outside the tests above.
 
 ## How to choose
 
-Pick the kind of day you want first. For one long indoor run, choose Time Warp or MAYDAY. For open-air daytime dancing and a city at night, choose Kappa FuturFestival or Dekmantel. For camping and scale, choose Nature One or Awakenings. For history, choose Movement.
-
-Then look at the calendar. Awakenings and Stone Techno clash on 9 to 11 July, and Dekmantel, Nature One and Monument all start on 29 July. Time Warp, Movement and Kappa FuturFestival can all fit into one year.
-
-Check dates with the festival before you book travel, because the listed dates above are provisional until the organiser publishes them.
+Look at the calendar. Awakenings and Stone Techno clash on 9 to 11 July, and Dekmantel, Nature One and Monument all start on 29 July. Time Warp, Movement and Kappa FuturFestival can all fit into one year.
 
 ![Listening](figure:second-mix)
 

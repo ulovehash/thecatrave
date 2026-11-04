@@ -27,7 +27,7 @@ Time Warp Mannheim 2027 is on Saturday 3 April 2027, from 19:00 to 14:00, which 
 
 The Time Warp dates for the editions abroad stop in 2026. The official site lists no 2027 date for Mexico, New York, Los Angeles, Brazil or Madrid yet.
 
-## Where is Time Warp held in Mannheim?
+## The Maimarkthalle in Mannheim.
 
 The Time Warp festival Mannheim edition is held at the Maimarkthalle, Xaver-Fuhr-Straße 101, 68163 Mannheim. The festival's own name for it is Time Warp Germany, and Time Warp Mannheim is how most people say it, with the line "The original since 1994".
 
@@ -58,7 +58,7 @@ Time Warp Brazil has São Paulo dates in 2018, 2019, 2022, 2023, 2024, 2025 and 
 
 The Time Warp name also appears as a stage at other festivals. The history lists a Neon Garden stage at EDC Las Vegas on 15 May 2026.
 
-## How do Time Warp tickets work?
+## Time Warp tickets and passes.
 
 Time Warp tickets for Mannheim are sold through the festival's own ticket shop, tickets.time-warp.de, and they are print-at-home or mobile tickets. The shop has three passes, each marked "Pre-lineup price" with the service fee included:
 
@@ -73,13 +73,13 @@ The shop page does not list what each pass includes, so check the shop before yo
 - **Names.** The name on the ticket is not checked at the entrance, with an exception when a ticket needs validating. For the free local transport the name must match yours.
 - **Age.** Admission is 18 and over.
 
-## Who plays Time Warp?
+## The Time Warp lineup.
 
 No artist is announced for Mannheim 2027 yet. The official page promises "a powerful lineup of international pioneers and underground mainstays" without naming anyone, and the ticket shop labels each pass "Pre-lineup price", so check the shop again once the Time Warp lineup is out.
 
 For a sense of what Mannheim sounds like, the festival's own page carries recap videos of the March 2026 edition. The two shown are Sara Landry and Nina Kraviz. That edition, on 21 March 2026, is the most recent Mannheim date in the official history.
 
-## Which Time Warp sets should you hear first?
+## Time Warp sets to hear first.
 
 Start with the Mixmag set by Loco Dice, titled Time Warp 2018. Mixmag also uploaded three sets under the Time Warp US name from The Lab NYC, with Seth Troxler playing soulful deep tech, Monkey Safari house and Thugfucker tech house. They were filmed in a New York studio, not at the festival.
 

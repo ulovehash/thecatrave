@@ -63,13 +63,13 @@ export default {
   sections: [
     {id: 'what-is', heading: '¿Qué es el festival Time Warp?', title: '¿Qué es el festival Time Warp?', tocLabel: '¿Qué es Time Warp?'},
     {id: 'dates', heading: '¿Cuándo es Time Warp 2027?', title: '¿Cuándo es Time Warp 2027?', tocLabel: 'Fechas de 2027'},
-    {id: 'where', heading: '¿Dónde se celebra Time Warp en Mannheim?', title: '¿Dónde se celebra Time Warp en Mannheim?', tocLabel: 'Dónde se celebra'},
+    {id: 'where', heading: 'La Maimarkthalle de Mannheim.', title: 'La Maimarkthalle de Mannheim.', tocLabel: 'Dónde se celebra'},
     {id: 'editions', heading: '¿Qué ediciones de Time Warp hay fuera de Mannheim?', title: '¿Qué ediciones de Time Warp hay fuera de Mannheim?', tocLabel: 'Ediciones fuera de Mannheim'},
     {id: 'madrid-2026', heading: '¿Se ha cancelado Time Warp Madrid 2026?', title: '¿Se ha cancelado Time Warp Madrid 2026?', tocLabel: 'Madrid 2026'},
-    {id: 'tickets', heading: '¿Cómo funcionan las entradas de Time Warp?', title: '¿Cómo funcionan las entradas de Time Warp?', tocLabel: 'Entradas'},
+    {id: 'tickets', heading: 'Entradas y abonos de Time Warp.', title: 'Entradas y abonos de Time Warp.', tocLabel: 'Entradas'},
     {id: 'planning', heading: 'Cómo llegar y planificar el viaje a Mannheim', tocLabel: 'Viaje y planificación', title: 'Prepara tu viaje a Time Warp Mannheim.', planning: localizedFestivalPlanning('timewarp', 'es')},
-    {id: 'lineup', heading: '¿Quién toca en Time Warp?', title: '¿Quién toca en Time Warp?', tocLabel: 'Quién toca'},
-    {id: 'listen', heading: '¿Qué sets de Time Warp deberías escuchar primero?', title: '¿Qué sets de Time Warp deberías escuchar primero?', tocLabel: 'Sets para escuchar'}
+    {id: 'lineup', heading: 'El cartel de Time Warp.', title: 'El cartel de Time Warp.', tocLabel: 'Quién toca'},
+    {id: 'listen', heading: 'Sets de Time Warp para escuchar primero.', title: 'Sets de Time Warp para escuchar primero.', tocLabel: 'Sets para escuchar'}
   ],
 
   media: ({lang}) => ({

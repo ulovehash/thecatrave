@@ -6,7 +6,7 @@ Die besten Festivals für elektronische Musik in Asien sind Ultra Japan in Tokio
 
 ## Einleitung
 
-Asien hat viele Musikfestivals, und fast alles, was darüber geschrieben wird, zählt die größten Namen mit je einem Foto auf. Diese Seite konzentriert sich auf die elektronischen Festivals und versucht, das zu beantworten, was du vor dem Buchen wissen musst: wo jedes Festival liegt, was es spielt, was ein Ticket kostet, wenn ein Preis veröffentlicht ist, und welche Termine für 2027 bestätigt sind.
+Asien hat viele Musikfestivals, und fast alles, was darüber geschrieben wird, zählt die größten Namen mit je einem Foto auf.
 
 Zum Vergleich mit anderen Regionen: der [Guide zu den besten Festivals für elektronische Musik in Europa](/de/electro-festivals-europa) und der [Guide zu den EDM-Festivals in den USA](/de/edm-festivals-usa).
 
@@ -125,11 +125,11 @@ Wonderfruit für Kunst, House und Techno, S2O Songkran für eine Wasserparty in 
 
 ### Was sind die besten Musikfestivals in Japan?
 
-Auf dieser Seite Ultra Japan in Tokio. Die Ausgabe 2027 ist am 18. und 19. September.
+Ultra Japan in Tokio. Die Ausgabe 2027 ist am 18. und 19. September.
 
 ### Was sind die besten Musikfestivals in Indien?
 
-Auf dieser Seite Sunburn, am 18. und 19. Dezember 2026 in Mumbai.
+Sunburn, am 18. und 19. Dezember 2026 in Mumbai.
 
 ### Ist Sunburn noch in Goa?
 

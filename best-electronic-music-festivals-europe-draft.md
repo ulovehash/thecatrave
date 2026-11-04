@@ -4,7 +4,6 @@
 
 Europe has more electronic music festivals than anyone could list, and most "best of" pages are lists of the famous ones with a photograph each. This one is meant to help you choose: what each festival actually plays, how big it is, where you sleep, when it is in 2027, and who it suits.
 
-
 ## How this list was chosen
 
 A festival is on this list when all four of these are true:
@@ -135,13 +134,11 @@ One more, with a warning: Fusion, the countercultural festival on a former airfi
 
 ## How to choose
 
-Start with the music. The single biggest difference between these festivals is what they play: big-room EDM at Tomorrowland, Untold, Parookaville and Creamfields; hardstyle at Defqon.1; techno at Awakenings, Time Warp and Kappa FuturFestival; a wider and stranger programme at Dekmantel and Sónar; everything at once at Boomtown.
-
-Then decide how you want to sleep. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings and Boomtown have camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival and Sónar are city festivals, where you book a hotel or a flat. Time Warp and Monegros are single long nights.
+Decide how you want to sleep. Tomorrowland, Parookaville, Creamfields, Mysteryland, Defqon.1, Awakenings and Boomtown have camping. Untold, Ultra Europe, Dekmantel, Kappa FuturFestival and Sónar are city festivals, where you book a hotel or a flat. Time Warp and Monegros are single long nights.
 
 If the crowds at the big festivals put you off, start with the smaller group: Garbicz, NACHTI, Houghton and Waking Life have camping, Kala comes with a hotel, and Draaimolen is a day festival in a city.
 
-Then look at the calendar. The European season runs from Time Warp in April to Creamfields and Mysteryland at the end of August. Several of these festivals sell their cheapest tickets in autumn for the following summer, well before the line-ups are announced, so it pays to decide early. This page does not list prices, which change by ticket phase.
+Then look at the calendar. The European season runs from Time Warp in April to Creamfields and Mysteryland at the end of August. Several of these festivals sell their cheapest tickets in autumn for the following summer, well before the line-ups are announced, so it pays to decide early. Prices change by ticket phase.
 
 For festivals outside Europe, see the [best electronic music festivals in Asia](/best-electronic-music-festivals-asia).
 

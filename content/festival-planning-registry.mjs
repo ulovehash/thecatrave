@@ -313,12 +313,9 @@ function planningFromRecord(record, lang) {
   const name = pick(record.name, lang);
   const ticketRows = record.ticketRows.map(item => ({label:pick(item.label,lang), note:pick(item.note,lang), price:pick(item.price,lang)}));
   const routes = record.routes.map(item => ({title:pick(item.title,lang),description:pick(item.description,lang),...(item.link ? {link:{label:pick(item.link.label,lang),url:item.link.url}} : {})}));
-  const spendingBody = pick(record.spending,lang) || ({
-    en:'The current food and drink menu is not published. Use the live event information for water points, payment method and any outside-food exception.',
-    de:'Die aktuellen Speise- und Getränkepreise sind nicht veröffentlicht. Prüfe Wasserstellen, Zahlungsart und Ausnahmen für eigenes Essen live.',
-    fr:'Les prix actuels ne sont pas publiés. Vérifiez les points d’eau, le paiement et les exceptions pour nourriture extérieure.',
-    es:'Los precios actuales no están publicados. Consulta la información oficial del evento sobre puntos de agua, forma de pago y excepciones para comida de fuera.'
-  })[lang];
+  // No generic fallback: a festival without its own food-and-drink facts gets no
+  // spending block (ai-slop-review-2026-11-04.md, section 5).
+  const spendingBody = pick(record.spending,lang);
   const standardLinks = [
     {label:copy.official,url:record.official}, {label:copy.tickets,url:record.tickets},
     {label:copy.travel,url:record.travel}, {label:copy.rules,url:record.rules}, {label:copy.map,url:record.map}
@@ -327,13 +324,13 @@ function planningFromRecord(record, lang) {
     title: pick(record.title,lang) || copy.plan(name), tocLabel: copy.planning,
     planning: {
       lang, festivalName:name, intro:pick(record.intro,lang),
-      ticketIntro:({en:'Use current official prices only. A status of “not published” means the organiser has not released a valid 2027 price.',de:'Nur aktuelle offizielle Preise nutzen. „Nicht veröffentlicht“ bedeutet, dass kein gültiger Preis 2027 vorliegt.',fr:'Utilisez seulement les prix officiels actuels. « Non publié » signifie qu’aucun prix 2027 valable n’est disponible.',es:'Usa solo los precios oficiales vigentes. «No publicado» significa que el organizador no ha publicado un precio válido para 2027.'})[lang],
-      ticketRows, ticketNote:pick(record.ticketNote,lang) || ({en:'Booking fees, transport, accommodation and optional upgrades may be separate.',de:'Gebühren, Transport, Unterkunft und optionale Upgrades können separat sein.',fr:'Frais, transport, hébergement et options peuvent être séparés.',es:'Las comisiones, el transporte, el alojamiento y las mejoras opcionales pueden cobrarse aparte.'})[lang],
-      routes, routeNote:pick(record.routeNote,lang) || ({en:'Recheck the final timetable and pick-up point shortly before travel.',de:'Fahrplan und Abholpunkt kurz vor der Reise erneut prüfen.',fr:'Revérifiez horaires et point de départ peu avant le voyage.',es:'Vuelve a comprobar el horario definitivo y el punto de recogida poco antes del viaje.'})[lang],
+      ticketIntro:pick(record.ticketIntro,lang),
+      ticketRows, ticketNote:pick(record.ticketNote,lang),
+      routes, routeNote:pick(record.routeNote,lang),
       accommodation:{body:pick(record.accommodation,lang),link:{label:copy.travel,url:record.travel}},
-      spending:{body:spendingBody,items:(record.spendItems || [[copy.menu,copy.unpublished],[copy.water,copy.current],[copy.payment,copy.current]]).map(([label,value])=>({label:pick(label,lang),value:pick(value,lang)})),link:{label:copy.rules,url:record.rules}},
-      packing:[...localizeArray(profile.packing[lang],lang),...localizeArray(record.packingExtra || [],lang)].slice(0,6),
-      avoid:[...localizeArray(profile.avoid[lang],lang),...localizeArray(record.avoidExtra || [],lang)].slice(0,6),
+      spending:{body:spendingBody,items:(record.spendItems || []).map(([label,value])=>({label:pick(label,lang),value:pick(value,lang)})),link:{label:copy.rules,url:record.rules}},
+      packing:localizeArray(record.packingExtra || [],lang).slice(0,6),
+      avoid:localizeArray(record.avoidExtra || [],lang).slice(0,6),
       rulesNote:pick(record.rulesNote,lang), links:standardLinks
     }
   };

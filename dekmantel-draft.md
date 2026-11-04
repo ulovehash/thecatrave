@@ -8,8 +8,6 @@ Dekmantel is an electronic music festival held in Amsterdam each summer. Its cor
 
 Dekmantel started as a series of club nights run by two Dutch DJs, Thomas Martojo and Casper Tielrooij, and became a record label in 2009 and a festival in 2013. Its programme runs from house and techno to ambient and experimental music.
 
-This page answers what people ask before they go. What is Dekmantel, when is it in 2027, where is it, how do the tickets work and what is Dekmantel Selectors? It ends with five sets from the festival's own channel, so you can hear the room before you buy.
-
 ## What is Dekmantel Festival?
 
 Dekmantel is an Amsterdam festival of electronic music run by the Dekmantel label and its two founders. Thomas Martojo and Casper Tielrooij began with club nights, and the first festival was held in 2013 at the Amsterdamse Bos. The label followed an earlier start: it was founded in 2009, according to Time Out. It is a day festival, and many visitors sleep in Amsterdam and travel to the park.
@@ -35,7 +33,7 @@ The 2026 edition is the best guide to the shape of the week. It ran from Wednesd
 
 Dekmantel at Dawn ran from 11:00 to 14:00 on Friday to Sunday, with the Selectors, Greenhouse and RADAR stages open to weekend-ticket holders only. Single-day grounds opened at 14:00.
 
-## Where is Dekmantel held?
+## The Amsterdamse Bos.
 
 Dekmantel's main site is the Amsterdamse Bos, at Nieuwe Meerlaan 1 in Amstelveen, a large wooded park south of central Amsterdam. Most of the festival is here from Friday to Sunday. The shuttle and the camping site are in the ticket section below.
 
@@ -47,9 +45,9 @@ The week also uses the city. The Oude Kerk hosted the opening concert in 2026. M
 
 For the city itself, the [best clubs in Amsterdam](/best-clubs-in-amsterdam) covers where to go when the festival is not on.
 
-## How do Dekmantel tickets work?
+## Dekmantel tickets.
 
-Dekmantel sells several kinds of ticket, and the rules below come from the festival's FAQ for the 2026 edition. The rules may change for 2027. This page does not print a price, because the only figures found were on aggregator sites that disagreed with each other. The official shop is the place for the current price.
+Dekmantel sells several kinds of ticket, and the rules below come from the festival's FAQ for the 2026 edition. The rules may change for 2027. Aggregator sites quote ticket prices that disagree with each other, so check the festival's own ticket shop. The official shop is the place for the current price.
 
 - **Festival tickets.** The festival sold 5-day, 4-day and 3-day weekend tickets and single-day tickets. A 5-day wristband gives full access to the night programme.
 - **Night tickets.** The night programme is ticketed separately from the festival.
@@ -68,13 +66,13 @@ The 2027 edition is on 19 to 23 August 2027, according to the festival's officia
 
 The format is five days with limited capacity. The days are spent on the coast and on boat parties, and the nights are at Barbarella's, an open-air club. The site names its areas as Beach Bar, Magnolia, Voodoo, The Nest, Beach Main and Barbarella's Discotheque, and there is an island party. If Dekmantel in Amsterdam is a city weekend, Selectors is a week by the sea.
 
-## What does Dekmantel book?
+## What Dekmantel books.
 
 Dekmantel books DJs and live acts from across electronic music. The opening concert in 2026 was Space Afrika at the Oude Kerk. Boiler Room filmed Motor City Drum Ensemble at Dekmantel in 2014, and the [Amsterdam clubs guide](/best-clubs-in-amsterdam) links that set. The 2027 line-up is not confirmed yet.
 
 The five sets below are from the festival's own channel and come from 2025.
 
-## Which Dekmantel sets should you hear first?
+## Dekmantel sets to hear first.
 
 Start with the three sets from The Loop stage, then the two from RADAR. The Loop sets are the most watched of the five, and RADAR is the stage that is open at Dekmantel at Dawn.
 

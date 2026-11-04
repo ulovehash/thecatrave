@@ -6,7 +6,7 @@ The best nightclubs in the world, by the one ranking that covers the whole plane
 
 ## Introduction
 
-"Best" has no single meaning for a nightclub. Anyone asking for the best dance club in the world gets a vote tally, not a verdict. A list built on votes finds the clubs people travel to, and a list built on a jury of experts scores programming, safety and sustainability. Both exist, and they disagree. This guide starts from the vote because it is public, published every spring and covers every region. The shorthand, DJ Mag best clubs, means that poll.
+"Best" has no single meaning for a nightclub. Anyone asking for the best dance club in the world gets a vote tally, not a verdict. A list built on votes finds the clubs people travel to, and a list built on a jury of experts scores programming, safety and sustainability. Both exist, and they disagree. DJ Mag's vote is the starting point here because it is public, published every spring and covers every region. The shorthand, DJ Mag best clubs, means that poll.
 
 The 20 clubs below sit in the top 46 of DJ Mag's 2026 poll, plus WOMB in Tokyo at No. 88. They are grouped by region and then sorted by size, because the same list answers a second question people type: which club is the biggest. For Europe alone, the [best clubs in Europe](/best-clubs-in-europe) guide goes deeper, and the magazine's other poll, for DJs, is the subject of the essay on [why the DJ Mag Top 100 barely changes](/why-dj-mag-top-100-never-changes).
 

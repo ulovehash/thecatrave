@@ -27,7 +27,7 @@ The festival's own pages place it in early April, for spring skiing.
 
 One warning about the official site: its FAQ still carries answers written for 2026, including a question headed "When does Snowbombing 2026 take place?" and a payment-plan answer that mentions 1 March 2026. The booking page, which is the one to trust for 2027, says the £50 deposit is paid at booking and the rest in instalments by 1 March.
 
-## Where is Snowbombing held?
+## Mayrhofen, in the Zillertal.
 
 Snowbombing is held in Mayrhofen, in the Zillertal, a valley in Tyrol, Austria. The festival describes Mayrhofen as a Tyrolean village at about 630 metres, at the head of the Zillertal, and its site claims more than 625 km of piste in the area.
 
@@ -39,7 +39,7 @@ Getting there means flying to Munich or Innsbruck and taking a road transfer. Sn
 
 The venues named on the festival's site are the Forest Stage, the Street Party, Pilz Bar, The Racket Club, Rompa's Reggae Shack (which books dub, reggae, jungle and bass), The Fun Haus, The Vault (the late-night room), Liebies at the Strass Hotel, and Hans the Butcher, a series of pop-ups. The Mountaintop Brunch is ticketed separately.
 
-## How do Snowbombing tickets work?
+## Snowbombing tickets.
 
 You cannot buy a ticket on its own. The FAQ says day wristbands are not available, and that the festival sells only weeklong wristbands, bought with accommodation for a minimum of five nights. Every package on the booking page includes accommodation and a wristband, and the prices shown include a £249 wristband.
 
@@ -58,7 +58,7 @@ The rules that catch people out, as the FAQ states them:
 
 Lessons and equipment hire are sold separately. The FAQ notes that most hire shops stock no boots above UK size 12.
 
-## Who plays Snowbombing 2027?
+## The Snowbombing 2027 line-up.
 
 The acts announced so far, with more to come: Bicep (live), Fatboy Slim, 2manydjs (DJ set), Andy C, Basement Jaxx (DJ set), East End Dubs, Ewan McVicar, Gaskin, Groove Armada (DJ set), Rossi, Skream, Wilkinson, Arielle Free, bullet tooth, Ellia Jaya, Fish56Octagon, Jess Iszatt, Sasha GiGi and Olive F.
 
@@ -66,7 +66,7 @@ Fatboy Slim, Groove Armada and Basement Jaxx are the big beat and party names, G
 
 ![A mountain stage at Snowbombing, 2018](figure:snow-shot)
 
-## Which Snowbombing sets should you hear first?
+## Snowbombing sets to hear first.
 
 Start with the only one from the festival. DJ Mag uploaded Fatboy Slim's secret mountaintop DJ set at Snowbombing, and it shows what the festival is: a DJ set on a mountaintop.
 

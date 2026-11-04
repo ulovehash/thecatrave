@@ -8,7 +8,7 @@ El jungle es una forma rápida de música electrónica británica, basada en los
 
 El jungle nació de la escena rave británica de principios de los noventa y de la cultura de los sound systems caribeños. Es rápido, se construye sobre breakbeats de funk cortados y lo sostiene un sub-bajo pesado. Esta guía trata del género, no de la banda Jungle.
 
-Empezó como un sonido londinense y en pocos años tenía su propia jerga, su ropa y su público. Esta guía lo sigue desde los primeros discos hasta el revival actual: de dónde viene el nombre, quién lo hizo, los sellos y los locales que lo sostuvieron, y los ravers y DJ que lo mantuvieron vivo.
+Empezó como un sonido londinense y en pocos años tenía su propia jerga, su ropa y su público.
 
 Si la historia de la rave británica te resulta nueva, lee antes [nuestra guía sobre la historia de la música electrónica en el Reino Unido](/es/historia-musica-electronica-reino-unido): recorre todo el camino, del techno industrial al dubstep.
 
@@ -78,7 +78,7 @@ En 1993, el jungle se había cristalizado en un género y una **comunidad** reco
 
 ## 1994-1995: el jungle llega al gran público
 
-En 1994, el jungle saltó del underground al gran público británico, aparentemente de la noche a la mañana. Tras cocerse a fuego lento en las radios piratas y en las tiendas de discos especializadas, esta música tuvo de pronto **himnos en lo alto de las listas** que toda la juventud británica parecía conocer. Dos temas marcaron sobre todo ese salto: **«Original Nuttah», de Shy FX (feat. UK Apachi)**, e **«Incredible», de M-Beat (feat. General Levy)**. Salieron los dos en 1994, resumían la energía del jungle con voces ragga pegadizas y beats vertiginosos, y tomaron por asalto tanto los clubes como las listas. «Incredible» convirtió ese potencial en algo mucho mayor. De pronto, el grito icónico **«Wicked! Wicked! Junglist massive!»** sonaba en las radios de los coches e incluso en comedias de cine (aparece de forma memorable en la película de **Ali G**).
+En 1994, el jungle saltó del underground al gran público británico, aparentemente de la noche a la mañana. Tras cocerse a fuego lento en las radios piratas y en las tiendas de discos especializadas, esta música tuvo de pronto **himnos en lo alto de las listas** que toda la juventud británica parecía conocer. Dos temas marcaron sobre todo ese salto: **«Original Nuttah», de Shy FX (feat. UK Apachi)**, e **«Incredible», de M-Beat (feat. General Levy)**. Salieron los dos en 1994, resumían la energía del jungle con voces ragga pegadizas y beats vertiginosos, y tomaron por asalto tanto los clubes como las listas. «Incredible» convirtió ese potencial en algo mucho mayor. De pronto, el grito **«Wicked! Wicked! Junglist massive!»** sonaba en las radios de los coches e incluso en comedias de cine (aparece de forma memorable en la película de **Ali G**).
 
 [Image: awol]
 
@@ -92,7 +92,7 @@ Del mismo modo, «Original Nuttah» se volvió un himno mucho más allá de los 
 
 La popularidad trajo **la atención de la prensa y el interés de las multinacionales**. Recopilatorios como *Jungle Mania* y *Jungle Hits* se agotaban en las tiendas y daban a conocer los grandes temas del género a oyentes ocasionales. Los **medios británicos** alternaban entre presentar el jungle como «lo próximo» y avivar un *pánico moral* sobre sus supuestos vínculos con la violencia o las bandas. Aun así, mediados de los noventa fueron la mejor época del jungle. Casi cada semana salía un tema que acabaría siendo un clásico. Los junglists tenían de dónde elegir, del ragga áspero de **Remarc** y **Congo Natty** al jungle «inteligente», suave y jazzístico, que defendía **LTJ Bukem**.
 
-Entre los **grandes himnos de 1994-95** estaban *«Burial»*, de Leviticus (con su icónico sample vocal *«Burial!»*), *«Helicopter Tune»*, de Deep Blue (llamado así por su break que zumba como un helicóptero), *«Champion DJ»*, de Congo Natty (un ejemplo de jungle de influencia rastafari), y **la imprescindible bomba de club «Lighter»**, de DJ SS (que samplea un motivo de música clásica antes de lanzarse a bajos pesados). En el lado melódico, temas de **LTJ Bukem** como «Horizons» aportaron colchones atmosféricos y riffs de jazz, y le valieron la etiqueta de *«ambient jungle»*. En 1995, el jungle tenía incluso un programa nacional semanal: **«One in the Jungle», en BBC Radio 1**, ponía sets a la manera de las piratas en una emisora legal y ofrecía un nuevo escenario a artistas como Roni Size, Hype y Grooverider.
+Entre los **grandes himnos de 1994-95** estaban *«Burial»*, de Leviticus (con su sample vocal *«Burial!»*), *«Helicopter Tune»*, de Deep Blue (llamado así por su break que zumba como un helicóptero), *«Champion DJ»*, de Congo Natty (un ejemplo de jungle de influencia rastafari), y **la imprescindible bomba de club «Lighter»**, de DJ SS (que samplea un motivo de música clásica antes de lanzarse a bajos pesados). En el lado melódico, temas de **LTJ Bukem** como «Horizons» aportaron colchones atmosféricos y riffs de jazz, y le valieron la etiqueta de *«ambient jungle»*. En 1995, el jungle tenía incluso un programa nacional semanal: **«One in the Jungle», en BBC Radio 1**, ponía sets a la manera de las piratas en una emisora legal y ofrecía un nuevo escenario a artistas como Roni Size, Hype y Grooverider.
 
 ### Los subgéneros del jungle: ragga, jump-up, ambient y darkside.
 
@@ -116,7 +116,7 @@ Estos son los DJ, productores y MC que dieron forma al sonido y lo que aportó c
 - **Fabio y Grooverider**: pioneros del sonido, de las noches del club Rage a BBC Radio 1.
 - **Dillinja**: conocido por su sub-bajo inigualable y sus temas oscuros y pesados.
 - **Aphrodite**: maestro del jump-up. Hizo éxitos de jungle funky y accesibles para un público amplio.
-- **MC Stevie Hyper D**: el MC más icónico del jungle. Aportó melodía y velocidad al canto en directo.
+- **MC Stevie Hyper D**: el MC más conocido del jungle. Aportó melodía y velocidad al canto en directo.
 
 ## Sellos de jungle y la infraestructura de la escena
 
@@ -171,7 +171,7 @@ Estos son los discos que dieron forma al **género jungle**, de los primeros esb
 - **«We Are I.E.», Lennie De Ice (1991)**: a menudo citado como el plano del jungle. Con su sub-bajo profundo, sus breakbeats de hip-hop y sus samples ragga, puso las bases de todo lo que vino después.
 - **«Valley of the Shadows», Origin Unknown (1993)**: una obra maestra minimalista e inquietante, con el famoso sample «31 seconds». Un lanzamiento típico de RAM Records y una bomba protojungle.
 - **«Original Nuttah», Shy FX & UK Apachi (1994)**: el tema que llevó el jungle al Top 40 británico. Voces ragga, beats frenéticos y una energía que anclaba gritos como «Junglist massive!» en la cultura rave.
-- **«Incredible», M-Beat ft. General Levy (1994)**: quizá la voz más icónica del jungle. Su frase contagiosa «Junglist is massive!» es hoy un eslogan cultural.
+- **«Incredible», M-Beat ft. General Levy (1994)**: quizá la voz más conocida del jungle. Su frase contagiosa «Junglist is massive!» es hoy un eslogan cultural.
 - **«Terrorist», Renegade (Ray Keith) (1994)**: un clásico darkside que cabalga el break Amen con un bajo pesado. Símbolo del lado más duro del jungle.
 - **«Circles», Adam F (1995)**: soul y soñador, pero anclado en breaks duros. Un giro hacia una producción jungle más musical.
 - **«Super Sharp Shooter», DJ Zinc (1996)**: un ejemplo de jungle jump-up, funky, hecho para la pista y enorme en todos los sets.
@@ -186,7 +186,7 @@ Entre otros clásicos están *«Babylon»*, de Splash, *«Lord of the Null Lines
 El jungle se apoya en los **breakbeats**: bucles de batería sampleados que los productores cortaban, estiraban y reprogramaban a gran velocidad.
 
 - **Amen Break**: sacado de «Amen, Brother», de The Winstons (1969). El bucle de batería más sampleado de la historia. Sus cajas secas y sus hi-hats nítidos se volvieron la columna vertebral de innumerables temas jungle.
-- **Think Break**: sacado de «Think (About It)», de Lyn Collins (1972). Conocido por su groove rodante y su icónico «Woo!», aportó rebote y funk a muchos de los primeros temas jungle.
+- **Think Break**: sacado de «Think (About It)», de Lyn Collins (1972). Conocido por su groove rodante y su «Woo!», aportó rebote y funk a muchos de los primeros temas jungle.
 - **Apache Break**: sacado de «Apache», de The Incredible Bongo Band (1973). Un break cargado de percusión que daba a los temas jungle una sensación de batería en vivo.
 - **Hot Pants Break**: sacado de «Hot Pants», de Bobby Byrd (1971). Un bucle seco y funky que a los productores de jungle les gustaba superponer en transiciones y ediciones.
 

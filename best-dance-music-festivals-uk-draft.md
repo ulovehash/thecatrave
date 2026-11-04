@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The UK season runs from late May to the August bank holiday, and the last weekend of August is the busiest of all. Creamfields leads on scale and Houghton on sound, and Parklife, Boomtown and Lost Village cover everything in between. This page compares the best dance music festivals UK-wide, by sound, size and setting, and shows which 2027 dates are confirmed.
+The UK season runs from late May to the August bank holiday, and the last weekend of August is the busiest of all. Creamfields leads on scale and Houghton on sound, and Parklife, Boomtown and Lost Village cover everything in between.
 
 ![Listening](figure:playlist)
 
@@ -121,9 +121,7 @@ For more European choices, see [the best electronic music festivals in Europe](/
 
 ## How to choose
 
-Start with size. Creamfields has the biggest crowd and headliners, Parklife is the city weekend, and Boomtown is a place to get lost in. For careful programming and a smaller crowd, pick Houghton or Lost Village. We Out Here has the widest range of music.
-
-Then check the calendar. Lost Village sold out in 2026, and the bank holiday clash means you have to choose between Creamfields and Lost Village.
+Check the calendar. Lost Village sold out in 2026, and the bank holiday clash means you have to choose between Creamfields and Lost Village.
 
 Gottwood's date is still only reported and Junction 2 has not named its weekend, so wait for both before you book travel.
 
