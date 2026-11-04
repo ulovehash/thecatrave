@@ -1777,6 +1777,30 @@
         "file": "build-dubstep-article.mjs",
         "contains": "'Two of the later branches: riddim and melodic dubstep.'"
       }
+    },
+    {
+      "id": "stray-breakbeat-guide-copy-published",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "'breakbeat-guide copy.html', an old draft of the breakbeat guide, was committed by accident in cc39463 (10 October 2026) and is served publicly by GitHub Pages. Unlinked, canonical to /breakbeat-guide. Found in the AI-slop review (ai-slop-review-2026-11-04.md, section 1).",
+      "should_have_caught": "nothing checks the site root for files that are not built by scripts/build.mjs",
+      "fix": null
+    },
+    {
+      "id": "keyword-research-in-prose",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "Fifteen guides describe search behaviour instead of the subject: 'a navigational head with no room for an outside guide' (awakenings-festival), 'This guide answers the main questions behind searches for Primavera Sound Barcelona', 'Croatians search for it as Ultra Split' (ultra-music-festival), 'They are the answer to a search for the best winter music festivals', 'what people are actually asking when they search for the term' (dubstep-guide), two Printworks search-intent lines, and eight 'Search for X and you get…' openers. Full list in ai-slop-review-2026-11-04.md, section 2.",
+      "should_have_caught": "AGENTS.md section 4 bans explanations of SEO choices in article copy; audit-banned-phrases.mjs covers only a few fixed strings",
+      "fix": null
+    },
+    {
+      "id": "roundup-answer-repeated",
+      "found": "2026-11-04",
+      "by": "agent",
+      "what": "The fault fixed on best-edm-festivals-world (world-festivals-biggest-answer-repeated-four-times) is on the other roundups: best-edm-festivals-usa gives 'it depends on what you want to hear' six times, Portugal and Asia four to six, and Germany, Europe, drum and bass, house, Croatia and bass festival roundups three or four. FAQ answers on the Asia roundup open 'On this page, …'. See ai-slop-review-2026-11-04.md, section 4.",
+      "should_have_caught": "the redundancy check in ARTICLE-EDITORIAL-REVIEW.md; festival-roundup.mjs builds the repeating How to choose and FAQ shape",
+      "fix": null
     }
   ]
 }
