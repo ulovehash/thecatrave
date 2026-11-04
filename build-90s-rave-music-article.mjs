@@ -125,8 +125,8 @@ const marchFigure = articleFigure({
 
 // The owner's own music, each clearly labelled as a present-day track and a
 // paragraph away from other media. Neither is a 90s record, and the copy says so.
-const breaksTrack = ownTrackListening('protect-ya-breaks', 'Progressive breaks at 128 BPM with rap vocals and a downtempo switch-up, made now. My own track.');
-const berlinTrack = ownTrackListening('berlin-race-1909', 'Breakbeat drums under dub techno space, made now. My own track.');
+const breaksTrack = ownTrackListening('protect-ya-breaks', 'Progressive breaks at 128 BPM with rap vocals and a downtempo switch-up. My own track.');
+const berlinTrack = ownTrackListening('berlin-race-1909', 'Breakbeat drums under dub techno space. My own track.');
 
 const strandTable = articleTable({
   headers: ['Strand', 'Years', 'Where', 'A record to start with'],

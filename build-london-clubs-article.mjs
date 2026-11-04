@@ -85,7 +85,7 @@ const youtube = (id, label) => articleYoutubeEmbed({
 const media = {
   // The owner's own tracks inside the text (owner, 2026-09-21: at least two
   // own players a guide), each a paragraph away from the other media.
-  'thecatrave Art Deco': ownTrackListening('art-deco', 'The sound those rooms were built for, made now: my jungle remix of a Lana Del Rey song.'),
+  'thecatrave Art Deco': ownTrackListening('art-deco', 'The sound those rooms were built for: my jungle remix of a Lana Del Rey song.'),
   'thecatrave Degeneration': ownTrackListening('degeneration', 'Garage and dubstep as tools rather than borders: my remix with breaks under a French pop vocal.'),
   'thecatrave Protect Ya Breaks': ownTrackListening('protect-ya-breaks', 'Progressive breaks at 128 BPM with chopped rap vocals and a downtempo switch-up. My own track.'),
   'Blitz site': figure('blitz-site', 900, 1200,

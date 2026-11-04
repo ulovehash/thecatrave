@@ -42,8 +42,8 @@ const copy = {
     dancing: ['Des gens qui dansent dans une rave jungle', 'Les raves jungle : sueur, gunfingers, basse, unité.']
   },
   videos: {
-    'dj-hype': {kicker: 'Archive', heading: 'DJ Hype, Jungle Massive.', description: 'Une compilation d’époque, mixée d’un seul tenant.'},
-    'original-nuttah': {kicker: 'Le morceau clé', heading: 'Shy FX & UK Apachi, Original Nuttah.', description: 'L’hymne crossover de 1994.'},
+    'dj-hype': {kicker: 'Archive', heading: 'DJ Hype, Jungle Massive.', description: 'Une compilation d’époque de DJ Hype, l’un des DJ de radio pirate qui ont défini le son jungle.'},
+    'original-nuttah': {kicker: 'Le morceau clé', heading: 'Shy FX & UK Apachi, Original Nuttah.', description: 'L’hymne crossover de 1994, qui a conquis les clubs comme les charts.'},
     'nia-archives': {kicker: 'Le revival en pratique', heading: 'Nia Archives, Boiler Room : Londres.', description: 'Un set actuel qui relie des disques jungle fondateurs, des edits contemporains et l’énergie nouvelle décrite dans cette partie.'},
     'tim-reaper': {kicker: 'À écouter', heading: 'Tim Reaper, mix jungle inspiré du rare groove.', description: 'Enregistré pour NTS : une heure de ce à quoi ressemble vraiment le revival.'}
   },

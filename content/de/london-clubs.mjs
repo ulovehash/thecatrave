@@ -79,7 +79,7 @@ export default {
     // The owner's own music inside the text (owner, 2026-09-21: Berlin Race
     // 1909 on the German pages, Dégénération on the French, and art deco with
     // late summer cloud dance in the drum and bass guides).
-    'thecatrave art-deco': ownTrackListening('art-deco', 'Der Sound, für den diese Räume gebaut wurden, neu gemacht: mein Jungle-Remix eines Songs von Lana Del Rey.', lang),
+    'thecatrave art-deco': ownTrackListening('art-deco', 'Der Sound, für den diese Räume gebaut wurden: mein Jungle-Remix eines Songs von Lana Del Rey.', lang),
     'thecatrave degeneration': ownTrackListening('degeneration', 'Garage und Dubstep als Werkzeuge statt als Grenzen: mein Remix mit Breaks unter einer französischen Popstimme.', lang),
     'thecatrave protect-ya-breaks': ownTrackListening('protect-ya-breaks', 'Progressive Breaks bei 128 BPM, mit zerhackten Rap-Vocals und einem Wechsel ins Downtempo. Mein eigener Track.', lang),
     'Blitz site': figure('blitz-site', 900, 1200,

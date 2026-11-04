@@ -1098,11 +1098,11 @@
       "id": "90s-rave-own-track-caption-reverted",
       "found": "2026-10-06",
       "by": "agent",
-      "what": "The editorial review of 90s-rave-music said the Berlin Race 1909 caption was changed from 'Another break from the 90s' to 'Another artist break', but build-90s-rave-music-article.mjs still carried 'Another break from the 90s, and not one of its records', which reads as a period claim. The review recorded an edit that was not in the builder. On 2026-11-04 'Also not a 90s record' was replaced, with the owner's approval of removing self-explaining card copy, by 'Breakbeat drums under dub techno space, made now. My own track.': the period claim stays ruled out by 'made now', without a disclaimer about what the track is not (AGENTS.md bans genre disclaimers on own tracks).",
+      "what": "The editorial review of 90s-rave-music said the Berlin Race 1909 caption was changed from 'Another break from the 90s' to 'Another artist break', but build-90s-rave-music-article.mjs still carried 'Another break from the 90s, and not one of its records', which reads as a period claim. The review recorded an edit that was not in the builder. On 2026-11-04 the owner ruled that captions carry no disclaimers at all ('we dont need those in actual copy'): 'Also not a 90s record' and the later 'made now' were both removed. The caption describes the track and says it is the owner's own, which is what keeps it from reading as a 90s record.",
       "should_have_caught": "a before/after pair was written into the review from memory, not from the built page",
       "fix": {
         "file": "build-90s-rave-music-article.mjs",
-        "contains": "Breakbeat drums under dub techno space, made now"
+        "contains": "'Breakbeat drums under dub techno space. My own track.'"
       }
     },
     {
@@ -1749,11 +1749,11 @@
       "id": "listening-copy-rule-asked-for-self-explanation",
       "found": "2026-11-04",
       "by": "owner",
-      "what": "The own-music rule in AGENTS.md asked for 'a concise explanation of the listening choice', which produced placement commentary on every guide (see listening-cards-explain-their-own-placement).",
-      "should_have_caught": "the rule wording itself",
+      "what": "AGENTS.md said 'Include a concise explanation of the listening choice'. The owner meant it for embeds of other artists' records inside a guide (why this record is referenced), but the sentence sat in the bullet about the owner's own music, so it was applied to own tracks and mixes and produced placement commentary on every guide (see listening-cards-explain-their-own-placement). A first fix also stripped the reason from two third-party jungle embeds; both were given their reason back.",
+      "should_have_caught": "the rule's placement: an instruction about third-party embeds written inside the own-music bullet",
       "fix": {
         "file": "AGENTS.md",
-        "contains": "Never explain where the card sits or why it was placed there"
+        "contains": "For embeds of other artists' records or sets inside a guide, include a concise explanation of the listening choice"
       }
     },
     {
