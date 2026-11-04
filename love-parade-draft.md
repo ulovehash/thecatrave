@@ -69,7 +69,7 @@ Berlin techno itself has a cultural listing. It was entered in Germany's nationa
 
 The Street Parade Zurich started on 5 September 1992. According to its own history page, it was founded by Marek Krynski, and about 1,000 people came. It had seven Love Mobiles, the parade's name for its floats, and only one worked properly.
 
-The Street Parade drew about 900,000 people in 2025, according to its organisers. The 2026 parade was on 8 August, and the next is on 14 August 2027.
+The Street Parade drew about 900,000 people in 2026, according to its organisers. That parade was on 8 August, and the next is on 14 August 2027.
 
 ## Which Berlin sets should you hear first?
 
