@@ -37,12 +37,12 @@ function components(page, lang) {
     lang,
     alternates,
     navItems: [
-      {href:'#bandcamp',label:'Bandcamp',className:'support-link'},
+      {href:copy.articlesPath,label:copy.navArticles},
+      {href:copy.selectorPath,label:copy.navSelector,className:'selector-link'},
       {href:'#mixes',label:copy.homeNavMixes},
       {href:'#music',label:copy.homeNavTracks},
       {href:'#playlists',label:copy.homeNavPlaylists},
-      {href:copy.articlesPath,label:copy.navArticles},
-      {href:copy.selectorPath,label:copy.navSelector,className:'selector-link'}
+      {href:'#bandcamp',label:'Bandcamp',className:'support-link'}
     ]
   }));
   page = replaceComponent(page, 'now-playing', nowPlayingBanner({

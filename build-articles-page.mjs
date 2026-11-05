@@ -66,6 +66,15 @@ const indexes = [
   }
 ];
 
+// Three guides to open with, pinned above the full list. Spanish has no acid
+// house or UK garage guide yet, so it leads with its own breaks and jungle ones.
+const START_HERE = {
+  en: ['acid-house-guide.html', 'uk-garage-guide.html', 'drum-and-bass-guide.html'],
+  de: ['de/acid-house.html', 'de/uk-garage.html', 'de/drum-and-bass.html'],
+  fr: ['fr/acid-house.html', 'fr/uk-garage.html', 'fr/drum-and-bass.html'],
+  es: ['es/drum-and-bass.html', 'es/jungle.html', 'es/breakbeat.html']
+};
+
 for (const index of indexes) {
   const items = allArticlesNewestFirst(index.lang);
   const {lang, canonical, title, description} = index;
@@ -80,7 +89,7 @@ for (const index of indexes) {
     ...(index.introHtml ? [articleSection({title: index.introTitle, bodyHtml: index.introHtml})] : []),
     // The heading is for screen readers and the h1 > h2 > h3 outline only; the
     // hero already says what the list is.
-    articlesIndex({items, title: index.listTitle, lang})
+    articlesIndex({items, title: index.listTitle, lang, startHere: START_HERE[lang]})
   ].join('\n');
 
   const structuredData = [

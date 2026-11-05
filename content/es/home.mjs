@@ -14,6 +14,7 @@ export const strings = [
   ["thecatrave: breakbeat, bass and rave", "thecatrave: breakbeat, bass y rave"],
   ["Handmade breakbeat, bass and rave music, DJ mixes and articles on underground electronic music and club culture.", "Música breakbeat, bass y rave hecha a mano, DJ mixes y artículos sobre música electrónica underground y cultura club."],
   ["I rave, I produce, I DJ.", "Yo hago rave, produzco, pincho."],
+  ["Electronic music producer, DJ and raver. Guides to dance music and club culture.", "Productor de música electrónica, DJ y raver. Guías de música dance y cultura de club."],
   ["thecatrave sitting with a small keyboard in warm orange light", "thecatrave sentado con un teclado pequeño bajo una cálida luz naranja"],
   ["Check me on Bandcamp!", "¡Escúchame en Bandcamp!"],
   ["Your purchase supports me directly. Thanks!", "Tu compra me apoya directamente. ¡Gracias!"],

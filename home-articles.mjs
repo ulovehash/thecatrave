@@ -2250,7 +2250,18 @@ export function homeArticlesWithReadingTimes(lang = 'en') {
 const HOME_CARDS = 8;
 
 export function homeArticlesNewestFirst(lang = 'en') {
-  return allArticlesNewestFirst(lang).slice(0, HOME_CARDS);
+  // Newest first overall would be all festival guides, so take the newest two
+  // of each category, then show those in date order.
+  const all = allArticlesNewestFirst(lang);
+  const perCategory = Math.max(1, Math.floor(HOME_CARDS / new Set(all.map(item => item.category)).size));
+  const taken = new Map();
+  const picked = new Set();
+  for (const item of all) {
+    const n = taken.get(item.category) || 0;
+    if (n < perCategory) { taken.set(item.category, n + 1); picked.add(item); }
+  }
+  for (const item of all) if (picked.size < HOME_CARDS) picked.add(item);
+  return all.filter(item => picked.has(item)).slice(0, HOME_CARDS);
 }
 
 // Every article, newest first, for the /articles page.
@@ -2290,15 +2301,24 @@ export function relatedArticles(currentPage, lang = 'en') {
   const current = all.find(item => item.page === currentPage || item.href === currentPage);
   if (!current) throw new Error(`relatedArticles received an unknown page: ${currentPage}`);
 
+  // Rare tags say more than common ones: "discovery" sits on 73 of 102 guides and
+  // "history" on 69, so counting them equally recommended four club guides under
+  // the acid house history (2026-11-05). Each shared tag is weighted by how few
+  // guides carry it (inverse frequency), and a guide from the same category gets
+  // a bonus so a history guide is followed by history guides before club guides.
   const mine = new Set(current.tags || []);
   const others = all.filter(item => item !== current);
-  const scored = others.map((item, index) => ({
-    item,
-    index,
-    shared: (item.tags || []).filter(tag => mine.has(tag)).length
-  }));
+  const tagCount = new Map();
+  for (const item of all) for (const tag of new Set(item.tags || [])) tagCount.set(tag, (tagCount.get(tag) || 0) + 1);
+  const weight = tag => Math.log(all.length / (tagCount.get(tag) || 1));
+  const scored = others.map((item, index) => {
+    const sharedTags = (item.tags || []).filter(tag => mine.has(tag));
+    const shared = sharedTags.length;
+    const score = sharedTags.reduce((sum, tag) => sum + weight(tag), 0) + (item.category === current.category ? 1 : 0);
+    return {item, index, shared, score};
+  });
 
-  scored.sort((a, b) => b.shared - a.shared || a.index - b.index);
+  scored.sort((a, b) => b.score - a.score || a.index - b.index);
   const withTags = scored.filter(entry => entry.shared > 0).slice(0, RELATED_MAX);
   const chosen = withTags.length >= RELATED_MIN
     ? withTags

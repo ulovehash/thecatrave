@@ -412,7 +412,7 @@ export function homeArticlesSection({items = [], lang = defaultLang} = {}) {
 // drawn like the Selector's chips. The chips are hidden until the script runs,
 // so without JavaScript the page is simply the whole list. The choice is kept
 // in the URL (?c=festivals) so a filtered view can be linked to.
-export function articlesIndex({items = [], title, lang = defaultLang} = {}) {
+export function articlesIndex({items = [], title, lang = defaultLang, startHere = []} = {}) {
   if (!items.length) throw new Error('articlesIndex requires at least one article.');
   requireFields('articlesIndex', {title});
   const copy = t(lang);
@@ -424,8 +424,10 @@ export function articlesIndex({items = [], title, lang = defaultLang} = {}) {
       .filter(([, , count]) => count > 0)
       .map(([key, label, count]) => chip(key, label, count)))
     .join('');
-  const script = `<script>(()=>{const g=document.currentScript.previousElementSibling,r=g.previousElementSibling,b=[...r.querySelectorAll('.category-chip')],c=[...g.children];const set=(k,push)=>{if(!b.some(x=>x.dataset.category===k))k='all';b.forEach(x=>x.setAttribute('aria-pressed',x.dataset.category===k));c.forEach(x=>{x.hidden=k!=='all'&&x.dataset.category!==k});if(push){const u=new URL(location.href);k==='all'?u.searchParams.delete('c'):u.searchParams.set('c',k);history.replaceState(null,'',u)}};b.forEach(x=>x.addEventListener('click',()=>set(x.dataset.category,true)));set(new URLSearchParams(location.search).get('c')||'all',false);r.hidden=false})();</script>`;
-  return `<section class="articles-index" aria-labelledby="articles-index-title"><h2 id="articles-index-title">${escapeHtml(title)}</h2><div class="category-chips" role="group" aria-label="${escapeHtml(copy.categoriesLabel)}" hidden>${chips}</div><div class="article-grid read-next-grid">${cards}</div>${script}</section>`;
+  const script = `<script>(()=>{const g=document.currentScript.previousElementSibling,r=g.previousElementSibling,q=r.querySelector('input'),e=r.querySelector('.articles-empty'),s=document.querySelector('.start-here'),b=[...r.querySelectorAll('.category-chip')],c=[...g.children],tx=c.map(x=>x.textContent.toLowerCase());let k='all';const show=()=>{const w=q.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let n=0;c.forEach((x,i)=>{const on=(k==='all'||x.dataset.category===k)&&w.every(v=>tx[i].includes(v));x.hidden=!on;if(on)n++});e.hidden=n>0;if(s)s.hidden=k!=='all'||q.value.trim()!==''};const set=(v,push)=>{if(!b.some(x=>x.dataset.category===v))v='all';k=v;b.forEach(x=>x.setAttribute('aria-pressed',x.dataset.category===k));show();if(push){const u=new URL(location.href);k==='all'?u.searchParams.delete('c'):u.searchParams.set('c',k);history.replaceState(null,'',u)}};b.forEach(x=>x.addEventListener('click',()=>set(x.dataset.category,true)));q.addEventListener('input',show);set(new URLSearchParams(location.search).get('c')||'all',false);r.hidden=false})();</script>`;
+  const pinned = startHere.map(page => items.find(item => item.page === page)).filter(Boolean);
+  const start = pinned.length ? `<div class="start-here"><p class="article-kicker">${escapeHtml(copy.startHere)}</p><div class="article-grid read-next-grid">${pinned.map(item => articleCard(item, 'articlesIndex startHere', lang)).join('')}</div></div>` : '';
+  return `<section class="articles-index" aria-labelledby="articles-index-title"><h2 id="articles-index-title">${escapeHtml(title)}</h2>${start}<div class="articles-tools" hidden><input type="search" class="articles-search" aria-label="${escapeHtml(copy.searchLabel)}" placeholder="${escapeHtml(copy.searchPlaceholder(items.length))}" autocomplete="off"><div class="category-chips" role="group" aria-label="${escapeHtml(copy.categoriesLabel)}">${chips}</div><p class="articles-empty" role="status" hidden>${escapeHtml(copy.searchEmpty)}</p></div><div class="article-grid read-next-grid">${cards}</div>${script}</section>`;
 }
 
 export function infoBanner({label, bodyHtml, ariaLabel = label, className = ''} = {}) {
@@ -809,8 +811,9 @@ export function articlePromoLayout({beforeHtml, promoHtml, afterHtml} = {}) {
 
 export function readNext({items = [], lang = defaultLang, title = t(lang).readNextTitle, kicker = t(lang).readNextKicker} = {}) {
   if (!items.length) throw new Error('readNext requires at least one article.');
+  const copy = t(lang);
   const cards = items.map(item => articleCard(item, 'readNext item', lang)).join('');
-  return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div></section>`;
+  return `<section class="read-next" aria-labelledby="read-next-title"><p class="article-kicker">${escapeHtml(kicker)}</p><h2 id="read-next-title">${escapeHtml(title)}</h2><div class="article-grid read-next-grid">${cards}</div><p class="article-return">${escapeHtml(copy.returnLead)} <a href="${escapeHtml(copy.selectorPath)}">${escapeHtml(copy.returnLink)}</a></p></section>`;
 }
 
 export function articleFooter(lang = defaultLang) {

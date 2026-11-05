@@ -3,7 +3,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 1rem/1.5 var(--sans);text-rendering:optimizeLegibility}
 img,iframe{display:block;max-width:100%}
-iframe[data-src]{opacity:0;transition:opacity var(--motion-fast) ease}
+iframe[data-src]{opacity:.55;background:repeating-linear-gradient(135deg,var(--paper) 0 .6rem,#0a0a0a14 .6rem 1.2rem);transition:opacity var(--motion-fast) ease}
 iframe[data-media-loaded="true"]{opacity:1}
 a{color:inherit}
 .skip-link{position:fixed;z-index:99;top:.5rem;left:.5rem;padding:.7rem 1rem;background:var(--ink);color:var(--paper);transform:translateY(-160%)}
@@ -82,6 +82,7 @@ p,li{text-wrap:pretty}
 .now-playing-play-icon{width:1.35rem;height:1.35rem;border-radius:50%;background:var(--acid);flex-shrink:0;display:inline-flex;align-items:center;justify-content:center}
 .now-playing-play-icon::before{content:'';width:0;height:0;margin-left:.15rem;border-style:solid;border-width:.3rem 0 .3rem .48rem;border-color:transparent transparent transparent var(--ink)}
 
+.home-identity{max-width:1440px;margin:0 auto;padding:1.1rem var(--gutter) 0;font:400 var(--utility) var(--mono)}
 .section-shell{content-visibility:auto;contain-intrinsic-size:auto 900px;max-width:1440px;margin:auto;padding:2.5rem var(--gutter);border-bottom:1px solid var(--line)}
 .section-heading{margin-bottom:2.25rem}
 /* Section heading size matches the shared article/Selector scale (--heading-section in thecatrave-article.css) rather than the home page's own, bigger one (owner, 2026-09-24). */

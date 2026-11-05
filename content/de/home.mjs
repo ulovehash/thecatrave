@@ -22,6 +22,7 @@ export const strings = [
 
   // hero
   ['I rave, I produce, I DJ.', 'Ich rave, ich produziere, ich lege auf.'],
+  ['Electronic music producer, DJ and raver. Guides to dance music and club culture.', 'Produzent elektronischer Musik, DJ und Raver. Guides zu Tanzmusik und Clubkultur.'],
   ['thecatrave sitting with a small keyboard in warm orange light', 'thecatrave mit einem kleinen Keyboard in warmem orangem Licht'],
 
   // 01 Bandcamp

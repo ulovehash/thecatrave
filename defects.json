@@ -1936,6 +1936,17 @@
         "file": "WRITING.md",
         "contains": "## Never drop a keyword because another page targets it"
       }
+    },
+    {
+      "id": "read-next-common-tags-outweigh-topic",
+      "found": "2026-11-05",
+      "by": "design critique",
+      "what": "relatedArticles counted every shared tag equally, so 'discovery' (73 of 102 guides) and 'history' (69) outweighed the topic and ties went to catalogue order. The acid house guide ended on Berghain, NYC, Tokyo and Budapest club guides instead of 90s rave, UK garage or UK electronic music history.",
+      "should_have_caught": "no check compared a guide's Read Next against its own category or topic; the first look at the rendered end of a guide was the first time anyone read the four cards",
+      "fix": {
+        "file": "home-articles.mjs",
+        "contains": "(inverse frequency)"
+      }
     }
   ]
 }

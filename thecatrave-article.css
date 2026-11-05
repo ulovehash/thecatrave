@@ -939,6 +939,14 @@
 /* Category filter on /articles. Same grammar as the Selector's chips
    (.sel-chip below): outlined on paper, cyan on hover, solid ink when on,
    the count lighter behind the name. */
+.articles-tools[hidden], .articles-empty[hidden] { display: none; }
+.articles-search {
+  display: block; width: 100%; max-width: 28rem; min-height: 2.8rem; margin: 0 0 1rem;
+  padding: .55rem .9rem; border: 1.5px solid var(--ink); border-radius: 0;
+  background: var(--paper); color: var(--ink); font: 700 .9rem/1.2 var(--mono);
+}
+.articles-search:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; background: #fff; }
+.articles-empty { margin: 0 0 1.5rem; font: 400 .9rem/1.4 var(--mono); }
 .category-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.5rem; }
 .category-chips[hidden] { display: none; }
 .category-chip {
@@ -1849,3 +1857,9 @@
   letter-spacing: -.025em;
 }
 .best-dj-sets-page .dj-set-recordings > h2:first-child { margin-top: 0; }
+
+/* "Start here" pins three guides above the full list on /articles. */
+.start-here { margin: 0 0 2.5rem; }
+.start-here > .article-kicker { margin: 0 0 .6rem; }
+.article-return { margin: 1.75rem 0 0; font: 400 .9rem/1.5 var(--mono); }
+.article-return a { color: var(--acid-text); font-weight: 700; }

@@ -101,12 +101,12 @@ const homeHeaderFor = lang => {
     lang,
     alternates: alternatesFor('/'),
     navItems:[
-      {href:'#bandcamp',label:'Bandcamp',className:'support-link'},
+      {href:copy.articlesPath,label:copy.navArticles},
+      {href:copy.selectorPath,label:copy.navSelector,className:'selector-link'},
       {href:'#mixes',label:copy.homeNavMixes},
       {href:'#music',label:copy.homeNavTracks},
       {href:'#playlists',label:copy.homeNavPlaylists},
-      {href:copy.articlesPath,label:copy.navArticles},
-      {href:copy.selectorPath,label:copy.navSelector,className:'selector-link'}
+      {href:'#bandcamp',label:'Bandcamp',className:'support-link'}
     ]
   });
 };
