@@ -18,7 +18,7 @@ Defqon.1 is a hardstyle festival run by Q-dance. It is held in June at Biddinghu
 
 Visitor numbers are quoted differently by different outlets. What is documented is the 2026 size: IQ Magazine reported that Q-dance had cut capacity to 55,000 on site by cancelling the Friday and Saturday day tickets, and that more than 350 artists were due to play.
 
-The name has no official explanation on the pages read. The Defqon.1 meaning is open to a reading, since it resembles the US military alert level DEFCON 1, but that is an observation and not something Q-dance states.
+Q-dance gives no official explanation of the name. The Defqon.1 meaning is open to a reading, since it resembles the US military alert level DEFCON 1, but that is an observation and not something Q-dance states.
 
 ## Defqon.1 2027 dates
 
@@ -33,8 +33,8 @@ The Defqon.1 dates for 2027 are therefore published, but the program for each da
 | Dates | 24 to 27 June 2027, Q-dance |
 | Location | Holy Grounds, Biddinghuizen |
 | Tickets | Wishlist open, sales from 27 October |
-| Prices | Not stated on the pages read |
-| Lineup | Not stated on the pages read |
+| Prices | Not stated by Q-dance |
+| Lineup | Not stated by Q-dance |
 
 ## Defqon.1 tickets
 
@@ -60,7 +60,7 @@ The Dediqated sale is the members' sale. Dediqated membership costs €34.99 per
 
 ### Defqon.1 ticket prices
 
-No Defqon.1 ticket prices for 2027 appear on the Q-dance pages. The only price statement is for people who kept a 2026 ticket: they keep the 2026 price and pay nothing extra if prices rise. Anything quoted elsewhere as a 2027 price is not from the pages read here.
+No Defqon.1 ticket prices for 2027 appear on the Q-dance pages. The only price statement is for people who kept a 2026 ticket: they keep the 2026 price and pay nothing extra if prices rise. Any 2027 price quoted elsewhere does not come from Q-dance.
 
 ## Defqon.1 2026 cancelled
 
@@ -78,7 +78,7 @@ No Defqon.1 2027 lineup is stated on the pages. The 2026 festival listed more th
 
 ### Defqon.1 sets
 
-The pages read did not describe a Defqon.1 live broadcast for 2027, so none is promised here. For hardstyle in the meantime, three sets from the [Selector](/selector) catalogue are below. None of them was recorded at Defqon.1: they are hardstyle sets from Boiler Room and DJ Mag, chosen as listening, and the Selector plays another recorded DJ set at random when you want something you do not know.
+Q-dance has not announced a Defqon.1 live broadcast for 2027. For hardstyle in the meantime, three sets from the [Selector](/selector) catalogue are below. None of them was recorded at Defqon.1: they are hardstyle sets from Boiler Room and DJ Mag, chosen as listening, and the Selector plays another recorded DJ set at random when you want something you do not know.
 
 ## Defqon.1 location
 
@@ -92,11 +92,11 @@ The Defqon.1 stages carry colours. The official 2027 weekend ticket page names t
 
 ### Defqon.1 colours
 
-The Defqon.1 colours are the stage names. The official ticket page names Red, Blue, Black, Magenta, Indigo and UV. A secondary source, hardcult.com, also lists Gold, Green and Pink stages. Those are not on the official pages read, so treat them as unconfirmed.
+The Defqon.1 colours are the stage names. The official ticket page names Red, Blue, Black, Magenta, Indigo and UV. A secondary source, hardcult.com, also lists Gold, Green and Pink stages. Those are not on Q-dance's official pages, so treat them as unconfirmed.
 
 ### Defqon.1 camping
 
-Camping is part of the Weekend ticket. The pages read give camping opening on Thursday at 12:00 and closing on Monday at 12:00, and festival hours of 18:00 to 23:00 on Thursday and 11:00 to 23:00 from Friday to Sunday. Check these again when the 2027 information goes live.
+Camping is part of the Weekend ticket. Q-dance gives camping opening on Thursday at 12:00 and closing on Monday at 12:00, and festival hours of 18:00 to 23:00 on Thursday and 11:00 to 23:00 from Friday to Sunday. Check these again when the 2027 information goes live.
 
 ### Defqon.1 shuttle
 

@@ -93,16 +93,18 @@
       "term": "best clubs in poland",
       "volume": 10,
       "range": "10-100"
-    },
+    }
+  ],
+  "rejected": [
     {
       "term": "best clubs in the world",
       "volume": 10000,
-      "range": "10K-100K"
+      "why": "Dropped 2026-11-05: best-nightclubs-in-the-world.json targets both, and the world guide answers the question; a Europe-only guide chasing them competes with that page."
     },
     {
       "term": "best nightclubs in the world",
       "volume": 10000,
-      "range": "10K-100K"
+      "why": "Dropped 2026-11-05: best-nightclubs-in-the-world.json targets both, and the world guide answers the question; a Europe-only guide chasing them competes with that page."
     }
   ]
 }

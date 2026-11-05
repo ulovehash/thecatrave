@@ -1870,25 +1870,34 @@
       "id": "localized-sections-render-undefined-h2",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "de/house-musik, de/techno-musik, fr/musique-house, fr/techno, es/musica-house and es/techno each show eight section headings as the literal word 'undefined' (48 H2s). content/{de,fr,es}/{house,techno}.mjs give those sections a heading but no title, and build-localized-articles.mjs:215 renders section.title. Present before 4 November. site-audit-2026-11-05/draft-leakage.md, section 1.",
+      "what": "de/house-musik, de/techno-musik, fr/musique-house, fr/techno, es/musica-house and es/techno each show eight section headings as the literal word 'undefined' (48 H2s). content/{de,fr,es}/{house,techno}.mjs give those sections a heading but no title, and build-localized-articles.mjs:215 renders section.title. Present before 4 November. site-audit-2026-11-05/draft-leakage.md, section 1. Fixed 2026-11-05: the builder falls back to the section heading (with the site's closing full stop), and audit-seo.mjs fails on any heading that reads undefined, null or empty, or starts with a markdown marker.",
       "should_have_caught": "audit-seo.mjs checks that headings exist and do not jump levels, not what they say",
-      "fix": null
+      "fix": {
+        "file": "audit-seo.mjs",
+        "contains": "no empty, undefined or markdown headings"
+      }
     },
     {
       "id": "es-h3-markdown-printed-as-text",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "es/defqon-1 (9) and es/fusion-festival (5) print subheadings as literal '### …' paragraphs, for example '### Entradas de Defqon.1 2027'. site-audit-2026-11-05/draft-leakage.md, section 2.",
+      "what": "es/defqon-1 (9) and es/fusion-festival (5) print subheadings as literal '### …' paragraphs, for example '### Entradas de Defqon.1 2027'. site-audit-2026-11-05/draft-leakage.md, section 2. Fixed 2026-11-05: the shared renderer turns a '### ' paragraph into an <h3> with an anchor; audit-seo.mjs fails on a markdown heading printed as text.",
       "should_have_caught": "no check for markdown markers in visible text",
-      "fix": null
+      "fix": {
+        "file": "build-localized-articles.mjs",
+        "contains": "fall through to <p> and print the hashes"
+      }
     },
     {
       "id": "research-process-pages-read",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "defqon-1 (6) and fusion-festival (5) describe the research instead of the fact: 'on the pages read', 'I found no later statement on the pages read', table cell 'Not stated on the pages read'. AGENTS.md section 4. site-audit-2026-11-05/draft-leakage.md, section 3.",
+      "what": "defqon-1 (6) and fusion-festival (5) describe the research instead of the fact: 'on the pages read', 'I found no later statement on the pages read', table cell 'Not stated on the pages read'. AGENTS.md section 4. site-audit-2026-11-05/draft-leakage.md, section 3. Fixed 2026-11-05 with the owner's approval of the wording in site-audit-2026-11-05/draft-leakage.md, section 3; the club-table label is now 'No RA listing' in four languages. audit-banned-phrases.mjs now catches 'on the pages read' and 'I found no later statement'.",
       "should_have_caught": "audit-banned-phrases.mjs research-process rule does not include \"pages read\"",
-      "fix": null
+      "fix": {
+        "file": "audit-banned-phrases.mjs",
+        "contains": "on the pages read|the pages read (?:give|did|do)"
+      }
     },
     {
       "id": "keyword-wedges-in-prose",
@@ -1910,9 +1919,12 @@
       "id": "faq-keyword-variant-padding",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "FAQs ask one question several ways to catch spellings, with near-identical answers: the US roundup ('top 10' / 'major', four languages), Glastonbury ('Is Glastonbury on this year?' / 'Why is there no Glastonbury this year?'), Asia (Japan), 90s rave ('90s' / '1990's' / '90 rave music'), DJ Mag ('top 10 DJ' / 'top 100 DJs'), best clubs in Europe ('best clubs in the world'), house classics. site-audit-2026-11-05/keyword-spam.md, section 3.",
+      "what": "FAQs ask one question several ways to catch spellings, with near-identical answers: the US roundup ('top 10' / 'major', four languages), Glastonbury ('Is Glastonbury on this year?' / 'Why is there no Glastonbury this year?'), Asia (Japan), 90s rave ('90s' / '1990's' / '90 rave music'), DJ Mag ('top 10 DJ' / 'top 100 DJs'), best clubs in Europe ('best clubs in the world'), house classics. site-audit-2026-11-05/keyword-spam.md, section 3. Fixed 2026-11-05 with the owner's approval: the variant questions were removed or merged in all four languages (90s rave, Glastonbury, Asia, US roundup, DJ Mag, Europe clubs, house classics), any fact a removed answer carried moved into the kept one, and the keywords that only lived in the removed questions went to rejected with the reason.",
       "should_have_caught": "WRITING.md covers PAA questions as headlines but not as padded FAQ variants",
-      "fix": null
+      "fix": {
+        "file": "glastonbury-draft.md",
+        "contains": "### Why is there no Glastonbury this year?\n\nBecause 2026 is a fallow year"
+      }
     }
   ]
 }

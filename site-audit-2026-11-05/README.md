@@ -64,3 +64,23 @@ the same way the 4 November findings did.
 
 Every problem above is logged as an open entry in `defects.json`. Each
 entry stays open, and prints on every build, until its fix lands.
+
+## Status, 5 November 2026
+
+| # | Problem | Status |
+|---|---|---|
+| 1 | "undefined" headings | **Fixed.** The builder falls back to the section heading; `audit-seo.mjs` now fails on an empty, undefined or markdown heading. |
+| 2 | "### …" printed as text | **Fixed.** The shared renderer outputs `<h3>` with an anchor; `audit-seo.mjs` fails on a markdown heading printed as text. |
+| 3 | Keyword wedges | Open: wording proposed in keyword-spam.md, section 1. |
+| 4 | Stuffed headings | Open: wording proposed in keyword-spam.md, section 2. |
+| 5 | Research-process wording | **Fixed** as proposed in draft-leakage.md, section 3. The club-table label is now "No RA listing" (EN), "Kein RA-Eintrag", "Pas de fiche RA" and "Sin ficha de RA". `audit-banned-phrases.mjs` now catches "on the pages read". |
+| 6 | Padded FAQs | **Fixed** in all four languages. Facts from removed answers moved into the kept ones: the house chart positions, the reason for Glastonbury's fallow year, and DJ Mag's reveal date. |
+
+**Keywords from item 6.** "Why is there no Glastonbury this year?" (2,600/mo)
+is now the surviving Glastonbury question; "is glastonbury on this year"
+(2,500/mo) still appears in the body. Moved to `rejected`, each with its reason:
+
+- **best clubs in the world** and **best nightclubs in the world** (10,000/mo each): moved off the Europe guide, because the world guide targets the same terms.
+- **90 rave music** (1K–10K/mo)
+- **major edm festivals** and **popular edm festivals** (100/mo each)
+- **best music festivals in japan** (10/mo)

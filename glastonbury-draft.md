@@ -98,10 +98,6 @@ Glastonbury is the oldest of the festivals on this site. Our guides also cover [
 
 ## FAQ
 
-### Is Glastonbury on this year?
-
-Not in 2026, which is a fallow year. The festival returns from Wednesday 23 to Sunday 27 June 2027.
-
 ### Why is there no Glastonbury this year?
 
 Because 2026 is a fallow year: the festival takes a year off roughly every five years to let the farmland, the local villages and the organisers recover. The Eavis family announced it during the 2025 festival.

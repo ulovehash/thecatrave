@@ -102,11 +102,7 @@ Glastonbury est le plus ancien des festivals de ce site. Nos guides couvrent aus
 
 ### Glastonbury a-t-il lieu cette année ?
 
-Pas en 2026, qui est une année de jachère. Le festival revient du mercredi 23 au dimanche 27 juin 2027.
-
-### Pourquoi n’y a-t-il pas de Glastonbury cette année ?
-
-Parce que 2026 est une année de jachère : le festival fait une pause environ tous les cinq ans pour laisser se reposer les terres agricoles, les villages alentour et les organisateurs. La famille Eavis l’a annoncé pendant le festival 2025.
+Pas en 2026, qui est une année de jachère : le festival fait une pause environ tous les cinq ans pour laisser se reposer les terres agricoles, les villages alentour et les organisateurs. La famille Eavis l’a annoncé pendant le festival 2025.
 
 ### Quand a lieu Glastonbury 2027 ?
 

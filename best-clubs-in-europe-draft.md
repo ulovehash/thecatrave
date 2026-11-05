@@ -216,10 +216,6 @@ NTS has a radio guide to Tresor’s classics. It was not recorded at the club, s
 
 ## FAQ
 
-### What are the best clubs in the world?
-
-DJ Mag's Top 100 Clubs 2026 puts [UNVRS] in Ibiza first, Greenvalley second, Ushuaïa Ibiza third, Hï Ibiza fourth and Savaya fifth. The same poll is the usual answer to the best nightclubs in the world.
-
 ### What are the best techno clubs in the world?
 
 DJ Mag's list has no techno category, so no ranked answer exists. For Europe, the [techno section above](#best-techno-clubs) names Berghain, Tresor, Open Ground and Rex Club, with the reasons.

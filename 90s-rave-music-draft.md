@@ -89,14 +89,6 @@ Other lists will give you more records than this page does. Bandcamp Daily's "'9
 
 Whatever was played at raves between 1990 and 1999. In Britain that was mostly hardcore. Elsewhere it was Belgian and New York techno, Dutch gabber and American rave anthems.
 
-### What counts as 1990's rave music?
-
-Records released between 1990 and 1999 that were played at raves. They start with LFO's "LFO" (1990) and The Prodigy's "Charly" (1991), run through Belgian techno and Dutch gabber, and end with the split of British hardcore after 1992.
-
-### What do people mean by 90 rave music?
-
-Usually the same thing as 90s rave music: the records played at raves in the 1990s. The strand table near the top is the place to start.
-
 ### Did the law really ban repetitive beats?
 
 Not as a blanket ban. Section 63 of the Criminal Justice and Public Order Act 1994 let police direct people to leave land where 100 or more were gathered in the open air at night, with amplified music loud and long enough to be likely to cause serious distress to locals. The section says music includes sounds wholly or predominantly characterised by a succession of repetitive beats.
