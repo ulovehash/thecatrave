@@ -1865,6 +1865,54 @@
         "file": "build-dekmantel-article.mjs",
         "contains": "Dekmantel sets to hear first."
       }
+    },
+    {
+      "id": "localized-sections-render-undefined-h2",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "de/house-musik, de/techno-musik, fr/musique-house, fr/techno, es/musica-house and es/techno each show eight section headings as the literal word 'undefined' (48 H2s). content/{de,fr,es}/{house,techno}.mjs give those sections a heading but no title, and build-localized-articles.mjs:215 renders section.title. Present before 4 November. site-audit-2026-11-05/draft-leakage.md, section 1.",
+      "should_have_caught": "audit-seo.mjs checks that headings exist and do not jump levels, not what they say",
+      "fix": null
+    },
+    {
+      "id": "es-h3-markdown-printed-as-text",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "es/defqon-1 (9) and es/fusion-festival (5) print subheadings as literal '### …' paragraphs, for example '### Entradas de Defqon.1 2027'. site-audit-2026-11-05/draft-leakage.md, section 2.",
+      "should_have_caught": "no check for markdown markers in visible text",
+      "fix": null
+    },
+    {
+      "id": "research-process-pages-read",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "defqon-1 (6) and fusion-festival (5) describe the research instead of the fact: 'on the pages read', 'I found no later statement on the pages read', table cell 'Not stated on the pages read'. AGENTS.md section 4. site-audit-2026-11-05/draft-leakage.md, section 3.",
+      "should_have_caught": "audit-banned-phrases.mjs research-process rule does not include \"pages read\"",
+      "fix": null
+    },
+    {
+      "id": "keyword-wedges-in-prose",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "29 sentences on 13 English guides bend word order to fit an exact-match phrase ('the best techno club Belgrade has', 'For a rave festival UK crowds travel to', 'also searched as Fusion Festival Germany', 'The search phrase EXIT Festival Novi Sad refers to'), against WRITING.md's rule to drop a term rather than wedge it. One ('Most of the EDM festivals Mexico holds') was written on 4 November to rehome a keyword. site-audit-2026-11-05/keyword-spam.md, section 1.",
+      "should_have_caught": "audit-keywords.mjs rewards the exact phrase being present; nothing checks how it sits in the sentence",
+      "fix": null
+    },
+    {
+      "id": "keyword-stuffed-headings",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "ushuaia-ibiza (14 of 29 headings), pacha-ibiza (15/29), fusion-festival (13/33), printworks-london (5/23) and the Spanish Ushuaïa and Pacha guides start most headings with the full search form ('Ushuaia Ibiza tickets', 'Ushuaia Ibiza dress code', 'Fusion Festival capacity'), and use it for most prose mentions. site-audit-2026-11-05/keyword-spam.md, section 2.",
+      "should_have_caught": "no check on keyword share of headings",
+      "fix": null
+    },
+    {
+      "id": "faq-keyword-variant-padding",
+      "found": "2026-11-05",
+      "by": "agent",
+      "what": "FAQs ask one question several ways to catch spellings, with near-identical answers: the US roundup ('top 10' / 'major', four languages), Glastonbury ('Is Glastonbury on this year?' / 'Why is there no Glastonbury this year?'), Asia (Japan), 90s rave ('90s' / '1990's' / '90 rave music'), DJ Mag ('top 10 DJ' / 'top 100 DJs'), best clubs in Europe ('best clubs in the world'), house classics. site-audit-2026-11-05/keyword-spam.md, section 3.",
+      "should_have_caught": "WRITING.md covers PAA questions as headlines but not as padded FAQ variants",
+      "fix": null
     }
   ]
 }
