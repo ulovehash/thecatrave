@@ -127,7 +127,7 @@ overlap by 60% or more:
 | best-electronic-music-festivals-asia (and de, es) | "What are the best music festivals in Japan?" repeats the Ultra Japan answer given twice already | Drop it, or answer with what else Japan has |
 | 90s-rave-music | "What is 90s rave music?", "What counts as 1990's rave music?" and "What do people mean by 90 rave music?" | Keep the first; drop the two spelling variants |
 | why-dj-mag-top-100-never-changes | "Who is the top 10 DJ in the world?" and "Who are the top 100 DJs in 2026?" | Merge into one |
-| best-clubs-in-europe (and es) | "What are the best clubs in the world?" on a Europe-only guide, with nearly the same answer as "Which European club is ranked highest?" | Drop the world question; the world guide answers it |
+| best-clubs-in-europe (and es) | "What are the best clubs in the world?" alongside "Which European club is ranked highest?" | **Keep both.** The owner's rule: never drop a term because another page targets it (`WRITING.md`) |
 | house-music-classics | "What are the best house music classics?" and "What are some classic house songs everyone knows?" | Merge into one |
 
 ## 4. Checked and clear

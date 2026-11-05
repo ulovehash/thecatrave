@@ -80,7 +80,7 @@ entry stays open, and prints on every build, until its fix lands.
 is now the surviving Glastonbury question; "is glastonbury on this year"
 (2,500/mo) still appears in the body. Moved to `rejected`, each with its reason:
 
-- **best clubs in the world** and **best nightclubs in the world** (10,000/mo each): moved off the Europe guide, because the world guide targets the same terms.
+- **best clubs in the world** and **best nightclubs in the world** (10,000/mo each) were moved off the Europe guide and then **restored**: the owner's rule is never to drop a term because another page targets it (`WRITING.md`).
 - **90 rave music** (1K–10K/mo)
 - **major edm festivals** and **popular edm festivals** (100/mo each)
 - **best music festivals in japan** (10/mo)

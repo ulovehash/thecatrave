@@ -1919,11 +1919,22 @@
       "id": "faq-keyword-variant-padding",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "FAQs ask one question several ways to catch spellings, with near-identical answers: the US roundup ('top 10' / 'major', four languages), Glastonbury ('Is Glastonbury on this year?' / 'Why is there no Glastonbury this year?'), Asia (Japan), 90s rave ('90s' / '1990's' / '90 rave music'), DJ Mag ('top 10 DJ' / 'top 100 DJs'), best clubs in Europe ('best clubs in the world'), house classics. site-audit-2026-11-05/keyword-spam.md, section 3. Fixed 2026-11-05 with the owner's approval: the variant questions were removed or merged in all four languages (90s rave, Glastonbury, Asia, US roundup, DJ Mag, Europe clubs, house classics), any fact a removed answer carried moved into the kept one, and the keywords that only lived in the removed questions went to rejected with the reason.",
+      "what": "FAQs ask one question several ways to catch spellings, with near-identical answers: the US roundup ('top 10' / 'major', four languages), Glastonbury ('Is Glastonbury on this year?' / 'Why is there no Glastonbury this year?'), Asia (Japan), 90s rave ('90s' / '1990's' / '90 rave music'), DJ Mag ('top 10 DJ' / 'top 100 DJs'), best clubs in Europe ('best clubs in the world'), house classics. site-audit-2026-11-05/keyword-spam.md, section 3. Fixed 2026-11-05 with the owner's approval: the variant questions were removed or merged in all four languages (90s rave, Glastonbury, Asia, US roundup, DJ Mag, Europe clubs, house classics), any fact a removed answer carried moved into the kept one, and the keywords that only lived in the removed questions went to rejected with the reason. Correction the same day: the Europe clubs guide's 'What are the best clubs in the world?' was restored in English and Spanish (see keyword-dropped-for-assumed-cannibalisation).",
       "should_have_caught": "WRITING.md covers PAA questions as headlines but not as padded FAQ variants",
       "fix": {
         "file": "glastonbury-draft.md",
         "contains": "### Why is there no Glastonbury this year?\n\nBecause 2026 is a fallow year"
+      }
+    },
+    {
+      "id": "keyword-dropped-for-assumed-cannibalisation",
+      "found": "2026-11-05",
+      "by": "owner",
+      "what": "An agent moved 'best clubs in the world' and 'best nightclubs in the world' (10,000/mo each) from keywords/best-clubs-in-europe.json to rejected, and removed the FAQ question that carried them (EN and ES), on the claim that the Europe guide competed with the world guide. The owner ruled that shared keywords stay on every page that targets them: they serve as anchors, both pages can rank, and whether pages compete is the owner's call from Search Console. Restored the same day.",
+      "should_have_caught": "no written rule; WRITING.md covered wedging and dropping a term without a natural home, not dropping a term because another page targets it",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "## Never drop a keyword because another page targets it"
       }
     }
   ]

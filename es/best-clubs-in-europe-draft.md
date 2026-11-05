@@ -158,6 +158,10 @@ NTS tiene una guía radiofónica de los clásicos de Tresor. No se grabó en el 
 
 ## Preguntas frecuentes
 
+### ¿Cuáles son las mejores discotecas del mundo?
+
+El Top 100 Clubs 2026 de DJ Mag pone a [UNVRS], en Ibiza, primero, a Greenvalley segundo, a Ushuaïa Ibiza tercero, a Hï Ibiza cuarto y a Savaya quinto. La misma votación es la respuesta habitual a cuáles son las mejores discotecas del mundo. La [guía mundial](/es/mejores-discotecas-del-mundo) tiene la lista completa.
+
 ### ¿Cuáles son los mejores clubes de techno del mundo?
 
 La lista de DJ Mag no tiene categoría de techno, así que no existe una respuesta ordenada. Para Europa, la [sección de techno de arriba](#best-techno-clubs) nombra a Berghain, Tresor, Open Ground y Rex Club, con las razones.
