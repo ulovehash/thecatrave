@@ -1863,3 +1863,14 @@
 .start-here > .article-kicker { margin: 0 0 .6rem; }
 .article-return { margin: 1.75rem 0 0; font: 400 .9rem/1.5 var(--mono); }
 .article-return a { color: var(--acid-text); font-weight: 700; }
+
+/* The card grids draw their rules by showing the ink background through a 1px
+   gap, so a row that is not full (three Read Next cards, three Start here
+   cards, a filtered list) showed a black block. Draw the rules on the cards
+   instead and leave the grid itself clear. */
+.read-next-grid,
+.start-here .article-grid { background: transparent; border: 0; gap: 1px; }
+.read-next-grid article { box-shadow: 0 0 0 1px var(--ink); }
+.start-here .article-grid { grid-template-columns: 1fr; }
+@media (min-width: 48rem) { .start-here .article-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.start-here { margin: 0 0 2.5rem; }
