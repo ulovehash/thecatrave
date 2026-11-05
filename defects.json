@@ -1903,17 +1903,23 @@
       "id": "keyword-wedges-in-prose",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "29 sentences on 13 English guides bend word order to fit an exact-match phrase ('the best techno club Belgrade has', 'For a rave festival UK crowds travel to', 'also searched as Fusion Festival Germany', 'The search phrase EXIT Festival Novi Sad refers to'), against WRITING.md's rule to drop a term rather than wedge it. One ('Most of the EDM festivals Mexico holds') was written on 4 November to rehome a keyword. site-audit-2026-11-05/keyword-spam.md, section 1.",
+      "what": "29 sentences on 13 English guides bend word order to fit an exact-match phrase ('the best techno club Belgrade has', 'For a rave festival UK crowds travel to', 'also searched as Fusion Festival Germany', 'The search phrase EXIT Festival Novi Sad refers to'), against WRITING.md's rule to drop a term rather than wedge it. One ('Most of the EDM festivals Mexico holds') was written on 4 November to rehome a keyword. site-audit-2026-11-05/keyword-spam.md, section 1. Closed 2026-11-05 by the owner's decision: the copy stays as published and no keyword is removed. Not to be reopened or 'fixed' unless the owner asks.",
       "should_have_caught": "audit-keywords.mjs rewards the exact phrase being present; nothing checks how it sits in the sentence",
-      "fix": null
+      "fix": {
+        "file": "site-audit-2026-11-05/keyword-spam.md",
+        "contains": "the owner dropped sections 1 and 2"
+      }
     },
     {
       "id": "keyword-stuffed-headings",
       "found": "2026-11-05",
       "by": "agent",
-      "what": "ushuaia-ibiza (14 of 29 headings), pacha-ibiza (15/29), fusion-festival (13/33), printworks-london (5/23) and the Spanish Ushuaïa and Pacha guides start most headings with the full search form ('Ushuaia Ibiza tickets', 'Ushuaia Ibiza dress code', 'Fusion Festival capacity'), and use it for most prose mentions. site-audit-2026-11-05/keyword-spam.md, section 2.",
+      "what": "ushuaia-ibiza (14 of 29 headings), pacha-ibiza (15/29), fusion-festival (13/33), printworks-london (5/23) and the Spanish Ushuaïa and Pacha guides start most headings with the full search form ('Ushuaia Ibiza tickets', 'Ushuaia Ibiza dress code', 'Fusion Festival capacity'), and use it for most prose mentions. site-audit-2026-11-05/keyword-spam.md, section 2. Closed 2026-11-05 by the owner's decision: the copy stays as published and no keyword is removed. Not to be reopened or 'fixed' unless the owner asks.",
       "should_have_caught": "no check on keyword share of headings",
-      "fix": null
+      "fix": {
+        "file": "site-audit-2026-11-05/keyword-spam.md",
+        "contains": "the owner dropped sections 1 and 2"
+      }
     },
     {
       "id": "faq-keyword-variant-padding",

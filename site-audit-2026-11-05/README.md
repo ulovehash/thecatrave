@@ -71,8 +71,8 @@ entry stays open, and prints on every build, until its fix lands.
 |---|---|---|
 | 1 | "undefined" headings | **Fixed.** The builder falls back to the section heading; `audit-seo.mjs` now fails on an empty, undefined or markdown heading. |
 | 2 | "### …" printed as text | **Fixed.** The shared renderer outputs `<h3>` with an anchor; `audit-seo.mjs` fails on a markdown heading printed as text. |
-| 3 | Keyword wedges | Open: wording proposed in keyword-spam.md, section 1. |
-| 4 | Stuffed headings | Open: wording proposed in keyword-spam.md, section 2. |
+| 3 | Keyword wedges | **Dropped by the owner** (5 November). The sentences stay as published, and every keyword stays on its page. |
+| 4 | Stuffed headings | **Dropped by the owner** (5 November). The headings stay as published. |
 | 5 | Research-process wording | **Fixed** as proposed in draft-leakage.md, section 3. The club-table label is now "No RA listing" (EN), "Kein RA-Eintrag", "Pas de fiche RA" and "Sin ficha de RA". `audit-banned-phrases.mjs` now catches "on the pages read". |
 | 6 | Padded FAQs | **Fixed** in all four languages. Facts from removed answers moved into the kept ones: the house chart positions, the reason for Glastonbury's fallow year, and DJ Mag's reveal date. |
 

@@ -1,5 +1,10 @@
 # Keyword spam
 
+> **Status, 5 November 2026:** the owner dropped sections 1 and 2. The wedged
+> sentences and the long-form headings stay as published, and no keyword was
+> removed. The proposals below are kept as a record only; do not apply them
+> without the owner asking. Section 3 (padded FAQs) was fixed.
+
 Checked on every page that has a keyword file (`keywords/*.json`, 276 pages):
 
 - how often each target phrase appears per 1,000 words, and in how many headings
