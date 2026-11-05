@@ -98,15 +98,11 @@ If you only want the ones that crossed over to the pop charts, play "Gypsy Woman
 
 ### What are the best house music classics?
 
-The ten here are Inner City's "Good Life", Lil Louis's "French Kiss", Alison Limerick's "Where Love Lives", Crystal Waters's "Gypsy Woman", Gat Decor's "Passion", Robin S's "Show Me Love", Everything But the Girl's "Missing", Stardust's "Music Sounds Better With You", Armand van Helden's "You Don't Know Me" and Kings of Tomorrow's "Finally". For the earlier records, see the [house music guide](/house-music-guide).
+The ten here are Inner City's "Good Life", Lil Louis's "French Kiss", Alison Limerick's "Where Love Lives", Crystal Waters's "Gypsy Woman", Gat Decor's "Passion", Robin S's "Show Me Love", Everything But the Girl's "Missing", Stardust's "Music Sounds Better With You", Armand van Helden's "You Don't Know Me" and Kings of Tomorrow's "Finally". Four of them reached the UK pop charts: "Show Me Love" at number 6, "Gypsy Woman" at 2, "Missing" at 3 and "You Don't Know Me" at 1. For the earlier records, see the [house music guide](/house-music-guide).
 
 ### What counts as a house classic?
 
 A house classic is a record that remains a reference point for DJs and listeners beyond its original release. The selections here span 1988 to 2001, including vocal house, Detroit productions and French house.
-
-### What are some classic house songs everyone knows?
-
-"Show Me Love", "Gypsy Woman", "Missing" and "You Don't Know Me" all reached the pop charts: number 6, number 2, number 3 and number 1 in the UK respectively.
 
 ### Where do I find the first house records?
 

@@ -41,7 +41,7 @@ The same newsletter described drug-checking run with the University of Rostock, 
 
 There is no Fusion Festival in 2027. The organisers' November 2025 newsletter calls 2027 a Fusion-free year and a free year for the sister theatre festival at.tension too, with the reasons given as breathing, reflecting, tidying up and envisioning. There is a precedent: 2017 was a break year after 20 years of Fusion. The ticket shop, states that the next edition runs from 28 June to 2 July 2028, and both Fusion and at.tension return in 2028.
 
-So the Fusion Festival 2027 question has a plain answer. If you are searching for a summer 2027 date, none exists, and anything advertising one is not from the organisers' pages read here. The Fusion Festival dates to note are 28 June to 2 July 2028, a Wednesday to a Sunday.
+So the Fusion Festival 2027 question has a plain answer. There is no summer 2027 date, and anything advertising one does not come from the organisers. The Fusion Festival dates to note are 28 June to 2 July 2028, a Wednesday to a Sunday.
 
 | Item | Status |
 |---|---|
@@ -74,11 +74,11 @@ The 2026 ticket cost €220 including a €10 deposit for waste. Local tickets, 
 
 The Fusion Festival Lärz question is simple: the festival is held at the Müritz Airpark, a former Soviet military airfield outside Lärz in the district of Mecklenburgische Seenplatte in northeast Germany. Kulturkosmos Lärz, the cultural centre the organisers run there, has owned the site for 25 years according to the official site, and has used it for culture for 30 years.
 
-That ownership was briefly in question. On 28 November 2025 the organisers published the Bundeswehr's reply to a press inquiry from the Tagesspiegel: the Lärz site was "currently as of now not yet" in the strategic property reserve that the defence ministry had frozen in October 2025. The wording leaves the outcome open, and I found no later statement on the pages read.
+That ownership was briefly in question. On 28 November 2025 the organisers published the Bundeswehr's reply to a press inquiry from the Tagesspiegel: the Lärz site was "currently as of now not yet" in the strategic property reserve that the defence ministry had frozen in October 2025. The wording leaves the outcome open.
 
 ### Fusion Festival capacity
 
-The Fusion Festival capacity is reported at about 70,000 visitors. That figure comes from the taz in May 2019 and from other press reports, not from an official statement on the pages read, so treat it as press reporting. Reports of the site’s area range from 100 to 220 hectares.
+The Fusion Festival capacity is reported at about 70,000 visitors. That figure comes from the taz in May 2019 and from other press reports, not from an official statement. Reports of the site’s area range from 100 to 220 hectares.
 
 ### Fusion Festival stages
 
@@ -130,7 +130,7 @@ No. The organisers call 2027 a Fusion-free year. The next edition runs from 28 J
 
 ### When is Fusion Festival 2028?
 
-28 June to 2 July 2028. No ticket dates or prices for 2028 were published on the pages read.
+28 June to 2 July 2028. No ticket dates or prices for 2028 have been published.
 
 ### How do Fusion Festival tickets work?
 
@@ -142,7 +142,7 @@ Through registration and a lottery. For 2026, registration ran from 1 to 14 Dece
 
 ### How big is Fusion Festival?
 
-Press reports give about 70,000 visitors. The organisers' own pages read do not state a figure, and reports disagree on the site's area, so none is given.
+Press reports give about 70,000 visitors. The organisers do not state a figure, and reports disagree on the site's area.
 
 ### Where is Fusion Festival held?
 

@@ -149,11 +149,9 @@ The Selector count and the DJ Mag poll measure different things: one records whi
 
 ## FAQ
 
-**Who is the top 10 DJ in the world?** In the DJ Mag Top 100 for 2026: David Guetta, Martin Garrix, Anyma, Alok, Dimitri Vegas & Like Mike, Charlotte de Witte, Armin van Buuren, Timmy Trumpet, FISHER and Vintage Culture.
+**Who is the top 10 DJ in the world?** In the DJ Mag Top 100 for 2026: David Guetta, Martin Garrix, Anyma, Alok, Dimitri Vegas & Like Mike, Charlotte de Witte, Armin van Buuren, Timmy Trumpet, FISHER and Vintage Culture. DJ Mag revealed the list on 6 October 2026 at [UNVRS] in Ibiza.
 
 **Who is the number one DJ right now?** David Guetta, who won the 2026 poll, his sixth title and a record.
-
-**Who are the top 100 DJs in 2026?** David Guetta leads the 2026 list, ahead of Martin Garrix, Anyma, Alok and Dimitri Vegas & Like Mike. DJ Mag revealed it on 6 October 2026 at [UNVRS] in Ibiza.
 
 **Who are the most famous DJs of all time?** There is no single answer, because the lists disagree. The DJ Mag poll's winners include Carl Cox, Paul Oakenfold, Sasha, John Digweed, Tiësto, Paul van Dyk, Armin van Buuren, David Guetta, Hardwell, Dimitri Vegas & Like Mike and Martin Garrix. Lists written by critics add names the poll has never put on top, such as Frankie Knuckles and Grandmaster Flash.
 

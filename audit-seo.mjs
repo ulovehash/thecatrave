@@ -82,6 +82,12 @@ for (const {file, path, kind} of pages) {
     if (levels[i] - levels[i - 1] > 1) { jump = `h${levels[i - 1]} -> h${levels[i]}`; break; }
   }
   check(file, 'no heading-level jumps', !jump, jump);
+  // A heading that renders a missing value or raw markdown (defects.json:
+  // localized-sections-render-undefined-h2, es-h3-markdown-printed-as-text).
+  const badHeading = [...html.matchAll(/<h([1-6])[^>]*>([\s\S]*?)<\/h\1>/g)].map(m => m[2].replace(/<[^>]+>/g, '').trim()).find(t => !t || /^(undefined|null|NaN)\.?$/.test(t) || /^#{1,6}\s/.test(t));
+  check(file, 'no empty, undefined or markdown headings', badHeading === undefined, badHeading);
+  const hashPara = main.match(/<p>\s*#{2,6}\s[^<]*/)?.[0];
+  check(file, 'no markdown heading printed as text', !hashPara, hashPara);
 
   // Open Graph and Twitter
   for (const key of ['og:title', 'og:description', 'og:image', 'og:url', 'og:type']) {

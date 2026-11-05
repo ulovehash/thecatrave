@@ -131,10 +131,6 @@ Ultra Japan is confirmed for 18 and 19 September 2027 on its official site. Zamn
 
 Wonderfruit for art, house and techno, S2O Songkran for a water party in Bangkok, Zamna in Phuket, 808 Festival in Bangkok for EDM and Tomorrowland Thailand, which sold out for December 2026.
 
-### What are the best music festivals in Japan?
-
-Ultra Japan in Tokyo. Its 2027 edition is on 18 and 19 September.
-
 ### What are the best music festivals in India?
 
 Sunburn, held in Mumbai on 18 and 19 December 2026.

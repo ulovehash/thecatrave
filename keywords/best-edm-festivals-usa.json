@@ -13,19 +13,11 @@
       "volume": 100
     },
     {
-      "term": "popular edm festivals",
-      "volume": 100
-    },
-    {
       "term": "edm festivals in the us",
       "volume": 100
     },
     {
       "term": "biggest edm festivals in the us",
-      "volume": 100
-    },
-    {
-      "term": "major edm festivals",
       "volume": 100
     },
     {
@@ -67,6 +59,16 @@
   ],
   "expansion_checked": "Keyword Planner seed expansion (three passes), live Google search suggestions and People Also Ask, SERP read for 'best edm festivals in the us' (no strong editorial page ranks), 1 to 2 October 2026.",
   "rejected": [
+    {
+      "term": "major edm festivals",
+      "volume": 100,
+      "why": "Dropped 2026-11-05: its only home was an FAQ question padded as a keyword variant of another, removed with the owner's approval (site-audit-2026-11-05/keyword-spam.md, section 3). WRITING.md: drop rather than wedge."
+    },
+    {
+      "term": "popular edm festivals",
+      "volume": 100,
+      "why": "Dropped 2026-11-05: its only home was an FAQ question padded as a keyword variant of another, removed with the owner's approval (site-audit-2026-11-05/keyword-spam.md, section 3). WRITING.md: drop rather than wedge."
+    },
     {
       "term": "us edm festivals",
       "volume": 0,

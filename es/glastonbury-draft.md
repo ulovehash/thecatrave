@@ -102,11 +102,7 @@ Glastonbury es el más antiguo de los festivales de este sitio. Nuestras guías 
 
 ### ¿Hay Glastonbury este año?
 
-No en 2026, que es un año de descanso. El festival vuelve del miércoles 23 al domingo 27 de junio de 2027.
-
-### ¿Por qué no hay Glastonbury este año?
-
-Porque 2026 es un año de descanso: el festival se toma un año libre más o menos cada cinco para que se recuperen los campos, los pueblos de la zona y los organizadores. La familia Eavis lo anunció durante el festival de 2025.
+No en 2026, que es un año de descanso: el festival se toma un año libre más o menos cada cinco para que se recuperen los campos, los pueblos de la zona y los organizadores. La familia Eavis lo anunció durante el festival de 2025.
 
 ### ¿Cuándo es Glastonbury 2027?
 

@@ -102,11 +102,7 @@ Glastonbury ist das älteste der Festivals auf dieser Seite. Unsere Guides behan
 
 ### Findet Glastonbury dieses Jahr statt?
 
-Nicht 2026, das ist ein Brachjahr. Das Festival kehrt von Mittwoch, 23., bis Sonntag, 27. Juni 2027, zurück.
-
-### Warum gibt es dieses Jahr kein Glastonbury?
-
-Weil 2026 ein Brachjahr ist: Das Festival pausiert ungefähr alle fünf Jahre, damit sich das Ackerland, die Dörfer ringsum und die Veranstalter erholen. Die Familie Eavis verkündete es während des Festivals 2025.
+Nicht 2026, das ist ein Brachjahr: Das Festival pausiert ungefähr alle fünf Jahre, damit sich das Ackerland, die Dörfer ringsum und die Veranstalter erholen. Die Familie Eavis verkündete es während des Festivals 2025.
 
 ### Wann ist Glastonbury 2027?
 

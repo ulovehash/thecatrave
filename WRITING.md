@@ -31,6 +31,20 @@ contain. Drop a term from the file rather than wedging the phrase into a
 sentence: an entry removed on purpose is honest, a phrase stuffed to satisfy a
 checker is not.
 
+## Never drop a keyword because another page targets it
+
+The same term on two guides is not a problem to fix. Both pages can rank for
+it, and the shared phrase is the natural anchor text for links between them.
+Whether two pages compete is the owner's call, read from Search Console, never
+an agent's guess.
+
+So never move a term to `rejected`, cut the sentence or FAQ question that
+carries it, or tell the owner one page "competes with" another, on the grounds
+that another guide targets the same term. It happened once: "best clubs in the
+world" and "best nightclubs in the world" (10,000 a month each) were dropped
+from the Europe clubs guide because the world guide targets them, and had to
+be put back (owner, 2026-11-05).
+
 ## This site does not teach people to make the music, and hands out no files
 
 The guides are informational and historical. They explain where a music came

@@ -113,6 +113,14 @@ export function buildLocalizedArticle(content) {
     // "> " marks a note, as the English bass music generator styles its
     // "What to listen for" and "Start with" lines.
     if (paragraph.startsWith('> ')) return `<p class="article-note">${inline(paragraph.slice(2))}</p>`;
+    // A "### " subheading in a section without declared subsections. It used to
+    // fall through to <p> and print the hashes (defects.json:
+    // es-h3-markdown-printed-as-text).
+    if (/^###\s/.test(paragraph)) {
+      const text = paragraph.replace(/^###\s+/, '').trim();
+      const slug = plainText(text).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return `<h3 id="${slug}">${inline(text)}</h3>`;
+    }
     if (!/^\[(Image|Embed|Table|Bild|Tabelle):/.test(paragraph)) {
       const next = blocks[index + 1];
       const nextAsset = /^\[(Image|Embed|Table|Bild|Tabelle):/.test(next || '') ? media[mediaKey(next)] : null;
@@ -212,7 +220,7 @@ export function buildLocalizedArticle(content) {
   const minutes = Math.max(content.minReadingMinutes || 8, Math.round(draft.split(/\s+/).length / 225));
 
   const sectionHtml = content.sections.map(section => section.rawHtml ? section.rawHtml(copy) : articleSection({
-    id: section.id, title: section.title, kicker: section.kicker, className: [section.className, section.planning && 'festival-planning-section'].filter(Boolean).join(' '),
+    id: section.id, title: section.title || (/[.?!]$/.test(section.heading) ? section.heading : `${section.heading}.`), kicker: section.kicker, className: [section.className, section.planning && 'festival-planning-section'].filter(Boolean).join(' '),
     bodyHtml: section.planning
       ? `${festivalPlanningGuide({...section.planning, lang})}${render(getSection(section.heading).split('\n').filter(line => /^\[(?:Embed|Image|Table):/.test(line.trim())).join('\n\n'))}`
       : section.playlists

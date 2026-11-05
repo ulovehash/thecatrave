@@ -141,6 +141,3 @@ The ten with the clearest 2027 case are EDC Las Vegas, Ultra, Movement, ARC, EDC
 
 For a first EDM festival, EDC Las Vegas: it is the biggest, and its 2027 dates are already published, EDC Dusk on 14 to 16 May and EDC Dawn on 21 to 23 May.
 
-### What are the major EDM festivals in the US?
-
-EDC Las Vegas, Ultra, EDC Orlando, Beyond Wonderland, HARD Summer, Movement and ARC are the popular EDM festivals in the US. In 2027, only EDC Las Vegas, Ultra, Movement and Beyond Wonderland had confirmed dates.
