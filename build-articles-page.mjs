@@ -66,13 +66,16 @@ const indexes = [
   }
 ];
 
-// Three guides to open with, pinned above the full list. Spanish has no acid
-// house or UK garage guide yet, so it leads with its own breaks and jungle ones.
+// The best performing guide in each of the four categories, pinned above the
+// full list. Taken from GA4 organic landing pages, 2 to 29 October 2026, by
+// sessions: UK electronic music evolution 208, Europe festivals 1,176, best
+// clubs in Europe 82, best trance tracks 47. Each language uses its own
+// figures. Refresh from a newer Landing page export when the order has moved.
 const START_HERE = {
-  en: ['acid-house-guide.html', 'uk-garage-guide.html', 'drum-and-bass-guide.html'],
-  de: ['de/acid-house.html', 'de/uk-garage.html', 'de/drum-and-bass.html'],
-  fr: ['fr/acid-house.html', 'fr/uk-garage.html', 'fr/drum-and-bass.html'],
-  es: ['es/drum-and-bass.html', 'es/jungle.html', 'es/breakbeat.html']
+  en: ['uk-electronic-music-evolution.html', 'best-electronic-music-festivals-europe.html', 'best-clubs-in-europe.html', 'best-trance-tracks.html'],
+  de: ['de/drum-and-bass.html', 'de/electro-festivals-europa.html', 'de/partystaedte-europa.html', 'de/beste-boiler-room-sets.html'],
+  fr: ['fr/jungle.html', 'fr/festivals-electro-europe.html', 'fr/boite-de-nuit-ibiza.html', 'fr/meilleurs-sets-boiler-room.html'],
+  es: ['es/historia-musica-electronica-reino-unido.html', 'es/festivales-musica-electronica-europa.html', 'es/mejores-discotecas-del-mundo.html', 'es/mejores-sets-techno.html']
 };
 
 for (const index of indexes) {
