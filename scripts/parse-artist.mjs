@@ -21,10 +21,20 @@ export const NOT_A_SET = /^digging with\b|\((talk|interview)\)|\|\s*gasworks\s*$
 // Awards series are unambiguously spoken or product content.
 const DJ_MAG_NOT_A_SET = /^insight:|^learn to (?:dj|play live) like\b|^24 hours with:|^ibiza evolution:|\bpanels?\b|\bdj mag insight\b|\bprs for music x dj mag\b|\bdj mag tech awards?\b|\bawards ceremony\b|^dj mag(?:'s)? best of british awards\b|\b(?:ableton )?tutorial\b|\btrack breakdown\b|\bin the studio\b|\bhow i dj\b|\bhow to\b|\bchat\b|\b30 years of the cdj\b|\blive (?:ableton|remix) (?:studio session|masterclass)\b|^djmag (?:review|feature)\b|\btalks? .+\|\s*dj mag\b/i;
 
+// Named talk series on channels added 2026-11-06, found by reading their
+// titles after the first refresh. Channel-local for the same reason as DJ Mag:
+// the words are only unambiguous on the channel that uses them.
+const CHANNEL_NOT_A_SET = {
+  'Defected': /\bmoments in music\b|^10 questions\b/i,
+  'Tomorrowland': /\bunited we dance\b|\bour story\b/i,
+  'Liquicity': /^in depth:/i
+};
+
 export function isNotASet(title, broadcaster = '') {
   const value = String(title || '');
   return NOT_A_SET.test(value)
-    || (broadcaster === 'DJ Mag' && DJ_MAG_NOT_A_SET.test(value));
+    || (broadcaster === 'DJ Mag' && DJ_MAG_NOT_A_SET.test(value))
+    || Boolean(CHANNEL_NOT_A_SET[broadcaster]?.test(value));
 }
 
 const COUNTRY = /\s*[([][^)\]]{0,30}(JP|NL|DE|UK|US|BR|FR|IT|ES|AR|KR|SW|Osaka|Tokyo|Berlin|London|Seoul)[^)\]]*[)\]]\s*$/i;

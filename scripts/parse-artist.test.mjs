@@ -67,4 +67,11 @@ for (const title of acceptedDjMag) {
 // rejection rule.
 assert.equal(isNotASet('Techno Masterclass Live', 'Boiler Room'), false);
 
+// Talk series on the channels added 2026-11-06.
+assert.equal(isNotASet('From Dubstep to House, he carved his own path | Moments in Music w/ Monki & Skream [S1E02]', 'Defected'), true);
+assert.equal(isNotASet('United We Dance – E9. Ida Engberg', 'Tomorrowland'), true);
+assert.equal(isNotASet('In Depth: T & Sugah - SKY', 'Liquicity'), true);
+assert.equal(isNotASet('Defected Radio Show Hosted by Monki - 02.06.23', 'Defected'), false);
+assert.equal(isNotASet('Carola | Tomorrowland Brasil 2024', 'Tomorrowland'), false);
+
 console.log(`parse-artist: ${cases.length} parser cases, genre aliases and DJ Mag filters passed.`);

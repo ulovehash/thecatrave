@@ -71,7 +71,28 @@ const NEW_BANNER = {
   fr: {kicker: 'Nouveau dans le Selector', lead: n => `${n} nouvelles chaînes :`, close: 'Fermer'}
 };
 
-const taggedCount = sets.filter(s => s.genres && s.genres.length).length;
+// Add to home screen (selector-install.js shows it on every device). The two
+// tips are for browsers that cannot open an install sheet from the page:
+// Safari on iPhone and iPad, and Android browsers other than Chrome's family.
+const INSTALL = {
+  en: {
+    button: 'Add to home screen',
+    ios: 'On iPhone or iPad: tap Share, then Add to Home Screen. The Selector then opens from its own icon.',
+    other: 'Open your browser menu and choose Add to Home screen or Install app.'
+  },
+  de: {
+    button: 'Zum Home-Bildschirm',
+    ios: 'Auf iPhone oder iPad: Tippe auf Teilen, dann auf „Zum Home-Bildschirm“. Der Selector öffnet sich dann über sein eigenes Symbol.',
+    other: 'Öffne das Browsermenü und wähle „Zum Startbildschirm hinzufügen“ oder „App installieren“.'
+  },
+  fr: {
+    button: 'Ajouter à l’écran d’accueil',
+    ios: 'Sur iPhone ou iPad : touchez Partager, puis « Sur l’écran d’accueil ». Le Selector s’ouvre alors depuis sa propre icône.',
+    other: 'Ouvrez le menu du navigateur et choisissez « Ajouter à l’écran d’accueil » ou « Installer l’application ».'
+  }
+};
+
+const taggedCount =sets.filter(s => s.genres && s.genres.length).length;
 
 // What every language's copy is written from: the live numbers, formatted by
 // the copy itself so each language groups its digits its own way.
@@ -202,12 +223,18 @@ function build(lang, copy, {file, path}) {
     <p class="sel-new-text"><strong>${escapeHtml(nb.lead(newChannels.length))}</strong> ${newChannels.map(escapeHtml).join(', ')}.</p>
     <button type="button" class="sel-new-close" id="sel-new-close" aria-label="${escapeHtml(nb.close)}">&times;</button>
   </aside>` : '';
+  const install = INSTALL[lang] || INSTALL.en;
+  const installHtml = `<div class="sel-install" id="sel-install" hidden>
+      <button type="button" class="sel-install-btn" id="sel-install-btn" aria-expanded="false" aria-controls="sel-install-tip">${escapeHtml(install.button)}</button>
+      <p class="sel-install-tip" id="sel-install-tip" data-ios="${escapeHtml(install.ios)}" data-other="${escapeHtml(install.other)}" hidden></p>
+    </div>`;
   const toolHtml = `
 <section class="sel-panel" id="selector" aria-label="${escapeHtml(copy.appName)}">
   <header class="sel-panel-head">
     <p class="article-kicker">${escapeHtml(copy.appName)}</p>
     <h1>${escapeHtml(copy.h1)}</h1>
     <p class="sel-deck">${copy.deck}</p>
+    ${installHtml}
     ${bannerHtml}
   </header>
   <div class="sel-action">
@@ -255,7 +282,8 @@ function build(lang, copy, {file, path}) {
     `<script type="application/json" id="sel-source-logos">${JSON.stringify(sourceLogos).replace(/</g, '\\u003c')}</script>`,
     `<script type="application/json" id="sel-source-colors">${JSON.stringify(sourceColors).replace(/</g, '\\u003c')}</script>`,
     copy.ui ? `<script type="application/json" id="sel-i18n">${JSON.stringify(copy.ui).replace(/</g, '\\u003c')}</script>` : '',
-    `<script src="selector-runtime.js" defer></script>`
+    `<script src="selector-runtime.js" defer></script>`,
+    `<script src="/selector-install.js" defer></script>`
   ].filter(Boolean).join('\n');
 
   const structuredData = [
@@ -285,7 +313,16 @@ function build(lang, copy, {file, path}) {
     lang, alternates: alternatesFor(path)
   });
 
-  fs.writeFileSync(file, html);
+  // The Selector is the one page that can live on a home screen: its own
+  // manifest per language (start_url and scope are that language's page), and
+  // a 180px icon for iOS in place of the site favicon.
+  const manifest = `${path.replace(/\/$/, '')}.webmanifest`;
+  const appHead = `<link rel="manifest" href="${escapeHtml(manifest)}"><meta name="apple-mobile-web-app-title" content="Selector">`;
+  const withApp = html
+    .replace('<link rel="apple-touch-icon" href="/favicon.png">', `<link rel="apple-touch-icon" href="/img/selector-app/apple-touch-icon.png">${appHead}`);
+  if (withApp === html) throw new Error('build-selector: apple-touch-icon link not found; the manifest was not added.');
+
+  fs.writeFileSync(file, withApp);
   console.log(`Built ${file} — ${sets.length} sets in catalogue`);
 }
 

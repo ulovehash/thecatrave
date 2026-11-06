@@ -1846,6 +1846,27 @@
 }
 .selector-page .sel-new-close:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
 
+/* role: secondary action. Add to home screen, every device (selector-install.js
+   unhides it). Quieter than the main button on purpose: it sits in the header
+   and must not compete with "Give me a set". */
+.selector-page .sel-install { margin: 1rem 0 0; }
+.selector-page .sel-install[hidden] { display: none; }
+.selector-page .sel-install-btn {
+  display: inline-flex; align-items: center; gap: .5rem;
+  min-height: 2.75rem; padding: .5rem .9rem;
+  border: 1px solid var(--ink); background: var(--paper); color: var(--ink);
+  font: 700 .78rem/1.2 "Space Mono", monospace; letter-spacing: .02em;
+  cursor: pointer;
+}
+.selector-page .sel-install-btn::before {
+  content: ""; width: 1.1rem; height: 1.1rem; flex: none;
+  background: url("/img/selector-app/icon-192.png") center / cover;
+  border: 1px solid var(--ink); border-radius: 4px;
+}
+.selector-page .sel-install-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.selector-page .sel-install-tip { max-width: 46ch; margin: .6rem 0 0; font: 400 .9rem/1.5 var(--sans); }
+.selector-page .sel-install-tip[hidden] { display: none; }
+
 /* Keep the approved personal mix label and artist spelling as written. */
 .article-media-band:is([aria-labelledby="own-set-2"], [aria-labelledby="bass-mix-weekends"], [aria-labelledby="uk-mix-i-lost-so-many-weekends-raving-and-i-wanna-lose-some-more"]) .article-kicker { text-transform: none; }
 

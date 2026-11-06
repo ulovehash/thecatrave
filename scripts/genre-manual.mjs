@@ -838,6 +838,11 @@ export const CHANNEL_GENRES = {
   'Metalheadz': ['drum and bass'],
   'Critical Music': ['drum and bass'],
   'Playaz': ['drum and bass'],
+  'UKF On Air': ['drum and bass', 'dubstep'],
+  'Liquicity': ['drum and bass'],
+  'Awakenings': ['techno'],
+  'Drumcode': ['techno'],
+  'Defected': ['house'],
 };
 
 // Broad last-resort labels for platforms whose catalogue is consistently
@@ -855,6 +860,7 @@ export const CHANNEL_FALLBACK_GENRES = {
   'Club Space': ['electronic'],
   'The Concourse Project': ['electronic'],
   'Cercle': ['electronic'],
+  'Tomorrowland': ['electronic'],
   'STVOL TV': ['electronic'],
   'MixMix TV': ['electronic'],
   'The Mudd Show': ['electronic'],

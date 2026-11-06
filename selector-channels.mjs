@@ -72,4 +72,16 @@ export const channels = [
   {broadcaster: 'Intercell',              handle: '@IntercellEvents',        channelId: 'UCVnaDYpxWktgATAIHr1rOHQ'},
   {broadcaster: 'Rinse France',           handle: '@RinseFranceRadio',       channelId: 'UCcTI8Xsh6DnXuCSKFP4WqkA'},
   {broadcaster: 'Yoyaku',                 handle: '@yoyakurecordstore',      channelId: 'UCtSYkZGP9nkvXPMQgjeEIow'},
+
+  // Added 2026-11-06: long-running festival, label and broadcaster channels
+  // named in published channel round-ups, each measured through the API for
+  // years active and uploads over twenty minutes. Time Warp (14 sets) and
+  // Drum&BassArena (12) post too few sets; Resident Advisor waits for a rule
+  // that keeps RA Live and drops its long interviews.
+  {broadcaster: 'Awakenings',             handle: '@awakeningsevent',        channelId: 'UCV6qd2kF9ShJj_vaej6AJ9Q', added: '2026-11-06'},
+  {broadcaster: 'UKF On Air',             handle: '@ukfonair',               channelId: 'UCpYkkFDnvHka9CBuwxPpqXw', added: '2026-11-06'},
+  {broadcaster: 'Defected',               handle: '@defectedmusic',          channelId: 'UCnOxaDXBiBXg9Nn9hKWu6aw', added: '2026-11-06'},
+  {broadcaster: 'Tomorrowland',           handle: '@tomorrowland',           channelId: 'UCsN8M73DMWa8SPp5o_0IAQQ', added: '2026-11-06'},
+  {broadcaster: 'Drumcode',               handle: '@drumcodeofficial',       channelId: 'UC8eXqFK48M3bBSmMO1FRgIA', added: '2026-11-06'},
+  {broadcaster: 'Liquicity',              handle: '@Liquicity',              channelId: 'UCSXm6c-n6lsjtyjvdD0bFVw', added: '2026-11-06'},
 ];

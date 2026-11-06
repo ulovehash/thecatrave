@@ -1,16 +1,21 @@
 {
+ "Awakenings": {
+  "bg": "#a63030",
+  "fg": "#fff",
+  "src": "derived"
+ },
  "Balamii": {
   "bg": "#3c3c54",
   "fg": "#fff",
   "src": "logo"
  },
  "Bangkok Community Radio": {
-  "bg": "#a63030",
+  "bg": "#a64530",
   "fg": "#fff",
   "src": "derived"
  },
  "Bass Coast": {
-  "bg": "#a64730",
+  "bg": "#a65a30",
   "fg": "#fff",
   "src": "derived"
  },
@@ -45,42 +50,52 @@
   "src": "brand"
  },
  "Clock Factory": {
-  "bg": "#a65e30",
-  "fg": "#fff",
+  "bg": "#a66f30",
+  "fg": "var(--ink)",
   "src": "derived"
  },
  "Club Space": {
-  "bg": "#a67530",
+  "bg": "#a68330",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Critical Music": {
-  "bg": "#a68b30",
+  "bg": "#a69830",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "DJ Mag": {
-  "bg": "#a6a230",
+  "bg": "#9fa630",
   "fg": "var(--ink)",
   "src": "derived"
  },
+ "Defected": {
+  "bg": "#fc0c0c",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
  "Dekmantel": {
-  "bg": "#93a630",
+  "bg": "#8aa630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Dirtybird": {
-  "bg": "#7ca630",
+  "bg": "#75a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "DnB Allstars": {
-  "bg": "#65a630",
+  "bg": "#61a630",
+  "fg": "var(--ink)",
+  "src": "derived"
+ },
+ "Drumcode": {
+  "bg": "#4ca630",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Elevator Music": {
-  "bg": "#4fa630",
+  "bg": "#37a630",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -95,7 +110,7 @@
   "src": "logo"
  },
  "Hospital Records": {
-  "bg": "#38a630",
+  "bg": "#30a63e",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -105,7 +120,7 @@
   "src": "brand"
  },
  "Intercell": {
-  "bg": "#30a63f",
+  "bg": "#30a653",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -125,7 +140,7 @@
   "src": "logo"
  },
  "Kunye": {
-  "bg": "#30a656",
+  "bg": "#30a668",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -134,13 +149,18 @@
   "fg": "var(--ink)",
   "src": "logo"
  },
+ "Liquicity": {
+  "bg": "#0c9ce4",
+  "fg": "var(--ink)",
+  "src": "logo"
+ },
  "Manila Community Radio": {
-  "bg": "#30a66d",
+  "bg": "#30a67c",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Metalheadz": {
-  "bg": "#30a684",
+  "bg": "#30a691",
   "fg": "var(--ink)",
   "src": "derived"
  },
@@ -155,32 +175,32 @@
   "src": "brand"
  },
  "My Analog Journal": {
-  "bg": "#30a69b",
+  "bg": "#30a6a6",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "NTS Radio": {
-  "bg": "#309ba6",
+  "bg": "#3091a6",
   "fg": "var(--ink)",
   "src": "derived"
  },
  "Outlook Festival": {
-  "bg": "#3084a6",
-  "fg": "var(--ink)",
+  "bg": "#307ca6",
+  "fg": "#fff",
   "src": "derived"
  },
  "Playaz": {
-  "bg": "#306da6",
+  "bg": "#3068a6",
   "fg": "#fff",
   "src": "derived"
  },
  "Polyamor Berlin": {
-  "bg": "#3056a6",
+  "bg": "#3053a6",
   "fg": "#fff",
   "src": "derived"
  },
  "Radio Rudina": {
-  "bg": "#303fa6",
+  "bg": "#303ea6",
   "fg": "#fff",
   "src": "derived"
  },
@@ -200,7 +220,7 @@
   "src": "brand"
  },
  "Rinse France": {
-  "bg": "#3830a6",
+  "bg": "#3730a6",
   "fg": "#fff",
   "src": "derived"
  },
@@ -215,47 +235,57 @@
   "src": "brand"
  },
  "Shogun Audio": {
-  "bg": "#4f30a6",
+  "bg": "#4c30a6",
   "fg": "#fff",
   "src": "derived"
  },
  "Stay True Sounds": {
-  "bg": "#6530a6",
+  "bg": "#6130a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Concourse Project": {
-  "bg": "#7c30a6",
+  "bg": "#7530a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Lot Radio": {
-  "bg": "#9330a6",
+  "bg": "#8a30a6",
   "fg": "#fff",
   "src": "derived"
  },
  "The Mudd Show": {
-  "bg": "#a630a2",
+  "bg": "#9f30a6",
+  "fg": "#fff",
+  "src": "derived"
+ },
+ "Tomorrowland": {
+  "bg": "#3c5454",
+  "fg": "#fff",
+  "src": "logo"
+ },
+ "UKF On Air": {
+  "bg": "#a63098",
   "fg": "#fff",
   "src": "derived"
  },
  "Under Club": {
-  "bg": "#a6308b",
+  "bg": "#a63083",
   "fg": "#fff",
   "src": "derived"
  },
  "Worldwide FM": {
-  "bg": "#a63075",
+  "bg": "#a6306f",
   "fg": "#fff",
   "src": "derived"
  },
  "Yoyaku": {
-  "bg": "#a6305e",
+  "bg": "#a6305a",
   "fg": "#fff",
   "src": "derived"
  },
  "fabric": {
-  "bg": "#a63047",
+  "bg": "#a63045",
   "fg": "#fff",
   "src": "derived"
  }

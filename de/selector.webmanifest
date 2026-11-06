@@ -1,0 +1,30 @@
+{
+  "id": "/de/selector",
+  "name": "The Selector",
+  "short_name": "Selector",
+  "description": "Ein Knopf, ein zufälliges DJ-Set.",
+  "lang": "de",
+  "start_url": "/de/selector?utm_source=homescreen&utm_medium=app",
+  "scope": "/de/selector",
+  "display": "standalone",
+  "background_color": "#f1eee7",
+  "theme_color": "#f1eee7",
+  "icons": [
+    {
+      "src": "/img/selector-app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/selector-app/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/selector-app/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

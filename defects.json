@@ -1947,6 +1947,25 @@
         "file": "home-articles.mjs",
         "contains": "(inverse frequency)"
       }
+    },
+    {
+      "id": "selector-button-waits-for-catalogue",
+      "found": "2026-11-06",
+      "by": "agent",
+      "what": "The Selector button stays disabled until selector-runtime.js has fetched and parsed /selector-data.min.json: 1.85 MB over the wire, 3.9 MB decoded, all 67,005 sets, fetched with cache: no-cache. Measured 1.36 s to arrival on a fast connection on 2026-11-06; at Lighthouse mobile throttling (1.6 Mbps) the file alone takes about 9 s before the first press can work. Every catalogue refresh changes the file, so returning visitors download it again. GA, 9 Oct to 5 Nov 2026: 26% of email and direct sessions on /selector fired a key event. SELECTOR-UX-RESEARCH.md, Part 1.",
+      "should_have_caught": "no check on the bytes a page needs before its primary control works; Lighthouse runs score the page shell, which is light",
+      "fix": null
+    },
+    {
+      "id": "selector-new-channels-talk-series",
+      "found": "2026-11-06",
+      "by": "agent",
+      "what": "The six channels added on 2026-11-06 brought spoken series into the Selector because they run over twenty minutes and their titles avoid the global NOT_A_SET words: Defected's 'Moments in Music w/ Monki' interviews (11) and '10 Questions from a House Legend in a Taxi', Tomorrowland's 'United We Dance' episodes (9) and 'Our Story' films (2), Liquicity's 'In Depth:' feature. Found by sampling the new channels' titles after the refresh.",
+      "should_have_caught": "adding a channel had no step that read a sample of its titles before the refresh shipped them; the API probe measured only durations and views",
+      "fix": {
+        "file": "scripts/parse-artist.mjs",
+        "contains": "moments in music"
+      }
     }
   ]
 }
