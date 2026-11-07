@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { articlePage, articleSection, articleFaq, faqStructuredData, breadcrumbStructuredData } from './site-components.mjs';
+import { articlePage, articleFaq, faqStructuredData, breadcrumbStructuredData, languageSwitch } from './site-components.mjs';
 import { channels } from './selector-channels.mjs';
 import { alternatesFor, pages } from './pages.mjs';
 import { t } from './i18n.mjs';
@@ -46,6 +46,56 @@ if (sets.length) {
     b: [...bIndex.keys()], g: [...gIndex.keys()], s: rows
   }) + '\n');
 }
+
+// The first press must not wait for the catalogue (defects.json,
+// selector-button-waits-for-catalogue: 1.85 MB before the button worked). So
+// the page carries a small sample inline, a few sets from every channel, plus
+// the counts the chips show, and the full file loads behind it while the
+// browser is idle. The sample is chosen by a hash of the id, not at random, so
+// a rebuild with an unchanged catalogue writes an unchanged page.
+const hashId = id => { let h = 2166136261; for (const ch of id) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return h >>> 0; };
+const FIRST_PER_CHANNEL = 7;
+const first = (() => {
+  if (!sets.length) return null;
+  const byChannel = new Map();
+  for (const s of sets) {
+    if (!byChannel.has(s.broadcaster)) byChannel.set(s.broadcaster, []);
+    byChannel.get(s.broadcaster).push(s);
+  }
+  const sample = [...byChannel.values()].flatMap(list =>
+    list.slice().sort((a, b) => hashId(a.id) - hashId(b.id)).slice(0, FIRST_PER_CHANNEL));
+  const bIndex = new Map(), gIndex = new Map();
+  const intern = (map, value) => { if (!map.has(value)) map.set(value, map.size); return map.get(value); };
+  const rows = sample.map(s => {
+    const row = [s.id, s.artist || '', intern(bIndex, s.broadcaster), s.year || 0,
+                 s.seconds || 0, s.views || 0, s.likes == null ? -1 : s.likes];
+    if (s.genres && s.genres.length) row.push(s.genres.map(g => intern(gIndex, g)));
+    return row;
+  });
+  // the counts are the whole catalogue's, so the chips are right from the start
+  const genCounts = new Map();
+  let untagged = 0;
+  for (const s of sets) {
+    if (!(s.genres || []).length) untagged += 1;
+    for (const g of s.genres || []) genCounts.set(g, (genCounts.get(g) || 0) + 1);
+  }
+  const lengths = {short: 0, hour: 0, long: 0};
+  for (const s of sets) {
+    if (!s.seconds) continue;
+    lengths[s.seconds < 2700 ? 'short' : s.seconds < 4500 ? 'hour' : 'long'] += 1;
+  }
+  const rates = sets.filter(s => s.likes != null && s.views >= 1000).map(s => s.likes / s.views).sort((a, b) => a - b);
+  return {
+    b: [...bIndex.keys()], g: [...gIndex.keys()], s: rows,
+    c: {
+      b: [...byChannel].map(([name, list]) => [name, list.length]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])),
+      g: [...genCounts].filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]).slice(0, 18),
+      u: untagged,
+      l: lengths
+    },
+    p: rates.length ? Number(rates[rates.length >> 1].toFixed(5)) : 0.024
+  };
+})();
 const channelList = broadcasters.join(', ');
 const slug = s => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 let sourceColors = {};
@@ -77,18 +127,56 @@ const NEW_BANNER = {
 const INSTALL = {
   en: {
     button: 'Add to home screen',
+    sub: 'Opens like an app, one tap away',
     ios: 'On iPhone or iPad: tap Share, then Add to Home Screen. The Selector then opens from its own icon.',
     other: 'Open your browser menu and choose Add to Home screen or Install app.'
   },
   de: {
     button: 'Zum Home-Bildschirm',
+    sub: 'Öffnet sich wie eine App, mit einem Tipp',
     ios: 'Auf iPhone oder iPad: Tippe auf Teilen, dann auf „Zum Home-Bildschirm“. Der Selector öffnet sich dann über sein eigenes Symbol.',
     other: 'Öffne das Browsermenü und wähle „Zum Startbildschirm hinzufügen“ oder „App installieren“.'
   },
   fr: {
     button: 'Ajouter à l’écran d’accueil',
+    sub: 'S’ouvre comme une appli, en un geste',
     ios: 'Sur iPhone ou iPad : touchez Partager, puis « Sur l’écran d’accueil ». Le Selector s’ouvre alors depuis sa propre icône.',
     other: 'Ouvrez le menu du navigateur et choisissez « Ajouter à l’écran d’accueil » ou « Installer l’application ».'
+  }
+};
+
+// The page furniture: window names, the TV, the transport. Runtime strings
+// (what changes while a set plays) live in the copy's `ui` block instead.
+const PAGE = {
+  en: {
+    offAir: 'Off air', tuner: 'Tuner', tunerLabel: 'Tune the Selector', channels: 'Channels',
+    crate: 'Crate', about: 'About', how: 'How it works',
+    testcard: 'No signal · press play', testcardLabel: 'Play a random set',
+    idleArtist: 'Nothing playing yet', idleMeta: 'Press play and the Selector picks a set for you.',
+    back: 'Back', backLabel: 'Previous set', share: 'Share', youtube: 'YouTube',
+    volume: 'Volume', volumeTitle: 'Volume: drag, scroll or use the arrow keys. Click to mute.', nextTitle: 'Next set',
+    hint: 'Space next · B back · S save', clear: 'Clear filters',
+    statSets: 'sets', statChannels: 'channels', channelsHint: 'Switch on one or several'
+  },
+  de: {
+    offAir: 'Sendepause', tuner: 'Tuner', tunerLabel: 'Selector einstellen', channels: 'Kanäle',
+    crate: 'Plattenkiste', about: 'Über', how: 'So funktioniert’s',
+    testcard: 'Kein Signal · Play drücken', testcardLabel: 'Zufälliges Set abspielen',
+    idleArtist: 'Noch läuft nichts', idleMeta: 'Drück Play, und der Selector sucht dir ein Set aus.',
+    back: 'Zurück', backLabel: 'Voriges Set', share: 'Teilen', youtube: 'YouTube',
+    volume: 'Lautstärke', volumeTitle: 'Lautstärke: ziehen, scrollen oder Pfeiltasten. Klicken schaltet stumm.', nextTitle: 'Nächstes Set',
+    hint: 'Leertaste nächstes · B zurück · S merken', clear: 'Filter zurücksetzen',
+    statSets: 'Sets', statChannels: 'Kanäle', channelsHint: 'Einen oder mehrere einschalten'
+  },
+  fr: {
+    offAir: 'Hors antenne', tuner: 'Réglages', tunerLabel: 'Régler le Selector', channels: 'Chaînes',
+    crate: 'Bac à disques', about: 'À propos', how: 'Comment ça marche',
+    testcard: 'Pas de signal · appuyez sur lecture', testcardLabel: 'Lancer un set au hasard',
+    idleArtist: 'Rien en lecture', idleMeta: 'Appuyez sur lecture et le Selector choisit un set pour vous.',
+    back: 'Retour', backLabel: 'Set précédent', share: 'Partager', youtube: 'YouTube',
+    volume: 'Volume', volumeTitle: 'Volume : faites glisser, défilez ou utilisez les flèches. Cliquez pour couper le son.', nextTitle: 'Set suivant',
+    hint: 'Espace suivant · B retour · S garder', clear: 'Effacer les filtres',
+    statSets: 'sets', statChannels: 'chaînes', channelsHint: 'Activez-en une ou plusieurs'
   }
 };
 
@@ -213,78 +301,136 @@ function englishCopy({total, tagged, broadcasters, channelList, escapeHtml}) {
 
 function build(lang, copy, {file, path}) {
   const canonical = `https://thecatrave.com${path}`;
-  // The whole tool is one panel on the first screen: title, then the primary
-  // action (the button, and the picked set right under it), then the filters that
-  // refine the next press. It carries the H1 so the first thing on the page is
-  // the instrument, not an essay.
-  const nb = NEW_BANNER[lang] || NEW_BANNER.en;
-  const bannerHtml = newChannels.length ? `<aside class="sel-new" id="sel-new" data-key="${escapeHtml(newKey)}" aria-label="${escapeHtml(nb.kicker)}" hidden>
-    <p class="sel-new-kicker">${escapeHtml(nb.kicker)}</p>
-    <p class="sel-new-text"><strong>${escapeHtml(nb.lead(newChannels.length))}</strong> ${newChannels.map(escapeHtml).join(', ')}.</p>
-    <button type="button" class="sel-new-close" id="sel-new-close" aria-label="${escapeHtml(nb.close)}">&times;</button>
-  </aside>` : '';
-  const install = INSTALL[lang] || INSTALL.en;
-  const installHtml = `<div class="sel-install" id="sel-install" hidden>
-      <button type="button" class="sel-install-btn" id="sel-install-btn" aria-expanded="false" aria-controls="sel-install-tip">${escapeHtml(install.button)}</button>
-      <p class="sel-install-tip" id="sel-install-tip" data-ios="${escapeHtml(install.ios)}" data-other="${escapeHtml(install.other)}" hidden></p>
-    </div>`;
-  const toolHtml = `
-<section class="sel-panel" id="selector" aria-label="${escapeHtml(copy.appName)}">
-  <header class="sel-panel-head">
-    <p class="article-kicker">${escapeHtml(copy.appName)}</p>
-    <h1>${escapeHtml(copy.h1)}</h1>
-    <p class="sel-deck">${copy.deck}</p>
-    ${installHtml}
-    ${bannerHtml}
-  </header>
-  <div class="sel-action">
-    <p class="sel-count" id="sel-count">${copy.count}</p>
-    <div class="sel-go-wrap">
-      <button type="button" id="sel-go" class="sel-go" data-state="loading" disabled>${escapeHtml(copy.loading)}</button>
-      <span class="sel-burst" id="sel-burst" aria-hidden="true"></span>
-    </div>
-    <div class="sel-stage" id="sel-stage" aria-live="polite"></div>
-    <div class="sel-library" id="sel-library" hidden>
-      <div class="sel-library-tabs" role="tablist" aria-label="${escapeHtml(copy.libraryLabel)}">
-        <button type="button" class="sel-library-tab" id="sel-tab-saved" role="tab" aria-selected="true" aria-controls="sel-library-list" data-list="saved">${escapeHtml(copy.savedTab)} <span class="sel-library-n" id="sel-saved-n">0</span></button>
-        <button type="button" class="sel-library-tab" id="sel-tab-recent" role="tab" aria-selected="false" aria-controls="sel-library-list" data-list="recent" tabindex="-1">${escapeHtml(copy.recentTab)} <span class="sel-library-n" id="sel-recent-n">0</span></button>
-      </div>
-      <ol class="sel-library-list" id="sel-library-list" role="tabpanel"></ol>
-      <p class="sel-library-note">${escapeHtml(copy.libraryNote)}</p>
-    </div>
-  </div>
-  <div class="sel-body">
-    <div class="sel-field">
-      <p class="sel-field-label" id="sel-modes-label">${escapeHtml(copy.modeLabel)}</p>
-      <div class="sel-modes" id="sel-modes" role="radiogroup" aria-labelledby="sel-modes-label"></div>
-    </div>
-    <div class="sel-field">
-      <p class="sel-field-label" id="sel-sources-label">${escapeHtml(copy.sourceLabel)}</p>
-      <div class="sel-sources" id="sel-sources" role="group" aria-labelledby="sel-sources-label"></div>
-    </div>
-    <div class="sel-field" id="sel-genres-wrap" hidden>
-      <p class="sel-field-label" id="sel-genres-label">${copy.genreLabel}</p>
-      <div class="sel-genres" id="sel-genres" role="group" aria-labelledby="sel-genres-label"></div>
-    </div>
-    <div class="sel-field" id="sel-lengths-wrap" hidden>
-      <p class="sel-field-label" id="sel-lengths-label">${escapeHtml(copy.lengthLabel)}</p>
-      <div class="sel-lengths" id="sel-lengths" role="group" aria-labelledby="sel-lengths-label"></div>
-    </div>
-  </div>
-  <noscript><p class="sel-noscript">${copy.noscript}</p></noscript>
-</section>
-`.trim();
+  const P = PAGE[lang] || PAGE.en;
+  const ui = copy.ui || {};
+  const fmt = n => n.toLocaleString(ui.numberLocale || 'en-US');
+  // The page is a desk of windows: the player (a TV, what is on, the transport),
+  // the tuner beside it, then channels, the crate, about, and the questions.
+  // Every window shares one frame, so the markup says it once.
+  const win = (name, cls, label, inner, labelledby) => `<section class="win${cls ? ' ' + cls : ''}" ${
+    labelledby ? `aria-labelledby="${labelledby}"` : `aria-label="${escapeHtml(label)}"`}>
+    <div class="titlebar"><span class="box" aria-hidden="true"></span><span class="name">${name}</span></div>
+    ${inner}
+  </section>`;
 
+  const nb = NEW_BANNER[lang] || NEW_BANNER.en;
+  const bannerHtml = newChannels.length ? `<aside class="newch" id="sel-new" data-key="${escapeHtml(newKey)}" aria-label="${escapeHtml(nb.kicker)}" hidden>
+      <p class="k">${escapeHtml(nb.kicker)}</p>
+      <p class="t"><strong>${escapeHtml(nb.lead(newChannels.length))}</strong> ${newChannels.map(escapeHtml).join(', ')}.</p>
+      <button type="button" id="sel-new-close" aria-label="${escapeHtml(nb.close)}">&times;</button>
+    </aside>` : '';
+  const install = INSTALL[lang] || INSTALL.en;
+  const installHtml = `<div class="install" id="sel-install" hidden>
+      <button type="button" class="install-btn" id="sel-install-btn" aria-controls="sel-install-tip" aria-expanded="false"><span class="app" aria-hidden="true"></span><span class="lbl">${escapeHtml(install.button)}<small>${escapeHtml(install.sub)}</small></span><span class="plus" aria-hidden="true">+</span></button>
+      <p class="install-tip" id="sel-install-tip" data-ios="${escapeHtml(install.ios)}" data-other="${escapeHtml(install.other)}" hidden></p>
+    </div>`;
+
+  const play = '<svg class="i-play" viewBox="0 0 20 20"><path d="M5 2.5 17.5 10 5 17.5z" fill="currentColor"/></svg>';
+  const player = win(escapeHtml(copy.appName), 'player', copy.appName, `<div class="tv">
+      <div class="screen" id="sel-screen">
+        <button type="button" class="testcard" id="sel-testcard" aria-label="${escapeHtml(P.testcardLabel)}">
+          <span class="plate"><span class="plate-row" aria-hidden="true"><span class="cat"></span><span class="pk">${play}</span></span><span>${escapeHtml(P.testcard)}</span></span>
+        </button>
+        <span class="static" id="sel-static" hidden aria-hidden="true"></span>
+        <p class="notice" id="sel-notice" hidden></p>
+      </div>
+      <div class="tv-panel">
+        <span class="led" id="sel-led" aria-hidden="true">CH --</span>
+        <span class="pwr" id="sel-pwr" data-live="false" aria-hidden="true"></span>
+        <span class="path" id="sel-path">selector://standby</span>
+        <span class="grille" aria-hidden="true"></span>
+        <span class="kw v"><button type="button" class="knob vol" id="sel-vol" role="slider" aria-label="${escapeHtml(P.volume)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" title="${escapeHtml(P.volumeTitle)}"></button><i aria-hidden="true">VOL</i></span>
+        <span class="kw"><button type="button" class="knob" id="sel-knob" tabindex="-1" aria-hidden="true" title="${escapeHtml(P.nextTitle)}"></button><i aria-hidden="true">CH</i></span>
+      </div>
+    </div>
+    <div class="now idle" id="sel-now" aria-live="polite">
+      <span class="logo" id="sel-logo" aria-hidden="true"></span>
+      <p class="artist" id="sel-artist">${escapeHtml(P.idleArtist)}</p>
+      <p class="meta" id="sel-meta">${escapeHtml(P.idleMeta)}</p>
+      <p class="tags" id="sel-tags"></p>
+    </div>
+    <div class="transport">
+      <div class="go-wrap">
+        <button type="button" class="go" id="sel-go"><span class="ico" aria-hidden="true">${play}<svg class="i-next" viewBox="0 0 20 20"><path d="M2.5 2.5 13 10 2.5 17.5zM14 2.5h3.5v15H14z" fill="currentColor"/></svg></span><span id="sel-go-t">${escapeHtml(ui.pickMe || 'Pick me a set')}</span></button>
+        <span class="burst" id="sel-burst" aria-hidden="true"></span>
+      </div>
+      <button type="button" class="key k-back" id="sel-back" disabled aria-label="${escapeHtml(P.backLabel)}"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h2v12H4zM16 4v12L7 10z" fill="currentColor"/></svg>${escapeHtml(P.back)}</button>
+      <button type="button" class="key k-save" id="sel-save" aria-pressed="false" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 17 3 10a4 4 0 0 1 7-5 4 4 0 0 1 7 5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg><span id="sel-save-t">${escapeHtml(ui.keySave || 'Save')}</span></button>
+      <button type="button" class="key k-share" id="sel-share" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10M6 7l4-4 4 4M4 12v5h12v-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.share)}</button>
+      <a class="key k-yt" id="sel-yt" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4H4v12h12v-4M11 3h6v6M17 3l-8 8" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.youtube)}</a>
+    </div>
+    ${installHtml}
+    <p class="hint">${escapeHtml(P.hint)}</p>`);
+
+  const tuner = win(escapeHtml(P.tuner), 'tuner', P.tunerLabel, `<div class="tune">
+      <p class="poolline"><span id="sel-pool">${copy.count}</span><button type="button" class="linkbtn" id="sel-clear" hidden>${escapeHtml(P.clear)}</button></p>
+      <div class="seg" id="sel-modes" role="radiogroup" aria-label="${escapeHtml(copy.modeLabel)}"></div>
+      <p class="seg-note" id="sel-mode-note"></p>
+      <div class="grp g-genre"><p class="grp-h" id="sel-h-genre">${copy.genreLabel}</p><div class="chips" id="sel-c-genre" role="group" aria-labelledby="sel-h-genre"></div></div>
+      <div class="grp g-length"><p class="grp-h" id="sel-h-length">${escapeHtml(copy.lengthLabel)}</p><div class="chips" id="sel-c-length" role="group" aria-labelledby="sel-h-length"></div></div>
+    </div>`);
+
+  const channelsWin = win(`${escapeHtml(P.channels)} <span id="sel-ch-n">${broadcasters.length}</span>`, 'channels', P.channels, `<div class="tune">
+      <div class="grp g-ch"><p class="grp-h" id="sel-h-ch">${escapeHtml(P.channelsHint)}</p><div class="chips" id="sel-c-ch" role="group" aria-labelledby="sel-h-ch"></div></div>
+    </div>`);
+
+  const crate = win(escapeHtml(P.crate), '', copy.libraryLabel, `<div class="tabs" role="tablist" aria-label="${escapeHtml(copy.libraryLabel)}">
+      <button type="button" role="tab" id="sel-tab-saved" aria-selected="true" aria-controls="sel-crate-panel" data-list="saved">${escapeHtml(copy.savedTab)} <span id="sel-n-saved">0</span></button>
+      <button type="button" role="tab" id="sel-tab-recent" aria-selected="false" aria-controls="sel-crate-panel" data-list="recent" tabindex="-1">${escapeHtml(copy.recentTab)} <span id="sel-n-recent">0</span></button>
+    </div>
+    <div id="sel-crate-panel" role="tabpanel" aria-labelledby="sel-tab-saved"><ol class="crate" id="sel-crate"></ol></div>
+    <p class="foot">${escapeHtml(copy.libraryNote)}</p>`);
+
+  // About keeps the first two paragraphs of the page's essay; the rest, the
+  // modes and filters explained, opens "How it works" above the questions.
+  const cut = copy.aboutHtml.indexOf('</p>', copy.aboutHtml.indexOf('</p>') + 4) + 4;
+  const aboutLead = copy.aboutHtml.slice(0, cut);
+  const aboutRest = copy.aboutHtml.slice(cut).trim();
+  const about = win(escapeHtml(P.about), '', P.about, `<div class="about">
+      <div class="stat"><div><b id="sel-st-sets">${fmt(sets.length)}</b><span>${escapeHtml(P.statSets)}</span></div><div><b id="sel-st-ch">${broadcasters.length}</b><span>${escapeHtml(P.statChannels)}</span></div></div>
+      <section id="about" aria-labelledby="sel-about-h"><h2 id="sel-about-h">${escapeHtml(copy.aboutTitle)}</h2>${aboutLead}</section>
+    </div>`, null);
+
+  const how = win(escapeHtml(P.how), 'faq-win', P.how, `<div class="faq">
+      <div class="faq-lead">${aboutRest}</div>
+      ${articleFaq({ id: 'faq', title: copy.faqTitle, items: copy.faqItems, lang, openFirst: false })}
+    </div>`);
+
+  const toolHtml = `<div class="desk" id="selector">
+  <div class="intro">
+    <h1>${escapeHtml(copy.h1)}</h1>
+    <p>${copy.deck}</p>
+    ${bannerHtml}
+  </div>
+  ${player}
+  <div class="tuner-slot">${tuner}</div>
+  ${channelsWin}
+  <div class="row2">${crate}${about}</div>
+  ${how}
+</div>
+<noscript><p class="sel-noscript">${copy.noscript}</p></noscript>
+<p class="toast" id="sel-toast" role="status" hidden></p>
+<p class="sr" id="sel-sr" aria-live="assertive"></p>`;
+
+  // set names can carry an em dash, which the page itself must never show, so
+  // the inline data spells it as an escape
+  const safeJson = value => JSON.stringify(value).replace(/</g, '\\u003c').replace(/\u2014/g, '\\u2014');
+  const json = (id, value) => `<script type="application/json" id="${id}">${safeJson(value)}</script>`;
   const articleHtml = [
     toolHtml,
-    articleSection({ id: 'about', title: copy.aboutTitle, bodyHtml: copy.aboutHtml }),
-    articleFaq({ id: 'faq', title: copy.faqTitle, items: copy.faqItems, lang }),
-    `<script type="application/json" id="sel-source-logos">${JSON.stringify(sourceLogos).replace(/</g, '\\u003c')}</script>`,
-    `<script type="application/json" id="sel-source-colors">${JSON.stringify(sourceColors).replace(/</g, '\\u003c')}</script>`,
-    copy.ui ? `<script type="application/json" id="sel-i18n">${JSON.stringify(copy.ui).replace(/</g, '\\u003c')}</script>` : '',
+    // A few sets per channel, so the first press plays at once while the whole
+    // catalogue (selector-data.min.json, megabytes) loads behind it.
+    first ? `<script type="application/json" id="sel-first">${safeJson(first)}</script>` : '',
+    json('sel-source-logos', sourceLogos),
+    json('sel-source-colors', sourceColors),
+    copy.ui ? json('sel-i18n', copy.ui) : '',
     `<script src="selector-runtime.js" defer></script>`,
     `<script src="/selector-install.js" defer></script>`
   ].filter(Boolean).join('\n');
+
+  // site-header is the class every page's one header carries (audit-site-components);
+  // the Selector's menubar restyles it as .bar
+  const header = `<header class="site-header bar"><a class="wordmark" href="${escapeHtml(t(lang).homePath)}" aria-label="${escapeHtml(t(lang).homeLabel)}">thecatrave<span>*</span></a><div class="right"><span class="onair" id="sel-onair" data-live="false"><i aria-hidden="true"></i><span id="sel-onair-t">${escapeHtml(P.offAir)}</span></span><time id="sel-clock" aria-hidden="true">--:--</time>${languageSwitch({lang, alternates: alternatesFor(path)})}</div></header>`;
 
   const structuredData = [
     {
@@ -310,7 +456,7 @@ function build(lang, copy, {file, path}) {
     datePublished: date, dateModified: date,
     bodyClass: 'article-page selector-page',
     structuredData, articleHtml,
-    lang, alternates: alternatesFor(path)
+    lang, alternates: alternatesFor(path), header
   });
 
   // The Selector is the one page that can live on a home screen: its own

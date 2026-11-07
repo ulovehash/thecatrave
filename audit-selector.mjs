@@ -22,14 +22,16 @@ for (const page of pages.filter(entry => entry.generator === 'build-selector.mjs
   check('canonical is its own path', html.includes(`<link rel="canonical" href="https://thecatrave.com${path}">`));
   check('title present and bounded', /<title>[^<]{15,65}<\/title>/.test(html));
   check('meta description present', /<meta name="description" content="[^"]{70,165}"/.test(html));
-  check('button present with a label', /<button[^>]*id="sel-go"[^>]*>[^<]+<\/button>/.test(html));
-  check('source filter group present', /<div class="sel-sources" id="sel-sources" role="group"/.test(html));
-  check('genre filter group present', /<div class="sel-genres" id="sel-genres" role="group"/.test(html));
-  check('length filter group present', /<div class="sel-lengths" id="sel-lengths" role="group"/.test(html));
+  // the button works before the catalogue arrives: a sample ships in the page
+  check('button present with a label', /<button[^>]*id="sel-go"(?![^>]*disabled)[^>]*>[\s\S]*?<span id="sel-go-t">[^<]+<\/span><\/button>/.test(html));
+  check('first-press sample inlined', /<script type="application\/json" id="sel-first">\{/.test(html));
+  check('channel filter group present', /id="sel-c-ch" role="group"/.test(html));
+  check('genre filter group present', /id="sel-c-genre" role="group"/.test(html));
+  check('length filter group present', /id="sel-c-length" role="group"/.test(html));
   // Mode is one-of-four, so it must be a radiogroup, not a row of toggle buttons
-  check('mode filter is a radiogroup', /<div class="sel-modes" id="sel-modes" role="radiogroup"/.test(html));
+  check('mode filter is a radiogroup', /id="sel-modes" role="radiogroup"/.test(html));
   check('h1 sits in the tool, above the fold', html.indexOf('<h1>') < html.indexOf('id="about"'));
-  check('live result region present', /<div class="sel-stage" id="sel-stage" aria-live="polite">/.test(html));
+  check('live result region present', /id="sel-now" aria-live="polite"/.test(html));
   // a translated page sits one directory down, so its script path is root-relative
   check('runtime script linked', html.includes(`<script src="${lang === 'en' ? '' : '/'}selector-runtime.js" defer></script>`));
   if (lang !== 'en') {

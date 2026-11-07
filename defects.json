@@ -1954,7 +1954,10 @@
       "by": "agent",
       "what": "The Selector button stays disabled until selector-runtime.js has fetched and parsed /selector-data.min.json: 1.85 MB over the wire, 3.9 MB decoded, all 67,005 sets, fetched with cache: no-cache. Measured 1.36 s to arrival on a fast connection on 2026-11-06; at Lighthouse mobile throttling (1.6 Mbps) the file alone takes about 9 s before the first press can work. Every catalogue refresh changes the file, so returning visitors download it again. GA, 9 Oct to 5 Nov 2026: 26% of email and direct sessions on /selector fired a key event. SELECTOR-UX-RESEARCH.md, Part 1.",
       "should_have_caught": "no check on the bytes a page needs before its primary control works; Lighthouse runs score the page shell, which is light",
-      "fix": null
+      "fix": {
+        "file": "build-selector.mjs",
+        "contains": "id=\"sel-first\""
+      }
     },
     {
       "id": "selector-new-channels-talk-series",
