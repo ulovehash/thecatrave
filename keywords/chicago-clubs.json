@@ -1,0 +1,22 @@
+{
+  "page": "best-clubs-in-chicago.html",
+  "seed": "best clubs in chicago",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, Sep 2025 to Aug 2026, read 2026-11-08: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, read 2026-11-08 as the documented fallback for the long tail Keyword Planner buckets too coarsely: point volumes, marked 'Ahrefs US' in each note. Live SERP read by web search on 2026-11-08: local pack, Reddit r/chicagoEDM at position 2, Yelp, Tripadvisor, Time Out. PAA: hottest, most prestigious and biggest club in Chicago.",
+  "note": "'chicago clubs' collides with sports clubs (Cubs, 'chicago clubs baseball') and private members' clubs; the page covers music-first dance clubs, as the NYC, Paris and Amsterdam guides do. Venue names (TAO Chicago 26,000, Spybar 1,700, Seven Nightclub 900, Ahrefs US) are navigational and not targeted as terms.",
+  "terms": [
+    {"term": "best clubs in chicago", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner. Ahrefs US 700, global 800, TP 1,400, KD 17"},
+    {"term": "chicago clubs", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner. Ahrefs US 1,400"},
+    {"term": "chicago house music clubs", "volume": 100, "range": "100-1K", "note": "Keyword Planner. Ahrefs US 50"},
+    {"term": "chicago nightclubs", "volume": 900, "market": "US", "note": "Ahrefs US, TP 1,600"},
+    {"term": "best nightclubs in chicago", "volume": 200, "market": "US", "note": "Ahrefs US"},
+    {"term": "chicago dance clubs", "volume": 150, "market": "US", "note": "Ahrefs US, TP 2,300"},
+    {"term": "best dance clubs in chicago", "volume": 100, "market": "US", "note": "Ahrefs US"},
+    {"term": "chicago edm clubs", "volume": 50, "market": "US", "note": "Ahrefs US"},
+    {"term": "chicago techno clubs", "volume": 30, "market": "US", "note": "Ahrefs US"}
+  ],
+  "rejected": [
+    {"term": "chicago nightlife", "volume": 1000, "reason": "Keyword Planner 1K-10K, Ahrefs US 1,100. The SERP is bars, rooftops and tourism lists; a guide to dance clubs does not answer it. The word appears on the page naturally but is not claimed."},
+    {"term": "tao chicago", "volume": 26000, "reason": "Ahrefs US. Navigational, a bottle-service club; not what this page is about."},
+    {"term": "chicago clubs baseball", "volume": 0, "reason": "Sports intent collision."}
+  ]
+}

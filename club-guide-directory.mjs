@@ -17,6 +17,7 @@ const cities = {
   manchester: city('Manchester'),
   mexicoCity: city('Mexico City'),
   newYork: city('New York City'),
+  chicago: city('Chicago'),
   paris: city('Paris'),
   prague: city('Prague'),
   tbilisi: city('Tbilisi'),
@@ -59,6 +60,7 @@ const groups = {
   manchester: ['The White Hotel', 'Soup', 'Eastern Bloc Records', 'The Loft', 'Hidden', 'Stage & Radio', 'The Warehouse Project'],
   mexicoCity: ['Patrick Miller', 'M.N.Roy', 'Fünk Club', 'Yu Yu Cine Club'],
   newYork: ['Nowadays', 'Basement', 'Public Records', 'Good Room', 'Elsewhere', 'Paragon', 'Signal', 'House of Yes'],
+  chicago: ['Smart Bar', 'Podlasie Club', 'Spybar', 'Sound-Bar', 'Le Nocturne', 'Radius', 'Primary'],
   paris: ['Rex Club', 'Badaboum', 'Essaim', 'La Station - Gare des Mines'],
   prague: ['Karlovy Lázně', 'Duplex', 'Cross Club', 'Ankali'],
   tbilisi: ['Bassiani', 'KHIDI', 'Mtkvarze', 'Left Bank', 'Café Gallery'],
@@ -91,6 +93,13 @@ const groups = {
 // Only direct venue pages belong here. Never fall back to a city calendar:
 // a link labelled "Upcoming events" must already be filtered to that club.
 const venueEvents = {
+  'Smart Bar': 'https://ra.co/clubs/608',
+  'Podlasie Club': 'https://ra.co/clubs/189215',
+  'Spybar': 'https://ra.co/clubs/3238',
+  'Sound-Bar': 'https://ra.co/clubs/2501',
+  'Le Nocturne': 'https://ra.co/clubs/173265',
+  'Radius': 'https://ra.co/clubs/181697',
+  'Primary': 'https://ra.co/clubs/66047',
   'Printworks': 'https://ra.co/clubs/127337',
   "[UNVRS]": "https://ra.co/clubs/245319",
   "A38": "https://ra.co/clubs/6805",

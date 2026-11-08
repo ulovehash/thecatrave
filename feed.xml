@@ -8,13 +8,27 @@
   <link>https://thecatrave.com/</link>
   <description>Long-form guides to electronic music, DJ culture, scenes, festivals and the sounds around them.</description>
   <language>en-gb</language>
-  <lastBuildDate>Tue, 03 Nov 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
   <atom:link href="https://thecatrave.com/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://thecatrave.com/favicon.png</url>
     <title>thecatrave</title>
     <link>https://thecatrave.com/</link>
   </image>
+  <item>
+    <title>Best Clubs in Chicago: Nightclubs for House and Techno</title>
+    <link>https://thecatrave.com/best-clubs-in-chicago</link>
+    <guid isPermaLink="true">https://thecatrave.com/best-clubs-in-chicago</guid>
+    <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+    <dc:creator>thecatrave</dc:creator>
+    <description>Smart Bar, Podlasie, Spybar, Sound-Bar, Le Nocturne and Radius: the best clubs in Chicago for house and techno, and the Warehouse where house began.</description>
+    <category>house</category>
+    <category>techno</category>
+    <category>history</category>
+    <category>discovery</category>
+    <category>chicago</category>
+    <media:content url="https://thecatrave.com/img/og/chicago-clubs.jpg" medium="image" width="1200" height="630" />
+  </item>
   <item>
     <title>Best Electronic Festivals in Portugal 2027: Neopop, Boom, Somnii</title>
     <link>https://thecatrave.com/best-electronic-music-festivals-portugal</link>

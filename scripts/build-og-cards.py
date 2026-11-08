@@ -149,6 +149,7 @@ HERO = {
     "techno-music": "img/techno/jeff-mills-2010-1200.webp",
     "german-electronic": "img/german-electronic/kraftwerk-stage-1200.webp",
     "nyc-clubs": "img/nyc-clubs/limelight-church-1200.webp",
+    "chicago-clubs": "img/chicago-clubs/chicago-metro-sign-1200.webp",
     "tokyo-clubs": "img/tokyo-clubs/womb-shibuya-1200.webp",
     "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
     "belgrade-clubs": "img/belgrade-clubs/sava-from-kalemegdan-1200.webp",

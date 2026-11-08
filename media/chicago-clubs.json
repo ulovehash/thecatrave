@@ -1,0 +1,17 @@
+{
+  "page": "best-clubs-in-chicago.html",
+  "seed": "best clubs in chicago",
+  "source": "FIGURES.md adapted for clubs, 2026-11-08, as for the NYC, Paris and Amsterdam guides. S4 consensus: Time Out 'The best clubs in Chicago for dancing' (8 Dec 2025, 19 entries, read in full), 6AM '40 best house and techno clubs in North America' (2023), DJ Mag Top 100 Clubs 2026 (Radius at 79). S5 history: Wikipedia The Warehouse (Chicago), Metro Chicago, Ron Hardy, Frankie Knuckles. Clubs named by 2+ current sources: Smart Bar, Spybar, Radius. Podlasie, Le Nocturne, Sound-Bar and Prysm are from Time Out, each with a second confirmation (Podlasie's own history, Drumcode sets recorded at Prysm and Radius, Choose Chicago on house venues). Reddit r/chicagoEDM was not read.",
+  "required_records": [
+    {"title": "The Warehouse", "artist": "club, 1977 to 1982 with Frankie Knuckles", "year": null, "why": "S5: gave house music its name; photographed as it stands in 2024", "sources": ["originators"], "no_embed_reason": "a club, closed; photographed"},
+    {"title": "Frankie Knuckles", "artist": "DJ, Warehouse resident", "year": null, "why": "S5: the Warehouse resident; photographed", "sources": ["originators"], "no_embed_reason": "photograph; his ADE 2012 photo is used by the house music guide, so a different one was taken"},
+    {"title": "The Music Box", "artist": "club, Ron Hardy", "year": null, "why": "S5: the other early house room", "sources": ["originators"], "no_embed_reason": "a club, closed, no openly licensed photo found"},
+    {"title": "Smart Bar", "artist": "club, since 1982", "year": null, "why": "S4 Time Out and 6AM; S5 Metro history. The Black Madonna set embedded", "sources": ["originators", "consensus"], "embed_id": "PsR7gAUZ-Wg"},
+    {"title": "Derrick Carter", "artist": "DJ, Smart Bar resident", "year": null, "why": "S5 Metro history; photographed and a set embedded", "sources": ["originators"], "embed_id": "AahI0K_YGqA"},
+    {"title": "Chosen Few DJs", "artist": "Chosen Few Picnic, Jackson Park", "year": null, "why": "S5: the house picnic, since 1990", "sources": ["originators"], "embed_id": "eoF8isbPQac"},
+    {"title": "Radius", "artist": "club, Pilsen", "year": null, "why": "S4 DJ Mag Top 100 2026 and Time Out; PAA biggest club. Layton Giordani set recorded at Radius", "sources": ["consensus"], "embed_id": "q139iC5vMpc"},
+    {"title": "Prysm", "artist": "club", "year": null, "why": "S4 Time Out. Adam Beyer set recorded at Prysm", "sources": ["consensus"], "embed_id": "w0Xx2qewZ58"},
+    {"title": "Spybar", "artist": "club, River North, since 1995", "year": null, "why": "S4 Time Out and 6AM", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"},
+    {"title": "Podlasie Club", "artist": "club, Avondale", "year": null, "why": "S4 Time Out number one", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"}
+  ]
+}

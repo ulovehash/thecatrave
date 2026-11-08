@@ -2645,3 +2645,113 @@ Not tested: referring domains, traffic of competing pages, click share of any te
 Independent validator, not the gatherer. Write: 1 `best-edm-festivals-world` (head "biggest edm festival in the world", 1K–10K; narrower: electronic only, ranked by measured attendance, the general "biggest music festivals in the world" head left to rock and travel listicles), 2 `best-edm-festivals-las-vegas` (head "edm festivals las vegas", 1K–10K; narrower: EDC one linked entry under 150 words, never target "edc las vegas", then the other Vegas events and festivals within driving distance), 3 `best-bass-music-festivals` (head "bass music festivals", 1K–10K; dubstep festivals as an H2, worldwide, UK and Europe weighted equally with the US circuit, no definition of bass music, drum and bass one linked line), 4 `best-electronic-music-festivals-portugal` (head "music festivals portugal"; narrower: budget on "portugal electronic music festival" 100–1K, Boom one linked entry, no NOS Alive or Primavera entries), 5 `best-edm-festivals-mexico` (head "edm festivals mexico", 100–1K, the only candidate with no editorial roundup in its top ten; EDC Mexico and Time Warp one linked entry each, neither targeted). Reserve: California. Drop: Florida (Ultra, EDC Orlando, III Points already H3s on the USA page), dubstep as its own page (absorbed into bass).
 
 Open, would change the ranking: GSC queries for /best-edm-festivals-usa and /best-electronic-music-festivals-europe (if the USA page earns Vegas or bass queries, that candidate drops and California enters); Spanish-language Mexico demand never pulled; electronic share of "biggest … in the world" unknown; noise share of "bass festivals" unknown; Vegas SERP split between club residencies and festivals, gl=pt and gl=mx SERPs, referring domains unread.
+
+## Five topics from the 9 Oct – 7 Nov landing-page export (8 November 2026)
+
+Why these: the top pages are regional festival roundups and city club guides (Europe 1,064 organic sessions, USA 504, Asia 219; London clubs 0.67 key-event rate, Berlin 0.60, NYC 0.54; best-trance-tracks 0.41). Candidates checked against TAKEN-KEYWORDS.md first; famous djs, ozora, boom festival and trance/hardstyle festival terms are taken and were excluded.
+
+**Method limit:** Claude in Chrome was not connected, so there is NO Keyword Planner data and NO live Google SERP or verbatim PAA. All figures are Ahrefs, US database, US/global per month, 8 Nov 2026 (about 20,000 units spent, pool 800,000, reset 20 Nov). Ahrefs under-reads city "best clubs" terms by roughly 10x against Keyword Planner (see KEYWORD-METHOD.md). Related terms and competitor mining were partial on all five.
+
+- **Best clubs in Miami.** best clubs in miami 1,900/2,200; clubs in miami 4,100; miami clubs 4,300 (parent topic e11even); miami nightlife 1,800; miami nightclubs 800. Electronic forms tiny: edm clubs miami 90, house 40, techno 20, best techno clubs in miami 0. Venue navigation about 38,000 (LIV 17,000, Club Space 11,000); strip-club, casino and sports collisions far larger. Miami Music Week 4,000–4,800 (event intent). SERP: local pack, Tripadvisor 21 RD, Reddit, miamiandbeaches 163 RD, Time Out hub 13 RD, dealer blog 1 RD, alotea 0 RD; about 3 article slots. PAA: hottest club; top 10 clubs; most prestigious; hardest to get into; best EDM club. Miami New Times nightclubs page earns about 60 visits/month.
+- **Best clubs in Chicago (Detroit as a section).** chicago clubs 1,400; chicago nightlife 1,100; best clubs in chicago 700/800 (TP 1,400, KD 17; earlier KP 1K–10K); house/edm/techno forms about 190 together; venue navigation about 5,400. Detroit: best clubs in detroit 60, detroit clubs 250, SERP full of private clubs. SERP: local pack, Reddit r/chicagoEDM pos 2, Yelp, Tripadvisor 1 RD, dirtydiscoradio 0 RD, Time Out 45 RD (5–23 visits per keyword). PAA: hottest, most prestigious, biggest club in Chicago.
+- **Best drum and bass tracks.** head 10 global; best drum and bass songs 200/20 US; listener track-list forms about 400 global. Earlier KP 1K–10K with −90% YoY; Ahrefs US history flat single digits, "songs" fell from about 35 to about 5 from May 2026. Scale conflict unresolved. SERP for songs: Spotify/YouTube/Reddit/Facebook; editorial lists Billboard 22 RD, UKF 2 RD.
+- **South America festivals.** best edm festivals in south america 0/0; south america festivals 50/150; all listener variants about 500 global. Brands: Tomorrowland Brasil 350/23,000, EDC Colombia 2,200/6,200, Lollapalooza Chile 1,400/9,000, Universo Paralello 100/2,200. SERP for music festivals in south america: about 3 editorial slots, weakest Discotech (Aug 2020) 1 RD.
+- **Closed legendary clubs.** generic closed-club phrases 0; legendary clubs 10/20; famous nightclubs 100/150. Venues: Paradise Garage 600/1,900, Space Ibiza 60/1,500. SERP: local-press listicles, 0 RD on pages checked.
+
+### Stage 6 verdict (8 November 2026, independent validator, on Ahrefs-only evidence)
+
+1. Miami: write narrower: a listener's guide to the late-night scene (rooms for which night, doors and queues, Miami Music Week), not electronic-only. 2. Chicago: write narrower: Chicago only, house history for a visitor, Detroit dropped. 3. Drum and bass tracks: drop for now; flips to write only if Keyword Planner shows a stable 1K+. 4. South America: narrower, lowest priority: a roundup anchored on named festivals by country with next-year dates. 5. Closed legendary clubs: drop (zero demand; reuse as internal links to the Haçienda and Printworks pages).
+
+Open: every verdict rests on Ahrefs alone. Miami and Chicago ordering could flip once Keyword Planner is available; drum and bass is the only verdict that could flip to write.
+
+### Keyword Planner pass, same five topics (8 November 2026)
+
+Source: Google Ads Keyword Planner, owner's account, United States, all languages, Google. One batch of 22 terms. Bucketed ranges, NOT comparable point-for-point with the Ahrefs figures above (US only, no global view).
+
+- **Miami:** miami clubs 10K–100K (3-month and YoY −90%, trend flag; check the history before trusting the level); miami music week 10K–100K; best clubs in miami 1K–10K; miami nightlife 1K–10K; best nightclubs in miami 1K–10K.
+- **Chicago:** best clubs in chicago 1K–10K; chicago clubs 1K–10K; chicago nightlife 1K–10K; chicago house music clubs 100–1K.
+- **Detroit:** best clubs in detroit 100–1K.
+- **Drum and bass tracks:** best drum and bass tracks 100–1K; best drum and bass songs 100–1K; best dnb songs 100–1K; best dnb tracks 100–1K; drum and bass classics 10–100. No term reaches 1K, no change figures shown.
+- **South America:** south america festivals 100–1K (3-month +900%, a spike); best music festivals in south america 10–100; edm festivals south america no data; tomorrowland brasil 1K–10K.
+- **Closed clubs:** legendary nightclubs, famous closed nightclubs, best nightclubs of all time: no data.
+
+Read against the stage 6 verdict: Miami and Chicago both confirmed at 1K–10K for the "best clubs in" head term, so the Ahrefs under-read is real but they stay level with each other. Drum and bass tracks tops out at 100–1K, below the 1K+ the validator set as the flip condition, so it stays dropped. South America stays lowest; the head term has demand (100–1K) but a +900% spike makes it unreliable. Closed legendary clubs stays dropped (no data at all).
+
+### Ten-topic pass: Keyword Planner + live SERP + independent validator (8 November 2026)
+
+Tool: Google Ads Keyword Planner, US, bucketed ranges only (account has no spend). SERPs read live in Google US the same day. Validator: a separate agent, stage 6, judged only the supplied evidence. Ahrefs figures are not mixed in.
+
+| # | Topic | Target keyword (Keyword Planner) | Validator | Framing / trap |
+|---|---|---|---|---|
+| 1 | Chicago clubs | best clubs in chicago 1K-10K; chicago clubs 1K-10K | CONFIRM | Where house lives. Detroit dropped. |
+| 2 | Miami clubs | miami clubs 10K-100K; best clubs in miami 1K-10K | CONFIRM | Listener's late-night guide. |
+| 3 | Los Angeles clubs | los angeles clubs 10K-100K; best clubs in los angeles 1K-10K | CONFIRM, narrower | Where to hear electronic music; avoid celeb/VIP/hip-hop intent. |
+| 4 | Gabber / hardcore | gabber 1K-10K; gabber music 1K-10K | CONFIRM | Weak SERP. Fold happy hardcore in. Trap: AI Overview on "what is" queries; production intent. |
+| 5 | Italo disco | italo disco 1K-10K | CONFIRM | Volume sits in the head term. SERP: Wikipedia, Vice, Masterclass, RYM. |
+| 6 | Baile funk | baile funk 1K-10K; brazilian funk 1K-10K | CONFIRM, narrower | Trap: Brazilian funk collides with phonk/TikTok remix intent. |
+| 7 | Washington DC clubs | washington dc clubs 10K-100K; best clubs in washington dc 1K-10K | CONFIRM, narrower (borderline) | Electronic scene, no go-go chase. |
+| 8 | Amapiano | amapiano music 1K-10K; what is amapiano 100-1K | CONFIRM, narrower (borderline) | Headline term carries a -90% flag; check trend. Listener history/artists, no sound design. |
+| 9 | San Francisco clubs | san francisco clubs 1K-10K; san francisco techno 100-1K | CONFIRM, narrower (borderline) | House/techno history frame. Bar/Yelp intent trap. |
+| 10 | Montreal clubs | montreal clubs 1K-10K | CONFIRM, narrower (weakest) | General clubs-and-music guide; techno only 10-100. |
+| - | Boston clubs | boston clubs 1K-10K | borderline, 11th | Thin evidence. |
+| - | Las Vegas | - | DROP | Table/ticket booking intent. |
+| - | Atlanta | - | DROP | Hip-hop / strip-club intent. |
+| - | Austin | - | DROP for now | No SERP read. |
+| - | Happy hardcore standalone | - | DROP as standalone | Streaming-playlist SERP; fold into #4. |
+
+Validator's plain verdict: only six are clean (Chicago, Miami, Los Angeles, gabber, italo disco, baile funk); DC, amapiano, San Francisco, Montreal are borderline and clear the bar of ten only on a generous reading. Bucketed 1K-10K hides a 10x spread, so the city terms are not comparable to each other.
+
+Missing evidence: post-click data, backlink counts for SERP pages, verbatim PAA for every query, the real volume inside each bucket. Cheapest settler: exact volumes for the five borderline head terms plus a 12-month trend for amapiano (Keyword Planner cannot give exact volumes on this account; Ahrefs is the fallback and would be labelled separately).
+
+### Ahrefs exact-volume pass, 44 terms in one call (8 November 2026)
+
+Tool: Ahrefs Keywords Explorer, US, exact monthly volume (V), traffic potential (TP), difficulty (KD), global volume (GV). Cost 1,848 units (pool 395,760 of 800,000 before the call, resets 20 Nov). Ahrefs figures are NOT merged with the Keyword Planner buckets above; Ahrefs under-reads city terms about 10x versus Keyword Planner, so compare cities only against each other.
+
+City clubs (Ahrefs): miami clubs V4300 TP15000 KD56; chicago clubs V1400 TP1200 KD40; best clubs in miami V1900; best clubs in chicago V700; houston V1100 (parent is a venue); atlanta V1000 (parent opium atlanta); dallas V1000; denver V900; san francisco V800 TP900 KD21; boston V800 TP1000 KD48; los angeles V700 TP7200 KD54; montreal V500 (GV1200); seattle V450 KD66; austin V400 KD52; nashville V400; philadelphia V350 TP2200; washington dc V250 TP0, best clubs in washington dc V40; new orleans V300.
+Genres (Ahrefs): phonk V44000 TP3900 GV172000 KD8; drill music V11000 TP4900 KD4; synthwave V9900 TP1400 GV32000 KD5; amapiano V4200 GV58000 KD17 (amapiano music V1200, what is amapiano V300); brazilian funk V2800 GV6200 KD1; psytrance V1700 GV10000 (festival term already taken); hyperpop V1500 GV14000; afro house V1300 GV17000; italo disco V1300 GV21000 KD7 (parent "italian disco"); gabber V1200 GV18000 KD4; electro swing V1100; baile funk V300 GV3900 (parent funk carioca); happy hardcore V200.
+
+Effect on the validator's ten: Washington DC falls out (V250 / 40). Montreal is weak in the US (V500) but GV1200. Baile funk alone is small; Brazilian funk is the volume term, so one guide titled around Brazilian funk with baile funk inside. Amapiano, gabber and italo disco have large global volume (58K, 18K, 21K) that the US buckets hid. Untaken genres phonk, drill, synthwave, hyperpop, electro swing were never run through stages 2-6: they are candidates, not confirmed.
+
+### Phonk, drill, synthwave, hyperpop: stages 2-6 (8 November 2026)
+
+Tool: Ahrefs US (matching terms, 1,860 units, fallback) plus live Google US SERP/PAA reads. Keyword Planner was NOT run for these four, so they are one stage shallower than the earlier ten; the validator calls the ranking provisional.
+
+- Phonk: CONFIRM narrower. Target "what is phonk" V2300 (+ what is phonk music 1300, phonk meaning 1000, phonk songs 900, TP2600): about 5,000-6,000 listener volume. "phonk music" 7600 is a playlist query (Spotify/Apple/YT Music). Rest of the 44,000 is meme/tool volume (tiki tiki 15000, yara yara 11000, phonk maker 3100, templates, roblox ids): never targeted. SERP weak (Reddit, Quora, Epidemic Sound, Native Instruments). Angle: "why did phonk become cringe" PAA. DROP if Keyword Planner puts the explainer cluster under ~3,000.
+- Drill: CONFIRM narrower. Target "what is drill music" V1900 KD13 (+ drill music artists 500), head term 11000 TP4900. Cross-scene explainer (Chicago, UK, Brooklyn), linked to the grime and UK garage guides. Trap: safeguarding/news intent and "tip drill". DROP if UK drill proves a larger separate term.
+- Synthwave: DROP for now. "synthwave music" TP0; rest is aesthetic/design terms.
+- Hyperpop: DROP. what is hyperpop V1000; ~3,000 of related volume is PS5 game collections; "hyperpop artists" 2700 is a list query Spotify/RYM win.
+
+Like-for-like in Ahrefs US (same tool, same day): phonk explainer cluster and drill (1,900 + head term) sit above Boston 800, San Francisco 800, Montreal 500 (city terms read about 10x low in Ahrefs, so this is not a clean comparison); amapiano 4200 stays above phonk's explainer cluster.
+
+### List-format screen: untaken regional festival lists and "best ... songs" lists (8 November 2026)
+
+Tool: Ahrefs Keywords Explorer, US, 38 terms in one call, 1,596 units. Stage 2 only (volume screen); no SERP, no validator, so NO verdict on any of these. Screen result only.
+
+Why run it: the 9 Oct - 7 Nov export shows regional festival lists carry the organic traffic (Europe 1,064 sessions, USA 504, Asia 219, NYE 193, winter 92) and city-club pages sit well below them.
+
+Regional festival lists (US volume / global): south america 0-10 / 0-30; brazil, italy, spain, belgium, poland, hungary, sweden, dubai 0-20 / 0-100 (music festivals spain 20 / 100; music festivals italy 10 / 50; france 10 / 30; thailand 10 / 70; india 10 / 70; japan 10 / 20). Australia, Mexico, Canada, UK, Las Vegas, Amsterdam, Croatia, Germany, Portugal, Asia, Europe, USA, psytrance, techno, house, bass, dnb festival lists are already built. Nothing untaken clears even a few hundred. The US read understates festivals abroad (locals search in their own country), so a country-level pull (GB, DE, ES, IT, FR, BR) is the missing test, not a verdict.
+Track/artist lists: best dance songs 3800 (TP1400, KD2, GV5900; pop intent, not yet checked); best house songs 300 (TP1400); best club songs 300; best techno songs 250 (best-techno-tracks already built); best edm songs 250 (TP700); best dubstep songs 150; best rave songs 100; best house djs 90 (TP2300, parent dj mag top 100); best techno djs 90; best deep house songs 70; trance/dnb/jungle/garage/breakbeat/hardstyle/progressive song lists 0-40.
+
+### Clubs and festivals screen, 64 terms (8 November 2026)
+
+Tool: Ahrefs Keywords Explorer, US volume (V) / global volume (GV), 2,688 units. Stage 2 only. The live Google SERP read was refused (Google "unusual traffic" page); the captcha was not attempted. No SERP, no validator: NO verdicts below, screen only.
+
+Individual festivals, untaken (V / GV): rock in rio 1300 / 153000; rock werchter 350 / 26000; pukkelpop 700 / 22000; sonic temple 19000 / 20000 (US rock festival); dour 150 / 8000; balaton sound 90 / 6300; lost village 350 / 6100; parklife 300 / 4300; world club dome 20 / 3800; electric zoo 1800 / 2700; kappa futurfestival 40 / 2300; field day 90 / 1100; lollapalooza brazil 800 / 1100; nature one 70 / 600. Already taken: dreamstate, beyond wonderland, best edm festivals.
+Festival lists: best music festivals in the world 350 / 1000 (TP700); best edm festivals 250 (taken); edm festivals 2027 200; best electronic music festivals 100 / 150; the rest (rave, camping, small, underground, beach, day) 0-50.
+City clubs, untaken (V / GV): bangkok 200 / 1300; toronto 150 / 800; bali 100 / 1000; istanbul 100 / 500; dubai 60 / 1100; singapore 70 / 700; seoul 60 / 250; buenos aires 60 / 100; copenhagen 60 / 350; athens 40 / 200; stockholm 40 / 300; sydney 30 / 600; munich 30 / 200; hong kong 30 / 200; everything else 0-20. Compare Miami 1900 and Chicago 700 in the same tool.
+
+## Clubs and festivals: web-search SERP read (8 November 2026)
+
+Tool: WebSearch (standard). Google live reads were blocked, so this is a coarse SERP read: who ranks, what intent. No People Also Ask, no volumes from this step. Volumes are the Ahrefs figures in the 64-term section above. **No verdicts: no competitor mining, no independent validator yet.**
+
+| Query | What ranks | Read |
+|---|---|---|
+| Rock Werchter festival guide | rockwerchter.be, festivalinfo.nl, knokr, musicfestivalwizard, festivalsandtours, thin auto-generated guides | Official site plus listing sites; guides are weak. Genre is rock/pop, mixed electronic. |
+| Pukkelpop festival guide | pukkelpop.be, museyon, Line of Best Fit, Yellowbrick, listing sites | Mostly older reviews and listings; no current strong guide. Genre mixed. |
+| Electric Zoo festival | Wikipedia, Time Out, amNY, DJ Mag, Live for Live Music | Status unclear (2023 chargeback fiasco, no confirmed 2024+). Risky to build on. |
+| Rock in Rio festival guide | Wikipedia, Skiddle, Viberate, Omelete, several 2026 guides | Contested: 2026 dates differ across sources; rock/pop. Guides exist but low authority. |
+| best music festivals in the world | Saily, Jameson, BudgetAir, Fodors, many blogs | Crowded, brand-heavy, all genres. Site already has best EDM festivals and festivals world pages. |
+| Parklife festival Manchester | Wikipedia, Yorkshire Post/Star/Scotsman, NME, Time Out, DJ Mag | News/press-led; moves to 10-11 July 2027 (per one listing). Dance-leaning, non-camping. Guide gap is plausible. |
+
+Not read: Dour, Lost Village, Balaton Sound, Sonic Temple, World Club Dome.
+Owner relevance: Rock Werchter, Pukkelpop and Rock in Rio are not dance-music events; fit with the site is a judgment for the owner.
