@@ -138,6 +138,14 @@ export const homeArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
   },
   {
+    page:'best-clubs-in-miami.html', category:'rave-spots', tags:['house','techno','discovery','miami'], href:'/best-clubs-in-miami', type:'Guide', topic:'Miami clubs',
+    title:'Best Clubs in Miami: Nightclubs for House and Techno',
+    description:'Club Space and its Terrace, Floyd, Jolene, Do Not Sit On The Furniture, M2 and Domicile: the best clubs in Miami for house and techno.',
+    image:'img/miami-clubs/club-space-exterior-2025-320.webp',
+    srcset:'img/miami-clubs/club-space-exterior-2025-320.webp 320w,img/miami-clubs/club-space-exterior-2025-1200.webp 1200w',
+    width:1200, height:900, alt:'The Club Space sign on the side of the club in Downtown Miami'
+  },
+  {
     page:'best-clubs-in-chicago.html', category:'rave-spots', tags:['house','techno','history','discovery','chicago'], href:'/best-clubs-in-chicago', type:'Guide', topic:'Chicago clubs',
     title:'Best Clubs in Chicago: Nightclubs for House and Techno',
     description:'Smart Bar, Podlasie, Spybar, Sound-Bar, Le Nocturne and Radius: the best clubs in Chicago for house and techno, and the Warehouse where house began.',

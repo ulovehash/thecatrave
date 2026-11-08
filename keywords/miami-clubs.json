@@ -1,0 +1,23 @@
+{
+  "page": "best-clubs-in-miami.html",
+  "seed": "best clubs in miami",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, United States, read 2026-11-08: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, read 2026-11-08: point volumes, marked 'Ahrefs US' in each note. SERP: local pack, Tripadvisor, Reddit, miamiandbeaches, Time Out. PAA: hottest club in Miami; top 10 clubs in Miami; most prestigious club in Miami; hardest club to get into in Miami; best EDM club in Miami.",
+  "note": "'miami clubs' has E11EVEN as its Ahrefs parent topic, and the head terms are dominated by bottle-service rooms. The page leads with the clubs where the music is the reason to go (Club Space, Floyd, Do Not Sit On The Furniture, Jolene, Domicile) and answers the LIV and E11EVEN questions in prose, as the NYC and Chicago guides do. Venue names (LIV 17,000, Club Space 11,000, Ahrefs US) are navigational and not targeted.",
+  "terms": [
+    {"term": "miami clubs", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner (3-month and YoY -90% trend flag). Ahrefs US 4,300, TP 15,000"},
+    {"term": "best clubs in miami", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner. Ahrefs US 1,900"},
+    {"term": "best nightclubs in miami", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner"},
+    {"term": "miami nightlife", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner. Ahrefs US 1,800. Answered by the where-to-go section only"},
+    {"term": "clubs in miami", "volume": 4100, "market": "US", "note": "Ahrefs US"},
+    {"term": "miami nightclubs", "volume": 800, "market": "US", "note": "Ahrefs US"},
+    {"term": "edm clubs miami", "volume": 90, "market": "US", "note": "Ahrefs US"},
+    {"term": "house music clubs miami", "volume": 40, "market": "US", "note": "Ahrefs US"},
+    {"term": "techno clubs miami", "volume": 20, "market": "US", "note": "Ahrefs US"}
+  ],
+  "rejected": [
+    {"term": "miami music week", "volume": 10000, "reason": "Keyword Planner 10K-100K, Ahrefs US 4,000. Event intent with dates and lineups; covered in a section, not claimed as the page's target."},
+    {"term": "liv miami", "volume": 17000, "reason": "Ahrefs US. Navigational, a bottle-service club."},
+    {"term": "club space miami", "volume": 11000, "reason": "Ahrefs US. Navigational; the club's own site answers it."},
+    {"term": "best techno clubs in miami", "volume": 0, "reason": "Ahrefs US 0."}
+  ]
+}

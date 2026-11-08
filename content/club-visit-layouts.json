@@ -37,6 +37,17 @@
       "where-to-go": "Hear New York before you go."
     }
   },
+  "/best-clubs-in-miami": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 2
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Miami before you go."
+    }
+  },
   "/best-clubs-in-chicago": {
     "sections": [
       "where-to-go"

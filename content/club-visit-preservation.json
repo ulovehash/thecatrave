@@ -821,7 +821,7 @@
       "img/thecatrave-author-800.jpg",
       "img/berghain/berghain-facade-320.webp",
       "img/nyc-clubs/limelight-church-320.webp",
-      "img/tokyo-clubs/womb-shibuya-320.webp",
+      "img/miami-clubs/club-space-exterior-2025-320.webp",
       "img/chicago-clubs/chicago-metro-sign-320.webp"
     ]
   },
@@ -2764,6 +2764,54 @@
       "img/thecatrave-author-800.jpg",
       "img/arc-music-festival/arc-union-park-320.webp",
       "img/berghain/berghain-facade-320.webp",
+      "img/nyc-clubs/limelight-church-320.webp",
+      "img/tokyo-clubs/womb-shibuya-320.webp"
+    ]
+  },
+  "best-clubs-in-miami.html": {
+    "title": "Best Clubs in Miami: Nightclubs for House and Techno",
+    "canonical": "https://thecatrave.com/best-clubs-in-miami",
+    "description": "The best clubs in Miami for house and techno: Club Space and its Terrace, Floyd, Jolene, Do Not Sit On The Furniture, M2 and Domicile, plus LIV and E11EVEN.",
+    "h1": "The best clubs in Miami, from the Terrace at Club Space to Do Not Sit",
+    "published": "2026-11-08",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "visiting",
+      "own-playlist-rare-electronic-music",
+      "introduction",
+      "bandcamp-support-title",
+      "club-space",
+      "danny-tenaglia",
+      "miami-music-week",
+      "best-clubs-now",
+      "house-clubs",
+      "techno-clubs",
+      "where-to-go",
+      "own-set-1",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "https://bandcamp.com/EmbeddedPlayer/track=3822639635/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "img/miami-clubs/club-space-exterior-2025-1200.webp",
+      "https://www.youtube-nocookie.com/embed/J6E0tzn_atA",
+      "https://www.youtube-nocookie.com/embed/FkXtP2WBh7I",
+      "img/miami-clubs/danny-tenaglia-2007-964.webp",
+      "https://www.youtube-nocookie.com/embed/-ep50fB1HFc",
+      "img/miami-clubs/wmc-2009-pool-party-1200.webp",
+      "https://www.youtube-nocookie.com/embed/JH0orYzf6jY",
+      "https://www.youtube-nocookie.com/embed/3wOKANodMf8",
+      "img/miami-clubs/liv-fontainebleau-2011-1200.webp",
+      "img/miami-clubs/ocean-drive-carlyle-2018-1200.webp",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "img/thecatrave-author-800.jpg",
+      "img/berghain/berghain-facade-320.webp",
+      "img/chicago-clubs/chicago-metro-sign-320.webp",
       "img/nyc-clubs/limelight-church-320.webp",
       "img/tokyo-clubs/womb-shibuya-320.webp"
     ]

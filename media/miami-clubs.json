@@ -1,0 +1,18 @@
+{
+  "page": "best-clubs-in-miami.html",
+  "seed": "best clubs in miami",
+  "source": "FIGURES.md adapted for clubs, 2026-11-08, as for the NYC and Chicago guides. S4 consensus: Time Out 'Best clubs in Miami' (updated January 2026, 15 entries, read in full), 6AM '40 best house and techno clubs in North America' (Do Not Sit On The Furniture 19, Club Space 21), DJ Mag Top 100 Clubs 2026 (Club Space 14). S5 history: Wikipedia Club Space, Winter Music Conference, Miami Music Week, LIV, E11EVEN, Danny Tenaglia. Clubs named by 2+ sources: Club Space, Do Not Sit On The Furniture. Floyd and Jolene are from Time Out and the Club Space history; M2, Domicile, MODE and Mad Radio from Time Out with their RA venue pages. Reddit was not read.",
+  "required_records": [
+    {"title": "Club Space", "artist": "club, since March 2000", "year": null, "why": "S4 Time Out 1, 6AM, DJ Mag 2026; S5 Wikipedia. Photographed and two sets from the Terrace embedded", "sources": ["originators", "consensus"], "embed_id": "J6E0tzn_atA"},
+    {"title": "The Terrace at Club Space", "artist": "Deep Dish", "year": null, "why": "S5: Deep Dish named among the club's notable performers; set recorded on the Terrace", "sources": ["originators"], "embed_id": "FkXtP2WBh7I"},
+    {"title": "Danny Tenaglia", "artist": "DJ, played Space's opening night", "year": null, "why": "S5 Wikipedia Club Space and Danny Tenaglia (a Miami resident in the 1980s). Photographed and a Miami set embedded", "sources": ["originators"], "embed_id": "-ep50fB1HFc"},
+    {"title": "Do Not Sit On The Furniture", "artist": "club, founded by Behrouz", "year": null, "why": "S4 Time Out and 6AM. Behrouz set embedded", "sources": ["consensus"], "embed_id": "JH0orYzf6jY"},
+    {"title": "Factory Town", "artist": "venue, Hialeah", "year": null, "why": "S5 Wikipedia (Link Miami Rebels). Adam Beyer set recorded there", "sources": ["consensus"], "embed_id": "3wOKANodMf8"},
+    {"title": "Winter Music Conference", "artist": "conference, since 1985", "year": null, "why": "S5 Wikipedia. Photographed (WMC 2009 pool party)", "sources": ["originators"], "no_embed_reason": "an event; photographed"},
+    {"title": "LIV", "artist": "club, Fontainebleau, since 2008", "year": null, "why": "S4 Time Out; S5 Wikipedia; PAA most famous. Photographed", "sources": ["consensus"], "no_embed_reason": "bottle-service room, answered in prose"},
+    {"title": "E11EVEN", "artist": "club, since 2014", "year": null, "why": "S4 Time Out 2; S5 Wikipedia; Ahrefs parent topic of 'miami clubs'", "sources": ["consensus"], "no_embed_reason": "bottle-service room, answered in prose"},
+    {"title": "Floyd", "artist": "room at Club Space", "year": null, "why": "S4 Time Out; S5 Wikipedia Club Space", "sources": ["consensus"], "no_embed_reason": "no set from the room in the catalogue"},
+    {"title": "Jolene Sound Room", "artist": "club, Downtown", "year": null, "why": "S4 Time Out", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"},
+    {"title": "Domicile", "artist": "club, Allapattah", "year": null, "why": "S4 Time Out", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"}
+  ]
+}

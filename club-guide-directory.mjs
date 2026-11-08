@@ -78,7 +78,7 @@ const groups = {
   mykonos: ['Cavo Paradiso'],
   dubrovnik: ['Culture Club Revelin'],
   krakow: ['Prozak 2.0'],
-  miami: ['Club Space'],
+  miami: ['Club Space', 'Floyd', 'Jolene Sound Room', 'Do Not Sit On The Furniture', 'M2', 'Domicile', 'MODE Downtown'],
   washington: ['Echostage'],
   losAngeles: ['Academy LA'],
   singapore: ['Zouk Singapore'],
@@ -94,6 +94,12 @@ const groups = {
 // a link labelled "Upcoming events" must already be filtered to that club.
 const venueEvents = {
   'Smart Bar': 'https://ra.co/clubs/608',
+  'Floyd': 'https://ra.co/clubs/111722',
+  'Jolene Sound Room': 'https://ra.co/clubs/214717',
+  'Do Not Sit On The Furniture': 'https://ra.co/clubs/80115',
+  'M2': 'https://ra.co/clubs/242641',
+  'Domicile': 'https://ra.co/clubs/189088',
+  'MODE Downtown': 'https://ra.co/clubs/228652',
   'Podlasie Club': 'https://ra.co/clubs/189215',
   'Spybar': 'https://ra.co/clubs/3238',
   'Sound-Bar': 'https://ra.co/clubs/2501',
