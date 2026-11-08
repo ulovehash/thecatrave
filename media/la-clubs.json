@@ -1,0 +1,16 @@
+{
+  "page": "best-clubs-in-los-angeles.html",
+  "seed": "best clubs in los angeles",
+  "source": "FIGURES.md adapted for clubs, 2026-11-08, as for the NYC, Chicago and Miami guides. S4 consensus: DJ Mag Top 100 Clubs 2026 (Academy LA 44, Exchange LA 48, Avalon 64, Sound 86), 6AM '40 best house and techno clubs in North America' (Academy LA 14, Lot 613 15, Sound 16, Exchange LA 17, Avalon 18), Time Out LA dance clubs list (Framework at Sound, Avalon, Dub Club, Part Time Punks). S5 history: Wikipedia Avalon (Hollywood), Los Angeles Stock Exchange Building, Insomniac, Electric Daisy Carnival, Jewel's Catch One. Clubs named by 2+ sources: Academy LA, Exchange LA, Avalon, Sound. Lot 613 from 6AM with its RA page; Catch One from Wikipedia with its RA page. Reddit was not read.",
+  "required_records": [
+    {"title": "Avalon Hollywood", "artist": "club, 1927 theatre", "year": null, "why": "S4 DJ Mag 64, 6AM 18, Time Out; S5 Wikipedia. Photographed outside and inside", "sources": ["originators", "consensus"], "no_embed_reason": "no set from the room in the catalogue; photographed"},
+    {"title": "Exchange LA", "artist": "club, since 2010", "year": null, "why": "S4 DJ Mag 48, 6AM 17; S5 Wikipedia; Ahrefs parent topic of 'los angeles clubs'. Building photographed", "sources": ["consensus"], "no_embed_reason": "the only catalogue set from the club is bass music; photographed"},
+    {"title": "Academy LA", "artist": "club, Insomniac", "year": null, "why": "S4 DJ Mag 44, 6AM 14", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"},
+    {"title": "Sound", "artist": "club, since 2012", "year": null, "why": "S4 DJ Mag 86, 6AM 16, Time Out (Framework). Framework set embedded", "sources": ["consensus"], "embed_id": "Xm0F3XwiBY0"},
+    {"title": "Marques Wyatt", "artist": "DJ, Los Angeles", "year": null, "why": "S4 Time Out (Framework DJs). Set recorded in Los Angeles embedded", "sources": ["originators"], "embed_id": "18nZvCPbYSA"},
+    {"title": "Insomniac", "artist": "promoter, Pasquale Rotella", "year": null, "why": "S5 Wikipedia Insomniac and EDC. Factory 93 set embedded", "sources": ["originators"], "embed_id": "uaQ6n3FHx0U"},
+    {"title": "Lot 613", "artist": "warehouse club, Arts District", "year": null, "why": "S4 6AM 15", "sources": ["consensus"], "no_embed_reason": "no set from the club in the catalogue"},
+    {"title": "Lights Down Low", "artist": "party, Los Angeles", "year": null, "why": "Boiler Room LA set by Boys Noize embedded", "sources": ["consensus"], "embed_id": "aH879o3tWfk"},
+    {"title": "Jewel's Catch One", "artist": "club, since 1973", "year": null, "why": "S5 Wikipedia. Photographed", "sources": ["originators"], "no_embed_reason": "no set from the club in the catalogue; photographed"}
+  ]
+}

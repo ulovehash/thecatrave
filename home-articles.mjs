@@ -138,6 +138,14 @@ export const homeArticleCatalog = [
     width:1200, height:798, alt:'Jeff Mills mixing records in a Detroit club in 2010'
   },
   {
+    page:'best-clubs-in-los-angeles.html', category:'rave-spots', tags:['house','techno','history','discovery','los-angeles'], href:'/best-clubs-in-los-angeles', type:'Guide', topic:'Los Angeles clubs',
+    title:'Best Clubs in Los Angeles: Nightclubs for House and Techno',
+    description:'Avalon Hollywood, Exchange LA, Academy LA, Sound, Lot 613 and Catch One: the best clubs in Los Angeles for house and techno.',
+    image:'img/la-clubs/avalon-hollywood-2007-320.webp',
+    srcset:'img/la-clubs/avalon-hollywood-2007-320.webp 320w,img/la-clubs/avalon-hollywood-2007-1200.webp 1200w',
+    width:1200, height:900, alt:'The ornate front of the Avalon building on Vine Street in Hollywood'
+  },
+  {
     page:'best-clubs-in-miami.html', category:'rave-spots', tags:['house','techno','discovery','miami'], href:'/best-clubs-in-miami', type:'Guide', topic:'Miami clubs',
     title:'Best Clubs in Miami: Nightclubs for House and Techno',
     description:'Club Space and its Terrace, Floyd, Jolene, Do Not Sit On The Furniture, M2 and Domicile: the best clubs in Miami for house and techno.',

@@ -1,0 +1,23 @@
+{
+  "page": "best-clubs-in-los-angeles.html",
+  "seed": "best clubs in los angeles",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, United States, from the clubs and festivals pass in TOPIC-DOSSIERS.md: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer matching terms, United States, read 2026-11-08: point volumes, marked 'Ahrefs US' in each note.",
+  "note": "'los angeles clubs' has Exchange LA as its Ahrefs parent topic (TP 7,200). The head terms mix bottle-service, hip-hop and dance clubs; the page leads with the dance clubs (Avalon, Exchange LA, Academy LA, Sound, Lot 613, Catch One) and names the other kinds only in the introduction. Strip, comedy and jazz club terms rejected.",
+  "terms": [
+    {"term": "los angeles clubs", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner. Ahrefs US 700, TP 7,200, KD 54, parent topic Exchange LA"},
+    {"term": "best clubs in los angeles", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner. Ahrefs US 600"},
+    {"term": "clubs in la", "volume": 1500, "market": "US", "note": "Ahrefs US, TP 1,000, KD 1"},
+    {"term": "la clubs", "volume": 900, "market": "US", "note": "Ahrefs US, TP 1,200, KD 41"},
+    {"term": "clubs in los angeles", "volume": 800, "market": "US", "note": "Ahrefs US"},
+    {"term": "nightclubs in los angeles", "volume": 600, "market": "US", "note": "Ahrefs US"},
+    {"term": "best clubs in la", "volume": 600, "market": "US", "note": "Ahrefs US, parent topic la nightlife"},
+    {"term": "los angeles nightclubs", "volume": 350, "market": "US", "note": "Ahrefs US"},
+    {"term": "best nightclubs in los angeles", "volume": 350, "market": "US", "note": "Ahrefs US"},
+    {"term": "edm clubs los angeles", "volume": 250, "market": "US", "note": "Ahrefs US, TP 350, KD 30"}
+  ],
+  "rejected": [
+    {"term": "edm clubs in los angeles?", "volume": 3700, "reason": "Ahrefs US shows a volume with no other metrics; treated as unreliable. The plain form is targeted."},
+    {"term": "18+ clubs in la", "volume": 300, "reason": "Ahrefs US. Age-limit intent the page cannot answer reliably; limits vary by night."},
+    {"term": "clubs los angeles", "volume": 800, "reason": "Ahrefs US. Same intent as 'clubs in los angeles', which is targeted."}
+  ]
+}

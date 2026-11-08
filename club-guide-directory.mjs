@@ -80,7 +80,7 @@ const groups = {
   krakow: ['Prozak 2.0'],
   miami: ['Club Space', 'Floyd', 'Jolene Sound Room', 'Do Not Sit On The Furniture', 'M2', 'Domicile', 'MODE Downtown'],
   washington: ['Echostage'],
-  losAngeles: ['Academy LA'],
+  losAngeles: ['Avalon Hollywood', 'Exchange LA', 'Academy LA', 'Sound', 'Lot 613', 'Catch One'],
   singapore: ['Zouk Singapore'],
   phuket: ['Illuzion Phuket'],
   bali: ['Savaya'],
@@ -94,6 +94,11 @@ const groups = {
 // a link labelled "Upcoming events" must already be filtered to that club.
 const venueEvents = {
   'Smart Bar': 'https://ra.co/clubs/608',
+  'Avalon Hollywood': 'https://ra.co/clubs/1267',
+  'Exchange LA': 'https://ra.co/clubs/36833',
+  'Sound': 'https://ra.co/clubs/73088',
+  'Lot 613': 'https://ra.co/clubs/15062',
+  'Catch One': 'https://ra.co/clubs/57175',
   'Floyd': 'https://ra.co/clubs/111722',
   'Jolene Sound Room': 'https://ra.co/clubs/214717',
   'Do Not Sit On The Furniture': 'https://ra.co/clubs/80115',

@@ -554,5 +554,16 @@
     ],
     "paragraphTables": true,
     "title": "Prepara tu visita"
+  },
+  "/best-clubs-in-los-angeles": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 2
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Los Angeles before you go."
+    }
   }
 }
