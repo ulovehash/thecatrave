@@ -1,0 +1,98 @@
+{
+  "page": "brazilian-funk-guide.html",
+  "seed": "brazilian funk",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, English, read 2026-11-09 through Claude in Chrome, two passes, 17 ideas: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, from the topic dossier, for two terms only: marked 'Ahrefs US'. Parent topic: funk carioca.",
+  "note": "The FAQ answers the People Also Ask questions: what is Brazilian funk called, what does baile funk mean, what genre is baile funk, the most famous song, what happens at a baile, why it is so explicit, Brazilian funk or phonk, and baile funk vs Brazilian funk.",
+  "terms": [
+    {
+      "term": "brazilian funk",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner. Ahrefs US 2,800, GV 6,200, KD 1"
+    },
+    {
+      "term": "funk carioca",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "funk brasileiro",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "baile funk",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner. Ahrefs US 300, GV 3,900, parent topic funk carioca"
+    },
+    {
+      "term": "baile funk brazil",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "brazilian funk music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "brazilian funk songs",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "baile funk music",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "funk carioca music",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "brazilian funk artists",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "brazilian phonk",
+      "reason": "phonk and TikTok remix intent; answered in the phonk section but not targeted"
+    },
+    {
+      "term": "baile funk loop",
+      "reason": "file intent: no files are handed out"
+    },
+    {
+      "term": "baile funk sample",
+      "reason": "file intent"
+    },
+    {
+      "term": "baile funk vocal samples",
+      "reason": "file intent"
+    },
+    {
+      "term": "brazil funk power",
+      "reason": "a single track's search string"
+    },
+    {
+      "term": "brazilian funk music 2022",
+      "reason": "dated playlist intent"
+    },
+    {
+      "term": "the brasileiro treasure box of funk & soul",
+      "reason": "a compilation of a different genre"
+    }
+  ]
+}

@@ -506,6 +506,14 @@ export const homeArticleCatalog = [
     width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
   },
   {
+    page:'brazilian-funk-guide.html', category:'music-history', tags:['history','brazilian funk','baile funk','miami bass','hip-hop'], href:'/brazilian-funk-guide', type:'Guide', topic:'Brazilian funk',
+    title:'What Is Brazilian Funk? Baile Funk, Funk Carioca and Songs',
+    description:'An MC, a DJ and a loud sound system: where funk carioca came from, what a baile funk is, the styles, the biggest songs and the artists.',
+    image:'img/brazilian-funk/a-festa-rio-2017-320.webp',
+    srcset:'img/brazilian-funk/a-festa-rio-2017-320.webp 320w,img/brazilian-funk/a-festa-rio-2017-1200.webp 1200w',
+    width:1200, height:800, alt:'A woman singing into a microphone on a stage in Rio de Janeiro, 2017'
+  },
+  {
     page:'italo-disco-guide.html', category:'music-history', tags:['history','disco','italo disco','house','synth-pop'], href:'/italo-disco-guide', type:'Guide', topic:'Italo disco',
     title:'What Is Italo Disco? Italian Disco Music, Songs and Artists',
     description:'Drum machines, synthesizers and English sung by Italians: the Italo disco sound, how ZYX named it, the biggest hits and the link to house.',

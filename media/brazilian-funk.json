@@ -1,0 +1,216 @@
+{
+  "page": "brazilian-funk-guide.html",
+  "seed": "brazilian funk",
+  "source": "FIGURES.md, 2026-11-09. S5 history: Wikipedia Funk carioca and the song and artist pages; The FADER, Nadine Smith, 31 August 2023; Bandcamp Daily, Filipe Costa, 24 October 2024; the Guardian, Felipe Maia, 14 November 2023. S4 consensus: names in two or more of those.",
+  "required_records": [
+    {
+      "title": "Planet Rock",
+      "artist": "Afrika Bambaataa and the Soulsonic Force",
+      "year": 1982,
+      "why": "S5 Wikipedia: DJ Marlboro's named main influence",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "9J3lwZjHenA"
+    },
+    {
+      "title": "It's Automatic",
+      "artist": "Freestyle",
+      "year": 1988,
+      "why": "S5 Guardian: on a 1988 Furacão 2000 compilation; no official upload, named without a player",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "title": "Quem Que Caguetou",
+      "artist": "Black Alien and Speed",
+      "year": 2003,
+      "why": "S5 Wikipedia: European car commercial",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "xqq7g-H1WHY"
+    },
+    {
+      "title": "Bucky Done Gun",
+      "artist": "M.I.A.",
+      "year": 2005,
+      "why": "S5 Wikipedia and Guardian (M.I.A. with Diplo)",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "2LFdPVf1diw"
+    },
+    {
+      "title": "Pon de Floor",
+      "artist": "Major Lazer",
+      "year": 2009,
+      "why": "S5 Guardian: basis of Run the World (Girls)",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "pHEkIiQpwI8"
+    },
+    {
+      "title": "Olha a Explosão",
+      "artist": "MC Kevinho",
+      "year": 2016,
+      "why": "S5 Wikipedia song page: over a billion views",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "3yd_eoMOvqk"
+    },
+    {
+      "title": "Bum Bum Tam Tam",
+      "artist": "MC Fioti",
+      "year": 2017,
+      "why": "S5 Wikipedia song page: number one in the Netherlands",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "_P7S2lKif-A"
+    },
+    {
+      "title": "Vai Malandra",
+      "artist": "Anitta, MC Zaac and Maejor",
+      "year": 2017,
+      "why": "S5 Wikipedia song page; Anitta in Bandcamp Daily, FADER and Guardian",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "kDhptBT_-VI"
+    },
+    {
+      "title": "Fala Mal de Mim",
+      "artist": "Ludmilla",
+      "why": "S5 Wikipedia artist page",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "KhE4zBwKx_M"
+    },
+    {
+      "title": "Fuleragem",
+      "artist": "MC WM",
+      "why": "S5 Wikipedia: best-known rasteirinha record",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "4N2iMmHcHys"
+    },
+    {
+      "title": "Parabéns",
+      "artist": "Pabllo Vittar featuring Psirico",
+      "why": "S5 Wikipedia: brega funk example; Pabllo Vittar in Bandcamp Daily",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "RAQmKOsonhc"
+    },
+    {
+      "title": "Ela É do Tipo",
+      "artist": "Kevin o Chris",
+      "why": "S5 Wikipedia: 150 BPM, Drake remix 2019; no official upload found, named without a player",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "title": "Automotivo Bibi Fogosa",
+      "artist": "Bibi Babydoll",
+      "year": 2023,
+      "why": "S5 Wikipedia: number one on Spotify in Ukraine",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "N0pDBF00ygQ"
+    },
+    {
+      "title": "São Paulo",
+      "artist": "The Weeknd and Anitta",
+      "year": 2024,
+      "why": "S5 Wikipedia: rave funk",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "2kjolTLZ_Mg"
+    }
+  ],
+  "sets": [
+    {
+      "artist": "Furacão 2000",
+      "title": "Boiler Room Rio de Janeiro: Carnaval",
+      "embed_id": "9QASL0SjNGQ"
+    },
+    {
+      "artist": "Rennan da Penha",
+      "title": "Boiler Room Rio de Janeiro: Carnaval",
+      "embed_id": "s3rjrd6jOrk"
+    },
+    {
+      "artist": "DJ K",
+      "title": "Boiler Room LA: Favela Worldwide",
+      "embed_id": "BhYwzsA4Vfo"
+    }
+  ],
+  "required_figures": [
+    "DJ Marlboro",
+    "Furacão 2000",
+    "Tati Quebra Barraco",
+    "MC Carol",
+    "Anitta",
+    "Ludmilla",
+    "Pabllo Vittar",
+    "Kevin o Chris",
+    "KondZilla",
+    "Rennan da Penha",
+    "DJ Arana",
+    "DJ K",
+    "Badsista",
+    "Diplo"
+  ],
+  "images": [
+    {
+      "file": "img/brazilian-funk/a-festa-rio-2017",
+      "event": "Cisheterofobia Existe – A FESTA – MC Linn da Quebrada & MC Carol, Rio, 1 April 2017",
+      "author": "Ramon Aquim, Mídia NINJA",
+      "licence": "CC BY-SA 2.0",
+      "note": "the singer is not identified on Commons; caption stays neutral"
+    },
+    {
+      "file": "img/brazilian-funk/dj-marlboro-2013",
+      "author": "Olimor",
+      "licence": "CC BY-SA 3.0"
+    },
+    {
+      "file": "img/brazilian-funk/tati-quebra-barraco-2021",
+      "author": "Humor Multishow",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "file": "img/brazilian-funk/kevin-o-chris-2023",
+      "author": "Humor Multishow",
+      "licence": "CC BY 3.0"
+    },
+    {
+      "file": "img/brazilian-funk/kondzilla-2023",
+      "author": "Web Summit Rio",
+      "licence": "CC BY 2.0"
+    },
+    {
+      "file": "img/brazilian-funk/anitta-2024",
+      "author": "Attractive Mindset",
+      "licence": "CC BY 3.0"
+    },
+    {
+      "file": "img/brazilian-funk/liga-do-funk-sao-paulo-2013",
+      "author": "Circuito Fora do Eixo",
+      "licence": "CC BY-SA 2.0"
+    }
+  ]
+}

@@ -108,6 +108,7 @@ export const generators = [
   'build-la-clubs-article.mjs',
   'build-gabber-article.mjs',
   'build-italo-disco-article.mjs',
+  'build-brazilian-funk-article.mjs',
   'build-tokyo-clubs-article.mjs',
   'build-budapest-clubs-article.mjs',
   'build-belgrade-clubs-article.mjs',
