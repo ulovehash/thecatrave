@@ -1,0 +1,101 @@
+{
+  "page": "best-clubs-in-san-francisco.html",
+  "seed": "best clubs in san francisco",
+  "source": "Google Ads Keyword Planner, owner's account, All locations, English, read 2026-11-09: one pass of ten seeds (san francisco clubs, best clubs in san francisco, san francisco nightclubs, san francisco nightlife, sf clubs, san francisco techno, san francisco house music, clubs in san francisco, the endup sf, monarch sf), 565 ideas, pages 1-2 read. Ranges; 'volume' is the lower bound. Ahrefs not used.",
+  "note": "The page covers music-first dance clubs, as the Chicago, LA, NYC, Paris and Amsterdam guides do. Venue navigational terms (1015 folsom sf, dna lounge sf, the endup sf, monarch sf, oasis club sf, cat club san francisco) are covered by the venues being named, not claimed as targets.",
+  "terms": [
+    {
+      "term": "best clubs in san francisco",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Primary: title and H2"
+    },
+    {
+      "term": "san francisco clubs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "san francisco nightclubs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "clubs in san francisco",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Seen as clubs in san francisco ca"
+    },
+    {
+      "term": "dance club in san francisco",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "best dance club in san francisco",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. FAQ"
+    },
+    {
+      "term": "san francisco techno",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. H2"
+    },
+    {
+      "term": "san francisco house music",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. H2 and body"
+    },
+    {
+      "term": "best night clubs in san francisco",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. FAQ"
+    },
+    {
+      "term": "best nightlife in san francisco",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Body, where-to-go section"
+    },
+    {
+      "term": "18 and up clubs in san francisco",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Many 18+ variants; FAQ"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "gentlemen's, strip and sex clubs",
+      "volume": null,
+      "reason": "Adult intent."
+    },
+    {
+      "term": "san francisco bars, wine and jazz bars",
+      "volume": null,
+      "reason": "Bar intent, not dance clubs."
+    },
+    {
+      "term": "bowling, comedy, private, athletic and social clubs",
+      "volume": null,
+      "reason": "Other meanings of club."
+    },
+    {
+      "term": "club fugazi",
+      "volume": null,
+      "reason": "A theatre."
+    },
+    {
+      "term": "bimbo's 365",
+      "volume": 10000,
+      "reason": "Keyword Planner 10K-100K. A live music venue, not a dance club."
+    }
+  ]
+}

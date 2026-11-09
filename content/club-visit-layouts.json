@@ -565,5 +565,16 @@
     "remainderTitles": {
       "where-to-go": "Hear Los Angeles before you go."
     }
+  },
+  "/best-clubs-in-san-francisco": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 2
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear San Francisco before you go."
+    }
   }
 }

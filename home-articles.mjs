@@ -506,6 +506,14 @@ export const homeArticleCatalog = [
     width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
   },
   {
+    page:'best-clubs-in-san-francisco.html', category:'rave-spots', tags:['house','techno','history','discovery','san-francisco'], href:'/best-clubs-in-san-francisco', type:'Guide', topic:'San Francisco clubs',
+    title:'Best Clubs in San Francisco: Nightclubs for House and Techno',
+    description:'Public Works, Audio, Monarch, 1015 Folsom and the EndUp: the best clubs in San Francisco, from the Trocadero and hi-NRG to DNA Lounge and Oasis.',
+    image:'img/sf-clubs/the-endup-sf-320.webp',
+    srcset:'img/sf-clubs/the-endup-sf-320.webp 320w,img/sf-clubs/the-endup-sf-1200.webp 1200w',
+    width:1200, height:900, alt:'The white EndUp building with its vertical sign, on a SoMa street corner in daylight'
+  },
+  {
     page:'amapiano-guide.html', category:'music-history', tags:['history','amapiano','house','kwaito','south africa'], href:'/amapiano-guide', type:'Guide', topic:'Amapiano',
     title:'What Is Amapiano? South African House Music, Songs, Artists',
     description:'Pianos and a rolling log drum: where amapiano came from, how it spread from minibus taxis to the Billboard Hot 100, the styles, the songs and the artists.',

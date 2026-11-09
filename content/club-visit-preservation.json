@@ -44,7 +44,7 @@
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
       "img/barcelona-clubs/razzmatazz-exterior-320.webp",
-      "img/la-clubs/avalon-hollywood-2007-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "berghain.html": {
@@ -136,7 +136,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/barcelona-clubs/razzmatazz-exterior-320.webp",
-      "img/la-clubs/avalon-hollywood-2007-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "best-clubs-in-barcelona.html": {
@@ -175,7 +175,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/la-clubs/avalon-hollywood-2007-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "best-clubs-in-nyc.html": {
@@ -558,7 +558,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "best-clubs-in-amsterdam.html": {
@@ -600,7 +600,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "best-clubs-in-ibiza.html": {
@@ -864,7 +864,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
+      "img/europe-clubbing-cities/cross-club-prague-320.webp"
     ]
   },
   "best-nightclubs-in-the-world.html": {
@@ -2862,6 +2862,63 @@
       "img/chicago-clubs/chicago-metro-sign-320.webp",
       "img/nyc-clubs/limelight-church-320.webp",
       "img/tokyo-clubs/womb-shibuya-320.webp"
+    ]
+  },
+  "best-clubs-in-san-francisco.html": {
+    "title": "Best Clubs in San Francisco: Nightclubs for House and Techno",
+    "canonical": "https://thecatrave.com/best-clubs-in-san-francisco",
+    "description": "The best clubs in San Francisco for house and techno: Public Works, Audio, Monarch, 1015 Folsom and the EndUp, plus DNA Lounge, Oasis and the city’s disco history.",
+    "h1": "The best clubs in San Francisco, from the Trocadero to Public Works",
+    "published": "2026-11-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "visiting",
+      "own-playlist-rare-electronic-music",
+      "introduction",
+      "bandcamp-support-title",
+      "trocadero",
+      "endup",
+      "nineties",
+      "best-clubs-now",
+      "techno-house",
+      "dna-lounge",
+      "lgbtq",
+      "where-to-go",
+      "own-set-1",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "https://bandcamp.com/EmbeddedPlayer/track=3822639635/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "img/sf-clubs/patrick-cowley-1982-428.webp",
+      "https://www.youtube-nocookie.com/embed/c3vtOEiO6TY",
+      "https://www.youtube-nocookie.com/embed/bPny1esdZrk",
+      "img/sf-clubs/the-endup-sf-1200.webp",
+      "https://www.youtube-nocookie.com/embed/PeYUTbU_iTw",
+      "https://www.youtube-nocookie.com/embed/4LjKuzWRTeY",
+      "img/sf-clubs/baker-beach-golden-gate-1200.webp",
+      "https://www.youtube-nocookie.com/embed/M252Fz6t9zc",
+      "img/sf-clubs/ferry-corsten-1015-folsom-2003-1200.webp",
+      "https://www.youtube-nocookie.com/embed/ROW9zOWCugg",
+      "https://www.youtube-nocookie.com/embed/MHgL4HF3VpY",
+      "https://www.youtube-nocookie.com/embed/xvvLW_mQtHg",
+      "img/sf-clubs/mark-farina-2015-1200.webp",
+      "https://www.youtube-nocookie.com/embed/sWt0HPcJcGI",
+      "img/sf-clubs/dna-lounge-2020-1200.webp",
+      "https://www.youtube-nocookie.com/embed/18l6bYyl6j0",
+      "img/sf-clubs/oasis-sf-2025-1200.webp",
+      "https://www.youtube-nocookie.com/embed/f8A91DMBfbA",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "img/thecatrave-author-800.jpg",
+      "img/berghain/berghain-facade-320.webp",
+      "img/la-clubs/avalon-hollywood-2007-320.webp",
+      "img/chicago-clubs/chicago-metro-sign-320.webp",
+      "img/nyc-clubs/limelight-church-320.webp"
     ]
   }
 }

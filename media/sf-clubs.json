@@ -1,0 +1,160 @@
+{
+  "page": "best-clubs-in-san-francisco.html",
+  "seed": "best clubs in san francisco",
+  "source": "FIGURES.md adapted for clubs, 2026-11-09, as for the Chicago and LA guides. S4 consensus: Time Out '16 Best Nightclubs in San Francisco' (6 Aug 2024, read in full) and 6AM '40 best house and techno clubs in North America' (2023). S5 history: Wikipedia The EndUp, Trocadero Transfer, 1015 Folsom, DNA Lounge, Patrick Cowley, Sylvester, Mark Farina; SF Bay Guardian 'Wicked, man' (2011). Clubs named by both current sources: Public Works. DJ Mag, Electronic Beats and the Public Works Wikipedia page could not be read. Every YouTube ID checked through oEmbed on 2026-11-09 and embedded by no other guide.",
+  "required_records": [
+    {
+      "title": "You Make Me Feel (Mighty Real)",
+      "artist": "Sylvester",
+      "year": 1978,
+      "why": "S5: Step II single, Cowley on synth",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "c3vtOEiO6TY"
+    },
+    {
+      "title": "Menergy",
+      "artist": "Patrick Cowley",
+      "year": 1981,
+      "why": "S5: named the EndUp's Menergy parties; Cowley called the creator of hi-NRG",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "bPny1esdZrk"
+    },
+    {
+      "title": "Do Ya Wanna Funk",
+      "artist": "Patrick Cowley and Sylvester",
+      "year": 1982,
+      "why": "S5: Cowley page",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "PeYUTbU_iTw"
+    },
+    {
+      "title": "Dance (Disco Heat)",
+      "artist": "Sylvester",
+      "year": 1978,
+      "why": "S5: second Step II single",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "f8A91DMBfbA"
+    },
+    {
+      "title": "The EndUp",
+      "artist": "club, SoMa, since 1973",
+      "year": null,
+      "why": "S4 Time Out, S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "4LjKuzWRTeY"
+    },
+    {
+      "title": "Trocadero Transfer",
+      "artist": "club, 1977 to late 1990s",
+      "year": null,
+      "why": "S5: hi-NRG history",
+      "sources": [
+        "originators"
+      ],
+      "no_embed_reason": "a club, closed; Cowley's portrait stands for it"
+    },
+    {
+      "title": "Wicked crew",
+      "artist": "sound system, from 1991",
+      "year": null,
+      "why": "S5: SF Bay Guardian",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "M252Fz6t9zc"
+    },
+    {
+      "title": "1015 Folsom",
+      "artist": "club, SoMa, since 1989",
+      "year": null,
+      "why": "S4 Time Out, S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "no_embed_reason": "photographed; no set from the club in the catalogue"
+    },
+    {
+      "title": "Public Works",
+      "artist": "club, Mission",
+      "year": null,
+      "why": "S4 Time Out and 6AM",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "ROW9zOWCugg"
+    },
+    {
+      "title": "Halcyon",
+      "artist": "club",
+      "year": null,
+      "why": "S4 6AM",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "MHgL4HF3VpY"
+    },
+    {
+      "title": "Audio",
+      "artist": "club, SoMa",
+      "year": null,
+      "why": "S4 Time Out",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "xvvLW_mQtHg"
+    },
+    {
+      "title": "Mark Farina",
+      "artist": "DJ, Mushroom Jazz from 1992",
+      "year": null,
+      "why": "S5 Wikipedia",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "sWt0HPcJcGI"
+    },
+    {
+      "title": "DNA Lounge",
+      "artist": "club, SoMa, since 1985",
+      "year": null,
+      "why": "S4 Time Out, S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "18l6bYyl6j0"
+    },
+    {
+      "title": "Oasis",
+      "artist": "LGBTQ+ club, SoMa",
+      "year": null,
+      "why": "S4 Time Out",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "photographed; no set from the club in the catalogue"
+    },
+    {
+      "title": "Monarch",
+      "artist": "club, SoMa",
+      "year": null,
+      "why": "S4 Time Out",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no set from the club in the catalogue"
+    }
+  ]
+}

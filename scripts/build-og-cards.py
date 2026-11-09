@@ -156,6 +156,7 @@ HERO = {
     "italo-disco": "img/italo-disco/sabrina-salerno-2012-1200.webp",
     "brazilian-funk": "img/brazilian-funk/a-festa-rio-2017-1200.webp",
     "amapiano": "img/amapiano/tyla-montreux-2026-1200.webp",
+    "sf-clubs": "img/sf-clubs/the-endup-sf-1200.webp",
     "tokyo-clubs": "img/tokyo-clubs/womb-shibuya-1200.webp",
     "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
     "belgrade-clubs": "img/belgrade-clubs/sava-from-kalemegdan-1200.webp",
