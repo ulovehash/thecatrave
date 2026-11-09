@@ -44,7 +44,7 @@
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
       "img/barcelona-clubs/razzmatazz-exterior-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/la-clubs/avalon-hollywood-2007-320.webp"
     ]
   },
   "berghain.html": {
@@ -136,7 +136,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/barcelona-clubs/razzmatazz-exterior-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/la-clubs/avalon-hollywood-2007-320.webp"
     ]
   },
   "best-clubs-in-barcelona.html": {
@@ -175,7 +175,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/la-clubs/avalon-hollywood-2007-320.webp"
     ]
   },
   "best-clubs-in-nyc.html": {
@@ -558,7 +558,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
     ]
   },
   "best-clubs-in-amsterdam.html": {
@@ -600,7 +600,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
     ]
   },
   "best-clubs-in-ibiza.html": {
@@ -864,7 +864,7 @@
       "img/berlin-clubs/berghain-320.webp",
       "img/berghain/berghain-facade-320.webp",
       "img/paris-clubs/les-bains-douches-entrance-320.webp",
-      "img/europe-clubbing-cities/cross-club-prague-320.webp"
+      "img/barcelona-clubs/razzmatazz-exterior-320.webp"
     ]
   },
   "best-nightclubs-in-the-world.html": {
@@ -2913,6 +2913,62 @@
       "https://www.youtube-nocookie.com/embed/18l6bYyl6j0",
       "img/sf-clubs/oasis-sf-2025-1200.webp",
       "https://www.youtube-nocookie.com/embed/f8A91DMBfbA",
+      "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
+      "img/thecatrave-author-800.jpg",
+      "img/berghain/berghain-facade-320.webp",
+      "img/la-clubs/avalon-hollywood-2007-320.webp",
+      "img/chicago-clubs/chicago-metro-sign-320.webp",
+      "img/nyc-clubs/limelight-church-320.webp"
+    ]
+  },
+  "best-clubs-in-montreal.html": {
+    "title": "Best Clubs in Montreal: Nightclubs for House and Techno",
+    "canonical": "https://thecatrave.com/best-clubs-in-montreal",
+    "description": "The best clubs in Montreal for house and techno: Stereo, Newspeak, Salon Daomé, Bar Datcha and New City Gas, plus the Village, Piknic Électronik and Igloofest.",
+    "h1": "The best clubs in Montreal, from the Limelight to Stereo",
+    "published": "2026-11-09",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "visiting",
+      "own-playlist-rare-electronic-music",
+      "introduction",
+      "bandcamp-support-title",
+      "cabarets",
+      "limelight",
+      "foufs",
+      "stereo",
+      "best-clubs-now",
+      "techno-house",
+      "lgbtq",
+      "festivals",
+      "where-to-go",
+      "own-set-1",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "https://bandcamp.com/EmbeddedPlayer/track=3822639635/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "https://www.youtube-nocookie.com/embed/wOPJ-F16n1Y",
+      "img/mtl-clubs/foufounes-electriques-2019-1200.webp",
+      "img/mtl-clubs/tiga-2005-1200.webp",
+      "https://www.youtube-nocookie.com/embed/l7tNo5S6xEE",
+      "img/mtl-clubs/stereo-montreal-2014-1200.webp",
+      "https://www.youtube-nocookie.com/embed/fwae4UmH9zc",
+      "https://www.youtube-nocookie.com/embed/wDwL2aoI5lc",
+      "img/mtl-clubs/new-city-gas-2017-1200.webp",
+      "img/mtl-clubs/sat-montreal-2011-1200.webp",
+      "https://www.youtube-nocookie.com/embed/WwFqfMbaIcI",
+      "img/mtl-clubs/village-boules-roses-2016-900.webp",
+      "https://www.youtube-nocookie.com/embed/sJvQgTE8IGk",
+      "img/mtl-clubs/piknic-cattaneo-2026-1200.webp",
+      "https://www.youtube-nocookie.com/embed/7nPDVa3SCyI",
+      "img/mtl-clubs/igloofest-2025-828.webp",
+      "https://www.youtube-nocookie.com/embed/lQOJC5Z6lzk",
       "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthecatrave%2Fi-like-to-smoke-in-silence-after-raves&amp;color=%23ff5a36&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false",
       "img/thecatrave-author-800.jpg",
       "img/berghain/berghain-facade-320.webp",

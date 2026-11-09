@@ -1,0 +1,122 @@
+{
+  "page": "best-clubs-in-montreal.html",
+  "seed": "best clubs in montreal",
+  "source": "Google Ads Keyword Planner, owner's account, All locations, English, read 2026-11-09: one pass of ten seeds (montreal clubs, best clubs in montreal, montreal nightclubs, montreal nightlife, clubs in montreal, montreal techno, montreal house music, stereo montreal, newspeak montreal, club montreal), page 1 (100 ideas) read. Ranges; 'volume' is the lower bound. Ahrefs not used.",
+  "note": "The page covers music-first dance clubs, as the Chicago, LA, NYC and San Francisco guides do. Word-order variants (night clubs montreal, night clubs in montreal, montreal night clubs, best night club montreal) are covered by the targeted phrases, not claimed separately.",
+  "terms": [
+    {
+      "term": "best clubs in montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Primary: title and H2"
+    },
+    {
+      "term": "montreal clubs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "montreal nightclubs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "montreal nightlife",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "best nightclubs in montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. FAQ"
+    },
+    {
+      "term": "best dance club in montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "stereo montreal",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. Venue term; Stereo has its own H2"
+    },
+    {
+      "term": "newspeak montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "club unity montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "gay club in montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "gay nightlife montreal",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    },
+    {
+      "term": "montreal techno",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. H2"
+    },
+    {
+      "term": "montreal house music",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09. H2"
+    },
+    {
+      "term": "after hour clubs montreal",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner, All locations, English, read 2026-11-09"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "strip, gentleman's and adult clubs (Chez Paree)",
+      "note": "adult intent"
+    },
+    {
+      "term": "bars, jazz bars, comedy clubs, rooftop bars, Atwater Cocktail Club",
+      "note": "bar intent"
+    },
+    {
+      "term": "supper clubs, supperclub montreal",
+      "note": "restaurant intent"
+    },
+    {
+      "term": "fitness, golf, private and social clubs (Mount Stephen, Beaver Club, 281)",
+      "note": "not dance clubs"
+    },
+    {
+      "term": "beach club montreal",
+      "note": "summer venue only; 6AM lists Beachclub, kept as a mention"
+    },
+    {
+      "term": "Cactus Club",
+      "note": "restaurant"
+    },
+    {
+      "term": "circus afterhours montreal, club 1234 montreal, club jet montreal, muzique club montreal",
+      "note": "not in the 2024 or 2026 sources read; not verified as open"
+    }
+  ]
+}

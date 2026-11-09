@@ -39,6 +39,7 @@ const cities = {
   washington: city('Washington, DC'),
   losAngeles: city('Los Angeles'),
   sanFrancisco: city('San Francisco'),
+  montreal: city('Montreal'),
   singapore: city('Singapore'),
   phuket: city('Phuket'),
   bali: city('Bali'),
@@ -83,6 +84,7 @@ const groups = {
   washington: ['Echostage'],
   losAngeles: ['Avalon Hollywood', 'Exchange LA', 'Academy LA', 'Sound', 'Lot 613', 'Catch One'],
   sanFrancisco: ['Public Works', 'Audio', 'Monarch', '1015 Folsom', 'The EndUp', 'The Great Northern', 'DNA Lounge'],
+  montreal: ['Stereo', 'Newspeak', 'Salon Daomé', 'Bar Datcha', 'Stereobar', 'Club Unity', 'New City Gas', 'Cabaret Berlin', 'Système', 'Velvet Speakeasy'],
   singapore: ['Zouk Singapore'],
   phuket: ['Illuzion Phuket'],
   bali: ['Savaya'],
@@ -255,7 +257,17 @@ const venueEvents = {
   "WOMB": "https://ra.co/clubs/1661",
   "XOYO": "https://ra.co/clubs/33592",
   "Yu Yu Cine Club": "https://ra.co/clubs/273862",
-  "Zouk Singapore": "https://ra.co/clubs/136660"
+  "Zouk Singapore": "https://ra.co/clubs/136660",
+  "Stereo": "https://ra.co/clubs/828",
+  "Stereobar": "https://ra.co/clubs/138829",
+  "Newspeak": "https://ra.co/clubs/102279",
+  "Bar Datcha": "https://ra.co/clubs/94451",
+  "Salon Daomé": "https://ra.co/clubs/153067",
+  "New City Gas": "https://ra.co/clubs/62642",
+  "Club Unity": "https://ra.co/clubs/116978",
+  "Cabaret Berlin": "https://ra.co/clubs/167763",
+  "Système": "https://ra.co/clubs/201918",
+  "Velvet Speakeasy": "https://ra.co/clubs/117375"
 };
 
 const directory = new Map();

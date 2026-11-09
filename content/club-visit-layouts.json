@@ -576,5 +576,16 @@
     "remainderTitles": {
       "where-to-go": "Hear San Francisco before you go."
     }
+  },
+  "/best-clubs-in-montreal": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 2
+    },
+    "remainderTitles": {
+      "where-to-go": "Hear Montreal before you go."
+    }
   }
 }

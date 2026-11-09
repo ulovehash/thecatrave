@@ -1,0 +1,131 @@
+{
+  "page": "best-clubs-in-montreal.html",
+  "seed": "best clubs in montreal",
+  "source": "FIGURES.md adapted for clubs, 2026-11-09, as for the Chicago, LA and SF guides. S4 consensus: Time Out 'The best clubs in Montreal right now' (15 Oct 2024, ranked list of 21), Cult MTL Best of MTL 2026 readers' poll (best nightclub), Tourisme Montréal nightlife guide (updated 24 Sep 2026) and 6AM '40 best house and techno clubs in North America' (2023). S5 history: Wikipedia History of Montreal cabarets, Limelight (Montreal), Les Foufounes Électriques, Tiga, Stereo nightclub, Angel Moraes, Gay Village, Bad Boy Club Montréal, Piknic Électronik, Igloofest, MUTEK. Clubs named by more than one current source: Stereo, Bar Datcha, New City Gas, Cabaret Berlin, Système, Sans Soleil. Every YouTube ID checked through oEmbed on 2026-11-09 and embedded by no other guide.",
+  "required_records": [
+    {
+      "title": "Robert Ouimet",
+      "artist": "DJ, Limelight resident 1973-81",
+      "year": null,
+      "why": "S5 Wikipedia Limelight",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "wOPJ-F16n1Y"
+    },
+    {
+      "title": "Sunglasses at Night",
+      "artist": "Tiga",
+      "year": 2001,
+      "why": "S5 Wikipedia Tiga: UK No. 23",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "l7tNo5S6xEE"
+    },
+    {
+      "title": "Stereo",
+      "artist": "club, Village, since 1998",
+      "year": null,
+      "why": "S4 Time Out, Cult MTL, Tourisme Montréal, 6AM; S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "fwae4UmH9zc"
+    },
+    {
+      "title": "Markus Schulz",
+      "artist": "DJ, recorded at Stereo",
+      "year": null,
+      "why": "S4 6AM",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "wDwL2aoI5lc"
+    },
+    {
+      "title": "Newspeak",
+      "artist": "club, Village",
+      "year": null,
+      "why": "S4 Time Out No. 1",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no set from the club in the catalogue"
+    },
+    {
+      "title": "Bar Datcha",
+      "artist": "club, Mile End",
+      "year": null,
+      "why": "S4 Time Out, Tourisme Montréal",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no set from the club in the catalogue"
+    },
+    {
+      "title": "New City Gas",
+      "artist": "club, Griffintown",
+      "year": null,
+      "why": "S4 Time Out, Tourisme Montréal",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "photographed; no set from the club in the catalogue"
+    },
+    {
+      "title": "Les Foufounes Électriques",
+      "artist": "venue, since 1983",
+      "year": null,
+      "why": "S4 Tourisme Montréal; S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "no_embed_reason": "photographed; punk and goth venue, no dance set"
+    },
+    {
+      "title": "MUTEK",
+      "artist": "festival at the SAT, since 2000",
+      "year": null,
+      "why": "S4 Tourisme Montréal; S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "WwFqfMbaIcI"
+    },
+    {
+      "title": "Black & Blue",
+      "artist": "Bad Boy Club Montréal",
+      "year": null,
+      "why": "S5 Wikipedia",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "sJvQgTE8IGk"
+    },
+    {
+      "title": "Piknic Électronik",
+      "artist": "festival, Parc Jean-Drapeau, since 2003",
+      "year": null,
+      "why": "S4 Tourisme Montréal; S5 Wikipedia",
+      "sources": [
+        "consensus",
+        "originators"
+      ],
+      "embed_id": "7nPDVa3SCyI"
+    },
+    {
+      "title": "Igloofest",
+      "artist": "festival, Old Port, since 2007",
+      "year": null,
+      "why": "S5 Wikipedia",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "lQOJC5Z6lzk"
+    }
+  ]
+}

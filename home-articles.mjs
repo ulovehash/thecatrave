@@ -514,6 +514,14 @@ export const homeArticleCatalog = [
     width:1200, height:900, alt:'The white EndUp building with its vertical sign, on a SoMa street corner in daylight'
   },
   {
+    page:'best-clubs-in-montreal.html', category:'rave-spots', tags:['house','techno','history','discovery','montreal'], href:'/best-clubs-in-montreal', type:'Guide', topic:'Montreal clubs',
+    title:'Best Clubs in Montreal: Nightclubs for House and Techno',
+    description:'Stereo, Newspeak, Salon Daomé, Bar Datcha and New City Gas: the best clubs in Montreal, from Prohibition cabarets and the Limelight to Piknic and Igloofest.',
+    image:'img/mtl-clubs/stereo-montreal-2014-320.webp',
+    srcset:'img/mtl-clubs/stereo-montreal-2014-320.webp 320w,img/mtl-clubs/stereo-montreal-2014-1200.webp 1200w',
+    width:1200, height:790, alt:'A wall of red, yellow and black posters at Stereo, listing DJs such as Alan Fitzpatrick, Sam Paganini and Nick Warren'
+  },
+  {
     page:'amapiano-guide.html', category:'music-history', tags:['history','amapiano','house','kwaito','south africa'], href:'/amapiano-guide', type:'Guide', topic:'Amapiano',
     title:'What Is Amapiano? South African House Music, Songs, Artists',
     description:'Pianos and a rolling log drum: where amapiano came from, how it spread from minibus taxis to the Billboard Hot 100, the styles, the songs and the artists.',
