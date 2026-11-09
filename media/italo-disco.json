@@ -1,0 +1,203 @@
+{
+  "page": "italo-disco-guide.html",
+  "seed": "italo disco",
+  "source": "FIGURES.md, 2026-11-09. S5 history: Wikipedia Italo disco, List of Italo disco artists and songs and the song pages; the Guardian, John McDonnell, 1 September 2008; DJ Mag, Joe Roberts, 26 July 2022; MasterClass, 7 June 2021. S4 consensus: names in two or more of those. Reddit was seen as a search snippet only.",
+  "required_records": [
+    {
+      "title": "I'm Ready",
+      "artist": "Kano",
+      "year": 1980,
+      "why": "S5 Wikipedia list and MasterClass; reissued by Emergency, influence on house",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "gqc06bfkC2s"
+    },
+    {
+      "title": "Dirty Talk",
+      "artist": "Klein + M.B.O.",
+      "year": 1982,
+      "why": "S5 Wikipedia list, MasterClass, DJ Mag (I-F mix)",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "i5nt1ji_IKc"
+    },
+    {
+      "title": "Spacer Woman",
+      "artist": "Charlie",
+      "year": 1983,
+      "why": "S5 Wikipedia, MasterClass, DJ Mag (I-F mix)",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "nZDPCjEoIMI"
+    },
+    {
+      "title": "Dolce Vita",
+      "artist": "Ryan Paris",
+      "year": 1983,
+      "why": "S5 Wikipedia UK top five, MasterClass",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "EXmABxvHTG4"
+    },
+    {
+      "title": "I Like Chopin",
+      "artist": "Gazebo",
+      "year": 1983,
+      "why": "S5 Wikipedia: number one in more than 15 countries",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "Dtrgwqei7ww"
+    },
+    {
+      "title": "Self Control",
+      "artist": "Raf",
+      "year": 1984,
+      "why": "S5 Wikipedia song page, MasterClass",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "1_TQjEn6cpQ"
+    },
+    {
+      "title": "Tarzan Boy",
+      "artist": "Baltimora",
+      "year": 1985,
+      "why": "S5 Wikipedia UK top five, MasterClass",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "--6CdAypJsQ"
+    },
+    {
+      "title": "Boys (Summertime Love)",
+      "artist": "Sabrina",
+      "year": 1987,
+      "why": "S5 Wikipedia UK top five, MasterClass",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "_OIPDU8kCNo"
+    },
+    {
+      "title": "Don't Cry Tonight",
+      "artist": "Savage",
+      "year": 1983,
+      "why": "S5 Wikipedia list",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "0uxm9YU7Uxg"
+    },
+    {
+      "title": "Problèmes d'amour",
+      "artist": "Alexander Robotnick",
+      "year": 1983,
+      "why": "S5 Wikipedia list, DJ Mag (I-F mix)",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "oX1Vge8zAjw"
+    },
+    {
+      "title": "Feel the Drive",
+      "artist": "Doctor's Cat",
+      "year": 1983,
+      "why": "S5 Wikipedia: SPIN, one of the earliest house songs",
+      "sources": [
+        "originators",
+        "consensus"
+      ],
+      "embed_id": "Jy_TBjn_vh8"
+    },
+    {
+      "title": "Take a Chance",
+      "artist": "Mr. Flagio",
+      "year": 1983,
+      "why": "S5 Wikipedia list, MasterClass, DJ Mag (I-F mix)",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "no label or artist channel upload found; named in text"
+    },
+    {
+      "title": "Call Me",
+      "artist": "Spagna",
+      "year": null,
+      "why": "S5 Wikipedia UK top five",
+      "sources": [
+        "consensus"
+      ],
+      "no_embed_reason": "named among the British top-five hits; enough embeds in that section"
+    }
+  ],
+  "sets": [
+    {
+      "artist": "David Vunk",
+      "embed_id": "U_6Vc5mO8Lg",
+      "why": "Guardian 2008 London guest"
+    },
+    {
+      "artist": "Daniele Baldelli",
+      "embed_id": "NxcjqylIlV0",
+      "why": "DJ Mag"
+    },
+    {
+      "artist": "Pablo Bozzi",
+      "embed_id": "YapYOL6U4l4",
+      "why": "DJ Mag current producers"
+    }
+  ],
+  "images": [
+    {
+      "file": "img/italo-disco/giorgio-moroder-first-avenue",
+      "commons": "Giorgio Moroder - First Avenue Minneapolis - The Current (44776142702).jpg",
+      "author": "Andy Witchger",
+      "licence": "CC BY 2.0"
+    },
+    {
+      "file": "img/italo-disco/ryan-paris-2023",
+      "commons": "Ryan Paris - 2023141124609 2023-05-21 ZDF-Fernsehgarten - Sven - 1D X MK II - 0235 - AK8I1664.jpg",
+      "author": "Sven Mandel",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "file": "img/italo-disco/gazebo-2012",
+      "commons": "GAZEBO (8388584385).jpg",
+      "author": "giorgioerriquez",
+      "licence": "CC BY 2.0"
+    },
+    {
+      "file": "img/italo-disco/sabrina-salerno-2012",
+      "commons": "SABRINA SALERNO (8334483633).jpg",
+      "author": "giorgioerriquez",
+      "licence": "CC BY 2.0"
+    },
+    {
+      "file": "img/italo-disco/savage-2014",
+      "commons": "Savage 2014.jpg",
+      "author": "Tansev",
+      "licence": "CC BY-SA 3.0"
+    },
+    {
+      "file": "img/italo-disco/alexander-robotnick-2007",
+      "commons": "Alexander Robotnick at Batofar.jpg",
+      "author": "Bit Boy",
+      "licence": "CC BY 2.0"
+    }
+  ]
+}

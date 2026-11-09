@@ -506,6 +506,14 @@ export const homeArticleCatalog = [
     width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
   },
   {
+    page:'italo-disco-guide.html', category:'music-history', tags:['history','disco','italo disco','house','synth-pop'], href:'/italo-disco-guide', type:'Guide', topic:'Italo disco',
+    title:'What Is Italo Disco? Italian Disco Music, Songs and Artists',
+    description:'Drum machines, synthesizers and English sung by Italians: the Italo disco sound, how ZYX named it, the biggest hits and the link to house.',
+    image:'img/italo-disco/sabrina-salerno-2012-320.webp',
+    srcset:'img/italo-disco/sabrina-salerno-2012-320.webp 320w,img/italo-disco/sabrina-salerno-2012-1200.webp 1200w',
+    width:1200, height:839, alt:'Sabrina Salerno singing on a dark stage, one hand in her hair'
+  },
+  {
     page:'gabber-guide.html', category:'music-history', tags:['history','hardcore','gabber','hardstyle','techno'], href:'/gabber-guide', type:'Guide', topic:'Gabber',
     title:'What Is Gabber? Gabber Music, Hardcore Techno and Happy Hardcore',
     description:'Rotterdam Records, Thunderdome, the gabber look and hakken, happy hardcore and how gabber differs from hardstyle.',

@@ -1,0 +1,130 @@
+{
+  "page": "italo-disco-guide.html",
+  "seed": "italo disco",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, read 2026-11-09 through Claude in Chrome: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, from the topic dossier, for the head term only: marked 'Ahrefs US'. Parent topic: italian disco.",
+  "note": "The FAQ answers the four People Also Ask questions: what is Italo disco style, what is Italo disco music, what were the biggest hits, what happened to Italo disco.",
+  "terms": [
+    {
+      "term": "italo disco",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner. Ahrefs US 1,300, GV 21,000, KD 7"
+    },
+    {
+      "term": "italian disco",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo disco songs",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo dance",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "80s italian disco",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "80s italo disco",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italian disco music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo disco artists",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "best italo disco songs",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo disco hits",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo disco music",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "new italo disco",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "italo disco style",
+      "volume": 10,
+      "range": "PAA",
+      "note": "Keyword Planner not listed; People Also Ask question"
+    },
+    {
+      "term": "biggest italo disco hits",
+      "volume": 10,
+      "range": "PAA",
+      "note": "People Also Ask question, not in Keyword Planner"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "disco italo",
+      "reason": "word-order variant of italo disco; no source for where it is used, so not written as a phrase"
+    },
+    {
+      "term": "italo disco mp3",
+      "reason": "file intent; the site hands out no files"
+    },
+    {
+      "term": "italo disco collection",
+      "reason": "compilation and download intent; ZYX series named instead"
+    },
+    {
+      "term": "zyx italo disco collection",
+      "reason": "compilation and download intent"
+    },
+    {
+      "term": "italo disco forum",
+      "reason": "navigational, a site name"
+    },
+    {
+      "term": "italo disco net",
+      "reason": "navigational, a site name"
+    },
+    {
+      "term": "italo disco 2023",
+      "reason": "dated listing intent"
+    },
+    {
+      "term": "italo disco the lost legends",
+      "reason": "a compilation title"
+    },
+    {
+      "term": "italian disco song",
+      "reason": "covered by italo disco songs; singular reads as a search string"
+    }
+  ]
+}
