@@ -1,0 +1,62 @@
+{
+  "page": "amapiano-guide.html",
+  "seed": "amapiano",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, English, read 2026-11-09 through Claude in Chrome, one pass, 10 seeds, 4,045 ideas: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, from the topic dossier, for three terms only: marked 'Ahrefs US'.",
+  "note": "Rejected: download, mp3, fakaza and tubidy terms (file intent); amapiano instrumental and ama piano beats (production intent); amapiano mix (mix and playlist intent, answered by YouTube). The FAQ answers what amapiano is and means, where it came from, the log drum, amapiano vs house, the biggest artists and song, and the dance.",
+  "terms": [
+    {
+      "term": "amapiano",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner, YoY flag -90%. Ahrefs US 4,200, GV 58,000, KD 17"
+    },
+    {
+      "term": "amapiano songs",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "amapiano music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner. Ahrefs US 1,200"
+    },
+    {
+      "term": "what is amapiano",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner. Ahrefs US 300"
+    },
+    {
+      "term": "amapiano artists",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "best amapiano songs",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "amapiano meaning",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "amapiano dance",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "south african house music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    }
+  ]
+}

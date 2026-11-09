@@ -506,6 +506,14 @@ export const homeArticleCatalog = [
     width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
   },
   {
+    page:'amapiano-guide.html', category:'music-history', tags:['history','amapiano','house','kwaito','south africa'], href:'/amapiano-guide', type:'Guide', topic:'Amapiano',
+    title:'What Is Amapiano? South African House Music, Songs, Artists',
+    description:'Pianos and a rolling log drum: where amapiano came from, how it spread from minibus taxis to the Billboard Hot 100, the styles, the songs and the artists.',
+    image:'img/amapiano/tyla-montreux-2026-320.webp',
+    srcset:'img/amapiano/tyla-montreux-2026-320.webp 320w,img/amapiano/tyla-montreux-2026-1200.webp 1200w',
+    width:1200, height:800, alt:'Tyla performing on stage at the Montreux Jazz Festival, 2026'
+  },
+  {
     page:'brazilian-funk-guide.html', category:'music-history', tags:['history','brazilian funk','baile funk','miami bass','hip-hop'], href:'/brazilian-funk-guide', type:'Guide', topic:'Brazilian funk',
     title:'What Is Brazilian Funk? Baile Funk, Funk Carioca and Songs',
     description:'An MC, a DJ and a loud sound system: where funk carioca came from, what a baile funk is, the styles, the biggest songs and the artists.',

@@ -1,0 +1,217 @@
+{
+  "page": "amapiano-guide.html",
+  "seed": "amapiano",
+  "source": "FIGURES.md, 2026-11-09. S5 history: Wikipedia Amapiano and the song and artist pages; Red Bull, Themba Kriger, 25 April 2024; Evening Standard, El Hunt, 11 January 2024 (read via Yahoo); Mixmag, Jake Colvin, 28 May 2024. S4 consensus: names in two or more of those.",
+  "required_records": [
+    {
+      "title": "Iskhathi (Gong Gong)",
+      "artist": "Kwiish SA",
+      "why": "S5 Mixmag: partly inspired Getting Late",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "HK4LBA7zhlg"
+    },
+    {
+      "title": "Umshove",
+      "artist": "Kabza De Small",
+      "year": 2018,
+      "why": "S5 Wikipedia: brought Kabza international recognition; the upload found credits Leehleza, so named without a player",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "title": "Love You Tonight",
+      "artist": "MFR Souls featuring DJ Maphorisa, Sha Sha and Kabza De Small",
+      "why": "S5 Wikipedia: Platinum",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "23A5UkCRCWg"
+    },
+    {
+      "title": "Getting Late",
+      "artist": "Kooldrink and Tyla",
+      "year": 2019,
+      "why": "S5 Mixmag: many Europeans' first amapiano record",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "v6Tct3AAre0"
+    },
+    {
+      "title": "Champion Sound",
+      "artist": "Davido and Focalistic",
+      "why": "S5 Red Bull: led some abroad to assume Nigeria was the birthplace",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "i-J0Fdze42M"
+    },
+    {
+      "title": "Overdue",
+      "artist": "Kooldrink, DJ Lag and Tyla",
+      "year": 2021,
+      "why": "S5 Wikipedia: popiano example",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "uUNdhnMEZs0"
+    },
+    {
+      "title": "Trust Fund",
+      "artist": "Mellow & Sleazy with Kabza De Small, Mpura, Focalistic and DJ Maphorisa",
+      "year": 2021,
+      "why": "S5 Wikipedia: new age bacardi; no official upload found, named without a player",
+      "sources": [
+        "originators"
+      ]
+    },
+    {
+      "title": "Down The Drain",
+      "artist": "Njelic and Thabza Tee",
+      "year": 2022,
+      "why": "S5 Mixmag: played at Ama Fest, log drum hook after two minutes",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "U2jOEbs0uXM"
+    },
+    {
+      "title": "Water",
+      "artist": "Tyla",
+      "year": 2023,
+      "why": "S5 Wikipedia and Evening Standard: Billboard Hot 100, Water Challenge",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "XoiOOiuH8iI"
+    },
+    {
+      "title": "Soundcheck",
+      "artist": "Vigro Deep",
+      "why": "S5 Evening Standard",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "Yuw9nuXDFIo"
+    },
+    {
+      "title": "Khuza Gogo",
+      "artist": "DBN Gogo",
+      "why": "S5 Wikipedia: Platinum",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "V0bL57BDMlo"
+    },
+    {
+      "title": "Tanzania",
+      "artist": "Uncle Waffles",
+      "why": "S5 Wikipedia: number one in South Africa, 7x Platinum",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "WvxADzZMkEI"
+    },
+    {
+      "title": "Adiwele",
+      "artist": "Young Stunna",
+      "why": "S5 Wikipedia: one of his hits",
+      "sources": [
+        "originators"
+      ],
+      "embed_id": "kjgzYp1Cm4Y"
+    },
+    {
+      "title": "Funa",
+      "artist": "Kelvin Momo",
+      "why": "Kelvin Momo credited with private school piano (S5 Wikipedia; Evening Standard names him)",
+      "sources": [
+        "consensus"
+      ],
+      "embed_id": "TMTZhgdmzaM"
+    }
+  ],
+  "sets": [
+    {
+      "artist": "Scorpion Kings",
+      "title": "Boiler Room x Ballantine's True Music 10: Johannesburg",
+      "embed_id": "kDU9EsWkdl8"
+    },
+    {
+      "artist": "Kelvin Momo",
+      "title": "Boiler Room x Ballantine's True Music Studios: Johannesburg",
+      "embed_id": "IlhMotZOKmo"
+    },
+    {
+      "artist": "DBN Gogo",
+      "title": "Boiler Room SYSTEM: Amapiano London",
+      "embed_id": "isYm52A9WFQ"
+    },
+    {
+      "artist": "Scorpion Kings",
+      "title": "Live at Piano People, highlights",
+      "embed_id": "snJYwbJuftY"
+    }
+  ],
+  "required_figures": [
+    "Kabza De Small",
+    "DJ Maphorisa",
+    "MFR Souls",
+    "Kelvin Momo",
+    "Tyla",
+    "Focalistic",
+    "DBN Gogo",
+    "Uncle Waffles",
+    "Sha Sha",
+    "Kamo Mphela",
+    "Vigro Deep",
+    "Young Stunna",
+    "Mr JazziQ",
+    "Papers 707"
+  ],
+  "images": [
+    {
+      "file": "img/amapiano/tyla-montreux-2026",
+      "event": "Tyla at 2026 Montreux Jazz Festival 4.png",
+      "author": "Janeirohy",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "file": "img/amapiano/minibus-taxi-maboneng-2017",
+      "event": "2. Minibus taxi in Maboneng, Johannesburg, South Africa.jpg, 2 December 2017",
+      "author": "Shade Schutze Photography",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "file": "img/amapiano/focalistic-2020",
+      "event": "Focalistic (2020).png",
+      "author": "Michael's World",
+      "licence": "CC BY 3.0"
+    },
+    {
+      "file": "img/amapiano/sha-sha-2020",
+      "event": "Sha Sha (2020).png",
+      "author": "Plus TV Africa",
+      "licence": "CC BY 3.0"
+    },
+    {
+      "file": "img/amapiano/kamo-mphela-2021",
+      "event": "Kamo Mphela 2021 SAA Awards.jpg",
+      "author": "Alison DiLaurentis 1995",
+      "licence": "CC BY 4.0"
+    },
+    {
+      "file": "img/amapiano/uncle-waffles-2022",
+      "event": "Uncle Waffles 01.jpg, 8 April 2022",
+      "author": "Musiclaborotry",
+      "licence": "CC BY-SA 4.0"
+    }
+  ],
+  "excluded": [
+    "VT1a7whqhC4 Uncle Waffles Boiler Room: already on best-boiler-room-sets",
+    "KUjMK-o_qNY: in selector-data"
+  ]
+}
