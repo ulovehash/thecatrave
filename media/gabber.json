@@ -1,0 +1,25 @@
+{
+  "page": "gabber-guide.html",
+  "seed": "gabber",
+  "source": "FIGURES.md, 2026-11-09. S5 history: Wikipedia Gabber, Hardcore (electronic dance music genre), Happy hardcore, Paul Elstak, Marc Acardipane; the Guardian, Holly Dicker, 30 October 2019. S4 consensus: names appearing in two or more of those. Reddit was not read.",
+  "required_records": [
+    {"title": "We Have Arrived", "artist": "Mescalinum United", "year": 1990, "why": "S5 Wikipedia Hardcore and Acardipane: first hardcore techno track", "sources": ["originators", "consensus"], "embed_id": "MAVErwmRhMI"},
+    {"title": "Anasthasia", "artist": "T99", "year": 1991, "why": "S5 Wikipedia Gabber and Hardcore", "sources": ["originators", "consensus"], "no_embed_reason": "official upload already embedded in /90s-rave-music; linked there instead"},
+    {"title": "Welcome to the Thunderdome", "artist": "DJ Dano", "year": null, "why": "S5 Guardian: Thunderdome theme", "sources": ["consensus"], "embed_id": "57AnoJ-etS0"},
+    {"title": "Rainbow in the Sky", "artist": "DJ Paul Elstak", "year": 1995, "why": "S5 Wikipedia Paul Elstak and Happy hardcore", "sources": ["originators", "consensus"], "embed_id": "3Svn9SlxmDc"},
+    {"title": "Have You Ever Been Mellow", "artist": "Party Animals", "year": null, "why": "S5 Wikipedia Gabber: Mokum act in the Dutch charts", "sources": ["consensus"], "embed_id": "SXGLhpIyL3Q"},
+    {"title": "Chosen Anthem (Against Racism)", "artist": "DJ Chosen Few", "year": 1993, "why": "S5 Wikipedia Gabber: Mokum MOK 8", "sources": ["originators"], "no_embed_reason": "only fan uploads exist"},
+    {"title": "Paul Elstak", "artist": "DJ, Rotterdam Records", "year": null, "why": "S5 Wikipedia. Photographed", "sources": ["originators"], "no_embed_reason": "photographed; his record is embedded"},
+    {"title": "Marc Acardipane", "artist": "producer, Frankfurt", "year": null, "why": "S5 Wikipedia. Boiler Room set embedded", "sources": ["originators"], "embed_id": "Vh9bp1T80KU"},
+    {"title": "Lenny Dee", "artist": "DJ, Industrial Strength", "year": null, "why": "S5 Wikipedia Hardcore. Set with Frankie Bones embedded", "sources": ["originators"], "embed_id": "GU4BLGqTvVQ"},
+    {"title": "Nkisi", "artist": "DJ, London", "year": null, "why": "Selector catalogue set, Boiler Room Hard Dance 2019", "sources": ["consensus"], "embed_id": "eiM4NSBlmwo"},
+    {"title": "Paul Seul", "artist": "DJ, Casual Gabberz", "year": null, "why": "Selector catalogue set, Kiosk Radio 2022", "sources": ["consensus"], "embed_id": "GooLT6QWX5E"}
+  ],
+  "images": [
+    {"file": "img/gabber/paul-elstak-2011-768.webp", "commons": "Dj-paul-elstak-1305292754.jpg", "author": "Kristel van den Hooven", "licence": "CC BY 3.0"},
+    {"file": "img/gabber/dominator-2014-640.webp", "commons": "Dominator 2014 crowd.jpg", "author": "Vincent Teeuwen", "licence": "CC BY 2.0"},
+    {"file": "img/gabber/gabbers-unite-groningen-2019-900.webp", "commons": "Gabbers unite Dutch flag, Groningen (2019).jpg", "author": "Donald Trung Quoc Don", "licence": "CC BY-SA 4.0"},
+    {"file": "img/gabber/masters-of-hardcore-2018-1200.webp", "commons": "Masters of Hardcore 2018 - Tournament of Tyrants.jpg", "author": "KaiKnight2", "licence": "CC BY-SA 4.0"},
+    {"file": "img/gabber/gabber-night-banska-bystrica-2017-1200.webp", "commons": "Gabber BCB Session 09.12.2017.jpg", "author": "Maverick L.", "licence": "CC BY 2.0"}
+  ]
+}

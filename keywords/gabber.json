@@ -1,0 +1,146 @@
+{
+  "page": "gabber-guide.html",
+  "seed": "gabber",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, read 2026-11-09 through Claude in Chrome: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs Keywords Explorer, United States, from the topic dossier: point volumes, marked 'Ahrefs US'.",
+  "note": "Happy hardcore is folded in as a section rather than a separate page. The page answers 'what is gabber' and the PAA questions: what defines gabber, gabber vs hardstyle, the most popular gabber song, what gabber means in Dutch.",
+  "terms": [
+    {
+      "term": "gabber",
+      "volume": 10000,
+      "range": "10K-100K",
+      "note": "Keyword Planner. Ahrefs US 1,200, GV 18,000, KD 4"
+    },
+    {
+      "term": "gabber music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "hardcore techno",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "happy hardcore",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner. Ahrefs US 200"
+    },
+    {
+      "term": "happy hardcore music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "frenchcore",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner. Covered in the hardcore-now section only"
+    },
+    {
+      "term": "hardcore techno artists",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "hardcore techno music",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "early gabber",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "gabber look",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "hardcore techno songs",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "uk hardcore",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "happy 2b hardcore",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "Keyword Planner"
+    },
+    {
+      "term": "gabber records",
+      "volume": 10,
+      "range": "10-100",
+      "note": "Keyword Planner"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "gabber master vst",
+      "reason": "Production intent. WRITING.md: the site does not teach making the music."
+    },
+    {
+      "term": "gabber samples",
+      "reason": "File intent. No samples or kits."
+    },
+    {
+      "term": "gabber vocal samples",
+      "reason": "File intent."
+    },
+    {
+      "term": "gabber download",
+      "reason": "File intent."
+    },
+    {
+      "term": "fl studio frenchcore",
+      "reason": "Production intent."
+    },
+    {
+      "term": "frenchcore kicks free download",
+      "reason": "File intent."
+    },
+    {
+      "term": "happy hardcor",
+      "reason": "Typo."
+    },
+    {
+      "term": "happy hatdcore",
+      "reason": "Typo."
+    },
+    {
+      "term": "gabber modus operandi",
+      "reason": "A single artist's name; not this page's intent."
+    },
+    {
+      "term": "happy hardstyle",
+      "reason": "A hardstyle subgenre; belongs to the hardstyle guide."
+    },
+    {
+      "term": "gabber 90s",
+      "reason": "Keyword Planner 100-1K. Word order only reads as a search string; the 1990s are covered throughout."
+    },
+    {
+      "term": "90's happy hardcore",
+      "reason": "Keyword Planner 100-1K. Apostrophe form; the 1990s scene is covered in the happy hardcore section."
+    },
+    {
+      "term": "dutch gabba",
+      "reason": "Keyword Planner 10-100. Spelling variant; the page uses gabber."
+    }
+  ]
+}

@@ -152,6 +152,7 @@ HERO = {
     "chicago-clubs": "img/chicago-clubs/chicago-metro-sign-1200.webp",
     "miami-clubs": "img/miami-clubs/club-space-exterior-2025-1200.webp",
     "la-clubs": "img/la-clubs/avalon-hollywood-2007-1200.webp",
+    "gabber": "img/gabber/masters-of-hardcore-2018-1200.webp",
     "tokyo-clubs": "img/tokyo-clubs/womb-shibuya-1200.webp",
     "budapest-clubs": "img/budapest-clubs/a38-ship-1200.webp",
     "belgrade-clubs": "img/belgrade-clubs/sava-from-kalemegdan-1200.webp",

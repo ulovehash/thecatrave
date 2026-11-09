@@ -506,6 +506,14 @@ export const homeArticleCatalog = [
     width:1024, height:681, alt:'Armin van Buuren playing to a large crowd at Armin Only Embrace in Kyiv, 2017'
   },
   {
+    page:'gabber-guide.html', category:'music-history', tags:['history','hardcore','gabber','hardstyle','techno'], href:'/gabber-guide', type:'Guide', topic:'Gabber',
+    title:'What Is Gabber? Gabber Music, Hardcore Techno and Happy Hardcore',
+    description:'Rotterdam Records, Thunderdome, the gabber look and hakken, happy hardcore and how gabber differs from hardstyle.',
+    image:'img/gabber/masters-of-hardcore-2018-320.webp',
+    srcset:'img/gabber/masters-of-hardcore-2018-320.webp 320w,img/gabber/masters-of-hardcore-2018-1200.webp 1200w',
+    width:1200, height:900, alt:'A packed indoor hall facing a stage lit in red at Masters of Hardcore'
+  },
+  {
     page:'hardstyle-guide.html', category:'music-history', tags:['history','hardstyle','trance','techno'], href:'/hardstyle-guide', type:'Guide', topic:'Hardstyle',
     title:'What Is Hardstyle? History, Sound, Artists and Subgenres',
     description:'Reverse bass, distorted pitched kicks, the Dutch festival circuit and the split between euphoric and raw hardstyle.',
