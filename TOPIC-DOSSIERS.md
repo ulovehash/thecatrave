@@ -2781,3 +2781,19 @@ Claude in Chrome was not connected, so stage 3 (Keyword Planner ideas) and PAA t
 - "summer festivals europe electronic music": musicfestivalwizard (edm and techno Europe), flolondon (summer 2026), thenittygrittyguide (August), festt.io, leonardo-hotels, flytap, matadornetwork, plus 2006 to 2023 pages. Mixed general and electronic, mostly stale or brand-adjacent.
 
 Not done: stage 3, PAA, stage 5 (competitor page mining), referring domains, gl=gb read, validation. Still no verdict.
+
+### Seasonal and monthly terms: stage 3 and SERP shape via Chrome (10 November 2026)
+
+Keyword Planner "Discover new keywords", US only (default location, not changed), language English, Oct 2025 to Sep 2026, ranges, one filter active (Brand or Non-Brand, non-brand). Seeds: summer electronic music festivals, electronic music festivals by month, autumn electronic music festivals. Only 13 ideas returned.
+- 100–1K: edm festivals this summer, summer edm music festivals.
+- 10–100: summer electronic music festivals, best summer edm festivals, electronic music festivals summer 2022, electronic summer festival.
+- 0–10: electronic music festivals by month, autumn electronic music festivals, and five "summer 2022" EDM variants.
+Reading: the electronic and EDM seasonal and month forms are small in the US. The 100–1K bands sit on the general "music festivals in <month>" forms from the first pass. Not run: all-locations ideas, spring seeds, gb.
+
+Live Google, gl=us, hl=en, result titles only (PAA not captured by the selector, so PAA text is still NOT done):
+- "music festivals in july": MFW guide, Spot2Nite, edmtrain, July Music Festivals page, JamBase-style lists, Travellerspoint forum, reddit. Mixed general and EDM.
+- "best autumn festivals": AI Mode block, then general cultural fall festivals (Wonderlust, Vermont, USA). Not electronic intent at all.
+- "summer festivals europe": AI Mode block, MFW, TicketSwap (13 best in Europe in August 2026), spreadsheet, European Festivals Association (official, cultural). General music.
+- "best electronic music festivals in summer": no titles read.
+
+Still not done: PAA text, stage 5 competitor mining, referring domains, gl=gb read, stage 6 validation. No verdict.
