@@ -2797,3 +2797,8 @@ Live Google, gl=us, hl=en, result titles only (PAA not captured by the selector,
 - "best electronic music festivals in summer": no titles read.
 
 Still not done: PAA text, stage 5 competitor mining, referring domains, gl=gb read, stage 6 validation. No verdict.
+
+### Seasonal and monthly terms: stage 6 verdict (10 November 2026)
+
+Independent validator, not the gatherer, files only. Write narrower: A, "best summer EDM / electronic festivals", worldwide, 2027 dates, not the general "summer music festivals" head. Drop: by-month guide, one page per month, autumn, spring, "best summer music". 2027 forms: fold into A and existing guides, no page. Ranking: A, then B and G level, then D, C, E, F. Main risk: cannibalising /best-electronic-music-festivals-europe (993 clicks) and /best-edm-festivals-usa (312); A only works as a cross-region pick. Open before writing A: stage 5, PAA, referring domains, GSC overlap of the Europe and USA pages with summer EDM forms. If those pages already rank for summer EDM forms, A drops.
+Owner question after the verdict: split A into summer Europe and summer US. Not measured: no US- or Europe-specific summer electronic term has been put through Keyword Planner yet.
