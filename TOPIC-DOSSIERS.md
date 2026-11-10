@@ -2802,3 +2802,15 @@ Still not done: PAA text, stage 5 competitor mining, referring domains, gl=gb re
 
 Independent validator, not the gatherer, files only. Write narrower: A, "best summer EDM / electronic festivals", worldwide, 2027 dates, not the general "summer music festivals" head. Drop: by-month guide, one page per month, autumn, spring, "best summer music". 2027 forms: fold into A and existing guides, no page. Ranking: A, then B and G level, then D, C, E, F. Main risk: cannibalising /best-electronic-music-festivals-europe (993 clicks) and /best-edm-festivals-usa (312); A only works as a cross-region pick. Open before writing A: stage 5, PAA, referring domains, GSC overlap of the Europe and USA pages with summer EDM forms. If those pages already rank for summer EDM forms, A drops.
 Owner question after the verdict: split A into summer Europe and summer US. Not measured: no US- or Europe-specific summer electronic term has been put through Keyword Planner yet.
+
+### Summer Europe vs US split: measurement (10 November 2026)
+
+Keyword Planner, Get search volume, all locations, 20 terms in one batch (two were merged as close variants and not listed: best summer festivals in europe, us summer music festivals).
+
+- 100–1K: summer music festivals usa (0%), summer festivals usa (-90%), summer music festivals europe (-90%, CPC $0.40–$8.70), summer festivals in europe (0%), summer festivals 2027 (+900%).
+- 10–100: best summer festivals europe, summer music festivals 2027.
+- No data: summer edm festivals usa, summer edm festivals us, best summer edm festivals usa, summer electronic music festivals usa, summer festivals europe 2027, summer edm festivals europe, summer electronic music festivals europe, summer techno festivals europe, europe summer festivals 2027, edm festivals summer 2027, edm festivals europe summer.
+
+SERP, "summer music festivals usa" (gl=us): Music Festival Wizard, Songkick, Reddit, MusicalAmerica, Summerfest, JamBase, Time Out, EDM Train, USA Today 10Best. General all-genre listings; one EDM site.
+
+Reading: the region demand exists only on all-genre wording. Every electronic or EDM form of the Europe and US summer split measures zero. A split page would target general festival intent the site does not serve, and would sit on top of the Europe guide and the USA guide. Not justified; summer sections in those two guides (wording shown first) remain the recommendation.
