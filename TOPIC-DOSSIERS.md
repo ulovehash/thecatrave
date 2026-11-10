@@ -2772,3 +2772,12 @@ SERP "electronic music festivals in march" (US): edmtrain, reddit r/aves, Ultra,
 SERP "best summer music festivals" (US): reddit, Time Out (21 best US, Mar 2026), Pitchfork (31 most anticipated, Jun 2026), Spot2Nite, Vivid Seats, Summerfest, Musical America, classical forum. General and rock-pop, Coachella, Bonnaroo, Lollapalooza intent. Electronic is a small part. PASF: best summer music festivals in america, in usa, biggest music festivals in the world.
 
 Not done: PAA text, gl=gb SERP, related terms for the summer heads, "best summer music" SERP, competitor page mining, referring domains.
+
+### Seasonal and monthly terms: web-search SERP read (10 November 2026)
+
+Claude in Chrome was not connected, so stage 3 (Keyword Planner ideas) and PAA text were NOT done. Read through WebSearch (US, standard), result titles only, no referring domains.
+- "music festivals in july electronic": festivalsherpa ("10 best electronic music festivals happening july"), musicfestivalwizard (best edm festivals in europe), edmhousenetwork (July 2025), festivalcalendar.uk electronic tag, festt.io summer 2026 electronic, festapp, Time Out Croatia calendar, vickyflipfloptravels (general), several 2015 to 2016 pages. Many results are stale. Aggregators count 383 electro festivals in July 2026 of 960 across June to August (festt.io), so July is the densest month.
+- "best autumn music festivals electronic": thenittygrittyguide (Europe 2025, USA 2026 editions), technoairlines (fall techno 2024), iheartraves (ultimate fall festival guide, Aug 2024), 909originals (September and October), sunset.com, expats.cz, travelaway, outlooktraveller; the rest 2015 to 2017. Autumn electronic has no major publisher; ADE and Tomorrowland Brasil recur.
+- "summer festivals europe electronic music": musicfestivalwizard (edm and techno Europe), flolondon (summer 2026), thenittygrittyguide (August), festt.io, leonardo-hotels, flytap, matadornetwork, plus 2006 to 2023 pages. Mixed general and electronic, mostly stale or brand-adjacent.
+
+Not done: stage 3, PAA, stage 5 (competitor page mining), referring domains, gl=gb read, validation. Still no verdict.
