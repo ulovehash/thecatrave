@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { articlePage, articleFaq, faqStructuredData, breadcrumbStructuredData, languageSwitch } from './site-components.mjs';
+import { articlePage, breadcrumbStructuredData, languageSwitch } from './site-components.mjs';
 import { channels } from './selector-channels.mjs';
 import { alternatesFor, pages } from './pages.mjs';
 import { t } from './i18n.mjs';
@@ -225,70 +225,22 @@ function englishCopy({total, tagged, broadcasters, channelList, escapeHtml}) {
       broadcasters.map(b => escapeHtml(b)).join(', ')
     }.`,
     aboutTitle: 'Choosing is the hard part.',
-    // Below-the-fold context, written for the queries this page can answer:
-    // "random DJ set", "random Boiler Room set", "best HÖR sets", "what set should
-    // I listen to". Keep the channel names as plain text so they read as entities.
+    // Short on purpose: this page gets no search traffic, so the copy is for the
+    // person holding the remote, not for a query (owner, 2026-11-10).
     aboutHtml: `
-<p>Finding a good DJ set has never been the difficulty. ${broadcasters.length} channels put up more of them than anyone could get through, and that is the problem: with ${escapeHtml(setCount)} in front of you, picking one becomes its own small chore, and you end up watching nothing.</p>
-<p>The Selector is for exactly that. Press the button and it plays a set at random from ${escapeHtml(countLine)}. Press it again for another. No need to register, no ads, and your saved lists stay only in your browser.</p>
-<p>Four filters narrow the pool before it picks, and <strong>Mode</strong> is the one that changes the character of what you get. It decides how big an audience a set should already have.</p>
-<ul>
-  <li><strong>All</strong> shuffles the whole catalogue, all ${escapeHtml(setCount)} sets, nothing weighted either way.</li>
-  <li><strong>Popular</strong> sticks to sets that already found a big audience. This is the one for a best-of: a popular ${escapeHtml(broadcasters[0])} set, a popular techno set, something you can put on knowing a lot of people rated it.</li>
-  <li><strong>Hidden gems</strong> looks at how loved a set is next to how many people actually saw it. You get the ones a small crowd rated highly rather than the ones that simply got pushed.</li>
-  <li><strong>Niche sets</strong> is the opposite end of Popular: the quiet part of the catalogue, where most artists have almost no audience yet. Worth it if you like getting there first.</li>
-</ul>
-<p>The other three filters stack on top of any mode. <strong>Source</strong> limits the pool to one channel, so you can pull a random ${escapeHtml(broadcasters[0])} set, or an ${escapeHtml(broadcasters[1] || 'HÖR')} set, or one from ${escapeHtml(broadcasters.slice(2, 6).join(', '))}. <strong>Genre</strong> covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop and disco where a set is tagged. <strong>Length</strong> answers the other question you actually have, which is how much time you have got: most of this catalogue is the radio hour, so the filter is really there for the two ends, the under-45-minute sets and the ones that run past an hour and a quarter.</p>
-<p>The pool is the long-form uploads of ${escapeHtml(channelList)}: real sets rather than clips, refreshed weekly. For the history behind the music, read the <a href="/drum-and-bass-guide">drum and bass guide</a>, the <a href="/jungle-music-guide">jungle guide</a>, the <a href="/breakbeat-guide">breakbeat guide</a> and the <a href="/dubstep-guide">dubstep guide</a>.</p>
+<p>There are more good DJ sets online than anyone could get through, so choosing one becomes a chore and you end up watching nothing. Press the button and the Selector picks for you: a set at random from ${escapeHtml(countLine)}. Not feeling it? Press again.</p>
+<p>No need to register, no ads, and your saved lists stay only in your browser.</p>
 `.trim(),
-    faqTitle: 'Questions about finding new music.',
-    faqItems: [
-      {
-        question: 'How do you discover new music without an algorithm?',
-        answer: `You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from ${broadcasters.length} channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.`,
-        answerHtml: `<p>You stop choosing. An algorithm hands you more of what you already played, so the way out is a source it has no say over. The Selector picks a DJ set at random from ${broadcasters.length} channels, and the modes decide how far off the beaten track you land: the well-watched end, the quiet end, or the sets that are loved out of all proportion to how many people found them.</p>`,
-      },
-      {
-        question: 'What is the best way to find new music you have never heard?',
-        answer: 'Listen to a DJ you do not know. A set is an hour of tracks someone spent years selecting, so one good set introduces you to more music than an afternoon of skipping through singles. Set the Selector to Niche sets and it will only play from the quiet end of the catalogue, where the sets almost nobody has found are.',
-        answerHtml: '<p>Listen to a DJ you do not know. A set is an hour of tracks someone spent years selecting, so one good set introduces you to more music than an afternoon of skipping through singles. Set the Selector to <strong>Niche sets</strong> and it will only play from the quiet end of the catalogue, where the sets almost nobody has found are.</p>',
-      },
-      {
-        question: 'How does The Selector pick a set?',
-        answer: `You press one button and it plays a DJ set chosen at random from its catalogue of ${countLine}. Press again for another. There is no algorithm learning your taste, and the list of sets you have played stays in your browser.`,
-        answerHtml: `<p>You press one button and it plays a DJ set chosen at random from its catalogue of ${escapeHtml(countLine)}. Press again for another. There is no algorithm learning your taste, and the list of sets you have played stays in your browser.</p>`
-      },
-      {
-        question: 'Can I get a random Boiler Room set?',
-        answer: `Yes. Open the Source filter and choose Boiler Room, then press the button to shuffle only Boiler Room sets. The same works for HÖR, NTS, Beatport, The Lot Radio, Rinse FM, Kiosk Radio, Cercle and every other channel in the list.`,
-        answerHtml: `<p>Yes. Open the Source filter and choose Boiler Room, then press the button to shuffle only Boiler Room sets. The same works for HÖR, NTS, Beatport, The Lot Radio, Rinse FM, Kiosk Radio, Cercle and every other channel in the list.</p>`
-      },
-      {
-        question: 'How do I find the best or most popular sets?',
-        answer: `Pick the Popular mode. It keeps the pool to sets that already have a big audience, so every result is one a lot of people have watched and rated. Combine it with a Source or Genre filter for a popular techno set, a popular HÖR set, and so on. Hidden gems does the opposite: it favours sets that are loved out of proportion to how many people saw them, so you get what a small crowd rated highly instead of what simply got pushed. Niche sets goes to the quiet end of the catalogue, where most of the artists have almost no audience yet.`,
-        answerHtml: `<p>Pick the <strong>Popular</strong> mode. It keeps the pool to sets that already have a big audience, so every result is one a lot of people have watched and rated. Combine it with a Source or Genre filter for a popular techno set, a popular HÖR set, and so on.</p><p><strong>Hidden gems</strong> does the opposite: it favours sets that are loved out of proportion to how many people saw them, so you get what a small crowd rated highly instead of what simply got pushed. <strong>Niche sets</strong> goes to the quiet end of the catalogue, where most of the artists have almost no audience yet.</p>`
-      },
-      {
-        question: 'What is the difference between Popular, Hidden gems and Niche sets?',
-        answer: `It comes down to how much of an audience a set already has. Popular gives you the well-watched end of whatever you have filtered to, Niche sets the quiet end. Hidden gems sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. All drops the weighting and shuffles the full catalogue.`,
-        answerHtml: `<p>It comes down to how much of an audience a set already has. <strong>Popular</strong> gives you the well-watched end of whatever you have filtered to, <strong>Niche sets</strong> the quiet end. <strong>Hidden gems</strong> sits apart from both: it cares about how loved a set is relative to how many people saw it, so a set can be a gem whether it has ten thousand views or a million. <strong>All</strong> drops the weighting and shuffles the full catalogue.</p>`
-      },
-      {
-        question: 'Which channels does it pull from?',
-        answer: `${channelList}. Every one is a public YouTube channel and the catalogue is refreshed weekly.`,
-        answerHtml: `<p>${escapeHtml(channelList)}. Every one is a public YouTube channel and the catalogue is refreshed weekly.</p>`
-      },
-      {
-        question: 'Can I filter by genre?',
-        answer: `Yes, where a set is tagged. The Genre row covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop, disco and more. Sets that could not be tagged sit in an "untagged" bucket you can include or exclude.`,
-        answerHtml: `<p>Yes, where a set is tagged. The Genre row covers house, techno, drum and bass, dubstep, UK garage, jungle, electro, breakbeat, hip-hop, disco and more. Sets that could not be tagged sit in an "untagged" bucket you can include or exclude.</p>`
-      },
-      {
-        question: 'Do the sets play here or on YouTube?',
-        answer: `Each pick embeds the set on this page with a link out to watch it on YouTube. Nothing is downloaded and there is no account, sign-up or install.`,
-        answerHtml: `<p>Each pick embeds the set on this page with a link out to watch it on YouTube. Nothing is downloaded and there is no account, sign-up or install.</p>`
-      }
-    ],
+    howHtml: `
+<ul class="how-list">
+  <li><strong>The button</strong> plays a set at random. Space does the same, B goes back to the last one, S saves it.</li>
+  <li><strong>Mode</strong> decides how well known the set is. <strong>Popular</strong>: sets a big audience already rated. <strong>Hidden gems</strong>: sets a small crowd loved. <strong>Niche sets</strong>: artists almost nobody has found yet. <strong>All</strong>: no weighting.</li>
+  <li><strong>Channels</strong> you switch on are the only ones it plays from, say Boiler Room and NTS.</li>
+  <li><strong>Genre</strong> and <strong>Length</strong> narrow it further, to techno under 45 minutes for example. Genre only covers sets that carry a tag.</li>
+  <li><strong>Saved</strong> and <strong>Recently played</strong> keep the sets you want to find again.</li>
+</ul>
+<p>Sets play from YouTube, embedded on this page, and new uploads join the catalogue every week. For the music behind them, read the <a href="/articles">guides</a> or start with <a href="/best-dj-sets-of-all-time">the best DJ sets of all time</a>.</p>
+`.trim(),
     featureList: [
       'Random DJ set picker',
       'Filter by source channel (Boiler Room, HÖR, NTS, Beatport, Rinse FM and more)',
@@ -325,6 +277,16 @@ function build(lang, copy, {file, path}) {
       <p class="install-tip" id="sel-install-tip" data-ios="${escapeHtml(install.ios)}" data-other="${escapeHtml(install.other)}" hidden></p>
     </div>`;
 
+  // the channel readout: two seven-segment digits drawn as SVG, lit by the
+  // runtime segment by segment; unlit segments stay as faint ghosts, like a real LED
+  function segmentDigits() {
+    const g = .45;
+    const h = y => `${2 + g},${y} ${3 + g},${y - 1} ${9 - g},${y - 1} ${10 - g},${y} ${9 - g},${y + 1} ${3 + g},${y + 1}`;
+    const v = (x, a, b) => `${x},${a + g} ${x + 1},${a + 1 + g} ${x + 1},${b - 1 - g} ${x},${b - g} ${x - 1},${b - 1 - g} ${x - 1},${a + 1 + g}`;
+    const segs = { a: h(2), b: v(11, 2, 10), c: v(11, 10, 18), d: h(18), e: v(1, 10, 18), f: v(1, 2, 10), g: h(10) };
+    const digit = dx => `<g class="dg" transform="translate(${dx} 0)">${Object.entries(segs).map(([k, pts]) => `<polygon data-s="${k}"${k === 'g' ? ' class="on"' : ''} points="${pts}"/>`).join('')}</g>`;
+    return `<svg viewBox="0 0 31 20" focusable="false"><g transform="translate(3.2 0) skewX(-8)">${digit(0)}${digit(15)}</g></svg>`;
+  }
   const play = '<svg class="i-play" viewBox="0 0 20 20"><path d="M5 2.5 17.5 10 5 17.5z" fill="currentColor"/></svg>';
   const player = win(escapeHtml(copy.appName), 'player', copy.appName, `<div class="tv">
       <div class="screen" id="sel-screen">
@@ -332,15 +294,26 @@ function build(lang, copy, {file, path}) {
           <span class="plate"><span class="plate-row" aria-hidden="true"><span class="cat"></span><span class="pk">${play}</span></span><span>${escapeHtml(P.testcard)}</span></span>
         </button>
         <span class="static" id="sel-static" hidden aria-hidden="true"></span>
+        <span class="osd" id="sel-osd" hidden aria-hidden="true"><b id="sel-osd-ch"></b><span id="sel-osd-name"></span></span>
+        <span class="osd-vol" id="sel-osd-vol" hidden aria-hidden="true"><i id="sel-osd-vol-l">VOLUME</i><span class="bars" id="sel-osd-bars"></span><b id="sel-osd-vol-n"></b></span>
         <p class="notice" id="sel-notice" hidden></p>
       </div>
       <div class="tv-panel">
-        <span class="led" id="sel-led" aria-hidden="true">CH --</span>
+        <span class="ch-led" id="sel-led" aria-hidden="true">${segmentDigits()}</span>
         <span class="pwr" id="sel-pwr" data-live="false" aria-hidden="true"></span>
-        <span class="path" id="sel-path">selector://standby</span>
-        <span class="grille" aria-hidden="true"></span>
+        <span class="badge" aria-hidden="true">Selector</span>
         <span class="kw v"><button type="button" class="knob vol" id="sel-vol" role="slider" aria-label="${escapeHtml(P.volume)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" title="${escapeHtml(P.volumeTitle)}"></button><i aria-hidden="true">VOL</i></span>
         <span class="kw"><button type="button" class="knob" id="sel-knob" tabindex="-1" aria-hidden="true" title="${escapeHtml(P.nextTitle)}"></button><i aria-hidden="true">CH</i></span>
+      </div>
+      <div class="transport">
+        <div class="go-wrap">
+          <button type="button" class="go" id="sel-go"><span class="ico" aria-hidden="true">${play}<svg class="i-next" viewBox="0 0 20 20"><path d="M2.5 2.5 13 10 2.5 17.5zM14 2.5h3.5v15H14z" fill="currentColor"/></svg></span><span id="sel-go-t">${escapeHtml(ui.pickMe || 'Pick me a set')}</span></button>
+          <span class="burst" id="sel-burst" aria-hidden="true"></span>
+        </div>
+        <button type="button" class="key k-back" id="sel-back" disabled aria-label="${escapeHtml(P.backLabel)}"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h2v12H4zM16 4v12L7 10z" fill="currentColor"/></svg>${escapeHtml(P.back)}</button>
+        <button type="button" class="key k-save" id="sel-save" aria-pressed="false" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 17 3 10a4 4 0 0 1 7-5 4 4 0 0 1 7 5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg><span id="sel-save-t">${escapeHtml(ui.keySave || 'Save')}</span></button>
+        <button type="button" class="key k-share" id="sel-share" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10M6 7l4-4 4 4M4 12v5h12v-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.share)}</button>
+        <a class="key k-yt" id="sel-yt" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4H4v12h12v-4M11 3h6v6M17 3l-8 8" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.youtube)}</a>
       </div>
     </div>
     <div class="now idle" id="sel-now" aria-live="polite">
@@ -348,16 +321,6 @@ function build(lang, copy, {file, path}) {
       <p class="artist" id="sel-artist">${escapeHtml(P.idleArtist)}</p>
       <p class="meta" id="sel-meta">${escapeHtml(P.idleMeta)}</p>
       <p class="tags" id="sel-tags"></p>
-    </div>
-    <div class="transport">
-      <div class="go-wrap">
-        <button type="button" class="go" id="sel-go"><span class="ico" aria-hidden="true">${play}<svg class="i-next" viewBox="0 0 20 20"><path d="M2.5 2.5 13 10 2.5 17.5zM14 2.5h3.5v15H14z" fill="currentColor"/></svg></span><span id="sel-go-t">${escapeHtml(ui.pickMe || 'Pick me a set')}</span></button>
-        <span class="burst" id="sel-burst" aria-hidden="true"></span>
-      </div>
-      <button type="button" class="key k-back" id="sel-back" disabled aria-label="${escapeHtml(P.backLabel)}"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h2v12H4zM16 4v12L7 10z" fill="currentColor"/></svg>${escapeHtml(P.back)}</button>
-      <button type="button" class="key k-save" id="sel-save" aria-pressed="false" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 17 3 10a4 4 0 0 1 7-5 4 4 0 0 1 7 5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg><span id="sel-save-t">${escapeHtml(ui.keySave || 'Save')}</span></button>
-      <button type="button" class="key k-share" id="sel-share" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10M6 7l4-4 4 4M4 12v5h12v-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.share)}</button>
-      <a class="key k-yt" id="sel-yt" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4H4v12h12v-4M11 3h6v6M17 3l-8 8" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>${escapeHtml(P.youtube)}</a>
     </div>
     ${installHtml}
     <p class="hint">${escapeHtml(P.hint)}</p>`);
@@ -381,20 +344,12 @@ function build(lang, copy, {file, path}) {
     <div id="sel-crate-panel" role="tabpanel" aria-labelledby="sel-tab-saved"><ol class="crate" id="sel-crate"></ol></div>
     <p class="foot">${escapeHtml(copy.libraryNote)}</p>`);
 
-  // About keeps the first two paragraphs of the page's essay; the rest, the
-  // modes and filters explained, opens "How it works" above the questions.
-  const cut = copy.aboutHtml.indexOf('</p>', copy.aboutHtml.indexOf('</p>') + 4) + 4;
-  const aboutLead = copy.aboutHtml.slice(0, cut);
-  const aboutRest = copy.aboutHtml.slice(cut).trim();
   const about = win(escapeHtml(P.about), '', P.about, `<div class="about">
       <div class="stat"><div><b id="sel-st-sets">${fmt(sets.length)}</b><span>${escapeHtml(P.statSets)}</span></div><div><b id="sel-st-ch">${broadcasters.length}</b><span>${escapeHtml(P.statChannels)}</span></div></div>
-      <section id="about" aria-labelledby="sel-about-h"><h2 id="sel-about-h">${escapeHtml(copy.aboutTitle)}</h2>${aboutLead}</section>
+      <section id="about" aria-labelledby="sel-about-h"><h2 id="sel-about-h">${escapeHtml(copy.aboutTitle)}</h2>${copy.aboutHtml}</section>
     </div>`, null);
 
-  const how = win(escapeHtml(P.how), 'faq-win', P.how, `<div class="faq">
-      <div class="faq-lead">${aboutRest}</div>
-      ${articleFaq({ id: 'faq', title: copy.faqTitle, items: copy.faqItems, lang, openFirst: false })}
-    </div>`);
+  const how = win(escapeHtml(P.how), 'faq-win', P.how, `<div class="faq how">${copy.howHtml}</div>`);
 
   const toolHtml = `<div class="desk" id="selector">
   <div class="intro">
@@ -446,8 +401,7 @@ function build(lang, copy, {file, path}) {
       featureList: copy.featureList,
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
     },
-    breadcrumbStructuredData({ name: copy.appName, canonical, lang }),
-    faqStructuredData({ items: copy.faqItems })
+    breadcrumbStructuredData({ name: copy.appName, canonical, lang })
   ];
 
   const html = articlePage({

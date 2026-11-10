@@ -1150,8 +1150,8 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 .selector-page .intro .newch .t{margin:0;font-size:.92rem;color:var(--ink)}
 .selector-page .intro .newch button{position:absolute;top:.25rem;right:.3rem;width:2.2rem;height:2.2rem;border:0;background:none;
   font:400 1.4rem/1 var(--sans);cursor:pointer}
-/* Add to home screen: a full-width key under the transport, every device */
-.selector-page .install{padding:0 .9rem .9rem}
+/* Add to home screen: a full-width key under what is playing, every device */
+.selector-page .install{padding:.9rem}
 .selector-page .install-btn{position:relative;display:flex;align-items:center;gap:.8rem;width:100%;min-height:3.4rem;padding:.5rem .6rem .5rem .55rem;
   border:2px solid var(--ink);background:var(--yellow);box-shadow:var(--shadow-sm);color:var(--ink);overflow:hidden;
   font:700 .74rem/1.2 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-align:left;cursor:pointer;
@@ -1193,7 +1193,7 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
   font:700 .74rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
 /* ---------- the TV ---------- */
 /* A black set on the desk: bezel, a tube with barrel corners, a control strip
-   with the channel readout, two knobs and a speaker grille. All drawn in CSS. */
+   with the channel readout, a nameplate and two knobs. All drawn in CSS. */
 .selector-page .tv{margin:.75rem .75rem 0;padding:.75rem .75rem 0;background:var(--ink);border-radius:20px;
   box-shadow:inset 0 0 0 2px #262626,inset 0 -10px 18px rgba(255,255,255,.04)}
 .selector-page .screen{position:relative;aspect-ratio:16/9;background:#151515;overflow:hidden;
@@ -1212,12 +1212,22 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 .selector-page .static[hidden]{display:none}
 @keyframes sel-snow{0%{background-position:0 0,0 0}33%{background-position:0 1px,-53px 41px}66%{background-position:0 2px,47px -67px}100%{background-position:0 0,-19px 88px}}
 .selector-page .tv-panel{display:flex;align-items:center;gap:.7rem;height:2.9rem;padding:0 .25rem;color:#bdb7ab;font:400 .68rem/1 var(--mono)}
-.selector-page .led{flex:none;padding:.28rem .45rem;background:#1f0c06;border:1px solid #3d2219;color:var(--acid);
-  font:700 .74rem/1 var(--mono);letter-spacing:.1em;text-shadow:0 0 6px rgba(255,90,54,.75)}
+/* the channel readout: a smoked window with two seven-segment digits, lit red,
+   the unlit segments left faintly visible the way a real LED shows them */
+.selector-page .ch-led{flex:none;display:flex;align-items:center;height:1.9rem;padding:0 .5rem;
+  background:linear-gradient(#170705,#240c07);border-radius:3px;
+  box-shadow:inset 0 2px 5px rgba(0,0,0,.85),inset 0 0 0 1px #3d2219,0 1px 0 #2e2e2e}
+.selector-page .ch-led svg{display:block;height:1.3rem;width:auto;overflow:visible}
+.selector-page .ch-led polygon{fill:rgba(255,90,54,.09)}
+.selector-page .ch-led polygon.on{fill:#ff6a3f;filter:drop-shadow(0 0 1.5px rgba(255,90,54,.95))}
 .selector-page .pwr{flex:none;width:.55rem;height:.55rem;border-radius:50%;background:#3a3a3a}
 .selector-page .pwr[data-live="true"]{background:var(--acid);box-shadow:0 0 7px var(--acid)}
-.selector-page .tv-panel .path{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.selector-page .grille{flex:none;width:3.6rem;height:1.2rem;background:repeating-linear-gradient(90deg,#3b3b3b 0 2px,transparent 2px 5px)}
+/* the maker's nameplate, a brushed-metal badge screwed to the strip */
+.selector-page .badge{flex:none;margin-right:auto;padding:.22rem .5rem .26rem;border-radius:2px;
+  background:linear-gradient(180deg,#e9e6df 0,#a9a59c 48%,#cfcbc2 52%,#8d897f 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 0 0 1px #000,0 1px 2px rgba(0,0,0,.6);
+  color:#1b1b1b;font:900 italic .66rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;
+  text-shadow:0 1px 0 rgba(255,255,255,.45)}
 .selector-page .knob{flex:none;position:relative;width:1.5rem;height:1.5rem;padding:0;border-radius:50%;border:2px solid #000;cursor:pointer;
   background:radial-gradient(circle at 35% 30%,#fff 0 18%,var(--paper) 45%,#cfc9bc);
   transform:rotate(var(--r,0deg));transition:transform .35s cubic-bezier(.2,.8,.2,1)}
@@ -1228,7 +1238,7 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 .selector-page .kw{flex:none;display:flex;flex-direction:column;align-items:center;gap:.18rem}
 .selector-page .kw i{font:700 .5rem/1 var(--mono);font-style:normal;letter-spacing:.12em;color:#8f897d}
 @media (max-width:520px){
-  .selector-page .grille,.selector-page .kw.v{display:none}
+  .selector-page .kw.v{display:none}
   .selector-page .tv{margin:.55rem .55rem 0;padding:.55rem .55rem 0;border-radius:16px}
   .selector-page .screen{border-radius:18px / 22px}
 }
@@ -1271,6 +1281,21 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
   background:var(--yellow);border:2px solid var(--ink);box-shadow:var(--shadow-sm);
   font:700 .74rem/1.35 var(--mono);text-transform:uppercase;letter-spacing:.04em}
 .selector-page .notice[hidden],.selector-page .testcard[hidden]{display:none}
+/* on-screen display: the blocky green channel number and volume bar an old set
+   prints over the picture for a few seconds, then drops */
+.selector-page .osd,.selector-page .osd-vol{position:absolute;z-index:3;pointer-events:none;color:#5dff83;
+  font:700 1rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;
+  text-shadow:2px 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,0 0 10px rgba(93,255,131,.55)}
+.selector-page .osd{top:8%;right:6%;display:flex;flex-direction:column;align-items:flex-end;gap:.35rem}
+.selector-page .osd b{font-size:clamp(2rem,7vw,3.4rem);line-height:.85;letter-spacing:.02em}
+.selector-page .osd span{font-size:clamp(.7rem,1.8vw,.95rem)}
+.selector-page .osd-vol{left:50%;bottom:24%;transform:translateX(-50%);display:flex;align-items:center;gap:.6rem;font-size:clamp(.7rem,1.8vw,.95rem)}
+.selector-page .osd-vol i{font-style:normal}
+.selector-page .osd-vol .bars{width:clamp(7rem,30vw,13rem);height:.8rem;filter:drop-shadow(2px 2px 0 #000);
+  background:linear-gradient(90deg,#5dff83 calc(var(--v,0) * 1%),rgba(93,255,131,.18) 0);
+  -webkit-mask:repeating-linear-gradient(90deg,#000 0 6px,transparent 6px 9px);mask:repeating-linear-gradient(90deg,#000 0 6px,transparent 6px 9px)}
+.selector-page .osd-vol b{min-width:1.6em}
+.selector-page .osd[hidden],.selector-page .osd-vol[hidden]{display:none}
 .selector-page .testcard::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
   background:repeating-linear-gradient(to bottom,rgba(10,10,10,.14) 0 1px,transparent 1px 3px)}
 .selector-page .hint{margin:0;padding:.4rem .9rem;border-top:2px solid var(--ink);background:var(--surface-muted);font:400 .68rem/1.3 var(--mono);color:var(--muted)}
@@ -1290,43 +1315,57 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 .selector-page .now.idle .logo{display:none}
 .selector-page .now.idle{grid-template-columns:minmax(0,1fr)}
 /* ---------- transport ---------- */
-.selector-page .transport{display:grid;grid-template-columns:minmax(0,1fr) repeat(4,auto);gap:.6rem;padding:.9rem}
-/* The main key reads as play before it reads as a word: a black well with a
-   paper triangle, the shape every player uses. After the first set the
-   triangle gains the bar of a skip key. */
+/* The keys are the front of the set, made of what the rest of it is made of:
+   cream plastic piano keys like the knobs, printed in ink, sitting in a groove
+   under the control strip. No coloured fills: colour comes only from lamps,
+   the orange one in the main key and the red one on YouTube, the way the
+   readout is the only lit thing on the strip. A saved set latches its key down.
+   Layout: the transport follows the width of the TV, not the viewport: below 620px of
+   TV, Pick takes its own row, so its label can never run under Back. */
+.selector-page .tv{container:sel-tv / inline-size}
+.selector-page .transport{display:grid;grid-template-columns:minmax(0,1fr) repeat(4,4.4rem);gap:.45rem;
+  margin:0 -.25rem .75rem;padding:.5rem .5rem .65rem;border-radius:6px;background:#0b0b0b;
+  box-shadow:inset 0 2px 5px rgba(0,0,0,.95),0 1px 0 #2a2a2a}
 .selector-page .go-wrap{position:relative;display:grid}
-.selector-page .go{grid-area:1/1;display:flex;align-items:center;gap:.9rem;min-height:3.6rem;
-  padding:.45rem 1.1rem .45rem .45rem;border:2px solid var(--ink);background:var(--acid);box-shadow:var(--shadow);
-  font:700 clamp(1.05rem,3vw,1.3rem)/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;text-align:left;
-  transition:transform 90ms cubic-bezier(.2,.8,.2,1),box-shadow 90ms cubic-bezier(.2,.8,.2,1)}
-.selector-page .go .ico{flex:none;display:grid;place-items:center;width:2.7rem;height:2.7rem;background:var(--ink);color:var(--acid)}
-.selector-page .go .ico svg{width:1.3rem;height:1.3rem;transition:transform 120ms cubic-bezier(.2,.8,.2,1)}
+.selector-page .go,.selector-page .key{border:1.5px solid #000;border-radius:5px 5px 3px 3px;cursor:pointer;color:var(--ink);
+  background:linear-gradient(#fdfbf6 0,var(--paper) 38%,#d9d3c6 100%);
+  box-shadow:0 4px 0 #3b3833,0 5px 0 #000,inset 0 1px 0 #fff,inset 0 -3px 0 rgba(0,0,0,.08);
+  transition:transform 70ms cubic-bezier(.2,.8,.2,1),box-shadow 70ms cubic-bezier(.2,.8,.2,1)}
+/* The main key reads as play before it reads as a word: an orange lamp with
+   the play triangle in it, the shape every player uses. After the first set
+   the triangle gains the bar of a skip key. */
+.selector-page .go{grid-area:1/1;display:flex;align-items:center;gap:.75rem;min-height:3.2rem;padding:.35rem .9rem .35rem .4rem;
+  font:700 clamp(.9rem,2.4vw,1.05rem)/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;text-align:left}
+.selector-page .go .ico{flex:none;display:grid;place-items:center;width:2.3rem;height:2.3rem;border-radius:3px;
+  background:radial-gradient(circle at 40% 35%,#ff9a72,var(--acid) 60%,#c93d1c);color:var(--ink);
+  box-shadow:inset 0 0 0 1.5px #000,0 0 8px rgba(255,90,54,.55)}
+.selector-page .go .ico svg{width:1.05rem;height:1.05rem;transition:transform 120ms cubic-bezier(.2,.8,.2,1)}
 .selector-page .go .i-next{display:none}
 .selector-page .go[data-next] .i-play{display:none}
 .selector-page .go[data-next] .i-next{display:block}
-.selector-page .go:hover:not(:disabled){transform:translate(-1px,-1px);box-shadow:8px 8px 0 var(--ink)}
 .selector-page .go:hover:not(:disabled) .ico svg{transform:translateX(2px)}
-.selector-page .go:active:not(:disabled){transform:translate(6px,6px);box-shadow:0 0 0 var(--ink);transition-duration:40ms}
-.selector-page .go:disabled{background:var(--surface-muted);color:var(--muted);box-shadow:3px 3px 0 rgba(10,10,10,.2);cursor:default}
-.selector-page .go:disabled .ico{background:#b9b3a8;color:var(--surface-muted)}
-.selector-page .key{display:grid;place-items:center;gap:.1rem;min-width:3.4rem;min-height:3.4rem;padding:.35rem .5rem;
-  border:2px solid var(--ink);box-shadow:var(--shadow-sm);cursor:pointer;
-  font:700 .62rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--ink)}
-.selector-page .key svg{width:20px;height:20px}
-.selector-page .key:active:not(:disabled){transform:translate(3px,3px);box-shadow:none}
-.selector-page .key:disabled,.selector-page .key[aria-disabled="true"]{opacity:.4;cursor:default;box-shadow:none;pointer-events:none}
-.selector-page .k-back{background:var(--paper)}
-.selector-page .k-save{background:var(--coral)}
-.selector-page .k-save[aria-pressed="true"]{background:var(--acid)}
-.selector-page .k-share{background:var(--cyan)}
-.selector-page .k-yt{background:#e60000;color:#fff}
-/* every key the same square: the longest label (YouTube) sets the width */
-.selector-page .transport{grid-template-columns:minmax(0,1fr) repeat(4,4.6rem)}
-.selector-page .key{width:100%;aspect-ratio:1;min-width:0;overflow:hidden}
-@media (max-width:520px){
-  .selector-page .transport{grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem}
+.selector-page .go:hover:not(:disabled),.selector-page .key:hover:not(:disabled):not([aria-disabled="true"]){
+  background:linear-gradient(#fff 0,#f7f3ea 38%,#e0dacd 100%)}
+.selector-page .go:active:not(:disabled),.selector-page .key:active:not(:disabled),.selector-page .k-save[aria-pressed="true"]{
+  transform:translateY(3px);box-shadow:0 1px 0 #3b3833,0 2px 0 #000,inset 0 1px 0 #fff,inset 0 2px 4px rgba(0,0,0,.18);transition-duration:40ms}
+.selector-page .go:disabled{color:#6f6a61;cursor:default}
+.selector-page .go:disabled .ico{background:#5a5650;box-shadow:inset 0 0 0 1.5px #000}
+.selector-page .key{display:grid;place-items:center;align-content:center;gap:.3rem;width:100%;min-width:0;min-height:3.2rem;padding:.35rem .3rem;overflow:hidden;
+  font:700 .56rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
+.selector-page .key svg{width:17px;height:17px}
+/* a key with nothing to do yet: dim plastic, sitting low in the groove */
+.selector-page .key:disabled,.selector-page .key[aria-disabled="true"]{cursor:default;pointer-events:none;color:#6f6a61;
+  background:linear-gradient(#a9a49a,#8f8a80);box-shadow:0 2px 0 #2b2925,0 3px 0 #000,inset 0 1px 0 rgba(255,255,255,.25)}
+.selector-page .k-save[aria-pressed="true"] svg{color:var(--acid);filter:drop-shadow(0 0 3px rgba(255,90,54,.6))}
+.selector-page .k-save[aria-pressed="true"] svg path{fill:currentColor;stroke:var(--ink);stroke-width:1.4}
+.selector-page .k-yt:not([aria-disabled="true"]) svg{color:#e60000}
+.selector-page .transport :focus-visible{outline:2px solid var(--yellow);outline-offset:3px}
+@container sel-tv (max-width:620px){
+  .selector-page .transport{grid-template-columns:repeat(4,minmax(0,1fr))}
   .selector-page .go-wrap{grid-column:1 / -1}
-  .selector-page .key{aspect-ratio:auto;padding:.35rem .2rem;letter-spacing:.02em}
+}
+@media (max-width:520px){
+  .selector-page .transport{margin-bottom:.55rem}
 }
 .selector-page .burst{grid-area:1/1;place-self:center;width:0;height:0;pointer-events:none}
 .selector-page .sel-spark{position:absolute;width:.5rem;height:.5rem;margin:-.25rem 0 0 -.25rem;background:var(--c);
@@ -1411,13 +1450,6 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 .selector-page .about .stat b{display:block;font:700 1.25rem/1.1 var(--mono)}
 .selector-page .about .stat span{font:400 .64rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .selector-page .faq{padding:.3rem 1rem 1rem}
-.selector-page .faq h2{margin:.7rem 0 .4rem;font:700 1.3rem/1.15 var(--sans);letter-spacing:-.015em}
-.selector-page .faq details{border-bottom:1.5px solid var(--ink)}
-.selector-page .faq summary{list-style:none;display:flex;justify-content:space-between;gap:1rem;padding:.75rem 0;cursor:pointer;font-weight:700}
-.selector-page .faq summary::-webkit-details-marker{display:none}
-.selector-page .faq summary::after{content:"+";font:700 1.1rem/1 var(--mono)}
-.selector-page .faq details[open] summary::after{content:"−"}
-.selector-page .faq details p{margin:0 0 .85rem;max-width:44rem;font-size:.95rem}
 .selector-page .toast{position:fixed;left:50%;bottom:1.2rem;z-index:9;transform:translateX(-50%);padding:.55rem .85rem;
   background:var(--ink);color:var(--paper);font:700 .74rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.05em;
   border:2px solid var(--ink);box-shadow:4px 4px 0 var(--acid)}
@@ -1429,18 +1461,28 @@ body.selector-page{background-color:var(--paper);background-image:radial-gradien
 /* The site shell, undone inside the desk: the article column, section rules
    and FAQ dividers belong to guides, not to windows. */
 .selector-page main,.selector-page main > article{max-width:none;width:auto;margin:0;padding:0}
-.selector-page .faq .article-section{width:auto;margin:0;padding:0;border-top:0}
-.selector-page .faq .article-section h2{margin:.7rem 0 .4rem;font:700 1.3rem/1.15 var(--sans);letter-spacing:-.015em}
-.selector-page .faq-section details,.selector-page .faq-section details:last-child{border-top:0;border-bottom:1.5px solid var(--ink)}
-.selector-page .faq-section summary{padding:.75rem 0;font-size:1rem;line-height:1.35}
-.selector-page .faq-section details p{padding:0;font-size:.95rem;line-height:1.5}
-.selector-page .faq-lead p,.selector-page .faq-lead ul{margin:.6rem 0 0;max-width:44rem;font-size:.95rem;line-height:1.5}
-.selector-page .faq-lead ul{padding-left:1.2rem}
+/* How it works: one short line per control, the control's name first */
+.selector-page .how-list{list-style:none;margin:.5rem 0 0;padding:0;display:grid;gap:0 1.6rem;max-width:62rem}
+.selector-page .how-list li{padding:.6rem 0;border-bottom:1.5px solid var(--ink);font-size:.95rem;line-height:1.5}
+.selector-page .how-list li>strong:first-child{display:inline-block;margin-right:.35rem;padding:.12rem .4rem;background:var(--ink);color:var(--paper);
+  font:700 .7rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;vertical-align:.08em}
+.selector-page .how>p{margin:.8rem 0 0;max-width:44rem;font-size:.95rem;line-height:1.5}
+@media (min-width:760px){.selector-page .how-list{grid-template-columns:1fr 1fr}.selector-page .how-list li:first-child{grid-column:1 / -1}}
 .selector-page .about h2{margin:0 0 .5rem;font:700 1.05rem/1.2 var(--sans);letter-spacing:-.01em}
 .selector-page #about{margin-top:0}
-.selector-page .bar .lang-switch{position:relative}
-.selector-page .bar .lang-switch summary{font:inherit;cursor:pointer}
-.selector-page .bar .lang-switch ul{position:absolute;right:0;top:calc(100% + .5rem);z-index:20}
+/* the language menu drops from the menubar like a desktop menu: a real row per
+   language, the hovered one inverted, the current one ticked */
+.selector-page .bar .lang-switch{position:relative;padding-left:.9rem}
+.selector-page .bar .lang-switch summary{font:inherit;cursor:pointer;padding:.3rem .45rem;margin:-.3rem -.45rem;border-radius:2px}
+.selector-page .bar .lang-switch summary:hover,.selector-page .bar .lang-switch[open] summary{background:var(--ink);color:var(--paper);text-decoration:none}
+.selector-page .bar .lang-switch ul{position:absolute;right:-.45rem;top:calc(100% + .45rem);z-index:20;min-width:11rem;margin:0;padding:.3rem;
+  list-style:none;background:var(--paper);border:2px solid var(--ink);box-shadow:var(--shadow-sm)}
+.selector-page .bar .lang-switch li+li{margin-top:.15rem}
+.selector-page .bar .lang-switch a{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:2.4rem;padding:0 .75rem;
+  font:400 .95rem/1 var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);text-decoration:none}
+.selector-page .bar .lang-switch a:hover,.selector-page .bar .lang-switch a:focus-visible{background:var(--ink);color:var(--paper);outline:0}
+.selector-page .bar .lang-switch a[aria-current="page"]{font-weight:700}
+.selector-page .bar .lang-switch a[aria-current="page"]::after{content:"\2713";font:700 .85rem/1 var(--mono);color:var(--acid)}
 .selector-page .sel-field-note{font-weight:400;color:var(--muted);text-transform:none;letter-spacing:0}
 .selector-page .sel-noscript{margin:0 auto 2rem;max-width:1120px;padding:0 1rem;font:400 .95rem/1.55 var(--sans)}
 .selector-page .chip{text-align:center}

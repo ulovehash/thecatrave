@@ -135,7 +135,6 @@
   const fmtCount = n => (n == null ? '' : n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `${Math.round(n / 1e3)}K` : String(n));
   const escapeText = v => { const d = document.createElement('div'); d.textContent = v == null ? '' : String(v); return d.innerHTML; };
   const escapeAttr = v => escapeText(v).replace(/"/g, '&quot;');
-  const slug = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
   // selector-data.min.json is the compact build of selector-data.json: names
   // interned into lookup tables, one tuple per set. Half the bytes to download
@@ -293,7 +292,6 @@
   let started = false;
   let startTimer = 0;
   let snowTimer = 0;
-  let ledTimer = 0;
   const air = (live, label) => {
     const onair = $('sel-onair');
     if (onair) onair.dataset.live = String(live);
@@ -303,7 +301,43 @@
     if (t) t.textContent = label;
   };
   const notice = text => { const n = $('sel-notice'); if (!n) return; n.textContent = text; n.hidden = !text; };
-  const chLed = () => { const led = $('sel-led'); if (led) led.textContent = dealCount ? 'CH ' + String(dealCount % 100).padStart(2, '0') : 'CH --'; };
+  // the seven-segment readout on the control strip, and the green on-screen
+  // display an old set flashes over the picture when the channel or volume changes
+  const SEG = { 0: 'abcdef', 1: 'bc', 2: 'abdeg', 3: 'abcdg', 4: 'bcfg', 5: 'acdfg', 6: 'acdefg', 7: 'abc', 8: 'abcdefg', 9: 'abcdfg', '-': 'g' };
+  const segShow = text => {
+    const led = $('sel-led');
+    if (!led) return;
+    led.querySelectorAll('.dg').forEach((g, i) => {
+      const on = SEG[text[i]] || '';
+      g.querySelectorAll('[data-s]').forEach(p => p.classList.toggle('on', on.includes(p.dataset.s)));
+    });
+  };
+  const chNum = () => dealCount ? String(((dealCount - 1) % 99) + 1).padStart(2, '0') : '--';
+  const chLed = () => segShow(chNum());
+  let osdTimer = 0;
+  const osdShow = which => {
+    const ch = $('sel-osd'), vo = $('sel-osd-vol');
+    if (!ch || !vo) return;
+    ch.hidden = which !== ch;
+    vo.hidden = which !== vo;
+    clearTimeout(osdTimer);
+    osdTimer = setTimeout(() => { ch.hidden = true; vo.hidden = true; }, which === ch ? 3200 : 1600);
+  };
+  const osdChannel = item => {
+    const ch = $('sel-osd');
+    if (!ch) return;
+    $('sel-osd-ch').textContent = chNum();
+    $('sel-osd-name').textContent = item.broadcaster;
+    osdShow(ch);
+  };
+  const osdVolume = () => {
+    const vo = $('sel-osd-vol');
+    if (!vo) return;
+    $('sel-osd-vol-l').textContent = vol ? 'VOLUME' : 'MUTE';
+    $('sel-osd-bars').style.setProperty('--v', String(vol));
+    $('sel-osd-vol-n').textContent = vol ? String(vol) : '';
+    osdShow(vo);
+  };
   let toastTimer = 0;
   const toast = text => {
     const el = $('sel-toast');
@@ -334,8 +368,6 @@
     const logo = $('sel-logo');
     const lg = sourceLogos[item.broadcaster];
     if (logo) logo.style.backgroundImage = lg ? `url("${lg}")` : '';
-    const path = $('sel-path');
-    if (path) path.textContent = `selector://${slug(item.broadcaster)}/${slug(item.artist || item.id)}${item.year ? '-' + item.year : ''}`;
     const yt = $('sel-yt');
     yt.href = `https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}`;
     yt.target = '_blank';
@@ -374,8 +406,8 @@
     frame.addEventListener('load', () => listen(frame));
     screen.prepend(frame);
     // the set changes channel: a burst of snow, the readout ticks, the knob turns
-    clearTimeout(ledTimer);
     chLed();
+    osdChannel(item);
     const knob = $('sel-knob');
     if (knob) knob.style.setProperty('--r', `${(dealCount * 47) % 360}deg`);
     if (!reduceMotion) {
@@ -445,10 +477,7 @@
     applyVol();
     try { localStorage.setItem('sel-vol', String(vol)); } catch {}
     if (show) {
-      const led = $('sel-led');
-      if (led) led.textContent = vol ? 'VOL ' + String(vol).padStart(2, '0') : 'MUTE';
-      clearTimeout(ledTimer);
-      ledTimer = setTimeout(chLed, 1200);
+      osdVolume();
     }
   };
   (() => {

@@ -1980,6 +1980,28 @@
         "file": "WRITING.md",
         "contains": "EDM means the commercial big-stage sound, never the underground"
       }
+    },
+    {
+      "id": "selector-lang-menu-cramped",
+      "found": "2026-11-10",
+      "by": "owner",
+      "what": "The language menu on /selector, /de/selector and /fr/selector listed English, Deutsch and Français as bare 0.74rem links packed together with no hover state, so a reader could not tell which one the pointer was on. The shared padding and inverted hover in thecatrave-home.css are scoped to .site-nav and .site-header>.lang-switch, and the Selector puts the switch inside .bar .right, so none of it applied.",
+      "should_have_caught": "nothing: check:layout measures the closed header only, and no check opens the language menu",
+      "fix": {
+        "file": "thecatrave-article.css",
+        "contains": "the language menu drops from the menubar like a desktop menu"
+      }
+    },
+    {
+      "id": "selector-pick-key-overlaps-back",
+      "found": "2026-11-10",
+      "by": "owner",
+      "what": "On /selector, once the player window was about 520px wide, the Pick another key ran under the Back key: the transport grid gave Pick a minmax(0,1fr) column next to four fixed 4.6rem keys, so the column shrank below the width of its label and the text overflowed into Back. The 520px media query that puts Pick on its own row reads the viewport, not the width the player window actually has.",
+      "should_have_caught": "check:layout, which measures the Selector only at its fixed viewports and never checks that the transport keys do not overlap",
+      "fix": {
+        "file": "thecatrave-article.css",
+        "contains": "the transport follows the width of the TV, not the viewport"
+      }
     }
   ]
 }
