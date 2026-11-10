@@ -2814,3 +2814,25 @@ Keyword Planner, Get search volume, all locations, 20 terms in one batch (two we
 SERP, "summer music festivals usa" (gl=us): Music Festival Wizard, Songkick, Reddit, MusicalAmerica, Summerfest, JamBase, Time Out, EDM Train, USA Today 10Best. General all-genre listings; one EDM site.
 
 Reading: the region demand exists only on all-genre wording. Every electronic or EDM form of the Europe and US summer split measures zero. A split page would target general festival intent the site does not serve, and would sit on top of the Europe guide and the USA guide. Not justified; summer sections in those two guides (wording shown first) remain the recommendation.
+
+### Seasonal and monthly terms: traffic re-estimate from measured ratios (10 November 2026)
+
+Method: `TRAFFIC-VS-VOLUME-2026-11-10.md`. Multi-festival round-ups on this site earn 0.8× to 10.8× the bottom of their head keyword's bucket (winter 80, USA 339, Europe 1,078 clicks a month on 100–1K heads), and round-ups whose head reads "no data" still earn 11 to 152 (Asia, the translations). All-genre or wide 1K–10K heads convert at 0.08× to 0.18× the bucket floor (NYE 182, clubs in Europe 77). Estimates are monthly clicks in season at positions 5 to 7, which these pages reached; not a ranking forecast.
+
+Search Console check of overlap (queries, last 28 days to 30 October, site-wide): the site already ranks 3.9 to 9.5 for summer and June Europe forms: european festivals june 2027 (31 impr, 2 clicks), music festivals europe june 2027 (33), festivals in europe summer 2027 (29), europe summer festivals 2027 (15), music festivals europe summer 2027 (28), european music festivals summer 2027 (26), summer festivals europe 2027 (16), festivals in europe june 2027 (32); also edm festivals march 2027 (10). Keyword Planner showed no data for several of these. These are almost certainly the Europe guide. Google already answers summer Europe intent with it.
+
+| Candidate | Head buckets | Analogue | Re-estimate, clicks/mo in season |
+|---|---|---|---|
+| Best summer EDM / electronic festivals, worldwide | summer edm festivals 100–1K; edm festivals this summer, summer edm music festivals 100–1K (US); summer electronic music festivals 10–100 | winter guide to USA guide | 80–340, May to August; near zero off-season |
+| Summer Europe, electronic | all electronic forms no data | Asia (no-data head, 152) | 50–150, but the Europe guide already ranks for these forms: likely split traffic, not added |
+| Summer Europe, all-genre | summer music festivals europe, summer festivals in europe 100–1K | round-up 0.8×–3.4× | 80–340, needs all-genre content; same overlap with the Europe guide |
+| Summer US, all-genre | summer music festivals usa, summer festivals usa 100–1K | round-up 0.8×–3.4× | 80–340 if it ranks; SERP held by MFW, Songkick, JamBase, Time Out |
+| Summer US, electronic | all forms no data | Asia | 30–150; overlaps the USA guide |
+| Best summer music festivals, all-genre head | summer music festivals 1K–10K; best summer music festivals 100–1K | NYE, clubs in Europe (0.08×–0.18×) | 80–180; Time Out, Pitchfork, reddit on page one |
+| Electronic festivals by month, one calendar page | electronic month forms 10–100 or none; general "music festivals in <month>" 100–1K ×12 | Asia (no-data head) | 30–150 spread across the year |
+| One page per month | electronic 10–100 or none each | winter at the low end | 10–80 each, in its month only |
+| Autumn | best autumn festivals 100–1K (cultural SERP); fall edm 10–100 | winter, discounted for cultural SERP | 10–50 |
+| Spring | 10–100 | — | 5–30 |
+| 2027 forms | edm festivals 2027 100–1K | already caught by existing guides (GSC above) | fold in, no page |
+
+Change from the stage 6 verdict: the measured ratios raise every round-up estimate, because head buckets understate round-up traffic by up to ten times. The order holds: worldwide summer EDM first. The summer Europe split is now measured as overlapping, not assumed: the Europe guide already ranks for its forms. Summer US has no such evidence yet; the USA guide's queries were not split out.
