@@ -2874,3 +2874,13 @@ Weakest editorial page: iedm.com blog, 3 referring domains, DR 48. electronicmid
 Structure implications: lead with the five festivals the AI Overview names; answer the four PAA questions in the FAQ (US biggest, summer timing, biggest summer festivals); carry 2027 dates per festival; date the page for summer 2027, which no ranking editorial page does yet.
 
 Not checked: "best summer edm festivals" serp-overview in Ahrefs (live SERP read only); non-US Ahrefs snapshots.
+
+### Summer EDM worldwide: written (10 November 2026)
+
+Written as `best-summer-edm-festivals.html` (`/best-summer-edm-festivals`), builder `build-summer-festivals-article.mjs`.
+
+- The owner asked for real underground sections next to the big festivals: "alternatives to Garbicz" in Europe and their US counterparts. Europe underground: Garbicz, NACHTI, Houghton, Field Maneuvers, Freerotation, Gottwood, Waking Life, Kala. US underground: The Great Beyond, Tec-Troit, Unknown Perception, Dirtybird Campout x Northern Nights, with Bass Coast just over the border.
+- Left out with reasons: Desert Hearts (took 2026 off), Fusion (no 2027 edition), Movement and Lightning in a Bottle (May), Burning Man, Deep Tropics, Draaimolen, Meakusma (late August or September).
+- Keywords: 8 terms in `keywords/best-summer-edm-festivals.json`. "summer festivals 2027" and "edm festivals july" (100 each) were measured and left out: they do not fit an English sentence.
+- Media: four new Commons images, four new official-channel sets. The Bass Coast 2018 Commons file was rejected for the same missing-permission reason the Canada guide gave.
+- Hub links added from the US, Europe and world festival guides.

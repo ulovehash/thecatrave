@@ -80,6 +80,7 @@ export const generators = [
   'build-mexico-festivals-article.mjs',
   'build-dekmantel-article.mjs',
   'build-winter-festivals-article.mjs',
+  'build-summer-festivals-article.mjs',
   'build-snowbombing-article.mjs',
   'build-time-warp-article.mjs',
   'build-love-parade-article.mjs',

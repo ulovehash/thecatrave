@@ -8,7 +8,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - 90s rave music
 - 1990's rave music
-- 90 rave music
 
 ## acid-house-guide.html
 
@@ -22,6 +21,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - airbeat one festival
 - airbeat one 2027
 - airbeat one tickets
+
+## amapiano-guide.html
+
+- amapiano
+- amapiano songs
+- amapiano music
+- what is amapiano
+- amapiano artists
+- best amapiano songs
+- amapiano meaning
+- amapiano dance
+- south african house music
 
 ## best-clubs-in-amsterdam.html
 
@@ -125,6 +136,15 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - berlin nightlife
 - berlin techno
 
+## best-bass-music-festivals.html
+
+- bass music festivals
+- bass festivals
+- bass coast festival
+- dubstep festivals
+- dubstep music festivals
+- best dubstep festivals
+
 ## best-boiler-room-sets.html
 
 - boiler room set
@@ -175,7 +195,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - house music festivals uk
 - rave festival uk
 - dance festivals england
-- best dance music festivals uk
 - small dance festivals uk
 
 ## best-dj-sets-of-all-time.html
@@ -189,10 +208,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - drum and bass festivals
 - dnb festivals
 - dnb festival
-- drum n bass festival
-- drum & bass festival
-- drum and bass raves
-- drum and bass festivals england
 
 ## best-edm-festivals-australia.html
 
@@ -215,14 +230,33 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - calgary edm festival
 - biggest edm festival in canada
 
+## best-edm-festivals-las-vegas.html
+
+- edm festivals las vegas
+- vegas edm festival
+- edm festival in las vegas
+- edm festival in vegas
+- edm festivals in vegas
+- edm festivals vegas
+- electronic music festival las vegas
+- edm music festival las vegas
+
+## best-edm-festivals-mexico.html
+
+- edm festivals mexico
+- edm festival mexico
+- edm festivals in mexico
+- mexico edm festival
+- tulum edm festival
+- cancun edm festival
+- edm festival tulum
+
 ## best-edm-festivals-usa.html
 
 - best edm festivals in the us
 - best edm festivals
-- popular edm festivals
 - edm festivals in the us
 - biggest edm festivals in the us
-- major edm festivals
 - electric forest
 - bass canyon
 - hard summer
@@ -232,6 +266,17 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - dreamstate
 - edc orlando
 - decadence colorado
+
+## best-edm-festivals-world.html
+
+- biggest edm festival in the world
+- largest electronic music festival in the world
+- largest music festival in the world
+- biggest electronic music festival in the world
+- largest edm festival in the world
+- world's biggest edm festival
+- world's biggest electronic music festivals
+- largest electronic music festival
 
 ## best-electronic-albums.html
 
@@ -255,23 +300,25 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - edm festivals in thailand
 - edm festivals in japan
 - edm festivals in india
-- best music festivals in japan
 - best music festivals in thailand
 - best music festivals in india
 
 ## best-electronic-music-festivals-germany.html
 
-- music festivals germany
 - festivals in germany
-- edm festival germany
 - edm festival in germany
-- german edm festival
-- electronic music festival germany
-- german techno festival
-- festival germany techno
 - germany edm festivals
 - edm festivals in germany
-- techno festivals germany
+
+## best-electronic-music-festivals-portugal.html
+
+- music festivals portugal
+- festivals in portugal
+- portugal electronic music festival
+- electronic music festival portugal
+- portugal techno festival
+- portugal psytrance festival
+- neopop festival portugal
 
 ## best-house-music-festivals.html
 
@@ -280,11 +327,6 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - chosen few picnic
 - best house music festivals
 - best house festivals
-- house music festivals uk
-- deep house festival
-- tech house festivals
-- afro house festival
-- splash house festival
 
 ## best-house-music-playlists-spotify.html
 
@@ -297,40 +339,14 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - amsterdam music festivals
 - festivals in amsterdam
 - amsterdam music fest
-- amsterdam edm festival
-- amsterdam dance music festival
 - amf amsterdam
-- amf festival amsterdam
 - amsterdam techno festival
 - techno festivals in amsterdam
-- amsterdam music festival tickets
-- music festivals netherlands
-- festivals in netherlands
-- amsterdam electronic music festival
-- amsterdam electronic festival
-- edm festivals amsterdam
-- edm festival in amsterdam
 - amsterdam music festival dates
-- amsterdam music festival lineup
-- edm festivals netherlands
-- techno festivals netherlands
 
 ## best-music-festivals-croatia.html
 
-- music festivals croatia
 - festivals in croatia
-- festivals tisno
-- edm festival croatia
-- croatia edm festival
-- croatia electronic music festival
-- electronic music festivals croatia
-- croatia techno festival
-- croatia house festival
-- croatia dance festival
-- rave croatia
-- music festival in split croatia
-- best festivals in croatia
-- techno festivals croatia
 
 ## best-nightclubs-in-the-world.html
 
@@ -383,6 +399,17 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - top playlists on spotify
 - popular spotify playlists
 - spotify playlist recommendations
+
+## best-summer-edm-festivals.html
+
+- summer edm festivals
+- edm festivals this summer
+- summer edm music festivals
+- best summer music festivals
+- edm festivals 2027
+- best summer edm festivals
+- summer electronic music festivals
+- summer rave festivals
 
 ## best-techno-festivals.html
 
@@ -439,6 +466,19 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - boomtown fair
 - boomtown
 
+## brazilian-funk-guide.html
+
+- brazilian funk
+- funk carioca
+- funk brasileiro
+- baile funk
+- baile funk brazil
+- brazilian funk music
+- brazilian funk songs
+- baile funk music
+- funk carioca music
+- brazilian funk artists
+
 ## breakbeat-guide.html
 
 - breakbeat
@@ -477,6 +517,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - baker beach
 - black rock desert
 - larry harvey
+
+## best-clubs-in-chicago.html
+
+- best clubs in chicago
+- chicago clubs
+- chicago house music clubs
+- chicago nightclubs
+- best nightclubs in chicago
+- chicago dance clubs
+- best dance clubs in chicago
+- chicago edm clubs
+- chicago techno clubs
 
 ## what-is-coachella.html
 
@@ -1847,6 +1899,23 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - fusion festival police
 - fusion festival age limit
 
+## gabber-guide.html
+
+- gabber
+- gabber music
+- hardcore techno
+- happy hardcore
+- happy hardcore music
+- frenchcore
+- hardcore techno artists
+- hardcore techno music
+- early gabber
+- gabber look
+- hardcore techno songs
+- uk hardcore
+- happy 2b hardcore
+- gabber records
+
 ## german-electronic-music.html
 
 - german electronic music
@@ -1950,6 +2019,23 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - best party location in ibiza
 - famous clubs in ibiza
 
+## italo-disco-guide.html
+
+- italo disco
+- italian disco
+- italo disco songs
+- italo dance
+- 80s italian disco
+- 80s italo disco
+- italian disco music
+- italo disco artists
+- best italo disco songs
+- italo disco hits
+- italo disco music
+- new italo disco
+- italo disco style
+- biggest italo disco hits
+
 ## jungle-music-guide.html
 
 - jungle music
@@ -1959,6 +2045,19 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - jungle music artists
 - jungle dnb
 - jungle vs drum and bass
+
+## best-clubs-in-los-angeles.html
+
+- los angeles clubs
+- best clubs in los angeles
+- clubs in la
+- la clubs
+- clubs in los angeles
+- nightclubs in los angeles
+- best clubs in la
+- los angeles nightclubs
+- best nightclubs in los angeles
+- edm clubs los angeles
 
 ## best-clubs-in-lisbon.html
 
@@ -2036,6 +2135,18 @@ Regenerate: `node scripts/taken-keywords.mjs`
 
 - best clubs in mexico city
 
+## best-clubs-in-miami.html
+
+- miami clubs
+- best clubs in miami
+- best nightclubs in miami
+- miami nightlife
+- clubs in miami
+- miami nightclubs
+- edm clubs miami
+- house music clubs miami
+- techno clubs miami
+
 ## monegros-desert-festival.html
 
 - monegros desert festival
@@ -2047,6 +2158,23 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - movement music festival
 - Movement Detroit
 - Movement Detroit lineup
+
+## best-clubs-in-montreal.html
+
+- best clubs in montreal
+- montreal clubs
+- montreal nightclubs
+- montreal nightlife
+- best nightclubs in montreal
+- best dance club in montreal
+- stereo montreal
+- newspeak montreal
+- club unity montreal
+- gay club in montreal
+- gay nightlife montreal
+- montreal techno
+- montreal house music
+- after hour clubs montreal
 
 ## mysteryland-festival.html
 
@@ -2165,9 +2293,22 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - printworks london lineup
 - printworks london rooms
 - printworks london opening
-- drumsheds printworks
 - why did printworks close
 - is printworks coming back
+
+## best-clubs-in-san-francisco.html
+
+- best clubs in san francisco
+- san francisco clubs
+- san francisco nightclubs
+- clubs in san francisco
+- dance club in san francisco
+- best dance club in san francisco
+- san francisco techno
+- san francisco house music
+- best night clubs in san francisco
+- best nightlife in san francisco
+- 18 and up clubs in san francisco
 
 ## snowbombing-festival.html
 
@@ -2373,54 +2514,3 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - most famous djs
 - famous djs of all time
 - famous house djs
-
-## best-edm-festivals-world.html
-
-- biggest edm festival in the world
-- largest electronic music festival in the world
-- largest music festival in the world
-- biggest electronic music festival in the world
-- largest edm festival in the world
-- world's biggest edm festival
-- world's biggest electronic music festivals
-- largest electronic music festival
-
-## best-edm-festivals-las-vegas.html
-
-- edm festivals las vegas
-- vegas edm festival
-- edm festival in las vegas
-- edm festival in vegas
-- edm festivals in vegas
-- edm festivals vegas
-- electronic music festival las vegas
-- edm music festival las vegas
-
-## best-bass-music-festivals.html
-
-- bass music festivals
-- bass festivals
-- bass coast festival
-- dubstep festivals
-- dubstep music festivals
-- best dubstep festivals
-
-## best-electronic-music-festivals-portugal.html
-
-- music festivals portugal
-- festivals in portugal
-- portugal electronic music festival
-- electronic music festival portugal
-- portugal techno festival
-- portugal psytrance festival
-- neopop festival portugal
-
-## best-edm-festivals-mexico.html
-
-- edm festivals mexico
-- edm festival mexico
-- edm festivals in mexico
-- mexico edm festival
-- tulum edm festival
-- cancun edm festival
-- edm festival tulum

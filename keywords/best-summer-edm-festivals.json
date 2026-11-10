@@ -1,0 +1,16 @@
+{
+  "page": "best-summer-edm-festivals.html",
+  "seed": "summer edm festivals",
+  "source": "Google Ads Keyword Planner, all locations, English, Nov 2025 to Oct 2026 (bucketed ranges only, no exact volumes), run 2026-11-10. No Ahrefs calls were made for this page.",
+  "note": "Ranges are recorded by their lower bound, so 100 means the 100 to 1K bucket. Measured but left out because they cannot be written as English sentences: 'summer festivals 2027' (100) and 'edm festivals july' (100). The page carries the ideas without forcing the strings.",
+  "terms": [
+    {"term": "summer edm festivals", "volume": 100},
+    {"term": "edm festivals this summer", "volume": 100},
+    {"term": "summer edm music festivals", "volume": 100},
+    {"term": "best summer music festivals", "volume": 100},
+    {"term": "edm festivals 2027", "volume": 100},
+    {"term": "best summer edm festivals", "volume": 10},
+    {"term": "summer electronic music festivals", "volume": 10},
+    {"term": "summer rave festivals", "volume": 10}
+  ]
+}

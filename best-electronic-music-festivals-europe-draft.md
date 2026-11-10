@@ -140,7 +140,7 @@ If the crowds at the big festivals put you off, start with the smaller group: Ga
 
 Then look at the calendar. The European season runs from Time Warp in April to Creamfields and Mysteryland at the end of August. Several of these festivals sell their cheapest tickets in autumn for the following summer, well before the line-ups are announced, so it pays to decide early. Prices change by ticket phase.
 
-For festivals outside Europe, see the [best electronic music festivals in Asia](/best-electronic-music-festivals-asia).
+For festivals outside Europe, see the [best electronic music festivals in Asia](/best-electronic-music-festivals-asia). For June to August alone, in Europe and the US, see [the best summer EDM festivals](/best-summer-edm-festivals).
 
 ## FAQ
 

@@ -124,6 +124,7 @@ HERO = {
     "techno-festivals": "img/techno-festivals/kappa-solar-2025-1200.webp",
     "psytrance-festivals": "img/psytrance-festivals/boom-being-fields-2018-1200.webp",
     "canada-festivals": "img/canada-festivals/veld-deadmau5-2016-1200.webp",
+    "summer-festivals": "img/summer-festivals/tomorrowland-main-stage-2026-1200.webp",
     "australia-festivals": "img/australia-festivals/grampians-halls-gap-1200.webp",
     "uk-festivals": "img/uk-festivals/boomtown-crowd-2019-1200.webp",
     "amsterdam-festivals": "img/amsterdam-festivals/ndsm-panorama-2025-1200.webp",
