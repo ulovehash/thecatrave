@@ -1,0 +1,52 @@
+{
+  "page": "phonk-guide.html",
+  "seed": "phonk",
+  "source": "FIGURES.md, 2026-11-10. S1: Keyword Planner (artist seeds returned no names; Ahrefs matching terms not called, no owner approval). S2 also_talk_about: skipped, Ahrefs-only. S3: PAA on Google US, 2026-11-10. S4 consensus: Equipboard phonk artists list (the only list found). S5 history: Wikipedia Phonk (with its Drift phonk, Rare phonk and Funk automotivo sections); The Conversation, Ward, Luttrell and Goold, 15 April 2024; Okayplayer, 31 August 2012; Crack Magazine, David Reed, 2012; Epidemic Sound blog, 6 March 2025. S6: selector-data.json phonk and Memphis tags.",
+  "required_records": [
+    {"title": "Pheel tha Phonk", "artist": "SpaceGhostPurrp", "why": "S5 Wikipedia: one of the tracks that coined the word", "sources": ["originators"], "embed_id": "Qoi5LF9NDvo"},
+    {"title": "Bringin' tha Phonk", "artist": "SpaceGhostPurrp", "why": "S5 Wikipedia, Crack", "sources": ["originators"], "embed_id": "BusMLlogMJs"},
+    {"title": "Been Fweago", "artist": "SpaceGhostPurrp", "year": 2012, "why": "S5 Crack: named in the Mysterious Phonk review", "sources": ["originators"], "embed_id": "zrTzt3lrRaM"},
+    {"title": "Scary Garry", "artist": "Kaito Shoma", "year": 2016, "why": "S5 Wikipedia: one of the first drift phonk songs", "sources": ["originators"], "embed_id": "z9nHtotESH4"},
+    {"title": "Murder in My Mind", "artist": "Kordhell", "why": "S5 Wikipedia: first phonk producer in Spotify's top 500", "sources": ["originators", "consensus"], "embed_id": "w-sQRS-Lc9k"},
+    {"title": "Rave", "artist": "DXRK", "why": "S5 Wikipedia: known single", "sources": ["originators"], "embed_id": "PTZgxW_3LIQ"},
+    {"title": "Metamorphosis", "artist": "Interworld", "why": "S5 Wikipedia: known single; only aggregator uploads found, so named without a player", "sources": ["originators"]},
+    {"title": "Montagem Hikari", "artist": "BellyJay", "why": "S5 Wikipedia: Japanese funk example; named without a player", "sources": ["originators"]}
+  ],
+  "sets": [
+    {"artist": "Tommy Wright III", "title": "Boiler Room Memphis: The Legends of Memphis Rap", "embed_id": "domL07OypKk"},
+    {"artist": "Dj Smokey", "title": "Boiler Room: LA", "embed_id": "APe7fhdkp9Q"}
+  ],
+  "required_figures": [
+    "SpaceGhostPurrp",
+    "DJ Screw",
+    "Three 6 Mafia",
+    "Tommy Wright III",
+    "Kordhell",
+    "DJ Smokey",
+    "Raider Klan",
+    "Denzel Curry",
+    "Lil Ugly Mane",
+    "Ryan Celsius",
+    "DJ Yung Vamp",
+    "Soudiere",
+    "Kaito Shoma",
+    "Interworld",
+    "DXRK",
+    "Suicideboys",
+    "Freddie Dredd"
+  ],
+  "images": [
+    {"file": "img/phonk/beale-street-memphis-2006", "event": "Beale_Street_at_night.jpg, 2006", "author": "Curt Hart", "licence": "CC BY 2.0"},
+    {"file": "img/phonk/juicy-j-dj-paul-2009", "event": "Juicy_J_&_DJ_Paul_Three_6.jpg, 2009", "author": "Aaaarrrrgggghhhh!", "licence": "CC BY 2.0"},
+    {"file": "img/phonk/tommy-wright-iii-montreal-2019", "event": "Tommy_Wright_III_La_Sala_Rossa.jpg, La Sala Rossa, Montreal, 18 July 2019", "author": "Bull-Doser", "licence": "Public domain"},
+    {"file": "img/phonk/denzel-curry-2017", "event": "Denzel_Curry_(32739140194).jpg, 15 March 2017", "author": "friedoxygen", "licence": "CC BY 2.0"},
+    {"file": "img/phonk/drift-adm-raceway-2021", "event": "Excessive_drift_(51261039927).jpg, ADM Raceway, Festival Drift Expo, 29 May 2021", "author": "Michał Siergiejevicz", "licence": "CC BY 2.0", "note": "EXIF copyright field names MihaiL Tokmakov; Commons credits the Flickr uploader"}
+  ],
+  "excluded": [
+    "kordhell-mick-kenney.jpg: identity not confirmed, may be a different Mick Kenney",
+    "three6-mafia.jpg: 688px, too small",
+    "Interworld Metamorphosis: aggregator uploads only",
+    "La Phonkerie (nzY8DwdWjFw, eC4JhVwhUuY), Memphis Horror Story (k2p7SLlYLYU): catalogue phonk sets, not tied to a figure the page names",
+    "Funk automotivo records: covered by brazilian-funk-guide, linked not re-embedded"
+  ]
+}

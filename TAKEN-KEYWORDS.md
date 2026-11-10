@@ -2258,6 +2258,22 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - parookaville location
 - where is parookaville
 
+## phonk-guide.html
+
+- phonk
+- phonk music
+- phonk meaning
+- phonk songs
+- brazilian phonk
+- what is phonk
+- what is phonk music
+- best phonk songs
+- popular phonk songs
+- drift phonk
+- aggressive phonk
+- what is drift phonk
+- phonk rap
+
 ## best-clubs-in-prague.html
 
 - best clubs in prague

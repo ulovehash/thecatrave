@@ -530,6 +530,14 @@ export const homeArticleCatalog = [
     width:1200, height:800, alt:'Tyla performing on stage at the Montreux Jazz Festival, 2026'
   },
   {
+    page:'phonk-guide.html', category:'music-history', tags:['history','phonk','drift phonk','memphis rap','hip-hop'], href:'/phonk-guide', type:'Guide', topic:'Phonk',
+    title:'What Is Phonk? Phonk Music Meaning, Drift Phonk, Songs, Artists',
+    description:'Memphis rap tapes renamed on SoundCloud, then sped up in Russia and set to drifting cars: what phonk means, drift phonk, Brazilian phonk, the songs and the artists.',
+    image:'img/phonk/drift-adm-raceway-2021-320.webp',
+    srcset:'img/phonk/drift-adm-raceway-2021-320.webp 320w,img/phonk/drift-adm-raceway-2021-1200.webp 1200w',
+    width:1200, height:800, alt:'A car drifting sideways through a corner in a cloud of tyre smoke'
+  },
+  {
     page:'brazilian-funk-guide.html', category:'music-history', tags:['history','brazilian funk','baile funk','miami bass','hip-hop'], href:'/brazilian-funk-guide', type:'Guide', topic:'Brazilian funk',
     title:'What Is Brazilian Funk? Baile Funk, Funk Carioca and Songs',
     description:'An MC, a DJ and a loud sound system: where funk carioca came from, what a baile funk is, the styles, the biggest songs and the artists.',

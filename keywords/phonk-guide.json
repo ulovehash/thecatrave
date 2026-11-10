@@ -1,0 +1,21 @@
+{
+  "page": "phonk-guide.html",
+  "seed": "phonk",
+  "source": "Two tools, never merged. Google Ads Keyword Planner, owner's account, All locations, English, read 2026-11-10 through Claude in Chrome, one pass, 6 seeds (phonk, phonk music, what is phonk, what is phonk music, phonk meaning, phonk songs), 174 rows: ranges, 'volume' is the lower bound, marked 'Keyword Planner' in each note. Ahrefs US points for four terms come from the 8 November 2026 dossier pass (TOPIC-DOSSIERS.md), not a new call. SERP and PAA read live on Google US, 2026-11-10.",
+  "note": "Rejected: phon k (misspelling); download phonk, phonk mp3, phonk free, free phonk music, copyright free phonk music, no copyright phonk (file intent); phonk instrumental, instrumental phonk, phonk background music, phonk edit music (background and edit use, close to production); gym phonk, gaming phonk, phonk music 1 hour, phonk playlists, spotify phonk playlists, phonk spotify, soundcloud phonk, apple music phonk (playlist and platform intent: the searcher wants a player, not a page); phonk lyric (lyrics); phonk 2023 (dated). The meme and tool volume in the dossier (tiki tiki, yara yara, phonk maker, templates, roblox ids) is never targeted. The dossier's DROP condition (explainer cluster under about 3,000) is not met: phonk meaning alone reads 10K-100K.",
+  "terms": [
+    {"term": "phonk", "volume": 100000, "range": "100K-1M", "note": "Keyword Planner, seed. Ahrefs US 44,000, GV 172,000, KD 8 (dossier); most of it meme and tool volume"},
+    {"term": "phonk music", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner, seed. Ahrefs US 7,600 (dossier); SERP led by Spotify and YouTube playlists"},
+    {"term": "phonk meaning", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner, seed. Ahrefs US 1,000 (dossier)"},
+    {"term": "phonk songs", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner, seed. Ahrefs US 900 (dossier)"},
+    {"term": "brazilian phonk", "volume": 10000, "range": "10K-100K", "note": "Keyword Planner; also in People also search for on 'what is phonk'"},
+    {"term": "what is phonk", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner, seed. Ahrefs US 2,300 (dossier). Target: the SERP is Reddit, Wikipedia, Epidemic Sound, Quora, Native Instruments"},
+    {"term": "what is phonk music", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner, seed. Ahrefs US 1,300 (dossier); PAA on 'phonk music'"},
+    {"term": "best phonk songs", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner"},
+    {"term": "popular phonk songs", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner, 3-month +900%"},
+    {"term": "drift phonk", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner"},
+    {"term": "aggressive phonk", "volume": 1000, "range": "1K-10K", "note": "Keyword Planner, YoY -90%"},
+    {"term": "what is drift phonk", "volume": 100, "range": "100-1K", "note": "Keyword Planner, YoY +900%; People also search for on 'what is phonk'"},
+    {"term": "phonk rap", "volume": 100, "range": "100-1K", "note": "Keyword Planner"}
+  ]
+}
