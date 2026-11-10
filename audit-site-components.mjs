@@ -27,11 +27,13 @@ const generators = Object.fromEntries(generatorFiles.map(file => [file, fs.readF
 const contentModuleFor = page => `content/${langOf(page)}/${page.name.replace(/^[a-z]{2}-/, '')}.mjs`;
 const sharedNextFestivalBuilder = fs.readFileSync('build-next-festival-article.mjs', 'utf8');
 const sharedRoundupBuilder = fs.readFileSync('festival-roundup.mjs', 'utf8');
+const sharedGenreBuilder = fs.readFileSync('build-genre-guide.mjs', 'utf8');
 const generatorSources = guides.map(page => {
   const module = contentModuleFor(page);
   const generator = generators[page.generator];
   const sharedBuilder = (generator.includes("./build-next-festival-article.mjs") ? sharedNextFestivalBuilder : '')
-    + (generator.includes("./festival-roundup.mjs") ? sharedRoundupBuilder : '');
+    + (generator.includes("./festival-roundup.mjs") ? sharedRoundupBuilder : '')
+    + (generator.includes("./build-genre-guide.mjs") ? sharedGenreBuilder : '');
   const moduleSource = fs.existsSync(module) ? fs.readFileSync(module, 'utf8') : '';
   // A content module may build its figures and tables in a helper it shares
   // with the English generator (content/uk-evolution-shared.mjs).
