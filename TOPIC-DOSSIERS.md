@@ -2836,3 +2836,41 @@ Search Console check of overlap (queries, last 28 days to 30 October, site-wide)
 | 2027 forms | edm festivals 2027 100–1K | already caught by existing guides (GSC above) | fold in, no page |
 
 Change from the stage 6 verdict: the measured ratios raise every round-up estimate, because head buckets understate round-up traffic by up to ten times. The order holds: worldwide summer EDM first. The summer Europe split is now measured as overlapping, not assumed: the Europe guide already ranks for its forms. Summer US has no such evidence yet; the USA guide's queries were not split out.
+
+### Summer EDM worldwide: pre-writing checks (10 November 2026)
+
+Four checks before writing "best summer EDM / electronic festivals, worldwide, 2027 dates".
+
+**1. Search Console overlap with the USA guide (thecatrave-15, 28 days to 30 Oct).** No summer EDM query anywhere on the site. USA-side queries are 2027 and generic forms: edm festivals 2027 usa (96 impressions), edm festivals usa 2027 (24), edm festivals usa (70), best electro music festivals in the usa (982 impressions, 0 clicks, position 6.47). Site-wide, edm festivals 2027: 926 impressions, 28 clicks, position 5.25. No measured overlap with summer forms.
+
+**2. SERP and PAA.**
+- Live Google (personalised to Montreal) shows an AI Overview, no PAA box. For "best summer edm festivals" the AI Overview names Tomorrowland, UNTOLD, Creamfields, Parookaville, Ultra Europe, citing borninstockholm and ravequarters.
+- People also search for: best summer edm festivals near me, EDM festivals 2027, best EDM festivals, best summer edm festivals in usa, EDM festivals 2026 USA, top 10 biggest EDM festivals in the world.
+- Ahrefs' US snapshot of "summer edm festivals" does hold a PAA box at position 3: What are the top 10 biggest EDM festivals in the US? / What festivals will come in summer? / What are the major EDM festivals in the US? / What are the biggest summer music festivals?
+- Top results are calendars and listings (edmtrain, MFW, Insomniac, JamBase, ra.co), reddit, and a few blog round-ups. One result (loopmasters) is production intent. UK SERP for "summer electronic music festivals": MFW, Ticketmaster UK, ra.co, Skiddle, festivalcalendar.uk, thedjrevolution (Europe 2026), DJ Mag, Electric Love.
+
+**3. Competitor pages.**
+- ravequarters: about 1,700 words with chrome, dated 24 Apr 2026, no H2 structure, aimed at summer 2026.
+- artists.badenstock.com: unreachable, still ranking.
+- borninstockholm: clothing-brand blog, US only, updated 6 Nov 2026. H2s: biggest US EDM festivals 2027, 2027 calendar, what's new, picking a first festival, what to wear, FAQ (biggest US festival, best for first-timers, ticket costs, lineup announcements).
+- No worldwide, summer-specific editorial page in either SERP.
+
+**4. Referring domains, Ahrefs serp-overview "summer edm festivals", US (297 units).**
+
+| Pos | Page | DR | RD | Traffic |
+|---|---|---|---|---|
+| 1 | edmtrain.com/festivals | 50 | 50 | 3,572 |
+| 2 | musicfestivalwizard.com electronic genre | 61 | 38 | 1,194 |
+| 4 | insomniac.com festivals | 73 | 50 | 1,468 |
+| 5 | calendarx.com EDM festivals in the US | 37 | 25 | 412 |
+| 6 | jambase.com EDM festivals | 73 | 2 | 579 |
+| 7 | iedm.com 2026 festival schedule (blog) | 48 | 3 | 300 |
+| 8 | electronicmidwest.com US festivals | 17 | 8 | 54 |
+| 9 | wikipedia list of electronic music festivals | 97 | 71 | 367 |
+| 10 | ra.co/festivals | 87 | 2 | 254 |
+
+Weakest editorial page: iedm.com blog, 3 referring domains, DR 48. electronicmidwest ranks with DR 17 and 8 RD. Winnable by the KEYWORD-METHOD.md test.
+
+Structure implications: lead with the five festivals the AI Overview names; answer the four PAA questions in the FAQ (US biggest, summer timing, biggest summer festivals); carry 2027 dates per festival; date the page for summer 2027, which no ranking editorial page does yet.
+
+Not checked: "best summer edm festivals" serp-overview in Ahrefs (live SERP read only); non-US Ahrefs snapshots.
