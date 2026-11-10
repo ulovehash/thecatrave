@@ -40,7 +40,7 @@ Die drei Tage oben gelten für das Hauptprogramm im Parc del Fòrum. Eröffnungs
 
 ## Primavera Sound: Headliner nach Jahr
 
-Die Headliner von Primavera Sound reichen von Pixies und Pavement 2010 über Radiohead 2016 und Björk 2018 bis zu Chappell Roan, Charli XCX und Sabrina Carpenter 2025. Das Billing bei einem so breiten Festival ist Ermessenssache, deshalb nennt die Tabelle die Namen, die der Wikipedia-Artikel zu Primavera Sound für jede Ausgabe in Barcelona als Headliner angibt, für 2025 und 2026 gegen die Berichte zur Programmankündigung geprüft. Sie ist keine offizielle Rangliste.
+Die Headliner von Primavera Sound reichen von Pixies und Pavement 2010 über Radiohead 2016 und Björk 2018 bis zu Chappell Roan, Charli XCX und Sabrina Carpenter 2025. Das Billing bei einem so breiten Festival ist Ermessenssache, deshalb nennt die Tabelle die Namen, die für jede Ausgabe in Barcelona allgemein als Headliner gelten. Sie ist keine offizielle Rangliste.
 
 [Tabelle: headliners]
 

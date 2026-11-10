@@ -8,8 +8,11 @@
 // so a rule can be quoted in a Markdown review file without tripping it.
 import fs from 'node:fs';
 import path from 'node:path';
+import {fileURLToPath} from 'node:url';
 
-const RULES = [
+// Exported for scripts/lint-draft.mjs, which runs the same rules on a Markdown
+// draft before review. Imported, this file only exports; run, it audits.
+export const RULES = [
   {
     rule: 'No catalogue sourcing filler or internal keyword-tool notes (AGENTS.md section 4)',
     re: /From this site(?:'|’|&#39;)s catalogue of recorded DJ sets|Aus dem Katalog (?:aufgenommener|aufgezeichneter) DJ-Sets (?:auf )?dieser Seite|(?:Tiré|Issu) du catalogue de (?:DJ sets|sets de DJ|sets DJ) enregistrés de ce site|Video embeds? (?:is|are) drawn from this site|Set counts[^.]{0,100}are measured from this site|selector-data\.json|Search demand: Google Ads|few people search for|search demand to the clubs/i,
@@ -52,36 +55,38 @@ const RULES = [
   },
 ];
 
-const ROOTS = ['.', 'de', 'fr', 'es'];
-const pages = ROOTS.flatMap(dir =>
-  fs.readdirSync(dir)
-    .filter(file => file.endsWith('.html'))
-    .map(file => path.join(dir, file)));
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const ROOTS = ['.', 'de', 'fr', 'es'];
+  const pages = ROOTS.flatMap(dir =>
+    fs.readdirSync(dir)
+      .filter(file => file.endsWith('.html'))
+      .map(file => path.join(dir, file)));
 
-const text = html => html
-  .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-  .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-  .replace(/<[^>]+>/g, ' ')
-  .replace(/&nbsp;|&#160;/g, ' ')
-  .replace(/&amp;/g, '&')
-  .replace(/&rsquo;|&#8217;/g, '’')
-  .replace(/\s+/g, ' ');
+  const text = html => html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&rsquo;|&#8217;/g, '’')
+    .replace(/\s+/g, ' ');
 
-const failures = [];
-for (const page of pages) {
-  const body = text(fs.readFileSync(page, 'utf8'));
-  for (const {rule, re} of RULES) {
-    const m = body.match(re);
-    if (m) {
-      const at = body.indexOf(m[0]);
-      failures.push(`${page}: ${rule}\n      …${body.slice(Math.max(0, at - 60), at + m[0].length + 60).trim()}…`);
+  const failures = [];
+  for (const page of pages) {
+    const body = text(fs.readFileSync(page, 'utf8'));
+    for (const {rule, re} of RULES) {
+      const m = body.match(re);
+      if (m) {
+        const at = body.indexOf(m[0]);
+        failures.push(`${page}: ${rule}\n      …${body.slice(Math.max(0, at - 60), at + m[0].length + 60).trim()}…`);
+      }
     }
   }
-}
 
-if (failures.length) {
-  console.error(`Banned phrase audit failed (${failures.length}):`);
-  for (const f of failures) console.error('  ' + f);
-  process.exit(1);
+  if (failures.length) {
+    console.error(`Banned phrase audit failed (${failures.length}):`);
+    for (const f of failures) console.error('  ' + f);
+    process.exit(1);
+  }
+  console.log(`Banned phrase audit passed: ${RULES.length} rules, ${pages.length} pages in English, German, French and Spanish.`);
 }
-console.log(`Banned phrase audit passed: ${RULES.length} rules, ${pages.length} pages in English, German, French and Spanish.`);

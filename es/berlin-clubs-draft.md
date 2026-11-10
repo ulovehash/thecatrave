@@ -12,7 +12,7 @@ También la escribe alguien que va. La puerta y Sisyphos son donde se nota. Si s
 
 ## Antes de Berghain: cómo Berlín se hizo ciudad techno
 
-La cultura de club berlinesa tal como la conoce el mundo empezó justo antes de la caída del Muro y despegó en los años inmediatamente posteriores. La primera sala fue UFO, abierta en 1988 por la gente del sello electrónico Interfisch. La historia de Tresor en Wikipedia llama a UFO el centro original del house y el techno de Berlín. Era pequeña y duró poco: los problemas de dinero la cerraron en 1990.
+La cultura de club berlinesa tal como la conoce el mundo empezó justo antes de la caída del Muro y despegó en los años inmediatamente posteriores. La primera sala fue UFO, abierta en 1988 por la gente del sello electrónico Interfisch. UFO fue el centro original del house y el techno de Berlín. Era pequeña y duró poco: los problemas de dinero la cerraron en 1990.
 
 Sus fundadores siguieron adelante. En marzo de 1991, Dimitri Hegemann y un grupo de inversores abrieron Tresor en las cámaras acorazadas de los antiguos grandes almacenes Wertheim, en la Leipziger Strasse, en Mitte, apenas unos meses antes de la reunificación. El nombre es alemán para caja fuerte.
 
@@ -46,7 +46,7 @@ En 2016, un tribunal alemán clasificó Berghain como institución cultural, lo 
 
 ### La puerta
 
-Busca cómo entrar en Berghain y encontrarás guías probadas, probabilidades de rechazo, listas de looks y vídeos de gente que lo intentó cuatro veces en una noche. Wikipedia describe la política de puerta de Berghain como famosa por ser a la vez estricta y opaca, y es lo más honesto que nadie ha escrito sobre ella.
+Busca cómo entrar en Berghain y encontrarás guías probadas, probabilidades de rechazo, listas de looks y vídeos de gente que lo intentó cuatro veces en una noche. La política de puerta de Berghain es famosa por ser a la vez estricta y opaca, y es lo más honesto que se puede decir sobre ella.
 
 Mi propia experiencia con esa puerta es que no hay sistema. Las reglas que la gente le ve existen en su cabeza. Es algo que se siente y no algo para lo que se pueda preparar uno, y si te dicen que no, no hay motivo que buscar. Todos los que han sido rechazados tienen una teoría. Ninguna de las teorías ha metido a nadie.
 
@@ -120,7 +120,7 @@ Berghain, en una antigua central de calefacción de Friedrichshain, abierto en d
 
 ### ¿Es difícil entrar en Berghain?
 
-Sí, y nadie puede decirte cómo entrar. Wikipedia llama a su política de puerta estricta y opaca, y en mi experiencia no hay un sistema detrás: se siente o no se siente, y no sirve de nada buscar un motivo si te dicen que no.
+Sí, y nadie puede decirte cómo entrar. Su política de puerta es estricta y opaca, y en mi experiencia no hay un sistema detrás: se siente o no se siente, y no sirve de nada buscar un motivo si te dicen que no.
 
 ### ¿Qué ponerse para ir a un club en Berlín?
 

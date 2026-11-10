@@ -12,13 +12,13 @@ The scene that followed runs from a 1970s disco on Stanley Street to an after-ho
 
 ## Cabarets and Prohibition
 
-Wikipedia's history of Montreal cabarets starts with Prohibition. Driven by it, the city's cabarets booked artists from the United States and France, and Montreal quickly became known as a party town, drawing large numbers of American tourists.
+Montreal's cabaret history starts with Prohibition. Driven by it, the city's cabarets booked artists from the United States and France, and Montreal quickly became known as a party town, drawing large numbers of American tourists.
 
 In 1930 Texas Guinan, New York's leading cabaret star, arrived to open the Cabaret Frolics and caused a sensation on the Main, as Saint-Laurent Boulevard is known. Television and a campaign of repression led by Mayor Jean Drapeau in the late 1950s wore the cabarets down, and by the early 1970s they had disappeared.
 
 ## Limelight and Montreal disco
 
-The Limelight opened on 7 September 1973 at 1254 Stanley Street. It was founded by Yvon Lafrance and named after the Charlie Chaplin film. Robert Ouimet was its resident DJ from 1973 to 1981, and Wikipedia, citing Tourisme Montréal, notes that Rolling Stone named him the best DJ in North America in 1976 and Billboard made him DJ of the year in 1977.
+The Limelight opened on 7 September 1973 at 1254 Stanley Street. It was founded by Yvon Lafrance and named after the Charlie Chaplin film. Robert Ouimet was its resident DJ from 1973 to 1981, and, according to Tourisme Montréal, Rolling Stone named him the best DJ in North America in 1976 and Billboard made him DJ of the year in 1977.
 
 [Embed: Ouimet]
 
@@ -44,7 +44,7 @@ Stereo was founded in 1998 by Angel Moraes, a DJ and producer from Brooklyn whos
 
 [Image: Stereo]
 
-Stereo is an after-hours club for house and techno, known for its sound system. It has two floors: the after-hours room upstairs and Stereobar downstairs, which keeps legal hours. Tourisme Montréal calls it an internationally acclaimed after-hours club with marathon DJ sessions, and notes that it does not serve alcohol. Wikipedia records a zero-tolerance policy on GHB.
+Stereo is an after-hours club for house and techno, known for its sound system. It has two floors: the after-hours room upstairs and Stereobar downstairs, which keeps legal hours. Tourisme Montréal calls it an internationally acclaimed after-hours club with marathon DJ sessions, and notes that it does not serve alcohol. The club also has a zero-tolerance policy on GHB.
 
 [Embed: Sam Paganini Stereo]
 
@@ -84,7 +84,7 @@ The after hour clubs Montreal is known for come down to one name: Stereo, which 
 
 ## Gay Village and LGBTQ+ clubs
 
-The Gay Village runs along Sainte-Catherine Street East, between the Beaudry and Papineau metro stations. Wikipedia calls it the largest gay village in North America by area, and records Moise Tellier's shop, in 1869, as the first known gay establishment on the continent.
+The Gay Village runs along Sainte-Catherine Street East, between the Beaudry and Papineau metro stations. It is the largest gay village in North America by area, and Moise Tellier's shop, in 1869, is recorded as the first known gay establishment on the continent.
 
 [Image: Village]
 

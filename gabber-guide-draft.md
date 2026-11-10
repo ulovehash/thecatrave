@@ -42,7 +42,7 @@ The scene was never only Dutch. Dead by Dawn ran at the 121 Centre in Brixton, s
 
 ## The gabber look and hakken
 
-Gabber had a uniform. The Wikipedia history of the scene lists it: Australian tracksuits by L'Alpina (the wearers were called "Aussies"), Cavello and Nike Air Max on the feet, and shaved heads for men and many women. It was a working-class look, bought in sports shops rather than clothes shops, and it made a gabber visible from across a street.
+Gabber had a uniform: Australian tracksuits by L'Alpina (the wearers were called "Aussies"), Cavello and Nike Air Max on the feet, and shaved heads for men and many women. It was a working-class look, bought in sports shops rather than clothes shops, and it made a gabber visible from across a street.
 
 [Image: Dominator crowd]
 
@@ -112,7 +112,7 @@ On Kiosk Radio, Paul Seul of the Casual Gabberz crew plays gabber and hardcore r
 
 ## Where to start with gabber
 
-For early gabber, the sound of Rotterdam, start with the records from the Thunderdome years: "Welcome to the Thunderdome", "Alright Now Here We Go!" and "Drop It", then go back to "We Have Arrived" to hear where it began. For happy hardcore, "Rainbow in the Sky" in the Dutch version, and in the British one the Bonkers compilations and the tracks the Wikipedia history picks out, among them "Heart of Gold", "Pretty Green Eyes" and "Sunshine After the Rain".
+For early gabber, the sound of Rotterdam, start with the records from the Thunderdome years: "Welcome to the Thunderdome", "Alright Now Here We Go!" and "Drop It", then go back to "We Have Arrived" to hear where it began. For happy hardcore, "Rainbow in the Sky" in the Dutch version, and in the British one the Bonkers compilations and tracks such as "Heart of Gold", "Pretty Green Eyes" and "Sunshine After the Rain".
 
 For hardcore now, the large Dutch events are where it is played: Thunderdome, Masters of Hardcore and Dominator. For the older records played to a club crowd, the radio sets above are the place to start.
 

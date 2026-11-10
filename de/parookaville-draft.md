@@ -34,7 +34,7 @@ Die erste Ausgabe war nach Angaben von Pollstar eine Veranstaltung für 25.000 M
 
 [Bild: ParookavilleMainLuftbild22, Timo. Caption: Die Mainstage von Parookaville aus der Luft, Juli 2022, die erste Ausgabe nach der Pandemie. Foto: Timo, CC BY-SA 4.0.]
 
-Das Publikum zu Hause ist noch größer. Seit 2019 streamt das Festival auf YouTube, und für dieses erste Jahr nennt der deutsche Wikipedia-Artikel 7,5 Millionen Zuschauer.
+Das Publikum zu Hause ist noch größer. Seit 2019 streamt das Festival auf YouTube, und für dieses erste Jahr werden 7,5 Millionen Zuschauer genannt.
 
 ## Eine kurze Geschichte, und wem Parookaville gehört
 

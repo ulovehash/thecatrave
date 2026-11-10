@@ -10,7 +10,7 @@ Awakenings merece una explicación en serio, porque ha sido fiel a una sola cosa
 
 ## Dónde y cuándo se celebra Awakenings
 
-El Awakenings Summer Festival tiene lugar en Beekse Bergen, una zona de ocio de Hilvarenbeek, en el sur de los Países Bajos, cerca de Tilburg. La edición de 2026 se celebró del 10 al 12 de julio; el Awakenings Festival 2027 está previsto del 9 al 11 de julio. Algunas fuentes más antiguas, entre ellas Wikipedia, siguen describiendo el festival al aire libre en Spaarnwoude, entre Ámsterdam y Haarlem: allí se celebra ahora Awakenings Upclose, un evento de primavera distinto y más pequeño (15 y 16 de mayo de 2027, en Houtrak, en el parque de Spaarnwoude), mientras que el festival principal de verano se mudó al sur, a Beekse Bergen.
+El Awakenings Summer Festival tiene lugar en Beekse Bergen, una zona de ocio de Hilvarenbeek, en el sur de los Países Bajos, cerca de Tilburg. La edición de 2026 se celebró del 10 al 12 de julio; el Awakenings Festival 2027 está previsto del 9 al 11 de julio. Algunas fuentes más antiguas siguen describiendo el festival al aire libre en Spaarnwoude, entre Ámsterdam y Haarlem: allí se celebra ahora Awakenings Upclose, un evento de primavera distinto y más pequeño (15 y 16 de mayo de 2027, en Houtrak, en el parque de Spaarnwoude), mientras que el festival principal de verano se mudó al sur, a Beekse Bergen.
 
 [Table: Datos]
 

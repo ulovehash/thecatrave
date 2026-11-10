@@ -70,7 +70,7 @@ Le site a toujours été plus que ses scènes : il y a des champs pour le théâ
 
 ## Les têtes d’affiche de Glastonbury année par année
 
-Les têtes d’affiche de Glastonbury, année après année, se lisent comme une histoire de la pop, du rock et de la dance britanniques et mondiaux. Le tableau donne les têtes d’affiche que Wikipedia indique pour chaque festival, et les années où il n’y en a pas eu.
+Les têtes d’affiche de Glastonbury, année après année, se lisent comme une histoire de la pop, du rock et de la dance britanniques et mondiaux. Le tableau donne les têtes d’affiche de chaque festival, et les années où il n’y en a pas eu.
 
 [Table: headliners]
 

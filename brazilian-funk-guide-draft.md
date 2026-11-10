@@ -16,7 +16,7 @@ The name needs sorting out first. "Carioca" is what people from Rio are called, 
 
 ## What Brazilian funk sounds like
 
-Brazilian funk music is built from a small shared stock of rhythms, which producers reuse and rework rather than invent from scratch. Wikipedia's article on funk carioca sums the beat up as "Bum-Cha-Cha". Melodies are usually sampled. Modern records lean on horn and accordion stabs, and the brass intro from the Rocky theme turns up again and again.
+Brazilian funk music is built from a small shared stock of rhythms, which producers reuse and rework rather than invent from scratch. The beat is known as "Bum-Cha-Cha". Melodies are usually sampled. Modern records lean on horn and accordion stabs, and the brass intro from the Rocky theme turns up again and again.
 
 The MC is half of every record. The FADER notes that funk usually pairs a producer with a rapper, and that the MC's job is to pump up the crowd, often by repeating one word or phrase until it blends into the beat. The lyrics deal with poverty, dignity, racial pride, sex, violence and social injustice. Many are explicit, and radio stations play clean versions while the bailes and the sound cars play the harsher ones.
 
@@ -74,7 +74,7 @@ The line runs into pop. Major Lazer's "Pon de Floor" (2009) became the basis of 
 
 ## Brazilian funk styles
 
-Every region has its own sound, and most of the named subgenres date from 2008 or later. Wikipedia's article lists them by city and by tempo, and the main ones are below.
+Every region has its own sound, and most of the named subgenres date from 2008 or later. They divide by city and by tempo; the main ones are below.
 
 [Table: styles]
 
@@ -108,7 +108,7 @@ MC WM's "Fuleragem" is the best-known record of rasteirinha, a slower strain at 
 
 [Embed: Fuleragem]
 
-Brega funk from Recife sounds nothing like the Rio records: MIDI pianos, caixa snares and a tempo of 160 to 180 BPM played in half time. Pabllo Vittar's "Parabéns", with Psirico, is the example Wikipedia gives.
+Brega funk from Recife sounds nothing like the Rio records: MIDI pianos, caixa snares and a tempo of 160 to 180 BPM played in half time. Pabllo Vittar's "Parabéns", with Psirico, is one example.
 
 [Embed: Parabéns]
 
@@ -116,7 +116,7 @@ Kevin o Chris's "Ela É do Tipo" is one of the most popular 150 BPM records, and
 
 [Embed: Automotivo Bibi Fogosa]
 
-The Weeknd and Anitta's "São Paulo" (2024) is listed by Wikipedia as rave funk, the fusion of funk and electronic music that DJ GBR started in 2016.
+The Weeknd and Anitta's "São Paulo" (2024) is rave funk, the fusion of funk and electronic music that DJ GBR started in 2016.
 
 [Embed: São Paulo]
 
@@ -140,7 +140,7 @@ Rennan da Penha's carnival set for Boiler Room in Rio shows the 150 BPM sound he
 
 ## Brazilian funk or phonk
 
-The phrase "Brazilian phonk" causes most of the confusion abroad. Since early 2023, the aggressive São Paulo strain called automotivo, which blends mandelão with electronic and bass music, has been labelled Brazilian phonk outside Brazil. Wikipedia notes that the label is not widely used in Brazil and that the rhythm is not phonk.
+The phrase "Brazilian phonk" causes most of the confusion abroad. Since early 2023, the aggressive São Paulo strain called automotivo, which blends mandelão with electronic and bass music, has been labelled Brazilian phonk outside Brazil. The label is not widely used in Brazil, and the rhythm is not phonk.
 
 Baile funk is also often confused with gqom. They are separate genres.
 

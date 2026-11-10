@@ -36,7 +36,7 @@ It grew in steps. The raves of the late 1990s drew 25,000 to 35,000 people, the 
 
 [Table: history]
 
-Until 2015 Mysteryland was mostly a single day or night, so the early figures are for one day; the 2019 figure covers the weekend. The numbers are the organisers', as recorded in the Dutch Wikipedia's history of the festival.
+Until 2015 Mysteryland was mostly a single day or night, so the early figures are for one day; the 2019 figure covers the weekend. The numbers are the organisers'.
 
 ## A short history, and who owns Mysteryland
 
@@ -72,7 +72,7 @@ That makes Mysteryland a set of small festivals inside a big one. In 2003 there 
 
 ## What the music actually is
 
-Mysteryland started as a house party and became something much broader, on purpose: the Dutch Wikipedia describes it growing into a festival of many styles meant to draw a wider audience. Its own genre list runs from techno, house and trance to hardstyle, hip hop and urban.
+Mysteryland started as a house party and became something much broader, on purpose: it grew into a festival of many styles meant to draw a wider audience. Its own genre list runs from techno, house and trance to hardstyle, hip hop and urban.
 
 The 1990s editions leaned on hardcore. The 1996 night at Eindhoven was built around it, and ID&T had run its own hardcore brand, Thunderdome, since 1992. In the mid-2000s Tiësto made his entrance by helicopter, and by the 2010s the main stage belonged to big-room EDM: Steve Aoki, Fedde le Grand and Steve Angello were on the sold-out 2013 bill.
 

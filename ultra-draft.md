@@ -62,7 +62,7 @@ It was one of the first major American festivals cancelled for the pandemic: 202
 
 ## Ultra around the world
 
-Ultra Music Festival Miami is the original, and the name has been exported since 2008, when Ultra Brasil opened in São Paulo. It moved to Rio de Janeiro in 2016. The editions run under the brand Ultra Worldwide, and Wikipedia lists places it has gone including Croatia, South Africa, South Korea, Singapore, Mexico, Brazil and Colombia. The festival's own YouTube channel carries aftermovies from Ultra Korea in 2012 and from Ultra South Africa, Ultra Japan and Ultra Buenos Aires in 2014.
+Ultra Music Festival Miami is the original, and the name has been exported since 2008, when Ultra Brasil opened in São Paulo. It moved to Rio de Janeiro in 2016. The editions run under the brand Ultra Worldwide, and it has gone to places including Croatia, South Africa, South Korea, Singapore, Mexico, Brazil and Colombia. The festival's own YouTube channel carries aftermovies from Ultra Korea in 2012 and from Ultra South Africa, Ultra Japan and Ultra Buenos Aires in 2014.
 
 Since 2012 there has also been Road to Ultra, a smaller format: one day and one stage, held in places including Thailand, Korea, Japan, Taiwan and Colombia, and in India, in New Delhi and Mumbai, from 2017. In November 2020 Road to Ultra in Taiwan was Ultra's first large event since the pandemic began.
 
@@ -94,7 +94,7 @@ The third is the surprise. In 2012 Madonna walked on to introduce Avicii. In 201
 
 Ultra is not a genre festival, though its Main Stage sounds like one. That stage is where EDM's biggest names come back to year after year: Hardwell and Martin Garrix each have their Ultra sets from 2023, 2024, 2025 and 2026 on their own channels. The 2026 stages also included the Ultra Worldwide Stage, the Live Stage, the UMF Radio Stage, the Resistance Megastructure and the Resistance Cove.
 
-Away from the Main Stage, three institutions have lasted. Carl Cox has hosted his own arena since 2005, and Miami New Times counts it a fixture of the festival for two decades, missing only 2024. Armin van Buuren has hosted an A State of Trance stage since 2011, the year his radio show reached 500 episodes. And Resistance, the stage for underground house and techno, arrived in 2015, by Wikipedia's account. Ultra has booked bands too: The Killers headlined in 2006, The Cure in 2007, the booking Faibisch has said he is proudest of, and in 2012 Kraftwerk and New Order both played the old Live Stage.
+Away from the Main Stage, three institutions have lasted. Carl Cox has hosted his own arena since 2005, and Miami New Times counts it a fixture of the festival for two decades, missing only 2024. Armin van Buuren has hosted an A State of Trance stage since 2011, the year his radio show reached 500 episodes. And Resistance, the stage for underground house and techno, arrived in 2015. Ultra has booked bands too: The Killers headlined in 2006, The Cure in 2007, the booking Faibisch has said he is proudest of, and in 2012 Kraftwerk and New Order both played the old Live Stage.
 
 At Ultra, drum and bass was there before the Main Stage was. The bill for the first beach party in 1999 included LTJ Bukem. At the first Bayfront Park edition, in 2001, Andy C played alongside Paul Oakenfold and Paul van Dyk, and Photek was among the names Ultra booked in its first years at the park. The breakbeat of The Prodigy came too: they headlined for the first time in 2006, came back in 2009, and made their last Ultra appearance in 2017.
 

@@ -34,7 +34,7 @@ Selon Pollstar, la première édition était un événement d’une capacité de
 
 [Image: ParookavilleMainLuftbild22, Timo.]
 
-Le public à la maison est encore plus grand. Depuis 2019, le festival est diffusé sur YouTube, et pour cette première année l’article allemand de Wikipedia fait état de 7,5 millions de spectateurs.
+Le public à la maison est encore plus grand. Depuis 2019, le festival est diffusé sur YouTube, et cette première année a réuni, selon les chiffres publiés, 7,5 millions de spectateurs.
 
 ## Une courte histoire, et à qui appartient Parookaville
 

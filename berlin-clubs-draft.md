@@ -12,7 +12,7 @@ It is also written by someone who goes. The door and Sisyphos are where that sho
 
 ## Before Berghain: how Berlin became a techno city
 
-Berlin club culture as the world knows it began just before the Wall came down and took off in the years straight after. The first room was UFO, opened in 1988 by the people behind the electronic label Interfisch. Wikipedia's history of Tresor calls UFO the original centre of Berlin house and techno. It was small and short-lived: money trouble closed it in 1990.
+Berlin club culture as the world knows it began just before the Wall came down and took off in the years straight after. The first room was UFO, opened in 1988 by the people behind the electronic label Interfisch. UFO was the original centre of Berlin house and techno, but it was small and short-lived: money trouble closed it in 1990.
 
 Its founders moved on. In March 1991 Dimitri Hegemann and a group of investors opened Tresor in the vaults of the former Wertheim department store on Leipziger Strasse in Mitte, only months before reunification. The name is German for safe.
 
@@ -46,7 +46,7 @@ In 2016 a German court classified Berghain as a cultural institution, which enti
 
 ### The door
 
-Search for how to get into Berghain and you will find tested guides, rejection odds, outfit lists and videos from people who tried four times in a night. Wikipedia describes the Berghain door policy as notorious for being both strict and opaque, and that is the most honest thing anyone has written about it.
+Search for how to get into Berghain and you will find tested guides, rejection odds, outfit lists and videos from people who tried four times in a night. The Berghain door policy is notorious for being both strict and opaque, and that is the most honest thing anyone can say about it.
 
 My own experience of that door says there is no system. The rules people read into it exist in their heads. It is something you feel, and not something you can prepare for, and if you are turned away there is no reason to go looking for. Everyone who has been turned away has a theory. None of the theories get anyone in.
 
@@ -120,7 +120,7 @@ Berghain, in a former heating plant in Friedrichshain, opened in December 2004. 
 
 ### Is Berghain hard to get into?
 
-Yes, and nobody can tell you how to get in. Wikipedia calls its door policy strict and opaque, and in my experience there is no system behind it: you feel it or you don't, and there is no point hunting for a reason if you are turned away.
+Yes, and nobody can tell you how to get in. Its door policy is strict and opaque, and in my experience there is no system behind it: you feel it or you don't, and there is no point hunting for a reason if you are turned away.
 
 ### What should I wear to a club in Berlin?
 

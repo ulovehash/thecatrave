@@ -12,7 +12,7 @@ The history is bigger than the rooms. San Francisco gave disco Sylvester and hi-
 
 ## Trocadero Transfer and hi-NRG
 
-The Trocadero Transfer opened in December 1977 at 520 4th Street, at Bryant, in SoMa. It was founded by Dick Collier in a building that had once housed KQED, and it ran on Saturday nights until 6am. Wikipedia notes it was compared to Studio 54, and it threw themed nights called the White, Black and Red parties.
+The Trocadero Transfer opened in December 1977 at 520 4th Street, at Bryant, in SoMa. It was founded by Dick Collier in a building that had once housed KQED, and it ran on Saturday nights until 6am. It was compared to Studio 54, and it threw themed nights called the White, Black and Red parties.
 
 Bobby Viteritti was its main DJ from 1978 to 1981, and Patrick Cowley, Steve Fabus and Robbie Leslie played there too.
 
@@ -22,7 +22,7 @@ Cowley had moved to San Francisco in 1971. He played synthesizer on Sylvester's 
 
 [Embed: You Make Me Feel]
 
-Wikipedia calls Cowley the creator of hi-NRG. His own records include "Menergy", released in 1981. He died in the Castro on 12 November 1982, one of the early victims of AIDS. Sylvester died in San Francisco in December 1988.
+Cowley is credited as the creator of hi-NRG. His own records include "Menergy", released in 1981. He died in the Castro on 12 November 1982, one of the early victims of AIDS. Sylvester died in San Francisco in December 1988.
 
 [Embed: Menergy]
 
@@ -38,7 +38,7 @@ From 1979 to 1982 it ran Church, a night that started at 6am for people leaving 
 
 [Embed: Do You Wanna Funk]
 
-Wikipedia describes the music as gay disco and underground house, and lists Derrick Carter, Doc Martin, Mark Farina, Miguel Migs, DJ Sneak and Josh Wink among the DJs who have played. The club turns up in *Tales of the City* and in the 2000 film *Groove*.
+The music is gay disco and underground house, and Derrick Carter, Doc Martin, Mark Farina, Miguel Migs, DJ Sneak and Josh Wink are among the DJs who have played. The club turns up in *Tales of the City* and in the 2000 film *Groove*.
 
 [Embed: GAWP EndUp]
 
@@ -52,7 +52,7 @@ The Bay Guardian piece marked a Wicked reunion at The Mighty, at 119 Utah Street
 
 [Embed: Wicked]
 
-The big indoor room of the decade was 1015 Folsom. The building had been a gay bathhouse until the city closed it in 1984; it reopened as Das Klub in 1986 under Ira Sandler and took the name 1015 Folsom in 1989, days before the Loma Prieta earthquake. It has about 20,000 square feet in five rooms over three floors, holds around 1,500 people, and Wikipedia calls it one of the longest-running, continuously operating dance clubs in the US. It appears in *Between the Beats*, a documentary about the 1990s rave scene.
+The big indoor room of the decade was 1015 Folsom. The building had been a gay bathhouse until the city closed it in 1984; it reopened as Das Klub in 1986 under Ira Sandler and took the name 1015 Folsom in 1989, days before the Loma Prieta earthquake. It has about 20,000 square feet in five rooms over three floors, holds around 1,500 people, and it is one of the longest-running, continuously operating dance clubs in the US. It appears in *Between the Beats*, a documentary about the 1990s rave scene.
 
 [Image: 1015 Folsom]
 
@@ -92,7 +92,7 @@ DNA Lounge opened on 22 November 1985 at 375 Eleventh Street. Jamie Zawinski, a 
 
 [Image: DNA Lounge]
 
-Its nights are the city's alternative ones: Bootie, a Saturday mashup party; Death Guild, for goth and industrial; the Hubba Hubba Revue, for burlesque; and Sequence, for dubstep. Wikipedia notes that most events are 18 and over.
+Its nights are the city's alternative ones: Bootie, a Saturday mashup party; Death Guild, for goth and industrial; the Hubba Hubba Revue, for burlesque; and Sequence, for dubstep. Most events are 18 and over.
 
 [Embed: Bootie]
 
@@ -142,7 +142,7 @@ Public Works, Audio and Monarch. Audio has a Funktion-One 3D surround system and
 
 ### Are there 18 and up clubs in San Francisco?
 
-Yes. DNA Lounge, on Eleventh Street, runs 18-and-over nights, and Wikipedia notes that most of its events are 18 and over. Check the age limit on each event listing.
+Yes. Most events at DNA Lounge, on Eleventh Street, are 18 and over. Check the age limit on each event listing.
 
 ### Where is the nightlife in San Francisco?
 
@@ -150,4 +150,4 @@ Mostly in SoMa, on Eleventh, Folsom and Sixth Streets, where DNA Lounge, Audio, 
 
 ### Who invented hi-NRG?
 
-Wikipedia calls Patrick Cowley, a San Francisco producer and Trocadero Transfer DJ, the creator of hi-NRG. His records include "Menergy" (1981) and "Do Ya Wanna Funk" (1982), with Sylvester.
+Patrick Cowley, a San Francisco producer and Trocadero Transfer DJ, is credited as the creator of hi-NRG. His records include "Menergy" (1981) and "Do Ya Wanna Funk" (1982), with Sylvester.

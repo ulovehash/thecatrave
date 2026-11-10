@@ -14,7 +14,7 @@ Zeleste ouvre en 1973 sur la Carrer d'Argenteria, dans la vieille ville de Barce
 
 [Image: Extérieur du Razzmatazz]
 
-Razzmatazz ouvre en 2000 comme héritier nommé de Zeleste, dans un ancien bâtiment industriel du quartier de Poblenou, de l'autre côté de la ville, et c'est aujourd'hui la plus grande boite de nuit de Barcelone : cinq salles distinctes, chacune avec sa propre programmation selon le soir, de la techno et de la house à l'indie et à la pop. Le nom vient de la chanson de Pulp, et Wikipedia cite les Flaming Lips comme premier groupe à s'être produit dans la salle. C'est l'échelle du Razzmatazz, pas un genre unique, qui en fait la tête de la scène clubbing actuelle de Barcelone : aucune autre salle de la ville ne fait tourner cinq soirées différentes sous un même toit.
+Razzmatazz ouvre en 2000 comme héritier nommé de Zeleste, dans un ancien bâtiment industriel du quartier de Poblenou, de l'autre côté de la ville, et c'est aujourd'hui la plus grande boite de nuit de Barcelone : cinq salles distinctes, chacune avec sa propre programmation selon le soir, de la techno et de la house à l'indie et à la pop. Le nom vient de la chanson de Pulp, et les Flaming Lips sont le premier groupe à s'être produit dans la salle. C'est l'échelle du Razzmatazz, pas un genre unique, qui en fait la tête de la scène clubbing actuelle de Barcelone : aucune autre salle de la ville ne fait tourner cinq soirées différentes sous un même toit.
 
 [Embed: thecatrave mix I Like to Smoke in Silence After Raves]
 

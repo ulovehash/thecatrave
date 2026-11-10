@@ -12,7 +12,7 @@ The usual lists of the best nightclubs in London include another London. Cirque 
 
 ## Before acid house: sound systems, the Blitz and Heaven
 
-The Four Aces Club opened in 1966. The Jamaican producer Charlie Collins, known as Sir Collins, and Newton Dunbar set it up as a live music venue for people from the West Indies, first in a basement in Highbury Grove and then at 12 Dalston Lane. It was the first club to open in Hackney. Its Wikipedia article credits it with a part in reggae's evolution into dance music, from ska and rocksteady through dub and dancehall to jungle, and that is not a figure of speech: the same building turns up again in the jungle story below.
+The Four Aces Club opened in 1966. The Jamaican producer Charlie Collins, known as Sir Collins, and Newton Dunbar set it up as a live music venue for people from the West Indies, first in a basement in Highbury Grove and then at 12 Dalston Lane. It was the first club to open in Hackney. It is credited with a part in reggae's evolution into dance music, from ska and rocksteady through dub and dancehall to jungle, and that is not a figure of speech: the same building turns up again in the jungle story below.
 
 In 1979 Steve Strange, on the door, and Rusty Egan, at the decks, moved the Tuesday night they had been running at Billy's in Soho to the Blitz, a wine bar at 4 Great Queen Street in Covent Garden. The night had no name and was publicised by word of mouth. It ran for about twenty months, the Daily Mirror called its regulars the Blitz Kids in March 1980, and it is credited with launching the New Romantics. Spandau Ballet played there in 1979 and 1980. The cloakroom attendant, George O'Dowd, became Boy George.
 
@@ -28,7 +28,7 @@ In the summer of 1987 four London DJs went to Ibiza on holiday: Paul Oakenfold, 
 
 Rampling's came first. Shoom opened on a Saturday in November 1987 in a basement fitness centre gym on Southwark Street, south of the river, with room for about 300 people. The first night was billed as Klub Schoom and the name was cut to Shoom by the second. Rampling borrowed from family and friends to pay for it and asked Carl Cox for the sound system. Jenni Rampling ran the door, and ran it strictly. Shoom closed early in 1990, after drug use at the club began to draw police attention.
 
-Oakenfold took his to Heaven. Future ran on Thursdays in Heaven's Soundshaft, and Spectrum, which he promoted with Ian St Paul, ran on Monday nights from April 1988 to 1990. For his Land of Oz nights Oakenfold brought in Jimmy Cauty and Alex Paterson of The Orb as ambient DJs in a room called the White Room, and Wikipedia's Heaven article calls those sessions the birth of ambient house.
+Oakenfold took his to Heaven. Future ran on Thursdays in Heaven's Soundshaft, and Spectrum, which he promoted with Ian St Paul, ran on Monday nights from April 1988 to 1990. For his Land of Oz nights Oakenfold brought in Jimmy Cauty and Alex Paterson of The Orb as ambient DJs in a room called the White Room, and those sessions are counted as the birth of ambient house.
 
 Nicky Holloway opened [Trip at the London Astoria](https://ra.co/events/65793) on Charing Cross Road in 1988. It became one of the early legal acid-house nights and later changed its name to Sin amid the tabloid backlash against acid house.
 
@@ -44,7 +44,7 @@ Heaven carried more than one of those years. Kevin Millins' Rage ran there on Th
 
 Across town, Joe Wieczorek had been throwing illegal warehouse raves through 1988 and 1989. Newton Dunbar handed him the Four Aces, and in early 1990 Club Labrynth opened in the old building on Dalston Lane. Through the 1990s its music moved from house to hardcore and finally to jungle and drum and bass, and The Prodigy made their first live public appearance there. Hackney Council repossessed the building in 1997. It made way for the tower blocks of Dalston Square and the new Dalston Junction station, and Labrynth moved to Tottenham.
 
-Wikipedia's article on jungle names the clubs where the sound was championed as AWOL, Roast and Telepathy, with DJs such as DJ Ron, DJ Hype, Randall, Fabio & Grooverider, Micky Finn, DJ Rap and Kenny Ken, and Kool FM on the pirate side. The [jungle guide](/jungle-music-guide) follows the records; this page follows the rooms.
+The clubs where jungle was championed were AWOL, Roast and Telepathy, with DJs such as DJ Ron, DJ Hype, Randall, Fabio & Grooverider, Micky Finn, DJ Rap and Kenny Ken, and Kool FM on the pirate side. The [jungle guide](/jungle-music-guide) follows the records; this page follows the rooms.
 
 [Embed: thecatrave Art Deco]
 
@@ -72,7 +72,7 @@ Keith Reilly, the founder, was still playing in 2024. This set, billed as a fabr
 
 ## Sundays, Scala and Plastic People: garage and dubstep
 
-UK garage began as the second room at jungle events. Jungle had turned harsher, and the garage rooms offered something slower and more soulful, at about 130 beats per minute against jungle's 170. Promoters of the new sound could at first only hire venues on Sunday evenings, because Friday and Saturday still belonged to jungle and drum and bass, and that is how the Sunday Scene got its name. Wikipedia's article on UK garage gives an event at the Frog & Nightgown as an example. Larger clubs followed: Heaven gave space to garage DJs, and Scala, The Colosseum, The Gass Club, Ministry of Sound and fabric became especially associated with it.
+UK garage began as the second room at jungle events. Jungle had turned harsher, and the garage rooms offered something slower and more soulful, at about 130 beats per minute against jungle's 170. Promoters of the new sound could at first only hire venues on Sunday evenings, because Friday and Saturday still belonged to jungle and drum and bass, and that is how the Sunday Scene got its name. One early example was an event at the Frog & Nightgown. Larger clubs followed: Heaven gave space to garage DJs, and Scala, The Colosseum, The Gass Club, Ministry of Sound and fabric became especially associated with it.
 
 Garage nights dressed up. Twice as Nice enforced a dress code of no trainers, jeans or baseball caps, to make people make an effort and to keep trouble out, and later installed a metal detector. The [UK garage guide](/uk-garage-guide) has the records.
 

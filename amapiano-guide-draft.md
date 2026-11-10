@@ -14,15 +14,15 @@ The sound is slower and softer than most dance music. Amapiano music usually sit
 
 ## What amapiano sounds like
 
-Wikipedia describes amapiano as a hybrid of kwaito, deep house, gqom, jazz, soul and lounge music, built from synths and wide, percussive basslines. Over that sit the pianos the genre is named after: chords and melodies with their roots in jazz and lounge.
+Amapiano is a hybrid of kwaito, deep house, gqom, jazz, soul and lounge music, built from synths and wide, percussive basslines. Over that sit the pianos the genre is named after: chords and melodies with their roots in jazz and lounge.
 
-The log drum is the part everyone recognises. It is a deep, percussive bass hit that carries the bassline. Wikipedia credits its spread to MDU aka TRP, quoting Kabza De Small, one of the genre's biggest producers, naming him as its source. Some accounts trace it further back, to the kwaito pioneer M'du Masilela.
+The log drum is the part everyone recognises. It is a deep, percussive bass hit that carries the bassline. Its spread is credited to MDU aka TRP: Kabza De Small, one of the genre's biggest producers, has named him as its source. Some accounts trace it further back, to the kwaito pioneer M'du Masilela.
 
 Songs are long and patient. Mixmag notes intros of 64 bars and DJs who let records breathe, with the log drum saved as the hook: in Njelic and Thabza Tee's "Down The Drain", around 112 BPM, it lands after two minutes.
 
 [Embed: Down The Drain]
 
-Vocals are sung or chanted in South Africa's own languages. Red Bull lists Zulu, Xhosa, Sotho, Setswana and Xitsonga, and Wikipedia says amapiano is sung in eleven of the country's twelve official languages.
+Vocals are sung or chanted in South Africa's own languages. Red Bull lists Zulu, Xhosa, Sotho, Setswana and Xitsonga, and across the genre amapiano is sung in eleven of the country's twelve official languages.
 
 ## What amapiano means
 
@@ -30,9 +30,9 @@ The amapiano meaning is simple: "ama" is the isiZulu plural prefix, so amapiano 
 
 ## Where amapiano came from
 
-Nobody agrees on exactly where it started. Wikipedia and Red Bull both say amapiano emerged in Gauteng in the mid-2010s, and both note that the birthplace is disputed between Johannesburg's townships and Pretoria. The Pretoria claim rests on the genre's likeness to bacardi house, a local Pretoria sound. No single founder is credited.
+Nobody agrees on exactly where it started. Red Bull and other histories place its emergence in Gauteng in the mid-2010s and note that the birthplace is disputed between Johannesburg's townships and Pretoria. The Pretoria claim rests on the genre's likeness to bacardi house, a local Pretoria sound. No single founder is credited.
 
-The Evening Standard dates the first experiments to around 2010, made by young producers on the FruityLoops software. Wikipedia names the townships where the scene took shape: Pretoria, Soweto, Alexandra, Katlehong and Vosloorus.
+The Evening Standard dates the first experiments to around 2010, made by young producers on the FruityLoops software. The scene took shape in Pretoria, Soweto, Alexandra, Katlehong and Vosloorus.
 
 ### Kwaito, the parent sound
 
@@ -74,11 +74,11 @@ Mixmag says that for many Europeans the first amapiano record was "Getting Late"
 
 [Image: Tyla]
 
-Tyla's "Water" took the genre further than anything before it. Released in July 2023 as the lead single of her debut album, *Tyla*, it went viral in October through a bacardi dance challenge. Wikipedia says it made her the first South African solo artist on the Billboard Hot 100 in 55 years, with top 10 placings in the UK, Ireland, Australia, the Netherlands and Sweden, and number one in New Zealand. The Evening Standard counts 113 million views for the Water Challenge. Travis Scott and Marshmello remixes followed in November 2023.
+Tyla's "Water" took the genre further than anything before it. Released in July 2023 as the lead single of her debut album, *Tyla*, it went viral in October through a bacardi dance challenge. It made her the first South African solo artist on the Billboard Hot 100 in 55 years, with top 10 placings in the UK, Ireland, Australia, the Netherlands and Sweden, and number one in New Zealand. The Evening Standard counts 113 million views for the Water Challenge. Travis Scott and Marshmello remixes followed in November 2023.
 
 [Embed: Water]
 
-Wikipedia calls Tyla the "Queen of Popiano", the pop strand of amapiano. Her earlier "Overdue", with Kooldrink and DJ Lag, is the example it gives for that style.
+Tyla has been called the "Queen of Popiano", the pop strand of amapiano. Her earlier "Overdue", with Kooldrink and DJ Lag, is an example of that style.
 
 [Embed: Overdue]
 
@@ -94,13 +94,13 @@ Kamo Mphela became famous through a dance video and went on to sing and perform 
 
 ## Amapiano styles
 
-Amapiano has already split into named strands. Wikipedia and Mixmag list these:
+Amapiano has already split into named strands. These are the main ones:
 
 [Table: styles]
 
 ## The best amapiano songs
 
-These are the records the sources keep returning to, with a player wherever an official upload exists. "Umshove" by Kabza De Small (2018), which Wikipedia says brought him international recognition, and Mellow & Sleazy's "Trust Fund" (2021) are named without a player: no upload credited to them was found.
+These are the records the sources keep returning to, with a player wherever an official upload exists. "Umshove" by Kabza De Small (2018), which brought him international recognition, and Mellow & Sleazy's "Trust Fund" (2021) are named without a player: no upload credited to them was found.
 
 [Embed: Soundcheck]
 
@@ -120,7 +120,7 @@ Young Stunna works with Kabza De Small and DJ Maphorisa. "Adiwele" and "Bopha" a
 
 [Embed: Funa]
 
-Kelvin Momo is the producer Wikipedia credits with private school piano, the soulful, live-instrument strand. "Funa" features TBO and JaySax.
+Kelvin Momo is the producer credited with private school piano, the soulful, live-instrument strand. "Funa" features TBO and JaySax.
 
 ## Amapiano artists
 
@@ -142,13 +142,13 @@ The Evening Standard's list of pioneers is a good start: Kabza De Small, DJ Maph
 
 [Image: Uncle Waffles]
 
-Mixmag adds a second wave of producers, among them Thabza Tee, Sizwe Nineteen and Jay Music, and the quantum sound names Wikipedia lists: RealShaunMusiq, Sizwe Nineteen and Nandipha808. Mixmag also points to the gap between township producers and the stars who tour.
+Mixmag adds a second wave of producers, among them Thabza Tee, Sizwe Nineteen and Jay Music, and the names given for the quantum sound are RealShaunMusiq, Sizwe Nineteen and Nandipha808. Mixmag also points to the gap between township producers and the stars who tour.
 
 [Embed: Kelvin Momo Boiler Room]
 
 ## Amapiano or house music
 
-Amapiano is South African house music, but it reached house by its own route. Wikipedia lists deep house as one of its ingredients alongside kwaito, gqom, jazz, soul and lounge, and Mixmag describes kwaito itself as slower, syncopated house sung in South African languages. The result runs slower than most house, around 110 BPM, with the log drum carrying the bass and pianos on top. For the wider family, see the [house music guide](/house-music-guide).
+Amapiano is South African house music, but it reached house by its own route. Deep house is one of its ingredients, alongside kwaito, gqom, jazz, soul and lounge, and Mixmag describes kwaito itself as slower, syncopated house sung in South African languages. The result runs slower than most house, around 110 BPM, with the log drum carrying the bass and pianos on top. For the wider family, see the [house music guide](/house-music-guide).
 
 ## Where to start with amapiano
 
@@ -172,7 +172,7 @@ Gauteng province in South Africa, in the mid-2010s. The exact birthplace is disp
 
 ### What is a log drum in amapiano?
 
-The log drum is amapiano's signature sound: a deep, percussive bass hit that carries the bassline. Wikipedia credits its spread to MDU aka TRP, and some accounts trace it back to the kwaito pioneer M'du Masilela.
+The log drum is amapiano's signature sound: a deep, percussive bass hit that carries the bassline. Its spread is credited to MDU aka TRP, and some accounts trace it back to the kwaito pioneer M'du Masilela.
 
 ### What is the difference between amapiano and house music?
 

@@ -114,7 +114,7 @@ const media = {
       ['1999', 'about 10,000', 'Collins Park, Miami Beach: one day on the beach'],
       ['2001', '21,000', 'First year at Bayfront Park'],
       ['2006', '48,000', 'First year at Bicentennial Park'],
-      ['2010', 'over 100,000 (Ultra\'s figure)', 'First sell-out, two days; Wikipedia\'s table gives 93,000'],
+      ['2010', 'over 100,000 (Ultra\'s figure)', 'First sell-out, two days; other counts give 93,000'],
       ['2011', '100,000', 'First three-day edition'],
       ['2013', '330,000', 'Two weekends, the fifteenth anniversary'],
       ['2014 to 2018', '165,000 admissions', 'Bayfront Park, summed across three days'],

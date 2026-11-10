@@ -14,7 +14,7 @@ Flex opened on New Year's Eve 1989/90 at Arndtstraße in Vienna's 12th district,
 
 [Image: Flex]
 
-Its programme mixes concerts and club nights, and Ellen Allien and Jeff Mills are among the DJs Wikipedia lists as having played there. Flex sets the minimum age by event; check your chosen listing before buying a ticket.
+Its programme mixes concerts and club nights, and Ellen Allien and Jeff Mills are among the DJs who have played there. Flex sets the minimum age by event; check your chosen listing before buying a ticket.
 
 ## Vienna techno clubs: Grelle Forelle and Das Werk
 

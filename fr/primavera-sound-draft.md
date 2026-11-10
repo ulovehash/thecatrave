@@ -40,7 +40,7 @@ Les trois dates ci-dessus concernent le programme principal du Parc del Fòrum. 
 
 ## Primavera Sound : les têtes d’affiche par année
 
-Les têtes d’affiche de Primavera Sound vont de Pixies et Pavement en 2010 à Radiohead en 2016, Björk en 2018 et Chappell Roan, Charli XCX et Sabrina Carpenter en 2025. Le billing d’un festival aussi large est affaire de jugement, donc le tableau reprend les noms que l’article Wikipédia sur Primavera Sound donne comme têtes d’affiche de chaque édition de Barcelone, vérifiés pour 2025 et 2026 d’après la presse qui a annoncé la programmation. Ce n’est pas un classement officiel.
+Les têtes d’affiche de Primavera Sound vont de Pixies et Pavement en 2010 à Radiohead en 2016, Björk en 2018 et Chappell Roan, Charli XCX et Sabrina Carpenter en 2025. Le billing d’un festival aussi large est affaire de jugement, donc le tableau reprend les noms généralement donnés comme têtes d’affiche de chaque édition de Barcelone. Ce n’est pas un classement officiel.
 
 [Table: headliners]
 

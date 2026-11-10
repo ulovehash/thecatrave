@@ -12,7 +12,7 @@ In den üblichen Listen der besten Nachtclubs in London steckt noch ein anderes 
 
 ## Vor Acid House: Soundsysteme, der Blitz und Heaven
 
-Der Four Aces Club eröffnete 1966. Der jamaikanische Produzent Charlie Collins, bekannt als Sir Collins, und Newton Dunbar gründeten ihn als Ort für Live-Musik für Menschen aus der Karibik, zuerst in einem Keller in Highbury Grove, dann in der Dalston Lane 12. Es war der erste Club, der in Hackney eröffnete. Sein Wikipedia-Artikel schreibt ihm einen Anteil an der Entwicklung des Reggae zur Tanzmusik zu, von Ska und Rocksteady über Dub und Dancehall bis zum Jungle, und das ist keine Redensart: Dasselbe Gebäude taucht in der Geschichte des Jungle weiter unten wieder auf.
+Der Four Aces Club eröffnete 1966. Der jamaikanische Produzent Charlie Collins, bekannt als Sir Collins, und Newton Dunbar gründeten ihn als Ort für Live-Musik für Menschen aus der Karibik, zuerst in einem Keller in Highbury Grove, dann in der Dalston Lane 12. Es war der erste Club, der in Hackney eröffnete. Ihm wird ein Anteil an der Entwicklung des Reggae zur Tanzmusik zugeschrieben, von Ska und Rocksteady über Dub und Dancehall bis zum Jungle, und das ist keine Redensart: Dasselbe Gebäude taucht in der Geschichte des Jungle weiter unten wieder auf.
 
 1979 verlegten Steve Strange an der Tür und Rusty Egan an den Plattenspielern den Dienstagabend, den sie im Billy's in Soho veranstaltet hatten, in den Blitz, eine Weinbar in der Great Queen Street 4 in Covent Garden. Die Nacht hatte keinen Namen und sprach sich per Mundpropaganda herum. Sie lief etwa zwanzig Monate, der Daily Mirror nannte ihre Stammgäste im März 1980 die Blitz Kids, und ihr wird zugeschrieben, die New Romantics hervorgebracht zu haben. Spandau Ballet spielten dort 1979 und 1980. Der Garderobier, George O'Dowd, wurde Boy George.
 
@@ -28,7 +28,7 @@ Im Sommer 1987 fuhren vier Londoner DJs nach [Ibiza](/de/clubs-ibiza) in den Url
 
 Ramplings kam zuerst. Shoom eröffnete an einem Samstag im November 1987 in einem Fitnessstudio im Keller an der Southwark Street, südlich des Flusses, mit Platz für rund 300 Menschen. Die erste Nacht hieß Klub Schoom, ab der zweiten war der Name auf Shoom gekürzt. Rampling lieh sich das Geld bei Familie und Freunden und bat Carl Cox um das Soundsystem. Jenni Rampling machte die Tür, und zwar streng. Shoom schloss Anfang 1990, nachdem der Drogenkonsum im Club die Aufmerksamkeit der Polizei auf sich gezogen hatte.
 
-Oakenfold brachte seine Nacht ins Heaven. Future lief donnerstags im Soundshaft des Heaven, und Spectrum, das er mit Ian St Paul veranstaltete, lief montags von April 1988 bis 1990. Für seine Nächte unter dem Namen Land of Oz holte Oakenfold Jimmy Cauty und Alex Paterson von The Orb als Ambient-DJs in einen Raum namens White Room, und der Wikipedia-Artikel über Heaven nennt diese Sessions die Geburt des Ambient House.
+Oakenfold brachte seine Nacht ins Heaven. Future lief donnerstags im Soundshaft des Heaven, und Spectrum, das er mit Ian St Paul veranstaltete, lief montags von April 1988 bis 1990. Für seine Nächte unter dem Namen Land of Oz holte Oakenfold Jimmy Cauty und Alex Paterson von The Orb als Ambient-DJs in einen Raum namens White Room, und diese Sessions gelten als Geburt des Ambient House.
 
 Nicky Holloway eröffnete [Trip in der London Astoria](https://ra.co/events/65793) an der Charing Cross Road 1988. Die Party gehörte zu den frühen legalen Acid-House-Nächten und wurde im Zuge der Boulevardkampagne gegen Acid House in Sin umbenannt.
 
@@ -44,7 +44,7 @@ Heaven trug mehr als eines dieser Jahre. Kevin Millins' Rage lief dort donnersta
 
 Auf der anderen Seite der Stadt hatte Joe Wieczorek 1988 und 1989 illegale Raves in Lagerhallen veranstaltet. Newton Dunbar übergab ihm den Four Aces, und Anfang 1990 eröffnete der Club Labrynth im alten Gebäude an der Dalston Lane. Im Lauf der 1990er-Jahre wanderte seine Musik von House zu Hardcore und schließlich zu Jungle und Drum and Bass, und The Prodigy hatten dort ihren ersten öffentlichen Live-Auftritt. Der Bezirk Hackney nahm das Gebäude 1997 wieder in Besitz. Es machte den Hochhäusern am Dalston Square und dem neuen Bahnhof Dalston Junction Platz, und Labrynth zog nach Tottenham.
 
-Der Wikipedia-Artikel über Jungle nennt als die Clubs, in denen der Sound seine Fürsprecher fand, AWOL, Roast und Telepathy, mit DJs wie DJ Ron, DJ Hype, Randall, Fabio & Grooverider, Micky Finn, DJ Rap und Kenny Ken, und Kool FM auf der Seite der Piratensender. Der [Guide zu Jungle](/jungle-music-guide), auf Englisch, folgt den Platten; diese Seite folgt den Räumen.
+Die Clubs, in denen Jungle seine Fürsprecher fand, waren AWOL, Roast und Telepathy, mit DJs wie DJ Ron, DJ Hype, Randall, Fabio & Grooverider, Micky Finn, DJ Rap und Kenny Ken, und Kool FM auf der Seite der Piratensender. Der [Guide zu Jungle](/jungle-music-guide), auf Englisch, folgt den Platten; diese Seite folgt den Räumen.
 
 [Embed: thecatrave art-deco]
 
@@ -72,7 +72,7 @@ Keith Reilly, der Gründer, legte 2024 noch auf. Dieses Set, angekündigt als fa
 
 ## Sonntage, Scala und Plastic People: Garage und Dubstep
 
-UK Garage begann als zweiter Raum bei Jungle-Veranstaltungen. Jungle war härter geworden, und die Garage-Räume boten etwas Langsameres und Souligeres, bei etwa 130 Schlägen pro Minute gegenüber den 170 des Jungle. Veranstalter des neuen Sounds konnten Räume anfangs nur am Sonntagabend mieten, weil Freitag und Samstag noch dem Jungle und dem Drum and Bass gehörten, und so kam die Sunday Scene zu ihrem Namen. Der Wikipedia-Artikel über UK Garage nennt eine Veranstaltung im Frog & Nightgown als Beispiel. Größere Clubs folgten: Heaven gab Garage-DJs Raum, und Scala, The Colosseum, The Gass Club, Ministry of Sound und fabric wurden besonders mit dem Sound verbunden.
+UK Garage begann als zweiter Raum bei Jungle-Veranstaltungen. Jungle war härter geworden, und die Garage-Räume boten etwas Langsameres und Souligeres, bei etwa 130 Schlägen pro Minute gegenüber den 170 des Jungle. Veranstalter des neuen Sounds konnten Räume anfangs nur am Sonntagabend mieten, weil Freitag und Samstag noch dem Jungle und dem Drum and Bass gehörten, und so kam die Sunday Scene zu ihrem Namen. Ein frühes Beispiel war eine Veranstaltung im Frog & Nightgown. Größere Clubs folgten: Heaven gab Garage-DJs Raum, und Scala, The Colosseum, The Gass Club, Ministry of Sound und fabric wurden besonders mit dem Sound verbunden.
 
 Zu Garage-Nächten machte man sich schick. Twice as Nice setzte einen Dresscode ohne Sneaker, Jeans und Baseballkappen durch, damit sich die Leute Mühe gaben und um Ärger fernzuhalten, und installierte später einen Metalldetektor. Der [Guide zu UK Garage](/uk-garage-guide), auf Englisch, hat die Platten.
 

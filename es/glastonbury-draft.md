@@ -70,7 +70,7 @@ El recinto siempre ha sido más que sus escenarios: hay campos de teatro, comedi
 
 ## Los headliners de Glastonbury año por año
 
-Los headliners de Glastonbury año por año se leen como una historia del pop, el rock y la música de baile británicos y mundiales. La tabla recoge los cabezas de cartel que Wikipedia lista para cada festival, y los años en que no hubo ninguno.
+Los headliners de Glastonbury año por año se leen como una historia del pop, el rock y la música de baile británicos y mundiales. La tabla recoge los cabezas de cartel de cada festival, y los años en que no hubo ninguno.
 
 [Table: headliners]
 

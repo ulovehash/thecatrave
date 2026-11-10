@@ -42,7 +42,7 @@ A Sónar+D ticket is separate from the music. In 2026 it cost €15 for a day an
 
 Sónar drew about 150,000 people in 2026, as reported after the event. The 2025 figure was 161,000, but that total also counted 42,000 people at Sónar Week events around the city. The festival itself had 52,500 at Sónar by Day and 66,500 at Sónar by Night that year.
 
-It began at about 6,000. The figures below come from Wikipedia for the early years and from reporting on each edition since; treat the recent totals as the festival's own counts.
+It began at about 6,000. The recent totals below are the festival's own counts, as reported for each edition.
 
 [Table: attendance]
 

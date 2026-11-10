@@ -36,7 +36,7 @@ Gewachsen ist es in Stufen. Die Raves der späten Neunziger zogen 25.000 bis 35.
 
 [Tabelle: Geschichte]
 
-Bis 2015 war Mysteryland meist ein einzelner Tag oder eine einzelne Nacht, die frühen Zahlen gelten also für einen Tag; die Zahl für 2019 umfasst das Wochenende. Die Angaben stammen von den Veranstaltern, festgehalten in der Festivalgeschichte der niederländischen Wikipedia.
+Bis 2015 war Mysteryland meist ein einzelner Tag oder eine einzelne Nacht, die frühen Zahlen gelten also für einen Tag; die Zahl für 2019 umfasst das Wochenende. Die Angaben stammen von den Veranstaltern.
 
 ## Eine kurze Geschichte, und wem Mysteryland gehört
 
@@ -72,7 +72,7 @@ Damit ist Mysteryland eine Sammlung kleiner Festivals in einem großen. 2003 gab
 
 ## Welche Musik wirklich läuft
 
-Mysteryland begann als House-Party und wurde absichtlich viel breiter: Die niederländische Wikipedia beschreibt, wie daraus ein Festival vieler Stile wurde, das ein größeres Publikum ansprechen sollte. Die eigene Genreliste reicht von Techno, House und Trance bis Hardstyle, Hip-Hop und Urban.
+Mysteryland begann als House-Party und wurde absichtlich viel breiter: Daraus wurde ein Festival vieler Stile, das ein größeres Publikum ansprechen sollte. Die eigene Genreliste reicht von Techno, House und Trance bis Hardstyle, Hip-Hop und Urban.
 
 [Embed: thecatrave berlin-race-1909]
 

@@ -14,7 +14,7 @@ Zeleste abrió en 1973 en la calle d'Argenteria, en el casco antiguo de Barcelon
 
 [Image: Razzmatazz exterior]
 
-Razzmatazz abrió en 2000 como heredera declarada de Zeleste, en un antiguo edificio industrial del barrio de Poblenou, al otro lado de la ciudad, y hoy es la discoteca más grande de Barcelona: cinco salas distintas, cada una con su propia programación según la noche, del techno y el house al indie y el pop. Debe el nombre a la canción de Pulp, y Wikipedia recoge a los Flaming Lips como el primer grupo que tocó en la sala. Lo que hace de Razzmatazz la cabeza de la escena actual de Barcelona es su tamaño, no un género concreto: ninguna otra sala de la ciudad programa cinco noches distintas bajo el mismo techo.
+Razzmatazz abrió en 2000 como heredera declarada de Zeleste, en un antiguo edificio industrial del barrio de Poblenou, al otro lado de la ciudad, y hoy es la discoteca más grande de Barcelona: cinco salas distintas, cada una con su propia programación según la noche, del techno y el house al indie y el pop. Debe el nombre a la canción de Pulp, y los Flaming Lips fueron el primer grupo que tocó en la sala. Lo que hace de Razzmatazz la cabeza de la escena actual de Barcelona es su tamaño, no un género concreto: ninguna otra sala de la ciudad programa cinco noches distintas bajo el mismo techo.
 
 [Embed: thecatrave mix I Like to Smoke in Silence After Raves]
 

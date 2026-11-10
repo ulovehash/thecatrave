@@ -42,7 +42,7 @@ La entrada de Sónar+D es independiente de la música. En 2026 costaba 15 € po
 
 Al Sónar fueron unas 150.000 personas en 2026, según las cifras publicadas tras el evento. La cifra de 2025 fue de 161.000, pero ese total incluía además a 42.000 personas en los eventos de la Sónar Week por la ciudad. El festival en sí tuvo 52.500 asistentes en Sónar by Day y 66.500 en Sónar by Night ese año.
 
-Empezó con unas 6.000. Las cifras de abajo salen de Wikipedia para los primeros años y de la prensa sobre cada edición desde entonces; toma los totales recientes como los recuentos del propio festival.
+Empezó con unas 6.000. Los totales recientes de abajo son los recuentos del propio festival, según la prensa de cada edición.
 
 [Table: attendance]
 

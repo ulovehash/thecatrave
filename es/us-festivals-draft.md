@@ -51,7 +51,7 @@ El otro festival de Insomniac se celebra en tres lugares en 2027, todos confirma
 
 ### HARD Summer, Los Ángeles
 
-HARD Summer lo fundó Gary Richards en 2007, y su primer evento fue el 31 de diciembre de 2007. La edición de 2026 fue el 1 y el 2 de agosto en Los Ángeles y las fechas de 2027 no se han anunciado. Wikipedia enumera sus géneros como electrónica, techno, dubstep, house, hip-hop y otros, así que es más amplio que la mayoría de los de esta lista. Ocupa el puesto 56 de la lista de DJ Mag. Elígelo para un fin de semana de verano en Los Ángeles que mezcle electrónica y hip-hop.
+HARD Summer lo fundó Gary Richards en 2007, y su primer evento fue el 31 de diciembre de 2007. La edición de 2026 fue el 1 y el 2 de agosto en Los Ángeles y las fechas de 2027 no se han anunciado. Sus géneros incluyen electrónica, techno, dubstep, house y hip-hop, así que es más amplio que la mayoría de los de esta lista. Ocupa el puesto 56 de la lista de DJ Mag. Elígelo para un fin de semana de verano en Los Ángeles que mezcle electrónica y hip-hop.
 
 [Embed: first-mix]
 

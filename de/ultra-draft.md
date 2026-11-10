@@ -62,7 +62,7 @@ Es war eines der ersten großen amerikanischen Festivals, die wegen der Pandemie
 
 ## Ultra in aller Welt
 
-Das Ultra Music Festival Miami ist das Original, und der Name wird seit 2008 exportiert, als Ultra Brasil in São Paulo startete. 2016 zog es nach Rio de Janeiro. Die Ableger laufen unter der Marke Ultra Worldwide, und Wikipedia nennt unter den Stationen Kroatien, Südafrika, Südkorea, Singapur, Mexiko, Brasilien und Kolumbien. Der YouTube-Kanal des Festivals zeigt Aftermovies von Ultra Korea 2012 sowie von Ultra South Africa, Ultra Japan und Ultra Buenos Aires 2014.
+Das Ultra Music Festival Miami ist das Original, und der Name wird seit 2008 exportiert, als Ultra Brasil in São Paulo startete. 2016 zog es nach Rio de Janeiro. Die Ableger laufen unter der Marke Ultra Worldwide, und zu den Stationen gehören Kroatien, Südafrika, Südkorea, Singapur, Mexiko, Brasilien und Kolumbien. Der YouTube-Kanal des Festivals zeigt Aftermovies von Ultra Korea 2012 sowie von Ultra South Africa, Ultra Japan und Ultra Buenos Aires 2014.
 
 Seit 2012 gibt es außerdem Road to Ultra, ein kleineres Format: ein Tag und eine Bühne, unter anderem in Thailand, Korea, Japan, Taiwan und Kolumbien, und ab 2017 in Indien, in Neu-Delhi und Mumbai. Im November 2020 war Road to Ultra in Taiwan die erste große Veranstaltung von Ultra seit Beginn der Pandemie.
 
@@ -94,7 +94,7 @@ Das dritte ist die Überraschung. 2012 kam Madonna auf die Bühne, um Avicii anz
 
 Ultra ist kein Genre-Festival, auch wenn seine Main Stage wie eines klingt. Auf dieser Bühne kehren die größten Namen des EDM Jahr für Jahr zurück: Hardwell und Martin Garrix haben jeweils ihre Ultra-Sets von 2023, 2024, 2025 und 2026 auf ihren eigenen Kanälen. Zu den Bühnen 2026 gehörten außerdem die Ultra Worldwide Stage, die Live Stage, die UMF Radio Stage, die Resistance Megastructure und die Resistance Cove.
 
-Abseits der Main Stage haben sich drei Institutionen gehalten. Carl Cox hat seit 2005 seine eigene Arena, und Miami New Times zählt sie seit zwei Jahrzehnten zum festen Bestand des Festivals, nur 2024 fehlte er. Armin van Buuren hat seit 2011 eine Bühne für A State of Trance, das Jahr, in dem seine Radiosendung 500 Folgen erreichte. Und Resistance, die Bühne für Underground House und Techno, kam laut Wikipedia 2015 dazu. Ultra hat auch Bands gebucht: The Killers waren 2006 Headliner, The Cure 2007, die Buchung, auf die Faibisch nach eigenen Worten am stolzesten ist, und 2012 spielten Kraftwerk und New Order beide auf der alten Live Stage.
+Abseits der Main Stage haben sich drei Institutionen gehalten. Carl Cox hat seit 2005 seine eigene Arena, und Miami New Times zählt sie seit zwei Jahrzehnten zum festen Bestand des Festivals, nur 2024 fehlte er. Armin van Buuren hat seit 2011 eine Bühne für A State of Trance, das Jahr, in dem seine Radiosendung 500 Folgen erreichte. Und Resistance, die Bühne für Underground House und Techno, kam 2015 dazu. Ultra hat auch Bands gebucht: The Killers waren 2006 Headliner, The Cure 2007, die Buchung, auf die Faibisch nach eigenen Worten am stolzesten ist, und 2012 spielten Kraftwerk und New Order beide auf der alten Live Stage.
 
 [Embed: thecatrave berlin-race-1909]
 

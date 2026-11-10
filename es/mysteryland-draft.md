@@ -37,7 +37,7 @@ Creció por escalones. Las raves de finales de los noventa atraían entre 25.000
 
 [Table: history]
 
-Hasta 2015, Mysteryland duraba sobre todo un solo día o una sola noche, así que las primeras cifras son de un día; la de 2019 abarca el fin de semana. Son cifras de los organizadores, tal como las recoge la historia del festival en la Wikipedia neerlandesa.
+Hasta 2015, Mysteryland duraba sobre todo un solo día o una sola noche, así que las primeras cifras son de un día; la de 2019 abarca el fin de semana. Son cifras de los organizadores.
 
 ## Una breve historia, y de quién es Mysteryland
 
@@ -73,7 +73,7 @@ Eso hace de Mysteryland un conjunto de pequeños festivales dentro de uno grande
 
 ## Qué música suena de verdad
 
-Mysteryland empezó como una fiesta de house y se convirtió, a propósito, en algo mucho más amplio: la Wikipedia neerlandesa lo describe como un festival de muchos estilos pensado para atraer a un público más amplio. Su propia lista de géneros va del techno, el house y el trance al hardstyle, el hip hop y el urbano.
+Mysteryland empezó como una fiesta de house y se convirtió, a propósito, en algo mucho más amplio: hoy es un festival de muchos estilos pensado para atraer a un público más amplio. Su propia lista de géneros va del techno, el house y el trance al hardstyle, el hip hop y el urbano.
 
 [Embed: thecatrave Look]
 

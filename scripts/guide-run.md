@@ -38,12 +38,12 @@ Rules still come from `ARTICLE-PRODUCTION-WORKFLOW.md`, `WRITING.md` and
    - `home-articles.mjs`: the catalogue card;
    - `scripts/build-og-cards.py`: the OG cover source;
    - `scripts/og-articles-covers.json`, when the guide joins the articles cover.
-6. **Build and check, in one `Bash`:**
+6. **Lint, build and check, in one `Bash`:**
    ```bash
-   node build-<guide>-article.mjs && node scripts/build.mjs && npm run check:html && node audit-all.mjs && npm run check:layout && npm run check:links
+   node scripts/lint-draft.mjs <guide>-draft.md --sources <scratchpad>/media-<guide>/wiki --media media/<guide>.json && node build-<guide>-article.mjs && node scripts/build.mjs && npm run check:html && node audit-all.mjs && npm run check:layout && npm run check:links
    ```
-   The shared builder fails on any media mismatch first, so a failure here names the exact key or file.
-7. **Review:** one Sonnet subagent with `ARTICLE-EDITORIAL-REVIEW.md`, the draft, `media/<guide>.json` and the `selector-data.json` rows the guide cites. It writes `<guide>-editorial-review.md`. The writer does not rule on its own draft.
+   The lint fails on the faults the phonk review spent most of its must-fix list on: the site's banned phrases, Wikipedia in the body, process notes, "full" set wording and production teaching. It warns on dashes, stock AI words, staging, "every source" overclaims, and years or quotes found in no stored source. Fix every FAIL and decide each WARN in the same batch of edits, then run this step again. The shared builder fails on any media mismatch, so a failure there names the exact key or file.
+7. **Review:** one Sonnet subagent with `ARTICLE-EDITORIAL-REVIEW.md`, the draft, the lint output, `media/<guide>.json` and the `selector-data.json` rows the guide cites. It writes `<guide>-editorial-review.md`. The lint's greps stand in for the review's own greps; the reviewer spends its pass on judgement (claims against sources, intent, voice). The writer does not rule on its own draft.
 8. **Fixes, in one parallel message of `Edit`s to the draft**, then step 6 once more. Edit the draft, never the generated HTML.
 9. **Push** only as `CLAUDE.md` and the owner's standing rules say: from an isolated worktree on `origin/main`, then watch the gate.
 

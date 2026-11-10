@@ -14,7 +14,7 @@ Zeleste opened in 1973 on Carrer d'Argenteria, in Barcelona's old town, as a liv
 
 [Image: Razzmatazz exterior]
 
-Razzmatazz opened in 2000 as Zeleste's named heir, in a former industrial building in the Poblenou district on the other side of the city, and it is now Barcelona's biggest club: five separate rooms, each running its own music policy on a given night, from techno and house to indie and pop. It takes its name from the Pulp song, and Wikipedia records the Flaming Lips as the first act to play the venue. Razzmatazz's scale, not any single genre, is what makes it the head of Barcelona's current club scene: no other room in the city runs five different nights under one roof.
+Razzmatazz opened in 2000 as Zeleste's named heir, in a former industrial building in the Poblenou district on the other side of the city, and it is now Barcelona's biggest club: five separate rooms, each running its own music policy on a given night, from techno and house to indie and pop. It takes its name from the Pulp song, and the Flaming Lips were the first act to play the venue. Razzmatazz's scale, not any single genre, is what makes it the head of Barcelona's current club scene: no other room in the city runs five different nights under one roof.
 
 [Embed: thecatrave mix I Like to Smoke in Silence After Raves]
 

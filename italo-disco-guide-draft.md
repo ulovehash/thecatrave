@@ -18,7 +18,7 @@ The themes are love, robots and the future. Lectric Workers released "Robot Is S
 
 [Embed: Spacer Woman]
 
-Wikipedia places it between post-disco and synth-pop, with hi-NRG and Euro disco close by. The producers it lists as influences are Giorgio Moroder, Didier Marouani, Cerrone, Bobby Orlando and Patrick Cowley.
+It sits between post-disco and synth-pop, with hi-NRG and Euro disco close by. The producers counted as influences are Giorgio Moroder, Didier Marouani, Cerrone, Bobby Orlando and Patrick Cowley.
 
 [Image: Giorgio Moroder]
 
@@ -36,11 +36,11 @@ Many of these records were hard to find even then. Flemming Dalum, a Danish DJ, 
 
 ## Who named it Italo disco
 
-The name came from outside Italy. In Italy itself, the RAI music show Discoring called the music "rock elettronico", "balli da discoteca" or simply "musica dance", and Wikipedia says the term Italo disco was hardly used there until the 2000s.
+The name came from outside Italy. In Italy itself, the RAI music show Discoring called the music "rock elettronico", "balli da discoteca" or simply "musica dance", and the term Italo disco was hardly used there until the 2000s.
 
 The word is tied to ZYX, the West German label that licensed Italian records for the rest of Europe from 1982. "Italo" as a prefix was already on West German compilations from 1978, such as Italo Top Hits on K-Tel and Italo Super Hits on Ariola. Late in 1982 the phrase "Original Italo-Disco" appeared on West German sleeves of Amin-Peck's "Girls on Me" and Flowchart's "Ask the Boss", and in 1983 ZYX released the first The Best of Italo-Disco compilation. That series and the Italo Boot Mix series each ran to 16 volumes by 1991.
 
-The Guardian credits Mikulski of ZYX with coining the term around 1985. Wikipedia is more careful: the sleeves predate that, and there is no proof Mikulski coined it.
+The Guardian credits Mikulski of ZYX with coining the term around 1985, but the sleeves predate that, and there is no proof Mikulski coined it.
 
 ## The biggest Italo disco hits
 
@@ -60,7 +60,7 @@ Gazebo is the stage name of Paul Mazzolini. He released "I Like Chopin" on his 1
 
 [Embed: I Like Chopin]
 
-"Self Control" (1984) was written by Bigazzi, Steve Piccolo and Raf, and arranged by Celso Valli. Raf's own version topped the charts in Italy and Switzerland, and Wikipedia says it started the dominance of Italo disco recordings in the continental European charts. Laura Branigan's cover went to number one in Austria, Canada, Switzerland and West Germany and number four on the Billboard Hot 100.
+"Self Control" (1984) was written by Bigazzi, Steve Piccolo and Raf, and arranged by Celso Valli. Raf's own version topped the charts in Italy and Switzerland, and it started the dominance of Italo disco recordings in the continental European charts. Laura Branigan's cover went to number one in Austria, Canada, Switzerland and West Germany and number four on the Billboard Hot 100.
 
 [Embed: Self Control]
 
@@ -96,7 +96,7 @@ Maurizio Dami kept performing as Robotnick long after the first wave; the photog
 
 [Image: Alexander Robotnick]
 
-Koto and Den Harrow were European stars, DJ Mag says. Ivana Spagna fronted Baby's Gang on "My Little Japanese Boy" (1985) before her solo hit "Call Me". Gary Low, Fake ("Frogs in Spain"), Sandy Marton ("People from Ibiza"), Moon Ray ("Comanchero") and Valerie Dore ("The Night") fill out the 1984 list on Wikipedia.
+Koto and Den Harrow were European stars, DJ Mag says. Ivana Spagna fronted Baby's Gang on "My Little Japanese Boy" (1985) before her solo hit "Call Me". Gary Low, Fake ("Frogs in Spain"), Sandy Marton ("People from Ibiza"), Moon Ray ("Comanchero") and Valerie Dore ("The Night") fill out the list of 1984 hits.
 
 ## Italo disco and house music
 
@@ -110,7 +110,7 @@ DJ Mag adds more links. Frankie Knuckles remixed Jago's "I'm Going to Go" (1983)
 
 Italo disco faded in the early 1990s and split into several styles. Eurobeat, from the late 1980s, was aimed at the Japanese market and the Para Para dance, through labels such as A-Beat-C and Time Records. Italo house followed around 1987, and Italo dance after it.
 
-The sound also spread under other names. MasterClass calls Italo disco an umbrella term: Canada had Canadian disco, West Germany Euro disco or disco fox, and Japan Eurobeat. Wikipedia's examples are Trans X's "Living on Video" and Lime's "Angel Eyes" for Canada, Modern Talking, Fancy, Bad Boys Blue and C. C. Catch for West Germany, and Koto, Laserdance and Hipnosis for spacesynth, the space-themed instrumental branch.
+The sound also spread under other names. MasterClass calls Italo disco an umbrella term: Canada had Canadian disco, West Germany Euro disco or disco fox, and Japan Eurobeat. Examples include Trans X's "Living on Video" and Lime's "Angel Eyes" for Canada, Modern Talking, Fancy, Bad Boys Blue and C. C. Catch for West Germany, and Koto, Laserdance and Hipnosis for spacesynth, the space-themed instrumental branch.
 
 At home it divided people. MasterClass notes that many Italian fans and DJs dismissed it, and Daniele Baldelli, the Italian DJ, preferred French, English and German records, according to DJ Mag.
 

@@ -12,7 +12,7 @@ Elle est aussi écrite par quelqu’un qui y va. La porte et le Sisyphos sont le
 
 ## Avant le Berghain : comment Berlin est devenue une ville techno
 
-La culture club berlinoise telle que le monde la connaît a commencé juste avant la chute du Mur et a décollé dans les années qui ont suivi. La première salle a été l’UFO, ouvert en 1988 par l’équipe du label électronique Interfisch. L’histoire du Tresor sur Wikipedia présente l’UFO comme le premier centre de la house et de la techno à Berlin. Il était petit et a duré peu : des problèmes d’argent l’ont fait fermer en 1990.
+La culture club berlinoise telle que le monde la connaît a commencé juste avant la chute du Mur et a décollé dans les années qui ont suivi. La première salle a été l’UFO, ouvert en 1988 par l’équipe du label électronique Interfisch. L’UFO a été le premier centre de la house et de la techno à Berlin. Il était petit et a duré peu : des problèmes d’argent l’ont fait fermer en 1990.
 
 Ses fondateurs ont continué. En mars 1991, Dimitri Hegemann et un groupe d’investisseurs ont ouvert le Tresor dans les chambres fortes de l’ancien grand magasin Wertheim, sur la Leipziger Strasse, dans le quartier de Mitte, quelques mois seulement après la réunification. Le nom signifie coffre-fort en allemand.
 
@@ -46,7 +46,7 @@ En 2016, un tribunal allemand a classé le Berghain comme institution culturelle
 
 ### La porte
 
-Cherchez comment entrer au Berghain et vous trouverez des méthodes testées, des taux de refus, des listes de tenues et des vidéos de gens qui ont essayé quatre fois dans la même nuit. Wikipedia décrit la politique d’entrée du Berghain comme réputée à la fois stricte et opaque, et c’est la chose la plus honnête qu’on ait écrite à son sujet.
+Cherchez comment entrer au Berghain et vous trouverez des méthodes testées, des taux de refus, des listes de tenues et des vidéos de gens qui ont essayé quatre fois dans la même nuit. La politique d’entrée du Berghain est réputée à la fois stricte et opaque, et c’est la chose la plus honnête qu’on puisse en dire.
 
 Ma propre expérience de cette porte dit qu’il n’y a pas de système. Les règles que les gens y lisent existent dans leur tête. C’est quelque chose que l’on sent, pas quelque chose à quoi l’on peut se préparer, et si l’on est refusé, il n’y a pas de raison à aller chercher. Tous ceux qui ont été refusés ont une théorie. Aucune de ces théories ne fait entrer qui que ce soit.
 
@@ -122,7 +122,7 @@ Le Berghain, dans une ancienne centrale thermique de Friedrichshain, ouvert en d
 
 ### Est-ce difficile d’entrer au Berghain ?
 
-Oui, et personne ne peut vous dire comment y entrer. Wikipedia qualifie sa politique d’entrée de stricte et opaque, et d’après mon expérience il n’y a pas de système derrière : on le sent ou pas, et il ne sert à rien de chercher une raison si l’on est refusé.
+Oui, et personne ne peut vous dire comment y entrer. Sa politique d’entrée est stricte et opaque, et d’après mon expérience il n’y a pas de système derrière : on le sent ou pas, et il ne sert à rien de chercher une raison si l’on est refusé.
 
 ### Comment s’habiller pour un club à Berlin ?
 

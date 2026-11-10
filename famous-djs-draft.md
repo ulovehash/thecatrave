@@ -39,7 +39,7 @@ Garrix won in 2016, 2017 and 2018, then again in 2022 and 2024. Guetta won in 20
 
 ## How the DJ Mag Top 100 vote works
 
-The poll began in 1993 as a list chosen by the magazine's editors for its hundredth issue. It became a public vote in 1997 (Wikipedia's article on the poll and EDMTunes both give 1997). The 2026 edition is its 33rd year, and DJ Mag calls it the world's largest publicly voted music poll.
+The poll began in 1993 as a list chosen by the magazine's editors for its hundredth issue. It became a public vote in 1997. The 2026 edition is its 33rd year, and DJ Mag calls it the world's largest publicly voted music poll.
 
 There are no nominations and no eligibility criteria. A voter names five DJs of their choosing. Each person gets one vote, and DJ Mag says it validates every vote to block fraudulent or artificial ones. In 2026 voting ran from 8 July to 16 September. There is a separate link for voters in China.
 
@@ -108,7 +108,7 @@ DJ Mag's channel has Solomun's 55-minute set from Destino Ibiza, filmed in 2016.
 
 ## The first famous DJs
 
-The poll tells an electronic dance music story, but the first famous DJs came from a different tradition. Wikipedia's account of the DJ puts mixing at the start of hip-hop in the 1970s and names Kool Herc, Grandmaster Flash, Afrika Bambaataa and Grand Wizzard Theodore (Wikipedia's Disc jockey article; it credits Grand Wizzard Theodore with the scratch). The poll's own early winners are in the table.
+The poll tells an electronic dance music story, but the first famous DJs came from a different tradition. Mixing as a DJ craft starts with hip-hop in the 1970s and with Kool Herc, Grandmaster Flash, Afrika Bambaataa and Grand Wizzard Theodore, who is credited with the scratch. The poll's own early winners are in the table.
 
 | Year | Number one |
 |---|---|

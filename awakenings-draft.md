@@ -10,7 +10,7 @@ Awakenings is worth explaining properly, because it has stayed one thing for alm
 
 ## Where and when Awakenings happens
 
-The main Awakenings Summer Festival runs at Beekse Bergen, a recreational area in Hilvarenbeek, in the south of the Netherlands near Tilburg. The 2026 edition ran 10 to 12 July; the 2027 edition is booked for 9 to 11 July. Some older sources, including Wikipedia, still describe the outdoor festival as running at Spaarnwoude, between Amsterdam and Haarlem: that area now hosts Awakenings Upclose, a separate, smaller spring event, while the main summer festival has moved south to Beekse Bergen.
+The main Awakenings Summer Festival runs at Beekse Bergen, a recreational area in Hilvarenbeek, in the south of the Netherlands near Tilburg. The 2026 edition ran 10 to 12 July; the 2027 edition is booked for 9 to 11 July. Some older sources still describe the outdoor festival as running at Spaarnwoude, between Amsterdam and Haarlem: that area now hosts Awakenings Upclose, a separate, smaller spring event, while the main summer festival has moved south to Beekse Bergen.
 
 [Table: Facts]
 

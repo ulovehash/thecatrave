@@ -70,7 +70,7 @@ The site has always been more than its stages: there are theatre, comedy, circus
 
 ## Glastonbury headliners by year
 
-The Glastonbury headliners by year read like a history of British and world pop, rock and dance. The table gives the headliners Wikipedia lists for each festival, and the years there was none.
+The Glastonbury headliners by year read like a history of British and world pop, rock and dance. The table gives the headliners for each festival, and the years there was none.
 
 [Table: headliners]
 

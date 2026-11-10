@@ -40,7 +40,7 @@ Las tres fechas anteriores corresponden al programa principal del Parc del Fòru
 
 ## Primavera Sound: cabezas de cartel por año
 
-Los cabezas de cartel de Primavera Sound van de Pixies y Pavement en 2010 a Radiohead en 2016, Björk en 2018 y Chappell Roan, Charli XCX y Sabrina Carpenter en 2025. En un festival tan amplio, decidir quién encabeza el cartel es una cuestión de criterio, así que la tabla recoge los nombres que el artículo de Wikipedia sobre Primavera Sound da como cabezas de cartel de cada edición de Barcelona, contrastados para 2025 y 2026 con la cobertura de los anuncios. No es una clasificación oficial.
+Los cabezas de cartel de Primavera Sound van de Pixies y Pavement en 2010 a Radiohead en 2016, Björk en 2018 y Chappell Roan, Charli XCX y Sabrina Carpenter en 2025. En un festival tan amplio, decidir quién encabeza el cartel es una cuestión de criterio, así que la tabla recoge los nombres que se suelen dar como cabezas de cartel de cada edición de Barcelona. No es una clasificación oficial.
 
 [Table: headliners]
 

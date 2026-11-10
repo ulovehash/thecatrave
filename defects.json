@@ -2002,6 +2002,17 @@
         "file": "thecatrave-article.css",
         "contains": "the transport follows the width of the TV, not the viewport"
       }
+    },
+    {
+      "id": "wikipedia-named-in-live-guide-bodies",
+      "found": "2026-11-10",
+      "by": "agent",
+      "what": "Twenty live English pages name Wikipedia in the body text (outside the sources list and captions), 62 mentions in all: amapiano-guide 14, best-clubs-in-san-francisco 7, italo-disco-guide 6, brazilian-funk-guide 5, best-clubs-in-montreal 4, best-electronic-music-clubs-in-london 4, best-clubs-in-berlin 3, ultra-music-festival 3, why-dj-mag-top-100-never-changes 3, gabber-guide 2, mysteryland-festival 2, and one each on awakenings-festival, best-clubs-in-barcelona, best-clubs-in-vienna, best-edm-festivals-usa, glastonbury-festival, jungle-music-guide, parookaville-festival, primavera-sound-barcelona and sonar-festival-barcelona. ARTICLE-EDITORIAL-REVIEW.md says Wikipedia is never named in the body. Found while testing scripts/lint-draft.mjs on the amapiano and Brazilian funk drafts; not edited because published copy is shown to the owner first, and some mentions (the DJ Mag piece) may be the subject rather than a citation.",
+      "should_have_caught": "the review grep for Wikipedia in the body (ARTICLE-EDITORIAL-REVIEW.md), which runs only by hand and only on new drafts; no build audit checks it",
+      "fix": {
+        "file": "audit-wikipedia-body.mjs",
+        "contains": "Wikipedia named in guide body"
+      }
     }
   ]
 }

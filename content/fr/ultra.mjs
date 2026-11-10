@@ -107,7 +107,7 @@ export default {
         ['1999', 'environ 10 000', 'Collins Park, Miami Beach : un jour sur la plage'],
         ['2001', '21 000', 'Première année au Bayfront Park'],
         ['2006', '48 000', 'Première année au Bicentennial Park'],
-        ['2010', 'plus de 100 000 (chiffre de l’Ultra)', 'Premier complet, deux jours ; le tableau de Wikipédia donne 93 000'],
+        ['2010', 'plus de 100 000 (chiffre de l’Ultra)', 'Premier complet, deux jours ; d’autres décomptes donnent 93 000'],
         ['2011', '100 000', 'Première édition sur trois jours'],
         ['2013', '330 000', 'Deux week-ends, pour les quinze ans'],
         ['2014 à 2018', '165 000 entrées', 'Bayfront Park, cumulées sur trois jours'],

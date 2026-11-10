@@ -34,7 +34,7 @@ The first edition, by Pollstar's account, was a 25,000-capacity event. Ticket sa
 
 [Image: ParookavilleMainLuftbild22, Timo. Caption: The Parookaville Mainstage from the air in July 2022, the first edition after the pandemic. The stage is rebuilt to a new design every year. Photograph: Timo, CC BY-SA 4.0.]
 
-The audience at home is bigger again. Since 2019 the festival has streamed on YouTube, and for that first year Wikipedia's German article reports 7.5 million viewers.
+The audience at home is bigger again. Since 2019 the festival has streamed on YouTube, and that first year drew a reported 7.5 million viewers.
 
 ## A short history, and who owns Parookaville
 

@@ -70,7 +70,7 @@ Das Gelände war immer mehr als seine Bühnen: Es gibt Felder für Theater, Come
 
 ## Die Headliner von Glastonbury nach Jahren
 
-Die Headliner von Glastonbury lesen sich, Jahr für Jahr, wie eine Geschichte des britischen und internationalen Pop, Rock und Dance. Die Tabelle nennt die Headliner, die Wikipedia für jedes Festival aufführt, und die Jahre, in denen es keines gab.
+Die Headliner von Glastonbury lesen sich, Jahr für Jahr, wie eine Geschichte des britischen und internationalen Pop, Rock und Dance. Die Tabelle nennt die Headliner jedes Festivals, und die Jahre, in denen es keines gab.
 
 [Tabelle: headliners]
 

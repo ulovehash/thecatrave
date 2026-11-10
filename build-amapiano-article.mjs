@@ -77,7 +77,7 @@ buildGenreGuide({
     'Water': ['XoiOOiuH8iI', 'Amapiano', 'Tyla', 'Water, 2023',
       'The record that put amapiano on the Billboard Hot 100, from Tyla\'s channel.'],
     'Overdue': ['uUNdhnMEZs0', 'Popiano', 'Tyla featuring DJ Lag and Kooldrink', 'Overdue, 2021',
-      'Wikipedia\'s example of popiano, from Tyla\'s channel.'],
+      'An example of popiano, from Tyla\'s channel.'],
     'Soundcheck': ['Yuw9nuXDFIo', 'Amapiano', 'Vigro Deep', 'Soundcheck',
       'From one of amapiano\'s pioneering DJs.'],
     'Khuza Gogo': ['V0bL57BDMlo', 'Amapiano', 'DBN Gogo', 'Khuza Gogo',

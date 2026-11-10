@@ -12,7 +12,7 @@ Geschrieben hat sie außerdem jemand, der hingeht. An der Tür und im Sisyphos m
 
 ## Vor dem Berghain: wie Berlin zur Techno-Stadt wurde
 
-Die Berliner Clubkultur, wie die Welt sie kennt, begann kurz vor dem Fall der Mauer und hob in den Jahren direkt danach ab. Der erste Raum war das UFO, 1988 eröffnet von den Leuten hinter dem Elektronik-Label Interfisch. Die Wikipedia-Geschichte des Tresor nennt das UFO das ursprüngliche Zentrum von House und Techno in Berlin. Es war klein und kurzlebig: Geldsorgen schlossen es 1990.
+Die Berliner Clubkultur, wie die Welt sie kennt, begann kurz vor dem Fall der Mauer und hob in den Jahren direkt danach ab. Der erste Raum war das UFO, 1988 eröffnet von den Leuten hinter dem Elektronik-Label Interfisch. Das UFO war das ursprüngliche Zentrum von House und Techno in Berlin, aber es war klein und kurzlebig: Geldsorgen schlossen es 1990.
 
 Seine Gründer zogen weiter. Im März 1991 eröffneten Dimitri Hegemann und eine Gruppe von Investoren den Tresor in den Tresorräumen des ehemaligen Kaufhauses Wertheim an der Leipziger Straße in Mitte, nur Monate nach der Wiedervereinigung.
 
@@ -46,7 +46,7 @@ Das Berghain eröffnete im Dezember 2004 im Heizkraftwerk Friedrichshain, 1953 g
 
 ### Die Tür
 
-Wer sucht, wie man ins Berghain kommt, oder nach den Berghain-Türstehern, findet erprobte Anleitungen, Quoten für Abweisungen, Outfit-Listen und Videos von Leuten, die es an einem Abend viermal versucht haben. Wikipedia beschreibt die Türpolitik des Berghain als berüchtigt, weil sie zugleich streng und undurchschaubar sei, und das ist das Ehrlichste, was je jemand darüber geschrieben hat.
+Wer sucht, wie man ins Berghain kommt, oder nach den Berghain-Türstehern, findet erprobte Anleitungen, Quoten für Abweisungen, Outfit-Listen und Videos von Leuten, die es an einem Abend viermal versucht haben. Die Türpolitik des Berghain ist berüchtigt, weil sie zugleich streng und undurchschaubar ist, und das ist das Ehrlichste, was man darüber sagen kann.
 
 Meine eigene Erfahrung mit dieser Tür sagt: Es gibt kein System. Die Regeln, die Leute hineinlesen, existieren in ihren Köpfen. Es ist etwas, das man spürt, nicht etwas, auf das man sich vorbereiten kann, und wenn man abgewiesen wird, gibt es keinen Grund, nach dem man suchen müsste. Jeder, der abgewiesen wurde, hat eine Theorie. Keine dieser Theorien bringt irgendwen hinein.
 
@@ -120,7 +120,7 @@ Das Berghain, in einem ehemaligen Heizkraftwerk in Friedrichshain, eröffnet im 
 
 ### Ist es schwer, ins Berghain zu kommen?
 
-Ja, und niemand kann einem sagen, wie man hineinkommt. Wikipedia nennt die Türpolitik streng und undurchschaubar, und nach meiner Erfahrung steckt kein System dahinter: Man spürt es oder nicht, und es hat keinen Sinn, nach einem Grund zu suchen, wenn man abgewiesen wird.
+Ja, und niemand kann einem sagen, wie man hineinkommt. Die Türpolitik ist streng und undurchschaubar, und nach meiner Erfahrung steckt kein System dahinter: Man spürt es oder nicht, und es hat keinen Sinn, nach einem Grund zu suchen, wenn man abgewiesen wird.
 
 ### Was zieht man in einem Berliner Club an?
 
