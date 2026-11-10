@@ -2755,3 +2755,20 @@ Tool: WebSearch (standard). Google live reads were blocked, so this is a coarse 
 
 Not read: Dour, Lost Village, Balaton Sound, Sonic Temple, World Club Dome.
 Owner relevance: Rock Werchter, Pukkelpop and Rock in Rio are not dance-music events; fit with the site is a judgment for the owner.
+
+## Seasonal and monthly festival terms: raw data (10 November 2026)
+
+Stages 1, 2 and part of 4 only. No stage 3 (related terms), no stage 5 (competitors), no stage 6 (validation). No verdict. No Ahrefs units spent. Tool: Keyword Planner, all locations, all languages, Oct 2025 to Sep 2026, ranges only, one batch of 60 terms. SERP: live Google in Chrome, hl=en gl=us, two heads. Referring domains of the top ten NOT measured, winnability unproven. TAKEN-KEYWORDS.md checked: no summer, spring, autumn or month term is listed (only winter and new year's eve festivals, plus "hard summer", a brand).
+
+KP tiers.
+- 1K–10K: summer music festivals (-90% three-month change, seasonal), electronic music festivals (head term, -90% YoY).
+- 100–1K: best summer music festivals, summer edm festivals, summer festivals europe, best summer music, best autumn festivals (+900%), fall music festivals, music festivals in january, february, march, april, may, june, july, august, september, october, november, december (all twelve, same band), edm festivals july, edm festivals october, best electronic music festivals (+9,900%), best edm festivals, dance music festivals, edm festivals 2027 (+900%).
+- 10–100: summer electronic music festivals, summer rave festivals, best summer dance music, spring music festivals, best spring music festivals, spring edm festivals, fall edm festivals, best dance music festivals, edm festivals march, april, august, september, november, december.
+- No data: electronic music festivals <each month> (all twelve), edm festivals january, february, may, june, summer playlist electronic, summer music festivals 2027, dance music festivals 2027, electronic music festivals 2027.
+
+Reading, not verdict. The month form only carries volume as "music festivals in <month>", which is general music (all twelve in one band). The electronic and EDM month forms are 10–100 or empty. "best summer music" is 100–1K but the SERP intent is unverified.
+
+SERP "electronic music festivals in march" (US): edmtrain, reddit r/aves, Ultra, Insomniac, Music Festival Wizard genre calendar, iEDM schedule (Jun 2026), RA, JamBase, Facebook. One editorial slot (iEDM). PASF: electronic music festivals in march usa, EDM festivals 2027, EDM festivals November 2026, EDM festivals March 2026.
+SERP "best summer music festivals" (US): reddit, Time Out (21 best US, Mar 2026), Pitchfork (31 most anticipated, Jun 2026), Spot2Nite, Vivid Seats, Summerfest, Musical America, classical forum. General and rock-pop, Coachella, Bonnaroo, Lollapalooza intent. Electronic is a small part. PASF: best summer music festivals in america, in usa, biggest music festivals in the world.
+
+Not done: PAA text, gl=gb SERP, related terms for the summer heads, "best summer music" SERP, competitor page mining, referring domains.
