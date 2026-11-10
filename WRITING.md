@@ -157,6 +157,18 @@ page is about that music, and no drum and bass line in the Bandcamp copy. The
 owner's own music may be named in the Bandcamp card, because that card is
 about it (owner, 14 and 23 September 2026; `festivals-series.md`).
 
+## EDM means the commercial big-stage sound, never the underground
+
+"EDM" is the US name for the commercial, big-stage dance boom. Use it only
+for festivals and music of that kind: Tomorrowland, Untold, Parookaville,
+Creamfields, EDC, Beyond Wonderland. Never call an underground or
+house-and-techno festival EDM (Garbicz, NACHTI, Houghton, Freerotation,
+Dekmantel, Awakenings, The Great Beyond); call those electronic music
+festivals. A page that covers both says which is which, and a title, URL or
+summary box never puts EDM over the whole list (owner, 2026-11-10: the summer
+festivals guide shipped as /best-summer-edm-festivals with Garbicz under an
+EDM headline). An EDM keyword is used where it is true or dropped.
+
 ## Never edit published copy silently
 
 Adding a phrase to a live article to satisfy a keyword check is an editorial

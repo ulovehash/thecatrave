@@ -746,9 +746,9 @@ export const homeArticleCatalog = [
     width:1200, height:749, alt:'deadmau5 on stage at VELD Music Festival in Toronto in July 2016'
   },
   {
-    page:'best-summer-edm-festivals.html', released:'2026-11-10T12:00:00+03:00', category:'festivals', tags:['discovery','house','techno'], href:'/best-summer-edm-festivals', type:'List', topic:'Summer EDM festivals',
-    title:'Best Summer EDM Festivals 2027: Big Stages and Underground',
-    description:'Untold on 5 to 8 August, NACHTI on 30 July, Beyond Wonderland at the Gorge on 25 June: summer EDM festivals for 2027, big and underground, with dates confirmed or not.',
+    page:'best-summer-electronic-music-festivals.html', released:'2026-11-10T12:00:00+03:00', category:'festivals', tags:['discovery','house','techno'], href:'/best-summer-electronic-music-festivals', type:'List', topic:'Summer festivals',
+    title:'Best Summer EDM and Electronic Music Festivals 2027',
+    description:'Untold on 5 to 8 August, NACHTI on 30 July, Beyond Wonderland at the Gorge on 25 June: summer festivals for 2027, EDM and underground, with dates confirmed or not.',
     image:'img/summer-festivals/tomorrowland-main-stage-2026-320.webp',
     srcset:'img/summer-festivals/tomorrowland-main-stage-2026-320.webp 320w,img/summer-festivals/tomorrowland-main-stage-2026-1200.webp 1200w',
     width:1200, height:800, alt:'The Tomorrowland main stage at Boom at night, July 2026'

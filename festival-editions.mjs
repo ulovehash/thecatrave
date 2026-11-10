@@ -102,5 +102,5 @@ export const festivalEditions = [
   {page: 'es/festivales-nochevieja.html', heading: 'Nochevieja 2026: los festivales y sus fechas', ends: '2027-01-01'},
   // Summer roundup, added 2026-11-10: Tomorrowland, Electric Forest, HARD Summer,
   // Freerotation, Waking Life and The Great Beyond had no 2027 dates yet.
-  {page: 'best-summer-edm-festivals.html', heading: 'Summer festival dates for 2027 at a glance', ends: null},
+  {page: 'best-summer-electronic-music-festivals.html', heading: 'Summer festival dates for 2027 at a glance', ends: null},
 ];

@@ -14,7 +14,7 @@ const roundups = [
   'new-years-eve-festivals.html', 'best-electronic-music-festivals-europe.html',
   'best-edm-festivals-usa.html', 'best-winter-music-festivals.html',
   'best-techno-festivals.html', 'best-psytrance-festivals.html', 'best-edm-festivals-canada.html',
-  'best-edm-festivals-australia.html', 'best-dance-music-festivals-uk.html', 'best-music-festivals-amsterdam.html', 'best-drum-and-bass-festivals.html', 'best-electronic-music-festivals-germany.html', 'best-music-festivals-croatia.html', 'best-house-music-festivals.html', 'best-edm-festivals-world.html', 'best-edm-festivals-las-vegas.html', 'best-bass-music-festivals.html', 'best-electronic-music-festivals-portugal.html', 'best-edm-festivals-mexico.html', 'best-summer-edm-festivals.html',
+  'best-edm-festivals-australia.html', 'best-dance-music-festivals-uk.html', 'best-music-festivals-amsterdam.html', 'best-drum-and-bass-festivals.html', 'best-electronic-music-festivals-germany.html', 'best-music-festivals-croatia.html', 'best-house-music-festivals.html', 'best-edm-festivals-world.html', 'best-edm-festivals-las-vegas.html', 'best-bass-music-festivals.html', 'best-electronic-music-festivals-portugal.html', 'best-edm-festivals-mexico.html', 'best-summer-electronic-music-festivals.html',
   'best-electronic-music-festivals-asia.html', 'de/silvester-rave.html',
   'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
   'fr/festivals-electro-europe.html', 'es/festivales-musica-electronica-europa.html',

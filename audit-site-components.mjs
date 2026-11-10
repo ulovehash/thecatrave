@@ -319,7 +319,7 @@ const checks = {
   // preview are the only files outside the manifest on purpose.
   noStrayRootPages: ['.', 'de', 'fr', 'es'].every(dir => fs.readdirSync(dir).filter(file => file.endsWith('.html')).every(file => {
     const path = dir === '.' ? file : `${dir}/${file}`;
-    return manifest.some(page => page.file.replace(/^\.\//, '') === path) || ['clubs-in-london.html', 'global-breakbeat-map-preview.html'].includes(path);
+    return manifest.some(page => page.file.replace(/^\.\//, '') === path) || ['clubs-in-london.html', 'best-summer-edm-festivals.html', 'global-breakbeat-map-preview.html'].includes(path);
   })),
   noBuildNotesLeaked: articlePages.every(page =>
     !/implementation note|licen[cs]ing note|prompt instruction|placeholder copy|final design should|the final page should|Self promotion second/i.test(page)),

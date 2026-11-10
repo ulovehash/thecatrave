@@ -1,4 +1,4 @@
-# Best summer EDM festivals 2027
+# Best summer EDM and electronic music festivals 2027
 
 ## Introduction
 
@@ -6,11 +6,13 @@ Summer is when most of the world's electronic music festivals happen, and it cov
 
 Both kinds are here, in Europe and in the US, for June, July and August 2027. Many of the best summer music festivals are rock and pop with a dance tent; every festival here has electronic music at its core.
 
+EDM here means what it means in the US: the commercial big-stage sound. The underground festivals further down are electronic music festivals, and their crowds would not call them EDM.
+
 Dates are marked as confirmed only when the festival's own site gives them. Where only ticket sites or listings give a date, it says so, and where nothing is published yet, the table gives last year's dates instead.
 
 ## How this list was chosen
 
-Summer EDM music festivals here had to meet three conditions: a 2027 edition held between June and August, electronic music as the main programme, and either a long record or a reputation among people who go to a lot of festivals. Size was not a condition: NACHTI sells about 3,000 tickets.
+The summer EDM music festivals in the first section are the big-stage ones; every festival here had to meet three conditions: a 2027 edition held between June and August, electronic music as the main programme, and either a long record or a reputation among people who go to a lot of festivals. Size was not a condition: NACHTI sells about 3,000 tickets.
 
 The underground festivals are harder to check, so each one here is covered by Resident Advisor or a comparable music press outlet, or by the festival's own published history. Festivals that are paused, or that fall in May or September, are listed at the end with the reason.
 
@@ -18,11 +20,11 @@ Line-ups, prices and set times are left out. They change every year, and the fes
 
 ## Summer festival dates for 2027 at a glance
 
-![Summer EDM festivals 2027 compared](figure:table)
+![Summer festivals 2027 compared](figure:table)
 
 ## What are the biggest summer EDM festivals?
 
-The biggest summer EDM festivals by attendance are in Europe: Tomorrowland in Belgium, Untold in Romania, Creamfields in England and Parookaville in Germany. In the US, the summer's large weekends are Beyond Wonderland at the Gorge, Electric Forest and HARD Summer.
+The best summer EDM festivals by attendance are in Europe: Tomorrowland in Belgium, Untold in Romania, Creamfields in England and Parookaville in Germany. Of the EDM festivals 2027 brings to Europe, all but Tomorrowland have firm dates. In the US, the summer's large weekends are Beyond Wonderland at the Gorge, Electric Forest and HARD Summer.
 
 ### Tomorrowland, Belgium
 
@@ -182,7 +184,7 @@ For the wider picture, see the guides to [electronic music festivals in Europe](
 
 ### What are the best EDM festivals this summer?
 
-Untold in Romania (5 to 8 August) and Creamfields in England (26 to 29 August) are the large ones with firm dates, then Beyond Wonderland at the Gorge in Washington (25 to 27 June). Tomorrowland has not announced 2027. For smaller festivals, Garbicz in Poland, NACHTI in Germany (30 July to 1 August) and The Great Beyond in Minnesota.
+Untold in Romania (5 to 8 August) and Creamfields in England (26 to 29 August) are the large ones with firm dates, then Beyond Wonderland at the Gorge in Washington (25 to 27 June). Tomorrowland has not announced 2027. Away from EDM, the underground choices are Garbicz in Poland, NACHTI in Germany (30 July to 1 August) and The Great Beyond in Minnesota.
 
 ### What are the biggest summer music festivals?
 

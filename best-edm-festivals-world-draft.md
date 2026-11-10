@@ -89,7 +89,7 @@ These come up in the same searches and fall outside the tests above.
 
 ## How to choose
 
-Size changes how the day feels. At EDC, Untold and Tomorrowland the main stage crowd is the event, and the walk between stages takes time. At the smaller festivals here, such as Awakenings or Creamfields, it is easier to move around and catch more sets. For dates by region, see [the best EDM festivals in the USA](/best-edm-festivals-usa), [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe) and [the best electronic music festivals in Germany](/best-electronic-music-festivals-germany). For the summer season alone, see [the best summer EDM festivals](/best-summer-edm-festivals).
+Size changes how the day feels. At EDC, Untold and Tomorrowland the main stage crowd is the event, and the walk between stages takes time. At the smaller festivals here, such as Awakenings or Creamfields, it is easier to move around and catch more sets. For dates by region, see [the best EDM festivals in the USA](/best-edm-festivals-usa), [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe) and [the best electronic music festivals in Germany](/best-electronic-music-festivals-germany). For the summer season alone, see [the best summer electronic music festivals](/best-summer-electronic-music-festivals).
 
 ![Listening](figure:track)
 

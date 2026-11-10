@@ -1,34 +1,35 @@
-// Build best-summer-edm-festivals.html from best-summer-edm-festivals-draft.md.
+// Build best-summer-electronic-music-festivals.html from best-summer-electronic-music-festivals-draft.md.
 //
 // Intent: choosing a summer weekend, worldwide, Europe and the US. The owner
 // asked for real underground sections next to the big festivals (2026-11-10):
 // "alternatives to Garbicz" in Europe and their US counterparts.
-// Keywords: keywords/best-summer-edm-festivals.json. Media:
-// media/best-summer-edm-festivals.json, all new to the site.
+// Keywords: keywords/best-summer-electronic-music-festivals.json. Media:
+// media/best-summer-electronic-music-festivals.json, all new to the site.
 //
 // Maintenance: registered in festival-editions.mjs with ends: null. Refresh as
 // listed dates are confirmed and roll to 2028 in September 2027.
+import fs from 'node:fs';
 import {buildRoundup, figureSet, singleSet} from './festival-roundup.mjs';
 
 const fig = figureSet('summer-festivals');
 const a = (href, text) => `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 
 buildRoundup({
-  file: 'best-summer-edm-festivals.html',
-  path: '/best-summer-edm-festivals',
-  draftFile: 'best-summer-edm-festivals-draft.md',
-  title: 'Best Summer EDM Festivals 2027: Big Stages and Underground',
-  description: 'The best summer EDM festivals of 2027 in Europe and the US, with dates: Tomorrowland, Untold, Creamfields and underground ones like Garbicz and The Great Beyond.',
+  file: 'best-summer-electronic-music-festivals.html',
+  path: '/best-summer-electronic-music-festivals',
+  draftFile: 'best-summer-electronic-music-festivals-draft.md',
+  title: 'Best Summer EDM and Electronic Music Festivals 2027',
+  description: 'Summer 2027 festival dates in Europe and the US: EDM\'s big stages like Tomorrowland, Untold and Creamfields, and underground ones like Garbicz and The Great Beyond.',
   date: '2026-11-10',
   dateLabel: '10 November 2026',
   kicker: 'Festival guide, summer 2027',
-  h1: 'The best summer EDM festivals of 2027',
+  h1: 'The best summer EDM and electronic music festivals of 2027',
   deck: 'Summer electronic music festivals in Europe and the US, from the big stages to the small underground weekends in forests and campgrounds, with the 2027 dates that are confirmed and the ones that are not.',
-  bannerLabel: 'Best summer EDM festivals',
-  answer: 'The biggest summer EDM festivals of 2027 are Tomorrowland in Belgium (dates not yet announced), Untold in Romania (5 to 8 August), Creamfields in England (26 to 29 August) and Beyond Wonderland at the Gorge in Washington (25 to 27 June). For something smaller and underground, go to Garbicz in Poland, NACHTI in Germany (30 July to 1 August) or The Great Beyond in Minnesota.',
+  bannerLabel: 'Best summer festivals',
+  answer: 'The biggest summer EDM festivals of 2027 are Tomorrowland in Belgium (dates not yet announced), Untold in Romania (5 to 8 August), Creamfields in England (26 to 29 August) and Beyond Wonderland at the Gorge in Washington (25 to 27 June). Away from EDM, the underground choices are Garbicz in Poland, NACHTI in Germany (30 July to 1 August) or The Great Beyond in Minnesota.',
   introTitle: 'Two kinds of summer.',
-  faqTitle: 'Summer EDM festivals FAQ.',
-  breadcrumb: 'Best Summer EDM Festivals',
+  faqTitle: 'Summer festivals FAQ.',
+  breadcrumb: 'Best Summer Electronic Music Festivals',
   ogName: 'summer-festivals',
   bodyClass: 'summer-festivals-page',
   sections: [
@@ -42,7 +43,7 @@ buildRoundup({
     ['How to choose', 'choose', 'How to choose']
   ],
   table: {
-    label: 'Summer EDM festivals compared, 2027',
+    label: 'Summer festivals compared, 2027',
     headers: ['Festival', 'Where', '2027 dates', 'Sound', 'Scale', 'Best for'],
     rows: [
       ['Kala', 'Dhërmi, Albania', '2 to 9 June', 'Electronic', 'Small, hotel included', 'A beach week'],
@@ -115,3 +116,12 @@ buildRoundup({
 <li>Poll rank and context: ${a('https://djmag.com/top100festivals', 'DJ Mag: Top 100 Festivals 2026')}.</li>
 </ul>`
 });
+
+// The guide first shipped as /best-summer-edm-festivals (2026-11-10) and moved
+// the same day: EDM is not the word for its underground half (defects.json,
+// edm-label-over-underground). GitHub Pages has no server redirects, so this
+// stub sends people on. It is not in pages.mjs, so no audit, sitemap or card
+// treats it as a page.
+const movedTo = 'https://thecatrave.com/best-summer-electronic-music-festivals';
+fs.writeFileSync('best-summer-edm-festivals.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved: Best Summer EDM and Electronic Music Festivals 2027</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="${movedTo}"><meta http-equiv="refresh" content="0; url=${movedTo}"></head><body><p>This page has moved to <a href="${movedTo}">${movedTo}</a>.</p></body></html>\n`);
+console.log('Wrote best-summer-edm-festivals.html as a redirect stub');

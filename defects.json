@@ -1969,6 +1969,17 @@
         "file": "scripts/parse-artist.mjs",
         "contains": "moments in music"
       }
+    },
+    {
+      "id": "edm-label-over-underground",
+      "found": "2026-11-10",
+      "by": "owner",
+      "what": "The summer festivals guide shipped as /best-summer-edm-festivals with title, H1, description and summary box calling the whole list EDM, Garbicz, NACHTI, Houghton and The Great Beyond included. EDM is the US label for the commercial big-stage sound; the underground festivals are not EDM. The URL moved to /best-summer-electronic-music-festivals with a redirect stub at the old path.",
+      "should_have_caught": "keyword mapping put the highest-volume phrase (summer edm festivals) on the URL, title and H1 without asking whether the word was true of every festival under it, and WRITING.md had no rule on what EDM means",
+      "fix": {
+        "file": "WRITING.md",
+        "contains": "EDM means the commercial big-stage sound, never the underground"
+      }
     }
   ]
 }

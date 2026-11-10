@@ -121,7 +121,7 @@ Two dates decide a lot. Ultra and the Southern California edition of Beyond Wond
 
 If you are comparing the US with Europe, see [the best electronic music festivals in Europe](/best-electronic-music-festivals-europe).
 
-Looking further east? The [best electronic music festivals in Asia](/best-electronic-music-festivals-asia), including Ultra Japan and Wonderfruit, are compared in a separate guide. North of the border, see [the best EDM festivals in Canada](/best-edm-festivals-canada). For June to August alone, in the US and Europe, see [the best summer EDM festivals](/best-summer-edm-festivals).
+Looking further east? The [best electronic music festivals in Asia](/best-electronic-music-festivals-asia), including Ultra Japan and Wonderfruit, are compared in a separate guide. North of the border, see [the best EDM festivals in Canada](/best-edm-festivals-canada). For June to August alone, in the US and Europe, see [the best summer electronic music festivals](/best-summer-electronic-music-festivals).
 
 ## FAQ
 

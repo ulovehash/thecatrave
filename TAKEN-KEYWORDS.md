@@ -400,7 +400,7 @@ Regenerate: `node scripts/taken-keywords.mjs`
 - popular spotify playlists
 - spotify playlist recommendations
 
-## best-summer-edm-festivals.html
+## best-summer-electronic-music-festivals.html
 
 - summer edm festivals
 - edm festivals this summer
