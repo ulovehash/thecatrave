@@ -183,7 +183,7 @@ const articleHtml = [
     readingTime,
     dateModified: date,
     dateLabel,
-    summaryHtml: infoBanner({label: 'Trance definition', bodyHtml: 'Trance is dance music at 130 to 145 BPM built around one repeated melody, a long breakdown and the return of the drums.', className: 'article-summary'}),
+    summaryHtml: infoBanner({label: 'Trance definition', bodyHtml: 'Trance is electronic dance music at 130 to 145 BPM built around one repeated melody, a long breakdown and the return of the drums.', className: 'article-summary'}),
     tocItems
   }),
   articleSection({id: 'introduction', title: 'The lights coming back on.', bodyHtml: `${join(intro)}${hearItNow}`, className: 'article-intro'}),
