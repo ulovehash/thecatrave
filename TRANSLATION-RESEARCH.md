@@ -506,3 +506,14 @@ Parookaville, plus `es/articulos`.
   gained an `es` locale; the `es/articulos` intro was removed on the owner's instruction.
 - **Known red, not from these pages.** `audit-defects`, 9 keyword failures, and the mobile
   SoundCloud-band layout failure (also on fr pages) keep the CI gate red.
+
+### German batch 1 (12 November 2026)
+
+Best nightclubs in the world, best clubs in Europe, Printworks, Defqon.1, Fusion, Time Warp.
+
+- **Method.** One Keyword Planner pass for Germany (buckets only, 16 browser calls); one google.de SERP per page. Festival and Printworks maps carry `volume: null`, SERP-sourced.
+- **Modules** copied from the es siblings, strings replaced; media unchanged. Time Warp cites en Wikipedia "(auf Englisch)".
+- **Festival planner.** es siblings have no registry path, so de.timewarp/fusion/defqon went into `content/festival-planning-data.mjs`; `audit-next-festival-guides.mjs` count raised to 96.
+- **Club pages** needed layouts in `club-visit-layouts.json` and baselines in `club-visit-preservation.json` (run sheet now says so; defects logged).
+- **Review.** Six Sonnet reviews, 53 findings, 43 applied. Rejected: deleting es-derived sections and FAQs (Madrid cancellation, extra FAQs), dropping mapped keyword sentences or headings.
+- **Audit fixes.** "beste clubs der welt" placed in the intro; figures moved off listening blocks; Printworks title/description trimmed.

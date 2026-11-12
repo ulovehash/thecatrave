@@ -2035,6 +2035,28 @@
         "file": "scripts/lint-draft.mjs",
         "contains": "Quellen|Fuentes"
       }
+    },
+    {
+      "id": "run-sheet-omits-club-visit-baseline",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "Step 8 of scripts/translate-run.md names only the brief's lines and the festival registry. A translated club page also needs a layout in content/club-visit-layouts.json and a baseline in content/club-visit-preservation.json, which audit-club-visits.mjs requires; the German batch found them only by reading the audit.",
+      "should_have_caught": "the first club guide translated with the run sheet",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "a baseline in `content/club-visit-preservation.json`"
+      }
+    },
+    {
+      "id": "run-sheet-omits-festival-planner-and-count",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "Step 8 says festivals register through tri() in the registry, but the es festival siblings have no registry path: their planner lives in content/festival-planning-data.mjs, and audit-next-festival-guides.mjs holds a hard-coded page count (93, with a stale message saying 90) that each new festival language must raise. Neither is in the brief or the run sheet.",
+      "should_have_caught": "the es festival batch",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "raises the hard-coded count in `audit-next-festival-guides.mjs`"
+      }
     }
   ]
 }

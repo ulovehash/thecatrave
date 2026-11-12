@@ -1,0 +1,16 @@
+{
+  "page": "de/beste-clubs-europa.html",
+  "seed": "beste clubs europa",
+  "source": "Google Ads Keyword Planner (owner's account, Claude in Chrome), 12 November 2026, location Germany, language German; volume buckets only (100–1K, 10–100). Wording also from Google de-DE live SERP and People also ask, same day. No data is not zero.",
+  "terms": [
+    {"term": "beste clubs europa", "volume": null, "bucket": "100–1K", "note": "H2 and table section, slug"},
+    {"term": "die besten clubs in europa", "volume": null, "note": "title, H1, H2s; KP 'besten clubs in europa' 0–10, kept as the natural form of the head term"},
+    {"term": "clubs in europa", "volume": null, "bucket": "10–100", "note": "entry and phones H2 (KP 'clubs europa')"},
+    {"term": "die besten techno-clubs in europa", "volume": null, "bucket": "10–100", "note": "techno H2 (KP 'beste techno clubs europa')"},
+    {"term": "die größten clubs in europa", "volume": null, "note": "size H2; not measured"},
+    {"term": "die besten clubs der welt", "volume": null, "bucket": "100–1K", "note": "FAQ, link to the world guide"}
+  ],
+  "rejected": [
+    {"term": "beste diskotheken europa", "reason": "Keyword Planner bucket 0–10; German searchers say Clubs"}
+  ]
+}

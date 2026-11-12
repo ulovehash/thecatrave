@@ -1,0 +1,18 @@
+{
+  "page": "de/beste-clubs-der-welt.html",
+  "seed": "beste clubs der welt",
+  "source": "Google Ads Keyword Planner (owner's account, Claude in Chrome), 12 November 2026, location Germany, language German; volume buckets only (100–1K, 10–100). Wording also from Google de-DE live SERP and People also ask, same day. No data is not zero.",
+  "terms": [
+    {"term": "beste clubs der welt", "volume": null, "bucket": "100–1K", "note": "title, H1, H2, answer"},
+    {"term": "die besten clubs der welt", "volume": null, "bucket": "100–1K", "note": "title, H1, H2s"},
+    {"term": "top clubs der welt", "volume": null, "bucket": "100–1K", "note": "ranking section"},
+    {"term": "größter club der welt", "volume": null, "bucket": "100–1K", "note": "biggest section; FAQ in PAA wording 'Welcher ist der größte Club der Welt?'"},
+    {"term": "größten clubs der welt", "volume": null, "note": "H2; not measured"},
+    {"term": "besten techno-clubs der welt", "volume": null, "note": "H2; not measured"},
+    {"term": "exklusivsten clubs der welt", "volume": null, "note": "H2; not measured"},
+    {"term": "beliebteste club in deutschland", "volume": null, "note": "FAQ, from People also ask; not measured"}
+  ],
+  "rejected": [
+    {"term": "beste diskotheken der welt", "reason": "Keyword Planner bucket 0–10; German searchers say Clubs"}
+  ]
+}

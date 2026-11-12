@@ -1415,6 +1415,54 @@ export const germanArticleCatalog = [
     image:'img/bass-music/miami-bass-loc-ace-vic-480.jpg',
     srcset:'img/bass-music/miami-bass-loc-ace-vic-480.jpg 480w,img/bass-music/miami-bass-loc-ace-vic-1400.jpg 1400w',
     width:1400, height:933, alt:'Die Miami-Bass-Künstler Loc Ace und Vic vor einer Club-Soundanlage im Jahr 1993'
+  },
+  {
+    page:'de/beste-clubs-der-welt.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/de/beste-clubs-der-welt', type:'Guide', topic:'Die besten Clubs der Welt',
+    title:'Die besten Clubs der Welt: 20 Clubs aus den DJ Mag Top 100 2026',
+    description:'20 Clubs aus den DJ Mag Top 100 2026, von [UNVRS] und Berghain bis GREENVALLEY, Club Space und WOMB: Plätze, Kapazitäten, die größten Clubs und Sets zum Anhören.',
+    image:'img/best-nightclubs-in-the-world/echostage-2024-320.webp',
+    srcset:'img/best-nightclubs-in-the-world/echostage-2024-320.webp 320w,img/best-nightclubs-in-the-world/echostage-2024-1200.webp 1200w',
+    width:1200, height:856, alt:'Das Publikum im Echostage in Washington, D.C. vor einer beleuchteten Bühne und LED-Wänden'
+  },
+  {
+    page:'de/beste-clubs-europa.html', category:'rave-spots', tags:['house', 'techno', 'history'], href:'/de/beste-clubs-europa', type:'Guide', topic:'Die besten Clubs in Europa',
+    title:'Die besten Clubs in Europa: 23 Clubs nach Ländern',
+    description:'23 Clubs in zehn Ländern Europas, von Berghain und Tresor bis Pacha und Cavo Paradiso: was jeder Raum ist, die DJ-Mag-Plätze 2026 und Sets zum Anhören.',
+    image:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp',
+    srcset:'img/best-clubs-in-europe/cavo-paradiso-2016-320.webp 320w,img/best-clubs-in-europe/cavo-paradiso-2016-1200.webp 1200w',
+    width:1200, height:900, alt:'Cavo Paradiso auf seiner Klippe über dem Meer auf Mykonos, vom Wasser aus gesehen'
+  },
+  {
+    page:'de/printworks-london.html', category:'rave-spots', tags:['house','techno','history'], href:'/de/printworks-london', type:'Guide', topic:'Printworks London',
+    title:'Printworks London: Wiedereröffnung, Schließung und Geschichte',
+    description:'Printworks London schloss im Mai 2023: was offiziell geplant ist, warum er schloss, Räume und Kapazität, Drumsheds und wohin in der Zwischenzeit.',
+    image:'img/printworks-london/gate-2010-320.webp',
+    srcset:'img/printworks-london/gate-2010-320.webp 320w,img/printworks-london/gate-2010-1200.webp 1200w',
+    width:1200, height:797, alt:'Ein Tor mit Stacheldraht und einem Schild East Deliveries an der Druckerei Harmsworth Quays in Rotherhithe'
+  },
+  {
+    page:'de/defqon-1.html', category:'festivals', tags:['discovery', 'history', 'hardstyle'], href:'/de/defqon-1', type:'Guide', topic:'Defqon.1',
+    title:'Defqon.1 2027: Termine, Tickets und Vorverkauf',
+    description:'Defqon.1 2027 ist vom 24. bis 27. Juni in Biddinghuizen: Vorverkaufsphasen, Tickets, warum 2026 abgesagt wurde, was aus den Erstattungen wurde und die Anreise.',
+    image:'img/defqon-1/red-stage-2023-320.webp',
+    srcset:'img/defqon-1/red-stage-2023-320.webp 320w,img/defqon-1/red-stage-2023-1200.webp 1200w',
+    width:1280, height:720, alt:'Die Red Stage, Hauptbühne von Defqon.1 2023, bei Tag mit Publikum davor'
+  },
+  {
+    page:'de/fusion-festival.html', category:'festivals', tags:['techno', 'electronic', 'festival'], href:'/de/fusion-festival', type:'Guide', topic:'Fusion Festival',
+    title:'Fusion Festival 2027: Pause, Termine 2028 und Tickets',
+    description:'Fusion Festival in Lärz: warum es 2027 keine Ausgabe gibt, die Termine 2028, wie die Ticketverlosung läuft, der Streit mit der Polizei und die Anreise.',
+    image:'img/fusion-festival/palapa-2019-320.webp',
+    srcset:'img/fusion-festival/palapa-2019-320.webp 320w,img/fusion-festival/palapa-2019-1200.webp 1200w',
+    width:1200, height:675, alt:'Die Palapa-Bühne nachts auf dem Fusion Festival 2019, Publikum unter violettem Licht und einem orangefarbenen Schirm'
+  },
+  {
+    page:'de/time-warp-festival.html', category:'festivals', tags:['festivals','europe-festivals','techno','house'], href:'/de/time-warp-festival', type:'Guide', topic:'Time Warp',
+    title:'Time Warp 2027: Mannheim, Tickets und Line-up',
+    description:'Time Warp 2027 ist am 3. April in Mannheim: Ticketpreise, Ausgaben außerhalb Deutschlands und was mit der abgesagten Time Warp Madrid 2026 passiert ist.',
+    image:'img/time-warp/tdk-2006-320.webp',
+    srcset:'img/time-warp/tdk-2006-320.webp 320w,img/time-warp/tdk-2006-1200.webp 1200w',
+    width:1200, height:900, alt:'Ein voller Dancefloor vor einer Bühne mit Videowänden auf der Time Warp 2006'
   }
 ];
 

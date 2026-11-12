@@ -587,5 +587,24 @@
     "remainderTitles": {
       "where-to-go": "Hear Montreal before you go."
     }
+  },
+  "/de/beste-clubs-der-welt": {
+    "sections": [
+      "exclusive"
+    ],
+    "title": "Plane deinen Besuch"
+  },
+  "/de/beste-clubs-europa": {
+    "sections": [
+      "europe-clubs"
+    ],
+    "title": "Plane deinen Besuch"
+  },
+  "/de/printworks-london": {
+    "sections": [
+      "coming-back",
+      "instead"
+    ],
+    "title": "Printworks: Schließung und Wiedereröffnung"
   }
 }

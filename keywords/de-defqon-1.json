@@ -1,0 +1,13 @@
+{
+  "page": "de/defqon-1.html",
+  "seed": "defqon 1 2027",
+  "source": "Google de-DE live SERP and People also ask, read in Chrome on 12 November 2026. Keyword Planner gave no German volumes for this page in the batch pass. No data is not zero.",
+  "terms": [
+    {"term": "defqon.1 2027", "volume": null, "note": "title, H1, dates H2"},
+    {"term": "defqon.1 tickets", "volume": null, "note": "tickets H2 and H3s; PAA 'Wann werden Defqon.1 Tickets verkauft?'"},
+    {"term": "defqon.1 2026 abgesagt", "volume": null, "note": "cancellation H2 and FAQ; PAA 'Ist Defqon.1 2026 abgesagt?'"},
+    {"term": "defqon.1 line-up", "volume": null, "note": "line-up H2"},
+    {"term": "wo ist defqon.1", "volume": null, "note": "location H2"}
+  ],
+  "rejected": []
+}

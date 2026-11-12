@@ -1,0 +1,13 @@
+{
+  "page": "de/fusion-festival.html",
+  "seed": "fusion festival 2027",
+  "source": "Google de-DE live SERP, AI overview and People also ask, read in Chrome on 12 November 2026. Keyword Planner gave no German volumes for this page in the batch pass. No data is not zero.",
+  "terms": [
+    {"term": "fusion festival 2027", "volume": null, "note": "title, H1, dates H2, FAQ"},
+    {"term": "fusion festival 2028", "volume": null, "note": "dates H2, planning H2, FAQ"},
+    {"term": "fusion tickets", "volume": null, "note": "tickets H2 and FAQ; PAA 'Wie viel kosten Fusion Tickets?'"},
+    {"term": "wo ist das fusion festival", "volume": null, "note": "Lärz H2 opening and FAQ; PAA"},
+    {"term": "wie viele besucher hat das fusion festival", "volume": null, "note": "capacity H3 and FAQ; PAA"}
+  ],
+  "rejected": []
+}
