@@ -2142,6 +2142,17 @@
       "what": "build-localized-articles.mjs drops a literal * from FAQ answers in the FAQPage JSON-LD but keeps it in the visible answer, so \"ACE*Mission\" in fr/time-warp-festival-draft.md failed faqStructuredDataMatchesVisibleContent. The fr FAQ now says \"ACE Mission\", as de and es do; the English builder keeps the asterisk in both.",
       "should_have_caught": "the localized builder, which treats a lone * as emphasis markup in the schema text only",
       "fix": null
+    },
+    {
+      "id": "review-fixes-applied-in-writer-context",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "French batch 1 cost 3.3M tokens a page against German batch 1 at 2.0M. The writer applied 124 review items itself, mostly as one-line edits, at 110–165k of context: the review-and-fix phase alone was 6.4M of the main session's 15.9M. Step 11 told the writer to apply the fixes, so each small edit re-read the whole batch's history.",
+      "should_have_caught": "scripts/translate-run.md step 11",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "The same subagent applies the fixes it is sure of"
+      }
     }
   ]
 }

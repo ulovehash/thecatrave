@@ -22,7 +22,7 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
 - **One fresh session per batch.** A batch is one language and up to about six pages. Every call pays for the earlier conversation in context, which cost 4–5M in the article trial.
 - **Batch by language,** because Keyword Planner is set to one country and one language at a time. One pass then covers every page in the batch.
 - Models (say which one fits at each phase):
-  - Sonnet subagent: the Keyword Planner pass, and the review.
+  - Sonnet subagent: the Keyword Planner pass, and the review with its fixes.
   - Opus: the draft and the module strings.
   - Haiku: registration edits, checks and the push.
 - **Don't read `TRANSLATION-RESEARCH.md` whole** (31 KB). Run `tail -30` once to see the format, then append the batch's entry.
@@ -73,7 +73,9 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
     - Inputs: the translated draft, the English draft, the keyword map and `ARTICLE-EDITORIAL-REVIEW.md`.
     - It runs the `humanizer` pass in the target language and checks the translation against the English for facts, names, dates and the measured phrases, which must stay word for word.
     - It writes `<lang>-<key>-review.md`. The writer does not rule on their own draft.
-11. **Fixes, in one parallel message of `Edit`s,** then step 9 once more.
+    - The same subagent applies the fixes it is sure of to the draft and the module: wording, grammar, facts checked against the English, and measured phrases put back word for word. It does not build. It does not touch registration files, the shared data files or another page.
+    - It returns only: the number of items, the number applied, and, quoted in full, each item it left open, with the reason. Live copy changed by a fix is shown to the owner as the exact wording, as `CLAUDE.md` asks.
+11. **Open items only.** The writer rules on the items the subagents left open, applies them in one parallel message of `Edit`s, then runs step 9 once more. Never re-read a review file the subagent already applied: in French batch 1, applying 124 items in the writer's 110–165k context cost 6.4M tokens, a third of the batch.
 12. **Once per batch:**
     ```bash
     npm run check:layout 2>&1 | tail -15 && npm run check:links 2>&1 | tail -5
