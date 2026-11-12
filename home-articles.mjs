@@ -2395,6 +2395,54 @@ export const spanishArticleCatalog = [
     image:'img/tomorrowland/mainstage-2014-320.webp',
     srcset:'img/tomorrowland/mainstage-2014-320.webp 320w,img/tomorrowland/mainstage-2014-1200.webp 1200w',
     width:1200, height:708, alt:'La Mainstage de Tomorrowland en 2014'
+  },
+  {
+    page:'es/dubstep.html', category:'music-history', tags:['bass','uk','twothousands','soundsystem'], href:'/es/dubstep', type:'Guía', topic:'Dubstep',
+    title:'¿Qué es el dubstep? Origen, sonido y una palabra para dos géneros',
+    description:'Una palabra para dos músicas muy distintas: cómo un sonido nacido en una tienda de discos de Croydon se partió en dos, y qué fue de la versión que nunca desapareció.',
+    image:'img/dubstep/dubplate-lathe-320.webp',
+    srcset:'img/dubstep/dubplate-lathe-320.webp 320w,img/dubstep/dubplate-lathe.webp 961w',
+    width:961, height:540, alt:'Un torno de corte de vinilo con un disco de acetato en el plato'
+  },
+  {
+    page:'es/hardstyle.html', category:'music-history', tags:['history','hardstyle','trance','techno'], href:'/es/hardstyle', type:'Guía', topic:'Hardstyle',
+    title:'¿Qué es el hardstyle? Historia, sonido, artistas y subgéneros',
+    description:'Reverse bass, bombos distorsionados y afinados, el circuito de festivales neerlandés y la división entre hardstyle eufórico y raw.',
+    image:'img/hardstyle/defqon1-red-2024-320.webp',
+    srcset:'img/hardstyle/defqon1-red-2024-320.webp 320w,img/hardstyle/defqon1-red-2024-1280.webp 1280w',
+    width:1280, height:720, alt:'El escenario principal rojo de Defqon.1 en 2024'
+  },
+  {
+    page:'es/discotecas-praga.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/es/discotecas-praga', type:'Guía', topic:'Discotecas en Praga',
+    title:'Las mejores discotecas de Praga: Cross Club, Karlovy Lázně, Ankali',
+    description:'La maquinaria soldada de Cross Club, las cinco plantas de Karlovy Lázně y las noches de techno de Ankali: las mejores discotecas de Praga.',
+    image:'img/prague-clubs/cross-club-interior-320.webp',
+    srcset:'img/prague-clubs/cross-club-interior-320.webp 320w,img/prague-clubs/cross-club-interior-844.webp 844w',
+    width:844, height:563, alt:'El bar del sótano de Cross Club en Praga, hecho con chatarra y piezas de maquinaria'
+  },
+  {
+    page:'es/discotecas-nueva-york.html', category:'rave-spots', tags:['techno','house','history','discovery'], href:'/es/discotecas-nueva-york', type:'Guía', topic:'Discotecas en Nueva York',
+    title:'Las mejores discotecas de Nueva York: house y techno, antes y ahora',
+    description:'Nowadays, Basement, Public Records, Good Room y Elsewhere: las mejores discotecas de Nueva York para house y techno hoy.',
+    image:'img/nyc-clubs/limelight-church-320.webp',
+    srcset:'img/nyc-clubs/limelight-church-320.webp 320w,img/nyc-clubs/limelight-church-1200.webp 1200w',
+    width:1200, height:900, alt:'La iglesia neogótica de ladrillo de la Sixth Avenue que se convirtió en el Limelight'
+  },
+  {
+    page:'es/ciudades-fiesta-europa.html', category:'rave-spots', tags:['techno','discovery','history'], href:'/es/ciudades-fiesta-europa', type:'Lista', topic:'Ciudades de fiesta en Europa',
+    title:'Las mejores ciudades para salir de fiesta en Europa',
+    description:'Berlín, Ámsterdam, Londres, Ibiza, Tiflis y siete más: las mejores ciudades de Europa para salir de fiesta, ordenadas por sus clubes y no por bares y playas.',
+    image:'img/europe-clubbing-cities/cross-club-prague-320.webp',
+    srcset:'img/europe-clubbing-cities/cross-club-prague-320.webp 320w,img/europe-clubbing-cities/cross-club-prague-1200.webp 1200w',
+    width:1200, height:901, alt:'El patio de Cross Club en Praga, construido con metal rescatado, tuberías y piezas de maquinaria'
+  },
+  {
+    page:'es/festivales-musica-electronica-mexico.html', category:'festivals', tags:['discovery','techno'], href:'/es/festivales-musica-electronica-mexico', type:'Lista', topic:'Festivales en México',
+    title:'Festivales de música electrónica en México 2027: Zamna y EDC',
+    description:'Zamna y Day Zero en Tulum, Bahidorá en Morelos y EDC México del 19 al 21 de febrero: los festivales de música electrónica de México en 2027, con fechas.',
+    image:'img/mexico-festivals/mutek-mexico-city-2016-320.webp',
+    srcset:'img/mexico-festivals/mutek-mexico-city-2016-320.webp 320w,img/mexico-festivals/mutek-mexico-city-2016-1200.webp 1200w',
+    width:1200, height:800, alt:'Una persona que actúa dentro de una proyección de luz en el escenario de MUTEK en Ciudad de México en 2016'
   }
 ];
 

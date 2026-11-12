@@ -1,0 +1,56 @@
+{
+  "page": "es/discotecas-praga.html",
+  "seed": "discotecas praga",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 12 November 2026, language Spanish, locations Spain (seed set 1) and Mexico, Argentina, Colombia, Chile (vida nocturna only). No live SERP read for this batch. No Ahrefs units spent. A seed with no row is \"no data\", not zero.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "discotecas praga",
+      "volume": null,
+      "bucket": "1K–10K (Keyword Planner bucket, Spain)",
+      "note": "title, hero kicker"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "discoteca en praga",
+      "volume": "1K–10K (Keyword Planner bucket, Spain)",
+      "why": "singular form; covered by the plural headings, not used verbatim; not used verbatim, not targeted"
+    },
+    {
+      "term": "discotecas en praga",
+      "volume": "no data",
+      "why": "seed, no data in Spain; intro and answer wording; not used verbatim, not targeted"
+    },
+    {
+      "term": "cross club praga",
+      "volume": "100–1K (Keyword Planner bucket, Spain)",
+      "why": "Cross Club section; not used verbatim, not targeted"
+    },
+    {
+      "term": "mejores discotecas praga",
+      "volume": "10–100 (Keyword Planner bucket, Spain)",
+      "why": "answer, hero title (las mejores discotecas de Praga); not used verbatim, not targeted"
+    },
+    {
+      "term": "discoteca duplex praga",
+      "volume": "10–100 (Keyword Planner bucket, Spain)",
+      "why": "table, answer; not used verbatim, not targeted"
+    },
+    {
+      "term": "discoteca karlovy lazne praga",
+      "volume": "10–100 (Keyword Planner bucket, Spain)",
+      "why": "answer, FAQ biggest club; not used verbatim, not targeted"
+    },
+    {
+      "term": "discoteca 5 pisos praga",
+      "volume": "10–100 (Keyword Planner bucket, Spain)",
+      "why": "FAQ biggest club (cinco plantas); not used verbatim, not targeted"
+    },
+    {
+      "term": "vida nocturna praga",
+      "volume": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used verbatim; the page says \"la noche de Praga\"; not used verbatim, not targeted"
+    }
+  ]
+}

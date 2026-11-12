@@ -1,0 +1,46 @@
+{
+  "page": "es/discotecas-nueva-york.html",
+  "seed": "discotecas nueva york",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 12 November 2026, language Spanish, locations Mexico, Argentina, Colombia, Chile; Spain not measured for this seed set (call cap). No live SERP read for this batch. No Ahrefs units spent. A seed with no row is \"no data\", not zero.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "discotecas nueva york",
+      "volume": null,
+      "bucket": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "note": "title, hero kicker"
+    },
+    {
+      "term": "discotecas en nueva york",
+      "volume": null,
+      "note": "seed, no data; FAQ closing time"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "discoteca new york",
+      "volume": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used verbatim; the page writes Nueva York; not used verbatim, not targeted"
+    },
+    {
+      "term": "night club nueva york",
+      "volume": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used; the page says discotecas and clubes; not used verbatim, not targeted"
+    },
+    {
+      "term": "clubs nueva york",
+      "volume": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "intro (clubes de Nueva York); not used verbatim, not targeted"
+    },
+    {
+      "term": "discotecas famosas de nueva york",
+      "volume": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "FAQ most famous club; not used verbatim, not targeted"
+    },
+    {
+      "term": "discotecas de techno en new york",
+      "volume": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "H2 las mejores discotecas de techno en Nueva York; not used verbatim, not targeted"
+    }
+  ]
+}

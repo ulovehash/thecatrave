@@ -2153,6 +2153,69 @@
         "file": "scripts/translate-run.md",
         "contains": "The same subagent applies the fixes it is sure of"
       }
+    },
+    {
+      "id": "kp-extract-location-multi-country",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "scripts/kp-extract.js sets locationOk by looking for the KP_TARGET location string on the page. For a multi-country pass (es batch 1: Mexico, Argentina, Colombia, Chile) the Planner chip reads \"Argentina + 3 more\", so locationOk came back false although all four countries were set (confirmed in the Locations dialog).",
+      "should_have_caught": "scripts/kp-extract.js locationOk, which takes one location name only",
+      "fix": null
+    },
+    {
+      "id": "kp-pass-coordinate-clicks-overrun",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "Spanish batch 1 Keyword Planner pass: the location and language dialogs only answered coordinate clicks, so the Spain pass took about 24 browser calls against the cap of 18 and seed set 2 never ran there. In the Latin American pass a missed click on the seed editor sent the typed seeds as keystrokes to the Google Ads page, which navigated to Ads > Ads (no edits seen), and seed set 1 never ran for that location.",
+      "should_have_caught": "scripts/kp-run.md, which does not say to confirm the seed editor has focus before typing or how to drive the dialogs without screenshots",
+      "fix": null
+    },
+    {
+      "id": "club-baseline-read-next-thumbnails",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "scripts/club-visit-baseline.mjs copied the sibling's whole media list, including the read-next card thumbnails, which come from each language's own catalogue. es/discotecas-praga.html was refused for lacking /img/budapest-clubs/a38-ship-320.webp and /img/lisbon-clubs/lux-fragil-320.webp, two German read-next cards with no Spanish page.",
+      "should_have_caught": "scripts/club-visit-baseline.mjs, which did not separate the article's own media from the read-next section",
+      "fix": {
+        "file": "scripts/club-visit-baseline.mjs",
+        "contains": "read-next cards come from each language's catalogue"
+      }
+    },
+    {
+      "id": "review-subagents-skip-rule-files",
+      "found": "2026-11-12",
+      "by": "parent session",
+      "what": "Spanish batch 1, step 10: none of the six Sonnet review subagents read ARTICLE-EDITORIAL-REVIEW.md and WRITING.md whole. Prague read 80 lines, dubstep 5,000 characters and hardstyle 3,500 of the review file; NYC, Europe and Mexico never opened it; none opened WRITING.md. The NYC report said so; the other five did not, and their results were accepted before the parent session caught it.",
+      "should_have_caught": "scripts/translate-run.md step 10, which listed the two files as inputs but did not make reading them whole the subagent's first calls, nor tell the writer to check its transcript before accepting the result",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "Its first two calls are `Read` of `ARTICLE-EDITORIAL-REVIEW.md` and `WRITING.md`, whole"
+      }
+    },
+    {
+      "id": "dubstep-mercury-year-es",
+      "found": "2026-11-12",
+      "by": "agent (es review)",
+      "what": "es/dubstep-draft.md, translated from the English, put Burial's Mercury Prize nomination under 2007. Untrue came out in November 2007 and was shortlisted for the 2008 prize.",
+      "should_have_caught": "the fact check in scripts/translate-run.md step 10, which compares against the English and so inherits its errors",
+      "fix": {
+        "file": "es/dubstep-draft.md",
+        "contains": "Mercury Prize de 2008"
+      }
+    },
+    {
+      "id": "dubstep-mercury-year-en",
+      "found": "2026-11-12",
+      "by": "agent (es review)",
+      "what": "dubstep-guide-draft.md (published /dubstep-guide): \"By 2007 the music had reached places nobody had planned for. Burial's \\\"Untrue\\\" was nominated for the Mercury Prize\" places the nomination in 2007; it was the 2008 prize (Untrue released November 2007). Proposed wording for the owner: \"Burial's \\\"Untrue\\\", released that November, was shortlisted for the 2008 Mercury Prize while its maker stayed anonymous.\" Not edited: published copy is shown to the owner first.",
+      "should_have_caught": "the claim ledger in ARTICLE-EDITORIAL-REVIEW.md when the English guide was reviewed"
+    },
+    {
+      "id": "nyc-guide-718-sessions-date-passed",
+      "found": "2026-11-12",
+      "by": "agent (es review)",
+      "what": "nyc-clubs-draft.md (published /best-clubs-in-nyc) says 718 Sessions \"returns to Good Room on 11 October\"; that date has passed. The Spanish es/nyc-clubs-draft.md carries the same line (\"vuelve a Good Room el 11 de octubre\") as a faithful translation. Both need a dated rewrite once the owner approves wording for the English.",
+      "should_have_caught": "a check for future-tense dated events in guides; none exists"
     }
   ]
 }

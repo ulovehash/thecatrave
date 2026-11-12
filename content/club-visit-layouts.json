@@ -545,6 +545,29 @@
     ],
     "title": "Prepara tu visita"
   },
+  "/es/discotecas-praga": {
+    "sections": [
+      "where-to-go"
+    ]
+  },
+  "/es/discotecas-nueva-york": {
+    "sections": [
+      "where-to-go"
+    ],
+    "extractCounts": {
+      "where-to-go": 3
+    },
+    "remainderTitles": {
+      "where-to-go": "Escuchar Nueva York antes de ir."
+    }
+  },
+  "/es/ciudades-fiesta-europa": {
+    "sections": [
+      "choose"
+    ],
+    "extract": "first-two-paragraphs",
+    "subheading": "El destino adecuado"
+  },
   "/es/fabric-london": {
     "sections": [
       "hours",

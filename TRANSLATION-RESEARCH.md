@@ -529,3 +529,14 @@ Best nightclubs in the world, best clubs in Europe, Printworks, Defqon.1, Fusion
 - **Keyword maps.** `page` must be the built file; terms must use ’ as the draft does; generic "billets"/"programmation" moved to rejected for the festival-specific phrasing.
 - **Review.** Six Sonnet reviews, 124 findings, 82 applied. Rejected: deleting sibling-derived sections (Madrid, planners, own-mix embeds, table keys), process notes such as "cette page ne donne ni l’un ni l’autre", gendered rewrites, unverified hedges.
 - **Audit fixes.** Bridge sentences moved off listening blocks; three descriptions trimmed under 165; "ACE*Mission" kept in the table only, since the localized FAQ schema strips the asterisk (defect logged, open).
+
+### Spanish batch 1 (12 November 2026)
+
+Dubstep, hardstyle, Prague clubs, NYC clubs, European clubbing cities, Mexico festivals.
+
+- **Method.** Keyword Planner, language Spanish, buckets only: Spain and Mexico+Argentina+Colombia+Chile. Not measured: Spain seed set 2 (NYC, Europe, Mexico) and LatAm seed set 1 (dubstep, hardstyle, Prague); the pass overran its call cap (defects `kp-pass-coordinate-clicks-overrun`, `kp-extract-location-multi-country`, open). No SERP reads, no Ahrefs units.
+- **Modules** copied from the de siblings, strings replaced; media unchanged. Mexico is new to every translation; its title says "música electrónica", not EDM, because the list is mixed, and carries "EDC" because "edc mexico" is the biggest bucket.
+- **Club pages** got layouts and baselines. `club-visit-baseline.mjs` now leaves the sibling's read-next thumbnails out (defect `club-baseline-read-next-thumbnails`, fixed). `articleTable` learned the Spanish club column header "Clubes que conviene conocer".
+- **Keyword maps.** Terms not on the page verbatim moved to `rejected` (27 across five maps), not wedged into prose.
+- **Review.** Six Sonnet reviews, 37 findings, 35 applied. One open item ruled: hardstyle gained the English "Hardstyle vs trance" section, which de and fr also lack. Europe H1 now carries the measured phrase (baseline re-recorded). None of the six first-pass reviews read ARTICLE-EDITORIAL-REVIEW.md and WRITING.md whole (defect `review-subagents-skip-rule-files`), so all six were re-run with those two Reads as their first calls, checked in each transcript: 22 findings, 14 applied by the reviewers. Open items ruled: Burial's Mercury nomination corrected to the 2008 prize in Spanish (the English error is logged for the owner); the wobble explanation stays, since it describes the sound to a listener and matches the English; the passed 718 Sessions date stays as a faithful translation, logged open for both pages.
+- **Audit fixes.** Mexico title cut to 59 chars; hardstyle description trimmed under 165.

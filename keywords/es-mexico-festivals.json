@@ -1,0 +1,52 @@
+{
+  "page": "es/festivales-musica-electronica-mexico.html",
+  "seed": "festivales de musica electronica en mexico",
+  "source": "Google Keyword Planner (account without ad spend, so ranges only), 12 November 2026, language Spanish, locations Mexico, Argentina, Colombia, Chile; Spain not measured for this seed set (call cap). No live SERP read for this batch. No Ahrefs units spent. A seed with no row is \"no data\", not zero.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {
+      "term": "edc mexico",
+      "volume": null,
+      "bucket": "10K–100K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "note": "title, EDC México H3; the name is taken by /es/edc-las-vegas, which covers it"
+    },
+    {
+      "term": "festivales de musica electronica en mexico",
+      "volume": null,
+      "bucket": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "note": "title, H1, answer, FAQ"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "edc cdmx",
+      "volume": "10K–100K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used verbatim; the page writes Ciudad de México; not used verbatim, not targeted"
+    },
+    {
+      "term": "festival de musica electronica en mexico",
+      "volume": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "covered by the plural wording; not used verbatim, not targeted"
+    },
+    {
+      "term": "festival electronica mexico",
+      "volume": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used verbatim; not used verbatim, not targeted"
+    },
+    {
+      "term": "festivales en mexico 2027",
+      "volume": "10–100 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "title year, dates H2; not used verbatim, not targeted"
+    },
+    {
+      "term": "festivales edm mexico",
+      "volume": "0–10 (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not used: the list is mixed, so EDM stays off the title (WRITING.md); not used verbatim, not targeted"
+    },
+    {
+      "term": "boletos edc mexico",
+      "volume": "100–1K (Keyword Planner bucket, Mexico, Argentina, Colombia, Chile)",
+      "why": "not targeted; ticket pages belong to the festival; not used verbatim, not targeted"
+    }
+  ]
+}

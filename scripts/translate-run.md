@@ -71,6 +71,7 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
    - Fix everything, then run this step again. Don't rebuild after each fix.
 10. **Review, one Sonnet subagent per page:**
     - Inputs: the translated draft, the English draft, the keyword map and `ARTICLE-EDITORIAL-REVIEW.md`.
+    - Its first two calls are `Read` of `ARTICLE-EDITORIAL-REVIEW.md` and `WRITING.md`, whole, with no `head`, `sed` or byte limit. Before accepting a result, the writer greps the subagent's transcript for those two `Read` calls; a review without both is re-run. In Spanish batch 1 none of six did it.
     - It runs the `humanizer` pass in the target language and checks the translation against the English for facts, names, dates and the measured phrases, which must stay word for word.
     - It writes `<lang>-<key>-review.md`. The writer does not rule on their own draft.
     - The same subagent applies the fixes it is sure of to the draft and the module: wording, grammar, facts checked against the English, and measured phrases put back word for word. It does not build. It does not touch registration files, the shared data files or another page.

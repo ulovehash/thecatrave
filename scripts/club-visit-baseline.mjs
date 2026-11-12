@@ -31,6 +31,11 @@ const entry = {
   ids: sibling.ids,
   media: sibling.media,
 };
+// The read-next cards come from each language's catalogue, so their thumbnails
+// are the sibling's, not the article's: leave them out of the new entry.
+const siblingHtml = fs.existsSync(siblingFile) ? fs.readFileSync(siblingFile, 'utf8') : '';
+const readNext = siblingHtml.match(/<section[^>]*class="[^"]*read-next[\s\S]*?<\/section>/)?.[0] || '';
+entry.media = entry.media.filter(src => !readNext.includes(`="${src}"`) && !readNext.includes(` ${src} `) || html.includes(`="${src}"`));
 const missing = Object.entries(entry).filter(([, v]) => v === undefined).map(([k]) => k);
 const ids = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]));
 const lostIds = entry.ids.filter(id => !ids.has(id));

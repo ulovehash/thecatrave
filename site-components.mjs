@@ -569,7 +569,7 @@ export function articleFigure({src, srcset = '', sizes = '(max-width: 760px) cal
 export function articleTable({headers = [], rows = [], className = '', label = ''} = {}) {
   const classes = ['genre-table', className].filter(Boolean).join(' ');
   const head = headers.map(cell => `<th scope="col">${cell}</th>`).join('');
-  const clubColumn = headers.findIndex(cell => ['club', 'boîte', 'clubs to know', 'clubs à connaître', 'clubs, die man kennen sollte'].includes(String(cell).replace(/<[^>]+>/g, '').trim().toLocaleLowerCase('fr')));
+  const clubColumn = headers.findIndex(cell => ['club', 'boîte', 'clubs to know', 'clubs à connaître', 'clubs, die man kennen sollte', 'clubes que conviene conocer'].includes(String(cell).replace(/<[^>]+>/g, '').trim().toLocaleLowerCase('fr')));
   let linkedRows = 0;
   const body = rows.map(row => {
     const cells = [...row];
