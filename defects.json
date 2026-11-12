@@ -2057,6 +2057,17 @@
         "file": "scripts/translate-run.md",
         "contains": "raises the hard-coded count in `audit-next-festival-guides.mjs`"
       }
+    },
+    {
+      "id": "translation-brief-omits-planner-and-club-baseline",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "scripts/translation-brief.mjs printed only the key line of a club sibling in content/club-visit-layouts.json and the canonical line of its content/club-visit-preservation.json entry, and nothing for festival planner blocks in content/festival-planning-data.mjs or the count in audit-next-festival-guides.mjs. German batch 1 spent 4.4M of 12.1M tokens on repo lookup, mostly grepping and sed-reading those files.",
+      "should_have_caught": "the first translation brief run on a club or festival page",
+      "fix": {
+        "file": "scripts/translation-brief.mjs",
+        "contains": "scripts/club-visit-baseline.mjs"
+      }
     }
   ]
 }

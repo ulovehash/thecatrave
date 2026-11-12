@@ -112,8 +112,35 @@ if (!sibling) {
     out.push(`      festival planner: add '/${lang}/<slug>' to paths and a ${lang} argument to every tri() in this entry`);
   }
   out.push(...grepLine('festival-editions.mjs', `'${sibling.file}'`));
-  out.push(...grepLine('content/club-visit-layouts.json', sibling.path));
-  out.push(...grepLine('content/club-visit-preservation.json', sibling.path));
+
+  // Festival planner: modules call localizedFestivalPlanning('<key>', lang),
+  // and the block lives in content/festival-planning-data.mjs, not the registry.
+  const siblingSrc = fs.existsSync(moduleOf(sibling).module) ? fs.readFileSync(moduleOf(sibling).module, 'utf8') : '';
+  const planKey = siblingSrc.match(/localizedFestivalPlanning\(\s*['"]([^'"]+)['"]/)?.[1];
+  if (planKey) {
+    const data = lines('content/festival-planning-data.mjs');
+    const start = data.findIndex(line => line.startsWith(`${sibling.lang}.${planKey} = {`) || line.startsWith(`data.${sibling.lang}.${planKey} = {`));
+    let end = start; while (end >= 0 && end < data.length - 1 && !/^\};\s*$/.test(data[end])) end++;
+    const target = data.findIndex(line => line.startsWith(`${lang}.${planKey} = {`) || line.startsWith(`data.${lang}.${planKey} = {`));
+    const anchor = data.findIndex(line => line.startsWith(`const ${lang} = data.${lang}`));
+    out.push(`  festival planner key '${planKey}': content/festival-planning-data.mjs`);
+    out.push(start >= 0
+      ? `      ${sibling.lang} block at lines ${start + 1}-${end + 1}: read those lines only (sed -n ${start + 1},${end + 1}p), translate, add as ${lang}.${planKey} = {...}`
+      : `      no ${sibling.lang}.${planKey} block found: the planner may be inherited (data.fr copies data.de); grep the key`);
+    out.push(target >= 0 ? `      ${lang}.${planKey} already exists at line ${target + 1}: check it, do not add a second`
+      : anchor >= 0 ? `      put it after line ${anchor + 1} (const ${lang} = data.${lang}), before \`const normalize\``
+      : `      no \`const ${lang} = data.${lang}\` line yet: add one before \`const normalize\``);
+    out.push(...grepLine('audit-next-festival-guides.mjs', 'individualFestivalPages.length !=='));
+    out.push('      raise that count, and its message, by one for each new festival page');
+  }
+
+  // Club pages: a layout entry, and a baseline written after the first build.
+  const layouts = fs.existsSync('content/club-visit-layouts.json') ? JSON.parse(fs.readFileSync('content/club-visit-layouts.json', 'utf8')) : {};
+  if (layouts[sibling.path]) {
+    out.push(`  content/club-visit-layouts.json  "${sibling.path}" (copy under "/${lang}/<slug>", translate only the titles; section IDs stay)`);
+    out.push(...JSON.stringify(layouts[sibling.path], null, 2).split('\n').map(line => `      ${line}`));
+    out.push(`  content/club-visit-preservation.json  after the first build: node scripts/club-visit-baseline.mjs ${lang}/<slug>.html ${sibling.file}`);
+  }
 }
 
 out.push('', 'Build and check, one Bash call');
