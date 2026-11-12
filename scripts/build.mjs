@@ -1,6 +1,6 @@
 // Rebuild every page from its generator. Zero-dependency, any Node version.
 
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { pages } from '../pages.mjs';
@@ -140,15 +140,30 @@ export const generators = [
   'scripts/build-sitemap.mjs',
 ].filter(file => fs.existsSync(file));
 
-export function build() {
+// quiet: drop the "Built …" / "Wrote …" lines and the generator names, keep
+// everything else (warnings such as the sitemap's dateModified note), and on a
+// failure print the failing generator's last 40 lines. `--quiet` on the
+// command line, or audit-all.mjs --quiet. About 15 KB less per run.
+export function build({ quiet = false } = {}) {
   const missing = pages.filter(page => !generators.includes(page.generator));
   if (missing.length) {
     throw new Error(`pages.mjs lists pages with no generator in the build order: ${missing.map(p => `${p.name} (${p.generator})`).join(', ')}`);
   }
   for (const file of generators) {
-    process.stdout.write(`▸ ${file}\n`);
-    execFileSync('node', [file], { stdio: 'inherit' });
+    if (!quiet) {
+      process.stdout.write(`▸ ${file}\n`);
+      execFileSync('node', [file], { stdio: 'inherit' });
+      continue;
+    }
+    const run = spawnSync('node', [file], { encoding: 'utf8', maxBuffer: 64 << 20 });
+    const out = `${run.stdout || ''}${run.stderr || ''}`;
+    if (run.status !== 0) {
+      process.stdout.write(`▸ ${file} FAILED\n${out.trimEnd().split('\n').slice(-40).join('\n')}\n`);
+      throw new Error(`${file} exited with ${run.status ?? run.signal}`);
+    }
+    const kept = out.split('\n').filter(line => line.trim() && !/^(Built|Wrote) /.test(line));
+    if (kept.length) process.stdout.write(`▸ ${file}\n${kept.join('\n')}\n`);
   }
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) build();
+if (import.meta.url === pathToFileURL(process.argv[1]).href) build({ quiet: process.argv.includes('--quiet') });

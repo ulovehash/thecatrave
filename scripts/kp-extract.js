@@ -4,6 +4,9 @@
 // Returns compact JSON; rows are TSV: section(S seed / I idea), keyword,
 // bucket code, 3-month change, YoY change, competition.
 // If it returns resume:true, paste it again: state lives on window.__kp.
+// A country/language pass (scripts/translate-run.md) first runs, in its own
+// call, window.KP_TARGET = { location: 'Germany', language: 'German' };
+// locationOk and languageOk then check that target. Default: All locations, English.
 await (async () => {
   const BUDGET_MS = 20000, MAX_PAGES = 20;
   const t0 = Date.now();
@@ -78,6 +81,9 @@ await (async () => {
     adultExcluded: /Exclude adult ideas/i.test(t),
     allLocations: /All locations/i.test(t),
     english: /English/.test(t),
+    target: (window.KP_TARGET || { location: 'All locations', language: 'English' }),
+    locationOk: t.includes((window.KP_TARGET || {}).location || 'All locations'),
+    languageOk: t.includes((window.KP_TARGET || {}).language || 'English'),
     legend: 'M 1M–10M, A 100K–1M, B 10K–100K, C 1K–10K, D 100–1K, E 10–100, F 0–10',
     tsv: rows.map((r) => r.join('\t')).join('\n'),
   };

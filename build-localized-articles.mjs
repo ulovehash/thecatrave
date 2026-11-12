@@ -313,7 +313,23 @@ export async function buildAllLocalizedArticles() {
   return built;
 }
 
+// `node build-localized-articles.mjs es/sonar de/sonar` builds only those
+// modules (content/<lang>/<name>.mjs), for the edit-and-check loop of a
+// translation. No arguments builds every module, as scripts/build.mjs does.
+async function buildOnly(keys) {
+  const built = [];
+  for (const key of keys) {
+    const file = path.join(CONTENT_DIR, `${key.replace(/\.mjs$/, '')}.mjs`);
+    if (!fs.existsSync(file)) throw new Error(`No content module ${file}`);
+    const module = await import(`./${file}`);
+    if (!module.default || typeof module.default !== 'object') throw new Error(`${file} exports no page`);
+    built.push(buildLocalizedArticle(module.default));
+  }
+  return built;
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const built = await buildAllLocalizedArticles();
+  const keys = process.argv.slice(2);
+  const built = keys.length ? await buildOnly(keys) : await buildAllLocalizedArticles();
   for (const file of built) console.log(`Built ${file}`);
 }

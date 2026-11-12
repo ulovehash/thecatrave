@@ -2013,6 +2013,28 @@
         "file": "audit-wikipedia-body.mjs",
         "contains": "Wikipedia named in guide body"
       }
+    },
+    {
+      "id": "draft-lint-whole-set-english-only",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "scripts/lint-draft.mjs failed a draft only for English \"full/complete/whole set\" wording. The owner's rule covers the idea in every language, so a German, French or Spanish draft saying \"das komplette Set\", \"le set complet\" or \"la sesión completa\" passed the lint. None of the 174 translated drafts contains such wording today. Found while writing scripts/translate-run.md.",
+      "should_have_caught": "scripts/lint-draft.mjs, which had only the English pattern",
+      "fix": {
+        "file": "scripts/lint-draft.mjs",
+        "contains": "DJ set described as whole, German, French or Spanish"
+      }
+    },
+    {
+      "id": "draft-lint-misses-localized-sources-heading",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "scripts/lint-draft.mjs ends the body at \"## Sources\" or \"## Further reading\" only, so on German and Spanish drafts the \"## Quellen\" and \"## Fuentes\" lists counted as body, and 25 credit lines naming Wikipedia failed as \"Wikipedia named in the body\" across 10 drafts. A false failure trains the writer to ignore the lint.",
+      "should_have_caught": "a run of the lint over the translated drafts when it was written",
+      "fix": {
+        "file": "scripts/lint-draft.mjs",
+        "contains": "Quellen|Fuentes"
+      }
     }
   ]
 }

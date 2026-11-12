@@ -5,6 +5,10 @@ never the Browser pane. The phonk trial's pass took 61 calls and 6.45M tokens.
 Context grew to 165k because of DOM exploration, page-text dumps and rows
 printed in chunks. This sequence is about 15 calls and should stay under 1M.
 
+For a translation, the pass targets a country and a language instead of all
+locations and English: see "Keyword Planner, country and language" in
+`scripts/translate-run.md`.
+
 ## Hard limits
 
 - **Cap: 18 browser calls.** At the cap, stop and report what failed. Don't improvise.

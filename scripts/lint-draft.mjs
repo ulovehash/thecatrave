@@ -28,13 +28,15 @@ if (!draftFile) { console.error('usage: node scripts/lint-draft.mjs <draft.md> [
 
 const lines = fs.readFileSync(draftFile, 'utf8').split('\n');
 // The Sources section, if a draft has one, may name Wikipedia; nothing after it is body.
-const bodyEnd = (() => { const i = lines.findIndex(l => /^## (Sources|Further reading)\b/i.test(l)); return i < 0 ? lines.length : i; })();
+const bodyEnd = (() => { const i = lines.findIndex(l => /^## (Sources|Further reading|Quellen|Fuentes)\b/i.test(l)); return i < 0 ? lines.length : i; })();
 const isMedia = l => /^\[(Image|Embed|Table):/.test(l);
 
 const FAIL = [
   ['Wikipedia named in the body (ARTICLE-EDITORIAL-REVIEW.md section 0): state the fact', /\bWikipedia\b/],
   ['process or housekeeping note: cut it', /\bcould(?: not|n't) be found\b|\bno (?:upload|player|embed|video) (?:from|could|was)\b|\bwithout a player\b|\bis named here\b|\bfrom (?:the artist's|its|their|his|her) own channel\b|\bthe (?:ledger|media record|keyword file|draft)\b|\bsearch volume\b|\bKeyword Planner\b|\bAhrefs\b|\bthis (?:guide|page|article|section) (?:will|does|doesn't|did)\b/i],
   ['DJ set described as whole (WRITING.md; no "full" set)', /\b(?:full|complete|whole|entire|uninterrupted|unedited)\s+(?:DJ\s+)?(?:sets?|mix(?:es)?|recordings?|hour)\b|\bin (?:its )?full\b/i],
+  // The same idea in the translations' languages (owner, any language). \p{L} guards, because \b ends at é.
+  ['DJ set described as whole, German, French or Spanish (WRITING.md)', /\b(?:komplett|vollständig|ganz|ungekürzt|ungeschnitten)\p{L}*\s+(?:DJ-)?(?:Sets?|Mix(?:e|es)?|Aufnahmen?)(?!\p{L})|\bin voller Länge(?!\p{L})|\b(?:sets?|mix|enregistrements?)\s+(?:DJ\s+)?(?:complets?|entiers?|intégra(?:l|ux|les?))(?!\p{L})|\b(?:dans son|en) intégralité(?!\p{L})|\b(?:sets?|sesi(?:ón|ones)|mezclas?|grabaci(?:ón|ones))\s+(?:de DJ\s+)?(?:complet[oa]s?|enter[oa]s?|íntegr[oa]s?)(?!\p{L})|\ben su totalidad(?!\p{L})/iu],
   ['production teaching or file hand-out (WRITING.md)', /\bsample packs?\b|\bdrum kits?\b|\bloop packs?\b|\bMIDI (?:files?|packs?|downloads?)\b|\bstems\b|\bhow to make\b|\b(?:in|using) (?:FL Studio|Ableton|Logic Pro)\b|\bsidechain\w*\b|\bchop(?:ping)? (?:the |a )?samples?\b|\bfree download\b/i],
 ];
 

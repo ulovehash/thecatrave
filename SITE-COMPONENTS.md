@@ -180,6 +180,10 @@ A page's own editorial copy never comes from there.
   the metadata, section list, assets, sources and CTA copy.
   `build-localized-articles.mjs` renders every content module under `content/`,
   so a further translation is two new files and no new generator.
+  `node build-localized-articles.mjs es/sonar` builds only the modules named,
+  for the edit-and-check loop. `node scripts/translation-brief.mjs <page> <lang>`
+  prints the sibling and registration lines a new translation copies, and
+  `scripts/translate-run.md` fixes the order of the work.
 - Guides not shaped like a festival guide use the same generator. The English
   genre guides place listening blocks by paragraph index in code; the German
   draft places them with `[Embed: <key>]` lines at the same positions, and the
