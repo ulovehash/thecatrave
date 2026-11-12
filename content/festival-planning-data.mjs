@@ -278,6 +278,54 @@ de.defqon = {
   links:[['Offizielle Website','https://www.q-dance.com/network/defqon-1'],['FAQ 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Defqon.1 bei Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']]
 };
 
+fr.timewarp = {
+  festivalName:'Time Warp Mannheim 2027',
+  intro:'Time Warp Mannheim se déroule du 3 avril 2027 à 19 h au 4 avril à 14 h. Comptez sur un événement de 19 heures en intérieur et un retour le matin, pas sur une nuit de club ordinaire.',
+  ticketIntro:'Prix d’avant programmation de la boutique officielle de Mannheim, frais compris. Ils peuvent augmenter aux phases suivantes.', ticketColumns:['Pass','Prix'],
+  ticketRows:[['Blue Pass (Experience)','Billet d’entrée, 6,50 € de frais compris','79 €'],['Silver Pass (Comfort)','Pass intermédiaire, 15 € de frais compris','169 €'],['Gold Pass','Pass le plus élevé, 20 € de frais compris','229 €'],['Vestiaire','Prix pour l’événement non publié','Non publié']],
+  ticketNote:'Achetez uniquement dans la boutique officielle de Time Warp. Entrée à partir de 18 ans.',
+  routes:[['Tramway 6/6A jusqu’à Maimarkt','L’arrêt se trouve à l’entrée du Maimarkt. Vérifiez à l’avance le service de nuit et les bus de renfort pour l’événement.','Arrêt Maimarkt sur Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkt+Mannheim+tram+stop'],['Train jusqu’à Mannheim Hbf, puis tramway','À la gare centrale, prenez les transports signalés pour l’événement et enregistrez le retour du dimanche matin.','Mannheim Hbf sur Google Maps','https://www.google.com/maps/search/?api=1&query=Mannheim+Hauptbahnhof'],['Voiture jusqu’au parking officiel du Maimarkt','Suivez la signalisation près de la Xaver-Fuhr-Straße et prévoyez un conducteur sobre après autant d’heures.','Maimarkthalle sur Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']],
+  routeNote:'Les horaires de tramway et les renforts pour la nuit de l’événement paraîtront plus tard. Vérifiez les tarifs VRN.',
+  accommodation:['Il n’y a pas de camping. Un hôtel près de Mannheim Hbf ou sur la ligne de tramway est le plus simple pour le retour, quand l’événement se termine le dimanche à 14 h.','Site officiel de Time Warp Mannheim','https://www.time-warp.de/germany/mannheim/'],
+  spending:['Les prix de la nourriture et des boissons 2027 ne sont pas publiés. Prévoyez une nuit et une matinée en intérieur, avec l’eau, la nourriture, le vestiaire et le retour.',[['Pass le moins cher','79 €'],['Nourriture et boissons','Prix non publiés'],['Transports en commun','Tarif VRN en vigueur']],'Billets Time Warp','https://www.time-warp.de/tickets/'],
+  rulesNote:'Time Warp Mannheim est réservé aux 18 ans et plus. L’événement est prévu du samedi 19 h au dimanche 14 h. Vérifiez avant de partir les règles définitives sur les sacs, la pièce d’identité et la réentrée.',
+  packing:['Pièce d’identité avec photo et billet enregistré hors ligne','Bouchons d’oreilles et batterie externe','Des chaussures confortables pour 19 heures sur la piste','Une veste légère pour le trajet du matin','L’itinéraire en transports enregistré hors ligne'],
+  avoid:['Les sacs grands ou non conformes','L’alcool apporté et les boissons ouvertes','Les appareils photo professionnels, les drones et les armes','Compter sur une réentrée'],
+  links:[['Site officiel','https://www.time-warp.de/germany/mannheim/'],['Billets','https://www.time-warp.de/tickets/'],['Maimarkthalle sur Google Maps','https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim']]
+};
+
+fr.fusion = {
+  festivalName:'Fusion Festival 2028',
+  intro:'Il n’y a pas de Fusion Festival en 2027. La prochaine édition annoncée a lieu du 28 juin au 2 juillet 2028 ; le tirage au sort et les prix ne sont pas encore publiés.',
+  ticketIntro:'État officiel. Ce sont des états, pas des estimations : il n’existe pas de prix pour 2028.', ticketColumns:['Édition ou produit','État actuel'],
+  ticketRows:[['Fusion 2027','Année officielle sans festival','Pas d’événement'],['Fusion 2028','Du 28 juin au 2 juillet 2028','Vente non annoncée'],['Billet supplémentaire véhicule ou camping-car 2028','Détails non publiés','Non publié']],
+  ticketNote:'N’achetez aucun prétendu billet pour 2027. Pour l’inscription et le tirage au sort 2028, abonnez-vous à la lettre d’information officielle.',
+  routes:[['Train jusqu’à Neustrelitz, puis navette du festival','La navette n’est accessible qu’avec un billet valide. Attendez les consignes de réservation pour 2028.','FAQ officielle','https://fusion-festival.de/en/faq'],['Train jusqu’à Waren, puis l’itinéraire taxi du festival','La FAQ cite Waren pour ceux qui viennent de Rostock. Vérifiez les taxis et les navettes pour 2028.','Gare de Waren sur Google Maps','https://www.google.com/maps/search/?api=1&query=Waren+Muritz+railway+station'],['Voiture ou bus organisé jusqu’à l’aérodrome de Lärz','Le camping en véhicule et le stationnement demandent le billet supplémentaire adapté et la bonne porte. N’utilisez pas une carte véhicule de 2026 pour 2028.','Site sur Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']],
+  routeNote:'Les horaires des trains spéciaux et des navettes 2028 ne sont pas publiés.',
+  accommodation:['Fusion est un festival avec camping sur l’aérodrome. Les zones de camping, les zones véhicules et les règles des billets supplémentaires 2028 paraîtront avec la prochaine vente.','Site officiel du Fusion Festival','https://fusion-festival.de/en/'],
+  spending:['Il n’y a pas de carte de nourriture et de boissons 2027, puisqu’il n’y a pas d’événement. Ne bâtissez pas un budget 2028 sur les prix 2026 des jetons, du véhicule ou du dimanche.',[['Billet 2026 (référence)','220 € avec 10 € de consigne'],['Nourriture et boissons','Prix 2028 non publiés'],['Navette depuis Neustrelitz (2026)','6 € le trajet']],'Billetterie de Fusion','https://tickets.fusion-festival.de/'],
+  rulesNote:'La page billetterie officielle qualifie 2027 d’année sans Fusion. Abonnez-vous à la lettre d’information officielle pour savoir comment se dérouleront la vente et le tirage 2028, plutôt que d’acheter un prétendu billet pour 2027.',
+  packing:['Une pièce d’identité avec photo prouvant vos 18 ans','Tente, sac de couchage, tapis de sol et lampe frontale','Gourde réutilisable, bouchons d’oreilles et batterie externe','Protection contre la pluie, protection solaire et chaussures solides','Seulement les bagages que vous pouvez porter depuis la navette'],
+  avoid:['Les animaux et les drones','Les feux d’artifice, les lanternes célestes, les feux de camp et les barbecues au charbon','Les drapeaux nationaux','Les photos dans les zones sans photo','Arriver avant le mercredi sans solution d’hébergement'],
+  links:[['Site officiel','https://fusion-festival.de/en/'],['Billetterie','https://tickets.fusion-festival.de/'],['FAQ','https://fusion-festival.de/en/faq'],['Aérodrome sur Google Maps','https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany']]
+};
+
+fr.defqon = {
+  festivalName:'Defqon.1 2027',
+  intro:'Pour Defqon.1 2027, le billet, l’hébergement au camping, le parking et les transferts sont séparés. Une réservation Travel and Stay n’inclut pas automatiquement un billet pour le festival.',
+  ticketIntro:'État officiel de Q-dance. Ce sont des états, pas des estimations : il n’existe pas de prix pour 2027.', ticketColumns:['Produit','État actuel'],
+  ticketRows:[['Billet week-end 2027','Quatre jours avec The Gathering et accès au camping','À vérifier dans la boutique'],['Billet journée','Vendredi, samedi ou dimanche','À vérifier dans la boutique'],['Hébergement Travel and Stay','Billet non inclus automatiquement','Produit distinct'],['Parking ou transfert','Selon le camping ou l’hôtel','Supplément distinct']],
+  ticketNote:'Ceux qui ont gardé un billet 2026 conservent le prix de 2026. Les hébergements et suppléments remboursés doivent être réservés à nouveau.',
+  routes:[['Navette officielle ou bus organisé jusqu’à Biddinghuizen','Choisissez l’itinéraire que la boutique propose en 2027 et réservez l’aller et le retour. La nuit, les transports publics sont rares.','FAQ officielle 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Navette des formules en parc de vacances','Les formules en parc de vacances incluent une navette toutes les heures jusqu’à 2 h ; les transferts hôtel circulent une fois par jour à heures fixes.','FAQ Travel and Stay','https://www.q-dance.com/l/defqon1-2027-faq'],['Voiture jusqu’au parking attribué des Holy Grounds','Le parking normal et le Priority sont des produits différents. Le pass parking ne remplace pas une réservation de camping.','Defqon.1 sur Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']],
+  routeNote:'Les horaires des navettes 2027 ne sont pas encore publiés.',
+  accommodation:['Le billet week-end donne accès au camping avec votre propre tente. Friends Camp réserve un emplacement, mais pas d’équipement. Les tentes montées, les cabanes et les hôtels sont des produits distincts.','FAQ officielle 2027','https://www.q-dance.com/l/defqon1-2027-faq'],
+  spending:['Les prix 2027 de la nourriture, des boissons et des jetons ne sont pas publiés. Comptez séparément le billet, l’hébergement, le parking ou le transfert, les casiers et les dépenses sur le site.',[['Billet week-end','Prix non publié'],['Nourriture et boissons','Prix non publiés'],['Navette depuis Dronten (2026)','12,50 € en ligne']],'Billets Defqon.1','https://www.q-dance.com/l/defqon1-2027-faq'],
+  rulesNote:'Les billets 2026 conservés valent seulement comme billet 2027. L’hébergement et les suppléments remboursés doivent être réservés à nouveau. Vérifiez chaque article du panier avant de payer. Âge minimum 18 ans avec une pièce d’identité originale.',
+  packing:['Passeport, carte d’identité ou permis de conduire original','Tente, sac de couchage, tapis de sol et lampe frontale','Gourde réutilisable, bouchons d’oreilles et batterie externe','Protection solaire et une couche pour la forte chaleur','Seulement les bagages que vous pouvez porter depuis la navette'],
+  avoid:['Les copies de la pièce d’identité','Les drogues de toute sorte, marijuana et haschich compris','Réserver un hébergement en supposant que le billet est inclus','Supposer qu’un remboursement de 2026 se reporte sur 2027'],
+  links:[['Site officiel','https://www.q-dance.com/network/defqon-1'],['FAQ 2027','https://www.q-dance.com/l/defqon1-2027-faq'],['Defqon.1 sur Google Maps','https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen']]
+};
+
 const normalize = value => ({
   ...value,
   ticketRows: value.ticketRows.map(([label,note,price]) => ({label,note,price})),

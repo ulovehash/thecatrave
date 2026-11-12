@@ -1,0 +1,13 @@
+{
+  "page": "fr/printworks-london.html",
+  "seed": "printworks london",
+  "source": "Google Keyword Planner, France, French, 12 November 2026 (buckets only). Google fr-FR SERP returned a bot check (429); Bing fr-FR once, no People also ask, English titles. Wording from Keyword Planner only.",
+  "terms": [
+    {"term": "printworks london", "volume": null, "bucket": "100–1K", "note": "head term; title, answer, hero. French searchers keep the English name"},
+    {"term": "printworks londres", "volume": null, "bucket": "100–1K", "note": "body and description"},
+    {"term": "drumsheds", "volume": null, "bucket": "100–1K", "note": "Drumsheds H2 and table"},
+    {"term": "réouverture de printworks london", "volume": null, "note": "not measured; official H2"},
+    {"term": "capacité de printworks", "volume": null, "note": "not measured; FAQ, kept from the German sibling"}
+  ],
+  "rejected": []
+}

@@ -2068,6 +2068,74 @@
         "file": "scripts/translation-brief.mjs",
         "contains": "scripts/club-visit-baseline.mjs"
       }
+    },
+    {
+      "id": "kp-run-no-reload-budget-for-second-seed-set",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "French batch 1 Keyword Planner pass: the Ads page rendered blank twice and the re-navigation cost 4 of the 18 calls, so the second seed set (Defqon.1, Fusion, Time Warp) never ran and the three festival maps went out as not measured. scripts/kp-run.md gives a cap but no budget for a blank-page reload and no rule for when a second seed set may start.",
+      "should_have_caught": "the German batch, whose festival maps were also not measured",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "the second set runs only if 6 calls remain"
+      }
+    },
+    {
+      "id": "de-defqon-toc-label-spanish",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "content/de/defqon-1.mjs gives the dates section the Spanish tocLabel \"Fechas de 2027\" on a German page. Found while translating French batch 1; the fr copy says \"Dates 2027\". The de page is published copy, so the wording change goes to the owner first.",
+      "should_have_caught": "the German review subagent and the draft lint, which does not read tocLabel",
+      "fix": null
+    },
+    {
+      "id": "de-time-warp-editions-row-spanish-and-wrong-date",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "content/de/time-warp-festival.mjs, editions table, TW x EDC Colombia row: date \"12. November 2026\" where the English draft and es say 10 October 2026, and the status cell is Spanish (\"Un escenario Neon Garden\"). Found while translating French batch 1; the fr copy carries the English facts. The de page is published copy, so the change goes to the owner first.",
+      "should_have_caught": "the German review subagent; no audit compares table cells across languages",
+      "fix": null
+    },
+    {
+      "id": "planner-clone-misses-later-festival-blocks",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "content/festival-planning-data.mjs deep-copies data.de into data.fr at about line 76, but de.timewarp, de.fusion and de.defqon are added further down, after the copy. French batch 1 therefore had no fr planner for the three festivals, and scripts/translate-run.md step 8 only says to copy the sibling's block where there is no registry path, not that a cloned language misses every block added below its clone line.",
+      "should_have_caught": "the translation brief, which prints the planner block's line range but not whether the target language already has the block",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "copies only the blocks above its clone line"
+      }
+    },
+    {
+      "id": "club-baseline-stale-after-description-edit",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "French batch 1: the club-visit baseline for fr/meilleur-club-du-monde.html was recorded, then the SEO audit forced a shorter description, and audit-club-visits failed with 'preserved description' because the baseline still held the old one. Step 8 says to write the baseline after the first build, not to re-record it after a title, description or H1 change.",
+      "should_have_caught": "scripts/translate-run.md step 8",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "re-record the baseline after any change to the title, description or H1"
+      }
+    },
+    {
+      "id": "keyword-map-page-field-and-apostrophes",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "French batch 1: three keyword maps gave \"page\" as the URL path (/fr/fusion-festival) and failed as 'page does not exist'; the Europe map wrote d' with a straight apostrophe, which audit-keywords.mjs does not normalise, so six terms read as absent from a page that prints d’. The run sheet names the map but not its \"page\" form or the apostrophe.",
+      "should_have_caught": "scripts/translate-run.md step 7",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "\"page\" is the built file, such as fr/defqon-1.html"
+      }
+    },
+    {
+      "id": "localized-faq-schema-strips-asterisk",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "build-localized-articles.mjs drops a literal * from FAQ answers in the FAQPage JSON-LD but keeps it in the visible answer, so \"ACE*Mission\" in fr/time-warp-festival-draft.md failed faqStructuredDataMatchesVisibleContent. The fr FAQ now says \"ACE Mission\", as de and es do; the English builder keeps the asterisk in both.",
+      "should_have_caught": "the localized builder, which treats a lone * as emphasis markup in the schema text only",
+      "fix": null
     }
   ]
 }

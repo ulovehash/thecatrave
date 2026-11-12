@@ -12,6 +12,7 @@ locations and English: see "Keyword Planner, country and language" in
 ## Hard limits
 
 - **Cap: 18 browser calls.** At the cap, stop and report what failed. Don't improvise.
+- A blank Ads page costs one re-navigate, counted in the cap. With two seed sets, the second set runs only if 6 calls remain after the first; otherwise report it unrun, with its seeds.
 - Don't use `get_page_text`, `read_page` without a `ref_id`, or `computer` scroll.
 - No screenshots. The one exception is a single screenshot at `scale: 0.3` when a step fails.
 - Don't write exploratory JavaScript against the results table. `scripts/kp-extract.js` is the only reader.

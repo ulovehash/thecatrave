@@ -606,5 +606,22 @@
       "instead"
     ],
     "title": "Printworks: Schließung und Wiedereröffnung"
+  },
+  "/fr/meilleur-club-du-monde": {
+    "sections": [
+      "exclusive"
+    ]
+  },
+  "/fr/meilleurs-clubs-europe": {
+    "sections": [
+      "europe-clubs"
+    ]
+  },
+  "/fr/printworks-london": {
+    "sections": [
+      "coming-back",
+      "instead"
+    ],
+    "title": "Printworks : fermeture et réouverture"
   }
 }

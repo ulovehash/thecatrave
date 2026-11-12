@@ -1,0 +1,14 @@
+{
+  "page": "fr/defqon-1.html",
+  "seed": "defqon.1 2027",
+  "source": "Not measured: the 12 November 2026 Keyword Planner pass (France, French) ran only the clubs seed set within its call cap. Wording from Google fr-FR SERP the same day. No data is not zero.",
+  "terms": [
+    {"term": "defqon.1 2027", "volume": null, "note": "not measured; title, H1, dates H2"},
+    {"term": "billetterie defqon.1", "volume": null, "note": "not measured; related search; tickets H2"},
+    {"term": "billets defqon.1", "volume": null, "note": "not measured; related search; tickets H3"},
+    {"term": "dates de defqon.1 2027", "volume": null, "note": "not measured; related search; dates H2"},
+    {"term": "pourquoi le defqon.1 a été annulé", "volume": null, "note": "not measured; PAA; FAQ"},
+    {"term": "quelle est la date de defqon.1 en 2027", "volume": null, "note": "not measured; PAA; FAQ"}
+  ],
+  "rejected": []
+}

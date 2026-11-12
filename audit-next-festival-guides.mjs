@@ -56,7 +56,7 @@ for (const file of individualFestivalPages) {
   if (html.includes('class="festival-last-checked"')) failures.push(`${file}: planner prints a check date; live pages state facts, not when they were read`);
 }
 
-if (individualFestivalPages.length !== 96) failures.push(`festival inventory: expected 96 individual guide variants, found ${individualFestivalPages.length}`);
+if (individualFestivalPages.length !== 99) failures.push(`festival inventory: expected 99 individual guide variants, found ${individualFestivalPages.length}`);
 
 for (const file of roundups) {
   if (!fs.existsSync(file)) continue;

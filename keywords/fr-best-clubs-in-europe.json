@@ -1,0 +1,42 @@
+{
+  "page": "fr/meilleurs-clubs-europe.html",
+  "seed": "meilleurs clubs d'europe",
+  "source": "Google Keyword Planner, France, French, 12 November 2026 (buckets only); wording from Google fr-FR SERP, 12 November 2026",
+  "terms": [
+    {
+      "term": "meilleurs clubs d’europe",
+      "volume": null,
+      "bucket": "10–100",
+      "note": "title and H1; SERP is football, so the copy pairs it with boîtes de nuit"
+    },
+    {
+      "term": "meilleures boîtes de nuit d’europe",
+      "volume": null,
+      "bucket": "0–10",
+      "note": "country H2"
+    },
+    {
+      "term": "plus grands clubs d’europe",
+      "volume": null,
+      "note": "not measured; size H2"
+    },
+    {
+      "term": "meilleurs clubs techno d’europe",
+      "volume": null,
+      "note": "not measured; techno H2"
+    },
+    {
+      "term": "10 meilleurs clubs d’europe",
+      "volume": null,
+      "note": "not measured; FAQ"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "boîte de nuit europe",
+      "volume": null,
+      "bucket": "0–10",
+      "reason": "Keyword Planner bucket 0–10, France; not worth bending the prose"
+    }
+  ]
+}

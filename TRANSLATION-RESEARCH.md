@@ -517,3 +517,15 @@ Best nightclubs in the world, best clubs in Europe, Printworks, Defqon.1, Fusion
 - **Club pages** needed layouts in `club-visit-layouts.json` and baselines in `club-visit-preservation.json` (run sheet now says so; defects logged).
 - **Review.** Six Sonnet reviews, 53 findings, 43 applied. Rejected: deleting es-derived sections and FAQs (Madrid cancellation, extra FAQs), dropping mapped keyword sentences or headings.
 - **Audit fixes.** "beste clubs der welt" placed in the intro; figures moved off listening blocks; Printworks title/description trimmed.
+
+### French batch 1 (12 November 2026)
+
+Best nightclubs in the world, best clubs in Europe, Printworks, Defqon.1, Fusion, Time Warp.
+
+- **Method.** One Keyword Planner pass for France (buckets only, 17 browser calls; seed set B unrun); one google.fr SERP per page (Printworks hit a 429). Festival and Printworks maps carry `volume: null`, SERP-sourced.
+- **Modules** copied from the de siblings, strings replaced; media unchanged.
+- **Festival planner.** The planner clone copied only the blocks above its clone line, so fr.timewarp/fusion/defqon were added by hand; `audit-next-festival-guides.mjs` count raised to 99.
+- **Club pages** got layouts and baselines; baselines re-recorded after description edits (run sheet now says so).
+- **Keyword maps.** `page` must be the built file; terms must use ’ as the draft does; generic "billets"/"programmation" moved to rejected for the festival-specific phrasing.
+- **Review.** Six Sonnet reviews, 124 findings, 82 applied. Rejected: deleting sibling-derived sections (Madrid, planners, own-mix embeds, table keys), process notes such as "cette page ne donne ni l’un ni l’autre", gendered rewrites, unverified hedges.
+- **Audit fixes.** Bridge sentences moved off listening blocks; three descriptions trimmed under 165; "ACE*Mission" kept in the table only, since the localized FAQ schema strips the asterisk (defect logged, open).

@@ -1,0 +1,19 @@
+{
+  "page": "fr/meilleur-club-du-monde.html",
+  "seed": "meilleur club du monde",
+  "source": "Google Ads Keyword Planner (owner's account, Claude in Chrome), 12 November 2026, location France, language French; volume buckets only (100–1K, 10–100, 0–10). Wording also from Google fr-FR live SERP and People also ask, same day. No data is not zero.",
+  "terms": [
+    {"term": "meilleur club du monde", "volume": null, "bucket": "100–1K", "note": "title, H1, intro, FAQ"},
+    {"term": "plus grande boîte de nuit du monde", "volume": null, "bucket": "10–100", "note": "biggest H2 and FAQ"},
+    {"term": "meilleures boîtes de nuit du monde", "volume": null, "bucket": "0–10", "note": "ranking H2, answer; SERP titles use it"},
+    {"term": "meilleurs clubs du monde", "volume": null, "note": "region H2, FAQ; not measured, SERP titles"},
+    {"term": "meilleur club techno du monde", "volume": null, "note": "techno H2 and FAQ, People also ask; not measured"},
+    {"term": "5 meilleurs clubs du monde", "volume": null, "note": "FAQ, People also ask 'Quels sont les 5 meilleurs club du monde ?'; not measured"},
+    {"term": "clubs les plus exclusifs du monde", "volume": null, "note": "H2; not measured"}
+  ],
+  "rejected": [
+    {"term": "meilleures discothèques du monde", "reason": "Keyword Planner 0–10; the page says boîtes de nuit"},
+    {"term": "meilleur club de foot du monde", "reason": "football intent (100–1K)"},
+    {"term": "meilleur club du monde 2022", "reason": "football intent, dated"}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "page": "fr/time-warp-festival.html",
+  "seed": "time warp 2027",
+  "source": "Google fr-FR SERP, 12 November 2026 (related searches); Keyword Planner festival seeds not run in this batch",
+  "terms": [
+    {
+      "term": "time warp 2027",
+      "volume": null,
+      "note": "not measured; title and dates H2"
+    },
+    {
+      "term": "time warp mannheim 2027",
+      "volume": null,
+      "note": "not measured; SERP related search; dates body"
+    },
+    {
+      "term": "billets et pass pour time warp",
+      "volume": null,
+      "note": "not measured; French form of the related search \"time warp billets\"; tickets H2"
+    },
+    {
+      "term": "la programmation de time warp",
+      "volume": null,
+      "note": "not measured; French form of the related search \"time warp programmation\"; lineup H2"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "time warp billets",
+      "volume": null,
+      "reason": "not measured; related-search word order does not read as French prose; the H2s carry the French form"
+    },
+    {
+      "term": "time warp programmation",
+      "volume": null,
+      "reason": "not measured; related-search word order does not read as French prose; the H2s carry the French form"
+    }
+  ]
+}
