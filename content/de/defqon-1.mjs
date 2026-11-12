@@ -56,7 +56,7 @@ export default {
 
   sections: [
     {id: 'what-is', heading: 'Was ist das Defqon.1 Festival?', title: 'Was ist das Defqon.1 Festival?', tocLabel: 'Was ist Defqon.1?'},
-    {id: 'dates', heading: 'Defqon.1 2027 Termine', title: 'Defqon.1 2027 Termine', tocLabel: 'Fechas de 2027'},
+    {id: 'dates', heading: 'Defqon.1 2027 Termine', title: 'Defqon.1 2027 Termine', tocLabel: 'Termine 2027'},
     {id: 'tickets', heading: 'Defqon.1 Tickets', title: 'Defqon.1 Tickets', tocLabel: 'Tickets und Vorverkauf'},
     {id: 'cancelled', heading: 'Defqon.1 2026 abgesagt', title: 'Defqon.1 2026 abgesagt', tocLabel: 'Absage 2026'},
     {id: 'lineup', heading: 'Defqon.1 Line-up', title: 'Defqon.1 Line-up', tocLabel: 'Line-up und Sets'},

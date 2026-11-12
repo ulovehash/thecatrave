@@ -103,7 +103,7 @@ export default {
         ['Time Warp Miami', 'Factory Town, Miami', '25. April 2026', 'Stattgefunden'],
         ['Time Warp Brasil', 'Neo Química Arena, São Paulo', '1. und 2. Mai 2026', 'Stattgefunden'],
         ['Time Warp Spain', 'IFEMA Madrid, Halle 12', '18. und 19. September 2026', 'Abgesagt, Tickets erstattet'],
-        ['TW x EDC Colombia', 'Atanasio Girardot Sports Complex, Medellín', '12. November 2026', 'Un escenario Neon Garden'],
+        ['TW x EDC Colombia', 'Atanasio Girardot Sports Complex, Medellín', '10. Oktober 2026', 'Eine Neon-Garden-Bühne'],
         ['Time Warp Mexico', 'Expo Santa Fe, Mexiko-Stadt', '20. und 21. November 2026', 'Kommend, Tickets im Verkauf'],
         ['Time Warp New York', 'Duggal Greenhouse und Agger Building, New York', '20. und 21. November 2026', 'Kommend, als Save the Date markiert'],
         ['Time Warp Los Angeles', 'ACE Mission, Los Angeles', '27. und 28. November 2026', 'Kommend, Tickets im Verkauf']

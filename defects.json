@@ -2086,7 +2086,10 @@
       "by": "agent",
       "what": "content/de/defqon-1.mjs gives the dates section the Spanish tocLabel \"Fechas de 2027\" on a German page. Found while translating French batch 1; the fr copy says \"Dates 2027\". The de page is published copy, so the wording change goes to the owner first.",
       "should_have_caught": "the German review subagent and the draft lint, which does not read tocLabel",
-      "fix": null
+      "fix": {
+        "file": "content/de/defqon-1.mjs",
+        "contains": "tocLabel: 'Termine 2027'"
+      }
     },
     {
       "id": "de-time-warp-editions-row-spanish-and-wrong-date",
@@ -2094,7 +2097,10 @@
       "by": "agent",
       "what": "content/de/time-warp-festival.mjs, editions table, TW x EDC Colombia row: date \"12. November 2026\" where the English draft and es say 10 October 2026, and the status cell is Spanish (\"Un escenario Neon Garden\"). Found while translating French batch 1; the fr copy carries the English facts. The de page is published copy, so the change goes to the owner first.",
       "should_have_caught": "the German review subagent; no audit compares table cells across languages",
-      "fix": null
+      "fix": {
+        "file": "content/de/time-warp-festival.mjs",
+        "contains": "'10. Oktober 2026', 'Eine Neon-Garden-Bühne'"
+      }
     },
     {
       "id": "planner-clone-misses-later-festival-blocks",
