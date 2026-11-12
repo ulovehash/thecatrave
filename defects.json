@@ -2216,6 +2216,39 @@
       "by": "agent (es review)",
       "what": "nyc-clubs-draft.md (published /best-clubs-in-nyc) says 718 Sessions \"returns to Good Room on 11 October\"; that date has passed. The Spanish es/nyc-clubs-draft.md carries the same line (\"vuelve a Good Room el 11 de octubre\") as a faithful translation. Both need a dated rewrite once the owner approves wording for the English.",
       "should_have_caught": "a check for future-tense dated events in guides; none exists"
+    },
+    {
+      "id": "translation-batch-writes-in-main-context",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "German, French and Spanish batch 1 cost 2.0M, 3.3M and 4.4M a page with the same cost per step (122–134k average context) and the same translation output (125–137k tokens). Only the step count grew: 78, 126, 140. All six pages were read, written, built and fixed in one main context that carried every earlier page, so each extra step paid about 130k. Spanish spent 11.7M in 91 steps before its reviews began.",
+      "should_have_caught": "scripts/translate-run.md steps 5–9",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "one Opus writer subagent per page"
+      }
+    },
+    {
+      "id": "kp-second-pass-reuses-subagent",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "Spanish batch 1 sent the Spain Keyword Planner subagent back for the Latin America pass, so the second pass carried the first one's context: 39 steps at up to 123k, 3.7M, against 1.5M for one German pass.",
+      "should_have_caught": "scripts/translate-run.md, Keyword Planner, country and language",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "a fresh subagent for each country"
+      }
+    },
+    {
+      "id": "translation-batch-cost-unmeasured",
+      "found": "2026-11-12",
+      "by": "agent",
+      "what": "Batch costs were measured by hand from transcripts with throwaway scripts, after the fact, so a regression (French 3.3M, Spanish 4.4M a page) was seen only when someone asked.",
+      "should_have_caught": "scripts/translate-run.md step 12",
+      "fix": {
+        "file": "scripts/translate-run.md",
+        "contains": "node scripts/translation-cost.mjs"
+      }
     }
   ]
 }
