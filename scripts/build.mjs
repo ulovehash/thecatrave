@@ -44,7 +44,8 @@ export const generators = [
   'build-best-techno-mixes-article.mjs',
   'build-best-dj-sets-of-all-time-article.mjs',
   'build-house-music-classics-article.mjs',
-  'build-why-dj-mag-top-100-never-changes-article.mjs',
+  // build-why-dj-mag-top-100-never-changes-article.mjs is parked (see pages.mjs)
+  'scripts/build-moved-pages.mjs',
   'build-best-techno-tracks-article.mjs',
   'build-best-trance-tracks-article.mjs',
   'build-best-electronic-albums-article.mjs',

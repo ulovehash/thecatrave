@@ -8,7 +8,7 @@ Die besten Clubs der Welt stehen, nach dem einzigen Ranking, das den ganzen Plan
 
 „Bester“ hat bei einem Club keine eindeutige Bedeutung. Wer nach dem besten Club der Welt fragt, bekommt eine Stimmenzählung, kein Urteil. Eine Liste aus Stimmen findet die Clubs, zu denen Menschen reisen, und eine Liste mit einer Fachjury bewertet Programm, Sicherheit und Nachhaltigkeit. Beide gibt es, und sie sind sich nicht einig. Wer nach „beste Clubs der Welt“ sucht, landet bei derselben Abstimmung. Die Abstimmung von DJ Mag ist hier der Ausgangspunkt, weil sie öffentlich ist, jedes Frühjahr erscheint und alle Regionen abdeckt. Wenn von den besten Clubs laut DJ Mag die Rede ist, ist diese Umfrage gemeint.
 
-Die 20 Clubs unten stehen unter den ersten 46 der DJ-Mag-Abstimmung 2026, dazu WOMB in Tokio auf Platz 88. Sie sind nach Region gruppiert und dann nach Größe sortiert, weil dieselbe Liste eine zweite Frage beantwortet, die Menschen eintippen: welcher Club der größte ist. Nur für Europa geht der Guide zu den [besten Clubs in Europa](/de/beste-clubs-europa) tiefer, und die andere Umfrage des Magazins, die für DJs, ist Thema des Essays darüber, [warum sich die DJ Mag Top 100 kaum ändern](/why-dj-mag-top-100-never-changes) (auf Englisch).
+Die 20 Clubs unten stehen unter den ersten 46 der DJ-Mag-Abstimmung 2026, dazu WOMB in Tokio auf Platz 88. Sie sind nach Region gruppiert und dann nach Größe sortiert, weil dieselbe Liste eine zweite Frage beantwortet, die Menschen eintippen: welcher Club der größte ist. Nur für Europa geht der Guide zu den [besten Clubs in Europa](/de/beste-clubs-europa) tiefer.
 
 ## Die besten Clubs der Welt
 

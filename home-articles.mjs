@@ -441,14 +441,15 @@ export const homeArticleCatalog = [
     srcset:'img/best-electronic-albums/massive-320.webp 320w,img/best-electronic-albums/massive-1200.webp 1200w',
     width:1200, height:800, alt:'Massive Attack performing on stage at the Eurockéennes festival'
   },
-  {
-    page:'why-dj-mag-top-100-never-changes.html', category:'digging', tags:['discovery','history'], href:'/why-dj-mag-top-100-never-changes', type:'Essay', topic:'DJ Mag Top 100',
-    title:'Why the DJ Mag Top 100 Barely Changes',
-    description:'Four DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.',
-    image:'img/live-dj-sets/the-lot-radio-320.webp',
-    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
-    width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
-  },
+  // why-dj-mag-top-100-never-changes: card parked 2026-11-12 (see pages.mjs).
+  // {
+  //   page:'why-dj-mag-top-100-never-changes.html', category:'digging', tags:['discovery','history'], href:'/why-dj-mag-top-100-never-changes', type:'Essay', topic:'DJ Mag Top 100',
+  //   title:'Why the DJ Mag Top 100 Barely Changes',
+  //   description:'Four DJs in the top ten of every poll since 2015: the table, how the vote works, what campaigning is allowed and who the poll misses.',
+  //   image:'img/live-dj-sets/the-lot-radio-320.webp',
+  //   srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+  //   width:1200, height:800, alt:'A DJ in the booth at The Lot Radio in Brooklyn'
+  // },
   {
     page:'best-trance-tracks.html', category:'digging', tags:['trance','history'], href:'/best-trance-tracks', type:'List', topic:'Trance',
     title:'Best Trance Tracks of All Time: 12 Records to Hear',

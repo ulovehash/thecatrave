@@ -8,7 +8,7 @@ Las mejores discotecas del mundo, según el único ranking que cubre todo el pla
 
 «Mejor» no tiene un único significado para una discoteca. Quien pregunta por la mejor discoteca del mundo recibe un recuento de votos, no un veredicto. Una lista hecha con votos encuentra los clubes a los que la gente viaja, y una lista hecha con un jurado de expertos puntúa programación, seguridad y sostenibilidad. Las dos existen y no coinciden. La votación de DJ Mag es el punto de partida porque es pública, se publica cada primavera y cubre todas las regiones. Cuando se habla de los mejores clubes según DJ Mag, se habla de esa encuesta.
 
-Los 20 clubes de abajo están en los 46 primeros puestos de la votación de DJ Mag de 2026, más WOMB, en Tokio, en el puesto 88. Están agrupados por región y luego ordenados por tamaño, porque la misma lista responde a una segunda pregunta que la gente escribe: cuál es la discoteca más grande. Para Europa en exclusiva, la guía de las [mejores discotecas de Europa](/best-clubs-in-europe) entra más a fondo, y la otra encuesta de la revista, la de DJs, es el tema del ensayo sobre [por qué el Top 100 de DJ Mag casi no cambia](/why-dj-mag-top-100-never-changes) (en inglés).
+Los 20 clubes de abajo están en los 46 primeros puestos de la votación de DJ Mag de 2026, más WOMB, en Tokio, en el puesto 88. Están agrupados por región y luego ordenados por tamaño, porque la misma lista responde a una segunda pregunta que la gente escribe: cuál es la discoteca más grande. Para Europa en exclusiva, la guía de las [mejores discotecas de Europa](/best-clubs-in-europe) entra más a fondo.
 
 ## Las mejores discotecas del mundo
 
