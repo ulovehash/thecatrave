@@ -1,0 +1,20 @@
+{
+  "page": "de/techno-klassiker.html",
+  "seed": "techno klassiker",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 2026-11-13, location Germany, language German, buckets only (100-1K and 10-100); plus google.de (hl=de, gl=de) People also ask and related searches the same day for \"beste techno songs\". No data is not zero: a term no tool returned is volume null. No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured numbers. \"beste techno tracks\" and \"techno hymnen\" were in set C, which was not run: not measured. Pop \"techno remix\" ideas were left out as a different intent.",
+  "terms": [
+    { "term": "techno klassiker", "volume": null, "band": "100-1K", "note": "seed; slug, title, H1, answer, FAQ title" },
+    { "term": "techno lieder", "volume": null, "band": "100-1K", "note": "seed; FAQ questions and the play-first section" },
+    { "term": "berühmte techno lieder", "volume": null, "band": "100-1K", "note": "FAQ question; -90% over three months and a year" },
+    { "term": "90er techno hits", "volume": null, "band": "100-1K", "note": "FAQ question on the five 1990s records" },
+    { "term": "die besten techno lieder", "volume": null, "band": "10-100", "note": "FAQ question" },
+    { "term": "gute techno lieder", "volume": null, "band": "10-100", "note": "play-first section" },
+    { "term": "techno songs", "volume": null, "band": "not measured", "note": "title and FAQ; head of the seed \"beste techno songs\" (10-100)" }
+  ],
+  "rejected": [
+    { "term": "beste techno songs", "volume": null, "band": "10-100", "note": "seed; no grammatical German sentence carries the uninflected form, so the page uses \"Techno-Songs\" and \"die besten Techno-Lieder\" instead" },
+    { "term": "beste techno tracks", "volume": null, "band": "not measured", "note": "set C, not run" },
+    { "term": "techno hymnen", "volume": null, "band": "not measured", "note": "set C, not run" }
+  ]
+}

@@ -85,6 +85,7 @@ await (async () => {
     locationOk: t.includes((window.KP_TARGET || {}).location || 'All locations'),
     languageOk: t.includes((window.KP_TARGET || {}).language || 'English'),
     legend: 'M 1M–10M, A 100K–1M, B 10K–100K, C 1K–10K, D 100–1K, E 10–100, F 0–10',
+    count: (window.__kpRows = rows).length,
     tsv: rows.map((r) => r.join('\t')).join('\n'),
   };
 })();

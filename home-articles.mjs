@@ -927,6 +927,48 @@ export const germanArticleCatalog = [
     width:1200, height:1174, alt:'Das Publikum von Ultra Korea 2015'
   },
   {
+    page:'de/edm-festivals-kanada.html', category:'festivals', tags:['discovery','house','techno'], href:'/de/edm-festivals-kanada', type:'Liste', topic:'EDM-Festivals in Kanada',
+    title:'EDM-Festivals in Kanada 2027: VELD, Shambhala, Ile Soniq',
+    description:'Die besten EDM-Festivals in Kanada 2027 mit Terminen, Städten und Sound, von VELD in Toronto und dem Shambhala Festival in BC bis Ile Soniq in Montreal.',
+    image:'img/canada-festivals/veld-deadmau5-2016-320.webp', srcset:'img/canada-festivals/veld-deadmau5-2016-320.webp 320w,img/canada-festivals/veld-deadmau5-2016-1200.webp 1200w',
+    width:1200, height:749, alt:'deadmau5 auf der Bühne des VELD Music Festival in Toronto im Juli 2016'
+  },
+  {
+    page:'de/beste-trance-songs.html', category:'digging', tags:['trance','history'], href:'/de/beste-trance-songs', type:'Liste', topic:'Trance',
+    title:'Beste Trance-Songs aller Zeiten: 12 Tracks, 1993 bis 2012',
+    description:'Beste Trance-Songs aller Zeiten: 12 Tracks mit Player, britischen Chartplätzen und Fan-Abstimmungen. Mit Children, Silence und Adagio for Strings.',
+    image:'img/best-trance-tracks/tiesto-2010-320.webp', srcset:'img/best-trance-tracks/tiesto-2010-320.webp 320w,img/best-trance-tracks/tiesto-2010-1200.webp 1200w',
+    width:1200, height:800, alt:'Tiësto an den Decks in einem Nachtclub in Bangkok'
+  },
+  {
+    page:'de/beste-dj-sets.html', category:'digging', tags:['discovery','house','techno','history'], href:'/de/beste-dj-sets', type:'Liste', topic:'DJ-Sets',
+    title:'Die besten DJ-Sets aller Zeiten: 30 zum Anhören',
+    description:'Die besten DJ-Sets aller Zeiten, von Carl Cox im Space und Black Coffee bis Tale of Us, Skream und Fabio und Grooverider, jeweils als offizielle Aufnahme.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp', srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Ein DJ in der Kabine von The Lot Radio in Brooklyn'
+  },
+  {
+    page:'de/edm-festivals-australien.html', category:'festivals', tags:['discovery','house','techno'], href:'/de/edm-festivals-australien', type:'Liste', topic:'EDM-Festivals in Australien',
+    title:'EDM-Festivals in Australien 2027: Beyond the Valley, Pitch',
+    description:'EDM-Festivals in Australien 2027: Beyond the Valley zu Silvester, Pitch vom 5. bis 9. März, Ultra Australia im April. Termine, Bundesstaaten und Sound im Vergleich.',
+    image:'img/australia-festivals/grampians-halls-gap-320.webp', srcset:'img/australia-festivals/grampians-halls-gap-320.webp 320w,img/australia-festivals/grampians-halls-gap-1200.webp 1200w',
+    width:1200, height:800, alt:'Die Grampians in Victoria, von Halls Gap aus gesehen'
+  },
+  {
+    page:'de/psytrance-festivals.html', category:'festivals', tags:['discovery','history'], href:'/de/psytrance-festivals', type:'Liste', topic:'Psytrance-Festivals',
+    title:'Psytrance-Festivals 2027: Ozora, Boom und Universo Paralello',
+    description:'Die besten Psytrance-Festivals 2027 mit Terminen, Umgebung und was dich erwartet, von Boom in Portugal und Ozora in Ungarn bis Universo Paralello in Brasilien.',
+    image:'img/psytrance-festivals/boom-being-fields-2018-320.webp', srcset:'img/psytrance-festivals/boom-being-fields-2018-320.webp 320w,img/psytrance-festivals/boom-being-fields-2018-1200.webp 1200w',
+    width:1200, height:800, alt:'Das Boom Festival von den Being Fields aus gesehen, 2018'
+  },
+  {
+    page:'de/techno-klassiker.html', category:'digging', tags:['techno','discovery','history'], href:'/de/techno-klassiker', type:'Liste', topic:'Techno-Klassiker',
+    title:'Techno-Klassiker: neun Techno-Songs, die den Sound prägten',
+    description:"Neun Techno-Klassiker, von No UFO's und Strings of Life bis The Bells und Doppler, jeweils mit Player und den Fakten dahinter.",
+    image:'img/best-techno-tracks/richie-hawtin-fabric-320.webp', srcset:'img/best-techno-tracks/richie-hawtin-fabric-320.webp 320w,img/best-techno-tracks/richie-hawtin-fabric-1200.webp 1200w',
+    width:1200, height:900, alt:'Richie Hawtin legt im Fabric in London auf'
+  },
+  {
     page:'de/edm-festivals-usa.html', category:'festivals', tags:['festivals','usa','house','bass'], href:'/de/edm-festivals-usa', type:'Guide', topic:'EDM-Festivals',
     title:'EDM-Festivals in den USA 2027: EDC, Ultra, Movement',
     description:'EDC, Ultra, Movement, ARC, Lost Lands und Electric Forest, verglichen nach Sound, Größe und Terminen für 2027.',

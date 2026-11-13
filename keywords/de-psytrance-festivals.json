@@ -1,0 +1,29 @@
+{
+  "page": "de/psytrance-festivals.html",
+  "seed": "psytrance festival",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in account, 13 November 2026, location Germany, language German, ranges only; plus the google.de People also ask and related searches the same day. No Ahrefs. No data is not zero: a term with volume null and no bucket is unmeasured.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "psytrance festival", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "head term; inside \"Psytrance-Festival(s)\" in title, H1 and H2s"},
+    {"term": "psytrance festivals 2027", "volume": null, "bucket": "10–100 (Keyword Planner bucket)", "note": "title, H1, answer, at-a-glance H2"},
+    {"term": "psy trance festival", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "FAQ question \"Was ist ein Psy-Trance-Festival?\""},
+    {"term": "psychedelic trance festival", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "FAQ answer"},
+    {"term": "psy festivals", "volume": null, "bucket": "10–100 (Keyword Planner bucket)", "note": "introduction"},
+    {"term": "ozora festival", "volume": null, "bucket": "1K–10K (Keyword Planner bucket)", "note": "Ozora H3 and FAQ question; also covers \"ozora fest\" (1K–10K)"},
+    {"term": "ozora festival 2027", "volume": null, "note": "FAQ question; festival guides carry the next year's dates, no Planner row"},
+    {"term": "ozora tickets", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "How to choose, as \"Ozora-Tickets\""},
+    {"term": "boom festival", "volume": null, "bucket": "1K–10K (Keyword Planner bucket)", "note": "Boom H3 body, image alt and FAQ question"},
+    {"term": "boom festival tickets", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "Boom H3 body, as \"Boom-Festival-Tickets\""},
+    {"term": "universo paralello", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "title, H1 and H3"},
+    {"term": "universo paralello festival", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "Universo Paralello H3 body, as \"Universo-Paralello-Festival\""},
+    {"term": "psytrance festivals in europa", "volume": null, "note": "Europe H2; Google related search \"Psytrance festival europe\", de-DE, unmeasured in German"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for psytrance festival, ozora festival, boom festival and universo paralello (kp-de-batch2, sets A and B). Set C (psytrance festival deutschland) not run; that phrase is a google.de related search only and is not placed: the English structure has no Germany section, and VooV and Indian Spirit carry the German festivals.",
+  "rejected": [
+    {"term": "ozora festival tickets", "reason": "100–1K; no natural German sentence carries the exact order beside \"Ozora-Tickets\""},
+    {"term": "boom portugal", "reason": "100–1K; the page writes \"Boom, Portugal\" and \"Boom in Portugal\", and the exact order would be forced"},
+    {"term": "ozora festival erfahrungen", "reason": "10–100; a reviews query the page does not answer"},
+    {"term": "ozora festival camping", "reason": "10–100; the English page has no camping section"},
+    {"term": "boom festival camping", "reason": "10–100; the English page has no camping section"}
+  ]
+}

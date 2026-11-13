@@ -1,0 +1,43 @@
+{
+  "page": "de/beste-trance-songs.html",
+  "seed": "beste trance songs",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 13 November 2026, location Germany, language German, buckets only; plus google.de People also ask and AI overview wording the same day. No data is not zero. No Ahrefs units spent.",
+  "note": "Volumes are Keyword Planner buckets, not exact figures. 'beste trance tracks' and 'trance hits' were in seed set C, which was not run.",
+  "terms": [
+    {
+      "term": "beste trance songs",
+      "volume": "10-100",
+      "note": "seed; title and description"
+    },
+    {
+      "term": "trance lieder",
+      "volume": "10-100",
+      "note": "seed; FAQ question on the 90s records"
+    },
+    {
+      "term": "beste trance lieder",
+      "volume": "10-100",
+      "note": "idea; FAQ question on the 90s records"
+    },
+    {
+      "term": "trance klassiker",
+      "volume": "10-100",
+      "note": "seed; FAQ question on the UK chart entries"
+    },
+    {
+      "term": "90er trance hits",
+      "volume": "10-100",
+      "note": "idea; H2 of the chart years section"
+    },
+    {
+      "term": "trance songs aller zeiten",
+      "volume": null,
+      "note": "google.de AI overview wording; title, H1 and answer box; not measured"
+    },
+    {
+      "term": "trance hits",
+      "volume": null,
+      "note": "inside '90er Trance-Hits'; set C not run; not measured"
+    }
+  ]
+}

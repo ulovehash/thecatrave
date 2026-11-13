@@ -1,0 +1,20 @@
+{
+  "page": "de/edm-festivals-kanada.html",
+  "seed": "edm festival kanada",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, Germany, German, read 2026-11-13, buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.de for 'edm festival kanada' (mostly English results). No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "'edm festival kanada' and 'festivals kanada' returned no data (bucket 0-10, no trend or competition), so the head term is recorded as null. 'ile soniq' was in seed set C, which was not run.",
+  "terms": [
+    {"term": "EDM-Festivals in Kanada", "volume": null, "range": "no data", "note": "title, H1, URL and FAQ; the Planner returned no data for the seed 'edm festival kanada'"},
+    {"term": "Festivals in Kanada", "volume": null, "range": "no data", "note": "body and FAQ; 'festivals kanada' returned no data, the measured 'kanada festivals' is written in the order German needs"},
+    {"term": "Shambhala Festival", "volume": 100, "range": "100-1K", "note": "description and British Columbia section"},
+    {"term": "VELD Festival", "volume": 10, "range": "10-100", "note": "Toronto section"},
+    {"term": "Ile Soniq", "volume": null, "note": "title and Quebec section; not measured (seed set C not run)"},
+    {"term": "Shambhala 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "VELD 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "Ile Soniq 2027", "volume": null, "note": "festival date term; not measured"}
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, Germany, German, sets A and B, 2026-11-13 (scratchpad kp-de-batch2.tsv)",
+  "rejected": [
+    {"term": "kanada festivals", "volume": 10, "range": "10-100", "why": "the page says \"Festivals in Kanada\"; the word order without the preposition is not written"}
+  ]
+}

@@ -2249,6 +2249,47 @@
         "file": "scripts/translate-run.md",
         "contains": "node scripts/translation-cost.mjs"
       }
+    },
+    {
+      "id": "kp-seed-box-focus-unchecked",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "German batch 2 Keyword Planner pass: the seed-box click hit a tabpanel, not the text input, so the typed seeds went to the page body. Google Ads read them as keyboard shortcuts and navigated to Campaign settings. No data was collected. Whether a setting changed was not verified.",
+      "should_have_caught": "scripts/kp-run.md step 6",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "document.activeElement"
+      }
+    },
+    {
+      "id": "kp-country-location-step-undocumented",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "kp-run.md step 7 only described removing the United States for an all-locations pass. For a country pass, typing Germany and pressing ArrowDown+Return picked Berlin (a city), the language step was undescribed, and the 18-call cap ran out before results. Step 6 also let find match the site-filter input before the seed input.",
+      "should_have_caught": "scripts/kp-run.md step 7",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "whose type reads Country"
+      }
+    },
+    {
+      "id": "kp-extract-output-truncated",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "javascript_tool cuts output at about 1,000 characters, so the extractor tsv field for a 133-row pass arrived truncated and the subagent hit its cap before reading set B out; the main session read the rows by hand from a page variable.",
+      "should_have_caught": "scripts/kp-run.md step 11",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "window.__kpRows.slice"
+      }
+    },
+    {
+      "id": "en-techno-tracks-faq-unanswered",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "best-techno-tracks-draft.md ends with the FAQ question \"What are the top 20 techno songs?\" and no answer, so the published page carries an empty FAQ entry. Found by the German writer; the German page replaces it. Not edited in English because published copy is shown to the owner first.",
+      "should_have_caught": "ARTICLE-EDITORIAL-REVIEW.md FAQ check and lint-draft.mjs",
+      "fix": null
     }
   ]
 }

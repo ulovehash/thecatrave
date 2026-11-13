@@ -1,0 +1,34 @@
+{
+  "page": "de/beste-dj-sets.html",
+  "seed": "beste dj sets",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, 13 November 2026, location Germany, language German, seed set B; volumes are Planner buckets. No data is not zero.",
+  "terms": [
+    {
+      "term": "beste dj sets",
+      "volume": "10-100",
+      "note": "seed, competition High; as \"Beste DJ-Sets aller Zeiten\" in the summary banner label"
+    },
+    {
+      "term": "die besten dj sets",
+      "volume": "10-100",
+      "note": "Planner idea, competition Medium; title, H1, FAQ"
+    },
+    {
+      "term": "bestes dj set",
+      "volume": "10-100",
+      "note": "Planner idea, competition High; FAQ answer \"Ein bestes DJ-Set für alle gibt es nicht\""
+    },
+    {
+      "term": "beste dj sets aller zeiten",
+      "volume": null,
+      "note": "seed returned no data (bucket 0-10, no competition); not measured. In the summary banner label"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "legendäre dj sets",
+      "volume": null,
+      "why": "seed set C was not run; not measured, not claimed"
+    }
+  ]
+}

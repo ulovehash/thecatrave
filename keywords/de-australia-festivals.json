@@ -1,0 +1,20 @@
+{
+  "page": "de/edm-festivals-australien.html",
+  "seed": "edm festival australien",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, read 2026-11-13, seed sets A and B. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Live wording from google.de (hl=de, gl=de) the same day. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "'festival in australien' is recorded against its own Planner row; the forms without the preposition ('festival australien', 'australien festival') are not written. 'ultra australia' was in seed set C, which was not run.",
+  "terms": [
+    {"term": "EDM-Festivals in Australien", "volume": null, "note": "title, H1, URL, headings and FAQ label; 'edm festival australien' returned no data (bucket 0-10, no row metrics); unmeasured head term"},
+    {"term": "Festival in Australien", "volume": 10, "range": "10-100", "note": "FAQ question 'Welches ist das beliebteste Festival in Australien?'"},
+    {"term": "Beyond the Valley Festival", "volume": 10, "range": "10-100", "note": "first sentence of the biggest-festival section; Planner row 'beyond the valley festival', 3-month and YoY not read"},
+    {"term": "Ultra Australia 2027", "volume": null, "note": "Ultra section and FAQ question; not measured (seed set C not run)"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for 'edm festival australien' and 'festival australien', Germany, German, 2026-11-13; google.de People also ask and related searches for 'edm festival australien' the same day.",
+  "rejected": [
+    {"term": "festival australien", "volume": 10, "range": "10-100", "why": "the page says \"Festival in Australien\"; the form without the preposition is not written"},
+    {"term": "australien festival", "volume": 10, "range": "10-100", "why": "same row family; the ungrammatical order is not written"},
+    {"term": "techno festival australien", "volume": 10, "range": "10-100", "why": "no Australian festival here is a techno festival as such; Pitch is house and techno and its section says so"},
+    {"term": "goa festival australien", "volume": 10, "range": "10-100", "why": "psytrance and Goa festivals belong to the psytrance guide, linked from the page"},
+    {"term": "tomorrowland australien", "volume": 10, "range": "10-100", "why": "Tomorrowland does not run in Australia"}
+  ]
+}
