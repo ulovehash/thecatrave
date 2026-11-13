@@ -51,6 +51,9 @@ for (const {file, path, kind} of pages) {
   // Meta description
   const description = decodeEntities(meta(html, 'description') || '');
   check(file, 'has meta description', description.length > 0);
+  // An FAQ question with no answer shipped on best-techno-tracks (defect en-techno-tracks-faq-unanswered).
+  const emptyFaqAnswers = [...html.matchAll(/"@type":"Question","name":"([^"]*)","acceptedAnswer":\{"@type":"Answer","text":"\s*"\}/g)].map(m => m[1]);
+  check(file, 'FAQ question with no answer', emptyFaqAnswers.length === 0, emptyFaqAnswers.join('; '));
   check(file, 'description length 70-165', description.length >= 70 && description.length <= 165, `${description.length} chars`);
   check(file, 'description is unique', !descriptions.has(description), descriptions.get(description));
   descriptions.set(description, file);
