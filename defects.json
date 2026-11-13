@@ -2289,7 +2289,10 @@
       "by": "agent",
       "what": "best-techno-tracks-draft.md ends with the FAQ question \"What are the top 20 techno songs?\" and no answer, so the published page carries an empty FAQ entry. Found by the German writer; the German page replaces it. Not edited in English because published copy is shown to the owner first.",
       "should_have_caught": "ARTICLE-EDITORIAL-REVIEW.md FAQ check and lint-draft.mjs",
-      "fix": null
+      "fix": {
+        "file": "best-techno-tracks-draft.md",
+        "contains": "This page picks nine, not twenty"
+      }
     }
   ]
 }

@@ -115,3 +115,5 @@ Start with The Bells, Strings of Life and Energy Flash, then move to Phylyps Tra
 Try Energy Flash for its heavy bass, Spastik for its drum-machine workout, or The Bells for the record Jeff Mills kept returning to in his sets.
 
 ### What are the top 20 techno songs?
+
+This page picks nine, not twenty, because each one shows a different way to make techno: from No UFO's by Model 500 in 1985 to Doppler by Charlotte de Witte in 2021.
