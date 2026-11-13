@@ -1,0 +1,23 @@
+{
+  "page": "fr/festivals-edm-australie.html",
+  "seed": "festival edm australie",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, France, French, read 2026-11-13, batch 2 submission 1 (seeds: festival edm australie, festival australie, beyond the valley festival, pitch festival, ultra australia). No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Live wording from google.fr (hl=fr, gl=fr) the same day. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "The head term 'festival edm australie' returned only the 0-10 bucket, so 'festivals EDM en Australie' is recorded as unmeasured. 'festival en australie' is recorded against its own Planner row; the form without the preposition is not written.",
+  "terms": [
+    {"term": "festivals EDM en Australie", "volume": null, "note": "title, H1, URL, headings and FAQ label; 'festival edm australie' returned the 0-10 bucket only; unmeasured head term"},
+    {"term": "festival en Australie", "volume": 10, "range": "10-100", "note": "FAQ question 'Quel est le plus grand festival en Australie ?', worded after the google.fr People also ask 'Quel est le plus grand festival d’Australie ?'"},
+    {"term": "Beyond the Valley Festival", "volume": 10, "range": "10-100", "note": "first sentence of the biggest-festival section; Planner row 'beyond the valley festival'"},
+    {"term": "Pitch Festival", "volume": 10, "range": "10-100", "note": "FAQ answer on where Pitch Music and Arts is held; Planner row 'pitch festival'"},
+    {"term": "Ultra Australia", "volume": 10, "range": "10-100", "note": "Ultra section, table, choosing section and FAQ; Planner row 'ultra australia'"},
+    {"term": "Ultra Australia 2027", "volume": null, "note": "Ultra section and FAQ; the dated form was not returned, not measured"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for the five seeds above, France, French, 2026-11-13; google.fr People also ask for 'festival edm australie' the same day (no related searches shown).",
+  "rejected": [
+    {"term": "festival australie", "volume": 10, "range": "10-100", "why": "the page says \"festival en Australie\"; the form without the preposition is not written"},
+    {"term": "australie festival", "volume": 10, "range": "10-100", "why": "same row family; the inverted order is not written"},
+    {"term": "festival techno australie", "volume": 10, "range": "10-100", "why": "no Australian festival here is a techno festival as such; Pitch is house and techno and its section says so"},
+    {"term": "festival electro australie", "volume": 10, "range": "10-100", "why": "trend -100% on 3 months and year on year; the page uses the EDM wording of the English and German pages"},
+    {"term": "festival trance australie", "volume": 10, "range": "10-100", "why": "Dreamstate is the only trance event here and has its own subsection"},
+    {"term": "festival musique australie", "volume": 10, "range": "10-100", "why": "general music festivals are excluded by the first criterion"}
+  ]
+}

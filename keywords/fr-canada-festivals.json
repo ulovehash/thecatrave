@@ -1,0 +1,22 @@
+{
+  "page": "fr/festivals-edm-canada.html",
+  "seed": "festival edm canada",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, France, French, read 2026-11-13, submission 1 of 3 (scratchpad kp-fr-b2.tsv), buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.fr (hl=fr, gl=fr) for 'festival edm canada' (mostly English results; PAA 'Quel est le plus gros festival du Canada ?'). No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "The measured seed 'festival edm canada' (10-100) is written with the preposition French needs, 'festivals EDM au Canada', which no tool returned, so the head term is recorded as null.",
+  "terms": [
+    {"term": "festivals EDM au Canada", "volume": null, "range": "not measured", "note": "title, H1, answer, dates heading and FAQ; the measured seed 'festival edm canada' (10-100) written with 'au'"},
+    {"term": "Île Soniq", "volume": 100, "range": "100-1K", "note": "title, description and Quebec section; 'ile soniq' also 100-1K"},
+    {"term": "VELD Festival", "volume": 10, "range": "10-100", "note": "description and Toronto section"},
+    {"term": "Shambhala Festival", "volume": 10, "range": "10-100", "note": "description and British Columbia section"},
+    {"term": "plus gros festival au Canada", "volume": 10, "range": "10-100", "note": "biggest-festival section, first sentence; also covers 'festival au canada' (10-100)"},
+    {"term": "plus gros festival de musique au Canada", "volume": 10, "range": "10-100", "note": "FAQ"},
+    {"term": "VELD 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "Shambhala 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "Île Soniq 2027", "volume": null, "note": "festival date term; not measured"}
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, France, French, submission 1 (seeds festival edm canada, festival canada, veld festival, shambhala festival, ile soniq), 2026-11-13 (scratchpad kp-fr-b2.tsv)",
+  "rejected": [
+    {"term": "festival edm canada", "volume": 10, "range": "10-100", "why": "the page says \"festivals EDM au Canada\"; the form without the preposition is not written"},
+    {"term": "festival canada", "volume": 10, "range": "10-100", "why": "too broad for an EDM list; the page says \"festival au Canada\""}
+  ]
+}

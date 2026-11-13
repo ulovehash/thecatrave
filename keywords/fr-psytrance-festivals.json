@@ -1,0 +1,30 @@
+{
+  "page": "fr/festivals-psytrance.html",
+  "seed": "festival psytrance",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in account, 13 November 2026, location France, language French, ranges only (kp-fr-b2, submission 2); plus the google.fr People also ask and related searches the same day. No Ahrefs. No data is not zero: a term with volume null and no bucket is unmeasured.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "festival psytrance", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "head term; inside \"festivals psytrance\" in title, H1, URL and H2s"},
+    {"term": "festivals psytrance 2027", "volume": null, "note": "not measured: Google related search \"Festival psytrance 2027\", no Planner row; title, H1, answer, at-a-glance H2"},
+    {"term": "festival de psytrance", "volume": null, "bucket": "10–100 (Keyword Planner bucket)", "note": "biggest H2 and its first paragraph"},
+    {"term": "plus grand festival de psytrance au monde", "volume": null, "note": "not measured: google.fr People also ask \"Quel est le plus grand festival de psytrance au monde ?\"; biggest H2"},
+    {"term": "festival psy trance", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "FAQ question \"Qu’est-ce qu’un festival psy trance ?\" and answer; covers \"psy trance festival\" (100–1K)"},
+    {"term": "festival trance", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "USA section, A State of Trance sentence"},
+    {"term": "festivals psytrance en europe", "volume": null, "note": "not measured: Europe H2, carried from the English structure; no Planner row"},
+    {"term": "ozora festival", "volume": null, "bucket": "1K–10K (Keyword Planner bucket)", "note": "Ozora H3 body and FAQ question; also covers \"ozora fest\" (1K–10K)"},
+    {"term": "ozora festival 2027", "volume": null, "note": "not measured: FAQ question; festival guides carry the next year's dates, no Planner row"},
+    {"term": "boom festival", "volume": null, "bucket": "1K–10K (Keyword Planner bucket)", "note": "Boom H3 body, image alt and FAQ question"},
+    {"term": "universo paralello", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "title, H1 and H3"},
+    {"term": "universo paralello festival", "volume": null, "bucket": "100–1K (Keyword Planner bucket)", "note": "Universo Paralello H3 body"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for festival psytrance, festival trance, ozora festival, boom festival and universo paralello (kp-fr-b2, submission 2). The google.fr related searches \"Festival psytrance France 2026/2027\", \"Festival psytrance monde\" and \"Agenda Festival Psytrance\" are SERP-only and unmeasured; the English structure has no France section, and Hadra carries the French festival.",
+  "rejected": [
+    {"term": "boom festival tickets", "reason": "100–1K; English word order, the French page writes \"billets\""},
+    {"term": "boom portugal", "reason": "100–1K; the page writes \"Boom, Portugal\" and \"le Boom au Portugal\", and the exact order would be forced"},
+    {"term": "boomin festival", "reason": "100–1K; a different event or a misspelling, not this festival"},
+    {"term": "boom festival prix", "reason": "10–100; the English page gives no ticket prices"},
+    {"term": "ozora festival camping", "reason": "10–100; the English page has no camping section"},
+    {"term": "boom festival camping", "reason": "10–100; the English page has no camping section"},
+    {"term": "festival psytrance suisse", "reason": "10–100; the Swiss entries are Burning Mountain (progressive and psychedelic) and the cancelled Shankra, so the phrase would overstate"}
+  ]
+}

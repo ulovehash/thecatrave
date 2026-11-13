@@ -2057,6 +2057,48 @@ export const frenchArticleCatalog = [
     image:'img/time-warp/tdk-2006-320.webp',
     srcset:'img/time-warp/tdk-2006-320.webp 320w,img/time-warp/tdk-2006-1200.webp 1200w',
     width:1200, height:900, alt:"Une piste pleine devant une scène avec des murs vidéo à Time Warp 2006"
+  },
+  {
+    page:'fr/festivals-edm-canada.html', category:'festivals', tags:['discovery','house','techno'], href:'/fr/festivals-edm-canada', type:'Liste', topic:"Festivals EDM au Canada",
+    title:"Festivals EDM au Canada 2027 : VELD, Shambhala, Île Soniq",
+    description:"Les meilleurs festivals EDM au Canada en 2027 : dates, villes et son, du VELD Festival à Toronto et du Shambhala Festival en C.-B. à Île Soniq à Montréal.",
+    image:'img/canada-festivals/veld-deadmau5-2016-320.webp', srcset:'img/canada-festivals/veld-deadmau5-2016-320.webp 320w,img/canada-festivals/veld-deadmau5-2016-1200.webp 1200w',
+    width:1200, height:749, alt:"deadmau5 sur scène au VELD Music Festival à Toronto en juillet 2016"
+  },
+  {
+    page:'fr/meilleures-musiques-trance.html', category:'digging', tags:['trance','history'], href:'/fr/meilleures-musiques-trance', type:'Liste', topic:"Trance",
+    title:"Meilleures musiques trance de tous les temps : 1993 à 2012",
+    description:"Les meilleures musiques trance de tous les temps : 12 morceaux avec lecteur, charts britanniques et votes des fans, de Children à Adagio for Strings.",
+    image:'img/best-trance-tracks/tiesto-2010-320.webp', srcset:'img/best-trance-tracks/tiesto-2010-320.webp 320w,img/best-trance-tracks/tiesto-2010-1200.webp 1200w',
+    width:1200, height:800, alt:"Tiësto aux platines dans une boîte de nuit de Bangkok"
+  },
+  {
+    page:'fr/meilleurs-dj-sets.html', category:'digging', tags:['discovery','house','techno','history'], href:'/fr/meilleurs-dj-sets', type:'Liste', topic:"DJ sets",
+    title:"Les meilleurs DJ sets de tous les temps : 30 à écouter",
+    description:"Les meilleurs DJ sets de tous les temps, de Carl Cox au Space et Black Coffee à Tale of Us, Skream, Fabio et Grooverider, chacun en enregistrement officiel.",
+    image:'img/live-dj-sets/the-lot-radio-320.webp', srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:"Un DJ dans la cabine de The Lot Radio à Brooklyn"
+  },
+  {
+    page:'fr/festivals-edm-australie.html', category:'festivals', tags:['discovery','house','techno'], href:'/fr/festivals-edm-australie', type:'Liste', topic:"Festivals EDM en Australie",
+    title:"Festivals EDM en Australie 2027 : Beyond the Valley, Pitch",
+    description:"Festivals EDM en Australie en 2027 : Beyond the Valley au Nouvel An, Pitch du 5 au 9 mars, Ultra Australia en avril. Dates, États et sons comparés.",
+    image:'img/australia-festivals/grampians-halls-gap-320.webp', srcset:'img/australia-festivals/grampians-halls-gap-320.webp 320w,img/australia-festivals/grampians-halls-gap-1200.webp 1200w',
+    width:1200, height:800, alt:"Les Grampians, dans le Victoria, vus depuis Halls Gap"
+  },
+  {
+    page:'fr/festivals-psytrance.html', category:'festivals', tags:['discovery','history'], href:'/fr/festivals-psytrance', type:'Liste', topic:"Festivals psytrance",
+    title:"Festivals psytrance 2027 : Ozora, Boom et Universo Paralello",
+    description:"Les meilleurs festivals psytrance 2027, avec dates, cadre et ce qui vous attend, du Boom au Portugal et de l’Ozora en Hongrie à Universo Paralello au Brésil.",
+    image:'img/psytrance-festivals/boom-being-fields-2018-320.webp', srcset:'img/psytrance-festivals/boom-being-fields-2018-320.webp 320w,img/psytrance-festivals/boom-being-fields-2018-1200.webp 1200w',
+    width:1200, height:800, alt:"Le Boom Festival vu depuis les Being Fields, 2018"
+  },
+  {
+    page:'fr/musique-techno-connue.html', category:'digging', tags:['techno','discovery','history'], href:'/fr/musique-techno-connue', type:'Liste', topic:"Classiques techno",
+    title:"Musique techno connue : neuf classiques qui ont façonné le son",
+    description:"Neuf classiques de la musique techno, de No UFO’s et Strings of Life à The Bells et Doppler, chacun avec un lecteur et les faits qui le racontent.",
+    image:'img/best-techno-tracks/richie-hawtin-fabric-320.webp', srcset:'img/best-techno-tracks/richie-hawtin-fabric-320.webp 320w,img/best-techno-tracks/richie-hawtin-fabric-1200.webp 1200w',
+    width:1200, height:900, alt:"Richie Hawtin aux platines du Fabric à Londres"
   }
 ];
 

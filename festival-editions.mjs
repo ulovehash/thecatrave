@@ -95,6 +95,9 @@ export const festivalEditions = [
   {page: 'de/edm-festivals-australien.html', heading: 'Termine der EDM-Festivals in Australien 2027 im Überblick', ends: null},
   {page: 'de/psytrance-festivals.html', heading: 'Die Termine der Psytrance-Festivals 2027 im Überblick', ends: null},
   {page: 'fr/festivals-edm-etats-unis.html', heading: 'Les dates 2027 en un coup d’œil', ends: null},
+  {page: 'fr/festivals-edm-canada.html', heading: 'Les dates des festivals EDM au Canada en 2027 en un coup d’œil', ends: null},
+  {page: 'fr/festivals-edm-australie.html', heading: 'Dates des festivals EDM en Australie 2027 en un coup d’œil', ends: null},
+  {page: 'fr/festivals-psytrance.html', heading: 'Les dates des festivals psytrance 2027 en un coup d’œil', ends: null},
   {page: 'es/festivales-edm-estados-unidos.html', heading: 'Las fechas de 2027 de un vistazo', ends: null},
   {page: 'es/festivales-musica-electronica-mexico.html', heading: 'Las fechas de 2027 de un vistazo', ends: null},
   // New Year's Eve moves on every January: rewrite the table and the heading

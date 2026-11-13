@@ -18,7 +18,7 @@ const roundups = [
   'best-electronic-music-festivals-asia.html', 'de/silvester-rave.html',
   'de/electro-festivals-europa.html', 'fr/festival-nouvel-an.html',
   'fr/festivals-electro-europe.html', 'es/festivales-musica-electronica-europa.html',
-  'es/festivales-nochevieja.html', 'es/festivales-edm-estados-unidos.html', 'es/festivales-musica-electronica-mexico.html', 'es/festivales-musica-electronica-asia.html', 'es/festivales-invierno.html', 'de/festivals-elektronische-musik-asien.html', 'fr/festivals-musique-electronique-asie.html', 'de/winterfestivals.html', 'de/edm-festivals-usa.html', 'de/edm-festivals-kanada.html', 'de/edm-festivals-australien.html', 'de/psytrance-festivals.html', 'fr/festivals-edm-etats-unis.html', 'fr/festivals-hiver.html'
+  'es/festivales-nochevieja.html', 'es/festivales-edm-estados-unidos.html', 'es/festivales-musica-electronica-mexico.html', 'es/festivales-musica-electronica-asia.html', 'es/festivales-invierno.html', 'de/festivals-elektronische-musik-asien.html', 'fr/festivals-musique-electronique-asie.html', 'de/winterfestivals.html', 'de/edm-festivals-usa.html', 'de/edm-festivals-kanada.html', 'de/edm-festivals-australien.html', 'de/psytrance-festivals.html', 'fr/festivals-edm-etats-unis.html', 'fr/festivals-hiver.html', 'fr/festivals-edm-canada.html', 'fr/festivals-edm-australie.html', 'fr/festivals-psytrance.html'
 ];
 const roundupSet = new Set(roundups);
 const individualFestivalPages = [homeArticleCatalog, germanArticleCatalog, frenchArticleCatalog, spanishArticleCatalog]

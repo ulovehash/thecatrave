@@ -107,7 +107,7 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
   window.KP_TARGET = { location: 'Germany', language: 'German' }
   ```
   `kp-extract.js` then reports `locationOk` and `languageOk` for that target. Step 10 checks those two instead of `allLocations` and `english`.
-- **The cap is 18 browser calls per country,** not per page.
+- **The cap is 24 browser calls per country,** not per page.
 - **Start a fresh subagent for each country.** Never send the first country's subagent back for the second: it carries the first pass's context into every call. In Spanish batch 1 that made the second pass 3.7M, against 1.5M for one German pass. Both can start in one message only if they use different Chrome tabs; otherwise start the second after the first returns.
 - **A seed with no row is "no data", not zero.** When a page's seeds all return nothing:
   - no Ahrefs and no extra Planner passes for it (Ahrefs stays the documented fallback in `KEYWORD-METHOD.md`, for a batch, never per page);

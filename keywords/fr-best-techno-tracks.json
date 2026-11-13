@@ -1,0 +1,88 @@
+{
+  "page": "fr/musique-techno-connue.html",
+  "seed": "musique techno connue",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 2026-11-13, location France, language French, buckets only (1K-10K, 100-1K and 10-100); seeds meilleure musique techno, musique techno, morceau techno, techno années 90, classique techno, titre techno; plus google.fr People also ask and related searches the same day for \"meilleurs morceaux techno\". No data is not zero: a term no tool returned is volume null. No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured numbers. \"musique techno connue\" was returned as an idea, not a seed. The seed \"techno années 90\" returned no row: not measured. Free-music, royalty-free and vinyl-shopping ideas were left out as a different intent.",
+  "terms": [
+    {
+      "term": "musique techno connue",
+      "volume": null,
+      "band": "100-1K",
+      "note": "slug, title, H1, answer label, FAQ question on famous techno"
+    },
+    {
+      "term": "musique techno",
+      "volume": null,
+      "band": "1K-10K",
+      "note": "seed; title, H1 and description (\"la musique techno\" is fr/techno.html's)"
+    },
+    {
+      "term": "meilleure musique techno",
+      "volume": null,
+      "band": "10-100",
+      "note": "seed; answer section"
+    },
+    {
+      "term": "meilleur titre techno",
+      "volume": null,
+      "band": "10-100",
+      "note": "FAQ question on the best techno song ever"
+    },
+    {
+      "term": "titre techno",
+      "volume": null,
+      "band": "10-100",
+      "note": "seed; same FAQ question"
+    },
+    {
+      "term": "morceau techno",
+      "volume": null,
+      "band": "10-100",
+      "note": "seed; play-first section heading"
+    },
+    {
+      "term": "meilleurs titres techno",
+      "volume": null,
+      "band": "not measured",
+      "note": "top-20 FAQ question; the wording of the French results for \"meilleurs morceaux techno\" (Tsugi, Deezer)"
+    },
+    {
+      "term": "meilleurs morceaux techno",
+      "volume": null,
+      "band": "not measured",
+      "note": "FAQ question; the live search query"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "classique techno",
+      "volume": null,
+      "band": "10-100",
+      "note": "seed; the page says \"classiques de la techno\" (answer, FAQ title, description); the literal singular form does not fit a sentence here"
+    },
+    {
+      "term": "techno années 90",
+      "volume": null,
+      "band": "not measured",
+      "note": "seed with no row"
+    },
+    {
+      "term": "musique techno année 90",
+      "volume": null,
+      "band": "100-1K",
+      "note": "singular \"année 90\" does not fit a French sentence, and the English page has no 1990s section"
+    },
+    {
+      "term": "musique techno gratuite",
+      "volume": null,
+      "band": "100-1K",
+      "note": "free downloads; the site hands out no files"
+    },
+    {
+      "term": "vinyle techno",
+      "volume": null,
+      "band": "100-1K",
+      "note": "shopping intent"
+    }
+  ]
+}

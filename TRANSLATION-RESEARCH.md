@@ -551,3 +551,14 @@ Canada festivals, Australia festivals, psytrance festivals, best trance tracks, 
 - **Review.** Six Sonnet reviews, all read both rule files whole: 18 findings, 17 applied. Open items ruled: hyphenated compounds ("Trance-Songs") count as the measured phrase; "Marathons und letzte Nächte" stays, matching the English heading, since it speaks of length, not completeness.
 - **Audit fixes.** Australia description trimmed to 164.
 - **Cost.** cost: 26.36M, 6 pages, 4.39M/page; main 8.38M in 68 steps, subagents 17.98M in 16. Over 2M/page and 40 steps because of the KP overrun above.
+
+### French batch 2 (13 November 2026)
+
+Canada festivals, Australia festivals, psytrance festivals, best trance tracks, best techno tracks, best DJ sets of all time.
+
+- **Method.** Keyword Planner, France/French, 13 November 2026, three submissions (439 rows from the first, then two more), plus one google.fr SERP per page. Not measured: "meilleure musique trance", "trance années 2000", "techno années 90" (no row).
+- **KP overran.** Three attempts: the location picker does not open on the seed page, results-page labels differ and 30-row slices truncated, and the seed editor broke on a second set. Three defects logged and fixed in `scripts/kp-run.md`; cap 24 calls per country pass.
+- **Writers.** One Opus writer per page from the de siblings; media unchanged. The techno FAQ "top 20" is translated from the English answer on f4435810 ("neuf, pas vingt"). Two writers hit the usage limit and were resumed.
+- **Review.** Six Sonnet reviews, all read both rule files whole. Open items ruled: trance leaves the EDM Tunes source out (no URL, as in en and de); Canada "Parmi les festivals électro" became "Côté électro", measured phrase kept. Australia and psytrance now link each other's fr pages.
+- **Audit fixes.** Trance title cut to 58 chars. The three fr festival roundups were missing from the roundups list in `audit-next-festival-guides.mjs`; added, and `translation-brief.mjs` now prints that line (defect `translation-brief-misses-festival-roundup-list`).
+- **Cost.** cost: 24.05M, 6 pages, 4.01M/page; main 7.02M in 61 steps, subagents 17.03M in 16. Over 2M/page and 40 steps because of the KP overrun (two KP subagents, 4.0M) and the usage-limit pause.

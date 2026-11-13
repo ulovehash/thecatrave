@@ -2293,6 +2293,50 @@
         "file": "best-techno-tracks-draft.md",
         "contains": "This page picks nine, not twenty"
       }
+    },
+    {
+      "id": "kp-country-location-on-seed-page",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "French batch 2 Keyword Planner pass: after ten seeds were typed on the Discover new keywords page, the Locations and Language row was off-screen and clicking 'Locations settings, United States' twice opened nothing; the 18-call cap ran out with 0 rows. kp-run.md step 7 put location before Get results, and the cap did not allow for the country pass's extra clicks.",
+      "should_have_caught": "scripts/kp-run.md step 7",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "set the country and language on the results page"
+      }
+    },
+    {
+      "id": "kp-results-page-labels-and-slice-size",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "French batch 2 retry: on the Keyword ideas results page the location and language buttons are labelled 'location_on United States edit' and 'translate English edit', so the documented find for 'Language settings' failed and cost a call; and 30-row slices of window.__kpRows arrived truncated for long French keywords, so only 13 fit, which used the calls meant for submissions 2 and 3.",
+      "should_have_caught": "scripts/kp-run.md steps 7 and 11",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "translate English edit"
+      }
+    },
+    {
+      "id": "kp-second-seed-set-editor",
+      "found": "2026-11-13",
+      "by": "agent",
+      "what": "French batch 2 sets 2-3: kp-run.md said only 'Edit search or the seed box' for a second seed set. The 'Change existing keywords or website' editor did not reopen by aria-label on the second try, a fast chip-removal loop left 3-5 old seeds behind, and 'Get results' was not found by innerText; recovery used the whole 24-call cap.",
+      "should_have_caught": "scripts/kp-run.md, a second seed set",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "Remove the old seed chips one at a time"
+      }
+    },
+    {
+      "id": "translation-brief-misses-festival-roundup-list",
+      "found": "2026-11-13",
+      "by": "audit-next-festival-guides.mjs, on the fr batch 2 build",
+      "what": "The fr Canada, Australia and psytrance roundups failed the planner checks and the 99-page inventory count, because translation-brief.mjs never printed the roundups list in audit-next-festival-guides.mjs, where the de versions had been added by hand.",
+      "should_have_caught": "translation-brief.mjs, which prints every registration line a translated page needs",
+      "fix": {
+        "file": "scripts/translation-brief.mjs",
+        "contains": "or it is audited as a single-festival page"
+      }
     }
   ]
 }

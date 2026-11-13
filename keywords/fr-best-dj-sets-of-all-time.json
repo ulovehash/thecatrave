@@ -1,0 +1,44 @@
+{
+  "page": "fr/meilleurs-dj-sets.html",
+  "seed": "meilleurs dj sets",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, 13 November 2026, location France, language French, submission 2 of fr batch 2; volumes are Planner buckets. No data is not zero.",
+  "terms": [
+    {
+      "term": "dj set",
+      "volume": "1K-10K",
+      "note": "seed, competition Medium; title, H1, intro, FAQ"
+    },
+    {
+      "term": "meilleurs dj sets",
+      "volume": "0-10",
+      "note": "seed, no competition data; title, H1, FAQ question \"Où regarder les meilleurs DJ sets ?\""
+    },
+    {
+      "term": "meilleur dj set",
+      "volume": "0-10",
+      "note": "seed, no competition data; FAQ question \"Quel est le meilleur DJ set de tous les temps ?\""
+    },
+    {
+      "term": "meilleur set dj",
+      "volume": "10-100",
+      "note": "Planner idea, competition Medium; FAQ answer \"Il n’y a pas de meilleur set DJ pour tout le monde\""
+    },
+    {
+      "term": "meilleurs dj sets de tous les temps",
+      "volume": null,
+      "note": "live SERP query (Google hl=fr gl=fr); no tool returned a volume; not measured. Title, H1, summary banner label"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "meilleur dj du monde",
+      "volume": "100-1K",
+      "why": "asks for a ranking of DJs, not of recorded sets; the English page has no section that answers it"
+    },
+    {
+      "term": "mix techno",
+      "volume": null,
+      "why": "taken by fr/meilleurs-mix-techno.html; used only as the link anchor to that guide"
+    }
+  ]
+}

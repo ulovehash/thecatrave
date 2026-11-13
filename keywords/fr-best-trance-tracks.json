@@ -1,0 +1,28 @@
+{
+  "page": "fr/meilleures-musiques-trance.html",
+  "seed": "meilleures musiques trance",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 13 November 2026, location France, language French, buckets only; plus google.fr People also ask, related searches and top results the same day. No data is not zero. No Ahrefs units spent.",
+  "note": "Volumes are Keyword Planner buckets, not exact figures. Seeds 'meilleure musique trance' and 'trance années 2000' returned no row; 'trance années 2000' is not used on the page. 'musique trance' and 'artistes de trance' belong to fr/musique-trance.html and are not head terms here.",
+  "terms": [
+    {
+      "term": "meilleures musiques trance",
+      "volume": "10-100",
+      "note": "seed; title, H1, description, answer box, H2 of the chart years section and FAQ question on the 90s records"
+    },
+    {
+      "term": "chanson trance",
+      "volume": "10-100",
+      "note": "seed (3-month change -100%); FAQ question on the best trance song of all time"
+    },
+    {
+      "term": "meilleure musique trance",
+      "volume": null,
+      "note": "seed with no row; H2 of the best-ever section; not measured"
+    },
+    {
+      "term": "musiques trance de tous les temps",
+      "volume": null,
+      "note": "google.fr top-result wording ('de tous les temps'); title, H1 and answer box; not measured"
+    }
+  ]
+}

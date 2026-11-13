@@ -112,6 +112,11 @@ if (!sibling) {
     out.push(`      festival planner: add '/${lang}/<slug>' to paths and a ${lang} argument to every tri() in this entry`);
   }
   out.push(...grepLine('festival-editions.mjs', `'${sibling.file}'`));
+  // Festival roundups are listed by file in audit-next-festival-guides.mjs; a
+  // translated roundup missing there is audited as an individual festival page.
+  if (fs.readFileSync('audit-next-festival-guides.mjs', 'utf8').includes(`'${sibling.file}'`)) {
+    out.push('  audit-next-festival-guides.mjs  roundups: add the new file next to the sibling\'s, or it is audited as a single-festival page');
+  }
 
   // Festival planner: modules call localizedFestivalPlanning('<key>', lang),
   // and the block lives in content/festival-planning-data.mjs, not the registry.
