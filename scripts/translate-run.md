@@ -21,12 +21,11 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
 
 - **One fresh session per batch.** A batch is one language and up to about six pages. Every call pays for the earlier conversation in context, which cost 4–5M in the article trial.
 - **Batch by language,** because Keyword Planner is set to one country and one language at a time. One pass then covers every page in the batch.
-- **The main session coordinates. It does not translate.** It runs the brief, the keyword passes, the registration, the builds and the push. Each page is read and written by one Opus writer subagent per page (step 5), and reviewed by a Sonnet subagent (step 10). In batch 1 of de, fr and es, a step cost about 130k in every language. The cost per page rose from 2.0M to 4.4M only because the steps rose from 78 to 126 to 140, all in one context that carried every earlier page.
-- **Step budget: about 40 main-session steps for a batch of six.** Every step costs at least 79k before any work (system prompt, rules, memory). A subagent step costs at least 58k, so a subagent pays off only when it saves the main session several steps.
+- **The main session writes the pages; subagents only review and run Keyword Planner.** Billed by price, a cache read costs about a tenth of fresh input and a cache write about 1.25 times it. A long main session is mostly cache reads. Every new subagent starts with about 100k of cache writes (system prompt, rules, its own reads). Batch 2 of de, fr and es moved the writing into six Opus writer subagents. The main session fell from 18.6M to 6.9M raw tokens, but the batch cost the same: 5.8M priced (`translation-cost.mjs`), against 5.9M for Spanish batch 1 and 3.3M for German batch 1, which was written in the main session. The writers alone cost 1.85M priced, against an estimated 1.1M for writing them in the main session.
+- **Budget: 0.7M priced per page**, as `node scripts/translation-cost.mjs` prints it. Step counts still matter, because every step costs at least 79k of context, but price is the measure.
 - Models (say which one fits at each phase):
   - Sonnet subagent: the Keyword Planner pass, and the review with its fixes.
-  - Opus subagent: the draft, the module and the keyword map, one page each.
-  - Main session: registration edits, checks and the push.
+  - Main session (Opus): the drafts, modules and keyword maps, registration, checks and the push.
 - **Don't read `TRANSLATION-RESEARCH.md` whole** (31 KB). Run `tail -30` once to see the format, then append the batch's entry.
 - Don't open other translations, other modules or the English HTML. The brief names every file the page needs.
 
@@ -51,19 +50,14 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
    - Google with `hl`/`gl` for the language, for People also ask and related searches.
    - On a bot check, Bing once in the same locale. Never bypass a check.
    - If both fail, the wording comes from the Keyword Planner rows and the terms stay "not measured".
-   Write the SERP notes for the batch to `<scratchpad>/serp-<lang>-<batch>.md`, one heading per page, so the writers read a file, not the conversation.
-5. **Writers: one Opus writer subagent per page, all started in one message** (`Agent`, `model: "opus"`). The main session reads none of the page files itself. Each writer's prompt carries:
-   - that page's brief output, pasted as printed by step 1;
-   - the TSV and SERP-notes paths, and which seeds belong to the page;
-   - steps 5–7 of this file and the "Where calls go wrong" list, by reference: "follow `scripts/translate-run.md` steps 5–7".
+   Write the SERP notes for the batch to `<scratchpad>/serp-<lang>-<batch>.md`, one heading per page, so the pages are written from a file, not the conversation.
+5. **Write the pages in the main session, one page at a time.** First, once per batch, read `WRITING.md`, the TSV and the SERP notes in one parallel message. Then, for each page:
+   1. read, in one parallel message: the English draft, the sibling module and the sibling draft. Read the media record only when there is no sibling;
+   2. draft the structure (step 6);
+   3. write the three files (step 7) in one parallel message;
+   4. go to the next page. All the lint runs together in step 9.
 
-   The writer:
-   1. reads, in one parallel message: `WRITING.md`, the English draft, the sibling module and the sibling draft, and the TSV and SERP notes. It reads the media record only when there is no sibling;
-   2. drafts the structure (step 6);
-   3. writes the three files (step 7) in one parallel message;
-   4. runs `node scripts/lint-draft.mjs <lang>/<key>-draft.md` and fixes what it reports.
-
-   It does not build, and does not touch `pages.mjs`, `home-articles.mjs`, the festival or club data files, or another page: those are shared and the main session edits them. It returns only the three paths, the title, the H1 and the description, and the terms it marked "not measured". About 10 steps per page.
+   No writer subagents: each would re-read `WRITING.md` and start a fresh context, which in batch 2 cost more than the main session saved. The structure and wording rules are the same as before. About 3 steps per page.
 6. **Structure:** title, H2s, H3s and FAQ, each with its measured term and bucket, or "not measured". A term no tool returned is `volume: null`, never a guess.
 7. **Write, in one parallel message per page:**
    - `<lang>/<key>-draft.md`, translated from the **English** draft. The sibling only gives the structure: the `[Image:]`, `[Embed:]` and `[Table:]` lines stay identical, in the same order.
@@ -90,14 +84,14 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
     ```bash
     npm run check:layout 2>&1 | tail -15 && npm run check:links 2>&1 | tail -5
     ```
-    Then run `node scripts/translation-cost.mjs --pages <n>` once. It reads this session's transcript and its subagents', and prints the tokens, the main-session step count and the cost per page. Append the batch to `TRANSLATION-RESEARCH.md`, in 15 lines or fewer: the tool, date and locations; the decisions; what is "not measured"; and the cost line the script prints. Over 2M a page or 40 main steps: say which step overran, in the entry.
+    Then run `node scripts/translation-cost.mjs --pages <n>` once. It reads this session's transcript and its subagents', and prints the priced cost (and raw tokens), the main-session step count and the priced cost per page. Append the batch to `TRANSLATION-RESEARCH.md`, in 15 lines or fewer: the tool, date and locations; the decisions; what is "not measured"; and the cost line the script prints. Over 0.7M priced a page or 40 main steps: say which step overran, in the entry.
 13. **Push** only as `CLAUDE.md` and the owner's standing rules say: from an isolated worktree on `origin/main`, then watch the gate.
 
 ## Keyword Planner, country and language
 
 `scripts/kp-run.md`, with these changes:
 
-- **Step 6.** Seeds are the batch's head terms in the target language, plus the English names people search unchanged (festival and club names). Up to 10 per submission. A batch of six pages is two or three submissions, each in its own fresh subagent, as in "a second seed set" in `kp-run.md`.
+- **Step 6.** Seeds are the batch's head terms in the target language, plus the English names people search unchanged (festival and club names). Up to 10 per submission. One submission per country: pick the 10 seeds that cover the most pages (each page's head term first; the ideas list returns its variants). A second submission, in its own fresh subagent as in "a second seed set" in `kp-run.md`, only for a page none of the 10 seeds covers. In Spanish batch 2, two submissions per country took four subagents and 1.35M priced, a quarter of the batch.
 - **Step 7.** Location and language:
   - Remove the United States and add the country: Germany for de, France for fr, Spain for es.
   - Set the language to the target language.

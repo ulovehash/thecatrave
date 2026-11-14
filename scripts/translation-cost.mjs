@@ -6,10 +6,11 @@
 //                                                     ARTICLE-EDITORIAL-REVIEW.md and WRITING.md whole
 //   --pages N                                         override the page count
 //
-// Tokens are input + output + cache read + cache write, per API message, as
-// billed. Batch 1 of de, fr and es cost 2.0M, 3.3M and 4.4M a page with the
-// same ~130k per main-session step: the step count is what moved (78, 126,
-// 140). So the script prints steps first. Target: 40 main steps, 2M a page.
+// Raw tokens are input + output + cache read + cache write, per API message.
+// The measure is the priced cost, in input-token equivalents:
+// priced = input + 1.25 cache write + 0.1 cache read + 5 output.
+// Raw tokens hid that batch 2's writer subagents saved nothing: Spanish batch 2
+// was 5.76M priced against 5.88M for batch 1. Budget: 0.7M priced a page.
 // It reads files only. It writes nothing.
 import fs from 'node:fs';
 import os from 'node:os';
@@ -34,7 +35,7 @@ const pages = new Set();
 
 function read(file) {
   const seen = new Set();
-  const r = { tokens: 0, steps: 0, ctx: 0, peak: 0, model: '', label: '', reads: new Set() };
+  const r = { priced: 0, tokens: 0, steps: 0, ctx: 0, peak: 0, model: '', label: '', reads: new Set() };
   for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
     let rec; try { rec = JSON.parse(line); } catch { continue; }
     if (rec.type === 'user' && !r.label) {
@@ -58,6 +59,7 @@ function read(file) {
     const u = m.usage ?? {};
     const ctx = (u.input_tokens ?? 0) + (u.cache_read_input_tokens ?? 0) + (u.cache_creation_input_tokens ?? 0);
     r.tokens += ctx + (u.output_tokens ?? 0);
+    r.priced += (u.input_tokens ?? 0) + 1.25 * (u.cache_creation_input_tokens ?? 0) + 0.1 * (u.cache_read_input_tokens ?? 0) + 5 * (u.output_tokens ?? 0);
     r.ctx += ctx; r.peak = Math.max(r.peak, ctx); r.steps++;
     r.model = m.model ?? r.model;
   }
@@ -70,14 +72,16 @@ const top = read(main);
 const parts = subs.map(f => ({ file: f, ...read(f) }));
 const subTokens = parts.reduce((s, p) => s + p.tokens, 0);
 const total = top.tokens + subTokens;
+const subPriced = parts.reduce((s, p) => s + p.priced, 0);
+const priced = top.priced + subPriced;
 const n = pagesArg ?? pages.size;
 
 console.log(`session ${path.basename(main)}`);
-console.log(`  main      ${M(top.tokens)}  ${top.steps} steps  avg ctx ${K(top.ctx / Math.max(top.steps, 1))}  peak ${K(top.peak)}  ${top.model}`);
-for (const p of parts.sort((a, b) => b.tokens - a.tokens)) {
-  console.log(`  subagent  ${M(p.tokens)}  ${p.steps} steps  peak ${K(p.peak)}  ${p.model.replace('claude-', '')}  ${p.label}`);
+console.log(`  main      ${M(top.priced)} priced  ${M(top.tokens)} raw  ${top.steps} steps  avg ctx ${K(top.ctx / Math.max(top.steps, 1))}  peak ${K(top.peak)}  ${top.model}`);
+for (const p of parts.sort((a, b) => b.priced - a.priced)) {
+  console.log(`  subagent  ${M(p.priced)} priced  ${M(p.tokens)} raw  ${p.steps} steps  peak ${K(p.peak)}  ${p.model.replace('claude-', '')}  ${p.label}`);
 }
-console.log(`cost: ${M(total)}, ${n} pages${pagesArg ? '' : ' (modules written; --pages N if wrong)'}, ${n ? M(total / n) : '?'}/page; main ${M(top.tokens)} in ${top.steps} steps, subagents ${M(subTokens)} in ${parts.length}${top.steps > 40 ? '  OVER the 40-step budget' : ''}${n && total / n > 2e6 ? '  OVER 2M/page' : ''}`);
+console.log(`cost: ${M(priced)} priced, ${n} pages${pagesArg ? '' : ' (modules written; --pages N if wrong)'}, ${n ? M(priced / n) : '?'}/page priced; main ${M(top.priced)} in ${top.steps} steps, subagents ${M(subPriced)} in ${parts.length}; raw ${M(total)}${top.steps > 40 ? '  OVER the 40-step budget' : ''}${n && priced / n > 0.7e6 ? '  OVER 0.7M/page priced' : ''}`);
 
 if (flag('--reads')) {
   const need = ['ARTICLE-EDITORIAL-REVIEW.md', 'WRITING.md'];

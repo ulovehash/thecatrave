@@ -2233,8 +2233,9 @@
       "should_have_caught": "scripts/translate-run.md steps 5–9",
       "fix": {
         "file": "scripts/translate-run.md",
-        "contains": "one Opus writer subagent per page"
-      }
+        "contains": "Write the pages in the main session, one page at a time"
+      },
+      "superseded": "2026-11-14: writer subagents cost as much as they saved once priced (translation-cost-unweighted-and-writer-subagents-no-saving). The main session writes again, from files, one page at a time, with all lint in one run."
     },
     {
       "id": "kp-second-pass-reuses-subagent",
@@ -2356,6 +2357,17 @@
       "fix": {
         "file": "scripts/kp-run.md",
         "contains": "A second seed set is a fresh subagent, never the same one"
+      }
+    },
+    {
+      "id": "translation-cost-unweighted-and-writer-subagents-no-saving",
+      "found": "2026-11-14",
+      "by": "owner question on es batch 2 cost",
+      "what": "Batch 2 of de, fr and es moved writing into one Opus writer subagent per page. translation-cost.mjs summed raw tokens, so the main session's drop (18.6M to 6.9M raw in Spanish) read as a saving. Priced, Spanish batch 2 cost 5.76M against 5.88M for batch 1: the writers' cache writes cancelled it, and two Keyword Planner submissions per country took a quarter of the batch.",
+      "should_have_caught": "scripts/translation-cost.mjs, which counted a cache read the same as fresh input",
+      "fix": {
+        "file": "scripts/translation-cost.mjs",
+        "contains": "priced = input + 1.25 cache write + 0.1 cache read + 5 output"
       }
     }
   ]
