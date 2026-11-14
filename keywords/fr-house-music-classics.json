@@ -1,0 +1,11 @@
+{
+  "page": "fr/classiques-house.html",
+  "seed": "classique house",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, France, French, last 12 months, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Wording from google.com hl=fr gl=fr the same day (PAA 'Quelle est la musique house la plus connue ?', 'Quels sont les tubes house les plus populaires des années 90 ?'). No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "'musique house' (1K-10K) and 'house musique' belong to /fr/musique-house and are not targeted here. 'house music 1990' (100-1K) is not wedged in: the page lists records from 1988 to 2001, not a 1990 list. 'meilleur son house' and 'meilleur house music' are dropped rather than forced.",
+  "terms": [
+    {"term": "classique house", "volume": 10, "range": "10-100", "note": "title and H1"},
+    {"term": "classiques house", "volume": null, "note": "plural; hero, FAQ; not measured"},
+    {"term": "la musique house", "volume": 10, "range": "10-100", "note": "H1 and section heading"}
+  ]
+}

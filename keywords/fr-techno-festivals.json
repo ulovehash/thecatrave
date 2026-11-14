@@ -1,0 +1,14 @@
+{
+  "page": "fr/festivals-techno.html",
+  "seed": "festival techno",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, France, French, last 12 months, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Wording from google.com hl=fr gl=fr the same day. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "No 2026 or 2027 variant was returned (only 2022 and 2023), so the year in the title is not measured. 'meilleurs festivals techno' returned a row with no data. 'festival techno pays bas' (100-1K) is not wedged in; the Netherlands entries carry 'Pays-Bas' as written.",
+  "terms": [
+    {"term": "festival techno", "volume": 1000, "range": "1K-10K", "note": "description, answer, FAQ and body"},
+    {"term": "festival hard techno", "volume": 100, "range": "100-1K", "note": "hard H2 body: 'le festival hard techno conçu pour ce son'"},
+    {"term": "plus gros festival techno du monde", "volume": 10, "range": "10-100", "note": "biggest H2: 'Quel est le plus gros festival techno du monde ?'"},
+    {"term": "meilleur festival techno", "volume": 10, "range": "10-100", "note": "answer and FAQ: 'Quel est le meilleur festival techno ?'"},
+    {"term": "meilleurs festivals techno", "volume": null, "note": "title and H1; row returned with no data, unmeasured"},
+    {"term": "festivals techno 2027", "volume": null, "note": "title and dates H2; not returned, unmeasured"}
+  ]
+}

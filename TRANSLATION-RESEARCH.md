@@ -584,3 +584,14 @@ Techno festivals, Electric Forest, Dekmantel, Belgrade clubs, house music classi
 - **Review.** Five Sonnet reviews, all read both rule files whole: 32 findings, 26 applied. Ruled: a reviewer's "Die Belgrad Clubs" wedge reverted; the house lead paragraph restored (the English builder hardcodes it, and the listening-structure audit needs it); the Dekmantel Selectors search-result aside cut; the Time Warp sentence reworded.
 - **Tooling.** `club-visit-baseline.mjs` failed with an English sibling (`img/` against `/img/`); logged as `club-visit-baseline-english-sibling-prefix` and fixed.
 - **Cost.** cost: 3.64M priced, 5 pages, 0.73M/page priced; main 2.27M in 98 steps, subagents 1.38M in 6. Just over 0.7M/page and the step budget: the club-baseline fix and the reverted review items.
+
+### French batch 3 (14 November 2026)
+
+Techno festivals, Electric Forest, Dekmantel, Belgrade clubs, house music classics. Written in the main session from the German batch 3 siblings, no writer subagents.
+
+- **Method.** One France/French Keyword Planner submission of ten seeds, buckets only; wording from google.com hl=fr gl=fr. No Ahrefs units.
+- **Pages.** Slugs: festivals-techno, electric-forest-festival, dekmantel-festival, boite-de-nuit-belgrade, classiques-house. fr Electric Forest and Dekmantel planners added; festival inventory 101 to 103 and the fr techno roundup registered. Two titles cut to 65 characters after the SEO audit.
+- **Keywords.** "club belgrade", "discotheque belgrade", "house music 1990", "meilleur son house" not wedged in; "musique house" left to /fr/musique-house.
+- **Review.** Five Sonnet reviews, all read both rule files whole: 22 findings, 15 applied. Ruled: the house lead paragraph restored (listening-structure audit) and the house FAQ kept at "notamment", as in German; two Electric Forest planner lines fixed (totem height, ticket note); the Dekmantel search-snippet aside stays out.
+- **Open.** The English Dekmantel page says 29 July to 2 August 2027; a Google snippet showed 28 July to 1 August. Not changed; needs a check against dekmantelfestival.com.
+- **Cost.** cost: 3.05M priced, 5 pages, 0.61M/page priced; main 1.67M in 67 steps, subagents 1.39M in 6. Over the step budget, under 0.7M/page.

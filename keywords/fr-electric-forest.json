@@ -1,0 +1,10 @@
+{
+  "page": "fr/electric-forest-festival.html",
+  "seed": "electric forest festival",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, France, French, last 12 months, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Wording from google.com hl=fr gl=fr the same day ('billets', 'pass'). No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "Only the seed was returned; no 2027, billet, dates or line up variant. The French section names are SERP wording, not measured terms.",
+  "terms": [
+    {"term": "electric forest festival", "volume": 100, "range": "100-1K", "note": "title, H1, what-is H2 and body"},
+    {"term": "electric forest 2027", "volume": null, "note": "dates H2 and FAQ; not returned, unmeasured"}
+  ]
+}

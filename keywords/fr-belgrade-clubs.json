@@ -1,0 +1,12 @@
+{
+  "page": "fr/boite-de-nuit-belgrade.html",
+  "seed": "boite de nuit belgrade",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, France, French, last 12 months, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Wording from google.com hl=fr gl=fr the same day (PAA 'Où faire la fête à Belgrade', 'Où puis-je sortir à Belgrade'; splavovi called 'péniches'). No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "'club belgrade', 'vie nocturne belgrade' and 'discotheque belgrade' (each 10-100) are not wedged in; the page says 'la vie nocturne à Belgrade'. French drops the circumflex in search; the audit folds accents, so 'Boîte de nuit Belgrade' answers the seed.",
+  "terms": [
+    {"term": "boite de nuit belgrade", "volume": 10, "range": "10-100", "note": "title and H1"},
+    {"term": "boîtes de nuit à belgrade", "volume": null, "note": "plural of the head term; answer, best-now H2, FAQ; not measured"},
+    {"term": "vie nocturne à belgrade", "volume": null, "note": "natural form of 'vie nocturne belgrade' (10-100); overview H2; not measured as written"},
+    {"term": "où sortir à belgrade", "volume": null, "note": "PAA wording; where-to-go H2"}
+  ]
+}

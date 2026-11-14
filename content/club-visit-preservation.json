@@ -3413,5 +3413,43 @@
       "/img/belgrade-clubs/savski-kej-raft-1200.webp",
       "/img/thecatrave-author-800.jpg"
     ]
+  },
+  "fr/boite-de-nuit-belgrade.html": {
+    "title": "Boîte de nuit Belgrade : Drugstore, Klub 20/44 et splavovi",
+    "canonical": "https://thecatrave.com/fr/boite-de-nuit-belgrade",
+    "description": "Drugstore, Klub 20/44, Barutana : les boîtes de nuit à Belgrade qui valent une nuit, l’expulsion des splavovi de la Save et des sets Boiler Room à écouter.",
+    "h1": "Boîtes de nuit et vie nocturne à Belgrade, du Drugstore aux péniches",
+    "published": "2026-11-14",
+    "ids": [
+      "promo-bar",
+      "main-content",
+      "contents",
+      "introduction",
+      "own-playlist-rare-electronic-music",
+      "belgrade-nightlife-history",
+      "best-clubs-now",
+      "bandcamp-support-title",
+      "drugstore",
+      "klub-20-44",
+      "barutana",
+      "techno",
+      "splavovi",
+      "where-to-go",
+      "faq",
+      "author-title",
+      "sources",
+      "read-next-title"
+    ],
+    "media": [
+      "https://open.spotify.com/embed/playlist/74KiWnE4fmEPigOa4SARz2?utm_source=generator",
+      "/img/belgrade-clubs/sava-from-kalemegdan-1200.webp",
+      "https://www.youtube-nocookie.com/embed/Yr1MNU8V-2w",
+      "https://bandcamp.com/EmbeddedPlayer/track=3192532299/size=large/bgcol=0a0a0a/linkcol=ff5a36/tracklist=false/artwork=none/transparent=true/",
+      "https://www.youtube-nocookie.com/embed/14ksGZfcgHM",
+      "https://www.youtube-nocookie.com/embed/xjO25HRDe-w",
+      "https://www.youtube-nocookie.com/embed/rJqr7_Q2uxE",
+      "/img/belgrade-clubs/savski-kej-raft-1200.webp",
+      "/img/thecatrave-author-800.jpg"
+    ]
   }
 }

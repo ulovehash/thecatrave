@@ -2139,6 +2139,41 @@ export const frenchArticleCatalog = [
     description:"Neuf classiques de la musique techno, de No UFO’s et Strings of Life à The Bells et Doppler, chacun avec un lecteur et les faits qui le racontent.",
     image:'img/best-techno-tracks/richie-hawtin-fabric-320.webp', srcset:'img/best-techno-tracks/richie-hawtin-fabric-320.webp 320w,img/best-techno-tracks/richie-hawtin-fabric-1200.webp 1200w',
     width:1200, height:900, alt:"Richie Hawtin aux platines du Fabric à Londres"
+  },
+  {
+    page:'fr/festivals-techno.html', category:'festivals', tags:['discovery','techno','history'], href:'/fr/festivals-techno', type:'Liste', topic:"Festivals techno",
+    title:"Meilleurs festivals techno 2027 : Awakenings, Time Warp, Movement",
+    description:"Awakenings, Time Warp et Movement : les festivals techno 2027 classés par son, avec leurs dates, confirmées ou non.",
+    image:'img/techno-festivals/kappa-solar-2025-320.webp', srcset:'img/techno-festivals/kappa-solar-2025-320.webp 320w,img/techno-festivals/kappa-solar-2025-1200.webp 1200w',
+    width:1200, height:900, alt:"La Solar Stage du Kappa FuturFestival à Turin, en juillet 2025"
+  },
+  {
+    page:'fr/electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/fr/electric-forest-festival', type:'Guide', topic:"Electric Forest",
+    title:"Electric Forest Festival 2027 : billets, dates, camping, line up",
+    description:"Electric Forest 2027 à Rothbury, dans le Michigan : dates, billets et camping, le trajet et quoi emporter.",
+    image:'img/electric-forest/entrance-2018-320.webp', srcset:'img/electric-forest/entrance-2018-320.webp 320w,img/electric-forest/entrance-2018-1200.webp 1200w',
+    width:1200, height:800, alt:"L’arche d’entrée en bois d’Electric Forest, avec des festivaliers devant"
+  },
+  {
+    page:'fr/dekmantel-festival.html', category:'festivals', tags:['discovery','house','techno'], href:'/fr/dekmantel-festival', type:'Guide', topic:"Dekmantel",
+    title:"Dekmantel Festival 2027 : dates, billets, Selectors, Amsterdam",
+    description:"Dekmantel dans l’Amsterdamse Bos, à partir de 18 ans : dates 2027, règles des billets, Selectors en Croatie et sets à écouter.",
+    image:'img/dekmantel/midland-2017-320.webp', srcset:'img/dekmantel/midland-2017-320.webp 320w,img/dekmantel/midland-2017-1200.webp 1200w',
+    width:1200, height:799, alt:"Midland en DJ set au Dekmantel Festival en 2017"
+  },
+  {
+    page:'fr/boite-de-nuit-belgrade.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/fr/boite-de-nuit-belgrade', type:'Guide', topic:"Boîtes de nuit à Belgrade",
+    title:"Boîte de nuit Belgrade : Drugstore, Klub 20/44 et splavovi",
+    description:"Drugstore, Klub 20/44 et Barutana : les boîtes de nuit à Belgrade qui valent une nuit, et l’expulsion des splavovi de la Save.",
+    image:'img/belgrade-clubs/sava-from-kalemegdan-320.webp', srcset:'img/belgrade-clubs/sava-from-kalemegdan-320.webp 320w,img/belgrade-clubs/sava-from-kalemegdan-1200.webp 1200w',
+    width:1200, height:900, alt:"La Save à Belgrade vue depuis la forteresse de Kalemegdan, avec des ponts routiers et des bateaux amarrés"
+  },
+  {
+    page:'fr/classiques-house.html', category:'digging', tags:['house','discovery','history'], href:'/fr/classiques-house', type:'Liste', topic:"Classiques house",
+    title:"Classique house : dix classiques de la musique house, 1988 à 2001",
+    description:"Dix classiques house dans l’ordre, d’Inner City et Lil Louis à Stardust et Kings of Tomorrow, dont neuf avec un lecteur.",
+    image:'img/live-dj-sets/the-lot-radio-320.webp', srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:"Un DJ dans la cabine de The Lot Radio, à Brooklyn"
   }
 ];
 
