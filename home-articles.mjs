@@ -2644,6 +2644,48 @@ export const spanishArticleCatalog = [
     width:1200, height:800, alt:'El Boom Festival visto desde los Being Fields, 2018'
   },
   {
+    page:'es/festivales-techno.html', category:'festivals', tags:['discovery','techno','history'], href:'/es/festivales-techno', type:'Lista', topic:"Festivales de techno",
+    title:"Festivales techno 2027: Awakenings, Time Warp, Movement",
+    description:"Awakenings, Time Warp y Movement: los festivales de techno 2027 ordenados por sonido, con sus fechas, confirmadas o no.",
+    image:'img/techno-festivals/kappa-solar-2025-320.webp', srcset:'img/techno-festivals/kappa-solar-2025-320.webp 320w,img/techno-festivals/kappa-solar-2025-1200.webp 1200w',
+    width:1200, height:900, alt:"El escenario Solar del Kappa FuturFestival en Turín, en julio de 2025"
+  },
+  {
+    page:'es/electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/es/electric-forest-festival', type:'Guía', topic:"Electric Forest",
+    title:"Electric Forest Festival 2027: entradas, fechas, camping, line-up",
+    description:"Electric Forest 2027 en Rothbury, Michigan: fechas, entradas y camping, cómo llegar y qué llevar.",
+    image:'img/electric-forest/entrance-2018-320.webp', srcset:'img/electric-forest/entrance-2018-320.webp 320w,img/electric-forest/entrance-2018-1200.webp 1200w',
+    width:1200, height:800, alt:"El arco de madera de la entrada de Electric Forest, con gente delante"
+  },
+  {
+    page:'es/dekmantel-festival.html', category:'festivals', tags:['discovery','house','techno'], href:'/es/dekmantel-festival', type:'Guía', topic:"Dekmantel",
+    title:"Dekmantel Festival 2027: fechas, entradas, Selectors, Ámsterdam",
+    description:"Dekmantel en el Amsterdamse Bos, desde 18 años: fechas de 2027, normas de entradas, Selectors en Croacia y sets para escuchar.",
+    image:'img/dekmantel/midland-2017-320.webp', srcset:'img/dekmantel/midland-2017-320.webp 320w,img/dekmantel/midland-2017-1200.webp 1200w',
+    width:1200, height:799, alt:"Midland pinchando en Dekmantel Festival en 2017"
+  },
+  {
+    page:'es/discotecas-belgrado.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/es/discotecas-belgrado', type:'Guía', topic:"Discotecas en Belgrado",
+    title:"Discotecas Belgrado: Drugstore, Klub 20/44 y los splavovi",
+    description:"Drugstore, Klub 20/44 y Barutana: las discotecas de Belgrado que merecen una noche, y el desalojo de los splavovi del Sava.",
+    image:'img/belgrade-clubs/sava-from-kalemegdan-320.webp', srcset:'img/belgrade-clubs/sava-from-kalemegdan-320.webp 320w,img/belgrade-clubs/sava-from-kalemegdan-1200.webp 1200w',
+    width:1200, height:900, alt:"El Sava en Belgrado visto desde la fortaleza de Kalemegdan, con puentes y barcos amarrados"
+  },
+  {
+    page:'es/clasicos-house.html', category:'digging', tags:['house','discovery','history'], href:'/es/clasicos-house', type:'Lista', topic:"Clásicos house",
+    title:"Clásicos house: diez canciones de house, de 1988 a 2001",
+    description:"Diez clásicos house en orden, de Inner City y Lil Louis a Stardust y Kings of Tomorrow, nueve con reproductor.",
+    image:'img/live-dj-sets/the-lot-radio-320.webp', srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:"Un DJ en la cabina de The Lot Radio, en Brooklyn"
+  },
+  {
+    page:'es/mejores-playlists-spotify.html', category:'digging', tags:['discovery','tools','house','bass'], href:'/es/mejores-playlists-spotify', type:'Lista', topic:"Playlists de Spotify",
+    title:"Mejores playlists Spotify: 12 elegidas por personas",
+    description:"Doce playlists con un punto de vista reconocible, de KEXP y Pitchfork a Four Tet, Bicep y el underground electrónico.",
+    image:'img/spotify-playlists/playlist-still-life-320.webp', srcset:'img/spotify-playlists/playlist-still-life-320.webp 320w,img/spotify-playlists/playlist-still-life-1200.webp 1200w',
+    width:1200, height:800, alt:"Unos auriculares con cable, un reproductor de música portátil y estuches translúcidos sobre una mesa de club a rayas"
+  },
+  {
     page:'es/mejores-canciones-techno.html', category:'digging', tags:['techno','discovery','history'], href:'/es/mejores-canciones-techno', type:'Lista', topic:'Clásicos del techno',
     title:'Mejores canciones techno: nueve temas que forjaron el sonido',
     description:"Las mejores canciones techno, de No UFO's y Strings of Life a The Bells y Doppler: nueve clásicos, cada uno con reproductor y los datos detrás.",

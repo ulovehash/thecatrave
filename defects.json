@@ -2380,6 +2380,13 @@
         "file": "scripts/club-visit-baseline.mjs",
         "contains": "English siblings store img/ paths without the leading slash"
       }
+    },
+    {
+      "id": "house-classics-faq-four-charted",
+      "found": "2026-11-14",
+      "by": "agent (es review, Spanish batch 3)",
+      "what": "house-music-classics-draft.md (published /house-music-classics), first FAQ answer: \"Four of them reached the UK pop charts\" lists only four, but the page's own entries give UK chart positions for Good Life (4), French Kiss (2), Passion (29) and Finally (24) as well. The Spanish es/house-music-classics-draft.md says \"entre otros\", which is true. The English needs reworded copy shown to the owner first.",
+      "should_have_caught": "the editorial review of the English draft; no check compares FAQ counts with the body"
     }
   ]
 }

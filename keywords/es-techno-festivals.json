@@ -1,0 +1,63 @@
+{
+  "page": "es/festivales-techno.html",
+  "seed": "festivales techno",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, read 2026-11-14, two passes: Spain, Spanish (scratchpad kp-es-3-spain.tsv) and Mexico + Argentina + Colombia + Chile, Spanish (scratchpad kp-es-3-latam.tsv), one submission each; buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.com (hl=es, gl=es), 2026-11-14 (scratchpad serp-es-3.md). No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "Spain returned 'festivales techno' and 'festival techno' at 100-1K; Mexico + Argentina + Colombia + Chile returned 'festival techno' and 'fiesta techno' at 100-1K and 'festivales techno' at 10-100. The page uses the plural with 'de' where Spanish prose needs it.",
+  "terms": [
+    {
+      "term": "festivales techno",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "title; 100-1K in Spain, 10-100 in Mexico + Argentina + Colombia + Chile"
+    },
+    {
+      "term": "festival techno",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "FAQ question; 100-1K in both passes"
+    },
+    {
+      "term": "festivales de techno",
+      "volume": 10,
+      "range": "10-100",
+      "note": "introduction and headings; 10-100 in both passes"
+    },
+    {
+      "term": "mejores festivales de techno del mundo",
+      "volume": 10,
+      "range": "10-100",
+      "note": "introduction and FAQ; 10-100 in both passes"
+    },
+    {
+      "term": "mejor festival techno del mundo",
+      "volume": 10,
+      "range": "10-100",
+      "note": "FAQ question; 10-100 in both passes"
+    },
+    {
+      "term": "festival hard techno",
+      "volume": 10,
+      "range": "10-100",
+      "note": "hard techno section and FAQ; 10-100 in both passes"
+    },
+    {
+      "term": "festivales techno 2027",
+      "volume": null,
+      "note": "title date term; not measured, no tool returned it"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, Spain, Spanish, and Mexico + Argentina + Colombia + Chile, Spanish, one submission of the batch's 10 seeds each, 2026-11-14 (scratchpad kp-es-3-spain.tsv, kp-es-3-latam.tsv)",
+  "rejected": [
+    {
+      "term": "fiesta techno",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "party, not festival intent"
+    },
+    {
+      "term": "festivales de techno España",
+      "volume": null,
+      "why": "SERP related search; the English page has no Spanish festival"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "page": "es/discotecas-belgrado.html",
+  "seed": "discotecas belgrado",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, read 2026-11-14, two passes: Spain, Spanish (scratchpad kp-es-3-spain.tsv) and Mexico + Argentina + Colombia + Chile, Spanish (scratchpad kp-es-3-latam.tsv), one submission each; buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.com (hl=es, gl=es), 2026-11-14 (scratchpad serp-es-3.md). No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "Both passes returned 'discotecas belgrado' at 10-100 and nothing else above 0-10; Spain returned 'belgrado noche' and Mexico + Argentina + Colombia + Chile 'vida nocturna belgrado', both 0-10.",
+  "terms": [
+    {
+      "term": "discotecas belgrado",
+      "volume": 10,
+      "range": "10-100",
+      "note": "title; 10-100 in both passes"
+    },
+    {
+      "term": "splavovi",
+      "volume": null,
+      "note": "title and river section; not measured, the local word for the rafts"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, Spain, Spanish, and Mexico + Argentina + Colombia + Chile, Spanish, one submission of the batch's 10 seeds each, 2026-11-14 (scratchpad kp-es-3-spain.tsv, kp-es-3-latam.tsv)",
+  "rejected": [
+    {
+      "term": "belgrado noche",
+      "volume": 0,
+      "range": "0-10",
+      "why": "0-10 in Spain; 'vida nocturna' covers it"
+    },
+    {
+      "term": "Fiesta en Belgrado",
+      "volume": null,
+      "why": "live related search, not measured; bar and party intent"
+    },
+    {
+      "term": "vida nocturna belgrado",
+      "volume": 0,
+      "range": "0-10",
+      "why": "0-10; not placed verbatim, the page writes 'vida nocturna de Belgrado'"
+    }
+  ]
+}

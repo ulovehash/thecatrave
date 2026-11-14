@@ -595,3 +595,14 @@ Techno festivals, Electric Forest, Dekmantel, Belgrade clubs, house music classi
 - **Review.** Five Sonnet reviews, all read both rule files whole: 22 findings, 15 applied. Ruled: the house lead paragraph restored (listening-structure audit) and the house FAQ kept at "notamment", as in German; two Electric Forest planner lines fixed (totem height, ticket note); the Dekmantel search-snippet aside stays out.
 - **Open.** The English Dekmantel page says 29 July to 2 August 2027; a Google snippet showed 28 July to 1 August. Not changed; needs a check against dekmantelfestival.com.
 - **Cost.** cost: 3.05M priced, 5 pages, 0.61M/page priced; main 1.67M in 67 steps, subagents 1.39M in 6. Over the step budget, under 0.7M/page.
+
+### Spanish batch 3 (14 November 2026)
+
+Techno festivals, Electric Forest, Dekmantel, Belgrade clubs, house music classics, best Spotify playlists. Written in the main session from the de/fr batch 3 siblings, no writer subagents.
+
+- **Method.** Keyword Planner, Spain and Latin America, Spanish, buckets only; no Ahrefs units. Terms no tool returned (festivales techno 2027) kept at volume null.
+- **Pages.** Slugs: festivales-techno, electric-forest-festival, dekmantel-festival, discotecas-belgrado, clasicos-house, mejores-playlists-spotify. es Electric Forest and Dekmantel planners added; festival inventory 103 to 105 and the es techno roundup registered; Belgrade club baseline recorded.
+- **Keywords.** 15 non-verbatim terms moved to `rejected` instead of being wedged in; the techno FAQ and the Spotify H2 reworded to carry "mejor festival techno del mundo" and "playlist Spotify". Five titles and one description cut after the SEO audit.
+- **Review.** Six Sonnet reviews, all read both rule files whole. Spotify 19 applied, techno 16, Belgrade 3, Dekmantel H2 to "Qué suena en Dekmantel" and "parada A1". Electric Forest "no hay menú publicado para 2027". Ruled: the house FAQ keeps "entre otros"; the English line "Four of them reached the UK pop charts" is wrong (the page itself gives UK positions for eight) and is logged open as `house-classics-faq-four-charted`, with the English not changed.
+- **Not measured.** Latin American country splits; snippet wording beyond Spain.
+- **Cost.** cost: 4.82M priced, 6 pages, 0.80M/page priced; main 2.63M in 108 steps, subagents 2.18M in 8. Over both budgets. Step 9 overran: keyword-audit, SEO and club-baseline failures each needed a rebuild, and the review fixes added a sixth pass.

@@ -1,0 +1,58 @@
+{
+  "page": "es/mejores-playlists-spotify.html",
+  "seed": "mejores playlists spotify",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, read 2026-11-14, two passes: Spain, Spanish (scratchpad kp-es-3-spain.tsv) and Mexico + Argentina + Colombia + Chile, Spanish (scratchpad kp-es-3-latam.tsv), one submission each; buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.com (hl=es, gl=es), 2026-11-14 (scratchpad serp-es-3.md). No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "Mexico + Argentina + Colombia + Chile returned 'playlist spotify' at 1K-10K and 'mejores playlists spotify' and 'las mejores playlist de spotify' at 100-1K; Spain returned 'playlist spotify' at 100-1K and the 'mejores' variants at 10-100.",
+  "terms": [
+    {
+      "term": "mejores playlists spotify",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "title; 100-1K in Mexico + Argentina + Colombia + Chile, 10-100 in Spain"
+    },
+    {
+      "term": "mejor playlist de spotify",
+      "volume": 100,
+      "range": "100-1K",
+      "note": "FAQ question; 100-1K in Mexico + Argentina + Colombia + Chile, 10-100 in Spain"
+    },
+    {
+      "term": "playlist spotify",
+      "volume": 1000,
+      "range": "1K-10K",
+      "note": "choose heading; 1K-10K in Mexico + Argentina + Colombia + Chile, 100-1K in Spain"
+    }
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, Spain, Spanish, and Mexico + Argentina + Colombia + Chile, Spanish, one submission of the batch's 10 seeds each, 2026-11-14 (scratchpad kp-es-3-spain.tsv, kp-es-3-latam.tsv)",
+  "rejected": [
+    {
+      "term": "lista de spotify",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "generic how-to intent"
+    },
+    {
+      "term": "mejores playlist Spotify Español",
+      "volume": null,
+      "why": "live related search; the page has no Spanish-language playlist"
+    },
+    {
+      "term": "las mejores playlist de spotify",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "singular in a plural phrase; the H1 writes 'las mejores playlists de Spotify'"
+    },
+    {
+      "term": "buenas playlist spotify",
+      "volume": 10,
+      "range": "10-100",
+      "why": "not placed verbatim; the FAQ asks for 'buenas playlists de Spotify'"
+    },
+    {
+      "term": "mejores playlist electronica spotify",
+      "volume": 10,
+      "range": "10-100",
+      "why": "not placed verbatim; the FAQ asks for 'las mejores playlists de Spotify de música electrónica'"
+    }
+  ]
+}
