@@ -573,3 +573,14 @@ Canada festivals, Australia festivals, psytrance festivals, best trance tracks, 
 - **Review.** Six Sonnet reviews, all read both rule files whole: 14 findings, 14 applied, none open. No title, H1 or description changed.
 - **Audit fixes.** The three es festival roundups added to `audit-next-festival-guides.mjs` and `festival-editions.mjs`; psytrance now links the es Australia page.
 - **Cost.** cost: 25.85M, 6 pages, 4.31M/page; main 6.09M in 49 steps, subagents 19.75M in 17. Over 2M/page and 40 steps because of the four KP subagents and the re-run Spain pass.
+
+### German batch 3 (14 November 2026)
+
+Techno festivals, Electric Forest, Dekmantel, Belgrade clubs, house music classics. Written in the main session, no writer subagents.
+
+- **Method.** One Sonnet Keyword Planner subagent, one Germany/German submission of ten seeds, buckets only; it ran slightly over its call cap and some TSV rows came back truncated. SERP on Bing de-DE (google.de returned 429). No Ahrefs units.
+- **Pages.** Slugs: techno-festivals, electric-forest-festival, dekmantel-festival, clubs-belgrad, house-klassiker. Electric Forest and Dekmantel planners added to `festival-planning-data.mjs`; festival inventory 99 to 101 and de techno roundup registered. House FAQ says "unter anderem" where the English says four records charted in the UK, since more did; the English copy is not changed.
+- **Keywords.** Word-order variants ("belgrad clubs", "belgrad nachtleben", "house music klassiker") moved to `rejected` rather than wedged into prose; the page carries "Clubs in Belgrad", "Nachtleben in Belgrad", "House-Klassiker".
+- **Review.** Five Sonnet reviews, all read both rule files whole: 32 findings, 26 applied. Ruled: a reviewer's "Die Belgrad Clubs" wedge reverted; the house lead paragraph restored (the English builder hardcodes it, and the listening-structure audit needs it); the Dekmantel Selectors search-result aside cut; the Time Warp sentence reworded.
+- **Tooling.** `club-visit-baseline.mjs` failed with an English sibling (`img/` against `/img/`); logged as `club-visit-baseline-english-sibling-prefix` and fixed.
+- **Cost.** cost: 3.64M priced, 5 pages, 0.73M/page priced; main 2.27M in 98 steps, subagents 1.38M in 6. Just over 0.7M/page and the step budget: the club-baseline fix and the reverted review items.

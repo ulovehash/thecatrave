@@ -1,0 +1,39 @@
+{
+  "page": "de/house-klassiker.html",
+  "seed": "house klassiker",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, Nov 2025 to Oct 2026, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. SERP: Bing de-DE (Google de-DE returned a bot check), where the leading German list is titled 'House Klassiker'. No data is not zero. No Ahrefs units spent.",
+  "terms": [
+    {
+      "term": "house klassiker",
+      "volume": 10,
+      "range": "10-100",
+      "note": "slug, title, H2 and FAQ, as \"House-Klassiker\""
+    }
+  ],
+  "rejected": [
+    {
+      "term": "house music klassiker",
+      "volume": 10,
+      "range": "10-100",
+      "why": "same query as the head term; the page says \"House-Klassiker\" and links the \"Guide zur House Music\""
+    },
+    {
+      "term": "house musik klassiker",
+      "volume": 10,
+      "range": "10-100",
+      "why": "same query as the head term"
+    },
+    {
+      "term": "house klassiker 90er",
+      "volume": 10,
+      "range": "10-100",
+      "why": "decade intent; the list runs 1988 to 2001, not a 90s list"
+    },
+    {
+      "term": "deep house klassiker",
+      "volume": 10,
+      "range": "10-100",
+      "why": "no deep house entry on the page"
+    }
+  ]
+}

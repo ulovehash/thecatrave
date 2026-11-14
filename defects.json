@@ -2369,6 +2369,17 @@
         "file": "scripts/translation-cost.mjs",
         "contains": "priced = input + 1.25 cache write + 0.1 cache read + 5 output"
       }
+    },
+    {
+      "id": "club-visit-baseline-english-sibling-prefix",
+      "found": "2026-11-14",
+      "by": "German batch 3, Belgrade clubs",
+      "what": "scripts/club-visit-baseline.mjs refused de/clubs-belgrad.html with an English sibling: English pages store media as img/..., translations render /img/..., so every image read as missing and nothing was written.",
+      "should_have_caught": "scripts/club-visit-baseline.mjs, which compared the sibling paths unnormalised",
+      "fix": {
+        "file": "scripts/club-visit-baseline.mjs",
+        "contains": "English siblings store img/ paths without the leading slash"
+      }
     }
   ]
 }

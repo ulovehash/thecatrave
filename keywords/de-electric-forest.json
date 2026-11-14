@@ -1,0 +1,10 @@
+{
+  "page": "de/electric-forest-festival.html",
+  "seed": "electric forest festival",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, Nov 2025 to Oct 2026, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Google de-DE returned a bot check; Bing de-DE showed only English results. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "Only the head term came back. Ticket, camping and line-up variants were not returned in German, so the section headings follow the English page's measured terms with German wording.",
+  "terms": [
+    {"term": "electric forest festival", "volume": 100, "range": "100-1K", "note": "title, H2 'Was ist das Electric Forest Festival?' and introduction"},
+    {"term": "electric forest 2027", "volume": null, "note": "title, dates H2 and answer; not returned, unmeasured"}
+  ]
+}

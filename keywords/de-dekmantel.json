@@ -1,0 +1,12 @@
+{
+  "page": "de/dekmantel-festival.html",
+  "seed": "dekmantel",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, Nov 2025 to Oct 2026, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Google de-DE returned a bot check; Bing de-DE showed English and Dutch results only. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "Also returned and carried without being listed: 'dekmantel festival ticket price' (10-100), answered in the FAQ without a price because the festival prints none; 'dekmantel selector' (10-100), which the Selectors H2 carries in its plural.",
+  "terms": [
+    {"term": "dekmantel festival", "volume": 100, "range": "100-1K", "note": "title, H2 and FAQ"},
+    {"term": "dekmantel", "volume": 100, "range": "100-1K", "note": "throughout"},
+    {"term": "dekmantel festival tickets", "volume": 10, "range": "10-100", "note": "tickets H2"},
+    {"term": "dekmantel 2027", "volume": null, "note": "dates H2 and FAQ; not returned, unmeasured"}
+  ]
+}

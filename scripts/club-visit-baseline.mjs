@@ -29,13 +29,15 @@ const entry = {
   h1: html.match(/<h1[^>]*>(.*?)<\/h1>/)?.[1],
   published: html.match(/<meta property="article:published_time" content="([^"]+)"/)?.[1],
   ids: sibling.ids,
-  media: sibling.media,
+  // English siblings store img/ paths without the leading slash that translations render.
+  media: sibling.media.map(src => src.startsWith('img/') ? '/' + src : src),
 };
 // The read-next cards come from each language's catalogue, so their thumbnails
 // are the sibling's, not the article's: leave them out of the new entry.
 const siblingHtml = fs.existsSync(siblingFile) ? fs.readFileSync(siblingFile, 'utf8') : '';
 const readNext = siblingHtml.match(/<section[^>]*class="[^"]*read-next[\s\S]*?<\/section>/)?.[0] || '';
-entry.media = entry.media.filter(src => !readNext.includes(`="${src}"`) && !readNext.includes(` ${src} `) || html.includes(`="${src}"`));
+const bare = src => src.replace(/^\//, '');
+entry.media = entry.media.filter(src => ![src, bare(src)].some(s => readNext.includes(`="${s}"`) || readNext.includes(` ${s} `)) || html.includes(`="${src}"`));
 const missing = Object.entries(entry).filter(([, v]) => v === undefined).map(([k]) => k);
 const ids = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]));
 const lostIds = entry.ids.filter(id => !ids.has(id));

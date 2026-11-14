@@ -1127,6 +1127,46 @@ export const germanArticleCatalog = [
     width:1200, height:900, alt:'Die neugotische Backsteinkirche an der Sixth Avenue, die zum Limelight wurde'
   },
   {
+    page:'de/techno-festivals.html', category:'festivals', tags:['discovery','techno','history'], href:'/de/techno-festivals', type:'List', topic:"Techno Festivals",
+    title:"Die besten Techno Festivals 2027: Awakenings, Time Warp, Movement",
+    description:"Awakenings, Time Warp und Movement: die Techno Festivals 2027 nach Sound, mit Terminen, bestätigt oder nicht.",
+    image:'img/techno-festivals/kappa-solar-2025-320.webp',
+    srcset:'img/techno-festivals/kappa-solar-2025-320.webp 320w,img/techno-festivals/kappa-solar-2025-1200.webp 1200w',
+    width:1200, height:900, alt:"Die Solar Stage beim Kappa FuturFestival in Turin im Juli 2025"
+  },
+  {
+    page:'de/electric-forest-festival.html', category:'festivals', tags:['discovery','history','bass'], href:'/de/electric-forest-festival', type:'Guide', topic:"Electric Forest",
+    title:"Electric Forest Festival 2027: Tickets, Termine, Camping, Line-up",
+    description:"Electric Forest 2027 in Rothbury, Michigan: Termine, Tickets und Camping, die Anreise und was du einpackst.",
+    image:'img/electric-forest/entrance-2018-320.webp',
+    srcset:'img/electric-forest/entrance-2018-320.webp 320w,img/electric-forest/entrance-2018-1200.webp 1200w',
+    width:1200, height:800, alt:"Der hölzerne Eingangsbogen von Electric Forest mit Festivalbesuchern davor"
+  },
+  {
+    page:'de/dekmantel-festival.html', category:'festivals', tags:['discovery','house','techno'], href:'/de/dekmantel-festival', type:'Guide', topic:"Dekmantel",
+    title:"Dekmantel Festival 2027: Termine, Tickets, Selectors, Amsterdam",
+    description:"Dekmantel im Amsterdamse Bos, ab 18: Termine 2027, Ticketregeln, Selectors in Kroatien und Sets zum Hören.",
+    image:'img/dekmantel/midland-2017-320.webp',
+    srcset:'img/dekmantel/midland-2017-320.webp 320w,img/dekmantel/midland-2017-1200.webp 1200w',
+    width:1200, height:799, alt:"Midland spielt 2017 ein DJ-Set beim Dekmantel Festival"
+  },
+  {
+    page:'de/clubs-belgrad.html', category:'rave-spots', tags:['techno','history','discovery'], href:'/de/clubs-belgrad', type:'Guide', topic:"Clubs in Belgrad",
+    title:"Clubs in Belgrad und Nachtleben: Drugstore, Klub 20/44, Splavovi",
+    description:"Drugstore, Klub 20/44 und Barutana: die Clubs in Belgrad, die eine Nacht wert sind, und wie die Splavovi von der Save geräumt wurden.",
+    image:'img/belgrade-clubs/sava-from-kalemegdan-320.webp',
+    srcset:'img/belgrade-clubs/sava-from-kalemegdan-320.webp 320w,img/belgrade-clubs/sava-from-kalemegdan-1200.webp 1200w',
+    width:1200, height:900, alt:"Die Save in Belgrad von der Festung Kalemegdan aus, mit Straßenbrücken und vertäuten Booten"
+  },
+  {
+    page:'de/house-klassiker.html', category:'digging', tags:['house','discovery','history'], href:'/de/house-klassiker', type:'List', topic:"House-Klassiker",
+    title:"House-Klassiker: zehn House-Songs zum Hören, 1988 bis 2001",
+    description:"Zehn House-Klassiker der Reihe nach, von Inner City und Lil Louis bis Stardust und Kings of Tomorrow, neun mit Player.",
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:"Ein DJ in der Kabine von The Lot Radio in Brooklyn"
+  },
+  {
     page:'de/exit-festival.html', category:'festivals', tags:['festival','history','discovery'], href:'/de/exit-festival', type:'Guide', topic:'EXIT Festival',
     title:'EXIT Festival: Von Novi Sad zur weltweiten Tour',
     description:'Geschichte, Festung Petrovaradin, Dance Arena und was nach der letzten serbischen Ausgabe 2025 passiert.',

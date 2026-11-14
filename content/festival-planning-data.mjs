@@ -5,7 +5,9 @@ const maps = {
   exit: 'https://www.google.com/maps/search/?api=1&query=Petrovaradin+Fortress+Novi+Sad',
   timewarp: 'https://www.google.com/maps/search/?api=1&query=Maimarkthalle+Mannheim',
   fusion: 'https://www.google.com/maps/search/?api=1&query=Flugplatz+Larz+Germany',
-  defqon: 'https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen'
+  defqon: 'https://www.google.com/maps/search/?api=1&query=Defqon.1+Biddinghuizen',
+  electricforest: 'https://www.google.com/maps/search/?api=1&query=Double+JJ+Resort+Rothbury+Michigan',
+  dekmantel: 'https://www.google.com/maps/search/?api=1&query=Nieuwe+Meerlaan+1+Amstelveen'
 };
 
 const data = {
@@ -69,6 +71,36 @@ const data = {
       avoid:['Inoffizielle „Novi Sad 2027“-Tickets','Eine Festungskarte von 2025 für ein anderes Land','Anzunehmen, ein Ticket decke mehrere Tourziele ab','Nicht stornierbare Reise vor Ortsbestätigung','Alte Camping-, Taschen- oder Alkoholregeln zu übertragen'],
       rulesNote:'Prüfe die Regeln beim ausgewählten Event. Alter, Taschen, Wiedereintritt, Wasser und Verbote lassen sich nicht sicher von der früheren Festungsausgabe übertragen.',
       links:[['Offizielle EXIT-Website','https://www.exitfest.org/'],['Global Tour und Tickets','https://www.exitfest.org/global-tour'],['EXIT-Geschichte','https://www.exitfest.org/en/about-us'],['Festung Petrovaradin auf Google Maps, historischer Ort',maps.exit]]
+    },
+    electricforest: {
+      festivalName:'Electric Forest 2027',
+      intro:'Termine, Pässe und Preise für Electric Forest 2027 sind noch nicht veröffentlicht. Buche keine nicht stornierbare Reise nach Rothbury nach Geländeplan oder Parkregeln von 2026.',
+      ticketIntro:'Electric Forest hat Termine und Preise 2027 noch nicht veröffentlicht. Dies sind Statusangaben, keine Schätzpreise.', ticketColumns:['Produkt','Aktueller Stand'],
+      ticketRows:[['GA-Armband 2027','Termin und Verkauf nicht angekündigt','Nicht veröffentlicht'],['Good Life 2027','Termin und Verkauf nicht angekündigt','Nicht veröffentlicht'],['Auto- oder Wohnmobil-Campingpass','Pro Fahrzeug-Stellplatz nötig, sobald angeboten','Nicht veröffentlicht'],['Offizieller Shuttle','Zusatzprodukt, sobald freigegeben','Nicht veröffentlicht']],
+      ticketNote:'2026 liefen die Pässe über AXS und waren ausverkauft. Preise von 2026 sind kein gültiges Angebot für 2027.',
+      routes:[['Offizieller Shuttle ab einer genannten Stadt','2026 fuhren Shuttles ab Grand Rapids, Detroit, Ann Arbor, Chicago, Columbus und New York City. Warte auf Haltestellen und Anreisefenster 2027; nach Rothbury gibt es keine praktische Bahnverbindung.','Offizielles Hilfecenter','https://electricforest.com/help/'],['Auto zum Eingang deiner Campingart','2026 fuhr General Admission über Highway 31, Ausfahrt 136, zur South Toll, Wohnmobile und Gruppencamping über Ausfahrt 140 zur North Toll. Jedes Fahrzeug braucht einen Camping- oder Parkpass.','Offizieller Willkommensguide','https://electricforest.com/welcome/'],['Absetzen am reinen Zeltcamping','Ohne Auto kann ein GA- oder Good-Life-Armband das reine Zeltcamping abdecken; prüfe das Absetz-Tor für 2027.','Double JJ Resort auf Google Maps',maps.electricforest]],
+      routeNote:'Wer 2026 mit dem offiziellen Shuttle kam, durfte kostenlos früher anreisen. Ob das 2027 wieder gilt, ist nicht angekündigt.',
+      accommodation:['Electric Forest ist auf Camping gebaut. Reines Zeltcamping, Auto-Camping, Wohnmobil, Good Life und Hotelpakete haben eigene Bedingungen; ein Fahrzeug braucht immer seinen eigenen Pass.','Offizieller Willkommensguide','https://electricforest.com/welcome/'],
+      spending:['Für 2027 ist keine Karte veröffentlicht. Rechne Armband, Camping- oder Parkpass, frühe Anreise, Shuttle und Essen vor Ort einzeln und nimm eine Paketüberschrift nicht als Gesamtpreis.',[['GA 2026, laut Lokalzeitung','etwa 600 US-Dollar'],['Anreise am Mittwoch 2026','50 US-Dollar pro Stellplatz'],['Camp Kit 2026','ab 279 US-Dollar'],['Preise 2027','Nicht veröffentlicht']],'Offizielles Hilfecenter','https://electricforest.com/help/'],
+      packing:['Regenjacke oder Poncho, warme Schicht und Wollsocken','Pavillon samt Heringen für den Stellplatz','Ohrstöpsel, Taschenlampe und Powerbanks','Tuch gegen Staub und eine Nasenspülung','Leichtes Totem von höchstens gut 2 Metern, ohne Holz oder Metall'],
+      avoid:['Glas, Feuerwerk und offenes Feuer','Generatoren außer dem eingebauten eines Wohnmobils oder einem Solargenerator','Drohnen und Laserpointer','Alkohol vom Stellplatz ins Festivalgelände tragen','Anreise mit einem Fahrzeug ohne Camping- oder Parkpass'],
+      rulesNote:'Bei der letzten Ausgabe konnten Fahrzeuge nicht frei hinaus- und wieder hineinfahren, und Fahrzeuge ohne Camping- oder Parkpass wurden abgewiesen. Prüfe die Regeln 2027, sobald sie erscheinen.',
+      links:[['Offizielle Website','https://electricforest.com/'],['Hilfecenter','https://electricforest.com/help/'],['Willkommensguide','https://electricforest.com/welcome/'],['Double JJ Resort auf Google Maps',maps.electricforest]]
+    },
+    dekmantel: {
+      festivalName:'Dekmantel Festival 2027',
+      intro:'Dekmantel verteilt sich auf den Amsterdamse Bos und Venues in der Stadt. Wähle zuerst die Zahl der Programmtage und füge dann Nachttickets, Shuttle und Campingplatz bewusst hinzu.',
+      ticketIntro:'Ticketarten aus dem Shop und der FAQ des Festivals. Den aktuellen Preis zeigt nur der offizielle Ticketshop.',
+      ticketRows:[['Festivalticket 2027','Einzeltag oder 3, 4 oder 5 Tage','Live-Shop prüfen'],['Nachtprogramm','Nur enthalten, wo der Pass es sagt','Eventuell eigene Tickets'],['Shuttle ab Amstel, hin und zurück','Etwa 15–20 Minuten zum Bos','14,50 € online / 15,50 € vor Ort'],['Parken','Begrenzt; Tag / Wochenende','20 € / 40 €']],
+      ticketNote:'Keine Erstattung und kein Umtausch. Der offizielle Wiederverkauf ist auf den Originalpreis begrenzt.',
+      routes:[['Shuttle ab Amsterdam Amstel, Bussteig A1','Die Busse brauchen etwa 15–20 Minuten zum Amsterdamse Bos. Kaufe die Rückfahrt vor dem Tag; einfache Rückfahrten gibt es eventuell vor Ort.','Offizielle FAQ','https://dekmantelfestival.com/faq'],['Zug nach Schiphol, dann Bus 199','Bus 199 erreicht den Campingplatz neben dem Festival in etwa 20 Minuten. Prüfe den aktuellen Fahrplan bei 9292.','Bahnhof Schiphol auf Google Maps','https://www.google.com/maps/search/?api=1&query=Schiphol+Airport+railway+station'],['Mit dem Rad ab Amsterdam Zuid oder Centraal','Rechne mit etwa 20 Minuten ab Zuid oder 45 Minuten ab Centraal und nutze die ausgewiesenen Fahrradparkplätze.','Amsterdamse Bos auf Google Maps',maps.dekmantel]],
+      routeNote:'Während des Festivals sind Autos und Fahrräder im Park nicht erlaubt.',
+      accommodation:['Offizielle aufgebaute Zelte, Hütten und Mobilheime stehen bei EuroParcs Amsterdamse Bos, etwa 15 Minuten zu Fuß entfernt. Check-in war 2026 am Donnerstag, Check-out am Montag um 10 Uhr.','Offizielle FAQ','https://dekmantelfestival.com/faq'],
+      spending:['Die Karte für Essen und Bar 2027 ist nicht veröffentlicht. Alles Essen auf dem Gelände ist vegetarisch. Rechne Shuttle, Nachttickets, Schließfächer und Fahrten zu Venues in der Stadt getrennt vom Tagespass.',[['Shuttle nur zurück 2026','8,50 €'],['Schließfach mittel / groß 2026','11,50 € / 14,50 €'],['Parken pro Tag 2026','20 €'],['Essen und Bar 2027','Nicht veröffentlicht']],'Offizielle FAQ','https://dekmantelfestival.com/faq'],
+      packing:['Lichtbildausweis, der mindestens 18 Jahre belegt','Ticket und Shuttle-Rückfahrt vorab gekauft','Regenschicht, Sonnencreme und Ohrstöpsel','Powerbank für die Fahrt in die Stadt','Fahrradschloss, wenn du mit dem Rad kommst'],
+      avoid:['Profikameras; vom Filmen mit dem Handy rät das Festival ab','Ein Nachtticket voraussetzen, das dein Pass nicht enthält','Mit Auto oder Rad in den Park fahren wollen','Tickets über inoffizielle Wiederverkäufer kaufen'],
+      rulesNote:'Der Zugang zu Into The City und zum Nachtprogramm hängt vom genauen Pass ab. Nachtclubs haben eigene Altersregeln: ISO und RADION ab 18, Garage Noord und RAUM ab 21.',
+      links:[['Offizielle Website','https://dekmantelfestival.com/'],['FAQ','https://dekmantelfestival.com/faq'],['Eventseite 2027','https://dekmantel.com/events/dekmantel-festival-2027'],['Amsterdamse Bos auf Google Maps',maps.dekmantel]]
     }
   }
 };

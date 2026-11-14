@@ -1,0 +1,46 @@
+{
+  "page": "de/clubs-belgrad.html",
+  "seed": "belgrad clubs",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, Nov 2025 to Oct 2026, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. SERP: Bing de-DE (Google de-DE returned a bot check), where German guides title the topic 'Nachtleben in Belgrad'. No data is not zero. No Ahrefs units spent.",
+  "note": "Also returned in 10-100 and carried as wording only: 'club in belgrad', 'belgrad nightclub', 'belgrad best clubs'. 'freestyler belgrad' (10-100) is named in the splavovi section; 'money club belgrad' (10-100) is not on the English page and was not added.",
+  "terms": [
+    {
+      "term": "nachtleben in belgrad",
+      "volume": 10,
+      "range": "10-100",
+      "note": "H2 \"Das Nachtleben in Belgrad im Überblick\"; carries the 100-1K word-order variants below"
+    },
+    {
+      "term": "clubs in belgrad",
+      "volume": 10,
+      "range": "10-100",
+      "note": "title, H2s, answer, FAQ and where-to-go section; carries \"belgrad clubs\" (100-1K)"
+    }
+  ],
+  "rejected": [
+    {
+      "term": "belgrad clubs",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "same query as \"Clubs in Belgrad\", which the title and H2s carry; the bare word order is not written"
+    },
+    {
+      "term": "belgrad nachtleben",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "same query as \"Nachtleben in Belgrad\", which the page carries; the bare compound is not written"
+    },
+    {
+      "term": "nachtleben belgrad",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "same, word order only"
+    },
+    {
+      "term": "belgrad nightlife",
+      "volume": 100,
+      "range": "100-1K",
+      "why": "English loanword; the German wording is carried instead"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "page": "de/techno-festivals.html",
+  "seed": "techno festival",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, Germany, German, Nov 2025 to Oct 2026, read 2026-11-14, one submission of ten seeds for the batch. No ad spend, so ranges, not points: 'volume' is the lower bound, 'range' what the tool showed. Google de-DE returned a bot check; wording from Bing de-DE the same day. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "No 2026 or 2027 variant was returned (only 2022 and 2023), so the year in the title is not measured. 'techno festival europa' (10-100) is carried by the Europe H2 in its plural form and not written as a term.",
+  "terms": [
+    {"term": "techno festival", "volume": 1000, "range": "1K-10K", "note": "title, description, headings and body"},
+    {"term": "stone techno festival", "volume": 1000, "range": "1K-10K", "note": "Stone Techno H3 body"},
+    {"term": "größte techno festival", "volume": 100, "range": "100-1K", "note": "biggest H2: 'Welches ist das größte Techno Festival der Welt?'"},
+    {"term": "die besten techno festivals", "volume": 10, "range": "10-100", "note": "title and H1"},
+    {"term": "techno festivals 2027", "volume": null, "note": "title and dates H2; not returned, unmeasured"}
+  ]
+}
