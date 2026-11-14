@@ -1,0 +1,17 @@
+{
+  "page": "es/festivales-edm-australia.html",
+  "seed": "festivales edm australia",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in account, read 2026-11-14, batch es-2 submission 1: Spain, Spanish; and Mexico, Argentina, Colombia and Chile together, Spanish. No ad spend, so ranges, not points. Live wording from google.es (hl=es, gl=es) the same day: no People also ask and no related searches shown. No data is not zero: a term with volume null is unmeasured. No Ahrefs units spent.",
+  "note": "Both seeds ('festivales edm australia', 'festivales de musica electronica australia') returned no data (bucket 0-10, no row metrics) in both locations, and no Australian festival name appeared among the ideas. Every term below is unmeasured; the wording follows the English page and the other Spanish festival guides.",
+  "terms": [
+    {"term": "festivales EDM en Australia", "volume": null, "note": "title, H1, breadcrumb, headings and FAQ label; seed 'festivales edm australia' returned no data in Spain or Latin America; unmeasured head term"},
+    {"term": "festival EDM más grande de Australia", "volume": null, "note": "H2 of the biggest-festival section; not measured"},
+    {"term": "raves más grandes de Australia", "volume": null, "note": "H2 of the raves section; not measured"},
+    {"term": "festival más popular de Australia", "volume": null, "note": "FAQ question; not measured"},
+    {"term": "Ultra Australia 2027", "volume": null, "note": "Ultra section and FAQ question; not measured (not among the seeds)"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for 'festivales edm australia' and 'festivales de musica electronica australia', Spain and Mexico/Argentina/Colombia/Chile, Spanish, 2026-11-14; google.es People also ask and related searches for the same seed the same day (none shown).",
+  "rejected": [
+    {"term": "festivales de musica electronica australia", "volume": null, "why": "no data in either location; the page is an EDM roundup as the English is, and says which festivals are wider than EDM"}
+  ]
+}

@@ -97,7 +97,7 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
 
 `scripts/kp-run.md`, with these changes:
 
-- **Step 6.** Seeds are the batch's head terms in the target language, plus the English names people search unchanged (festival and club names). Up to 10 per submission. A batch of six pages is two or three submissions in the same session, as in "a second seed set".
+- **Step 6.** Seeds are the batch's head terms in the target language, plus the English names people search unchanged (festival and club names). Up to 10 per submission. A batch of six pages is two or three submissions, each in its own fresh subagent, as in "a second seed set" in `kp-run.md`.
 - **Step 7.** Location and language:
   - Remove the United States and add the country: Germany for de, France for fr, Spain for es.
   - Set the language to the target language.
@@ -106,6 +106,7 @@ contract), `WRITING.md`, `AGENTS.md` and `ARTICLE-PRODUCTION-WORKFLOW.md` §6
   ```js
   window.KP_TARGET = { location: 'Germany', language: 'German' }
   ```
+  For the Spanish second pass, `location` is the array `['Mexico', 'Argentina', 'Colombia', 'Chile']`.
   `kp-extract.js` then reports `locationOk` and `languageOk` for that target. Step 10 checks those two instead of `allLocations` and `english`.
 - **The cap is 24 browser calls per country,** not per page.
 - **Start a fresh subagent for each country.** Never send the first country's subagent back for the second: it carries the first pass's context into every call. In Spanish batch 1 that made the second pass 3.7M, against 1.5M for one German pass. Both can start in one message only if they use different Chrome tabs; otherwise start the second after the first returns.

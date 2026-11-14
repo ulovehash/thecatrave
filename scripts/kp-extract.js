@@ -5,7 +5,7 @@
 // bucket code, 3-month change, YoY change, competition.
 // If it returns resume:true, paste it again: state lives on window.__kp.
 // A country/language pass (scripts/translate-run.md) first runs, in its own
-// call, window.KP_TARGET = { location: 'Germany', language: 'German' };
+// call, window.KP_TARGET = { location: 'Germany', language: 'German' }; location may be an array of countries;
 // locationOk and languageOk then check that target. Default: All locations, English.
 await (async () => {
   const BUDGET_MS = 20000, MAX_PAGES = 20;
@@ -82,7 +82,8 @@ await (async () => {
     allLocations: /All locations/i.test(t),
     english: /English/.test(t),
     target: (window.KP_TARGET || { location: 'All locations', language: 'English' }),
-    locationOk: t.includes((window.KP_TARGET || {}).location || 'All locations'),
+    // An array of countries shows in the bar as "Argentina, + 3 more": one of them named, plus the count of the rest.
+    locationOk: (() => { const l = (window.KP_TARGET || {}).location || 'All locations'; if (!Array.isArray(l)) return t.includes(l); return l.some((c) => t.includes(c)) && (l.length === 1 || new RegExp('\\+\\s*' + (l.length - 1) + '\\s*more', 'i').test(t)); })(),
     languageOk: t.includes((window.KP_TARGET || {}).language || 'English'),
     legend: 'M 1M–10M, A 100K–1M, B 10K–100K, C 1K–10K, D 100–1K, E 10–100, F 0–10',
     count: (window.__kpRows = rows).length,

@@ -1,0 +1,18 @@
+{
+  "page": "es/festivales-edm-canada.html",
+  "seed": "festivales edm canada",
+  "source": "Google Ads Keyword Planner (Discover new keywords), owner's signed-in Google account, read 2026-11-14, two passes: Spain, Spanish (scratchpad kp-es-2-spain.tsv) and Mexico + Argentina + Colombia + Chile, Spanish (scratchpad kp-es-2-latam-s1.tsv), submission 1 of each; buckets only: 'volume' is the bucket's lower bound, 'range' what the tool showed. Live wording from google.es (hl=es, gl=es): no People also ask and no related searches shown. No Ahrefs units spent. No data is not zero: a term with volume null is unmeasured or returned no data.",
+  "note": "'festivales edm canada' and 'festivales de musica electronica canada' returned no data in both passes (bucket 0-10, no trend or competition), so the head terms are recorded as null and written with the preposition and accent Spanish needs.",
+  "terms": [
+    {"term": "festivales EDM en Canadá", "volume": null, "range": "no data", "note": "title, H1, answer, dates heading and FAQ; the Planner returned no data for the seed 'festivales edm canada'"},
+    {"term": "festivales de música electrónica en Canadá", "volume": null, "range": "no data", "note": "FAQ; the Planner returned no data for 'festivales de musica electronica canada'"},
+    {"term": "Shambhala Festival", "volume": 10, "range": "10-100", "note": "description and British Columbia section; 10-100 in Spain and in Mexico + Argentina + Colombia + Chile"},
+    {"term": "VELD Festival", "volume": 10, "range": "10-100", "note": "Toronto section; 10-100 in Spain and in Mexico + Argentina + Colombia + Chile"},
+    {"term": "Ile Soniq", "volume": null, "note": "title and Quebec section; not measured (not a seed)"},
+    {"term": "Shambhala 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "VELD 2027", "volume": null, "note": "festival date term; not measured"},
+    {"term": "Ile Soniq 2027", "volume": null, "note": "festival date term; not measured"}
+  ],
+  "expansion_checked": "Keyword Planner Discover pass, Spain, Spanish, and Mexico + Argentina + Colombia + Chile, Spanish, submission 1 (seeds festivales edm canada, festivales de musica electronica canada, shambhala festival, veld festival, with the batch's other seeds), 2026-11-14 (scratchpad kp-es-2-spain.tsv, kp-es-2-latam-s1.tsv)",
+  "rejected": []
+}

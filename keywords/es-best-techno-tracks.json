@@ -1,0 +1,19 @@
+{
+  "page": "es/mejores-canciones-techno.html",
+  "seed": "mejores canciones de techno",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 2026-11-14, two passes: location Spain, language Spanish (es-2-spain-s2), and location Mexico+Argentina+Colombia+Chile, language Spanish (es-2-latam-s2); buckets only (100-1K and 10-100). Seeds: mejores canciones de techno, techno clasico, canciones de techno famosas. google.es (hl=es, gl=es) the same day showed no People also ask and no related searches. No data is not zero: a term no tool returned is volume null. No Ahrefs units spent.",
+  "note": "Volumes are buckets, not measured numbers; the Planner returned the unaccented spellings (techno clasico, musica techno de los 90), the page prints them with accents. \"buenas canciones de techno\" was returned by no tool: not measured. \"musica techno sin copyright gratis\" was left out: it asks for files.",
+  "terms": [
+    { "term": "mejores canciones techno", "volume": null, "band": "10-100", "note": "Spain and LatAm; slug, title, description, breadcrumb, FAQ title" },
+    { "term": "mejores canciones de techno", "volume": null, "band": "10-100", "note": "seed, Spain and LatAm; H1, answer, FAQ questions" },
+    { "term": "techno clásico", "volume": null, "band": "10-100", "note": "seed (techno clasico) and idea, Spain and LatAm; introduction" },
+    { "term": "canciones de techno famosas", "volume": null, "band": "10-100", "note": "seed, Spain and LatAm; FAQ question" },
+    { "term": "música techno de los 90", "volume": null, "band": "100-1K", "note": "Spain and LatAm (musica techno de los 90); FAQ answer on the 80s and 90s records" },
+    { "term": "música techno de los 80 y 90", "volume": null, "band": "10-100", "note": "Spain and LatAm; FAQ question; carries \"música techno de los 80\" (100-1K)" },
+    { "term": "música techno de los 80", "volume": null, "band": "100-1K", "note": "Spain and LatAm; inside the FAQ question \"música techno de los 80 y 90\"" },
+    { "term": "buenas canciones de techno", "volume": null, "band": "not measured", "note": "play-first section; translates the English \"good techno songs\", returned by no tool" }
+  ],
+  "rejected": [
+    { "term": "musica techno sin copyright gratis", "volume": null, "band": "10-100", "note": "asks for files; the site hands out none" }
+  ]
+}

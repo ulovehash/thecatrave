@@ -1,0 +1,28 @@
+{
+  "page": "es/mejores-canciones-trance.html",
+  "seed": "mejores canciones de trance",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in Google account, 14 November 2026, two passes: location Spain, language Spanish; and locations Mexico, Argentina, Colombia and Chile, language Spanish; buckets only. google.es (hl=es, gl=es) the same day showed no People also ask and no related searches. No data is not zero. No Ahrefs units spent.",
+  "note": "Volumes are Keyword Planner buckets, not exact figures; each term returned 10-100 in both passes. Planner folds accents, so 'musica trance clasica' is printed as 'música trance clásica'.",
+  "terms": [
+    {
+      "term": "mejores canciones de trance",
+      "volume": "10-100",
+      "note": "seed, Spain and Latin America; title, H1, description, answer box, FAQ question on the 90s records"
+    },
+    {
+      "term": "mejores temas de trance",
+      "volume": "10-100",
+      "note": "seed, Spain and Latin America; H2 of the chart years section"
+    },
+    {
+      "term": "música trance clásica",
+      "volume": "10-100",
+      "note": "seed, Spain and Latin America; FAQ question on the UK chart entries"
+    },
+    {
+      "term": "mejor canción de trance",
+      "volume": null,
+      "note": "H2 and FAQ question on the best track ever; no tool returned it; not measured"
+    }
+  ]
+}

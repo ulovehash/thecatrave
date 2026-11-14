@@ -2160,7 +2160,11 @@
       "by": "agent",
       "what": "scripts/kp-extract.js sets locationOk by looking for the KP_TARGET location string on the page. For a multi-country pass (es batch 1: Mexico, Argentina, Colombia, Chile) the Planner chip reads \"Argentina + 3 more\", so locationOk came back false although all four countries were set (confirmed in the Locations dialog).",
       "should_have_caught": "scripts/kp-extract.js locationOk, which takes one location name only",
-      "fix": null
+      "fix": {
+        "file": "scripts/kp-extract.js",
+        "contains": "An array of countries shows in the bar as"
+      },
+      "closed_note": "2026-11-14, es batch 2: both Latin American subagents again fell back to location 'Argentina' and checked the other three by eye. KP_TARGET.location now takes an array, and locationOk needs one of the countries named plus '+ N more' for the rest; translate-run.md gives the array."
     },
     {
       "id": "kp-pass-coordinate-clicks-overrun",
@@ -2168,7 +2172,11 @@
       "by": "agent",
       "what": "Spanish batch 1 Keyword Planner pass: the location and language dialogs only answered coordinate clicks, so the Spain pass took about 24 browser calls against the cap of 18 and seed set 2 never ran there. In the Latin American pass a missed click on the seed editor sent the typed seeds as keystrokes to the Google Ads page, which navigated to Ads > Ads (no edits seen), and seed set 1 never ran for that location.",
       "should_have_caught": "scripts/kp-run.md, which does not say to confirm the seed editor has focus before typing or how to drive the dialogs without screenshots",
-      "fix": null
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "A second seed set is a fresh subagent, never the same one"
+      },
+      "closed_note": "2026-11-14: focus before typing is kp-run.md step 6 (confirm document.activeElement is the Search input). The skipped seed set 2 is closed by one fresh subagent per seed set, each with its own 24-call cap; es batch 2 ran all four submissions this way."
     },
     {
       "id": "club-baseline-read-next-thumbnails",
@@ -2324,8 +2332,9 @@
       "should_have_caught": "scripts/kp-run.md, a second seed set",
       "fix": {
         "file": "scripts/kp-run.md",
-        "contains": "Remove the old seed chips one at a time"
-      }
+        "contains": "A second seed set is a fresh subagent, never the same one"
+      },
+      "superseded_note": "2026-11-14, es batch 2: the chip-removal rule did not hold. The Spain pass used 22 of 24 calls on set 1, the editor left the Search input off-screen and the chips could not be removed by script. The rule was replaced, not dropped: each seed set now runs in its own fresh subagent from the Keyword Planner home, so no chips are ever removed. See kp-second-seed-set-in-same-pass."
     },
     {
       "id": "translation-brief-misses-festival-roundup-list",
@@ -2336,6 +2345,17 @@
       "fix": {
         "file": "scripts/translation-brief.mjs",
         "contains": "or it is audited as a single-festival page"
+      }
+    },
+    {
+      "id": "kp-second-seed-set-in-same-pass",
+      "found": "2026-11-14",
+      "by": "es batch 2 Spain Keyword Planner pass",
+      "what": "The second seed submission was never run: the first used 22 of the 24 browser calls, and reopening the seed editor on the results page left the Search input off-screen and the old seed chips unremovable by script.",
+      "should_have_caught": "scripts/kp-run.md, which told one subagent to run a second seed set on the same results page within one 24-call cap",
+      "fix": {
+        "file": "scripts/kp-run.md",
+        "contains": "A second seed set is a fresh subagent, never the same one"
       }
     }
   ]

@@ -2527,6 +2527,54 @@ export const spanishArticleCatalog = [
     image:'img/mexico-festivals/mutek-mexico-city-2016-320.webp',
     srcset:'img/mexico-festivals/mutek-mexico-city-2016-320.webp 320w,img/mexico-festivals/mutek-mexico-city-2016-1200.webp 1200w',
     width:1200, height:800, alt:'Una persona que actúa dentro de una proyección de luz en el escenario de MUTEK en Ciudad de México en 2016'
+  },
+  {
+    page:'es/festivales-edm-canada.html', category:'festivals', tags:['discovery','house','techno'], href:'/es/festivales-edm-canada', type:'Lista', topic:'Festivales EDM en Canadá',
+    title:'Festivales EDM en Canadá 2027: VELD, Shambhala, Ile Soniq',
+    description:'Los mejores festivales EDM en Canadá en 2027, con fechas, ciudades y sonido: de VELD en Toronto y el Shambhala Festival en BC a Ile Soniq en Montreal.',
+    image:'img/canada-festivals/veld-deadmau5-2016-320.webp',
+    srcset:'img/canada-festivals/veld-deadmau5-2016-320.webp 320w,img/canada-festivals/veld-deadmau5-2016-1200.webp 1200w',
+    width:1200, height:749, alt:'deadmau5 en el escenario del VELD Music Festival en Toronto en julio de 2016'
+  },
+  {
+    page:'es/mejores-canciones-trance.html', category:'digging', tags:['trance','history'], href:'/es/mejores-canciones-trance', type:'Lista', topic:'Trance',
+    title:'Mejores canciones de trance: 12 temas clásicos, de 1993 a 2012',
+    description:'Las mejores canciones de trance: 12 temas con reproductor, puestos en las listas británicas y votaciones de fans. Con Children, Silence y Adagio for Strings.',
+    image:'img/best-trance-tracks/tiesto-2010-320.webp',
+    srcset:'img/best-trance-tracks/tiesto-2010-320.webp 320w,img/best-trance-tracks/tiesto-2010-1200.webp 1200w',
+    width:1200, height:800, alt:'Tiësto en los platos en una discoteca de Bangkok'
+  },
+  {
+    page:'es/mejores-dj-sets.html', category:'digging', tags:['discovery','house','techno','history'], href:'/es/mejores-dj-sets', type:'Lista', topic:'DJ sets',
+    title:'Los mejores DJ sets de la historia: 30 para escuchar',
+    description:'Los mejores DJ sets de la historia, de Carl Cox en Space y Black Coffee a Tale of Us, Skream y Fabio y Grooverider, cada uno en su grabación oficial.',
+    image:'img/live-dj-sets/the-lot-radio-320.webp',
+    srcset:'img/live-dj-sets/the-lot-radio-320.webp 320w,img/live-dj-sets/the-lot-radio-1200.webp 1200w',
+    width:1200, height:800, alt:'Un DJ en la cabina de The Lot Radio en Brooklyn'
+  },
+  {
+    page:'es/festivales-edm-australia.html', category:'festivals', tags:['discovery','house','techno'], href:'/es/festivales-edm-australia', type:'Lista', topic:'Festivales EDM en Australia',
+    title:'Festivales EDM en Australia 2027: Beyond the Valley, Pitch',
+    description:'Festivales EDM en Australia 2027: Beyond the Valley en Nochevieja, Pitch del 5 al 9 de marzo, Ultra Australia en abril. Fechas, estados y sonido comparados.',
+    image:'img/australia-festivals/grampians-halls-gap-320.webp',
+    srcset:'img/australia-festivals/grampians-halls-gap-320.webp 320w,img/australia-festivals/grampians-halls-gap-1200.webp 1200w',
+    width:1200, height:800, alt:'Los Grampians, en Victoria, vistos desde Halls Gap'
+  },
+  {
+    page:'es/festivales-psytrance.html', category:'festivals', tags:['discovery','history'], href:'/es/festivales-psytrance', type:'Lista', topic:'Festivales de psytrance',
+    title:'Festivales de psytrance 2027: Ozora, Boom y Universo Paralello',
+    description:'Los mejores festivales de psytrance 2027, con fechas, entorno y qué esperar, de Boom en Portugal y Ozora en Hungría a Universo Paralello en Brasil.',
+    image:'img/psytrance-festivals/boom-being-fields-2018-320.webp',
+    srcset:'img/psytrance-festivals/boom-being-fields-2018-320.webp 320w,img/psytrance-festivals/boom-being-fields-2018-1200.webp 1200w',
+    width:1200, height:800, alt:'El Boom Festival visto desde los Being Fields, 2018'
+  },
+  {
+    page:'es/mejores-canciones-techno.html', category:'digging', tags:['techno','discovery','history'], href:'/es/mejores-canciones-techno', type:'Lista', topic:'Clásicos del techno',
+    title:'Mejores canciones techno: nueve temas que forjaron el sonido',
+    description:"Las mejores canciones techno, de No UFO's y Strings of Life a The Bells y Doppler: nueve clásicos, cada uno con reproductor y los datos detrás.",
+    image:'img/best-techno-tracks/richie-hawtin-fabric-320.webp',
+    srcset:'img/best-techno-tracks/richie-hawtin-fabric-320.webp 320w,img/best-techno-tracks/richie-hawtin-fabric-1200.webp 1200w',
+    width:1200, height:900, alt:'Richie Hawtin pinchando en Fabric, Londres'
   }
 ];
 

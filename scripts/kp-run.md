@@ -62,7 +62,7 @@ locations and English: see "Keyword Planner, country and language" in
 
     Rows come sorted: seeds first, then ideas by volume bucket, in Keyword Planner's relevance order within each bucket.
 
-A second seed set in the same session: go back to the results page with "Edit search" or the seed box, then repeat steps 6, 8 and 9. On the results page the editor opens from the "Change existing keywords or website" button; its "Search input" sits off-screen until it opens. Remove the old seed chips one at a time with about 400 ms between clicks (a fast loop leaves 3–5 behind as the DOM re-renders), until only "Exclude adult ideas" is left, then confirm focus as in step 6. Find "Get results" by `textContent`, not `innerText`. The script resets its state on its own when the total changes.
+A second seed set is a fresh subagent, never the same one: start again at step 1 with a new navigation to the Keyword Planner home and "Discover new keywords", with its own cap of 24 browser calls. Reusing the results page cost the es batch 2 Spain pass its second submission: the first submission used 22 calls, the "Change existing keywords or website" editor left the "Search input" off-screen at -182px, and probing for the seed chips' remove buttons returned nothing.
 
 ## What the subagent returns
 

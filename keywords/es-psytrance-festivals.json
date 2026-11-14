@@ -1,0 +1,31 @@
+{
+  "page": "es/festivales-psytrance.html",
+  "seed": "festivales de psytrance",
+  "source": "Google Keyword Planner (Discover new keywords), owner's signed-in account, 14 November 2026, location Spain and, separately, Mexico+Argentina+Colombia+Chile, language Spanish, ranges only (es-batch2 submission 1; universo paralello from submission 2); plus the google.es SERP (hl=es, gl=es) the same day, which showed no People also ask and no related searches. No Ahrefs. No data is not zero: a term with volume null and no bucket is unmeasured.",
+  "note": "Volumes are buckets, not measured. Do not rank pages on them; measure before claiming a target.",
+  "terms": [
+    {"term": "festivales de psytrance", "volume": null, "bucket": "10–100 Spain, 10–100 LatAm (Keyword Planner bucket)", "note": "head term; title, H1, answer, FAQ heading and H2s"},
+    {"term": "festival de psytrance", "volume": null, "bucket": "10–100 Spain, 10–100 LatAm (Keyword Planner bucket)", "note": "biggest H2 \"¿Cuál es el festival de psytrance más grande?\" and How to choose"},
+    {"term": "festivales psytrance", "volume": null, "bucket": "10–100 Spain, 10–100 LatAm (Keyword Planner bucket)", "note": "introduction, first sentence; the URL slug"},
+    {"term": "festivales de psytrance 2027", "volume": null, "note": "title, H1, answer, at-a-glance H2; festival guides carry the next year's dates, no Planner row"},
+    {"term": "festivales de psytrance en europa", "volume": null, "note": "Europe H2 and its first sentence; not measured"},
+    {"term": "festival de psy trance", "volume": null, "note": "FAQ question \"¿Qué es un festival de psy trance?\"; Spanish order of \"psy trance festival\" (100–1K Spain, 10–100 LatAm), not measured itself"},
+    {"term": "ozora festival", "volume": null, "bucket": "1K–10K Spain, 100–1K LatAm (Keyword Planner bucket)", "note": "Ozora H3 body and FAQ question; also covers \"ozora fest\" (1K–10K Spain)"},
+    {"term": "ozora festival 2027", "volume": null, "note": "FAQ question; festival guides carry the next year's dates, no Planner row"},
+    {"term": "boom festival", "volume": null, "bucket": "1K–10K Spain, 100–1K LatAm (Keyword Planner bucket)", "note": "Boom H3 body, image alt and FAQ question"},
+    {"term": "universo paralello", "volume": null, "bucket": "100–1K Spain, 1K–10K LatAm (Keyword Planner bucket)", "note": "title, H1 and H3"}
+  ],
+  "expansion_checked": "Keyword Planner ideas for festivales psytrance, festival de psytrance, ozora festival and boom festival (kp-es-2 submission 1, Spain and LatAm), and universo paralello (submission 2, Spain and LatAm). The SERP gave no wording, so all Spanish phrasing beyond these rows is not measured.",
+  "rejected": [
+    {"term": "psy trance festival", "reason": "100–1K Spain, 10–100 LatAm; English word order, no natural Spanish sentence carries it. The page writes \"festival de psy trance\""},
+    {"term": "universo paralello festival", "reason": "100–1K Spain and LatAm; Spanish writes \"el festival Universo Paralello\", and the exact order would be forced"},
+    {"term": "boom portugal", "reason": "100–1K Spain; the page writes \"Boom, Portugal\" and \"Boom en Portugal\", and the exact order would be forced"},
+    {"term": "boom fest", "reason": "1K–10K Spain, 100–1K LatAm; shares its rows with \"boom boom fest\", an unrelated event, and the page uses the organiser's name Boom Festival"},
+    {"term": "boom festival entradas", "reason": "10–100; English order. The page writes \"las entradas de Boom\""},
+    {"term": "boom festival tickets", "reason": "10–100 Spain; English word, Spanish pages say \"entradas\""},
+    {"term": "ozora tickets", "reason": "10–100; English word, Spanish pages say \"entradas\""},
+    {"term": "boom festival camping", "reason": "10–100; the English page has no camping section"},
+    {"term": "ozora festival camping", "reason": "10–100; the English page has no camping section"},
+    {"term": "tickets universo paralello", "reason": "10–100; English word, and the English page has no tickets line for Universo Paralello"}
+  ]
+}

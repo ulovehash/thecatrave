@@ -562,3 +562,14 @@ Canada festivals, Australia festivals, psytrance festivals, best trance tracks, 
 - **Review.** Six Sonnet reviews, all read both rule files whole. Open items ruled: trance leaves the EDM Tunes source out (no URL, as in en and de); Canada "Parmi les festivals électro" became "Côté électro", measured phrase kept. Australia and psytrance now link each other's fr pages.
 - **Audit fixes.** Trance title cut to 58 chars. The three fr festival roundups were missing from the roundups list in `audit-next-festival-guides.mjs`; added, and `translation-brief.mjs` now prints that line (defect `translation-brief-misses-festival-roundup-list`).
 - **Cost.** cost: 24.05M, 6 pages, 4.01M/page; main 7.02M in 61 steps, subagents 17.03M in 16. Over 2M/page and 40 steps because of the KP overrun (two KP subagents, 4.0M) and the usage-limit pause.
+
+### Spanish batch 2 (14 November 2026)
+
+Canada festivals, Australia festivals, psytrance festivals, best trance tracks, best techno tracks, best DJ sets of all time.
+
+- **Method.** Keyword Planner via Claude in Chrome, 14 November 2026, Spain first, then Mexico, Argentina, Colombia and Chile together; four submissions, each in a fresh Sonnet subagent, plus one Spanish SERP read (no PAA or related searches, so SERP wording is not measured). Not measured: the Canada and Australia head terms and the "mejores dj sets" variants (no row; volume null in the maps).
+- **KP overran.** The Spain pass lost its second submission when the seed editor's input sat off-screen; logged (`kp-second-seed-set-in-same-pass`) and `kp-run.md` now runs each seed set in its own fresh subagent. `kp-extract.js` now accepts an array of countries (closes `kp-extract-location-multi-country`).
+- **Writers.** One Opus writer per page; media unchanged, captions translated. Slugs: festivales-edm-canada, festivales-edm-australia, festivales-psytrance, mejores-canciones-trance, mejores-canciones-techno, mejores-dj-sets. The techno "top 20" FAQ is translated from the English answer, and one extra FAQ on 80s and 90s records carries measured terms, as in de.
+- **Review.** Six Sonnet reviews, all read both rule files whole: 14 findings, 14 applied, none open. No title, H1 or description changed.
+- **Audit fixes.** The three es festival roundups added to `audit-next-festival-guides.mjs` and `festival-editions.mjs`; psytrance now links the es Australia page.
+- **Cost.** cost: 25.85M, 6 pages, 4.31M/page; main 6.09M in 49 steps, subagents 19.75M in 17. Over 2M/page and 40 steps because of the four KP subagents and the re-run Spain pass.
